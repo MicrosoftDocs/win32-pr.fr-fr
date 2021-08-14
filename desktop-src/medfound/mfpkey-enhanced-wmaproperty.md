@@ -4,12 +4,12 @@ ms.assetid: 1ace09da-7dee-469e-a533-63b40ac747ab
 title: MFPKEY_ENHANCED_WMA, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df1c7ddc0e7bfb6d62d51e535f10b257eac6f2ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1ab3fdcd3087773ea760615224b148bd497c1f89114c0f761a7d2f90fb0b5a8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118738016"
 ---
 # <a name="mfpkey_enhanced_wma-property"></a>MFPKEY \_ , \_ propriété WMA améliorée
 
@@ -27,9 +27,9 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 0
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette propriété n’est disponible que pour les Windows Media Audio sans perte.
+cette propriété n’est disponible que pour les Windows Media Audio sans perte.
 
 Si vous laissez cette propriété à sa valeur par défaut égale à 0 ou si vous la définissez sur 1, l’encodeur principal détermine si la partie « plus » doit être utilisée. Si vous affectez à cette propriété la valeur 2, l’encodeur principal n’utilise pas la fonctionnalité « plus ».
 

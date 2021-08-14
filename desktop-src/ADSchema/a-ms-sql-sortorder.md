@@ -4,8 +4,8 @@ description: Ordre de tri de l’instance actuelle de SQL Server.
 ms.assetid: cd58cb56-19aa-4ee6-b241-1198b3e9e097
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut MS-SQL-SortOrder
-- Schéma AD de l’attribut mS-SQL-SortOrder
+- schéma AD de l’attribut MS-SQL-SortOrder
+- schéma AD de l’attribut mS-SQL-SortOrder
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 940dafa4cc9bfce15ae1a5df472720e6e779f19e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 52af99f17be381db7499e453b9e1f5419a45a3c92c57a80a8defd752486597f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106511194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686586"
 ---
 # <a name="ms-sql-sortorder-attribute"></a>MS-SQL-SortOrder (attribut)
 
@@ -45,7 +45,7 @@ Ordre de tri de l’instance actuelle de SQL Server.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Ordre de tri de l’instance actuelle de SQL Server.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -78,10 +78,10 @@ Ordre de tri de l’instance actuelle de SQL Server.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -99,10 +99,10 @@ Ordre de tri de l’instance actuelle de SQL Server.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -120,10 +120,10 @@ Ordre de tri de l’instance actuelle de SQL Server.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -141,10 +141,10 @@ Ordre de tri de l’instance actuelle de SQL Server.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -162,10 +162,10 @@ Ordre de tri de l’instance actuelle de SQL Server.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |

@@ -3,9 +3,9 @@ title: Player. MouseUp, événement
 description: L’événement MouseUp se produit lorsque l’utilisateur relâche un bouton de la souris. | Player. MouseUp, événement
 ms.assetid: 0f209fc4-2aad-46b1-84ba-2bfbecbe2930
 keywords:
-- Événement MouseUp lecteur Windows Media
-- Événement MouseUp lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement MouseUp
+- Lecteur Windows Media d’événement MouseUp
+- Lecteur Windows Media d’événements MouseUp, classe Player
+- classe Player Lecteur Windows Media, événement MouseUp
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50883ed8e5ea5696bd3aef1c5170959814de3026
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 728259d1a64367101da3645e15c0274ef01fc9115ec6fb98c29c5c2a7baf2970
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118835208"
 ---
 # <a name="playermouseup-event"></a>Player. MouseUp, événement
 
@@ -77,9 +77,9 @@ Player.MouseUp(
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La valeur des paramètres d’événement est spécifiée par le lecteur Windows Media et est accessible ou transmise à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
+la valeur des paramètres d’événement est spécifiée par Lecteur Windows Media, et est accessible ou passée à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 

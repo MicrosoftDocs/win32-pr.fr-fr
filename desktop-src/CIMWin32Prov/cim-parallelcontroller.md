@@ -39,12 +39,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bc21290de08b6e22c0bc69ec127f3c996ee5b65e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c1aea36930de2d084f5875a827a484d00852c31f2b26ff996375beb286c67dc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118679085"
 ---
 # <a name="cim_parallelcontroller-class"></a>\_Classe CIM ParallelController
 
@@ -106,7 +106,7 @@ La classe **CIM \_ ParallelController** possède ces méthodes.
 
 | Méthode                                                                        | Description                                                                                                                              |
 |:------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**Réinitialiser**](reset-method-in-class-cim-parallelcontroller.md)                 | Demande la réinitialisation de l’unité logique. Non implémenté par WMI.<br/>                                                               |
+| [**Initialisation**](reset-method-in-class-cim-parallelcontroller.md)                 | Demande la réinitialisation de l’unité logique. Non implémenté par WMI.<br/>                                                               |
 | [**SetPowerState**](setpowerstate-method-in-class-cim-parallelcontroller.md) | Définit l’état d’alimentation souhaité pour un périphérique logique et lorsqu’un appareil doit être placé dans cet État. Non implémenté par WMI.<br/> |
 
 
@@ -1217,7 +1217,7 @@ Les valeurs sont les suivantes :
 
 <span id="SCSI_Serial_Storage_Architecture"></span><span id="scsi_serial_storage_architecture"></span><span id="SCSI_SERIAL_STORAGE_ARCHITECTURE"></span>
 
-**Architecture de stockage en série SCSI** (13)
+**Architecture de Stockage de série SCSI** (13)
 
 
 </dt> <dd></dd> <dt>
@@ -1672,7 +1672,7 @@ Cette propriété est héritée [**du \_ contrôleur CIM**](cim-controller.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ ParallelController** est dérivée [**du \_ contrôleur CIM**](cim-controller.md).
 

@@ -4,12 +4,12 @@ description: La clé de Registre PeapServerAcceptAllPurposeCert détermine si le
 ms.assetid: 59C58459-7735-4733-9F95-646864802D70
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b291696c6bee90b4f980d8f96ad96faf40fe3376
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 8d568ef2cf3e7fd5eeeaa650e5e6e4fd32a8e1c8d6baa0ed91434a5c0aa60ee0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106543044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118784681"
 ---
 # <a name="peapserveracceptallpurposecert"></a>PeapServerAcceptAllPurposeCert
 
@@ -19,10 +19,10 @@ La clé de Registre PeapServerAcceptAllPurposeCert détermine si les certificats
 
 ```
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\25
-   PeapServerAcceptAllPurposeCert = value
+   PeapServerAcceptAllPurposeCert = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **Registre \_ DWORD** .
 
@@ -35,7 +35,7 @@ Il s’agit d’une valeur de **Registre \_ DWORD** .
 
 
 
- 
+ 
 
 Si cette valeur de Registre n’est pas présente, le serveur et le client acceptent les certificats à usage général envoyés par l’autre partie pour l’authentification PEAP.
 
@@ -43,12 +43,12 @@ Si cette valeur de Registre n’est pas présente, le serveur et le client accep
 
 <dl> <dt>
 
-[Paramètres du Registre EAPHost](eaphost-registry-settings.md)
+[Paramètres du registre EAPHost](eaphost-registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

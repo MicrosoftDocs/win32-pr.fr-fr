@@ -4,12 +4,12 @@ ms.assetid: 29D1CCCA-CC11-46F1-A094-8BA8F74F7EE9
 title: Attribut MF_MT_VIDEO_PROFILE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf6dbf8d324c7a451c1d2affb9f348a3ef2e1806
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d2af7c6ebbbbb78626e96385a6eda5a25c38a3ae8473fac866866248570cc48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741392"
 ---
 # <a name="mf_mt_video_profile-attribute"></a>\_Attribut de \_ Profil vidéo MF MT \_
 
@@ -19,7 +19,7 @@ Spécifie le profil d’encodage vidéo sur le type de média de sortie. Il s’
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Encodeurs H. 264 :**
 
@@ -38,7 +38,7 @@ Valeur par défaut recommandée : [**eAVEncH264VProfile \_ main**](/windows/des
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

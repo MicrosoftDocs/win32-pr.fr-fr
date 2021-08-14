@@ -4,12 +4,12 @@ ms.assetid: 10770f16-8db2-4719-bce3-452f578002ec
 title: Stratégie de métadonnées de photo System. image. ColorSpace
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b6ef2003d05fa19b958b28950f71ec2d5f73027
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85c7d7c9134a8bd93a12ba6cfb6bd8605e228cb6b745ad4401a94f91a2ba9ff9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710419"
 ---
 # <a name="systemimagecolorspace-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. image. ColorSpace
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. image. colo
 
 Image de la \_ \_ ColorSpace
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 40961} | ushort      |
 | 2     | /xmp/exif:ColorSpace          | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 40961} | ushort      |
 | 2     | /xmp/exif:ColorSpace          | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 40961} |
 | 2     | /xmp/exif:colorspace          |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                     | Format de disque |
+| Commande | Chemin                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 40961} | ushort      |
 | 2     | /ifd/xmp/exif:ColorSpace | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                     | Format de disque |
+| Commande | Chemin                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 40961} | ushort      |
 | 2     | /ifd/xmp/exif:ColorSpace | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                     |
+| Commande | Chemin                     |
 |-------|--------------------------|
 | 1     | /IFD/EXIF/{UShort = 40961} |
 | 2     | /ifd/xmp/exif:colorspace |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

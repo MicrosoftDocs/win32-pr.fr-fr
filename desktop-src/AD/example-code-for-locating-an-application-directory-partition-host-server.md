@@ -8,12 +8,12 @@ keywords:
 - Partition de l’annuaire d’applications Active Directory, exemple de code pour localiser un serveur hôte de partition d’annuaire d’applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa82c91573e0ce00017fe93b8e8713f50ab7b26c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03d7a218acf3608c18587b7d9b9c82779f17fd6eb251608a86d99d8acb3b7bd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118693598"
 ---
 # <a name="example-code-for-locating-an-application-directory-partition-host-server"></a>Exemple de code pour la localisation d’un serveur hôte de partition d’annuaire d’applications
 
@@ -131,9 +131,9 @@ DWORD PrintDCFromAppPartition(LPCTSTR pszAppPartitionDN)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

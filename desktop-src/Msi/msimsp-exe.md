@@ -1,19 +1,19 @@
 ---
-description: La méthode recommandée pour générer un package de correctif consiste à utiliser des outils de création de correctifs tels que Msimsp.exe et Patchwiz.dll. L’outil Msimsp.exe est disponible uniquement dans les composants SDK Windows pour les développeurs Windows Installer.
+description: La méthode recommandée pour générer un package de correctif consiste à utiliser des outils de création de correctifs tels que Msimsp.exe et Patchwiz.dll. l’outil Msimsp.exe est disponible uniquement dans les composants SDK Windows pour les développeurs Windows Installer.
 ms.assetid: fa8e9d68-3db1-4d17-aa99-2ca0ed421c7a
 title: Msimsp.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1810fd0c544695742273bbb0e63b22138529c129
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: aa82f2fbefc9046877f4f98cf4a3c126d94e6542b60076f0491bd0f311ee00a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106520249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118627796"
 ---
 # <a name="msimspexe"></a>Msimsp.exe
 
-La méthode recommandée pour générer un package de correctif consiste à utiliser des outils de création de correctifs tels que Msimsp.exe et [Patchwiz.dll](patchwiz-dll.md). L’outil Msimsp.exe est disponible uniquement dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
+La méthode recommandée pour générer un package de correctif consiste à utiliser des outils de création de correctifs tels que Msimsp.exe et [Patchwiz.dll](patchwiz-dll.md). l’outil Msimsp.exe est disponible uniquement dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
 
 Msimsp.exe est un fichier exécutable qui appelle [Patchwiz.dll](patchwiz-dll.md). L’outil peut être utilisé pour créer un package de correctifs en passant le chemin d’accès à un fichier de propriétés de création de correctifs (fichier. PCP) et le chemin d’accès au package de correctifs en cours de création. Msimsp. ex peut également être utilisé pour créer un fichier journal et pour spécifier un dossier temporaire dans lequel les transformations, les armoires et les fichiers utilisés pour créer le package de correctif sont enregistrés.
 
@@ -42,35 +42,35 @@ Cette valeur est obligatoire et suivie du chemin d’accès au package de correc
 <span id="-fpath_to_temporary_folder"></span><span id="-FPATH_TO_TEMPORARY_FOLDER"></span>**-f**_chemin d’accès au dossier temporaire_
 </dt> <dd>
 
-Optionnel. Suivi du chemin d’accès au dossier temporaire. L’emplacement par défaut est% TMP% \\ ~ PCW \_ tmp. tmp \\ .
+Facultatif. Suivi du chemin d’accès au dossier temporaire. L’emplacement par défaut est% TMP% \\ ~ PCW \_ tmp. tmp \\ .
 
 </dd> <dt>
 
 <span id="-k"></span><span id="-K"></span>**-k**
 </dt> <dd>
 
-Optionnel. Échoue si le dossier temporaire existe déjà.
+Facultatif. Échoue si le dossier temporaire existe déjà.
 
 </dd> <dt>
 
 <span id="-lpath_to_log_file"></span><span id="-LPATH_TO_LOG_FILE"></span>**-l**_chemin du fichier journal_
 </dt> <dd>
 
-Optionnel. Suivi du chemin d’accès au fichier journal décrivant le processus de création des correctifs et les erreurs. Pour plus d’informations, consultez [valeurs de retour pour UiCreatePatchPackage](return-values-for-uicreatepatchpackage.md).
+Facultatif. Suivi du chemin d’accès au fichier journal décrivant le processus de création des correctifs et les erreurs. Pour plus d’informations, consultez [valeurs de retour pour UiCreatePatchPackage](return-values-for-uicreatepatchpackage.md).
 
 </dd> <dt>
 
 <span id="-lppath_to_log_file_with_performance_data"></span><span id="-LPPATH_TO_LOG_FILE_WITH_PERFORMANCE_DATA"></span>**-**_chemin d’accès LP au fichier journal avec les données de performances_
 </dt> <dd>
 
-Optionnel. Suivi du chemin d’accès au fichier journal décrivant le processus de création des correctifs et les erreurs. Cette option permet d’écrire les données de performances dans le fichier journal. Cette option requiert la version 4,0 de Patchwiz.dll.
+Facultatif. Suivi du chemin d’accès au fichier journal décrivant le processus de création des correctifs et les erreurs. Cette option permet d’écrire les données de performances dans le fichier journal. Cette option requiert la version 4,0 de Patchwiz.dll.
 
 </dd> <dt>
 
 <span id="-d"></span><span id="-D"></span>**-d**
 </dt> <dd>
 
-Optionnel. Affiche une boîte de dialogue si la création du correctif se termine correctement.
+Facultatif. Affiche une boîte de dialogue si la création du correctif se termine correctement.
 
 </dd> <dt>
 
@@ -82,7 +82,7 @@ Affiche l'aide de la ligne de commande.
 </dd> </dl>
 
 > [!Note]
-> Msimsp.exe peut échouer lorsqu’il appelle Makecab.exe s’il existe des valeurs dans la colonne fichier de la [table de fichiers](file-table.md) du package d’installation qui diffèrent uniquement par la casse. Windows Installer est sensible à la casse et permet à un package d’installation comme dans le tableau ci-dessous uniquement lorsque COMP1 et Comp2 sont installés dans des répertoires différents. Toutefois, dans ce scénario, vous ne pouvez pas utiliser Msimsp.exe ou [Patchwiz.dll](patchwiz-dll.md) pour générer un correctif pour le package, car Msimsp.exe et Patchwiz.dll appellent Makecab.exe, ce qui ne respecte pas la casse.
+> Msimsp.exe peut échouer lorsqu’il appelle Makecab.exe s’il existe des valeurs dans la colonne fichier de la [table de fichiers](file-table.md) du package d’installation qui diffèrent uniquement par la casse. Windows Le programme d’installation est sensible à la casse et autorise un package d’installation comme dans le tableau ci-dessous uniquement lorsque COMP1 et Comp2 sont installés dans des répertoires différents. Toutefois, dans ce scénario, vous ne pouvez pas utiliser Msimsp.exe ou [Patchwiz.dll](patchwiz-dll.md) pour générer un correctif pour le package, car Msimsp.exe et Patchwiz.dll appellent Makecab.exe, ce qui ne respecte pas la casse.
 > 
 > Évitez de créer un package d’installation, tel que la [table de fichiers](file-table.md)partielle suivante.
 > 
@@ -102,7 +102,7 @@ Affiche l'aide de la ligne de commande.
 [Exemple de mise à jour corrective de petite taille](a-small-update-patching-example.md)
 </dt> <dt>
 
-[Outils de développement Windows Installer](windows-installer-development-tools.md)
+[Windows Outils de développement du programme d’installation](windows-installer-development-tools.md)
 </dt> <dt>
 
 [Versions, outils et redistribuables publiés](released-versions-tools-and-redistributables.md)

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b0d9a50ed05a651d7dd2d029d1c0b21c247c0ed
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a6b217beb1f55d37157d09f54819859af105a42d7959da511209d5e540ef238e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118687541"
 ---
 # <a name="min-pwd-length-attribute"></a>Attribut min-pwd-length
 
@@ -36,7 +36,7 @@ Nombre minimal de caractères qu’un mot de passe doit contenir.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.79                |
 | System-ID-GUID    | bf9679c3-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Nombre minimal de caractères qu’un mot de passe doit contenir.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Nombre minimal de caractères qu’un mot de passe doit contenir.
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
-| System-Only            | Faux                                                                                                                                                 |
-| Est de valeur unique       | Vrai                                                                                                                                                  |
-| Est indexé             | Faux                                                                                                                                                 |
-| Dans le catalogue global      | Faux                                                                                                                                                 |
+| System-Only            | False                                                                                                                                                 |
+| Est de valeur unique       | True                                                                                                                                                  |
+| Est indexé             | False                                                                                                                                                 |
+| Dans le catalogue global      | False                                                                                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                          |
 | Range-Lower            | \-                                                                                                                                                    |
 | Range-Upper            | \-                                                                                                                                                    |
@@ -78,10 +78,10 @@ Nombre minimal de caractères qu’un mot de passe doit contenir.
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
-| System-Only            | Faux                                                                                                                                                 |
-| Est de valeur unique       | Vrai                                                                                                                                                  |
-| Est indexé             | Faux                                                                                                                                                 |
-| Dans le catalogue global      | Faux                                                                                                                                                 |
+| System-Only            | False                                                                                                                                                 |
+| Est de valeur unique       | True                                                                                                                                                  |
+| Est indexé             | False                                                                                                                                                 |
+| Dans le catalogue global      | False                                                                                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                          |
 | Range-Lower            | \-                                                                                                                                                    |
 | Range-Upper            | \-                                                                                                                                                    |
@@ -99,10 +99,10 @@ Nombre minimal de caractères qu’un mot de passe doit contenir.
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
-| System-Only            | Faux                                                                                                                                                 |
-| Est de valeur unique       | Vrai                                                                                                                                                  |
-| Est indexé             | Faux                                                                                                                                                 |
-| Dans le catalogue global      | Faux                                                                                                                                                 |
+| System-Only            | False                                                                                                                                                 |
+| Est de valeur unique       | True                                                                                                                                                  |
+| Est indexé             | False                                                                                                                                                 |
+| Dans le catalogue global      | False                                                                                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                          |
 | Range-Lower            | \-                                                                                                                                                    |
 | Range-Upper            | \-                                                                                                                                                    |
@@ -120,10 +120,10 @@ Nombre minimal de caractères qu’un mot de passe doit contenir.
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
-| System-Only            | Faux                                                                                                                                                 |
-| Est de valeur unique       | Vrai                                                                                                                                                  |
-| Est indexé             | Faux                                                                                                                                                 |
-| Dans le catalogue global      | Faux                                                                                                                                                 |
+| System-Only            | False                                                                                                                                                 |
+| Est de valeur unique       | True                                                                                                                                                  |
+| Est indexé             | False                                                                                                                                                 |
+| Dans le catalogue global      | False                                                                                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                          |
 | Range-Lower            | \-                                                                                                                                                    |
 | Range-Upper            | \-                                                                                                                                                    |
@@ -141,10 +141,10 @@ Nombre minimal de caractères qu’un mot de passe doit contenir.
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
-| System-Only            | Faux                                                                                                                                                 |
-| Est de valeur unique       | Vrai                                                                                                                                                  |
-| Est indexé             | Faux                                                                                                                                                 |
-| Dans le catalogue global      | Faux                                                                                                                                                 |
+| System-Only            | False                                                                                                                                                 |
+| Est de valeur unique       | True                                                                                                                                                  |
+| Est indexé             | False                                                                                                                                                 |
+| Dans le catalogue global      | False                                                                                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                          |
 | Range-Lower            | \-                                                                                                                                                    |
 | Range-Upper            | \-                                                                                                                                                    |
@@ -162,10 +162,10 @@ Nombre minimal de caractères qu’un mot de passe doit contenir.
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
-| System-Only            | Faux                                                                                                                                                 |
-| Est de valeur unique       | Vrai                                                                                                                                                  |
-| Est indexé             | Faux                                                                                                                                                 |
-| Dans le catalogue global      | Faux                                                                                                                                                 |
+| System-Only            | False                                                                                                                                                 |
+| Est de valeur unique       | True                                                                                                                                                  |
+| Est indexé             | False                                                                                                                                                 |
+| Dans le catalogue global      | False                                                                                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                          |
 | Range-Lower            | \-                                                                                                                                                    |
 | Range-Upper            | \-                                                                                                                                                    |

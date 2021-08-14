@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 98bafae39819b16b479df22fe6560888ef15d8e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a11c131188cdd5230d309a6ff2e39a77ac7886333dafd9860d565fdcb10efc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939026"
 ---
 # <a name="expertframedescriptor-structure"></a>EXPERTFRAMEDESCRIPTOR, structure
 
@@ -78,7 +78,7 @@ Table de propriétés de frame identifiée par l’analyseur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’expert spécifie des \_ propriétés d’attachement de balises \_ lors de l’appel de [**ExpertGetFrame**](expertgetframe.md), le membre **szPropertyText** dans chaque structure [**PROPERTYINST**](propertyinst.md) a la **valeur null**.
 

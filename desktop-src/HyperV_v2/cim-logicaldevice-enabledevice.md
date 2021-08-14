@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5a6da7695d7e611223a3a257be23add16094b533
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a01d1b206d0d38f74c5701c8c088506792cb6ca6f997b9e0280adcc61e5a8633
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118648524"
 ---
 # <a name="enabledevice-method-of-the-cim_logicaldevice-class"></a>Méthode EnableDevice de la \_ classe du LOGICALDEVICE CIM
 

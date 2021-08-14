@@ -8,12 +8,12 @@ keywords:
 - modèles de contrôle, TextEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdf8512db4f676a263bf46bdbdfea7b6b7eaba11
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fc30701639301a49f23637067f5c8666f13b0276de4133e151b5e528af1f1ae1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118827799"
 ---
 # <a name="textedit-control-pattern"></a>TextEdit (modèle de contrôle)
 
@@ -30,7 +30,7 @@ Ces propriétés et méthodes sont requises pour implémenter l’interface [**I
 
 
 
-| Membres nécessaires                                                              | Type de membre | Notes                                                                                                                                                                                                                                                                                   |
+| Membres nécessaires                                                              | Type de membre | Remarques                                                                                                                                                                                                                                                                                   |
 |-------------------------------------------------------------------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetActiveComposition**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itexteditprovider-getactivecomposition) | Méthode      | Retourne la plage de la conversion actuelle (None s’il n’y a pas de conversion). Retourne la composition active (dans TSF, il s’agit de la plage marquée par la **\_ \_ composition GUID prop**). Par exemple, dans l’éditeur de méthode d’entrée (IME) japonais de Microsoft, il s’agit du texte entièrement souligné. |
 | [**GetConversionTarget**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itexteditprovider-getconversiontarget)   | Méthode      | Retourne la plage cible de conversion actuelle (None si aucune conversion). Dans TSF, il s’agit de la plage de caractères marqués **tf \_ attr \_ target \_ NOTCONVERTED** ou **tf \_ attr \_ target \_ converti** à partir de la structure **\_ DISPLAYATTRIBUTE TF** .                                               |
@@ -48,7 +48,7 @@ Les événements **TextEditTextChanged** et **ConversionTargetChanged** doivent 
 
 
 
-| TextEditChangeType                                            | Charge utile d'un événement                                | Notes                                                                                                                                                                                                                                                                                                                                                                                        |
+| TextEditChangeType                                            | Charge utile d'un événement                                | Remarques                                                                                                                                                                                                                                                                                                                                                                                        |
 |---------------------------------------------------------------|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Correction automatique**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-texteditchangetype)          | Nouvelle chaîne corrigée                         | Déclenché lorsqu’une correction automatique est effectuée par le contrôle. Ou chaque fois qu’un remplacement est effectué via TSF et que la plage a une valeur **GUID \_ prop \_ TKB \_ alternatives** de **TKB \_ alternatives la \_ Correction automatique est \_ appliquée**.<br/>                                                                                                                                                                   |
 | [**Composition**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-texteditchangetype)          | Chaîne mise à jour                           | La charge utile ne doit inclure que les caractères qui ont changé (n’envoyez pas la totalité de la chaîne de composition). Déclenché chaque fois qu’un remplacement de composition est effectué. Dans TSF, le remplacement d’une composition est défini comme un remplacement dont l’indicateur de **\_ \_ composition GUID prop** est défini. Les contrôles d’édition qui implémentent TSF peuvent surveiller ces modifications via la notification **OnEndEdit** .<br/>         |

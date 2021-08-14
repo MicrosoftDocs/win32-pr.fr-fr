@@ -4,12 +4,12 @@ ms.assetid: 4723cc02-8c48-488e-95b8-c646a99b6aab
 title: Octets de balise encodés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a5994f7beea0aba6896e94cb992a1e72eb70914
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27face1fe04cf52c79d6c4047f87f58e98f2bc1a7b7656109341c9ce2be59d0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118904320"
 ---
 # <a name="encoded-tag-bytes"></a>Octets de balise encodés
 
@@ -21,12 +21,12 @@ Le tableau suivant répertorie les types de données pris en charge par l’API 
 
 | Type              | Classe ASN. 1 | Formulaire de codage | Valeur de la balise                             |
 |-------------------|-------------|---------------|---------------------------------------|
-| CHAÎNE DE BITS        | UNIVERSELLE   | Primitives     | 00000011<br/> 0x03<br/> |
-| BOOLEAN           | UNIVERSELLE   | Primitives     | 00000001<br/> 0x01<br/> |
-| INTEGER           | UNIVERSELLE   | Primitives     | 00000010<br/> 0x02<br/> |
-| NULL              | UNIVERSELLE   | Primitives     | 00000101<br/> 0x05<br/> |
-| IDENTIFICATEUR D’OBJET | UNIVERSELLE   | Primitives     | 00000110<br/> 0x06<br/> |
-| CHAÎNE D’OCTETS      | UNIVERSELLE   | Primitives     | 00000100<br/> 0x04<br/> |
+| CHAÎNE DE BITS        | UNIVERSELLE   | Primitives     | 00000011<br/> (0x03)<br/> |
+| BOOLEAN           | UNIVERSELLE   | Primitives     | 00000001<br/> (0x01)<br/> |
+| INTEGER           | UNIVERSELLE   | Primitives     | 00000010<br/> (0x02)<br/> |
+| NULL              | UNIVERSELLE   | Primitives     | 00000101<br/> (0x05)<br/> |
+| IDENTIFICATEUR D’OBJET | UNIVERSELLE   | Primitives     | 00000110<br/> (0x06)<br/> |
+| CHAÎNE D’OCTETS      | UNIVERSELLE   | Primitives     | 00000100<br/> (0x04)<br/> |
 | BMPString         | UNIVERSELLE   | Primitives     | 00011110<br/> 0X1E<br/> |
 | IA5String         | UNIVERSELLE   | Primitives     | 00010110<br/> (0x16)<br/> |
 | PrintableString   | UNIVERSELLE   | Primitives     | 00010011<br/> 0x13<br/> |

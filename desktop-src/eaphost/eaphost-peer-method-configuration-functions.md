@@ -4,12 +4,12 @@ description: En savoir plus sur les fonctions de configuration des méthodes hom
 ms.assetid: ba5c90b2-5185-4810-84a2-d08e62e8105c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3081f8a54482c48c7c506a25bfaf7f18cf3193ff
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 355784647be6c6e13d4110303d544670e80ce09e7f9f99be02b662205e8ead82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106509471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118785194"
 ---
 # <a name="eaphost-peer-method-configuration-functions"></a>Fonctions de configuration des méthodes homologues EAPHost
 
@@ -34,7 +34,7 @@ Les fonctions de configuration de l’API de méthode d’homologue EAP sont les
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -43,9 +43,9 @@ Les fonctions de configuration de l’API de méthode d’homologue EAP sont les
 [Fonctions de Run-Time de la méthode homologue EAPHost](eaphost-peer-method-run-time-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

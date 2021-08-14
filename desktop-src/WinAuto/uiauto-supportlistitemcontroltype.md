@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, ListItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5093ef62793d96a5438c27edd29e96a96cfa407
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c7fc7df30fc9aeebbabd5a5fdb9572c9f4b81bda4507eac751f283841a14054a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118825551"
 ---
 # <a name="listitem-control-type"></a>ListItem (type de contrôle)
 
@@ -81,7 +81,7 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 
 
- 
+ 
 
 Les enfants d’un contrôle d’élément de liste dans l’affichage de contenu de l’arborescence UI Automation doivent toujours afficher des enfants nuls. Si la structure du contrôle est telle que d’autres éléments sont contenus sous l’élément de liste, il doit suivre les spécifications de la prise en charge d’UI Automation pour le type de contrôle [TreeItem](uiauto-supporttreeitemcontroltype.md) .
 
@@ -91,7 +91,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur        | Notes                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Propriété UI Automation                                                                                              | Valeur        | Remarques                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques.   | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation. Allouez la propriété **AutomationId** pour un élément de liste si l’élément est connu pour être cohérent entre les différentes instances de l’interface utilisateur. Si l’élément de liste est rempli dynamiquement et n’est pas prévisible, laissez la propriété **AutomationId** vide.                                                          |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques.   | La valeur de cette propriété doit inclure la zone de contenu de l’image et du texte de l’élément de liste.                                                                                                                                                                                                                                                                                                                              |
@@ -110,7 +110,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -122,7 +122,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 |-------------------------------------------------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IExpandCollapseProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider) | Dépend | Si l’élément peut être manipulé pour afficher ou masquer des informations, le modèle de contrôle [ExpandCollapse](uiauto-implementingexpandcollapse.md) doit être implémenté.                                                                                                                                                                                                                        |
 | [**IGridItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-igriditemprovider)             | Dépend | Si la navigation spatiale d’un élément à un élément est prise en charge dans le conteneur de liste, et si le conteneur est organisé en lignes et en colonnes, le modèle de contrôle [GridItem](uiauto-implementinggriditem.md) doit être implémenté.                                                                                                                                                                  |
-| [**IInvokeProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iinvokeprovider)                 | Dépend | Si l’élément a une commande qui peut être exécutée sur celui-ci, séparément de la sélection, le modèle de contrôle [Invoke](uiauto-implementinginvoke.md) doit être implémenté. Il s’agit généralement d’une action associée au double-clic sur le contrôle d’élément de liste. Les exemples sont le lancement d’un document à partir de l’Explorateur Windows ou la lecture d’un fichier de musique dans Microsoft Windows Media Player.        |
+| [**IInvokeProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iinvokeprovider)                 | Dépend | Si l’élément a une commande qui peut être exécutée sur celui-ci, séparément de la sélection, le modèle de contrôle [Invoke](uiauto-implementinginvoke.md) doit être implémenté. Il s’agit généralement d’une action associée au double-clic sur le contrôle d’élément de liste. les exemples sont le lancement d’un document à partir de Windows Explorer ou la diffusion d’un fichier musical dans Microsoft Lecteur Windows Media.        |
 | [**IScrollItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iscrollitemprovider)         | Dépend | Si l’élément de liste est contenu dans un conteneur qui peut faire l’objet d’un défilement, le modèle de contrôle [ScrollItem](uiauto-implementingscrollitem.md) doit être implémenté.                                                                                                                                                                                                                       |
 | [**ISelectionItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider)   | Dépend | Un contrôle d’élément de liste qui prend en charge la sélection doit implémenter le modèle de contrôle [SelectionItem](uiauto-implementingselectionitem.md) . Cela permet aux contrôles d’élément de liste de transmettre des informations quand ils sont sélectionnés.                                                                                                                                                                             |
 | [**IToggleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itoggleprovider)                 | Dépend | Si l’élément de liste est sélectionnable et que l’action n’effectue pas de changement d’état de sélection, le modèle de contrôle [Toggle](uiauto-implementingtoggle.md) doit être implémenté.                                                                                                                                                                                                            |
@@ -130,7 +130,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -138,7 +138,7 @@ Le tableau suivant répertorie les événements UI Automation qui répertorient 
 
 
 
-| Événement UI Automation                                                                                                                                                | Notes                                                                                                                            |
+| Événement UI Automation                                                                                                                                                | Remarques                                                                                                                            |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                                                   |                                                                                                                                  |
 | [**UIA \_**](uiauto-automation-element-propids.md) Événement de modification de propriété BoundingRectanglePropertyId.                              |                                                                                                                                  |
@@ -157,9 +157,9 @@ Le tableau suivant répertorie les événements UI Automation qui répertorient 
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si un conteneur héberge des éléments de liste, les principaux moyens de navigation doivent être placés dans les éléments de la liste. Placer le focus sur des sous-éléments via la navigation dans la liste peut être confus pour les utilisateurs et les outils d’accessibilité. Si le conteneur héberge une liste verticale d’éléments, le fait d’appuyer sur les touches haut et bas doit parcourir les éléments, mais le fait d’appuyer sur les touches de direction droite et gauche peut accéder aux sous-éléments de l’élément ayant le focus, tels que les colonnes de liste ou les sous-éléments d’interface utilisateur.
 
@@ -176,9 +176,9 @@ Si un conteneur héberge des éléments de liste, les principaux moyens de navig
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

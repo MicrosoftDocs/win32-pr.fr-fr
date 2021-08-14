@@ -23,12 +23,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 45923c0c3ea3bfc28e67634e3b447e46b62765f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 773bb54ec4d132e629f21513ffa617cbe3435d35941e7c98c55810d267f614c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106540880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118821154"
 ---
 # <a name="__instanceproviderregistration-class"></a>\_\_InstanceProviderRegistration, classe
 
@@ -327,7 +327,7 @@ Non utilisé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ InstanceProviderRegistration** est dérivée de [**\_ \_ ObjectProviderRegistration**](--objectproviderregistration.md), qui est dérivée de [**\_ \_ ProviderRegistration**](--providerregistration.md). Seuls les administrateurs peuvent inscrire un fournisseur d’instances en créant une instance de [**\_ \_ Win32Provider**](--win32provider.md) et **\_ \_ InstanceProviderRegistration**. Seuls les administrateurs peuvent supprimer un fournisseur.
 

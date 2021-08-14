@@ -4,12 +4,12 @@ ms.assetid: 3da1f951-cb8b-49ce-aba2-0badb3178093
 title: Annotation d’initialisation de paramètre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c564b5b5e273b320fdc5de6148ef5ba5dd9f1b78
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a2d66d0cc18782d97a5a56c73ab12cd9222d33827930d60023fccf73cd2a8455
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118798659"
 ---
 # <a name="parameter-initialization-annotation"></a>Annotation d’initialisation de paramètre
 

@@ -4,12 +4,12 @@ description: ISRResGraphEx et IAttributes
 ms.assetid: 6eb37da1-5252-4c41-891c-c19cca6fb7d1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 659d7d4723bfc5145fb8abcc77043031a0e48e8b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 81f5e08b77b917e4630afcaeb8baed5aac4e13c20a1ed289418681abbbdca20b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118748995"
 ---
 # <a name="isrresgraphex-and-iattributes"></a>ISRResGraphEx et IAttributes
 
@@ -49,6 +49,6 @@ Par exemple, supposons que le mot parlé sur l’arc 4 soit « effectué ». E
 
 Le kit de développement logiciel (SDK) SAPI 4,0 intègre un outil (SRFunc) pour tester la conformité avec la spécification SAPI 4,0. Un test de compatibilité avec cet ensemble d’interfaces est inclus dans cet outil. Le code source de cet outil est un bon point de départ pour comprendre comment ces interfaces interagissent avec l’éditeur de sons et pour déboguer les interfaces pendant le développement.
 
- 
+ 
 
- 
+ 

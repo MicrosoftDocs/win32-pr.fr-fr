@@ -4,12 +4,12 @@ ms.assetid: ede464a2-0be5-445a-aff7-d707dfccee13
 title: Interfaces d’autorisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff566127c90abcaebd91fc26af23734680bd2e11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e485090de7ee2b64ac30be64eabee7b3e05dd932b3758bda7be01323ae09d74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118914211"
 ---
 # <a name="authorization-interfaces"></a>Interfaces d’autorisation
 
@@ -55,9 +55,9 @@ Les interfaces suivantes sont utilisées avec les applications d’autorisation.
 | [**IAzTask**](/windows/desktop/api/Azroles/nn-azroles-iaztask)<br/>                                 | Décrit un ensemble d’opérations.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [**IAzTask2**](/windows/desktop/api/Azroles/nn-azroles-iaztask2)<br/>                               | Étend l’interface [**IAzTask**](/windows/desktop/api/Azroles/nn-azroles-iaztask) avec une méthode qui retourne les attributions de rôles associées à la tâche.<br/>                                                                                                                                                                                                                                                                                                                                                                 |
 | [**IAzTasks**](/windows/desktop/api/Azroles/nn-azroles-iaztasks)<br/>                               | Représente une collection d’objets [**IAzTask**](/windows/desktop/api/Azroles/nn-azroles-iaztask) .<br/>                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [**IeAxiService**](ieaxiservice.md)<br/>                       | Initialise un objet de service système pour installer un objet ActiveX lorsque l’utilisateur actuel n’est pas autorisé à installer l’objet.<br/>                                                                                                                                                                                                                                                                                                                                                     |
-| [**IeAxiServiceCallback**](ieaxiservicecallback.md)<br/>       | Appelée par l’interface [**IeAxiSystemInstaller**](ieaxisysteminstaller.md) pour vérifier qu’un objet ActiveX peut être installé.<br/>                                                                                                                                                                                                                                                                                                                                                            |
-| [**IeAxiSystemInstaller**](ieaxisysteminstaller.md)<br/>       | Installe un objet ActiveX.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| [**IeAxiService**](ieaxiservice.md)<br/>                       | initialise un objet de service système pour installer un objet ActiveX lorsque l’utilisateur actuel n’est pas autorisé à installer l’objet.<br/>                                                                                                                                                                                                                                                                                                                                                     |
+| [**IeAxiServiceCallback**](ieaxiservicecallback.md)<br/>       | appelée par l’interface [**IeAxiSystemInstaller**](ieaxisysteminstaller.md) pour vérifier qu’un objet ActiveX peut être installé.<br/>                                                                                                                                                                                                                                                                                                                                                            |
+| [**IeAxiSystemInstaller**](ieaxisysteminstaller.md)<br/>       | installe un objet ActiveX.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | [**IEffectivePermission**](/windows/win32/api/aclui/nn-aclui-ieffectivepermission)<br/>       | Fournit un moyen de déterminer l’autorisation effective pour un principal de sécurité sur un objet.<br/>                                                                                                                                                                                                                                                                                                                                                                                                  |
 | [**IEffectivePermission2**](/windows/win32/api/aclui/nn-aclui-ieffectivepermission2)<br/>     | Fournit un moyen de déterminer l’autorisation effective pour un principal de sécurité sur un objet.<br/>                                                                                                                                                                                                                                                                                                                                                                                                    |
 | [**ISecurityInformation**](/windows/win32/api/aclui/nn-aclui-isecurityinformation)<br/>       | Permet à l’éditeur de contrôle d’accès de communiquer avec l’appelant des fonctions [**CreateSecurityPage**](/windows/desktop/api/Aclui/nf-aclui-createsecuritypage) et [**EditSecurity**](/windows/desktop/api/Aclui/nf-aclui-editsecurity) .<br/>                                                                                                                                                                                                                                                                                                               |
@@ -73,7 +73,7 @@ Les interfaces suivantes sont utilisées avec les applications d’autorisation.
 Les interfaces d’autorisation sont classées en fonction de l’utilisation comme suit :
 
 -   [Interfaces de l’éditeur de Access Control](#access-control-editor-interfaces)
--   [Interfaces d’installation ActiveX](#activex-installer-interfaces)
+-   [ActiveX Interfaces du programme d’installation](#activex-installer-interfaces)
 -   [Interfaces du gestionnaire d’autorisations](#authorization-manager-interfaces)
 
 ## <a name="access-control-editor-interfaces"></a>Interfaces de l’éditeur de Access Control
@@ -86,9 +86,9 @@ Les interfaces suivantes sont utilisées avec l’éditeur de contrôle d’acc�
 -   [**ISecurityInformation3**](/windows/win32/api/aclui/nn-aclui-isecurityinformation3)
 -   [**ISecurityObjectTypeInfo**](/windows/win32/api/aclui/nn-aclui-isecurityobjecttypeinfo)
 
-## <a name="activex-installer-interfaces"></a>Interfaces d’installation ActiveX
+## <a name="activex-installer-interfaces"></a>ActiveX Interfaces du programme d’installation
 
-Le programme d’installation ActiveX fournit les interfaces suivantes.
+ActiveX Le programme d’installation de fournit les interfaces suivantes.
 
 -   [**IeAxiService**](ieaxiservice.md)
 -   [**IeAxiServiceCallback**](ieaxiservicecallback.md)

@@ -8,7 +8,7 @@
           href: cng-features.md
         - name: Primitives de chiffrement
           href: cryptographic-primitives.md
-        - name: Stockage et récupération de clés
+        - name: Stockage et récupération de clé
           href: key-storage-and-retrieval.md
         - name: Importation et exportation de clé
           href: key-import-and-export.md
@@ -53,7 +53,7 @@
               href: cng-interface-identifiers.md
             - name: Identificateurs de la propriété primitive de chiffrement
               href: cng-property-identifiers.md
-            - name: Identificateurs de propriété de stockage de clés
+            - name: identificateurs de propriété de clé Stockage
               href: key-storage-property-identifiers.md
         - name: Fonctions de configuration de chiffrement CNG
           href: cng-cryptographic-configuration-functions.md
@@ -207,7 +207,7 @@
               href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcrypt_init_auth_mode_info
             - name: SystemPrng
               href: systemprng.md
-        - name: Fonctions de stockage de clé CNG
+        - name: fonctions de Stockage de clé CNG
           href: cng-key-storage-functions.md
           items:
             - name: NCryptCreateClaim

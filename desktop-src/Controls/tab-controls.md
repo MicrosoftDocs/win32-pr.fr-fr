@@ -4,12 +4,12 @@ description: Un contrôle tab équivaut aux intercalaires dans un classeur ou au
 ms.assetid: 55ed2863-7f8d-43ce-a0f9-6f6d41e3f947
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c45ac7caa05c73e1dcf22a8e6f0eb4d031ca079
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 512955ec2b3426227366ef109669c52a6c07c8882374d935023123182de194ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118670422"
 ---
 # <a name="about-tab-controls"></a>À propos des contrôles Tab
 
@@ -36,7 +36,7 @@ Cette rubrique comprend les sections suivantes.
 
 Vous pouvez créer un contrôle onglet en appelant la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) , en spécifiant la classe de fenêtre du [**\_ TABCONTROL de WC**](common-control-window-classes.md) . Cette classe de fenêtre est inscrite lors du chargement de la DLL de contrôles communs. Pour vous assurer que la DLL est chargée, utilisez la fonction [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) .
 
-Dans Microsoft Visual Studio, vous pouvez créer un contrôle onglet à l’aide de la boîte à outils.
+dans Microsoft Visual Studio, vous pouvez créer un contrôle onglet à l’aide de la boîte à outils.
 
 Vous envoyez des messages à un contrôle onglet pour ajouter des onglets et, sinon, affecter l’apparence et le comportement du contrôle. Chaque message a une macro correspondante que vous pouvez utiliser au lieu d’envoyer le message explicitement. Vous ne pouvez pas désactiver un onglet individuel dans un contrôle Tab. Toutefois, vous pouvez désactiver un contrôle onglet dans une feuille de propriétés en désactivant la page correspondante.
 
@@ -150,8 +150,8 @@ Cette section décrit le traitement des messages effectué par un contrôle ongl
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

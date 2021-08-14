@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7d0e4224ec9b90e84cbacbf5ede852763edd8e4f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2d4a70c8bc97abc3dea7cd04e9ce491b64cb62dcc892fcde318d69dcdc996e2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118588462"
 ---
 # <a name="renderinginfotype-complex-type"></a>Type complexe RenderingInfoType
 
@@ -88,11 +88,11 @@ Définit les messages rendus pour l’événement.
 | Élément                                                             | Type   | Description                                                                   |
 |---------------------------------------------------------------------|--------|-------------------------------------------------------------------------------|
 | [**Channel**](eventschema-task-renderingtype-element.md)           | string | Chaîne de message rendue du canal spécifié dans l’événement.<br/> |
-| [**Mot**](eventschema-keyword-keywords-element.md)             | string | Chaîne de message rendue d’un mot clé spécifié dans l’événement.<br/>   |
-| [**Mots clés**](eventschema-keywords-renderingtype-element.md)      |        | Liste de mots clés rendus.<br/>                                       |
+| [**Mot clé**](eventschema-keyword-keywords-element.md)             | string | Chaîne de message rendue d’un mot clé spécifié dans l’événement.<br/>   |
+| [**Mot**](eventschema-keywords-renderingtype-element.md)      |        | Liste de mots clés rendus.<br/>                                       |
 | [**Niveau**](eventschema-level-renderingtype-element.md)            | string | Chaîne de message rendue du niveau spécifié dans l’événement.<br/>   |
 | [**Message**](eventschema-message-renderingtype-element.md)        | string | Chaîne de message rendue de l’événement.<br/>                          |
-| [**Opcode**](eventschema-opcode-renderingtype-element.md)          | string | Chaîne de message rendue de l’opcode spécifié dans l’événement.<br/>  |
+| [**OpCode**](eventschema-opcode-renderingtype-element.md)          | string | Chaîne de message rendue de l’opcode spécifié dans l’événement.<br/>  |
 | [**Fournisseur**](eventschema-publisher-renderinginfotype-element.md) | string | Chaîne de message rendue pour le fournisseur.<br/>                      |
 | [**Tâche**](eventschema-task-renderingtype-element.md)              | string | Chaîne de message rendue de la tâche spécifiée dans l’événement.<br/>    |
 
@@ -110,16 +110,16 @@ Définit les messages rendus pour l’événement.
 
 ## <a name="remarks"></a>Notes
 
-Seuls les événements qui ont été collectés à l’aide du service [collecteur d’événements Windows](/windows/desktop/WEC/windows-event-collector) contiendront cette section.
+seuls les événements qui ont été collectés à l’aide du service [collecteur d’événements Windows](/windows/desktop/WEC/windows-event-collector) contiennent cette section.
 
 ## <a name="requirements"></a>Configuration requise
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

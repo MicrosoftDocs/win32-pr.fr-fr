@@ -4,12 +4,12 @@ description: cet exemple de code illustre le balisage et le code requis pour uti
 ms.assetid: 1a462f4e-e75a-40cf-9c52-0bad0a645d57
 ms.topic: article
 ms.date: 07/13/2021
-ms.openlocfilehash: ef776a8a1a8eadf9ee41cf9964066cc612a9f9a1
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: 8c62e8955e737ac78ee5543c0a12febc5436bacd7f9d739bc9af02bacd555d2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118706705"
 ---
 # <a name="gallery-sample"></a>Exemple de Galerie
 

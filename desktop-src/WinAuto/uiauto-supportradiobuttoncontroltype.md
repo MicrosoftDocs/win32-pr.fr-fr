@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, RadioButton
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4702a2227a5164ff694378c82fa3b7cde33f9823
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 358a71f74b40d8465c910f8afe258183c8ea4d5c322fb70e6b6ea946ef7d44ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118825480"
 ---
 # <a name="radiobutton-control-type"></a>RadioButton (type de contrôle)
 
@@ -37,7 +37,7 @@ Une case d’option se compose d’un bouton rond et d’un texte défini par l�
 > [!Note]  
 > Une autre généralisation de contrôle pour les boutons dans lesquels une seule partie d’un groupe peut être sélectionnée est le contenu d’un bouton bascule. Certaines infrastructures d’interface utilisateur considèrent qu’une case d’option est un bouton bascule spécialisé.
 
- 
+ 
 
 Les sections suivantes définissent l’arborescence, les propriétés, les modèles de contrôle et les événements UI Automation requis pour le type de contrôle **RadioButton** . Les spécifications d’UI Automation s’appliquent à tous les contrôles de bouton où l’infrastructure d’interface utilisateur/plateforme intègre la prise en charge d’UI Automation pour les types de contrôle et les modèles de contrôle.
 
@@ -81,7 +81,7 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 
 
- 
+ 
 
 Aucun enfant ne figure dans la vue de contrôle ni dans la vue de contenu.
 
@@ -91,7 +91,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur           | Notes                                                                                                                                         |
+| Propriété UI Automation                                                                                              | Valeur           | Remarques                                                                                                                                         |
 |---------------------------------------------------------------------------------------------------------------------|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques.      | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                  |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques.      | Rectangle externe qui contient l’ensemble du contrôle.                                                                                      |
@@ -106,7 +106,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -114,7 +114,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
-| Modèle de contrôle/Propriété de modèle                                               | Prise en charge/valeur | Notes                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Modèle de contrôle/Propriété de modèle                                               | Prise en charge/valeur | Remarques                                                                                                                                                                                                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ISelectionItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider)                | Obligatoire      | Tous les contrôles de case d’option doivent prendre en charge le modèle de contrôle [SelectionItem](uiauto-implementingselectionitem.md) pour pouvoir être sélectionnés.                                                                                                                                                                                                                                                             |
 | [**SelectionContainer**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionitemprovider-get_selectioncontainer) | Consultez les remarques.    | La propriété [**SelectionContainer**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionitemprovider-get_selectioncontainer) doit toujours être terminée afin qu’un client UI Automation puisse déterminer quelles autres cases d’option dans un contexte spécifique sont liées les unes aux autres. Pour la version Microsoft Win32 de la case d’option, cette propriété n’est pas prise en charge, car il n’est pas possible d’obtenir ces informations à partir de cette infrastructure héritée. |
@@ -122,7 +122,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -130,7 +130,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
-| Événement UI Automation                                                                                                                     | Notes                                                                                                                          |
+| Événement UI Automation                                                                                                                     | Remarques                                                                                                                          |
 |-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                        |                                                                                                                                |
 | [**UIA \_**](uiauto-automation-element-propids.md) Événement de modification de propriété BoundingRectanglePropertyId.   |                                                                                                                                |
@@ -142,9 +142,9 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une case d’option représente une option sélectionnable unique parmi un groupe de cases d’option homologues. Dans l’idéal, les cases d’option doivent avoir un élément de regroupement qui clarifie les limites des cases d’option homologues. Toutefois, il arrive souvent que la limite soit impliquée par la structure de l’élément d’interface utilisateur. Par exemple, un menu peut contenir un ensemble de cases d’option consécutives à la place d’éléments de menu, ou un ensemble de cases d’option qui se produisent après une étiquette de groupe, mais avant un élément actionnable tel que Button.
 
@@ -161,9 +161,9 @@ Une case d’option représente une option sélectionnable unique parmi un group
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

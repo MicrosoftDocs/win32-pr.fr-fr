@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c436151eeef2a08a2b1d0208b046e23dc8d1559b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f01ec292c29de72cb2df92eb7c4246392e3b12b4dc2008caf2a09ab1be5a8b1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118683924"
 ---
 # <a name="ms-ds-non-security-group-extra-classes-attribute"></a>ms-DS-non-Security-Group-attribut extra-classes
 
@@ -44,7 +44,7 @@ Noms communs des classes non standard qui peuvent être ajoutées à un groupe n
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -56,16 +56,16 @@ Noms communs des classes non standard qui peuvent être ajoutées à un groupe n
 |------------------------|-----------------------------------------------------|
 | ID de lien                | \-                                                  |
 | MAPI-Id                | \-                                                  |
-| System-Only            | Faux                                               |
-| Est de valeur unique       | Faux                                               |
-| Est indexé             | Faux                                               |
-| Dans le catalogue global      | Faux                                               |
+| System-Only            | False                                               |
+| Est de valeur unique       | False                                               |
+| Est indexé             | False                                               |
+| Dans le catalogue global      | False                                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                        |
 | Range-Lower            | \-                                                  |
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -77,16 +77,16 @@ Noms communs des classes non standard qui peuvent être ajoutées à un groupe n
 |------------------------|-----------------------------------------------------|
 | ID de lien                | \-                                                  |
 | MAPI-Id                | \-                                                  |
-| System-Only            | Faux                                               |
-| Est de valeur unique       | Faux                                               |
-| Est indexé             | Faux                                               |
-| Dans le catalogue global      | Faux                                               |
+| System-Only            | False                                               |
+| Est de valeur unique       | False                                               |
+| Est indexé             | False                                               |
+| Dans le catalogue global      | False                                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                        |
 | Range-Lower            | \-                                                  |
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -98,16 +98,16 @@ Noms communs des classes non standard qui peuvent être ajoutées à un groupe n
 |------------------------|-----------------------------------------------------|
 | ID de lien                | \-                                                  |
 | MAPI-Id                | \-                                                  |
-| System-Only            | Faux                                               |
-| Est de valeur unique       | Faux                                               |
-| Est indexé             | Faux                                               |
-| Dans le catalogue global      | Faux                                               |
+| System-Only            | False                                               |
+| Est de valeur unique       | False                                               |
+| Est indexé             | False                                               |
+| Dans le catalogue global      | False                                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                        |
 | Range-Lower            | \-                                                  |
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -119,16 +119,16 @@ Noms communs des classes non standard qui peuvent être ajoutées à un groupe n
 |------------------------|-----------------------------------------------------|
 | ID de lien                | \-                                                  |
 | MAPI-Id                | \-                                                  |
-| System-Only            | Faux                                               |
-| Est de valeur unique       | Faux                                               |
-| Est indexé             | Faux                                               |
-| Dans le catalogue global      | Faux                                               |
+| System-Only            | False                                               |
+| Est de valeur unique       | False                                               |
+| Est indexé             | False                                               |
+| Dans le catalogue global      | False                                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                        |
 | Range-Lower            | \-                                                  |
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -140,20 +140,20 @@ Noms communs des classes non standard qui peuvent être ajoutées à un groupe n
 |------------------------|-----------------------------------------------------|
 | ID de lien                | \-                                                  |
 | MAPI-Id                | \-                                                  |
-| System-Only            | Faux                                               |
-| Est de valeur unique       | Faux                                               |
-| Est indexé             | Faux                                               |
-| Dans le catalogue global      | Faux                                               |
+| System-Only            | False                                               |
+| Est de valeur unique       | False                                               |
+| Est indexé             | False                                               |
+| Dans le catalogue global      | False                                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                        |
 | Range-Lower            | \-                                                  |
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La liste suivante identifie les classes standard qui peuvent être ajoutées à un groupe via le composant logiciel enfichable utilisateurs et ordinateurs Active Directory.
 

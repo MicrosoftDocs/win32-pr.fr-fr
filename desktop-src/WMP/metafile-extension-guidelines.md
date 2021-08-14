@@ -3,12 +3,12 @@ title: Instructions relatives aux extensions de métafichiers
 description: Instructions relatives aux extensions de métafichiers
 ms.assetid: 079fac31-7a6f-4775-a337-870ad25a56a0
 keywords:
-- Fichiers Windows Media, extensions
-- Fichiers Windows Media, extensions de nom de fichier
+- Windows Fichiers multimédias, extensions
+- Windows Fichiers multimédias, extensions de nom de fichier
 - refichiers, extensions
 - sous-fichiers, extensions de nom de fichier
-- Windows Media, sous-fichiers
-- extensions de nom de fichier pour les fichiers Windows Media
+- Windows Médias, sous-fichiers
+- extensions de nom de fichier pour Windows les fichiers multimédias
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -16,18 +16,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 31d2793b19576e26096bc30c834666828cf9ed29
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4aaa31f1364271b1b968244494586ba5006e7c292ca2d9a207cdd1c758b5e432
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118836966"
 ---
 # <a name="metafile-extension-guidelines"></a>Instructions relatives aux extensions de métafichiers
 
 Une extension de nom de fichier fournit à un éditeur de logiciels indépendant (ISV) des informations sur les exigences de rendu d’une application qui utilise l’extension et permet aux créateurs de contenu de cibler les types généraux de joueurs.
 
-Les extensions de nom de métafichier Windows Media sont utilisées pour identifier le format des fichiers Windows Media référencés par un métafichier. Les sous-fichiers Windows Media avec des extensions. Wax,. wvx ou. asx sont respectivement des fichiers de référence. WMA,. wmv et. ASF. Tous les sous-fichiers, quelle que soit l’extension de nom de fichier utilisée, comportent la balise d’élément **ASX** au début du fichier avec l’attribut de **version** spécifié.
+Windows les extensions de nom de métafichier multimédia sont utilisées pour identifier le format des fichiers multimédias Windows qu’un métafichier référence. Windows Les fichiers multimédias avec des extensions. Wax,. wvx ou. asx avec les extensions. WMA,. wmv et. ASF, respectivement. Tous les sous-fichiers, quelle que soit l’extension de nom de fichier utilisée, comportent la balise d’élément **ASX** au début du fichier avec l’attribut de **version** spécifié.
 
 Le tableau suivant présente les types de fichiers multimédias référencés par chaque type d’extension de nom de fichier de métafichier. Les colonnes répertorient les extensions de nom de fichier multimédia, les lignes répertorient les extensions de nom de métafichier. Un X dans une colonne indique un type de fichier multimédia qui peut être référencé par une extension de nom de fichier de métafichier particulière.
 
@@ -41,7 +41,7 @@ Le tableau suivant présente les types de fichiers multimédias référencés pa
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -53,12 +53,12 @@ Le tableau suivant présente les types de fichiers multimédias référencés pa
 [**Sélections de métafichiers**](metafile-playlists.md)
 </dt> <dt>
 
-[**Guide des métafichiers Windows Media**](windows-media-metafile-guide.md)
+[**Windows Guide du métafichier multimédia**](windows-media-metafile-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

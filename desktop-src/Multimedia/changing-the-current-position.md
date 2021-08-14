@@ -6,12 +6,12 @@ keywords:
 - MCI_SEEK message de commande
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 235dc2639d7d9fc01f94aff700ae9e0ebf1dcbe2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a14f062fc93a89f54fb89a30b6ac3e53c8d6240cfc28b661a25da48a0b1b2fbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941287"
 ---
 # <a name="changing-the-current-position"></a>Modification de la position actuelle
 
@@ -19,6 +19,6 @@ Pour modifier la position actuelle dans un élément d’appareil, utilisez le m
 
 En plus de spécifier une position avec le membre **dwTo** , vous pouvez spécifier la \_ recherche MCI \_ pour \_ Démarrer ou MCI \_ Rechercher les \_ indicateurs de \_ fin pour le paramètre *dwParam1* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) afin de rechercher les positions de début et de fin de l’élément d’appareil. Si vous utilisez l’un de ces indicateurs, ne spécifiez pas l' \_ indicateur MCI.
 
- 
+ 
 
- 
+ 

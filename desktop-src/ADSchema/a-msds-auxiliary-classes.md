@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24608d0626ae4bcd6adb70a646d95121615c29e5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e01c46041bb870841e6266078c078a4da8fc224b3e19495574921c8aa6b56d6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685684"
 ---
 # <a name="ms-ds-auxiliary-classes-attribute"></a>attribut ms-DS-auxiliaire-classes
 
@@ -45,7 +45,7 @@ Cet attribut répertorie les classes auxiliaires qui ont été attachées dynami
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Cet attribut répertorie les classes auxiliaires qui ont été attachées dynami
 |------------------------|--------------|
 | ID de lien                | \-           |
 | MAPI-Id                | \-           |
-| System-Only            | Vrai         |
-| Est de valeur unique       | Faux        |
-| Est indexé             | Faux        |
-| Dans le catalogue global      | Faux        |
+| System-Only            | True         |
+| Est de valeur unique       | False        |
+| Est indexé             | False        |
+| Dans le catalogue global      | False        |
 | Descripteur de sécurité NT | O :BAG : BAD : S : |
 | Range-Lower            | \-           |
 | Range-Upper            | \-           |
@@ -78,10 +78,10 @@ Cet attribut répertorie les classes auxiliaires qui ont été attachées dynami
 |------------------------|--------------|
 | ID de lien                | \-           |
 | MAPI-Id                | \-           |
-| System-Only            | Vrai         |
-| Est de valeur unique       | Faux        |
-| Est indexé             | Faux        |
-| Dans le catalogue global      | Faux        |
+| System-Only            | True         |
+| Est de valeur unique       | False        |
+| Est indexé             | False        |
+| Dans le catalogue global      | False        |
 | Descripteur de sécurité NT | O :BAG : BAD : S : |
 | Range-Lower            | \-           |
 | Range-Upper            | \-           |
@@ -99,10 +99,10 @@ Cet attribut répertorie les classes auxiliaires qui ont été attachées dynami
 |------------------------|--------------|
 | ID de lien                | \-           |
 | MAPI-Id                | \-           |
-| System-Only            | Vrai         |
-| Est de valeur unique       | Faux        |
-| Est indexé             | Faux        |
-| Dans le catalogue global      | Faux        |
+| System-Only            | True         |
+| Est de valeur unique       | False        |
+| Est indexé             | False        |
+| Dans le catalogue global      | False        |
 | Descripteur de sécurité NT | O :BAG : BAD : S : |
 | Range-Lower            | \-           |
 | Range-Upper            | \-           |
@@ -120,10 +120,10 @@ Cet attribut répertorie les classes auxiliaires qui ont été attachées dynami
 |------------------------|--------------|
 | ID de lien                | \-           |
 | MAPI-Id                | \-           |
-| System-Only            | Vrai         |
-| Est de valeur unique       | Faux        |
-| Est indexé             | Faux        |
-| Dans le catalogue global      | Faux        |
+| System-Only            | True         |
+| Est de valeur unique       | False        |
+| Est indexé             | False        |
+| Dans le catalogue global      | False        |
 | Descripteur de sécurité NT | O :BAG : BAD : S : |
 | Range-Lower            | \-           |
 | Range-Upper            | \-           |
@@ -141,10 +141,10 @@ Cet attribut répertorie les classes auxiliaires qui ont été attachées dynami
 |------------------------|--------------|
 | ID de lien                | \-           |
 | MAPI-Id                | \-           |
-| System-Only            | Vrai         |
-| Est de valeur unique       | Faux        |
-| Est indexé             | Faux        |
-| Dans le catalogue global      | Faux        |
+| System-Only            | True         |
+| Est de valeur unique       | False        |
+| Est indexé             | False        |
+| Dans le catalogue global      | False        |
 | Descripteur de sécurité NT | O :BAG : BAD : S : |
 | Range-Lower            | \-           |
 | Range-Upper            | \-           |
@@ -162,10 +162,10 @@ Cet attribut répertorie les classes auxiliaires qui ont été attachées dynami
 |------------------------|--------------|
 | ID de lien                | \-           |
 | MAPI-Id                | \-           |
-| System-Only            | Vrai         |
-| Est de valeur unique       | Faux        |
-| Est indexé             | Faux        |
-| Dans le catalogue global      | Faux        |
+| System-Only            | True         |
+| Est de valeur unique       | False        |
+| Est indexé             | False        |
+| Dans le catalogue global      | False        |
 | Descripteur de sécurité NT | O :BAG : BAD : S : |
 | Range-Lower            | \-           |
 | Range-Upper            | \-           |

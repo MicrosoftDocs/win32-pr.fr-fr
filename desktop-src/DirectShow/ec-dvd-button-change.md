@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 8647c1100e5cca6897e2068b2a20119a8f047396
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 61e74a967df18d5ba105eda1609a72c0db9770868bbd967c7a90f5e920dc954d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652745"
 ---
 # <a name="ec_dvd_button_change"></a>\_changement du \_ bouton \_ DVD EC
 
@@ -42,7 +42,7 @@ Valeur **DWORD** indiquant le numéro de bouton actuellement sélectionné. Le n
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les numéros de bouton vont de 1 à 36.
 
@@ -72,7 +72,7 @@ Cet événement est déclenché dans tous les domaines.
 [Codes de notification des événements DVD](dvd-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

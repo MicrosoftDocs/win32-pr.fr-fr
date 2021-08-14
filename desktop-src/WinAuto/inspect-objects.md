@@ -1,36 +1,36 @@
 ---
 title: Outils d’accessibilité-inspecter
-description: Inspect (Inspect.exe) est un outil Windows qui vous permet de sélectionner n’importe quel élément d’interface utilisateur et d’afficher les données d’accessibilité de l’élément.
+description: Inspect (Inspect.exe) est un outil basé sur Windows qui vous permet de sélectionner n’importe quel élément d’interface utilisateur et d’afficher les données d’accessibilité de l’élément.
 ms.assetid: 38edacbc-cf24-4818-b029-561b21e3704c
 keywords:
 - Inspecter l’outil
 - Accessibilité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcef8efa9efc0241d0f813da01623a1c02e6d226
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: f8c72fba29a409fdce60c026c832f68ff6d182bcd9c8a53e1918e7ac847f4332
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111827635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118828706"
 ---
 # <a name="accessibility-tools---inspect"></a>Outils d’accessibilité-inspecter
 
 > [!Important]
-> **Inspect** est un outil hérité. Nous vous recommandons d’utiliser à la place [Accessibility Insights](https://accessibilityinsights.io/) .
+> **Inspect** est un outil hérité. nous vous recommandons d’utiliser à la place l' [accessibilité Informations](https://accessibilityinsights.io/) .
 
-**Inspect** (Inspect.exe) est un outil Windows qui vous permet de sélectionner n’importe quel élément d’interface utilisateur et d’afficher les données d’accessibilité de l’élément. Vous pouvez afficher les propriétés et les modèles de contrôles de Microsoft UI Automation, ainsi que les propriétés de Microsoft Active Accessibility. **Inspect** vous permet également de tester la structure de navigation des éléments Automation dans l’arborescence UI Automation et les objets accessibles dans la hiérarchie Microsoft Active Accessibility.
+**Inspect** (Inspect.exe) est un outil basé sur Windows qui vous permet de sélectionner n’importe quel élément d’interface utilisateur et d’afficher les données d’accessibilité de l’élément. Vous pouvez afficher les propriétés et les modèles de contrôles de Microsoft UI Automation, ainsi que les propriétés de Microsoft Active Accessibility. **Inspect** vous permet également de tester la structure de navigation des éléments Automation dans l’arborescence UI Automation et les objets accessibles dans la hiérarchie Microsoft Active Accessibility.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 Pour examiner l’Automation d’interface utilisateur, UI Automation doit être présent sur le système. Pour plus d’informations, consultez la section « Configuration requise » d' [UI Automation](entry-uiauto-win32.md).
 
-L' **inspection** est installée dans le cadre de l’ensemble d’outils du kit de développement logiciel (SDK) Windows, mais elle n’est pas distribuée sous forme de téléchargement distinct. Le SDK Windows comprend tous les outils liés à l’accessibilité documentés dans cette section.
+l' **inspection** est installée dans le cadre de l’ensemble des outils du kit de développement logiciel (SDK) Windows, mais elle n’est pas distribuée sous forme de téléchargement distinct. le SDK Windows comprend tous les outils liés à l’accessibilité documentés dans cette section.
 
-[Téléchargez le SDK Windows](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/).
+[téléchargez le SDK Windows](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/).
 
 > [!NOTE]
-> Pour les versions antérieures du SDK Windows, consultez l' [Archive des SDK Windows et des émulateurs](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/).
+> pour les versions antérieures du SDK Windows, consultez l' [archive des SDK Windows et des émulateurs](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/).
 
 **Inspect.exe** se trouve dans le \\ dossier bin \\ < *version* > \\ < *Platform*> du chemin d’installation du kit de développement logiciel (SDK) (vous n’êtes généralement pas obligé d’exécuter en tant qu’administrateur).
 
@@ -66,9 +66,9 @@ Les trois dernières options vous permettent de naviguer dans la hiérarchie d�
 
 La vue **données** affiche les informations de propriété de l’élément d’interface utilisateur qui est actuellement sélectionné. Vous pouvez configurer **Inspect** pour afficher des informations sur toutes les propriétés d’accessibilité ou sur un sous-ensemble de ces propriétés. Vous pouvez également spécifier d’autres options d’affichage, par exemple si l' **inspection** doit rester au-dessus d’autres interfaces utilisateur, ou si l' **inspection** doit mettre en surbrillance un rectangle englobant autour de l’élément sélectionné. Une fois que vous avez configuré l' **inspection** pour qu’elle fonctionne comme vous le souhaitez, vous pouvez commencer à naviguer entre les éléments d’interface utilisateur et à afficher les informations de propriété. **Inspect** enregistre vos paramètres de configuration lorsqu’il se ferme et les utilise pour initialiser la session d' **inspection** suivante.
 
-### <a name="configure-property-settings"></a>Configurer les paramètres de propriété
+### <a name="configure-property-settings"></a>configurer la propriété Paramètres
 
-1. Dans le menu **options** , sélectionnez **paramètres...**, ou sélectionnez **afficher la boîte de dialogue des paramètres** dans la barre d’outils.
+1. dans le menu **Options** , sélectionnez **Paramètres...**, ou sélectionnez **afficher Paramètres boîte de dialogue** dans la barre d’outils.
 2. Dans la liste **afficher dans la fenêtre principale** , sélectionnez les propriétés que vous souhaitez afficher dans la vue de **données** de **Inspect**.
 3. Dans la liste **afficher dans l’info-bulle d’informations** , sélectionnez les propriétés que vous souhaitez afficher dans une info-bulle.
 4. Pour afficher les propriétés que l’élément d’interface utilisateur peut ne pas prendre en charge, activez la case à cocher **afficher les propriétés non prises en charge** .
@@ -83,7 +83,7 @@ La vue **données** affiche les informations de propriété de l’élément d�
 | Toujours visible                | Apparaît en haut de toute autre fenêtre à l’écran.                                                                                                                                                                                  |
 | Mode MSAA                    | Affiche des informations sur les propriétés de Microsoft Active Accessibility.                                                                                                                                                                      |
 | Mode UI Automation           | Affiche les informations de propriété UI Automation.                                                                                                                                                                                       |
-| Affichage Windows visible uniquement    | Disponible uniquement en mode MSAA.                                                                                                                                                                                                       |
+| affichage Windows Visible uniquement    | Disponible uniquement en mode MSAA.                                                                                                                                                                                                       |
 | Affichage brut                     | Présente l' [affichage brut](uiauto-treeoverview.md) de l’arborescence UI Automation ou de l’arborescence MSAA dans l' **arborescence** .                                                                                                             |
 | Affichage de contrôle                 | Présente l' [affichage de contrôle](uiauto-treeoverview.md) de l’arborescence UI Automation dans l' **arborescence** . Disponible en mode UI Automation uniquement.                                                                            |
 | Affichage de contenu                 | Présente l' [affichage du contenu](uiauto-treeoverview.md) de l’arborescence UI Automation dans l' **arborescence** . Disponible en mode UI Automation uniquement.                                                                            |
@@ -101,7 +101,7 @@ La vue **données** affiche les informations de propriété de l’élément d�
 
 ## <a name="verifying-accessibility-navigation"></a>Vérification de la navigation dans l’accessibilité
 
-Une fois que vous avez sélectionné un élément d’interface utilisateur à l’aide de l' **inspection**, vous pouvez vérifier que l’élément expose la navigation Windows Automation correcte pour les produits de technologie d’assistance.
+une fois que vous avez sélectionné un élément d’interface utilisateur à l’aide de l' **inspection**, vous pouvez vérifier que l’élément expose la navigation d’automatisation Windows correcte pour les produits de technologie d’assistance.
 
 ### <a name="verify-accessibility-navigation"></a>Vérifier la navigation d’accessibilité
 
@@ -114,13 +114,13 @@ Une fois que vous avez sélectionné un élément d’interface utilisateur à l
 
 ## <a name="interacting-with-ui-elements"></a>Interaction avec les éléments d’interface utilisateur
 
-Windows Automation expose des méthodes qui permettent aux produits de technologie d’assistance d’interagir avec un élément d’interface utilisateur comme si la souris ou le clavier était utilisé (par exemple, pour cliquer sur un bouton). Le menu **inspecter** l’action permet aux testeurs d’appeler les méthodes d’automatisation Windows sur un élément (par exemple, **Invoke. Invoke** appelle la méthode [**IUIAutomationInvokePattern :: Invoke**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationinvokepattern-invoke) ).
+Windows Automation expose des méthodes qui permettent aux produits de technologie d’assistance d’interagir avec un élément d’interface utilisateur comme si la souris ou le clavier était utilisé (par exemple, pour cliquer sur un bouton). le menu **inspecter** l’Action permet aux testeurs d’appeler Windows méthodes Automation sur un élément (par exemple, **invoke. invoke** appelle la méthode [**IUIAutomationInvokePattern :: invoke**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationinvokepattern-invoke) ).
 
 ### <a name="interact-with-ui-elements"></a>Interagir avec les éléments d’interface utilisateur
 
 1. Ouvrez **inspection** et l’application que vous voulez tester.
 2. Sélectionnez l’élément d’interface utilisateur avec lequel vous souhaitez interagir.
-3. Dans le menu **action** ou la barre d’outils, sélectionnez l’action qui correspond à la méthode Windows Automation que vous souhaitez appeler.
+3. dans le menu **action** ou la barre d’outils, sélectionnez l’action qui correspond à Windows méthode Automation que vous souhaitez appeler.
 
 Le menu **action** contient les éléments d' **actualisation** et de focus, ainsi que d’autres éléments qui varient selon que le mode UI Automation ou **le** mode MSAA est sélectionné. En mode UI Automation, les autres éléments reflètent les modèles de contrôle pris en charge par l’élément d’interface utilisateur actuellement sélectionné. En mode MSAA, les autres éléments se composent toujours des éléments suivants :
 

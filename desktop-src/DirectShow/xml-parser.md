@@ -4,17 +4,17 @@ ms.assetid: 2c1c6f21-e313-46e5-9b74-a59c2ddb90e1
 title: Analyseur XML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 044a74625e22ffb3cfbf999e4c790a6ec535b16a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfc7463e2489f9b33752297cacd0c175b868d7cccd12e7f6d3fc96a7caa140e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118650349"
 ---
 # <a name="xml-parser"></a>Analyseur XML
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -30,7 +30,7 @@ L’objet analyseur XML expose l’interface suivante :
 
 <dl> <dt>
 
-[Chargement et affichage de l’aperçu d’un projet](loading-and-previewing-a-project.md)
+[Chargement et prévisualisation d’un Project](loading-and-previewing-a-project.md)
 </dt> </dl>
 
  

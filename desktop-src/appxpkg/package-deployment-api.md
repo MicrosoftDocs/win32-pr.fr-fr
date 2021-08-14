@@ -1,19 +1,19 @@
 ---
 title: API de déploiement de packages
-description: En savoir plus sur l’API de déploiement de package, que vous pouvez utiliser pour installer, mettre à jour et désinstaller des packages d’application sur le système. Chaque package d’application contient les fichiers qui constituent une application Windows et un fichier manifeste décrivant le logiciel à Windows.
+description: En savoir plus sur l’API de déploiement de package, que vous pouvez utiliser pour installer, mettre à jour et désinstaller des packages d’application sur le système. chaque package d’application contient les fichiers qui constituent une application Windows et un fichier manifeste qui décrit le logiciel à Windows.
 ms.assetid: E2D408E1-6048-4D15-8BF4-69FF6ACF7BD2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14a7559739d721781101fad804ebb040333c71c9
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b5bc1c9fc44487ff2244bee9b27d1ba26677468a2113536763b86e254a23f689
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106509646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118814055"
 ---
 # <a name="package-deployment-api"></a>API de déploiement de packages
 
-En savoir plus sur l’API de déploiement de package, que vous pouvez utiliser pour installer, mettre à jour et désinstaller des packages d’application sur le système. Chaque package d’application contient les fichiers qui constituent une application Windows et un fichier manifeste décrivant le logiciel à Windows.
+En savoir plus sur l’API de déploiement de package, que vous pouvez utiliser pour installer, mettre à jour et désinstaller des packages d’application sur le système. chaque package d’application contient les fichiers qui constituent une application Windows et un fichier manifeste qui décrit le logiciel à Windows.
 
 ## <a name="windows-runtime-reference"></a>Informations de référence sur Windows Runtime
 
@@ -62,6 +62,6 @@ En savoir plus sur l’API de déploiement de package, que vous pouvez utiliser 
 [API de requête de package](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

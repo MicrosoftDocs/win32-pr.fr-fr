@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Corrélation de classe SNMP WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdc0ca4740c90563fce05e1b6352ef33b0e3ce32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 755d795b7e998e3b7392baa45c23d688f1a2cef6a4069f6671d4c209788e7c1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118815702"
 ---
 # <a name="wmi-snmp-class-correlation"></a>Corrélation de classe SNMP WMI
 
@@ -36,7 +36,7 @@ objNamedValueSet.Add "Correlate", FALSE, 0
 
 
 
-En revanche, un autre gestionnaire de réseau peut souhaiter surveiller tous les lecteurs de disque d’ordinateur UNIX sur le réseau, mais il n’est pas familiarisé avec les données MIB sur ces machines. Dans ce cas, la corrélation est activée.
+en revanche, un autre gestionnaire de réseau peut souhaiter surveiller tous les lecteurs de disque de l’ordinateur UNIX sur le réseau, mais il n’est pas familiarisé avec les données MIB sur ces machines. Dans ce cas, la corrélation est activée.
 
  
 

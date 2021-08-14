@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07c57d8ea818bbd7b8fd5bd35816e6b7227eb917
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0a4d783265ebfcf9dca454c80c39031dc0c37dfb63a8749b4d0e6299a510d91a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643065"
 ---
 # <a name="id-attribute"></a>attribut id
 
@@ -52,7 +52,7 @@ Spécifie le type de retour de la fonction.
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la fonction dans le fichier IDL.
@@ -66,7 +66,7 @@ Zéro, un ou plusieurs paramètres de fonction.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez l’attribut **\[ ID \]** lorsque vous souhaitez assigner un DISPID standard (tel que \_ value DISPID, DISPID NEWENUM, \_ etc.) à une méthode ou une propriété, ou lorsque vous implémentez votre propre **IDispatch :: Invoke** au lieu de le déléguer à **DispInvoke** / **ITypeInfo :: Invoke**.
 
@@ -106,6 +106,6 @@ interface IKnown : IUnknown
 [Génération d’une bibliothèque de types avec MIDL](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

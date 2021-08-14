@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0739c8e1984ab6740bbc332e204762ed32674bc4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8f4e954af1b1800270a35b26c434fb7bced23de9f45ad2f81d97ee032e2d101b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103949890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685136"
 ---
 # <a name="ms-ds-claim-is-single-valued-attribute"></a>ms-DS-claim-is-attribut à valeur unique
 
@@ -36,7 +36,7 @@ Pour un objet de type de revendication, cet attribut identifie si le type de rev
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2160              |
 | System-ID-GUID    | cd789fb9-96b4-4648-8219-ca378161af38 |
-| Syntaxe            | [**Boolean**](s-boolean.md)         |
+| Syntaxe            | [**Expression**](s-boolean.md)         |
 
 
 
@@ -52,10 +52,10 @@ Pour un objet de type de revendication, cet attribut identifie si le type de rev
 |------------------------|-----------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                              |
 | MAPI-Id                | \-                                                                                                              |
-| System-Only            | Vrai                                                                                                            |
-| Est de valeur unique       | Vrai                                                                                                            |
-| Est indexé             | Faux                                                                                                           |
-| Dans le catalogue global      | Faux                                                                                                           |
+| System-Only            | True                                                                                                            |
+| Est de valeur unique       | True                                                                                                            |
+| Est indexé             | False                                                                                                           |
+| Dans le catalogue global      | False                                                                                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                    |
 | Range-Lower            | \-                                                                                                              |
 | Range-Upper            | \-                                                                                                              |

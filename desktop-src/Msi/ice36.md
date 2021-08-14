@@ -4,18 +4,18 @@ ms.assetid: d502c0a9-17e5-467a-8b02-8b254e77b96b
 title: ICE36
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7f24eebc1b591edde418c59b6765d7ee91a00dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97c3d951e90ac9f3dc46a564757c1a1d5a1737bf054740e3109a26c8c7b91055
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118635302"
 ---
 # <a name="ice36"></a>ICE36
 
 ICE36 valide que chaque icône de la table des icônes figure au moins une fois dans la propriété [**ARPPRODUCTICON**](arpproducticon.md) ou dans la [classe](class-table.md), [ProgID](progid-table.md)ou [Shortcut](shortcut-table.md) tables.
 
-Pendant la publication, le programme d’installation installe toutes les icônes listées dans la [table icône](icon-table.md) sur l’ordinateur de l’utilisateur. Le fait d’avoir des icônes inutilisées dans la table d’icônes n’empêche pas l’exécution de l’installation, mais elle augmente inutilement la taille du fichier. msi et l’heure et l’espace requis pour publier une fonctionnalité.
+Pendant la publication, le programme d’installation installe toutes les icônes listées dans la [table icône](icon-table.md) sur l’ordinateur de l’utilisateur. Le fait d’avoir des icônes inutilisées dans la table d’icônes n’empêche pas l’exécution de l’installation, mais elle augmente inutilement la taille du fichier .msi et le temps et l’espace requis pour publier une fonctionnalité.
 
 Si aucune icône n’est référencée dans la propriété ou la table et qu’aucune interface utilisateur n’est fournie pour créer une référence au moment de l’exécution, vous devez supprimer l’icône pour obtenir de meilleures performances.
 

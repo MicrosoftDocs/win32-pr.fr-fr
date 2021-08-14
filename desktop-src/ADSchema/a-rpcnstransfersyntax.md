@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbd980b89461fabfde0d96465cdbac2210dd4580
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2ba9d638919686b29f592ebed91a409a768f15104c2d9135ca7725f856d697d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118681548"
 ---
 # <a name="rpc-ns-transfer-syntax-attribute"></a>attribut RPC-NS-Transfer-Syntax
 
@@ -45,7 +45,7 @@ UUID de la syntaxe de transfert prise en charge par l’entrée actuelle.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ UUID de la syntaxe de transfert prise en charge par l’entrée actuelle.
 |------------------------|-------------------------------------------------------------|
 | ID de lien                | \-                                                          |
 | MAPI-Id                | \-                                                          |
-| System-Only            | Faux                                                       |
-| Est de valeur unique       | Vrai                                                        |
-| Est indexé             | Vrai                                                        |
-| Dans le catalogue global      | Faux                                                       |
+| System-Only            | False                                                       |
+| Est de valeur unique       | True                                                        |
+| Est indexé             | True                                                        |
+| Dans le catalogue global      | False                                                       |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                |
 | Range-Lower            | \-                                                          |
 | Range-Upper            | \-                                                          |
@@ -78,10 +78,10 @@ UUID de la syntaxe de transfert prise en charge par l’entrée actuelle.
 |------------------------|-------------------------------------------------------------|
 | ID de lien                | \-                                                          |
 | MAPI-Id                | \-                                                          |
-| System-Only            | Faux                                                       |
-| Est de valeur unique       | Vrai                                                        |
-| Est indexé             | Vrai                                                        |
-| Dans le catalogue global      | Faux                                                       |
+| System-Only            | False                                                       |
+| Est de valeur unique       | True                                                        |
+| Est indexé             | True                                                        |
+| Dans le catalogue global      | False                                                       |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                |
 | Range-Lower            | \-                                                          |
 | Range-Upper            | \-                                                          |
@@ -99,10 +99,10 @@ UUID de la syntaxe de transfert prise en charge par l’entrée actuelle.
 |------------------------|-------------------------------------------------------------|
 | ID de lien                | \-                                                          |
 | MAPI-Id                | \-                                                          |
-| System-Only            | Faux                                                       |
-| Est de valeur unique       | Vrai                                                        |
-| Est indexé             | Vrai                                                        |
-| Dans le catalogue global      | Faux                                                       |
+| System-Only            | False                                                       |
+| Est de valeur unique       | True                                                        |
+| Est indexé             | True                                                        |
+| Dans le catalogue global      | False                                                       |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                |
 | Range-Lower            | \-                                                          |
 | Range-Upper            | \-                                                          |
@@ -120,10 +120,10 @@ UUID de la syntaxe de transfert prise en charge par l’entrée actuelle.
 |------------------------|-------------------------------------------------------------|
 | ID de lien                | \-                                                          |
 | MAPI-Id                | \-                                                          |
-| System-Only            | Faux                                                       |
-| Est de valeur unique       | Vrai                                                        |
-| Est indexé             | Vrai                                                        |
-| Dans le catalogue global      | Faux                                                       |
+| System-Only            | False                                                       |
+| Est de valeur unique       | True                                                        |
+| Est indexé             | True                                                        |
+| Dans le catalogue global      | False                                                       |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                |
 | Range-Lower            | \-                                                          |
 | Range-Upper            | \-                                                          |
@@ -141,10 +141,10 @@ UUID de la syntaxe de transfert prise en charge par l’entrée actuelle.
 |------------------------|-------------------------------------------------------------|
 | ID de lien                | \-                                                          |
 | MAPI-Id                | \-                                                          |
-| System-Only            | Faux                                                       |
-| Est de valeur unique       | Vrai                                                        |
-| Est indexé             | Vrai                                                        |
-| Dans le catalogue global      | Faux                                                       |
+| System-Only            | False                                                       |
+| Est de valeur unique       | True                                                        |
+| Est indexé             | True                                                        |
+| Dans le catalogue global      | False                                                       |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                |
 | Range-Lower            | \-                                                          |
 | Range-Upper            | \-                                                          |
@@ -162,10 +162,10 @@ UUID de la syntaxe de transfert prise en charge par l’entrée actuelle.
 |------------------------|-------------------------------------------------------------|
 | ID de lien                | \-                                                          |
 | MAPI-Id                | \-                                                          |
-| System-Only            | Faux                                                       |
-| Est de valeur unique       | Vrai                                                        |
-| Est indexé             | Vrai                                                        |
-| Dans le catalogue global      | Faux                                                       |
+| System-Only            | False                                                       |
+| Est de valeur unique       | True                                                        |
+| Est indexé             | True                                                        |
+| Dans le catalogue global      | False                                                       |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                |
 | Range-Lower            | \-                                                          |
 | Range-Upper            | \-                                                          |

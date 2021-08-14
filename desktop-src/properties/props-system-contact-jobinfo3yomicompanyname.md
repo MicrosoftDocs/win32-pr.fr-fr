@@ -4,12 +4,12 @@ ms.assetid: 2e99d9f7-e373-4df7-8452-6c5a682f5086
 title: System. contact. JobInfo3YomiCompanyName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df0e4404c2a18bb6e060e337bc650a1dfba1bf97
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b91d1cd29eb5d3720c144d116ffef7e594443eece6a4c9179b3039d4a1a844ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108101616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118729160"
 ---
 # <a name="systemcontactjobinfo3yomicompanyname"></a>System. contact. JobInfo3YomiCompanyName
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

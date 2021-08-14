@@ -3,7 +3,7 @@ title: SplitButtonGallery. MenuLayout, propriété
 description: Représente un conteneur pour les dispositions des menus déroulants de la Galerie de boutons partagés.
 ms.assetid: 4bebdff6-16ea-4cf3-adc7-9b86ea200e81
 keywords:
-- Ruban Windows de la propriété SplitButtonGallery. MenuLayout
+- SplitButtonGallery. MenuLayout, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04428c14b5e47795da47e5c03970610cd08a6e8f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f40cf184d6122fc40041cfb77953bba2b7950d9d1a957d99aae659633ee5c194
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118706897"
 ---
 # <a name="splitbuttongallerymenulayout-property"></a>SplitButtonGallery. MenuLayout, propriété
 
 Représente un conteneur pour les dispositions des menus déroulants de la [Galerie de boutons partagés](windowsribbon-controls-splitbuttongallery.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <SplitButtonGallery.MenuLayout>
@@ -56,9 +56,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque élément [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md) .
 
@@ -104,8 +104,8 @@ Cette section de code illustre la déclaration de contrôle **SplitButtonGallery
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

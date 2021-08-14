@@ -4,12 +4,12 @@ ms.assetid: 4fdd8339-f660-4389-878a-e7ab067d8508
 title: Enregistrements de jeton
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ae7e1dcdd36d538ed44205fa51b8e2094d1ff14
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 456ee591f15cac6e6a3d2fecaad3dfca9f0709b39a63d20fe198e591a199f4dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118797421"
 ---
 # <a name="token-records"></a>Enregistrements de jeton
 

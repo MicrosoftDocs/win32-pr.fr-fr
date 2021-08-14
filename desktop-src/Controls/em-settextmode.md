@@ -3,7 +3,7 @@ title: Message EM_SETTEXTMODE (RichEdit. h)
 description: Définit le mode texte ou le niveau d’annulation d’un contrôle RichEdit. Le message échoue si le contrôle contient du texte.
 ms.assetid: d6741234-0ef3-4cd2-8817-6c852f1b500d
 keywords:
-- EM_SETTEXTMODE les contrôles de message Windows
+- EM_SETTEXTMODE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74ec5378213bdd32721ff95ae3f4505437973256
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0ea489dcdb60908cac8600188d40b9aae4b7e3e531c713094bb180e84ee24bee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672368"
 ---
 # <a name="em_settextmode-message"></a>\_Message SETTEXTMODE em
 
@@ -82,7 +82,7 @@ Si le message est correctement exécuté, la valeur de retour est zéro.
 
 Si le message échoue, la valeur de retour est une valeur différente de zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En mode de texte enrichi, un contrôle RichEdit offre des fonctionnalités de modification enrichies standard. Toutefois, en mode texte brut, le contrôle est similaire à un contrôle d’édition standard :
 
@@ -98,8 +98,8 @@ Le contrôle ne doit pas contenir de texte lorsqu’il reçoit le message **em \
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

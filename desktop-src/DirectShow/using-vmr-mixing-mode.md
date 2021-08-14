@@ -4,12 +4,12 @@ ms.assetid: d1b238be-55a2-4db4-9bb6-c6164e2a6f05
 title: Utilisation du mode de mixage VMR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58ad499d58a71cd161ac4d964d67ecf3a4ebb664
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 728c70aefbcbdc45e8b3ef969858a72a42ce683dcdd19fc4fb5b094ff822cdf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106541192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118651075"
 ---
 # <a name="using-vmr-mixing-mode"></a>Utilisation du mode de mixage VMR
 
@@ -26,7 +26,7 @@ Cette section décrit comment intégrer plusieurs flux vidéo à l’aide du mod
 
 <dl> <dt>
 
-[VMR avec plusieurs flux (mode de mixage)](vmr-with-multiple-streams--mixing-mode.md)
+[VMR avec plusieurs Flux (Mode de mixage)](vmr-with-multiple-streams--mixing-mode.md)
 </dt> </dl>
 
  

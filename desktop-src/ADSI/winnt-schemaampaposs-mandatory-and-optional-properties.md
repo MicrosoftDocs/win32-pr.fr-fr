@@ -5,12 +5,12 @@ ms.assetid: 83028b5a-706e-463a-ab70-a9192a11b50b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3438d624f8d046cd389e4b3106345279f350def8
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: f8df77f8012d2895f766903e4c6db578e02e280a41a2a54c14171ae7550f5ac2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118689798"
 ---
 # <a name="winnt-schemas-mandatory-and-optional-properties"></a>Propriétés obligatoires et facultatives du schéma Winnt
 

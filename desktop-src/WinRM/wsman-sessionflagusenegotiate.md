@@ -5,8 +5,8 @@ ms.assetid: 86d8ed13-5eae-4a06-8ceb-b0ec067f4a4c
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode SessionFlagUseNegotiate
-- Méthode SessionFlagUseNegotiate Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode SessionFlagUseNegotiate
+- méthode SessionFlagUseNegotiate Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode SessionFlagUseNegotiate
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b57e463ccf71f22f12a964b1e1de72f426963c0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0d7a6af51cad3a1e0ea5c78aee92e9650af16d6b0d699d28a7d9d48cb51d0784
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118823271"
 ---
 # <a name="wsmansessionflagusenegotiate-method"></a>Méthode WSMan. SessionFlagUseNegotiate
 

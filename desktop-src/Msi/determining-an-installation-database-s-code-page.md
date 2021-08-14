@@ -4,18 +4,18 @@ ms.assetid: afa3fbd9-9f54-4f72-ab5d-cb0dbbd9946c
 title: Détermination de la page de codes d’une base de données d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 212978cbce0e73ae495a0ed10ea9070cce6bd374
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89825c99e0652c0ef324c99f8906281f3c87ed58bef099886220faa6a9311583
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118637848"
 ---
 # <a name="determining-an-installation-databases-code-page"></a>Détermination de la page de codes d’une base de données d’installation
 
 Pour déterminer la page de codes d’une base de données, appelez [**MsiDatabaseExport**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseexporta) avec *hDatabase* défini sur le descripteur de la base de données et *szTableName* défini sur \_ ForceCodepage. Cela exporte un fichier texte avec une extension. IDT. Les deux premières lignes de ce fichier sont vides. La troisième ligne est le numéro de page de codes ANSI, suivi d’un onglet, suivi du nom \_ ForceCodepage. Voir aussi [gestion des pages de codes des tables importées et exportées](code-page-handling-of-imported-and-exported-tables.md).
 
-Un exemple de détermination de la page de codes à l’aide de la [**méthode Export**](database-export.md) est fourni dans le kit de développement logiciel (SDK) Windows Installer dans le cadre de l’utilitaire WiLangId.vbs. Pour plus d’informations sur l’utilisation de WiLangId.vbs consultez la rubrique [gérer la langue et la page de codes](manage-language-and-codepage.md).
+un exemple de détermination de la page de codes à l’aide de la [**méthode Export**](database-export.md) est fourni dans le kit de développement logiciel (SDK) Windows Installer dans le cadre de l’utilitaire WiLangId.vbs. Pour plus d’informations sur l’utilisation de WiLangId.vbs consultez la rubrique [gérer la langue et la page de codes](manage-language-and-codepage.md).
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: c6535dbf-c3fe-4f70-9a70-02805253a651
 title: Serveur de récupération de clé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4e9fd60b7ee6596b98953d382978be64695c035
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a313ac46bf540d6d0f356f7e2c4910e31bee1f2a4268931ac6a942085505b423
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903772"
 ---
 # <a name="key-recovery-server"></a>Serveur de récupération de clé
 
@@ -36,8 +36,8 @@ Un client demande généralement un certificat à l’aide d’un modèle. Si le
 
 La récupération de clé n’est pas directement prise en charge par les services de certificats Active Directory ou l’API d’inscription de certificats. Toutefois, Microsoft fournit les applications suivantes pour vous aider dans le processus :
 
--   Certutil.exe est un programme de ligne de commande qui peut être utilisé pour récupérer des informations de configuration de l’autorité de certification, vérifier les certificats, les paires de clés et les chaînes de certificats, et sauvegarder et restaurer des clés. Il est inclus dans les systèmes d’exploitation serveur à compter de Windows Server 2003.
--   Krecover.exe est un programme basé sur une boîte de dialogue qui permet la récupération de clés. Il est inclus dans le kit de ressources à partir de Windows Server 2003.
+-   Certutil.exe est un programme de ligne de commande qui peut être utilisé pour récupérer des informations de configuration de l’autorité de certification, vérifier les certificats, les paires de clés et les chaînes de certificats, et sauvegarder et restaurer des clés. il est inclus dans les systèmes d’exploitation serveur à partir de Windows server 2003.
+-   Krecover.exe est un programme basé sur une boîte de dialogue qui permet la récupération de clés. il est inclus dans le Kit de ressources à partir de Windows Server 2003.
 
 Les étapes suivantes sont effectuées pour récupérer une clé privée :
 

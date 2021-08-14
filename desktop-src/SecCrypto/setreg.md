@@ -4,12 +4,12 @@ ms.assetid: 6c456a59-ee6c-420d-b075-7de8bd2fd8ff
 title: SetReg
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05da29d3eddf7e04ba5bd735e1032f388d9d204a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5267aa140cad713e550ddf8afd0281d489bdd90ac0b26a7f7a4781240ecac24c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900299"
 ---
 # <a name="setreg"></a>SetReg
 
@@ -17,7 +17,7 @@ L’outil SetReg définit la valeur des clés de Registre qui contrôlent le com
 
 **SetReg** \[ *Options* \] \[ *Choix \#* {**true** \| **false**}\]
 
-L’outil Set Registry est fourni uniquement avec le kit de développement logiciel (SDK) .NET Framework version 1,0 et. 1,1, que vous pouvez télécharger à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/download/details.aspx?id=16217).
+l’outil Set Registry est fourni uniquement avec le kit de développement logiciel (SDK) .NET Framework version 1,0 et. 1,1, que vous pouvez télécharger à partir du [centre de téléchargement Microsoft](https://www.microsoft.com/download/details.aspx?id=16217).
 
 ## <a name="options"></a>Options
 
@@ -40,9 +40,9 @@ Les options peuvent être l’une des valeurs suivantes. Les options indiquées 
 
 
 
-| Choix | Description                                                                                                                       | Résultats                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Choix | Description                                                                                                                       | Résultat                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **1**  | Approuver la racine de test                                                                                                               | Cette valeur est ignorée. **Windows XP/2000 :** Si la **valeur est true**, approuve une racine de test. Cela équivaut à exécuter « RegEdit wvtston. reg » dans Internet Explorer 3. *x*.<br/> La valeur par défaut est **false**. Tout fichier signé avec une racine de test ne sera pas vérifié, sauf si cet indicateur a la valeur **true**. Notez que ce comportement a changé avec Windows XP avec Service Pack 1 (SP1), car Windows XP avec SP1 ignore cette valeur.<br/> <br/> |
+| **1**  | Approuver la racine de test                                                                                                               | Cette valeur est ignorée. **Windows XP/2000 :** Si la **valeur est true**, approuve une racine de test. Cela équivaut à exécuter « RegEdit wvtston. reg » dans Internet Explorer 3. *x*.<br/> La valeur par défaut est **false**. Tout fichier signé avec une racine de test ne sera pas vérifié, sauf si cet indicateur a la valeur **true**. notez que ce comportement a changé avec Windows xp avec Service pack 1 (SP1), car Windows XP avec sp1 ignore cette valeur.<br/> <br/> |
 | **2**  | Utiliser la date d’expiration sur les certificats                                                                                               | Si la **valeur est true**, vérifie la date d’expiration du certificat. Pour ignorer les dates d’expiration, définissez cet indicateur sur **false**. La valeur par défaut est **true**.                                                                                                                                                                                                                                                                                                       |
 | **3**  | Vérifier la [ *liste de révocation*](../secgloss/c-gly.md) | Si la **valeur est true**, le contrôle de révocation est effectué. Pour contourner la vérification de la révocation, définissez cet indicateur sur **false**. La valeur par défaut est **true**. **Internet Explorer 3. *x*:** la valeur par défaut est **false**.<br/>                                                                                                                                                                                                                                               |
 | **4**  | Serveur de révocation hors connexion OK (individuel)<br/>                                                                              | Si la **valeur est true**, autorise l’approbation hors connexion pour les certificats individuels. La valeur par défaut est **false**.                                                                                                                                                                                                                                                                                                                                                 |

@@ -4,12 +4,12 @@ description: Les mappages d’ombre en cascade (CMS) constituent la meilleure fa
 ms.assetid: d3570d0a-74e0-5b9c-6586-c933f630c4ee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae70433f97f33c3cc28af8e282b14ea1f513cf4d
-ms.sourcegitcommit: 54db9e6a00a5c8f68e7c1a16b8c6d4943374498c
+ms.openlocfilehash: 29498dc882133215c910f3bd6caa5966aa0e141aaf4f7a68051834d33f2a3b16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "106540124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118649660"
 ---
 # <a name="cascaded-shadow-maps"></a>Mappages d’ombres en cascade (CSM)
 
@@ -21,11 +21,11 @@ Les cartes d’ombre en cascade (CMS) constituent la meilleure façon de combatt
 -   identifie et traite certains des pièges courants associés à l’ajout du filtrage à CMS ; les
 -   montre comment mapper des CMS à Direct3D 10 via le matériel Direct3D 11.
 
-Vous trouverez le code utilisé dans cet article dans le kit de développement logiciel (SDK) DirectX dans les exemples CascadedShadowMaps11 et VarianceShadows11. Cet article s’avérera très utile après l’implémentation des techniques présentées dans l’article technique, les [techniques courantes pour améliorer les cartes de profondeur de cliché instantané](/windows/desktop/DxTechArts/common-techniques-to-improve-shadow-depth-maps), sont implémentées.
+Vous trouverez le code utilisé dans cet article dans le kit de développement logiciel (SDK) DirectX dans les exemples CascadedShadowMaps11 et VarianceShadows11. cet article s’avère très utile après l’implémentation des techniques présentées dans l’article technique, ainsi que des [techniques courantes pour améliorer la profondeur de l’ombre Cartes](/windows/desktop/DxTechArts/common-techniques-to-improve-shadow-depth-maps), sont implémentées.
 
-## <a name="cascaded-shadow-maps-and-perspective-aliasing"></a>Cartes fictives en cascade et alias de perspective
+## <a name="cascaded-shadow-maps-and-perspective-aliasing"></a>Cartes d’ombre en cascade et alias de Perspective
 
-L’alias de perspective dans une table fictive est l’un des problèmes les plus difficiles à surmonter. Dans l’article technique, les techniques courantes pour améliorer les cartes de profondeur de cliché instantané, les alias de perspective sont décrites et certaines approches permettant d’atténuer le problème sont identifiées. En pratique, CMS a tendance à être la meilleure solution et est couramment utilisée dans les jeux modernes.
+L’alias de perspective dans une table fictive est l’un des problèmes les plus difficiles à surmonter. dans l’article technique, les techniques courantes d’amélioration de la profondeur de l’ombre Cartes, les alias de perspective sont décrits et certaines approches permettant d’atténuer le problème sont identifiées. En pratique, CMS a tendance à être la meilleure solution et est couramment utilisée dans les jeux modernes.
 
 Le concept de base de CMS est facile à comprendre. Les différentes zones de l’appareil photo frustum nécessitent des cartes fictives avec des résolutions différentes. Les objets les plus proches de l’oeil requièrent une résolution supérieure à celle des objets distants. En fait, lorsque l’œil se déplace très près de la géométrie, les pixels les plus proches de l’œil peuvent nécessiter une résolution tellement importante que même un mappage d’ombre de 4096 × 4096 est insuffisant.
 
@@ -107,7 +107,7 @@ Toutes les Frusta peuvent être créées avec le même proche plan. Cela force l
 
 Vous pouvez également créer Frusta avec l’intervalle de partition réel utilisé comme plans near et Far. Cela entraîne un ajustement plus étroit, mais dégénère pour ajuster à la scène dans le cas de Dueling Frusta. Les exemples CascadedShadowMaps11 appellent cette technique s’adaptent à cascade.
 
-Ces deux méthodes sont illustrées à la figure 6. Ajuster à cascade gaspille moins de résolution. Le problème avec fit to cascade est que la projection orthographique augmente et diminue en fonction de l’orientation de la vue frustum. La technique adapter à la scène remplit la projection orthographique de la taille maximale de la vue frustum en supprimant les artefacts qui s’affichent lorsque l’appareil photo est déplacé. Les [techniques courantes d’amélioration des cartes de profondeur des ombres](/windows/desktop/DxTechArts/common-techniques-to-improve-shadow-depth-maps) traitent les artefacts qui apparaissent lorsque la lumière se déplace dans la section « déplacement de la lumière dans des incréments de taille de Texel ».
+Ces deux méthodes sont illustrées à la figure 6. Ajuster à cascade gaspille moins de résolution. Le problème avec fit to cascade est que la projection orthographique augmente et diminue en fonction de l’orientation de la vue frustum. La technique adapter à la scène remplit la projection orthographique de la taille maximale de la vue frustum en supprimant les artefacts qui s’affichent lorsque l’appareil photo est déplacé. [Techniques courantes pour améliorer la profondeur de l’ombre Cartes](/windows/desktop/DxTechArts/common-techniques-to-improve-shadow-depth-maps) résout les artefacts qui apparaissent lorsque la lumière se déplace dans la section « déplacement de la lumière dans des incréments de taille de texel ».
 
 **Figure 6. Ajuster à la scène et ajuster à la cascade**
 
@@ -199,7 +199,7 @@ VSMs (abordé plus loin dans cet article) et des techniques de filtrage telles q
 
 Gauche Une jointure visible peut être affichée là où se chevauchent les cascades. Approprié Quand les cascades sont fusionnées entre, aucune jointure n’est effectuée.
 
-## <a name="filtering-shadow-maps"></a>Filtrage des mappages d’ombre
+## <a name="filtering-shadow-maps"></a>filtrage des Cartes Shadow
 
 ### <a name="pcf"></a>PCF
 
@@ -349,7 +349,7 @@ L’ajout des décalages basés sur les dérivés pour CMS présente des défis.
 
 Index des noyaux PCF en dehors d’une partition en cascade si le tampon d’ombre n’est pas rempli. La solution consiste à remplir le bord extérieur de la cascade d’une moitié de la taille du noyau PCF. Elle doit être implémentée dans le nuanceur qui sélectionne la cascade et dans la matrice de projection qui doit rendre le en cascade suffisamment grand pour que la bordure soit conservée.
 
-## <a name="variance-shadow-maps"></a>Cartes Shadow de variance
+## <a name="variance-shadow-maps"></a>Cartes d’ombre de Variance
 
 VSMs (consultez [écarts des clichés instantanés](https://portal.acm.org/citation.cfm?doid=1111411.1111440) par Donnelly et Lauritzen pour plus d’informations) activer le filtrage de carte d’ombre directe. Lorsque vous utilisez VSMs, toute la puissance du matériel de filtrage de texture peut être utilisée. Le filtrage trilinéaire et anisotrope (figure 15) peut être utilisé. En outre, les VSMs peuvent être flous directement par convolution. VSMs présentent certains inconvénients ; deux canaux de données de profondeur doivent être stockés (profondeur et profondeur au carré). Lorsque les ombres se chevauchent, la saignée est courante. Ils fonctionnent bien, toutefois, avec des résolutions inférieures et peuvent être combinés avec CMS.
 
@@ -470,7 +470,7 @@ Donnelly, W. et Lauritzen, A. [variance les cartes Shadow](https://portal.acm.or
 
 Lauritzen, Andrew et McCool, Michael. [Cartes fictives de variance en couches](https://portal.acm.org/citation.cfm?id=1375714.1375739&coll=GUIDE&dl=GUIDE&CFID=45360327&CFTOKEN=34578992). Procédure de l’interface graphique 2008, du 28 au 30 mai, 2008, Windsor, Ontario, Canada.
 
-Engel, Woflgang F. section 4. Cartes fictives en cascade. ShaderX5, techniques de rendu avancées, Wolfgang F. Engel, Ed. Charles River un support, Boston, Massachusetts. 2006. pp. 197 – 206.
+Engel, Woflgang F. section 4. Cartes d’ombre en cascade. ShaderX5, techniques de rendu avancées, Wolfgang F. Engel, Ed. Charles River un support, Boston, Massachusetts. 2006. pp. 197 – 206.
 
  
 

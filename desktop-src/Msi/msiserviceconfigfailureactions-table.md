@@ -4,18 +4,18 @@ ms.assetid: 7c450b74-1f91-4a1c-beee-646a407eb8a8
 title: Table MsiServiceConfigFailureActions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae55d095e227611271de35d673289fc9eb5b174e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 907c0feb2e331c1e19ff4292d11cc58b65340a7543d9af5d0a1ccf23d2e80a48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118944416"
 ---
 # <a name="msiserviceconfigfailureactions-table"></a>Table MsiServiceConfigFailureActions
 
 La table MsiServiceConfigFailureActions répertorie les opérations à exécuter après l’échec d’un service. Les opérations spécifiées dans ce tableau s’exécutent lors du prochain démarrage du système.
 
-**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. Cette table est disponible à partir de Windows Installer 5,0.
+**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. cette table est disponible à partir de Windows Installer 5,0.
 
 La table MsiServiceConfigFailureActions contient les colonnes suivantes.
 
@@ -31,7 +31,7 @@ La table MsiServiceConfigFailureActions contient les colonnes suivantes.
 | Commande                        | [Correct](formatted.md)   | N   | O        |
 | Actions                        | [Text](text.md)             | N   | O        |
 | DelayActions                   | [Text](text.md)             | N   | O        |
-| -\_                    | [Identificateur](identifier.md) | N   | N        |
+| Composant\_                    | [Identificateur](identifier.md) | N   | N        |
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Type simple CSymbolType (Journal des événements Windows)
-description: CSymbolType simple type (Journal des événements Windows)-définit un nom de symbole C/C++ valide.
+title: Type Simple CSymbolType (journal des événements Windows)
+description: Type Simple CSymbolType (Windows journal des événements)-définit un nom de symbole C/C++ valide.
 ms.assetid: d19827b6-2b61-4d75-ac9d-56a384b0cc4b
 keywords:
 - Journal des types simples CSymbolType
@@ -13,14 +13,14 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e0c8c17a9f4bb7e86b573d60187ffffd55c6cb96
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5e51438a49a45c167b247882f0976b27a4ad8d4da048437f385ccff545663b4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118589892"
 ---
-# <a name="csymboltype-simple-type-windows-event-log"></a>Type simple CSymbolType (Journal des événements Windows)
+# <a name="csymboltype-simple-type-windows-event-log"></a>Type Simple CSymbolType (journal des événements Windows)
 
 Définit un nom de symbole C/C++ valide.
 
@@ -44,18 +44,18 @@ Le type simple **CSymbolType** est un **XS : String** qui est limité par le mo
 
     Le nom du symbole peut être vide ou contenir des caractères alphanumériques et des traits de soulignement. Si le nom est vide, le compilateur de message génère le nom du symbole. Si vous spécifiez un nom, le nom doit commencer par un trait de soulignement ( \_ ) ou par un caractère alphabétique.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
-Si le nom du symbole est vide, le compilateur de message utilise l’attribut **Name** de l’élément que vous définissez pour générer le nom du symbole. Le compilateur remplace tous les caractères non alphanumériques par des traits de soulignement. Par exemple, si l’attribut **Name** du canal est Microsoft-Windows-SampleProvider/Operational, le compilateur utilise Microsoft \_ Windows \_ SampleProvider \_ Operational comme nom de symbole.
+Si le nom du symbole est vide, le compilateur de message utilise l’attribut **Name** de l’élément que vous définissez pour générer le nom du symbole. Le compilateur remplace tous les caractères non alphanumériques par des traits de soulignement. par exemple, si l’attribut **name** du canal est microsoft-Windows-SampleProvider/operational, le compilateur utilise microsoft \_ Windows \_ SampleProvider \_ operational comme nom de symbole.
 
 ## <a name="requirements"></a>Configuration requise
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

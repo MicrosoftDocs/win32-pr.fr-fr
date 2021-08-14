@@ -1,17 +1,17 @@
 ---
-title: Fonctions serveur (fonctionnalités d’accessibilité de Windows)
+title: fonctions serveur (fonctionnalités d’accessibilité Windows)
 description: Fonctions du serveur
 ms.assetid: 3cfa42c4-3d8b-44a1-9b8e-19248da12334
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10a747c073e84049fe578d19561b25d0b754dbb9
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 5b2eb449e81371a1c0c9e230610de97b8abdefb41429c5753059540e45f921d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118828067"
 ---
-# <a name="server-functions-windows-accessibility-features"></a>Fonctions serveur (fonctionnalités d’accessibilité de Windows)
+# <a name="server-functions-windows-accessibility-features"></a>fonctions serveur (fonctionnalités d’accessibilité Windows)
 
 Cette section contient des informations sur les fonctions de serveur utilisées avec Microsoft Active Accessibility.
 
@@ -21,7 +21,7 @@ Cette section contient des informations sur les fonctions de serveur utilisées 
 
 | Rubrique                                                                     | Description                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AccNotifyTouchInteraction**](/windows/desktop/api/Oleacc/nf-oleacc-accnotifytouchinteraction)<br/> | Permet à une application de technologie d’assistance d’informer le système qu’elle interagit avec l’interface utilisateur via une API d’automatisation Windows (telle que Microsoft UI Automation) suite à un mouvement tactile de l’utilisateur. Cela permet à la technologie d’assistance de notifier l’application cible et le système que l’utilisateur interagit avec Touch.<br/> |
+| [**AccNotifyTouchInteraction**](/windows/desktop/api/Oleacc/nf-oleacc-accnotifytouchinteraction)<br/> | permet à une application de technologie d’assistance d’informer le système qu’elle interagit avec l’interface utilisateur par le biais d’une API d’automatisation de Windows (telle que Microsoft UI automation) suite à un mouvement tactile de l’utilisateur. Cela permet à la technologie d’assistance de notifier l’application cible et le système que l’utilisateur interagit avec Touch.<br/> |
 | [**AccSetRunningUtilityState**](/windows/desktop/api/Oleacc/nf-oleacc-accsetrunningutilitystate)<br/> | Définit des valeurs système qui indiquent si l’état actuel de l’application de technologie d’assistance affecte les fonctionnalités généralement fournies par le système. <br/>                                                                                                                                                                                 |
 | [**CreateStdAccessibleObject**](/windows/desktop/api/Oleacc/nf-oleacc-createstdaccessibleobject)<br/> | Crée un objet accessible avec les méthodes et les propriétés du type spécifié d’élément d’interface utilisateur fourni par le système.<br/>                                                                                                                                                                                                                      |
 | [**CreateStdAccessibleProxy**](/windows/desktop/api/Oleacc/nf-oleacc-createstdaccessibleproxya)<br/>   | Crée un objet accessible qui a les propriétés et les méthodes de la classe spécifiée de l’élément d’interface utilisateur fourni par le système.<br/>                                                                                                                                                                                                                 |

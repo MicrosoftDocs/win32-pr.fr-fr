@@ -4,20 +4,20 @@ ms.assetid: c4885152-d7d2-4749-a79a-e0effd38837d
 title: Création de graphiques de filtre pour écrire des fichiers ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0581672f9fd3e4bfa5e2c678c3bd3c0d3ea22fa0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe53dcee310be34c321dfc2e988807184735a24b0793d68e3ca7dea10d0b29e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118662745"
 ---
 # <a name="building-filter-graphs-to-write-asf-files"></a>Création de graphiques de filtre pour écrire des fichiers ASF
 
-Lorsque vous créez du contenu Windows Media, les applications utilisent généralement l’un des scénarios suivants :
+lorsque vous créez Windows contenu multimédia, les applications utilisent généralement l’un des scénarios suivants :
 
--   Conversion ou transcodage de contenu d’un autre format au format Windows Media.
--   Insertion de contenu qui n’est pas basé sur Windows Media (formats de flux natifs) dans des fichiers ASF.
--   Capturer des données actives et les encoder immédiatement dans le format Windows Media.
+-   conversion ou transcodage de contenu d’un autre format en Windows format multimédia.
+-   insertion de contenu qui n’est pas Windows des fichiers multimédias (formats de flux natifs) dans des fichiers ASF.
+-   capturer des données actives et les encoder immédiatement dans Windows Format multimédia.
 
 Transcodage de fichiers ASF
 
@@ -31,9 +31,9 @@ L’illustration suivante montre les configurations typiques du graphique de fil
 
 Insertion de formats de flux natifs dans des fichiers ASF
 
-Par défaut, le filtre d’enregistreur ASF WM attend des flux audio et vidéo non compressés sur ses broches d’entrée, et utilise les codecs Windows Media Audio et Windows Media Video pour compresser les flux. Toutefois, le conteneur de fichiers ASF peut être utilisé pour n’importe quel type de données. En plaçant des données multimédias numériques dans un conteneur de fichiers ASF, vous pouvez ajouter des fonctionnalités fournies par ASF, telles que les métadonnées et la gestion des droits numériques (DRM), sans avoir à transcoder votre contenu.
+par défaut, le filtre d’enregistreur ASF WM attend des flux audio et vidéo non compressés sur ses broches d’entrée, et utilise les codecs Windows Media Audio et Windows Media Video pour compresser les flux. Toutefois, le conteneur de fichiers ASF peut être utilisé pour n’importe quel type de données. En plaçant des données multimédias numériques dans un conteneur de fichiers ASF, vous pouvez ajouter des fonctionnalités fournies par ASF, telles que les métadonnées et la gestion des droits numériques (DRM), sans avoir à transcoder votre contenu.
 
-Pour créer un fichier ASF qui contient du contenu qui n’est pas basé sur un support Windows, l’application doit compresser le flux dans le graphique de filtre en amont de l’enregistreur ASF de WM et contourner le mécanisme de compression du writer ASF en appelant [**IConfigAsfWriter2 :: setParam**](/previous-versions/windows/desktop/api/Dshowasf/nf-dshowasf-iconfigasfwriter2-setparam) , comme suit :
+pour créer un fichier ASF qui contient du contenu qui n’est pas Windows support, l’application doit compresser le flux dans le graphique de filtre en amont de l’enregistreur asf de wm et contourner le mécanisme de compression du writer asf en appelant [**IConfigAsfWriter2 :: SetParam**](/previous-versions/windows/desktop/api/Dshowasf/nf-dshowasf-iconfigasfwriter2-setparam) , comme suit :
 
 
 ```C++
@@ -44,7 +44,7 @@ pConfigAsfWriter2->SetParam(AM_CONFIGASFWRITER_PARAM_DONTCOMPRESS,TRUE,0)
 
 Configurez ensuite le filtre avec le profil souhaité. Il est essentiel que le type de média du flux d’entrée corresponde exactement au format du profil. Dans certains cas, il peut être nécessaire d’examiner le format du flux d’entrée et de créer un profil personnalisé pour le faire correspondre.
 
-Quand vous connectez l’enregistreur ASF WM au filtre amont, utilisez la méthode IGraphBuilder :: ConnectDirect. N’utilisez pas de méthodes de « connexion intelligente » comme IGraphBuilder :: Connect ou IGraphBuilder :: RenderFile pour connecter le filtre, car cette opération désactive le mode « contournement de la compression » du filtre.
+Quand vous connectez l’enregistreur ASF WM au filtre amont, utilisez la méthode IGraphBuilder :: ConnectDirect. n’utilisez pas de méthodes de « connexion intelligente » comme IGraphBuilder :: Connecter ou IGraphBuilder :: RenderFile pour connecter le filtre, car cette opération désactive le mode « contournement de la compression » du filtre.
 
 Capture directe à partir d’un appareil dans un fichier ASF
 
