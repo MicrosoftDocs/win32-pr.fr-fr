@@ -3,7 +3,7 @@ title: ClosedCaption.SAMILang
 description: La propriété SAMILang spécifie ou récupère la langue affichée pour le sous-titrage.
 ms.assetid: 990fb180-cb37-4022-b236-03f5acfd3ad3
 keywords:
-- Lecteur Windows Media ClosedCaption. SAMILang
+- ClosedCaption. SAMILang Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae99b9a164e29b4adeb2fd7b23a1b79945dcb26e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4c423b041601a38e81b1c4e83c34c010edb3365a4eb7e05596038fa887818ba1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118342284"
 ---
 # <a name="closedcaptionsamilang"></a>ClosedCaption.SAMILang
 
@@ -33,7 +33,7 @@ player.closedCaption.SAMILang
 
 Cette propriété est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un fichier SAMI peut contenir du texte pour une ou plusieurs langues. Les langues disponibles pour le sous-titrage sont définies entre les balises <STYLE> et </STYLE> dans le fichier sami. Un identificateur de langue est spécifié avec une chaîne alphanumérique unique précédée d’un point (.). Le nom spécifié pour une langue peut être n’importe quelle chaîne. Par exemple, les éléments suivants peuvent être utilisés pour définir l’anglais des États-Unis :
 
@@ -53,7 +53,7 @@ Valeur que vous transmettez à l’aide de *ClosedCaption*. **SAMILang** doit co
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise *ClosedCaption*. **SAMILang** dans un élément Select HTML pour spécifier la langue de la légende fermée. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise *ClosedCaption*. **SAMILang** dans un élément Select HTML pour spécifier la langue de la légende fermée. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

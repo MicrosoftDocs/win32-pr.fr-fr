@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 9f396b588f372f26a808e97593ffcc30eac9b3ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4640570dd834b42652d04262b70ec84fac106d99f463ca22144e28ad388a0937
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320767"
 ---
 # <a name="__namespace-class"></a>\_\_Classe d’espace de noms
 
@@ -65,7 +65,7 @@ Nom de l’espace de noms.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe d' **\_ \_ espace de noms** est dérivée de [**\_ \_ SystemClass**](--systemclass.md), qui n’a pas de propriétés.
 

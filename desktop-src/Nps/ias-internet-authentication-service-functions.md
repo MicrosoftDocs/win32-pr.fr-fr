@@ -5,19 +5,19 @@ ms.assetid: ca217314-00f9-4f9d-a9fe-ed928b3c3b3d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5a20b424b8ef5109cea7f4d00b97f1a545b89ff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b7cecf8ead61e94287ba4846b82f922af40068a771a9bcadd8ccb51693709c17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118362359"
 ---
 # <a name="nps-extensions-functions"></a>Fonctions des extensions NPS
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
 
- 
+ 
 
 ## <a name="application-defined"></a>Application définie
 
@@ -50,13 +50,13 @@ Les fonctions [**GetRequest**](/previous-versions/ms688263(v=vs.85)) et [**GetRe
 
 La structure du [**\_ \_ tableau d’attributs RADIUS**](/windows/desktop/api/authif/ns-authif-radius_attribute_array) contient des pointeurs de fonction vers les fonctions suivantes fournies par NPS :
 
--   [**Complémentaires**](/previous-versions/ms688246(v=vs.85))
+-   [**Ajouter**](/previous-versions/ms688246(v=vs.85))
 -   [**AttributeAt**](/previous-versions/ms688253(v=vs.85))
--   [**GetSize,**](/previous-versions/ms688277(v=vs.85))
+-   [**GetSize**](/previous-versions/ms688277(v=vs.85))
 -   [**InsertAt**](/previous-versions/ms688296(v=vs.85))
 -   [**RemoveAt**](/previous-versions/ms688452(v=vs.85))
 -   [**SetAt**](/previous-versions/ms688456(v=vs.85))
 
- 
+ 
 
- 
+ 

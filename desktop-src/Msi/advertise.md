@@ -4,18 +4,18 @@ ms.assetid: ef97f70b-e4bf-4eb3-b643-046a9c348823
 title: Propriété ADVERTISE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e768f22f86dacf35009ca0e0e3ef9337ef84ab70
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: da43d291b64ed10c1ae5321a766eca6cab9c4423a26625aacd92e9591d2e3f6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118381598"
 ---
 # <a name="advertise-property"></a>Propriété ADVERTISE
 
 La valeur de la propriété **publier** est une liste de fonctionnalités délimitée par des virgules qui doivent être publiées. Les fonctionnalités doivent être présentes dans la colonne Feature de la table [Feature](feature-table.md) . Pour installer toutes les fonctionnalités publiées, utilisez publier = tout sur la ligne de commande. N’entrez pas « ADVERTISE = ALL » dans la [table des propriétés](property-table.md) , car cela génère un package publié qui ne peut pas être installé ou supprimé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Notez que les noms de fonctionnalités respectent la casse.
 
@@ -44,7 +44,7 @@ Le programme d’installation définit la propriété [**présélectionnée**](p
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

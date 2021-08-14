@@ -8,12 +8,12 @@ keywords:
 - Attributs Active Directory, syntaxes pour
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04386e1b4981a81585fe208afa4cca6ed02d4c3c
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: c324fef5267ce37b42ede66b618b33148d266ac52dd69662a15bbce6094951ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104101413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182837"
 ---
 # <a name="syntaxes-for-attributes-in-active-directory-domain-services"></a>Syntaxes pour les attributs dans Active Directory Domain Services
 
@@ -25,6 +25,6 @@ Active Directory Domain Services définir un ensemble de syntaxes d’attributs 
 
 Pour obtenir la liste complète des syntaxes fournies par Active Directory Domain Services, y compris les valeurs **VarType** et [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) correspondantes de chaque syntaxe, consultez [syntaxes](/windows/desktop/ADSchema/syntaxes).
 
- 
+ 
 
- 
+ 

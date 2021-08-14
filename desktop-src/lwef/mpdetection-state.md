@@ -4,7 +4,7 @@ description: État de la menace actuellement détectée.
 ms.assetid: 293771FF-A210-41D0-88A5-3B52ACAA9295
 keywords:
 - MPDETECTION_STATE énumération des fonctionnalités d’environnement Windows héritées
-- PMPDETECTION_STATE des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMPDETECTION_STATE de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9265a15641d2072d87b33af2782f17974bf07be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0443e0c47eef4d4943d39bd671c28c19db0ff5e1fbe79e5af8d034603b1ab78d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883516"
 ---
 # <a name="mpdetection_state-enumeration"></a>\_Énumération de l’État MPDETECTION
 
@@ -102,8 +102,8 @@ La menace n’apparaît pas dans la requête d’État, uniquement dans l’hist
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

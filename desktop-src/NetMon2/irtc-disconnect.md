@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 43acb88e2c7b6108a162c4715de02375121021f8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e0d0e2c9dd92e96f4fa187f16565a78af9898f5c126b7eb4223a28f29c7c4871
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117981098"
 ---
 # <a name="irtcdisconnect-method"></a>IRTC ::D méthode éconnecter
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -50,13 +50,13 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 |------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_capture NMERR**</dt> </dl>      | Le NPP capture des données. Vous ne pouvez pas vous déconnecter du réseau pendant que la capture de données est en cours.<br/> |
 | <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl> | Le NPP n’est pas connecté au réseau.<br/>                                                                 |
-| <dl> <dt>**NMERR \_ pas de \_ temps réel**</dt> </dl>  | Le NPP est connecté au réseau, mais pas avec la méthode [IRTC :: Connect](irtc-connect.md) .<br/>           |
+| <dl> <dt>**NMERR \_ pas de \_ temps réel**</dt> </dl>  | le NPP est connecté au réseau, mais pas avec la méthode [IRTC :: Connecter](irtc-connect.md) .<br/>           |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne peut pas être appelée lorsque le NPP capture des données. Vous devez appeler la méthode [IRTC :: Stop](irtc-stop.md) avant d’appeler IRTC ::D éconnecter.
 
@@ -80,7 +80,7 @@ Cette méthode ne peut pas être appelée lorsque le NPP capture des données. V
 [IRTC](irtc.md)
 </dt> <dt>
 
-[IRTC :: Connect](irtc-connect.md)
+[IRTC :: Connecter](irtc-connect.md)
 </dt> <dt>
 
 [IRTC :: Stop](irtc-stop.md)

@@ -29,12 +29,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 3ba36b64496413a54e6d8b8b96c16c265367d05c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dc83346f68ea07bd45fed3f72f81fb17e6bd425f362baf287f5a200bb636e33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118046666"
 ---
 # <a name="srrf"></a>SRRF
 
@@ -54,7 +54,7 @@ Indicateurs qui limitent les données à définir ou à retourner.
 | <span id="SRRF_RT_DWORD"></span><span id="srrf_rt_dword"></span><dl> <dt>**SRRF \_ RT \_ DWORD**</dt> <dt>0x00000018</dt> </dl>                           | \_Types de fichiers binaires reg DWORD et 32 bits \_ . Cette valeur est équivalente à SRRF \_ RT \_ reg \_ Binary \| SRRF \_ RT \_ reg reg \_ . Si vous récupérez une valeur, si les données binaires de la valeur sont supérieures à 32 bits, elles ne sont pas retournées.<br/> |
 | <span id="SRRF_RT_QWORD"></span><span id="srrf_rt_qword"></span><dl> <dt>**SRRF \_ RT \_ QWord**</dt> <dt>0x00000048</dt> </dl>                           | \_Types de fichiers binaires reg QWord et 64 bits \_ . Cela équivaut à SRRF \_ RT \_ reg \_ Binary \| SRRF \_ RT \_ reg \_ QWORD. Si vous récupérez une valeur, si les données binaires de la valeur sont supérieures à 64 bits, elles ne sont pas retournées.<br/> |
 | <span id="SRRF_RT_ANY"></span><span id="srrf_rt_any"></span><dl> <dt>**SRRF \_ RT \_ any**</dt> <dt>0x0000FFFF</dt> </dl>                                 | Tous les types. Définissez cet indicateur si aucune autre \_ valeur SRRF RT n’est définie.<br/>                                                                                                                                                 |
-| <span id="SRRF_RM_ANY"></span><span id="srrf_rm_any"></span><dl> <dt>**SRRF \_ RM \_ n’importe quel**</dt> <dt>0x00000000</dt> </dl>                                 | Aucune restriction de mode. Il s’agit de la valeur par défaut.<br/>                                                                                                                                                             |
+| <span id="SRRF_RM_ANY"></span><span id="srrf_rm_any"></span><dl> <dt>**SRRF \_ RM \_ n’importe quel**</dt> <dt>0x00000000</dt> </dl>                                 | Aucune restriction de mode. Il s'agit de la valeur par défaut.<br/>                                                                                                                                                             |
 | <span id="SRRF_RM_NORMAL"></span><span id="srrf_rm_normal"></span><dl> <dt>**SRRF \_ 0x00010000 \_ normale RM**</dt> <dt></dt> </dl>                        | Limitez le mode de démarrage du système à « démarrage normal ».<br/>                                                                                                                                                              |
 | <span id="SRRF_RM_SAFE"></span><span id="srrf_rm_safe"></span><dl> <dt>**SRRF \_ 0x00020000 \_ sécurisé RM**</dt> <dt></dt> </dl>                              | Limitez le mode de démarrage du système à « mode sans échec ».<br/>                                                                                                                                                                |
 | <span id="SRRF_RM_SAFENETWORK"></span><span id="srrf_rm_safenetwork"></span><dl> <dt>**SRRF \_ RM \_ SAFENETWORK**</dt> <dt>0x00040000</dt> </dl>         | Limitez le mode de démarrage du système à « mode sans échec avec mise en réseau ».<br/>                                                                                                                                                |
@@ -64,18 +64,18 @@ Indicateurs qui limitent les données à définir ou à retourner.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces valeurs sont définies dans Shlwapi. h.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Shlwapi. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 439be951-0185-4578-8b79-a5dfce254a68
 title: Propriété AVEncMPVGOPSInSeq (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b61414bd7389448e7ae43a52a065142fc40867f0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 61a4aba43159bc50509ee2ed045e2f5b2d277f7dff7011a3f959c3d1735a6f0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403751"
 ---
 # <a name="avencmpvgopsinseq-property"></a>Propriété AVEncMPVGOPSInSeq
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncMPVGOPSInSeq**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété est en lecture/écriture.
 
@@ -35,8 +35,8 @@ Cette propriété est en lecture/écriture.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

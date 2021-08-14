@@ -4,12 +4,12 @@ ms.assetid: f83c7709-86dc-4c64-ad17-2ad660eb57b7
 title: Programmation du panneau de saisie à l’aide de la classe PenInputPanel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80e00d1cb10983255ab2e532aa08de6e9e6a0fb5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d430b002fb967652aea046919ec7341a984f420f756fd936e8c68dbfce8c055
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449382"
 ---
 # <a name="programming-the-input-panel-using-the-peninputpanel-class"></a>Programmation du panneau de saisie à l’aide de la classe PenInputPanel
 
@@ -19,15 +19,15 @@ Description de l’utilisation de l’objet [**PenInputPanel**](peninputpanel-cl
 
 ## <a name="input-panel-vs-the-peninputpanel-object"></a>Panneau de saisie et objet PenInputPanel
 
-Dans Microsoft Windows XP Édition Tablet PC version 1,0, le panneau de saisie Tablet PC au niveau du système fournit un mécanisme universel permettant d’effectuer des entrées de texte sur la plate-forme Windows, mais il ne fournit pas d’accès par programme. Dans le kit de développement logiciel (SDK) de Windows XP Édition Tablet PC version 1,5 et versions ultérieures, l’objet [**PenInputPanel**](peninputpanel-class.md) vous permet d’intégrer les outils d’entrée de texte directement dans vos applications et de fournir un niveau de contrôle non disponible précédemment. À compter de Windows XP Édition Tablet PC 2005, le panneau de saisie au niveau du système a été mis à niveau pour inclure les fonctionnalités d’entrée sur place fournies par l’objet **PenInputPanel** et bien plus encore.
+dans Microsoft Windows XP édition Tablet pc version 1,0, le panneau de saisie tablet pc au niveau du système fournit un mécanisme universel permettant d’effectuer des entrées de texte sur la plateforme Windows, mais il ne fournit pas d’accès par programme. dans Windows XP Tablet PC Edition (kit de développement logiciel (SDK)) version 1,5 et versions ultérieures, l’objet [**PenInputPanel**](peninputpanel-class.md) vous permet d’intégrer les outils d’entrée de texte directement dans vos applications et de fournir un niveau de contrôle non disponible précédemment. depuis la Windows XP édition Tablet PC 2005, le panneau de saisie au niveau du système a été mis à niveau pour inclure la fonctionnalité d’entrée sur place fournie par l’objet **PenInputPanel** et bien plus encore.
 
 Le graphique suivant montre le panneau de saisie affiché sur l’exemple d’exemple de [formulaire de déclaration automatique](auto-claims-form-sample.md) .
 
 ![panneau de saisie affiché sur un formulaire utilisé pour les revendications d’automobile](images/36eaa36b-1b0c-4363-96fa-092f70663ffa.jpg)
 
-Le panneau de saisie remplace le [**PenInputPanel**](peninputpanel-class.md) en fournissant la même fonctionnalité d’entrée sur place à toute application s’exécutant sur Windows XP Édition Tablet PC 2005 ou version ultérieure sans nécessiter de code supplémentaire. Cet article sur l’utilisation de l’objet **PenInputPanel** est fourni à des fins de compatibilité descendante. Les applications qui utilisent déjà l’objet **PenInputPanel** fonctionneront de la même façon, sauf que le panneau de saisie sera affiché à la place du **PenInputPanel** lorsque l’application sera EXÉCUTÉe sur Windows XP Édition Tablet PC 2005 ou version ultérieure.
+le panneau de saisie remplace le [**PenInputPanel**](peninputpanel-class.md) en fournissant la même fonctionnalité d’entrée sur place à toute application s’exécutant sur Windows XP édition Tablet PC 2005 ou version ultérieure sans nécessiter de code supplémentaire. Cet article sur l’utilisation de l’objet **PenInputPanel** est fourni à des fins de compatibilité descendante. les Applications qui utilisent déjà l’objet **PenInputPanel** fonctionneront de la même façon, à ceci près que le panneau de saisie sera affiché à la place du **PenInputPanel** lorsque l’application sera exécutée sur Windows XP édition Tablet PC 2005 ou version ultérieure.
 
-Si vous développez une nouvelle application pour Tablet PC et que vous souhaitez disposer d’une solution d’entrée d’utilisateur sur place, le panneau de saisie le fournit automatiquement sur Windows XP Édition Tablet PC 2005 ou version ultérieure. Il n’est pas nécessaire d’instancier l’objet [**PenInputPanel**](peninputpanel-class.md) .
+si vous développez une nouvelle application pour Tablet PC et que vous souhaitez disposer d’une solution d’entrée d’utilisateur sur place, le panneau de saisie le fournit automatiquement sur Windows XP édition Tablet pc 2005 ou version ultérieure. Il n’est pas nécessaire d’instancier l’objet [**PenInputPanel**](peninputpanel-class.md) .
 
 ## <a name="disabling-the-input-panel"></a>Désactivation du panneau de saisie
 
@@ -72,7 +72,7 @@ La définition de la `DisableInPlace` clé de Registre sur zéro empêche l’af
 Si vous rencontrez toujours un problème dans votre application après avoir désactivé l’interface utilisateur du panneau de saisie, il peut être nécessaire de désactiver l’infrastructure sous-jacente, qui interroge votre application à la recherche de l’emplacement du signe insertion. Par exemple, le panneau de saisie peut exposer un bogue dans le code de suivi du signe insertion de votre application. La désactivation de la requête de suivi du signe insertion empêche également l’interface utilisateur du panneau de saisie d’apparaître. Pour désactiver le Framework, définissez la `EnableCaretTracking` clé de Registre sur zéro. Localisez cette clé à l’adresse `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\AppCompatFlags\CaretTracking\` .
 
 > [!Note]  
-> Les outils d’accessibilité et la technologie vocale de Windows XP utilisent également ce Framework. par conséquent, la désactivation de la requête désactive également ces fonctionnalités dans votre application.
+> les outils d’accessibilité et la technologie vocale dans Windows XP utilisent également ce framework. par conséquent, la désactivation de la requête désactive également ces fonctionnalités dans votre application.
 
  
 

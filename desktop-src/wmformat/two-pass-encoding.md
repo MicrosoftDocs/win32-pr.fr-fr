@@ -11,16 +11,16 @@ keywords:
 - 2-encodage Pass, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6764f80857447e122c97c69683243a65da7e83b2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b6cd769049b5fa3869c844e00d9ee14cfae596b197d06d414b04a544d831bbeb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845337"
 ---
 # <a name="two-pass-encoding"></a>Encodage Two-Pass
 
-L’encodage en deux passes est une méthode d’encodage disponible avec certains codecs, comme le codec Windows Media Video 9. Lorsque vous utilisez l’encodage en deux passes, le codec traite tous les exemples du flux à deux reprises. Lors du premier passage, le codec rassemble des informations sur le contenu du flux. Lors de la deuxième passe, le codec utilise les informations collectées lors du premier passage pour optimiser le processus d’encodage du flux.
+l’encodage en deux passes est une méthode d’encodage disponible avec certains codecs, comme le codec Windows Media Video 9. Lorsque vous utilisez l’encodage en deux passes, le codec traite tous les exemples du flux à deux reprises. Lors du premier passage, le codec rassemble des informations sur le contenu du flux. Lors de la deuxième passe, le codec utilise les informations collectées lors du premier passage pour optimiser le processus d’encodage du flux.
 
 Dans le mode d’encodage à taux binaire constant, les fichiers qui sont codés en deux passes sont généralement plus efficaces que les fichiers encodés en une seule passe. Le VBR basé sur la qualité, qui est une passe, produit une qualité plus cohérente que le VBR basé sur la vitesse du bit, ce qui correspond à deux passes.
 
@@ -36,9 +36,9 @@ Vous ne pouvez pas utiliser un encodage en deux passes sur des flux Live.
 [**Utilisation de l’encodage Two-Pass**](using-two-pass-encoding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

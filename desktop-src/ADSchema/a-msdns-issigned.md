@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 142fdda1a0c072159cdee1f21982099609472bfe
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: daaabf907d75db04eb0c760e79cb48e37814141cdfa24bdc9513db5ee189ab7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118427083"
 ---
 # <a name="ms-dns-is-signed-attribute"></a>attribut ms-DNS-is-signed
 

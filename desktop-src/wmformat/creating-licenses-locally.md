@@ -14,16 +14,16 @@ keywords:
 - licences, créer des licences localement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32fc4305c77be2132611df925ae08458fe2bb4a6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fda1a889e83f093cbd60043b299b7174a6c963663962a66454c5707060e76232
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118433905"
 ---
 # <a name="creating-licenses-locally"></a>Création de licences localement
 
-Dans certaines circonstances, par exemple lors de l' [importation de DRM](drm-import.md), vous pouvez créer vos propres licences. Les licences Windows Media DRM peuvent être écrites de différentes manières, mais pour créer votre propre licence, vous devez utiliser le schéma binaire XMR (extensible Media Rights). Pour plus d’informations, consultez [génération d’une licence XMR](building-an-xmr-license.md).
+Dans certaines circonstances, par exemple lors de l' [importation de DRM](drm-import.md), vous pouvez créer vos propres licences. Windows Les licences DRM multimédias peuvent être écrites de différentes manières, mais pour créer votre propre licence, vous devez utiliser le schéma binaire XMR (extensible Media Rights). Pour plus d’informations, consultez [génération d’une licence XMR](building-an-xmr-license.md).
 
 Lorsque vous créez une licence, vous pouvez l’ajouter au magasin de licences local en appelant la méthode [**IWMDRMLicenseManagement :: StoreLicense**](iwmdrmlicensemanagement-storelicense.md) .
 
@@ -37,9 +37,9 @@ Lorsque vous créez une licence, vous pouvez l’ajouter au magasin de licences 
 [**Génération d’une licence XMR**](building-an-xmr-license.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

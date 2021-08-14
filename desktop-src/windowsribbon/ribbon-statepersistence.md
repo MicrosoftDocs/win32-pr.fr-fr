@@ -1,24 +1,24 @@
 ---
 title: Persistance de l’état du ruban
-description: Windows Ribon Framework (ruban) offre la possibilité de conserver l’état d’une variété de paramètres utilisateur et de préférences dans les sessions d’application.
+description: le Windows framework Ribon (ruban) offre la possibilité de conserver l’état d’une variété de paramètres utilisateur et de préférences dans les sessions d’application.
 ms.assetid: f59e36be-8e3d-454a-b93c-9fc5fc5ecb47
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4a3b704151b657bdfe95845c8473a0fd197e87b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c1e506d1cc8138f569dc21b491cc11ed58411131c0dd80532c19043c5974995e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118707937"
 ---
 # <a name="persisting-ribbon-state"></a>Persistance de l’état du ruban
 
-Windows Ribon Framework (ruban) offre la possibilité de conserver l’état d’une variété de paramètres utilisateur et de préférences dans les sessions d’application.
+le Windows framework Ribon (ruban) offre la possibilité de conserver l’état d’une variété de paramètres utilisateur et de préférences dans les sessions d’application.
 
 -   [Introduction](#introduction)
 -   [Une expérience prévisible](#a-predictable-experience)
--   [Enregistrer les paramètres du ruban](#save-ribbon-settings)
--   [Charger les paramètres du ruban](#load-ribbon-settings)
+-   [enregistrer le Paramètres du ruban](#save-ribbon-settings)
+-   [charger le ruban Paramètres](#load-ribbon-settings)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="introduction"></a>Introduction
@@ -52,7 +52,7 @@ Les paramètres de ruban qui peuvent être modifiés au moment de l’exécution
     > [!Note]  
     > L’État réduit du ruban n’est pas équivalent à l’État réduit du ruban. En cas d’État réduit, le ruban est complètement masqué et ne peut pas être interagi avec. L’infrastructure appelle cet État automatiquement si la taille de la fenêtre d’application est réduite, horizontalement ou verticalement, jusqu’au point où le ruban masque l’espace de travail de l’application. Le Framework restaure le ruban lorsque la taille de la fenêtre d’application est augmentée.
 
-     
+     
 
     Cette capture d’écran montre la commande **réduire le** menu contextuel du ruban.
 
@@ -62,9 +62,9 @@ Les paramètres de ruban qui peuvent être modifiés au moment de l’exécution
 
     ![capture d’écran du ruban Microsoft Paint réduit.](images/properties/ui-pkey-minimized.png)
 
-## <a name="save-ribbon-settings"></a>Enregistrer les paramètres du ruban
+## <a name="save-ribbon-settings"></a>enregistrer le Paramètres du ruban
 
-La méthode [**IUIRibbon :: SaveSettingsToStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) écrit une représentation binaire de l’état persistant du ruban (décrite dans la section précédente) dans un objet [IStream](/windows/win32/api/objidl/nn-objidl-istream) . L’application enregistre ensuite le contenu de l’objet IStream dans un fichier ou dans le Registre Windows.
+La méthode [**IUIRibbon :: SaveSettingsToStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) écrit une représentation binaire de l’état persistant du ruban (décrite dans la section précédente) dans un objet [IStream](/windows/win32/api/objidl/nn-objidl-istream) . l’application enregistre ensuite le contenu de l’objet IStream dans un fichier ou dans le registre de Windows.
 
 L’exemple suivant montre le code de base requis pour écrire l’état du ruban dans un objet [IStream](/windows/win32/api/objidl/nn-objidl-istream) à l’aide de la méthode [**IUIRibbon :: SaveSettingsToStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) .
 
@@ -98,7 +98,7 @@ HRESULT CApplication::SaveRibbonStatusToStream(
 
 
 
-## <a name="load-ribbon-settings"></a>Charger les paramètres du ruban
+## <a name="load-ribbon-settings"></a>charger le ruban Paramètres
 
 La méthode [**IUIRibbon :: LoadSettingsFromStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) est utilisée pour récupérer les informations persistantes sur l’état du ruban stockées en tant qu’objet [IStream](/windows/win32/api/objidl/nn-objidl-istream) par la méthode [**IUIRibbon :: SaveSettingsToStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) . Les informations de l’objet IStream sont appliquées à l’interface ruban lorsque l’application est initialisée.
 
@@ -174,6 +174,6 @@ Lors de la synchronisation de l’état du ruban sur un groupe d’instances d�
 [Barre d’outils accès rapide](windowsribbon-controls-quickaccesstoolbar.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

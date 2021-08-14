@@ -4,12 +4,12 @@ ms.assetid: aa4c935f-0d60-4603-ae96-d5cabdf9af00
 title: Élément PnPXHardwareId
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0ffc389ca6df363439dd6463b3f86ca756359e8
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 0d032974486d4bd43f0a699eba6b8f6b75598c49858eeedb09bae5d3e79b11e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118311514"
 ---
 # <a name="pnpxhardwareid-element"></a>Élément PnPXHardwareId
 
@@ -47,7 +47,7 @@ Pour spécifier plusieurs ID de matériel, séparez les identificateurs par un e
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dce6f457977de1124438fa4b54e4a84d1cb6d54e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3019f0942a536c34b654737e645f17c1387e1bfb203b6110d3289683f505e34e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118426732"
 ---
 # <a name="ms-ds-az-domain-timeout-attribute"></a>ms-DS-AZ-domaine-Timeout (attribut)
 
@@ -36,7 +36,7 @@ Durée, en millisecondes, après qu’un domaine est détecté comme inaccessibl
 | Fréquence des mises à jour  | Pendant l’initialisation ou la modification de la stratégie. |
 | Attribute-Id      | 1.2.840.113556.1.4.1795                 |
 | System-ID-GUID    | 6448f56a-ca70-4e2e-b0af-d20e4ce653d0    |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)    |
+| Syntaxe            | [**Énumération**](s-enumeration.md)    |
 
 
 
@@ -44,7 +44,7 @@ Durée, en millisecondes, après qu’un domaine est détecté comme inaccessibl
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: da6590d63f4a3c79252e25f3625c0ee75b146b6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb826d23a168d81d838341e96fa5e613f8b6f5261a3cda548a2be320acebbde8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118458917"
 ---
 # <a name="foldermovehere-method"></a>Folder. MoveHere, méthode
 
@@ -54,7 +54,7 @@ Type : **variante**
 
 Type : **variante**
 
-Options pour l’opération de déplacement. Cette valeur peut être zéro ou une combinaison des valeurs suivantes. Ces valeurs sont basées sur les indicateurs définis pour une utilisation avec le membre **fFlags** de la structure C++ [**SHFILEOPSTRUCT**](/windows/desktop/api/Shellapi/ns-shellapi-shfileopstructa) . Ces indicateurs ne sont pas définis comme tels pour Visual Basic, VBScript ou JScript. vous devez donc les définir vous-même ou utiliser leurs équivalents numériques.
+Options pour l’opération de déplacement. Cette valeur peut être zéro ou une combinaison des valeurs suivantes. Ces valeurs sont basées sur les indicateurs définis pour une utilisation avec le membre **fFlags** de la structure C++ [**SHFILEOPSTRUCT**](/windows/desktop/api/Shellapi/ns-shellapi-shfileopstructa) . ces indicateurs ne sont pas définis comme tels pour Visual Basic, VBScript ou JScript. vous devez donc les définir vous-même ou utiliser leurs équivalents numériques.
 
 <dt>
 
@@ -183,7 +183,7 @@ Ne fonctionne que dans le répertoire local. Ne pas utiliser de manière récurs
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Toutes les méthodes ne sont pas implémentées pour tous les dossiers. Par exemple, la méthode [**ParseName**](folder-parsename.md) n’est pas implémentée pour le dossier du panneau de configuration ( \_ contrôles CSIDL). Si vous tentez d’appeler une méthode non implémentée, une erreur 0x800A01BD (Decimal 445) est générée.
@@ -192,9 +192,9 @@ Cette méthode ne retourne pas de valeur.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **MoveHere** pour déplacer le fichier Temp.txt du répertoire racine du lecteur c vers le dossier c : \\ Windows. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+l’exemple suivant utilise **MoveHere** pour déplacer le fichier Temp.txt du répertoire racine du lecteur c vers le dossier c : \\ Windows. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -267,13 +267,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

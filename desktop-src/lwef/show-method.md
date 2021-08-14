@@ -4,12 +4,12 @@ description: Show, méthode
 ms.assetid: 58adbb55-f4cb-4356-abc4-b85fa3af744d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a05a1adaa46c85f34e02128960330c68d9a86db1
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ede9dd8474b21911fccb0c217b070dbfb84160125d2fd56092685ccaf82905b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106513708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118475351"
 ---
 # <a name="show-method"></a>Show, méthode
 
@@ -27,13 +27,13 @@ Rend le caractère spécifié visible et lit l’animation **qui lui** est assoc
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent ***. Caractères («*** CharacterID * * * »). Afficher* *  \[ *rapidement*\]
+*agent ***. Caractères («**_CharacterID_*_»). Afficher_ *  \[ *rapidement*\]
 
 
 
 | Partie   | Description                                                                                                                                                                                                                              |
 |--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Rapide* | Optionnel. Expression booléenne spécifiant si le serveur lit l’animation d' **affichage** . **True** Ignore l’animation de l’état d' **émission** . <br/> **False** (valeur par défaut) n’ignore pas l’animation de l’état d' **émission** . <br/> |
+| *Rapide* | Facultatif. Expression booléenne spécifiant si le serveur lit l’animation d' **affichage** . **True** Ignore l’animation de l’état d' **émission** . <br/> **False** (valeur par défaut) n’ignore pas l’animation de l’état d' **émission** . <br/> |
 
 
 
@@ -41,7 +41,7 @@ Rend le caractère spécifié visible et lit l’animation **qui lui** est assoc
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous déclarez une référence d’objet et que vous la définissez sur cette méthode, elle retourne un objet de [**requête**](/windows/desktop/lwef/the-request-object) . En outre, si **l’animation associée** n’a pas été chargée et que vous n’avez pas spécifié le paramètre **Fast** comme **true**, le serveur définit la propriété [**Status**](status-property.md) de l’objet **Request** sur « failed » avec un numéro d’erreur approprié. Par conséquent, si vous utilisez le protocole HTTP pour accéder aux données d’animation de caractères, utilisez la méthode d' [**extraction**](get-method.md) pour charger l’animation de l’état d' **affichage** avant d’appeler la méthode **Show** .
 

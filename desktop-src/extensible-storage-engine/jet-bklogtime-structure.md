@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0b3ebfd1c0b807a491695ba18d6735e0230a16fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b34740d582e341cce3b2fd0b28203b7346a4de1d94a8586289be8ab252247943
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118487721"
 ---
 # <a name="jet_bklogtime-structure"></a>Structure JET_BKLOGTIME
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_bklogtime-structure"></a>Structure JET_BKLOGTIME
 
 La structure **JET_BKLOGTIME** contient les éléments de date et d’heure d’un événement. Il s’agit d’une extension de [JET_LOGTIME](./jet-logtime-structure.md).
 
-**Windows Vista : JET_BKLOGTIME** est introduite dans Windows Vista.
+**Windows vista : JET_BKLOGTIME** est introduite dans Windows vista.
 
 ```cpp
     typedef struct {
@@ -132,7 +132,7 @@ Si cet événement est une sauvegarde, cet indicateur contient l’une des valeu
 
 Ce champ doit être ignoré.
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Cette structure est utilisée lors du débogage.
 
@@ -146,11 +146,11 @@ Cette structure est utilisée lors du débogage.
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista.</p></td>
+<td><p>requiert Windows Vista.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008.</p></td>
+<td><p>requiert Windows Server 2008.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

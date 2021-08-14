@@ -3,7 +3,7 @@ title: Message WM_CAP_SET_SCALE (VFW. h)
 description: Le \_ message WM embout \_ Set \_ Scale active ou désactive la mise à l’échelle des images vidéo en préversion.
 ms.assetid: f15f1d18-2c5a-40c1-baa1-0d18549bee23
 keywords:
-- Message WM_CAP_SET_SCALE Windows Multimedia
+- message WM_CAP_SET_SCALE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd3bfc5dc463d84c935f994519060c33f89b8c0a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3293be6917917581957df0f5dae9456274f1d2cc3eeffff5ea971c3596209a62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369393"
 ---
 # <a name="wm_cap_set_scale-message"></a>Message de mise à l’échelle du jeu de \_ connexions WM \_ \_
 
@@ -49,7 +49,7 @@ Indicateur de mise à l’échelle de l’aperçu. Spécifiez **true** pour que 
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La mise à l’échelle des images d’aperçu contrôle la présentation immédiate des frames capturés dans la fenêtre de capture. Elle n’a aucun effet sur la taille des frames enregistrés dans le fichier.
 

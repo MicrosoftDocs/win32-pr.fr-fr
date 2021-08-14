@@ -3,7 +3,7 @@ title: Ruban. Tabs, propriété
 description: Représente un conteneur pour tous les onglets principaux dans un ruban.
 ms.assetid: b43d0544-c110-4785-85d7-935842b8f03e
 keywords:
-- Ruban de la fenêtre de propriétés ruban. Tabs
+- ruban. Tabs, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4300a2385b6ada64e05e16671802460930cc2a7b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b055a2fd8d69b45e2f7059022908b5cb91f8e790196504172c0ad1c608b78c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202210"
 ---
 # <a name="ribbontabs-property"></a>Ruban. Tabs, propriété
 
 Représente un conteneur pour tous les onglets principaux dans un ruban.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Ribbon.Tabs>
@@ -55,7 +55,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obligatoire.
 
@@ -118,8 +118,8 @@ L’exemple suivant illustre le balisage de base pour un élément **ruban. Tabs
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

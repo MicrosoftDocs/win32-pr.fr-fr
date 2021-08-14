@@ -129,12 +129,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d789a233df777d98860e519f7e877a030aba55a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1e937ad9cc32a7837303d535b73b176c7e16f2d0ab0033bf625f629d2d5f7bc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504351"
 ---
 # <a name="directdraw-return-codes"></a>Codes de retour DirectDraw
 
@@ -197,7 +197,7 @@ Une surface ne peut pas être détachée d’une autre surface demandée.
 
 
 
-Windows ne peut pas créer d’autres contextes de périphérique (DC), ou un contrôleur de périphérique a demandé une surface indexée lorsque l’aire n’a pas de palette et que le mode d’affichage n’a pas été indexé dans la palette (dans ce cas, DirectDraw ne peut pas sélectionner une palette appropriée dans le contrôleur de l’appareil).
+Windows ne pouvez pas créer d’autres contextes de périphérique (dc), ou un contrôleur de périphérique a demandé une surface indexée lorsque l’aire n’a pas de palette et que le mode d’affichage n’a pas été indexé par palette (dans ce cas, DirectDraw ne peut pas sélectionner une palette appropriée dans le contrôleur de l’appareil).
 
 
 </dt> </dl> </dd> <dt>
@@ -737,7 +737,7 @@ Aucun GDI n’est présent.
 
 
 
-La notification Clipper requiert un handle de fenêtre ou aucun handle de fenêtre n’a été défini précédemment comme handle de fenêtre de niveau coopératif.
+Clipper notification requiert un handle de fenêtre ou aucun handle de fenêtre n’a été défini précédemment comme handle de fenêtre de niveau coopératif.
 
 
 </dt> </dl> </dd> <dt>

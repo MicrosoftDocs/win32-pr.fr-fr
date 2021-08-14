@@ -4,12 +4,12 @@ ms.assetid: f0f132a0-2e8e-478f-909b-c100aa360daa
 title: Constantes LINEADDRESSMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e5e926772c82a36865c7f3b95c1ca1321db5682
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4863b79c4527395f6ecb2d28c4d9ef718ff5a7fd99681185ba892bac2b4639ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761861"
 ---
 # <a name="lineaddressmode_-constants"></a>\_Constantes LINEADDRESSMODE
 
@@ -37,7 +37,7 @@ L’adresse est spécifiée par son numéro de téléphone.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les 16 bits de poids fort peuvent être affectés pour les extensions spécifiques à l’appareil. Les 16 bits de poids faible sont réservés.
 

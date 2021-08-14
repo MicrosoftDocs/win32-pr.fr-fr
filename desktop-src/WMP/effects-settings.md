@@ -3,7 +3,7 @@ title: EFFECTs. Settings
 description: La méthode Settings affiche la page d’attribut pour la visualisation actuelle, le cas échéant.
 ms.assetid: d5c858d4-b5ee-4490-bc58-1fd38bd6a250
 keywords:
-- EFFECTs. Settings Windows Media Player
+- effects. settings Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 511e7d4a2890c45e30d497280c3907c3517ee761
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 556bbc388cac62d69758c7047d43a1a9a56a1be30015ebdb3bcfc27212e429c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118339964"
 ---
 # <a name="effectssettings"></a>EFFECTs. Settings
 

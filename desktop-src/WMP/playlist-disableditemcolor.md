@@ -3,7 +3,7 @@ title: PLAYLIST. disabledItemColor
 description: L’attribut disabledItemColor spécifie ou récupère la couleur d’une piste de CD désactivée ou du contenu en ligne en mode hors connexion.
 ms.assetid: a6e3af4b-2492-43fe-b508-393632512971
 keywords:
-- Lecteur Windows Media PLAYLIST. disabledItemColor
+- PLAYLIST. disabledItemColor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8ad1f1ce647fc23852d58a79daf3f827e73990a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f1bf0d51cd921e3b8d164ffad3a26d20dc615bb0566dfaf5a97813e391108a72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118336782"
 ---
 # <a name="playlistdisableditemcolor"></a>PLAYLIST. disabledItemColor
 

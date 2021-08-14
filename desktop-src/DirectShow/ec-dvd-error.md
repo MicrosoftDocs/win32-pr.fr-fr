@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 3b338889836bf78a334784ea66c0e346e9f6b672
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c0afa9ce750016001ddbe054d8cb9a589a2c68d8856e8e4db5c59043eb881129
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820526"
 ---
 # <a name="ec_dvd_error"></a>\_erreur de DVD EC \_
 
@@ -42,7 +42,7 @@ La signification dépend de la valeur de *lParam1*. Pour plus d’informations, 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement est déclenché dans tous les domaines.
 
@@ -66,7 +66,7 @@ Cet événement est déclenché dans tous les domaines.
 [Codes de notification des événements DVD](dvd-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

@@ -3,7 +3,7 @@ title: Objet PlaylistArray
 description: L’objet PlaylistArray offre un moyen d’accéder aux sélections par numéro d’index.
 ms.assetid: 8a29f36c-9c7c-4bc7-9adb-b34cc4231d81
 keywords:
-- Objet PlaylistArray lecteur Windows Media
+- objet PlaylistArray Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2660b991cdc2885377140f2b99a647285fc4008c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e062ed6b7dee583bb68771dee243fe7271d95ba2728184bf453e5e77f9d21a3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334984"
 ---
 # <a name="playlistarray-object"></a>Objet PlaylistArray
 
@@ -34,7 +34,7 @@ L’objet **PlaylistArray** prend en charge la propriété suivante.
 
 
 
- 
+ 
 
 L’objet **PlaylistArray** prend en charge la méthode suivante.
 
@@ -46,7 +46,7 @@ L’objet **PlaylistArray** prend en charge la méthode suivante.
 
 
 
- 
+ 
 
 L’objet **PlaylistArray** est accessible par le biais des méthodes suivantes.
 
@@ -58,7 +58,7 @@ L’objet **PlaylistArray** est accessible par le biais des méthodes suivantes.
 
 
 
- 
+ 
 
 À des fins d’illustration, *joueur*. *playlistCollection*. **GetAll** est utilisé dans les sections de syntaxe de référence.
 
@@ -69,9 +69,9 @@ L’objet **PlaylistArray** est accessible par le biais des méthodes suivantes.
 [**Référence du modèle objet pour l’écriture de scripts**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

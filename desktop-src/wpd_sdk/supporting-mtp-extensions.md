@@ -4,12 +4,12 @@ ms.assetid: 9e5f3da6-346a-4eca-bc85-2755c569986d
 title: Prise en charge des extensions MTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 898df3f1347af2ccc42a796b480156b6603b13ec
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: c16a80b640b50346f1724aec771d8ffd82de565f078e5b3e1d562c346e34973a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193570"
 ---
 # <a name="supporting-mtp-extensions"></a>Prise en charge des extensions MTP
 

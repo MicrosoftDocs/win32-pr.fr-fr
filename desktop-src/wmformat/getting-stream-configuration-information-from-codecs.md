@@ -11,20 +11,20 @@ keywords:
 - IWMCodecInfo, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8657e03af97f9e4f1cae953d541c0e4369da193
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 10cd131bfd263e0e9a0616b6fa9b59b3f3b03ace30a199b8b79f8b3c3f3f09f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "104381677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118433865"
 ---
 # <a name="getting-stream-configuration-information-from-codecs"></a>Obtention d’informations de configuration de flux à partir de codecs
 
-Pour les flux audio et vidéo qui utilisent les codecs vidéo et Windows Media Audio, vous devez obtenir les valeurs des structures de configuration de flux à partir du codec que vous souhaitez utiliser. Bien qu’il soit possible de définir ces valeurs vous-même, l’utilisation des codecs garantit que les valeurs sont exactes. Vous ne devez pas modifier les valeurs de ces structures, sauf si la documentation recommande spécifiquement une modification particulière.
+pour les flux audio et vidéo qui utilisent les codecs vidéo et Windows Media Audio, vous devez obtenir les valeurs des structures de configuration de flux à partir du codec que vous souhaitez utiliser. Bien qu’il soit possible de définir ces valeurs vous-même, l’utilisation des codecs garantit que les valeurs sont exactes. Vous ne devez pas modifier les valeurs de ces structures, sauf si la documentation recommande spécifiquement une modification particulière.
 
 Les informations des codecs sont fournies sous la forme de formats de codec. Chaque format de codec est un format de flux unique pris en charge par le codec. Pour plus d’informations sur les formats de flux, consultez [formats](formats.md).
 
-Vous pouvez demander des informations à partir des codecs Windows Media à l’aide des interfaces [**IWMCodecInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo), [**IWMCodecInfo2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo2)et [**IWMCodecInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3) de l’objet gestionnaire de profils. Pour obtenir l’interface [**IWMProfileManager**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager) d’un objet de gestionnaire de profils, appelez la fonction [**WMCreateProfileManager**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateprofilemanager) . Appelez **QueryInterface** sur **IWMProfileManager** pour accéder à **IWMCodecInfo3**.
+vous pouvez demander des informations à partir des codecs multimédias Windows à l’aide des interfaces [**IWMCodecInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo), [**IWMCodecInfo2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo2)et [**IWMCodecInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3) de l’objet gestionnaire de profils. Pour obtenir l’interface [**IWMProfileManager**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager) d’un objet de gestionnaire de profils, appelez la fonction [**WMCreateProfileManager**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateprofilemanager) . Appelez **QueryInterface** sur **IWMProfileManager** pour accéder à **IWMCodecInfo3**.
 
 Les sections suivantes décrivent l’obtention des informations dont vous avez besoin.
 
@@ -32,23 +32,23 @@ Les sections suivantes décrivent l’obtention des informations dont vous avez 
 
 | Section                                                                                                | Description                                                                                                                                                           |
 |--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Pour énumérer tous les codecs Windows Media installés](to-enumerate-all-installed-windows-media-codecs.md) | Décrit comment utiliser les méthodes des interfaces **IWMCodecInfo** et **IWMCodecInfo2** pour récupérer le nom et l’index du codec de chaque codec Windows Media installé. |
+| [pour énumérer tous les codecs multimédias installés Windows](to-enumerate-all-installed-windows-media-codecs.md) | décrit comment utiliser les méthodes des interfaces **IWMCodecInfo** et **IWMCodecInfo2** pour récupérer le nom et l’index du codec de chaque Windows codec de média installé. |
 | [Pour énumérer les formats de codec](to-enumerate-codec-formats.md)                                           | Décrit comment obtenir des objets de configuration de flux à partir de codecs à utiliser dans vos profils.                                                                               |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Configuration de flux**](configuring-streams.md)
+[**Configuration de Flux**](configuring-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

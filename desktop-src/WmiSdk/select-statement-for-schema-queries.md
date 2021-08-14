@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Instruction SELECT pour les requêtes de schéma
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91f9f3f9ae8cc11a94d4d868e36af56ee7dffd2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3dd08cffa3fccc9a8cc2bf50452dcefcc1b7bfc0a62e512069b2db098bc6d13c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315673"
 ---
 # <a name="select-statement-for-schema-queries"></a>Instruction SELECT pour les requêtes de schéma
 

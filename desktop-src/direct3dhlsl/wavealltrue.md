@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a26e0ce757257d6fdd8296239dcf086bff5f1666
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: 9f80c9af3bb9a1be47a3d64f31f0b3c3c610022d3a017a13053c0e4fc7db3a82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104463922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504869"
 ---
 # <a name="waveactivealltrue-function"></a>WaveActiveAllTrue fonction)
 
@@ -47,7 +47,7 @@ Expression booléenne à évaluer.
 
 True si l’expression est vraie dans tous les couloirs.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est prise en charge à partir du Shader Model 6,0 dans toutes les étapes du nuanceur. 
 

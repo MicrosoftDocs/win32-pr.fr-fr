@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 69d6534122b4b5e11a18a64ffa9bbb5e29e2a68a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 33a1e0f82a3005bfec8e689d088a8d8e28ebbf0a949e4288338d27e68c3a0314
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104519106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118355565"
 ---
 # <a name="userid-logontriggertype-element"></a>Élément UserId (logonTriggerType)
 
@@ -44,7 +44,7 @@ L’élément **userid** est défini par le type complexe [**logonTriggerType**]
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de script, l’identificateur d’utilisateur du déclencheur LOGON est spécifié à l’aide de la propriété [**LogonTrigger. UserID**](logontrigger-userid.md) .
 
@@ -60,8 +60,8 @@ Pour obtenir un exemple complet du code XML d’une tâche qui spécifie un déc
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

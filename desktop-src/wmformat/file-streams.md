@@ -1,23 +1,23 @@
 ---
-title: Flux de fichiers (kit de développement logiciel (SDK) Windows Media format 11)
+title: Flux de fichiers (kit de développement logiciel (SDK) Windows Media Format 11)
 description: Flux de fichiers
 ms.assetid: 6a4ad6ef-dc53-4d31-8de5-ce35c343244b
 keywords:
 - Windows Media Format SDK, flux de fichiers
 - ASF (Advanced Systems Format), flux de fichiers
 - ASF (format de systèmes avancés), flux de fichiers
-- Windows Media Format SDK, flux
+- Windows Media Format SDK, Streams
 - ASF (Advanced Systems Format), flux
 - ASF (format de systèmes avancés), flux
 - flux de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2a850c938d9582bd128980ef59329a5d5aa6a08
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: e7bc05663ab9f2d81ac94bd1483ac5bc22c903333a8e477cc94e88141ff671ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "103679030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118703907"
 ---
 # <a name="file-streams"></a>Flux de fichiers
 
@@ -27,15 +27,15 @@ Un flux de fichier contient un ou plusieurs fichiers de données. Lorsque vous t
 
 <dl> <dt>
 
-[**Flux arbitraires**](arbitrary-streams.md)
+[**Flux arbitraire**](arbitrary-streams.md)
 </dt> <dt>
 
-[**Configuration des flux de transfert de fichiers**](configuring-file-transfer-streams.md)
+[**Configuration du transfert de fichiers Flux**](configuring-file-transfer-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

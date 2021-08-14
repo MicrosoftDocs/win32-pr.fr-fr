@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5fd0a11a1cf3b313c1f6f2c12d1a73b61c6f45a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bac538097ac7b31a30c9ed6fe4e5505c89c3e0701d1476edc19efcbc4420520d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106540768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118353411"
 ---
 # <a name="imsrdpclientadvancedsettingsbitmapvirtualcache16bppsize-property"></a>IMsRdpClientAdvancedSettings :: BitmapVirtualCache16BppSize, propriété
 
@@ -90,7 +90,7 @@ Nouvelle taille du cache. Les valeurs valides sont comprises entre 1 et 32 inclu
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les propriétés associées incluent les propriétés **BitmapVirtualCacheSize** et **BitmapVirtualCache24BppSize** .
 

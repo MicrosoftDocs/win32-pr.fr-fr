@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2945efd1a224c333f45956a29df779efc98e944f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a49c3af0372553c221dae902a5fdca0e026bb874f612b8e21f41e6a6870f7ea8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118323737"
 ---
 # <a name="resourcelocatormustunderstandoptions-property"></a>ResourceLocator. MustUnderstandOptions, propriété
 
@@ -43,7 +43,7 @@ ResourceLocator.MustUnderstandOptions As boolean
 
 Indique, lorsque la **valeur est true**, que le service qui implémente l' [protocole WS-Management](ws-management-protocol.md) doit retourner une erreur s’il ne peut pas traiter l’option.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **IWSManResourceLocator :: MustUnderstandOptions** est la propriété C++ correspondante.
 

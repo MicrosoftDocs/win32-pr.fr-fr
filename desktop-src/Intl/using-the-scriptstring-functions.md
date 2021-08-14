@@ -4,16 +4,16 @@ ms.assetid: bfbba5df-ce06-4012-a7b1-55d8ea580942
 title: Utilisation des fonctions ScriptString
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93a2df5e7515bd605ad48cc7a246941e9b6f08f2
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 6685af7dad2c9e1b8d0cf460d526155f967a9105e1b107047afb99c18a5124f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104032050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118389405"
 ---
 # <a name="using-the-scriptstring-functions"></a>Utilisation des fonctions ScriptString
 
-Pour une application traitant du texte non mis en forme, Uniscribe fournit les fonctions **ScriptString \*** . Ces fonctions sont similaires à [**ExtTextOut**](/windows/win32/api/wingdi/nf-wingdi-exttextouta), [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext)et [**GetTextExtent**](/cpp/mfc/reference/cdc-class#gettextextent), mais elles fournissent une prise en charge complète des scripts, y compris l’emplacement du signe insertion. Ces fonctions sont similaires aux autres fonctions Uniscribe, mais elles sont adaptées aux exigences de traitement de texte brut les plus simples.
+Pour une application traitant du texte non mis en forme, Uniscribe fournit les fonctions **ScriptString \** _. Ces fonctions sont similaires à [_ *ExtTextOut* *](/windows/win32/api/wingdi/nf-wingdi-exttextouta), [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext)et [**GetTextExtent**](/cpp/mfc/reference/cdc-class#gettextextent), mais elles fournissent une prise en charge complète des scripts, y compris l’emplacement du signe insertion. Ces fonctions sont similaires aux autres fonctions Uniscribe, mais elles sont adaptées aux exigences de traitement de texte brut les plus simples.
 
 Le tableau suivant détaille les fonctions **ScriptString \*** et tous les équivalents dans les autres fonctions Uniscribe.
 
@@ -52,7 +52,7 @@ Le tableau suivant détaille les fonctions **ScriptString \*** et tous les équi
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringgetorder"><strong>ScriptStringGetOrder</strong></a></td>
-<td>Mappe les positions des glyphes de caractères d’une façon similaire à <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a>, pour une utilisation héritée uniquement. Cette fonction ne fonctionne pas correctement avec les scripts qui génèrent plus d’un glyphe par point de code.</td>
+<td>Cartes positions des glyphes de caractères d’une façon similaire à <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a>, pour une utilisation héritée uniquement. Cette fonction ne fonctionne pas correctement avec les scripts qui génèrent plus d’un glyphe par point de code.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringout"><strong>ScriptStringOut</strong></a></td>
@@ -90,6 +90,6 @@ Pour afficher uniquement du texte brut sans aucune modification, une application
 [Utilisation de Uniscribe](using-uniscribe.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

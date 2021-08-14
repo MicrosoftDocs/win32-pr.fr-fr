@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 38e60c6bb8084e7f8e1c0ee71379af552e73c09d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ec21ad688a3b88576de3e97ac3497ddef49446b47ceef81cdcd4e8db60806a08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117730845"
 ---
 # <a name="d3dxvec2transformarray-function-d3dx9mathh"></a>D3DXVec2TransformArray, fonction (D3dx9math. h)
 
@@ -99,13 +99,13 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXVECTOR4**](d3dxvector4.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR4**](d3dxvector4.md) qui est le tableau transformé.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette fonction transforme *le tableau (* x, y, 0, 1) par la matrice *PM*.
 

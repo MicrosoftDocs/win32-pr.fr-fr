@@ -4,12 +4,12 @@ ms.assetid: 57221d13-8993-4db3-b1a0-88bdcf6f0167
 title: Règles de point FFloating (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6909d037b11f9098bb3e0dbad0f1846b79b513e8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0d7f575810b1efb1bde65dd1c80de98837a0a0274c6b394207b612874f289054
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118100981"
 ---
 # <a name="floating-point-rules-direct3d-10"></a>Règles à virgule flottante (Direct3D 10)
 

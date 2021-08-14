@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 323604d104be3432a5fc251901c4308bfc989f90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: abfabc93947f5eb583c4178fa47b20468eb7eaf9a8f651c76baf0c1e1256311e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118219775"
 ---
 # <a name="tabthumbnails-sample"></a>TabThumbnails, exemple
 
@@ -22,12 +22,12 @@ Montre comment une application peut exposer plusieurs cibles de commutateur (com
 
 Cette rubrique contient les sections suivantes.
 
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -53,16 +53,16 @@ Pour générer l’exemple à partir de l’invite de commandes :
 1.  Ouvrez la fenêtre d’invite de commandes et accédez au répertoire du projet **TabThumbnails** .
 2.  Entrez `msbuild TabThumbnails.sln`.
 
-Pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
+pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
 
-1.  Ouvrez l’Explorateur Windows et accédez au répertoire du projet **TabThumbnails** .
+1.  ouvrez Windows Explorer et accédez au répertoire du projet **TabThumbnails** .
 2.  Double-cliquez sur l’icône du fichier TabThumbnails. sln pour ouvrir le projet dans Visual Studio.
-3.  Dans le menu **générer** , sélectionnez **générer la solution**.
+3.  Dans le menu **Générer**, sélectionnez **Générer la solution**.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 
-1.  Accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de l’invite de commandes ou de l’Explorateur Windows.
-2.  Sur la ligne de commande, entrez `TabThumbnails.exe` . Vous pouvez également, à partir de l’Explorateur Windows, double-cliquer sur l’icône de TabThumbnails.exe.
+1.  accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de l’invite de commandes ou de l’explorateur de Windows.
+2.  Sur la ligne de commande, entrez `TabThumbnails.exe` . vous pouvez également, à partir de Windows Explorer, double-cliquer sur l’icône de TabThumbnails.exe.
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: 9bcb7d2f-33be-4e4f-ab8e-2e29e8688c1e
 title: System. photo. FocalLengthDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1ac983053ba3630c467847497e42ddfb578f1de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbad0ea1b41771d57246ef573624fc76d2626651d5ed4026f8748c9dbf496b6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118229721"
 ---
 # <a name="systemphotofocallengthdenominator"></a>System. photo. FocalLengthDenominator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -70,12 +70,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 204f38570e1e023ca070ed1845e4574d9570b8ff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dff3e4eb9d99288914fb6d4e9a6e2d22aa38689cdc6b60f227e7e5ba2e0c5323
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118349363"
 ---
 # <a name="win32_tsclientsetting-class"></a>\_Classe TSClientSetting Win32
 
@@ -189,9 +189,9 @@ Type de données : **UInt32**
 Type d’accès : lecture/écriture
 </dt> </dl>
 
-Spécifie s’il faut activer les graphiques RemoteFX avancés pour RemoteApp.
+spécifie s’il faut activer advanced RemoteFX graphics pour RemoteApp.
 
-**Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas disponible avant Windows Server 2012 R2 et Windows 8.1.
+**Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas disponible avant Windows Server 2012 R2 et Windows 8.1.
 
 <dt>
 
@@ -249,7 +249,7 @@ Type d'accès : Lecture seule
 
 Spécifie s’il faut autoriser la redirection de capture audio.
 
-**Windows Server 2008 et Windows Vista :** Cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
+**Windows Server 2008 et Windows Vista :** cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
 
 <dt>
 
@@ -317,7 +317,7 @@ Type d’accès : lecture/écriture
 
 Spécifie si le mode AVC444 est préféré.
 
-**Windows 8.1, Windows server 2012 R2, Windows 8, Windows server 2012, Windows 7, Windows Server 2008 R2, Windows Vista et Windows server 2008 :** Cette propriété n’est pas disponible avant Windows 10 ou Windows Server 2016.
+**Windows 8.1, Windows Server 2012 r2, Windows 8, Windows Server 2012, Windows 7, Windows server 2008 r2, Windows Vista et Windows server 2008 :** cette propriété n’est pas disponible avant Windows 10 ou Windows Server 2016.
 
 <dt>
 
@@ -727,7 +727,7 @@ Type d’accès : lecture/écriture
 
 Spécifie la qualité de l’image pour l’expérience RDP.
 
-**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** Cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
 
 <dt>
 
@@ -765,7 +765,7 @@ Type d’accès : lecture/écriture
 
 Spécifie si le serveur hôte de session Bureau à distance utilise le convertisseur graphique matériel comme adaptateur par défaut.
 
-**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** Cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
 
 <dt>
 
@@ -851,7 +851,7 @@ Type d'accès : Lecture seule
 
 Nombre maximal de moniteurs pris en charge par le serveur. Utilisez la méthode [**SetMaxMonitors**](setmaxmonitors-win32-tsclientsetting.md) pour modifier cette propriété.
 
-**Windows Server 2008 et Windows Vista :** Cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
+**Windows Server 2008 et Windows Vista :** cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
 
 </dd> <dt>
 
@@ -866,7 +866,7 @@ Type d'accès : Lecture seule
 
 Résolution maximale X prise en charge par le serveur. Utilisez la méthode [**SetMaxXResolution**](setmaxxresolution-win32-tsclientsetting.md) pour modifier cette propriété.
 
-**Windows Server 2008 et Windows Vista :** Cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
+**Windows Server 2008 et Windows Vista :** cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
 
 </dd> <dt>
 
@@ -881,7 +881,7 @@ Type d'accès : Lecture seule
 
 Résolution Y maximale prise en charge par le serveur. Utilisez la méthode [**SetMaxYResolution**](setmaxyresolution-win32-tsclientsetting.md) pour modifier cette propriété.
 
-**Windows Server 2008 et Windows Vista :** Cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
+**Windows Server 2008 et Windows Vista :** cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
 
 </dd> <dt>
 
@@ -948,7 +948,7 @@ Type d'accès : Lecture seule
 
 Indique si la propriété **AdvancedRemoteAppGraphics** est configurée par le serveur ou la stratégie de groupe.
 
-**Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas disponible avant Windows Server 2012 R2 et Windows 8.1.
+**Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas disponible avant Windows Server 2012 R2 et Windows 8.1.
 
 <dt>
 
@@ -1012,7 +1012,7 @@ Type d'accès : Lecture seule
 
 Indique si la propriété **AudioCaptureRedir** est configurée par le serveur ou la stratégie de groupe.
 
-**Windows Server 2008 et Windows Vista :** Cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
+**Windows Server 2008 et Windows Vista :** cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
 
 <dt>
 
@@ -1079,7 +1079,7 @@ Type d'accès : Lecture seule
 
 Indique comment la propriété **AVC444ModePreferredis** est configurée.
 
-**Windows 8.1, Windows server 2012 R2, Windows 8, Windows server 2012, Windows 7, Windows Server 2008 R2, Windows Vista et Windows server 2008 :** Cette propriété n’est pas disponible avant Windows 10 ou Windows Server 2016.
+**Windows 8.1, Windows Server 2012 r2, Windows 8, Windows Server 2012, Windows 7, Windows server 2008 r2, Windows Vista et Windows server 2008 :** cette propriété n’est pas disponible avant Windows 10 ou Windows Server 2016.
 
 <dt>
 
@@ -1326,7 +1326,7 @@ Type d'accès : Lecture seule
 
 Indique la configuration de **EncodeImageQualityi** .
 
-**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** Cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
 
 <dt>
 
@@ -1357,7 +1357,7 @@ Type d'accès : Lecture seule
 
 Indique la configuration de **HardwareGraphicsAdapter** .
 
-**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** Cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
 
 <dt>
 
@@ -1447,7 +1447,7 @@ Default
 
 </dd> </dl>
 
-**Windows Server 2008 et Windows Vista :** Cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
+**Windows Server 2008 et Windows Vista :** cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
 
 </dd> <dt>
 
@@ -1462,7 +1462,7 @@ Type d'accès : Lecture seule
 
 Indique si les propriétés **MaxXResolution** et **MaxYResolution** sont configurées par le serveur, la stratégie de groupe ou par défaut.
 
-**Windows Server 2008 et Windows Vista :** Cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
+**Windows Server 2008 et Windows Vista :** cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
 
 <dt>
 
@@ -1529,7 +1529,7 @@ Type d'accès : Lecture seule
 
 Indique la configuration de **RemoteSessionProfile** .
 
-**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** Cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
 
 <dt>
 
@@ -1560,7 +1560,7 @@ Type d'accès : Lecture seule
 
 Indique comment la propriété **SelectNetworkDetect** est configurée.
 
-**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** Cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
 
 <dt>
 
@@ -1591,7 +1591,7 @@ Type d'accès : Lecture seule
 
 Indique comment la propriété **SelectTransport** est configurée.
 
-**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** Cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
 
 <dt>
 
@@ -1622,7 +1622,7 @@ Type d'accès : Lecture seule
 
 Indique si la propriété **VideoPlaybackRedir** est configurée par le serveur ou la stratégie de groupe.
 
-**Windows Server 2008 et Windows Vista :** Cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
+**Windows Server 2008 et Windows Vista :** cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
 
 <dt>
 
@@ -1689,7 +1689,7 @@ Type d’accès : lecture/écriture
 
 Spécifie le profil pour l’expérience RDP.
 
-**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** Cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
 
 <dt>
 
@@ -1727,7 +1727,7 @@ Type d’accès : lecture/écriture
 
 Spécifie si la détection réseau est utilisée.
 
-**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** Cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
 
 <dt>
 
@@ -1772,7 +1772,7 @@ Type d’accès : lecture/écriture
 
 Spécifie les protocoles de transport qui peuvent être utilisés pour l’accès RDP au serveur.
 
-**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** Cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** cette propriété n’est pas disponible avant Windows 8 ou Windows Server 2012.
 
 <dt>
 
@@ -1901,7 +1901,7 @@ Type d'accès : Lecture seule
 
 Spécifie s’il faut autoriser la redirection de lecture vidéo.
 
-**Windows Server 2008 et Windows Vista :** Cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
+**Windows Server 2008 et Windows Vista :** cette propriété n’est pas disponible avant Windows Server 2008 R2 et Windows 7.
 
 <dt>
 
@@ -1958,13 +1958,13 @@ Le mappage d’imprimante est désactivé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Sachez qu’une station de fenêtre associée à la session de console ne peut pas accéder aux méthodes et aux propriétés de cette classe. Si vous tentez de le faire en spécifiant « console » comme valeur de la propriété **TerminalName** , les méthodes de cet objet retournent **WBEM \_ E \_ non \_ pris en charge**. Ce code d’erreur est également retourné si une station Windows tente d’appeler des méthodes de cet objet pour ajouter ou modifier les propriétés de sécurité des comptes LocalSystem, LocalService ou NetworkService.
 
-Pour se connecter à \\ l' \\ \\ espace de noms licences TS cimv2 racine, le niveau d’authentification doit inclure la confidentialité du paquet. Pour les appels C/C++, il s’agit d’un niveau d’authentification de la **\_ \_ \_ \_ \_ confidentialité du niveau d’authentification RPC c**. Pour les Visual Basic et les appels de script, il s’agit d’un niveau d’authentification **WbemAuthenticationLevelPktPrivacy** ou « PktPrivacy », avec une valeur de six.
+Pour se connecter à \\ l' \\ \\ espace de noms licences TS cimv2 racine, le niveau d’authentification doit inclure la confidentialité du paquet. Pour les appels C/C++, il s’agit d’un niveau d’authentification de la **\_ \_ \_ \_ \_ confidentialité du niveau d’authentification RPC c**. pour les Visual Basic et les appels de script, il s’agit d’un niveau d’authentification **WbemAuthenticationLevelPktPrivacy** ou « pktPrivacy », avec une valeur de six.
 
-L’exemple de Visual Basic Scripting Edition suivant (VBScript) montre comment se connecter à un ordinateur distant avec la confidentialité du paquet.
+l’exemple VBScript (Visual Basic scripting Edition) suivant montre comment se connecter à un ordinateur distant avec la confidentialité du paquet.
 
 
 ```VB
@@ -1975,7 +1975,7 @@ Set objServices = GetObject( _
 
 
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Configuration requise
 

@@ -1,17 +1,17 @@
 ---
 description: En savoir plus sur l’inspection des suivis réseau pour l’échange de métadonnées HTTP. Utilisez un analyseur de paquets réseau qui affiche des paquets bruts.
 ms.assetid: b3b6c4d1-5fa3-41fb-ae1d-067638e385b0
-title: Inspection des suivis réseau pour l’échange de métadonnées HTTP
+title: Inspection des suivis réseau pour les métadonnées HTTP Exchange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e653b0852f84382873973cd63fbd3223a245dd4
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 076ead8f6ac0cf78699029189f0d34daaf0e17db3dec33d1a41bedfd0167eb2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118311598"
 ---
-# <a name="inspecting-network-traces-for-http-metadata-exchange"></a>Inspection des suivis réseau pour l’échange de métadonnées HTTP
+# <a name="inspecting-network-traces-for-http-metadata-exchange"></a>Inspection des suivis réseau pour les métadonnées HTTP Exchange
 
 N’importe quel analyseur de paquets réseau pouvant afficher des paquets bruts peut être utilisé pour inspecter les demandes d’échange de métadonnées HTTP. Moniteur réseau Microsoft 3 (NetMon) est recommandé. Pour plus d’informations sur NetMon, consultez le [téléchargement de Netmon et des exemples de filtres DPWS](downloading-netmon-and-sample-dpws-filters.md).
 
@@ -33,7 +33,7 @@ Cette procédure de diagnostic peut ne pas être aussi utile pour les clients et
 
 ## <a name="verifying-that-messages-meet-traffic-requirements"></a>Vérification de la conformité des messages aux exigences du trafic
 
-Les clients et hôtes WSDAPI doivent envoyer des messages conformes aux critères suivants. Pour obtenir des informations générales sur les modèles de message, consultez [modèles de message d’échange de métadonnées et de découverte](discovery-and-metadata-exchange-message-patterns.md).
+Les clients et hôtes WSDAPI doivent envoyer des messages conformes aux critères suivants. pour obtenir des informations générales sur les modèles de message, consultez [découverte et métadonnées Exchange modèles de message](discovery-and-metadata-exchange-message-patterns.md).
 
 -   Les messages doivent respecter les exigences de trafic fournies dans la rubrique [inspection des suivis réseau pour UDP WS-Discovery](inspecting-network-traces-for-udp-ws-discovery.md), à moins qu’il soit absolument certain que WS-Discovery n’est pas utilisé pour l’échange de métadonnées.
 -   Une connexion TCP doit être établie entre le client et la première adresse de transport fournie dans l’élément **XAddrs** d’un message [messages ProbeMatches](probematches-message.md) ou [ResolveMatches](resolvematches-message.md) . La liste suivante montre un échange de paquets standard utilisé pour établir une connexion TCP.

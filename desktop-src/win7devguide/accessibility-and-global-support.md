@@ -1,27 +1,27 @@
 ---
 title: Accessibilité et support global
-description: La plateforme Windows 7 facilite la création de solutions qui sont accessibles à davantage d’utilisateurs et qui répondent ou dépassent les normes de conformité d’accessibilité.
+description: la plateforme Windows 7 facilite la création de solutions qui sont accessibles à davantage d’utilisateurs et qui répondent ou dépassent les normes de conformité d’accessibilité.
 ms.assetid: bcad2f00-7885-461c-a2dc-0a0a176962b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cea7f710850f419493c5a8435626d163361c8a03
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 320f6e52dba4f2a6d9c89a7bdea287e948a1bca048b0d3e88a2a8978e8085d0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118709116"
 ---
 # <a name="accessibility-and-global-support"></a>Accessibilité et support global
 
-La plateforme Windows 7 facilite la création de solutions qui sont accessibles à davantage d’utilisateurs et qui répondent ou dépassent les normes de conformité d’accessibilité. La communauté des fournisseurs de technologies d’assistance (VTA) peut désormais créer des solutions pour un plus grand nombre d’applications clientes, et les développeurs d’applications trouveront plus facile de créer et de valider des interfaces utilisateur accessibles.
+la plateforme Windows 7 facilite la création de solutions qui sont accessibles à davantage d’utilisateurs et qui répondent ou dépassent les normes de conformité d’accessibilité. La communauté des fournisseurs de technologies d’assistance (VTA) peut désormais créer des solutions pour un plus grand nombre d’applications clientes, et les développeurs d’applications trouveront plus facile de créer et de valider des interfaces utilisateur accessibles.
 
-Windows 7 rend également la prise en charge de plusieurs langues globales plus facile que dans les versions précédentes de Windows. À partir du moment où un utilisateur sélectionne une langue et un emplacement, Windows 7 présente des dates, des chiffres, des calendriers, des classements et d’autres informations à l’aide des conventions culturelles que les clients attendent.
+Windows 7 rend également la prise en charge de plusieurs langues globales plus facile que dans les versions précédentes de Windows. à partir du moment où un utilisateur sélectionne une langue et un emplacement, Windows 7 présente des dates, des chiffres, des calendriers, des classements et d’autres informations à l’aide des conventions culturelles que les clients attendent.
 
-## <a name="windows-automation"></a>Automatisation de Windows
+## <a name="windows-automation"></a>Windows Mati
 
 Windows 7 offre une couche d’automatisation riche et normalisée qui est étendue pour les applications natives. Il s’appuie sur Microsoft Active Accessibility et Microsoft UI Automation. Il est également conçu pour fonctionner avec les normes du secteur, telles que les spécifications du W3C Web ARIA (accès à une application Internet riche accessible) et la *Section 508*.
 
-UI Automation offre des performances améliorées en introduisant des proxies d’automatisation non gérés plus rapides pour les contrôles Microsoft Win32 et les applications Microsoft Active Accessibility (*MSAA*) héritées, ainsi que des inscriptions de proxy et des événements d’automatisation d’interface utilisateur améliorés et plus rapides. Les nouvelles fonctionnalités d’extensibilité étendent les modèles de contrôle, les propriétés et les événements personnalisés. (Voir [API Windows Automation : vue d’ensemble](../winauto/windows-automation-api-overview.md).)
+UI Automation offre des performances améliorées en introduisant des proxies d’automatisation non gérés plus rapides pour les contrôles Microsoft Win32 et les applications Microsoft Active Accessibility (*MSAA*) héritées, ainsi que des inscriptions de proxy et des événements d’automatisation d’interface utilisateur améliorés et plus rapides. Les nouvelles fonctionnalités d’extensibilité étendent les modèles de contrôle, les propriétés et les événements personnalisés. (voir [API d’automatisation Windows : vue d’ensemble](../winauto/windows-automation-api-overview.md).)
 
 ## <a name="accessibility-support-tools"></a>Outils de support d’accessibilité
 
@@ -33,8 +33,8 @@ UIA Verify est une infrastructure d’automatisation des tests qui facilite les 
 
 Windows 7 offre aux développeurs une méthode standard pour préparer leurs applications au marché international en proposant une prise en charge améliorée de l’interface utilisateur multilingue et des services linguistiques qu’ils peuvent utiliser dans leurs applications.
 
-Les services linguistiques étendus sont une nouvelle fonctionnalité de Windows 7 qui permet aux développeurs d’utiliser le même petit ensemble d’API pour tirer parti d’une large gamme de fonctionnalités linguistiques avancées. En utilisant des ServicesAPIs linguistiques étendues dans Windows 7, les développeurs peuvent détecter automatiquement la langue de n’importe quel élément de texte Unicode et utiliser ces informations pour faciliter le choix de l’expérience utilisateur pour les clients dans le monde entier. Les services linguistiques étendus proposent également une prise en charge de la translittération intégrée qui convertit le texte d’un système d’écriture en un autre. Par exemple, les développeurs peuvent désormais convertir automatiquement le texte entre le chinois simplifié et le chinois traditionnel pour aider les utilisateurs à communiquer entre eux à travers les limites linguistiques. En utilisant des ServicesAPIs linguistiques étendus, les développeurs peuvent utiliser les services linguistiques étendus existants et récupérer de nouveaux services à l’avenir sans apprendre de nouveau code. (Voir [services linguistiques étendus](../intl/extended-linguistic-services.md).)
+les Services linguistiques étendus sont une nouvelle fonctionnalité de Windows 7 qui permet aux développeurs d’utiliser le même petit ensemble d’api pour tirer parti d’une large gamme de fonctionnalités linguistiques avancées. en utilisant des ServicesAPIs linguistiques étendues dans Windows 7, les développeurs peuvent détecter automatiquement la langue de n’importe quel élément de texte Unicode et utiliser ces informations pour faciliter le choix de l’expérience utilisateur pour les clients dans le monde entier. Les services linguistiques étendus proposent également une prise en charge de la translittération intégrée qui convertit le texte d’un système d’écriture en un autre. Par exemple, les développeurs peuvent désormais convertir automatiquement le texte entre le chinois simplifié et le chinois traditionnel pour aider les utilisateurs à communiquer entre eux à travers les limites linguistiques. En utilisant des ServicesAPIs linguistiques étendus, les développeurs peuvent utiliser les services linguistiques étendus existants et récupérer de nouveaux services à l’avenir sans apprendre de nouveau code. (Voir [services linguistiques étendus](../intl/extended-linguistic-services.md).)
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: Identifie la propriété StandardColorsTooltips de l’interface ut
 ms.assetid: 78786f72-69d3-44f6-bef4-51d0f4497dfb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c32a1eedbff092ad7b37a3fbe26748b7fe9d017
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9c91cb8d68c10fa770bd5365721f7196c1946bad13b9185717b5b6fb5d67d53b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118437804"
 ---
 # <a name="ui_pkey_standardcolorstooltips"></a>IU \_ \_ StandardColorsTooltips
 
@@ -17,15 +17,15 @@ Identifie la propriété StandardColorsTooltips de l’interface utilisateur \_ 
 
 ```
 propertyDescription
-   name = UI_PKEY_StandardColorsTooltips
-   shellPKey = UI_PKEY_StandardColorsTooltips
-   formatID = 00000412-7363-696e-8441798acf5aebb7
-   propID = 412
-   typeInfo
-      type = VT_VECTOR | VT_LPWSTR
+   name = UI_PKEY_StandardColorsTooltips
+   shellPKey = UI_PKEY_StandardColorsTooltips
+   formatID = 00000412-7363-696e-8441798acf5aebb7
+   propID = 412
+   typeInfo
+      type = VT_VECTOR | VT_LPWSTR
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface utilisateur \_ \_ StandardColorsTooltips est utilisée par une application pour interroger les info-bulles d’échantillon de couleur d’un [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md).
 
@@ -40,9 +40,9 @@ Chaque valeur de chaîne correspond à l’info-bulle d’un échantillon de cou
 [Propriétés du sélecteur de couleurs](windowsribbon-reference-properties-colorpicker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

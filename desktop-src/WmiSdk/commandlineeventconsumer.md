@@ -42,19 +42,19 @@ api_type:
 - DllExport
 api_location:
 - Wbemcons.dll
-ms.openlocfilehash: 1784ba116417f6ed94aed2249a797cf8de4b3527
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: dce5100ba83a04ef2f6252421ec49068e84730141830e7b01f177c81bbac21b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106539267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319588"
 ---
 # <a name="commandlineeventconsumer-class"></a>CommandLineEventConsumer, classe
 
 La classe **CommandLineEventConsumer** démarre un processus arbitraire dans le système local lorsqu’un événement lui est remis. Cette classe est l’un des consommateurs d’événements standard fournis par WMI. Pour plus d’informations, consultez [surveillance et réponse aux événements avec des consommateurs standard](monitoring-and-responding-to-events-with-standard-consumers.md).
 
 > [!Note]  
-> Quand vous utilisez la classe **CommandLineEventConsumer** , sécurisez l’exécutable que vous souhaitez démarrer. Si l’exécutable ne se trouve pas dans un emplacement sécurisé ou sécurisé à l’aide d’une liste de contrôle d’accès (ACL) forte, un utilisateur non autorisé peut remplacer votre exécutable par un exécutable malveillant. Pour plus d’informations sur les listes de contrôle d’accès, consultez la section sécurité du kit de développement logiciel (SDK) Microsoft Windows et consultez [création d’un descripteur de sécurité pour un nouvel objet](/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
+> Quand vous utilisez la classe **CommandLineEventConsumer** , sécurisez l’exécutable que vous souhaitez démarrer. Si l’exécutable ne se trouve pas dans un emplacement sécurisé ou sécurisé à l’aide d’une liste de contrôle d’accès (ACL) forte, un utilisateur non autorisé peut remplacer votre exécutable par un exécutable malveillant. pour plus d’informations sur les listes de contrôle d’accès, consultez la section sécurité du kit de développement logiciel (SDK) de Microsoft Windows et consultez [création d’un descripteur de sécurité pour un nouvel objet](/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
 
  
 
@@ -155,7 +155,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Si la **valeur est true**, le nouveau processus s’exécute sur une machine virtuelle DOS privée (VDM). Cela est valide uniquement lors du démarrage d’une application exécutée sur un système d’exploitation Windows 16 bits. Si la valeur est **false**, toutes les applications qui s’exécutent sur un système d’exploitation Windows 16 bits s’exécutent en tant que threads dans un VDM partagé unique. Pour plus d’informations, consultez la section Notes de cette rubrique.
+Si la **valeur est true**, le nouveau processus s’exécute sur une machine virtuelle DOS privée (VDM). cela est valide uniquement lors du démarrage d’une application exécutée sur un système d’exploitation 16 bits Windows. si la valeur est **false**, toutes les applications qui s’exécutent sur un système d’exploitation Windows 16 bits s’exécutent en tant que threads dans un VDM unique et partagé. Pour plus d’informations, consultez la section Notes de cette rubrique.
 
 </dd> <dt>
 
@@ -168,7 +168,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Si la **valeur est true**, la méthode [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) exécute le nouveau processus dans l’ordinateur virtuel dos (VDM) partagé. Cette propriété peut remplacer le commutateur DefaultSeparateVDM dans la section Windows de Win.ini si la valeur est **true**. Pour plus d’informations, consultez la section Notes de cette rubrique.
+Si la **valeur est true**, la méthode [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) exécute le nouveau processus dans l’ordinateur virtuel dos (VDM) partagé. cette propriété peut remplacer le commutateur DefaultSeparateVDM dans la section Windows de Win.ini si la valeur est **True**. Pour plus d’informations, consultez la section Notes de cette rubrique.
 
 </dd> <dt>
 
@@ -370,7 +370,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Nom de l’ordinateur sur lequel Windows Management Instrumentation (WMI) envoie des événements.
+nom de l’ordinateur sur lequel Windows Management Instrumentation (WMI) envoie des événements.
 
 Cette propriété est héritée de [**\_ \_ EventConsumer**](--eventconsumer.md).
 
@@ -461,7 +461,7 @@ Type d'accès : Lecture seule
 
 Si la **valeur est true**, le processus est lancé dans la fenêtre interactive. Si la **valeur est false**, le processus est lancé dans la station de service par défaut. Cette propriété remplace la propriété **DesktopName** . Cette propriété est utilisée uniquement localement, et uniquement si l’utilisateur interactif est le même utilisateur qui a configuré le consommateur.
 
-À compter de Windows Vista, le processus qui exécute l’instance **CommandLineEventConsumer** est démarré sous le compte **LocalSystem** et est dans la session 0. Les services qui s’exécutent dans la session 0 ne peuvent pas interagir avec les sessions utilisateur.
+à partir de Windows Vista, le processus qui exécute l’instance **CommandLineEventConsumer** est démarré sous le compte **LocalSystem** et est dans la session 0. Les services qui s’exécutent dans la session 0 ne peuvent pas interagir avec les sessions utilisateur.
 
 </dd> <dt>
 
@@ -595,11 +595,11 @@ Hauteur, en pixels, de la nouvelle fenêtre, si une nouvelle fenêtre est créé
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CommandLineEventConsumer** est dérivée de la classe abstraite [**\_ \_ EventConsumer**](--eventconsumer.md) .
 
-La propriété **CreateSeparateWowVdm** indique si le nouveau processus s’exécute sur une machine virtuelle DOS privée (VDM). L’avantage de s’exécuter séparément est qu’un incident ne met fin qu’à un seul VDM. Les programmes qui s’exécutent dans des VDM distincts continuent de fonctionner normalement, et les applications Windows 16 bits qui s’exécutent dans des VDM distincts ont des files d’attente d’entrée distinctes. Cela signifie que si une application cesse de répondre momentanément, les applications dans des VDM distincts continuent de recevoir l’entrée. L’inconvénient de l’exécution séparée est qu’il faut beaucoup plus de mémoire pour le faire. Vous devez affecter à cette propriété la **valeur true** uniquement si l’utilisateur demande que des applications Windows 16 bits s’exécutent dans leur propre VDM.
+La propriété **CreateSeparateWowVdm** indique si le nouveau processus s’exécute sur une machine virtuelle DOS privée (VDM). L’avantage de s’exécuter séparément est qu’un incident ne met fin qu’à un seul VDM. les programmes qui s’exécutent dans des vdm distincts continuent de fonctionner normalement, et les applications de Windows 16 bits qui s’exécutent dans des vdm distincts ont des files d’attente d’entrée distinctes. Cela signifie que si une application cesse de répondre momentanément, les applications dans des VDM distincts continuent de recevoir l’entrée. L’inconvénient de l’exécution séparée est qu’il faut beaucoup plus de mémoire pour le faire. vous devez affecter à cette propriété la **valeur True** uniquement si l’utilisateur demande que des applications Windows 16 bits s’exécutent dans leur propre VDM.
 
 > [!Note]  
 > **CommandLineEventConsumer** utilise la méthode [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) en interne et transmet les propriétés **ExecutablePath** et **CommandLineTemplate** en tant que paramètres *lpApplicationName* et *lpCommandLine* . L’exemple de code format MOF (MOF) suivant n’utilise pas correctement **CommandLineEventConsumer** .

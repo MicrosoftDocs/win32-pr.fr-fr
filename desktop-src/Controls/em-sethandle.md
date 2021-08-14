@@ -3,7 +3,7 @@ title: Message EM_SETHANDLE (winuser. h)
 description: Définit le handle de la mémoire qui sera utilisée par un contrôle d’édition multiligne.
 ms.assetid: 0eae9365-62af-4040-8a51-273997a00b81
 keywords:
-- EM_SETHANDLE les contrôles de message Windows
+- EM_SETHANDLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac8f918d056db1000c6018f55d89095a73a15109
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b3ece3eb9c385b5f4d468a7dd2f08ff3335a4314b4c90569cdba453c4815728f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412590"
 ---
 # <a name="em_sethandle-message"></a>\_Message SETHANDLE em
 
@@ -47,7 +47,7 @@ Ce paramètre n'est pas utilisé.
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant qu’une application ne définisse un nouveau descripteur de mémoire, elle doit envoyer un message [**em \_ GETHANDLE**](em-gethandle.md) pour récupérer le handle de la mémoire tampon actuelle et libérer cette mémoire.
 
@@ -63,8 +63,8 @@ L’envoi d’un message **em \_ SETHANDLE** efface le tampon d’annulation ([*
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

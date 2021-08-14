@@ -7,12 +7,12 @@ keywords:
 - Détails du code ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d959357f2cdd094b26cde4f649c3286389b8415
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: b0f03e7c7ed7d61d56f338a8bb44d51b1890d4bd24cd7dc1e6050f1900f6ff61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118692285"
 ---
 # <a name="code-details"></a>Détails du code
 
@@ -21,7 +21,7 @@ Cette section répertorie le code source de l’implémentation du composant fou
 > [!Note]  
 > Les [](/windows/desktop/api/Iads/nn-iads-iads) méthodes IADs **GETEX** et biais **ne sont pas** implémentées dans le composant fournisseur d’exemples ADSI. Autrement dit, le code qui implémente Active Directory objets qui héritent de **IADs** n’ont pas **de méthodes** **GETEX** et déconseillées. Cela comprend l’objet de classe de schéma qui prend en charge [**IADsClass**](/windows/desktop/api/Iads/nn-iads-iadsclass), l’objet de propriété qui prend en charge [**IADsProperty**](/windows/desktop/api/Iads/nn-iads-iadsproperty), l’objet générique Active Directory qui prend en charge les **IAD** et tout objet conteneur qui prend en charge [**IADsContainer**](/windows/desktop/api/Iads/nn-iads-iadscontainer). En outre, les objets de syntaxe ne sont pas présents dans l’exemple de composant fournisseur. Toutefois, l’architecture ADSI requiert que les objets de syntaxe soient inclus dans l’objet conteneur de schéma, tout comme les objets de classe et de propriété de schéma.
 
- 
+ 
 
 Le tableau suivant répertorie les fichiers de code source inclus dans le répertoire de l’exemple de fournisseur dans le kit de développement logiciel (SDK) des interfaces de service Active Directory.
 
@@ -61,8 +61,8 @@ Le tableau suivant répertorie les fichiers de code source inclus dans le réper
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: b88b5fcf-8025-4638-930d-9fc5cf0ec8a3
 title: Attribut MF_MT_MAJOR_TYPE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98c4cc02df4f89e261605c91b71ac1c80ba38b9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98efe9d8ff86769faa8fecd911f80caa87e7266e60cf0c36c2850fe3c12922df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117692244"
 ---
 # <a name="mf_mt_major_type-attribute"></a>\_Attribut de \_ type de majeure-MF MT \_
 
@@ -19,7 +19,7 @@ GUID de type principal pour un type de média.
 
 **GUID**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le type principal définit la catégorie globale des données multimédia. Les principaux types sont les suivants : vidéo, audio, script et ainsi de suite. Pour obtenir la liste des valeurs possibles, consultez [types de média majeurs](media-type-guids.md).
 
@@ -33,8 +33,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 0773aa74-adf2-4e90-aead-2a9a981be3cb
-ms.openlocfilehash: e9aa647434aab5a483626757179a7b23b3372a02
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: befc217eeb24453d7db726cf68d233fa57e5a7971fd148406cf90810b52b070d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459036"
 ---
 # <a name="fmevent_selchange-message"></a>\_Message FMEVENT selChange
 
@@ -34,17 +34,17 @@ Envoyé à une DLL d’extension lorsque l’utilisateur sélectionne un nom de 
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Une DLL d’extension doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les modifications apportées à la partie de l’arborescence de la fenêtre de répertoire ne génèrent pas ce message.
 
 Étant donné que l’utilisateur peut modifier la sélection plusieurs fois, la DLL d’extension doit retourner promptement après le traitement de ce message pour éviter de ralentir le processus de sélection de l’utilisateur.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

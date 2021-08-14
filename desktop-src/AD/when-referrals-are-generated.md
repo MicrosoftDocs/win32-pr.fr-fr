@@ -7,12 +7,12 @@ keywords:
 - Active Directory de génération de référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06e47c1e172f3eaed34dad452aa46847980cd66f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: ef1eb05d1495e1f6884d6ce6123356ed29235da421839042909fc05aaa4d9d67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182162"
 ---
 # <a name="when-referrals-are-generated"></a>Quand des références sont générées
 
@@ -24,10 +24,10 @@ Les opérations suivantes peuvent aboutir à une ou plusieurs références :
 
     Si la résolution de noms ne parvient pas à trouver un objet localement et qu’il n’y a pas d’objets **crossRef** pour cette partie de l’espace de noms, le contrôleur de domaine tente de construire une référence externe en fonction des composants de domaine du nom unique. Par exemple, si une recherche est basée sur « CN = a, CN = b, DC = c, DC = d, DC = e », le contrôleur de domaine crée une référence au serveur LDAP à l’adresse DNS « c. d. e ».
 
-    Tous les contrôleurs de domaine Windows 2000 (qui prennent uniquement en charge DC = Naming pour les composants supérieurs) se reconnaissent mutuellement, et aucune référence croisée externe n’est requise pour qu’un client se lie d’une forêt à une autre. Si d’autres serveurs d’annuaire non-Windows 2000, tels qu’un serveur Netscape, utilisent DC = Naming et possède un enregistrement de ressource SRV approprié enregistré dans DNS, il obtiendra également l’avantage des références automatiques. Si ce n’est pas le cas, un objet **crossRef** externe doit être ajouté manuellement.
+    tous les contrôleurs de domaine Windows 2000 (qui prennent uniquement en charge DC = naming pour les composants supérieurs) se reconnaissent mutuellement, et aucune référence croisée externe n’est requise pour qu’un client se lie d’une forêt à une autre. si d’autres serveurs d’annuaire non-Windows 2000, tels qu’un serveur Netscape, utilisent DC = naming et possède un enregistrement de ressource SRV approprié enregistré dans DNS, il bénéficiera également des références automatiques. Si ce n’est pas le cas, un objet **crossRef** externe doit être ajouté manuellement.
 
 -   Exécution d’une recherche de sous-arborescence sur un domaine qui contient des domaines subordonnés dans la forêt ou dans des conteneurs de domaines, de schémas ou de configurations secondaires subordonnés. Une référence au domaine subordonné, au domaine externe, au schéma ou au conteneur de configuration sera créée. Si le repérage de références est activé, la référence est transparente pour l’appelant.
 
- 
+ 
 
- 
+ 

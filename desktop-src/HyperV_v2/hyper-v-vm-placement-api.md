@@ -4,12 +4,12 @@ ms.assetid: F94D3E55-6735-45B4-82BD-9E7393ACC93B
 title: API de placement de machine virtuelle Hyper-V
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c8553d5c3b4645f0c6a3f5454f29b0f7dc04eff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1dd515c4aecd101dcce9a385a0403eabc49ad89b26999a341134129e3b017085
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118392517"
 ---
 # <a name="hyper-v-vm-placement-api"></a>API de placement de machine virtuelle Hyper-V
 

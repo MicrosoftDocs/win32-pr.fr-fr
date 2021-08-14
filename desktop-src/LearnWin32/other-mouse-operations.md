@@ -4,12 +4,12 @@ description: Les sections précédentes ont abordé les clics de souris et le mo
 ms.assetid: 6A5B953F-7032-4AA6-8B64-2E9CBB8F59F1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfba63dce8116d79a557cbbbf8895f17d2a8f1b9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a31877ab5a71819fa896fd1253e7391f9ed748dffff636ab9d3e8591669b7fae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118387965"
 ---
 # <a name="miscellaneous-mouse-operations"></a>Opérations de souris diverses
 
@@ -34,12 +34,12 @@ Si votre interface utilisateur prend en charge l’opération de glisser-déplac
 
 
 
-Voici l’idée : lorsqu’un programme prend en charge le glisser-déplacer, vous ne voulez pas que chaque clic de souris soit interprété comme un glissement. Dans le cas contraire, l’utilisateur peut faire glisser accidentellement un événement lorsqu’il veut simplement cliquer dessus (par exemple, pour le sélectionner). Toutefois, si une souris est particulièrement sensible, il peut être difficile de garder la souris toujours tout en cliquant. Par conséquent, Windows définit un seuil de glissement de quelques pixels. Quand l’utilisateur appuie sur le bouton de la souris, il n’est pas considéré comme un glissement, sauf si la souris franchit ce seuil. La fonction [**DragDetect**](/windows/desktop/api/winuser/nf-winuser-dragdetect) teste si ce seuil est atteint. Si la fonction retourne la **valeur true**, vous pouvez interpréter le clic de souris comme un glisser-déplacer. Sinon, ne le faites pas.
+Voici l’idée : lorsqu’un programme prend en charge le glisser-déplacer, vous ne voulez pas que chaque clic de souris soit interprété comme un glissement. Dans le cas contraire, l’utilisateur peut faire glisser accidentellement un événement lorsqu’il veut simplement cliquer dessus (par exemple, pour le sélectionner). Toutefois, si une souris est particulièrement sensible, il peut être difficile de garder la souris toujours tout en cliquant. par conséquent, Windows définit un seuil de glissement de quelques pixels. Quand l’utilisateur appuie sur le bouton de la souris, il n’est pas considéré comme un glissement, sauf si la souris franchit ce seuil. La fonction [**DragDetect**](/windows/desktop/api/winuser/nf-winuser-dragdetect) teste si ce seuil est atteint. Si la fonction retourne la **valeur true**, vous pouvez interpréter le clic de souris comme un glisser-déplacer. Sinon, ne le faites pas.
 
 > [!Note]  
-> Si [**DragDetect**](/windows/desktop/api/winuser/nf-winuser-dragdetect) retourne la **valeur false**, Windows supprime le message [**WM \_ LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup) lorsque l’utilisateur relâche le bouton de la souris. Par conséquent, n’appelez pas **DragDetect** , sauf si votre programme est actuellement en mode qui prend en charge le glissement. (Par exemple, si un élément d’interface utilisateur qui peut être déplacé est déjà sélectionné.) À la fin de ce module, nous verrons un exemple de code plus long qui utilise la fonction **DragDetect** .
+> si [**DragDetect**](/windows/desktop/api/winuser/nf-winuser-dragdetect) retourne la **valeur false**, Windows supprime le message [**WM \_ LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup) lorsque l’utilisateur relâche le bouton de la souris. Par conséquent, n’appelez pas **DragDetect** , sauf si votre programme est actuellement en mode qui prend en charge le glissement. (Par exemple, si un élément d’interface utilisateur qui peut être déplacé est déjà sélectionné.) À la fin de ce module, nous verrons un exemple de code plus long qui utilise la fonction **DragDetect** .
 
- 
+ 
 
 ## <a name="confining-the-cursor"></a>Affinage du curseur
 
@@ -232,6 +232,6 @@ Si la roulette de la souris a une haute résolution, la valeur absolue du Delta 
 
 [Entrée au clavier](keyboard-input.md)
 
- 
+ 
 
- 
+ 

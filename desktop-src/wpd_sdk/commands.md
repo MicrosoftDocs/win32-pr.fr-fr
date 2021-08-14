@@ -4,20 +4,20 @@ ms.assetid: f579745a-5327-4c8b-bfa7-fe81d9657a3b
 title: Commandes (API WPD)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 974c6b2b68949e53ae778ed56adcfcb10d2edd5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a723e9eff52bf0b0b301d1fba672db5887afebef701a312786aeafb4decb733f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118431112"
 ---
 # <a name="commands-wpd-api"></a>Commandes (API WPD)
 
-L’application cliente et le pilote communiquent à l’aide de commandes envoyées à partir du client (via l’API Windows Mobile Device) au pilote (via l’infrastructure de pilote User-Mode). Une commande peut ou non inclure un paramètre et peut ou non retourner un résultat. Un client peut envoyer une commande de manière explicite, en appelant la méthode [**IPortableDevice :: SendCommand**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand) ou la méthode **IPortableDeviceService : SendCommand** , ou implicitement, en appelant l’une des méthodes des interfaces clientes. Certaines commandes peuvent être envoyées uniquement de manière explicite ; celles-ci sont indiquées dans la documentation de la commande. Les pages de référence de commande décrivent l’objectif d’une commande, ainsi que les paramètres qu’elle s’attend à recevoir et les paramètres qu’elle doit retourner.
+l’application cliente et le pilote communiquent à l’aide de commandes envoyées à partir du client (via l’Windows API d’appareil mobile) au pilote (via l’infrastructure de pilote User-Mode). Une commande peut ou non inclure un paramètre et peut ou non retourner un résultat. Un client peut envoyer une commande de manière explicite, en appelant la méthode [**IPortableDevice :: SendCommand**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand) ou la méthode **IPortableDeviceService : SendCommand** , ou implicitement, en appelant l’une des méthodes des interfaces clientes. Certaines commandes peuvent être envoyées uniquement de manière explicite ; celles-ci sont indiquées dans la documentation de la commande. Les pages de référence de commande décrivent l’objectif d’une commande, ainsi que les paramètres qu’elle s’attend à recevoir et les paramètres qu’elle doit retourner.
 
 Une commande est identifiée par une structure **PROPERTYKEY** . Il se compose de deux parties : une partie GUID (le membre *fmtid* ) et une partie DWORD (le membre *PID* ). La partie GUID est utilisée pour indiquer la catégorie à laquelle la commande appartient (les commandes associées appartiennent à la même catégorie et, par conséquent, ont le même *fmtid*). La partie DWORD indique l’ID de commande et est utilisée pour distinguer les commandes individuelles au sein d’une catégorie de commande (les valeurs *PID* pour les commandes dans la même catégorie sont différentes).
 
-Le tableau suivant répertorie les catégories de commandes que les appareils mobiles Windows définit. Les fabricants de périphériques peuvent définir leurs propres commandes en créant leurs propres catégories de commandes et ID de commande. Toutefois, un fabricant ne doit pas ajouter de commandes aux catégories répertoriées ci-dessous, car celles-ci sont réservées par Microsoft.
+le tableau suivant répertorie les catégories de commandes que Windows périphériques portables définit. Les fabricants de périphériques peuvent définir leurs propres commandes en créant leurs propres catégories de commandes et ID de commande. Toutefois, un fabricant ne doit pas ajouter de commandes aux catégories répertoriées ci-dessous, car celles-ci sont réservées par Microsoft.
 
 **Catégories de commandes**
 

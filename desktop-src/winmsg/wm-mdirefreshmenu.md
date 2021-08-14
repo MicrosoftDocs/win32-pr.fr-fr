@@ -4,12 +4,12 @@ ms.assetid: 6450d84a-a0b9-45d0-9e0c-757d26502059
 title: Message WM_MDIREFRESHMENU (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4eafa7b84dc9389e57d379a30019505e85fb602
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 707059d3cc51703819968f929f9692dbb2422ee3f9fa77e2edb697f12257faf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200065"
 ---
 # <a name="wm_mdirefreshmenu-message"></a>\_Message WM MDIREFRESHMENU
 
@@ -48,7 +48,7 @@ Si le message est correctement exécuté, la valeur de retour est le handle du m
 
 Si le message échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Après l’envoi de ce message, une application doit appeler la fonction [**DrawMenuBar**](/windows/win32/api/winuser/nf-winuser-drawmenubar) pour mettre à jour la barre de menus.
 

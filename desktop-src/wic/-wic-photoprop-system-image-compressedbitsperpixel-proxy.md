@@ -4,12 +4,12 @@ ms.assetid: 422e92d5-2661-43c9-85d5-26f55c8d88d8
 title: Proxy System. image. CompressedBitsPerPixel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4aab4f92c3d9926e895a8a7afaa3e60c3126589
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 890fc7ea8989a17691e1d2507d167c1ba5b31edb1cf2f2b0b24263b073378ccc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710354"
 ---
 # <a name="systemimagecompressedbitsperpixel-proxy"></a>Proxy System. image. CompressedBitsPerPixel
 
@@ -19,7 +19,7 @@ Proxy de propriété pour la stratégie de métadonnées de photo System. image.
 
 Le proxy de propriété retourne une paire rationnelle a par le biais du membre [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal.
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 

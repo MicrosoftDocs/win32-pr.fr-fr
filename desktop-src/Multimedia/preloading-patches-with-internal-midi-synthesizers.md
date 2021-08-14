@@ -13,12 +13,12 @@ keywords:
 - préchargement des correctifs MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc54eccdaa0a0c9aa16f206e7e036f322b615d96
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: de389e058c015c38d05fb8ff2a960ca3ef75a662faa6a1ce519c26afe14f09b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118372496"
 ---
 # <a name="preloading-patches-with-internal-midi-synthesizers"></a>Préchargement des correctifs avec des synthétiseurs MIDI internes
 
@@ -35,10 +35,10 @@ Windows fournit les fonctions suivantes pour demander à un synthétiseur de pr�
 
 
 
- 
+ 
 
 Pour plus d’informations sur la façon de déterminer si un appareil particulier prend en charge le préchargement des correctifs, consultez [interrogation des périphériques de sortie MIDI](querying-midi-output-devices.md).
 
- 
+ 
 
- 
+ 

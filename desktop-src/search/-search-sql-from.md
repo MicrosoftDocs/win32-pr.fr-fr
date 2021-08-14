@@ -4,12 +4,12 @@ ms.assetid: 437d36d1-dd6d-4405-8f35-c37fd04fa0f6
 title: FROM, clause
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37100a614ca7cc08cdf510f27e42b045acc1ec23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e6231244df2a2ec8753950ccb1a7d046c3510eff6582215d0aa3d71ebc127e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863395"
 ---
 # <a name="from-clause"></a>FROM, clause
 
@@ -22,7 +22,7 @@ FROM [<ComputerName>.]SystemIndex
 
 
 
-Actuellement, Windows Search ne prend en charge qu’un seul catalogue, SystemIndex. Pour interroger le catalogue local d’un ordinateur distant, incluez le nom de l’ordinateur avant le catalogue et un chemin d’accès UNC (Universal Naming Convention) sur l’ordinateur distant dans la clause SCOPE ou DIRECTORY.
+actuellement, Windows Search ne prend en charge qu’un seul catalogue, SystemIndex. Pour interroger le catalogue local d’un ordinateur distant, incluez le nom de l’ordinateur avant le catalogue et un chemin d’accès UNC (Universal Naming Convention) sur l’ordinateur distant dans la clause SCOPE ou DIRECTORY.
 
 Vous spécifiez une étendue en tant que restriction dans la clause WHERE, comme décrit dans la rubrique relative aux [prédicats d’étendue et de répertoire](-search-sql-folderdepth.md) .
 
@@ -51,7 +51,7 @@ Dans le second des exemples précédents, la requête cible un ordinateur distan
 **Informations de référence**
 </dt> <dt>
 
-[Vue d’ensemble de la syntaxe de recherche SQL](-search-sql-ovwofsearchquery.md)
+[vue d’ensemble de la syntaxe de SQL de recherche](-search-sql-ovwofsearchquery.md)
 </dt> <dt>
 
 [Instruction SELECT](-search-sql-select.md)

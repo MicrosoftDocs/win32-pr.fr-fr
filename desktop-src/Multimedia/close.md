@@ -3,7 +3,7 @@ title: commande Close (Corecrt \_ IO. h)
 description: La commande fermer ferme l’appareil ou le fichier et toutes les ressources associées. MCI décharge un appareil lorsque toutes les instances de l’appareil ou tous les fichiers sont fermés. Tous les périphériques MCI reconnaissent cette commande.
 ms.assetid: 0fd7b271-b29e-4170-9a14-81b14dc8a5ee
 keywords:
-- commande fermer Windows Multimedia
+- commande fermer Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d28c255e518553c022dfc833c857b792f43fdbe8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b02acd3ebe3d45a402ae565c6fcac121f712df4374924bcb0e02c3dcadf9ceeb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807958"
 ---
 # <a name="close-command"></a>commande Close
 
@@ -58,7 +58,7 @@ Peut être « Wait », « Notify », ou les deux. Pour plus d’informations
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour fermer tous les appareils ouverts par votre application, spécifiez l’identificateur de périphérique « tous » pour le paramètre *lpszDeviceID* .
 

@@ -4,12 +4,12 @@ ms.assetid: 8cf56194-8a10-48e1-b0eb-aa3d66896599
 title: Message WM_SIZING (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0ab865994352eba28cdebaff3faab72a484ce0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09645c9aaf778d5866050b45496298a46c4488e39b12f449f3ee0e8607dfc367
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118436154"
 ---
 # <a name="wm_sizing-message"></a>\_Message de dimensionnement WM
 

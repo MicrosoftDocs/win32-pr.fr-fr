@@ -1,28 +1,28 @@
 ---
 title: Polices
-description: Les utilisateurs interagissent avec le texte plus qu’avec tout autre élément dans Microsoft Windows. Segoe UI (prononcer \ 0034 ; Voir-Go \ 0034 ;) police système de Windows. La taille de police standard a été augmentée à 9 points.
+description: Les utilisateurs interagissent avec le texte plus qu’avec tout autre élément dans Microsoft Windows. Segoe UI (prononcer \ 0034 ; Voir-Go \ 0034 ;) est la police système Windows. La taille de police standard a été augmentée à 9 points.
 ms.assetid: 6d4f669d-d28c-4585-9bc3-ecda44de6df5
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: b74c9a593cb8d73d67464133042dfcf0aef7eb74
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 7ac9f725349433f1cd5f2070b0c80d86acb9d8b3f4d9537cc14375d977283620
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119816478"
 ---
 # <a name="fonts"></a>Polices
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
-Les utilisateurs interagissent avec le texte plus qu’avec tout autre élément dans Microsoft Windows. Segoe UI (prononcez « SEE-Go ») est la police système Windows. La taille de police standard a été augmentée à 9 points.
+Les utilisateurs interagissent avec le texte plus qu’avec tout autre élément dans Microsoft Windows. Segoe UI (prononcez « SEE-go ») est la police système Windows. La taille de police standard a été augmentée à 9 points.
 
 ![illustration de l’alphabet dans la police de l’interface utilisateur Segoe ](images/vis-fonts-image1.png)
 
 Police de Segoe UI.
 
-Segoe UI et Segoe ne sont pas de la même police. Segoe UI est la police Windows destinée aux chaînes de texte de l’interface utilisateur. Segoe est une police de personnalisation utilisée par Microsoft et ses partenaires pour produire des documents pour l’impression et la publicité.
+Segoe UI et Segoe ne sont pas de la même police. Segoe UI est la police Windows conçue pour les chaînes de texte de l’interface utilisateur. Segoe est une police de personnalisation utilisée par Microsoft et ses partenaires pour produire des documents pour l’impression et la publicité.
 
 Segoe UI est une police d’interfonctionnement, ouverte et conviviale, et par conséquent, elle offre une meilleure lisibilité que Tahoma, Microsoft sans serif et Arial. Il a les caractéristiques d’un Humanist sans serif : la largeur variable de ses majuscules (E et S étroites, par exemple, par rapport à Helvetica, où les largeurs sont plus semblables, relativement larges); la contrainte et la letterforms de ses minuscules ; et son vrai italique (au lieu d’un « oblique » ou d’un chiffre romain incliné, comme de nombreux sans serifs à l’aspect industriel). La police est destinée à fournir le même effet visuel à l’écran et à l’impression. Il a été conçu pour être un Humanist sans serif sans caractère fort ou quirkiness gênant.
 
@@ -36,7 +36,7 @@ Une variation de Meiryo, appelée interface utilisateur Meiryo, est préférable
 
 Pour prendre en charge les paramètres régionaux à l’aide de ces jeux de caractères, Segoe UI est remplacé par les polices appropriées en fonction de chaque paramètre régional au cours du processus de [localisation](glossary.md) .
 
-Pour obtenir une licence Segoe UI et d’autres polices Microsoft en vue de leur distribution avec un programme Windows, contactez [Monotype](https://www.monotype.com/).
+pour obtenir une licence Segoe UI et d’autres polices Microsoft pour la distribution avec un programme basé sur Windows, contactez [Monotype](https://www.monotype.com/).
 
 **Remarque :** Les instructions relatives au [style et](text-style-tone.md) au [texte de l’interface utilisateur](text-ui.md) et du style sont présentées dans des articles distincts.
 
@@ -128,7 +128,7 @@ Le texte a plusieurs modèles d’utilisation :
 
 ### <a name="fonts-and-colors"></a>Polices et couleurs
 
--   **Les polices et couleurs suivantes sont des valeurs par défaut pour Windows Vista et Windows 7.**
+-   **les polices et couleurs suivantes sont des valeurs par défaut pour Windows Vista et Windows 7.**
 
 
 
@@ -142,7 +142,7 @@ Le texte a plusieurs modèles d’utilisation :
 | ![exemple de police de texte modifiable ](images/vis-fonts-image7.png)<br/>                     | BodyText<br/>         | 9 PT. noir ( \# 000000) Segoe UI, dans une zone<br/>       |
 | ![exemple de police de texte désactivé ](images/vis-fonts-image8.png)<br/>                     | Désactivé<br/>         | 9 PT. gris foncé ( \# 323232) Segoe UI<br/>             |
 | ![exemple de police de texte de lien ](images/vis-fonts-image9.png)<br/>                         | HyperLinkText<br/>    | 9 PT. bleu ( \# 0066CC) Segoe UI<br/>                  |
-| ![exemple de police de texte de liens (pointage) ](images/vis-fonts-image10.png)<br/>               | À chaud<br/>              | 9 PT. bleu clair ( \# 3399FF) Segoe UI<br/>            |
+| ![exemple de police de texte de liens (pointage) ](images/vis-fonts-image10.png)<br/>               | Chaud<br/>              | 9 PT. bleu clair ( \# 3399FF) Segoe UI<br/>            |
 | ![exemple de police de texte d’en-tête de groupe ](images/vis-fonts-image11.png)<br/>                |                             | 11 PT bleu ( \# 003399) Segoe UI<br/>                 |
 | ![exemple de nom de fichier (dans l’affichage du contenu) de la police de texte ](images/vis-fonts-image12.png)<br/> |                             | 11 PT noir ( \# 000000) Segoe UI<br/>                |
 | ![exemple de police de texte de document ](images/vis-fonts-image13.png)<br/>                    | (aucun)<br/>           | 9 PT. noir ( \# 000000) Calibri<br/>                  |
@@ -152,23 +152,23 @@ Le texte a plusieurs modèles d’utilisation :
 
  
 
--   **Choisissez des polices et optimisez les dispositions de fenêtres en fonction de la technologie de l’interface utilisateur et de la version cible de Windows :**
+-   **Choisissez polices et optimisez les dispositions de fenêtres en fonction de la technologie de l’interface utilisateur et de la version cible de Windows :**
 
 
 
-| Technologie d’interface utilisateur | Version de Windows cible | Polices à utiliser et optimiser pour |
+| Technologie d’interface utilisateur | version du Windows cible | Polices à utiliser et optimiser pour |
 |--------------------------------------------|-------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows Presentation Foundation<br/> | Tous<br/>                                        | Utilisez des parties de thème WPF.<br/>                                                                                                                                                                                                                                                                                                                                  |
 | Win32 ou WinForms<br/>               | Windows Vista ou version ultérieure ;<br/>                     | Utilisez la police de Segoe UI appropriée.<br/>                                                                                                                                                                                                                                                                                                                    |
-|                                            | Composants extensibles ou pré-Windows Vista<br/> | Pour cibler Windows XP et Windows 2000, utilisez la Pseudo-police MS Shell Dlg 2 de 8 points, qui est mappée à Tahoma.<br/> Pour cibler des versions antérieures de Windows, utilisez une Pseudo-police MS Shell Dlg de 8 points, qui correspond à Tahoma sur Windows 2000 et Windows XP, et à MS sans serif sur Windows 95, Windows 98, Windows Millennium Edition et Windows NT 4,0.<br/> |
+|                                            | composants extensibles ou pré-Windows Vista<br/> | pour cibler Windows XP et Windows 2000, utilisez la pseudo-police MS Shell Dlg 2 de 8 points, qui correspond à Tahoma.<br/> pour cibler des versions antérieures de Windows, utilisez une pseudo-police MS Shell Dlg de 8 points, qui correspond à Tahoma sur Windows 2000 et Windows XP, et à MS Sans Serif sur Windows 95, Windows 98, Windows Millennium Edition et Windows NT 4,0.<br/> |
 
 
 
  
 
 -   **Les développeurs**
-    -   Pour les éléments qui utilisent une disposition fixe (tels que les modèles de boîte de dialogue Windows et WinForms), codez en dur la police appropriée du tableau précédent.
-    -   Pour les éléments qui utilisent une disposition dynamique (par exemple, Windows Presentation Foundation), utilisez les polices de thème. Utilisez des API de thème comme DrawThemeText pour dessiner du texte en fonction du symbole de thème. Veillez à disposer d’une alternative basée sur les mesures système si le service de thème n’est pas en cours d’exécution.
+    -   pour les éléments qui utilisent une disposition fixe (tels que les modèles de boîte de dialogue Windows et WinForms), codez en dur la police appropriée du tableau précédent.
+    -   pour les éléments qui utilisent une disposition dynamique (par exemple, Windows Presentation Foundation), utilisez les polices de thème. Utilisez des API de thème comme DrawThemeText pour dessiner du texte en fonction du symbole de thème. Veillez à disposer d’une alternative basée sur les mesures système si le service de thème n’est pas en cours d’exécution.
 -   **Pour Segoe UI, utilisez une taille de police de 9 points ou plus.** La police Segoe UI est optimisée pour ces tailles. Évitez donc d’utiliser des tailles plus petites.
 -   **Faire correspondre toujours les couleurs du texte du système avec les couleurs d’arrière-plan correspondantes.** Par exemple, si vous choisissez \_ la couleur STATICTEXT pour la couleur du texte, vous devez également choisir couleur \_ statique comme couleur d’arrière-plan.
 -   **Créez toujours des polices basées sur des variations de taille proportionnelle de la police système.** Étant donné les métriques de police système, vous pouvez créer des variations gras, italique, plus grande et plus petites.

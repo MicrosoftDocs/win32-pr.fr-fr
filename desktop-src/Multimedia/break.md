@@ -3,7 +3,7 @@ title: Break, commande
 description: La commande Break spécifie une clé pour abandonner une commande qui a été appelée à l’aide de \ 0034 ; Wait \ 0034 ; activé. Cette commande est une commande système MCI. elle est interprétée directement par MCI.
 ms.assetid: 959df85f-5020-4e37-952b-15ba5e6fb672
 keywords:
-- commande arrêter Windows multimédia
+- commande break Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f727fb6cf375e09a260ee68f62eac83816ff5d4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f99c8609b1364d374d91965816fde2d9c48b750d7bf0b3f6fb2957ed205a85a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375471"
 ---
 # <a name="break-command"></a>Break, commande
 
@@ -75,7 +75,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque la touche arrêt est activée et que l’utilisateur appuie sur la touche identifiée par le code de la touche virtuelle spécifiée dans le paramètre *lpszVirtKey* , l’appareil renvoie le contrôle à l’application. Si possible, la commande continue l’exécution.
 

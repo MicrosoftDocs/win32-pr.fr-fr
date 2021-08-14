@@ -3,7 +3,7 @@ title: Commande MCI_RECORD (mmsystem. h)
 description: La \_ commande d’enregistrement MCI démarre l’enregistrement à partir de la position actuelle ou d’un emplacement spécifié vers un autre emplacement spécifié.
 ms.assetid: d3c4e8a3-7d81-428e-91d8-d8d63fc0aa02
 keywords:
-- Commande MCI_RECORD Windows multimédia
+- commande MCI_RECORD Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec1cd15974753b8f40abd87b8d93622c090e2a57
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 327b9ed9b138b581bec17d8bfcfe19ae67bb07d59be2781af54e22a85e2133c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803450"
 ---
 # <a name="mci_record-command"></a>\_Commande d’enregistrement MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure d' [**\_ \_ enregistrement MCI**](mci-record-parms.m
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette commande est prise en charge par les appareils qui renvoient la **valeur true** lorsque vous appelez la commande [MCI \_ GETDEVCAPS](mci-getdevcaps.md) avec l' \_ indicateur d’enregistrement MCI GETDEVCAPS \_ CAN \_ . Pour le pilote MCIWAVE, toutes les données enregistrées après l’ouverture d’un fichier sont ignorées si le fichier est fermé sans l’enregistrer.
 
@@ -166,7 +166,7 @@ Pour les périphériques VCR, *lpRecord* pointe vers une structure d' [**\_ \_ e
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

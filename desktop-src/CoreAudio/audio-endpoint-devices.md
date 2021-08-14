@@ -4,12 +4,12 @@ ms.assetid: 773714fb-3b00-4f03-988f-05c5835f87cf
 title: Périphériques de point de terminaison audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c14d21aa174e34f8cb4ddab520819446a0e0ec89
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d11145227ff4f6cf4eb7dd11342e28b3a8260aac95c41b32faed6b2d6bd414dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118407328"
 ---
 # <a name="audio-endpoint-devices"></a>Périphériques de point de terminaison audio
 
@@ -42,20 +42,20 @@ D’autres périphériques de point de terminaison peuvent se connecter à une c
 
 L’adaptateur communique avec le processeur système via un bus système (en général, PCI ou PCI Express) ou un bus externe (USB ou IEEE 1394) qui prend en charge Plug-and-Play (PnP). Au cours de l’énumération des appareils, le gestionnaire de Plug-and-Play identifie les périphériques de la carte audio et inscrit ces périphériques pour qu’ils soient disponibles pour une utilisation par le système d’exploitation et par les applications.
 
-Contrairement à la connexion entre un adaptateur et un bus externe comme USB ou le bus IEEE 1394, la connexion entre un périphérique de point de terminaison et un périphérique d’adaptateur ne prend pas en charge la détection de périphérique PnP. Toutefois, certains adaptateurs audio prennent en charge la détection de la *présence du Jack*: lorsqu’un plug est inséré ou supprimé d’une prise Jack, le matériel génère une interruption pour informer le pilote de l’adaptateur de la modification de la configuration matérielle. Le gestionnaire des points de terminaison de Windows Vista peut exploiter cette fonctionnalité matérielle pour informer les applications des périphériques de point de terminaison présents à tout moment. De cette façon, l’opération du gestionnaire de points de terminaison est analogue à celle du gestionnaire de Plug-and-Play, qui effectue le suivi des périphériques d’adaptateur présents dans le système.
+Contrairement à la connexion entre un adaptateur et un bus externe comme USB ou le bus IEEE 1394, la connexion entre un périphérique de point de terminaison et un périphérique d’adaptateur ne prend pas en charge la détection de périphérique PnP. Toutefois, certains adaptateurs audio prennent en charge la détection de la *présence du Jack*: lorsqu’un plug est inséré ou supprimé d’une prise Jack, le matériel génère une interruption pour informer le pilote de l’adaptateur de la modification de la configuration matérielle. le gestionnaire des points de terminaison de Windows Vista peut exploiter cette fonctionnalité matérielle pour informer les applications des périphériques de point de terminaison présents à tout moment. De cette façon, l’opération du gestionnaire de points de terminaison est analogue à celle du gestionnaire de Plug-and-Play, qui effectue le suivi des périphériques d’adaptateur présents dans le système.
 
-Dans Windows Vista, le système audio effectue le suivi des appareils de point de terminaison et des périphériques d’adaptateur. Le gestionnaire des points de terminaison inscrit les appareils de point de terminaison et le gestionnaire de Plug-and-Play inscrit les périphériques d’adaptateur. L’inscription des appareils de point de terminaison permet aux applications conviviales de permettre aux utilisateurs de faire référence aux appareils de point de terminaison que les utilisateurs manipulent directement au lieu de faire référence à des appareils d’adaptateur qui peuvent être masqués à l’intérieur du châssis de l’ordinateur. Les appareils de point de terminaison signalés par le système d’exploitation effectuent fidèlement le suivi des modifications dynamiques dans la configuration du matériel audio qui a la détection de la présence de la prise en forme. Lorsqu’un périphérique de point de terminaison reste branché, le système énumère ce périphérique. Lorsque l’utilisateur déconnecte un périphérique de point de terminaison, le système cesse de l’énumérer.
+dans Windows Vista, le système audio effectue le suivi des appareils de point de terminaison et des périphériques d’adaptateur. Le gestionnaire des points de terminaison inscrit les appareils de point de terminaison et le gestionnaire de Plug-and-Play inscrit les périphériques d’adaptateur. L’inscription des appareils de point de terminaison permet aux applications conviviales de permettre aux utilisateurs de faire référence aux appareils de point de terminaison que les utilisateurs manipulent directement au lieu de faire référence à des appareils d’adaptateur qui peuvent être masqués à l’intérieur du châssis de l’ordinateur. Les appareils de point de terminaison signalés par le système d’exploitation effectuent fidèlement le suivi des modifications dynamiques dans la configuration du matériel audio qui a la détection de la présence de la prise en forme. Lorsqu’un périphérique de point de terminaison reste branché, le système énumère ce périphérique. Lorsque l’utilisateur déconnecte un périphérique de point de terminaison, le système cesse de l’énumérer.
 
-Dans les versions antérieures de Windows, y compris Windows 98, Windows Me, Windows 2000 et Windows XP, le système présente explicitement uniquement les périphériques PnP aux applications. Ainsi, les applications doivent déduire l’existence d’appareils de point de terminaison. Un système d’exploitation qui ne dispose pas d’une prise en charge explicite des appareils de point de terminaison oblige les applications clientes à effectuer eux-mêmes ce travail. Par exemple, une application de capture audio doit effectuer les étapes suivantes pour activer la capture à partir d’un microphone externe :
+dans les versions antérieures de Windows, y compris Windows 98, Windows Me, Windows 2000 et Windows XP, le système présente explicitement uniquement les périphériques PnP aux applications. Ainsi, les applications doivent déduire l’existence d’appareils de point de terminaison. Un système d’exploitation qui ne dispose pas d’une prise en charge explicite des appareils de point de terminaison oblige les applications clientes à effectuer eux-mêmes ce travail. Par exemple, une application de capture audio doit effectuer les étapes suivantes pour activer la capture à partir d’un microphone externe :
 
 1.  Énumérer tous les périphériques de capture audio (périphériques d’adaptateur) précédemment enregistrés par le Gestionnaire PnP.
-2.  Après avoir sélectionné un périphérique de capture, ouvrez un flux de capture sur l’appareil en appelant la fonction **waveInOpen** ou en utilisant l’API **DirectSoundCapture** ou DirectShow.
+2.  après avoir sélectionné un périphérique de capture, ouvrez un flux de capture sur l’appareil en appelant la fonction **waveInOpen** ou en utilisant l’API **DirectSoundCapture** ou DirectShow.
 3.  Appelez la fonction mixerOpen et utilisez les autres fonctions **mixerXxx** pour rechercher une ligne de \_ microphone MIXERLINE COMPONENTTYPE \_ src \_ qui correspond au périphérique de capture ouvert à l’étape 2. Il s’agit d’une hypothèse éclairée.
 4.  Débloquez le chemin de données à partir du microphone. Si le chemin d’accès aux données comprend un nœud muet, le client doit désactiver la sourdine du signal à partir du microphone. Si l’appareil de capture contient un multiplexeur pour la sélection parmi plusieurs entrées, le client doit sélectionner l’entrée microphone.
 
 Ce processus est sujet aux erreurs, car le logiciel qui effectue ces opérations peut échouer s’il rencontre une configuration matérielle que ses concepteurs n’ont pas anticipées ou pour lesquelles il n’a pas été testé.
 
-Dans Windows Vista, qui prend en charge les appareils de point de terminaison, le processus de connexion au même appareil de point de terminaison est bien plus simple :
+dans Windows Vista, qui prend en charge les appareils de point de terminaison, le processus de connexion au même appareil de point de terminaison est bien plus simple :
 
 1.  Sélectionnez un microphone dans une collection d’appareils de point de terminaison.
 2.  Activez une interface de capture audio sur ce microphone.

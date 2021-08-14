@@ -4,12 +4,12 @@ ms.assetid: dc9fc450-d8e6-4a15-9e5f-5e5e8bc6b948
 title: Éléments de journalisation des événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1d670440476ff975c3c68e92eb2cc4d4efd1df5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1042dc4bab9f56d45c604f61828466bb1d5c1a7614f97abfe1ee66260b650e6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117814020"
 ---
 # <a name="event-logging-elements"></a>Éléments de journalisation des événements
 

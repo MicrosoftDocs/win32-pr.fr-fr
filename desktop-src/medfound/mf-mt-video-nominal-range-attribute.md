@@ -4,12 +4,12 @@ ms.assetid: 7b2b809e-aae4-401c-816a-626fb88f5f87
 title: Attribut MF_MT_VIDEO_NOMINAL_RANGE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4539b06281655e079d9ff6ca4000e0ed75462b9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b294ea3c63f845b51c9636f78ee78f04135e17929ae6e64d92ab85720f3c7e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117876719"
 ---
 # <a name="mf_mt_video_nominal_range-attribute"></a>\_Attribut de \_ \_ plage nominale \_ de la vidéo MF MT
 
@@ -19,7 +19,7 @@ Spécifie la plage nominale des informations de couleur dans un type de média v
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de cet attribut est un membre de l’énumération [**MFNominalRange**](/windows/desktop/api/mfobjects/ne-mfobjects-mfnominalrange) .
 
@@ -39,8 +39,8 @@ L’encodeur H. 264/AVC rejettera un type de support de sortie lorsque la \_ vid
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

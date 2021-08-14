@@ -4,12 +4,12 @@ ms.assetid: 3741fc97-bbe6-41f0-9c0f-fb2f22225fa3
 title: Commande WPD_COMMAND_MTP_EXT_GET_VENDOR_EXTENSION_DESCRIPTION (WpdMtpExtensions. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1b98d5b8bce699537bc261e915d8233be6082c8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 31622676161065ec685640789bc51eef64165542a9ebe4c9367ea1a03195e7cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193507"
 ---
 # <a name="wpd_command_mtp_ext_get_vendor_extension_description-command"></a>Commande \_ wpd \_ MTP \_ ext \_ \_ \_ extension \_ de la description de l’extension de fournisseur
 
@@ -29,7 +29,7 @@ Le pilote retourne les résultats suivants.
 
 
 
-| Résultats                                                      | VarType    | Description                                                  |
+| Résultat                                                      | VarType    | Description                                                  |
 |-------------------------------------------------------------|------------|--------------------------------------------------------------|
 | **propriété WPD-Description de l' \_ \_ \_ extension de fournisseur ext MTP \_ \_ \_** | \_LPWStr VT | Obligatoire. Spécifie la chaîne de description de l’extension de fournisseur. |
 

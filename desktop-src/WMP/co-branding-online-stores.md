@@ -3,25 +3,25 @@ title: Co-Branding des magasins en ligne
 description: Co-Branding des magasins en ligne
 ms.assetid: b564845a-a4e0-4fe6-90cb-63ef320c7e52
 keywords:
-- Windows Media Player Online stores, co-personnalisation
+- Lecteur Windows Media magasins en ligne, co-personnalisation
 - magasins en ligne, co-personnalisation
 - tapez 1 magasins en ligne, co-personnalisation
 - tapez 2 magasins en ligne, co-personnalisation
 - Co-personnalisation des magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c3cae110d3ed04e864f1b617cb4fd6fcdee3b1f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: db3ca69c377a7aedeb71f05008d707fab955f02bf0e02d7b0ca35861105aade1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118342130"
 ---
 # <a name="co-branding-online-stores"></a>Co-Branding des magasins en ligne
 
-Les fabricants d’ordinateurs personnels qui ne fonctionnent pas avec un magasin de musique peuvent cohabiter avec les fournisseurs de magasins en ligne. Le programme d’installation du lecteur Windows Media prend en charge le paramètre de ligne de commande ServiceExtra pour permettre aux OEM de matériel de définir un attribut personnalisé que le magasin en ligne peut utiliser pour identifier le fabricant OEM qui a installé le magasin en ligne initial.
+Les fabricants d’ordinateurs personnels qui ne fonctionnent pas avec un magasin de musique peuvent cohabiter avec les fournisseurs de magasins en ligne. Lecteur Windows Media le programme d’installation prend en charge le paramètre de ligne de commande ServiceExtra pour permettre aux oem de matériel de définir un attribut personnalisé que le magasin en ligne peut utiliser pour identifier le fabricant OEM qui a installé le magasin en ligne initial.
 
-Par exemple, si un créateur d’ordinateur nommé Fabrikam souhaite définir le magasin en ligne initial sur le magasin de musique Proseware, il peut utiliser la ligne de commande suivante pour installer le lecteur Windows Media 10 :
+par exemple, si un créateur d’ordinateur nommé Fabrikam souhaite définir le magasin en ligne initial sur le magasin de musique proseware, il peut utiliser la ligne de commande suivante pour installer Lecteur Windows Media 10 :
 
 
 ```C++
@@ -30,7 +30,7 @@ MP10Setup.exe /q:A /c:"setup_wm.exe /Q /R:N /DefaultService:Proseware /ServiceIn
 
 
 
-Lorsque le lecteur Windows Media est installé de cette manière, le lecteur ajoute la chaîne ServiceExtra chaque fois qu’il ouvre le service proseware. L’exemple suivant montre l’URL que le lecteur Windows Media envoie au service Proseware pour récupérer le document ServiceInfo :
+lorsque Lecteur Windows Media est installé de cette manière, le lecteur ajoute la chaîne ServiceExtra chaque fois qu’il ouvre le service proseware. l’exemple suivant montre l’URL que Lecteur Windows Media envoie au service proseware pour récupérer le document ServiceInfo :
 
 
 ```C++
@@ -39,7 +39,7 @@ https://www.proseware.com/XML/serviceinfo.asp?OEM=Fabrikam
 
 
 
-Le magasin en ligne Proseware peut ensuite utiliser la chaîne de requête pour déterminer quel OEM a installé le lecteur Windows Media et retourner un document ServiceInfo généré dynamiquement qui pointe vers la version comarquée du magasin en ligne.
+le magasin en ligne proseware peut ensuite utiliser la chaîne de requête pour déterminer quel OEM a installé Lecteur Windows Media et retourner un document ServiceInfo généré dynamiquement qui pointe vers la version comarquée du magasin en ligne.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -51,9 +51,9 @@ Le magasin en ligne Proseware peut ensuite utiliser la chaîne de requête pour 
 [**Paramètres de ligne de commande d’installation pour les magasins en ligne**](setup-command-line-parameters-for-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
