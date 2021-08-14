@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_StorageExtent
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f23e771e1c12bdbeee962651c65f2842e2c9113
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a93e030945e98b1a201bc1e57c6b44c467699014ff9eeca3d9bfd43bbfdd0e38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118420957"
 ---
 # <a name="cim_storageextent-methods"></a>\_Méthodes STORAGEEXTENT CIM
 

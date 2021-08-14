@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ccff6ad8d99692d066728c99dd74ab07640af4fa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 66be06bf3a8433a7dba1eb28e6123adb03d622803745838158aa80bda0e8e594
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417990"
 ---
 # <a name="win32_clustershare-class"></a>\_Classe ClusterShare Win32
 
@@ -75,7 +75,7 @@ La classe **Win32 \_ ClusterShare** possède ces méthodes.
 
 | Méthode                                                    | Description                                                      |
 |:----------------------------------------------------------|:-----------------------------------------------------------------|
-| [**Créés**](create-win32-clustershare.md)               | Crée une instance **de \_ ClusterShare Win32** .<br/>       |
+| [**Créer**](create-win32-clustershare.md)               | Crée une instance **de \_ ClusterShare Win32** .<br/>       |
 | [**Supprimer**](delete-win32-clustershare.md)               | Supprime une instance **de \_ ClusterShare Win32** .<br/>           |
 | [**GetAccessMask**](getaccessmask-win32-clustershare.md) | Retourne une bitmap avec les droits d’accès au partage.<br/> |
 | [**SetShareInfo**](setshareinfo-win32-clustershare.md)   | Définit les paramètres de la ressource partagée.<br/>           |
@@ -210,9 +210,9 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("win32api \| Network Management structures \| [**share \_ information \_ 1**](/windows/desktop/api/lmshare/ns-lmshare-share_info_1) \| shi1 \_ NetName")
 </dt> </dl>
 
-Alias donné à un chemin d’accès configuré en tant que partage sur un système informatique exécutant Windows.
+Alias donné à un chemin d’accès configuré en tant que partage sur un système d’ordinateur exécutant Windows.
 
-Windows 2008 exemple : « \\ SERVEUR01 \\ public »-windows Server 2008 nécessite que vous détrouviez l’UNC dans le nom.
+Windows 2008 exemple : « \\ serveur01 \\ public »-Windows Server 2008 nécessite que vous détrouviez l’UNC dans le nom.
 
 Cette propriété est héritée [**du \_ partage Win32**](win32-share.md).
 
@@ -230,7 +230,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("les \| structures de gestion de réseau win32api \| [**partagent les \_ informations \_ 502**](/windows/desktop/api/lmshare/ns-lmshare-share_info_502) \| shi502 \_ path")
 </dt> </dl>
 
-Chemin d’accès local du partage Windows.
+chemin d’accès Local du partage de Windows.
 
 Exemple : « C : \\ Program Files »
 

@@ -1,17 +1,17 @@
 ---
 description: Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers musicaux des autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
 ms.assetid: 49d889b3-4827-4c00-9b0b-2082e895281a
-title: System. PropGroup. Music
+title: System. PropGroup. Musique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c94d62ee90f1c89e35cc9e67c16adefa3a7d9725
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bb5e9afd7ecb78d2967580e62b01a0fcd78ea1b8d137baca6274b846e3322db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118465660"
 ---
-# <a name="systempropgroupmusic"></a>System. PropGroup. Music
+# <a name="systempropgroupmusic"></a>System. PropGroup. Musique
 
 Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers musicaux des autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Null
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

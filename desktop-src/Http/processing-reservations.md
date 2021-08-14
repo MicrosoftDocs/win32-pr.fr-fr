@@ -4,12 +4,12 @@ description: Les réservations pour des parties de l’espace de noms d’URL so
 ms.assetid: deab6323-d114-463b-a0e7-acd173149b63
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a0a78fd6d374ede14e0eba7c1b22ad33ba50648
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: c5c4f0e38f5994687bfe26d1334300c0aa7fbbd3f8096abcf60e6c523e7d030a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104383211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393761"
 ---
 # <a name="processing-reservations"></a>Traitement des réservations
 
@@ -24,7 +24,7 @@ Les réservations pour des parties de l’espace de noms d’URL sont effectuée
 
 
 
- 
+ 
 
 Ces réservations implicites ne peuvent pas être supprimées. Toutefois, il est possible de déléguer des réservations racines explicites à d’autres utilisateurs. Les réservations comme ci-dessous créent des délégations de ce type :
 
@@ -37,13 +37,13 @@ Ces réservations implicites ne peuvent pas être supprimées. Toutefois, il est
 
 
 
- 
+ 
 
 Si ces réservations déléguées sont supprimées par l’administrateur système, la propriété de l’espace de noms revient à la réservation implicite pour les valeurs d’hôte et de port correspondantes.
 
- 
+ 
 
- 
+ 
 
 
 

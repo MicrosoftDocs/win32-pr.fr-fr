@@ -1,6 +1,6 @@
 ---
-title: Macros Excel pour la gestion des points de connexion de service
-description: Les points de connexion de service peuvent être gérés à l’aide de macros Excel simples.
+title: Excel Macros pour la gestion des points de connexion de service
+description: les Points de connexion de Service peuvent être gérés à l’aide de macros Excel simples.
 ms.assetid: da8a7363-6814-4c26-b259-53e6f6ba98cd
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,18 +10,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 69bc3561962b063c9128d46934d3cb87b84e0a24
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f0f6d0897e7579fab45e5b952c3f03456f73a38183f07e87235f671f795763d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106517941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189613"
 ---
-# <a name="excel-macros-for-managing-service-connection-points"></a>Macros Excel pour la gestion des points de connexion de service
+# <a name="excel-macros-for-managing-service-connection-points"></a>Excel Macros pour la gestion des points de connexion de service
 
-Les points de connexion de service peuvent être gérés à l’aide de macros Excel simples.
+les Points de connexion de Service peuvent être gérés à l’aide de macros Excel simples.
 
-La macro Excel suivante affiche la configuration minimale requise pour la création d’un nouveau point de connexion de service.
+la Macro Excel suivante indique la configuration minimale requise pour la création d’un nouveau Point de connexion de Service.
 
 
 ```VB
@@ -57,7 +57,7 @@ End Sub
 
 
 
-La macro Excel suivante montre comment supprimer l’exemple de point de connexion de service.
+la Macro Excel suivante montre comment supprimer l’exemple de Point de connexion de Service.
 
 
 ```VB
@@ -78,9 +78,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102366
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 51db013eff80bc1ce16184c81d7cec56c60348e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4cfa09ea943582f47dae8b6696c1c308acc341ac7a4fe7955ed9534428a3f88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104567204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117899182"
 ---
 # <a name="esentobsoleteexception-properties"></a>Propriétés EsentObsoleteException
 
@@ -49,7 +49,7 @@ Le type [EsentObsoleteException](./esentobsoleteexception-class.md) expose les m
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

@@ -7,12 +7,12 @@ keywords:
 - Active Directory exemples Active Directory, définition d’une entrée du contrôle d’accès sur un objet d’annuaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e16180a2e1216c749c35d68ff607e81320a1482c
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 86bf938e113a9293bf13e2bbb5a910617e41cba0ee411a15598966ea7a54628a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106512721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190171"
 ---
 # <a name="example-code-for-setting-an-ace-on-a-directory-object"></a>Exemple de code pour la définition d’une entrée du contrôle d’accès sur un objet d’annuaire
 
@@ -26,7 +26,7 @@ L’exemple de code suivant définit une fonction qui ajoute une entrée de Acce
 -   Accordez ou refusez le droit de créer un type spécifique d’objet enfant.
 -   Définissez une entrée du contrôle d’accès qui peut être héritée par tous les objets enfants ou par les objets enfants d’une classe d’objet spécifiée.
 
-Suivez cet exemple de code Visual Basic Voici plusieurs exemples de code qui montrent comment utiliser la fonction **SetRight** pour définir différents types d’ACE.
+suivez cet exemple de code Visual Basic voici plusieurs exemples de code qui montrent comment utiliser la fonction **SetRight** pour définir différents types d’ace.
 
 
 ```VB
@@ -249,7 +249,7 @@ return hr;
 
 ## <a name="grant-or-deny-access-to-the-entire-object"></a>Accorder ou refuser l’accès à l’objet entier
 
-L’exemple de code Visual Basic suivant génère une chaîne de liaison pour le conteneur Users, puis appelle la fonction **SetRight** pour définir une entrée du contrôle d’accès sur le conteneur Users. Cet exemple définit une entrée du contrôle d’accès qui accorde au tiers de confiance le droit de lire ou d’écrire une propriété sur l’objet.
+l’exemple de code Visual Basic suivant génère une chaîne de liaison pour le conteneur users, puis appelle la fonction **SetRight** pour définir une entrée du contrôle d’accès sur le conteneur users. Cet exemple définit une entrée du contrôle d’accès qui accorde au tiers de confiance le droit de lire ou d’écrire une propriété sur l’objet.
 
 
 ```VB
@@ -451,6 +451,6 @@ hr = SetRight(
 
 Pour plus d’informations et le **schemaIDGUID** d’un attribut ou d’une classe prédéfinis, consultez la page de référence de la classe ou de l’attribut dans la référence de [schéma Active Directory](/windows/desktop/ADSchema/active-directory-schema) . Pour plus d’informations et pour obtenir un exemple de code qui peut être utilisé pour obtenir un **schemaIDGUID** par programme, consultez [lecture des objets AttributeSchema et classSchema](reading-attributeschema-and-classschema-objects.md).
 
- 
+ 
 
- 
+ 

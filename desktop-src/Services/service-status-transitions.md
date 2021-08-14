@@ -4,12 +4,12 @@ ms.assetid: 74a85730-6667-46fe-ae12-26561ccedb73
 title: Transitions d’état de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8df7684b1ebc04aa1116b09a3ae4321f2552d7b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7039caf68ee7d9da93e86e1760e49df87667da8c16eb5ca6693cfdc7db7def2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104564247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117967310"
 ---
 # <a name="service-state-transitions"></a>Transitions d’état de service
 
@@ -19,7 +19,7 @@ L’état initial d’un service est \_ arrêté. Lorsque le SCM démarre le ser
 
 Le SCM envoie uniquement les demandes de contrôle spécifiées au service (à l’exception de la \_ demande d’interrogation de contrôle de service \_ , qui est toujours envoyée). Pour obtenir la liste des demandes de contrôle qu’un service peut accepter, consultez le membre **dwControlsAccepted** de la structure d' [**\_ État du service**](/windows/desktop/api/Winsvc/ns-winsvc-service_status) . Pour plus d’informations sur l’inscription pour recevoir des événements d’appareil, consultez la fonction [**RegisterDeviceNotification**](/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa) .
 
-L’état du service change généralement suite à la gestion d’une demande de contrôle. Les demandes de contrôle qui provoquent le changement de l’état du service incluent l’arrêt du contrôle de SERVICE \_ , la suspension du contrôle du \_ service et la poursuite du contrôle du \_ \_ service \_ \_ . Si le service doit effectuer un traitement de longue durée pour gérer l’une de ces demandes, il doit créer un thread secondaire pour effectuer le traitement long et signaler l’état d’attente correspondant au SCM. (Pour des performances optimales sur Windows Vista et les versions ultérieures de Windows, le service doit utiliser un thread de travail à partir d’un [pool de threads](/windows/desktop/ProcThread/thread-pools) à cet effet.) Le service doit ensuite signaler la transition de l’état terminé lorsque le traitement long est terminé. Pour plus d’informations sur la gestion des demandes de contrôle, consultez [fonction du gestionnaire de contrôle des services](service-control-handler-function.md).
+L’état du service change généralement suite à la gestion d’une demande de contrôle. Les demandes de contrôle qui provoquent le changement de l’état du service incluent l’arrêt du contrôle de SERVICE \_ , la suspension du contrôle du \_ service et la poursuite du contrôle du \_ \_ service \_ \_ . Si le service doit effectuer un traitement de longue durée pour gérer l’une de ces demandes, il doit créer un thread secondaire pour effectuer le traitement long et signaler l’état d’attente correspondant au SCM. (pour des performances optimales sur Windows Vista et les versions ultérieures de Windows, le service doit utiliser un thread de travail à partir d’un [pool de threads](/windows/desktop/ProcThread/thread-pools) à cet effet.) Le service doit ensuite signaler la transition de l’état terminé lorsque le traitement long est terminé. Pour plus d’informations sur la gestion des demandes de contrôle, consultez [fonction du gestionnaire de contrôle des services](service-control-handler-function.md).
 
 Seules certaines transitions d’état de service sont valides. Le diagramme suivant montre les transitions valides.
 

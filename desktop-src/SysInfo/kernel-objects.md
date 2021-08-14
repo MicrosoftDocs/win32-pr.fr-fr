@@ -4,16 +4,16 @@ ms.assetid: 3e3288dd-155a-41d0-9d43-5f49ed4c4a9d
 title: Objets de noyau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a7cf8c46e4754c46e81cfd959f62de052332594
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f115229d11485ec14d530d87fb0e26451aaa1059752ae8d52cea40849256802b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104550944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117958227"
 ---
 # <a name="kernel-objects"></a>Objets de noyau
 
-Les handles d’objet de noyau sont spécifiques au processus. Autrement dit, un processus doit créer l’objet ou ouvrir un objet existant pour obtenir un handle d’objet de noyau. La limite par processus sur les handles de noyau est de 2 ^ 24. Toutefois, les handles étant stockés dans la réserve paginée, le nombre réel de handles que vous pouvez créer est basé sur la mémoire disponible. Le nombre de descripteurs que vous pouvez créer sur des fenêtres 32 bits est nettement inférieur à 2 ^ 24.
+Les handles d’objet de noyau sont spécifiques au processus. Autrement dit, un processus doit créer l’objet ou ouvrir un objet existant pour obtenir un handle d’objet de noyau. La limite par processus sur les handles de noyau est de 2 ^ 24. Toutefois, les handles étant stockés dans la réserve paginée, le nombre réel de handles que vous pouvez créer est basé sur la mémoire disponible. le nombre de descripteurs que vous pouvez créer sur les Windows 32 bits est nettement inférieur à 2 ^ 24.
 
 Tout processus peut créer un nouveau descripteur vers un objet de noyau existant (même créé par un autre processus), à condition que le processus sache le nom de l’objet et dispose d’un accès de sécurité à l’objet. Les handles d’objet de noyau incluent des droits d’accès indiquant les actions qui peuvent être accordées ou refusées à un processus. Une application spécifie des droits d’accès quand elle crée un objet ou obtient un handle d’objet existant. Chaque type d’objet de noyau prend en charge son propre ensemble de droits d’accès. Par exemple, les handles d’événements peuvent avoir un accès set ou Wait (ou les deux), les descripteurs de fichiers peuvent avoir un accès en lecture ou en écriture (ou les deux), et ainsi de suite. Pour plus d’informations, consultez [objets sécurisables](/windows/desktop/SecAuthZ/securable-objects).
 
@@ -72,7 +72,7 @@ Le tableau suivant répertorie chacun des objets de noyau, ainsi que les fonctio
 | Semaphore                    | [**CreateSemaphore,**](/windows/desktop/api/winbase/nf-winbase-createsemaphorea), [**CreateSemaphoreEx**](/windows/desktop/api/winbase/nf-winbase-createsemaphoreexa), [**OpenSemaphore**](/windows/win32/api/synchapi/nf-synchapi-opensemaphorew)                                                                                                                             | [**CloseHandle**](/windows/win32/api/handleapi/nf-handleapi-closehandle)                                                      |
 | Prise                       | [**Socket**](/windows/desktop/api/winsock2/nf-winsock2-socket), [ **accepter**](/windows/desktop/api/winsock2/nf-winsock2-accept)                                                                                                                                                                                                    | [**opération closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket)                                                |
 | Thread                       | [**CreateThread**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread), [**CreateRemoteThread**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethread), [**GetCurrentThread**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthread)                                                                                                                           | [**CloseHandle**](/windows/win32/api/handleapi/nf-handleapi-closehandle), [ **TerminateThread**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread)         |
-| Minuteur                        | [**CreateWaitableTimer**](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw), [**CreateWaitableTimerEx**](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw), [**OpenWaitableTimer**](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)                                                                                                     | [**CloseHandle**](/windows/win32/api/handleapi/nf-handleapi-closehandle)                                                      |
+| Minuterie                        | [**CreateWaitableTimer**](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw), [**CreateWaitableTimerEx**](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw), [**OpenWaitableTimer**](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)                                                                                                     | [**CloseHandle**](/windows/win32/api/handleapi/nf-handleapi-closehandle)                                                      |
 | Mettre à jour une ressource              | [**BeginUpdateResource**](/windows/win32/api/winbase/nf-winbase-beginupdateresourcea)                                                                                                                                                                                                         | [**EndUpdateResource**](/windows/win32/api/winbase/nf-winbase-endupdateresourcea)                                   |
 | Station Windows               | [**GetProcessWindowStation**](/windows/desktop/api/winuser/nf-winuser-getprocesswindowstation)                                                                                                                                                                                                       | Les applications ne peuvent pas supprimer cet objet.                                                 |
 

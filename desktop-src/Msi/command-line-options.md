@@ -1,21 +1,21 @@
 ---
-description: Options de ligne de commande pour msiexec.exe pour Windows Installer 3,0 et versions antérieures. Fournit un tableau contenant des options, des paramètres et des descriptions. Exemples montrant comment installer des produits et d’autres tâches.
+description: options de ligne de commande pour msiexec.exe pour Windows Installer 3,0 et versions antérieures. Fournit un tableau contenant des options, des paramètres et des descriptions. Exemples montrant comment installer des produits et d’autres tâches.
 ms.assetid: a70d8cc8-af47-4472-aabc-97481d97080d
 title: Options de ligne de commande
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46fe56026c21e4120963c86b4de08decc85b2a58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 287b5711468217105846a13496a23794235bbcfdfcbd0e79278aaba17e7c0341
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118380313"
 ---
 # <a name="command-line-options"></a>Options de ligne de commande
 
 Le programme exécutable qui interprète les packages et installe les produits est Msiexec.exe. Notez que msiexec définit également un niveau d’erreur au retour qui correspond aux [codes d’erreur système](/windows/desktop/Debug/system-error-codes). Les options de ligne de commande ne respectent pas la casse.
 
-Les options de ligne de commande du tableau suivant sont disponibles avec Windows Installer 3,0 et versions antérieures. Les [Options du programme d’installation Standard Command-Line](standard-installer-command-line-options.md) sont également disponibles à partir de Windows Installer 3,0.
+les options de ligne de commande du tableau suivant sont disponibles avec Windows Installer 3,0 et versions antérieures. les [Options du programme d’installation Standard Command-Line](standard-installer-command-line-options.md) sont également disponibles à partir de Windows Installer 3,0.
 
 
 
@@ -61,10 +61,10 @@ Les options de ligne de commande du tableau suivant sont disponibles avec Window
 <tr class="even">
 <td><strong>/L</strong></td>
 <td>[i | w | e | a | r | u | c | m | o | p | v | x | + | ! | *] <em>Fichier journal</em></td>
-<td>Écrit les informations de journalisation dans un fichier journal au niveau du chemin d’accès existant spécifié. Le chemin d’accès à l’emplacement du fichier journal doit déjà exister. Le programme d’installation ne crée pas la structure de répertoire pour le fichier journal. Les indicateurs indiquent les informations à consigner. Si aucun indicateur n’est spécifié, la valeur par défaut est « iwearmo ».<br/> i-messages d’État.<br/> w-avertissements non irrécupérables.<br/> e-tous les messages d’erreur.<br/> a-démarrage des actions.<br/> r-enregistrements spécifiques à l’action.<br/> u-demandes de l’utilisateur.<br/> c-paramètres d’interface utilisateur initiaux.<br/> m-mémoire insuffisante ou informations de sortie irrécupérables.<br/> e-messages d’espace disque insuffisants.<br/> p-propriétés du terminal.<br/> v-sortie détaillée.<br/> x-informations supplémentaires sur le débogage. <strong>Windows Installer 2,0 :</strong> Non pris en charge. L’option x est disponible avec Windows Installer version 3.0.3790.2180 et ultérieure.<br/> <br/> + - Ajouter au fichier existant.<br/> ! -Videz chaque ligne dans le journal.<br/> &quot;*&quot; -Caractère générique, enregistrer toutes les informations, à l’exception des options v et x. Pour inclure les options v et x, spécifiez &quot; /l* VX &quot; .<br/>
+<td>Écrit les informations de journalisation dans un fichier journal au niveau du chemin d’accès existant spécifié. Le chemin d’accès à l’emplacement du fichier journal doit déjà exister. Le programme d’installation ne crée pas la structure de répertoire pour le fichier journal. Les indicateurs indiquent les informations à consigner. Si aucun indicateur n’est spécifié, la valeur par défaut est « iwearmo ».<br/> i-messages d’État.<br/> w-avertissements non irrécupérables.<br/> e-tous les messages d’erreur.<br/> a-démarrage des actions.<br/> r-enregistrements spécifiques à l’action.<br/> u-demandes de l’utilisateur.<br/> c-paramètres d’interface utilisateur initiaux.<br/> m-mémoire insuffisante ou informations de sortie irrécupérables.<br/> e-messages d’espace disque insuffisants.<br/> p-propriétés du terminal.<br/> v-sortie détaillée.<br/> x-informations supplémentaires sur le débogage. <strong>Windows Installer 2,0 :</strong> Non pris en charge. l’option x est disponible avec Windows Installer version 3.0.3790.2180 et ultérieure.<br/> <br/> + - Ajouter au fichier existant.<br/> ! -Videz chaque ligne dans le journal.<br/> &quot;*&quot; -Caractère générique, enregistrer toutes les informations, à l’exception des options v et x. Pour inclure les options v et x, spécifiez &quot; /l* VX &quot; .<br/>
 <blockquote>
 [!Note]<br />
-Pour plus d’informations sur toutes les méthodes qui sont disponibles pour définir le mode de journalisation, consultez <a href="normal-logging.md">journalisation normale</a> dans la section <a href="windows-installer-logging.md">journalisation des Windows Installer</a>
+pour plus d’informations sur toutes les méthodes qui sont disponibles pour définir le mode de journalisation, consultez <a href="normal-logging.md">journalisation normale</a> dans la section <a href="windows-installer-logging.md">journalisation des Windows Installer</a>
 </blockquote>
 <br/></td>
 </tr>
@@ -91,27 +91,27 @@ La longueur du <em>nom de fichier</em> ne doit pas dépasser huit caractères.
 <tr class="even">
 <td><strong>/?</strong> ou <strong>/h</strong></td>
 <td> </td>
-<td>Affiche des informations de copyright pour Windows Installer.<br/></td>
+<td>affiche des informations de copyright pour Windows Installer.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/y</strong></td>
 <td><em>modules</em></td>
-<td>Appelle la fonction système <strong>DllRegisterServer</strong> pour inscrire automatiquement les modules passés sur la ligne de commande. Spécifiez le chemin d’accès complet à la DLL. Par exemple, pour MY_FILE.DLL dans le dossier actif, vous pouvez utiliser :<br/> <strong>msiexec/y .\MY_FILE.DLL</strong><br/> Cette option est utilisée uniquement pour les informations de Registre qui ne peuvent pas être ajoutées à l’aide des tables de Registre du fichier. msi.<br/></td>
+<td>Appelle la fonction système <strong>DllRegisterServer</strong> pour inscrire automatiquement les modules passés sur la ligne de commande. Spécifiez le chemin d’accès complet à la DLL. Par exemple, pour MY_FILE.DLL dans le dossier actif, vous pouvez utiliser :<br/> <strong>msiexec/y .\MY_FILE.DLL</strong><br/> Cette option est utilisée uniquement pour les informations de Registre qui ne peuvent pas être ajoutées à l’aide des tables de Registre du fichier .msi.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>z</strong></td>
 <td><em>modules</em></td>
-<td>Appelle la fonction système <strong>DllUnregisterServer</strong> pour annuler l’inscription des modules passés sur la ligne de commande. Spécifiez le chemin d’accès complet à la DLL. Par exemple, pour MY_FILE.DLL dans le dossier actif, vous pouvez utiliser : <br/> <strong>msiexec/z .\MY_FILE.DLL</strong><br/> Cette option est utilisée uniquement pour les informations de Registre qui ne peuvent pas être supprimées à l’aide des tables de Registre du fichier. msi.<br/></td>
+<td>Appelle la fonction système <strong>DllUnregisterServer</strong> pour annuler l’inscription des modules passés sur la ligne de commande. Spécifiez le chemin d’accès complet à la DLL. Par exemple, pour MY_FILE.DLL dans le dossier actif, vous pouvez utiliser : <br/> <strong>msiexec/z .\MY_FILE.DLL</strong><br/> Cette option est utilisée uniquement pour les informations de Registre qui ne peuvent pas être supprimées à l’aide des tables de Registre du fichier .msi.<br/></td>
 </tr>
 <tr class="odd">
-<td><strong>commutateur</strong></td>
+<td><strong>/c</strong></td>
 
-<td>Publie une nouvelle instance du produit. Doit être utilisé conjointement avec/t. Disponible à partir de la version Windows Installer fournie avec Windows Server 2003 et Windows XP avec Service Pack 1 (SP1).<br/></td>
+<td>Publie une nouvelle instance du produit. Doit être utilisé conjointement avec/t. disponible à partir de la version Windows Installer fournie avec Windows Server 2003 et Windows XP avec Service Pack 1 (SP1).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>/n</strong></td>
 <td><em>ProductCode</em></td>
-<td>Spécifie une instance particulière du produit. Utilisé pour identifier une instance installée à l’aide de la prise en charge de plusieurs instances par le biais des transformations de modification de code de produit. Disponible à partir de la version Windows Installer fournie avec Windows Server 2003 et Windows XP avec SP1. <br/></td>
+<td>Spécifie une instance particulière du produit. Utilisé pour identifier une instance installée à l’aide de la prise en charge de plusieurs instances par le biais des transformations de modification de code de produit. disponible à partir de la version Windows Installer fournie avec Windows Server 2003 et Windows XP avec SP1. <br/></td>
 </tr>
 </tbody>
 </table>

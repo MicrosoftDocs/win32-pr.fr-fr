@@ -8,12 +8,12 @@ keywords:
 - Schéma AD, liaison à
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65bf246a4ea1ded5c7d80c52abb8ac9192182b3b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a1492814bbce4b359a16c10f1d92340ae06d0f3c58177cd125a0b0c861f32f76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188683"
 ---
 # <a name="guidelines-for-binding-to-the-schema"></a>Instructions relatives à la liaison au schéma
 
@@ -36,6 +36,6 @@ Vous devez effectuer une liaison directe avec le conteneur de schéma plutôt qu
 -   Pour interroger les objets **attributeSchema** et **classSchema** . Pour rechercher des classes ou des attributs qui correspondent à un filtre spécifié, effectuez une liaison au conteneur de schéma et effectuez une recherche à un niveau.
 -   Pour ajouter ou modifier des attributs ou des classes. Le schéma abstrait est en lecture seule ; vous ne pouvez pas l’utiliser pour modifier ou étendre le schéma. N’oubliez pas que les modifications doivent être apportées au contrôleur de domaine qui est le contrôleur de schéma. Pour plus d’informations, consultez [Configuration requise pour l’installation d’une extension de schéma](prerequisites-for-installing-a-schema-extension.md).
 
- 
+ 
 
- 
+ 

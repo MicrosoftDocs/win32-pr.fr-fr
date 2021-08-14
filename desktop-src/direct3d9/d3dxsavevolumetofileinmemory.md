@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7daaa41e0cc87ea03a0aedc5fc2f7ca96653329f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f7c7326609d6d3c006f3c97aeff18de425a27569db63378864fc34335558117e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118298402"
 ---
 # <a name="d3dxsavevolumetofileinmemory-function"></a>D3DXSaveVolumeToFileInMemory fonction)
 
@@ -89,7 +89,7 @@ Pointeur vers une structure [**D3DBOX**](d3dbox.md) . Spécifie la zone source. 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

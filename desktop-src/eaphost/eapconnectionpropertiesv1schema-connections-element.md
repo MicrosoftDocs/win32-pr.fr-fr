@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6cdb23c9f1a6130e2fe77061286e8a0657c3e2f5
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 62635d09030875a4f17deefa1aec05432df5662369eb483894f1a8cef4bbaf5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106518037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118498217"
 ---
 # <a name="connections-element"></a>Élément connections
 
@@ -57,12 +57,12 @@ L’élément **connections** collecte et contient zéro ou plusieurs éléments
 | Élément                                                                              | Type   | Description                                                                                                                                                                                |
 |--------------------------------------------------------------------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**EAP**](baseeapconnectionpropertiesv1schema-eap-element.md)                       |        | Identifie l’élément de configuration EAP.<br/>                                                                                                                                       |
-| [**Égard**](eapconnectionpropertiesv1schema-connection-connections-element.md) |        | Définit chaque paramètre de configuration et l’associe à un nom. L’élément [**Connection**](eapconnectionpropertiesv1schema-connection-connections-element.md) est facultatif.<br/> |
+| [**Connexion**](eapconnectionpropertiesv1schema-connection-connections-element.md) |        | Définit chaque paramètre de configuration et l’associe à un nom. L’élément [**Connection**](eapconnectionpropertiesv1schema-connection-connections-element.md) est facultatif.<br/> |
 | [**Nom**](eapconnectionpropertiesv1schema-name-connection-element.md)              | string | Capture le nom de la connexion définie, en aidant à identifier plusieurs connexions.<br/>                                                                     |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément **connections** n’est pas utilisé avec les méthodes héritées via les API EAPHost.
 
@@ -70,10 +70,10 @@ L’élément **connections** n’est pas utilisé avec les méthodes héritées
 
 
 
-| Role | Version minimale du système d’exploitation prise en charge |
+| Fonction | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

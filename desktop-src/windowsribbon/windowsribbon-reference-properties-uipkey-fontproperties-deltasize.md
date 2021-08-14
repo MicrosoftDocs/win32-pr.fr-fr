@@ -4,12 +4,12 @@ description: Identifie la propriété de l’interface utilisateur FontPropertie
 ms.assetid: 021a6c79-1d3e-47d2-9601-cdaa2e66a50a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67778a710de8f69e0aea1134c12fb9ee3ebe0133
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: a35d2660d2221b4edad567b0fd05eb8283fce4b3cc7d1cb8e35c735838f385d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118438750"
 ---
 # <a name="ui_pkey_fontproperties_deltasize"></a>FontProperties de l’IU \_ \_ \_
 
@@ -39,7 +39,7 @@ Le tableau suivant décrit les valeurs des propriétés.
 
 
 
-|     Value                 |  Description                    |
+|     Valeur                 |  Description                    |
 |---------------------------|---------------------------------|
 | `UI_FONTDELTASIZE_GROW`   | L’utilisateur a cliqué sur le bouton **agrandir la police** .   |
 | `UI_FONTDELTASIZE_SHRINK` | Clic sur le bouton **réduire la police** . |

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 48e5cb315f7dba6be187280ee6a16d7c4711752f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b8dd080d2bf28bbddf047b4712d5e5688f16be460749df4f5fc28f023697dbf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118419303"
 ---
 # <a name="invoke-method-of-the-cim_directoryspecification-class"></a>Méthode Invoke de la \_ classe CIM DirectorySpecification
 
@@ -49,7 +49,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne 0 en cas de réussite, 1 si la méthode n’est pas prise en charge et toute autre valeur indique une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

@@ -4,12 +4,12 @@ ms.assetid: D5F5FE96-11D2-4fc5-A68B-6E594C09BE20
 title: À propos des bibliothèques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e577e7b5df0a1e072a07a096434af84ff8e2c26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14e63aef55513fb36f9a3cbfa71c1b7a79040fd7848468bd1216779cd034132d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104554857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118049322"
 ---
 # <a name="about-libraries"></a>À propos des bibliothèques
 
@@ -39,9 +39,9 @@ Cette section décrit certains des avantages des bibliothèques du point de vue 
 
 L’ajout de la prise en charge de bibliothèque à votre programme offre les avantages suivants à l’utilisateur :
 
--   **Les bibliothèques fournissent une interface utilisateur cohérente dans Windows 7**
+-   **les bibliothèques fournissent une interface utilisateur cohérente dans Windows 7**
 
-    Les boîtes de dialogue de fichier courantes prennent en charge les bibliothèques et fournissent la même expérience utilisateur que l’Explorateur Windows dans Windows 7. Les bibliothèques de prise en charge dans votre programme vous aideront à fournir une interaction plus transparente pour l’utilisateur lors de l’utilisation de votre programme dans Windows 7.
+    les boîtes de dialogue de fichier courantes prennent en charge les bibliothèques et fournissent la même expérience utilisateur que l’explorateur de Windows dans Windows 7. les bibliothèques de prise en charge dans votre programme vous aideront à fournir une interaction plus transparente pour l’utilisateur lors de l’utilisation de votre programme dans Windows 7.
 
 -   **Les utilisateurs décident de l’emplacement de stockage du contenu**
 
@@ -65,11 +65,11 @@ Vous pouvez utiliser des bibliothèques dans votre programme pour fournir une in
 
 -   **Les programmes peuvent créer des bibliothèques dédiées**
 
-    Une nouvelle bibliothèque peut être créée lorsqu’une bibliothèque utilisateur existante ne répond pas aux besoins du programme, par exemple, si un programme crée un nouveau type de contenu utilisateur. La nouvelle bibliothèque peut être configurée avec une icône unique qui représente son contenu et facilite l’identification de la bibliothèque dans l’Explorateur Windows.
+    Une nouvelle bibliothèque peut être créée lorsqu’une bibliothèque utilisateur existante ne répond pas aux besoins du programme, par exemple, si un programme crée un nouveau type de contenu utilisateur. la nouvelle bibliothèque peut être configurée avec une icône unique qui représente son contenu et facilite l’identification de la bibliothèque dans l’explorateur de Windows.
 
 ## <a name="managing-folders-in-libraries"></a>Gestion des dossiers dans les bibliothèques
 
-Les utilisateurs peuvent organiser leurs bibliothèques en ajoutant, en déplaçant ou en supprimant des dossiers dans la bibliothèque. Toutefois, tous les dossiers ne prennent pas en charge toutes les fonctionnalités qu’une bibliothèque peut fournir. De nombreuses fonctionnalités de bibliothèque requièrent un accès rapide aux différentes propriétés du dossier et à son contenu qui sont uniquement disponibles par le biais de la recherche Windows. Pour fournir une fonctionnalité de bibliothèque complète, un dossier doit pouvoir être indexé par la recherche Windows.
+Les utilisateurs peuvent organiser leurs bibliothèques en ajoutant, en déplaçant ou en supprimant des dossiers dans la bibliothèque. Toutefois, tous les dossiers ne prennent pas en charge toutes les fonctionnalités qu’une bibliothèque peut fournir. de nombreuses fonctionnalités de bibliothèque requièrent un accès rapide aux différentes propriétés du dossier et à son contenu, qui sont uniquement disponibles par le biais de Windows recherche. pour fournir une fonctionnalité de bibliothèque complète, un dossier doit pouvoir être indexé par Windows recherche.
 
 Une bibliothèque n’autorise pas un utilisateur à ajouter des dossiers qui ne fournissent pas toutes les fonctionnalités de la bibliothèque. Toutefois, l’API de la [**bibliothèque de shells**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary) peut ajouter de tels dossiers. Si une bibliothèque contient un dossier qui ne prend pas en charge la fonctionnalité de bibliothèque complète, la bibliothèque fonctionne en mode sans échec et fournit une fonctionnalité limitée. Le tableau suivant décrit les dossiers qui prennent en charge la fonctionnalité de bibliothèque complète et ceux qui ne le sont pas.
 
@@ -78,9 +78,9 @@ Une bibliothèque n’autorise pas un utilisateur à ajouter des dossiers qui ne
 | Types de dossiers qui prennent en charge la fonctionnalité de bibliothèque complète                                                               | Types de dossiers qui ne prennent pas en charge la fonctionnalité de bibliothèque complète                                  |
 |--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | Disques durs NTFS et NTFS fixes et externes.                                                                     | Lecteurs amovibles tels que les lecteurs flash USB ou les cartes mémoire Secure Digital (SD).               |
-| Partages de fichiers indexés par Windows Search, tels que les serveurs départementaux, Windows 7 ou Windows Vista. | Support amovible, tel qu’un CD-ROM ou un DVD.                                                 |
+| les partages de fichiers indexés par Windows recherche, tels que les serveurs départementaux, les Windows 7 ou les pc de bureau Windows Vista. | Support amovible, tel qu’un CD-ROM ou un DVD.                                                 |
 | Les partages de fichiers qui sont disponibles hors connexion, tels qu’un dossier **Mes documents** Redirigé ou un cache Client-Side.        | Partages réseau qui ne sont pas disponibles hors connexion ni indexés à distance, tels que les lecteurs NAS.   |
-|                                                                                                                    | D’autres sources de données telles que Microsoft SharePoint, Microsoft Exchange et Microsoft OneDrive. |
+|                                                                                                                    | d’autres sources de données telles que microsoft SharePoint, microsoft Exchange et Microsoft OneDrive. |
 
 
 

@@ -12,12 +12,12 @@ keywords:
 - mémoire tampon d’e/s interne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d014ed765609dd43886cc7b33987f8fd5ac7e65a
-ms.sourcegitcommit: 7ef31bf778e76ce4196205d4c4c632fbdc649805
+ms.openlocfilehash: 67f8e7c11dbc90f7090bc8fcee114ebfac79f9bd54d834203f4b8e7bf893f591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "103953295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117989381"
 ---
 # <a name="buffered-services"></a>Services en mémoire tampon
 

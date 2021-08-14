@@ -7,12 +7,12 @@ keywords:
 - Vue d’ensemble du code AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e99a4974ac97488fc051ea80dbde7a8a83fa329e
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: dc23f4a3a51c33f24748347a2941bc09dbda8bc3bd99d133f99d0377eb0bda90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118017723"
 ---
 # <a name="code-overview"></a>Vue d’ensemble du code
 
@@ -37,6 +37,6 @@ Les éléments numérotés suivants correspondent à des éléments de bloc dans
 13. Appels spécifiques au système d’exploitation (RegDSAPI. cpp). Cela comprend tous les appels qui font référence au système d’exploitation natif. Parmi d’autres fonctions, elles incluent des fonctions d’ouverture, de fermeture, de lecture et de modification d’objets, ainsi que ceux qui accèdent au schéma et aux données de propriété. L’exemple de composant fournisseur s’est produit pour simuler une hiérarchie de répertoires à l’aide du Registre. Seuls les noms de fonctions doivent être très intéressants pour un writer de fournisseur.
 14. Implémentation [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) (Cdispmgr. cpp). Ce code accède aux données de la bibliothèque de types pour permettre aux méthodes d’interface d’être appelées de manière compatible Automation.
 
- 
+ 
 
- 
+ 

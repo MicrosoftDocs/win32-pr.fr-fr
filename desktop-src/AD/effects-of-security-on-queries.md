@@ -7,12 +7,12 @@ keywords:
 - effets de la sécurité sur la recherche Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26feee840c0668b2ea9412932a27927bb1c00012
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 429150489f2ab4d00015744beff72ee2b90b0399afd3d43f9263d39cadbaecd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191619"
 ---
 # <a name="effects-of-security-on-searching"></a>Effets de la sécurité sur la recherche
 
@@ -30,9 +30,9 @@ Si l’appelant ne dispose pas de droits suffisants, les codes de retour suivant
 
 \_propriété ADS \_ E \_ \_ introuvable
 
- 
+ 
 
- 
+ 
 
 
 

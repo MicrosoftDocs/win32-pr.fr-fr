@@ -4,12 +4,12 @@ description: Détermine si cet objet adaptateur DXCore et le système d’exploi
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 284e38a622c882fce04278d9134908f55c9a25cb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dc63b541a552f1b01792e9f503acc7aeee03ce5ac6cc92e7b70e271ae62a50ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118278977"
 ---
 # <a name="idxcoreadapterissetstatesupported-method"></a>IDXCoreAdapter :: IsSetStateSupported, méthode
 
@@ -34,7 +34,7 @@ Type d’élément d’État sur lequel vous effectuez une requête sur la prise
 
 Type : **bool**
 
-Retourne  `true`   si cet objet adaptateur dxcore et le système d’exploitation actuel prennent en charge la définition de l’état de l’adaptateur spécifié. Sinon, retourne  `false` .
+Retourne `true` si cet objet adaptateur dxcore et le système d’exploitation actuel prennent en charge la définition de l’état de l’adaptateur spécifié. Sinon, retourne `false`.
 
 ## <a name="see-also"></a>Voir aussi
 

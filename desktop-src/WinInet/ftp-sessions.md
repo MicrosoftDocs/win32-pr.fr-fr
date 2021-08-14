@@ -4,12 +4,12 @@ description: WinINet permet aux applications de parcourir et de manipuler des r�
 ms.assetid: 23763672-765f-4bbc-95c9-c28775e91f3d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8310c2b83b81fc18b84d39153ed3dc7afda0df5a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 70942fea5865fa96c9ee81ab996238e3f382471a701ac44969d1ff8797c8780d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113970"
 ---
 # <a name="ftp-sessions"></a>Sessions FTP
 
@@ -73,7 +73,7 @@ Les fonctions suivantes sont utilisées pendant les sessions FTP. Ces fonctions 
 
 
 
- 
+ 
 
 ### <a name="starting-an-ftp-session"></a>Démarrage d’une session FTP
 
@@ -560,10 +560,10 @@ BOOL WINAPI RenameFtpFile( HWND hDlg, HINTERNET hConnection,
 
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

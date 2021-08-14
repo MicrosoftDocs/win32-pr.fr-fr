@@ -8,12 +8,12 @@ keywords:
 - contrôle d’accès, groupes de sécurité utilisés dans
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf7096e32c64fe420ca6625378725ce8e4864beb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4e8e14d4d8c371d07619d93f4a6d06318f91e7ec011a4c4fe6d436074ac8ff94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188130"
 ---
 # <a name="how-security-groups-are-used-in-access-control"></a>Utilisation des groupes de sécurité dans les Access Control
 
@@ -21,7 +21,7 @@ L’identificateur de sécurité (SID) est l’identificateur d’objet de l’u
 
 Lorsqu’un utilisateur ou un groupe a l’autorisation d’accéder à une ressource, telle qu’une imprimante ou un partage de fichiers, le SID de l’utilisateur ou du groupe est ajouté à l’entrée de contrôle d’accès (ACE) définissant l’autorisation accordée dans la liste de contrôle d’accès discrétionnaire (DACL) de la ressource. Dans Active Directory Domain Services, chaque objet a un attribut **ntSecurityDescriptor** qui stocke une liste DACL définissant l’accès à cet objet ou aux attributs particuliers sur cet objet. Pour plus d’informations sur la définition du contrôle d’accès sur des objets dans Active Directory Domain Services, consultez [contrôle de l’accès aux objets dans Active Directory Domain Services](controlling-access-to-objects-in-active-directory-domain-services.md).
 
-Lorsqu’un utilisateur se connecte à un domaine Windows 2000, le système d’exploitation génère un jeton d’accès. Ce jeton d’accès est utilisé pour déterminer les ressources auxquelles l’utilisateur peut accéder. Le jeton d’accès utilisateur contient les données suivantes :
+lorsqu’un utilisateur se connecte à un domaine Windows 2000, le système d’exploitation génère un jeton d’accès. Ce jeton d’accès est utilisé pour déterminer les ressources auxquelles l’utilisateur peut accéder. Le jeton d’accès utilisateur contient les données suivantes :
 
 -   SID de l’utilisateur.
 -   SID de tous les groupes de sécurité globaux et universels dont l’utilisateur est membre.
@@ -36,9 +36,9 @@ Lorsque l’utilisateur tente d’accéder à des ressources sur un ordinateur, 
 
 Le service utilise ce nouveau jeton d’accès pour évaluer l’accès à la ressource. Si un SID dans le jeton d’accès apparaît dans des ACE dans la liste DACL, le service accorde à l’utilisateur les autorisations spécifiées dans ces entrées de du texte.
 
- 
+ 
 
- 
+ 
 
 
 

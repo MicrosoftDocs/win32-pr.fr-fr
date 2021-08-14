@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8d1b39e1eef8f9686eee66c629120feaea51c778
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a33efc39481ebe94b6aa8802d469e218d026aba34ab8da6cddf3f136b45a6d3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118421446"
 ---
 # <a name="cim_productsupport-class"></a>\_Classe CIM ProductSupport
 
@@ -70,7 +70,7 @@ Référence au produit.
 
 </dd> <dt>
 
-**Support**
+**Support technique**
 </dt> <dd> <dl> <dt>
 
 Type de données : **CIM \_ SupportAccess**
@@ -83,7 +83,7 @@ Référence au support technique.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

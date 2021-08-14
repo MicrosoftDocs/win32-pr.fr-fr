@@ -4,12 +4,12 @@ ms.assetid: 9b94ab86-2a6a-4abd-ab56-95315f473226
 title: Rendu à partir de mémoires tampons de vertex et d’index (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbc42da3f25787d42b0bdccdd808013f51bfa3e4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0e4290dc2ff40e1ec0448e3948342aa3b02ac62bf9866a44958ea53bee9658d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118092630"
 ---
 # <a name="rendering-from-vertex-and-index-buffers-direct3d-9"></a>Rendu à partir de mémoires tampons de vertex et d’index (Direct3D 9)
 
@@ -46,7 +46,7 @@ Une mémoire tampon d’index « indexe » dans la mémoire tampon de vertex a
 
 ![diagramme d’une mémoire tampon d’index pour la mémoire tampon de vertex précédente](images/dip-fig3.png)
 
-La mémoire tampon d’index stocke les valeurs d’index VB, qui font référence à un vertex particulier dans la mémoire tampon de vertex. Une mémoire tampon de vertex peut être considérée comme un tableau de vertex, donc l’index VB est simplement l’index dans la mémoire tampon de vertex pour le vertex cible. De même, un index IB est un index dans le tampon d’index. Cela peut s’avérer très confus très rapidement si vous n’êtes pas vigilant. Assurez-vous que vous êtes bien sûr du vocabulaire utilisé : index des valeurs d’index VB dans la mémoire tampon de vertex, index des valeurs d’index IB dans le tampon d’index, et le tampon d’index lui-même stocke les valeurs d’index VB.
+la mémoire tampon d’index stocke VB valeurs d’index, qui font référence à un vertex particulier dans la mémoire tampon de vertex. une mémoire tampon de vertex peut être considérée comme un tableau de vertex, de sorte que l’index VB est simplement l’index dans la mémoire tampon de vertex pour le vertex cible. De même, un index IB est un index dans le tampon d’index. cela peut s’avérer très confus très rapidement si vous n’êtes pas vigilant. assurez-vous que vous êtes bien clair sur le vocabulaire utilisé : VB index de valeurs d’index dans la mémoire tampon de vertex, index de valeurs d’index IB dans le tampon d’index, et le tampon d’index lui-même stocke VB valeurs d’index.
 
 L’appel de dessin est illustré ci-dessous. Les significations de tous les arguments sont discutées à la longueur du scénario de dessin suivant. pour le moment, il vous suffit de noter que cet appel demande à Direct3D de restituer une liste de triangles contenant deux triangles, en commençant à l’emplacement 0 dans la mémoire tampon d’index. Cet appel dessinera les deux mêmes triangles dans le même ordre que précédemment, garantissant ainsi une orientation appropriée dans le sens des aiguilles d’une montre :
 
@@ -69,7 +69,7 @@ Supposons maintenant que vous souhaitez dessiner uniquement le deuxième triangl
 
 ![diagramme du tampon d’index et de la mémoire tampon de vertex pour le deuxième triangle](images/dip-fig4.png)
 
-Pour cet appel de dessin, le premier index IB utilisé est 3 ; Cette valeur est appelée StartIndex. L’index VB le plus bas utilisé est 0 ; Cette valeur est appelée MinIndex. Même si seuls trois vertex sont requis pour dessiner le triangle, ces trois vertex sont répartis sur quatre emplacements adjacents dans la mémoire tampon de vertex ; le nombre d’emplacements dans le bloc contigu de mémoire tampon de vertex requis pour l’appel de dessin est appelé NumVertices et sera défini sur 4 dans cet appel. Les valeurs MinIndex et NumVertices sont en fait simplement des indications pour aider Direct3D à optimiser l’accès à la mémoire lors du traitement des vertex logiciels et peuvent simplement être définies pour inclure l’intégralité de la mémoire tampon du vertex au prix des performances.
+Pour cet appel de dessin, le premier index IB utilisé est 3 ; Cette valeur est appelée StartIndex. l’Index VB le plus bas utilisé est 0 ; Cette valeur est appelée MinIndex. Même si seuls trois vertex sont requis pour dessiner le triangle, ces trois vertex sont répartis sur quatre emplacements adjacents dans la mémoire tampon de vertex ; le nombre d’emplacements dans le bloc contigu de mémoire tampon de vertex requis pour l’appel de dessin est appelé NumVertices et sera défini sur 4 dans cet appel. Les valeurs MinIndex et NumVertices sont en fait simplement des indications pour aider Direct3D à optimiser l’accès à la mémoire lors du traitement des vertex logiciels et peuvent simplement être définies pour inclure l’intégralité de la mémoire tampon du vertex au prix des performances.
 
 Voici l’appel de dessin pour le cas à triangle unique ; la signification de l’argument BaseVertexIndex sera expliquée ci-dessous :
 
@@ -88,7 +88,7 @@ DrawIndexedPrimitive( D3DPT_TRIANGLELIST, // PrimitiveType
 
 ## <a name="scenario-4-drawing-one-triangle-with-offset-indexing"></a>Scénario 4 : dessin d’un triangle avec l’indexation de décalage
 
-BaseVertexIndex est une valeur ajoutée à chaque index VB stocké dans la mémoire tampon d’index. Par exemple, si nous avions passé la valeur 50 pour BaseVertexIndex lors de l’appel précédent, cela équivaut à utiliser le tampon d’index dans le diagramme suivant pour la durée de l’appel DrawIndexedPrimitive :
+BaseVertexIndex est une valeur ajoutée à chaque index VB stocké dans la mémoire tampon d’Index. Par exemple, si nous avions passé la valeur 50 pour BaseVertexIndex lors de l’appel précédent, cela équivaut à utiliser le tampon d’index dans le diagramme suivant pour la durée de l’appel DrawIndexedPrimitive :
 
 ![diagramme d’une mémoire tampon d’index avec une valeur de 50 pour basevertexindex](images/dip-fig5.png)
 
@@ -96,7 +96,7 @@ Cette valeur est rarement définie sur une valeur différente de 0, mais peut ê
 
 Cette technique peut également être utilisée lors du dessin de plusieurs instances d’une maille à l’aide d’une seule mémoire tampon d’index ; par exemple, si la mémoire tampon de vertex contenait deux mailles avec un ordre de dessin identique mais des vertex légèrement différents (peut-être des couleurs diffuses ou des coordonnées de texture différentes), les deux mailles peuvent être dessinées à l’aide de différentes valeurs pour BaseVertexIndex. Grâce à ce concept, vous pouvez utiliser une seule mémoire tampon d’index pour dessiner plusieurs instances d’une maille, chacune contenue dans une mémoire tampon de vertex différente, en recourant simplement à la mémoire tampon de vertex active et en ajustant les BaseVertexIndex en fonction des besoins. Notez que la valeur BaseVertexIndex est également ajoutée automatiquement à l’argument MinIndex, ce qui est utile lorsque vous voyez comment il est utilisé :
 
-Supposons maintenant que nous voulons à nouveau dessiner uniquement le deuxième triangle du Quad en utilisant le même tampon d’index qu’auparavant ; Toutefois, une autre mémoire tampon de vertex est utilisée dans laquelle le quad est situé à l’index VB 50. L’ordre relatif des vertex Quad reste inchangé, seul l’emplacement de départ dans la mémoire tampon de vertex est différent. Le tampon d’index et la mémoire tampon de vertex ressemblent au diagramme suivant.
+Supposons maintenant que nous voulons à nouveau dessiner uniquement le deuxième triangle du Quad en utilisant le même tampon d’index qu’auparavant ; toutefois, une autre mémoire tampon de vertex est utilisée dans laquelle le quad se trouve à VB Index 50. L’ordre relatif des vertex Quad reste inchangé, seul l’emplacement de départ dans la mémoire tampon de vertex est différent. Le tampon d’index et la mémoire tampon de vertex ressemblent au diagramme suivant.
 
 ![diagramme du tampon d’index et de la mémoire tampon de vertex avec un index VB de 50](images/dip-fig6.png)
 

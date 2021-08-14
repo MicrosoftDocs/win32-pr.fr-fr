@@ -15,12 +15,12 @@ keywords:
 - interfaces, ITableProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9879d1589985df0257a1dd7805f474c013b93732
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fb484245ee7c2f982ca6c5624ad108a0c75a4721ba7f6cbdf7a8af8ee2d91881
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104570999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324130"
 ---
 # <a name="table-control-pattern"></a>Table (modèle de contrôle)
 
@@ -42,9 +42,9 @@ Lorsque vous implémentez le modèle de contrôle **table** , notez les conventi
 -   Un en-tête de colonne ou de ligne peut figurer dans un objet table ou être un objet d’en-tête séparé, associé à un objet table.
 -   Les en-têtes de colonne et de ligne peuvent inclure un en-tête principal et des en-têtes de prise en charge quelconques.
     > [!Note]  
-    > Ce concept devient évident dans une feuille de calcul Microsoft Excel où un utilisateur a défini une colonne **First Name** . Cette colonne contient maintenant deux en-têtes, y compris l’en-tête de **prénom** défini par l’utilisateur, et la désignation alphanumérique pour cette colonne assignée par l’application.
+    > ce concept devient évident dans une feuille de calcul Microsoft Excel dans laquelle un utilisateur a défini une colonne **First name** . Cette colonne contient maintenant deux en-têtes, y compris l’en-tête de **prénom** défini par l’utilisateur, et la désignation alphanumérique pour cette colonne assignée par l’application.
 
-     
+     
 
 -   Consultez [modèle de contrôle Grid](uiauto-implementinggrid.md) pour obtenir des fonctionnalités de grille associées.
 
@@ -62,15 +62,15 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
-| Membres nécessaires                                                   | Type de membre | Notes |
+| Membres nécessaires                                                   | Type de membre | Remarques |
 |--------------------------------------------------------------------|-------------|-------|
-| [**RowOrColumnMajor**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableprovider-get_roworcolumnmajor) | Propriété    | Aucun  |
+| [**RowOrColumnMajor**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableprovider-get_roworcolumnmajor) | Property    | Aucun  |
 | [**GetColumnHeaders**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableprovider-getcolumnheaders) | Méthode      | Aucun  |
 | [**GetRowHeaders**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableprovider-getrowheaders)       | Méthode      | Aucun  |
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé aucun événement.
 
@@ -93,9 +93,9 @@ Ce modèle de contrôle n’est associé aucun événement.
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

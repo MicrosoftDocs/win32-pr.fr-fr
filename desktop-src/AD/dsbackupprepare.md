@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa561a7e41164ece68fb18fd882a8b05d6357cec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea1f24c6cbf3f05ce69d8a71900bfe4d1b08899b98590dc75410b9d5ed92d90a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191835"
 ---
 # <a name="dsbackupprepare-function"></a>DsBackupPrepare fonction)
 
-\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. À partir de Windows Vista, utilisez [service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
+\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. à partir de Windows Vista, utilisez [Service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
 
 La fonction **DsBackupPrepare** prépare le répertoire sur le serveur spécifié pour la sauvegarde en ligne et retourne un handle de contexte de sauvegarde utilisé dans les appels ultérieurs à d’autres fonctions de sauvegarde.
 
@@ -173,9 +173,9 @@ La fonction est appelée à distance ou le serveur dans *szServerName* n’est p
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette fonction requiert que l’appelant dispose du privilège de **\_ \_ nom de sauvegarde se** . La fonction [**DsSetAuthIdentity**](dssetauthidentity.md) peut être utilisée pour modifier le contexte de sécurité sous lequel cette fonction est appelée.
+cette fonction requiert que l’appelant ait le **privilège \_ SE \_ nom de sauvegarde** . La fonction [**DsSetAuthIdentity**](dssetauthidentity.md) peut être utilisée pour modifier le contexte de sécurité sous lequel cette fonction est appelée.
 
 ## <a name="requirements"></a>Configuration requise
 

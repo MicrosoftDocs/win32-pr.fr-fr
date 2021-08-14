@@ -4,12 +4,12 @@ ms.assetid: d7ed4516-74a6-81ec-79a2-2e39cf112d11
 title: Fonctions arithmétiques vectorielles
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64ad5149153b736ddf6d2f2af5b9671e32651f86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 783e60ad3ca17b7394fc801baaeedd61d89649b2f4ae5ccd3b3fa7e774ff6a4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500349"
 ---
 # <a name="vector-arithmetic-functions"></a>Fonctions arithmétiques vectorielles
 

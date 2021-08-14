@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f50fc41317ae22ae89c47f63bb19f981563e5c4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ab10ac21d1a3cb2501a809b938252414c756bdfbd62f1e142ba3b902cde8c291
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191778"
 ---
 # <a name="dssetcurrentbackuplog-function"></a>DsSetCurrentBackupLog fonction)
 
-\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. À partir de Windows Vista, utilisez [service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
+\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. à partir de Windows Vista, utilisez [Service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
 
 La fonction **DsSetCurrentBackupLog** définit le numéro de journal de sauvegarde actuel après une restauration réussie. Étant donné que les Active Directory Domain Services prennent uniquement en charge la journalisation circulaire, cette fonction n’est généralement pas utilisée.
 
@@ -80,7 +80,7 @@ Un échec d’allocation de mémoire s’est produit.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Normalement, il n’est pas nécessaire d’appeler la fonction **DsSetCurrentBackupLog** . Les fonctions de sauvegarde déterminent et définissent automatiquement le dernier numéro de journal sauvegardé. Utilisez **DsSetCurrentBackupLog** pour empêcher une autre sauvegarde incrémentielle de se dérouler jusqu’à ce qu’une sauvegarde complète soit effectuée.
 

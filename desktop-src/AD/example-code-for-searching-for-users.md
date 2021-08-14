@@ -7,19 +7,19 @@ keywords:
 - Active Directory des exemples Active Directory, recherche d’utilisateurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34d587cf6264017fccb35fc7a82ac1e2c68c1785
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b974299416a508546fd8bc6108890579726c9dba6b01bb485f2160f04491923e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104381765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190161"
 ---
 # <a name="example-code-for-searching-for-users"></a>Exemple de code pour la recherche d’utilisateurs
 
 Les exemples de code suivants recherchent des utilisateurs dans le domaine du compte d’utilisateur sous lequel le processus appelant s’exécute.
 
 -   [Exemple C++](#c-example)
--   [Exemple de Visual Basic](#visual-basic-example)
+-   [Visual Basic Tels](#visual-basic-example)
 
 ## <a name="c-example"></a>Exemple C++
 
@@ -484,9 +484,9 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
 
 
 
-## <a name="visual-basic-example"></a>Exemple de Visual Basic
+## <a name="visual-basic-example"></a>Visual Basic Tels
 
-L’exemple de code Visual Basic suivant recherche dans le domaine actuel les utilisateurs avec le nom de famille spécifié et retourne les attributs Name et [**distinguishedName**](/windows/desktop/ADSchema/a-distinguishedname) pour les objets trouvés. L’exemple de code suivant utilise ADO pour effectuer la recherche.
+l’exemple de code Visual Basic suivant recherche dans le domaine actuel les utilisateurs avec le nom de famille spécifié et retourne les attributs name et [**distinguishedName**](/windows/desktop/ADSchema/a-distinguishedname) pour les objets trouvés. L’exemple de code suivant utilise ADO pour effectuer la recherche.
 
 
 ```VB
@@ -619,6 +619,6 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 

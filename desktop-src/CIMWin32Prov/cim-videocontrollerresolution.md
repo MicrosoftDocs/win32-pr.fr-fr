@@ -24,18 +24,18 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d448d92d79163bc6a4e1056e88434081c5878159
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: af943df981ca2043e83dfcdd3daade0a1c13b63222a163d7e6ecf1d6110396e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118420376"
 ---
 # <a name="cim_videocontrollerresolution-class"></a>\_Classe CIM VideoControllerResolution
 
 La classe **CIM \_ VideoControllerResolution** représente les différents modes vidéo qu’un contrôleur vidéo peut prendre en charge. Les modes vidéo sont définis par les résolutions horizontales et verticales possibles, la fréquence d’actualisation, le mode d’analyse et le nombre de paramètres de couleur pris en charge par un contrôleur. Les résolutions réelles utilisées sont les valeurs spécifiées dans l’objet [**CIM \_ VideoController**](cim-videocontroller.md) .
 
-Le matériel qui n’est pas compatible avec le modèle WDDM (Windows Display Driver Model) retourne des valeurs de propriété inexactes pour les instances de cette classe.
+le matériel qui n’est pas compatible avec le modèle WDDM (Windows Display Driver Model) retourne des valeurs de propriété inexactes pour les instances de cette classe.
 
 > [!IMPORTANT]
 > Les classes de la DMTF (Distributed Management Task Force) CIM (Common Information Model) sont les classes parentes sur lesquelles les classes WMI sont générées. WMI ne prend actuellement en charge que les [schémas de version CIM 2. x](https://dmtf.org/standards/cim/schemas).
@@ -279,7 +279,7 @@ Résolution verticale du contrôleur, en pixels.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI implémente la classe **CIM \_ VideoControllerResolution** . La **classe \_ VideoControllerResolution CIM** est une classe dynamique.
 

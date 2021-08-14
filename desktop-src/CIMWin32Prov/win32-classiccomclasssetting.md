@@ -40,12 +40,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5f263a888ce9dea80444023faff57998bc3f2c1c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4aa3a60b68902bbcf7728866d24e5cedd831eac35ba629a3e2516a885a28efaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118418240"
 ---
 # <a name="win32_classiccomclasssetting-class"></a>\_Classe ClassicCOMClassSetting Win32
 
@@ -484,7 +484,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry \| HKEY \_ local \_ machine machine \\ \\ \\ \\ classes \\ \\ CLSID \\ \\ {GUID} \\ \\ ToolboxBitmap32 \[ default \] ")
 </dt> </dl>
 
-Nom de module et identificateur de ressource pour une petite image bitmap (16x16) utilisée pour la face d’un bouton de barre d’outils ou de boîte à outils. Utilisé lorsque le composant COM est un contrôle OLE ou ActiveX.
+Nom de module et identificateur de ressource pour une petite image bitmap (16x16) utilisée pour la face d’un bouton de barre d’outils ou de boîte à outils. utilisé lorsque le composant COM est un contrôle OLE ou ActiveX.
 
 </dd> <dt>
 
@@ -552,7 +552,7 @@ Identificateur de programme cohérent pour toutes les versions du même programm
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ ClassicCOMClassSetting** est dérivée de la [**\_ comdéfinition Win32**](win32-comsetting.md).
 

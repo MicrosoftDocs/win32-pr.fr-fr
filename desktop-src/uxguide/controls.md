@@ -1,22 +1,22 @@
 ---
 title: Contrôles (concepts de base de la conception)
-description: Les contrôles sont des éléments d’interface utilisateur avec lesquels vos utilisateurs interagissent sur la zone de fenêtre principale de votre application. Consultez des exemples visuels de contrôles dans les applications de bureau Windows, et obtenez des liens vers des instructions pour chaque contrôle.
+description: Les contrôles sont des éléments d’interface utilisateur avec lesquels vos utilisateurs interagissent sur la zone de fenêtre principale de votre application. consultez des exemples visuels de contrôles dans les applications de bureau basées sur Windows et obtenez des liens vers des instructions pour chaque contrôle.
 ms.assetid: 5c48728b-6d86-4827-9757-f06c23ca54d8
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: c44e7b5f3772984b1dc24b166b9fe8c03a395f8a
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 7254608502145c0e64098941f923ac2051008aa2db2936fe8baf439455c0cfaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118040345"
 ---
 # <a name="controls-design-basics"></a>Contrôles (concepts de base de la conception)
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
-Les contrôles sont des éléments d’interface utilisateur avec lesquels vos utilisateurs interagissent sur la zone de fenêtre principale de votre application. Consultez des exemples visuels de contrôles dans les applications de bureau Windows, et obtenez des liens vers des instructions pour chaque contrôle.
+Les contrôles sont des éléments d’interface utilisateur avec lesquels vos utilisateurs interagissent sur la zone de fenêtre principale de votre application. consultez des exemples visuels de contrôles dans les applications de bureau basées sur Windows et obtenez des liens vers des instructions pour chaque contrôle.
 
 
 

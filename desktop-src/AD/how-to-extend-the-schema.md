@@ -9,12 +9,12 @@ keywords:
 - Active Directory, utiliser, schéma, étendre le schéma, comment étendre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 437b23229182e6ec6f94b500feb764b4bbcf06e7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 0bc30f7292c1c1077cc4e44a9f022a430af87bc3efe876a5c197b3fe370d3b95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188157"
 ---
 # <a name="how-to-extend-the-schema"></a>Comment étendre le schéma
 
@@ -26,13 +26,13 @@ Vérifiez Active Directory fonctionnalité avant de mettre à jour le schéma po
 
 **Pour vérifier Active Directory fonctionnalité avant d’appliquer l’extension de schéma**
 
-1.  Connectez-vous à une station de travail d’administration sur laquelle l’outil de support Windows Repadmin.exe installé.
+1.  connectez-vous à une station de travail d’administration sur laquelle l’outil de Support Windows Repadmin.exe installé.
     > [!Note]  
     > Les outils de support sont situés sur le support d’installation du système d’exploitation dans le \\ dossier Outils de support.
 
-     
+     
 
-2.  Ouvrez une invite de commandes, puis accédez au dossier dans lequel les outils de support Windows sont installés.
+2.  ouvrez une invite de commandes, puis accédez au dossier dans lequel les outils de Support Windows sont installés.
 3.  À une invite de commandes, tapez ce qui suit puis appuyez sur ENTRÉE :
 
     ``` syntax
@@ -48,9 +48,9 @@ Vérifiez Active Directory fonctionnalité avant de mettre à jour le schéma po
 1.  Déterminez la méthode de l’extension. Une fois que vous avez soigneusement conçu vos modifications de schéma, l’étape suivante consiste à choisir la méthode à utiliser pour étendre le schéma. Vous pouvez utiliser l’une des méthodes suivantes :
     -   Manuellement, à l’aide des fichiers d’importation. Consultez la documentation [à l’aide de l’outil LDIFDE](/previous-versions/office/developer/exchange-server-2003/ms870068(v=exchg.65)).
         > [!Note]  
-        > N’utilisez pas LDIFDE pour importer des fichiers Windows SCH \* . ldf. Ces fichiers sont requis pour étendre le schéma de Active Directory afin d’installer des contrôleurs de domaine qui exécutent une version plus récente de Windows Server que la version exécutée sur le contrôleur de schéma actuel. Lorsque vous avez besoin d’étendre le schéma pour installer un nouveau contrôleur de domaine, utilisez Adprep.exe.
+        > n’utilisez pas LDIFDE pour importer des Windows les \* fichiers Sch. ldf. ces fichiers sont requis pour étendre le schéma de Active Directory afin d’installer des contrôleurs de domaine qui exécutent une version plus récente de Windows Server que la version exécutée sur le contrôleur de schéma actuel. Lorsque vous avez besoin d’étendre le schéma pour installer un nouveau contrôleur de domaine, utilisez Adprep.exe.
 
-         
+         
 
     -   Par programmation, à l’aide d’un programme d’installation. Pour plus d’informations, consultez [extension par programmation](programmatic-extension.md)
 2.  Activer les modifications de schéma. Pour plus d’informations, consultez [Configuration requise pour l’installation d’une extension de schéma](prerequisites-for-installing-a-schema-extension.md) et [activation des modifications de schéma sur le contrôleur de schéma](enabling-schema-changes-at-the-schema-master.md).
@@ -67,7 +67,7 @@ Vérifiez Active Directory fonctionnalité avant de mettre à jour le schéma po
 [Obtention d’un identificateur d’objet](obtaining-an-object-identifier.md)
 </dt> <dt>
 
-[Les nouveaux outils en ligne de commande pour Active Directory dans Windows Server 2003](https://support.microsoft.com/kb/298882)
+[les nouveaux outils en ligne de commande pour Active Directory dans Windows Server 2003](https://support.microsoft.com/kb/298882)
 </dt> <dt>
 
 [Utilisation de l’outil LDIFDE](/previous-versions/office/developer/exchange-server-2003/ms870068(v=exchg.65))
@@ -79,6 +79,6 @@ Vérifiez Active Directory fonctionnalité avant de mettre à jour le schéma po
 [Restrictions sur l’extension de schéma](restrictions-on-schema-extension.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

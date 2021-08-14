@@ -1,19 +1,19 @@
 ---
-description: Les gestes d’application sont fournis dans le cadre du kit de développement logiciel (SDK) Windows Vista.
+description: les mouvements d’application sont fournis dans le cadre du kit de développement logiciel (SDK) Windows Vista.
 ms.assetid: eefe140d-8da6-4ba3-81c6-3cd0cf559605
 title: Mouvements d’application et comportement sémantique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 200aa33bcdf15c46bed9d300cdbfce8358929136
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffbed50b780806a696d7b84014936c217165e86a01b36603dcd9e93a77600f9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104564173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118047849"
 ---
 # <a name="application-gestures-and-semantic-behavior"></a>Mouvements d’application et comportement sémantique
 
-Les gestes d’application sont fournis dans le cadre du kit de développement logiciel (SDK) Windows Vista. Le module de reconnaissance de mouvement Microsoft est conçu pour reconnaître ces gestes. Par défaut, aucun geste n’est activé. Les applications doivent choisir les gestes à activer. En plus de reconnaître les gestes, le module de reconnaissance de mouvement de Microsoft fournit également des alternatives, ainsi que des valeurs de confiance dans le cadre des résultats de la reconnaissance. Pour utiliser ces mouvements dans votre application, vous devez vous y abonner à partir de l’application à l’aide de la référence de l' [API Tablet PC](tablet-pc-api-reference.md). Les API vous permettent de choisir un sous-ensemble de ces gestes et de rechercher des propriétés spécifiques, telles que le nombre de traits, le point chaud et d’autres propriétés, ainsi que des alternatives et leurs valeurs de confiance.
+les mouvements d’application sont fournis dans le cadre du kit de développement logiciel (SDK) Windows Vista. Le module de reconnaissance de mouvement Microsoft est conçu pour reconnaître ces gestes. Par défaut, aucun geste n’est activé. Les applications doivent choisir les gestes à activer. En plus de reconnaître les gestes, le module de reconnaissance de mouvement de Microsoft fournit également des alternatives, ainsi que des valeurs de confiance dans le cadre des résultats de la reconnaissance. Pour utiliser ces mouvements dans votre application, vous devez vous y abonner à partir de l’application à l’aide de la référence de l' [API Tablet PC](tablet-pc-api-reference.md). Les API vous permettent de choisir un sous-ensemble de ces gestes et de rechercher des propriétés spécifiques, telles que le nombre de traits, le point chaud et d’autres propriétés, ainsi que des alternatives et leurs valeurs de confiance.
 
 Pour les applications prenant en charge le stylet qui utilisent ces gestes, les messages de la souris ne sont pas envoyés. Au lieu de cela, les événements de mouvement sont envoyés à ces applications pour les informer de ces mouvements. Les applications prennent ensuite des mesures similaires aux actions de la souris en réponse à ces mouvements.
 
@@ -30,7 +30,7 @@ Le tableau suivant répertorie les mouvements d’application pris en charge par
 
 
 
-| Mouvement                                                                                                                                                                     | Nom du geste                | Comportement suggéré                           | Fixe ou propre à l’application   | Point réactif                                             | Notes                                                                                                                                                                                                                                                            |
+| Mouvement                                                                                                                                                                     | Nom du geste                | Comportement suggéré                           | Fixe ou propre à l’application   | Point réactif                                             | Remarques                                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|----------------------------------------------|---------------------------------|-------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![geste d’effacement côte à côte](images/ff84fee3-4435-4ede-be92-fbc3f5753c9d.gif)                                                                                        | Effacement<br/>      | Effacer le contenu<br/>                     | Fixe<br/>                | Point de départ<br/>                             | Rendez les traits aussi horizontaux que possible et dessinez au moins trois traits. Si la hauteur du mouvement augmente, le nombre de traits d’arrière-plan doit également augmenter.<br/>                                                                     |
 | ![mouvement en forme de triangle](images/2f5faac6-b9dc-4bd3-884c-fa64754b9166.gif)                                                                                                 | Triangle<br/>         | Insérer<br/>                            | Spécifique à l’application<br/> | Point de départ<br/>                             | Dessinez le triangle sur un seul trait, sans soulever le stylet. Assurez-vous que le haut du triangle pointe vers le haut.<br/>                                                                                                                                  |

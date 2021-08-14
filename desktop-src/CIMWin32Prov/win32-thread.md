@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6e9f6a8c821aa327e8b810b634c85bb06459910f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f3add3a93cc974c2d6c5b20c360d099d46b688887f81cb646005568240a7cb52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118416715"
 ---
 # <a name="win32_thread-class"></a>\_Classe de thread Win32
 
@@ -434,7 +434,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MaxLen**](../wmisdk/standard-qualifiers.md) (256), [**override**](../wmisdk/standard-qualifiers.md) ("ProcessHandle"), [**propagée**](../wmisdk/standard-qualifiers.md) ("[**\_ processus CIM**](cim-process.md).**Handle**"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) (" \| structures d’aide de l’outil win32api \| [**THREADENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-threadentry32) \| th32OwnerProcessID ")
 </dt> </dl>
 
-Processus qui a créé le thread. Le contenu de cette propriété peut être utilisé par les éléments de l’interface de programmation d’applications (API) Windows.
+Processus qui a créé le thread. le contenu de cette propriété peut être utilisé par Windows éléments de l’interface de programmation d’applications (API).
 
 </dd> <dt>
 
@@ -853,11 +853,11 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ thread Win32** est dérivée du [**\_ thread CIM**](cim-thread.md).
 
-**Vue d’ensemble**
+**Vue d'ensemble**
 
 Pour une analyse quotidienne quotidienne, il est généralement peu utile d’avoir une liste détaillée des threads et leurs propriétés associées. Les ordinateurs créent et suppriment des milliers de threads au cours d’une journée, et peu de ces créations ou suppressions sont significatives pour toute personne, mais le développeur qui a écrit le logiciel.
 
@@ -867,7 +867,7 @@ Toutefois, lorsque vous résolvez les problèmes liés à une application, le su
 
 Comme impliqué dans le bloc de syntaxe précédent, la classe de **\_ thread Win32** ne signale pas le nom du processus sous lequel chaque thread s’exécute. Au lieu de cela, il signale l’ID du processus sous lequel le thread s’exécute. Pour retourner le nom d’un processus et une liste de tous ses threads, votre script doit :
 
-1.  Connectez-vous à la classe de [**\_ processus Win32**](win32-process.md) et retournez la liste des processus et leurs ID de processus.
+1.  Connecter à la classe de [**\_ processus Win32**](win32-process.md) et retourne la liste des processus et leurs id de processus.
 2.  Stockez temporairement ces informations dans un objet de tableau ou de dictionnaire.
 3.  Pour chaque ID de processus, retournez la liste des threads de ce processus, puis affichez le nom du processus et la liste des threads.
 

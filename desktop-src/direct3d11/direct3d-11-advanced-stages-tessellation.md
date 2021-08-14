@@ -4,12 +4,12 @@ description: Le runtime Direct3D 11 prend en charge trois nouvelles étapes qui 
 ms.assetid: 4ad2fd3e-6e1a-4326-8469-3198acf931dc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3aacb48ccc2c95ab93ba4f34212e654880d9a369
-ms.sourcegitcommit: 4e4f9e7c90d25af0774deec1d44bd49fa9b6daa9
+ms.openlocfilehash: 52d272ad1db53c6e70a856255c1826f4867f069897b42da0219cd334d48226d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "104316662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118099231"
 ---
 # <a name="tessellation-stages"></a>Étapes de pavage
 

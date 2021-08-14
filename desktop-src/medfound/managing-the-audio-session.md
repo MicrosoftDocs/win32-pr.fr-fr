@@ -4,12 +4,12 @@ ms.assetid: 4cf3dd0f-4c8a-4720-9eb3-d23352f3a85e
 title: Gestion de la session audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e5231ca02603279675fabaaac4b96a1cd001906
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8573bd7145cc792d3178d51cead18c3a8694dde9281644b37439a377f18bec96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118062822"
 ---
 # <a name="managing-the-audio-session"></a>Gestion de la session audio
 
@@ -31,7 +31,7 @@ MFPlay fournit les méthodes suivantes pour contrôler le volume audio pendant l
 
  
 
-Pour comprendre le comportement de ces méthodes, vous devez connaître la terminologie de l’API de session audio Windows (WASAPI), qui implémente les fonctionnalités audio de bas niveau utilisées par MFPlay.
+pour comprendre le comportement de ces méthodes, vous devez connaître la terminologie de l’API de Session audio Windows (WASAPI), qui implémente les fonctionnalités Audio de bas niveau utilisées par MFPlay.
 
 Dans WASAPI, chaque flux audio appartient à une seule *session audio*, qui est un groupe de flux audio associés. En règle générale, une application gère une seule session audio, bien que les applications puissent créer plusieurs sessions. Le programme de contrôle du volume système (sndvol) affiche un contrôle du volume pour chaque session audio. Par le biais de sndvol, un utilisateur peut ajuster le volume d’une session audio en dehors de l’application. L’illustration suivante montre ce processus.
 

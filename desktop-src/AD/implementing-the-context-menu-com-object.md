@@ -8,12 +8,12 @@ keywords:
 - objet COM du menu contextuel AD, implémentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a34d6b487d130327b379ed845f2d0157f2b28056
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 53ac371ea64239c18de2a8f30c969eb6d920221f0a802f18ceeebfef2c3991e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106512088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187647"
 ---
 # <a name="implementing-the-context-menu-com-object"></a>Implémentation de l’objet COM du menu contextuel
 
@@ -39,6 +39,6 @@ Après que [**IShellExtInit :: Initialize**](/windows/win32/api/shobjidl_core/n
 
 [**IContextMenu :: commande InvokeCommand**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) est appelé quand l’un des éléments de menu installés par l’extension de menu contextuel est sélectionné. Le menu contextuel exécute ou initie les actions souhaitées en réponse à cette méthode.
 
- 
+ 
 
- 
+ 

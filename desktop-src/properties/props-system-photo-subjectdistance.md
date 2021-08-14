@@ -4,12 +4,12 @@ ms.assetid: 41d48485-9317-4eb2-ab3f-e0c5d3c690bc
 title: System. photo. SubjectDistance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4286352fb357b5e97d4cb7ec0da078cda967646
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a03c306fe1917126786ee8a4bc24a4794f13a49eda2299386b27d3428b223aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118465842"
 ---
 # <a name="systemphotosubjectdistance"></a>System. photo. SubjectDistance
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -1,23 +1,23 @@
 ---
-description: Cette rubrique décrit les formats YUV 10 et 16 bits recommandés pour la capture, le traitement et l’affichage de vidéos dans le système d’exploitation Microsoft Windows.
+description: cette rubrique décrit les formats YUV 10 et 16 bits recommandés pour la capture, le traitement et l’affichage de vidéos dans le système d’exploitation Microsoft Windows.
 ms.assetid: fcaaaa6f-f886-4f6e-9c3c-e513ccc90d37
 title: Formats vidéo YUV 10 bits et 16 bits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bbc357653848cd51ce6f56ebd8a1da3e5f60403
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09652929257c071bd735e1d6c7ec36e1767d904da7d2364ac3e30c61c81f342f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118065729"
 ---
 # <a name="10-bit-and-16-bit-yuv-video-formats"></a>Formats vidéo YUV 10 bits et 16 bits
 
-Cette rubrique décrit les formats YUV 10 et 16 bits recommandés pour la capture, le traitement et l’affichage de vidéos dans le système d’exploitation Microsoft Windows.
+cette rubrique décrit les formats YUV 10 et 16 bits recommandés pour la capture, le traitement et l’affichage de vidéos dans le système d’exploitation Microsoft Windows.
 
 Cette rubrique contient les sections suivantes :
 
--   [Vue d’ensemble](#overview)
+-   [Vue d'ensemble](#overview)
 -   [Codes FOURCC pour YUV 10 bits et 16 bits](#fourcc-codes-for-10-bit-and-16-bit-yuv)
 -   [Définitions de surface](#surface-definitions)
     -   [4:2:0 formats](#420-formats)

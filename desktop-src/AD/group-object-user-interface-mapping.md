@@ -8,12 +8,12 @@ keywords:
 - Mappage de l’interface utilisateur, objet groupe AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe2277c24f621f8e32f46b9e9571d0d0d4de9cfc
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 308b3bafc24f8b8419b23c351d981f4f01961885cd535ac2d24b96cd62e17633
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104031001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188963"
 ---
 # <a name="group-object-user-interface-mapping"></a>Mappage de l’interface utilisateur de l’objet de groupe
 
@@ -32,12 +32,12 @@ Le tableau suivant présente les étiquettes de l’interface utilisateur de la 
 
 | Étiquette d’interface utilisateur                      | Attribut dans Active Directory Domain Services     |
 |-------------------------------|---------------------------------------------------|
-| Nom du groupe (antérieur à Windows 2000) | [**Nom de compte SAM**](/windows/desktop/ADSchema/a-samaccountname) |
+| nom du groupe (pré-Windows 2000) | [**Nom de compte SAM**](/windows/desktop/ADSchema/a-samaccountname) |
 | Description                   | [**Description**](/windows/desktop/ADSchema/a-description)         |
 | Courrier électronique                        | [**Adresses de messagerie**](/windows/desktop/ADSchema/a-mail)           |
 | Étendue du groupe                   | [**Type de groupe**](/windows/desktop/ADSchema/a-grouptype)            |
 | Type de groupe                    | [**Type de groupe**](/windows/desktop/ADSchema/a-grouptype)            |
-| Notes                         | [**Commentaire**](/windows/desktop/ADSchema/a-info)                    |
+| Remarques                         | [**Commentaire**](/windows/desktop/ADSchema/a-info)                    |
 
 
 
@@ -80,8 +80,8 @@ Le tableau suivant présente les étiquettes de l’interface utilisateur de la 
 | Étiquette d’interface utilisateur                           | Attribut dans Active Directory Domain Services                                                                                   |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Nom                               | [**Géré par**](/windows/desktop/ADSchema/a-managedby)                                                                                          |
-| Le gestionnaire peut mettre à jour la liste des membres | Aucun Une entrée du contrôle d’accès avec l’autorisation « autoriser-écrire des membres » est ajoutée au compte identifié par **nom**.                        |
-| Office                             | Attribut [**Physical-Delivery-Office-Name**](/windows/desktop/ADSchema/a-physicaldeliveryofficename) du compte identifié par **Name**. |
+| Le gestionnaire peut mettre à jour la liste des membres | Aucun. Une entrée du contrôle d’accès avec l’autorisation « autoriser-écrire des membres » est ajoutée au compte identifié par **nom**.                        |
+| Office                             | attribut [**physique-delivery-Office-name**](/windows/desktop/ADSchema/a-physicaldeliveryofficename) du compte identifié par **Name**. |
 | Rue                             | L’attribut [**rue-adresse**](/windows/desktop/ADSchema/a-street) du compte identifié par le **nom**.                                    |
 | City                               | Attribut de [**nom de localité**](/windows/desktop/ADSchema/a-l) du compte identifié par le **nom**.                                          |
 | État/Province                     | Attribut [**State-or-province-Name**](/windows/desktop/ADSchema/a-st) du compte identifié par **nom**.                                |

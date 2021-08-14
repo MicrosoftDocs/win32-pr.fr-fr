@@ -15,12 +15,12 @@ keywords:
 - interfaces, ITextChildProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d21102abfef7cee0553850ac01c4f759f81988e3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1e5c7bfb1852a02efc7baa789e137a4c05e2c2e85a65606109b26a622dfafcf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117929038"
 ---
 # <a name="textchild-control-pattern"></a>Modèle de contrôle TextChild
 
@@ -51,14 +51,14 @@ Ces propriétés et méthodes sont requises pour implémenter l’interface [**I
 
 
 
-| Membres nécessaires                                                     | Type de membre | Notes |
+| Membres nécessaires                                                     | Type de membre | Remarques |
 |----------------------------------------------------------------------|-------------|-------|
 | [**TextContainer**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextchildprovider-get_textcontainer) | Propriété    | Aucun  |
 | [**TextRange**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextchildprovider-get_textrange)         | Propriété    | Aucun  |
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé à aucune méthode ou aucun événement.
 

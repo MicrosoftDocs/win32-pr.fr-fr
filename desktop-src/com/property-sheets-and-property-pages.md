@@ -4,16 +4,16 @@ description: Pages et feuilles de propriétés
 ms.assetid: 6bcd1c1c-9b66-4422-bb07-67a856b3295d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7cc61d1e1ed0cb833632b6b627a0c683a3cb0e4
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: 7991ea650838e9980292257c14d26909e9476f0f35422fa21deab2b0b5ecbbdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "103869318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118104931"
 ---
 # <a name="property-sheets-and-property-pages"></a>Pages et feuilles de propriétés
 
-Les propriétés d’un objet sont exposées aux clients de la même façon que les méthodes via les interfaces COM ou l’implémentation **IDispatch** de l’objet, ce qui permet aux programmes qui appellent ces méthodes de modifier les propriétés. La technologie OLE des pages de propriétés fournit les moyens de créer une interface utilisateur pour les propriétés d’un objet en fonction des normes de l’interface utilisateur Windows. Ainsi, les propriétés sont exposées aux utilisateurs finaux. La feuille de propriétés d’un objet est une boîte de dialogue à onglets dans laquelle chaque onglet correspond à une page de propriétés spécifique. Le modèle OLE pour l’utilisation des pages de propriétés est constitué des fonctionnalités suivantes :
+Les propriétés d’un objet sont exposées aux clients de la même façon que les méthodes via les interfaces COM ou l’implémentation **IDispatch** de l’objet, ce qui permet aux programmes qui appellent ces méthodes de modifier les propriétés. la technologie OLE des pages de propriétés fournit les moyens de créer une interface utilisateur pour les propriétés d’un objet en fonction de Windows normes de l’interface utilisateur. Ainsi, les propriétés sont exposées aux utilisateurs finaux. La feuille de propriétés d’un objet est une boîte de dialogue à onglets dans laquelle chaque onglet correspond à une page de propriétés spécifique. Le modèle OLE pour l’utilisation des pages de propriétés est constitué des fonctionnalités suivantes :
 
 -   Chaque page de propriétés est gérée par un objet in-process qui implémente [**IPropertyPage**](/windows/desktop/api/OCIdl/nn-ocidl-ipropertypage) ou [**IPropertyPage2**](/windows/desktop/api/OCIdl/nn-ocidl-ipropertypage2). Chaque page est identifiée avec son propre CLSID unique.
 -   Un objet spécifie sa prise en charge pour les pages de propriétés en implémentant [**ISpecifyPropertyPages**](/windows/desktop/api/OCIdl/nn-ocidl-ispecifypropertypages). Via cette interface, l’appelant peut obtenir une liste de CLSID identifiant les pages de propriétés spécifiques que l’objet prend en charge. Si l’objet spécifie un CLSID de page de propriétés, l’objet doit être en mesure de recevoir des modifications de propriété à partir de la page de propriétés.

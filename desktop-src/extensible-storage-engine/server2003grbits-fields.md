@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.serv
 ms:contentKeyID: 55104210
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ed7a99118674d955fc6a882ac08407e45837af77
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77db94da9f3a5dbec982b31c0ea3d673ffb6228a58f81adf644ff498a2cf4f84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104560167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118071671"
 ---
 # <a name="server2003grbits-fields"></a>Champs Server2003Grbits
 

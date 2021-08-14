@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: adb1cc8ca08dc3139b3e5b85db81d35ae3b7100c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3627b22e21c25bee231b66de27bf2f7f6532b25cd59bcd508d7b19eaf3660ab5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118419439"
 ---
 # <a name="delete-method-of-the-cim_datafile-class"></a>Méthode Delete de la \_ classe de fichier de fichier CIM
 
@@ -54,7 +54,7 @@ Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indi
 **0**
 </dt> <dd>
 
-Opération réussie.
+Réussite.
 
 </dd> <dt>
 
@@ -142,7 +142,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **Delete** dans le [**fichier de \_ fichier CIM**](cim-datafile.md) est implémentée par WMI.
 

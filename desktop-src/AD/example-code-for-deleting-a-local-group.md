@@ -1,22 +1,22 @@
 ---
 title: Exemple de code pour la suppression d’un groupe local
-description: Exemples de code pour supprimer un groupe local sur un serveur membre ou sur un ordinateur exécutant Windows NT Workstation ou Windows 2000 professionnel.
+description: exemples de Code pour supprimer un groupe local sur un serveur membre ou un ordinateur exécutant Windows NT Workstation ou Windows 2000 Professional.
 ms.assetid: ff4fd148-2fa2-4355-bfaa-1f093d61aa00
 ms.tgt_platform: multiple
 keywords:
 - Active Directory exemples Active Directory, suppression d’un groupe local
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b91588bf59ae7b276aecbaa1740b2510f652f5c8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c02f58958888f7540559cdf196f8f44f54c6c3d2ddd8039b05f82688be2e7f9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190762"
 ---
 # <a name="example-code-for-deleting-a-local-group"></a>Exemple de code pour la suppression d’un groupe local
 
-L’exemple de code C++ suivant supprime un groupe local sur un serveur membre ou un ordinateur exécutant Windows 2000 Professionnel ou Windows NT Workstation.
+l’exemple de code C++ suivant supprime un groupe local sur un serveur membre ou un ordinateur exécutant Windows 2000 Professional ou Windows NT Workstation.
 
 
 ```C++
@@ -145,7 +145,7 @@ HRESULT DeleteADObject(LPOLESTR pwszAdsPath,
 
 
 
-L’exemple de code Visual Basic Scripting Edition suivant supprime un groupe local sur un serveur membre ou sur un ordinateur exécutant Windows 2000 Professionnel ou Windows NT Workstation.
+l’exemple de code Visual Basic scripting Edition suivant supprime un groupe local sur un serveur membre ou un ordinateur exécutant Windows 2000 Professional ou Windows NT Workstation.
 
 
 ```VB
@@ -210,9 +210,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

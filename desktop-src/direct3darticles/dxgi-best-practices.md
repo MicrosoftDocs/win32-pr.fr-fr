@@ -4,16 +4,16 @@ description: Cet article aborde les principaux problèmes de Portage.
 ms.assetid: 2df92ffe-1bfc-d682-2770-20cf0c831c9b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f576368674d05af74e3161d4251301ebc066a489
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: be992fe2346868eb3481482325297a2c9ec27ee61bdd2c65f83b0f916fc22308
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118290236"
 ---
 # <a name="directx-graphics-infrastructure-dxgi-best-practices"></a>DirectX Graphics infrastructure (DXGI) : meilleures pratiques
 
-Microsoft DirectX Graphics infrastructure (DXGI) est un nouveau sous-système qui a été introduit avec Windows Vista, qui encapsule certaines des tâches de bas niveau requises par Direct3D 10, 10,1, 11 et 11,1. Du point de vue d’un programmeur Direct3D 9, DXGI englobe la majeure partie du code pour l’énumération, la création de chaîne d’échange et la présentation précédemment compressées dans les API Direct3D 9. Lorsque vous portez une application sur DXGI et Direct3D 10. x et Direct3D 11. x, vous devez prendre en compte certaines considérations pour vous assurer que le processus s’exécute correctement.
+Microsoft DirectX graphics Infrastructure (DXGI) est un nouveau sous-système qui a été introduit avec Windows Vista, qui encapsule certaines des tâches de bas niveau requises par Direct3D 10, 10,1, 11 et 11,1. Du point de vue d’un programmeur Direct3D 9, DXGI englobe la majeure partie du code pour l’énumération, la création de chaîne d’échange et la présentation précédemment compressées dans les API Direct3D 9. Lorsque vous portez une application sur DXGI et Direct3D 10. x et Direct3D 11. x, vous devez prendre en compte certaines considérations pour vous assurer que le processus s’exécute correctement.
 
 Cet article aborde les principaux problèmes de Portage.
 
@@ -75,13 +75,13 @@ Pour plus d’informations sur l’utilisation de la correction gamma, consultez
 
 ## <a name="dxgi-11"></a>DXGI 1,1
 
-Le runtime Direct3D 11 inclus dans Windows 7 et installé sur Windows Vista (voir [KB971644](https://support.microsoft.com/kb/971644)) inclut la version 1,1 de DXGI. Cette mise à jour ajoute des définitions pour un certain nombre de nouveaux formats (notamment BGRA, le biais de 10 bits x2 et la compression de texture BC6H et BC7 de Direct3D 11), ainsi qu’une nouvelle version de la fabrique DXGI et des interfaces d’adaptateur ([**CreateDXGIFactory1**](/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1), [**IDXGIFactory1**](/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1), [**IDXGIAdapter1**](/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1)) pour l’énumération des connexions Bureau à distance.
+le runtime Direct3D 11 inclus dans Windows 7 et installé sur Windows Vista (voir [KB971644](https://support.microsoft.com/kb/971644)) inclut la version 1,1 de DXGI. Cette mise à jour ajoute des définitions pour un certain nombre de nouveaux formats (notamment BGRA, le biais de 10 bits x2 et la compression de texture BC6H et BC7 de Direct3D 11), ainsi qu’une nouvelle version de la fabrique DXGI et des interfaces d’adaptateur ([**CreateDXGIFactory1**](/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1), [**IDXGIFactory1**](/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1), [**IDXGIAdapter1**](/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1)) pour l’énumération des connexions Bureau à distance.
 
 Lorsque vous utilisez Direct3D 11, le runtime utilise DXGI 1,1 par défaut lors de l’appel de [**D3D11CreateDevice**](/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) ou [**D3D11CreateDeviceAndSwapChain**](/windows/desktop/api/d3d11/nf-d3d11-d3d11createdeviceandswapchain) avec un pointeur [**IDXGIAdapter**](/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter) null. Le mélange de l’utilisation de DXGI 1,0 et de DXGI 1,1 dans le même processus n’est pas pris en charge. La combinaison d’instances d’objet DXGI de différentes fabriques dans le même processus n’est pas prise en charge. Par conséquent, lorsque vous utilisez DirectX 11, toute utilisation explicite des interfaces DXGI utilise un [**IDXGIFactory1**](/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1) créé par le point d’entrée [**CreateDXGIFactory1**](/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1) dans « DXGI.DLL » pour s’assurer que l’application utilise toujours DXGI 1,1.
 
 ## <a name="dxgi-12"></a>DXGI 1,2
 
-Le runtime Direct3D 11,1 inclus dans Windows 8 inclut également la version 1,2 de DXGI.
+le runtime Direct3D 11,1 inclus dans Windows 8 inclut également la version 1,2 de DXGI.
 
 DXGI 1,2 active les fonctionnalités suivantes :
 
@@ -96,6 +96,6 @@ DXGI 1,2 active les fonctionnalités suivantes :
 
 Pour plus d’informations sur les fonctionnalités de DXGI 1,2, consultez [améliorations apportées à DXGI 1,2](/windows/desktop/direct3ddxgi/dxgi-1-2-improvements).
 
- 
+ 
 
- 
+ 

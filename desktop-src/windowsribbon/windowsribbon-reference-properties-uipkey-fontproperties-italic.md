@@ -4,12 +4,12 @@ description: Identifie la \_ \_ propriété FontProperties italique de l’inter
 ms.assetid: 53edd88e-ed7e-4385-9fd9-bfa90be348cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d0dfa07b5112e91d8c25a4ff8c4f31175adf9b7
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 000bb72e1ba43b29f5e3815fe42d0ace454ff0219a188a128b422e4a621af210
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118438534"
 ---
 # <a name="ui_pkey_fontproperties_italic"></a>IU \_ \_ FontProperties \_ italique
 
@@ -37,7 +37,7 @@ Le tableau suivant décrit les propriétés et le résultat de l’interface uti
 
 
 
-|    Propriété                      |       Résultat de l’interface utilisateur                                                       |
+|    Property                      |       Résultat de l’interface utilisateur                                                       |
 |----------------------------------|-----------------------------------------------------------------------|
 | `UI_FONTPROPERTIES_NOTAVAILABLE` | Le bouton **italique** est désactivé et ne peut être défini que par l’application. |
 | `UI_FONTPROPERTIES_NOTSET`       | Le bouton **italique** n’est pas sélectionné.                                    |

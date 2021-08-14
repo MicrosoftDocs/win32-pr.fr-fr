@@ -7,12 +7,12 @@ keywords:
 - Instructions pour la sélection d’un compte d’ouverture de session de service AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5bb8f5b4fe6a57863c09c9563454fc3ec09e75c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a976927130a3585be2e6130dbb71b37fa0c69660b6ae953e28909fad3db570f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188673"
 ---
 # <a name="guidelines-for-selecting-a-service-logon-account"></a>Instructions pour la sélection d’un compte d’ouverture de session de service
 
@@ -26,9 +26,9 @@ Pour plus d’informations sur les descriptions, les avantages et les inconvéni
 -   [Comptes d’utilisateur de domaine](domain-user-accounts.md).
 -   [Compte LocalSystem](the-localsystem-account.md).
 
- 
+ 
 
- 
+ 
 
 
 

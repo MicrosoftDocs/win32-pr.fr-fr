@@ -4,12 +4,12 @@ ms.assetid: a206fe22-12c8-ac2b-ee37-20cfff35841a
 title: Constantes de la bibliothèque DirectXMath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4809c72fbd5cec27b549be29ebced81839c89723
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb63bc687dd6bf3cc1dcc5e1801b500761480c7b8443b7a786a05211b9fb729d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500386"
 ---
 # <a name="directxmath-library-constants"></a>Constantes de la bibliothèque DirectXMath
 
@@ -31,7 +31,7 @@ Les constantes suivantes sont fournies par la bibliothèque DirectXMath.
 <tbody>
 <tr class="odd">
 <td>DIRECTXMATH_VERSION<br/></td>
-<td>Version de la bibliothèque DirectXMath. La version préliminaire initiale était 300, la version finale de Windows 8 est 303, la version de Windows 8.1 est 305. Les versions de XNA Math étaient 200, 201, 202, 203, 204, et ainsi de suite. Cela est défini comme un symbole de préprocesseur.<br/></td>
+<td>Version de la bibliothèque DirectXMath. la version préliminaire initiale était 300, la Windows 8 version finale est 303, la version Windows 8.1 est 305. Les versions de XNA Math étaient 200, 201, 202, 203, 204, et ainsi de suite. Cela est défini comme un symbole de préprocesseur.<br/></td>
 </tr>
 <tr class="even">
 <td>XM_PI<br/></td>

@@ -8,12 +8,12 @@ keywords:
 - Objet COM page de propriétés, implémentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55962002ca059ad6e9c137925d1ba21ba9adc513
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2504c27bcf4703bb49a3e8620c287c30ae9017ab6e65345d003f2acb6c9b544e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187610"
 ---
 # <a name="implementing-the-property-page-com-object"></a>Implémentation de l’objet COM de la page de propriétés
 
@@ -25,7 +25,7 @@ Une extension de feuille de propriétés est un objet COM implémenté en tant q
 -   [Utilisation de l’objet de notification](#working-with-the-notification-object)
 -   [Divers](#miscellaneous)
 -   [Feuilles de propriétés à sélection multiple](#multiple-selection-property-sheets)
--   [Nouveauté de Windows Server 2003](#new-with-windows-server-2003)
+-   [nouveauté de Windows Server 2003](#new-with-windows-server-2003)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="implementing-ishellextinit"></a>Implémentation de IShellExtInit
@@ -129,7 +129,7 @@ L’extension de la feuille de propriétés peut obtenir des données en plus de
 > [!Note]  
 > Contrairement à la plupart des méthodes et des fonctions COM, [**ADsPropGetInitInfo**](/windows/desktop/api/Adsprop/nf-adsprop-adspropgetinitinfo) n’incrémente pas le nombre de références pour l’objet [**IDirectoryObject**](/windows/desktop/api/iads/nn-iads-idirectoryobject) . Le **IDirectoryObject** ne doit pas être libéré, sauf si le nombre de références est incrémenté manuellement en premier.
 
- 
+ 
 
 Lorsque la page de propriétés est créée pour la première fois, l’extension doit inscrire la page avec l’objet de notification en appelant [**ADsPropSetHwnd**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwnd) avec le handle de fenêtre de la page.
 
@@ -143,7 +143,7 @@ Lorsque le contenu de la page d’extension change, l’extension doit utiliser 
 
 ## <a name="multiple-selection-property-sheets"></a>Multiple-Selection les feuilles de propriétés
 
-Avec les systèmes d’exploitation Windows Server 2003 et versions ultérieures, le Active Directory composants logiciels enfichables MMC d’administration prennent en charge les extensions de feuille de propriétés pour plusieurs objets d’annuaire. Ces feuilles de propriétés s’affichent lorsque les propriétés sont affichées pour plusieurs éléments à la fois. La principale différence entre une extension de feuille de propriétés à sélection unique et une extension de feuille de propriétés à sélection multiple est que la structure [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames) fournie par le format de presse-papiers [**CFSTR \_ DSOBJECTNAMES**](/previous-versions/windows/desktop/mmc/cfstr-dsobjectnames-clipboard-format) dans [**IShellExtInit :: Initialize**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) contient plus d’une structure [**DSOBJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) .
+avec les systèmes d’exploitation Windows Server 2003 et versions ultérieures, les composants logiciels enfichables de la console MMC Active Directory prennent en charge les extensions de feuille de propriétés pour plusieurs objets d’annuaire. Ces feuilles de propriétés s’affichent lorsque les propriétés sont affichées pour plusieurs éléments à la fois. La principale différence entre une extension de feuille de propriétés à sélection unique et une extension de feuille de propriétés à sélection multiple est que la structure [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames) fournie par le format de presse-papiers [**CFSTR \_ DSOBJECTNAMES**](/previous-versions/windows/desktop/mmc/cfstr-dsobjectnames-clipboard-format) dans [**IShellExtInit :: Initialize**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) contient plus d’une structure [**DSOBJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) .
 
 Lorsque l’objet de notification est créé, une extension de feuille de propriétés à sélection multiple doit passer un nom unique fourni par le composant logiciel enfichable au lieu d’un nom créé par l’extension. Pour obtenir le nom unique, demandez le format du presse-papiers [**CFSTR \_ DS \_ MULTISELECTPROPPAGE**](cfstr-ds-multiselectproppage.md) à partir de l' [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) obtenu auprès de [**IShellExtInit :: Initialize**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize). Ces données sont un **HGLOBAL** qui contient une chaîne Unicode terminée par le caractère null qui est le nom unique. Ce nom unique est ensuite transmis à la fonction [**ADsPropCreateNotifyObj**](/windows/desktop/api/Adsprop/nf-adsprop-adspropcreatenotifyobj) pour créer l’objet de notification. La fonction exemple **CreateADsNotificationObject** dans l' [exemple de code pour l’implémentation de l’objet com de la feuille de propriétés](example-code-for-implementation-of-the-property-sheet-com-object.md) montre comment effectuer cette opération correctement, ainsi que la compatibilité avec les versions antérieures du composant logiciel enfichable qui ne prennent pas en charge les feuilles de propriétés à sélection multiple.
 
@@ -151,13 +151,13 @@ Pour les feuilles de propriétés à sélection multiple, le système se lie uni
 
 Une extension de feuille de propriétés à sélection multiple est inscrite sous l’attribut [**adminMultiselectPropertyPages**](/windows/desktop/ADSchema/a-adminmultiselectpropertypages) .
 
-## <a name="new-with-windows-server-2003"></a>Nouveauté de Windows Server 2003
+## <a name="new-with-windows-server-2003"></a>nouveauté de Windows Server 2003
 
-Les fonctionnalités suivantes sont nouvelles dans Windows Server 2003.
+les fonctionnalités suivantes sont nouvelles dans Windows Server 2003.
 
 Si la page de propriétés rencontre une erreur, [**ADsPropSendErrorMessage**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsenderrormessage) peut être appelée avec les données d’erreur appropriées. **ADsPropSendErrorMessage** stocke tous les messages d’erreur dans une file d’attente. Ces messages seront affichés lors de l’appel suivant de [**ADsPropShowErrorDialog**](/windows/desktop/api/Adsprop/nf-adsprop-adspropshowerrordialog) . Quand **ADsPropShowErrorDialog** retourne, les messages mis en file d’attente sont supprimés.
 
-Windows Server 2003 introduit la fonction [**ADsPropSetHwndWithTitle**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwndwithtitle) . Cette fonction est similaire à [**ADsPropSetHwnd**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwnd), mais elle comprend le titre de la page. Cela active la boîte de dialogue d’erreur affichée par [**ADsPropShowErrorDialog**](/windows/desktop/api/Adsprop/nf-adsprop-adspropshowerrordialog) pour fournir des données plus utiles à l’utilisateur. Si l’extension de la feuille de propriétés utilise la fonction **ADsPropShowErrorDialog** , l’extension doit utiliser **ADsPropSetHwndWithTitle** au lieu de **ADsPropSetHwnd**.
+Windows Le serveur 2003 introduit la fonction [**ADsPropSetHwndWithTitle**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwndwithtitle) . Cette fonction est similaire à [**ADsPropSetHwnd**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwnd), mais elle comprend le titre de la page. Cela active la boîte de dialogue d’erreur affichée par [**ADsPropShowErrorDialog**](/windows/desktop/api/Adsprop/nf-adsprop-adspropshowerrordialog) pour fournir des données plus utiles à l’utilisateur. Si l’extension de la feuille de propriétés utilise la fonction **ADsPropShowErrorDialog** , l’extension doit utiliser **ADsPropSetHwndWithTitle** au lieu de **ADsPropSetHwnd**.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -166,6 +166,6 @@ Windows Server 2003 introduit la fonction [**ADsPropSetHwndWithTitle**](/windows
 [Exemple de code pour l’implémentation de l’objet COM de la feuille de propriétés](example-code-for-implementation-of-the-property-sheet-com-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

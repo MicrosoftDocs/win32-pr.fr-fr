@@ -13,19 +13,19 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9dff711830ccdb805c362961671dff28f5bf0b73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 767ea873b725523e3d430708dc5485d3d24c62e07e5cebac001b020ee996bd63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118392913"
 ---
 # <a name="getreplicationstatistics-method-of-the-msvm_replicationservice-class"></a>Méthode GetReplicationStatistics de la \_ classe ReplicationService MSVM
 
 Récupère les statistiques de réplication d’un ordinateur virtuel et agit sur la relation de réplication principale de la machine virtuelle.
 
 > [!Note]  
-> À partir de Windows 8.1, nous vous recommandons de ne pas utiliser **GetReplicationStatistics** pour récupérer les statistiques de réplication. Utilisez plutôt [**GetReplicationStatisticsEx**](getreplicationstatisticsex-msvm-replicationservice.md).
+> à partir de Windows 8.1, nous vous recommandons de ne pas utiliser **GetReplicationStatistics** pour récupérer les statistiques de réplication. Utilisez plutôt [**GetReplicationStatisticsEx**](getreplicationstatisticsex-msvm-replicationservice.md).
 
  
 
@@ -129,8 +129,8 @@ Le **système n’est pas disponible** (32777)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

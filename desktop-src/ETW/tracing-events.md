@@ -4,24 +4,24 @@ ms.assetid: 21f62b5d-0a2d-468c-af88-2fab1512f0ec
 title: Écriture d’événements MOF (Classic)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29d081c48567851d2fb570dd7bfa5c75e687b524
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: c29b5d753c40bb2fca5313340638a63d2a5e55c5eaf6dcef14e8388906cb190a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112261841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393658"
 ---
 # <a name="writing-mof-classic-events"></a>Écriture d’événements MOF (Classic)
 
 Avant de pouvoir écrire des événements dans une session de trace, vous devez inscrire votre fournisseur. L’inscription d’un fournisseur indique à ETW que votre fournisseur est prêt à écrire des événements dans une session de suivi. Un processus peut inscrire jusqu’à 1 024 GUID de fournisseur ; Toutefois, vous devez limiter le nombre de fournisseurs que votre processus inscrit à un ou deux.
 
-**Avant Windows Vista :** Il n’existe aucune limite au nombre de fournisseurs qu’un processus peut inscrire.
+**avant Windows Vista :** Il n’existe aucune limite au nombre de fournisseurs qu’un processus peut inscrire.
 
 Pour inscrire un fournisseur classique, appelez la fonction [**RegisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) . La fonction enregistre le GUID du fournisseur, les GUID de classe de trace d’événements et identifie le rappel que ETW appelle lorsqu’un contrôleur active ou désactive le fournisseur.
 
 Si le fournisseur appelle la fonction [**TraceEvent**](/windows/win32/api/evntrace/nf-evntrace-traceevent) pour consigner les événements, vous n’avez pas besoin d’inclure le tableau de GUID de classe (peut être **null**) lors de l’appel de la fonction [**RegisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) . Vous devez inclure le tableau uniquement si le fournisseur appelle la fonction [**TraceEventInstance**](/windows/win32/api/evntrace/nf-evntrace-traceeventinstance) pour enregistrer les événements.
 
-**Windows XP et windows 2000 :** Vous devez toujours inclure le tableau de GUID de classe (ne peut pas être **null**).
+**Windows XP et Windows 2000 :** Vous devez toujours inclure le tableau de GUID de classe (ne peut pas être **null**).
 
 Une fois qu’un fournisseur s’est inscrit lui-même et qu’il est activé par le contrôleur, le fournisseur peut consigner des événements dans la session de trace du contrôleur.
 
@@ -44,7 +44,7 @@ L’en-tête doit contenir les informations suivantes :
 -   Le membre de **taille** doit contenir le nombre total d’octets à enregistrer pour l’événement (y compris la taille de la structure d' [**\_ \_ en-tête de suivi d’événement**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) et toutes les données spécifiques à l’événement qui sont ajoutées à l’en-tête).
 -   Le membre **GUID** doit contenir le GUID de classe de l’événement (ou le membre **GuidPtr** doit contenir un pointeur vers le GUID de la classe).
 
-    **Windows XP et windows 2000 :** Le GUID de la classe doit avoir été inscrit précédemment à l’aide de la fonction [**RegisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) .
+    **Windows XP et Windows 2000 :** Le GUID de la classe doit avoir été inscrit précédemment à l’aide de la fonction [**RegisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) .
 
 -   Le membre **Flags** doit contenir l’indicateur **\_ \_ \_ GUID suivi de l’indicateur WNODE** . Si vous spécifiez le GUID de classe à l’aide du membre **GuidPtr** , ajoutez également l’indicateur **\_ ptr WNODE Flag \_ use \_ GUID \_** .
 -   Le membre **Class. type** doit contenir le type d’événement, si vous utilisez MOF pour publier la disposition de vos données d’événement.

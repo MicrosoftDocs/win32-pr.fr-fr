@@ -7,16 +7,16 @@ keywords:
 - Active Directory exemples Active Directory, ajout d’un membre à un groupe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a64a41fac871c6793ee4d0db1f4be79c9fbd0d1
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: f5cccccca0fa701b4f5bc1ce9b350ac1073c6da7614c7292724138b2d433ef2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103941472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191292"
 ---
 # <a name="example-code-for-adding-a-member-to-a-group"></a>Exemple de code pour l’ajout d’un membre à un groupe
 
-Cette rubrique contient des exemples de code qui ajoutent un membre à un groupe. Les exemples Visual Basic Scripting Edition (VBScript) et C++ ajoutent un membre en ajoutant l’objet [**IADs**](/windows/desktop/api/iads/nn-iads-iads) qui représente le membre à l’objet [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup) qui représente le groupe. Les exemples Visual Basic .NET et C# modifient la propriété de membre de l’objet [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) qui représente le groupe.
+Cette rubrique contient des exemples de code qui ajoutent un membre à un groupe. les exemples VBScript (Visual Basic scripting Edition) et C++ ajoutent un membre en ajoutant l’objet [**IADs**](/windows/desktop/api/iads/nn-iads-iads) qui représente le membre à l’objet [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup) qui représente le groupe. les exemples Visual Basic .net et C# modifient la propriété de membre de l’objet [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) qui représente le groupe.
 
 
 Les exemples de code C# suivants ajoutent un membre existant à un groupe. La fonction prend l’ADsPath du conteneur du groupe et le nom unique du membre à ajouter au groupe. L’ADsPath est utilisé pour créer un objet [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) qui représente le groupe. La méthode [PropertyValueCollection. Add](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_) ajoute au groupe le membre dont le nom unique a été passé à la fonction. La fonction utilise ensuite la méthode [DirectoryEntry. CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) pour écrire les nouvelles informations de membre dans la base de données.
@@ -66,7 +66,7 @@ private void AddMemberToGroup(
 
 
 
-Les exemples de code Visual Basic .NET suivants ajoutent un membre existant à un groupe. La fonction prend l’ADsPath du conteneur du groupe et le nom unique du membre à ajouter au groupe. L’ADsPath est utilisé pour créer un objet [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) qui représente le groupe. La méthode [PropertyValueCollection. Add](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_) ajoute au groupe le membre dont le nom unique a été passé à la fonction. La fonction utilise ensuite la méthode [DirectoryEntry. CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) pour écrire les nouvelles informations de membre dans la base de données.
+les exemples de code Visual Basic .net suivants ajoutent un membre existant à un groupe. La fonction prend l’ADsPath du conteneur du groupe et le nom unique du membre à ajouter au groupe. L’ADsPath est utilisé pour créer un objet [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) qui représente le groupe. La méthode [PropertyValueCollection. Add](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_) ajoute au groupe le membre dont le nom unique a été passé à la fonction. La fonction utilise ensuite la méthode [DirectoryEntry. CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) pour écrire les nouvelles informations de membre dans la base de données.
 
 Appelez la fonction avec les paramètres suivants :
 

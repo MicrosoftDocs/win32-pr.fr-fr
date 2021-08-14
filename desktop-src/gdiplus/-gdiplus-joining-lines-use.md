@@ -4,16 +4,16 @@ ms.assetid: 4ec3e76a-2531-4869-a5b0-c595198e8345
 title: Joindre des lignes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b2ab0bc53239b9a0d9327a26e25eed1c93c685b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2aa93eac405bd77f6d87b2a8b86edc8a4043a57de3e4c4d5f31fb45acecc955
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118066973"
 ---
 # <a name="joining-lines"></a>Joindre des lignes
 
-Une jointure de ligne est la zone commune qui est formée par deux lignes dont les extrémités se rencontrent ou se chevauchent. Windows GDI+ fournit quatre styles de jointure de ligne : Mitre, biseau, arrondi et mitre. Le style de jonction de ligne est une propriété de la classe [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) . Lorsque vous spécifiez un style de jonction de ligne pour un stylet, puis utilisez ce stylet pour dessiner un tracé, le style de jointure spécifié est appliqué à toutes les lignes connectées dans le tracé.
+Une jointure de ligne est la zone commune qui est formée par deux lignes dont les extrémités se rencontrent ou se chevauchent. Windows GDI+ fournit quatre styles de jointure de ligne : mitre, biseau, arrondi et mitre. Le style de jonction de ligne est une propriété de la classe [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) . Lorsque vous spécifiez un style de jonction de ligne pour un stylet, puis utilisez ce stylet pour dessiner un tracé, le style de jointure spécifié est appliqué à toutes les lignes connectées dans le tracé.
 
 Vous pouvez spécifier le style de jonction de ligne à l’aide de la méthode [**Pen :: SetLineJoin**](/windows/desktop/api/Gdipluspen/nf-gdipluspen-pen-setlinejoin) de la classe [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) . L’exemple suivant illustre une jointure de ligne biseautée entre une ligne horizontale et une ligne verticale :
 

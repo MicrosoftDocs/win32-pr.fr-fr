@@ -4,12 +4,12 @@ ms.assetid: f969be42-d541-4e8d-aec4-eb9508bcc7cf
 title: Profilage précis des appels d’API Direct3D (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdb6d60fcc1b3ace4112dbf7028d91e2c9c8b345
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6457e47da58a3614270f89eefa1cfa33fbf30cf26544c1013d010696a68e4602
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118097467"
 ---
 # <a name="accurately-profiling-direct3d-api-calls-direct3d-9"></a>Profilage précis des appels d’API Direct3D (Direct3D 9)
 
@@ -139,9 +139,9 @@ Pour commencer, vous devez être en mesure de mesurer avec précision la durée 
 
 ### <a name="pick-an-accurate-measurement-tool-like-queryperformancecounter"></a>Choisissez un outil de mesure précis comme QueryPerformanceCounter
 
-Le système d’exploitation Microsoft Windows comprend un minuteur haute résolution qui peut être utilisé pour mesurer les temps écoulés à haute résolution. La valeur actuelle d’une telle minuterie peut être retournée à l’aide de [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter). Après l’appel de **QueryPerformanceCounter** pour retourner les valeurs de début et de fin, la différence entre les deux valeurs peut être convertie en temps réel écoulé (en secondes) à l’aide de **QueryPerformanceCounter**.
+le système d’exploitation Microsoft Windows comprend un minuteur haute résolution qui peut être utilisé pour mesurer les temps écoulés à haute résolution. La valeur actuelle d’une telle minuterie peut être retournée à l’aide de [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter). Après l’appel de **QueryPerformanceCounter** pour retourner les valeurs de début et de fin, la différence entre les deux valeurs peut être convertie en temps réel écoulé (en secondes) à l’aide de **QueryPerformanceCounter**.
 
-Les avantages de l’utilisation de [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) sont qu’elle est disponible dans Windows et qu’elle est facile à utiliser. Entourez simplement les appels avec un appel **QueryPerformanceCounter** et enregistrez les valeurs de début et de fin. Par conséquent, ce document explique comment utiliser **QueryPerformanceCounter** pour profiler les durées d’exécution, de la même manière qu’un profileur d’instrumentation le mesure. Voici un exemple qui montre comment incorporer **QueryPerformanceCounter** dans votre code source :
+les avantages de l’utilisation de [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) sont qu’elle est disponible dans Windows et qu’elle est facile à utiliser. Entourez simplement les appels avec un appel **QueryPerformanceCounter** et enregistrez les valeurs de début et de fin. Par conséquent, ce document explique comment utiliser **QueryPerformanceCounter** pour profiler les durées d’exécution, de la même manière qu’un profileur d’instrumentation le mesure. Voici un exemple qui montre comment incorporer **QueryPerformanceCounter** dans votre code source :
 
 
 ```
@@ -230,7 +230,7 @@ Lorsqu’une application effectue un appel d’API, le Runtime convertit l’app
 
 ![diagramme des composants de l’UC, y compris une mémoire tampon de commande](images/microbenchmarkcommandbuffer2.png)
 
-Chaque fois que l’application effectue un autre appel d’API, le runtime répète cette séquence et ajoute une autre commande à la mémoire tampon de commande. À un moment donné, le runtime vide la mémoire tampon (en envoyant les commandes au pilote). Dans Windows XP, le vidage du tampon de commande entraîne une transition du mode à mesure que le système d’exploitation bascule du Runtime (exécuté en mode utilisateur) au pilote (exécuté en mode noyau), comme indiqué dans le diagramme suivant.
+Chaque fois que l’application effectue un autre appel d’API, le runtime répète cette séquence et ajoute une autre commande à la mémoire tampon de commande. À un moment donné, le runtime vide la mémoire tampon (en envoyant les commandes au pilote). dans Windows XP, le vidage du tampon de commande entraîne une transition du mode à mesure que le système d’exploitation bascule du runtime (exécuté en mode utilisateur) au pilote (exécuté en mode noyau), comme indiqué dans le diagramme suivant.
 
 -   mode utilisateur : mode de processeur non privilégié qui exécute le code de l’application. Les applications en mode utilisateur ne peuvent pas accéder aux données système, sauf par le biais des services système.
 -   mode noyau : mode processeur privilégié dans lequel s’exécute le code exécutif Windows. Un pilote ou un thread s’exécutant en mode noyau a accès à toute la mémoire système, à l’accès direct au matériel et aux instructions de l’UC pour effectuer des e/s avec le matériel.
@@ -878,7 +878,7 @@ Vous savez maintenant comment mesurer les changements d’État. Commencez par P
 
 Avec cette fonctionnalité, vous pouvez commencer à générer des séquences de rendu arbitraires et mesurer précisément le travail du runtime et du pilote associé. Les numéros peuvent ensuite être utilisés pour répondre à des questions de budgétisation, telles que le « nombre de ces appels », peuvent être effectuées dans la séquence de rendu tout en maintenant une fréquence d’images raisonnable, en supposant des scénarios limités par le processeur.
 
-## <a name="summary"></a>Résumé
+## <a name="summary"></a>Récapitulatif
 
 Cet article montre comment contrôler le tampon de commande afin que les appels individuels puissent être profilés avec précision. Les nombres de profilage peuvent être générés en graduations, en cycles ou en temps absolu. Ils représentent la quantité de travail d’exécution et de pilote associée à chaque appel d’API.
 
