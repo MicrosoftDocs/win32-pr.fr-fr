@@ -7,12 +7,12 @@ keywords:
 - identificateurs d’objets AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2253a6173e06f5d7b0c136a520db3e1e5a5e798e
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: af458a003c5a5a8586c32449674019fb6b241d52c4300e107898d91c75047214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "106510661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185510"
 ---
 # <a name="object-identifiers-ad-ds"></a>Identificateurs d’objets (AD DS)
 
@@ -28,7 +28,7 @@ Dans Active Directory Domain Services, les OID incluent certains émis par le fi
 |--------|------------------|----------------------------------------------------------|
 | 1      | ISO              | Identifie l’autorité racine.                           |
 | 2      | ANSI             | Désignation de groupe affectée par ISO.                       |
-| 840    | États-Unis              | Désignation de pays/région affectée par le groupe.        |
+| 840    | USA              | Désignation de pays/région affectée par le groupe.        |
 | 113556 | Microsoft        | Désignation de l’organisation attribuée par le pays ou la région. |
 | 1      | Active Directory | Attribué par l’organisation.                            |
 | 5      | Classes          | Attribué par l’organisation.                            |
@@ -36,13 +36,13 @@ Dans Active Directory Domain Services, les OID incluent certains émis par le fi
 
 
 
- 
+ 
 
 Pour plus d’informations et pour connaître les deux procédures utilisées pour obtenir des OID valides à utiliser pour étendre le schéma Active Directory, consultez [obtention d’un identificateur d’objet](obtaining-an-object-identifier.md).
 
- 
+ 
 
- 
+ 
 
 
 

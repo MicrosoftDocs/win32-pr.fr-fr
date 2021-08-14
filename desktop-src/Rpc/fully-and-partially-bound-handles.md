@@ -4,12 +4,12 @@ description: Lorsque vous utilisez des points de terminaison dynamiques, les bib
 ms.assetid: 13f2f783-2c10-4122-ba4d-a97b9c0378c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bc1f434ec53ebcfd992b0090ed9066dce2ec627
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f711955cedfba4359b910271f3ec5d77f4b383017eed8144e5201bb2d11cd3e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929647"
 ---
 # <a name="fully-and-partially-bound-handles"></a>Handles entièrement et partiellement liés
 
@@ -24,9 +24,9 @@ Si le client essaie d’utiliser un handle partiellement lié lorsque les inform
 
 En cas d’échec d’un appel de procédure distante, l’application cliente peut appeler [**RpcBindingReset**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingreset) pour supprimer les informations de point de terminaison obsolètes. Lorsque le client essaie d’appeler la procédure distante, la bibliothèque Runtime cliente tente à nouveau de convertir le handle entièrement lié en handle partiellement lié. Cela est utile lorsque le serveur a été arrêté et redémarré à l’aide d’un point de terminaison dynamique différent.
 
- 
+ 
 
- 
+ 
 
 
 

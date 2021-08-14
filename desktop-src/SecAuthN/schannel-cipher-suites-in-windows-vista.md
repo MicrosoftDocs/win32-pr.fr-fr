@@ -4,12 +4,12 @@ ms.assetid: 380452e2-a9c8-4380-a3bf-9c7942a0c0c2
 title: Suites de chiffrement TLS dans Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80cf270f0608666b7d766e3f063f24ea39204fd1
-ms.sourcegitcommit: b022a50bc0d11975dad6337b8f399c47234dffcf
+ms.openlocfilehash: dbf77d821612093e3015a0f8dee4cf51ae5bd9b95c653b61fe7a36271ba81ba5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "106538417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918652"
 ---
 # <a name="tls-cipher-suites-in-windows-vista"></a>Suites de chiffrement TLS dans Windows Vista
 
@@ -84,8 +84,8 @@ Les suites de chiffrement suivantes sont prises en charge par Schannel. Toutefoi
 
 | Rubrique                                                                         | Description                                                                                                                        |
 |-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| [Suites de chiffrement TLS](tls-cipher-suites.md)<br/>                         | Informations sur les suites de chiffrement disponibles avec le protocole TLS dans Windows Server 2003 et Windows XP.<br/>              |
-| [Protocole SSL (Secure Sockets Layer)](secure-sockets-layer-protocol.md)<br/> | Informations générales sur les protocoles SSL 2,0 et 3,0, y compris les suites de chiffrement disponibles dans Windows Server 2003 et Windows XP.<br/> |
+| [Suites de chiffrement TLS](tls-cipher-suites.md)<br/>                         | informations sur les suites de chiffrement disponibles avec le protocole TLS dans Windows Server 2003 et Windows XP.<br/>              |
+| [Protocole SSL (Secure Sockets Layer)](secure-sockets-layer-protocol.md)<br/> | informations générales sur les protocoles SSL 2,0 et 3,0, y compris les suites de chiffrement disponibles dans Windows Server 2003 et Windows XP.<br/> |
 
 
 

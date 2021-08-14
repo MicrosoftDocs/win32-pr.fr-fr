@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6c4849c23e742657d8f5eaba8a030426f7a2a440
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f391d711c6d10c50cfdb26314be6ee709ff481bda0ce370faa28d514422444c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118487864"
 ---
 # <a name="jet_bkinfo-structure"></a>Structure JET_BKINFO
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_bkinfo-structure"></a>Structure JET_BKINFO
 
@@ -57,7 +57,7 @@ Heure de l’événement de sauvegarde.
 
 L’heure de cet événement de sauvegarde, avec des bits supplémentaires pour indiquer une sauvegarde d’instantané.
 
-**Windows Vista : bklogtimeMark** est introduit dans Windows Vista.
+**Windows vista : bklogtimeMark** est introduit dans Windows vista.
 
 **genLow**
 
@@ -67,7 +67,7 @@ Numéro de génération de journal faible associé à cet événement de sauvega
 
 Numéro de génération de journal élevé associé à cet événement de sauvegarde.
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Cette structure est utilisée à l’intérieur de la structure [JET_DBINFOMISC](./jet-dbinfomisc-structure.md) pour représenter des données relatives à l’événement de sauvegarde de la base de données.
 
@@ -81,11 +81,11 @@ Cette structure est utilisée à l’intérieur de la structure [JET_DBINFOMISC]
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

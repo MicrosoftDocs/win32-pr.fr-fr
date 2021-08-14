@@ -7,18 +7,18 @@ keywords:
 - boîtes de dialogue, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14db9d7e5543bcab9c3b004695e3367d464a3529
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 472643d39ecfd3035e047c2676417c646ad992445a8ac6eb88aecf0d358a40ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103941591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118503507"
 ---
 # <a name="dialog-boxes-dialog-boxes"></a>Boîtes de dialogue (boîtes de dialogue)
 
 Une boîte de dialogue est une fenêtre temporaire créée par une application pour récupérer les entrées d’utilisateur. En général, une application utilise des boîtes de dialogue pour inviter l’utilisateur à fournir des informations supplémentaires pour les éléments de menu. Une boîte de dialogue contient généralement un ou plusieurs contrôles (fenêtres enfants) avec lesquels l’utilisateur entre du texte, choisit des options ou dirige l’action.
 
-Windows fournit également des boîtes de dialogue prédéfinies qui prennent en charge des éléments de menu courants tels que **ouvrir** et **Imprimer**. Les applications qui utilisent ces éléments de menu doivent utiliser les boîtes de dialogue communes pour demander cette entrée utilisateur, quel que soit le type d’application.
+Windows fournit également des boîtes de dialogue prédéfinies qui prennent en charge des éléments de menu courants tels que **ouvrir** et **imprimer**. Les applications qui utilisent ces éléments de menu doivent utiliser les boîtes de dialogue communes pour demander cette entrée utilisateur, quel que soit le type d’application.
 
 ### <a name="in-this-section"></a>Dans cette section
 

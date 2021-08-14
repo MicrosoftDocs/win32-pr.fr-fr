@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb040a315b6cc94f2d296b032a954b00473a4ca2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f11b844919cc459788bbd8acda722a68344ae16807e45be9bd6dcd5780b09d6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191805"
 ---
 # <a name="dsrestoreprepare-function"></a>DsRestorePrepare fonction)
 
-\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. À partir de Windows Vista, utilisez [service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
+\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. à partir de Windows Vista, utilisez [Service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
 
 La fonction **DsRestorePrepare** se connecte au serveur d’annuaire spécifié et la prépare pour l’opération de restauration.
 
@@ -123,7 +123,7 @@ Pointeur vers une valeur **Hbc** qui reçoit le handle pour la restauration. Ce 
 
 En cas de réussite, retourne un code **HRESULT** standard ; dans le cas contraire, un code d’échec est retourné.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **DsRestorePrepare** nécessite que l’appelant soit membre du groupe Administrateurs sur le serveur.
 

@@ -4,12 +4,12 @@ ms.assetid: 8b85588d-0a79-43af-b526-7a5fc8248f99
 title: Package d’authentification MSV1_0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 662ae65f60bec61c30b12271a34dc9d3c2883d94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12366ecf2ce213b1221fe310e77f9f019c859c038a47d332c8b702639662bc53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921748"
 ---
 # <a name="msv1_0-authentication-package"></a>\_Package d’authentification MSV1 0
 

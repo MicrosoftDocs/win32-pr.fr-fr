@@ -4,12 +4,12 @@ description: La syntaxe de l’appel de procédure distante (RPC) et du nom.
 ms.assetid: eb370106-bd88-4c21-b287-7b2b174185d4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d024130a5b8a873c6bfbb2194542344953625d5e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3f63c86e6fe9283855e886014787fe36361bfbcdea3bc53e4078bbb43d193293
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927818"
 ---
 # <a name="name-syntax"></a>Syntaxe de nom
 
@@ -45,9 +45,9 @@ La syntaxe de nom spécifiée par \_ le \_ DCE de la syntaxe RPC C NS \_ \_ est 
 
 Les barres obliques vous permettent de spécifier une structure logique pour le nom, mais elles ne correspondent pas à une structure logique dans les objets eux-mêmes.
 
- 
+ 
 
- 
+ 
 
 
 

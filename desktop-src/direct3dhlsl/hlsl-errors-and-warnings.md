@@ -488,12 +488,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f532c6b2c91b0edb25e06705ec392e6d88de036
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 95ad1b16ddb5e20d1bc2e431c96db377fd83118059ecf0d5c86b6e6fc75a0093
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118511971"
 ---
 # <a name="hlsl-errors-and-warnings"></a>Erreurs et avertissements HLSL
 
@@ -696,7 +696,7 @@ Codes d’erreur et d’avertissement qu’un nuanceur peut retourner.
 | <span id="ERR_NOT_SIMPLE_LOOP"></span><span id="err_not_simple_loop"></span><dl> <dt>**Erreur \_ \_ \_ Boucle NOT simple**</dt> <dt>3525</dt> </dl>                                                                | La boucle ne peut pas être mappée à une cible de nuanceur, car la cible ne prend pas en charge les interruptions.<br/>                                                                                                                                                                                                                                                                                              |
 | <span id="ERR_GRADIENT_WITH_BREAK"></span><span id="err_gradient_with_break"></span><dl> <dt>**Erreur \_ DÉGRADÉ \_ avec \_ saut**</dt> <dt>3526</dt> </dl>                                                    | Les instructions de dégradé ne peuvent pas être utilisées dans les boucles avec des sauts.<br/>                                                                                                                                                                                                                                                                                                                           |
 | <span id="ERR_TEXTURE_OFFSET"></span><span id="err_texture_offset"></span><dl> <dt>**Erreur \_ \_Décalage de TEXTURE**</dt> <dt>3527</dt> </dl>                                                                    | L’accès à la texture requiert un décalage littéral et un index multiéchantillon.<br/>                                                                                                                                                                                                                                                                                                                       |
-| <span id="ERR_CANT_BRANCH"></span><span id="err_cant_branch"></span><dl> <dt>**Erreur \_ Impossible de \_ brancher**</dt> <dt>3528</dt> </dl>                                                                             | Le contrôle de Flow (branchement) ne peut pas être utilisé sur ce profil.<br/>                                                                                                                                                                                                                                                                                                                             |
+| <span id="ERR_CANT_BRANCH"></span><span id="err_cant_branch"></span><dl> <dt>**Erreur \_ Impossible de \_ brancher**</dt> <dt>3528</dt> </dl>                                                                             | impossible d’utiliser le contrôle de Flow (branchement) sur ce profil.<br/>                                                                                                                                                                                                                                                                                                                             |
 | <span id="ERR_MUST_BRANCH"></span><span id="err_must_branch"></span><dl> <dt>**Erreur \_ DOIT \_ brancher**</dt> <dt>3529</dt> </dl>                                                                             | Il n’est pas possible d’effectuer une aplatissement avec contrôle de Flow dans cette situation spécifique.<br/>                                                                                                                                                                                                                                                                                                              |
 | <span id="ERR_BIND_INVALID"></span><span id="err_bind_invalid"></span><dl> <dt>**Erreur \_ LIAISON \_ non valide**</dt> <dt>3530</dt> </dl>                                                                          | Une opération de liaison non valide a été effectuée. Par exemple, les mémoires tampons ne peuvent être liées qu’à un seul emplacement ou à un décalage constant ; spécification de Registre non valide, car une liaison particulière était attendue mais n’a pas eu lieu ; Impossible de mélanger des éléments packoffset avec des éléments nonpackoffset dans un CBuffer.<br/>                                                                                              |
 | <span id="ERR_NEED_UNROLL_FORCED_LOOP"></span><span id="err_need_unroll_forced_loop"></span><dl> <dt>**Erreur \_ NÉCESSITÉ de \_ DÉrouler la \_ \_ boucle forcée**</dt> <dt>3531</dt> </dl>                                       | Les boucles marquées avec l’attribut loop ne peuvent pas être déroulées.<br/>                                                                                                                                                                                                                                                                                                                    |
@@ -983,7 +983,7 @@ Codes d’erreur et d’avertissement qu’un nuanceur peut retourner.
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -4,12 +4,12 @@ description: RPC sur HTTP offre trois types de sécurité en plus de la sécurit
 ms.assetid: 3a44c72b-b74c-433a-8826-1f76ca019f40
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 527cf5ff74120c41606d83a248e355a6ea46d9d5
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: e9f1ebd5a7198a2b2ccae7703b92011bbd45b037db2f7ef8eb116e28ef06d8e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104211197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926131"
 ---
 # <a name="rpc-over-http-security"></a>Sécurité RPC sur HTTP
 
@@ -31,7 +31,7 @@ IIS peut être configuré pour désactiver l’accès anonyme et exiger l’auth
 
 ![Capture d’écran montrant la boîte de dialogue Propriétés RPC.](images/rpc-http-2.png)
 
-Bien que vous puissiez utiliser RPC sur HTTP même lorsque le répertoire virtuel RPC proxy autorise l’accès anonyme, Microsoft recommande vivement de désactiver l’accès anonyme à ce répertoire virtuel pour des raisons de sécurité. Au lieu de cela, pour RPC sur HTTP, vous activez l’authentification de base, l’authentification intégrée de Windows ou les deux. N’oubliez pas que seul RPC sur HTTP v2 peut s’authentifier auprès du proxy RPC nécessitant une authentification de base ou intégrée à Windows. RPC sur HTTP v1 ne sera pas en mesure de se connecter si **l’interdiction de l’accès anonyme** est désactivée. Étant donné que RPC sur HTTP v2 est l’implémentation la plus sûre et la plus robuste, l’utilisation d’une version de Windows qui la prend en charge améliore la sécurité de vos installations.
+Bien que vous puissiez utiliser RPC sur HTTP même lorsque le répertoire virtuel RPC proxy autorise l’accès anonyme, Microsoft recommande vivement de désactiver l’accès anonyme à ce répertoire virtuel pour des raisons de sécurité. au lieu de cela, pour RPC sur HTTP, activez l’authentification de base, Windows l’authentification intégrée ou les deux. n’oubliez pas que seul RPC sur HTTP v2 est en mesure de s’authentifier auprès du Proxy rpc nécessitant une authentification de base ou intégrée Windows. RPC sur HTTP v1 ne sera pas en mesure de se connecter si **l’interdiction de l’accès anonyme** est désactivée. étant donné que RPC sur HTTP v2 est l’implémentation la plus sûre et la plus robuste, l’utilisation d’une version de Windows qui la prend en charge améliore la sécurité de vos installations.
 
 > [!Note]  
 > Par défaut, le répertoire virtuel du proxy RPC est marqué pour autoriser l’accès anonyme. Toutefois, le proxy RPC pour RPC sur HTTP v2 rejette les requêtes qui ne sont pas authentifiées par défaut.
@@ -42,7 +42,7 @@ Bien que vous puissiez utiliser RPC sur HTTP même lorsque le répertoire virtue
 
 RPC sur HTTP peut chiffrer le trafic entre le client RPC sur HTTP et le proxy RPC avec SSL. Le trafic entre le proxy RPC et le serveur RPC sur HTTP est chiffré à l’aide de mécanismes de sécurité RPC normaux et n’utilise pas SSL (même si SSL entre le client et le proxy RPC est choisi). Cela est dû au fait que cette partie du trafic transite au sein du réseau d’une organisation et derrière un pare-feu.
 
-Le trafic entre le client RPC sur HTTP et le proxy RPC, qui transite généralement via Internet, peut être chiffré avec SSL en plus du mécanisme de chiffrement choisi pour RPC. Dans ce cas, le trafic sur la partie Internet de l’itinéraire est doublement chiffré. Le chiffrement du trafic via le proxy RPC fournit une défense secondaire, si le proxy RPC ou d’autres ordinateurs du réseau de périmètre sont compromis. Étant donné que le proxy RPC ne peut pas déchiffrer la couche de chiffrement secondaire, le proxy RPC n’a pas accès aux données envoyées. Pour plus d’informations, consultez [recommandations relatives au déploiement de RPC sur http](rpc-over-http-deployment-recommendations.md) . Le chiffrement SSL est disponible uniquement avec RPC sur HTTP v2.
+Le trafic entre le client RPC sur HTTP et le proxy RPC, qui transite généralement via Internet, peut être chiffré avec SSL en plus du mécanisme de chiffrement choisi pour RPC. Dans ce cas, le trafic sur la partie Internet de l’itinéraire est doublement chiffré. Le chiffrement du trafic via le proxy RPC fournit une défense secondaire, si le proxy RPC ou d’autres ordinateurs du réseau de périmètre sont compromis. Étant donné que le proxy RPC ne peut pas déchiffrer la couche de chiffrement secondaire, le proxy RPC n’a pas accès aux données envoyées. pour plus d’informations, consultez [Recommandations de déploiement de RPC sur HTTP](rpc-over-http-deployment-recommendations.md) . Le chiffrement SSL est disponible uniquement avec RPC sur HTTP v2.
 
 ## <a name="restricting-rpc-over-http-calls-to-certain-computers"></a>Restriction des appels RPC sur HTTP à certains ordinateurs
 

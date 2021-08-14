@@ -8,16 +8,16 @@ keywords:
 - Services Bureau à distance protocole RDP (Remote Desktop Protocol) (RDP), référence du fournisseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 557647b05dc48d3878144f8ab225ddcd77727323
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4b90f4ae544fc502550e85336c1b3851e9aedbe7a90ebb9f1e2b2d331252d302
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118131129"
 ---
 # <a name="remote-desktop-protocol-provider-reference"></a>Référence du fournisseur protocole RDP (Remote Desktop Protocol)
 
-L’API du fournisseur protocole RDP (Remote Desktop Protocol) peut être utilisée pour créer un protocole qui personnalise l’interaction entre le service Services Bureau à distance et les clients de bureau. Pour plus d'informations, consultez les rubriques ci-dessous.
+L’API du fournisseur protocole RDP (Remote Desktop Protocol) peut être utilisée pour créer un protocole qui personnalise l’interaction entre le service Services Bureau à distance et les clients de bureau. Pour plus d’informations, voir les rubriques suivantes :
 
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -36,9 +36,9 @@ L’API du fournisseur protocole RDP (Remote Desktop Protocol) peut être utilis
 [Protocoles de Bureau à distance personnalisés](custom-remote-desktop-protocols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ec0cba27e994f7d77d441aef7bb783cad71cbad
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 18d1b8e9aae9a147c929fade8030babbf6b02fd87c9170370252522001742e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106510875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382829"
 ---
 # <a name="transmit_as-attribute"></a>transmettre \_ en tant qu’attribut
 
-L’attribut **\[ transmit \_ As \]** indique au compilateur d’associer **type-ID * * *,* qui est un type présenté que les applications client et serveur manipulent, avec un type transmis de type transmission **.**
+L’attribut **\[ transmit \_ As \]** indique au compilateur d’associer l' **ID de type**_,_ qui est un type présenté que les applications client et serveur manipulent, avec un type de transmission de type transmis **.**
 
 ``` syntax
 typedef [transmit_as(xmit-type) [[ , type-attribute-list ]] ] type-specifier declarator-list; 
@@ -77,7 +77,7 @@ Spécifie le nom du type de données présenté aux applications clientes et ser
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser l’attribut **\[ transmettre \_ en tant que \]** , l’utilisateur doit fournir des routines qui convertissent les données entre les types présentés et transmis ; ces routines doivent également libérer de la mémoire utilisée pour stocker les données converties. L’attribut **\[ transmit \_ As \]** indique aux stubs d’appeler les routines de conversion fournies par l’utilisateur.
 
@@ -96,9 +96,9 @@ L’utilisateur doit fournir les routines suivantes.
 
 
 
- 
+ 
 
- 
+ 
 
 Le stub client appelle l' *ID de type * * \_ * \_ pour* transmettre * pour allouer de l’espace pour le type transmis et pour convertir les données en objets de type transmission *-type.* Le stub serveur alloue de l’espace pour le type de données d’origine et appelle l' *ID de type * * * \_ à partir de \_* transmission * pour convertir les données de son type transmis vers le type présenté.
 
@@ -192,15 +192,15 @@ void __RPC_USER TREE_TYPE_free_xmit(
 [**typedef**](typedef.md)
 </dt> <dt>
 
-[**UE**](union.md)
+[**union**](union.md)
 </dt> <dt>
 
 [**unique**](unique.md)
 </dt> <dt>
 
-[**void**](void.md)
+[**nullité**](void.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

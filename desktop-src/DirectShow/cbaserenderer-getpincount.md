@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 569a8dd4352edb0c4660fecd3e77fdfaec0ec4c4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: fdd646458bb10287e1a76ffed897f1ea039e1b047ccf14d10aeb990ebfc74622
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403448"
 ---
 # <a name="cbaserenderergetpincount-method"></a>Méthode CBaseRenderer. GetPinCount
 
@@ -40,11 +40,11 @@ virtual int GetPinCount();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Renvoie 1.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode implémente la méthode [**CBaseFilter :: GetPinCount**](cbasefilter-getpincount.md) , qui est virtuelle pure dans la classe **CBaseFilter** .
 
@@ -54,7 +54,7 @@ Cette méthode implémente la méthode [**CBaseFilter :: GetPinCount**](cbasefi
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

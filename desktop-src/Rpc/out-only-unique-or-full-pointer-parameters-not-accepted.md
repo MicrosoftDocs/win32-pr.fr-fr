@@ -4,12 +4,12 @@ description: Les pointeurs uniques ou complets qui ne sont pas acceptés par le 
 ms.assetid: 0477980e-d76e-452f-9ab1-71a8ed8642d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5b21baa370c1b68fb3c708a8fdb21115686646f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5b9511c21045892eb7a5b3230d8f0180578b489b06b5b5402fb0b11f6a3ff31a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927568"
 ---
 # <a name="out-only-unique-or-full-pointer-parameters-not-accepted"></a>Out-Only paramètres de pointeur unique ou complet non acceptés
 
@@ -19,6 +19,6 @@ Le stub serveur généré automatiquement doit allouer de la mémoire pour le r�
 
 Plutôt que de \[ **sortir**, [uniques](/windows/desktop/Midl/unique) \] ou \[ **sortants** des pointeurs [ptr](/windows/desktop/Midl/ptr) \] , utilisez \[ **des** pointeurs in, **out**, **unique** \] ou \[ **in**, **out**, **ptr** \] , ou utilisez un autre niveau d’indirection, tel qu’un pointeur de référence qui pointe vers le pointeur unique ou complet valide.
 
- 
+ 
 
- 
+ 

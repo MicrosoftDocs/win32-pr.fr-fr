@@ -8,12 +8,12 @@ keywords:
 - Groupes Active Directory, interrogation de groupes dans un domaine
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a3abd4ec393fbeca1308ed59e08131b9b73e6b1
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 6079050519fca00a8e689d8af5c3fae9ce6baec2c02406ae56bccc3616a50bef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184913"
 ---
 # <a name="querying-for-groups-in-a-domain"></a>Interrogation de groupes dans un domaine
 
@@ -25,6 +25,6 @@ Si des groupes qui contiennent des valeurs [**\_ \_ \_ enum de type groupe ad**]
 
 Pour plus d’informations et pour obtenir un exemple de code qui montre comment rechercher des groupes dans un domaine, consultez l' [exemple de code pour rechercher des groupes dans un domaine](example-code-for-performing-a-query-in-a-domain.md).
 
- 
+ 
 
- 
+ 

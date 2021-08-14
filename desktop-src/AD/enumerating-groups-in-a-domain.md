@@ -7,12 +7,12 @@ keywords:
 - Énumération des groupes dans un domaine AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3586b8c6d261c769cabe56def2aa9396a58fa3a5
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 3723122ef2ab70a7396b2b2821c96a20b4d92419c1e10d1c00b11ff903cb6719
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429845"
 ---
 # <a name="enumerating-groups-in-a-domain"></a>Énumération des groupes dans un domaine
 
@@ -37,12 +37,12 @@ Les groupes peuvent être placés dans n’importe quel conteneur ou unité d’
     > [!Note]  
     > Vous pouvez effectuer une recherche à l’aide d’une préférence de recherche de l' **\_ étendue ad \_ onelevel** pour limiter la recherche au contenu direct de l’objet conteneur auquel vous êtes lié.
 
-     
+     
 
     [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) récupère uniquement les valeurs des propriétés spécifiques des groupes. Pour récupérer des valeurs, utilisez **IDirectorySearch**. Pour manipuler les objets de groupe retournés à partir d’une recherche, autrement dit, pour utiliser des méthodes [**IADs**](/windows/desktop/api/iads/nn-iads-iads) ou [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup) , établissez une liaison explicite avec eux. Pour ce faire, spécifiez **distinguishedName** comme l’une des propriétés à retourner à partir de la recherche et utilisez les noms distinctifs retournés pour établir une liaison à chaque groupe retourné dans la recherche.
 
     Seules les propriétés spécifiques sont récupérées. Vous ne pouvez pas récupérer tous les attributs sans spécifier explicitement chaque attribut possible de la classe de groupe.
 
- 
+ 
 
- 
+ 

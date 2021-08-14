@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97fd85ef6611cd02dc80ca66816c5c4ce13f6cd9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8fa0f8302ca2b4c843e552bed8de9145d74c6492626694bb9da0b127d0a07d2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118349353"
 ---
 # <a name="setstringproperty-method-of-the-win32_rdmsvirtualdesktopcollection-class"></a>Méthode SetStringProperty de la \_ classe Win32 RDMSVirtualDesktopCollection
 

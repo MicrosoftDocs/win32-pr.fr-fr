@@ -1,19 +1,19 @@
 ---
-description: Quand un thread communique activement avec un périphérique WIA (Windows Image Acquisition) (par exemple, le transfert de données ou l’écriture de propriétés d’appareil) WIA &\# 0034 ; verrouille&\# 0034 ; l’appareil.
+description: lorsqu’un thread communique activement avec un appareil d’Acquisition d’images Windows (wia) (par exemple, le transfert de données ou l’écriture de propriétés d’appareil) WIA &\# 0034 ; verrouille&\# 0034 ; l’appareil.
 ms.assetid: 59533937-284a-4732-a73b-d2e0b5a9a370
 title: Communication avec un appareil WIA dans plusieurs threads ou applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a7a4b518093c3a0fc09534d67e22e5349d44d09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6f54cc8fe9a3b60d684ff9a62def2c0cf8862576034b16f58d3dd369d2b8be0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118209263"
 ---
 # <a name="communicating-with-a-wia-device-in-multiple-threads-or-applications"></a>Communication avec un appareil WIA dans plusieurs threads ou applications
 
-Quand un thread communique activement avec un périphérique WIA (Windows Image Acquisition) (par exemple, en transférant des données ou en écrivant des propriétés d’appareil), WIA « verrouille » l’appareil. Quand un appareil est verrouillé, aucun autre thread ou processus ne peut communiquer activement avec cet appareil.
+quand un thread communique activement avec un appareil d’Acquisition d’images Windows (wia) (par exemple, en transférant des données ou en écrivant des propriétés d’appareil), WIA « verrouille » l’appareil. Quand un appareil est verrouillé, aucun autre thread ou processus ne peut communiquer activement avec cet appareil.
 
 WIA n’interdit pas à plusieurs threads ou processus de maintenir des connexions à un seul appareil. Autrement dit, un appareil est verrouillé uniquement pendant la communication réelle, et au moins deux applications peuvent avoir un seul appareil sélectionné simultanément.
 

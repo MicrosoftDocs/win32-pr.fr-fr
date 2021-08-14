@@ -1,19 +1,19 @@
 ---
-description: La Windows Installer peut effectuer une installation administrative d’une application ou d’un produit sur un réseau pour une utilisation par un groupe de travail.
+description: la Windows Installer peut effectuer une installation administrative d’une application ou d’un produit sur un réseau pour une utilisation par un groupe de travail.
 ms.assetid: 5840cfab-a127-4b1f-a7af-a2d8e2786928
 title: Installation administrative
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3958bdc81ee43cd1a36e0d464f3e77032b4c2d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26968b6b81c1c2aafedfd74151b139f61062baa29c44b04977a119b14ab1a8f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118381849"
 ---
 # <a name="administrative-installation"></a>Installation administrative
 
-La Windows Installer peut effectuer une installation administrative d’une application ou d’un produit sur un réseau pour une utilisation par un groupe de travail. Une installation d’administration installe une image source de l’application sur le réseau qui est similaire à une image source sur un CD-ROM. Les utilisateurs d’un groupe de travail qui ont accès à cette image administrative peuvent alors installer le produit à partir de cette source. Un utilisateur doit d’abord installer le produit à partir du réseau pour exécuter l’application. L’utilisateur peut choisir d’exécuter à partir de la source lors de son installation et le programme d’installation utilise la majeure partie du fichier du produit directement à partir du réseau.
+la Windows Installer peut effectuer une installation administrative d’une application ou d’un produit sur un réseau pour une utilisation par un groupe de travail. Une installation d’administration installe une image source de l’application sur le réseau qui est similaire à une image source sur un CD-ROM. Les utilisateurs d’un groupe de travail qui ont accès à cette image administrative peuvent alors installer le produit à partir de cette source. Un utilisateur doit d’abord installer le produit à partir du réseau pour exécuter l’application. L’utilisateur peut choisir d’exécuter à partir de la source lors de son installation et le programme d’installation utilise la majeure partie du fichier du produit directement à partir du réseau.
 
 Les administrateurs peuvent exécuter une installation d’administration à partir de la ligne de commande à l’aide de l' [option de ligne de commande](command-line-options.md)/a.
 
@@ -23,7 +23,7 @@ La propriété [**AdminProperties**](adminproperties.md) est une liste délimit�
 
 Les utilisateurs qui ne disposent pas d’un accès continu au réseau peuvent installer une application à partir d’une image administrative et, à temps, s’appuyer sur des médias, tels que des disques CD-ROM, comme source de sauvegarde. Dans ce cas, la longueur des noms de fichiers dans l’image administrative et sur le support doit correspondre. Les deux doivent utiliser des noms de fichiers longs, ou les deux doivent utiliser des noms de fichiers courts. Par exemple, un CD-ROM qui prend uniquement en charge les noms de fichiers courts peut fournir à la fois le média d’origine pour l’installation de l’image administrative et une source de sauvegarde.
 
-Si la propriété [**SHORTFILENAMES**](shortfilenames.md) est définie au cours d’une installation d’administration, vous devrez peut-être la redéfinir à nouveau par un utilisateur en appliquant ensuite un correctif à l’image administrative. Lorsque vous utilisez Windows Installer pour appliquer le correctif, le programme d’installation définit automatiquement la propriété **SHORTFILENAMES** si l’image administrative utilise des noms de fichiers courts.
+Si la propriété [**SHORTFILENAMES**](shortfilenames.md) est définie au cours d’une installation d’administration, vous devrez peut-être la redéfinir à nouveau par un utilisateur en appliquant ensuite un correctif à l’image administrative. lorsque vous utilisez Windows Installer pour appliquer le correctif, le programme d’installation définit automatiquement la propriété **SHORTFILENAMES** si l’image administrative utilise des noms de fichiers courts.
 
 Si un administrateur utilise un package dont la propriété [**Résumé du nombre de mots**](word-count-summary.md) est 2 ou 3 pour effectuer une installation administrative, les utilisateurs de l’image administrative ne peuvent pas réinstaller automatiquement à partir de la source du média d’origine. Si l’image administrative devient indisponible, les utilisateurs qui ont installé à partir de l’image administrative ne peuvent pas revenir au support d’origine.
 

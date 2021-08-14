@@ -4,12 +4,12 @@ description: Utiliser la variation naturelle
 ms.assetid: 5d5750e4-cf30-43dc-9419-7e6bbdb9aa5a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fd2d35afeb168dc8839ba259f0079434b487c4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6259730599966205f4751c4ada9b8ef361cedf6d1a1a59dd1ce7d67aaf0fb448
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118474507"
 ---
 # <a name="use-natural-variation"></a>Utiliser la variation naturelle
 
@@ -21,9 +21,9 @@ Microsoft agent vous permet de créer des variantes d’un caractère. Lorsque v
 
 «Je peux affirmer cela. \| Je peux le prononcer. \| Je peux faire autre chose.»
 
- 
+ 
 
- 
+ 
 
 
 

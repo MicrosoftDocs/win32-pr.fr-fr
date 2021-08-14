@@ -3,7 +3,7 @@ title: Message MCIWNDM_PUT_DEST (VFW. h)
 description: Le \_ message MCIWNDM put \_ dest redéfinit les coordonnées du rectangle de destination utilisé pour le zoom ou l’étirement des images d’un fichier AVI lors de la lecture. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndPutDest.
 ms.assetid: 0b13d473-ef93-41a2-bbb2-09fbf264493e
 keywords:
-- Message MCIWNDM_PUT_DEST Windows Multimedia
+- message MCIWNDM_PUT_DEST Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba150f450f71c3593976f98c9935233918becd70
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 27eb2afdcec32d43b0352af1ead0b4c89715641fd370611542e1e5c6da9efa85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373491"
 ---
 # <a name="mciwndm_put_dest-message"></a>MCIWNDM \_ put \_ dest message
 

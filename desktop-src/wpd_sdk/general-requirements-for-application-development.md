@@ -4,16 +4,16 @@ ms.assetid: 8ac88d6f-fc4b-4253-932d-aaa3c801b18f
 title: Configuration générale requise pour le développement d’applications (API WPD)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d16be9656f72324b8f3687bca72146320561b0d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9ad1ed207774494102f673bd7fb4f92acbdcb4629542d238613637d9509336c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430878"
 ---
 # <a name="general-requirements-for-application-development-wpd-api"></a>Configuration générale requise pour le développement d’applications (API WPD)
 
-Pour créer une application d’appareils mobiles Windows, le kit de [développement logiciel (SDK) Windows](https://developer.microsoft.com/windows/downloads) doit être installé sur votre ordinateur. Les en-têtes et les bibliothèques nécessaires s’affichent dans la liste suivante.
+pour créer une application Windows des appareils mobiles, le kit de [développement logiciel (SDK) Windows](https://developer.microsoft.com/windows/downloads) doit être installé sur votre ordinateur. Les en-têtes et les bibliothèques nécessaires s’affichent dans la liste suivante.
 
 -   PortableDeviceGuids. lib
 -   PortableDevice. h
@@ -44,7 +44,7 @@ Parmi les fichiers de la liste précédente, BridgeDeviceService. h et DeviceSer
 
 <dl> <dt>
 
-[**Appareils mobiles Windows**](/windows/desktop/windows-portable-devices)
+[**Windows Appareils mobiles**](/windows/desktop/windows-portable-devices)
 </dt> </dl>
 
  

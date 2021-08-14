@@ -7,12 +7,12 @@ keywords:
 - nom de principal du service AD, comment un service est composé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5611527cc3c240eebc195058ce39daab71aeef23
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fdd4c0ac9c871c76e9e8771a688d203898674e477426ebd788ee34fe894011a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188643"
 ---
 # <a name="how-a-service-composes-its-spns"></a>Comment un service compose ses SPN
 
@@ -30,9 +30,9 @@ Le tableau des noms retournés par [**DsGetSpn**](/windows/desktop/api/Ntdsapi/n
 
 N’oubliez pas que les fonctions [**DsGetSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetspna), [**DsWriteAccountSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna)et [**DsServerRegisterSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsserverregisterspna) ne vérifient pas que les noms principaux de service sont uniques. Étant donné que l’authentification mutuelle échoue si un client présente un nom de principal du service qui n’est pas unique, vérifiez l’unicité avant d’inscrire un SPN. Pour ce faire, recherchez dans le catalogue global (GC) les attributs **servicePrincipalName** qui correspondent à votre SPN. Pour plus d’informations sur la recherche dans le GC, consultez [recherche dans le catalogue global](searching-global-catalog-contents.md).
 
- 
+ 
 
- 
+ 
 
 
 

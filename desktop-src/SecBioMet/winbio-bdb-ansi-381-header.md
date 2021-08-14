@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9da04643bbdff273a2594394011ba46c16bfa29d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3bc9eee5d3ca99799c76b849e7b990eee2b94c61309c4d729f736ad33a00eecc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911277"
 ---
 # <a name="winbio_bdb_ansi_381_header-structure"></a>\_Structure d' \_ \_ \_ en-tête WINBIO BDB ANSI 381
 
@@ -68,7 +68,7 @@ Spécifie le format. Actuellement, il doit s’agir de 0x46495200.
 
 </dd> <dt>
 
-**NuméroVersion**
+**VersionNumber**
 </dt> <dd>
 
 Spécifie le numéro de version. À l’heure actuelle, ce doit être 0x30313000 qui correspond en interne à 0.1.0.0.
@@ -161,8 +161,8 @@ Spécifie l’algorithme utilisé pour compresser l’image de doigt ou Palm.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                       |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (include WinBio. h)</dt> </dl> |
 
 

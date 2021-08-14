@@ -4,17 +4,17 @@ ms.assetid: 7e57c087-53e4-443d-9227-21d9eb3cc71f
 title: Codes d’erreur système (1700-3999) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 23b90db71a6e2e84b28f4aafc94475e9e82e3e7a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 707425f7714c84d92bf5bc001f57c1677183b9edbd9170236d1c629bc0aaf121
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118405600"
 ---
 # <a name="system-error-codes-1700-3999"></a>Codes d’erreur système (1700-3999)
 
 > [!NOTE]
-> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. Pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
+> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
 
 La liste suivante décrit les [codes d’erreur système](system-error-codes.md) pour les erreurs 1700 à 3999. Elles sont retournées par la fonction [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) lorsque de nombreuses fonctions échouent. Pour récupérer le texte de description de l’erreur dans votre application, utilisez la fonction [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) avec le **format \_ message \_ de \_** l’indicateur système.
 
@@ -1588,7 +1588,7 @@ Aucun nom principal n’est inscrit.
 
 
 
-L’erreur spécifiée n’est pas un code d’erreur RPC Windows valide.
+l’erreur spécifiée n’est pas un code d’erreur Windows RPC valide.
 
 
 </dt> </dl> </dd> <dt>
@@ -2438,7 +2438,7 @@ L’espace de couleurs spécifié n’est pas valide.
 
 </dt> </dl> </dd> <dt>
 
-<span id="ERROR_ICM_NOT_ENABLED"></span><span id="error_icm_not_enabled"></span>**ERREUR \_ ICM \_ non \_ activée**
+<span id="ERROR_ICM_NOT_ENABLED"></span><span id="error_icm_not_enabled"></span>**erreur \_ ICM \_ non \_ activée**
 </dt> <dd> <dl> <dt>
 
 2018 (0x7E2)
@@ -2451,7 +2451,7 @@ La gestion des couleurs des images n’est pas activée.
 
 </dt> </dl> </dd> <dt>
 
-<span id="ERROR_DELETING_ICM_XFORM"></span><span id="error_deleting_icm_xform"></span>**ERREUR lors de \_ la suppression du \_ \_ XForm CCI**
+<span id="ERROR_DELETING_ICM_XFORM"></span><span id="error_deleting_icm_xform"></span>**erreur lors de \_ la suppression \_ ICM \_ XFORM**
 </dt> <dd> <dl> <dt>
 
 2019 (0x7E3)
@@ -2939,8 +2939,8 @@ Réémettez l’opération donnée en tant qu’opération d’e/s mise en cache
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
 
 

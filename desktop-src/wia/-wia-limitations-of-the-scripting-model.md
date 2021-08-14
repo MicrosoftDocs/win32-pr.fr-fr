@@ -9,21 +9,21 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 36ef43cd2cf2133b126eee065c2b33e463eb6401
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a1b2dc25c1ea73fd9d793e4d3de1bff7c8193b04aadbe00796ca4a021791886
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118208061"
 ---
 # <a name="limitations-of-the-scripting-model"></a>Limitations du modèle de script
 
 > [!Note]  
-> Ce système de script a été remplacé par la couche d’automatisation de l’acquisition d’images Windows (WIA). Voir [couche d’automatisation de l’acquisition d’image Windows](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
+> ce système de script a été remplacé par la couche d’automatisation d’acquisition d’images Windows (WIA). consultez [Windows couche automatisation](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage)de l’Acquisition d’images.
 
  
 
-Le modèle de script WIA (Windows Image Acquisition) expose un sous-ensemble de fonctionnalités WIA. Le tableau suivant fournit une description des limitations du modèle de script. 
+le modèle de script wia (Windows Image Acquisition) expose un sous-ensemble de fonctionnalités wia. Le tableau suivant fournit une description des limitations du modèle de script. 
 
 | Fonctionnalité WIA               | Limitation du modèle de script                                                                                                                                                                                                                                               |
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

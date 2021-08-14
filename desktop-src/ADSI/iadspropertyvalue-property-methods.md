@@ -51,12 +51,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 196e8097e5beaa5350738971be29de89b43c17a8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aaa64ef7d7802306902060a9eb0e2423f3155ba032115c831212403cda658784
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118427615"
 ---
 # <a name="iadspropertyvalue-property-methods"></a>Méthodes de propriété IADsPropertyValue
 
@@ -404,7 +404,7 @@ HRESULT put_UTCTime(
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les propriétés [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) définissent ou récupèrent uniquement une valeur de propriété du type spécifié. Par exemple, la propriété **CaseIgnoreString** sur un attribut de type **ADSTYPE \_ , \_** comme l’attribut **distinguishedName** , génère une erreur. La propriété **CaseIgnoreString** ne fonctionne que sur les attributs de type **annonces \_ case ignorer la \_ \_ chaîne**. Le tableau suivant mappe la valeur [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) à la propriété **IADsPropertyValue** correspondante qui peut être utilisée pour accéder à ce type d’attribut. Si une valeur **ADSTYPEENUM** n’est pas listée dans ce tableau, elle n’est pas disponible à partir de l’interface **IADsPropertyValue** . L’interface [**IADsPropertyValue2**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2) doit être utilisée pour obtenir des données dans les autres formats.
 

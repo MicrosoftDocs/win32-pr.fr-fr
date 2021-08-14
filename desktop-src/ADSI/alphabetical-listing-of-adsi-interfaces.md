@@ -7,12 +7,12 @@ keywords:
 - Liste alphabétique des interfaces ADSI ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 760d8b39547248ca1ebaed04a07a8dff499a3a9f
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 9d101357760026c42ae0969832691a2d557c64363220fe662565c0dd3923ad40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104508121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118692688"
 ---
 # <a name="alphabetical-listing-of-adsi-interfaces"></a>Liste alphabétique des interfaces ADSI
 
@@ -22,7 +22,7 @@ Le tableau suivant contient une liste alphabétique de toutes les interfaces ADS
 
 | Interface                                                      | Catégorie/Description        |
 |----------------------------------------------------------------|-----------------------------|
-| [**IADs**](/windows/desktop/api/Iads/nn-iads-iads)                                           | Core                        |
+| [**IADs**](/windows/desktop/api/Iads/nn-iads-iads)                                           | Base                        |
 | [**IADsAccessControlEntry**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry)       | Sécurité                    |
 | [**IADsAccessControlList**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrollist)         | Sécurité                    |
 | [**IADsAcl**](/windows/desktop/api/Iads/nn-iads-iadsacl)                                     | Type de données                   |
@@ -35,7 +35,7 @@ Le tableau suivant contient une liste alphabétique de toutes les interfaces ADS
 | [**IADsCollection**](/windows/desktop/api/Iads/nn-iads-iadscollection)                       | Objet persistant           |
 | [**IADsComputer**](/windows/desktop/api/Iads/nn-iads-iadscomputer)                           | Objet persistant           |
 | [**IADsComputerOperations**](/windows/desktop/api/Iads/nn-iads-iadscomputeroperations)       | Objet dynamique              |
-| [**IADsContainer**](/windows/desktop/api/Iads/nn-iads-iadscontainer)                         | Core                        |
+| [**IADsContainer**](/windows/desktop/api/Iads/nn-iads-iadscontainer)                         | Base                        |
 | [**IADsDeleteOps**](/windows/desktop/api/Iads/nn-iads-iadsdeleteops)                         | Utilitaire                     |
 | [**IADsDNWithBinary**](/windows/desktop/api/Iads/nn-iads-iadsdnwithbinary)                   | Type de données                   |
 | [**IADsDNWithString**](/windows/desktop/api/Iads/nn-iads-iadsdnwithstring)                   | Type de données                   |
@@ -51,13 +51,13 @@ Le tableau suivant contient une liste alphabétique de toutes les interfaces ADS
 | [**IADsLargeInteger**](/windows/desktop/api/Iads/nn-iads-iadslargeinteger)                   | Type de données                   |
 | [**IADsLocality**](/windows/desktop/api/Iads/nn-iads-iadslocality)                           | Objet persistant           |
 | [**IADsMembers**](/windows/desktop/api/Iads/nn-iads-iadsmembers)                             | Objet persistant           |
-| [**IADsNamespaces**](/windows/desktop/api/Iads/nn-iads-iadsnamespaces)                       | Core                        |
+| [**IADsNamespaces**](/windows/desktop/api/Iads/nn-iads-iadsnamespaces)                       | Base                        |
 | [**IADsNameTranslate**](/windows/desktop/api/Iads/nn-iads-iadsnametranslate)                 | Utilitaire                     |
 | [**IADsNetAddress**](/windows/desktop/api/Iads/nn-iads-iadsnetaddress)                       | Type de données                   |
 | [**IADsO**](/windows/desktop/api/Iads/nn-iads-iadso)                                         | Objet persistant           |
 | [**IADsObjectOptions**](/windows/desktop/api/Iads/nn-iads-iadsobjectoptions)                 | Utilitaire                     |
 | [**IADsOctetList**](/windows/desktop/api/Iads/nn-iads-iadsoctetlist)                         | Type de données                   |
-| [**IADsOpenDSObject**](/windows/desktop/api/Iads/nn-iads-iadsopendsobject)                   | Core                        |
+| [**IADsOpenDSObject**](/windows/desktop/api/Iads/nn-iads-iadsopendsobject)                   | Base                        |
 | [**IADsOU**](/windows/desktop/api/Iads/nn-iads-iadsou)                                       | Objet persistant           |
 | [**IADsPath**](/windows/desktop/api/Iads/nn-iads-iadspath)                                   | Type de données                   |
 | [**IADsPathName**](/windows/desktop/api/Iads/nn-iads-iadspathname)                           | Utilitaire                     |
@@ -91,8 +91,8 @@ Le tableau suivant contient une liste alphabétique de toutes les interfaces ADS
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

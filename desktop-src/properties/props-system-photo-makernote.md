@@ -4,12 +4,12 @@ ms.assetid: 7472fdc6-683c-41cc-a008-f5be77521901
 title: System. photo. MakerNote
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fffd3d6c22deb615c3252560cdd62b2241021f37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0e4391fe82acd2c756a59dbcc43ea657f883ec3fc3b8d34e5e211f206fcaceb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228354"
 ---
 # <a name="systemphotomakernote"></a>System. photo. MakerNote
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Buffer
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

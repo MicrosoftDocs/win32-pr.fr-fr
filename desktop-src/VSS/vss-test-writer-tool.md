@@ -4,12 +4,12 @@ ms.assetid: 02434cb9-390c-4cf0-9941-b833ace55685
 title: Outil enregistreur de test VSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61ffdbb513697a701866be5ceeb40168e8c28368
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b93f0b81bd5e27db9fdfb70ca52e6f43bbb1e853af87bc12e1d76f01d7966ef3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118344232"
 ---
 # <a name="vss-test-writer-tool"></a>Outil enregistreur de test VSS
 
@@ -18,11 +18,11 @@ Le writer de test est un utilitaire que vous pouvez utiliser pour tester des app
 Chaque instance du writer est initialisée avec un fichier de configuration XML qui décrit exactement les composants sur lesquels le writer fera l’objet d’un rapport, ainsi que le comportement de l’enregistreur. Le writer peut être configuré pour signaler différents types de scénarios, y compris des scénarios plus complexes utilisant les interfaces incrémentielles et différentielles. Le rédacteur effectue des vérifications à différents moments pendant le processus pour s’assurer que le demandeur se comporte de manière appropriée. Une fois la restauration terminée, l’enregistreur vérifie que tous les fichiers nécessaires ont été restaurés sans endommagement. Le writer peut également être configuré pour exécuter d’autres opérations, telles que des événements spécifiques en cas d’échec.
 
 > [!Note]  
-> Cet outil est inclus dans le kit de développement logiciel (SDK) Microsoft Windows pour Windows Vista et versions ultérieures. Vous pouvez télécharger le SDK Windows à partir de [https://msdn.microsoft.com/windowsvista](https://msdn.microsoft.com/windows/default.aspx) .
+> cet outil est inclus dans le kit de développement logiciel (SDK) de Microsoft Windows pour Windows Vista et versions ultérieures. vous pouvez télécharger le SDK Windows à partir de [https://msdn.microsoft.com/windowsvista](https://msdn.microsoft.com/windows/default.aspx) .
 
  
 
-Dans l’installation SDK Windows, l’outil VssSampleProvider se trouve dans `%Program Files(x86)%\Windows Kits\8.1\bin\x64` (pour Windows 64 bits) et `%Program Files(x86)%\Windows Kits\8.1\bin\x86` .
+dans l’installation SDK Windows, l’outil VssSampleProvider se trouve dans `%Program Files(x86)%\Windows Kits\8.1\bin\x64` (pour les Windows 64 bits) et `%Program Files(x86)%\Windows Kits\8.1\bin\x86` .
 
 ## <a name="running-the-test-writer-tool"></a>Exécution de l’outil test Writer
 
@@ -163,7 +163,7 @@ L’élément RestoreMethod suivant contient un sous-élément AlternateLocation
 </RestoreMethod>
 ```
 
-Cet exemple spécifie que le demandeur doit tout d’abord tenter de restaurer tous les fichiers correspondant à c : \\ Files \\ \* . txt dans le \\ répertoire c : files. Si l’un de ces fichiers ne peut pas être remplacé, le demandeur doit restaurer tous les fichiers dans le répertoire c : altfiles à la \\ place. Le demandeur doit enregistrer ce mappage de l’autre emplacement à l’aide de la méthode [**IVssBackupComponents :: AddAlternativeLocationMapping**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping) . Si le writer de test est configuré pour vérifier si les fichiers ont été restaurés, il vérifie également si le demandeur a appelé **AddAlternativeLocationMapping**.
+Cet exemple spécifie que le demandeur doit tout d’abord tenter de restaurer tous les fichiers correspondant à c : \\ files \\ \*.txt dans le \\ répertoire c : files. Si l’un de ces fichiers ne peut pas être remplacé, le demandeur doit restaurer tous les fichiers dans le répertoire c : altfiles à la \\ place. Le demandeur doit enregistrer ce mappage de l’autre emplacement à l’aide de la méthode [**IVssBackupComponents :: AddAlternativeLocationMapping**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping) . Si le writer de test est configuré pour vérifier si les fichiers ont été restaurés, il vérifie également si le demandeur a appelé **AddAlternativeLocationMapping**.
 
 ## <a name="specifying-files-to-be-excluded"></a>Spécification des fichiers à exclure
 
@@ -190,7 +190,7 @@ L’élément ComponentFile suivant contient un attribut alternatePath :
                    alternatePath="c:\files\spit" />
 ```
 
-Cet exemple configure le writer de test pour copier tous les fichiers correspondant à c : \\ Files \\ \* . txt dans le \\ répertoire c : Files de \\ fractionnement juste avant la création du cliché instantané de volume. Le demandeur doit sauvegarder les fichiers à partir du \\ Répertoire de fractionnement c : Files \\ . Si le writer de test est configuré pour supprimer des fichiers, il supprime les fichiers d’origine avant que le cliché instantané ne soit créé, de sorte qu’ils n’apparaissent pas dans le répertoire c : \\ Files du volume de clichés instantanés. Dans ce cas, les fichiers figurant dans c : \\ files de \\ fractionnement sont supprimés après la création du cliché instantané. ils doivent donc être sauvegardés à partir du répertoire c : \\ Files \\ de fractionnement sur le volume des clichés instantanés.
+Cet exemple configure le writer de test pour copier tous les fichiers correspondant à c : \\ files \\ \*.txt dans le \\ Répertoire de fractionnement c : Files \\ juste avant la création du cliché instantané de volume. Le demandeur doit sauvegarder les fichiers à partir du \\ Répertoire de fractionnement c : Files \\ . Si le writer de test est configuré pour supprimer des fichiers, il supprime les fichiers d’origine avant que le cliché instantané ne soit créé, de sorte qu’ils n’apparaissent pas dans le répertoire c : \\ Files du volume de clichés instantanés. Dans ce cas, les fichiers figurant dans c : \\ files de \\ fractionnement sont supprimés après la création du cliché instantané. ils doivent donc être sauvegardés à partir du répertoire c : \\ Files \\ de fractionnement sur le volume des clichés instantanés.
 
 ## <a name="reporting-component-dependencies"></a>Dépendances des composants de rapport
 
@@ -295,7 +295,7 @@ Voici un exemple d’élément de composant qui a deux sous-éléments PartialFi
     </Component>
 ```
 
-Seuls les fichiers partiels qui correspondent partiellement à un ComponentFile existant (comme dans le premier fichier partiel de l’exemple) ou les nouveaux fichiers partiels qui se trouvent sur le même volume qu’un ComponentFile existant (comme dans le deuxième fichier partiel) doivent être spécifiés de cette façon. Pour ce composant, le demandeur doit sauvegarder entièrement tous les fichiers correspondant à c : \\ Files \\ \* . txt, à l’exception de partial.txt. Le demandeur doit ensuite sauvegarder les plages spécifiées (où une plage est un décalage suivi d’une longueur) pour les fichiers c : \\ files \\partial.txt et c : \\ files2 \\partial.txt.
+Seuls les fichiers partiels qui correspondent partiellement à un ComponentFile existant (comme dans le premier fichier partiel de l’exemple) ou les nouveaux fichiers partiels qui se trouvent sur le même volume qu’un ComponentFile existant (comme dans le deuxième fichier partiel) doivent être spécifiés de cette façon. Pour ce composant, le demandeur doit sauvegarder entièrement tous les fichiers correspondant à c : \\ files \\ \*.txt à l’exception de partial.txt. Le demandeur doit ensuite sauvegarder les plages spécifiées (où une plage est un décalage suivi d’une longueur) pour les fichiers c : \\ files \\partial.txt et c : \\ files2 \\partial.txt.
 
 Si le writer est configuré pour vérifier les restaurations de fichiers, seules les plages sauvegardées du fichier partiel sont vérifiées au moment de la restauration. Les modifications apportées à d’autres parties du fichier seront invisibles. Si l’attribut deletePartialFiles de l’élément racine TestWriter est défini, les fichiers partiels sont supprimés du volume d’origine immédiatement après la création du cliché instantané.
 
@@ -332,7 +332,7 @@ Voici un exemple d’élément de composant qui a deux sous-éléments Differenc
     </Component>
 ```
 
-Contrairement aux fichiers partiels, les fichiers différenciés ne doivent jamais partiellement correspondre à une spécification ComponentFile. La spécification de fichier dans un élément DifferencedFile doit correspondre exactement à un ComponentFile (comme dans le premier fichier différent dans l’exemple) ou elle ne doit pas être identique, mais se trouver sur un volume référencé dans un ComponentFile (comme dans le deuxième fichier différent). Les valeurs de date et d’heure doivent être relatives au fuseau horaire local, mais elles seront converties en heure GMT avant d’être signalées au demandeur. Dans l’exemple, seuls les fichiers correspondant à c : \\ Files \\ \* . txt ou c : \\ files2 \\ \* . txt qui ont été modifiés depuis 1/22/2003:12:44:17 seront sauvegardés.
+Contrairement aux fichiers partiels, les fichiers différenciés ne doivent jamais partiellement correspondre à une spécification ComponentFile. La spécification de fichier dans un élément DifferencedFile doit correspondre exactement à un ComponentFile (comme dans le premier fichier différent dans l’exemple) ou elle ne doit pas être identique, mais se trouver sur un volume référencé dans un ComponentFile (comme dans le deuxième fichier différent). Les valeurs de date et d’heure doivent être relatives au fuseau horaire local, mais elles seront converties en heure GMT avant d’être signalées au demandeur. Dans l’exemple, seuls les fichiers correspondant à c : \\ files \\ \*.txt ou c : \\ files2 \\ \*.txt qui ont été modifiés depuis 1/22/2003:12:44:17 seront sauvegardés.
 
 Si le writer de test est configuré pour vérifier les restaurations de fichiers, seuls les fichiers modifiés sont vérifiés pour la restauration. Si l’attribut deleteDifferencedFiles de l’élément racine TestWriter est défini, les fichiers différenciés sont supprimés du volume d’origine immédiatement après la création du cliché instantané.
 
@@ -344,7 +344,7 @@ Si un writer prend en charge de nouvelles cibles, le demandeur peut informer l�
 
 ## <a name="more-information"></a>Informations complémentaires
 
-Le writer de test prend en charge d’autres options de configuration qui ne sont pas décrites ici. Le schéma complet de toutes les fonctionnalités de configuration du writer de test est spécifié dans swriter.xml dans `%ProgramFiles%\Microsoft SDKs\Windows\v7.0\bin\x64\vsstools` (pour windows 64 bits) et `%ProgramFiles%\Microsoft SDKs\Windows\v7.0\bin\vsstools` (pour Windows 32 bits). Ce fichier contient un schéma XML qui décrit complètement tous les éléments et attributs qui composent un fichier de configuration. Chaque élément et chaque attribut de ce fichier sont commentés avec une description qui documente l’utilisation de l’attribut ou de l’élément.
+Le writer de test prend en charge d’autres options de configuration qui ne sont pas décrites ici. le schéma complet de toutes les fonctionnalités de configuration du Writer de Test est spécifié dans swriter.xml dans `%ProgramFiles%\Microsoft SDKs\Windows\v7.0\bin\x64\vsstools` (pour les Windows 64 bits) et `%ProgramFiles%\Microsoft SDKs\Windows\v7.0\bin\vsstools` (pour les Windows de 32 bits). Ce fichier contient un schéma XML qui décrit complètement tous les éléments et attributs qui composent un fichier de configuration. Chaque élément et chaque attribut de ce fichier sont commentés avec une description qui documente l’utilisation de l’attribut ou de l’élément.
 
  
 

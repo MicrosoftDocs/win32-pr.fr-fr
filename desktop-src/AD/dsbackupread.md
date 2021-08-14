@@ -15,16 +15,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 409c2a7d93503aad4edff88070c0458efc961d23
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 16b5ea4da5b004bb4584eb119419b8c89658f36fed7e8c47514bae47d44e31b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430001"
 ---
 # <a name="dsbackupread-function"></a>DsBackupRead fonction)
 
-\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. À partir de Windows Vista, utilisez [service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
+\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. à partir de Windows Vista, utilisez [Service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
 
 La fonction **DsBackupRead** lit un bloc de données à partir du fichier ouvert actuel, dans une mémoire tampon. L’application cliente est censée appeler cette fonction à plusieurs reprises jusqu’à ce que l’intégralité du fichier de sauvegarde soit reçue. La fonction [**DsBackupOpenFile**](dsbackupopenfile.md) fournit la taille totale du fichier de sauvegarde.
 

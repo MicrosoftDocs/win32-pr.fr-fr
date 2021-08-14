@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: efe38f2e825e2de566391a7b1707ce1f8cfbbc68
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2ec45a9c240a9dd5d30d2089f98216fc165af13fe418424f5b85feed5e022b67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118131554"
 ---
 # <a name="subscription-eventtriggertype-element"></a>Élément Subscription (eventTriggerType)
 
@@ -42,7 +42,7 @@ L’élément d' **abonnement** est défini par le type complexe [**eventTrigger
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de script, l’abonnement aux événements est spécifié par la propriété [**EventTrigger. subscription**](eventtrigger-subscription.md) .
 
@@ -54,8 +54,8 @@ Pour le développement C++, l’abonnement aux événements est spécifié par l
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

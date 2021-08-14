@@ -3,7 +3,7 @@ title: Head, élément
 description: L’élément head contient des métadonnées qui s’appliquent à la sélection entière.
 ms.assetid: 9554c84a-34af-4492-964a-4b262cd7c4a4
 keywords:
-- Élément head Windows Media Player
+- élément head Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8708a8a683f7457e6568df3a897c71253ad76c02
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a865419a005927cd85ea6b03d4fabad2e2ac3ef15a840b3bd01209a4df00c075
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118339169"
 ---
 # <a name="head-element"></a>Head, élément
 
@@ -46,7 +46,7 @@ Cet élément n’a pas d’attributs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En général, l’élément **Head** contient un élément **title** et un ou plusieurs éléments **meta** qui définissent les caractéristiques globales de la sélection.
 
@@ -86,7 +86,7 @@ En général, l’élément **Head** contient un élément **title** et un ou pl
 [**title, élément (WPL)**](title-element--wpl.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de sélection Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Référence des éléments de sélection de média**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

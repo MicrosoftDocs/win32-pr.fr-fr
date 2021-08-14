@@ -3,19 +3,19 @@ title: Fonctionnement de l’exemple Echo
 description: Fonctionnement de l’exemple Echo
 ms.assetid: 554afc08-6e4f-427c-8a09-0d1ebf3ca8dc
 keywords:
-- Plug-ins du lecteur Windows Media, vue d’ensemble de l’exemple Echo
+- plug-ins Lecteur Windows Media, vue d’ensemble de l’exemple Echo
 - plug-ins, vue d’ensemble de l’exemple Echo
 - plug-ins de traitement de signal numérique, vue d’ensemble de l’exemple Echo
 - Plug-ins DSP, vue d’ensemble de l’exemple Echo
 - Echo DSP, exemple de plug-in, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08814a6f0d604c7d566a0fc8d9f07b05446fca64
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 290cb56bbf1900dbcc09874213490f80cdc3af179ff243a2867bb232c3bb85c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118338954"
 ---
 # <a name="how-the-echo-sample-works"></a>Fonctionnement de l’exemple Echo
 
@@ -27,7 +27,7 @@ Le délai est exprimé en millisecondes. Le taux d’échantillonnage et les val
 
 En plus de la variable pointeur qui pointe vers le début de la mémoire tampon de délai, le code crée un pointeur mobile qui parcourt les données dans la mémoire tampon en synchronisation avec la boucle de traitement dans la fonction **DoProcessOutput** . Lorsque le pointeur mobile atteint la fin de la mémoire tampon de retard, il revient à l’en-tête de la mémoire tampon. Une mémoire tampon utilisée de cette manière est appelée mémoire tampon circulaire.
 
-Une fois que la mémoire tampon de délai existe et que le lecteur Windows Media a alloué une mémoire tampon d’entrée pour fournir des données audio et une mémoire tampon de sortie pour recevoir les données audio traitées, le traitement des échos se déroule comme suit :
+une fois que la mémoire tampon de délai existe et que Lecteur Windows Media a alloué une mémoire tampon d’entrée pour fournir des données audio et une mémoire tampon de sortie pour recevoir les données audio traitées, le traitement des échos se déroule comme suit :
 
 1.  Entrez une boucle qui autorise le traitement de chaque échantillon audio dans la mémoire tampon d’entrée.
 2.  Récupérez un exemple de la mémoire tampon d’entrée. Ensuite, déplacez le pointeur de la mémoire tampon d’entrée vers l’exemple suivant pour préparer l’itération de la boucle suivante.
@@ -49,9 +49,9 @@ Lorsqu’un flux démarre, aucune donnée de délai n’est générée tant que 
 [**Vue d’ensemble de l’exemple Echo**](echo-sample-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

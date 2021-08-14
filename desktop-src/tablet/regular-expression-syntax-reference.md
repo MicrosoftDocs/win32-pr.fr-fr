@@ -4,12 +4,12 @@ ms.assetid: e3afe735-eca8-4fda-bd5b-cc0ab0b6a872
 title: Référence de syntaxe des expressions régulières
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23c0de50ff37795032719d9bc90ee81891324ba9
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 33f09bbf81f86e3609f745358f0b18e35cf3f4712f3b1770fb3eb9c8becebc99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104211181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118715529"
 ---
 # <a name="regular-expression-syntax-reference"></a>Référence de syntaxe des expressions régulières
 
@@ -39,9 +39,9 @@ Les opérateurs suivants sont valides pour la création d’expressions réguli�
 
  
 
-L’implémentation Microsoft d’expressions régulières pour les reconnaissance de l’écriture manuscrite permet d’obtenir des applications répétées d’opérateurs unaires suffixés. Par exemple, a \* \* = (a \* ) \* = a \* , b ?? = (b ?) ? = b ?. Elles autorisent également les répétitions non consécutives, par exemple : a \* ? \* = ((a \* ) ?) \* = (a \* ) \* = a \* . Cela diffère de .NET Framework expressions régulières, qui n’autorisent que le ? opérateur à répéter.
+L’implémentation Microsoft d’expressions régulières pour les reconnaissance de l’écriture manuscrite permet d’obtenir des applications répétées d’opérateurs unaires suffixés. Par exemple, a \* \* = (a \* ) \* = a \* , b ?? = (b ?) ? = b ?. Elles autorisent également les répétitions non consécutives, par exemple : a \* ? \* = ((a \* ) ?) \* = (a \* ) \* = a \* . cela diffère de .NET Framework expressions régulières, qui n’autorisent que le ? opérateur à répéter.
 
-Une autre différence par rapport à .NET Framework expressions régulières est que les expressions régulières d’écriture ne prennent pas en charge une expression vide désignée avec une paire de parenthèses vide ().
+une autre différence par rapport à .NET Framework expressions régulières est que les expressions régulières d’écriture ne prennent pas en charge une expression vide désignée avec une paire de parenthèses vide ().
 
 > [!Note]  
 > Seuls les caractères de la page de codes 1252 sont pris en charge pour les expressions régulières d’écriture manuscrite.

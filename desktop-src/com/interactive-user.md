@@ -4,12 +4,12 @@ description: L’utilisateur interactif est l’utilisateur actuellement connect
 ms.assetid: 6d43842c-0ad1-4563-b50c-5024bda480f1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb7fc8aeb5fd9674c09b40f6c46e4e173f5965a9
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: d7d842a468634da0eba31b04317b66185b298fc5a2e44d3567f796dac52dbdc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992729"
 ---
 # <a name="interactive-user"></a>Utilisateur interactif
 
@@ -24,7 +24,7 @@ Si un serveur COM est configuré pour s’exécuter en tant qu’utilisateur int
 
 <dl> <dt>
 
-[Identité de l’application](application-identity.md)
+[Identité de l'application](application-identity.md)
 </dt> <dt>
 
 [Lancement de l’utilisateur](launching-user.md)
@@ -36,6 +36,6 @@ Si un serveur COM est configuré pour s’exécuter en tant qu’utilisateur int
 [Utilisateur spécifié](specified-user.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

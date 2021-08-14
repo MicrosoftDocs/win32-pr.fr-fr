@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0d945dff9c124f4c66cea4f9d61c490c6eaf7a66
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 313273ab791fe63fa85440a5bfe3fdffe41726f15c2d6a8d0343408fdf7d67f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118524936"
 ---
 # <a name="d3dxplanefrompoints-function-d3dx9mathh"></a>D3DXPlaneFromPoints, fonction (D3dx9math. h)
 
@@ -79,13 +79,13 @@ Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) , définissant l�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXPLANE**](d3dxplane.md)\***
 
 Pointeur vers la structure [**D3DXPLANE**](d3dxplane.md) construite à partir des points donnés.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXPlaneFromPoints** peut être utilisée comme paramètre pour une autre fonction.
 

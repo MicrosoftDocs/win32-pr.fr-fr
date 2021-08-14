@@ -34,12 +34,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b40be8b8e63f210d060c0f585c9fe31328ac6ed6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df4216b4babf74e5e5f15994c0d8387e0d5087c4f69e4d0245b59cb5765dfe88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352511"
 ---
 # <a name="imsrdpclientadvancedsettings5audioredirectionmode-property"></a>IMsRdpClientAdvancedSettings5 :: AudioRedirectionMode, propriété
 
@@ -77,7 +77,7 @@ Définit des valeurs différentes pour le mode de redirection audio. Ce paramèt
 
 <span id="AUDIO_MODE_PLAY_ON_SERVER_1"></span><span id="audio_mode_play_on_server_1"></span>
 
-**Audio \_ Lecture en MODE \_ \_ sur le \_ serveur 1** (la redirection audio est activée et l’option est « conserver sur l’ordinateur distant ». L’option « conserver sur l’ordinateur distant » est prise en charge uniquement lors de la connexion à distance à un ordinateur hôte qui exécute Windows Vista. Si la connexion est vers un ordinateur hôte qui exécute Windows Server 2008, l’option « conserver sur l’ordinateur distant » est remplacée par « ne pas lire ».)
+**Audio \_ Lecture en MODE \_ \_ sur le \_ serveur 1** (la redirection audio est activée et l’option est « conserver sur l’ordinateur distant ». l’option « conserver sur l’ordinateur distant » est prise en charge uniquement lors de la connexion à distance à un ordinateur hôte exécutant Windows Vista. si la connexion est vers un ordinateur hôte qui exécute Windows Server 2008, l’option « conserver sur l’ordinateur distant » est remplacée par « ne pas lire ».)
 
 
 </dt> <dd></dd> <dt>

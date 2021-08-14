@@ -7,12 +7,12 @@ keywords:
 - Définition des autorisations sur une propriété Active Directory spécifique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99dbfc3dc682103166b41957a3f52206d84fe671
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: ca7f55fba3ae2be54a29ade3dee1dc161fa0c6d2dbe478fb42f39319fbeaf4fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104030979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183313"
 ---
 # <a name="setting-permissions-to-a-specific-property"></a>Définition des autorisations sur une propriété spécifique
 
@@ -33,6 +33,6 @@ Pour plus d’informations sur la création d’une entrée du contrôle d’acc
 
 Pour plus d’informations et pour obtenir un exemple de code qui peut être utilisé pour définir une entrée du contrôle d’accès spécifique à une propriété, consultez [l’exemple de code permettant de définir une entrée du contrôle d’accès sur un objet d’annuaire](example-code-for-setting-an-ace-on-a-directory-object.md).
 
- 
+ 
 
- 
+ 

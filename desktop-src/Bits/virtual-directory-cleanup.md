@@ -4,12 +4,12 @@ description: BITS étend les répertoires virtuels IIS pour prendre en charge le
 ms.assetid: 8214904e-8a95-4c4b-a1c5-91e84031587f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83fb689bb3c797a311ec7c2ef8134eb51ffd6f1a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1ce883bbd9f1af31bc7cafb10a2484f3a56ecbcffa7917a5a0e491a38da4701b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118422190"
 ---
 # <a name="virtual-directory-cleanup"></a>Nettoyage de répertoire virtuel
 
@@ -22,8 +22,8 @@ Utilisez l’onglet extension BITS ou les interfaces [Planificateur de tâches](
 > [!Note]  
 > Si le Planificateur de tâches est désactivé une fois que le répertoire virtuel est activé, le processus de nettoyage du répertoire virtuel ne fonctionnera pas.
 
- 
+ 
 
- 
+ 
 
- 
+ 

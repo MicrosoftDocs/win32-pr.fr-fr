@@ -1,22 +1,22 @@
 ---
 title: Exemple de code pour l’ajout d’un groupe ou d’un utilisateur de domaine à un groupe local
-description: Cette rubrique contient un exemple de code qui montre comment ajouter un groupe ou un utilisateur de domaine à un groupe local sur un serveur membre ou sur un ordinateur qui exécute Windows NT Workstation ou Windows 2000 professionnel.
+description: cette rubrique contient un exemple de code qui montre comment ajouter un groupe ou un utilisateur de domaine à un groupe local sur un serveur membre ou un ordinateur qui exécute sur Windows NT Workstation ou Windows 2000 Professional.
 ms.assetid: 6333ce9f-0396-4af7-9e81-f008cf4536ec
 ms.tgt_platform: multiple
 keywords:
 - Active Directory exemples Active Directory, ajout d’un groupe ou d’un utilisateur de domaine à un groupe local
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 539e8fbbeed3d865a0878236745b7a3c74c76d27
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bdca65c26c6ab1195dcd0d7fc3f44b36e39bed1d15e97627664754c918e57e96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694687"
 ---
 # <a name="example-code-for-adding-a-domain-user-or-group-to-a-local-group"></a>Exemple de code pour l’ajout d’un groupe ou d’un utilisateur de domaine à un groupe local
 
-L’exemple de code C++ suivant ajoute un utilisateur ou un groupe de domaine à un groupe local sur un serveur membre ou sur un ordinateur qui exécute Windows NT Workstation ou Windows 2000 professionnel.
+l’exemple de code C++ suivant ajoute un utilisateur ou un groupe de domaine à un groupe local sur un serveur membre ou un ordinateur qui exécute sur Windows NT Workstation ou Windows 2000 Professional.
 
 
 ```C++
@@ -106,7 +106,7 @@ HRESULT AddDomainUserToLocalGroup(LPCWSTR pwszComputerName,
 
 
 
-L’exemple de code Visual Basic suivant ajoute un utilisateur ou un groupe de domaine à un groupe local sur un serveur membre ou sur un ordinateur qui exécute Windows NT Workstation ou Windows 2000 professionnel.
+l’exemple de code Visual Basic suivant ajoute un utilisateur ou un groupe de domaine à un groupe local sur un serveur membre ou un ordinateur qui exécute sur Windows NT Workstation ou Windows 2000 Professional.
 
 
 ```VB
@@ -154,9 +154,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

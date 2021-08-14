@@ -1,23 +1,23 @@
 ---
-description: Cette rubrique présente le nouveau schéma XMP (Extensible Metadata Platform) et la propriété photo Windows 7 System. photo. PeopleNames qui permet d’étiqueter des individus dans une photo numérique.
+description: cette rubrique présente le nouveau schéma XMP (Extensible Metadata Platform) et le Windows 7 photo property System. photo. PeopleNames qui permet d’étiqueter des individus dans une photo numérique.
 ms.assetid: 557c3e9a-1756-4abb-8465-b12195ecbc91
 title: Vue d’ensemble du balisage des personnes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e64f2080e51d4d340474e0610fcce9512fc72429
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66a262acd70474f75689e99a3bcd1087cd0117ae3602b78a90357aa932fdd7fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118205702"
 ---
 # <a name="people-tagging-overview"></a>Vue d’ensemble du balisage des personnes
 
-Cette rubrique présente le nouveau schéma XMP (Extensible Metadata Platform) et la propriété photo Windows 7 [System. photo. PeopleNames](../properties/props-system-photo-peoplenames.md) qui permet d’étiqueter des individus dans une photo numérique. Cette rubrique explique également comment utiliser l’API WIC (Windows Imaging Component) pour lire et écrire les métadonnées nécessaires au balisage des personnes.
+cette rubrique présente le nouveau schéma XMP (Extensible Metadata Platform) et le Windows 7 photo property [System. photo. PeopleNames](../properties/props-system-photo-peoplenames.md) qui permet d’étiqueter des individus dans une photo numérique. cette rubrique explique également comment utiliser l’API WIC (Windows Imaging Component) pour lire et écrire les métadonnées nécessaires au balisage des personnes.
 
 Cette rubrique contient les sections suivantes.
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Introduction](#introduction)
 -   [Balisage de personnes](#people-tagging-overview)
     -   [Noms de personnes](#people-names)
@@ -31,11 +31,11 @@ Cette rubrique contient les sections suivantes.
 
 ## <a name="prerequisites"></a>Prérequis
 
-Pour comprendre cette rubrique, vous devez être familiarisé avec les interfaces de décodeur WIC et les composants COM (Component Object Model) associés, comme décrit dans la [vue d’ensemble du composant de création d’images Windows](-wic-about-windows-imaging-codec.md). Il permet également d’avoir une connaissance générale des métadonnées d’acquisition d’images, en particulier XMP.
+pour comprendre cette rubrique, vous devez être familiarisé avec les interfaces de décodeur WIC et les composants COM (component Object Model) associés, comme décrit dans la [vue d’ensemble du composant de création d’images Windows](-wic-about-windows-imaging-codec.md). Il permet également d’avoir une connaissance générale des métadonnées d’acquisition d’images, en particulier XMP.
 
 ## <a name="introduction"></a>Introduction
 
-Microsoft a créé un nouveau schéma XMP pour baliser les personnes au sein d’une image numérique. Ce schéma permet aux applications de stocker les noms et les emplacements des individus qui se trouvent dans l’image en tant que métadonnées dans l’image. Outre le nouveau schéma, la nouvelle propriété photo [System. photo. PeopleNames](../properties/props-system-photo-peoplenames.md) est disponible dans Windows 7. Cette nouvelle propriété permet aux applications de lire les noms individuels stockés dans les métadonnées de l’image. WIC utilise ces nouvelles fonctionnalités en permettant aux applications de lire et d’écrire facilement des métadonnées de balisage sur des photos numériques.
+Microsoft a créé un nouveau schéma XMP pour baliser les personnes au sein d’une image numérique. Ce schéma permet aux applications de stocker les noms et les emplacements des individus qui se trouvent dans l’image en tant que métadonnées dans l’image. outre le nouveau schéma, la nouvelle propriété photo [System. photo. PeopleNames](../properties/props-system-photo-peoplenames.md) est disponible dans Windows 7. Cette nouvelle propriété permet aux applications de lire les noms individuels stockés dans les métadonnées de l’image. WIC utilise ces nouvelles fonctionnalités en permettant aux applications de lire et d’écrire facilement des métadonnées de balisage sur des photos numériques.
 
 ## <a name="people-tagging"></a>Balisage de personnes
 
@@ -279,7 +279,7 @@ Voici une représentation des métadonnées XMP pour le balisage des personnes.
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Vue d’ensemble des métadonnées WIC](-wic-about-metadata.md)

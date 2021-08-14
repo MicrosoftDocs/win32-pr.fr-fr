@@ -4,12 +4,12 @@ description: Les API de serveur HTTP utilisent la base de données de routage po
 ms.assetid: d72aa213-b8e8-4fe9-b98c-41114d2cea56
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c1e02d2511d9967454d5cbddd93b2c0380d1172
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 74454d888cccf083e27fc9067c8a5485e286b4f55df4c5c18f2b2e490dc9db39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104463902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393842"
 ---
 # <a name="processing-registrations"></a>Traitement des inscriptions
 
@@ -34,9 +34,9 @@ Les exemples suivants illustrent le processus d’installation d’une inscripti
 
 Le contrôle d’accès pour l’inscription n’inclut pas les vérifications des privilèges de délégation. Il n’y a pas de contrôles d’accès basés sur des réservations (voir [**HttpRemoveUrl**](/windows/desktop/api/Http/nf-http-httpremoveurl)). La seule exigence pour supprimer une inscription au processus appelant doit avoir créé l’inscription.
 
- 
+ 
 
- 
+ 
 
 
 

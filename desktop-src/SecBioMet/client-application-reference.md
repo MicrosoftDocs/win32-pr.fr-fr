@@ -1,21 +1,21 @@
 ---
 title: Référence de l’application cliente
-description: Fonctions, structures et autres types que vous pouvez utiliser pour générer des applications clientes qui interagissent avec l’Windows Biometric Framework.
+description: fonctions, structures et autres types que vous pouvez utiliser pour générer des applications clientes qui interagissent avec l’Windows Biometric Framework.
 ms.assetid: 3a4e1aec-b92e-445e-b597-886b01a1b267
 keywords:
-- API Windows Biometric Framework API Windows Biometric Framework, référence des applications clientes
+- Windows api de l’infrastructure biométrique Windows Biometric Framework api, référence des applications clientes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 291aaf3b14aeccaf140799e029deb12a2c08781f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 682834171f813fa655f27be0a8cf9cfd5f4c24340b08f6c312a29673ec659956
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993969"
 ---
 # <a name="client-application-reference"></a>Référence de l’application cliente
 
-Les rubriques suivantes contiennent des fonctions, des structures et d’autres types que vous pouvez utiliser pour générer des applications clientes qui interagissent avec l’Windows Biometric Framework. Pour plus d’informations sur la création de plug-ins personnalisés, consultez [référence de plug-](plug-in-reference.md)in.
+les rubriques suivantes contiennent des fonctions, des structures et d’autres types que vous pouvez utiliser pour générer des applications clientes qui interagissent avec l’Windows Biometric Framework. Pour plus d’informations sur la création de plug-ins personnalisés, consultez [référence de plug-](plug-in-reference.md)in.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -23,11 +23,11 @@ Les rubriques suivantes contiennent des fonctions, des structures et d’autres 
 
 | Rubrique                                                                                         | Description                                                                                                |
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| [Fonctions de l’application cliente](client-application-functions.md)<br/>                   | Fonctions prises en charge pour le développement d’applications clientes par l’API Windows Biometric Framework.<br/>  |
+| [Fonctions de l’application cliente](client-application-functions.md)<br/>                   | fonctions prises en charge pour le développement d’applications clientes par l’API Windows Biometric Framework.<br/>  |
 | [Fonctions de rappel d’application cliente](client-application-callback-functions.md)<br/> | Deux types de signatures de rappel.<br/>                                                               |
 | [Structures d’application cliente](client-application-structures.md)<br/>                 | Structures prises en charge pour le développement d’applications clientes par l’API Windows Biometric Framework.<br/> |
-| [Énumérations des applications clientes](client-application-enumerations.md)<br/>             | Énumérations prises en charge par l’API Windows Biometric Framework.<br/>                         |
-| [Unions d’application cliente](client-application-unions.md)<br/>                         | Unions prises en charge par l’API Windows Biometric Framework.<br/>                               |
+| [Énumérations des applications clientes](client-application-enumerations.md)<br/>             | énumérations prises en charge par l’API Windows Biometric Framework.<br/>                         |
+| [Unions d’application cliente](client-application-unions.md)<br/>                         | unions prises en charge par l’API Windows Biometric Framework.<br/>                               |
 | [Constantes d’application cliente](client-application-constants.md)<br/>                   | Constantes définies dans le \_ fichier d’en-tête WinBio. h.<br/>                                           |
 
 
@@ -38,7 +38,7 @@ Les rubriques suivantes contiennent des fonctions, des structures et d’autres 
 
 <dl> <dt>
 
-[Informations de référence sur l’API Windows Biometric Framework](biometric-service-api-reference.md)
+[Windows Informations de référence sur l’API de Framework biométrique](biometric-service-api-reference.md)
 </dt> </dl>
 
  

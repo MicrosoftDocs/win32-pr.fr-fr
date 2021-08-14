@@ -7,12 +7,12 @@ keywords:
 - Active Directory de l’arborescence de domaine
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a21d2b36968615fd4e92912fdd94246ef8dda0c1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 40a1e2ed05284d2a08735b048fb41d97d6597634f711094d0a3763c2d7f8be67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430513"
 ---
 # <a name="domain-trees"></a>Arborescences de domaines
 
@@ -24,7 +24,7 @@ Les arborescences peuvent être consultées de deux façons. Une vue est celle d
 
 Vous pouvez dessiner un diagramme d’une arborescence de domaine en fonction des domaines individuels et de la relation d’approbation existante.
 
-Windows 2000 établit des relations d’approbation entre les domaines selon le protocole de sécurité Kerberos. L’approbation Kerberos est transitive et hiérarchique : si le domaine A approuve le domaine B et que le domaine B approuve le domaine C, le domaine A approuve le domaine C.
+Windows 2000 établit des relations d’approbation entre des domaines basés sur le protocole de sécurité Kerberos. L’approbation Kerberos est transitive et hiérarchique : si le domaine A approuve le domaine B et que le domaine B approuve le domaine C, le domaine A approuve le domaine C.
 
 ![relation d’approbation de l’arborescence de domaine](images/domain-trust.png)
 
@@ -34,9 +34,9 @@ Vous pouvez également dessiner un diagramme d’une arborescence de domaine en 
 
 ![arborescence du domaine de l’espace de noms](images/namespace.png)
 
- 
+ 
 
- 
+ 
 
 
 

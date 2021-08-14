@@ -3,9 +3,9 @@ title: Méthode PlaylistCollection. getByName
 description: La méthode getByName récupère un objet PlaylistArray contenant des sélections portant le nom spécifié, le cas échéant.
 ms.assetid: 0308a98d-1149-4367-b602-33fa54c1760f
 keywords:
-- méthode getByName lecteur Windows Media
-- méthode getByName lecteur Windows Media, classe PlaylistCollection
-- Classe PlaylistCollection lecteur Windows Media, méthode getByName
+- Lecteur Windows Media de la méthode getByName
+- méthode getByName Lecteur Windows Media, classe PlaylistCollection
+- Lecteur Windows Media de la classe PlaylistCollection, méthode getByName
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7954df8e0ccc487df77ea31b3a26dce9eea6d2e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 300307ff011abf8b28c645901422291ccab4cf7c66a7a3ba81121ffe1c22e573
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334640"
 ---
 # <a name="playlistcollectiongetbyname-method"></a>Méthode PlaylistCollection. getByName
 
@@ -53,7 +53,7 @@ retVal = PlaylistCollection.getByName(
 
 Cette méthode retourne un objet **PlaylistArray** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez *PlaylistArray*. **Count** pour déterminer si une sélection existe. Si **Count** est égal à zéro, aucune playlist n’existe.
 
@@ -61,7 +61,7 @@ Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requ
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise *playlistCollection*. **GetByName** pour vérifier l’objet **playlistCollection** pour une sélection nommée « ThreeList ». Si la sélection « Threelist » existe, **GetByName** définit « Threelist » comme sélection actuelle. L’objet **Player** a été créé avec l’ID = "Player".
+l’exemple de JScript suivant utilise *playlistCollection*. **GetByName** pour vérifier l’objet **playlistCollection** pour une sélection nommée « ThreeList ». Si la sélection « Threelist » existe, **GetByName** définit « Threelist » comme sélection actuelle. L’objet **Player** a été créé avec l’ID = "Player".
 
 
 ```JScript

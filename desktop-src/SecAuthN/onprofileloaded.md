@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Lsaidprov.h
-ms.openlocfilehash: cff9056ab5ea5437bb37da9b3c01368127db11cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a8ed0d96ab7c9c63f9574472cac0daedba54e42beec244271efcc309c04dd95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921143"
 ---
 # <a name="onprofileloaded-function"></a>OnProfileLoaded fonction)
 
@@ -68,7 +68,7 @@ Si la fonction réussit, la fonction retourne l’état \_ Success.
 
 Si la fonction échoue, la fonction retourne un code d’erreur différent de zéro qui est une erreur spécifique au fournisseur à des fins de diagnostic.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est appelée chaque fois que la fonction [**LoadUserProfile**](/windows/win32/api/userenv/nf-userenv-loaduserprofilea) est appelée. Elle n’est pas synchronisée avec **LoadUserProfile**; autrement dit, **LoadUserProfile** peut avoir retourné et le profil a peut-être été déchargé au moment où la fonction a été appelée. Cette fonction peut être appelée plusieurs fois, même lorsque le profil a été chargé. Le fournisseur d’identité ne doit pas supposer qu’un appel à cette fonction avec *Loaded* égal à true sera suivi d’un appel avec *Loaded* égal à false.
 
@@ -78,8 +78,8 @@ Cette fonction est appelée chaque fois que la fonction [**LoadUserProfile**](/w
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>Lsaidprov. h</dt> </dl> |
 
 

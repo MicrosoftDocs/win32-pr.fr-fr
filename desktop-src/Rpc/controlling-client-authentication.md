@@ -4,12 +4,12 @@ description: La meilleure méthode pour authentifier un client consiste à insta
 ms.assetid: 3e858a71-9190-44a3-bc63-08cfbd02d443
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3508e99b351cd57fb67a3727710b60562ffe25dc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bb00a03740d99b137f97b085525e4c7232483dc15db487daf486ad51560b4427
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931236"
 ---
 # <a name="controlling-client-authentication"></a>Contrôle de l’authentification du client
 
@@ -17,9 +17,9 @@ La meilleure méthode pour authentifier un client consiste à installer une fonc
 
 Pour autoriser l’accès à un sous-ensemble des utilisateurs authentifiés, utilisez [**RpcGetAuthorizationContextForClient**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient). Cette fonction retourne un contexte de client auth qui peut être utilisé pour effectuer des vérifications d’accès très sophistiquées. Par exemple, cette méthode peut être utilisée pour autoriser l’accès uniquement aux vice-présidents d’une organisation pendant les heures de travail normales, et au PDG pendant toute heure à l’aide des services de Active Directory pour mapper un nom d’utilisateur à son titre. L’utilisateur peut être représenté et son nom obtenu. Une fois que leur identité est connue, toute vérification souhaitée peut être effectuée.
 
- 
+ 
 
- 
+ 
 
 
 

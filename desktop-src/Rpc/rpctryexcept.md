@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5876a3fe0b33f96a5e10a9c712bdcadcbfca10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0c7a73ca80eb342b9a23fcaa4b922afe8d19f00e1f22ab82f8c6027ecc43d76d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925966"
 ---
 # <a name="rpctryexcept"></a>RpcTryExcept
 
@@ -27,7 +27,7 @@ L’instruction **RpcTryExcept** fournit une gestion structurée des exceptions 
 
 Pour plus d’informations, consultez [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept).
 
-**Windows Vista et les versions ultérieures de Windows :**  [**RpcExceptionFilter**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcexceptionfilter) est recommandé pour la gestion structurée des exceptions pour les exceptions les plus courantes comme alternative aux filtres personnalisés avec [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept).
+**Windows Vista et les versions ultérieures de Windows :**[**RpcExceptionFilter**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcexceptionfilter) est recommandé pour la gestion structurée des exceptions pour les exceptions les plus courantes comme alternative aux filtres personnalisés avec [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept).  
 
 ## <a name="requirements"></a>Configuration requise
 

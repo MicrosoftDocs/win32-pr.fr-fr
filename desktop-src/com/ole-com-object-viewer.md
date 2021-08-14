@@ -4,12 +4,12 @@ description: L’Explorateur d’objets OLE-COM, Oleview.exe, est une applicatio
 ms.assetid: 896a78a7-f023-4f32-b5bb-afee4a40a7fc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7ee3fa3f661ad27fc70f50c44ac794ffeadc21c
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 576c033c83492b339b872800c63a1c62c700f858c8841d2e5181807e3bc3671f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118310569"
 ---
 # <a name="ole-com-object-viewer"></a>Explorateur d’objets OLE-COM
 
@@ -31,6 +31,6 @@ Pour plus d’informations, consultez [utilisation de l’Explorateur d’objets
 [Traduire en C++](translating-to-c--.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

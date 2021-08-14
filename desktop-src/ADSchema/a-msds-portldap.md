@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81ccdc6621f473986a572eddc9fed4c6e04d2bc4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5ea86b20869d99e6b9c038c1b129c502497350fc2d214c06f4ad3eb2a887f83c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118425815"
 ---
 # <a name="ms-ds-port-ldap-attribute"></a>attribut ms-DS-port-LDAP
 
@@ -36,7 +36,7 @@ Spécifie le port utilisé par le service d’annuaire pour écouter les requêt
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1859              |
 | System-ID-GUID    | 977225c1-5bdf-42b7-b6db-c3af077f558f |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 

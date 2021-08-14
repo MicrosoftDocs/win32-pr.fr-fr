@@ -3,7 +3,7 @@ title: Pour identifier les numéros de sortie
 description: Pour identifier les numéros de sortie
 ms.assetid: a2135a71-52e6-4f62-8be8-b9886be9b37c
 keywords:
-- Windows Media Format SDK, identifier les numéros de sortie
+- Windows Media Format SDK, identification des numéros de sortie
 - ASF (Advanced Systems Format), identification des numéros de sortie
 - ASF (format de systèmes avancés), identification des numéros de sortie
 - ASF (Advanced Systems Format), nombres et formats de sortie
@@ -11,12 +11,12 @@ keywords:
 - nombres et formats de sortie, identification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c08f8e9a49d672efe7c04ecdde11ca4ef297d552
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: c601481520632806ac56e12e16e1474336897d1be341c9d19df8e235d6355ab1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106509239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699379"
 ---
 # <a name="to-identify-output-numbers"></a>Pour identifier les numéros de sortie
 
@@ -37,7 +37,7 @@ Le lecteur synchrone fournit également des méthodes pour récupérer des assoc
 
 <dl> <dt>
 
-[**Entrées, flux et sorties**](inputs-streams-and-outputs.md)
+[**entrées, Flux et sorties**](inputs-streams-and-outputs.md)
 </dt> <dt>
 
 [**Interface IWMMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops)
@@ -55,9 +55,9 @@ Le lecteur synchrone fournit également des méthodes pour récupérer des assoc
 [**Utilisation des sorties**](working-with-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

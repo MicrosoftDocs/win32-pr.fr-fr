@@ -3,9 +3,9 @@ title: Événement Player. MediaCollectionChange
 description: L’événement MediaCollectionChange se produit lorsque la collection de supports change. | Événement Player. MediaCollectionChange
 ms.assetid: 1cc8f26d-ccd5-49ba-a2b3-0adfe9b51b11
 keywords:
-- Événement MediaCollectionChange lecteur Windows Media
-- Événement MediaCollectionChange lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement MediaCollectionChange
+- Lecteur Windows Media d’événements MediaCollectionChange
+- Lecteur Windows Media d’événements MediaCollectionChange, classe Player
+- Lecteur Windows Media de classe Player, événement MediaCollectionChange
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05177b542217132bb10004a29faaa3cbe7fcce6b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6bc5af57908371eaf7fd7e75dab39bb966977de358fa9488e54d32e985a104c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118338086"
 ---
 # <a name="playermediacollectionchange-event"></a>Événement Player. MediaCollectionChange
 
@@ -44,7 +44,7 @@ Cet événement n’a pas de paramètres.
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 

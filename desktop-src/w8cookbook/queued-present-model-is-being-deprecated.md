@@ -4,12 +4,12 @@ description: Le modèle actuel mis en file d’attente est déconseillé
 ms.assetid: 271CD4F7-0992-47DB-AF5A-B77570EF681A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5713009cd5cd3a575d0d634f81fce7a289d1c1c
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: a7cb1d4d07a824c2c6f9d0136259aec98b89c53e1320ceb6402241f881e312fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "106511108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118211344"
 ---
 # <a name="queued-present-model-is-being-deprecated"></a>Le modèle actuel mis en file d’attente est déconseillé
 
@@ -21,7 +21,7 @@ ms.locfileid: "106511108"
 
 ## <a name="description"></a>Description
 
-Dans la version Windows ultérieure à Windows 8, ces API retournent E \_ NOTIMPL :
+dans la version Windows après Windows 8, ces api retournent E \_ NOTIMPL :
 
 -   DwmSetPresentParameters
 -   DwmSetDxFrameDuration
@@ -37,19 +37,19 @@ Nous déconseillons également l’utilisation de l’API DwmGetCompositionTimin
 
 ## <a name="manifestation"></a>Manifestation
 
-Les applications qui utilisent le modèle présent mis en file d’attente ne fonctionneront pas correctement. La manifeste exacte dépend de l’application particulière, mais peut aller de la durée de présentation incorrecte à l’application se ferme de manière inattendue. Dans la pratique, nous ne pensons pas que de nombreuses applications (le cas échéant). Ce modèle a été utilisé par Vista Media Player, qui ne sera pas utilisé sur Windows 8 (et éventuellement l’ancien lecteur Zune). À ce stade, nous n’avons pas d’informations sur les autres applications qui utilisent réellement ce modèle.
+Les applications qui utilisent le modèle présent mis en file d’attente ne fonctionneront pas correctement. La manifeste exacte dépend de l’application particulière, mais peut aller de la durée de présentation incorrecte à l’application se ferme de manière inattendue. Dans la pratique, nous ne pensons pas que de nombreuses applications (le cas échéant). ce modèle a été utilisé par Vista media player, qui ne sera pas utilisé sur Windows 8 (et éventuellement l’ancien Zune player). À ce stade, nous n’avons pas d’informations sur les autres applications qui utilisent réellement ce modèle.
 
 ## <a name="solution"></a>Solution
 
-Les développeurs doivent utiliser le mode de présentation DXGI à la place de la mise en file d’attente (disponible dans le runtime virtuel DX9 depuis Windows 7, ainsi que sur les runtimes facilement et DX11 dans Windows 8).
+les développeurs doivent utiliser le mode de présentation DXGI à la place de la mise en file d’attente (disponible dans le runtime virtuel dx9 depuis Windows 7, et sur les runtimes facilement et DX11 dans Windows 8).
 
 ## <a name="tests"></a>Tests
 
-Exécutez des tests généraux pour vous assurer que les composants Windows de la boîte de réception et les produits principaux continuent de fonctionner sur la prochaine version de Windows.
+exécutez des tests généraux pour vous assurer que la boîte de réception Windows composants et les principaux produits continuent de fonctionner sur la prochaine version de Windows.
 
- 
+ 
 
- 
+ 
 
 
 

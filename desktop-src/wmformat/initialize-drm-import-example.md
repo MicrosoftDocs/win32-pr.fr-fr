@@ -25,12 +25,12 @@ keywords:
 - API étendues clientes, exemples de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 450eeaa128c17d0d64511dd028cda3ce1c4f28c3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e9e91d0aac6e9d54dac4cd52de7d84140a9e6af580084bd22ccc0af7283900d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118702120"
 ---
 # <a name="initialize-drm-import-example"></a>Initialiser l’exemple d’importation DRM
 
@@ -110,9 +110,9 @@ EXIT:
 [**Exemples d’importation DRM**](drm-import-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

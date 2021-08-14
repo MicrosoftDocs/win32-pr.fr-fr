@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - tiptsf.dll
-ms.openlocfilehash: 5c66e625639aa7088b1b3934a2f984d0f4097536
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99fc67b5ba6495e2bdfb8a54de2412ca01cbdd37475d08d20d227b203f2da1bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104042828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118716429"
 ---
 # <a name="itipautocompleteproviderupdatependingtext-method"></a>ITipAutocompleteProvider :: UpdatePendingText, méthode
 
@@ -54,14 +54,14 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 | Code de retour                                                                            | Description                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>   | Opération réussie.<br/>                       |
+| <dl> <dt>**\_OK**</dt> </dl>   | Réussite.<br/>                       |
 | <dl> <dt>**E \_ échec**</dt> </dl> | Une erreur non spécifiée s'est produite.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce texte ne contient pas le texte déjà inséré dans le champ ayant le focus. Le fournisseur de saisie semi-automatique est chargé de tenir compte du texte du champ actuel et de la sélection pour générer la liste de saisie semi-automatique. Quand *bstrPendingText* a la **valeur null**, la liste de saisie semi-automatique est générée avec le texte actuel à gauche de la sélection dans le champ.
 
@@ -71,7 +71,7 @@ Ce texte ne contient pas le texte déjà inséré dans le champ ayant le focus. 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                                   |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                                   |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                                       |
 | En-tête<br/>                   | <dl> <dt>TipAutoComplete. h (nécessite également PenInputPanel \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Tiptsf.dll</dt> </dl>                                           |

@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 00a1d1c52d50d0d9a028829181c886a813112a15
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6da307d00c9291ab8c27b97c5012c9887b5c12fcbc541beb5a9b7e8c176ec5a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200781"
 ---
 # <a name="messageproc-function"></a>MessageProc fonction)
 
@@ -70,7 +70,7 @@ Ce paramètre peut prendre les valeurs suivantes.
 
 | Valeur | Signification |
 |-------|---------|
-| **MSGF_DDEMGR** 0x8001 | L’événement d’entrée s’est produit lors de échange dynamique de données l’attente de la fin d’une transaction synchrone par la DDEML Management Library (). Pour plus d’informations sur DDEML, consultez [bibliothèque de gestion des échange dynamique de données](../dataxchg/dynamic-data-exchange-management-library.md). |
+| **MSGF_DDEMGR** 0x8001 | l’événement d’entrée s’est produit lors de échange dynamique de données l’attente de la fin d’une transaction synchrone par la DDEML Management Library (). pour plus d’informations sur DDEML, consultez [bibliothèque de gestion des échange dynamique de données](../dataxchg/dynamic-data-exchange-management-library.md). |
 | **MSGF_DIALOGBOX** 0 | L’événement d’entrée s’est produit dans une boîte de message ou une boîte de dialogue. |
 | **MSGF_MENU** 2 | L’événement d’entrée s’est produit dans un menu. |
 | **MSGF_SCROLLBAR** 5 | L’événement d’entrée s’est produit dans une barre de défilement. |
@@ -96,7 +96,7 @@ Si le *code* est inférieur à zéro, la procédure de raccordement doit retourn
 Si le *code* est supérieur ou égal à zéro et que la procédure de hook n’a pas traité le message, il est fortement recommandé d’appeler **CallNextHookEx** et de retourner la valeur qu’il retourne ; dans le cas contraire, les autres applications qui ont installé [WH_MSGFILTER](about-hooks.md) hooks ne recevront pas de notifications de raccordement et pourront se comporter de manière incorrecte.
 Si la procédure de Hook a traité le message, elle peut retourner une valeur différente de zéro pour empêcher le système de transmettre le message au reste de la chaîne de raccordement ou à la procédure de fenêtre cible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application installe la procédure de raccordement en spécifiant le type de hook **WH_MSGFILTER** et un pointeur vers la procédure de Hook dans un appel à la fonction **SetWindowsHookEx** .
 

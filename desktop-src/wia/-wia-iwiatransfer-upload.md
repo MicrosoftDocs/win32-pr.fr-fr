@@ -1,7 +1,7 @@
 ---
 description: Lance un chargement de données d’un élément unique à partir de l’appelant.
 ms.assetid: 301ac5d9-b864-4c3c-bd4b-143cc4032dcb
-title: 'IWiaTransfer :: upload, méthode (WIA. h)'
+title: 'IWiaTransfer :: Télécharger, méthode (Wia. h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,14 +14,14 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 6aae6ca8f86d07ec052fdd59d24b0da2b96599d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66bd542d27f29aa8fd531b6f3d8089d296efe2d963bcf967a0c1ab07e6f0db8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118208237"
 ---
-# <a name="iwiatransferupload-method"></a>IWiaTransfer :: upload, méthode
+# <a name="iwiatransferupload-method"></a>IWiaTransfer :: Télécharger, méthode
 
 Lance un chargement de données d’un élément unique à partir de l’appelant.
 
@@ -54,18 +54,18 @@ Actuellement inutilisé. Doit être défini sur zéro (0).
 *pSource* \[ dans\]
 </dt> <dd>
 
-Type : **[IStream](/windows/win32/api/objidl/nn-objidl-istream) \** _
+Type : **[IStream](/windows/win32/api/objidl/nn-objidl-istream)\***
 
 Spécifie un pointeur vers les données [IStream](/windows/win32/api/objidl/nn-objidl-istream) .
 
 </dd> <dt>
 
-_pIWiaTransferCallback * \[ dans\]
+*pIWiaTransferCallback* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWiaTransferCallback**](-wia-iwiatransfercallback.md) \** _
+Type : **[ **IWiaTransferCallback**](-wia-iwiatransfercallback.md)\***
 
-Spécifie un pointeur vers l’interface [_ *IWiaTransferCallback* *](-wia-iwiatransfercallback.md) de l’appelant.
+Spécifie un pointeur vers l’interface [**IWiaTransferCallback**](-wia-iwiatransfercallback.md) de l’appelant.
 
 </dd> </dl>
 
@@ -81,8 +81,8 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl>     |
 | Bibliothèque<br/>                  | <dl> <dt>Wiaguid. lib</dt> </dl> |

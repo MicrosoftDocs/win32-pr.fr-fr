@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 088a59eaa92db8ed9e8cbe59075d540507e51535
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: c13051b3ba7367eac4e40e941749767308a7e156beb1b086e196f96942bfdace
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104313315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393549"
 ---
 # <a name="show-cachestate"></a>show cachestate
 
@@ -32,7 +32,7 @@ show cachestate [[url=]string]
 
 <dl> <dt>
 
-<span id="__url__string_"></span><span id="__URL__STRING_"></span>**\[\[URL = \] ***chaîne***\]**
+<span id="__url__string_"></span><span id="__URL__STRING_"></span>**\[ \[ URL = \]**_chaîne_*_\]_*
 </dt> <dd>
 
 URL complète. S’il n’est pas spécifié, implique toutes les URL. L’URL peut également être un préfixe des URL inscrites.
@@ -43,9 +43,9 @@ URL complète. S’il n’est pas spécifié, implique toutes les URL. L’URL p
 
 **afficher l’URL de cathorax =https://www.contoso.com:80/myresource**
 
- 
+ 
 
- 
+ 
 
 
 

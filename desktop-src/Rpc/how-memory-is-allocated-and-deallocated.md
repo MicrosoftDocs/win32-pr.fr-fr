@@ -4,12 +4,12 @@ description: Par défaut, le code stub généré par le compilateur MIDL appelle
 ms.assetid: 65af7a6d-4cfa-4175-9085-560d97cab41d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 331c32ac4d33fbd67f617f79125921ddfffc0de5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d1e7b4a0fd9a765593fc6f44365e17bc45c10b1244c226abc09ff302e81ec107
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929516"
 ---
 # <a name="how-memory-is-allocated-and-deallocated"></a>Comment la mémoire est allouée et désallouée
 
@@ -23,6 +23,6 @@ Les sections suivantes décrivent les fonctions de gestion de la mémoire RPC.
 -   [**\_utilisateur \_ gratuit MIDL**](/windows/desktop/Midl/midl-user-free-1)
 -   [Package de gestion de mémoire RpcSs](rpcss-memory-management-package.md)
 
- 
+ 
 
- 
+ 

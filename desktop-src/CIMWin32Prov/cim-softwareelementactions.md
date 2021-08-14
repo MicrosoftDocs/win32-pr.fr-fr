@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1f51cc122cdf354be9611ca1cca4ebcbe1635d14
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f3ee22c018c1bcc3a3850ac2b9c4c3bcba32780ea66927245fcf0b02eae74232
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118421290"
 ---
 # <a name="cim_softwareelementactions-class"></a>\_Classe CIM SoftwareElementActions
 
@@ -89,7 +89,7 @@ Référence à une [**instance \_ SoftwareElement CIM**](cim-softwareelement.md)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe. Pour les classes WMI dérivées de **CIM \_ SoftwareElementActions**, consultez [classes Win32](win32-provider.md).
 

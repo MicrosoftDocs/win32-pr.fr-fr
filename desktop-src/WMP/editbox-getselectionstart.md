@@ -3,7 +3,7 @@ title: EDITBOX. getSelectionStart
 description: La méthode getSelectionStart récupère la position de départ du texte sélectionné dans le contrôle EditBox.
 ms.assetid: 2d7efe14-549c-4f73-96a7-b8ce88b881ad
 keywords:
-- EDITBOX. getSelectionStart Windows Media Player
+- EDITBOX. getSelectionStart Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2508119e5b1d46d09b3531582e86caad7e7facbd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7c555cc7231440e15275dcd44a2508f1d8cc5ba53a8137db861cc71b61528ac3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340030"
 ---
 # <a name="editboxgetselectionstart"></a>EDITBOX. getSelectionStart
 
@@ -36,7 +36,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode retourne un **nombre** (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si aucun texte n’est sélectionné, cette méthode retourne la position du point d’insertion.
 
