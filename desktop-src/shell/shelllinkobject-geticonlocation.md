@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ef2f502d30116def68aa43269b3020d404ce177d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09ace233291d5eac285ac1115866a54cb9792c85aefbb8faa5a2d1f6c37393e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857580"
 ---
 # <a name="shelllinkobjectgeticonlocation-method"></a>Méthode ShellLinkObject. GetIconLocation
 
@@ -42,7 +42,7 @@ iRetVal = ShellLinkObject.GetIconLocation(
 *spath* \[ à\]
 </dt> <dd>
 
-Type : **[**BSTR**](/previous-versions/windows/desktop/automat/bstr) \** _
+Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)\***
 
 Lorsque cette méthode est retournée, elle contient le chemin d’accès qualifié complet du fichier qui contient l’icône.
 
@@ -50,15 +50,15 @@ Lorsque cette méthode est retournée, elle contient le chemin d’accès qualif
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _*entier \**_
+Type : **entier \***
 
-Retourne l’index de l’icône dans le fichier spécifié par _sPath *.
+Retourne l’index de l’icône dans le fichier spécifié par *spath*.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte de cette méthode pour JScript, VBScript et Visual Basic.
+l’exemple suivant illustre l’utilisation correcte de cette méthode pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -169,13 +169,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shlobj \_ Core. h (include shldisp. h)</dt> </dl> |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |

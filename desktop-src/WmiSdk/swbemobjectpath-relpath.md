@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 8330d1cdc65e818acd4fda63b223303b779b5472
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4cb3cae6a6c5de5c955bb719880cd8b4be49208a8dc0c1fa3f85c0da5ff74a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118313702"
 ---
 # <a name="swbemobjectpathrelpath-property"></a>SWbemObjectPath. RelPath, propriété
 

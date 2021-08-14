@@ -4,12 +4,12 @@ ms.assetid: 74d9fe65-f7f4-4971-9550-27884ac4146b
 title: Rechercher un homologue de filtres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1717f6ad61ad7310fdaa11ea5baaab4dcb7f8011
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 60d2f20a7145d2365e7ee1ec261ea861ddc5fa1eb01d0c3b2503f6f53fa25815
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104033370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401763"
 ---
 # <a name="find-a-filters-peer"></a>Rechercher un homologue de filtres
 
@@ -95,7 +95,7 @@ if (SUCCEEDED(GetNextFilter(pF, PINDIR_INPUT, &pUpstream)))
 
 Un filtre peut être connecté à deux ou plusieurs filtres dans l’une ou l’autre direction. Par exemple, il peut s’agir d’un filtre de fractionnement, avec plusieurs filtres en aval. Il peut également s’agir d’un filtre MUX, avec plusieurs filtres en amont. Par conséquent, vous souhaiterez peut-être les collecter tous dans une liste.
 
-Le code suivant illustre une manière possible d’implémenter une telle fonction. Elle utilise la classe DirectShow [**CGenericList**](cgenericlist.md) . vous pouvez écrire une fonction équivalente à l’aide d’une autre structure de données.
+Le code suivant illustre une manière possible d’implémenter une telle fonction. elle utilise la classe DirectShow [**CGenericList**](cgenericlist.md) ; vous pouvez écrire une fonction équivalente à l’aide d’une autre structure de données.
 
 
 ```C++

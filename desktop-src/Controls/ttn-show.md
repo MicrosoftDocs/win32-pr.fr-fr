@@ -3,7 +3,7 @@ title: TTN_SHOW le code de notification (commctrl. h)
 description: Notifie la fenêtre propriétaire qu’un contrôle ToolTip est sur le présent affiché. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: ddfd18cd-0681-4e4a-b258-873f98da7479
 keywords:
-- Contrôles Windows de code de notification TTN_SHOW
+- TTN_SHOW les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16acb41d1145c176799dd7997b56a850bb45ece7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 74397223f20668487e78cea15e2e1507026ee65089e5011065b3f177514e899b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408811"
 ---
 # <a name="ttn_show-notification-code"></a>TTN \_ afficher le code de notification
 
@@ -54,7 +54,7 @@ Pointeur vers une structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedi
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un rectangle de fenêtre d’info-bulle est un peu plus grand que son rectangle d’affichage de texte, et son origine est décalée vers le haut et vers la gauche. Si vous devez positionner avec précision le rectangle d’affichage du texte d’une info-bulle, le message [**atténuation \_ ADJUSTRECT**](ttm-adjustrect.md) convertit un rectangle d’affichage de texte dans le rectangle de fenêtre d’info-bulle correspondant et vice versa.
 
@@ -64,8 +64,8 @@ Un rectangle de fenêtre d’info-bulle est un peu plus grand que son rectangle 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

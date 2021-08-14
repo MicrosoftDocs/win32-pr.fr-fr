@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 037013a4b40984df41e52aa13be69c1247b1c05c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e6b2d7e71642ab0294f6e930eef40c5841aa5832fcc3a8d1c45aef2d7e80bbda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118611911"
 ---
 # <a name="principaltype-complex-type"></a>Type complexe principalType
 
@@ -87,7 +87,7 @@ Définit l’attribut, les éléments enfants et les informations de séquenceme
 
 | Nom | Type | Description                                           |
 |------|------|-------------------------------------------------------|
-| id   | id   | Spécifie l’identificateur du principal.<br/> |
+| id   | ID   | Spécifie l’identificateur du principal.<br/> |
 
 
 
@@ -97,8 +97,8 @@ Définit l’attribut, les éléments enfants et les informations de séquenceme
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

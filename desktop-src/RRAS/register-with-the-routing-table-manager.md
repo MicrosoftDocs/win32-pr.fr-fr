@@ -4,12 +4,12 @@ description: L’exemple de code suivant montre comment inscrire une nouvelle en
 ms.assetid: 320cc97f-2875-4d26-b2f4-5611a43d5839
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3b5e2f3ba3df414f383305d09c129b52bcb32cf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5ccb3aaae18d9e327bffb94019b1b69c4fc2b62bc36a7cb4ae31225f9a8a827d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788608"
 ---
 # <a name="register-with-the-routing-table-manager"></a>S’inscrire auprès du gestionnaire de tables de routage
 
@@ -57,9 +57,9 @@ int __cdecl main(){
 
 
 
- 
+ 
 
- 
+ 
 
 
 

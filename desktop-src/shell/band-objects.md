@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: b4adeaaf089c22bd3e1db3d60d552ccc3252545a
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: 9a57cc5bc8afa3e973c6d4d99b8bcee186287a6c9278407b900f84500d7d0e51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104562930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118461740"
 ---
 # <a name="creating-custom-explorer-bars-tool-bands-and-desk-bands"></a>Création de barres d’exploration, de bandes d’outils et de bandes de bureau personnalisées
 
-La barre d’exploration a été introduite avec Microsoft Internet Explorer 4,0 pour fournir une zone d’affichage adjacente au volet du navigateur. En fait, il s’agit d’une fenêtre enfant dans la fenêtre Windows Internet Explorer, qui peut être utilisée pour afficher des informations et interagir avec l’utilisateur à peu près de la même façon. Les barres d’exploration sont le plus souvent affichées sous la forme d’un volet vertical sur le côté gauche du volet du navigateur. Toutefois, une barre d’exploration peut également être affichée horizontalement, sous le volet du navigateur.
+La barre d’exploration a été introduite avec Microsoft Internet Explorer 4,0 pour fournir une zone d’affichage adjacente au volet du navigateur. en fait, il s’agit d’une fenêtre enfant dans le Windows fenêtre Internet Explorer, qui peut être utilisée pour afficher des informations et interagir avec l’utilisateur de la même façon. Les barres d’exploration sont le plus souvent affichées sous la forme d’un volet vertical sur le côté gauche du volet du navigateur. Toutefois, une barre d’exploration peut également être affichée horizontalement, sous le volet du navigateur.
 
 ![Capture d’écran montrant les barres d’exploration verticales et horizontales.](images/expl1.jpg)
 
@@ -32,7 +32,7 @@ Pour créer une barre d’exploration personnalisée, vous devez implémenter et
 
 ## <a name="tool-bands"></a>Bandes d’outils
 
-Une *bande d’outils* est un objet de bande introduit avec Microsoft Internet Explorer 5 pour prendre en charge la fonctionnalité de la barre d’outils radio Windows. La barre d’outils Internet Explorer est en fait un [contrôle rebar](../controls/rebar-controls.md) qui contient plusieurs [contrôles ToolBar](../controls/toolbar-control-reference.md). En créant une bande d’outils, vous pouvez ajouter une bande à ce contrôle rebar. Toutefois, comme les barres d’exploration, une bande d’outils est une fenêtre à usage général.
+une *bande d’outils* est un objet de bande qui a été introduit avec Microsoft Internet Explorer 5 pour prendre en charge la fonctionnalité Windows de la barre d’outils radio. La barre d’outils Internet Explorer est en fait un [contrôle rebar](../controls/rebar-controls.md) qui contient plusieurs [contrôles ToolBar](../controls/toolbar-control-reference.md). En créant une bande d’outils, vous pouvez ajouter une bande à ce contrôle rebar. Toutefois, comme les barres d’exploration, une bande d’outils est une fenêtre à usage général.
 
 ![capture d’écran des bandes d’outils](images/toolband1.jpg)
 
@@ -88,7 +88,7 @@ Pour plus d’informations sur la façon d’inscrire des objets de bande, consu
 
 Si l’objet de bande doit accepter l’entrée d’utilisateur, il doit également implémenter [**IInputObject**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinputobject). Pour ajouter des éléments au menu contextuel pour la barre d’explorateur ou les bandes de bureau, l’objet Band doit exporter [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu). Les bandes d’outils ne prennent pas en charge les menus contextuels.
 
-Étant donné que les objets de bande implémentent une fenêtre enfant, ils doivent également implémenter une procédure de fenêtre pour gérer Windows Messaging.
+étant donné que les objets de bande implémentent une fenêtre enfant, ils doivent également implémenter une procédure de fenêtre pour gérer Windows messagerie.
 
 Les objets Band peuvent envoyer des commandes à leur conteneur par le biais de l’interface [**IOleCommandTarget**](/windows/win32/api/docobj/nn-docobj-iolecommandtarget) du conteneur. Pour obtenir le pointeur d’interface, appelez la méthode [**IInputObjectSite :: QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) du conteneur et demandez l’IID \_ IOleCommandTarget. Vous envoyez ensuite des commandes au conteneur avec [**IOleCommandTarget :: exec**](/windows/win32/api/docobj/nf-docobj-iolecommandtarget-exec). Le groupe de commandes est CGID \_ Deskband. Quand la méthode [**IDeskBand :: GetBandInfo**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ideskband) d’un objet Band est appelée, le conteneur utilise le paramètre *dwBandID* pour affecter à l’objet Band un identificateur utilisé pour trois des commandes. Quatre ID de commande **IOleCommandTarget :: exec** sont pris en charge.
 
@@ -124,11 +124,11 @@ Les objets Band peuvent envoyer des commandes à leur conteneur par le biais de 
 
 Un objet de bande doit être inscrit en tant que serveur OLE in-process qui prend en charge le thread cloisonné. La valeur par défaut pour le serveur est une chaîne de texte de menu. Pour les barres d’exploration, elles s’affichent dans le sous-menu du **volet d’exploration** du menu **affichage** d’Internet Explorer. Pour les bandes d’outils, elles s’affichent dans le sous-menu **barres d’outils** du menu **affichage** d’Internet Explorer. Pour les bandes de bureau, elles s’affichent dans le sous-menu **barres d’outils** du menu contextuel de la barre des tâches. Comme pour les ressources de menu, le fait de placer un et commercial (&) devant une lettre est alors souligné et active les raccourcis clavier. Par exemple, la chaîne de menu de la barre d’explorateur verticale affichée dans le premier graphique est « exemple &barre d’exploration verticale ».
 
-Au départ, Internet Explorer récupère une énumération des objets de la barre d’exploration inscrits à partir du Registre à l’aide des catégories de composants. Pour améliorer les performances, il met en cache cette énumération, ce qui a pour effet d’ajouter à la suite des barres de l’Explorateur. Pour forcer Windows Internet Explorer à reconstruire le cache et à reconnaître un nouveau volet d’exploration, supprimez les clés de Registre suivantes lors de l’inscription de la nouvelle barre d’exploration :
+Au départ, Internet Explorer récupère une énumération des objets de la barre d’exploration inscrits à partir du Registre à l’aide des catégories de composants. Pour améliorer les performances, il met en cache cette énumération, ce qui a pour effet d’ajouter à la suite des barres de l’Explorateur. pour forcer Windows Internet Explorer à reconstruire le cache et à reconnaître un nouveau volet d’exploration, supprimez les clés de registre suivantes lors de l’inscription de la nouvelle barre d’exploration :
 
-**HKEY \_ Logiciel \_ utilisateur actuel** \\  \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Explorer** \\  \\ **PostSetup** les \\ **catégories** \\ **de composants de composant {00021493-0000-0000-C000-000000000046}** \\ **enum**
+**HKEY \_ logiciel \_ utilisateur actuel** \\  \\ **Microsoft** \\ **Windows** l' \\  \\ **explorateur CurrentVersion Explorer** \\  \\  \\ les **catégories de composants** PostSetup \\ **{00021493-0000-0000-C000-000000000046}** \\ **Enum**
 
-**HKEY \_ Logiciel \_ utilisateur actuel** \\  \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Explorer** \\  \\ **PostSetup** les \\ **catégories** \\ **de composants de composant {00021494-0000-0000-C000-000000000046}** \\ **enum**
+**HKEY \_ logiciel \_ utilisateur actuel** \\  \\ **Microsoft** \\ **Windows** l' \\  \\ **explorateur CurrentVersion Explorer** \\  \\  \\ les **catégories de composants** PostSetup \\ **{00021494-0000-0000-C000-000000000046}** \\ **Enum**
 
 > [!Note]  
 > Étant donné qu’un cache de barre d’exploration est créé pour chaque utilisateur, votre application de configuration doit peut-être énumérer toutes les ruches de Registre utilisateur ou ajouter un stub par utilisateur à exécuter lorsque l’utilisateur se connecte pour la première fois.
@@ -233,7 +233,7 @@ La procédure de base pour créer une barre d’exploration personnalisée est l
 5.  Créer une fenêtre enfant d’Internet Explorer, dimensionnée pour s’ajuster à la zone d’affichage de la barre d’exploration.
 6.  [Utilisez la fenêtre enfant pour afficher des informations et interagir avec l’utilisateur.](#the-window-procedure)
 
-L’implémentation très simple utilisée dans l’exemple de volet d’exploration peut être utilisée pour un type de barre d’exploration ou une bande de bureau, en l’inscrivant simplement pour la catégorie de composant appropriée. Des implémentations plus sophistiquées devront être personnalisées pour la région d’affichage et le conteneur de chaque type d’objet. Toutefois, une grande partie de cette personnalisation peut être accomplie en utilisant l’exemple de code et en l’étendant en appliquant des techniques de programmation Windows familières à la fenêtre enfant. Par exemple, vous pouvez ajouter des contrôles pour l’interaction de l’utilisateur ou des graphiques pour un affichage plus riche.
+L’implémentation très simple utilisée dans l’exemple de volet d’exploration peut être utilisée pour un type de barre d’exploration ou une bande de bureau, en l’inscrivant simplement pour la catégorie de composant appropriée. Des implémentations plus sophistiquées devront être personnalisées pour la région d’affichage et le conteneur de chaque type d’objet. toutefois, une grande partie de cette personnalisation peut être accomplie en utilisant l’exemple de code et en l’étendant en appliquant des techniques de programmation Windows familières à la fenêtre enfant. Par exemple, vous pouvez ajouter des contrôles pour l’interaction de l’utilisateur ou des graphiques pour un affichage plus riche.
 
 ### <a name="dll-functions"></a>Fonctions DLL
 
@@ -624,7 +624,7 @@ HRESULT RegisterComCat()
 
 ### <a name="the-window-procedure"></a>La procédure de fenêtre
 
-Comme un objet de bande utilise une fenêtre enfant pour son affichage, il doit implémenter une procédure de fenêtre pour gérer Windows Messaging. L’exemple de bande a des fonctionnalités minimales, donc la procédure de fenêtre gère uniquement cinq messages :
+comme un objet de bande utilise une fenêtre enfant pour son affichage, il doit implémenter une procédure de fenêtre pour gérer Windows messagerie. L’exemple de bande a des fonctionnalités minimales, donc la procédure de fenêtre gère uniquement cinq messages :
 
 -   [**\_NCCREATE WM**](../winmsg/wm-nccreate.md)
 -   [**\_peinture WM**](../gdi/wm-paint.md)
@@ -774,7 +774,7 @@ void CDeskBand::OnFocus(const BOOL fFocus)
 
 
 
-Les objets Band offrent un moyen flexible et puissant d’étendre les fonctionnalités d’Internet Explorer en créant des barres d’exploration personnalisées. L’implémentation d’une bande de bureau vous permet d’étendre les fonctionnalités des fenêtres normales. Bien que certaines programmations COM soient nécessaires, elle sert en fin de vue de fournir une fenêtre enfant pour votre interface utilisateur. À partir de là, la majeure partie de l’implémentation peut utiliser des techniques de programmation Windows familières. Bien que l’exemple présenté ici ait uniquement des fonctionnalités limitées, il illustre toutes les fonctionnalités nécessaires d’un objet Band et peut être facilement étendu pour créer une interface utilisateur unique et puissante.
+Les objets Band offrent un moyen flexible et puissant d’étendre les fonctionnalités d’Internet Explorer en créant des barres d’exploration personnalisées. L’implémentation d’une bande de bureau vous permet d’étendre les fonctionnalités des fenêtres normales. Bien que certaines programmations COM soient nécessaires, elle sert en fin de vue de fournir une fenêtre enfant pour votre interface utilisateur. à partir de là, la majeure partie de l’implémentation peut utiliser des techniques de programmation Windows familières. Bien que l’exemple présenté ici ait uniquement des fonctionnalités limitées, il illustre toutes les fonctionnalités nécessaires d’un objet Band et peut être facilement étendu pour créer une interface utilisateur unique et puissante.
 
  
 

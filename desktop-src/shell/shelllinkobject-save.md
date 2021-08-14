@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 0283b839069464a1a059bd11ef52b522f7ec7072
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4d0d03b10aca45fadb5a0072eb94114103ab37d0c478c8a90241b5ab97ec36a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857168"
 ---
 # <a name="shelllinkobjectsave-method"></a>ShellLinkObject. Save, méthode
 
@@ -50,9 +50,9 @@ Valeur de chaîne qui contient le chemin d’accès complet du fichier dans lequ
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte de cette méthode pour JScript, VBScript et Visual Basic.
+l’exemple suivant illustre l’utilisation correcte de cette méthode pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -166,13 +166,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |

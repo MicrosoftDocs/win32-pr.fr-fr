@@ -3,18 +3,18 @@ title: Prise en charge de l’exemple alloué par l’utilisateur
 description: Prise en charge de l’exemple alloué par l’utilisateur
 ms.assetid: c747139e-e157-4ea0-9132-256dc70e2b15
 keywords:
-- Windows Media Format SDK, exemple de prise en charge de l’utilisateur alloué par l’utilisateur
+- Windows Media Format SDK, exemple de prise en charge allouée par l’utilisateur
 - ASF (Advanced Systems Format), prise en charge des exemples alloués par l’utilisateur
 - ASF (format de systèmes avancés), prise en charge des exemples alloués par l’utilisateur
 - prise en charge de l’exemple alloué par l’utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d80d6a0d9a7e19b46940093fc370bd2c8c70590d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3b8cba2d20586cc47845d961e5c92a0138a37d5d0db07feb23dbb68dda1b72eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845253"
 ---
 # <a name="user-allocated-sample-support"></a>Prise en charge de l’exemple alloué par l’utilisateur
 
@@ -34,9 +34,9 @@ Pour atténuer les problèmes de performances des exemples alloués par lecteur,
 [**Fonctionnalités de lecture de fichier**](file-reading-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

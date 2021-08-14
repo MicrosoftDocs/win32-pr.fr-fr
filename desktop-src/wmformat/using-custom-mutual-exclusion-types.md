@@ -9,12 +9,12 @@ keywords:
 - profils, types d’exclusion mutuelle personnalisés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 051e95bfb3f5ef8e39af31368227cf4918b897d2
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 7162b8d0588031e934e55425af03cd0d2e8d0a58524b19251521ec2ab6848094
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104101261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845077"
 ---
 # <a name="using-custom-mutual-exclusion-types"></a>Utilisation de types d’exclusion mutuelles personnalisés
 
@@ -62,9 +62,9 @@ Procédez comme suit pour créer un objet d’exclusion mutuelle personnalisée 
 [**WMCreateProfileManager**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateprofilemanager)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

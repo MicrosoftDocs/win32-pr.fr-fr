@@ -4,12 +4,12 @@ description: IAgentCharacterEx GetAutoPopupMenu
 ms.assetid: c29bfd6e-c7eb-426e-be38-2fa0bdb13211
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0c7a3b8d1075c596f27af17df34c7cb94d8a1ab
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d2b9e23f9c8d9f6fefcc7b2606ebd18ab31ff93c8f8f82c1faf692f92545662d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477977"
 ---
 # <a name="iagentcharacterexgetautopopupmenu"></a>IAgentCharacterEx::GetAutoPopupMenu
 
@@ -43,9 +43,9 @@ Cette propriété s’applique uniquement à l’utilisation du caractère par v
 [**IAgentCharacterEx :: SetAutoPopupMenu**](iagentcharacterex--setautopopupmenu.md), [ **IAgentCharacterEx :: ShowPopupMenu**](iagentcharacterex--showpopupmenu.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

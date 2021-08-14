@@ -3,7 +3,7 @@ title: Message MCIWNDM_GET_DEST (VFW. h)
 description: Le \_ message MCIWNDM obtenir \_ dest récupère les coordonnées du rectangle de destination utilisé pour le zoom ou l’étirement des images d’un fichier AVI lors de la lecture. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndGetDest.
 ms.assetid: d4d8a3eb-aad4-4435-a23b-7a9c55fc194d
 keywords:
-- Message MCIWNDM_GET_DEST Windows Multimedia
+- message MCIWNDM_GET_DEST Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab5f16b434caef56e6c6aa97bfd767770dc05ee1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b4a6326485bece572b03ceeca687ca4468b6d866c25c738c32d13763fd0931a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802903"
 ---
 # <a name="mciwndm_get_dest-message"></a>MCIWNDM \_ obtient le \_ message de dest.
 

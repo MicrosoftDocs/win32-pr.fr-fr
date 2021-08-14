@@ -3,8 +3,8 @@ title: Structure MPENDOFLIFE_DATA (MpClient. h)
 description: '\ 0034 ; Fin de vie \ 0034 ; données de notification.'
 ms.assetid: 00C2E707-9034-4BBC-99CF-3DFA4B8C08D9
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPENDOFLIFE_DATA
-- PMPENDOFLIFE_DATA des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPENDOFLIFE_DATA
+- PMPENDOFLIFE_DATA des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e209b9b35a089523815c353e8a750152bf4af75
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 532ee5f80e76de49c2c20bb01958e95fc13603b8f4b65666639834c5cad0fa72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118476281"
 ---
 # <a name="mpendoflife_data-structure"></a>\_Structure de données MPENDOFLIFE
 
@@ -94,8 +94,8 @@ True si la « fin de vie » est en attente ou passée. Si la valeur est false,
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

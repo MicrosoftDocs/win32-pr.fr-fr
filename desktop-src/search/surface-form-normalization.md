@@ -4,12 +4,12 @@ ms.assetid: 62545566-f0ba-4876-93da-e6c2b9c23484
 title: Normalisation des formes de surface
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b058be00e046ffc17ebd6c13178313267a47079
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f96ce5c90075c49608ad386b64514e4d003e5b5b4c6fc582441fd7e110d1921
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117862433"
 ---
 # <a name="surface-form-normalization"></a>Normalisation des formes de surface
 

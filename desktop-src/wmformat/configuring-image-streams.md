@@ -1,6 +1,6 @@
 ---
-title: Configuration de flux d’images
-description: Configuration de flux d’images
+title: Configuration de l’image Flux
+description: Configuration de l’image Flux
 ms.assetid: 29325834-8766-47f4-8b33-b5fcbcc494c1
 keywords:
 - flux, configuration des flux d’images
@@ -8,14 +8,14 @@ keywords:
 - flux d’images, configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24b05a21474143e227257dad240ff4d4464732ad
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a1ce58fe3da709772b08d0956f3f5540713f7960742338f73c9d9807ad1a1e40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848964"
 ---
-# <a name="configuring-image-streams"></a>Configuration de flux d’images
+# <a name="configuring-image-streams"></a>Configuration de l’image Flux
 
 Les flux d’images contiennent des images fixes au format JPEG. Bien que les flux d’images soient comme des flux vidéo en ce qu’ils utilisent des images non compressées comme entrées, elles nécessitent une configuration légèrement différente. Pour configurer un flux d’image, vous devez définir les valeurs des membres des structures de configuration vidéo comme indiqué dans le tableau suivant.
 
@@ -50,27 +50,27 @@ Les flux d’images contiennent des images fixes au format JPEG. Bien que les fl
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Configuration commune à tous les flux**](configuration-common-to-all-streams.md)
+[**Configuration commune à tous les Flux**](configuration-common-to-all-streams.md)
 </dt> <dt>
 
-[**Configuration de flux**](configuring-streams.md)
+[**Configuration de Flux**](configuring-streams.md)
 </dt> <dt>
 
-[**Obtenir de bons résultats avec le codec d’écran Windows Media Video 9**](getting-good-results-with-the-windows-media-video-9-screen-codec.md)
+[**obtenir de bons résultats avec le Codec d’écran Windows Media Video 9**](getting-good-results-with-the-windows-media-video-9-screen-codec.md)
 </dt> <dt>
 
-[**Flux d’images**](image-streams.md)
+[**Image Flux**](image-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

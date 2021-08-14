@@ -4,12 +4,12 @@ ms.assetid: 1a4051ac-cc6e-4520-ab66-d0a41a8a4c73
 title: Message WM_THEMECHANGED (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bc15ab64126ff8972b858ef43ddd4d92cd62f58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b070cb492fa5db94acb97cd07f3de87455189d542aaaad2a51a3e0ecc6b4268d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199908"
 ---
 # <a name="wm_themechanged-message"></a>\_Message WM THEMECHANGED
 
@@ -46,7 +46,7 @@ Type : **LRESULT**
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fenêtre reçoit ce message par le biais de sa fonction [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) .
 
@@ -67,8 +67,8 @@ Pour libérer un handle de thème existant, appelez [**CloseThemeData**](/window
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: Propriété Ribbon. QuickAccessToolbar
 description: Représente un conteneur pour la barre d’outils accès rapide (QAT).
 ms.assetid: 8a873a48-4f8b-439d-acad-7da2081fbf40
 keywords:
-- Ruban de la propriété Ribbon. QuickAccessToolbar
+- ruban. QuickAccessToolbar, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad0e09b220bd60b60ccbb8ee05c2da9c4317ba78
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83e1fa4cb5de43be2b7316d4ed1786c2a1325fa4468538e2ffea41d5d8c9ef0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202316"
 ---
 # <a name="ribbonquickaccesstoolbar-property"></a>Propriété Ribbon. QuickAccessToolbar
 
 Représente un conteneur pour la barre d’outils accès rapide (QAT).
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Ribbon.QuickAccessToolbar>
@@ -55,7 +55,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obligatoire.
 
@@ -87,8 +87,8 @@ L’exemple suivant illustre le balisage de base pour l’élément **Ribbon. Qu
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e7356df1bb79aa3b1901ee6d3de22510a6df1a9a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b81ea650d805c8ed2e42797f4dffdd9851eb3f072cff0abb05f54c4581684bea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818561"
 ---
 # <a name="irenderenginerenderoutputpins-method"></a>IRenderEngine :: RenderOutputPins, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -51,7 +51,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                                  | Description                                                                |
 |--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                         | Opération réussie.<br/>                                                        |
+| <dl> <dt>**\_OK**</dt> </dl>                         | Réussite.<br/>                                                        |
 | <dl> <dt>**VFW \_ S \_ audio \_ non \_ restitué**</dt> </dl>  | Impossible de lire le flux audio.<br/>                              |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>                 | Argument non valide.<br/>                                               |
 | <dl> <dt>**le \_ moteur de rendu E \_ \_ est \_ défectueux**</dt> </dl> | L’opération a échoué, car le projet n’a pas été rendu correctement.<br/> |
@@ -61,7 +61,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler cette méthode, appelez [**IRenderEngine :: ConnectFrontEnd**](irenderengine-connectfrontend.md) pour créer le composant frontal du graphique. Pour effectuer une opération autre que la version préliminaire, n’appelez pas cette méthode. Au lieu de cela, appelez [**IRenderEngine :: GetGroupOutputPin**](irenderengine-getgroupoutputpin.md) pour obtenir des pointeurs vers les broches de sortie.
 
@@ -75,7 +75,7 @@ Si le code PIN provient d’un groupe vidéo, cette méthode crée une fenêtre 
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

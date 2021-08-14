@@ -12,12 +12,12 @@ keywords:
 - flux, hiérarchisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abe1628ef050d393cd2d98e73708d5a9ad6c3be4
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 9fd34bab6a7957d7cbcdf97a78fc3d8be1f663d43ef1eb1ec8d4c575571ad0a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118197275"
 ---
 # <a name="stream-prioritization"></a>Hiérarchisation des flux
 
@@ -50,9 +50,9 @@ La hiérarchisation des flux est configurée avec un objet de priorité de flux 
 [**Utilisation de la hiérarchisation des flux**](using-stream-prioritization.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

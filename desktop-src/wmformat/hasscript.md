@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45f8fdfe9576b2985ecfb80238635eea49d55c82
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 406f75bf780faf10488e54cddfe617b7f219478209171afa03491958957af266
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117847632"
 ---
 # <a name="hasscript"></a>HasScript
 
@@ -31,11 +31,11 @@ L’attribut **HasScript** est un attribut de niveau fichier qui spécifie si le
 
 **\_type WMT \_ bool**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’un attribut codé.
 
-Cet attribut ne peut pas être dupliqué au niveau du fichier. Si cet attribut est utilisé pour un flux individuel, il sera traité en tant que métadonnées personnalisées et ne transmettra pas sa signification normale aux objets du kit de développement logiciel (SDK) du format Windows Media.
+Cet attribut ne peut pas être dupliqué au niveau du fichier. si cet attribut est utilisé pour un flux individuel, il sera traité en tant que métadonnées personnalisées et ne transmettra pas sa signification normale aux objets du kit de développement logiciel (SDK) de Format multimédia Windows.
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -44,9 +44,9 @@ Cet attribut ne peut pas être dupliqué au niveau du fichier. Si cet attribut e
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 97a00cd6-508c-47e9-a1c1-75646ca0c721
 title: JobBindAllDocumentsGutter
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a42180ff9a00d1502d844b270fe5da7324825ca3
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 5a89c938e1baa2085ef03b894c8b627f3b6dd69331a4dae585d34f9b3ba49724
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118471773"
 ---
 # <a name="jobbindalldocumentsgutter"></a>JobBindAllDocumentsGutter
 
@@ -28,7 +28,7 @@ Spécifie la largeur de la marge de liaison.
 |----------------------------|-----------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                 |
 | Préfixe d’étendue <br/> | Travail <br/>                         |
-| Notes <br/>          | Lié à l’élément JobBinding<br/> |
+| Remarques <br/>          | Lié à l’élément JobBinding<br/> |
 
 
 
@@ -78,7 +78,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 | MaxValue<br/>     | entier<br/> | non défini<br/>       |
 | MinValue<br/>     | entier<br/> | non défini<br/>       |
 | Obligatoire<br/>    | String<br/>  | PSK : conditionnel<br/> |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Unité<br/>     | string<br/>  | microns<br/>         |
 
 

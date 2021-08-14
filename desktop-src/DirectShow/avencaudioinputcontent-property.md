@@ -4,12 +4,12 @@ ms.assetid: 10e35d7f-06b8-427f-9309-167358ccbd6f
 title: Propriété AVEncAudioInputContent (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0a2006efa769169e0fe3debc7c025bc829a3586
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 38e5132e276d5e526e83a84415f50f22e4a6bce1bc985d830285825e4a1c72a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824209"
 ---
 # <a name="avencaudioinputcontent-property"></a>Propriété AVEncAudioInputContent
 
@@ -35,8 +35,8 @@ La valeur de cette propriété est un membre de l’énumération [**eAVEncAudio
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

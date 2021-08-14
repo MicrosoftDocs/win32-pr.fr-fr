@@ -4,12 +4,12 @@ ms.assetid: 4a6be647-3e73-47a1-acfa-7d6d0a2fb2f4
 title: Table PublishComponent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bb0edfd811873242629c36257fdce5a80fe9d91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c0abd7567e8327aa36a120fd5a13115cb191e1660566e9d480446295dca53cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118376382"
 ---
 # <a name="publishcomponent-table"></a>Table PublishComponent
 
@@ -23,7 +23,7 @@ La table PublishComponent contient les colonnes suivantes.
 |-------------|------------------------------|-----|----------|
 | ComponentId | [GUID](guid.md)             | O   | N        |
 | Qualificateur   | [Text](text.md)             | O   | N        |
-| -\_ | [Identificateur](identifier.md) | O   | N        |
+| Composant\_ | [Identificateur](identifier.md) | O   | N        |
 | AppData     | [Text](text.md)             | N   | O        |
 | Fonctionnalité\_   | [Identificateur](identifier.md) | N   | N        |
 
@@ -70,7 +70,7 @@ Clé externe dans la colonne une du [tableau des fonctionnalités](feature-table
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette table est référencée lorsque l' [action PublishComponents](publishcomponents-action.md) ou l' [action UnpublishComponents](unpublishcomponents-action.md) est exécutée.
 

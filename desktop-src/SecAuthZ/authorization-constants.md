@@ -4,12 +4,12 @@ ms.assetid: be5637e3-0932-49b6-a5af-a542060545e0
 title: Constantes d’autorisation (autorisation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 764021e27d627146c10a8a344646df0991ed98d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbc4d1e6a089a95aa7e445042d73ff2027695119ec313ce21b4040dc88d34311
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784367"
 ---
 # <a name="authorization-constants-authorization"></a>Constantes d’autorisation (autorisation)
 

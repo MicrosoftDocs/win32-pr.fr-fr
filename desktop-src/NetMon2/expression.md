@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: b6565c294c0d8e0a7a277769404cb8b1b206380e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4efa1f79477e3dcc13bedfddb2cdca7fd660f5430b7d7f2b87dbd9d4b4425098
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118366837"
 ---
 # <a name="expression-structure"></a>Structure de l’EXPRESSION
 
@@ -56,7 +56,7 @@ Tableau de modèles **ANDEXP** . Le filtre de capture réorganise toutes les lig
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur l’implémentation de cette structure dans le cadre d’un filtre de capture, consultez [filtres de capture](capture-filters.md).
 

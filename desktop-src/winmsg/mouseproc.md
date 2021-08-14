@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: abdd74b5fed93e2c2ddbc8d037a657b779a62a05
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: fa1528ce2910e563e3fe930fe19960aa43b437b22c53c03d0febc51b98bcc55b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "106512302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200690"
 ---
 # <a name="mouseproc-function"></a>MouseProc fonction)
 
@@ -93,7 +93,7 @@ Si *nCode* est inférieur à zéro, la procédure de raccordement doit retourner
 Si *nCode* est supérieur ou égal à zéro et que la procédure de hook n’a pas traité le message, il est vivement recommandé d’appeler **CallNextHookEx** et de retourner la valeur qu’il retourne ; dans le cas contraire, les autres applications qui ont installé [WH_MOUSE](about-hooks.md) hooks ne recevront pas de notifications de raccordement et pourront se comporter de manière incorrecte.
 Si la procédure de Hook a traité le message, elle peut retourner une valeur différente de zéro pour empêcher le système de transmettre le message à la procédure de fenêtre cible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application installe la procédure de raccordement en spécifiant le type de hook WH_MOUSE et un pointeur vers la procédure de Hook dans un appel à la fonction **SetWindowsHookEx** .
 

@@ -9,12 +9,12 @@ keywords:
 - flux audio, formats audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d85897d4d76a3bdb1e99902eb4f52336a3ad0874
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5c596c8efc1fc5315ad68bad51676888823ac4b3518232ec948ce38b2fb77075
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118196505"
 ---
 # <a name="to-find-audio-formats"></a>Pour rechercher des formats audio
 
@@ -245,12 +245,12 @@ Exit:
 
 <dl> <dt>
 
-[**Configuration de flux audio**](configuring-audio-streams.md)
+[**Configuration de l’Flux audio**](configuring-audio-streams.md)
 </dt> <dt>
 
 [**Pour énumérer les formats de codec**](to-enumerate-codec-formats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

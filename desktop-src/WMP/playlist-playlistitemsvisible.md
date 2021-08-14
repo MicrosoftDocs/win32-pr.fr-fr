@@ -3,7 +3,7 @@ title: PLAYLIST. playlistItemsVisible
 description: L’attribut playlistItemsVisible spécifie ou récupère une valeur indiquant si la zone éléments de la sélection est visible.
 ms.assetid: 9335bd64-c692-4d11-9912-c611208fbc34
 keywords:
-- Lecteur Windows Media PLAYLIST. playlistItemsVisible
+- PLAYLIST. playlistItemsVisible Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 153b27dd8aaabfc12975ac122361b438711610e6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 29cb8155a4424aa0d9b4c4ffa7fde17c8df569c966b0f6a998ac8f93cd4fc227
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118336704"
 ---
 # <a name="playlistplaylistitemsvisible"></a>PLAYLIST. playlistItemsVisible
 
@@ -42,7 +42,7 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La zone éléments de la sélection comprend les en-têtes de colonnes, le contenu des colonnes et les barres de défilement (le cas échéant).
 

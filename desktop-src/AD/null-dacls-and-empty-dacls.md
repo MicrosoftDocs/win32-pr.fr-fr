@@ -8,12 +8,12 @@ keywords:
 - DACL AD, NULL et Empty
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b841bb0253547fea291232fb4c9e6e0f3377d18
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a41e03917c1190b7926eca11db038e2143bcb91d142e0617d143d4d80bb6e601
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103940804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185794"
 ---
 # <a name="null-dacls-and-empty-dacls-ad-ds"></a>DACL null et DACL vides (AD DS)
 
@@ -21,6 +21,6 @@ La présence d’une liste de contrôle d’accès discrétionnaire null dans l�
 
 Pour plus d’informations, consultez [DACL null et DACL vides](/windows/desktop/SecAuthZ/null-dacls-and-empty-dacls).
 
- 
+ 
 
- 
+ 

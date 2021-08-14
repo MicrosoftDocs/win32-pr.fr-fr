@@ -4,12 +4,12 @@ description: Les fonctions suivantes sont utilisées pour s’inscrire auprès d
 ms.assetid: d4374ced-06ea-49dd-8f52-0d06612aa4c3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bbc3dbcfe24e63283907e5e68f211fd1f4cb6e3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8d32ecaa5bc30aa9563ac15383cf17d9308c6c17b416b31a6c2b03b8b55d0710
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117790383"
 ---
 # <a name="multicast-group-manager-functions"></a>Fonctions du gestionnaire de groupe de multidiffusion
 
@@ -59,9 +59,9 @@ Les fonctions suivantes sont utilisées pour obtenir la liste des groupes qui on
 
 [**MgmGroupEnumerationEnd**](/windows/desktop/api/Mgm/nf-mgm-mgmgroupenumerationend)
 
- 
+ 
 
- 
+ 
 
 
 

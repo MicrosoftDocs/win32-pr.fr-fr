@@ -3,8 +3,8 @@ title: Boîte de dialogue Imprimer
 description: La boîte de dialogue Imprimer permet à l’utilisateur de sélectionner des options pour un travail d’impression particulier.
 ms.assetid: 34f69b25-8a89-4322-af4c-a80b85a4a973
 keywords:
-- Interface utilisateur Windows, entrée utilisateur
-- Interface utilisateur Windows, bibliothèque de boîtes de dialogue communes
+- Windows Interface utilisateur, entrée utilisateur
+- Windows Interface utilisateur, bibliothèque de boîtes de dialogue communes
 - entrée utilisateur, bibliothèque de boîtes de dialogue communes
 - capture de l’entrée utilisateur, bibliothèque de boîtes de dialogue communes
 - Bibliothèque de boîtes de dialogue communes
@@ -16,12 +16,12 @@ keywords:
 - boîtes de dialogue, imprimer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fae1dd244391ea16478a0cb4f10803cf622dc64
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0afd8cfa31a83f664e859cd93acc9d28543b7ab00dcb8f130fdbac329cd1429e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117720915"
 ---
 # <a name="print-dialog-box"></a>Boîte de dialogue Imprimer
 
@@ -93,6 +93,6 @@ Les indicateurs suivants s’appliquent uniquement à la boîte de dialogue Conf
 -   **PD \_ ENABLESETUPTEMPLATE**
 -   **PD \_ ENABLESETUPTEMPLATEHANDLE**
 
- 
+ 
 
- 
+ 

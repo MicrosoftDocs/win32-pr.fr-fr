@@ -1,20 +1,20 @@
 ---
-description: Le Langage de requêtes WMI (WQL) (WQL) est un sous-ensemble des American National Standards Institute langage SQL (ANSI SQL) &\# 8212 ; avec des modifications sémantiques mineures. Le tableau suivant répertorie les mots clés WQL.
+description: le Langage de requêtes WMI (WQL) (WQL) est un sous-ensemble des American National Standards Institute langage SQL (ANSI SQL) &\# 8212 ; avec des modifications sémantiques mineures. Le tableau suivant répertorie les mots clés WQL.
 ms.assetid: 72a7ec04-9af3-41ae-9189-6e1d46803fa9
 ms.tgt_platform: multiple
 title: WQL (SQL for WMI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87498b6e8e37ab900e21eedf2c15d5cdba9f9bd7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c9a1a3b0db3f383bd8ba44aeb1e433b5aab02b4e9b4773ea221e1a0254ae037
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738818"
 ---
 # <a name="wql-sql-for-wmi"></a>WQL (SQL for WMI)
 
-Le Langage de requêtes WMI (WQL) (WQL) est un sous-ensemble des American National Standards Institute langage SQL (ANSI SQL) avec des modifications sémantiques mineures. Le tableau suivant répertorie les mots clés WQL.
+le Langage de requêtes WMI (WQL) (WQL) est un sous-ensemble des American National Standards Institute langage SQL (ANSI SQL) avec des modifications sémantiques mineures. Le tableau suivant répertorie les mots clés WQL.
 
 
 
@@ -44,7 +44,7 @@ Le Langage de requêtes WMI (WQL) (WQL) est un sous-ensemble des American Nation
 </tr>
 <tr class="even">
 <td>FROM<br/></td>
-<td>Spécifie la classe qui contient les propriétés listées dans une instruction SELECT. Windows Management Instrumentation (WMI) prend en charge les requêtes de données d’une seule classe à la fois.<br/></td>
+<td>Spécifie la classe qui contient les propriétés listées dans une instruction SELECT. Windows WMI (Management Instrumentation) ne prend en charge les requêtes de données que d’une seule classe à la fois.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="group-clause.md">GROUP, clause</a></td>

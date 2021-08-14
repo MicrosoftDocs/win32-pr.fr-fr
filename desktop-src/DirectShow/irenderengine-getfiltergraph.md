@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 4c4750e6127c0d57758e46b2309f4d91afc110e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8208d886cd23dab797a9f89d3c050c9f46eff60c8cdd78c27c89dae7396c557a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118397580"
 ---
 # <a name="irenderenginegetfiltergraph-method"></a>IRenderEngine :: GetFilterGraph, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -60,7 +60,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
 | Code de retour                                                                                            | Description                                    |
 |--------------------------------------------------------------------------------------------------------|------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                   | Opération réussie.<br/>                            |
+| <dl> <dt>**\_OK**</dt> </dl>                   | Réussite.<br/>                            |
 | <dl> <dt>**E \_ doit \_ initialiser le \_ convertisseur**</dt> </dl> | Le moteur de rendu n’a pas pu s’initialiser.<br/> |
 | <dl> <dt>**\_pointeur E**</dt> </dl>              | Pointeur non valide.<br/>                    |
 
@@ -68,9 +68,9 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Utilisez la méthode [**IRenderEngine :: ConnectFrontEnd**](irenderengine-connectfrontend.md) pour créer le serveur frontal du graphique de filtre. Pour la version préliminaire, utilisez [**IRenderEngine :: RenderOutputPins**](irenderengine-renderoutputpins.md) pour terminer le graphique. Pour la sortie de fichier, connectez le serveur frontal à une combinaison multiplexeur de fichiers/Mux. Pour plus d’informations, consultez [rendu d’un projet](rendering-a-project.md).
+Utilisez la méthode [**IRenderEngine :: ConnectFrontEnd**](irenderengine-connectfrontend.md) pour créer le serveur frontal du graphique de filtre. Pour la version préliminaire, utilisez [**IRenderEngine :: RenderOutputPins**](irenderengine-renderoutputpins.md) pour terminer le graphique. Pour la sortie de fichier, connectez le serveur frontal à une combinaison multiplexeur de fichiers/Mux. Pour plus d’informations, consultez [rendu d’un Project](rendering-a-project.md).
 
 Le graphique résultant peut être exécuté, suspendu, arrêté et cherché ; Toutefois, la vitesse de lecture ne peut pas être modifiée.
 
@@ -82,7 +82,7 @@ En cas de retour, si la valeur de *\* ppFG* est non **null**, l’interface **IG
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

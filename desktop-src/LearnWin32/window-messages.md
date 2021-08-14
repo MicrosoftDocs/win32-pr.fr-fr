@@ -1,26 +1,26 @@
 ---
-title: Messages de fenêtre (prise en main de Win32 et C++)
-description: Messages de fenêtre (prise en main de Win32 et C++)
+title: Messages de fenêtre (Prise en main avec Win32 et C++)
+description: Messages de fenêtre (Prise en main avec Win32 et C++)
 ms.assetid: 90c20456-44ed-4f0f-a6d3-b6c5660f0bc7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c00da564396e0f95947e33fb7d8db8b217ac5cdf
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d0e3655ddbd053cf9f84b4298518c4616679e83fe1eb48fb60011e865ca8a605
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118387512"
 ---
-# <a name="window-messages-get-started-with-win32-and-c"></a>Messages de fenêtre (prise en main de Win32 et C++)
+# <a name="window-messages-get-started-with-win32-and-c"></a>Messages de fenêtre (Prise en main avec Win32 et C++)
 
 Une application GUI doit répondre aux événements de l’utilisateur et du système d’exploitation.
 
 - Les **événements de l’utilisateur** incluent toutes les façons dont quelqu’un peut interagir avec votre programme : les clics de souris, les frappes de touche, les gestes à écran tactile, et ainsi de suite.
-- Les **événements du système d’exploitation** incluent tout ce qui est « en dehors » du programme qui peut affecter le comportement du programme. Par exemple, l’utilisateur peut brancher un nouveau périphérique matériel, ou Windows peut passer à un état d’alimentation faible (veille ou veille prolongée).
+- Les **événements du système d’exploitation** incluent tout ce qui est « en dehors » du programme qui peut affecter le comportement du programme. par exemple, l’utilisateur peut brancher un nouveau périphérique matériel, ou Windows peut entrer dans un état de faible consommation d’énergie (veille ou veille prolongée).
 
 Ces événements peuvent se produire à tout moment pendant l’exécution du programme, dans presque n’importe quel ordre. Comment structurer un programme dont le déroulement de l’exécution ne peut pas être prédit à l’avance ?
 
-Pour résoudre ce problème, Windows utilise un modèle de transmission de messages. Le système d’exploitation communique avec la fenêtre de votre application en lui transmettant des messages. Un message est simplement un code numérique qui désigne un événement particulier. Par exemple, si l’utilisateur appuie sur le bouton gauche de la souris, la fenêtre reçoit un message avec le code de message suivant.
+pour résoudre ce problème, Windows utilise un modèle de transmission de messages. Le système d’exploitation communique avec la fenêtre de votre application en lui transmettant des messages. Un message est simplement un code numérique qui désigne un événement particulier. Par exemple, si l’utilisateur appuie sur le bouton gauche de la souris, la fenêtre reçoit un message avec le code de message suivant.
 
 ```C++
 #define WM_LBUTTONDOWN    0x0201

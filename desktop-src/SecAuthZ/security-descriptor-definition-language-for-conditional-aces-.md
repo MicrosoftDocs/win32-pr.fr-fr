@@ -4,12 +4,12 @@ ms.assetid: cdc3629d-c4d8-4910-8838-3bdb601f7064
 title: Langage de définition du descripteur de sécurité pour les ACE conditionnelles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f65cb6ae0588ae197c84d3b13362721cc3e98b43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee0a746460c7582d95e0c95e2a2c179aac2eb29456418234cb52e842c8c56738
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780524"
 ---
 # <a name="security-descriptor-definition-language-for-conditional-aces"></a>Langage de définition du descripteur de sécurité pour les ACE conditionnelles
 
@@ -64,7 +64,7 @@ Une expression conditionnelle peut inclure l’un des éléments suivants.
 | * ConditionalExpression * **\|\|** _ConditionalExpression_<br/> | Teste si l’une des expressions conditionnelles spécifiées a la valeur true.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | *ConditionalExpression* **&&** *ConditionalExpression*<br/> | Teste si les deux expressions conditionnelles spécifiées ont la valeur true.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **! (**_ConditionalExpression_*_)_*<br/>                     | Inverse d’une expression conditionnelle.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Membre \_ de {**_SidArray_*_}_*<br/>                         | Teste si le SID et le tableau d' [**\_ \_ attributs**](/windows/desktop/api/Winnt/ns-winnt-sid_and_attributes) du contexte client contient tous les [identificateurs de sécurité](security-identifiers.md) (SID) de la liste séparée par des virgules spécifiée par *SidArray*.<br/> Pour les ACE Allow, le SID du contexte client doit avoir le jeu d’attributs **\_ \_ Enabled Group** pour être considéré comme une correspondance.<br/> Pour les ACE de refus, un SID de contexte client doit avoir le **groupe de se \_ \_ activé** ou le **\_ groupe \_ de se utilisé pour l’attribut \_ de \_ refus \_ uniquement** défini pour être considéré comme une correspondance.<br/> Le tableau *SidArray* peut contenir soit des chaînes sid (par exemple, « S-1-5-6 »), soit des alias sid (par exemple, « BA »).<br/> |
+| **Membre \_ de {**_SidArray_*_}_*<br/>                         | Teste si le SID et le tableau d' [**\_ \_ attributs**](/windows/desktop/api/Winnt/ns-winnt-sid_and_attributes) du contexte client contient tous les [identificateurs de sécurité](security-identifiers.md) (SID) de la liste séparée par des virgules spécifiée par *SidArray*.<br/> pour les ace Allow, un attribut de contexte du client doit avoir le jeu d’attributs **\_ \_ activé** pour le groupe de SE pour qu’il soit considéré comme une correspondance.<br/> pour les ace de refus, un SID de contexte client doit avoir le **groupe de SE \_ \_ activé** ou le groupe **d’SE utilisé comme attribut \_ \_ \_ de \_ refus \_ uniquement** défini pour être considéré comme une correspondance.<br/> Le tableau *SidArray* peut contenir soit des chaînes sid (par exemple, « S-1-5-6 »), soit des alias sid (par exemple, « BA »).<br/> |
 
 
 
@@ -80,7 +80,7 @@ Une valeur d’attribut peut être de l’un des types suivants.
 
 | Type de valeur         | Description                                                                                                                                                                                         |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Integer<br/> | Entier 64 bits en notation décimale ou hexadécimale.<br/>                                                                                                                              |
+| Entier<br/> | Entier 64 bits en notation décimale ou hexadécimale.<br/>                                                                                                                              |
 | String<br/>  | Valeur de chaîne délimitée par des guillemets.<br/>                                                                                                                                                      |
 | SID<br/>     | SID (S-1-1-0) ou SID (BA). Doit se trouver sur le RHS du membre \_ de ou de l’appareil \_ membre \_ de.<br/>                                                                                                           |
 | BLOB<br/>    | \# suivi de nombres hexadécimaux. Si la longueur des nombres est impaire, le \# est converti en 0 pour le faire même. En outre \# , un autre emplacement dans la valeur est traduit en 0.<br/> |

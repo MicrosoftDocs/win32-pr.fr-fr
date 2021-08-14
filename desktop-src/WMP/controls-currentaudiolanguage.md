@@ -3,7 +3,7 @@ title: Controls. currentAudioLanguage
 description: La propriété currentAudioLanguage spécifie ou récupère l’identificateur de paramètres régionaux (LCID) de la langue audio pour la lecture.
 ms.assetid: 628845df-add3-4068-9c3d-b4a9b818808c
 keywords:
-- Controls. currentAudioLanguage Windows Media Player
+- controls. currentAudioLanguage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1bc84c7d4c14bb742a6db37feca59fb9d0db0e1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 63c5eb53c9f408a9d50a7f738434e5dcd30fc804970b3e1ea95c985c90d62063
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117750611"
 ---
 # <a name="controlscurrentaudiolanguage"></a>Controls. currentAudioLanguage
 
@@ -34,11 +34,11 @@ player.controls.currentAudioLanguage
 
 Cette propriété est un **nombre** en lecture/écriture (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un LCID identifie de façon unique un dialecte de langage particulier, appelé paramètres régionaux.
 
-Pour le contenu Windows Media, les propriétés et les méthodes liées à la sélection de la langue ne prennent en charge qu’une seule sortie.
+pour Windows le contenu multimédia, les propriétés et les méthodes liées à la sélection de la langue ne prennent en charge qu’une seule sortie.
 
 Lors de l’utilisation d’un contenu DVD, la spécification d’un LCID entraîne la sélection de la première piste audio disponible avec l’ID de langue spécifié.
 

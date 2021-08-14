@@ -1,19 +1,19 @@
 ---
-description: Spécifie comment le récepteur de média ASF doit appliquer Windows Media DRM.
+description: spécifie la manière dont le récepteur de média ASF doit s’appliquer Windows media DRM.
 ms.assetid: 5f81294b-859a-4325-98dd-6267c736e1f1
 title: MFPKEY_ASFMEDIASINK_DRMACTION, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80906a5ac6e5d12bd59dd57445d33b100fee1aef
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 4ed62f62a5d03d7fe938101d9837bd8ed9bccefe69b2bf30e0566ea0b471e37f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103761479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117874343"
 ---
 # <a name="mfpkey_asfmediasink_drmaction-property"></a>MFPKEY \_ ASFMEDIASINK \_ DRMACTION, propriété
 
-Spécifie comment le récepteur de média ASF doit appliquer Windows Media DRM.
+spécifie la manière dont le récepteur de média ASF doit s’appliquer Windows media DRM.
 
 
 
@@ -23,7 +23,7 @@ Type de PROPVARIANT (VT)
 
 Membre PROPVARIANT
 
-**CORRESPONDANTE**
+**ULONG**
 
 VT \_ UI4
 
@@ -31,7 +31,7 @@ VT \_ UI4
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de cette propriété est un membre de l’énumération [**MFSINK \_ WMDRMACTION**](/windows/win32/api/wmcontainer/ne-wmcontainer-mfsink_wmdrmaction) .
 
@@ -47,8 +47,8 @@ Vous pouvez utiliser cet attribut pour configurer le récepteur multimédia ASF.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: CUSTOMSLIDER.positionImage
 description: L’attribut positionImage spécifie ou récupère l’image interactive utilisée pour déterminer l’image de position à partir du fichier image à afficher.
 ms.assetid: 7e99dc21-ebba-438a-a983-190dbe429578
 keywords:
-- Lecteur Windows Media CUSTOMSLIDER. positionImage
+- CUSTOMSLIDER. positionImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: dc92a9c263e2b450e64d526ccfc7976fdd6227a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 727601ceb7ed078e40a284ab291f2e182a4270682b5f1db104515e31d3dbe2ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749989"
 ---
 # <a name="customsliderpositionimage"></a>CUSTOMSLIDER.positionImage
 
@@ -32,7 +32,7 @@ L’attribut **positionImage** spécifie ou récupère l’image interactive uti
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est obligatoire et doit être spécifié.
 

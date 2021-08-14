@@ -4,24 +4,24 @@ ms.assetid: 7cee19b1-ceea-494a-b576-4deede759905
 title: Implémentation de terminaux enfichables
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 494b2f6bc5ccb214bc7101f570a4db3037fd8cae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a75dd7b085377c8474c9a89d74a297c3ca66c6740c01c7428e7b6f250e16c5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762901"
 ---
 # <a name="implementing-pluggable-terminals"></a>Implémentation de terminaux enfichables
 
 Les exigences générales en matière d’implémentation de terminal enfichable sont les suivantes :
 
 -   Le code de diffusion en continu sous-jacent d’un terminal enfichable doit correspondre aux capacités des MSP souhaités.
--   Le terminal doit utiliser des filtres DirectShow pour travailler avec la plupart des MSP (cela est supposé ici sur).
+-   le terminal doit utiliser DirectShow filtres pour travailler avec la plupart des msp (ce qui est supposé ici sur).
 -   Les terminaux audio doivent prendre en charge le PCM linéaire mono 16 bits 8 kHz pour la plupart des MSP.
 -   Le terminal doit activer le marshaling de threads libres en implémentant [**IMarshal**](/windows/win32/api/objidlbase/nn-objidlbase-imarshal). Pour ce faire, le terminal peut appeler l’API COM [**CoCreateFreeThreadedMarshaler**](/windows/win32/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler) et agréger **IMarshal** au pointeur retourné. Le destructeur de l’objet terminal doit appeler [**IMarshal->Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release).
 -   Le terminal doit implémenter ou agréger toutes les interfaces supplémentaires spécifiques au terminal qui sont appropriées.
 -   L’implémentation du terminal doit être thread-safe.
--   L’implémentation de terminal doit \# inclure termmgr. h pour la définition de [**ITTerminalControl**](/windows/desktop/api/Termmgr/nn-termmgr-itterminalcontrol). Cela s’ajoute aux fichiers include et libs habituels qui sont nécessaires pour les applications TAPI 3 ou TAPI 3 sous Windows 2000 SP1.
+-   L’implémentation de terminal doit \# inclure termmgr. h pour la définition de [**ITTerminalControl**](/windows/desktop/api/Termmgr/nn-termmgr-itterminalcontrol). cela s’ajoute aux fichiers include et libs habituels qui sont nécessaires pour les applications tapi 3 ou tapi 3 sous Windows 2000 SP1.
 
 Remarques sur l’implémentation des interfaces et des méthodes :
 

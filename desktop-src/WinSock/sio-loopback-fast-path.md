@@ -8,20 +8,20 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: f32cba8a081d2eb268a3e93a362ccec9bf414d8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8650cd267d321569aca584e7195fb1bdb79c83a33d931e59e8db37521b8933a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740408"
 ---
 # <a name="sio_loopback_fast_path-control-code"></a>Code de contrôle SIO_LOOPBACK_FAST_PATH
 
 ## <a name="description"></a>Description
 
-Le code de contrôle du **\_ \_ \_ chemin d’accès rapide de bouclage SIO** configure un socket TCP pour une latence plus faible et des opérations plus rapides sur l’interface de bouclage.
+le code de contrôle de **SIO \_ LOOPBACK \_ FAST \_ PATH** configure un socket TCP pour une latence plus faible et des opérations plus rapides sur l’interface de bouclage.
 
-**Important**  Le **\_ \_ \_ chemin d’accès rapide de bouclage SIO** est déconseillé et il n’est pas recommandé de l’utiliser dans votre code.
+**Important**  le **\_ \_ \_ chemin d’accès FAST de bouclage SIO** est déconseillé et il n’est pas recommandé de l’utiliser dans votre code.
 
 Pour effectuer cette opération, appelez la fonction [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) ou **WSPIoctl** avec les paramètres suivants.
 
@@ -64,7 +64,7 @@ Descripteur identifiant un Socket.
 ### <a name="dwiocontrolcode"></a>dwIoControlCode
 
 Code de contrôle de l’opération.
-Utilisez **le \_ \_ \_ chemin d’accès rapide de bouclage SIO** pour cette opération.
+utilisez **SIO \_ LOOPBACK \_ FAST \_ chemin d’accès** pour cette opération.
 
 ### <a name="lpvinbuffer"></a>lpvInBuffer
 
@@ -146,13 +146,13 @@ Pour afficher les informations d’erreur étendues, appelez [**WSAGetLastError*
 | **WSAEINVAL** | Argument non valide fourni. Cette erreur est retournée si le paramètre *dwIoControlCode* n’est pas une commande valide, si un paramètre d’entrée spécifié n’est pas acceptable ou si la commande n’est pas applicable au type de socket spécifié. |
 | **WSAENETDOWN** | Une opération de socket a rencontré un réseau inactif. Cette erreur est retournée si le sous-système réseau a échoué. |
 | **WSAENOTSOCK** | Une opération a été tentée sur un qui n’est pas un Socket. Cette erreur est retournée si le *descripteur* n’est pas un Socket. |
-| **WSAEOPNOTSUPP** | L’opération tentée n’est pas prise en charge pour le type d’objet référencé. Cette erreur est retournée si la commande IOCTL spécifiée n’est pas prise en charge. Cette erreur est également retournée si l’IOCTL du **\_ \_ \_ chemin d’accès rapide de bouclage SIO** n’est pas prise en charge par le fournisseur de transport. |
+| **WSAEOPNOTSUPP** | L’opération tentée n’est pas prise en charge pour le type d’objet référencé. Cette erreur est retournée si la commande IOCTL spécifiée n’est pas prise en charge. cette erreur est également retournée si **le \_ \_ \_ chemin d’accès FAST de bouclage SIO** n’est pas pris en charge par le fournisseur de transport. |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Une application peut utiliser l’IOCTL du **\_ \_ \_ chemin d’accès rapide de bouclage SIO** pour réduire la latence et améliorer les performances des opérations de bouclage sur un socket TCP.
+une application peut utiliser le **\_ bouclage SIO \_ FAST \_ chemin** IOCTL pour réduire la latence et améliorer les performances des opérations de bouclage sur un socket TCP.
 Cette IOCTL demande que la pile TCP/IP utilise un chemin d’accès rapide spécial pour les opérations de bouclage sur ce Socket.
-L’IOCTL du **\_ \_ \_ chemin d’accès rapide de bouclage SIO** peut être utilisé uniquement avec les sockets TCP.
+l’IOCTL du **\_ \_ \_ chemin d’accès du FAST de bouclage SIO** peut être utilisé uniquement avec les sockets TCP.
 Cette IOCTL doit être utilisée des deux côtés de la session de bouclage.
 Le chemin d’accès rapide de bouclage TCP est pris en charge à l’aide de l’interface de bouclage IPv4 ou IPv6.
 
@@ -165,7 +165,7 @@ Tous les sockets retournés par la fonction listen et transmis à la fonction [*
 
 Une fois qu’une application établit la connexion sur une interface de bouclage à l’aide du chemin d’accès rapide, tous les paquets pour la durée de vie de la connexion doivent utiliser le chemin d’accès rapide.
 
-L’application du **\_ \_ \_ chemin d’accès rapide de bouclage SIO** à un socket qui sera connecté à un chemin d’accès sans bouclage n’aura aucun effet.
+l’application de **SIO \_ LOOPBACK \_ FAST \_ chemin d’accès** à un socket qui sera connecté à un chemin d’accès sans bouclage n’aura aucun effet.
 
 Cette optimisation de bouclage TCP entraîne des paquets qui transitent par la couche de transport (TL) au lieu du bouclage traditionnel via la couche réseau.
 Cette optimisation améliore la latence des paquets de bouclage.
@@ -177,14 +177,14 @@ Sans contrôle de Flow, l’expéditeur peut saturer la mémoire tampon de réce
 Le contrôle de Flow dans le chemin de bouclage optimisé TCP est conservé en plaçant les demandes Send dans une file d’attente.
 Lorsque la mémoire tampon de réception est pleine, la pile TCP/IP garantit que les envois ne se terminent pas tant que la file d’attente ne prend pas en service le contrôle de Workflow.
 
-Les connexions de bouclage TCP Fast Path en présence d’une légende de plateforme de filtrage Windows (WFP) pour les données de connexion doivent prendre le chemin lent non optimisé pour le bouclage.
+les connexions de bouclage TCP fast path en présence d’une légende de plateforme de filtrage Windows (WFP) pour les données de connexion doivent prendre le chemin lent non optimisé pour le bouclage.
 Par conséquent, les filtres WFP empêchent l’utilisation de ce nouveau chemin d’accès rapide de bouclage.
-Quand un filtre WFP est activé, le système utilise le chemin d’accès lent même si l’IOCTL du **\_ \_ \_ chemin d’accès rapide de bouclage SIO** a été définie.
+quand un filtre WFP est activé, le système utilise le chemin d’accès lent même si le **\_ \_ \_ chemin d’accès de FAST de bouclage SIO** a été défini.
 Cela garantit que les applications en mode utilisateur disposent de la fonctionnalité de sécurité WFP complète.
 
-Par défaut, **le \_ \_ \_ chemin d’accès rapide de bouclage SIO** est désactivé.
+par défaut, **le \_ \_ \_ chemin d’accès FAST de bouclage SIO** est désactivé.
 
-Seul un sous-ensemble des options de socket TCP/IP est pris en charge lorsque l’IOCTL du **\_ \_ \_ chemin d’accès rapide de bouclage SIO** est utilisé pour activer le chemin d’accès rapide de bouclage sur un Socket.
+seul un sous-ensemble des options de socket TCP/IP est pris en charge lorsque le **SIO \_ loopback \_ FAST \_ path** IOCTL est utilisé pour activer le chemin d’accès rapide de bouclage sur un socket.
 La liste des options prises en charge comprend les éléments suivants :
 
 * **\_TTL IP**

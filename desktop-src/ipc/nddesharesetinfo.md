@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: cee7660a58e8f2747a800650b79db20f95504f87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccfa8cc80f60477e8512ac43f0e93825642dd0603ee398e232bbb67d6979a4c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481699"
 ---
 # <a name="nddesharesetinfo-function"></a>NDdeShareSetInfo fonction)
 
@@ -115,7 +115,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur qui peut êtr
 
 <dl> <dt>
 
-[Présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
+[présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Fonctions DDE réseau](network-dde-functions.md)

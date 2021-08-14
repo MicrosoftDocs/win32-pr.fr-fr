@@ -4,16 +4,16 @@ ms.assetid: 794b6369-665f-49a9-a263-7c736c5ce8ac
 title: Utilisation des extensions de Shell
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbb696f4536cdb0fb6869be073771d431bd8d2de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 804b121ccf633b44574ae956b367143eebdaf7a2a3a8a9cc8400995522b4cbef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452847"
 ---
 # <a name="working-with-shell-extensions"></a>Utilisation des extensions de Shell
 
-Les fonctionnalités de l’interpréteur de commandes peuvent être étendues avec des entrées de Registre et des fichiers. ini. Bien que cette approche de l’extension de l’interpréteur de commandes soit simple et adaptée à de nombreuses fins, elle est limitée. Par exemple, si vous utilisez le registre pour spécifier une icône personnalisée pour un type de fichier, la même icône s’affiche pour chaque fichier de ce type. L’extension de l’interpréteur de commandes avec le registre ne vous permet pas de faire varier l’icône pour différents membres du type de fichier. D’autres aspects de l’interpréteur de commandes, tels que la feuille de propriétés des **Propriétés** qui peuvent être affichées lorsqu’un utilisateur clique avec le bouton droit, ne peuvent pas être modifiés du tout à l’aide du Registre.
+Les fonctionnalités de l’interpréteur de commandes peuvent être étendues avec des entrées de Registre et des fichiers de .ini. Bien que cette approche de l’extension de l’interpréteur de commandes soit simple et adaptée à de nombreuses fins, elle est limitée. Par exemple, si vous utilisez le registre pour spécifier une icône personnalisée pour un type de fichier, la même icône s’affiche pour chaque fichier de ce type. L’extension de l’interpréteur de commandes avec le registre ne vous permet pas de faire varier l’icône pour différents membres du type de fichier. D’autres aspects de l’interpréteur de commandes, tels que la feuille de propriétés des **Propriétés** qui peuvent être affichées lorsqu’un utilisateur clique avec le bouton droit, ne peuvent pas être modifiés du tout à l’aide du Registre.
 
 Une approche plus puissante et flexible pour étendre l’interpréteur de commandes consiste à implémenter des *gestionnaires d’extensions de Shell*. Ces gestionnaires peuvent être implémentés pour diverses actions que l’interpréteur de commandes peut prendre. Avant d’entreprendre l’action, l’interpréteur de commandes interroge le gestionnaire d’extensions, en lui donnant la possibilité de modifier l’action. Un gestionnaire d’extensions de menu contextuel est un exemple courant. Si l’une d’elles est implémentée pour un type de fichier, elle est interrogée chaque fois que l’utilisateur clique avec le bouton droit sur l’un des fichiers. Le gestionnaire peut ensuite spécifier des éléments de menu supplémentaires pour chaque fichier, au lieu d’avoir le même ensemble pour tous les fichiers de ce type de fichier.
 
@@ -42,11 +42,11 @@ D’autres ne sont pas associées à un type de fichier particulier, mais sont a
 
 | Handler                                                            | Description                                                                                                                                  |
 |--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| [Gestionnaire de colonnes](../lwef/column-handlers.md)                             | Appelée par l’Explorateur Windows avant d’afficher la vue Détails d’un dossier. Elle vous permet d’ajouter des colonnes personnalisées à la vue Détails.        |
+| [Gestionnaire de colonnes](../lwef/column-handlers.md)                             | appelée par Windows Explorer avant d’afficher la vue détails d’un dossier. Elle vous permet d’ajouter des colonnes personnalisées à la vue Détails.        |
 | [Gestionnaire de raccordement de copie](how-to-create-copy-hook-handlers.md)          | Appelé lorsqu’un objet de dossier ou d’imprimante est sur le lieu d’être déplacé, copié, supprimé ou renommé. Elle vous permet d’approuver ou de refuser l’opération.   |
 | [Gestionnaire de glisser-déplacer](context-menu-handlers.md)                 | Appelé lorsqu’un fichier est glissé avec le bouton droit de la souris. Elle vous permet de modifier le menu contextuel qui s’affiche.                     |
 | [Gestionnaire de superposition d’icône](how-to-implement-icon-overlay-handlers.md) | Appelé avant l’affichage de l’icône d’un fichier. Elle vous permet de spécifier une superposition pour l’icône du fichier.                                          |
-| [Gestionnaire de recherche](../lwef/search-handlers.md)                             | Appelé pour lancer un moteur de recherche. Elle vous permet d’implémenter un moteur de recherche personnalisé accessible à partir du menu **Démarrer** ou de l’Explorateur Windows. |
+| [Gestionnaire de recherche](../lwef/search-handlers.md)                             | Appelé pour lancer un moteur de recherche. elle vous permet d’implémenter un moteur de recherche personnalisé accessible à partir du menu **démarrer** ou de l’explorateur de Windows. |
 
 
 

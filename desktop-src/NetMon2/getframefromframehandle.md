@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: ce8151b2f4c81c61dea5969ff52e9ddf2d6615a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56ee96fd04d4860648dac2ec6b20a537ba420beb070c8f9b7248d9e3b4acd184
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118366543"
 ---
 # <a name="getframefromframehandle-function"></a>GetFrameFromFrameHandle fonction)
 
@@ -52,7 +52,7 @@ Si la fonction réussit, la valeur de retour est un pointeur vers le frame.
 
 Si la fonction échoue, la valeur de retour est 0.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **GetFrameFromFrameHandle** récupère les données qui ne peuvent pas être récupérées par les autres fonctions d’assistance fournies par Moniteur réseau. Utilisez les fonctions suivantes dans la mesure du possible.
 

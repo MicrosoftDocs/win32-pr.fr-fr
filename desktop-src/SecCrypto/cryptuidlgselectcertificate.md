@@ -4,12 +4,12 @@ ms.assetid: 242c19a7-179b-4fc0-a050-a1b598566a6b
 title: CryptUIDlgSelectCertificate, fonction
 ms.topic: reference
 ms.date: 05/29/2020
-ms.openlocfilehash: 8f015796671990491407d91cbd51761816c5434b
-ms.sourcegitcommit: 435ea8f5bf06808ffa7dce39afb0ee6de842ba2f
+ms.openlocfilehash: fb37eb664841331ce3f37e9ce37ca3ab9e5c0f92c254cff0896c6c682a9f2872
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "107925690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768162"
 ---
 # <a name="cryptuidlgselectcertificate-function"></a>CryptUIDlgSelectCertificate, fonction
 
@@ -37,7 +37,7 @@ Pointeur vers une structure [**de \_ \_ struct SELECTCERTIFICATE**](cryptui-sele
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Pointeur vers une structure [**de \_ contexte de certificat**](/windows/win32/api/Wincrypt/ns-wincrypt-cert_context) qui représente le certificat sélectionné par l’utilisateur. Lorsque vous avez fini d’utiliser ce certificat, vous devez passer ce pointeur à la fonction [**CertFreeCertificateContext**](/windows/win32/api/wincrypt/nf-wincrypt-certfreecertificatecontext) pour décrémenter le décompte de références du contexte de certificat.
 
@@ -55,9 +55,9 @@ Si le membre **dwFlags** de la structure du [**\_ \_ struct cryptui SELECTCERTIF
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                              |
-| Fin de la prise en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows XP uniquement\]<br/>                                                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                              |
+| Fin de la prise en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                       |
 | Bibliothèque<br/>                  | <dl> <dt>Cryptui. lib</dt> </dl>            |
 | DLL<br/>                      | <dl> <dt>Cryptui.dll</dt> </dl>            |
 | Noms Unicode et ANSI<br/>   | **CryptUIDlgSelectCertificateW** (Unicode) et **CryptUIDlgSelectCertificateA** (ANSI)<br/> |

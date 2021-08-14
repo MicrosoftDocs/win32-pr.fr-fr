@@ -4,12 +4,12 @@ ms.assetid: f8566e53-51c9-4424-a8bb-369455f35706
 title: Initialiser l’interface TAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78062e71df2d68895a645ca8a6c4c480a1415cd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b6b354267bccffc96eed9f1e3457e41eeee9937bef73716768762db05bed67b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762526"
 ---
 # <a name="initialize-tapi"></a>Initialiser l’interface TAPI
 

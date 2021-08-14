@@ -3,7 +3,7 @@ title: Structure de MCI_VCR_PLAY_PARMS (VCR. h)
 description: La \_ structure des paramètres MCI VCR \_ Play contient des \_ paramètres pour la \_ commande MCI Play pour les enregistreurs vidéo-cassettes.
 ms.assetid: e180c203-3113-4fdb-bcf1-ea3e45e646e2
 keywords:
-- Structure de MCI_VCR_PLAY_PARMS Windows multimédia
+- structure MCI_VCR_PLAY_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae15eedc69accc88ef7a58a6d7ad435e872de7ea
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6f2e725ca3dc04fa13dd89aff0a5fbd60ede66f83154740803c98679eb77aec1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374357"
 ---
 # <a name="mci_vcr_play_parms-structure"></a>La \_ \_ structure des PARMS de lecture MCI VCR \_
 
@@ -71,7 +71,7 @@ Valeur de temps qui affecte la commande [**MCI \_ Play**](mci-play.md) ou [**MCI
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les positions sont spécifiées dans le format d’heure actuel.
 

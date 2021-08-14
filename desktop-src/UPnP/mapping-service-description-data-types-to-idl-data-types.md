@@ -4,12 +4,12 @@ description: Le tableau suivant montre le mappage des types de données XML spé
 ms.assetid: eeb86177-8c3b-47f1-bbe1-f9aabd2dde76
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6b5fac697c41f54279ecde7436900434895ff23
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 22a34a5ec9ee092091dc00c7cc420b4474a38d8cba0d41c2691943c7dcd5b35e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118347629"
 ---
 # <a name="mapping-service-description-data-types-to-idl-data-types"></a>Mappage de types de données de description de service à des types de données IDL
 
@@ -46,11 +46,11 @@ Le tableau suivant montre le mappage des types de données XML spécifiés dans 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

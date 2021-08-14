@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/29/2020
-ms.openlocfilehash: 7198932c6edb91e6f797b232b6c980976f3696a7
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 39097dd358fcf9da1685be517742291ef96332f2307f255274445da70e4fc050
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "103761894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117725933"
 ---
 # <a name="scalar-types"></a>Types scalaires
 
@@ -33,7 +33,7 @@ Le langage HLSL prend en charge plusieurs types de données scalaires :
 -   valeur à virgule flottante 32 bits **float** .
 -   valeur à virgule flottante **double** 64 bits. Vous ne pouvez pas utiliser des valeurs à double précision comme entrées et sorties pour un flux. Pour passer des valeurs à double précision entre les nuanceurs, déclarez chaque **double** comme une paire de types de données **uint** . Utilisez ensuite la fonction [**asuint**](asuint.md) pour compresser chaque **double** dans la paire **uint** s et la fonction [**AsDouble**](asdouble.md) pour décompresser la paire de **uint** s dans le **double**.
 
-À compter de Windows 8 HLSL, il prend également en charge les types de données scalaires de précision minimale. Les pilotes graphiques peuvent implémenter des types de données scalaires de précision minimale à l’aide d’une précision supérieure ou égale à la précision de bit spécifiée. Nous vous recommandons de ne pas compter sur le comportement de verrouillage ou d’habillage qui dépend de la précision sous-jacente spécifique. Par exemple, le pilote Graphics peut exécuter une opération arithmétique sur une valeur **min16float** à la précision 32 bits.
+à partir de Windows 8 HLSL prend également en charge les types de données scalaires de précision minimale. Les pilotes graphiques peuvent implémenter des types de données scalaires de précision minimale à l’aide d’une précision supérieure ou égale à la précision de bit spécifiée. Nous vous recommandons de ne pas compter sur le comportement de verrouillage ou d’habillage qui dépend de la précision sous-jacente spécifique. Par exemple, le pilote Graphics peut exécuter une opération arithmétique sur une valeur **min16float** à la précision 32 bits.
 
 -   **min16float** -valeur à virgule flottante 16 bits minimale.
 -   **min10float** -valeur à virgule flottante 10 bits minimale.

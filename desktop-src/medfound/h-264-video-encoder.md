@@ -4,12 +4,12 @@ ms.assetid: 4d4c768f-b76a-40ca-8736-2f592a4f4cc4
 title: Encodeur vidéo H. 264
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5631239e9db0ddf078848bc3c4a04282e7e79990
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04d1c1c8af4487d02cbb8405ebf341458424074a3d8c3cae53bff4207f73490c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117879093"
 ---
 # <a name="h264-video-encoder"></a>Encodeur vidéo H. 264
 
@@ -17,7 +17,7 @@ Le Microsoft Media Foundation encodeur vidéo H. 264 est une [transformation Med
 
 -   Profil de base
 -   Profil Main
--   Profil élevé (nécessite Windows 8)
+-   Profil élevé (requiert Windows 8)
 
 L’encodeur vidéo H. 264 expose les interfaces suivantes :
 
@@ -90,16 +90,16 @@ Définissez les attributs suivants sur le type de média de sortie.
 <ul>
 <li><strong>eAVEncH264VProfile_Base</strong> (par défaut)</li>
 <li><strong>eAVEncH264VProfile_Main</strong></li>
-<li><strong>eAVEncH264VProfile_High</strong> (nécessite Windows 8)</li>
+<li><strong>eAVEncH264VProfile_High</strong> (requiert Windows 8)</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-mpeg2-level-attribute.md"><strong>MF_MT_MPEG2_LEVEL</strong></a></td>
-<td>Optionnel. Spécifie le niveau d’encodage H. 264.<br/> La valeur par défaut est – 1, ce qui indique que l’encodeur va sélectionner le niveau d’encodage.<br/> Il est recommandé de ne pas définir le niveau dans le type de média et de permettre à l’encodeur de sélectionner le niveau. L’encodeur peut dériver le niveau approprié pour un flux vidéo donné, en tenant compte des contraintes de format et des caractéristiques de la vidéo. Pour plus d’informations sur les contraintes de profil et de niveau, reportez-vous à l’annexe A de l’ITU-T H. 264.<br/></td>
+<td>Facultatif. Spécifie le niveau d’encodage H. 264.<br/> La valeur par défaut est – 1, ce qui indique que l’encodeur va sélectionner le niveau d’encodage.<br/> Il est recommandé de ne pas définir le niveau dans le type de média et de permettre à l’encodeur de sélectionner le niveau. L’encodeur peut dériver le niveau approprié pour un flux vidéo donné, en tenant compte des contraintes de format et des caractéristiques de la vidéo. Pour plus d’informations sur les contraintes de profil et de niveau, reportez-vous à l’annexe A de l’ITU-T H. 264.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a></td>
-<td>Optionnel. Spécifie les proportions en pixels. La valeur par défaut est 1:1.</td>
+<td>Facultatif. Spécifie les proportions en pixels. La valeur par défaut est 1:1.</td>
 </tr>
 </tbody>
 </table>
@@ -116,20 +116,20 @@ L’encodeur H. 264 implémente l’interface [**ICodecAPI**](/windows/win32/api
 
 Pour connaître la configuration requise du codec pour la certification de l’encodeur TPM, **consultez la section** ci-dessous.
 
-Les propriétés suivantes sont prises en charge dans Windows 7.
+les propriétés suivantes sont prises en charge dans Windows 7.
 
 
 
 | Propriété                                                                              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CODECAPI_AVEncCommonRateControlMode**](../directshow/avenccommonratecontrolmode-property.md) | Définit le mode de contrôle de la fréquence. Consultez la section Notes. Le mode par défaut est la vitesse de transmission variable (VBR) sans contrainte.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [**CODECAPI_AVEncCommonQuality**](../directshow/avenccommonquality-property.md)                 | Définit le niveau de qualité. Cette propriété s’applique lorsque le mode de contrôle de la fréquence est VBR (**eAVEncCommonRateControlMode_Quality**) basé sur la qualité. La plage valide est comprise entre 1 et 100. La valeur par défaut est 70. <br/> Pour définir ce paramètre, définissez la propriété avant d’appeler [**IMFTransform :: SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype). <br/> Pour définir ce paramètre dans Windows 7, définissez la propriété avant d’appeler [**IMFTransform :: SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype). L’encodeur ignore les modifications une fois que le type de sortie est défini. <br/> Dans Windows 8, cette propriété peut être définie à tout moment pendant l’encodage. Les modifications sont appliquées à partir du frame d’entrée suivant. <br/> En interne, l’encodeur convertit cette propriété en valeur [AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md) . <br/> |
+| [**CODECAPI_AVEncCommonQuality**](../directshow/avenccommonquality-property.md)                 | Définit le niveau de qualité. Cette propriété s’applique lorsque le mode de contrôle de la fréquence est VBR (**eAVEncCommonRateControlMode_Quality**) basé sur la qualité. La plage valide est comprise entre 1 et 100. La valeur par défaut est 70. <br/> Pour définir ce paramètre, définissez la propriété avant d’appeler [**IMFTransform :: SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype). <br/> pour définir ce paramètre dans Windows 7, définissez la propriété avant d’appeler [**IMFTransform :: SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype). L’encodeur ignore les modifications une fois que le type de sortie est défini. <br/> dans Windows 8, cette propriété peut être définie à tout moment pendant l’encodage. Les modifications sont appliquées à partir du frame d’entrée suivant. <br/> En interne, l’encodeur convertit cette propriété en valeur [AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md) . <br/> |
 
 
 
  
 
-Les propriétés suivantes nécessitent Windows 8.
+Les propriétés suivantes requièrent Windows 8.
 
 
 
@@ -164,7 +164,7 @@ Les propriétés suivantes nécessitent Windows 8.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a></td>
-<td>Définit la vitesse de transmission moyenne pour le flux binaire encodé, en bits par seconde. Cette propriété est ignorée si le mode de contrôle de la vitesse est <strong>eAVEncCommonRateControlMode_Quality</strong>. <br/> La plage valide est [1... 2 ³ ² – 1]. <br/> En mode CBR et sans contrainte, la vitesse de transmission moyenne détermine la taille finale du fichier. En mode CBR, la vitesse de transmission moyenne est également la vitesse à laquelle les bits compressés sont vidés du &quot; compartiment perdu. &quot; (pour plus d’informations, consultez <a href="the-leaky-bucket-buffer-model.md">modèle de tampon de compartiment</a>perdu.) <br/> Dans Windows 7, la vitesse de transmission moyenne est spécifiée par l’attribut <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> sur le type de média. <br/> Dans Windows 8, vous pouvez définir la vitesse de transmission moyenne à l’aide de l’attribut <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> ou de la propriété <a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a> . Si les deux sont définis, CODECAPI_AVEncCommonMeanBitRate remplace. Dans Windows 8, vous pouvez définir la vitesse de transmission moyenne pendant l’encodage. Si la vitesse de transmission change, l’encodeur utilise l’encodage adaptatif.<br/></td>
+<td>Définit la vitesse de transmission moyenne pour le flux binaire encodé, en bits par seconde. Cette propriété est ignorée si le mode de contrôle de la vitesse est <strong>eAVEncCommonRateControlMode_Quality</strong>. <br/> La plage valide est [1... 2 ³ ² – 1]. <br/> En mode CBR et sans contrainte, la vitesse de transmission moyenne détermine la taille finale du fichier. En mode CBR, la vitesse de transmission moyenne est également la vitesse à laquelle les bits compressés sont vidés du &quot; compartiment perdu. &quot; (pour plus d’informations, consultez <a href="the-leaky-bucket-buffer-model.md">modèle de tampon de compartiment</a>perdu.) <br/> dans Windows 7, la vitesse de transmission moyenne est spécifiée par l’attribut <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> sur le type de média. <br/> dans Windows 8, vous pouvez définir la vitesse de transmission moyenne à l’aide de l’attribut <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> ou de la propriété <a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a> . Si les deux sont définis, CODECAPI_AVEncCommonMeanBitRate remplace. dans Windows 8, vous pouvez définir la vitesse de transmission moyenne pendant l’encodage. Si la vitesse de transmission change, l’encodeur utilise l’encodage adaptatif.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/DirectShow/avenccommonqualityvsspeed-property">CODECAPI_AVEncCommonQualityVsSpeed</a></td>
@@ -229,7 +229,7 @@ Pour définir ce paramètre, définissez la propriété avant d’appeler <a hre
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’encodeur prend en charge les modes de contrôle de taux suivants.
 
@@ -246,22 +246,22 @@ L’encodeur prend en charge les modes de contrôle de taux suivants.
 
  
 
-Les modes CBR et restriction VBR nécessitent Windows 8.
+Les modes CBR et restriction VBR requièrent Windows 8.
 
-Dans Windows 8, l’encodeur définit les attributs suivants sur les exemples de sortie :
+dans Windows 8, l’encodeur définit les attributs suivants sur les exemples de sortie :
 
 -   [MFSampleExtension_DecodeTimestamp](mfsampleextension-decodetimestamp.md)
 -   [MFSampleExtension_VideoEncodePictureType](mfsampleextension-videoencodepicturetype.md)
 -   [MFSampleExtension_VideoEncodeQP](mfsampleextension-videoencodeqp.md)
 
 > [!Note]  
-> Une version précédente de la documentation indiquait incorrectement que l’encodeur est pris en charge sur Windows Server 2008 R2.
+> une version précédente de la documentation indiquait incorrectement que l’encodeur est pris en charge sur Windows Server 2008 R2.
 
  
 
 ### <a name="multithreading"></a>Multithreading
 
-Dans Windows 8, l’encodeur prend en charge deux modes d’encodage :
+dans Windows 8, l’encodeur prend en charge deux modes d’encodage :
 
 -   **Encodage de la tranche.** Dans ce mode, les tranches sont encodées en parallèle. Chaque tranche est encodée sur un thread différent. Ce mode a une latence faible, car une image unique est encodée en parallèle. Toutefois, cette approche n’est pas mise à l’échelle à mesure que le nombre de cœurs augmente, car le nombre de secteurs est limité par le nombre de lignes bloc macro dans l’image d’entrée.
 -   **Encodage à plusieurs frames.** Dans ce mode, l’encodeur accepte plusieurs trames d’entrée et les encode en parallèle. Ce mode évolue mieux dans un environnement multicœur, mais introduit une latence plus grande.
@@ -270,7 +270,7 @@ Par défaut, l’encodeur découpe l’encodage pour réduire la latence. Pour a
 
 Pour définir le nombre de threads de travail utilisés par l’encodeur, définissez la propriété [CODECAPI_AVEncNumWorkerThreads](codecapi-avencnumworkerthreads.md) .
 
-Dans Windows 7, l’encodeur utilise toujours l’encodage de segment.
+dans Windows 7, l’encodeur utilise toujours l’encodage de segment.
 
 ### <a name="certified-hardware-encoder"></a>Encodeur matériel certifié
 
@@ -278,7 +278,7 @@ Si un encodeur matériel certifié est présent, il est généralement utilisé 
 
 Voici l’ensemble des propriétés **ICodecAPI** obligatoires et facultatives pour que les encodeurs passent la certification de l’encodeur TPM.
 
-Les propriétés Windows 8 et Windows 8.1 **ICodecAPI** suivantes sont requises :
+les propriétés Windows 8 et Windows 8.1 **ICodecAPI** suivantes sont requises :
 
 -   [CODECAPI_AVEncCommonRateControlMode](../directshow/avenccommonratecontrolmode-property.md)
 -   [CODECAPI_AVEncCommonQuality](../directshow/avenccommonquality-property.md)
@@ -290,7 +290,7 @@ Les propriétés Windows 8 et Windows 8.1 **ICodecAPI** suivantes sont requises�
 -   [CODECAPI_AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md)
 -   [CODECAPI_AVEncVideoForceKeyFrame](codecapi-avencvideoforcekeyframe.md)
 
-Les propriétés de Windows 8.1 **ICodecAPI** suivantes sont facultatives, mais sont testées dans TPM si elles sont prises en charge.
+les propriétés de Windows 8.1 **ICodecAPI** suivantes sont facultatives, mais sont testées dans tpm si elles sont prises en charge.
 
 -   [CODECAPI_AVEncVideoMinQP](codecapi-avencvideominqp.md)
 -   [CODECAPI_AVEncVideoLTRBufferControl](codecapi-avencvideoltrbuffercontrol.md)
@@ -306,7 +306,7 @@ Les propriétés de Windows 8.1 **ICodecAPI** suivantes sont facultatives, mais 
 -   [CODECAPI_AVEncVideoTemporalLayerCount](codecapi-avencvideotemporallayercount.md) (dynamique)
 -   [CODECAPI_AVEncH264CABACEnable](codecapi-avench264cabacenable.md)
 
-Les propriétés Windows 8 et Windows 8.1 **ICodecAPI** suivantes sont facultatives, mais sont testées dans TPM si elles sont prises en charge.
+les propriétés Windows 8 et Windows 8.1 **ICodecAPI** suivantes sont facultatives, mais sont testées dans tpm si elles sont prises en charge.
 
 -   [CODECAPI_AVEncVideoTemporalLayerCount](codecapi-avencvideotemporallayercount.md) (statique)
 -   [CODECAPI_AVLowLatencyMode](codecapi-avlowlatencymode.md)
@@ -321,7 +321,7 @@ Les propriétés **ICodecAPI** suivantes sont facultatives. Ils ne sont pas test
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                               |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                               |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                |
 | DLL<br/>                      | <dl> <dt>Mfh264enc.dll</dt> </dl> |
 

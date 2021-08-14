@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f51de46dac0faabcc248159f7dcabafcd6060725
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 132532af58eafa4950f049fb08ff7a4235cb49ac2b1f62fc832e308e7ab6d31c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118423386"
 ---
 # <a name="sam-account-type-attribute"></a>Attribut SAM-Account-type
 
@@ -51,7 +51,7 @@ Les valeurs possibles pour cet attribut sont les suivantes :
 | Fréquence des mises à jour  | Cela est défini par le système d’exploitation lors de la création de l’objet. |
 | Attribute-Id      | 1.2.840.113556.1.4.302                                          |
 | System-ID-GUID    | 6e7b626c-64f2-11d0-afd2-00c04fd930c9                            |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)                            |
+| Syntaxe            | [**Énumération**](s-enumeration.md)                            |
 
 
 
@@ -60,7 +60,7 @@ Les valeurs possibles pour cet attribut sont les suivantes :
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
