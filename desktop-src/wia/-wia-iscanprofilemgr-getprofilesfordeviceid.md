@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofilemgr.h
-ms.openlocfilehash: 10a7d891a114fc36de3f91341febf1616a06ed22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ca150d02aff2f84becf8b36aca87e2da24b2b83c9ccd85c0cf5a1c5ced0d664
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118209055"
 ---
 # <a name="iscanprofilemgrgetprofilesfordeviceid-method"></a>IScanProfileMgr :: GetProfilesforDeviceID, méthode
 
@@ -53,13 +53,13 @@ ID de l’appareil.
 *pulNumProfiles* \[ in, out\]
 </dt> <dd>
 
-Type : **ULong \** _
+Type : **ULong \***
 
 En cas de réussite, pointeur vers le nombre maximal de profils à retourner. En cas de retour, pointeur vers le nombre de profils retournés.
 
 </dd> <dt>
 
-_ppScanProfile * \[ out\]
+*ppScanProfile* \[ à\]
 </dt> <dd>
 
 Type : **[ **IScanProfile**](-wia-iscanprofile.md)\*\***
@@ -74,7 +74,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le nombre total de profils associés à l’appareil est inférieur à la valeur transmise à *pulNumProfiles*, *pulNumProfiles* retourne ce total. Sinon, elle retourne la même valeur que celle qui lui a été passée.
 
@@ -84,8 +84,8 @@ Si le nombre total de profils associés à l’appareil est inférieur à la val
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Scanprofilemgr. h</dt> </dl> |
 | MIDL<br/>                      | <dl> <dt>Scanprofiles. idl</dt> </dl> |
 

@@ -3,9 +3,9 @@ title: Méthode IWMPMediaCollection2 getByAttributeAndMediaType
 description: La méthode getByAttributeAndMediaType retourne une interface IWMPPlaylist qui fournit l’accès aux éléments multimédias qui ont un attribut et un type de média spécifiés.
 ms.assetid: dce9cef4-1d12-4bee-a75d-42274556c5bc
 keywords:
-- méthode getByAttributeAndMediaType lecteur Windows Media
-- méthode getByAttributeAndMediaType lecteur Windows Media, interface IWMPMediaCollection2
-- Interface IWMPMediaCollection2 lecteur Windows Media, méthode getByAttributeAndMediaType
+- Lecteur Windows Media de la méthode getByAttributeAndMediaType
+- méthode getByAttributeAndMediaType Lecteur Windows Media, interface IWMPMediaCollection2
+- Lecteur Windows Media de l’interface IWMPMediaCollection2, méthode getByAttributeAndMediaType
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb1ee4e9421b4546cdc8ace6173dacab5034b905
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e08d38954dd24246b4d35b7842f890caba6eea94868901a528396e9a22b38c1a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119246427"
 ---
 # <a name="iwmpmediacollection2getbyattributeandmediatype-method"></a>IWMPMediaCollection2 :: getByAttributeAndMediaType, méthode
 

@@ -6,12 +6,12 @@ keywords:
 - Planificateur de tâches des exemples de Planificateur de tâches, déclencheur de connexion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ffa758546dbd08b6ccf27412f38891589cb9643
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5bd7cfc8412e33df47841cf33d2a4950061d39d77fbe76d3b896b5d220b04b8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132121"
 ---
 # <a name="starting-an-executable-when-a-user-logs-on"></a>Démarrage d’un exécutable lorsqu’un utilisateur ouvre une session
 
@@ -23,7 +23,7 @@ Les déclencheurs de connexion sont activés par leur limite de démarrage, mais
 
 ## <a name="logontrigger-examples"></a>Exemples LogonTrigger
 
-Les exemples suivants démarrent le bloc-notes après qu’un utilisateur ouvre une session.
+les exemples suivants démarrent Bloc-notes une fois qu’un utilisateur se connecte.
 
 -   [Exemple de déclencheur LOGON (script)](logon-trigger-example--scripting-.md)
 -   [Exemple de déclencheur LOGON (C++)](logon-trigger-example--c---.md)
@@ -36,9 +36,9 @@ Les exemples suivants démarrent le bloc-notes après qu’un utilisateur ouvre 
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

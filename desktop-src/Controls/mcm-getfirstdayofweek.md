@@ -3,7 +3,7 @@ title: Message MCM_GETFIRSTDAYOFWEEK (commctrl. h)
 description: Récupère le premier jour de la semaine pour un contrôle de calendrier mensuel. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro calendrier monthcal GetFirstDayOfWeek.
 ms.assetid: bbbc1c45-5693-4a79-908a-ec6e8ef8b218
 keywords:
-- MCM_GETFIRSTDAYOFWEEK les contrôles de message Windows
+- MCM_GETFIRSTDAYOFWEEK les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b625e470e13c111b0274bfef422963e48c9cc7c2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1bc0ddcd36da0b993f3a05092c878319a6749d9eb5a3043ce910eba1462beef9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119319649"
 ---
 # <a name="mcm_getfirstdayofweek-message"></a>\_Message GETFIRSTDAYOFWEEK MCM
 
@@ -45,8 +45,8 @@ Retourne une valeur **DWORD** qui contient deux valeurs. Le mot de poids fort es
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

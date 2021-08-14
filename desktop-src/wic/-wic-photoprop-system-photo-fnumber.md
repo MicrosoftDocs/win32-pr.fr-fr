@@ -4,12 +4,12 @@ ms.assetid: 434d52cb-c98d-4860-87f7-4aedab7f8188
 title: Stratégie de métadonnées de photo System. photo. FNumber
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85443b849d9f810709f3e75c3082738e5377092f
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: c90ad29c4dc6211f66df8621cfb589c2947f08dbb9f0b4f0fe03196c23909a2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204809"
 ---
 # <a name="systemphotofnumber-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. FNumber
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. FNum
 
 \_Photo \_ FNumber
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -41,7 +41,7 @@ Cette valeur est générée à partir de System. photo. FNumberNumerator et de S
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 33437} |             |
 | 2     | /xmp/exif:FNumber             |             |
@@ -54,7 +54,7 @@ Cette valeur est générée à partir de System. photo. FNumberNumerator et de S
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 33437} |             |
 | 2     | /xmp/exif:FNumber             |             | 
@@ -64,7 +64,7 @@ Cette valeur est générée à partir de System. photo. FNumberNumerator et de S
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 33437} |
 | 2     | /xmp/exif:fnumber             |
@@ -79,7 +79,7 @@ Cette valeur est générée à partir de System. photo. FNumberNumerator et de S
 
 
 
-| Commande | Chemin d’accès                     | Format de disque |
+| Commande | Chemin                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 33437} |             |
 | 2     | /ifd/xmp/exif:FNumber    |             |
@@ -92,7 +92,7 @@ Cette valeur est générée à partir de System. photo. FNumberNumerator et de S
 
 
 
-| Commande | Chemin d’accès                     | Format de disque |
+| Commande | Chemin                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 33437} |             |
 | 2     | /ifd/xmp/exif:FNumber    |             |
@@ -105,7 +105,7 @@ Cette valeur est générée à partir de System. photo. FNumberNumerator et de S
 
 
 
-| Commande | Chemin d’accès                     |
+| Commande | Chemin                     |
 |-------|--------------------------|
 | 1     | /IFD/EXIF/{UShort = 33437} |
 | 2     | /ifd/xmp/exif:fnumber    |

@@ -1,15 +1,15 @@
 ---
-description: 'Le tableau suivant décrit les threads que les événements d’objet InkOverlay peuvent déclencher. EventThreadsCursorButtonDownFires sur le threadCursorButtonUpFires d’encre de l’encre threadCursorDownFires sur le threadCursorInRangeFires d’encre sur l’encre threadCursorOutOfRangeFires sur l’encre threadDoubleClick (Automation uniquement). Se déclenche sur l’interface utilisateur de l’application threadDoubleClick (bibliothèque managée uniquement). Se déclenche sur l’interface utilisateur threadGestureFires de l’application sur le threadMouseDownFires d’encre sur l’interface utilisateur threadMouseMoveFires de l’application sur le threadMouseUpFires d’interface utilisateur de l’application sur l’interface utilisateur threadMouseWheelFires de l’application sur l’interface utilisateur threadNewInAirPacketsFires de l’application sur le threadNewPacketsFires d’encre de l’encre threadPaintedFires sur l’interface utilisateur de l’application threadPaintingFires sur le thread d’entrée de l’application. ou sur le thread qui met à jour la sélection de l’objet InkOverlay propertySelectionChangingFires sur le threadSelectionMovedFires d’encre sur l’encre threadSelectionMovingFires sur le threadSelectionResizedFires d’encre sur l’encre threadSelectionResizingFires sur le threadStrokeFires de l’encre sur le threadStrokesDeletedFires d’encre sur l’encre threadStrokesDeletingFires sur le threadSystemGestureFires d’encre sur l’encre threadTabletAddedFires sur l’encre threadTabletRemovedFires sur le thread d’encre '
+description: 'Le tableau suivant décrit les threads que les événements d’objet InkOverlay peuvent déclencher. EventThreadsCursorButtonDownFires sur le threadCursorButtonUpFires d’encre de l’encre threadCursorDownFires sur le threadCursorInRangeFires d’encre sur l’encre threadCursorOutOfRangeFires sur l’encre threadDoubleClick (Automation uniquement). Se déclenche sur l’interface utilisateur de l’application threadDoubleClick (bibliothèque managée uniquement). Se déclenche sur l’interface utilisateur threadGestureFires de l’application sur le threadMouseDownFires d’encre sur l’interface utilisateur threadMouseMoveFires de l’application sur le threadMouseUpFires d’interface utilisateur de l’application sur l’interface utilisateur threadMouseWheelFires de l’application sur l’interface utilisateur threadNewInAirPacketsFires de l’application sur le thread d’encre, ou sur le thread qui met à jour l’objet InkOverlay.  Sélection de propertySelectionChangingFires sur le threadSelectionMovedFires d’encre sur l’encre threadSelectionMovingFires sur le threadSelectionResizedFires d’encre sur l’encre threadSelectionResizingFires sur l’encre threadStrokeFires sur l’encre threadStrokesDeletedFires sur l’encre threadStrokesDeletingFires sur l’encre threadSystemGestureFires sur l’encre threadTabletAddedFires sur l’encre threadTabletRemovedFires sur le thread d’encre '
 ms.assetid: 5d679e66-6ea1-491e-86a8-974c4ec61b96
 title: Événements de l’objet InkOverlay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6122709f043fa94f4c1b3d04fcd1c51bb3cd8982
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 531ee197a14edf3ce0aa8595bdbcdb3ea2937d9cf863dcc6e95690088ed8ee96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118218962"
 ---
 # <a name="inkoverlay-object-events"></a>Événements de l’objet InkOverlay
 

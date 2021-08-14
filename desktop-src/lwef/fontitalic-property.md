@@ -4,12 +4,12 @@ description: FontItalic, propriété
 ms.assetid: fa34c2ca-b200-435f-8191-3ad5b33fe2b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 007fdb30f3f751a8cd410a07bd8bcefa17524ff6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 279377a2793c66c1071ff21967da97d10e78e63da7d1ff46212a048753757f1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118479337"
 ---
 # <a name="fontitalic-property"></a>FontItalic, propriété
 
@@ -27,7 +27,7 @@ Retourne le style de police actuellement affiché dans la fenêtre de la bulle d
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent ***. Caractères («*** CharacterID * * * »). Balloon. FontItalic**
+*agent ***. Caractères («**_CharacterID_*_»). Balloon. FontItalic_*
 
 
 
@@ -38,17 +38,17 @@ Retourne le style de police actuellement affiché dans la fenêtre de la bulle d
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur par défaut des paramètres de police de la bulle de texte d’un caractère est définie dans l’éditeur de caractères Microsoft Agent. En outre, l’utilisateur peut remplacer les paramètres de police pour tous les caractères de la feuille de propriétés de l’agent Microsoft.
 
- 
+ 
 
- 
+ 
 
 
 

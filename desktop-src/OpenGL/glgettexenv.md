@@ -4,12 +4,12 @@ description: Ces fonctions retournent des paramètres d’environnement de textu
 ms.assetid: 9dd0d7ac-f3e0-43a8-8458-2664965cce7c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d19b5e984ba1485d4c6159c916e7216811ba9ba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c6d6e2d66f7bbff875e85dd666cd676c84be9f799e9517385e7e0500cc97d34f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118359802"
 ---
 # <a name="glgettexenv-functions"></a>glGetTexEnv, fonctions
 
@@ -18,9 +18,9 @@ Ces fonctions retournent les paramètres d’environnement de texture :
 -   [**glGetTexEnvfv**](glgettexenvfv.md)
 -   [**glGetTexEnviv**](glgettexenviv.md)
 
- 
+ 
 
- 
+ 
 
 
 

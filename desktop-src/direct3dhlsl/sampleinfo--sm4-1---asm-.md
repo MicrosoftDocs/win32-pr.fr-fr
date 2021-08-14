@@ -4,12 +4,12 @@ description: Interroge le nombre d’échantillons dans une vue de ressource de 
 ms.assetid: 1F0968D7-01E9-4213-9F83-172B88374C3C
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d307dbc8c79618a6401737874a9f6e060a899ccc
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2227afbf7a08a0010efc2efb8fcf87bae85c8f5775e596d92b761b556f8bfb93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103841698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118510467"
 ---
 # <a name="sampleinfo-sm41---asm"></a>sampleinfo (SM 4.1-ASM)
 
@@ -35,7 +35,7 @@ Interroge le nombre d’échantillons dans une vue de ressource de nuanceur donn
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction retourne le nombre d’échantillons pour la ressource donnée ou le rastériseur. Elle est valide uniquement pour les ressources qui peuvent être chargées à l’aide de [**ld2dms**](ld2dms--sm4-1---asm-.md) , sauf si le rastériseur est spécifié en tant que *srcResource*. *srcResource* peut être un \# Registre t (affichage des ressources du nuanceur) ou un registre de rastérisation.
 
@@ -61,10 +61,10 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |

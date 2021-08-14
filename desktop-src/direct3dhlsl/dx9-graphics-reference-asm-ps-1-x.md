@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 761721a4de64e8a9168bcfea49ce7adf567ea7ef
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e10e4eee48490e7ae998e39d71265aef74339c1979112e2fcf0e47e5b07cda7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512940"
 ---
 # <a name="ps_1_1-ps_1_2-ps_1_3-ps_1_4"></a>PS \_ 1 \_ 1, PS \_ 1 \_ 2, PS \_ 1 \_ 3, PS \_ 1 \_ 4
 
@@ -23,7 +23,7 @@ L’assembleur de nuanceur de pixels est constitué d’un ensemble d’instruct
 > [!Note]  
 > La prise en charge de HLSL pour le nuanceur de pixels 1. x est déconseillée.
 
- 
+ 
 
 ## <a name="instructions"></a>Instructions
 
@@ -59,9 +59,9 @@ Le nombre d’échantillonneurs de texture disponibles est le suivant :
 [Nuanceurs de pixels](dx9-graphics-reference-asm-ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

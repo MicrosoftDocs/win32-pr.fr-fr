@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 1d2186193318387bb6e37a228bd4d2fd64eca6b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 053745ff90e022ef2ed466518a9210d6dde18d3562fdb4232d9f4d262460ea7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118470939"
 ---
 # <a name="port_info_2-structure"></a>\_Structure des informations sur le port \_ 2
 
@@ -92,7 +92,7 @@ Réservé doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez la **structure \_ informations \_ sur le port 2** lors de l’appel de [**EnumPorts**](enumports.md) si plusieurs moniteurs prennent en charge les mêmes ports.
 

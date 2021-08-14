@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 370548bb9899ce84173f2321a129aaeda1c6fe81
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b5ceff1f9a4ef2f6c95a8dac12ff689995efe4fdd3619cf48e11043967fec053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118385512"
 ---
 # <a name="lcid-switch"></a>/LCID (commutateur)
 
@@ -34,18 +34,18 @@ midl /lcid localeID
 *localeID* 
 </dt> <dd>
 
-Spécifie l’identificateur de paramètres régionaux 32 bits utilisé dans la prise en charge des langues nationales Windows. L’identificateur de paramètres régionaux doit être spécifié au format décimal.
+spécifie l’identificateur de paramètres régionaux 32 bits utilisé dans Windows prise en charge des langues nationales. L’identificateur de paramètres régionaux doit être spécifié au format décimal.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans les fichiers d’entrée, vous pouvez utiliser des commentaires, des chaînes, des HelpStrings et des identificateurs localisés. En particulier, le commutateur **/LCID** offre une prise en charge complète des caractères DBCS, pour représenter des langues asiatiques telles que le japonais, le chinois et le coréen.
 
 > [!Note]  
 > Le commutateur **/LCID** est disponible avec la version 3.01.75 et ultérieure de MIDL.
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -61,9 +61,9 @@ Dans les fichiers d’entrée, vous pouvez utiliser des commentaires, des chaîn
 [**LCID**](lcid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

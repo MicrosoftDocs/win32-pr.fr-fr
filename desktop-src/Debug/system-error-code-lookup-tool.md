@@ -3,12 +3,12 @@ description: Décrit comment utiliser l’outil de recherche d’erreurs Microso
 title: Outil de recherche d’erreurs Microsoft
 ms.topic: article
 ms.date: 12/4/2019
-ms.openlocfilehash: e39b5623458fc176f5ecc81eae71212ba279945c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 534b2af92b8dc0e906bd033e8ce1f0fbd08ead0cda21406d1818a318356db613
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118405889"
 ---
 # <a name="the-microsoft-error-lookup-tool"></a>Outil de recherche d’erreurs Microsoft
 
@@ -25,7 +25,7 @@ L’outil est signé numériquement par Microsoft. Voici les informations SHA256
 > - Avez-vous besoin d’une autorisation ou d’une exception de sécurité pour pouvoir télécharger ou exécuter l’outil ?
 > - Pouvez-vous stocker et exécuter cet outil sur votre ordinateur (par exemple, dans votre dossier de documents) ? Ou avez-vous besoin de stocker et d’exécuter l’outil sur un ordinateur spécialisé, tel qu’un serveur de fichiers central ?
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 1. Téléchargez l’outil en sélectionnant [ce lien](https://download.microsoft.com/download/4/3/2/432140e8-fb6c-4145-8192-25242838c542/Err_6.4.5/Err_6.4.5.exe).
 1. Si vous n’avez pas spécifié d’emplacement à l’étape 1, accédez à votre dossier de téléchargement, puis copiez ou déplacez le fichier téléchargé (Err_6.4.5.exe) dans le dossier dans lequel vous allez stocker l’outil. Vous n’avez pas besoin de développer ou d’installer le fichier.
@@ -73,6 +73,6 @@ C:\Tools>Err_6.4.5.exe 7b
 # 4 matches found for "7b"
 ```
 
-## <a name="more-information"></a>Informations complémentaires
+## <a name="more-information"></a>Plus d’informations
 
-Gardez à l’esprit qu’il s’agit d’un outil « à un point dans le temps ». L’outil de recherche d’erreurs Microsoft décode la plupart des codes d’erreur Microsoft à la date de compilation de l’outil. À mesure que de nouvelles versions de Windows ajoutent de nouveaux codes d’événement et d’erreur, vous devrez peut-être télécharger une nouvelle version de l’outil de recherche d’erreurs. Consultez le centre de téléchargement Microsoft pour obtenir une nouvelle version ou consultez [codes d’erreur](system-error-codes.md).
+Gardez à l’esprit qu’il s’agit d’un outil « à un point dans le temps ». L’outil de recherche d’erreurs Microsoft décode la plupart des codes d’erreur Microsoft à la date de compilation de l’outil. à mesure que de nouvelles versions de Windows ajouter de nouveaux codes d’événement et d’erreur, vous devrez peut-être télécharger une nouvelle version de l’outil de recherche d’erreurs. Consultez le centre de téléchargement Microsoft pour obtenir une nouvelle version ou consultez [codes d’erreur](system-error-codes.md).

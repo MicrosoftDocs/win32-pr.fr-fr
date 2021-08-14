@@ -9,18 +9,18 @@ keywords:
 - Active Directory de classe, modification du defaultSecurityDescriptor pour une classe d’objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efc3bd441cb19c43ee36550520d18ee38726b05e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: be0d837530454e8e563718d3f5974be22e5b7d42dfa5e29b8424a51c7a5c993d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186324"
 ---
 # <a name="modifying-the-defaultsecuritydescriptor-for-an-object-class"></a>Modification du defaultSecurityDescriptor pour une classe d’objet
 
 L’exemple de code suivant récupère le descripteur de sécurité par défaut pour une classe d’objet, ajoute une entrée du contrôle d’accès à la liste DACL, puis définit le descripteur de sécurité modifié sur la classe d’objet.
 
-Sachez que la modification du schéma est désactivée par défaut sur tous les contrôleurs de domaine Windows 2000. Pour activer la modification de schéma sur un contrôleur de groupe spécifique, définissez une \_ valeur reg DWORD nommée « Schema Update Allowed » sous la clé de Registre suivante :
+sachez que la modification du schéma est désactivée par défaut sur tous les contrôleurs de domaine Windows 2000. Pour activer la modification de schéma sur un contrôleur de groupe spécifique, définissez une \_ valeur reg DWORD nommée « Schema Update Allowed » sous la clé de Registre suivante :
 
 **HKEY \_ \_** \\  \\  \\  \\  \\ **Paramètres** NTDS des services de CurrentControlSet de système d’ordinateur local
 
@@ -276,9 +276,9 @@ return hr;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

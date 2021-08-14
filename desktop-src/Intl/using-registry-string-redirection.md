@@ -1,19 +1,19 @@
 ---
-description: Le stockage de chaînes codées en dur dans le registre fait partie d’un modèle de localisation antérieur à Windows Vista.
+description: Stockage de chaînes codées en dur dans le registre fait partie d’un modèle de localisation antérieur à Windows Vista.
 ms.assetid: 70185942-7d32-4151-a4e1-f71cf45e87af
 title: Utilisation de la redirection de chaînes de Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 287f6e1420aae0ff41c386e19852bebbd1a322c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30f0804d0586f8340e5a84e9da9c82ca39ffc30b55f72f4695d5216cbb26aab6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118389415"
 ---
 # <a name="using-registry-string-redirection"></a>Utilisation de la redirection de chaînes de Registre
 
-Le stockage de chaînes codées en dur dans le registre fait partie d’un modèle de localisation antérieur à Windows Vista. Elle n’est pas prise en charge par MUI. Dans le modèle actuel, l’interface utilisateur du système d’exploitation s’exécute dans des fichiers de ressources spécifiques à une langue, en plus d’une base indépendante du langage. Les composants du système d’exploitation utilisent le registre de manière indépendante de la langue.
+Stockage de chaînes codées en dur dans le registre fait partie d’un modèle de localisation antérieur à Windows Vista. Elle n’est pas prise en charge par MUI. Dans le modèle actuel, l’interface utilisateur du système d’exploitation s’exécute dans des fichiers de ressources spécifiques à une langue, en plus d’une base indépendante du langage. Les composants du système d’exploitation utilisent le registre de manière indépendante de la langue.
 
 MUI utilise uniquement les chaînes de Registre redirigées définies par les ressources Win32 PE dans le fichier de ressources de langue de base. La redirection est définie séparément, par exemple dans un fichier. inf. Ce type de stockage permet au chargeur de ressources de sélectionner automatiquement les ressources de langue appropriées lors du chargement du module de ressources.
 
@@ -24,7 +24,7 @@ MUI utilise uniquement les chaînes de Registre redirigées définies par les re
 
 ## <a name="create-a-language-neutral-resource"></a>Créer une ressource Language-Neutral
 
-Une application MUI s’exécutant sur Windows Vista et versions ultérieures utilise une ressource de chaîne indépendante du langage pour autoriser l’accès aux chaînes spécifiques à la langue stockées dans une table de ressources de type chaîne. Le code d’application qui lit ces valeurs à partir du Registre est décrit dans la section chargement d’un Language-Neutral valeur de registre de [localisation des chaînes redirigées](locating-redirected-strings.md).
+une application MUI s’exécutant sur Windows Vista et versions ultérieures utilise une ressource de chaîne indépendante du langage pour autoriser l’accès aux chaînes spécifiques à la langue stockées dans une table de ressources de type chaîne. Le code d’application qui lit ces valeurs à partir du Registre est décrit dans la section chargement d’un Language-Neutral valeur de registre de [localisation des chaînes redirigées](locating-redirected-strings.md).
 
 Les données d’une valeur de Registre indépendante du langage ont le format « `@<PE-path>,-<stringID>[;<comment>]` », où :
 
@@ -45,7 +45,7 @@ Une valeur de Registre incorrecte est :
 
 `shell32.dll, -22912`
 
-Un exemple de Windows Vista est la valeur de Registre avec les données suivantes :
+un exemple de Windows Vista est la valeur de registre avec les données suivantes :
 
 `@%SystemRoot%\system32\input.dll,-5020`
 
@@ -53,9 +53,9 @@ Un exemple de Windows Vista est la valeur de Registre avec les données suivante
 
 Lorsque l’application MUI affiche son nom dans l’interface utilisateur de l’interpréteur de commandes, une chaîne d’info-bulle s’affiche pour l’icône de l’application. Vous devez créer des ressources de type chaîne pour le nom d’affichage de votre application et la chaîne d’info-bulle associée pour chaque langue prise en charge. Lorsque les ressources sont prêtes, votre application peut utiliser les chaînes comme décrit dans la section utiliser l’API Shell pour charger des chaînes de raccourci à partir du registre de [localisation des chaînes redirigées](locating-redirected-strings.md).
 
-### <a name="prepare-resources-for-a-shortcut-created-with-windows-installer"></a>Préparer les ressources pour un raccourci créé avec Windows Installer
+### <a name="prepare-resources-for-a-shortcut-created-with-windows-installer"></a>préparer les ressources pour un raccourci créé avec Windows Installer
 
-Si vous utilisez Windows Installer (MSI) pour créer un raccourci, les ressources de type chaîne incluent le nom complet et la description du raccourci. Dans la [table de raccourcis MSI](../msi/shortcut-table.md), la dll de ressource est référencée dans les colonnes appropriées et les identificateurs de ressource pour le nom complet et la description de votre raccourci sont utilisés dans les colonnes correspondantes de l’identificateur de ressource.
+si vous utilisez Windows Installer (MSI) pour créer un raccourci, les ressources de type chaîne incluent le nom complet et la description du raccourci. Dans la [table de raccourcis MSI](../msi/shortcut-table.md), la dll de ressource est référencée dans les colonnes appropriées et les identificateurs de ressource pour le nom complet et la description de votre raccourci sont utilisés dans les colonnes correspondantes de l’identificateur de ressource.
 
 Pour que le raccourci de l’application fonctionne correctement avec la technologie de ressources MUI, gardez les points suivants à l’esprit lors de la préparation des chaînes de raccourci :
 
@@ -111,7 +111,7 @@ Le travail spécifique implique les étapes suivantes :
 2.  Ajoutez la valeur FriendlyTypeName sous la clé de Registre type de document. Les données de la valeur suivent le modèle « `@<path>,-<resID>` », où *chemin d’accès* indique l’exécutable et *resID* est l’identificateur de ressource d’une ressource de type chaîne localisable associée à cet exécutable.
 3.  Spécifiez la valeur de registre d’info-bulle en fonction du format « `@<path>,-<resID>` ».
 
-L’exemple suivant montre les paramètres de registre d’un fichier. txt :
+L’exemple suivant montre les paramètres de registre d’un fichier .txt :
 
 
 ```C++
@@ -131,9 +131,9 @@ HKCR\txtfile
 
 ## <a name="provide-resources-for-shell-verb-action-strings"></a>Fournir des ressources pour les chaînes d’action de verbe de Shell
 
-Les chaînes d’action de certains verbes, par exemple « ouvrir » et « modifier », sont affichées dans le menu contextuel qui s’affiche lorsque l’utilisateur clique avec le bouton droit sur un fichier dans l’Explorateur Windows. Votre application n’a pas besoin de spécifier des chaînes pour les verbes d’interpréteur de commandes courants, car l’interpréteur de commandes possède ses propres valeurs par défaut compatibles MUI pour ces verbes. Toutefois, vous devez fournir des ressources de type chaîne localisables pour les chaînes qui représentent des verbes rares.
+les chaînes d’Action pour certains verbes, par exemple, « ouvrir » et « modifier », s’affichent dans le menu contextuel qui s’affiche lorsque l’utilisateur clique avec le bouton droit sur un fichier dans l’explorateur de Windows. Votre application n’a pas besoin de spécifier des chaînes pour les verbes d’interpréteur de commandes courants, car l’interpréteur de commandes possède ses propres valeurs par défaut compatibles MUI pour ces verbes. Toutefois, vous devez fournir des ressources de type chaîne localisables pour les chaînes qui représentent des verbes rares.
 
-Sur les systèmes d’exploitation antérieurs à Windows XP, les chaînes pour les verbes de Shell dans le Registre sont restituées à l’aide de la syntaxe suivante, où *verb* spécifie le nom de verbe réel :
+sur les systèmes d’exploitation antérieurs à Windows XP, les chaînes pour les verbes de shell dans le registre sont restituées à l’aide de la syntaxe suivante, où *verb* spécifie le nom de verbe réel :
 
 
 ```C++
@@ -153,7 +153,7 @@ HKCR\Sample.app\shell\Disc
 
 
 
-Sur Windows XP et versions ultérieures, vous pouvez utiliser un niveau d’indirection pour que la chaîne d’action dépende de la langue de l’interface utilisateur. Ces systèmes d’exploitation prennent en charge une valeur MUIVerb pour la définition d’une chaîne compatible MUI. Voici un exemple d’entrée de Registre pour un verbe rare :
+sur Windows XP et versions ultérieures, vous pouvez utiliser un niveau d’indirection pour que la chaîne d’action dépende de la langue de l’interface utilisateur. Ces systèmes d’exploitation prennent en charge une valeur MUIVerb pour la définition d’une chaîne compatible MUI. Voici un exemple d’entrée de Registre pour un verbe rare :
 
 
 ```C++
@@ -175,7 +175,7 @@ HKCR\Sample.app\shell\Disc
 
 
 > [!Note]  
-> L’inscription de l’ancienne valeur par défaut n’est pas recommandée, car elle nécessite une installation différente sur Windows XP et versions ultérieures à partir de la configuration utilisée sur les systèmes d’exploitation antérieurs.
+> l’inscription de l’ancienne valeur par défaut n’est pas recommandée, car elle nécessite une configuration différente sur Windows XP et versions ultérieures à partir de la configuration utilisée sur les systèmes d’exploitation antérieurs.
 
  
 
@@ -213,7 +213,7 @@ Voici un résumé pour vous aider à vérifier les paramètres de registre appro
 
 ## <a name="create-a-resource-for-the-uninstall-program"></a>Créer une ressource pour le programme de désinstallation
 
-Pour inscrire le programme de désinstallation de l’application, vous pouvez créer des valeurs de Registre dans la sous-clé de l’identificateur unique de l’application sous la clé de Registre HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Uninstall. Les valeurs à définir sont les suivantes : DisplayName, DisplayVersion, Publisher, ProductID, RegOwner, RegCompany, UrlInfoAbout, HelpTelephone, HelpLink, InstallLocation, InstallSource, InstallDate, contact, Comments, DisplayIcon, README, UrlUpdateInfo.
+pour inscrire le programme de désinstallation de l’application, vous pouvez créer des valeurs de registre dans la sous-clé de l’identificateur unique de l’application sous la clé de registre HKEY \_ LOCAL \_ MACHINE \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ uninstall. les valeurs à définir sont les suivantes : DisplayName, DisplayVersion, Publisher, ProductID, RegOwner, RegCompany, UrlInfoAbout, HelpTelephone, HelpLink, InstallLocation, InstallSource, InstallDate, Contact, comments, DisplayIcon, Readme, UrlUpdateInfo.
 
 > [!Note]  
 > Pour activer la technologie MUI pour chaque valeur, vous pouvez ajouter « \_ Localized » au nom de la valeur.
@@ -224,7 +224,7 @@ Les composants du système d’exploitation sont requis pour fournir une valeur 
 
 ## <a name="create-resources-for-sound-events"></a>Créer des ressources pour les événements sonores
 
-Windows associe certains événements à des fichiers son, par exemple, un événement de notification de courrier ou un événement d’alarme de batterie critique. Les noms des événements doivent être affichés par l’interface utilisateur et doivent prendre en charge la globalisation. Par conséquent, vous devez implémenter une ressource de type chaîne localisable pour la description de chaque description d’événement. Ajoutez une nouvelle valeur de Registre pour chaque nom d’événement, en plus de la valeur par défaut codée en dur.
+Windows associe certains événements à des fichiers audio, par exemple un événement de Notification de courrier ou un événement d’alarme de batterie critique. Les noms des événements doivent être affichés par l’interface utilisateur et doivent prendre en charge la globalisation. Par conséquent, vous devez implémenter une ressource de type chaîne localisable pour la description de chaque description d’événement. Ajoutez une nouvelle valeur de Registre pour chaque nom d’événement, en plus de la valeur par défaut codée en dur.
 
 Pour activer un événement sonore, procédez comme suit :
 
@@ -255,7 +255,7 @@ Voici un exemple de paramètre de Registre pour la disposition de clavier espagn
 
 ## <a name="represent-ole-insert-object-common-dialog-strings"></a>Représenter les chaînes de boîte de dialogue commune d’objet OLE Insert
 
-Vous pouvez implémenter le nom complet d’un objet OLE pouvant être inséré en tant que ressource de chaîne localisable associée au code qui implémente cet objet. La [boîte de dialogue OLE Insert Object](/cpp/mfc/reference/coleinsertdialog-class) obtient un nom complet à partir de la clé de Registre HKCR \\ CLSID \\ { *<GUID>* }, où *GUID* identifie l’identificateur de classe d’un objet OLE à insérer. Windows Vista et versions ultérieures implémentent ce type d’objet de façon localisable, à l’aide d’un nom d’affichage compatible avec MUI qui permet la personnalisation de la langue de l’interface utilisateur. En revanche, les systèmes d’exploitation antérieurs à Windows Vista implémentent le nom complet de ce type d’objet à l’aide de la valeur par défaut de la clé de Registre correspondante. En général, il s’agit d’un nom anglais (États-Unis) ou d’un nom dans la langue de l’interface utilisateur par défaut du système.
+Vous pouvez implémenter le nom complet d’un objet OLE pouvant être inséré en tant que ressource de chaîne localisable associée au code qui implémente cet objet. La [boîte de dialogue OLE Insert Object](/cpp/mfc/reference/coleinsertdialog-class) obtient un nom complet à partir de la clé de Registre HKCR \\ CLSID \\ { *<GUID>* }, où *GUID* identifie l’identificateur de classe d’un objet OLE à insérer. Windows Vista et versions ultérieures implémentent ce type d’objet de façon localisable, à l’aide d’un nom d’affichage compatible avec MUI qui permet la personnalisation de la langue de l’interface utilisateur. en revanche, les systèmes d’exploitation antérieurs à Windows Vista implémentent le nom complet de ce type d’objet à l’aide de la valeur par défaut de la clé de registre correspondante. En général, il s’agit d’un nom anglais (États-Unis) ou d’un nom dans la langue de l’interface utilisateur par défaut du système.
 
 > [!Note]  
 > Tous les objets qui correspondent aux sous-clés de la clé de registre ne peuvent pas être insérés.
@@ -295,11 +295,11 @@ NameStringIndirect=@%systemroot%@c:\windir\system32\mymmc.dll,-12345
 
 Certains composants logiciels enfichables inscrivent d’autres valeurs de chaîne de registre que MMC ne lit pas à partir du Registre. Pour plus d’informations sur l’utilisation de ces valeurs, consultez inscrire la console de gestion Microsoft Snap-In chaînes non lues dans le registre dans [localisation de chaînes redirigées](locating-redirected-strings.md).
 
-## <a name="create-string-resources-for-a-windows-service"></a>Créer des ressources de type chaîne pour un service Windows
+## <a name="create-string-resources-for-a-windows-service"></a>créer des ressources de type chaîne pour un Service Windows
 
-Bien qu’un service Windows ait généralement peu ou pas d’interface utilisateur, il doit afficher un nom compatible MUI et fournit généralement une description spécifique à une langue compatible MUI. La clé de Registre qui décrit un service Windows prend en charge uniquement la valeur DisplayName pour le nom du service et la valeur Description pour la description du service.
+bien qu’un service Windows ait généralement peu ou pas d’interface utilisateur, il doit afficher un nom compatible mui et fournit généralement une description spécifique à une langue compatible mui. la clé de registre qui décrit un service Windows prend en charge uniquement la valeur DisplayName pour le nom du service et la valeur description pour la description du service.
 
-Les paramètres du service Windows sont créés à partir de l’application, comme décrit dans définir le nom complet et la description d’un service Windows à partir du Registre dans [localisation des chaînes redirigées](locating-redirected-strings.md). Si votre application ne définit pas les valeurs de Registre pour l’interface utilisateur du service, les valeurs du Registre restent définies sur l’anglais, même si l’interface utilisateur est dans une autre langue.
+Paramètres pour le service Windows sont effectuées à partir de l’application, comme décrit dans définir le nom complet et la Description d’un service Windows à partir du registre dans [localisation des chaînes redirigées](locating-redirected-strings.md). Si votre application ne définit pas les valeurs de Registre pour l’interface utilisateur du service, les valeurs du Registre restent définies sur l’anglais, même si l’interface utilisateur est dans une autre langue.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

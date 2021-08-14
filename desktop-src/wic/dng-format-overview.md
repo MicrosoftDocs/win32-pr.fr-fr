@@ -1,21 +1,21 @@
 ---
-description: Cette rubrique fournit des informations sur le codec DNG natif disponible par le biais du composant WIC (Windows Imaging Component).
+description: cette rubrique fournit des informations sur le codec DNG natif disponible via le composant WIC (Windows Imaging Component).
 ms.assetid: 6F87A47D-E54A-42D9-92DC-2411803278AA
 title: Vue d’ensemble du format DNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0815d6a24bb8e57e6c64b90f9e9068765838e148
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: e32719e3fa9f45802058708e83635e52e287524496ae49f13f2168362358a7ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204376"
 ---
 # <a name="dng-format-overview"></a>Vue d’ensemble du format DNG
 
 \[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-Cette rubrique fournit des informations sur le codec DNG natif disponible par le biais du composant WIC (Windows Imaging Component).
+cette rubrique fournit des informations sur le codec DNG natif disponible via le composant WIC (Windows Imaging Component).
 
 -   [Identité du codec](#codec-identity)
 -   [Décodage](#decoding)

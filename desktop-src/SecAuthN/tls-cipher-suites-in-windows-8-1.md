@@ -4,12 +4,12 @@ ms.assetid: 48A515C2-96D3-4CBF-A48F-3F0B91F0CB2C
 title: Suites de chiffrement TLS dans Windows 8.1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14580b70168fd032005e7fa6bc418f1eff9e9593
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 316dc649379f785662d1d818d0af11d882c33f1236113a0c8a8f71458b7e964b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916128"
 ---
 # <a name="tls-cipher-suites-in-windows-81"></a>Suites de chiffrement TLS dans Windows 8.1
 
@@ -18,7 +18,7 @@ Les suites de chiffrement ne peuvent être négociées que pour les versions TLS
 La disponibilité des suites de chiffrement doit être contrôlée de deux manières :
 
 -   L’ordre de priorité par défaut est remplacé lors de la configuration d’une liste de priorités. Les suites de chiffrement qui ne sont pas dans la liste de priorités ne seront pas utilisées.
--   Autorisé lorsque l’application transmet \_ SCH \_ utiliser \_ un chiffrement fort : le fournisseur Microsoft Schannel filtre les suites de chiffrement faibles connues quand l’application utilise l' \_ \_ indicateur de chiffrement renforcé d’SCH use \_ . Dans Windows 8.1, les suites de chiffrement RC4 sont filtrées.
+-   Autorisé lorsque l’application transmet \_ SCH \_ utiliser \_ un chiffrement fort : le fournisseur Microsoft Schannel filtre les suites de chiffrement faibles connues quand l’application utilise l' \_ \_ indicateur de chiffrement renforcé d’SCH use \_ . dans Windows 8.1, les suites de chiffrement RC4 sont filtrées.
 
 > [!IMPORTANT]
 > Les services Web HTTP/2 échouent avec les suites de chiffrement compatibles non-HTTP/2. Pour garantir la fonction de vos services Web avec les clients et les navigateurs HTTP/2, consultez Guide pratique [pour déployer le classement personnalisé des suites de chiffrement](https://support.microsoft.com/help/4032720/how-to-deploy-custom-cipher-suite-ordering-in-windows-server-2016).
@@ -33,43 +33,43 @@ Windows 8.1 et Windows Server 2012 R2 sont mis à jour par Windows Update par la
 
 | Chaîne de la suite de chiffrement                                                                                            | Autorisé par SCH \_ utiliser \_ un \_ chiffrement renforcé | Versions du protocole TLS/SSL                     |
 |----------------------------------------------------------------------------------------------------------------|-------------------------------------|-----------------------------------------------|
-| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384 \_ P256<br/>                                                  | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384 \_ P384<br/>                                                  | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256 \_ P256<br/>                                                  | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256 \_ P384<br/>                                                  | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384 \_ P256<br/>                                                  | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384 \_ P384<br/>                                                  | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256 \_ P256<br/>                                                  | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256 \_ P384<br/>                                                  | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA \_ P256<br/>                                                     | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA \_ P384<br/>                                                     | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA \_ P256<br/>                                                     | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA \_ P384<br/>                                                     | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
-| TLS \_ dhe \_ RSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
-| \_Dhe TLS \_ RSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ dhe \_ RSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
+| \_Dhe TLS \_ RSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ dhe \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA<br/>                                                             | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ dhe \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA<br/>                                                             | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
-| TLS \_ RSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ RSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA256<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ RSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ RSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA256<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA<br/>                                                                  | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA<br/>                                                                  | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
-| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384 \_ P384<br/>                                                | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256 \_ P256<br/>                                                | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256 \_ P384<br/>                                                | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384 \_ P384<br/>                                                | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256 \_ P256<br/>                                                | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256 \_ P384<br/>                                                | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384 \_ P384<br/>                                                | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256 \_ P256<br/>                                                | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256 \_ P384<br/>                                                | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384 \_ P384<br/>                                                | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256 \_ P256<br/>                                                | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256 \_ P384<br/>                                                | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA \_ P256<br/>                                                   | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA \_ P384<br/>                                                   | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA \_ P256<br/>                                                   | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA \_ P384<br/>                                                   | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
-| TLS \_ dhe \_ DSS \_ avec \_ AES \_ 256 \_ CBC \_ SHA256<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ dhe \_ DSS \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ dhe \_ DSS \_ avec \_ AES \_ 256 \_ CBC \_ SHA256<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ dhe \_ DSS \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ dhe \_ DSS \_ avec \_ AES \_ 256 \_ CBC \_ SHA<br/>                                                             | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ dhe \_ DSS \_ avec \_ AES \_ 128 \_ CBC \_ SHA<br/>                                                             | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ RSA \_ avec \_ 3DES \_ Ede \_ CBC \_ SHA<br/>                                                                 | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ dhe \_ DSS \_ avec \_ 3DES \_ Ede \_ CBC \_ SHA<br/>                                                            | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
 | TLS \_ RSA \_ avec \_ RC4 \_ 128 \_ SHA<br/>                                                                       | Non<br/>                       | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
 | TLS \_ RSA \_ avec \_ RC4 \_ 128 \_ MD5<br/>                                                                       | Non<br/>                       | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
-| TLS \_ RSA \_ avec \_ null \_ SHA256 <br/> Utilisé uniquement lorsque l’application demande explicitement.<br/>            | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ RSA \_ avec \_ null \_ SHA256 <br/> Utilisé uniquement lorsque l’application demande explicitement.<br/>            | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ RSA \_ avec \_ \_ SHA null <br/> Utilisé uniquement lorsque l’application demande explicitement.<br/>               | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
 | SSL \_ CK \_ RC4 \_ 128 \_ avec \_ MD5 <br/> Utilisé uniquement lorsque l’application demande explicitement.<br/>            | Non<br/>                       | SSL 2.0<br/>                            |
 | SSL \_ CK \_ des \_ 192 \_ EDE3 \_ CBC \_ avec \_ MD5 <br/> Utilisé uniquement lorsque l’application demande explicitement.<br/> | Oui<br/>                      | SSL 2.0<br/>                            |
@@ -84,14 +84,14 @@ Les suites de chiffrement suivantes sont prises en charge par le fournisseur Mic
 
 | Chaîne de la suite de chiffrement                                             | Autorisé par SCH \_ utiliser \_ un \_ chiffrement renforcé | Versions du protocole TLS/SSL                     |
 |-----------------------------------------------------------------|-------------------------------------|-----------------------------------------------|
-| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384 \_ P521<br/>   | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256 \_ P521<br/>   | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384 \_ P521<br/>   | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256 \_ P521<br/>   | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA \_ P521<br/>      | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA \_ P521<br/>      | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
-| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384 \_ P521<br/> | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256 \_ P521<br/> | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384 \_ P521<br/> | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256 \_ P521<br/> | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384 \_ P521<br/> | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256 \_ P521<br/> | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384 \_ P521<br/> | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256 \_ P521<br/> | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA \_ P521<br/>    | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA \_ P521<br/>    | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ RSA \_ avec \_ des \_ CBC \_ SHA<br/>                        | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
@@ -108,7 +108,7 @@ Les suites de chiffrement suivantes sont prises en charge par le fournisseur Mic
 
  
 
-Pour ajouter des suites de chiffrement, utilisez l’option stratégie de groupe de la suite de chiffrement SSL sous Configuration ordinateur > Modèles d’administration > paramètres de configuration réseau > SSL pour configurer une liste de priorités pour toutes les suites de chiffrement que vous souhaitez activer.
+pour ajouter des suites de chiffrement, utilisez la stratégie de groupe paramètres de la Suite de chiffrement ssl sous Configuration ordinateur > Modèles d’administration > configuration réseau > ssl Paramètres pour configurer une liste de priorités pour toutes les suites de chiffrement que vous souhaitez activer.
 
  
 

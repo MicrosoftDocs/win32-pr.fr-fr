@@ -4,12 +4,12 @@ ms.assetid: c0a54b3d-84dc-4771-8891-167ce00e2218
 title: PKEY_AudioEndpoint_FullRangeSpeakers (MMDeviceAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0990d08e3d78eddf0fa6397e888b1e26c9f9a767
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ad27e5623189ce3ba78707377837493c1ea8dccb248d02ddd3d8e2c64570bed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406445"
 ---
 # <a name="pkey_audioendpoint_fullrangespeakers"></a>\_AudioEndpoint \_ FullRangeSpeakers
 
@@ -19,14 +19,14 @@ Le membre **VT** de la structure **PROPVARIANT** est défini sur VT \_ UI4.
 
 Le membre **uintVal** de la structure **PROPVARIANT** contient un masque de configuration de canal qui est converti en type **uint**.
 
-Un orateur complet est en train de jouer des sons sur la plage complète, de graves à aigus. En règle générale, les haut-parleurs sont de gamme complète, mais les plus petits sont beaucoup moins aptes à jouer des basses. Dans Windows Vista, le moteur audio utilise cette propriété pour gérer les niveaux de basses dans le flux de sortie audio joué par l’appareil de point de terminaison audio.
+Un orateur complet est en train de jouer des sons sur la plage complète, de graves à aigus. En règle générale, les haut-parleurs sont de gamme complète, mais les plus petits sont beaucoup moins aptes à jouer des basses. dans Windows Vista, le moteur audio utilise cette propriété pour gérer les niveaux de basses dans le flux de sortie audio joué par l’appareil de point de terminaison audio.
 
 Le masque de configuration de canal pour cette propriété est au même format que le masque de configuration de canal pour la propriété [**\_ AudioEndpoint \_ PhysicalSpeakers**](pkey-audioendpoint-physicalspeakers.md) . Pour plus d’informations sur les masques de configuration de canal, consultez les rubriques suivantes :
 
--   Description de la propriété de \_ configuration de canal audio KSPROPERTY \_ \_ dans la documentation de Windows DDK.
--   Le livre blanc intitulé « prise en charge du pilote audio pour les configurations du locuteur Home Cinema » sur le site Web [des technologies de périphériques audio pour Windows](https://www.microsoft.com/whdc/device/audio/default.mspx) .
+-   description de la propriété de \_ configuration de canal AUDIO KSPROPERTY \_ \_ dans la documentation Windows DDK.
+-   le livre blanc intitulé « prise en charge du pilote audio pour les configurations de haut-parleur Home cinema » est intitulé « [Technologies de périphériques audio pour Windows](https://www.microsoft.com/whdc/device/audio/default.mspx) site web ».
 
-Le système obtient le masque de configuration de canal pour la \_ propriété AudioEndpoint \_ FullRangeSpeakers de l’utilisateur. L’utilisateur entre ces informations par le biais du panneau de configuration multimédia de Windows, Mmsys.cpl. Pour plus d’informations sur Mmsys.cpl, consultez la documentation de Windows DDK.
+Le système obtient le masque de configuration de canal pour la \_ propriété AudioEndpoint \_ FullRangeSpeakers de l’utilisateur. l’utilisateur entre ces informations par le biais du panneau de configuration Windows multimédia, Mmsys.cpl. pour plus d’informations sur Mmsys.cpl, consultez la documentation Windows DDK.
 
 Le masque de configuration de canal pour la \_ \_ propriété AudioEndpoint FullRangeSpeakers d’un appareil de point de terminaison audio est un sous-ensemble du masque de configuration de canal pour la \_ \_ propriété PhysicalSpeakers AudioEndpoint du même appareil.
 
@@ -38,8 +38,8 @@ Par exemple, si un périphérique de point de terminaison audio pilote un ensemb
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>MMDeviceAPI. h</dt> </dl> |
 
 

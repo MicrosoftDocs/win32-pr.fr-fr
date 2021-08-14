@@ -1,22 +1,22 @@
 ---
-title: Mode RVBA et gestion de la palette Windows
+title: Mode rvba et gestion des palettes de Windows
 description: Alors que la plupart des applications GDI ont tendance à utiliser l’indexation des couleurs avec des palettes logiques, le mode RVBA est généralement préférable pour les applications OpenGL. Il fonctionne mieux que le mappage des couleurs pour plusieurs effets, tels que l’ombrage, l’éclairage, le brouillard et le mappage de texture.
 ms.assetid: 68c35173-e792-4770-9404-5503344f475b
 keywords:
-- OpenGL sur Windows, mode RVBA
-- OpenGL sur Windows, gestion de palette
+- OpenGL sur Windows, mode rvba
+- OpenGL sur Windows, gestion de la palette
 - Mode RVBA OpenGL
 - gestion de la palette OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2e04110d1dfe489a145a8de9bdc7c3d9b726acd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 53016764636cadd9fe85e0478905958788ca2557a308375bc8d6d9826462c6b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932951"
 ---
-# <a name="rgba-mode-and-windows-palette-management"></a>Mode RVBA et gestion de la palette Windows
+# <a name="rgba-mode-and-windows-palette-management"></a>Mode rvba et gestion des palettes de Windows
 
 Alors que la plupart des applications GDI ont tendance à utiliser l’indexation des couleurs avec des palettes logiques, le mode RVBA est généralement préférable pour les applications OpenGL. Il fonctionne mieux que le mappage des couleurs pour plusieurs effets, tels que l’ombrage, l’éclairage, le brouillard et le mappage de texture.
 
@@ -297,6 +297,6 @@ main(int argc, char *argv[])
 
 
 
- 
+ 
 
- 
+ 

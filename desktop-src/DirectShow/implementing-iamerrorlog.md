@@ -4,12 +4,12 @@ ms.assetid: 0a380854-f3a9-4077-a481-dda67737d4c8
 title: Implémentation de IAMErrorLog
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65eb968eb370d06fab6aca13af3215bb3b650257
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 446e193a6a28fc1cbd5515414b9914f2653e8bc27bb9b5a57e69d05dfc947d62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118398079"
 ---
 # <a name="implementing-iamerrorlog"></a>Implémentation de IAMErrorLog
 
@@ -29,7 +29,7 @@ STDMETHODIMP LogError(
 
 
 
-Le code d’erreur et la chaîne d’erreur sont définis par les services d’édition DirectShow. Pour obtenir la liste des erreurs, consultez [Erreurs de rendu](rendering-errors.md).
+le code d’erreur et la chaîne d’erreur sont définis par DirectShow Services d’édition. Pour obtenir la liste des erreurs, consultez [Erreurs de rendu](rendering-errors.md).
 
 Le paramètre *pExtraInfo* contient un pointeur vers un type Variant qui contient des informations supplémentaires sur l’erreur. Le type de données et le contenu de la variante dépendent de l’erreur spécifique qui s’est produite. Par exemple, si l’erreur est due à un nom de fichier incorrect, le VARIANT est une chaîne avec le nom de fichier incorrect. Certaines erreurs n’ont pas d’informations supplémentaires, donc *pExtraInfo* peut avoir la **valeur null**. Le code suivant montre comment tester le membre **VT** du variant, qui indique le type de données et mettre en forme un message en conséquence.
 

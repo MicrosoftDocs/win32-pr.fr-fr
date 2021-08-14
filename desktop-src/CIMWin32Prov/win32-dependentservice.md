@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 047ec3411186f09f3d0e76da27158aa8ee91d4cc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 391db343723af04536ac970e1d8beb0d7c7fb4bb1fe47ac15846a877999f4e6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417626"
 ---
 # <a name="win32_dependentservice-class"></a>\_Classe DependentService Win32
 
@@ -150,7 +150,7 @@ Le service ne doit pas être démarré.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ DependentService** est dérivée de [**CIM \_ ServiceServiceDependency**](cim-serviceservicedependency.md).
 

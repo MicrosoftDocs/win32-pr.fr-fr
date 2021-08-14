@@ -4,12 +4,12 @@ description: Les programmes clients peuvent utiliser la fonction RpcBindingSetAu
 ms.assetid: bc3d47ba-3c1b-4aba-8fe3-b4501a621931
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee93b1aa376c9d6f4e2b3eedab73c91471d42498
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 84d7c68386a5d7db4f59b620bc998d628faa2969671ef99b5c5fc2c65aadeb96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103842966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927147"
 ---
 # <a name="quality-of-service-rpc"></a>Qualité de service (RPC)
 

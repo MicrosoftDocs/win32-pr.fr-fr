@@ -8,12 +8,12 @@ keywords:
 - Bibliothèque GLU OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d40d4a6fa51354204ee37bfc43e9217b742b882
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5fc677e959fef6f14e7eca7bcb5c6164604d7b9ba61518ebfe1f150f0b7a73e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936704"
 ---
 # <a name="opengl-utility-library"></a>Bibliothèque de l’utilitaire OpenGL
 
@@ -22,7 +22,7 @@ La bibliothèque OpenGL Utility (GLU) contient plusieurs groupes de fonctions qu
 > [!Note]  
 > Le préfixe des fonctions de la bibliothèque d’utilitaires est « Glu » plutôt que « GL ».
 
- 
+ 
 
 La plupart de ces fonctions sont décrites dans les sections précédentes du documentation à mesure que leurs rubriques se produisent. Ces fonctions sont répertoriées ici à des fins d’exhaustivité. Les fonctions GLU qui ne sont pas abordées dans les sections précédentes sont décrites ici. Pour obtenir une description plus détaillée de ces fonctions, consultez le *Manuel de référence OpenGL*. Cette section regroupe les fonctions GLU connexes, comme suit :
 
@@ -38,9 +38,9 @@ La plupart de ces fonctions sont décrites dans les sections précédentes du do
 -   [Utilisation des courbes et des surfaces NURBS](using-nurbs-curves-and-surfaces.md)
 -   [Gestion des erreurs](handling-errors.md)
 
- 
+ 
 
- 
+ 
 
 
 

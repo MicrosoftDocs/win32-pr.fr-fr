@@ -4,12 +4,12 @@ description: L’en-tête a été étendu plusieurs fois pendant la durée de vi
 ms.assetid: 05b152b9-bd6d-49d1-8484-d104949c67b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db9c28878d82820e519242172496a7932ac4832e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fd9572c9a29ea8477f1d06d8786d50f6abf920de140b6d1663c2431b2ad0c76f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927131"
 ---
 # <a name="procedure-header-descriptor"></a>Descripteur d’en-tête de procédure
 
@@ -42,7 +42,7 @@ Où le \_ type de handle<1> peut être l’une des valeurs indiquées dans le ta
 
 
 
- 
+ 
 
 Si le type de handle \_<1> champ est différent de zéro, la procédure utilise alors un handle implicite du type indiqué. Pour plus d’informations, consultez la rubrique [Handles](handles.md) . Si le type de handle \_<1> champ est égal à zéro, le handle utilisé pour la liaison est l’un des paramètres de la procédure.
 
@@ -56,7 +56,7 @@ Les handles explicites peuvent être de la primitive, du générique et du conte
 
 
 
- 
+ 
 
 Par Convention, le type de handle pour les interfaces DCOM est le \_ \_ descripteur auto FC.
 
@@ -72,12 +72,12 @@ Les \_ indicateurs Oi<1> champ est un masque de 8 bits des indicateurs suivants.
 | 08  | OI \_ a \_ RPCFLAGS            | La procédure a des indicateurs RPC non nuls.     |
 | 10  | OI\_\*                       | Surchargé.                              |
 | 20  | OI\_\*                       | Surchargé.                              |
-| 40  | OI \_ utiliser \_ de \_ nouvelles \_ routines init | Utilise les routines init et Windows NT 3.5 bêta 2. |
+| 40  | OI \_ utiliser \_ de \_ nouvelles \_ routines init | Utilise les routines d’initialisation Windows NT 3.5 bêta2 +. |
 | 80  |                              | Inutilisé.                                  |
 
 
 
- 
+ 
 
 Les indicateurs suivants sont surchargés.
 
@@ -93,14 +93,14 @@ Les indicateurs suivants sont surchargés.
 
 
 
- 
+ 
 
 Le \_ champ indicateurs rpc<4> décrit comment définir le champ **RpcFlags** de la structure [**de \_ message RPC**](/windows/desktop/api/RpcdceP/ns-rpcdcep-rpc_message) . Ce champ est présent uniquement si les \_ indicateurs oi<1> champ contient la \_ valeur de \_ RPCFLAGS définie. Si ce champ n’est pas présent, les indicateurs RPC de la procédure distante sont nuls.
 
 > [!Note]  
 > Pour des performances, les interpréteurs Async ont toujours le \_ champ indicateurs rpc<4> présent.
 
- 
+ 
 
 Le \_ champ proc num<2> indique le numéro de procédure de la procédure.
 
@@ -108,6 +108,6 @@ La \_ taille de la pile<2> fournit la taille totale de tous les paramètres sur 
 
 Le \_ champ Description du handle explicite \_<> est décrit plus loin dans ce document. Ce champ n’est pas présent si la procédure utilise un handle implicite.
 
- 
+ 
 
- 
+ 

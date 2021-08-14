@@ -1,5 +1,5 @@
 ---
-description: Récupère les États Masquer automatiquement et toujours en haut de la barre des tâches Windows.
+description: récupère les états masquer automatiquement et toujours en haut de la barre des tâches Windows.
 title: Message ABM_GETSTATE (shellapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,16 +13,16 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 71225cd8d93de09a07cb0049066e52be08c18a36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1a3618be793f4728dc6184b50b7a4e0e57c3ffd2c4d2cd8acde17372aa031f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118225228"
 ---
 # <a name="abm_getstate-message"></a>\_Message ABM GETSTATE
 
-Récupère les États Masquer automatiquement et toujours en haut de la barre des tâches Windows.
+récupère les états masquer automatiquement et toujours en haut de la barre des tâches Windows.
 
 
 ```C++
@@ -65,7 +65,7 @@ Retourne zéro si la barre des tâches n’est ni dans l’état de masquage aut
 <td>La barre des tâches est dans l’État Always on Top. <br/>
 <blockquote>
 [!Note]<br />
-À partir de Windows 7, ABS_ALWAYSONTOP n’est plus renvoyé car la barre des tâches est toujours dans cet État. Le code plus ancien doit être mis à jour pour ignorer l’absence de cette valeur dans ne pas supposer que la valeur de retour signifie que la barre des tâches ne se trouve pas dans l’État Always on Top.
+à partir de Windows 7, ABS_ALWAYSONTOP n’est plus renvoyé car la barre des tâches est toujours dans cet état. Le code plus ancien doit être mis à jour pour ignorer l’absence de cette valeur dans ne pas supposer que la valeur de retour signifie que la barre des tâches ne se trouve pas dans l’État Always on Top.
 </blockquote>
 <br/></td>
 </tr>
@@ -80,13 +80,13 @@ Retourne zéro si la barre des tâches n’est ni dans l’état de masquage aut
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Shellapi. h</dt> </dl> |
 

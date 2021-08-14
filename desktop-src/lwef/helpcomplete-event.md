@@ -4,12 +4,12 @@ description: Événement HelpComplete
 ms.assetid: d805f089-154f-4b39-9d78-a02b732f87ed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc3984f4b67eaed6bc9226685e927c35e151c11e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8a41b4dc0b1b6767b113220f2a922d1a512132a2cd7754891acb9c99b92d0039
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106543048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118478994"
 ---
 # <a name="helpcomplete-event"></a>Événement HelpComplete
 
@@ -43,7 +43,7 @@ Indique que le mode d’aide contextuelle a été quitté.
 
 </dd> </dl>
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 En général, le mode d’aide se termine lorsque l’utilisateur clique ou fait glisser le caractère ou sélectionne une commande dans le menu contextuel du caractère. Le fait de cliquer sur un autre caractère ou sur un autre emplacement de l’écran n’annule pas le mode d’aide. Le client qui définit le mode d’aide pour le caractère peut annuler le mode d’aide en affectant à [**HelpModeOn**](helpmodeon-property.md) la **valeur false**. (Cela ne déclenche pas l’événement **HelpComplete** .)
 

@@ -3,12 +3,12 @@ description: Comment implémenter et inscrire un gestionnaire de suppression.
 title: Comment créer des gestionnaires de suppression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 081b4349ba36a12670458a453b0622475d59d755
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d34c06aa3eae1892b5b86ce3a0f3b1198be41cd2f9dda5c9bd0956b40a53146e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118223583"
 ---
 # <a name="how-to-create-drop-handlers"></a>Comment créer des gestionnaires de suppression
 

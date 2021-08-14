@@ -4,12 +4,12 @@ description: L’en-tête suivant représente l’un des styles d’en-tête qui
 ms.assetid: 2078d2d9-1757-4449-9cc1-a21804654722
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0afcc9ad880278fdbcb8efc45fdabdc22ad06224
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b27ee00425f3611234b0cd001f254b1499a0d4873d05846c65a2828c3eeffe57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924538"
 ---
 # <a name="the-header"></a>L’en-tête
 
@@ -65,12 +65,12 @@ Le membre **ClientCorrCheck** est un indicateur de taille de cache côté client
 
 L’élément **NotifyIndex** est un index d’une routine Notify, s’il est utilisé.
 
-L’élément **FloatDoubleMask** traite le problème d’un argument à virgule flottante pour Windows 64 bits. Ce champ est généré uniquement pour les stubs 64 bits. Le masque est nécessaire pour les routines d’assembly qui téléchargent/chargent les registres à partir de/vers la pile virtuelle pour gérer les arguments à virgule flottante et s’inscrit correctement. Le masque est constitué de 2 bits par argument, ou non par registre à virgule flottante. Le codage est le suivant : les bits les moins significatifs correspondent au premier registre FP, les 2 bits suivants correspondent au deuxième Registre, et ainsi de suite.
+L’élément **FloatDoubleMask** traite le problème d’un argument à virgule flottante pour le Windows de 64 bits. Ce champ est généré uniquement pour les stubs 64 bits. Le masque est nécessaire pour les routines d’assembly qui téléchargent/chargent les registres à partir de/vers la pile virtuelle pour gérer les arguments à virgule flottante et s’inscrit correctement. Le masque est constitué de 2 bits par argument, ou non par registre à virgule flottante. Le codage est le suivant : les bits les moins significatifs correspondent au premier registre FP, les 2 bits suivants correspondent au deuxième Registre, et ainsi de suite.
 
 > [!Note]  
 > Pour les routines d’objet, le premier argument finit dans le deuxième Registre en raison de la première position de ce pointeur. Pour chaque registre, la signification de bits est indiquée dans le tableau suivant.
 
- 
+ 
 
 
 
@@ -81,7 +81,7 @@ L’élément **FloatDoubleMask** traite le problème d’un argument à virgule
 
 
 
- 
+ 
 
 00 et 11 sont des valeurs non valides pour les bits.
 
@@ -108,6 +108,6 @@ typedef struct _NDR_DCOM_OI2_PROC_HEADER
   } NDR_DCOM_OI2_PROC_HEADER, *PNDR_DCOM_OI2_PROC_HEADER;
 ```
 
- 
+ 
 
- 
+ 

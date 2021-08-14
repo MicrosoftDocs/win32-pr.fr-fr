@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: b9c3ad93fe2cb80fe758e2e66da37cce9d4267ad
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 640fd4ce0110f47aa20a04d0df595b0ae8bf5052c229825dd93e1066150c6306
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104394156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527579"
 ---
 # <a name="d3dmaterial9-structure"></a>D3DMATERIAL9, structure
 
@@ -87,7 +87,7 @@ Valeur spécifiant la couleur émissif du matériau. Consultez [**D3DCOLORVALUE*
 
 </dd> <dt>
 
-**Power**
+**Alimentation**
 </dt> <dd>
 
 Type : **float**
@@ -98,7 +98,7 @@ Valeur à virgule flottante spécifiant la netteté des surbrillances spéculair
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour désactiver les surbrillances spéculaires, affectez la valeur \_ **false** à D3DRS SpecularEnable, à l’aide de [**D3DRENDERSTATETYPE**](./d3drenderstatetype.md). Il s’agit de l’option la plus rapide car aucune surbrillance spéculaire n’est calculée.
 

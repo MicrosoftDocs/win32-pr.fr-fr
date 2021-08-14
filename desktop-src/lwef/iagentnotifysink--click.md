@@ -4,12 +4,12 @@ description: IAgentNotifySink cliquer
 ms.assetid: 6587fed8-4651-4c5c-b257-6e3f991cd3a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f0e63244a89467225a7bfd045af6dc112431d12
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 154b35d85b86d1bd835275e93e6ea4c397b01240910066debd826c3570f806fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477075"
 ---
 # <a name="iagentnotifysinkclick"></a>IAgentNotifySink :: Click
 
@@ -44,7 +44,7 @@ Paramètre qui indique le bouton de la souris et l’état de la touche de modif
 
 
 
-| Value  | Description                                    |
+| Valeur  | Description                                    |
 |--------|------------------------------------------------|
 | 0x0001 | Bouton gauche                                    |
 | 0x0010 | Bouton central                                  |

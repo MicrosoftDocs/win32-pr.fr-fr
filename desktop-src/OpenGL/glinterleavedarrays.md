@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41403210e78d1a65dd700561243846d6e45bad67
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce3b37186614fa431585c1e5a932edab946afd6d881ba1cf8eb5c5690220f603
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118938560"
 ---
 # <a name="glinterleavedarrays-function"></a>glInterleavedArrays fonction)
 
@@ -81,7 +81,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avec la fonction **glInterleavedArrays** , vous pouvez spécifier et activer simultanément plusieurs tableaux de couleur, de texture normale, de texture et de vertex entrelacés dont les éléments font partie d’un élément de tableau d’agrégats plus grand. Pour certaines architectures de mémoire, cette solution est plus efficace que la spécification des tableaux séparément.
 

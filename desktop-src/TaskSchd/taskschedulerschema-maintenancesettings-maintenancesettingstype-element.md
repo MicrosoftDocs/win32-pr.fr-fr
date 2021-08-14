@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ca68876d8742ea04faa972d2ea7fd5f4b2071ffc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5724a5dff942377af783970e5d011e8f8a1ce9123039112917a3f652372495d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119309339"
 ---
 # <a name="maintenancesettings-maintenancesettingstype-element"></a>Élément MaintenanceSettings (maintenanceSettingsType)
 
@@ -55,7 +55,7 @@ L’élément **MaintenanceSettings** est défini par le type complexe [**mainte
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour la programmation en C++, ce paramètre inactif est spécifié à l’aide de la propriété [**ITaskSettings3 :: MaintenanceSettings**](/windows/desktop/api/Taskschd/nf-taskschd-itasksettings3-get_maintenancesettings) .
 
@@ -81,8 +81,8 @@ Le code XML suivant définit un élément Settings qui indique à Planificateur 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>           |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/> |
 
 
 

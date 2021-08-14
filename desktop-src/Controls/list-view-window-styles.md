@@ -33,12 +33,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cae95bdb8dc1263b485f0bd2c50a8124dd57fc3a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f3e326f4508d08f1052747e64ea5eba184f45f7e73a1cb55539255a27fd8c8c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412024"
 ---
 # <a name="list-view-window-styles"></a>Styles de fenêtre List-View
 
@@ -73,7 +73,7 @@ Les styles de fenêtre suivants sont spécifiques aux contrôles d’affichage d
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour les styles **LVS \_ SORTASCENDING** et **LVS \_ SORTDESCENDING** , les index d’éléments sont triés en fonction du texte de l’élément dans l’ordre croissant ou décroissant, respectivement. Étant donné que la **\_ liste LVS** et les vues de **\_ rapport LVS** affichent les éléments dans le même ordre que leurs index, les résultats du tri sont immédiatement visibles pour l’utilisateur. L' **\_ icône LVS** et les vues **LVS \_ SmallIcon** n’utilisent pas d’index d’élément pour déterminer la position des icônes. Avec ces vues, les résultats du tri ne sont pas visibles par l’utilisateur.
 

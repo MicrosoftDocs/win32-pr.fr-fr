@@ -4,22 +4,22 @@ ms.assetid: ad8753ba-ad20-4122-b0f2-eb165f98db67
 title: Propriétés de l’appareil (API audio principales)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14a868e4bb806bd49d934febed164bcd70fba39f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 47e1a5068329ea2da794b68b777aa989a2e8b4a665df082982916942aa15b56e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118407017"
 ---
 # <a name="device-properties-core-audio-apis"></a>Propriétés de l’appareil (API audio principales)
 
 Pendant le processus d’énumération des [appareils de point de terminaison audio](audio-endpoint-devices.md), une application cliente peut interroger les objets de point de terminaison pour leurs propriétés d’appareil. Les propriétés de l’appareil sont exposées dans l’implémentation de l’interface **IPropertyStore** de l’API MMDevice. À partir d’une référence à l’interface [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) d’un objet de point de terminaison, un client peut obtenir une référence à la Banque de propriétés de l’objet de point de terminaison en appelant la méthode [**IMMDevice :: OpenPropertyStore**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore) .
 
-L’objet de magasin de propriétés expose une interface **IPropertyStore** . Les deux méthodes principales de cette interface sont **IPropertyStore :: GetValue**, qui obtient une valeur de propriété de périphérique, et **IPropertyStore :: SetValue**, qui définit une valeur de propriété d’appareil. Pour plus d’informations sur **IPropertyStore**, consultez la documentation SDK Windows.
+L’objet de magasin de propriétés expose une interface **IPropertyStore** . Les deux méthodes principales de cette interface sont **IPropertyStore :: GetValue**, qui obtient une valeur de propriété de périphérique, et **IPropertyStore :: SetValue**, qui définit une valeur de propriété d’appareil. pour plus d’informations sur **IPropertyStore**, consultez la documentation SDK Windows.
 
 L’implémentation de l’API MMDevice de la Banque de propriétés est différente de l’objet de magasin de propriétés de Shell standard. Pour modifier une valeur de propriété, l’application cliente doit appeler la méthode **IPropertyStore :: SetValue** . Pendant cet appel, les nouvelles valeurs sont définies et écrites dans le registre. Par conséquent, l’application n’a pas besoin d’appeler la méthode **IPropertyStore :: Commit** après l’appel **SetValue** . Le descripteur du Registre est fermé uniquement lorsque le client libère le pointeur d’interface.
 
-En règle générale, les applications clientes tierces appellent la méthode **GetValue** , mais pas la méthode **SetValue** . Le gestionnaire des points de terminaison définit les propriétés de l’appareil de base pour les points de terminaison. Le gestionnaire des points de terminaison est le composant Windows Vista qui est chargé de détecter la présence d’appareils de point de terminaison audio.
+En règle générale, les applications clientes tierces appellent la méthode **GetValue** , mais pas la méthode **SetValue** . Le gestionnaire des points de terminaison définit les propriétés de l’appareil de base pour les points de terminaison. le gestionnaire des points de terminaison est le composant Windows Vista qui est chargé de détecter la présence d’appareils de point de terminaison audio.
 
 Chaque \_ identificateur de propriété de type d’éléments de la liste suivante est une constante de type **PROPERTYKEY** définie dans le fichier d’en-tête Functiondiscoverykeys \_ devpkey. h. Tous les périphériques de point de terminaison audio possèdent ces trois propriétés d’appareil.
 
@@ -35,7 +35,7 @@ Chaque \_ identificateur de propriété de type d’éléments de la liste suiva
 
  
 
-Certains périphériques de point de terminaison audio peuvent avoir des propriétés supplémentaires qui n’apparaissent pas dans la liste précédente. Pour plus d’informations sur les propriétés supplémentaires, consultez [Propriétés du point de terminaison audio](audio-endpoint-properties.md). Pour plus d’informations sur **PROPERTYKEY**, consultez la documentation SDK Windows.
+Certains périphériques de point de terminaison audio peuvent avoir des propriétés supplémentaires qui n’apparaissent pas dans la liste précédente. Pour plus d’informations sur les propriétés supplémentaires, consultez [Propriétés du point de terminaison audio](audio-endpoint-properties.md). pour plus d’informations sur **PROPERTYKEY**, consultez la documentation SDK Windows.
 
 L’exemple de code suivant imprime les noms complets de tous les appareils de point de terminaison de rendu audio dans le système :
 
@@ -140,7 +140,7 @@ Dans l’exemple de code précédent, le corps de la boucle **for** de la foncti
 
 Les noms d’appareil conviviaux et les chaînes d’ID de point de terminaison obtenus par la fonction PrintEndpointNames dans l’exemple de code précédent sont identiques aux noms de périphérique convivial et aux chaînes d’ID de point de terminaison fournis par DirectSound pendant l’énumération de l’appareil. Pour plus d’informations, consultez [événements audio pour les applications audio héritées](audio-events-for-legacy-audio-applications.md).
 
-Dans l’exemple de code précédent, la fonction PrintEndpointNames appelle la fonction **CoCreateInstance** pour créer un énumérateur pour les périphériques de point de terminaison audio dans le système. À moins que le programme appelant n’appelait auparavant la fonction **CoInitialize** ou **CoInitializeEx** pour initialiser la bibliothèque com, l’appel **CoCreateInstance** échouera. Pour plus d’informations sur **CoCreateInstance**, **CoInitialize** et **CoInitializeEx**, consultez la documentation SDK Windows.
+Dans l’exemple de code précédent, la fonction PrintEndpointNames appelle la fonction **CoCreateInstance** pour créer un énumérateur pour les périphériques de point de terminaison audio dans le système. À moins que le programme appelant n’appelait auparavant la fonction **CoInitialize** ou **CoInitializeEx** pour initialiser la bibliothèque com, l’appel **CoCreateInstance** échouera. pour plus d’informations sur **CoCreateInstance**, **coinitialize** et **CoInitializeEx**, consultez la documentation SDK Windows.
 
 Pour plus d’informations sur les interfaces **IMMDeviceEnumerator**, **IMMDeviceCollection** et **IMMDevice** , consultez [API MMDevice](mmdevice-api.md).
 

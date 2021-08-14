@@ -1,19 +1,19 @@
 ---
-description: Courbes elliptiques activées dans Windows 10 versions 1507 et 1511.
-title: Courbes elliptiques TLS dans Windows 10 version 1507 et 1511
+description: courbes elliptiques activées dans les versions 1507 et 1511 de Windows 10.
+title: des courbes elliptiques TLS dans Windows 10 version 1507 et 1511
 ms.topic: article
 ms.keywords: ecc curves, elliptic curves, tls elliptic curves, ECC curves, schannel, ECC, EC, Elliptic Curve Cryptography
 ms.date: 06/10/2020
-ms.openlocfilehash: c38d1014433e1274d8dff52be09d59761d3b1761
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91dfc7dac8f45b9c4f2231f6db93e776c75544373199170146f55362f02f2be3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915864"
 ---
-# <a name="tls-elliptic-curves-in-windows-10-version-1507-and-1511"></a>Courbes elliptiques TLS dans Windows 10 version 1507 et 1511
+# <a name="tls-elliptic-curves-in-windows-10-version-1507-and-1511"></a>des courbes elliptiques TLS dans Windows 10 version 1507 et 1511
 
-Pour Windows 10, versions 1507 et 1511, les courbes elliptiques suivantes sont activées et, par défaut, dans cet ordre de priorité, utilisez le fournisseur Microsoft Schannel :
+pour Windows 10, les versions 1507 et 1511, les courbes elliptiques suivantes sont activées et, par défaut, dans cet ordre de priorité, utilisez le fournisseur Microsoft Schannel :
 
 | Chaîne de courbe elliptique | Disponible en mode FIPS |
 |-------------|--------------|
@@ -46,13 +46,13 @@ Les courbes elliptiques suivantes sont prises en charge par le fournisseur Micro
 ## <a name="enabling-elliptic-curves"></a>Activation des courbes elliptiques
 
 Pour ajouter des courbes elliptiques, vous pouvez soit déployer une stratégie de groupe, soit utiliser les applets de commande TLS :
-- Pour utiliser la stratégie de groupe, [configurez l’ordre des courbes ECC](/windows-server/security/tls/manage-tls#configuring-tls-ecc-curve-order) sous Configuration ordinateur > modèles d’administration > les paramètres de configuration réseau > SSL avec la liste priorité pour toutes les courbes elliptiques que vous souhaitez activer.
+- pour utiliser la stratégie de groupe, [configurez l’ordre des courbes ECC](/windows-server/security/tls/manage-tls#configuring-tls-ecc-curve-order) sous configuration ordinateur > Modèles d’administration > réseau > configuration SSL Paramètres avec la liste des priorités pour toutes les courbes elliptiques que vous souhaitez activer.
 
 - Pour utiliser PowerShell, consultez [applets](/powershell/module/tls) de commande TLS pour obtenir une liste complète de la syntaxe et des descriptions de l’applet de commande TLS.
 
 
 > [!NOTE]
-> Avant Windows 10, les chaînes de suite de chiffrement étaient ajoutées à la courbe elliptique pour déterminer la priorité de la courbe. Windows 10 prend en charge un paramètre d’ordre de priorité de courbe elliptique, ce qui signifie que le suffixe de courbe elliptique n’est pas obligatoire et est remplacé par le nouvel ordre de priorité de la courbe elliptique, le cas échéant, pour permettre aux organisations d’utiliser la stratégie de groupe pour configurer différentes versions de Windows avec les mêmes suites de chiffrement.
+> avant Windows 10, les chaînes de suite de chiffrement ont été ajoutées à la courbe elliptique pour déterminer la priorité de la courbe. Windows 10 prend en charge un paramètre d’ordre de priorité de courbe elliptique, si bien que le suffixe de courbe elliptique n’est pas obligatoire et est remplacé par le nouvel ordre de priorité de la courbe elliptique, le cas échéant, pour permettre aux organisations d’utiliser la stratégie de groupe pour configurer différentes versions de Windows avec les mêmes suites de chiffrement.
 
 
 ## <a name="see-also"></a>Voir aussi
@@ -61,6 +61,6 @@ Pour ajouter des courbes elliptiques, vous pouvez soit déployer une stratégie 
 
 [Gestion de l’ordre ECC TLS](/windows-server/security/tls/manage-tls#managing-tls-ecc-order)
 
-[Gestion des courbes ECC Windows à l’aide de stratégie de groupe](/windows-server/security/tls/manage-tls#managing-windows-ecc-curves-using-group-policy)
+[gestion des courbes ECC Windows à l’aide de stratégie de groupe](/windows-server/security/tls/manage-tls#managing-windows-ecc-curves-using-group-policy)
 
 [Applets de commande TLS](/powershell/module/tls)

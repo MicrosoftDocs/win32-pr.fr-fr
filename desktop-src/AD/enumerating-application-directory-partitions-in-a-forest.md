@@ -8,12 +8,12 @@ keywords:
 - Partitions de l’annuaire d’applications Active Directory, énumération dans une forêt
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d42bbe28ef37932394721d0c234ba3970ac263b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2c4e8d48b2fc93ad7a879f76f2bbaa130186706ef957320612c866cb3b9f892c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104031011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191366"
 ---
 # <a name="enumerating-application-directory-partitions-in-a-forest"></a>Énumération des partitions d’annuaire d’applications dans une forêt
 
@@ -31,6 +31,6 @@ Les objets [**crossRef**](/windows/desktop/ADSchema/c-crossref) qui représenten
 4.  Excluez la partition de configuration du jeu de résultats en comparant l’attribut [**NCName**](/windows/desktop/ADSchema/a-ncname) de l’objet [**crossRef**](/windows/desktop/ADSchema/c-crossref) à l’attribut **configurationNamingContext** de l’objet rootDSE.
 5.  Les autres objets [**crossRef**](/windows/desktop/ADSchema/c-crossref) dans le jeu de résultats représentent tous des partitions d’annuaire d’applications.
 
- 
+ 
 
- 
+ 

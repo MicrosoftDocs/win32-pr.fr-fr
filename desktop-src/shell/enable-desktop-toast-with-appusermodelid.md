@@ -9,23 +9,23 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbSyntax
-ms.openlocfilehash: bd02a0ec6512aa7637f0d6b2b281e1b862e61d3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 517c2b72e830c00b105048adc63923291f896cd5d0d77569c91b1aa12e034e60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459791"
 ---
 # <a name="how-to-enable-desktop-toast-notifications-through-an-appusermodelid"></a>Guide pratique pour activer les notifications toast de bureau via un AppUserModelID
 
-Cette rubrique vous montre comment créer un raccourci pour votre application, lui assigner une valeur [AppUserModelID](appids.md)et l’installer dans l’écran d’accueil. Nous vous recommandons vivement de le faire dans le Windows Installer plutôt que dans le code de votre application. Si vous ne disposez pas d’un raccourci valide sur l’écran d’accueil ou dans **tous les programmes**, vous ne pouvez pas déclencher une notification toast à partir d’une application de bureau.
+Cette rubrique vous montre comment créer un raccourci pour votre application, lui assigner une valeur [AppUserModelID](appids.md)et l’installer dans l’écran d’accueil. nous vous recommandons vivement de le faire dans le Windows Installer plutôt que dans le code de votre application. Si vous ne disposez pas d’un raccourci valide sur l’écran d’accueil ou dans **tous les programmes**, vous ne pouvez pas déclencher une notification toast à partir d’une application de bureau.
 
 > [!Note]  
 > Les exemples de méthodes utilisés dans cette rubrique sont tirés de l' [exemple de Toast de bureau](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DesktopToasts).
 
  
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
@@ -36,8 +36,8 @@ Cette rubrique vous montre comment créer un raccourci pour votre application, l
 -   Bibliothèques
     -   C++ : Runtime. Object. lib
     -   C \# : Windows. Winmd
--   C \# : Pack de code d’API Windows pour Microsoft .NET Framework
--   Une version de Microsoft Visual Studio qui prend en charge au moins Windows 8
+-   C \# : Windows Pack de Code d’API pour Microsoft .NET Framework
+-   une version de Microsoft Visual Studio qui prend en charge au moins Windows 8
 
 ## <a name="instructions"></a>Instructions
 
@@ -144,9 +144,9 @@ HRESULT DesktopToastsApp::InstallShortcut(_In_z_ wchar_t *shortcutPath)
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Comme alternative à l’approche illustrée dans cette rubrique, vous pouvez utiliser une infrastructure telle que le Windows Installer XML (WiX) pour générer le raccourci et le déployer dans le cadre du Windows Installer. Dans ce cas, ce code doit être inclus dans le MSI plutôt que dans le code de l’application. Pour plus d’informations, consultez l’exemple de fichier de configuration WiX inclus avec l’exemple [envoi de notifications toast à partir d’applications de bureau](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Toast%20notifications%20sample%20(Windows%208)) .
+comme alternative à l’approche illustrée dans cette rubrique, vous pouvez utiliser une infrastructure telle que le Windows Installer XML (WiX) pour générer le raccourci et le déployer dans le cadre du Windows Installer. Dans ce cas, ce code doit être inclus dans le MSI plutôt que dans le code de l’application. Pour plus d’informations, consultez l’exemple de fichier de configuration WiX inclus avec l’exemple [envoi de notifications toast à partir d’applications de bureau](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Toast%20notifications%20sample%20(Windows%208)) .
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -161,7 +161,7 @@ Comme alternative à l’approche illustrée dans cette rubrique, vous pouvez ut
 [ID de modèle d’utilisateur d’application (AppUserModelIDs)](appids.md)
 </dt> <dt>
 
-[Comment : installer les outils Windows Installer XML (WiX)](/previous-versions/windows/server-essentials/gg513936(v=msdn.10))
+[comment : installer les outils Windows Installer XML (WiX)](/previous-versions/windows/server-essentials/gg513936(v=msdn.10))
 </dt> <dt>
 
 [Schéma de Toast XML](/uwp/schemas/tiles/toastschema/schema-root)

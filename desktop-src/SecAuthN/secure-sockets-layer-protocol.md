@@ -1,24 +1,24 @@
 ---
-description: Les informations contenues dans cette rubrique s’appliquent à Windows Server 2003 et Windows XP.
+description: les informations contenues dans cette rubrique s’appliquent à Windows Server 2003 et Windows XP.
 ms.assetid: 45536902-af80-4dca-b3ce-207086844763
 title: Protocole SSL (Secure Sockets Layer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3ed2555c854a6cc25948abe0dc83043ee632170
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faf8e6b7232db8bef98d5170887d6be75c9770927954a40b606450bf214efdf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918382"
 ---
 # <a name="secure-sockets-layer-protocol"></a>Protocole SSL (Secure Sockets Layer)
 
-Les informations contenues dans cette rubrique s’appliquent à Windows Server 2003 et Windows XP. Pour les suites de chiffrement pour Windows Server 2008 et Windows Vista, voir [suites de chiffrement dans Schannel](cipher-suites-in-schannel.md).
+les informations contenues dans cette rubrique s’appliquent à Windows Server 2003 et Windows XP. pour les suites de chiffrement pour Windows Server 2008 et Windows Vista, voir [suites de chiffrement dans Schannel](cipher-suites-in-schannel.md).
 
 Schannel prend en charge les versions 2,0 et 3,0 du [*protocole SSL (Secure Sockets Layer) (SSL)*](../secgloss/s-gly.md).
 
 > [!Note]  
-> À partir de Windows 10, version 1607 et Windows Server 2016, SSL 2,0 a été supprimé et n’est plus pris en charge.
+> à partir de Windows 10, version 1607 et Windows Server 2016, SSL 2,0 a été supprimé et n’est plus pris en charge.
 
  
 

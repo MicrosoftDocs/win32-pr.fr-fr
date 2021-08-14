@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26610d2c125e3877792b4df2b24b00b4a7beb897
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 603af1869e8f720f5c624aa99f48f02b3bfd7d49613096a9363a2584fa6ad333
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118424959"
 ---
 # <a name="mssfu-30-name-attribute"></a>attribut msSFU-30-Name
 
@@ -43,7 +43,7 @@ Contient le nom d’une carte.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

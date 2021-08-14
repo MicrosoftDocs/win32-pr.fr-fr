@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f9800f405c0002fb58ca68ebd2369eb068f6319a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a37876cd4f3d0fd7cab12fe55c9a6a152517a0c5530d3175b449f1e43770227c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119384239"
 ---
 # <a name="cdrawimagescalesourcerect-method"></a>Méthode CDrawImage. ScaleSourceRect
 
@@ -53,7 +53,7 @@ Pointeur vers un rectangle non mis à l’échelle.
 
 Retourne le rectangle mis à l’échelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans la classe **CDrawImage** , cette méthode retourne *pSource* sans aucune modification. Vous pouvez remplacer cette méthode si le filtre étire l’image vidéo entrante. Par exemple, la taille de la vidéo Native peut être 320 240, mais le type de média sur la broche d’entrée peut être 640 480. Dans ce cas, le filtre doit mettre à l’échelle le rectangle source d’un facteur de 2.
 
@@ -63,7 +63,7 @@ Dans la classe **CDrawImage** , cette méthode retourne *pSource* sans aucune mo
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

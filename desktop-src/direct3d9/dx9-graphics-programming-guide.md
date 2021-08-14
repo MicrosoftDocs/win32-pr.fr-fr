@@ -4,12 +4,12 @@ ms.assetid: 54c5f8de-a976-4a82-9a23-a7f6cffef5e1
 title: Guide de programmation pour Direct3D 9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be451422cca297b08f22f1a0eee19e4a1934187
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0b17800e4be7ddfada77e062cb842618ab341faaff096612100130cc5e49c2a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118523430"
 ---
 # <a name="programming-guide-for-direct3d-9"></a>Guide de programmation pour Direct3D 9
 
@@ -18,7 +18,7 @@ Ce guide contient une description du pipeline graphique implémenté par Microso
 -   [Prise en main](getting-started.md) : cette section contient une vue d’ensemble du pipeline et des didacticiels qui peuvent vous aider à obtenir une application graphique simple qui s’exécute en quelques minutes.
 -   [Effets](effects.md) : cette section traite des effets et des fichiers Effects permettant de créer des applications qui peuvent s’exécuter sur différentes plateformes matérielles.
 -   [Rubriques avancées](advanced-topics.md) : cette section contient des exemples de différents types d’effets spéciaux que vous pouvez implémenter. Des sujets tels que le mappage de l’environnement et du relief, l’anticrénelage, la fusion des sommets, l’interpolation, l’éclairage HDR (High dynamique Range) et le transfert luminance précalculé (PRT) montrent comment appliquer des effets spéciaux de pointe à votre application.
--   [Conseils de programmation](programming-tips.md) : cette section contient des informations pour vous aider à développer efficacement des applications graphiques Direct3D.
+-   [Astuces de programmation](programming-tips.md) -cette section contient des informations pour vous aider à développer efficacement des applications graphiques Direct3D.
 
 Pour plus d’informations sur les méthodes d’API spécifiques, consultez les pages de [référence](dx9-graphics-reference.md) .
 

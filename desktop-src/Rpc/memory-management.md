@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, décrit, gestion de la mémoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4992d957e24a61953b98d2861c675af3252d5516
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: eae15e488a1d2b9d9fc0be4aad3fae7e48078e64de39fd5c7d1fe75a17470244
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104102724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928395"
 ---
 # <a name="memory-management-rpc"></a>Gestion de la mémoire (RPC)
 
@@ -20,7 +20,7 @@ Les rubriques suivantes expliquent comment les programmes RPC allouent et libèr
 -   [Présentation de la gestion de la mémoire RPC](introduction-to-rpc-memory-management.md)
 -   [Comment la mémoire est allouée et désallouée](how-memory-is-allocated-and-deallocated.md)
 -   [Modèles de gestion de la mémoire](memory-management-models.md)
--   [Qui gère la mémoire ?](who-manages-memory-.md)
+-   [Qui Gère la mémoire ?](who-manages-memory-.md)
 -   [Mémoire orpheline](memory-orphaning.md)
 -   [Résumé des règles d’allocation de mémoire](summary-of-memory-allocation-rules.md)
 

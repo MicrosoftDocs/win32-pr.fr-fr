@@ -4,21 +4,21 @@ ms.assetid: 074f848e-4a42-48a2-adf7-4026b8967413
 title: Optimisations des performances (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d42be994522f0d83e36387b1a5866b3eee10df3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3e22ff22e3cde3673a1fc5ccd1da1bdccd95c6a094d670f59742178b28954773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104480689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118520426"
 ---
 # <a name="performance-optimizations-direct3d-9"></a>Optimisations des performances (Direct3D 9)
 
 Chaque développeur qui crée des applications en temps réel qui utilisent des graphiques 3D est préoccupé par l’optimisation des performances. Cette section fournit des instructions pour obtenir les meilleures performances de votre code.
 
--   [Conseils généraux sur les performances](#general-performance-tips)
+-   [Astuces de performances générales](#general-performance-tips)
 -   [Bases de données et élimination](#databases-and-culling)
 -   [Primitives de traitement par lot](#batching-primitives)
--   [Conseils d’éclairage](#lighting-tips)
+-   [Astuces d’éclairage](#lighting-tips)
 -   [Taille de la texture](#texture-size)
 -   [Transformations de matrice](#matrix-transforms)
 -   [Utilisation de textures dynamiques](#using-dynamic-textures)
@@ -26,7 +26,7 @@ Chaque développeur qui crée des applications en temps réel qui utilisent des 
 -   [Utilisation de maillages](#using-meshes)
 -   [Performances de la mémoire tampon Z](#z-buffer-performance)
 
-## <a name="general-performance-tips"></a>Conseils généraux sur les performances
+## <a name="general-performance-tips"></a>Astuces de performances générales
 
 -   Désactivez uniquement lorsque vous devez.
 -   Réduisez les modifications d’État et regroupez les modifications d’État restantes.
@@ -65,7 +65,7 @@ Vous devez conserver le nombre de polygones le plus bas que vous pouvez éventue
 
 Pour obtenir les meilleures performances de rendu lors de l’exécution, essayez d’utiliser des primitives dans des lots et gardez le nombre de modifications d’état de rendu aussi faible que possible. Par exemple, si vous avez un objet avec deux textures, regroupez les triangles qui utilisent la première texture et suivez l’état de rendu nécessaire pour modifier la texture. Regroupez ensuite tous les triangles qui utilisent la deuxième texture. La prise en charge matérielle la plus simple pour Direct3D est appelée avec des lots d’États de rendu et des lots de primitives via la couche d’abstraction matérielle (HAL). Plus les instructions sont traitées par lot, moins le nombre d’appels de la couche HAL est élevé pendant l’exécution.
 
-## <a name="lighting-tips"></a>Conseils d’éclairage
+## <a name="lighting-tips"></a>Astuces d’éclairage
 
 Étant donné que les lumières ajoutent un coût par vertex à chaque image rendue, vous pouvez améliorer considérablement les performances en veillant à la façon dont vous les utilisez dans votre application. La plupart des conseils suivants dérivent du maximiser, « le code le plus rapide est le code qui n’est jamais appelé ».
 
@@ -229,7 +229,7 @@ Les applications peuvent améliorer les performances lors de l’utilisation de 
 
 <dl> <dt>
 
-[Conseils de programmation](programming-tips.md)
+[Astuces de programmation](programming-tips.md)
 </dt> </dl>
 
  

@@ -3,12 +3,12 @@ description: Spécifie si le IMFTransform utilise le matériel DRM.
 title: MFT_USING_HARDWARE_DRM (Mftransform.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e6dbacedbf5fd9298e4da5154bd82fcc9f39bde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3b46760fd5759abdd601269f5905f0649145649713839de5fe6424bc36219c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118473549"
 ---
 # <a name="mft_using_hardware_drm-attribute"></a>MFT \_ utilisant \_ l' \_ attribut DRM matériel
 
@@ -28,7 +28,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/w
 
 [**IMTransfrom**](/windows/win32/api/mftransform/nn-mftransform-imftransform)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si un Decrypter MFT spécifie que cet attribut a la valeur 1, il utilise le service DRM matériel. Si un Decrypter MFT spécifie que cet attribut a la valeur 0, il n’utilise pas de DRM matériel. Si un Decrypter MFT ne spécifie pas cet attribut ou le spécifie avec une valeur différente, alors il n’est pas (ou n’est pas possible) d’indiquer s’il utilise la DRM matérielle.
 
@@ -41,8 +41,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Mise à jour 2020 de Windows 10 avril   <br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | Windows 10 Mise à jour d’avril 2020   <br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 651138eb687cfd83406bc6e1a7fcf520ff001171
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 71bc0502d45e4092decfe1b712ed11f75a02bf50d112436ad1d21f9e02c17e72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118221020"
 ---
 # <a name="ishelldispatch2servicestop-method"></a>Méthode IShellDispatch2. ServiceStop
 
@@ -69,7 +69,7 @@ Affectez la valeur **true** pour que le service soit démarré par le gestionnai
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -83,7 +83,7 @@ Type : **variante \***
 
 Retourne la **valeur true** en cas de réussite ; Sinon, **false**.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. ServiceStop**](./shell-servicestop.md) .
 
@@ -93,9 +93,9 @@ Cette méthode n’est pas disponible actuellement dans Microsoft Visual Basic.
 
 ## <a name="examples"></a>Exemples
 
-Les exemples suivants illustrent l’utilisation de **ServiceStop** pour arrêter le service Messenger. L’utilisation est indiquée pour JScript et VBScript.
+Les exemples suivants illustrent l’utilisation de **ServiceStop** pour arrêter le service Messenger. l’utilisation est indiquée pour JScript et VBScript.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -138,8 +138,8 @@ VBScript
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 5,0 ou ultérieure)</dt> </dl> |

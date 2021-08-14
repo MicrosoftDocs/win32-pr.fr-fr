@@ -4,12 +4,12 @@ description: Du point de vue du développement de programme serveur, un handle d
 ms.assetid: 6a1aabca-4cb9-401c-90c7-0cff7a69b7b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f743a4a6aa4a2aa7b6987bb54dc56e55cffbc76
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: db05441f7314fba628d1ec07db5f99266c595c84e672ada976b38f7576ab5d1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925335"
 ---
 # <a name="server-development-using-context-handles"></a>Développement de serveurs à l’aide de handles de contexte
 
@@ -115,11 +115,11 @@ void RemoteClose(PPCONTEXT_HANDLE_TYPE pphContext)
 > [!Note]  
 > Bien qu’il soit attendu, le client passe un handle de contexte valide à un appel avec \[ in, out \] Attributes, RPC ne rejette pas les handles de contexte **null** pour cette combinaison d’attributs directionnels. Le descripteur de contexte **null** est passé au serveur en tant que pointeur **null** . Le code serveur pour les appels contenant un \[ handle de contexte in, out \] doit être écrit pour éviter une violation d’accès lors de la réception d’un pointeur **null** .
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

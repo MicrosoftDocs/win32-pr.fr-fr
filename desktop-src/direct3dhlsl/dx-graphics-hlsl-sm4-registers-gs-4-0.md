@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9c5db86ffb797434af4badd6496b71a4ad684583
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a27cbd13cba06ebb05fe1155bc97d13debe3154da48c05cf97a31d889ba88fbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118513622"
 ---
 # <a name="registers---gs_4_0"></a>Registres-GS \_ 4 \_ 0
 
@@ -37,7 +37,7 @@ Cette section contient des informations de référence pour les registres d’en
 
 
 
- 
+ 
 
 ## <a name="output-registers"></a>Registres de sortie
 
@@ -50,7 +50,7 @@ Cette section contient des informations de référence pour les registres d’en
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -59,9 +59,9 @@ Cette section contient des informations de référence pour les registres d’en
 [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

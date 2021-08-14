@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c86a29c4a7d01fad3b91db20035cb84751e0b78a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 8af53b6617ad2d655367969195e16854715e9ab75b65416bd9c75deaa9932988
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118219815"
 ---
 # <a name="search-folder-sample"></a>Recherche dans un dossier, exemple
 
@@ -23,7 +23,7 @@ Montre comment créer une recherche avec des contraintes de requête à l’aide
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -32,7 +32,7 @@ Cette rubrique contient les sections suivantes.
 
 Cet exemple montre comment créer une recherche avec restriction à l’aide de l’interface [**ISearchFolderItemFactory**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory) pour construire un élément de Shell de dossier (un conteneur) qui représente la requête. Les résultats s’affichent à l’aide de la boîte de dialogue Ouvrir un fichier.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

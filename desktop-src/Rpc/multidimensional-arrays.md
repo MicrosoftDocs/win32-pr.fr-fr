@@ -4,12 +4,12 @@ description: Les attributs de tableau peuvent également être utilisés avec de
 ms.assetid: a01b904c-fbe8-4af4-8393-6864f7ef7364
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eb7bcf94d97e1f35fdd6ab432ea5869e47f79ed
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 52f7dac2b6d093fa56383ecaf976a83acf13fec9aa0c3820c1d608ccb69e9e9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928080"
 ---
 # <a name="multidimensional-arrays"></a>Tableaux multidimensionnels
 
@@ -38,7 +38,7 @@ La méthode entièrement interprétée marshale les données complètement hors 
 > [!Caution]  
 > Soyez prudent lors de la compilation des fichiers IDL dans ce mode. L’utilisation de tableaux multidimensionnels en mode mixte peut entraîner des paramètres qui ne sont pas correctement marshalés. Le commutateur de ligne de commande [**/Oicf**](/windows/desktop/Midl/-oi) est recommandé quand votre interface définit des paramètres qui sont des tableaux multidimensionnels.
 
- 
+ 
 
 L' \[ [](/windows/desktop/Midl/string) \] attribut de chaîne peut également être utilisé avec des tableaux multidimensionnels. L’attribut s’applique à la dimension la moins significative, telle qu’un tableau de chaînes conforme. Vous pouvez également utiliser des attributs de pointeur multidimensionnel. Par exemple :
 
@@ -66,6 +66,6 @@ Comparez ceci à l’instruction non valide suivante :
 
 `long a1[20] []`
 
- 
+ 
 
- 
+ 

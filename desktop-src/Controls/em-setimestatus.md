@@ -3,7 +3,7 @@ title: Message EM_SETIMESTATUS (winuser. h)
 description: Définit les indicateurs d’État qui déterminent le mode d’interaction d’un contrôle d’édition avec l’éditeur de méthode d’entrée (IME).
 ms.assetid: 3de2e8b5-bdd8-4b25-9427-38a11b77a17a
 keywords:
-- EM_SETIMESTATUS les contrôles de message Windows
+- EM_SETIMESTATUS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e896c358281b2d4b5012fe13003720e0d008e6a4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb5a3e5413c577fcecd89ebb27bc61e5fff31f7e71b3ec7e6da67523d6ee9392
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412396"
 ---
 # <a name="em_setimestatus-message"></a>\_Message SETIMESTATUS em
 
@@ -69,7 +69,7 @@ Données spécifiques au type d’État. Si *wParam* est **EMSIS \_ COMPOSITIONS
 
 Retourne la valeur précédente du paramètre *lParam* .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Modification riche :** Le **message \_ SETIMESTATUS em** n’est pas pris en charge.
 
@@ -79,8 +79,8 @@ Retourne la valeur précédente du paramètre *lParam* .
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

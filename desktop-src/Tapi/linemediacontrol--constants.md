@@ -4,12 +4,12 @@ ms.assetid: 1e8aeda8-2810-462a-bfba-0296d854d9aa
 title: Constantes LINEMEDIACONTROL_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3241a3b5f4f8a0363f30ce7aefaded0c63fc4189
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f54c7c83df769eef91afe7c310452c342a855f44391815bbc4429ac07bb6ec92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119309969"
 ---
 # <a name="linemediacontrol_-constants"></a>\_Constantes LINEMEDIACONTROL
 
@@ -125,7 +125,7 @@ L’amplitude du flux multimédia est augmentée par une quantité définie par 
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les 16 bits de poids fort peuvent être affectés pour les extensions spécifiques à l’appareil. Les 16 bits de poids faible sont réservés.
 
