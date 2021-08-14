@@ -15,18 +15,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d53d126d9419f87d91b027b0d69847f67de84be6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fb9be0e4cf5c0395efa93d308fdfa45362a7ac8919ab49a108700106aff6081b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989819"
 ---
 # <a name="itssbtargetex-interface"></a>Interface ITsSbTargetEx
 
 Expose les propriétés qui stockent les informations de configuration et d’état d’une cible.
 
-Cette interface est uniquement disponible sur Windows Server 2012 R2 avec [KB3091411](https://support.microsoft.com/kb/3091411) installé. La propriété [**TargetLoad**](itssbtarget-targetload.md) de l’interface [**ITsSbTarget**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget) est disponible à partir de Windows Server 2016.
+cette interface est uniquement disponible sur Windows Server 2012 R2 avec [KB3091411](https://support.microsoft.com/kb/3091411) installé. La propriété [**TargetLoad**](itssbtarget-targetload.md) de l’interface [**ITsSbTarget**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget) est disponible à partir de Windows Server 2016.
 
 ## <a name="members"></a>Membres
 

@@ -4,12 +4,12 @@ ms.assetid: d27003b4-f30a-4c48-b32f-933b2f29182a
 title: System. photo. ExposureProgram
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07e0678f4316cf5aee9c5e13b26518208bf546c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1c7c537255c235082402c71d784ab75b20202a085228c8631b68bc77ddd0a5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118229974"
 ---
 # <a name="systemphotoexposureprogram"></a>System. photo. ExposureProgram
 
@@ -130,7 +130,7 @@ propertyDescription
             defineName = PHOTO_EXPOSUREPROGRAM_LANDSCAPE
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

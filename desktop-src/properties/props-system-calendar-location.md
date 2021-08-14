@@ -4,12 +4,12 @@ ms.assetid: 014d4c90-f029-479a-bdc9-c1ef5c9e3529
 title: System. Calendar. Location
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d4695bbedf0cce3a9781c1dea8c088d60ede483
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6171691452d0d2196bbc3f789ad0af017cbc9fe245bc2bf6f72f66013cfb618d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106538873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731019"
 ---
 # <a name="systemcalendarlocation"></a>System. Calendar. Location
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

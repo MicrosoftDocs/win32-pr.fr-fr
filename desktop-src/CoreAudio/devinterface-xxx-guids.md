@@ -4,12 +4,12 @@ ms.assetid: 2503463B-D7C6-4C82-8421-424D79FD1C2A
 title: GUID de DEVINTERFACE_XXX (MMDeviceAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 796f113d26ebc351a4d576ed76485d24d89fdb04
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2cef6a105ed8e34519a2ca0a06d9d4f43a7aa91495fae9f54eedfa44d79b043c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406792"
 ---
 # <a name="devinterface_xxx-guids"></a>\_GUID DEVINTERFACE xxx
 

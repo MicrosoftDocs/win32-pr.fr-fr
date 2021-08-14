@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: a35662c3df0e0fcddae049ccfaac2d9e3e265ee3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ec8f4c88ea01aad410e982fc24fd248f3c1826d8c8657e904844b535e621fd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118719181"
 ---
 # <a name="explorer-command-verb-sample"></a>ExplorerCommand, exemple de verbe
 
@@ -22,12 +22,12 @@ Montre comment implémenter un verbe d’interpréteur de commandes à l’aide 
 
 Cette rubrique contient les sections suivantes.
 
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -53,17 +53,17 @@ Pour générer l’exemple à partir de l’invite de commandes :
 1.  Ouvrez la fenêtre d’invite de commandes et accédez au répertoire du projet **ExplorerCommandVerb** .
 2.  Entrez `msbuild ExplorerCommandVerb.sln`.
 
-Pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
+pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
 
-1.  Ouvrez l’Explorateur Windows et accédez au répertoire du projet **ExplorerCommandVerb** .
+1.  ouvrez Windows Explorer et accédez au répertoire du projet **ExplorerCommandVerb** .
 2.  Double-cliquez sur l’icône du fichier ExplorerCommandVerb. sln pour ouvrir le projet dans Visual Studio.
-3.  Dans le menu **générer** , sélectionnez **générer la solution**.
+3.  Dans le menu **Générer**, sélectionnez **Générer la solution**.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 
-1.  Accédez au répertoire qui contient le ExplorerCommandVerb.dll à l’aide de l’invite de commandes ou de l’Explorateur Windows. Veillez à utiliser le fichier DLL 64 bits sur Windows 64 bits.
+1.  accédez au répertoire qui contient le ExplorerCommandVerb.dll à l’aide de l’invite de commandes ou de l’explorateur de Windows. Veillez à utiliser le fichier DLL 64 bits sur le Windows 64 bits.
 2.  Sur la ligne de commande, entrez `regsvr32.exe ExplorerCommandVerb.dll` .
-3.  Deux nouveaux verbes s’affichent dans le menu contextuel lorsque vous cliquez avec le bouton droit sur un fichier. txt.
+3.  Deux nouveaux verbes s’affichent dans le menu contextuel lorsque vous cliquez avec le bouton droit sur un fichier de .txt.
 
  
 

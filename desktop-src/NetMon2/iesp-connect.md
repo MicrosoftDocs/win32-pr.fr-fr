@@ -1,7 +1,7 @@
 ---
-description: La méthode Connect connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration sur la connexion.
+description: la méthode Connecter connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration sur la connexion.
 ms.assetid: 48189b2b-9889-4bd8-8972-26005fb7c341
-title: 'IESP :: Connect, méthode (NetMon. h)'
+title: 'IESP :: Connecter, méthode (Netmon. h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 4fc9c88b0eb4671c61f268c5857dceba3dc500f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2095f25128e524b32b8ad8561ee85119537c32be5e61f77d5c72637396a2183
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118365607"
 ---
-# <a name="iespconnect-method"></a>IESP :: Connect, méthode
+# <a name="iespconnect-method"></a>IESP :: Connecter, méthode
 
-La méthode **Connect** connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration sur la connexion.
+la méthode **Connecter** connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration sur la connexion.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -101,7 +101,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>NMERR_BLOB_ENTRY_DOES_NOT_EXIST</strong></dt> </dl></td>
-<td>L’objet BLOB d’entrée spécifié par le paramètre <em>hInputBlob</em> n’a pas d’entrée nécessaire pour effectuer cette opération. Cette erreur peut être générée par l’appel de <strong>IESP :: Connect</strong> ou <strong>IESP :: configure</strong> . Examinez l’objet BLOB d’erreur retourné par <em>hErrorBlob</em> pour déterminer quelle entrée est introuvable.<br/></td>
+<td>L’objet BLOB d’entrée spécifié par le paramètre <em>hInputBlob</em> n’a pas d’entrée nécessaire pour effectuer cette opération. cette erreur peut être générée par l’appel de <strong>IESP :: Connecter</strong> ou <strong>IESP :: configure</strong> . Examinez l’objet BLOB d’erreur retourné par <em>hErrorBlob</em> pour déterminer quelle entrée est introuvable.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>NMERR_BLOB_NOT_INITIALIZED</strong></dt> </dl></td>
@@ -143,9 +143,9 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Lorsque la méthode **Connect** est appelée, moniteur réseau appelle automatiquement **IESP :: configure** à l’aide de l’objet BLOB fourni par le paramètre *hInputBlob* . Notez que les codes d’erreur retournés par l’appel à **IESP :: configure** sont passés en retour et retournés par l’appel de **IESP :: Connect** .
+lorsque la méthode **Connecter** est appelée, Moniteur réseau appelle automatiquement **IESP :: configure** à l’aide de l’objet BLOB fourni par le paramètre *hInputBlob* . notez que les codes d’erreur retournés par l’appel à **IESP :: configure** sont passés en retour et retournés par l’appel de **IESP :: Connecter** .
 
 Cette méthode doit être appelée avant que vous ne puissiez commencer à capturer des frames. Notez que lorsque vous vous connectez au réseau à l’aide de cette méthode, vous devez continuer à utiliser l’interface **IESP** pour capturer des frames.
 

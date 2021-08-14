@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d12c0fbd296610174c8b8363602288f59fcb9714
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f4eaf3019ad46599fe572cdc403738d281f97eecd0b09752cdcc35335abb856
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118224063"
 ---
 # <a name="folderitemgetlink-property"></a>FolderItem. GetLink, propriété
 
@@ -41,9 +41,9 @@ Variable de type [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) qu
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **GetLink** pour récupérer l’objet [**ShellLinkObject**](shelllinkobject-object.md) pour un raccourci vers Internet Explorer. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant utilise **GetLink** pour récupérer l’objet [**ShellLinkObject**](shelllinkobject-object.md) pour un raccourci vers Internet Explorer. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -157,13 +157,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

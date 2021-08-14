@@ -4,12 +4,12 @@ ms.assetid: 8eadbd42-3538-412e-9bf8-b2355d23437e
 title: Prédicats d’étendue et de répertoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2418b2149a5bf05bd000460c787b7f967856c5c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f221ba4048f1ab7f5096321cc00aed209acb5ca3e5616e6e6a4fbbc516dfc28b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462468"
 ---
 # <a name="scope-and-directory-predicates"></a>Prédicats d’étendue et de répertoire
 
@@ -22,7 +22,7 @@ Les prédicats de profondeur de dossier contrôlent l’étendue d’une recherc
 
 
 
-Le prédicat est suivi d’un signe égal. Le chemin d’accès est indiqué entre guillemets simples et doit commencer par un protocole et un signe deux-points (par exemple,, `file:` `mapi:` ou `csc:` ). Le prédicat SCOPE effectue une traversée profonde du chemin d’accès, y compris tous les sous-dossiers, tandis que le prédicat de répertoire effectue un parcours superficiel uniquement du dossier spécifié. À l’instar des autres restrictions de langage SQL (SQL), vous pouvez spécifier plusieurs restrictions de profondeur de dossier dans une seule requête.
+Le prédicat est suivi d’un signe égal. Le chemin d’accès est indiqué entre guillemets simples et doit commencer par un protocole et un signe deux-points (par exemple,, `file:` `mapi:` ou `csc:` ). Le prédicat SCOPE effectue une traversée profonde du chemin d’accès, y compris tous les sous-dossiers, tandis que le prédicat de répertoire effectue un parcours superficiel uniquement du dossier spécifié. à l’instar des autres restrictions de langage SQL (SQL), vous pouvez spécifier plusieurs restrictions de profondeur de dossier dans une seule requête.
 
 Pour interroger le catalogue local d’un ordinateur distant, incluez le nom de l’ordinateur avant le catalogue et un chemin d’accès UNC (Universal Naming Convention) sur l’ordinateur distant dans la clause SCOPE ou DIRECTORY.
 

@@ -1,19 +1,19 @@
 ---
-description: Le modèle de sécurité Windows permet aux appelants du gestionnaire de transactions KTM (Kernel Transaction Manager) de contrôler l’accès aux objets transaction, gestionnaire de transactions, gestionnaire de ressources et inscription.
+description: le modèle de sécurité Windows permet aux appelants du gestionnaire de transactions KTM (kernel transaction manager) de contrôler l’accès aux objets transaction, gestionnaire de transactions, gestionnaire de ressources et inscription.
 ms.assetid: c9d51d4d-9f07-44d6-a2e1-4a47367cc4ae
 title: Sécurité KTM et droits d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed4e42c9aaf8498ff16ebd1d32f539fef5b54b17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d0baf273b45a886e40c731c44c261f836fdc0b79012f906a1b4adfe07083be8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118388890"
 ---
 # <a name="ktm-security-and-access-rights"></a>Sécurité KTM et droits d’accès
 
-Le modèle de sécurité Windows permet aux appelants du gestionnaire de transactions KTM (Kernel Transaction Manager) de contrôler l’accès aux objets transaction, gestionnaire de transactions, gestionnaire de ressources et inscription. Pour plus d’informations, consultez [modèle de contrôle d’accès](/windows/desktop/SecAuthZ/access-control-model). Pour les applications qui ne sont pas concernées par la sécurité, les transactions peuvent être créées avec des listes de contrôle d’accès (ACL) permissive qui permettent à n’importe quel gestionnaire de ressources de s’inscrire sur une transaction.
+le modèle de sécurité Windows permet aux appelants du gestionnaire de transactions KTM (kernel transaction manager) de contrôler l’accès aux objets transaction, gestionnaire de transactions, gestionnaire de ressources et inscription. Pour plus d’informations, consultez [modèle de contrôle d’accès](/windows/desktop/SecAuthZ/access-control-model). Pour les applications qui ne sont pas concernées par la sécurité, les transactions peuvent être créées avec des listes de contrôle d’accès (ACL) permissive qui permettent à n’importe quel gestionnaire de ressources de s’inscrire sur une transaction.
 
 ## <a name="transactions"></a>Transactions
 

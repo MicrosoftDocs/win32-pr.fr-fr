@@ -3,7 +3,7 @@ title: Message WM_CTLCOLORBTN (winuser. h)
 description: Le \_ message WM CTLCOLORBTN est envoyé à la fenêtre parente d’un bouton avant de dessiner le bouton. La fenêtre parente peut modifier le texte du bouton et les couleurs d’arrière-plan. Toutefois, seuls les boutons owner-drawn répondent à la fenêtre parente qui traite ce message.
 ms.assetid: fd2ab917-ffd6-4f71-9b1c-0ecdfe53ae8b
 keywords:
-- WM_CTLCOLORBTN les contrôles de message Windows
+- WM_CTLCOLORBTN les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfdaed4682cbd87bfd86d7829f7c828494ec46fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c5689d7c76499f1ed180f76831af325c5e311bf06e052ea1446805c39ddf8642
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118407638"
 ---
 # <a name="wm_ctlcolorbtn-message"></a>\_Message WM CTLCOLORBTN
 
@@ -57,7 +57,7 @@ WM_CTLCOLORBTN
 
 Si une application traite ce message, elle doit retourner un handle à un pinceau. Le système utilise le pinceau pour peindre l’arrière-plan du bouton.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’application retourne un pinceau qu’elle a créée (par exemple, à l’aide de la fonction [**CreateSolidBrush**](/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush) ou [**CreateBrushIndirect**](/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect) ), l’application doit libérer le pinceau. Si l’application retourne un pinceau système (par exemple, un pinceau qui a été récupéré par la fonction [**GetStockObject**](/windows/desktop/api/wingdi/nf-wingdi-getstockobject) ou [**GetSysColorBrush**](/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush) ), l’application n’a pas besoin de libérer le pinceau.
 
@@ -75,8 +75,8 @@ Si une procédure de boîte de dialogue gère ce message, elle doit effectuer un
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

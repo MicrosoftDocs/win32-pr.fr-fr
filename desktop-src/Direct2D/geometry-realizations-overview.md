@@ -4,12 +4,12 @@ description: Cette rubrique explique comment utiliser la réalisation de la géo
 ms.assetid: E8C4C4E5-3102-4F53-847E-A4C2D12A6921
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b903e047ee58a803a7584aaca407281fc803e30
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5108537e9ea9b38bebaab590178d990b44e611e56e82690e9d91ad9b56c19372
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106538595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119260132"
 ---
 # <a name="geometry-realizations-overview"></a>Vue d’ensemble des réalisations géométriques
 
@@ -30,7 +30,7 @@ Il contient les sections suivantes :
 
 ## <a name="what-are-geometry-realizations"></a>Qu’est-ce que la réalisation de géométrie ?
 
-Les réalisations géométriques, introduites dans Windows 8.1, sont un nouveau type de primitive de dessin qui permet aux applications [Direct2D](direct2d-portal.md) d’améliorer les performances de rendu de géométrie dans certains cas. Les réalisations géométriques sont représentées par l’interface [**ID2D1GeometryRealization**](/windows/win32/api/d2d1_2/nn-d2d1_2-id2d1geometryrealization) .
+les réalisations géométriques, introduites dans Windows 8.1, sont un nouveau type de primitive de dessin qui permet aux applications [Direct2D](direct2d-portal.md) d’améliorer les performances de rendu de géométrie dans certains cas. Les réalisations géométriques sont représentées par l’interface [**ID2D1GeometryRealization**](/windows/win32/api/d2d1_2/nn-d2d1_2-id2d1geometryrealization) .
 
 ## <a name="why-use-geometry-realizations"></a>Pourquoi utiliser des réalisations géométriques ?
 
@@ -65,7 +65,7 @@ Lors de la création d’une réalisation géométrique, [Direct2D](direct2d-por
 > [!Note]  
 > Les objets de réalisation Geometry sont associés à un appareil graphique particulier : il s’agit de ressources dépendantes de l’appareil.
 
- 
+ 
 
 ## <a name="drawing-geometry-realizations"></a>Dessin des réalisations géométriques
 
@@ -133,7 +133,7 @@ En outre, l’application crée toujours des réalisations à l’aide d’une t
 > [!Note]  
 > L’approche décrite ici peut ne pas convenir à toutes les applications. Par exemple, si votre application permet la mise à l’échelle de la scène par de très grands facteurs très rapidement (par exemple, si elle contient un curseur « Zoom » qui peut être déplacé de 100% à 1 million% dans l’étendue de quelques frames), cette approche peut entraîner un excès de travail en recréant la géométrie qui effectue chaque trame. Une autre approche consiste à recréer les réalisations géométriques uniquement après que chaque manipulation de l’échelle de la scène est terminée (par exemple, une fois que l’utilisateur a terminé un geste de pincement).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 

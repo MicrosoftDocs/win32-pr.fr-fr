@@ -9,16 +9,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: de7de81b26a1970bbecde76729be2f1c84e6c067
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d9118d51721165860d6132cb7f0fc91a0ac95e7a9d92446df27076a625c83b68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118405203"
 ---
 # <a name="pwm-control-codes"></a>Codes de contrôle PWM
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Cette rubrique répertorie les IOCTL pour la modulation d’impulsions en largeur.
 

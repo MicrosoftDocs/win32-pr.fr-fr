@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d51cdcbecb5386acb1a97d933be8b25f68720ee
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: aa8bc01a978949ec0f0cc4ff78289a1cb442046966f1cea954c6b65cc232f563
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104100972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118385776"
 ---
 # <a name="d-switch"></a>Commutateur/d
 
@@ -45,7 +45,7 @@ Spécifie une valeur associée au nom défini.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’espace blanc entre le commutateur **/d** et le nom défini est facultatif.
 
@@ -79,9 +79,9 @@ Le commutateur du compilateur MIDL **/d** est ignoré lorsque le commutateur du 
 [**/U.**](-u.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -45,12 +45,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c5c07213a2d2a3a1b64621dbc40f707b0900703
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4a795195af94e248f304747ba7edcf4f7a55e11e051e1cb66937242de1d732bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118427625"
 ---
 # <a name="iadssecuritydescriptor-property-methods"></a>Méthodes de propriété IADsSecurityDescriptor
 
@@ -91,7 +91,7 @@ HRESULT put_Control(
 **DaclDefaulted**
 </dt> <dd> <dl>
 
-Indicateur du type BOOL qui indique si la liste DACL est dérivée d’un mécanisme par défaut, plutôt que d’être fournie explicitement par le fournisseur d’origine du descripteur de sécurité. Par exemple, si le créateur d’un objet ne spécifie pas de liste DACL, l’objet reçoit la DACL par défaut à partir du jeton d’accès du créateur. Cet indicateur peut affecter la façon dont le système traite la liste DACL, en ce qui concerne l’héritage de l’entrée du contrôle d’accès. Le système ignore cet indicateur si l' \_ indicateur de \_ présence DACL se présente n’est pas défini.
+Indicateur du type BOOL qui indique si la liste DACL est dérivée d’un mécanisme par défaut, plutôt que d’être fournie explicitement par le fournisseur d’origine du descripteur de sécurité. Par exemple, si le créateur d’un objet ne spécifie pas de liste DACL, l’objet reçoit la DACL par défaut à partir du jeton d’accès du créateur. Cet indicateur peut affecter la façon dont le système traite la liste DACL, en ce qui concerne l’héritage de l’entrée du contrôle d’accès. le système ignore cet indicateur si l’indicateur de SE \_ DACL \_ présent n’est pas défini.
 
 <dt>
 
@@ -287,7 +287,7 @@ HRESULT put_Revision(
 **SaclDefaulted**
 </dt> <dd> <dl>
 
-Indicateur du type BOOL qui indique que la liste SACL est dérivée d’un mécanisme par défaut, plutôt que d’être explicitement fournie par le fournisseur d’origine du descripteur de sécurité. Cet indicateur peut affecter la façon dont le système gère la liste SACL, en ce qui concerne l’héritage de l’entrée du contrôle d’accès. Le système ignore cet indicateur si l' \_ indicateur de \_ présence SACL se présente n’est pas défini.
+Indicateur du type BOOL qui indique que la liste SACL est dérivée d’un mécanisme par défaut, plutôt que d’être explicitement fournie par le fournisseur d’origine du descripteur de sécurité. Cet indicateur peut affecter la façon dont le système gère la liste SACL, en ce qui concerne l’héritage de l’entrée du contrôle d’accès. le système ignore cet indicateur si le SE \_ \_ indicateur de présence SACL n’est pas défini.
 
 <dt>
 

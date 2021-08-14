@@ -7,16 +7,16 @@ MSHAttr:
 title: MmsMaximumMessageSize
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c5b020e7fd6ad4f39bd488c3af0ef14a3aab1eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02dc048e92cac37e4c51a323447aded351460db034047f33a41b26ca0209e8d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118744835"
 ---
 # <a name="span-idwwan_profile_v4element_mmsmaximummessagesizespanmmsmaximummessagesize"></a><span id="WWAN_profile_v4.element_MmsMaximumMessageSize"></span>MmsMaximumMessageSize
 
-Spécifie la taille maximale, en kilo-octets, des messages MMS. Optionnel.
+Spécifie la taille maximale, en kilo-octets, des messages MMS. Facultatif.
 
 ## <a name="element-hierarchy"></a>Hiérarchie d’éléments
 
@@ -38,11 +38,11 @@ Spécifie la taille maximale, en kilo-octets, des messages MMS. Optionnel.
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributs
 
-Aucun
+Aucune.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Éléments enfants
 
-Aucun
+Aucune.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Éléments parents
 

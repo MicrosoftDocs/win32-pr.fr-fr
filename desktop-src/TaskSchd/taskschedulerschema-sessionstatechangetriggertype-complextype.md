@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a8eb3ad02aef3f5bbbc078f8eafa52f3439819cc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e9779ae2f609f721e4417dc08698e9720bd4cbe03c2b59787edcf862c8d284d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990939"
 ---
 # <a name="sessionstatechangetriggertype-complex-type"></a>Type complexe sessionStateChangeTriggerType
 
@@ -57,7 +57,7 @@ Définit les éléments utilisés pour créer un déclencheur de tâche pour la 
 
 | Élément                                                                                      | Type                                                                                    | Description                                                                                                                                           |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Retard**](taskschedulerschema-delay-sessionstatechangetriggertype-element.md)             | duration                                                                                | Spécifie une valeur qui indique la durée du délai avant le démarrage d’une tâche lorsqu’une modification d’état de session Terminal Server est détectée.<br/> |
+| [**Retarder**](taskschedulerschema-delay-sessionstatechangetriggertype-element.md)             | duration                                                                                | Spécifie une valeur qui indique la durée du délai avant le démarrage d’une tâche lorsqu’une modification d’état de session Terminal Server est détectée.<br/> |
 | [**StateChange**](taskschedulerschema-statechange-sessionstatechangetriggertype-element.md) | [**sessionStateChangeType**](taskschedulerschema-sessionstatechangetype-simpletype.md) | Spécifie le type de Terminal Server modification de session qui déclencherait un lancement de tâche.<br/>                                                     |
 | [**IDutilisateur**](taskschedulerschema-userid-sessionstatechangetriggertype-element.md)           | [**nonEmptyString**](taskschedulerschema-nonemptystring-simpletype.md)                 | Spécifie l’utilisateur pour la session de Terminal Server. Lorsqu’une modification d’état de session est détectée pour cet utilisateur, une tâche est démarrée.<br/>              |
 
@@ -69,8 +69,8 @@ Définit les éléments utilisés pour créer un déclencheur de tâche pour la 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

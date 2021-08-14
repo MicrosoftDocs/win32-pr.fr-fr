@@ -1,19 +1,19 @@
 ---
-description: Le schéma de profil d’analyse définit un format XML qui peut être utilisé pour stocker les propriétés des éléments d’acquisition d’images Windows (WIA), tels que les scanneurs et les appareils photo.
+description: le schéma de profil d’analyse définit un format XML qui peut être utilisé pour stocker les propriétés des éléments d’Acquisition d’images Windows (WIA), tels que les scanneurs et les appareils photo.
 ms.assetid: e0848db3-652a-45be-a18b-99b82420c586
 title: Analyser le schéma de profil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 331c52e933e1e6b771c477bdc8a38f1c5f749448
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81091e75269206b6b3b5a89f86c6f92da5c1d2080d90382ac6af48c6d1cc32ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118208015"
 ---
 # <a name="scan-profile-schema"></a>Analyser le schéma de profil
 
-Le schéma de profil d’analyse définit un format XML qui peut être utilisé pour stocker les propriétés des éléments d’acquisition d’images Windows (WIA), tels que les scanneurs et les appareils photo. Ces fichiers persistants permettent aux applications de fournir une analyse automatique sans demander aux utilisateurs de mémoriser les paramètres de propriété des éléments.
+le schéma de profil d’analyse définit un format XML qui peut être utilisé pour stocker les propriétés des éléments d’Acquisition d’images Windows (WIA), tels que les scanneurs et les appareils photo. Ces fichiers persistants permettent aux applications de fournir une analyse automatique sans demander aux utilisateurs de mémoriser les paramètres de propriété des éléments.
 
 Tout appareil [**IWiaItem2**](-wia-iwiaitem2.md) peut avoir un profil de numérisation. Toutefois, les éléments **IWiaItem2** de type WIA la \_ catégorie \_ \_ fichier fini et la racine de catégorie WIA \_ \_ ne peuvent pas avoir de profils.
 

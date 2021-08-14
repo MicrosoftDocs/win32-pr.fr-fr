@@ -3,7 +3,7 @@ title: RBN_DELETINGBAND le code de notification (commctrl. h)
 description: Envoyé par un contrôle rebar lorsqu’une bande va être supprimée. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 92840cb1-375e-4c37-bde4-7ba02a1ff4f1
 keywords:
-- Contrôles Windows de code de notification RBN_DELETINGBAND
+- RBN_DELETINGBAND les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf810fd8800d7774a0dbf9a65cdf08c2d53d92ba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6174bec0ad2ca659182330bd8da22e078df61c5f09b15cf9027e0092e1f0f339
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985069"
 ---
 # <a name="rbn_deletingband-notification-code"></a>\_Code de notification RBN DELETINGBAND
 
@@ -55,8 +55,8 @@ La valeur de retour de cette notification n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -1,5 +1,5 @@
 ---
-title: Interfaces de contrôle ActiveX Bureau à distance
+title: interfaces de contrôle de ActiveX Bureau à distance
 description: Interfaces que vous pouvez utiliser pour créer et déployer des canaux virtuels scriptables dans des applications Web Services Bureau à distance.
 ms.assetid: 8258411e-eef6-4dcf-a7a2-7d04b0ea3744
 ms.tgt_platform: multiple
@@ -8,16 +8,16 @@ keywords:
 - Services Bureau à distance protocole RDP (Remote Desktop Protocol) (RDP), interfaces
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a80c80dcf9799efe2eb5609f54142fd0780cfe54
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: feac7c2ab5d836191f5321d87fafc50350f1d5713bf18cb27dbb879aff127271
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988669"
 ---
-# <a name="remote-desktop-activex-control-interfaces"></a>Interfaces de contrôle ActiveX Bureau à distance
+# <a name="remote-desktop-activex-control-interfaces"></a>interfaces de contrôle de ActiveX Bureau à distance
 
-Le contrôle ActiveX Bureau à distance prend en charge les interfaces scriptables et non scriptées suivantes, qui sont regroupées en fonction de la hiérarchie d’héritage.
+le contrôle Bureau à distance ActiveX prend en charge les interfaces scriptable et non scriptées suivantes, qui sont regroupées en fonction de la hiérarchie d’héritage.
 
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -131,70 +131,70 @@ Gère les paramètres client avancés. Dérive de l’interface [**IMsRdpClientA
 [**IMsRdpClientAdvancedSettings6**](imsrdpclientadvancedsettings6.md)
 </dt> <dd>
 
-Expose les propriétés qui gèrent les paramètres de contrôle ActiveX avancés.
+expose les propriétés qui gèrent les paramètres avancés de contrôle de ActiveX.
 
 </dd> <dt>
 
 [**IMsRdpClientAdvancedSettings7**](imsrdpclientadvancedsettings7.md)
 </dt> <dd>
 
-Expose des méthodes et des propriétés qui gèrent les paramètres avancés du contrôle ActiveX.
+expose des méthodes et des propriétés qui gèrent les paramètres avancés du contrôle ActiveX.
 
 </dd> <dt>
 
 [**IMsRdpClientAdvancedSettings8**](imsrdpclientadvancedsettings8.md)
 </dt> <dd>
 
-Expose des méthodes et des propriétés qui gèrent les paramètres avancés du contrôle ActiveX Bureau à distance.
+expose des méthodes et des propriétés qui gèrent les paramètres avancés du contrôle Bureau à distance ActiveX.
 
 </dd> <dt>
 
 [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md)
 </dt> <dd>
 
-Fournit l’accès aux propriétés non scriptables de la session à distance d’un client sur le contrôle ActiveX Bureau à distance. Dérive de l’interface [**IMsTscNonScriptable**](imstscnonscriptable-interface.md) .
+fournit l’accès aux propriétés qui ne sont pas scriptables de la session à distance d’un client sur le contrôle Bureau à distance ActiveX. Dérive de l’interface [**IMsTscNonScriptable**](imstscnonscriptable-interface.md) .
 
 </dd> <dt>
 
 [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md)
 </dt> <dd>
 
-Fournit l’accès aux propriétés non scriptables de la session à distance d’un client sur le contrôle ActiveX Bureau à distance. Dérive de l’interface [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md) .
+fournit l’accès aux propriétés qui ne sont pas scriptables de la session à distance d’un client sur le contrôle Bureau à distance ActiveX. Dérive de l’interface [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md) .
 
 </dd> <dt>
 
 [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md)
 </dt> <dd>
 
-Fournit l’accès aux propriétés non scriptables de la session à distance d’un client sur le contrôle ActiveX Bureau à distance. Dérive de l’interface [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md) .
+fournit l’accès aux propriétés qui ne sont pas scriptables de la session à distance d’un client sur le contrôle Bureau à distance ActiveX. Dérive de l’interface [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md) .
 
 </dd> <dt>
 
 [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md)
 </dt> <dd>
 
-Fournit l’accès aux propriétés non scriptables de la session à distance d’un client sur le contrôle ActiveX Bureau à distance. Dérive de l’interface [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md) .
+fournit l’accès aux propriétés qui ne sont pas scriptables de la session à distance d’un client sur le contrôle Bureau à distance ActiveX. Dérive de l’interface [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md) .
 
 </dd> <dt>
 
 [**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
 </dt> <dd>
 
-Fournit l’accès aux propriétés non scriptables de la session à distance d’un client sur le contrôle ActiveX Bureau à distance. Dérive de l’interface [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md) .
+fournit l’accès aux propriétés qui ne sont pas scriptables de la session à distance d’un client sur le contrôle Bureau à distance ActiveX. Dérive de l’interface [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md) .
 
 </dd> <dt>
 
 [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md)
 </dt> <dd>
 
-Comprend des méthodes pour récupérer et définir des propriétés du contrôle ActiveX Bureau à distance qui sont limitées à des zones de sécurité d’URL Internet Explorer spécifiques.
+comprend des méthodes permettant de récupérer et de définir les propriétés du contrôle Bureau à distance ActiveX qui sont limitées à des zones de sécurité URL Internet Explorer spécifiques.
 
 </dd> <dt>
 
 [**IMsRdpClientSecuredSettings2**](imsrdpclientsecuredsettings2.md)
 </dt> <dd>
 
-Définit des propriétés supplémentaires du contrôle ActiveX Bureau à distance qui sont limitées à des zones de sécurité d’URL Internet Explorer spécifiques.
+définit des propriétés supplémentaires du contrôle Bureau à distance ActiveX qui sont limitées à des zones de sécurité d’URL Internet Explorer spécifiques.
 
 </dd> <dt>
 
@@ -327,14 +327,14 @@ Comprend des méthodes qui reçoivent des informations du serveur liées aux év
 [**IMsTscNonScriptable**](imstscnonscriptable-interface.md)
 </dt> <dd>
 
-Contient des propriétés et des méthodes qui sont liées à l’application d’un mot de passe au contrôle ActiveX Bureau à distance.
+contient des propriétés et des méthodes qui sont liées à l’application d’un mot de passe au contrôle Bureau à distance ActiveX.
 
 </dd> <dt>
 
 [**IMsTscSecuredSettings**](imstscsecuredsettings-interface.md)
 </dt> <dd>
 
-Comprend des méthodes pour récupérer et définir des propriétés du contrôle ActiveX Bureau à distance qui sont limitées à des zones de sécurité d’URL Internet Explorer spécifiques.
+comprend des méthodes permettant de récupérer et de définir les propriétés du contrôle Bureau à distance ActiveX qui sont limitées à des zones de sécurité URL Internet Explorer spécifiques.
 
 </dd> <dt>
 
@@ -364,7 +364,7 @@ Fournit des méthodes qui reçoivent des informations du serveur qui sont liées
 
 Fournit les méthodes nécessaires pour configurer les paramètres de connexion pour le contrôle client du conteneur d’applications protocole RDP (Remote Desktop Protocol) (RDP).
 
-Utilisez la propriété de [**paramètres**](iremotedesktopclient-settings.md) [**IRemoteDesktopClient**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient)pour obtenir un pointeur vers cette interface.
+utilisez la propriété [**IRemoteDesktopClient**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient)[**Paramètres**](iremotedesktopclient-settings.md) pour obtenir un pointeur vers cette interface.
 
 </dd> <dt>
 
@@ -396,7 +396,7 @@ Définit des propriétés et des méthodes à utiliser avec un RemoteApp.
 
 </dd> </dl>
 
-## <a name="additional-resources"></a>Ressources supplémentaires
+## <a name="additional-resources"></a>Ressources complémentaires
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
@@ -409,6 +409,6 @@ Pour une discussion générale sur les méthodes de propriété, consultez [mét
 [Référence Services Bureau à distance](terminal-services-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

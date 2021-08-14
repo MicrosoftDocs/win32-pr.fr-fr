@@ -4,12 +4,12 @@ ms.assetid: 0ed4291b-6562-440f-b892-4e6e5b4b49c8
 title: SSP/APs et SSP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8d089a27da6b0ab5d4228af924f738f27a1d728
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c471e529a478cadbfcc385a1b0d699a4539e7bc80beeb2d40e01e2f7e9f428d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118917265"
 ---
 # <a name="sspaps-vs-ssps"></a>SSP/APs et SSP
 

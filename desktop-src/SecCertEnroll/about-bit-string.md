@@ -4,12 +4,12 @@ ms.assetid: 7464dd20-5e79-4ca1-a6ae-9b706e9cb925
 title: CHAÎNE DE BITS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 115ead46663b94d6db2d089f1fae2fd8c40a2ac7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 056616a22cf2e683e943afef9369ed4c885963174aff0e72dea6ef718ddbdf7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104551126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118905058"
 ---
 # <a name="bit-string"></a>CHAÎNE DE BITS
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: a09d61e9c43624f441975eca1a131a82f8092587
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 89907a014d7f3729bf564410447a5832597bd1b42a7f59aad93082e79469b2bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989649"
 ---
 # <a name="d3dxvec3catmullrom-function-d3dx10mathh"></a>D3DXVec3CatmullRom, fonction (D3DX10Math. h)
 
@@ -98,13 +98,13 @@ Facteur de pondération. Consultez la section Notes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointeur vers une structure D3DXVECTOR3 qui est le résultat de l’interpolation Catmull-Rom.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 À partir de quatre points (P1, P2, P3, P4), recherchez une fonction Q (s) de ce type :
 

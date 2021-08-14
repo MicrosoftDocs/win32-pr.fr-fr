@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 97f9907e4da51675bb1a5f562931e471ee0e133e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e91f5e8b84d77b0938f35da69a84c26fa0f34a4da63bce40330484a29e19b5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118395300"
 ---
 # <a name="diskio-class"></a>E, classe
 
@@ -38,7 +38,7 @@ class DiskIo : MSNT_SystemTrace
 
 La classe **e** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour activer les événements d’e/s de disque dans une session de journalisation du noyau NT, spécifiez l’indicateur d' **\_ e/ \_ \_ \_ s disque** de l’indicateur de trace d’événements dans le membre **EnableFlags** d’une structure de [**Propriétés de \_ trace \_ d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) lors de l’appel de la fonction [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) . Vous pouvez également spécifier un ou plusieurs des indicateurs suivants :
 
@@ -57,7 +57,7 @@ Les consommateurs de suivi d’événements peuvent implémenter un traitement s
 | **Événement \_ Type de suivi \_ \_ e/s \_ écriture/écriture \_**(la valeur du type d’événement est 13)<br/>      | Initialise l’événement d’écriture. La classe [**e \_ TypeGroup2**](diskio-typegroup2.md) MOF définit les données d’événement pour cet événement.                                  |
 | **Événement \_ Type de TRACE \_ \_ \_ vidage des e/s**(la valeur du type d’événement est 14)<br/>            | Initialise l’événement d’écriture. La classe [**e \_ TypeGroup3**](diskio-typegroup3.md) MOF définit les données d’événement pour cet événement.                                  |
 | **Événement \_ Type de suivi \_ \_ IO \_ flush \_ init**(la valeur de type d’événement est 15)<br/>      | Initialise l’événement Flush. La classe [**e \_ TypeGroup2**](diskio-typegroup2.md) MOF définit les données d’événement pour cet événement.                                  |
-| **Événement \_ Type de suivi \_ \_ e/s \_ redirigée \_ init**(la valeur du type d’événement est 16)<br/> | Initialise l’événement Redirigé. Les événements d’e/s redirigés permettent de mapper le disque IOs à un fichier WIM (Windows Imaging Format) sur le nom de fichier dans le fichier WIM.                  |
+| **Événement \_ Type de suivi \_ \_ e/s \_ redirigée \_ init**(la valeur du type d’événement est 16)<br/> | Initialise l’événement Redirigé. les événements d’e/s redirigés permettent de mapper le disque IOs à un Format wim (Windows Imaging Format) au nom de fichier dans le fichier wim.                  |
 | La valeur du type d’événement est 52<br/>                                               | Événement de demande complète du pilote. La classe MOF [**DriverCompleteRequest**](drivercompleterequest.md) définit les données d’événement pour cet événement.                    |
 | La valeur du type d’événement est 53<br/>                                               | Événement de retour de demande complet du pilote. La classe MOF [**DriverCompleteRequestReturn**](drivercompleterequestreturn.md) définit les données d’événement pour cet événement. |
 | La valeur du type d’événement est 37<br/>                                               | Événement de routine de fin d’exécution du pilote. La classe MOF [**DriverCompletionRoutine**](drivercompletionroutine.md) définit les données d’événement pour cet événement.              |
@@ -72,14 +72,14 @@ Le fournisseur d’e/s disque ne peut pas identifier le fichier qui est lu ou é
 
 Les événements d’e/s de disque sont enregistrés au moment de l’exécution des e/s. Pour déterminer à quel moment l’opération d’e/s a commencé, utilisez les événements d’initialisation, par exemple, le type de suivi d’événement \_ \_ \_ IO \_ Read \_ init.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 

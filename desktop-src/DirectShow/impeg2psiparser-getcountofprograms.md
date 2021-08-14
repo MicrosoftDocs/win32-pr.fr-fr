@@ -1,5 +1,5 @@
 ---
-description: 'IMpeg2PsiParser :: GetCountOfPrograms, méthode-l’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. Il ne s’agit pas d’une API DirectShow prise en charge.'
+description: 'IMpeg2PsiParser :: GetCountOfPrograms, méthode-l’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. il ne s’agit pas d’une API DirectShow prise en charge.'
 ms.assetid: 282dd779-9aca-46e3-a791-cb9ea86f637d
 title: 'IMpeg2PsiParser :: GetCountOfPrograms, méthode'
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: d6bfe698a45ea1cfe0a4bac6e65b839292bc1996
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c0c5609f82db98caea02e08f1e4fbd3877eeccbae25a5e83da3ac2804577b100
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108119427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118398106"
 ---
 # <a name="impeg2psiparsergetcountofprograms-method"></a>IMpeg2PsiParser :: GetCountOfPrograms, méthode
 
-L’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. Il ne s’agit pas d’une API DirectShow prise en charge.
+l’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. il ne s’agit pas d’une API DirectShow prise en charge.
 
 La `GetCountOfPrograms` méthode récupère le nombre de programmes dans le flux de transport.
 
@@ -47,7 +47,7 @@ Pointeur vers une variable qui reçoit le nombre de programmes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne une valeur HRESULT. Les valeurs possibles sont, sans s’y limiter, les valeurs indiquées dans le tableau suivant.
 

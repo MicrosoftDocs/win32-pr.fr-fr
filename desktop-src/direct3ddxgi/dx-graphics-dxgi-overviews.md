@@ -4,12 +4,12 @@ ms.assetid: bcbeb4bc-3bd1-40ed-b176-a8091cc6ee9f
 title: Guide de programmation pour DXGI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7834b2fc68019dccfb8ab8b2e62698465ff1ea2d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ee0ac41155557c14ca41f8e0ea9f1836247bd3b78da213c1fbbed521499eae7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118518382"
 ---
 # <a name="programming-guide-for-dxgi"></a>Guide de programmation pour DXGI
 
@@ -27,7 +27,7 @@ Microsoft DirectX Graphics infrastructure (DXGI) gère les tâches de bas niveau
 | [Améliorations de DXGI 1,4](dxgi-1-4-improvements.md)<br/>                                                                      | Les fonctionnalités suivantes ont été ajoutées ou modifiées dans DXGI 1,4, principalement pour prendre en charge Direct3D 12. <br/>                                                           |
 | [Améliorations de DXGI 1,5](dxgi-1-5-improvements.md)<br/>                                                                      | Les fonctionnalités suivantes ont été ajoutées à DXGI 1,5, afin de prendre en charge une spécification et une duplication plus flexibles des formats de sortie.<br/>                                |
 | [Améliorations de DXGI 1,6](dxgi-1-6-improvements.md)<br/>                                                                      | Les fonctionnalités suivantes ont été ajoutées à DXGI 1,6 afin de détecter les affichages HDR.<br/>                                                                       |
-| [Utilisation de DirectX avec des écrans à haute gamme dynamique et une couleur avancée](../direct3darticles/high-dynamic-range.md)     | Cette rubrique fournit une vue d’ensemble technique du rendu de contenu Direct3D 11 et Direct3D 12 à plage dynamique élevée dans un affichage HDR10 à l’aide de la prise en charge avancée des couleurs Windows 10.<br/> |
+| [Utilisation de DirectX avec des écrans à haute gamme dynamique et une couleur avancée](../direct3darticles/high-dynamic-range.md)     | cette rubrique fournit une vue d’ensemble technique du rendu d’un contenu direct3d 11 et direct3d 12 à plage dynamique élevée dans un affichage HDR10 Windows 10 à l’aide de la prise en charge des couleurs avancées.<br/> |
 | [Affichage du taux d’actualisation des variables](variable-refresh-rate-displays.md)<br/>                                                    | Le taux d’actualisation des variables indique que le *déchirement* doit être activé, ce qui est également appelé prise en charge de la « Vsync ».<br/>                                                    |
 | [Utilisation de la correction gamma](using-gamma-correction.md)<br/>                                                                    | La correction gamma, ou gamma pour Short, est le nom d’une opération non linéaire que les systèmes utilisent pour coder et décoder les valeurs de pixel dans les images.<br/>                        |
 | [Prise en charge du format pour Direct3D Feature 10Level9 9,1 Hardware](format-support-for-direct3d-feature-level-9-1-hardware.md)<br/> | Cette section spécifie les formats (valeurs de [**\_ format dxgi**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) ) qui sont pris en charge dans la fonctionnalité Direct3D 10Level9 9,1 Hardware.<br/>        |

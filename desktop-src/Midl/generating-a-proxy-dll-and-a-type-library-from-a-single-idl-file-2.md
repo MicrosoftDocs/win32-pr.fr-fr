@@ -6,12 +6,12 @@ keywords:
 - Microsoft Interface Definition Language MIDL, tâches, génération d’une DLL de proxy et d’une bibliothèque de types
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a81001bba7aeff416e765291d3e6660b705919a0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 92e7bf2694b791007b0f1da303525217cf55d75d574e083c6d1756bc2784d0ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384235"
 ---
 # <a name="generating-a-proxy-dll-and-a-type-library-from-a-single-idl-file"></a>Génération d’une DLL de proxy et d’une bibliothèque de types à partir d’un seul fichier IDL
 
@@ -51,9 +51,9 @@ library KnownLibrary
 
 Pour plus d’informations, consultez [marshaling de types de données OLE](marshaling-ole-data-types.md) et [fichiers supplémentaires requis pour générer une bibliothèque de types](additional-files-required-to-generate-a-type-library-2.md).
 
- 
+ 
 
- 
+ 
 
 
 

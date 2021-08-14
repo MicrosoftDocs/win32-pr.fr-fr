@@ -4,12 +4,12 @@ ms.assetid: 4cdecae5-f993-491b-bb54-6eb2e742c57d
 title: Constantes de prise en charge linguistique nationale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d57f6efa8a22facc93ff2e1c7b02af05745a6640
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2292163432314cdfb33c3aaaa8f6eac5901838e681a6f8948f609ada518a3ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118390764"
 ---
 # <a name="national-language-support-constants"></a>Constantes de prise en charge linguistique nationale
 

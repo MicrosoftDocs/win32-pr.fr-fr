@@ -4,12 +4,12 @@ ms.assetid: aa93d631-3cfc-449d-9d04-c1f851129c6c
 title: SCRIPT_STRING_ANALYSIS (usp10. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ef9bf7e2a3a592a279b593d986220350a3d8f72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9481c641f182015d7a318c21c490f45fcc934e0df1baa52483707628eb4daa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118390298"
 ---
 # <a name="script_string_analysis"></a>\_analyse de chaîne de script \_
 
@@ -22,11 +22,11 @@ typedef void* SCRIPT_STRING_ANALYSIS;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Il s’agit d’une structure opaque qui est allouée dynamiquement et récupérée par [**ScriptStringAnalyse**](/windows/desktop/api/Usp10/nf-usp10-scriptstringanalyse). Elle est requise pour toutes les autres fonctions **ScriptString \** _.
+Il s’agit d’une structure opaque qui est allouée dynamiquement et récupérée par [**ScriptStringAnalyse**](/windows/desktop/api/Usp10/nf-usp10-scriptstringanalyse). Elle est également requise pour toutes les autres fonctions **ScriptString \*** .
 
-Étant donné que l’analyse peut être volumineuse, il est important que votre application appelle [_ *ScriptStringFree* *](/windows/desktop/api/Usp10/nf-usp10-scriptstringfree) dès qu’elle a terminé la chaîne.
+Étant donné que l’analyse peut être volumineuse, il est important que votre application appelle [**ScriptStringFree**](/windows/desktop/api/Usp10/nf-usp10-scriptstringfree) dès qu’elle a terminé avec la chaîne.
 
 ## <a name="requirements"></a>Configuration requise
 

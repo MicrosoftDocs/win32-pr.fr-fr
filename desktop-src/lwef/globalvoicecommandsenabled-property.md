@@ -4,12 +4,12 @@ description: Propriété GlobalVoiceCommandsEnabled
 ms.assetid: d4f74019-fa33-41fc-abe7-01791ff188f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8f523171187c9956a7741afc0fabcc7ec794071
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f889d242afca406ba443fd3d9a19afb837fbed0390f5c0c3d2bbd2ac2ccbccb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103941001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118751443"
 ---
 # <a name="globalvoicecommandsenabled-property"></a>Propriété GlobalVoiceCommandsEnabled
 
@@ -27,7 +27,7 @@ Retourne ou définit si la voix est activée pour les commandes globales de l’
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent. ***Caractères («*** CharacterID * * * »). Commands. GlobalVoiceCommandsEnabled**
+*agents. ***caractères («**_CharacterID_*_»). Commands. GlobalVoiceCommandsEnabled_*
 
 \[ = *expression*\]
 
@@ -43,7 +43,7 @@ Retourne ou définit si la voix est activée pour les commandes globales de l’
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Microsoft Agent ajoute automatiquement des paramètres vocaux (grammaire) pour l’ouverture et la fermeture de la fenêtre commandes vocales et pour l’affichage et le masquage du caractère. Si vous affectez à **GlobalVoiceCommandsEnabled** la **valeur false**, agent désactive tous les paramètres vocaux pour ces commandes, ainsi que les paramètres vocaux pour la [**légende**](caption-property.md) des objets [**Commands**](/windows/desktop/lwef/the-commands-collection-object) du client. Cela vous permet de les éliminer de la grammaire active actuelle de votre client. Toutefois, étant donné que cela bloque potentiellement l’accès vocal à d’autres clients, réinitialisez cette propriété sur **true** après avoir traité l’entrée vocale de l’utilisateur.
 

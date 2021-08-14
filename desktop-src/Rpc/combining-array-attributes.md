@@ -4,12 +4,12 @@ description: Les attributs de champ peuvent être fournis dans différentes comb
 ms.assetid: ff4f971f-9e46-4454-9d57-d8ebdf70b261
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffc60777caeb3950e37fe167fe09ecc181d88b8f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fd440251a658dd5b888df7275f578369419d4b8b2d4f920b263bc5095c4bd948
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106513542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931752"
 ---
 # <a name="combining-array-attributes"></a>Combinaison d’attributs de tableau
 
@@ -45,6 +45,6 @@ interface arraytest
 
 Dans l’exemple précédent, les paramètres de tableau et de pointeur dans les fonctions fArray6 et fArray7 sont équivalents.
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: IAgentCharacterEx GetVersion
 ms.assetid: 78f6d7b6-f72d-4af8-a014-3acd185926f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5c72d9304aa689cda83117d57f26c2da776c9f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 864bd0cf53e9dd94a547a459bb17cd477189401d544aebca047ead2f049c1c6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118750472"
 ---
 # <a name="iagentcharacterexgetversion"></a>IAgentCharacterEx :: GetVersion
 
@@ -44,9 +44,9 @@ Adresse d’une variable qui reçoit la version mineure.
 
 Le numéro de version du jeu d’animations standard est défini automatiquement quand vous le générez avec l’éditeur de caractères Microsoft Agent.
 
- 
+ 
 
- 
+ 
 
 
 

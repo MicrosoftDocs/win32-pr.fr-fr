@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fdd9b79a1cc1fa2a5a8db3e0db7a7163878b066b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: 1cca266d5e921d4f8071123d7b6be8b142ff83b06e2efebbe16fb5970555eaf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104530706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118508695"
 ---
 # <a name="texture1dgetdimensions-function"></a>Texture1D :: GetDimensions,, fonction
 
@@ -43,7 +43,7 @@ void GetDimensions(
 
 Type : **[ **uint**](/windows/desktop/WinProg/windows-data-types)**
 
-facultatif. Le niveau de mipmap (doit être spécifié si *NumberOfLevels* est utilisé).
+Facultatif. Le niveau de mipmap (doit être spécifié si *NumberOfLevels* est utilisé).
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ Nombre de niveaux de mipmap (requiert également *MipLevel* ).
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une liste des versions surchargées de cette méthode.
 
@@ -94,7 +94,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

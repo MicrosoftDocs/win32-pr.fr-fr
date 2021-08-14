@@ -3,7 +3,7 @@ title: Message PBM_SETBKCOLOR (commctrl. h)
 description: Définit la couleur d’arrière-plan dans la barre de progression.
 ms.assetid: e28af958-babb-4c2e-9202-89b608c22f8e
 keywords:
-- PBM_SETBKCOLOR les contrôles de message Windows
+- PBM_SETBKCOLOR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ddfaf84695221cf998275d76a9d2d67773150da
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 54bdee330aba5a4ff96fc5b26fa7f99553ff8331dd8822fcd350fbae5813c813
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986179"
 ---
 # <a name="pbm_setbkcolor-message"></a>\_Message PBM SETBKCOLOR
 
@@ -47,7 +47,7 @@ Valeur **COLORREF** qui spécifie la nouvelle couleur d’arrière-plan. Spécif
 
 Retourne la couleur d’arrière-plan précédente ou la \_ valeur CLR par défaut si la couleur d’arrière-plan est la couleur par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque les styles visuels sont activés, ce message n’a aucun effet.
 
@@ -57,8 +57,8 @@ Lorsque les styles visuels sont activés, ce message n’a aucun effet.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -1,19 +1,19 @@
 ---
 title: Vérification de l’interface utilisateur Visual Automation
-description: Vérification de l’interface utilisateur de Visual Automation (Visual UIA Verify) est un Windows \ 32 ; Pilote d’interface graphique utilisateur pour la bibliothèque de test UIA conçue pour le test manuel de l’Automation d’interface utilisateur.
+description: vérification de l’interface utilisateur de visual Automation (visual UIA verify) est un Windows \ 32 ; Pilote d’interface graphique utilisateur pour la bibliothèque de test UIA conçue pour le test manuel de l’Automation d’interface utilisateur.
 ms.assetid: 8AEB083E-785E-4F15-B708-2098A9A41B4E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96e224a52d243427af86c6cd27a3add3be03d9b7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1c50fdd123d24c8a6ef4215ae2451cf49b854b60b26c5d741db1921c42f6f7aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563653"
 ---
 # <a name="visual-ui-automation-verify"></a>Vérification de l’interface utilisateur Visual Automation
 
-Vérification de l’interface utilisateur de Visual Automation (Visual UIA Verify) est un pilote GUI Windows pour la bibliothèque de test UIA qui est conçu pour les tests manuels d’UI Automation. Il fournit une interface à la fonctionnalité de bibliothèque de tests UIA qui élimine la surcharge de codage d’un outil en ligne de commande.
+vérification de l’interface utilisateur de visual automation (visual UIA verify) est un pilote d’interface graphique utilisateur Windows pour la bibliothèque de Test UIA conçue pour le test manuel de l’Automation d’interface utilisateur. Il fournit une interface à la fonctionnalité de bibliothèque de tests UIA qui élimine la surcharge de codage d’un outil en ligne de commande.
 
 -   [Commandes de menu](#menu-commands)
 -   [Volets fonctionnels](#functional-panes)
@@ -56,7 +56,7 @@ Le tableau suivant décrit les commandes du menu vérification de Visual UIA.
 <td>Quittez la vérification de Visual UIA.</td>
 </tr>
 <tr class="even">
-<td><strong>Afficher</strong></td>
+<td><strong>Visualiser</strong></td>
 <td><strong>Mettre en surbrillance</strong></td>
 <td>Mettez en surbrillance le rectangle englobant de l’élément sélectionné dans le volet de l' <strong>arborescence éléments Automation</strong> . Les options suivantes sont disponibles.
 <ul>
@@ -141,7 +141,7 @@ Le tableau suivant décrit les commandes du menu vérification de Visual UIA.
 
 
 
- 
+ 
 
 ## <a name="functional-panes"></a>Volets fonctionnels
 
@@ -238,9 +238,9 @@ Les commandes disponibles à partir de la barre d’outils **Propriétés** sont
 -   **Actualiser**: actualise l’arborescence des **Propriétés** .
 -   **Développer tout**: développe tous les nœuds dans l’arborescence des **Propriétés** .
 
- 
+ 
 
- 
+ 
 
 
 

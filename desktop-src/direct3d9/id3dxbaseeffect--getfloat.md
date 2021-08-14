@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 51edaa1872223727abdc396766552720cd34d726
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cec1d083f9884b9bff1b14806d84126f7426f49556955ac460e06336a6297da5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106528576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118522308"
 ---
 # <a name="id3dxbaseeffectgetfloat-method"></a>ID3DXBaseEffect :: GetFloat, méthode
 

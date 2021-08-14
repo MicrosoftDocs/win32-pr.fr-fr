@@ -3,19 +3,19 @@ title: Élément PLAYLIST
 description: Élément PLAYLIST
 ms.assetid: de568529-81f2-476b-ad1b-bb53f7e97b13
 keywords:
-- Apparences du lecteur Windows Media, élément de sélection
+- apparences de Lecteur Windows Media, élément PLAYLIST
 - Skins, élément PLAYLIST
 - Élément PLAYLIST
 - référence pour les apparences, élément PLAYLIST
 - éléments, PLAYLIST
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9d66aa832a146b0fb8942fae6481095918f9a81
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fed45a2b8d7a0c0c5a2e19a783fbecf1041ecf2550c9f9a3a31e4b7c1aab894d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118336745"
 ---
 # <a name="playlist-element"></a>Élément PLAYLIST
 
@@ -67,7 +67,7 @@ L’élément **playlist** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 L’élément **playlist** prend en charge les méthodes suivantes.
 
@@ -96,7 +96,7 @@ L’élément **playlist** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’élément **playlist** prend en charge les attributs ambiants et peut implémenter les gestionnaires d’événements ambiants, sauf indication contraire. Pour plus d’informations, consultez [attributs ambiants](ambient-attributes.md) et [gestionnaires d’événements ambiants](ambient-event-handlers.md).
 
@@ -111,7 +111,7 @@ Les sélections prédéfinies sont des éléments de **sélection** normaux avec
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -120,9 +120,9 @@ Les sélections prédéfinies sont des éléments de **sélection** normaux avec
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

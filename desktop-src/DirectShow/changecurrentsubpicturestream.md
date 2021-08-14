@@ -4,17 +4,17 @@ ms.assetid: f55e63b6-b3ad-4cf3-a7c4-6636b5375b12
 title: ChangeCurrentSubpictureStream (segment. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cc589c5261a9e449187101853372b987a3a966d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1a2d60e76dbd6ba9470598a346de4a294dbed17f88792bc225fb4387dacd93dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999379"
 ---
 # <a name="changecurrentsubpicturestream"></a>ChangeCurrentSubpictureStream
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 

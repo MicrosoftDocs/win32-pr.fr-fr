@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8366fd5c42f68c495d544c20c3382b4e9fd37665
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ece5f0aa96140b6fa16b5fbde1a857f1e14f1570ad7fc734626a27ac660a65ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118360406"
 ---
 # <a name="glflush-function"></a>glFlush fonction)
 
@@ -54,7 +54,7 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les différentes implémentations OpenGL entamponnt des commandes dans différents emplacements, y compris les tampons réseau et l’accélérateur graphique lui-même. La fonction **glFlush** vide toutes ces mémoires tampons, ce qui entraîne l’exécution de toutes les commandes émises aussi rapidement qu’elles sont acceptées par le moteur de rendu réel. Bien que cette exécution ne puisse pas être effectuée dans un laps de temps donné, elle se termine dans un laps de temps limité.
 

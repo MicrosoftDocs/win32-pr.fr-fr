@@ -1,21 +1,21 @@
 ---
-description: Cette documentation fait spécifiquement référence aux extensions Windows Vista pour DirectX Graphics.
+description: cette documentation fait spécifiquement référence aux extensions Windows Vista pour DirectX graphics.
 ms.assetid: 3cc0b08c-e126-4f1b-b5d1-0d6c1ebeb0c5
-title: Résumé des fonctionnalités (Direct3D 9 pour Windows Vista)
+title: résumé des fonctionnalités (Direct3D 9 pour Windows Vista)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d5cf2447297b7f24edf7d0200e640d5aef90bff
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 242af80fa4d6f00c1e55d4852884f9fbbf8de287c6792b3b4aaaad196a6cd113
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106536941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118523076"
 ---
-# <a name="feature-summary-direct3d-9-for-windows-vista"></a>Résumé des fonctionnalités (Direct3D 9 pour Windows Vista)
+# <a name="feature-summary-direct3d-9-for-windows-vista"></a>résumé des fonctionnalités (Direct3D 9 pour Windows Vista)
 
-Cette documentation fait spécifiquement référence aux extensions Windows Vista pour DirectX Graphics. Pour développer la puissance de DirectX pour Windows Vista, vous devez installer le kit de développement logiciel (SDK) Windows Vista, ainsi que le kit de développement logiciel (SDK) DirectX. Les applications utilisant DirectX pour Windows Vista doivent utiliser un matériel qui utilise le pilote WDDM (modèle de pilote de périphérique Windows) au lieu de XPDM (modèle de pilote XP). les pilotes qui n’implémentent pas le WDDM ne peuvent pas instancier les interfaces Windows Vista DirectX Graphics.
+cette documentation fait spécifiquement référence aux extensions Windows Vista pour DirectX graphics. pour développer la puissance de DirectX pour Windows Vista, vous devez installer le kit de développement logiciel (sdk) Windows vista, ainsi que le kit de développement logiciel (sdk) directx. les Applications qui utilisent DirectX pour Windows Vista doivent utiliser un matériel qui utilise le pilote WDDM (Windows modèle de pilote de périphérique) au lieu de XPDM (modèle de pilote XP). les pilotes qui n’implémentent pas le WDDM ne peuvent pas instancier des interfaces graphiques Windows Vista DirectX.
 
-Découvrez les nouvelles fonctionnalités DirectX Graphics de Windows Vista dans l’une des sections suivantes :
+découvrez les nouvelles fonctionnalités graphiques DirectX de Windows Vista dans l’une des sections suivantes :
 
 -   [Changements de comportement des appareils](#device-behavior-changes)
 -   [Désactivation du traitement des vertex logiciels multithread](#disabling-multithreaded-software-vertex-processing)
@@ -34,7 +34,7 @@ Après l’arrêt d’un pilote, l’objet IDirect9Ex doit être recréé pour r
 
 Lorsque la zone de présentation est masquée par une autre fenêtre en mode fenêtre, ou lorsqu’une application en plein écran est réduite, [**PresentEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) retourne S \_ D3DPRESENTATIONOCCLUDED. Les applications plein écran peuvent reprendre le rendu lorsqu’elles reçoivent un message de rappel [**WM \_ ACTIVATEAPP**](../winmsg/wm-activateapp.md) .
 
-Dans les versions précédentes de DirectX, quand une application rencontrait une modification de mode, la seule façon de récupérer était de réinitialiser l’appareil et de recréer toutes les ressources de mémoire vidéo et les chaînes de permutation. Désormais, avec DirectX pour Windows Vista, l’appel de Reset après une modification de mode n’entraîne pas la perte des surfaces de mémoire de texture, des textures et des informations d’État, et ces ressources n’ont pas besoin d’être recréées.
+Dans les versions précédentes de DirectX, quand une application rencontrait une modification de mode, la seule façon de récupérer était de réinitialiser l’appareil et de recréer toutes les ressources de mémoire vidéo et les chaînes de permutation. désormais, avec DirectX pour Windows Vista, l’appel de Reset après une modification de mode n’entraîne pas la perte des surfaces de la mémoire de texture, des textures et des informations d’état, et ces ressources n’ont pas besoin d’être recréées.
 
 ## <a name="disabling-multithreaded-software-vertex-processing"></a>Désactivation du traitement des vertex logiciels multithread
 
@@ -84,15 +84,15 @@ Le reste des restrictions pour IDirect3DDevice9 :: UpdateSurface s’applique t
 
 Les ressources Direct3D peuvent désormais être partagées entre des appareils ou des processus. Cela s’applique à toutes les ressources Direct3D, y compris les textures, les mémoires tampons de vertex, les mémoires tampons d’index ou les surfaces (telles que les cibles de rendu, les mémoires tampons de stencil de profondeur ou les surfaces ordinaires hors écran). Pour être partagé, vous devez désigner une ressource pour le partage au moment de la création et localiser la ressource dans le pool par défaut (D3DPOOL \_ par défaut). Une fois qu’une ressource est créée pour le partage, elle peut être partagée entre plusieurs appareils au sein d’un processus ou partagée par plusieurs processus.
 
-Pour activer les ressources partagées, les API de création de ressources ont un paramètre de handle supplémentaire. Il s’agit d’un HANDLE qui pointe vers la ressource partagée. Dans les révisions précédentes de DirectX, cet argument fait partie de la signature de l’API, mais il a été inutilisé et doit avoir la valeur **null**. À compter de Windows Vista, utilisez pSharedHandle de la façon suivante :
+Pour activer les ressources partagées, les API de création de ressources ont un paramètre de handle supplémentaire. Il s’agit d’un HANDLE qui pointe vers la ressource partagée. Dans les révisions précédentes de DirectX, cet argument fait partie de la signature de l’API, mais il a été inutilisé et doit avoir la valeur **null**. à partir de Windows Vista, utilisez pSharedHandle de l’une des manières suivantes :
 
--   Définissez le pointeur (pSharedHandle) sur la **valeur null** pour ne pas partager une ressource. C’est comme le comportement de DirectX avant Windows Vista.
+-   Définissez le pointeur (pSharedHandle) sur la **valeur null** pour ne pas partager une ressource. c’est comme le comportement de DirectX avant Windows Vista.
 -   Pour créer une ressource partagée, appelez une API de création de ressource (voir ci-dessous) avec un handle non initialisé (le pointeur lui-même n’est pas **null** (pSharedHandle ! = **null**), mais le pointeur pointe vers une valeur **null** ( \* pSharedHandle = = **null**)). L’API génère une ressource partagée et retourne un handle valide.
 -   Pour ouvrir et accéder à une ressource partagée créée précédemment à l’aide d’un handle de ressource partagée non NULL, définissez pSharedHandle sur l’adresse de ce handle. Une fois que vous avez ouvert la ressource partagée précédemment créée de cette manière, vous pouvez utiliser l’interface retournée dans l’API Direct3D 9 ou Direct3D 9Ex comme si l’interface était une ressource typique de ce type.
 
 Les API de création de ressources incluent- [**CreateTexture**](/windows/desktop/api), [**CreateVolumeTexture**](/windows/desktop/api), [**CreateCubeTexture**](/windows/desktop/api), [**CreateRenderTarget**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createrendertarget), [**CreateVertexBuffer**](/windows/desktop/api), [**CreateIndexBuffer**](/windows/desktop/api), [**CreateDepthStencilSurface**](/windows/desktop/api), [**CreateOffscreenPlainSurface**](/windows/desktop/api), [**CreateDepthStencilSurfaceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createdepthstencilsurfaceex), [**CreateOffscreenPlainSurfaceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createoffscreenplainsurfaceex)et [**CreateRenderTargetEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createrendertargetex).
 
-Certaines restrictions s’appliquent à l’utilisation des ressources partagées. Il s’agit, entre autres, des suivantes :
+Certaines restrictions s’appliquent à l’utilisation des ressources partagées. Ce sont, entre autres, les suivantes :
 
 -   L’API que vous utilisez pour ouvrir une ressource partagée doit correspondre à l’API que vous avez utilisée pour créer la ressource partagée. Par exemple, si vous avez utilisé [**CreateTexture**](/windows/desktop/api) pour créer une ressource partagée, vous devez utiliser **CreateTexture** pour ouvrir cette ressource partagée ; Si vous avez utilisé [**CreateRenderTarget**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createrendertarget) pour créer une ressource partagée, vous devez utiliser **CreateRenderTarget** pour ouvrir cette ressource partagée, et ainsi de suite.
 -   Lorsque vous ouvrez une ressource partagée, vous devez spécifier D3DPOOL \_ par défaut.

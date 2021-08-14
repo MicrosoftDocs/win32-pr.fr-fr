@@ -4,12 +4,12 @@ description: Un protocole de routage est un type de client qui s’inscrit aupr�
 ms.assetid: 957ec896-94e3-4bdb-801a-12b861460fff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e64d12912494d0d6c20f484eba588b47670a808
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 879d540662db7d1a1603bf40818101d0e7f9cb6988d4c0065f922fdc8f73e381
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977842"
 ---
 # <a name="routing-protocol"></a>Protocole de routage
 
@@ -27,9 +27,9 @@ Les identificateurs de protocole sont constitués d’un identificateur de fourn
 
 Un protocole avec le même identificateur de protocole (autrement dit, un identificateur de fournisseur et un identificateur propre au protocole) peut s’inscrire plusieurs fois auprès du gestionnaire de tables de routage. Chaque fois, le protocole s’inscrit à l’aide d’un identificateur d’instance de protocole différent. Par exemple, une implémentation de OSPF à partir d’un fournisseur particulier peut s’inscrire en tant que Vendor-OSPF-1 et Vendor-OSPF-2. Cela permet à une implémentation de protocole spécifique de partitionner les informations qu’elle conserve dans la table de routage.
 
- 
+ 
 
- 
+ 
 
 
 

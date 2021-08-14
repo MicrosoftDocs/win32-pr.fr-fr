@@ -4,12 +4,12 @@ ms.assetid: 7aa94b39-bd4c-4e66-b0dc-77f8953797b1
 title: Remplissage d’une forme avec un dégradé de couleur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16244c6ea9928d6d6ff69fea8ce7d14d029c2756
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ad27cd477ead63bd104c7462145f3e7063f997127c8d031afc1331f99d654ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104988236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118067239"
 ---
 # <a name="filling-a-shape-with-a-color-gradient"></a>Remplissage d’une forme avec un dégradé de couleur
 

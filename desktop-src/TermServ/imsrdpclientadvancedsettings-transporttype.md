@@ -19,16 +19,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0664e0c792725dc112baf786d63c5175eb450dcc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7829e39db819cf43e58856e4ea7ecd8d76621a78b9d45544a85034703e6ba9b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352974"
 ---
 # <a name="imsrdpclientadvancedsettingstransporttype-property"></a>IMsRdpClientAdvancedSettings :: TransportType, propriété
 
-Spécifie le type de transport utilisé par le client. Cette propriété n’est pas utilisée par le contrôle ActiveX Bureau à distance.
+Spécifie le type de transport utilisé par le client. cette propriété n’est pas utilisée par le contrôle Bureau à distance ActiveX.
 
 Cette propriété est en lecture/écriture.
 
@@ -49,9 +49,9 @@ HRESULT get_TransportType(
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-Définit le type de transport. Cette méthode peut être réussie, mais la valeur définie n’est jamais utilisée par le contrôle ActiveX Bureau à distance.
+Définit le type de transport. cette méthode peut être réussie, mais la valeur définie n’est jamais utilisée par le contrôle Bureau à distance ActiveX.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

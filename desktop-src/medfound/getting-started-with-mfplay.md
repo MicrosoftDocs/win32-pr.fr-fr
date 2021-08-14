@@ -4,12 +4,12 @@ ms.assetid: 55612f49-5995-4bdf-aa12-8a853e5a2b24
 title: Prise en main avec MFPlay
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd9e0405d3138a22e0d20e94849d416b29d62945
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc2afb0b20189501530116c252a4d11a9b3e2d8d0dff07482b1998b73400071e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118063491"
 ---
 # <a name="getting-started-with-mfplay"></a>Prise en main avec MFPlay
 
@@ -19,7 +19,7 @@ MFPlay est une API permettant de créer des applications de lecture multimédia 
 
 Cette rubrique contient les sections suivantes :
 
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [À propos de MFPlay](#about-mfplay)
 -   [Lit un fichier multimédia](#playing-a-media-file)
 -   [Contrôle de la lecture](#controlling-playback)

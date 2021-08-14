@@ -14,12 +14,12 @@ keywords:
 - lecteurs synchrones, lire des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 893a1bd324cdc91968e423f2084bfdba5ef57c8e
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: c30ed2f9af78c9643f269adb24f740f2fe9227bc2e5b8a36d5c9d29606564176
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118197471"
 ---
 # <a name="reading-files-with-the-synchronous-reader"></a>Lecture des fichiers avec le lecteur synchrone
 
@@ -29,14 +29,14 @@ Le lecteur synchrone a été conçu pour répondre aux besoins des applications 
 
 Le lecteur synchrone peut ouvrir des fichiers locaux ou des fichiers sur un réseau à l’aide du nom de chemin d’accès UNC (par exemple, « \\ \\ someshare \\ somedirectory \\ somefile. wmv »). Vous ne pouvez pas diffuser des fichiers vers le lecteur synchrone ou ouvrir des fichiers à partir d’un emplacement Internet. Le lecteur synchrone prend également en charge l’utilisation de l’interface com **IStream** comme source.
 
-Le lecteur synchrone offre plus de polyvalence pour récupérer des exemples d’un fichier ASF que le lecteur asynchrone. Le lecteur synchrone peut fournir des échantillons par numéro de flux, ainsi que par sortie. Les exemples fournis par le numéro de flux peuvent être compressés ou non. Le lecteur synchrone peut également basculer entre les remises compressées et non compressées lors de la lecture. Cette fonctionnalité est appelée « édition rapide ». Cette fonctionnalité permet à une application de modification de lire du contenu Windows Media et de la transmettre directement à l’enregistreur jusqu’à ce qu’un frame souhaité soit atteint. À ce stade, l’application peut indiquer au lecteur de commencer à fournir du contenu non compressé, que l’application peut ensuite modifier et transmettre à l’enregistreur pour la recompression. Lorsque l’application a terminé la modification des frames spécifiés, elle peut demander au lecteur de démarrer à nouveau la diffusion des frames compressés.
+Le lecteur synchrone offre plus de polyvalence pour récupérer des exemples d’un fichier ASF que le lecteur asynchrone. Le lecteur synchrone peut fournir des échantillons par numéro de flux, ainsi que par sortie. Les exemples fournis par le numéro de flux peuvent être compressés ou non. Le lecteur synchrone peut également basculer entre les remises compressées et non compressées lors de la lecture. Cette fonctionnalité est appelée « édition rapide ». cette fonctionnalité permet à une application de modification de lire Windows contenu multimédia et de la transmettre directement à l’enregistreur jusqu’à ce qu’un frame souhaité soit atteint. À ce stade, l’application peut indiquer au lecteur de commencer à fournir du contenu non compressé, que l’application peut ensuite modifier et transmettre à l’enregistreur pour la recompression. Lorsque l’application a terminé la modification des frames spécifiés, elle peut demander au lecteur de démarrer à nouveau la diffusion des frames compressés.
 
-Les fonctionnalités les plus basiques de l’objet lecteur synchrone peuvent être décomposées selon les étapes suivantes. Dans ces étapes, « l’application » fait référence au programme que vous écrivez à l’aide du kit de développement logiciel (SDK) du format Windows Media.
+Les fonctionnalités les plus basiques de l’objet lecteur synchrone peuvent être décomposées selon les étapes suivantes. dans ces étapes, « l’application » fait référence au programme que vous écrivez à l’aide du kit de développement logiciel (SDK) de Format multimédia Windows.
 
 1.  L’application transmet au lecteur synchrone le nom d’un fichier à lire. Lorsque le lecteur synchrone ouvre le fichier, il attribue un numéro de sortie à chaque flux. Si le fichier utilise l’exclusion mutuelle, le lecteur assigne une seule sortie pour tous les flux qui s’excluent mutuellement.
 2.  L’application obtient des informations sur la configuration des différentes sorties à partir du lecteur. Les informations collectées permettront à l’application de restituer correctement les exemples de supports.
 3.  L’application commence à demander des exemples, l’un après l’autre, à partir du lecteur synchrone. Le lecteur synchrone remet chaque exemple dans un objet buffer pour lequel il remet l’interface [**INSSBuffer**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer) .
-4.  L’application est chargée du rendu des données une fois qu’elles sont fournies par le lecteur. Le kit de développement logiciel (SDK) Windows Media format ne fournit pas de routines de rendu. En règle générale, les applications utilisent d’autres kits de développement logiciel (SDK) pour restituer des données, comme le kit de développement logiciel (SDK) Microsoft Direct X ou les fonctions multimédias du kit SDK de plateforme Microsoft Windows.
+4.  L’application est chargée du rendu des données une fois qu’elles sont fournies par le lecteur. le kit de développement logiciel (SDK) Windows Media Format ne fournit pas de routines de rendu. en règle générale, les applications utilisent d’autres kits de développement logiciel (sdk) pour restituer des données, comme le kit de développement logiciel (sdk) microsoft Direct X, ou les fonctions multimédias du kit sdk microsoft Windows platform.
 
 Ces étapes sont illustrées dans l’exemple d’application WMSyncReader. Pour plus d’informations, consultez [exemples d’applications](sample-applications.md).
 
@@ -139,9 +139,9 @@ pSyncReader = NULL;
 [**Lecteur synchrone, objet**](synchronous-reader-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,19 +3,19 @@ title: Fonctionnement des propriétés
 description: Fonctionnement des propriétés
 ms.assetid: 469af852-593c-4b54-8dc3-b76ad460fa77
 keywords:
-- Plug-ins du lecteur Windows Media, exemples de propriétés Echo
+- Lecteur Windows Media les plug-ins, exemples de propriétés Echo
 - plug-ins, exemples de propriétés d’écho
 - plug-ins de traitement de signal numérique, exemples de propriétés Echo
 - Plug-ins DSP, exemples de propriétés Echo
 - Echo DSP, exemple de plug-in, propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ad37b71ddc6a097dd43e1ac41147c571f81a67a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7cdefea3fce39b70d20d2f100d36cc4aeb8770bd15cd5cd0bf0978cd08f2259f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118339133"
 ---
 # <a name="how-properties-work"></a>Fonctionnement des propriétés
 
@@ -36,9 +36,9 @@ Les trois sections suivantes vous montrent comment modifier les méthodes de pro
 [**Exemples de propriétés Echo**](echo-sample-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

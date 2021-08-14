@@ -3,7 +3,7 @@ title: Objet cdrom
 description: L’objet cdrom offre un moyen d’accéder à un CD ou un DVD dans son lecteur.
 ms.assetid: 9045b130-3e08-4880-a4e7-79b704c4c1f9
 keywords:
-- Objet cdrom lecteur Windows Media
+- objet Cdrom Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 17c2de88749b4dd4a0ab756b77866c16e8878486
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 60c4e1081dec3e44107778e45fd911e0c4bb673d27b5e19874508ddbacb270ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104311923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118342642"
 ---
 # <a name="cdrom-object"></a>Objet cdrom
 
@@ -35,7 +35,7 @@ L’objet **cdrom** prend en charge les propriétés suivantes.
 
 
 
- 
+ 
 
 L’objet **cdrom** prend en charge la méthode suivante.
 
@@ -47,7 +47,7 @@ L’objet **cdrom** prend en charge la méthode suivante.
 
 
 
- 
+ 
 
 L’objet **cdrom** est accessible via la méthode suivante.
 
@@ -59,7 +59,7 @@ L’objet **cdrom** est accessible via la méthode suivante.
 
 
 
- 
+ 
 
 À des fins d’illustration, Player. cdromCollection. Item (*index*) est utilisé dans les sections de syntaxe de référence.
 
@@ -70,9 +70,9 @@ L’objet **cdrom** est accessible via la méthode suivante.
 [**Référence du modèle objet pour l’écriture de scripts**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

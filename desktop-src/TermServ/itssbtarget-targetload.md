@@ -22,12 +22,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ddfc9be9805406ab76b166e2a34bc47a7f5e9ab5
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3c367e9c00caff78bb3e64263c1622de45fa6e640e78d88239e1ed25a6f68558
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989859"
 ---
 # <a name="itssbtargettargetload-property"></a>ITsSbTarget :: TargetLoad, propriété
 
@@ -50,11 +50,11 @@ HRESULT get_TargetLoad(
 
 Nombre représentant la charge relative sur une cible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le poids d’une session en attente par rapport à une session active peut être modifié en définissant la valeur du paramètre *lb \_ ConnectionEstablishmentPenalty* pour le Service Broker pour les connexions. Ce paramètre se trouve sous la clé de Registre **HKLM \\ System \\ CurrentControlSet \\ services \\ Tssdis \\ Parameters** . La valeur par défaut 1 indique que les sessions en attente ont le même poids que les sessions actives.
 
-Cette propriété est disponible sur Windows Server 2012 R2 avec [KB3091411](https://support.microsoft.com/kb/3091411) installé dans l’interface [**ITsSbTargetEx**](itssbtargetex.md) .
+cette propriété est disponible sur Windows Server 2012 R2 avec [KB3091411](https://support.microsoft.com/kb/3091411) installé dans l’interface [**ITsSbTargetEx**](itssbtargetex.md) .
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -83,7 +83,7 @@ Cette propriété est disponible sur Windows Server 2012 R2 avec [KB3091411](htt
 <td>IID_ITsSbTarget est défini comme suit :
 <ul>
 <li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-DB0B-4752-B456-5fd5840901c0 sur Windows Server 2008 R2</li>
+<li>e85e10ea-db0b-4752-b456-5fd5840901c0 sur Windows Server 2008 R2</li>
 </ul></td>
 </tr>
 </tbody>

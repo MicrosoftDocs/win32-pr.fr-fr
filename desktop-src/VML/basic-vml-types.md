@@ -1,6 +1,6 @@
 ---
 title: Types VML de base
-description: Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Migrez les pages Web et les applications qui reposent sur VML sur SVG ou sur d’autres normes largement prises en charge.
+description: cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Migrez les pages Web et les applications qui reposent sur VML sur SVG ou sur d’autres normes largement prises en charge.
 ms.assetid: 07c17e7b-5ac4-4a8d-a468-559307408d5b
 keywords:
 - Langage VML (VML), types de base
@@ -22,19 +22,19 @@ keywords:
 - Type vector
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f05b058c919496b608b875f96e6c03bbeb0d50e8
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 70dbb2e540e809b88b446cceda9973f8988c7241cae7f4f96402a0edc7906550
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104559166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118347774"
 ---
 # <a name="basic-vml-types"></a>Types VML de base
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
  
 
@@ -120,7 +120,7 @@ Une valeur booléenne est représentée sous la forme d’un mot clé qui indiqu
 | Valeur pour true | Valeur pour false |
 |----------------|-----------------|
 | true           | false           |
-| Oui            | non              |
+| oui            | non              |
 | sur             | arrêt             |
 | t              | f               |
 | 1              | 0               |
@@ -336,7 +336,7 @@ Dans les définitions XPointer, la source d’emplacement est l’élément cont
 
 
 
-| Couleur            | Définition                                                                                                  | Level | Description                                                                                                                                                               |
+| Couleur            | Définition                                                                                                  | Niveau | Description                                                                                                                                                               |
 |------------------|-------------------------------------------------------------------------------------------------------------|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | name             | Voir ci-dessous                                                                                                   | 0     | Nom de la couleur HTML, comme indiqué dans le tableau ci-dessous.                                                                                                                            |
 | \#rr'gg'bb'      | \#rr'gg'bb'                                                                                                 | 0     | Représentation de couleur standard CSS1/sRVB utilisant des valeurs de la plage 0.. 255 représentées à l’aide de 2 chiffres hexadécimaux chacun.                                                     |
@@ -485,7 +485,7 @@ Les couleurs de schéma ne participent pas au schéma par défaut si aucune coul
 
 Les applications enregistrent parfois des couleurs en fonction des paramètres du système d’exploitation dans les graphiques. Normalement, ceux-ci sont temporaires et n’ont pas besoin d’être écrits ; les définitions thesystemcolor existent uniquement pour prendre en charge cette fonctionnalité. Une couleur système est introduite en définissant une balise appropriée dans un nouvel espace de noms et en insérant les informations appropriées dans le contenu de l’élément.
 
-Cette proposition définit une telle balise pour encoder les couleurs de l’interface utilisateur Windows définies dans le fichier d’en-tête winuser. h.
+cette proposition définit une telle balise pour encoder les Windows couleurs de l’interface utilisateur définies dans le fichier d’en-tête winuser. h.
 
 
 ```HTML
@@ -567,7 +567,7 @@ Le paramètre des six premières opérations est une valeur numérique intégral
     |-----------------|------------------------------------|
     | fonce          | c : = CXP/255                       |
     | Light         | c : = 255-(255-c) XP/255           |
-    | add             | c : = c + p                         |
+    | ajouter             | c : = c + p                         |
     | soustraction        | c : = c-p                         |
     | reversesubtract | c : = p-c                         |
     | blackwhite      | Si c < p thenc : = 0elsec : = 255 |
@@ -671,12 +671,12 @@ Le niveau de rendu 2 prend également en charge les éléments suivants :
 
 -   GIF, tel que défini par la spécification GIF publiée par CompuServ dans 1987 (généralement appelé « GIF87a »). GIF89a doit également être pris en charge à ce niveau, en fonction de la restriction selon laquelle les données ne doivent pas contenir de blocs d’extension nécessitant une interprétation pour afficher la bitmap autre que Graphics Control extensionswithouta requirement pour l’entrée utilisateur ou un délai. Cela permet d’inclure des commentaires, mais pas l’extension de texte brut. Une application peut insérer des extensions d’application (0x21, 0xFF) mais, à l’aide de la terminologie de cette proposition, celles-ci ne doivent contenir que des données de modification, et non de rendu.
 
-Tout autre format de données utilisé dans le graphique force ce graphique à avoir au moins un niveau de modification 3 et éventuellement un niveau de rendu 3 (si les données sont nécessaires pour effectuer le rendu du graphique). Une application est encouragée à publier les formats qu’elle prend en charge. Par exemple, Microsoft Office prend en charge les formats supplémentaires suivants en mode natif et peut donc écrire des données de modification dans ce formulaire :
+Tout autre format de données utilisé dans le graphique force ce graphique à avoir au moins un niveau de modification 3 et éventuellement un niveau de rendu 3 (si les données sont nécessaires pour effectuer le rendu du graphique). Une application est encouragée à publier les formats qu’elle prend en charge. par exemple, Microsoft Office prend en charge les formats supplémentaires suivants en mode natif et peut donc écrire des données de modification dans ce formulaire :
 
-1.  WMF--Windows Metafile (format Win 3,1)
-2.  EMF--Windows « Enhanced » Metafile (format Win32)
+1.  WMF--Windows metafile (format Win 3,1)
+2.  EMF--Windows métafichier « amélioré » (format Win32)
 3.  PICT--Mac OS fichier. QuickDraw PICT (toutes les versions, mais sans enregistrements QuickTime ou autres extensions)
-4.  BMP--format de fichier bitmap Windows, formats « OS/2 » (BITMAPCORE), BITMAPINFO,, BITMAPV4 et BITMAPV5
+4.  BMP--Windows format de fichier bitmap, « os/2 » (BITMAPCORE), bitmapinfo,, BITMAPV4 et BITMAPV5 formats
 
 [![retour au début ](images/top.gif) en haut](#top)
 

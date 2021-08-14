@@ -4,12 +4,12 @@ description: Jeu de commandes CD audio
 ms.assetid: f8b97449-d695-4ec9-874a-de81ed9b95dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c5f8723aca83111ff3ba3fa4dfa67cd649796cf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0ca5eb37b738c5d8ae4d88926cb5674a8a1f966368a523b1c0c0d32985ed54db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375275"
 ---
 # <a name="cd-audio-command-set"></a>Jeu de commandes CD audio
 
@@ -23,7 +23,7 @@ Les périphériques CD audio prennent en charge l’ensemble de commandes suivan
 | [**Faculté**](capability.md) | [**\_GETDEVCAPS MCI**](mci-getdevcaps.md) |
 | [**plus**](close.md)           | [**\_fermeture MCI**](mci-close.md)           |
 | [**méta**](info.md)             | [**\_infos MCI**](mci-info.md)             |
-| [**afficher**](open.md)             | [**MCI \_ ouvert**](mci-open.md)             |
+| [**ouvert**](open.md)             | [**MCI \_ ouvert**](mci-open.md)             |
 | [**suspen**](pause.md)           | [**\_Pause MCI**](mci-pause.md)           |
 | [**répétition**](play.md)             | [**\_lecture MCI**](mci-play.md)             |
 | [**sort**](resume.md)         | [**\_reprise MCI**](mci-resume.md)         |
@@ -35,11 +35,11 @@ Les périphériques CD audio prennent en charge l’ensemble de commandes suivan
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

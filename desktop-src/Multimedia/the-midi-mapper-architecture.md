@@ -16,28 +16,28 @@ keywords:
 - cartes clés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba337b05fcff1bd0bb0e948e36e7d290eacb9604
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a20e73c9a361487468870698d3c36d59ef35bb6a28da1b03957dd24f1d7b7dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136400"
 ---
 # <a name="the-midi-mapper-architecture"></a>Architecture du mappeur MIDI
 
 Le Mappeur MIDI utilise une carte d’installation MIDI pour déterminer comment traduire et rediriger les messages qu’il reçoit. Une carte d’installation MIDI se compose des types de mappages suivants.
 
 -   [Carte de canal](the-channel-map.md)
--   [Mappages de correctifs](patch-maps.md)
--   [Cartes clés](key-maps.md)
+-   [Cartes de correctifs](patch-maps.md)
+-   [Cartes de clé](key-maps.md)
 
 L’illustration suivante montre les rôles des cartes de canal, de correctif et de clé dans une carte d’installation MIDI.
 
 ![rôles de canaux, de correctifs et de clés dans une image de carte d’installation midi](images/mmap-a02.gif)
 
- 
+ 
 
- 
+ 
 
 
 

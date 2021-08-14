@@ -1,19 +1,19 @@
 ---
-description: Ce document contient la liste des codes d’erreur définis par le composant WIC (Windows Imaging Component).
+description: ce document contient la liste des codes d’erreur définis par le composant WIC (Windows Imaging Component).
 ms.assetid: 1ded909c-311b-49e3-ba23-b22cd7a77bc6
 title: Codes d’erreur du codec
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd502ca1866114e2b471059bc9d9af1b0f96309f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fb8f3911516f11c4a0614461786d6f94eaf00e038e53babb47d4df595797bdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118207258"
 ---
 # <a name="codec-error-codes"></a>Codes d’erreur du codec
 
-Ce document contient la liste des codes d’erreur définis par le composant WIC (Windows Imaging Component).
+ce document contient la liste des codes d’erreur définis par le composant WIC (Windows Imaging Component).
 
 -   [Erreurs WIC par code](#wic-errors-by-code)
 -   [Erreurs WIC par valeur](#wic-errors-by-value)
@@ -22,7 +22,7 @@ Ce document contient la liste des codes d’erreur définis par le composant WIC
 
 Le tableau suivant répertorie les codes d’erreur utilisés par le WICAPIs triés par ordre alphabétique. 
 
-| Code d'erreur                                      | Valeur d’erreur                      |
+| Code d’erreur                                      | Valeur d’erreur                      |
 |-------------------------------------------------|----------------------------------|
 | \_Err WINCODEC \_ abandonnée                          | 0x80004004 (E \_ Abort)            |
 | WINCODEC \_ Err \_ ACCESSDENIED                     | 0x80070005 (E \_ ACCESSDENIED)     |
@@ -78,7 +78,7 @@ Le tableau suivant répertorie les codes d’erreur utilisés par le WICAPIs tri
 
 Le tableau suivant répertorie les codes d’erreur utilisés par le WICAPIs triés dans l’ordre numérique. 
 
-| Code d'erreur                       | Valeur d’erreur                                     |
+| Code d’erreur                       | Valeur d’erreur                                     |
 |----------------------------------|-------------------------------------------------|
 | 0x80004005 (E \_ Fail)             | \_ \_ erreur générique WINCODEC \_ Err                   |
 | 0x80070057 (E \_ INVALIDARG)       | WINCODEC \_ Err \_ INVALIDPARAMETER                 |
