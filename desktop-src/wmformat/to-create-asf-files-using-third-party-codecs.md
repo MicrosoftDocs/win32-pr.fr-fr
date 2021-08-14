@@ -4,7 +4,7 @@ description: Pour créer des fichiers ASF à l’aide de codecs tiers
 ms.assetid: 5cd348ca-1f86-429d-92ee-4eab4ced8571
 keywords:
 - Windows Media Format SDK, création de fichiers ASF
-- Windows Media Format SDK, codecs tiers
+- Windows Kit de développement logiciel (SDK) Media format, codecs tiers
 - ASF (Advanced Systems Format), création de fichiers
 - ASF (format des systèmes avancés), création de fichiers
 - Formats ASF (Advanced Systems Format) et codecs tiers
@@ -14,16 +14,16 @@ keywords:
 - codecs, création de fichiers ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d6c057f1785ed50e328ac6094ff7dbe078e98fc
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 2d1eeeb891037581a550d8c15c2f2b4cefa14f81f20d0d55623d382d0e933e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104314504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118197078"
 ---
 # <a name="to-create-asf-files-using-third-party-codecs"></a>Pour créer des fichiers ASF à l’aide de codecs tiers
 
-Vous pouvez utiliser le kit de développement logiciel (SDK) Windows Media format pour créer des fichiers ASF qui contiennent des médias numériques encodés avec n’importe quel codec de votre choix. Lorsque vous utilisez un codec autre que celui inclus dans ce kit de développement logiciel (SDK), vous devez effectuer les étapes suivantes.
+vous pouvez utiliser le kit de développement logiciel (SDK) de Format multimédia Windows pour créer des fichiers ASF qui contiennent des médias numériques encodés avec n’importe quel codec de votre choix. Lorsque vous utilisez un codec autre que celui inclus dans ce kit de développement logiciel (SDK), vous devez effectuer les étapes suivantes.
 
 1.  Encodez le contenu avec le codec souhaité.
 2.  Recherchez ou créez une valeur GUID pour identifier le contenu encodé avec le codec utilisé à l’étape 1.
@@ -40,9 +40,9 @@ Pour traiter et décompresser le flux encodé à l’aide d’un codec tiers, vo
 ## <a name="putting-mpeg-2-streams-into-asf"></a>Placer des flux MPEG-2 dans ASF
 
 > [!Note]  
-> Cette rubrique s’applique aux applications qui utilisent le kit de développement logiciel (SDK) Windows Media format pour placer MPEG-2 (ou d’autres formats de compression qui utilisent des frames B) dans le conteneur de fichiers ASF.
+> cette rubrique s’applique aux applications qui utilisent le kit de développement logiciel (SDK) Windows Media Format pour placer MPEG-2 (ou d’autres formats de compression qui utilisent des frames B) dans le conteneur de fichiers ASF.
 
- 
+ 
 
 L’objet Writer requiert que tous les échantillons d’entrée aient des horodatages, et il suppose que chaque exemple d’entrée a une durée de présentation ultérieure à celle qui l’a précédé. Si pratiquement toutes les vidéos non compressées et même certains flux vidéo compressés remplissent ces conditions, les flux MPEG-2 ne le font pas. Dans MPEG-2, tous les échantillons ne sont pas horodatés et, lorsque les frames B sont présents, l’exemple de décodage est différent de l’ordre de rendu. Lorsque l’objet Writer rencontre des exemples non ordonnés, il les réorganise dans l’ordre « correct ». Par conséquent, pour stocker des flux MPEG-2 en mode natif (non décodés) dans un conteneur ASF, vous devez effectuer les étapes suivantes :
 
@@ -53,7 +53,7 @@ Lors de l’écriture du fichier :
 
 Lors de la lecture du fichier :
 
--   Pour chaque exemple lu à partir du fichier, examinez le dû. S’il contient une heure de début supérieure ou égale à zéro, copiez cette valeur sur l’horodatage de l’échantillon de sortie avant qu’il ne soit remis au décodeur. Affectez à tous les autres horodatages sur les échantillons de sortie la **valeur null**. Dans DirectShow, cette opération est effectuée en appelant **IMediaSample :: setTime**(**null**,**null**).
+-   Pour chaque exemple lu à partir du fichier, examinez le dû. S’il contient une heure de début supérieure ou égale à zéro, copiez cette valeur sur l’horodatage de l’échantillon de sortie avant qu’il ne soit remis au décodeur. Affectez à tous les autres horodatages sur les échantillons de sortie la **valeur null**. dans DirectShow, cette opération s’effectue en appelant **IMediaSample :: SetTime**(**null**,**null**).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -83,9 +83,9 @@ Lors de la lecture du fichier :
 [**Écriture de fichiers ASF**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

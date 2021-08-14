@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 4c17812ab5d451be639def0d07fe773d4b676570
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1ffde9c7bb0416f2b296f7a7c347a058734430be33ef4ecde59e7e39cd6e845f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118154830"
 ---
 # <a name="iamtimelinesrcsplicewithnext-method"></a>IAMTimelineSrc :: SpliceWithNext, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -60,7 +60,7 @@ Retourne une valeur **HRESULT** . Les valeurs de retour possibles sont les suiva
 
 | Code de retour                                                                                   | Description                                                              |
 |-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie.<br/>                                                      |
+| <dl> <dt>**\_OK**</dt> </dl>          | Réussite.<br/>                                                      |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | Argument non valide.<br/>                                             |
 | <dl> <dt>**E \_ NOinterface**</dt> </dl> | L’objet spécifié par le paramètre *pNext* n’est pas un objet source.<br/> |
 | <dl> <dt>**\_pointeur E**</dt> </dl>     | Argument de pointeur **null** .<br/>                                    |
@@ -69,7 +69,7 @@ Retourne une valeur **HRESULT** . Les valeurs de retour possibles sont les suiva
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Comme c’est actuellement le cas, cette méthode ignore les effets sur *pNext*.
 
@@ -85,7 +85,7 @@ Pour que cette méthode aboutisse, *pNext* doit être une trame de correspondanc
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

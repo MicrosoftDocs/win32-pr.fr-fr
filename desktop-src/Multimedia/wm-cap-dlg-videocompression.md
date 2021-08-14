@@ -3,7 +3,7 @@ title: Message WM_CAP_DLG_VIDEOCOMPRESSION (VFW. h)
 description: Le \_ message WM Cap \_ DLG \_ VIDEOCOMPRESSION affiche une boîte de dialogue dans laquelle l’utilisateur peut sélectionner un compresseur à utiliser pendant le processus de capture.
 ms.assetid: 526e4b5d-49a4-4bb5-92d6-cdd567636354
 keywords:
-- Message WM_CAP_DLG_VIDEOCOMPRESSION Windows Multimedia
+- message WM_CAP_DLG_VIDEOCOMPRESSION Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d851f73df7adbc205585eb7c69ad9d4d969aba66
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 816aeb26455ba375b4446edc275ec4fbaa318b67b1fea64bd6049760f45d8235
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135442"
 ---
 # <a name="wm_cap_dlg_videocompression-message"></a>\_Message WM Cap \_ DLG \_ VIDEOCOMPRESSION
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez ce message avec des pilotes de capture qui fournissent des frames uniquement au \_ format RGB de bi. Ce message est particulièrement utile dans l’opération de capture d’étape pour combiner la capture et la compression en une seule opération. La compression des frames avec un compresseur logiciel dans le cadre d’une opération de capture en temps réel est probablement trop longue.
 

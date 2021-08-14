@@ -4,12 +4,12 @@ ms.assetid: e8adc655-0252-4a43-8a62-b08e96f5744e
 title: Message WM_COMPACTING (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fb94e77a1c6b27701b26ed4b7e6e01f326aaa40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 553662bccb223ed7fb987df5d2918e3d8d1c6ab95f125cbacbd50c1e2484c0c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106542959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200570"
 ---
 # <a name="wm_compacting-message"></a>\_Message de compactage WM
 
@@ -18,7 +18,7 @@ Envoyé à toutes les fenêtres de niveau supérieur lorsque le système détect
 Une fenêtre reçoit ce message par le biais de sa fonction [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) .
 
 > [!Note]  
-> Ce message est fourni uniquement pour la compatibilité avec les applications Windows 16 bits.
+> ce message est fourni uniquement à des fins de compatibilité avec les applications à base de Windows 16 bits.
 
  
 
@@ -53,7 +53,7 @@ Type : **LRESULT**
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’une application reçoit ce message, elle doit libérer autant de mémoire que possible, en tenant compte du niveau actuel d’activité de l’application et du nombre total d’applications en cours d’exécution sur le système.
 
@@ -73,7 +73,7 @@ Lorsqu’une application reçoit ce message, elle doit libérer autant de mémoi
 
 <dl> <dt>
 
-[Vue d’ensemble de Windows](windows.md)
+[Windows Vue](windows.md)
 </dt> </dl>
 
  

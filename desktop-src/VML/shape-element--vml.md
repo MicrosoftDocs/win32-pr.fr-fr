@@ -4,21 +4,21 @@ description: Élément Shape (VML)
 ms.assetid: bc0db691-f0f0-4a99-adbb-8a5f5cfd9c00
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 085fb26339aa4db26b3b8680db9f706990102278
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: d1ce528e8579bda60a00a2a835d3ffe89667be6bfed7a13308b4826cf131bda6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104383080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117754164"
 ---
 # <a name="shape-element-vml"></a>Élément Shape (VML)
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Élément de niveau supérieur utilisé pour décrire une forme.
 
@@ -66,9 +66,9 @@ Les attributs suivants modifient une forme.
 | [Margin-right](msdn-online-vml-margin-right-attribute.md)                                         | Spécifie le bord droit du rectangle conteneur de la forme par rapport au point d’ancrage de la forme.     |
 | [Margin-haut](msdn-online-vml-margin-top-attribute.md)                                             | Spécifie le bord supérieur du rectangle conteneur de la forme par rapport au point d’ancrage de la forme.       |
 | [MSO-position-horizontal](msdn-online-vml-mso-position-horizontal-attribute.md)                   | Spécifie les données de positionnement horizontal pour les objets dans Microsoft Word.                       |
-| [MSO-position-horizontal-relative](msdn-online-vml-mso-position-horizontal-relative-attribute.md) | Spécifie les données de la position horizontale relative des objets dans Microsoft Word.                     |
+| [MSO-position-horizontal-relative](msdn-online-vml-mso-position-horizontal-relative-attribute.md) | Spécifie les données de position horizontale relatives pour les objets dans Microsoft Word.                     |
 | [MSO-position-vertical](msdn-online-vml-mso-position-vertical-attribute.md)                       | Spécifie les données de position verticale pour les objets dans Microsoft Word.                            |
-| [MSO-position-vertical-relative](msdn-online-vml-mso-position-vertical-relative-attribute.md)     | Spécifie des données de position verticale relatives pour les objets dans Microsoft Word.                       |
+| [MSO-position-vertical-relative](msdn-online-vml-mso-position-vertical-relative-attribute.md)     | Spécifie les données de position verticale relatives pour les objets dans Microsoft Word.                       |
 | [MSO-Wrap-distance-bas](msdn-online-vml-mso-wrap-distance-bottom-attribute.md)                 | Définit la distance entre le côté inférieur de la forme et le texte qui l’entoure.       |
 | [MSO-Wrap-distance-gauche](msdn-online-vml-mso-wrap-distance-left-attribute.md)                     | Définit la distance entre le côté gauche de la forme et le texte qui l’entoure.         |
 | [MSO-Wrap-distance-Right](msdn-online-vml-mso-wrap-distance-right-attribute.md)                   | Définit la distance entre le côté droit de la forme et le texte qui l’entoure.        |
@@ -87,7 +87,7 @@ Les attributs suivants modifient une forme.
 | [Rotation](rotation-attribute--shape--vml.md)                                                     | Définit l’angle de rotation d’une forme.                                                     |
 | [RuleInitiator](msdn-online-vml-ruleinitiator-attribute.md)                                       | Détermine si un moteur de règles sera utilisé.                                                |
 | [RuleProxy](msdn-online-vml-ruleproxy-attribute.md)                                               | Détermine si un proxy pour le moteur de règles sera utilisé.                                  |
-| [Arborescence](msdn-online-vml-spt-attribute.md)                                                           | Définit un nombre utilisé en interne par Microsoft Office pour identifier les types de formes.              |
+| [Arborescence](msdn-online-vml-spt-attribute.md)                                                           | définit un nombre utilisé en interne par Microsoft Office pour identifier les types de formes.              |
 | [StrokeColor](msdn-online-vml-strokecolor-attribute.md)                                           | Définit la couleur du pinceau qui dessine le tracé d’une forme.                                      |
 | [Rayé](msdn-online-vml-stroked-attribute.md)                                                   | Définit si le chemin d’accès doit être rayé.                                                      |
 | [StrokeWeight](msdn-online-vml-strokeweight-attribute.md)                                         | Définit l’épaisseur du pinceau qui dessine le tracé d’une forme.                                  |
@@ -106,7 +106,7 @@ Les attributs suivants modifient une forme.
 
 
 
- 
+ 
 
 **Remarques**
 
@@ -125,7 +125,7 @@ Voici le code minimal nécessaire pour produire une forme. Vous devez définir l
 
 
 
-En outre, vous devez placer le code suivant dans votre élément [**HTML**](https://msdn.microsoft.com/library/ms535255(v=VS.85).aspx) de votre page Web pour obtenir les schémas corrects pour les extensions VML et Microsoft Office. Si vous n’utilisez pas d’extensions Office, vous pouvez omettre le deuxième schéma.
+en outre, vous devez placer le code suivant dans votre élément [**HTML**](https://msdn.microsoft.com/library/ms535255(v=VS.85).aspx) de votre page web pour obtenir les schémas corrects pour les Extensions VML et Microsoft Office. si vous n’utilisez pas d’Extensions Office, vous pouvez omettre le deuxième schéma.
 
 
 ```HTML
@@ -135,7 +135,7 @@ xmlns:o="urn:schemas-microsoft-com:office:office"
 
 
 
-Vous devez également disposer des éléments suivants dans votre élément de [**style**](https://developer.mozilla.org/docs/Web/HTML/Element/style) pour inscrire le comportement des extensions VML et Microsoft Office. Si vous n’utilisez pas d’extensions Office, vous pouvez omettre la deuxième définition de comportement.
+vous devez également disposer des éléments suivants dans votre élément de [**STYLE**](https://developer.mozilla.org/docs/Web/HTML/Element/style) pour inscrire le comportement des Extensions VML et Microsoft Office. si vous n’utilisez pas d’Extensions Office, vous pouvez omettre la deuxième définition de comportement.
 
 
 ```HTML
@@ -155,7 +155,7 @@ Les éléments suivants sont des sous-éléments de Shape.
 |----------------------------------------------------|-----------------------------------|
 | [Légende](msdn-online-vml-callout-element.md)     | Définit une légende pour une forme.    |
 | [Extrusion](msdn-online-vml-extrusion-element.md) | Définit une extrusion pour une forme. |
-| [Complète](msdn-online-vml-fill-element.md)           | Définit un remplissage pour une forme.       |
+| [Remplir](msdn-online-vml-fill-element.md)           | Définit un remplissage pour une forme.       |
 | [Formules](msdn-online-vml-formulas-element.md)   | Définit des formules pour une forme.     |
 | [Poignées](msdn-online-vml-handles-element.md)     | Définit des handles pour une forme.      |
 | [Imagedata](msdn-online-vml-imagedata-element.md) | Définit des données d’image pour une forme.   |
@@ -169,7 +169,7 @@ Les éléments suivants sont des sous-éléments de Shape.
 
 
 
- 
+ 
 
 **Autres éléments**
 
@@ -185,7 +185,7 @@ Les éléments de niveau supérieur suivants fonctionnent avec Shape.
 
 
 
- 
+ 
 
 **Formes prédéfinies**
 
@@ -206,7 +206,7 @@ Les formes prédéfinies sont les mêmes que les formes normales, sauf que certa
 
 
 
- 
+ 
 
 **Voir aussi**
 
@@ -239,6 +239,6 @@ o\:* { behavior: url(#default#VML);}
 
 
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 3337e74a621b6431b5bbfa429692717def447c82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9eaab17f0a76bfc5c6ac919a9abef92ca7288539c9705ca30c02b1dd0a8d1ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118035220"
 ---
 # <a name="iwiaitem2devicedlg-method"></a>IWiaItem2 ::D méthode eviceDlg
 
@@ -84,9 +84,9 @@ Spécifie le nom du fichier de modèle.
 *plNumFiles* \[ dans\]
 </dt> <dd>
 
-Type : **long \** _
+Type : **long \***
 
-Pointeur vers le nombre d’éléments dans le tableau _ppbstrFilePaths *.
+Pointeur vers le nombre d’éléments dans le tableau *ppbstrFilePaths* .
 
 </dd> <dt>
 
@@ -114,7 +114,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode affiche une boîte de dialogue à l’utilisateur qu’une application utilise pour rassembler toutes les informations requises pour l’acquisition d’images. Il est également utilisé pour spécifier des propriétés d’analyse d’images telles que la luminosité et le contraste.
 
@@ -128,8 +128,8 @@ Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

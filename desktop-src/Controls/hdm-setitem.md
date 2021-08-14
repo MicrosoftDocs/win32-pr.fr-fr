@@ -3,7 +3,7 @@ title: Message HDM_SETITEM (commctrl. h)
 description: Définit les attributs de l’élément spécifié dans un contrôle header. Vous pouvez envoyer ce message explicitement ou utiliser la macro d’en-tête \_ SetItem.
 ms.assetid: c8f0d526-3ebe-48c5-8aea-ea3703e2d983
 keywords:
-- HDM_SETITEM les contrôles de message Windows
+- HDM_SETITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71b03a05b909cf8c7887edd2031f5346c419f1cf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dd0e2709a1b40bd4a564498cd0ae0b5d4e11861066aa9b0951815f92ee1c295f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118171064"
 ---
 # <a name="hdm_setitem-message"></a>\_Message HDM SETITEM
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl-hditema) qui prend en charge ce message prend en charge les informations sur l’ordre des éléments et la liste d’images. À l’aide de ces membres, vous pouvez contrôler l’ordre dans lequel les éléments sont affichés et spécifier les images à afficher avec les éléments.
 
@@ -59,8 +59,8 @@ La structure [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl-hditema) qui p
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **HDM \_ SETITEMW** (Unicode) et **HDM \_ SETITEMA** (ANSI)<br/>                   |
 

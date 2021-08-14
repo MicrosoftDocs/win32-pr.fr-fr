@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 3e256329bc235f7fe5a0428ba33710fa6b838f04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 947cda4094491702fa0f847e6a8abd4fed7bcbe9bd3504c5f8aec2097b0d6b8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220935"
 ---
 # <a name="ishellfoldersearchablefindstring-method"></a>IShellFolderSearchable :: FindString, méthode
 
@@ -54,18 +54,18 @@ Pointeur vers une chaîne qui spécifie le mot clé de recherche.
 *pdwFlags* \[ dans\]
 </dt> <dd>
 
-Type : **DWORD \** _
+Type : **DWORD \***
 
-Aucun indicateur n’est actuellement défini. définissez sur _ * NULL * *.
+Aucun indicateur n’est actuellement défini. Affectez la valeur **null**.
 
 </dd> <dt>
 
 *punkOnAsyncSearch* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) \** _
+Type : **[ **IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-Pointeur vers un objet de type [_ *IUnknown* *](/windows/win32/api/unknwn/nn-unknwn-iunknown). Cet objet doit prendre en charge l’interface [**IShellFolderSearchableCallback**](ishellfoldersearchablecallback.md) . Affectez la valeur **null** si aucun rappel n’est nécessaire.
+Pointeur vers un objet de type [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown). Cet objet doit prendre en charge l’interface [**IShellFolderSearchableCallback**](ishellfoldersearchablecallback.md) . Affectez la valeur **null** si aucun rappel n’est nécessaire.
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

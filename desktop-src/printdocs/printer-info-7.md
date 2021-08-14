@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 3dfa92ead4a1f7dab4f0610145e1e1dee7d04065
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8ba37176bb970883533be1e0ddcc47a09b164bf48767442f75096828c9bce5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867765"
 ---
 # <a name="printer_info_7-structure"></a>\_Structure info 7 de l’imprimante \_
 
@@ -72,7 +72,7 @@ Indique l’action à effectuer par la fonction [**SetPrinter**](setprinter.md) 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **structure \_ info \_ 7** de l’imprimante est utilisée dans un appel [**SetPrinter**](setprinter.md) pour publier des informations sur l’imprimante dans le service d’annuaire. Les données publiées incluent l’ensemble des valeurs et des données pour l’imprimante spécifiée, qui se trouvent sous la \_ clé de spouleur SPLDS \_ , la clé de \_ pilote SPLDS ou les clés de clé d' \_ \_ utilisateur SPLDS \_ créées par [**SetPrinterDataEx**](setprinterdataex.md).
 

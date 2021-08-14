@@ -4,12 +4,12 @@ description: Les cases à cocher sont utilisées pour activer ou désactiver une
 ms.assetid: cdbaa152-82c2-4a5b-82a8-fed9b8ed63b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8baacf729e9512b24a6d576a81cab093cffc93c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 49b23e5557ffaed87a9cbde1959b4b8a1773c38cbdbefeda24cde6dad432e4df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118326156"
 ---
 # <a name="check-box-msaa-ui-element-reference"></a>Case à cocher (référence des éléments d’interface utilisateur MSAA)
 

@@ -4,12 +4,12 @@ ms.assetid: ad1ff45c-7d02-431b-a287-e9db765476ce
 title: Contextes de fournisseur de services de chiffrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df20df528b0ba0c385c7ab690436351d918f1521
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53ad2e77178ade8cc286dae1ff7334c89d33e46a63af227503f8e163f7d81cec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768631"
 ---
 # <a name="cryptographic-service-provider-contexts"></a>Contextes de fournisseur de services de chiffrement
 

@@ -1,19 +1,19 @@
 ---
-description: Fournit des informations sur le codec DDS natif disponible via le composant WIC (Windows Imaging Component).
+description: fournit des informations sur le codec DDS natif disponible via le composant WIC (Windows Imaging Component).
 ms.assetid: 6CFDD674-C8AE-4F29-B2E5-C9C9431CB85A
 title: Vue d’ensemble du format DDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f860a5759218575acb53be5f2142e71aa34e9554
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: f6a9fd00f17d17b7bb227a04e56bbc9369de86eb03f9c953a73267400d4a6df9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204476"
 ---
 # <a name="dds-format-overview"></a>Vue d’ensemble du format DDS
 
-Cette rubrique fournit des informations sur le codec DDS natif disponible via le composant WIC (Windows Imaging Component).
+cette rubrique fournit des informations sur le codec DDS natif disponible via le composant WIC (Windows Imaging Component).
 
 ## <a name="codec-identity"></a>Identité du codec
 

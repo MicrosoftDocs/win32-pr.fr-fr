@@ -4,12 +4,12 @@ ms.assetid: 67f79c31-9dd7-4e3f-bfe1-701b10611f91
 title: Inscription d’un fournisseur de temps
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a98e5e516db6b2c800c917c5e47da9bd75ba5c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6eeb7bce1370e443eaf3eb42d78cdfd058cf2c38147da038de1e921d85e957f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763924"
 ---
 # <a name="registering-a-time-provider"></a>Inscription d’un fournisseur de temps
 
@@ -24,7 +24,7 @@ Le tableau suivant décrit les valeurs qui doivent exister dans la clé de chaqu
 | Valeur             | Description                                                                                                                                                                                                              |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **DllName**       | Nom de la DLL qui contient le fournisseur. Cette valeur est du type **reg \_ SZ**.                                                                                                                                     |
-| **Enabled**       | Indique si le fournisseur doit être démarré. Si la valeur est 1, le fournisseur est démarré. Dans le cas contraire, le fournisseur n’est pas démarré. Cette valeur est de type **reg \_ DWORD**.                                           |
+| **Activé**       | Indique si le fournisseur doit être démarré. Si la valeur est 1, le fournisseur est démarré. Dans le cas contraire, le fournisseur n’est pas démarré. Cette valeur est de type **reg \_ DWORD**.                                           |
 | **InputProvider** | Indique si le fournisseur est un fournisseur d’entrée ou un fournisseur de sortie. Si la valeur est 1, le fournisseur est un fournisseur d’entrée. Dans le cas contraire, le fournisseur est un fournisseur de sortie. Cette valeur est de type **reg \_ DWORD**. |
 
 

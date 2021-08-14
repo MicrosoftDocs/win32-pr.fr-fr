@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 24a944b011c926d1638e5d0bcb0d35fc348e5783
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3a3c265f71b0bdf66d7825e65eb69ab975bfc6bffa5c9a8674ed5a0fb8feb38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118224931"
 ---
 # <a name="creating-an-autorun-enabled-application"></a>Création d’une application AutoRun-Enabled
 
@@ -36,16 +36,16 @@ Lorsqu’un utilisateur insère un disque dans un lecteur de CD-ROM sur un ordin
 Autorun. inf est un fichier texte situé dans le répertoire racine du CD-ROM qui contient votre application. Sa fonction principale est de fournir au système le nom et l’emplacement du programme de démarrage de l’application qui sera exécuté lors de l’insertion du disque.
 
 > [!Note]  
-> Les fichiers autorun. inf ne sont pas pris en charge sous Windows XP pour les lecteurs qui retournent un lecteur \_ amovible de [**GetDriveType**](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea).
+> les fichiers Autorun. inf ne sont pas pris en charge sous Windows XP pour les lecteurs qui retournent un disque \_ amovible de [**GetDriveType**](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea).
 
  
 
 Le fichier autorun. inf peut également contenir des informations facultatives, notamment :
 
--   Nom d’un fichier qui contient une icône qui représente le lecteur de CD-ROM de votre application. Cette icône sera affichée par l’Explorateur Windows à la place de l’icône de lecteur standard.
+-   Nom d’un fichier qui contient une icône qui représente le lecteur de CD-ROM de votre application. cette icône sera affichée par Windows Explorer à la place de l’icône de lecteur standard.
 -   Commandes supplémentaires pour le menu contextuel qui s’affiche quand l’utilisateur clique avec le bouton droit sur l’icône CD-ROM. Vous pouvez également spécifier la commande par défaut qui est exécutée lorsque l’utilisateur double-clique sur l’icône.
 
-Les fichiers autorun. inf sont similaires aux fichiers. ini. Ils se composent d’une ou de plusieurs sections, chacune portant un nom placé entre crochets. Chaque section contient une série de commandes qui seront exécutées par l’interpréteur de commandes lorsque le disque est inséré. Deux sections sont actuellement définies pour les fichiers autorun. inf.
+Les fichiers autorun. inf sont similaires aux fichiers .ini. Ils se composent d’une ou de plusieurs sections, chacune portant un nom placé entre crochets. Chaque section contient une série de commandes qui seront exécutées par l’interpréteur de commandes lorsque le disque est inséré. Deux sections sont actuellement définies pour les fichiers autorun. inf.
 
 -   La section **\[ Autorun \]** contient les commandes d’exécution automatique par défaut. Tous les fichiers autorun. inf doivent disposer d’une section d' **\[ exécution automatique \]** .
 -   Une section **\[ Autorun. alpha \]** facultative peut être incluse pour les systèmes qui s’exécutent sur des ordinateurs basés sur RISC. Lorsqu’un disque est inséré dans un lecteur de CD-ROM sur un système RISC, l’interpréteur de commandes exécute les commandes de cette section au lieu de celles figurant dans la section d' **\[ exécution automatique \]** .
@@ -62,7 +62,7 @@ Chaque section contient une série de commandes qui déterminent la façon dont 
 | Commande                         | Description                                                                            |
 |---------------------------------|----------------------------------------------------------------------------------------|
 | [DefaultIcon](autorun-cmds.md) | Spécifie l’icône par défaut pour l’application.                                        |
-| [située](autorun-cmds.md)        | Spécifie le chemin d’accès et le nom de fichier d’une icône spécifique à l’application pour le lecteur de CD-ROM. |
+| [Icône](autorun-cmds.md)        | Spécifie le chemin d’accès et le nom de fichier d’une icône spécifique à l’application pour le lecteur de CD-ROM. |
 | [open](autorun-cmds.md)        | Spécifie le chemin d’accès et le nom de fichier de l’application de démarrage.                           |
 | [useautorun](autorun-cmds.md)  | Spécifie que les fonctionnalités de lecture automatique v2 doivent être utilisées si elles sont prises en charge.                       |
 | [Shell](autorun-cmds.md)       | Définit la commande par défaut dans le menu contextuel du CD-ROM.                             |
@@ -100,14 +100,14 @@ icon=IconFile.ico
 
 ## <a name="the-deviceinstall-section"></a>\[Section DeviceInstall \]
 
-Vous pouvez utiliser la section **\[ DeviceInstall \]** sur n’importe quel support amovible. Il est pris en charge uniquement sous Windows XP. Vous utilisez **DriverPath** pour spécifier un chemin d’accès de répertoire dans lequel Windows XP recherche des fichiers de pilote, ce qui empêche une recherche longue dans tout le contenu.
+Vous pouvez utiliser la section **\[ DeviceInstall \]** sur n’importe quel support amovible. il est pris en charge uniquement sous Windows XP. vous utilisez **DriverPath** pour spécifier un chemin d’accès de répertoire dans lequel Windows XP recherche des fichiers de pilote, ce qui empêche toute recherche longue dans tout le contenu.
 
-Vous utilisez la section **\[ DeviceInstall \]** avec une installation de pilote pour spécifier les répertoires dans lesquels Windows XP doit rechercher les fichiers de pilote dans le média. Sous Windows XP, les éléments multimédias complets ne sont plus recherchés par défaut, ce qui nécessite que **\[ DeviceInstall \]** spécifie les emplacements de recherche. Les éléments suivants sont les seuls supports amovibles que Windows XP recherche entièrement sans section **\[ DeviceInstall \]** dans un fichier autorun. inf.
+vous utilisez la section **\[ DeviceInstall \]** avec une installation de pilote pour spécifier les répertoires dans lesquels Windows XP doit rechercher les fichiers de pilote dans le média. sous Windows XP, les supports entiers ne sont plus recherchés par défaut, ce qui nécessite que **\[ DeviceInstall \]** spécifie les emplacements de recherche. voici le seul support amovible qui Windows XP effectue une recherche complète sans section **\[ DeviceInstall \]** dans un fichier Autorun. inf.
 
 -   Disquettes détectées dans les lecteurs A ou B.
 -   Support CD/DVD moins de 1 gigaoctet (Go).
 
-Tous les autres supports doivent inclure une section **\[ DeviceInstall \]** pour Windows XP afin de détecter les pilotes stockés sur ce média.
+tous les autres supports doivent inclure une section **\[ DeviceInstall \]** pour Windows XP afin de détecter les pilotes stockés sur ce média.
 
 > [!Note]  
 > Comme avec la section d' **\[ exécution automatique \]** , la section **\[ DeviceInstall \]** peut être spécifique à l’architecture.

@@ -1,17 +1,17 @@
 ---
 description: L’exemple suivant utilise les fonctions GetComputerName, GetUserName, GetSystemDirectory, GetWindowsDirectory et ExpandEnvironmentStrings pour récupérer des informations qui décrivent la configuration du système.
 ms.assetid: 965bd14b-be93-4084-bce8-642f5704cef1
-title: Obtention d’informations système
+title: Obtention de System Information
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 399cf2473358afed5cf870d379a147197945aedd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad25c4be03121d8139a3eeea253370bfcae20997736df109e0f116144f866ccb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764444"
 ---
-# <a name="getting-system-information"></a>Obtention d’informations système
+# <a name="getting-system-information"></a>Obtention de System Information
 
 L’exemple suivant utilise les fonctions [**GetComputerName**](/windows/desktop/api/Winbase/nf-winbase-getcomputernamea), [**getUserName**](/windows/desktop/api/Winbase/nf-winbase-getusernamea), [**GetSystemDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya), [**GetWindowsDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya)et [**ExpandEnvironmentStrings**](/windows/win32/api/processenv/nf-processenv-expandenvironmentstringsa) pour récupérer des informations qui décrivent la configuration du système.
 

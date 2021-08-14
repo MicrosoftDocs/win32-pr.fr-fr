@@ -4,16 +4,16 @@ ms.assetid: 27bcf36a-1826-4603-9821-22fcc5c1e186
 title: Constantes RENDBIND_ (rend. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: badd2a48b2ae0632e317522533c664d4f74a6c77
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c618ed2cf5d9dda4c2ee14b331e3603f8021e9c5f4755e38ecfb5929b5f45c23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760862"
 ---
 # <a name="rendbind_-constants"></a>\_Constantes RENDBIND
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 Les constantes RENDBIND sont des indicateurs utilisés par la méthode [**ITDirectory :: bind**](/windows/desktop/api/Rend/nf-rend-itdirectory-bind) pour indiquer les types d’authentification fournis.
 

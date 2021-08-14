@@ -1,6 +1,6 @@
 ---
 title: Structure WMDRMNET_POLICY_TRANSCRYPTPLAY (wmdrmsdk. h)
-description: La \_ structure TRANSCRYPTPLAY de la stratégie WMDRMNET \_ contient les informations de stratégie pour la diffusion de contenu à l’aide de Windows Media DRM pour les périphériques réseau.
+description: la \_ \_ structure TRANSCRYPTPLAY de la stratégie WMDRMNET contient les informations de stratégie pour la diffusion de contenu à l’aide de Windows Media DRM pour les périphériques réseau.
 ms.assetid: 95671c58-a593-40bb-856e-28ad1cba340e
 keywords:
 - Structure WMDRMNET_POLICY_TRANSCRYPTPLAY format Windows Media
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0681251428b87b323c9ad3e73277ec8cdd2b95f0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8fe64c796a1f2f15e4733e7dd3d82e918306fb95d78c61fb85ad2d813d946d60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118195504"
 ---
 # <a name="wmdrmnet_policy_transcryptplay-structure"></a>\_ \_ Structure TRANSCRYPTPLAY de la stratégie WMDRMNET
 
-La **structure \_ \_ TRANSCRYPTPLAY de la stratégie WMDRMNET** contient les informations de stratégie pour la diffusion de contenu à l’aide de Windows Media DRM pour les périphériques réseau.
+la **structure \_ \_ TRANSCRYPTPLAY de la stratégie WMDRMNET** contient les informations de stratégie pour la diffusion de contenu à l’aide de Windows Media DRM pour les périphériques réseau.
 
 ## <a name="syntax"></a>Syntaxe
 

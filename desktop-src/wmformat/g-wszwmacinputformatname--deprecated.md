@@ -1,6 +1,6 @@
 ---
 title: g_wszWMACInputFormatName (Wmcodecdsp. h)
-description: Pour obtenir la documentation actuelle sur les codecs Windows Media et les processeurs de signaux numériques, consultez Windows Media Audio et les API de codec vidéo et DSP. | g_wszWMACInputFormatName (Wmcodecdsp. h)
+description: pour obtenir la documentation actuelle sur Windows les codecs multimédias et les processeurs de signaux numériques, consultez Windows Media Audio et les api de codec vidéo et DSP. | g_wszWMACInputFormatName (Wmcodecdsp. h)
 ms.assetid: a3fde3d4-cc56-405f-aff4-57b30d334fbd
 keywords:
 - Format Windows Media g_wszWMACInputFormatName
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ff5a60a0f0110658ec423caf23d0d71630b3009
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 70a3af626699ef5c7a5e28f24d92efc75035a9df8a4dedeafebeae20bc88fe00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118028743"
 ---
 # <a name="g_wszwmacinputformatname"></a>\_wszWMACInputFormatName g
 
-Pour obtenir la documentation actuelle sur les codecs Windows Media et les processeurs de signaux numériques, consultez [Windows Media audio et les API de codec vidéo et DSP.](/previous-versions//dd464626(v=vs.85))
+pour obtenir la documentation actuelle sur Windows les codecs multimédias et les processeurs de signaux numériques, consultez [Windows Media Audio et les api de codec vidéo et DSP.](/previous-versions//dd464626(v=vs.85))
 
 ## <a name="requirements"></a>Configuration requise
 

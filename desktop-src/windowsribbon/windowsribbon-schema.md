@@ -1,28 +1,28 @@
 ---
 title: Déclaration des commandes et des contrôles avec le balisage du ruban
-description: L’infrastructure de ruban Windows utilise un langage de balisage basé sur Extensible Application Markup Language (XAML) pour implémenter de manière déclarative l’apparence d’une application de ruban.
+description: l’infrastructure de ruban Windows utilise un langage de balisage basé sur Extensible Application Markup Language (XAML) pour implémenter de manière déclarative l’apparence d’une Application de ruban.
 ms.assetid: 76bacfb3-ecaf-47b3-be97-afa5e7e52330
 keywords:
-- Ruban Windows, structure de balisage
+- Windows Ruban, structure de balisage
 - Ruban, structure de balisage
-- Ruban Windows, séparation de la présentation de la logique de commande
+- Windows Ruban, séparation de la présentation de la logique de commande
 - Ruban, séparation de la présentation de la logique de commande
-- Ruban Windows, composants
+- Windows Ruban, composants
 - Ruban, composants
-- système de commandes pour le ruban Windows
-- contrôles pour le ruban Windows
+- système de commandes pour Windows ruban
+- contrôles pour Windows ruban
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c97c5c193332ce217709c825a58f0ae546c03c9c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 20ae6c8d62012fac240c6d044c688295d89d8d5899e3673a3b914d8d142111d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118201321"
 ---
 # <a name="declaring-commands-and-controls-with-ribbon-markup"></a>Déclaration des commandes et des contrôles avec le balisage du ruban
 
-L’infrastructure de ruban Windows utilise un langage de balisage basé sur Extensible Application Markup Language (XAML) pour implémenter de manière déclarative l’apparence d’une application de ruban.
+l’infrastructure de ruban Windows utilise un langage de balisage basé sur Extensible Application Markup Language (XAML) pour implémenter de manière déclarative l’apparence d’une Application de ruban.
 
 -   [Séparation de la présentation de la logique de commande](#separating-presentation-from-command-logic)
 -   [Structure de balisage](#markup-structure)
@@ -175,6 +175,6 @@ Voici un exemple de fichier d’en-tête généré par UICC.
 [Compilation du balisage du ruban](windowsribbon-intentcl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 617ddbf4-212f-4990-93c2-f38f04b035ab
 title: Constantes LINEEQOSINFO_ (TSPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 423cc6172a1c6c87c1f3bb38929f727a15dad5c4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0c07a2d532e578b1f7df752cfd4930660d1d22dd4dd8406f0f8cc8bd61924bf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761392"
 ---
 # <a name="lineeqosinfo_-constants"></a>\_Constantes LINEEQOSINFO
 

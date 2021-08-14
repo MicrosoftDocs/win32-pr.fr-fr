@@ -1,19 +1,19 @@
 ---
-description: Les utilisateurs Windows peuvent enregistrer les recherches dans un dossier de recherche généré par un fichier XML qui stocke la requête dans un formulaire qui peut être utilisé par le sous-système de recherche Windows.
+description: Windows utilisateurs peuvent enregistrer des recherches dans un dossier de recherche généré par un fichier XML qui stocke la requête dans un formulaire qui peut être utilisé par le sous-système de recherche Windows.
 ms.assetid: 1c73e220-a999-4243-879c-ac7310151def
 title: Format de fichier de recherche enregistré
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d19cf936f78b045814bf7cba31a123c40d61927a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 614eb357a82d2c70e068a9fa5258974423d755c48e779d5f5fe8be184a864d9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863722"
 ---
 # <a name="saved-search-file-format"></a>Format de fichier de recherche enregistré
 
-Dans Windows Vista et les versions ultérieures, les utilisateurs peuvent enregistrer les recherches sous forme de dossier de recherche, qui est généré par un fichier XML qui stocke la requête dans un format qui peut être utilisé par le sous-système de recherche Windows. Cette rubrique décrit le format de fichier ( \* . search-ms) et comprend les sections suivantes :
+dans Windows Vista et versions ultérieures, les utilisateurs peuvent enregistrer des recherches dans un dossier de recherche généré par un fichier XML qui stocke la requête dans un formulaire qui peut être utilisé par le sous-système de recherche Windows. Cette rubrique décrit le format de fichier ( \* . search-ms) et comprend les sections suivantes :
 
 - [Vue d’ensemble des recherches enregistrées](#overview-of-saved-searches)
 - [\<viewInfo> Appartient](/windows)
@@ -27,7 +27,7 @@ Dans Windows Vista et les versions ultérieures, les utilisateurs peuvent enregi
 
 ## <a name="overview-of-saved-searches"></a>Vue d’ensemble des recherches enregistrées
 
-Les utilisateurs peuvent enregistrer une requête de recherche en tant que dossier de recherche, un dossier virtuel affiché dans l’Explorateur Windows sous le dossier recherches. L’ouverture d’un dossier de recherche exécute la recherche enregistrée et affiche les résultats mis à jour. Le fichier de recherche enregistré stocke la requête dans un format dans lequel Windows Search peut agir, en spécifiant les éléments à rechercher, l’emplacement de la recherche et la manière de présenter les résultats.
+les utilisateurs peuvent enregistrer une requête de recherche en tant que dossier de recherche, un dossier virtuel affiché dans Windows Explorer sous le dossier recherches. L’ouverture d’un dossier de recherche exécute la recherche enregistrée et affiche les résultats mis à jour. le fichier de recherche enregistré stocke la requête dans un format Windows la recherche peut agir, en spécifiant les éléments à rechercher, l’emplacement de la recherche et la manière de présenter les résultats.
 
 La recherche enregistrée est générée à partir d’un fichier XML ( \* . search-ms) dans le dossier% UserProfile% \\ Searches. Les données sont divisées en trois éléments principaux dans le fichier XML :
 
@@ -113,7 +113,7 @@ Le tableau suivant décrit les attributs d’un de l’élément \<viewInfo>.
 
 ### <a name="viewinfo-child-elements"></a>\<viewInfo> Éléments enfants
 
-Les éléments enfants de l' \<viewInfo> élément spécifient les colonnes qui s’affichent dans les résultats de recherche de l’Explorateur Windows et la façon dont les résultats sont regroupés et triés. Chaque élément enfant contient un ensemble ordonné de colonnes, identifiées par des noms canoniques de propriétés système (par exemple, System. DisplayName). S’ils ne sont pas définis dans le fichier de recherche enregistré, les résultats de la recherche sont présentés avec un ensemble de colonnes par défaut approprié pour les types de fichiers affichés.
+les éléments enfants de l' \<viewInfo> élément spécifient les colonnes qui s’affichent dans les résultats de recherche de l’explorateur de Windows et la manière dont les résultats sont regroupés et triés. Chaque élément enfant contient un ensemble ordonné de colonnes, identifiées par des noms canoniques de propriétés système (par exemple, System. DisplayName). S’ils ne sont pas définis dans le fichier de recherche enregistré, les résultats de la recherche sont présentés avec un ensemble de colonnes par défaut approprié pour les types de fichiers affichés.
 
 | Élément               | Description                                                                                        | Valeurs                                                       |
 |-----------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
@@ -220,7 +220,7 @@ Ces éléments définissent l’Union du « genre » d’éléments qui doiven
 - video
 - webhistory
 - item
-- autre
+- Autres
 
 ### <a name="conditions-element"></a>Élément \<conditions>
 
@@ -412,7 +412,7 @@ Voici des exemples de \* fichiers. search-ms.
 </persistedQuery>
 ```
 
-### <a name="recent-musicsearch-ms"></a>Musique récente. search-ms
+### <a name="recent-musicsearch-ms"></a>récents Musique. search-ms
 
 ```XML
 <?xml version="1.0"?>

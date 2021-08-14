@@ -4,12 +4,12 @@ ms.assetid: 50bf2947-27ee-4092-9d3a-a1c13ee80e95
 title: Types de médias vidéo non compressés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c90a48aed62f22a492ac22dae93761c1046750a
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 69d01dab1179e0fc77872a7122e915e67c4c70dc98afd9586f02569c53e61547
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104530489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118057586"
 ---
 # <a name="uncompressed-video-media-types"></a>Types de médias vidéo non compressés
 

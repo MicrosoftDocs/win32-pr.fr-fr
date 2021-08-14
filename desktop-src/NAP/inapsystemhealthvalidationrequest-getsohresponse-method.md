@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc10174edc2bcb9df8e61c98305e42633d2b984b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7da93f53f3dcc9f4e566703d4d2f63415bb7feb9b0c00d5086fe598ab442e1d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106517324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117799056"
 ---
 # <a name="inapsystemhealthvalidationrequestgetsohresponse-method"></a>INapSystemHealthValidationRequest :: GetSoHResponse, méthode
 
@@ -77,7 +77,7 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                    |
 | En-tête<br/>                   | <dl> <dt>NapSystemHealthValidator. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapSystemHealthValidator. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qshvhost.dll</dt> </dl>                 |

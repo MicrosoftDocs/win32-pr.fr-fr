@@ -1,17 +1,17 @@
 ---
-description: Structures de recherche Windows
+description: Windows Rechercher dans les structures
 ms.assetid: 11c84bd0-9314-4c57-9466-57bcce7c2883
-title: Structures de recherche Windows
+title: Windows Rechercher dans les structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 920a072f631ef70cbcba8beb4cbea67cd9e48080
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0f14da856876b1a53e8eba063d007cd698984dfe18cd07a1e69ba7a5fcd3b95a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118226712"
 ---
-# <a name="windows-search-structures"></a>Structures de recherche Windows
+# <a name="windows-search-structures"></a>Windows Rechercher dans les structures
 
 
 Cette section décrit les structures suivantes :

@@ -4,12 +4,12 @@ description: La propriété DefaultAction d’un objet décrit la méthode princ
 ms.assetid: 8242c0af-b42e-44a4-8807-d6740fa1a24a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73dc032037c331a2022f227cb8e8547dd8bce9d2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6dd5aa70e0c6c633aa5b0ca3fe5c40049dbeb8cf2496c7785eea513821e1d5ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325753"
 ---
 # <a name="defaultaction-property"></a>DefaultAction, propriété
 
@@ -26,9 +26,9 @@ Certains objets n’ont pas d’actions par défaut, et certains objets ont une 
 -   Un bouton intitulé « Print » a une action par défaut « Press », sans valeur.
 -   Un contrôle de texte statique ou un contrôle d’édition qui affiche « Printer » n’a pas d’action par défaut, mais a la valeur « Printer ».
 
- 
+ 
 
- 
+ 
 
 
 

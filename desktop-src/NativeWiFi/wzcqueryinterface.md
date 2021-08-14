@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Wzcsapi.dll
-ms.openlocfilehash: 36457eebf5c38b32bb46eb8cfa44cae104f1bc6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3dd7ce876501486b9bec4dbad63ce5812b910b32b9dcdaa1eb80aff3e7cc415e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117797409"
 ---
 # <a name="wzcqueryinterface-function"></a>WZCQueryInterface fonction)
 
-\[**WZCQueryInterface** n’est plus pris en charge à compter de Windows Vista et de windows Server 2008. Utilisez à la place la fonction [**WlanQueryInterface**](/windows/desktop/api/Wlanapi/nf-wlanapi-wlanqueryinterface) . Pour plus d’informations, consultez [à propos de l’API WiFi Native](about-the-native-wifi-api.md). \]
+\[**WZCQueryInterface** n’est plus pris en charge à partir de Windows Vista et Windows Server 2008. Utilisez à la place la fonction [**WlanQueryInterface**](/windows/desktop/api/Wlanapi/nf-wlanapi-wlanqueryinterface) . Pour plus d’informations, consultez [à propos de l’API WiFi Native](about-the-native-wifi-api.md). \]
 
 La fonction **WZCQueryInterface** fournit des informations détaillées pour une interface de réseau local sans fil gérée par le service de configuration sans fil Zero.
 
@@ -116,7 +116,7 @@ Si la fonction échoue, la valeur de retour peut être l’un des codes de retou
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le membre **wszGuid** de la structure d' [**\_ entrée INTF**](intf-entry.md) vers laquelle pointe le paramètre *pIntf* doit contenir un GUID d’interface pour une interface de réseau local sans fil. Une liste d’interfaces de réseau local sans fil peut être récupérée en appelant la fonction [**WZCEnumInterfaces**](wzcenuminterfaces.md) .
 
@@ -129,7 +129,7 @@ Lorsque le paramètre *dwInFlags* contient **INTF \_ BSSIDLIST**, la fonction **
 Si la fonction **WZCQueryInterface** retourne \_ une erreur, l’appelant doit appeler la fonction [**LocalFree**](/windows/win32/api/winbase/nf-winbase-localfree) avec le paramètre *pIntf* pour libérer les mémoires tampons internes allouées pour les données retournées une fois que ces informations ne sont plus nécessaires. Cela libère les mémoires tampons utilisées par les membres **rdSSID**, **rdBSSID**, **rdBSSIDList**, **rdStSSIDList** et **rdCtrlData** de la structure d' [**\_ entrée INTF**](intf-entry.md) vers laquelle pointe le paramètre *pIntf* .
 
 > [!Note]  
-> Le fichier d’en-tête *wzcsapi. h* et le fichier de bibliothèque d’importation *wzcsapi. lib* ne sont pas disponibles dans le SDK Windows.
+> le fichier d’en-tête *Wzcsapi. h* et le fichier de bibliothèque d’importation *Wzcsapi. lib* ne sont pas disponibles dans le SDK Windows.
 
  
 
@@ -140,7 +140,7 @@ Si la fonction **WZCQueryInterface** retourne \_ une erreur, l’appelant doit a
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | Fin de la prise en charge des clients<br/>    | Windows XP avec SP3<br/>                                                         |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                         |
 | En-tête<br/>                   | <dl> <dt>Wzcsapi. h</dt> </dl>   |

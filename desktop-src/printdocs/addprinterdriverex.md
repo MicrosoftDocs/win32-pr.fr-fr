@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: c431d710ddad7f723d063fd5bf046bae08b77b7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00bd65ad415a97bbab825e4a13c8ad985d1d7f9b79d7b46e3f8f7ea6b5e5f0dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117868808"
 ---
 # <a name="addprinterdriverex-function"></a>AddPrinterDriverEx fonction)
 
@@ -128,7 +128,7 @@ Si le pilote d’imprimante rencontre des problèmes de fonctionnement avec le s
 
 Pour plus d'informations, consultez la section Notes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -141,7 +141,7 @@ Avant d’appeler la fonction **AddPrinterDriverEx** , tous les fichiers requis 
 
 Pour déterminer les pilotes d’imprimante actuellement installés, appelez la fonction [**EnumPrinterDrivers**](enumprinterdrivers.md) .
 
-Si le pilote d’imprimante a été ajouté avec succès, la fonction appelle la fonction DrvDriverEvent (DRIVER \_ Event \_ Initialize, Level, Driver \_ info \_ \* , lParam) pour permettre au pilote d’effectuer les initialisations nécessaires pendant l’installation d’un pilote d’imprimante. Pour plus d’informations sur **DrvDriverEvent**, consultez le kit de développement de pilotes (DDK) Microsoft Windows.
+Si le pilote d’imprimante a été ajouté avec succès, la fonction appelle la fonction DrvDriverEvent (DRIVER \_ Event \_ Initialize, Level, Driver \_ info \_ \* , lParam) pour permettre au pilote d’effectuer les initialisations nécessaires pendant l’installation d’un pilote d’imprimante. pour plus d’informations sur **DrvDriverEvent**, consultez le kit de développement de pilotes (DDK) Microsoft Windows
 
 Le pilote ne doit pas utiliser un appel d’interface utilisateur lors de l’appel à **DrvDriverEvent**. Pour effectuer des tâches liées à l’interface utilisateur, le programme d’installation doit utiliser l’entrée VendorSetup dans le fichier. inf de l’imprimante ou, pour Plug-and-Play appareils, le programme d’installation peut utiliser un co-programme d’installation spécifique à l’appareil. Pour plus d’informations sur VendorSetup, consultez le DDK.
 

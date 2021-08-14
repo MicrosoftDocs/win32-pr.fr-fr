@@ -4,12 +4,12 @@ ms.assetid: 244329bb-fc71-4ab9-8831-a9478108ffa3
 title: Architecture du système CryptoAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86d5dcf1756c9b581d75d4e52d57fbce089976a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 791ed0ebfc82df1dc7b6e9600d4e0455ae60df3da35cfe3f8fd613f7b230ebd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768804"
 ---
 # <a name="cryptoapi-system-architecture"></a>Architecture du système CryptoAPI
 
@@ -24,8 +24,8 @@ L’architecture système CryptoAPI est composée de cinq domaines fonctionnels 
 ## <a name="base-cryptographic-functions"></a>Fonctions de chiffrement de base
 
 -   *Fonctions de contexte* utilisées pour se connecter à un CSP. Ces fonctions permettent aux applications de choisir un CSP spécifique par nom ou de choisir un CSP spécifique qui peut fournir une classe de fonctionnalité nécessaire.
--   [*Fonctions de génération de clés*](../secgloss/k-gly.md) utilisées pour générer et stocker des [*clés de chiffrement*](../secgloss/c-gly.md). La prise en charge complète est incluse pour la modification des [*modes de chaînage*](../secgloss/c-gly.md), des [*vecteurs d’initialisation*](../secgloss/i-gly.md)et d’autres fonctionnalités de chiffrement. Pour plus d’informations, consultez [génération de clés et fonctions d’échange](cryptography-functions.md).
--   *Fonctions d’échange de clés* utilisées pour échanger ou transmettre des clés. Pour plus d’informations, consultez [stockage de clé de chiffrement et Exchange](cryptographic-key-storage-and-exchange.md) , [génération de clés et fonctions Exchange](cryptography-functions.md).
+-   [*Fonctions de génération de clés*](../secgloss/k-gly.md) utilisées pour générer et stocker des [*clés de chiffrement*](../secgloss/c-gly.md). La prise en charge complète est incluse pour la modification des [*modes de chaînage*](../secgloss/c-gly.md), des [*vecteurs d’initialisation*](../secgloss/i-gly.md)et d’autres fonctionnalités de chiffrement. pour plus d’informations, consultez [génération de clés et fonctions de Exchange](cryptography-functions.md).
+-   *Fonctions d’échange de clés* utilisées pour échanger ou transmettre des clés. pour plus d’informations, consultez [Stockage de clé de chiffrement et Exchange](cryptographic-key-storage-and-exchange.md) et [génération de clés et Exchange fonctions](cryptography-functions.md).
 
 ## <a name="certificate-encodedecode-functions"></a>Fonctions de codage/décodage de certificat
 

@@ -19,12 +19,12 @@ api_location:
 - Ext-MS-Win-printer-Winspool-l1-1-1.dll
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 02cd6f6b5d56eec525bd00e2feef50f4d5f07734
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48f25f9c8aec314b997a4600335e22bea2f0bbd8eefa78235ddbb25192f556f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117868601"
 ---
 # <a name="openprinter-function"></a>OpenPrinter fonction)
 
@@ -80,7 +80,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 N’appelez pas cette méthode dans [**DllMain**](/windows/desktop/Dlls/dllmain).
 
@@ -98,7 +98,7 @@ Le handle pointé par *phPrinter* n’est pas thread-safe. Si les appelants doiv
 
 Le paramètre *pDefault* vous permet de spécifier les valeurs du type de données et du mode de l’appareil utilisées pour l’impression des documents soumis par la fonction [**StartDocPrinter**](startdocprinter.md) . Toutefois, vous pouvez remplacer ces valeurs à l’aide de la fonction [**SetJob**](setjob.md) après le démarrage d’un document.
 
-Les paramètres [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) définis dans la [**structure \_ par défaut**](printer-defaults.md) de l’imprimante du paramètre *pDefault* ne sont pas utilisés lorsque la valeur du membre *pDatatype* de la structure [**\_ infos doc \_ 1**](doc-info-1.md) qui a été transmise dans le paramètre *pDocInfo* de l’appel [**StartDocPrinter**](startdocprinter.md) est « RAW ». Lorsqu’un document de niveau supérieur (par exemple, un fichier Adobe PDF ou Microsoft Word) ou d’autres données d’imprimante (par exemple, PCL, PS ou HPGL) est envoyé directement à une imprimante avec *pDatatype* défini sur « RAW », le document doit décrire entièrement les paramètres du travail d’impression de style **DEVMODE** dans la langue comprise par le matériel.
+Les paramètres [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) définis dans la [**structure \_ par défaut**](printer-defaults.md) de l’imprimante du paramètre *pDefault* ne sont pas utilisés lorsque la valeur du membre *pDatatype* de la structure [**\_ infos doc \_ 1**](doc-info-1.md) qui a été transmise dans le paramètre *pDocInfo* de l’appel [**StartDocPrinter**](startdocprinter.md) est « RAW ». lorsqu’un document de niveau supérieur (par exemple, un fichier Adobe PDF ou Microsoft Word) ou d’autres données d’imprimante (par exemple, PCL, PS ou HPGL) sont envoyés directement à une imprimante avec *pDatatype* défini sur « RAW », le document doit décrire entièrement les paramètres du travail d’impression de style **DEVMODE** dans la langue comprise par le matériel.
 
 Vous pouvez appeler la fonction **OpenPrinter** pour ouvrir un handle sur un serveur d’impression ou pour déterminer les droits d’accès d’un client à un serveur d’impression. Pour ce faire, spécifiez le nom du serveur d’impression dans le paramètre *pPrinterName* , définissez les membres **pDatatype** et **pDevMode** de la structure [**\_ par défaut**](printer-defaults.md) de l’imprimante sur la valeur **null**, puis définissez le membre **desiredAccess** de manière à spécifier une valeur de masque d’accès au serveur, par exemple \_ tous les \_ accès serveur. Lorsque vous avez terminé avec le descripteur, transmettez-le à la fonction [**ClosePrinter**](closeprinter.md) pour le fermer.
 

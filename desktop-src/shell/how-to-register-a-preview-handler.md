@@ -4,12 +4,12 @@ ms.assetid: 5f194d29-d09f-4426-a63e-911db65ce700
 title: Comment inscrire un gestionnaire d’aperçus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5af9610de1822678521557fc20aa53f4e556e0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0e1879261750609015acee2ccea1bc6f48f82df78ac7c18cbb2f46fa493c4e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118223438"
 ---
 # <a name="how-to-register-a-preview-handler"></a>Comment inscrire un gestionnaire d’aperçus
 
@@ -67,7 +67,7 @@ HKEY_CLASSES_ROOT
 
 La valeur par défaut de votre sous-clé ( **{ec3a629a-A47C-4245-BC78-b4b63d0e3154}**) n’est pas obligatoire ou utilisée. Toutefois, la définition d’une chaîne non localisée peut vous aider à déboguer les problèmes d’inscription.
 
-Le signe moins (-101) dans la ressource. dll de l’entrée DisplayName existe pour des raisons d’héritage. En revanche, l’entrée d’icône ne nécessite pas de signe moins.
+Le signe moins (-101) dans la ressource .dll dans l’entrée DisplayName existe pour des raisons d’héritage. En revanche, l’entrée d’icône ne nécessite pas de signe moins.
 
 La valeur AppID donne une référence à l’AppID de l’application associée à l’extension de nom de fichier (stockée sous l’AppID **\_ \_ racine de classes HKEY** \\ . La valeur utilisée ici ({6d2b5079-2f0b-48dd-AB7F-97cec514d30b}) est l’ID de l’hôte de substitution Prevhost.exe. les gestionnaires d’aperçus 32 bits doivent utiliser **AppID** {534A1E02-D58F-44f0-B58B-36CBED287C7C} lorsqu’ils sont installés sur des systèmes d’exploitation 64 bits.
 
@@ -78,7 +78,7 @@ Les entrées sous la sous-clé **InprocServer32** incluent une référence à la
 Enfin, le gestionnaire d’aperçus doit être ajouté à la liste de tous les gestionnaires d’aperçus. Cette liste est utilisée comme une optimisation par le système pour énumérer tous les gestionnaires d’aperçus inscrits à des fins d’affichage. Là encore, la valeur par défaut n’est pas obligatoire, elle facilite simplement le processus de débogage.
 
 > [!Note]  
-> Dans Windows 7, si l’application est installée pour tous les utilisateurs de l’ordinateur, utilisez HKEY \_ local \_ machine ; si pour un seul utilisateur, utilisez HKEY \_ Current \_ User.
+> dans Windows 7, si l’application est installée pour tous les utilisateurs de l’ordinateur, utilisez hkey \_ LOCAL \_ MACHINE ; si pour un seul utilisateur, utilisez hkey \_ CURRENT \_ user.
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: 9d12d265-0b0a-44d9-bbf6-ca7d748382ee
 title: Stratégie de métadonnées de photo System. photo. MaxAperture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9f3dab4d5ebf89033de03dfce887a7cea10fa11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d692c12b9a5df584331a9a5ff4a82707d8549ab7891e1d9162eef318a77fe4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204711"
 ---
 # <a name="systemphotomaxaperture-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. MaxAperture
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. MaxA
 
 \_Photo \_ MaxAperture
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Cette valeur est générée à partir de System. photo. MaxApertureNumerator et 
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37381} |             |
 | 2     | /xmp/exif:MaxApertureValue    |             |
@@ -58,7 +58,7 @@ Cette valeur est générée à partir de System. photo. MaxApertureNumerator et 
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37381} |             |
 | 2     | /xmp/exif:MaxApertureValue    |             |
@@ -71,7 +71,7 @@ Cette valeur est générée à partir de System. photo. MaxApertureNumerator et 
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37381} |
 | 2     | /xmp/exif:maxaperturevalue    |
@@ -86,7 +86,7 @@ Cette valeur est générée à partir de System. photo. MaxApertureNumerator et 
 
 
 
-| Commande | Chemin d’accès                           | Format de disque |
+| Commande | Chemin                           | Format de disque |
 |-------|--------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37381}       |             |
 | 2     | /ifd/xmp/exif:MaxApertureValue |             |
@@ -99,7 +99,7 @@ Cette valeur est générée à partir de System. photo. MaxApertureNumerator et 
 
 
 
-| Commande | Chemin d’accès                           | Format de disque |
+| Commande | Chemin                           | Format de disque |
 |-------|--------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37381}       |             |
 | 2     | /ifd/xmp/exif:MaxApertureValue |             |
@@ -112,7 +112,7 @@ Cette valeur est générée à partir de System. photo. MaxApertureNumerator et 
 
 
 
-| Commande | Chemin d’accès                           |
+| Commande | Chemin                           |
 |-------|--------------------------------|
 | 1     | /IFD/EXIF/{UShort = 37381}       |
 | 2     | /ifd/xmp/exif:maxaperturevalue |
@@ -121,7 +121,7 @@ Cette valeur est générée à partir de System. photo. MaxApertureNumerator et 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

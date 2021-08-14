@@ -4,12 +4,12 @@ ms.assetid: b4592036-0fa3-4b7e-beed-78cf1d2f39a9
 title: Objets BLOB de clé du fournisseur de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c763f97fe6e7868246e0bce30ee2a741e8bd212f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d95eaeaa1b6438045ebba55d2bb45785e4068154ff51818e937bc434dff7fb29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117773041"
 ---
 # <a name="base-provider-key-blobs"></a>Objets BLOB de clé du fournisseur de base
 

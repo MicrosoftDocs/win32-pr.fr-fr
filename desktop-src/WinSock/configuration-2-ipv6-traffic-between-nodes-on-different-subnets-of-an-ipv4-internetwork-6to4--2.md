@@ -4,12 +4,12 @@ ms.assetid: 3ca8518d-42f0-428c-b94c-ff244d17b314
 title: 'Configuration 2 : trafic IPv6 entre les nœuds de différents sous-réseaux d’un interréseau IPv4 (6to4)'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1abd5477005e6a1e71c13aaf19a734e9191097d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d976aa3ea21d990ea22f861fbf05a816866e6b0d21502211e23a0e331a2f851
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118112498"
 ---
 # <a name="configuration-2-ipv6-traffic-between-nodes-on-different-subnets-of-an-ipv4-internetwork-6to4"></a>Configuration 2 : trafic IPv6 entre les nœuds de différents sous-réseaux d’un interréseau IPv4 (6to4)
 
@@ -21,7 +21,7 @@ L’illustration suivante montre la configuration de deux nœuds sur des sous-r�
 
 La principale exigence d’utiliser 6to4 est une adresse IPv4 globalement routable pour votre site. Supposons que votre site se compose d’un ensemble d’ordinateurs IPv6 que vous gérez (certains exécutant le protocole Microsoft IPv6 et d’autres implémentations IPv6). Supposons également que tous les ordinateurs IPv6 sont connectés directement via Ethernet ou 6-sur-4. L’adresse IPv4 globalement routable doit être affectée à l’un de vos ordinateurs exécutant le protocole Microsoft IPv6. Cet ordinateur sera votre passerelle 6to4.
 
-Si vous disposez d’une adresse IPv4 qui fait partie de l’espace d’adressage privé (10.0.0.0/8, 172.16.0.0/12 ou 192.168.0.0/16) ou de l’espace d’adressage APIPA (Automatic Private IP Addressing) de 169.254.0.0/16 utilisé par Windows 2000, elle n’est pas globalement routable. Dans le cas contraire, il s’agit probablement d’une adresse IP publique qui est globalement routable. Pour plus d’informations sur la prise en charge de 6to4, consultez la rubrique [débogage de la configuration 6to4](#debugging-6to4-configuration) dans ce document.
+si vous disposez d’une adresse IPv4 qui fait partie de l’espace d’adressage privé (10.0.0.0/8, 172.16.0.0/12 ou 192.168.0.0/16) ou de l’espace d’adressage APIPA (automatic private IP addressing) de 169.254.0.0/16 utilisé par Windows 2000, elle n’est pas globalement routable. Dans le cas contraire, il s’agit probablement d’une adresse IP publique qui est globalement routable. Pour plus d’informations sur la prise en charge de 6to4, consultez la rubrique [débogage de la configuration 6to4](#debugging-6to4-configuration) dans ce document.
 
 ## <a name="the-6to4cfgexe-tool"></a>Outil 6to4cfg.exe
 

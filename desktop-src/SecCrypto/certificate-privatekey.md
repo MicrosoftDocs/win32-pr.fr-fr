@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: eed2297a4546250cfe9e360029f11b2e4e6e67d1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 18e6acc2aa4b765e9219eff479280df814f1089dc27366c5d175dcdeda4fd890
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771554"
 ---
 # <a name="certificateprivatekey-property"></a>Propriété Certificate. PrivateKey
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt la [**classe X509Certificate2**](/previous-versions/windows/embedded/hh424017(v=msdn.10)) dans l’espace de noms [**System. Security. Cryptography. X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) .\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt la [**classe X509Certificate2**](/previous-versions/windows/embedded/hh424017(v=msdn.10)) dans l’espace de noms [**System. Security. Cryptography. X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) .\]
 
 La propriété **PrivateKey** définit ou récupère la clé privée associée au certificat. Cette propriété a été introduite dans CAPICOM 2,0.
 
@@ -41,7 +41,7 @@ Certificate.PrivateKey As PrivateKey
 
 Objet [**PrivateKey**](privatekey.md) qui représente la clé privée associée au certificat.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La définition de la propriété **PrivateKey** sur Nothing supprime l’association entre la clé privée et le certificat, mais elle ne supprime pas la clé privée. Pour supprimer la clé privée, appelez la méthode [**PrivateKey. Delete**](privatekey-delete.md) , puis affectez à cette propriété la valeur Nothing.
 
@@ -55,7 +55,7 @@ Cette propriété déclenche l’E CAPICOM \_ E \_ non \_ autorisée quand elle 
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Fin de la prise en charge des clients<br/> | Windows Vista<br/>                                                               |
 | Fin de la prise en charge des serveurs<br/> | Windows Server 2008<br/>                                                         |
-| Composant redistribuable<br/>       | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/>       | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>                   | <dl> <dt>Capicom.dll</dt> </dl> |
 
 
@@ -64,7 +64,7 @@ Cette propriété déclenche l’E CAPICOM \_ E \_ non \_ autorisée quand elle 
 
 <dl> <dt>
 
-[**Certificat**](certificate.md)
+[**Certificate**](certificate.md)
 </dt> </dl>
 
  

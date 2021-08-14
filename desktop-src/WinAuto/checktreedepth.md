@@ -4,12 +4,12 @@ description: CheckTreeDepth
 ms.assetid: 6387D1E1-63AF-442C-A049-DEAB09A0A949
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a24a4a28d0f4484da3e74c8ab76d680a7d61ba1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 34f323533bbec85f158b48a409350b5bddfd553a862abb6268fcca024c1f8a19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325968"
 ---
 # <a name="checktreedepth"></a>CheckTreeDepth
 
@@ -32,9 +32,9 @@ Profondeur de l’arborescence des éléments pour la cible de vérification.
 [Recommandations en matière de conception d’interface utilisateur clavier](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)
 </dt> <dt>
 
-[Instructions relatives à l’interaction avec l’expérience utilisateur Windows-clavier](https://msdn.microsoft.com/library/bb545460.aspx#guidelines)
+[Windows Instructions relatives à l’interaction avec l’expérience utilisateur-clavier](https://msdn.microsoft.com/library/bb545460.aspx#guidelines)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

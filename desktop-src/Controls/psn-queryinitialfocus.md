@@ -3,7 +3,7 @@ title: PSN_QUERYINITIALFOCUS le code de notification (Prsht. h)
 description: Envoyé par une feuille de propriétés pour permettre à une page de feuille de propriétés de spécifier quel contrôle de boîte de dialogue doit recevoir le focus initial. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 29b5e598-75b2-4b6f-acdb-171b1f7a1850
 keywords:
-- Contrôles Windows de code de notification PSN_QUERYINITIALFOCUS
+- PSN_QUERYINITIALFOCUS les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc542332440009f6564f384b415657e725edda00
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ffc82fe11893e728fbc9301868d9acdca5f7110bedfd37b4a16b473de0821f33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169639"
 ---
 # <a name="psn_queryinitialfocus-notification-code"></a>\_Code de notification PSN QUERYINITIALFOCUS
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-
 
 Pour spécifier le contrôle qui doit recevoir le focus, retournez le handle du contrôle. Sinon, retournez zéro et le focus sera placé dans le contrôle par défaut. Pour définir la valeur de retour, la procédure de la boîte de dialogue doit appeler la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) avec une valeur **\_ MSGRESULT DWL** et retourner **true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application ne doit pas appeler la fonction [**SetFocus**](/windows/desktop/api/winuser/nf-winuser-setfocus) lors de la gestion de ce code de notification. Retourne le handle du contrôle qui doit recevoir le focus, et le gestionnaire de feuille de propriétés gère la modification du focus.
 
@@ -75,8 +75,8 @@ case PSN_QUERYINITIALFOCUS :
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

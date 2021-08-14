@@ -3,18 +3,18 @@ title: Manipulations et inertie
 description: Cette section contient des rubriques relatives aux manipulations et à l’inertie.
 ms.assetid: ba56fa56-c74f-47ac-a15c-ba82a0521995
 keywords:
-- Tactile Windows, manipulations
-- Tactile Windows, inertie
+- Windows Toucher, manipulations
+- Windows Toucher, inertie
 - manipulations, à propos de
 - inertie, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a55def8acb5f3dcf517ae90f4f220511e0650a1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03d47661630fd0cc3f14125d1590816145d48a0f3485cedde68c76b52064eb4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199487"
 ---
 # <a name="manipulations-and-inertia"></a>Manipulations et inertie
 
@@ -26,12 +26,12 @@ Cette section comprend les rubriques suivantes.
 
 | Rubrique                                                   | Description                               |
 |---------------------------------------------------------|-------------------------------------------|
-| [Manipulations](getting-started-with-manipulations.md) | Explique les manipulations pour Windows Touch. |
-| [Inertie](getting-started-with-inertia.md)             | Explique l’inertie pour Windows Touch.       |
+| [Manipulations](getting-started-with-manipulations.md) | explique les manipulations pour Windows Touch. |
+| [Inertie](getting-started-with-inertia.md)             | explique l’inertie pour Windows Touch.       |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -40,9 +40,9 @@ Cette section comprend les rubriques suivantes.
 [Guide de programmation](programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

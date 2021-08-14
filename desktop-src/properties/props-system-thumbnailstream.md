@@ -1,19 +1,19 @@
 ---
-description: Données qui représentent la miniature dans le \_ format de flux VT, prises en charge par les codecs Windows GDI+ et Windows tels que. jpg et. png.
+description: données qui représentent la miniature dans le \_ format de flux VT, prises en charge par Windows GDI+ et les codecs de Windows tels que .jpg et .png.
 ms.assetid: 7ffdf9e4-69b1-4946-8867-73696cd241e0
 title: System. ThumbnailStream
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 378fbb885dfac216186fbc402090a2786d2b27ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ecabbcc3f634e3ff2e614b81a839f2108dfd4261fa1a3ec7e06cc07e74c05cf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864256"
 ---
 # <a name="systemthumbnailstream"></a>System. ThumbnailStream
 
-Données qui représentent la miniature dans le \_ format de flux VT, prises en charge par les codecs Windows GDI+ et Windows tels que. jpg et. png.
+données qui représentent la miniature dans le \_ format de flux VT, prises en charge par Windows GDI+ et les codecs de Windows tels que .jpg et .png.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1
 
@@ -47,7 +47,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af23fd41e5a8b97064c089062eae13e93cf9ff0d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2f91ae79656ec8909a8bff041e3ddc2714f1cbd17a65362e08731e9ca411d57f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118134217"
 ---
 # <a name="inapenforcementclientbindingnotifysohchangefailure-method"></a>INapEnforcementClientBinding :: NotifySoHChangeFailure, méthode
 
@@ -62,7 +62,7 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 À la suite de cette méthode, l’appel de NapAgent tente d’appliquer la modification de SoH ultérieurement en appelant [**INapEnforcementClientCallback :: NotifySoHChange**](inapenforcementclientcallback-notifysohchange-method.md) . Une fois que le client de contrainte a appelé [**INapEnforcementClientBinding :: GetSoHRequest**](inapenforcementclientbinding-getsohrequest-method.md), il doit ensuite appliquer la modification, ce qui signifie qu’aucune défaillance n’est gérée par le NapAgent après ce point.
 
@@ -74,8 +74,8 @@ Le client de contrainte doit appeler la méthode [**INapEnforcementClientBinding
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                |
 | En-tête<br/>                   | <dl> <dt>NapEnforcementClient. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapEnforcementClient. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |

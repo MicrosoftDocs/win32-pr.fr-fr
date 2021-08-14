@@ -1,22 +1,22 @@
 ---
 title: Écoute des événements de ruban
-description: L’infrastructure de ruban Windows utilise l’infrastructure de Suivi d’v nements pour Windows (ETW) pour permettre aux développeurs d’apprendre comment les utilisateurs interagissent avec le ruban de leur application.
+description: l’infrastructure de ruban Windows utilise l’infrastructure Suivi d’v nements pour Windows (ETW) pour permettre aux développeurs d’apprendre comment les utilisateurs interagissent avec le ruban de leur application.
 ms.assetid: F29A8E41-C902-410E-BD28-653E078320E9
 keywords:
-- Ruban Windows, événements
+- Windows Ruban, événements
 - Ruban, événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcbfb2c6417c1423cb785b6b80de4396146535c2
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: f9519553a40cd613085949d4650c2689e817f387e47e9ab4380b629464e90d2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104316614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202969"
 ---
 # <a name="listening-for-ribbon-events"></a>Écoute des événements de ruban
 
-L’infrastructure de ruban Windows utilise l’infrastructure de [suivi d’v nements pour Windows (ETW)](../etw/event-tracing-portal.md) pour permettre aux développeurs d’apprendre comment les utilisateurs interagissent avec le ruban de leur application.
+l’infrastructure de ruban Windows utilise l’infrastructure [Suivi d’v nements pour Windows (ETW)](../etw/event-tracing-portal.md) pour permettre aux développeurs d’apprendre comment les utilisateurs interagissent avec le ruban de leur application.
 
 ## <a name="introduction"></a>Introduction
 
@@ -24,8 +24,8 @@ Le mécanisme d’événement d’infrastructure de ruban est conçu de telle so
 
 L’utilisation des événements de l’infrastructure du ruban implique les opérations suivantes :
 
-1.  L’application ruban doit inscrire un écouteur de [suivi d’v nements pour Windows (ETW)](../etw/event-tracing-portal.md) pour recevoir des notifications d’événements de ruban à partir de l’infrastructure du ruban.
-2.  L’infrastructure du ruban déclenche des rappels d’événements de l’interface utilisateur du ruban au moment de l’exécution, si l’application a inscrit un écouteur [de suivi d’v nements pour Windows (ETW)](../etw/event-tracing-portal.md) .
+1.  l’application ruban doit inscrire un écouteur de [Suivi d’v nements pour Windows (ETW)](../etw/event-tracing-portal.md) pour recevoir des notifications d’événements de ruban à partir de l’infrastructure du ruban.
+2.  l’infrastructure du ruban déclenche des rappels d’événements de l’interface utilisateur du ruban au moment de l’exécution, si l’application a inscrit un écouteur [de Suivi d’v nements pour Windows (ETW)](../etw/event-tracing-portal.md) .
 
 ## <a name="supported-events"></a>Événements pris en charge
 
@@ -132,7 +132,7 @@ L’application est chargée de décompresser cet entier pour déterminer les mo
 
 <dl> <dt>
 
-[Guides du développeur de l’infrastructure de ruban Windows](windowsribbon-guides-entry.md)
+[Windows Guides du développeur de Framework de ruban](windowsribbon-guides-entry.md)
 </dt> <dt>
 
 [Déclaration des commandes et des contrôles avec le balisage du ruban](./windowsribbon-schema.md)

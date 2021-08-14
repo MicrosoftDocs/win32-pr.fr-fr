@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ff902e34e07ebd34edcb73797baa131eec8b222
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 345652b9da5ed5087793606d963d6cf9b8ce225587ee150c27f6410ae99b8d25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808436"
 ---
 # <a name="allocate-attribute"></a>Allocate (attribut)
 
@@ -52,7 +52,7 @@ Spécifie un type défini dans le fichier IDL.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **\[ allocate \]** a les options valides suivantes.
 
@@ -67,7 +67,7 @@ L’attribut **\[ allocate \]** a les options valides suivantes.
 
 
 
- 
+ 
 
 Par défaut, les stubs peuvent allouer du stockage pour les données référencées par un pointeur unique ou complet en appelant [**MIDL \_ User \_ allocate**](midl-user-allocate-1.md) et [**MIDL \_ User \_ Free**](midl-user-free-1.md) individuellement pour chaque pointeur.
 
@@ -103,7 +103,7 @@ typedef [allocate(dont_free)] PTYPE3;
 [Fichier de configuration de l’application (ACF)](application-configuration-file-acf-.md)
 </dt> <dt>
 
-[**in**](in.md)
+[**dans**](in.md)
 </dt> <dt>
 
 [**allouer un \_ utilisateur MIDL \_**](midl-user-allocate-1.md)
@@ -118,9 +118,9 @@ typedef [allocate(dont_free)] PTYPE3;
 [**typedef**](typedef.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

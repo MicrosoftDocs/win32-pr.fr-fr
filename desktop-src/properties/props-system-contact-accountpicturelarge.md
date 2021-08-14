@@ -4,12 +4,12 @@ ms.assetid: 4e3af0ef-3bee-4640-b6d0-c36ca7b3bd08
 title: System. contact. AccountPictureLarge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 749331c8a0bad282cd89487ac7689231ad16ff30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fdfc91cd0756e0e6147f156452119eefc57b3b5687984ffd1396c173baec8ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867249"
 ---
 # <a name="systemcontactaccountpicturelarge"></a>System. contact. AccountPictureLarge
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Stream
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

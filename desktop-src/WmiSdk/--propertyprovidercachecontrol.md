@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 1d153049a9635b4b77a1ad09ca0ee64835b9bcfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33edad107859328e9a81a6c77c3c02e29e2ee3aebbbe411ee20fb438e51517a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110537"
 ---
 # <a name="__propertyprovidercachecontrol-class"></a>\_\_PropertyProviderCacheControl, classe
 
@@ -62,7 +62,7 @@ Intervalle de temps après la libération par WMI d’un fournisseur de proprié
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ PropertyProviderCacheControl** est dérivée de [**\_ \_ CacheControl**](--cachecontrol.md). Pour plus d’informations, consultez [déchargement d’un fournisseur](unloading-a-provider.md).
 

@@ -15,12 +15,12 @@ keywords:
 - Codes temporels SMPTE, lecteurs synchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c843ba802272d02f1dfc885a3c65b3d124b7423
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b368492d45d3bc564ce0fbb84a6013349c26fcdaca8c1ad576863a9cee6f6f36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118196468"
 ---
 # <a name="to-seek-by-smpte-time-code-using-the-synchronous-reader"></a>Pour effectuer une recherche par code temporel SMPTE à l’aide du lecteur synchrone
 
@@ -46,9 +46,9 @@ Pour rechercher des données dans un fichier ASF par code temporel SMPTE à l’
 [**Utilisation des index**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1a70b1d9-ed66-4201-9921-4e26e4001020
 title: Version du système d'exploitation
 ms.topic: article
 ms.date: 09/15/2020
-ms.openlocfilehash: 73eb9a81880f29f9292713af46c5c79a7e9eb2de
-ms.sourcegitcommit: 7ea69db68bca2b1592802e676ada8432a2583410
+ms.openlocfilehash: ae90f4eac5546fccd7513d781234896fbbbda93ff3723a9ac1db438321ecf214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "104032039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763951"
 ---
 # <a name="operating-system-version"></a>Version du système d'exploitation
 
@@ -19,8 +19,8 @@ Le tableau suivant récapitule les numéros de version des systèmes d’exploit
 
 | Système d’exploitation | Numéro de version |
 |------------------|----------------|
-| Windows 10       | 10,0\*         |
-| Windows Server 2019 | 10,0\*      |
+| Windows 10       | 10,0\*         |
+| Windows Server 2019 | 10,0\*      |
 | Windows Server 2016 | 10,0\*      |
 | Windows 8.1      | 6.3\*          |
 | Windows Server 2012 R2 | 6.3\*    |
@@ -36,7 +36,7 @@ Le tableau suivant récapitule les numéros de version des systèmes d’exploit
 | Windows XP | 5,1                  |
 | Windows 2000     | 5.0            |
 
-**\*** Pour les applications qui ont été manifestées pour Windows 8.1 ou Windows 10. Les applications qui ne sont pas manifestes pour Windows 8.1 ou Windows 10 retournent la valeur de version du système d’exploitation Windows 8 (6,2). Pour manifester vos applications pour Windows 8.1 ou Windows 10, reportez-vous à [ciblage de votre application pour Windows](targeting-your-application-at-windows-8-1.md).<br/>
+**\*** pour les applications qui ont été manifestées pour Windows 8.1 ou Windows 10. les Applications qui ne sont pas manifestes pour Windows 8.1 ou Windows 10 retourneront la valeur de version du système d’exploitation Windows 8 (6,2). pour manifester vos applications pour Windows 8.1 ou Windows 10, consultez [ciblage de votre application pour Windows](targeting-your-application-at-windows-8-1.md).<br/>
 
 L’identification du système d’exploitation actuel n’est généralement pas la meilleure façon de déterminer si une fonctionnalité particulière du système d’exploitation est présente. Cela est dû au fait que de nouvelles fonctionnalités ont été ajoutées au système d’exploitation dans une DLL redistribuable. Au lieu d’utiliser les fonctions d’assistance de l' [API de version](version-helper-apis.md) pour déterminer la plate-forme ou le numéro de version du système d’exploitation, vérifiez la présence de la fonctionnalité elle-même.
 
@@ -50,5 +50,5 @@ Si vous devez exiger un système d’exploitation particulier, veillez à l’ut
 
 Notez qu’une application 32 bits peut détecter si elle s’exécute sous WOW64 en appelant la fonction [**IsWow64Process**](/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process) . Il peut obtenir des informations supplémentaires sur le processeur en appelant la fonction [**GetNativeSystemInfo**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo) .
 
-Pour plus d’informations, consultez [informations sur la version Windows 10](/windows/release-information/) et [feuille de faits du cycle de vie Windows](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet).
+pour plus d’informations, consultez la page [informations de mise en Windows 10](/windows/release-information/) et [Windows cycle de vie du cycle de vie](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet).
 

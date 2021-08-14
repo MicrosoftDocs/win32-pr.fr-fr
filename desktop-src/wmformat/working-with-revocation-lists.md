@@ -11,12 +11,12 @@ keywords:
 - DRM (gestion des droits numériques), listes de révocation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75f4eca82dd82c9225406a85034ff2a6df227fce
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 3d022b9b55a1a14b147d76d289efeac956bae8f1858d155f138efa579d533fa9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104507775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118194878"
 ---
 # <a name="working-with-revocation-lists"></a>Utilisation des listes de révocation
 
@@ -39,9 +39,9 @@ Les applications de lecteur peuvent recevoir un message d’erreur de révocatio
 [**Gestion des événements d’acquisition de licence**](handling-license-acquisition-events.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

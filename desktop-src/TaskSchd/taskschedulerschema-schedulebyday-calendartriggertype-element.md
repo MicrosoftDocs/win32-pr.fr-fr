@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 614777ede63605dc7ed6936bda952c6071bda371
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f29cc4b702ba93aec44e3460279976f50c5563463accfb58b920ad79b757126a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118131581"
 ---
 # <a name="schedulebyday-calendartriggertype-element"></a>Élément ScheduleByDay (calendarTriggerType)
 
@@ -53,7 +53,7 @@ L’élément **ScheduleByDay** est défini par le type complexe [**calendarTrig
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément enfant listé précédemment est défini par les types d’éléments complexes [**dailyScheduleType**](taskschedulerschema-dailyscheduletype-complextype.md) .
 
@@ -88,8 +88,8 @@ Pour obtenir un exemple complet du code XML d’une tâche qui spécifie une pla
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

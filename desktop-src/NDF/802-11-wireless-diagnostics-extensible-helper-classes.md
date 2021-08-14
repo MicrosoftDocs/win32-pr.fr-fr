@@ -4,12 +4,12 @@ description: L’infrastructure de diagnostics sans fil intégrée a deux points
 ms.assetid: b54f836d-4fae-4e71-bf7b-af5a6e9e615c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bde49561c68044157c9d518571b8241c49dcf25
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: a3b7ac72cb42b12a96e5c57db0897a13d49d76370126e119ac2f5ed457d55c9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104507811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133444"
 ---
 # <a name="80211-wireless-diagnostics-extensible-helper-classes"></a>Classes d’assistance extensibles pour les diagnostics sans fil 802,11
 
@@ -22,12 +22,12 @@ L’infrastructure de diagnostics sans fil intégrée a deux points d’extensio
 
 
 
- 
+ 
 
 > [!Note]  
 > Une classe d’assistance tierce doit s’inscrire auprès des deux classes d’assistance parentes pour s’assurer que la classe tierce est appelée. Pour plus d’informations sur l’inscription, consultez [Registering NDF Helper Class extensions](registering-ndf-helper-class-extensions.md).
 
- 
+ 
 
 ## <a name="rnwf-extensible-helper-class"></a>Classe d’assistance extensible RNWF
 
@@ -62,7 +62,7 @@ Les deux attributs clés fournis par la classe d’assistance RNWF sont le GUID 
 > [!Note]  
 > **WDIAG \_ L' \_ indicateur d’ID WLAN IHV \_ \_ \_ \_ activé** pour la sécurité est la seule valeur **dwFlags** possible.
 
- 
+ 
 
 L’attribut correspondant pour la classe d’assistance tierce doit être identique à l’ID de service de son module logiciel correspondant. Il s’agit également du même nom que le tiers doit être inscrit dans le registre. Les diagnostics sans fil interrogent l’ID de service pendant la session sans fil dans laquelle le problème s’est produit. Les informations sont retournées à NDF, qui détermine si la classe d’assistance tierce est présente et inscrite, puis l’appelle.
 
@@ -76,7 +76,7 @@ Le tableau suivant répertorie les attributs correspondants pour la classe d’a
 
 
 
- 
+ 
 
 ## <a name="l2security-extensible-helper-class"></a>Classe d’assistance extensible L2Security
 
@@ -111,7 +111,7 @@ Les deux attributs clés fournis par la classe d’assistance de sécurité de c
 > [!Note]  
 > **WDIAG \_ L' \_ indicateur d’ID WLAN IHV \_ \_ \_ \_ activé** pour la sécurité est la seule valeur **dwFlags** possible.
 
- 
+ 
 
 L’attribut correspondant pour la classe d’assistance tierce doit être identique à l’ID de service de son module logiciel correspondant. Il s’agit également du même nom que le tiers doit être inscrit dans le registre. Les diagnostics sans fil interrogent l’ID de service pendant la session sans fil dans laquelle le problème s’est produit. Les informations sont retournées à NDF, qui détermine si la classe d’assistance tierce est présente et inscrite, puis l’appelle.
 
@@ -125,7 +125,7 @@ Le tableau suivant répertorie les attributs correspondants pour la classe d’a
 
 
 
- 
+ 
 
 ## <a name="matching-attributes"></a>Attributs correspondants
 
@@ -148,7 +148,7 @@ Cette valeur doit être une chaîne de toutes les lettres majuscules. Par exempl
 les classes d’assistance de diagnostic sans fil 802,11 diagnostiquent actuellement les problèmes de réseau sans fil dans les domaines suivants.
 
 -   Les problèmes de connectivité 802,11, y compris l’Association 802,11, l’authentification 802,11, les paramètres de sécurité 802,11 relatifs aux normes 802,11 & protocoles pris en charge en mode natif dans le système d’exploitation et les problèmes de performances.
--   Problèmes de sécurité de couche 2 concernant les configurations 802.1 x et problèmes liés à l’authentification de couche 2 à l’aide de méthodes prises en charge en mode natif sur Windows Vista et Windows Server 2008.
+-   problèmes de sécurité de couche 2 concernant les configurations 802.1 x et problèmes liés à l’authentification de couche 2 à l’aide de méthodes prises en charge en mode natif sur Windows Vista et Windows Server 2008.
 -   Incompatibilité de configuration dans les paramètres de profil entre le client et le point d’accès ou l’infrastructure réseau et les services.
 
 les classes d’assistance de diagnostic sans fil 802,11 ne diagnostiquent pas actuellement les problèmes de réseau sans fil dans les domaines suivants.
@@ -161,9 +161,9 @@ les classes d’assistance de diagnostic sans fil 802,11 ne diagnostiquent pas a
 
 En outre, 802,11 Diagnostics sans fil n’analyse pas les cas [**utilisation élevée du**](/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-highutilization) . Les problèmes de performances sans fil identifiés seront analysés et signalés en tant que cas [**LowHealth**](/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-lowhealth) .
 
- 
+ 
 
- 
+ 
 
 
 

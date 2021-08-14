@@ -4,26 +4,26 @@ ms.assetid: dace2f65-df60-419a-8be8-ab60668e6396
 title: Virtualisation du Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 642bda46b43fc0b4f7efa60cfcd9e2178643811f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f14d8a82a12be74d3c5f2963e8b4edf47baaa85c4a8299e4ff632284bbac83fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763586"
 ---
 # <a name="registry-virtualization"></a>Virtualisation du Registre
 
-*La virtualisation du Registre* est une technologie de compatibilité des applications qui permet d’effectuer des opérations d’écriture dans le Registre qui ont un impact global pour être redirigées vers des emplacements par utilisateur. Cette redirection est transparente pour les applications qui lisent ou écrivent dans le registre. Il est pris en charge à partir de Windows Vista.
+*La virtualisation du Registre* est une technologie de compatibilité des applications qui permet d’effectuer des opérations d’écriture dans le Registre qui ont un impact global pour être redirigées vers des emplacements par utilisateur. Cette redirection est transparente pour les applications qui lisent ou écrivent dans le registre. il est pris en charge à partir de Windows Vista.
 
 Cette forme de virtualisation est une technologie de compatibilité d’application temporaire. Microsoft a l’intention de la supprimer des versions ultérieures du système d’exploitation Windows à mesure que d’autres applications sont compatibles avec Windows Vista et les versions ultérieures de Windows. Par conséquent, il est important que votre application ne devienne pas dépendante du comportement de la virtualisation du Registre dans le système.
 
-La virtualisation est destinée uniquement à assurer la compatibilité des applications existantes. Les applications conçues pour Windows Vista et les versions ultérieures de Windows ne doivent pas écrire dans des zones système sensibles, ni s’appuyer sur la virtualisation pour résoudre les problèmes. Lors de la mise à jour du code existant pour qu’il s’exécute sur Windows Vista et les versions ultérieures de Windows, les développeurs doivent s’assurer que les applications stockent uniquement des données dans des emplacements par utilisateur ou dans des emplacements de% AllUserProfile% qui utilisent correctement une liste de contrôle d’accès (ACL).
+La virtualisation est destinée uniquement à assurer la compatibilité des applications existantes. les Applications conçues pour Windows Vista et les versions ultérieures de Windows ne doivent pas écrire dans des zones système sensibles, ni s’appuyer sur la virtualisation pour résoudre les problèmes. lors de la mise à jour du code existant pour qu’il s’exécute sur Windows Vista et les versions ultérieures de Windows, les développeurs doivent s’assurer que les applications stockent uniquement des données dans des emplacements par utilisateur ou dans des emplacements de% alluserprofile% qui utilisent correctement une liste de contrôle d’accès (ACL).
 
 Pour plus d’informations sur la création d’applications conformes au contrôle de compte d’utilisateur, consultez le [Guide du développeur UAC](/previous-versions/dotnet/articles/aa480150(v=msdn.10)).
 
 ## <a name="virtualization-overview"></a>Vue d’ensemble de la virtualisation
 
-Avant Windows Vista, les applications étaient généralement exécutées par les administrateurs. Par conséquent, les applications peuvent accéder librement aux fichiers système et aux clés de registre. Si ces applications ont été exécutées par un utilisateur standard, elles échouent en raison de droits d’accès insuffisants. Windows Vista et les versions ultérieures de Windows améliorent la compatibilité des applications pour ces applications en redirigeant automatiquement ces opérations. Par exemple, les opérations du Registre dans le magasin global (**HKEY \_ local \_ machine \\ Software**) sont redirigées vers un emplacement par utilisateur au sein du profil de l’utilisateur, connu sous le nom de « *magasin virtuel* » (classes de l’utilisateur **HKEY \_ \\ <User SID> \_ \\ VirtualStore \\ \\**).
+avant Windows Vista, les applications étaient généralement exécutées par les administrateurs. Par conséquent, les applications peuvent accéder librement aux fichiers système et aux clés de registre. Si ces applications ont été exécutées par un utilisateur standard, elles échouent en raison de droits d’accès insuffisants. Windows Vista et les versions ultérieures de Windows améliorent la compatibilité des applications pour ces applications en redirigeant automatiquement ces opérations. Par exemple, les opérations du Registre dans le magasin global (**HKEY \_ local \_ machine \\ Software**) sont redirigées vers un emplacement par utilisateur au sein du profil de l’utilisateur, connu sous le nom de « *magasin virtuel* » (classes de l’utilisateur **HKEY \_ \\ <User SID> \_ \\ VirtualStore \\ \\**).
 
 La virtualisation du Registre peut être largement classée dans les types suivants :
 
@@ -64,7 +64,7 @@ La virtualisation du Registre est activée uniquement pour les éléments suivan
 
 -   processus interactifs 32 bits.
 -   Clés dans **HKEY \_ local \_ machine \\ Software**.
--   Clés dans lesquelles un administrateur peut écrire. (Si un administrateur ne peut pas écrire dans une clé, l’application aurait échoué sur les versions précédentes de Windows, même si elle a été exécutée par un administrateur.)
+-   Clés dans lesquelles un administrateur peut écrire. (si un administrateur ne peut pas écrire dans une clé, l’application aurait échoué sur les versions précédentes de Windows même si elle a été exécutée par un administrateur.)
 
 La virtualisation du Registre est désactivée pour les éléments suivants :
 
@@ -76,7 +76,7 @@ La virtualisation du Registre est désactivée pour les éléments suivants :
 -   Processus qui empruntent l’identité d’un utilisateur. Si un processus tente une opération en usurpant l’identité d’un utilisateur, cette opération ne sera pas virtualisée.
 -   Les processus en mode noyau, tels que les pilotes.
 -   Processus dont l' **requestedExecutionLevel** est spécifié dans leurs manifestes.
--   Clés et sous-clés **de \_ HKEY \_ local \\ machine \\ classes Software classes**, **HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows** et **HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows NT**.
+-   clés et sous-clés **de \_ hkey \_ local \\ machine \\ Classes software Classes**, **hkey \_ local \_ machine \\ software \\ microsoft \\ Windows** et **hkey \_ local \_ machine \\ software \\ microsoft \\ Windows NT**.
 
 ## <a name="controlling-registry-virtualization"></a>Contrôle de la virtualisation du Registre
 

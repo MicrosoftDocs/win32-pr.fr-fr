@@ -4,16 +4,16 @@ ms.assetid: EE35E3E7-0573-45CA-A21A-89E50B86487D
 title: Comment définir des attributs de type de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7844c65191d6513a06625a28c47accd3df5cc82f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e0a89f5770b55521ccdf51859bdde69ed58d05f864385e46f1d76e482319c63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118223573"
 ---
 # <a name="how-to-define-file-type-attributes"></a>Comment définir des attributs de type de fichier
 
-L’attribution d’attributs de type de fichier à un ProgID associé vous permet de contrôler certains aspects du comportement du type de fichier. Avant Windows Vista, ces attributs pouvaient vous permettre de limiter la mesure dans laquelle l’utilisateur pouvait utiliser l’onglet de propriétés **Options des dossiers** pour modifier différents aspects du type de fichier, tels que son icône ou ses verbes.
+L’attribution d’attributs de type de fichier à un ProgID associé vous permet de contrôler certains aspects du comportement du type de fichier. avant Windows Vista, ces attributs pouvaient vous permettre de limiter la mesure dans laquelle l’utilisateur peut utiliser l’onglet de propriétés des **Options des dossiers** pour modifier différents aspects du type de fichier, tels que son icône ou ses verbes.
 
 Les attributs de type de fichier sont des indicateurs binaires spécifiés en tant que valeurs **reg \_ DWORD** ou **reg \_ Binary** dans la sous-clé ProgID associée au type de fichier.
 
@@ -40,7 +40,7 @@ HKEY_CLASSES_ROOT
       EditFlags = 0x00000030
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs peuvent être combinés avec un ou logique pour former la valeur d’attribut unique.
 

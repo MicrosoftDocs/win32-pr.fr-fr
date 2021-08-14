@@ -7,12 +7,12 @@ keywords:
 - Ajout d’utilisateurs à un groupe ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ea0ac78c0175248cb12e0f47a94ae60e7f1d16c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 607c9b5ae68056293d4b57f2b5d1937d79de2fd3019747afd6add922ca3c6937
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181170"
 ---
 # <a name="adding-users-to-a-group"></a>Ajout d’utilisateurs à un groupe
 
@@ -35,9 +35,9 @@ grp.Add ("LDAP://CN=Julie Bankert,OU=Sales,DC=Fabrikam,DC=COM")
 [Création d’un nouveau groupe](creating-a-new-group.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

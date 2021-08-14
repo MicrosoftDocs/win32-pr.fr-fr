@@ -3,7 +3,7 @@ title: Implémentation de CPluginWindow
 description: Implémentation de CPluginWindow
 ms.assetid: b22723ce-f373-43b1-a098-86a8dbcf485e
 keywords:
-- Plug-ins du lecteur Windows Media, classe CPluginWindow
+- plug-ins Lecteur Windows Media, classe CPluginWindow
 - plug-ins, classe CPluginWindow
 - plug-ins d’interface utilisateur, classe CPluginWindow
 - Plug-ins d’interface utilisateur, classe CPluginWindow
@@ -11,12 +11,12 @@ keywords:
 - Guide de programmation, plug-ins d’interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe282b0c6cefbcac8fbce76ca53f8e0efaf64874
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6364d991fb219678d4f64b09ae4cd3df2526e77797093dcfff3a8dbce7f36101
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748134"
 ---
 # <a name="implementing-cpluginwindow"></a>Implémentation de CPluginWindow
 
@@ -40,9 +40,9 @@ Les sections suivantes décrivent ce que vous devez faire pour implémenter CPlu
 [**Guide de programmation de plug-ins d’interface utilisateur**](user-interface-plug-ins-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

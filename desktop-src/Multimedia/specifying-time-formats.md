@@ -9,12 +9,12 @@ keywords:
 - MCIWndUseFrames macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e390e811bde4d797572c19f372923906f6b738b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 50c14303879a3d13d018be8691eb1947ee1ed67907df796ae38cffc3936bf2ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801702"
 ---
 # <a name="specifying-time-formats"></a>Spécification des formats d’heure
 
@@ -25,11 +25,11 @@ Vous pouvez récupérer le format d’heure actuel d’un fichier ou d’un pér
 > [!Note]  
 > Les formats incontinus, tels que Tracks et SMPTE, peuvent entraîner un comportement anormal de la barre d’outils. Pour ces formats d’heure, vous souhaiterez peut-être désactiver la barre d’outils en spécifiant le \_ style de fenêtre MCIWNDF NOPLAYBAR lors de la création d’une fenêtre MCIWnd.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

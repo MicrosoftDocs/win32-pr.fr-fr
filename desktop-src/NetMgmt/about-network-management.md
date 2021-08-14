@@ -1,19 +1,19 @@
 ---
 title: À propos de la gestion de réseau
-description: Les fonctions de gestion de réseau vous permettent de gérer les partages réseau comme l’Explorateur Windows et la commande net. Vous pouvez également gérer les comptes d’utilisateur en tant que gestionnaire des utilisateurs.
+description: les fonctions de gestion de réseau vous permettent de gérer les partages réseau comme l’explorateur de Windows et la commande Net. Vous pouvez également gérer les comptes d’utilisateur en tant que gestionnaire des utilisateurs.
 ms.assetid: c1c5fba2-95f5-4d47-81ce-0701009d86d3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 609155e595e02ce9ec1f6231c7280078f84e1623
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9c4281aadb0a6585f1a882f58c8edaa13475f9edcbeb5d87ecc9d1d52b6dbeed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117797399"
 ---
 # <a name="about-network-management"></a>À propos de la gestion de réseau
 
-Les fonctions de gestion de réseau vous permettent de gérer les partages réseau comme l’Explorateur Windows et la commande net. Vous pouvez également gérer les comptes d’utilisateur en tant que gestionnaire des utilisateurs.
+les fonctions de gestion de réseau vous permettent de gérer les partages réseau comme l’explorateur de Windows et la commande Net. Vous pouvez également gérer les comptes d’utilisateur en tant que gestionnaire des utilisateurs.
 
 Pour plus d'informations, voir les rubriques suivantes :
 
@@ -32,9 +32,9 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Informations de référence sur la gestion de réseau](network-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

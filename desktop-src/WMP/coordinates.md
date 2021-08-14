@@ -3,19 +3,19 @@ title: Coordinates
 description: Coordinates
 ms.assetid: 248af2ea-534e-4d33-82fe-2d46732efed5
 keywords:
-- Apparences mobiles du lecteur Windows Media, bitmaps
+- Lecteur Windows Media Skins mobiles, bitmaps
 - habillages, images bitmap
 - informations de référence sur les apparences, les bitmaps
 - bitmaps dans les apparences, coordonnées
 - coordonnées dans les bitmaps dans les apparences
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ec50f0a3d02e42ad3995bb0919fb97dac319a5c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f3bdcde6edb7646b649317c09880b09a26a3ec3748c3f111a28491932caf3683
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117750591"
 ---
 # <a name="coordinates"></a>Coordinates
 
@@ -30,7 +30,7 @@ Cela définit les coordonnées x et y de l’image par rapport au fichier d’ar
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -39,9 +39,9 @@ Cela définit les coordonnées x et y de l’image par rapport au fichier d’ar
 [**Images bitmap**](bitmaps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 150a7b5e54e371c11741dd7c763b0ae145354b09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddf58a10e85003a00e0d757f29db55a49f98f0ba22e8c3124b83a593f2a3908f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118148298"
 ---
 # <a name="msvm_ethernetswitchportoffloadsettingdata-class"></a>MSVM \_ EthernetSwitchPortOffloadSettingData, classe
 
@@ -96,7 +96,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Brève description de l’objet. Cette propriété est héritée de [**CIM \_ propriété ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et elle est toujours définie sur « paramètres de déchargement de port de commutateur Ethernet ».
+Brève description de l’objet. cette propriété est héritée de [**CIM \_ propriété managedelement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « Ethernet Switch Port Offload Paramètres ».
 
 </dd> <dt>
 
@@ -122,7 +122,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Nom complet de l’objet. Cette propriété est héritée de [**CIM \_ propriété ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et elle est toujours définie sur « paramètres de déchargement de port de commutateur Ethernet ».
+Nom complet de l’objet. cette propriété est héritée de [**CIM \_ propriété managedelement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « Ethernet Switch Port Offload Paramètres ».
 
 </dd> <dt>
 
@@ -328,7 +328,7 @@ Qualificateurs : **WmiDataId** (10), **InterfaceVersion** (3), **InterfaceRevis
 Activez le déchargement VMMQ s’il est pris en charge par le matériel. La valeur par défaut est false.
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703 et Windows Server 2016.
+> cette propriété a été ajoutée dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -349,7 +349,7 @@ Qualificateurs : **WmiDataId** (11), **InterfaceVersion** (3), **InterfaceRevis
 Nombre de files d’attente à allouer lorsque VRSS est activé. La valeur par défaut est 16.
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703 et Windows Server 2016.
+> cette propriété a été ajoutée dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -386,7 +386,7 @@ Qualificateurs : **WmiDataId** (9), **InterfaceVersion** (3), **InterfaceRevisi
 Activez VRSS. La valeur par défaut est true.
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703 et Windows Server 2016.
+> cette propriété a été ajoutée dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -407,7 +407,7 @@ Qualificateurs : **WmiDataId** (14), **InterfaceVersion** (4), **InterfaceRevis
 Indique s’il faut exclure le processeur d’ordinateurs virtuels principal de la table d’indirection VRSS lorsque VRSS est activé. La valeur par défaut est false.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -428,7 +428,7 @@ Qualificateurs : **WmiDataId** (15), **InterfaceVersion** (4), **InterfaceRevis
 Indique s’il faut toujours exécuter VRSS côté hôte lorsque VRSS est activé, quel que soit le paramètre RSS de la carte réseau virtuelle. La valeur par défaut est false.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -449,7 +449,7 @@ Qualificateurs : **WmiDataId** (12), **InterfaceVersion** (4), **InterfaceRevis
 Nombre minimal de files d’attente à allouer lorsque VRSS est activé. La valeur par défaut est 1.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -470,7 +470,7 @@ Qualificateurs : **WmiDataId** (13), **InterfaceVersion** (4), **InterfaceRevis
 Mode de planification de la file d’attente à utiliser lorsque le VRSS est activé. La valeur par défaut est la planification statique.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -491,7 +491,7 @@ Qualificateurs : **WmiDataId** (16), **InterfaceVersion** (4), **InterfaceRevis
 Stratégie d’affinité du canal VMBus à utiliser lorsque le paramètre VRSS est activé. La valeur par défaut est Strong.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -503,8 +503,8 @@ Stratégie d’affinité du canal VMBus à utiliser lorsque le paramètre VRSS e
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

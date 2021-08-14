@@ -4,12 +4,12 @@ description: Les regroupements d’appareils sont des objets qui contiennent un 
 ms.assetid: 45455c3f-7281-4f96-a609-2efd2cf36aa2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fd581b7c79fe67a825e411d53e8c44c0f3d4326
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 94901dd2f3988327c32d7c21799ff4db7647e76fd987247e903501bd8937851a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117755525"
 ---
 # <a name="device-collections-returned-by-synchronous-searches"></a>Regroupements de périphériques retournés par les recherches synchrones
 
@@ -84,6 +84,6 @@ HRESULT TraverseCollection(IUPnPDevices * pDevices)
 
 La première étape consiste à demander un nouvel énumérateur pour la collection à l’aide de la propriété [**\_ NewEnum**](/windows/win32/api/upnp/nf-upnp-iupnpdevices-get__newenum) . Cela retourne un énumérateur comme interface [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) . L’exemple de code appelle [**IUnknown :: QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) pour obtenir l’interface [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) . L’exemple de code définit ensuite l’énumérateur au début de la collection en appelant la méthode [**IEnumVARIANT :: Reset**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-reset) . Enfin, l’exemple de code appelle la méthode [**IEnumVARIANT :: Next**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-next) pour parcourir la collection. Les objets d’appareil de la collection sont contenus dans des structures de **variantes** . Ces structures contiennent des pointeurs vers des interfaces [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) sur les objets d’appareil. Pour obtenir l’interface [**IUPnPDevice**](/windows/desktop/api/Upnp/nn-upnp-iupnpdevice) , l’exemple de code appelle **QueryInterface** sur l’interface **IDispatch** .
 
- 
+ 
 
- 
+ 

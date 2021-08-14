@@ -4,12 +4,12 @@ ms.assetid: 7db6b8af-dbec-4c29-8bf7-d7e95d9813c3
 title: Message WM_SETFONT (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fc334e6b8c937759555c471f00ec56254a629c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 811bee30237a64955197588f87866d4a64af89edc640762ec16333839aee9220
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103952058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199935"
 ---
 # <a name="wm_setfont-message"></a>\_Message WM SetFont
 
@@ -46,7 +46,7 @@ Type : **LRESULT**
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message **WM \_ SetFont** s’applique à tous les contrôles, pas seulement à ceux des boîtes de dialogue.
 

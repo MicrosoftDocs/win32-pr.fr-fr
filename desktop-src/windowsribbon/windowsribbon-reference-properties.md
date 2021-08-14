@@ -1,24 +1,24 @@
 ---
 title: Clés de propriété
-description: Documentation de référence sur les clés de propriété de l’infrastructure de ruban Windows, collection de PROPVARIANT PROPERTYKEY et de paires clé-valeur utilisées pour décrire l’état d’une commande de l’infrastructure du ruban.
+description: documentation de référence sur les clés de propriété de l’infrastructure de ruban Windows, collection de PROPVARIANT PROPERTYKEY et de paires clé-valeur utilisées pour décrire l’état d’une commande de l’infrastructure du ruban.
 ms.assetid: 12bc7fda-ff69-4316-8baf-cc97e19a231c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dbf916de92b4819797846b889b42306c7c00f21
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9a55d7c1cb84bc3491c07c566b9ae3f0ecf7b2829c84203d382339c0123650c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118201331"
 ---
 # <a name="property-keys"></a>Clés de propriété
 
-Documentation de référence sur les clés de propriété de l’infrastructure de ruban Windows, collection de **PROPVARIANT** **PROPERTYKEY** et de paires clé-valeur utilisées pour décrire l’état d’une commande de l’infrastructure du ruban.
+documentation de référence sur les clés de propriété de l’infrastructure de ruban Windows, collection de **PROPVARIANT** **PROPERTYKEY** et de paires clé-valeur utilisées pour décrire l’état d’une commande de l’infrastructure du ruban.
 
 > [!Note]  
 > Une clé doit être unique dans la collection pour chaque commande.
 
- 
+ 
 
 ## <a name="property-types"></a>Types de propriétés
 
@@ -54,12 +54,12 @@ Documentation de référence sur les clés de propriété pour l’état du cont
 
 <dl> <dt>
 
-[Informations de référence sur l’infrastructure du ruban Windows](windowsribbon-reference-entry.md)
+[Windows Informations de référence sur l’infrastructure du ruban](windowsribbon-reference-entry.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
