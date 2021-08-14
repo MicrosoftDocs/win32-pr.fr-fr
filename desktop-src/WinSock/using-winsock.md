@@ -4,12 +4,12 @@ ms.assetid: 614ead82-b3fc-4023-8ecc-9f0212f0b194
 title: Utilisation de Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 361e303605809bc3570d503a66788b3a32c824ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ac191f914e1a95a8331b0445fc9e73226f2fdd6661543140eae95c2540159be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322032"
 ---
 # <a name="using-winsock"></a>Utilisation de Winsock
 
@@ -20,8 +20,8 @@ La liste suivante décrit les rubriques de cette section :
 -   [Prise en main avec Winsock](getting-started-with-winsock.md)
 -   [Programmation Winsock sécurisée](secure-winsock-programming.md)
 -   [Portage d’applications de socket vers Winsock](porting-socket-applications-to-winsock.md)
--   [Guide IPv6 pour les applications Windows Sockets](ipv6-guide-for-windows-sockets-applications-2.md)
--   [Applications Windows Sockets hautes performances](high-performance-windows-sockets-applications-2.md)
+-   [Guide IPv6 pour les Applications Windows sockets](ipv6-guide-for-windows-sockets-applications-2.md)
+-   [Applications de sockets Windows hautes performances](high-performance-windows-sockets-applications-2.md)
 -   [Catégorisation des fournisseurs de services en couche et des applications](categorizing-layered-service-providers-and-applications.md)
 -   [Programmation de la multidiffusion](multicast-programming.md)
 -   [Programmation de la multidiffusion fiable (PGM)](reliable-multicast-programming--pgm-.md)

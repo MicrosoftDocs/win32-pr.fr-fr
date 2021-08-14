@@ -1,6 +1,6 @@
 ---
 title: Attributs d’objet utilisateur
-description: Un objet utilisateur a plusieurs attributs. Cette section décrit les attributs clés utilisés par Windows, les outils d’administration et le carnet d’adresses Windows (WAB). Elle ne décrit pas tous les attributs ; de nombreux attributs ne sont pas utilisés pour l’objet utilisateur.
+description: Un objet utilisateur a plusieurs attributs. cette section décrit les attributs clés utilisés par Windows, les outils d’administration et le carnet d’adresses Windows (WAB). Elle ne décrit pas tous les attributs ; de nombreux attributs ne sont pas utilisés pour l’objet utilisateur.
 ms.assetid: c173c5d1-2680-4b9c-961d-251fba6e2c7c
 ms.tgt_platform: multiple
 keywords:
@@ -9,16 +9,16 @@ keywords:
 - Objets AD, utilisateur, attributs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f9c90d8d5f28c41971f5f6910cfb8bef1fafd6f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 8a1bb6b347bd55daceb07dfe1fad4adc3e1352afc91ec14018aab6b24615c2b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103940789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182628"
 ---
 # <a name="user-object-attributes"></a>Attributs d’objet utilisateur
 
-Un objet utilisateur a plusieurs attributs. Cette section décrit les attributs clés utilisés par Windows, les outils d’administration et le carnet d’adresses Windows (WAB). Elle ne décrit pas tous les attributs ; de nombreux attributs ne sont pas utilisés pour l’objet utilisateur.
+Un objet utilisateur a plusieurs attributs. cette section décrit les attributs clés utilisés par Windows, les outils d’administration et le carnet d’adresses Windows (WAB). Elle ne décrit pas tous les attributs ; de nombreux attributs ne sont pas utilisés pour l’objet utilisateur.
 
 Certains attributs sont stockés dans l’annuaire, tels que [**CN**](/windows/desktop/ADSchema/a-cn), [**ntSecurityDescriptor**](/windows/desktop/ADSchema/a-ntsecuritydescriptor), [**objectGUID**](/windows/desktop/ADSchema/a-objectguid), etc., et répliqués sur tous les contrôleurs de domaine au sein d’un domaine. Un sous-ensemble de ces attributs est également répliqué dans le catalogue global.
 
@@ -73,6 +73,6 @@ Pour plus d’informations sur la classe User, y compris la liste complète des 
 
 Le mot de passe d’un utilisateur ne peut pas être modifié directement, car cela implique l’envoi d’un mot de passe non chiffré sur le réseau. Pour définir le mot de passe d’un utilisateur, il est nécessaire d’utiliser la méthode [**IADsUser. ChangePassword**](/windows/desktop/api/iads/nf-iads-iadsuser-changepassword) ou [**IADsUser. SetPassword**](/windows/desktop/api/iads/nf-iads-iadsuser-setpassword) . La méthode **IADsUser. ChangePassword** est utilisée lorsque l’application permet à l’utilisateur de modifier son propre mot de passe. La méthode **IADsUser. SetPassword** est utilisée lorsque l’application permet à un administrateur de réinitialiser un mot de passe.
 
- 
+ 
 
- 
+ 

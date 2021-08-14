@@ -4,12 +4,12 @@ ms.assetid: 18fd47dc-b428-4ada-aee5-e696e23c1f26
 title: System. photo. GainControlText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38edf2bc287bc4abc683f4c3f3abb0c21273e9ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a80f8443a8d78afb91efeb44834a9e6861eb3b0f13b6a2097185413cf5d7b88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228723"
 ---
 # <a name="systemphotogaincontroltext"></a>System. photo. GainControlText
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

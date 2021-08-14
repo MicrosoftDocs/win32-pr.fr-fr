@@ -4,18 +4,18 @@ description: Le gestionnaire de tables de routage gère des tables de routage di
 ms.assetid: 3848d93d-cc54-4a08-bd36-a9700cde6ce0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f118ec1d0a6f8fe4ef301654e139f217257c3a0b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 31fea4ac965fe397d5bb7eba2b65479358a1e192f1583b1e7e73c2532dbd3a50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788054"
 ---
 # <a name="route-tables-and-route-table-entries"></a>Tables de routage et entrées de table de routage
 
-**Windows Server 2003 :** Cette API a été remplacée par l’API du [Gestionnaire de table de routage version 2](about-routing-table-manager-version-2.md) et n’est pas disponible au-delà de Windows Server 2003. Les nouvelles applications doivent utiliser l’API du gestionnaire de table de routage version 2.
+**Windows Server 2003 :** cette api a été remplacée par l’api du [gestionnaire de Table de routage Version 2](about-routing-table-manager-version-2.md) et ne sera pas disponible au-delà de Windows Server 2003. Les nouvelles applications doivent utiliser l’API du gestionnaire de table de routage version 2.
 
-Le gestionnaire de tables de routage gère des tables de routage distinctes pour chaque famille de protocoles. Actuellement, la prise en charge explicite est fournie pour les familles de protocoles de routage IP (Internet Protocol) et IPX (Internet Packet Exchange). Quelle que soit la famille de protocoles, chaque entrée d’itinéraire contient les informations suivantes :
+Le gestionnaire de tables de routage gère des tables de routage distinctes pour chaque famille de protocoles. actuellement, la prise en charge explicite est fournie pour les familles de protocoles de routage IP (internet protocol) et IPX (internet Packet Exchange). Quelle que soit la famille de protocoles, chaque entrée d’itinéraire contient les informations suivantes :
 
 -   Réseau de destination.
 -   Identificateur du protocole qui a ajouté l’itinéraire.
@@ -35,9 +35,9 @@ Les valeurs suivantes, utilisées ensemble, identifient de façon unique un itin
 
 En général, le gestionnaire de tables de routage crée des entrées distinctes pour les itinéraires qui diffèrent dans l’une de ces valeurs de paramètre. Toutefois, une exception est faite pour les protocoles de routage qui ne conservent pas plus d’une entrée pour chaque réseau de destination. Pour ces protocoles, le gestionnaire de tables de routage ignore les différences dans l’index d’interface ou l’adresse de saut suivant. Un exemple de ce type de protocole est l’implémentation RRAS du chemin d’accès ouvert le plus rapide (OSPF).
 
- 
+ 
 
- 
+ 
 
 
 

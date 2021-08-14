@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 1d3111b74c876cc7ffedb959eca7f46812ed92e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4e988f26b64d0d8bd4a23f853b7bf9dc92f2610936239b4363439d5c7d70170
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320806"
 ---
 # <a name="__instanceoperationevent-class"></a>\_\_InstanceOperationEvent, classe
 
@@ -94,7 +94,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ InstanceOperationEvent** est dérivée de [**\_ \_ Event**](--event.md).
 
@@ -106,7 +106,7 @@ Les instances de **\_ \_ InstanceOperationEvent** ne sont pas créées ; seules
 
 [**\_\_InstanceDeletionEvent**](--instancedeletionevent.md)
 
-**Vue d’ensemble**
+**Vue d'ensemble**
 
 De même qu’il existe une classe WMI qui représente chaque type de ressource système qui peut être gérée à l’aide de WMI, il existe une classe WMI qui représente chaque type d’événement WMI. Lorsqu’un événement qui peut être surveillé par WMI se produit, une instance de la classe d’événements WMI correspondante est créée. Un événement WMI se produit lorsque cette instance est créée.
 

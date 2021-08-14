@@ -7,12 +7,12 @@ keywords:
 - Configuration de l’AD du compte d’utilisateur d’un service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 705fa16d8d2cce137755f4a5086716aaaef8046a
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: f310ee97c68ded8c4086694302feccb5991d726e01f9addbeced21cc5b9acfdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183276"
 ---
 # <a name="setting-up-a-services-user-account"></a>Configuration du compte d’utilisateur d’un service
 
@@ -24,6 +24,6 @@ Lorsque votre programme d’installation suggère un compte d’ouverture de ses
 
 Vous devez générer un mot de passe pour chaque compte. Pour plus d’informations sur l’écriture d’un outil qui automatise la tâche de mise à jour des mots de passe de compte de service, consultez [modification du mot de passe sur le compte d’utilisateur d’un service](changing-the-password-on-a-serviceampaposs-user-account.md).
 
- 
+ 
 
- 
+ 

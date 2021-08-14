@@ -3,7 +3,7 @@ title: DownloadItem. Progress
 description: Remarque Cette section décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. La propriété Progress récupère la progression du téléchargement en octets.
 ms.assetid: 58644eac-8dd0-4e9d-8055-03833c863a6e
 keywords:
-- DownloadItem. Progress lecteur Windows Media
+- DownloadItem. progress Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9a1967c1eb3dc72c00b8b10b70da5d797343e5f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9bf88e57ce044381ca20685e68009e2ea7aa48463734fc10c1f2128768a36f49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340729"
 ---
 # <a name="downloaditemprogress"></a>DownloadItem. Progress
 

@@ -16,12 +16,12 @@ api_type:
 api_location:
 - Winspool.drv
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: c5175daf0a59ac4231baa1a32772863a0017c45d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7be4efb1de46a960508972b00d113c5a27ab57187c1a89475eebcde69f14d978
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117686731"
 ---
 # <a name="enumprinterdrivers-function"></a>EnumPrinterDrivers fonction)
 
@@ -60,7 +60,7 @@ Si *pname* a la **valeur null**, la fonction énumère les pilotes d’imprimant
 *pEnvironment* \[ dans\]
 </dt> <dd>
 
-Pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement (par exemple, Windows x86, Windows IA64, Windows x64 ou Windows NT R4000). Si ce paramètre a la **valeur null**, la fonction utilise l’environnement actuel de l’appelant/client (pas du serveur/de destination).
+pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement (par exemple, Windows x86, Windows IA64, Windows x64 ou Windows NT R4000). Si ce paramètre a la **valeur null**, la fonction utilise l’environnement actuel de l’appelant/client (pas du serveur/de destination).
 
 Si la chaîne *pEnvironment* spécifie « All », **EnumPrinterDrivers** énumère les pilotes d’imprimante pour toutes les plateformes installées sur le serveur spécifié.
 
@@ -125,7 +125,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.

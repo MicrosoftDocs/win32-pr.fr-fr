@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Surveillance des événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ea5d9fc6f9a12f4aa1fb7bc0ff6f66fc4dd4a7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb90a0a6eef87f88543e8f2414bc38bdea4f7d89c577471d79d23393f331b053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317113"
 ---
 # <a name="monitoring-events"></a>Surveillance des événements
 
@@ -78,7 +78,7 @@ La procédure suivante décrit comment créer un consommateur d’événements t
     Le langage de programmation détermine l’API à utiliser.
 
     -   Pour le langage de programmation C++, utilisez l' [API com pour WMI](com-api-for-wmi.md).
-    -   Pour les Visual Basic ou les langages de script, utilisez l' [API de script pour WMI](scripting-api-for-wmi.md).
+    -   pour les Visual Basic ou les langages de script, utilisez l' [API de script pour WMI](scripting-api-for-wmi.md).
 
 2.  Commencez le codage d’une application de consommateur d’événements temporaire de la même façon que vous démarrez une application WMI.
 

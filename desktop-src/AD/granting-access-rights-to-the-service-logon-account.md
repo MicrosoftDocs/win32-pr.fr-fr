@@ -7,12 +7,12 @@ keywords:
 - Octroi de droits d’accès à l’AD du compte d’ouverture de session du service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22f4ea5b85e6158109338b881eeb3f59d74a3910
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 3d13d3e06432b3501961f65a3e27ca00a46f18197bef23d78e6f7ca0deec59b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106511886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189078"
 ---
 # <a name="granting-access-rights-to-the-service-logon-account"></a>Octroi de droits d’accès au compte d’ouverture de session du service
 
@@ -22,6 +22,6 @@ Pour plus d’informations et pour obtenir un exemple de code qui peut être uti
 
 Dans certains cas, vous devez ajouter votre compte d’utilisateur de service en tant que membre d’un ou de plusieurs groupes de sécurité. Par exemple, si vous créez un groupe administrateurs pour votre service, vous pouvez faire en sorte que le service soit membre du groupe. Vous pouvez ensuite accorder des droits d’accès au groupe plutôt que de les accorder explicitement au compte de service. Pour plus d’informations sur les groupes de sécurité, consultez [gestion des groupes](managing-groups.md).
 
- 
+ 
 
- 
+ 

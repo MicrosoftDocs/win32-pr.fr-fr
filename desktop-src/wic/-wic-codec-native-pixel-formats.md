@@ -1,19 +1,19 @@
 ---
-description: Cette rubrique présente les formats de pixel fournis par le WIC (Windows Imaging Component).
+description: cette rubrique présente les formats de pixel fournis par le composant WIC (Windows Imaging Component).
 ms.assetid: 348b6d15-e339-4dce-99f3-4d639ee9bf7d
 title: Vue d’ensemble des formats de pixel natifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4df37481399ac8193effc5d8f93aa49050460ee6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 379e67d422ccbd05ef178e67eb25c973e6b5943ef85d22873097f245f8914a23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118206337"
 ---
 # <a name="native-pixel-formats-overview"></a>Vue d’ensemble des formats de pixel natifs
 
-Cette rubrique présente les formats de pixel fournis par le WIC (Windows Imaging Component).
+cette rubrique présente les formats de pixel fournis par le composant WIC (Windows Imaging Component).
 
 Un format de pixel décrit la disposition de la mémoire de chaque pixel dans une bitmap. Cette disposition de mémoire décrit la façon dont les données d’image d’une image bitmap sont encodées en spécifiant le format numérique et l’organisation du canal de couleurs. WIC prend en charge plusieurs formats numériques pour plusieurs schémas d’organisation de canaux de couleurs, fournissant une large gamme de formats de pixel.
 
@@ -115,14 +115,14 @@ Le système visuel humain est moins sensible aux modifications de chrominance qu
 
 Les formats de pixel dans WIC sont définis à l’aide de GUID pour éviter les conflits avec les IHV. WIC fournit un nom convivial pour référencer le GUID d’un format de pixel natif. La Convention d’affectation de noms pour les formats de pixel WIC est la suivante :
 
-**\[GUID \_ WICPixelFormat \] \[ bits par pixel \] \[ type de \] \[ stockage de l’ordre des canaux\]**
+**\[GUID \_ WICPixelFormat \] \[ Bits par Pixel \] \[ ordre des canaux de \] \[ Stockage Type\]**
 
 | Mettre en forme le composant         | Description                                                                                                                                                                                                                                                                                                  |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **GUID \_ WICPixelFormat** | Identification descriptive de tous les formats de pixel WIC. Le nom convivial de tous les pixels de WIC commence par cette chaîne.                                                                                                                                                                                       |
 | **Bits par pixel**       | Nombre de bits par pixel (BPP) utilisé pour le format de pixel.                                                                                                                                                                                                                                                |
 | **Ordre des canaux**        | Modèle de canal de couleur et ordre de chaque canal pour le format.                                                                                                                                                                                                                                            |
-| **Type de stockage**         | Encodage numérique utilisé pour le format de pixel. L’encodage par défaut est un entier non signé. Si rien ne suit les informations de modèle de couleur, un entier non signé (UINT) est implicite. FixedPoint et float sont utilisés pour identifier les formats de pixel qui utilisent l’encodage à virgule fixe et à virgule flottante respectivement. |
+| **Stockage Entrer**         | Encodage numérique utilisé pour le format de pixel. L’encodage par défaut est un entier non signé. Si rien ne suit les informations de modèle de couleur, un entier non signé (UINT) est implicite. FixedPoint et float sont utilisés pour identifier les formats de pixel qui utilisent l’encodage à virgule fixe et à virgule flottante respectivement. |
 
 
 
@@ -141,7 +141,7 @@ WIC prend en charge plusieurs formats de pixel. Les tableaux suivants regroupent
 -   **Nombre de canaux**. Nombre de canaux de couleurs.
 -   **Bits par canal**. Nombre de bits par canal (profondeur de bit).
 -   **Bits par pixel**. Nombre de bits par pixel, y compris les bits de remplissage.
--   **Type de stockage**. Encodage numérique des données de l’image. Cette valeur peut être un entier non signé (UINT), un nombre à virgule fixe (FixedPoint) ou un nombre à virgule flottante (float).
+-   **Type de Stockage**. Encodage numérique des données de l’image. Cette valeur peut être un entier non signé (UINT), un nombre à virgule fixe (FixedPoint) ou un nombre à virgule flottante (float).
 
 > [!Note]  
 > Par souci de clarté, ce document fait référence aux formats de pixel uniquement par leurs noms conviviaux. La valeur hexadécimale réelle pour les formats de pixel se trouve dans les fichiers wincodec. h/IDL.
@@ -261,7 +261,7 @@ Le tableau suivant répertorie les formats RGB/BGR fournis par WIC. Ces formats 
 
  
 
-À compter de Windows 8 et de la [mise à jour de plateforme pour Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7), WIC fournit des formats supplémentaires, présentés dans le tableau ci-dessous.
+à partir de Windows 8 et de la [mise à jour de plateforme pour Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7), WIC fournit des formats supplémentaires, présentés dans le tableau ci-dessous.
 
 
 
@@ -371,13 +371,13 @@ En l’absence d’informations d’espace de couleurs pour une image, la règle
 
 ## <a name="native-image-formats"></a>Formats d’images natives
 
-Chacun des codecs WIC fournis par Windows prend en charge un sous-ensemble des formats de pixel WIC. Pour chaque codec, les formats de décodage pris en charge peuvent être différents de ceux pris en charge.
+chaque Windows des codecs wic fournis prend en charge un sous-ensemble des formats de pixel wic. Pour chaque codec, les formats de décodage pris en charge peuvent être différents de ceux pris en charge.
 
 Lors du décodage d’une image, si les données sont stockées en mode natif dans un format de pixel qui n’est pas pris en charge par le décodeur, il est converti dans un format pris en charge. Pour déterminer le format de pixel de sortie, appelez [**IWICBitmapFrameDecode :: GetPixelFormat**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsource-getpixelformat).
 
 Lors de l’encodage d’une image, utilisez [**IWICBitmapFrameEncode :: SetPixelFormat**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-setpixelformat) pour demander que l’encodeur utilise un format de pixel spécifique. L’encodeur retourne le format de pixel le plus proche pris en charge, qui peut être différent de ce qui a été demandé.
 
-Les tableaux suivants affichent les formats de pixel pris en charge par les codecs WIC fournis par Windows.
+les tableaux suivants affichent les formats de pixel pris en charge par chaque Windows codec WIC fournis.
 
 ### <a name="bmp-native-codec"></a>Codec natif BMP
 
@@ -402,7 +402,7 @@ Les tableaux suivants affichent les formats de pixel pris en charge par les code
  
 
 > [!Note]  
-> \_Le GUID WICPixelFormat32bppBGRA est uniquement pris en charge dans Windows 8, la [mise à jour de la plateforme pour Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7)et les versions ultérieures.
+> \_le GUID WICPixelFormat32bppBGRA est uniquement pris en charge dans Windows 8, la [mise à jour de la plateforme pour Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7)et les versions ultérieures.
 >
 > -   Pour encoder dans ce format, utilisez l’option d’encodeur **EnableV5Header32bppBGRA** . Le BMP sera écrit avec un en-tête BITMAPV5HEADER.
 > -   Si un fichier a un BITMAPV5HEADER, il se décode en tant que GUID \_ WICPixelFormat32bppBGRA.
@@ -506,7 +506,7 @@ Les tableaux suivants affichent les formats de pixel pris en charge par les code
  
 
 > [!Note]  
-> \_Le GUID WICPixelFormat96bppRGBFloat est uniquement pris en charge dans Windows 8, la [mise à jour de la plateforme pour Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7)et les versions ultérieures.
+> \_le GUID WICPixelFormat96bppRGBFloat est uniquement pris en charge dans Windows 8, la [mise à jour de la plateforme pour Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7)et les versions ultérieures.
 
  
 
@@ -586,7 +586,7 @@ Les tableaux suivants affichent les formats de pixel pris en charge par les code
  
 
 > [!Note]  
-> Le codec Windows DDS fourni prend en charge les fichiers DDS encodés à l’aide des valeurs de format DXGI suivantes \_ :
+> le codec dds Windows fourni prend en charge les fichiers dds encodés à l’aide des valeurs de FORMAT DXGI suivantes \_ :
 
  
 
@@ -607,7 +607,7 @@ Les formats d’image personnalisés peuvent utiliser des formats de pixel qui n
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [GUID et CLSID WIC](-wic-guids-clsids.md)

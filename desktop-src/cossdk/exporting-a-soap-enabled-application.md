@@ -4,12 +4,12 @@ ms.assetid: c40031a6-f3de-4ef4-b9aa-3f49e57da5b4
 title: Exportation d’une application SOAP-Enabled
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d5c92029f431fc06964f233c5746c283821d11c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ce79bbc5dca59feb23ba9e976575b3b33570ecd27cf1e6a68560b02e073f48bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118307286"
 ---
 # <a name="exporting-a-soap-enabled-application"></a>Exportation d’une application SOAP-Enabled
 

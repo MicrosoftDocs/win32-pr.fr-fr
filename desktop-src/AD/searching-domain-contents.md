@@ -8,12 +8,12 @@ keywords:
 - recherche de contenu de domaine Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c18cd879e950fd9c467f6674092947d430d8f87
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 51f775e199cd269eec8a67054ca26bcd69e11eacaa6436781f4481083d11e60d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183867"
 ---
 # <a name="searching-domain-contents"></a>Recherche de contenu de domaine
 
@@ -31,9 +31,9 @@ Si un contrôleur de domaine contient un réplica complet de uniquement son prop
 
 Une recherche de sous-arborescence sur une arborescence de domaine avec le repérage de références activé peut prendre du temps s’il existe une connexion lente aux contrôleurs de domaine pour les domaines enfants. Si vous ne souhaitez rechercher qu’un seul domaine, vous devez désactiver le repérage des références pour éviter d’avoir à rechercher les domaines enfants inutilement.
 
- 
+ 
 
- 
+ 
 
 
 

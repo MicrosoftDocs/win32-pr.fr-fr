@@ -6,12 +6,12 @@ keywords:
 - MCI_SET message de commande
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6bc48faa36fea49b0aba749476c998572ebf400
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 59eb5a9194f3f2598cd8f88fbefb3ea741f51eb9c25210deb6db69c54259e189
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118370887"
 ---
 # <a name="setting-the-time-format"></a>Définition du format d’heure
 
@@ -34,7 +34,7 @@ Utilisez le message de commande [**\_ Set MCI**](mci-set.md) avec la [**structur
 
 
 
- 
+ 
 
 L’exemple suivant définit le format d’heure sur millisecondes sur l’appareil spécifié par la variable wDeviceID à l’aide de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) .
 
@@ -61,6 +61,6 @@ else
 
 
 
- 
+ 
 
- 
+ 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Format d’intervalle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e10e13d5febbce22648ec76961269ab18b1c028a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30db455b6b39349b3da2f8328b22597d8b9c16c47387ba7f6b15d81e62ceb134
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118318535"
 ---
 # <a name="interval-format"></a>Format d’intervalle
 

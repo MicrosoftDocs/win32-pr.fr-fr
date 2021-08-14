@@ -5,16 +5,16 @@ ms.assetid: 6cbfa79a-b57b-44b8-a421-d5e79c1b3757
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ee0db76457860106e51bd6c29cead3d0f8227d7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d16ca861df6b6546920aaf3f778c61117776ff3861556377b280c990c03711fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324077"
 ---
 # <a name="authorization-plug-in-entry-points"></a>Points d’entrée du plug-in d’autorisation
 
-Les plug-ins d’autorisation sont configurés uniquement pour un processus hôte Internet Information Services (IIS). Un seul plug-in d’autorisation peut être configuré par répertoire virtuel.
+les plug-ins d’autorisation sont configurés uniquement pour un processus hôte Internet Information Services (IIS). Un seul plug-in d’autorisation peut être configuré par répertoire virtuel.
 
 Tous les plug-ins d’autorisation doivent prendre en charge les points d’entrée suivants :
 
@@ -27,7 +27,7 @@ Le point d’entrée suivant est facultatif :
 
 -   [**WSManPluginAuthzQueryQuota**](/windows/win32/api/wsman/nc-wsman-wsman_plugin_authorize_query_quota)
 
-Le tableau suivant fournit une vue d’ensemble des points d’entrée du plug-in d’autorisation dans l’API de plug-in Windows Remote Management (WinRM).
+le tableau suivant fournit une vue d’ensemble des points d’entrée du plug-in d’autorisation dans l’API de plug-in Windows Remote Management (WinRM).
 
 
 

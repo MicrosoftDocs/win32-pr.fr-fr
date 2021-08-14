@@ -4,12 +4,12 @@ ms.assetid: 9ab9ac2d-bf1d-419c-8f6b-e2ee80a4bf20
 title: 'Étape 1 : création d’un composant transactionnel'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdc378d85e628504e8724b765362b3397826f5e5
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 87f5c87fb5c5f615ee04a3233f1a563d5ae5230e4dd18908c78e94092ff0f5c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104321349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118305407"
 ---
 # <a name="step-1-creating-a-transactional-component"></a>Étape 1 : création d’un composant transactionnel
 
@@ -49,7 +49,7 @@ COM+ lie le service de transactions avec l’activation juste-à-temps (JIT) et 
 
 Le composant UpdateAuthorAddress ouvre une connexion à la base de données pubs, ce qui permet à l’utilisateur de modifier le nom, l’adresse ou le statut du contrat d’un auteur. Il appelle également un deuxième composant, qui est abordé à l' [étape 2 : extension d’une transaction sur plusieurs composants](step-2--extending-a-transaction-across-multiple-components.md).
 
-Pour utiliser le code suivant dans un projet Microsoft Visual Basic, ouvrez un nouveau projet ActiveX.dll et ajoutez des références à la bibliothèque Microsoft ActiveX Data Objects et à la bibliothèque de types services COM+.
+pour utiliser le code suivant dans un projet microsoft Visual Basic, ouvrez un nouveau projet ActiveX.dll et ajoutez des références à la bibliothèque microsoft ActiveX Data Objects et à la bibliothèque de types Services COM+.
 
 > [!Note]  
 > L’exemple de code de ce premier plan est à des fins d’illustration et peut ne pas être le plus efficace pour la mise en lots et la production réelles.
@@ -161,7 +161,7 @@ End Sub
 
 
 
-## <a name="summary"></a>Résumé
+## <a name="summary"></a>Récapitulatif
 
 -   COM+ affecte des valeurs d’attribut par défaut. Vous pouvez reconfigurer la plupart des attributs de service.
 -   L’affectation de la valeur **obligatoire** à l’attribut de transaction d’un composant garantit que com+ doit créer chaque instance de ce composant dans une transaction, mais ne démarre pas nécessairement une nouvelle transaction.

@@ -1,5 +1,5 @@
 ---
-description: La plupart des constantes de propriété d’acquisition d’images Windows (WIA) sont regroupées dans un type de données énuméré, WiaItemPropertyId pour les auteurs de scripts.
+description: la plupart des constantes de propriété d’Acquisition d’images Windows (WIA) sont regroupées dans un type de données énuméré, WiaItemPropertyId pour les auteurs de scripts.
 ms.assetid: d0fd6bd1-c646-4ed8-a6b2-43b424af8288
 title: WiaItemPropertyId
 ms.topic: article
@@ -9,16 +9,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6ced5d213d68fa3c4386ecf6f05783bd303bad05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dedd11a35d52d19a4fcff4299dce688e8163ecd19d2bf9e4b49e19cb1997b293
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118207506"
 ---
 # <a name="wiaitempropertyid"></a>WiaItemPropertyId
 
-La plupart des constantes de propriété d’acquisition d’images Windows (WIA) sont regroupées dans un type de données énuméré, WiaItemPropertyId pour les auteurs de scripts.
+la plupart des constantes de propriété d’Acquisition d’images Windows (WIA) sont regroupées dans un type de données énuméré, WiaItemPropertyId pour les auteurs de scripts.
 
 Le tableau suivant présente le mappage entre les conventions d’affectation de noms utilisées dans les scripts et C++. Par exemple, dans le script, le préfixe « CameraDevice » est mappé au \_ préfixe « WIA DPC » pour la constante C++ correspondante. Dans un exemple plus spécifique, la propriété « CameraDeviceFlashMode » est équivalente à la constante C++ « WIA \_ \_ mode flash DPC \_ ». Pour obtenir une description de chaque propriété, consultez les rubriques des constantes de propriété correspondantes. 
 

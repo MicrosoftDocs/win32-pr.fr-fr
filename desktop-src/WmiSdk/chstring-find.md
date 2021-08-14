@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'CHString :: Find, méthodes (ChString. h)'
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 5996ca5c06e2101fad834ce2e37df31ee435fbb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7f326b202d107dc192683517508446b3c785266c675e5cf27d92577311d453a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319993"
 ---
 # <a name="chstringfind-methods"></a>CHString :: Find, méthodes
 
@@ -37,7 +37,7 @@ La méthode **Find** recherche dans une chaîne la première correspondance d’
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                                                                                                      |
-| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008<br/>                                                                                                                                |
 | En-tête<br/>                   | <dl> <dt>ChString. h (inclure FwCommon. h)</dt> </dl>                                                    |
 | Bibliothèque<br/>                  | <dl> <dt>FrameDyn. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll ; </dt> <dt>FrameDyn.dll</dt> </dl> |

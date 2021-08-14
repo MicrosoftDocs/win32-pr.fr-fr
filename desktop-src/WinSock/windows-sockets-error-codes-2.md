@@ -1,21 +1,21 @@
 ---
-description: Codes d’erreur Windows Sockets (Winsock) retournés par la fonction WSAGetLastError.
+description: Windows Codes d’erreur de Sockets (Winsock) retournés par la fonction WSAGetLastError.
 ms.assetid: 50b924f3-2c88-443b-8a90-4293fe5c3048
-title: Codes d’erreur Windows Sockets (Winsock2. h)
+title: Windows Codes d’erreur des sockets (Winsock2. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81c251d63872c05623a6d1c9e3820edd2d8f670e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ece53093e7aca31d9d883680005f92ca8b30a76120209affb4dba42d6826d0bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322002"
 ---
-# <a name="windows-sockets-error-codes"></a>Codes d’erreur de Windows Sockets
+# <a name="windows-sockets-error-codes"></a>Windows Codes d’erreur des sockets
 
-La plupart des fonctions Windows Sockets 2 ne retournent pas la cause spécifique d’une erreur quand la fonction retourne. Pour plus d’informations, consultez la rubrique [gestion des erreurs Winsock](handling-winsock-errors.md) .
+la plupart des Windows fonctions sockets 2 ne retournent pas la cause spécifique d’une erreur quand la fonction retourne. Pour plus d’informations, consultez la rubrique [gestion des erreurs Winsock](handling-winsock-errors.md) .
 
-La fonction [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) retourne la dernière erreur qui s’est produite pour le thread appelant. Quand une fonction Windows Sockets particulière indique qu’une erreur s’est produite, cette fonction doit être appelée immédiatement pour récupérer le code d’erreur étendu pour l’appel de fonction qui a échoué. Ces codes d’erreur et une brève description de texte associée à un code d’erreur sont définis dans le fichier d’en-tête *winerror. h* . La fonction [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage) peut être utilisée pour obtenir la chaîne de message de l’erreur retournée.
+La fonction [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) retourne la dernière erreur qui s’est produite pour le thread appelant. quand une fonction Windows sockets particulière indique qu’une erreur s’est produite, cette fonction doit être appelée immédiatement pour récupérer le code d’erreur étendu pour l’appel de fonction ayant échoué. Ces codes d’erreur et une brève description de texte associée à un code d’erreur sont définis dans le fichier d’en-tête *winerror. h* . La fonction [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage) peut être utilisée pour obtenir la chaîne de message de l’erreur retournée.
 
 Pour plus d’informations sur la gestion des codes d’erreur lors du Portage d’applications de socket vers Winsock, consultez [codes d’erreur-errno, h \_ errno et WSAGetLastError](error-codes-errno-h-errno-and-wsagetlasterror-2.md).
 
@@ -39,11 +39,11 @@ La liste suivante décrit les codes d’erreur possibles retournés par la fonct
 </tr>
 <tr class="even">
 <td><span id="WSA_NOT_ENOUGH_MEMORY"></span><span id="wsa_not_enough_memory"></span><dl> <dt><strong>WSA_NOT_ENOUGH_MEMORY</strong></dt> <dt>8</dt> </dl></td>
-<td><dl> <dt><span id="Insufficient_memory_available."></span><span id="insufficient_memory_available."></span><span id="INSUFFICIENT_MEMORY_AVAILABLE."></span>Mémoire disponible insuffisante.</dt> <dd> Une application a utilisé une fonction Windows Sockets qui est directement mappée à une fonction Windows. La fonction Windows indique un manque de ressources mémoire requises.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Insufficient_memory_available."></span><span id="insufficient_memory_available."></span><span id="INSUFFICIENT_MEMORY_AVAILABLE."></span>Mémoire disponible insuffisante.</dt> <dd> une application a utilisé une fonction de sockets Windows qui correspond directement à une fonction Windows. la fonction Windows indique un manque de ressources mémoire requises.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSA_INVALID_PARAMETER"></span><span id="wsa_invalid_parameter"></span><dl> <dt><strong>WSA_INVALID_PARAMETER</strong></dt> <dt>87</dt> </dl></td>
-<td><dl> <dt><span id="One_or_more_parameters_are_invalid."></span><span id="one_or_more_parameters_are_invalid."></span><span id="ONE_OR_MORE_PARAMETERS_ARE_INVALID."></span>Un ou plusieurs paramètres ne sont pas valides.</dt> <dd> Une application a utilisé une fonction Windows Sockets qui est directement mappée à une fonction Windows. La fonction Windows indique un problème avec un ou plusieurs paramètres.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="One_or_more_parameters_are_invalid."></span><span id="one_or_more_parameters_are_invalid."></span><span id="ONE_OR_MORE_PARAMETERS_ARE_INVALID."></span>Un ou plusieurs paramètres ne sont pas valides.</dt> <dd> une application a utilisé une fonction de sockets Windows qui est directement mappée à une fonction Windows. la fonction Windows indique un problème avec un ou plusieurs paramètres.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSA_OPERATION_ABORTED"></span><span id="wsa_operation_aborted"></span><dl> <dt><strong>WSA_OPERATION_ABORTED</strong></dt> <dt>995</dt> </dl></td>
@@ -87,7 +87,7 @@ La liste suivante décrit les codes d’erreur possibles retournés par la fonct
 </tr>
 <tr class="even">
 <td><span id="WSAEINPROGRESS"></span><span id="wsaeinprogress"></span><dl> <dt><strong>WSAEINPROGRESS</strong></dt> <dt>10036</dt> </dl></td>
-<td><dl> <dt><span id="Operation_now_in_progress."></span><span id="operation_now_in_progress."></span><span id="OPERATION_NOW_IN_PROGRESS."></span>Opération en cours.</dt> <dd> Une opération de blocage est actuellement en cours d'exécution. Windows Sockets n’autorise qu’une seule opération de blocage (par tâche ou par thread) en suspens, et si un autre appel de fonction est effectué (qu’il référence ou non ce Socket ou un autre), la fonction échoue avec l’erreur WSAEINPROGRESS.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Operation_now_in_progress."></span><span id="operation_now_in_progress."></span><span id="OPERATION_NOW_IN_PROGRESS."></span>Opération en cours.</dt> <dd> Une opération de blocage est actuellement en cours d'exécution. Windows Les sockets n’autorisent qu’une seule opération de blocage (par tâche ou par thread) en suspens, et si un autre appel de fonction est effectué (qu’il référence ou non ce Socket ou un autre), la fonction échoue avec l’erreur WSAEINPROGRESS.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAEALREADY"></span><span id="wsaealready"></span><dl> <dt><strong>WSAEALREADY</strong></dt> <dt>10037</dt> </dl></td>
@@ -127,7 +127,7 @@ La liste suivante décrit les codes d’erreur possibles retournés par la fonct
 </tr>
 <tr class="even">
 <td><span id="WSAEPFNOSUPPORT"></span><span id="wsaepfnosupport"></span><dl> <dt><strong>WSAEPFNOSUPPORT</strong></dt> <dt>10046</dt> </dl></td>
-<td><dl> <dt><span id="Protocol_family_not_supported."></span><span id="protocol_family_not_supported."></span><span id="PROTOCOL_FAMILY_NOT_SUPPORTED."></span>Famille de protocoles non prise en charge.</dt> <dd> La famille de protocoles n’a pas été configurée dans le système ou aucune implémentation de celle-ci n’existe. Ce message a une signification légèrement différente de WSAEAFNOSUPPORT. Toutefois, il est interchangeable dans la plupart des cas, et toutes les fonctions Windows Sockets qui retournent l’un de ces messages spécifient également WSAEAFNOSUPPORT.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Protocol_family_not_supported."></span><span id="protocol_family_not_supported."></span><span id="PROTOCOL_FAMILY_NOT_SUPPORTED."></span>Famille de protocoles non prise en charge.</dt> <dd> La famille de protocoles n’a pas été configurée dans le système ou aucune implémentation de celle-ci n’existe. Ce message a une signification légèrement différente de WSAEAFNOSUPPORT. toutefois, il est interchangeable dans la plupart des cas, et toutes les fonctions de sockets Windows qui retournent l’un de ces messages spécifient également WSAEAFNOSUPPORT.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAEAFNOSUPPORT"></span><span id="wsaeafnosupport"></span><dl> <dt><strong>WSAEAFNOSUPPORT</strong></dt> <dt>10047</dt> </dl></td>
@@ -211,7 +211,7 @@ La liste suivante décrit les codes d’erreur possibles retournés par la fonct
 </tr>
 <tr class="odd">
 <td><span id="WSAEPROCLIM"></span><span id="wsaeproclim"></span><dl> <dt><strong>WSAEPROCLIM</strong></dt> <dt>10067</dt> </dl></td>
-<td><dl> <dt><span id="Too_many_processes."></span><span id="too_many_processes."></span><span id="TOO_MANY_PROCESSES."></span>Trop de processus.</dt> <dd> Une implémentation de Windows Sockets peut avoir une limite du nombre d’applications qui peuvent l’utiliser simultanément. <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup"><strong>WSAStartup</strong></a> peut échouer avec cette erreur si la limite a été atteinte.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Too_many_processes."></span><span id="too_many_processes."></span><span id="TOO_MANY_PROCESSES."></span>Trop de processus.</dt> <dd> une implémentation de sockets Windows peut avoir une limite du nombre d’applications qui peuvent l’utiliser simultanément. <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup"><strong>WSAStartup</strong></a> peut échouer avec cette erreur si la limite a été atteinte.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAEUSERS"></span><span id="wsaeusers"></span><dl> <dt><strong>WSAEUSERS</strong></dt> <dt>10068</dt> </dl></td>
@@ -231,16 +231,16 @@ La liste suivante décrit les codes d’erreur possibles retournés par la fonct
 </tr>
 <tr class="even">
 <td><span id="WSASYSNOTREADY"></span><span id="wsasysnotready"></span><dl> <dt><strong>WSASYSNOTREADY</strong></dt> <dt>10091</dt> </dl></td>
-<td><dl> <dt><span id="Network_subsystem_is_unavailable."></span><span id="network_subsystem_is_unavailable."></span><span id="NETWORK_SUBSYSTEM_IS_UNAVAILABLE."></span>Le sous-système réseau n’est pas disponible.</dt> <dd> Cette erreur est retournée par <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup"><strong>WSAStartup</strong></a> si l’implémentation de Windows Sockets ne peut pas fonctionner pour l’instant, car le système sous-jacent qu’il utilise pour fournir des services réseau n’est pas disponible actuellement. Les utilisateurs doivent vérifier :<br/> </dd> </dl>
+<td><dl> <dt><span id="Network_subsystem_is_unavailable."></span><span id="network_subsystem_is_unavailable."></span><span id="NETWORK_SUBSYSTEM_IS_UNAVAILABLE."></span>Le sous-système réseau n’est pas disponible.</dt> <dd> cette erreur est retournée par <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup"><strong>WSAStartup</strong></a> si l’implémentation de sockets Windows ne peut pas fonctionner pour l’instant, car le système sous-jacent utilisé pour fournir des services réseau n’est pas disponible actuellement. Les utilisateurs doivent vérifier :<br/> </dd> </dl>
 <ul>
-<li>Que le fichier DLL Windows Sockets approprié se trouve dans le chemin d’accès actuel.</li>
-<li>Qu’ils n’essaient pas d’utiliser plusieurs implémentations de Windows Sockets simultanément. S’il existe plusieurs DLL WinSock sur votre système, assurez-vous que la première dans le chemin d’accès est appropriée pour le sous-système réseau actuellement chargé.</li>
-<li>La documentation sur l’implémentation de Windows Sockets pour vérifier que tous les composants nécessaires sont actuellement installés et configurés correctement.</li>
+<li>que le fichier DLL de sockets Windows approprié se trouve dans le chemin d’accès actuel.</li>
+<li>qu’ils n’essaient pas d’utiliser plusieurs Windows implémentations de sockets simultanément. S’il existe plusieurs DLL WinSock sur votre système, assurez-vous que la première dans le chemin d’accès est appropriée pour le sous-système réseau actuellement chargé.</li>
+<li>la documentation sur l’implémentation d’Windows sockets pour vérifier que tous les composants nécessaires sont actuellement installés et configurés correctement.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAVERNOTSUPPORTED"></span><span id="wsavernotsupported"></span><dl> <dt><strong>WSAVERNOTSUPPORTED</strong></dt> <dt>10092</dt> </dl></td>
-<td><dl> <dt><span id="Winsock.dll_version_out_of_range."></span><span id="winsock.dll_version_out_of_range."></span><span id="WINSOCK.DLL_VERSION_OUT_OF_RANGE."></span>Winsock.dll version hors limites.</dt> <dd> L’implémentation actuelle de Windows Sockets ne prend pas en charge la version de la spécification Windows Sockets demandée par l’application. Vérifiez que l'accès ne porte pas sur d'anciens fichiers DLL de Windows Sockets.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Winsock.dll_version_out_of_range."></span><span id="winsock.dll_version_out_of_range."></span><span id="WINSOCK.DLL_VERSION_OUT_OF_RANGE."></span>Winsock.dll version hors limites.</dt> <dd> l’implémentation actuelle de sockets Windows ne prend pas en charge la version de spécification Windows sockets demandée par l’application. Vérifiez que l'accès ne porte pas sur d'anciens fichiers DLL de Windows Sockets.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSANOTINITIALISED"></span><span id="wsanotinitialised"></span><dl> <dt><strong>WSANOTINITIALISED</strong></dt> <dt>10093</dt> </dl></td>

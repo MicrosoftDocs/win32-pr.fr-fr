@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fce2ddddd00de509278760a22fe3ab464f27c1c8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7284c4e2bb164cd53c8a34357c881ed096f342ae2c2230422985fac4c1fdae9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118344796"
 ---
 # <a name="ivmkeyboard-interface"></a>Interface IVMKeyboard
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Contrôle le périphérique clavier au sein d’un ordinateur virtuel. Le **IVMKeyboard** d’un ordinateur virtuel peut être récupéré à l’aide de la propriété [**IVMVirtualMachine :: Keyboard**](ivmvirtualmachine-keyboard.md) .
 
@@ -68,7 +68,7 @@ L’interface **IVMKeyboard** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les clés peuvent être tapées dans la machine virtuelle de plusieurs façons. Pour taper une séquence de caractères ASCII normale, utilisez la méthode [**TypeAsciiText**](ivmkeyboard-typeasciitext.md) . Si vous avez besoin d’une plus grande flexibilité, **IVMKeyboard** dispose de plusieurs méthodes conçues pour être utilisées avec les codes de touches de la liste suivante. La méthode [**TypeKeySequence**](ivmkeyboard-typekeysequence.md) peut accepter une chaîne délimitée par des virgules de codes clés, qui sera appuyée et libérée, dans l’ordre, dans l’ordinateur virtuel. En plus de ces codes clés, les mots clés UP et UpDown peuvent être utilisés pour forcer une touche à uniquement être enfoncée ou être libérée. Les mots clés UP et UpDown s’appliquent uniquement au code clé qui suit directement le mot clé.
 
@@ -80,7 +80,7 @@ Pour éviter que plusieurs scripts, applications ou utilisateurs essaient d’ac
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |
@@ -93,7 +93,7 @@ Pour éviter que plusieurs scripts, applications ou utilisateurs essaient d’ac
 
 <dl> <dt>
 
-[Interfaces de PC virtuels Windows](virtual-pc-interfaces.md)
+[Windows Interfaces Virtual PC](virtual-pc-interfaces.md)
 </dt> <dt>
 
 [Séquences de touches](key-sequences.md)

@@ -8,12 +8,12 @@ keywords:
 - ADSI et extensions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 956a76954851ea54b4eae99bfa45102a3b2fefa5
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 6f1b5a806812fea1191ce5eb1b5a977fc430d9cbf15140b4b096dbf388c85315
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181160"
 ---
 # <a name="how-adsi-integrates-extensions"></a>Comment ADSI intègre les extensions
 
@@ -28,6 +28,6 @@ Les instructions suivantes décrivent comment ADSI interagit avec les extensions
 -   Ensuite, le client appelle **QueryInterface** pour IID \_ IYourExtension, qui se trouve dans un autre composant. Ce composant délègue cet appel **QueryInterface** à l’interface [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) de l’agrégateur, qui devient ADSI lui-même.
 -   Là encore, ADSI recherche les interfaces et crée l’instance de composant.
 
- 
+ 
 
- 
+ 

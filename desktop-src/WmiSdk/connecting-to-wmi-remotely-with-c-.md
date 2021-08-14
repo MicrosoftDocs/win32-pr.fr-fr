@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2ad9fe2008b52276a8f68149b33ae3729daaf7d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f9ed735a1440d124a065a9f509eac7c58b1fded9be0683e361903b9f02fc1f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319437"
 ---
 # <a name="connecting-to-wmi-remotely-with-c"></a>Connexion à WMI à distance avec C #
 
@@ -91,7 +91,7 @@ WMI a été conçu pour contrôler le matériel et les logiciels sur des ordinat
 
 **Pour vous connecter à WMI à distance avec C# (System. Management)**
 
-1.  Créez un objet [ManagementScope](/dotnet/api/system.management.managementscope) , en utilisant le nom de l’ordinateur et le chemin d’accès WMI, et connectez-vous à votre cible à l’aide d’un appel à ManagementScope. Connect ().
+1.  Créez un objet [ManagementScope](/dotnet/api/system.management.managementscope) , en utilisant le nom de l’ordinateur et le chemin d’accès WMI, et connectez-vous à votre cible à l’aide d’un appel à ManagementScope. Connecter ().
 
     Si vous vous connectez à un ordinateur distant en utilisant les mêmes informations d’identification (domaine et nom d’utilisateur) que vous utilisez pour vous connecter, vous devez uniquement spécifier le chemin d’accès WMI. Une fois que vous êtes connecté, vous pouvez effectuer votre requête WMI.
 

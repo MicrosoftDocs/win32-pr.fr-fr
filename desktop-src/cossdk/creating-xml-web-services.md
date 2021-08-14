@@ -4,19 +4,19 @@ ms.assetid: 03c3d5a7-eb98-4916-b6ef-ef6aac86c574
 title: Création de services Web XML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b10652531e64fec38f2ac221184cb589a27b343d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 12dbc5ee08d9300d52b538648ba520b16a60a9e3769242c252eaa40d518a3ea1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118307336"
 ---
 # <a name="creating-xml-web-services"></a>Création de services Web XML
 
 Toutes les applications COM+ peuvent être exposées en tant que service Web XML. Les méthodes des interfaces par défaut des composants d’applications configurés (composants dans le catalogue COM+ serveurs) peuvent ensuite être appelées à distance. Vous pouvez utiliser l’outil d’administration Services de composants pour créer un répertoire racine virtuel IIS à partir duquel les méthodes de composant peuvent être appelées à l’aide de SOAP.
 
 > [!Note]  
-> Le .NET Framework doit être installé sur votre ordinateur afin d’exposer une application COM+ en tant que service Web XML.
+> le .NET Framework doit être installé sur votre ordinateur afin d’exposer une application COM+ en tant que service web XML.
 
  
 
@@ -36,9 +36,9 @@ Toutes les applications COM+ peuvent être exposées en tant que service Web XML
 
     Si vous spécifiez le répertoire racine virtuel IIS en tant que *vroot* et si le nom de domaine complet de votre serveur est *ServerName*, l’URL où votre composant est exposé en tant que service Web XML est https://*ServerName* / *vroot*/.
 
-    Le répertoire correspondant dans votre système de fichiers est \\ Windows \\ system32 \\ com \\ SoapVRoots \\ *vroot* \\ ; COM+ place plusieurs fichiers de configuration et des programmes ASP.NET. Pour un service Web XML soumis à une charge importante, vous pouvez ajuster les paramètres stockés dans le web.config de fichiers. Pour plus d’informations sur ce fichier, consultez la documentation d’IIS.
+    Le répertoire correspondant dans votre système de fichiers est \\ Windows \\ system32 \\ com \\ SoapVRoots \\ *vroot* \\ ; COM+ place plusieurs fichiers de configuration et ASP.NET des programmes. Pour un service Web XML soumis à une charge importante, vous pouvez ajuster les paramètres stockés dans le web.config de fichiers. Pour plus d’informations sur ce fichier, consultez la documentation d’IIS.
 
-    Les paramètres de sécurité par défaut d’une application COM+ exposée en tant que service Web XML varient en fonction de la version du .NET Framework installée. Si la version 1,0 est installée, les services Web XML ne sont pas sécurisés par défaut. tous les appels sont acceptés et aucun chiffrement n’est utilisé. Si la version 1,1 ou une version ultérieure est installée, les services Web XML sont sécurisés par défaut. les appelants doivent être authentifiés et le chiffrement est requis.
+    les paramètres de sécurité par défaut d’une application COM+ exposée en tant que service web XML varient en fonction de la version du .NET Framework installée. Si la version 1,0 est installée, les services Web XML ne sont pas sécurisés par défaut. tous les appels sont acceptés et aucun chiffrement n’est utilisé. Si la version 1,1 ou une version ultérieure est installée, les services Web XML sont sécurisés par défaut. les appelants doivent être authentifiés et le chiffrement est requis.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

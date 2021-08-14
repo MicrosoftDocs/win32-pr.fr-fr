@@ -4,12 +4,12 @@ ms.assetid: 82c99170-784b-4724-a25b-2f2e8a2e0225
 title: Chaînes ACE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ed8f9aad8696bd3d3c251170f2ff79ea493ce57
-ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
+ms.openlocfilehash: f60e8f4f5d3cd94f6e871b3b4962d2d548afa003c3bd4aa37a1ae8f008ce1a6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "108644181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785400"
 ---
 # <a name="ace-strings"></a>Chaînes ACE
 
@@ -47,15 +47,15 @@ Chaîne qui indique la valeur du membre **AceType** de la structure d' [**\_ en-
 | "AL"            | \_alarme SDDL                             | \_type d' \_ ACE d’alarme système \_                                                                                                                                           |
 | Organisation            | \_audit des objets SDDL \_                     | \_type d' \_ ACE d’objet d’audit système \_ \_                                                                                                                                   |
 | OL            | \_alarme d’objet SDDL \_                     | \_type d' \_ ACE d’objet d’alarme système \_ \_                                                                                                                                   |
-| ENVIRON            | étiquette de SDDL \_ obligatoire \_                  | \_Type d’ACE du label obligatoire du système \_ \_ \_ **Windows Server 2003 :** non disponible.                                                                                        |
-| XA            | \_ \_ accès au rappel SDDL \_ autorisé         | Accès \_ autorisé \_ au \_ \_ type de la ACE de rappel **Windows Server 2008, windows Vista et Windows Server 2003 :** non disponible.                                                |
-| VERROUILLAGE            | \_ \_ accès au rappel SDDL \_ refusé          | \_Type d' \_ ACE de rappel de refus d’accès \_ \_ **Windows Server 2008, windows Vista et Windows Server 2003 :** non disponible.                                                 |
-| INSCRIPTION            | \_attribut de ressource SDDL \_               | \_Type d’ACE d’attribut de ressource système \_ \_ \_ **Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista et Windows Server 2003 :** non disponible.<br/> |
-| SR            | ID de stratégie de l' \_ étendue SDDL \_ \_                | \_ \_ Type d’ACE de l’ID de stratégie système \_ \_ \_ **Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista et Windows Server 2003 :** non disponible.<br/>  |
-| "XU"            | \_audit de rappel SDDL \_                   | \_Type d’entrée de contrôle d’accès de rappel du système \_ \_ \_ **Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista et Windows Server 2003 :** non disponible.<br/>     |
-| ARMÉNIENNE            | \_ \_ accès à l’objet de rappel SDDL \_ \_ autorisé | TYPE d’entrée du contrôle d’accès autorisé pour le \_ \_ rappel \_ \_ **Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista et Windows Server 2003 :** non disponible.<br/>   |
-| TL            | \_étiquette d' \_ approbation de processus SDDL \_             | \_Type d' \_ entrée du contrôle d’approbation des processus système \_ \_ \_ **Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista et Windows Server 2003 :** non disponible. |
-| TX            | \_filtre d’accès SDDL \_                    | \_Type d’ACE du filtre d’accès système \_ \_ \_ **Windows Server 2016, Windows 10 version 1607, Windows 10 version 1511, Windows 10 version 1507, windows server 2012 R2, Windows 8.1, Windows Server 2012, windows 8, Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista et Windows Server 2003 :** non disponible. |
+| « ML »            | étiquette de SDDL \_ obligatoire \_                  | \_TYPE d’ACE du LABEL obligatoire du système \_ \_ \_ **Windows serveur 2003 :** non disponible.                                                                                        |
+| XA            | \_ \_ accès au rappel SDDL \_ autorisé         | accès \_ autorisé \_ au \_ TYPE de l’ACE de rappel \_ **Windows serveur 2008, Windows Vista et Windows server 2003 :** non disponible.                                                |
+| VERROUILLAGE            | \_ \_ accès au rappel SDDL \_ refusé          | \_TYPE d’ACE de rappel de refus d’accès \_ \_ \_ **Windows serveur 2008, Windows Vista et Windows server 2003 :** non disponible.                                                 |
+| INSCRIPTION            | \_attribut de ressource SDDL \_               | \_attribut de ressource système \_ \_ ACE \_ TYPE **Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista et Windows server 2003 :** non disponible.<br/> |
+| SR            | ID de stratégie de l' \_ étendue SDDL \_ \_                | \_ \_ TYPE d’ACE de l’ID de stratégie système \_ \_ \_ **Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista et Windows server 2003 :** non disponible.<br/>  |
+| "XU"            | \_audit de rappel SDDL \_                   | \_TYPE d’entrée de contrôle d’accès de rappel du système \_ \_ \_ **Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista et Windows server 2003 :** non disponible.<br/>     |
+| ARMÉNIENNE            | \_ \_ accès à l’objet de rappel SDDL \_ \_ autorisé | TYPE d’entrée du contrôle d’accès autorisé pour le \_ \_ rappel \_ \_ **Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista et Windows server 2003 :** non disponible.<br/>   |
+| TL            | \_étiquette d' \_ approbation de processus SDDL \_             | \_TYPE d' \_ entrée de contrôle d’accès de l’étiquette d’approbation du processus système \_ \_ \_ **Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista et Windows Server 2003 :** non disponible. |
+| TX            | \_filtre d’accès SDDL \_                    | \_TYPE d’ACE du filtre d’accès système \_ \_ \_ **Windows Server 2016, Windows 10 version 1607, Windows 10 version 1511, Windows 10 version 1507, Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista et Windows server 2003 :** non disponible. |
  
 
 > [!Note]  
@@ -81,8 +81,8 @@ Chaîne qui indique la valeur du membre **AceFlags** de la structure d' [**\_ en
 | « ID »             | SDDL \_ hérité          | \_ACE hérité                |
 | SA             | \_réussite de l’audit SDDL \_     | \_ \_ indicateur ACE d’accès réussi \_ |
 | Param             | \_échec de l’audit SDDL \_     | \_ \_ indicateur ACE d’accès en échec \_     |
-| PM             | \_ \_ filtre protégé d’approbation SDDL \_ | \_ \_ Indicateur ACE du filtre protégé \_ de confiance \_ **Windows Server 2016, Windows 10 version 1607, Windows 10 version 1511, Windows 10 version 1507, windows server 2012 R2, Windows 8.1, Windows Server 2012, windows 8, Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista et Windows Server 2003 :** non disponible. |
-| CR             | SDDL \_ critique           | \_Indicateur ACE \_ critique **Windows Server version 1803, windows 10 version 1803, windows Server version 1709, windows 10 version 1709, windows 10 version 1703, Windows Server 2016, windows 10 version 1607, windows 10 version 1511, windows 10 version 1507, Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista et Windows Server 2003 :** non disponible. |
+| PM             | \_ \_ filtre protégé d’approbation SDDL \_ | \_indicateur ACE du filtre protégé par approbation \_ \_ \_ **Windows Server 2016, Windows 10 version 1607, Windows 10 version 1511, Windows 10 version 1507, Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista et Windows server 2003 :** non disponible. |
+| CR             | SDDL \_ critique           | \_indicateur ACE \_ critique **Windows server version 1803, Windows 10 version 1803, Windows server version 1709, Windows 10 version 1709, Windows 10 version 1703, Windows Server 2016, Windows 10 version 1607, Windows 10 version 1511, Windows 10 version 1507, Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows server 2008, Windows Vista et Windows Server 2003 :** non disponible. |
  
 
 </dd> <dt>
@@ -150,9 +150,9 @@ Chaîne qui indique les [droits d’accès](access-rights-and-access-masks.md) c
 
 | Chaîne de droits d’accès | Constante dans SDDL. h | Valeur du droit d’accès |
 |----------------------|--------------------|--------------------|
-| Nr                 | SDDL \_ non \_ lu \_ | \_Étiquette obligatoire \_ système \_ non \_ en \_ lecture **Windows Server 2008, Windows Vista et Windows Server 2003 :** non disponible. |
-| 11LE                 | SDDL \_ non \_ écrit \_ | \_Étiquette obligatoire \_ système \_ non \_ réécritr \_ **Windows Server 2008, Windows Vista et Windows Server 2003 :** non disponible. |
-| NX                 | SDDL \_ non \_ exécuté \_ | \_Étiquette obligatoire \_ système \_ non \_ exécutée sur \_ **Windows Server 2008, Windows Vista et Windows Server 2003 :** non disponible. |
+| Nr                 | SDDL \_ non \_ lu \_ | \_étiquette obligatoire \_ système \_ non \_ en \_ lecture **Windows serveur 2008, Windows Vista et Windows server 2003 :** non disponible. |
+| 11LE                 | SDDL \_ non \_ écrit \_ | \_étiquette obligatoire \_ système \_ non \_ \_ en écriture **Windows serveur 2008, Windows Vista et Windows server 2003 :** non disponible. |
+| NX                 | SDDL \_ non \_ exécuté \_ | \_étiquette obligatoire \_ système \_ non \_ exécutée \_ **Windows serveur 2008, Windows Vista et Windows server 2003 :** non disponible. |
 </dd> <dt>
 
 <span id="object_guid"></span><span id="OBJECT_GUID"></span>**GUID de l’objet \_**
@@ -207,7 +207,7 @@ Le \# signe « » est synonyme de «0 » dans les attributs de ressource. Par 
 | TS                                    | \_WSTRING SDDL      | Chaîne étendue      |
 | ÉQUIPEMENTS                                    | \_sid SDDL          | SID              |
 | ÉMETTEUR                                    | \_objet BLOB SDDL         | Chaîne d’octets     |
-| TO                                    | SDDL \_ booléen      | Booléen          |
+| TO                                    | SDDL \_ booléen      | Boolean          |
 
 
 
@@ -241,7 +241,7 @@ Ace Sid      : (S-1-1-0)
 
 
 
-L’exemple suivant montre un fichier classé avec les revendications de ressource pour Windows et langage SQL (SQL) avec secret défini sur un impact professionnel élevé.
+l’exemple suivant montre un fichier classé avec des revendications de ressource pour Windows et langage SQL (SQL) avec un secret défini sur un Impact professionnel élevé.
 
 
 ```C++

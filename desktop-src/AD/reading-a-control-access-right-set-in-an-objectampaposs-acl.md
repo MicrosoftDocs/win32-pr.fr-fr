@@ -7,12 +7,12 @@ keywords:
 - Lecture d’un droit d’accès de contrôle défini dans l’ACL d’un objet Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4877c96a95fc94095c79ad129e8a07b1c786abe1
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 52a7bb241eabc8a853f30e1ff64d469141d694dc56351786fdf7d486f06ed67e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104030991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184883"
 ---
 # <a name="reading-a-control-access-right-set-in-an-objects-acl"></a>Lecture d’un droit d’accès de contrôle défini dans l’ACL d’un objet
 
@@ -41,6 +41,6 @@ Utilisez la procédure suivante pour lire une entrée du contrôle d’accès po
 11. Lorsque vous avez terminé avec les chaînes [**ObjectType**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) et **fiduciaire** , utilisez [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer la mémoire pour ces chaînes.
 12. Lorsque vous avez terminé avec les interfaces, appelez **Release** pour décrémenter ou libérer toutes les références d’interface.
 
- 
+ 
 
- 
+ 

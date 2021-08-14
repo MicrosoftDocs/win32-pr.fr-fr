@@ -9,12 +9,12 @@ keywords:
 - Structures Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3bbaa6334c502369028c8d338cee4d06a49040b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 169f88577df0dad847816cf526e89db0df909eb60f70462f2ed36027c3897ef2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183053"
 ---
 # <a name="structures-in-active-directory-domain-services"></a>Structures dans Active Directory Domain Services
 
@@ -28,9 +28,9 @@ Voici les catégories de structures dans Active Directory Domain Services :
 -   [Structures de sauvegarde d’annuaire](directory-backup-structures.md)
 -   [Structure de la boîte de dialogue Sélecteur d’objets](object-picker-dialog-box-structures.md)
 
- 
+ 
 
- 
+ 
 
 
 

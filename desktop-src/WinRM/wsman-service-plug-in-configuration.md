@@ -1,20 +1,20 @@
 ---
 title: Configuration du plug-in du service WinRM
-description: Un plug-in de Windows Remote Management (WinRM) doit être inscrit dans le catalogue WinRM pour permettre à l’infrastructure de déterminer de manière dynamique l’ensemble des plug-ins disponibles et les URI de ressource qu’ils prennent en charge.
+description: un plug-in de Windows Remote Management (WinRM) doit être inscrit dans le catalogue WinRM pour permettre à l’infrastructure de déterminer de manière dynamique l’ensemble des plug-ins disponibles et les uri de ressource qu’ils prennent en charge.
 ms.assetid: d71cd244-3f10-40e3-a756-36cdf41b9cad
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60bf618d71e55c6afd28de918198725895088559
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 08b82b24b8631cd6a47a879a6fa0684b9b2ac9c542699396d0f0997afe14cac8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104316734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118323717"
 ---
 # <a name="winrm-service-plug-in-configuration"></a>Configuration du plug-in du service WinRM
 
-Un plug-in de Windows Remote Management (WinRM) doit être inscrit dans le catalogue WinRM pour permettre à l’infrastructure de déterminer de manière dynamique l’ensemble des plug-ins disponibles et les [*URI de ressource*](windows-remote-management-glossary.md) qu’ils prennent en charge. Tous les [*URI de ressource*](windows-remote-management-glossary.md) pour les plug-ins WinRM doivent être conformes au format défini dans la RFC 3986 ( [https://www.ietf.org/rfc/rfc3986.txt](https://www.ietf.org/rfc/rfc3986.txt) ). La configuration s’effectue par le biais du service WinRM principal.
+un plug-in de Windows Remote Management (WinRM) doit être inscrit dans le catalogue WinRM pour permettre à l’infrastructure de déterminer de manière dynamique l’ensemble des plug-ins disponibles et les [*uri de ressource*](windows-remote-management-glossary.md) qu’ils prennent en charge. Tous les [*URI de ressource*](windows-remote-management-glossary.md) pour les plug-ins WinRM doivent être conformes au format défini dans la RFC 3986 ( [https://www.ietf.org/rfc/rfc3986.txt](https://www.ietf.org/rfc/rfc3986.txt) ). La configuration s’effectue par le biais du service WinRM principal.
 
 La commande suivante inscrit une configuration de plug-in auprès du service WinRM :
 
@@ -130,7 +130,7 @@ Représente une configuration d' [*URI de ressource*](windows-remote-management-
 > [!Note]  
 > L’attribut **SupportsOptions** peut avoir la valeur false. Si **SupportsOptions** a la valeur false, cet attribut n’est pas répertorié lorsque la ressource est énumérée.
 
- 
+ 
 
 </dd> <dt>
 
@@ -306,9 +306,9 @@ Voici le schéma de configuration de plug-in spécifié en tant que XSD.
 </xs:schema>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,8 @@
 ---
-title: Script VB répertoriant tous les points de connexion de service
+title: VB Script répertoriant tous les points de connexion de service
 ms.assetid: 7a76f872-3e4e-4bb7-8f2d-e30b1246369f
 ms.tgt_platform: multiple
-description: 'En savoir plus sur : script VB répertoriant tous les points de connexion de service'
+description: 'en savoir plus sur : VB Script répertoriant tous les Points de connexion de Service'
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e1166afff8147785332db615b916fd3ff35c15ab
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b6872a8a516d7f6a75cd25ddb6970b0830775fb881f0a0f601756021e2264072
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182263"
 ---
-# <a name="vb-script-listing-all-service-connection-points"></a>Script VB répertoriant tous les points de connexion de service
+# <a name="vb-script-listing-all-service-connection-points"></a>VB Script répertoriant tous les points de connexion de service
 
-Les points de connexion de service peuvent être gérés à l’aide d’un script VB. L’exemple de code suivant montre comment répertorier tous les points de connexion de service sur le nom de domaine fourni sur la ligne de commande :
+les Points de connexion de Service peuvent être gérés à l’aide d’VB Script. L’exemple de code suivant montre comment répertorier tous les points de connexion de service sur le nom de domaine fourni sur la ligne de commande :
 
 
 ```VB

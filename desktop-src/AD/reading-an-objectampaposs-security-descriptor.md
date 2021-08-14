@@ -8,12 +8,12 @@ keywords:
 - Active Directory, exemple de code Visual Basic, lecture du descripteur de sécurité d’un objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68a232b559109ed45fad8060882768968156e4a7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 9288f7e3bed71dc5bbeefdd3cf1a48cebd86efd293b74b46dbaf7a44e7389f6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184822"
 ---
 # <a name="reading-an-objects-security-descriptor"></a>Lecture du descripteur de sécurité d’un objet
 
@@ -21,7 +21,7 @@ L’exemple de code suivant utilise les interfaces [**IADs**](/windows/desktop/a
 
 L’exemple de code suivant utilise la méthode [**IADs. obtenir**](/windows/desktop/api/iads/nf-iads-iads-get) pour récupérer la propriété **ntSecurityDescriptor** de l’objet annuaire. La version C++ de cette méthode retourne un **Variant** qui contient un pointeur [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) . L’exemple de code appelle ensuite **QueryInterface** sur ce pointeur **IDispatch** pour recevoir une interface [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) du descripteur de sécurité de l’objet.
 
-L’exemple de code utilise ensuite des méthodes [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) pour récupérer des données à partir du descripteur de sécurité. Sachez que les données, disponibles via **IADsSecurityDescriptor**, dépendent des droits d’accès de l’appelant. Les propriétés [**IADsSecurityDescriptor. DiscretionaryAcl**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) et **IADsSecurityDescriptor. Owner** échouent si l’appelant n’a pas **accès \_ en lecture** à l’objet. De même, un appel à la méthode **obtenir \_ SystemAcl** échoue si le privilège de **\_ \_ nom de sécurité de se** n’est pas activé pour l’appelant.
+L’exemple de code utilise ensuite des méthodes [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) pour récupérer des données à partir du descripteur de sécurité. Sachez que les données, disponibles via **IADsSecurityDescriptor**, dépendent des droits d’accès de l’appelant. Les propriétés [**IADsSecurityDescriptor. DiscretionaryAcl**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) et **IADsSecurityDescriptor. Owner** échouent si l’appelant n’a pas **accès \_ en lecture** à l’objet. de même, un appel à la méthode **obtenir \_ SystemAcl** échoue si le privilège de **\_ \_ nom de sécurité SE** n’est pas activé pour l’appelant.
 
 
 ```VB
@@ -454,6 +454,6 @@ return iReturn;
 
 
 
- 
+ 
 
- 
+ 

@@ -1,26 +1,26 @@
 ---
 title: Installation et utilisation des éditeurs de méthode d’entrée
-description: Cet article présente un didacticiel sur l’installation et l’utilisation de l’éditeur de méthode d’entrée (IME) Windows standard.
+description: cet article propose un didacticiel sur l’installation et l’utilisation de l’éditeur de méthode d’entrée (IME) Windows standard.
 ms.assetid: 0dc430ce-bed4-8d02-f45e-4eefb0ad0369
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd6018b3a387a12409f9e46d0392bbd60015af29
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b45a0da52d0e917186831de8c84f39ecee3d2583ac4a267fa2501c643e2f75f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118153425"
 ---
 # <a name="installing-and-using-input-method-editors"></a>Installation et utilisation des éditeurs de méthode d’entrée
 
-Cet article présente un didacticiel sur l’installation et l’utilisation de l’éditeur de méthode d’entrée (IME) Windows standard.
+cet article propose un didacticiel sur l’installation et l’utilisation de l’éditeur de méthode d’entrée (IME) Windows standard.
 
 -   [Installation d’un éditeur de méthode d’entrée](#installing-an-input-method-editor)
 -   [IME chinois simplifié](#simplified-chinese-ime)
 -   [IME chinois traditionnel](#traditional-chinese-ime)
 -   [IME japonais](#japanese-ime)
 -   [IME coréen](#korean-ime)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 
 ## <a name="installing-an-input-method-editor"></a>Installation d’un éditeur de méthode d’entrée
 
@@ -28,7 +28,7 @@ Les sections suivantes décrivent comment installer et utiliser les éditeurs de
 
 Pour implémenter les fonctionnalités de l’éditeur de méthode d’entrée (IME) dans une application, consultez [utilisation d’un éditeur de méthode d’entrée dans un jeu](/windows/desktop/DxTechArts/using-an-input-method-editor-in-a-game).
 
-Par défaut, un IME n’est pas installé sur les systèmes Microsoft Windows XP. Pour installer, procédez comme suit.
+par défaut, un IME n’est pas installé sur les systèmes Microsoft Windows XP. Pour installer, procédez comme suit.
 
 **Pour installer un IME**
 
@@ -43,14 +43,14 @@ Par défaut, un IME n’est pas installé sur les systèmes Microsoft Windows XP
 
 3.  Cliquez sur OK pour fermer la boîte de dialogue.
 4.  Cliquez sur OK sous l’onglet langues.
-5.  Une autre boîte de dialogue s’affiche pour demander un disque d’installation de Windows XP ou un emplacement de partage réseau où se trouvent les fichiers de prise en charge linguistique. Insérez un disque compact Windows XP ou accédez à l’emplacement réseau approprié, puis cliquez sur OK. Microsoft Windows installe les fichiers nécessaires et vous invite à redémarrer l’ordinateur.
+5.  une autre boîte de dialogue s’affiche pour demander un disque d’installation Windows XP ou un emplacement de partage réseau où se trouvent les fichiers de prise en charge linguistique. insérez un disque Windows XP compact ou accédez à l’emplacement réseau approprié, puis cliquez sur OK. Microsoft Windows installe les fichiers nécessaires et vous invite à redémarrer l’ordinateur.
 6.  Cliquez sur Oui pour redémarrer l’ordinateur.
 7.  Après le redémarrage, ouvrez une nouvelle fois les options régionales et linguistiques du panneau de configuration.
 8.  Dans l’onglet langues, cliquez sur détails. La fenêtre services de texte et langues d’entrée s’affiche.
 
     ![services ext et fenêtre langues d’entrée](images/ime-2.png)
 
-9.  Dans l’onglet Paramètres, cliquez sur Ajouter. La fenêtre Ajouter une langue d’entrée s’affiche.
+9.  sous l’onglet Paramètres, cliquez sur ajouter. La fenêtre Ajouter une langue d’entrée s’affiche.
 
     ![fenêtre Ajouter une langue d’entrée](images/ime-3.png)
 
@@ -63,27 +63,27 @@ Par défaut, un IME n’est pas installé sur les systèmes Microsoft Windows XP
     ![zone de liste des services installés](images/ime-7.png)
 
 15. Cliquez sur OK pour fermer la fenêtre services de texte et langues d’entrée.
-16. Cliquez sur OK pour fermer le panneau de configuration Options régionales et linguistiques. La barre des tâches Windows doit maintenant contenir un indicateur de paramètres régionaux d’entrée entouré d’un cercle rouge. L’existence de l’indicateur signifie que plusieurs langues d’entrée ont été installées sur le système.
+16. Cliquez sur OK pour fermer le panneau de configuration Options régionales et linguistiques. la barre des tâches Windows doit maintenant contenir un indicateur de paramètres régionaux d’entrée entouré d’un cercle rouge. L’existence de l’indicateur signifie que plusieurs langues d’entrée ont été installées sur le système.
 
     ![indicateur qui signifie que plusieurs langues d’entrée ont été installées sur le système](images/ime-8.png)
 
 ## <a name="simplified-chinese-ime"></a>IME chinois simplifié
 
-Cette section explique comment utiliser l’IME (PinYin) simplifié avec le bloc-notes Microsoft pour entrer quelques caractères chinois.
+cette section explique comment utiliser l’IME (PinYin) simplifié avec Microsoft Bloc-notes pour entrer quelques caractères chinois.
 
-1.  Lancez le bloc-notes (disponible à partir du bouton Démarrer, puis sélectionnez tous les programmes et accessoires). Tapez des caractères dans le bloc-notes. Ces caractères vous aideront à visualiser la fenêtre IME plus tard.
+1.  lancez Bloc-notes (disponible à partir du bouton démarrer, puis sélectionnez tous les programmes et accessoires). tapez des caractères dans Bloc-notes. Ces caractères vous aideront à visualiser la fenêtre IME plus tard.
 
     ![Capture qui affiche des caractères qui permettent de visualiser la fenêtre I M E plus tard pour le chinois simplifié.](images/ime-sc1.png)
 
-2.  Avec le bloc-notes comme application active, cliquez sur l’indicateur de paramètres régionaux d’entrée et sélectionnez chinois (RPC). L’affichage de l’indicateur devient CH pour indiquer que la nouvelle langue d’entrée est le chinois (RPC).
+2.  avec Bloc-notes comme application active, cliquez sur l’indicateur de paramètres régionaux d’entrée et sélectionnez chinois (rpc). L’affichage de l’indicateur devient CH pour indiquer que la nouvelle langue d’entrée est le chinois (RPC).
 
     ![Capture d’écran montrant l’indicateur de paramètres régionaux d’entrée pour sélectionner le chinois (P R C).](images/ime-sc2.png)
 
-3.  Placez le curseur dans le bloc-notes. Appuyez sur orig sur le clavier afin que le curseur se trouve au début de la ligne. Sur le type de clavier « N », puis « I ». L’illustration suivante montre l’apparence de l’affichage. Le petit rectangle horizontal est la fenêtre de lecture, qui affiche la chaîne de lecture actuelle. Actuellement, la chaîne de lecture est « ni » en raison de la saisie de « N » et « I ».
+3.  placez le curseur dans Bloc-notes. Appuyez sur orig sur le clavier afin que le curseur se trouve au début de la ligne. Sur le type de clavier « N », puis « I ». L’illustration suivante montre l’apparence de l’affichage. Le petit rectangle horizontal est la fenêtre de lecture, qui affiche la chaîne de lecture actuelle. Actuellement, la chaîne de lecture est « ni » en raison de la saisie de « N » et « I ».
 
     ![Capture d’écran montrant une chaîne de lecture avec « n » et « i ».](images/ime-sc3.png)
 
-4.  Tapez « 3 ». Le bloc-notes présente désormais l’affichage suivant. Étant donné que N + I + 3 est une prononciation complète en pinyin chinois simplifié, l’IME dispose de suffisamment d’informations pour anticiper le caractère que l’utilisateur peut avoir prévu d’entrer. La fenêtre de lecture disparaît, car vous avez entré une prononciation complète. Un caractère est affiché en haut du curseur du bloc-notes. Ce caractère ne fait pas partie du bloc-notes, mais il est affiché dans une autre fenêtre en haut du bloc-notes et masque les caractères existants dans le bloc-notes qui se trouvent sous. Cette nouvelle fenêtre est appelée la fenêtre de composition, et la chaîne qu’elle contient est appelée chaîne de composition. La chaîne de composition est soulignée dans l’affichage.
+4.  Tapez « 3 ». Bloc-notes a désormais l’affichage suivant. Étant donné que N + I + 3 est une prononciation complète en pinyin chinois simplifié, l’IME dispose de suffisamment d’informations pour anticiper le caractère que l’utilisateur peut avoir prévu d’entrer. La fenêtre de lecture disparaît, car vous avez entré une prononciation complète. un caractère est affiché en haut du curseur Bloc-notes. ce caractère ne fait pas partie de Bloc-notes, mais il est affiché dans une autre fenêtre en plus de Bloc-notes et masque les caractères existants dans Bloc-notes qui se trouvent sous. Cette nouvelle fenêtre est appelée la fenêtre de composition, et la chaîne qu’elle contient est appelée chaîne de composition. La chaîne de composition est soulignée dans l’affichage.
 
     ![Capture d’écran montrant une fenêtre de composition avec une chaîne de composition d’un caractère.](images/ime-sc4.png)
 
@@ -91,7 +91,7 @@ Cette section explique comment utiliser l’IME (PinYin) simplifié avec le bloc
 
     ![Capture d’écran montrant une fenêtre de composition avec une chaîne de composition de deux caractères.](images/ime-sc5.png)
 
-6.  Appuyez une fois sur la flèche gauche du clavier. Le curseur de composition déplace un caractère vers la gauche, au deuxième caractère que vous avez tapé. Une fenêtre s’affiche en haut du bloc-notes, comme indiqué ci-dessous. Cette fenêtre s’appelle la fenêtre candidate. Elle affiche une liste de caractères ou d’expressions qui correspondent à la prononciation que vous avez tapée. Vous pouvez sélectionner le mot souhaité parmi les entrées de la liste candidat. Dans cet exemple, deux caractères candidats sont disponibles avec la même prononciation.
+6.  Appuyez une fois sur la flèche gauche du clavier. Le curseur de composition déplace un caractère vers la gauche, au deuxième caractère que vous avez tapé. une fenêtre s’affiche au-dessus de Bloc-notes comme indiqué ci-dessous. Cette fenêtre s’appelle la fenêtre candidate. Elle affiche une liste de caractères ou d’expressions qui correspondent à la prononciation que vous avez tapée. Vous pouvez sélectionner le mot souhaité parmi les entrées de la liste candidat. Dans cet exemple, deux caractères candidats sont disponibles avec la même prononciation.
 
     ![deux caractères candidats disponibles avec la même prononciation](images/ime-sc6.png)
 
@@ -99,27 +99,27 @@ Cette section explique comment utiliser l’IME (PinYin) simplifié avec le bloc
 
     ![Capture d’écran montrant une chaîne de composition mise à jour avec le caractère sélectionné.](images/ime-sc7.png)
 
-8.  Appuyez sur Entrée. Cela indique à l’IME que la composition est terminée et la chaîne doit être envoyée au bloc-notes de l’application dans cet exemple. La fenêtre de composition se ferme et les deux caractères sont envoyés au bloc-notes via le \_ caractère WM. Le soulignement est passé dans la figure suivante, car les deux caractères indiqués font partie du texte dans le bloc-notes. Le texte existant « ABCDEFG » dans le bloc-notes est déplacé vers la droite, car deux caractères supplémentaires ont été insérés. Vous avez maintenant entré avec succès deux caractères en chinois simplifié à l’aide d’un IME.
+8.  Appuyez sur Entrée. cela indique à l’IME que la composition est terminée et la chaîne doit être envoyée à l’application-Bloc-notes dans cet exemple. la fenêtre de composition se ferme et les deux caractères sont envoyés à Bloc-notes via WM \_ CHAR. le soulignement est passé dans la figure suivante, car les deux caractères indiqués font partie du texte de Bloc-notes. le texte existant « ABCDEFG » dans Bloc-notes est déplacé vers la droite, car deux caractères supplémentaires ont été insérés. Vous avez maintenant entré avec succès deux caractères en chinois simplifié à l’aide d’un IME.
 
     ![deux caractères chinois simplifiés sont entrés avec succès à l’aide d’un IME](images/ime-sc8.png)
 
 ## <a name="traditional-chinese-ime"></a>IME chinois traditionnel
 
-Cette section explique comment utiliser l’éditeur IME chinois traditionnel (nouveau phonétique) avec le bloc-notes pour entrer quelques caractères chinois.
+cette section explique comment utiliser l’éditeur IME chinois traditionnel (nouveau phonétique) avec Bloc-notes pour entrer quelques caractères chinois.
 
-1.  Lancez le Bloc-notes. Tapez des caractères dans le bloc-notes. Ces caractères vous aideront à visualiser la fenêtre IME plus tard.
+1.  Lancez le Bloc-notes. tapez des caractères dans Bloc-notes. Ces caractères vous aideront à visualiser la fenêtre IME plus tard.
 
     ![Capture d’écran montrant des caractères permettant de visualiser la fenêtre I M E plus tard pour le chinois traditionnel.](images/ime-tc1.png)
 
-2.  Cliquez sur l’indicateur paramètres régionaux d’entrée dans la barre des tâches Windows, puis sélectionnez chinois (Taïwan). L’affichage de l’indicateur devient CH pour indiquer que la nouvelle langue d’entrée est le chinois (Taïwan).
+2.  cliquez sur l’indicateur paramètres régionaux d’entrée dans la barre des tâches Windows, puis sélectionnez chinois (taïwan). L’affichage de l’indicateur devient CH pour indiquer que la nouvelle langue d’entrée est le chinois (Taïwan).
 
     ![indicateur de paramètres régionaux d’entrée pour sélectionner le chinois (Taïwan)](images/ime-tc2.png)
 
-3.  Placez le curseur dans le bloc-notes. Appuyez sur orig sur le clavier afin que le curseur se trouve au début de la ligne. Sur le type de clavier « S », puis sur « U ». L’illustration suivante montre l’apparence de l’affichage. Le petit rectangle vertical est la fenêtre de lecture, qui affiche la chaîne de lecture actuelle. Comme indiqué dans l’illustration suivante, la chaîne de lecture comporte deux caractères suite à la saisie de « S » et de « U ».
+3.  placez le curseur dans Bloc-notes. Appuyez sur orig sur le clavier afin que le curseur se trouve au début de la ligne. Sur le type de clavier « S », puis sur « U ». L’illustration suivante montre l’apparence de l’affichage. Le petit rectangle vertical est la fenêtre de lecture, qui affiche la chaîne de lecture actuelle. Comme indiqué dans l’illustration suivante, la chaîne de lecture comporte deux caractères suite à la saisie de « S » et de « U ».
 
     ![Capture d’écran montrant une chaîne de lecture avec deux caractères.](images/ime-tc3.png)
 
-4.  Tapez « 3 ». Le bloc-notes présente désormais l’affichage suivant. Étant donné que S + U + 3 est une prononciation complète en chinois traditionnel, l’IME dispose de suffisamment d’informations pour anticiper le caractère que l’utilisateur peut avoir prévu d’entrer. La fenêtre de lecture disparaît, car vous avez entré une prononciation complète. Un caractère est affiché en haut du curseur du bloc-notes. Ce caractère ne fait pas partie du bloc-notes, mais il est affiché dans une autre fenêtre en haut du bloc-notes et masque les caractères existants dans le bloc-notes qui se trouvent sous. Cette nouvelle fenêtre est appelée la fenêtre de composition, et la chaîne qu’elle contient est appelée chaîne de composition. La chaîne de composition est soulignée dans l’affichage.
+4.  Tapez « 3 ». Bloc-notes a désormais l’affichage suivant. Étant donné que S + U + 3 est une prononciation complète en chinois traditionnel, l’IME dispose de suffisamment d’informations pour anticiper le caractère que l’utilisateur peut avoir prévu d’entrer. La fenêtre de lecture disparaît, car vous avez entré une prononciation complète. un caractère est affiché en haut du curseur Bloc-notes. ce caractère ne fait pas partie de Bloc-notes, mais il est affiché dans une autre fenêtre en plus de Bloc-notes et masque les caractères existants dans Bloc-notes qui se trouvent sous. Cette nouvelle fenêtre est appelée la fenêtre de composition, et la chaîne qu’elle contient est appelée chaîne de composition. La chaîne de composition est soulignée dans l’affichage.
 
     ![Capture d’écran montrant une fenêtre de composition avec une chaîne de composition soulignée.](images/ime-tc4.png)
 
@@ -127,7 +127,7 @@ Cette section explique comment utiliser l’éditeur IME chinois traditionnel (n
 
     ![Capture d’écran montrant une fenêtre de composition avec une chaîne de composition et deux caractères soulignés.](images/ime-tc5.png)
 
-6.  Tapez la flèche vers le bas sur le clavier une fois. Une fenêtre s’affiche en haut du bloc-notes, comme indiqué ci-dessous. Cette fenêtre s’appelle la fenêtre candidate. Elle affiche une liste de caractères ou d’expressions qui correspondent à la prononciation que vous avez tapée. Vous pouvez sélectionner le mot souhaité parmi les entrées de la liste candidat. Dans cet exemple, trois caractères candidats sont disponibles avec la même prononciation.
+6.  Tapez la flèche vers le bas sur le clavier une fois. une fenêtre s’affiche au-dessus de Bloc-notes comme indiqué ci-dessous. Cette fenêtre s’appelle la fenêtre candidate. Elle affiche une liste de caractères ou d’expressions qui correspondent à la prononciation que vous avez tapée. Vous pouvez sélectionner le mot souhaité parmi les entrées de la liste candidat. Dans cet exemple, trois caractères candidats sont disponibles avec la même prononciation.
 
     ![trois caractères candidats disponibles avec la même prononciation](images/ime-tc6.png)
 
@@ -135,23 +135,23 @@ Cette section explique comment utiliser l’éditeur IME chinois traditionnel (n
 
     ![Capture d’écran montrant une chaîne de composition mise à jour avec un caractère sélectionné.](images/ime-tc7.png)
 
-8.  Appuyez sur Entrée. Cela indique à l’IME que la composition est terminée et la chaîne doit être envoyée au bloc-notes de l’application dans cet exemple. La fenêtre de composition se ferme et les deux caractères sont envoyés au bloc-notes via le [**\_ caractère WM**](/windows/desktop/inputdev/wm-char). Le soulignement est passé dans la figure suivante, car les deux caractères indiqués font partie du texte dans le bloc-notes. Le texte existant « ABCDEFG » dans le bloc-notes est déplacé vers la droite, car deux caractères supplémentaires ont été insérés. Vous avez maintenant entré avec succès deux caractères en chinois traditionnel à l’aide d’un IME.
+8.  Appuyez sur Entrée. cela indique à l’IME que la composition est terminée et la chaîne doit être envoyée à l’application-Bloc-notes dans cet exemple. la fenêtre de composition se ferme et les deux caractères sont envoyés à Bloc-notes via [**WM \_ CHAR**](/windows/desktop/inputdev/wm-char). le soulignement est passé dans la figure suivante, car les deux caractères indiqués font partie du texte de Bloc-notes. le texte existant « ABCDEFG » dans Bloc-notes est déplacé vers la droite, car deux caractères supplémentaires ont été insérés. Vous avez maintenant entré avec succès deux caractères en chinois traditionnel à l’aide d’un IME.
 
     ![deux caractères chinois traditionnel ont été entrés à l’aide d’un IME](images/ime-tc8.png)
 
 ## <a name="japanese-ime"></a>IME japonais
 
-Cette section est une procédure pas à pas d’utilisation de l’IME japonais avec le bloc-notes pour entrer quelques caractères japonais.
+cette section est une procédure pas à pas d’utilisation de l’IME japonais avec Bloc-notes pour entrer quelques caractères japonais.
 
-1.  Lancez le Bloc-notes. Tapez des caractères dans le bloc-notes. Ces caractères vous aideront à visualiser la fenêtre IME plus tard.
+1.  Lancez le Bloc-notes. tapez des caractères dans Bloc-notes. Ces caractères vous aideront à visualiser la fenêtre IME plus tard.
 
     ![Capture d’écran montrant les caractères qui permettent de visualiser la fenêtre I M E plus tard pour le japonais.](images/ime-j1.png)
 
-2.  Avec le bloc-notes comme application active, cliquez sur l’indicateur de paramètres régionaux d’entrée, puis sélectionnez japonais. L’indicateur affiche la modification de JP pour refléter le fait que la nouvelle langue d’entrée est le japonais.
+2.  avec Bloc-notes comme application active, cliquez sur l’indicateur de paramètres régionaux d’entrée, puis sélectionnez japonais. L’indicateur affiche la modification de JP pour refléter le fait que la nouvelle langue d’entrée est le japonais.
 
     ![indicateur de paramètres régionaux d’entrée pour sélectionner le japonais](images/ime-j2.png)
 
-3.  Placez le curseur dans le bloc-notes. Appuyez sur orig sur le clavier afin que le curseur se trouve au début de la ligne. Sur le type de clavier « N », puis « I ». L’illustration suivante montre l’apparence de l’affichage. Étant donné que N + I est une prononciation complète en japonais, l’IME dispose de suffisamment d’informations pour anticiper le caractère que l’utilisateur peut avoir prévu d’entrer. Un caractère est affiché en haut du curseur du bloc-notes. Ce caractère ne fait pas partie du bloc-notes, mais il est affiché dans une autre fenêtre en haut du bloc-notes et masque les caractères existants dans le bloc-notes qui se trouvent sous. Cette nouvelle fenêtre est appelée la fenêtre de composition, et la chaîne qu’elle contient est appelée chaîne de composition. La chaîne de composition est soulignée dans l’affichage.
+3.  placez le curseur dans Bloc-notes. Appuyez sur orig sur le clavier afin que le curseur se trouve au début de la ligne. Sur le type de clavier « N », puis « I ». L’illustration suivante montre l’apparence de l’affichage. Étant donné que N + I est une prononciation complète en japonais, l’IME dispose de suffisamment d’informations pour anticiper le caractère que l’utilisateur peut avoir prévu d’entrer. un caractère est affiché en haut du curseur Bloc-notes. ce caractère ne fait pas partie de Bloc-notes, mais il est affiché dans une autre fenêtre en plus de Bloc-notes et masque les caractères existants dans Bloc-notes qui se trouvent sous. Cette nouvelle fenêtre est appelée la fenêtre de composition, et la chaîne qu’elle contient est appelée chaîne de composition. La chaîne de composition est soulignée dans l’affichage.
 
     ![Capture d’écran montrant une chaîne de composition avec un caractère japonais souligné.](images/ime-j3.png)
 
@@ -163,7 +163,7 @@ Cette section est une procédure pas à pas d’utilisation de l’IME japonais 
 
     ![IME convertit la prononciation japonaise](images/ime-j5.png)
 
-6.  Appuyez une fois sur la flèche bas du clavier. Une fenêtre s’affiche en haut du bloc-notes, comme indiqué ci-dessous. Cette fenêtre s’appelle la fenêtre candidate. Elle affiche une liste de clauses qui correspondent à la prononciation que vous avez tapée. Vous pouvez sélectionner le mot prévu dans la liste des candidats. Dans cet exemple, trois caractères candidats sont disponibles avec la même prononciation. Notez que la deuxième entrée est mise en surbrillance et que la chaîne de composition change. Cela est dû à la saisie d’une flèche orientée vers le bas, qui indique à l’IME de sélectionner l’entrée après celle qui a été précédemment affichée.
+6.  Appuyez une fois sur la flèche bas du clavier. une fenêtre s’affiche au-dessus de Bloc-notes comme indiqué ci-dessous. Cette fenêtre s’appelle la fenêtre candidate. Elle affiche une liste de clauses qui correspondent à la prononciation que vous avez tapée. Vous pouvez sélectionner le mot prévu dans la liste des candidats. Dans cet exemple, trois caractères candidats sont disponibles avec la même prononciation. Notez que la deuxième entrée est mise en surbrillance et que la chaîne de composition change. Cela est dû à la saisie d’une flèche orientée vers le bas, qui indique à l’IME de sélectionner l’entrée après celle qui a été précédemment affichée.
 
     ![Capture d’écran montrant la fenêtre candidate.](images/ime-j6.png)
 
@@ -171,23 +171,23 @@ Cette section est une procédure pas à pas d’utilisation de l’IME japonais 
 
     ![Capture d’écran montrant la chaîne de composition mise à jour avec le caractère japonais sélectionné.](images/ime-j7.png)
 
-8.  Appuyez sur Entrée. Cela indique à l’IME que la composition est terminée et la chaîne doit être envoyée au bloc-notes de l’application dans cet exemple. La fenêtre de composition se ferme et les deux caractères sont envoyés au bloc-notes via le [**\_ caractère WM**](/windows/desktop/inputdev/wm-char). Le soulignement est passé dans la figure suivante, car les deux caractères indiqués font partie du texte dans le bloc-notes. Le texte existant « ABCDEFG » dans le bloc-notes est déplacé vers la droite, car deux caractères supplémentaires ont été insérés. Vous avez maintenant entré avec succès quelques caractères japonais à l’aide d’un IME.
+8.  Appuyez sur Entrée. cela indique à l’IME que la composition est terminée et la chaîne doit être envoyée à l’application-Bloc-notes dans cet exemple. la fenêtre de composition se ferme et les deux caractères sont envoyés à Bloc-notes via [**WM \_ CHAR**](/windows/desktop/inputdev/wm-char). le soulignement est passé dans la figure suivante, car les deux caractères indiqués font partie du texte de Bloc-notes. le texte existant « ABCDEFG » dans Bloc-notes est déplacé vers la droite, car deux caractères supplémentaires ont été insérés. Vous avez maintenant entré avec succès quelques caractères japonais à l’aide d’un IME.
 
     ![saisie réussie de quelques caractères japonais à l’aide d’un IME](images/ime-j8.png)
 
 ## <a name="korean-ime"></a>IME coréen
 
-Cette section explique comment utiliser l’IME coréen avec le bloc-notes pour entrer quelques caractères coréens.
+cette section décrit comment utiliser l’éditeur IME coréen avec Bloc-notes pour entrer quelques caractères coréens.
 
-1.  Lancez le Bloc-notes. Tapez des caractères dans le bloc-notes. Ces caractères vous aideront à visualiser la fenêtre IME plus tard.
+1.  Lancez le Bloc-notes. tapez des caractères dans Bloc-notes. Ces caractères vous aideront à visualiser la fenêtre IME plus tard.
 
     ![caractères qui permettent de visualiser la fenêtre IME plus tard](images/ime-k1.png)
 
-2.  Avec le bloc-notes comme application active, cliquez sur l’indicateur de paramètres régionaux d’entrée, puis sélectionnez coréen. L’affichage de l’indicateur devient KO pour indiquer que la nouvelle langue d’entrée est le coréen.
+2.  avec Bloc-notes comme application active, cliquez sur l’indicateur de paramètres régionaux d’entrée, puis sélectionnez coréen. L’affichage de l’indicateur devient KO pour indiquer que la nouvelle langue d’entrée est le coréen.
 
     ![indicateur de paramètres régionaux d’entrée pour sélectionner le coréen](images/ime-k2.png)
 
-3.  Placez le curseur dans le bloc-notes. Appuyez sur orig sur le clavier pour que le curseur se trouve au début de la ligne, puis tapez « G ». L’illustration suivante montre l’apparence de l’affichage. L’élément Phonetic correspondant à « G » apparaît dans le bloc-notes et est mis en surbrillance avec un curseur de bloc. Ce caractère en surbrillance est appelé la chaîne de composition. Notez que contrairement à l’IME pour d’autres langages, la chaîne de composition est envoyée au bloc-notes et insérée à gauche du texte existant dès que l’utilisateur entre un seul élément phonétique.
+3.  placez le curseur dans Bloc-notes. Appuyez sur orig sur le clavier pour que le curseur se trouve au début de la ligne, puis tapez « G ». L’illustration suivante montre l’apparence de l’affichage. l’élément phonetic correspondant à « G » s’affiche sur Bloc-notes et est mis en surbrillance avec un curseur de bloc. Ce caractère en surbrillance est appelé la chaîne de composition. notez que contrairement à l’IME pour d’autres langages, la chaîne de composition est envoyée à Bloc-notes et insérée à gauche du texte existant dès que l’utilisateur entre un seul élément phonétique.
 
     ![Capture d’écran montrant une chaîne de composition avec un caractère inséré à gauche du texte existant.](images/ime-k3.png)
 
@@ -207,7 +207,7 @@ Cette section explique comment utiliser l’IME coréen avec le bloc-notes pour 
 
     ![fenêtre candidate](images/ime-k7.png)
 
-8.  Tapez « 1 » pour sélectionner la première entrée. Vous avez maintenant entré avec succès deux caractères coréens à l’aide d’un IME. Les caractères coréens font déjà partie de la chaîne de texte dans le bloc-notes.
+8.  Tapez « 1 » pour sélectionner la première entrée. Vous avez maintenant entré avec succès deux caractères coréens à l’aide d’un IME. les caractères coréens font déjà partie de la chaîne de texte dans Bloc-notes.
 
     ![deux caractères coréens ont été entrés à l’aide d’un IME](images/ime-k8.png)
 
@@ -219,7 +219,7 @@ Cette section explique comment utiliser l’IME coréen avec le bloc-notes pour 
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
 | **Système d’exploitation**                | Windows XP                                                                                                 |
 | **Espace disque disponible**       | Au moins 230 Mo                                                                                            |
-| **Emplacements des fichiers de langue étrangère** | CD-ROM d’installation de Windows XP ou emplacement réseau avec les fichiers d’installation de Windows XP                |
+| **Emplacements des fichiers de langue étrangère** | Windows installation xp disque compact ou emplacement réseau avec les fichiers d’installation Windows XP                |
 | **Time**                            | Environ dix minutes pour installer les fichiers de langue étrangère ; environ dix minutes, chacune d’entre elles examine quatre IME différents. |
 
 

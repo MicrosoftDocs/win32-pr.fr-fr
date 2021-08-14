@@ -4,12 +4,12 @@ ms.assetid: 81fb5540-509d-44ac-a249-430a0466fdbd
 title: System. photo. LensManufacturer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76593785bc2a86e5e35d4965f89564d8a308d606
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13943a8827c6787bb28caaec55673b43bb4a2c17ccf97a07f78197cfb8dbcbde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228427"
 ---
 # <a name="systemphotolensmanufacturer"></a>System. photo. LensManufacturer
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

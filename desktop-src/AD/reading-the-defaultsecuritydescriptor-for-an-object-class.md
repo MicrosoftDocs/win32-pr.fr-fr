@@ -7,12 +7,12 @@ keywords:
 - Active Directory exemples Active Directory, lecture du defaultSecurityDescriptor pour une classe d’objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e217ae42214c2c07867c2a57427d74fb7636736
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a26204ebe31155363a1be8bf30bd1c0495d16a939b58789f421a0772d6d90a9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104030988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184690"
 ---
 # <a name="reading-the-defaultsecuritydescriptor-for-an-object-class"></a>Lecture du defaultSecurityDescriptor pour une classe d’objet
 
@@ -25,6 +25,6 @@ ms.locfileid: "104030988"
 
 Pour obtenir un exemple de code qui montre comment procéder, consultez l' [exemple de code pour la lecture de defaultSecurityDescriptor](example-code-for-reading-defaultsecuritydescriptor.md).
 
- 
+ 
 
- 
+ 

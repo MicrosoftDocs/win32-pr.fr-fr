@@ -1,5 +1,5 @@
 ---
-description: Lorsque vous accédez à un serveur Windows Management Instrumentation (WMI) à l’aide d’un script, vous pouvez choisir entre les protocoles d’authentification NTLM (NT LAN Manager) ou Kerberos.
+description: lorsque vous accédez à un serveur Windows Management Instrumentation (WMI) à l’aide d’un script, vous pouvez choisir entre les protocoles d’authentification NTLM (NT LAN Manager) ou Kerberos.
 ms.assetid: db2dc750-bfdd-4f6c-859b-e104814f0800
 ms.tgt_platform: multiple
 title: Définition du service d’authentification à l’aide de VBScript
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bd2cf444560aac7ebce96b52d9abaa528bdcaa76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 837a69df251b5bbb6cc8bef5ac0b882349fde74646ac6ed33149978b8f69ad7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315386"
 ---
 # <a name="setting-the-authentication-service-using-vbscript"></a>Définition du service d’authentification à l’aide de VBScript
 
-Lorsque vous accédez à un serveur Windows Management Instrumentation (WMI) à l’aide d’un script, vous pouvez choisir entre les protocoles d’authentification NTLM (NT LAN Manager) ou Kerberos. La spécification de Kerberos n’est pas requise, sauf lors de l’utilisation de la délégation. Pour plus d’informations, consultez [connexion à un troisième ordinateur-délégation](connecting-to-a-3rd-computer-delegation.md).
+lorsque vous accédez à un serveur Windows Management Instrumentation (WMI) à l’aide d’un script, vous pouvez choisir entre les protocoles d’authentification NTLM (NT LAN Manager) ou Kerberos. La spécification de Kerberos n’est pas requise, sauf lors de l’utilisation de la délégation. Pour plus d’informations, consultez [connexion à un troisième ordinateur-délégation](connecting-to-a-3rd-computer-delegation.md).
 
 Étant donné que les versions de système d’exploitation diffèrent dans le service d’authentification qu’elles utilisent, il est recommandé de ne pas spécifier de valeur pour le champ autorité lors de la connexion à un système distant. Au lieu de cela, autorisez le système d’exploitation et la version distribuée du modèle COM (Component Object Model) à sélectionner NTLM ou Kerberos. Si un service d’authentification est spécifié, la syntaxe requiert le nom principal du serveur, qui est le nom de l’ordinateur cible plutôt que le contrôleur de domaine.
 

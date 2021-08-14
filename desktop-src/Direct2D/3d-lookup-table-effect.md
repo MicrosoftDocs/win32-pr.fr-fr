@@ -4,12 +4,12 @@ description: Une table de recherche 3D est un effet à usage général qui est u
 ms.assetid: 2f0b4b6d-f371-101c-918a-bf564778e593
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d0c6c5df1aa873d3458345d77a46f6f3fdae40b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d5b6d7cee4d21af5f7bc56ee4982f64523e892e616263b3cf5ed7ea84294fbb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118161023"
 ---
 # <a name="3d-lookup-table-effect"></a>effet de table de recherche 3D
 
@@ -28,7 +28,7 @@ Le CLSID de cet effet est CLSID \_ D2D1LookupTable3D.
 -   [Exemple d’image](#example-image)
 -   [Exemple de Code](#sample-code)
 -   [Propriétés d’effet](#effect-properties)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -126,8 +126,8 @@ Les propriétés de l’effet de table de recherche 3D sont définies par l’é
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
+| Client minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
+| Serveur minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
 | En-tête                   | d2d1effects \_ 2. h                                  |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                              |
 

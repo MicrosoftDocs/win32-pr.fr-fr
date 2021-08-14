@@ -7,18 +7,18 @@ keywords:
 - Active Directory des exemples Active Directory, la définition et la suppression de la protection SACL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28c77cb1da29aa650fe4559c3da27c6a00f59e98
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 6c3ed7c32ebdeb7408037e2e3fcff294f0750fb6a8dcd19837ee9154c65f0c66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106511067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190151"
 ---
 # <a name="example-code-for-setting-and-removing-sacl-and-dacl-protection"></a>Exemple de code pour la définition et la suppression de la protection SACL et DACL
 
 Cette rubrique contient un exemple de code utilisé pour définir et supprimer la protection SACL et DACL.
 
-L’exemple de code C et C++ suivant définit et supprime les éléments **\_ \_ protégés** par la liste de contrôle d’accès **\_ discrétionnaire (DACL \_** ) et protected se dans la propriété [**IADsSecurityDescriptor. Control**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) du descripteur de sécurité d’un objet.
+l’exemple de code C et C++ suivant définit et supprime les **SE \_ liste DACL \_ protégée** et **SE éléments \_ \_ protégés** par la liste SACL dans la propriété [**IADsSecurityDescriptor. Control**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) d’un descripteur de sécurité d’objet.
 
 
 ```C++
@@ -131,6 +131,6 @@ HRESULT SetSDInheritProtect(IADs *pObject, long lControl)
 
 
 
- 
+ 
 
- 
+ 

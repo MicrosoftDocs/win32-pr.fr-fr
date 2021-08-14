@@ -4,12 +4,12 @@ ms.assetid: ac9e14a0-55f1-437e-9d27-df0fa09671c1
 title: Stratégie de métadonnées de photo System. GPS. Track
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 773c65eec8b165c51456f3871309644638c1e2da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c89aee05d0c55e78fe4e55d7eacd8a8d0992fcb8d9f56312164c652cbc0bd81c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118205530"
 ---
 # <a name="systemgpstrack-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. Track
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. GPS. Track]
 
 Piste de la \_ balise GPS \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -41,7 +41,7 @@ Cette valeur est générée à partir de System. GPS. TrackNumerator et de Syste
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 15} |             |
 | 2     | /xmp/exif:GPSTrack        |             |
@@ -54,7 +54,7 @@ Cette valeur est générée à partir de System. GPS. TrackNumerator et de Syste
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 15} |             |
 | 2     | /xmp/exif:GPSTrack        |             |
@@ -67,7 +67,7 @@ Cette valeur est générée à partir de System. GPS. TrackNumerator et de Syste
 
 
 
-| Commande | Chemin d’accès                      |
+| Commande | Chemin                      |
 |-------|---------------------------|
 | 1     | /App1/IFD/GPS/{UShort = 15} |
 | 2     | /xmp/exif:gpstrack        |
@@ -82,7 +82,7 @@ Cette valeur est générée à partir de System. GPS. TrackNumerator et de Syste
 
 
 
-| Commande | Chemin d’accès                   | Format de disque |
+| Commande | Chemin                   | Format de disque |
 |-------|------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 15}   |             |
 | 2     | /ifd/xmp/exif:GPSTrack |             |
@@ -95,7 +95,7 @@ Cette valeur est générée à partir de System. GPS. TrackNumerator et de Syste
 
 
 
-| Commande | Chemin d’accès                   | Format de disque |
+| Commande | Chemin                   | Format de disque |
 |-------|------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 15}   |             |
 | 2     | /ifd/xmp/exif:GPSTrack |             |
@@ -108,7 +108,7 @@ Cette valeur est générée à partir de System. GPS. TrackNumerator et de Syste
 
 
 
-| Commande | Chemin d’accès                   |
+| Commande | Chemin                   |
 |-------|------------------------|
 | 1     | /IFD/GPS/{UShort = 15}   |
 | 2     | /ifd/xmp/exif:gpstrack |
@@ -117,7 +117,7 @@ Cette valeur est générée à partir de System. GPS. TrackNumerator et de Syste
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

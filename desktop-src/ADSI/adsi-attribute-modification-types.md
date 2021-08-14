@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21a739241fd52a7d45d58a1b36bb7de838234d6b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 06d057f1a67fb6e18be0b0ed7e3fc21e1276a4068017c44c4e28d125fe271046
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181145"
 ---
 # <a name="adsi-attribute-modification-types"></a>Types de modification des attributs ADSI
 
@@ -83,7 +83,7 @@ Entraîne la suppression des valeurs d’attribut spécifiées d’un objet.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces constantes sont destinées à être utilisées avec la [**structure \_ \_ info attr ADS**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) dans la méthode [**IDirectoryObject :: SetObjectAttributes**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-setobjectattributes) . Ces constantes ne doivent pas être confondues avec les membres de l’énumération enum de l' [**\_ opération de propriété \_ \_ ADS**](/windows/win32/api/iads/ne-iads-ads_property_operation_enum) , qui sont destinés à être utilisés avec la méthode [**IADs ::P Utex**](/windows/desktop/api/Iads/nf-iads-iads-putex) .
 

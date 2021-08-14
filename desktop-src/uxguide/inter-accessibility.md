@@ -4,17 +4,17 @@ description: La conception de logiciels pour l’accessibilité permet de s’as
 ms.assetid: df6947ec-6a1d-4645-ae3e-863839c32588
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: e6ff3cdaa9a1a1b2a13025da14c9aed150ee3928
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: c38eb3993880d820a4e65fa25a1e910e9e842de823779aaf3ef24dab8635e60e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118212442"
 ---
 # <a name="accessibility-design-basics"></a>Accessibilité (notions de base de la conception)
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 La conception de logiciels pour l’accessibilité permet de s’assurer que les programmes et les fonctionnalités sont facilement disponibles pour le plus grand nombre d’utilisateurs, y compris ceux qui présentent des handicaps et des handicaps.
 
@@ -38,7 +38,7 @@ Le tableau suivant décrit les handicaps utilisateur et les déficiences courant
 
 | Handicap    | Description   | Solutions  |
 |-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Élément visuel<br/>             | S’étend de modéré (ce qui affecte 17% des utilisateurs) à grave (ce qui affecte 9% des utilisateurs).<br/>                                                                                                   | Agrandissement, couleurs et contraste personnalisables ; Utilitaires en braille ; lecteurs d’écran.<br/>                                                                                       |
+| Éléments visuels<br/>             | S’étend de modéré (ce qui affecte 17% des utilisateurs) à grave (ce qui affecte 9% des utilisateurs).<br/>                                                                                                   | Agrandissement, couleurs et contraste personnalisables ; Utilitaires en braille ; lecteurs d’écran.<br/>                                                                                       |
 | Ouïe<br/>            | S’étend de modéré (ce qui affecte 18% des utilisateurs) à grave (ce qui affecte 2% des utilisateurs).<br/>                                                                                                   | Redondance des informations : le son utilisé uniquement comme complément à la communication de texte ou visuelle.<br/>                                                                                     |
 | Acuité<br/>          | S’étend de modéré (ce qui affecte 19% des utilisateurs) à grave (ce qui affecte 5% des utilisateurs). Cet handicap implique souvent des difficultés à effectuer certaines compétences motrices avec le clavier ou la souris.<br/> | Redondance de méthode d’entrée : fonctionnalités de programme accessibles par des équivalents de souris ou de clavier.<br/>                                                                                       |
 | Cognitif<br/>          | Comprend les écarts de mémoire et les différences de perception. Affecte 16% des utilisateurs.<br/>                                                                                                         | Interface utilisateur (IU) hautement personnalisable ; utilisation de la [Divulgation progressive](ctrl-progressive-disclosure-controls.md) pour masquer la complexité ; utilisation d’icônes et d’autres aides visuelles.<br/> |
@@ -57,13 +57,13 @@ Pour plus d’informations sur la façon d’aider les utilisateurs avec ces han
 
 Un lecteur d’écran permet aux utilisateurs ayant des handicaps visuels ou des handicaps de naviguer dans une interface utilisateur en transformant les éléments visuels en données audio. Ainsi, le texte de l’interface utilisateur, les contrôles, les menus, les barres d’outils, les graphiques et les autres éléments de l’écran sont prononcés par la voix informatisée du lecteur d’écran. Pour créer un programme optimisé pour la technologie d’assistance de lecteur d’écran, vous devez planifier la manière dont le lecteur d’écran identifie chaque élément d’interface utilisateur.
 
-Chaque élément d’interface utilisateur avec lequel l’utilisateur peut interagir doit être accessible via le clavier, et être exposé via une interface de programmation d’applications (API) d’accessibilité. Nous vous recommandons d’utiliser UI Automation, la nouvelle infrastructure d’accessibilité pour toutes les versions de Microsoft Windows qui prennent en charge Windows Presentation Foundation (WPF). UI Automation fournit un accès par programme à la plupart des éléments sur le bureau, permettant ainsi aux produits de technologie d’assistance tels que les lecteurs d’écran de fournir des informations sur l’interface utilisateur aux utilisateurs et de manipuler l’interface utilisateur par d’autres moyens que l’entrée standard (par exemple, en parlant plutôt que ou en plus de la manipulation de la souris ou du clavier). Pour plus d’informations, consultez [vue d’ensemble d’UI Automation](/dotnet/framework/ui-automation/ui-automation-overview).
+Chaque élément d’interface utilisateur avec lequel l’utilisateur peut interagir doit être accessible via le clavier, et être exposé via une interface de programmation d’applications (API) d’accessibilité. nous vous recommandons d’utiliser UI Automation, la nouvelle infrastructure d’accessibilité pour toutes les versions de Microsoft Windows qui prennent en charge Windows Presentation Foundation (WPF). UI Automation fournit un accès par programme à la plupart des éléments sur le bureau, permettant ainsi aux produits de technologie d’assistance tels que les lecteurs d’écran de fournir des informations sur l’interface utilisateur aux utilisateurs et de manipuler l’interface utilisateur par d’autres moyens que l’entrée standard (par exemple, en parlant plutôt que ou en plus de la manipulation de la souris ou du clavier). Pour plus d’informations, consultez [vue d’ensemble d’UI Automation](/dotnet/framework/ui-automation/ui-automation-overview).
 
 Sachez que bien que les lecteurs d’écran constituent une technologie d’assistance très importante, il en existe d’autres également. Pour plus d’informations sur la gamme de technologies disponibles, consultez [types de produits de technologie d’assistance](https://www.microsoft.com/enable/at/types.aspx).
 
 **Reconnaissance vocale**
 
-La reconnaissance vocale est une fonctionnalité d’accessibilité de Windows qui permet aux utilisateurs d’interagir avec leurs ordinateurs par voix, réduisant ainsi le besoin d’interaction du moteur avec la souris ou le clavier. Les utilisateurs peuvent dicter des documents et des messages électroniques, utiliser des commandes vocales pour démarrer et basculer entre les programmes, contrôler le système d’exploitation et même remplir des formulaires sur le Web.
+la reconnaissance vocale est une fonctionnalité d’accessibilité de Windows qui permet aux utilisateurs d’interagir avec leurs ordinateurs par voix, réduisant ainsi le besoin d’interaction du moteur avec la souris ou le clavier. Les utilisateurs peuvent dicter des documents et des messages électroniques, utiliser des commandes vocales pour démarrer et basculer entre les programmes, contrôler le système d’exploitation et même remplir des formulaires sur le Web.
 
 **Loupe**
 
@@ -75,7 +75,7 @@ En plus de rendre les éléments à l’écran plus volumineux, les utilisateurs
 
 **Narrateur**
 
-Narrator est un lecteur d’écran de mise à l’échelle dans Windows qui permet aux utilisateurs d’entendre le texte à l’écran et les éléments d’interface utilisateur lus à voix haute, y compris certains événements (y compris les messages d’erreur) qui se produisent spontanément. L’utilisateur peut entendre les menus du narrateur sans quitter la fenêtre active.
+le narrateur est un lecteur d’écran réduit en Windows qui permet aux utilisateurs d’entendre le texte à l’écran et les éléments d’interface utilisateur lus à voix haute, y compris certains événements (y compris les messages d’erreur) qui se produisent spontanément. L’utilisateur peut entendre les menus du narrateur sans quitter la fenêtre active.
 
 ![capture d’écran de la boîte de dialogue « Microsoft Narrator » ](images/inter-accessibility-image2.png)
 
@@ -89,7 +89,7 @@ Pour les utilisateurs qui ont des difficultés avec les claviers physiques et qu
 
 Lorsque les touches souris sont activées, les utilisateurs qui préfèrent le clavier peuvent utiliser les touches de direction du pavé numérique pour déplacer le pointeur de la souris.
 
-Pour obtenir la liste complète des fonctionnalités d’accessibilité, consultez [accessibilité dans Windows Vista](https://www.microsoft.com/enable/products/windowsvista/default.aspx) sur le site Web de Microsoft.
+pour obtenir la liste complète des fonctionnalités d’accessibilité, consultez [accessibilité dans Windows Vista](https://www.microsoft.com/enable/products/windowsvista/default.aspx) sur le site Web de Microsoft.
 
 ### <a name="keyboard-based-navigation"></a>Navigation à l’aide du clavier
 
@@ -156,8 +156,8 @@ En règle générale, le principe du guidage est essentiel pour la conception de
 
 Vous devez également démontrer ce qui suit :
 
--   À l’aide de paramètres au niveau du système (par exemple, la couleur système) plutôt que de paramètres hardwiring pour votre programme particulier. Respectez non seulement les paramètres que les utilisateurs ont spécifiquement sélectionnés pour interagir avec leurs programmes, mais également les fonctionnalités d’accessibilité intégrées au système d’exploitation que l’utilisateur souhaite en effet quel que soit le programme qu’il utilise. Pour plus d’informations, consultez [à propos des fonctionnalités d’accessibilité Windows](/previous-versions//ms695605(v=vs.85)).
--   Préférer les contrôles communs aux contrôles personnalisés, car les contrôles communs ont déjà implémenté les API d’accessibilité Windows.
+-   À l’aide de paramètres au niveau du système (par exemple, la couleur système) plutôt que de paramètres hardwiring pour votre programme particulier. Respectez non seulement les paramètres que les utilisateurs ont spécifiquement sélectionnés pour interagir avec leurs programmes, mais également les fonctionnalités d’accessibilité intégrées au système d’exploitation que l’utilisateur souhaite en effet quel que soit le programme qu’il utilise. pour plus d’informations, consultez [à propos des fonctionnalités d’accessibilité Windows](/previous-versions//ms695605(v=vs.85)).
+-   préférer les contrôles communs aux contrôles personnalisés, car les contrôles communs ont déjà implémenté les api d’accessibilité Windows.
 -   Documentation de toutes les options et fonctionnalités d’accessibilité (par exemple, tous les raccourcis clavier). Les utilisateurs ayant des handicaps sont très motivés par la découverte des fonctionnalités d’accessibilité et attendent souvent des informations complètes d’être collectées dans l’aide.
 -   Création de la documentation accessible dans les formats accessibles. Ainsi, la documentation elle-même doit respecter les mêmes règles d’accessibilité que l’interface utilisateur principale, y compris la possibilité d’agrandir la taille de police, l’utilisation de texte de remplacement pour les graphiques et l’architecture d’informations redondante (par exemple, en utilisant le codage de couleurs uniquement comme supplément à du texte).
 
@@ -182,7 +182,7 @@ Procédez ainsi :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **N’interrompez pas ou ne désactivez pas les fonctionnalités activées du système d’exploitation ou d’autres produits identifiés comme fonctionnalités d’accessibilité.** Vous pouvez identifier ces fonctionnalités en vous référant à la documentation du système d’exploitation ou du produit en question.
 -   **Ne forcez pas les utilisateurs à interagir avec votre programme comme fenêtre supérieure à l’écran.** Si une fonction ou une fenêtre est requise continuellement pour permettre aux utilisateurs d’effectuer une tâche, cette fenêtre doit toujours rester visible, si l’utilisateur les choisit, quelle que soit sa position par rapport à d’autres fenêtres. Par exemple, si l’utilisateur dispose d’un clavier visuel mobile qui se trouve au-dessus de toutes les autres fenêtres afin qu’il soit visible à tout moment, votre programme ne doit jamais le masquer en position obligatoire en haut de l' [ordre de plan](glossary.md).
@@ -190,7 +190,7 @@ Procédez ainsi :
 
 ### <a name="addressing-particular-impairments"></a>Résoudre des problèmes particuliers
 
-**Visual**
+**Éléments visuels**
 
 -   **Ne vous fiez jamais à la couleur seule pour transmettre la signification.** Utilisez la couleur uniquement pour renforcer la signification fournie par le texte, la conception, l’emplacement ou le son.
 
@@ -201,7 +201,7 @@ Procédez ainsi :
 -   **Utilisez un info-bulles de texte alternatif pour décrire les graphiques.**
 -   **N’utilisez pas de texte dans les graphiques.** Les utilisateurs avec des troubles de la vision peuvent avoir des graphiques désactivés (par exemple, dans un navigateur Web), ou ils ne peuvent tout simplement pas voir ou Rechercher le texte placé dans les graphiques.
 -   **Vérifiez que les boîtes de dialogue et les fenêtres ont des noms explicites,** afin qu’un utilisateur qui entende, au lieu d’afficher l’écran (par exemple, à l’aide d’un lecteur d’écran), obtient des informations contextuelles appropriées.
--   **Respectez les paramètres de l’utilisateur pour l’affichage visuel** en obtenant systématiquement des polices, des tailles et des couleurs de police, des tailles d’éléments d’affichage Windows et des paramètres de configuration du système à partir des API Theme et GetSystemMetrics.
+-   **respectez les paramètres de l’utilisateur pour l’affichage visuel** en obtenant systématiquement des polices, des tailles et des couleurs de police, Windows des tailles d’éléments d’affichage et des paramètres de configuration du système à partir des api theme et GetSystemMetrics.
 -   **Laissez le texte info-bulle concis** afin qu’il soit plus facile à lire et minimise l’interruption des lecteurs d’écran.
 
     ![capture d’écran de l’info-bulle indiquant les limites du code PIN ](images/inter-accessibility-image10.png)
@@ -211,7 +211,7 @@ Procédez ainsi :
 **Ouïe**
 
 -   **Ne vous fiez jamais à un son seul pour transmettre la signification.** Utilisez le son uniquement pour renforcer la signification fournie par le texte, la conception, l’emplacement ou la couleur.
--   **Permet aux utilisateurs de contrôler le volume de sortie audio.** Utilisez le mélangeur de volume Windows à cet effet. Pour plus d’informations, consultez [son](vis-sound.md).
+-   **Permet aux utilisateurs de contrôler le volume de sortie audio.** utilisez la Mixer de Volume Windows à cet effet. Pour plus d’informations, consultez [son](vis-sound.md).
 -   **Ciblez le son de votre programme pour qu’il se produise dans une plage comprise entre 500 Hz et 3000 Hz** , ou soyez facilement réglable par l’utilisateur dans cette plage. Les sons de cette plage sont susceptibles d’être détectables par des personnes ayant un handicap auditif.
 
 **Acuité**
@@ -272,7 +272,7 @@ Pour commencer, cliquez sur OK.
 
     ![capture d’écran du menu Ouvrir avec les fichiers récemment utilisés ](images/inter-accessibility-image12.png)
 
-    Dans cet exemple, le programme Paint dans Windows attribue des clés d’accès numériques aux fichiers récemment utilisés.
+    dans cet exemple, le programme Paint dans Windows affecte des clés d’accès numériques aux fichiers récemment utilisés.
 
 -   **Assigner des clés d’accès uniques au sein d’un niveau de menu.** Vous pouvez réutiliser des clés d’accès dans différents niveaux de menu.
 -   **Rendez les clés d’accès faciles à trouver :**
@@ -301,7 +301,7 @@ Pour commencer, cliquez sur OK.
 
 Pour obtenir des instructions et des exemples supplémentaires, consultez [clavier](inter-keyboard.md).
 
-## <a name="text"></a>Text
+## <a name="text"></a>Texte
 
 -   **Utilisez des signes deux-points à la fin des étiquettes de contrôle externes.** Certaines technologies d’assistance recherchent les signes deux-points pour identifier les étiquettes de contrôle.
 -   **Positionner des étiquettes de manière cohérente par rapport aux éléments qu’ils enlibellent.** Cela permet aux technologies d’assistance d’associer correctement les étiquettes aux contrôles correspondants et aide les utilisateurs des agrandisseurs d’écran à savoir où rechercher une étiquette ou un contrôle.

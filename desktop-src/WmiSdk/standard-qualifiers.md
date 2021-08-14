@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 710e93e53f9e414a44dc14ebafea426f5d7f9efd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67877cfc07a247d6b5e3309270d145bc64fbb814416fa4288c6e85ff2ad2e986
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315135"
 ---
 # <a name="standard-qualifiers"></a>Qualificateurs standard
 
@@ -432,7 +432,7 @@ Utilisation : le qualificateur **override** ne peut faire référence qu’à d
 
 S’applique à : classes
 
-Indique si la valeur de propriété d’une sous-classe remplace la valeur dans une classe parente. L’implication fonctionnelle est que, si vous exécutez une requête sur la classe parente, et si votre clause **Where** comprend cette propriété, le parent doit retourner une instance avec la valeur substituée. Par conséquent, la gestion Windows ajuste la clause **Where** de la requête envoyée à la classe parente pour exclure les références à cette propriété.
+Indique si la valeur de propriété d’une sous-classe remplace la valeur dans une classe parente. L’implication fonctionnelle est que, si vous exécutez une requête sur la classe parente, et si votre clause **Where** comprend cette propriété, le parent doit retourner une instance avec la valeur substituée. par conséquent, la gestion des Windows ajuste la clause **where** de la requête envoyée à la classe parente pour exclure les références à cette propriété.
 
 </dd> <dt>
 

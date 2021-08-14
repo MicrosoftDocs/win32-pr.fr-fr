@@ -4,12 +4,12 @@ description: Une fois qu’un client s’est inscrit pour la notification de cer
 ms.assetid: 5ddebf2d-e3cb-451c-b082-708d2c7d0f79
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30ccf66d8a1df671cbd9059c444cf26321911bb1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fea0de478a1f46e2281b18644026c2d8db44d113679f4f4f9bd5b18a1123e9df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788169"
 ---
 # <a name="retrieving-changes"></a>Récupération des modifications
 
@@ -17,9 +17,9 @@ Une fois qu’un client s’est inscrit pour la notification de certaines modifi
 
 Pour obtenir un exemple de code qui montre comment utiliser ces fonctions, consultez [utiliser le rappel de notification d’événement](use-the-event-notification-callback.md).
 
- 
+ 
 
- 
+ 
 
 
 

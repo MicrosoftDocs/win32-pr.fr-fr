@@ -16,18 +16,18 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: b4d0c71e4748774eacab4b234092178179a4a774
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 506c897da130b9558b37637918674a7c6024adb787ac3d91e53e430a6edfcd1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118314754"
 ---
 # <a name="swbemdatetimegetvardate-method"></a>Méthode SWbemDateTime. getVarDate,
 
 La méthode **getVarDate,** de l’objet [**SWbemDateTime**](swbemdatetime.md) convertit une valeur de date et d’heure au format [**DateTime**](datetime.md) CIM au format de **\_ Date VT** .
 
-Le format de **\_ Date VT** est une valeur [**DateTime**](datetime.md) de variante Automation que Visual Basic et un ActiveX utilisent.
+le format de **\_ DATE VT** est une valeur [**DATETIME**](datetime.md) automation variant qui Visual Basic et ActiveX utiliser.
 
 Pour une explication de cette syntaxe, consultez [conventions de document pour l’API de script](document-conventions-for-the-scripting-api.md).
 
@@ -57,7 +57,7 @@ Indique si la valeur retournée est interprétée comme heure locale. La propri�
 
 Valeur de date et d’heure au format de **\_ Date VT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **VT \_** Les valeurs de date et **fileTime** ne peuvent pas contenir de champs génériques.
 

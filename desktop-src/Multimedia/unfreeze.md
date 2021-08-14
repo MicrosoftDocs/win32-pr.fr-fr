@@ -3,7 +3,7 @@ title: libérer la commande
 description: La commande dégeler réactive l’acquisition vidéo dans la mémoire tampon de trame une fois qu’elle a été désactivée par la commande Freeze. Les périphériques numériques vidéo, VCR et vidéo reconnaissent cette commande.
 ms.assetid: ca90c299-2003-44cb-a879-4bc767480965
 keywords:
-- libérer la commande multimédia Windows
+- libérer la commande Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 155ba6b65fb08411d8404920c8f3337d1bddbcb1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 88fe45b1346872483a4012c5f5d161dcd61020c64349fee254ae4bf337b4be8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118370809"
 ---
 # <a name="unfreeze-command"></a>libérer la commande
 

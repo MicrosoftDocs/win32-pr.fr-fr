@@ -8,18 +8,18 @@ keywords:
 - ADSI, authentification, problèmes ASP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 423d1aa39006f89ca366423da9d135e00af45693
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: c19cbcda1834d67f8fc2ed79b0fbf0ad586f521da885b8f7779178c6e90cfd88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118180546"
 ---
 # <a name="authentication-issues-for-adsi-with-asp"></a>Problèmes d’authentification pour ADSI avec ASP
 
 Selon la configuration de votre intranet, des problèmes d’authentification peuvent se produire lorsque le code ADSI est exécuté à partir d’une page ASP.
 
-L’authentification pour accéder au contrôleur de domaine peut être fournie à l’aide de la délégation. La délégation permet à un service d’agir en tant qu’utilisateur, afin qu’il puisse accéder à une ressource réseau à l’aide des informations d’identification de cet utilisateur. Si votre intranet suit cette configuration, vous devez configurer IIS pour qu’il utilise la délégation. Définissez le mécanisme d’authentification IIS comme anonyme ou NTLM. Si vous choisissez anonyme, votre contexte de sécurité sera mappé au compte d' \_ ordinateur IUSR. Si vous sélectionnez NTLM, le contexte de sécurité sera modifié, en fonction de l’utilisateur qui se connecte à votre site Web. Pour plus d’informations et pour obtenir des instructions sur la configuration du serveur IIS pour la délégation, consultez le [Kit de ressources Windows 2000](https://support.microsoft.com/kb/927229).
+L’authentification pour accéder au contrôleur de domaine peut être fournie à l’aide de la délégation. La délégation permet à un service d’agir en tant qu’utilisateur, afin qu’il puisse accéder à une ressource réseau à l’aide des informations d’identification de cet utilisateur. Si votre intranet suit cette configuration, vous devez configurer IIS pour qu’il utilise la délégation. Définissez le mécanisme d’authentification IIS comme anonyme ou NTLM. Si vous choisissez anonyme, votre contexte de sécurité sera mappé au compte d' \_ ordinateur IUSR. Si vous sélectionnez NTLM, le contexte de sécurité sera modifié, en fonction de l’utilisateur qui se connecte à votre site Web. pour plus d’informations et pour obtenir des instructions sur la configuration du serveur IIS pour la délégation, consultez le [Kit de ressources Windows 2000](https://support.microsoft.com/kb/927229).
 
 Si vous utilisez un serveur IIS qui utilise le challenge/réponse NT ou un client de navigateur qui ne prend pas en charge Kerberos, l’authentification à double saut n’est pas prise en charge. L’authentification à double saut signifie que les informations d’identification de l’utilisateur sont transmises du client du navigateur au serveur IIS, puis le serveur IIS transmet les informations d’identification au serveur principal. Dans ce cas, vous pouvez utiliser l’une des solutions suivantes pour autoriser l’accès à l’annuaire à partir de la page ASP :
 
@@ -29,6 +29,6 @@ Si vous utilisez un serveur IIS qui utilise le challenge/réponse NT ou un clien
 
 Ces méthodes impliquent l’authentification du client Web, puis la modification des informations d’identification lors du contact avec le répertoire, car l’authentification à double saut, avec les mêmes informations d’identification, n’est pas possible.
 
- 
+ 
 
- 
+ 

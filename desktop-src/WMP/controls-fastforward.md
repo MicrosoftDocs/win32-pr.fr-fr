@@ -3,9 +3,9 @@ title: Controls. fastForward, méthode
 description: La méthode fastForward démarre la lecture rapide de l’élément multimédia dans le sens avant. | Controls. fastForward, méthode
 ms.assetid: 69cee803-f76b-4a8c-a2c2-1870665afaf9
 keywords:
-- méthode fastForward lecteur Windows Media
-- méthode fastForward lecteur Windows Media, classe de contrôles
-- Classe Controls lecteur Windows Media, méthode fastForward
+- Lecteur Windows Media de la méthode fastForward
+- méthode fastForward Lecteur Windows Media, classe controls
+- controls, classe Lecteur Windows Media, méthode fastForward
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20d033b8b025955e57a9c3ebed00a6d7a92a666e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a8b35c2a31c26259a12638d09c968b90ea42f93c692bf4c24af9dc987a6df3bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118341815"
 ---
 # <a name="controlsfastforward-method"></a>Controls. fastForward, méthode
 
@@ -44,9 +44,9 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La méthode **fastForward** lit le clip à cinq fois la vitesse normale. L’appel de **fastForward** modifie les *paramètres*. propriété **rate** sur 5,0. Si le **taux** est modifié par la suite ou si la **lecture** ou l' **arrêt** est appelé, le lecteur Windows Media arrête le transfert rapide.
+La méthode **fastForward** lit le clip à cinq fois la vitesse normale. l’appel de **fastForward** modifie le *Paramètres*. propriété **rate** sur 5,0. si le **taux** est modifié par la suite ou si la **lecture** ou l' **arrêt** est appelé, Lecteur Windows Media interrompt le transfert rapide.
 
 La méthode **fastForward** ne fonctionne pas pour les diffusions en direct et certains types de média. Pour déterminer si vous pouvez avancer rapidement dans un clip, appelez **isAvailable**(« Fastforward »).
 
@@ -96,7 +96,7 @@ L’exemple suivant crée un élément BUTTON HTML qui utilise **fastForward** p
 [**Controls. Stop**](controls-stop.md)
 </dt> <dt>
 
-[**Settings. rate**](settings-rate.md)
+[**Paramètres. rate**](settings-rate.md)
 </dt> </dl>
 
  

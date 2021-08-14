@@ -7,12 +7,12 @@ keywords:
 - objets ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e356d9b1212b448d16bb6bba081f6141a877b0b
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: f20d75454b840597e1fd2ac0599d72d04acb1ee674f84aff40da64f9886879cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181183"
 ---
 # <a name="active-directory-service-interfaces-objects"></a>Objets interfaces du service Active Directory
 
@@ -37,10 +37,10 @@ Les objets ADSI sont des objets COM qui représentent un élément au sein d’u
 
 
 
- 
+ 
 
 Des objets ADSI plus complexes peuvent exposer des interfaces supplémentaires. Par exemple, [**IADsCollection**](/windows/desktop/api/Iads/nn-iads-iadscollection) prend en charge les méthodes qui gèrent des collections d’éléments de répertoire du même type de données. Les méthodes [**IADsGroup**](/windows/desktop/api/Iads/nn-iads-iadsgroup) gèrent les collections de cas spéciaux d’objets qui prennent en charge l’interface [**IADsMembers**](/windows/desktop/api/Iads/nn-iads-iadsmembers) . Pour les fournisseurs qui le prennent en charge, l’interface [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) prend en charge les méthodes d’interrogation des services d’annuaire. En outre, ADSI fournit des interfaces qui représentent des éléments logiques et physiques bien connus. Par exemple, les objets ADSI qui représentent des utilisateurs prennent en charge [**IADsUser**](/windows/desktop/api/Iads/nn-iads-iadsuser), ceux qui représentent des ordinateurs qui prennent en charge [**IADsComputer**](/windows/desktop/api/Iads/nn-iads-iadscomputer), etc. Pour plus d’informations sur les objets ADSI, consultez [les interfaces IADs et IDirectoryObject](the-iads-and-idirectoryobject-interfaces.md). Tous les fournisseurs n’implémentent pas toutes les interfaces ou toutes les méthodes et propriétés sur toutes les interfaces. Pour plus d’informations, consultez [référence ADSI](adsi-reference.md).
 
- 
+ 
 
- 
+ 

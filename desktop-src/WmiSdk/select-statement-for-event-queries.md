@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Instruction SELECT pour les requêtes d’événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab840072269d04987bf42939f1f566ee6b99afab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13e36eaa8f396f8dd7b7c0b0c013d1d6738fefeb7ed2ae565ee7114ebb524faf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315838"
 ---
 # <a name="select-statement-for-event-queries"></a>Instruction SELECT pour les requêtes d’événements
 

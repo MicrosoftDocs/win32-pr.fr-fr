@@ -3,15 +3,15 @@ title: Fonctions de base à utiliser dans un contexte d’appareil
 description: Les fonctions WCS suivantes offrent des fonctionnalités de mappage de couleurs de base dans les contextes de périphérique. Elles sont utiles pour toutes les applications qui doivent implémenter la gestion des couleurs avec une faible surcharge et une intervention minimale de l’utilisateur.
 ms.assetid: 199fac5e-daba-4aa3-a631-bb1eb2270b2e
 keywords:
-- Windows Color System (WCS), fonctions
-- WCS (système de couleurs Windows), fonctions
+- Windows Système de couleurs (WCS), fonctions
+- WCS (Windows Color System), fonctions
 - gestion des couleurs des images, fonctions
 - gestion des couleurs, fonctions
 - couleurs, fonctions
 - Référence WCS, fonctions
 - référence pour WCS, functions
-- Système de couleurs Windows (WCS), contextes de périphérique
-- WCS (système de couleurs Windows), contextes de périphérique
+- Windows Système de couleurs (WCS), contextes de périphérique
+- WCS (Windows Color System), contextes de périphérique
 - gestion des couleurs des images, contextes de périphérique
 - gestion des couleurs, contextes de périphérique
 - couleurs, contextes de périphérique
@@ -21,12 +21,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fde99ed077af108ddc20c73f86e17bedfe1d4a8c
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: a934c1737a7eea8b32a9589325e73300db82334a40ee47b411922b89cb61f568
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "106538033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118210978"
 ---
 # <a name="basic-functions-for-use-within-a-device-context"></a>Fonctions de base à utiliser dans un contexte d’appareil
 

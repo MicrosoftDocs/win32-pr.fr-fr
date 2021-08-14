@@ -7,12 +7,12 @@ keywords:
 - recherche dans le catalogue global Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a057330309c12df6d18a209fc3d2adaf42b03005
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e03ef9a5e7929d6c6e80773bcadf6e8886a23b76c356e085564d1e094c0eb483
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183887"
 ---
 # <a name="searching-the-global-catalog"></a>Recherche dans le catalogue global
 
@@ -33,9 +33,9 @@ La recherche dans le catalogue global présente les inconvénients suivants :
 -   Pour effectuer une recherche dans le catalogue global, vous devez disposer d’un contrôleur de domaine qui contient un catalogue global. Si aucun n’est disponible, vous ne pouvez pas effectuer une recherche dans le catalogue global.
 -   Le catalogue global est en lecture seule. Cela signifie que vous ne pouvez pas effectuer une liaison à un objet dans le catalogue global pour créer, modifier ou supprimer des objets.
 
- 
+ 
 
- 
+ 
 
 
 

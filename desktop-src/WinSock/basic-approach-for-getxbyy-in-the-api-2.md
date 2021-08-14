@@ -4,12 +4,12 @@ ms.assetid: c64db095-bd7c-489a-871a-fb887624967c
 title: Approche de base pour GetXbyY dans l’API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f4c038c87d6eb6e7ab2a4476271662d5b9567ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd9e6dd0e5569bd11de813e28eaec1ee04f6b5f206277f695cdb9aaab05ec4a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322623"
 ---
 # <a name="basic-approach-for-getxbyy-in-the-api"></a>Approche de base pour GetXbyY dans l’API
 
@@ -19,7 +19,7 @@ La plupart des fonctions **getXbyY** sont traduites par le32.dll Ws2 en \_ une s
 
 <dl> <dt>
 
-[Résolution de noms compatible pour TCP/IP dans l’API Windows Sockets 1,1](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
+[résolution de noms Compatible pour TCP/IP dans l’API Windows sockets 1,1](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
 </dt> <dt>
 
 [Résolution de noms indépendante du protocole](protocol-independent-name-resolution-2.md)

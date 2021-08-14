@@ -3,12 +3,12 @@ title: Notification de congestion explicite Winsock (ECN)
 description: Certaines applications et/ou protocoles basés sur le protocole UDP (User Datagram Protocol) (par exemple, QUIC) cherchent à tirer parti de l’utilisation des points de décomptes ECN (Explicit congestion notification) afin d’améliorer la latence et l’instabilité dans les réseaux encombrés.
 ms.topic: article
 ms.date: 11/13/2020
-ms.openlocfilehash: 090ac9b0575cb491aa6d726e7507223156460ace
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 79b38611cd0301d0b5d301592eec02b68c02353246c67a6c94528417623834f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110559970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322022"
 ---
 # <a name="winsock-explicit-congestion-notification-ecn"></a>Notification de congestion explicite Winsock (ECN)
 

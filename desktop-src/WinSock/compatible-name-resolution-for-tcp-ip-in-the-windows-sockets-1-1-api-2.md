@@ -1,20 +1,20 @@
 ---
-description: Notez que toutes les fonctions Windows Sockets 1,1 pour la résolution de noms sont spécifiques aux réseaux TCP/IP IPv4.
+description: notez que toutes les fonctions de Windows sockets 1,1 pour la résolution de noms sont spécifiques aux réseaux TCP/IP IPv4.
 ms.assetid: 5a2a37f3-85c5-4b27-9ce3-f5b707b1564a
-title: Résolution de noms compatible pour TCP/IP dans l’API Windows Sockets 1,1
+title: résolution de noms Compatible pour TCP/IP dans l’API Windows sockets 1,1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2447590b25861abc80bd0a89be173272fb809814
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13dfb1a403f782d0349e20729117fe1f4aed01479b01a6c2b5968f1d9bf15f38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322299"
 ---
-# <a name="compatible-name-resolution-for-tcpip-in-the-windows-sockets-11-api"></a>Résolution de noms compatible pour TCP/IP dans l’API Windows Sockets 1,1
+# <a name="compatible-name-resolution-for-tcpip-in-the-windows-sockets-11-api"></a>résolution de noms Compatible pour TCP/IP dans l’API Windows sockets 1,1
 
 > [!Note]  
-> Toutes les fonctions Windows Sockets 1,1 pour la résolution de noms sont spécifiques aux réseaux TCP/IP IPv4. Les développeurs d’applications sont fortement déconseillés de continuer à utiliser ces fonctions spécifiques au transport qui prennent uniquement en charge IPv4.
+> toutes les fonctions de Windows sockets 1,1 pour la résolution de noms sont spécifiques aux réseaux TCP/IP IPv4. Les développeurs d’applications sont fortement déconseillés de continuer à utiliser ces fonctions spécifiques au transport qui prennent uniquement en charge IPv4.
 
  
 
@@ -26,7 +26,7 @@ Les développeurs d’applications doivent utiliser les fonctions suivantes ind�
 -   [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo)
 -   [**GetNameInfoW**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfow)
 
-Windows Sockets 1,1 définissait un certain nombre de routines utilisées pour la résolution de noms avec des réseaux TCP/IP (IP version 4). Celles-ci sont parfois appelées fonctions **getXbyY** et incluent les éléments suivants :
+Windows Les sockets 1,1 définissaient un certain nombre de routines utilisées pour la résolution de noms avec des réseaux TCP/IP (IP version 4). Celles-ci sont parfois appelées fonctions **getXbyY** et incluent les éléments suivants :
 
 <dl>
 
@@ -59,11 +59,11 @@ Il existe également deux fonctions, qui sont désormais implémentées dans le 
 [**inet \_ NTOA**](/windows/win32/api/winsock2/nf-winsock2-inet_ntoa)  
 </dl>
 
-Afin de conserver une compatibilité descendante stricte avec Windows Sockets 1,1, toutes les anciennes fonctions IPv4 uniquement continuent d’être prises en charge tant qu’au moins un fournisseur d’espace de noms est présent et prend en charge la \_ famille d’adresses d’inet AF (ces fonctions ne sont pas pertinentes pour la version IP 6, indiquée par AF \_ inet6).
+afin de conserver une compatibilité descendante stricte avec Windows sockets 1,1, toutes les anciennes fonctions IPv4 uniquement continuent à être prises en charge tant qu’au moins un fournisseur d’espace de noms est présent et prend en charge la \_ famille d’adresses d’INET af (ces fonctions ne sont pas pertinentes pour la version IP 6, dénotée par AF \_ INET6).
 
 Le \_32.dll Ws2 implémente ces fonctions de compatibilité en termes de nouvelles fonctionnalités de résolution de noms indépendantes du protocole à l’aide d' [](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupservicebegina)une séquence appropriée d' /  / appels de fonction **end** Next WSALookupServiceBegin. Les détails de la façon dont les fonctions **getXbyY** sont mappées aux fonctions de résolution de noms sont fournis ci-dessous. L' \_32.dll WSs2 gère les différences entre les versions asynchrone et synchrone des fonctions **getXbyY** , de sorte que seule l’implémentation des fonctions **getXbyY** synchrones est présentée.
 
-Cette section décrit la résolution de noms compatible pour TCP/IP dans l’API Windows Sockets 1,1. La liste suivante décrit les rubriques de cette section :
+cette section décrit la résolution de noms compatible pour TCP/IP dans l’API Windows sockets 1,1. La liste suivante décrit les rubriques de cette section :
 
 -   [Approche de base pour GetXbyY dans l’API](basic-approach-for-getxbyy-in-the-api-2.md)
 -   [Fonctions getprotobyname et getprotobynumber dans l’API](getprotobyname-and-getprotobynumber-functions-in-the-api-2.md)

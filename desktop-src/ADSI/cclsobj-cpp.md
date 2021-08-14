@@ -7,12 +7,12 @@ keywords:
 - CSampleDSClass
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f23c198413819627ce1fcb5a605bd8e45faae0ce
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a24efbabe20a227ef91cb8f70e201a0562257e42cc926ba96b46b32e7a7d9568
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118180384"
 ---
 # <a name="cclsobjcpp"></a>CCLSOBJ. COTISATIONS
 
@@ -39,11 +39,11 @@ La classe **CSampleDSClass** est définie dans ce fichier. **CSampleDSClass** es
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

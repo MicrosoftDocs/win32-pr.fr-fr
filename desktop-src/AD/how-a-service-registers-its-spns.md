@@ -8,12 +8,12 @@ keywords:
 - nom de principal du service AD, comment un service enregistre ses SPN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74410be3a024fc6accd1d8394e2ba8335be9f550
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 96ebf33ed0f28dff3acffdcdc96a880c21ec532ff677801dd52ac1801f44c80e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188582"
 ---
 # <a name="how-a-service-registers-its-spns"></a>Comment un service enregistre ses SPN
 
@@ -38,9 +38,9 @@ Les services basés sur l’hôte qui utilisent le format de SPN simple « <serv
 
 Pour plus d’informations, consultez [comptes d’ouverture de session du service](service-logon-accounts.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: da23e413ee238f43ae577a51b18a542dc1b0768c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 963dc0059cf4fd45dffb0fc406cb6b2849aef456309cf15e80bf094c2ce01d20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118208301"
 ---
 # <a name="iwiaerrorhandlergetstatusdescription-method"></a>IWiaErrorHandler :: GetStatusDescription, méthode
 
@@ -47,9 +47,9 @@ HRESULT GetStatusDescription(
 *punkItem* \[ dans\]
 </dt> <dd>
 
-Tapez : **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) \** _
+Type : **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-Pointeur vers le [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) de l’élément en cours de transfert. Cet objet implémente au minimum [_ *IWiaItem2* *](-wia-iwiaitem2.md) et [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer).
+Pointeur vers le [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) de l’élément en cours de transfert. Cet objet implémente au minimum [**IWiaItem2**](-wia-iwiaitem2.md) et [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer).
 
 </dd> <dt>
 
@@ -74,18 +74,18 @@ Type : **long**
 *pbData* \[ dans\]
 </dt> <dd>
 
-Type : **Byte \** _
+Type : **Byte \***
 
-Pointeur vers la mémoire tampon de données telle qu’elle a été reçue par [_ *BandedDataCallback* *](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback).
+Pointeur vers la mémoire tampon de données telle qu’elle a été reçue par [**BandedDataCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback).
 
 </dd> <dt>
 
 *pbstrDescription* \[ à\]
 </dt> <dd>
 
-Type : **BSTR \** _
+Type : **BSTR \***
 
-_ *BSTR** qui reçoit une description de l’État ou de l’erreur rencontrée pendant le transfert de données. Ce paramètre ne peut pas être **null**. L’appelant doit libérer la chaîne à l’aide de [SysFreeString](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring), et l’implémenteur doit allouer la chaîne à l’aide de [SysAllocString](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring).
+**BSTR** qui reçoit une description de l’État ou de l’erreur rencontrée pendant le transfert de données. Ce paramètre ne peut pas être **null**. L’appelant doit libérer la chaîne à l’aide de [SysFreeString](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring), et l’implémenteur doit allouer la chaîne à l’aide de [SysAllocString](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring).
 
 </dd> </dl>
 
@@ -112,8 +112,8 @@ Retourne l’une des valeurs suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl>     |
 | Bibliothèque<br/>                  | <dl> <dt>Wiaguid. lib</dt> </dl> |

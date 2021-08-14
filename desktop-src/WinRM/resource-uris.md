@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 665c73caf5cf636ab7f0a0162f488ff073917984
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 93f13e18abd7ea452b84043dfef3d6bf6b18be6c476c0dfff9a34e42e45dbc14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104507930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118323726"
 ---
 # <a name="resource-uris"></a>URI de ressource
 
@@ -27,15 +27,15 @@ Un URI se compose d’un préfixe et d’un chemin d’accès à une ressource, 
 
 "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_LogicalDisk"
 
-Cette spécification de schéma indique que l’URI est basé sur la version 1 du protocole WS-Management officiel et que la ressource est [**un \_ disque logique Win32**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) dans l' \\ espace de noms « root cimv2 » de l’espace de stockage WMI. Les préfixes d’URI contiennent une spécification de schéma, telle que « schemas.microsoft.com/wbem/wsman/1/wmi » et un type spécifique de ressource, tel que **\_ disque logique Win32**. Pour plus d’informations sur l’identification d’une instance spécifique d’une classe WMI, consultez [Windows Remote Management et WMI](windows-remote-management-and-wmi.md).
+Cette spécification de schéma indique que l’URI est basé sur la version 1 du protocole WS-Management officiel et que la ressource est [**un \_ disque logique Win32**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) dans l' \\ espace de noms « root cimv2 » de l’espace de stockage WMI. Les préfixes d’URI contiennent une spécification de schéma, telle que « schemas.microsoft.com/wbem/wsman/1/wmi » et un type spécifique de ressource, tel que **\_ disque logique Win32**. pour plus d’informations sur l’identification d’une instance spécifique d’une classe wmi, consultez [Windows Remote Management et wmi](windows-remote-management-and-wmi.md).
 
 Pour plus d’informations, consultez [préfixes d’URI](uri-prefixes.md).
 
 ## <a name="types-of-resource-uris"></a>Types d’URI de ressource
 
-Bien que [*Windows Management Instrumentation (WMI)*](windows-remote-management-glossary.md) soit la principale source de données de gestion pour les systèmes d’exploitation Windows, d’autres sources de schéma de gestion existent également.
+bien que [*Windows Management Instrumentation (WMI)*](windows-remote-management-glossary.md) soit la principale source de données de gestion pour les systèmes d’exploitation basés sur des Windows, d’autres sources de schéma de gestion existent également.
 
-La liste suivante décrit plusieurs types d’URI de ressource utilisés par Windows Remote Management :
+la liste suivante décrit plusieurs types d’uri de ressource utilisés par Windows Remote Management :
 
 -   URI WMI
 
@@ -68,7 +68,7 @@ La liste suivante décrit plusieurs types d’URI de ressource utilisés par Win
 
 Le [*plug-in WMI*](windows-remote-management-glossary.md) conserve la casse de l’URI de ressource reçu dans une demande. Toutefois, pour garantir l’interopérabilité avec d’autres implémentations de WS-Management protocole, utilisez la casse correcte pour la ressource demandée dans URI de ressource. La casse correcte est l’orthographe définie par le fournisseur de ressources.
 
-Si les URI de ressource ne nécessitent pas de respect de la casse, le XML de [*fragments*](windows-remote-management-glossary.md) ne le fait pas. Un fragment spécifie une seule propriété, plutôt que l’ensemble des propriétés d’une ressource. Dans le cas des ressources WMI, la syntaxe de fragment obtient une propriété à partir d’une instance de ressource. Par exemple, l’obtention de la propriété de **version** de [**Win32 \_ OperatingSystem**](/windows/desktop/CIMWin32Prov/win32-operatingsystem) requiert l’utilisation d’un fragment. Pour plus d’informations sur les fragments, consultez « Ajout d’un sélecteur à un objet ResourceLocator ou IWSManResourceLocator » dans [Windows Remote Management et WMI](windows-remote-management-and-wmi.md).
+Si les URI de ressource ne nécessitent pas de respect de la casse, le XML de [*fragments*](windows-remote-management-glossary.md) ne le fait pas. Un fragment spécifie une seule propriété, plutôt que l’ensemble des propriétés d’une ressource. Dans le cas des ressources WMI, la syntaxe de fragment obtient une propriété à partir d’une instance de ressource. Par exemple, l’obtention de la propriété de **version** de [**Win32 \_ OperatingSystem**](/windows/desktop/CIMWin32Prov/win32-operatingsystem) requiert l’utilisation d’un fragment. pour plus d’informations sur les fragments, consultez « ajout d’un sélecteur à un objet ResourceLocator ou IWSManResourceLocator » dans [Windows Remote Management et WMI](windows-remote-management-and-wmi.md).
 
 Conformément aux normes XML et [*XPath*](windows-remote-management-glossary.md) , le [*plug-in WMI*](windows-remote-management-glossary.md) applique le respect de la casse pour les fragments et le XML qui définit les paramètres d’entrée d’une méthode. Le respect de la casse est requis pour prendre en charge la norme XPath 1.0/niveau 1. Pour recevoir des données WMI via WinRM, le respect de la casse signifie que les noms des classes, propriétés et méthodes WMI doivent correspondre à la casse du nom trouvé dans le référentiel WMI.
 
@@ -111,7 +111,7 @@ WScript.Echo xml
 
 <dl> <dt>
 
-[À propos de Windows Remote Management](about-windows-remote-management.md)
+[à propos de Windows Remote Management](about-windows-remote-management.md)
 </dt> <dt>
 
 [Gestion matérielle à distance](remote-hardware-management.md)
@@ -120,6 +120,6 @@ WScript.Echo xml
 [**ResourceLocator**](resourcelocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

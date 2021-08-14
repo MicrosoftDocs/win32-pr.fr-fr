@@ -15,12 +15,12 @@ keywords:
 - interfaces, IStylesProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 611e2f1979aaa4744ce3ff39965053f63399b2b9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a66e52a6829e592cc659d5ce47b51a09b6d8910d4bd2c41a1e03c9b661d027fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324087"
 ---
 # <a name="styles-control-pattern"></a>Styles (modèle de contrôle)
 
@@ -53,19 +53,19 @@ Les propriétés suivantes sont requises pour implémenter l’interface [**ISty
 
 
 
-| Membres nécessaires                                                            | Type de membre | Notes |
+| Membres nécessaires                                                            | Type de membre | Remarques |
 |-----------------------------------------------------------------------------|-------------|-------|
 | [**ExtendedProperties**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-istylesprovider-get_extendedproperties) | Propriété    | Aucun  |
 | [**FillColor**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_fillcolor)                       | Propriété    | Aucun  |
 | [**FillPatternColor**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_fillpatterncolor)         | Propriété    | Aucun  |
 | [**FillPatternStyle**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_fillpatternstyle)         | Propriété    | Aucun  |
-| [**Graphique à base de formes**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_shape)                               | Propriété    | Aucun  |
+| [**Forme**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_shape)                               | Propriété    | Aucun  |
 | [**StyleId**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_styleid)                           | Propriété    | Aucun  |
 | [**StyleName**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_stylename)                       | Propriété    | Aucun  |
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé à aucune méthode ou aucun événement.
 
@@ -82,6 +82,6 @@ Ce modèle de contrôle n’est associé à aucune méthode ou aucun événement
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

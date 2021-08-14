@@ -7,18 +7,18 @@ keywords:
 - Restauration de Active Directory Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 273d02fd50d6b3bd68a055a6a783566e4ebddcf7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 865389b4ad80ad8c3009a86a881ff4cf291a4fc1b4606e78e8ecd01ceef7c893
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184292"
 ---
 # <a name="restoring-an-active-directory-server"></a>Restauration d’un serveur Active Directory
 
 Les serveurs Active Directory doivent être restaurés hors connexion. Le système doit être redémarré en mode de restauration des services d’annuaire. Dans ce mode, le système d’exploitation s’exécute sans Active Directory Domain Services et toute la validation de l’utilisateur s’effectue par le biais du gestionnaire de comptes de sécurité (SAM) dans le registre. Pour restaurer Active Directory Domain Services, utilisez les informations d’identification d’un administrateur local sur le contrôleur de domaine qui est restauré.
 
-L’appelant des fonctions de restauration doit avoir le privilège d’accès au **\_ \_ nom** de la restauration. Utilisez la fonction [**DsSetAuthIdentity**](dssetauthidentity.md) pour définir le contexte de sécurité sous lequel les fonctions de sauvegarde et de restauration d’annuaire sont appelées.
+l’appelant des fonctions de restauration doit avoir le privilège d’accès **SE \_ restore \_ NAME** . Utilisez la fonction [**DsSetAuthIdentity**](dssetauthidentity.md) pour définir le contexte de sécurité sous lequel les fonctions de sauvegarde et de restauration d’annuaire sont appelées.
 
 Sachez que lorsque vous restaurez des Active Directory Domain Services, vous devez également restaurer les autres composants d’État du système.
 
@@ -36,10 +36,10 @@ Après une restauration en mode de restauration des services d’annuaire, le co
 
 N’oubliez pas que la restauration d’un serveur Active Directory est toujours une opération en deux parties. Tout d’abord, restaurez la base de données jusqu’au moment où la sauvegarde a été effectuée. Ensuite, répliquez le répertoire dans lequel le DSA nouvellement restauré réplique les mises à jour après la sauvegarde à partir d’autres DSA dans le domaine et la forêt d’entreprise.
 
-Un ordinateur s’exécutant sur Windows 2000 ou Windows Server 2003, qui contient un réplica du service d’annuaire, est un contrôleur de domaine.
+un ordinateur s’exécutant sur Windows 2000 ou Windows Server 2003, qui contient un réplica du service d’annuaire, est un contrôleur de domaine.
 
-La fonction [**DsRestoreRegister**](dsrestoreregister.md) ajoute des données au registre qui doivent survivre au processus de restauration du Registre pour que la restauration fonctionne correctement. Pour vous assurer que ces données de Registre sont conservées, restaurez Active Directory Domain Services avec les fonctions **DsRestore \*** avant de redémarrer l’ordinateur après l’appel de la fonction [**RegReplaceKey**](/windows/desktop/api/winreg/nf-winreg-regreplacekeya) . Ce processus fonctionne parce que **RegReplaceKey** ne remplace pas la ruche du Registre tant que l’ordinateur n’est pas redémarré et que les données de Registre ajoutées par la fonction **DsRestoreRegister** n’ont pas été spécifiquement remplacées lors d’une opération de restauration du Registre.
+La fonction [**DsRestoreRegister**](dsrestoreregister.md) ajoute des données au registre qui doivent survivre au processus de restauration du Registre pour que la restauration fonctionne correctement. Pour vous assurer que ces données de Registre sont conservées, restaurez Active Directory Domain Services avec les fonctions **DsRestore \** _ avant de redémarrer l’ordinateur après l’appel de la fonction [_ *RegReplaceKey* *](/windows/desktop/api/winreg/nf-winreg-regreplacekeya) . Ce processus fonctionne parce que **RegReplaceKey** ne remplace pas la ruche du Registre tant que l’ordinateur n’est pas redémarré et que les données de Registre ajoutées par la fonction **DsRestoreRegister** n’ont pas été spécifiquement remplacées lors d’une opération de restauration du Registre.
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: BUTTONGROUP. showBackground
 description: L’attribut showBackground spécifie ou récupère une valeur indiquant si le BUTTONGROUP affiche uniquement les boutons, ou affiche la bitmap complète spécifiée dans l’attribut image.
 ms.assetid: 5c3fc873-937c-4dad-ac18-e7a37004ee1e
 keywords:
-- Lecteur Windows Media BUTTONGROUP. showBackground
+- BUTTONGROUP. showBackground Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31cc87260d4b0fca74d6063c757e6c3dae0db850
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb95b707fa7e14b00e86c5a65949ff9fba3ce3db32745116fa65ca4c53ac1998
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118342672"
 ---
 # <a name="buttongroupshowbackground"></a>BUTTONGROUP. showBackground
 
@@ -42,7 +42,7 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand **showBackground** a la valeur true, la totalité de l' **image** principale est visible.
 

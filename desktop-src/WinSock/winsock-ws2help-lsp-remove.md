@@ -12,17 +12,17 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 597cd2f8cfc3bb7727301e64af53671bafbd9469
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0ac13a5404dcbbfe5fb5f5d8c2a5f17d43edeb72ba135abfc7e85ad9e5227a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118321591"
 ---
 # <a name="winsock_ws2help_lsp_remove-event"></a>\_Événement de \_ suppression LSP Winsock ws2help \_
 
 > [!Note]  
-> Les fournisseurs de services en couche sont déconseillés. À compter de Windows 8 et de Windows Server 2012, utilisez la [plateforme de filtrage Windows](../fwp/windows-filtering-platform-start-page.md).
+> Les fournisseurs de services en couche sont déconseillés. à partir de Windows 8 et Windows Server 2012, utilisez la [plateforme de filtrage Windows](../fwp/windows-filtering-platform-start-page.md).
 
  
 
@@ -74,7 +74,7 @@ Membre **dwCatalogEntryId** de la structure [**WSAPROTOCOL \_ info**](/windows/w
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’événement **Winsock \_ ws2help \_ LSP \_ Remove** est suivi pour une opération de suppression LSP lorsqu’une entrée de protocole est supprimée du catalogue Winsock.
 
@@ -84,8 +84,8 @@ L’événement **Winsock \_ ws2help \_ LSP \_ Remove** est suivi pour une opér
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 
