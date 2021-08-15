@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, écriture d’un client SSPI authentifié
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c8476772a2ed652f6646b078c2876234cbcc0d6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7445d5340b03f07805a9e2ab89deb8c915a76160db67b504259ae8de0bbabee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010357"
 ---
 # <a name="writing-an-authenticated-sspi-client"></a>Écriture d’un client SSPI authentifié
 
@@ -70,9 +70,9 @@ Une autre méthode consiste à conserver les handles de liaison hors du fichier 
 Le processus d’extraction des informations d’identification du client à partir du handle de liaison s’effectue comme suit :
 
 -   Les clients RPC appellent [**RpcBindingSetAuthInfo**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo) et incluent leurs informations d’authentification dans le cadre des informations de liaison transmises au serveur.
--   En règle générale, le serveur appelle [**RpcImpersonateClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclient) pour se comporter comme s’il s’agissait du client. Si le handle de liaison n’est pas authentifié, l’appel échoue avec RPC \_ S \_ aucun \_ contexte \_ disponible. Pour obtenir le nom d’utilisateur du client, appelez [**RpcBindingInqAuthClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclient) lors de l’emprunt d’identité, ou sous Windows XP ou versions ultérieures de Windows, appelez [**RpcGetAuthorizationContextForClient**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient) pour obtenir le contexte d’autorisation, puis utilisez les fonctions auth pour récupérer le nom.
+-   En règle générale, le serveur appelle [**RpcImpersonateClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclient) pour se comporter comme s’il s’agissait du client. Si le handle de liaison n’est pas authentifié, l’appel échoue avec RPC \_ S \_ aucun \_ contexte \_ disponible. pour obtenir le nom d’utilisateur du client, appelez [**RpcBindingInqAuthClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclient) pendant l’emprunt d’identité, ou sur Windows XP ou les versions ultérieures de Windows, appelez [**RpcGetAuthorizationContextForClient**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient) pour obtenir le contexte d’autorisation, puis utilisez les fonctions auth pour récupérer le nom.
 -   Le serveur appellera normalement [**CreatePrivateObjectSecurity**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity) pour créer des objets avec des ACL. Une fois cette étape accomplie, les contrôles de sécurité ultérieurs deviennent automatiques.
 
- 
+ 
 
- 
+ 

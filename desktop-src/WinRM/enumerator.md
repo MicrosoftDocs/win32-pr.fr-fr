@@ -4,8 +4,8 @@ description: Représente un flux de résultats retourné par des opérations, te
 ms.assetid: 8d8b461d-06a7-4600-8b68-2faf741a394b
 ms.tgt_platform: multiple
 keywords:
-- Objet énumérateur Windows Remote Management
-- Objet énumérateur Windows Remote Management, décrit
+- objet énumérateur Windows Remote Management
+- objet énumérateur Windows Remote Management, décrit
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ad2395ae0ba17b1f221cd0a6dc0f7517a89db71
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83799c4c67ad0b0f7c1ad89c77c3abab5989f1231508757c47dfe4c1705d7e20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051827"
 ---
 # <a name="enumerator-object"></a>Enumerator (objet)
 
@@ -57,13 +57,13 @@ L’objet **énumérateur** a ces propriétés.
 | Propriété                                                     | Description                                                                                    |
 |:-------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
 | [**AtEndOfStream**](enumerator-atendofstream.md)<br/> | Obtient une valeur booléenne qui indique s’il y a plus d’éléments dans la collection.<br/> |
-| [**Error**](enumerator-error.md)<br/>                 | Obtient une représentation XML des informations d’erreur supplémentaires.<br/>                         |
+| [**Erreur**](enumerator-error.md)<br/>                 | Obtient une représentation XML des informations d’erreur supplémentaires.<br/>                         |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour démarrer une énumération, utilisez [**session. Enumerate**](session-enumerate.md). Pour effectuer une opération [*WS-Enumeration :*](windows-remote-management-glossary.md)[*pull*](windows-remote-management-glossary.md) qui poursuit la lecture des éléments dans l’énumération, utilisez [**Enumerator. ReadItem**](enumerator-readitem.md).
 
@@ -137,7 +137,7 @@ End Sub
 [Énumération ou liste de toutes les instances d’une ressource](enumerating-or-listing-all-instances-of-a-resource.md)
 </dt> <dt>
 
-[Scripts dans Windows Remote Management](scripting-in-windows-remote-management.md)
+[scripts dans Windows Remote Management](scripting-in-windows-remote-management.md)
 </dt> </dl>
 
  

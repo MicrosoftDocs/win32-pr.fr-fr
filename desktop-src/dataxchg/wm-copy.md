@@ -3,7 +3,7 @@ title: Message WM_COPY (winuser. h)
 description: Une application envoie le \_ message de copie WM à un contrôle d’édition ou une zone de liste déroulante pour copier la sélection actuelle dans le presse-papiers au \_ format de texte cf.
 ms.assetid: dcac3ad3-1e70-4b71-accd-261587224e60
 keywords:
-- WM_COPY l’échange de données de message
+- WM_COPY des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b298248d75b1d25d1bfef8347347fe2f1a6c7916
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 2d7774b1e2d52cbe21b8636bcaa1c695f9f49b319280ebc89c74fd652533066b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "106542102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096749"
 ---
 # <a name="wm_copy-message"></a>\_Message de copie WM
 
@@ -54,7 +54,7 @@ Ce paramètre n’est pas utilisé et doit être égal à zéro.
 
 Retourne une valeur différente de zéro en cas de réussite, sinon zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’il est envoyé à une zone de liste déroulante, le message de **\_ copie WM** est géré par son contrôle d’édition. Ce message n’a aucun effet lorsqu’il est envoyé à une zone de liste déroulante avec le style [**\_ DropDownList SCC**](../controls/combo-box-styles.md) .
 

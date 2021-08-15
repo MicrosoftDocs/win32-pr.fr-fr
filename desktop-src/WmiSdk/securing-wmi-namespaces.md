@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Sécurisation des espaces de noms WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f605a6cd1136e70d6c5243b9e143fdb167d41808
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3cdf2b6e5c5cf035fed70e3e0dd949a812505f1f1ded8f1599043cdd75ba4c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992369"
 ---
 # <a name="securing-wmi-namespaces"></a>Sécurisation des espaces de noms WMI
 
@@ -24,7 +24,7 @@ Les rubriques suivantes décrivent la sécurité de l’espace de noms WMI et ex
 <span id="Access_to_WMI_Namespaces"></span><span id="access_to_wmi_namespaces"></span><span id="ACCESS_TO_WMI_NAMESPACES"></span>[Accès aux espaces de noms WMI](access-to-wmi-namespaces.md)
 </dt> <dd>
 
-La sécurité des espaces de noms WMI repose sur des [*identificateurs de sécurité*](/windows/desktop/SecGloss/s-gly) d’utilisateur Windows standard et des listes de contrôle d’accès. Les administrateurs et les utilisateurs ont des autorisations par défaut différentes.
+la sécurité des espaces de noms WMI repose sur des [*identificateurs de sécurité*](/windows/desktop/SecGloss/s-gly) (sid) d’utilisateur Windows standard et des listes de contrôle d’accès. Les administrateurs et les utilisateurs ont des autorisations par défaut différentes.
 
 </dd> <dt>
 

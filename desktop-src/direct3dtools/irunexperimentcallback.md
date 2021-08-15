@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 64e0fec72cf17a15dd1f7d984f108388fc423bf9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 09c34890c1bd14c2bb161c8bc9dee5c6e121e9976fbfb953690807c5f3f6ed69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985689"
 ---
 # <a name="span-idvspixengineirunexperimentcallbackspanirunexperimentcallback-interface"></a><span id="vspixengine.irunexperimentcallback"></span>Interface IRunExperimentCallback
 

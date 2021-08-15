@@ -1,19 +1,19 @@
 ---
 title: Fonctionnalités d’accessibilité Windows
-description: 'L’accessibilité Windows prend en charge deux catégories de fonctionnalités pour les développeurs Windows : les API Win32 et les paramètres utilisateur.'
+description: 'Windows l’accessibilité prend en charge deux catégories de fonctionnalités pour les développeurs de Windows : les api Win32 et les Paramètres utilisateur.'
 ms.assetid: 823bbc5b-062b-43ef-9f3e-822dc6f55c5d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aabd92ed8594d711ae9b744dc7f4a2622e8cb3d3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fac63f4bf021888ee96cb180e423f55b07190959ad8c8b7966f1a4a7ae395119
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994419"
 ---
 # <a name="windows-accessibility-features"></a>Fonctionnalités d’accessibilité Windows
 
-L’accessibilité Windows prend en charge deux catégories de fonctionnalités pour aider les développeurs Windows à concevoir des applications accessibles, les développeurs de technologie d’assistance peuvent créer des outils tels que les lecteurs d’écran et les loupes, et les ingénieurs de test de logiciel créent des scripts automatisés pour tester des applications Windows.
+Windows l’accessibilité prend en charge deux catégories de fonctionnalités pour aider Windows développeurs à concevoir des applications accessibles, les développeurs de technologie d’assistance peuvent créer des outils tels que les lecteurs d’écran et les loupes, et les ingénieurs de test de logiciel créent des scripts automatisés pour tester les applications Windows.
 
 ## <a name="settings"></a>Paramètres
 

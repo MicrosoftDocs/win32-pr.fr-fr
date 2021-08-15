@@ -4,12 +4,12 @@ description: Le redirecteur est le composant en mode noyau du routeur qui est re
 ms.assetid: 69cdbefa-9137-48cb-940a-badfb3f4f231
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52885000a9f1fcc117cd1fefc207531b9b524e74
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5011d340b444c9d0be5b26ee5449f041bb7419fd4a52f8a983ce2b85d9b106f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674019"
 ---
 # <a name="forwarder"></a>Redirecteur
 
@@ -21,9 +21,9 @@ Le gestionnaire de routeur obtient les meilleurs itinéraires vers toutes les de
 
 Le gestionnaire de groupe de multidiffusion utilise les informations de la vue multidiffusion de la table de routage pour ajouter des entrées de transfert de multidiffusion au redirecteur de multidiffusion.
 
- 
+ 
 
- 
+ 
 
 
 

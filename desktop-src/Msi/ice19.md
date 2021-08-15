@@ -4,12 +4,12 @@ ms.assetid: 438153c1-bc4b-4ecf-ab85-d66ad69c987c
 title: ICE19
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a53aa3268a1c77f674d4a130c9de02c44b56243
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1a706999744762a930a800326cb8d38487f19c1c4ea3e01b6b1f8aeae4ca2dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529109"
 ---
 # <a name="ice19"></a>ICE19
 
@@ -17,11 +17,11 @@ ICE19 vérifie que les composants publiés font référence à un fichier dans l
 
 ICE19 vérifie que les composants ou les raccourcis publiés ont un ComponentId. Les composants de la [table PublishComponent](publishcomponent-table.md), qui ne sont pas publiés dans une autre table, sont uniquement vérifiés pour voir s’ils ont un ComponentID.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE19 publie un message d’erreur si la colonne keyPath de la table Component ne fait pas référence à un fichier dans le cas d’un composant publié ou d’un répertoire dans le cas d’un raccourci publié. ICE19 publie un message d’erreur si des composants ou des raccourcis publiés n’ont pas d’ID de composant.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 ICE19 publie les messages d’erreur suivants pour l’exemple illustré :
 
@@ -48,7 +48,7 @@ ICE19 publie les messages d’erreur suivants pour l’exemple illustré :
 
 
 
-| Extension | -\_ |
+| Extension | Composant\_ |
 |-----------|-------------|
 | FLP       | COMP1       |
 | TST       | COMP2       |
@@ -62,7 +62,7 @@ ICE19 publie les messages d’erreur suivants pour l’exemple illustré :
 
 
 
-| Raccourci  | -\_ | Fonctionnalité\_      |
+| Raccourci  | Composant\_ | Fonctionnalité\_      |
 |-----------|-------------|----------------|
 | Shortcut1 | Comp4       | ProductFeature |
 | Shortcut2 | COMP3       | ProductFeature |

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102205
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b7f75ff43f026c028da83e9b8e7d940f8613d0ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39f9c2e019502a53c4849837142ab899a576886f1efd3d9161a36254adc75863
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104568499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982129"
 ---
 # <a name="esentloggingdisabledexception-properties"></a>Propriétés EsentLoggingDisabledException
 
@@ -49,7 +49,7 @@ Le type [EsentLoggingDisabledException](./esentloggingdisabledexception-class.md
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

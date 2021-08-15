@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad132522e193e517d6627b34ea679c871100c109
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7a242f477954f863f041c8f98b402a539ea30c24eae426c523a900072c0ea530
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106510654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083974"
 ---
 # <a name="wmmediacredits"></a>WM/MediaCredits
 
@@ -31,7 +31,7 @@ L’attribut **WM/MediaCredits** contient les crédits pour les médias de diffu
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est utilisé pour la télévision ou la radio de diffusion.
 
@@ -42,9 +42,9 @@ Cet attribut est utilisé pour la télévision ou la radio de diffusion.
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

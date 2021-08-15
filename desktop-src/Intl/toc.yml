@@ -1,14 +1,14 @@
 - name: Internationalisation pour les applications Windows
   href: international-support.md
   items:
-    - name: Prise en main avec le développement Windows International
+    - name: Prise en main avec le développement International Windows
       href: getting-started-with-international-development.md
       items:
         - name: Compréhension de l’internationalisation
           href: understanding-internationalization.md
         - name: Liste de contrôle d’internationalisation
           href: internationalization-checklist.md
-        - name: Ajout de la prise en charge de l’interface utilisateur multilingue à une application
+        - name: ajout de la prise en charge de interface utilisateur multilingue à une Application
           href: creating-a-multilingual-user-interface-application.md
     - name: Services de globalisation
       href: globalization-services.md
@@ -769,7 +769,7 @@
               href: ime-window-class.md
             - name: Contexte d’entrée
               href: input-context.md
-            - name: 'Fenêtres État, composition et candidats'
+            - name: 'Windows de l’État, de la composition et des candidats'
               href: status--composition--and-candidates-windows.md
         - name: Utilisation du gestionnaire de méthode d’entrée
           href: using-input-method-manager.md
@@ -1302,7 +1302,7 @@
     - name: Interface utilisateur multilingue
       href: multilingual-user-interface.md
       items:
-        - name: À propos de l’interface utilisateur multilingue
+        - name: à propos de interface utilisateur multilingue
           href: about-multilingual-user-interface.md
           items:
             - name: Fonctionnement de MUI
@@ -1312,7 +1312,7 @@
                   href: overview-of-mui.md
                 - name: Concepts fondamentaux de MUI
                   href: mui-fundamental-concepts-explained.md
-                - name: Évolution de la prise en charge MUI sur les versions de Windows
+                - name: évolution de la prise en charge MUI sur les Versions Windows
                   href: evolution-of-mui-support-across-windows-versions.md
                 - name: Explication des avantages de l’interface MUI
                   href: benefits-of-mui-explained.md
@@ -1328,7 +1328,7 @@
               href: development-of-mui-applications.md
             - name: Déploiement d’application
               href: application-deployment.md
-        - name: Utilisation de l’interface utilisateur multilingue
+        - name: utilisation de interface utilisateur multilingue
           href: using-multilingual-user-interface.md
           items:
             - name: Préparation des ressources
@@ -1343,9 +1343,9 @@
             - name: Définition des préférences linguistiques de l’application
               href: setting-application-language-preferences.md
               items:
-                - name: Prise en charge des paramètres de langue système
+                - name: prise en charge de la langue système Paramètres
                   href: supporting-system-language-settings.md
-                - name: Prise en charge des paramètres de langue Application-Specific
+                - name: prise en charge du langage de Application-Specific Paramètres
                   href: supporting-application-specific-language-settings.md
                 - name: Filtrage des langues dans une application console MUI
                   href: filtering-languages-in-a-mui-console-application.md
@@ -1362,16 +1362,16 @@
               href: locating-non-win32-pe-resources.md
             - name: Localisation des ressources et génération de l’application
               href: localizing-resources-and-building-the-application.md
-            - name: "MUI\_: exemple d’application de paramètres système"
+            - name: "MUI\_: exemple d’Application Paramètres système"
               href: mui-system-settings-application-sample.md
-            - name: "MUI\_: exemple de paramètres Application-Specific (Windows Vista)"
+            - name: "MUI\_: exemple de Paramètres Application-Specific (Windows Vista)"
               href: mui-application-specific-settings-sample-vista.md
-            - name: "MUI\_: exemple de paramètres de Application-Specific (antérieur à Windows Vista)"
+            - name: "MUI\_: exemple de Paramètres Application-Specific (pré-Windows Vista)"
               href: mui-application-specific-settings-sample-pre-vista.md
-        - name: Informations de référence sur l’interface utilisateur multilingue
+        - name: interface utilisateur multilingue Faire
           href: multilingual-user-interface-reference.md
           items:
-            - name: Fonctions de l’interface utilisateur multilingue
+            - name: interface utilisateur multilingue Mission
               href: multilingual-user-interface-functions.md
               items:
                 - name: EnumUILanguages
@@ -1410,7 +1410,7 @@
                   href: /windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages
                 - name: SetThreadUILanguage
                   href: /windows/desktop/api/Winnls/nf-winnls-setthreaduilanguage
-            - name: Macros de l’interface utilisateur multilingue
+            - name: interface utilisateur multilingue Macros
               href: multilingual-user-interface-macros.md
               items:
                 - name: FILEMUIINFO_GET_CULTURE
@@ -1427,7 +1427,7 @@
                   href: /windows/desktop/api/Winnls/nf-winnls-filemuiinfo_get_mui_typeid
                 - name: FILEMUIINFO_GET_MUI_TYPENAMES
                   href: /windows/desktop/api/Winnls/nf-winnls-filemuiinfo_get_mui_typenames
-            - name: Structures de l’interface utilisateur multilingue
+            - name: interface utilisateur multilingue Celles
               href: multilingual-user-interface-structures.md
               items:
                 - name: FILEMUIINFO

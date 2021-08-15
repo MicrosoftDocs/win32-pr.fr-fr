@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c86ddf66affd4c6688ca331152a5d0c5af073a63
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 98dcf686bf3f15af8ba2129a0bd0cdbb9c01133b9fc6d4531155a065c07a44fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081293"
 ---
 # <a name="valid-accesses-attribute"></a>Attribut Valid-Accesses
 
@@ -36,7 +36,7 @@ Type d’accès autorisé avec un droit étendu.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1356              |
 | System-ID-GUID    | 4d2fa380-7f54-11d2-992a-0000f87a57d4 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -46,7 +46,7 @@ Type d’accès autorisé avec un droit étendu.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

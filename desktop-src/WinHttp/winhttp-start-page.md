@@ -1,27 +1,27 @@
 ---
-description: Les services HTTP Microsoft Windows (WinHTTP) fournissent aux développeurs une interface de programmation d’applications (API) cliente HTTP pour envoyer des requêtes via le protocole HTTP à d’autres serveurs HTTP.
+description: Microsoft Windows http Services (WinHTTP) fournit aux développeurs une interface de programmation d’applications (API) cliente http pour envoyer des requêtes via le protocole http à d’autres serveurs http.
 ms.assetid: 354ab65d-5e46-451d-b36b-2f8166a1a048
-title: Services HTTP Windows
+title: Windows Services HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f03a3204257410e4db0182724ab63743116f021
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8b1c6bd44f2dfb67797375dbb14af0a4c8684c0d460efb7ae7206511a226505
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051967"
 ---
-# <a name="windows-http-services"></a>Services HTTP Windows
+# <a name="windows-http-services"></a>Windows Services HTTP
 
 ## <a name="purpose"></a>Objectif
 
-Les services HTTP Microsoft Windows (WinHTTP) fournissent aux développeurs une interface de programmation d’applications (API) cliente HTTP pour envoyer des requêtes via le protocole HTTP à d’autres serveurs HTTP.
+Microsoft Windows http Services (WinHTTP) fournit aux développeurs une interface de programmation d’applications (API) cliente http pour envoyer des requêtes via le protocole http à d’autres serveurs http.
 
 ## <a name="where-applicable"></a>Le cas échéant
 
-WinHTTP prend en charge les applications clientes de bureau, les services Windows et les applications Windows Server.
+WinHTTP prend en charge les applications clientes de bureau, les services Windows et les applications Windows server.
 
-Pour plus d’informations sur l’utilisation de WinHTTP pour les applications basées sur l’infrastructure Microsoft .NET, consultez l' [API WinHttpHandler](/dotnet/api/system.net.http?view=netframework-4.8)
+pour plus d’informations sur l’utilisation de WinHTTP pour les applications basées sur le .NET Framework Microsoft, consultez l' [API WinHttpHandler](/dotnet/api/system.net.http?view=netframework-4.8)
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
@@ -31,7 +31,7 @@ Une compréhension de base du protocole HTTP est importante pour utiliser l’un
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-WinHTTP 5,1 offre des améliorations par rapport à la version 5,0. Il est inclus dans le système d’exploitation. Pour plus d’informations sur les nouvelles fonctionnalités, consultez [Nouveautés de WinHTTP 5,1](what-s-new-in-winhttp-5-1.md) et [Nouveautés de Windows Server 2008 et Windows Vista](what-s-new-in-windows-longhorn.md).
+WinHTTP 5,1 offre des améliorations par rapport à la version 5,0. Il est inclus dans le système d’exploitation. pour plus d’informations sur les nouvelles fonctionnalités, consultez [nouveautés de WinHTTP 5,1](what-s-new-in-winhttp-5-1.md) et [nouveautés de Windows Server 2008 et Windows Vista](what-s-new-in-windows-longhorn.md).
 
 > [!IMPORTANT]
 > Le téléchargement de WinHTTP 5,0 n’est plus disponible. À compter du 1er octobre 2004, Microsoft a supprimé le téléchargement du kit de développement logiciel (SDK) WinHTTP 5,0 de MSDN et a terminé le support produit pour la version 5,0.

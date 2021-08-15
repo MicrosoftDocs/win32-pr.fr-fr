@@ -1,17 +1,17 @@
 ---
 description: Indique si le lecteur du stockage est portable.
 ms.assetid: d9ac5df6-9f25-4f11-a7fd-63cdc0060d8b
-title: System. Storage. portable
+title: Requise. Stockage. Portatif
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fb2f52fcd2c76836691f12de3305f2c91fab98c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c36f92485455f4213aad09411784f1263166c333fbde015410d00c242d40e6f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598119"
 ---
-# <a name="systemstorageportable"></a>System. Storage. portable
+# <a name="systemstorageportable"></a>Requise. Stockage. Portatif
 
 Indique si le lecteur du stockage est portable.
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

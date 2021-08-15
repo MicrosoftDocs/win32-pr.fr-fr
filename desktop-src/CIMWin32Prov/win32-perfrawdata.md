@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - WmiPerfInst.dll
-ms.openlocfilehash: db5b74ae7508d15a48d2f71c3a586ad7e40362f7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f6500706b7e2298ad98aa894e33436b0306e406e003562fcb6533265abd0b2be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020127"
 ---
 # <a name="win32_perfrawdata-class"></a>\_Classe PerfRawData Win32
 
@@ -138,7 +138,7 @@ Type de données : **UInt64**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Fréquence en graduations par seconde de la propriété **Frequency \_ PerfTime** . Une valeur peut être obtenue en appelant la fonction Windows [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
+Fréquence en graduations par seconde de la propriété **Frequency \_ PerfTime** . une valeur peut être obtenue en appelant la fonction Windows [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
 
 Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les scripts, consultez [scripts dans WMI](/previous-versions//aa393262(v=vs.85)).
 
@@ -207,7 +207,7 @@ Type de données : **UInt64**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Horodateur du compteur de performances élevé. Une valeur peut être obtenue en appelant la fonction Windows [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
+Horodateur du compteur de performances élevé. une valeur peut être obtenue en appelant la fonction Windows [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
 
 Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les scripts, consultez [scripts dans WMI](/previous-versions//aa393262(v=vs.85)).
 
@@ -232,7 +232,7 @@ Cette propriété est héritée de la [**\_ performance Win32**](win32-perf.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PerfRawData** est dérivée de la [**\_ performance Win32**](win32-perf.md), qui est dérivée de [**CIM \_ StatisticalInformation**](cim-statisticalinformation.md).
 

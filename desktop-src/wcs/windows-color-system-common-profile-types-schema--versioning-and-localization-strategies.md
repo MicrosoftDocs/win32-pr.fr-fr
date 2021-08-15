@@ -3,23 +3,23 @@ title: Schéma des types de profils communs du système de couleurs Windows, str
 description: Schéma des types de profils communs du système de couleurs Windows, stratégies de gestion des versions et de localisation
 ms.assetid: 295522c6-7c53-47f6-9b98-aeee2b0e34fc
 keywords:
-- Système de couleurs Windows (WCS), types de profils communs
-- WCS (système de couleurs Windows), types de profils communs
+- Windows Système de couleurs (WCS), types de profils communs
+- WCS (Windows Color System), types de profils communs
 - gestion des couleurs des images, types de profils communs
 - gestion des couleurs, types de profils communs
 - couleurs, types de profils communs
-- Système de couleurs Windows (WCS), profils
-- WCS (système de couleurs Windows), profils
+- Windows Système de couleurs (WCS), profils
+- WCS (Windows Color System), profils
 - gestion des couleurs des images, profils
 - gestion des couleurs, profils
 - couleurs, profils
-- Système de couleurs Windows (WCS), contrôle de version
+- Windows Système de couleurs (WCS), contrôle de version
 - WCS (Windows Color System), contrôle de version
 - gestion des couleurs des images, contrôle de version
 - gestion des couleurs, contrôle de version
 - couleurs, contrôle de version
-- Système de couleurs Windows (WCS), localisation
-- WCS (système de couleurs Windows), localisation
+- Windows Système de couleurs (WCS), localisation
+- WCS (Windows Color System), localisation
 - gestion des couleurs des images, localisation
 - gestion des couleurs, localisation
 - couleurs, localisation
@@ -30,12 +30,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4814b652b654b6416b42a7a3484950273a93ea96
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 6c9df44fa7095d8cbcd3df6de00c92ba2d4ab2ddb7ef7d3565a820e925265ea0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106520258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442289"
 ---
 # <a name="windows-color-system-common-profile-types-schema-versioning-and-localization-strategies"></a>Schéma des types de profils communs du système de couleurs Windows, stratégies de gestion des versions et de localisation
 
@@ -116,7 +116,7 @@ Seuls les encodages UTF-8 ou UTF-16 sont pris en charge. Tous les autres encodag
 
 ## <a name="wcs-common-profile-types-schema-v2-additions"></a>Ajouts au schéma des types de profils communs WCS
 
-Dans Windows 7, le schéma des types de profils communs WCS a été mis à jour pour inclure les types afin de prendre en charge le [schéma d’étalonnage WCS](wcs-calibration-schema.md).
+dans Windows 7, le schéma des types de profils communs wcs a été mis à jour pour inclure les types afin de prendre en charge le [schéma d’étalonnage wcs](wcs-calibration-schema.md).
 
 
 ```XML
@@ -227,7 +227,7 @@ L’exemple suivant illustre la compatibilité du balisage.
 
 ## <a name="wcs-profile-localization"></a>Localisation du profil WCS
 
-**Configuration requise**
+**Requirements**
 
 Les profils WCS contiennent certains éléments tels que ProfileName et description qui contiennent du texte explicite. Ce texte peut être localisé.
 
@@ -319,15 +319,15 @@ Le schéma CDMP applique la contrainte selon laquelle chaque enfant WCS : Text 
 
 Lorsque vous choisissez la version linguistique d’un élément localisable à afficher, le code de l’application doit sélectionner la « version la plus proche » dans la « langue actuelle ». La « version la plus proche » et la « langue actuelle » signifient réellement dépend de la plateforme. Voir ci-dessous. Si le profil ne contient pas une version de langage qui correspond à la langue actuelle, l’application doit sélectionner la première version dans le profil (le premier élément enfant WCS : Text de l’élément localisable).
 
-Sur Windows Vista, la sélection de la langue s’effectue comme suit : chaque thread a une liste associée de « langues d’interface utilisateur préférées », que vous pouvez obtenir en appelant [**GetThreadPreferredUILanguages**](/windows/win32/api/winnls/nf-winnls-getthreadpreferreduilanguages). La liste est retournée dans l’ordre des préférences de l’utilisateur. Par exemple, sur un système configuré pour l’anglais des États-Unis, la liste retournée par **GetThreadPreferredUILanguages** est {"en-US", "fr"}. Cela signifie : 1) anglais (États-Unis), le cas échéant. 2) sinon, utilisez une variante régionale de l’anglais, telle que « en-GB » ou simplement « fr ».
+sur Windows Vista, la sélection de la langue s’effectue comme suit : chaque thread a une liste associée de « langues d’interface utilisateur préférées », que vous pouvez obtenir en appelant [**GetThreadPreferredUILanguages**](/windows/win32/api/winnls/nf-winnls-getthreadpreferreduilanguages). La liste est retournée dans l’ordre des préférences de l’utilisateur. Par exemple, sur un système configuré pour l’anglais des États-Unis, la liste retournée par **GetThreadPreferredUILanguages** est {"en-US", "fr"}. Cela signifie : 1) anglais (États-Unis), le cas échéant. 2) sinon, utilisez une variante régionale de l’anglais, telle que « en-GB » ou simplement « fr ».
 
 Pour chaque langue de cette liste, dans l’ordre de la liste, le code de l’interface utilisateur recherche un élément WCS : Text dont l’attribut XML : lang correspond exactement à. La première version correspondante est utilisée. Si aucune version ne correspond, le premier élément WCS : Text est utilisé.
 
 ### <a name="built-in-profiles"></a>Profils intégrés
 
-Les profils WCS standard fournis avec Windows Vista, tels que sRVB. CDMP, ont les mêmes propriétés localisables que les autres profils.
+les profils WCS standard fournis avec Windows Vista, tels que srvb. cdmp, ont les mêmes propriétés localisables que les autres profils.
 
-La solution Windows standard consiste à placer les chaînes localisées dans une DLL MUI et à y faire référence comme suit :
+la solution de Windows standard consiste à placer les chaînes localisées dans une DLL MUI et à y faire référence comme suit :
 
 
 ```XML
@@ -338,7 +338,7 @@ La solution Windows standard consiste à placer les chaînes localisées dans un
 
 
 
-Sur un système Windows, le texte de description est extrait de l’ID de ressource 101 dans la version localisée appropriée des ressources MUI pour mscms.dll. Les systèmes non-Windows utiliseraient les sous-éléments WCS : Text comme décrit ci-dessus.
+sur un système Windows, le texte de description est extrait de l’ID de ressource 101 dans la version localisée appropriée des ressources MUI pour mscms.dll. les systèmes Non-Windows utilisent le sous-élément wcs : Text, comme décrit ci-dessus.
 
 Nous introduisons un attribut d’ID global unique facultatif sur l’élément racine de chaque schéma de profil WCS. Le profil standard wcsRGB. CDMP peut se présenter comme suit :
 
@@ -357,7 +357,7 @@ Nous introduisons un attribut d’ID global unique facultatif sur l’élément 
 
 
 
-Pour les profils de couleurs WCS fournis avec Windows, le panneau de la vue des couleurs affiche des informations descriptives à partir des ressources, plutôt que des éléments de texte WCS : dans les profils. Cela permet à Windows d’afficher des informations localisées pour ces profils dans toutes les langues prises en charge, sans exiger que les profils themlselves contiennent des informations descriptives dans toutes les langues.
+Pour les profils de couleurs WCS fournis avec Windows, le panneau de la vue des couleurs affiche des informations descriptives à partir des ressources, plutôt que des éléments de texte WCS : dans les profils. cela permet à Windows d’afficher des informations localisées pour ces profils dans toutes les langues prises en charge, sans que les profils themlselves contiennent des informations descriptives dans toutes les langues.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

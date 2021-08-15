@@ -3,7 +3,7 @@ title: Message TVM_DELETEITEM (commctrl. h)
 description: Supprime un élément et tous ses enfants d’un contrôle Tree-View. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro TreeView DeleteItem.
 ms.assetid: 225420a5-6ded-4786-a080-2817aa5f66c9
 keywords:
-- TVM_DELETEITEM les contrôles de message Windows
+- TVM_DELETEITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8783fd5acdf7319699cdc67cbb3ea075e4dbbc28
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7ef0165ffaf1f0f04b32cda43e21c97fed012ad6d61b32f8919612f8924f7c66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018687"
 ---
 # <a name="tvm_deleteitem-message"></a>TVM- \_ message DELETEITEM
 
@@ -43,7 +43,7 @@ Supprime un élément et tous ses enfants d’un contrôle Tree-View. Vous pouve
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il n’est pas possible de supprimer des éléments en réponse à une notification telle que [TVN \_ SELCHANGING](tvn-selchanging.md).
 
@@ -61,8 +61,8 @@ Si vous supprimez tous les éléments d’un contrôle Tree-View qui a le style 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 32a3587b23766345417ecb23b37e6d6daccb7f81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9cf1a72f6aee03c559ac97c5722908d6426b86ffb93789d14d860c8c5c373ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104559633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983819"
 ---
 # <a name="apigettableindexes-method"></a>API. GetTableIndexes, méthode
 

@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 7142163b-ee2c-43e3-9c17-3e039abbeeaf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebf5623b1ed0b1ea312625f6682a0f35e31c2578
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2877c4b9000adf15fbef4cd43c48ab292a7f418c20b8a896f9ed08ffa88078bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083773"
 ---
 # <a name="wmformat-glossary"></a>Glossaire WMFormat
 
@@ -51,7 +51,7 @@ Exemple compressé qui ne dépend d’aucun autre échantillon pour la décompre
 <span id="wmformat.clear_content"></span><span id="WMFORMAT.CLEAR_CONTENT"></span>**effacer le contenu**
 </dt> <dd>
 
-Fichier Windows Media non chiffré.
+fichier multimédia Windows qui n’est pas chiffré.
 
 </dd> <dt>
 
@@ -72,14 +72,14 @@ Audio, vidéo, images, texte ou toute autre information contenue dans un fichier
 <span id="wmformat.content_header"></span><span id="WMFORMAT.CONTENT_HEADER"></span>**en-tête de contenu**
 </dt> <dd>
 
-Partie de la structure de fichiers d’un fichier Windows Media qui contient les informations nécessaires à un ordinateur client pour décompresser et restituer les données de contenu. Dans un fichier empaqueté, un en-tête de contenu supplémentaire existe et contient l’ID de clé, l’ID de contenu et l’URL d’acquisition de licence. Cet en-tête de contenu peut également inclure un numéro de version d’individualisation requis et des attributs définis par le fournisseur de contenu.
+partie de la structure de fichiers d’un fichier multimédia Windows qui contient les informations nécessaires à un ordinateur client pour décompresser et restituer les données de contenu. Dans un fichier empaqueté, un en-tête de contenu supplémentaire existe et contient l’ID de clé, l’ID de contenu et l’URL d’acquisition de licence. Cet en-tête de contenu peut également inclure un numéro de version d’individualisation requis et des attributs définis par le fournisseur de contenu.
 
 </dd> <dt>
 
 <span id="wmformat.content_owner"></span><span id="WMFORMAT.CONTENT_OWNER"></span>**propriétaire du contenu**
 </dt> <dd>
 
-Personne ou organisation qui crée des fichiers Windows Media, par exemple, une étiquette d’enregistrement, un studio de cinéma ou un artiste.
+personne ou organisation qui crée Windows fichiers multimédias, par exemple, une étiquette d’enregistrement, un studio de cinéma ou un artiste.
 
 </dd> <dt>
 
@@ -142,7 +142,7 @@ Objet COM qui traite les flux de données multimédias à partir des mémoires t
 <span id="wmformat.dmo"></span><span id="WMFORMAT.DMO"></span>**DMO**
 </dt> <dd>
 
-Voir la définition de : [ *objet de média DirectX (DMO)*](/windows)
+Consultez la définition de : [ *objet de média DirectX (DMO)*](/windows)
 
 </dd> <dt>
 
@@ -191,7 +191,7 @@ Norme pour l’ajout de métadonnées à des fichiers MP3.
 <span id="wmformat.index"></span><span id="WMFORMAT.INDEX"></span>**index**
 </dt> <dd>
 
-Marqueur produit par le kit de développement logiciel (SDK) Windows Media format pour permettre la recherche dans un fichier vidéo.
+marqueur produit par le kit de développement logiciel (SDK) Windows Media Format pour permettre la recherche dans un fichier vidéo.
 
 </dd> <dt>
 
@@ -219,7 +219,7 @@ Processus qui supprime les frames qui ont été ajoutés lorsque le film 24 i/s 
 <span id="wmformat.key"></span><span id="WMFORMAT.KEY"></span>**clé**
 </dt> <dd>
 
-Élément de données requis pour déverrouiller un fichier Windows Media empaqueté. Cette clé est incluse dans une licence distincte.
+élément de données requis pour déverrouiller un fichier multimédia Windows empaqueté. Cette clé est incluse dans une licence distincte.
 
 </dd> <dt>
 
@@ -233,7 +233,7 @@ Image vidéo contenant toutes les données nécessaires pour construire une imag
 <span id="wmformat.key_id"></span><span id="WMFORMAT.KEY_ID"></span>**ID de clé**
 </dt> <dd>
 
-Valeur qui identifie la clé d’un fichier Windows Media protégé.
+valeur qui identifie la clé d’un fichier multimédia Windows protégé.
 
 </dd> <dt>
 
@@ -247,14 +247,14 @@ Données jointes au contenu protégé qui décrit comment le contenu peut être 
 <span id="wmformat.license_acquisition"></span><span id="WMFORMAT.LICENSE_ACQUISITION"></span>**acquisition de licence**
 </dt> <dd>
 
-Processus d’obtention d’une licence pour lire un fichier Windows Media empaqueté. Le joueur tente d’obtenir une licence à partir d’une URL d’acquisition de licence, qui est spécifiée dans le fichier Windows Media.
+processus d’obtention d’une licence pour lire un fichier multimédia Windows empaqueté. le joueur tente d’obtenir une licence à partir d’une URL d’acquisition de licence, qui est spécifiée dans le fichier multimédia Windows.
 
 </dd> <dt>
 
 <span id="wmformat.license_management_service"></span><span id="WMFORMAT.LICENSE_MANAGEMENT_SERVICE"></span>**Service de gestion des licences**
 </dt> <dd>
 
-Service Microsoft qui exécute le processus de gestion des licences dans le kit de développement logiciel (SDK) du gestionnaire de droits Windows Media.
+le service Microsoft qui exécute le processus de gestion des licences dans le kit de développement logiciel (SDK) Windows Media Rights Manager.
 
 </dd> <dt>
 
@@ -289,14 +289,14 @@ Réponse à une demande de révocation de licence indiquant les licences à supp
 <span id="wmformat.licensing_server"></span><span id="WMFORMAT.LICENSING_SERVER"></span>**serveur de licences**
 </dt> <dd>
 
-Un ordinateur qui exécute le service de licence Windows Media et qui émet des licences.
+un ordinateur qui exécute Windows Service de licence multimédia et émet des licences.
 
 </dd> <dt>
 
 <span id="wmformat.marker"></span><span id="WMFORMAT.MARKER"></span>**marqueur**
 </dt> <dd>
 
-Chaîne de texte associée à une heure désignée dans du contenu Windows Media. Les marqueurs indiquent souvent des points pratiques pour commencer la lecture, tels que le début d’une nouvelle scène.
+chaîne de texte associée à une heure désignée dans Windows contenu multimédia. Les marqueurs indiquent souvent des points pratiques pour commencer la lecture, tels que le début d’une nouvelle scène.
 
 </dd> <dt>
 
@@ -335,17 +335,17 @@ Paramètre dans une licence qui indique quelles technologies peuvent être utili
 
 </dd> <dt>
 
-<span id="wmformat.packaged_windows_media_file"></span><span id="WMFORMAT.PACKAGED_WINDOWS_MEDIA_FILE"></span>**fichier Windows Media empaqueté**
+<span id="wmformat.packaged_windows_media_file"></span><span id="WMFORMAT.PACKAGED_WINDOWS_MEDIA_FILE"></span>**fichier de média Windows empaqueté**
 </dt> <dd>
 
-Fichier Windows Media chiffré avec une clé, que les consommateurs ne peuvent pas lire, sauf s’ils disposent d’une clé fournie par une licence. Un fichier Windows Media empaqueté est généré par et protégé par le biais de l’implémentation de la gestion des droits numériques à l’aide du kit de développement logiciel (SDK) Windows Media Rights Manager ou d’un programme basé sur le kit de développement logiciel (SDK) Microsoft Windows Media format.
+un fichier multimédia Windows chiffré avec une clé, que les consommateurs ne peuvent pas lire, sauf s’ils ont une clé fournie par une licence. un package Windows fichier multimédia est généré par et protégé par le biais de l’implémentation de la gestion des droits numériques à l’aide du kit de développement logiciel (sdk) Windows media rights Manager ou d’un programme basé sur Microsoft Windows media Format sdk.
 
 </dd> <dt>
 
 <span id="wmformat.packaging"></span><span id="WMFORMAT.PACKAGING"></span>**empaquetage**
 </dt> <dd>
 
-Processus qui protège et signe un fichier Windows Media, en générant un fichier Windows Media empaqueté. Le processus d’empaquetage comprend la génération ou la spécification d’une clé, la génération et la signature de l’en-tête de contenu, puis le chiffrement du fichier Windows Media avec ces informations.
+processus qui protège et signe un Windows fichier multimédia, en générant un fichier multimédia Windows empaqueté. le processus d’empaquetage comprend la génération ou la spécification d’une clé, la génération et la signature de l’en-tête de contenu, puis le chiffrement de l’Windows fichier multimédia à l’aide de ces informations.
 
 </dd> <dt>
 
@@ -394,11 +394,11 @@ Modèle de couleur qui décrit les informations de couleur en termes d’intensi
 <span id="wmformat.sdmi"></span><span id="WMFORMAT.SDMI"></span>**SDMI**
 </dt> <dd>
 
-Consultez la définition de : l' [ *initiative de Secure Digital Music (SDMI)*](/windows)
+voir la définition de : [ *SDMI (secure Digital Musique Initiative)*](/windows)
 
 </dd> <dt>
 
-<span id="wmformat.secure_digital_music_initiative__sdmi_"></span><span id="WMFORMAT.SECURE_DIGITAL_MUSIC_INITIATIVE__SDMI_"></span>**Initiative de sécuriser la musique numérique (SDMI)**
+<span id="wmformat.secure_digital_music_initiative__sdmi_"></span><span id="WMFORMAT.SECURE_DIGITAL_MUSIC_INITIATIVE__SDMI_"></span>programme **SDMI (secure Digital Musique Initiative)**
 </dt> <dd>
 
 Organisation qui définit des normes pour la musique numérique sécurisée. L’un des principaux objectifs de SDMI est de créer une infrastructure pour sécuriser la diffusion, le stockage et la distribution de la musique numérique.
@@ -475,24 +475,24 @@ Voir la définition de : [ *vitesse de transmission variable (VBR)*](/windows)
 
 </dd> <dt>
 
-<span id="wmformat.windows_media_file"></span><span id="WMFORMAT.WINDOWS_MEDIA_FILE"></span>**Fichier Windows Media**
+<span id="wmformat.windows_media_file"></span><span id="WMFORMAT.WINDOWS_MEDIA_FILE"></span>**Windows un fichier multimédia**
 </dt> <dd>
 
-Fichier qui contient des données audio, vidéo ou de script. Le contenu du fichier est encodé à l’aide de l’un des codecs Windows Media.
+Fichier qui contient des données audio, vidéo ou de script. le contenu du fichier est encodé à l’aide de l’un des codecs multimédias Windows.
 
 </dd> <dt>
 
-<span id="wmformat.windows_media_format"></span><span id="WMFORMAT.WINDOWS_MEDIA_FORMAT"></span>**Format Windows Media**
+<span id="wmformat.windows_media_format"></span><span id="WMFORMAT.WINDOWS_MEDIA_FORMAT"></span>**Format de média Windows**
 </dt> <dd>
 
-Format d’un fichier multimédia numérique ou d’un flux encodé à l’aide de codecs Windows Media.
+format d’un fichier multimédia numérique ou d’un flux encodé à l’aide de Windows codecs multimédias.
 
 </dd> <dt>
 
-<span id="wmformat.windows_media_license_service"></span><span id="WMFORMAT.WINDOWS_MEDIA_LICENSE_SERVICE"></span>**Service de licence Windows Media**
+<span id="wmformat.windows_media_license_service"></span><span id="WMFORMAT.WINDOWS_MEDIA_LICENSE_SERVICE"></span>**Service de licence multimédia Windows**
 </dt> <dd>
 
-Composant du kit de développement logiciel (SDK) Windows Media Rights Manager qui fournit des services d’acquisition de licence.
+composant du kit de développement logiciel (SDK) Media Rights Manager Windows qui fournit des services d’acquisition de licence.
 
 </dd> <dt>
 
@@ -503,6 +503,6 @@ Modèle de couleur qui décrit les informations de couleur en termes de luminosi
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,27 +4,27 @@ description: Attribut Margin-Bottom VML
 ms.assetid: c1101430-f4fc-4fa5-8e02-7cee126c2c1c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35712733179a3c03dc291c4d5efcf4fee68c2865
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 551cf9cba00901e07998f2de38465cba1cb45bb8f563c04d1adf25f75d1852bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057817"
 ---
 # <a name="vml-margin-bottom-attribute"></a>Attribut Margin-Bottom VML
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Spécifie le bord inférieur du rectangle conteneur de la forme par rapport au point d’ancrage de la forme. En lecture/écriture. **Chaîne**.
 
 **S’applique à**
 
-[Graphique à base de formes](shape-element--vml.md)
+[Forme](shape-element--vml.md)
 
 **Syntaxe de balise**
 
@@ -54,7 +54,7 @@ Ces valeurs comprennent :
 
 
 
- 
+ 
 
 *Attribut standard VML*
 
@@ -77,6 +77,6 @@ La marge inférieure est définie sur 25 pixels.
 
 [Exemple d’attribut margin-bottom](/previous-versions/bb229675(v=vs.85)). (Nécessite Microsoft Internet Explorer 5 ou version ultérieure.)
 
- 
+ 
 
- 
+ 

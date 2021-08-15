@@ -1,6 +1,6 @@
 ---
 title: UI_ANIMATION_SECONDS_EVENTUALLY (UIAnimation. h)
-description: Indique que l’animation Windows peut retarder le démarrage planifié d’un Storyboard pour autant de temps que nécessaire pour éviter les conflits de planification.
+description: indique que Windows Animation peut retarder le démarrage planifié d’un storyboard pour autant de temps que nécessaire pour éviter les conflits de planification.
 ms.assetid: 9971A612-69D7-49AB-8865-B8F29C4CD4C8
 topic_type:
 - apiref
@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22448287599707b10de147224047525745b072c2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 066bfdc879edf234209532080d23ca3fe813b9218cebc7fba99710bc1ca61acf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058157"
 ---
 # <a name="ui_animation_seconds_eventually"></a>\_secondes d’animation de l’interface utilisateur \_ \_
 
-Indique que l’animation Windows peut retarder le démarrage planifié d’un Storyboard pour autant de temps que nécessaire pour éviter les conflits de planification.
+indique que Windows Animation peut retarder le démarrage planifié d’un storyboard pour autant de temps que nécessaire pour éviter les conflits de planification.
 
 
 

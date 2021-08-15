@@ -3,7 +3,7 @@ title: Message EM_GETOPTIONS (RichEdit. h)
 description: Récupère les options de contrôle RichEdit.
 ms.assetid: 183f0fed-8666-4ed5-ac48-362c818378d2
 keywords:
-- EM_GETOPTIONS les contrôles de message Windows
+- EM_GETOPTIONS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b31af3663331b63553fc262fc9bdbd5613c5768
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cba85b5fe3ffd47763d25b9ca13bf10f6202a6876e25d300f66d9af3852edd5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019517"
 ---
 # <a name="em_getoptions-message"></a>Message des préversions EM \_
 
@@ -53,8 +53,8 @@ Ce message retourne une combinaison des valeurs d’indicateur d’option actuel
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

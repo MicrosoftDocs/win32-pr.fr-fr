@@ -1,6 +1,6 @@
 ---
 title: attribut oncRpcNumber
-description: Contient une partie de la carte RPC et stocke le numéro RPC pour les RPC UNIX.
+description: contient une partie de la carte rpc et stocke le numéro rpc pour UNIX rpc.
 ms.assetid: c824d740-5c68-4fce-93f3-01ac52b47e5b
 ms.tgt_platform: multiple
 keywords:
@@ -13,16 +13,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2394395f7be9a9f5f9dfe1fd312dcf4f8957c4d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0ea1416fb950a4b666be16f8848cc89d4c63bd4108e41a5e55a0450f8622d59e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442169"
 ---
 # <a name="oncrpcnumber-attribute"></a>attribut oncRpcNumber
 
-Contient une partie de la carte RPC et stocke le numéro RPC pour les RPC UNIX.
+contient une partie de la carte rpc et stocke le numéro rpc pour UNIX rpc.
 
 
 
@@ -35,14 +35,14 @@ Contient une partie de la carte RPC et stocke le numéro RPC pour les RPC UNIX.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.3.6.1.1.1.1.18                     |
 | System-ID-GUID    | 966825f5-01d9-4a5c-a011-d15ae84efa55 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -54,10 +54,10 @@ Contient une partie de la carte RPC et stocke le numéro RPC pour les RPC UNIX.
 |------------------------|---------------------------------------|
 | ID de lien                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | Faux                                 |
-| Est de valeur unique       | Vrai                                  |
-| Est indexé             | Faux                                 |
-| Dans le catalogue global      | Faux                                 |
+| System-Only            | False                                 |
+| Est de valeur unique       | True                                  |
+| Est indexé             | False                                 |
+| Dans le catalogue global      | False                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                          |
 | Range-Lower            | \-                                    |
 | Range-Upper            | \-                                    |
@@ -75,10 +75,10 @@ Contient une partie de la carte RPC et stocke le numéro RPC pour les RPC UNIX.
 |------------------------|---------------------------------------|
 | ID de lien                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | Faux                                 |
-| Est de valeur unique       | Vrai                                  |
-| Est indexé             | Faux                                 |
-| Dans le catalogue global      | Faux                                 |
+| System-Only            | False                                 |
+| Est de valeur unique       | True                                  |
+| Est indexé             | False                                 |
+| Dans le catalogue global      | False                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                          |
 | Range-Lower            | \-                                    |
 | Range-Upper            | \-                                    |
@@ -96,10 +96,10 @@ Contient une partie de la carte RPC et stocke le numéro RPC pour les RPC UNIX.
 |------------------------|---------------------------------------|
 | ID de lien                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | Faux                                 |
-| Est de valeur unique       | Vrai                                  |
-| Est indexé             | Faux                                 |
-| Dans le catalogue global      | Faux                                 |
+| System-Only            | False                                 |
+| Est de valeur unique       | True                                  |
+| Est indexé             | False                                 |
+| Dans le catalogue global      | False                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                          |
 | Range-Lower            | \-                                    |
 | Range-Upper            | \-                                    |
@@ -117,10 +117,10 @@ Contient une partie de la carte RPC et stocke le numéro RPC pour les RPC UNIX.
 |------------------------|---------------------------------------|
 | ID de lien                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | Faux                                 |
-| Est de valeur unique       | Vrai                                  |
-| Est indexé             | Faux                                 |
-| Dans le catalogue global      | Faux                                 |
+| System-Only            | False                                 |
+| Est de valeur unique       | True                                  |
+| Est indexé             | False                                 |
+| Dans le catalogue global      | False                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                          |
 | Range-Lower            | \-                                    |
 | Range-Upper            | \-                                    |

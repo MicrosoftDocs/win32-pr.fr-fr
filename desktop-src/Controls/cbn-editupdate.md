@@ -3,7 +3,7 @@ title: CBN_EDITUPDATE le code de notification (winuser. h)
 description: Envoyé lorsque la partie du contrôle d’édition d’une zone de liste déroulante est sur le paragraphe d’afficher du texte modifié.
 ms.assetid: cae9cbf5-d420-4dfb-a46f-8c1a77de6ecf
 keywords:
-- Contrôles Windows de code de notification CBN_EDITUPDATE
+- CBN_EDITUPDATE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ef56b97bf8f4c4aebb4a11383be1b5a1941167b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eeaf787fd241d9dd87457273bd76c07eebe12fa99f2635643b4a4eaa8eaf4952
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119314729"
 ---
 # <a name="cbn_editupdate-notification-code"></a>\_Code de notification CBN EDITUPDATE
 
@@ -53,7 +53,7 @@ Handle vers la zone de liste déroulante.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la zone de liste déroulante a le style [**\_ DropDownList SCC**](combo-box-styles.md) , ce code de notification n’est pas envoyé.
 
@@ -63,8 +63,8 @@ Si la zone de liste déroulante a le style [**\_ DropDownList SCC**](combo-box-s
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a24583ad306d21a64cb4549fee6a3e13565418e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2c0fa6f99fe09616d3d5934f29df5931767b8f71f8e8acb38acae0417024c3ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119300219"
 ---
 # <a name="ms-net-ieee-80211-gp-policydata-attribute"></a>attribut ms-net-IEEE-80211-GP-PolicyData
 
@@ -41,7 +41,7 @@ Contient tous les paramètres et données qui composent une configuration strat�
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -1,21 +1,21 @@
 ---
 title: Types énumérés WFP
-description: Les types énumérés de l’API de la plateforme de filtrage Windows (WFP) sont les suivants.
+description: les Types énumérés de l’API de la plateforme de filtrage des Windows (WFP) sont les suivants.
 ms.assetid: 39029412-18ce-426a-a79d-cf25ff0dfe0d
 keywords:
-- Types énumérés de l’API de la plateforme de filtrage Windows
+- Windows Filtrage des types énumérés de l’API de plateforme
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0f4d203283b61824167154ace3666a031591c87
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 5f703322eae6ef4e820cd8d8b0785556e2552c6961fa835f139e6fa150cf323f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103842865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069299"
 ---
 # <a name="wfp-enumerated-types"></a>Types énumérés WFP
 
-Les types énumérés de l’API de la plateforme de filtrage Windows (WFP) sont les suivants.
+les Types énumérés de l’API de la plateforme de filtrage des Windows (WFP) sont les suivants.
 
 Types de gestion
 
@@ -71,6 +71,6 @@ Types IPsec
 -   [**\_type de trafic IPSec \_**](/windows/desktop/api/Ipsectypes/ne-ipsectypes-ipsec_traffic_type)
 -   [**\_type de transformation IPSec \_**](/windows/desktop/api/Ipsectypes/ne-ipsectypes-ipsec_transform_type)
 
- 
+ 
 
- 
+ 

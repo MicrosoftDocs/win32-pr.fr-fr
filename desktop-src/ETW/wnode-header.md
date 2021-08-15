@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wmistr.h
-ms.openlocfilehash: 6a2ed615d2b67cbd47a817234a14b7cf1221f601
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: e8ad8bd5e1fd4917fa031e7553ed0e7e460244b8ab7c7da347a62d7430036cc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "104982834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015237"
 ---
 # <a name="wnode_header-structure"></a>\_Structure d’en-tête WNODE
 
@@ -103,7 +103,7 @@ Heure à laquelle les informations de cette structure ont été mises à jour, e
 
 </dd> <dt>
 
-**Uniques**
+**Guid**
 </dt> <dd>
 
 GUID que vous définissez pour la session.
@@ -118,7 +118,7 @@ Si vous démarrez une session qui n’est pas une session de journalisation de n
 
 Vous ne pouvez pas démarrer plusieurs sessions avec le même GUID de session.
 
-**Avant Windows Vista :** Vous pouvez démarrer plusieurs sessions avec le même GUID de session.
+**avant Windows Vista :** Vous pouvez démarrer plusieurs sessions avec le même GUID de session.
 
 </dd> <dt>
 
@@ -127,11 +127,11 @@ Vous ne pouvez pas démarrer plusieurs sessions avec le même GUID de session.
 
 Résolution d’horloge à utiliser lors de la journalisation de l’horodatage pour chaque événement. La valeur par défaut est le compteur de performance des requêtes (QPC).
 
-**Avant Windows Vista :** La valeur par défaut est l’heure système.
+**avant Windows Vista :** La valeur par défaut est l’heure système.
 
-**Avant Windows 10, version 1703 :** Deux types d’horloge distincts ne peuvent pas être utilisés simultanément par les enregistreurs d’événements système.
+**avant Windows 10, version 1703 :** Deux types d’horloge distincts ne peuvent pas être utilisés simultanément par les enregistreurs d’événements système.
 
-**À compter de Windows 10, version 1703 :** La restriction de type d’horloge a été supprimée. Les trois types d’horloge peuvent maintenant être utilisés simultanément par les enregistreurs d’événements système.
+**à partir de Windows 10, version 1703 :** La restriction de type d’horloge a été supprimée. Les trois types d’horloge peuvent maintenant être utilisés simultanément par les enregistreurs d’événements système.
 
 Vous pouvez spécifier l’une des valeurs suivantes.
 
@@ -157,14 +157,14 @@ Vous pouvez spécifier l’une des valeurs suivantes.
 <td><dl> <dt>2</dt> </dl></td>
 <td>Heure système. L’heure système fournit un horodatage qui effectue le suivi des modifications apportées à l’horloge du système, par exemple, si l’horloge système est avancée en raison de la synchronisation avec un serveur NTP pendant que la trace est en cours, les horodatages de l’heure système dans la trace se poursuivent également pour correspondre au nouveau paramètre de l’horloge système. <br/>
 <ul>
-<li>Sur les systèmes antérieurs à Windows 10, l’horodatage stocké dans l’événement est équivalent à la valeur retournée par l’API GetSystemTimeAsFileTime.</li>
-<li>Sur Windows 10 ou version ultérieure, l’horodatage stocké dans l’événement est équivalent à la valeur retournée par l’API GetSystemTimePreciseAsFileTime.</li>
+<li>sur les systèmes antérieurs à Windows 10, l’horodatage stocké dans l’événement est équivalent à la valeur retournée par l’API GetSystemTimeAsFileTime.</li>
+<li>sur Windows 10 ou version ultérieure, l’horodatage stocké dans l’événement est équivalent à la valeur retournée par l’API GetSystemTimePreciseAsFileTime.</li>
 </ul>
-Avant Windows 10, la résolution de cet horodatage était la résolution d’un cycle d’horloge système, comme indiqué par le membre TimerResolution de TRACE_LOGFILE_HEADER. À compter de Windows 10, la résolution de cet horodatage correspond à la résolution du compteur de performances, comme indiqué par le membre PerfFreq de TRACE_LOGFILE_HEADER.<br/> Pour convertir l’horodatage d’un événement en unités 100-ns, utilisez la formule de conversion suivante : <br/> scaledTimestamp = eventRecord. EventHeader. TimeStamp. QuadPart<br/> Notez que lorsque les événements sont capturés sur un système exécutant un système d’exploitation antérieur à Windows 10, si le volume d’événements est élevé, la résolution de l’heure système peut ne pas être suffisamment précise pour déterminer la séquence d’événements. Dans ce cas, un ensemble d’événements aura le même horodatage, mais l’ordre dans lequel ETW remet les événements peut ne pas être correct. À partir de Windows 10, l’horodatage est capturé avec une précision supplémentaire, bien qu’une certaine instabilité puisse encore se produire dans les cas où l’horloge système a été réglée lors de la capture de la trace.<br/></td>
+avant Windows 10, la résolution de cet horodatage était la résolution d’un cycle d’horloge système, comme indiqué par le membre TimerResolution de TRACE_LOGFILE_HEADER. à partir de Windows 10, la résolution de cet horodatage correspond à la résolution du compteur de performances, comme indiqué par le membre PerfFreq de TRACE_LOGFILE_HEADER.<br/> Pour convertir l’horodatage d’un événement en unités 100-ns, utilisez la formule de conversion suivante : <br/> scaledTimestamp = eventRecord. EventHeader. TimeStamp. QuadPart<br/> notez que lorsque les événements sont capturés sur un système exécutant un système d’exploitation antérieur à Windows 10, si le volume d’événements est élevé, la résolution de l’heure système peut ne pas être suffisamment précise pour déterminer la séquence d’événements. Dans ce cas, un ensemble d’événements aura le même horodatage, mais l’ordre dans lequel ETW remet les événements peut ne pas être correct. à partir de Windows 10, l’horodatage est capturé avec une précision supplémentaire, même si une certaine instabilité peut encore se produire dans les cas où l’horloge système a été réglée lors de la capture de la trace.<br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt>1,3</dt> </dl></td>
-<td>Compteur du cycle de l’UC. Le compteur UC fournit l’horodatage de résolution le plus élevé et est le moins gourmand en ressources à récupérer. Toutefois, le compteur UC n’est pas fiable et ne doit pas être utilisé en production. Par exemple, sur certains ordinateurs, les minuteurs changent de fréquence en raison des modifications de la température et de l’alimentation, en plus de s’arrêter dans certains États.<br/> Pour déterminer la résolution, utilisez le membre <strong>CpuSpeedInMHz</strong> de <a href="/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header"><strong>TRACE_LOGFILE_HEADER</strong></a> lors de l’utilisation de l’événement.<br/> Si votre matériel ne prend pas en charge ce type d’horloge, ETW utilise l’heure système.<br/> <strong>Windows Server 2003, Windows XP avec SP1 et Windows XP :</strong> Cette valeur n’est pas prise en charge, elle a été introduite dans Windows Server 2003 avec SP1 et Windows XP avec SP2.<br/></td>
+<td>Compteur du cycle de l’UC. Le compteur UC fournit l’horodatage de résolution le plus élevé et est le moins gourmand en ressources à récupérer. Toutefois, le compteur UC n’est pas fiable et ne doit pas être utilisé en production. Par exemple, sur certains ordinateurs, les minuteurs changent de fréquence en raison des modifications de la température et de l’alimentation, en plus de s’arrêter dans certains États.<br/> Pour déterminer la résolution, utilisez le membre <strong>CpuSpeedInMHz</strong> de <a href="/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header"><strong>TRACE_LOGFILE_HEADER</strong></a> lors de l’utilisation de l’événement.<br/> Si votre matériel ne prend pas en charge ce type d’horloge, ETW utilise l’heure système.<br/> <strong>Windows Server 2003, Windows xp avec SP1 et Windows xp :</strong> cette valeur n’est pas prise en charge, elle a été introduite dans Windows Server 2003 avec SP1 et Windows XP avec SP2.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -184,7 +184,7 @@ Doit contenir **le \_ \_ \_ GUID suivi de l’indicateur WNODE** pour indiquer q
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Veillez à initialiser la mémoire pour cette structure à zéro avant de définir les membres.
 
@@ -199,14 +199,14 @@ c. Si ReservedFlags = = 3 (compteur de cycle UC) : DOUBLE timeStampScale = 10,0
 4. For each eventRecord (EVENT\_RECORD), convert the event’s timestamp into FILETIME as follows, using the timeStampScale and timeStampBase values calculated in steps 2 and 3: INT64 timeStampInFileTime = timeStampBase + (INT64)(timeStampScale \* eventRecord.EventHeader.TimeStamp.QuadPart);  
 </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                         |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                   |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                         |
 | En-tête<br/>                   | <dl> <dt>Wmistr. h</dt> </dl> |
 
 

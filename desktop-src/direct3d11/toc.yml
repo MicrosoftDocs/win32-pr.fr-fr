@@ -83,14 +83,14 @@
         - name: Fonctionnalités introduites dans les versions précédentes
           href: d3d11-features-introduced-previous-releases.md
           items:
-            - name: Nouveautés du kit de développement logiciel (SDK) Windows 7/Direct3D 11 d’août 2009
+            - name: nouveautés du kit de développement logiciel (SDK) Windows 7/Direct3D 11 d’août 2009
               href: dx11-whats-new.md
             - name: Nouveautés de la version préliminaire de la version d’évaluation de la technologie Direct3D 11 de novembre 2008
               href: dx11-08nov-whats-new.md
     - name: Guide de programmation pour Direct3D 11
       href: dx-graphics-overviews.md
       items:
-        - name: Périphériques
+        - name: Appareils
           href: overviews-direct3d-11-devices.md
           items:
             - name: Présentation d’un appareil dans Direct3D 11
@@ -2229,7 +2229,7 @@
                       href: id3dx11dataprocessor-createdeviceobject.md
                     - name: Détruire
                       href: id3dx11dataprocessor-destroy.md
-                    - name: Processus
+                    - name: Process
                       href: id3dx11dataprocessor-process.md
                 - name: ID3DX11ThreadPump
                   href: id3dx11threadpump.md

@@ -1,4 +1,4 @@
-- name: Multimédia Windows
+- name: Windows Media
   href: windows-multimedia-start-page.md
   items:
     - name: MCI
@@ -51,7 +51,7 @@
                   href: opening-a-device.md
                 - name: Récupération d’informations sur un appareil
                   href: retrieving-information-about-a-device.md
-                - name: Obtention d’informations sur le système MCI
+                - name: Obtention de System Information MCI
                   href: obtaining-mci-system-information.md
                 - name: La diffusion d’un appareil
                   href: playing-a-device.md
@@ -304,18 +304,18 @@
             - name: À propos des mixages audio
               href: about-audio-mixers.md
               items:
-                - name: Architecture du mélangeur
+                - name: Mixer SOA
                   href: mixer-architecture.md
                 - name: Types de contrôles
                   href: control-types.md
                   items:
-                    - name: Contrôles personnalisés de mixage audio
+                    - name: contrôles Audio Mixer personnalisés
                       href: audio-mixer-custom-controls.md
                     - name: Faders
                       href: faders.md
                     - name: Listes
                       href: lists.md
-                    - name: Mètres
+                    - name: Compteurs
                       href: meters.md
                     - name: Nombres
                       href: numbers.md
@@ -325,24 +325,24 @@
                       href: switches.md
                     - name: Contrôles de temps
                       href: time-controls.md
-                - name: Requêtes d’appareil de mixage
+                - name: Mixer Requêtes d’appareil
                   href: mixer-device-queries.md
-                - name: Ouverture et fermeture des appareils de mixage
+                - name: ouverture et fermeture des appareils Mixer
                   href: opening-and-closing-mixer-devices.md
                 - name: Services de rappel de fenêtre
                   href: window-callback-services.md
                 - name: Requêtes audio et de contrôle
                   href: audio-line-and-control-queries.md
-                - name: Mixages audio dans Windows Vista
+                - name: mixages Audio dans Windows Vista
                   href: audio-mixers-in-windows-vista.md
-            - name: Référence du mélangeur audio
+            - name: référence de Mixer Audio
               href: audio-mixer-reference.md
               items:
-                - name: Fonctions de mixage audio
+                - name: fonctions Audio Mixer
                   href: audio-mixer-functions.md
-                - name: Structures de mixage audio
+                - name: Structures de Mixer Audio
                   href: audio-mixer-structures.md
-                - name: Messages de mixage audio
+                - name: Messages de Mixer Audio
                   href: audio-mixer-messages.md
         - name: Interface MIDI (Musical Instrument Digital Interface)
           href: musical-instrument-digital-interface--midi.md
@@ -359,13 +359,13 @@
                       href: the-midi-mapper-architecture.md
                     - name: Carte de canal
                       href: the-channel-map.md
-                    - name: Mappages de correctifs
+                    - name: Cartes de correctifs
                       href: patch-maps.md
                     - name: Le volume scalaire
                       href: the-volume-scalar.md
-                    - name: Cartes clés
+                    - name: Cartes de clé
                       href: key-maps.md
-                    - name: Résumé des cartes et des messages MIDI
+                    - name: résumé des Messages Cartes et MIDI
                       href: summary-of-maps-and-midi-messages.md
                 - name: MCI (Media Control Interface)
                   href: media-control-interface--mci.md
@@ -718,30 +718,30 @@
                 - name: Opérations de flux
                   href: stream-operations.md
                   items:
-                    - name: Ouverture et fermeture de flux
+                    - name: Ouverture et fermeture de Flux
                       href: opening-and-closing-streams.md
                     - name: Lire à partir d’un flux
                       href: reading-from-a-stream.md
                     - name: Utilisation de données vidéo compressées dans un flux
                       href: working-with-compressed-video-data-in-a-stream.md
-                    - name: Création d’un fichier à partir de flux existants
+                    - name: Création d’un fichier à partir d’un Flux existant
                       href: creating-a-file-from-existing-streams.md
-                    - name: Écriture de flux dans un fichier
+                    - name: écriture d’Flux dans un fichier
                       href: writing-streams-to-a-file.md
-                    - name: Positionner dans les flux
+                    - name: Positionner dans Flux
                       href: positioning-in-streams.md
-                    - name: Création de flux temporaires
+                    - name: Création d’un Flux temporaire
                       href: creating-temporary-streams.md
-                    - name: Modification des flux
+                    - name: Modification Flux
                       href: editing-streams.md
             - name: Utilisation de fonctions et de macros AVIFile
               href: using-avifile-functions-and-macros.md
               items:
                 - name: Ouverture d’un fichier AVI
                   href: opening-an-avi-file.md
-                - name: Ouverture de flux dans un fichier AVI et fermeture du fichier
+                - name: ouverture de Flux dans un fichier AVI et fermeture du fichier
                   href: opening-streams-in-an-avi-file-and-closing-the-file.md
-                - name: Lecture de flux à partir d’un fichier AVI
+                - name: lecture Flux à partir d’un fichier AVI
                   href: reading-streams-from-an-avi-file.md
                 - name: Lire à partir d’un flux et écrire dans un autre
                   href: reading-from-one-stream-and-writing-to-another.md
@@ -848,7 +848,7 @@
                       href: keys-ending-capture.md
                     - name: Limite de temps
                       href: time-limit.md
-                - name: Capturer des fenêtres
+                - name: Windows de capture
                   href: capture-windows.md
                   items:
                     - name: Création d’une fenêtre de capture AVICap
@@ -870,7 +870,7 @@
                       href: preview-and-overlay-modes.md
                     - name: Format vidéo
                       href: video-format.md
-                    - name: Paramètres de capture vidéo
+                    - name: Paramètres de Capture vidéo
                       href: video-capture-settings.md
                     - name: Format audio
                       href: audio-format.md
@@ -898,7 +898,7 @@
                       href: manual-frame-capture.md
                     - name: Capture de Still-Image
                       href: still-image-capture.md
-                    - name: Capturer sans utiliser Stockage sur disque
+                    - name: capturer sans utiliser Stockage sur disque
                       href: capture-without-using-disk-storage.md
                     - name: Capture en continu à partir d’un périphérique MCI
                       href: streaming-capture-from-an-mci-device.md
@@ -920,7 +920,7 @@
                   items:
                     - name: Contrôle de capture précis
                       href: precise-capture-control.md
-                    - name: Error
+                    - name: Erreur
                       href: error.md
                     - name: Frame
                       href: frame.md
@@ -1099,7 +1099,7 @@
               href: manufacturer-identifiers.md
             - name: Identificateurs de produit Microsoft Corporation
               href: microsoft-corporation-product-identifiers.md
-            - name: Pilotes Microsoft Windows Sound System
+            - name: pilotes Microsoft Windows Sound System
               href: microsoft-windows-sound-system-drivers.md
             - name: Identificateurs de produit
               href: product-identifiers.md

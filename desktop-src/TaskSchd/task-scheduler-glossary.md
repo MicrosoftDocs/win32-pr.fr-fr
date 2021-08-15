@@ -6,12 +6,12 @@ keywords:
 - Planificateur de tâches Planificateur de tâches, Glossaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a330fe3b06855ec3ddca3be2a54f58d8f530eadd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c01af0c9002df342e4b216eda0a303ab13160abeab7d2261b0e76bd196f3bfde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059837"
 ---
 # <a name="task-scheduler-glossary"></a>Glossaire Planificateur de tâches
 
@@ -26,9 +26,9 @@ A B C D [e](e.md) F G H [I](i.md) J K L M N O [P](p.md) Q R [S](s.md) [T](t.md) 
 [Planificateur de tâches](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

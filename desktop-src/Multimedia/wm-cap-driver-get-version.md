@@ -3,7 +3,7 @@ title: Message WM_CAP_DRIVER_GET_VERSION (VFW. h)
 description: Le \_ message WM Cap \_ Driver \_ obtenir \_ la version retourne les informations de version du pilote de capture connecté à une fenêtre de capture. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capDriverGetVersion.
 ms.assetid: 762ebe7e-0d09-46ea-ab17-86061f0bd8f9
 keywords:
-- Message WM_CAP_DRIVER_GET_VERSION Windows Multimedia
+- message WM_CAP_DRIVER_GET_VERSION Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ced70f2d0159ef4bbad3f2d7a8027c30b2c71a5f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 49f6bed4513383c5dd889639a78e9f00e409fe347bfd6b64b112ea830571ae55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687089"
 ---
 # <a name="wm_cap_driver_get_version-message"></a>Message de la version du \_ pilote WM Cap \_ \_ \_
 
@@ -56,7 +56,7 @@ Pointeur vers une mémoire tampon définie par l’application utilisée pour re
 
 Retourne la **valeur true** en cas de réussite ou **false** si la fenêtre de capture n’est pas connectée à un pilote de capture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les informations de version sont une chaîne de texte Récupérée à partir de la zone de ressources du pilote. Les applications doivent allouer environ 40 octets pour cette chaîne. Si les informations de version ne sont pas disponibles, une chaîne **null** est retournée.
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Description d’une ressource pour le registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ba175120b5abec238d1b9078010359effef8ba2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30be25eed569f212e435827023eed132cf1c6ead49be37eabb6fe4ac30e8e3b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106540889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097269"
 ---
 # <a name="describing-a-resource-for-the-registry"></a>Description d’une ressource pour le registre
 

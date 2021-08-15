@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: 7da6ebdf-dced-402f-a8ad-c10d78593f86
-ms.openlocfilehash: c303af68fe0e83fd8c1a5b20411445c8626987a6
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: a581e046031e88c38ab2db45d5ac563abaec8e4ebfe9ae54b58dfdffdc946563
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119444389"
 ---
 # <a name="cfolderitemsfdf-class"></a>CFolderItemsFDF, classe
 
@@ -27,7 +27,7 @@ ms.locfileid: "109843390"
 
 La classe **CFolderItemsFDF** hérite de [**CFolderItems**](class-cfolderitems-class.md) mais n’a pas de membres supplémentaires.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 FDF est l’abréviation de *de différents dossiers*.
 

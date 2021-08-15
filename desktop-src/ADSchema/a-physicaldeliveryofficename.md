@@ -1,10 +1,10 @@
 ---
-title: Attribut de nom de la remise physique
+title: attribut physique-delivery-Office-Name
 description: Contient l’emplacement du bureau dans le lieu de travail de l’utilisateur.
 ms.assetid: a6be61bf-9a9a-4b97-bdf8-894c173efadd
 ms.tgt_platform: multiple
 keywords:
-- Schema-Delivery-Office-Name (attribut de nom) Active Directory
+- schéma active directory de l’attribut de Office de remise physique
 - Schéma AD de l’attribut physicalDeliveryOfficeName
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6633ff902ba50cfce12aca54cc092ca4760e665c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a574c7214f18d9cef46a64885ca2855fdaf3227a9dece159458d5f1cb07d8b7c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103942992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647769"
 ---
-# <a name="physical-delivery-office-name-attribute"></a>Attribut de nom de la remise physique
+# <a name="physical-delivery-office-name-attribute"></a>attribut physique-delivery-Office-Name
 
 Contient l’emplacement du bureau dans le lieu de travail de l’utilisateur.
 
@@ -29,7 +29,7 @@ Contient l’emplacement du bureau dans le lieu de travail de l’utilisateur.
 
 | Entrée | Valeur |
 |-------------------|-------------------------------------------------------------------------------------|
-| CN                | Physical-Delivery-Office-Name                                                       |
+| CN                | Physical-delivery-Office-Name                                                       |
 | LDAP-Display-Name | physicalDeliveryOfficeName                                                          |
 | Taille              | \-                                                                                  |
 | Mettre à jour le privilège  | Administrateur de domaine ou propriétaire du compte.                                              |
@@ -46,7 +46,7 @@ Contient l’emplacement du bureau dans le lieu de travail de l’utilisateur.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

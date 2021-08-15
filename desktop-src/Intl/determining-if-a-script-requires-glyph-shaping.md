@@ -4,12 +4,12 @@ ms.assetid: 75c5946b-de38-48d9-a5e2-1e0b2dc9f3c7
 title: Déterminer si un script nécessite la mise en forme de glyphes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62eb20fb0335c5779352f15221653dad0c5320c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9feadb1a82564fe03db6e03511449c7942b519ba7d63e5898b04d7b9c27cf2ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068259"
 ---
 # <a name="determining-if-a-script-requires-glyph-shaping"></a>Déterminer si un script nécessite la mise en forme de glyphes
 

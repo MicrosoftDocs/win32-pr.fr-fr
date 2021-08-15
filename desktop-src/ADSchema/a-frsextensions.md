@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 010677958b7d03841ca465db7bfd17e38aa4e003
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 03201ebe200b8525203c5ad9f1afbee0065639dd3b47e4a3dc94b58da9538217
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119306659"
 ---
 # <a name="frs-extensions-attribute"></a>Attribut FRS-Extensions
 
@@ -45,7 +45,7 @@ Données binaires utilisées par la réplication de fichiers.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -66,7 +66,7 @@ Données binaires utilisées par la réplication de fichiers.
 | Range-Upper            | 65536                                                                                                                                                                                                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                              |
-| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
+| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-Paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ Données binaires utilisées par la réplication de fichiers.
 | Range-Upper            | 65536                                                                                                                                                                                                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                              |
-| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
+| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-Paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ Données binaires utilisées par la réplication de fichiers.
 | Range-Upper            | 65536                                                                                                                                                                                                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                              |
-| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
+| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-Paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ Données binaires utilisées par la réplication de fichiers.
 | Range-Upper            | 65536                                                                                                                                                                                                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                              |
-| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
+| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-Paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ Données binaires utilisées par la réplication de fichiers.
 | Range-Upper            | 65536                                                                                                                                                                                                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                              |
-| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
+| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-Paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ Données binaires utilisées par la réplication de fichiers.
 | Range-Upper            | 65536                                                                                                                                                                                                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                              |
-| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
+| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-Paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
 
 
 

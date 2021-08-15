@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb2bd0b7b970270c626437ee65288fd07bf48272
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c96d440b82f488e7968f787ae52d9f431350bee6050bd50b385f5751f51e76a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644949"
 ---
 # <a name="tombstone-lifetime-attribute"></a>Attribut Tombstone-Lifetime
 
@@ -36,7 +36,7 @@ Nombre de jours avant la suppression d’un objet supprimé des services d’ann
 | Fréquence des mises à jour  | \-                                                        |
 | Attribute-Id      | 1.2.840.113556.1.2.54                                     |
 | System-ID-GUID    | 16c3a860-1273-11d0-a060-00aa006c33ed                      |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)                      |
+| Syntaxe            | [**Énumération**](s-enumeration.md)                      |
 
 
 
@@ -46,7 +46,7 @@ Nombre de jours avant la suppression d’un objet supprimé des services d’ann
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

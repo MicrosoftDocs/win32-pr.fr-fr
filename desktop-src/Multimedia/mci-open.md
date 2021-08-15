@@ -3,7 +3,7 @@ title: Commande MCI_OPEN (mmsystem. h)
 description: La \_ commande Open MCI Initialise un appareil ou un fichier. Tous les appareils reconnaissent cette commande.
 ms.assetid: e2ee92b5-b10b-4408-950e-3002fe775b25
 keywords:
-- Commande MCI_OPEN Windows multimédia
+- commande MCI_OPEN Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14d8b33e70a2e061b54260aeffc6e69432c469f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a84c95df35ecd602c207daa716b62d90f6bdc79b0ede7f937d3a38e6d6a9373b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689979"
 ---
 # <a name="mci_open-command"></a>\_Commande d’ouverture MCI
 
@@ -68,7 +68,7 @@ Pointeur désignant une structure de [**\_ \_ PARMS ouverte avec MCI**](mci-open
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L' \_ indicateur de \_ type Open MCI doit être utilisé chaque fois qu’un appareil est spécifié dans la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) . Si vous ouvrez un appareil en spécifiant une constante de type d’appareil, vous devez spécifier \_ l' \_ indicateur MCI Open type \_ ID en plus du \_ type MCI Open \_ . Pour obtenir la liste des constantes de type d’appareil, consultez [types d’appareils MCI](mci-device-types.md).
 
@@ -210,7 +210,7 @@ Pour les périphériques audio Waveform, le paramètre *lpOpen* pointe vers une 
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

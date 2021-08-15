@@ -3,7 +3,7 @@ title: Code de notification NM_KILLFOCUS (mode liste) (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle List-View que le contrôle a perdu le focus d’entrée. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: f60064da-21e1-4555-ae72-cda8bd76175a
 keywords:
-- Contrôles Windows de code de notification NM_KILLFOCUS (mode liste)
+- NM_KILLFOCUS (mode liste) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d1c031f3ab23d9f79ccf7f29dcfdf5472162214
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 34335644af6e1657f6e50792e4d9d2477ad06306977d754d3757bb49ebbb799d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018847"
 ---
 # <a name="nm_killfocus-list-view-notification-code"></a>\_KILLFOCUS nm (mode liste) Code de notification
 
@@ -55,8 +55,8 @@ La valeur de retour de cette notification n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

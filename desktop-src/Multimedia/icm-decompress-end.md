@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DECOMPRESS_END (VFW. h)
-description: Le message de fin de décompression ICM \_ \_ indique à un pilote de décompression vidéo de terminer la décompression et de libérer les ressources allouées pour la décompression. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDecompressEnd.
+description: le message de fin de décompression ICM \_ \_ indique à un pilote de décompression vidéo de terminer la décompression et de libérer les ressources allouées pour la décompression. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDecompressEnd.
 ms.assetid: 16ce2424-9606-455f-afbd-84326457538e
 keywords:
-- Message ICM_DECOMPRESS_END Windows Multimedia
+- message ICM_DECOMPRESS_END Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e25155755b6bfbb893905e6facad890dbf98f175
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a0c877afac3db0e4cf4d7c476ca3806d2acd15bdf72764549b2958490574a4f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691159"
 ---
-# <a name="icm_decompress_end-message"></a>\_Message de fin de décompression ICM \_
+# <a name="icm_decompress_end-message"></a>ICM \_ Décompresser le \_ message de fin
 
-Le message de **\_ \_ fin** de décompression ICM indique à un pilote de décompression vidéo de terminer la décompression et de libérer les ressources allouées pour la décompression. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDecompressEnd**](/windows/desktop/api/Vfw/nf-vfw-icdecompressend) .
+le message de **\_ \_ fin** de décompression ICM indique à un pilote de décompression vidéo de terminer la décompression et de libérer les ressources allouées pour la décompression. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDecompressEnd**](/windows/desktop/api/Vfw/nf-vfw-icdecompressend) .
 
 
 ```C++
@@ -38,11 +38,11 @@ lParam = 0;
 
 Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le pilote doit libérer toutes les ressources allouées pour le message de début de la [**\_ \_ décompression ICM**](icm-decompress-begin.md) .
+le pilote doit libérer toutes les ressources allouées pour le message de [**\_ \_ début de décompression ICM**](icm-decompress-begin.md) .
 
-[**ICM \_ \_**](icm-decompress-begin.md) Les **\_ \_ terminaisons** de décompression Begin et ICM ne sont pas imbriquées. Si le pilote reçoit la décompression ICM avant que la décompression ne soit arrêtée avec la **\_ \_ fin** de la décompression ICM, il doit redémarrer la décompression avec les nouveaux paramètres. **\_ \_**
+[**ICM \_ le \_ début de la décompression**](icm-decompress-begin.md) ICM la fin de la **\_ décompression \_** ne sont pas imbriques. si votre pilote reçoit **ICM \_ décompresser \_ BEGIN** avant que la décompression ne s’arrête avec **ICM \_ \_ fin** de décompression, il doit redémarrer la décompression avec les nouveaux paramètres.
 
 ## <a name="requirements"></a>Configuration requise
 

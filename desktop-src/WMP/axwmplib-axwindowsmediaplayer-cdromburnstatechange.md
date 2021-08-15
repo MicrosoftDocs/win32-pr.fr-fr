@@ -3,7 +3,7 @@ title: Événement CdromBurnStateChange de l’objet AxWindowsMediaPlayer
 description: L’événement CdromBurnStateChange se produit lorsqu’une opération de gravure de CD change d’État.
 ms.assetid: fec8a8e5-e282-454e-9713-fd9bb131df6a
 keywords:
-- Événement CdromBurnStateChange de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement CdromBurnStateChange de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc679a96600bff5aa4ca805018d364a6aeea8174
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a28a8dfad6e5d9bc7bb603632e2eb08ceb5810f9bf02f395d825fc2d7ac64c24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055037"
 ---
 # <a name="cdromburnstatechange-event-of-the-axwindowsmediaplayer-object"></a>Événement CdromBurnStateChange de l’objet AxWindowsMediaPlayer
 
@@ -70,7 +70,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPCdromBurn (VB et C#)**](iwmpcdromburn--vb-and-c.md)

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 8462c3442ebea3021c4f2232f869a6c74bf47474
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 31c49e6ef321b04fc8ca993bede04d9b687464fc101fdcee6102c76d270f94e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629109"
 ---
 # <a name="sessioninstaller-property"></a>Session. installer, propriété
 

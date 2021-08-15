@@ -1,50 +1,50 @@
 ---
-title: Gestion des transactions (échange de données)
+title: Gestion des transactions (Exchange de données)
 description: Cette rubrique explique comment un client peut envoyer des transactions pour obtenir des données et des services à partir du serveur.
 ms.assetid: 2d08ffa3-cbd7-4806-b94f-979938322c38
 keywords:
-- Interface utilisateur Windows, échange dynamique de données (DDE)
-- Échange dynamique de données (DDE), transactions
+- Windows Interface utilisateur, échange dynamique de données (DDE)
+- échange dynamique de données (DDE), transactions
 - DDE (échange dynamique de données), transactions
 - échange de données, échange dynamique de données (DDE)
-- Interface utilisateur Windows, bibliothèque de gestion des échange dynamique de données (DDEML)
-- Bibliothèque de gestion des échange dynamique de données (DDEML), transactions
+- Windows Interface utilisateur, échange dynamique de données Management Library (DDEML)
+- bibliothèque de gestion des échange dynamique de données (DDEML), transactions
 - DDEML (bibliothèque de gestion échange dynamique de données), transactions
 - échange de données, bibliothèque de gestion des échange dynamique de données (DDEML)
-- Échange dynamique de données (DDE), demandes de transactions
+- échange dynamique de données (DDE), demandes de transactions
 - DDE (échange dynamique de données), demandes de transactions
-- Bibliothèque de gestion des échange dynamique de données (DDEML), demandes de transactions
+- bibliothèque de gestion des échange dynamique de données (DDEML), demandes de transactions
 - DDEML (bibliothèque de gestion échange dynamique de données), demandes de transactions
-- Échange dynamique de données (DDE), écritures en avant
+- échange dynamique de données (DDE), écritures en avant
 - DDE (échange dynamique de données), écritures en avant
-- Bibliothèque de gestion des échange dynamique de données (DDEML), transactions d’en-in
+- bibliothèque de gestion des échange dynamique de données (DDEML), transactions d’en-in
 - DDEML (bibliothèque de gestion échange dynamique de données), écritures de l’en-in
-- Échange dynamique de données (DDE), notification des transactions
+- échange dynamique de données (DDE), notification des transactions
 - DDE (échange dynamique de données), notification des transactions
-- Bibliothèque de gestion des échange dynamique de données (DDEML), notification des transactions
+- bibliothèque de gestion des échange dynamique de données (DDEML), notification des transactions
 - DDEML (bibliothèque de gestion échange dynamique de données), notification des transactions
-- Échange dynamique de données (DDE), exécuter des transactions
+- échange dynamique de données (DDE), exécuter des transactions
 - DDE (échange dynamique de données), exécuter des transactions
-- Bibliothèque de gestion des échange dynamique de données (DDEML), exécution des transactions
+- bibliothèque de gestion des échange dynamique de données (DDEML), exécution des transactions
 - DDEML (bibliothèque de gestion échange dynamique de données), exécuter des transactions
-- Échange dynamique de données (DDE), transactions synchrones
+- échange dynamique de données (DDE), transactions synchrones
 - DDE (échange dynamique de données), transactions synchrones
-- Bibliothèque de gestion des échange dynamique de données (DDEML), transactions synchrones
+- bibliothèque de gestion des échange dynamique de données (DDEML), transactions synchrones
 - DDEML (bibliothèque de gestion échange dynamique de données), transactions synchrones
-- Échange dynamique de données (DDE), transactions asynchrones
-- ÉCHANGES de transactions asynchrones (échange dynamique de données)
-- Bibliothèque de gestion des échange dynamique de données (DDEML), transactions asynchrones
+- échange dynamique de données (DDE), transactions asynchrones
+- échanges de transactions asynchrones (échange dynamique de données)
+- bibliothèque de gestion des échange dynamique de données (DDEML), transactions asynchrones
 - DDEML (bibliothèque de gestion échange dynamique de données), transactions asynchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 570aa48b4dcdbb31855b3e1b15a091908feb2ba4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5065c9e909a4589cd7d2d157fc1151c2efd42a4ddfc3c29d84fd26f0ea184dea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128572"
 ---
-# <a name="transaction-management-data-exchange"></a>Gestion des transactions (échange de données)
+# <a name="transaction-management-data-exchange"></a>Gestion des transactions (Exchange de données)
 
 Après avoir établi une conversation avec un serveur, un client peut envoyer des transactions pour obtenir des données et des services à partir du serveur.
 
@@ -63,7 +63,7 @@ Les rubriques suivantes décrivent les types de transactions que les clients peu
 
 Une application cliente peut utiliser la transaction de [**\_ demande XTYP**](xtyp-request.md) pour demander un élément de données à partir d’une application serveur. Le client appelle la fonction [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) , en spécifiant la **\_ demande XTYP** comme type de transaction et en spécifiant l’élément de données dont l’application a besoin.
 
-La bibliothèque de gestion des échange dynamique de données (DDEML) transmet la transaction de [**\_ demande XTYP**](xtyp-request.md) au serveur, en spécifiant le nom de la rubrique, le nom de l’élément et le format de données demandés par le client. Si le serveur prend en charge la rubrique, l’élément et le format demandés, le serveur doit retourner un handle de données qui identifie la valeur actuelle de l’élément. Le DDEML transmet ce handle au client en tant que valeur de retour de [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction). Le serveur doit retourner la **valeur null** s’il ne prend pas en charge la rubrique, l’élément ou le format demandé.
+la bibliothèque de gestion des échange dynamique de données (DDEML) transmet la transaction de [**\_ demande XTYP**](xtyp-request.md) au serveur, en spécifiant le nom de la rubrique, le nom de l’élément et le format de données demandés par le client. Si le serveur prend en charge la rubrique, l’élément et le format demandés, le serveur doit retourner un handle de données qui identifie la valeur actuelle de l’élément. Le DDEML transmet ce handle au client en tant que valeur de retour de [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction). Le serveur doit retourner la **valeur null** s’il ne prend pas en charge la rubrique, l’élément ou le format demandé.
 
 [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) utilise le paramètre *lpdwResult* pour retourner un indicateur d’état de transaction au client. Si le serveur ne traite pas la transaction de [**\_ demande XTYP**](xtyp-request.md) , **DdeClientTransaction** retourne la **valeur null** et *LPDWRESULT* pointe vers l' \_ indicateur DDE FNOTPROCESSED ou DDE \_ FBUSY. Si l' \_ indicateur DDE FNOTPROCESSED est retourné, le client ne peut pas déterminer la raison pour laquelle le serveur n’a pas traité la transaction.
 
@@ -87,7 +87,7 @@ Une application cliente peut utiliser DDEML pour établir un ou plusieurs liens 
 
 Il existe deux types de boucles de notification : « chaude » et « chaude ». Dans une boucle de notification à chaud, le serveur envoie immédiatement un handle de données qui identifie la valeur modifiée. Dans une boucle de notification à chaud, le serveur notifie le client que la valeur de l’élément a changé, mais n’envoie pas le descripteur de données tant que le client ne l’a pas demandé.
 
-Un client peut demander une boucle de notification à chaud avec un serveur en spécifiant le type de transaction [**XTYP \_ ADVSTART**](xtyp-advstart.md) dans un appel à [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction). Pour demander une boucle de notification à chaud, le client doit combiner l' \_ indicateur NoData XTYPF avec le type de transaction **XTYP \_ ADVSTART** . Dans les deux cas, DDEML transmet la transaction **XTYP \_ ADVSTART** à la fonction de rappel échange dynamique de données (DDE) du serveur. La fonction de rappel DDE du serveur doit examiner les paramètres qui accompagnent la transaction **XTYP \_ ADVSTART** (y compris le format demandé, le nom de la rubrique et le nom de l’élément), puis retourne **true** pour autoriser la boucle Advise ou **false** à la refuser.
+Un client peut demander une boucle de notification à chaud avec un serveur en spécifiant le type de transaction [**XTYP \_ ADVSTART**](xtyp-advstart.md) dans un appel à [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction). Pour demander une boucle de notification à chaud, le client doit combiner l' \_ indicateur NoData XTYPF avec le type de transaction **XTYP \_ ADVSTART** . dans les deux cas, DDEML transmet la transaction **XTYP \_ ADVSTART** à la fonction de rappel échange dynamique de données (DDE) du serveur. La fonction de rappel DDE du serveur doit examiner les paramètres qui accompagnent la transaction **XTYP \_ ADVSTART** (y compris le format demandé, le nom de la rubrique et le nom de l’élément), puis retourne **true** pour autoriser la boucle Advise ou **false** à la refuser.
 
 Après l’établissement d’une boucle de notification, l’application serveur doit appeler la fonction [**DdePostAdvise**](/windows/desktop/api/Ddeml/nf-ddeml-ddepostadvise) chaque fois que la valeur de l’élément associé au nom de l’élément demandé change. Cet appel entraîne l’envoi d’une transaction [**XTYP \_ ADVREQ**](xtyp-advreq.md) à la fonction de rappel DDE du serveur. La fonction de rappel DDE du serveur doit retourner un handle de données qui identifie la nouvelle valeur de l’élément de données. Le DDEML informe ensuite le client que l’élément spécifié a changé en envoyant la transaction [**XTYP \_ ADVDATA**](xtyp-advdata.md) à la fonction de rappel DDE du client.
 

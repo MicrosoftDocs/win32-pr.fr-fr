@@ -6,12 +6,12 @@ keywords:
 - effet composite arithmétique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04c235ecb024c6b9e7adbce31c9f0cd65bc36cdf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e45976d577299bda7dfcef9bf20eff4980cc67ac105cb14fa793065d7ce1857f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641959"
 ---
 # <a name="arithmetic-composite-effect"></a>Effet composite arithmétique
 
@@ -23,7 +23,7 @@ Le CLSID de cet effet est CLSID \_ D2D1ArithmeticComposite.
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
 -   [Bitmap de sortie](#output-bitmap)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="formula"></a>Formule
@@ -65,7 +65,7 @@ Voici un autre exemple d’image avec du code.
 | ![première image source avant l’effet.](images/default-before.jpg)    |
 | Avant image 2                                                             |
 | ![deuxième image avant l’effet.](images/4-arthimetic-composite2.jpg) |
-| After                                                                      |
+| Après                                                                      |
 | ![image après la transformation.](images/4-arithmeticcomposite.png)        |
 
 
@@ -117,8 +117,8 @@ La bitmap de sortie dépend des valeurs de coefficient. Il s’agit des tailles 
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

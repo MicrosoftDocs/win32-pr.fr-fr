@@ -4,21 +4,21 @@ description: Élément de tracé VML
 ms.assetid: c5b9f9e3-edee-45fa-9387-8f15e09983ee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1de9440761479d6b3dc6cb10c96b00ea48626247
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cb46ce43d2dc9ad80aeb21340dceacde80feba99d9debdf66920b662eeaf3a9b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119308179"
 ---
 # <a name="vml-path-element"></a>Élément de tracé VML
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit un chemin d’accès pour une forme.
 
@@ -45,7 +45,7 @@ Les attributs suivants modifient une ombre.
 
 
 
- 
+ 
 
 **Remarques**
 
@@ -71,6 +71,6 @@ Notez que l’attribut [V](msdn-online-vml-v-attribute.md) de **path** remplace 
 -   [Exemple d’élément enfant Path simple](/previous-versions/bb229545(v=vs.85))
 -   [Exemple d’élément enfant Dynamic Path](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/path/x_path.md)
 
- 
+ 
 
- 
+ 

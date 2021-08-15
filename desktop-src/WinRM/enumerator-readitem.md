@@ -5,8 +5,8 @@ ms.assetid: 4280ecb8-2449-41bd-868a-785e8ac3b3d5
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode ReadItem
-- Méthode ReadItem Windows Remote Management, objet Enumerator
-- Objet Enumerator Windows Remote Management, méthode ReadItem
+- méthode ReadItem Windows Remote Management, objet Enumerator
+- objet Enumerator Windows Remote Management, méthode ReadItem
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7fda1b31cbc14d4a7474d4de55b572df82a8aaf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 65a24109d22c4fc114513c2113af48c62a7042cd90feb075718e57323ecf5238
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993809"
 ---
 # <a name="enumeratorreaditem-method"></a>Enumerator. ReadItem, méthode
 
@@ -54,7 +54,7 @@ URI de l’élément.
 
 Représentation XML de l’élément.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour limiter le nombre d’éléments lus, définissez la propriété [**Session.BatchItems**](session-batchitems.md) .
 

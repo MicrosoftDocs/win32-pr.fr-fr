@@ -3,7 +3,7 @@ title: External. appColorLight
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. appColorLight
 ms.assetid: d0fae7c2-ccda-4141-997f-bf861e358ed0
 keywords:
-- External. appColorLight Windows Media Player
+- External. appColorLight Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 097b2a71cb8013bc4f39aaec86e7a5ac5bc71691
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 17db35cc1f683c581009135332c413c7c5e5379e3b3a1d9ad71abc8423f8c0cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649599"
 ---
 # <a name="externalappcolorlight"></a>External. appColorLight
 
@@ -28,7 +28,7 @@ ms.locfileid: "106521627"
 
  
 
-La propriété **appColorLight** récupère la couleur ombrée actuelle de l’interface utilisateur du lecteur Windows Media.
+la propriété **appColorLight** récupère la couleur ombrée actuelle de l’interface utilisateur du Lecteur Windows Media.
 
 ``` syntax
 window.external.appColorLight
@@ -39,9 +39,9 @@ window.external.appColorLight
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les utilisateurs peuvent modifier la couleur de l’interface utilisateur du lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
+les utilisateurs peuvent modifier la couleur de l’interface utilisateur Lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
 
 ## <a name="requirements"></a>Configuration requise
 

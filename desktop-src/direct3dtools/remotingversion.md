@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: a813453f9b5d1a89525e5b67cc22659281d04cb5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d7e5c937610b06a58309181a4dad2c95846d287b335c8ab6b2fed9008f338f3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985479"
 ---
 # <a name="span-idvspixengineremotingversionspanremotingversion-enumeration"></a><span id="vspixengine.remotingversion"></span>Énumération REMOTINGVERSION
 
@@ -38,40 +38,40 @@ ms.locfileid: "104317613"
 ## <a name="constants"></a>Constantes
 
 <span id="REMOTING_DEV12"></span><span id="remoting_dev12"></span>**Communication à distance \_ DEV12**  
-Valeur qui indique que le Visual Studio 2013 protocole de communication à distance RTM est utilisé.
+valeur qui indique que le Visual Studio 2013 protocole de communication à distance RTM est utilisé.
 
 <span id="REMOTING_DEV12_UPDATE_1"></span><span id="remoting_dev12_update_1"></span>**Communication \_ à distance DEV12 \_ Update \_ 1**  
-Valeur qui indique que le protocole de communication à distance Visual Studio 2013 Update 1 est utilisé.
+valeur qui indique que le protocole de communication à distance Visual Studio 2013 Update 1 est utilisé.
 
 <span id="REMOTING_DEV12_UPDATE_4"></span><span id="remoting_dev12_update_4"></span>**Communication \_ à distance DEV12 \_ Update \_ 4**  
-Valeur qui indique que le protocole de communication à distance Visual Studio 2013 Update 4 est utilisé.
+valeur qui indique que le protocole de communication à distance Visual Studio 2013 Update 4 est utilisé.
 
 <span id="REMOTING_DEV14"></span><span id="remoting_dev14"></span>**Communication à distance \_ DEV14**  
-Valeur qui indique que le protocole de communication à distance RTM Visual Studio 2015 est utilisé.
+valeur qui indique que le protocole de communication à distance Visual Studio 2015 RTM est utilisé.
 
 <span id="REMOTING_WIN10"></span><span id="remoting_win10"></span>**Communication à distance \_ WIN10**  
-Valeur qui indique que le protocole Windows 10 Remoting est utilisé (à partir de Windows 10, Graphics Diagnostics est un composant du système d’exploitation)
+valeur qui indique que le protocole de communication à distance Windows 10 est utilisé (à partir de Windows 10, graphics diagnostics est un composant du système d’exploitation)
 
 <span id="REMOTING_WIN10_JAN_2015"></span><span id="remoting_win10_jan_2015"></span>**Communication à distance \_ WIN10 \_ Jan \_ 2015**  
-Valeur qui indique que le protocole de communication à distance Windows 10 (janvier 2015) est utilisé.
+valeur qui indique que le protocole de communication à distance Windows 10 (janvier 2015) est utilisé.
 
 <span id="REMOTING_WIN10_JAN_2015_1"></span><span id="remoting_win10_jan_2015_1"></span>**Communication à distance \_ WIN10 \_ Jan \_ 2015 \_ 1**  
-Valeur qui indique que le protocole de communication à distance Windows 10 (janvier 2015, v1) est utilisé.
+valeur qui indique que le protocole de communication à distance Windows 10 (janvier 2015, v1) est utilisé.
 
 <span id="REMOTING_WIN10_JAN_2015_2"></span><span id="remoting_win10_jan_2015_2"></span>**Communication à distance \_ WIN10 \_ Jan \_ 2015 \_ 2**  
-Valeur qui indique que le protocole de communication à distance Windows 10 (janvier 2015, v2) est utilisé. Cette version du protocole a introduit les demandes de visualisation des ressources en mosaïque.
+valeur qui indique que le protocole de communication à distance Windows 10 (janvier 2015, v2) est utilisé. Cette version du protocole a introduit les demandes de visualisation des ressources en mosaïque.
 
 <span id="REMOTING_WIN10_JAN_2015_3"></span><span id="remoting_win10_jan_2015_3"></span>**Communication à distance \_ WIN10 \_ Jan \_ 2015 \_ 3**  
-Valeur qui indique que le protocole de communication à distance Windows 10 (2015 janvier v3) est utilisé. Cette version du protocole a introduit IPixEngine7, désormais déconseillé, pour vérifier la prise en charge de la version de l’interface.
+valeur qui indique que le protocole de communication à distance Windows 10 (2015 janvier v3) est utilisé. Cette version du protocole a introduit IPixEngine7, désormais déconseillé, pour vérifier la prise en charge de la version de l’interface.
 
 <span id="REMOTING_IPIXENGINE7_VERSION_CHECKING"></span><span id="remoting_ipixengine7_version_checking"></span>**Contrôle de \_ version de IPIXENGINE7 à distance \_ \_**  
-Valeur qui indique que le protocole de communication à distance Windows 10 (janvier 2015, v1) est utilisé. Cette version du protocole ne fait pas partie de la confiance sur les fonctionnalités de protocole REMOTINGVERSION. Le GUID de l’interface est maintenant modifié quand int non public
+valeur qui indique que le protocole de communication à distance Windows 10 (janvier 2015, v1) est utilisé. Cette version du protocole ne fait pas partie de la confiance sur les fonctionnalités de protocole REMOTINGVERSION. Le GUID de l’interface est maintenant modifié quand int non public
 
 <span id="REMOTING_WIN10_FEB_2015_1"></span><span id="remoting_win10_feb_2015_1"></span>**Communication à distance \_ WIN10 \_ février \_ 2015 \_ 1**  
-Valeur qui indique que le protocole de communication à distance Windows 10 (janvier 2015, v1) est utilisé. Cette version du protocole introduit les propriétés des informations de résumé avec des ID fixes uniques.
+valeur qui indique que le protocole de communication à distance Windows 10 (janvier 2015, v1) est utilisé. Cette version du protocole introduit les propriétés des informations de résumé avec des ID fixes uniques.
 
 <span id="REMOTING_WIN10_2015_03_00"></span><span id="remoting_win10_2015_03_00"></span>**Communication à distance \_ WIN10 \_ 2015 \_ 03 \_ 00**  
-Valeur qui indique que le protocole de communication à distance Windows 10 (janvier 2015, v1) est utilisé. Cette version du protocole a introduit la prise en charge de la fenêtre d’État DirectX11.
+valeur qui indique que le protocole de communication à distance Windows 10 (janvier 2015, v1) est utilisé. Cette version du protocole a introduit la prise en charge de la fenêtre d’État DirectX11.
 
 <span id="REMOTING_LATES"></span><span id="remoting_lates"></span>**retard de communication à distance \_**  
 Valeur qui indique que le dernier protocole de communication à distance est utilisé.

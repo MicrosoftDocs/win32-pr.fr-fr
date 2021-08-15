@@ -4,12 +4,12 @@ description: Le compilateur MIDL génère jusqu’à trois fonctions pour chaque
 ms.assetid: 948f1dd7-c8b0-4fa0-88d8-9d122de52ba1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4674617bc98c92dbc684a29d1a3c91ac6a7429e1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 681d898a077ff55bb03a76fbd7579e28a8bcdf18c792330b32b1eb832c6b9058
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011097"
 ---
 # <a name="type-serialization"></a>Sérialisation de type
 
@@ -59,6 +59,6 @@ size_t MyType_AlignSize (handle_t Handle, MyType __RPC_FAR * pObject);
 
 Notez que les procédures distantes avec des handles de liaison implicites et des types sérialisés avec des handles de sérialisation implicites utilisent la même variable de handle globale. Par conséquent, il est recommandé de ne pas mélanger la sérialisation de type et les procédures distantes dans une interface avec des handles implicites. Pour plus d’informations, consultez [Handles implicites et Handles explicites](implicit-versus-explicit-handles.md).
 
- 
+ 
 
- 
+ 
