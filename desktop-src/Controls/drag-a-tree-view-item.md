@@ -4,12 +4,12 @@ description: Cette rubrique montre le code permettant de gérer le glissement et
 ms.assetid: 989BBC27-C025-4C54-9972-4725F04A5E95
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80cedc5f7ec750270ec5d9fb6f567bf473f8c13b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 23ee7cfc9d4fa7a6e73abd042df583ae9175de8583b050ff9621b7d2789e0d73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118413113"
 ---
 # <a name="how-to-drag-a-tree-view-item"></a>Comment faire glisser un élément de Tree-View
 
@@ -18,18 +18,18 @@ Cette rubrique montre le code permettant de gérer le glissement et la suppressi
 > [!Note]  
 > Le fait de faire glisser un élément d’arborescence implique généralement le traitement du code de notification [TVN \_ BEGINDRAG](tvn-begindrag.md) (ou [TVN \_ BEGINRDRAG](tvn-beginrdrag.md)), du message de [**\_ désouris WM**](/windows/desktop/inputdev/wm-mousemove) et du message [**WM \_ LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup) (ou [**WM \_ RBUTTONUP**](/windows/desktop/inputdev/wm-rbuttonup)). Elle implique également l’utilisation des fonctions des [listes d’images](image-lists.md) pour dessiner l’élément au fur et à mesure de son déplacement.
 
- 
+ 
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -192,6 +192,6 @@ void Main_OnLButtonUp(HWND hwndTV)
 [L’exemple CustDTv illustre un dessin personnalisé dans un contrôle Tree-View](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

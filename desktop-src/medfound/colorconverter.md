@@ -4,12 +4,12 @@ ms.assetid: 1c15dc2b-0e69-4d16-af02-8056a1eb2c5c
 title: Convertisseur de couleurs DSP (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73a8418d6eeeffcf83a38452b19f18a6baa60bcc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e97db9f3131ed7cea9076255005149544363ba8d6b548736a211973cda3999d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117880661"
 ---
 # <a name="color-converter-dsp"></a>Convertisseur de couleurs DSP
 
@@ -79,11 +79,11 @@ CLSID \_ CColorConvertDMO
 -   [\_hauteur MFPKEY COLORCONV \_](mfpkey-colorconv-height.md)
 -   [MFPKEY \_ \_ mode COLORCONV](mfpkey-colorconv-mode.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le convertisseur de couleur DSP est implémenté en tant qu’objet COM pouvant agir comme un objet DirectXMedia (DMO) ou une transformation de Media Foundation (MFT). L’objet a un identificateur de classe unique (CLSID), qu’il agisse comme DMO ou MFT. Pour plus d’informations sur le moment où un DSP agit comme DMO ou MFT, consultez [processeurs de signal numérique](windowsmediadigitalsignalprocessors.md).
+le convertisseur de couleur DSP est implémenté en tant qu’objet COM pouvant agir comme un objet DirectXMedia (DMO) ou une transformation de Media Foundation (MFT). l’objet a un identificateur de classe unique (CLSID), qu’il agisse en tant que DMO ou MFT. pour plus d’informations sur le moment où un DSP agit en tant que DMO ou MFT, consultez [processeurs de Signal numérique](windowsmediadigitalsignalprocessors.md).
 
-Les identificateurs globaux uniques (GUID) pour les sous-types de média RVB diffèrent selon qu’un DSP fait office de modèle DMO ou MFT. Les GUID pour les sous-types de média non RVB sont les mêmes, qu’un DSP agisse comme DMO ou MFT. Pour plus d’informations sur les GUID qui représentent des sous-types de médias, consultez [GUID de sous-type de vidéo](video-subtype-guids.md).
+les identificateurs globaux uniques (guid) pour les sous-types de média rvb diffèrent selon qu’un DSP joue le rôle d’un DMO ou d’une table MFT. les guid pour les sous-types de média non rvb sont les mêmes, qu’un DSP agisse en tant que DMO ou MFT. Pour plus d’informations sur les GUID qui représentent des sous-types de médias, consultez [GUID de sous-type de vidéo](video-subtype-guids.md).
 
 Par défaut, ce DSP copie l’intégralité de l’image source dans la mémoire tampon de sortie. Si vous le souhaitez, vous pouvez spécifier des rectangles sources et de destination. Le DSP copie la partie de l’image source définie par le rectangle source et l’écrit dans le rectangle de destination de la mémoire tampon de sortie. Le DSP n’effectue aucune mise à l’échelle ; les rectangles source et de destination doivent avoir la même taille. Les rectangles source et de destination ne peuvent pas dépasser les limites de la trame vidéo.
 
@@ -97,8 +97,8 @@ Le convertisseur de couleur ne prend pas en charge toutes les combinaisons de fo
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Colorcnv.dll</dt> </dl> |
 

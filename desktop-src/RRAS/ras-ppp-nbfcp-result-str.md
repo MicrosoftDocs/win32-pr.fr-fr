@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ddcb1cfe28a72e390cedbcc35fa299dddbfb8634
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e415e6aea75dcf78d19d776e4df0a6edf704db473eacf0c8ddbb366ffbf65947
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789593"
 ---
 # <a name="ras_ppp_nbfcp_result-structure"></a>\_Structure des résultats RAS PPP \_ NBFCP \_
 
-\[La structure des **\_ \_ \_ résultats ppp ppp NBFCP** n’est pas prise en charge à partir de Windows Vista.\]
+\[la structure des **\_ \_ \_ résultats PPP NBFCP de l’accès distant** n’est pas prise en charge à partir de Windows Vista.\]
 
 La structure de **\_ \_ \_ résultat RAS PPP NBFCP** est utilisée pour signaler le résultat d’une opération de projection d’une fréquence d’accès PPP NetBEUI (NBF) pour un port.
 

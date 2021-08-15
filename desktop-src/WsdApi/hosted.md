@@ -4,12 +4,12 @@ ms.assetid: f901a88f-7e01-4e7f-a0f2-59f2a01b03cd
 title: élément hébergé
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3d281b5e058f8716c12c655ebcdb9a17bdfa4fb
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: afc3ea8dae3e705800cb4a1d2733bc86bcd491a25f2888ca258a47d6e765b796
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738419"
 ---
 # <a name="hosted-element"></a>élément hébergé
 
@@ -36,7 +36,7 @@ Il n’y a pas d’attributs.
 | [**PnPXCompatibleId**](pnpxcompatibleid.md)<br/> | Spécifie l’identificateur compatible PnP-X du service.<br/> <br/> |
 | [**PnPXHardwareId**](pnpxhardwareid.md)<br/>     | Spécifie l’identificateur matériel PnP-X du service.<br/> <br/>   |
 | [**ServiceID**](serviceid.md)<br/>               | Définit un identificateur de service pour l’hôte de service.<br/> <br/>        |
-| [**Types**](types.md)<br/>                       | Définit une liste de noms qualifiés XSD.<br/> <br/>                    |
+| [**Modes**](types.md)<br/>                       | Définit une liste de noms qualifiés XSD.<br/> <br/>                    |
 
 
 
@@ -73,7 +73,7 @@ Si un élément [**PnPXDeviceCategory**](pnpxdevicecategory.md) est présent, au
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

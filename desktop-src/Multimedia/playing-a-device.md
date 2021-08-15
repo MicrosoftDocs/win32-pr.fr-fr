@@ -7,12 +7,12 @@ keywords:
 - MCIAVI, fenêtre de lecture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f73d8b6539e842a1ffa632ed1efae5c2c8d3cda1
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: af9efc06b3d5f33dfb798aa4c47bf7d5a7a8bab45842de1da170c860d2a4a5f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118372640"
 ---
 # <a name="playing-a-device"></a>La diffusion d’un appareil
 
@@ -28,16 +28,16 @@ mciSendString("play cdaudio from 0", lpszReturnString,
 
 
 
-Certains types d’appareils étendent cette commande pour exploiter les fonctionnalités d’un appareil particulier. Par exemple, la commande [**Play**](play.md) pour le type d’appareil **videodisc** comprend les indicateurs « Fast » (MCI \_ VD \_ Play Play \_ ), « Slow » (MCI \_ VD \_ Play \_ Slow) et « Scan » (MCI \_ VD \_ Play \_ Scan).
+Certains types d’appareils étendent cette commande pour exploiter les fonctionnalités d’un appareil particulier. par exemple, la commande [**play**](play.md) pour le type d’appareil **videodisc** comprend les indicateurs « fast » (mci \_ vd \_ play \_ FAST), « slow » (mci \_ vd \_ play \_ slow) et « scan » (mci \_ vd \_ play \_ scan).
 
 > [!Note]  
 > Les unités affectées à la valeur de position dépendent du format d’heure utilisé par l’appareil. Chaque appareil a un format d’heure par défaut, mais vous devez spécifier le format d’heure à l’aide de la commande [**Set**](set.md) ([**MCI \_ Set**](mci-set.md)) avant d’émettre des commandes qui utilisent des valeurs de position.
 
- 
+ 
 
 ## <a name="playing-an-avi-file"></a>Exécution d’un fichier AVI
 
-Les fichiers vidéo dans Windows sont constitués d’au moins deux flux de données entrelacés : un flux vidéo (image) et un flux audio. Vous pouvez facilement lire ces fichiers AVI (Audio-Video entrelacés) à l’aide de commandes MCI. Les sections suivantes traitent de la diffusion de fichiers AVI.
+dans Windows, les fichiers vidéo sont constitués d’au moins deux flux de données entrelacés : un flux vidéo (image) et un flux audio. Vous pouvez facilement lire ces fichiers AVI (Audio-Video entrelacés) à l’aide de commandes MCI. Les sections suivantes traitent de la diffusion de fichiers AVI.
 
 ## <a name="setting-up-an-mciavi-playback-window"></a>Configuration d’une fenêtre de lecture de MCIAVI
 
@@ -90,6 +90,6 @@ Le pilote MCIAVI contient une boîte de dialogue qui permet de contrôler certai
 
 Les données d’un fichier AVI sont traitées comme une série de flux. Un fichier AVI contient généralement un flux audio et vidéo, et il peut également s’agir d’un flux personnalisé qui contient du texte ou d’autres données personnalisées. Le pilote MCIAVI peut utiliser différents gestionnaires pour ces flux de données. Pour plus d’informations sur les fichiers AVI personnalisés, consultez [gestionnaires de fichiers et de flux](custom-file-and-stream-handlers.md)de données personnalisés.
 
- 
+ 
 
- 
+ 

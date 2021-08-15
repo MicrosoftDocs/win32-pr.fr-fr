@@ -3,7 +3,7 @@ title: Acquisition de licence non silencieuse
 description: Acquisition de licence non silencieuse
 ms.assetid: 3b3fce53-9202-4e55-82d5-7c70ea833087
 keywords:
-- Windows Media Format SDK, acquisition de licence non silencieuse
+- Windows Media Format SDK, non Silent acquisition de licence
 - Windows Media Format SDK, licences
 - gestion des droits numériques (DRM), acquisition de licence non silencieuse
 - DRM (gestion des droits numériques), acquisition de licence non silencieuse
@@ -15,12 +15,12 @@ keywords:
 - licences, acquisition de licence non silencieuse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adb8d7c4865e74fd5ce383cff8317de905828afe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e92c9350e429a1fe4b6218878d2211b355c1569b39284161f9f3abceac1afc6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846432"
 ---
 # <a name="non-silent-license-acquisition"></a>Acquisition de licence non silencieuse
 
@@ -44,9 +44,9 @@ Pour effectuer une acquisition de licence non silencieuse, procédez comme suit�
 [**Utilisation du modèle d’événement Media Foundation**](using-the-media-foundation-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

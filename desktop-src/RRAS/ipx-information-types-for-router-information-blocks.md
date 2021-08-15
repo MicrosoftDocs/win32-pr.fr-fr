@@ -4,12 +4,12 @@ description: Les types d’informations suivants sont répertoriés dans Ipxrtde
 ms.assetid: 6cbc8415-f5ba-4f84-a23f-dd4f4a54d118
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab4494da951c04433da2cf9b1da20db7ea5f3119
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 959f83daa47a0e4573f11b5146fa6f4fdbbe0120ca0c4e8beb123ac6263a8a8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117790852"
 ---
 # <a name="ipx-information-types-for-router-information-blocks"></a>Types d’informations IPX pour les blocs d’informations de routeur
 
@@ -33,8 +33,8 @@ Les types d’informations suivants sont répertoriés dans Ipxrtdef. h. Utilise
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

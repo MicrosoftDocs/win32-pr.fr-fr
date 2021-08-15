@@ -1,5 +1,5 @@
 ---
-title: Utilisation de l’encodage Two-Pass (kit de développement logiciel (SDK) Windows Media format 11)
+title: utilisation de l’encodage Two-Pass (kit de développement logiciel (SDK) Windows Media Format 11)
 description: Utilisation de l’encodage Two-Pass
 ms.assetid: 55fc768b-15f0-4236-ad0d-3792ccaa9b4f
 keywords:
@@ -13,20 +13,20 @@ keywords:
 - IWMWriterPreprocess
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c3794856f47c1656cc53006268c41a063cdde96
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: fd0683af636197b3f8116fca4dea85ce15609d2c99b0d9e0c11dfe0a2662a424
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104508281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117653834"
 ---
-# <a name="using-two-pass-encoding-windows-media-format-11-sdk"></a>Utilisation de l’encodage Two-Pass (kit de développement logiciel (SDK) Windows Media format 11)
+# <a name="using-two-pass-encoding-windows-media-format-11-sdk"></a>utilisation de l’encodage Two-Pass (kit de développement logiciel (SDK) Windows Media Format 11)
 
 Certains codecs prennent en charge l’encodage en deux passes pour certains formats. Dans certains cas, un codec requiert qu’un format spécifié soit encodé à l’aide de deux passes. Lorsque l’encodage en deux passes est utilisé, vous envoyez les exemples du flux au codec avant le passage de l’encodage. Le codec analyse les exemples et configure la passe d’encodage en fonction de l’analyse. Cela génère un fichier encodé plus efficacement.
 
-Pour déterminer si un codec prend en charge l’encodage en une seule passe, ou les deux à la fois, pour un format donné, appelez [**IWMCodecInfo3 :: SetCodecEnumerationSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-setcodecenumerationsetting) avec g \_ wszNumPasses et la valeur appropriée, puis Énumérez les formats pour voir si celui que vous souhaitez est retourné. Pour plus d’informations sur les codecs Windows Media prenant en charge l’encodage en deux passes, consultez [choix d’une méthode d’encodage](choosing-an-encoding-method.md).
+Pour déterminer si un codec prend en charge l’encodage en une seule passe, ou les deux à la fois, pour un format donné, appelez [**IWMCodecInfo3 :: SetCodecEnumerationSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-setcodecenumerationsetting) avec g \_ wszNumPasses et la valeur appropriée, puis Énumérez les formats pour voir si celui que vous souhaitez est retourné. pour plus d’informations sur les codecs multimédias Windows qui prennent en charge l’encodage en deux passes, consultez [choix d’une méthode d’encodage](choosing-an-encoding-method.md).
 
-Vous pouvez utiliser l’encodage en deux passes avec le kit de développement logiciel (SDK) Windows Media format en appelant les méthodes de l’interface [**IWMWriterPreprocess**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess) .
+vous pouvez utiliser l’encodage en deux passes avec le kit de développement logiciel (SDK) Format multimédia Windows en appelant des méthodes de l’interface [**IWMWriterPreprocess**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess) .
 
 Dans les cas où l’encodage en deux passes est requis pour un format particulier, mais que l’application ne parvient pas à effectuer une étape de prétraitement, le premier appel à [**WriteSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-writesample) échouera avec le \_ nombre de \_ \_ passes NS E non valides \_ .
 

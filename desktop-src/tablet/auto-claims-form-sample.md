@@ -4,20 +4,20 @@ ms.assetid: bec4333a-62ca-4254-a39b-04bc2c556992
 title: Exemple de formulaire de déclaration automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71c5ff78a3c38036ef9352660b4d7959e2ad87e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fe22545d60ad4116e2607f3fcf01feb94dbfecaa74bc591288e4d91b6d3d465
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857117"
 ---
 # <a name="auto-claims-form-sample"></a>Exemple de formulaire de déclaration automatique
 
 L’exemple auto claims résout un scénario hypothétique pour un évaluateur d’assurance. Le travail de l’évaluateur lui impose de visiter les clients de leur famille ou de leur entreprise et d’entrer leurs informations de revendication dans un formulaire. Pour augmenter la productivité de l’évaluateur, son service informatique développe une application de tablette qui lui permet d’entrer rapidement et avec précision des informations de revendication à l’aide de deux contrôles Ink : les contrôles [InkEdit](/previous-versions/ms835842(v=msdn.10)) et [InkPicture](/previous-versions/ms583740(v=vs.100)) .
 
-Dans cet exemple, un contrôle [InkEdit](/previous-versions/ms835842(v=msdn.10)) est utilisé pour chaque champ d’entrée de texte. Un utilisateur entre les informations pertinentes relatives à une stratégie d’assurance et un véhicule dans ces champs à l’aide d’un stylet. Le contrôle [InkPicture](/previous-versions/ms583740(v=vs.100)) est utilisé pour ajouter de l’encre sur une image automobile pour mettre en surbrillance les zones endommagées de l’automobile. L’exemple de revendications automatiques est disponible pour C \# et Microsoft Visual Basic .net. Cette rubrique décrit les Visual Basic .NET.
+Dans cet exemple, un contrôle [InkEdit](/previous-versions/ms835842(v=msdn.10)) est utilisé pour chaque champ d’entrée de texte. Un utilisateur entre les informations pertinentes relatives à une stratégie d’assurance et un véhicule dans ces champs à l’aide d’un stylet. Le contrôle [InkPicture](/previous-versions/ms583740(v=vs.100)) est utilisé pour ajouter de l’encre sur une image automobile pour mettre en surbrillance les zones endommagées de l’automobile. l’exemple de revendications automatiques est disponible pour C \# et Microsoft Visual Basic .net. cette rubrique décrit les Visual Basic .net.
 
-La classe autorevendication est définie comme une sous-classe de [System. Windows. Forms. Form](/dotnet/api/system.windows.forms.form?view=netcore-3.1) , et une classe imbriquée est définie pour créer et gérer des couches d’encre pour différents types d’endommagement. Quatre gestionnaires d’événements sont définis pour effectuer les tâches suivantes :
+La classe autorevendication est définie en tant que sous-classe de [System. Windows. Forms. Form](/dotnet/api/system.windows.forms.form?view=netcore-3.1) et une classe imbriquée sont définis pour créer et gérer des couches d’encre pour différents types d’endommagement. Quatre gestionnaires d’événements sont définis pour effectuer les tâches suivantes :
 
 -   Initialisation du formulaire et des couches d’encre.
 -   Redessin du contrôle [InkPicture](/previous-versions/ms583740(v=vs.100)) .
@@ -25,7 +25,7 @@ La classe autorevendication est définie comme une sous-classe de [System. Windo
 -   Modification de la visibilité d’une couche d’encre.
 
 > [!Note]  
-> Les versions de cet exemple sont disponibles en C \# et Visual Basic .net. La version décrite dans cette section est Visual Basic .NET. Les concepts sont les mêmes entre les versions.
+> les Versions de cet exemple sont disponibles en C \# et Visual Basic .net. la version décrite dans cette section est Visual Basic .net. Les concepts sont les mêmes entre les versions.
 
  
 
@@ -160,7 +160,7 @@ inkPictVehicle.DefaultDrawingAttributes.Color = inkLayers[lstAnnotationLayer.Sel
 
 ## <a name="redrawing-the-inkpicture-control"></a>Redessiner le contrôle InkPicture
 
-Dans le gestionnaire d’événements de [peinture](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) hérité du contrôle [InkPicture](/previous-versions/ms583740(v=vs.100)) , les couches d’encre sont vérifiées pour déterminer celles qui sont masquées. Si une couche n’est pas masquée, la procédure événementielle l’affiche à l’aide de la méthode [Draw](/previous-versions/ms828488(v=msdn.10)) de la propriété [Renderer](/previous-versions/ms582196(v=vs.100)) . Si vous regardez dans l’Explorateur d’objets, vous verrez que la propriété Microsoft. Ink. InkPicture. Renderer est définie en tant qu’objet [Microsoft. Ink. Renderer](/previous-versions/ms828481(v=msdn.10)) :
+dans le gestionnaire d’événements [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) hérité du contrôle [InkPicture](/previous-versions/ms583740(v=vs.100)) , les couches d’encre sont vérifiées pour déterminer celles qui sont masquées. Si une couche n’est pas masquée, la procédure événementielle l’affiche à l’aide de la méthode [Draw](/previous-versions/ms828488(v=msdn.10)) de la propriété [Renderer](/previous-versions/ms582196(v=vs.100)) . Si vous regardez dans l’Explorateur d’objets, vous verrez que la propriété Microsoft. Ink. InkPicture. Renderer est définie en tant qu’objet [Microsoft. Ink. Renderer](/previous-versions/ms828481(v=msdn.10)) :
 
 
 ```VB
@@ -373,7 +373,7 @@ private void chHideLayer_CheckedChanged(object sender, System.EventArgs e)
 
 ## <a name="closing-the-form"></a>Fermeture du formulaire
 
-Dans le code généré par le Concepteur Windows Form, les contrôles [InkEdit](/previous-versions/ms835842(v=msdn.10)) et [InkPicture](/previous-versions/ms583740(v=vs.100)) sont ajoutés à la liste des composants du formulaire lorsque le formulaire est initialisé. Lorsque le formulaire se ferme, les contrôles InkEdit et InkPicture sont supprimés, ainsi que les autres composants du formulaire, par la méthode [dispose](/previous-versions/dotnet/netframework-3.5/ms571303(v=vs.90)) du formulaire. La méthode dispose du formulaire supprime également les objets [Ink](/previous-versions/ms583670(v=vs.100)) créés pour le formulaire.
+dans le code généré par le concepteur de formulaires Windows, les contrôles [InkEdit](/previous-versions/ms835842(v=msdn.10)) et [InkPicture](/previous-versions/ms583740(v=vs.100)) sont ajoutés à la liste des composants du formulaire lorsque le formulaire est initialisé. Lorsque le formulaire se ferme, les contrôles InkEdit et InkPicture sont supprimés, ainsi que les autres composants du formulaire, par la méthode [dispose](/previous-versions/dotnet/netframework-3.5/ms571303(v=vs.90)) du formulaire. La méthode dispose du formulaire supprime également les objets [Ink](/previous-versions/ms583670(v=vs.100)) créés pour le formulaire.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

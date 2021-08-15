@@ -4,12 +4,12 @@ ms.assetid: 7d2ee779-1554-436a-a65c-f0322745f46a
 title: Démarrage du service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5fcd9ee820357e75bf07649da8e6c5445d3f42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17901987581b6a2680e0a70cfe2e0ed80472d293cbe32932f768e9133b6a058d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888698"
 ---
 # <a name="service-startup"></a>Démarrage du service
 

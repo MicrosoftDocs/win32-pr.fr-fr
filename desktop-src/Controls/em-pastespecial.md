@@ -3,7 +3,7 @@ title: Message EM_PASTESPECIAL (RichEdit. h)
 description: Colle un format de presse-papiers spécifique dans un contrôle RichEdit.
 ms.assetid: b4b9c1a7-943d-4dc8-bcb9-054c984b82ba
 keywords:
-- EM_PASTESPECIAL les contrôles de message Windows
+- EM_PASTESPECIAL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9375dd4a333f0e29d5e8f2721409244cf80f1233
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2dc1af4dd0566cdf8e256b34f87fcc52ea855bc521c87cbe390e02b8b1cf7b06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412800"
 ---
 # <a name="em_pastespecial-message"></a>\_Message PASTESPECIAL em
 
@@ -53,8 +53,8 @@ Ce message ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

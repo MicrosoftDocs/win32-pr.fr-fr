@@ -9,12 +9,12 @@ keywords:
 - interrogation des périphériques d’entrée Waveform-Audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91b915b3f39ad417a3d92396d887e5fb66092119
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8fd22a2b65746202a831d475fcde38b31259619dbc645a5cbca3b91d03ff6e0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118371921"
 ---
 # <a name="querying-waveform-audio-input-devices"></a>Interrogation Waveform-Audio périphériques d’entrée
 
@@ -27,6 +27,6 @@ Avant d’enregistrer l’audio de la forme d’onde, vous devez appeler la fonc
 [Enregistrement de la forme d’onde](recording-waveform-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

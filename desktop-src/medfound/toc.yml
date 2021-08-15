@@ -5276,7 +5276,7 @@
                   href: /windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-getoutputmediatype
                 - name: GetService
                   href: /windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-getservice
-                - name: Préparation
+                - name: Préparer
                   href: /windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-prepare
                 - name: RemoveAllStreams
                   href: /windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-removeallstreams
@@ -5631,7 +5631,7 @@
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getcurrentlength
                 - name: GetMaxLength
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getmaxlength
-                - name: Verrouillage
+                - name: Verrou
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock
                 - name: SetCurrentLength
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-setcurrentlength

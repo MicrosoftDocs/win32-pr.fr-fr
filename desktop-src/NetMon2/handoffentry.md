@@ -13,18 +13,18 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 7c04c7bc90fdd0f36beb6aed26a6b84c077eff5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 692b9e925442920a67434f74c9e8a8ebd225fc417cbbf419b6eb568aa9eee2df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117981412"
 ---
 # <a name="handoffentry-structure"></a>HANDOFFENTRY, structure
 
 La structure **HANDOFFENTRY** définit une entrée de protocole spécifique dans une structure **HANDOFFTABLE** .
 
-Cette structure est renseignée par Moniteur réseau en fonction des informations contenues dans un fichier. ini fourni par l’utilisateur fourni lors de l’appel de la fonction [**CreateHandoffTable**](createhandofftable.md) . Cette structure ne doit jamais être modifiée explicitement par une application.
+Cette structure est renseignée par Moniteur réseau en fonction des informations contenues dans un fichier .ini fourni par l’utilisateur fourni lors de l’appel de la fonction [**CreateHandoffTable**](createhandofftable.md) . Cette structure ne doit jamais être modifiée explicitement par une application.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -54,25 +54,25 @@ Signature qui identifie cette entrée en tant qu’entrée de table de remise.
 **visionnant \_ ProtIdentNumber**
 </dt> <dd>
 
-Numéro de protocole fourni par le fichier. ini fourni par l’utilisateur.
+Numéro de protocole fourni par l’utilisateur .ini fichier.
 
 </dd> <dt>
 
 **visionnant \_ ProtocolHandle**
 </dt> <dd>
 
-Handle de protocole créé à l’aide du nom de protocole fourni par le fichier. ini fourni par l’utilisateur.
+Handle de protocole créé à l’aide du nom de protocole fourni par l’utilisateur .ini fichier fourni.
 
 </dd> <dt>
 
 **visionnant \_ ProtocolData**
 </dt> <dd>
 
-Données d’instance de protocole fournies par le fichier. ini fourni par l’utilisateur.
+Données d’instance de protocole fournies par l’utilisateur .ini fichier.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est renseignée par Moniteur réseau lorsque Moniteur réseau crée une table de remise.
 

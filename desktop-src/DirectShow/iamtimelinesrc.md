@@ -1,5 +1,5 @@
 ---
-description: L’interface IAMTimelineSrc fournit des méthodes pour manipuler et définir des propriétés sur les objets sources dans les services de modification DirectShow (DES).
+description: l’interface IAMTimelineSrc fournit des méthodes pour manipuler et définir des propriétés sur les objets sources dans les Services d’édition de DirectShow (DES).
 ms.assetid: 39a64718-1fac-4d90-8340-b712d3bad2ec
 title: Interface IAMTimelineSrc (qedit. h)
 ms.topic: reference
@@ -14,21 +14,21 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 25733b1353bc0cbd92c40335a8d342473b03a806
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5d2ad5684df6298bde458e87ff322b21622139930fa9aaf994fda0e7ba7e987e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118399196"
 ---
 # <a name="iamtimelinesrc-interface"></a>Interface IAMTimelineSrc
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IAMTimelineSrc` interface fournit des méthodes pour manipuler et définir des propriétés sur les objets sources dans les [services de modification DirectShow](directshow-editing-services.md) (des). Un objet source représente un flux d’une source de média.
+l' `IAMTimelineSrc` interface fournit des méthodes pour la manipulation et la définition des propriétés sur les objets sources dans les [Services d’édition de DirectShow](directshow-editing-services.md) (DES). Un objet source représente un flux d’une source de média.
 
 Vous pouvez utiliser une partie des données d’un fichier source en définissant les heures de démarrage et d’arrêt du support. Ces valeurs spécifient le début et la fin de l’objet source, par rapport à la source du média d’origine. Les temps de support peuvent différer de l’heure de début et de fin de l’objet sur la chronologie, ce qui permet une lecture rapide ou lente. (Avec des sources audio, le décalage de hauteur se produit.)
 
@@ -75,7 +75,7 @@ L’interface **IAMTimelineSrc** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -83,7 +83,7 @@ L’interface **IAMTimelineSrc** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

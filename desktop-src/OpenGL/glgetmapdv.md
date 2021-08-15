@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbf7dd5104ce7a47b0d1215221c115a7191f4548
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ac1603d87004e9b97e635e5fa6a52efa97c5e760ccd9010aa6f86fc62eb3ee7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106527728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118360307"
 ---
 # <a name="glgetmapdv-function"></a>glGetMapdv fonction)
 
@@ -49,7 +49,7 @@ Nom symbolique d’une carte. Les valeurs acceptées sont les suivantes : GL \_
 
 </dd> <dt>
 
-*query* 
+*requête* 
 </dt> <dd>
 
 Spécifie le paramètre à retourner. Les noms symboliques suivants sont acceptés.
@@ -92,7 +92,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glGetMap** retourne les paramètres de l’évaluateur. (Les fonctions **glMap1** et **glMap2** définissent les évaluateurs.) Le paramètre *target* spécifie un mappage, la *requête* sélectionne un paramètre spécifique, et *v* pointe vers le stockage où les valeurs sont retournées.
 

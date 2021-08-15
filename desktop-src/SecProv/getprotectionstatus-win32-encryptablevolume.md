@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 5f3fa2aaa019097a01a6e6d1628d7c4fe9b82710
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44fde17ee8e7d4d7bacd5c63743af045f89e16f840c193df8d883a5c80111659
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891871"
 ---
 # <a name="getprotectionstatus-method-of-the-win32_encryptablevolume-class"></a>Méthode GetProtectionStatus de la \_ classe Win32 EncryptableVolume
 
@@ -84,7 +84,7 @@ Spécifie si le volume et la clé de chiffrement (le cas échéant) sont sécuri
 </tr>
 <tr class="odd">
 <td><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span><dl> <dt><strong>Inconnu</strong></dt> <dt>2</dt> </dl></td>
-<td>Impossible de déterminer l’état de la protection du volume. Cela peut être dû au fait que le volume est dans un état verrouillé.<br/> <strong>Windows Vista Édition intégrale, Windows Vista entreprise et Windows Server 2008 :</strong> Cette valeur n’est pas prise en charge. Cette valeur est prise en charge à compter de Windows 7 et de Windows Server 2008 R2.<br/></td>
+<td>Impossible de déterminer l’état de la protection du volume. Cela peut être dû au fait que le volume est dans un état verrouillé.<br/> <strong>Windows vista Ultimate, Windows vista Enterprise et Windows Server 2008 :</strong> Cette valeur n’est pas prise en charge. cette valeur est prise en charge à partir de Windows 7 et Windows Server 2008 R2.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -111,7 +111,7 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez chiffrer un volume uniquement si vous appelez [**DisableKeyProtectors**](disablekeyprotectors-win32-encryptablevolume.md) en premier ou utilisez l’une des méthodes suivantes :
 
@@ -129,7 +129,7 @@ Par conséquent, si le disque est chiffré et que *ProtectionStatus* retourne la
 
 Utilisez [**GetKeyProtectors**](getkeyprotectors-win32-encryptablevolume.md) pour répertorier les protecteurs de clé qui ont été spécifiés pour sécuriser la clé de chiffrement du volume. Si les protecteurs de clé existent mais que la protection est égale à zéro (PROTECTION désactivée), utilisez [**EnableKeyProtectors**](enablekeyprotectors-win32-encryptablevolume.md) pour activer la protection du volume.
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -137,8 +137,8 @@ Les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista entreprise, les applications de bureau Windows Vista Édition intégrale \[ uniquement\]<br/>                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows vista Enterprise, Windows les applications de bureau vista Ultimate \[ uniquement\]<br/>                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |
 

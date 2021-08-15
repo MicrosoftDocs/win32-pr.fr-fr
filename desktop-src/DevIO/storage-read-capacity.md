@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntddstor.h
-ms.openlocfilehash: e57a9f4420b977598e15f9aae219c060665c9d0d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3a138f6594e241c96526ebf6955c61374aa0f48a5aa66f364ef82c1591b64594
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104392991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118404970"
 ---
 # <a name="storage_read_capacity-structure"></a>Structure de la capacité de lecture du stockage \_ \_
 
@@ -78,9 +78,9 @@ Taille du disque en octets.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le fichier d’en-tête Ntddstor. h est disponible dans le kit WDK (Windows Driver Kit).
+le fichier d’en-tête Ntddstor. h est disponible dans le Kit de pilotes Windows (WDK).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -89,7 +89,7 @@ Le fichier d’en-tête Ntddstor. h est disponible dans le kit WDK (Windows Driv
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Windows Server 2008, Windows Server 2003 avec SP1<br/>                          |
+| Serveur minimal pris en charge<br/> | Windows serveur 2008, Windows server 2003 avec SP1<br/>                          |
 | En-tête<br/>                   | <dl> <dt>Ntddstor. h</dt> </dl> |
 
 

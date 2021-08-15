@@ -14,23 +14,23 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 62bb30b69ba0e4ba795b0d39af72a156b63cac11
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dfe5db4d7ae1f4a2d7a070a3d735264e61dfbdb621f99b9cbb2e1040213b56c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818588"
 ---
 # <a name="ipropertysetterclearprops-method"></a>IPropertySetter :: ClearProps, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
 La `ClearProps` méthode efface toutes les données de propriété de l’accesseur Set de propriété. L’application peut définir de nouvelles données de propriété après l’appel de cette fonction.
 
-L’effacement des données de propriété ne restaure pas les propriétés de l’objet à leurs valeurs d’origine. Il empêche simplement DirectShow d’appliquer d’autres modifications. Les valeurs de propriété sont appliquées au moment de l’exécution lorsque le projet est restitué.
+L’effacement des données de propriété ne restaure pas les propriétés de l’objet à leurs valeurs d’origine. il empêche simplement DirectShow d’appliquer d’autres modifications. Les valeurs de propriété sont appliquées au moment de l’exécution lorsque le projet est restitué.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -49,7 +49,7 @@ Cette méthode n’a aucun paramètre.
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -57,7 +57,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

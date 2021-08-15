@@ -4,12 +4,12 @@ description: IAgentNotifySinkEx ListeningState
 ms.assetid: e303b299-0dd0-419a-87a9-1490fe6cf54a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fee8f931030cbd68cd148fc57360d8b0ccf7624
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 21d3926741f83f66ab6133874ec47783976c0ddb6d3fbd2ee91c6e584813147a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117692605"
 ---
 # <a name="iagentnotifysinkexlisteningstate"></a>IAgentNotifySinkEx::ListeningState
 

@@ -1,6 +1,6 @@
 ---
 title: Énumération WMDRMNET_POLICY_TYPE (wmdrmsdk. h)
-description: Le \_ \_ type d’énumération de type de stratégie WMDRMNET répertorie les types de stratégies qui sont disponibles pour les opérations DRM Windows Media pour les périphériques réseau.
+description: le \_ \_ type d’énumération de type de stratégie WMDRMNET répertorie les types de stratégies qui sont disponibles pour le Windows Media DRM pour les opérations de périphériques réseau.
 ms.assetid: 83e9e247-3bd8-4857-97b6-95b3cd5ad25c
 keywords:
 - Format Windows Media d’énumération WMDRMNET_POLICY_TYPE
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 964a3e938caa312f02f21074f046f3cf88d72de6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8aec574717abb51117b142b8450ad7548d84766b4138f76a4296982422462fbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697811"
 ---
 # <a name="wmdrmnet_policy_type-enumeration"></a>\_Énumération des types de stratégie WMDRMNET \_
 
-Le type d’énumération de **\_ \_ type de stratégie WMDRMNET** répertorie les types de stratégies qui sont disponibles pour les opérations DRM Windows Media pour les périphériques réseau.
+le type d’énumération de **\_ \_ type de stratégie WMDRMNET** répertorie les types de stratégies qui sont disponibles pour le Windows Media DRM pour les opérations de périphériques réseau.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -52,7 +52,7 @@ Les types de stratégie non définis ne sont pas pris en charge.
 <span id="WMDRMNET_POLICY_TYPE_TRANSCRYPTPLAY"></span><span id="wmdrmnet_policy_type_transcryptplay"></span>**WMDRMNET \_ type de stratégie \_ \_ TRANSCRYPTPLAY**
 </dt> <dd>
 
-La stratégie régit la possibilité de convertir le contenu protégé par Windows Media DRM en Windows Media DRM protégé pour les données des périphériques réseau et de le lire sur un appareil en réseau.
+la stratégie régit la possibilité de convertir le contenu protégé par Windows drm de média en protégé Windows drm pour les données des périphériques réseau et de le lire sur un appareil en réseau.
 
 </dd> </dl>
 

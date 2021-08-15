@@ -3,7 +3,7 @@ title: Élément SplitButtonGallery
 description: Représente un contrôle de Galerie de boutons partagés avec un menu déroulant basé sur la Galerie.
 ms.assetid: 65b6af50-6d9a-4285-b2d9-26dfb904d0b8
 keywords:
-- Ruban des fenêtres d’élément SplitButtonGallery
+- élément SplitButtonGallery Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f5f8767135b9472acba333b1cdfa6ab102e9b7f4
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: c28c2f87a1d8fb165f02ad71c96b38bcbb381bb3590bd9bff98b3feb364044bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850813"
 ---
 # <a name="splitbuttongallery-element"></a>Élément SplitButtonGallery
 
 Représente un contrôle de [Galerie de boutons partagés](windowsribbon-controls-splitbuttongallery.md) avec un menu déroulant basé sur la Galerie.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <SplitButtonGallery
@@ -178,7 +178,7 @@ Windows 8 et versions ultérieures.
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**ControlGroup**](windowsribbon-element-controlgroup.md), [**Group**](windowsribbon-element-group.md), [**MenuGroup**](windowsribbon-element-menugroup.md)ou [**SplitButton**](windowsribbon-element-splitbutton.md) .
 
@@ -186,7 +186,7 @@ Peut se produire une ou plusieurs fois pour chaque élément [**ControlGroup**](
 
 [Interface utilisateur \_ Le \_ BooleanValue](windowsribbon-reference-properties-uipkey-booleanvalue.md) de la valeur de la variable est utilisé par une application pour interroger l’État bascule du contrôle Button d’un **SplitButtonGallery**.
 
-La capture d’écran suivante illustre le contrôle de [Galerie de bouton partagé](windowsribbon-controls-splitbuttongallery.md) du ruban dans Microsoft Paint pour Windows 7.
+la capture d’écran suivante illustre le contrôle de [galerie du bouton partagé](windowsribbon-controls-splitbuttongallery.md) du ruban dans Microsoft Paint pour Windows 7.
 
 ![capture d’écran d’un contrôle de Galerie de boutons partagés dans Microsoft Paint pour Windows 7.](images/controls/splitbuttongallery.png)
 
@@ -241,7 +241,7 @@ Cette section de code montre les déclarations de contrôle **SplitButtonGallery
 ## <a name="element-information"></a>Informations sur les éléments
 
 
-- **Système minimal pris en charge**: Windows 7 
+- **système minimal pris en charge**: Windows 7 
 - **Peut être vide**: non
 
 

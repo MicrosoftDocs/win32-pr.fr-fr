@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 332fad740c1ea904feee1a437273f21eb4c1def0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2d118e21ea67932529c41b35595619c6e03b907718708ba285aa2a6578177f7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823608"
 ---
 # <a name="cbaseoutputpingetdeliverybuffer-method"></a>Méthode CBaseOutputPin. GetDeliveryBuffer
 
@@ -81,14 +81,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                   | Description                        |
 |-----------------------------------------------------------------------------------------------|------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie.<br/>                |
+| <dl> <dt>**\_OK**</dt> </dl>          | Réussite.<br/>                |
 | <dl> <dt>**E \_ NOinterface**</dt> </dl> | Aucun allocateur disponible.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode appelle la méthode **IMemAllocator :: GetBuffer** sur l’allocateur et passe les paramètres à cette méthode.
 
@@ -98,7 +98,7 @@ Cette méthode appelle la méthode **IMemAllocator :: GetBuffer** sur l’alloc
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

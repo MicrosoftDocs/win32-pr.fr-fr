@@ -3,7 +3,7 @@ title: Attribut DRMIndividualizedVersion
 description: DRMIndividualizedVersion indique la version de gestion des droits numériques (DRM) requise par le fichier multimédia numérique.
 ms.assetid: eb31122e-9be8-4ebe-91a8-d9d4288dc772
 keywords:
-- Attribut DRMIndividualizedVersion lecteur Windows Media
+- Lecteur Windows Media de l’attribut DRMIndividualizedVersion
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1cb825a58c284c44a83e79285905e08efed9b6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e001d350b47b4762c79d78e8d54c49b91976a9255bfa2c49a99945aca7c67861
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340206"
 ---
 # <a name="drmindividualizedversion-attribute"></a>Attribut DRMIndividualizedVersion
 
@@ -28,7 +28,7 @@ ms.locfileid: "106545532"
 -   [Éléments audio](audio-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 

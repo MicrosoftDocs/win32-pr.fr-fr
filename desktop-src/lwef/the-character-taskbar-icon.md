@@ -4,12 +4,12 @@ description: Icône caractère de la barre des tâches
 ms.assetid: b1db7151-b367-4708-897e-0695988163e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3769e6ce04886ce763d967eb14af4f0cd77628f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: af64413b0ecfee182902c6db376ce1857b8b1cf59e2d1a93274b70366ad5ee4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118474981"
 ---
 # <a name="the-character-taskbar-icon"></a>Icône caractère de la barre des tâches
 
@@ -23,9 +23,9 @@ Le déplacement du pointeur sur l’icône de la barre des tâches affiche une f
 
 Cliquez avec le bouton droit sur l’icône pour afficher un menu contextuel. Lorsque le caractère est visible, le menu contextuel affiche les mêmes commandes que celles qui s’affichent lorsque vous cliquez avec le bouton droit sur le caractère. Si le caractère est masqué, seule la fenêtre Ouvrir (ou fermer) les commandes vocales et afficher les commandes s’affiche.
 
- 
+ 
 
- 
+ 
 
 
 

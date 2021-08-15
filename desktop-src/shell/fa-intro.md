@@ -4,12 +4,12 @@ ms.assetid: 45d8b729-1e9d-40c0-8306-9a475262ac40
 title: Types de fichiers et associations de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bf84bbf44475d32768d2359d3723952ada843c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd096aa81970ee1baff27ae87368d26827fd8d0b46f6bdd7c69190d5ddfc56f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459192"
 ---
 # <a name="file-types-and-file-associations"></a>Types de fichiers et associations de fichiers
 
@@ -34,7 +34,7 @@ Cette section sur les types de fichiers et les associations de fichiers est orga
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
--   Définir l’accès aux programmes et les paramètres par défaut de l’ordinateur (SPAD) est un panneau de configuration Windows qui permet aux utilisateurs disposant de privilèges d’administrateur de définir un ordinateur par défaut et de masquer ou d’afficher une application. Les applications de média, de courrier électronique, de navigateur, de messagerie et Java sont des exemples d’applications inscrites dans SPAD. Définir vos programmes par défaut (SYDP) est un panneau de configuration Windows, qui fonctionne avec des privilèges limités, et permet aux utilisateurs de définir une valeur par défaut de l’utilisateur. Toute application peut s’inscrire dans SYDP. Pour plus d’informations sur SPAD et l’inscription des applications SYDP, consultez [instructions pour les associations de fichiers et les programmes par défaut](appguide-fa-defpro.md), et [définir les paramètres par défaut de l’accès aux programmes et des ordinateurs (SPAD)](cpl-setprogramaccess.md).
+-   l’option définir l’accès aux programmes et les paramètres par défaut de l’ordinateur (SPAD) est un panneau de configuration Windows qui permet aux utilisateurs disposant de privilèges d’administrateur de définir un ordinateur par défaut et de masquer ou d’afficher une application. Les applications de média, de courrier électronique, de navigateur, de messagerie et Java sont des exemples d’applications inscrites dans SPAD. définir vos programmes par défaut (SYDP) est un panneau de configuration Windows, qui fonctionne avec des privilèges limités et permet aux utilisateurs de définir une valeur par défaut de l’utilisateur. Toute application peut s’inscrire dans SYDP. Pour plus d’informations sur SPAD et l’inscription des applications SYDP, consultez [instructions pour les associations de fichiers et les programmes par défaut](appguide-fa-defpro.md), et [définir les paramètres par défaut de l’accès aux programmes et des ordinateurs (SPAD)](cpl-setprogramaccess.md).
 -   Pour obtenir des informations conceptuelles connexes, consultez [vue d’ensemble des verbes et des associations de fichiers](fa-verbs.md).
 -   Pour créer un magasin de données Shell, consultez [implémentation des interfaces d’objet de dossier de base](nse-implement.md).
 

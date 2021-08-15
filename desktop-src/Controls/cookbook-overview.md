@@ -4,12 +4,12 @@ description: Cette rubrique explique comment configurer votre application pour v
 ms.assetid: eb6c2469-25b9-43c4-a6ca-391a7b2859b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4673d0a47f42f557e09f4afe46131cd48bad1b0
-ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
+ms.openlocfilehash: f259be6165bd3a4f9f5a655aaecf0fe6837de3dce057848ba92ac737e608fbc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113102168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118413365"
 ---
 # <a name="enabling-visual-styles"></a>Activation des styles visuels
 
@@ -29,7 +29,7 @@ Cette rubrique comprend les sections suivantes.
 
 ## <a name="using-manifests-or-directives-to-ensure-that-visual-styles-can-be-applied-to-applications"></a>Utilisation de manifestes ou de directives pour s’assurer que les styles visuels peuvent être appliqués aux applications
 
-Pour permettre à votre application d’utiliser des styles visuels, vous devez utiliser ComCtl32.dll version 6 ou ultérieure. Étant donné que la version 6 n’est pas redistribuable, elle est disponible uniquement lorsque votre application s’exécute sur une version de Windows qui la contient. Windows est fourni avec les versions 5 et 6. ComCtl32.dll version 6 contient à la fois les contrôles utilisateur et les contrôles communs. Par défaut, les applications utilisent les contrôles utilisateur définis dans User32.dll et les contrôles communs définis dans ComCtl32.dll version 5. Pour obtenir la liste des versions de DLL et leurs plateformes de distribution, consultez la page [versions de contrôle courantes](common-control-versions.md).
+Pour permettre à votre application d’utiliser des styles visuels, vous devez utiliser ComCtl32.dll version 6 ou ultérieure. étant donné que la version 6 n’est pas redistribuable, elle est disponible uniquement lorsque votre application s’exécute sur une version de Windows qui la contient. Windows est fourni avec les versions 5 et 6. ComCtl32.dll version 6 contient à la fois les contrôles utilisateur et les contrôles communs. Par défaut, les applications utilisent les contrôles utilisateur définis dans User32.dll et les contrôles communs définis dans ComCtl32.dll version 5. Pour obtenir la liste des versions de DLL et leurs plateformes de distribution, consultez la page [versions de contrôle courantes](common-control-versions.md).
 
 Si vous souhaitez que votre application utilise des styles visuels, vous devez ajouter un manifeste d’application ou une directive de compilateur qui indique que ComCtl32.dll version 6 doit être utilisée si elle est disponible.
 
@@ -70,7 +70,7 @@ L’exemple de manifeste fournit également une description de votre application
 Voici un exemple de fichier manifeste.
 
 > [!IMPORTANT]
-> Définissez l’entrée **ProcessorArchitecture** sur **« x86 »** si votre application cible la plateforme Windows 32 bits, ou sur **« amd64 »** si votre application cible la plateforme Windows 64 bits. Vous pouvez également spécifier **« \* »**, ce qui garantit que toutes les plateformes sont ciblées, comme illustré dans les exemples suivants.
+> définissez l’entrée **processorArchitecture** sur **« X86 »** si votre application cible la plateforme 32 bits Windows, ou sur **« amd64 »** si votre application cible la plateforme 64 bits Windows. Vous pouvez également spécifier **« \* »**, ce qui garantit que toutes les plateformes sont ciblées, comme illustré dans les exemples suivants.
 
  
 
@@ -102,7 +102,7 @@ Voici un exemple de fichier manifeste.
 
 
 
-Si vous utilisez Microsoft Visual C++ 2005 ou une version ultérieure, vous pouvez ajouter la directive de compilateur suivante à votre code source au lieu de créer manuellement un manifeste. Pour une meilleure lisibilité, la directive est divisée en plusieurs lignes ici.
+si vous utilisez Microsoft Visual C++ 2005 ou une version ultérieure, vous pouvez ajouter la directive de compilateur suivante à votre code source au lieu de créer manuellement un manifeste. Pour une meilleure lisibilité, la directive est divisée en plusieurs lignes ici.
 
 
 ```C++
@@ -121,7 +121,7 @@ Voici quelques exemples d’applications qui n’utilisent pas d’extensions ti
 
 -   Calculatrice
 -   FreeCell (dans Windows Vista et Windows 7)
--   Démineur (dans Windows Vista et Windows 7)
+-   démineur (dans Windows Vista et Windows 7)
 -   Bloc-notes
 -   Solitaire (dans Windows Vista et Windows 7)
 
@@ -304,9 +304,9 @@ Si vous souhaitez désactiver l’utilisation de styles visuels pour toutes les 
 
 ## <a name="making-your-application-compatible-with-earlier-versions-of-windows"></a>Rendre votre application compatible avec les versions antérieures de Windows
 
-Une grande partie de l’architecture de style visuel est conçue pour faciliter la livraison de votre produit sur les versions antérieures de Windows qui ne prennent pas en charge la modification de l’apparence des contrôles. Lors de l’expédition d’une application pour plusieurs systèmes d’exploitation, tenez compte des éléments suivants :
+une grande partie de l’architecture de style visuel est conçue pour faciliter la livraison de votre produit sur les versions antérieures de Windows qui ne prennent pas en charge la modification de l’apparence des contrôles. Lors de l’expédition d’une application pour plusieurs systèmes d’exploitation, tenez compte des éléments suivants :
 
--   Dans les versions de Windows antérieures à Windows 8, les styles visuels sont désactivés lorsque le contraste élevé est activé. Pour prendre en charge le contraste élevé, une application héritée qui prend en charge les styles visuels doit fournir un chemin de code distinct pour dessiner correctement les éléments d’interface utilisateur en contraste élevé. Dans Windows 8, le contraste élevé fait partie des styles visuels. Toutefois, une application Windows 8 (qui comprend le GUID de Windows 8 dans la section compatibilité de son manifeste d’application) doit toujours fournir un chemin d’accès de code distinct pour restituer correctement avec un contraste élevé sur Windows 7.
+-   dans les versions de Windows antérieures à Windows 8, les styles visuels sont désactivés lorsque le contraste élevé est activé. Pour prendre en charge le contraste élevé, une application héritée qui prend en charge les styles visuels doit fournir un chemin de code distinct pour dessiner correctement les éléments d’interface utilisateur en contraste élevé. dans Windows 8, le contraste élevé fait partie des styles visuels. toutefois, une application Windows 8 (qui comprend le GUID Windows 8 dans la section de compatibilité de son manifeste d’application) doit toujours fournir un chemin de code distinct pour restituer correctement avec un contraste élevé sur Windows 7 un précédemment.
 -   Si vous utilisez les fonctionnalités de ComCtl32.dll version 6, telles que l’affichage en mosaïque ou le contrôle de lien, vous devez gérer le cas où ces contrôles ne sont pas disponibles sur l’ordinateur de l’utilisateur. ComCtl32.dll version 6 n’est pas redistribuable.
 -   Testez votre application pour vous assurer que vous ne vous fiez pas aux fonctionnalités de ComCtl32.dll version 6 sans vérifier d’abord la version actuelle.
 -   Ne pas lier à UxTheme. lib.

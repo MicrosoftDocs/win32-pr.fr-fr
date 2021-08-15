@@ -17,12 +17,12 @@ keywords:
 - WinEvents
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93e6973356fe6be922e73eef70e5107b6dcabe0a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: de5b95d7daa3570e8b4b9b1d61c7c5f5590c6456d83190195e57af66811f1672
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324798"
 ---
 # <a name="design-custom-properties-events-and-control-patterns"></a>Concevoir des propriétés personnalisées, des événements et des modèles de contrôle
 
@@ -75,7 +75,7 @@ Un événement personnalisé doit respecter les règles de conception suivantes�
 
 ### <a name="custom-ui-automation-events-and-winevents"></a>Événements UI Automation personnalisés et WinEvents
 
-Les [winEvents](winevents-infrastructure.md) sont un mécanisme de communication et d’événement d’événements très utile dans la plate-forme Microsoft Windows. Toutefois, l’introduction d’un nouvel ID WinEvent est risquée, car cela peut provoquer des collisions avec d’autres applications ou le système d’exploitation, entraînant une instabilité du système. Pour éviter les collisions, Microsoft a défini plusieurs catégories différentes de WinEvents et, pour chaque catégorie, a défini une ou plusieurs plages de valeurs à utiliser en tant qu’ID WinEvent. Pour plus d’informations, consultez [allocation d’ID WinEvent](allocation-of-winevent-ids.md).
+les [WinEvents](winevents-infrastructure.md) sont un mécanisme de communication et d’événement d’événements très utile dans la plate-forme Microsoft Windows. Toutefois, l’introduction d’un nouvel ID WinEvent est risquée, car cela peut provoquer des collisions avec d’autres applications ou le système d’exploitation, entraînant une instabilité du système. Pour éviter les collisions, Microsoft a défini plusieurs catégories différentes de WinEvents et, pour chaque catégorie, a défini une ou plusieurs plages de valeurs à utiliser en tant qu’ID WinEvent. Pour plus d’informations, consultez [allocation d’ID WinEvent](allocation-of-winevent-ids.md).
 
 Les événements UI Automation personnalisés évitent les conflits en allouant l’ID d’événement en interne dans l’infrastructure UI Automation.
 
@@ -112,6 +112,6 @@ Bien que cette rubrique se concentre sur la façon d’inscrire des propriétés
 [Vue d'ensemble des modèles de contrôle UI Automation](uiauto-controlpatternsoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

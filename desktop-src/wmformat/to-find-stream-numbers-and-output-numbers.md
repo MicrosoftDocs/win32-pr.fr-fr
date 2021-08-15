@@ -12,12 +12,12 @@ keywords:
 - flux, recherche de nombres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef4bdf10eaeb95f981ab2972ba56ad09b867cd99
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 4349bc98214d61a1529fe4a64dd142a9695d909f9e2a650162a8e4f8ac618177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103723466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699587"
 ---
 # <a name="to-find-stream-numbers-and-output-numbers"></a>Pour rechercher les numéros de flux et les numéros de sortie
 
@@ -34,15 +34,15 @@ Pour rechercher le numéro de flux qui correspond à un numéro de sortie, appel
 [**Interface IWMSyncReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
 </dt> <dt>
 
-[**Entrées, flux et sorties**](inputs-streams-and-outputs.md)
+[**entrées, Flux et sorties**](inputs-streams-and-outputs.md)
 </dt> <dt>
 
 [**Lecture des fichiers avec le lecteur synchrone**](reading-files-with-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

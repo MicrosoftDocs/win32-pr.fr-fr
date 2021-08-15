@@ -4,12 +4,12 @@ ms.assetid: a85ec2bc-a413-41a6-b3d2-5fa81a9e7bb6
 title: Certificats de clé publique X. 509
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1acd602e9b47cb7825f6d75df0fb74399b914db3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc1eb40e57114f4509884df3a5ac36e7ae8ea0486817ff300d58f4273d51c123
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104562484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903250"
 ---
 # <a name="x509-public-key-certificates"></a>Certificats de clé publique X. 509
 

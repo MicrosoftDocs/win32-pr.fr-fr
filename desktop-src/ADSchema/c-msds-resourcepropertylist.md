@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 813331fae10016e437ea9d687c874d6d7d941268
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fb18c964f3c32d129c33102cac651a3e7934ed9b0f8f8c34f6428f3ef272290c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104033312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118422363"
 ---
 # <a name="ms-ds-resource-property-list-class"></a>classe ms-DS-Resource-Property-List
 
@@ -64,7 +64,7 @@ Un objet de cette classe contient une liste de propriétés de ressource.
 
 
 
-## <a name="windows-server-2012-attributes"></a>Attributs Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Attributs
 
 Cette classe contient les attributs suivants pour Windows Server 2012 :
 
@@ -88,7 +88,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**DSA-signature**](a-dsasignature.md)                                                      | Faux     | [**Retour au début**](c-top.md)<br/>  |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/>  |
 | [**Nom de l’extension**](a-extensionname.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>  |
-| [**Père**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/>  |
+| [**Indicateurs**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/>  |
 | [**Entrée de**](a-fromentry.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/>  |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>  |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>  |
@@ -144,7 +144,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>  |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>  |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>  |
-| [**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>  |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>  |
 | [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/>  |
 | [**ms-DS-value-type-référence-BL**](a-msds-valuetypereferencebl.md)                         | Faux     | [**Retour au début**](c-top.md)<br/>  |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/>  |

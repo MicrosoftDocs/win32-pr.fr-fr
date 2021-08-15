@@ -1,14 +1,14 @@
-- name: Le shell Windows
+- name: Shell Windows
   href: shell-entry.md
   items:
     - name: Guide du développeur de l’interpréteur de commandes
       href: intro.md
       items:
-        - name: "Considérations relatives à la sécurité\_: Microsoft Windows Shell"
+        - name: "considérations relatives à la sécurité\_: Microsoft Windows Shell"
           href: sec-shell.md
         - name: Conseils pour l’implémentation des extensions de In-Process
           href: shell-and-managed-code.md
-        - name: Développement avec l’Explorateur Windows
+        - name: développement avec l’explorateur de Windows
           href: developing-with-windows-explorer.md
         - name: Versions des DLL Shell et Shlwapi
           href: versions.md
@@ -179,7 +179,7 @@
                   href: how-to-use-a-junction-point-to-open-a-rooted-view.md
                 - name: Comment ouvrir une vue enracinée d’un point de jonction à l’aide d’un fichier de raccourci
                   href: how-to-use-a-shortcut-file-to-open-a-rooted-view.md
-            - name: Extension de l’Explorateur Windows
+            - name: extension de Windows Explorer
               href: extending-explorer-bumper.md
               items:
                 - name: Concepts communs de l’Explorateur
@@ -190,7 +190,7 @@
                   href: band-objects.md
                 - name: Extension des menus contextuels
                   href: context.md
-                - name: Intégrer un fournisseur de stockage cloud
+                - name: intégrer un fournisseur de Stockage Cloud
                   href: integrate-cloud-storage.md
                 - name: Comment définir des verbes étendus
                   href: how-to-define-extended-verbs.md
@@ -294,7 +294,7 @@
               href: assigning-control-panel-categories.md
             - name: Création de liens de tâches pouvant faire l’objet d’une recherche pour un élément du panneau de configuration
               href: creating-searchable-task-links.md
-            - name: Accès au panneau de configuration en mode sans échec
+            - name: accès au panneau de configuration en Mode Coffre
               href: accessing-the-cp-in-safe-mode-under-vista.md
             - name: Noms canoniques des éléments du panneau de configuration
               href: controlpanel-canonical-names.md
@@ -310,7 +310,7 @@
                   href: common-file-dialog.md
                 - name: Obtention de l’ID d’un dossier
                   href: folder-id.md
-            - name: Bibliothèques Windows
+            - name: Windows Bibliotheque
               href: library-ovw.md
               items:
                 - name: À propos des bibliothèques
@@ -328,7 +328,7 @@
                   href: knownfolderid.md
             - name: Gestion du système de fichiers
               href: manage.md
-            - name: Inscription d’un navigateur Internet ou d’un client de messagerie à l’aide du menu Démarrer de Windows
+            - name: inscription d’un navigateur Internet ou d’un Client de messagerie à l’aide du Menu démarrer Windows
               href: start-menu-reg.md
             - name: Inscription de programmes avec des types de clients
               href: reg-middleware-apps.md
@@ -392,7 +392,7 @@
             - name: Centre de synchronisation
               href: synchronization-center-bumper.md
               items:
-                - name: Développement d’un gestionnaire de centre de synchronisation Windows
+                - name: développement d’un gestionnaire de Windows Sync Center
                   href: sync-center-handler.md
                 - name: gestionnaire de synchronisation
                   href: syncmgr-start-page.md
@@ -517,7 +517,7 @@
               items:
                 - name: Initialiser
                   href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogressdialog-initialize
-                - name: Stop
+                - name: Arrêter
                   href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogressdialog-stop
             - name: IApplicationActivationManager
               href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationactivationmanager
@@ -813,7 +813,7 @@
             - name: IConnectableCredentialProviderCredential
               href: /windows/desktop/api/Credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential
               items:
-                - name: Connecter
+                - name: Se connecter
                   href: /windows/desktop/api/Credentialprovider/nf-credentialprovider-iconnectablecredentialprovidercredential-connect
                 - name: Déconnecter
                   href: /windows/desktop/api/Credentialprovider/nf-credentialprovider-iconnectablecredentialprovidercredential-disconnect
@@ -1792,7 +1792,7 @@
             - name: IFileSyncMergeHandler
               href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesyncmergehandler
               items:
-                - name: Fusionner
+                - name: Fusionner (Merge)
                   href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesyncmergehandler-merge
                 - name: ShowResolveConflictUIAsync
                   href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesyncmergehandler-showresolveconflictuiasync
@@ -2714,7 +2714,7 @@
                   href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-startprogressdialog
                 - name: StopProgressDialog
                   href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-stopprogressdialog
-                - name: Minuteur
+                - name: Minuterie
                   href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-timer
             - name: IPublishedApp
               href: /windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp
@@ -3736,7 +3736,7 @@
                   href: /windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror
                 - name: PrepareForSyncCompleted
                   href: /windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronizecallback-prepareforsynccompleted
-                - name: Progression
+                - name: Avancement
                   href: /windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronizecallback-progress
                 - name: ShowErrorCompleted
                   href: /windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronizecallback-showerrorcompleted
@@ -3795,7 +3795,7 @@
             - name: ISyncMgrSyncResult
               href: /windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncresult
               items:
-                - name: Résultats
+                - name: Résultat
                   href: /windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrsyncresult-result
             - name: ISyncMgrUIOperation
               href: /windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgruioperation
@@ -6077,7 +6077,7 @@
                   href: didiskquotauser-accountstatus.md
                 - name: DisplayName
                   href: didiskquotauser-displayname.md
-                - name: id
+                - name: ID
                   href: didiskquotauser-id.md
                 - name: Invalidate
                   href: didiskquotauser-invalidate.md
@@ -6164,7 +6164,7 @@
                   href: folder-parentfolder.md
                 - name: ParseName
                   href: folder-parsename.md
-                - name: Intitulé
+                - name: Titre
                   href: folder-title.md
             - name: Dossier2
               href: folder2-object.md
@@ -6204,13 +6204,13 @@
                   href: folderitem-name.md
                 - name: Parent
                   href: folderitem-parent.md
-                - name: Path
+                - name: Chemin
                   href: folderitem-path.md
                 - name: Taille
                   href: folderitem-size.md
                 - name: Type
                   href: folderitem-type.md
-                - name: Verbes et adverbes
+                - name: Verbes
                   href: folderitem-verbs.md
             - name: FolderItems
               href: folderitems.md
@@ -6235,7 +6235,7 @@
               items:
                 - name: Filtrer
                   href: folderitems3-filter.md
-                - name: Verbes et adverbes
+                - name: Verbes
                   href: folderitems3-verbs.md
             - name: FolderItemVerb
               href: folderitemverb.md
@@ -6498,7 +6498,7 @@
                   href: shelllinkobject-geticonlocation.md
                 - name: Touche d’accès rapide
                   href: shelllinkobject-hotkey.md
-                - name: Path
+                - name: Chemin
                   href: shelllinkobject-path.md
                 - name: Résoudre
                   href: shelllinkobject-resolve.md

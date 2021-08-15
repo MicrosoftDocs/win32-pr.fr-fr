@@ -4,12 +4,12 @@ ms.assetid: ff964f7f-a084-4de3-8b2b-8efb6c9f4a9f
 title: Heures d’horloge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e0639fd2b38e312f30f932fcf508427cd71c054
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b0075dc2d8c2273c8ade612244f0f7d551996756e55000043ffe3bc952227fc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118402069"
 ---
 # <a name="clock-times"></a>Heures d’horloge
 
@@ -24,7 +24,7 @@ DirectShow définit deux heures d’horloge associées : le temps de référenc
 
 Quand un échantillon de média a un horodatage *t*, cela signifie que l’exemple doit être rendu au temps de flux *t*. C’est la raison pour laquelle le temps de flux est également appelé *heure de présentation*.
 
-Quand une application appelle [**IMediaControl :: Run**](/windows/desktop/api/Control/nf-control-imediacontrol-run) pour exécuter le graphique de filtre, le gestionnaire de graphique de filtre appelle [**IMediaFilter :: Run**](/windows/desktop/api/Strmif/nf-strmif-imediafilter-run) sur chaque filtre. Pour compenser le temps de démarrage de l’exécution des filtres, le gestionnaire de graphes de filtres spécifie une heure de début légèrement à l’avenir.
+quand une application appelle [**IMediaControl :: run**](/windows/desktop/api/Control/nf-control-imediacontrol-run) pour exécuter le graphique de filtre, le gestionnaire de Graphs de filtre appelle [**IMediaFilter :: run**](/windows/desktop/api/Strmif/nf-strmif-imediafilter-run) sur chaque filtre. pour compenser le temps de démarrage de l’exécution des filtres, le gestionnaire de Graph de filtre spécifie une heure de début à l’avenir.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

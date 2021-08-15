@@ -4,12 +4,12 @@ ms.assetid: 051a49ad-bb4c-459f-ae52-dc359a03a14a
 title: Stratégie de métadonnées de photo System. photo. LightSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec9b3d31f01cdd2bea8d3fabbbc730a41f1fb0da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 195d165a6a929c8e0b4bf2dd165a5f22068a8b75e8ea4dfcddb5b8979900b035
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204721"
 ---
 # <a name="systemphotolightsource-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. LightSource
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. ligh
 
 Photo de la \_ \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37384} | ushort      |
 | 2     | /XMP/EXIF : LightSource         | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37384} | ushort      |
 | 2     | /XMP/EXIF : LightSource         | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37384} |
 | 2     | /XMP/EXIF : lightsource         |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37384}  | ushort      |
 | 2     | /IFD/XMP/EXIF : LightSource | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37384}  | ushort      |
 | 2     | /IFD/XMP/EXIF : LightSource | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      |
+| Commande | Chemin                      |
 |-------|---------------------------|
 | 1     | /IFD/EXIF/{UShort = 37384}  |
 | 2     | /IFD/XMP/EXIF : lightsource |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

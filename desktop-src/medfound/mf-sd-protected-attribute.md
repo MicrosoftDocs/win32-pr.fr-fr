@@ -4,12 +4,12 @@ ms.assetid: 1c1a201c-4b55-4b86-a08f-d06c1a7db29d
 title: Attribut MF_SD_PROTECTED (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c97320d15353b8e23a43fa4efac2e5883a7366f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22ae6cf92b3ada6309de7e92a722db38c88ce94a8af88aa6cc0176f738ff194b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118474048"
 ---
 # <a name="mf_sd_protected-attribute"></a>\_ \_ Attribut protégé SD MF
 
@@ -21,7 +21,7 @@ Indique si un flux de données contient du contenu protégé.
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux descripteurs de flux. Si la valeur de l’attribut est **true**, le flux de données contient du contenu protégé. Si la valeur est **false** ou si l’attribut n’est pas défini, le flux contient du contenu clair.
 
@@ -54,8 +54,8 @@ BOOL StreamHasProtectedContent(IMFStreamDescriptor *pSD)
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

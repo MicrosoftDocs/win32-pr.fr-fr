@@ -3,9 +3,9 @@ title: Méthode IWMPStringCollection2 getAttributeCountByType
 description: La méthode getAttributeCountByType retourne le nombre d’attributs associés à l’index de collection de chaînes, au nom d’attribut et à la langue spécifiés.
 ms.assetid: 30312039-3676-4322-b6f6-fb86098bf578
 keywords:
-- méthode getAttributeCountByType lecteur Windows Media
-- méthode getAttributeCountByType lecteur Windows Media, interface IWMPStringCollection2
-- Interface IWMPStringCollection2 lecteur Windows Media, méthode getAttributeCountByType
+- Lecteur Windows Media de la méthode getAttributeCountByType
+- méthode getAttributeCountByType Lecteur Windows Media, interface IWMPStringCollection2
+- Lecteur Windows Media de l’interface IWMPStringCollection2, méthode getAttributeCountByType
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9bb60fdd843fb3f45b6e4e3aff444a8a915fa0f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c236d03cad0612d8306b8ccde370136cb9b31acca82e0aa52761ed56fb4b9bb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330913"
 ---
 # <a name="iwmpstringcollection2getattributecountbytype-method"></a>IWMPStringCollection2 :: getAttributeCountByType, méthode
 
@@ -82,7 +82,7 @@ Implements IWMPStringCollection2.getAttributeCountByType
 
 **System. Int32** qui est le nombre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est utilisée pour découvrir le nombre d’attributs correspondant à un nom d’attribut particulier pour un élément **StringCollection** donné. Les numéros d’index peuvent ensuite être passés au quatrième paramètre de la méthode **getItemInfoByType** .
 

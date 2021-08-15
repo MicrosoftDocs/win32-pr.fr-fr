@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ab5f8d755ad4af3127a0c238defc9f1c422061bc
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 913cf8372cb08860db639a9ba10bed872648526e7c8850e2e101912fb9f1354e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104992005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118510916"
 ---
 # <a name="rwtexture2dloadint-function"></a>RWTexture2D :: Load (int), fonction
 
@@ -54,13 +54,13 @@ Tapez :
 
 Le type de retour correspond au type dans la déclaration pour l’objet [**RWTexture2D**](sm5-object-rwtexture2d.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

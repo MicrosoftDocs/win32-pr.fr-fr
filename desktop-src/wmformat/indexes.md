@@ -9,7 +9,7 @@ keywords:
 - Windows Media Format SDK, index temporels
 - ASF (Advanced Systems Format), index temporels
 - ASF (format de systèmes avancés), index temporels
-- Kit de développement logiciel (SDK) Windows Media format, index basés sur des frames
+- Windows Kit de développement logiciel (SDK) Media format, index basés sur des frames
 - ASF (Advanced Systems Format), index basés sur des trames
 - ASF (format de systèmes avancés), index basés sur des trames
 - Windows Media Format SDK, codes temporels SMPTE
@@ -21,18 +21,18 @@ keywords:
 - Codes temporels SMPTE, index
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d2e5a194f9c495720cbc40ccdb192509723eee0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 71af891ba2986d3ece1eb2d4cc7eb7ff4086c06eee1f60eabb2210bdc8b6bacd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118702483"
 ---
 # <a name="indexes"></a>Index
 
 Une exigence courante pour les applications qui lisent des fichiers multimédias numériques est la possibilité de rechercher un point spécifique dans le contenu. La recherche peut être difficile, car il n’y a aucune garantie que les différents flux d’un fichier comportent des échantillons avec des heures de début simultanées. Ce problème est résolu avec l’utilisation d' *index*. Un index est un objet dans un fichier ASF qui représente des exemples vidéo avec les durées de présentation. Aucun index n’est requis pour les flux audio, car les données audio sont plus étroitement liées à l’heure de présentation que les données vidéo.
 
-L’objet indexeur du kit de développement logiciel (SDK) du format Windows Media peut créer trois types d’index différents : les index temporels, les index basés sur des trames et les index de code temporel SMPTE.
+l’objet indexeur du Windows Media Format SDK peut créer trois types d’index différents : les index temporels, les index basés sur des trames et les index de code temporel SMPTE.
 
 Les index temporels sont le type le plus courant. Ils associent simplement les exemples de vidéos aux temps de présentation correspondants.
 
@@ -58,9 +58,9 @@ Un fichier ASF peut contenir un index de chaque type pour chaque flux vidéo qu�
 [**Lecture des fichiers avec le lecteur synchrone**](reading-files-with-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

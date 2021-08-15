@@ -7,12 +7,12 @@ keywords:
 - Active Directory des exemples Active Directory, réception de notifications de modification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4edd1b5d6e91ee712e1586bee3b63fcd25ceaf95
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b1d0cbc3a6aeebf1e5e313993fcc060d78379e7aa1f806135f56b4c59926f9ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103940825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118693137"
 ---
 # <a name="example-code-for-receiving-change-notifications"></a>Exemple de code pour recevoir des notifications de modification
 
@@ -407,6 +407,6 @@ int wmain(int   cArgs,WCHAR  *pArgs[])
 
 
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: PLAYLIST. deleteSelectedFromLibrary
 description: La méthode deleteSelectedFromLibrary supprime l’élément sélectionné de la sélection et de la bibliothèque.
 ms.assetid: 04775d62-91dc-4c08-a864-0301fbc1995f
 keywords:
-- Lecteur Windows Media PLAYLIST. deleteSelectedFromLibrary
+- PLAYLIST. deleteSelectedFromLibrary Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d08699edfb7811503a1df8fcc2c622e234a0aaaf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 489525b96ddff6fc68cfaeac8749bf400e5ff5ad674f111aef6a37f3d98bec3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747077"
 ---
 # <a name="playlistdeleteselectedfromlibrary"></a>PLAYLIST. deleteSelectedFromLibrary
 

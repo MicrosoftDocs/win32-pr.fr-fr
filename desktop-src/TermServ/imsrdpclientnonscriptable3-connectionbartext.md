@@ -44,12 +44,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76819dd28ffd8b2ee5e2dfb30017e341dd49db5b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 89dac8f704f5ecaa7bd521af10f05fd1c56d2adebff70827862478847a782faf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117941592"
 ---
 # <a name="imsrdpclientnonscriptable3connectionbartext-property"></a>IMsRdpClientNonScriptable3 :: ConnectionBarText, propriété
 
@@ -76,7 +76,7 @@ HRESULT get_ConnectionBarText(
 
 Définit la chaîne de texte à afficher dans la barre de connexion.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez appeler la méthode **IMsRdpClientNonScriptable3 ::p ut \_ ConnectionBarText** avant d’appeler la méthode [**IMsTscSecuredSettings ::P ut \_ fullscreen**](imstscsecuredsettings-fullscreen.md) ou [**IMsRdpClient ::p ut \_ fullscreen**](imsrdpclient-fullscreen.md) .
 

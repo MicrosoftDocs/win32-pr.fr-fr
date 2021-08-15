@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6564062fc9f76a840b37f6e134e960480d67a2ee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9f6974a04f92852ef9e56b473126eb8e0cc2d92a9bdcf5192e10abe800978bcd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846873"
 ---
 # <a name="iwmdrmlicensequeryqueryactionallowed-method"></a>IWMDRMLicenseQuery :: QueryActionAllowed, méthode
 
@@ -98,7 +98,7 @@ Tableau d’une ou plusieurs variables DWORD qui reçoivent les résultats de la
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -110,7 +110,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous interrogez des droits de lecture et de copie, vous obtiendrez des résultats plus précis en définissant les paramètres environnementaux. Utilisez la méthode [**SetActionAllowedQueryParams**](iwmdrmlicensequery-setactionallowedqueryparams.md) pour définir les paramètres d’environnement. Les résultats des requêtes pour le droit de gravure ne sont pas affectés par les paramètres environnementaux. vous pouvez utiliser les valeurs par défaut en toute sécurité.
 

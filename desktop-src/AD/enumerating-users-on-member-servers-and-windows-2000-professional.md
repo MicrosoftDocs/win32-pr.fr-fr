@@ -1,24 +1,24 @@
 ---
-title: Énumération des utilisateurs sur les serveurs membres et Windows 2000 professionnel
-description: Cette rubrique montre comment énumérer tous les utilisateurs, dans une base de données de sécurité locale, sur des serveurs membres et des ordinateurs s’exécutant sur Windows 2000 professionnel.
+title: énumération des utilisateurs sur les serveurs membres et les Windows 2000 Professional
+description: cette rubrique montre comment énumérer tous les utilisateurs, dans une base de données de sécurité locale, sur des serveurs membres et des ordinateurs s’exécutant sur Windows 2000 Professional.
 ms.assetid: 56c20e8a-2861-4cd9-8058-271c89db7ec9
 ms.tgt_platform: multiple
 keywords:
-- Énumération des utilisateurs sur les serveurs membres et la publicité Windows 2000 professionnel
-- utilisateurs Active Directory, énumération des utilisateurs sur les serveurs membres et Windows 2000 professionnel
-- Active Directory, utilisation de, utilisateurs, énumération des utilisateurs sur les serveurs membres et Windows 2000 professionnel
+- énumération des utilisateurs sur les serveurs membres et Windows 2000 Professional AD
+- utilisateurs active directory, énumération des utilisateurs sur les serveurs membres et Windows 2000 Professional
+- Active Directory, utilisation de, utilisateurs, énumération des utilisateurs sur les serveurs membres et Windows 2000 Professional
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 664af51b7feb2e0b9a683664659eefda11c9cb9d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a7f72e38a00e0fcc4310f7b8498b0dda28d71231df7e65fcf2de9945f5feef2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694876"
 ---
-# <a name="enumerating-users-on-member-servers-and-windows-2000-professional"></a>Énumération des utilisateurs sur les serveurs membres et Windows 2000 professionnel
+# <a name="enumerating-users-on-member-servers-and-windows-2000-professional"></a>énumération des utilisateurs sur les serveurs membres et les Windows 2000 Professional
 
-Cette rubrique montre comment énumérer tous les utilisateurs, dans une base de données de sécurité locale, sur des serveurs membres et des ordinateurs s’exécutant sur Windows 2000 professionnel.
+cette rubrique montre comment énumérer tous les utilisateurs, dans une base de données de sécurité locale, sur des serveurs membres et des ordinateurs s’exécutant sur Windows 2000 Professional.
 
 **Pour énumérer les utilisateurs**
 
@@ -29,6 +29,6 @@ Cette rubrique montre comment énumérer tous les utilisateurs, dans une base de
 2.  Ajoutez « user » à la propriété [**IADsContainer. Filter**](/windows/desktop/ADSI/iadscontainer-property-methods) . L’énumération ne contient alors que les objets qui ont la classe d’objet « User ».
 3.  Énumérez les objets. Pour chaque objet utilisateur, utilisez les méthodes de l’interface [**IADs**](/windows/desktop/api/iads/nn-iads-iads) ou [**IADsUser**](/windows/desktop/api/iads/nn-iads-iadsuser) pour lire les propriétés de l’utilisateur.
 
- 
+ 
 
- 
+ 

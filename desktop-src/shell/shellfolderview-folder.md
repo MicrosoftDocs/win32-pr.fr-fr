@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 370fddc1428c8f77edb77cdac2dc04123fc5211f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 40ff2dbed37aa8ceb80072870c78cee4e63cba3656550081be2c655cb6f6ddf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857708"
 ---
 # <a name="shellfolderviewfolder-property"></a>ShellFolderView. Folder, propriété
 
@@ -39,13 +39,13 @@ Folder = ShellFolderView.Folder
 
 Objet qui reçoit l’objet [**Folder**](folder.md) .
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Le **dossier** ne peut être appelé que sur le système local. Elle ne fonctionnera pas lorsqu’elle sera exécutée sur une page Web via HTTP ou UNC.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte de cette propriété pour JScript Embedded en HTML.
+l’exemple suivant illustre l’utilisation appropriée de cette propriété pour JScript incorporée en HTML.
 
 
 ```JScript
@@ -99,7 +99,7 @@ L’exemple suivant illustre l’utilisation correcte de cette propriété pour 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

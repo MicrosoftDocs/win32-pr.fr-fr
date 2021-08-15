@@ -1,28 +1,28 @@
 ---
-description: L’Explorateur Windows est une application puissante de navigation et de gestion des ressources.
+description: Windows L’Explorateur est une application puissante de navigation et de gestion des ressources.
 ms.assetid: 879CE652-EDC0-4a14-925E-C83763133BE5
-title: Développement avec l’Explorateur Windows
+title: développement avec l’explorateur de Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b7b68d48f2d1becea23311847a5ce41b3776321
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22d00b513b3ee73c30b100cb4236d2c9fb327e1f9557d12ba86738ee9e910ca2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460182"
 ---
-# <a name="developing-with-windows-explorer"></a>Développement avec l’Explorateur Windows
+# <a name="developing-with-windows-explorer"></a>développement avec l’explorateur de Windows
 
-L’Explorateur Windows est une application puissante de navigation et de gestion des ressources. L’Explorateur Windows est accessible en tant qu’ensemble intégré à Explorer.exe ou à l’interface [**IExplorerBrowser**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser) . L’Explorateur Windows (Explorer.exe) peut être généré en tant que processus distinct à l’aide de [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) ou d’une fonction similaire.
+Windows L’Explorateur est une application puissante de navigation et de gestion des ressources. Windows L’Explorateur est accessible en tant qu’ensemble intégré via Explorer.exe ou l’interface [**IExplorerBrowser**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser) . Windows L’Explorateur (Explorer.exe) peut être généré en tant que processus distinct à l’aide de [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) ou d’une fonction similaire.
 
 > [!Note]  
-> Les options de ligne de commande pour Explorer.exe sont documentées sur le site du support technique de Microsoft Windows dans l’article options d' Command-Line de l' [Explorateur Windows](https://support.microsoft.com/kb/152457).
+> les options de ligne de commande pour Explorer.exe sont documentées sur le site du Support technique Microsoft Windows dans l’article [options de Command-Line de Windows Explorer](https://support.microsoft.com/kb/152457).
 
  
 
-Les fenêtres d’explorateur ouvertes peuvent être découvertes et programmées à l’aide de [**IShellWindows**](/windows/desktop/api/Exdisp/nn-exdisp-ishellwindows) (CLSID \_ ShellWindows), et de nouvelles instances de l’Explorateur Windows peuvent être créées à l’aide de [**IWebBrowser2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752127(v=vs.85)) (CLSID \_ ShellBrowserWindow).
+les fenêtres d’explorateur ouvertes peuvent être découvertes et programmées à l’aide de [**IShellWindows**](/windows/desktop/api/Exdisp/nn-exdisp-ishellwindows) (clsid \_ ShellWindows), et de nouvelles instances de Windows explorer peuvent être créées à l’aide de [**IWebBrowser2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752127(v=vs.85)) (clsid \_ ShellBrowserWindow).
 
-L’exemple de code suivant montre comment le modèle Automation de l’Explorateur Windows peut être utilisé pour créer et découvrir des fenêtres Explorateur qui exécutent.
+l’exemple de code suivant montre comment le modèle automation Windows explorer peut être utilisé pour créer et découvrir des fenêtres explorateur qui exécutent.
 
 
 ```
@@ -225,9 +225,9 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 
 
 
-La zone cliente de l’Explorateur Windows peut être hébergée à l’aide de l’interface [IExplorerBrowser](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser) . Le client de l’Explorateur Windows et les contrôles d’arborescence de l’espace de noms sont des composants standard de Windows Vista et versions ultérieures. Les développeurs peuvent réutiliser les interfaces comme des composants de génération. Ces contrôles sont couramment utilisés pour créer des explorateurs personnalisés appropriés au domaine du problème.
+la zone cliente Windows Explorer peut être hébergée à l’aide de l’interface [IExplorerBrowser](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser) . le client Windows Explorer et les contrôles d’arborescence d’espace de noms sont des composants standard de Windows Vista et versions ultérieures. Les développeurs peuvent réutiliser les interfaces comme des composants de génération. Ces contrôles sont couramment utilisés pour créer des explorateurs personnalisés appropriés au domaine du problème.
 
-Les contrôles de l’Explorateur Windows sont classés dans les catégories fonctionnelles suivantes :
+les contrôles de Windows Explorer sont classés dans les catégories fonctionnelles suivantes :
 
 -   [Contrôles de navigation](#navigation-controls)
 -   [Contrôles de commande](#command-controls)
@@ -237,9 +237,9 @@ Les contrôles de l’Explorateur Windows sont classés dans les catégories fon
 
 ## <a name="navigation-controls"></a>Contrôles de navigation
 
-Les contrôles de navigation aident les utilisateurs à déterminer le contexte et à naviguer dans l’espace de domaine logique associé, appelé espace. Par exemple, le espace pour l’Explorateur Windows est l’espace de noms Shell. Les espaces sont composés de zéro ou de plusieurs pages.
+Les contrôles de navigation aident les utilisateurs à déterminer le contexte et à naviguer dans l’espace de domaine logique associé, appelé espace. par exemple, le espace pour Windows Explorer est l’espace de noms Shell. Les espaces sont composés de zéro ou de plusieurs pages.
 
-Le tableau suivant répertorie et décrit les contrôles de navigation disponibles dans l’Explorateur Windows dans les systèmes d’exploitation Windows Vista et versions ultérieures.
+le tableau suivant répertorie et décrit les contrôles de navigation disponibles dans Windows Explorer dans les systèmes d’exploitation Windows Vista et versions ultérieures.
 
 
 
@@ -248,7 +248,7 @@ Le tableau suivant répertorie et décrit les contrôles de navigation disponibl
 | Barre d’adresses (contrôle de navigation) | Affiche l’adresse de la page actuelle dans le espace. Vous pouvez cliquer sur les boutons de navigation pour accéder à n’importe quel ancêtre dans le espace. Les utilisateurs peuvent également taper des URL et des chemins d’accès pour naviguer. |
 | Arborescence des dossiers                      | Fournit une nouvelle version d’un contrôle d’arborescence, optimisé pour les grands espaces.                                                                                                                  |
 | Voyage                           | Active la navigation relative par le biais de boutons de style Web tels que **précédent** et **suivant**.                                                                                                    |
-| Intitulé                            | Affiche le nom et le contexte de l’Explorateur actuel.                                                                                                                                            |
+| Titre                            | Affiche le nom et le contexte de l’Explorateur actuel.                                                                                                                                            |
 | Espace                        | Affiche la branche active de la espace. Les pages peuvent être classées selon différents critères. Les utilisateurs peuvent cliquer sur une page pour y accéder.                                                        |
 
 
@@ -257,7 +257,7 @@ Le tableau suivant répertorie et décrit les contrôles de navigation disponibl
 
 ## <a name="command-controls"></a>Contrôles de commande
 
-Les contrôles de commande publient les fonctionnalités de l’Explorateur Windows pour les utilisateurs. Ces contrôles effectuent des actions générales ou des actions spécifiques à un ou plusieurs éléments sélectionnés.
+les contrôles de commande publient les fonctionnalités de l’explorateur de Windows pour les utilisateurs. Ces contrôles effectuent des actions générales ou des actions spécifiques à un ou plusieurs éléments sélectionnés.
 
 
 
@@ -278,9 +278,9 @@ Les contrôles de propriété et d’aperçu permettent d’afficher un aperçu 
 
 
 
-| Control    | Description                                                                                                                                                                                                                                        |
+| Contrôler    | Description                                                                                                                                                                                                                                        |
 |------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PRÉVERSION    | Affiche un aperçu de l’élément sélectionné, tel qu’une miniature ou une icône en direct.                                                                                                                                                                       |
+| Préversion    | Affiche un aperçu de l’élément sélectionné, tel qu’une miniature ou une icône en direct.                                                                                                                                                                       |
 | Propriétés | Affiche les propriétés de l’élément sélectionné. Pour les sélections multiples, elle affiche un résumé des propriétés pour le groupe d’éléments sélectionné. Pour une sélection null, elle affiche un résumé des propriétés de la page actuelle (contenu de ListView). |
 
 
@@ -293,7 +293,7 @@ Les contrôles de filtrage et d’affichage permettent de manipuler l’ensemble
 
 
 
-| Control   | Description                                                                                                                 |
+| Contrôler   | Description                                                                                                                 |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------|
 | Filtrer    | Filtre ou organise des éléments dans un ListView en fonction des propriétés listées en tant que colonnes. Cliquer sur une colonne trie par cette propriété. |
 | Wordwheel | Filtre de façon dynamique et incrémentielle les éléments affichés dans un ListView en fonction d’une chaîne de texte d’entrée.                      |
@@ -308,7 +308,7 @@ Les contrôles de filtrage et d’affichage permettent de manipuler l’ensemble
 Le contrôle ListView est utilisé pour afficher un ensemble d’éléments dans l’un des quatre modes d’affichage suivants : détails, vignettes, icônes ou Panorama. Le contrôle ListView permet également à l’utilisateur de sélectionner et d’activer un ou plusieurs éléments.
 
 > [!Caution]  
-> Bien que certains de ces contrôles aient des noms et/ou des fonctionnalités qui sont similaires aux contrôles de Windows Presentation Foundation standard (WPF) présents dans l’espace de noms System. Windows. Controls, il s’agit de classes distinctes.
+> bien que certains de ces contrôles aient des noms et/ou des fonctionnalités qui sont semblables aux contrôles de Windows Presentation Foundation standard (WPF) présents dans le système. Windows. Contrôle l’espace de noms, il s’agit de classes distinctes.
 
  
 
@@ -316,7 +316,7 @@ Ces contrôles distincts fonctionnent ensemble en grande partie par le biais d�
 
 
 
-| Catégorie d'événements | Exemple                                                       |
+| Catégorie d'événements |  Exemple                                                       |
 |----------------|---------------------------------------------------------------|
 | Navigation     | Passage d’une page à l’autre.                               |
 | Sélection      | Modification de la sélection actuelle dans le ListView.               |

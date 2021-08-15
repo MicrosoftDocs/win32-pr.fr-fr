@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 237b38890283769e9aac20c9b3a3703ff4b72d3a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b80e034f6b77f869207ecb785edbb935841eed2dba6bde73ad88c441dabf15cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055937"
 ---
 # <a name="leveltype-complex-type"></a>Type complexe LevelType
 
@@ -66,9 +66,9 @@ Définit une valeur de gravité qui détermine le niveau de détail des événem
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Voici les valeurs de niveau prédéfinies que vous pouvez utiliser. Ces valeurs sont définies dans le fichier Winmeta.xml inclus dans le SDK Windows.
+Voici les valeurs de niveau prédéfinies que vous pouvez utiliser. ces valeurs sont définies dans le fichier Winmeta.xml inclus dans le SDK Windows.
 
 
 
@@ -92,8 +92,8 @@ Des nombres plus élevés impliquent également des niveaux inférieurs. Par exe
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

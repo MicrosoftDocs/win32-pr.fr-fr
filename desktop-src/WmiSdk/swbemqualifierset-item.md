@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 9c89ff554b049e6730a64ebf7e5f017fc8a5652f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99b735f52ac4d311af6e35f7e214322c55345e4c029e73a342baa52dfa72de6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312990"
 ---
 # <a name="swbemqualifiersetitem-method"></a>SWbemQualifierSet. Item, méthode
 

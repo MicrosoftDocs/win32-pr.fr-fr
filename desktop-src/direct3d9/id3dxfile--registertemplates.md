@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: b7864b63d55ba219c5076920acc809f824bc1820
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b6dba0b79b7a7baaa6a05daf0b30609a129e76ab80529289a48b9b379426f33c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118520784"
 ---
 # <a name="id3dxfileregistertemplates-method"></a>ID3DXFile :: RegisterTemplates, méthode
 
@@ -65,7 +65,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DXFERR \_ BADVALUE, D3DXFERR \_ PARSEERROR.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le fragment de code suivant fournit un exemple d’appel à **RegisterTemplates** et des exemples de contenu pour la mémoire tampon vers laquelle **pvData** pointe.
 
