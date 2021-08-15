@@ -8,12 +8,12 @@ keywords:
 - Fournisseurs de services ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e44ba4ebc63338bfb38d2b9d5da1f46e51b31aa8
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: e66b90aad4e9fa1a6cf6a2229910257f018a411aa7b11b9accca6fcf96dce39b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106513740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962199"
 ---
 # <a name="adsi-service-providers"></a>Fournisseurs de services ADSI
 
@@ -24,7 +24,7 @@ ADSI comprend les fournisseurs de services listés dans le tableau suivant.
 | Fournisseur de services | Description                                                                                | Informations supplémentaires                                      |
 |------------------|--------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | LDAP<br/>  | Implémentation de l’espace de noms compatible avec le protocole Lightweight Directory Access.<br/> | [Fournisseur LDAP ADSI](adsi-ldap-provider.md)<br/>   |
-| WinNT<br/> | Implémentation de l’espace de noms compatible avec Windows.<br/>                               | [Fournisseur WinNT ADSI](adsi-winnt-provider.md)<br/> |
+| NT<br/> | Implémentation de l’espace de noms compatible avec Windows.<br/>                               | [Fournisseur WinNT ADSI](adsi-winnt-provider.md)<br/> |
 
 
 

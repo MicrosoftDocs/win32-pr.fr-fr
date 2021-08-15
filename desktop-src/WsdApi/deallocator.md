@@ -4,12 +4,12 @@ ms.assetid: 58228dfd-1d4b-41e5-b423-a54525021c22
 title: élément annulateur
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 692ed2e57b3e649c0ee7af171f205c949496f9b4
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 2e9a27f768d0c9d854d13bd58c0c797234a0526c4abb95a0c5f4fb553466a6ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991749"
 ---
 # <a name="deallocator-element"></a>élément annulateur
 
@@ -55,7 +55,7 @@ Le type annulateur doit être placé dans une paire de <deallocator></deallocato
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

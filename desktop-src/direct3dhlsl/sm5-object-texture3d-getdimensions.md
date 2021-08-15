@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7a700e0ff065e5f4758241ee0c8252965209a21f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8a7dd6248b7b6effc08e510ea56da6426c41dc54418bf7ee5da8cdc3c9ad965a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104992108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985709"
 ---
 # <a name="texture3dgetdimensions-function"></a>Texture3D :: GetDimensions,, fonction
 
@@ -45,7 +45,7 @@ void GetDimensions(
 
 Type : **[ **uint**](/windows/desktop/WinProg/windows-data-types)**
 
-facultatif. Le niveau de mipmap (doit être spécifié si *NumberOfLevels* est utilisé).
+Facultatif. Le niveau de mipmap (doit être spécifié si *NumberOfLevels* est utilisé).
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ Nombre de niveaux de mipmap (requiert également *MipLevel* ).
 
 Rien
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une liste des versions surchargées de cette méthode.
 
@@ -122,7 +122,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

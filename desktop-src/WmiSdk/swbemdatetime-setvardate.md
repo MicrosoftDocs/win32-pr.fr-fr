@@ -15,18 +15,18 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 8641bad2c59f100b689c74e23faf727bc80d2f49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56d193bd2faffd51507ec4a913c7ee068b055dcf45ca756e801431659768c47d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050097"
 ---
 # <a name="swbemdatetimesetvardate-method"></a>Méthode SWbemDateTime. SetVarDate
 
 La méthode **SetVarDate** de l’objet [**SWbemDateTime**](swbemdatetime.md) convertit une date au format de **\_ Date VT** au format [DateTime CIM](date-and-time-format.md) .
 
-Une valeur de **\_ Date VT** est une valeur datetime variant qui Visual Basic et à l’aide d’ActiveX.
+une valeur de **\_ DATE VT** est une valeur datetime variant qui Visual Basic et ActiveX utiliser.
 
 Pour une explication de cette syntaxe, consultez [conventions de document pour l’API de script](document-conventions-for-the-scripting-api.md).
 
@@ -77,11 +77,11 @@ Le format de *Vdate* n’est pas valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Après un appel réussi à **SetVarDate**, la valeur [**DateTime**](datetime.md) est interprétée comme une valeur DateTime absolue au lieu d’un intervalle, et la propriété [**IsInterval**](swbemdatetime-isinterval.md) a la valeur **false**.
 
-La fonction intrinsèque Visual Basic ou VBScript Function [CDate](/previous-versions//2dt118h2(v=vs.85)) fournit une valeur [**DateTime**](datetime.md) au format de **\_ Date VT** pour l’entrée dans **SetVarDate**.
+la fonction intrinsèque Visual Basic ou VBScript function [CDate](/previous-versions//2dt118h2(v=vs.85)) fournit une valeur [**datetime**](datetime.md) au format de **\_ DATE VT** pour l’entrée dans **SetVarDate**.
 
 ## <a name="examples"></a>Exemples
 

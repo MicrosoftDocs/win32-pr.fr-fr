@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fe3792b056b41a062a60307bb033fa7e2bce05a4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 250c7ce327986f98f06b807af23f3577abccff34554879fef6ea8ee001f21108
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700359"
 ---
 # <a name="setpowerstate-method-of-the-cim_scsicontroller-class"></a>Méthode SetPowerState de la \_ classe CIM SCSIController
 
@@ -106,7 +106,7 @@ Spécifie quand l’état d’alimentation doit être défini comme une valeur d
 
 Retourne 0 (zéro) en cas de réussite, 1 (un) si la demande *PowerState* et *Time* spécifiée n’est pas prise en charge, et une autre valeur si une autre erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

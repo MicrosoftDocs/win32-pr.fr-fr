@@ -4,16 +4,16 @@ description: Prise en charge d’une interface
 ms.assetid: fa5eae0f-2252-43bc-b504-de00b213cb2a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13587bd5ff6391691c0f6bf6e38b59be019dfdb6
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 0a293ec9caa0112a20fcff27667efc3467ae5aea15c7acbc69845b4e1e2e6a0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047697"
 ---
 # <a name="what-support-for-an-interface-means"></a>Prise en charge d’une interface
 
-Outre l’interface [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) , un contrôle ActiveX ou un objet com pour ce cas exprime toutes les fonctionnalités facultatives qu’il prend en charge via des interfaces supplémentaires. Cela signifie qu’aucune autre interface n’est requise au-dessus de **IUnknown**. À cette fin, le tableau suivant répertorie les interfaces qu’un contrôle ActiveX peut prendre en charge, et ce que cela signifie pour prendre en charge cette interface.
+outre l’interface [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) , un contrôle ActiveX ou un objet COM pour ce cas exprime toutes les fonctionnalités facultatives qu’il prend en charge via des interfaces supplémentaires. Cela signifie qu’aucune autre interface n’est requise au-dessus de **IUnknown**. à cette fin, le tableau suivant répertorie les interfaces qu’un contrôle de ActiveX peut prendre en charge, et ce que cela signifie pour prendre en charge cette interface.
 
 
 

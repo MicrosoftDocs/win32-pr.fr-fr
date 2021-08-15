@@ -4,25 +4,25 @@ ms.assetid: afd8cf81-8a20-4592-bd0a-46341742cc9b
 title: API plate GDI+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65f91c3c925b7de31f27e91c70cbd1bf0cbbb2a4
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 37dee1288bdbbf86c39d201d5ccc066c1eab16cb600950edd5e848cd250e0ed8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112394984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977549"
 ---
 # <a name="gdi-flat-api"></a>API plate GDI+
 
-Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h. Les fonctions de l’API plate GDI+ sont encapsulées par une collection d’environ 40 classes C++. Il est recommandé de ne pas appeler directement les fonctions dans l’API plate. Chaque fois que vous effectuez des appels à GDI+, vous devez le faire en appelant les méthodes et les fonctions fournies par les wrappers C++. Les services de support technique Microsoft ne fournissent pas de prise en charge du code qui appelle l’API plate directement.
+Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h. les fonctions de l’API plate GDI+ sont encapsulées par une collection d’environ 40 classes C++. Il est recommandé de ne pas appeler directement les fonctions dans l’API plate. chaque fois que vous effectuez des appels à GDI+, vous devez le faire en appelant les méthodes et les fonctions fournies par les wrappers C++. Les services de support technique Microsoft ne fournissent pas de prise en charge du code qui appelle l’API plate directement.
 
-Comme alternative aux wrappers C++, l’infrastructure Microsoft .NET fournit un ensemble de classes wrapper de code managé pour GDI+. Les wrappers de code managé pour GDI+ appartiennent aux espaces de noms suivants.
+comme alternative aux wrappers C++, Microsoft .NET Framework fournit un ensemble de classes wrapper de code managé pour GDI+. les wrappers de code managé pour GDI+ appartiennent aux espaces de noms suivants.
 
 -   [System.Drawing](/dotnet/api/system.drawing?view=dotnet-plat-ext-3.1&preserve-view=true)
 -   [System. Drawing. Drawing2D](/dotnet/api/system.drawing.drawing2d?view=dotnet-plat-ext-3.1&preserve-view=true)
 -   [System. Drawing. Imaging](/dotnet/api/system.drawing.imaging?view=dotnet-plat-ext-3.1&preserve-view=true)
 -   [System. Drawing. Text](/dotnet/api/system.drawing.text?view=dotnet-plat-ext-3.1&preserve-view=true)
 
-Les deux jeux de wrappers (C++ et code managé) utilisent une approche orientée objet. il existe donc des différences entre la façon dont les paramètres sont passés aux méthodes Wrapper et la façon dont les paramètres sont passés aux fonctions dans l’API plate. Par exemple, l’un des wrappers C++ est la classe [**Matrix**](/windows/win32/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) . Chaque objet **Matrix** a un champ, **nativeMatrix**, qui pointe vers une variable interne de type **GpMatrix**. Lorsque vous transmettez des paramètres à une méthode d’un objet **Matrix** , cette méthode passe ces paramètres (ou un ensemble de paramètres connexes) à l’une des fonctions de l’API plate GDI+. Toutefois, cette méthode transmet également le champ **nativeMatrix** (en tant que paramètre d’entrée) à la fonction d’API plate. Le code suivant montre comment la méthode [**Matrix :: Shear**](/windows/win32/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-shear) appelle la fonction **GdipShearMatrix (GPMATRIX \* Matrix, Real shearX, Real cisaillement, GpMatrixOrder Order)** .
+Les deux jeux de wrappers (C++ et code managé) utilisent une approche orientée objet. il existe donc des différences entre la façon dont les paramètres sont passés aux méthodes Wrapper et la façon dont les paramètres sont passés aux fonctions dans l’API plate. Par exemple, l’un des wrappers C++ est la classe [**Matrix**](/windows/win32/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) . Chaque objet **Matrix** a un champ, **nativeMatrix**, qui pointe vers une variable interne de type **GpMatrix**. lorsque vous transmettez des paramètres à une méthode d’un objet **Matrix** , cette méthode passe ces paramètres (ou un ensemble de paramètres connexes) à l’une des fonctions de l’API plate GDI+. Toutefois, cette méthode transmet également le champ **nativeMatrix** (en tant que paramètre d’entrée) à la fonction d’API plate. Le code suivant montre comment la méthode [**Matrix :: Shear**](/windows/win32/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-shear) appelle la fonction **GdipShearMatrix (GPMATRIX \* Matrix, Real shearX, Real cisaillement, GpMatrixOrder Order)** .
 
 
 ```
@@ -58,7 +58,7 @@ VOID SetNativeMatrix(GpMatrix *nativeMatrix)
 
 
 
-Les méthodes de clonage dans les classes wrapper ne reçoivent pas de paramètres, mais transmettent souvent deux paramètres à la fonction sous-jacente dans l’API plate GDI+. Par exemple, la méthode [**Matrix :: Clone**](/windows/win32/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-clone) passe **nativeMatrix** (comme paramètre d’entrée) et l’adresse d’une variable de pointeur **GpMatrix** (en tant que paramètre de sortie) à la fonction **GdipCloneMatrix** . Le code suivant montre comment la méthode **Matrix :: Clone** appelle la fonction **GdipCloneMatrix (GpMatrix \* Matrix, GpMatrix \* \* cloneMatrix)** .
+les méthodes de clonage des classes wrapper ne reçoivent pas de paramètres, mais transmettent souvent deux paramètres à la fonction sous-jacente dans l’API plate GDI+. Par exemple, la méthode [**Matrix :: Clone**](/windows/win32/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-clone) passe **nativeMatrix** (comme paramètre d’entrée) et l’adresse d’une variable de pointeur **GpMatrix** (en tant que paramètre de sortie) à la fonction **GdipCloneMatrix** . Le code suivant montre comment la méthode **Matrix :: Clone** appelle la fonction **GdipCloneMatrix (GpMatrix \* Matrix, GpMatrix \* \* cloneMatrix)** .
 
 
 ```
@@ -78,7 +78,7 @@ Les fonctions de l’API plate retournent une valeur de type GpStatus. L’énum
 
 `typedef Status GpStatus;`
 
-La plupart des méthodes des classes wrapper retournent une valeur d’État qui indique si la méthode a réussi. Toutefois, certaines des méthodes de wrapper retournent des valeurs d’État. Quand vous appelez une méthode wrapper qui retourne une valeur d’État, la méthode wrapper passe les paramètres appropriés à la fonction sous-jacente dans l’API plate GDI+. Par exemple, la [**classe Matrix**](/windows/win32/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) a une [**méthode Matrix :: IsInvertible**](/windows/win32/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-isinvertible) qui transmet le champ **nativeMatrix** et l’adresse d’une variable **bool** (en tant que paramètre de sortie) à la fonction **GdipIsMatrixInvertible** . Le code suivant montre comment la méthode **Matrix :: IsInvertible** appelle la fonction **GdipIsMatrixInvertible (GDIPCONST GPMATRIX \* Matrix, bool \* result)** .
+La plupart des méthodes des classes wrapper retournent une valeur d’État qui indique si la méthode a réussi. Toutefois, certaines des méthodes de wrapper retournent des valeurs d’État. quand vous appelez une méthode wrapper qui retourne une valeur d’état, la méthode wrapper passe les paramètres appropriés à la fonction sous-jacente dans l’API plate GDI+. Par exemple, la [**classe Matrix**](/windows/win32/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) a une [**méthode Matrix :: IsInvertible**](/windows/win32/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-isinvertible) qui transmet le champ **nativeMatrix** et l’adresse d’une variable **bool** (en tant que paramètre de sortie) à la fonction **GdipIsMatrixInvertible** . Le code suivant montre comment la méthode **Matrix :: IsInvertible** appelle la fonction **GdipIsMatrixInvertible (GDIPCONST GPMATRIX \* Matrix, bool \* result)** .
 
 
 ```
@@ -93,7 +93,7 @@ BOOL IsInvertible() const
 
 
 
-Un autre des wrappers est la classe [**Color**](/windows/win32/api/gdipluscolor/nl-gdipluscolor-color) . Un objet **Color** contient un champ unique de type **ARGB**, qui est défini en tant que **valeur DWORD**. Quand vous transmettez un objet **Color** à l’une des méthodes Wrapper, cette méthode passe le champ **ARGB** à la fonction sous-jacente dans l’API plate GDI+. Le code suivant montre comment la méthode [**Pen :: setColor**](/windows/win32/api/Gdipluspen/nf-gdipluspen-pen-setcolor) appelle la fonction **GdipSetPenColor (GPPEN \* Pen, ARGB ARVB)** . La méthode [**Color :: GetValue**](/windows/win32/api/Gdipluscolor/nf-gdipluscolor-color-getvalue) retourne la valeur du champ **ARGB** .
+Un autre des wrappers est la classe [**Color**](/windows/win32/api/gdipluscolor/nl-gdipluscolor-color) . Un objet **Color** contient un champ unique de type **ARGB**, qui est défini en tant que **valeur DWORD**. quand vous transmettez un objet **Color** à l’une des méthodes wrapper, cette méthode passe le champ **ARGB** à la fonction sous-jacente dans la GDI+ API plate. Le code suivant montre comment la méthode [**Pen :: setColor**](/windows/win32/api/Gdipluspen/nf-gdipluspen-pen-setcolor) appelle la fonction **GdipSetPenColor (GPPEN \* Pen, ARGB ARVB)** . La méthode [**Color :: GetValue**](/windows/win32/api/Gdipluscolor/nf-gdipluscolor-color-getvalue) retourne la valeur du champ **ARGB** .
 
 
 ```
@@ -106,7 +106,7 @@ Status SetColor(IN const Color& color)
 
 
 
-Les rubriques suivantes montrent la relation entre l’API plate GDI+ et les méthodes Wrapper C++.
+les rubriques suivantes montrent la relation entre l’API plate GDI+ et les méthodes wrapper C++.
 
 -   [AdjustableArrowCap, fonctions](-gdiplus-adjustablearrowcap-flat.md)
 -   [Fonctions bitmap](-gdiplus-bitmap-flat.md)

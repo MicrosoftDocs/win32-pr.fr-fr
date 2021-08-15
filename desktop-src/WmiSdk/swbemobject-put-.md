@@ -1,5 +1,5 @@
 ---
-description: La \_ méthode put de SWbemObject crée ou met à jour une instance ou un objet de classe pour Windows Management Instrumentation (WMI). Vous pouvez utiliser cette méthode après avoir modifié des propriétés ou des méthodes dans un SWbemObject, et vos modifications sont écrites dans WMI.
+description: la \_ méthode Put de SWbemObject crée ou met à jour une instance ou un objet de classe pour Windows Management Instrumentation (WMI). Vous pouvez utiliser cette méthode après avoir modifié des propriétés ou des méthodes dans un SWbemObject, et vos modifications sont écrites dans WMI.
 ms.assetid: c636ff95-9f3e-4ba9-adf3-30b981be02a4
 ms.tgt_platform: multiple
 title: Méthode SWbemObject.Put_ (wbemdisp. h)
@@ -16,16 +16,16 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 9f5ca9b79c9def8f209da37e0ef1cfddefa0dbfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9310f690ea9ffc153e88ee9b0cd5ed489beef107c048f7e00e6891a69800b957
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991969"
 ---
 # <a name="swbemobjectput_-method"></a>SWbemObject. put, \_ méthode
 
-La **méthode \_ put** de [**SWbemObject**](swbemobject.md) crée ou met à jour une instance ou un objet de classe pour Windows Management Instrumentation (WMI). Vous pouvez utiliser cette méthode après avoir modifié des propriétés ou des méthodes dans un **SWbemObject**, et vos modifications sont écrites dans WMI.
+la **méthode \_ Put** de [**SWbemObject**](swbemobject.md) crée ou met à jour une instance ou un objet de classe pour Windows Management Instrumentation (WMI). Vous pouvez utiliser cette méthode après avoir modifié des propriétés ou des méthodes dans un **SWbemObject**, et vos modifications sont écrites dans WMI.
 
 Pour une explication de cette syntaxe, consultez [conventions de document pour l’API de script](document-conventions-for-the-scripting-api.md).
 

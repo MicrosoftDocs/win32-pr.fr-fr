@@ -7,16 +7,16 @@ keywords:
 - Création d’une unité d’organisation ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78ec0da1efe78d54eba8bc0dc05a998717aaf91f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cf2db91c02836e2425cd25e72afe6e57ff6619948372a20d03079d65eee5c882
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961988"
 ---
 # <a name="creating-an-organizational-unit"></a>Création d'une unité d'organisation
 
-Maintenant que vous disposez de l’objet domaine, vous pouvez commencer à créer des unités d’organisation. Fabrikam a deux divisions : ventes et production. L’entreprise envisage d’embaucher deux administrateurs Windows 2000 pour gérer chaque division. Joe worden, en tant qu’administrateur d’entreprise, crée deux nouvelles unités d’organisation sous le domaine fabrikam. En créant une unité d’organisation, Joe peut regrouper plusieurs objets et permettre à quelqu’un d’autre de gérer ces objets. L’exemple de code suivant crée l’unité d’organisation Sales (UO).
+Maintenant que vous disposez de l’objet domaine, vous pouvez commencer à créer des unités d’organisation. Fabrikam a deux divisions : ventes et production. l’entreprise envisage d’embaucher deux administrateurs Windows 2000 pour gérer chaque division. Joe worden, en tant qu’administrateur d’entreprise, crée deux nouvelles unités d’organisation sous le domaine fabrikam. En créant une unité d’organisation, Joe peut regrouper plusieurs objets et permettre à quelqu’un d’autre de gérer ces objets. L’exemple de code suivant crée l’unité d’organisation Sales (UO).
 
 
 ```VB
@@ -73,9 +73,9 @@ Pour vous assurer que les objets ont été créés, utilisez le composant logici
 [Déplacement des utilisateurs existants vers l’unité d’organisation](moving-existing-users-to-the-organizational-unit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

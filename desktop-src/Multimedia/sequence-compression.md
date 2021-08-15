@@ -7,12 +7,12 @@ keywords:
 - VCM (gestionnaire de compression vidéo), compression de séquence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8485c31361540ae0e0e9569453bc610d10d88d3d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5c930c1f2a3e73e21e63195129221aaa28017e5a8d59122be9d8cbf956b828bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688869"
 ---
 # <a name="sequence-compression"></a>Compression de séquence
 
@@ -22,9 +22,9 @@ Avant qu’une application puisse commencer à compresser une séquence de frame
 
 Quand une application finit de compresser une séquence, elle peut utiliser **ICSeqCompressFrameEnd** pour libérer des ressources système allouées pour **ICSeqCompressFrameStart**. Pour libérer les ressources allouées pour la structure **COMPVARS** , l’application peut utiliser la fonction [**ICCompressorFree**](/windows/desktop/api/Vfw/nf-vfw-iccompressorfree) .
 
- 
+ 
 
- 
+ 
 
 
 

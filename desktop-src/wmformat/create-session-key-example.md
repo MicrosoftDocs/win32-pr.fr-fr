@@ -27,12 +27,12 @@ keywords:
 - clés de contenu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b757f5d67df0aea1dd70ee45ad2d1b0732040be2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cef4a9c673b0aef24e010bff0f9a84beaf6321a81fe4ac8a8a9935c126983eb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964138"
 ---
 # <a name="create-session-key-example"></a>Exemple de création d’une clé de session
 
@@ -101,9 +101,9 @@ EXIT:
 [**Exemples d’importation DRM**](drm-import-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

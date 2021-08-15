@@ -3,7 +3,7 @@ title: Code de notification NM_RCLICK (barre d’outils) (commctrl. h)
 description: Envoyé par un contrôle ToolBar lorsque l’utilisateur clique sur la barre d’outils avec le bouton droit de la souris. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: e9d2d871-e922-444d-a76c-e73f249ed410
 keywords:
-- Contrôles Windows de code de notification NM_RCLICK (barre d’outils)
+- NM_RCLICK (barre d’outils) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6464c30a031aa55aef94bccd3ab852720fb14403
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 52fde315a3c68712c58b7e9466c351c6ac9a9117710ee6f285bd9ba9521ba56f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106516106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958068"
 ---
 # <a name="nm_rclick-toolbar-notification-code"></a>\_Code de notification RCLICK nm (barre d’outils)
 
@@ -55,8 +55,8 @@ Retourne **false** pour permettre au contrôle de barre d’outils d’effectuer
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

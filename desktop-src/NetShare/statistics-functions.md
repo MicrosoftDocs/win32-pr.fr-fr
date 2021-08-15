@@ -1,19 +1,19 @@
 ---
-description: Le système d’exploitation Windows accumule un ensemble de statistiques d’exploitation pour les stations de travail et les serveurs à partir du moment où le service de station de travail ou de serveur est démarré.
+description: le système d’exploitation Windows accumule un ensemble de statistiques d’exploitation pour les stations de travail et les serveurs à partir du moment où le service de station de travail ou de serveur est démarré.
 ms.assetid: 4e0217bf-7550-40a2-b47c-8e898a586005
 title: Fonctions statistiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce62e12f3c4894ba86ff5e5aaaa38801d272195c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2261f0c4f8f8249b401e658759827d6471d3ac47b6eb10df769ad5f37d8ce7af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063589"
 ---
 # <a name="statistics-functions"></a>Fonctions statistiques
 
-Le système d’exploitation Windows accumule un ensemble de statistiques d’exploitation pour les stations de travail et les serveurs à partir du moment où le service de station de travail ou de serveur est démarré. Pour récupérer ces statistiques, vous pouvez appeler la fonction de statistiques de gestion de réseau suivante.
+le système d’exploitation Windows accumule un ensemble de statistiques d’exploitation pour les stations de travail et les serveurs à partir du moment où le service de station de travail ou de serveur est démarré. Pour récupérer ces statistiques, vous pouvez appeler la fonction de statistiques de gestion de réseau suivante.
 
 
 

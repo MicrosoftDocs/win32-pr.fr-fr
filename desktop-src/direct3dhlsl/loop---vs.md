@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6a96a1ce53b850ec8feeba282055e8111b275bfd
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 8a211014137f35c39a6b89cd16f0e27687b4daafd89841f752312f459531cab2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986439"
 ---
 # <a name="loop---vs"></a>boucle-vs
 
@@ -29,7 +29,7 @@ Démarrer une boucle... bloc [ENDLOOP](endloop---vs.md) .
 
 
 
- 
+ 
 
 Où :
 
@@ -46,18 +46,18 @@ Où :
 
 
 
- 
+ 
 
 -   Le [Registre de compteur de boucle](dx9-graphics-reference-asm-vs-registers-loop-counter.md) (Al) contient le nombre de boucles actuel et peut être utilisé pour l’adressage relatif dans un [Registre d’entiers constant](dx9-graphics-reference-asm-vs-registers-constant-integer.md) (c \# ) ou des registres de [sortie](dx9-graphics-reference-asm-vs-registers-vs-3-0.md) (o \# ) à l’intérieur du bloc de boucle.
 -   i \# . x spécifie le nombre d’itérations. La plage autorisée est \[ 0, 255 \] . Notez que cette instruction n’incrémente pas ou ne décrémente pas la valeur de i \# . x.
 -   i \# . y spécifie la valeur initiale du Registre du compteur de la [boucle](dx9-graphics-reference-asm-vs-registers-loop-counter.md) (Al). La plage autorisée est \[ 0, 255 \] . Notez que cette instruction n’incrémente pas ou ne décrémente pas la valeur de i \# . y.
 -   i \# . z spécifie la taille de l’étape/du Stride. La plage autorisée est \[ -128, 127 \] .
 -   i \# . w n’est pas utilisé et doit être défini sur 0.
--   Les blocs de boucle peuvent être imbriqués. Consultez [limites d’imbrication des contrôles de Flow](dx9-graphics-reference-asm-vs-instructions-flow-control.md).
+-   Les blocs de boucle peuvent être imbriqués. consultez [Flow limites d’imbrication des contrôles](dx9-graphics-reference-asm-vs-instructions-flow-control.md).
 -   Lorsqu’elle est imbriquée, la valeur du [Registre de compteur de boucle](dx9-graphics-reference-asm-vs-registers-loop-counter.md) (Al) fait référence au bloc de boucle englobant immédiatement.
 -   Les blocs de boucle sont autorisés à se trouver complètement à l’intérieur d’un bloc if ou à l' \* entourer complètement. Aucun chevauchement n’est autorisé.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 
 ```
@@ -75,9 +75,9 @@ endloop
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

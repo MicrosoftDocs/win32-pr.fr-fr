@@ -4,12 +4,12 @@ ms.assetid: 1564F6F2-844F-4392-9EB5-AA46059D514C
 title: Viewports et contenu
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 9cda367067ea860ce6a42a16e81d38393937276a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a103df916e5880380064250d05806169ff4187e6a8be0b22d2dd72d92343f38f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104560975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118787076"
 ---
 # <a name="viewports-and-content"></a>Viewports et contenu
 
@@ -27,7 +27,7 @@ La [manipulation directe](direct-manipulation-portal.md) utilise des *Viewports*
 Une fenêtre d' *affichage* est une région au sein d’une fenêtre qui peut recevoir et traiter l’entrée des interactions de l’utilisateur. La fenêtre d’affichage représente la région du contenu qui peut être consultée par l’utilisateur final à un moment donné (également appelé le clip de contenu). La fenêtre d’affichage comporte plusieurs fonctions :
 
 - Il gère l’état de l’interaction (par exemple, lorsque le contenu est prêt à être manipulé, lorsque le contenu est en cours de manipulation, lorsque le contenu est une animation d’inertie) et mappe l’entrée aux transformations de sortie.
-- Elle contient du contenu qui se déplace en réponse à l’interaction de l’utilisateur. Il peut s’agir d’un élément HTML div (défilement), d’une liste de panoramique (l’écran de démarrage de Windows 8) ou du menu contextuel d’un contrôle Select.
+- Elle contient du contenu qui se déplace en réponse à l’interaction de l’utilisateur. il peut s’agir d’un élément HTML div (défilement), d’une liste de panoramique (l’Windows 8 écran de démarrage) ou du menu contextuel d’un contrôle select.
 
 Une fenêtre d’affichage est créée en appelant [**CreateViewport**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-createviewport). Vous pouvez créer plusieurs Viewports dans une seule fenêtre pour obtenir une expérience d’interface utilisateur riche.
 

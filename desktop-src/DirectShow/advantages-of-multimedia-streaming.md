@@ -4,17 +4,17 @@ ms.assetid: 01020ad5-430d-4b4d-8de3-bcc81270e132
 title: Avantages de la diffusion multimédia en continu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd907d9b8e91cb61709479a2d600323d6d420958
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 06df23ce833462aee9b7d4b3840c1fae2d4f3b15c4ee6daee2e4a421259493a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104116042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537539"
 ---
 # <a name="advantages-of-multimedia-streaming"></a>Avantages de la diffusion multimédia en continu
 
 > [!Note]  
-> Ces API sont déconseillées. Les applications doivent utiliser le filtre d' [**accrochage d’exemple**](sample-grabber-filter.md) ou implémenter un filtre personnalisé pour obtenir des données à partir d’un graphique de filtre DirectShow.
+> Ces API sont déconseillées. les Applications doivent utiliser le filtre d' [**accrochage d’exemple**](sample-grabber-filter.md) ou implémenter un filtre personnalisé pour obtenir des données à partir d’un graphique de filtre DirectShow.
 
  
 
@@ -22,7 +22,7 @@ Lorsque les développeurs utilisent la diffusion multimédia en continu dans leu
 
 Les étapes suivantes montrent comment implémenter la diffusion en continu, d’un périphérique matériel à un rendu de lecture.
 
-1.  Une source de données vidéo, telle que DirectShow, expose les interfaces de streaming.
+1.  une source de données vidéo, telle que DirectShow, expose les interfaces de streaming.
 2.  Le développeur d’applications utilise les interfaces de diffusion multimédia en continu pour gérer la conversion de format de données.
 3.  Le développeur d’applications utilise les interfaces DirectDraw pour afficher les données résultantes.
 

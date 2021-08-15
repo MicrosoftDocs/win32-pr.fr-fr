@@ -4,12 +4,12 @@ description: Implémentations du moniker OLE
 ms.assetid: c4ddcbd2-0e5b-4311-908f-23ef6c50ded4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a215ef7464d0bc6d145b40ad27af9639673d598d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c94872151ffeb5a924c1df7feb7e048363f5c5c26c8e88b6275a1615357c3d66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047907"
 ---
 # <a name="ole-moniker-implementations"></a>Implémentations du moniker OLE
 
@@ -36,9 +36,9 @@ Les monikers de fichiers, composites et d’éléments sont les monikers les plu
 [Fournisseurs de moniker](moniker-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

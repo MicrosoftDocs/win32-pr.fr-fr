@@ -3,7 +3,7 @@ title: Message CB_FINDSTRINGEXACT (winuser. h)
 description: Recherche la première chaîne de zone de liste dans une zone de liste déroulante qui correspond à la chaîne spécifiée dans le paramètre lParam.
 ms.assetid: 9065af9f-b18e-4fd5-a8cc-f780f8d0fb05
 keywords:
-- CB_FINDSTRINGEXACT les contrôles de message Windows
+- CB_FINDSTRINGEXACT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f99d85c7dddb95bdfb168443d6f977c22273a87
-ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
+ms.openlocfilehash: 95010548601350b666ee65da4bd048127917dc9c1e80ac26ead844d8597a7a18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108327174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079143"
 ---
 # <a name="cb_findstringexact-message"></a>\_Message FINDEXACTSTRING CB
 
@@ -43,7 +43,7 @@ Pointeur vers la chaîne terminée par le caractère null à rechercher. La rech
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La valeur de retour est l’index de base zéro de l’élément correspondant. Si la recherche échoue, il s’agit de l' \_ erreur CB.
 
@@ -59,8 +59,8 @@ Si vous créez la zone de liste déroulante avec un style owner-drawn mais sans 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

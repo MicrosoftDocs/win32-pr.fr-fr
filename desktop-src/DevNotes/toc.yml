@@ -1229,10 +1229,10 @@
           items:
             - name: SaferiSearchMatchingHashRules
               href: saferisearchmatchinghashrules.md
-        - name: Security Center Windows
+        - name: Sécurité Windows Gestionnaire
           href: windows-security-center.md
           items:
-            - name: Énumérations Windows Security Center
+            - name: Sécurité Windows Énumérations de centre
               href: windows-security-center-enumerations.md
               items:
                 - name: WSC_SECURITY_PRODUCT_STATE
@@ -1243,7 +1243,7 @@
                   href: /windows/win32/api/Wscapi/ne-wscapi-wsc_security_provider_health
                 - name: WSC_SECURITY_SIGNATURE_STATUS
                   href: /windows/win32/api/Iwscapi/ne-iwscapi-wsc_security_signature_status
-            - name: Interfaces Windows Security Center
+            - name: Sécurité Windows Interfaces du centre
               href: windows-security-center-interfaces.md
               items:
                 - name: IWscProduct
@@ -1268,7 +1268,7 @@
                       href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-initialize
                     - name: Item (méthode)
                       href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-get_item
-            - name: Fonctions Windows Security Center
+            - name: Sécurité Windows Fonctions Center
               href: windows-security-center-functions.md
               items:
                 - name: WscGetSecurityProviderHealth
@@ -1623,7 +1623,7 @@
               href: iprovidepropertybuilder-executebuilder.md
             - name: Méthode MapPropertyToBuilder
               href: iprovidepropertybuilder-mappropertytobuilder.md
-    - name: Stratégie du mode sécurisé Windows
+    - name: Windows Stratégie de mode sécurisé
       href: windows-lockdown-policy.md
       items:
         - name: WLDP_HOST_ID

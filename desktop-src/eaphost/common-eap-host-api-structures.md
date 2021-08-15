@@ -4,12 +4,12 @@ description: En savoir plus sur les structures d’API EAPHost courantes. Consul
 ms.assetid: f6f3b909-1e89-47f8-853c-c0f3f2414817
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b44a94aae1f18336dae8c11a1dc0217dc7c8d08
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 4740658f798eadee2a658df1a7f9f8fd44b386c4ac39b52bcf49e75887d2d719
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984329"
 ---
 # <a name="common-eaphost-api-structures"></a>Structures d’API EAPHost courantes
 
@@ -34,11 +34,11 @@ Le tableau suivant répertorie les structures communes à toutes les technologie
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6710161c-4835-4385-9d4c-566acc000925
 title: Stratégie de métadonnées de photo System. photo. CameraManufacturer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd1d2765b6c787b7d7ad421300f1c3492669830b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37744420babedf6b398cdf3ab9007c3895c09d33b9254221b5ba4760ab917a0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087085"
 ---
 # <a name="systemphotocameramanufacturer-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. CameraManufacturer
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Came
 
 \_Photo \_ CameraManufacturer
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                   | Format de disque |
+| Commande | Chemin                   | Format de disque |
 |-------|------------------------|-------------|
 | 1     | /App1/IFD/{UShort = 271} | ascii       |
 | 2     | /XMP/TIFF : Make         | unicode     |
@@ -59,7 +59,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                   | Format de disque |
+| Commande | Chemin                   | Format de disque |
 |-------|------------------------|-------------|
 | 1     | /App1/IFD/{UShort = 271} | ascii       |
 | 2     | /XMP/TIFF : Make         | unicode     |
@@ -73,7 +73,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                   |
+| Commande | Chemin                   |
 |-------|------------------------|
 | 1     | /App1/IFD/{UShort = 271} |
 | 2     | /XMP/TIFF : Make         |
@@ -89,7 +89,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès               | Format de disque |
+| Commande | Chemin               | Format de disque |
 |-------|--------------------|-------------|
 | 1     | /IFD/{UShort = 271}  | ascii       |
 | 2     | /IFD/XMP/TIFF : Make | unicode     |
@@ -103,7 +103,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès               | Format de disque |
+| Commande | Chemin               | Format de disque |
 |-------|--------------------|-------------|
 | 1     | /IFD/{UShort = 271}  | ascii       |
 | 2     | /IFD/XMP/TIFF : Make | unicode     |
@@ -117,7 +117,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès               |
+| Commande | Chemin               |
 |-------|--------------------|
 | 1     | /IFD/{UShort = 271}  |
 | 2     | /IFD/XMP/TIFF : Make |
@@ -127,7 +127,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

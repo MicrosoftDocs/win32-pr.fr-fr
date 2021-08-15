@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: f5a7e875e92342363722858b3ac714171cb547b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: d5453a083a1db23e042d24c3da4cd2948ff70f813fcc9026a00324eade467918
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968968"
 ---
 # <a name="iuseridentity2getordinal-method"></a>IUserIdentity2 :: GetOrdinal, méthode
 
@@ -44,9 +44,9 @@ HRESULT GetOrdinal(
 *dwOrdinal* \[ à\]
 </dt> <dd>
 
-Type : **DWORD \** _
+Type : **DWORD \***
 
-Pointeur vers une valeur _ *DWORD** qui reçoit le nombre ordinal pour cette identité.
+Pointeur vers une valeur **DWORD** qui reçoit le nombre ordinal pour cette identité.
 
 </dd> </dl>
 
@@ -56,11 +56,11 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’ordinal détermine l’ordre des identités dans la liste d’identités, mais il peut ne pas être persistant dans les opérations sur les identités. Pour obtenir une valeur unique pour une identité, appelez [**getCookie**](iuseridentity-getcookie.md).
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

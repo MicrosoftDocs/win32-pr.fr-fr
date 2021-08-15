@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba2655924f5716e142832882441066d4772d0e63
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 46742831eaa0a014de0f6ae50271b28c922893133588758119cbf5bff7ba628b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104570331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119491789"
 ---
 # <a name="glscaled-function"></a>glScaled fonction)
 
@@ -56,7 +56,7 @@ Facteurs d’échelle le long de l’axe *y* .
 
 </dd> <dt>
 
-*z* 
+*Lettre* 
 </dt> <dd>
 
 Facteurs d’échelle le long de l’axe *z* .
@@ -79,7 +79,7 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glScaled** produit une mise à l’échelle générale le long des axes *x*, *y* et *z* . Les trois arguments indiquent les facteurs d’échelle souhaités le long de chacun des trois axes. La matrice résultante est
 

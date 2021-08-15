@@ -5,12 +5,12 @@ ms.assetid: c55e4881-ca98-4393-a72e-f3ced687b7ca
 title: Glossaire de l’API Tablet PC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ec2c047061f8c842f4725875d045e4895927bc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 394b935bb36fbd4c8e4dfa429b4da341c72f5467d9023e772ef898df4a59bb47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967577"
 ---
 # <a name="tablet-pc-api-glossary"></a>Glossaire de l’API Tablet PC
 
@@ -254,7 +254,7 @@ Moteur qui reconnaît et traite l’entrée manuscrite comme des commandes syst�
 
 </dd> <dt>
 
-<span id="tablet.tablet_glossary_microsoft_windows_journal_note_reader"></span><span id="TABLET.TABLET_GLOSSARY_MICROSOFT_WINDOWS_JOURNAL_NOTE_READER"></span>**Lecteur de note du journal Microsoft Windows**
+<span id="tablet.tablet_glossary_microsoft_windows_journal_note_reader"></span><span id="TABLET.TABLET_GLOSSARY_MICROSOFT_WINDOWS_JOURNAL_NOTE_READER"></span>**lecteur de Note du Journal Microsoft Windows**
 </dt> <dd>
 
 Composant qui prend un flux contenant un fichier. jnt et retourne un flux contenant le contenu du fichier au format XML conforme au schéma du lecteur de note du journal.
@@ -334,7 +334,7 @@ L’équivalent du stylet d’un message de souris traditionnel, tel qu’un cli
 <span id="tablet.tablet_glossary_tablet_pc_managed_library"></span><span id="TABLET.TABLET_GLOSSARY_TABLET_PC_MANAGED_LIBRARY"></span>**Bibliothèque gérée Tablet PC**
 </dt> <dd>
 
-Ensemble d’objets managés qui étend l’infrastructure Microsoft .NET pour assurer la prise en charge de l’entrée et de la sortie de l’écriture manuscrite sur Tablet PC et l’échange de données avec d’autres ordinateurs.
+ensemble d’objets gérés qui étend le .NET Framework Microsoft pour fournir une prise en charge de l’entrée et de la sortie de l’écriture manuscrite sur Tablet PC et l’échange de données avec d’autres ordinateurs.
 
 </dd> <dt>
 

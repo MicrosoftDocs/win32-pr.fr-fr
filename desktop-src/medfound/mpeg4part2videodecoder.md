@@ -4,18 +4,18 @@ ms.assetid: 56e32d3c-9bd0-41fe-bb22-e4ff37b7cc5c
 title: Décodeur vidéo MPEG-4 part 2 (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 777e6144684c799eb58f75afd4811ccc8871a46b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 847e5be8c506e534c42962ecf6b0037a2ecb2f184c9c47fa92981fa32fd55422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973018"
 ---
 # <a name="mpeg-4-part-2-video-decoder"></a>Décodeur vidéo MPEG-4 part 2
 
 Le décodeur vidéo MPEG4 2e partie décode les flux vidéo qui ont été encodés en fonction de la norme MPEG4 2e partie.
 
-Vous pouvez créer une instance du décodeur vidéo MPEG4 partie 2 en appelant **CoCreateInstance**. Pour créer une instance du décodeur qui se comporte comme un objet de média DirectX (DMO), utilisez l’identificateur de classe **CLSID \_ CMpeg4sDecMediaObject**. Pour créer un Istance du décodeur qui se comporte comme une transformation de Media Foundation (MFT), utilisez l’identificateur de classe **CLSID \_ CMpeg4sDecMFT**.
+Vous pouvez créer une instance du décodeur vidéo MPEG4 partie 2 en appelant **CoCreateInstance**. pour créer une instance du décodeur qui se comporte comme un objet de média DirectX (DMO), utilisez l’identificateur de classe **CLSID \_ CMpeg4sDecMediaObject**. Pour créer un Istance du décodeur qui se comporte comme une transformation de Media Foundation (MFT), utilisez l’identificateur de classe **CLSID \_ CMpeg4sDecMFT**.
 
 ## <a name="input-types"></a>Types d’entrée
 
@@ -30,7 +30,7 @@ Le décodeur vidéo MPEG4 2e partie prend en charge les types de média d’entr
 
 ## <a name="output-types"></a>Types de sortie
 
-Le décodeur vidéo MPEG4 2e partie prend en charge les sous-types de médias de sortie suivants lorsqu’il joue le rôle de DMO.
+Le décodeur vidéo MPEG4 2e partie prend en charge les sous-types de médias de sortie suivants lorsqu’il agit comme un DMO.
 
 -   MEDIASUBTYPE \_ YV12
 -   MEDIASUBTYPE \_ NV12
@@ -58,9 +58,9 @@ Le décodeur vidéo MPEG4 2ème partie accepte les formats suivants.
 -   [**MFVideoInfo**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoinfo)
 -   [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) (seule la partie VIH2 de l’en-tête est utilisée.)
 
-## <a name="interfaces-for-the-dmo"></a>Interfaces pour DMO
+## <a name="interfaces-for-the-dmo"></a>Interfaces pour le DMO
 
-Si vous créez une instance du décodeur vidéo MPEG4 2e partie 2 comme DMO, le décodeur expose les interfaces suivantes.
+si vous créez une instance du décodeur vidéo MPEG4 partie 2 en tant que DMO, le décodeur expose les interfaces suivantes.
 
 -   [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject)
 -   [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi)
@@ -84,7 +84,7 @@ Vous pouvez obtenir un pointeur vers l’interface [**IMFTransform**](/windows/d
 
 La spécification MPEG4 définit plusieurs profils, chacun d’entre eux spécifiant les outils qu’un encodeur peut utiliser pour générer un flux encodé. Le décodeur vidéo MPEG4 part2 prend en charge deux de ces profils : un profil visuel simple et un profil simple avancé. En d’autres termes, le décodeur vidéo MPEG4 partie 2 peut décoder les flux qui ont été encodés selon le profil d’élément visuel simple ou le profil simple avancé.
 
-Le profil visuel simple prend en charge la transmission de base d’une vidéo à faible vitesse de transmission en mode progressive. Il prend uniquement en charge les images intra et de prédiction. Il prend également en charge le mode d’en-tête abrégé, qui offre une compatibilité descendante avec le profil de base H. 263. À compter de Windows 10, le décodeur vidéo MPEG-4 part 2 prend également en charge H. 263v2 (H. 263 +) qui prend en charge les tailles d’images personnalisées.
+Le profil visuel simple prend en charge la transmission de base d’une vidéo à faible vitesse de transmission en mode progressive. Il prend uniquement en charge les images intra et de prédiction. Il prend également en charge le mode d’en-tête abrégé, qui offre une compatibilité descendante avec le profil de base H. 263. à partir de Windows 10, le décodeur vidéo MPEG-4 Part 2 prend également en charge h. 263v2 (h. 263 +) qui prend en charge les tailles d’images personnalisées.
 
 Le profil simple avancé prend en charge tous les outils du profil visuel simple et, en outre, prend en charge la vidéo entrelacée, les images B, la compensation de mouvement Quarter-PEL, les tables de quantification supplémentaires et la compensation de mouvement globale.
 
@@ -94,7 +94,7 @@ Le tableau suivant présente les profils et les niveaux, ainsi que les résoluti
 
 
 
-| Profil         | Level | Résolution standard |
+| Profil         | Niveau | Résolution standard |
 |-----------------|-------|--------------------|
 | Visuel simple   | 0     | 176 x 144          |
 | Visuel simple   | 1     | 176 x 144          |
@@ -154,9 +154,9 @@ En écriture seule.<br />
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les identificateurs globaux uniques (GUID) pour les sous-types de média RVB diffèrent selon qu’un décodeur agit comme DMO ou MFT. Les GUID pour les sous-types de média non RVB sont les mêmes, qu’un décodeur agisse comme DMO ou MFT. Pour plus d’informations sur les GUID qui représentent des sous-types de médias, consultez [types de médias](media-types.md).
+les identificateurs globaux uniques (guid) pour les sous-types de média rvb diffèrent selon qu’un décodeur joue le rôle d’un DMO ou d’une table MFT. les guid pour les sous-types de média non rvb sont les mêmes, qu’un décodeur agisse en tant que DMO ou MFT. Pour plus d’informations sur les GUID qui représentent des sous-types de médias, consultez [types de médias](media-types.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -164,8 +164,8 @@ Les identificateurs globaux uniques (GUID) pour les sous-types de média RVB dif
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MP4SDecd.dll</dt> </dl> |
 

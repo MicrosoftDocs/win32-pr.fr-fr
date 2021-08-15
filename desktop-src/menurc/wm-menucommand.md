@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 13288c49327b536db6ebef8a41526facd3fb2d51
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0d97f629b5d4b0c245606b36efea9ebcb230c4c9fd14d837e18949880a7e7e65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971808"
 ---
 # <a name="wm_menucommand-message"></a>\_Message WM MENUCOMMAND
 
@@ -50,7 +50,7 @@ Handle vers le menu de l’élément sélectionné.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message **WM \_ MENUCOMMAND** vous donne un handle au menu qui vous permet d’accéder aux données de menu dans la structure [**MENUINFO**](/windows/win32/api/winuser/ns-winuser-menuinfo) et vous donne également l’index de l’élément sélectionné, ce qui est généralement ce dont les applications ont besoin. En revanche, le message de [**\_ commande WM**](wm-command.md) vous donne l’identificateur d’élément de menu.
 

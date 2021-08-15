@@ -3,12 +3,12 @@ description: Liste de noms qualifiés XSD.
 title: Élément types
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c29a94f7ad4816f7b737261bf52b064a5dd68f9
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 97c58cb0e70c2e59816ff827e7b2e1fdecc4adf6563892d592ee75565e8ed108
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991539"
 ---
 # <a name="types-element"></a>Élément types
 
@@ -43,7 +43,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

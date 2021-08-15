@@ -4,12 +4,12 @@ ms.assetid: db6c9635-16f9-4266-9d0e-daeb58fac588
 title: Interfaces d’API haut débit mobile
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d822fbbe095b31fac5bc3cdfc881c929e73ca33f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f620ad34b0b1af953f0e387ebddd41987d38696f5c17ddac82b3528ce031bd23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975289"
 ---
 # <a name="mobile-broadband-api-interfaces"></a>Interfaces d’API haut débit mobile
 

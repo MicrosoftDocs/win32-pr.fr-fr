@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4641ba25202dfc74df799635969e24a8d9c9df30
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 479035e6246558a5efc60f4e2600832b08ab8111303d1fc5beb96439874f21f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960888"
 ---
 # <a name="ms-ds-az-object-guid-attribute"></a>attribut ms-DS-AZ-Object-GUID
 
@@ -42,7 +42,7 @@ Identificateur unique et portable des objets AzMan
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

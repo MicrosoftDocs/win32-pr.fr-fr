@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: f358f0e9282914dc202297c8e3bf2fed1ab588a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d001b8bbae1b52b7ec168b0438be4eae3313b231f34869ca37d528ed8e2e958a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966748"
 ---
 # <a name="titleinfotype-complex-type"></a>Type complexe TitleInfoType
 
@@ -33,7 +33,7 @@ Définit le type qui contient des informations sur le titre dans une note du jou
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                     |
 
 

@@ -4,12 +4,12 @@ description: BITS garantit que la version du fichier qu’il transfère est coh�
 ms.assetid: ba82f172-a3ac-49d6-bccd-7d0b68ba66de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 533bc0c0db9708528d4ae919572d6e4c1d251ac8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 608566f6e9927fdcb39133c30720a46ead869f36d3084c950b9ed86379c4b749
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959498"
 ---
 # <a name="file-transfer-consistency"></a>Cohérence du transfert de fichiers
 
@@ -23,9 +23,9 @@ Pour les téléchargements, si la taille du fichier ou l’horodatage change pen
 
 Le service BITS ne synchronise pas les demandes de transfert lorsqu’un ou plusieurs utilisateurs demandent que le même fichier soit transféré au même emplacement. BITS transfère le fichier pour chaque demande séparément.
 
- 
+ 
 
- 
+ 
 
 
 

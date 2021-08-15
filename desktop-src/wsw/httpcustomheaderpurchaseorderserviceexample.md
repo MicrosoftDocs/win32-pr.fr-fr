@@ -1,6 +1,6 @@
 ---
 title: HttpCustomHeaderPurchaseOrderServiceExample
-description: Passez en revue un exemple C++ de l’API des services Web Windows (WWSAPI) d’un service de bon de commande sur les en-têtes personnalisés HTTP.
+description: passez en revue une Windows exemple C++ de l’API des Services Web (WWSAPI) d’un service de bon de commande sur des en-têtes personnalisés HTTP.
 ms.assetid: 7a86e0be-6e52-4ad2-bca4-0162a8030cdc
 keywords:
 - HttpCustomHeaderPurchaseOrderServiceExample-services Web natifs
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93c412b0106a9343695b4a96cd01e54df7ea654d
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: b2d5e492b333a27d9625e5d5375ea2ef2e199ac331db69eee86424bf8ce8f9b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963308"
 ---
 # <a name="httpcustomheaderpurchaseorderserviceexample"></a>HttpCustomHeaderPurchaseOrderServiceExample
 

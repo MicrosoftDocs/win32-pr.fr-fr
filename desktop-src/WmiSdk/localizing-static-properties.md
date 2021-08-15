@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Localiser des propriétés statiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecaba200b7880991d349c6e0c0196c88ffa54b11
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 4c51999c68a05e8d7b8cf3fd8c5218bc171931303d86a50c04f32c5d80efb308
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104323442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050727"
 ---
 # <a name="localizing-static-properties"></a>Localiser des propriétés statiques
 

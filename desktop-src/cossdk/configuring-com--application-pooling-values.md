@@ -4,12 +4,12 @@ ms.assetid: faba5cb7-745e-4fdf-a3e0-62132da4a843
 title: Configuration des valeurs de regroupement d’applications COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98922699fff7af7146250bdb504a1f46be08718e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 25d3407cd644b68cfc3ef279a9e67603aa1dc2db85302b22dbf0c6ae7219fd3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128971"
 ---
 # <a name="configuring-com-application-pooling-values"></a>Configuration des valeurs de regroupement d’applications COM+
 
@@ -32,7 +32,7 @@ Pour configurer le regroupement d’applications COM+ pour une application COM+,
 
 ## <a name="visual-basic"></a>Visual Basic
 
-La fonction suivante dans Visual Basic montre comment vous pouvez définir la valeur de regroupement d’applications COM+ (représentée par sa propriété ConcurrentApps) pour n’importe quelle application serveur COM+ que vous choisissez. Pour l’utiliser à partir de Visual Basic, ajoutez une référence à la bibliothèque de types d’administration COM+.
+la fonction suivante dans Visual Basic montre comment vous pouvez définir la valeur de regroupement d’applications com+ (représentée par sa propriété ConcurrentApps) pour n’importe quelle application serveur com+ que vous choisissez. pour l’utiliser à partir de Visual Basic, ajoutez une référence à la bibliothèque de types d’administration COM+.
 
 
 ```VB
@@ -78,7 +78,7 @@ End Function
 
 
 
-Pour utiliser la fonction, fournissez une valeur de chaîne pour le nom de l’application serveur COM+ et une valeur entière pour le paramètre de regroupement d’applications souhaité. Le code Visual Basic suivant montre comment définir la valeur de regroupement d’applications sur 15 pour l’application nommée « MyApplication » :
+Pour utiliser la fonction, fournissez une valeur de chaîne pour le nom de l’application serveur COM+ et une valeur entière pour le paramètre de regroupement d’applications souhaité. le code Visual Basic suivant montre comment définir la valeur de regroupement d’applications sur 15 pour l’application nommée « MyApplication » :
 
 
 ```VB

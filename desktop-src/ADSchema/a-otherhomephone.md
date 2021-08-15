@@ -1,10 +1,10 @@
 ---
-title: Téléphone-privé-autre attribut
+title: Téléphone-début-autre attribut
 description: Liste de numéros de téléphone personnels de remplacement.
 ms.assetid: 502e0a9d-301c-4c2e-98c3-8efe75c8b0cf
 ms.tgt_platform: multiple
 keywords:
-- Phone-page d’autres attributs-schéma Active Directory
+- Téléphone-page d’hébergement-autre schéma active directory
 - Schéma AD de l’attribut otherHomePhone
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2ed3aa026a1e60bb644ddab81293921ac9b8271
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ecf4037d3ec3f77db0092833973b6b5b72143fec1bb65ba5fd3ab7f3ddf4b1b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960148"
 ---
-# <a name="phone-home-other-attribute"></a>Téléphone-privé-autre attribut
+# <a name="phone-home-other-attribute"></a>Téléphone-début-autre attribut
 
 Liste de numéros de téléphone personnels de remplacement.
 
@@ -29,7 +29,7 @@ Liste de numéros de téléphone personnels de remplacement.
 
 | Entrée | Valeur |
 |-------------------|----------------------------------------------------------------------------------|
-| CN                | Téléphone-bureau-autre                                                                 |
+| CN                | Téléphone-à-soi-autre                                                                 |
 | LDAP-Display-Name | otherHomePhone                                                                   |
 | Taille              | \-                                                                               |
 | Mettre à jour le privilège  | Administrateur de domaine ou propriétaire du compte.                                           |
@@ -45,7 +45,7 @@ Liste de numéros de téléphone personnels de remplacement.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

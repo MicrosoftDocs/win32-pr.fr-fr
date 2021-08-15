@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eec7834a95b83ec43553d0ced1e056860cfb5abe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e22b50679b98bb57f40108287a303de3097cfe0bb3dc2fd552a957dae6479b1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009889"
 ---
 # <a name="imsrdpclientadvancedsettingshotkeyalttab-property"></a>IMsRdpClientAdvancedSettings :: HotKeyAltTab, propriété
 
@@ -92,7 +92,7 @@ Nouveau code de la clé virtuelle. **VK \_ AVANT** , il s’agit de la valeur pa
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

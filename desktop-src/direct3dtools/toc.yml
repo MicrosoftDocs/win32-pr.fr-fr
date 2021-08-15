@@ -41,7 +41,7 @@
             - name: IPixProgressCallback
               href: ipixprogresscallback.md
               items:
-                - name: Progression
+                - name: Avancement
                   href: ipixprogresscallback-progress-dword-dword.md
             - name: IPixelHistoryCallback
               href: ipixelhistorycallback.md

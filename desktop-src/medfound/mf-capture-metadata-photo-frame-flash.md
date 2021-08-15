@@ -4,12 +4,12 @@ ms.assetid: CF900CB4-8967-40F3-B60C-867192A641E9
 title: Attribut MF_CAPTURE_METADATA_PHOTO_FRAME_FLASH (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ff5e9a47c07c8d7a2cec4e7dbf7b34669301122
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a885786674c524b382912100171502dba78a010b2169738233b5aaad88ed701a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973918"
 ---
 # <a name="mf_capture_metadata_photo_frame_flash-attribute"></a>\_Attribut Flash de l' \_ \_ \_ image de MÉTADONNÉEs de capture MF \_
 
@@ -38,7 +38,7 @@ Indique si un flash a été déclenché pour le frame capturé.
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

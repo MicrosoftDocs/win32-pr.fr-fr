@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7a41c84efb4f48171913156823e18a301236290
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c193bba78bfe215d37bdfdedf5d45bd73f1a85606b3dab6e5a3c233cece8db18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961898"
 ---
 # <a name="iadssyntax-property-methods"></a>Méthodes de propriété IADsSyntax
 
@@ -78,7 +78,7 @@ HRESULT put_OleAutoDataType(
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un tableau d’octets non signés, le tableau VT **\_ UI1** VT \| **\_** peut signifier que le fournisseur a mappé une syntaxe qui ne peut pas être mappée à un type virtuel Automation.
 

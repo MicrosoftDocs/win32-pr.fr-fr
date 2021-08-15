@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 1e785d9425e003e5550b2b025fc73367b8e30b3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f0b501b83a2877006543687bdc1d29ba3db8cc06af362422af0990cae4f0c72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967798"
 ---
 # <a name="alternateslisttype-complex-type"></a>Type complexe AlternatesListType
 
@@ -33,7 +33,7 @@ Définit le type qui contient la liste des alternatives de reconnaissance pour u
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                     |
 
 

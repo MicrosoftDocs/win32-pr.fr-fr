@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 773ef3a8dd8fc5f4657119c2021c5723e54a3bd7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6daacc007438903d3f003a19038b4ea6909814e3a5d024d3df6daa95a0c60602
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106525871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989049"
 ---
 # <a name="d3ddegreetype-enumeration"></a>Énumération D3DDEGREETYPE
 
@@ -78,7 +78,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de cette énumération sont utilisées pour décrire les courbes utilisées par les correctifs de rectangle et de triangle. Pour plus d’informations, consultez D3DRS \_ CULLMODE.
 

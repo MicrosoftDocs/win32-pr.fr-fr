@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101327
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 475f31d49a4a813e3b7f762cf43541dbba4953ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e94f4e8ea38d3519ea780ce06e1c364eb85fd47e11f06aa8df6fb645c808ccdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622019"
 ---
 # <a name="esentcolumnlongexception-properties"></a>Propriétés EsentColumnLongException
 
@@ -49,7 +49,7 @@ Le type [EsentColumnLongException](./esentcolumnlongexception-class.md) expose l
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

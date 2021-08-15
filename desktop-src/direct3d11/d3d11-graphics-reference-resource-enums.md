@@ -6,12 +6,12 @@ keywords:
 - énumérations, ressource Direct3D 11
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6124fcbc93cb0069152dd20d3b4b3bf0f4be60d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6965eabfdb66c5459da799830cba9e87312566910e0dea84d400cb39b39127e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104971847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119126063"
 ---
 # <a name="resource-enumerations-direct3d-11-graphics"></a>Énumérations de ressources (graphiques Direct3D 11)
 

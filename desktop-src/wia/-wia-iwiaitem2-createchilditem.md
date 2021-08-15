@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 0002a6110894491a8d6efabb5a142b7c81adc820
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7d7215f528c36f6b4f5883be19d5d37c8b76d4d8ad9cacbcaa7a63397337c7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965568"
 ---
 # <a name="iwiaitem2createchilditem-method"></a>IWiaItem2 :: CreateChildItem, méthode
 
@@ -106,7 +106,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Certains périphériques matériels WIA 2,0 permettent aux applications de créer des éléments dans l’arborescence [**IWiaItem2**](-wia-iwiaitem2.md) qui représente l’appareil. Les applications doivent tester les périphériques pour voir s’ils prennent en charge cette fonctionnalité. Utilisez l' \_ interface IEnumWIA dev \_ Caps pour énumérer les fonctionnalités actuelles de l’appareil.
 
@@ -120,8 +120,8 @@ Si *lCreationFlags* est une \_ copie \_ \_ des valeurs de propriété parent et 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

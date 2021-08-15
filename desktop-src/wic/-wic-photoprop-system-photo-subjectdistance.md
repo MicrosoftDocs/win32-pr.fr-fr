@@ -4,12 +4,12 @@ ms.assetid: 8d5acd7e-7227-4a79-890a-43e6dace3864
 title: Stratégie de métadonnées de photo System. photo. SubjectDistance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3335b17f45cce7dc60881dc7ea8d9ffecc711016
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86ec1868b1e33c4bcaaaea9a9203cc73733646cc82dade52c86b0c8caec4a704
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964768"
 ---
 # <a name="systemphotosubjectdistance-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. SubjectDistance
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Subj
 
 \_Photo \_ SubjectDistance
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -41,7 +41,7 @@ Cette valeur est générée à partir de System. photo. SubjectDistanceNumerator
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37382} |             |
 | 2     | /xmp/exif:SubjectDistance     |             |
@@ -54,7 +54,7 @@ Cette valeur est générée à partir de System. photo. SubjectDistanceNumerator
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37382} |             |
 | 2     | /xmp/exif:SubjectDistance     |             |
@@ -67,7 +67,7 @@ Cette valeur est générée à partir de System. photo. SubjectDistanceNumerator
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37382} |
 | 2     | /xmp/exif:subjectdistance     |
@@ -82,7 +82,7 @@ Cette valeur est générée à partir de System. photo. SubjectDistanceNumerator
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37382}      |             |
 | 2     | /ifd/xmp/exif:SubjectDistance |             |
@@ -95,7 +95,7 @@ Cette valeur est générée à partir de System. photo. SubjectDistanceNumerator
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37382}      |             |
 | 2     | /ifd/xmp/exif:SubjectDistance |             |
@@ -108,7 +108,7 @@ Cette valeur est générée à partir de System. photo. SubjectDistanceNumerator
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /IFD/EXIF/{UShort = 37382}      |
 | 2     | /ifd/xmp/exif:subjectdistance |
@@ -117,7 +117,7 @@ Cette valeur est générée à partir de System. photo. SubjectDistanceNumerator
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

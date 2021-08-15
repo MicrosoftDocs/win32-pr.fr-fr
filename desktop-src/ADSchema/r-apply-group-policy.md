@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e7ee574b10a9bb4579cd3ac0f9366aeb28ed5a1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 08d93d77253f9bb0e45ab40acdd91efecc286d94bb982cb350f99161a5f5fb1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959508"
 ---
 # <a name="apply-group-policy-extended-right"></a>Apply-Group-stratégie-droit étendu
 
@@ -39,7 +39,7 @@ Droit étendu utilisé par stratégie de groupe moteur pour déterminer si un ob
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

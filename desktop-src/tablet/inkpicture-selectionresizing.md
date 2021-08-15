@@ -4,12 +4,12 @@ ms.assetid: da708712-2773-45f5-9d9b-49fabe7fdb5a
 title: InkPicture. SelectionResizing, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8f70b0b502fe426cfd94ce9002e8bbfc5260a88
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: caeae852802599a401c1cdff97436672e0cbfe252f8f1e96d6f4c98367c828ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966958"
 ---
 # <a name="inkpictureselectionresizing-event"></a>InkPicture. SelectionResizing, événement
 
@@ -42,11 +42,11 @@ Rectangle englobant de la sélection après l’événement **SelectionResizing*
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode d’événement est définie dans les dispinterfaces **\_ IInkOverlayEvents** et **\_ IInkPictureEvents** (dispinterfaces) avec l’ID DISPID \_ IOESelectionResizing.
 
@@ -56,7 +56,7 @@ Cette méthode d’événement est définie dans les dispinterfaces **\_ IInkOve
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

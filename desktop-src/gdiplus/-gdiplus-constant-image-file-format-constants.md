@@ -4,12 +4,12 @@ ms.assetid: ccc450fe-5b93-46f8-bfeb-b7b1aaf53f8e
 title: Constantes de format de fichier image (Gdiplusimaging. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cd13a62f5b71680efc89ab8c65990302eedd328
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ad71973c870f90844a033679cd2961d988def604343af06539db3450d65461a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104982914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117696504"
 ---
 # <a name="image-file-format-constants"></a>Constantes de format de fichier image
 
@@ -19,7 +19,7 @@ La méthode [**image :: GetRawFormat**](/windows/desktop/api/Gdiplusheaders/nf-
 
 | Constante                                                                                                                                                                                                                 | Description                                                               |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------|
-| <span id="ImageFormatBMP"></span><span id="imageformatbmp"></span><span id="IMAGEFORMATBMP"></span><dl> <dt>**ImageFormatBMP**</dt> </dl>                         | Indique le format BMP de Windows.<br/>                             |
+| <span id="ImageFormatBMP"></span><span id="imageformatbmp"></span><span id="IMAGEFORMATBMP"></span><dl> <dt>**ImageFormatBMP**</dt> </dl>                         | indique le format BMP Windows.<br/>                             |
 | <span id="ImageFormatEMF"></span><span id="imageformatemf"></span><span id="IMAGEFORMATEMF"></span><dl> <dt>**ImageFormatEMF**</dt> </dl>                         | Indique le format EMF.<br/>                                      |
 | <span id="ImageFormatEXIF"></span><span id="imageformatexif"></span><span id="IMAGEFORMATEXIF"></span><dl> <dt>**ImageFormatEXIF**</dt> </dl>                     | Indique le format EXIF (Exchangeable Image File).<br/>           |
 | <span id="ImageFormatGIF"></span><span id="imageformatgif"></span><span id="IMAGEFORMATGIF"></span><dl> <dt>**ImageFormatGIF**</dt> </dl>                         | Indique le format GIF.<br/>                                      |
@@ -29,13 +29,13 @@ La méthode [**image :: GetRawFormat**](/windows/desktop/api/Gdiplusheaders/nf-
 | <span id="ImageFormatMemoryBMP"></span><span id="imageformatmemorybmp"></span><span id="IMAGEFORMATMEMORYBMP"></span><dl> <dt>**ImageFormatMemoryBMP**</dt> </dl> | Indique que l’image a été construite à partir d’une bitmap de mémoire.<br/> |
 | <span id="ImageFormatPNG"></span><span id="imageformatpng"></span><span id="IMAGEFORMATPNG"></span><dl> <dt>**ImageFormatPNG**</dt> </dl>                         | Indique le format PNG.<br/>                                      |
 | <span id="ImageFormatTIFF"></span><span id="imageformattiff"></span><span id="IMAGEFORMATTIFF"></span><dl> <dt>**ImageFormatTIFF**</dt> </dl>                     | Indique le format TIFF.<br/>                                     |
-| <span id="ImageFormatUndefined"></span><span id="imageformatundefined"></span><span id="IMAGEFORMATUNDEFINED"></span><dl> <dt>**ImageFormatUndefined**</dt> </dl> | Indique que GDI+ ne peut pas déterminer le format.<br/>         |
+| <span id="ImageFormatUndefined"></span><span id="imageformatundefined"></span><span id="IMAGEFORMATUNDEFINED"></span><dl> <dt>**ImageFormatUndefined**</dt> </dl> | indique que GDI+ n’est pas en mesure de déterminer le format.<br/>         |
 | <span id="ImageFormatWEBP"></span><span id="imageformatwebp"></span><span id="ImageFormatWEBP"></span><dl> <dt>**ImageFormatWEBP**</dt> </dl>                     | Indique le format WebP.<br/>                                     |
 | <span id="ImageFormatWMF"></span><span id="imageformatwmf"></span><span id="IMAGEFORMATWMF"></span><dl> <dt>**ImageFormatWMF**</dt> </dl>                         | Indique le format WMF.<br/>                                      |
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

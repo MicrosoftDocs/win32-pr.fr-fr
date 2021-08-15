@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 82c3ecfa7d197e1ab912dbafe0d26fcb2281e605
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ed64939714c3ee69fb30e56afe23e52e780405287c898e138ee86822f1c5e0b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989069"
 ---
 # <a name="d3ddebugmonitortokens-enumeration"></a>Énumération D3DDEBUGMONITORTOKENS
 
@@ -62,7 +62,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de ce type énuméré sont utilisées par l’état de \_ rendu D3DRS DEBUGMONITORTOKEN et ne sont pertinentes que pour les versions Debug.
 

@@ -3,9 +3,9 @@ title: IWMPMediaCollection2 createQuery, méthode
 description: La méthode createQuery retourne une interface IWMPQuery qui représente une nouvelle requête.
 ms.assetid: a12da325-e77e-4e44-93d1-5e9c5733ea44
 keywords:
-- méthode createQuery lecteur Windows Media
-- createQuery, méthode lecteur Windows Media, interface IWMPMediaCollection2
-- Interface IWMPMediaCollection2 lecteur Windows Media, createQuery, méthode
+- createQuery, méthode Lecteur Windows Media
+- createQuery, méthode Lecteur Windows Media, IWMPMediaCollection2, interface
+- interface IWMPMediaCollection2 Lecteur Windows Media, createQuery, méthode
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 318b27a20ba801e1fbed58ff79c5bed7841f8c29
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1644748008e2b222fef0101a96892d480ad4723b9892b94e0e69c387b54e53d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000089"
 ---
 # <a name="iwmpmediacollection2createquery-method"></a>IWMPMediaCollection2 :: createQuery, méthode
 
@@ -53,7 +53,7 @@ Cette méthode n’a aucun paramètre.
 
 Interface **wmplib. IWMPQuery** qui représente une nouvelle requête vide.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La création d’une nouvelle requête est la première étape de la création d’une requête composée.
 

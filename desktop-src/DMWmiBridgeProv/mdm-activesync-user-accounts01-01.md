@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a065fb3f33e69b636a35fc848e5d717898f1fa3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 59532fed7b8ff5a866a438040a3d7f78d75f262d6ef5ffb20dd632a7adfd7dc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077405"
 ---
 # <a name="mdm_activesync_user_accounts01_01-class"></a>\_ \_ \_ \_ Classe Accounts01 01 de l’utilisateur MDM ActiveSync
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 La **classe \_ \_ utilisateur \_ Accounts01 \_ 01 de MDM ActiveSync** définit tous les comptes ActiveSync disponibles.
 
@@ -189,7 +189,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

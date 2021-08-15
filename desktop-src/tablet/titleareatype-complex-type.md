@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 4def6948860e11673970986925d2b665da2efe25
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2602339c9285eaac5da806fa0a08f498c0f8f631db30626f342a5bead7cc79ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966738"
 ---
 # <a name="titleareatype-complex-type"></a>Type complexe TitleAreaType
 
@@ -33,7 +33,7 @@ Définit le type qui contient les informations relatives à la position et aux l
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                     |
 
 

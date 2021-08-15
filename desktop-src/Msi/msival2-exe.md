@@ -4,18 +4,18 @@ ms.assetid: c48f4584-732a-468d-a651-2c09ce3c9ddd
 title: Msival2.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b70ca2ccdeaf72c5191f292a8fa3f9b4de5dd9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8ed1228413d5b2fab0dfab79ea4546a9d15e74c8c62e9b1ca9751699f469854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943876"
 ---
 # <a name="msival2exe"></a>Msival2.exe
 
 Msival2.exe est un utilitaire de ligne de commande qui peut exécuter une suite d' [évaluateurs de cohérence internes (ICEs)](internal-consistency-evaluators-ices.md).
 
-Cet outil est disponible uniquement dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
+cet outil est disponible uniquement dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
 
 Pour plus d’informations sur le fichier ICEs et le fichier CUB, consultez [utilisation des évaluateurs de cohérence internes](using-internal-consistency-evaluators.md).
 
@@ -43,7 +43,7 @@ Msival2.exe utilise les options de ligne de commande suivantes qui ne respectent
 
 <dl> <dt>
 
-[Outils de développement Windows Installer](windows-installer-development-tools.md)
+[Windows Outils de développement du programme d’installation](windows-installer-development-tools.md)
 </dt> <dt>
 
 [Évaluateurs de cohérence internes-CIEM](internal-consistency-evaluators-ices.md)

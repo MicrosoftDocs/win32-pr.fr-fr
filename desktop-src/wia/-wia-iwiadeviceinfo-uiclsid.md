@@ -1,5 +1,5 @@
 ---
-description: Récupère l’ID de classe de l’interface utilisateur fournie par le fabricant pour cet appareil matériel d’acquisition d’images Windows (WIA). La valeur est une représentation sous forme de chaîne d’un GUID.
+description: récupère l’id de classe de l’interface utilisateur fournie par le fabricant pour cet appareil matériel d’Acquisition d’images Windows (WIA). La valeur est une représentation sous forme de chaîne d’un GUID.
 ms.assetid: 7a513399-c880-4485-ac62-876ba726aab4
 title: DeviceInfo. UIClsid, propriété
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: ef3b015a55b3f1d249d3cc559feb4b47530e183c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 056e528170a2122812d7f3e624662b238e3e2965985e072a485963b5a7e6d908
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007539"
 ---
 # <a name="deviceinfouiclsid-property"></a>DeviceInfo. UIClsid, propriété
 
-Récupère l’ID de classe de l’interface utilisateur fournie par le fabricant pour cet appareil matériel d’acquisition d’images Windows (WIA). La valeur est une représentation sous forme de chaîne d’un GUID.
+récupère l’id de classe de l’interface utilisateur fournie par le fabricant pour cet appareil matériel d’Acquisition d’images Windows (WIA). La valeur est une représentation sous forme de chaîne d’un GUID.
 
 Cette propriété est en lecture seule.
 
@@ -45,8 +45,8 @@ Chaîne pour recevoir l’ID de classe.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (version 4,90 ou ultérieure)</dt> </dl> |
 
 

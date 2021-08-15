@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebb2effd65175bf7bf54cb74cb63a56af0278784
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 2a51f57be780edeac4a91ea4f127d34d1c004ff700429f405eee4522dcb63ef4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067454"
 ---
 # <a name="warn-switch"></a>commutateur/WARN
 
@@ -38,13 +38,13 @@ Spécifie le niveau d’avertissement, un entier compris entre 0 et 4. Il n’y 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le niveau d’avertissement indique la gravité de l’avertissement. Les niveaux d’avertissement sont compris entre 1 et 4, avec une valeur égale à zéro pour ne pas afficher d’informations d’avertissement. L’avertissement de gravité la plus élevée est le niveau 1. Le tableau suivant décrit les avertissements pour chaque niveau d’avertissement.
 
 
 
-| Niveau d’avertissement | Description                                             | Exemple                                                                   |
+| Niveau d’avertissement | Description                                             |  Exemple                                                                   |
 |---------------|---------------------------------------------------------|---------------------------------------------------------------------------|
 | 0             | Aucun avertissement.                                            |                                                                           |
 | 1             | Avertissements sérieux qui peuvent provoquer des erreurs d’application.      | Aucun handle de liaison spécifié, pointeurs non attributés, commutateurs en conflit. |
@@ -54,7 +54,7 @@ Le niveau d’avertissement indique la gravité de l’avertissement. Les niveau
 
 
 
- 
+ 
 
 Les avertissements sont différents des erreurs. Les erreurs provoquent l’arrêt du traitement du fichier IDL par le compilateur MIDL. Les avertissements font en sorte que le compilateur MIDL émette un message d’information et continue le traitement du fichier IDL.
 
@@ -75,9 +75,9 @@ Le commutateur **/WARN** se comporte de la même façon que le commutateur [**/w
 [Syntaxe générale de la ligne de commande MIDL](general-midl-command-line-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

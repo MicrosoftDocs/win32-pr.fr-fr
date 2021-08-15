@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: 34cd00f626bea3b8f1350950f0d2012ce019068e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fd54e3e1cd45c3631df9b069ddf3c2e897037efb2870d00946f0a002e12f145
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965778"
 ---
 # <a name="iscanprofilegetallpropids-method"></a>IScanProfile :: GetAllPropIDs, méthode
 
@@ -43,16 +43,16 @@ HRESULT GetAllPropIDs(
 *nombre* \[ in, out\]
 </dt> <dd>
 
-Type : **ULong \** _
+Type : **ULong \***
 
 Nombre d’ID de propriété demandés ou retournés.
 
 </dd> <dt>
 
-_ppid * \[ out\]
+*PPID* \[ à\]
 </dt> <dd>
 
-Type : **propid \** _
+Type : **propid \***
 
 Pointeur vers un tableau d’ID de propriété.
 
@@ -60,7 +60,7 @@ Pointeur vers un tableau d’ID de propriété.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
@@ -70,8 +70,8 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Scanprofile. h</dt> </dl>    |
 | MIDL<br/>                      | <dl> <dt>Scanprofiles. idl</dt> </dl> |
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9ac29bf0d74b4eb2cb6cb86bdf6b070cf56823eb
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: dec849009ee47b4aaef1bc3766e2b141a8a6ccf5e17b16a370c6ea8284eaf957
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986329"
 ---
 # <a name="mova---vs"></a>Mova-vs
 
@@ -29,14 +29,14 @@ Déplacez des données à partir d’un registre à virgule flottante vers le [R
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été doit être le [Registre d’adresses](dx9-graphics-reference-asm-vs-registers-address.md), a0.
 -   SRC est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 Déplace les données à virgule flottante vers un registre d’entiers. Les valeurs sont converties de la virgule flottante à l’aide de l’arrondi au plus proche.
 
@@ -85,9 +85,9 @@ mova a0.xz, r0
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

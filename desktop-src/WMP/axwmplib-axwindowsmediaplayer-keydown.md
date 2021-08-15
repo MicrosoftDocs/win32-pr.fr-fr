@@ -69,7 +69,7 @@ Valeurs pour les clés principales.
 | F1-F12                  | 112-123 |
 | ÉCHAP                     | 27      |
 | Tab                     | 9       |
-| Verr. Maj               | 20      |
+| VERR. MAJ               | 20      |
 | SHIFT (gauche ou droite)   | 16      |
 | CTRL (gauche ou droite)    | 17      |
 | ALT (gauche ou droite)     | 18      |

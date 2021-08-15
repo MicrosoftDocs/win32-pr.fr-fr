@@ -4,21 +4,21 @@ ms.assetid: dde1b978-6d35-4a75-91fd-69dfcc6c43d2
 title: Suggestions de conception pour le développement d’un CRM COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dcdb59f0ea23fb6879300d0bacec7df12970d81
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a286b2aa75b266a41b249b29203b16f0441e6276a9de03a25efc622ac2bd3fdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128751"
 ---
 # <a name="design-suggestions-for-developing-a-com-crm"></a>Suggestions de conception pour le développement d’un CRM COM+
 
 Voici les étapes suggérées pour le développement d’un CRM COM+ :
 
-1.  Avant de commencer le développement, définissez le délai d’expiration de la transaction sur zéro (à l’aide de l’outil d’administration Services de composants). Définissez l’indicateur de Registre VTRACE1 (consultez [paramètres de Registre CRM com+](com--crm-registry-settings.md)) pour afficher les messages d’avertissement et d’erreur CRM sur la trace de débogage.
-2.  Déterminez l’ensemble d’interfaces que vous devez utiliser, structuré (variantes) ou non structuré. (Voir [interfaces CRM com+](com--crm-interfaces.md).) Cela dépend du langage que vous utilisez pour développer votre CRM, par exemple, Microsoft Visual C++ ou Microsoft Visual Basic.
+1.  Avant de commencer le développement, définissez le délai d’expiration de la transaction sur zéro (à l’aide de l’outil d’administration Services de composants). définissez l’indicateur de registre VTRACE1 (consultez [COM+ CRM registry Paramètres](com--crm-registry-settings.md)) pour afficher les messages d’avertissement et d’erreur crm sur la trace de débogage.
+2.  Déterminez l’ensemble d’interfaces que vous devez utiliser, structuré (variantes) ou non structuré. (Voir [interfaces CRM com+](com--crm-interfaces.md).) cela dépend du langage que vous utilisez pour développer votre CRM, par exemple, Microsoft Visual C++ ou Microsoft Visual Basic.
 3.  Commencez par développer le travail CRM. Déterminez les informations requises dans les enregistrements de journal. Définissez les types d’enregistrements de journal requis et leur format.
-4.  Un compensateur CRM de débogage est fourni dans le cadre des exemples CRM (dans le SDK Windows). Cela peut être utilisé temporairement lors du débogage du processus de travail CRM à la place du compensateur CRM réel.
+4.  un compensateur crm de débogage est fourni dans le cadre des exemples crm (dans le SDK Windows). Cela peut être utilisé temporairement lors du débogage du processus de travail CRM à la place du compensateur CRM réel.
 5.  Lorsque le processus de travail CRM fonctionne correctement, développez le compensateur CRM réel et remplacez le compensateur CRM de débogage par le compensateur CRM réel.
 6.  Il peut être souhaitable de ne pas tester initialement le cas de récupération. Si c’est le cas, supprimez le fichier journal CRM de l’application CRM Server chaque fois avant de démarrer l’application CRM Server.
 

@@ -4,12 +4,12 @@ ms.assetid: 29c7fc1c-2047-4562-ba14-48f9cfbfe68c
 title: MFPKEY_VTYPE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e95bab3120e60a2faa1a3be47c6459205f5f34d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f406f0bc91e3431672c2b7f92cc544273e2a64403017a22eb4567054cef0155
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973338"
 ---
 # <a name="mfpkey_vtype-property"></a>MFPKEY \_ propriété VTYPE
 
@@ -27,7 +27,7 @@ VT \_
 
 0
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété peut être définie sur l’une des valeurs suivantes.
 
@@ -64,8 +64,8 @@ Lors de l’encodage de contenu mixte (contenant à la fois des frames progressi
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

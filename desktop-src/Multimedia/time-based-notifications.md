@@ -9,22 +9,22 @@ keywords:
 - notifications de manette de jeu basées sur le temps
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15dff2a6140bd993157f20e92488afce1b646e20
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 80052d5e728a7a5b00e6177a36c30f470fe80daeafbe39a12aa4c9a883766534
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688249"
 ---
 # <a name="time-based-notifications"></a>Notifications de Time-Based
 
 Vous pouvez notifier le système d’exploitation d’envoyer des messages de la manette de jeu à une application à intervalles réguliers en définissant le paramètre *fChanged* de [**joySetCapture**](/windows/win32/api/joystickapi/nf-joystickapi-joysetcapture) sur **false** et en spécifiant la longueur de l’intervalle entre les messages successifs. Pour ce faire, affectez au paramètre *uPeriod* une valeur comprise entre les fréquences d’interrogation minimale et maximale de la manette de jeu. Vous pouvez déterminer cette plage à l’aide de la fonction [**joyGetDevCaps**](/windows/win32/api/joystickapi/nf-joystickapi-joygetdevcaps) , qui remplit les membres **wPeriodMin** et **wPeriodMax** dans la structure [**JoyCaps**](/windows/win32/api/joystickapi/ns-joystickapi-joycaps) . Si la valeur *uPeriod* est en dehors de la plage de fréquences d’interrogation valides pour la manette de jeu, le pilote de manette de jeu utilise la fréquence d’interrogation minimale ou maximale, selon la valeur la plus proche de la valeur de *uPeriod* .
 
 > [!Note]  
-> Windows configure un événement de minuteur avec chaque appel à **joySetCapture**.
+> Windows configure un événement de minuterie avec chaque appel à **joySetCapture**.
 
- 
+ 
 
- 
+ 
 
- 
+ 

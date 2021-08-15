@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: aa80e5fe17047eceacdc30e2a40a4a629088d89f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c38a95c4e0dc9820130e467c971c0adb5b9df0ede248506ed56f963c3246b3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104529008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971598"
 ---
 # <a name="documentevent-function"></a>DocumentEvent fonction)
 
@@ -57,7 +57,7 @@ Handle d’un objet Printer. Utilisez la fonction [**OpenPrinter**](openprinter.
 *HDC* \[ dans\]
 </dt> <dd>
 
-Handle de contexte de périphérique qui est généré par un appel de [**CreateDC**](/windows/desktop/api/wingdi/nf-wingdi-createdca). Il s’agit de zéro si *iEsc* est défini sur DOCUMENTEVENT \_ CREATEDCPRE. Pour des restrictions sur l’impression à partir d’une application 32 bits sur une version 64 bits de Windows, consultez la section Notes.
+Handle de contexte de périphérique qui est généré par un appel de [**CreateDC**](/windows/desktop/api/wingdi/nf-wingdi-createdca). Il s’agit de zéro si *iEsc* est défini sur DOCUMENTEVENT \_ CREATEDCPRE. pour des restrictions sur l’impression à partir d’une application 32 bits sur une version 64 bits de Windows, consultez la section notes.
 
 </dd> <dt>
 
@@ -114,7 +114,7 @@ Pointeur vers une mémoire tampon. Le contenu de la mémoire tampon dépend de l
 | <span id="DOCUMENTEVENT_ENDDOCPOST"></span><span id="documentevent_enddocpost"></span><dl> <dt>**DOCUMENTEVENT \_ ENDDOCPOST**</dt> </dl>                                                                                                                                                         | Non utilisé.<br/>                                                                                                                                                                                                                          |
 | <span id="DOCUMENTEVENT_ENDDOCPRE_or_DOCUMENTEVENT_ENDDOC"></span><span id="documentevent_enddocpre_or_documentevent_enddoc"></span><span id="DOCUMENTEVENT_ENDDOCPRE_OR_DOCUMENTEVENT_ENDDOC"></span><dl> <dt>**DOCUMENTEVENT \_ ENDDOCPRE ou DOCUMENTEVENT \_ ENDDOC**</dt> </dl>                 | Non utilisé.<br/>                                                                                                                                                                                                                          |
 | <span id="DOCUMENTEVENT_ENDPAGE"></span><span id="documentevent_endpage"></span><dl> <dt>**DOCUMENTEVENT \_ ENDPAGE**</dt> </dl>                                                                                                                                                                  | Non utilisé.<br/>                                                                                                                                                                                                                          |
-| <span id="DOCUMENTEVENT_ESCAPE"></span><span id="documentevent_escape"></span><dl> <dt>**DOCUMENTEVENT \_ échappement**</dt> </dl>                                                                                                                                                                     | *pvIn* pointe vers une \_ structure de séquence d’échappement DOCEVENT qui est documentée dans le kit de développement de [pilotes Windows](https://msdn.microsoft.com/windows/hardware/gg487428).<br/>                                                                        |
+| <span id="DOCUMENTEVENT_ESCAPE"></span><span id="documentevent_escape"></span><dl> <dt>**DOCUMENTEVENT \_ échappement**</dt> </dl>                                                                                                                                                                     | *pvIn* pointe vers une \_ structure de séquence d’échappement DOCEVENT qui est documentée dans le Kit de développement de [pilotes Windows](https://msdn.microsoft.com/windows/hardware/gg487428).<br/>                                                                        |
 | <span id="DOCUMENTEVENT_QUERYFILTER"></span><span id="documentevent_queryfilter"></span><dl> <dt>**DOCUMENTEVENT \_ QUERYFILTER**</dt> </dl>                                                                                                                                                      | Identique à DOCUMENTEVENT \_ CREATEDCPRE.<br/>                                                                                                                                                                                            |
 | <span id="DOCUMENTEVENT_RESETDCPOST"></span><span id="documentevent_resetdcpost"></span><dl> <dt>**DOCUMENTEVENT \_ RESETDCPOST**</dt> </dl>                                                                                                                                                      | *pvIn* contient l’adresse d’un pointeur vers la structure [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) spécifiée dans le paramètre *pvOut* lors d’un appel précédent à cette fonction, pour laquelle le paramètre *iEsc* a été défini sur DOCUMENTEVENT \_ RESETDCPRE.<br/>  |
 | <span id="DOCUMENTEVENT_RESETDCPRE"></span><span id="documentevent_resetdcpre"></span><dl> <dt>**DOCUMENTEVENT \_ RESETDCPRE**</dt> </dl>                                                                                                                                                         | *pvIn* contient l’adresse d’un pointeur vers la structure [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) fournie par l’appelant de [**ResetDC**](/windows/desktop/api/wingdi/nf-wingdi-resetdca).<br/>                                                                                         |
@@ -151,7 +151,7 @@ Pointeur vers une mémoire tampon. Le contenu de la mémoire tampon dépend de l
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="DOCUMENTEVENT_CREATEDCPRE"></span><span id="documentevent_createdcpre"></span><dl> <dt>**DOCUMENTEVENT \_ CREATEDCPRE**</dt> </dl> | Pointeur vers une structure [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) fournie par le pilote, que GDI utilise à la place de celui fourni par l’appelant [**CreateDC**](/windows/desktop/api/wingdi/nf-wingdi-createdca) . (Si la **valeur est null**, GDI utilise la structure fournie par l’appelant.)<br/> |
 | <span id="DOCUMENTEVENT_ESCAPE"></span><span id="documentevent_escape"></span><dl> <dt>**DOCUMENTEVENT \_ échappement**</dt> </dl>                | Pointeur vers une mémoire tampon utilisée comme paramètre *lpszOutData* pour [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape).<br/>                                                                                                              |
-| <span id="DOCUMENTEVENT_QUERYFILTER"></span><span id="documentevent_queryfilter"></span><dl> <dt>**DOCUMENTEVENT \_ QUERYFILTER**</dt> </dl> | Pointeur vers une mémoire tampon contenant une \_ structure de filtre DOCEVENT qui est documentée dans le [Kit de développement de pilotes Windows](https://msdn.microsoft.com/windows/hardware/gg487428).<br/>                                          |
+| <span id="DOCUMENTEVENT_QUERYFILTER"></span><span id="documentevent_queryfilter"></span><dl> <dt>**DOCUMENTEVENT \_ QUERYFILTER**</dt> </dl> | pointeur vers une mémoire tampon contenant une \_ structure de filtre DOCEVENT qui est documentée dans le [Kit de développement de pilotes Windows](https://msdn.microsoft.com/windows/hardware/gg487428).<br/>                                          |
 | <span id="DOCUMENTEVENT_RESETDCPRE"></span><span id="documentevent_resetdcpre"></span><dl> <dt>**DOCUMENTEVENT \_ RESETDCPRE**</dt> </dl>    | Pointeur vers une structure [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) fournie par le pilote, que GDI utilise à la place de celui fourni par l’appelant [**ResetDC**](/windows/desktop/api/wingdi/nf-wingdi-resetdca) . (Si la **valeur est null**, GDI utilise la structure fournie par l’appelant.)<br/>   |
 
 
@@ -201,16 +201,16 @@ La liste suivante indique les codes d’échappement qui nécessitent une valeur
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour une valeur *iEsc* de DOCUMENTEVENT \_ QUERYFILTER, le spouleur peut interpréter une \_ valeur de réussite DOCUMENTEVENT retournée par **DOCUMENTEVENT** de deux façons, selon que le pilote a modifié certains membres de la structure de \_ filtre DOCEVENT (qui est documenté dans le kit de développement de [pilotes Windows](https://msdn.microsoft.com/windows/hardware/gg487428) ). (Le paramètre *pvOut* pointe vers cette structure.) Lorsque le spouleur alloue de la mémoire pour une structure de ce type, il initialise deux membres de cette structure, **cElementsReturned** et **cElementsNeeded**, aux valeurs connues. Une fois **DocumentEvent** retourné, le spouleur détermine si les valeurs de ces membres ont changé et utilise ces informations pour interpréter la valeur de retour **DocumentEvent** . Le tableau suivant résume cette situation.
+pour une valeur *iEsc* de DOCUMENTEVENT \_ QUERYFILTER, le spouleur peut interpréter une \_ valeur de réussite DOCUMENTEVENT retournée par **DOCUMENTEVENT** de deux façons, selon que le pilote a modifié certains membres de la structure de \_ filtre DOCEVENT (qui est documenté dans le Kit de développement de [pilotes Windows](https://msdn.microsoft.com/windows/hardware/gg487428) ). (Le paramètre *pvOut* pointe vers cette structure.) Lorsque le spouleur alloue de la mémoire pour une structure de ce type, il initialise deux membres de cette structure, **cElementsReturned** et **cElementsNeeded**, aux valeurs connues. Une fois **DocumentEvent** retourné, le spouleur détermine si les valeurs de ces membres ont changé et utilise ces informations pour interpréter la valeur de retour **DocumentEvent** . Le tableau suivant résume cette situation.
 
 
 
 | Valeur renvoyée                          | État de cElementsReturned et cElementsNeeded    | Signification                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |---------------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | réussite de DOCUMENTEVENT \_<br/>     | Le pilote n’a apporté aucune modification à l’un ou l’autre des membres.<br/> | Le spouleur interprète cette valeur de retour comme équivalant à DOCUMENTEVENT \_ non pris en charge. Le spouleur ne parvient pas à récupérer le filtre d’événements à partir du pilote. il persiste donc dans l’appel de **DocumentEvent** pour tous les événements.<br/>                                                                                                                                                                                                                         |
-| réussite de DOCUMENTEVENT \_<br/>     | Le pilote a été écrit sur un ou les deux membres.<br/>    | Le spouleur accepte cette valeur de retour sans interprétation. Si le pilote a écrit dans un seul **cElementsNeeded** et **cElementsReturned**, le spouleur considère que le membre inchangé a une valeur de zéro.<br/> Le spouleur filtre tous les événements répertoriés dans le membre **aDocEventCall** du \_ filtre DOCEVENT (qui est documenté dans le [Kit de développement de pilotes Windows](https://msdn.microsoft.com/windows/hardware/gg487428) ).<br/> |
+| réussite de DOCUMENTEVENT \_<br/>     | Le pilote a été écrit sur un ou les deux membres.<br/>    | Le spouleur accepte cette valeur de retour sans interprétation. Si le pilote a écrit dans un seul **cElementsNeeded** et **cElementsReturned**, le spouleur considère que le membre inchangé a une valeur de zéro.<br/> le spouleur filtre tous les événements répertoriés dans le membre **aDocEventCall** du \_ filtre DOCEVENT (qui est documenté dans le [Kit de développement de pilotes Windows](https://msdn.microsoft.com/windows/hardware/gg487428) ).<br/> |
 | DOCUMENTEVENT \_ non pris en charge<br/> | Non applicable<br/>                          | Le pilote ne prend pas en charge DOCUMENTEVENT \_ QUERYFILTER.<br/> Le spouleur ne parvient pas à récupérer le filtre d’événements à partir du pilote. il persiste donc dans l’appel de **DocumentEvent** pour tous les événements.<br/>                                                                                                                                                                                                                                            |
 | échec de DOCUMENTEVENT \_<br/>     | Non applicable<br/>                          | Le pilote prend en charge DOCUMENTEVENT \_ QUERYFILTER, mais a rencontré une erreur interne.<br/> Le spouleur ne parvient pas à récupérer le filtre d’événements à partir du pilote. il persiste donc dans l’appel de **DocumentEvent** pour tous les événements.<br/>                                                                                                                                                                                                                 |
 
@@ -220,7 +220,7 @@ Pour une valeur *iEsc* de DOCUMENTEVENT \_ QUERYFILTER, le spouleur peut interpr
 
 Si le code d’échappement fourni dans le paramètre *iEsc* est DOCUMENTEVENT \_ CREATEDCPRE, les règles suivantes s’appliquent :
 
--   Si le travail est envoyé directement à l’imprimante sans mise en file d’attente, pvIn->pszDevice pointe sur le nom de l’imprimante. (Pour plus d’informations, consultez la documentation relative à DOCEVENT \_ Structure CREATEDCPRE dans le [Kit de développement de pilotes Windows](https://msdn.microsoft.com/windows/hardware/gg487428).)
+-   Si le travail est envoyé directement à l’imprimante sans mise en file d’attente, pvIn->pszDevice pointe sur le nom de l’imprimante. (Pour plus d’informations, consultez la documentation relative à DOCEVENT \_ structure CREATEDCPRE dans le [Kit de développement de pilotes Windows](https://msdn.microsoft.com/windows/hardware/gg487428).)
 -   Si le travail est mis en file d’attente, pvIn->pszDevice pointe sur le nom du port d’imprimante.
 
 > [!Note]  
@@ -234,8 +234,8 @@ Si le code d’échappement fourni dans le paramètre *iEsc* est DOCUMENTEVENT \
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Winspool. h (inclure Windows. h)</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **DocumentEventW** (Unicode) et **DocumentEventA** (ANSI)<br/>                                     |
 
@@ -251,7 +251,7 @@ Si le code d’échappement fourni dans le paramètre *iEsc* est DOCUMENTEVENT \
 [Fonctions API du spouleur d’impression](printing-and-print-spooler-functions.md)
 </dt> <dt>
 
-[Kit de développement de pilotes Windows](https://msdn.microsoft.com/windows/hardware/gg487428)
+[Windows Kit de développement de pilotes](https://msdn.microsoft.com/windows/hardware/gg487428)
 </dt> </dl>
 
  

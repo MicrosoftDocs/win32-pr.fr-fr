@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cacbebb19f6e45b7f4d797ef63f9a7c72c3a6eef
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e67c3e3a2b5b0f198a21805d47aedb07567005f4e15b3bcaf53cd58b51c97cb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081153"
 ---
 # <a name="msmq-peek-extended-right"></a>MSMQ-lire le droit étendu
 
@@ -39,7 +39,7 @@ Autorise la lecture des messages dans la file d’attente.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

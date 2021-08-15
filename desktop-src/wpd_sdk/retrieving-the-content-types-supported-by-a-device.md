@@ -4,16 +4,16 @@ ms.assetid: 1cedb8d9-2476-420c-bab4-c8a032af781b
 title: Récupération des types de contenu pris en charge par un appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e1b37160065be3130fca687f5f3277d9108a6ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f85366374ec28ed44664a3b86edbee1e046e1a5ee4e331dbe041398bdc48a9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083463"
 ---
 # <a name="retrieving-the-content-types-supported-by-a-device"></a>Récupération des types de contenu pris en charge par un appareil
 
-Comme indiqué dans la rubrique [récupération des catégories fonctionnelles prises en charge par un appareil](retrieving-the-functional-categories-supported-by-a-device.md) , les périphériques mobiles Windows peuvent prendre en charge une ou plusieurs catégories fonctionnelles. Toute catégorie fonctionnelle donnée peut prendre en charge un ou plusieurs types de contenu. Par exemple, la catégorie stockage peut prendre en charge les types de contenu de dossier, audio et image.
+comme indiqué dans la rubrique [récupération des catégories fonctionnelles prises en charge par un périphérique](retrieving-the-functional-categories-supported-by-a-device.md) , Windows appareils mobiles peuvent prendre en charge une ou plusieurs catégories fonctionnelles. Toute catégorie fonctionnelle donnée peut prendre en charge un ou plusieurs types de contenu. Par exemple, la catégorie stockage peut prendre en charge les types de contenu de dossier, audio et image.
 
 Pour obtenir une description des types de contenu pris en charge par WPD, consultez la rubrique [**\_ type de contenu wpd \_ \_ tout**](wpd-content-type-all.md) .
 

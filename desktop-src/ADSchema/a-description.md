@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1ccb155c9c65a42c29a022a6912b7aea7087477
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2f53c344b026a89a3f579d1eb7fc7002a8a0410d28fd9b43d05882a4285eb73b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961727"
 ---
 # <a name="description-attribute-ad-schema"></a>Description, attribut (schéma Active Directory)
 
@@ -46,7 +46,7 @@ Contient la description à afficher pour un objet. Cette valeur est limitée en 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -197,7 +197,7 @@ Contient la description à afficher pour un objet. Cette valeur est limitée en 
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut Description est implémenté en tant qu’attribut à valeurs multiples dans le schéma pour les cas où cela est autorisé. Pour un objet qui n’est pas une classe managée SAM, la description est à valeurs multiples. Pour un attribut qui est une classe managée SAM, l’attribut Description est à valeur unique. Les classes gérées SAM sont destinées à des éléments tels que les principaux de sécurité. par exemple, si vous avez, par exemple, un conteneur ou une classe de votre choix, le schéma vous permet d’utiliser plusieurs valeurs. Ce comportement de l’attribut Description est utilisé pour la compatibilité descendante avec les systèmes d’exploitation antérieurs, car l’attribut existait dans les API SAM avant l’existence d’AD.
 

@@ -1,21 +1,21 @@
 ---
-title: Ensemble d’animations Office
-description: Ensemble d’animations Office
+title: ensemble d’animations Office
+description: ensemble d’animations Office
 ms.assetid: ea80d19b-bf4c-4f6e-bab0-424a9f78f457
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 491b0052b7eb11d34db09095bf891f92a0c8a65f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 08cfe8ffbfb9d54ee956c36dd6eb1b3d567f26ad8dc55cd182282db6a685f3b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975549"
 ---
-# <a name="the-office-animation-set"></a>Ensemble d’animations Office
+# <a name="the-office-animation-set"></a>ensemble d’animations Office
 
 \[Microsoft Agent est déconseillé à partir de Windows 7 et peut ne pas être disponible dans les versions ultérieures de Windows.\]
 
-Le tableau suivant répertorie les animations définies pour les Microsoft Office 2000 caractères. Si vous envisagez d’utiliser votre caractère dans Microsoft Office, vous devez prendre en charge toutes les animations de ce tableau. En outre, vous pouvez ajouter toutes les autres animations que vous vivez, mais gardez à l’esprit que Microsoft Office ne les appelle pas. Les animations avec des astérisques ( \* ) doivent être de 100% en boucle. Les autres animations doivent être brèves.
+le tableau suivant répertorie les animations définies pour les Microsoft Office 2000 caractères. si vous envisagez d’utiliser votre caractère dans Microsoft Office, vous devez prendre en charge toutes les animations de ce tableau. en outre, vous pouvez ajouter toutes les autres animations que vous vivez, mais gardez à l’esprit que Microsoft Office ne les appelle pas. Les animations avec des astérisques ( \* ) doivent être de 100% en boucle. Les autres animations doivent être brèves.
 
 
 
@@ -63,11 +63,11 @@ Le tableau suivant répertorie les animations définies pour les Microsoft Offic
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

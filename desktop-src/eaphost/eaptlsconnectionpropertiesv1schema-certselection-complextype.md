@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ba22df8dca61696f214e495542319168183dd2bf
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 375ea26fddf07f8d775617c0a2167ed02aa8160de8cc5dde49a92f37f57a335e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984129"
 ---
 # <a name="certselection-complex-type"></a>Type complexe CertSelection
 
@@ -50,10 +50,10 @@ Le type complexe **CertSelection** détermine la façon dont l’utilisateur sé
 
 
 
-| Role | Version minimale du système d’exploitation prise en charge |
+| Fonction | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

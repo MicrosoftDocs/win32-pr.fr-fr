@@ -4,7 +4,7 @@ description: Liste de numéros de radiomessagerie secondaires.
 ms.assetid: 4e01440f-782f-459f-8937-8c75b11fc271
 ms.tgt_platform: multiple
 keywords:
-- Téléphone-récepteur de radiomessagerie-autre attribut schéma Active Directory
+- Téléphone-téléavertisseur-autre schéma active directory
 - Schéma AD de l’attribut otherPager
 topic_type:
 - apiref
@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2826b9b57e4349063abf8ccefd3ef4a69a307e5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7e9865e3713d0591715aa4f3c975f3cbdd095192b81916ed27b48763ed418a27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960138"
 ---
 # <a name="phone-pager-other-attribute"></a>Téléphone-téléavertisseur-autre attribut
 
@@ -29,7 +29,7 @@ Liste de numéros de radiomessagerie secondaires.
 
 | Entrée | Valeur |
 |-------------------|----------------------------------------------------------------------------------|
-| CN                | Téléphone-radiomessagerie-autre                                                                |
+| CN                | Téléphone-téléavertisseur-autre                                                                |
 | LDAP-Display-Name | otherPager                                                                       |
 | Taille              | \-                                                                               |
 | Mettre à jour le privilège  | Administrateur de domaine ou propriétaire du compte.                                           |
@@ -45,7 +45,7 @@ Liste de numéros de radiomessagerie secondaires.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
