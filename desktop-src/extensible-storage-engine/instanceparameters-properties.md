@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.inst
 ms:contentKeyID: 55103291
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0ac2b8aa959b8fa07f06e2de86dcfc173bab15ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1db9933e6e0a14b770e4250fc7e1faf564d3266ee258bfa71671093dceee763a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104559899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721159"
 ---
 # <a name="instanceparameters-properties"></a>Propriétés InstanceParameters
 
@@ -45,7 +45,7 @@ Le type [InstanceParameters](./instanceparameters-class.md) expose les membres s
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
 <td><a href="dn350951(v=exchg.10).md">CachedClosedTables</a></td>
-<td>Obtient ou définit une valeur donnant le nombre de ressources de l’arborescence B + mises en cache par l’instance après que les tables qu’elles représentent ont été fermées par l’application. Des valeurs élevées pour ce paramètre forcent le moteur de base de données à utiliser plus de mémoire, mais augmentent la vitesse avec laquelle un grand nombre de tables peut être ouvert de façon aléatoire par l’application. Cela est utile pour les applications qui ont un schéma avec un très grand nombre de tables. Pris en charge sur Windows Vista et les autres. Ignoré sur Windows XP et Windows Server 2003.</td>
+<td>Obtient ou définit une valeur donnant le nombre de ressources de l’arborescence B + mises en cache par l’instance après que les tables qu’elles représentent ont été fermées par l’application. Des valeurs élevées pour ce paramètre forcent le moteur de base de données à utiliser plus de mémoire, mais augmentent la vitesse avec laquelle un grand nombre de tables peut être ouvert de façon aléatoire par l’application. Cela est utile pour les applications qui ont un schéma avec un très grand nombre de tables. pris en charge sur Windows Vista et les autres. ignoré sur Windows XP et Windows Server 2003.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
@@ -215,7 +215,7 @@ Le type [InstanceParameters](./instanceparameters-class.md) expose les membres s
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
 <td><a href="dn350985(v=exchg.10).md">WaypointLatency</a></td>
-<td>Obtient ou définit le nombre de journaux pour lesquels esent diffère le vidage de base de données. Cela peut être utilisé pour augmenter la capacité de récupération de base de données en cas de perte de fichiers journaux. Pris en charge sur Windows 7 et les autres. Ignoré sur Windows XP, Windows Server 2003, Windows Vista et Windows Server 2008.</td>
+<td>Obtient ou définit le nombre de journaux pour lesquels esent diffère le vidage de base de données. Cela peut être utilisé pour augmenter la capacité de récupération de base de données en cas de perte de fichiers journaux. pris en charge sur Windows 7 et les autres. ignoré sur Windows XP, Windows server 2003, Windows Vista et Windows server 2008.</td>
 </tr>
 </tbody>
 </table>

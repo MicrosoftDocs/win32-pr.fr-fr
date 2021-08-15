@@ -4,12 +4,12 @@ description: Répertorie les rubriques disponibles qui montrent comment utiliser
 ms.assetid: d3baade5-c56c-4561-a135-4853696b2416
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0ce5a3f4c4bbbf7066dab08f4882d23f8711c83
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 94c760e8e3034f272e43c7d5e9f9b6e739fcc0dd617068beee337d78614b3a91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117939864"
 ---
 # <a name="using-the-tool-help-functions"></a>Utilisation des fonctions d’aide de l’outil
 
@@ -20,9 +20,9 @@ Cette section contient des exemples montrant comment effectuer les tâches suiva
 -   [Parcours de la liste des modules](traversing-the-module-list.md)
 -   [Parcours de la liste des tas](traversing-the-heap-list.md)
 
- 
+ 
 
- 
+ 
 
 
 

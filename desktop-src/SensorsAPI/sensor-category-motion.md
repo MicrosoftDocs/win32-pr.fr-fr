@@ -4,12 +4,12 @@ ms.assetid: be025c86-46b5-4f50-a3af-0408bb3c9b5b
 title: SENSOR_CATEGORY_MOTION (sensors. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1edcb1b5f0a6d02c481774d18ee111ad4ca5e5cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a66d57c8406ad1344d696f63e574484943ea68a6654f63c3d7d38e904aaa44e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106542893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889487"
 ---
 # <a name="sensor_category_motion"></a>\_mouvement de catégorie de capteur \_
 
@@ -66,7 +66,7 @@ Cette catégorie comprend les champs de données définis par la plateforme suiv
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                            |
 | En-tête<br/>                   | <dl> <dt>Capteurs. h</dt> </dl> |
 

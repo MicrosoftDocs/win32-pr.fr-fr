@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0ccd5bb95e3f092634d54ba0534e81ded6701bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6cc130a83aa77021e0be512d9b2ad27914b4c6be382c0290e082e1fbd67b8b22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106543632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024297"
 ---
 # <a name="wm_adsprop_notify_apply-message"></a>\_Message d' \_ application de notification WM ADSPROP \_
 
@@ -66,7 +66,7 @@ Non utilisé.
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous ajoutez des pages au composant logiciel enfichable MMC Active Directory Manager, Active Directory feuilles de propriétés MMC créent les objets de notification par un appel à la fonction [**ADsPropCreateNotifyObj**](/windows/desktop/api/Adsprop/nf-adsprop-adspropcreatenotifyobj) , puis passe le handle d’objet de notification à chaque page de propriétés.
 

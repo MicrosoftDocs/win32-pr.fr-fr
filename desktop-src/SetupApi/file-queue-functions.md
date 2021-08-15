@@ -4,12 +4,12 @@ ms.assetid: f05e2abf-983f-4418-bf92-f5ca6502196e
 title: Fonctions de file d’attente de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9acaf1fb1fbd2dc4f020577a1ae68d6ec9b2e95c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a70087bfcc00f2c3d86c93cc62081adc9aa50705d248d79a524435c95f480562
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118887078"
 ---
 # <a name="file-queue-functions"></a>Fonctions de file d’attente de fichiers
 

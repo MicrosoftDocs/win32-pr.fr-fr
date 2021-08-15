@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b65f0113ecf2c91786e45c35f5e8e832744bc952
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: eb779d071f471abe92b18ef456a2a016536a5231ccf327f8ebd175be8e5ff224
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104973911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118509291"
 ---
 # <a name="rwtexture1dgetdimensions-function"></a>RWTexture1D :: GetDimensions,, fonction
 
@@ -49,7 +49,7 @@ Largeur des ressources, en texels.
 
 Rien
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une liste des versions surchargées de cette méthode.
 
@@ -66,7 +66,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 79276f206cebc0490bff0ba9d44810bed83bce70
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c44290a38d041acf17dfe1a9e3e274674d9d5c15091cfa5767e6974e72bb2b71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896385"
 ---
 # <a name="utilitieshextobinary-method"></a>Méthode Utilities. HexToBinary
 
@@ -58,7 +58,7 @@ Chaîne binaire qui est équivalente à la chaîne hexadécimale spécifiée.
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 
@@ -67,7 +67,7 @@ Chaîne binaire qui est équivalente à la chaîne hexadécimale spécifiée.
 
 <dl> <dt>
 
-[**Services**](utilities.md)
+[**Outils**](utilities.md)
 </dt> </dl>
 
  

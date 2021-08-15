@@ -38,12 +38,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: fd60e98c8df12b539bb51c60b34e7931b762dc03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6e2de8571d665dc86393708b2afcf73fc4885f0b4de26624daafcdccff995b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681479"
 ---
 # <a name="msvm_ethernetswitchportoffloaddata-class"></a>MSVM \_ EthernetSwitchPortOffloadData, classe
 
@@ -343,7 +343,7 @@ Qualificateurs : **WmiDataId** (9), **InterfaceVersion** (2), **InterfaceRevisi
 Indique si VMMQ est actif.
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703.
+> cette propriété a été ajoutée dans Windows 10, version 1703.
 
  
 
@@ -364,7 +364,7 @@ Qualificateurs : **WmiDataId** (10), **InterfaceVersion** (2), **InterfaceRevis
 Indique le nombre de files d’attente utilisées pour VRSS/VMMQ.
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703 et Windows Server 2016.
+> cette propriété a été ajoutée dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -417,7 +417,7 @@ Qualificateurs : **WmiDataId** (8), **InterfaceVersion** (2), **InterfaceRevisi
 Indique si le vRSS est actif.
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703.
+> cette propriété a été ajoutée dans Windows 10, version 1703.
 
  
 
@@ -438,7 +438,7 @@ Qualificateurs : **WmiDataId** (13), **InterfaceVersion** (3), **InterfaceRevis
 Indique si l’UC de l’unité centrale principale est exclue de la table d’indirection VRSS/VMMQ.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -459,7 +459,7 @@ Qualificateurs : **WmiDataId** (14), **InterfaceVersion** (3), **InterfaceRevis
 Indique si la diffusion VRSS/VMMQ côté hôte se produit, quels que soient les paramètres RSS de la carte réseau virtuelle.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -480,7 +480,7 @@ Qualificateurs : **WmiDataId** (11), **InterfaceVersion** (3), **InterfaceRevis
 Indique le nombre minimal de files d’attente utilisées pour VRSS/VMMQ.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -501,7 +501,7 @@ Qualificateurs : **WmiDataId** (12), **InterfaceVersion** (3), **InterfaceRevis
 Indique comment les files d’attente VRSS/VMMQ sont directrices sur différents processeurs hôtes.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -522,7 +522,7 @@ Qualificateurs : **WmiDataId** (15), **InterfaceVersion** (3), **InterfaceRevis
 Indique comment les canaux VMBus sont affinité aux processeurs hôtes.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -534,8 +534,8 @@ Indique comment les canaux VMBus sont affinité aux processeurs hôtes.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

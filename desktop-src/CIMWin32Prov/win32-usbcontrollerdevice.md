@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9bf72c92a4ae23ac7750cdd52914e86f5dbcdd01
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3a7627426a094d8c335032363b3213aeca19e400d5761d23ede8b7cecf0dcab5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118007259"
 ---
 # <a name="win32_usbcontrollerdevice-class"></a>\_Classe USBControllerDevice Win32
 
@@ -200,7 +200,7 @@ Cette propriété est héritée de la [**\_ ControlledBy CIM**](cim-controlledby
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ USBControllerDevice** est dérivée de [**CIM \_ ControlledBy**](cim-controlledby.md).
 

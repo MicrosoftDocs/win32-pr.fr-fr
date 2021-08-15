@@ -64,7 +64,7 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 | Membres nécessaires                                                   | Type de membre | Remarques |
 |--------------------------------------------------------------------|-------------|-------|
-| [**RowOrColumnMajor**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableprovider-get_roworcolumnmajor) | Property    | Aucun  |
+| [**RowOrColumnMajor**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableprovider-get_roworcolumnmajor) | Propriété    | Aucun  |
 | [**GetColumnHeaders**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableprovider-getcolumnheaders) | Méthode      | Aucun  |
 | [**GetRowHeaders**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableprovider-getrowheaders)       | Méthode      | Aucun  |
 

@@ -4,12 +4,12 @@ description: Le principal objectif de cet exemple de code est de savoir comment 
 ms.assetid: 62154658-ff47-425f-94da-ee2806de5318
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96ea49f194e64ab3f0cfd78569b1e6ff9ddee577
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 52772002fe8f0ed234a4f430eaff4328f96f9d1ef151e83da3f4aa3e255dba09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106545733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961369"
 ---
 # <a name="ipapersave"></a>IPaper :: enregistrer
 
@@ -130,9 +130,9 @@ Une fois le flux écrit, la méthode **IPaper :: Save** libère le pointeur [**
 
 La méthode **Save** appelle également le client [**IPaperSink**](ipapersink-methods.md) (dans la méthode Internal NotifySinks) pour notifier au client que l’opération d’enregistrement est terminée. À ce stade, la méthode **Save** retourne au client appelant, qui libère généralement le pointeur [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) .
 
- 
+ 
 
- 
+ 
 
 
 

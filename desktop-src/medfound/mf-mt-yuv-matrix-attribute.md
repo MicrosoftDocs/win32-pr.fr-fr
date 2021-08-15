@@ -4,12 +4,12 @@ ms.assetid: b268d16d-b4cc-4026-9ba7-805cc5409b95
 title: Attribut MF_MT_YUV_MATRIX (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0c6976e4652c69b3bddc910dcc536a3d07bf39a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20f055490873bf1af07b8278c249679da53bc24b1a76be7a0384a010edff81c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117876503"
 ---
 # <a name="mf_mt_yuv_matrix-attribute"></a>\_Attribut de \_ matrice YUV MT \_ MF
 
@@ -19,7 +19,7 @@ Pour les types de média YUV, définit la matrice de conversion de l’espace de
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de cet attribut est un membre de l’énumération [**MFVideoTransferMatrix**](/windows/desktop/api/mfobjects/ne-mfobjects-mfvideotransfermatrix) .
 
@@ -31,8 +31,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

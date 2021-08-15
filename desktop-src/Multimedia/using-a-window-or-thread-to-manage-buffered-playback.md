@@ -16,12 +16,12 @@ keywords:
 - envoi de messages MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c8c120504a4a25ddcf01474db341a367a2e9854
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cbc0acb39090a640d60539542a439111287faef246adf64aef7ee12ced3ae09e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801253"
 ---
 # <a name="using-a-window-or-thread-to-manage-buffered-playback"></a>Utilisation d’une fenêtre ou d’un thread pour gérer la lecture mise en mémoire tampon
 
@@ -37,12 +37,12 @@ Les messages suivants peuvent être envoyés à une fenêtre ou un thread pour l
 
 
 
- 
+ 
 
 Un paramètre *wParam* et un paramètre *lParam* sont associés à chacun de ces messages. Le paramètre *wParam* spécifie toujours le descripteur d’un appareil MIDI ouvert. Pour [**la \_ \_ fin de mm MOM**](mm-mom-done.md), *lParam* spécifie une adresse d’une structure [**MIDIHDR**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr) identifiant le bloc de données terminé. Le paramètre *lParam* n’est pas utilisé pour la [**\_ \_ fermeture de MOM mm**](mm-mom-close.md) et l' [**\_ \_ ouverture de MOM**](mm-mom-open.md).
 
 Le message le plus utile est probablement un \_ MOM \_ terminé. À moins que vous n’ayez besoin d’allouer de la mémoire ou d’initialiser des variables, il est probable que vous n’avez pas besoin de traiter l' \_ ouverture de MOM \_ et la fermeture de \_ Microsoft mm \_ . Lorsque la lecture d’un bloc de données est terminée, vous pouvez nettoyer et libérer le bloc de données.
 
- 
+ 
 
- 
+ 

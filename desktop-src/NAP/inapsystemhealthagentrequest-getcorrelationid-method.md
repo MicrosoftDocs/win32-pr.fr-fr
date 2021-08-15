@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7af5b182df738ec22c75f2afffd1adb3591007be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2bf02a6d72aaa2744cc5a1329d791bdb9e8fa31f7453b131268245e120d7087e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104519273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686159"
 ---
 # <a name="inapsystemhealthagentrequestgetcorrelationid-method"></a>INapSystemHealthAgentRequest :: GetCorrelationId, méthode
 
@@ -76,8 +76,8 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                |
 | En-tête<br/>                   | <dl> <dt>NapSystemHealthAgent. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapSystemHealthAgent. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagentrt.dll</dt> </dl>             |

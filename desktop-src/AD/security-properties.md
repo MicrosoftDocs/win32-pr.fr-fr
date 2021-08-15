@@ -8,16 +8,16 @@ keywords:
 - Attributs de sécurité utilisateur Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c51000aefdf9ec0f26406607bd781ac4d87b6106
-ms.sourcegitcommit: 25bf66769c2087b1a87d6db5930b604cb57e0f98
+ms.openlocfilehash: 5dfe23252002f2ffbbba3f8e8a8faf5a2d36ce348bdbd7503c0d99a816a81902
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "103941446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024887"
 ---
 # <a name="user-security-attributes"></a>Attributs de sécurité utilisateur
 
-En plus des propriétés d’attribution de noms pour les objets utilisateur (par exemple, [**objectGUID**](/windows/desktop/ADSchema/a-objectguid), [**objectSID**](/windows/desktop/ADSchema/a-objectsid), [**CN**](/windows/desktop/ADSchema/a-cn), [**distinguishedName**](/windows/desktop/ADSchema/a-distinguishedname), etc.), il existe d’autres propriétés de sécurité utilisées pour l’ouverture de session, l’accès au réseau et le contrôle d’accès. Ces propriétés sont utilisées par le système de sécurité Windows 2000. Ces propriétés peuvent être affichées et gérées par le composant logiciel enfichable utilisateurs et ordinateurs Active Directory.
+En plus des propriétés d’attribution de noms pour les objets utilisateur (par exemple, [**objectGUID**](/windows/desktop/ADSchema/a-objectguid), [**objectSID**](/windows/desktop/ADSchema/a-objectsid), [**CN**](/windows/desktop/ADSchema/a-cn), [**distinguishedName**](/windows/desktop/ADSchema/a-distinguishedname), etc.), il existe d’autres propriétés de sécurité utilisées pour l’ouverture de session, l’accès au réseau et le contrôle d’accès. ces propriétés sont utilisées par le système de sécurité Windows 2000. Ces propriétés peuvent être affichées et gérées par le composant logiciel enfichable utilisateurs et ordinateurs Active Directory.
 
 <dl> <dt>
 
@@ -31,7 +31,7 @@ L’attribut [**AccountExpires dans**](/windows/desktop/ADSchema/a-accountexpire
 <span id="altSecurityIdentities"></span><span id="altsecurityidentities"></span><span id="ALTSECURITYIDENTITIES"></span>[**altSecurityIdentities**](/windows/desktop/ADSchema/a-altsecurityidentities)
 </dt> <dd>
 
-L’attribut [**altSecurityIdentities**](/windows/desktop/ADSchema/a-altsecurityidentities) est un attribut à valeurs multiples qui contient des mappages pour les certificats X. 509 ou des comptes d’utilisateur Kerberos externes à cet utilisateur à des fins d’authentification. Divers packages de sécurité, y compris le package d’authentification de clé publique et Kerberos, utilisent ces données pour authentifier les utilisateurs lorsqu’ils présentent la forme alternative d’identification, par exemple le certificat, le ticket Kerberos UNIX, etc. Générez un jeton Windows 2000 basé sur le compte d’utilisateur correspondant pour qu’il puisse accéder aux ressources système.
+L’attribut [**altSecurityIdentities**](/windows/desktop/ADSchema/a-altsecurityidentities) est un attribut à valeurs multiples qui contient des mappages pour les certificats X. 509 ou des comptes d’utilisateur Kerberos externes à cet utilisateur à des fins d’authentification. divers packages de sécurité, y compris le package d’authentification de clé publique et Kerberos, utilisent ces données pour authentifier les utilisateurs lorsqu’ils présentent la forme alternative d’identification, par exemple certificat, UNIX ticket Kerberos, etc. générez un jeton Windows 2000 basé sur le compte d’utilisateur correspondant pour qu’il puisse accéder aux ressources système.
 
 Pour les certificats X. 509, les valeurs doivent correspondre à l’émetteur et aux noms d’objet dans les certificats 509v3, émis par une autorité de certification publique externe, qui mappent au compte d’utilisateur utilisé pour trouver un compte pour l’authentification. Le package SSL (SChannel) utilise la syntaxe suivante : x509 : <somecertinfotype> somecertinfo. Par exemple, la valeur suivante spécifie le nom unique de l’émetteur « \<I\> » avec le DN « C = US, O = InternetCA, CN = APublicCertificateAuthority » et le nom unique du sujet « \<S\> » avec le DN « C = US, O = Fabrikam, ou = sales, CN = Jeff Smith ».
 
@@ -72,14 +72,14 @@ Non répliqué. L’attribut [**badPwdCount**](/windows/desktop/ADSchema/a-badpw
 <span id="codePage"></span><span id="codepage"></span><span id="CODEPAGE"></span>[**Courante**](/windows/desktop/ADSchema/a-codepage)
 </dt> <dd>
 
-L’attribut [**codepage**](/windows/desktop/ADSchema/a-codepage) spécifie la page de codes pour la langue choisie par l’utilisateur. Cette valeur n’est pas utilisée par Windows 2000.
+L’attribut [**codepage**](/windows/desktop/ADSchema/a-codepage) spécifie la page de codes pour la langue choisie par l’utilisateur. cette valeur n’est pas utilisée par Windows 2000.
 
 </dd> <dt>
 
 <span id="countryCode"></span><span id="countrycode"></span><span id="COUNTRYCODE"></span>[**countryCode**](/windows/desktop/ADSchema/a-countrycode)
 </dt> <dd>
 
-L’attribut [**CountryCode**](/windows/desktop/ADSchema/a-countrycode) spécifie le code de pays/région pour la langue de l’utilisateur. Cette valeur n’est pas utilisée par Windows 2000.
+L’attribut [**CountryCode**](/windows/desktop/ADSchema/a-countrycode) spécifie le code de pays/région pour la langue de l’utilisateur. cette valeur n’est pas utilisée par Windows 2000.
 
 </dd> <dt>
 
@@ -180,7 +180,7 @@ Cet attribut n’est pas stocké, il s’agit d’un attribut de lien arrière c
 <span id="ntPwdHistory"></span><span id="ntpwdhistory"></span><span id="NTPWDHISTORY"></span>[**ntPwdHistory**](/windows/desktop/ADSchema/a-ntpwdhistory)
 </dt> <dd>
 
-L’attribut [**ntPwdHistory**](/windows/desktop/ADSchema/a-ntpwdhistory) est l’historique des mots de passe de l’utilisateur dans le format à sens unique Windows NT (OWF). Windows 2000 utilise Windows NT OWF. Cet attribut est utilisé uniquement par le système d’exploitation. N’oubliez pas que vous ne pouvez pas dériver le mot de passe en texte clair de la forme OWF du mot de passe.
+L’attribut [**ntPwdHistory**](/windows/desktop/ADSchema/a-ntpwdhistory) est l’historique des mots de passe de l’utilisateur dans Windows format à sens unique NT (OWF). Windows 2000 utilise le Windows NT OWF. Cet attribut est utilisé uniquement par le système d’exploitation. N’oubliez pas que vous ne pouvez pas dériver le mot de passe en texte clair de la forme OWF du mot de passe.
 
 </dd> <dt>
 
@@ -233,7 +233,7 @@ L’attribut [**samAccountType**](/windows/desktop/ADSchema/a-samaccounttype) sp
 <span id="scriptPath"></span><span id="scriptpath"></span><span id="SCRIPTPATH"></span>[**scriptPath**](/windows/desktop/ADSchema/a-scriptpath)
 </dt> <dd>
 
-L’attribut [**ScriptPath**](/windows/desktop/ADSchema/a-scriptpath) spécifie le chemin d’accès du fichier de script d’ouverture de session,. cmd,. exe ou. bat de l’utilisateur. La chaîne peut être null.
+L’attribut [**ScriptPath**](/windows/desktop/ADSchema/a-scriptpath) spécifie le chemin d’accès du fichier de script d’ouverture de session,. cmd, .exe ou .bat de l’utilisateur. La chaîne peut être null.
 
 </dd> <dt>
 
@@ -244,7 +244,7 @@ L’attribut [**unicodePwd**](/windows/desktop/ADSchema/a-unicodepwd) est le mot
 
 Pour définir le mot de passe de l’utilisateur, utilisez la méthode [**IADsUser. ChangePassword**](/windows/desktop/api/iads/nf-iads-iadsuser-changepassword) , si votre script ou application permet à l’utilisateur de modifier son propre mot de passe, ou la méthode [**IADsUser. SetPassword**](/windows/desktop/api/iads/nf-iads-iadsuser-setpassword) , si votre script ou votre application autorise un administrateur à réinitialiser un mot de passe.
 
-Mot de passe de l’utilisateur dans le format à sens unique Windows NT (OWF). Windows 2000 utilise Windows NT OWF. Cet attribut est utilisé uniquement par le système d’exploitation. N’oubliez pas que vous ne pouvez pas dériver le mot de passe en texte clair de la forme OWF du mot de passe.
+Mot de passe de l’utilisateur dans Windows format à sens unique NT (OWF). Windows 2000 utilise le Windows NT OWF. Cet attribut est utilisé uniquement par le système d’exploitation. N’oubliez pas que vous ne pouvez pas dériver le mot de passe en texte clair de la forme OWF du mot de passe.
 
 </dd> <dt>
 
@@ -261,7 +261,7 @@ Les indicateurs suivants sont définis dans Lmaccess. h.
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_script uf               | Le script d’ouverture de session a été exécuté. Cette valeur doit être définie pour LAN Manager 2,0 ou Windows NT.                                                                             |
 | \_ACCOUNTDISABLE uf       | Le compte d’utilisateur est désactivé.                                                                                                                                    |
-| UF \_ homedir \_ requis    | Le répertoire de départ est requis. Cette valeur est ignorée dans Windows NT et Windows 2000.                                                                            |
+| UF \_ homedir \_ requis    | Le répertoire de départ est requis. cette valeur est ignorée dans Windows NT et Windows 2000.                                                                            |
 | \_NOTREQD passwd passwd \_      | Aucun mot de passe n'est requis.                                                                                                                                         |
 | modification de la \_ \_ décantation de passwd UF \_ | L’utilisateur ne peut pas modifier le mot de passe.                                                                                                                             |
 | \_verrouillage uf              | Le compte est actuellement verrouillé. Cette valeur peut être désactivée pour déverrouiller un compte précédemment verrouillé. Cette valeur ne peut pas être utilisée pour verrouiller un compte précédemment verrouillé. |
@@ -269,7 +269,7 @@ Les indicateurs suivants sont définis dans Lmaccess. h.
 
 
 
- 
+ 
 
 Les indicateurs suivants décrivent le type de compte. Une seule valeur peut être définie. Vous ne pouvez pas modifier le type de compte.
 
@@ -279,13 +279,13 @@ Les indicateurs suivants décrivent le type de compte. Une seule valeur peut êt
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_compte standard \_ uf             | Il s’agit d’un type de compte par défaut qui représente un utilisateur standard.                                                                                                                                                                                  |
 | \_ \_ compte DUPLIQUÉ temporaire \_ uf    | Il s’agit d’un compte pour les utilisateurs dont le compte principal se trouve dans un autre domaine. Ce compte fournit l’accès utilisateur à ce domaine, mais pas à un domaine qui approuve ce domaine. Le gestionnaire de l’utilisateur fait référence à ce type de compte en tant que compte d’utilisateur local. |
-| compte d’approbation de station de \_ travail UF \_ \_ | Il s’agit d’un compte d’ordinateur pour un serveur Windows NT Workstation/Windows 2000 Professionnel ou Windows NT Server/Windows 2000 qui est membre de ce domaine.                                                                                     |
+| compte d’approbation de station de \_ travail UF \_ \_ | il s’agit d’un compte d’ordinateur pour un serveur Windows nt Workstation/Windows 2000 Professional ou Windows nt server/Windows 2000 qui est membre de ce domaine.                                                                                     |
 | \_compte de \_ confiance du serveur uf \_      | Il s’agit d’un compte d’ordinateur pour un contrôleur de domaine de sauvegarde Windows NT qui est membre de ce domaine.                                                                                                                                           |
-| \_compte de confiance interdomaine UF \_ \_ | Il s’agit d’un permis de faire confiance à un compte de domaine Windows NT qui approuve d’autres domaines.                                                                                                                                                            |
+| \_compte de confiance interdomaine UF \_ \_ | Il s’agit d’un permis de faire confiance au compte d’un domaine NT Windows qui approuve d’autres domaines.                                                                                                                                                            |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -312,6 +312,6 @@ Si aucune valeur n’est définie, cela indique qu’il n’existe aucune restri
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

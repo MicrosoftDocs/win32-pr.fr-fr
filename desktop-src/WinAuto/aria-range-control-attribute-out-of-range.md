@@ -6,12 +6,12 @@ keywords:
 - AriaRangeControlAttributesIncompatibleId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aef55ee57c4966896e666dd5a7ac1d20eb5257c6
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 991f5de18be88682046cac6c4d4156f48fd3e4994d2e7b9ab1bbdc52f0a2e768
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104508182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118326747"
 ---
 # <a name="aria-range-control-attributes-incompatible"></a>Attributs de contrôle de plage ARIA incompatibles
 
@@ -21,7 +21,7 @@ L’élément a le rôle **ProgressBar** ou **Slider** , mais la valeur **Aria-v
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -38,9 +38,9 @@ Pour corriger cette erreur, vérifiez votre implémentation pour vous assurer qu
 [Attributs de contrôle de plage ARIA manquants](aria-range-control-attributes-missing.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

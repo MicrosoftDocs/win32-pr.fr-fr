@@ -4,12 +4,12 @@ description: Cet exemple d’application montre comment utiliser l’entrée de 
 ms.assetid: 9AA5D172-0E57-44BB-9CB0-60B613D9D2BA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d23d32095f7267f73d65e3473df6a2dc5c42893c
-ms.sourcegitcommit: c5f4fdf3ec950802c224b1081ecb8b90ad0261ee
+ms.openlocfilehash: 5e7ff12e87a19e4c82132136f153cfff8d234441341d2867c8f846a54417fba3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "104381635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118388301"
 ---
 # <a name="draw-circle-sample"></a>Exemple de dessin de cercle
 
@@ -23,5 +23,5 @@ Cet exemple est disponible [ici](https://github.com/microsoft/Windows-classic-sa
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-* [Apprendre à programmer pour Windows : exemple de code](learn-to-program-for-windows--sample-code.md)
+* [apprendre à programmer pour Windows : exemple de Code](learn-to-program-for-windows--sample-code.md)
 * [Module 4. Entrée utilisateur](module-4--user-input.md)

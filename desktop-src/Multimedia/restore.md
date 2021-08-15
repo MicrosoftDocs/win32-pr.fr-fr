@@ -3,7 +3,7 @@ title: commande Restore
 description: La commande Restore copie une image continue d’un fichier vers la mémoire tampon de trame. Il s’agit de l’inverse de la commande de capture. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: e84a478a-3e0f-4767-94d7-eb3c79c31b8b
 keywords:
-- commande Restore Windows Multimedia
+- commande restore Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2d7f0f236b26e3e73807b32485442d597e93d40
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55e82fdec2480cfe2fc1b41901872aef7e41ee468d1adc3924df17a27e40031e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689189"
 ---
 # <a name="restore-command"></a>commande Restore
 
@@ -75,7 +75,7 @@ Peut être « Wait », « Notify », « test » ou une combinaison de ceux
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les appareils peuvent reconnaître un large éventail de formats d’image. une image bitmap indépendante du périphérique Windows est toujours reconnue.
 

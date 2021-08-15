@@ -4,12 +4,12 @@ ms.assetid: 56ad011d-17c4-4410-b598-6ef47fb3638f
 title: Gestionnaire de contrôle des services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a8a35fd34bd2714d22d40ccf618c89a8b66a6c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d37d651a96f9685fa82b5ea92ebb3a0b72d80bfc62cd0db80729ec1cb95acc45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889032"
 ---
 # <a name="service-control-manager"></a>Gestionnaire de contrôle des services
 

@@ -4,16 +4,16 @@ description: COM définit un jeu de propriétés communes standard pour le stock
 ms.assetid: ceed6d66-7327-4781-a5dc-9058e671138a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb318daba7e0ad03ff176853877fe416ddeda799
-ms.sourcegitcommit: fc240ac77d4c40a9f3a27714d7b852abbd234774
+ms.openlocfilehash: a54f942d0c7f6c7d1ebc37feda80d55420ea6c8aaf896f4df15df2a5b7e7c0ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2019
-ms.locfileid: "104380468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886825"
 ---
 # <a name="the-summary-information-property-set"></a>La propriété informations de résumé définie
 
-COM définit un jeu de propriétés communes standard pour le stockage des informations de synthèse sur les documents. Le jeu de propriétés d’informations de résumé doit être stocké dans un objet de flux. Autrement dit, ce jeu de propriétés doit être stocké en tant que jeu de propriétés simple. Pour plus d’informations, consultez [stockage et objets de flux pour un jeu de propriétés](storage-vs--stream-for-a-property-set.md).
+COM définit un jeu de propriétés communes standard pour le stockage des informations de synthèse sur les documents. Le jeu de propriétés d’informations de résumé doit être stocké dans un objet de flux. Autrement dit, ce jeu de propriétés doit être stocké en tant que jeu de propriétés simple. pour plus d’informations, consultez [Stockage et objets de flux pour un jeu de propriétés](storage-vs--stream-for-a-property-set.md).
 
 Par exemple, pour créer un jeu de propriétés ANSI simple, vous devez appeler [**IPropertySetStorage :: Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) pour créer le jeu de propriétés, en spécifiant **PROPSETFLAG \_ ANSI** (simple est le type de propriété par défaut), puis écrire dessus à l’aide d’un appel à [**IPropertyStorage :: WriteMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writemultiple). Pour lire le jeu de propriétés, vous devez appeler [**IPropertyStorage :: ReadMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readmultiple).
 
@@ -27,7 +27,7 @@ Le tableau suivant répertorie les noms de propriété de type chaîne pour le j
 
 | Nom | Chaîne d’ID de propriété | ID de propriété | Type VT |
 |------|--------------------|-------------|---------|
-| Intitulé | \_titre PIDSI | 0x00000002 | VT- \_ LPSTR  |
+| Titre | \_titre PIDSI | 0x00000002 | VT- \_ LPSTR  |
 | Objet | PIDSI \_ objet | 0x00000003 | VT- \_ LPSTR |
 | Auteur | \_auteur PIDSI | 0x00000004 | VT- \_ LPSTR |
 | Mots clés | \_Mots clés PIDSI | 0x00000005 | VT- \_ LPSTR |
@@ -56,9 +56,9 @@ Le tableau suivant répertorie les noms de propriété de type chaîne pour le j
 [Implémentation du jeu de propriétés d’informations de résumé](implementing-the-summary-information-property-set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

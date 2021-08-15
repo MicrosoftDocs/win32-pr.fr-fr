@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 3f7e602ce5d5b0a8e524f76144c7f1eff8876bb5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 484b8f7f3094cf5bca2cb9d03941d68619995ba98de08e2845c3717439709e2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129049"
 ---
 # <a name="productfeaturestate-method"></a>Méthode Product. FeatureState
 
@@ -52,7 +52,7 @@ ID de fonctionnalité qui apparaît dans la colonne fonctionnalité du [tableau 
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’appel est effectué, la propriété contient la valeur en tant que **DWORD**.
 
@@ -72,7 +72,7 @@ Si l’appel échoue, la propriété contient un code d’erreur de [**MsiQueryF
 
 
 
-| Error                     | Signification                                                                                                                                    |
+| Erreur                     | Signification                                                                                                                                    |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | ERREUR d' \_ accès \_ refusé     | Le processus appelant doit disposer de privilèges d’administrateur pour obtenir des informations sur un produit installé pour un utilisateur autre que l’utilisateur actuel. |
 | ERREUR de \_ configuration incorrecte \_ | Les données de configuration sont endommagées.                                                                                                         |
@@ -92,7 +92,7 @@ Si l’appel échoue, la propriété contient un code d’erreur de [**MsiQueryF
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer 3,0 ou version ultérieure sur Windows Server 2003, Windows XP et Windows 2000<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows programme d’installation 3,0 ou version ultérieure sur Windows Server 2003, Windows XP et Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |
 | IID<br/>     | IID \_ IProduct est défini en tant que 000C10A0-0000-0000-C000-000000000046<br/>                                                                                                                                                                                                          |
 
@@ -108,7 +108,7 @@ Si l’appel échoue, la propriété contient un code d’erreur de [**MsiQueryF
 [**MsiQueryFeatureStateEx**](/windows/desktop/api/Msi/nf-msi-msiqueryfeaturestateexa)
 </dt> <dt>
 
-[Non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
+[non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

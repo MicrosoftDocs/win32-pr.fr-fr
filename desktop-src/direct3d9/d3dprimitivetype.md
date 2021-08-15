@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 933bbec72950bd2c73fda8b3781dd46393ca4c96
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a7406670b055a11f30a71677a88dc6230aecec8d7660d886b1d63f53e6e61566
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527515"
 ---
 # <a name="d3dprimitivetype-enumeration"></a>Énumération D3DPRIMITIVETYPE
 
@@ -96,7 +96,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’utilisation de [barrettes](triangle-strips.md) triangulaires ou de [ventilateurs triangulaires (Direct3D 9)](triangle-fans.md) est souvent plus efficace que l’utilisation des listes de triangles, car moins de vertex sont dupliqués.
 

@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c96314e401a81271f5a71bc056faa95fc1ae0dbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d2cbd4a13555d754cdbc1f9c02011b5891d6d6fcfae3fea822ddf6ad9953b78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119719189"
 ---
 # <a name="jetexternalrestore2-function"></a>Fonction JetExternalRestore2
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetexternalrestore2-function"></a>Fonction JetExternalRestore2
 
 La fonction **JetExternalRestore2** restaure une sauvegarde externe qui a été effectuée avec les API de sauvegarde externes et fournit des points de contrôle à utiliser pour les opérations de journalisation circulaire. C’est ce que l’on appelle la récupération matérielle, qui est similaire, mais différente de la récupération logicielle, telle qu’elle est exécutée par la fonction [JetInit](./jetinit-function.md) .
 
-**Windows XP : JetExternalRestore2** est introduit dans Windows XP.
+**Windows xp : JetExternalRestore2** est introduit dans Windows xp.
 
 ```cpp
     JET_ERR JET_API JetExternalRestore2(
@@ -97,7 +97,7 @@ Rappel d’État qui indique la progression de la récupération.
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -117,7 +117,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </tr>
 <tr class="even">
 <td><p>JET_errBadRestoreTargetInstance</p></td>
-<td><p>Le <em>szTargetInstanceLogPath</em> spécifié n’appartient pas à une instance initialisée. Cette erreur est renvoyée uniquement dans Windows XP et les versions ultérieures.</p></td>
+<td><p>Le <em>szTargetInstanceLogPath</em> spécifié n’appartient pas à une instance initialisée. cette erreur est renvoyée uniquement dans Windows XP et versions ultérieures.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errDatabaseCorrupted</p></td>
@@ -149,7 +149,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </tr>
 <tr class="even">
 <td><p>JET_errRunningInOneInstanceMode</p></td>
-<td><p>Le moteur de base de données ne peut pas exécuter une restauration externe ou une récupération matérielle en mode instance unique. Cette erreur est renvoyée uniquement dans Windows XP et les versions ultérieures.</p></td>
+<td><p>Le moteur de base de données ne peut pas exécuter une restauration externe ou une récupération matérielle en mode instance unique. cette erreur est renvoyée uniquement dans Windows XP et versions ultérieures.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errStartingRestoreLogTooHigh</p></td>
@@ -163,7 +163,7 @@ En cas de réussite, toutes les bases de données du *rgrstmap* sont entièremen
 
 En cas d’échec, le moteur n’a pas pu récupérer la base de données. La base de données est dans un État non valide et, afin de retenter la récupération matérielle, la base de données entière doit être restaurée à nouveau. En règle générale, la source d’une telle situation est l’endommagement du disque ou du journal, ou une autre forme de gestion des journaux ou un ensemble de journaux non continus.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Consultez [JetExternalRestore](./jetexternalrestore-function.md).
 
@@ -177,11 +177,11 @@ Consultez [JetExternalRestore](./jetexternalrestore-function.md).
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
+<td><p>requiert Windows Vista ou Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
+<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

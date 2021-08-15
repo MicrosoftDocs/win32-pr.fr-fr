@@ -4,16 +4,16 @@ ms.assetid: 12806c2e-615c-4d78-a4bb-5cc35ea21175
 title: Interface ITAttributeList (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2afbc7ab447188943c0f02e6c5a664bbcc4c6d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a8dd0ac143791a09eedbd3fe575dcecb894a1fb6dbb218c8ecfdcadf60ebd60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762425"
 ---
 # <a name="itattributelist-interface"></a>Interface ITAttributeList
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 L’interface **ITAttributeList** fournit des méthodes pour obtenir et définir des attributs non interprétés. En ce qui concerne la position des chaînes d’attributs dans un protocole SDP (session descripteur), consultez le paquet RFC 2327), les méthodes supposent que toutes les chaînes d’attribut existent juste avant que les attributs de média soient spécifiés et après tous les attributs communs. L’interface **ITAttributeList** est créée en appelant **QueryInterface** sur [**ITDirectoryObject**](/windows/desktop/api/Rend/nn-rend-itdirectoryobject).
 

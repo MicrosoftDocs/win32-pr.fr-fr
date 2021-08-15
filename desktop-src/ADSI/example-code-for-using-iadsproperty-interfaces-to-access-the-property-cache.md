@@ -8,12 +8,12 @@ keywords:
 - Exemple de code pour l’utilisation des interfaces IADsProperty pour accéder à l’interface ADSI du cache de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2053e3d78120e39cb7a377eaf6e50524bb780c34
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a885a52b9c699153a17d33e0ec52edbb6f59c226e6844ac2c8c02b3ec082157c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023587"
 ---
 # <a name="example-code-for-using-iadsproperty-interfaces-to-access-the-property-cache"></a>Exemple de code pour l’utilisation des interfaces IADsProperty pour accéder au cache de propriétés
 
@@ -93,7 +93,7 @@ if (SUCCEEDED(hr))
 
 
 
-L’exemple de code suivant montre comment utiliser les interfaces [**IADsPropertyList**](/windows/desktop/api/Iads/nn-iads-iadspropertylist), [**IADsPropertyEntry**](/windows/desktop/api/Iads/nn-iads-iadspropertyentry)et [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) à l’aide de Visual Basic et d’ADSI.
+l’exemple de code suivant montre comment utiliser les interfaces [**IADsPropertyList**](/windows/desktop/api/Iads/nn-iads-iadspropertylist), [**IADsPropertyEntry**](/windows/desktop/api/Iads/nn-iads-iadspropertyentry)et [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) à l’aide de Visual Basic et d’ADSI.
 
 
 ```VB
@@ -124,9 +124,9 @@ Next
 
 
 
- 
+ 
 
- 
+ 
 
 
 

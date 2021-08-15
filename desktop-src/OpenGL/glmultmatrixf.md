@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f981b78dc2d9f152a4a7d1f40c4a2d1f120944b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e9ea38c08d051a2363699643f3b68ea5999fc5014c65716f974e3df6e6d83938
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104568380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128199"
 ---
 # <a name="glmultmatrixf-function"></a>glMultMatrixf fonction)
 
@@ -63,7 +63,7 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glMultMatrix** multiplie la matrice actuelle par celle spécifiée dans *m*. Autrement dit, si M est la matrice actuelle et T est la matrice transmise à **glMultMatrix**, m est remplacé par m T.
 

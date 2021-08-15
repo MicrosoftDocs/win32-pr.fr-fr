@@ -3,7 +3,7 @@ title: EDITBOX. getSelectionEnd
 description: La méthode getSelectionEnd récupère la position de fin du texte sélectionné dans le contrôle EditBox.
 ms.assetid: 82a445da-3c50-41b7-8ac8-da6c860056ba
 keywords:
-- EDITBOX. getSelectionEnd Windows Media Player
+- EDITBOX. getSelectionEnd Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f27c2974360e7e77becfa67a27b4e96b529ad1e5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8dff56bda802286ed76ba3b448478dfa57d005c13baf229612e190bbf163b25a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118838843"
 ---
 # <a name="editboxgetselectionend"></a>EDITBOX. getSelectionEnd
 
@@ -36,7 +36,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode retourne un **nombre** (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si aucun texte n’est sélectionné, cette méthode retourne la position du point d’insertion.
 

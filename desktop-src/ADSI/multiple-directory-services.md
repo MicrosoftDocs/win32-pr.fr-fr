@@ -7,12 +7,12 @@ keywords:
 - ADSI des services d’annuaire multiples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccc2e174fc1b07564f1cca6c12093a289a0c865a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 852888a6d3c0d8be9dbb8309efc57f4d29a60d83a21463a13c435e840fb96acc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839439"
 ---
 # <a name="multiple-directory-services"></a>Plusieurs services d’annuaire
 
@@ -22,9 +22,9 @@ La plupart des entreprises disposent déjà de nombreux répertoires différents
 
 Ces problèmes sont résolus dans ADSI, car il existe un ensemble unique et cohérent d’interfaces qui peuvent être utilisées pour gérer et utiliser n’importe quel service d’annuaire ayant un fournisseur ADSI.
 
- 
+ 
 
- 
+ 
 
 
 

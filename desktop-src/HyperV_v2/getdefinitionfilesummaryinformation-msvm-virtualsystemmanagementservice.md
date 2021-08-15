@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: a46daedd282d07c2367931a9f20a7fbfa1849f9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c6d3da6ef920488edb7fde723880b9f53768cfd246e91d287390bb6fb02fb17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117995296"
 ---
 # <a name="getdefinitionfilesummaryinformation-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Méthode GetDefinitionFileSummaryInformation de la \_ classe VirtualSystemManagementService MSVM
 
@@ -56,7 +56,7 @@ Tableau d’instances [**de \_ SummaryInformationBase MSVM**](msvm-summaryinform
 
  
 
-Avant Windows 10, la version 1703, DataType était [**MSVM \_ SummaryInformation**](msvm-summaryinformation.md).
+avant Windows 10, la version 1703, datatype était [**Msvm \_ SummaryInformation**](msvm-summaryinformation.md).
 
 </dd> </dl>
 
@@ -111,8 +111,8 @@ Le **système n’est pas disponible** (32777)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

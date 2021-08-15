@@ -4,12 +4,12 @@ description: Prise en charge de la parole synthétisée
 ms.assetid: 38172e04-a5b6-41e4-9d7c-539d9d4117be
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8a89610a912cf601724bc9a2153cba8343e6feb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c31fcb655ccb5a8fbb2ffbbb8d01d1da317209fbfa3e270a76d92208c06777df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118475321"
 ---
 # <a name="synthesized-speech-support"></a>Prise en charge de la parole synthétisée
 
@@ -25,9 +25,9 @@ Une application cliente peut également spécifier un moteur TTS pour son caract
 
 Seuls les moteurs TTS en cours d’utilisation par un client restent chargés. Par exemple, si un caractère a une préférence définie pour un moteur spécifique et que le moteur est disponible, mais que votre application cliente a spécifié un moteur différent (en définissant l’ID de langue d’un caractère différemment du moteur ou en spécifiant un ID de mode différent), seul le moteur spécifié par votre application reste chargé. Le moteur correspondant à la préférence définie du caractère pour un paramètre TTS est déchargé (sauf si un autre client utilise le paramètre de moteur compilé du caractère).
 
- 
+ 
 
- 
+ 
 
 
 
