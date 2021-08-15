@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Msoe.dll
-ms.openlocfilehash: 4a217b2cfb046bfb9ae5546e015264f74d00b1d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 4419f55b2fe4561a22035d962da5e3c271108d06fa417cfbed1b603c883e5b32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118721907"
 ---
 # <a name="iidentitychangenotify-interface"></a>Interface IIdentityChangeNotify
 
-\[L’interface **IIdentityChangeNotify** peut être utilisée dans Windows 2000. Dans Windows XP, cette fonctionnalité a été remplacée par [des comptes d’utilisateur avec changement rapide d’utilisateur et bureau à distance](fastuserswitching.md)et peut être modifiée ou non disponible dans les versions ultérieures.\]
+\[l’interface **IIdentityChangeNotify** peut être utilisée dans Windows 2000. dans Windows XP, cette fonctionnalité a été remplacée par [des comptes d’utilisateur avec changement rapide d’utilisateur et Bureau à distance](fastuserswitching.md)et peut être modifiée ou non disponible dans les versions ultérieures.\]
 
 Action déconseillée. Fournit une notification des modifications apportées aux identités des utilisateurs sur le système, ainsi que les demandes des utilisateurs pour changer l’identité de l’utilisateur actuel.
 
@@ -48,11 +48,11 @@ L’interface **IIdentityChangeNotify** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour implémenter des notifications, une interface dérivée doit se connecter au [**IUserIdentityManager**](iuseridentitymanager.md) en appelant [**IConnectionPoint :: Advise**](/windows/win32/api/ocidl/nf-ocidl-iconnectionpoint-advise) et en passant un pointeur vers l’interface.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

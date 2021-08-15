@@ -3,7 +3,7 @@ title: ClosedCaption.SAMILangCount
 description: La propriété SAMILangCount récupère le nombre de langues prises en charge par le fichier SAMI actuel.
 ms.assetid: ad2e776a-b430-46ee-9705-18d279e8715e
 keywords:
-- Lecteur Windows Media ClosedCaption. SAMILangCount
+- ClosedCaption. SAMILangCount Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57d202ecc8bc18261ac4569f2251201e15911f91
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ecfcf9562639fe425915c9e0720cf7cf4cd75c5a56df66d8e6e2f31408145601
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118840308"
 ---
 # <a name="closedcaptionsamilangcount"></a>ClosedCaption.SAMILangCount
 
@@ -33,7 +33,7 @@ player.closedCaption.SAMILangCount
 
 Cette propriété est un **nombre** en lecture seule (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne peut pas être utilisée tant qu’un fichier multimédia numérique n’est pas ouvert (*lecteur*.**openState** est égal à 13).
 

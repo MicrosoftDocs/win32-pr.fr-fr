@@ -1,21 +1,21 @@
 ---
-description: Découvrez les nouvelles modifications du service de disque virtuel (VDS) dans Windows Server 2008 R2 et Windows 7.
+description: découvrez les nouvelles modifications du Service de disque virtuel (VDS) dans Windows Server 2008 R2 et Windows 7.
 ms.assetid: 4ab37529-8d56-47a3-ad3d-0197cabd4f87
 title: Nouveautés de VDS dans Windows Server 2008 R2 et Windows 7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9050b157e9ce3c78550fdcffbd688988b7eacf90
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: b7461a4389a8b276bba33ceacb812f0990344e32a47d848f5d5bce461c3f89f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118347520"
 ---
 # <a name="whats-new-in-vds-in-windows-server-2008-r2-and-windows-7"></a>Nouveautés de VDS dans Windows Server 2008 R2 et Windows 7
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
-Windows Server 2008 R2 et Windows 7 présentent les modifications suivantes apportées au service de disque virtuel (VDS) :
+Windows le serveur 2008 R2 et le Windows 7 présentent les modifications suivantes apportées au Service de disque virtuel (VDS) :
 
 - [Nouvelles interfaces VDS](#new-vds-interfaces)
 - [Nouvelles énumérations VDS](#new-vds-enumerations)

@@ -31,12 +31,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8b3902840b24bc49ae3bda0510c8355afb67810
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e2ff06e60f125590154a17cb7467deae3611a617b684e9068439c9e15609d8fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118351250"
 ---
 # <a name="itssbtargetipaddresses-property"></a>ITsSbTarget :: adressesIP, propriété
 
@@ -67,9 +67,9 @@ Pointeur vers un tableau de structures [**TSSD \_ ConnectionPoint**](/windows/wi
 
 Pointeur vers une variable **DWORD** qui contient le nombre d’adresses IP externes dans le paramètre *sockaddr* . Si le nombre d’adresses est inconnu, transmettez *sockaddr* comme **null**. La méthode retourne le nombre de structures [**TSSD \_ ConnectionPoint**](/windows/win32/api/sessdirpublictypes/ns-sessdirpublictypes-tssd_connectionpoint) nécessaires à l’allocation dans le tableau pointé par le paramètre *sockaddr* .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette propriété était anciennement appelée **TargetExternalIpAddresses** dans Windows Server 2008 R2.
+cette propriété était anciennement appelée **TargetExternalIpAddresses** dans Windows Server 2008 R2.
 
 Si le nombre d’adresses IP externes est inconnu, vous pouvez appeler cette méthode avec *sockaddr* défini sur la **valeur null**. La méthode retourne ensuite, dans le paramètre *numAddresses* , le nombre de structures [**TSSD \_ ConnectionPoint**](/windows/win32/api/sessdirpublictypes/ns-sessdirpublictypes-tssd_connectionpoint) nécessaires pour recevoir toutes les adresses IP externes. Allouez le tableau pour *sockaddr* en fonction de ce nombre, puis appelez à nouveau la méthode, en affectant à *sockaddr* le tableau nouvellement alloué et *numAddresses* au nombre retourné par le premier appel.
 
@@ -100,7 +100,7 @@ Si le nombre d’adresses IP externes est inconnu, vous pouvez appeler cette mé
 <td>IID_ITsSbTarget est défini comme suit :
 <ul>
 <li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-DB0B-4752-B456-5fd5840901c0 sur Windows Server 2008 R2</li>
+<li>e85e10ea-db0b-4752-b456-5fd5840901c0 sur Windows Server 2008 R2</li>
 </ul></td>
 </tr>
 </tbody>

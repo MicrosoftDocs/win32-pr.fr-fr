@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: Obtention et fourniture de données sur un ordinateur 64 bits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe7d8ff5430a7c47b652bfbcca05d2f53ba857d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46163290d1212fd66bef48dba177034769360e8d7c6249dfdf40327ce2adc32c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104567683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118819376"
 ---
 # <a name="getting-and-providing-data-on-a-64-bit-computer"></a>Obtention et fourniture de données sur un ordinateur 64 bits
 
-Les applications clientes et les scripts qui accèdent aux fournisseurs standard WMI 32 bits continuent de fonctionner normalement lorsqu’ils s’exécutent sur un système d’exploitation 64 bits. Seuls deux fournisseurs préinstallés, le [fournisseur de Registre système](/previous-versions/windows/desktop/regprov/system-registry-provider) et le [fournisseur de vues](view-provider.md), ont des versions 64 bits qui s’exécutent côte à côte avec les versions 32 bits. Toutefois, une application 32 bits qui demande des instances de Windows Driver Model de 32 bits reçoit les instances de classe WDM 64 bits par défaut sur un système d’exploitation 64 bits.
+Les applications clientes et les scripts qui accèdent aux fournisseurs standard WMI 32 bits continuent de fonctionner normalement lorsqu’ils s’exécutent sur un système d’exploitation 64 bits. Seuls deux fournisseurs préinstallés, le [fournisseur de Registre système](/previous-versions/windows/desktop/regprov/system-registry-provider) et le [fournisseur de vues](view-provider.md), ont des versions 64 bits qui s’exécutent côte à côte avec les versions 32 bits. toutefois, une application 32 bits qui demande des instances de Windows Driver Model de 32 bits reçoit les instances de classe wdm 64 bits par défaut sur un système d’exploitation 64 bits.
 
 ## <a name="accessing-default-and-nondefault-provider-data"></a>Accès aux données de fournisseur par défaut et par défaut
 

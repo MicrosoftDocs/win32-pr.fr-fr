@@ -131,7 +131,7 @@
                           href: mapping-between-a-directx-9-declaration-and-directx-8.md
                         - name: Mappage entre une déclaration Direct3D et les codes de la Commission
                           href: mapping-between-a-directx-9-declaration-and-fvf-codes.md
-                        - name: Programmation d’un ou plusieurs flux
+                        - name: Programmation d’un ou plusieurs Flux
                           href: programming-one-or-more-streams.md
                 - name: Mémoires tampons d’index
                   href: index-buffers.md
@@ -348,11 +348,11 @@
                       items:
                         - name: Cartes de lumière monochrome
                           href: monochrome-light-maps.md
-                        - name: Cartes d’éclairage de couleur
+                        - name: Cartes de couleur
                           href: color-light-maps.md
                         - name: Cartes de lumière spéculaire
                           href: specular-light-maps.md
-                        - name: Cartes de lumière diffuse
+                        - name: Cartes clair diffus
                           href: diffuse-light-maps.md
                 - name: Génération automatique de des mipmaps
                   href: automatic-generation-of-mipmaps.md
@@ -557,9 +557,9 @@
               href: performance-optimizations.md
             - name: Présentation de plusieurs vues en mode fenêtre
               href: presenting-multiple-views-in-windowed-mode.md
-            - name: Dépannage
+            - name: Résolution des problèmes
               href: troubleshooting.md
-            - name: Utilisation des fenêtres d’appareils
+            - name: Utilisation des Windows d’appareils
               href: working-with-device-windows.md
             - name: Utilisation des pilotes antérieurs
               href: working-with-earlier-drivers.md
@@ -923,7 +923,7 @@
                   items:
                     - name: GetDesc
                       href: /windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dindexbuffer9-getdesc
-                    - name: Verrouillage
+                    - name: Verrou
                       href: /windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dindexbuffer9-lock
                     - name: Déverrouiller
                       href: /windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dindexbuffer9-unlock
@@ -1034,7 +1034,7 @@
                   items:
                     - name: GetDesc
                       href: /windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvertexbuffer9-getdesc
-                    - name: Verrouillage
+                    - name: Verrou
                       href: /windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvertexbuffer9-lock
                     - name: Déverrouiller
                       href: /windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvertexbuffer9-unlock
@@ -1766,7 +1766,7 @@
                       href: id3dxmatrixstack--multmatrixlocal.md
                     - name: Pop
                       href: id3dxmatrixstack--pop.md
-                    - name: Envoi de données (push)
+                    - name: Envoi (push)
                       href: id3dxmatrixstack--push.md
                     - name: RotateAxis
                       href: id3dxmatrixstack--rotateaxis.md
@@ -3379,7 +3379,7 @@
                       href: id3dxfiledata--gettype.md
                     - name: IsReference
                       href: id3dxfiledata--isreference.md
-                    - name: Verrouillage
+                    - name: Verrou
                       href: id3dxfiledata--lock.md
                     - name: Déverrouiller
                       href: id3dxfiledata--unlock.md
@@ -3656,5 +3656,5 @@
                       href: vertexelement.md
                     - name: XSkinMeshHeader
                       href: xskinmeshheader.md
-    - name: Résumé des fonctionnalités (Direct3D 9 pour Windows Vista)
+    - name: résumé des fonctionnalités (Direct3D 9 pour Windows Vista)
       href: dx9lh.md

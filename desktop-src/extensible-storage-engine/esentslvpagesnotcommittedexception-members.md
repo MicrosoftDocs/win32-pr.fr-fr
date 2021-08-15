@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102886
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4b86841e2fa75ac3753b66b6409c5db50c7a4a24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a47f1fa431fe2fb5622da4aed68fcbd63817783177dc00be198da8a3ca163e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104569962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118772414"
 ---
 # <a name="esentslvpagesnotcommittedexception-members"></a>Membres EsentSLVPagesNotCommittedException
 
@@ -71,7 +71,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 131007472f07e3b1f047767ee508c7a0591b8b51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1332a2d6e4059a0aca4eda69c17f6584100d8706cef5db027d685a46203f393
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118719143"
 ---
 # <a name="namespace-tree-control-sample"></a>Contrôle d’arborescence d’espace de noms, exemple
 
@@ -22,12 +22,12 @@ Montre comment implémenter un contrôle d’arborescence d’espace de noms per
 
 Cette rubrique contient les sections suivantes.
 
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

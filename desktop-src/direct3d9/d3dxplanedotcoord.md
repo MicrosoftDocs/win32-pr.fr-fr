@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 99ee9db7df541dcf74867b828a73ede80f11e22b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 30f04ec310ce66dc43073e724b08c358cd8fc6f24f0b3840475a1abc61544503
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118524926"
 ---
 # <a name="d3dxplanedotcoord-function"></a>D3DXPlaneDotCoord fonction)
 
@@ -65,7 +65,7 @@ Type : **[ **float**](../winprog/windows-data-types.md)**
 
 Produit scalaire du plan et du vecteur 3D.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avec un plan (a, b, c, d) et un vecteur 3D (x, y, z), la valeur de retour de cette fonction est un \* x + b \* y + c \* z + d \* 1. La fonction **D3DXPlaneDotCoord** est utile pour déterminer la relation du plan avec une coordonnée dans l’espace 3D.
 

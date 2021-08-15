@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74a0ccf722715896743129b6666609bd8a88df3f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 73622161629f6d3746c153fb9e2df32ee120fd748defc60d0d02ef6ea4378b14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118843896"
 ---
 # <a name="ivmnetworkadapter-interface"></a>Interface IVMNetworkAdapter
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Sert d’interface à une carte d’interface réseau (NIC) virtuelle. Il permet de configurer la façon dont une machine virtuelle est en réseau. Les cartes d’interface réseau peuvent être ajoutées et supprimées à l’aide de [**IVMVirtualMachine :: AddNetworkAdapter**](ivmvirtualmachine-addnetworkadapter.md) et [**IVMVirtualMachine :: RemoveNetworkAdapter**](ivmvirtualmachine-removenetworkadapter.md). Vous pouvez également récupérer un objet **IVMNetworkAdapter** à partir de la collection [**IVMNetworkAdapterCollection**](ivmnetworkadaptercollection.md) retournée par les propriétés [**IVMVirtualMachine :: NetworkAdapters**](ivmvirtualmachine-networkadapters.md) ou [**IVMVirtualNetwork :: NetworkAdapters**](ivmvirtualnetwork-networkadapters.md) .
 
@@ -43,7 +43,7 @@ L’interface **IVMNetworkAdapter** possède ces méthodes.
 
 | Méthode                                                                         | Description                                                                 |
 |:-------------------------------------------------------------------------------|:----------------------------------------------------------------------------|
-| [**\_IDENTIFI**](ivmnetworkadapter--id.md)                                          | Récupère l’identificateur interne de cette interface réseau.<br/>     |
+| [**\_ID**](ivmnetworkadapter--id.md)                                          | Récupère l’identificateur interne de cette interface réseau.<br/>     |
 | [**AttachToVirtualNetwork**](ivmnetworkadapter-attachtovirtualnetwork.md)     | Attache l’interface réseau au réseau virtuel spécifié.<br/> |
 | [**DetachFromVirtualNetwork**](ivmnetworkadapter-detachfromvirtualnetwork.md) | Détache l’interface réseau de son réseau virtuel.<br/>         |
 
@@ -68,7 +68,7 @@ L’interface **IVMNetworkAdapter** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’adresse Ethernet par défaut pour une interface réseau est « 00-00-00-00-00-00 », qui est considérée comme une adresse Ethernet non valide par la plupart des systèmes d’exploitation. Si [**IsEthernetAddressDynamic**](ivmnetworkadapter-isethernetaddressdynamic.md) a la valeur **false**, [**EthernetAddress**](ivmnetworkadapter-ethernetaddress.md) doit être initialisé avec une adresse réseau Ethernet valide.
 
@@ -93,7 +93,7 @@ Les procédures suivantes expliquent comment utiliser l’interface **IVMNetwork
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

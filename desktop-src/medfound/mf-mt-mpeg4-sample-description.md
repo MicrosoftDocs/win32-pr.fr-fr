@@ -4,12 +4,12 @@ ms.assetid: ea157988-bd15-465c-bd6a-6d33cc1a0323
 title: Attribut MF_MT_MPEG4_SAMPLE_DESCRIPTION (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4620ae0b50a2c6f2dae7663aab0c49f13bc5a162
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c59827fa5d2ba6c6621c7e251cf319478fd621d24639e105dcd44863495b364
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741791"
 ---
 # <a name="mf_mt_mpeg4_sample_description-attribute"></a>\_Attribut de \_ Description du MPEG4 MF MT \_ \_
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetBlob**](/windows/des
 
 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La zone Description de l’exemple décrit l’encodage utilisé pour un flux dans le fichier.
 
@@ -45,8 +45,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                     |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                     |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

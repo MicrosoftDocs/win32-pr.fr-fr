@@ -4,12 +4,12 @@ description: Les opérations de fusion sont effectuées sur chaque sortie de nua
 ms.assetid: f5c79baf-7bd3-4f58-abe7-8e96cd6be9d3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08acf1ea286b29a1cb96873bbfe170c6f38699f7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0de75e092a08a0dae83cd966cd986469cef9a6ea34e51c237800bf96b3a84232
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118808199"
 ---
 # <a name="configuring-blending-functionality"></a>Configuration de la fonctionnalité de fusion
 
@@ -77,7 +77,7 @@ Si le nuanceur de pixels génère une [ \_ couverture de SV](/windows/desktop/di
 > [!Note]  
 > Dans l’échantillonnage multiple, le Runtime partage une seule couverture pour tous les **renderTarget** s. Le fait que le runtime lit et convertit. a de la sortie [VP \_ cible](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics)0 à la couverture quand **AlphaToCoverageEnable** a la valeur true ne change pas. valeur qui accède au Blender à **renderTarget** 0 (si un **renderTarget** est défini ici). En général, si vous activez l’alpha-à-couverture, vous n’affectez pas la manière dont toutes les sorties de couleur des nuanceurs de pixels interagissent avec **renderTarget** dans l' [étape de fusion de sortie](d3d10-graphics-programming-guide-output-merger-stage.md) , à ceci près que le runtime effectue une opération **and** du masque de couverture avec le masque Alpha-à-couverture. Alpha-to-cover fonctionne indépendamment si le runtime peut mélanger **renderTarget** ou si vous utilisez la fusion sur **renderTarget**.
 
- 
+ 
 
 Le matériel graphique ne spécifie pas précisément comment il convertit le nuanceur de pixels de la [ \_ cible](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics)0. a (alpha) en masque de couverture, sauf que la valeur alpha de 0 (ou moins) doit correspondre à aucune couverture et alpha (ou plus) doit correspondre à une couverture complète (avant que le runtime effectue une opération **and** avec la couverture primitive réelle). Comme alpha passe de 0 à 1, la couverture résultante doit généralement augmenter de façon monotone. Toutefois, le matériel peut effectuer le tramage de zone pour fournir une meilleure quantification des valeurs alpha au détriment de la résolution spatiale et du bruit. Une valeur alpha NaN (pas un nombre) entraîne un masque aucun (zéro) de couverture.
 
@@ -131,6 +131,6 @@ Ensemble, les facteurs de mélange et le code du nuanceur impliquent que le nuan
 [Étapes de pipeline (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: ef94a5bf-89cc-4d3e-a062-5268c3c97080
 title: Événements de contrôle InkPicture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7b9aa84f828c989fef8e490b9a6babbe7185736
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e64c55f46fefc14f2dbaebe3e8d2e18470681fdd02aa413246fe9276d80b8cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118717719"
 ---
 # <a name="inkpicture-control-events"></a>Événements de contrôle InkPicture
 

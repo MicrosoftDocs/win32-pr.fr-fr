@@ -118,7 +118,7 @@
               href: wm-copydata.md
             - name: COPYDATASTRUCT
               href: /windows/win32/api/Winuser/ns-winuser-copydatastruct
-    - name: Échange dynamique de données (DDE)
+    - name: échange dynamique de données (DDE)
       href: dynamic-data-exchange.md
       items:
         - name: Vues d’ensemble de DDE
@@ -216,7 +216,7 @@
               items:
                 - name: MAKEINTATOM
                   href: /windows/desktop/api/Winbase/nf-winbase-makeintatom
-    - name: Bibliothèque de gestion des échange dynamique de données (DDEML)
+    - name: bibliothèque de gestion des échange dynamique de données (DDEML)
       href: dynamic-data-exchange-management-library.md
       items:
         - name: Vues d’ensemble de DDEML

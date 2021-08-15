@@ -24,12 +24,12 @@ keywords:
 - types de contrôles, DataItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0902cc593ec7f9104ed27031caa2785b7cb9756
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f5ec4612b43855578256d52bf6647b105ea666882cfe2f72dcdbf355559a7e5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118826313"
 ---
 # <a name="dataitem-control-type"></a>DataItem (type de contrôle)
 
@@ -86,7 +86,7 @@ Le tableau suivant représente un contrôle classique et une vue de contenu de l
 
 
 
- 
+ 
 
 Un élément de données dans une grille de données peut héberger divers objets, notamment une autre couche d’éléments de données ou des éléments de grille spécifiques tels que du texte, des images ou des contrôles d’édition. Si l’élément de données a un rôle d’objet spécifique, l’élément doit être exposé en tant que type de contrôle spécifique ; par exemple, un type de contrôle [ListItem](uiauto-supportlistitemcontroltype.md) pour un élément de données sélectionnable dans la grille.
 
@@ -96,7 +96,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur        | Notes                                                                                                                                                                                                |
+| Propriété UI Automation                                                                                              | Valeur        | Remarques                                                                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques.   | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                                                                         |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques.   | Rectangle externe qui contient l’ensemble du contrôle.                                                                                                                                             |
@@ -113,7 +113,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -133,13 +133,13 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="working-with-dataitems-in-large-lists"></a>Utilisation de DataItems dans des listes volumineuses
 
 Étant donné que les listes volumineuses sont souvent virtualisées dans des infrastructures d’interface utilisateur pour aider à améliorer les performances, un client UI Automation ne peut pas utiliser la fonctionnalité de requête UI Automation pour rechercher le contenu de l’arborescence complète de la même façon que dans d’autres conteneurs d’éléments. Un client doit faire défiler l’élément dans l’affichage (ou développer le contrôle pour afficher toutes les options disponibles) avant d’accéder à l’ensemble complet d’informations de l’élément de données.
 
-Lors de l’appel de [**SetFocus**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-setfocus) sur l’élément UI Automation pour l’élément de données, l’Explorateur Microsoft Windows est retourné avec succès et a pour effet de définir le focus sur le contrôle d’édition dans la sous-arborescence d’éléments de données.
+lors de l’appel de [**SetFocus**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-setfocus) sur l’élément UI Automation pour l’élément de données, Microsoft Windows Explorer retourne avec succès et fait en sorte que le focus soit défini sur le contrôle d’édition dans la sous-arborescence d’éléments de données.
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -147,7 +147,7 @@ Le tableau suivant répertorie les événements UI Automation que les contrôles
 
 
 
-| Événement UI Automation                                                                                                                                                | Notes                                                                                                                            |
+| Événement UI Automation                                                                                                                                                | Remarques                                                                                                                            |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                                                   |                                                                                                                                  |
 | [**UIA \_**](uiauto-automation-element-propids.md) Événement de modification de propriété BoundingRectanglePropertyId.                              |                                                                                                                                  |
@@ -166,7 +166,7 @@ Le tableau suivant répertorie les événements UI Automation que les contrôles
 
 
 
- 
+ 
 
 ## <a name="dataitem-control-type-example"></a>Exemple de type de contrôle DataItem
 
@@ -229,7 +229,7 @@ L’affichage de contrôle et l’affichage de contenu de l’arborescence UI Au
 
 
 
- 
+ 
 
 Si une grille représente une liste d’éléments sélectionnables, les éléments d’interface utilisateur sélectionnables correspondants peuvent être exposés avec le type de contrôle [ListItem](uiauto-supportlistitemcontroltype.md) au lieu du type de contrôle DataItem. Dans l’exemple précédent, les éléments **DataItem** (« accounts Receivable.doc » et « accounts Payable.doc ») sous **Group** (« contoso ») peuvent être améliorés en les exposant en tant que types de contrôle ListItem, car ce type prend déjà en charge le modèle de contrôle [SelectionItem](uiauto-implementingselectionitem.md) .
 
@@ -246,9 +246,9 @@ Si une grille représente une liste d’éléments sélectionnables, les éléme
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

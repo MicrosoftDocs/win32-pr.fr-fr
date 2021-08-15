@@ -4,12 +4,12 @@ ms.assetid: 0de0cb2e-67bc-4db5-879a-95879f16b98d
 title: Configuration du codec MFTs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0065f05d10eae367b13ef6f7caf3fe2ab322163a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: beb4a9ae53c0aee61e30fb5d61b2ad78fd4fe8e624df394f462dd01618272476
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743331"
 ---
 # <a name="configuring-codec-mfts"></a>Configuration du codec MFTs
 
@@ -21,7 +21,7 @@ Chaque MFT prend en charge des types d’entrée et de sortie spécifiques. Vous
 
 ## <a name="configuring-the-codec-mfts-for-encoding"></a>Configuration du codec MFTs pour l’encodage
 
-Tous les codecs vidéo et Windows Media Audio prennent en charge un large éventail de fonctionnalités d’encodage. Ces fonctionnalités sont généralement configurées en définissant des propriétés sur la table MFT à l’aide des méthodes de l’interface **IPropertyStore** . Certaines propriétés sont configurées à l’aide d’interfaces de codec spécialisées. Ces interfaces sont répertoriées pour chaque codec dans la section [objets codec](codecobjects.md).
+tous les codecs vidéo et Windows Media Audio prennent en charge un large éventail de fonctionnalités d’encodage. Ces fonctionnalités sont généralement configurées en définissant des propriétés sur la table MFT à l’aide des méthodes de l’interface **IPropertyStore** . Certaines propriétés sont configurées à l’aide d’interfaces de codec spécialisées. Ces interfaces sont répertoriées pour chaque codec dans la section [objets codec](codecobjects.md).
 
 L’ordre général des opérations de configuration d’une table MFT d’encodage est le suivant :
 
@@ -40,7 +40,7 @@ L’ordre général des opérations de configuration d’une table MFT de décod
 3.  Configurez le type de sortie. Les types de sortie pris en charge sont différents pour les différentes entrées.
 
 > [!Note]  
-> Il est important d’utiliser le même type de média pour l’entrée du décodeur que celui utilisé pour la sortie de l’encodeur. Cela est dû au fait que les codecs Windows Media Audio et vidéo utilisent des formats multimédias avec des données supplémentaires. Sans les données de format étendu, vous ne pouvez pas décoder le contenu compressé.
+> Il est important d’utiliser le même type de média pour l’entrée du décodeur que celui utilisé pour la sortie de l’encodeur. cela est dû au fait que les codecs Windows Media Audio et vidéo utilisent des formats multimédias avec des données supplémentaires. Sans les données de format étendu, vous ne pouvez pas décoder le contenu compressé.
 
  
 

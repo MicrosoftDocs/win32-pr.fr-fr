@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 488a400928ecc270612a307fbede971e02b43b25
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d9bac71e89657f4df176a1ee15e2dca0cda6e4a25b8c47560adc5cf26c982383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118526153"
 ---
 # <a name="d3dxcreatefont-function"></a>D3DXCreateFont fonction)
 
@@ -119,7 +119,7 @@ Jeu de caractères de la police.
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
 
-Spécifie comment Windows doit tenter de faire correspondre les tailles de police et les caractéristiques souhaitées avec les polices réelles. Utilisez \_ TT \_ uniquement \_ precis par exemple, pour vous assurer que vous recevez toujours une police TrueType.
+spécifie comment Windows doit tenter de faire correspondre les tailles de police et les caractéristiques souhaitées avec les polices réelles. Utilisez \_ TT \_ uniquement \_ precis par exemple, pour vous assurer que vous recevez toujours une police TrueType.
 
 </dd> <dt>
 
@@ -128,7 +128,7 @@ Spécifie comment Windows doit tenter de faire correspondre les tailles de polic
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
 
-Spécifie comment Windows doit correspondre à la police souhaitée avec une police réelle. Elle s’applique uniquement aux polices Raster et ne doit pas affecter les polices TrueType.
+spécifie comment Windows doit correspondre à la police souhaitée avec une police réelle. Elle s’applique uniquement aux polices Raster et ne doit pas affecter les polices TrueType.
 
 </dd> <dt>
 
@@ -165,7 +165,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est S \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La création d’un objet ID3DXFont nécessite que l’appareil prenne en charge la couleur 32 bits.
 

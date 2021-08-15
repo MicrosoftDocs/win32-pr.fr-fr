@@ -25,18 +25,18 @@ keywords:
 - curseurs, affinage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f2d0b91ba4670d2510413240efd742b2e0ba69b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: bc8d987eb12857779ac85d34cb7e4ff7f3f5ce59ed8a750764c433c88abbccea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118735379"
 ---
 # <a name="about-cursors"></a>À propos des curseurs
 
 Windows fournit un ensemble de curseurs standard qui sont disponibles pour n’importe quelle application à utiliser à tout moment. Les fichiers d’en-tête du kit de développement logiciel (SDK) contiennent des identificateurs pour les curseurs standard : les identificateurs commencent par le préfixe **IDC \_** .
 
-Chaque curseur standard possède une image par défaut correspondante qui lui est associée. L’utilisateur ou une application peut remplacer l’image par défaut associée à n’importe quel curseur standard à tout moment. Une application remplace une image par défaut à l’aide de la fonction [**SetSystemCursor**](/windows/desktop/api/Winuser/nf-winuser-setsystemcursor) . L’illustration suivante montre plusieurs curseurs standard de Windows Vista :
+Chaque curseur standard possède une image par défaut correspondante qui lui est associée. L’utilisateur ou une application peut remplacer l’image par défaut associée à n’importe quel curseur standard à tout moment. Une application remplace une image par défaut à l’aide de la fonction [**SetSystemCursor**](/windows/desktop/api/Winuser/nf-winuser-setsystemcursor) . l’illustration suivante montre plusieurs curseurs standard de Windows Vista :
 
 ![curseurs standard, y compris main, signe plus à quatre flèches, flèche avec point d’interrogation, cercle, plume](images/cursorsstandard.png)
 
@@ -87,7 +87,7 @@ Vous pouvez également créer un curseur personnalisé au moment de l’exécuti
 
 Les applications doivent implémenter des curseurs personnalisés en tant que ressources et utiliser [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora), [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea)ou [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) au lieu de créer le curseur au moment de l’exécution. L’utilisation des ressources de curseur évite la dépendance des appareils, simplifie la localisation et permet aux applications de partager des conceptions de curseurs.
 
-La fonction [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex) permet à une application de créer des icônes et des curseurs basés sur les données de ressources. **CreateIconFromResourceEx** crée un curseur basé sur les données de ressources binaires à partir d’autres fichiers exécutables (. exe) ou de dll. Elle doit être précédée d’appels à la fonction [**LookupIconIdFromDirectoryEx**](/windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex) , ainsi que de plusieurs fonctions de ressources. **LookupIconIdFromDirectoryEx** identifie les données de curseur les plus appropriées pour le périphérique d’affichage actuel. Pour plus d’informations sur les fonctions de ressource, consultez [ressources](resources.md).
+La fonction [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex) permet à une application de créer des icônes et des curseurs basés sur les données de ressources. **CreateIconFromResourceEx** crée un curseur basé sur les données de ressources binaires à partir d’autres fichiers exécutables (.exe) ou dll. Elle doit être précédée d’appels à la fonction [**LookupIconIdFromDirectoryEx**](/windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex) , ainsi que de plusieurs fonctions de ressources. **LookupIconIdFromDirectoryEx** identifie les données de curseur les plus appropriées pour le périphérique d’affichage actuel. Pour plus d’informations sur les fonctions de ressource, consultez [ressources](resources.md).
 
 ## <a name="cursor-location-and-appearance"></a>Emplacement et apparence du curseur
 
@@ -130,6 +130,6 @@ Lorsque vous inscrivez une classe de fenêtre à l’aide de la fonction [**regi
 
 Pour remplacer le curseur de la classe, traitez le message [**WM \_ SETCURSOR**](wm-setcursor.md) . Vous pouvez également remplacer un curseur de classe à l’aide de la fonction [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) . Cette fonction modifie les paramètres de fenêtre par défaut pour toutes les fenêtres d’une classe spécifiée. Pour plus d’informations, consultez [Class Cursor](/windows/desktop/winmsg/about-window-classes).
 
- 
+ 
 
- 
+ 

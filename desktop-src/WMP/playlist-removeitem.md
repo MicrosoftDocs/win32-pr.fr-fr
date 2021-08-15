@@ -3,9 +3,9 @@ title: Playlist. removeItem, méthode
 description: La méthode removeItem supprime l’élément spécifié de la sélection.
 ms.assetid: 294ba4fb-967b-4a03-b0c5-6e9c15db3bff
 keywords:
-- méthode removeItem lecteur Windows Media
-- méthode removeItem lecteur Windows Media, classe playlist
-- Classe de sélection lecteur Windows Media, removeItem, méthode
+- removeItem, méthode Lecteur Windows Media
+- removeItem, méthode Lecteur Windows Media, classe Playlist
+- Lecteur Windows Media de classe Playlist, méthode removeItem
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2de03333e2373744f9e9197be8ed8582997c557d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a8a55fb45fa7ea8d172d76321d7c907fbedfd3f868448f1ad63e220ff8e69f9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118336590"
 ---
 # <a name="playlistremoveitem-method"></a>Playlist. removeItem, méthode
 
@@ -53,7 +53,7 @@ Objet **multimédia** à supprimer.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’élément supprimé est la piste en cours de lecture (*Player*.**currentMedia**), la lecture s’arrête et l’élément suivant dans la sélection devient l’élément actuel. S’il n’y a pas d’élément suivant, l’élément précédent est utilisé, ou s’il n’y a pas d’autres éléments, alors *Player*. **currentMedia** a la valeur **null**.
 

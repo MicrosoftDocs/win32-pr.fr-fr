@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8c7dbac9f0b5736970cf51aef9e99f2877cfd488
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44e0cd05ae4d97c5e0e5f343bc34de5a2bedc55e836cd23642dce6c0ed36c630
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117895827"
 ---
 # <a name="instance-implicit-conversion-instance-to-jet_instance"></a>Conversion implicite d’instance (instance à JET_INSTANCE)
 

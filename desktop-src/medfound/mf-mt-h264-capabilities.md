@@ -4,12 +4,12 @@ ms.assetid: 59EF18D6-6063-4EF3-BBFB-51A966CFF09E
 title: Attribut MF_MT_H264_CAPABILITIES (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b67f796e09d4b57667a3d8f7c7c0fa888eba7894
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 138cfa32fc50ebb02ca4d399a178b338e58016c64ae3486d7f7b4a76f3e47afe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741794"
 ---
 # <a name="mf_mt_h264_capabilities-attribute"></a>\_Attribut des \_ fonctionnalités de H264 – pour MF MT \_
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux types de média pour les flux H. 264 transmis sur USB. La valeur correspond au champ **bmCapabilities** dans le descripteur de trame vidéo 1,5 UVC H. 264.
 
@@ -41,8 +41,8 @@ Cet attribut est également utilisé avec les [encodeurs de caméra H. 264 UVC 1
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

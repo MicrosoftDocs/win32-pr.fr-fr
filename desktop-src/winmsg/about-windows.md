@@ -4,12 +4,12 @@ ms.assetid: e325f8dc-004f-44a9-9122-3be5e44764d6
 title: À propos de Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e2df510deea689d70bd1ebf5e59cafc92b0389d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24b085ed246ef6f13627d678e3ede68fa6349a780a74c0c89ee7cbafb24c501f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104202920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849886"
 ---
 # <a name="about-windows"></a>À propos de Windows
 
@@ -18,7 +18,7 @@ Cette rubrique décrit les éléments de programmation que les applications util
 La vue d’ensemble comprend les rubriques suivantes.
 
 -   [Fenêtre du Bureau](#desktop-window)
--   [Fenêtres d’application](#application-windows)
+-   [Windows d’application](#application-windows)
     -   [Zone cliente](#client-area)
     -   [Zone non cliente](#nonclient-area)
 -   [Contrôles et boîtes de dialogue](#controls-and-dialog-boxes)
@@ -43,15 +43,15 @@ La vue d’ensemble comprend les rubriques suivantes.
 
 Lorsque vous démarrez le système, celui-ci crée automatiquement la fenêtre du bureau. La *fenêtre du Bureau* est une fenêtre définie par le système qui peint l’arrière-plan de l’écran et sert de base pour toutes les fenêtres affichées par toutes les applications.
 
-La fenêtre du Bureau utilise une image bitmap pour peindre l’arrière-plan de l’écran. Le modèle créé par la bitmap est appelé le *Papier peint du Bureau*. Par défaut, la fenêtre du Bureau utilise l’image bitmap d’un fichier. bmp spécifié dans le registre en tant que papier peint du bureau.
+La fenêtre du Bureau utilise une image bitmap pour peindre l’arrière-plan de l’écran. Le modèle créé par la bitmap est appelé le *Papier peint du Bureau*. Par défaut, la fenêtre du Bureau utilise l’image bitmap d’un fichier .bmp spécifié dans le registre comme papier peint du bureau.
 
 La fonction [**GetDesktopWindow**](/windows/win32/api/winuser/nf-winuser-getdesktopwindow) retourne un handle vers la fenêtre du bureau.
 
 Une application de configuration système, telle qu’un élément du panneau de configuration, modifie le papier peint du Bureau à l’aide de la fonction [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) avec le paramètre *WAction* défini sur **SPI \_ SETDESKWALLPAPER** et le paramètre *lpvParam* en spécifiant un nom de fichier bitmap. **SystemParametersInfo** charge ensuite le bitmap à partir du fichier spécifié, utilise l’image bitmap pour peindre l’arrière-plan de l’écran et entre le nouveau nom de fichier dans le registre.
 
-## <a name="application-windows"></a>Fenêtres d’application
+## <a name="application-windows"></a>Windows d’application
 
-Chaque application graphique Windows crée au moins une fenêtre, appelée *fenêtre principale*, qui sert d’interface principale entre l’utilisateur et l’application. La plupart des applications créent également d’autres fenêtres, directement ou indirectement, pour effectuer les tâches associées à la fenêtre principale. Chaque fenêtre joue un rôle dans l’affichage de la sortie et la réception de l’entrée de l’utilisateur.
+chaque application graphique Windows crée au moins une fenêtre, appelée *fenêtre principale*, qui sert d’interface principale entre l’utilisateur et l’application. La plupart des applications créent également d’autres fenêtres, directement ou indirectement, pour effectuer les tâches associées à la fenêtre principale. Chaque fenêtre joue un rôle dans l’affichage de la sortie et la réception de l’entrée de l’utilisateur.
 
 Lorsque vous démarrez une application, le système associe également un bouton de barre des tâches à l’application. Le *bouton de la barre des tâches* contient l’icône et le titre du programme. Lorsque l’application est active, son bouton de la barre des tâches est affiché dans l’État pushd.
 
@@ -83,7 +83,7 @@ La *barre de défilement horizontale* et la *barre de défilement verticale* con
 
 Une application peut créer plusieurs types de fenêtres en plus de sa fenêtre principale, y compris les contrôles et les boîtes de dialogue.
 
-Un *contrôle* est une fenêtre utilisée par une application pour obtenir une information spécifique de l’utilisateur, telle que le nom d’un fichier à ouvrir ou la taille de point souhaitée d’une sélection de texte. Les applications utilisent également des contrôles pour obtenir les informations nécessaires pour contrôler une fonctionnalité particulière d’une application. Par exemple, une application de traitement de texte fournit généralement un contrôle pour permettre à l’utilisateur d’activer et de désactiver le retour automatique à la main. Pour plus d’informations, consultez [contrôles Windows](/windows/desktop/Controls/window-controls).
+Un *contrôle* est une fenêtre utilisée par une application pour obtenir une information spécifique de l’utilisateur, telle que le nom d’un fichier à ouvrir ou la taille de point souhaitée d’une sélection de texte. Les applications utilisent également des contrôles pour obtenir les informations nécessaires pour contrôler une fonctionnalité particulière d’une application. Par exemple, une application de traitement de texte fournit généralement un contrôle pour permettre à l’utilisateur d’activer et de désactiver le retour automatique à la main. pour plus d’informations, consultez [Windows des contrôles](/windows/desktop/Controls/window-controls).
 
 Les contrôles sont toujours utilisés conjointement à une autre fenêtre, généralement, une boîte de dialogue. Une *boîte de dialogue* est une fenêtre qui contient un ou plusieurs contrôles. Une application utilise une boîte de dialogue pour inviter l’utilisateur à entrer les données nécessaires à l’exécution d’une commande. Par exemple, une application qui comprend une commande permettant d’ouvrir un fichier affiche une boîte de dialogue qui comprend des contrôles dans lesquels l’utilisateur spécifie un chemin d’accès et un nom de fichier. Les boîtes de dialogue n’utilisent généralement pas le même jeu de composants de fenêtre qu’une fenêtre principale. La plupart disposent d’une barre de titre, d’un menu fenêtre, d’une bordure (sans redimensionnement) et d’une zone client, mais elles ne disposent généralement pas d’une barre de menus, de boutons réduire et agrandir, ni de barres de défilement. Pour plus d’informations, consultez [boîtes de dialogue](/windows/desktop/dlgbox/dialog-boxes).
 
@@ -162,7 +162,7 @@ Une fenêtre peut avoir une fenêtre parente. Une fenêtre ayant un parent est a
 
 Une fenêtre qui n’a pas de parent, ou dont le parent est la fenêtre du bureau, est appelée une *fenêtre de niveau supérieur*. Une application peut utiliser la fonction [**EnumWindows**](/windows/win32/api/winuser/nf-winuser-enumwindows) pour obtenir un handle pour chaque fenêtre de niveau supérieur à l’écran. **EnumWindows** passe le handle à chaque fenêtre de niveau supérieur, à son tour, à une fonction de rappel définie par l’application, [**EnumWindowsProc**](/previous-versions/windows/desktop/legacy/ms633498(v=vs.85)).
 
-Une fenêtre de niveau supérieur peut être propriétaire ou détenue par une autre fenêtre. Une *fenêtre enfant* s’affiche toujours devant sa fenêtre propriétaire, est masquée lorsque sa fenêtre propriétaire est réduite et est détruite lorsque sa fenêtre propriétaire est détruite. Pour plus d’informations, consultez [fenêtres détenues](window-features.md#owned-windows).
+Une fenêtre de niveau supérieur peut être propriétaire ou détenue par une autre fenêtre. Une *fenêtre enfant* s’affiche toujours devant sa fenêtre propriétaire, est masquée lorsque sa fenêtre propriétaire est réduite et est détruite lorsque sa fenêtre propriétaire est détruite. Pour plus d’informations, consultez [Windows appartenant](window-features.md#owned-windows).
 
 ### <a name="menu-handle-or-child-window-identifier"></a>Handle de menu ou identificateur de Child-Window
 
@@ -203,7 +203,7 @@ Cette section contient les rubriques suivantes :
 
 ### <a name="main-window-creation"></a>Création de la fenêtre principale
 
-Chaque application Windows doit avoir [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) comme fonction de point d’entrée. **WinMain** effectue un certain nombre de tâches, y compris l’inscription de la classe de fenêtre pour la fenêtre principale et la création de la fenêtre principale. **WinMain** inscrit la classe de fenêtre principale en appelant la fonction [**registerClass**](/windows/win32/api/winuser/nf-winuser-registerclassa) et crée la fenêtre principale en appelant la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) .
+chaque application basée sur Windows doit avoir [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) comme fonction de point d’entrée. **WinMain** effectue un certain nombre de tâches, y compris l’inscription de la classe de fenêtre pour la fenêtre principale et la création de la fenêtre principale. **WinMain** inscrit la classe de fenêtre principale en appelant la fonction [**registerClass**](/windows/win32/api/winuser/nf-winuser-registerclassa) et crée la fenêtre principale en appelant la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) .
 
 Votre fonction [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) peut également limiter votre application à une seule instance. Créez un mutex nommé à l’aide de la fonction [**CreateMutex**](/windows/desktop/api/synchapi/nf-synchapi-createmutexa) . Si [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) retourne une erreur, une autre instance de votre application existe (elle a créé le mutex) et vous devez quitter **WinMain**. **\_ \_**
 
@@ -219,7 +219,7 @@ Lors de la création d’une fenêtre enfant, le système envoie le message [**W
 
 ### <a name="multithread-applications"></a>Applications multithread
 
-Une application Windows peut avoir plusieurs threads d’exécution, et chaque thread peut créer des fenêtres. Le thread qui crée une fenêtre doit contenir le code de la procédure de fenêtre.
+une application basée sur Windows peut avoir plusieurs threads d’exécution et chaque thread peut créer des fenêtres. Le thread qui crée une fenêtre doit contenir le code de la procédure de fenêtre.
 
 Une application peut utiliser la fonction [**EnumThreadWindows**](/windows/win32/api/winuser/nf-winuser-enumthreadwindows) pour énumérer les fenêtres créées par un thread particulier. Cette fonction passe le handle à chaque fenêtre de thread, à son tour, à une fonction de rappel définie par l’application, [**EnumThreadWndProc**](/previous-versions/windows/desktop/legacy/ms633496(v=vs.85)).
 

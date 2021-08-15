@@ -4,12 +4,12 @@ ms.assetid: a7d774c1-93c0-47d8-a8a7-e66e394726a3
 title: D3DPRESENT (D3d9.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15b8bf496c8c8e10d50b23ad4f784634fb983d2d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f3fd05609e86682b4524e68e985f03abac59f1dbd4537d1ffd683990ca371fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527589"
 ---
 # <a name="d3dpresent"></a>D3DPRESENT
 
@@ -41,7 +41,7 @@ Décrit la relation entre la fréquence d’actualisation de l’adaptateur et l
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_FORCEIMMEDIATE"></span><span id="d3dpresent_forceimmediate"></span><dl> <dt><strong>D3DPRESENT_FORCEIMMEDIATE</strong></dt> </dl></td>
-<td style="text-align: left;">D3DPRESENT_INTERVAL_IMMEDIATE est appliqué à cet appel <a href="/windows/desktop/api"><strong>présent</strong></a> . Cet indicateur ne peut être spécifié que lors de l’utilisation de D3DSWAPEFFECT_FLIPEX. Les comportements de présentation à fenêtres et en plein écran sont identiques. Cela s’avère particulièrement utile pour les applications multimédias qui souhaitent ignorer les trames qui ont été détectées en retard et présentent les trames suivantes au moment de la composition. Une erreur de paramètre non valide est retournée si cet indicateur n’est pas correctement spécifié. Lorsque plusieurs frames consécutifs avec D3DPRESENT_FORCEIMMEDIATEs sont mis en file d’attente, seule la dernière image est affichée, à la fois pour la présentation à fenêtres et en plein écran.<br/> Cet indicateur est disponible dans Direct3D 9Ex sur les systèmes d’exploitation Windows 7 ou version ultérieure.<br/> Lorsque vous utilisez D3DSWAPEFFECT_FLIPEX, chaque frame présenté avec D3DPRESENT_INTERVAL_IMMEDIATE ou D3DPRESENT_INTERVAL_FORCEIMMEDIATE remplace l’intervalle présent du frame précédent. Par exemple, si vous file d’attente des frames suivants à l’aide des effets de permutation suivants : Frame A (D3DPRESENT_INTERVAL_ONE), Frame B (D3DPRESENT_INTERVAL_ONE), Frame C (D3DPRESENT_INTERVAL_ONE), Frame D (D3DPRESENT_INTERVAL_FORCEIMMEDIATE), Frame D remplace l’intervalle présent du frame C. Les images affichées par intervalle présent sont Frame A, Frame B, (Frame C substitué par) Frame D.<br/> Consultez la section Notes.<br/></td>
+<td style="text-align: left;">D3DPRESENT_INTERVAL_IMMEDIATE est appliqué à cet appel <a href="/windows/desktop/api"><strong>présent</strong></a> . Cet indicateur ne peut être spécifié que lors de l’utilisation de D3DSWAPEFFECT_FLIPEX. Les comportements de présentation à fenêtres et en plein écran sont identiques. Cela s’avère particulièrement utile pour les applications multimédias qui souhaitent ignorer les trames qui ont été détectées en retard et présentent les trames suivantes au moment de la composition. Une erreur de paramètre non valide est retournée si cet indicateur n’est pas correctement spécifié. Lorsque plusieurs frames consécutifs avec D3DPRESENT_FORCEIMMEDIATEs sont mis en file d’attente, seule la dernière image est affichée, à la fois pour la présentation à fenêtres et en plein écran.<br/> cet indicateur est disponible dans Direct3D 9ex sur les systèmes d’exploitation Windows 7 ou versions ultérieures.<br/> Lorsque vous utilisez D3DSWAPEFFECT_FLIPEX, chaque frame présenté avec D3DPRESENT_INTERVAL_IMMEDIATE ou D3DPRESENT_INTERVAL_FORCEIMMEDIATE remplace l’intervalle présent du frame précédent. Par exemple, si vous file d’attente des frames suivants à l’aide des effets de permutation suivants : Frame A (D3DPRESENT_INTERVAL_ONE), Frame B (D3DPRESENT_INTERVAL_ONE), Frame C (D3DPRESENT_INTERVAL_ONE), Frame D (D3DPRESENT_INTERVAL_FORCEIMMEDIATE), Frame D remplace l’intervalle présent du frame C. Les images affichées par intervalle présent sont Frame A, Frame B, (Frame C substitué par) Frame D.<br/> Consultez la section Notes.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_DEFAULT"></span><span id="d3dpresent_interval_default"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_DEFAULT</strong></dt> </dl></td>
@@ -81,7 +81,7 @@ Consultez <a href="gamma.md">chaînes de permutation avec fenêtres</a>.<br/></t
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_VIDEO_RESTRICT_TO_MONITOR"></span><span id="d3dpresent_video_restrict_to_monitor"></span><dl> <dt><strong>D3DPRESENT_VIDEO_RESTRICT_TO_MONITOR</strong></dt> </dl></td>
-<td style="text-align: left;">Découpe le contenu rendu sur l’écran ou l’appareil ciblé par l’adaptateur, affiche des miniatures pour le contenu dans la vue Flip3D et les miniatures de la barre des tâches sur d’autres moniteurs. <br/> Cet indicateur est disponible uniquement dans Direct3D 9Ex.<br/> Pour plus d’informations sur cette fonctionnalité de Windows Vista, consultez <a href="/windows/desktop/dwm/dwm-overview">Gestionnaire de fenêtrage</a> . Si vous n’exécutez pas en mode de composition du bureau, l’indicateur donne le même comportement que <a href="d3dpresentflag.md">D3DPRESENTFLAG_DEVICECLIP</a>.<br/>
+<td style="text-align: left;">Découpe le contenu rendu sur l’écran ou l’appareil ciblé par l’adaptateur, affiche des miniatures pour le contenu dans la vue Flip3D et les miniatures de la barre des tâches sur d’autres moniteurs. <br/> Cet indicateur est disponible uniquement dans Direct3D 9Ex.<br/> pour plus d’informations sur cette fonctionnalité de Windows Vista, consultez <a href="/windows/desktop/dwm/dwm-overview">Gestionnaire de fenêtrage</a> . Si vous n’exécutez pas en mode de composition du bureau, l’indicateur donne le même comportement que <a href="d3dpresentflag.md">D3DPRESENTFLAG_DEVICECLIP</a>.<br/>
 <blockquote>
 [!Note]<br />
 Cet indicateur doit être utilisé uniquement avec l’effet d’échange D3DSWAPEFFECT_FLIPEX. L’utilisation de cet indicateur avec d' <em>autres</em> effets d’échange est dépréciée et risque de ne pas fonctionner dans les futures versions de Windows.
@@ -103,7 +103,7 @@ Cet indicateur doit être utilisé uniquement avec l’effet d’échange D3DSWA
 </tbody>
 </table>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le mode fenêtre prend en charge la \_ \_ valeur par défaut de l’intervalle D3DPRESENT, D3DPRESENT \_ intervalle \_ immédiat et D3DPRESENT \_ Interval \_ . \_ \_ La valeur par défaut de l’intervalle D3DPRESENT et l’intervalle de D3DPRESENT \_ \_ sont presque équivalents (consultez les informations relatives à la résolution du minuteur ci-dessous). Ils s’exécutent de la même manière pour copier les \_ Vsync en ce qu’il n’y en a qu’un seul présent par image, et ils empêchent le déchirement avec la poutre. En revanche, D3DPRESENT \_ Interval \_ immediate tente de fournir un tarif de présentation illimité.
 

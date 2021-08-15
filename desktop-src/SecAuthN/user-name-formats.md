@@ -4,12 +4,12 @@ ms.assetid: 53ed2eb4-2c29-48fd-b7fa-0c27bf155758
 title: Formats de nom d’utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1fb99a9e6064cd3883a8d71c1e76ca853d88661
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57c2d4a31904e1cdc6c08da596e2db24054389387ef90142001e7f0e6e520567
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915544"
 ---
 # <a name="user-name-formats"></a>Formats de nom d’utilisateur
 
@@ -24,7 +24,7 @@ Le format UPN ( [*user principal name*](../secgloss/u-gly.md) ) est utilisé pou
 
 
 
-| Partie                                                        | Exemple                                |
+| Partie                                                        |  Exemple                                |
 |-------------------------------------------------------------|----------------------------------------|
 | Nom du compte d’utilisateur. Également appelé nom d’ouverture de session.<br/> | *UserName*<br/>                  |
 | Séparateur. Un littéral de caractère, le signe arobase (@).<br/> | @<br/>                           |
@@ -42,7 +42,7 @@ Le format du nom d’ouverture de session de niveau supérieur est utilisé pour
 
 
 
-| Partie                                                           | Exemple               |
+| Partie                                                           |  Exemple               |
 |----------------------------------------------------------------|-----------------------|
 | Nom de domaine NetBIOS.<br/>                                | *DOMAIN*<br/>   |
 | Séparateur. Littéral de caractère, la barre oblique inverse ( \\ ).<br/> | **\\**<br/>     |

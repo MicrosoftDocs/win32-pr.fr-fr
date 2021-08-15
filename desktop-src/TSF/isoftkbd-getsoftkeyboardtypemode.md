@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6aad6d60c50ee0050cf418018dd6db1c7a33efc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ab1205f0d9f59e027db75d2df580917392c445e812425c714b1688ce784a68ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117952576"
 ---
 # <a name="isoftkbdgetsoftkeyboardtypemode-method"></a>ISoftKbd :: GetSoftKeyboardTypeMode, méthode
 
@@ -72,7 +72,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                             |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                   |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                        |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Softkbdc. h</dt> </dl>  |
 | MIDL<br/>                      | <dl> <dt>Softkbd. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |

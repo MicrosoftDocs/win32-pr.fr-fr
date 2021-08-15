@@ -11,12 +11,12 @@ api_name:
 - Description
 api_type:
 - Schema
-ms.openlocfilehash: 02bec9af9900b622622757433c6241d9df7bde36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ff00dbc03503b51faa9dc734db61fd912da0ecf8f10f19adcbfb17b510c4834
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118744456"
 ---
 # <a name="description-mbnprofile-element"></a>Description (MBNProfile) (élément)
 
@@ -38,7 +38,7 @@ L’élément **Description** est défini par l’élément [**MBNProfile**](sch
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                         |
 
 

@@ -16,7 +16,7 @@
           href: tracelogging-c-cpp-tracelogging-examples.md
         - name: Exemples .NET Tracelogging
           href: tracelogging-net-examples.md
-        - name: Exemple de journalisation plateforme Windows universelle
+        - name: exemple de journalisation plateforme Windows universelle
           href: universal-windows-platform-logging-examples.md
     - name: Référence TraceLogging
       href: trace-logging-reference.md

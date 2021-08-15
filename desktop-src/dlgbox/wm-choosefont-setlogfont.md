@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6a588ebff7c8e56bb559a2cc9faa1d6290fbd8f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1d35c6f54679389b411417e5539382fd322c0873e6dba87fc90efb93b8be7ba1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118503422"
 ---
 # <a name="wm_choosefont_setlogfont-message"></a>\_ \_ Message SETLOGFONT WM CHOOSEFONT
 
@@ -55,7 +55,7 @@ Pointeur vers une structure [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-lo
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand vous appelez la fonction [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) pour créer une boîte de dialogue de **police** , vous pouvez utiliser le membre **lpLogFont** de la structure [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) pour spécifier une structure [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) contenant les valeurs initiales de la boîte de dialogue. Utilisez le message **WM \_ CHOOSEFONT \_ SETLOGFONT** pour spécifier une structure **LOGFONT** avec des valeurs différentes lorsque la boîte de dialogue **police** est ouverte.
 

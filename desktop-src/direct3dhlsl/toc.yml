@@ -47,7 +47,7 @@
             - name: Fonctionnalités du nuanceur Geometry
               href: overviews-direct3d-11-hlsl-gs-features.md
               items:
-                - name: "Comment\_: indexer plusieurs flux de sortie"
+                - name: "Comment\_: indexer plusieurs Flux de sortie"
                   href: overviews-direct3d-11-hlsl-gs-index.md
                 - name: "Comment\_: instancier un nuanceur Geometry"
                   href: overviews-direct3d-11-hlsl-gs-instance.md
@@ -58,7 +58,7 @@
               href: bytecode-changes-in-sm5-1.md
             - name: Signature racine spécifiée par HLSL
               href: hlsl-specified-root-signature.md
-        - name: 'Modèle de nuanceur HLSL 6,0'
+        - name: "Modèle de nuanceur HLSL\_6.0"
           href: hlsl-shader-model-6-0-features-for-direct3d-12.md
         - name: 'Modèle de nuanceur HLSL 6,4'
           href: hlsl-shader-model-6-4-features-for-direct3d-12.md
@@ -1329,7 +1329,7 @@
               href: dx-graphics-hlsl-distance.md
             - name: dot
               href: dx-graphics-hlsl-dot.md
-            - name: destination
+            - name: dst
               href: dst.md
             - name: errorf
               href: errorf.md
@@ -1405,7 +1405,7 @@
               href: dx-graphics-hlsl-lerp.md
             - name: orange
               href: dx-graphics-hlsl-lit.md
-            - name: journal
+            - name: log
               href: dx-graphics-hlsl-log.md
             - name: log10
               href: dx-graphics-hlsl-log10.md
@@ -1564,7 +1564,7 @@
                       href: dx9-graphics-reference-asm-vs-instructions-vs-2-x.md
                     - name: Instructions-vs_3_0
                       href: dx9-graphics-reference-asm-vs-instructions-vs-3-0.md
-                    - name: Limites d’imbrication du contrôle de Flow
+                    - name: Flow Contrôler les limites d’imbrication
                       href: dx9-graphics-reference-asm-vs-instructions-flow-control.md
                     - name: Modificateurs d’instruction
                       href: dx9-graphics-reference-asm-vs-instructions-modifiers.md
@@ -1768,7 +1768,7 @@
                       href: dx9-graphics-reference-asm-ps-instructions-modifiers-ps-1-x.md
                     - name: Modificateurs pour ps_2_0 et versions ultérieures
                       href: dx9-graphics-reference-asm-ps-instructions-modifiers-ps-2-0.md
-                    - name: Limitations du contrôle de Flow
+                    - name: Flow Limitations des contrôles
                       href: dx9-graphics-reference-asm-ps-instructions-flow-control.md
                     - name: ABS-PS
                       href: abs---ps.md
@@ -2518,7 +2518,7 @@
                   href: d3dcompile-constants.md
                 - name: Constantes D3DCOMPILE_EFFECT
                   href: d3dcompile-effect-constants.md
-        - name: Référence de conversion de format Inline
+        - name: Référence de conversion de format inline
           href: inline-format-conversion-reference.md
           items:
             - name: Fonctions

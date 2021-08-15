@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Mssign32.dll
-ms.openlocfilehash: 026b31d021dc6ff2569ad9ce8f17d2e7f0d17b29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ba60ca31bf75e355126484608bfe9650b00fea60eaf876022e2de2bf5030470
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118901319"
 ---
 # <a name="pvkgetcryptprov-function"></a>PvkGetCryptProv fonction)
 
@@ -126,7 +126,7 @@ Si la méthode est réussie, elle retourne la valeur **\_ OK**.
 
 Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’erreur. Pour obtenir la liste des codes d’erreur courants, consultez [valeurs HRESULT communes](common-hresult-values.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **PvkGetCryptProv** tente d’abord d’accéder au handle du fournisseur à partir du nom du conteneur de clé spécifié par le paramètre *pwszKeyContainerName* . Si vous transmettez la **valeur null** pour le paramètre *pwszKeyContainerName* , **PvkGetCryptProv** tente d’obtenir le fournisseur à partir du fichier de clé privée spécifié dans le paramètre *pwszPvkFile* .
 
@@ -138,8 +138,8 @@ Lorsque vous avez terminé d’utiliser le CSP, libérez le handle du fournisseu
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Mssign32.dll</dt> </dl> |
 
 

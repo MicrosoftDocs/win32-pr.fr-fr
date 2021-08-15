@@ -4,12 +4,12 @@ ms.assetid: E09DD142-A685-425E-94CD-A8E2EA73E869
 title: CODECAPI_AVEncH264CABACEnable, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5db4a23377b79102165f0582d6a2ee47f53d8c1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c9c3099f5208b020a61a12e718788459130a1c121ba0634b3e259c439f44f53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118744142"
 ---
 # <a name="codecapi_avench264cabacenable-property"></a>CODECAPI \_ propriété AVEncH264CABACEnable
 
@@ -33,8 +33,8 @@ Si la valeur est **\_ true**, CABAC est activé.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

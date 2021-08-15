@@ -1,19 +1,19 @@
 ---
-description: Comment les types de données ASN. 1 pris en charge par l’API d’inscription de certificats sont encodés à l’aide d’Distinguished Encoding Rules (DER).
+description: comment les types de données ASN. 1 pris en charge par l’API d’inscription de certificats sont encodés à l’aide d’Distinguished Encoding Rules (DER).
 ms.assetid: 901dc977-79fe-4b02-9a0c-68474d6bbf31
 title: Codage DER des types ASN. 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f2c1c2e22b1f996c3c975a2eea93bc910225d02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d53e46fb7183aca410ce7712955608406c1611769315cb8dcd4ae29686afa702
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118904458"
 ---
 # <a name="der-encoding-of-asn1-types"></a>Codage DER des types ASN. 1
 
-Les rubriques suivantes expliquent comment les types de données ASN. 1 pris en charge par l’API d’inscription de certificats sont encodés à l’aide de Distinguished Encoding Rules (DER) :
+les rubriques suivantes expliquent comment les types de données ASN. 1 pris en charge par l’API d’inscription de certificats sont encodés à l’aide de Distinguished Encoding Rules (DER) :
 
 -   [CHAÎNE DE BITS](about-bit-string.md)
 -   [EXPRESSION](about-boolean.md)
@@ -25,7 +25,7 @@ Les rubriques suivantes expliquent comment les types de données ASN. 1 pris en 
 -   [IA5String](about-ia5string.md)
 -   [PrintableString](about-printablestring.md)
 -   [UTF8String](about-utf8string.md)
--   [SEQUENCE](about-sequence.md)
+-   [SÉQUENCE](about-sequence.md)
 -   [SET](about-set.md)
 
 ## <a name="related-topics"></a>Rubriques connexes

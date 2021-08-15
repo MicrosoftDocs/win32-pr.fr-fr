@@ -1,16 +1,16 @@
-- name: API de l’agent de Windows Update
+- name: Windows Mettre à jour l’API d’agent
   href: portal-client.md
   items:
-    - name: Utilisation de l’API Windows Update Agent
+    - name: utilisation de l’API Windows Update Agent
       href: using-the-windows-update-agent-api.md
       items:
-        - name: Windows Update le modèle objet de l’agent
+        - name: Windows Mettre à jour le modèle objet de l’agent
           href: windows-update-agent-object-model.md
         - name: Détermination de la version actuelle de WUA
           href: determining-the-current-version-of-wua.md
-        - name: Mise à jour de l’agent de Windows Update
+        - name: mise à jour de l’Agent de Windows Update
           href: updating-the-windows-update-agent.md
-        - name: Mise à jour des fichiers d’en-tête d’agent Windows Update
+        - name: mise à jour des fichiers d’en-tête d’Agent Windows Update
           href: updating-windows-update-agent-header-files.md
         - name: Utilisation de WUA pour rechercher des mises à jour hors connexion
           href: using-wua-to-scan-for-updates-offline.md
@@ -32,9 +32,9 @@
           href: wua-success-and-error-codes-.md
         - name: Codes d’erreur de mise en réseau WUA
           href: wua-networking-error-codes-.md
-    - name: Autres sources d’informations sur l’agent de Windows Update
+    - name: autres Sources d’informations sur l’Agent de Windows Update
       href: other-sources-of-windows-update-agent-information.md
-    - name: Informations de référence sur l’API Windows Update Agent (WUA)
+    - name: Windows Informations de référence sur l’API Update Agent (WUA)
       href: windows-update-agent--wua--api-reference.md
       items:
         - name: Énumérations
@@ -110,7 +110,7 @@
                   items:
                     - name: Propriété ServiceEnabled
                       href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-get_serviceenabled
-                    - name: Propriété de paramètres
+                    - name: Paramètres Propriété
                       href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-get_settings
             - name: IAutomaticUpdates2
               href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdates2

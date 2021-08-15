@@ -4,12 +4,12 @@ ms.assetid: 21d5f206-dc83-458b-912d-befa15160450
 title: Conflits avec caractères latins et symboles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb758d7a05001aa768a3e15b185fbfd6e78bdf08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 077d3df9f568cd6cfe51d715f785e31c48839b5864b1f2a301c82f0a773db6b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118045970"
 ---
 # <a name="conflicts-with-latin-characters-and-symbols"></a>Conflits avec caractères latins et symboles
 

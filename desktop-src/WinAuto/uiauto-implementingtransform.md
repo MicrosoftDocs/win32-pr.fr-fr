@@ -15,12 +15,12 @@ keywords:
 - interfaces, ITransformProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eae752b34ed0b64fd2c0a7b476377fd1142f9b2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a5aceefa7d482cbbe6d9b1612c1fb9c65081796113e527d5122274ce5d8f8215
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118826835"
 ---
 # <a name="transform-control-pattern"></a>Transform (modèle de contrôle)
 
@@ -49,7 +49,7 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
-| Membres nécessaires                                         | Type de membre | Notes |
+| Membres nécessaires                                         | Type de membre | Remarques |
 |----------------------------------------------------------|-------------|-------|
 | [**CanMove**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider-get_canmove)     | Propriété    | Aucun  |
 | [**CanResize**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider-get_canresize) | Propriété    | Aucun  |
@@ -60,13 +60,13 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
- 
+ 
 
 Les propriétés et méthodes supplémentaires suivantes sont requises pour implémenter l’interface [**ITransformProvider2**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itransformprovider) .
 
 
 
-| Membres nécessaires                                              | Type de membre | Notes |
+| Membres nécessaires                                              | Type de membre | Remarques |
 |---------------------------------------------------------------|-------------|-------|
 | [**CanZoom**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-get_canzoom)     | Propriété    | Aucun  |
 | [**Zoom**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-zoom)           | Méthode      | Aucun  |
@@ -77,7 +77,7 @@ Les propriétés et méthodes supplémentaires suivantes sont requises pour impl
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé aucun événement.
 
@@ -94,6 +94,6 @@ Ce modèle de contrôle n’est associé aucun événement.
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

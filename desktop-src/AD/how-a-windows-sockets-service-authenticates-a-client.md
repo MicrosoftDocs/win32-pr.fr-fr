@@ -1,22 +1,22 @@
 ---
-title: Comment un service Windows Sockets authentifie un client
-description: Lorsqu’un client se connecte au service Windows Sockets, le service commence ses opérations pour la séquence d’authentification mutuelle, qui est illustrée dans les exemples de code suivants.
+title: comment un Service de sockets Windows authentifie un Client
+description: lorsqu’un client se connecte au service Windows sockets, le service commence ses opérations pour la séquence d’authentification mutuelle, qui est illustrée dans les exemples de code suivants.
 ms.assetid: 32f62fb9-41c6-4932-9b91-753174919707
 ms.tgt_platform: multiple
 keywords:
-- Comment un service Windows Sockets authentifie un client AD
+- comment un Service de sockets Windows authentifie un Client AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cad096ddfb9569d6289c1e775465232431c20ad6
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: c2975d356de011818514d6999f03d1998e066a4b8bdadd6eaba8835541e4b8e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103940816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188521"
 ---
-# <a name="how-a-windows-sockets-service-authenticates-a-client"></a>Comment un service Windows Sockets authentifie un client
+# <a name="how-a-windows-sockets-service-authenticates-a-client"></a>comment un Service de sockets Windows authentifie un Client
 
-Lorsqu’un client se connecte au service Windows Sockets, le service commence ses opérations pour la séquence d’authentification mutuelle, qui est illustrée dans les exemples de code suivants.
+lorsqu’un client se connecte au service Windows sockets, le service commence ses opérations pour la séquence d’authentification mutuelle, qui est illustrée dans les exemples de code suivants.
 
 La routine de sous- **authentification** utilise le handle de socket pour recevoir le premier paquet d’authentification du client. La mémoire tampon du client est transmise à la fonction **GenServerContext** , qui transmet ensuite la mémoire tampon au package de sécurité SSPI pour l’authentification. La sous- **authentification** renvoie ensuite la sortie du package de sécurité au client. Cette boucle est répétée jusqu’à ce que l’authentification échoue ou **GenServerContext** définit un indicateur indiquant que l’authentification a réussi.
 
@@ -206,6 +206,6 @@ return TRUE;
 
 
 
- 
+ 
 
- 
+ 

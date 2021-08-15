@@ -3,8 +3,8 @@ title: Structure MPSAMPLE_DATA (MpClient. h)
 description: Données de notification transmises à l’exemple de fonction de rappel de soumission.
 ms.assetid: 58F348C6-411D-4545-9D4D-A80095FD139B
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPSAMPLE_DATA
-- PMPSAMPLE_DATA des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPSAMPLE_DATA
+- PMPSAMPLE_DATA des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24a894638465c0362069b8fdcbacddf98bfdd2c1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aafafd2ff7162dcb50bd5e2ea92cd56ab9f073332238dc0742845f9c48c5a588
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747412"
 ---
 # <a name="mpsample_data-structure"></a>\_Structure de données MPSAMPLE
 
@@ -58,8 +58,8 @@ Index de l’exemple d’élément pour lequel l’état d’envoi est signalé.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

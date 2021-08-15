@@ -3,7 +3,7 @@ title: MpThreatOpen, fonction (MpClient. h)
 description: Retourne un handle d’énumération à des fins de récupération des menaces.
 ms.assetid: E1178F0C-E9C0-4532-AE9B-452770600DF2
 keywords:
-- Fonctionnalités d’environnement Windows hérités de la fonction MpThreatOpen
+- fonctionnalités d’environnement Windows hérités de la fonction MpThreatOpen
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca30435f9d7cba32771a2445d8a1156f0edaa9b1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 949fd1c8291ecb183cf51cf5385fe356a33cb1288978fda42f37d748f1a162a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118746888"
 ---
 # <a name="mpthreatopen-function"></a>MpThreatOpen fonction)
 
@@ -57,7 +57,7 @@ Peut être un handle vers une opération d’analyse terminée, retourné par la
 
 Type : **MPTHREAT \_ source**
 
-Utilisé pour contrôler la source de l’énumération des menaces. Les valeurs possibles pour ce paramètre sont les suivantes :
+Utilisé pour contrôler la source de l’énumération des menaces. Les valeurs valides pour ce paramètre sont :
 
 
 
@@ -81,7 +81,7 @@ Utilisé pour contrôler la source de l’énumération des menaces. Les valeurs
 
 Type : **MPTHREAT \_**
 
-Utilisé pour filtrer les menaces énumérées en fonction du type de détection. Les valeurs possibles pour ce paramètre sont les suivantes :
+Utilisé pour filtrer les menaces énumérées en fonction du type de détection. Les valeurs valides pour ce paramètre sont :
 
 
 
@@ -122,8 +122,8 @@ Si la fonction échoue, la valeur de retour est un code **HRESULT** en échec. L
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

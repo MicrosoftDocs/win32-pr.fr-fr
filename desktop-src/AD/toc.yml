@@ -429,7 +429,7 @@
                           href: detecting-the-schema-master.md
                         - name: Activation des modifications de schéma au niveau du contrôleur de schéma
                           href: enabling-schema-changes-at-the-schema-master.md
-                    - name: Recommandations pour les applications d’extension de schéma
+                    - name: Recommandations pour les Applications d’Extension de schéma
                       href: recommendations-for-schema-extension-applications.md
                       items:
                         - name: Exemple de code pour la vérification des droits de création d’objets de schéma
@@ -555,23 +555,23 @@
               items:
                 - name: Exemple de code pour l’utilisation du catalogue global pour rechercher des utilisateurs dans une forêt
                   href: example-code-for-using-the-global-catalog-to-find-users-in-a-forest.md
-            - name: Gestion des utilisateurs sur les serveurs membres et Windows 2000 professionnel
+            - name: gestion des utilisateurs sur les serveurs membres et les Windows 2000 Professional
               href: managing-users-on-member-servers-and-windows-2000-professional.md
               items:
-                - name: Énumération des utilisateurs sur les serveurs membres et Windows 2000 professionnel
+                - name: énumération des utilisateurs sur les serveurs membres et les Windows 2000 Professional
                   href: enumerating-users-on-member-servers-and-windows-2000-professional.md
                   items:
                     - name: Exemple de code pour l’énumération des utilisateurs sur un serveur membre
                       href: example-code-for-enumerating-users-on-a-member-server.md
-                - name: Création d’utilisateurs sur des serveurs membres et Windows 2000 professionnel
+                - name: création d’utilisateurs sur des serveurs membres et Windows 2000 Professional
                   href: creating-users-on-member-servers-and-windows-2000-professional.md
                   items:
-                    - name: Exemple de code pour la création d’utilisateurs sur un serveur membre ou Windows 2000 professionnel
+                    - name: exemple de Code pour la création d’utilisateurs sur un serveur membre ou Windows 2000 Professional
                       href: example-code-for-creating-users-on-a-member-server-or-windows-2000-professional.md
-                - name: Suppression d’utilisateurs sur les serveurs membres et Windows 2000 professionnel
+                - name: suppression des utilisateurs sur les serveurs membres et les Windows 2000 Professional
                   href: deleting-users-on-member-servers-and-windows-2000-professional.md
                   items:
-                    - name: Exemple de code pour la suppression d’utilisateurs sur un serveur membre ou Windows 2000 professionnel
+                    - name: exemple de Code pour la suppression d’utilisateurs sur un serveur membre ou Windows 2000 Professional
                       href: example-code-for-deleting-users-on-a-member-server-or-windows-2000-professional.md
             - name: Valeurs pour les propriétés countryCode et c
               href: values-for-the-countrycode-and-c-properties.md
@@ -639,7 +639,7 @@
                   href: example-code-for-changing-the-scope-of-a-group.md
             - name: Obtention du nom de domaine Account-Style d’un groupe
               href: getting-the-domain-account-style-name-of-a-group.md
-            - name: Groupes sur les serveurs membres et Windows 2000 professionnel
+            - name: groupes sur les serveurs membres et Windows 2000 Professional
               href: groups-on-member-servers-and-windows-2000-professional.md
               items:
                 - name: Énumération des groupes locaux
@@ -714,9 +714,9 @@
                     - name: Exemples de scripts pour la gestion des points de connexion de service
                       href: script-samples-for-managing-service-connection-points.md
                       items:
-                        - name: Macros Excel pour la gestion des points de connexion de service
+                        - name: Excel Macros pour la gestion des points de connexion de service
                           href: excel-macros-for-managing-service-connection-points.md
-                        - name: Script VB répertoriant tous les points de connexion de service
+                        - name: VB Script répertoriant tous les points de connexion de service
                           href: vb-script-listing-all-service-connection-points.md
                     - name: Exemples de code pour la gestion des points de connexion de service
                       href: code-samples-for-managing-service-connection-points.md
@@ -729,7 +729,7 @@
                           href: how-clients-find-and-use-a-service-connection-point.md
             - name: Publication avec le service de noms RPC (RpcNs)
               href: publishing-with-the-rpc-name-service-rpcns.md
-            - name: Publication avec l’inscription et la résolution de Windows Sockets
+            - name: publication avec l’inscription et la résolution d’Windows sockets
               href: publishing-with-windows-sockets-registration-and-resolution.md
               items:
                 - name: Exemple de code pour l’installation d’une classe de service RnR
@@ -804,26 +804,26 @@
                   href: how-a-service-registers-its-spns.md
                 - name: Comment les clients composent le SPN d’un service
                   href: how-clients-compose-a-serviceampaposs-spn.md
-            - name: Authentification mutuelle dans un service Windows Sockets avec SCP
+            - name: authentification mutuelle dans un Service de sockets Windows avec SCP
               href: mutual-authentication-in-a-windows-sockets-service-with-an-scp.md
               items:
-                - name: Comment un client authentifie un service Windows Sockets SCP
+                - name: comment un Client authentifie un Service de sockets Windows basé sur SCP
                   href: how-a-client-authenticates-an-scp-based-windows-sockets-service.md
-                - name: Composition et inscription de SPN pour un service Windows Sockets SCP
+                - name: composition et inscription de spn pour un Service de sockets Windows basé sur SCP
                   href: composing-and-registering-spns-for-an-scp-based-windows-sockets-service.md
                   items:
                     - name: Composition des noms de principal du service pour un service avec SCP
                       href: composing-the-spns-for-a-service-with-an-scp.md
                     - name: Inscription des noms de principal du service pour un service
                       href: registering-the-spns-for-a-service.md
-                - name: Comment un service Windows Sockets authentifie un client
+                - name: comment un Service de sockets Windows authentifie un Client
                   href: how-a-windows-sockets-service-authenticates-a-client.md
             - name: Authentification mutuelle dans les applications RPC
               href: mutual-authentication-in-rpc-applications.md
               items:
                 - name: Composition de SPN pour un service de RpcNs
                   href: composing-spns-for-an-rpcns-service.md
-            - name: Authentification mutuelle dans les applications Windows Sockets
+            - name: authentification mutuelle dans des Applications Windows sockets
               href: mutual-authentication-in-windows-sockets-applications.md
         - name: Sauvegarde et restauration d’un serveur Active Directory
           href: backing-up-and-restoring-an-active-directory-server.md

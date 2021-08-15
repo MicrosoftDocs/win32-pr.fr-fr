@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 3d96000de50934ebdc893ffc3866dd3252703bdc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 40162e4350e5a68670023701f1cdae973fb8a7bac3a6d4f5c301136c4e8c2702
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527265"
 ---
 # <a name="d3dviewport9-structure"></a>D3DVIEWPORT9, structure
 
@@ -110,7 +110,7 @@ Avec MinZ, valeur décrivant la plage de valeurs de profondeur dans laquelle une
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les membres X, Y, Width et Height décrivent la position et les dimensions de la fenêtre d’affichage sur la surface de rendu-cible. En règle générale, les applications sont rendues sur l’ensemble de la surface cible. lors du rendu sur une surface 640 x 480, ces membres doivent être respectivement 0, 0, 640 et 480. MinZ et MaxZ sont généralement définis sur 0,0 et 1,0, mais peuvent être définis sur d’autres valeurs pour obtenir des effets spécifiques. Par exemple, vous pouvez les définir à la fois sur 0,0 pour forcer le système à restituer les objets au premier plan d’une scène, ou les deux à 1,0 pour forcer les objets en arrière-plan.
 

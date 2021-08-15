@@ -4,12 +4,12 @@ ms.assetid: abbb2441-25ca-484b-a744-620ff2794221
 title: Stratégie de métadonnées de photo System. GPS. AltitudeRef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db600d218d72014c49fd3f0a8b5eb11dd4c467d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca49213754f605dcf6df40dfa3ff00e2b7aeaf765008037c23da21e35ab9ddee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710696"
 ---
 # <a name="systemgpsaltituderef-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. AltitudeRef
 
@@ -23,7 +23,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. GPS. Altitu
 
 Indique l’altitude utilisée comme altitude de référence. La valeur 0 indique que l’altitude est au-dessus de la mer. La valeur 1 indique une altitude inférieure au niveau de la mer.
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -49,7 +49,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                     | Format de disque |
+| Commande | Chemin                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 5} | byte        |
 | 2     | /xmp/exif:GPSAltitudeRef | unicode     |
@@ -62,7 +62,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                     | Format de disque |
+| Commande | Chemin                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 5} | byte        |
 | 2     | /xmp/exif:GPSAltitudeRef | unicode     |
@@ -75,7 +75,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                     |
+| Commande | Chemin                     |
 |-------|--------------------------|
 | 1     | /App1/IFD/GPS/{UShort = 5} |
 | 2     | /xmp/exif:gpsaltituderef |
@@ -90,7 +90,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                         | Format de disque |
+| Commande | Chemin                         | Format de disque |
 |-------|------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 5}          | byte        |
 | 2     | /ifd/xmp/exif:GPSAltitudeRef | unicode     |
@@ -103,7 +103,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                         | Format de disque |
+| Commande | Chemin                         | Format de disque |
 |-------|------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 5}          | byte        |
 | 2     | /ifd/xmp/exif:GPSAltitudeRef | unicode     |
@@ -116,7 +116,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                         |
+| Commande | Chemin                         |
 |-------|------------------------------|
 | 1     | /IFD/GPS/{UShort = 5}          |
 | 2     | /ifd/xmp/exif:gpsaltituderef |
@@ -125,7 +125,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

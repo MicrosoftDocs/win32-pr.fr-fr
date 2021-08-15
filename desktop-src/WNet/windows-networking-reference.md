@@ -1,30 +1,30 @@
 ---
-title: Informations de référence sur la mise en réseau Windows
-description: Les éléments d’API suivants sont utilisés dans la mise en réseau Windows
+title: Windows Référence de mise en réseau
+description: les éléments d’API suivants sont utilisés dans la mise en réseau Windows
 ms.assetid: 2f930380-fc6e-4a39-98c6-a03b64f1bba5
 keywords:
-- WNet de mise en réseau Windows, référence
+- WNet réseau Windows, référence
 - WNet WNet, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20f1d0c8dfaa492bf787a8d0c6b2c5a55940eacc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 044300b7f4dfb50e7ec94fcabfe607ea7f5ab4a81d69b189d3363482547df389
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330804"
 ---
-# <a name="windows-networking-reference"></a>Informations de référence sur la mise en réseau Windows
+# <a name="windows-networking-reference"></a>Windows Référence de mise en réseau
 
-Les éléments d’API suivants sont utilisés dans la mise en réseau Windows :
+les éléments d’API suivants sont utilisés dans Windows mise en réseau :
 
--   [Rappels de réseau Windows](windows-networking-callbacks.md)
--   [Fonctions de réseau Windows](windows-networking-functions.md)
--   [Structures réseau Windows](windows-networking-structures.md)
+-   [Windows Rappels de mise en réseau](windows-networking-callbacks.md)
+-   [Windows Fonctions de mise en réseau](windows-networking-functions.md)
+-   [Windows Structures réseau](windows-networking-structures.md)
 
- 
+ 
 
- 
+ 
 
 
 

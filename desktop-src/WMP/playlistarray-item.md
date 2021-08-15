@@ -3,9 +3,9 @@ title: PlaylistArray. Item, méthode
 description: La méthode Item récupère la sélection à l’index donné.
 ms.assetid: cc851695-f9a2-4594-8bd3-3555c18bfa10
 keywords:
-- méthode Item lecteur Windows Media
-- méthode Item lecteur Windows Media, classe PlaylistArray
-- Classe PlaylistArray lecteur Windows Media, méthode Item
+- méthode item Lecteur Windows Media
+- méthode item Lecteur Windows Media, classe PlaylistArray
+- Lecteur Windows Media de la classe PlaylistArray, méthode item
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6144f6e1cfda93be32060e8206a96b0da7568d6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a45bb38250285563d9e4b7abcc1a4bfd1f7a0bea35b41b7e4cd801f8eff1d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118335426"
 ---
 # <a name="playlistarrayitem-method"></a>PlaylistArray. Item, méthode
 
@@ -53,7 +53,7 @@ retVal = PlaylistArray.item(
 
 Cette méthode retourne un objet **playlist** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

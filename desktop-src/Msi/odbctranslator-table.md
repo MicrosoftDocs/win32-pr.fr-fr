@@ -4,12 +4,12 @@ ms.assetid: fecb7454-29bb-4ddf-b4d5-2e56c20ff2dc
 title: Table ODBCTranslator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9fdf85f73b649e18c0980508e234bf7599e69c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd59c535963b3c42e94c8c904d448540072913b56bedb58c3e0bddc72dd6c6c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942890"
 ---
 # <a name="odbctranslator-table"></a>Table ODBCTranslator
 
@@ -21,8 +21,8 @@ La table ODBCTranslator contient les colonnes suivantes.
 
 | Colonne      | Type                         | Clé | Nullable |
 |-------------|------------------------------|-----|----------|
-| Convertisseur  | [Identificateur](identifier.md) | O   | N        |
-| -\_ | [Identificateur](identifier.md) | N   | N        |
+| Traducteur  | [Identificateur](identifier.md) | O   | N        |
+| Composant\_ | [Identificateur](identifier.md) | N   | N        |
 | Description | [Text](text.md)             | N   | N        |
 | fichier\_      | [Identificateur](identifier.md) | N   | N        |
 | Configuration des fichiers \_ | [Identificateur](identifier.md) | N   | O        |
@@ -35,7 +35,7 @@ La table ODBCTranslator contient les colonnes suivantes.
 
 <dl> <dt>
 
-<span id="Translator"></span><span id="translator"></span><span id="TRANSLATOR"></span>Translator
+<span id="Translator"></span><span id="translator"></span><span id="TRANSLATOR"></span>Traducteur
 </dt> <dd>
 
 Nom de jeton interne pour le traducteur. Clé primaire pour la table.
@@ -59,18 +59,18 @@ Description enregistrée pour ce convertisseur de pilote ODBC. Cette valeur ne p
 <span id="File_"></span><span id="file_"></span><span id="FILE_"></span>Txt\_
 </dt> <dd>
 
-Fichier DLL pour le transfert listé dans la colonne traducteur. La colonne de fichier \_ est une clé externe dans la [table de fichiers](file-table.md). Le nom de fichier entré dans la colonne de nom de fichier de cet enregistrement de table de fichiers doit être au format de nom de fichier Short. La \| syntaxe SFN LFN ne peut pas être utilisée.
+fichier DLL du transfert figurant dans la colonne Traducteur. La colonne de fichier \_ est une clé externe dans la [table de fichiers](file-table.md). Le nom de fichier entré dans la colonne de nom de fichier de cet enregistrement de table de fichiers doit être au format de nom de fichier Short. La \| syntaxe SFN LFN ne peut pas être utilisée.
 
 </dd> <dt>
 
 <span id="File_Setup"></span><span id="file_setup"></span><span id="FILE_SETUP"></span>Configuration des fichiers \_
 </dt> <dd>
 
-Fichier DLL d’installation pour le convertisseur, s’il est différent de la colonne translator. La colonne de fichier \_ est une clé externe dans la [table de fichiers](file-table.md). Le nom de fichier entré dans la colonne de nom de fichier de cet enregistrement de table de fichiers doit être au format de nom de fichier Short. La \| syntaxe SFN LFN ne peut pas être utilisée.
+fichier DLL d’installation pour le convertisseur, s’il est différent de la colonne Traducteur. La colonne de fichier \_ est une clé externe dans la [table de fichiers](file-table.md). Le nom de fichier entré dans la colonne de nom de fichier de cet enregistrement de table de fichiers doit être au format de nom de fichier Short. La \| syntaxe SFN LFN ne peut pas être utilisée.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les actions [InstallODBC](installodbc-action.md) et [RemoveODBC](removeodbc-action.md) dans les [*tables de séquence*](s-gly.md) traitent les informations contenues dans ce tableau. Pour plus d’informations sur l’utilisation des *tables de séquences*, consultez [utilisation d’une table de séquences](using-a-sequence-table.md).
 

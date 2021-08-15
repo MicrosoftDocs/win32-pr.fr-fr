@@ -3,9 +3,9 @@ title: Méthode IWMPStringCollection2 isIdentical
 description: La méthode isIdentical retourne une valeur indiquant si l’objet représenté par l’interface fournie est le même que celui en cours.
 ms.assetid: 826e7fd8-88f8-4a2a-9ca0-82a500099272
 keywords:
-- méthode isIdentical lecteur Windows Media
-- méthode isIdentical lecteur Windows Media, interface IWMPStringCollection2
-- Interface IWMPStringCollection2 lecteur Windows Media, méthode isIdentical
+- Lecteur Windows Media de la méthode isIdentical
+- méthode isIdentical Lecteur Windows Media, interface IWMPStringCollection2
+- Lecteur Windows Media de l’interface IWMPStringCollection2, méthode isIdentical
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bb760dae213f28d44fbc707b4430cb151cfe578
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4576522c1b6d6834ded5e100a2618dcb45204f887420968a5828fdc5c9bd0fef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330903"
 ---
 # <a name="iwmpstringcollection2isidentical-method"></a>IWMPStringCollection2 :: isIdentical, méthode
 
@@ -64,7 +64,7 @@ Interface **wmplib. IWMPStringCollection2** qui représente l’objet à compare
 
 **System. Boolean** qui est le résultat de la comparaison. La valeur **true** indique que les objets de collection de chaînes sont identiques.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

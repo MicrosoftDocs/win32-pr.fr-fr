@@ -4,12 +4,12 @@ description: Utilisation de l’annotation directe
 ms.assetid: d9d78e74-dcab-4974-945f-e8c5d42c04b7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78f0bdea5af896329b6836d21ca1dcee25bc2739
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3e8543b5aa4e6beb86b6119d13fe71ad45c1a34776e19095170cb48d8d9f48e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744884"
 ---
 # <a name="using-direct-annotation"></a>Utilisation de l’annotation directe
 
@@ -74,8 +74,8 @@ Les propriétés de Active Accessibility Microsoft suivantes peuvent être annot
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

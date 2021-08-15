@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 9bceede3cd6ab009aace4679dfb3d4d85bd37276
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: bee538bf2c20cc3cadb6f0bdf6f5dd6a2ae12dfe8a21baeb56b8ad62cb23ff3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "104381746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118437126"
 ---
 # <a name="journalplaybackproc-function"></a>JournalPlaybackProc fonction)
 
@@ -99,7 +99,7 @@ Pour que le système attende avant de traiter le message, la valeur de retour do
 
 Pour traiter le message immédiatement, la valeur de retour doit être égale à zéro. La valeur de retour est utilisée uniquement si le code de raccordement est **HC_GETNEXT**; Sinon, il est ignoré.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une procédure de hook **JournalPlaybackProc** doit copier un message d’entrée vers le paramètre *lParam* .
 Le message doit avoir été enregistré précédemment à l’aide d’une procédure de hook **JournalRecordProc** , qui ne doit pas modifier le message.

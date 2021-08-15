@@ -3,7 +3,7 @@ title: Slider. thumbDownImage
 description: L’attribut thumbDownImage spécifie ou récupère l’image représentant l’état inactif du curseur de défilement.
 ms.assetid: 6e7c694a-b651-4327-9550-8e05d0c42f02
 keywords:
-- Slider. thumbDownImage lecteur Windows Media
+- slider. thumbDownImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8f35638edee2b84231d76917a0710ae6d691a45
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2d1e4c9944d8d352f8ffb1bf2f54fe8d6edfc401421891d079f2ce7696e1bd19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118832545"
 ---
 # <a name="sliderthumbdownimage"></a>Slider. thumbDownImage
 
@@ -31,7 +31,7 @@ L’attribut **thumbDownImage** spécifie ou récupère l’image représentant 
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **ThumbDownImage** est facultatif et est l’image utilisée pour représenter l’état inactif du **thumbImage**. Si aucun **thumbDownImage** n’est fourni, le curseur utilise **thumbImage**.
 

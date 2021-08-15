@@ -3,9 +3,9 @@ title: Méthode PlaylistCollection. importPlaylist
 description: La méthode importPlaylist ajoute une sélection statique à la bibliothèque. | Méthode PlaylistCollection. importPlaylist
 ms.assetid: 0611ba42-fd8f-4fb9-9fbb-809a82775c2a
 keywords:
-- méthode importPlaylist lecteur Windows Media
-- méthode importPlaylist lecteur Windows Media, classe PlaylistCollection
-- Classe PlaylistCollection lecteur Windows Media, méthode importPlaylist
+- Lecteur Windows Media de la méthode importPlaylist
+- méthode importPlaylist Lecteur Windows Media, classe PlaylistCollection
+- Lecteur Windows Media de la classe PlaylistCollection, méthode importPlaylist
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 736e9afa17f571428fada48660726b606268796a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7f6c2a61b6603c0bfb38025548eaa4b0943bcdd1a5e81cb1ac27c17969fe87ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334841"
 ---
 # <a name="playlistcollectionimportplaylist-method"></a>Méthode PlaylistCollection. importPlaylist
 
@@ -53,7 +53,7 @@ Objet **playlist** à ajouter.
 
 Cette méthode retourne l’objet **playlist** qui a été ajouté.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les sélections qui ne contiennent pas d’éléments multimédias ne peuvent pas être ajoutées à la bibliothèque à l’aide de cette méthode. Pour créer une playlist vide dans la bibliothèque, utilisez la méthode **newPlaylist** . Vous pouvez ensuite remplir la playlist obtenue avec des éléments multimédias à l’aide d’une *sélection*. **appendItem** ou *playlist*. **InsertItem**.
 

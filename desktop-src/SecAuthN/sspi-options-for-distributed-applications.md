@@ -4,12 +4,12 @@ ms.assetid: e67cc054-7e48-43e7-a4b0-d1d90e9511f2
 title: Options SSPI pour les applications distribuées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed7729b3c479c69b674120fe1fc9827f5edfd878
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdfeef5cb52494c50b8b16911f70de238a7a86493297ec59bf6d46637810bf26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916789"
 ---
 # <a name="sspi-options-for-distributed-applications"></a>Options SSPI pour les applications distribuées
 
@@ -23,11 +23,11 @@ Les développeurs disposent de nombreuses options pour créer des applications d
 
     Ces applications n’appellent pas directement les fonctions SSPI.
 
--   Utilisez [Windows Sockets 2](../winsock/windows-sockets-start-page-2.md) (Winsock) avec l’interface Winsock étendue pour permettre aux fournisseurs de transport d’utiliser les fonctionnalités de sécurité.
+-   utilisez [Windows sockets 2](../winsock/windows-sockets-start-page-2.md) (winsock) avec l’interface winsock étendue pour permettre aux fournisseurs de transport d’utiliser les fonctionnalités de sécurité.
 
     Cette approche intègre le fournisseur SSP ( [*Security Support Provider*](../secgloss/s-gly.md) ) dans la pile réseau et fournit des services de sécurité et de transport par le biais d’une interface commune.
 
--   Utilisez l' [API Windows Internet extensions](../wininet/portal.md) (WinInet) et une interface conçue pour prendre en charge les protocoles de sécurité Internet, tels que le protocole [*SSL (Secure Sockets Layer)*](../secgloss/s-gly.md) (SSL).
+-   utilisez l' [API Windows internet Extensions](../wininet/portal.md) (WinInet) et une interface conçue pour prendre en charge les protocoles de sécurité internet, tels que le protocole SSL ( [*SSL (Secure Sockets Layer)*](../secgloss/s-gly.md) ).
 
     Les applications utilisent l’interface SSPI sur le fournisseur de sécurité de [canal sécurisé](secure-channel.md) (SChannel) pour implémenter la sécurité wininet. Schannel est l’implémentation Microsoft de SSL.
 

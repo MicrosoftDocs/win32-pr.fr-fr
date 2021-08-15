@@ -1,10 +1,10 @@
-- name: Informations de référence sur Windows Runtime C++
+- name: Windows Référence Runtime C++
   href: reference.md
   items:
     - name: Types de données
       href: data-types.md
       items:
-        - name: Windows Runtime les types de données de base
+        - name: Windows Types de données de base du Runtime
           href: base-data-types.md
         - name: HSTRING
           href: hstring.md

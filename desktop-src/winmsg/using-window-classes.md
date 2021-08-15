@@ -4,12 +4,12 @@ ms.assetid: ea9e36c9-b10d-441e-b1b5-1ab93e009e1d
 title: Utilisation des classes de fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d23f49e431aa6f980d16fc7a9df5c4f98951498
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ac7edfaf89ee336534e2cca8e25a3222b3fddd159fa6c52d34a3832a44f03a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849575"
 ---
 # <a name="using-window-classes"></a>Utilisation des classes de fenêtre
 

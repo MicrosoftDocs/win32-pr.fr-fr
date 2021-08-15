@@ -37,7 +37,7 @@
             - name: Primitives
               href: primitives.md
               items:
-                - name: Portion
+                - name: Découpage
                   href: clipping.md
                 - name: Transformer en coordonnées de fenêtre
                   href: transforming-to-window-coordinates.md
@@ -139,7 +139,7 @@
               href: using-nurbs-curves-and-surfaces.md
             - name: Gestion des erreurs
               href: handling-errors.md
-    - name: Extensions Windows à OpenGL
+    - name: Windows Extensions à OpenGL
       href: windows-extensions-to-opengl.md
       items:
         - name: OpenGL sur Windows
@@ -147,7 +147,7 @@
           items:
             - name: Guide de la documentation
               href: guide-to-documentation.md
-            - name: Components
+            - name: Composants
               href: components.md
             - name: Implémentations génériques et implémentations matérielles
               href: generic-implementation-and-hardware-implementations.md
@@ -174,7 +174,7 @@
               items:
                 - name: Fonctions de police et de texte
                   href: font-and-text-functions.md
-            - name: Modes de couleurs OpenGL et gestion de la palette Windows
+            - name: Modes de couleurs OpenGL et gestion de la Palette de Windows
               href: opengl-color-modes-and-windows-palette-management.md
               items:
                 - name: Palettes et gestionnaire de palette
@@ -185,9 +185,9 @@
                   href: reading-color-values-from-the-framebuffer.md
                 - name: Choix entre le mode RVBA et le mode de Color-Index
                   href: choosing-between-rgba-and-color-index-mode.md
-                - name: Mode RVBA et gestion de la palette Windows
+                - name: Mode rvba et gestion des palettes de Windows
                   href: rgba-mode-and-windows-palette-management.md
-                - name: Mode Color-Index et gestion des palettes Windows
+                - name: gestion du Mode de Color-Index et de la Palette de Windows
                   href: color-index-mode-and-windows-palette-management.md
             - name: 'Superposition, Underlay et plans principaux'
               href: overlay--underlay--and-main-planes.md
@@ -232,16 +232,16 @@
                   href: multithread-opengl-drawing-strategies.md
                 - name: Utilisation de la bibliothèque auxiliaire
                   href: using-the-auxiliary-library.md
-            - name: Référence pour les extensions Windows à OpenGL
+            - name: référence pour les Extensions de Windows à OpenGL
               href: reference-for-win-32-extensions-to-opengl.md
               items:
                 - name: 'WGL, fonctions'
                   href: wgl-functions.md
-                - name: Fonctions Windows
+                - name: Windows Mission
                   href: win32-functions.md
                 - name: Structures
                   href: structures.md
-        - name: WGL et référence Windows
+        - name: référence WGL et Windows
           href: wgl-and-windows-reference.md
           items:
             - name: ChoosePixelFormat
@@ -299,9 +299,9 @@
     - name: Conseils de programmation
       href: programming-tips.md
       items:
-        - name: Conseils d’exactitude OpenGL
+        - name: exactitude de l’Astuces OpenGL
           href: opengl-correctness-tips.md
-        - name: Conseils sur les performances OpenGL
+        - name: Astuces de performances OpenGL
           href: opengl-performance-tips.md
         - name: "Considérations relatives à la sécurité\_: OpenGL"
           href: security-considerations--opengl.md
@@ -313,33 +313,33 @@
           items:
             - name: Groupes d'attributs
               href: attribute-groups.md
-            - name: Variables d’État pour les valeurs actuelles et les données associées
+            - name: Variables d’état pour les valeurs actuelles et les données associées
               href: state-variables-for-current-values-and-associated-data.md
-            - name: Variables d’état de transformation
+            - name: 'Transformation, variables d’état'
               href: transformation-state-variables.md
-            - name: Variables d’état de coloration
+            - name: 'Coloration, variables d’état'
               href: coloring-state-variables.md
-            - name: Variables d’état d’éclairage
+            - name: 'Éclairage, variables d’état'
               href: lighting-state-variables.md
-            - name: Variables d’état de pixellisation
+            - name: 'Rastérisation, variables d’état'
               href: rasterization-state-variables.md
-            - name: Variables d’état de texturation
+            - name: 'Texture, variables d’état'
               href: texturing-state-variables.md
-            - name: Opérations de pixel
+            - name: 'Pixel, opérations'
               href: pixel-operations.md
-            - name: Variables d’état de contrôle trame
+            - name: 'Contrôle Framebuffer, variables d’état'
               href: framebuffer-control-state-variables.md
-            - name: Variables d’état de pixel
+            - name: 'Pixel, variables d’état'
               href: pixel-state-variables.md
-            - name: Variables d’état de l’évaluateur
+            - name: 'Évaluateur, variables d’état'
               href: evaluator-state-variables.md
-            - name: Variables d’état d’indicateur
+            - name: 'Hint, variables d’état'
               href: hint-state-variables.md
-            - name: Variables d’État Implementation-Dependent
+            - name: Variables d’état dépendantes de l’implémentation
               href: implementation-dependent-state-variables.md
-            - name: Implementation-Dependent les variables d’État Pixel-Depth
+            - name: 'Densité de pixels, variables d’état dépendantes de l’implémentation'
               href: implementation-dependent-pixel-depth-state-variables.md
-            - name: Variables d’État diverses
+            - name: Variables d’état diverses
               href: miscellaneous-state-variables.md
         - name: Fonctions GL
           href: gl-functions.md
@@ -1256,14 +1256,14 @@
               items:
                 - name: Exemple de code de format de pixel GLX
                   href: glx-pixel-format-code-sample.md
-                - name: Exemple de code de format de pixel Windows
+                - name: Windows Exemple de code de format de pixel
                   href: win32-pixel-format-code-sample.md
             - name: Portage de contextes de rendu
               href: porting-rendering-contexts.md
               items:
                 - name: Exemple de code de contexte de rendu GLX
                   href: glx-rendering-context-code-sample.md
-                - name: Exemple de code de contexte de rendu Windows
+                - name: Windows Exemple de code de contexte de rendu
                   href: win32-rendering-context-code-sample.md
             - name: Portage du code GLX pixmap
               href: porting-glx-pixmap-code.md
@@ -1274,7 +1274,7 @@
               items:
                 - name: Un programme X Windows système OpenGL
                   href: an-x-window-system-opengl-program.md
-                - name: Le programme est porté sur Windows
+                - name: Le programme est porté à Windows
                   href: the-program-ported-to-win32.md
             - name: Portage d’applications à partir de IRIS GL
               href: porting-applications-from-iris-gl.md
@@ -1389,7 +1389,7 @@
     - name: Glossaire OpenGL
       href: opengl-glossary.md
       items:
-        - name: Un
+        - name: A
           href: a.md
         - name: B
           href: b.md
