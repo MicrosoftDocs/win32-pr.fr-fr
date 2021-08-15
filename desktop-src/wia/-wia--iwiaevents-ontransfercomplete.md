@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: d33685e0e8fe233f96e9841359e56f759032d17c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9095302a2f3fe75e1939ebb979ec4aad4d87b0462a5b40997e5523e7313d98e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118209273"
 ---
 # <a name="wiaontransfercomplete-event"></a>Événement WIA. OnTransferComplete
 
@@ -58,7 +58,7 @@ Chemin d’accès et nom de fichier de l’image transférée.
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WIA notifie le script ou l’application lorsqu’un transfert de données, une image ou un son se termine correctement. Implémentez la sous-routine **objWia** \_ **OnTransferComplete ()** pour autoriser votre script ou votre application à répondre à l’achèvement du transfert de données.
 
@@ -70,8 +70,8 @@ Par exemple, vous souhaiterez peut-être qu’un script affiche une image après
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (version 4,90 ou ultérieure)</dt> </dl> |
 
 

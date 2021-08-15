@@ -1,21 +1,21 @@
 ---
-description: Cette rubrique décrit comment prendre en charge DirectX Video Acceleration (DXVA) 2,0 dans un filtre de décodeur DirectShow.
+description: cette rubrique décrit comment prendre en charge DirectX Video Acceleration (DXVA) 2,0 dans un filtre de décodeur DirectShow.
 ms.assetid: 40deaddb-bb17-4a34-8294-5c7dc8a8a457
 title: Prise en charge de DXVA 2,0 dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dda956b60d4905c2392e1a50bd62ee8421b944b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58631a407e42c0561ebee0ad2b3187e248fc2d25dc0bdf4e98ed0219d8dae916
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118238082"
 ---
 # <a name="supporting-dxva-20-in-directshow"></a>Prise en charge de DXVA 2,0 dans DirectShow
 
-Cette rubrique décrit comment prendre en charge DirectX Video Acceleration (DXVA) 2,0 dans un filtre de décodeur DirectShow. Plus précisément, il décrit la communication entre le décodeur et le convertisseur vidéo. Cette rubrique ne décrit pas comment implémenter le décodage DXVA.
+cette rubrique décrit comment prendre en charge DirectX Video Acceleration (DXVA) 2,0 dans un filtre de décodeur DirectShow. Plus précisément, il décrit la communication entre le décodeur et le convertisseur vidéo. Cette rubrique ne décrit pas comment implémenter le décodage DXVA.
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Remarques sur la migration](#migration-notes)
 -   [Recherche d’une configuration de décodeur](#finding-a-decoder-configuration)
 -   [Notification du convertisseur vidéo](#notifying-the-video-renderer)
@@ -25,7 +25,7 @@ Cette rubrique décrit comment prendre en charge DirectX Video Acceleration (DXV
 
 ## <a name="prerequisites"></a>Prérequis
 
-Cette rubrique suppose que vous êtes familiarisé avec l’écriture de filtres DirectShow. Pour plus d’informations, consultez la rubrique [écriture de filtres DirectShow](../directshow/writing-directshow-filters.md) dans la documentation du kit de développement logiciel (SDK) DirectShow. Les exemples de code de cette rubrique supposent que le filtre de décodeur est dérivé de la classe [**CTransformFilter**](../directshow/ctransformfilter.md) , avec la définition de classe suivante :
+cette rubrique suppose que vous êtes familiarisé avec l’écriture de filtres de DirectShow. pour plus d’informations, consultez la rubrique [écriture de filtres DirectShow](../directshow/writing-directshow-filters.md) dans la documentation du kit de développement logiciel (SDK) DirectShow. Les exemples de code de cette rubrique supposent que le filtre de décodeur est dérivé de la classe [**CTransformFilter**](../directshow/ctransformfilter.md) , avec la définition de classe suivante :
 
 
 ```C++
@@ -623,7 +623,7 @@ void CDecoderAllocator::Free()
 
 
 
-Pour plus d’informations sur l’implémentation d’allocators personnalisés, consultez la rubrique [fournissant un allocateur personnalisé](../directshow/providing-a-custom-allocator.md) dans la documentation du kit de développement logiciel (SDK) DirectShow.
+pour plus d’informations sur l’implémentation d’allocators personnalisés, consultez la rubrique [fournissant un allocateur personnalisé](../directshow/providing-a-custom-allocator.md) dans la documentation du kit de développement logiciel (SDK) DirectShow.
 
 ## <a name="decoding"></a>Décodage
 
@@ -650,7 +650,7 @@ DXVA 2,0 utilise les mêmes structures de données que DXVA 1,0 pour les opérat
 
 Au sein de chaque paire d’appels [**BeginFrame**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-beginframe) / [**Execute**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute) , vous pouvez appeler [**GetBuffer**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getbuffer) plusieurs fois, mais une seule fois pour chaque type de mémoire tampon DXVA. Si vous l’appelez deux fois avec le même type de mémoire tampon, vous allez remplacer les données.
 
-Après l’appel de l' [**instruction EXECUTE**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute), appelez [**IMemInputPin :: Receive**](/windows/win32/api/strmif/nf-strmif-imeminputpin-receive) pour remettre le frame au convertisseur vidéo, comme avec le décodage logiciel. La méthode **Receive** est asynchrone ; une fois retourné, le décodeur peut continuer à décoder le frame suivant. Le pilote d’affichage empêche les commandes de décodage de remplacer la mémoire tampon pendant que la mémoire tampon est en cours d’utilisation. Le décodeur ne doit pas réutiliser une surface pour décoder une autre image tant que le convertisseur n’a pas libéré l’exemple. Quand le convertisseur libère l’exemple, l’allocateur remet l’échantillon dans son pool d’exemples disponibles. Pour accéder à l’exemple disponible suivant, appelez [**CBaseOutputPin :: GetDeliveryBuffer**](../directshow/cbaseoutputpin-getdeliverybuffer.md), qui à son tour appelle [**IMemAllocator :: GetBuffer**](/windows/win32/api/strmif/nf-strmif-imemallocator-getbuffer). Pour plus d’informations, consultez la rubrique [vue d’ensemble du Data Flow dans DirectShow](../directshow/overview-of-data-flow-in-directshow.md) dans la documentation DirectShow.
+Après l’appel de l' [**instruction EXECUTE**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute), appelez [**IMemInputPin :: Receive**](/windows/win32/api/strmif/nf-strmif-imeminputpin-receive) pour remettre le frame au convertisseur vidéo, comme avec le décodage logiciel. La méthode **Receive** est asynchrone ; une fois retourné, le décodeur peut continuer à décoder le frame suivant. Le pilote d’affichage empêche les commandes de décodage de remplacer la mémoire tampon pendant que la mémoire tampon est en cours d’utilisation. Le décodeur ne doit pas réutiliser une surface pour décoder une autre image tant que le convertisseur n’a pas libéré l’exemple. Quand le convertisseur libère l’exemple, l’allocateur remet l’échantillon dans son pool d’exemples disponibles. Pour accéder à l’exemple disponible suivant, appelez [**CBaseOutputPin :: GetDeliveryBuffer**](../directshow/cbaseoutputpin-getdeliverybuffer.md), qui à son tour appelle [**IMemAllocator :: GetBuffer**](/windows/win32/api/strmif/nf-strmif-imemallocator-getbuffer). pour plus d’informations, consultez la rubrique [vue d’ensemble des Flow de données dans DirectShow](../directshow/overview-of-data-flow-in-directshow.md) dans la documentation de DirectShow.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

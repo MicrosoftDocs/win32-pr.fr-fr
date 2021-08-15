@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31c7474c82cc39e5f43076e6bafb348bcd78aa68
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dd54a79013b747ca923af9f2806ea997afca065f845fc9c9573bf2a8f2d06e1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837552"
 ---
 # <a name="ms-wmi-intmax-attribute"></a>attribut ms-WMI-intMax
 
@@ -36,7 +36,7 @@ Valeur maximale d’un objet de paramètre entier WMI 32 bits.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1629              |
 | System-ID-GUID    | fb920c2c-f294-4426-8ac1-d24b42aa2bce |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -44,7 +44,7 @@ Valeur maximale d’un objet de paramètre entier WMI 32 bits.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

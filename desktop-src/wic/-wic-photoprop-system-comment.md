@@ -4,12 +4,12 @@ ms.assetid: 02a6ac18-ad69-4880-a267-8330d648c0d9
 title: Stratégie de métadonnées de la photo System. Comment
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db9d7526e05a72b073ac32bd8286a621b33ee62a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45b3511e0a459a2b652b29828060be6f0a92a36639aef63d4fa087e54ec9d80b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118205628"
 ---
 # <a name="systemcomment-photo-metadata-policy"></a>Stratégie de métadonnées de la photo System. Comment
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. Comment](..
 
 Commentaire de la barre d’ajout \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                | Format de disque    |
+| Commande | Chemin                                | Format de disque    |
 |-------|-------------------------------------|----------------|
 | 1     | /App1/IFD/{UShort = 40092}            | \_octets Unicode |
 | 2     | /App1/IFD/{UShort = 37510}            | unicode        |
@@ -59,7 +59,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                     | Format de disque    |
+| Commande | Chemin                     | Format de disque    |
 |-------|--------------------------|----------------|
 | 1     | /App1/IFD/{UShort = 40092} | \_octets Unicode |
 
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/{UShort = 40092}      |
 | 2     | /App1/IFD/EXIF/{UShort = 37510} |
@@ -87,7 +87,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                    | Format de disque    |
+| Commande | Chemin                                    | Format de disque    |
 |-------|-----------------------------------------|----------------|
 | 1     | /IFD/{UShort = 40092}                     | \_octets Unicode |
 | 2     | /IFD/{UShort = 37510}                     | unicode        |
@@ -101,7 +101,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                | Format de disque    |
+| Commande | Chemin                | Format de disque    |
 |-------|---------------------|----------------|
 | 1     | /IFD/{UShort = 40092} | \_octets Unicode |
 
@@ -113,7 +113,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      |
+| Commande | Chemin                      |
 |-------|---------------------------|
 | 1     | /IFD/{UShort = 40092}       |
 | 2     | /IFD/{UShort = 37510}       |
@@ -123,7 +123,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

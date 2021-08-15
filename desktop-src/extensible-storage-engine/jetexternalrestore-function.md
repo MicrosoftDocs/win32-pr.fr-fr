@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 087949817ac0bcbe2effe2ff136a6ce80084daa2
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 4844c14d6b60e5825b3b09f58b0d756e83b0f41c4e743684a29607a814d4f16f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106542207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118072821"
 ---
 # <a name="jetexternalrestore-function"></a>JetExternalRestore fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetexternalrestore-function"></a>JetExternalRestore fonction)
 
@@ -85,7 +85,7 @@ Rappel d’État pour signaler la progression de la récupération.
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -137,11 +137,11 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </tr>
 <tr class="even">
 <td><p>JET_errBadRestoreTargetInstance</p></td>
-<td><p>Le <em>szTargetInstanceLogPath</em> spécifié n’appartient pas à une instance initialisée. Cette erreur est renvoyée uniquement dans Windows XP et les versions ultérieures.</p></td>
+<td><p>Le <em>szTargetInstanceLogPath</em> spécifié n’appartient pas à une instance initialisée. cette erreur est renvoyée uniquement dans Windows XP et versions ultérieures.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errRunningInOneInstanceMode</p></td>
-<td><p>Le moteur de base de données ne peut pas exécuter une restauration externe ou une récupération matérielle en mode instance unique. Cette erreur est renvoyée uniquement dans Windows XP et les versions ultérieures.</p></td>
+<td><p>Le moteur de base de données ne peut pas exécuter une restauration externe ou une récupération matérielle en mode instance unique. cette erreur est renvoyée uniquement dans Windows XP et versions ultérieures.</p></td>
 </tr>
 </tbody>
 </table>
@@ -151,7 +151,7 @@ En cas de réussite, toutes les bases de données du *rgrstmap* sont entièremen
 
 En cas d’échec, le moteur n’a pas pu récupérer la base de données. La base de données est dans un État non valide et, afin de retenter la récupération matérielle, la base de données entière doit être restaurée à nouveau. En règle générale, la source d’une telle situation est l’endommagement du disque ou du journal, ou une autre forme de gestion des journaux ou un ensemble de journaux non continus.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Pour comprendre le fonctionnement d’une récupération « dure », vous devez comprendre qu’il existe trois phases de récupération et que la deuxième phase peut avoir deux parties. Dans la phase I, les journaux sont requis pour ramener une base de données sauvegardée à la cohérence (ou un ensemble initial de journaux incrémentiels peut être utilisé). Au cours de la phase II, tous les journaux de restauration par progression supplémentaires disponibles sont utilisés pour rendre la base de données cohérente. Il y a également une relecture des journaux de restauration par progression supplémentaires. La phase III est la phase d’annulation de la récupération.
 
@@ -175,11 +175,11 @@ Pour comprendre le fonctionnement des tracés, utilisez cet organigramme :
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

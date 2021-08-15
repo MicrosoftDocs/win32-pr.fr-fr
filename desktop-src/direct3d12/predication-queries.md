@@ -5,12 +5,12 @@ ms.assetid: F61817BB-45BC-4977-BE4A-EE0FDAFBCB57
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad14e55864ee8d568acc0c9eb46134834d27ff54
-ms.sourcegitcommit: 4c00910ed754d7d0a68c9a833751d714c06e3b39
+ms.openlocfilehash: 2d37bd4653ec7610e36214cce31955f1742e5b27a42a381cc2aa7d758daaf5b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "104548487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117733392"
 ---
 # <a name="predication-queries"></a>Requêtes de prédicat
 
@@ -21,7 +21,7 @@ L’exemple **D3D12PredicationQueries** illustre l’élimination d’occlusion 
 -   [Désactiver les écritures de couleur et de profondeur](#disable-color-and-depth-writes)
 -   [Créer une mémoire tampon pour stocker les résultats de la requête](#create-a-buffer-to-store-the-results-of-the-query)
 -   [Dessinez les quatre cœurs et exécutez et résolvez la requête d’occlusion](#draw-the-quads-and-perform-and-resolve-the-occlusion-query)
--   [Exécution de l'exemple](#run-the-sample)
+-   [Exécuter l’exemple](#run-the-sample)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="create-a-depth-stencil-descriptor-heap-and-an-occlusion-query-heap"></a>Créer un tas de descripteur de stencil de profondeur et un tas de requêtes d’occlusion
@@ -349,10 +349,10 @@ Bloqués partiel :
 
 <dl> <dt>
 
-[Guide pas à pas du code D3D12](d3d12-code-walk-throughs.md)
+[Walk-Throughs de code D3D12](d3d12-code-walk-throughs.md)
 </dt> <dt>
 
-[Prédication](predication.md)
+[Prédicat](predication.md)
 </dt> <dt>
 
 [Requêtes](queries.md)

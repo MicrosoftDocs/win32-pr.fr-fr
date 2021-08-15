@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: 82e100092dd7c59e9cc689aa8723365fae8bed29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5079b740d268174715b6c944787bb687cd9b8b1ecb12a27c04eeb26c79811034
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104211084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784155"
 ---
 # <a name="authzaccesscheckcallback-callback-function"></a>AuthzAccessCheckCallback fonction de rappel
 
@@ -77,7 +77,7 @@ Si la fonction est réussie, la fonction retourne **true**.
 
 Si la fonction ne peut pas effectuer l’évaluation, elle retourne **false**. Utilisez [**SetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) pour renvoyer une erreur à la fonction de vérification d’accès.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les variables d’attribut de sécurité doivent être présentes dans le contexte client si elles sont référencées dans une expression conditionnelle ; sinon, le terme d’expression conditionnelle qui les référence prend la valeur Unknown.
 
@@ -89,9 +89,9 @@ Pour plus d’informations, consultez la vue d’ensemble du [fonctionnement de 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                   |
-| Composant redistribuable<br/>          | Pack des outils d’administration Windows Server 2003 sur Windows XP<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                   |
+| Composant redistribuable<br/>          | Windows Pack des outils d’Administration du serveur 2003 sur Windows XP<br/> |
 
 
 

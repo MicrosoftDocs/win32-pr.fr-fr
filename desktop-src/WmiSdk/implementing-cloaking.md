@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Implémentation du masquage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac73d7aacf32a2168dc3651b82ae1ce3a977cf5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8d32333250bc37d8ccbfdb17421fed635f0da77e6394229220b2b36a1ce57f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118318894"
 ---
 # <a name="implementing-cloaking"></a>Implémentation du masquage
 

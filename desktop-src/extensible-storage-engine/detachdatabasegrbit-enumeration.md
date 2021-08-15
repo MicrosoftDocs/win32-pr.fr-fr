@@ -32,12 +32,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8e67962420ee0179571da8262f17ea5279f59016
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 707066beb3deb6574e5fdcadc6ab367287bef17ce167e9a03472f5ece37f92c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117716520"
 ---
 # <a name="detachdatabasegrbit-enumeration"></a>Énumération DetachDatabaseGrbit
 
@@ -76,7 +76,7 @@ public enum DetachDatabaseGrbit
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Aucune</td>
+<td>None</td>
 <td>Options par défaut.</td>
 </tr>
 <tr class="even">

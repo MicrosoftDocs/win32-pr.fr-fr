@@ -1,19 +1,19 @@
 ---
-description: Ce document comprend des GUID et des identificateurs de classe (CLSID) de composant Windows Imaging Component (WIC).
+description: ce document comprend des guid et des tables d’identificateurs de classe (clsid) de Windows composant d’imagerie (WIC).
 ms.assetid: 2be5cfeb-2dd3-4486-b639-35ee28a7dd7b
 title: GUID et CLSID WIC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82e34cccfebc71951158fbaea33593e3f3fdcb2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b7c33873eb5af85e13dd7f54484b379b0cad71cf22fdc5fb208abfa72ee6d4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106517883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118206166"
 ---
 # <a name="wic-guids-and-clsids"></a>GUID et CLSID WIC
 
-Ce document comprend des GUID et des identificateurs de classe (CLSID) de composant Windows Imaging Component (WIC).
+ce document comprend des guid et des tables d’identificateurs de classe (clsid) de Windows composant d’imagerie (WIC).
 
 Cette rubrique comporte les sections suivantes :
 
@@ -181,7 +181,7 @@ Les fournisseurs peuvent identifier les composants de leur famille par le biais 
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Formats de pixel natifs](-wic-codec-native-pixel-formats.md)

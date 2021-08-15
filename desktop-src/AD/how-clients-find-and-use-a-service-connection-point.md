@@ -7,12 +7,12 @@ keywords:
 - points de connexion de service Active Directory, comment les clients recherchent et utilisent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edf75a0002f9351903ed1c5eca79f498cb4a078d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 184034085ed673df873f346b1cee78051e05641931de3b770f9a17a3d0d8eba0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188194"
 ---
 # <a name="how-clients-find-and-use-a-service-connection-point"></a>Comment les clients recherchent et utilisent un point de connexion de service
 
@@ -292,6 +292,6 @@ cleanup:
 
 
 
- 
+ 
 
- 
+ 

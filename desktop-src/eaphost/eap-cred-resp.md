@@ -6,12 +6,12 @@ keywords:
 - EAP_CRED_RESP
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5c2176377dbde0f7c02d2a7d8083ad1bcff9e71
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d16b9bda55ed1b4aee9a9847740b25d46418c6ec3544dfdd6ba71b2c282042b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106523771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117904636"
 ---
 # <a name="eap_cred_resp"></a>réponse d’identification EAP \_ \_
 
@@ -33,7 +33,7 @@ La structure du **\_ \_ REEE EAP cred** stocke à la fois les informations d’i
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure du **\_ \_ REEE EAP cred** est utilisée pour prendre en charge l’authentification unique (SSO).
 
@@ -45,8 +45,8 @@ La structure du **\_ \_ REEE EAP cred** est identique à la structure de [**\_ \
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Eaptypes. h</dt> </dl> |
 
 

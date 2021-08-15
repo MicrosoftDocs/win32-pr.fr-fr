@@ -1,20 +1,20 @@
 ---
 title: Multimédia
-description: Ce glossaire contient les définitions des termes utilisés dans la documentation multimédia Windows.
+description: ce glossaire contient les définitions des termes utilisés dans la documentation multimédia Windows.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 0c35d8cd-0226-4161-bbb9-cb754785274c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ed45a6503e1856f41e892eb6bcad03f4263ddf6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 243b9eb6d84b133a98d65f24e3486b79d78397f75c17f3ed5ceb52a3f2ff59ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373386"
 ---
 # <a name="multimedia"></a>Multimédia
 
-Ce glossaire contient les définitions des termes utilisés dans la documentation multimédia Windows.
+ce glossaire contient les définitions des termes utilisés dans la documentation multimédia Windows.
 
 <dl> <dt>
 
@@ -238,7 +238,7 @@ Organisation collective composée de fabricants d’instruments MIDI (Musical In
 <span id="_win32_midi_mapper_gloss"></span><span id="_WIN32_MIDI_MAPPER_GLOSS"></span>**Mappeur midi**
 </dt> <dd>
 
-Logiciel système Windows qui modifie les messages de sortie MIDI (Musical Instrument Digital Interface) et les redirige vers un périphérique de sortie MIDI à l’aide des valeurs stockées dans une carte d’installation MIDI. Le Mappeur MIDI peut modifier le canal de destination et le périphérique de sortie pour un message, ainsi que modifier les messages de modification de programme, les valeurs de volume et les valeurs de clé.
+Windows les logiciels système qui modifient les messages de sortie midi (Musical Instrument Digital Interface) et les redirige vers un périphérique de sortie midi à l’aide des valeurs stockées dans une carte d’installation midi. Le Mappeur MIDI peut modifier le canal de destination et le périphérique de sortie pour un message, ainsi que modifier les messages de modification de programme, les valeurs de volume et les valeurs de clé.
 
 </dd> <dt>
 
@@ -266,7 +266,7 @@ Données MIDI (Musical Instrument Digital Interface) qui peuvent être lues par 
 <span id="_win32_midi_sequencer_gloss"></span><span id="_WIN32_MIDI_SEQUENCER_GLOSS"></span>**Séquenceur MIDI**
 </dt> <dd>
 
-Programme qui crée ou lit des chansons stockées sous forme de fichiers MIDI (Musical Instrument Digital Interface). Lorsqu’un Sequencer lit des fichiers MIDI, il envoie les données MIDI du fichier à un synthétiseur MIDI, qui produit les sons. Windows fournit un séquenceur MIDI, accessible via MCI (Media Control Interface), qui lit les fichiers MIDI. Voir aussi [MCI (Media Control Interface)](/windows).
+Programme qui crée ou lit des chansons stockées sous forme de fichiers MIDI (Musical Instrument Digital Interface). Lorsqu’un Sequencer lit des fichiers MIDI, il envoie les données MIDI du fichier à un synthétiseur MIDI, qui produit les sons. Windows fournit un séquenceur midi, accessible via MCI (media control interface), qui lit les fichiers midi. Voir aussi [MCI (Media Control Interface)](/windows).
 
 </dd> <dt>
 
@@ -543,6 +543,6 @@ Technique de recréation d’une forme d’onde audio à partir d’échantillon
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

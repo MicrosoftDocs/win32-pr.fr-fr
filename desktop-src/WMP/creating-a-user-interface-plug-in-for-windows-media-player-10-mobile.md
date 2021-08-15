@@ -1,40 +1,40 @@
 ---
-title: Création d’un plug-in d’interface utilisateur pour Windows Media Player 10 mobile
-description: Création d’un plug-in d’interface utilisateur pour Windows Media Player 10 mobile
+title: création d’un Plug-in d’Interface utilisateur pour Lecteur Windows Media 10 Mobile
+description: création d’un Plug-in d’Interface utilisateur pour Lecteur Windows Media 10 Mobile
 ms.assetid: 050418b7-d99c-49ab-8ce6-6511b194ffe6
 keywords:
-- Windows Media Player Mobile, plug-ins
-- Windows Media Player Mobile, plug-ins d’interface utilisateur
-- Plug-ins Windows Media Player Mobile
+- Lecteur Windows Media Périphériques mobiles, plug-ins
+- Lecteur Windows Media Périphériques mobiles, plug-ins d’interface utilisateur
+- Lecteur Windows Media Plug-ins mobiles
 - plug-ins, interface utilisateur
-- plug-ins, Windows Media Player Mobile
-- plug-ins d’interface utilisateur, Windows Media Player Mobile
-- Plug-ins d’interface utilisateur, Windows Media Player Mobile
+- plug-ins, Lecteur Windows Media Mobile
+- plug-ins d’interface utilisateur, Lecteur Windows Media Mobile
+- plug-ins d’interface utilisateur, Lecteur Windows Media Mobile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d649ef1d8ed1b8fb1e1b54dc7eed106f798b1ad
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 40f75d18303953464dc7d16be14daeb60ffd34167507dc6344499cc8b0f3a97d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117750476"
 ---
-# <a name="creating-a-user-interface-plug-in-for-windows-media-player-10-mobile"></a>Création d’un plug-in d’interface utilisateur pour Windows Media Player 10 mobile
+# <a name="creating-a-user-interface-plug-in-for-windows-media-player-10-mobile"></a>création d’un Plug-in d’Interface utilisateur pour Lecteur Windows Media 10 Mobile
 
-Le lecteur Windows Media 10 mobile utilise le même modèle de plug-in d’interface utilisateur que le lecteur Windows Media du bureau. Toutefois, le lecteur Windows Media 10 mobile ne peut interagir qu’avec les plug-ins d’IU d’arrière-plan. En raison des modèles de plug-in similaires, les appels d’API qui s’appliquent aux plug-ins d’IU d’arrière-plan sur le Bureau s’appliquent également aux plug-ins d’IU d’arrière-plan sur un appareil Windows Mobile.
+Lecteur Windows Media 10 Mobile utilise le même modèle de plug-in d’interface utilisateur que le Lecteur Windows Media de bureau. toutefois, Lecteur Windows Media 10 Mobile peut interagir uniquement avec les plug-ins d’iu d’arrière-plan. en raison des modèles de plug-in similaires, les appels d’API qui s’appliquent aux plug-ins d’iu d’arrière-plan sur le bureau s’appliquent également aux plug-ins d’iu d’arrière-plan sur un appareil Mobile Windows.
 
-Les sections suivantes décrivent comment créer un plug-in d’interface utilisateur d’arrière-plan à l’aide du code généré par l’Assistant à partir de l’Assistant de plug-in du lecteur Windows Media.
+les sections suivantes décrivent comment créer un plug-in d’interface utilisateur d’arrière-plan à l’aide du code généré par l’assistant à partir de l’assistant de plug-in Lecteur Windows Media.
 
 
 
 | Section                                                                | Description                                                                                                                                            |
 |------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Prise en main](getting-started.md)                                 | Décrit ce que vous devez installer et comment utiliser l’Assistant de plug-in du lecteur Windows Media pour faciliter l’automatisation de la création d’un plug-in d’interface utilisateur en arrière-plan.    |
-| [Modification du code généré par l’Assistant](modifying-wizard-generated-code.md) | Décrit ce que vous devez modifier à partir du code généré par l’Assistant créé dans la section précédente afin qu’il fonctionne avec le lecteur Windows Media 10 mobile. |
+| [Prise en main](getting-started.md)                                 | décrit ce que vous devez installer et comment utiliser l’assistant de plug-in Lecteur Windows Media pour faciliter l’automatisation de la création d’un Plug-in d’interface utilisateur en arrière-plan.    |
+| [Modification du code généré par l’Assistant](modifying-wizard-generated-code.md) | décrit ce que vous devez modifier à partir du code généré par l’assistant créé dans la section précédente afin qu’il fonctionne avec Lecteur Windows Media 10 Mobile. |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -43,9 +43,9 @@ Les sections suivantes décrivent comment créer un plug-in d’interface utilis
 [**Guide de programmation de plug-ins d’interface utilisateur**](user-interface-plug-ins-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

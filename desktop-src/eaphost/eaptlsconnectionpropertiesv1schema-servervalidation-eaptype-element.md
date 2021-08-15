@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c54905f35d673aee692efa6569eaddc6d18fc716
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 463ad617f93e6dd4a7b858c38b9aa816e85ea233ebc94acf5549a376642d2ff7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106531505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117720287"
 ---
 # <a name="servervalidation-eaptype-element-tls"></a>ServerValidation (EapType), élément (TLS)
 
@@ -33,7 +33,7 @@ L’élément **ServerValidation (EapType)** contient des informations sur la fa
 
 L’élément **ServerValidation** est défini par l’élément [**EapType**](eaptlsconnectionpropertiesv1schema-eaptype-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément **ServerValidation** est facultatif.
 
@@ -41,10 +41,10 @@ L’élément **ServerValidation** est facultatif.
 
 
 
-| Role | Version minimale du système d’exploitation prise en charge |
+| Fonction | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

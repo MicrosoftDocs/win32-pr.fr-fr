@@ -7,16 +7,16 @@ keywords:
 - doubles mémoires tampons OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbe52d427467b2a6e460ea56a9e72e580ea6f97d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 133a6e0794eb903215411016aeff14e3426854dcddc3a60bcfb2ba318481bee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118361389"
 ---
 # <a name="drawing-with-double-buffers"></a>Dessiner avec deux mémoires tampons
 
-Les doubles mémoires tampons lissent la transition entre une image et une autre à l’écran. L’échange de mémoires tampons est généralement effectué à la fin d’une séquence de commandes de dessin. Par défaut, l’implémentation Microsoft de OpenGL dans Windows s’appuie sur la mémoire tampon hors écran. une fois le dessin terminé, vous appelez la fonction [**SwapBuffers**](/windows/desktop/api/wingdi/nf-wingdi-swapbuffers) pour copier la mémoire tampon hors écran dans la mémoire tampon à l’écran. L’exemple de code suivant prépare le dessin, appelle une fonction de dessin, puis copie l’image terminée sur l’écran si la double mise en mémoire tampon est disponible.
+Les doubles mémoires tampons lissent la transition entre une image et une autre à l’écran. L’échange de mémoires tampons est généralement effectué à la fin d’une séquence de commandes de dessin. par défaut, l’implémentation Microsoft de OpenGL dans Windows dessine dans la mémoire tampon hors écran. une fois le dessin terminé, vous appelez la fonction [**SwapBuffers**](/windows/desktop/api/wingdi/nf-wingdi-swapbuffers) pour copier la mémoire tampon hors écran dans la mémoire tampon à l’écran. L’exemple de code suivant prépare le dessin, appelle une fonction de dessin, puis copie l’image terminée sur l’écran si la double mise en mémoire tampon est disponible.
 
 
 ```C++
@@ -52,9 +52,9 @@ ReleaseDC(hWnd, hdc);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ keywords:
 - interrogation des périphériques de sortie MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 292fbacbb4acf182d566e8c98832dfb0f993ea2b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b493c0b3554a9a60cfc349d13a5404ec4d2b27915933c14b387df29a582406e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106512499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118371911"
 ---
 # <a name="querying-midi-output-devices"></a>Interrogation des périphériques de sortie MIDI
 
@@ -30,6 +30,6 @@ Si l’appareil est un synthétiseur interne, des informations supplémentaires 
 
 Le membre **dwSupport** de la structure **MIDIOUTCAPS** indique si le pilote de périphérique prend en charge les modifications de volume, la mise en cache des correctifs et la diffusion en continu. Les modifications de volume sont prises en charge uniquement par les appareils de synthétiseur internes. Les ports de sortie MIDI externes ne prennent pas en charge les modifications de volume. Pour plus d’informations sur la modification du volume, consultez [modification du volume du synthétiseur MIDI interne](changing-internal-midi-synthesizer-volume.md).
 
- 
+ 
 
- 
+ 

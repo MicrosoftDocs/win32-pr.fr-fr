@@ -1,5 +1,5 @@
 ---
-description: Nom de l’appareil matériel WIA (Windows Image Acquisition) tel qu’il apparaît dans l’interface utilisateur.
+description: nom de l’appareil matériel WIA (Windows Image Acquisition) tel qu’il apparaît dans l’interface utilisateur.
 ms.assetid: 0d53dcd1-2ae5-476c-9fdf-cdea61e0711b
 title: Propriété DeviceInfo.Name
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: dc432c939ffc41111c20c97283d4caeb2c3733af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4acd7307ccec6d1f775474ba8af760f6daede4d3100b6347ce94dd8989b0aefe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118441307"
 ---
 # <a name="deviceinfoname-property"></a>Propriété DeviceInfo.Name
 
-Nom de l’appareil matériel WIA (Windows Image Acquisition) tel qu’il apparaît dans l’interface utilisateur.
+nom de l’appareil matériel WIA (Windows Image Acquisition) tel qu’il apparaît dans l’interface utilisateur.
 
 Cette propriété est en lecture seule.
 
@@ -45,8 +45,8 @@ Chaîne qui reçoit le nom.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (version 4,90 ou ultérieure)</dt> </dl> |
 
 

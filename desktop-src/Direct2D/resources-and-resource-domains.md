@@ -7,12 +7,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: bf4eb807a25b592e32a2d83436532af17462d70c
-ms.sourcegitcommit: 7d0cc7eb398fee8f5be55cd654a12d29937d643c
+ms.openlocfilehash: 67dc8c34703c834dbf0f1b651e3c118831d88abe1676feaba68ac53ecb603565
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "104321377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825110"
 ---
 # <a name="resources-overview"></a>Vue d’ensemble des ressources
 
@@ -69,7 +69,7 @@ Voici des exemples de ressources dépendantes de l’appareil :
 -   [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) et les interfaces qui héritent de celui-ci. Pour créer une cible de rendu, utilisez une fabrique ou une autre cible de rendu.
 
 > [!Note]  
-> À compter de Windows 8, de nouvelles interfaces créent des ressources dépendantes de l’appareil. Un [**ID2D1Device**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1device) et un [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) peuvent partager une ressource si le contexte de périphérique et la ressource sont créés à partir du même **ID2D1Device**.
+> à partir de Windows 8, de nouvelles interfaces créent des ressources dépendantes de l’appareil. Un [**ID2D1Device**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1device) et un [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) peuvent partager une ressource si le contexte de périphérique et la ressource sont créés à partir du même **ID2D1Device**.
 
  
 

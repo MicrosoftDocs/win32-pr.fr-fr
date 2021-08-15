@@ -7,12 +7,12 @@ keywords:
 - Implémentation de l’objet COM d’extension de création d’objet AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05c1a9da94caa300c1277cf6f6030357ca9d573d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a1c1d7eb9d3e2fe80e721068f39746e08f0ecf5a1db721658c02ec52aca39687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104030999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187637"
 ---
 # <a name="implementing-the-object-creation-extension-com-object"></a>Implémentation de l’objet COM d’extension de création d’objet
 
@@ -44,6 +44,6 @@ Quand un assistant de création d’objet contient plusieurs pages, le système 
 
 Étant donné que d’autres extensions de création d’objets peuvent ajouter des pages à l’Assistant, l’extension de création d’objet principal peut ne pas savoir s’il y a plus d’une page dans l’Assistant. Ce n’est pas un problème pour deux raisons : tout d’abord, si le système implémente la page « terminer », l’extension de la création de l’objet principal recevra la notification [**PSN \_ WIZNEXT**](../controls/psn-wiznext.md) au lieu de la notification **\_ WIZNEXT PSN** . Deuxièmement, la [**validation**](/windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjprimarysite-commit) échouera sans danger si l’Assistant contient plus d’une page.
 
- 
+ 
 
- 
+ 

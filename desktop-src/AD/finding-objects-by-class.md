@@ -9,12 +9,12 @@ keywords:
 - objet AD, recherche par classe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 172c8b150090fae83aee1cf3e0f6a63a0e21dec6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e81d90dbcd50a3ce001c1dec57d8fafb0f1987376cf71314902b7f035f923512
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189168"
 ---
 # <a name="finding-objects-by-class"></a>Rechercher des objets par classe
 
@@ -67,9 +67,9 @@ N’oubliez pas que vous pouvez rechercher les utilisateurs et les contacts avec
 
 
 
- 
+ 
 
- 
+ 
 
 
 

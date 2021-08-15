@@ -7,12 +7,12 @@ keywords:
 - Active Directory, utilisation de, ouverture de session du service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9340fe7eebc95ec4c7ea3091c96a2539cb08dee4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f197432dec2cdddc7841d2615b3ac2d62c0e4c7388198b7a95e37db7523ae1d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183536"
 ---
 # <a name="service-logon-accounts"></a>Comptes d’ouverture de session du service
 
@@ -29,11 +29,11 @@ Le contexte de sécurité d’un service Microsoft Win32 est déterminé par le 
 -   [Octroi de droits d’accès au compte d’ouverture de session du service](granting-access-rights-to-the-service-logon-account.md): la définition et la gestion des ACE et des appartenances aux groupes permettent de s’assurer que le système accorde l’accès au service en cours aux ressources locales et réseau nécessaires.
 -   [Modification du mot de passe sur le compte d’utilisateur d’un service](changing-the-password-on-a-serviceampaposs-user-account.md): modification du mot de passe sur le compte d’utilisateur d’un service et mise à jour en même temps du mot de passe inscrit auprès du gestionnaire de contrôle des services sur chaque serveur hôte sur lequel le service est installé.
 -   [Authentification mutuelle à l’aide de Kerberos](mutual-authentication-using-kerberos.md): conservation de l’inscription du nom de principal du service (SPN) sur l’objet d’annuaire associé au compte d’ouverture de session de chaque instance de votre service. Les SPN permettent aux clients d’authentifier un service à l’aide de l’authentification mutuelle Kerberos.
--   [Conversion des formats de nom de compte de domaine](converting-domain-account-name-formats.md)(par exemple, conversion d’un nom unique au format de nom ****\\*** d’utilisateur de domaine* , et vice versa).
+-   [Conversion des formats de nom de compte de domaine](converting-domain-account-name-formats.md)(par exemple, conversion d’un nom unique au format * domaine * **\\**  , et vice versa).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,9 +15,9 @@
               href: supplicant-api-call-sequence.md
             - name: Séquence d’appel de l’API de méthode homologue
               href: peer-method-api-call-sequence.md
-            - name: Séquence d’appel de l’API de méthode de tunnel
+            - name: Tunnel Séquence d’appel de l’API de méthode
               href: tunnel-method-api-call-sequence1.md
-            - name: Séquence d’appel de l’API de méthode d’authentificateur
+            - name: Authenticator Séquence d’appel de l’API de méthode
               href: authenticator-method-api-call-sequence.md
         - name: Demandeurs EAPHost
           href: eaphost-supplicants.md
@@ -38,7 +38,7 @@
         - name: Configuration des valeurs de Registre pour les méthodes EAP
           href: registry-keys-for-eap-methods.md
           items:
-            - name: Clés de registre de la méthode d’authentificateur EAP
+            - name: clés de registre de la méthode Authenticator EAP
               href: eap-authenticator-method-registry-keys.md
             - name: Clés de registre de la méthode d’homologue EAP
               href: eap-peer-method-registry-keys.md
@@ -101,7 +101,7 @@
     - name: Informations de référence sur l’API EAPHost
       href: eaphost-api-reference.md
       items:
-        - name: Paramètres du Registre EAPHost
+        - name: Paramètres du registre EAPHost
           href: eaphost-registry-settings.md
           items:
             - name: BypassNegotiation
@@ -696,10 +696,10 @@
                   href: /windows/win32/api/eaptypes/ns-eaptypes-eapsimcredential
                 - name: EapUsernamePasswordCredential
                   href: /windows/win32/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential
-        - name: API de méthode d’authentificateur EAPHost
+        - name: api de méthode Authenticator EAPHost
           href: eaphost-authenticator-method-apis.md
           items:
-            - name: Fonctions de méthode de l’authentificateur EAPHost
+            - name: fonctions de la méthode Authenticator EAPHost
               href: eap-host-authenticator-method-functions.md
               items:
                 - name: EapMethodAuthenticatorBeginSession
@@ -730,14 +730,14 @@
                   href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorshutdown
                 - name: EapMethodAuthenticatorUpdateInnerMethodParams
                   href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorupdateinnermethodparams
-            - name: Énumérations de méthodes d’authentificateur EAPHost
+            - name: énumérations de méthode Authenticator EAPHost
               href: eap-host-authenticator-method-enumerations.md
               items:
                 - name: EAP_AUTHENTICATOR_SEND_TIMEOUT
                   href: /windows/win32/api/eapAuthenticatorTypes/ne-eapauthenticatortypes-eap_authenticator_send_timeout
                 - name: EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION
                   href: /windows/win32/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action
-            - name: Structures de méthode d’authentificateur EAPHost
+            - name: Structures de méthode Authenticator EAPHost
               href: eap-host-authenticator-method-structures.md
               items:
                 - name: EAP_AUTHENTICATOR_METHOD_ROUTINES

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 0b35f9505758256750ae02d24d6c2a84ed0646b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 173f744406ef2b360c0af7158e397c2001f146b9f2339bf6aaf3468b9a1465dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796350"
 ---
 # <a name="createprotocol-function"></a>CreateProtocol fonction)
 
@@ -68,7 +68,7 @@ Si la fonction réussit, la valeur de retour est un handle vers le protocole.
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La DLL de l’analyseur appelle **CreateProtocol** pendant son implémentation de [DllMain](dllmain-parser.md). La fonction **CreateProtocol** est appelée quand le système d’exploitation charge la dll de l’analyseur pour la première fois.
 

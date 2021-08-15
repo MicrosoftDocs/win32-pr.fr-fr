@@ -9,12 +9,12 @@ keywords:
 - utilisateurs Active Directory, gestion des utilisateurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8154dc9d062b86d10b0df6418b5b4cbb79b44d2
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 0aa4c780a943d45833c3af5418337fe4d27584e2c944e19ff247479f3b29513d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186685"
 ---
 # <a name="managing-users"></a>Gestion des utilisateurs
 
@@ -30,7 +30,7 @@ Les comptes d’utilisateur sont créés et stockés en tant qu’objets dans Ac
 -   [Énumération des utilisateurs](enumerating-users.md)
 -   [Interrogation des utilisateurs](querying-for-users.md)
 -   Déplacement des utilisateurs. Un utilisateur est déplacé de la même façon que tout autre objet Active Directory. Pour plus d’informations sur le déplacement d’objets Active Directory, consultez [déplacement d’objets](moving-objects.md).
--   [Gestion des utilisateurs sur les serveurs membres et Windows 2000 professionnel](managing-users-on-member-servers-and-windows-2000-professional.md)
+-   [gestion des utilisateurs sur les serveurs membres et les Windows 2000 Professional](managing-users-on-member-servers-and-windows-2000-professional.md)
 
  
 

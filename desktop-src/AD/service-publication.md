@@ -8,12 +8,12 @@ keywords:
 - Active Directory, utilisation, publication de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9437d9f4aa5184c53f2962d7b2640e933107501f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9b74c20077d0bc3dcce75b74df99abcda2f78ce23f22bdd78f997d3972c58c6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183408"
 ---
 # <a name="service-publication"></a>Publication de service
 
@@ -31,14 +31,14 @@ Cette section aborde les sujets suivants :
 -   [Création et gestion d’un point de connexion de service](creating-and-maintaining-a-service-connection-point.md)
 -   [Comment un client interroge un SCP et l’utilise pour établir une liaison avec une instance de service](how-clients-find-and-use-a-service-connection-point.md)
 -   [Utilisation des API RpcNs (RPC Name Service) pour publier un service RPC](publishing-with-the-rpc-name-service-rpcns.md)
--   [Inscription et résolution Windows Sockets (RnR) pour publier un service Windows Sockets](publishing-with-windows-sockets-registration-and-resolution.md)
+-   [Windows inscription et résolution des sockets (RnR) pour publier un service Windows sockets](publishing-with-windows-sockets-registration-and-resolution.md)
 -   [Publication de services COM dans le magasin de classes COM+](publishing-com-services.md)
 
 Pour plus d’informations sur la façon dont les services et les clients s’authentifient mutuellement, consultez [authentification mutuelle à l’aide de Kerberos](mutual-authentication-using-kerberos.md). Pour plus d’informations sur les contextes de sécurité de service et les comptes d’ouverture de session, consultez [comptes d’ouverture de session de service](service-logon-accounts.md).
 
- 
+ 
 
- 
+ 
 
 
 

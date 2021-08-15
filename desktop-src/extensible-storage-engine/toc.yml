@@ -1,14 +1,14 @@
-- name: Moteur de stockage extensible
+- name: moteur de Stockage Extensible
   href: extensible-storage-engine.md
   items:
-    - name: À propos du moteur de stockage extensible
+    - name: à propos du moteur de Stockage Extensible
       href: about-extensible-storage-engine.md
       items:
         - name: Présentation de la base de données
           href: database-overview.md
         - name: Handles ESE
           href: ese-handles.md
-    - name: Utilisation du moteur de stockage extensible
+    - name: utilisation du moteur de Stockage Extensible
       href: using-extensible-storage-engine.md
       items:
         - name: Colonnes
@@ -46,14 +46,14 @@
               href: reading-data-from-the-database.md
         - name: Transactions
           href: transactions.md
-        - name: Erreurs du moteur de stockage extensible
+        - name: erreurs du moteur de Stockage Extensible
           href: extensible-storage-engine-errors.md
-        - name: Fichiers ESE (Extensible Storage Engine)
+        - name: fichiers de moteur d’Stockage Extensible
           href: extensible-storage-engine-files.md
-    - name: Informations de référence sur le moteur de stockage extensible
+    - name: informations de référence sur le moteur de Stockage Extensible
       href: extensible-storage-engine-reference.md
       items:
-        - name: Fonctions de rappel du moteur de stockage extensible
+        - name: fonctions de rappel du moteur de Stockage Extensible
           href: extensible-storage-engine-callback-functions.md
           items:
             - name: JET_CALLBACK fonction de rappel
@@ -62,7 +62,7 @@
               href: jet-pfnrealloc-callback-function.md
             - name: JET_PFNSTATUS fonction de rappel
               href: jet-pfnstatus-callback-function.md
-        - name: Constantes du moteur de stockage extensible
+        - name: constantes de moteur d’Stockage Extensible
           href: extensible-storage-engine-constants.md
           items:
             - name: JET_CBTYP
@@ -81,7 +81,7 @@
               href: error-handling-constants.md
             - name: Constantes de journalisation des événements
               href: event-logging-constants.md
-            - name: Paramètres système du moteur de stockage extensible
+            - name: paramètres système du moteur de Stockage Extensible
               href: extensible-storage-engine-system-parameters.md
               items:
                 - name: Paramètres de sauvegarde et de restauration
@@ -112,11 +112,11 @@
                   href: transaction-log-parameters.md
             - name: Constantes de handle non valides
               href: invalid-handle-constants.md
-            - name: Nombre maximal de constantes de paramètres
+            - name: nombre maximal de constantes de Paramètres
               href: maximum-settings-constants.md
             - name: Constantes obsolètes
               href: obsolete-constants.md
-        - name: Types de données du moteur de stockage extensible
+        - name: Types de données du moteur de Stockage Extensible
           href: extensible-storage-engine-data-types.md
           items:
             - name: JET_API_PTR
@@ -153,9 +153,9 @@
               href: jet-tableid.md
             - name: WCHAR
               href: wchar.md
-        - name: Codes d’erreur du moteur de stockage extensible
+        - name: Codes d’erreur du moteur de Stockage Extensible
           href: extensible-storage-engine-error-codes.md
-        - name: Fonctions du moteur de stockage extensible
+        - name: fonctions du moteur de Stockage Extensible
           href: extensible-storage-engine-functions.md
           items:
             - name: Fonction JetAddColumn
@@ -224,7 +224,7 @@
               href: jetcreatetablecolumnindex4w-function.md
             - name: JetDefragment fonction)
               href: jetdefragment-function.md
-            - name: JetDefragment2 fonction)
+            - name: 'JetDefragment2, fonction'
               href: jetdefragment2-function.md
             - name: JetDefragment3 fonction)
               href: jetdefragment3-function.md
@@ -476,7 +476,7 @@
               href: jetupdate-function.md
             - name: Fonction JetUpdate2
               href: jetupdate2-function.md
-        - name: Structures du moteur de stockage extensible
+        - name: Structures du moteur de Stockage Extensible
           href: extensible-storage-engine-structures.md
           items:
             - name: Structure JET_BKINFO
@@ -579,7 +579,7 @@
               href: jet-unicodeindex-structure.md
             - name: Structure JET_USERDEFINEDDEFAULT
               href: jet-userdefineddefault-structure.md
-    - name: Référence gérée du moteur de stockage extensible
+    - name: référence gérée du moteur de Stockage Extensible
       href: extensible-storage-engine-managed-reference.md
       items:
         - name: Microsoft. ISAM. esent

@@ -1,34 +1,34 @@
 ---
-title: Inscription de la dépendance d’application (SDK Windows Media format 11)
-description: Découvrez comment inscrire votre application avec les composants d’exécution des API fournies par le kit de développement logiciel (SDK) Windows Media format 11.
+title: inscription de la dépendance d’Application (kit de développement logiciel (SDK) Windows Media Format 11)
+description: découvrez comment inscrire votre application avec les composants d’exécution des api fournies par le kit de développement logiciel (SDK) Windows Media Format 11.
 ms.assetid: 09f63519-5c65-4784-9ea4-4fbecfa6d4aa
 keywords:
 - Windows Media Format SDK, inscrire des dépendances d’application
 - inscription des dépendances d’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cd546ee9b162652f00a131e87561a7e34f7e3a2
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 9cc0d1e6c9c5583ea235c196c244d9969aec65128dc206720cfacc907ae0067b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845904"
 ---
-# <a name="registering-application-dependency-windows-media-format-11-sdk"></a>Inscription de la dépendance d’application (SDK Windows Media format 11)
+# <a name="registering-application-dependency-windows-media-format-11-sdk"></a>inscription de la dépendance d’Application (kit de développement logiciel (SDK) Windows Media Format 11)
 
-Les applications qui utilisent des API fournies par le kit de développement logiciel (SDK) Windows Media format ou le kit de développement logiciel (SDK) Windows Media Player dépendent des composants d’exécution de ces technologies. Vous pouvez inscrire votre application comme étant dépendante de ces composants dans le cadre de la configuration de votre application.
+les Applications qui utilisent des api fournies par le kit de développement logiciel (sdk) Windows Media Format ou Lecteur Windows Media sdk dépendent des composants d’exécution de ces technologies. Vous pouvez inscrire votre application comme étant dépendante de ces composants dans le cadre de la configuration de votre application.
 
 Lorsque vous inscrivez votre application, vous pouvez choisir l’un des deux niveaux de dépendance : blocage ou dépendant. Quand une ou plusieurs applications sont inscrites avec une dépendance de blocage sur l’un des composants d’exécution, le composant est bloqué d’une restauration vers une version antérieure. Les applications dépendantes qui ne sont pas inscrites comme bloquantes ne bloquent pas la restauration. Au lieu de cela, avant d’effectuer la restauration, l’utilisateur est invité à entrer un message indiquant que les applications sont dépendantes du composant.
 
 Pour inscrire votre application, vous devez définir une valeur dans le Registre qui identifie votre application. La valeur de Registre à définir dépend du composant dont dépend votre application. Vous pouvez également définir deux valeurs supplémentaires par dépendance pour fournir des informations supplémentaires sur votre application.
 
-Les valeurs de Registre suivantes sont utilisées pour inscrire la dépendance au runtime du SDK Windows Media Format :
+les valeurs de registre suivantes sont utilisées pour inscrire la dépendance sur le runtime SDK Windows Media Format :
 
 -   HKEY \_ classes \_ racine \\ logiciel \\ Microsoft \\ windowsmedia \\ installation \\ *\_ type de référence* \\ application, «*application*»,*« \_ chaîne d’application*»
 -   HKEY \_ classes \_ racine \\ logiciel \\ Microsoft \\ windowsmedia \\ - \\ *\_* \\ descripteur de type de référence, "*application*", "*\_ descripteur de référence*"
 -   HKEY \_ classes \_ racine \\ logiciel \\ Microsoft \\ windowsmedia \\ installation \\ *\_ type de référence* \\ version,*application*, «*\_ version WMF*»
 
-La valeur de Registre suivante est utilisée pour inscrire la dépendance au runtime du kit de développement logiciel (SDK) du lecteur Windows Media :
+la valeur de registre suivante est utilisée pour inscrire la dépendance sur Lecteur Windows Media runtime SDK :
 
 -   HKEY \_ classes \_ racine \\ logiciel \\ Microsoft \\ MediaPlayer \\ installation \\ *\_ type référence* \\ application, «*application*», «*\_ chaîne d’application*»
 -   HKEY \_ classes \_ root \\ Software racine \\ Microsoft \\ MediaPlayer \\ programme d’installation \\ descripteur de *\_ type REF* \\ , "*app*", "*Ref \_ Descriptor*"
@@ -54,23 +54,23 @@ Description de la façon dont votre application utilise le composant. Cette vale
 
 *VERSION de WMP \_*
 
-Version du lecteur Windows Media requise par votre application.
+Version de Lecteur Windows Media requise par votre application.
 
 *\_version WMF*
 
-Version du kit de développement logiciel (SDK) du format Windows Media requis par votre application.
+Version du kit de développement logiciel (SDK) Windows Media Format requis par votre application.
 
 Les trois exemples de valeurs de registre suivants montrent comment configurer les valeurs de votre application :
 
 -   HKEY \_ classes \_ racine \\ logiciel \\ Microsoft \\ windowsmedia \\ Setup \\ DependentRefCounts \\ application, "southridgevideo", "Southridge Video Player"
--   HKEY \_ classes \_ racine \\ Software \\ Microsoft \\ windowsmedia \\ Setup \\ DependentRefCounts \\ Descriptor, "southridgevideo", "Southridge Video Player utilise le kit de développement logiciel (SDK) Windows Media format pour lire des fichiers vidéo."
+-   HKEY \_ CLASSES \_ racine \\ Software \\ Microsoft \\ WindowsMedia \\ Setup \\ DependentRefCounts \\ Descriptor, "SouthridgeVideo", "Southridge video Player utilise le kit de développement logiciel (SDK) Windows media Format pour lire les fichiers vidéo."
 -   HKEY \_ classes \_ racine \\ logiciel \\ Microsoft \\ windowsmedia \\ Setup \\ DependentRefCounts \\ version, "southridgevideo", "9.0.0.2600"
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Considérations relatives aux projets**](project-considerations.md)
+[**Project Raisons**](project-considerations.md)
 </dt> </dl>
 
  

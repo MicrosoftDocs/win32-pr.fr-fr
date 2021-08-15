@@ -3,7 +3,7 @@ title: Message WM_CAP_DRIVER_GET_NAME (VFW. h)
 description: Le \_ message WM Cap \_ Driver \_ obtenir \_ le nom renvoie le nom du pilote de capture connecté à la fenêtre de capture. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capDriverGetName.
 ms.assetid: 84cecaf1-e0ff-424f-8c10-8bfe5cc2e7ea
 keywords:
-- Message WM_CAP_DRIVER_GET_NAME Windows Multimedia
+- message WM_CAP_DRIVER_GET_NAME Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 256b5f7913c83ddd278f3f3a05552b3d81070c73
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0dc44efae992f2967cb069c0866fbb7f9febed51ea73f94853a1b017bc57a068
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369680"
 ---
 # <a name="wm_cap_driver_get_name-message"></a>\_Message d' \_ extraction du pilote WM Cap \_ \_
 
@@ -56,7 +56,7 @@ Pointeur vers une mémoire tampon définie par l’application utilisée pour re
 
 Retourne la **valeur true** en cas de réussite ou **false** si la fenêtre de capture n’est pas connectée à un pilote de capture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nom est une chaîne de texte Récupérée à partir de la zone de ressources du pilote. Les applications doivent allouer environ 80 octets pour cette chaîne. Si le pilote ne contient pas de ressource de nom, le nom de chemin d’accès complet du pilote figurant dans le registre ou dans le fichier SYSTEM.INI est retourné.
 

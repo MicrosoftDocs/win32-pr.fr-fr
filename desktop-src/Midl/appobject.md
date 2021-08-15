@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0d937d4a83306bc0c29f3c8c806bc043febec6a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f54cbe8d5c1c7a573216ae9cb55075ba3b3766d0d8c7898233be9364488131e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808331"
 ---
 # <a name="appobject-attribute"></a>appobject (attribut)
 
@@ -67,7 +67,7 @@ Spécifie les instructions qui composent la définition de [**coclasse**](coclas
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **\[ AppObject \]** indique également que les fonctions et les propriétés de la [**coclasse**](coclass.md) sont globalement disponibles dans la bibliothèque de types actuelle.
 
@@ -125,6 +125,6 @@ coclass Hello
 [**Version**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 7BCD2EE0-94FB-4438-9B6A-7B26DBFB5978
 title: Attribut MF_TOPONODE_WORKQUEUE_MMCSS_PRIORITY (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0667c91054f8711b8825cf421a2ee565b9161f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e1b131e6c8b0f379e5e7951498c52f7c0d7a3eab83b75fed4ab9e8100721668
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117874792"
 ---
 # <a name="mf_toponode_workqueue_mmcss_priority-attribute"></a>MF \_ TOPONODE \_ WORKQUEUE \_ MMCSS \_ Priority attribut
 
@@ -19,7 +19,7 @@ Spécifie la priorité de thread relative pour une branche de la topologie.
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux nœuds sources (**\_ \_ \_ nœud SOURCESTREAM de topologie MF**). L’attribut est facultatif.
 
@@ -35,8 +35,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

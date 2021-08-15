@@ -1,19 +1,19 @@
 ---
-description: Cette section présente une vue d’ensemble du fonctionnement de l’acquisition d’images Windows (WIA) et de la façon dont il peut être utilisé pour créer des applications qui gèrent des appareils d’imagerie.
+description: cette section présente une vue d’ensemble du fonctionnement de l’acquisition d’images (WIA) de Windows, ainsi que la façon dont il peut être utilisé pour créer des applications qui gèrent des appareils d’imagerie.
 ms.assetid: e8a138f9-a322-4527-ace6-511c63a92afb
-title: Utilisation de l’acquisition d’images Windows
+title: utilisation de l’Acquisition d’images Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8de6865b444c76a97bb64ec268bcbdbe3e882c46
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dab8ac2b3758ac5b1f659c0908454f399e33e0542e31431e59bd7b372b089b42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118207966"
 ---
-# <a name="using-windows-image-acquisition"></a>Utilisation de l’acquisition d’images Windows
+# <a name="using-windows-image-acquisition"></a>utilisation de l’Acquisition d’images Windows
 
-Cette section présente une vue d’ensemble du fonctionnement de l’acquisition d’images Windows (WIA) et de la façon dont il peut être utilisé pour créer des applications qui gèrent des appareils d’imagerie. Pour plus d’informations, consultez les rubriques suivantes :
+cette section présente une vue d’ensemble du fonctionnement de l’acquisition d’images (WIA) de Windows, ainsi que la façon dont il peut être utilisé pour créer des applications qui gèrent des appareils d’imagerie. Pour plus d’informations, consultez les rubriques suivantes :
 
 -   [À propos de l’arborescence d’éléments IWiaItem2](-wia-about-item-tree.md)
 -   [Utilisation d’objets d’appareil WIA](-wia-using-wia-device-objects.md)

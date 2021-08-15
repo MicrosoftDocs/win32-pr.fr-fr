@@ -1,26 +1,26 @@
 ---
 title: Paramètres des Rapports d’erreurs Windows
-description: Paramètres pour personnaliser l’expérience de signalement des problèmes. Tous ces paramètres peuvent être définis à l’aide de stratégie de groupe. Certains peuvent également être modifiés dans le centre de maintenance pour Windows 7 et Windows 8. Pour Windows 10, utilisez la fonction de recherche dans paramètres pour localiser afficher les paramètres système avancés.
+description: Paramètres pour personnaliser l’expérience de signalement des problèmes. Tous ces paramètres peuvent être définis à l’aide de stratégie de groupe. certains peuvent également être modifiés dans le centre de maintenance pour Windows 7 et Windows 8. pour Windows 10, utilisez la fonction de recherche dans Paramètres pour rechercher afficher les paramètres système avancés.
 ms.assetid: 031c5591-31b0-42f1-9a98-ecf10a5d5571
 keywords:
-- Rapport d’erreurs Windows du rapport d’erreurs Windows, paramètres
+- Windows Rapport d’erreurs Windows de rapport d’erreurs, paramètres
 ms.topic: article
 ms.date: 03/12/2021
-ms.openlocfilehash: 28b6abbda7d851daddb75ec534b8128d1a831b3f
-ms.sourcegitcommit: 434d5437d4c31c47358598ea5275177c2698f557
+ms.openlocfilehash: 4586c4f282cbc5c4e2f683c0764eac048f6c05d22a1972cb0ceb84f9699c7925
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "106532414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118442228"
 ---
 # <a name="wer-settings"></a>Paramètres des Rapports d’erreurs Windows
 
-Rapport d’erreurs Windows (WER) fournit de nombreux paramètres pour personnaliser l’expérience de signalement des problèmes. Tous ces paramètres peuvent être définis à l’aide de stratégie de groupe. Certains peuvent également être modifiés dans le **Centre de maintenance** pour Windows 7 et Windows 8. Pour Windows 10, utilisez la fonction de recherche dans paramètres pour localiser **afficher les paramètres système avancés**. Les paramètres WER se trouvent dans l’une des sous-clés de Registre suivantes :
+Rapport d’erreurs Windows (WER) fournit de nombreux paramètres pour personnaliser l’expérience de signalement des problèmes. Tous ces paramètres peuvent être définis à l’aide de stratégie de groupe. certains peuvent également être modifiés dans le **centre de maintenance** pour Windows 7 et Windows 8. pour Windows 10, utilisez la fonction de recherche dans Paramètres pour rechercher **afficher les paramètres système avancés**. Les paramètres WER se trouvent dans l’une des sous-clés de Registre suivantes :
 
--   **HKEY \_ Logiciel \_ utilisateur actuel** \\  \\ **Microsoft** \\ **Windows** \\ **rapport d’erreurs Windows**
--   **HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows** \\ **rapport d’erreurs Windows**
+-   **HKEY \_ logiciel \_ utilisateur actuel** \\  \\ **Microsoft** \\ **Windows** \\ **Rapport d’erreurs Windows**
+-   **HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows** \\ **Rapport d’erreurs Windows**
 
-## <a name="windows-error-reporting-subkey"></a>Sous-clé Rapport d’erreurs Windows
+## <a name="windows-error-reporting-subkey"></a>sous-clé Rapport d’erreurs Windows
 
 <dl> <dt>
 
@@ -48,7 +48,7 @@ Indique s’il faut activer le contournement de la limitation des données du cl
 
 **\_valeur DWORD reg**
 
-Valeurs possibles :<dl> <dd>1-paramètres uniquement (par défaut sur Windows 7)</dd> <dd>2-toutes les données (par défaut sur Windows Vista)</dd> </dl>
+Valeurs possibles :<dl> <dd>1-paramètres uniquement (valeur par défaut sur Windows 7)</dd> <dd>2-toutes les données (par défaut sur Windows Vista)</dd> </dl>
 
 Indique s’il faut archiver les paramètres uniquement ou toutes les données
 
@@ -127,7 +127,7 @@ Nom du serveur d’entreprise
 
 Valeurs possibles :<dl> <dd>0-non (valeur par défaut)</dd> <dd>1 - Oui</dd> </dl>
 
-Indique s’il faut utiliser l’authentification intégrée de Windows
+indique s’il faut utiliser l’authentification Windows intégrée
 
 </dd> <dt>
 
@@ -142,7 +142,7 @@ Indique s’il faut utiliser SSL
 
 </dd> <dt>
 
-<span id="DebugApplications__ExeName___replace___ExeName___with_an_actual_name_of_an_.exe_file__for_example___notepad.exe__"></span><span id="debugapplications__exename___replace___exename___with_an_actual_name_of_an_.exe_file__for_example___notepad.exe__"></span><span id="DEBUGAPPLICATIONS__EXENAME___REPLACE___EXENAME___WITH_AN_ACTUAL_NAME_OF_AN_.EXE_FILE__FOR_EXAMPLE___NOTEPAD.EXE__"></span>**DebugApplications \\ \[ exeName \] (remplacez « \[ exeName \] » par le nom réel d’un fichier. exe, par exemple, « notepad.exe »)**
+<span id="DebugApplications__ExeName___replace___ExeName___with_an_actual_name_of_an_.exe_file__for_example___notepad.exe__"></span><span id="debugapplications__exename___replace___exename___with_an_actual_name_of_an_.exe_file__for_example___notepad.exe__"></span><span id="DEBUGAPPLICATIONS__EXENAME___REPLACE___EXENAME___WITH_AN_ACTUAL_NAME_OF_AN_.EXE_FILE__FOR_EXAMPLE___NOTEPAD.EXE__"></span>**DebugApplications \\ \[ exeName \] (remplacez « \[ exeName \] » par le nom réel d’un fichier .exe, par exemple, « notepad.exe »)**
 </dt> <dd>
 
 **\_valeur DWORD reg**
@@ -244,7 +244,7 @@ Indique si tous les rapports doivent être envoyés à la file d’attente de l�
 
 Chemin d'accès du répertoire. La valeur par défaut est% LOCALAPPDATA% \\ CrashDumps. Si la valeur par défaut n’est pas utilisée, l’application doit s’assurer que le dossier possède un ACL suffisant.
 
-**Windows Vista :** Les valeurs de Registre sous la clé **LocalDumps** ne sont pas prises en charge. Notez que ce comportement a changé avec Windows Server 2008 et Windows Vista avec Service Pack 1 (SP1).
+**Windows Vista :** Les valeurs de Registre sous la clé **LocalDumps** ne sont pas prises en charge. notez que ce comportement a changé avec Windows Server 2008 et Windows Vista avec Service Pack 1 (SP1).
 
 Chemin d’accès où les fichiers de vidage doivent être stockés.
 
@@ -261,7 +261,7 @@ Ce paramètre n’est pas pris en charge dans la ruche de Registre **HKEY \_ Cur
 
 Nombre maximal. La valeur par défaut est de 10. Lorsque la valeur maximale est dépassée, le fichier de vidage le plus ancien dans le dossier sera remplacé par le nouveau fichier de vidage.
 
-**Windows Vista :** Les valeurs de Registre sous la clé **LocalDumps** ne sont pas prises en charge. Notez que ce comportement a changé avec Windows Server 2008 et Windows Vista avec SP1.
+**Windows Vista :** Les valeurs de Registre sous la clé **LocalDumps** ne sont pas prises en charge. notez que ce comportement a changé avec Windows Server 2008 et Windows Vista avec SP1.
 
 Nombre maximal de fichiers de vidage dans le dossier.
 
@@ -276,7 +276,7 @@ Ce paramètre n’est pas pris en charge dans la ruche de Registre **HKEY \_ Cur
 
 Valeurs possibles :<dl> <dd>0-vidage personnalisé</dd> <dd>1-Minidump (par défaut)</dd> <dd>2-vidage complet</dd> </dl>
 
-**Windows Vista :** Les valeurs de Registre sous la clé **LocalDumps** ne sont pas prises en charge. Notez que ce comportement a changé avec Windows Server 2008 et Windows Vista avec SP1.
+**Windows Vista :** Les valeurs de Registre sous la clé **LocalDumps** ne sont pas prises en charge. notez que ce comportement a changé avec Windows Server 2008 et Windows Vista avec SP1.
 
 Type de vidage.
 
@@ -291,7 +291,7 @@ Ce paramètre n’est pas pris en charge dans la ruche de Registre **HKEY \_ Cur
 
 Une ou plusieurs valeurs de l’énumération de [**\_ type Minidump**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type) . La valeur par défaut est {**MiniDumpWithDataSegs** \| **MiniDumpWithUnloadedModules** \| **MiniDumpWithProcessThreadData**}.
 
-**Windows Vista :** Les valeurs de Registre sous la clé **LocalDumps** ne sont pas prises en charge. Notez que ce comportement a changé avec Windows Server 2008 et Windows Vista avec SP1.
+**Windows Vista :** Les valeurs de Registre sous la clé **LocalDumps** ne sont pas prises en charge. notez que ce comportement a changé avec Windows Server 2008 et Windows Vista avec SP1.
 
 Options de vidage personnalisées à utiliser. Cette valeur est utilisée uniquement lorsque **DumpType** a la valeur 0.
 
@@ -356,7 +356,7 @@ Le nom de la valeur est utilisé pour extraire la valeur pwszOutOfProcessCallbac
 
 </dd> </dl>
 
-## <a name="wer-live-kernel-reports-settings"></a>Paramètres du rapport de noyau en temps réel WER
+## <a name="wer-live-kernel-reports-settings"></a>rapports du noyau en temps réel WER Paramètres
 
 Les paramètres des rapports du noyau en direct de WER, décrits ci-après, se trouvent tous deux dans la sous-clé de Registre suivante :
 
@@ -412,7 +412,7 @@ Seuil (en heures) de la fréquence à laquelle un composant sur le système peut
 **SZ de REG \_**
 
 
-Emplacement de stockage Redirigé des rapports de noyau en direct. L’emplacement par défaut est%systemroot%\LiveKernelReports. Cette valeur doit être un chemin d’accès valide. Le chemin d’accès doit être au format de chemin d’accès NT. Par exemple, \? ? \c : \LiveDumpsFolder.  Pour plus d’informations sur les formats de chemin d’accès, consultez  [formats de chemin d’accès de fichier sur les systèmes Windows](/dotnet/standard/io/file-path-formats).
+Emplacement de stockage Redirigé des rapports de noyau en direct. L’emplacement par défaut est%systemroot%\LiveKernelReports. Cette valeur doit être un chemin d’accès valide. Le chemin d’accès doit être au format de chemin d’accès NT. Par exemple, \? ? \c : \LiveDumpsFolder.  pour plus d’informations sur les formats de chemin d’accès, consultez [formats de chemin de fichier sur les systèmes de Windows](/dotnet/standard/io/file-path-formats).
 
 </dd> </dl>
 

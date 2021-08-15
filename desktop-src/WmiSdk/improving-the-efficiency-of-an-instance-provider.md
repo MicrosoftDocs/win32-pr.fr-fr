@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Amélioration de l’efficacité d’un fournisseur d’instances
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0fecd0d8a20a3dcccd2878996823a7eb8a7ec0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55d166cdc4817068363eec899a010c778b4fa125fbfb4eda11b2745558886be4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118318813"
 ---
 # <a name="improving-the-efficiency-of-an-instance-provider"></a>Amélioration de l’efficacité d’un fournisseur d’instances
 

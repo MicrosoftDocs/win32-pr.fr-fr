@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102191
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0b7a53ff38b7a285c09101cc1fd8853612e8810d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 618702af5f2e46ba1711fbe2ed7e63ead42d66ee59e36473788ca44eb305e2c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104393652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117899800"
 ---
 # <a name="esentlogfilesizemismatchexception-properties"></a>Propriétés EsentLogFileSizeMismatchException
 
@@ -49,7 +49,7 @@ Le type [EsentLogFileSizeMismatchException](./esentlogfilesizemismatchexception-
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

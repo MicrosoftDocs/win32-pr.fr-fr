@@ -28,12 +28,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 56b3b30f1d64146db2554d097b11104df09ba018
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03ef036fc9c325b5087e597602fafec29abc484aa5a02a4395aaff3c25e59238
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117994496"
 ---
 # <a name="msvm_error-class"></a>MSVM, \_ classe d’erreur
 
@@ -230,7 +230,7 @@ Tableau contenant le contenu dynamique du message. Cette propriété est hérit�
 
 </dd> <dt>
 
-**ID**
+**MessageID**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -475,7 +475,7 @@ Valeur énumérée qui décrit la cause probable de l’erreur. Cette propriét�
 <span id="Software_Program_Error__Incorrect_Results_"></span><span id="software_program_error__incorrect_results_"></span><span id="SOFTWARE_PROGRAM_ERROR__INCORRECT_RESULTS_"></span>**Erreur du programme logiciel (résultats incorrects)** (49)
 </dt> <dt>
 
-<span id="Storage_Capacity_Problem"></span><span id="storage_capacity_problem"></span><span id="STORAGE_CAPACITY_PROBLEM"></span>**Problème de capacité de stockage** (50)
+<span id="Storage_Capacity_Problem"></span><span id="storage_capacity_problem"></span><span id="STORAGE_CAPACITY_PROBLEM"></span>**Stockage problème de capacité** (50)
 </dt> <dt>
 
 <span id="Temperature_Unacceptable"></span><span id="temperature_unacceptable"></span><span id="TEMPERATURE_UNACCEPTABLE"></span>**Température inacceptable** (51)
@@ -746,7 +746,7 @@ Chaîne qui décrit les actions recommandées à entreprendre pour résoudre l�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe d' **\_ erreur MSVM** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -756,8 +756,8 @@ L’accès à la classe d' **\_ erreur MSVM** peut être limité par le filtrage
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

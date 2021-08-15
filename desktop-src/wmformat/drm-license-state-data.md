@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bb63bce02a52aefcf1f3351fe34ab008996aa0b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e6703481dc1d3608a8bf08ab2bbd216db4a9ecdc91bd4604d2b9de7d7de4fa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106536915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848532"
 ---
 # <a name="drm_license_state_data-structure-drmexternalsh"></a>Structure DRM_LICENSE_STATE_DATA (Drmexternals. h)
 
@@ -108,7 +108,7 @@ Zéro, un ou plusieurs des indicateurs suivants combinés avec une **opération 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est retournée (encapsulée dans une structure de [**\_ données d' \_ état \_ de licence WM**](/previous-versions/windows/desktop/legacy/dd757942(v=vs.85)) ) à partir d’un appel à [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty) lorsque vous spécifiez l’une des propriétés d’état de licence DRM. Ces propriétés sont :
 
@@ -134,7 +134,7 @@ Dans certains cas, les utilisateurs ont peut-être émis plus d’une licence po
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                      |
-| Version<br/>                  | SDK Windows Media Format 7 ou versions ultérieures du kit de développement logiciel (SDK)<br/>                       |
+| Version<br/>                  | Windows Media Format 7 SDK ou les versions ultérieures du kit de développement logiciel (SDK)<br/>                       |
 | En-tête<br/>                   | <dl> <dt>Drmexternals. h</dt> </dl> |
 
 

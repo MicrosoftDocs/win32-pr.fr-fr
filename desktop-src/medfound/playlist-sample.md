@@ -4,12 +4,12 @@ ms.assetid: ffe663ce-3e9a-4dfc-8904-6f055332c119
 title: Exemple de sélection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f83d05762385d0de43a5d7f2bcd73cda2c6e2d51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e5cad2ef96c76512947a5b74e7eac54e3ad5787218e625f30fea5b8e5164177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239126"
 ---
 # <a name="playlist-sample"></a>Exemple de sélection
 
@@ -30,7 +30,7 @@ Cet exemple illustre les interfaces de Media Foundation suivantes :
 
 ## <a name="usage"></a>Utilisation
 
-L’exemple playlist génère une application Windows.
+l’exemple Playlist génère une application Windows.
 
 -   Pour créer une sélection, sélectionnez **Ajouter à la sélection** dans le menu **fichier** . Dans la boîte de dialogue **ouvrir un fichier** , sélectionnez un ou plusieurs fichiers audio. Les fichiers sont ajoutés à la sélection.
 -   Pour lire la séquence, cliquez sur **lire**.
@@ -57,7 +57,7 @@ Cet exemple est disponible aux emplacements suivants.
 
 
 
-| Emplacement                                                     | Chemin d’accès/URL                                                   |
+| Localisation                                                     | Chemin d’accès/URL                                                   |
 |--------------------------------------------------------------|------------------------------------------------------------|
 | [SDK Windows](https://www.microsoft.com/download/details.aspx?id=8279) | *Racine* \\ du SDK Exemples \\ de \\ playlist mediafoundation Multimedia \\ |
 

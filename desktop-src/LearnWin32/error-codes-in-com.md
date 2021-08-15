@@ -4,12 +4,12 @@ description: Codes d’erreur dans COM
 ms.assetid: ed430863-f416-4611-81b4-0c31d819944a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 733cbe0799a22b0f0c01ee9cb226ad7e0b8660da
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e6dd61208c9ae825999ec0dec024a8cc492b81cae426b1cc4143d694034204d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118388287"
 ---
 # <a name="error-codes-in-com"></a>Codes d’erreur dans COM
 
@@ -22,7 +22,7 @@ Cela produit les plages numériques suivantes :
 
 Un petit nombre de méthodes COM ne retournent pas de valeur **HRESULT** . Par exemple, les méthodes [**AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) et [**Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) retournent des valeurs long non signées. Toutefois, chaque méthode COM qui retourne un code d’erreur en retournant une valeur **HRESULT** .
 
-Pour vérifier si une méthode COM est réussie, examinez le bit de poids fort de la valeur **HRESULT** retournée. Les en-têtes SDK Windows fournissent deux macros qui facilitent cette opération : la macro [**Succeeded**](/windows/desktop/api/winerror/nf-winerror-succeeded) et la macro qui [**a échoué**](/windows/desktop/api/winerror/nf-winerror-failed) . La macro **Succeeded** retourne la **valeur true** si un **HRESULT** est un code de réussite et **false** s’il s’agit d’un code d’erreur. L’exemple suivant vérifie si [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) est correctement effectué.
+Pour vérifier si une méthode COM est réussie, examinez le bit de poids fort de la valeur **HRESULT** retournée. les en-têtes SDK Windows fournissent deux macros qui facilitent cette opération : la macro [**SUCCEEDED**](/windows/desktop/api/winerror/nf-winerror-succeeded) et la macro qui [**a échoué**](/windows/desktop/api/winerror/nf-winerror-failed) . La macro **Succeeded** retourne la **valeur true** si un **HRESULT** est un code de réussite et **false** s’il s’agit d’un code d’erreur. L’exemple suivant vérifie si [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) est correctement effectué.
 
 
 ```C++

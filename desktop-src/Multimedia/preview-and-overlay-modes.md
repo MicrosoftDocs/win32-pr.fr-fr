@@ -11,12 +11,12 @@ keywords:
 - capPreviewScale macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af4dc293587160d950856fccb15709a11e9533bf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9359b1380c5d6efe049bc4bea52a08a92f880af5d35558f4e65e21070f20c0cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118372368"
 ---
 # <a name="preview-and-overlay-modes"></a>Modes d’aperçu et de superposition
 
@@ -36,9 +36,9 @@ Le mode superposition est une fonction matérielle qui affiche le contenu de la 
 
 Vous pouvez également définir la position de défilement de la trame vidéo dans la zone cliente de la fenêtre de capture pour le mode aperçu ou le mode superposition en envoyant le message de [**\_ \_ \_ défilement WM Cap Set**](wm-cap-set-scroll.md) (ou la macro [**capSetScrollPos**](/windows/desktop/api/Vfw/nf-vfw-capsetscrollpos) ) à une fenêtre de capture.
 
- 
+ 
 
- 
+ 
 
 
 

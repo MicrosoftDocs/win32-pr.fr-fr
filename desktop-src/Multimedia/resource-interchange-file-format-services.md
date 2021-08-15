@@ -14,12 +14,12 @@ keywords:
 - Bloc RIFF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50cca3792ccded248951065c7b69f2e50d27e0ba
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5967165996b2a7fb9ed9b40c9a1f3c5608cd3bb4eb1e6cf05ae351f6ce6f2a7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801924"
 ---
 # <a name="resource-interchange-file-format-services"></a>Services de format de fichier de l’échange de ressources
 
@@ -49,6 +49,6 @@ Les services d’e/s de fichier multimédia incluent deux fonctions que vous pou
 
 Pour créer un nouveau bloc, utilisez la fonction [**mmioCreateChunk**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiocreatechunk) pour écrire un en-tête de bloc à la position actuelle dans un fichier ouvert. Les fonctions **mmioAscend**, **mmioDescend** et **mmioCreateChunk** utilisent la structure [**MMCKINFO**](/windows/win32/api/mmiscapi/ns-mmiscapi-mmckinfo) pour spécifier et récupérer des informations sur les segments « riff ».
 
- 
+ 
 
- 
+ 

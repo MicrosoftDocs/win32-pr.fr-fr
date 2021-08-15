@@ -17,12 +17,12 @@ keywords:
 - DRM (gestion des droits numériques), WMStubDRM. lib
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4b2110708a28daae1e86ba3dac2ea1f18ad16fc
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 50c700629fd66fdf0aa8bb1ff837b968232cf9301c39b951dd0a74678c9f1312
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103723410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846100"
 ---
 # <a name="reading-protected-files"></a>Lecture des fichiers protégés
 
@@ -30,7 +30,7 @@ La lecture d’un fichier protégé par DRM ou d’un flux réseau implique la t
 
 Si un lecteur n’est pas compatible DRM (ne lie pas à une bibliothèque wmstubdrm. lib valide) l’appel de [**IWMReader :: Open**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open) échoue lorsqu’il tente d’ouvrir un fichier protégé et retourne \_ du \_ contenu protégé par le service NS \_ ou une erreur associée.
 
-Quand une application compatible DRM tente d’ouvrir un fichier protégé par DRM, le composant DRM recherche automatiquement une licence valide dans le système local. S’il en existe un, le composant DRM déchiffre automatiquement le fichier d’une manière totalement transparente pour l’application. L’action qu’une application peut effectuer sur le fichier déchiffré dépend des droits spécifiés dans la licence. Pour obtenir une description complète des droits possibles, consultez la documentation du kit de développement logiciel (SDK) Windows Media Rights Manager.
+Quand une application compatible DRM tente d’ouvrir un fichier protégé par DRM, le composant DRM recherche automatiquement une licence valide dans le système local. S’il en existe un, le composant DRM déchiffre automatiquement le fichier d’une manière totalement transparente pour l’application. L’action qu’une application peut effectuer sur le fichier déchiffré dépend des droits spécifiés dans la licence. pour obtenir une description complète des droits possibles, consultez la documentation Windows du kit de développement logiciel (SDK) Media rights Manager.
 
 Si l’application ne dispose pas d’une licence valide pour un fichier, le lecteur reçoit une notification d’État du composant DRM. L’application de lecteur peut ensuite lancer le processus d' [*acquisition de licence*](wmformat-glossary.md) . Après la réception d’une licence valide, le fichier est accessible. Les sections suivantes décrivent les tâches de base qu’une application doit effectuer lors de l’implémentation du processus d’acquisition de licence :
 
@@ -42,7 +42,7 @@ Si l’application ne dispose pas d’une licence valide pour un fichier, le lec
 > [!Note]  
 > DRM n’est pas pris en charge par la version x64 de ce kit de développement logiciel (SDK).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -60,9 +60,9 @@ Si l’application ne dispose pas d’une licence valide pour un fichier, le lec
 [**Activation de la prise en charge de DRM**](enabling-drm-support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

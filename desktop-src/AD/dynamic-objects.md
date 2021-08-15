@@ -1,22 +1,22 @@
 ---
 title: Objets dynamiques
-description: Dans Windows Server 2003 et les versions ultérieures de Windows, Active Directory Domain Services assurer la prise en charge du stockage des entrées dynamiques dans l’annuaire.
+description: dans Windows Server 2003 et versions ultérieures de Windows, Active Directory Domain Services assurer la prise en charge du stockage des entrées dynamiques dans l’annuaire.
 ms.assetid: ac5779b6-f226-414c-92a9-091719b1515b
 ms.tgt_platform: multiple
 keywords:
 - objets dynamiques AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d521dabda8f82cbdcd46c00b3041f150f390d60c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e74660728179365f6585bce2462cd22f2508e68318eb84312d039a431330329b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191717"
 ---
 # <a name="dynamic-objects"></a>Objets dynamiques
 
-Dans Windows Server 2003 et les versions ultérieures de Windows, Active Directory Domain Services assurer la prise en charge du stockage des entrées dynamiques dans l’annuaire. Une entrée dynamique est un objet du répertoire qui a une valeur de durée de vie (TTL, Time-to-Live) associée. La durée de vie d’une entrée est définie lors de la création de l’entrée. La durée de vie est décrémentée automatiquement, et lorsqu’elle expire, l’entrée dynamique disparaît. Le client peut faire en sorte qu’une entrée dynamique reste plus longue que sa durée de vie restante en actualisant (en modifiant) sa valeur TTL. Les clients qui stockent des données dynamiques dans l’annuaire doivent actualiser régulièrement ces données pour empêcher leur disparition.
+dans Windows Server 2003 et versions ultérieures de Windows, Active Directory Domain Services assurer la prise en charge du stockage des entrées dynamiques dans l’annuaire. Une entrée dynamique est un objet du répertoire qui a une valeur de durée de vie (TTL, Time-to-Live) associée. La durée de vie d’une entrée est définie lors de la création de l’entrée. La durée de vie est décrémentée automatiquement, et lorsqu’elle expire, l’entrée dynamique disparaît. Le client peut faire en sorte qu’une entrée dynamique reste plus longue que sa durée de vie restante en actualisant (en modifiant) sa valeur TTL. Les clients qui stockent des données dynamiques dans l’annuaire doivent actualiser régulièrement ces données pour empêcher leur disparition.
 
 De nombreux services et applications qui utilisent le protocole LDAP pour stocker et accéder à des données relativement statiques et globalement intéressantes à partir d’un serveur de Active Directory préfèrent également continuer à utiliser l’accès LDAP pour leurs besoins en données dynamiques. En outre, pour certaines applications, il peut être souhaitable de décharger la tâche des objets de garbage collection dans le DS qui ont une durée de vie limitée au service d’annuaire. Les partitions de l’annuaire d’applications (avec la possibilité d’un positionnement contrôlé des réplicas) et l’authentification TTLs par objet permettent d’héberger des données dynamiques dans Active Directory Domain Services, ce qui permet d’y accéder via LDAP.
 
@@ -29,16 +29,16 @@ Dans l’implémentation réelle, **entryTTL** est un attribut construit. L’he
 Tous les objets dynamiques présentent les limitations suivantes :
 
 -   Un objet dynamique supprimé en raison de sa durée de vie expirée ne laisse pas de désactivation tombstone.
--   Tous les contrôleurs de contrôleur contenant des réplicas d’objets dynamiques doivent s’exécuter sur Windows Server 2003.
+-   tous les contrôleurs de contrôleur contenant des réplicas d’objets dynamiques doivent s’exécuter sur Windows Server 2003.
 -   Les entrées dynamiques avec des valeurs TTL sont prises en charge dans toutes les partitions, à l’exception de la partition de configuration et de schéma.
 -   Active Directory Domain Services ne publiez pas l’attribut facultatif **dynamicSubtrees** , comme décrit dans la RFC 2589, dans l’objet DSE racine.
 -   Les entrées dynamiques sont gérées de la même façon que les entrées non dynamiques lors du traitement des opérations de recherche, de comparaison, d’ajout, de suppression, de modification et de modifyDN.
 -   Il n’existe aucun moyen de modifier une entrée statique en entrée dynamique, et vice-versa.
 -   Une entrée non dynamique ne peut pas être ajoutée subordonnée à une entrée dynamique.
 
- 
+ 
 
- 
+ 
 
 
 

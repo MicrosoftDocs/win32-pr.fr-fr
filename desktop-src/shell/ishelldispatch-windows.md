@@ -1,7 +1,7 @@
 ---
-description: 'Méthode IShellDispatch. Windows : crée et retourne un objet ShellWindows. Cet objet représente une collection de toutes les fenêtres ouvertes qui appartiennent au shell.'
+description: IShellDispatch. Windows méthode-crée et retourne un objet ShellWindows. Cet objet représente une collection de toutes les fenêtres ouvertes qui appartiennent au shell.
 ms.assetid: 788E2106-3534-4e22-801F-677FD02BDFE0
-title: Méthode IShellDispatch. Windows (shldisp. h)
+title: IShellDispatch. méthode Windows (Shldisp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,14 +13,14 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 16991d6a251909e8f3b277894a96e6ad08a7f9a4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f17e6f9ff4a8118043cf452af0647b78c7d2c4365f83a497481ee97236edb21c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118221630"
 ---
-# <a name="ishelldispatchwindows-method"></a>IShellDispatch. Windows, méthode
+# <a name="ishelldispatchwindows-method"></a>IShellDispatch. méthode Windows
 
 Crée et retourne un objet [**ShellWindows**](shellwindows.md) . Cet objet représente une collection de toutes les fenêtres ouvertes qui appartiennent au shell.
 
@@ -45,7 +45,7 @@ IShellDispatch.Windows() As IDispatch
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -59,15 +59,15 @@ Type : **[ **IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)\*\***
 
 Référence d’objet à l’objet [**ShellWindows**](shellwindows.md) .
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
-Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. Windows**](shell-windows.md) .
+cette méthode est implémentée et accessible par le biais de la méthode [**Shell. Windows**](shell-windows.md) .
 
 ## <a name="examples"></a>Exemples
 
-Les exemples suivants utilisent **Windows** pour récupérer l’objet [**ShellWindows**](shellwindows.md) et afficher le nombre d’éléments qu’il contient. L’utilisation est indiquée pour JScript, VBScript et Visual Basic.
+les exemples suivants utilisent **Windows** pour récupérer l’objet [**ShellWindows**](shellwindows.md) et afficher le nombre d’éléments qu’il contient. l’utilisation est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -141,7 +141,7 @@ End Sub
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

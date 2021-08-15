@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103645
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 66b6ada105e6f6d12cb754f288478e85d75a07e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0669d00b9c28e5299c5b9f55f0931ec7d22921eddad5e2b6b4876199057d111d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118254266"
 ---
 # <a name="jet_indexcreate-properties"></a>Propriétés de la JET_INDEXCREATE
 
@@ -40,7 +40,7 @@ Le type de [JET_INDEXCREATE](./jet-indexcreate-class.md) expose les membres suiv
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
 <td><a href="dn335156(v=exchg.10).md">cbKeyMost</a></td>
-<td>Obtient ou définit la taille maximale autorisée, en octets, pour les clés dans l’index. La taille de clé maximale prise en charge minimale est JET_cbKeyMostMin (255) qui est la taille de clé maximale héritée. La taille de clé maximale dépend de la taille de page de la base de données <a href="hh596135(v=exchg.10).md">DatabasePageSize</a>. La <a href="dn351156(v=exchg.10).md">taille de clé</a>maximale peut être récupérée avec. Ce paramètre est ignoré sur Windows XP et Windows Server 2003. Contrairement à l’API non managée, <strong>IndexKeyMost ()</strong> (JET_bitIndexKeyMost) n’est pas nécessaire, elle est ajoutée automatiquement.</td>
+<td>Obtient ou définit la taille maximale autorisée, en octets, pour les clés dans l’index. La taille de clé maximale prise en charge minimale est JET_cbKeyMostMin (255) qui est la taille de clé maximale héritée. La taille de clé maximale dépend de la taille de page de la base de données <a href="hh596135(v=exchg.10).md">DatabasePageSize</a>. La <a href="dn351156(v=exchg.10).md">taille de clé</a>maximale peut être récupérée avec. ce paramètre est ignoré sur Windows XP et Windows Server 2003. Contrairement à l’API non managée, <strong>IndexKeyMost ()</strong> (JET_bitIndexKeyMost) n’est pas nécessaire, elle est ajoutée automatiquement.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>

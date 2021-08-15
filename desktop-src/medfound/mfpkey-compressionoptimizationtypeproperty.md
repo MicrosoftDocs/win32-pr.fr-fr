@@ -1,19 +1,19 @@
 ---
-description: Spécifie les paramètres de qualité visuelle optimaux à utiliser pour l’encodeur de profil avancé Windows Media Video 9.
+description: spécifie les paramètres de qualité visuelle optimaux à utiliser pour l’encodeur de profil avancé Windows Media Video 9.
 ms.assetid: 9449b5fa-4f13-4c33-bfdf-611720e8dd77
 title: MFPKEY_COMPRESSIONOPTIMIZATIONTYPE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3000caa10aa7db7d201cd11fd9a189fd6ac33591
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c7171990280fe004b12c306a09af3b617ba2de0a7cfa274edb3d9191b16a886
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118242878"
 ---
 # <a name="mfpkey_compressionoptimizationtype-property"></a>MFPKEY \_ propriété COMPRESSIONOPTIMIZATIONTYPE
 
-Spécifie les paramètres de qualité visuelle optimaux à utiliser pour l’encodeur de profil avancé Windows Media Video 9.
+spécifie les paramètres de qualité visuelle optimaux à utiliser pour l’encodeur de profil avancé Windows Media Video 9.
 
 ## <a name="constant-for-ipropertybag"></a>Constante pour IPropertyBag
 
@@ -70,7 +70,7 @@ Si vous définissez l’une des propriétés de la liste précédente, la valeur
 
  
 
-Si vous affectez la valeur \_ 1 à la propriété MFPKEY COMPRESSIONOPTIMIZATIONTYPE, cela a également pour effet de définir le paramètre de Registre option DQuant sur 2 et le paramètre de Registre méthode de coût du vecteur de mouvement sur 1. Pour plus d’informations, consultez l’article Web [à l’aide des paramètres avancés du codec du profil avancé Windows Media Video 9](https://www.microsoft.com/windows/windowsmedia/howto/articles/codecadvancedsettings.aspx).
+Si vous affectez la valeur \_ 1 à la propriété MFPKEY COMPRESSIONOPTIMIZATIONTYPE, cela a également pour effet de définir le paramètre de Registre option DQuant sur 2 et le paramètre de Registre méthode de coût du vecteur de mouvement sur 1. pour plus d’informations, consultez l’article web [à l’aide de l’Paramètres avancé du Codec de profil avancé Windows Media Video 9](https://www.microsoft.com/windows/windowsmedia/howto/articles/codecadvancedsettings.aspx).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -78,8 +78,8 @@ Si vous affectez la valeur \_ 1 à la propriété MFPKEY COMPRESSIONOPTIMIZATION
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

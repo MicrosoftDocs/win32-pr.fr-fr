@@ -1,7 +1,7 @@
 - name: Arrêt du système
   href: system-shutdown.md
   items:
-    - name: Modifications de l’arrêt de Windows Vista
+    - name: modifications de l’arrêt pour Windows Vista
       href: shutdown-changes-for-windows-vista.md
     - name: À propos de l’arrêt du système
       href: about-system-shutdown.md

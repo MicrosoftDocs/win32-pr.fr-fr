@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 3ab89f00f254778a2417644d894f1e9e81eb43cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c703150069bc839f2d20024c0de8f3197fba09c5c3571e3de818dec3f3d6737c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860327"
 ---
 # <a name="foldergetdetailsof-method"></a>Folder. GetDetailsOf, méthode
 
@@ -126,22 +126,22 @@ Récupère les informations d’info-bulle pour l’élément.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : **[**BSTR**](/previous-versions/windows/desktop/automat/bstr) \** _
+Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)\***
 
 Chaîne contenant le détail récupéré.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
-> Toutes les méthodes ne sont pas implémentées pour tous les dossiers. Par exemple, la méthode [_ *ParseName* *](folder-parsename.md) n’est pas implémentée pour le dossier du panneau de configuration ( \_ contrôles CSIDL). Si vous tentez d’appeler une méthode non implémentée, une erreur 0x800A01BD (Decimal 445) est générée.
+> Toutes les méthodes ne sont pas implémentées pour tous les dossiers. Par exemple, la méthode [**ParseName**](folder-parsename.md) n’est pas implémentée pour le dossier du panneau de configuration ( \_ contrôles CSIDL). Si vous tentez d’appeler une méthode non implémentée, une erreur 0x800A01BD (Decimal 445) est générée.
 
  
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **GetDetailsOf** pour récupérer le type du fichier nommé Clock.avi. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant utilise **GetDetailsOf** pour récupérer le type du fichier nommé Clock.avi. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -234,13 +234,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shlobj \_ Core. h (include shldisp. h)</dt> </dl>  |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

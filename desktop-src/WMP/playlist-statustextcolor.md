@@ -3,7 +3,7 @@ title: PLAYLIST. statusTextColor
 description: L’attribut statusTextColor spécifie ou récupère une valeur indiquant la couleur du texte d’État.
 ms.assetid: b88d52d6-db0b-4c57-8085-c997bf3648a6
 keywords:
-- Lecteur Windows Media PLAYLIST. statusTextColor
+- PLAYLIST. statusTextColor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 956ec0e9311e789de867cca38098221a7291c6fd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c92b0f42924468ad9bb75766b4dd847902a363259519b466962e294d26fc23c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118335676"
 ---
 # <a name="playliststatustextcolor"></a>PLAYLIST. statusTextColor
 

@@ -9,12 +9,12 @@ keywords:
 - index, indexation de fichiers ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7206e1856abb9705e18e885ba06cb8253a93c84b
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 08c2e41ed60ecb8fcee39da35dbc79ec44cece8db62f3e040d42aee3374c5690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106509633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845577"
 ---
 # <a name="to-index-an-asf-file"></a>Pour indexer un fichier ASF
 
@@ -103,9 +103,9 @@ g_hEvent = NULL;
 [**Utilisation des index**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

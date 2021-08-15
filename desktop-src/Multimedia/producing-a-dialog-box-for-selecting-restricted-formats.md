@@ -14,20 +14,20 @@ keywords:
 - sélection de formats restreints
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 800945f4003c0fbe47d7916e0a1bf707745ff6d8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 994fffa7ef13f6febe41eb766b4ecaef7eb735f11f58d36f37adfccbb152bffa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802039"
 ---
 # <a name="producing-a-dialog-box-for-selecting-restricted-formats"></a>Génération d’une boîte de dialogue pour la sélection de formats restreints
 
 Vous pouvez utiliser la boîte de dialogue créée par la fonction [**acmFormatChoose**](/windows/desktop/api/Msacm/nf-msacm-acmformatchoose) , mais limiter ou contrôler les formats dans la boîte de dialogue. Pour ce faire, vous pouvez utiliser l' \_ indicateur ACMFORMATCHOOSE STYLEF \_ ENABLEHOOK pour raccorder la procédure de dialogue. L’application peut ensuite filtrer les formats en répondant au message [**mm \_ ACM \_ FORMATCHOOSE**](mm-acm-formatchoose.md) dans la procédure de message de la boîte de dialogue.
 
- 
+ 
 
- 
+ 
 
 
 

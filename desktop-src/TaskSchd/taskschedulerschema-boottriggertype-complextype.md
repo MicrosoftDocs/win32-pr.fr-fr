@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d16634cacb9c17e5027ac9e6b6dd7abb26b78007
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc0b04bfaf08ecee87d02a2b410fd1df2fbbe584d5649a5e9fe2ea2e5efacebd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118131858"
 ---
 # <a name="boottriggertype-complex-type"></a>Type complexe bootTriggerType
 
@@ -48,11 +48,11 @@ Définit l’élément enfant et les informations de séquencement pour l’él�
 
 | Élément                                                            | Type     | Description                                                                                 |
 |--------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------|
-| [**Retard**](taskschedulerschema-delay-boottriggertype-element.md) | duration | Intervalle de temps entre le démarrage du système et le déclenchement du déclencheur. <br/> |
+| [**Retarder**](taskschedulerschema-delay-boottriggertype-element.md) | duration | Intervalle de temps entre le démarrage du système et le déclenchement du déclencheur. <br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En plus de l’élément enfant défini ici, l’élément [**BootTrigger**](taskschedulerschema-boottrigger-triggergroup-element.md) utilise également les éléments enfants définis par le type complexe [**triggerBaseType**](taskschedulerschema-triggerbasetype-complextype.md) .
 
@@ -62,8 +62,8 @@ En plus de l’élément enfant défini ici, l’élément [**BootTrigger**](tas
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

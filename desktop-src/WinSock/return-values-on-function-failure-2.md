@@ -4,12 +4,12 @@ ms.assetid: b46203dc-5666-413b-90fe-8432318f3037
 title: Valeurs de retour en cas d’échec de la fonction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b94280d47d705833528c03c0d98a4a31232a0c6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b277da114c8c86c53339590eeff3e831cbaf2a4277765bf53047b3d07991b026
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740931"
 ---
 # <a name="return-values-on-function-failure"></a>Valeurs de retour en cas d’échec de la fonction
 
@@ -28,7 +28,7 @@ Style BSD classique (ne fonctionne pas sur Windows)
 
 
 
-Style Windows
+Windows Style
 
 
 ```C++
@@ -64,7 +64,7 @@ Style Windows
 [Considérations sur la programmation Winsock](winsock-programming-considerations.md)
 </dt> <dt>
 
-[Codes d’erreur de Windows Sockets](windows-sockets-error-codes-2.md)
+[Windows Codes d’erreur des sockets](windows-sockets-error-codes-2.md)
 </dt> </dl>
 
  

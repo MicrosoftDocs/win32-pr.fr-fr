@@ -4,18 +4,18 @@ ms.assetid: ed40e201-c6ed-444f-bdaa-a5f33d1cc068
 title: 'Didacticiel : décodage de l’audio'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 539eb6d9f48419b62fa1c379c636abaf2bb0a63a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4ad5dbac47680c4d8faa73affa711b987edf220e05324d88cd0ffbda3bb93e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104568107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237662"
 ---
 # <a name="tutorial-decoding-audio"></a>Didacticiel : décodage de l’audio
 
 Ce didacticiel montre comment utiliser le [lecteur source](source-reader.md) pour décoder l’audio d’un fichier multimédia et écrire l’audio dans un fichier wave. Ce didacticiel est basé sur l’exemple de [clip audio](audio-clip-sample.md) .
 
--   [Vue d’ensemble](#overview)
+-   [Vue d'ensemble](#overview)
 -   [Fichiers d’en-tête et de bibliothèque](#header-and-library-files)
 -   [Implémenter wmain](#implement-wmain)
 -   [Écrire le fichier WAVE](#write-the-wave-file)
@@ -30,7 +30,7 @@ Ce didacticiel montre comment utiliser le [lecteur source](source-reader.md) pou
 
 Dans ce didacticiel, vous allez créer une application console qui prend deux arguments de ligne de commande : le nom d’un fichier d’entrée qui contient un flux audio et le nom du fichier de sortie. L’application lit cinq secondes de données audio à partir du fichier d’entrée et écrit l’audio dans le fichier de sortie en tant que données WAVE.
 
-Pour récupérer les données audio décodées, l’application utilise l’objet lecteur source. Le lecteur source expose l’interface [**IMFSourceReader**](/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader) . Pour écrire les données audio décodées dans le fichier WAVE, les applications utilisent les fonctions d’e/s de Windows. L’illustration suivante montre ce processus.
+Pour récupérer les données audio décodées, l’application utilise l’objet lecteur source. Le lecteur source expose l’interface [**IMFSourceReader**](/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader) . pour écrire les données audio décodées dans le fichier WAVE, les applications utilisent Windows fonctions d’e/s. L’illustration suivante montre ce processus.
 
 ![Diagramme montrant le lecteur source qui obtient les données audio du fichier source.](images/audio-clip-tutorial.gif)
 
@@ -41,13 +41,13 @@ Dans sa forme la plus simple, un fichier WAVE présente la structure suivante :
 | Type de données                              | Taille (octets) | Valeur                                                                 |
 |----------------------------------------|--------------|-----------------------------------------------------------------------|
 | **FOURCC**                             | 4            | RÉPARTITION                                                                |
-| **GRANDE**                              | 4            | Taille totale du fichier, à l’exclusion des 8 premiers octets                      |
+| **DWORD**                              | 4            | Taille totale du fichier, à l’exclusion des 8 premiers octets                      |
 | **FOURCC**                             | 4            | Wave                                                                |
 | **FOURCC**                             | 4            | fmt                                                                |
-| **GRANDE**                              | 4            | Taille des données [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) qui suivent. |
+| **DWORD**                              | 4            | Taille des données [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) qui suivent. |
 | [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) | Variable       | En-tête de format audio.                                                  |
 | **FOURCC**                             | 4            | métadonnée                                                                |
-| **GRANDE**                              | 4            | Taille des données audio.                                               |
+| **DWORD**                              | 4            | Taille des données audio.                                               |
 | **POIDS**\[\]                           | Variable       | Données audio.                                                           |
 
 
@@ -424,7 +424,7 @@ HRESULT WriteWaveHeader(
 
 
 
-La `WriteToFile` fonction est une fonction d’assistance simple qui encapsule la fonction **WriteFile** Windows et retourne une valeur **HRESULT** .
+la `WriteToFile` fonction est une fonction d’assistance simple qui encapsule le Windows fonction **WriteFile** et retourne une valeur **HRESULT** .
 
 
 ```C++

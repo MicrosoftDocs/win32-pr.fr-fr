@@ -4,12 +4,12 @@ ms.assetid: e97a5c68-6d4a-44af-8096-22680f8b16b8
 title: Stratégie de métadonnées de photo System. image. CompressedBitsPerPixel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b45b3b1e8b29cdf992cd3b451a2e8a43947139a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a18cc76e22c5c409e19e08fc5a2e667ad374348bc753ffa85cd09003a8bdaf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118032708"
 ---
 # <a name="systemimagecompressedbitsperpixel-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. image. CompressedBitsPerPixel
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. image. Comp
 
 Image de la \_ \_ CompressedBitsPerPixel
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -41,7 +41,7 @@ Cette valeur est générée à partir de System. image. CompressedBitsPerPixelNu
 
 
 
-| Commande | Chemin d’accès                             | Format de disque |
+| Commande | Chemin                             | Format de disque |
 |-------|----------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37122}    |             |
 | 2     | /xmp/exif:CompressedBitsPerPixel |             |
@@ -54,7 +54,7 @@ Cette valeur est générée à partir de System. image. CompressedBitsPerPixelNu
 
 
 
-| Commande | Chemin d’accès                             |
+| Commande | Chemin                             |
 |-------|----------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37122}    |
 | 2     | /xmp/exif:compressedbitsperpixel |
@@ -69,7 +69,7 @@ Cette valeur est générée à partir de System. image. CompressedBitsPerPixelNu
 
 
 
-| Commande | Chemin d’accès                                 | Format de disque |
+| Commande | Chemin                                 | Format de disque |
 |-------|--------------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37122}             |             |
 | 2     | /ifd/xmp/exif:CompressedBitsPerPixel |             |
@@ -82,7 +82,7 @@ Cette valeur est générée à partir de System. image. CompressedBitsPerPixelNu
 
 
 
-| Commande | Chemin d’accès                                 |
+| Commande | Chemin                                 |
 |-------|--------------------------------------|
 | 1     | /IFD/EXIF/{UShort = 37122}             |
 | 2     | /ifd/xmp/exif:compressedbitsperpixel |
@@ -91,7 +91,7 @@ Cette valeur est générée à partir de System. image. CompressedBitsPerPixelNu
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

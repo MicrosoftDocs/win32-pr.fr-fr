@@ -4,12 +4,12 @@ description: Chaque extension de classe d’assistance est associée à un certa
 ms.assetid: 9ff3266d-5ffc-4a00-be24-2f85461c6ea6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f211517a975bdef61db7937fffa95f13beddc156
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6457e144abdeb1dbed1e33bb10e21302f918da8cdc5a6fd2090f3665e83f0316
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117798496"
 ---
 # <a name="registering-ndf-helper-class-extensions"></a>Inscription des extensions de classe d’assistance NDF
 
@@ -39,7 +39,7 @@ La procédure suivante montre comment ajouter des extensions de classe d’assis
 
     
 
-     
+     
 
 2.  Sous chaque clé de *nom de classe d’assistance* , publiez les informations suivantes.
 
@@ -54,7 +54,7 @@ La procédure suivante montre comment ajouter des extensions de classe d’assis
 
     
 
-     
+     
 
 3.  Pour chaque classe d’assistance, publiez la liste des attributs correspondants en créant une clé sous
 
@@ -68,11 +68,11 @@ La procédure suivante montre comment ajouter des extensions de classe d’assis
 
     
 
-     
+     
 
- 
+ 
 
- 
+ 
 
 
 

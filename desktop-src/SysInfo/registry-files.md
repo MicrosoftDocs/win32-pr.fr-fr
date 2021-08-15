@@ -4,12 +4,12 @@ ms.assetid: a71a564d-934a-46e8-b555-989a6fa82337
 title: Fichiers du Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44916618946f6541495186aa5843799c9b864fbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3a5caa34a075e4bffe48a542d02eec896ab28dd93fbdc2745dbc5a08effb9d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763812"
 ---
 # <a name="registry-files"></a>Fichiers du Registre
 
@@ -19,9 +19,9 @@ Pour enregistrer une clé et ses sous-clés et valeurs dans un fichier de Regist
 
 [**RegSaveKey**](/windows/desktop/api/Winreg/nf-winreg-regsavekeya) et [**RegSaveKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regsavekeyexa) créent le fichier avec l’attribut archive. Le fichier est créé dans le répertoire actif du processus pour une clé locale, et dans le répertoire% SystemRoot% \\ system32 pour une clé distante.
 
-Les fichiers du Registre ont les deux formats suivants : standard et latest. Le format standard est le seul format pris en charge par Windows 2000. Elle est également prise en charge par les versions ultérieures de Windows pour la compatibilité descendante. [**RegSaveKey**](/windows/desktop/api/Winreg/nf-winreg-regsavekeya) crée des fichiers au format standard.
+Les fichiers du Registre ont les deux formats suivants : standard et latest. le format standard est le seul format pris en charge par Windows 2000. elle est également prise en charge par les versions ultérieures de Windows à des fins de compatibilité descendante. [**RegSaveKey**](/windows/desktop/api/Winreg/nf-winreg-regsavekeya) crée des fichiers au format standard.
 
-Le format le plus récent est pris en charge à partir de Windows XP. Les fichiers de Registre créés dans ce format ne peuvent pas être chargés sur Windows 2000. [**RegSaveKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regsavekeyexa) peut enregistrer les fichiers du Registre dans l’un ou l’autre format en spécifiant le format reg \_ standard \_ ou le \_ format reg latest \_ . Par conséquent, il peut être utilisé pour convertir les fichiers de Registre qui utilisent le format standard au format le plus récent.
+le format le plus récent est pris en charge à partir de Windows XP. les fichiers de registre créés dans ce format ne peuvent pas être chargés sur Windows 2000. [**RegSaveKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regsavekeyexa) peut enregistrer les fichiers du Registre dans l’un ou l’autre format en spécifiant le format reg \_ standard \_ ou le \_ format reg latest \_ . Par conséquent, il peut être utilisé pour convertir les fichiers de Registre qui utilisent le format standard au format le plus récent.
 
 Pour réécrire le fichier de Registre dans le registre, une application peut utiliser les fonctions [**RegLoadKey**](/windows/desktop/api/Winreg/nf-winreg-regloadkeya), [**RegReplaceKey**](/windows/desktop/api/Winreg/nf-winreg-regreplacekeya)ou [**RegRestoreKey**](/windows/desktop/api/Winreg/nf-winreg-regrestorekeya) comme suit.
 

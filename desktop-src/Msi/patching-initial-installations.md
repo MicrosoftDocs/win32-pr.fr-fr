@@ -1,19 +1,19 @@
 ---
-description: Un correctif Windows Installer (MSP) peut être appliqué lors de l’installation d’une application pour la première fois à l’aide de la propriété PATCH.
+description: un correctif Windows Installer (MSP) peut être appliqué lors de l’installation d’une application pour la première fois à l’aide de la propriété Patch.
 ms.assetid: 2c4b9d5a-34fb-4a0b-b530-30bf238468fd
 title: Mise à jour corrective des installations initiales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa85e15da18f7342f38cf82228bc31b6e3085f09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddf89c3a83a6000a5716b5317a9fc2965562c217b110b020a2795573f8175235
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118377632"
 ---
 # <a name="patching-initial-installations"></a>Mise à jour corrective des installations initiales
 
-Un correctif Windows Installer (MSP) peut être appliqué lors de l’installation d’une application pour la première fois à l’aide de la propriété [**patch**](patch.md) .
+un correctif Windows Installer (MSP) peut être appliqué lors de l’installation d’une application pour la première fois à l’aide de la propriété [**Patch**](patch.md) .
 
 Pour appliquer un correctif lors de la première installation de l’application, vous devez définir la propriété [**patch**](patch.md) sur la ligne de commande. Spécifiez le chemin d’accès complet au correctif sur la ligne de commande en tant que paire propriété-valeur « PATCH = {*path to patch*} ».
 
@@ -48,7 +48,7 @@ Installer.InstallProduct "package.msi", "PATCH=c:\directory\patch.msp"
 
 * * Windows Installer 3,0 et versions ultérieures : * *
 
-À partir de Windows Installer version 3,0, plusieurs correctifs peuvent être appliqués lors de l’installation d’une application pour la première fois. Définissez la propriété [**patch**](patch.md) sur une liste délimitée par des points-virgules des chemins d’accès complets des correctifs. L’exemple suivant illustre la première mise à jour corrective de plusieurs correctifs à partir de la ligne de commande.
+à partir de Windows Installer version 3,0, plusieurs correctifs peuvent être appliqués lors de l’installation d’une application pour la première fois. Définissez la propriété [**patch**](patch.md) sur une liste délimitée par des points-virgules des chemins d’accès complets des correctifs. L’exemple suivant illustre la première mise à jour corrective de plusieurs correctifs à partir de la ligne de commande.
 
 **msiexec/i** *package.msi* **patch =**_"c : \\ Directory \\ patch. msp ; c : \\ répertoire \\ patch2. msp ; c : \\ Directory \\ patch3. msp"_
 

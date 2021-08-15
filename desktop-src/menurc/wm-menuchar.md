@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a278e4a1b4333631741a6a542318a8a55e40b512
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5d276418636857fb7ce76159111b8e8b24519235823225fccb68fa1523b4137d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869608"
 ---
 # <a name="wm_menuchar-message"></a>\_Message WM MENUCHAR
 
@@ -80,7 +80,7 @@ Une application qui traite ce message doit retourner l’une des valeurs suivant
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le mot de poids faible est ignoré si le mot de poids fort contient 0 ou 1.
 
