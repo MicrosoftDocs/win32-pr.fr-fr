@@ -5,8 +5,8 @@ ms.assetid: b84b82fa-0b2e-418e-850f-6d7a4749fdc1
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode EnumerationFlagHierarchyDeep
-- Méthode EnumerationFlagHierarchyDeep Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode EnumerationFlagHierarchyDeep
+- méthode EnumerationFlagHierarchyDeep Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode EnumerationFlagHierarchyDeep
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61982c6117d0a91ec253af35657f0cbbf5af12c0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38ccd7aa4884a916a9b8ae8d364679263fa0b217dccef1065c58c332678b9f07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742592"
 ---
 # <a name="wsmanenumerationflaghierarchydeep-method"></a>Méthode WSMan. EnumerationFlagHierarchyDeep
 

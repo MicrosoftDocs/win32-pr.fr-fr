@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 37e8227a545975a6193be63a8bd363e10e9805f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d56bc65bba5728c95521a53a51ad77f34b710d3cddcb987f5209d28619870f34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118391628"
 ---
 # <a name="typetext-method-of-the-msvm_keyboard-class"></a>Méthode TypeText de la \_ classe de clavier MSVM
 
@@ -106,7 +106,7 @@ Le **système n’est pas disponible** (32777)
 **Mémoire insuffisante** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe de [**\_ clavier MSVM**](msvm-keyboard.md) peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -191,7 +191,7 @@ namespace HyperVSamples
 
 
 
-L’exemple de Visual Basic Scripting Edition (VBScript) suivant simule le texte tapé.
+l’exemple VBScript (Visual Basic scripting Edition) suivant simule le texte tapé.
 
 
 ```VB
@@ -328,8 +328,8 @@ End Function
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

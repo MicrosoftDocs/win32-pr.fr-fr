@@ -3,12 +3,12 @@ description: De nombreuses applications du panneau de configuration affichent un
 title: Comment inscrire et implémenter un gestionnaire de feuille de propriétés pour une application du panneau de configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47f7f8fe80bf5c7baceddac64d513d950378bcdf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6865e8e50aefdea3e3d25c29c9abd3bbbabf5c6af3b770537ed187f8b055bdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859588"
 ---
 # <a name="how-to-register-and-implement-a-property-sheet-handler-for-a-control-panel-application"></a>Comment inscrire et implémenter un gestionnaire de feuille de propriétés pour une application du panneau de configuration
 
@@ -21,7 +21,7 @@ Les gestionnaires de feuille de propriétés pour les applications du panneau de
 -   Elles sont appelées par une application du panneau de configuration, et non par l’interpréteur de commandes.
 -   Ils sont enregistrés différemment.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
@@ -75,13 +75,13 @@ Quand une application du panneau de configuration est sur le présent d’affich
 | CPLPAGE \_ souris \_ PTRMOTION    | La page de mouvement     | Souris                     |
 | \_roulette de la souris CPLPAGE \_        | Page de la roulette      | Souris                     |
 | \_Vitesse du clavier CPLPAGE \_     | Page Vitesse      | Clavier                  |
-| \_ \_ arrière-plan d’affichage CPLPAGE | Page d’arrière-plan | Afficher                   |
+| \_ \_ arrière-plan d’affichage CPLPAGE | Page d’arrière-plan | Affichage                   |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La procédure de création et de remplacement d’une page est identique à celle de l’ajout d’une page. Pour plus d’informations, consultez [comment inscrire et implémenter un gestionnaire de feuille de propriétés pour un type de fichier](how-to-register-and-implement-a-property-sheet-handler-for-a-file-type.md).
 

@@ -1,19 +1,19 @@
 ---
-description: Vous trouverez ci-dessous des informations sur les choix à prendre en compte lors de la personnalisation des vignettes d’application de bureau pour Windows 8, notamment comment concevoir des vignettes d’application de bureau pour le nouvel écran d’accueil et comment choisir les points d’entrée à afficher dans l’écran d’accueil.
+description: vous trouverez ci-dessous des informations sur les choix à prendre en compte lors de la personnalisation des vignettes des applications de bureau pour Windows 8 notamment comment concevoir des vignettes d’application de bureau pour le nouvel écran d’accueil et comment choisir les points d’entrée à afficher dans l’écran d’accueil.
 ms.assetid: EF5182A2-09B2-46F2-B55E-4BD212CC1F7F
 title: Vignettes de l’application de bureau sur l’écran d’accueil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fcc5475732926300e2125ae9e97ea2d188bc468
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 44ed35bd5c8405301e872ef54774914d625e1fc06c6a9fc3c26965e130301eac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104321369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117861220"
 ---
 # <a name="desktop-app-tiles-on-the-start-screen"></a>Vignettes de l’application de bureau sur l’écran d’accueil
 
-Vous trouverez ci-dessous des informations sur les choix à prendre en compte lors de la personnalisation des vignettes d’application de bureau pour Windows 8, notamment comment concevoir des vignettes d’application de bureau pour le nouvel écran d’accueil et comment choisir les points d’entrée à afficher dans l’écran d’accueil.
+vous trouverez ci-dessous des informations sur les choix à prendre en compte lors de la personnalisation des vignettes des applications de bureau pour Windows 8 notamment comment concevoir des vignettes d’application de bureau pour le nouvel écran d’accueil et comment choisir les points d’entrée à afficher dans l’écran d’accueil.
 
 ## <a name="design-your-tile-for-the-start-screen"></a>Concevoir votre vignette pour l’écran de démarrage
 
@@ -29,7 +29,7 @@ DO : fournissez des icônes pour les quatre valeurs d’échelle d’écran de 
 
 | Scale | Taille de la vignette (en pixels) | Taille d’icône utilisée (en pixels) |
 |-------|-----------------------|----------------------------|
-| 80 %   | 120 x 120             | 48 x 48                    |
+| 80 %   | 120 x 120             | 48 x 48                    |
 | 100 %  | 150 x 150             | 64 x 64                    |
 | 140%  | 210 x 210             | 96 x 96                    |
 | 180%  | 270 x 270             | 128 x 128                  |
@@ -38,9 +38,9 @@ DO : fournissez des icônes pour les quatre valeurs d’échelle d’écran de 
 
  
 
-DO : Adoptez les principes de conception Microsoft. La nouvelle apparence pour les icônes est plate. par conséquent, si vous souhaitez imiter les icônes d’application du Windows Store pour votre application de bureau, pensez à prendre des ombres portées, et ainsi de suite.
+DO : Adoptez les principes de conception Microsoft. la nouvelle apparence pour les icônes est plate. par conséquent, si vous souhaitez reproduire Windows icônes de l’application du Store pour votre application de bureau, pensez à prendre des ombres portées, et ainsi de suite.
 
-NE pas : Évitez d’utiliser la couleur. Alors que les icônes d’application du Windows Store sont parfois monochromatiques, nous vous recommandons d’utiliser des icônes de couleur pour les applications de bureau. Cela permet de différencier les applications de bureau de la barre des tâches et d’autres vignettes de l’application de bureau dans l’écran d’accueil, car la couleur d’arrière-plan des vignettes du Bureau ne peut pas être personnalisée. Envisagez d’utiliser des couleurs plus saturées.
+NE pas : Évitez d’utiliser la couleur. bien que les icônes de l’application Windows Store soient parfois monochromatiques, nous vous recommandons d’utiliser des icônes de couleur pour les applications de bureau. Cela permet de différencier les applications de bureau de la barre des tâches et d’autres vignettes de l’application de bureau dans l’écran d’accueil, car la couleur d’arrière-plan des vignettes du Bureau ne peut pas être personnalisée. Envisagez d’utiliser des couleurs plus saturées.
 
 ## <a name="decide-the-right-entry-points-to-include-in-the-start-screen"></a>Choisir les points d’entrée appropriés à inclure dans l’écran d’accueil
 
@@ -48,9 +48,9 @@ DO : ajouter un raccourci par application dans l’écran d’accueil lors de l
 
 ![Diagramme illustrant une grille avec une vignette d’application, des dimensions et un « Segoe U I Semilight » pour indiquer la police utilisée.](images/tiles-desktop-2.png)
 
-NE pas : ne pas fournir plusieurs raccourcis vers la même application. Par exemple, n’avez pas deux raccourcis qui lancent une application dans deux modes différents, tels qu’un pour Windows Internet Explorer et un autre pour Internet Explorer sans modules complémentaires.
+NE pas : ne pas fournir plusieurs raccourcis vers la même application. par exemple, n’avez pas deux raccourcis qui lancent une application dans deux modes différents, par exemple un pour Windows internet explorer et l’autre pour internet explorer sans modules complémentaires.
 
-DO : réduire le nombre de vignettes ajoutées dans le cadre de l’installation. Envisagez d’exposer d’autres points d’entrée aux applications superflues. Par exemple, au lieu d’inclure une application de paramètres distincte avec une application console, accédez aux paramètres via une fonctionnalité de l’application console.
+DO : réduire le nombre de vignettes ajoutées dans le cadre de l’installation. Envisagez d’exposer d’autres points d’entrée aux applications superflues. par exemple, au lieu d’inclure une application Paramètres distincte avec une application console, accédez aux paramètres via une fonctionnalité de l’application console.
 
 NE pas : ne placez pas de raccourcis vers les éléments suivants sur l’écran d’accueil :
 
@@ -60,7 +60,7 @@ NE pas : ne placez pas de raccourcis vers les éléments suivants sur l’écra
 -   Sites Web. Fournissez les liens appropriés vers des informations telles que des sites d’aide et de support technique directement dans votre application.
 -   Assistants. Les assistants et d’autres tâches de configuration à usage unique doivent être lancés à partir de l’application.
 
-NE créez pas de raccourcis vers des fonctionnalités ou des fonctionnalités qui peuvent être lancées à partir de l’application elle-même. Par exemple, les paramètres de langue peuvent être configurés à partir de n’importe quelle application Microsoft Office. il est donc inutile d’avoir un point d’entrée de paramètres de langue distinct sur l’écran d’accueil.
+NE créez pas de raccourcis vers des fonctionnalités ou des fonctionnalités qui peuvent être lancées à partir de l’application elle-même. par exemple, les Paramètres de langue peuvent être configurées à partir de n’importe quelle application Microsoft Office. il est donc inutile d’avoir un point d’entrée Paramètres langue distinct sur l’écran d’accueil.
 
 NE pas créer de raccourcis vers des éléments qui ne sont pas des fichiers exécutables. Les raccourcis qui ne correspondent pas à des fichiers exécutables, tels que des raccourcis qui lancent des sites Web ou des fichiers d’aide, sont filtrés à partir de l’écran d’accueil.
 

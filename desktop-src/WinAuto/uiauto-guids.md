@@ -4,12 +4,12 @@ description: Cette rubrique décrit les GUID utilisés avec la fonction UiaLooku
 ms.assetid: b8e9e33c-9781-4f50-bbb7-a9950409f2e6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c5203f63fa3f05e1d25e5623815101cd48ada34
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 361341b7a2c58d8e2ee2842bd0d9d7f50ed0680aa9845f84b7b70b905976f5d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324720"
 ---
 # <a name="deprecated-guids"></a>GUID déconseillés
 
@@ -18,7 +18,7 @@ Cette rubrique décrit les GUID utilisés avec la fonction [**UiaLookupId**](/wi
 > [!Note]  
 > La fonction [**UiaLookupId**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uialookupid) et les GUID décrits dans cette rubrique sont déconseillés. Au lieu de cela, les applications doivent utiliser les identificateurs décrits dans les sections suivantes :
 
- 
+ 
 
 -   [Identificateurs de modèle de contrôle](uiauto-controlpattern-ids.md)
 -   [Identificateurs de type de contrôle](uiauto-controltype-ids.md)
@@ -76,7 +76,7 @@ Les GUID PATTERNID qui représentent des modèles de contrôle dans la fonction 
 
 
 
- 
+ 
 
 ## <a name="controltypeid-guids"></a>GUID CONTROLTYPEID
 
@@ -128,7 +128,7 @@ Les GUID CONTROLTYPEID qui représentent les types de contrôle dans la fonction
 
 
 
- 
+ 
 
 ## <a name="eventid-guids"></a>GUID d’ID d’événement
 
@@ -173,7 +173,7 @@ Les GUID EVENTID qui représentent des événements Microsoft UI Automation dans
 
 
 
- 
+ 
 
 ## <a name="propertyid-guids"></a>GUID de PROPERTYID
 
@@ -334,7 +334,7 @@ Les GUIDs PROPERTYID qui représentent les propriétés UI Automation dans la fo
 
 
 
- 
+ 
 
 ## <a name="textattributeid-guids"></a>GUID TEXTATTRIBUTEID
 
@@ -387,11 +387,11 @@ Les GUID TEXTATTRIBUTEID qui représentent des attributs de texte dans la foncti
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,12 +3,12 @@ description: La qualité de service indique les performances et l’efficacité 
 title: Qualité de service
 ms.topic: article
 ms.date: 07/09/2021
-ms.openlocfilehash: 98c8b8c4fc340eb49b13d7bdfd9b2a611a8f7244
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: ec4e92360d23a427d526a36a81bfdb0667c1cb6fb5f60ddcefd578c4918ba5d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793463"
 ---
 # <a name="quality-of-service"></a>Qualité de service
 
@@ -23,10 +23,10 @@ Le système gère plusieurs niveaux de QoS, chacun avec des performances différ
 | Niveau de QoS | Description|Performances et puissance | Libérer |
 | --- | --- | --- | --- |
 | Élevé | Applications avec fenêtre qui sont au premier plan et activées, ou audibles, et baliser explicitement des processus avec [SetProcessInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation) ou des threads avec [SetThreadInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadinformation) | Haute performance standard. |1709 |
-| Moyenne | Applications à fenêtres qui peuvent être visibles par l’utilisateur final, mais qui ne sont pas activées. | Varie selon la plateforme, entre haut et bas. | 1709 |
+| Moyen | Applications à fenêtres qui peuvent être visibles par l’utilisateur final, mais qui ne sont pas activées. | Varie selon la plateforme, entre haut et bas. | 1709 |
 | Faible | Applications à fenêtres qui ne sont pas visibles ou audibles à l’utilisateur final. | Sur batterie, sélectionne la fréquence et les planifications de l’UC les plus efficaces pour un noyau efficace. | 1709 |
-| Écologique | Applications qui balisent explicitement des processus avec des [SetProcessInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation) ou des threads avec [SetThreadInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadinformation). | Sélectionne toujours la fréquence et les planifications d’UC les plus efficaces pour des cœurs efficaces. | Windows 11 |
-| Multimédia | Threads explicitement balisés par le [service Planificateur de classes multimédias](/windows/desktop/procthread/multimedia-class-scheduler-service) pour indiquer la mise en mémoire tampon des lots multimédias. | Fréquence du processeur réduite pour un traitement par lots efficace. | 2004 |
+| Écologique | Applications qui balisent explicitement des processus avec des [SetProcessInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation) ou des threads avec [SetThreadInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadinformation). | Sélectionne toujours la fréquence et les planifications d’UC les plus efficaces pour des cœurs efficaces. | Windows 11 |
+| Média | Threads explicitement balisés par le [service Planificateur de classes multimédias](/windows/desktop/procthread/multimedia-class-scheduler-service) pour indiquer la mise en mémoire tampon des lots multimédias. | Fréquence du processeur réduite pour un traitement par lots efficace. | 2004 |
 | Échéance | Les threads balisés explicitement par le [service Planificateur de classes multimédias](/windows/desktop/procthread/multimedia-class-scheduler-service) pour indiquer que les threads audio requièrent des performances pour respecter les échéances. | Hautes performances pour respecter les délais de support. | 2004 |
 
 ## <a name="quality-of-service-classification"></a>Classification de la qualité de service
@@ -38,5 +38,5 @@ Le tableau suivant indique les classifications de qualité de service prises en 
 | Fondation multimédia | Le [service Planificateur de classes multimédias](/windows/desktop/procthread/multimedia-class-scheduler-service) hiérarchise les ressources du processeur pour les scénarios multimédias. Le service marque les threads spécifiques responsables du traitement multimédia à l’aide des niveaux de QoS Media et échéance pour fournir une efficacité énergétique tout en respectant les délais de performance.  |
 | API | [SetProcessInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation) permet aux développeurs de baliser explicitement un processus en tant que HighQoS ou EcoQoS en basculant la `PROCESS_POWER_THROTTLING_EXECUTION_SPEED` fonctionnalité dans **ProcessPowerThrottling**.</br>[SetThreadInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation) permet aux développeurs de baliser explicitement un thread en tant que HighQoS ou EcoQoS en basculant la `THREAD_POWER_THROTTLING_EXECUTION_SPEED` fonctionnalité dans **ThreadPowerThrottling** .  |
 | Seraient | Les processus qui sont déterminés à la lecture de l’audio sont HighQoS. |
-| Visible | Les processus qui possèdent directement une fenêtre (ou qui sont des descendants de processus possédant des fenêtres) se voient attribuer un niveau de qualité de service en fonction de leur visibilité et de leur état de Focus :</br></br><table><tr><th>État de la fenêtre</th><th>Qualité de service</th></tr><tr><td>Dans le focus</td><td>Élevé</td></tr><tr><td>Visible</td><td>Moyenne</td></tr><tr><td>Réduit ou entièrement bloqués</td><td>Faible</td></tr></table> |
+| Visible | Les processus qui possèdent directement une fenêtre (ou qui sont des descendants de processus possédant des fenêtres) se voient attribuer un niveau de qualité de service en fonction de leur visibilité et de leur état de Focus :</br></br><table><tr><th>État de la fenêtre</th><th>Qualité de service</th></tr><tr><td>Dans le focus</td><td>Élevé</td></tr><tr><td>Visible</td><td>Moyen</td></tr><tr><td>Réduit ou entièrement bloqués</td><td>Faible</td></tr></table> |
 | Heuristique | Les threads qui ne sont pas classés par les sources ci-dessus reçoivent automatiquement un niveau de QoS par le système. Ces heuristiques incluent (mais ne sont pas limitées à) la priorité des threads, où les threads qui s’exécutent avec une priorité de thread réduite peuvent impliquer un niveau de QoS inférieur. |

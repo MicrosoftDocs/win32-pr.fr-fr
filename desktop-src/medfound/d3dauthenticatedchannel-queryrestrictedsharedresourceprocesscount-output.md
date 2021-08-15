@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 60568e7056ab9df7aafcec1cac7864685c7c6100
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52381f200bc691f47f6a473bd76c5e1b81f345bf0ca955e2d2f9591e95dccd33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117880138"
 ---
 # <a name="d3dauthenticatedchannel_queryrestrictedsharedresourceprocesscount_output-structure"></a>\_Structure de \_ sortie D3DAUTHENTICATEDCHANNEL QUERYRESTRICTEDSHAREDRESOURCEPROCESSCOUNT
 
@@ -62,8 +62,8 @@ Nombre de processus autorisés à ouvrir des ressources partagées qui ont un ac
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>D3d9types. h</dt> </dl> |
 
 

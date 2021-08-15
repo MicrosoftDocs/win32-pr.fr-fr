@@ -8,12 +8,12 @@ keywords:
 - ADSI, utilisation, authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad32b2f32f115b20c99e47578ad76b73ad72a123
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 19177153d8d66f3c27db5c0c2027faa2e02b213305d760d070f5af90b6ba1058
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104462723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117840556"
 ---
 # <a name="authentication-adsi"></a>Authentification (ADSI)
 
@@ -22,7 +22,7 @@ Dans ADSI, les informations d’identification qui se composent d’un nom d’u
 > [!Note]  
 > La fonction [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject) et la méthode [**IADsOpenDSObject :: OpenDSObject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) ne doivent pas être utilisées pour valider les informations d’identification de l’utilisateur. Pour plus d’informations sur la validation des informations d’identification de l’utilisateur, consultez l’article 180548 de la base de connaissances Microsoft [Comment : valider les informations d’identification de l’utilisateur sur les systèmes d’exploitation Microsoft](https://support.microsoft.com/kb/180548).
 
- 
+ 
 
 L’exemple de code suivant montre comment utiliser la méthode [**OpenDSObject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) pour authentifier un utilisateur.
 
@@ -50,9 +50,9 @@ CleanUp:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

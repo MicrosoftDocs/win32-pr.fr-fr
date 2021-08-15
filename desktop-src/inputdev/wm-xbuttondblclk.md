@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed0612c2850f784901f01313935145fc9d3d7910
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 48f15ed64871cee3b5a97ad8067e883d7ad31206896f6b20150acdb490a2f44c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118757148"
 ---
 # <a name="wm_xbuttondblclk-message"></a>\_Message WM XBUTTONDBLCLK
 
@@ -87,7 +87,7 @@ Le mot de poids fort spécifie la coordonnée y du curseur. La coordonnée est r
 
 Si une application traite ce message, elle doit retourner la **valeur true**. Pour plus d’informations sur le traitement de la valeur de retour, consultez la section Notes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez le code suivant pour récupérer les informations dans le paramètre *wParam* :
 
@@ -118,7 +118,7 @@ Comme indiqué ci-dessus, la coordonnée x est dans le sens le **plus** bas de l
 
 Seules les fenêtres qui ont le style **cs \_ DBLCLKS** peuvent recevoir des messages **WM \_ XBUTTONDBLCLK** , que le système génère chaque fois que l’utilisateur appuie sur, relâche, puis appuie à nouveau sur un bouton X dans la limite de temps du double-clic du système. Le fait de double-cliquer sur l’un de ces boutons génère en fait quatre messages : [**WM \_ XBUTTONDOWN**](wm-xbuttondown.md), [**WM \_ XBUTTONUP**](wm-xbuttonup.md), **WM \_ XBUTTONDBLCLK** et **WM \_ XBUTTONUP** .
 
-Contrairement aux [**messages \_ WM LBUTTONDBLCLK**](wm-lbuttondblclk.md), [**WM \_ MBUTTONDBLCLK**](wm-mbuttondblclk.md)et [**WM \_ RBUTTONDBLCLK**](wm-rbuttondblclk.md) , une application doit retourner la **valeur true** à partir de ce message si elle le traite. Cela permettra aux logiciels qui simulent ce message sur les systèmes Windows antérieurs à Windows 2000 de déterminer si la procédure de fenêtre a traité le message ou appelé [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) pour le traiter.
+Contrairement aux [**messages \_ WM LBUTTONDBLCLK**](wm-lbuttondblclk.md), [**WM \_ MBUTTONDBLCLK**](wm-mbuttondblclk.md)et [**WM \_ RBUTTONDBLCLK**](wm-rbuttondblclk.md) , une application doit retourner la **valeur true** à partir de ce message si elle le traite. cela permettra aux logiciels qui simulent ce message sur Windows systèmes antérieurs à Windows 2000 de déterminer si la procédure de fenêtre a traité le message ou appelé [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) pour le traiter.
 
 ## <a name="requirements"></a>Configuration requise
 

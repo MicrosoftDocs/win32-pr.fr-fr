@@ -4,12 +4,12 @@ description: Le gestionnaire de table de routage conserve un décompte de réfé
 ms.assetid: bcd02881-b021-414f-8a40-14baac5baac7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f24653dd98db9b0427e5a3bee3f2f6613a68ce41
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c701dbe8469baab54c427d42f9d603a976402ebb5693d1799989aeff74b65945
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117790602"
 ---
 # <a name="managing-handles"></a>Gestion des handles
 
@@ -20,13 +20,13 @@ Les fonctions [**RtmGetDestInfo**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetdes
 > [!Note]  
 > La fonction [**RtmReleaseChangedDests**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleasechangeddests) doit être utilisée pour libérer des handles qui ont été retournés par un appel à [**RtmGetChangedDests**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetchangeddests). N’utilisez pas [**RtmReleaseDests**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleasedests) pour les structures de destination modifiées.
 
- 
+ 
 
 Si un client doit conserver un handle spécifique dans une structure d’information tout en libérant le reste, le client peut appeler [**RtmReferenceHandles**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreferencehandles) avec ce handle avant de libérer la structure d’informations. Le descripteur peut ensuite être libéré par un appel aux fonctions [**RtmReleaseDestInfo**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleasedestinfo), [**RtmReleaseEntityInfo**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleaseentityinfo), [**RtmReleaseRouteInfo**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleaserouteinfo) et [**RtmRelaseNextHopInfo**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleasenexthopinfo) .
 
- 
+ 
 
- 
+ 
 
 
 

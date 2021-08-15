@@ -4,12 +4,12 @@ ms.assetid: e593e51f-c239-49e9-bba8-c6d8238eff24
 title: Événement MESessionEnded (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 447b222be48dccc0f190329ab0bb6d56d09b266e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1610acdb8adbf99c354d9bf09170cf3e90c2e3bcce7715f9a0bd7d164ed989d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117877502"
 ---
 # <a name="mesessionended-event"></a>Événement MESessionEnded
 
@@ -33,8 +33,8 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

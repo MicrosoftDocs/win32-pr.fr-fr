@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96b7c34d453c1b9bbe45cf2c85ad268b414f3439
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3099012df5be9ed4a53d3072319be6dc47ede32b71567749c4668cd7870fee29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118394407"
 ---
 # <a name="http_response_flag_-constants"></a>\_ \_ Constantes d’indicateur de réponse http \_
 
@@ -43,8 +43,8 @@ Les encodages autres que le format d’identité sont disponibles pour cette res
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Http. h</dt> </dl> |
 
 

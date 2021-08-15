@@ -4,12 +4,12 @@ description: La liste suivante répertorie les valeurs renvoyées par le moniteu
 ms.assetid: f1cc7668-4a6f-4b70-9591-62bd447fe8fb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13ce5678c20a1ab8df825a5e3bc5f725d255e459
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3ce526a64132cef51338a83b387aa8e9bfd58ce0ef0b99a1fb7db0dce4c15ef7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117956445"
 ---
 # <a name="sysmon-return-values"></a>Valeurs de retour de SYSMON
 
@@ -28,10 +28,10 @@ La liste suivante répertorie les valeurs renvoyées par le moniteur système qu
 
 
 
- 
+ 
 
 Pour obtenir une description des valeurs de retour supplémentaires retournées par le moniteur système, consultez Codes d' [erreur système](/windows/desktop/Debug/system-error-codes) et [codes d’erreur du programme d’assistance des données de performances](/windows/desktop/PerfCtrs/checking-pdh-interface-return-values).
 
- 
+ 
 
- 
+ 

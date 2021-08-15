@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: af4b1f13daf9cd0ec99dce542195d5e5e374a6d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3698a89566b65a8a263d39b3957285d4ffde07fda1ff754792b545959b987d85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858258"
 ---
 # <a name="shell-storage-sample"></a>Stockage Shell, exemple
 
@@ -22,12 +22,12 @@ Montre comment créer des fichiers et des dossiers dans des conteneurs de Shell.
 
 Cette rubrique contient les sections suivantes.
 
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

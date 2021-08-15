@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 379e42f41387a40b160a73ec3457d3d5b9feaf59
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c5c3aa83bc05952007d9114ad9812068de5b5b0bd82a4ce9e14e4d5ba1025bb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117759560"
 ---
 # <a name="registrationinfosecuritydescriptor-property"></a>RegistrationInfo. SecurityDescriptor, propriété
 
@@ -40,7 +40,7 @@ RegistrationInfo.SecurityDescriptor As String
 
 Descripteur de sécurité associé à la tâche.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, le descripteur de sécurité de la tâche est spécifié à l’aide de l’élément [**SecurityDescriptor**](taskschedulerschema-securitydescriptor-registrationinfotype-element.md) du schéma planificateur de tâches.
 
@@ -50,8 +50,8 @@ Lors de la lecture ou de l’écriture de données XML pour une tâche, le descr
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

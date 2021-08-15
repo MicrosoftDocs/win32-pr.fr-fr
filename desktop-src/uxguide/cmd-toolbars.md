@@ -566,7 +566,7 @@ Lorsque vous faites référence à des barres d’outils :
 -   Reportez-vous aux éléments non disponibles comme indisponibles, non estompés, désactivés ou grisés. Utilisez Disabled dans la documentation de programmation.
 -   Dans la mesure du possible, mettez en forme les étiquettes à l’aide du texte gras. Dans le cas contraire, placez les étiquettes entre guillemets uniquement si nécessaire pour éviter toute confusion.
 
-Exemples :
+Exemples :
 
 -   Dans le menu **page** de la barre d’outils, cliquez sur **Envoyer la page par courrier électronique**.
 -   Dans la zone **polices** de la barre d’outils, entrez « Segoe UI ».

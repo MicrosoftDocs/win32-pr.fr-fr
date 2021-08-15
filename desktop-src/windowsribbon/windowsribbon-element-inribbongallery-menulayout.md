@@ -3,7 +3,7 @@ title: InRibbonGallery. MenuLayout, propriété
 description: Représente un conteneur pour In-Ribbon mises en page de menu déroulant de la Galerie.
 ms.assetid: 89e0eb39-2790-4571-a661-ab3ebafbb13f
 keywords:
-- Ruban Windows de la propriété InRibbonGallery. MenuLayout
+- InRibbonGallery. MenuLayout, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d2fc5e0eab5d8dbc35cd9cb3be96e5d5d351416
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6f3748e35280972f115ae22792f28847df675b3aafe8ac91d29d930c9fd15bca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850762"
 ---
 # <a name="inribbongallerymenulayout-property"></a>InRibbonGallery. MenuLayout, propriété
 
 Représente un conteneur pour les dispositions des menus déroulants [de la galerie dans le ruban](windowsribbon-controls-inribbongallery.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <InRibbonGallery.MenuLayout>
@@ -56,9 +56,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque élément [**InRibbonGallery**](windowsribbon-element-inribbongallery.md) .
 
@@ -108,8 +108,8 @@ Cette section de code illustre la déclaration de contrôle **InRibbonGallery. M
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

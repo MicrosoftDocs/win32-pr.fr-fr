@@ -3,8 +3,8 @@ title: Structure MPSTATUS_INFO (MpClient. h)
 description: Informations d’État pour le gestionnaire de protection contre les programmes malveillants.
 ms.assetid: 614F14EC-64CC-4E3F-8A89-42AA1E0DC95D
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPSTATUS_INFO
-- PMPSTATUS_INFO des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPSTATUS_INFO
+- PMPSTATUS_INFO des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efe31981f819d85d13457553beb1ce3c869b98bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8cb93bd15fe05955c9e8d87828d4b94b08e3d577659c629b52b3f908cb045ba3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883300"
 ---
 # <a name="mpstatus_info-structure"></a>\_Structure d’informations MPSTATUS
 
@@ -130,8 +130,8 @@ Horodateur d’expiration du produit dans UNC. Cela est valide uniquement si l�
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

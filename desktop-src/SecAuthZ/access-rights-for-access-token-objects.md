@@ -4,12 +4,12 @@ ms.assetid: 5f710fd8-33de-47c0-a8b2-baf3008c4ed7
 title: Droits d’accès pour les objets Access-Token
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 469081d2caa4e5ff7c9b7c55b4c09c31cff1acac
-ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
+ms.openlocfilehash: 5ac3145aef5fcf3a20f2569ac02df0de0638c2be1f42f5e1a74785d8ae1aedb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108327194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785471"
 ---
 # <a name="access-rights-for-access-token-objects"></a>Droits d’accès pour les objets Access-Token
 
@@ -30,8 +30,8 @@ Les droits d’accès valides pour les objets de jeton d’accès sont les suiva
     | réglage du jeton \_ \_ par défaut    | Requis pour modifier le propriétaire par défaut, le groupe principal ou la liste DACL d’un jeton d’accès.                                                                                                                                                                                                  |
     | \_groupes d’ajustement de jeton \_     | Requis pour ajuster les attributs des groupes dans un jeton d’accès.                                                                                                                                                                                                               |
     | \_privilèges d’ajustement de jeton \_ | Requis pour activer ou désactiver les privilèges dans un jeton d’accès.                                                                                                                                                                                                                  |
-    | ID de session d' \_ ajustement de jeton \_  | Requis pour ajuster l’ID de session d’un jeton d’accès. Le \_ privilège de \_ nom TCB se est requis.                                                                                                                                                                                    |
-    | affectation de jeton \_ \_ principal    | Requis pour attacher un [*jeton principal*](/windows/desktop/SecGloss/p-gly) à un [*processus*](/windows/desktop/SecGloss/p-gly). Le \_ \_ privilège de nom de ASSIGNPRIMARYTOKEN se est également requis pour accomplir cette tâche. |
+    | ID de session d' \_ ajustement de jeton \_  | Requis pour ajuster l’ID de session d’un jeton d’accès. le \_ privilège SE TCB \_ NAME est requis.                                                                                                                                                                                    |
+    | affectation de jeton \_ \_ principal    | Requis pour attacher un [*jeton principal*](/windows/desktop/SecGloss/p-gly) à un [*processus*](/windows/desktop/SecGloss/p-gly). le \_ privilège SE ASSIGNPRIMARYTOKEN \_ NAME est également requis pour accomplir cette tâche. |
     | JETON \_ dupliqué          | Requis pour dupliquer un jeton d’accès.                                                                                                                                                                                                                                            |
     | exécution du jeton \_            | Les mêmes que pour les \_ droits standard \_ s’exécutent.                                                                                                                                                                                                                                                |
     | emprunter l’identité du jeton \_        | Requis pour attacher un jeton d’accès d’emprunt d’identité à un processus.                                                                                                                                                                                                                    |

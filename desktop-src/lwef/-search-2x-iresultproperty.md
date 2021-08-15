@@ -3,8 +3,8 @@ title: Interface IResultProperty (WdsSharedIDL. h)
 description: Expose les propriétés de résultat.
 ms.assetid: 58d8c516-47c6-4cae-b46c-5127baf3054d
 keywords:
-- Fonctionnalités d’environnement Windows héritées de l’interface IResultProperty
-- Fonctionnalités d’environnement Windows héritées de l’interface IResultProperty, Description
+- fonctionnalités d’environnement Windows héritées de l’interface IResultProperty
+- fonctionnalités d’environnement Windows héritées de l’interface IResultProperty, description
 topic_type:
 - apiref
 api_name:
@@ -15,17 +15,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 716c0b3998171731dea5f976afc266fe81b2c613
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: efba214aaaadec2cfad52db02f9f4f18d289b0b3ee9df37ee60295d5499241e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118754582"
 ---
 # <a name="iresultproperty-interface"></a>Interface IResultProperty
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez plutôt l' [API Windows Search](../search/-search-reference-entry-page.md) . 
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez plutôt l' [API de recherche Windows](../search/-search-reference-entry-page.md) . 
 
 Expose les propriétés de résultat.
 
@@ -64,13 +64,13 @@ L’interface **IResultProperty** possède les propriétés suivantes.
 | [**DisplayState**](-search-2x-iresultproperty-displaystate.md)<br/> | Lecture seule<br/> | Visability de la propriété. <br/>               |
 | [**Évit**](-search-2x-iresultproperty-hint.md)<br/>                 | Lecture seule<br/> | Valeur spéciale utilisée pour faciliter la récupération de données. <br/> |
 | [**IndexColumn**](-search-2x-iresultproperty-indexcolumn.md)<br/>   | Lecture seule<br/> | Nom de la colonne des propriétés dans l’index. <br/>      |
-| [**Identificateur d’utilisateur**](-search-2x-iresultproperty-uid.md)<br/>                   | Lecture seule<br/> | Identificateur unique de la propriété. <br/>       |
+| [**UID**](-search-2x-iresultproperty-uid.md)<br/>                   | Lecture seule<br/> | Identificateur unique de la propriété. <br/>       |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit des propriétés de retour des éléments.
 
@@ -81,7 +81,7 @@ Il s’agit des propriétés de retour des éléments.
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Windows Server 2003 avec les \[ applications de bureau SP1 uniquement\]<br/>                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 avec les \[ applications de bureau SP1 uniquement\]<br/>                             |
 | Composant redistribuable<br/>          | Windows Desktop Search (WDS) 3,0<br/>                                               |
 | En-tête<br/>                   | <dl> <dt>WdsSharedIDL. h</dt> </dl> |
 

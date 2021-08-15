@@ -1,12 +1,12 @@
 ---
 title: WSMan. Error, propriété (WSManDisp. h)
-description: Obtient des informations supplémentaires sur l’erreur, dans un flux XML, pour l’appel précédent à une méthode WSMan si Windows Remote Management Service n’a pas pu créer un objet de session, un objet ConnectionOptions ou un objet ResourceLocator.
+description: obtient des informations supplémentaires sur l’erreur, dans un flux XML, pour l’appel précédent à une méthode WSMan si Windows Remote Management service n’a pas pu créer un objet de Session, un objet ConnectionOptions ou un objet ResourceLocator.
 ms.assetid: 72d05ef9-672c-4693-b7c9-6d689858acd4
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de propriétés d’erreur
 - Windows Remote Management de propriété Error, objet WSMan
-- Objet WSMan Windows Remote Management, propriété Error
+- objet WSMan Windows Remote Management, propriété Error
 topic_type:
 - apiref
 api_name:
@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f9e7ffd42d67807f2f7b6096a89ed91e3d95af8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 14d72c99150d3c6ac95e91e6a9674ab6364e8ea46fabf3d58d50556e129933cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742194"
 ---
 # <a name="wsmanerror-property"></a>WSMan. Error, propriété
 
-Obtient des informations supplémentaires sur l’erreur, dans un flux XML, pour l’appel précédent à une méthode [**WSMan**](wsman.md) si Windows Remote Management Service n’a pas pu créer un objet de [**session**](session.md) , un objet [**ConnectionOptions**](connectionoptions.md) ou un objet [**ResourceLocator**](resourcelocator.md) .
+obtient des informations supplémentaires sur l’erreur, dans un flux XML, pour l’appel précédent à une méthode [**WSMan**](wsman.md) si Windows Remote Management service n’a pas pu créer un objet de [**Session**](session.md) , un objet [**ConnectionOptions**](connectionoptions.md) ou un objet [**ResourceLocator**](resourcelocator.md) .
 
 Cette propriété est en lecture seule.
 

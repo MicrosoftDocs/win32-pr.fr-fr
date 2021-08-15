@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 42bd18c800bf53ca9edcf4cf72a4c7ac2cbb6933
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49efa5c25b9c7c698f7239c139f7dd2fb9ac5ccebee503a5cd7e0f6f83a76d23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980045"
 ---
 # <a name="oidname-property"></a>OID. Propriété Name
 
@@ -83,9 +83,9 @@ Valeur de l’énumération [**CAPICOM \_ OID**](capicom-oid.md) qui fournit les
 | <span id="CAPICOM_OID_SERVER_GATED_CRYPTO_EKU"></span><span id="capicom_oid_server_gated_crypto_eku"></span><dl> <dt>**\_ \_ \_ \_ utilisation améliorée du chiffrement par le serveur CAPICOM OID \_**</dt> </dl>                                                    | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour le [*chiffrement SGC (Server-Gated Cryptography*](../secgloss/s-gly.md) ).<br/> |
 | <span id="CAPICOM_OID_ENCRYPTING_FILE_SYSTEM_EKU"></span><span id="capicom_oid_encrypting_file_system_eku"></span><dl> <dt>**\_utilisation améliorée de la \_ EKU du \_ système de fichiers de chiffrement OID \_ \_**</dt> </dl>                                           | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour le [*système de fichiers EFS*](../secgloss/e-gly.md) (EFS).<br/>          |
 | <span id="CAPICOM_OID_EFS_RECOVERY_EKU"></span><span id="capicom_oid_efs_recovery_eku"></span><dl> <dt>**\_utilisation améliorée de la \_ récupération EFS de CAPICOM OID EFS \_ \_**</dt> </dl>                                                                          | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour la récupération du système de fichiers EFS.<br/>                                                                                                                 |
-| <span id="CAPICOM_OID_WHQL_CRYPTO_EKU"></span><span id="capicom_oid_whql_crypto_eku"></span><dl> <dt>**\_utilisation améliorée de la \_ \_ EKU de chiffrement de CAPICOM OID WHQL \_**</dt> </dl>                                                                             | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour le chiffrement WHQL (Windows Hardware Quality Labs).<br/>                                                                                   |
-| <span id="CAPICOM_OID_NT5_CRYPTO_EKU"></span><span id="capicom_oid_nt5_crypto_eku"></span><dl> <dt>**\_Utilisation améliorée de la \_ \_ EKU crypto \_ OID de CAPICOM**</dt> </dl>                                                                                | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour le chiffrement windows Server 2003 et Windows XP.<br/>                                                                                     |
-| <span id="CAPICOM_OID_OEM_WHQL_CRYPTO_EKU"></span><span id="capicom_oid_oem_whql_crypto_eku"></span><dl> <dt>**utilisation améliorée de la version \_ \_ \_ améliorée du \_ chiffrement \_ de l’OID de CAPICOM OEM WHQL**</dt> </dl>                                                                | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour les fabricants OEM (Original Equipment Manufacturers) Windows Hardware Quality Lab (WHQL).<br/>                                             |
+| <span id="CAPICOM_OID_WHQL_CRYPTO_EKU"></span><span id="capicom_oid_whql_crypto_eku"></span><dl> <dt>**\_utilisation améliorée de la \_ \_ EKU de chiffrement de CAPICOM OID WHQL \_**</dt> </dl>                                                                             | l’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour Windows le chiffrement WHQL (Hardware Quality Labs).<br/>                                                                                   |
+| <span id="CAPICOM_OID_NT5_CRYPTO_EKU"></span><span id="capicom_oid_nt5_crypto_eku"></span><dl> <dt>**\_Utilisation améliorée de la \_ \_ EKU crypto \_ OID de CAPICOM**</dt> </dl>                                                                                | l’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour le chiffrement Windows Server 2003 et Windows XP.<br/>                                                                                     |
+| <span id="CAPICOM_OID_OEM_WHQL_CRYPTO_EKU"></span><span id="capicom_oid_oem_whql_crypto_eku"></span><dl> <dt>**utilisation améliorée de la version \_ \_ \_ améliorée du \_ chiffrement \_ de l’OID de CAPICOM OEM WHQL**</dt> </dl>                                                                | l’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour les fabricants OEM (Original equipment manufacturers) Windows le chiffrement WHQL (Hardware Quality Lab).<br/>                                             |
 | <span id="CAPICOM_OID_EMBEDED_NT_CRYPTO_EKU"></span><span id="capicom_oid_embeded_nt_crypto_eku"></span><dl> <dt>**\_utilisation améliorée de la \_ EKU de \_ \_ chiffrement \_ NT par l’OID de CAPICOM**</dt> </dl>                                                          | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour le chiffrement incorporé dans certains systèmes d’exploitation hérités.<br/>                                                                           |
 | <span id="CAPICOM_OID_ROOT_LIST_SIGNER_EKU"></span><span id="capicom_oid_root_list_signer_eku"></span><dl> <dt>**\_utilisation améliorée de la \_ liste racine du signataire de la liste racine CAPICOM OID \_ \_ \_**</dt> </dl>                                                             | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour signer une liste racine.<br/>                                                                                                                     |
 | <span id="CAPICOM_OID_QUALIFIED_SUBORDINATION_EKU"></span><span id="capicom_oid_qualified_subordination_eku"></span><dl> <dt>**\_ \_ EKU de subordination qualifiée d’OID \_ CAPICOM \_**</dt> </dl>                                         | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour la subordination qualifiée.<br/>                                                                                                             |
@@ -107,7 +107,7 @@ Valeur de l’énumération [**CAPICOM \_ OID**](capicom-oid.md) qui fournit les
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

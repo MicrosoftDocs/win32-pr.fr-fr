@@ -1,5 +1,5 @@
 ---
-description: La méthode AbortPlayback est utilisée pour signaler une erreur de diffusion en continu. Elle envoie un \_ événement EC ERRORABORT au gestionnaire de graphique de filtre et envoie une notification de fin de flux en aval.
+description: La méthode AbortPlayback est utilisée pour signaler une erreur de diffusion en continu. elle envoie un \_ événement EC ERRORABORT au gestionnaire de Graph de filtre et envoie une notification de fin de flux en aval.
 ms.assetid: b48ec72f-d220-4b27-98fc-88eaa4f663eb
 title: Méthode CVideoTransformFilter. AbortPlayback (Vtrans. h)
 ms.topic: reference
@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 952987dec315408920e92d79003480a01640d14e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6560e7ce704423bfecc519c709c2c08733fe90a2346324f9e1282571530293ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821934"
 ---
 # <a name="cvideotransformfilterabortplayback-method"></a>Méthode CVideoTransformFilter. AbortPlayback
 
-La `AbortPlayback` méthode est utilisée pour signaler une erreur de diffusion en continu. Elle envoie un événement [**EC \_ ERRORABORT**](ec-errorabort.md) au gestionnaire de graphique de filtre et envoie une notification de fin de flux en aval.
+La `AbortPlayback` méthode est utilisée pour signaler une erreur de diffusion en continu. elle envoie un événement [**EC \_ ERRORABORT**](ec-errorabort.md) au gestionnaire de Graph de filtre et envoie une notification de fin de flux en aval.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -59,7 +59,7 @@ Retourne la valeur du paramètre *HR* .
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Vtrans. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Vtrans. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

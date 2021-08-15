@@ -3,7 +3,7 @@ title: EQUALIZERSETTINGS. Speaker
 description: L’attribut Speaker spécifie ou récupère le numéro d’index de la taille actuelle de l’intervenant.
 ms.assetid: 454d07bf-49cd-48a5-9724-6415a925367a
 keywords:
-- EQUALIZERSETTINGS. Speakers Windows Media Player
+- EQUALIZERSETTINGS. speakers Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26dc49af55e96d3ef8de4e8a4567b3a4296ca214
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 46d289a89a22e8c10cf669e9b55fc304826acb3ce0f72468f725e7d5fae0dfc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748647"
 ---
 # <a name="equalizersettingsspeakersize"></a>EQUALIZERSETTINGS. Speaker
 
@@ -43,7 +43,7 @@ Cet attribut est un **nombre** en lecture/écriture (long) contenant l’une des
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nom convivial de la taille de l’orateur peut être récupéré à l’aide de l’attribut **currentSpeakerName** .
 

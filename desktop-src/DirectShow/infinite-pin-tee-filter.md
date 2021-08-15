@@ -4,12 +4,12 @@ ms.assetid: 5f3e06ec-adee-4bc7-8ea8-cce3030d3baa
 title: Filtre tee de code confidentiel infini
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3433a0c2f5fe55fa59c42ed6e02d34f6e2cf0e6d
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 28edb67da9d6aae01786cece43b45dfcd33d571b82bdbab21ecf82a2473ff0d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818784"
 ---
 # <a name="infinite-pin-tee-filter"></a>Filtre tee de code confidentiel infini
 
@@ -40,7 +40,7 @@ Une version de ce filtre est également fournie en tant qu’exemple de kit de d
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  

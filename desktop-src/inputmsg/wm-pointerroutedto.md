@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 7658aeef77a0f7e19f2449213e9332b4e60c9450
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9b7de7dd1affb9100a29613e3b4186d3d5bdaa32d853e683579fdcc62e7f981f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117695620"
 ---
 # <a name="wm_pointerroutedto-message"></a>Message WM_POINTERROUTEDTO
 
@@ -56,7 +56,7 @@ Inutilisé.
 
 NULL
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message n’est pas envoyé lorsqu’un message de [**WM_POINTERDOWN**](wm-pointerdown.md) est publié pour un nouvel ID de pointeur sur un processus différent.
 
@@ -68,8 +68,8 @@ Un message de [**WM_POINTERDOWN**](wm-pointerdown.md) n’est pas envoyé si un 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

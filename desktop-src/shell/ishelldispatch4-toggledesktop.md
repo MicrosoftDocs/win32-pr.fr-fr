@@ -1,6 +1,6 @@
 ---
 description: 'Méthode IShellDispatch4. ToggleDesktop : affiche ou masque le bureau.'
-title: Méthode IShellDispatch4. ToggleDesktop (shldisp. h)
+title: IShellDispatch4.ToggleDesktop, méthode (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 60199e18-b8da-48a6-b316-e7f07ff44b78
-ms.openlocfilehash: e78c14e2aa7f918ff27b21bdab0ce71bed08a84a
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: d1cecab0450b1ce16ad2a4301801ea14aea284ac8fe7d5c1e63b5d8a211f22c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118720773"
 ---
 # <a name="ishelldispatch4toggledesktop-method"></a>Méthode IShellDispatch4. ToggleDesktop
 
@@ -45,7 +45,7 @@ IShellDispatch4.ToggleDesktop()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -55,15 +55,15 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode a le même effet que le bouton **afficher le bureau** sur la barre des tâches. Il masque toutes les fenêtres ouvertes pour afficher le bureau ou masque le bureau en affichant toutes les fenêtres ouvertes. La méthode **ToggleDesktop** n’affiche pas d’interface utilisateur, elle appelle simplement l’action bascule.
 
 ## <a name="examples"></a>Exemples
 
-Les exemples suivants illustrent l’utilisation correcte de **ToggleDesktop** pour JScript, VBScript et Visual Basic.
+les exemples suivants illustrent l’utilisation correcte de **ToggleDesktop** pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -111,14 +111,14 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 6,0 ou ultérieure)</dt> </dl> |

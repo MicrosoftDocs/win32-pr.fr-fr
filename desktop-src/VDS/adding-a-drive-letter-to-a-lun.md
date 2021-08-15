@@ -4,16 +4,16 @@ ms.assetid: 3f350312-3f1f-4020-90d0-85521ea9c7c8
 title: Ajout d’une lettre de lecteur à un numéro d’unité logique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 426a4f3bf720b21a02462edde4a381012d2084d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 388c59a2e1b719e792855460f45fa0c04add7502f8e06aba56f0416a212a9aaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117755498"
 ---
 # <a name="adding-a-drive-letter-to-a-lun"></a>Ajout d’une lettre de lecteur à un numéro d’unité logique
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Vous pouvez affecter des lettres de lecteur à des objets de volume directement ; Toutefois, si votre disque est un objet LUN, quelques étapes supplémentaires sont nécessaires.
 

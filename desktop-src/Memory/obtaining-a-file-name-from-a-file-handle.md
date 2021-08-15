@@ -1,19 +1,19 @@
 ---
-description: GetFinalPathNameByHandle, introduit dans Windows Vista et Windows Server 2008, retourne un chemin d’accès à partir d’un handle.
+description: GetFinalPathNameByHandle, introduite dans Windows Vista et Windows Server 2008, retourne un chemin d’accès à partir d’un handle.
 ms.assetid: 359673bf-cc4c-4881-b946-ecdbef4a7ecb
 title: Obtention d’un nom de fichier à partir d’un handle de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee7d0c6fd8ea6839fdbfbe887f7a28b38571013b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f905051fdc9c26d16c00f3f1acb2629ae06b8581abb5e5de50944a74e0c6b8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118386412"
 ---
 # <a name="obtaining-a-file-name-from-a-file-handle"></a>Obtention d’un nom de fichier à partir d’un handle de fichier
 
-[**GetFinalPathNameByHandle**](/windows/win32/api/fileapi/nf-fileapi-getfinalpathnamebyhandlea), introduit dans Windows Vista et windows Server 2008, retourne un chemin d’accès à partir d’un handle. Si vous avez besoin d’effectuer cette opération sur les versions antérieures de Windows, l’exemple suivant obtient un nom de fichier à partir d’un handle vers un objet fichier à l’aide d’un objet de mappage de fichier. Elle utilise les fonctions [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) et [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) pour créer le mappage. Ensuite, il utilise la fonction [**GetMappedFileName**](/windows/win32/api/psapi/nf-psapi-getmappedfilenamea) pour obtenir le nom de fichier. Pour les fichiers distants, il imprime le chemin d’accès de l’appareil reçu à partir de cette fonction. Pour les fichiers locaux, il convertit le chemin d’accès pour utiliser une lettre de lecteur et imprime ce chemin d’accès. Pour tester ce code, créez une fonction **principale** qui ouvre un fichier à l’aide de [**CreateFile**](/windows/win32/api/fileapi/nf-fileapi-createfilea) et transmet le handle résultant à `GetFileNameFromHandle` .
+[**GetFinalPathNameByHandle**](/windows/win32/api/fileapi/nf-fileapi-getfinalpathnamebyhandlea), introduite dans Windows Vista et Windows Server 2008, retourne un chemin d’accès à partir d’un handle. si vous avez besoin d’effectuer cette opération sur les versions antérieures de Windows, l’exemple suivant obtient un nom de fichier à partir d’un handle vers un objet fichier à l’aide d’un objet de mappage de fichier. Elle utilise les fonctions [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) et [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) pour créer le mappage. Ensuite, il utilise la fonction [**GetMappedFileName**](/windows/win32/api/psapi/nf-psapi-getmappedfilenamea) pour obtenir le nom de fichier. Pour les fichiers distants, il imprime le chemin d’accès de l’appareil reçu à partir de cette fonction. Pour les fichiers locaux, il convertit le chemin d’accès pour utiliser une lettre de lecteur et imprime ce chemin d’accès. Pour tester ce code, créez une fonction **principale** qui ouvre un fichier à l’aide de [**CreateFile**](/windows/win32/api/fileapi/nf-fileapi-createfilea) et transmet le handle résultant à `GetFileNameFromHandle` .
 
 
 ```C++

@@ -4,16 +4,16 @@ ms.assetid: 59ae22f6-aa6d-4b53-8a27-73e1e5c62755
 title: Collecte et vérification des certificats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0b160f373d5ade65679fcc4dd87e3c1c86dc4ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60b793cf4aeca7d05d166a4b205b924db53faee09683cefcef7b0244a9eb0289
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117769530"
 ---
 # <a name="collecting-and-verifying-certificates"></a>Collecte et vérification des certificats
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 Souvent, un groupe de [*certificats*](../secgloss/c-gly.md) doit être collecté et vérifié. Cela est souvent fait pour préparer un groupe de destinataires pour un message enveloppé. Dans l’exemple qui suit, les certificats dans un magasin local sont énumérés et vérifiés pour la validité. Ensuite, un magasin de Active Directory est ouvert pour récupérer et ajouter des certificats au magasin local. La validité des certificats récupérés dans le magasin Active Directory est vérifiée et, s’ils sont valides, ils sont ajoutés au magasin local. Les deux magasins sont ensuite fermés.
 

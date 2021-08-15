@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 6451ff749bf21fa3cb65f4ffca283935e81e80cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56ffc05c4a1b03deff3559381f5ccfdec68ac61807ffb2a2b9e9a3431bcb918e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118784267"
 ---
 # <a name="apijetgetindexinfo-method"></a>API. JetGetIndexInfo, méthode
 

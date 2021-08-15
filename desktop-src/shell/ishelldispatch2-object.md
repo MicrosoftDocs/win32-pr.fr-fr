@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 79d3abbed038e09f2e73c62e5e3d9b16545e8f60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 481e64c00ced458be05255af451206a42d449c42d157794dfd1077cf2dda278a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118721089"
 ---
 # <a name="ishelldispatch2-object"></a>Objet IShellDispatch2
 
@@ -57,18 +57,18 @@ L’objet **IShellDispatch2** a ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur les services Windows, consultez la documentation relative aux [services](../services/services.md) .
+pour plus d’informations sur les services Windows, consultez la documentation sur les [services](../services/services.md) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 5,0 ou ultérieure)</dt> </dl> |

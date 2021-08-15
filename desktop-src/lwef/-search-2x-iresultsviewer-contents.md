@@ -3,9 +3,9 @@ title: Propriété IResultsViewer Contents (WdsView. h)
 description: Cette propriété effectue le suivi du type de contenu affiché dans l’affichage des résultats.
 ms.assetid: fad3c9c9-9bf4-4725-962a-ae285bcd23d4
 keywords:
-- Propriété de contenu fonctionnalités de l’environnement Windows héritées
-- Propriété de contenu fonctionnalités de l’environnement Windows héritées, interface IResultsViewer
-- Interface IResultsViewer-fonctionnalités d’environnement Windows héritées, propriété contenu
+- propriété contents Legacy Windows environnement, fonctionnalités
+- propriété contents héritée Windows fonctionnalités d’environnement, interface IResultsViewer
+- interface IResultsViewer héritage Windows fonctionnalités d’environnement, propriété contenu
 topic_type:
 - apiref
 api_name:
@@ -16,17 +16,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e05a7e0bc5b4d444b6af5639390d13fbfa8365ca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 357b472dc73260f5374b317eed3c1c5d631560b247bcac947d3cfb899b39e20f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118754536"
 ---
 # <a name="iresultsviewercontents-property"></a>IResultsViewer :: content, propriété
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez plutôt l' [API Windows Search](../search/-search-reference-entry-page.md) . 
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez plutôt l' [API de recherche Windows](../search/-search-reference-entry-page.md) . 
 
 Cette propriété effectue le suivi du type de contenu affiché dans l’affichage des résultats.
 
@@ -43,7 +43,7 @@ Retourne un pointeur vers le type de contenu affiché dans l’affichage des ré
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                                 |
-| Serveur minimal pris en charge<br/> | Windows Server 2003 avec les \[ applications de bureau SP1 uniquement\]<br/>                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 avec les \[ applications de bureau SP1 uniquement\]<br/>                        |
 | Composant redistribuable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>WdsView. h</dt> </dl> |
 

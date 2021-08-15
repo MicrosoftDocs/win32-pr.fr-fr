@@ -1,10 +1,10 @@
-- name: Infrastructure de ruban Windows
+- name: Windows Infrastructure du ruban
   href: '-uiplat-windowsribbon-entry.md'
   items:
     - name: Vues d’ensemble de Framework de ruban
       href: windowsribbon-overviews-entry.md
       items:
-        - name: Présentation de l’infrastructure du ruban Windows
+        - name: présentation de l’infrastructure du ruban Windows
           href: windowsribbon-introduction.md
         - name: Déclaration des commandes et des contrôles avec le balisage du ruban
           href: windowsribbon-schema.md
@@ -13,7 +13,7 @@
       items:
         - name: Création d’une application de ruban
           href: windowsribbon-stepbystep.md
-        - name: Migration vers l’infrastructure de ruban Windows
+        - name: migration vers l’infrastructure de ruban Windows
           href: ribbon-migration.md
         - name: Fonctionnement des commandes et des contrôles
           href: windowsribbon-commandscontrols.md
@@ -60,7 +60,7 @@
           href: windowsribbon-controls-dropdowngallery.md
         - name: Contrôle de police
           href: windowsribbon-controls-fontcontrol.md
-        - name: Group
+        - name: Groupe
           href: windowsribbon-controls-group.md
         - name: Bouton aide
           href: windowsribbon-controls-helpbutton.md
@@ -194,7 +194,7 @@
                       href: windowsribbon-element-dropdowngallery-menulayout.md
                 - name: FontControl
                   href: windowsribbon-element-fontcontrol.md
-                - name: Group
+                - name: Groupe
                   href: windowsribbon-element-group.md
                 - name: HelpButton
                   href: windowsribbon-element-helpbutton.md

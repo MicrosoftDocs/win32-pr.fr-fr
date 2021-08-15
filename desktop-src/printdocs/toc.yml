@@ -4,9 +4,9 @@
     - name: Nouveautés pour l’impression
       href: what-s-new-for-printing-in-windows-vnext.md
       items:
-        - name: Nouveautés pour l’impression dans Windows 7
+        - name: nouveautés pour l’impression dans Windows 7
           href: what-s-new-in-windows-7.md
-        - name: Nouveautés pour l’impression dans Windows Vista
+        - name: nouveautés pour l’impression dans Windows Vista
           href: what-s-new-in-windows-vista.md
     - name: Prise en charge des applications pour l’impression OpenXPS
       href: app-support-for-openxps-printing.md
@@ -1371,7 +1371,7 @@
                           href: /windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-getsigningtimeformat
                         - name: SetSignatureXml
                           href: /windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-setsignaturexml
-                        - name: Vérifier
+                        - name: Vérification
                           href: /windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-verify
                     - name: IXpsSignatureBlock
                       href: /windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblock
@@ -1427,7 +1427,7 @@
                           href: /windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-savepackagetostream
                         - name: SetSignatureOriginPartName
                           href: /windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-setsignatureoriginpartname
-                        - name: Sign (Signer)
+                        - name: Signer
                           href: /windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-sign
                     - name: IXpsSignatureRequest
                       href: /windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturerequest
@@ -1521,7 +1521,7 @@
         - name: Impression d’applications de bureau
           href: using-printing.md
           items:
-            - name: "Comment\_: imprimer à partir d’un programme Windows"
+            - name: "comment\_: imprimer à partir d’un programme Windows"
               href: how-to--print-from-a-windows-application.md
               items:
                 - name: "Procédure\_: collecter des informations de travail d’impression à partir de l’utilisateur"
@@ -2091,7 +2091,7 @@
             - name: Microsoft XPS document Writer (MXDW)
               href: microsoft-xps-document-writer.md
               items:
-                - name: Paramètres de configuration de MXDW
+                - name: Paramètres de Configuration MXDW
                   href: mxdw-configuration-settings.md
         - name: API d’impression XPS
           href: xps-printing.md
