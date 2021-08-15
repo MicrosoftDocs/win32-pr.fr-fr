@@ -4,12 +4,12 @@ description: Les fonctions de gestion de réseau peuvent être regroupées comme
 ms.assetid: dd159e2e-f37e-46b2-b980-008b73d40b39
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a169d097fbe86c95aa9aa3120c3f732a8edd2c0
-ms.sourcegitcommit: 89f99926f946dc6c5ea600fb7c41f6b19ceac516
+ms.openlocfilehash: b9e9aba93607e3609f0d20f7208184f169fb871ee67f5f2917445683f70e4f04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "106542854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796960"
 ---
 # <a name="network-management-functions"></a>Fonctions de gestion de réseau
 
@@ -43,14 +43,14 @@ Les fonctions de gestion de réseau peuvent être regroupées comme suit.
 
  
 
-## <a name="azure-active-directory-join-information-functions"></a>Fonctions d’informations de jointure Azure Active Directory
+## <a name="azure-active-directory-join-information-functions"></a>Azure Active Directory Fonctions d’informations de jointure
 
 
 
 | Fonction                                                       | Description                                                                                                                                                                                                                                                     |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**NetFreeAadJoinInformation**](/windows/desktop/api/lmjoin/nf-lmjoin-netfreeaadjoininformation) | Libère la mémoire allouée pour la structure d' [**\_ \_ informations de jointure DSREG**](/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_join_info) spécifiée, qui contient des informations de jointure pour un locataire et que vous avez récupérée en appelant la fonction [**NetGetAadJoinInformation**](/windows/desktop/api/lmjoin/nf-lmjoin-netgetaadjoininformation) . |
-| [**NetGetAadJoinInformation**](/windows/desktop/api/lmjoin/nf-lmjoin-netgetaadjoininformation)   | Récupère les informations de jointure pour le locataire spécifié. Cette fonction examine les informations de jointure pour Microsoft Azure Active Directory et le compte professionnel ajouté par l’utilisateur actuel.                                                                     |
+| [**NetGetAadJoinInformation**](/windows/desktop/api/lmjoin/nf-lmjoin-netgetaadjoininformation)   | Récupère les informations de jointure pour le locataire spécifié. cette fonction examine les informations de jointure pour Microsoft Azure Active Directory et le compte professionnel ajouté par l’utilisateur actuel.                                                                     |
 
 
 
@@ -71,8 +71,8 @@ Les fonctions de gestion de réseau peuvent être regroupées comme suit.
 | [**NetProvisionComputerAccount**](/windows/desktop/api/Lmjoin/nf-lmjoin-netprovisioncomputeraccount)                   | Provisionne un compte d’ordinateur pour une utilisation ultérieure dans une opération de jonction de domaine hors connexion.                                                                                                                                                                                       |
 | [**NetRemoveAlternateComputerName**](/windows/desktop/api/Lmjoin/nf-lmjoin-netremovealternatecomputername)             | Supprime un autre nom pour l’ordinateur spécifié.                                                                                                                                                                                                                   |
 | [**NetRenameMachineInDomain**](/windows/desktop/api/Lmjoin/nf-lmjoin-netrenamemachineindomain)                         | Modifie le nom d’un ordinateur dans un domaine.                                                                                                                                                                                                                             |
-| [**NetRequestOfflineDomainJoin**](/windows/desktop/api/Lmjoin/nf-lmjoin-netrequestofflinedomainjoin)                   | S’exécute localement sur un ordinateur pour modifier une image du système d’exploitation Windows montée sur un volume. Le Registre est chargé pour l’image et l’approvisionnement des données BLOB est écrit là où elles peuvent être récupérées au cours de la phase d’achèvement d’une opération de jonction de domaine hors connexion.     |
-| [**NetRequestProvisioningPackageInstall**](/windows/desktop/api/Lmjoin/nf-lmjoin-netrequestprovisioningpackageinstall) | S’exécute localement sur un ordinateur pour modifier une image du système d’exploitation Windows montée sur un volume. Le Registre est chargé à partir de l’image et les données du package de configuration sont écrites à l’emplacement où elles peuvent être récupérées au cours de la phase d’achèvement d’une opération de jonction de domaine hors connexion. |
+| [**NetRequestOfflineDomainJoin**](/windows/desktop/api/Lmjoin/nf-lmjoin-netrequestofflinedomainjoin)                   | s’exécute localement sur un ordinateur pour modifier une Windows image du système d’exploitation montée sur un volume. Le Registre est chargé pour l’image et l’approvisionnement des données BLOB est écrit là où elles peuvent être récupérées au cours de la phase d’achèvement d’une opération de jonction de domaine hors connexion.     |
+| [**NetRequestProvisioningPackageInstall**](/windows/desktop/api/Lmjoin/nf-lmjoin-netrequestprovisioningpackageinstall) | s’exécute localement sur un ordinateur pour modifier une Windows image du système d’exploitation montée sur un volume. Le Registre est chargé à partir de l’image et les données du package de configuration sont écrites à l’emplacement où elles peuvent être récupérées au cours de la phase d’achèvement d’une opération de jonction de domaine hors connexion. |
 | [**NetSetPrimaryComputerName**](/windows/desktop/api/Lmjoin/nf-lmjoin-netsetprimarycomputername)                       | Définit le nom de l’ordinateur principal pour l’ordinateur spécifié.                                                                                                                                                                                                              |
 | [**NetUnjoinDomain**](/windows/desktop/api/Lmjoin/nf-lmjoin-netunjoindomain)                                           | Disjoint un ordinateur d’un groupe de travail ou d’un domaine.                                                                                                                                                                                                                        |
 | [**NetValidateName**](/windows/desktop/api/Lmjoin/nf-lmjoin-netvalidatename)                                           | Vérifie la validité d’un nom d’ordinateur, d’un nom de groupe de travail ou d’un nom de domaine.                                                                                                                                                                                               |
@@ -337,7 +337,7 @@ Les fonctions de gestion de réseau peuvent être regroupées comme suit.
 
 <dl> <dt>
 
-[Fonctions de réseau Windows](/windows/desktop/WNet/windows-networking-functions)
+[Windows Fonctions de mise en réseau](/windows/desktop/WNet/windows-networking-functions)
 </dt> </dl>
 
  

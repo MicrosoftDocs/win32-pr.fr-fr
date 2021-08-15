@@ -3,8 +3,8 @@ title: Structure MPCALLBACK_DATA (MpClient. h)
 description: Données passées à la fonction de rappel.
 ms.assetid: EA8E6C1E-F80B-4247-B073-C78D49A354CF
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPCALLBACK_DATA
-- PMPCALLBACK_DATA des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPCALLBACK_DATA
+- PMPCALLBACK_DATA des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9741ca479eeb9770a3ae8c2aedbc51a8a2643033
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1d1eb129101c341485a1e6b5763a0325cbf586a6e51e5e2875b4465696c39df8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883651"
 ---
 # <a name="mpcallback_data-structure"></a>\_Structure de données MPCALLBACK
 
@@ -283,8 +283,8 @@ Lorsque le **type** est  ==  **MPCALLBACK \_ MALWARETOAST**. Consultez [**\_ don
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

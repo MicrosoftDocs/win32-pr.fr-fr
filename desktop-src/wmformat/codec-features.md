@@ -3,21 +3,21 @@ title: Fonctionnalités du codec
 description: Fonctionnalités du codec
 ms.assetid: e0bbdf75-2369-4080-ae8e-aabaa8401dcf
 keywords:
-- SDK Windows Media format, fonctionnalités de codec
-- Kit de développement logiciel (SDK) Windows Media format, fonctionnalités
+- Windows Media Format SDK, fonctionnalités de codec
+- Windows Media Format SDK, fonctionnalités
 - codecs, fonctionnalités
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02e3623bcb6f338fe11bef3089705801dc3ea047
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e7546573077134d23f2115ce09088bcbb1027d6125a86b87faadb615e27730c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849160"
 ---
 # <a name="codec-features"></a>Fonctionnalités du codec
 
-Le kit de développement logiciel (SDK) Windows Media format est fourni avec plusieurs codecs audio et vidéo. Vous pouvez utiliser les codecs fournis pour compresser et décompresser du contenu pour répondre à différents besoins. Le codec utilisé par le writer pour compresser les données est spécifié par les informations de configuration de flux dans le profil. Les informations du profil sont ensuite stockées dans l’en-tête du fichier créé par le writer. Ensuite, lorsque le fichier est ouvert par le lecteur ou le lecteur synchrone, les informations de profil dans l’en-tête identifient le codec nécessaire pour décompresser les données.
+le kit de développement logiciel (SDK) Windows Media Format est fourni avec plusieurs codecs audio et vidéo. Vous pouvez utiliser les codecs fournis pour compresser et décompresser du contenu pour répondre à différents besoins. Le codec utilisé par le writer pour compresser les données est spécifié par les informations de configuration de flux dans le profil. Les informations du profil sont ensuite stockées dans l’en-tête du fichier créé par le writer. Ensuite, lorsque le fichier est ouvert par le lecteur ou le lecteur synchrone, les informations de profil dans l’en-tête identifient le codec nécessaire pour décompresser les données.
 
 Les fonctionnalités suivantes sont présentées dans cette section.
 
@@ -30,7 +30,7 @@ Les fonctionnalités suivantes sont présentées dans cette section.
 -   [Sortie audio S/PDIF](s-pdif-audio-output.md)
 -   [Image vidéo](video-image.md)
 -   [Modèles de conformité des appareils](device-conformance-templates.md)
--   [Paramètres de complexité de la vidéo](video-complexity-settings.md)
+-   [Paramètres de la complexité de la vidéo](video-complexity-settings.md)
 -   [Interpolation de frame](frame-interpolation.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
@@ -40,9 +40,9 @@ Les fonctionnalités suivantes sont présentées dans cette section.
 [**Fonctionnalités**](features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

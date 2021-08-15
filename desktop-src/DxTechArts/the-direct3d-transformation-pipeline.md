@@ -4,20 +4,20 @@ description: Cet article fournit une explication technique pour les développeur
 ms.assetid: 48ae49f0-1162-c292-4bd4-34da5aadd2df
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2b97a87293a840ccd9641b1418c2005cf73a855
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: b6377e3b17cfb4ceb6eda1f4cf59a93c12fd3e6b2f7e43f29f622ed6ee12c271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "103869325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118152333"
 ---
 # <a name="the-direct3d-transformation-pipeline"></a>Pipeline de transformation Direct3D
 
 Cet article fournit une explication technique pour les développeurs d’applications Direct3D sur la manière de définir les paramètres du pipeline de transformation Direct3D en manipulant directement les matrices Direct3D.
 
--   [Vue d’ensemble](#overview)
+-   [Vue d'ensemble](#overview)
 -   [Pipeline de transformation](#the-transformation-pipeline)
--   [Conseils d’utilisation](#usage-tips)
+-   [Astuces de l’utilisation](#usage-tips)
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -155,7 +155,7 @@ Voici les descriptions des étapes présentées dans la figure précédente :
 
     ![coordonnées d’écran calculées et transmises au rastériseur](images/d3dxfrm69.gif)
 
-## <a name="usage-tips"></a>Conseils d’utilisation
+## <a name="usage-tips"></a>Astuces de l’utilisation
 
 Voici quelques conseils pour utiliser le pipeline de transformation Direct3D :
 

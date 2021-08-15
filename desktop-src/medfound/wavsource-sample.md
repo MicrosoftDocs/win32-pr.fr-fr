@@ -4,12 +4,12 @@ ms.assetid: 905fbba5-0a04-4048-80bd-f8707c4879da
 title: Exemple WavSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 050edb9df75032384f93c6e1f37c52e89f14a748
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffba8ab5bfd5ae1ccfb4df4c90b447c412e9e835a403d496834224f012f8bad7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972538"
 ---
 # <a name="wavsource-sample"></a>Exemple WavSource
 
@@ -32,7 +32,7 @@ Cet exemple illustre les interfaces de Media Foundation suivantes :
 -   [**IMFMediaSource**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasource)
 -   [**IMFMediaStream**](/windows/desktop/api/mfidl/nn-mfidl-imfmediastream)
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 L’exemple WavSource génère une DLL qui est un serveur COM pour la source du média et le gestionnaire de flux d’octets de la source du média. Avant d’utiliser la source du média, vous devez inscrire la DLL.
 
@@ -54,7 +54,7 @@ Vous pouvez également utiliser l’outil TopoEdit pour générer une topologie 
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/wavsource).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/wavsource).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

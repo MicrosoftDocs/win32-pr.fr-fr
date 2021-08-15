@@ -1,19 +1,19 @@
 ---
-description: Ce tableau répertorie les types de données de base pris en charge par l’Windows Runtime, et indique le type correspondant en C \# , Visual Basic et C++.
+description: ce tableau répertorie les types de données de base pris en charge par l’Windows Runtime, et indique le type correspondant en C \# , Visual Basic et C++.
 ms.assetid: B5735851-EC07-48C1-92B4-CA9F768096F6
-title: Windows Runtime les types de données de base
+title: Windows Types de données de base du Runtime
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c9c75d257194d5684d66cdf9b96abebd2b51ac8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24b9b7b088c99bf64cceff531882d5331d79e26a1d44ee0e33278ab5db7e606a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741653"
 ---
-# <a name="windows-runtime-base-data-types"></a>Windows Runtime les types de données de base
+# <a name="windows-runtime-base-data-types"></a>Windows Types de données de base du Runtime
 
-Ce tableau répertorie les types de données de base pris en charge par l’Windows Runtime, et indique le type correspondant en C \# , Visual Basic et C++.
+ce tableau répertorie les types de données de base pris en charge par l’Windows Runtime, et indique le type correspondant en C \# , Visual Basic et C++.
 
 
 
@@ -25,7 +25,7 @@ Ce tableau répertorie les types de données de base pris en charge par l’Wind
 | **Char16**   | **Chaîne**    | **char**           | **Char**           | **WCHAR \_ t**           |
 | **DateTime** | **Date**      | **DateTimeOffset** | **DateTimeOffset** | **DateTime**           |
 | **Double**   | **Nombre**    | **double**         | **Double**         | **double**             |
-| **Uniques**     | **Chaîne**    | **Uniques**           | **Uniques**           | **Uniques**               |
+| **Guid**     | **Chaîne**    | **Guid**           | **Guid**           | **Guid**               |
 | **Int16**    | **Nombre**    | **short**          | **Résumé**          | **short**              |
 | **Int32**    | **Nombre**    | **int**            | **Integer**        | **int**                |
 | **Int64**    | **Nombre**    | **long**           | **Long**           | **\_\_Int64**          |
@@ -41,36 +41,36 @@ Ce tableau répertorie les types de données de base pris en charge par l’Wind
 | **UInt32**   | **Nombre**    | **uint**           | **UInteger**       | **nombre entier non signé**       |
 | **UInt64**   | **Nombre**    | **ulong**          | **Correspondante**          | **unsigned \_ \_ Int64** |
 | **Uri**      | **Uri**       | **Uri**            | **Uri**            | **URI ^**               |
-| **Nullité**     | **Undefined** | **void**           | **Nullité**           | **void**               |
+| **Nullité**     | **Undefined** | **nullité**           | **Nullité**           | **nullité**               |
 
 
 
  
 
-Le tableau suivant indique les types .NET qui correspondent aux types de données Windows Runtime.
+le tableau suivant indique les types .net qui correspondent aux types de données Windows Runtime.
 
 
 
 | Windows Runtime | .NET                      |
 |-----------------|---------------------------|
 | **Booléen**     | **System.Boolean**        |
-| **Byte**        | **System. Byte**           |
+| **Byte**        | **System.Byte**           |
 | **Char**        | **System. Char**           |
 | **Char16**      | **System. Char**           |
 | **DateTime**    | **System.DateTimeOffset** |
 | **Double**      | **System. double**         |
-| **Uniques**        | **System. Guid**           |
-| **Int16**       | **System. Int16**          |
+| **Guid**        | **System.Guid**           |
+| **Int16**       | **System.Int16**          |
 | **Int32**       | **System.Int32**          |
-| **Int64**       | **System. Int64**          |
+| **Int64**       | **System.Int64**          |
 | **Object**      | **System.Object**         |
 | **Unique**      | **System. Single**         |
 | **Chaîne**      | **System.String**         |
 | **TimeSpan**    | **System.TimeSpan**       |
-| **UInt8**       | **System. Byte**           |
-| **UInt16**      | **System. UInt16**         |
-| **UInt32**      | **System. UInt32**         |
-| **UInt64**      | **System. UInt64**         |
+| **UInt8**       | **System.Byte**           |
+| **UInt16**      | **System.UInt16**         |
+| **UInt32**      | **System.UInt32**         |
+| **UInt64**      | **System.UInt64**         |
 | **Uri**         | **System.Uri**            |
 | **Nullité**        | **System.Void**           |
 

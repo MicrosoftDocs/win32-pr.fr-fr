@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29bd6fbea7696d0e4d5eacefd028ce7d33e549e0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 48a80dfa1a9160b32b6d3c869795c9e23e41a5fdba39e38051bd29376caf8847
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118368373"
 ---
 # <a name="inapcomponentconfig2-interface"></a>Interface INapComponentConfig2
 
@@ -58,7 +58,7 @@ L’interface **INapComponentConfig2** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette interface ne doit pas être implémentée par les agents d’intégrité système (SHA) ou les clients de contrainte de mise en quarantaine (QEC).
 
@@ -69,7 +69,7 @@ Cette interface ne doit pas être implémentée par les agents d’intégrité s
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>NapCommon. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapCommon. idl</dt> </dl> |
 

@@ -3,7 +3,7 @@ title: Commande MCI_STOP (mmsystem. h)
 description: La \_ commande d’arrêt MCI arrête toutes les séquences de lecture et d’enregistrement, décharge toutes les mémoires tampons de lecture et arrête l’affichage des images vidéo. Les périphériques CD audio, Digital-Video, MIDI Sequencer, videodisc, VCR et Waveform-Audio reconnaissent cette commande.
 ms.assetid: e5ae20b3-7439-4314-8354-d06e83b29729
 keywords:
-- Commande MCI_STOP Windows multimédia
+- commande MCI_STOP Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ea5f2acbe39b0be64ebc640ae31ceede7591c7b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e02830dde544e025447cb72df6ff3720857985384ff6bd074c5e0718b114697c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374601"
 ---
 # <a name="mci_stop-command"></a>\_Commande d’arrêt MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La différence entre les \_ commandes d’arrêt MCI et de [ \_ Pause MCI](mci-pause.md) dépend de l’appareil. Si possible, MCI \_ Pause interrompt l’opération de l’appareil, mais laisse l’appareil prêt à reprendre la lecture immédiatement.
 
@@ -82,7 +82,7 @@ Pour le périphérique CD audio, MCI \_ Stop réinitialise la position actuelle 
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

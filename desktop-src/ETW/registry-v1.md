@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 20ef88f5bd46af116b0c04e24a3c6edd39afbcdc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7c74a52793873a725c4b84e451818e07a49baf5c2839ddd38891a879cee6cb76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118394177"
 ---
 # <a name="registry_v1-class"></a>\_Classe Registry v1
 
@@ -38,7 +38,7 @@ class Registry_V1 : MSNT_SystemTrace
 
 La classe **Registry \_ v1** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Pour activer les événements de Registre dans une session de journalisation du noyau NT, spécifiez le  Registre de l’indicateur de trace d' **événements \_ \_ \_** dans le membre EnableFlags d’une structure de [**Propriétés de \_ trace \_ d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) lors de l’appel de la fonction [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) .
 
@@ -72,8 +72,8 @@ Les consommateurs de suivi d’événements peuvent implémenter un traitement s
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 
@@ -84,7 +84,7 @@ Les consommateurs de suivi d’événements peuvent implémenter un traitement s
 [**MSNT \_ SystemTrace**](msnt-systemtrace.md)
 </dt> <dt>
 
-[**Du**](registry.md)
+[**Registre**](registry.md)
 </dt> <dt>
 
 [**Registre \_ v0**](registry-v0.md)

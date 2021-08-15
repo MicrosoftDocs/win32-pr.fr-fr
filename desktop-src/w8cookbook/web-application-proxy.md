@@ -4,18 +4,18 @@ description: Proxy d'application web
 ms.assetid: DE47843C-D58B-4C71-99C2-D54073CBA531
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 220ac5f52a8f5130cdb6fb21649ff302e6693b1b
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: 3a346297dca0a81d8c2269b61e8a5d581f03f95fab56e044bedce7513882535f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "104102465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118211324"
 ---
 # <a name="web-application-proxy"></a>Proxy d'application web
 
 ## <a name="platform"></a>Plateforme
 
-**Serveurs-** Windows Server 2012 R2  
+**serveurs-** Windows Server 2012 R2  
 
 
 
@@ -24,7 +24,7 @@ ms.locfileid: "104102465"
 
 ## <a name="description"></a>Description
 
-Dans Windows Server 2012 R2, nous avons ajouté un nouveau service appelé proxy d’application Web sous le rôle accès à distance qui permet aux administrateurs de publier des applications pour un accès externe. Ce service agit comme un proxy inverse et comme un proxy services de fédération Active Directory (AD FS) (AD FS). En fait, ce service remplace le service de proxy AD FS tel qu’il a été connu dans Windows Server 2012.
+dans Windows Server 2012 R2, nous avons ajouté un nouveau service appelé Proxy d’Application Web sous le rôle accès à distance qui permet aux administrateurs de publier des applications pour un accès externe. Ce service agit comme un proxy inverse et comme un proxy services de fédération Active Directory (AD FS) (AD FS). En fait, ce service remplace le service de proxy AD FS tel qu’il a été connu dans Windows Server 2012.
 
 Avec le proxy d’application Web, une organisation peut mettre des ressources Web locales à la disposition d’un accès externe tout en gérant le risque de cet accès en contrôlant les stratégies d’authentification et d’autorisation sur le AD FS.
 
@@ -40,6 +40,6 @@ Pour accéder au proxy d’application Web, les administrateurs peuvent accéder
 
 -   [Guide des solutions](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn280942(v=ws.11))
 
- 
+ 
 
- 
+ 

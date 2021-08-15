@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d8ace44a7d6df9b7a2e280db7d6f5ac68caa69ea
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 86612cf089dcaeaa26b136a3dd8c52d1e20b12f7f3850fc3a515838bf834e54c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512149"
 ---
 # <a name="endif---ps"></a>endif-PS
 
@@ -29,9 +29,9 @@ Marque la fin d’une [If](if-bool---ps.md)... bloc [else](else---ps.md) .
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -41,7 +41,7 @@ Marque la fin d’une [If](if-bool---ps.md)... bloc [else](else---ps.md) .
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -56,9 +56,9 @@ Marque la fin d’une [If](if-bool---ps.md)... bloc [else](else---ps.md) .
 [else-PS](else---ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

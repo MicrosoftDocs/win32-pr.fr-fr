@@ -7,12 +7,12 @@ keywords:
 - Schéma Active Directory Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7965232dd756272eb016ca251aa29716a22a088a
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: 0a12d18012abf3e2cf9fc9fdd6831be34d62c88279ad78a0e351534d1899e062
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "103679457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183968"
 ---
 # <a name="schema-ad-ds"></a>Schéma (AD DS)
 
@@ -22,9 +22,9 @@ Active Directory schéma peut être mis à jour de manière dynamique. Autrement
 
 Pour plus d’informations, consultez [Active Directory le schéma](active-directory-schema.md).
 
- 
+ 
 
- 
+ 
 
 
 

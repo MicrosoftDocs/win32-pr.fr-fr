@@ -1,60 +1,60 @@
 ---
-description: Le décodeur Windows Media Video 9 décode les flux vidéo qui ont été encodés par l’encodeur Windows Media Video.
+description: le décodeur Windows Media Video 9 décode les flux vidéo qui ont été encodés par l’encodeur Windows Media Video.
 ms.assetid: 08f68d1c-c226-4bf6-abd0-fce0f9ddbc05
-title: Décodeur Windows Media Video 9 (Wmcodecdsp. h)
+title: Windows Décodeur Media Video 9 (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96d89e05f82ce503016a10d5591a23bc673d0db5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b251b46c94ef88283577dbd8268c3275d8ed6aab9321c98e115a42501e2729ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237261"
 ---
-# <a name="windows-media-video-9-decoder"></a>Décodeur Windows Media Video 9
+# <a name="windows-media-video-9-decoder"></a>Windows Décodeur Media Video 9
 
-Le décodeur Windows Media Video 9 décode les flux vidéo qui ont été encodés par l’encodeur [**Windows Media Video**](windowsmediavideo9encoder.md). L’encodeur et le décodeur prennent en charge les quatre catégories de vidéo encodées suivantes.
+le décodeur Windows Media Video 9 décode les flux vidéo qui ont été encodés par l’encodeur [**Windows Media Video**](windowsmediavideo9encoder.md). L’encodeur et le décodeur prennent en charge les quatre catégories de vidéo encodées suivantes.
 
--   Profil simple Windows Media Video 9
--   Profil principal du Windows Media Video 9
--   Profil avancé Windows Media Video 9
--   Image Windows Media Video 9,1
+-   Windows Profil simple Media Video 9
+-   Windows Profil principal Media Video 9
+-   Windows Profil Media Video 9 Advanced
+-   Windows Image Media Video 9,1
 
 ## <a name="class-identifier"></a>Identificateur de classe
 
-L’identificateur de classe (CLSID) du décodeur de Windows Media Video est représenté par la constante **CLSID \_ CWMVDecMediaObject**. Vous pouvez créer une instance du décodeur vidéo en appelant **CoCreateInstance**.
+l’identificateur de classe (CLSID) du décodeur de Windows Media Video est représenté par la constante **clsid \_ CWMVDecMediaObject**. Vous pouvez créer une instance du décodeur vidéo en appelant **CoCreateInstance**.
 
 ## <a name="interfaces"></a>Interfaces
 
-Un objet décodeur vidéo expose l’interface [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) afin que l’objet puisse être utilisé en tant qu’objet de média DirectX (DMO) et expose l’interface [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) afin que l’objet puisse être utilisé en tant que transformation de Media Foundation (MFT).
+un objet décodeur vidéo expose l’interface [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) afin que l’objet puisse être utilisé en tant qu’objet DirectX Media (DMO) et expose l’interface [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) afin que l’objet puisse être utilisé en tant que transformation de Media Foundation (MFT).
 
-Un décodeur vidéo se comporte comme un DMO ou une table MFT en fonction des interfaces que vous obtenez et de la version de Windows en cours d’exécution. Le tableau suivant indique les conditions sous lesquelles un décodeur vidéo se comporte comme un DMO ou une table MFT.
+un décodeur vidéo se comporte comme un DMO ou une table MFT selon les interfaces que vous obtenez et la version de Windows en cours d’exécution. le tableau suivant indique les conditions sous lesquelles un décodeur vidéo se comporte comme un DMO ou une table MFT.
 
 
 
 | Système d’exploitation            | Comportement du décodeur                                                                                                                                                      |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Windows XP                  | Un décodeur vidéo Windows Media se comporte toujours comme un DMO.                                                                                                                |
-| Windows Vista et Windows 7 | Par défaut, un décodeur vidéo Windows Media se comporte comme un DMO. Si vous obtenez une interface [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) sur un décodeur vidéo, il se comporte comme une table MFT. |
+| Windows XP                  | un décodeur vidéo de média Windows se comporte toujours comme une DMO.                                                                                                                |
+| Windows Vista et Windows 7 | par défaut, un décodeur vidéo de média Windows se comporte comme un DMO. Si vous obtenez une interface [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) sur un décodeur vidéo, il se comporte comme une table MFT. |
 
 
 
  
 
-À partir de Windows 7, le décodeur Windows Media Video implémente l’interface [**IDMOQualityControl**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-idmoqualitycontrol) .
+à partir de Windows 7, le décodeur Windows Media Video implémente l’interface [**IDMOQualityControl**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-idmoqualitycontrol) .
 
 ## <a name="input-formats"></a>Formats d’entrée
 
-Le tableau suivant présente les codes à quatre caractères (FOURCCs) qui correspondent aux catégories d’entrées encodées prises en charge par le décodeur Windows Media Video.
+le tableau suivant présente les codes à quatre caractères (FOURCCs) qui correspondent aux catégories d’entrées encodées prises en charge par le décodeur Windows Media Video.
 
 
 
 | Category                               | FOURCC                                   |
 |----------------------------------------|------------------------------------------|
-| Profil simple Windows Media Video 9   | "WMV3"                                   |
-| Profil principal du Windows Media Video 9     | "WMV3"                                   |
-| Profil avancé Windows Media Video 9 | "WVC1"                                   |
-| Image Windows Media Video 9,1          | « WMVP » pour 9,1, « WVP2 » pour 9,1 version 2 |
+| Windows Profil simple Media Video 9   | "WMV3"                                   |
+| Windows Profil principal Media Video 9     | "WMV3"                                   |
+| Windows Profil Media Video 9 Advanced | "WVC1"                                   |
+| Windows Image Media Video 9,1          | « WMVP » pour 9,1, « WVP2 » pour 9,1 version 2 |
 
 
 
@@ -62,7 +62,7 @@ Le tableau suivant présente les codes à quatre caractères (FOURCCs) qui corre
 
 ## <a name="output-formats"></a>Formats de sortie
 
-Le décodeur Windows Media Video prend en charge les sous-types de médias de sortie suivants lorsqu’il agit en tant que DMO.
+le décodeur Windows Media Video prend en charge les sous-types de médias de sortie suivants lorsqu’il agit en tant que DMO.
 
 -   MEDIASUBTYPE \_ NV12
 -   MEDIASUBTYPE \_ YV12
@@ -76,7 +76,7 @@ Le décodeur Windows Media Video prend en charge les sous-types de médias de so
 -   MEDIASUBTYPE \_ RGB555
 -   MEDIASUBTYPE \_ RGB8
 
-Le décodeur Windows Media Video prend en charge les sous-types de médias de sortie suivants lorsqu’il joue le rôle de MFT.
+le décodeur Windows Media Video prend en charge les sous-types de médias de sortie suivants lorsqu’il joue le rôle de MFT.
 
 -   MFVideoFormat \_ NV12
 -   MFVideoFormat \_ YV12
@@ -92,7 +92,7 @@ Le décodeur Windows Media Video prend en charge les sous-types de médias de so
 
 ## <a name="properties"></a>Propriétés
 
-Le décodeur Windows Media Video prend en charge les propriétés suivantes.
+le décodeur Windows Media Video prend en charge les propriétés suivantes.
 
 
 
@@ -161,7 +161,7 @@ En écriture seule.<br />
 <td><strong>g_wszWMVCNeedsDrain</strong></td>
 <td>Spécifie si le décodeur doit être vidé.<br/> <dl> Windows 8<br />
 Lecture seule.<br />
-</dl> Cette propriété est utilisée par l’exécution du format Windows Media. Le type de propriété est <strong>VARIANT_BOOL</strong>. Si la valeur est <strong>VARIANT_TRUE</strong>, le décodeur doit être vidé après une discontinuation. Pour plus d’informations sur la vidange d’une table MFT, consultez <a href="basic-mft-processing-model.md">modèle de traitement MFT de base</a>.<br/>
+</dl> cette propriété est utilisée par le runtime de Format multimédia Windows. Le type de propriété est <strong>VARIANT_BOOL</strong>. Si la valeur est <strong>VARIANT_TRUE</strong>, le décodeur doit être vidé après une discontinuation. Pour plus d’informations sur la vidange d’une table MFT, consultez <a href="basic-mft-processing-model.md">modèle de traitement MFT de base</a>.<br/>
 <blockquote>
 [!Note]<br />
 Pour interroger cette propriété, utilisez l’interface <a href="/windows/desktop/com/ipropertybag-and-ipersistpropertybag"><strong>IPropertyBag</strong></a> .
@@ -177,7 +177,7 @@ Pour interroger cette propriété, utilisez l’interface <a href="/windows/desk
 
 ## <a name="remarks"></a>Notes
 
-La résolution maximale autorisée par le décodeur Windows Media Video 9 est 4096x4096.
+la résolution maximale autorisée par le décodeur Windows Media Video 9 est 4096x4096.
 
 ## <a name="requirements"></a>Configuration requise
 

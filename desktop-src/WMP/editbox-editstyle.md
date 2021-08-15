@@ -3,7 +3,7 @@ title: EDITBOX. editStyle
 description: L’attribut editStyle spécifie ou récupère le style du contrôle zone d’édition.
 ms.assetid: 1b3052c4-3087-4d41-af03-d7758680cc3b
 keywords:
-- EDITBOX. editStyle Windows Media Player
+- EDITBOX. editStyle Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 229f225dfca0ec00dd4f45a4eb63f6b2503d5df1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c4d40d1933c68c4e34707f01a4d425045c773297e8567ba8ea13a88c6fbc57c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749460"
 ---
 # <a name="editboxeditstyle"></a>EDITBOX. editStyle
 
@@ -46,7 +46,7 @@ Cet attribut est une **chaîne** en lecture/écriture contenant l’une des vale
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut peut uniquement être défini sur « mot de passe » ou « multiligne » au moment de la conception. S’il est défini sur « multiligne », la valeur ne peut pas être modifiée au moment de l’exécution.
 

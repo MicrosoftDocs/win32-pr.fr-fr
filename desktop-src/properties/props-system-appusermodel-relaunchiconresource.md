@@ -4,19 +4,19 @@ ms.assetid: 3559d1f5-988c-41d9-ba9a-dfa4ba643ee2
 title: System. AppUserModel. RelaunchIconResource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc79c246fef7be5641c6488dcc34169cd5bbf98b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b43394bd5ee7dca6084526224dac268500f6881317215d63d6fc0e9a126c5b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106539080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970838"
 ---
 # <a name="systemappusermodelrelaunchiconresource"></a>System. AppUserModel. RelaunchIconResource
 
 Spécifie l’icône utilisée pour le raccourci créé dans la barre des tâches lorsque l’utilisateur choisit d’épingler une application à la barre des tâches ou de lancer une nouvelle instance via la liste de raccourcis de son bouton. Il s’agit de l’icône utilisée pour le groupe de la barre des tâches et est affichée pour une application épinglée, que cette application soit en cours d’exécution ou non. Il doit être spécifié dans l’un des formats suivants :
 
 -   Format de ressource standard, par exemple « % systemdir% \\ system32 \\shell32.dll,-128 ». Le caractère « - » avant l’ID de ressource est requis. N’utilisez pas le caractère « @ » au début de la chaîne du chemin d’accès.
--   Chemin d’accès direct à un fichier d’icône, tel que "% ProgramFiles% \\ Microsoft \\ Notepad \\ . ico, 0". Notez que dans la mesure où les fichiers. ico peuvent contenir plusieurs ressources d’icône, un ID de ressource est requis dans la chaîne. Si le fichier. ico est une image unique, utilisez « 0 » (sans le caractère « - ») comme ID de ressource.
+-   chemin d’accès Direct à un fichier d’icône, tel que « % programfiles% \\ Microsoft \\ Bloc-notes \\ Bloc-notes. ico, 0 ». Notez que dans la mesure où les fichiers. ico peuvent contenir plusieurs ressources d’icône, un ID de ressource est requis dans la chaîne. Si le fichier. ico est une image unique, utilisez « 0 » (sans le caractère « - ») comme ID de ressource.
 
 [System. AppUserModel. RelaunchIconResource]() est une propriété facultative. S’il n’est pas défini, l’icône de la cible de la commande relancer ([System. AppUserModel. RelaunchCommand](./props-system-appusermodel-relaunchcommand.md)) est utilisée. Toutefois, étant donné que cela peut entraîner des résultats indésirables, nous vous encourageons vivement à fournir une icône de manière explicite par le biais de cette propriété.
 

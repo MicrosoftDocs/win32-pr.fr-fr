@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 'Exemple : obtention de données WMI à partir de l’ordinateur local de façon asynchrone'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5acf8df91b5ff279d70a9f76f0a353df90e8ff3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67eb71247816319553389c451dd2e7ad268c49ee7aadeaddc118a3f08448171b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319427"
 ---
 # <a name="example-getting-wmi-data-from-the-local-computer-asynchronously"></a>Exemple : obtention de données WMI à partir de l’ordinateur local de façon asynchrone
 

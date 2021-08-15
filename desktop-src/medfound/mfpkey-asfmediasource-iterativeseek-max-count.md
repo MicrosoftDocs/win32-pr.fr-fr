@@ -4,12 +4,12 @@ ms.assetid: 5b596faf-1217-424d-ae16-8c9ec6f31af1
 title: MFPKEY_ASFMediaSource_IterativeSeek_Max_Count, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfb9268f1def2ab0d489f58cafa0b1720196c7ac
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 183ed13143260f9d6d5de67ba38fcff27ebfd5a6afb01c75a07e92497d571cf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106523754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117874252"
 ---
 # <a name="mfpkey_asfmediasource_iterativeseek_max_count-property"></a>\_Propriété MFPKEY ASFMediaSource \_ IterativeSeek \_ Max \_ Count
 
@@ -23,7 +23,7 @@ Type de PROPVARIANT (VT)
 
 Membre PROPVARIANT
 
-**CORRESPONDANTE**
+**ULONG**
 
 VT \_ UI4
 
@@ -31,7 +31,7 @@ VT \_ UI4
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette propriété pour configurer la source de média ASF. Pour définir la propriété, transmettez un pointeur **IPropertyStore** au programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
@@ -47,8 +47,8 @@ La valeur par défaut est 5.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                     |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                     |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

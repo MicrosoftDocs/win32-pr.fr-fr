@@ -4,12 +4,12 @@ ms.assetid: ac6ea7a1-238e-42ae-9f10-e1db60381357
 title: EC_WMT_EVENT (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8ce974cd83a404242fb51486f0889ac9b79e044
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ad2ae2659c26d170bef14a76c0528eb5159e92ef3598fb999215e1fbd848ea90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117819922"
 ---
 # <a name="ec_wmt_event-dshowh"></a>EC_WMT_EVENT (DShow. h)
 
@@ -49,7 +49,7 @@ Pointeur vers une structure de [**\_ données d' \_ événement \_ « am WMT**]
 
 | lParam1                       | \_Données d' \_ événement WMT am \_ . pdata                                                                                                                       |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| \_licence d’acquisition WMT \_         | Pointeur vers une structure de [**\_ \_ \_ données de licence WM**](/windows/desktop/wmformat/wm-get-license-data) . Cette structure est documentée dans le kit de développement logiciel (SDK) du format Windows Media. |
+| \_licence d’acquisition WMT \_         | Pointeur vers une structure de [**\_ \_ \_ données de licence WM**](/windows/desktop/wmformat/wm-get-license-data) . cette structure est documentée dans le kit de développement logiciel (SDK) Format multimédia Windows. |
 | \_personnalisable WMT            | Pointeur désignant une structure d’état de l' [**\_ \_ individualisation WM**](/windows/desktop/wmformat/wm-individualize-status) .                                                        |
 | WMT \_ a besoin d’une \_ individualisation | **Valeur null**.                                                                                                                                        |
 | WMT \_ aucun \_ droit               | Pointeur vers une chaîne de caractères larges contenant une URL de Challenge.                                                                                   |
@@ -63,9 +63,9 @@ La valeur de *lParam2* peut être **null**. Vérifiez la valeur avant de déréf
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur l’activation de la lecture de fichiers protégés par DRM, consultez la documentation du kit de développement logiciel (SDK) Windows Media format.
+pour plus d’informations sur l’activation de la lecture des fichiers protégés par DRM, consultez la documentation du kit de développement logiciel (SDK) Windows Media Format.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -84,7 +84,7 @@ Pour plus d’informations sur l’activation de la lecture de fichiers protég�
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

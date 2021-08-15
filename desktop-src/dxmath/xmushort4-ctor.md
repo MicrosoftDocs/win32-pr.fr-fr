@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: bdf73cbd353138237f59344b575b63624802df8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5801a098cb691fabc5c877dd3cbe69fbb923608d0fdcb3cba150cf0b744faf9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118276175"
 ---
 # <a name="xmushort4-constructors"></a>Constructeurs XMUSHORT4
 

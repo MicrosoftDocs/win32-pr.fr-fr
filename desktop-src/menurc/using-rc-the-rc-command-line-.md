@@ -4,12 +4,12 @@ description: Pour démarrer RC, utilisez la commande suivante.
 ms.assetid: da087e15-ecb5-4d03-b534-be872cf7d8b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c34e24fdf7b9b648a9baf9c6db8981f05d5434ef
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e560ebee4312dccc2463caf123f05a5ad9831cd293c9976350e6de7ee13cb64a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971918"
 ---
 # <a name="using-rc-the-rc-command-line"></a>Utilisation de RC (ligne de commande RC)
 
@@ -19,7 +19,7 @@ Version **RC** \[ *options* \] *fichier de script*
 
 Le paramètre de *fichier de script* spécifie le nom du fichier de définition de ressource qui contient les noms, types, noms de fichiers et descriptions des ressources à compiler.
 
-RC peut générer des fichiers de ressources distincts pour les applications qui ont à la fois des ressources indépendantes du langage et des ressources spécifiques à une langue. Les développeurs peuvent utiliser un [fichier de configuration de ressource](/windows/desktop/Intl/preparing-resources) ou définir des options de ligne de commande pour sélectionner les types de ressources et les éléments qui ne sont pas des ressources localisables du fichier indépendant de la [langue (LN)](/windows/desktop/Intl/mui-resource-management) et qui sont des ressources localisables de fichiers MUI spécifiques à une langue. Pour plus d’informations, consultez l' [interface utilisateur multilingue](/windows/desktop/Intl/multilingual-user-interface).
+RC peut générer des fichiers de ressources distincts pour les applications qui ont à la fois des ressources indépendantes du langage et des ressources spécifiques à une langue. Les développeurs peuvent utiliser un [fichier de configuration de ressource](/windows/desktop/Intl/preparing-resources) ou définir des options de ligne de commande pour sélectionner les types de ressources et les éléments qui ne sont pas des ressources localisables du fichier indépendant de la [langue (LN)](/windows/desktop/Intl/mui-resource-management) et qui sont des ressources localisables de fichiers MUI spécifiques à une langue. pour plus d’informations, consultez la [interface utilisateur multilingue](/windows/desktop/Intl/multilingual-user-interface).
 
 Le paramètre *options* peut être une ou plusieurs des options de ligne de commande suivantes.
 
@@ -160,7 +160,7 @@ Empêche RC de vérifier la variable d’environnement INCLUDe lors de la recher
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les options ne respectent pas la casse et un trait d’Union (-) peut être utilisé à la place d’une barre oblique (/). Vous pouvez combiner des options à une seule lettre s’ils n’ont pas besoin de paramètres supplémentaires.
 
@@ -185,6 +185,6 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Interface utilisateur multilingue](/windows/desktop/Intl/multilingual-user-interface)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

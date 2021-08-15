@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d22fb7c74c1ed469e609e7dcfdd3d36ba355cc5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 08732b0ed55464fa1a288cc13a9ac19609b480644ffa4c9dfbeb140cedbbd3c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118372378"
 ---
 # <a name="put-command"></a>commande put
 
@@ -100,7 +100,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La commande put définit un ou plusieurs des rectangles suivants lorsque vous travaillez avec des appareils de superposition vidéo :
 

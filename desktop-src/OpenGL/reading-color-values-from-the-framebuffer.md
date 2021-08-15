@@ -8,12 +8,12 @@ keywords:
 - framebuffers, lecture des valeurs de couleur OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4df14690b68f7e93949d26ee50ac562ebd667be
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65beb6dae04019637fc8683220ce12e671c4a52d4f015ae9f8d45e70db67bb36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117794766"
 ---
 # <a name="reading-color-values-from-the-framebuffer"></a>Lecture des valeurs de couleur à partir du trame
 
@@ -29,9 +29,9 @@ Sur un appareil basé sur une palette :
 -   Les valeurs RVBA sont lues à partir d’un index dans la palette système. L’index logique est obtenu à partir d’une table inverse, et les composants RVBA sont extraits.
 -   Les valeurs d’index de couleurs sont lues à partir d’un index dans la palette système et une table inverse est utilisée pour obtenir l’index de palette logique.
 
- 
+ 
 
- 
+ 
 
 
 

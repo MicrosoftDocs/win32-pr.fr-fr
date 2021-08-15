@@ -4,21 +4,21 @@ description: Création du fichier art principal
 ms.assetid: 50099050-2ce8-4cbf-82b7-3018f6579bd2
 keywords:
 - création d’apparences, de fichiers art primaires
-- Apparences du lecteur Windows Media, fichiers artistiques
+- habillages Lecteur Windows Media, fichiers artistiques
 - apparences, fichiers artistiques
 - fichiers pour les habillages, illustrations
 - fichiers art pour les apparences, images principales
-- Apparences du lecteur Windows Media, images principales
+- habillages Lecteur Windows Media, images principales
 - apparences, images principales
 - images principales dans les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9ceb92a5a87c1fc03ec7336a7ca5dd7814e4a1c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b21483e9b39692ad9eee7eb2cd7958f2fa70ddb7c2926877b84f3f537156bd55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104568893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118341541"
 ---
 # <a name="creating-the-primary-art-file"></a>Création du fichier art principal
 
@@ -40,7 +40,7 @@ Il s’agit des deux contrôles d’interface utilisateur que cet exemple utilis
 
 Avant de créer vos couches, vous devez créer le fichier qui contiendra vos couches. Démarrez Photoshop et créez un nouveau fichier de 100 pixels de haut et 200 pixels de large. Le fichier utilisé pour créer l’illustration de cet exemple est appelé tiny.psd et est inclus dans le kit de développement logiciel (SDK).
 
-Toutes les instructions sont fournies en termes de Photoshop, mais tout autre programme artistique peut être utilisé pour créer des apparences tant que vous pouvez les enregistrer dans l’un des formats de fichier pris en charge par le lecteur Windows Media (BMP, GIF, JPG et PNG). La création d’apparences est plus facile si vous utilisez un programme artistique avec des couches, comme Adobe Photoshop, Jasc Paint Shop Pro ou Jedor VISCOSITE. Les couches sont extrêmement utiles, car les images doivent être alignées correctement pour le mappage d’images et l’affichage d’autres images.
+toutes les instructions sont fournies en termes de Photoshop, mais tout autre programme artistique peut être utilisé pour créer des apparences tant que vous pouvez les enregistrer dans l’un des formats de fichier pris en charge par le Lecteur Windows Media (BMP, GIF, JPG et PNG). la création d’apparences est plus facile si vous utilisez un programme artistique avec des couches, comme Adobe Photoshop, Jasc Paint Shop Pro ou Jedor viscosite. Les couches sont extrêmement utiles, car les images doivent être alignées correctement pour le mappage d’images et l’affichage d’autres images.
 
 ## <a name="skin-background-layer"></a>Couche d’arrière-plan de l’apparence
 
@@ -115,9 +115,9 @@ Vous utiliserez ce nom de fichier comme valeur pour l’attribut **BackgroundIma
 [**Création de votre première apparence**](building-your-first-skin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

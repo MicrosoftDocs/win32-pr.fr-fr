@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 646b97f37aea55ee3e9d1aa24e80b9d26ea82469
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b0741308777389787f299f377160431dbbd29ca51b368e477fde04dc54337f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118253025"
 ---
 # <a name="jet_signatureinequality-operator"></a>JET_SIGNATURE. Opérateur d’inégalité
 
@@ -76,7 +76,7 @@ public static bool operator !=(
     
     Deuxième instance à comparer.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur renvoyée
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances ne sont pas égales.  

@@ -4,24 +4,24 @@ ms.assetid: 3d8c5d06-8690-4298-a1d1-f21af35bcfd4
 title: Comment lire un fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc84ef751db318354da36454e6a30fd2ce4bd8e7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b7d20a021ec5053746c279598d08117c6b25a5fe6a52946fed56f19eda3cafe1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401147"
 ---
 # <a name="how-to-play-a-file"></a>Comment lire un fichier
 
-Cet article a pour but de vous offrir la version de la programmation DirectShow. Il présente une application console simple qui lit un fichier audio ou vidéo. Le programme n’a que quelques lignes de long, mais il illustre une partie de la puissance de la programmation DirectShow.
+cet article a pour but de vous fournir la version de DirectShow programmation. Il présente une application console simple qui lit un fichier audio ou vidéo. le programme ne fait que quelques lignes, mais il illustre une partie de la puissance de la programmation de DirectShow.
 
-Comme l’explique l’article [sur la programmation d’applications DirectShow](introduction-to-directshow-application-programming.md) , une application DirectShow effectue toujours les mêmes étapes de base :
+comme décrit dans l’article [présentation de DirectShow application programming](introduction-to-directshow-application-programming.md) , une application DirectShow effectue toujours les mêmes étapes de base :
 
-1.  Créez une instance du [Gestionnaire de graphes de filtre](filter-graph-manager.md).
-2.  Utilisez le gestionnaire de graphe de filtre pour générer un graphique de filtre.
+1.  créez une instance du [gestionnaire de Graph de filtre](filter-graph-manager.md).
+2.  utilisez le gestionnaire de Graph de filtre pour générer un graphique de filtre.
 3.  Exécuter le graphique, ce qui provoque le déplacement des données dans les filtres.
 
-Pour compiler et lier le code dans cette rubrique, incluez le fichier d’en-tête DShow. h et un lien vers le fichier de bibliothèque statique strmiids. lib. Pour plus d’informations, consultez [génération d’applications DirectShow](setting-up-the-build-environment.md).
+Pour compiler et lier le code dans cette rubrique, incluez le fichier d’en-tête DShow. h et un lien vers le fichier de bibliothèque statique strmiids. lib. pour plus d’informations, consultez [génération d’Applications DirectShow](setting-up-the-build-environment.md).
 
 Commencez par appeler [**CoInitialize**](/windows/desktop/api/objbase/nf-objbase-coinitialize) ou [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) pour initialiser la bibliothèque com :
 
@@ -38,7 +38,7 @@ if (FAILED(hr))
 
 Pour simplifier les choses, cet exemple ignore la valeur de retour, mais vous devez toujours vérifier la valeur **HRESULT** à partir de n’importe quel appel de méthode.
 
-Ensuite, appelez [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer le gestionnaire de graphique de filtre :
+ensuite, appelez [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer le filtre Graph Manager :
 
 
 ```C++
@@ -49,14 +49,14 @@ HRESULT hr = CoCreateInstance(CLSID_FilterGraph, NULL,
 
 
 
-Comme indiqué, l’identificateur de classe (CLSID) est CLSID \_ FilterGraph. Le gestionnaire de graphes de filtres étant fourni par une DLL in-process, le contexte d’exécution est **CLSCTX \_ InProc \_ Server**. DirectShow prend en charge le modèle de thread libre. vous pouvez donc également appeler [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) avec l’indicateur **coinit \_ multithread** .
+Comme indiqué, l’identificateur de classe (CLSID) est CLSID \_ FilterGraph. le gestionnaire de Graph de filtre est fourni par une DLL in-process, le contexte d’exécution est donc **CLSCTX \_ inproc \_ SERVER**. DirectShow prend en charge le modèle de thread libre, vous pouvez également appeler [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) avec l’indicateur **coinit \_ multithread** .
 
 L’appel à [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) retourne l’interface [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) , qui contient principalement des méthodes pour générer le graphique de filtre. Deux autres interfaces sont nécessaires pour cet exemple :
 
 -   L' [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) contrôle la diffusion en continu. Elle contient des méthodes pour l’arrêt et le démarrage du graphique.
--   [**IMediaEvent**](/windows/desktop/api/Control/nn-control-imediaevent) a des méthodes permettant d’obtenir des événements à partir du gestionnaire de graphique de filtre. Dans cet exemple, l’interface est utilisée pour attendre la fin de la lecture.
+-   [**IMediaEvent**](/windows/desktop/api/Control/nn-control-imediaevent) a des méthodes permettant d’obtenir des événements à partir du gestionnaire de Graph de filtre. Dans cet exemple, l’interface est utilisée pour attendre la fin de la lecture.
 
-Ces deux interfaces sont exposées par le gestionnaire de graphe de filtre. Utilisez le pointeur [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) retourné pour effectuer une requête :
+ces deux interfaces sont exposées par le gestionnaire de Graph de filtre. Utilisez le pointeur [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) retourné pour effectuer une requête :
 
 
 ```C++
@@ -174,7 +174,7 @@ void main(void)
 
 <dl> <dt>
 
-[Tâches de base de DirectShow](basic-directshow-tasks.md)
+[tâches de base DirectShow](basic-directshow-tasks.md)
 </dt> </dl>
 
  

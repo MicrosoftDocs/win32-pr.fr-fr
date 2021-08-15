@@ -1,17 +1,17 @@
 ---
-title: Méthode Play (fonctionnalités héritées de l’environnement Windows)
+title: Play, méthode (fonctionnalités d’environnement de Windows héritées)
 description: Méthode Play
 ms.assetid: 7e89341a-b4d3-4bea-8e7f-31c649ff06b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1d06f4275d7b4c0959a59536c8b20a95c14ab1c
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 980c13cbf11e86a25485558fb3ff2ade703010eb180e86291f206ea152f3c0be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106511529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118247085"
 ---
-# <a name="play-method-legacy-windows-environment-features"></a>Méthode Play (fonctionnalités héritées de l’environnement Windows)
+# <a name="play-method-legacy-windows-environment-features"></a>Play, méthode (fonctionnalités d’environnement de Windows héritées)
 
 \[Microsoft Agent est déconseillé à partir de Windows 7 et peut ne pas être disponible dans les versions ultérieures de Windows.\]
 

@@ -4,12 +4,12 @@ ms.assetid: 5C36956D-336A-4956-8793-D86DC792E906
 title: Attribut MF_MEDIATYPE_MULTIPLEXED_MANAGER (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa96c74bbff8f4858c8467fcd13253cfedf2f5dc
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fe00e8824997a0af89099c7fbaad4a2378b44c3360bad0d4b8808023355da2d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104211232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973688"
 ---
 # <a name="mf_mediatype_multiplexed_manager-attribute"></a>\_Attribut de \_ Gestionnaire de multiplexage de MediaType MF \_
 
@@ -19,7 +19,7 @@ Fournit une instance de [**IMFMuxStreamMediaTypeManager**](/windows/desktop/api/
 
 **[**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Transmettez cette valeur dans [**IMFAttributes :: GetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown) pour recevoir une instance de [**IMFMuxStreamMediaTypeManager**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager).
 
@@ -29,7 +29,7 @@ Transmettez cette valeur dans [**IMFAttributes :: GetUnknown**](/windows/deskto
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1703 \[ uniquement\]<br/>                          |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1703 \[ uniquement\]<br/>                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 

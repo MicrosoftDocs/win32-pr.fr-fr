@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: f181a567ae4089870d324c7a7e0d67a34b965b5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c83d42f499c8f821f5b342f08749a2167aac9cc61334fe2fc2d9e9134b5e2b49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118206670"
 ---
 # <a name="iwiccomponentinfo_getauthor_proxy-function"></a>IWICComponentInfo \_ \_ fonction proxy GetAuthor
 
@@ -46,9 +46,9 @@ HRESULT IWICComponentInfo_GetAuthor_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICComponentInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo) \** _
+Type : **[ **IWICComponentInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo)\***
 
-Pointeur vers cet objet [_ *IWICComponentInfo* *](/windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo) .
+Pointeur vers cet objet [**IWICComponentInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo) .
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ Taille de la mémoire tampon *wzAuthor* .
 *wzAuthor* \[ in, out\]
 </dt> <dd>
 
-Type : **WCHAR \** _
+Type : **WCHAR \***
 
 Pointeur qui reçoit le nom de l’auteur du composant.
 
@@ -72,10 +72,10 @@ La chaîne retournée est spécifique aux paramètres régionaux, 1033 par défa
 
 </dd> <dt>
 
-_pcchActual * \[ out\]
+*pcchActual* \[ à\]
 </dt> <dd>
 
-Type : **uint \** _
+Type : **uint \***
 
 Pointeur qui reçoit la longueur réelle du nom de l’auteur du composant.
 
@@ -83,7 +83,7 @@ Pointeur qui reçoit la longueur réelle du nom de l’auteur du composant.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
@@ -95,8 +95,8 @@ Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP avec SP2, applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                                                             |
+| Client minimal pris en charge<br/> | Windows XP avec SP2, Windows les \[ applications de bureau Vista uniquement\]<br/>                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll ; </dt> <dt>Wincodec. lib</dt> </dl> |
 
 

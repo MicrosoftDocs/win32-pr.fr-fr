@@ -4,12 +4,12 @@ description: Utilisez les fonctions suivantes pour administrer les gestionnaires
 ms.assetid: c1093241-604d-498d-a358-f8e8585b95cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a94ccc97f3f2dce90cde57853cfbed97f870e01b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1780f980972943f796c635a58829d9363a0ccd4e36d371306665f5d4d7ba8b5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117787619"
 ---
 # <a name="router-manager-transport-functions"></a>Fonctions du gestionnaire de routeur (transport)
 
@@ -28,11 +28,11 @@ Utilisez les fonctions suivantes pour administrer les gestionnaires de routeur. 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

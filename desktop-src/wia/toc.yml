@@ -3,12 +3,12 @@
   items:
     - name: Informations légales
       href: '-wia-legal-information.md'
-    - name: "Considérations relatives à la sécurité\_: acquisition d’images Windows"
+    - name: "considérations relatives à la sécurité\_: Windows l’Acquisition d’images"
       href: '-wia-security-considerations.md'
     - name: Informations de référence
       href: '-wia-reference.md'
       items:
-        - name: 'Nouveautés de l’acquisition d’images Windows (WIA) 2,0'
+        - name: 'nouveautés de Windows Acquisition d’images (WIA) 2,0'
           href: '-wia-whatsnew-longhorn.md'
         - name: Interface de programmation d’applications WIA
           href: '-wia-wia-application-programming-interface.md'
@@ -366,7 +366,7 @@
                   items:
                     - name: Annuler
                       href: '-wia-iwiatransfer-cancel.md'
-                    - name: Téléchargement
+                    - name: Télécharger
                       href: '-wia-iwiatransfer-download.md'
                     - name: EnumWIA_FORMAT_INFO
                       href: '-wia-iwiatransfer-enumwia-format-info.md'
@@ -583,14 +583,14 @@
               items:
                 - name: Créer
                   href: '-wia-iwia-create.md'
-                - name: Périphériques
+                - name: Appareils
                   href: '-wia-iwia-devices.md'
             - name: WIA
               href: '-wia-wia.md'
               items:
                 - name: Créer
                   href: '-wia-iwia-create.md'
-                - name: Périphériques
+                - name: Appareils
                   href: '-wia-iwia-devices.md'
                 - name: OnDeviceConnected
                   href: '-wia--iwiaevents-ondeviceconnected.md'
@@ -601,7 +601,7 @@
     - name: Vues d’ensemble et didacticiels
       href: bumper-wia-overviews-and-tutorials.md
       items:
-        - name: À propos de l’acquisition d’images Windows
+        - name: à propos de l’Acquisition d’images Windows
           href: '-wia-about-windows-image-acquisition.md'
           items:
             - name: Architecture WIA
@@ -616,7 +616,7 @@
               href: '-wia-wia-minidriver-service-library.md'
             - name: Minipilote WIA
               href: '-wia-wia-minidriver.md'
-        - name: Utilisation de l’acquisition d’images Windows
+        - name: utilisation de l’Acquisition d’images Windows
           href: '-wia-using-windows-image-acquisition.md'
           items:
             - name: Utilisation d’objets d’appareil WIA

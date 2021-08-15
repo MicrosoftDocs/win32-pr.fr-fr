@@ -15,16 +15,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27855eeb3417eede371357528457248857c3e626
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 682bc8d8c4938544c85d22658b1ea175223a6e89d07416aa1fa3717285c67892
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191892"
 ---
 # <a name="dsbackupfree-function"></a>DsBackupFree fonction)
 
-\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. À partir de Windows Vista, utilisez [service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
+\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. à partir de Windows Vista, utilisez [Service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
 
 La fonction **DsBackupFree** libère la mémoire allouée par les fonctions de sauvegarde et de restauration Active Directory Domain Services. Les fonctions suivantes allouent de la mémoire qui doit être libérée avec la fonction **DsBackupFree** .
 

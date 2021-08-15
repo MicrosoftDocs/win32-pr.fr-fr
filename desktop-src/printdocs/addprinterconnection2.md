@@ -14,12 +14,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: b24d5ddb25a43fae8576a042c4be6da8fd7cfef7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f54cdafc2bc5c957f21ed4f9a14355d6a70f7df817e975c1fe701e2b20af35a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117868967"
 ---
 # <a name="addprinterconnection2-function"></a>AddPrinterConnection2 fonction)
 
@@ -77,14 +77,14 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro. Pour obtenir des informations d’erreur étendues, appelez [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
 
  
 
-Lorsque Windows Vista établit une connexion à une imprimante, il peut être nécessaire de copier les fichiers du pilote d’imprimante à partir du serveur auquel l’imprimante est attachée. Si l’utilisateur n’a pas l’autorisation de copier les fichiers vers l’emplacement approprié, la fonction **AddPrinterConnection2** échoue et [**GETLASTERROR**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) retourne l’erreur \_ accès \_ refusé.
+lorsque Windows Vista établit une connexion à une imprimante, il peut être nécessaire de copier les fichiers du pilote d’imprimante à partir du serveur auquel l’imprimante est attachée. Si l’utilisateur n’a pas l’autorisation de copier les fichiers vers l’emplacement approprié, la fonction **AddPrinterConnection2** échoue et [**GETLASTERROR**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) retourne l’erreur \_ accès \_ refusé.
 
 Si les fichiers de pilote d’imprimante doivent être copiés à partir du serveur d’impression mais ne peuvent pas être copiés en mode silencieux en raison des stratégies de groupe en vigueur et de la connexion à l’imprimante, \_ \_ aucune \_ interface utilisateur n’est définie dans *pConnectionInfo->dwFlags*, aucune boîte de dialogue ne s’affiche et l’appel échoue.
 
@@ -100,8 +100,8 @@ La version ANSI de cette fonction, **AddPrinterConnection2A**, n’est pas prise
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Winspool. h (inclure Windows. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Winspool. lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool. drv</dt> </dl>                   |

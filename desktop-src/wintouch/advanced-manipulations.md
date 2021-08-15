@@ -3,19 +3,19 @@ title: Manipulations avancées
 description: Affichez la page d’accueil des manipulations avancées pour les applications. Consultez les liens vers les pages vue d’ensemble, expansion, rotation et traduction.
 ms.assetid: 8a1cff27-b2c0-4e72-9f4c-df656059953f
 keywords:
-- Tactile Windows, manipulations
-- Tactile Windows, manipulations avancées
-- Tactile Windows, manipulations complexes
+- Windows Toucher, manipulations
+- Windows Manipulations tactiles avancées
+- Windows Manipulations tactiles et complexes
 - manipulations, avancées
 - manipulations, complexes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48c059ad30a338fe5d413ff6c7e6e7f2e9383dc9
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 2489e86247287331880d338ff1ddf9383656be07bf3834dfc23ef68e38c63ae8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199642"
 ---
 # <a name="advanced-manipulations"></a>Manipulations avancées
 

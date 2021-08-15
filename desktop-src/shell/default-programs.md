@@ -4,23 +4,23 @@ ms.assetid: 78cd05a4-df33-42b5-91b9-826ebce04a1d
 title: Programmes par défaut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f8cd741794189e47888f4daa1d4585b2d8942cf
-ms.sourcegitcommit: 1a97e0e0f92d4dcc2fb68738b910ba3910508df3
+ms.openlocfilehash: 0f1cd54afe23291c191fdd045ca3cb42b68361aa8f7f3d8ef431042cfe9f5c06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "103869293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117861356"
 ---
 # <a name="default-programs"></a>Programmes par défaut
 
-Utilisez les **programmes par défaut** pour définir l’expérience utilisateur par défaut. Les utilisateurs peuvent accéder aux **programmes par défaut** à partir du panneau de configuration ou directement à partir du menu **Démarrer** . L’outil [définir l’accès aux programmes et les paramètres par défaut de l’ordinateur (SPAD)](cpl-setprogramaccess.md) , l’expérience des valeurs par défaut principales pour les utilisateurs dans Windows XP, est désormais un composant des **programmes par défaut**.
+Utilisez les **programmes par défaut** pour définir l’expérience utilisateur par défaut. Les utilisateurs peuvent accéder aux **programmes par défaut** à partir du panneau de configuration ou directement à partir du menu **Démarrer** . l’outil [définir l’accès aux programmes et les paramètres par défaut de l’ordinateur (SPAD)](cpl-setprogramaccess.md) , l’expérience des valeurs par défaut principales pour les utilisateurs dans Windows XP, est désormais un composant des **programmes par défaut**.
 
 > [!IMPORTANT]
-> Cette rubrique ne s’applique pas à Windows 10. Le mode de fonctionnement des associations de fichiers par défaut dans Windows 10. Pour plus d’informations, consultez la section sur les **modifications apportées à la façon dont Windows 10 gère les applications par défaut** dans [cette publication](https://blogs.windows.com/windowsexperience/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
+> Cette rubrique ne s’applique pas à Windows 10. La façon dont les associations de fichiers par défaut fonctionnent dans Windows 10. pour plus d’informations, consultez la section sur les **modifications apportées à la façon dont Windows 10 gère les applications par défaut** dans [cette publication](https://blogs.windows.com/windowsexperience/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
 
  
 
-Quand un utilisateur définit les paramètres par défaut du programme à l’aide de **programmes par défaut**, le paramètre par défaut s’applique uniquement à cet utilisateur et non aux autres utilisateurs qui peuvent utiliser le même ordinateur. Les **programmes par défaut** fournissent un ensemble d’API (déconseillées dans Windows 8) qui permettent aux éditeurs de logiciels indépendants d’inclure leurs programmes ou applications dans le système par défaut. L’ensemble d’API permet également aux éditeurs de logiciels indépendants de mieux gérer leur état par défaut.
+Quand un utilisateur définit les paramètres par défaut du programme à l’aide de **programmes par défaut**, le paramètre par défaut s’applique uniquement à cet utilisateur et non aux autres utilisateurs qui peuvent utiliser le même ordinateur. les **programmes par défaut** fournissent un ensemble d’api (déconseillées dans Windows 8) qui permettent aux éditeurs de logiciels indépendants d’inclure leurs programmes ou applications dans le système par défaut. L’ensemble d’API permet également aux éditeurs de logiciels indépendants de mieux gérer leur état par défaut.
 
 Cette rubrique est organisée comme suit :
 
@@ -40,7 +40,7 @@ Cette rubrique est organisée comme suit :
 
 ## <a name="introduction-to-default-programs-and-its-related-api-set"></a>Présentation des programmes par défaut et de l’ensemble des API associées
 
-Les **programmes par défaut** sont principalement conçus pour les applications qui utilisent des types de fichiers standard, tels que des fichiers. mp3 ou. jpg ou des protocoles standard, tels que http ou mailto. Les applications qui utilisent leurs propres protocoles et associations de fichiers propriétaires n’utilisent généralement pas les fonctionnalités des **programmes par défaut** .
+Les **programmes par défaut** sont principalement conçus pour les applications qui utilisent des types de fichiers standard, tels que des fichiers .mp3 ou .jpg ou des protocoles standard, tels que http ou mailto. Les applications qui utilisent leurs propres protocoles et associations de fichiers propriétaires n’utilisent généralement pas les fonctionnalités des **programmes par défaut** .
 
 Une fois que vous avez inscrit une application pour la fonctionnalité **programmes par défaut** , les options et fonctionnalités suivantes sont disponibles à l’aide de l’API Set :
 
@@ -52,7 +52,7 @@ Une fois que vous avez inscrit une application pour la fonctionnalité **program
 
 Les **programmes par défaut** fournissent également une interface utilisateur qui vous permet d’inscrire une application afin de fournir des informations supplémentaires à l’utilisateur. Par exemple, une application signée numériquement peut inclure une URL vers la page d’hébergement du fabricant.
 
-L’utilisation de l’ensemble d’API associé peut permettre à une application de fonctionner correctement sous la fonctionnalité de contrôle de compte d’utilisateur (UAC) introduite dans Windows Vista. Sous UAC, un administrateur apparaît comme utilisateur standard dans le système, afin que l’administrateur ne puisse généralement pas écrire dans la sous-arborescence de l' **\_ \_ ordinateur local HKEY** . Cette restriction est une fonctionnalité de sécurité qui empêche un processus d’agir en tant qu’administrateur sans la connaissance de l’administrateur.
+l’utilisation de l’ensemble d’API associé peut permettre à une application de fonctionner correctement sous la fonctionnalité de contrôle de compte d’utilisateur (UAC, user account control) introduite dans Windows Vista. Sous UAC, un administrateur apparaît comme utilisateur standard dans le système, afin que l’administrateur ne puisse généralement pas écrire dans la sous-arborescence de l' **\_ \_ ordinateur local HKEY** . Cette restriction est une fonctionnalité de sécurité qui empêche un processus d’agir en tant qu’administrateur sans la connaissance de l’administrateur.
 
 L’installation d’un programme par un utilisateur s’effectue généralement sous la forme d’un processus élevé. Toutefois, les tentatives effectuées par une application pour modifier les comportements d’association par défaut au niveau de l’ordinateur après l’installation seront infructueuses. Au lieu de cela, les valeurs par défaut doivent être inscrites sur un niveau par utilisateur, ce qui empêche plusieurs utilisateurs de remplacer les valeurs par défaut des autres.
 
@@ -122,9 +122,9 @@ HKEY_LOCAL_MACHINE
 
 ### <a name="progids"></a>ProgID
 
-Une application doit fournir un [ProgID](fa-progids.md)spécifique. Veillez à inclure toutes les informations qui sont généralement écrites dans la sous-clé générique par défaut pour l’extension. Par exemple, le lecteur multimédia fiction Litware fournit la sous-clé de laLitwarePlayer11.AssocFile.MP3de classes de logiciels **HKEY \_ local \_ machine** propre à l’application \\  \\  \\ **** . Cette sous-clé contient toutes les informations de la sous-clé par défaut générique **HKEY \_ local \_ machine** \\ **Software** \\ **classes** \\ **. mp3** , ainsi que toutes les informations supplémentaires que l’application doit inscrire. Cela garantit que si l’utilisateur restaure l’Association. mp3 dans Litware Player, les informations de Litware Player sont intactes et n’ont pas été remplacées par une autre application. (Le remplacement peut se produire si la sous-clé par défaut est la seule source de ces informations.)
+Une application doit fournir un [ProgID](fa-progids.md)spécifique. Veillez à inclure toutes les informations qui sont généralement écrites dans la sous-clé générique par défaut pour l’extension. Par exemple, le lecteur multimédia fiction Litware fournit la sous-clé de laLitwarePlayer11.AssocFile.MP3de classes de logiciels **HKEY \_ local \_ machine** propre à l’application \\  \\  \\ **** . Cette sous-clé contient toutes les informations contenues dans la sous-clé par défaut générique **HKEY \_ local \_ machine** classes de \\ **logiciels** \\  \\ **.mp3** plus toutes les informations supplémentaires que l’application doit inscrire. Cela garantit que si l’utilisateur restaure l’Association de .mp3 à Litware Player, les informations de Litware Player sont intactes et n’ont pas été remplacées par une autre application. (Le remplacement peut se produire si la sous-clé par défaut est la seule source de ces informations.)
 
-Lorsque vous mappez un ProgID à un protocole ou une extension de nom de fichier, une application peut mapper un-à-un ou un-à-plusieurs. Dans l’exemple Contoso, ContosoHTML pointe vers un ProgID unique qui fournit des informations ShellExecute pour les extensions. htm,. html,. shtml,. XHT et. XHTML. Comme il existe un ProgID différent pour chaque protocole, lorsque vous utilisez des protocoles, vous permettez à chaque protocole d’avoir sa propre chaîne d’exécution.
+Lorsque vous mappez un ProgID à un protocole ou une extension de nom de fichier, une application peut mapper un-à-un ou un-à-plusieurs. Dans l’exemple Contoso, ContosoHTML pointe vers un ProgID unique qui fournit des informations ShellExecute pour les extensions .htm, .html,. shtml,. XHT et. XHTML. Comme il existe un ProgID différent pour chaque protocole, lorsque vous utilisez des protocoles, vous permettez à chaque protocole d’avoir sa propre chaîne d’exécution.
 
 Lorsque votre type MIME peut être affiché inline dans un navigateur, le ProgID du type MIME doit contenir la sous-clé **CLSID** qui utilise l’identificateur de classe (CLSID) de l’application correspondante. Ce CLSID est utilisé dans une recherche par rapport au CLSID dans la base de données MIME qui est stockée dans le **\_ \_** \\  \\  \\  \\ type **de contenu de la base de données de la base de données MIME de** la classe de \\ l’ordinateur local. Si votre type MIME n’est pas destiné à être affiché inline dans un navigateur, cette étape peut être omise.
 
@@ -140,7 +140,7 @@ La sous-clé **Capabilities** contient toutes les informations sur les **program
 
 | Valeur                  | Type                       | Signification                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |------------------------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ApplicationDescription | REG \_ SZ ou reg \_ développé \_ SZ | **Requis**. Pour permettre à un utilisateur d’effectuer un choix d’affectation par défaut informé, une application doit fournir une chaîne décrivant les fonctionnalités de l’application. Bien que l’exemple Contoso précédent affecte la description directement à la valeur ApplicationDescription, les applications fournissent généralement la description en tant que ressource incorporée dans un fichier. dll pour faciliter la localisation. Si ApplicationDescription n’est pas fourni, l’application n’apparaît pas dans les listes d’interface utilisateur des programmes potentiels par défaut.                                                            |
+| ApplicationDescription | REG \_ SZ ou reg \_ développé \_ SZ | **Requis**. Pour permettre à un utilisateur d’effectuer un choix d’affectation par défaut informé, une application doit fournir une chaîne décrivant les fonctionnalités de l’application. Bien que l’exemple Contoso précédent affecte la description directement à la valeur ApplicationDescription, les applications fournissent généralement la description en tant que ressource incorporée dans un fichier .dll pour faciliter la localisation. Si ApplicationDescription n’est pas fourni, l’application n’apparaît pas dans les listes d’interface utilisateur des programmes potentiels par défaut.                                                            |
 | ApplicationName        | REG \_ SZ ou reg \_ développé \_ SZ | **Facultatif.** Nom sous lequel le programme apparaît dans l’interface utilisateur des programmes par défaut. Si ces données ne sont pas fournies par l’application, le nom du programme exécutable associé au premier ProgID enregistré pour l’application est utilisé dans l’interface utilisateur. ApplicationName doit toujours correspondre au nom enregistré sous [RegisteredApplications](#registeredapplications). Vous pouvez utiliser ApplicationName si vous souhaitez que différents types d’application, tels qu’un navigateur et un client de messagerie, pointent vers le même fichier exécutable lorsqu’ils apparaissent sous la forme de noms différents.<br/> |
 | Hidden                 | \_valeur DWORD reg                 | **Facultatif.** Définissez cette valeur sur 1 pour supprimer l’application de la liste des programmes dans la boîte de dialogue **définir vos programmes par défaut** . Si cette valeur est égale à 0 ou absente, l’application s’affiche normalement dans la liste.                                                                                                                                                                                                                                                                                                                                                              |
 
@@ -161,7 +161,7 @@ La sous-clé **MIMEAssociations** contient des types MIME spécifiques revendiqu
 La sous-clé **restauré** est associée à l’adresse **Internet** et aux entrées de **courrier électronique** attribuables par l’utilisateur dans le menu **Démarrer** . Une application doit s’inscrire séparément en tant que contendeur pour ces entrées. Pour plus d’informations, consultez [inscription de programmes avec des types de clients](reg-middleware-apps.md).
 
 > [!Note]  
-> À compter de Windows 7, il n’y a plus d’entrées **Internet** et de **messagerie électronique** dans le menu **Démarrer** . Les données de Registre associées à l’entrée de **courrier électronique** sont toujours utilisées pour le client MAPI par défaut, mais les données de Registre associées à l’entrée **Internet** ne sont pas utilisées par Windows.
+> à partir de Windows 7, il n’y a plus d’entrées **Internet** et de **messagerie électronique** dans le menu **démarrer** . les données de registre associées à l’entrée de **courrier électronique** sont toujours utilisées pour le client MAPI par défaut, mais les données de registre associées à l’entrée **Internet** ne sont pas utilisées par Windows du tout.
 
  
 
@@ -169,7 +169,7 @@ En associant l’inscription du menu **Démarrer** à une application avec son i
 
 La sous-clé **restauré** comporte deux entrées : StartMenuInternet et mail, qui correspondent aux positions canoniques de **messagerie** et **Internet** dans le menu **Démarrer** . Une application affecte StartMenuInternet ou mail une valeur égale au nom de la sous-clé inscrite de l’application sous **HKEY \_ local \_ machine** \\ **Software** \\ **clients** \\ **StartMenuInternet** ou **HKEY \_ local \_ machine** \\ **Software** \\ **clients** \\ **mail** (comme décrit dans [inscription de programmes avec des types de client](reg-middleware-apps.md)).
 
-Dans le cas de la position canonique par **courrier électronique** dans le menu **Démarrer** , elle représente le client MAPI par défaut et est donc supposée être en mesure de transmettre des appels MAPI. Sous Windows 7, bien qu’il n’y ait plus de position canonique par **courrier électronique** dans le menu **Démarrer** , cette sous-clé continue à être utilisée pour le client MAPI par défaut. Une application revendiquant la valeur par défaut du courrier doit s’inscrire en tant que gestionnaire MAPI sous la sous-clé suivante :
+Dans le cas de la position canonique par **courrier électronique** dans le menu **Démarrer** , elle représente le client MAPI par défaut et est donc supposée être en mesure de transmettre des appels MAPI. sous Windows 7, bien qu’il n’y ait plus de position canonique par **courrier électronique** dans le menu **démarrer** , cette sous-clé continue à être utilisée pour le client MAPI par défaut. Une application revendiquant la valeur par défaut du courrier doit s’inscrire en tant que gestionnaire MAPI sous la sous-clé suivante :
 
 ```
 HKEY_LOCAL_MACHINE
@@ -212,7 +212,7 @@ Cette sous-clé fournit au système d’exploitation l’emplacement du registre
 
 Cet exemple montre les sous-clés et les valeurs utilisées lors de l’inscription du lecteur multimédia Litware-fiction. L’exemple comprend les entrées ProgID afin d’illustrer la façon dont elles s’ajustent.
 
-La sous-clé suivante montre le ProgID spécifique à l’application pour le type MIME. mp3 :
+La sous-clé suivante montre le ProgID spécifique à l’application pour le .mp3 type MIME :
 
 ```
 HKEY_LOCAL_MACHINE
@@ -223,7 +223,7 @@ HKEY_LOCAL_MACHINE
                (Default) = {CD3AFA76-B84F-48F0-9393-7EDC34128127}
 ```
 
-Ensuite, il s’agit du ProgID propre à l’application qui associe le programme Litware à l’extension de nom de fichier. mp3.
+Ensuite, il s’agit du ProgID propre à l’application qui associe le programme Litware à l’extension de nom de fichier .mp3.
 
 ```
 HKEY_LOCAL_MACHINE
@@ -239,7 +239,7 @@ HKEY_LOCAL_MACHINE
                      (Default) = %ProgramFiles%\Litware\litware.exe
 ```
 
-Les entrées suivantes affichent le ProgID combiné pour le type MIME. MPEG et l’extension de nom de fichier.
+Les entrées suivantes affichent le ProgID combiné pour l' .mpeg type MIME et l’extension de nom de fichier.
 
 ```
 HKEY_LOCAL_MACHINE
@@ -285,9 +285,9 @@ HKEY_LOCAL_MACHINE
 
 ## <a name="becoming-the-default-browser"></a>Devenir le navigateur par défaut
 
-L’inscription du navigateur doit suivre les meilleures pratiques décrites dans cette rubrique. Lorsque le navigateur est installé, Windows peut présenter à l’utilisateur une notification système par l’intermédiaire de laquelle l’utilisateur peut sélectionner le navigateur comme système par défaut. Cette notification s’affiche lorsque ces conditions sont remplies :
+L’inscription du navigateur doit suivre les meilleures pratiques décrites dans cette rubrique. lors de l’installation du navigateur, Windows pouvez présenter à l’utilisateur une notification système par l’intermédiaire de laquelle l’utilisateur peut sélectionner le navigateur comme système par défaut. Cette notification s’affiche lorsque ces conditions sont remplies :
 
--   Le programme d’installation du navigateur appelle [**SHChangeNotify**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify) à l’aide de l’indicateur **SHCNE \_ ASSOCCHANGED** pour indiquer à Windows que de nouveaux gestionnaires de protocole ont été inscrits.
+-   le programme d’installation du navigateur appelle [**SHChangeNotify**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify) à l’aide de l’indicateur **SHCNE \_ ASSOCCHANGED** pour indiquer Windows que de nouveaux gestionnaires de protocole ont été inscrits.
 -   Windows détecte qu’une ou plusieurs nouvelles applications sont inscrites pour gérer à la fois les protocoles http://et https://, et l’utilisateur n’a pas encore été notifié. En d’autres termes, aucun des éléments suivants n’a été présenté à l’utilisateur : une notification système publiant l’application, un menu volant OpenWith contenant l’application ou la page définir les paramètres par défaut des utilisateurs (SUD) de l’application.
 
 L’exemple suivant montre le code d’inscription recommandé que le programme d’installation du navigateur doit exécuter après avoir écrit ses clés de registre.
@@ -342,9 +342,9 @@ Cette section présente les meilleures pratiques pour l’utilisation des **prog
 
 ### <a name="during-installation"></a>Pendant l’installation
 
-En plus des procédures d’installation normalement recommandées sous Windows XP, une application Windows Vista ou version ultérieure doit s’inscrire auprès de la fonctionnalité **programmes par défaut** pour tirer parti de ses fonctionnalités.
+en plus des procédures d’installation normalement recommandées sous Windows XP, une application Windows Vista ou version ultérieure doit s’inscrire auprès de la fonctionnalité **programmes par défaut** pour tirer parti de ses fonctionnalités.
 
-Procédez comme suit lors de l’installation. Les étapes 1-3 correspondent aux étapes qui ont été utilisées dans Windows XP. l’étape 4 est une nouveauté de Windows Vista.
+Procédez comme suit lors de l’installation. les étapes 1-3 correspondent aux étapes utilisées dans Windows XP ; l’étape 4 est une nouveauté de Windows Vista.
 
 1.  Installez les fichiers binaires nécessaires.
 2.  Écrivez les ProgID sur \_ la \_ machine locale HKEY. Notez que les applications doivent créer des ProgID spécifiques à l’application pour leurs associations.
@@ -361,7 +361,7 @@ Lorsque l’application est exécutée par un utilisateur pour la première fois
 -   Acceptez les paramètres d’application par défaut. Cette option est activée par défaut.
 -   Personnaliser les paramètres d’application par défaut.
 
-Avant Windows 8, si l’utilisateur accepte les paramètres par défaut, votre application appelle [**IApplicationAssociationRegistration :: SetAppAsDefaultAll**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-setappasdefaultall), qui convertit toutes les associations au niveau de l’ordinateur déclarées lors de l’installation en paramètres par utilisateur pour cet utilisateur.
+avant de Windows 8, si l’utilisateur accepte les paramètres par défaut, votre application appelle [**IApplicationAssociationRegistration :: SetAppAsDefaultAll**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-setappasdefaultall), qui convertit toutes les associations au niveau de l’ordinateur déclarées lors de l’installation en paramètres par utilisateur pour cet utilisateur.
 
 Si l’utilisateur décide de personnaliser les paramètres, votre application appelle [**IApplicationAssociationRegistrationUI :: LaunchAdvancedAssociationUI**](/windows/desktop/api/Shobjidl/nf-shobjidl-iapplicationassociationregistrationui-launchadvancedassociationui) pour afficher l’interface utilisateur d’association de fichiers. L’illustration suivante montre cette fenêtre pour le lecteur multimédia Litware-fiction.
 
@@ -374,7 +374,7 @@ Vous devez utiliser cette interface utilisateur pour vos applications au lieu de
 ### <a name="set-an-application-to-check-whether-it-is-the-default"></a>Définir une application pour vérifier s’il s’agit de la valeur par défaut
 
 > [!Note]  
-> Cette fonction n’est plus prise en charge dans Windows 8.
+> Cette fonction n’est plus prise en charge à partir de Windows 8.
 
  
 
@@ -406,7 +406,7 @@ L’illustration suivante montre un exemple de boîte de dialogue.
 [Exemple de scénario d’association de fichiers](fa-sample-scenarios.md)
 </dt> <dt>
 
-[Instructions pour la gestion des applications par défaut dans Windows Vista et versions ultérieures](vista-managing-defaults.md)
+[instructions pour la gestion des Applications par défaut dans Windows Vista et versions ultérieures](vista-managing-defaults.md)
 </dt> <dt>
 
 [Définir l’accès aux programmes et les paramètres par défaut de l’ordinateur (SPAD)](cpl-setprogramaccess.md)

@@ -7,12 +7,12 @@ keywords:
 - Active Directory exemples Active Directory, définition de droits sur des types d’objets spécifiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ff598c8db6a48e07f48a3e846f54b75b2d39255
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3505751394adffe5b6d7ee6b689afada07e258af9128a95815ed46144d447ad8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189800"
 ---
 # <a name="example-code-for-setting-rights-to-specific-types-of-objects"></a>Exemple de code pour définir des droits sur des types d’objets spécifiques
 
@@ -100,9 +100,9 @@ HRESULT CreateAceNoEffectiveInheritObject(
 
 
 
- 
+ 
 
- 
+ 
 
 
 

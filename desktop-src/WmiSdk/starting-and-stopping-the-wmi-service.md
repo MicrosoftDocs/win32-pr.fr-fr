@@ -1,5 +1,5 @@
 ---
-description: WMI s’exécute en tant que service portant le nom d’affichage &\# 0034 ; Windows Management Instrumentation&\# 0034 ; et le nom du service &\# 0034 ; winmgmt&\# 0034 ;.
+description: WMI s’exécute en tant que service portant le nom d’affichage &\# 0034 ; Windows Management Instrumentation&\# 0034 ; et le nom de service &\# 0034 ; winmgmt&\# 0034 ;.
 ms.assetid: 8dff43bf-71d0-4d5a-91bc-6f474186d4ba
 ms.tgt_platform: multiple
 title: Démarrage et arrêt du service WMI
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 54b820283aac089ad6191ee587e6beadea6dc030
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b22524d356bad5f23f4ca1cc8a3e7c68e69fd83f0dc38e64eba70bc1812436f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315007"
 ---
 # <a name="starting-and-stopping-the-wmi-service"></a>Démarrage et arrêt du service WMI
 
-WMI s’exécute en tant que service portant le nom d’affichage « Windows Management Instrumentation » et le nom de service « WinMgmt ». WMI s’exécute automatiquement au démarrage du système sous le compte LocalSystem. Si WMI n’est pas en cours d’exécution, il démarre automatiquement lorsque la première application ou le script de gestion demande une connexion à un espace de noms WMI.
+WMI s’exécute en tant que service portant le nom d’affichage « Windows Management Instrumentation » et le nom de service « winmgmt ». WMI s’exécute automatiquement au démarrage du système sous le compte LocalSystem. Si WMI n’est pas en cours d’exécution, il démarre automatiquement lorsque la première application ou le script de gestion demande une connexion à un espace de noms WMI.
 
 Plusieurs autres services dépendent du service WMI, en fonction de la version du système d’exploitation exécutée par le système.
 
@@ -33,7 +33,7 @@ La procédure suivante décrit comment démarrer le service WMI.
 
     Pour plus d’informations sur les commutateurs disponibles, consultez [winmgmt](winmgmt.md). Vous utilisez le compte administrateur intégré ou un compte dans le groupe administrateurs s’exécutant avec des droits élevés pour démarrer le service WMI. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](user-account-control-and-wmi.md).
 
-2.  Les autres services qui dépendent du service WMI, tels que l’hôte de l’agent SMS ou le pare-feu Windows, ne sont pas redémarrés automatiquement.
+2.  les autres services qui dépendent du service WMI, tels que l’hôte de l’Agent SMS ou le pare-feu Windows, ne sont pas redémarrés automatiquement.
 
 ## <a name="stopping-winmgmt-service"></a>Arrêt du service WinMgmt
 
@@ -43,7 +43,7 @@ La procédure suivante décrit comment arrêter le service WMI.
 
 1.  À l’invite de commandes, entrez **net stop winmgmt**.
 
-2.  D’autres services qui dépendent du service WMI s’arrêtent également, tels que l’hôte de l’agent SMS ou le pare-feu Windows.
+2.  d’autres services qui dépendent du service WMI s’arrêtent également, tels que l’hôte de l’Agent SMS ou le pare-feu Windows.
 
 ## <a name="examples"></a>Exemples
 

@@ -9,12 +9,12 @@ keywords:
 - Active Directory, l’optimisation de la recherche Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6607b9a50ef0ec367bea95f82afd89aa39fbf5b1
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5b9d15bad8de15e4f559123d2d3cb3b6b9ec6446328e6ed4c4c52cf18355d634
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188032"
 ---
 # <a name="how-tuple-indexing-works"></a>Fonctionnement de l’indexation des tuples
 
@@ -44,12 +44,12 @@ Les index de tuple fonctionnent en scindant une chaîne en *tuples*. Par exemple
 > [!Note]  
 > Le répertoire s’arrêtera à 32767 caractères lors du développement d’une chaîne pour l’indexation des tuples.
 
- 
+ 
 
 Un index de tuple contient une entrée pour chacun de ces tuples. Par conséquent, si un utilisateur recherche `*cto*` , le serveur de Active Directory recherche toutes les correspondances pour « directeur de la configuration » dans l’index et, dans ce cas, retrouve un pointeur vers l’enregistrement qui avait un attribut (Tuple indexé) avec la valeur « Directory ».
 
 Si la chaîne `*cto*` de recherche intégrée (dans l’exemple précédent) est suffisamment spécifique, la recherche est très efficace, car elle réduit considérablement le nombre d’objets que le serveur Active Directory doit inspecter pour exécuter la requête.
 
- 
+ 
 
- 
+ 

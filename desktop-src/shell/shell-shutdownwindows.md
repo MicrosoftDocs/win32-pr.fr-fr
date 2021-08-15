@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 2a3c0746caccb360f6f7f0156b72a57ed0a2d2b8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1e9149e42710541ef82d02ba4d55f1d9519741e078e06c60ab0d47c1209fa19f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857728"
 ---
 # <a name="shellshutdownwindows-method"></a>Shell. ShutdownWindows, méthode
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 54eb329d51005893b89a9fd28f160ff616e682df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c8d5f68114f74505fce11ca8872370a802e31400159146d7030ec34339c7d19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106522703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118208373"
 ---
 # <a name="itemgetpropbyid-method"></a>Item. GetPropById, méthode
 
@@ -54,11 +54,11 @@ Type : **variante**
 
 Cette méthode retourne la valeur de la propriété spécifiée par *ID*.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette méthode pour rechercher la valeur d’une propriété d’élément à partir de son ID. Pour obtenir la liste des ID de propriété, consultez [définitions de constante de propriété WIA](-wia-wia-property-constant-definitions.md). Pour plus d’informations sur les propriétés elles-mêmes, consultez [constantes de propriété WIA](-wia-wia-property-constants.md).
 
-Pour les applications Microsoft Visual Basic, ajoutez une référence à « Bibliothèque de types Windows Image Acquisition 1,01 ». Les constantes suivantes définies dans ce fichier sont valides uniquement pour les éléments racine (éléments de périphérique) :
+pour les applications Microsoft Visual Basic, ajoutez une référence à « Windows bibliothèque de types d’Acquisition d’Image 1,01 ». Les constantes suivantes définies dans ce fichier sont valides uniquement pour les éléments racine (éléments de périphérique) :
 
 ``` syntax
 const FirmwareVersion = 1026
@@ -150,8 +150,8 @@ Next
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (version 4,90 ou ultérieure)</dt> </dl> |
 
 

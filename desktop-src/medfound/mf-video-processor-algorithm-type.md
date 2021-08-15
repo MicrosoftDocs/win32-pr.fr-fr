@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mfidl.h
-ms.openlocfilehash: 604fee61ae4b6a34d876de8c2863ee6dddad73d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 885c3e9c34fa787a6877fd37eef81f470be395225594b90b2f5516a8e773eb88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118244137"
 ---
 # <a name="mf_video_processor_algorithm_type-enumeration"></a>\_ \_ \_ Énumération des types d’algorithmes de processeur vidéo MF \_
 
@@ -61,7 +61,7 @@ Le processeur vidéo est toujours traité en interne dans AYUV et utilise des fi
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                              |
 | MIDL<br/>                      | <dl> <dt>Mfidl. idl</dt> </dl> |
 
 

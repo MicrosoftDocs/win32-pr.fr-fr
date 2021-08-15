@@ -3,9 +3,9 @@ title: IWMPMedia propriété attributeCount
 description: La propriété attributeCount obtient le nombre d’attributs qui peuvent être interrogés et/ou définis pour l’élément multimédia.
 ms.assetid: 527298ff-365d-41b0-90dd-e236d6adf6fa
 keywords:
-- propriété attributeCount lecteur Windows Media
-- propriété attributeCount lecteur Windows Media, interface IWMPMedia
-- Interface IWMPMedia lecteur Windows Media, propriété attributeCount
+- Lecteur Windows Media de la propriété attributeCount
+- Lecteur Windows Media de la propriété attributeCount, interface IWMPMedia
+- Lecteur Windows Media de l’interface IWMPMedia, propriété attributeCount
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec5a56d06a54590afd315f04a90aa582f3a364db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 73c3139d076fd7d1cd1bad784e325c67da25b3e7dedf530a9634a2878fe3011a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746068"
 ---
 # <a name="iwmpmediaattributecount-property"></a>IWMPMedia :: attributeCount, propriété
 
@@ -51,11 +51,11 @@ Public ReadOnly Property attributeCount As System.Int32
 
 **System. Int32** qui est le nombre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’utiliser cette propriété, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).
+pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).
 
 ## <a name="examples"></a>Exemples
 

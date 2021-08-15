@@ -4,12 +4,12 @@ ms.assetid: 4aa55313-b86c-48e7-829a-a0917c2ebae7
 title: Gestion des ressources (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30ef7a8be0e71c652b6e3f2ed467e866fd922791
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b860f1c394de932f167de94a3552315b1b70396e9900fccc079ab09142c9e31c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728462"
 ---
 # <a name="managing-resources-direct3d-9"></a>Gestion des ressources (Direct3D 9)
 

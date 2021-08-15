@@ -3,7 +3,7 @@ title: CUSTOMSLIDER. image
 description: L’attribut image spécifie ou récupère le nom du fichier contenant les images correspondant aux différents États du curseur personnalisé.
 ms.assetid: 7db4f924-76af-4451-831c-1ed8ab1315ee
 keywords:
-- Lecteur Windows Media CUSTOMSLIDER. image
+- CUSTOMSLIDER. image Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f425ce138b2a11d2be834f39603ecc295c52c706
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f3b169bbdcac0e251a161c8e09f352caf460280b23e0198167a641721caa6c64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117936246"
 ---
 # <a name="customsliderimage"></a>CUSTOMSLIDER. image
 
@@ -31,7 +31,7 @@ L’attribut **image** spécifie ou récupère le nom du fichier contenant les i
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **image** est obligatoire. Il spécifie un fichier image qui se compose d’une ou de plusieurs sous-images, agencées horizontalement ou verticalement, représentant les différents États du curseur personnalisé. Chaque sous-image doit avoir les mêmes dimensions que le **positionImage** ou le curseur personnalisé ne fonctionnera pas correctement. La hauteur ou la largeur de l’image globale doit donc être un multiple pair de la hauteur ou de la largeur du **positionImage**.
 

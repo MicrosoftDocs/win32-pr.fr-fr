@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 49eeb04b1568bbef785f7d750315e0ea39491d92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db556faf5cba75fe74af6c46f5c0f0a72fa34f279135e33381892812b3cf4735
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220743"
 ---
 # <a name="inkanalyzer-class"></a>InkAnalyzer, classe
 
 Implémente l’interface [**IInkAnalyzer**](iinkanalyzer.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette classe implémente l’interface com [**IInkAnalyzer**](iinkanalyzer.md) .
 
@@ -38,7 +38,7 @@ Cette classe implémente l’interface com [**IInkAnalyzer**](iinkanalyzer.md) .
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

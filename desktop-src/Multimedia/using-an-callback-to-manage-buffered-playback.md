@@ -14,12 +14,12 @@ keywords:
 - rappel d’événement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fc6f6cc7bec7971c117cb81b2f823d7184bc2fd
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 747652c10471662daacfe433a8fc22d5248bf2fe2365b6b314e76d0b91ced127
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118370265"
 ---
 # <a name="using-an-event-callback-to-manage-buffered-playback"></a>Utilisation d’un rappel d’événement pour gérer la lecture mise en mémoire tampon
 
@@ -29,6 +29,6 @@ Un rappel d’événement est défini par tout ce qui peut provoquer un rappel d
 
 Étant donné que les rappels d’événements ne reçoivent pas de notifications de fermeture, de fin ou d’ouverture spécifiques, une application peut avoir besoin de vérifier l’état du processus qu’il attend après l’événement. Il est possible qu’un certain nombre de tâches soient terminées par le temps que **WaitForSingleObject** retourne.
 
- 
+ 
 
- 
+ 

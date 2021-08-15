@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22d568ed85281e8940b69afd1c72e76e2f208a5a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d1415b9d59e28e5658dc5b54a1a6d118e0b12a77b3208978448afb2b336f313e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117753446"
 ---
 # <a name="ivmguestosheartbeatpercentage-property"></a>IVMGuestOS :: HeartbeatPercentage, propriété
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Récupère le pourcentage de pulsations attendues reçues au cours de la dernière minute.
 
@@ -62,9 +62,9 @@ Pourcentage de pulsations attendues reçues au cours de la dernière minute.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les composants d’intégration enverront une pulsation périodique à Windows Virtual PC pendant que le système d’exploitation invité est en cours d’exécution. Si le système d’exploitation invité est lourdement chargé, il est possible que Windows Virtual PC reçoive moins de pulsations que prévu. Si le pourcentage de pulsations chute à zéro, il est possible que le système d’exploitation invité ne réponde pas ou soit bloqué. L’ordinateur virtuel doit être en cours d’exécution (c’est-à-dire être entièrement amorcé et ne pas s’arrêter) et des composants d’intégration doivent être installés lorsque cette propriété est appelée.
+les composants d’intégration envoient une pulsation périodique à Windows Virtual PC pendant que le système d’exploitation invité est en cours d’exécution. si le système d’exploitation invité est très chargé, Windows Virtual PC recevra moins de pulsations que prévu. Si le pourcentage de pulsations chute à zéro, il est possible que le système d’exploitation invité ne réponde pas ou soit bloqué. L’ordinateur virtuel doit être en cours d’exécution (c’est-à-dire être entièrement amorcé et ne pas s’arrêter) et des composants d’intégration doivent être installés lorsque cette propriété est appelée.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -72,7 +72,7 @@ Les composants d’intégration enverront une pulsation périodique à Windows V
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

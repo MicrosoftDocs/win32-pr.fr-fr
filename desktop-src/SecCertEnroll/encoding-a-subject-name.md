@@ -1,19 +1,19 @@
 ---
-description: Lorsque vous initialisez un objet IX500DistinguishedName avec un nom unique pour identifier le sujet d’une demande de certificat, Distinguished Encoding Rules une séquence (ASN. 1) encodée au format DER (Abstract Syntax Notation One) est créée.
+description: lorsque vous initialisez un objet IX500DistinguishedName avec un nom unique pour identifier le sujet d’une demande de certificat, Distinguished Encoding Rules une séquence (ASN. 1) encodée au format DER (Abstract Syntax Notation One) est créée.
 ms.assetid: 58b05b59-2235-49bd-9543-45e786d62eaf
 title: Encodage d’un nom de sujet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fa03d95497a600c3e61fdda53820fd7a9858c68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dd8849bda237c174fb160c862da4399fa4a734dbc74b5e6f476e1c59d22d1fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780078"
 ---
 # <a name="encoding-a-subject-name"></a>Encodage d’un nom de sujet
 
-Lorsque vous initialisez un objet [**IX500DistinguishedName**](/windows/desktop/api/CertEnroll/nn-certenroll-ix500distinguishedname) avec un nom unique pour identifier le sujet d’une demande de certificat, [*Distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) une séquence (ASN. 1) encodée au format der ( [*Abstract Syntax Notation One*](/windows/desktop/SecGloss/a-gly) ) est créée. Par exemple, supposons que le nom unique du sujet se compose des noms distinctifs relatifs suivants :<dl> E =Administrator@jdomcsc.nttest.microsoft.com  
+lorsque vous initialisez un objet [**IX500DistinguishedName**](/windows/desktop/api/CertEnroll/nn-certenroll-ix500distinguishedname) avec un nom unique pour identifier le sujet d’une demande de certificat, [*Distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) une séquence (ASN. 1) encodée au format DER ( [*Abstract Syntax Notation One*](/windows/desktop/SecGloss/a-gly) ) est créée. Par exemple, supposons que le nom unique du sujet se compose des noms distinctifs relatifs suivants :<dl> E =Administrator@jdomcsc.nttest.microsoft.com  
 CN = administrateur  
 CN = utilisateurs  
 DC = jdomcsc  

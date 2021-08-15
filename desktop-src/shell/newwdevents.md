@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d1387724609ab29852f1b6a2a8f9df5032def1a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ba5400239f03e159c629f01a344cb34ef4e2de16650f248c618df6dcd80d5d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118219889"
 ---
 # <a name="newwdevents-object"></a>Objet NewWDEvents
 
@@ -44,14 +44,14 @@ L’objet **NewWDEvents** a ces méthodes.
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 6,0 ou ultérieure)</dt> </dl> |

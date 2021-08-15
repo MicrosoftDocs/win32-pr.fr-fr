@@ -3,9 +3,9 @@ title: PlaylistCollection. Remove, méthode
 description: La méthode Remove supprime une sélection de la bibliothèque. | PlaylistCollection. Remove, méthode
 ms.assetid: 3327ba59-5f46-4df0-ba95-c338b019277d
 keywords:
-- Méthode Remove Windows Media Player
-- Remove, méthode lecteur Windows Media, classe PlaylistCollection
-- Classe PlaylistCollection lecteur Windows Media, méthode Remove
+- supprimer la méthode Lecteur Windows Media
+- remove, méthode Lecteur Windows Media, PlaylistCollection, classe
+- Lecteur Windows Media de la classe PlaylistCollection, remove, méthode
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a1a7d223bb6262fdd06c873bde027a89e49c246
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb5e1f53446a080727ceb4a23c5ef8be2721e2adc83dec43d95a6ea516af80ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334566"
 ---
 # <a name="playlistcollectionremove-method"></a>PlaylistCollection. Remove, méthode
 
@@ -53,7 +53,7 @@ Objet de la **sélection** à supprimer.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser cette méthode, l’accès complet à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

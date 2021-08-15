@@ -4,12 +4,12 @@ ms.assetid: 1ae97022-3fb2-4c5e-9262-d5bdc2a62bee
 title: Événement MESessionScrubSampleComplete (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b076c2f2978831cc30521fcf49d71c04620c4dee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca2fdaa6ffe9693fc6a033fd0c33ff519a73dcda3a32c303844da04e6af01404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974171"
 ---
 # <a name="mesessionscrubsamplecomplete-event"></a>Événement MESessionScrubSampleComplete
 
@@ -35,8 +35,8 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

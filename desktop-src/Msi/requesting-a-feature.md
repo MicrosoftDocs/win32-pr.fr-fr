@@ -4,12 +4,12 @@ ms.assetid: 5253c6f0-316f-4f24-b0c0-951db8d16745
 title: Demande d’une fonctionnalité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e5261aac69ad2dd604a072e4b02e3bcde76a2e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7288804168f6adf936550fee0ac0c542bd68f4d468d6aedd6372071744b9fec8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117990557"
 ---
 # <a name="requesting-a-feature"></a>Demande d’une fonctionnalité
 

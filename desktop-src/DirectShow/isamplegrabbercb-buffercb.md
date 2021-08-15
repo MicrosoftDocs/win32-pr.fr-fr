@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 8af11545db1a3ed839f409deb141e5d910abe198
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c92e83c8daf5bf129a9aa8330bcc53caa88537f2395aeceebd8b5da2037c5b18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117817589"
 ---
 # <a name="isamplegrabbercbbuffercb-method"></a>ISampleGrabberCB :: BufferCB, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -72,7 +72,7 @@ Longueur de la mémoire tampon vers laquelle pointe *pbuffer*, en octets.
 
 Retourne S \_ OK en cas de réussite, ou un code d’erreur **HRESULT** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode de rappel reçoit un pointeur vers les données dans l’exemple de média le plus récent.
 
@@ -89,7 +89,7 @@ Pour configurer le rappel, appelez [**ISampleGrabber :: SetCallback**](isampleg
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

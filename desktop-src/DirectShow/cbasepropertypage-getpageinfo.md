@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 27faecf50381b098dfcbee34d1494e37c77a36ea
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: badb0678faa85b70dfa848bba7538319b905feea440339e24285f3d64b59d61c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823159"
 ---
 # <a name="cbasepropertypagegetpageinfo-method"></a>Méthode CBasePropertyPage. GetPageInfo
 
@@ -57,7 +57,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 | Code de retour                                                                                   | Description                     |
 |-----------------------------------------------------------------------------------------------|---------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie.<br/>             |
+| <dl> <dt>**\_OK**</dt> </dl>          | Réussite.<br/>             |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl> | Mémoire insuffisante.<br/> |
 
 
@@ -70,7 +70,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Cprop. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Cprop. h (inclure Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

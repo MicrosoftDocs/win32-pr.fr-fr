@@ -4,12 +4,12 @@ ms.assetid: d1e94923-fdea-4894-813e-4617f3267bb7
 title: System. photo. FocalPlaneXResolution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a5d59e8ff81ae614a96d62a0a1a1bb1f43b8e86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd59864415025102114fdd0c3c3b8e242e945fadd3892a132f9d4f639611b467
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118229523"
 ---
 # <a name="systemphotofocalplanexresolution"></a>System. photo. FocalPlaneXResolution
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,12 +4,12 @@ ms.assetid: 9a65f73d-6f8c-4271-a2d0-d91ad952f9c6
 title: Fonctions de chiffrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f91338c4a1cea62e2ecc4a2fa1f7254f303ef9b2
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: b65c04d3cb1ff619d03d7f0340fc4f94826722f8ed6c0457987b8ec432a66128
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104116090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768341"
 ---
 # <a name="cryptography-functions"></a>Fonctions de chiffrement
 
@@ -19,7 +19,7 @@ Les fonctions de chiffrement sont classées en fonction de l’utilisation comme
 -   [Fonctions de signataire](#signer-functions)
 -   [Fonctions de chiffrement de base](#base-cryptography-functions)
     -   [Fonctions du fournisseur de services](#service-provider-functions)
-    -   [Génération de clés et fonctions d’échange](#key-generation-and-exchange-functions)
+    -   [génération de clés et fonctions de Exchange](#key-generation-and-exchange-functions)
     -   [Fonctions d’encodage et de décodage d’objets](#object-encoding-and-decoding-functions)
     -   [Fonctions de chiffrement et de déchiffrement des données](#data-encryption-and-decryption-functions)
     -   [Fonctions de hachage et de signature numérique](#hash-and-digital-signature-functions)
@@ -136,7 +136,7 @@ Chaque fournisseur de services Cloud fournit une implémentation différente de 
 Les fonctions de chiffrement de base se trouvent dans les grands groupes suivants :
 
 -   Fonctions du fournisseur de services
--   Génération de clés et fonctions d’échange
+-   génération de clés et fonctions de Exchange
 -   Fonctions d’encodage et de décodage d’objets
 -   Fonctions de chiffrement et de déchiffrement des données
 -   Fonctions de hachage et de signature numérique
@@ -256,7 +256,7 @@ Cette API est déconseillée. Les logiciels nouveaux et existants doivent commen
 
  
 
-### <a name="key-generation-and-exchange-functions"></a>Génération de clés et fonctions d’échange
+### <a name="key-generation-and-exchange-functions"></a>génération de clés et fonctions de Exchange
 
 La génération et l’échange de clés [*échangent des clés*](../secgloss/e-gly.md) avec d’autres utilisateurs et créent, configurent et détruisent des [*clés de chiffrement*](../secgloss/c-gly.md).
 
@@ -1246,7 +1246,7 @@ Les fonctions suivantes permettent à l’utilisateur de récupérer un objet d�
 
 ### <a name="pfx-functions"></a>Fonctions PFX
 
-Les fonctions suivantes prennent en charge les [*objets BLOB*](../secgloss/b-gly.md)au format d’échange d’informations personnelles (pfx).
+les fonctions suivantes prennent en charge les [*objets blob*](../secgloss/b-gly.md)au format PFX (Personal Information Exchange).
 
 | Fonction                                             | Description                                                                                                                                                                                                                                                                  |
 |------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1401,7 +1401,7 @@ Ces fonctions sont utilisées pour gérer un catalogue.
 | [**CryptCATAdminEnumCatalogFromHash**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminenumcatalogfromhash)         | Énumère les catalogues qui contiennent un hachage spécifié.                                                                                                                                                                                                                                                                             |
 | [**CryptCATAdminReleaseCatalogContext**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminreleasecatalogcontext)     | Libère un handle vers un contexte de catalogue précédemment retourné par la fonction [**CryptCATAdminAddCatalog**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminaddcatalog) .                                                                                                                                                                                             |
 | [**CryptCATAdminReleaseContext**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminreleasecontext)                   | Libère le handle précédemment assigné par la fonction [**CryptCATAdminAcquireContext**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminacquirecontext) .                                                                                                                                                                                                        |
-| [**CryptCATAdminRemoveCatalog**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminremovecatalog)                     | Supprime un fichier catalogue et supprime l’entrée de ce catalogue de la base de données du catalogue Windows.                                                                                                                                                                                                                                         |
+| [**CryptCATAdminRemoveCatalog**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminremovecatalog)                     | supprime un fichier catalogue et supprime l’entrée de ce catalogue de la base de données du catalogue Windows.                                                                                                                                                                                                                                         |
 | [**CryptCATAdminResolveCatalogPath**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminresolvecatalogpath)           | Récupère le chemin d’accès qualifié complet du catalogue spécifié.                                                                                                                                                                                                                                                                       |
 | [**CryptCATCatalogInfoFromContext**](/windows/desktop/api/Mscat/nf-mscat-cryptcatcataloginfofromcontext)             | Récupère des informations de catalogue à partir d’un contexte de catalogue spécifié.                                                                                                                                                                                                                                                                    |
 | [**CryptCATClose**](/windows/desktop/api/Mscat/nf-mscat-cryptcatclose)                                               | Ferme un handle de catalogue ouvert précédemment par la fonction [**CryptCATOpen**](/windows/desktop/api/Mscat/nf-mscat-cryptcatopen) .                                                                                                                                                                                                                                    |

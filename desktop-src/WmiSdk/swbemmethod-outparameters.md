@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 2087dd545a37cdc4b82899cb261cfef5fdb1fda6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5dec1b2fe18dae65443b45ee6c1d2efcd1d924a72eb2817869c35406ebbc7808
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118314411"
 ---
 # <a name="swbemmethodoutparameters-property"></a>SWbemMethod. les paramètres de propriété
 
@@ -42,7 +42,7 @@ SWbemMethod.OutParameters As Object
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur l’utilisation de cette propriété pour obtenir des paramètres de sortie à partir de méthodes de fournisseur, consultez [construction d’objets inparamètres et analyse d’objets de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md)de sortie. Notez que les modifications apportées à cet objet ne sont pas reflétées dans la définition de méthode sous-jacente.
 

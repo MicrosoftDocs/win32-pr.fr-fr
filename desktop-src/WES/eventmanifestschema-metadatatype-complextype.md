@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 69b140a2b65d47d563fd88f49d6818efc13613f4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 392e0bb2940c36b541f63f55dac418312489f231d785f82014ade82c20602fbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118343601"
 ---
 # <a name="metadatatype-complex-type"></a>Type complexe de type de données
 
@@ -108,7 +108,7 @@ Définit les types de métadonnées que vous pouvez définir dans la section mé
 | Élément                                                                       | Type                                                                       | Description                                                                                                                                                      |
 |-------------------------------------------------------------------------------|----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**couche**](eventmanifestschema-channels-metadatatype-element.md)         | [**ChannelListType**](eventmanifestschema-channellisttype-complextype.md) | Définit une liste de canaux auxquels les fournisseurs peuvent enregistrer des événements. Un fournisseur peut ensuite importer un ou plusieurs canaux dans son manifeste.<br/>               |
-| [**mot**](eventmanifestschema-keywords-metadatatype-element.md)         | [**KeywordListType**](eventmanifestschema-keywordlisttype-complextype.md) | Définit une liste de mots clés qui déterminent la catégorie d’événements que le fournisseur écrit.<br/>                                                            |
+| [**mots clés**](eventmanifestschema-keywords-metadatatype-element.md)         | [**KeywordListType**](eventmanifestschema-keywordlisttype-complextype.md) | Définit une liste de mots clés qui déterminent la catégorie d’événements que le fournisseur écrit.<br/>                                                            |
 | [**Balance**](eventmanifestschema-levels-metadatatype-element.md)             | [**LevelListType**](eventmanifestschema-levellisttype-complextype.md)     | Définit une liste de niveaux qui spécifient la gravité d’un événement.<br/>                                                                                       |
 | **message**                                                                   |                                                                            | Définit une chaîne de message.<br/>                                                                                                                             |
 | **messageTable**                                                              |                                                                            | Définit une liste de chaînes de message.<br/>                                                                                                                    |
@@ -133,7 +133,7 @@ Définit les types de métadonnées que vous pouvez définir dans la section mé
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Bien que vous puissiez créer un manifeste qui contient une section de métadonnées, le service ne l’utilise pas. les seules métadonnées reconnues par le service sont les métadonnées trouvées dans le fichier Winmeta.xml.
 
@@ -143,8 +143,8 @@ Bien que vous puissiez créer un manifeste qui contient une section de métadonn
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

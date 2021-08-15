@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3abf1fe07557ac786a9f0cb8e8e06a30408f6d41
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 67c869123aadd5310a346dcf8e7a2184ec84f7e40500744cbaf610cbfc54db42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106543426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118368869"
 ---
 # <a name="freefixupinfo-function"></a>FreeFixupInfo fonction)
 
@@ -52,7 +52,7 @@ Pointeur vers la structure de données [**FixupInfo**](/windows/win32/api/naptyp
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Toutes les interfaces COM prises en charge par le système NAP utilisent des règles de gestion de mémoire COM standard et les allocateurs de mémoire COM (**CoTaskMemAlloc** et **CoTaskMemFree**) :
 
@@ -68,8 +68,8 @@ Toutes les fonctions NAP pour libérer de la mémoire libèrent également tous 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>NapUtil. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 

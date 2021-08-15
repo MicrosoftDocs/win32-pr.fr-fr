@@ -1,22 +1,22 @@
 ---
-description: En savoir plus sur le développement d’infrastructures d’interface utilisateur accessibles pour Windows grâce à cette vue d’ensemble des fonctionnalités d’accessibilité de Windows que vous pouvez incorporer dans votre infrastructure d’interface utilisateur.
+description: en savoir plus sur le développement d’infrastructures d’interface utilisateur accessibles pour Windows grâce à cette vue d’ensemble des fonctionnalités d’accessibilité Windows que vous pouvez incorporer dans votre infrastructure d’interface utilisateur.
 title: Développement d’infrastructures d’interface utilisateur accessibles pour Windows
 ms.topic: article
 ms.date: 04/18/2019
-ms.openlocfilehash: d18881913b2a366f086e45473e0f67e57ead66a2
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 2f80221a8fbe1cb088307ba23ff686d1f70b4b61ea33d5133c43f1c662037cc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111988844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737768"
 ---
 # <a name="developing-accessible-ui-frameworks-for-windows"></a>Développement d’infrastructures d’interface utilisateur accessibles pour Windows
 
-Pour être utilisables par le plus grand nombre de personnes possible, les infrastructures d’interface utilisateur conçues pour la plate-forme Windows doivent prendre en charge des fonctionnalités d’accessibilité qui facilitent l’utilisation de leurs appareils Windows par les utilisateurs handicapés, les préférences personnelles ou les styles de travail spécifiques.
+pour pouvoir être utilisé par le plus grand nombre de personnes possible, les infrastructures d’interface utilisateur conçues pour la plate-forme Windows doivent prendre en charge des fonctionnalités d’accessibilité qui facilitent l’utilisation des appareils Windowss par les appareils souffrant de handicaps, de préférences personnelles ou de styles de travail spécifiques.
 
 Cette vue d’ensemble décrit comment créer une infrastructure d’interface utilisateur qui prend en charge des fonctionnalités telles que l’accès par programme et l’automatisation, la navigation au clavier et les commandes, les options de couleur et de thème et la personnalisation via les paramètres utilisateur.
 
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [UI Automation pour Win32](/windows/desktop/winauto/entry-uiauto-win32)
 - [Accessibilité du clavier](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)

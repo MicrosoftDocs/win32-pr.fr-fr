@@ -4,12 +4,12 @@ ms.assetid: 2b779ff7-f410-4af0-899d-4432b015d526
 title: Table DrLocator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78df5a5af83a18a14027b88033e977b2c63d2027
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe1765c7b8f5c38d5701c4c401eb333c7db6a7c403689b8c3100d55b5e51e28e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118378323"
 ---
 # <a name="drlocator-table"></a>Table DrLocator
 
@@ -23,7 +23,7 @@ La table DrLocator contient les colonnes suivantes.
 |-------------|------------------------------|-----|----------|
 | Signature\_ | [Identificateur](identifier.md) | O   | N        |
 | Parent      | [Identificateur](identifier.md) | O   | O        |
-| Chemin d’accès        | [AnyPath](anypath.md)       | O   | O        |
+| Chemin        | [AnyPath](anypath.md)       | O   | O        |
 | Profondeur       | [Integer](integer.md)       | N   | O        |
 
 
@@ -64,13 +64,13 @@ Profondeur en dessous du chemin d’accès que le programme d’installation rec
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette table est utilisée avec la [table AppSearch](appsearch-table.md).
 
 Les colonnes de cette table ne sont généralement pas localisées. Si un auteur décide de rechercher des produits dans plusieurs langues, il doit y avoir une entrée distincte incluse dans le tableau pour chaque langue.
 
-Consultez [recherche d’applications, de fichiers, d’entrées de registre ou d’entrées de fichier. ini existants](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md).
+Consultez [recherche d’applications, de fichiers, d’entrées de registre ou de .ini d’entrées de fichier existants](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md).
 
 ## <a name="validation"></a>Validation
 

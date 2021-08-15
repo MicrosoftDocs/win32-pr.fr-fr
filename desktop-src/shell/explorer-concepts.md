@@ -1,5 +1,5 @@
 ---
-description: Découvrez les concepts courants lorsque vous souhaitez étendre l’Explorateur Windows, qui est l’une des nombreuses options d’extensibilité dans l’interface utilisateur du shell Windows.
+description: découvrez les concepts courants lorsque vous souhaitez étendre Windows Explorer, qui est l’une des nombreuses options d’extensibilité dans l’interface utilisateur de l’interpréteur de commandes Windows.
 title: Concepts communs de l’Explorateur
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: db9b46bf944992a16b6a1b8a9bcad581ec7d661b
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 5bd0c641e1e265b50180aa6ce4e98eeafbf3f6dc86f4f499dee5267161842e9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118050520"
 ---
 # <a name="common-explorer-concepts"></a>Concepts communs de l’Explorateur
 
@@ -36,7 +36,7 @@ L’une des responsabilités principales de l’interpréteur de commandes consi
 -   Applications du panneau de configuration
 -   La corbeille
 
-Certains objets virtuels n’impliquent pas du tout le stockage physique. L’objet Printer, par exemple, contient une collection de liens vers des imprimantes en réseau. D’autres objets virtuels, tels que la corbeille, peuvent contenir des données stockées sur un lecteur de disque, mais doivent être gérées différemment des fichiers normaux. Par exemple, un objet virtuel peut être utilisé pour représenter des données stockées dans une base de données. En termes d’espace de noms, les différents éléments de la base de données peuvent apparaître dans l’Explorateur Windows en tant qu’objets distincts, même s’ils sont tous stockés dans un seul fichier disque.
+Certains objets virtuels n’impliquent pas du tout le stockage physique. L’objet Printer, par exemple, contient une collection de liens vers des imprimantes en réseau. D’autres objets virtuels, tels que la corbeille, peuvent contenir des données stockées sur un lecteur de disque, mais doivent être gérées différemment des fichiers normaux. Par exemple, un objet virtuel peut être utilisé pour représenter des données stockées dans une base de données. en termes d’espace de noms, les différents éléments de la base de données peuvent apparaître dans l’explorateur de Windows en tant qu’objets distincts, même s’ils sont tous stockés dans un seul fichier de disque.
 
 Les objets virtuels peuvent même être situés sur des ordinateurs distants. Par exemple, pour faciliter l’itinérance, les fichiers de document d’un utilisateur peuvent être stockés sur un serveur. Pour permettre aux utilisateurs d’accéder à leurs fichiers à partir de plusieurs PC de bureau, le dossier Mes documents sur le PC de bureau qu’ils utilisent actuellement pointe vers le serveur, et non vers le disque dur du PC de bureau. Son chemin d’accès comprend un lecteur réseau mappé ou un nom de chemin d’accès UNC.
 
@@ -50,7 +50,7 @@ Les objets virtuels peuvent même être situés sur des ordinateurs distants. Pa
 
 Contrairement aux dossiers de système de fichiers, les utilisateurs ne peuvent pas créer des dossiers virtuels eux-mêmes. Ils peuvent uniquement installer ceux créés par des développeurs non-Microsoft. Le nombre de dossiers virtuels est donc généralement beaucoup moins élevé que le nombre de dossiers du système de fichiers. Pour plus d’informations sur la façon d’implémenter des dossiers virtuels, consultez [extensions d’espace de noms](nse-works.md).
 
-Vous pouvez voir une représentation visuelle de la structure de l’espace de noms dans la barre d’Explorateur de l’Explorateur Windows. Par exemple, la capture d’écran suivante de l’Explorateur Windows montre un espace de noms relativement simple.
+vous pouvez voir une représentation visuelle de la structure de l’espace de noms dans la barre d’explorateur de l’explorateur de Windows. par exemple, la capture d’écran suivante de Windows Explorer montre un espace de noms relativement simple.
 
 ![capture d’écran montrant une vue de l’espace de noms Shell](images/prog1.png)
 
@@ -80,7 +80,7 @@ typedef struct _SHITEMID {
 
 Le membre **abID** est l’identificateur de l’objet. La longueur de **abID** n’est pas définie, et sa valeur est déterminée par le dossier qui contient l’objet. Étant donné qu’il n’existe aucune définition standard de la façon dont les valeurs **abID** sont assignées par les dossiers, elles ne sont significatives que pour l’objet Folder associé. Les applications doivent simplement les traiter comme un jeton qui identifie un objet dans un dossier particulier. Étant donné que la longueur de **abID** varie, le membre **CB** contient la taille de la structure [**SHITEMID**](/windows/desktop/api/Shtypes/ns-shtypes-shitemid) , en octets.
 
-Étant donné que les ID d’élément ne sont pas utiles à des fins d’affichage, le dossier qui contient l’objet lui assigne normalement un nom complet. Il s’agit du nom utilisé par l’Explorateur Windows lorsqu’il affiche le contenu d’un dossier. Pour plus d’informations sur la gestion des noms d’affichage, consultez [obtention d’informations à partir d’un dossier](folder-info.md).
+Étant donné que les ID d’élément ne sont pas utiles à des fins d’affichage, le dossier qui contient l’objet lui assigne normalement un nom complet. il s’agit du nom utilisé par Windows Explorer lorsqu’il affiche le contenu d’un dossier. Pour plus d’informations sur la gestion des noms d’affichage, consultez [obtention d’informations à partir d’un dossier](folder-info.md).
 
 ### <a name="item-id-lists"></a>Listes d’ID d’élément
 

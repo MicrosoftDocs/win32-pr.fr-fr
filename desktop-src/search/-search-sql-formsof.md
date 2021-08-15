@@ -4,12 +4,12 @@ ms.assetid: b705b8bc-dc2c-4cee-8306-f494b0f96cbf
 title: Terme FORMSOF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20504a7a36c7f0cb9c69b9513f33446501641bc7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1ffcbd832833a506db99236bf26921a4b0145ffe5bfccaed8fff59103370291
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863442"
 ---
 # <a name="formsof-term"></a>Terme FORMSOF
 
@@ -22,7 +22,7 @@ FORMSOF (<generation_type>,<match_words>)
 
 
 
-Le type de génération spécifie la manière dont Microsoft Windows Search choisit les autres formes de mots. La valeur **fléchie** choisit d’autres formes fléchies pour les mots de correspondance. Si le mot est un verbe, d’autres dizaines sont utilisés. Si le mot est un substantif, les formes singulières, plurielles et de possession sont utilisées pour détecter les correspondances.
+le type de génération spécifie la manière dont Microsoft Windows Search choisit les autres formes de mots. La valeur **fléchie** choisit d’autres formes fléchies pour les mots de correspondance. Si le mot est un verbe, d’autres dizaines sont utilisés. Si le mot est un substantif, les formes singulières, plurielles et de possession sont utilisées pour détecter les correspondances.
 
 La valeur de correspondance des \_ mots correspond à un ou plusieurs mots, séparés par des virgules.
 

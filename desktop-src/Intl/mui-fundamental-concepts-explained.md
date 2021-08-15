@@ -4,12 +4,12 @@ ms.assetid: 9ab19a56-4d31-471d-949e-a539751b62e3
 title: Concepts fondamentaux de MUI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82dbeedb246944bef6c23c739eafddff86423b35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88bd677d7a6b07bc4db78d733d81fc36624ddd06f9ad3014588b8e5fd0882aa6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118390888"
 ---
 # <a name="mui-fundamental-concepts-explained"></a>Concepts fondamentaux de MUI
 
@@ -23,7 +23,7 @@ ms.locfileid: "103951428"
 
 ## <a name="prerequisite-for-mui"></a>Prérequis pour MUI
 
-Le prérequis de base pour la création d’une application compatible MUI pour Windows Vista et ultérieur consiste à concevoir l’application conformément aux [instructions de globalisation](https://msdn.microsoft.com/goglobal/bb688110.aspx)de Windows.
+le prérequis de base pour la création d’une application compatible avec MUI pour Windows Vista et ultérieur consiste à concevoir l’application conformément aux [instructions de globalisation](https://msdn.microsoft.com/goglobal/bb688110.aspx)Windows.
 
 ## <a name="separation-of-source-code-from-language-specific-resources"></a>Séparation du code source des ressources spécifiques à une langue
 
@@ -82,7 +82,7 @@ Cette approche présente plusieurs avantages par rapport aux approches précéde
 
 Les concepts fondamentaux de MUI en matière de [séparation physique du code source des ressources spécifiques à une langue](#physically-separating-code-and-resources), et de création d’un binaire de base indépendant du langage pour une application, configurent essentiellement une architecture qui est propice à l’implémentation du chargement dynamique des ressources spécifiques à la langue en fonction des paramètres de langue utilisateur et système.
 
-Le code source de l’application fourni dans le fichier binaire de base indépendant du langage peut utiliser des API MUI dans la plate-forme Windows pour extraire la sélection de la langue d’interface utilisateur d’affichage appropriée pour un contexte donné. MUI prend en charge ce qui suit :
+le code source de l’Application fourni dans le fichier binaire de base indépendant du langage peut utiliser les api MUI dans la plateforme Windows pour abstraire la sélection de la langue d’interface utilisateur d’affichage appropriée pour un contexte donné. MUI prend en charge ce qui suit :
 
 -   Construction d’une liste hiérarchisée de langues d’interface utilisateur d’affichage en fonction des paramètres système, utilisateur et au niveau de l’application, de l’utilisateur et du système.
 -   Implémentation d’un mécanisme de secours qui choisit un candidat approprié à partir de cette liste de langues classée par ordre de priorité, en fonction de la disponibilité des ressources localisées.
@@ -95,11 +95,11 @@ Les avantages du chargement dynamique des ressources de l’interface utilisateu
 
 ## <a name="building-mui-applications"></a>Création d’applications MUI
 
-Les sections précédentes décrivaient les options permettant de séparer le code source des ressources spécifiques à une langue et l’avantage résultant de pouvoir utiliser les API principales de la plateforme Windows pour charger dynamiquement les ressources localisées. Bien qu’il s’agit d’instructions, il est également important de noter qu’il n’existe pas de moyen normatif spécifique pour développer une application MUI pour la plate-forme Windows.
+les sections précédentes décrivaient les options permettant de séparer le code source des ressources spécifiques à une langue, ainsi que l’avantage résultant de pouvoir utiliser les api core Windows platform pour charger dynamiquement des ressources localisées. bien qu’il s’agit d’instructions, il est également important de noter qu’il n’existe pas de moyen normatif spécifique pour développer une application MUI pour la plateforme Windows.
 
 Les développeurs d’applications ont un choix complet quant à la façon dont ils gèrent différents paramètres de langue de l’interface utilisateur, les options de création des ressources et les méthodes de chargement des ressources. Les développeurs peuvent évaluer les instructions fournies dans ce document et choisir une combinaison qui correspond à leurs besoins et à l’environnement de développement.
 
-Le tableau suivant récapitule les différentes options de conception disponibles pour les développeurs d’applications qui cherchent à créer une application MUI pour la plate-forme Windows.
+le tableau suivant récapitule les différentes options de conception disponibles pour les développeurs d’applications qui cherchent à créer une application MUI pour la plateforme Windows.
 
 
 

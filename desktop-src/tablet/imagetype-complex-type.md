@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 5e90de5c8e744350c85143f252bbda3921c2039d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07e2e929200825b2e87c069206b4e50f2b76ed57d28c71484896290198a8b423
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220925"
 ---
 # <a name="imagetype-complex-type"></a>Type complexe ImageType
 
@@ -33,7 +33,7 @@ Définit le type qui contient les informations binaires pour une image dans une 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                     |
 
 

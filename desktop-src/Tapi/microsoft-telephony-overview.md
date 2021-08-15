@@ -4,12 +4,12 @@ ms.assetid: c19955cd-e5f5-4c78-b711-31e42e9e38c5
 title: Vue d’ensemble de la téléphonie Microsoft
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e7578a48ed3397aa8d29701de87c4043876a282
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ac3eaad12c9ea12b72fe30dc745606a497bdb0f95f1a637f1a64c895f554401
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104554715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761407"
 ---
 # <a name="microsoft-telephony-overview"></a>Vue d’ensemble de la téléphonie Microsoft
 

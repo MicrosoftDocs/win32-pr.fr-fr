@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 950cc19bad2a0f5804f994fe9279cec649d7c2f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd77019c98e48f4707ac173f825823d5637a1d83c5eb1583f4ee68874e84bd57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117752700"
 ---
 # <a name="ivmtaskwaitforcompletion-method"></a>IVMTask :: WaitForCompletion, méthode
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Attend que la tâche soit terminée ou que l’intervalle de délai d’attente spécifié soit écoulé.
 
@@ -67,7 +67,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **WaitForCompletion** met le thread d’exécution actuel en veille jusqu’à ce qu’il retourne. La spécification d’une attente infinie (timeout =-1) n’est pas recommandée, à moins qu’il soit absolument essentiel que la tâche se termine dans n’importe quelle circonstance.
 
@@ -77,7 +77,7 @@ La méthode **WaitForCompletion** met le thread d’exécution actuel en veille 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

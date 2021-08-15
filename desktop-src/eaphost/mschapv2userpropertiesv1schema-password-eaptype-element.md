@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6da29146be7ed2f0c17d7311f79921b44cd0929e
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: cbbcb7b0acd372bbe71ee6d22f44a736948b145378f62f40820e3de53d77b875
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118273198"
 ---
 # <a name="password-eaptype-element"></a>Élément Password (EapType)
 
@@ -41,10 +41,10 @@ Si l’élément **Password (EapType)** n’est pas présent, le hachage de mot 
 
 
 
-| Role | Version minimale du système d’exploitation prise en charge |
+| Rôle | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 197c5eb82de76fb5a5f606d8a161e853b0c1e8f7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9e5c29d1ddc646ef05faad2bc283887265e8b85109fcb679924d9a5641ef13fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823024"
 ---
 # <a name="cbasepropertypagesetobjects-method"></a>Méthode CBasePropertyPage. SetObjects
 
@@ -65,7 +65,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 | Code de retour                                                                                  | Description                           |
 |----------------------------------------------------------------------------------------------|---------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>         | Opération réussie.<br/>                   |
+| <dl> <dt>**\_OK**</dt> </dl>         | Réussite.<br/>                   |
 | <dl> <dt>**\_pointeur E**</dt> </dl>    | Argument de pointeur **null** .<br/> |
 | <dl> <dt>**E \_ inattendu**</dt> </dl> | Erreur inattendue.<br/>        |
 
@@ -73,7 +73,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Bien que *ppUnk* spécifie un tableau de pointeurs **IUnknown** , la classe **CBasePropertyPage** est conçue uniquement pour prendre en charge un objet associé. Si *CObjects* est supérieur à 1, la méthode retourne E \_ inattendue.
 
@@ -85,7 +85,7 @@ Si *CObjects* est égal à 1, cette méthode appelle la méthode [**CBasePropert
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Cprop. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Cprop. h (inclure Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

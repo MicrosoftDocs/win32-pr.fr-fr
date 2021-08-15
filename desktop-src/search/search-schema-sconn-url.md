@@ -4,12 +4,12 @@ ms.assetid: fdc9e138-2e98-4f01-ab7b-0c3dfad5a4dd
 title: Élément URL simpleLocation (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c40f45ccecb9a1fb81a64f6d749c5050ed1958a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fce95943017f4905414f65b75086d4babdf3750505fece0b73255e0e63623e9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118226324"
 ---
 # <a name="simplelocation-url-element-search-connector-schema"></a>Élément URL simpleLocation (schéma du connecteur de recherche)
 
@@ -51,7 +51,7 @@ L' <url> élément spécifie une URL pour l’emplacement de ce connecteur de re
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir la liste des GUID de dossier connus, consultez [KNOWNFOLDERID](/windows/desktop/shell/knownfolderid) . Utilisez le format suivant pour la valeur de cet élément lors de l’utilisation du protocole KnownFolder :.
 
@@ -62,7 +62,7 @@ Pour obtenir la liste des GUID de dossier connus, consultez [KNOWNFOLDERID](/win
 
 
 
-Le tableau suivant répertorie les GUID de dossier connus de Windows 7.
+le tableau suivant répertorie les guid de dossier connus Windows 7.
 
 
 
@@ -83,7 +83,7 @@ Le tableau suivant répertorie les GUID de dossier connus de Windows 7.
 | FOLDERID \_ ConflictFolder         | {4bfefb45-347d-4006-a5-a-AC-0c-B0-56-71-92} |
 | FOLDERID \_ ConnectionsFolder      | {6F0CD92B-2E97-45D1-88-FF-B0-D1-86-B8-DE-JJ} |
 | \_Contacts FOLDERID               | {56784854-c6cb-462B-81-69-88-E3-50-AC-B8-82} |
-| FOLDERID \_ ControlPanelFolder     | {82A74AEB-AEB4-465C-A0-14-D0-97-EE-34-6D-63} |
+| FOLDERID \_ ControlPanelFolder     | {82A74AEB-AEB4-465C-A0-14-D0-97-EE-34-6d-63} |
 | \_Cookies FOLDERID                | {2B0F765D-C0E9-4171-90-8E-08-A6-11-B8-4F-F6} |
 | FOLDERID \_ Desktop                | {B4BFCC3A-DB2C-424C-B0-29-7F-E9-9A-87-C6-41} |
 | FOLDERID \_ DeviceMetadataStore    | {5ce4a5e9-e4eb-479d-B8-9F-13-0c-02-88-61-55} |
@@ -104,7 +104,7 @@ Le tableau suivant répertorie les GUID de dossier connus de Windows 7.
 | FOLDERID \_ LocalAppData           | {F1B32785-6FBA-4FCF-9D-55-7B-8E-7F-15-70-91} |
 | FOLDERID \_ LocalAppDataLow        | {A520A1A4-1780-4FF6-BD-18-16-73-43-C5-AF-16} |
 | FOLDERID \_ LocalizedResourcesDir  | {2A00375E-224C-49DE-B8-D1-44-0D-F7-EF-3D-DC} |
-| \_Musique FOLDERID                  | {4BD8D571-6D19-48D3-TO-97-42-22-20-08-0E-43} |
+| FOLDERID \_ Musique                  | {4BD8D571-6D19-48D3-TO-97-42-22-20-08-0E-43} |
 | FOLDERID \_ MusicLibrary           | {2112ab0a-c86a-4FFE-a3-68-d-E9-6e-47-1-2e}   |
 | FOLDERID \_ Nethotte                | {C5ABBF53-E17F-4121-89-00-86-62-6F-C2-C9-73} |
 | FOLDERID \_ NetworkFolder          | {D20BEEC4-5CA8-4905-AE-3B-BF-25-1E-A0-9B-53} |

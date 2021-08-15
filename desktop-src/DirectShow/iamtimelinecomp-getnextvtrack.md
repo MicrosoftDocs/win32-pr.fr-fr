@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 0e5a4500c2b53703a13b509f112453e65c954f96
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dbeaf5d7987f1baf2b3df9804c4abd3049c38042a29f4177f83abec6855140a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401050"
 ---
 # <a name="iamtimelinecompgetnextvtrack-method"></a>IAMTimelineComp :: GetNextVTrack, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -64,7 +64,7 @@ Reçoit un pointeur vers l’interface [**IAMTimelineObj**](iamtimelineobj.md) d
 
 Retourne S \_ OK si la méthode récupère une piste virtuelle, ou la \_ valeur false dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la méthode est réussie, l’interface **IAMTimelineObj** qu’elle retourne a un nombre de références en suspens. Veillez à libérer l’interface une fois que vous avez fini de l’utiliser.
 
@@ -74,7 +74,7 @@ Si la méthode est réussie, l’interface **IAMTimelineObj** qu’elle retourne
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

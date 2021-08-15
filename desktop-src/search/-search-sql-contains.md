@@ -4,12 +4,12 @@ ms.assetid: 53083966-54cc-4a16-a161-caa663bea7ea
 title: CONTAINs, prédicat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 908f4c67d5c1d5bcf00c60bd8cb271928682a907
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6c821431bb5f00319fe47414dcce5240775f2ce78335998c1bb30b84dc9fe17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863712"
 ---
 # <a name="contains-predicate"></a>CONTAINs, prédicat
 
@@ -23,7 +23,7 @@ Voici la syntaxe de base du prédicat CONTAINs :
 
 La référence de colonne de texte intégral \_ est facultative. Avec elle, vous pouvez limiter la recherche à une seule colonne ou à un groupe de colonnes sur lequel le prédicat CONTAINs est testé. Lorsque la colonne de texte intégral est spécifiée comme « ALL » ou « \* », toutes les propriétés de texte indexées sont recherchées. Bien qu’il ne soit pas nécessaire que la colonne soit une propriété de texte, les résultats peuvent être incompréhensibles si la colonne est d’un autre type de données. Le nom de colonne peut être un [identificateur](-search-sql-identifiers.md)standard ou délimité, et vous devez le séparer de la condition par une virgule. Si aucune colonne de texte intégral n’est spécifiée, la colonne System. Search. Contents, qui est le corps du document, est utilisée.
 
-La partie LCID du prédicat spécifie les paramètres régionaux de la recherche. Cela indique au moteur de recherche d’utiliser l’analyseur lexical et les formes fléchies appropriées pour la requête de recherche. Pour spécifier les paramètres régionaux, indiquez l’identificateur de code (LCID) de la langue Windows standard. Par exemple, 1033 est le LCID de États-Unis-anglais. Placez le LCID en tant que dernier élément à l’intérieur des parenthèses de la clause CONTAINs. Pour obtenir des informations importantes sur la recherche et les langages, consultez [utilisation des recherches localisées](-search-sql-usinglocsearches.md).
+La partie LCID du prédicat spécifie les paramètres régionaux de la recherche. Cela indique au moteur de recherche d’utiliser l’analyseur lexical et les formes fléchies appropriées pour la requête de recherche. pour spécifier les paramètres régionaux, indiquez le Windows identificateur du code de langue standard (LCID). Par exemple, 1033 est le LCID de États-Unis-anglais. Placez le LCID en tant que dernier élément à l’intérieur des parenthèses de la clause CONTAINs. Pour obtenir des informations importantes sur la recherche et les langages, consultez [utilisation des recherches localisées](-search-sql-usinglocsearches.md).
 
 > [!NOTE]  
 > Les paramètres régionaux de recherche par défaut sont les paramètres régionaux par défaut du système.
@@ -38,7 +38,7 @@ Vous pouvez utiliser des parenthèses pour regrouper et imbriquer des termes de 
 | Ordre (priorité) | Opérateur logique |
 |--------------------|------------------|
 | Premier (le plus élevé)    | **NOT**          |
-| Seconde             | **AND**          |
+| Second             | **AND**          |
 | Troisième (le plus bas)     | **OR**           |
 
 Les opérateurs logiques du même type sont associatifs et il n’y a pas d’ordre de calcul spécifié. Par exemple, les points (A **et** b) **et** (C **et** d) peuvent être calculés (B **et** c) **et** (a **et** d) sans aucune modification dans le résultat logique.
@@ -77,7 +77,7 @@ Le tableau suivant décrit les types de termes de recherche de contenu.
 </td>
 </tr>
 <tr class="even">
-<td>Expression</td>
+<td>Phrase</td>
 <td>Plusieurs mots ou espaces inclus.</td>
 <td><div class="code">
 <span data-codelanguage=""></span>

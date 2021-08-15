@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 2955aa3367648c4e9e23fd748fa27d6343ef78a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c07f6f3e4569c06f0b3890e3ef3a26bca10b3272849fc005dfb3be6cbc2836b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118367216"
 ---
 # <a name="createpropertydatabase-function"></a>CreatePropertyDatabase fonction)
 
@@ -72,7 +72,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **CreatePropertyDatabase** doit être appelée uniquement lors de l’implémentation de la fonction [Register](register-parser.md) . L’analyseur utilise **CreatePropertyDatabase** pour créer une base de données de propriétés qui décrit les propriétés d’un protocole. Moniteur réseau utilise la base de données pour interpréter les informations contenues dans le protocole.
 

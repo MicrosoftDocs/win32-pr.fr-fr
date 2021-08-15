@@ -4,12 +4,12 @@ ms.assetid: EBEFED1F-D0B8-4C7E-B1FB-CDE3BDFD99AA
 title: Encodeur audio MPEG-2
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2454e542ba59f4955668bd1fcefbf5dbc0f11551
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 935b6438c79e9bf78a230f707f8930f859c3fa491dab0326208d5cf79b53f474
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240008"
 ---
 # <a name="mpeg-2-audio-encoder"></a>Encodeur audio MPEG-2
 
@@ -75,12 +75,12 @@ En outre, les valeurs suivantes sont prises en charge pour MPEG-2 LSF : <br/>
 <tr class="odd">
 <td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
 <td>Spécifie l’affectation des canaux audio aux positions des haut-parleurs.</td>
-<td>Optionnel. S’il est défini, la valeur doit être 0x3 pour les canaux stéréo (avant gauche et droit) ou 0x4 pour mono (canal avant centre).</td>
+<td>Facultatif. S’il est défini, la valeur doit être 0x3 pour les canaux stéréo (avant gauche et droit) ou 0x4 pour mono (canal avant centre).</td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
 <td>Vitesse de transmission du flux MPEG encodé, en octets par seconde.</td>
-<td>Optionnel.<br/> Les spécifications ISO/IEC 11172-3 et ISO/IEC 13818-3 (LSF) définissent plusieurs vitesses de transmission, en fonction de la fréquence d’échantillonnage, du nombre de canaux et de la couche audio (1 ou 2). <br/> L’encodeur est défini par défaut sur audio de couche 2. Si l’attribut <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> n’est pas défini, l’encodeur utilise les vitesses de transmission par défaut suivantes :<br/>
+<td>Facultatif.<br/> Les spécifications ISO/IEC 11172-3 et ISO/IEC 13818-3 (LSF) définissent plusieurs vitesses de transmission, en fonction de la fréquence d’échantillonnage, du nombre de canaux et de la couche audio (1 ou 2). <br/> L’encodeur est défini par défaut sur audio de couche 2. Si l’attribut <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> n’est pas défini, l’encodeur utilise les vitesses de transmission par défaut suivantes :<br/>
 <ul>
 <li>Stéréo MPEG-1:224 000 bits par seconde (BPS) = 28 000 octets par seconde.</li>
 <li>MPEG-1 mono : 192 000 BPS = 24 000 octets par seconde.</li>
@@ -159,12 +159,12 @@ Le tableau suivant répertorie les attributs obligatoires et facultatifs pour le
 <tr class="even">
 <td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
 <td>Spécifie l’affectation des canaux audio aux positions des haut-parleurs.</td>
-<td>Optionnel. Si cette valeur est définie, la valeur doit correspondre au type de sortie.</td>
+<td>Facultatif. Si cette valeur est définie, la valeur doit correspondre au type de sortie.</td>
 </tr>
 <tr class="odd">
 <td><a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a></td>
 <td>Nombre de bits de données audio valides dans chaque exemple audio.</td>
-<td>Optionnel. Si cette valeur est définie, la valeur doit être identique à <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.</td>
+<td>Facultatif. Si cette valeur est définie, la valeur doit être identique à <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -414,7 +414,7 @@ Type de média d’entrée :
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                 |
 | DLL<br/>                      | <dl> <dt>Msmpeg2enc.dll</dt> </dl> |
 

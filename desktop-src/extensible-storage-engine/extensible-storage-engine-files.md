@@ -1,27 +1,27 @@
 ---
-description: 'En savoir plus sur : fichiers ESE (Extensible Storage Engine)'
-title: Fichiers ESE (Extensible Storage Engine)
+description: 'en savoir plus sur : fichiers de moteur d’Stockage Extensible'
+title: fichiers de moteur d’Stockage Extensible
 TOCTitle: Extensible Storage Engine Files
 ms:assetid: b89a8f78-f2c4-4cbf-a000-a95c34589033
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg294069(v=EXCHG.10)
 ms:contentKeyID: 32765684
 ms.date: 09/22/2016
 ms.topic: article
-ms.openlocfilehash: c27bb0104c5923496c5dd7962ef4a9bacdc90af4
-ms.sourcegitcommit: 70f39ec77d19d3c32c376ee2831753d2cafae41a
+ms.openlocfilehash: a955da455cb2a2397010fd7869f6320970ef9f85ac1e1602f4439239dc56b167
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106523124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118256303"
 ---
-# <a name="extensible-storage-engine-files"></a>Fichiers ESE (Extensible Storage Engine)
+# <a name="extensible-storage-engine-files"></a>fichiers de moteur d’Stockage Extensible
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
-## <a name="extensible-storage-engine-files"></a>Fichiers ESE (Extensible Storage Engine)
+## <a name="extensible-storage-engine-files"></a>fichiers de moteur d’Stockage Extensible
 
-Le moteur de stockage extensible utilise les types de fichiers suivants :
+le moteur de Stockage Extensible utilise les types de fichiers suivants :
 
 - [Fichiers du journal des transactions](#transaction-log-files)
 
@@ -37,24 +37,24 @@ Le moteur de stockage extensible utilise les types de fichiers suivants :
 
 - [Vider les fichiers de mappage](#flush-map-files)
 
-Ce tableau contient une vue d’ensemble des noms de fichiers de données qui sont gérés par ESE. Pour Windows Vista et versions ultérieures, le paramètre JET_paramLegacyNames a un impact sur les noms de fichiers utilisés.
+Ce tableau contient une vue d’ensemble des noms de fichiers de données qui sont gérés par ESE. pour Windows Vista et versions ultérieures, le paramètre JET_paramLegacyNames a un impact sur les noms de fichiers utilisés.
 
 <table xmlns="https://www.w3.org/1999/xhtml">
   <tr>
     <th>
-      <p>Système d’exploitation</p>
+      <p>Système d'exploitation</p>
     </th>
     <th>
-      <p>Windows Server 2003 et versions antérieures<br /><br /></p>
+      <p>Windows Serveur 2003 et versions antérieures<br /><br /></p>
     </th>
     <th colspan="2">
       <p></p>
       <p>Windows Vista et versions ultérieures (client) <br />
-Windows Server 2008 et versions ultérieures (serveur)
+Windows Serveur 2008 et versions ultérieures (serveur)
 </p>
     </th>
     <th>
-      <p>Mise à jour anniversaire Windows 10 et versions ultérieures (client) <br />
+      <p>Windows 10 Mise à jour anniversaire et versions ultérieures (client) <br />
 Windows Server 2016 et versions ultérieures (serveur)
 </p>
     </th>
@@ -82,7 +82,7 @@ Windows Server 2016 et versions ultérieures (serveur)
     </td>
     <td>
       <p>
-        <strong>Identique à Windows Vista/Server 2008</strong>
+        <strong>identique à Windows Vista/Server 2008</strong>
       </p>
     </td>
   </tr>
@@ -223,7 +223,7 @@ Windows Server 2016 et versions ultérieures (serveur)
 
 Les fichiers journaux des transactions contiennent des opérations sur les fichiers de base de données. Ils contiennent suffisamment d’informations pour amener une base de données à un État logiquement cohérent après un arrêt inattendu du processus ou un arrêt du système.
 
-Les noms des fichiers journaux sont dépendants d’un nom de base à trois lettres, qui peut être défini avec [JET_paramBaseName](./transaction-log-parameters.md). Les exemples ci-dessous utilisent le nom de base « edb », car il s’agit du nom de base par défaut. L’extension pour les fichiers journaux des transactions est. log ou. JTX selon que la JET_bitESE98FileNames est définie dans le paramètre JET_paramLegacyFileNames. Pour plus d’informations, consultez [paramètres système du moteur de stockage extensible](./extensible-storage-engine-system-parameters.md).
+Les noms des fichiers journaux sont dépendants d’un nom de base à trois lettres, qui peut être défini avec [JET_paramBaseName](./transaction-log-parameters.md). Les exemples ci-dessous utilisent le nom de base « edb », car il s’agit du nom de base par défaut. L’extension pour les fichiers journaux des transactions est. log ou. JTX selon que la JET_bitESE98FileNames est définie dans le paramètre JET_paramLegacyFileNames. pour plus d’informations, consultez [paramètres système du moteur de Stockage Extensible](./extensible-storage-engine-system-parameters.md).
 
 Les fichiers journaux des transactions sont nommés \<base\> \<generation-number\> . log, en commençant par 1. Le numéro de génération de journal est au format hexadécimal. Par exemple, edb00001. log est le premier journal et edb000ff. log est le journal 255th. Les fichiers journaux comportent cinq chiffres hexadécimaux dans le nom du fichier journal, jusqu’à ce que le fichier journal 1048576th, à partir duquel les fichiers journaux commencent à être nommés dans un format 11,3 (par exemple, edb00100000. log). \<base\>. log est toujours le fichier journal en cours d’utilisation. Si le moteur de base de données n’est pas actif, la génération du fichier Edb. log peut être identifiée à l’aide de la commande suivante : **esentutl.exe-ml edb. log**.
 
@@ -251,9 +251,9 @@ Lorsqu’un nouveau fichier journal est créé et sa taille étendue, il s’app
 
 Les fichiers journaux de transactions réservés sont créés lorsque le moteur commence à autoriser la journalisation des opérations importantes pour obtenir un arrêt correct.
 
-**Windows Vista :** Dans Windows Vista et versions ultérieures, les fichiers journaux de transactions réservés sont nommés \<base\> RESXXXXX. jrs.
+**Windows Vista :** dans Windows Vista et versions ultérieures, les fichiers journaux de transactions réservés sont nommés \<base\> RESXXXXX. jrs.
 
-**Windows Server 2003 :** Dans Windows Server 2003 et versions antérieures, les fichiers journaux de transactions réservés sont nommés Res1. log et res2. log.
+**Windows Server 2003 :** dans Windows Server 2003 et versions antérieures, les fichiers journaux de transactions réservés sont nommés res1. log et res2. log.
 
 Lorsque le moteur de base de données ne dispose plus de suffisamment d’espace disque, il ne peut pas créer de nouveau fichier journal. La chose la plus sûre consiste à arrêter correctement, mais certaines opérations (telles que les opérations de restauration) doivent toujours être enregistrées. La plupart des opérations de base de données échoueront au cours de cette phase.
 
@@ -289,7 +289,7 @@ Une base de données est arrêtée proprement uniquement après un appel réussi
 
 Le programme Esentutl.exe peut détecter si une base de données est arrêtée proprement avec l’option « -MH ». Par exemple, « esentutl.exe-MH Sample. edb » lira l’en-tête de base de données d’une base de données nommée Sample. edb et imprime l’état de Sample. edb. Il peut imprimer « État : arrêt correct » ou « État : arrêt intempestif ».
 
-Une base de données qui n’a pas été correctement arrêtée est dans un état d’arrêt intempestif. Avant Windows XP, cet État était appelé *incohérent*. Une base de données incorrecte (incohérente) peut être placée dans un état propre avec la récupération logicielle. Une base de données endommagée n’est pas la même chose qu’une base de données modifiée (« incohérente »).
+Une base de données qui n’a pas été correctement arrêtée est dans un état d’arrêt intempestif. avant Windows XP, cet état était appelé *incohérent*. Une base de données incorrecte (incohérente) peut être placée dans un état propre avec la récupération logicielle. Une base de données endommagée n’est pas la même chose qu’une base de données modifiée (« incohérente »).
 
 Une base de données endommagée fait référence à une altération physique ou logique, et ne peut pas être corrigée avec la récupération logicielle. Les altérations physiques peuvent être des retournements de bits, qui sont souvent détectés par les sommes de contrôle sur les pages de la base de données. Un checksum en échec dans un fichier de base de données se manifeste comme une erreur de JET_errReadVerifyFailure.
 
@@ -307,7 +307,7 @@ Les Temptables sont créés avec [JetOpenTempTable](./jetopentemptable-function.
 
 ## <a name="flush-map-files"></a>Vider les fichiers de mappage
 
-À partir de la mise à jour anniversaire Windows 10 (client) et de Windows Server 2016 (serveur), ESE a ajouté un niveau supplémentaire de protection contre les écritures perdues (ou les vidages perdus) 1, ce qui lui permet de détecter de tels événements interprocessus initialization2. Cette fonctionnalité requiert la conservation des métadonnées dans un fichier distinct appelé « vidage du mappage ».
+à partir de la Windows 10 mise à jour anniversaire (client) et Windows Server 2016 (serveur), ESE a ajouté un niveau supplémentaire de protection contre les écritures perdues (ou les vidages perdus) 1, ce qui lui permet de détecter de tels événements interprocessus initialization2. Cette fonctionnalité requiert la conservation des métadonnées dans un fichier distinct appelé « vidage du mappage ».
 
 Un fichier de mappage de vidage est créé pour chaque fichier de base de données et se trouve dans le même répertoire. Le fichier est nommé de la même façon que le fichier de base de données, mais avec une extension différente. Par exemple, si l’application cliente crée une base de données avec le chemin d’accès complet C : \\ mydirectory \\ MyDabatase. edb, son fichier de mappage de vidage correspondant est c : \\ mydirectory \\ MyDabatase. jfm.
 

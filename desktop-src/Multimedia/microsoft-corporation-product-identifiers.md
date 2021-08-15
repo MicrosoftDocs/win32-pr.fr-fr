@@ -3,18 +3,18 @@ title: Identificateurs de produit Microsoft Corporation
 description: Identificateurs de produit Microsoft Corporation
 ms.assetid: ef5403ea-1aaf-4791-865a-49d9feb44a4f
 keywords:
-- Multimédia Windows, identificateurs de produits
+- Windows multimédia, identificateurs de produit
 - multimédia, identificateurs de produits
 - identificateurs de produit
 - identificateurs de produits multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3bfd9c777281a07ebd25b6b0df3f0f4336ea638
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b0edba7b1c7cfb0716726ac15c4cf0154b7fe6d08d31667c1296f8fadcaefd48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802829"
 ---
 # <a name="microsoft-corporation-product-identifiers"></a>Identificateurs de produit Microsoft Corporation
 
@@ -31,18 +31,18 @@ ms.locfileid: "104379900"
 | Port d’entrée MIDI compatible MPU 401       | MM \_ \_ midi mpu401                  |
 | Port de sortie MIDI compatible MPU 401      | MM \_ mpu401 \_ MIDIOUT                 |
 | Codec MS ADPCM                           | MM \_ \_ Msadpcm ACM \_ msft              |
-| Synthétiseur FM MS audio Board     | MM \_ msft \_ WSS \_ FMSYNTH \_ stéréo      |
-| Port de carte audio MS                  | MM \_ msft \_ WSS \_ aux                  |
-| Pilote de mixage de carte audio MS              | \_ \_ mélangeur WSS de mm msft \_                |
-| Entrée de forme d’onde MS audio Board            | MM \_ \_ Wave WSS \_               |
-| Sortie de forme d’onde MS audio Board           | MM \_ msft \_ WSS \_ WAVEOUT              |
+| Synthétiseur FM MS audio Board     | MM \_ MSFT \_ WSS \_ \_ stéréo FMSYNTH      |
+| Port de carte audio MS                  | MM \_ MSFT \_ WSS \_ aux                  |
+| Pilote de mixage de carte audio MS              | \_ \_ mélangeur de WSS MM MSFT \_                |
+| Entrée de forme d’onde MS audio Board            | MM \_ MSFT \_ WSS \_ wave               |
+| Sortie de forme d’onde MS audio Board           | MM \_ MSFT \_ WSS \_ WAVEOUT              |
 | Gestionnaire de compression audio MS             | \_MSACM msft msft \_                     |
 | Filtre MS                                | MM \_ \_ MSFILTER ACM \_ msft             |
-| Port audio OEM MS                    | MM \_ msft \_ \_ OEM WSS \_ aux             |
-| Pilote de mixage de carte audio OEM MS          | \_ \_ \_ mélangeur OEM WSS de mm msft \_           |
-| Synthétiseur FM de carte audio Microsoft OEM | MM \_ msft \_ WSS \_ OEM \_ FMSYNTH \_ stéréo |
-| Entrée de forme d’onde de carte audio OEM MS        | MM \_ \_ \_ Wave OEM WSS \_ de mm          |
-| Sortie de forme d’onde de carte audio OEM MS       | MM \_ msft \_ \_ OEM WSS \_ WAVEOUT         |
+| Port audio OEM MS                    | MM \_ MSFT \_ WSS \_ OEM \_             |
+| Pilote de mixage de carte audio OEM MS          | MM \_ MSFT \_ WSS \_ la \_ console de mixage OEM           |
+| Synthétiseur FM de carte audio Microsoft OEM | MM \_ MSFT \_ WSS \_ la \_ stéréo OEM FMSYNTH \_ |
+| Entrée de forme d’onde de carte audio OEM MS        | MM \_ MSFT \_ WSS \_ la \_ vague OEM          |
+| Sortie de forme d’onde de carte audio OEM MS       | MM \_ MSFT \_ WSS \_ OEM \_ WAVEOUT         |
 | Pilote MS vanille aux (CD)               | MM \_ msft \_ generic \_ sur \_ CD          |
 | Pilote MS vanille aux (ligne)          | MM \_ \_ ligne générique \_ \_ aux        |
 | Pilote MS vanille aux (MIC)              | MM \_ msft \_ générique \_ aux \_ MIC         |
@@ -62,11 +62,11 @@ ms.locfileid: "104379900"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

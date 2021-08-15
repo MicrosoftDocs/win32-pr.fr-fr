@@ -3,10 +3,10 @@ title: Contrôle de l’expérience de lecture
 description: Contrôle de l’expérience de lecture
 ms.assetid: f130eee1-10ef-4cbe-b6ac-8ad24e1f0f34
 keywords:
-- Sélections de métafichiers Windows Media, contrôle de la lecture
+- Windows Sélections de métafichiers multimédia, contrôle de la lecture
 - sélections, contrôle de la lecture
 - sélections de métafichiers, contrôle de la lecture
-- Sélections de métafichiers Windows Media, problèmes de lecture
+- Windows Sélections de métafichiers multimédia, problèmes de lecture
 - sélections, problèmes de lecture
 - sélections de métafichiers, problèmes de lecture
 - contrôle de la lecture
@@ -21,12 +21,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6877b869be8ca38ef9266aedf9318103d0e547ca
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: efca4d299edc40cfb94820fbb1aae7115329c0f3fcbd2859db0bbbc56d7a0d4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106517963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118341886"
 ---
 # <a name="controlling-the-playback-experience"></a>Contrôle de l’expérience de lecture
 
@@ -57,35 +57,35 @@ function UnloadMe()
 
 
 
-Quand l’utilisateur quitte la **lecture** en cliquant sur un bouton pour ouvrir une autre fonctionnalité du lecteur Windows Media, telle que la bibliothèque, le lecteur ferme le navigateur incorporé. L’événement **onunload** se produit alors, en exécutant le script dans la fonction nommée **UnloadMe**. La méthode [Player. Close](player-close.md) arrête la lecture et décharge le fichier multimédia numérique en cours. Pour réafficher le contenu, l’utilisateur doit rouvrir le fichier. asx d’origine. Cette technique arrête également la lecture lorsque l’utilisateur quitte la page Web HTMLView. Notez que cette technique ne peut pas empêcher l’utilisateur d’afficher le contenu multimédia numérique lorsqu’il bascule en mode apparence.
+lorsque l’utilisateur bascule de la **lecture** en cours en cliquant sur un bouton pour ouvrir une autre fonctionnalité Lecteur Windows Media, telle que la bibliothèque, le lecteur ferme le navigateur incorporé. L’événement **onunload** se produit alors, en exécutant le script dans la fonction nommée **UnloadMe**. La méthode [Player. Close](player-close.md) arrête la lecture et décharge le fichier multimédia numérique en cours. Pour réafficher le contenu, l’utilisateur doit rouvrir le fichier. asx d’origine. Cette technique arrête également la lecture lorsque l’utilisateur quitte la page Web HTMLView. Notez que cette technique ne peut pas empêcher l’utilisateur d’afficher le contenu multimédia numérique lorsqu’il bascule en mode apparence.
 
 Vous vous souvenez que le paramètre HTMLView peut être appliqué à chaque élément **entry** dans un fichier. asx. Vous pouvez tirer parti de cette fonctionnalité pour vous assurer que votre contenu HTMLView s’affiche chaque fois qu’un nouveau fichier multimédia numérique démarre. Pour ce faire, associez un élément **param** pour HTMLView à chaque entrée de votre sélection. asx. Quand chaque entrée est lue, le lecteur revient en mode complet et affiche le contenu HTMLView que vous avez spécifié dans la sélection.
 
 ## <a name="url-and-file-script-command-types-are-disabled-by-default"></a>Les types de commandes de script d’URL et de fichier sont désactivés par défaut
 
-Le lecteur Windows Media série 9 ou version ultérieure fournit des paramètres qui permettent à l’utilisateur de spécifier si les commandes de script de type URL et fichier peuvent s’exécuter. Par défaut, ces deux types de commandes de script ne s’exécutent pas. Si vous utilisez des types de commande de script personnalisés, ils continuent à s’exécuter, quel que soit le paramètre de l’utilisateur. Si vous devez utiliser des commandes de script de type URL et fichier, vous devez inviter l’utilisateur à modifier les paramètres. Pour modifier les paramètres, cliquez sur **Outils**, puis sur **options** et sur **sécurité**.
+Lecteur Windows Media série 9 ou version ultérieure fournit des paramètres qui permettent à l’utilisateur de spécifier si les commandes de script de type URL et fichier peuvent s’exécuter. Par défaut, ces deux types de commandes de script ne s’exécutent pas. Si vous utilisez des types de commande de script personnalisés, ils continuent à s’exécuter, quel que soit le paramètre de l’utilisateur. Si vous devez utiliser des commandes de script de type URL et fichier, vous devez inviter l’utilisateur à modifier les paramètres. Pour modifier les paramètres, cliquez sur **Outils**, puis sur **options** et sur **sécurité**.
 
 ## <a name="reopening-an-htmlview-does-not-reload-the-webpage"></a>La réouverture d’un HTMLView ne recharge pas la page Web
 
-Lorsque l’utilisateur ouvre un fichier. asx qui comprend un paramètre HTMLView et réouvre ensuite le même fichier, le lecteur Windows Media n’actualise pas la page Web HTMLView. Cela signifie également que si vous avez autorisé les utilisateurs à quitter votre page Web HTMLView, le lecteur ne retourne pas le navigateur incorporé à la page Web initiale HTMLView.
+lorsque l’utilisateur ouvre un fichier. asx qui comprend un paramètre HTMLView, puis ouvre à nouveau le même fichier, Lecteur Windows Media n’actualise pas la page web HTMLView. Cela signifie également que si vous avez autorisé les utilisateurs à quitter votre page Web HTMLView, le lecteur ne retourne pas le navigateur incorporé à la page Web initiale HTMLView.
 
 ## <a name="hiding-the-content-location"></a>Masquage de l’emplacement du contenu
 
-Vous pouvez décider de ne pas que le lecteur Windows Media affiche l’emplacement de votre contenu multimédia numérique lors de la lecture d’un fichier. asx. En règle générale, le lecteur Windows Media affiche uniquement des informations sur la liste de lecture elle-même lors de la diffusion en continu du contenu à partir d’Internet. Toutefois, il existe des étapes supplémentaires que vous pouvez prendre pour empêcher les utilisateurs de déterminer l’emplacement de votre contenu. Par exemple, l’une des méthodes permettant de s’assurer que le lecteur n’affiche pas le chemin d’accès à votre contenu consiste à diffuser votre contenu à l’aide des sélections côté serveur de Windows Media Services. Ainsi, lorsque l’utilisateur consulte les propriétés du contenu, il voit l’URL du serveur et non l’URL de votre contenu.
+vous pouvez décider que vous ne voulez pas que Lecteur Windows Media affiche l’emplacement de votre contenu multimédia numérique pendant qu’il lit un fichier. asx. en règle générale, Lecteur Windows Media affiche uniquement des informations sur la liste de lecture elle-même lors de la diffusion en continu du contenu à partir d’Internet. Toutefois, il existe des étapes supplémentaires que vous pouvez prendre pour empêcher les utilisateurs de déterminer l’emplacement de votre contenu. par exemple, l’une des méthodes permettant de s’assurer que le lecteur n’affiche pas le chemin d’accès à votre contenu consiste à diffuser votre contenu à l’aide de Services Windows Media sélections côté serveur. Ainsi, lorsque l’utilisateur consulte les propriétés du contenu, il voit l’URL du serveur et non l’URL de votre contenu.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Affichage des pages Web dans le lecteur Windows Media**](displaying-web-pages-in-windows-media-player.md)
+[**affichage des Pages Web dans les Lecteur Windows Media**](displaying-web-pages-in-windows-media-player.md)
 </dt> <dt>
 
 [**Élément PARAM**](param-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
