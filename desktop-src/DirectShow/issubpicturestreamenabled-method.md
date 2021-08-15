@@ -4,17 +4,17 @@ ms.assetid: c6436f77-ca94-464f-9336-f485f5d5d199
 title: Méthode IsSubpictureStreamEnabled
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 818b4ff18dac87ea3346a1a503764b2e5e9cd02a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bc982120b6a7a57d59d5213fc57b5ba3851d7d9d2f4c3e553fba97d3307d8bec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117817046"
 ---
 # <a name="issubpicturestreamenabled-method"></a>Méthode IsSubpictureStreamEnabled
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -50,7 +50,7 @@ Spécifie le flux de sous-image sous la forme d’un entier.
 
 Retourne une valeur booléenne indiquant si le flux audio spécifié est disponible dans le titre actuel. True signifie qu’il est disponible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Bien qu’un disque puisse contenir jusqu’à 32 flux de sous-image, chaque flux n’est pas nécessairement disponible pour chaque titre. Vérifiez toujours qu’un flux est disponible pour un titre avant de définir la propriété [**CurrentSubpictureStream**](currentsubpicturestream-property.md) .
 

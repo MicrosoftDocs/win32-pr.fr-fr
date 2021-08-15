@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb07f3989ff19faa723e4b1d1cd50dc4e269f219
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2a35fdd33df2387bb59dfac64f554dd8b5953fa3015afec6ca643725b9bd58f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846937"
 ---
 # <a name="iwmdrmlicensemanagementrestorelicenses-method"></a>IWMDRMLicenseManagement :: RestoreLicenses, méthode
 
@@ -68,7 +68,7 @@ Pointeur qui reçoit un pointeur vers l’interface **IUnknown** d’un objet qu
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -80,11 +80,11 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode s’exécute de façon asynchrone. Elle retourne immédiatement après l’appel de, puis génère une série d’événements **MEWMDRMLicenseRestoreProgress** suivie d’un événement **MEWMDRMLicenseRestoreCompleted** lorsque le traitement est terminé. La valeur de chacun des événements **MEWMDRMLicenseRestoreProgress** obtenus en appelant **IMFMediaEvent :: GetValue** est un pointeur **IUnknown** . Vous pouvez appeler la méthode **QueryInterface** de l’interface **IUnknown** Récupérée pour récupérer une instance de l’interface [**IWMDRMLicenseBackupRestoreStatus**](iwmdrmlicensebackuprestorestatus.md) .
 
-Pour plus d’informations sur l’utilisation des méthodes asynchrones des API étendues du client Windows Media DRM, consultez [utilisation du modèle d’événement Media Foundation](using-the-media-foundation-model.md).
+pour plus d’informations sur l’utilisation des méthodes asynchrones des api étendues du Client Media DRM Windows, consultez [utilisation du modèle d’événement Media Foundation](using-the-media-foundation-model.md).
 
 La sauvegarde peut être à partir de l’ordinateur local ou d’un autre ordinateur.
 

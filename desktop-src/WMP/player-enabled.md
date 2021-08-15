@@ -1,9 +1,9 @@
 ---
 title: Player. Enabled
-description: La propriété Enabled spécifie ou récupère une valeur indiquant si le contrôle du lecteur Windows Media est activé.
+description: la propriété enabled spécifie ou récupère une valeur indiquant si le contrôle Lecteur Windows Media est activé.
 ms.assetid: 65fea4d2-3330-4cce-bdaf-fae00304271a
 keywords:
-- Lecteur Windows Media Player. Enabled
+- Player. enabled Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d002d1f1420d17d4b1a0b7dd3028b0f2dc0f6f7b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 804baa0dbb887cd389214c1c90e7a438e3529d7b7609cf3162091d2bf52cb17d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747594"
 ---
 # <a name="playerenabled"></a>Player. Enabled
 
-La propriété **Enabled** spécifie ou récupère une valeur indiquant si le contrôle du lecteur Windows Media est activé.
+la propriété **enabled** spécifie ou récupère une valeur indiquant si le contrôle Lecteur Windows Media est activé.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -37,16 +37,16 @@ Cette propriété est une **valeur booléenne** en lecture/écriture.
 
 | Valeur | Description                                           |
 |-------|-------------------------------------------------------|
-| true  | Par défaut. Le contrôle du lecteur Windows Media est activé. |
-| false | Le contrôle du lecteur Windows Media est désactivé.         |
+| true  | Par défaut. le contrôle Lecteur Windows Media est activé. |
+| false | le contrôle Lecteur Windows Media est désactivé.         |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-S’il est **activé** , la valeur est false alors que le lecteur Windows Media de lecture plein écran masque les contrôles utilisateur.
+s’il est **activé** , la valeur est false alors que la lecture en plein écran Lecteur Windows Media masque les contrôles utilisateur.
 
 ## <a name="requirements"></a>Configuration requise
 

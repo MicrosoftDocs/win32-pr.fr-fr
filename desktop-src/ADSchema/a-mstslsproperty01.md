@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9531028abdaa2d835c255053972f1fc2c4cf106d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d04c0a2c228f3134e5ff88eb3d7c5ca1a5fc9bc10a867efc9e6638380ff84144
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103949854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118424455"
 ---
 # <a name="ms-tsls-property01-attribute"></a>Attribut MS-TSLS-Property01
 
@@ -42,7 +42,7 @@ Espace réservé propriété de serveur Terminal Server 01.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

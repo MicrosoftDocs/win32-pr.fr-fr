@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 04/17/2020
-ms.openlocfilehash: ffe64a5ca79bbe886ddae31661c06dae695259a7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5d317ba21c69b22ae9c6b7cb5be0be84cd15f561b34ec65f1f99e7335cd1badb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117884286"
 ---
 # <a name="wm_input-message"></a>\_Message d’entrée WM
 
@@ -63,7 +63,7 @@ Handle **HRAWINPUT** vers la structure [**RAWINPUT**](/windows/win32/api/winuser
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les entrées brutes sont disponibles uniquement quand l’application appelle [**RegisterRawInputDevices**](/windows/win32/api/winuser/nf-winuser-registerrawinputdevices) avec des spécifications de périphérique valides.
 
@@ -71,8 +71,8 @@ Les entrées brutes sont disponibles uniquement quand l’application appelle [*
 
 | Condition requise | Valeur |
 |--------------------------|-------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows XP uniquement\] |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2003 \[ uniquement\] |
+| Client minimal pris en charge | Windows \[Applications de bureau XP uniquement\] |
+| Serveur minimal pris en charge | Windows Serveur 2003 \[ applications de bureau uniquement\] |
 | En-tête | <dl> <dt>**Winuser. h (inclure Windows. h)**</dt> </dl> |
 
 ## <a name="see-also"></a>Voir aussi

@@ -1,19 +1,19 @@
 ---
 title: Comment effectuer un test de positionnement sur une disposition de texte
-description: Fournit un bref didacticiel sur l’ajout d’un test de positionnement à une application DirectWrite qui affiche du texte à l’aide de l’interface IDWriteTextLayout.
+description: fournit un bref didacticiel sur l’ajout d’un test de positionnement à une application DirectWrite qui affiche du texte à l’aide de l’interface IDWriteTextLayout.
 ms.assetid: ef30c931-10f6-4317-b2ea-b446990778b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2ca80ac641920c4e63c08f4cbb0fd9e24eb7b2d
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
+ms.openlocfilehash: 3d42967b069a7a5008de75c1cecb453a6158857eb2b05d2dd0298584a67cef69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103953482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117816567"
 ---
 # <a name="how-to-perform-hit-testing-on-a-text-layout"></a>Comment effectuer un test de positionnement sur une disposition de texte
 
-Fournit un bref didacticiel sur l’ajout d’un test de positionnement à une application [DirectWrite](direct-write-portal.md) qui affiche du texte à l’aide de l’interface [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) .
+fournit un bref didacticiel sur l’ajout d’un test de positionnement à une application [DirectWrite](direct-write-portal.md) qui affiche du texte à l’aide de l’interface [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) .
 
 Le résultat de ce didacticiel est une application qui souligne le caractère sur lequel un clic a été effectué à l’aide du bouton gauche de la souris, comme illustré dans la capture d’écran suivante.
 

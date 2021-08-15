@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dc42251b928207a2b009a18c1d88e94dcf1492a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7cb1f83cfcbe673cd2d5701e57ae1e94d4e04b59b845cd9ec7b617077da24bb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118310255"
 ---
 # <a name="orpc_dbg_buffer-structure"></a>ORPC \_ , \_ structure de mémoire tampon dbg
 
@@ -193,7 +193,7 @@ Mémoire tampon d' **octets** utilisée pour passer des données com triées par
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les membres de cette structure ont un alignement sur 1 octet et sont toujours transmis dans l’ordre d’octet avec primauté des octets de poids faible (Little-endian).
 

@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété HelpContextID de l’objet Comman
 ms.assetid: 9e30e3f7-1d12-4aa1-af0d-5a3b30f57e83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 461c3c0ff5a6722dd6740c7df7e89bf2b9520053
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: d38d0f725c0c809c70fa77b89d3608f8e713fd968c33bfb0192c712f3613e91a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118478706"
 ---
 # <a name="helpcontextid-property-command-object"></a>HelpContextID, propriété (objet Command)
 
@@ -43,12 +43,12 @@ Retourne ou définit un numéro de contexte associé pour l’objet de [**comman
 
 ## <a name="remarks"></a>Remarques
 
-Si vous avez créé un fichier d’aide Windows pour votre application et défini la propriété [**HelpFile**](helpfile-property.md) du caractère sur le fichier, agent appelle automatiquement l’aide lorsque [**HelpModeOn**](helpmodeon-property.md) a la valeur **true** et que l’utilisateur sélectionne la commande. Si vous définissez un numéro de contexte dans le [**HelpContextID**](helpcontextid-property.md), l’agent appelle l’aide et recherche la rubrique identifiée par le numéro de contexte actuel. Le nombre de contextes actuels est la valeur de **HelpContextID** pour la commande.
+si vous avez créé un fichier d’aide Windows pour votre application et défini la propriété [**HelpFile**](helpfile-property.md) du caractère sur le fichier, Agent appelle automatiquement l’aide lorsque [**HelpModeOn**](helpmodeon-property.md) a la valeur **True** et que l’utilisateur sélectionne la commande. Si vous définissez un numéro de contexte dans le [**HelpContextID**](helpcontextid-property.md), l’agent appelle l’aide et recherche la rubrique identifiée par le numéro de contexte actuel. Le nombre de contextes actuels est la valeur de **HelpContextID** pour la commande.
 
 Cette propriété s’applique uniquement à l’utilisation du caractère par votre application cliente ; le paramètre n’affecte pas les autres clients du caractère ou d’autres caractères de votre application cliente.
 
 > [!Note]  
-> La génération d’un fichier d’aide requiert le compilateur d’aide Microsoft Windows.
+> la génération d’un fichier d’aide requiert le compilateur d’aide Microsoft Windows.
 
  
 

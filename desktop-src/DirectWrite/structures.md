@@ -1,19 +1,19 @@
 ---
-title: Structures DirectWrite
+title: structures de DirectWrite
 description: DirectWrite définit les structures suivantes.
 ms.assetid: 348dd001-bad9-4f1a-a5f5-84b118a5e2d4
 keywords:
 - DirectWrite, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19f678be8e02c8afecd849673d97ae20f6b1a710
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: eaa3d4d98588e3585022bb0887c6224e29d67e0c0d011437526b33ff0bcf1334
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112587917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117815952"
 ---
-# <a name="directwrite-structures"></a>Structures DirectWrite
+# <a name="directwrite-structures"></a>structures de DirectWrite
 
 DirectWrite définit les structures suivantes.
 

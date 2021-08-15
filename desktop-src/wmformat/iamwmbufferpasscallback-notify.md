@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e8f362262b36dee0bfc9a18e57010d102b2fa2cb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f364243e40400884287c6219698991ccf8afc0be86a85ec612a5b193253994dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117847534"
 ---
 # <a name="iamwmbufferpasscallbacknotify-method"></a>IAMWMBufferPassCallback :: Notify, méthode
 
@@ -31,10 +31,10 @@ La méthode **Notify** est appelée par le code confidentiel pour chaque mémoir
 
 ```C++
 HRESULT Notify(
-  [in] INSSBuffer3    *pNSSBuffer3,
-  [in] IPin           *pPin,
-  [in] REFERENCE_TIME *prtStart,
-  [in] REFERENCE_TIME *prtEnd
+  [in] INSSBuffer3    *pNSSBuffer3,
+  [in] IPin           *pPin,
+  [in] REFERENCE_TIME *prtStart,
+  [in] REFERENCE_TIME *prtEnd
 );
 ```
 
@@ -76,7 +76,7 @@ Heure de fin de l’exemple.
 
 Aucune valeur de retour particulière n’est spécifiée. Le code PIN appelant ignore le **HRESULT**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode permet à une application d’examiner et d’agir sur les informations de la mémoire tampon du média avant le traitement du contenu de la mémoire tampon. L’application est chargée de connaître le type de média sur le code confidentiel. Ces informations peuvent être obtenues en obtenant d’abord les informations de flux à partir du profil, puis en appelant la méthode [**IConfigAsfWriter2 :: StreamNumFromPin**](iconfigasfwriter2-streamnumfrompin.md) pour déterminer quel pin est associé à chaque flux.
 
@@ -84,7 +84,7 @@ Cette méthode permet à une application d’examiner et d’agir sur les inform
 
 <dl> <dt>
 
-[**Informations de référence sur DirectShow QASF**](directshow-qasf-reference.md)
+[**DirectShow Référence QASF**](directshow-qasf-reference.md)
 </dt> <dt>
 
 [**Interface IAMWMBufferPassCallback**](/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iamwmbufferpasscallback)
@@ -93,6 +93,6 @@ Cette méthode permet à une application d’examiner et d’agir sur les inform
 [**Interface INSSBuffer3**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

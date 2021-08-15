@@ -4,33 +4,33 @@ description: Utilisez les éléments du panneau de configuration pour aider les 
 ms.assetid: 845325ef-9f1d-4aa7-a5b0-685fac74a9f8
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 3b0e6fdf4e0c916f80ae3c1783e4e9e5fee920a8
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 86226e3643f741d277c0e2864870a7e81c25614a6dd5ba2e01a05c67729c26d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117853493"
 ---
 # <a name="control-panels"></a>Panneaux de contrôle
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Utilisez les éléments du panneau de configuration pour aider les utilisateurs à configurer les fonctionnalités au niveau du système et à effectuer les tâches associées. Les programmes qui ont une interface utilisateur doivent être configurés directement à partir de leur interface utilisateur.
 
-Avec le panneau de configuration de Microsoft Windows, les utilisateurs peuvent configurer des fonctionnalités au niveau du système et effectuer des tâches associées. Parmi les exemples de configuration de fonctionnalités au niveau du système figurent l’installation et la configuration du matériel et des logiciels, la sécurité, la maintenance du système et la gestion des comptes d’utilisateurs.
+avec le panneau de configuration de Microsoft Windows, les utilisateurs peuvent configurer des fonctionnalités au niveau du système et effectuer des tâches associées. Parmi les exemples de configuration de fonctionnalités au niveau du système figurent l’installation et la configuration du matériel et des logiciels, la sécurité, la maintenance du système et la gestion des comptes d’utilisateurs.
 
-Le terme panneau de configuration fait référence à l’ensemble de la fonctionnalité du panneau de configuration Windows. Les panneaux de contrôle individuels sont appelés éléments du panneau de configuration. Un élément du panneau de configuration est considéré comme de niveau supérieur lorsqu’il est directement accessible à partir de la page d’accès du panneau de configuration ou d’une page de catégorie.
+le terme panneau de configuration fait référence à l’ensemble du Windows fonctionnalité du panneau de configuration. Les panneaux de contrôle individuels sont appelés éléments du panneau de configuration. Un élément du panneau de configuration est considéré comme de niveau supérieur lorsqu’il est directement accessible à partir de la page d’accès du panneau de configuration ou d’une page de catégorie.
 
 ![capture d’écran de la catégorie parole du panneau de configuration ](images/winenv-ctrl-panels-image1.png)
 
 Élément classique du panneau de configuration.
 
-La page d’accueil du panneau de configuration est le point d’entrée principal pour tous les éléments du panneau de configuration. Elle répertorie les éléments par catégorie, ainsi que les tâches les plus courantes. Elle s’affiche lorsque les utilisateurs cliquent sur panneau de configuration dans le menu Démarrer.
+La page d’accueil du panneau de configuration est le point d’entrée principal pour tous les éléments du panneau de configuration. Elle répertorie les éléments par catégorie, ainsi que les tâches les plus courantes. elle s’affiche lorsque les utilisateurs cliquent sur panneau de configuration dans le menu Démarrer.
 
 Une page de catégorie du panneau de configuration répertorie les éléments d’une seule catégorie, ainsi que les tâches les plus courantes. Elle s’affiche lorsque les utilisateurs cliquent sur un nom de catégorie sur la page d’hébergement.
 
-Les éléments du panneau de configuration sont implémentés à l’aide de [flux de tâches](glossary.md) ou de feuilles de propriétés. Pour Windows Vista et versions ultérieures, les flux de tâches sont l’interface utilisateur par défaut.
+Les éléments du panneau de configuration sont implémentés à l’aide de [flux de tâches](glossary.md) ou de feuilles de propriétés. pour Windows Vista et versions ultérieures, les flux de tâches sont l’interface utilisateur par défaut.
 
 **Développeurs :** Pour savoir comment créer des éléments du panneau de configuration, consultez [éléments du panneau de configuration](/previous-versions//bb776838(v=vs.85)).
 
@@ -40,16 +40,16 @@ Les éléments du panneau de configuration sont implémentés à l’aide de [fl
 
 Pour vous décider, posez-vous les questions suivantes :
 
--   **L’objectif est-il de configurer des fonctionnalités au niveau du système ?** Si ce n’est pas le cas, utilisez un autre point d’intégration. Rendez les fonctionnalités de votre application configurables directement à partir de l’interface utilisateur à l’aide des boîtes de dialogue Options, au lieu d’utiliser le panneau de configuration. Pour les utilitaires qui ne sont pas utilisés pour l’installation, la configuration ou les tâches associées (telles que la résolution des problèmes), utilisez le menu Démarrer comme point d’intégration.
+-   **L’objectif est-il de configurer des fonctionnalités au niveau du système ?** Si ce n’est pas le cas, utilisez un autre point d’intégration. Rendez les fonctionnalités de votre application configurables directement à partir de l’interface utilisateur à l’aide des boîtes de dialogue Options, au lieu d’utiliser le panneau de configuration. pour les utilitaires qui ne sont pas utilisés pour l’installation, la configuration ou les tâches associées (telles que la résolution des problèmes), utilisez le menu Démarrer comme point d’intégration.
 -   **La fonctionnalité au niveau système a-t-elle sa propre interface utilisateur ?** Dans ce cas, l’interface utilisateur est l’emplacement où les utilisateurs doivent apporter des modifications. Par exemple, un utilitaire de sauvegarde système doit être configuré à partir de ses options de programme et non à partir du panneau de configuration.
--   **Les utilisateurs devront-ils changer la configuration souvent ?** Si tel est le cas (par exemple plusieurs fois par semaine), envisagez d’autres solutions, peut-être en plus d’utiliser le panneau de configuration. Par exemple, le paramètre du volume principal Windows peut être configuré directement à partir de son icône dans la zone de notification. Certains paramètres peuvent être configurés automatiquement. Dans l’Explorateur Windows, par exemple, l’onglet compatibilité pour les propriétés de l’application permet à une application d’être exécutée en mode de couleurs 256 au lieu de demander aux utilisateurs de modifier le mode vidéo manuellement.
+-   **Les utilisateurs devront-ils changer la configuration souvent ?** Si tel est le cas (par exemple plusieurs fois par semaine), envisagez d’autres solutions, peut-être en plus d’utiliser le panneau de configuration. par exemple, le paramètre de volume maître Windows peut être configuré directement à partir de son icône dans la zone de notification. Certains paramètres peuvent être configurés automatiquement. dans l’explorateur de Windows, par exemple, l’onglet compatibilité des propriétés de l’application permet à une application d’être exécutée en mode de couleurs 256 au lieu de demander aux utilisateurs de modifier le mode vidéo manuellement.
 -   **Les utilisateurs cibles sont-ils des professionnels de l’informatique ?** Dans ce cas, utilisez un composant logiciel enfichable [MMC (Microsoft Management Console)](/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page) à la place, conçu spécifiquement pour les tâches de gestion du système. Dans certains cas, la meilleure solution consiste à avoir un élément du panneau de configuration pour les utilisateurs généraux et un composant logiciel enfichable MMC pour les professionnels de l’informatique.
 
     ![capture d’écran de la fenêtre Gestion de l’ordinateur ](images/winenv-ctrl-panels-image2.png)
 
     Dans cet exemple, le composant logiciel enfichable MMC utilisateurs et groupes locaux fournit une gestion des utilisateurs destinée aux professionnels de l’informatique. D’autres utilisateurs sont plus susceptibles d’utiliser l’élément comptes d’utilisateur dans le panneau de configuration.
 
--   **La fonctionnalité est-elle une fonctionnalité OEM utilisée uniquement lors de la configuration initiale du système ?** Si c’est le cas, utilisez le centre d’accueil Windows comme point d’intégration.
+-   **La fonctionnalité est-elle une fonctionnalité OEM utilisée uniquement lors de la configuration initiale du système ?** si c’est le cas, utilisez le centre d’accueil Windows comme point d’intégration.
 
 Les éléments du panneau de configuration sont nécessaires, car de nombreuses fonctionnalités au niveau du système n’ont pas de point d’intégration plus évident ou direct. Toutefois, le panneau de configuration ne doit pas être affiché comme « un seul endroit » pour tous les paramètres de configuration. **Les programmes qui ont une interface utilisateur doivent être configurés directement à partir de leur interface utilisateur au lieu d’utiliser des éléments du panneau de configuration.**
 
@@ -57,20 +57,20 @@ Les éléments du panneau de configuration sont nécessaires, car de nombreuses 
 
 ![capture d’écran de l’élément Options Internet du panneau de configuration ](images/winenv-ctrl-panels-image3.png)
 
-Dans cet exemple, Windows Internet Explorer ne doit pas être représenté dans le panneau de configuration, car sa propre interface utilisateur est un meilleur point d’intégration.
+dans cet exemple, Windows Internet Explorer ne doit pas être représenté dans le panneau de configuration, car sa propre interface utilisateur est un meilleur point d’intégration.
 
 ### <a name="create-a-new-control-panel-item-or-extend-an-existing-one"></a>Créer un élément du panneau de configuration ou en étendre un existant ?
 
 Pour vous décider, posez-vous les questions suivantes :
 
--   **Les fonctionnalités peuvent-elles être exprimées en tant que tâches qui peuvent se connecter à un élément existant du panneau de configuration extensible ?** Les éléments suivants du panneau de configuration sont extensibles : appareils Bluetooth, affichage, Internet, clavier, souris, réseau, alimentation, système, sans fil (infrarouge).
+-   **Les fonctionnalités peuvent-elles être exprimées en tant que tâches qui peuvent se connecter à un élément existant du panneau de configuration extensible ?** les éléments suivants du panneau de configuration sont extensibles : appareils Bluetooth, affichage, Internet, clavier, souris, réseau, alimentation, système, sans fil (infrarouge).
 -   **Les propriétés et les tâches remplacent-elles les fonctionnalités de l’élément du panneau de configuration extensible existant ?** Si c’est le cas, vous devez étendre l’élément existant du panneau de configuration, car cela aboutit à une expérience utilisateur plus simple. Si ce n’est pas le cas, créez un élément du panneau de configuration.
 
 ## <a name="design-concepts"></a>Principes de conception
 
 **Le concept du panneau de configuration est basé sur une métaphore réaliste.** Un panneau de configuration réel est une collection de contrôles (boutons, commutateurs, jauges et affichages) utilisés pour surveiller et contrôler un appareil. Les utilisateurs de ces panneaux de contrôle ont souvent besoin d’une formation pour comprendre comment les utiliser.
 
-Contrairement à leurs équivalents réels, **les conceptions du panneau de configuration Windows sont optimisées pour les premiers utilisateurs.** Les utilisateurs n’effectuent pas très souvent des tâches du panneau de configuration, de sorte qu’ils ne se souviennent généralement pas de leur utilisation et de leur réapprentissage à chaque fois.
+contrairement à leurs équivalents réels, **Windows les conceptions du panneau de configuration sont optimisées pour les utilisateurs de la première fois.** Les utilisateurs n’effectuent pas très souvent des tâches du panneau de configuration, de sorte qu’ils ne se souviennent généralement pas de leur utilisation et de leur réapprentissage à chaque fois.
 
 Pour concevoir un élément du panneau de configuration qui est utile et facile à utiliser :
 
@@ -289,7 +289,7 @@ Cela permet d’éviter que les boutons de validation de la tâche principale so
 -   **Ne confirmez pas si les utilisateurs abandonnent les modifications** en naviguant à l’aide de précédent, de fermer ou de la barre d’adresses. Toutefois, vous pouvez vérifier si une navigation potentiellement involontaire peut entraîner une perte significative du temps ou de l’effort de l’utilisateur.
 -   **N’utilisez pas de liens de commande ou de navigation** (y compris les liens Voir aussi). Sur les dernières pages spoke, les utilisateurs doivent explicitement terminer ou annuler la tâche. Les utilisateurs ne doivent pas être encouragés à naviguer ailleurs, car cela entraînera probablement l’annulation implicite de la tâche.
 -   **Lorsque les utilisateurs terminent ou annulent une tâche, ils doivent être renvoyés à la page Hub à partir de laquelle la tâche a été lancée.** S’il n’existe pas de page de ce type, fermez la fenêtre du panneau de configuration à la place. Ne partez pas du principe que les pages spoke sont toujours lancées à partir d’une autre page.
--   **Supprimez les pages « validées » obsolètes de la pile de retour de l’Explorateur Windows** lorsque vous revenez à la page à partir de laquelle la tâche a été lancée. Les utilisateurs ne doivent jamais voir les pages qu’ils ont déjà validées lorsqu’ils cliquent sur le bouton précédent. Les utilisateurs doivent toujours apporter des modifications supplémentaires en réexécutant complètement la tâche au lieu de cliquer sur précédent pour modifier les pages obsolètes.
+-   **supprimez les pages « validées » obsolètes de la pile de retour de l’explorateur de Windows** lorsque vous revenez à la page à partir de laquelle la tâche a été lancée. Les utilisateurs ne doivent jamais voir les pages qu’ils ont déjà validées lorsqu’ils cliquent sur le bouton précédent. Les utilisateurs doivent toujours apporter des modifications supplémentaires en réexécutant complètement la tâche au lieu de cliquer sur précédent pour modifier les pages obsolètes.
     -   **Développeurs :** Vous pouvez supprimer ces pages obsolètes à l’aide des API ITravelLog :: FindTravelEntry () et ITravelLogEx ::D eleteEntry ().
 
 **Boutons de validation**
@@ -336,7 +336,7 @@ Un élément du panneau de configuration dispose d’un aperçu instantané lors
 
         ![capture d’écran de la boîte de dialogue Modifier les paramètres de couleur ](images/winenv-ctrl-panels-image12.png)
 
-        Dans cet exemple, l’effet des paramètres de couleur et d’apparence de Windows est visible immédiatement. Cela permet aux utilisateurs d’apporter des modifications avec un minimum d’effort.
+        dans cet exemple, l’effet des paramètres de couleur et d’apparence de Windows est visible immédiatement. Cela permet aux utilisateurs d’apporter des modifications avec un minimum d’effort.
 
 -   **Utilisez enregistrer les modifications et annuler pour les boutons de validation.** « Enregistrer les modifications » conserve les paramètres actuels, tandis que l’annulation rétablit les paramètres d’origine. « Enregistrer les modifications » est utilisé à la place de OK pour clarifier le fait que les modifications prévisualisées n’ont pas encore été appliquées.
 -   **Ne fournissez pas de bouton appliquer.** L’aperçu instantané rend l’application inutile.
@@ -353,9 +353,9 @@ Un élément du panneau de configuration dispose d’un aperçu instantané lors
 
 ### <a name="control-panel-integration"></a>Intégration du panneau de configuration
 
-Pour intégrer votre élément du panneau de configuration à Windows, vous pouvez :
+pour intégrer votre élément du panneau de configuration à Windows, vous pouvez :
 
--   **Inscrivez votre élément du panneau de configuration (y compris son nom, sa description et son icône)**, afin que Windows en ait connaissance.
+-   **inscrivez votre élément du panneau de configuration (y compris son nom, sa description et son icône)** pour que Windows en ait connaissance.
 -   Si l’élément du panneau de configuration est de niveau supérieur (voir ci-dessous) :
     -   Associez-le à la **page de catégorie** appropriée.
     -   **Fournissez des liens de tâches (y compris leur nom, leur description, des mots clés et une ligne de commande)** pour indiquer des tâches principales et permettre aux utilisateurs d’accéder directement aux tâches.
@@ -377,7 +377,7 @@ Pour intégrer votre élément du panneau de configuration à Windows, vous pouv
 
     -   Il est rarement utilisé ou utilisé pour une configuration unique. Exemple : Centre d’accueil
     -   Elle est destinée aux utilisateurs expérimentés ou aux professionnels de l’informatique. Exemple : gestion des couleurs
-    -   Elle ne s’applique pas à la configuration matérielle ou logicielle actuelle. Exemple : Windows SideShow (s’il n’est pas pris en charge par le matériel actuel).
+    -   Elle ne s’applique pas à la configuration matérielle ou logicielle actuelle. exemple : Windows SideShow (s’il n’est pas pris en charge par le matériel actuel).
 
     La suppression de tels éléments du panneau de configuration dans les pages de catégorie rend les éléments de niveau supérieur plus faciles à trouver. Étant donné leur utilisation, ces éléments du panneau de configuration sont suffisamment détectables via la recherche ou des points d’entrée contextuels.
 
@@ -407,13 +407,13 @@ Pour intégrer votre élément du panneau de configuration à Windows, vous pouv
 
 ### <a name="standard-users-and-protected-administrators"></a>Utilisateurs standard et administrateurs protégés
 
-**De nombreux paramètres requièrent des privilèges d’administrateur pour changer.** Si un processus requiert des privilèges d’administrateur, Windows Vista et les versions ultérieures requièrent des [utilisateurs standard](glossary.md) et des [administrateurs protégés](glossary.md) pour élever leurs privilèges de manière explicite. Cela permet d’empêcher le code malveillant de s’exécuter avec des privilèges d’administrateur.
+**De nombreux paramètres requièrent des privilèges d’administrateur pour changer.** si un processus requiert des privilèges d’administrateur, Windows Vista et les versions ultérieures requièrent des [utilisateurs Standard](glossary.md) et des [administrateurs protégés](glossary.md) pour élever leurs privilèges de manière explicite. Cela permet d’empêcher le code malveillant de s’exécuter avec des privilèges d’administrateur.
 
 Pour plus d’informations et d’exemples, consultez [contrôle de compte d’utilisateur](winenv-uac.md).
 
 ### <a name="schemes-and-themes"></a>Schémas et thèmes
 
-Un schéma est une collection nommée de paramètres visuels. Un thème est une collection nommée de paramètres dans le système. Des exemples de modèles et de thèmes incluent l’affichage, la souris, le téléphone et le modem, les options d’alimentation et les options audio et audio.
+Un schéma est une collection nommée de paramètres visuels. Un thème est une collection nommée de paramètres dans le système. des exemples de schémas et de thèmes incluent l’affichage, la souris, la Téléphone et le Modem, les options d’alimentation et les options audio et audio.
 
 -   **Autoriser les utilisateurs à créer des schémas dans les cas suivants :**
 
@@ -435,7 +435,7 @@ Un schéma est une collection nommée de paramètres visuels. Un thème est une 
 
 ### <a name="miscellaneous"></a>Divers
 
--   **Utilisez les extensions du panneau de configuration pour les fonctionnalités qui remplacent ou étendent les fonctionnalités Windows existantes.** Les éléments suivants du panneau de configuration sont extensibles : appareils Bluetooth, affichage, Internet, clavier, souris, réseau, alimentation, système, sans fil (infrarouge).
+-   **utilisez les extensions du panneau de configuration pour les fonctionnalités qui remplacent ou étendent les fonctionnalités existantes de Windows.** les éléments suivants du panneau de configuration sont extensibles : appareils Bluetooth, affichage, Internet, clavier, souris, réseau, alimentation, système, sans fil (infrarouge).
 
 ### <a name="default-values"></a>Valeurs par défaut
 
@@ -443,18 +443,18 @@ Un schéma est une collection nommée de paramètres visuels. Un thème est une 
 -   **Choisissez le plus sûr (pour éviter la perte de données ou l’accès au système) et l’état initial le plus sécurisé.** Supposons que la plupart des utilisateurs ne modifieront pas les paramètres.
 -   **Si la sécurité et la sécurité ne sont pas des facteurs, choisissez l’état initial le plus probable ou le plus pratique.**
 
-## <a name="text"></a>Text
+## <a name="text"></a>Texte
 
 ### <a name="item-names"></a>Noms d’éléments
 
--   **Choisissez un nom descriptif qui communique clairement et différencie ce que fait l’élément du panneau de configuration.** La plupart des noms décrivent la fonctionnalité ou l’objet Windows en cours de configuration, et sont affichés dans la vue classique de la page d’affichage du panneau de configuration.
--   **N’incluez pas les mots « paramètres », « options », « propriétés » ou « configuration » dans le nom.** Ceci est implicite, et sa conservation permet aux utilisateurs de les analyser plus facilement.
+-   **Choisissez un nom descriptif qui communique clairement et différencie ce que fait l’élément du panneau de configuration.** la plupart des noms décrivent la fonctionnalité de Windows ou l’objet en cours de configuration, et sont affichés dans la vue classique de la page d’affichage du panneau de configuration.
+-   **n’incluez pas les mots « Paramètres », « Options », « propriétés » ou « Configuration » dans le nom.** Ceci est implicite, et sa conservation permet aux utilisateurs de les analyser plus facilement.
 
     **Incorrect :**
 
     Options d’accessibilité
 
-    Paramètres du modem
+    Paramètres Modem
 
     Options d’alimentation
 
@@ -466,7 +466,7 @@ Un schéma est une collection nommée de paramètres visuels. Un thème est une 
 
     Modem
 
-    Power
+    Alimentation
 
     Formats et langues régionaux
 
@@ -478,7 +478,7 @@ Un schéma est une collection nommée de paramètres visuels. Un thème est une 
 
     Options des dossiers
 
-    Options de téléphone et de modem
+    Options de Téléphone et de Modem
 
     **Correct :**
 
@@ -523,7 +523,7 @@ Les indications suivantes s’appliquent aux liens vers les pages de tâches, te
 -   **Pour les pages de tâche, créez l’instruction principale, les boutons de validation et les liens de tâche en tant que jeu de texte associé.**
     
 
-    | Exemple                             |    Instruction                                                   |
+    |  Exemple                             |    Instruction                                                   |
     |------------------------------|-------------------------------------------------------|
     | Lien de tâche :<br/>        | Connexion à un réseau sans fil<br/>              |
     | Instruction principale :<br/> | Choisir un réseau auquel se connecter<br/>             |
@@ -575,7 +575,7 @@ Les indications suivantes s’appliquent aux liens vers les pages de tâches, te
 
     Réglage
 
-    Change
+    Modifier
 
     Choose
 
@@ -723,7 +723,7 @@ Pour les éléments du panneau de configuration :
 -   Quand vous faites référence à la page Hub d’un élément du panneau de configuration, utilisez la page « nom de l' \[ élément du panneau de configuration principal \] ».
 -   Lorsque cela est possible, mettez en forme le nom du panneau de configuration à l’aide du texte gras. Sinon, placez le nom entre guillemets uniquement si nécessaire pour éviter toute confusion.
 
-Exemples :
+Exemples :
 
 -   Dans le panneau de configuration, ouvrez contrôle **parental**.
 -   Revenez à la page principale de **contrôle parental** .

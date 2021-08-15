@@ -4,12 +4,12 @@ ms.assetid: 04ffc178-0a76-4870-a075-a2ecd31937a1
 title: Élément simpleLocation (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d12c17ace36314ceb180f14b6de0eb7a890a385b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82731c5a230f8dd12b9d73cafd75dfc7d3cdd66bf1e57120701ed3ca0ba54b07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117862460"
 ---
 # <a name="simplelocation-element-search-connector-schema"></a>Élément simpleLocation (schéma du connecteur de recherche)
 
@@ -52,7 +52,7 @@ L' <simpleLocation> élément spécifie l’emplacement des connecteurs de reche
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet élément peut être utilisé à la place de <locationProvider> lorsque l’emplacement est sur le système de fichiers ou que le connecteur est un gestionnaire de protocole connu (comme MAPI :). Si <simpleLocation> est présent, il ne doit pas s’agir d’un <locationProvider> élément. Pour les connecteurs de recherche de fournisseur de services Web, utilisez à la [<locationProvider>](search-schema-sconn-locationprovider.md) place l’élément.
 

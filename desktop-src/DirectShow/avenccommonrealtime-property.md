@@ -4,12 +4,12 @@ ms.assetid: 7e98a9f4-113b-45d0-ae55-7dc3f2af099e
 title: Propriété AVEncCommonRealTime (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a03e51da1a088603273da3d083573e5921edf7a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b718f4f58d230448689700fc2e681c109e645d48cb33eb1788e45ac607350951
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403889"
 ---
 # <a name="avenccommonrealtime-property"></a>Propriété AVEncCommonRealTime
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncCommonRealTime**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour spécifier que l’encodage doit être exécuté en temps réel, affectez à cette propriété la **\_ valeur variant true**. Les codecs peuvent également retourner cette propriété en tant que fonctionnalité.
 
@@ -35,8 +35,8 @@ Pour spécifier que l’encodage doit être exécuté en temps réel, affectez �
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ keywords:
 - modèles de contrôle, mise en cache
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69f75a7dc9491565fdfdc0ecc73808c2fb6a9d82
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae14fb607dd66ab1a4ea99cd9836f2f74e5c863afef8465843d3ea174186ef29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324973"
 ---
 # <a name="caching-ui-automation-properties-and-control-patterns"></a>Mise en cache des propriétés UI Automation et des modèles de contrôle
 
@@ -75,7 +75,7 @@ Si [**l' \_ élément TreeScope**](/windows/desktop/api/UIAutomationClient/ne-ui
 > [!Note]  
 > Vous ne pouvez pas mettre en cache les parents ou les ancêtres de l’élément racine de la requête.
 
- 
+ 
 
 ## <a name="retrieving-a-new-snapshot-of-the-cache"></a>Récupération d’un nouvel instantané du cache
 
@@ -105,9 +105,9 @@ Pour obtenir des exemples de code qui montrent comment utiliser les fonctionnali
 [Vue d'ensemble des propriétés UI Automation](uiauto-propertiesoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

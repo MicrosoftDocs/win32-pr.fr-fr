@@ -4,12 +4,12 @@ ms.assetid: 3A539A9D-DB6B-4E3D-AD26-D5309BECEBB1
 title: Utilisation des attributs d’élément
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a438c81258677822ca9b940eb9f74366d6226ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2ddcc567a820ba1d9c1394ca38f78fc9ce9ec634596f8dbe41feca9def32e90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859568"
 ---
 # <a name="how-to-use-item-attributes"></a>Utilisation des attributs d’élément
 
@@ -31,7 +31,7 @@ La valeur AttributeValue spécifie la valeur [**SFGAO**](sfgao.md) des bits qui 
 
 Le ImpliedSelectionModel spécifie zéro pour les verbes d’élément, ou une valeur différente de zéro pour les verbes dans le menu contextuel d’arrière-plan.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans l’exemple d’entrée de Registre suivant, AttributeMask est défini sur [**SFGAO \_ ReadOnly**](sfgao.md) (0x40000).
 

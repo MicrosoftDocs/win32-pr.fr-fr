@@ -4,12 +4,12 @@ description: Les composants requièrent souvent certaines fonctionnalités du co
 ms.assetid: 11002f3e-17de-4e05-a2df-0c9e6326846d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 987546c20ff77a40666bb74689466a15fab989a6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 67811a40c2c1bbffd4529b3f7c885a0d3e2bea19bda04035ffb80b601c266807
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118310886"
 ---
 # <a name="categorizing-by-container-capabilities"></a>Catégorisation par fonctionnalités de conteneur
 
@@ -35,7 +35,7 @@ HKEY_CLASSES_ROOT\CLSID\{...CLSID_Button...}\Implemented Categories\{...CATID_Co
  
 ```
 
-Comparez l’exemple précédent à l’exemple suivant dans lequel le MyDBControl peut utiliser Visual Basic la liaison de données si le conteneur le prend en charge. Toutefois, il a été défini de manière à fonctionner dans des conteneurs qui ne prennent pas en charge la liaison de données Visual Basic (par exemple, une API de base de données différente) :
+comparez l’exemple précédent à l’exemple suivant dans lequel le MyDBControl peut utiliser Visual Basic la liaison de données si le conteneur le prend en charge. toutefois, il a été défini de manière à fonctionner dans des conteneurs qui ne prennent pas en charge la liaison de données Visual Basic (par exemple, une API de base de données différente) :
 
 ``` syntax
 HKEY_CLASSES_ROOT\CLSID\{...CLSID_MyDBControl...}\Implemented Categories
@@ -54,7 +54,7 @@ HKEY_CLASSES_ROOT\CLSID\{...CLSID_GroupBox...}\Required Categories\{...CATID_Sim
  
 ```
 
-Un conteneur qui prend en charge Visual Basic contrôles liés aux données mais ne prend pas en charge les contrôles Frame simples qui spécifient \_ le contrôle CATID et \_ le CATID VBDatabound à l’interface utilisateur du contrôle Insert. La liste de contrôles affichée à l’utilisateur doit contenir le \_ bouton CLSID et le CLSID \_ MyDBControl. Le \_ GroupBox CLSID ne s’affiche pas.
+un conteneur qui prend en charge Visual Basic contrôles liés aux données mais ne prend pas en charge les contrôles frame simples qui spécifient \_ le contrôle catid et \_ le catid VBDatabound à l’interface utilisateur du contrôle insert. La liste de contrôles affichée à l’utilisateur doit contenir le \_ bouton CLSID et le CLSID \_ MyDBControl. Le \_ GroupBox CLSID ne s’affiche pas.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -75,9 +75,9 @@ Un conteneur qui prend en charge Visual Basic contrôles liés aux données mais
 [Gestionnaire de catégories de composants](the-component-categories-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

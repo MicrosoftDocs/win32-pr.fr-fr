@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 855aa8b5432fd06bb25571fcb48c091dcfe502f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93ae1c94a5e83d0029aba4403ad4ba23db0f4006bb5b9be68cc469939e63c734
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118366634"
 ---
 # <a name="getcapturetimestamp-function"></a>GetCaptureTimeStamp fonction)
 
@@ -52,7 +52,7 @@ Si la fonction réussit, la valeur de retour est un pointeur vers une structure 
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **GetCaptureTimeStamp** retourne l’heure à laquelle le fournisseur de paquets réseau (NPP) commence à collecter des données, et non lorsque l’expert charge la capture pour l’analyse.
 

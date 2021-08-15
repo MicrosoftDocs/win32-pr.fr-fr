@@ -1,17 +1,17 @@
 ---
 description: Cette rubrique décrit les types de classes de fenêtres, comment le système les localise et les éléments qui définissent le comportement par défaut des fenêtres qui leur appartiennent.
 ms.assetid: vs|winui|~\winui\windowsuserinterface\windowing\window_89windowclasse.htm
-title: Classes de fenêtre (fenêtres et messages)
+title: Classes de fenêtres (Windows et Messages)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22da95fc54a9527bade0d925c1f993cf853b0ccd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6b570309ce6613f3adfe256faff9c30b66f9dbd5062de5f342b434be32dce89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849504"
 ---
-# <a name="window-classes-windows-and-messages"></a>Classes de fenêtre (fenêtres et messages)
+# <a name="window-classes-windows-and-messages"></a>Classes de fenêtres (Windows et Messages)
 
 Cette rubrique décrit les types de classes de fenêtres, comment le système les localise et les éléments qui définissent le comportement par défaut des fenêtres qui leur appartiennent.
 
@@ -94,7 +94,7 @@ Cette fonction est déconseillée pour toute autre utilisation que <em>nIndex</e
 <td>Remplace la valeur 32 bits (<strong>longue</strong>) spécifiée à l’offset spécifié dans la mémoire de classe supplémentaire ou la structure <a href="/windows/win32/api/winuser/ns-winuser-wndclassexa"><strong>WNDCLASSEX</strong></a> pour la classe à laquelle appartient la fenêtre spécifiée.
 <blockquote>
 [!Note]<br />
-Cette fonction a été remplacée par la fonction <a href="/windows/desktop/api/winuser/nf-winuser-setclasslongptra"><strong>SetClassLongPtr</strong></a> . Pour écrire du code compatible avec les versions 32 bits et 64 bits de Windows, utilisez <strong>SetClassLongPtr</strong>.
+Cette fonction a été remplacée par la fonction <a href="/windows/desktop/api/winuser/nf-winuser-setclasslongptra"><strong>SetClassLongPtr</strong></a> . pour écrire du code compatible avec les versions 32 bits et 64 bits de Windows, utilisez <strong>SetClassLongPtr</strong>.
 </blockquote>
 <br/> <br/></td>
 </tr>

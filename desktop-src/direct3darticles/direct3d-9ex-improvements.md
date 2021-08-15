@@ -1,23 +1,23 @@
 ---
 title: Améliorations de Direct3D 9Ex
-description: Cette rubrique décrit la prise en charge intégrée de Windows 7 pour le mode de basculement présent et les statistiques actuelles associées dans Direct3D 9Ex et Gestionnaire de fenêtrage.
+description: cette rubrique décrit la prise en charge ajoutée de Windows 7 pour le Mode de basculement présent et les statistiques actuelles associées dans Direct3D 9ex et Gestionnaire de fenêtrage.
 ms.assetid: cb92a162-57eb-4aee-af7a-c8ece37075a7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42eef10b6caaa959cb750f073c97a0f665384463
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f3221b805f07408b27e19a00a42ca0c4733ea725bd32a51b5b3e340b48d2070f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118796991"
 ---
 # <a name="direct3d-9ex-improvements"></a>Améliorations de Direct3D 9Ex
 
-Cette rubrique décrit la prise en charge intégrée de Windows 7 pour le mode de basculement présent et les statistiques actuelles associées dans Direct3D 9Ex et Gestionnaire de fenêtrage. Les applications cibles incluent des vidéos ou des applications de présentation basées sur la fréquence des images. Les applications qui utilisent le mode de basculement Direct3D 9Ex présentent réduisent la charge des ressources système lorsque DWM est activé. La présentation des améliorations des statistiques associées au mode de basculement présente permet aux applications Direct3D 9Ex de mieux contrôler le taux de présentation en fournissant des mécanismes de commentaires et de correction en temps réel. Des explications détaillées et des pointeurs vers des exemples de ressources sont inclus.
+cette rubrique décrit la prise en charge ajoutée de Windows 7 pour le Mode de basculement présent et les statistiques actuelles associées dans Direct3D 9ex et Gestionnaire de fenêtrage. Les applications cibles incluent des vidéos ou des applications de présentation basées sur la fréquence des images. Les applications qui utilisent le mode de basculement Direct3D 9Ex présentent réduisent la charge des ressources système lorsque DWM est activé. La présentation des améliorations des statistiques associées au mode de basculement présente permet aux applications Direct3D 9Ex de mieux contrôler le taux de présentation en fournissant des mécanismes de commentaires et de correction en temps réel. Des explications détaillées et des pointeurs vers des exemples de ressources sont inclus.
 
 Cette rubrique contient les sections suivantes.
 
--   [Améliorations de Direct3D 9Ex pour Windows 7](#whats-improved-about-direct3d-9ex-for-windows-7)
+-   [améliorations de Direct3D 9ex pour Windows 7](#whats-improved-about-direct3d-9ex-for-windows-7)
 -   [Présentation du mode de basculement de Direct3D 9EX](#direct3d-9ex-flip-mode-presentation)
 -   [Modèle de programmation et API](#programming-model-and-apis)
     -   [Comment s’abonner au modèle de basculement Direct3D 9Ex](#how-to-opt-into-the-direct3d-9ex-flip-model)
@@ -25,22 +25,22 @@ Cette rubrique contient les sections suivantes.
     -   [Synchronisation des frames des applications Direct3D 9Ex Flip Model](#frame-synchronization-of-direct3d-9ex-flip-model-applications)
     -   [Synchronisation des frames pour les applications Windows lorsque DWM est désactivé](#frame-synchronization-for-windowed-applications-when-dwm-is-off)
 -   [Guide pas à pas d’un modèle de basculement Direct3D 9Ex et présentation de l’exemple de statistiques](#walk-through-of-a-direct3d-9ex-flip-model-and-present-statistics-sample)
-    -   [Résumé des recommandations de programmation pour la synchronisation de frames](#summary-of-programming-recommendations-for-frame-synchronization)
+    -   [résumé des Recommandations de programmation pour la synchronisation de frames](#summary-of-programming-recommendations-for-frame-synchronization)
 -   [Conclusion sur les améliorations Direct3D 9Ex](#conclusion-about-direct3d-9ex-improvements)
 -   [Appel à l’action](#call-to-action)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="whats-improved-about-direct3d-9ex-for-windows-7"></a>Améliorations de Direct3D 9Ex pour Windows 7
+## <a name="whats-improved-about-direct3d-9ex-for-windows-7"></a>améliorations de Direct3D 9ex pour Windows 7
 
-La présentation en mode Flip de Direct3D 9Ex est un mode amélioré de présentation d’images dans Direct3D 9Ex qui transmet efficacement les images rendues à Windows 7 Gestionnaire de fenêtrage (DWM) pour la composition. À compter de Windows Vista, DWM compose la totalité du bureau. Lorsque DWM est activé, les applications en mode fenêtre présentent leur contenu sur le Bureau à l’aide d’une méthode appelée mode BLT présente dans DWM (ou le modèle BLT). Avec le modèle BLT, DWM conserve une copie de la surface de rendu Direct3D 9Ex pour la composition du bureau. Lorsque l’application est mise à jour, le nouveau contenu est copié vers la surface DWM via un BLT. Pour les applications qui contiennent du contenu Direct3D et GDI, les données GDI sont également copiées sur la surface DWM.
+la présentation en mode Flip de direct3d 9ex est un mode amélioré de présentation d’images dans direct3d 9ex qui transmet efficacement les images rendues à Windows 7 Gestionnaire de fenêtrage (DWM) pour la composition. à compter de Windows Vista, DWM compose la totalité du bureau. Lorsque DWM est activé, les applications en mode fenêtre présentent leur contenu sur le Bureau à l’aide d’une méthode appelée mode BLT présente dans DWM (ou le modèle BLT). Avec le modèle BLT, DWM conserve une copie de la surface de rendu Direct3D 9Ex pour la composition du bureau. Lorsque l’application est mise à jour, le nouveau contenu est copié vers la surface DWM via un BLT. Pour les applications qui contiennent du contenu Direct3D et GDI, les données GDI sont également copiées sur la surface DWM.
 
-Disponible dans Windows 7, le mode Flip présent dans DWM (ou Flip Model) est une nouvelle méthode de présentation qui permet essentiellement de passer les descripteurs des surfaces d’application entre les applications en mode fenêtre et le DWM. Outre l’enregistrement des ressources, l’inversion du modèle prend en charge les statistiques actuelles améliorées.
+disponible dans Windows 7, le Mode Flip présent dans DWM (ou Flip Model) est une nouvelle méthode de présentation qui permet essentiellement de passer les descripteurs des surfaces d’application entre les applications en Mode fenêtre et le DWM. Outre l’enregistrement des ressources, l’inversion du modèle prend en charge les statistiques actuelles améliorées.
 
-Les statistiques présentent les informations de minutage des trames que les applications peuvent utiliser pour synchroniser les flux vidéo et audio et récupérer des problèmes de lecture vidéo. Les informations de minutage de trame dans les statistiques actuelles permettent aux applications d’ajuster la vitesse de présentation de leurs images vidéo pour une présentation plus lisse. Dans Windows Vista, où DWM conserve une copie correspondante de la surface de cadre pour la composition du bureau, les applications peuvent utiliser les statistiques fournies par DWM. Cette méthode d’obtention des statistiques actuelles sera toujours disponible dans Windows 7 pour les applications existantes.
+Les statistiques présentent les informations de minutage des trames que les applications peuvent utiliser pour synchroniser les flux vidéo et audio et récupérer des problèmes de lecture vidéo. Les informations de minutage de trame dans les statistiques actuelles permettent aux applications d’ajuster la vitesse de présentation de leurs images vidéo pour une présentation plus lisse. dans Windows Vista, où dwm gère une copie correspondante de la surface de frame pour la composition du bureau, les applications peuvent utiliser les statistiques fournies par DWM. cette méthode d’obtention des statistiques actuelles sera toujours disponible dans Windows 7 pour les applications existantes.
 
-Dans Windows 7, les applications Direct3D 9Ex qui adoptent le modèle de basculement doivent utiliser des API D3D9Ex pour obtenir les statistiques actuelles. Lorsque DWM est activé, les applications en mode fenêtre et en mode exclusif Direct3D 9Ex peuvent attendre les mêmes informations sur les statistiques lors de l’utilisation de Flip Model. Direct3D 9Ex Flip Model sent Statistics permet aux applications d’interroger les statistiques actuelles en temps réel, plutôt qu’une fois que le frame a été affiché à l’écran. les mêmes informations statistiques sont disponibles pour les applications en mode fenêtre Flip-Model activées en tant qu’applications plein écran. un indicateur ajouté dans les API D3D9Ex permet aux applications de retournement de supprimer efficacement les trames tardives au moment de la présentation.
+dans Windows 7, les applications Direct3D 9ex qui adoptent la fonction Flip Model doivent utiliser des api D3D9Ex pour obtenir les statistiques actuelles. Lorsque DWM est activé, les applications en mode fenêtre et en mode exclusif Direct3D 9Ex peuvent attendre les mêmes informations sur les statistiques lors de l’utilisation de Flip Model. Direct3D 9Ex Flip Model sent Statistics permet aux applications d’interroger les statistiques actuelles en temps réel, plutôt qu’une fois que le frame a été affiché à l’écran. les mêmes informations statistiques sont disponibles pour les applications en mode fenêtre Flip-Model activées en tant qu’applications plein écran. un indicateur ajouté dans les API D3D9Ex permet aux applications de retournement de supprimer efficacement les trames tardives au moment de la présentation.
 
-Le modèle de retournement de Direct3D 9Ex doit être utilisé par les nouvelles applications vidéo ou de présentation basées sur la fréquence des images qui ciblent Windows 7. En raison de la synchronisation entre le DWM et le runtime Direct3D 9Ex, les applications qui utilisent Flip Model doivent spécifier entre 2 et 4 mémoires tampons pour garantir une présentation fluide. Les applications qui utilisent les informations de statistiques actuelles tireront parti de l’amélioration des statistiques de retournement activé.
+le modèle de retournement de Direct3D 9ex doit être utilisé par les nouvelles applications vidéo ou de présentation basées sur la fréquence des images qui ciblent Windows 7. En raison de la synchronisation entre le DWM et le runtime Direct3D 9Ex, les applications qui utilisent Flip Model doivent spécifier entre 2 et 4 mémoires tampons pour garantir une présentation fluide. Les applications qui utilisent les informations de statistiques actuelles tireront parti de l’amélioration des statistiques de retournement activé.
 
 ## <a name="direct3d-9ex-flip-mode-presentation"></a>Présentation du mode de basculement de Direct3D 9EX
 
@@ -66,7 +66,7 @@ Les applications peuvent tirer parti du mode de basculement Direct3D 9Ex présen
 
 ## <a name="programming-model-and-apis"></a>Modèle de programmation et API
 
-Les nouvelles applications vidéo ou de fréquence d’images qui utilisent des API Direct3D 9Ex sur Windows 7 peuvent tirer parti de la mémoire et des économies d’énergie, ainsi que de la présentation améliorée proposée par le mode Flip sur Windows 7. (En cas d’exécution sur des versions précédentes de Windows, le runtime Direct3D utilise par défaut le mode BLT pour l’application.)
+les nouvelles applications vidéo ou de fréquence d’images qui utilisent des api Direct3D 9ex sur Windows 7 peuvent tirer parti de la mémoire et des économies d’énergie, ainsi que de la présentation améliorée proposée par le Mode Flip sur Windows 7. (en cas d’exécution sur les versions antérieures de Windows, le runtime Direct3D utilise le Mode Blt de l’application.)
 
 Le mode de basculement présente que l’application peut tirer parti des mécanismes de commentaires et de correction des statistiques en temps réel lorsque DWM est activé. Toutefois, les applications qui utilisent le mode Flip doivent être conscientes des limitations lorsqu’elles utilisent le rendu simultané de l’API GDI.
 
@@ -74,7 +74,7 @@ Vous pouvez modifier les applications existantes pour tirer parti du mode de bas
 
 ### <a name="how-to-opt-into-the-direct3d-9ex-flip-model"></a>Comment s’abonner au modèle de basculement Direct3D 9Ex
 
-Les applications Direct3D 9Ex qui ciblent Windows 7 peuvent s’abonner au modèle de basculement en créant la chaîne de permutation avec la valeur d’énumération [**D3DSWAPEFFECT \_ FLIPEX**](/windows/desktop/direct3d9/d3dswapeffect) . Pour s’abonner au modèle Flip, les applications spécifient la structure de [**\_ paramètres D3DPRESENT**](/windows/desktop/direct3d9/d3dpresent-parameters) , puis passent un pointeur vers cette structure lorsqu’ils appellent l’API [**IDirect3D9Ex :: CreateDeviceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex) . Cette section décrit comment les applications qui ciblent Windows 7 utilisent **IDirect3D9Ex :: CreateDeviceEx** pour s’abonner au modèle de retournement. Pour plus d’informations sur l’API **IDirect3D9Ex :: CreateDeviceEx** , consultez **IDirect3D9Ex :: CreateDeviceEx sur MSDN**.
+les applications Direct3D 9ex qui ciblent Windows 7 peuvent s’abonner au modèle de basculement en créant la chaîne de permutation avec la valeur d’énumération [**D3DSWAPEFFECT \_ FLIPEX**](/windows/desktop/direct3d9/d3dswapeffect) . Pour s’abonner au modèle Flip, les applications spécifient la structure de [**\_ paramètres D3DPRESENT**](/windows/desktop/direct3d9/d3dpresent-parameters) , puis passent un pointeur vers cette structure lorsqu’ils appellent l’API [**IDirect3D9Ex :: CreateDeviceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex) . cette section décrit comment les applications qui ciblent Windows 7 utilisent **IDirect3D9Ex :: CreateDeviceEx** pour s’abonner au modèle de retournement. Pour plus d’informations sur l’API **IDirect3D9Ex :: CreateDeviceEx** , consultez **IDirect3D9Ex :: CreateDeviceEx sur MSDN**.
 
 Pour plus de commodité, la syntaxe des [**\_ paramètres D3DPRESENT**](/windows/desktop/direct3d9/d3dpresent-parameters) et [**IDirect3D9Ex :: CreateDeviceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex) sont répétées ici.
 
@@ -108,7 +108,7 @@ typedef struct D3DPRESENT_PARAMETERS {
 } D3DPRESENT_PARAMETERS, *LPD3DPRESENT_PARAMETERS;
 ```
 
-Lorsque vous modifiez les applications Direct3D 9Ex pour Windows 7 afin d’accepter le modèle de basculement, vous devez prendre en compte les éléments suivants concernant les membres spécifiés des [**\_ paramètres D3DPRESENT**](/windows/desktop/direct3d9/d3dpresent-parameters):
+lorsque vous modifiez des applications Direct3D 9ex pour Windows 7 afin d’accepter le modèle de basculement, vous devez prendre en compte les éléments suivants concernant les membres spécifiés des [**\_ paramètres D3DPRESENT**](/windows/desktop/direct3d9/d3dpresent-parameters):
 
 <dl> <dt>
 
@@ -121,7 +121,7 @@ Quand **SwapEffect** est défini sur le nouveau \_ type d’effet de chaîne d�
 
 Lorsque l’application utilise également les statistiques actuelles associées à D3DSWAPEFFECT \_ FLIPEX, nous vous recommandons de définir le nombre de mémoires tampons d’arrière-plan sur une valeur comprise entre 2 et 4.
 
-L’utilisation de D3DSWAPEFFECT \_ FLIPEX sur Windows Vista ou des versions de système d’exploitation précédentes retourne Fail à partir de [**CreateDeviceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex).
+l’utilisation de D3DSWAPEFFECT \_ FLIPEX sur Windows Vista ou des versions antérieures du système d’exploitation échoue à partir de [**CreateDeviceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex).
 
 </dd> <dt>
 
@@ -201,7 +201,7 @@ HRESULT PresentEx(
 );
 ```
 
-Lorsque vous modifiez votre application Direct3D 9Ex pour Windows 7, vous devez tenir compte des informations suivantes sur les indicateurs de présentation [D3DPRESENT](/windows/desktop/direct3d9/d3dpresent) spécifiés :
+lorsque vous modifiez votre application Direct3D 9ex pour Windows 7, vous devez tenir compte des informations suivantes sur les indicateurs de présentation [D3DPRESENT](/windows/desktop/direct3d9/d3dpresent) spécifiés :
 
 <dl> <dt>
 
@@ -257,7 +257,7 @@ HRESULT GetLastPresentCount(
 );
 ```
 
-Lorsque vous modifiez votre application Direct3D 9Ex pour Windows 7, vous devez prendre en compte les informations suivantes sur la structure [**D3DPRESENTSTATS**](/windows/desktop/direct3d9/d3dpresentstats) :
+lorsque vous modifiez votre application Direct3D 9ex pour Windows 7, vous devez prendre en compte les informations suivantes sur la structure [**D3DPRESENTSTATS**](/windows/desktop/direct3d9/d3dpresentstats) :
 
 -   La valeur PresentCount renvoyée par [**GetLastPresentCount**](/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getlastpresentcount) n’est pas mise à jour lorsqu’un appel [**PresentEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) avec D3DPRESENT \_ DONOTWAIT spécifié dans le paramètre *dwFlags* retourne un échec.
 -   Quand [**PresentEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) est appelé avec D3DPRESENT \_ DONOTFLIP, un appel [**GetPresentStatistics**](/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)) se déroule correctement, mais ne retourne pas de structure [**D3DPRESENTSTATS**](/windows/desktop/direct3d9/d3dpresentstats) mise à jour lorsque l’application est en mode fenêtre.
@@ -277,13 +277,13 @@ typedef struct _D3DPRESENTSTATS {
 
 ### <a name="frame-synchronization-for-windowed-applications-when-dwm-is-off"></a>Synchronisation des frames pour les applications Windows lorsque DWM est désactivé
 
-Lorsque DWM est désactivé, les applications en fenêtre s’affichent directement sur l’écran du moniteur sans passer par une chaîne de basculement. Dans Windows Vista, il n’existe pas de prise en charge pour l’obtention d’informations de statistiques de frame pour les applications avec fenêtres lorsque DWM est désactivé. Pour gérer une API dans laquelle les applications n’ont pas besoin de prendre en charge le DWM, Windows 7 retourne des statistiques de frames pour les applications avec fenêtres lorsque DWM est désactivé. Les statistiques de frame retournées lorsque DWM est désactivé sont des estimations uniquement.
+Lorsque DWM est désactivé, les applications en fenêtre s’affichent directement sur l’écran du moniteur sans passer par une chaîne de basculement. dans Windows Vista, il n’existe pas de prise en charge pour l’obtention d’informations de statistiques de frame pour les applications windows lorsque DWM est désactivé. pour gérer une API dans laquelle les applications n’ont pas besoin de prendre en charge le dwm, Windows 7 retourne les informations de statistiques de frame pour les applications windows lorsque DWM est désactivé. Les statistiques de frame retournées lorsque DWM est désactivé sont des estimations uniquement.
 
 ## <a name="walk-through-of-a-direct3d-9ex-flip-model-and-present-statistics-sample"></a>Walk-Through d’un modèle de basculement et de présentation des statistiques Direct3D 9Ex
 
 **Pour choisir FlipEx Presentation pour Direct3D 9Ex, exemple**
 
-1.  Vérifiez que l’exemple d’application s’exécute sur la version du système d’exploitation Windows 7 ou version ultérieure.
+1.  vérifiez que l’exemple d’application s’exécute sur la version du système d’exploitation Windows 7 ou version ultérieure.
 2.  Définissez le membre **SwapEffect** des [**\_ paramètres D3DPRESENT**](/windows/desktop/direct3d9/d3dpresent-parameters) sur [**D3DSWAPEFFECT \_ FLIPEX**](/windows/desktop/direct3d9/d3dswapeffect) dans un appel à [**CreateDeviceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex).
 
 
@@ -542,7 +542,7 @@ VOID Render()
 
     Le frame A est destiné à être affiché à l’écran sur le nombre d’intervalles de synchronisation de 1, mais a détecté qu’il a été affiché sur le nombre d’intervalles de synchronisation de 4. Par conséquent, un problème s’est produit. Les 3 images suivantes sont présentées avec D3DPRESENT \_ Interval \_ FORCEIMMEDIATE. Le problème doit prendre un total de 8 appels présents avant de pouvoir être récupéré : le frame suivant sera affiché en fonction du nombre d’intervalles de synchronisation ciblés.
 
-### <a name="summary-of-programming-recommendations-for-frame-synchronization"></a>Résumé des recommandations de programmation pour la synchronisation de frames
+### <a name="summary-of-programming-recommendations-for-frame-synchronization"></a>résumé des Recommandations de programmation pour la synchronisation de frames
 
 -   Créez une liste de sauvegarde de tous les ID LastPresentCount (obtenus via [**GetLastPresentCount**](/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getlastpresentcount)) et des PresentRefreshCount estimés associés de tous les cadeaux soumis.
     > [!Note]  
@@ -572,11 +572,11 @@ VOID Render()
 
 ## <a name="conclusion-about-direct3d-9ex-improvements"></a>Conclusion sur les améliorations Direct3D 9Ex
 
-Sur Windows 7, les applications qui affichent la fréquence d’images vidéo ou de jauge pendant la présentation peuvent choisir de retourner le modèle. Les améliorations actuelles des statistiques associées à la fonction Flip Model Direct3D 9Ex peuvent tirer parti des applications qui synchronisent la présentation par fréquence d’images, avec des commentaires en temps réel sur la détection et la récupération des problèmes. Les développeurs qui adoptent le modèle de basculement Direct3D 9Ex doivent prendre en compte un HWND distinct du contenu GDI et de la synchronisation de la fréquence d’images. Reportez-vous aux détails de cette rubrique et à la documentation MSDN. Pour obtenir une documentation supplémentaire, consultez [le centre de développement DirectX sur MSDN](/previous-versions/windows/apps/hh452744(v=win.10)).
+sur Windows 7, les applications qui affichent la fréquence d’images vidéo ou de jauge pendant la présentation peuvent choisir de retourner le modèle. Les améliorations actuelles des statistiques associées à la fonction Flip Model Direct3D 9Ex peuvent tirer parti des applications qui synchronisent la présentation par fréquence d’images, avec des commentaires en temps réel sur la détection et la récupération des problèmes. Les développeurs qui adoptent le modèle de basculement Direct3D 9Ex doivent prendre en compte un HWND distinct du contenu GDI et de la synchronisation de la fréquence d’images. Reportez-vous aux détails de cette rubrique et à la documentation MSDN. Pour obtenir une documentation supplémentaire, consultez [le centre de développement DirectX sur MSDN](/previous-versions/windows/apps/hh452744(v=win.10)).
 
 ## <a name="call-to-action"></a>À vous d’agir !
 
-Nous vous encourageons à utiliser le modèle de basculement Direct3D 9Ex et ses statistiques sur Windows 7 lorsque vous créez des applications qui tentent de synchroniser la fréquence des images de présentation ou de récupérer à partir de défauts d’affichage.
+nous vous encourageons à utiliser le modèle de basculement Direct3D 9ex et ses statistiques sur Windows 7 lorsque vous créez des applications qui tentent de synchroniser la fréquence des images de présentation ou de récupérer à partir de défauts d’affichage.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

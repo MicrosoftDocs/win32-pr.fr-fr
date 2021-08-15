@@ -4,12 +4,12 @@ ms.assetid: 4f46b8c3-1e12-447c-87f4-bbe2c305f77a
 title: Verbes et associations de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b398b168afe66c3ddd1abe4c78863fbf67ffcbd8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a144051b04ef2d9a2c9877b53e1680d4274afc92d3fc87fbcb531b02a0f94946
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104564907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860786"
 ---
 # <a name="verbs-and-file-associations"></a>Verbes et associations de fichiers
 
@@ -20,7 +20,7 @@ Cette rubrique est organisée comme suit :
 -   [Présentation des menus contextuels pour les objets de système de fichiers](#introduction-to-shortcut-menus-for-file-system-objects)
     -   [Ajouter des commandes à un menu contextuel](#add-commands-to-a-shortcut-menu)
 -   [Verbes de menu contextuel](#shortcut-menu-verbs)
--   [Diffusez en continu des éléments de système non-fichier et des résultats OpenSearch.](#stream-non-file-system-items-and-opensearch-results)
+-   [diffuser en continu des éléments de système Non-fichier et des résultats de OpenSearch.](#stream-non-file-system-items-and-opensearch-results)
 -   [Inscrire une application pour gérer des types de fichiers arbitraires](#register-an-application-to-handle-arbitrary-file-types)
 -   [Ressources supplémentaires](#additional-resources)
 -   [Rubriques connexes](#related-topics)
@@ -33,7 +33,7 @@ L’exemple suivant illustre un menu contextuel par défaut qui s’affiche en c
 
 ![capture d’écran du menu contextuel par défaut](images/context-menu/context-filesystemobjects.png)
 
-La raison pour laquelle un menu contextuel par défaut s’affiche pour **MyFile.xyz-MS** est due au fait que **. xyz-MS** n’est pas membre d’un type de fichier inscrit. À l’inverse, **. txt** est un type de fichier inscrit. Si vous cliquez avec le bouton droit sur un fichier **. txt** , un menu contextuel s’affiche avec trois commandes supplémentaires dans sa section supérieure : **Imprimer**, **modifier** et **Ouvrir avec**.
+La raison pour laquelle un menu contextuel par défaut s’affiche pour **MyFile.xyz-MS** est due au fait que **. xyz-MS** n’est pas membre d’un type de fichier inscrit. En revanche, **.txt** est un type de fichier inscrit. Si vous cliquez avec le bouton droit sur un fichier de **.txt** , un menu contextuel s’affiche avec trois commandes supplémentaires dans sa section supérieure : **Imprimer**, **modifier** et **Ouvrir avec**.
 
 ![capture d’écran du menu contextuel d’un fichier avec un type de fichier inscrit](images/context-menu/context-registeredfiletype.png)
 
@@ -47,7 +47,7 @@ Un gestionnaire de menu contextuel est un gestionnaire de type de fichier qui aj
 
 Chaque commande du menu contextuel est identifiée dans le registre par son verbe. Ces verbes sont les mêmes que ceux utilisés par [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) lors du lancement d’applications par programme.
 
-Un verbe est une chaîne de texte simple qui est utilisée par l’interpréteur de commandes pour identifier la commande associée. Chaque verbe correspond à la chaîne de commande utilisée pour lancer la commande dans une fenêtre de console ou un fichier de commandes (. bat).
+Un verbe est une chaîne de texte simple qui est utilisée par l’interpréteur de commandes pour identifier la commande associée. Chaque verbe correspond à la chaîne de commande utilisée pour lancer la commande dans une fenêtre de console ou un fichier de commandes (.bat).
 
 Par exemple, le verbe Open lance normalement un programme pour ouvrir un fichier. La chaîne de commande se présente généralement comme suit :
 
@@ -62,11 +62,11 @@ Si un élément de la chaîne de commande contient ou peut contenir des espaces,
 
 Les verbes peuvent également être associés à un nom d’affichage, qui est affiché dans le menu contextuel au lieu de la chaîne de verbe elle-même. Par exemple, la chaîne d’affichage pour openas est **ouverte avec**. Comme les chaînes de menu normales, y compris un caractère perluète dans la chaîne d’affichage, permet de sélectionner le clavier de la commande.
 
-## <a name="stream-non-file-system-items-and-opensearch-results"></a>Diffusez en continu des éléments de système non-fichier et des résultats OpenSearch.
+## <a name="stream-non-file-system-items-and-opensearch-results"></a>diffuser en continu des éléments de système Non-fichier et des résultats de OpenSearch.
 
-Dans Windows 7 et versions ultérieures, il existe une prise en charge de la connexion de sources externes au client Windows via le protocole [OpenSearch](http://www.opensearch.org/) . Cela permet aux utilisateurs de rechercher dans un magasin de données distant et d’afficher les résultats à partir de l’Explorateur Windows. Le standard OpenSearch v 1.1 définit des formats de fichiers simples qui peuvent être utilisés pour décrire comment un client doit interroger le service Web pour le magasin de données et comment le service doit retourner les résultats à afficher par le client.
+dans Windows 7 et versions ultérieures, il existe une prise en charge de la connexion de sources externes au Client Windows via le protocole [OpenSearch](http://www.opensearch.org/) . cela permet aux utilisateurs de rechercher dans un magasin de données distant et d’afficher les résultats à partir de Windows Explorer. la norme OpenSearch v 1.1 définit des formats de fichiers simples qui peuvent être utilisés pour décrire comment un client doit interroger le service web pour le magasin de données et comment le service doit retourner les résultats à afficher par le client.
 
-Vous devrez peut-être diffuser en continu des éléments de système non-fichier pour éviter d’avoir à télécharger des éléments dans le cas de résultats [OpenSearch](http://www.opensearch.org/) . La fonctionnalité de recherche fédérée permet de rechercher des éléments à partir d’emplacements autres que les systèmes de fichiers qui prennent en charge OpenSearch, tels que SharePoint et d’autres sites Web, par exemple. Lors de l’appel de verbes sur ces éléments, le système télécharge une version temporaire de l’élément et le passe à l’implémentation du verbe. Les implémenteurs de verbes sont encouragés pour éviter de devoir télécharger le fichier en inscrivant l’ensemble de schémas d’URL que le verbe prend en charge pour diffuser les éléments. Les verbes le font à l’aide de la clé de Registre **SupportedProtocols** .
+vous devrez peut-être diffuser en continu des éléments de système non-fichier pour éviter de devoir télécharger des éléments en cas de [OpenSearch](http://www.opensearch.org/) résultats. la fonctionnalité de recherche fédérée permet de rechercher des éléments à partir d’emplacements autres que les systèmes de fichiers qui prennent en charge OpenSearch, comme SharePoint et d’autres sites web, par exemple. Lors de l’appel de verbes sur ces éléments, le système télécharge une version temporaire de l’élément et le passe à l’implémentation du verbe. Les implémenteurs de verbes sont encouragés pour éviter de devoir télécharger le fichier en inscrivant l’ensemble de schémas d’URL que le verbe prend en charge pour diffuser les éléments. Les verbes le font à l’aide de la clé de Registre **SupportedProtocols** .
 
 ## <a name="register-an-application-to-handle-arbitrary-file-types"></a>Inscrire une application pour gérer des types de fichiers arbitraires
 

@@ -1,15 +1,15 @@
 ---
-description: En savoir plus sur les concepts de Windows Installer qui commencent par la lettre R, par exemple réduction de l’interface utilisateur et de la résilience.
+description: en savoir plus sur les concepts de Windows Installer qui commencent par la lettre R, par exemple réduction de l’interface utilisateur et de la résilience.
 ms.assetid: 868cb5b7-d5ab-41c7-a6d4-d7964a8ff6de
 title: R (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2622ddd13bcd0c6ed7969e88eb27d41e281bf2f4
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 2ad5e18472c1f5f579165f70cb411abf6ec2ffa937bd0d0804b4a303b19b7393
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118376101"
 ---
 # <a name="r-windows-installer"></a>R (Windows Installer)
 
@@ -41,7 +41,7 @@ Capacité d’application de la récupération normale d’une erreur sans gén�
 <span id="_msi_rollback_gly"></span><span id="_MSI_ROLLBACK_GLY"></span>**instruction**
 </dt> <dd>
 
-La restauration automatique de l’état d’origine de l’ordinateur en cas d’échec de l’installation. Pour plus d’informations, consultez [restauration de l’installation (Windows Installer)](rollback-installation.md).
+La restauration automatique de l’état d’origine de l’ordinateur en cas d’échec de l’installation. pour plus d’informations, consultez [restauration de l’Installation (Windows Installer)](rollback-installation.md).
 
 </dd> </dl>
 

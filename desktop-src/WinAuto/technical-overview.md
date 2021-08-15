@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility améliore la façon dont les aides �
 ms.assetid: d71ef40e-4c58-4ee6-8909-04ff4f8d20d3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69f3931c6a69e9b8caed849942424039178a7884
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f4e2bfd984dce863a2bdcdbd41d7b3d72b521861177bc4086a93eb578eb71c5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325149"
 ---
 # <a name="technical-overview"></a>Vue d'ensemble technique
 
@@ -37,9 +37,9 @@ La DLL Microsoft Active Accessibility, Oleacc.dll, est constituée des composant
 -   [Instructions du client](client-guidelines.md)
 -   [Directives COM et Unicode](com-and-unicode-guidelines.md)
 
- 
+ 
 
- 
+ 
 
 
 

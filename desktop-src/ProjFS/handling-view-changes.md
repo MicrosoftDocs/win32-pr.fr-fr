@@ -4,12 +4,12 @@ description: Décrit comment mettre à jour la vue client du magasin de stockage
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 10/09/2018
 ms.topic: article
-ms.openlocfilehash: 1d5a709752f92b7449d2ccc38f67c4417edf8d62
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 99ace7849b8967748f26210d9d6b770e424c349359aa39e828c8ad9af36a65af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792646"
 ---
 # <a name="handling-view-changes"></a>Gestion des modifications d’affichage
 

@@ -4,12 +4,12 @@ ms.assetid: 7515acb5-4526-40f7-abb7-822a073ac7dc
 title: Message WM_CANCELJOURNAL (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a5676472d12c8cef2a03e508eca6bb742596a36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8672f86393275c46383c6eb27c7eb1884178b86635ea93bf758de16521e6d2c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849335"
 ---
 # <a name="wm_canceljournal-message"></a>\_Message WM CANCELJOURNAL
 
@@ -46,7 +46,7 @@ Type : **void**
 
 Ce message ne retourne pas de valeur. Il est destiné à être traité à partir de la boucle principale d’une application ou d’une procédure de hook [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) , et non à partir d’une procédure de fenêtre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’enregistrement de journal et les modes de lecture sont des modes imposés sur le système qui permettent à une application d’enregistrer ou de lire des entrées d’utilisateur de manière séquentielle. Le système passe à ces modes lorsqu’une application installe une procédure de hook [*JournalRecordProc*](/previous-versions/windows/desktop/legacy/ms644983(v=vs.85)) ou [*JournalPlaybackProc*](/previous-versions/windows/desktop/legacy/ms644982(v=vs.85)) . Lorsque le système se trouve dans l’un de ces modes de journalisation, les applications doivent mettre en lecture les entrées de la file d’attente d’entrée. Si une application cesse de lire l’entrée alors que le système est en mode de journalisation, les autres applications sont forcées à attendre.
 

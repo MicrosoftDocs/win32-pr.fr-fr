@@ -8,12 +8,12 @@ keywords:
 - Scripts LDIF Active Directory, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e228e48770e1190065a16c95b4011f794127fbdd
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 8ad45c51fc16b3c19c3e59f4cfba2e006d4df900c20ce7ddc1b801478a22982c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103940707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187083"
 ---
 # <a name="ldif-scripts"></a>Scripts LDIF
 
@@ -55,7 +55,7 @@ Les ChangeTypes suivants sont conçus spécifiquement pour les opérations de mi
 
  
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 L’exemple de code suivant comprend :
 

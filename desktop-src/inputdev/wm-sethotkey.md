@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7ed27a91ddf9506cd12b988db4bd141a988c13e
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 4b6c9d4bdb4a59181fe3a413cca6861bc3663367cca9e7b34e0647de88978b0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "103761515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118482516"
 ---
 # <a name="wm_sethotkey-message"></a>\_Message WM SETHOTKEY
 
@@ -84,7 +84,7 @@ La valeur de retour est l’une des suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une touche d’accès rapide ne peut pas être associée à une fenêtre enfant.
 

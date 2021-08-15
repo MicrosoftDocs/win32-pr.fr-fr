@@ -1,21 +1,21 @@
 ---
-description: Dans Windows Vista, les compteurs de performances implémentaient une nouvelle architecture (version 2,0) pour fournir des données de compteur.
+description: dans Windows Vista, les compteurs de performances implémentaient une nouvelle architecture (version 2,0) pour fournir des données de compteur.
 ms.assetid: c17eda2f-3cf8-40d6-8be6-c1ce190d1a26
 title: Fourniture de données de compteur
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: ed5aa4cc505baab9e15d3f69c3fb466712eddbfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a17a6c75a86a7ee86f26350b9ea7680f0ba08338dbe7dc18cd56a8c425ba3ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793622"
 ---
 # <a name="providing-counter-data"></a>Fourniture de données de compteur
 
-Les composants logiciels qui publient des données par le biais des compteurs de performances Windows sont appelés fournisseurs de données de performances.
+les composants logiciels qui publient des données via Windows compteurs de performance sont appelés fournisseurs de données de performances.
 
-Windows prend en charge deux types de fournisseurs de données de performances. Les fournisseurs de données de performance hérités (**fournisseurs v1**) sont implémentés à l’aide d’un. Fichier INI et une DLL de performance. Les fournisseurs de données de performances modernes (**fournisseurs v2**) utilisent un. MAN (manifeste XML) et les API du fournisseur de compteurs de performances.
+Windows prend en charge deux types de fournisseurs de données de performances. Les fournisseurs de données de performance hérités (**fournisseurs v1**) sont implémentés à l’aide d’un fichier .INI et d’une dll de performance. Les fournisseurs de données de performances modernes (**fournisseurs v2**) utilisent un. MAN (manifeste XML) et les API du fournisseur de compteurs de performances.
 
 ## <a name="manifests"></a>Manifestes
 
@@ -29,9 +29,9 @@ Windows prend en charge les fournisseurs V2 en mode noyau sur Windows 7 ou versi
 
 ## <a name="performance-dll-deprecated"></a>DLL de performance (déconseillée)
 
-Dans l’architecture du compteur de performances hérité, les fournisseurs ont implémenté une DLL de performance dans qui s’exécutait dans le processus du consommateur pour collecter et fournir les données de compteur lorsqu’un consommateur l’a demandé. Le fournisseur a utilisé une initialisation (. INI) et les entrées de Registre pour définir les compteurs et configurer la DLL de performance.
+Dans l’architecture du compteur de performances hérité, les fournisseurs ont implémenté une DLL de performance dans qui s’exécutait dans le processus du consommateur pour collecter et fournir les données de compteur lorsqu’un consommateur l’a demandé. Le fournisseur a utilisé un fichier d’initialisation (.INI) et des entrées de Registre pour définir les compteurs et configurer la DLL de performance.
 
-Fournisseurs implémentés à l’aide d’un. Les fichiers INI et les DLL de performance sont souvent appelés **fournisseurs v1**.
+Les fournisseurs implémentés à l’aide d’un fichier .INI et d’une DLL de performance sont souvent appelés **fournisseurs v1**.
 
 > [!CAUTION]
 > Bien que vous puissiez toujours utiliser une DLL de performance pour fournir des données de compteur, cette architecture est dépréciée en raison de limitations de performances et de fiabilité significatives. En outre, les fournisseurs v1 sont souvent plus difficiles à implémenter, car ils requièrent l’expédition d’une DLL distincte qui doit s’exécuter dans le processus du consommateur.

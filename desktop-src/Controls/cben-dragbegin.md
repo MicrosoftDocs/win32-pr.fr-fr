@@ -3,7 +3,7 @@ title: CBEN_DRAGBEGIN le code de notification (commctrl. h)
 description: Envoyé lorsque l’utilisateur commence à faire glisser l’image de l’élément affiché dans la partie modifiable du contrôle. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: bdab2700-a605-48af-aee3-bbf573408e3f
 keywords:
-- Contrôles Windows de code de notification CBEN_DRAGBEGIN
+- CBEN_DRAGBEGIN les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 910e6ac494b49f685a55e77b432e96b4fb22bd29
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 626ad4d6abbcaaeb6f647aa94657ee1a681801a3ce13a9b5539216b1b67565a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118414059"
 ---
 # <a name="cben_dragbegin-notification-code"></a>\_Code de notification CBEN DRAGBEGIN
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**NMCBEDRAGBEGIN**](/windows/desktop/api/Commctrl/n
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’application réceptrice implémente la fonctionnalité de glisser-déplacer à partir du contrôle, l’application commence l’opération de glisser-déplacer en réponse à ce code de notification.
 
@@ -61,8 +61,8 @@ Si l’application réceptrice implémente la fonctionnalité de glisser-déplac
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **CBEN \_ DRAGBEGINW** (Unicode) et **CBEN \_ DRAGBEGINA** (ANSI)<br/>             |
 

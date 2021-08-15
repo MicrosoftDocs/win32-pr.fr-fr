@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 4faa02a4a77409bb8b1813ee433c326d1c45d1bd
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b1ad11c4362276d5714e54ef3196b246a40de1e26bf8f311f41fb5b5834bab0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312811"
 ---
 # <a name="swbemrefresherautoreconnect-property"></a>SWbemRefresher. reconnexion automatique, propriété
 
@@ -42,7 +42,7 @@ SWbemRefresher.AutoReconnect As Boolean
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La modification de cette propriété affecte uniquement les objets de l’actualisateur qui sont sauvegardés par un fournisseur à hautes performances. Si le fournisseur n’est pas un fournisseur à hautes performances, l’affectation de la **valeur true** à la propriété **reconnexion automatique** n’a aucun effet, car l’objet [**SWbemRefresher**](swbemrefresher.md) ne se reconnecte jamais.
 

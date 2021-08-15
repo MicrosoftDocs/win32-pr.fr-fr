@@ -16,16 +16,16 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: f4d4b9aec7b6d800fa27609abd5d0cb1f3a435a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d83a155057e445848e727615978c3414e96f63334ffc70c78d5f055a396b53f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118313783"
 ---
 # <a name="swbemobjectsecurity_-property"></a>SWbemObject. Security, \_ propriété
 
-La **propriété \_ Security** de l’objet [**SWbemObject**](swbemobject.md) est utilisée pour lire ou définir les paramètres de sécurité d’un objet **SWbemObject** . Cette propriété est un objet [**SWbemSecurity**](swbemsecurity.md) . Les paramètres de sécurité de cet objet n’indiquent pas les paramètres d’authentification, d’emprunt d’identité ou de privilège effectués sur une connexion à Windows Management Instrumentation (WMI), ou la sécurité en vigueur pour le proxy lorsqu’un objet est remis à un récepteur dans un appel asynchrone. Pour plus d’informations, consultez [maintenance de la sécurité WMI](maintaining-wmi-security.md).
+La **propriété \_ Security** de l’objet [**SWbemObject**](swbemobject.md) est utilisée pour lire ou définir les paramètres de sécurité d’un objet **SWbemObject** . Cette propriété est un objet [**SWbemSecurity**](swbemsecurity.md) . les paramètres de sécurité de cet objet n’indiquent pas les paramètres d’authentification, d’emprunt d’identité ou de privilège effectués sur une connexion à Windows Management Instrumentation (WMI), ou la sécurité en vigueur pour le proxy lorsqu’un objet est remis à un récepteur dans un appel asynchrone. Pour plus d’informations, consultez [maintenance de la sécurité WMI](maintaining-wmi-security.md).
 
 > [!Note]  
 > Le paramétrage de la propriété de **\_ sécurité** d’un objet [**SWbemObject**](swbemobject.md) sur **null** accorde un accès illimité à tout le monde en permanence. Pour plus d’informations, consultez [**SWbemSecurity**](swbemsecurity.md).

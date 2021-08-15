@@ -3,9 +3,9 @@ title: Controls. Step, méthode
 description: La méthode STEP fait en sorte que l’élément multimédia vidéo actuel fige la lecture sur le frame suivant ou le frame précédent.
 ms.assetid: f717c583-4073-45a9-b05d-7134d02724a4
 keywords:
-- méthode STEP du lecteur Windows Media
-- Step, méthode lecteur Windows Media, classe Controls
-- Classe Controls lecteur Windows Media, méthode STEP
+- step, méthode Lecteur Windows Media
+- step, méthode Lecteur Windows Media, classe controls
+- controls, classe Lecteur Windows Media, méthode step
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43fc50ea28bde95efef6e6261788fdcc62df6089
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4626ff80aee55ad6c22be7580a07ef2319afb6792a8c11b815d72af23b5727fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118839824"
 ---
 # <a name="controlsstep-method"></a>Controls. Step, méthode
 
@@ -53,7 +53,7 @@ Controls.step(
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne prend actuellement en charge que les paramètres 1 ou-1. vous ne pouvez donc pas effectuer un pas à pas d’un seul Frame à la fois.
 

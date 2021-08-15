@@ -9,12 +9,12 @@ keywords:
 - interrogation d’appareils MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 066648d6e9ce89e03b26940cb27f3b62b6a03c07
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3546971a17a5a8002f0e6d4205ceee5ca796babeb2b27df911cfca5a5911371c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118372314"
 ---
 # <a name="querying-midi-devices"></a>Interrogation d’appareils MIDI
 
@@ -31,7 +31,7 @@ Windows fournit les fonctions suivantes pour déterminer le nombre de périphér
 
 
 
- 
+ 
 
 Comme les autres périphériques audio, les périphériques MIDI sont identifiés par un identificateur de périphérique, qui est déterminé implicitement à partir du nombre d’appareils présents dans un système donné. Les identificateurs d’appareil sont compris entre zéro et le nombre d’appareils présents, moins un. Par exemple, s’il existe deux périphériques de sortie MIDI dans un système, les identificateurs d’appareil valides sont 0 et 1.
 
@@ -46,7 +46,7 @@ Une fois que vous avez déterminé le nombre de périphériques d’entrée ou d
 
 
 
- 
+ 
 
 Chacune de ces fonctions a un paramètre qui spécifie l’adresse d’une structure que la fonction remplit à l’aide d’informations sur les fonctionnalités d’un appareil spécifié.
 
@@ -57,6 +57,6 @@ Chacune de ces fonctions a un paramètre qui spécifie l’adresse d’une struc
 [Services MIDI](midi-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: Un contrôle d’affichage de liste affiche une collection d’él�
 ms.assetid: 412a029f-fb64-4365-aa64-26cbdf3a50d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bc6ff108140408662cf36e46738cb79548ece9d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eceba4b5b85c170e72f7beea783e1f423bb060dec081d951500008cef8a6af07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325406"
 ---
 # <a name="list-view-control-msaa-ui-element-reference"></a>Contrôle List-View (référence des éléments d’interface utilisateur MSAA)
 
@@ -18,7 +18,7 @@ ms.locfileid: "104029172"
 
  
 
-Un contrôle d’affichage de liste affiche une collection d’éléments, chacun composé d’une icône et d’une étiquette, et permet d’afficher et de réorganiser les éléments de plusieurs façons. Par exemple, des informations supplémentaires sur chaque élément s’affichent dans les colonnes à droite de l’icône et de l’étiquette. L’Explorateur Windows utilise un contrôle de liste pour afficher les fichiers.
+Un contrôle d’affichage de liste affiche une collection d’éléments, chacun composé d’une icône et d’une étiquette, et permet d’afficher et de réorganiser les éléments de plusieurs façons. Par exemple, des informations supplémentaires sur chaque élément s’affichent dans les colonnes à droite de l’icône et de l’étiquette. Windows L’Explorateur utilise un contrôle de liste pour afficher les fichiers.
 
 Le nom de la classe de fenêtre d’un contrôle List-View est WC \_ ListView, qui est défini en tant que « SysListView » dans commctrl. h.
 
@@ -66,7 +66,7 @@ Un contrôle List-View prend en charge les propriétés [**IAccessible**](/windo
 
  
 
-## <a name="notes"></a>Notes
+## <a name="notes"></a>Remarques
 
 -   Microsoft Active Accessibility n’expose pas le texte de l’élément d’affichage de liste dans les applications qui utilisent une fonction de rappel pour ajouter le texte à l’élément.
 -   Les éléments de vue de liste découpés n’ont pas de [**système d’état défini \_ \_ invisible**](object-state-constants.md) . Pour déterminer si un élément de liste est tronqué, les clients peuvent comparer les coordonnées de l’élément retournées par [**accLocation**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acclocation) avec la zone de découpage de la fenêtre.

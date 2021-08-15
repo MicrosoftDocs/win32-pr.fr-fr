@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, volet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51b7f22e6fb302ebb160a174c27c61119b8f09fe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 15e4a7225869c0752e65aece7e4eca00a416614315c8d5af810bdeb57d29aae0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104559304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118825524"
 ---
 # <a name="pane-control-type"></a>Pane (type de contrôle)
 
@@ -76,7 +76,7 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 
 
- 
+ 
 
 Un contrôle de volet apparaît toujours dans les affichages de contrôle et de contenu. N’exposez pas un objet layout en tant que volet dans l’affichage de contrôle ou de contenu si l’objet est utilisé uniquement pour la présentation visuelle.
 
@@ -86,7 +86,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur      | Notes                                                                                                                                                                                                                                                                                                                 |
+| Propriété UI Automation                                                                                              | Valeur      | Remarques                                                                                                                                                                                                                                                                                                                 |
 |---------------------------------------------------------------------------------------------------------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AccessKeyPropertyId**](uiauto-automation-element-propids.md)                       | Consultez les remarques. | Si une combinaison de touches spécifique donne le focus au volet, ces informations doivent être exposées via cette propriété.                                                                                                                                                                                                      |
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques. | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                                                                                                                                                                                          |
@@ -103,7 +103,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -120,7 +120,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -128,7 +128,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
-| Événement UI Automation                                                                                                                                        | Notes                                                                                                                      |
+| Événement UI Automation                                                                                                                                        | Remarques                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AsyncContentLoadedEventId**](uiauto-event-ids.md)                                                                   |                                                                                                                            |
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                                           |                                                                                                                            |
@@ -144,7 +144,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="pane-control-type-example"></a>Exemple de type de contrôle Pane
 
@@ -201,7 +201,7 @@ L’image suivante illustre un contrôle qui implémente le type de contrôle **
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -216,9 +216,9 @@ L’image suivante illustre un contrôle qui implémente le type de contrôle **
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

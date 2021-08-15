@@ -1,17 +1,17 @@
 ---
 description: Une action personnalisée peut appeler une fonction définie dans une bibliothèque de liens dynamiques (DLL) écrite en C ou C++.
 ms.assetid: 605c7b97-70bd-467a-9438-47b05d8b6b5d
-title: Bibliothèques de Dynamic-Link (Windows Installer)
+title: bibliothèques de Dynamic-Link (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5f9ff0113d97d219220a4f42030c1563f16ce7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6bcd2548851dcef4dcf08c53f168ec0f6b43ee036a1c250f9f65f072427a19e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118378261"
 ---
-# <a name="dynamic-link-libraries-windows-installer"></a>Bibliothèques de Dynamic-Link (Windows Installer)
+# <a name="dynamic-link-libraries-windows-installer"></a>bibliothèques de Dynamic-Link (Windows Installer)
 
 Une action personnalisée peut appeler une fonction définie dans une bibliothèque de liens dynamiques (DLL) écrite en C ou C++. La DLL peut exister en tant que fichier installé pendant l’installation actuelle ou en tant que flux binaire temporaire provenant de la [table binaire](binary-table.md) de la base de données d’installation.
 

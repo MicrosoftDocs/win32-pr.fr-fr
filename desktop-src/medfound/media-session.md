@@ -4,12 +4,12 @@ ms.assetid: dac99908-be90-415d-8837-2f97d573feb5
 title: Session multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3df4597e5461788f990f620875bce946570ab97
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fd54b08b6fda774ac08db46122569c1559dc23eb04d766e6e082b7d010663713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106535745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117877904"
 ---
 # <a name="media-session"></a>Session multimédia
 
@@ -27,7 +27,7 @@ Cette section décrit la session multimédia du point de vue architectural. Il c
 | [Comment contrôler les États de présentation](how-to-control-presentation-states.md)                 | Décrit les contrôles de transport de session de média : lecture, pause et arrêt.                                                                           |
 | [Utilisation de sources multimédias avec la session multimédia](using-media-sources-with-the-media-session.md) | Comment utiliser des sources multimédias avec la session multimédia.                                                                                                 |
 | [Contrôle de la fréquence](rate-control.md)                                                             | Décrit comment contrôler la vitesse de lecture.                                                                                                          |
-| [Gestion de la qualité vidéo](video-quality-management.md)                                     | Décrit les améliorations apportées au pipeline vidéo dans Windows 7.                                                                                       |
+| [Gestion de la qualité vidéo](video-quality-management.md)                                     | décrit les améliorations apportées au pipeline vidéo dans Windows 7.                                                                                       |
 | [Session média PMP](pmp-media-session.md)                                                   | Décrit comment créer la session multimédia à l’intérieur d’un processus PMP (Protected Media Path).                                                           |
 
 

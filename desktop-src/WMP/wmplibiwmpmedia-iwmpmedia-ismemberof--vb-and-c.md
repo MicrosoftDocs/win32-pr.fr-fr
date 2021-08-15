@@ -3,9 +3,9 @@ title: Méthode IWMPMedia isMemberOf
 description: La méthode isMemberOf retourne une valeur indiquant si l’élément multimédia spécifié est membre de la sélection spécifiée.
 ms.assetid: 491e0dd5-38e5-47a5-9c94-f1d27d297f8d
 keywords:
-- méthode isMemberOf lecteur Windows Media
-- méthode isMemberOf lecteur Windows Media, interface IWMPMedia
-- Interface IWMPMedia lecteur Windows Media, méthode isMemberOf
+- Lecteur Windows Media de la méthode isMemberOf
+- méthode isMemberOf Lecteur Windows Media, interface IWMPMedia
+- Lecteur Windows Media de l’interface IWMPMedia, méthode isMemberOf
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f627e9b2f0e1c4b226dda13d280d521ad52df2ee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 485121f0ac9c4c441ff90e34b90ef5c9475c22995565b018d3f0e00dc5d94740
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746014"
 ---
 # <a name="iwmpmediaismemberof-method"></a>IWMPMedia :: isMemberOf, méthode
 
@@ -64,7 +64,7 @@ Interface **wmplib. IWMPPlaylist** .
 
 Valeur **System. Boolean** qui indique si l’élément multimédia est membre de la sélection.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne peut pas vérifier les sélections récupérées par le biais de l’interface **IWMPMediaCollection** . Pour déterminer si un élément multimédia est membre d’une sélection nommée particulière, récupérez la collection de sélections avec la propriété **AxWindowsMediaPlayer. playlistCollection** . Une fois que vous récupérez la collection, récupérez la playlist en appelant la méthode **IWMPPlaylistCollection. GetByName** .
 
@@ -72,7 +72,7 @@ Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture �
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **isMemberOf** pour déterminer si l’élément multimédia actuel est membre de la sélection nommée All Music. Si ce n’est pas le cas, l’élément multimédia actuel est ajouté à la sélection. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
+l’exemple suivant utilise **isMemberOf** pour déterminer si l’élément multimédia actuel est membre de la sélection nommée All Musique. Si ce n’est pas le cas, l’élément multimédia actuel est ajouté à la sélection. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
 
 
 ```CSharp

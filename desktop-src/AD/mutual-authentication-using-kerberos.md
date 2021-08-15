@@ -10,12 +10,12 @@ keywords:
 - sécurité AD, authentification mutuelle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27cf2e68c1983dde9221cc3fa89866b5358ee6eb
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 58e22a9f83712b15f22f9d9b05aee4219f3cbc892d88d0b44ba2d63fb9bbe2b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106518000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185949"
 ---
 # <a name="mutual-authentication-using-kerberos"></a>Authentification mutuelle à l'aide de Kerberos
 
@@ -30,19 +30,19 @@ Cette section comprend une vue d’ensemble des éléments suivants :
 -   Comment un programme d’installation de service inscrit des noms de principal du service sur l’objet de compte associé à une instance de service.
 -   Comment une application cliente utilise l’objet point de connexion de service (SCP) d’une instance de service dans Active Directory Domain Services pour récupérer des données à partir desquelles composer un SPN pour le service.
 -   Comment une application cliente utilise un SPN de service conjointement avec l’interface SSPI (Security Support Provider Interface) pour authentifier le service.
--   Exemple de code pour une application cliente/service Windows Sockets qui utilise un SCP et un SSPI pour effectuer une authentification mutuelle.
+-   exemple de code pour une application de service/client Windows sockets qui utilise un SCP et un SSPI pour effectuer une authentification mutuelle.
 -   Exemple de code pour un client/service RPC qui effectue une authentification mutuelle à l’aide du service de noms RPC et de l’authentification RPC.
--   Comment un service d’inscription et de résolution Windows Sockets (RnR) utilise des noms de principal du service (SPN) pour effectuer une authentification mutuelle.
+-   comment un service d’inscription et de résolution de Windows sockets (RnR) utilise des noms de principal du service pour effectuer une authentification mutuelle.
 
-Cette section décrit l’utilisation de domaine Active Directory Service pour l’authentification mutuelle, en particulier l’objectif des points de connexion de service et des noms de principal du service dans l’authentification mutuelle. Il ne s’agit pas d’une description complète de l’utilisation de SSPI pour l’authentification mutuelle ou du support d’authentification et de sécurité disponible pour les applications RPC et Windows Sockets.
+Cette section décrit l’utilisation de domaine Active Directory Service pour l’authentification mutuelle, en particulier l’objectif des points de connexion de service et des noms de principal du service dans l’authentification mutuelle. il ne s’agit pas d’une description complète de l’utilisation de SSPI pour l’authentification mutuelle ou de l’authentification et de la prise en charge de la sécurité disponibles pour les applications RPC et Windows sockets.
 
-Pour plus d’informations, consultez :
+Pour plus d'informations, consultez les pages suivantes :
 
 -   [Publication avec des points de connexion de service](publishing-with-service-connection-points.md)
 -   [SSPI](/windows/desktop/SecAuthN/sspi)
 -   [Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2)
 -   [RPC](/windows/desktop/Rpc/rpc-start-page)
 
- 
+ 
 
- 
+ 

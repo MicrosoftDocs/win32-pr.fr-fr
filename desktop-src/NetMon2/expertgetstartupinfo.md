@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: f34ecc3d0c3eeb085d2a7c0f8c4cb0426663093c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e4327965dce1c4bca07846a818609e555c16a3a27b0a19204a9971eaf9d642e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118366881"
 ---
 # <a name="expertgetstartupinfo-function"></a>ExpertGetStartupInfo fonction)
 
@@ -60,7 +60,7 @@ Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
 Si la fonction échoue, la valeur de retour est NMERR.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **ExpertGetStartupInfo** est utilisée si l’expert doit déterminer les informations de démarrage utilisées.
 

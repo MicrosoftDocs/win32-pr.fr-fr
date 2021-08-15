@@ -1,9 +1,9 @@
 ---
 title: Message WM_DDE_DATA (DDE. h)
-description: Une application serveur de échange dynamique de données (DDE) publie un \_ \_ message de données WM dans une application cliente DDE pour transmettre un élément de données au client ou pour informer le client de la disponibilité d’un élément de données.
+description: une application serveur de échange dynamique de données (dde) publie un \_ \_ message de données WM dans une application cliente dde pour transmettre un élément de données au client ou pour informer le client de la disponibilité d’un élément de données.
 ms.assetid: ed6a65d3-b2a3-45f2-9600-291ce2ec8c0a
 keywords:
-- WM_DDE_DATA l’échange de données de message
+- WM_DDE_DATA des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f045ff07e01023e6535eb00dcb78400e4c9519a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0200737a9b25a123954498941ad117e5465f58f5313daa8caf90674751355ed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736276"
 ---
 # <a name="wm_dde_data-message"></a>\_Message de \_ données DDE WM
 
-Une application serveur de échange dynamique de données (DDE) publie un message de **\_ \_ données WM** dans une application cliente DDE pour transmettre un élément de données au client ou pour informer le client de la disponibilité d’un élément de données.
+une application serveur de échange dynamique de données (dde) publie un message de **\_ \_ données WM** dans une application cliente dde pour transmettre un élément de données au client ou pour informer le client de la disponibilité d’un élément de données.
 
 Pour poster ce message, appelez la fonction [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) avec les paramètres suivants.
 
@@ -54,7 +54,7 @@ Le mot de poids fort contient un atome qui identifie l’élément de données p
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="posting"></a>Publication
 
@@ -91,7 +91,7 @@ Après le traitement d’un message de **\_ \_ données. WM DDE** dans lequel l�
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>DDE. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Dde. h (inclure Windows. h)</dt> </dl> |
 
 
 

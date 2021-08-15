@@ -1,5 +1,5 @@
 ---
-description: La \_ classe Win32 ServerFeature représente les fonctionnalités installées sur un ordinateur exécutant Windows Server.
+description: la \_ classe Win32 ServerFeature représente les fonctionnalités installées sur un ordinateur exécutant Windows Server.
 ms.assetid: fe3bb95c-7f69-47b5-9c3d-771cdc3ed9ca
 ms.tgt_platform: multiple
 title: Win32_ServerFeature, classe
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 api_location:
 - ServerCompProv.dll
-ms.openlocfilehash: 1be8a2ea1d646e9d882febc7c8eba08b69bb69f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eddbd71108a5b6b65de329e1c110c965f437e4c24f7ba0a681935ba5075351fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312136"
 ---
 # <a name="win32_serverfeature-class"></a>\_Classe ServerFeature Win32
 
 \[La classe **Win32 \_ ServerFeature** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section relative à la configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Au lieu de cela, utilisez les [classes du fournisseur ServerManager deploymentProvider](/previous-versions/windows/desktop/srvmgrdeployprov/server-manager-deployment).\]
 
-La classe **Win32 \_ ServerFeature** représente les fonctionnalités installées sur un ordinateur exécutant Windows Server.
+la classe **Win32 \_ ServerFeature** représente les fonctionnalités installées sur un ordinateur exécutant Windows Server.
 
 Cette classe peut être utilisée par les développeurs et les administrateurs qui doivent automatiser le processus de détermination des fonctionnalités installées sur un ensemble d’ordinateurs serveurs. Les instances de cette classe ne sont pas disponibles sur les ordinateurs clients.
 
@@ -118,7 +118,7 @@ Active Directory Domain Services
 
 12
 
-[Serveur DHCP](/windows)
+[Serveur DHCP](/windows)
 
 13
 
@@ -174,7 +174,7 @@ Service de réseau local sans fil
 
 39
 
-[Fonctionnalités de Sauvegarde Windows Server](/windows)
+[Windows Fonctionnalités de sauvegarde du serveur](/windows)
 
 40
 
@@ -222,7 +222,7 @@ Message Queuing
 
 52
 
-[Gestionnaire de stockage pour réseau San](/windows)
+[Stockage Gestionnaire pour réseau San](/windows)
 
 53
 
@@ -246,7 +246,7 @@ Client TFTP
 
 60
 
-[Gestionnaire de stockage amovible](/windows)
+[gestionnaire de Stockage amovible](/windows)
 
 61
 
@@ -334,7 +334,7 @@ Prise en charge WoW64<br/>
 
 351
 
-[Environnement d’écriture de scripts intégré de Windows PowerShell (ISE)](/windows)<br/>
+[Windows PowerShell Environnement d’écriture de scripts intégré (ISE)](/windows)<br/>
 
 352
 
@@ -472,7 +472,7 @@ BranchCache pour fichiers réseau
 
 437
 
-[Fournisseur de stockage cible iSCSI (fournisseurs de matériel VDS et VSS)](/windows)
+[fournisseur de Stockage de la cible iSCSI (fournisseurs de matériel VDS et VSS)](/windows)
 
 486
 
@@ -512,7 +512,7 @@ Nom
 
 120
 
-[Serveur Windows Media](/windows)
+[Windows Serveur multimédia](/windows)
 
 121
 
@@ -546,7 +546,7 @@ Nom
 
 129
 
-[Agent basé sur les jetons Windows](/windows)
+[Windows Agent basé sur les jetons](/windows)
 
 Services de rôle Services Bureau à distance (18)
 
@@ -872,7 +872,7 @@ Service de routage
 
 196
 
-[Prise en charge des clients Windows 2000](/windows)<br/>
+[prise en charge des clients Windows 2000](/windows)<br/>
 
 197
 
@@ -912,7 +912,7 @@ Service d’inscription de périphériques réseau
 
 [service Web Stratégie d'inscription de certificats](/windows)<br/>
 
-Services de stratégie et d’accès réseau-services de rôle (14)
+stratégie réseau et Services de rôle Access Services (14)
 
 Valeur
 
@@ -928,7 +928,7 @@ Nom
 
 207
 
-[Services d’accès à distance](/windows)
+[Access Services à distance](/windows)
 
 208
 
@@ -956,7 +956,7 @@ Nom
 
 [Base de données des services UDDI](/windows)<br/>
 
-Service d’activation des processus Windows-Services de rôle (41)
+Windows Service d’activation des processus-services de rôle (41)
 
 Valeur
 
@@ -1038,7 +1038,7 @@ Nom
 
 234
 
-[Prise en charge du service d’activation des processus Windows](/windows)
+[Windows Prise en charge du service d’activation des processus](/windows)
 
 235
 
@@ -1076,7 +1076,7 @@ Nom
 
 [Extensions du serveur d’applications pour .NET 4,0](/windows)<br/>
 
-Services de déploiement Windows-rôle (19)
+Windows Services de déploiement-rôle (19)
 
 Valeur
 
@@ -1090,7 +1090,7 @@ Serveur de déploiement
 
 Serveur de transport
 
-Services de rôle services AD RMS (Active Directory Rights Management Services) (17)
+services de rôle services AD RMS (Active Directory Rights Management Services) (17)
 
 Valeur
 
@@ -1144,7 +1144,7 @@ Outils de Services d’impression et de numérisation de document<br/> [changeme
 
 264
 
-Outils des services de déploiement Windows
+Windows Outils des services de déploiement
 
 265
 
@@ -1268,7 +1268,7 @@ Centre d'administration Active Directory<br/>
 
 410
 
-[Client gestion des adresses IP (IPAM)](/windows)
+[Client Gestion des adresses IP (IPAM)](/windows)
 
 450
 
@@ -1276,11 +1276,11 @@ Centre d'administration Active Directory<br/>
 
 462
 
-[Outils de services AD RMS (Active Directory Rights Management Services)](/windows)
+[services AD RMS (Active Directory Rights Management Services) Tools](/windows)
 
 465
 
-[Outil Gestion du partage et du stockage](/windows)
+[outil de gestion des partages et des Stockage](/windows)
 
 471
 
@@ -1310,7 +1310,7 @@ Centre d'administration Active Directory<br/>
 
 [Outils d’activation en volume](/windows)
 
-Sauvegarde Windows Server-fonctionnalités (39)
+Windows Sauvegarde du serveur-fonctionnalités (39)
 
 Valeur
 
@@ -1392,7 +1392,7 @@ Nom
 
 349
 
-[WoW64 pour le sous-système pour les applications UNIX](/windows)<br/>
+[WoW64 pour le sous-système pour les Applications basées sur UNIX](/windows)<br/>
 
 Interfaces utilisateur et services de rôle d’infrastructure (447)
 
@@ -1420,7 +1420,7 @@ Nom
 
 406
 
-[Connectivité SQL Server](/windows)
+[SQL Server Connectivité](/windows)
 
 407
 
@@ -1442,7 +1442,7 @@ Nom
 
 411
 
-[Moteur Windows PowerShell 2,0](/windows)
+[moteur Windows PowerShell 2,0](/windows)
 
 412
 
@@ -1454,7 +1454,7 @@ Nom
 
 1 000
 
-[Service de configuration d’état souhaité Windows PowerShell](/windows)
+[Service de Desired State Configuration Windows PowerShell](/windows)
 
 .NET Framework 4,5-fonctionnalités (418)
 
@@ -1508,7 +1508,7 @@ Nom
 
 [Routage](#routing)
 
-Services de fichiers et de stockage-rôle (481)
+Services de fichiers et de Stockage-rôle (481)
 
 Valeur
 
@@ -1554,15 +1554,15 @@ Numéro d’identification de la fonctionnalité de serveur parent. Cette propri
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Consultez la [Présentation technique de Windows Server 2008 gestionnaire de serveur](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753319(v=ws.10)) pour en savoir plus sur les fonctionnalités du serveur.
+lisez le [Windows server 2008 Gestionnaire de serveur Technical Overview](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753319(v=ws.10)) pour en savoir plus sur les fonctionnalités du serveur.
 
-Les entreprises qui n’utilisent pas de logiciel de gestion qui signale les fonctionnalités serveur, telles que System Center Operations Manager avec les packs d’administration installés, peuvent obtenir ces informations en interrogeant la classe **Win32 \_ ServerFeature** .
+les entreprises qui n’utilisent pas de logiciel de gestion qui signale des fonctionnalités serveur, telles que System Center Operations Manager avec les packs d’administration installés, peuvent obtenir ces informations en interrogeant la classe **Win32 \_ ServerFeature** .
 
 Vous pouvez utiliser les fonctionnalités de communication à distance de WMI ou WinRM pour récupérer les informations sur les fonctionnalités du serveur à partir des serveurs distants. Pour plus d’informations sur les connexions WMI DCOM à distance, consultez [connexion à WMI sur un ordinateur distant](connecting-to-wmi-on-a-remote-computer.md). Pour plus d’informations sur WinRM, consultez Gestion à distance de Windows.
 
-Windows Server 2012 : **Win32 \_ ServerFeature** est déconseillé. Pour accéder aux informations sur les fonctionnalités de Windows Server par programme, vous pouvez utiliser les [applets](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee662311(v=technet.10))de commande gestionnaire de serveur.
+Windows Server 2012 : **le \_ ServerFeature Win32** est déconseillé. Pour accéder aux informations sur les fonctionnalités de Windows Server par programme, vous pouvez utiliser les [applets](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee662311(v=technet.10))de commande gestionnaire de serveur.
 
 ### <a name="windows-server-2012-r2"></a>Windows Server 2012 R2
 
@@ -1631,21 +1631,21 @@ Plus pris en charge
 
 </dd> <dt>
 
-<span id=".NET_Framework_3.5.1_Features"></span><span id=".net_framework_3.5.1_features"></span><span id=".NET_FRAMEWORK_3.5.1_FEATURES"></span>Fonctionnalités de .NET Framework 3.5.1
+<span id=".NET_Framework_3.5.1_Features"></span><span id=".net_framework_3.5.1_features"></span><span id=".NET_FRAMEWORK_3.5.1_FEATURES"></span>fonctionnalités de .NET Framework 3.5.1
 </dt> <dd>
 
 Plus pris en charge
 
 </dd> <dt>
 
-<span id="Windows_System_Resource_Manager"></span><span id="windows_system_resource_manager"></span><span id="WINDOWS_SYSTEM_RESOURCE_MANAGER"></span>Gestionnaire des ressources système Windows
+<span id="Windows_System_Resource_Manager"></span><span id="windows_system_resource_manager"></span><span id="WINDOWS_SYSTEM_RESOURCE_MANAGER"></span>Windows Gestionnaire des ressources système
 </dt> <dd>
 
 Plus pris en charge
 
 </dd> <dt>
 
-<span id="Windows_Server_Backup_Features"></span><span id="windows_server_backup_features"></span><span id="WINDOWS_SERVER_BACKUP_FEATURES"></span>Fonctionnalités de Sauvegarde Windows Server
+<span id="Windows_Server_Backup_Features"></span><span id="windows_server_backup_features"></span><span id="WINDOWS_SERVER_BACKUP_FEATURES"></span>Windows Fonctionnalités de sauvegarde du serveur
 </dt> <dd>
 
 Plus pris en charge
@@ -1687,14 +1687,14 @@ Plus pris en charge
 
 </dd> <dt>
 
-<span id="Storage_Manager_For_SANs"></span><span id="storage_manager_for_sans"></span><span id="STORAGE_MANAGER_FOR_SANS"></span>Gestionnaire de stockage pour réseau San
+<span id="Storage_Manager_For_SANs"></span><span id="storage_manager_for_sans"></span><span id="STORAGE_MANAGER_FOR_SANS"></span>Stockage Gestionnaire pour réseau San
 </dt> <dd>
 
 Plus pris en charge
 
 </dd> <dt>
 
-<span id="Internet_Storage_Name_Server"></span><span id="internet_storage_name_server"></span><span id="INTERNET_STORAGE_NAME_SERVER"></span>Serveur de noms de stockage Internet
+<span id="Internet_Storage_Name_Server"></span><span id="internet_storage_name_server"></span><span id="INTERNET_STORAGE_NAME_SERVER"></span>serveur de noms Internet Stockage
 </dt> <dd>
 
 Plus pris en charge
@@ -1736,7 +1736,7 @@ Plus pris en charge
 
 </dd> <dt>
 
-<span id="Quality_Windows_Audio_Video_Experience"></span><span id="quality_windows_audio_video_experience"></span><span id="QUALITY_WINDOWS_AUDIO_VIDEO_EXPERIENCE"></span>Expérience audio-vidéo haute qualité Windows
+<span id="Quality_Windows_Audio_Video_Experience"></span><span id="quality_windows_audio_video_experience"></span><span id="QUALITY_WINDOWS_AUDIO_VIDEO_EXPERIENCE"></span>expérience vidéo Audio Windows qualité
 </dt> <dd>
 
 Plus pris en charge
@@ -1764,7 +1764,7 @@ Plus pris en charge
 
 </dd> <dt>
 
-<span id="Windows_Server_Migration_Tools"></span><span id="windows_server_migration_tools"></span><span id="WINDOWS_SERVER_MIGRATION_TOOLS"></span>Outils de migration de Windows Server
+<span id="Windows_Server_Migration_Tools"></span><span id="windows_server_migration_tools"></span><span id="WINDOWS_SERVER_MIGRATION_TOOLS"></span>Windows Outils de migration de serveur
 </dt> <dd>
 
 Plus pris en charge
@@ -1806,7 +1806,7 @@ Ajout
 
 </dd> <dt>
 
-<span id="IP_Address_Management__IPAM__Server"></span><span id="ip_address_management__ipam__server"></span><span id="IP_ADDRESS_MANAGEMENT__IPAM__SERVER"></span>Serveur de gestion des adresses IP (IPAM)
+<span id="IP_Address_Management__IPAM__Server"></span><span id="ip_address_management__ipam__server"></span><span id="IP_ADDRESS_MANAGEMENT__IPAM__SERVER"></span>serveur Gestion des adresses IP (IPAM)
 </dt> <dd>
 
 Ajout
@@ -1827,7 +1827,7 @@ Ajout
 
 </dd> <dt>
 
-<span id="Windows_Search_Service"></span><span id="windows_search_service"></span><span id="WINDOWS_SEARCH_SERVICE"></span>Search Service Windows
+<span id="Windows_Search_Service"></span><span id="windows_search_service"></span><span id="WINDOWS_SEARCH_SERVICE"></span>Windows Search Service
 </dt> <dd>
 
 Ajout
@@ -1862,7 +1862,7 @@ Ajout
 
 </dd> <dt>
 
-<span id=".NET_Framework_4.5_Features"></span><span id=".net_framework_4.5_features"></span><span id=".NET_FRAMEWORK_4.5_FEATURES"></span>Fonctionnalités de .NET Framework 4,5
+<span id=".NET_Framework_4.5_Features"></span><span id=".net_framework_4.5_features"></span><span id=".NET_FRAMEWORK_4.5_FEATURES"></span>fonctionnalités de .NET Framework 4,5
 </dt> <dd>
 
 Ajout
@@ -1883,14 +1883,14 @@ Ajout
 
 </dd> <dt>
 
-<span id="File_and_Storage_Services"></span><span id="file_and_storage_services"></span><span id="FILE_AND_STORAGE_SERVICES"></span>Services de fichiers et de stockage
+<span id="File_and_Storage_Services"></span><span id="file_and_storage_services"></span><span id="FILE_AND_STORAGE_SERVICES"></span>Services de fichiers et de Stockage
 </dt> <dd>
 
 Ajout
 
 </dd> <dt>
 
-<span id="Windows_Server_Essentials_Experience"></span><span id="windows_server_essentials_experience"></span><span id="WINDOWS_SERVER_ESSENTIALS_EXPERIENCE"></span>Expérience Windows Server Essentials
+<span id="Windows_Server_Essentials_Experience"></span><span id="windows_server_essentials_experience"></span><span id="WINDOWS_SERVER_ESSENTIALS_EXPERIENCE"></span>Windows Expérience de Server Essentials
 </dt> <dd>
 
 Ajout
@@ -1925,14 +1925,14 @@ Plus pris en charge
 
 </dd> <dt>
 
-<span id="Single_Instance_Storage"></span><span id="single_instance_storage"></span><span id="SINGLE_INSTANCE_STORAGE"></span>Stockage d’instance simple
+<span id="Single_Instance_Storage"></span><span id="single_instance_storage"></span><span id="SINGLE_INSTANCE_STORAGE"></span>Stockage d’Instance unique
 </dt> <dd>
 
 Plus pris en charge
 
 </dd> <dt>
 
-<span id="Windows_Search_Service"></span><span id="windows_search_service"></span><span id="WINDOWS_SEARCH_SERVICE"></span>Search Service Windows
+<span id="Windows_Search_Service"></span><span id="windows_search_service"></span><span id="WINDOWS_SEARCH_SERVICE"></span>Windows Search Service
 </dt> <dd>
 
 Plus pris en charge
@@ -1946,7 +1946,7 @@ Plus pris en charge
 
 </dd> <dt>
 
-<span id="iSCSI_Target_Storage_Provider__VDS_and_VSS_hardware_providers_"></span><span id="iscsi_target_storage_provider__vds_and_vss_hardware_providers_"></span><span id="ISCSI_TARGET_STORAGE_PROVIDER__VDS_AND_VSS_HARDWARE_PROVIDERS_"></span>Fournisseur de stockage cible iSCSI (fournisseurs de matériel VDS et VSS)
+<span id="iSCSI_Target_Storage_Provider__VDS_and_VSS_hardware_providers_"></span><span id="iscsi_target_storage_provider__vds_and_vss_hardware_providers_"></span><span id="ISCSI_TARGET_STORAGE_PROVIDER__VDS_AND_VSS_HARDWARE_PROVIDERS_"></span>fournisseur de Stockage de la cible iSCSI (fournisseurs de matériel VDS et VSS)
 </dt> <dd>
 
 Ajout
@@ -1995,7 +1995,7 @@ Plus pris en charge
 
 </dd> <dt>
 
-<span id="Windows_Media_Server"></span><span id="windows_media_server"></span><span id="WINDOWS_MEDIA_SERVER"></span>Serveur Windows Media
+<span id="Windows_Media_Server"></span><span id="windows_media_server"></span><span id="WINDOWS_MEDIA_SERVER"></span>Windows Serveur multimédia
 </dt> <dd>
 
 N'est plus pris en charge.
@@ -2037,7 +2037,7 @@ Plus pris en charge
 
 </dd> <dt>
 
-<span id="Windows_Token-based_Agent"></span><span id="windows_token-based_agent"></span><span id="WINDOWS_TOKEN-BASED_AGENT"></span>Agent basé sur les jetons Windows
+<span id="Windows_Token-based_Agent"></span><span id="windows_token-based_agent"></span><span id="WINDOWS_TOKEN-BASED_AGENT"></span>Windows Agent basé sur les jetons
 </dt> <dd>
 
 Plus pris en charge
@@ -2065,7 +2065,7 @@ Plus pris en charge
 
 </dd> <dt>
 
-<span id="Remote_Access_Services"></span><span id="remote_access_services"></span><span id="REMOTE_ACCESS_SERVICES"></span>Services d’accès à distance
+<span id="Remote_Access_Services"></span><span id="remote_access_services"></span><span id="REMOTE_ACCESS_SERVICES"></span>Access Services à distance
 </dt> <dd>
 
 Plus pris en charge
@@ -2149,7 +2149,7 @@ Plus pris en charge
 
 </dd> <dt>
 
-<span id="Windows_Process_Activation_Service_Support"></span><span id="windows_process_activation_service_support"></span><span id="WINDOWS_PROCESS_ACTIVATION_SERVICE_SUPPORT"></span>Prise en charge du service d’activation des processus Windows
+<span id="Windows_Process_Activation_Service_Support"></span><span id="windows_process_activation_service_support"></span><span id="WINDOWS_PROCESS_ACTIVATION_SERVICE_SUPPORT"></span>Windows Prise en charge du service d’activation des processus
 </dt> <dd>
 
 Plus pris en charge
@@ -2240,7 +2240,7 @@ Plus pris en charge
 
 </dd> <dt>
 
-<span id="Network_Policy_and_Access_Services"></span><span id="network_policy_and_access_services"></span><span id="NETWORK_POLICY_AND_ACCESS_SERVICES"></span>Services de stratégie et d’accès réseau
+<span id="Network_Policy_and_Access_Services"></span><span id="network_policy_and_access_services"></span><span id="NETWORK_POLICY_AND_ACCESS_SERVICES"></span>Stratégie réseau et Access Services
 </dt> <dd>
 
 Plus pris en charge
@@ -2324,7 +2324,7 @@ Plus pris en charge
 
 </dd> <dt>
 
-<span id="IP_Address_Management__IPAM__Client"></span><span id="ip_address_management__ipam__client"></span><span id="IP_ADDRESS_MANAGEMENT__IPAM__CLIENT"></span>Client gestion des adresses IP (IPAM)
+<span id="IP_Address_Management__IPAM__Client"></span><span id="ip_address_management__ipam__client"></span><span id="IP_ADDRESS_MANAGEMENT__IPAM__CLIENT"></span>Client Gestion des adresses IP (IPAM)
 </dt> <dd>
 
 Ajout
@@ -2334,14 +2334,14 @@ Ajout
 <span id="Hyper-V_Module_for_Windows_PowerShell"></span><span id="hyper-v_module_for_windows_powershell"></span><span id="HYPER-V_MODULE_FOR_WINDOWS_POWERSHELL"></span>Module Hyper-V pour Windows PowerShell
 </dt> <dd></dd> <dt>
 
-<span id="Active_Directory_Rights_Management_Services_Tool"></span><span id="active_directory_rights_management_services_tool"></span><span id="ACTIVE_DIRECTORY_RIGHTS_MANAGEMENT_SERVICES_TOOL"></span>Outil services AD RMS (Active Directory Rights Management Services)
+<span id="Active_Directory_Rights_Management_Services_Tool"></span><span id="active_directory_rights_management_services_tool"></span><span id="ACTIVE_DIRECTORY_RIGHTS_MANAGEMENT_SERVICES_TOOL"></span>services AD RMS (Active Directory Rights Management Services) Outil
 </dt> <dd>
 
 Ajout
 
 </dd> <dt>
 
-<span id="Share_and_Storage_Management_Tool"></span><span id="share_and_storage_management_tool"></span><span id="SHARE_AND_STORAGE_MANAGEMENT_TOOL"></span>Outil Gestion du partage et du stockage
+<span id="Share_and_Storage_Management_Tool"></span><span id="share_and_storage_management_tool"></span><span id="SHARE_AND_STORAGE_MANAGEMENT_TOOL"></span>outil de gestion des partages et des Stockage
 </dt> <dd>
 
 Ajout
@@ -2369,7 +2369,7 @@ Ajout
 
 </dd> <dt>
 
-<span id="Windows_Server_Update_Services_Tools"></span><span id="windows_server_update_services_tools"></span><span id="WINDOWS_SERVER_UPDATE_SERVICES_TOOLS"></span>Outils de Windows Server Update Services
+<span id="Windows_Server_Update_Services_Tools"></span><span id="windows_server_update_services_tools"></span><span id="WINDOWS_SERVER_UPDATE_SERVICES_TOOLS"></span>Windows Server Update Services Tools
 </dt> <dd>
 
 Ajout
@@ -2397,7 +2397,7 @@ Ajout
 
 </dd> <dt>
 
-<span id="Windows_Server_Backup"></span><span id="windows_server_backup"></span><span id="WINDOWS_SERVER_BACKUP"></span>Sauvegarde Windows Server
+<span id="Windows_Server_Backup"></span><span id="windows_server_backup"></span><span id="WINDOWS_SERVER_BACKUP"></span>Windows Sauvegarde du serveur
 </dt> <dd>
 
 Plus pris en charge
@@ -2488,7 +2488,7 @@ Plus pris en charge
 
 </dd> <dt>
 
-<span id="WoW64_for_Subsystem_for_UNIX-based_Applications"></span><span id="wow64_for_subsystem_for_unix-based_applications"></span><span id="WOW64_FOR_SUBSYSTEM_FOR_UNIX-BASED_APPLICATIONS"></span>WoW64 pour le sous-système pour les applications UNIX
+<span id="WoW64_for_Subsystem_for_UNIX-based_Applications"></span><span id="wow64_for_subsystem_for_unix-based_applications"></span><span id="WOW64_FOR_SUBSYSTEM_FOR_UNIX-BASED_APPLICATIONS"></span>WoW64 pour le sous-système pour les Applications basées sur UNIX
 </dt> <dd>
 
 Plus pris en charge
@@ -2516,7 +2516,7 @@ Ajout
 
 </dd> <dt>
 
-<span id="SQL_Server_Connectivity"></span><span id="sql_server_connectivity"></span><span id="SQL_SERVER_CONNECTIVITY"></span>Connectivité SQL Server
+<span id="SQL_Server_Connectivity"></span><span id="sql_server_connectivity"></span><span id="SQL_SERVER_CONNECTIVITY"></span>SQL Server Connectivité
 </dt> <dd>
 
 Ajout
@@ -2544,7 +2544,7 @@ Ajout
 
 </dd> <dt>
 
-<span id="Windows_PowerShell_2.0_Engine"></span><span id="windows_powershell_2.0_engine"></span><span id="WINDOWS_POWERSHELL_2.0_ENGINE"></span>Moteur Windows PowerShell 2,0
+<span id="Windows_PowerShell_2.0_Engine"></span><span id="windows_powershell_2.0_engine"></span><span id="WINDOWS_POWERSHELL_2.0_ENGINE"></span>moteur Windows PowerShell 2,0
 </dt> <dd>
 
 Ajout
@@ -2558,14 +2558,14 @@ Ajout
 
 </dd> <dt>
 
-<span id="Windows_PowerShell_Web_Access"></span><span id="windows_powershell_web_access"></span><span id="WINDOWS_POWERSHELL_WEB_ACCESS"></span>Accès web Windows PowerShell
+<span id="Windows_PowerShell_Web_Access"></span><span id="windows_powershell_web_access"></span><span id="WINDOWS_POWERSHELL_WEB_ACCESS"></span>Windows PowerShell Accès web
 </dt> <dd>
 
 Ajout
 
 </dd> <dt>
 
-<span id="Windows_PowerShell_Desired_State_Configuration_Service"></span><span id="windows_powershell_desired_state_configuration_service"></span><span id="WINDOWS_POWERSHELL_DESIRED_STATE_CONFIGURATION_SERVICE"></span>Service de configuration d’état souhaité Windows PowerShell
+<span id="Windows_PowerShell_Desired_State_Configuration_Service"></span><span id="windows_powershell_desired_state_configuration_service"></span><span id="WINDOWS_POWERSHELL_DESIRED_STATE_CONFIGURATION_SERVICE"></span>Service de Desired State Configuration Windows PowerShell
 </dt> <dd>
 
 Ajout
@@ -2645,7 +2645,7 @@ Ajout
 
 </dd> <dt>
 
-<span id="Storage_Services"></span><span id="storage_services"></span><span id="STORAGE_SERVICES"></span>Services de stockage
+<span id="Storage_Services"></span><span id="storage_services"></span><span id="STORAGE_SERVICES"></span>Stockage Services
 </dt> <dd>
 
 Ajout
@@ -2659,7 +2659,7 @@ Ajout
 
 </dd> <dt>
 
-<span id="Active_Directory_Rights_Management_Services_Tools"></span><span id="active_directory_rights_management_services_tools"></span><span id="ACTIVE_DIRECTORY_RIGHTS_MANAGEMENT_SERVICES_TOOLS"></span>Outils de services AD RMS (Active Directory Rights Management Services)
+<span id="Active_Directory_Rights_Management_Services_Tools"></span><span id="active_directory_rights_management_services_tools"></span><span id="ACTIVE_DIRECTORY_RIGHTS_MANAGEMENT_SERVICES_TOOLS"></span>services AD RMS (Active Directory Rights Management Services) Tools
 </dt> <dd>
 
 Ajout
@@ -2793,14 +2793,14 @@ Plus pris en charge
 
 </dd> <dt>
 
-<span id="Windows_System_Resource_Manager"></span><span id="windows_system_resource_manager"></span><span id="WINDOWS_SYSTEM_RESOURCE_MANAGER"></span>Gestionnaire des ressources système Windows
+<span id="Windows_System_Resource_Manager"></span><span id="windows_system_resource_manager"></span><span id="WINDOWS_SYSTEM_RESOURCE_MANAGER"></span>Windows Gestionnaire des ressources système
 </dt> <dd>
 
 Plus pris en charge
 
 </dd> <dt>
 
-<span id="Removable_Storage_Manager"></span><span id="removable_storage_manager"></span><span id="REMOVABLE_STORAGE_MANAGER"></span>Gestionnaire de stockage amovible
+<span id="Removable_Storage_Manager"></span><span id="removable_storage_manager"></span><span id="REMOVABLE_STORAGE_MANAGER"></span>gestionnaire de Stockage amovible
 </dt> <dd>
 
 Plus pris en charge
@@ -2849,7 +2849,7 @@ Ajout
 
 </dd> <dt>
 
-<span id="Windows_Biometric_Framework"></span><span id="windows_biometric_framework"></span><span id="WINDOWS_BIOMETRIC_FRAMEWORK"></span>Windows Biometric Framework
+<span id="Windows_Biometric_Framework"></span><span id="windows_biometric_framework"></span><span id="WINDOWS_BIOMETRIC_FRAMEWORK"></span>Windows Infrastructure biométrique
 </dt> <dd>
 
 Ajout
@@ -2863,7 +2863,7 @@ Ajout
 
 </dd> <dt>
 
-<span id="Windows_PowerShell_Integrated_Scripting_Environment__ISE_"></span><span id="windows_powershell_integrated_scripting_environment__ise_"></span><span id="WINDOWS_POWERSHELL_INTEGRATED_SCRIPTING_ENVIRONMENT__ISE_"></span>Environnement d’écriture de scripts intégré de Windows PowerShell (ISE)
+<span id="Windows_PowerShell_Integrated_Scripting_Environment__ISE_"></span><span id="windows_powershell_integrated_scripting_environment__ise_"></span><span id="WINDOWS_POWERSHELL_INTEGRATED_SCRIPTING_ENVIRONMENT__ISE_"></span>Windows PowerShell Environnement d’écriture de scripts intégré (ISE)
 </dt> <dd>
 
 Ajout
@@ -2929,7 +2929,7 @@ Ajout
 <span id="IIS_Hostable_Web_Core"></span><span id="iis_hostable_web_core"></span><span id="IIS_HOSTABLE_WEB_CORE"></span>Noyau Web hébergé par IIS
 </dt> <dd></dd> <dt>
 
-<span id="Windows_2000_Client_Support"></span><span id="windows_2000_client_support"></span><span id="WINDOWS_2000_CLIENT_SUPPORT"></span>Prise en charge des clients Windows 2000
+<span id="Windows_2000_Client_Support"></span><span id="windows_2000_client_support"></span><span id="WINDOWS_2000_CLIENT_SUPPORT"></span>prise en charge des clients Windows 2000
 </dt> <dd>
 
 Plus pris en charge
@@ -3076,7 +3076,7 @@ Ajout
 
 </dd> <dt>
 
-<span id="WoW64_for_Subsystem_for_UNIX-based_Applications"></span><span id="wow64_for_subsystem_for_unix-based_applications"></span><span id="WOW64_FOR_SUBSYSTEM_FOR_UNIX-BASED_APPLICATIONS"></span>WoW64 pour le sous-système pour les applications UNIX
+<span id="WoW64_for_Subsystem_for_UNIX-based_Applications"></span><span id="wow64_for_subsystem_for_unix-based_applications"></span><span id="WOW64_FOR_SUBSYSTEM_FOR_UNIX-BASED_APPLICATIONS"></span>WoW64 pour le sous-système pour les Applications basées sur UNIX
 </dt> <dd>
 
 Ajout
@@ -3104,10 +3104,10 @@ Services Terminal Server nommés dans cette version
 
 </dd> <dt>
 
-<span id=".NET_Framework_3.5.1_Features_name_change"></span><span id=".net_framework_3.5.1_features_name_change"></span><span id=".NET_FRAMEWORK_3.5.1_FEATURES_NAME_CHANGE"></span>Modification du nom des fonctionnalités .NET Framework 3.5.1
+<span id=".NET_Framework_3.5.1_Features_name_change"></span><span id=".net_framework_3.5.1_features_name_change"></span><span id=".NET_FRAMEWORK_3.5.1_FEATURES_NAME_CHANGE"></span>modification du nom des fonctionnalités .NET Framework 3.5.1
 </dt> <dd>
 
-Fonctionnalités nommées .NET Framework 3,0 dans cette version
+fonctionnalités nommées .NET Framework 3,0 dans cette version
 
 </dd> <dt>
 
@@ -3146,7 +3146,7 @@ Accès web TS nommé dans cette version
 
 </dd> <dt>
 
-<span id=".NET_Framework_3.5.1_name_change"></span><span id=".net_framework_3.5.1_name_change"></span><span id=".NET_FRAMEWORK_3.5.1_NAME_CHANGE"></span>Modification du nom de .NET Framework 3.5.1
+<span id=".NET_Framework_3.5.1_name_change"></span><span id=".net_framework_3.5.1_name_change"></span><span id=".NET_FRAMEWORK_3.5.1_NAME_CHANGE"></span>modification du nom de .NET Framework 3.5.1
 </dt> <dd>
 
 (220) fonctionnalités .net FX 3,0 nommées dans cette version
@@ -3213,7 +3213,7 @@ Outils du contrôleur de domaine Active Directory
 
 ## <a name="examples"></a>Exemples
 
-Le script suivant affiche les noms de toutes les fonctionnalités du serveur sur l’ordinateur nommé « FABRIKAM ». Notez que l’ordinateur cible doit exécuter Windows Server 2008 ou un système d’exploitation serveur ultérieur.
+Le script suivant affiche les noms de toutes les fonctionnalités du serveur sur l’ordinateur nommé « FABRIKAM ». notez que l’ordinateur cible doit exécuter Windows server 2008 ou un système d’exploitation serveur ultérieur.
 
 
 ```VB

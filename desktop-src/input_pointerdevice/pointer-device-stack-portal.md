@@ -1,21 +1,21 @@
 ---
-description: Les rubriques de cette section fournissent une vue d’ensemble de la pile d’entrée d’appareil du pointeur dans Windows 8. La pile d’entrée du périphérique pointeur fournit des informations sur les périphériques d’entrée connectés au système.
+description: Les rubriques de cette section fournissent une vue d’ensemble de la pile d’entrée des périphériques de pointeurs dans Windows 8. La pile d’entrée du périphérique pointeur fournit des informations sur les périphériques d’entrée connectés au système.
 ms.assetid: A2CBA73A-A647-4CF6-9886-06AD0AC6394B
 title: Pile d’entrée du périphérique pointeur
 ms.topic: article
 ms.date: 02/05/2020
-ms.openlocfilehash: 7e6c4b19cfc75cbac72151ec26a4da276c2a0565
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e9745cd4277bc7bc357e567bd92575581ed7b50738aa09f09c1fd1054555925
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117884478"
 ---
 # <a name="pointer-device-input-stack"></a>Pile d’entrée du périphérique pointeur
 
 ## <a name="purpose"></a>Objectif
 
-Les rubriques de cette section fournissent une vue d’ensemble de la pile d’entrée des appareils du pointeur Windows. Les API de [pile d’entrée de périphérique du pointeur](/windows/win32/api/_input_pointerdevice/) fournissent des informations sur les périphériques d’entrée connectés au système.
+les rubriques de cette section fournissent une vue d’ensemble de la pile d’entrée d’appareil du pointeur Windows. Les API de [pile d’entrée de périphérique du pointeur](/windows/win32/api/_input_pointerdevice/) fournissent des informations sur les périphériques d’entrée connectés au système.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

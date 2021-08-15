@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 897a544cc9974b8ffa727f2d39219cfeab82d52a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5568a9d1db49dadb9e0e6497cfd4e5af357054f930c35ec6a7e05d59d5f60965
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726679"
 ---
 # <a name="defi---vs"></a>signatures-vs
 
@@ -29,12 +29,12 @@ Définit une valeur de constante entière, qui doit être chargée chaque fois q
 
 
 
- 
+ 
 
 -   l’heure d’été est le registre de destination.
 -   integerValue \# est une valeur entière constante.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -44,7 +44,7 @@ Définit une valeur de constante entière, qui doit être chargée chaque fois q
 
 
 
- 
+ 
 
 L’instruction de définition définit une constante de nuanceur entière dont la valeur est chargée chaque fois qu’un nuanceur est défini sur un appareil. Celles-ci sont appelées constantes immédiates. Les constantes immédiates sont prioritaires sur les constantes définies par la méthode d’API SetVertexShaderConstantI.
 
@@ -67,6 +67,6 @@ Il existe deux façons de définir une constante entière dans un nuanceur.
 [defb-vs](defb---vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

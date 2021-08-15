@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 73addea189815d1594d0963fbdd6e20c562b3be3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b703ab1384286ecfc3a797f88ec18cafe8b6142acf586c7f96e4ae9b4085f7cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312498"
 ---
 # <a name="swbemservicesreferencesto-method"></a>SWbemServices. ReferencesTo, méthode
 
@@ -120,7 +120,7 @@ Entraîne le retour d’un énumérateur avant uniquement. Les énumérateurs av
 
 </dt> <dd>
 
-Fait en sorte que Windows Management Instrumentation (WMI) conserve des pointeurs vers les objets de l’énumération jusqu’à ce que le client libère l’énumérateur.
+fait en sorte que Windows Management Instrumentation (WMI) conserve des pointeurs vers les objets de l’énumération jusqu’à ce que le client libère l’énumérateur.
 
 </dd> <dt>
 
@@ -214,7 +214,7 @@ Fait en sorte que WMI retourne des données de modification de classe avec la d�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur les références des objets de requête WQL, d’instances source et d’association associés, consultez [ASSOCIATORS OF Statement](associators-of-statement.md).
 

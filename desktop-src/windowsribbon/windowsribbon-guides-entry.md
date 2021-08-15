@@ -1,33 +1,33 @@
 ---
-title: Guides du développeur de l’infrastructure de ruban Windows
-description: Les rubriques contenues dans cette section décrivent des aspects spécifiques de l’infrastructure du ruban Windows.
+title: Windows Guides du développeur de Framework de ruban
+description: les rubriques contenues dans cette section décrivent des aspects spécifiques de l’infrastructure du ruban Windows.
 ms.assetid: 87434a15-ba13-4c6f-a814-49ae2349bfa2
 keywords:
-- Ruban Windows, infrastructure
+- Windows Ruban, infrastructure
 - Ruban, infrastructure
-- Ruban Windows, guides pour les développeurs
+- Windows Ruban, guides pour les développeurs
 - Ruban, guides pour les développeurs
-- Guide du développeur pour le ruban Windows
+- guides du développeur pour Windows ruban
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43b6e88045efdd31384d99370fdd9bb9cb264598
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 81b30c5b2564dc918c6f9accfe5a5cb36a2d77222e3822a75a76332b1d3234cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850627"
 ---
-# <a name="windows-ribbon-framework-developer-guides"></a>Guides du développeur de l’infrastructure de ruban Windows
+# <a name="windows-ribbon-framework-developer-guides"></a>Windows Guides du développeur de Framework de ruban
 
-Les rubriques contenues dans cette section décrivent des aspects spécifiques de l’infrastructure du ruban Windows.
+les rubriques contenues dans cette section décrivent des aspects spécifiques de l’infrastructure du ruban Windows.
 
 ## <a name="basics"></a>Concepts de base
 
 [Création d’une application de ruban](windowsribbon-stepbystep.md)
 
-Pour que l’infrastructure du ruban Windows utilise le fichier de balisage du ruban, le fichier de balisage doit être compilé dans un fichier de ressources au format binaire. Un compilateur de balisage du ruban dédié, le compilateur de commandes d’interface utilisateur (UICC), est inclus dans le kit de développement logiciel (SDK) Microsoft Windows (7,0 ou version ultérieure) à cet effet. En plus de compiler la version binaire du balisage du ruban, UICC génère un fichier d’en-tête de définition d’ID (. h) qui expose tous les éléments de balisage à l’application hôte du ruban et un fichier de ressources (. RC) qui est utilisé pour lier des ressources d’image et de chaîne à l’application hôte au moment de la génération.
+pour que l’infrastructure du ruban Windows utilise le fichier de balisage du ruban, le fichier de balisage doit être compilé dans un fichier de ressources au format binaire. un compilateur de balisage du ruban dédié, le compilateur de commandes d’interface utilisateur (UICC), est inclus dans le kit de développement logiciel (SDK) de Microsoft Windows (7,0 ou version ultérieure) à cet effet. En plus de compiler la version binaire du balisage du ruban, UICC génère un fichier d’en-tête de définition d’ID (. h) qui expose tous les éléments de balisage à l’application hôte du ruban et un fichier de ressources (. RC) qui est utilisé pour lier des ressources d’image et de chaîne à l’application hôte au moment de la génération.
 
-[Migration vers l’infrastructure de ruban Windows](ribbon-migration.md)
+[migration vers l’infrastructure de ruban Windows](ribbon-migration.md)
 
 Une application qui s’appuie sur des menus, des barres d’outils et des boîtes de dialogue traditionnels peut être migrée vers l’interface utilisateur riche, dynamique et basée sur le contexte du système de commandes de l’infrastructure du ruban. Il s’agit d’un moyen simple et efficace de moderniser et de revitaliser l’application tout en améliorant également l’accessibilité, la convivialité et la détectabilité de ses fonctionnalités.
 
@@ -41,9 +41,9 @@ La séparation de la logique de la présentation est la philosophie de conceptio
 
 En tant que système de présentation de commande riche, l’infrastructure du ruban est conçue pour prendre en charge les ressources d’image de manière intensive dans l’interface utilisateur du ruban. Toutes les ressources d’image sont déclarées dans le [balisage du ruban](windowsribbon-schema.md) ou interrogées à partir d’une application hôte du ruban.
 
-Pour Windows 8 et versions ultérieures, l’infrastructure du ruban prend en charge les formats graphiques suivants : fichiers BMP (bitmaps) 32 bits et fichiers PNG (Portable Network Graphics) avec transparence.
+pour Windows 8 et versions ultérieures, l’infrastructure du ruban prend en charge les formats graphiques suivants : fichiers BMP (bitmaps) 32 bits et fichiers PNG (Portable Network graphics) avec transparence.
 
-Pour Windows 7 et les versions antérieures, les ressources d’image doivent être conformes au format graphique BMP standard utilisé dans Windows.
+pour Windows 7 et les versions antérieures, les ressources d’image doivent être conformes au format graphique BMP standard utilisé dans Windows.
 
 [Personnalisation d’un ruban à l’aide de définitions de taille et de stratégies de mise à l’échelle](windowsribbon-templates.md)
 
@@ -73,22 +73,22 @@ L’infrastructure du ruban expose un ensemble de propriétés qui permettent à
 
 [Persistance de l’état du ruban](ribbon-statepersistence.md)
 
-Windows Ribon Framework (ruban) offre la possibilité de conserver l’état d’une variété de paramètres utilisateur et de préférences dans les sessions d’application.
+le Windows framework Ribon (ruban) offre la possibilité de conserver l’état d’une variété de paramètres utilisateur et de préférences dans les sessions d’application.
 
 [Écoute des événements de ruban](listening-for-ribbon-events.md)
 
-L’infrastructure du ruban utilise l’infrastructure de [suivi d’v nements pour Windows (ETW)](../etw/event-tracing-portal.md) pour permettre aux développeurs d’apprendre comment les utilisateurs interagissent avec le ruban de leur application.
+l’infrastructure du ruban utilise l’infrastructure de [Suivi d’v nements pour Windows (ETW)](../etw/event-tracing-portal.md) pour permettre aux développeurs d’apprendre comment les utilisateurs interagissent avec le ruban de leur application.
 
 ## <a name="markup-compiler"></a>Compilateur de balisage
 
 [Compilation du balisage du ruban](windowsribbon-intentcl.md)
 
-Pour que l’infrastructure du ruban utilise le fichier de [balisage du ruban](windowsribbon-schema.md) , le fichier de balisage doit être compilé dans un fichier de ressources au format binaire. Un compilateur de balisage dédié, le compilateur de commandes d’interface utilisateur (UICC), est inclus dans le kit de développement logiciel (SDK) Microsoft Windows (7,0 ou version ultérieure) à cet effet. En plus de compiler la version binaire du balisage, UICC génère un fichier d’en-tête de définition d’ID (. h) qui expose tous les éléments de balisage à l’application hôte du ruban et un fichier de ressources (. RC) qui est utilisé pour lier des ressources d’image et de chaîne à l’application hôte au moment de la génération.
+Pour que l’infrastructure du ruban utilise le fichier de [balisage du ruban](windowsribbon-schema.md) , le fichier de balisage doit être compilé dans un fichier de ressources au format binaire. un compilateur de balisage dédié, le compilateur de commandes d’interface utilisateur (UICC), est inclus dans le kit de développement logiciel (SDK) de Microsoft Windows (7,0 ou version ultérieure) à cet effet. En plus de compiler la version binaire du balisage, UICC génère un fichier d’en-tête de définition d’ID (. h) qui expose tous les éléments de balisage à l’application hôte du ruban et un fichier de ressources (. RC) qui est utilisé pour lier des ressources d’image et de chaîne à l’application hôte au moment de la génération.
 
 [Fonctionnement des messages du compilateur de balisage](windowsribbon-compilationerrors.md)
 
-Le compilateur de balisage de l’infrastructure du ruban Windows (ruban), compilateur de commande d’interface utilisateur (UICC.exe), valide la balise du ruban par rapport au schéma du ruban et à un ensemble supplémentaire de règles définies par l’infrastructure du ruban.
+le compilateur de balisage de l’infrastructure du ruban Windows (ruban), le compilateur de commande d’interface utilisateur (UICC.exe), valide la balise du ruban par rapport au schéma du ruban et à un ensemble supplémentaire de règles définies par l’infrastructure du ruban.
 
- 
+ 
 
- 
+ 
