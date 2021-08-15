@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47512a20301f3b1dca96c86efe604b0eacc4a73e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5ed3d420c986c63dad379c2101d059545954a88462ae6e4e907a0cb6936e3b3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103949868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960388"
 ---
 # <a name="msmq-sites-attribute"></a>Attribut MSMQ-Sites
 
@@ -45,7 +45,7 @@ Liste des sites auxquels l’ordinateur appartient (un tableau des ObjectGUID de
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

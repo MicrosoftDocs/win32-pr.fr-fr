@@ -3,7 +3,7 @@ title: InRibbonGallery. MenuGroups, propriété
 description: Représente un conteneur pour le jeu d’éléments de menu déroulant d’un contrôle In-Ribbon Gallery.
 ms.assetid: 6b9ded25-4e8e-4e30-a349-f7c091dbfe7a
 keywords:
-- Ruban Windows de la propriété InRibbonGallery. MenuGroups
+- InRibbonGallery. MenuGroups, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd447b66dada74b1a9b909b3030e080198143b12
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1722c8963b57256cf74f5911c8273539e10b5c6a6fef96dcfa1f0fec591bca04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710479"
 ---
 # <a name="inribbongallerymenugroups-property"></a>InRibbonGallery. MenuGroups, propriété
 
 Représente un conteneur pour le jeu d’éléments de menu déroulant d’un contrôle [de galerie dans le ruban](windowsribbon-controls-inribbongallery.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <InRibbonGallery.MenuGroups>
@@ -55,9 +55,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque élément [**InRibbonGallery**](windowsribbon-element-inribbongallery.md) .
 
@@ -102,8 +102,8 @@ Cette section de code illustre la déclaration de contrôle **InRibbonGallery. M
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

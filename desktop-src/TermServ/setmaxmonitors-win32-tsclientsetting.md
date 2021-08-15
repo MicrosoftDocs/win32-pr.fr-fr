@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76cdbe29079f5006cbf596751bef73cda1e94e52
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e91cc6a53bbec769236e5c1b462e7bdfe5859cc140a11366299a3eaab46e1777
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987909"
 ---
 # <a name="setmaxmonitors-method-of-the-win32_tsclientsetting-class"></a>Méthode SetMaxMonitors de la \_ classe Win32 TSClientSetting
 

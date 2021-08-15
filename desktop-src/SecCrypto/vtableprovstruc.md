@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 api_location:
 - Cspdk.h
-ms.openlocfilehash: 99b9344c6951dc93972315d9b4f60752f1484d68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2815d12735023cd0f7ac60fc2ed9f60fc56e32d0f54610f295a2e6b0544e589c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117970865"
 ---
 # <a name="vtableprovstruc-structure"></a>VTableProvStruc, structure
 
@@ -119,7 +119,7 @@ Il s’agit d’un membre de la version 3.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les pointeurs de la structure **VTableProvStruc** sont uniquement disponibles dans la fonction [**CPAcquireContext**](https://www.bing.com/search?q=**CPAcquireContext**) . Si des membres de la structure sont nécessaires après l’exécution d’un appel à **CPAcquireContext** , des copies des éléments de structure nécessaires doivent être effectuées par le CSP. Les pointeurs de fonction de cette structure peuvent être stockés et utilisés jusqu’à ce que le contexte du CSP soit libéré.
 
@@ -129,8 +129,8 @@ Les pointeurs de la structure **VTableProvStruc** sont uniquement disponibles da
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Cspdk. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **VTableProvStrucW** (Unicode)<br/>                                          |
 

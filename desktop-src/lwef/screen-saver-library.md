@@ -9,12 +9,12 @@ keywords:
 - fichiers de définition de module
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08b7e0d0c177af2798b041fa12b4cc5793bf9be0
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b61343cd586ed022c334b797a77320ee25eccdf48653b4732adc597f4aedde26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975719"
 ---
 # <a name="handling-screen-savers"></a>Gestion des économiseurs d’écran
 
@@ -33,21 +33,21 @@ Cette rubrique est composée des sections suivantes.
 
 ## <a name="about-screen-savers"></a>À propos des économiseurs d’écran
 
-L’application de bureau dans le panneau de configuration Windows permet aux utilisateurs de sélectionner dans une liste d’économiseurs d’écran, de spécifier le temps qui doit s’écouler avant le démarrage de l’économiseur d’écran, de configurer des économiseurs d’écran et d’afficher un aperçu des économiseurs d’écran. Les économiseurs d’écran sont chargés automatiquement au démarrage de Windows ou lorsqu’un utilisateur active l’économiseur d’écran par le biais du panneau de configuration.
+l’application de bureau dans le panneau de configuration Windows permet aux utilisateurs de sélectionner dans une liste d’économiseurs d’écran, de spécifier le temps qui doit s’écouler avant le démarrage de l’économiseur d’écran, de configurer des économiseurs d’écran et d’afficher un aperçu des économiseurs d’écran. les économiseurs d’écran sont chargés automatiquement au démarrage de Windows ou lorsqu’un utilisateur active l’économiseur d’écran par le biais du panneau de configuration.
 
-Une fois qu’un économiseur d’écran est choisi, Windows surveille les séquences de touches et les mouvements de la souris, puis démarre l’écran de veille après une période d’inactivité. Toutefois, Windows ne démarre pas l’économiseur d’écran si l’une des conditions suivantes est remplie :
+une fois qu’un économiseur d’écran est choisi, Windows surveille les séquences de touches et les mouvements de la souris, puis démarre l’écran de veille après une période d’inactivité. toutefois, Windows ne démarre pas l’économiseur d’écran si l’une des conditions suivantes est remplie :
 
--   L’application active n’est pas une application Windows.
+-   l’application active n’est pas une application Windows.
 -   Une fenêtre de formation basée sur l’ordinateur (CBT) est présente.
 -   L’application active reçoit le message [WM \_ SYSCOMMAND](../menurc/wm-syscommand.md) avec le paramètre *wParam* défini sur la valeur SC \_ SCREENSAVE, mais il ne transmet pas le message à la fonction [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca) .
 
 **Contexte de sécurité de l’écran de veille**
 
-Le contexte de sécurité de l’écran de veille dépend du fait qu’un utilisateur ait ouvert une session interactive. Si un utilisateur est connecté de manière interactive lorsque l’économiseur d’écran est appelé, l’économiseur d’écran s’exécute dans le contexte de sécurité de l’utilisateur interactif. Si aucun utilisateur n’est connecté, le contexte de sécurité de l’écran de veille dépend de la version de Windows utilisée.
+Le contexte de sécurité de l’écran de veille dépend du fait qu’un utilisateur ait ouvert une session interactive. Si un utilisateur est connecté de manière interactive lorsque l’économiseur d’écran est appelé, l’économiseur d’écran s’exécute dans le contexte de sécurité de l’utilisateur interactif. si aucun utilisateur n’est connecté, le contexte de sécurité de l’écran de veille dépend de la version de Windows utilisée.
 
--   Windows XP et Windows 2000-l’économiseur d’écran s’exécute dans le contexte de LocalSystem avec les comptes restreints.
+-   Windows XP et Windows 2000-l’économiseur d’écran s’exécute dans le contexte de LocalSystem avec comptes restreints.
 -   Windows 2003-l’économiseur d’écran s’exécute dans le contexte de LocalService avec tous les privilèges supprimés et le groupe administrateurs désactivé.
--   Ne s’applique pas à Windows NT4.
+-   ne s’applique pas à Windows NT4.
 
 Le contexte de sécurité détermine le niveau des opérations privilégiées qui peuvent être effectuées à partir d’un écran de veille.
 
@@ -87,7 +87,7 @@ L’une des trois fonctions requises dans un module d’économiseur d’écran 
 
 
 
- 
+ 
 
 [**ScreenSaverProc**](/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc) transmet les messages non traités à la bibliothèque de l’écran de veille en appelant la fonction [**DefScreenSaverProc**](/windows/desktop/api/scrnsave/nf-scrnsave-defscreensaverproc) . Le tableau suivant décrit comment cette fonction traite différents messages.
 
@@ -96,7 +96,7 @@ L’une des trois fonctions requises dans un module d’économiseur d’écran 
 | Message         | Action                                                                    |
 |-----------------|---------------------------------------------------------------------------|
 | \_SETCURSOR WM   | Définissez le curseur sur le curseur null, en le supprimant de l’écran.           |
-| \_peinture WM       | Peindre l’arrière-plan de l’écran.                                              |
+| \_peinture WM       | Paint l’arrière-plan de l’écran.                                              |
 | \_LBUTTONDOWN WM | Mettre fin à l’économiseur d’écran.                                               |
 | \_MBUTTONDOWN WM | Mettre fin à l’économiseur d’écran.                                               |
 | \_RBUTTONDOWN WM | Mettre fin à l’économiseur d’écran.                                               |
@@ -106,13 +106,13 @@ L’une des trois fonctions requises dans un module d’économiseur d’écran 
 
 
 
- 
+ 
 
-La deuxième fonction requise dans un module d’économiseur d’écran est [**ScreenSaverConfigureDialog**](/windows/desktop/api/scrnsave/nf-scrnsave-screensaverconfiguredialog). Cette fonction affiche une boîte de dialogue qui permet à l’utilisateur de configurer l’économiseur d’écran (une application doit fournir un modèle de boîte de dialogue correspondant). Windows affiche la boîte de dialogue de configuration lorsque l’utilisateur sélectionne le bouton **configurer** dans la boîte de dialogue économiseur d’écran du panneau de configuration.
+La deuxième fonction requise dans un module d’économiseur d’écran est [**ScreenSaverConfigureDialog**](/windows/desktop/api/scrnsave/nf-scrnsave-screensaverconfiguredialog). Cette fonction affiche une boîte de dialogue qui permet à l’utilisateur de configurer l’économiseur d’écran (une application doit fournir un modèle de boîte de dialogue correspondant). Windows affiche la boîte de dialogue de configuration lorsque l’utilisateur sélectionne le bouton **configurer** dans la boîte de dialogue écran de veille de l’écran de commande.
 
 La troisième fonction requise dans un module d’économiseur d’écran est [**RegisterDialogClasses**](/windows/desktop/api/scrnsave/nf-scrnsave-registerdialogclasses). Cette fonction doit être appelée par toutes les applications de l’écran de veille. Toutefois, les applications qui ne nécessitent pas de contrôles personnalisés ou Windows spéciaux dans la boîte de dialogue de configuration peuvent simplement retourner la **valeur true**. Les applications nécessitant des contrôles personnalisés ou des fenêtres spéciales doivent utiliser cette fonction pour inscrire les classes de fenêtre correspondantes.
 
-En plus de créer un module qui prend en charge les trois fonctions qui viennent d’être décrites, un écran de veille doit fournir une icône. Cette icône est visible uniquement lorsque l’économiseur d’écran est exécuté en tant qu’application autonome. (Pour qu’il soit exécuté par le panneau de configuration, un économiseur d’écran doit avoir l’extension de nom de fichier. SCR ; pour être exécuté en tant qu’application autonome, il doit avoir l’extension de nom de fichier. exe.) L’icône doit être identifiée dans le fichier de ressources de l’écran de veille par l’application d’ID de constante \_ , qui est définie dans le fichier d’en-tête scrnsave. h.
+En plus de créer un module qui prend en charge les trois fonctions qui viennent d’être décrites, un écran de veille doit fournir une icône. Cette icône est visible uniquement lorsque l’économiseur d’écran est exécuté en tant qu’application autonome. (Pour qu’il soit exécuté par le panneau de configuration, un économiseur d’écran doit avoir l’extension de nom de fichier. SCR ; pour être exécuté en tant qu’application autonome, il doit avoir l’extension de nom de fichier .exe.) L’icône doit être identifiée dans le fichier de ressources de l’écran de veille par l’application d’ID de constante \_ , qui est définie dans le fichier d’en-tête scrnsave. h.
 
 Une dernière exigence est une chaîne de description de l’économiseur d’écran. Le fichier de ressources d’un économiseur d’écran doit contenir une chaîne que le panneau de configuration affiche comme nom de l’économiseur d’écran. La chaîne de description doit être la première chaîne dans la table de chaînes du fichier de ressources (identifiée par la valeur ordinale 1). Toutefois, la chaîne de description est ignorée par le panneau de configuration si l’économiseur d’écran a un nom de fichier long. Dans ce cas, le nom de fichier sera utilisé comme chaîne de description.
 
@@ -130,7 +130,7 @@ Cette section utilise un exemple de code tiré d’une application d’écran de
 
 ### <a name="screen-saver-library"></a>Bibliothèque de l’écran de veille
 
-Les fonctions d’économiseur d’écran statiques sont contenues dans la bibliothèque de l’écran de veille. Deux versions de la bibliothèque sont disponibles : scrnsave. lib et Scrnsavw. lib. Vous devez lier votre projet avec l’un de ces. Scrnsave. lib est utilisé pour les économiseurs d’écran qui utilisent des caractères ANSI et Scrnsavw. lib est utilisé pour les économiseurs d’écran qui utilisent des caractères Unicode. Un économiseur d’écran qui est lié à Scrnsavw. lib s’exécutera uniquement sur les plateformes Windows qui prennent en charge Unicode, tandis qu’un économiseur d’écran lié à scrnsave. lib s’exécutera sur toute plateforme Windows.
+Les fonctions d’économiseur d’écran statiques sont contenues dans la bibliothèque de l’écran de veille. Deux versions de la bibliothèque sont disponibles : scrnsave. lib et Scrnsavw. lib. Vous devez lier votre projet avec l’un de ces. Scrnsave. lib est utilisé pour les économiseurs d’écran qui utilisent des caractères ANSI et Scrnsavw. lib est utilisé pour les économiseurs d’écran qui utilisent des caractères Unicode. un économiseur d’écran qui est lié à Scrnsavw. lib s’exécutera uniquement sur les plateformes de Windows qui prennent en charge Unicode, tandis qu’un économiseur d’écran lié à Scrnsave. lib s’exécutera sur toute plateforme Windows.
 
 ### <a name="supporting-the-configuration-dialog-box"></a>Prise en charge de la boîte de dialogue de configuration
 
@@ -423,12 +423,12 @@ EXPORTS
 
 ### <a name="installing-new-screen-savers"></a>Installation des nouveaux économiseurs d’écran
 
-Lors de la compilation de la liste des économiseurs d’écran disponibles, le panneau de configuration recherche dans le répertoire de démarrage Windows les fichiers portant l’extension. scr. Étant donné que les économiseurs d’écran sont des fichiers exécutables Windows standard avec des extensions. exe, vous devez les renommer pour qu’ils aient des extensions. SCR et les copier dans le répertoire approprié.
+lors de la compilation de la liste des économiseurs d’écran disponibles, le panneau de configuration recherche dans le répertoire de démarrage Windows les fichiers avec l’extension. scr. étant donné que les économiseurs d’écran sont des fichiers exécutables standard Windows avec des extensions .exe, vous devez les renommer pour qu’ils aient des extensions. scr et les copier dans le répertoire approprié.
 
 ### <a name="adding-help-to-the-screen-saver-configuration-dialog-box"></a>Ajout de l’aide à la boîte de dialogue Configuration de l’écran de veille
 
-La boîte de dialogue de configuration d’un écran de veille comprend généralement un bouton **aide** . Les applications de l’écran de veille peuvent Rechercher l’identificateur du bouton d’aide et appeler la fonction [**WinHelp**](/windows/desktop/api/winuser/nf-winuser-winhelpa) de la même façon que dans d’autres applications Windows.
+La boîte de dialogue de configuration d’un écran de veille comprend généralement un bouton **aide** . les applications de l’écran de veille peuvent rechercher l’identificateur du bouton d’aide et appeler la fonction [**WinHelp**](/windows/desktop/api/winuser/nf-winuser-winhelpa) de la même façon que dans d’autres applications basées sur Windows.
 
- 
+ 
 
- 
+ 

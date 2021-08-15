@@ -4,12 +4,12 @@ ms.assetid: 300a8a6f-abcd-49c9-889b-14b12ff5c821
 title: Utilisation des curseurs de souris (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14855e2d17c9d23f078297840d951b8db338d613
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 999bd324c8c3a1a2c743b5417f5d316a9d0f9493ccb4b749545e53e23e58917f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118518917"
 ---
 # <a name="working-with-mouse-cursors-direct3d-9"></a>Utilisation des curseurs de souris (Direct3D 9)
 
@@ -27,7 +27,7 @@ Direct3D garantit que la souris est prise en charge par les implémentations mat
 
 <dl> <dt>
 
-[Conseils de programmation](programming-tips.md)
+[Astuces de programmation](programming-tips.md)
 </dt> </dl>
 
  

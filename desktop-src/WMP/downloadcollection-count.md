@@ -3,7 +3,7 @@ title: DownloadCollection. Count
 description: Remarque Cette section décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. La propriété Count récupère le nombre de téléchargements en attente dans la collection.
 ms.assetid: 8f9245aa-6d92-4dd3-9b45-97ee37de680d
 keywords:
-- DownloadCollection. Count lecteur Windows Media
+- DownloadCollection. count Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95f161143cf599dcfbc71b2e55764009ec5d4e67
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7d563ea49629c2ae4eee517c503f866672c3bd18d9d75bd4602e5bb70ed78a5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997089"
 ---
 # <a name="downloadcollectioncount"></a>DownloadCollection. Count
 

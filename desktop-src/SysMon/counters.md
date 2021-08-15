@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbcbf8da93f13dce2ce2a290adeab9394ee8addb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f8349c1425450491c3fc658f6ac1ac3c5fcf75d3e617a92f6e34b91f2f5802e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883336"
 ---
 # <a name="counters-collection"></a>Compteurs, collection
 
@@ -58,14 +58,14 @@ La collection de **compteurs** possède ces propriétés.
 
 | Propriété                                   | Description                                                                                         |
 |:-------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| [**Saut**](counters-count.md)<br/> | Récupère le nombre d’instances de [**CounterItem**](counteritem.md) dans la collection.<br/>  |
+| [**Count**](counters-count.md)<br/> | Récupère le nombre d’instances de [**CounterItem**](counteritem.md) dans la collection.<br/>  |
 | [**Élément**](counters-item.md)<br/>   | Récupère l’instance [**CounterItem**](counteritem.md) spécifiée de la collection.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’objet **Counters** est la propriété par défaut de l’objet [**systemmonitor**](systemmonitor.md) .
 

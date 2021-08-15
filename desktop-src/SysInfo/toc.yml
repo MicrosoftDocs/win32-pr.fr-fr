@@ -1,4 +1,4 @@
-- name: Informations système Windows
+- name: Windows System Information
   href: windows-system-information.md
   items:
     - name: Handles et objets
@@ -48,7 +48,7 @@
           items:
             - name: Structure du Registre
               href: structure-of-the-registry.md
-            - name: Espace de stockage du Registre
+            - name: espace de Stockage du registre
               href: registry-storage-space.md
             - name: Clés prédéfinies
               href: predefined-keys.md
@@ -216,7 +216,7 @@
     - name: Informations système
       href: system-information.md
       items:
-        - name: À propos des informations système
+        - name: À propos de System Information
           href: about-system-information.md
           items:
             - name: Hardware Configuration
@@ -227,14 +227,14 @@
               href: operating-system-version.md
             - name: Configuration du système d’exploitation
               href: operating-system-configuration.md
-        - name: Utilisation des informations système
+        - name: Utilisation de System Information
           href: using-system-information.md
           items:
-            - name: Accéder aux informations SMBIOS à partir d’une application Windows universelle
+            - name: accéder aux informations SMBIOS à partir d’une application de Windows universel
               href: access-smbios-information-from-a-universal-windows-app.md
-            - name: Accéder aux variables de microprogramme UEFI à partir d’une application Windows universelle
+            - name: accéder aux variables de microprogramme UEFI à partir d’une application Windows universelle
               href: access-uefi-firmware-variables-from-a-universal-windows-app.md
-            - name: Obtention d’informations système
+            - name: Obtention de System Information
               href: getting-system-information.md
             - name: Obtention de la version du système
               href: getting-the-system-version.md
@@ -246,10 +246,10 @@
               href: getting-hardware-information.md
             - name: Ciblage de votre application pour Windows
               href: targeting-your-application-at-windows-8-1.md
-        - name: Informations de référence sur le système
+        - name: System Information Faire
           href: system-information-reference.md
           items:
-            - name: Fonctions d’informations système
+            - name: System Information Mission
               href: system-information-functions.md
               items:
                 - name: ApiSetQueryApiSetPresence
@@ -367,7 +367,7 @@
                       href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindowsversionorgreater
                 - name: ZwQuerySystemInformation
                   href: zwquerysysteminformation.md
-            - name: Structures d’informations système
+            - name: System Information Celles
               href: system-information-structures.md
               items:
                 - name: HW_PROFILE_INFO
@@ -378,12 +378,12 @@
                   href: /windows/win32/api/Winnt/ns-winnt-osversioninfoexa
                 - name: SYSTEM_INFO
                   href: /windows/win32/api/sysinfoapi/ns-sysinfoapi-system_info
-            - name: Macros d’informations système
+            - name: System Information Macros
               href: system-information-macros.md
               items:
                 - name: VER_SET_CONDITION
                   href: /windows/desktop/api/Winnt/nf-winnt-ver_set_condition
-            - name: Types d’énumération des informations système
+            - name: System Information Types énumération
               href: system-information-enumeration-types.md
               items:
                 - name: COMPUTER_NAME_FORMAT

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 06cc989a14da6f2fe84d30f7f5d7d9fc35acd3bc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1d2026b2bb8b3baeae778e66a0b226c63fa2aeec09cb0a5e790f989161ff7552
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118521205"
 ---
 # <a name="id3dxconstanttablesetmatrixtranspose-method"></a>ID3DXConstantTable :: SetMatrixTranspose, méthode
 
@@ -69,7 +69,7 @@ Pointeur désignant une matrice transposée. Consultez [**D3DXMATRIX**](d3dxmatr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

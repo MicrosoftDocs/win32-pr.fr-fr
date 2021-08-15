@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7041b8a28b924ffedc8ff23edd2b04afdaa78be2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 912365065b639f3c970390746c8e23ae1fc33648ecdf14278365290c503da26d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998849"
 ---
 # <a name="ivmmouse-interface"></a>Interface IVMMouse
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Contrôle l’appareil de la souris au sein d’une machine virtuelle. La **IVMMouse** d’un ordinateur virtuel peut être récupérée à l’aide de la propriété [**IVMVirtualMachine :: Mouse**](ivmvirtualmachine-mouse.md) . Les coordonnées du périphérique de la souris peuvent être représentées soit en coordonnées absolues, soit en coordonnées Delta. Utilisez la propriété [**UsingAbsoluteCoordinates**](ivmmouse-usingabsolutecoordinates.md) pour faire la distinction entre les deux méthodes de représentation de coordonnées. Notez que la récupération de la position actuelle du curseur et l’utilisation de coordonnées absolues sont prises en charge uniquement si les composants d’intégration sont installés sur le système d’exploitation invité.
 
@@ -74,7 +74,7 @@ L’interface **IVMMouse** possède les propriétés suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

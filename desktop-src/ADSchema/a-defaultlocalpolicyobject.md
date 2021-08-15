@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c2bfc4797dbda7aff5e2fadec16de8b87854824
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a192cdc16c7c0c9099e352d5f9a66152c077ee867572528b404b2584f54eeb6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106544510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961748"
 ---
 # <a name="default-local-policy-object-attribute"></a>Default : local-Policy-Object (attribut)
 
@@ -45,7 +45,7 @@ Référence à un objet de stratégie qui définit la stratégie locale pour l�
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

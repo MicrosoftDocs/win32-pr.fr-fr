@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e16375f9f1281f2cc34dac440373f95b828392f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d1cdd90e9e05a0220fffa2646ae31cf652bb232283b0dec9c908202f38f950f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990529"
 ---
 # <a name="imsrdpclient7-interface"></a>Interface IMsRdpClient7
 
@@ -65,7 +65,7 @@ L’interface **IMsRdpClient7** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface **IMsRdpClient7** a été étendue par les interfaces suivantes, chaque nouvelle interface héritant de toutes les méthodes et propriétés des interfaces précédentes :
 

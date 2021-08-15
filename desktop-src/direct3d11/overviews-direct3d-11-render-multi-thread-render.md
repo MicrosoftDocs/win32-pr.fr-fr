@@ -4,12 +4,12 @@ description: Direct3D 11 prend en charge deux types de rendu immédiats et diff�
 ms.assetid: 8991be9f-c882-4752-9048-704fe4ae1725
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef954a8e794755e1405c8e1e07505a5f39189b03
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8740a957ec4b7f2edacb4b753c7f68230494b10cf33721ef6c2d869de334517b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117912931"
 ---
 # <a name="immediate-and-deferred-rendering"></a>Rendu immédiat et différé
 
@@ -46,9 +46,9 @@ Les requêtes dans un contexte différé sont limitées à la génération de do
 [Traitement multithread](overviews-direct3d-11-render-multi-thread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

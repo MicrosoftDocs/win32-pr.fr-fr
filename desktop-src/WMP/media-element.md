@@ -3,7 +3,7 @@ title: Élément multimédia
 description: L’élément multimédia spécifie l’un des éléments multimédias dans une sélection.
 ms.assetid: 7329bf48-3b23-4bc6-8488-506efca284bb
 keywords:
-- Élément multimédia lecteur Windows Media
+- élément multimédia Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2e693c8b17345d3ba7875d48b83b5e3e90d682dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c67f4321d85ec52babbc6f24c2cd9e3512f7c970eb3360ba2ddfd7ba53f82152
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996319"
 ---
 # <a name="media-element"></a>Élément multimédia
 
@@ -54,15 +54,15 @@ L’élément **multimédia** spécifie l’un des éléments multimédias dans 
 | Hierarchy | Éléments               |
 |-----------|------------------------|
 | Parent    | [séquentiel](seq-element.md) |
-| Enfant     | Aucune                   |
+| Enfant     | None                   |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’attribut **CID** (ID de contenu) est rempli par le lecteur Windows Media comme un moyen d’identifier de façon unique un morceau de contenu multimédia, même si ses attributs de métadonnées ont été modifiés. Cela permet de partager des sélections sur plusieurs ordinateurs, car le contenu peut être identifié sur un autre ordinateur, et le chemin d’accès peut être « réparé automatiquement » par la sélection Windows Media. L’attribut **TID** (l’ID de suivi) utilise le système de fichiers Windows pour réparer automatiquement le chemin d’accès au média si le nom ou l’emplacement du fichier est modifié.
+l’attribut **cid** (ID de contenu) est rempli par le Lecteur Windows Media comme un moyen d’identifier de façon unique un morceau de contenu multimédia, même si ses attributs de métadonnées ont été modifiés. cela permet de partager des sélections sur plusieurs ordinateurs, car le contenu peut être identifié sur un autre ordinateur, et le chemin d’accès peut être « réparé automatiquement » par la sélection de média Windows. l’attribut **tid** (l’ID de suivi) utilise le système de fichiers Windows pour réparer automatiquement le chemin d’accès au média si le nom ou l’emplacement du fichier est modifié.
 
 ## <a name="examples"></a>Exemples
 
@@ -95,7 +95,7 @@ L’attribut **CID** (ID de contenu) est rempli par le lecteur Windows Media com
 [**Seq, élément**](seq-element.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de sélection Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Référence des éléments de sélection de média**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

@@ -5,12 +5,12 @@ ms.assetid: ecd7d8bc-4714-408a-856c-7cab8360bf81
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77fe382001910f3b78b4461c622e94b14c54fb59
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: aac659ab2bf482ee6d6c57dd1481e487d6e2af95dfd85a092f48f4928499b102
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025357"
 ---
 # <a name="publishing-under-a-computer-object"></a>Publication sous un objet ordinateur
 
@@ -27,6 +27,6 @@ N’oubliez pas que seuls les ordinateurs membres du domaine disposent d’objet
 
 Pour récupérer le nom DNS ou NetBIOS de l’ordinateur local, appelez la fonction [**GetComputerNameEx**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa) .
 
- 
+ 
 
- 
+ 

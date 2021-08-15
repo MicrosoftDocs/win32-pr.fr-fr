@@ -7,12 +7,12 @@ keywords:
 - Attributs, accès avec ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4ee6990483b45e335bb6b830cef85e482f30e00
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 3e37c63b61986a56e7b22f114b5956d9e047f1ae45b5dc2e653074ea35440f10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106510706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024127"
 ---
 # <a name="accessing-attributes-with-adsi"></a>Accès aux attributs avec ADSI
 
@@ -25,9 +25,9 @@ Les méthodes [**IADs. obten**](/windows/desktop/api/Iads/nf-iads-iads-get) et [
 Un autre type de données retourné par les méthodes [**IADs. obten**](/windows/desktop/api/Iads/nf-iads-iads-get) et [**IADs. GETEX**](/windows/desktop/api/Iads/nf-iads-iads-getex) est données binaires. Dans ce cas, les données sont fournies sous la forme d’un tableau d’octets contigu et le membre **VT** de la structure [**Variant**](/windows/win32/api/oaidl/ns-oaidl-variant) contient les indicateurs **VT \_ UI1/vbByte** et **VT \_ Array/VBArray** .
 
 > [!Note]  
-> Microsoft Visual Basic, l’édition de script ne prend en charge que les tableaux [**Variant**](/windows/win32/api/oaidl/ns-oaidl-variant) et **Variant** . Pour cette raison, VBScript ne peut pas être utilisé pour lire les valeurs de propriété binaires.
+> Microsoft Visual Basic, l’édition de script ne prend en charge que les tableaux [**variant**](/windows/win32/api/oaidl/ns-oaidl-variant) et **variant** . Pour cette raison, VBScript ne peut pas être utilisé pour lire les valeurs de propriété binaires.
 
- 
+ 
 
 De nombreuses interfaces ADSI définissent des propriétés spécifiques à l’interface. Par exemple, l’interface [**IADsComputer**](/windows/desktop/api/Iads/nn-iads-iadscomputer) définit la propriété [**location**](iadscomputer-property-methods.md) . Ces propriétés définies par l’interface peuvent contenir des données qui sont identiques à l’un des attributs nommés, mais les propriétés sont spécifiques au type d’objet auquel l’interface fait référence. Dans les langages qui prennent en charge l’automatisation, ces propriétés définies par l’interface sont accessibles à l’aide de la notation par points, comme indiqué dans l’exemple de code suivant.
 
@@ -92,6 +92,6 @@ Pour plus d’informations sur l’accès aux attributs avec ADSI, consultez :
 -   [Accès aux attributs avec l’interface IDirectoryObject](accessing-attributes-with-the-idirectoryobject-interface.md)
 -   [Exemple de code pour la lecture d’attributs](example-code-for-reading-attributes.md)
 
- 
+ 
 
- 
+ 

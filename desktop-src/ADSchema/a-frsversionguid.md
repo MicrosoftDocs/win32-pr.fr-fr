@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f12cfadd1086fbb8ee79bafb8d0ee5f947ff503e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 701fb9da7a876a39858cb6d38383f58d8ddc1231940df2c2fb922e0e05e00520
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961428"
 ---
 # <a name="frs-version-guid-attribute"></a>Attribut FRS-version-GUID
 
@@ -45,7 +45,7 @@ Si elle est présente, la modification de cette valeur indique qu’une modifica
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

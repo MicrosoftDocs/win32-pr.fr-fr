@@ -3,19 +3,19 @@ title: Élément CONTROLs
 description: Élément CONTROLs
 ms.assetid: 5f988a85-55dd-4b23-a15c-a55e5ca14429
 keywords:
-- Apparences du lecteur Windows Media, élément contrôles
+- apparences Lecteur Windows Media, élément controls
 - Skins, élément CONTROLs
 - Élément CONTROLs
 - référence pour les apparences, élément CONTROLs
 - éléments, contrôles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bbb127bd5a9327d0752069b69470e31d719733b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8b0d4cd5da8d29e84506899f14209d276d6c2bfda407fa45a2372cd81d0d7ee8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997509"
 ---
 # <a name="controls-element"></a>Élément CONTROLs
 
@@ -34,7 +34,7 @@ L’élément **Controls** permet de spécifier les attributs suivants de l’ob
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -46,9 +46,9 @@ L’élément **Controls** permet de spécifier les attributs suivants de l’ob
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

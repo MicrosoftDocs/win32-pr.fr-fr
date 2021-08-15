@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48863bf998ebc02bac93aa9e74d8cdbe07265477
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 620d30558ddb8acdd75d72955048beb34f0141206b53f3f5873e42627fb155f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998679"
 ---
 # <a name="ivmvirtualmachinemergeundodisks-method"></a>IVMVirtualMachine :: MergeUndoDisks, méthode
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Fusionne les disques d’annulations virtuelles.
 
@@ -74,7 +74,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **MergeUndoDisks** ne peut pas être appelé tant que l’ordinateur virtuel est toujours en cours d’exécution. Utilisez [**IVMVirtualMachine :: Save**](ivmvirtualmachine-save.md) pour enregistrer l’état de l’ordinateur virtuel avant d’appeler **MergeUndoDisks** ou [**IVMVirtualMachine :: turnoff**](ivmvirtualmachine-turnoff.md) pour désactiver l’ordinateur virtuel sans enregistrer préalablement son état actuel.
 
@@ -84,7 +84,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

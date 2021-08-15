@@ -3,19 +3,19 @@ title: Exemple de section de texte
 description: Exemple de section de texte
 ms.assetid: 7e59ec56-dedc-46c5-8302-11a7d7c38911
 keywords:
-- Windows Media Player Mobile Skins, Text
+- Lecteur Windows Media Skins mobiles, texte
 - apparences, texte
 - informations de référence sur les apparences, le texte
 - texte dans les apparences, section de texte
 - fichiers de définition d’apparence, section de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ac87e65b4eb909b16a8a200a5f5f6d6cadc5df8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 182fa28f774f023ccccd7234fd4e8d4eb6a6c4cf22841efbd800ae313a15b50d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995469"
 ---
 # <a name="sample-text-section"></a>Exemple de section de texte
 
@@ -43,12 +43,12 @@ L’exemple précédent définit trois zones d’affichage de texte qui indiquen
 
 <dl> <dt>
 
-[**Texte**](text.md)
+[**Financière**](text.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

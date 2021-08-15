@@ -4,12 +4,12 @@ ms.assetid: 00683d3f-3e3c-4ee4-9aec-a0d7fd9c8941
 title: Habillage de texture (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d7c0f8cb6d7793536999d5f3df128849572d3dd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a6c29ebe78bcfa237f46eacb247432185adedd1e53ae0774e767807269bb3bb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104521420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984764"
 ---
 # <a name="texture-wrapping-direct3d-9"></a>Habillage de texture (Direct3D 9)
 
@@ -27,7 +27,7 @@ L’application pratique la plus courante pour l’habillage de texture consiste
 
 ![illustration de rayures verticales de rouge, vert, bleu et jaune](images/envmap.png)
 
-Imaginez que le plafond de la pièce est maintenu par un pilier parfaitement réfléchissant et à quatre côtés. Le mappage de la texture de la carte de l’environnement au pilier est simple ; le fait de donner au pilier la même chose qu’il reflète les lettres et les couleurs n’est pas aussi simple. Le diagramme suivant montre une trame de câble du pilier avec les coordonnées de texture applicables figurant près des sommets supérieurs. La jointure dans laquelle le renvoi à la ligne franchira les bords de la texture est indiquée par une ligne en pointillés.
+Imagine que le plafond de la pièce est maintenu par un pilier parfaitement réfléchissant et à quatre côtés. Le mappage de la texture de la carte de l’environnement au pilier est simple ; le fait de donner au pilier la même chose qu’il reflète les lettres et les couleurs n’est pas aussi simple. Le diagramme suivant montre une trame de câble du pilier avec les coordonnées de texture applicables figurant près des sommets supérieurs. La jointure dans laquelle le renvoi à la ligne franchira les bords de la texture est indiquée par une ligne en pointillés.
 
 ![diagramme d’un rectangle avec une ligne en pointillés bisectée](images/seam.png)
 

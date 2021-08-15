@@ -4,12 +4,12 @@ ms.assetid: dddae10f-3ed2-4444-af5b-f2cf46c52e7c
 title: MFPKEY_RESIZE_MINAPHEIGHT, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f2f7ddafc73562a24b1e68a0969ac0a545c0a61
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fb061fc1b1ba2a041f1689e8129eae7cbda4e45ff84407781ef4b693e33b1f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106539085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973428"
 ---
 # <a name="mfpkey_resize_minapheight-property"></a>MFPKEY \_ REdimensionner la \_ propriété MINAPHEIGHT
 
@@ -33,8 +33,8 @@ VT \_
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

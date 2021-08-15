@@ -104,12 +104,12 @@
           href: win-common-dlg.md
         - name: Assistants
           href: win-wizards.md
-        - name: Fenêtres de propriétés
+        - name: Windows de propriété
           href: win-property-win.md
     - name: Objets visuels
       href: visuals.md
       items:
-        - name: Disposition
+        - name: Layout
           href: vis-layout.md
         - name: Polices
           href: vis-fonts.md
@@ -130,7 +130,7 @@
       items:
         - name: Personnalisation des logiciels
           href: exper-branding.md
-        - name: Programme d’installation
+        - name: Installation
           href: exper-setup.md
         - name: Première expérience
           href: exper-first-exper.md

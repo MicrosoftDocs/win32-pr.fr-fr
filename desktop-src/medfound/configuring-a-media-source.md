@@ -4,12 +4,12 @@ ms.assetid: 1378bbe6-be94-4be1-b428-5ec58dabd1fa
 title: Configuration d’une source de média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea741e3c04282af445fbea7be07854bf517ec44f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 69e6737d643db2ee473214586cd7ded4f9596133dac5f4fb177df4d7b6b19757
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106523756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117880590"
 ---
 # <a name="configuring-a-media-source"></a>Configuration d’une source de média
 

@@ -4,12 +4,12 @@ description: Utilisation de VBScript
 ms.assetid: a078eb60-aa12-42ea-850c-7b845fc8037c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 691ed6bf520c83e4b679bb174274abb984eaa2f8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7afa94bd5b3576e80cf8a0c17857bbb0902bd254e95113d87ae9d1d1fca1e38b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975499"
 ---
 # <a name="using-vbscript"></a>Utilisation de VBScript
 
@@ -77,9 +77,9 @@ End Function
 </SCRIPT>
 ```
 
- 
+ 
 
- 
+ 
 
 
 
