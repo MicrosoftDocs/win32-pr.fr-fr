@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Localisation des informations de classe WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa9f1a7e34c3ba230655ebba4c070981a8dab901
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c3784128c48282d05620faf470217b195b26614d81b5b847e7a7a8ad6b9252f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131211"
 ---
 # <a name="localizing-wmi-class-information"></a>Localisation des informations de classe WMI
 
@@ -25,7 +25,7 @@ Les définitions de classe spécifiques à une langue sont stockées dans un esp
 
 Lorsque vous demandez une définition de classe localisée pour des paramètres régionaux spécifiques, WMI combine la définition de la classe de base et les informations de classe localisées pour former une classe localisée complète. Vous pouvez obtenir une version localisée d’une classe WMI en spécifiant des paramètres régionaux lorsque vous vous connectez à WMI et en définissant un indicateur qui indique que vous souhaitez des informations localisées. WMI fusionne ensuite les informations à partir des versions indépendantes du langage et des versions spécifiques à la langue de la définition de classe pour former une classe localisée.
 
-Les classes WMI qui contiennent des informations localisées sont marquées avec le qualificateur d' **Amendement** et sont appelées classes modifiées ; une classe prend en charge les informations localisées si elle possède ce qualificateur. Vous pouvez déterminer les paramètres régionaux pour lesquels la classe a été localisée en recherchant un autre qualificateur appelé [**paramètres régionaux**](swbemobjectpath-locale.md). Le qualificateur de paramètres régionaux contient un identificateur de localisation (LCID Windows) qui identifie des paramètres régionaux. Par exemple, les paramètres régionaux pour l’anglais américain sont 0x40C. Si un qualificateur dans une classe modifiée contient des informations localisées, il contient la version de qualificateur **modifiée** .
+Les classes WMI qui contiennent des informations localisées sont marquées avec le qualificateur d' **Amendement** et sont appelées classes modifiées ; une classe prend en charge les informations localisées si elle possède ce qualificateur. Vous pouvez déterminer les paramètres régionaux pour lesquels la classe a été localisée en recherchant un autre qualificateur appelé [**paramètres régionaux**](swbemobjectpath-locale.md). le qualificateur de paramètres régionaux contient un identificateur de localisation (Windows LCID) qui identifie des paramètres régionaux. Par exemple, les paramètres régionaux pour l’anglais américain sont 0x40C. Si un qualificateur dans une classe modifiée contient des informations localisées, il contient la version de qualificateur **modifiée** .
 
 La localisation WMI comprend les tâches suivantes :
 

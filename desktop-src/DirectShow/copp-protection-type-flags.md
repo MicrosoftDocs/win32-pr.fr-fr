@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 api_location:
 - dxva.h
-ms.openlocfilehash: 57e9ccc9420659ac09c19f2bbb7a18db519c07bc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 75038b22a30be41389311fd1a7cfb830f870859b01ba48fd9a791a42cee86dc6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119214049"
 ---
 # <a name="copp-protection-type-flags"></a>Indicateurs de type de protection COPP
 
@@ -44,7 +44,7 @@ Les constantes suivies sont utilisées avec le protocole de protection de sortie
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Certaines méthodes retournent un seul indicateur à partir de ce type d’énumération, et certaines méthodes retournent une opération or au niveau du bit d' **un ou plusieurs** indicateurs.
 

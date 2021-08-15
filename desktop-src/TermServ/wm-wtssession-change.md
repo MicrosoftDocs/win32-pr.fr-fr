@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db8f1dc421aa160824a194588711e84f961ea4dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f29bef7eb7778602a256f80cb04e47eae905a245783906c3388b576aecedee18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119419839"
 ---
 # <a name="wm_wtssession_change-message"></a>Message de modification de WM \_ WTSSESSION \_
 
@@ -47,7 +47,7 @@ LRESULT CALLBACK WindowProc(
 *HWND* \[ dans\]
 </dt> <dd>
 
-Handle de la fenêtre.
+Handle vers la fenêtre.
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ Code d’état décrivant la raison de l’envoi de la notification de changemen
 
 </dt> <dd>
 
-La session identifiée par *lParam* était connectée au terminal de la console ou à la session RemoteFX.
+la session identifiée par *lParam* était connectée au terminal de la console ou à la session de RemoteFX.
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ La session identifiée par *lParam* était connectée au terminal de la console 
 
 </dt> <dd>
 
-La session identifiée par *lParam* a été déconnectée du terminal de la console ou de la session RemoteFX.
+la session identifiée par *lParam* a été déconnectée du terminal de la console ou de la session de RemoteFX.
 
 </dd> <dt>
 
@@ -197,7 +197,7 @@ Identificateur de la session.
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est envoyé uniquement aux applications qui ont été inscrites pour recevoir ce message en appelant [**WTSRegisterSessionNotification**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsregistersessionnotification).
 

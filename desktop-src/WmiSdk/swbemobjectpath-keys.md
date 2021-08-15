@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 898ae7dac4a9c63273a8ff45a85b5bbb65aaa9d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf984251bd5e83872479a7cf6c3437d5760df4db652dd8c3b94db648c024b4c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119383069"
 ---
 # <a name="swbemobjectpathkeys-property"></a>SWbemObjectPath. Keys, propriété
 

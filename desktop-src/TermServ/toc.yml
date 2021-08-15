@@ -1,28 +1,28 @@
 - name: Services Bureau à distance
   href: terminal-services-portal.md
   items:
-    - name: Contrôle ActiveX Bureau à distance
+    - name: contrôle de ActiveX Bureau à distance
       href: remote-desktop-activex-control.md
       items:
-        - name: Utilisation du contrôle ActiveX Bureau à distance
+        - name: utilisation du contrôle de ActiveX Bureau à distance
           href: using-remote-desktop-web-connection.md
           items:
-            - name: Incorporation du contrôle Bureau à distance ActiveX dans une page Web
+            - name: incorporation du contrôle Bureau à distance ActiveX dans une page web
               href: embedding-the-remote-desktop-activex-control-in-a-web-page.md
             - name: Implémentation de canaux virtuels scriptables à l’aide de Connexion Bureau à distance par le Web
               href: implementing-scriptable-virtual-channels-using-remote-desktop-web-connection.md
-            - name: Utilisation du contrôle ActiveX Bureau à distance avec des canaux virtuels
+            - name: utilisation du contrôle Bureau à distance ActiveX avec des canaux virtuels
               href: using-the-remote-desktop-activex-control-with-virtual-channels.md
-            - name: Exemple de page Web inclus avec le contrôle ActiveX Bureau à distance
+            - name: exemple de page web inclus avec le contrôle de ActiveX Bureau à distance
               href: sample-web-page-included-with-the-remote-desktop-activex-control.md
             - name: Fournir la sécurité du client RDP
               href: providing-for-rdp-client-security.md
             - name: Désactivation des fonctionnalités de Services Bureau à distance
               href: disabling-terminal-services-features.md
-        - name: Référence du contrôle ActiveX Bureau à distance
+        - name: référence de contrôle de ActiveX Bureau à distance
           href: remote-desktop-activex-control-reference.md
           items:
-            - name: Interfaces de contrôle ActiveX Bureau à distance
+            - name: interfaces de contrôle de ActiveX Bureau à distance
               href: remote-desktop-web-connection-reference.md
               items:
                 - name: IMsRdpCameraRedirConfig
@@ -806,7 +806,7 @@
                     - name: Méthodes IMsTscAx
                       href: imstscax-methods.md
                       items:
-                        - name: Méthode Connect
+                        - name: méthode Connecter
                           href: imstscax-connect.md
                         - name: Méthode CreateVirtualChannels
                           href: imstscax-createvirtualchannels.md
@@ -962,7 +962,7 @@
                       items:
                         - name: méthode attachEvent
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-attachevent
-                        - name: Méthode Connect
+                        - name: méthode Connecter
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect
                         - name: Méthode DeleteSavedCredentials
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-deletesavedcredentials
@@ -979,7 +979,7 @@
                       items:
                         - name: 'Action, propriété'
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_actions
-                        - name: Propriété de paramètres
+                        - name: 'Paramètres, propriété'
                           href: iremotedesktopclient-settings.md
                         - name: Propriété TouchPointer
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_touchpointer
@@ -1090,7 +1090,7 @@
                       items:
                         - name: Méthode ServerStartApp
                           href: itsremoteprogram3-serverstartapp.md
-            - name: Énumérations de contrôles ActiveX Bureau à distance
+            - name: énumérations de contrôle de ActiveX Bureau à distance
               href: remote-desktop-activex-control-enumerations.md
               items:
                 - name: ControlCloseStatus
@@ -1113,7 +1113,7 @@
                   href: /windows/win32/api/rdpappcontainerclient/ne-rdpappcontainerclient-snapshotencodingtype
                 - name: SnapshotFormatType
                   href: /windows/win32/api/rdpappcontainerclient/ne-rdpappcontainerclient-snapshotformattype
-            - name: Classes de contrôles ActiveX Bureau à distance
+            - name: Bureau à distance ActiveX les classes de contrôle
               href: remote-desktop-activex-control-classes.md
               items:
                 - name: MsRdpClient
@@ -1737,18 +1737,18 @@
               items:
                 - name: WRdsGraphicsChannelType
                   href: /windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype
-    - name: API de redirection multimédia RemoteFX
+    - name: RemoteFX API de redirection de média
       href: remotefx-api.md
       items:
-        - name: Informations de référence sur l’API de redirection multimédia RemoteFX
+        - name: RemoteFX Informations de référence sur l’API de redirection de média
           href: remotefx-media-redirection-api-reference.md
           items:
-            - name: Fonctions de l’API de redirection multimédia RemoteFX
+            - name: RemoteFX Fonctions de l’API de redirection de média
               href: remotefx-media-redirection-api-functions.md
               items:
                 - name: WTSSetRenderHint
                   href: /windows/desktop/api/WtsHintApi/nf-wtshintapi-wtssetrenderhint
-            - name: Interfaces d’API de redirection de média RemoteFX
+            - name: RemoteFX Interfaces d’API de redirection de média
               href: remotefx-media-redirection-api-interfaces.md
               items:
                 - name: IWTSBitmapRenderer
@@ -1775,7 +1775,7 @@
                   items:
                     - name: 'GetService, méthode'
                       href: /windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtspluginserviceprovider-getservice
-            - name: Structures de l’API de redirection de média RemoteFX
+            - name: RemoteFX Structures de l’API de redirection de média
               href: remotefx-media-redirection-api-structures.md
               items:
                 - name: BITMAP_RENDERER_STATISTICS
@@ -1934,11 +1934,11 @@
           items:
             - name: Les services Terminal Server sont désormais Services Bureau à distance
               href: terminal-services-is-now-remote-desktop-services.md
-            - name: Nouveautés de Windows 7
+            - name: nouveautés de Windows 7
               href: what-s-new-in-windows-7.md
-            - name: Nouveautés de Windows Server 2008 R2
+            - name: nouveautés de Windows Server 2008 R2
               href: what-s-new-in-windows-server-2008-r2.md
-            - name: Nouveautés de Windows Server 2008
+            - name: nouveautés de Windows Server 2008
               href: what-s-new-in-windows-server-2008.md
             - name: Nouveautés de Windows Vista
               href: what-s-new-in-windows-vista.md

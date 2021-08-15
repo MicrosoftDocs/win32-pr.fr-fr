@@ -3,7 +3,7 @@ title: Message PSM_APPLY (Prsht. h)
 description: Simule la sélection du bouton appliquer, indiquant qu’une ou plusieurs pages ont été modifiées et que les modifications doivent être validées et enregistrées.
 ms.assetid: 2948fb66-ad77-4552-88b6-455418515e4c
 keywords:
-- PSM_APPLY les contrôles de message Windows
+- PSM_APPLY les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67d798d4a9a2f780ac81cc84c90a57d0efd4e299
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f753eb2465ec835f467493bdbd83d10b8ba174b11c83abffcb91d20f8beba002
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544159"
 ---
 # <a name="psm_apply-message"></a>\_Message d’application PSM
 
@@ -47,7 +47,7 @@ Doit être zéro.
 
 Retourne la **valeur true** si toutes les pages ont correctement appliqué les modifications, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La feuille de propriétés envoie le code de notification [PSN \_ KILLACTIVE](psn-killactive.md) à la page actuelle. Si la page active retourne la **valeur false**, la feuille de propriétés envoie le code de notification d' [ \_ application PSN](psn-apply.md) à toutes les pages actives. Vous pouvez envoyer le \_ message d’application PSM de manière explicite ou à l’aide de la macro [**PropSheet \_ apply**](/windows/desktop/api/Prsht/nf-prsht-propsheet_apply) .
 
@@ -62,8 +62,8 @@ La feuille de propriétés envoie le code de notification [PSN \_ KILLACTIVE](ps
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

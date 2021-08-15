@@ -4,12 +4,12 @@ ms.assetid: b379a949-f90e-462e-8795-e3d33ea75559
 title: XMSHORTN4, opérateurs
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 638d04bc1826957b81eaf84e66b03b48f0dedccb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0abe85036fb86431e00db96aacaf2c6207246169a3f59b7b0f9c31b0afa0fae8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984879"
 ---
 # <a name="xmshortn4-operators"></a>XMSHORTN4, opérateurs
 

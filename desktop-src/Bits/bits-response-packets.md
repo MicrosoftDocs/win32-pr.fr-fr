@@ -4,12 +4,12 @@ description: Paquets de réponse BITS
 ms.assetid: 30755476-daa9-42ea-8fb3-5b505fc9dd75
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 755e28b749d201a2c90640ea9e456f012f790453
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ac0a77cab49b990cc736b652382555861ecc569e030bb3ddd2bf255f717d455f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119323559"
 ---
 # <a name="bits-response-packets"></a>Paquets de réponse BITS
 
@@ -27,11 +27,11 @@ Le tableau suivant répertorie les paquets de réponse envoyés au client BITS p
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

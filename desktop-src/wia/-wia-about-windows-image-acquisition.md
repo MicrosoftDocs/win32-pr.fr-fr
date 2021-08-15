@@ -1,19 +1,19 @@
 ---
-description: L’interface WIA (Windows Image Acquisition) est à la fois une API et une interface de pilote de périphérique (DDI).
+description: l’interface WIA (Windows Image Acquisition) est à la fois une API et une interface de pilote de périphérique (DDI).
 ms.assetid: 725543f8-6e33-4e22-904c-95cbec0388c8
-title: À propos de l’acquisition d’images Windows
+title: à propos de l’Acquisition d’images Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80eed6289f7a30476ea6889c947577ad003b656e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d73662083e568a109760a052994bfcbebdfcbe53f858e50a89728a01bba344d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451299"
 ---
-# <a name="about-windows-image-acquisition"></a>À propos de l’acquisition d’images Windows
+# <a name="about-windows-image-acquisition"></a>à propos de l’Acquisition d’images Windows
 
-L’interface WIA (Windows Image Acquisition) est à la fois une API et une interface de pilote de périphérique (DDI). L’API WIA est conçue pour permettre aux applications d’effectuer les opérations suivantes :
+l’interface WIA (Windows Image Acquisition) est à la fois une API et une interface de pilote de périphérique (DDI). L’API WIA est conçue pour permettre aux applications d’effectuer les opérations suivantes :
 
 -   S’exécute dans un environnement robuste et stable.
 -   Réduire les problèmes d’interopérabilité.

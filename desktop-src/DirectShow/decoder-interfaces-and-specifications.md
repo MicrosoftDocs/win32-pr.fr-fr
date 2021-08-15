@@ -4,12 +4,12 @@ ms.assetid: 51e00392-8557-4c79-a687-434ba993c1cb
 title: Interfaces et spécifications du décodeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 995659b9689a1498bbf0dbf8fb7961f2e1bd8907
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9c0a98d0dec2cfa05e4888c5dedcdd556ee9f0c98487613a51140c71db5b4733
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103950326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953168"
 ---
 # <a name="decoder-interfaces-and-specifications"></a>Interfaces et spécifications du décodeur
 
@@ -18,7 +18,7 @@ Cette section contient les rubriques suivantes relatives au développement de d�
 -   [Comment les décodeurs utilisent IAMVideoAccelerator](how-decoders-use-iamvideoaccelerator.md)
 -   [À propos de l’accélération vidéo DirectX](about-directx-video-acceleration.md)
 -   [Mappage de l’accélération vidéo DirectX sur IAMVideoAccelerator](mapping-directx-video-acceleration-to-iamvideoaccelerator.md)
--   [Développement d’un décodeur de DVD dans DirectShow](dvd-decoder-development-in-directshow.md)
+-   [Développement du décodeur de DVD dans DirectShow](dvd-decoder-development-in-directshow.md)
 -   [Contrôle du volume du décodeur](decoder-volume-control.md)
 
 ## <a name="related-topics"></a>Rubriques connexes

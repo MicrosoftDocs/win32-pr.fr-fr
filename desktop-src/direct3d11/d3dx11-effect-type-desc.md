@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae0f4e8af391fed5717f47bb4b80398129cb98ce
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cc045b40105a698c9d051de791991c49d2b6d0dd4672d50f344e8781999dd5c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103870181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989959"
 ---
 # <a name="d3dx11_effect_type_desc-structure"></a>D3DX11 \_ , \_ type d’effet DESC, \_ structure
 
@@ -159,11 +159,11 @@ Nombre d’octets à rechercher entre les éléments, lorsqu’ils sont disposé
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le \_ \_ type d’effet D3DX11 \_ desc est utilisé avec [ **ID3DX11EffectType :: GetDesc**](id3dx11effecttype-getdesc.md)
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

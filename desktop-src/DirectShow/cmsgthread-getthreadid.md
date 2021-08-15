@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0819810b9b7589fc5272c0e79f87fc2f34325f5e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4f3b0837a7f050f09794b06e490f45012e0704e187b02668cd2af2a5bf8edf34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119214098"
 ---
 # <a name="cmsgthreadgetthreadid-method"></a>Méthode CMsgThread. GetThreadID
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne le membre de données privées de l' **\_ ThreadID m** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction retourne l’identificateur Microsoft Win32 pour le thread de travail. Vous pouvez appeler cette fonction membre sur le thread de travail ou un thread client.
 
@@ -54,7 +54,7 @@ Cette fonction retourne l’identificateur Microsoft Win32 pour le thread de tra
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Msgthrd. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Msgthrd. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

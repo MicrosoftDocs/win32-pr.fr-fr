@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38357331db2440c35ca7557d08c97729fde9c9f0
-ms.sourcegitcommit: d6bf2018c588c9782e1eed21b3cdea3523ec6955
+ms.openlocfilehash: b572d62895a4f5df503df3ed78bfcf931af331ded25596267f0dd5b4286a4c4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "106527718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118877370"
 ---
 # <a name="isoftkbdsetsoftkeyboardcolors-method"></a>ISoftKbd :: SetSoftKeyboardColors, méthode
 
@@ -80,7 +80,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                             |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                   |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                        |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Softkbdc. h</dt> </dl>  |
 | MIDL<br/>                      | <dl> <dt>Softkbd. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9853dd37ead84e638f9ccb5e928b6d86bc9f5ab
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d47c347edf85cf5d5db330ed14a97bad7464571e74469d3c06608d20e544397a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544429"
 ---
 # <a name="ms-ds-source-object-dn-attribute"></a>attribut ms-DS-Source-Object-DN
 
@@ -43,7 +43,7 @@ Contient la représentation sous forme de chaîne du nom unique de l’objet dan
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

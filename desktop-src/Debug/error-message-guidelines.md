@@ -4,12 +4,12 @@ ms.assetid: 361833e4-b94f-4ef9-a8f5-adf543534a67
 title: Instructions relatives aux messages d’erreur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1787eabd43d660322577ac766880d76854c574e7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 14ceb2c89826ce45f39fdce2d0102e847c00245ba62ec3522e83725944b7f421
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103747733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119343489"
 ---
 # <a name="error-message-guidelines"></a>Instructions relatives aux messages d’erreur
 
@@ -23,7 +23,7 @@ Les messages d’erreur mal écrits peuvent être une source de frustration pour
 
 La longueur du texte n’est pas un problème tant que le développeur gère correctement les tailles de mémoire tampon. Il est important que l’utilisateur dispose de toutes les informations nécessaires pour résoudre le problème. Si un message comporte plusieurs audiences, vous devrez peut-être fournir un texte distinct pour les administrateurs, les utilisateurs finaux et les développeurs.
 
-## <a name="best-practices"></a>Bonnes pratiques
+## <a name="best-practices"></a>Meilleures pratiques
 
 Voici les façons d’améliorer vos messages d’erreur :
 

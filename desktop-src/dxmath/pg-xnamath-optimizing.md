@@ -4,12 +4,12 @@ ms.assetid: bcbf8ae1-ed49-fdf7-812d-b2089537ab28
 title: Optimisation du code avec la bibliothèque DirectXMath
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15369ab36e199eb1a204cc4b761dc637f114f2a1
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 263434b5e7295f630f284517299cec036b33b064d35dc5085a83d67c8244366a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111827253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984719"
 ---
 # <a name="code-optimization-with-the-directxmath-library"></a>Optimisation du code avec la bibliothèque DirectXMath
 
@@ -35,7 +35,7 @@ Dans la mesure du possible, il est plus efficace d’initialiser tous les compos
 
 ## <a name="use-correct-compilation-settings"></a>Utiliser les paramètres de compilation corrects
 
-Pour les cibles Windows x86, activez/arch : SSE2. Pour toutes les cibles Windows, activez/FP : Fast.
+pour Windows cibles x86, activez/arch : SSE2. pour toutes les cibles de Windows, activez/fp : fast.
 
 Par défaut, la compilation par rapport à la bibliothèque DirectXMath pour les cibles x86 des fenêtres est effectuée avec des \_ \_ \_ intrinsèques SSE \_ définis. Cela signifie que toutes les fonctionnalités de DirectXMath utilisent des instructions SSE2. Toutefois, ce n’est pas le cas pour un autre code.
 
@@ -61,14 +61,14 @@ Par exemple, il existe une structure [**XMFLOAT4X4**](/windows/win32/api/directx
 
 Les versions alignées des intrinsèques [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) sous-jacents de la bibliothèque DirectXMath sont plus rapides que le non aligné.
 
-Pour cette raison, les opérations DirectXMath utilisant des objets [**XMVECTOR**](xmvector-data-type.md) et [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) supposent que ces objets sont alignés sur 16 octets. Cela est automatique pour les allocations basées sur la pile, si le code est compilé par rapport à la bibliothèque DirectXMath à l’aide des paramètres du compilateur Windows (consultez [utiliser des paramètres de compilation corrects](#use-correct-compilation-settings)). Toutefois, il est important de s’assurer que l’allocation du tas contenant les objets **XMVECTOR** et **XMMATRIX** , ou les casts vers ces types, répondent à ces exigences d’alignement.
+Pour cette raison, les opérations DirectXMath utilisant des objets [**XMVECTOR**](xmvector-data-type.md) et [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) supposent que ces objets sont alignés sur 16 octets. cela est automatique pour les allocations basées sur la pile, si le code est compilé par rapport à la bibliothèque DirectXMath à l’aide de la Windows recommandée (consultez [utiliser la Compilation correcte Paramètres](#use-correct-compilation-settings)) paramètres du compilateur. Toutefois, il est important de s’assurer que l’allocation du tas contenant les objets **XMVECTOR** et **XMMATRIX** , ou les casts vers ces types, répondent à ces exigences d’alignement.
 
-Alors que les allocations de mémoire Windows 64 bits sont alignées sur 16 octets, par défaut sur les versions 32 bits de la mémoire Windows allouée est uniquement alignée sur 8 octets. Pour plus d’informations sur le contrôle de l’alignement de la mémoire, consultez [ \_ \_ malloc aligné](https://docs.microsoft.com/cpp/c-runtime-library/reference/aligned-malloc).
+alors que les allocations de mémoire 64 bits Windows sont alignées sur 16 octets, par défaut sur les versions 32 bits de Windows mémoire allouée est uniquement alignée sur 8 octets. Pour plus d’informations sur le contrôle de l’alignement de la mémoire, consultez [ \_ \_ malloc aligné](https://docs.microsoft.com/cpp/c-runtime-library/reference/aligned-malloc).
 
 Lorsque vous utilisez des types DirectXMath alignés avec la bibliothèque STL (Standard Template Library), vous devez fournir un allocateur personnalisé qui garantit l’alignement sur 16 octets. Consultez le [blog](https://devblogs.microsoft.com/cppblog/the-mallocator/) de l’équipe Visual C++ pour obtenir un exemple d’écriture d’un allocateur personnalisé (au lieu de malloc/Free, vous souhaiterez utiliser \_ \_ le malloc aligné et l' \_ alignement \_ gratuit dans votre implémentation).
 
 > [!Note]  
-> Certains modèles STL modifient l’alignement du type fourni. Par exemple, [créez un \_<>partagé ](/cpp/standard-library/memory-functions?view=vs-2017&preserve-view=true) pour ajouter des informations de suivi internes qui peuvent ou non respecter l’alignement du type d’utilisateur fourni, ce qui entraîne des données membres non alignées. Dans ce cas, vous devez utiliser des types non alignés au lieu de types alignés. Si vous dérivez de classes existantes, y compris de nombreux objets Windows Runtime, vous pouvez également modifier l’alignement d’une classe ou d’une structure.
+> Certains modèles STL modifient l’alignement du type fourni. Par exemple, [créez un \_<>partagé ](/cpp/standard-library/memory-functions?view=vs-2017&preserve-view=true) pour ajouter des informations de suivi internes qui peuvent ou non respecter l’alignement du type d’utilisateur fourni, ce qui entraîne des données membres non alignées. Dans ce cas, vous devez utiliser des types non alignés au lieu de types alignés. si vous dérivez de classes existantes, y compris de nombreux objets Windows Runtime, vous pouvez également modifier l’alignement d’une classe ou d’une structure.
 
  
 
@@ -92,7 +92,7 @@ La modification de la gestion des dénormals s’effectue à l’aide de la rout
 
 
 > [!Note]  
-> Sur les versions 64 bits de Windows, les instructions [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) sont utilisées pour tous les calculs, pas seulement pour les opérations de vecteur. La modification du traitement dénormal affecte tous les calculs à virgule flottante dans votre programme, pas seulement les opérations vectorielles utilisées par DirectXMath.
+> sur les versions 64 bits de Windows, les instructions [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) sont utilisées pour tous les calculs, pas seulement pour les opérations de vecteur. La modification du traitement dénormal affecte tous les calculs à virgule flottante dans votre programme, pas seulement les opérations vectorielles utilisées par DirectXMath.
 
  
 

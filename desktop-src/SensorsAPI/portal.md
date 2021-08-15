@@ -4,12 +4,12 @@ ms.assetid: a6ea76e6-9721-453a-a657-96f53660e09d
 title: API Sensor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a36259910fb7583c91b695f69066aa2abf9be1e0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: fc5c3fd3cbdbf2aac9a161a6cb8bc150d2828c2d48a346b94843878cda49a6a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889670"
 ---
 # <a name="sensor-api"></a>API Sensor
 
@@ -23,9 +23,9 @@ Par exemple, les moteurs automobiles utilisent généralement divers capteurs. C
 
 Alors que le Doorbell purement mécanique répond à son objectif, les informations fournies par les capteurs complexes deviennent beaucoup plus puissantes lorsqu’il est associé à un logiciel. Les capteurs modernes peuvent fournir beaucoup de données très rapidement et dans différents formats, de sorte que les logiciels fournissent un mécanisme naturel pour la prise en main des données de capteur.
 
-Aujourd’hui, les développeurs de logiciels peuvent écrire des programmes qui utilisent des capteurs, mais un manque de normalisation rend la programmation des capteurs une tâche ardue. Une fois qu’un programme basé sur un capteur est terminé, il est généralement toujours dépendant d’un type de matériel particulier. L’utilisation d’une ou de plusieurs solutions verticales pour permettre le déploiement d’un système basé sur des logiciels a limité l’intégration des capteurs au matériel informatique et, jusqu’à présent, les ordinateurs Windows n’ont pas été d’exception.
+Aujourd’hui, les développeurs de logiciels peuvent écrire des programmes qui utilisent des capteurs, mais un manque de normalisation rend la programmation des capteurs une tâche ardue. Une fois qu’un programme basé sur un capteur est terminé, il est généralement toujours dépendant d’un type de matériel particulier. l’utilisation d’une ou de plusieurs solutions verticales pour permettre le déploiement d’un système basé sur des logiciels a limité l’intégration des capteurs au matériel informatique et, jusqu’à présent, les ordinateurs Windows ne sont pas une exception.
 
-Windows 7 inclut la prise en charge native des capteurs, développée par une nouvelle plateforme de développement pour l’utilisation de capteurs, y compris les capteurs d’emplacement, tels que les périphériques GPS. La plate-forme capteur et emplacement Windows offre aux fabricants de périphériques un moyen standard d’exposer des appareils de capteur à des développeurs de logiciels et à des consommateurs, tout en offrant aux développeurs une interface de programmation d’applications (API) standardisée pour l’utilisation des capteurs et des données de capteur.
+Windows 7 inclut la prise en charge native des capteurs, développée par une nouvelle plateforme de développement pour l’utilisation de capteurs, y compris les capteurs d’emplacement, tels que les périphériques GPS. le capteur de Windows et la plateforme d’emplacement offrent aux fabricants de périphériques un moyen standard d’exposer des appareils de capteur à des développeurs de logiciels et à des consommateurs, tout en offrant aux développeurs une interface de programmation d’applications (API) standardisée pour l’utilisation des capteurs et des données de capteur.
 
 Les capteurs sont des appareils ou des mécanismes qui peuvent mesurer des phénomènes physiques, fournir des données descriptives ou fournir des informations sur l’état d’un objet ou d’un environnement physique. Les ordinateurs peuvent utiliser des capteurs intégrés, des capteurs connectés via des connexions câblées ou sans fil, ou des capteurs qui fournissent des données via un réseau ou Internet.
 
@@ -42,7 +42,7 @@ L’API de capteur vous permet également de définir des catégories, des types
 
 L’API de capteur fournit ses fonctionnalités via un ensemble d’interfaces COM. Cette documentation suppose que vous avez une connaissance pratique de la programmation à l’aide du langage de programmation C++, et que vous avez une compréhension élémentaire de l’utilisation des objets et des interfaces COM. Par souci de concision, de nombreux exemples de code dans cette documentation (ainsi que dans les exemples de code) utilisent des objets Active Template Library (ATL) pour implémenter les fonctionnalités COM.
 
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 -   [Prise en main](getting-started.md)
 -   [À propos de l’API de capteur](about-the-sensor-api.md)

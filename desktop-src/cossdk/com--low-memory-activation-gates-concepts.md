@@ -4,12 +4,12 @@ ms.assetid: 0de125a2-2e91-49b9-a903-6c2e173e22a2
 title: Concepts de la passerelle d’activation COM+ Low-Memory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37d844a0492301ef067f5b3cd0e0749ec3a21779
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 09b4c34e10dcb18a88566d1bc45bb6751e500767c34a2e17cf8cdf12f0f1930c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "103953303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129175"
 ---
 # <a name="com-low-memory-activation-gates-concepts"></a>Concepts de la passerelle d’activation COM+ Low-Memory
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e8a0d1c211b50379451c8b04830e9c97fe988137
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dc07336edb5f7bb8672fbbec415b0a3b312335a3a3a4b0de32aec4fdde558363
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988499"
 ---
 # <a name="d3dxfiltertexture-function"></a>D3DXFilterTexture fonction)
 
@@ -85,7 +85,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un filtre est appliqué de manière récursive à chaque niveau de texture pour générer le niveau de texture suivant.
 

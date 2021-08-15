@@ -4,12 +4,12 @@ ms.assetid: 012bad01-228a-4bb0-b883-0c2c7abd9271
 title: Algorithmes de chiffrement de signature numérique XML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 896348375d1d1a51288980aad3793dfffc69eb18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 290be3708565cf144b5bf23bfcb1ddfe5252b227c12bbcebbd81b68d0fc2df07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895784"
 ---
 # <a name="xml-digital-signature-cryptographic-algorithms"></a>Algorithmes de chiffrement de signature numérique XML
 

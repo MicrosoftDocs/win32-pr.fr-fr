@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 74020f302a26162df1e42cb4c9f020af3f64e59c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 95ae2ea24547f566a6da014f408dbfbce5be3112a61688f69e125e91d6085493
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106527282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119241419"
 ---
 # <a name="d3dxcolorscale-function"></a>D3DXColorScale fonction)
 
@@ -75,7 +75,7 @@ Type : **[ **D3DXCOLOR**](d3dxcolor.md)\***
 
 Cette fonction retourne un pointeur vers une structure [**D3DXCOLOR**](d3dxcolor.md) qui est la valeur de couleur mise à l’échelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction **D3DXColorScale** peut être utilisée comme paramètre pour une autre fonction.
 

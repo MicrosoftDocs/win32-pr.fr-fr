@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 2863915b850588d4db018693d9081ed2907d644a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 039b7dd4579419bac744a07bbc6ddd55c4b0b2e2e713340bf256fdb95d8fc071
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450209"
 ---
 # <a name="iwiatransferdownload-method"></a>IWiaTransfer ::D méthode lécharger
 
@@ -53,9 +53,9 @@ Actuellement inutilisé. Doit être défini sur zéro (0).
 *pIWiaTransferCallback* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWiaTransferCallback**](-wia-iwiatransfercallback.md) \** _
+Type : **[ **IWiaTransferCallback**](-wia-iwiatransfercallback.md)\***
 
-Spécifie un pointeur vers l’interface [_ *IWiaTransferCallback* *](-wia-iwiatransfercallback.md) de l’appelant.
+Spécifie un pointeur vers l’interface [**IWiaTransferCallback**](-wia-iwiatransfercallback.md) de l’appelant.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si un dossier est téléchargé, tous les éléments enfants de ce dossier sont également transférés. Chaque élément est transféré dans un flux distinct.
 
@@ -75,8 +75,8 @@ Si un dossier est téléchargé, tous les éléments enfants de ce dossier sont 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl>     |
 | Bibliothèque<br/>                  | <dl> <dt>Wiaguid. lib</dt> </dl> |

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b736bf6c44d4ada6e0a28408c449c9f8b2f1e1cb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: db138093695787ce0cfb2d37133581bfc10ba3a729b924f8e380be170b54bc9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119384109"
 ---
 # <a name="cdrawimageslowrender-method"></a>Méthode CDrawImage. SlowRender
 
@@ -53,7 +53,7 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si [**CDrawImage :: UsingImageAllocator**](cdrawimage-usingimageallocator.md) retourne **false**, la méthode [**CDrawImage ::D rawimage**](cdrawimage-drawimage.md) utilise `SlowRender` pour dessiner l’image vidéo. Dans le cas contraire, DrawImage utilise la méthode **FastRender** .
 
@@ -63,7 +63,7 @@ Si [**CDrawImage :: UsingImageAllocator**](cdrawimage-usingimageallocator.md) r
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

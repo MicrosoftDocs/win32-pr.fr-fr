@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Quartz.dll
-ms.openlocfilehash: 0a0126266fc33dca030abad65ccf9f0d35f6e195
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 81c2ba3a56ba9c09a2ce7b23bcad1a83880e61256402c291b5aebde9988218c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428669"
 ---
 # <a name="iamfilterdatacreatefilterdata-method"></a>IAMFilterData :: CreateFilterData, méthode
 
@@ -29,7 +29,7 @@ ms.locfileid: "111989454"
 
 La `CreateFilterData` méthode crée des données de Registre binaires pour un filtre. Ces données peuvent être écrites dans le Registre sous la forme d’une \_ sous-clé binaire reg nommée FilterData, sous la clé CLSID du filtre.
 
-Il n’y a généralement aucune raison pour qu’une application appelle cette méthode. La méthode [**IFilterMapper2 :: RegisterFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter) crée automatiquement les données binaires et les ajoute à l’emplacement approprié dans le registre. Pour plus d’informations, consultez [comment inscrire des filtres DirectShow](how-to-register-directshow-filters.md).
+Il n’y a généralement aucune raison pour qu’une application appelle cette méthode. La méthode [**IFilterMapper2 :: RegisterFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter) crée automatiquement les données binaires et les ajoute à l’emplacement approprié dans le registre. pour plus d’informations, consultez [comment inscrire des filtres de DirectShow](how-to-register-directshow-filters.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -69,18 +69,18 @@ Pointeur vers une variable qui reçoit la taille des données binaires, en octet
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la méthode est réussie, elle retourne la valeur \_ OK. En cas d'échec, retourne un code d'erreur.
 
 ## <a name="remarks"></a>Remarques
 
 > [!Note]  
-> L’en-tête de \_ données. h se trouve dans le répertoire de l' [exemple du mappeur](mapper-sample.md) dans le SDK Windows.
+> l’en-tête de \_ données. h se trouve dans le répertoire de l' [exemple du mappeur](mapper-sample.md) dans le SDK Windows.
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

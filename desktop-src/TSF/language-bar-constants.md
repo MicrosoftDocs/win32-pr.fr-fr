@@ -11,12 +11,12 @@ keywords:
 - barre de langue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c181a49a93f7040c1869e5c39d6eca9c1b84ef51
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e042f96fc02d9ec80042649942e911d3e4373bceedce6fe235da86a90cba8f30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118876829"
 ---
 # <a name="language-bar-constants"></a>Constantes de barre de langue
 
@@ -31,9 +31,9 @@ Les constantes de la barre de langue se composent des catégories suivantes.
 -   [TF \_ LBMENUF, \_ \* constantes](tf-lbmenuf--constants.md)
 -   [\_ \_ \* Constantes TF SFT](tf-sft--constants.md)
 
- 
+ 
 
- 
+ 
 
 
 

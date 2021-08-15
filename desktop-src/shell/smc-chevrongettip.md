@@ -4,12 +4,12 @@ ms.assetid: 7bce4079-994c-4eb0-ab86-9044701d85a1
 title: Message SMC_CHEVRONGETTIP (ShObjIdl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 118056627d19990648e81b69aa355f3df99ec286
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e64636994743d4b13a96fe75947fb515c4dbd3edcc94e6dee0fa85efb8bc9d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968238"
 ---
 # <a name="smc_chevrongettip-message"></a>\_Message SMC CHEVRONGETTIP
 
@@ -47,11 +47,11 @@ Pointeur vers une mémoire tampon qui reçoit une chaîne Unicode terminée par 
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette notification est reçue par la méthode [**IShellMenuCallback :: CallbackSM**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

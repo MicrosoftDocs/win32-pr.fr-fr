@@ -1,6 +1,6 @@
 ---
 title: Outil compilateur WsUtil
-description: L’outil compilateur de services Web Windows, WsUtil.exe, prend en charge le modèle de service et la sérialisation des types de données. Il traite les documents WSDL, de schéma et de stratégie XML et génère des en-têtes et des fichiers sources C.
+description: l’outil Windows compilateur de Services Web, WsUtil.exe, prend en charge le modèle de service et la sérialisation des types de données. Il traite les documents WSDL, de schéma et de stratégie XML et génère des en-têtes et des fichiers sources C.
 ms.assetid: 7fc3f1bd-ead2-4095-9592-d2ad88d56e7a
 keywords:
 - Services Web de l’outil compilateur WsUtil pour Windows
@@ -8,16 +8,16 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa83da50888fcf2d66fac7fb00b3a31ae2919738
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 6a9a4e5761a068e991463451595c410c01f868d4d3e6c9df6ab25a7cb232d678
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103941485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119324899"
 ---
 # <a name="wsutil-compiler-tool"></a>Outil compilateur WsUtil
 
-L’outil compilateur de services Web Windows, WsUtil.exe, prend en charge le [modèle de service](service-model-layer-overview.md) et la [sérialisation](serialization.md) des types de données. Il traite les documents WSDL, de schéma et de stratégie XML et génère des en-têtes et des fichiers sources C. Cet outil est similaire à l’outil compilateur WSDL pour le code managé, mais il est destiné au code natif à la place.
+l’outil Windows compilateur de Services Web, WsUtil.exe, prend en charge le [modèle de service](service-model-layer-overview.md) et la [sérialisation](serialization.md) des types de données. Il traite les documents WSDL, de schéma et de stratégie XML et génère des en-têtes et des fichiers sources C. Cet outil est similaire à l’outil compilateur WSDL pour le code managé, mais il est destiné au code natif à la place.
 
 Pour prendre en charge le [modèle de service](service-model-layer-overview.md), WsUtil.exe génère des en-têtes à utiliser à la fois pour le client et le service. Il génère un fichier proxy C pour le côté client et des fichiers stub C pour le côté service, si nécessaire.
 

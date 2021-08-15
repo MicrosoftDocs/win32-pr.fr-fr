@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dffac6c3a912cd85d1a23ef43cb348e0231d6309
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ac579b1e1be1cf54a26c5a8628fb73390d3d4c1138d4f928fa716650d5ddabbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118880997"
 ---
 # <a name="systemmonitoryaxislabel-property"></a>SystemMonitor. YAxisLabel, propriété
 
@@ -42,7 +42,7 @@ Property YAxisLabel As String
 
 Étiquette de l’axe vertical (Y) du graphique. La longueur maximale du titre est de 128 caractères. Si le titre dépasse 128 caractères, le titre est tronqué.
 
-**Windows XP et windows 2000 :** Il n’existe aucune limite à la longueur du titre.
+**Windows XP et Windows 2000 :** Il n’existe aucune limite à la longueur du titre.
 
 ## <a name="requirements"></a>Configuration requise
 

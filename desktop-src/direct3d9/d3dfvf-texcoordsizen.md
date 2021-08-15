@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: 58288667954e3414aa3d8ae1550e02e7216ffb4e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f5a39827f94f0415d6235797489f6e18c5fb515a5e5c36c0f26153b7ba8303ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988909"
 ---
 # <a name="d3dfvf_texcoordsizen"></a>D3DFVF \_ TEXCOORDSIZEN
 
@@ -44,7 +44,7 @@ Construit des modèles binaires utilisés pour identifier les formats de coordon
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les macros **\_ TEXCOORDSIZEN D3DFVF** utilisent les constantes suivantes.
 

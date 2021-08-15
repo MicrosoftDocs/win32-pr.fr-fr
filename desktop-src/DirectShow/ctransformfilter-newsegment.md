@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0fd046288886d3e7619419dd591dd94310f56020
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2cb83c376b012ae3474f87b0f8d26c7fb5560812c1d8ddcbb3ea62293797bb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953548"
 ---
 # <a name="ctransformfilternewsegment-method"></a>Méthode CTransformFilter. NewSegment
 
@@ -69,7 +69,7 @@ Vitesse à laquelle le segment doit être traité.
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**CTransformInputPin :: NewSegment**](ctransforminputpin-newsegment.md) du code confidentiel d’entrée appelle cette méthode. Cette méthode remet l' `NewSegment` appel à la broche d’entrée en aval.
 
@@ -79,7 +79,7 @@ La méthode [**CTransformInputPin :: NewSegment**](ctransforminputpin-newsegmen
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transfrm. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Transfrm. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

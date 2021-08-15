@@ -1,5 +1,5 @@
 ---
-description: Met à niveau un volume du format Windows Vista vers le format Windows 7.
+description: met à niveau un volume du format Windows Vista au format Windows 7.
 ms.assetid: d6654e92-8176-471b-b8e5-815dd9512240
 title: Méthode UpgradeVolume de la classe Win32_EncryptableVolume
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 6769e8a4a480becc5a5584826f60cdb85f8b90e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 721676b0aa135903e0e139bf719e072c3af8b6af33118f168453880fb7329413
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891039"
 ---
 # <a name="upgradevolume-method-of-the-win32_encryptablevolume-class"></a>Méthode UpgradeVolume de la \_ classe Win32 EncryptableVolume
 
-La méthode **UpgradeVolume** de la classe [**Win32 \_ EncryptableVolume**](win32-encryptablevolume.md) met à niveau un volume du format Windows Vista vers le format Windows 7. Il s’agit d’une opération non réversible.
+la méthode **UpgradeVolume** de la classe [**Win32 \_ EncryptableVolume**](win32-encryptablevolume.md) met à niveau un volume du format Windows Vista au format Windows 7. Il s’agit d’une opération non réversible.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -58,9 +58,9 @@ Si le volume est déjà déverrouillé et qu’aucune autre erreur ne se produit
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -68,8 +68,8 @@ Les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 7 entreprise, les applications de bureau Windows 7 édition intégrale \[ uniquement\]<br/>                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows 7 Entreprise, Windows 7 Édition Intégrale des \[ applications de bureau uniquement\]<br/>                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |
 

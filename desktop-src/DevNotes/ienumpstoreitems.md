@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: 11ca255cb13d998d16596bc7cc54d28d2415b227
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f5952dbaff2560ae4c2fc59af73246c2cd5c1d050bb53bc3c7b9091c8a39822f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119542239"
 ---
 # <a name="ienumpstoreitems-interface"></a>Interface IEnumPStoreItems
 
-\[Le stockage protégé (PStore) peut être utilisé dans Windows Server 2003 et Windows XP. Elle est uniquement disponible pour les opérations en lecture seule dans Windows Server 2008 et Windows Vista, mais elle peut ne pas être disponible dans les versions ultérieures. Pstore utilise une implémentation plus ancienne de la protection des données. Les développeurs sont vivement encouragés à tirer parti de la protection renforcée des données fournie par les fonctions [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) et [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) .\]
+\[le Stockage protégé (Pstore) peut être utilisé dans Windows Server 2003 et Windows XP. elle est uniquement disponible pour les opérations en lecture seule dans Windows Server 2008 et Windows Vista, mais elle peut ne pas être disponible dans les versions ultérieures. Pstore utilise une implémentation plus ancienne de la protection des données. Les développeurs sont vivement encouragés à tirer parti de la protection renforcée des données fournie par les fonctions [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) et [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) .\]
 
 Fournit les méthodes d’énumération COM-standard pour l’interface [**IPStore**](ipstore.md) .
 
@@ -42,14 +42,14 @@ L’interface **IEnumPStoreItems** possède ces méthodes.
 |:----------------------------------------|:---------------------------------------------------------------------------------------------------|
 | [**Répliqué**](ienumpstoreitems-clone.md) | Crée un autre énumérateur qui contient le même état d’énumération que l’énumérateur actuel.<br/> |
 | [**Suivant**](ienumpstoreitems-next.md)   | Obtient l’élément de données spécifié suivant dans la séquence d’énumération.<br/>                          |
-| [**Réinitialiser**](ienumpstoreitems-reset.md) | Réinitialise au début de la séquence d’énumération.<br/>                                    |
+| [**Initialisation**](ienumpstoreitems-reset.md) | Réinitialise au début de la séquence d’énumération.<br/>                                    |
 | [**Saut**](ienumpstoreitems-skip.md)   | Ignore l’élément de données spécifié dans la séquence d’énumération.<br/>                              |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il est nécessaire de libérer chaque élément après l’avoir énuméré. L’objet énumérateur doit également être libéré lorsqu’il n’est plus utilisé.
 

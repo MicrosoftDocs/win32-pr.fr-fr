@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5683fb1c85e470ca7c82b069929de0351ea7cffe
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5ff6f08e257acf85a8a3f073f43c3c81e65817900f8154e1701ab73fe10c2368
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103869878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119253779"
 ---
 # <a name="monthlytriggermonthsofyear-property"></a>MonthlyTrigger. MonthsOfYear, propriété
 
@@ -40,7 +40,7 @@ MonthlyTrigger.MonthsOfYear As short
 
 Un masque de bits qui indique les mois de l’année pendant laquelle la tâche s’exécute.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le tableau suivant montre le mappage du masque de bits utilisé par cette propriété.
 
@@ -73,8 +73,8 @@ Lors de la lecture ou de l’écriture de votre propre XML pour une tâche, les 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: 11878e6a0ac953b9b7eb27ce21bb67001f9d88d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e5f3060f261ba84b70272ed358a7c544f2b0e1582de310ed759b4ea40714359
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967758"
 ---
 # <a name="calldivideresults-function"></a>CallDivideResults fonction)
 
@@ -169,7 +169,7 @@ Cette fonction peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour éviter les fuites de mémoire, vous devez libérer les ressources pour *pastrWords*, *pastrLines* et *pastrParagraphs*.
 
@@ -179,7 +179,7 @@ Pour éviter les fuites de mémoire, vous devez libérer les ressources pour *pa
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                         |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                         |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | Bibliothèque<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

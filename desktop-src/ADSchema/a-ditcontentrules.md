@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 399529237cb7a9f2c4bf1803255f546184ad47f3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c5e7024d8d9caed48b6a2cdfc4c5e6bbe18fad66da6a7de2e5efdef483ed7ac4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119326589"
 ---
 # <a name="dit-content-rules-attribute"></a>DIT-content-Rules (attribut)
 
@@ -46,7 +46,7 @@ Cela spécifie le contenu autorisé des entrées d’une classe d’objets struc
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

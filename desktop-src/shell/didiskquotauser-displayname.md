@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 2951c2fb-1682-4ec2-bb48-470a7c2d2b15
-ms.openlocfilehash: 51e708bb406a79e7cfdd29c7a4a23f414e93335d
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: a9232540551e6f7efd76969e1677cc7cadb5380d93ecc16bfe07c7cfb4bd8b2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969458"
 ---
 # <a name="didiskquotauserdisplayname-property"></a>DIDiskQuotaUser. DisplayName, propriété
 
@@ -39,11 +39,11 @@ DisplayName = DIDiskQuotaUser.DisplayName
 
 Valeur de chaîne qui est définie sur le nom d’affichage de l’utilisateur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété contient le nom convivial de l’utilisateur. Sa valeur n’est pas nécessairement définie.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

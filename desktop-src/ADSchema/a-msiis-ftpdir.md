@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3067476e7dc275dbe14471d6c3c98fa5445a9dfe
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8599d484609a28fbd80763215eccd4b0299bf8ec190a8804a2f6994114245ae6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119543949"
 ---
 # <a name="ms-iis-ftp-dir-attribute"></a>attribut MS-IIS-FTP-dir
 
@@ -44,7 +44,7 @@ Cet attribut détermine le répertoire de démarrage de l’utilisateur par rapp
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -34,12 +34,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab1eec96b5d4fde20add891cc742c76c14ebe7ed
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: be6e72c5441b7eaa79b7bfeceb4e910b09041b72fb90dc58a54abda73baf9109
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118855327"
 ---
 # <a name="imsrdpclientadvancedsettings5redirectdevices-property"></a>IMsRdpClientAdvancedSettings5 :: RedirectDevices, propriété
 

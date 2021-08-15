@@ -1,19 +1,19 @@
 ---
-description: Que vous choisissiez de convertir vos packages MTS en applications COM+ manuellement ou que le processus d’installation de Microsoft Windows le fasse automatiquement, vous devez être conscient des résultats de la conversion, ainsi que des problèmes rencontrés.
+description: que vous choisissiez de convertir vos packages MTS en applications COM+ manuellement ou que le processus d’installation de Microsoft Windows le fasse automatiquement, vous devez être conscient des résultats de la conversion, ainsi que des problèmes rencontrés.
 ms.assetid: 5b85aa5c-0409-4802-9335-04217ef5ddb9
 title: Résultats et problèmes de conversion COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ded68e8e81d2c59c90607747c5f343dac364424
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a347df5f0ad0b16aee509c9c1b2c2c848372d0df2ccbc376814b0d14eb61d138
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129211"
 ---
 # <a name="com-conversion-results-and-issues"></a>Résultats et problèmes de conversion COM+
 
-Que vous choisissiez de convertir vos packages MTS en applications COM+ manuellement ou que le processus d’installation de Microsoft Windows le fasse automatiquement, vous devez être conscient des résultats de la conversion, ainsi que des problèmes rencontrés.
+que vous choisissiez de convertir vos packages MTS en applications COM+ manuellement ou que le processus d’installation de Microsoft Windows le fasse automatiquement, vous devez être conscient des résultats de la conversion, ainsi que des problèmes rencontrés.
 
 ## <a name="what-is-converted"></a>Ce qui est converti
 
@@ -31,7 +31,7 @@ COM+ est installé automatiquement lorsque vous installez Windows. Il n’est pa
 
 -   Si vous utilisez actuellement MTS 1,0, MTS est automatiquement mis à niveau vers COM+. Toutefois, les packages définis par l’utilisateur sont perdus et vous devez les recréer.
 -   Si vous utilisez actuellement MTS 2,0, MTS est automatiquement mis à niveau vers COM+. Tous les packages définis par l’utilisateur seront mis à niveau vers les applications COM+. Tous les composants doivent fonctionner comme dans MTS 2,0.
--   Si vous utilisez MTS 1,0 et MTS 2,0 et que vous avez installé l’option du kit de développement logiciel (SDK), les fichiers du SDK seront supprimés. Vous pouvez installer la dernière version du kit de développement logiciel (SDK) COM+ via le Microsoft Windows SDK.
+-   Si vous utilisez MTS 1,0 et MTS 2,0 et que vous avez installé l’option du kit de développement logiciel (SDK), les fichiers du SDK seront supprimés. vous pouvez installer la dernière version du kit de développement logiciel (SDK) COM+ via le Microsoft Windows SDK.
 -   Vous ne pouvez pas gérer un ordinateur MTS distant à partir d’un ordinateur COM+.
 
 ## <a name="related-topics"></a>Rubriques connexes

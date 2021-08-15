@@ -3,7 +3,7 @@ title: Command. LabelDescription, propriété
 description: Représente une description de l’étiquette.
 ms.assetid: 6c683e9e-0742-466e-9fdd-3d29f8ccb9ff
 keywords:
-- Ruban Windows de la propriété Command. LabelDescription
+- propriété Command. LabelDescription Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f748425b4c8363feee737d18c750b3a1d91121b5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9051b4f645744416f290906559e054405726f36f9616e8f38f3cfbae357137dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964208"
 ---
 # <a name="commandlabeldescription-property"></a>Command. LabelDescription, propriété
 
 Représente une description de l’étiquette.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Command.LabelDescription>
@@ -55,9 +55,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**commande**](windowsribbon-element-command.md).
 
@@ -155,8 +155,8 @@ L’exemple suivant montre un manifeste de commandes du presse-papiers avec diff
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

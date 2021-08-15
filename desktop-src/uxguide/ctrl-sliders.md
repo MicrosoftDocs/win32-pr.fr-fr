@@ -4,17 +4,17 @@ description: Avec un curseur, les utilisateurs peuvent choisir parmi une plage d
 ms.assetid: dee70fbc-6f18-43c7-9d41-4e97eac41e53
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 7ff9791ab49c338e4c11e014a3e996771571add9
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 73c6ae0cc490c338ec552d0e23e829c791689f6f822d324feaa863ccbb441d73
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104556300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119349892"
 ---
 # <a name="sliders-design-basics"></a>Curseurs (concepts de base de la conception)
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Avec un curseur, les utilisateurs peuvent choisir parmi une plage de valeurs continue. Un curseur a une barre qui affiche la plage et un indicateur qui affiche la valeur actuelle. Les graduations facultatives affichent des valeurs.
 
@@ -56,7 +56,7 @@ Utilisez un curseur si :
 -   **Orientez le curseur pour refléter la culture de vos utilisateurs.** Par exemple, les cultures occidentales se lisent de gauche à droite, donc pour les curseurs horizontaux, placez l’extrémité inférieure de la plage à gauche et l’extrémité supérieure à droite. Pour les cultures qui lisent de droite à gauche, effectuez l’inverse.
 -   **Dimensionnez le contrôle afin qu’un utilisateur puisse facilement définir la valeur souhaitée.** Pour les paramètres ayant des valeurs distinctes, assurez-vous que l’utilisateur peut facilement sélectionner n’importe quelle valeur à l’aide de la souris.
 -   **Envisagez d’utiliser une échelle non linéaire si la plage de valeurs est importante et que les utilisateurs sélectionneront probablement des valeurs à une extrémité de la plage.** Par exemple, la valeur de temps peut être 1 minute, 1 heure, 1 jour ou 1 mois.
--   **Chaque fois que cela est possible, donnez des commentaires immédiats pendant ou après qu’un utilisateur a fait une sélection.** Par exemple, le contrôle du volume Microsoft Windows émet un signal sonore pour indiquer le volume audio qui en résulte.
+-   **Chaque fois que cela est possible, donnez des commentaires immédiats pendant ou après qu’un utilisateur a fait une sélection.** par exemple, le contrôle du volume de Microsoft Windows signale un bip pour indiquer le volume audio qui en résulte.
 -   **Utilisez des étiquettes pour afficher les différentes valeurs de la plage.**
 
     **Exception :** Si le curseur est orienté verticalement et que l’étiquette supérieure est maximale, haute, plus ou équivalente, vous pouvez omettre les autres étiquettes, car la signification est claire.

@@ -4,12 +4,12 @@ ms.assetid: 16b751ab-b349-430c-9a58-a46a02f6c30b
 title: System. FullText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ee8cc0c7cb099e989cda9c0e11500112853b7ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 210edcd0d0ce3ce4f2eb8c9fac328abfec7f7a200746399078cec7fa95e7cb12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970428"
 ---
 # <a name="systemfulltext"></a>System. FullText
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -3,7 +3,7 @@ title: Message MCIWNDM_GETSPEED (VFW. h)
 description: Le \_ message MCIWNDM GETSPEED récupère la vitesse de lecture d’un périphérique MCI. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndGetSpeed.
 ms.assetid: d10a8f88-e85e-449b-8655-bb0832031d59
 keywords:
-- Message MCIWNDM_GETSPEED Windows Multimedia
+- message MCIWNDM_GETSPEED Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c84a8ebb3e97d4543f68f3a237add8eed7706ae2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 42749fb2f99c446dbd45bc6e2497287ab3b0ce987c9343ed4580735c760cc892
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429249"
 ---
 # <a name="mciwndm_getspeed-message"></a>\_Message MCIWNDM GETSPEED
 

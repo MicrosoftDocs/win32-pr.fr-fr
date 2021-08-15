@@ -1,5 +1,5 @@
 ---
-description: Inscrit une application en cours d’exécution pour la notification d’événements WIA (Windows Image Acquisition) 2,0.
+description: inscrit une application en cours d’exécution pour la notification d’événement 2,0 de l’Acquisition d’images (WIA) de Windows.
 ms.assetid: 978dcd41-d63b-421d-b7e1-8e9368b36180
 title: 'IWiaDevMgr2 :: RegisterEventCallbackInterface, méthode (WIA. h)'
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 7cd3a7e00cff56bc5d91bfc843ab79fe71aa1123
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2658654254257c707d12f4e676aee3371f0ad491dfedeb0637508ca3f33a057
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965638"
 ---
 # <a name="iwiadevmgr2registereventcallbackinterface-method"></a>IWiaDevMgr2 :: RegisterEventCallbackInterface, méthode
 
-Inscrit une application en cours d’exécution pour la notification d’événements WIA (Windows Image Acquisition) 2,0.
+inscrit une application en cours d’exécution pour la notification d’événement 2,0 de l’Acquisition d’images (WIA) de Windows.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -64,18 +64,18 @@ Spécifie l’identificateur unique d’un appareil WIA 2,0. Affectez la valeur 
 *pEventGUID* \[ dans\]
 </dt> <dd>
 
-Type : * #*const \* GUID* _
+Type : **const GUID \***
 
 Spécifie un pointeur vers l’identificateur d’événement pour lequel l’application est inscrite. Consultez [identificateurs d’événements WIA](-wia-wia-event-identifiers.md) pour les identificateurs d’événements standard.
 
 </dd> <dt>
 
-_pIWiaEventCallback * \[ dans\]
+*pIWiaEventCallback* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWiaEventCallback**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback) \** _
+Type : **[ **IWiaEventCallback**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback)\***
 
-Spécifie un pointeur vers l’interface [_ *IWiaEventCallback* *](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback) que l’WIA 2,0 utilise pour envoyer une notification d’événement.
+Spécifie un pointeur vers l’interface [**IWiaEventCallback**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback) que l’WIA 2,0 utilise pour envoyer une notification d’événement.
 
 </dd> <dt>
 
@@ -104,7 +104,7 @@ Retourne les codes d’erreur COM standard ou les éléments suivants.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!WARNING]
 > L’utilisation des méthodes [**IWiaDevMgr :: RegisterEventCallbackInterface**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface), **IWiaDevMgr2 :: RegisterEventCallbackInterface** et [**devicemanager. RegisterEvent**](/previous-versions/windows/desktop/wiaaut/-wiaaut-idevicemanager-registerevent) à partir du même processus après le redémarrage du service image continue peut entraîner une violation d’accès, si les fonctions ont été utilisées avant l’arrêt du service.
@@ -126,8 +126,8 @@ Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

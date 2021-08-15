@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 74369996d9e525746e315d1dd2934ef854ffd110
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5e70c065bbdf3f3ba53b9adef410b4462d06251201281ef6946c52ed9d92f27f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119408769"
 ---
 # <a name="keyusageiskeyagreementenabled-property"></a>KeyUsage. IsKeyAgreementEnabled, propriété
 
@@ -45,7 +45,7 @@ Si la **valeur est true**, le bit keyAgreement est défini.
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

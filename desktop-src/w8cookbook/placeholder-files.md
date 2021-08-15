@@ -4,23 +4,23 @@ description: Fichiers d’espace réservé
 ms.assetid: E14655DA-CEA0-4106-B882-C9E9116FC234
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93c15037b0daec7a6521a299b6c4587c956e0be3
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: a8891fef6c7fc54a66c093507b1831ab7cc6525ea96d685d06cf6fa8d9ded1e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "106531607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119452499"
 ---
 # <a name="placeholder-files"></a>Fichiers d’espace réservé
 
 ## <a name="platform"></a>Plateforme
 
 **Clients-** Windows 8.1  
-**Serveurs-** Windows Server 2012 R2  
+**serveurs-** Windows Server 2012 R2  
 
 ## <a name="description"></a>Description
 
-Les fichiers d’espace réservé permettent aux utilisateurs d’afficher et de gérer les fichiers Microsoft OneDrive, quelle que soit la connectivité. Les fichiers d’espace réservé représentent l’espace de noms OneDrive, même lorsque les fichiers ne sont pas mis en cache localement. Ils contiennent des métadonnées de fichier et des images miniatures de photos.
+les fichiers d’espace réservé permettent aux utilisateurs d’afficher et de gérer les fichiers Microsoft OneDrive, quelle que soit la connectivité. les fichiers d’espace réservé représentent l’espace de noms OneDrive, même lorsque les fichiers ne sont pas mis en cache localement. Ils contiennent des métadonnées de fichier et des images miniatures de photos.
 
 ## <a name="manifestation"></a>Manifestation
 
@@ -69,9 +69,9 @@ bool IsFilePlaceholder(_In_PCWSTR filePath)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

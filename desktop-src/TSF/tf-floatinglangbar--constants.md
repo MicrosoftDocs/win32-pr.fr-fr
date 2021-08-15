@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c789e507b2cc56281dc61750d4fe0748bee8841
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 673a73babc04050092f41c92eb660ec0c61096aab735507947b9d31dabb7e4a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118874536"
 ---
 # <a name="tf_floatinglangbar_-constants"></a>TF \_ FLOATINGLANGBAR, \_ \* constantes
 
@@ -35,7 +35,7 @@ ms.locfileid: "106511763"
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Bien qu’il existe trois constantes dans ce groupe, la première est TF \_ FLOATINGLANGBAR \_ WNDTITLE, qui prend la valeur ANSI ou Unicode, le cas échéant.
 
@@ -47,7 +47,7 @@ Bien qu’il existe trois constantes dans ce groupe, la première est TF \_ FLOA
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                            |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                  |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                       |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Ctfutb. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Ctfutb. idl</dt> </dl> |
 

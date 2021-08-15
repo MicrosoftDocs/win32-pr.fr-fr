@@ -4,12 +4,12 @@ ms.assetid: e6a324d0-9b62-4625-a604-cb1eeca22aae
 title: Formats de certificat pris en charge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 912f37f3e4c29ae765f68484aecf0bf9d9b8aea9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85ae0c4d638e957df5ddcf251ca64578a67a58b98890401c68593dd7a12c3952
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897630"
 ---
 # <a name="supported-certificate-formats"></a>Formats de certificat pris en charge
 
@@ -34,7 +34,7 @@ En plus de ces certificats, vous pouvez également utiliser les services de cert
 
  
 
-En outre, les services de certificats incluent des modèles de certificats dans la configuration de l’autorité de certification d’entreprise Microsoft. Consultez la documentation de l’aide de Windows pour les modèles de certificats pour comprendre comment ils définissent les rôles du certificat.
+En outre, les services de certificats incluent des modèles de certificats dans la configuration de l’autorité de certification d’entreprise Microsoft. consultez la documentation d’aide Windows pour connaître les modèles de certificats pour comprendre comment ils définissent les rôles de certificat.
 
  
 

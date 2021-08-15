@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 89a3b2bf87d99c767ab3bea46a27c8a53fab7825
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bac7ba2f2f9d394218d851f9bbe7939168c2abbc7df5fb8c57a52f29fa6e2b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965758"
 ---
 # <a name="iwiaapperrorhandlergetwindow-method"></a>IWiaAppErrorHandler :: GetWindow, méthode
 
@@ -43,9 +43,9 @@ HRESULT GetWindow(
 *phwnd* \[ à\]
 </dt> <dd>
 
-Type : **HWND \** _
+Type : **HWND\***
 
-HWND utilisé par le gestionnaire d’erreurs d’application, le gestionnaire d’erreurs de pilote et le gestionnaire d’erreurs par défaut pour les boîtes de dialogue de message de l’appareil (à la fois erreur et information). La valeur de sortie peut être _ * NULL * *.
+HWND utilisé par le gestionnaire d’erreurs d’application, le gestionnaire d’erreurs de pilote et le gestionnaire d’erreurs par défaut pour les boîtes de dialogue de message de l’appareil (à la fois erreur et information). La valeur de sortie peut être **null**.
 
 </dd> </dl>
 
@@ -55,9 +55,9 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-*phwnd* pointe vers la fenêtre transmise dans [**ReportStatus**](-wia-iwiaerrorhandler-reportstatus.md) par le proxy 2,0 d’acquisition d’images Windows (WIA). Cette fenêtre doit rester valide pendant toute la durée du transfert de données.
+*phwnd* pointe vers la fenêtre transmise dans [**ReportStatus**](-wia-iwiaerrorhandler-reportstatus.md) par le Proxy de l’Acquisition d’images Windows (WIA) 2,0. Cette fenêtre doit rester valide pendant toute la durée du transfert de données.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -65,8 +65,8 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl>     |
 | Bibliothèque<br/>                  | <dl> <dt>Wiaguid. lib</dt> </dl> |

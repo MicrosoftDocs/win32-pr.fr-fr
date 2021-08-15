@@ -1,5 +1,5 @@
 ---
-description: La fonction InstallWiaDevice installe un appareil WIA (Windows Image Acquisition) comme périphérique énuméré à la racine. Il est possible qu’un message d’avertissement de sécurité s’indique si un programme d’installation ou un Coinstallateur n’est pas signé numériquement et approuvé.
+description: la fonction InstallWiaDevice installe un appareil d’Acquisition d’images Windows (WIA) comme appareil énuméré à la racine. Il est possible qu’un message d’avertissement de sécurité s’indique si un programme d’installation ou un Coinstallateur n’est pas signé numériquement et approuvé.
 ms.assetid: c7de27f5-5994-4fce-a6ec-6e7cfae2e591
 title: Fonction InstallWiaDevice (WIA. h)
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 62060d538b4b51fe22e10df09093f1f7f8c26a1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10006e234c9a76054a77fb64f89a31d9a21e394066bcc98813912bad9f804e1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965838"
 ---
 # <a name="installwiadevice-function"></a>InstallWiaDevice fonction)
 
-La fonction **InstallWiaDevice** installe un appareil WIA (Windows Image Acquisition) comme périphérique énuméré à la racine. Il est possible qu’un message d’avertissement de sécurité s’indique si un programme d’installation ou un Coinstallateur n’est pas signé numériquement et approuvé.
+la fonction **InstallWiaDevice** installe un appareil d’Acquisition d’images Windows (WIA) comme appareil énuméré à la racine. Il est possible qu’un message d’avertissement de sécurité s’indique si un programme d’installation ou un Coinstallateur n’est pas signé numériquement et approuvé.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -43,9 +43,9 @@ DWORD WINAPI InstallWiaDevice(
 *pWiaDeviceInstall* \[ dans\]
 </dt> <dd>
 
-Tapez : **PWIADEVICEINSTALL \** _
+Type : **PWIADEVICEINSTALL \***
 
-Pointeur vers une structure WIADEVICEINSTALL. Le membre _szFriendlyName * de la structure doit avoir la valeur de l’appareil FriendlyName réel.
+Pointeur vers une structure WIADEVICEINSTALL. Le membre *szFriendlyName* de la structure doit avoir la valeur de l’appareil FriendlyName réel.
 
 </dd> </dl>
 
@@ -63,8 +63,8 @@ Si la fonction échoue, elle retourne un code d’erreur Win32.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | Bibliothèque<br/>                  | <dl> <dt>Wiaguid. lib</dt> </dl> |
 

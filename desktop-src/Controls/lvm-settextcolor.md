@@ -3,7 +3,7 @@ title: Message LVM_SETTEXTCOLOR (commctrl. h)
 description: Définit la couleur du texte d’un contrôle d’affichage de liste. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView SetTextColor.
 ms.assetid: ff90c18b-0cd7-4331-bcd8-61044e891d1f
 keywords:
-- LVM_SETTEXTCOLOR les contrôles de message Windows
+- LVM_SETTEXTCOLOR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64b30c965bd523cd5638c894b47fc4785ffbdd09
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c70cb9de975440a4093ef8c88992305d294cc04f362c8e9ccb3434937b78f007
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119217369"
 ---
 # <a name="lvm_settextcolor-message"></a>\_Message SETTEXTCOLOR LVM
 
@@ -49,8 +49,8 @@ Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

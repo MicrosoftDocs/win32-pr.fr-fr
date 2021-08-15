@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8fd0ba4db9b182379ce2ec93508c7a3bab354a9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ca537c6440ae14d0e15dea28f62bdb919f3ed7e3348f3a64a2339e0668b5c8dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957188"
 ---
 # <a name="updatefromds-method-of-the-microsoftdns_zone-class"></a>Méthode UpdateFromDS de la \_ classe de zone MicrosoftDNS
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour exécuter correctement cette méthode, ZoneType doit être égal à zéro et la zone doit être stockée sur le DS.
 

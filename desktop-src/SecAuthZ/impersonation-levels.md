@@ -4,12 +4,12 @@ ms.assetid: ae152dbf-44f0-417f-a85e-09bf60dcfcb0
 title: Niveaux d’emprunt d’identité (autorisation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b91654f42a86e5c47069197bed084df56f5445dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fdf80f4f6b84499a94659c137c629d66a041752e5171cb3fa7220506586f36e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119414589"
 ---
 # <a name="impersonation-levels-authorization"></a>Niveaux d’emprunt d’identité (autorisation)
 
@@ -39,8 +39,8 @@ Au niveau SecurityImpersonation, la plupart des actions du thread se produisent 
 Toutefois, le système utilise le jeton principal du processus plutôt que le jeton d’emprunt d’identité du thread appelant dans les cas suivants :
 
 -   Si un thread d’emprunt d’identité appelle la fonction [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) , le nouveau processus hérite toujours du jeton principal du processus.
--   Pour les fonctions qui requièrent \_ le \_ privilège de nom TCB se, telles que la fonction [**LogonUser**](/windows/desktop/api/winbase/nf-winbase-logonusera) , le système recherche toujours le privilège dans le jeton principal du processus.
--   Pour les fonctions qui requièrent \_ le \_ privilège de nom d’audit se, telles que la fonction [**ObjectOpenAuditAlarm**](/windows/desktop/api/Winbase/nf-winbase-objectopenauditalarma) , le système recherche toujours le privilège dans le jeton principal du processus.
+-   pour les fonctions qui nécessitent le \_ privilège SE TCB \_ NAME, comme la fonction [**LogonUser**](/windows/desktop/api/winbase/nf-winbase-logonusera) , le système recherche toujours le privilège dans le jeton principal du processus.
+-   pour les fonctions qui nécessitent le \_ privilège SE nom d’AUDIT \_ , tel que la fonction [**ObjectOpenAuditAlarm**](/windows/desktop/api/Winbase/nf-winbase-objectopenauditalarma) , le système recherche toujours le privilège dans le jeton principal du processus.
 -   Dans un appel à la fonction [**OpenThreadToken**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openthreadtoken) , un thread peut spécifier si la fonction utilise le jeton d’emprunt d’identité ou le jeton principal pour déterminer s’il faut accorder l’accès demandé.
 
  

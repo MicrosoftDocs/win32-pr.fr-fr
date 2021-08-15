@@ -3,19 +3,19 @@ title: Auteur, objet
 description: Auteur, objet
 ms.assetid: 8058b7fe-7d02-4572-ad43-6867d4ceb7e9
 keywords:
-- Windows Media Format SDK, objets Writer
+- Windows Media Format SDK, writer, objets
 - ASF (Advanced Systems Format), objets Writer
 - ASF (format des systèmes avancés), objets Writer
 - objets, objets Writer
 - objets Writer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42d4783a8330ac1f0f16bc2ca2de4e843cbacc06
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 8f76ad82cb56317cef9b70b0412fb79662ef89eacace8668b08a06f4cc5bf420
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103724122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119392319"
 ---
 # <a name="writer-object"></a>Auteur, objet
 
@@ -32,7 +32,7 @@ Les interfaces suivantes sont prises en charge par l’objet Writer.
 | Interface                                          | Description                                                                                                                                                                                               |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IWMDRMWriter**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter)               | Fournit des méthodes pour générer des clés [*DRM*](wmformat-glossary.md) .                                                                                                |
-| [**IWMDRMWriter2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter2)             | Configure l’objet enregistreur pour écrire un fichier contenant un flux pré-chiffré conforme au protocole Windows Media DRM 10 pour les périphériques réseau.                                                    |
+| [**IWMDRMWriter2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter2)             | configure l’objet writer pour écrire un fichier contenant un flux pré-chiffré conforme au protocole Windows Media DRM 10 pour les périphériques réseau.                                                    |
 | [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)             | Gère la spécification et la récupération des informations d’en-tête, telles que les métadonnées, les [*marqueurs*](wmformat-glossary.md), etc.                                                           |
 | [**IWMHeaderInfo2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2)           | Gère l’énumération à l’aide des informations de codec disponibles. Hérite de toutes les méthodes de **IWMHeaderInfo**.                                                                                            |
 | [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3)           | Gère l’énumération à l’aide des informations de codec disponibles. Hérite de toutes les méthodes de **IWMHeaderInfo** et **IWMHeaderInfo2**.                                                                     |
@@ -46,7 +46,7 @@ Les interfaces suivantes sont prises en charge par l’objet Writer.
 
 
 
- 
+ 
 
 L’interface de rappel suivante doit être implémentée par l’application pour suivre la progression de postviewing.
 
@@ -58,7 +58,7 @@ L’interface de rappel suivante doit être implémentée par l’application po
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -70,9 +70,9 @@ L’interface de rappel suivante doit être implémentée par l’application po
 [**Écriture de fichiers ASF**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

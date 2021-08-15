@@ -1,5 +1,5 @@
 ---
-description: Crée un énumérateur qui est utilisé pour déterminer les commandes et les événements pris en charge par un appareil WIA (Windows Image Acquisition) 2,0.
+description: crée un énumérateur qui est utilisé pour déterminer les commandes et les événements qu’un appareil WIA (Windows Image Acquisition) 2,0 prend en charge.
 ms.assetid: 9efb758d-a5d6-41c7-b318-2897274ccbc0
 title: 'IWiaItem2 :: EnumDeviceCapabilities, méthode (WIA. h)'
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 3e771aa636b42d9cd7e4024a1684ebe3edf02eeb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6748966beaa3bf16f668c4b8b0de60a4302ebcf514f06a3d588999d5faebaf3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450459"
 ---
 # <a name="iwiaitem2enumdevicecapabilities-method"></a>IWiaItem2 :: EnumDeviceCapabilities, méthode
 
-Crée un énumérateur qui est utilisé pour déterminer les commandes et les événements pris en charge par un appareil WIA (Windows Image Acquisition) 2,0.
+crée un énumérateur qui est utilisé pour déterminer les commandes et les événements qu’un appareil WIA (Windows Image Acquisition) 2,0 prend en charge.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -86,7 +86,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est utilisée pour créer un objet énumérateur pour obtenir le jeu de commandes et d’événements pris en charge par un appareil WIA 2,0. Le paramètre *lFlags* est utilisé pour spécifier les genres de fonctionnalités d’appareil à énumérer. La méthode **IWiaItem2 :: EnumDeviceCapabilities** stocke l’adresse de l’interface de l’objet énumérateur dans le paramètre *ppIEnumWIA \_ dev \_ Caps* .
 
@@ -100,8 +100,8 @@ Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

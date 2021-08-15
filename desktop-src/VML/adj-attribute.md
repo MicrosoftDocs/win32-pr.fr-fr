@@ -4,27 +4,27 @@ description: Adj (attribut)
 ms.assetid: f0f31e6c-9dde-4082-88a2-da2d0012b9ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff83371cbca29ee687875343976b312466d6a78c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 85869500cc3e9f86e0f48e67f63cfd9e6ed2cff5580caa04994169a9e4b50df8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106512738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137142"
 ---
 # <a name="adj-attribute"></a>Adj (attribut)
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Spécifie une valeur d’ajustement utilisée pour définir les valeurs d’une formule. En lecture/écriture. **Chaîne**.
 
 **S’applique à**
 
-[Graphique à base de formes](shape-element--vml.md)
+[Forme](shape-element--vml.md)
 
 **Syntaxe de balise**
 
@@ -77,6 +77,6 @@ Un carré simple est créé avec des ajustements. Tout d’abord, la chaîne **A
 
 [Exemple d’attribut Adj](/previous-versions/bb229662(v=vs.85)) (nécessite Microsoft Internet Explorer 5 ou version ultérieure.)
 
- 
+ 
 
- 
+ 

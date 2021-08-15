@@ -17,12 +17,12 @@ api_location:
 - API-MS-Win-Service-Private-L1-1-1.dll
 - Advapi32.dll
 - API-MS-Win-Service-Private-L1-1-2.dll
-ms.openlocfilehash: e327a44d613b514123862b1ddcb1bf302fea63ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83bd7bc3f937794f14cbe1d2877bc53ce7d347a8f45fd4f0ddb3e9d0ee9a52a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888455"
 ---
 # <a name="subscribeservicechangenotifications-function"></a>SubscribeServiceChangeNotifications fonction)
 
@@ -102,7 +102,7 @@ Si la fonction réussit, la valeur de retour est une **erreur de \_ réussite**.
 
 Si la fonction échoue, la valeur de retour est l’un des [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction de rappel est déclarée comme suit :
 
@@ -127,8 +127,8 @@ La fonction de rappel ne doit pas bloquer l’exécution. Si vous vous attendez 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>Winsvcp. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>SecHost.dll</dt> </dl> |
 

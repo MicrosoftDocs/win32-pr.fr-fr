@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 1b11fdd7a0a82a11baa20b0f3a63a31a8a46b701
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: e758f3dd4a7cdd7d200d9889b5e4301ce58483970f9f87f998c251a2d7f376f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119395209"
 ---
 # <a name="ishelldispatchundominimizeall-method"></a>Méthode IShellDispatch. UndoMinimizeALL
 
-Restaure toutes les fenêtres de bureau à l’État où elles se trouvaient avant la dernière commande [**MinimizeAll**](shell-minimizeall.md) . Cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner **Annuler réduire toutes les fenêtres** (sur les systèmes plus anciens) ou un second clic sur l’icône **afficher le bureau** dans la barre des tâches.
+Restaure toutes les fenêtres de bureau à l’État où elles se trouvaient avant la dernière commande [**MinimizeAll**](shell-minimizeall.md) . cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner **annuler réduire tout Windows** (sur les systèmes plus anciens) ou un second clic sur l’icône **afficher le bureau** dans la barre des tâches.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -55,15 +55,15 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. UndoMinimizeAll**](./shell-undominimizeall.md) .
 
 ## <a name="examples"></a>Exemples
 
-Les exemples suivants illustrent l’utilisation de **UndoMinimizeALL** dans JScript, VBScript et Visual Basic.
+les exemples suivants illustrent l’utilisation de **UndoMinimizeALL** dans JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -113,13 +113,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

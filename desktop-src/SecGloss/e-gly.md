@@ -5,12 +5,12 @@ ms.assetid: f1caccd2-3453-448e-b194-bf899eff8091
 title: E (Glossaire de la sécurité)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed30465ef5764d4553ceb03e1094b73d940f85f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf2807dc99754fd424898c3df8d89634c7b940a7ab2fa9399ca85cd8cbc14d1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895629"
 ---
 # <a name="e-security-glossary"></a>E (Glossaire de la sécurité)
 
@@ -91,7 +91,7 @@ Données qui ont été converties du texte en clair en texte chiffré. Les messa
 <span id="_security_encrypting_file_system_gly"></span><span id="_SECURITY_ENCRYPTING_FILE_SYSTEM_GLY"></span>**système de fichiers EFS**
 </dt> <dd>
 
-FICHIERS Fonctionnalité du système d’exploitation Windows qui permet aux utilisateurs de chiffrer des fichiers et des dossiers sur un disque de volume NTFS pour les protéger contre tout accès par des intrus.
+FICHIERS fonctionnalité du système d’exploitation Windows qui permet aux utilisateurs de chiffrer des fichiers et des dossiers sur un disque de volume NTFS pour les protéger contre tout accès par des intrus.
 
 </dd> <dt>
 
@@ -135,7 +135,7 @@ Consultez *paire de clés Exchange*.
 <span id="_security_exchange_key_pair_gly"></span><span id="_SECURITY_EXCHANGE_KEY_PAIR_GLY"></span>**paire de clés d’échange**
 </dt> <dd>
 
-Paire de clés publique/privée utilisée pour chiffrer les clés de session de sorte qu'elles puissent être stockées et échangées sans risque avec d'autres utilisateurs. Les paires de clés d’échange sont créées en appelant la fonction **CryptGenKey** .
+Paire de clés publique/privée utilisée pour chiffrer les clés de session de sorte qu'elles puissent être stockées et échangées sans risque avec d'autres utilisateurs. Exchange paires de clés sont créées en appelant la fonction **CryptGenKey** .
 
 Comparez la [*paire de clés de signature*](s-gly.md).
 

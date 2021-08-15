@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 167be3846322a1b3aacdf752374b9b0089220963
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 553ea59c2da86f6d75777087554208ae1a6dbbcd70c8f2a9b6f1830836e3b1ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955948"
 ---
 # <a name="ifeedbackhubappinfogetinstalledlegacyapps-method"></a>IFeedbackHubAppInfo :: GetInstalledLegacyApps, méthode
 
@@ -45,7 +45,7 @@ Cette API n’est pas disponible pour toutes les applications. À moins que votr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Cette méthode ne retourne pas de valeur.
 
@@ -55,8 +55,8 @@ Cette méthode ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/> |
 
 
 
