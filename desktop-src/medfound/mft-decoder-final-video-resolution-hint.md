@@ -4,12 +4,12 @@ ms.assetid: 067867D8-155C-4406-BE07-720016B2AEBC
 title: Attribut MFT_DECODER_FINAL_VIDEO_RESOLUTION_HINT (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7bbc0f01ef2a1d7062c6ab58c528b015383fc68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 847a2925f2249c741e9a45a1dcc4826a1cbe3d6bb12cda4d8017ee0fb5de0069
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973138"
 ---
 # <a name="mft_decoder_final_video_resolution_hint-attribute"></a>\_ \_ Attribut d' \_ indicateur de résolution vidéo \_ final \_ du décodeur MFT
 
@@ -19,7 +19,7 @@ Spécifie la résolution de sortie finale de l’image décodée, après le trai
 
 **UINT64**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est pris en charge par certains décodeurs vidéo. Une application peut définir cet attribut pour indiquer la largeur et la hauteur de l’image après le traitement vidéo. Le décodeur peut utiliser ces informations pour optimiser le processus de décodage, en particulier si la taille de l’image finale est bien inférieure à la taille de l’image native. Par exemple, le décodeur peut ignorer un filtre hors boucle.
 
@@ -36,7 +36,7 @@ Pour définir cet attribut :
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 

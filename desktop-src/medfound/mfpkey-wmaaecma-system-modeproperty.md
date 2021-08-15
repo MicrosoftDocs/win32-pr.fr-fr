@@ -4,12 +4,12 @@ ms.assetid: 479b3525-5beb-4c6b-b1ad-8fa72c0d0fd0
 title: MFPKEY_WMAAECMA_SYSTEM_MODE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfca745b83c8a73a2eb4c17c8a2206f90255088c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 722b3e502b783f98ef4871cfc6dd184389dfce7f7f942bde1827468e96f5fa7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973268"
 ---
 # <a name="mfpkey_wmaaecma_system_mode-property"></a>\_Propriété du \_ mode système MFPKEY WMAAECMA \_
 
@@ -27,7 +27,7 @@ VT \_
 
 -   [DSP de capture vocale](voicecapturedmo.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de cette propriété est un membre de l’énumération du [ \_ \_ mode système AEC](/windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-aec_system_mode) .
 
@@ -54,8 +54,8 @@ Vous devez définir cette propriété avant d’utiliser le DSP de capture vocal
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

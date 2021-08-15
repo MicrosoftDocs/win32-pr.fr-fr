@@ -1,19 +1,19 @@
 ---
-description: Cette rubrique fournit des informations sur le codec PNG natif disponible via le composant WIC (Windows Imaging Component).
+description: cette rubrique fournit des informations sur le codec PNG natif disponible via le composant WIC (Windows Imaging Component).
 ms.assetid: 703217EA-70C8-4F86-B8DF-95468C78C8DA
 title: Vue d’ensemble du format PNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bb00b7530a22fcdbcce112053431ace5e553383
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 4f3d74282f8c14fd94b3661430402a808b04ceb9cf0a061a1648f7a912af5636
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086752"
 ---
 # <a name="png-format-overview"></a>Vue d’ensemble du format PNG
 
-Cette rubrique fournit des informations sur le codec PNG natif disponible via le composant WIC (Windows Imaging Component).
+cette rubrique fournit des informations sur le codec PNG natif disponible via le composant WIC (Windows Imaging Component).
 
 ## <a name="codec-identity"></a>Identité du codec
 
@@ -48,7 +48,7 @@ Le tableau suivant répertorie les GUID utilisés pour identifier les composants
 
 ### <a name="windows-8-and-later"></a>Windows 8 et versions ultérieures
 
-À compter de Windows 8 WIC, vous disposez d’un décodeur PNG supplémentaire
+à compter de Windows 8 WIC fournit un décodeur PNG supplémentaire
 
 ## <a name="encoding"></a>Encodage
 

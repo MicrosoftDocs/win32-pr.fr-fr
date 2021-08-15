@@ -15,12 +15,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location:
 - wmsdkidl.h
-ms.openlocfilehash: f814df820bd50a36abf2ee8e453549f46c9c5c9e
-ms.sourcegitcommit: 52d79b29f3b9933c8bef43207ff80c668a81cb73
+ms.openlocfilehash: 525cdee41be011e373c65e508e91087082c17f2ec279195e2a9ab285b391fd54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "106511328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084716"
 ---
 # <a name="iwmprofile-interface"></a>Interface IWMProfile
 
@@ -57,7 +57,7 @@ L’interface **IWMProfile** possède ces méthodes.
 | [**GetStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getstream)                               | Récupère un flux, à l’aide d’un numéro d’index, à partir du profil.<br/>                     |
 | [**GetStreamByNumber**](/windows/win32/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreambynumber)               | Récupère un flux, à l’aide du numéro du flux, à partir du profil.<br/>            |
 | [**GetStreamCount**](/windows/win32/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreamcount)                     | Récupère le nombre de flux dans le profil.<br/>                                  |
-| [**GetVersion**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getversion)                             | Récupère le numéro de version de Microsoft Windows Media Services dans le profil.<br/> |
+| [**GetVersion**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getversion)                             | récupère le numéro de version de Microsoft Services Windows Media dans le profil.<br/> |
 | [**ReconfigStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-reconfigstream)                     | Permet d’inclure les modifications apportées à une configuration de flux dans le profil.<br/>    |
 | [**RemoveMutualExclusion**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-removemutualexclusion)       | Supprime un objet d’exclusion mutuelle du profil.<br/>                              |
 | [**RemoveStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-removestream)                         | Supprime un flux du profil.<br/>                                               |

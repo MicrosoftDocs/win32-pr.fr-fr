@@ -4,12 +4,12 @@ ms.assetid: a352c3e2-5860-4b9c-a3c7-a806f69b4f7d
 title: SearchEvents
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21472d113694a41a3c7855c0fdaf8f2fa2b3b2e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98f6687de8a9e4816968a3134abf76f8b10e02f42d90a2578626be035843621c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969708"
 ---
 # <a name="searchevents"></a>SearchEvents
 
@@ -17,7 +17,7 @@ L’exemple de code SearchEvents montre comment hiérarchiser les événements d
 
 Cette rubrique contient les sections suivantes.
 
-- [Configuration requise](#requirements)
+- [Requirements](#requirements)
 - [Téléchargement de l’exemple](#downloading-the-sample)
 - [Génération de l'exemple](#building-the-sample)
 - [Exécution de l’exemple](#running-the-sample)
@@ -39,22 +39,22 @@ Cet exemple est disponible à l’emplacement suivant.
 | GitHub        | [Exemple SearchEvents](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/SearchEvents)    |
 
 > [!NOTE]  
-> Pour toutes les versions de Windows, y compris Windows 7, nous vous recommandons de télécharger les exemples directement à partir de GitHub pour obtenir la version la plus récente.
+> pour toutes les versions de Windows, y compris Windows 7, nous vous recommandons de télécharger les exemples directement à partir de GitHub pour obtenir la version la plus récente.
 
 ## <a name="building-the-sample"></a>Génération de l'exemple
 
-1. Ouvrez l’Explorateur Windows et accédez au répertoire du projet **SearchEvents** .
+1. ouvrez Windows Explorer et accédez au répertoire du projet **SearchEvents** .
 2. Double-cliquez sur l’icône du fichier Eventing. sln pour ouvrir le projet dans Visual Studio.
   
     > [!NOTE]  
-    > Le fichier sln a été créé sous une version antérieure de Visual Studio. par conséquent, la mise à niveau est requise si vous exécutez Visual Studio 2012 ou une version plus récente. Cela n’aura pas d’impact sur le comportement de l’exemple.
+    > le fichier sln a été créé sous une version antérieure de Visual Studio. par conséquent, la mise à niveau est requise si vous exécutez Visual Studio 2012 ou une version ultérieure. Cela n’aura pas d’impact sur le comportement de l’exemple.
 
-3. Dans le menu **générer** , sélectionnez **générer la solution**.
+3. Dans le menu **Générer**, sélectionnez **Générer la solution**.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 
-1. Accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de la fenêtre d’invite de commandes ou de l’Explorateur Windows.
-2. À l’invite de commandes, entrez `Eventing.exe` , ou à partir de l’Explorateur Windows, double-cliquez sur l’icône de Eventing.exe.
+1. accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de la fenêtre d’invite de commandes ou de Windows Explorer.
+2. à l’invite de commandes, entrez `Eventing.exe` ou dans Windows Explorer, double-cliquez sur l’icône de Eventing.exe.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

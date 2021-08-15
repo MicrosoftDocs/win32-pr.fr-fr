@@ -4,12 +4,12 @@ ms.assetid: 75524269-fb31-4980-a306-274493212246
 title: Gestion des connexions Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef2b90c748f1f44c962545b9494e40f0cacfd2ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43a4de8abdc4b103e216666f69ed1097709534ef0e39f30137be517a5f897904
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921848"
 ---
 # <a name="managing-schannel-connections"></a>Gestion des connexions Schannel
 

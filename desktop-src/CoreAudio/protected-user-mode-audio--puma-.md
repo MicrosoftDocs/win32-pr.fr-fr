@@ -1,19 +1,19 @@
 ---
-description: Windows Vista a introduit le moteur PUMA (Protected user mode audio), le moteur audio en mode utilisateur dans l’environnement protégé (PE) qui fournit un environnement plus sûr pour le traitement et le rendu audio.
+description: Windows Vista a introduit PUMA (Protected user mode audio), le moteur audio en mode utilisateur dans l’environnement protégé (PE) qui fournit un environnement plus sûr pour le traitement et le rendu audio.
 ms.assetid: 27a50026-9e48-48b1-9249-7528a97333c9
 title: PUMA (Protected user mode audio)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 233dc82109feb66472e66e4235031696937d70d2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3f119094440297c90ae67c46d5a6b39b1ba6e2e9931b43b4bdda17393d0273dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077453"
 ---
 # <a name="protected-user-mode-audio-puma"></a>PUMA (Protected user mode audio)
 
-Windows Vista a introduit le moteur PUMA (Protected user mode audio), le moteur audio en mode utilisateur dans l’environnement protégé (PE) qui fournit un environnement plus sûr pour le traitement et le rendu audio. Cela permet d’activer uniquement les sorties audio acceptables et de s’assurer que les sorties sont désactivées de manière fiable. Pour plus d’informations sur le PUMA, consultez [sortie protection du contenu et Windows Vista](https://download.microsoft.com/download/5/D/6/5D6EAF2B-7DDF-476B-93DC-7CF0072878E6/output_protect.doc).
+Windows Vista a introduit PUMA (Protected user mode audio), le moteur audio en mode utilisateur dans l’environnement protégé (PE) qui fournit un environnement plus sûr pour le traitement et le rendu audio. Cela permet d’activer uniquement les sorties audio acceptables et de s’assurer que les sorties sont désactivées de manière fiable. pour plus d’informations sur le PUMA, consultez [protection du contenu de sortie et Windows Vista](https://download.microsoft.com/download/5/D/6/5D6EAF2B-7DDF-476B-93DC-7CF0072878E6/output_protect.doc).
 
 PUMA a été mis à jour pour Windows 7 afin de fournir les fonctionnalités suivantes :
 
@@ -24,37 +24,37 @@ PUMA a été mis à jour pour Windows 7 afin de fournir les fonctionnalités sui
 
 La fonction de Rights Management numérique (DRM) permet d’empaqueter des données multimédias dans un conteneur sécurisé et de joindre des règles d’utilisation au contenu. Par exemple, le fournisseur de contenu peut utiliser la **protection contre la copie** ou la **sortie numérique** pour désactiver les copies numériques directes ou la transmission à partir du système de l’ordinateur.
 
-La pile audio de certains produits Microsoft prend en charge DRM en implémentant les règles d’utilisation qui régissent la lecture du contenu audio. Pour lire le contenu protégé, le pilote audio sous-jacent doit être un *pilote approuvé*. autrement dit, le pilote doit être certifié par un logo pour DRMLevel 1300. Pour plus d’informations sur le développement de pilotes approuvés, vous pouvez utiliser des interfaces définies dans le kit de développement de pilotes Windows 2000 (« DDK ») ou version ultérieure. Les pilotes développés avec le DDK implémenteront les interfaces nécessaires à DRM. Pour plus d’informations, consultez [Rights Management numérique](/windows-hardware/drivers/audio/digital-rights-management).
+La pile audio de certains produits Microsoft prend en charge DRM en implémentant les règles d’utilisation qui régissent la lecture du contenu audio. Pour lire le contenu protégé, le pilote audio sous-jacent doit être un *pilote approuvé*. autrement dit, le pilote doit être certifié par un logo pour DRMLevel 1300. pour plus d’informations sur le développement de pilotes approuvés, vous pouvez utiliser des interfaces définies dans le Kit de développement de pilotes Windows 2000 (« DDK ») ou version ultérieure. Les pilotes développés avec le DDK implémenteront les interfaces nécessaires à DRM. Pour plus d’informations, consultez [Rights Management numérique](/windows-hardware/drivers/audio/digital-rights-management).
 
 Pour afficher le contenu protégé, le pilote approuvé doit vérifier si la **protection contre la copie** et la **désactivation de la sortie numérique** sont définies sur le flux de contenu via la pile audio, et répondre aux paramètres en conséquence.
 
 ### <a name="copy-protection-rule"></a>Copier la règle de protection
 
-La **protection contre la copie** indique que les copies numériques directes ne sont pas autorisées sur le système. L’exposition B à l’accord de test WHQL a été mise à jour pour refléter les nouvelles attentes et exigences d’un pilote lorsque la **protection contre la copie** est définie sur le contenu. Pour Windows 7, le pilote de classe HD audio intégré est conforme aux exigences les plus récentes.
+La **protection contre la copie** indique que les copies numériques directes ne sont pas autorisées sur le système. L’exposition B à l’accord de test WHQL a été mise à jour pour refléter les nouvelles attentes et exigences d’un pilote lorsque la **protection contre la copie** est définie sur le contenu. pour Windows 7, le pilote de classe hd audio intégré est conforme aux exigences les plus récentes.
 
 En plus de s’assurer que le contenu n’est pas autorisé à passer à un autre composant ou à être stocké sur un support de stockage non volatile qui n’est pas authentifié par le système DRM, le pilote audio effectue les tâches suivantes lorsque la **protection de copie** est définie :
 
 -   Le pilote active HDCP sur les points de terminaison HDMI.
 -   Pour les interfaces S/PDIF, le pilote vérifie que la combinaison des bits de code de L, CP et de catégorie indique un État SCMS « copie Never », comme défini dans IEC 60958.
--   Le bit L est défini sur 0 et le code de catégorie est défini sur « digital signal mixer ».
+-   Le bit L est défini sur 0 et le code de catégorie est défini sur « digital signal Mixer ».
 
 La structure **DRMRIGHTS** , utilisée par les pilotes audio approuvés, spécifie les droits de contenu DRM affectés à un code confidentiel audio KS ou à un objet de flux de pilote de classe de port. Le membre **CopyProtect** indique si la **protection de copie** est définie sur le contenu audio.
 
-Pour Windows 7, l’utilisation de **CopyProtect** est plus stricte. Le pilote s’assure que les contrôles de protection sont définis sur les interfaces audio, HDCP est défini pour la sortie HDMI et SCMS est défini pour la sortie S/PDIF en définissant l’État sur « copier jamais ».
+pour Windows 7, l’utilisation de **CopyProtect** est plus stricte. Le pilote s’assure que les contrôles de protection sont définis sur les interfaces audio, HDCP est défini pour la sortie HDMI et SCMS est défini pour la sortie S/PDIF en définissant l’État sur « copier jamais ».
 
 ### <a name="digital-output-disable-rule"></a>Règle de désactivation de la sortie numérique
 
-La **désactivation de la sortie numérique** indique que le contenu n’est pas autorisé à être transmis hors du système. Dans Windows 7, le pilote de classe HD audio intégré répond à ce paramètre en activant HDCP sur les points de terminaison HDMI. Cela est similaire à la réponse du pilote au paramètre de **protection de copie** .
+La **désactivation de la sortie numérique** indique que le contenu n’est pas autorisé à être transmis hors du système. dans Windows 7, le pilote de classe hd audio intégré répond à ce paramètre en activant HDCP sur les points de terminaison HDMI. Cela est similaire à la réponse du pilote au paramètre de **protection de copie** .
 
 ## <a name="enabling-content-protection-mechanisms-outside-of-a-protected-environment"></a>Activation de mécanismes de protection de contenu en dehors d’un environnement protégé
 
-PUMA réside dans un processus distinct de l’environnement protégé (PE). Dans Windows Vista, pour utiliser les contrôles de protection de contenu audio proposés par PUMA, une application multimédia doit être dans un fichier PE. Étant donné que seules les API Media Foundation peuvent interagir avec un PE, les contrôles de protection de contenu sont limités aux applications qui utilisent des API Media Foundation pour diffuser du contenu audio.
+PUMA réside dans un processus distinct de l’environnement protégé (PE). dans Windows Vista, pour utiliser les contrôles de protection de contenu audio proposés par PUMA, une application multimédia doit être dans un fichier PE. Étant donné que seules les API Media Foundation peuvent interagir avec un PE, les contrôles de protection de contenu sont limités aux applications qui utilisent des API Media Foundation pour diffuser du contenu audio.
 
-Dans Windows 7, toute application peut accéder aux contrôles de protection de contenu fournis par l’autorité d’approbation de sortie PUMA (OTA), qu’il s’agisse d’un fichier PE ou d’Media Foundation API pour la lecture audio.
+dans Windows 7, toute application peut accéder aux contrôles de protection de contenu fournis par l’autorité d’approbation de sortie PUMA (OTA), qu’il s’agisse d’un fichier PE ou d’une api Media Foundation pour la lecture audio.
 
 ## <a name="implementation-instructions"></a>Instructions d’implémentation
 
-Les étapes suivantes sont requises pour qu’une application audio contrôle la protection du contenu SCMS ou HDCP sur un point de terminaison audio. Les API audio prises en charge sont DirectShow, DirectSound et WASAPI.
+Les étapes suivantes sont requises pour qu’une application audio contrôle la protection du contenu SCMS ou HDCP sur un point de terminaison audio. les api Audio prises en charge sont DirectShow, DirectSound et WASAPI.
 
 Cet exemple de code utilise les interfaces suivantes.
 
@@ -182,7 +182,7 @@ L’application multimédia doit effectuer les tâches suivantes.
 
 3.  Utilisez le pointeur [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) vers le point de terminaison retourné par le processus d’énumération pour activer l’API de diffusion audio en continu souhaitée et préparer la diffusion en continu. Différentes API audio requièrent une préparation légèrement différente.
     -   Pour les applications audio DShow :
-        1.  Créez un objet COM DirectShow en appelant [**IMMDevice :: Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) et en spécifiant IID \_ IBaseFilter comme identificateur d’interface.
+        1.  créez un objet DirectShow COM en appelant [**IMMDevice :: activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) et en spécifiant IID \_ IBaseFilter comme identificateur d’interface.
             ```cpp
             IUnknown *pDShowFilter = NULL;
             ...
@@ -194,7 +194,7 @@ L’application multimédia doit effectuer les tâches suivantes.
 
             
 
-        2.  Générez un graphique de filtre DirectShow avec cet objet COM activé par l’appareil. Pour plus d’informations sur ce processus, consultez « génération du graphique de filtre » dans la documentation du kit de développement logiciel (SDK) DirectShow.
+        2.  générez un graphique de filtre DirectShow avec cet objet COM activé par l’appareil. pour plus d’informations sur ce processus, consultez « génération du filtre Graph » dans DirectShow documentation du kit de développement logiciel (SDK).
     -   Pour les applications audio DSound :
         1.  Créez un objet COM DSound en appelant [**IMMDevice :: Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) et en spécifiant IID \_ IDirectSound8 comme identificateur d’interface.
             ```cpp

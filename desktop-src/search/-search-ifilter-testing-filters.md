@@ -4,12 +4,12 @@ ms.assetid: 5ee02af1-1dc9-4d21-868f-4c439970b1ba
 title: Test des gestionnaires de filtres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d2a2b0b6a6728051ab22590a481ad23a7197692
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62b77fe098c2413e4f582ebfd98985dd09bf0ab9b5fc2def85fc7e954804dc1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463092"
 ---
 # <a name="testing-filter-handlers"></a>Test des gestionnaires de filtres
 
@@ -41,7 +41,7 @@ Cette rubrique est organisée comme suit :
 La suite de tests [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) se compose de trois applications en ligne de commande : [ifilttst.exe](#ifilttstexe), [filtdump.exe](#filtdumpexe)et [filtreg.exe](#filtregexe) et un fichier d’initialisation, [ifilttst.ini](#ifilttstini).
 
 > [!IMPORTANT]
-> Dans Windows 7 et versions ultérieures, les filtres écrits en code managé sont bloqués explicitement. Les filtres doivent être écrits en code natif en raison de problèmes potentiels de contrôle de version du common language runtime (CLR) avec le processus dans lequel plusieurs compléments s’exécutent.
+> dans Windows 7 et versions ultérieures, les filtres écrits en code managé sont bloqués explicitement. Les filtres doivent être écrits en code natif en raison de problèmes potentiels de contrôle de version du common language runtime (CLR) avec le processus dans lequel plusieurs compléments s’exécutent.
 
 ### <a name="ifilttstexe"></a>ifilttst.exe
 
@@ -218,7 +218,7 @@ Le fichier ifilttst.ini est organisé en sections, avec le nom de la section ent
 
 ## <a name="ifilter-test-procedure"></a>Procédure de test IFilter
 
-Une fois que le [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) a été initialisé, le programme ifilttst.exe effectue une série de tests sur le **IFilter**. En plus de suivre les procédures de test **IFilter** , assurez-vous que votre implémentation **IFilter** utilise des pratiques de code sécurisé. Consultez « pratiques de code sécurisé pour Windows Search » dans [implémentation de gestionnaires de filtres dans Windows Search](-search-ifilter-constructing-filters.md).
+Une fois que le [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) a été initialisé, le programme ifilttst.exe effectue une série de tests sur le **IFilter**. En plus de suivre les procédures de test **IFilter** , assurez-vous que votre implémentation **IFilter** utilise des pratiques de code sécurisé. consultez « pratiques de Code sécurisé pour la recherche de Windows » dans [implémentation de gestionnaires de filtres dans Windows search](-search-ifilter-constructing-filters.md).
 
 ### <a name="validation-test"></a>Test de validation
 
@@ -266,7 +266,7 @@ Le programme ifilttst.exe libère l’interface [**IFilter**](/windows/win32/api
 
 ## <a name="ensuring-registered-items-get-indexed"></a>Vérification de l’indexation des éléments inscrits
 
-Le test final de votre [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) garantit que votre **IFilter** est correctement inscrit et qu’il est appelé pour indexer les éléments que vous avez enregistrés pour l’utiliser. Vous pouvez utiliser le gestionnaire de catalogues pour initier la réindexation, ou utiliser le gestionnaire de portée d’analyse (CSM) pour configurer des règles par défaut indiquant les URL que vous souhaitez que l’indexeur analyse. Une fois l’indexation terminée, utilisez l’interface utilisateur de recherche Windows pour rechercher une chaîne dans le contenu ou les propriétés des éléments. Si les éléments ont été indexés, ils s’affichent dans les résultats de la recherche.
+Le test final de votre [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) garantit que votre **IFilter** est correctement inscrit et qu’il est appelé pour indexer les éléments que vous avez enregistrés pour l’utiliser. Vous pouvez utiliser le gestionnaire de catalogues pour initier la réindexation, ou utiliser le gestionnaire de portée d’analyse (CSM) pour configurer des règles par défaut indiquant les URL que vous souhaitez que l’indexeur analyse. une fois l’indexation terminée, utilisez l’interface utilisateur de recherche Windows pour rechercher une chaîne dans le contenu ou les propriétés des éléments. Si les éléments ont été indexés, ils s’affichent dans les résultats de la recherche.
 
 Pour plus d’informations sur la réindexation, consultez [utilisation du gestionnaire de catalogues](-search-3x-wds-mngidx-catalog-manager.md) et [utilisation du gestionnaire de portée d’analyse](-search-3x-wds-extidx-csm.md). L’exemple de code ReindexMatchingUrls montre comment spécifier les fichiers à réindexer et comment. L’exemple de code CrawlScopeCommandLine montre comment définir des options de ligne de commande pour les opérations d’indexation du gestionnaire de portée d’analyse (CSM). Les deux exemples de code sont disponibles sur [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch).
 
@@ -371,7 +371,7 @@ Le bloc suivant, à partir de la ligne 21, a le même GUID et PID, mais son éta
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- L’exemple de code [IFilterSample](-search-sample-ifiltersample.md) , disponible sur [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), montre comment créer une classe de base IFilter pour l’implémentation de l’interface [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) .
+- l’exemple de code [IFilterSample](-search-sample-ifiltersample.md) , disponible sur [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), illustre la création d’une classe de base ifilter pour l’implémentation de l’interface [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter) .
 - Pour obtenir une vue d’ensemble du processus d’indexation, consultez [processus d’indexation](-search-indexing-process-overview.md).
 - Pour obtenir une vue d’ensemble des types de fichiers, consultez [types de fichiers](../shell/fa-file-types.md).
 - Pour interroger des attributs d’association de fichiers pour un type de fichier, consultez [PerceivedTypes, SystemFileAssociations et inscription d’application](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85)).
@@ -380,14 +380,14 @@ Le bloc suivant, à partir de la ligne 21, a le même GUID et PID, mais son éta
 
 [Développement de gestionnaires de filtres](-search-ifilter-conceptual.md)
 
-[À propos des gestionnaires de filtres dans Windows Search](-search-ifilter-about.md)
+[à propos des gestionnaires de filtres dans Windows Search](-search-ifilter-about.md)
 
-[Meilleures pratiques pour la création de gestionnaires de filtres dans Windows Search](-search-3x-wds-extidx-filters.md)
+[meilleures pratiques pour la création de gestionnaires de filtres dans Windows Search](-search-3x-wds-extidx-filters.md)
 
 [Retour des propriétés d’un gestionnaire de filtres](-search-ifilter-property-filtering.md)
 
 [Gestionnaires de filtres fournis avec Windows](-search-ifilter-implementations.md)
 
-[Implémentation de gestionnaires de filtres dans Windows Search](-search-ifilter-constructing-filters.md)
+[implémentation de gestionnaires de filtres dans Windows Search](-search-ifilter-constructing-filters.md)
 
 [Inscription des gestionnaires de filtres](-search-ifilter-registering-filters.md)

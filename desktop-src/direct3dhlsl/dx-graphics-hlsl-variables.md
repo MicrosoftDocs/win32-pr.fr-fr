@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5e88ea398e1fcfeb38dc079c625f9633e112d60f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 68e049970ca0d1257de8b75818a1beafcc7d6390653e90335c638298c89d9f70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512995"
 ---
 # <a name="variables"></a>Variables
 
@@ -31,9 +31,9 @@ Les variables HLSL sont similaires aux variables définies dans le langage de pr
 [Syntaxe du langage (DirectX HLSL)](dx-graphics-hlsl-language-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

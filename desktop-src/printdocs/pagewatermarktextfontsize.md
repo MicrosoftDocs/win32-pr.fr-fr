@@ -4,12 +4,12 @@ ms.assetid: 4c379898-d21f-4c6c-93c8-e5f386e032ba
 title: PageWatermarkTextFontSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9eb28044ca676dedfb136cb58190db90a06fd624
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 6579ec69d1972ccb97465face579da6e61f62dca17bd554a2ce9db363f74de1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118470969"
 ---
 # <a name="pagewatermarktextfontsize"></a>PageWatermarkTextFontSize
 
@@ -28,7 +28,7 @@ Définit les tailles de police disponibles pour le texte de filigrane.
 |----------------------------|--------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                    |
 | Préfixe d’étendue <br/> | Page<br/>                            |
-| Notes <br/>          | Lié à l’élément PageWatermark<br/> |
+| Remarques <br/>          | Lié à l’élément PageWatermark<br/> |
 
 
 
@@ -77,7 +77,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 | DefaultValue<br/> | entier<br/> | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | non défini<br/>       |
 | MinValue<br/>     | entier<br/> | non défini<br/>       |
-| Multiple<br/>     | entier<br/> | non défini<br/>       |
+| Plusieurs<br/>     | entier<br/> | non défini<br/>       |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
 | Unité<br/>     | string<br/>  | points<br/>          |
 

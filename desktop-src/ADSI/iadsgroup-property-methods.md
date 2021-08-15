@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 665cb91a55298012e4e906c2972da5371e3960be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f15a55765a10afef10087e7b28d04304ab0cc2668915a6e6ffa71fc770eb54a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106515073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082403"
 ---
 # <a name="iadsgroup-property-methods"></a>Méthodes de propriété IADsGroup
 
@@ -63,15 +63,15 @@ HRESULT put_Description(
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="using-iadsgroup-to-retrieve-descriptions-of-built-in-groups"></a>Utilisation de IADsGroup pour récupérer les descriptions des groupes prédéfinis
 
-Les exemples suivants montrent comment récupérer des informations sur les objets de groupe Windows par nom. Dans un environnement multilingue, les groupes intégrés sont parfois connus par différents noms localisés, ce qui signifie qu’ils ne peuvent pas être récupérés directement à l’aide d’identificateurs de chaîne tels que « WinNT://Microsoft/Administrators ». Dans ce cas, l’utilisateur peut effectuer une liaison à l’objet SID connu pour le groupe, récupérer le nom de groupe localisé et le fournir à la méthode GetObject. Pour plus d’informations, consultez [sid connus](/windows/desktop/SecAuthZ/well-known-sids).
+les exemples suivants montrent comment récupérer des informations sur les objets de groupe Windows par nom. Dans un environnement multilingue, les groupes intégrés sont parfois connus par différents noms localisés, ce qui signifie qu’ils ne peuvent pas être récupérés directement à l’aide d’identificateurs de chaîne tels que « WinNT://Microsoft/Administrators ». Dans ce cas, l’utilisateur peut effectuer une liaison à l’objet SID connu pour le groupe, récupérer le nom de groupe localisé et le fournir à la méthode GetObject. Pour plus d’informations, consultez [sid connus](/windows/desktop/SecAuthZ/well-known-sids).
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de Visual Basic suivant montre comment effectuer une liaison à un objet de groupe et afficher la description du groupe.
+l’exemple de Visual Basic suivant montre comment effectuer une liaison à un objet de groupe et afficher la description du groupe.
 
 
 ```VB

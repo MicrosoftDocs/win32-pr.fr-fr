@@ -5,18 +5,18 @@ ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e2790cf5df42f64071db3ca51a35e58ee9afcd5
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 8b2a2cbd870da41df94ee0389757a1d1ec7cd5e4549a3abd32dbaaf6a7c8e8e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045557"
 ---
 # <a name="direct3d-12-raytracing-hlsl-system-value-intrinsics"></a>Intrinsèques de valeur système HLSL Direct3D 12 Raytracing
 
 Les valeurs système sont extraites à l’aide de fonctions intrinsèques spéciales, plutôt que d’inclure des paramètres avec une sémantique spéciale dans la signature de votre fonction de nuanceur. 
 
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 ### <a name="ray-dispatch-system-values"></a>Valeurs système de dispatch de rayon
 

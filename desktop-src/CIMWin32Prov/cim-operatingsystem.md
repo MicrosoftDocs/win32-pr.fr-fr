@@ -41,12 +41,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5b4af54a0f086bee4b743b083c27a67777786bc4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 76dc59331d3e4fed7c2b79dd95de4ecef02d67d26ab4c9aa66df5d9d7d5a7215
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020987"
 ---
 # <a name="cim_operatingsystem-class"></a>\_Classe CIM OperatingSystem
 
@@ -223,7 +223,7 @@ Cette propriété est héritée de [**CIM \_ ManagedSystemElement**](cim-managed
 
 </dd> <dt>
 
-**Graphique**
+**Distribué**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -263,7 +263,7 @@ Type de données : **UInt64**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|Paramètres de mémoire système DMTF \| 001,4»), [**unités**](/windows/desktop/WmiSdk/standard-qualifiers) (« kilo-octets »)
+Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|mémoire système DMTF Paramètres \| 001,4»), [**unités**](/windows/desktop/WmiSdk/standard-qualifiers) (« kilo-octets »)
 </dt> </dl>
 
 Nombre de kilo-octets qui peuvent être mappés dans les fichiers de pagination du système d’exploitation sans entraîner le remplacement d’autres pages. La valeur 0 indique qu’il n’y a aucun fichier de pagination.
@@ -482,7 +482,7 @@ Mac OS
 
 </dt> <dd>
 
-ATT UNIX
+UNIX ATT
 
 </dd> <dt>
 
@@ -582,7 +582,7 @@ Machine virtuelle Microsoft pour Java
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -664,7 +664,7 @@ NCR 3000
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Dépendant d’UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**UNIX dépendant** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -990,7 +990,7 @@ Type de données : **UInt64**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|Paramètres de mémoire système DMTF \| 001,3»), [**unités**](/windows/desktop/WmiSdk/standard-qualifiers) (« kilo-octets »)
+Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|mémoire système DMTF Paramètres \| 001,3»), [**unités**](/windows/desktop/WmiSdk/standard-qualifiers) (« kilo-octets »)
 </dt> </dl>
 
 Nombre de kilo-octets pouvant être stockés dans les fichiers de pagination du système d’exploitation. Ce nombre ne représente pas la taille physique réelle du fichier d’échange sur le disque. La valeur 0 (zéro) indique qu’il n’y a aucun fichier de pagination.
@@ -1117,7 +1117,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**unités**](/windows/desktop/WmiSdk/standard-qualifiers) (« kilo-octets »)
 </dt> </dl>
 
-Espace d’échange total, en kilo-octets. Cette valeur peut être null (non spécifié) si l’espace d’échange n’est pas distingué des fichiers d’échange. Toutefois, certains systèmes d’exploitation distinguent ces concepts. Par exemple, les processus entiers peuvent être « échangés » dans UNIX lorsque la liste de pages gratuites tombe en dessous d’un montant spécifié.
+Espace d’échange total, en kilo-octets. Cette valeur peut être null (non spécifié) si l’espace d’échange n’est pas distingué des fichiers d’échange. Toutefois, certains systèmes d’exploitation distinguent ces concepts. par exemple, les processus entiers peuvent être « échangés » dans UNIX lorsque la liste de pages libre tombe et reste sous un montant spécifié.
 
 Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les scripts, consultez [scripts dans WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
@@ -1180,7 +1180,7 @@ La version de l’opération doit se présenter sous l’une des formes suivante
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ OperatingSystem** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

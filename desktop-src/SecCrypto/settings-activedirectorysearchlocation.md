@@ -1,7 +1,7 @@
 ---
 description: Définit ou récupère le Active Directory emplacement de recherche.
 ms.assetid: 43320799-1c01-4e09-bed9-f3576baadcce
-title: Propriété Settings. ActiveDirectorySearchLocation
+title: Paramètres. Propriété ActiveDirectorySearchLocation
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,14 +13,14 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: d218b3d589b76980d468395a39452613aa57ada5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 884866fd5ff6a3e3ff483a255bf2b77063ca81e51141108c9f58fd45629cc036
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900319"
 ---
-# <a name="settingsactivedirectorysearchlocation-property"></a>Propriété Settings. ActiveDirectorySearchLocation
+# <a name="settingsactivedirectorysearchlocation-property"></a>Paramètres. Propriété ActiveDirectorySearchLocation
 
 \[La propriété **ActiveDirectorySearchLocation** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise.\]
 
@@ -57,7 +57,7 @@ Valeur de l’énumération de l' [**\_ emplacement de \_ \_ recherche \_ Active
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

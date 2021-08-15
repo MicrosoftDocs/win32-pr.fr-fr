@@ -4,12 +4,12 @@ ms.assetid: 711391da-05c6-4d89-88d6-c68c2e5c2f86
 title: Services (services)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04c13f9f09bd2731a60b80fbc198ca7ce709bd06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e829f1a6a29aca521cf18600ffbf5ed7d6c271c0d2b9a607e6ccae57d858aa5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888536"
 ---
 # <a name="services-services"></a>Services (services)
 
@@ -20,8 +20,8 @@ Un *service de pilote* est conforme aux protocoles de pilote de périphérique. 
 Les déclencheurs peuvent maintenant être utilisés pour contrôler le démarrage du service. Pour plus d’informations, consultez [configuration du service](service-configuration.md).
 
 -   [Nouveautés des services pour Windows 8](what-s-new-in-services-for-windows-8.md)
--   [Nouveautés des services pour Windows 7](what-s-new-in-services.md)
--   [Modifications de service pour Windows Vista](service-changes-for-windows-vista.md)
+-   [nouveautés des Services pour Windows 7](what-s-new-in-services.md)
+-   [modifications de Service pour Windows Vista](service-changes-for-windows-vista.md)
 -   [À propos des services](about-services.md)
 -   [Utilisation des services](using-services.md)
 -   [Référence de service](service-reference.md)

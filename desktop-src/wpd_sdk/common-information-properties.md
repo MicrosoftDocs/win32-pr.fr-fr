@@ -26,7 +26,7 @@ Windows Les appareils mobiles prennent en charge les propriétés d’informatio
 
 
 
-| Property                                      | VarType        | Description                                                                                              |
+| Propriété                                      | VarType        | Description                                                                                              |
 |-----------------------------------------------|----------------|----------------------------------------------------------------------------------------------------------|
 | **\_Notes d' \_ informations \_ communes wpd**           | **\_LPWStr VT** | Pour les rendez-vous, les tâches et les objets similaires, cette propriété contient toutes les remarques relatives à l’objet donné.     |
 | **\_objet d' \_ informations \_ communes wpd**         | **\_LPWStr VT** | Valeur qui spécifie le champ objet de cet objet.                                                 |

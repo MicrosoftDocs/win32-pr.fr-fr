@@ -4,26 +4,26 @@ ms.assetid: 339ffcd9-7724-4c92-b241-afbed81d9380
 title: Codes de notification d’événement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9c41abc3ffc7a93a39e7a97fb210b491ad4fc58
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 54792e433535ceefad416033d7758f4398b7777951173256c9be9b83913d61f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106544569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015787"
 ---
 # <a name="event-notification-codes"></a>Codes de notification d’événement
 
-Cette section répertorie les événements DirectShow qui ne sont pas spécifiques au DVD. Pour les événements spécifiques au DVD, consultez [codes de notification d’événement DVD](dvd-notification-codes.md).
+cette section répertorie les événements de DirectShow qui ne sont pas spécifiques au DVD. Pour les événements spécifiques au DVD, consultez [codes de notification d’événement DVD](dvd-notification-codes.md).
 
-Filtre les événements d’envoi au gestionnaire du graphique de filtre en appelant la méthode [**IMediaEventSink :: Notify**](/windows/desktop/api/Strmif/nf-strmif-imediaeventsink-notify) . Le gestionnaire de graphes de filtre gère certains événements et les autres files d’attente pour l’application. L’application les récupère en appelant la méthode [**IMediaEvent :: GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) .
+les filtres envoient des événements au gestionnaire de Graph de filtre en appelant la méthode [**IMediaEventSink :: Notify**](/windows/desktop/api/Strmif/nf-strmif-imediaeventsink-notify) . le gestionnaire de Graph de filtre gère certains événements et les autres files d’attente pour l’application. L’application les récupère en appelant la méthode [**IMediaEvent :: GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) .
 
-Dans les sections qui suivent, chaque entrée répertorie le code d’événement, la signification des paramètres d’événement et l’action par défaut du gestionnaire de graphique de filtre pour l’événement, le cas échéant. Pour remplacer l’action par défaut, appelez [**IMediaEvent :: CancelDefaultHandling**](/windows/desktop/api/Control/nf-control-imediaevent-canceldefaulthandling). Les codes d’événement sont définis dans les fichiers d’en-tête Evcode. h et Audevcod. h. S’il n’y a pas d’action par défaut, le gestionnaire de graphique de filtre transfère automatiquement l’événement à l’application (via la file d’attente d’événements).
+dans les sections qui suivent, chaque entrée répertorie le code d’événement, la signification des paramètres d’événement et l’action par défaut du gestionnaire Graph Manager pour l’événement, le cas échéant. Pour remplacer l’action par défaut, appelez [**IMediaEvent :: CancelDefaultHandling**](/windows/desktop/api/Control/nf-control-imediaevent-canceldefaulthandling). Les codes d’événement sont définis dans les fichiers d’en-tête Evcode. h et Audevcod. h. s’il n’y a pas d’action par défaut, le gestionnaire de Graph de filtre transfère automatiquement l’événement à l’application (via la file d’attente d’événements).
 
 **Événements personnalisés**
 
-Les filtres peuvent définir des événements personnalisés avec des codes d’événement dans la plage de l' \_ utilisateur EC et versions ultérieures. Le gestionnaire de graphes de filtre les place directement dans la file d’attente des événements. Toutefois, les avertissements suivants s’appliquent :
+Les filtres peuvent définir des événements personnalisés avec des codes d’événement dans la plage de l' \_ utilisateur EC et versions ultérieures. le gestionnaire de Graph de filtre les place directement dans la file d’attente des événements. Toutefois, les avertissements suivants s’appliquent :
 
--   Le gestionnaire de graphique de filtre ne peut pas libérer les paramètres d’événement à l’aide de la méthode normal [**IMediaEvent :: FreeEventParams**](/windows/desktop/api/Control/nf-control-imediaevent-freeeventparams) . L’application doit libérer le nombre de mémoire ou de références associé aux paramètres de l’événement.
+-   le gestionnaire de Graph de filtre ne peut pas libérer les paramètres d’événement à l’aide de la méthode normal [**IMediaEvent :: FreeEventParams**](/windows/desktop/api/Control/nf-control-imediaevent-freeeventparams) . L’application doit libérer le nombre de mémoire ou de références associé aux paramètres de l’événement.
 -   Le filtre doit uniquement envoyer l’événement à partir d’une application préparée pour gérer l’événement. (Peut-être que l’application peut définir une propriété personnalisée sur le filtre pour indiquer qu’il est possible d’envoyer l’événement.)
 
 
@@ -91,7 +91,7 @@ Les filtres peuvent définir des événements personnalisés avec des codes d’
 | [**\_surface EC \_ VMR \_ retournée**](ec-vmr-surface-flipped.md)             | Envoyé lorsque l’exlocateur VMR-7's a appelé la méthode de retournement DirectDraw sur la surface qui est présentée.           |
 | [**\_fenêtre EC \_ détruite**](ec-window-destroyed.md)                    | Le convertisseur vidéo a été détruit ou supprimé du graphique.                                                               |
 | [**\_événement EC WMT \_**](ec-wmt-event.md)                                  | Envoyé par le filtre de lecteur ASF WM lorsqu’il lit des fichiers ASF protégés par la gestion des droits numériques (DRM).                    |
-| [**événement d’index de l’WMT de la EC \_ \_ \_**](ec-wmt-index-event.md)                     | Envoyé lorsqu’une application utilise le writer ASF pour indexer les fichiers Windows Media Video.                                       |
+| [**événement d’index de l’WMT de la EC \_ \_ \_**](ec-wmt-index-event.md)                     | envoyé lorsqu’une application utilise le Writer ASF pour indexer les fichiers Windows Media Video.                                       |
 
 
 
@@ -104,7 +104,7 @@ Les filtres peuvent définir des événements personnalisés avec des codes d’
 [Constantes et GUID](constants-and-guids.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

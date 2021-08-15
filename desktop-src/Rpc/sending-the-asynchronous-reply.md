@@ -4,12 +4,12 @@ description: Lorsque l’appel asynchrone est terminé, le serveur envoie une r�
 ms.assetid: 458bc476-963e-4812-b4c2-9074ff0a8284
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06f861c3f2a1befdb85435f5275176c82e23bb06
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bdcaf4db4a27a49a8025596668893518c6b6c577a0d81d91189a44ec81df4de6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925577"
 ---
 # <a name="sending-the-asynchronous-reply"></a>Envoi de la réponse asynchrone
 
@@ -20,7 +20,7 @@ Quand le serveur appelle [**RpcAsyncCompleteCall**](/windows/desktop/api/Rpcasyn
 > [!Note]  
 > Le serveur doit terminer la mise à jour des \[ paramètres in, out \] et \[ out \] avant d’appeler **RpcAsyncCompleteCall**. Aucune modification ne peut être apportée à ces paramètres ou au handle asynchrone après l’appel de **RpcAsyncCompleteCall**. Si l’appel de fonction **RpcAsyncCompleteCall** échoue, le runtime RPC libère les paramètres.
 
- 
+ 
 
 L’exemple suivant illustre un appel de procédure asynchrone simple.
 
@@ -93,7 +93,7 @@ Par souci de simplicité, cette routine de serveur asynchrone ne traite pas les 
 > [!Note]  
 > La fonction **RpcAsyncCompleteCall** peut être appelée sur le thread qui a reçu l’appel ou sur tout autre thread du processus. Si toutes les données nécessaires pour terminer l’appel sont immédiatement disponibles, le serveur peut les remplir sur le même thread et appeler **RpcAsyncCompleteCall** sur le même thread. Cette approche permet d’économiser un changement de contexte et d’améliorer les performances. De tels appels sont appelés associer façon opportuniste asynchrones.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -111,9 +111,9 @@ Par souci de simplicité, cette routine de serveur asynchrone ne traite pas les 
 [**RpcServerTestCancel**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcservertestcancel)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

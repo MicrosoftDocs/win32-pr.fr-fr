@@ -3,7 +3,7 @@ title: Message CB_SELECTSTRING (winuser. h)
 description: Recherche dans la liste d’une zone de liste déroulante un élément qui commence par les caractères d’une chaîne spécifiée. Si un élément correspondant est trouvé, il est sélectionné et copié dans le contrôle d’édition.
 ms.assetid: c08dff72-7e44-40ed-8b64-513359292829
 keywords:
-- CB_SELECTSTRING les contrôles de message Windows
+- CB_SELECTSTRING les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2913b95c02cdfd3c7a9c96a8652038a04d8fde8f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4bedef20646664e37405c97a97f9e49147cad8acc08c05e33172e44a34298f5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019967"
 ---
 # <a name="cb_selectstring-message"></a>\_Message SELECTSTRING CB
 
@@ -47,7 +47,7 @@ Pointeur vers la chaîne terminée par le caractère null qui contient les carac
 
 Si la chaîne est trouvée, la valeur de retour est l’index de l’élément sélectionné. Si la recherche échoue, la valeur de retour est CB \_ Err et la sélection actuelle n’est pas modifiée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une chaîne est sélectionnée uniquement si les caractères à partir du point de départ correspondent aux caractères de la chaîne de préfixe.
 
@@ -59,8 +59,8 @@ Si vous créez la zone de liste déroulante avec un style owner-drawn mais sans 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

@@ -1,17 +1,17 @@
 ---
-description: System. Music. conducteur
+description: Requise. Musique. Conducteur
 ms.assetid: cb04c41f-35e3-4483-9bc5-5e4f2e45042f
-title: System. Music. conducteur
+title: Requise. Musique. Conducteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 068abb200873299e33c8b24e23b4d987ebfea5ff
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0582247442cd9de71b79a7741dc1b6f1927b9c8b8084f5ae103d54c6620d58b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970198"
 ---
-# <a name="systemmusicconductor"></a>System. Music. conducteur
+# <a name="systemmusicconductor"></a>Requise. Musique. Conducteur
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
@@ -28,7 +28,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

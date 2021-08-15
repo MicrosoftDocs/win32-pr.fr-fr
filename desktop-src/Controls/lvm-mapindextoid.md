@@ -1,9 +1,9 @@
 ---
 title: Message LVM_MAPINDEXTOID (commctrl. h)
-description: Mappe l’index d’un élément à un ID unique.
+description: Cartes l’index d’un élément à un ID unique.
 ms.assetid: d0486e21-2703-4289-abb0-f5f9c7b60b40
 keywords:
-- LVM_MAPINDEXTOID les contrôles de message Windows
+- LVM_MAPINDEXTOID les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6a2a5de558b025e61bef26fd20278f125372769
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 254bfff0ee1598b0657b44a967b9e1331b076a462c8703855c5dd23109a8835d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958148"
 ---
 # <a name="lvm_mapindextoid-message"></a>\_Message MAPINDEXTOID LVM
 
-Mappe l’index d’un élément à un ID unique.
+Cartes l’index d’un élément à un ID unique.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -47,7 +47,7 @@ Doit être zéro.
 
 Retourne un ID unique.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les contrôles List-View effectuent le suivi interne des éléments par index. Cela peut présenter des problèmes, car les index peuvent changer pendant la durée de vie du contrôle.
 
@@ -71,8 +71,8 @@ Pour identifier un élément de manière unique, prenez l’index retourné à p
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

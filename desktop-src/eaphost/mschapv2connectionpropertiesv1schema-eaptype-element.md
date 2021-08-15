@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3e9b7db3d3e3ab1ba90427a65a5544b87939ca88
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: 18d3296dfab4a28ba818199d0b9329888c692f55831bced2af5abedfd1f205e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106537937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984059"
 ---
 # <a name="eaptype-element-mschapv2connectionpropertiesv1schema"></a>Élément EapType (mschapv2connectionpropertiesv1schema)
 
@@ -63,7 +63,7 @@ L’élément **EapType** est un type dérivé de l’élément [EapType](baseea
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément **processContents** active les futures améliorations du schéma. L’élément **processContents** est facultatif.
 
@@ -73,8 +73,8 @@ L’élément **processContents** active les futures améliorations du schéma. 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

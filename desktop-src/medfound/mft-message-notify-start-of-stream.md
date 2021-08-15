@@ -4,12 +4,12 @@ ms.assetid: 579df695-02c4-4332-b1b4-c7bd9da50c0f
 title: MFT_MESSAGE_NOTIFY_START_OF_STREAM (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe0edefdecdf75afbe14c851f33e9726400e490d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20ed40d9d3514dfa6223d4e20f2eb411caec497e16f2e97c456f16e14442c407
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973028"
 ---
 # <a name="mft_message_notify_start_of_stream"></a>\_ \_ début de la notification par message MFT \_ \_ du \_ flux
 
@@ -39,8 +39,8 @@ Une table MFT asynchrone doit implémenter ce message, comme décrit dans [MFTS 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

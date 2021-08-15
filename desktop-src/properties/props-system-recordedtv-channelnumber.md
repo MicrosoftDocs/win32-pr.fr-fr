@@ -4,12 +4,12 @@ ms.assetid: daa738a0-b4db-4b8d-bd88-6ae66c10f7d1
 title: System. RecordedTV. ChannelNumber
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33066e2c40c6f4535a2164e3ad4ad8a51ba4ddc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88247588b665d93b369211efee2f6c0f807873752477f19a13a907b7067838c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969908"
 ---
 # <a name="systemrecordedtvchannelnumber"></a>System. RecordedTV. ChannelNumber
 
@@ -44,7 +44,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

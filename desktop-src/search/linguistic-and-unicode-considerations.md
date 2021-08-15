@@ -4,12 +4,12 @@ ms.assetid: a210bffc-fe71-4909-bc5c-d440890265c9
 title: Considérations linguistiques et Unicode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fa189f0772b65b0746e31bd90b89a4c62a4c42f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16d160d90c93d009af55bf8acb79a08a1963ea446018b8a920d27a8f3fe3ac60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462391"
 ---
 # <a name="linguistic-and-unicode-considerations"></a>Considérations linguistiques et Unicode
 
@@ -22,8 +22,8 @@ Cette section comprend les rubriques suivantes :
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
--   Pour obtenir la liste des lanuages prises en charge par les analyseurs lexicaux, consultez [langues prises en charge par Windows Search](-search-3x-wds-language-support.md).
--   Si vous devez identifier la langue d’un morceau de texte, vous pouvez utiliser la détection automatique de la langue (diagnostic Linux), qui est disponible dans Windows 7 et versions ultérieures. Pour plus d’informations, consultez [services linguistiques étendus](../intl/extended-linguistic-services.md) (ELS).
+-   pour obtenir la liste des lanuages prises en charge par les analyseurs lexicaux, consultez [langues prises en charge par Windows Search](-search-3x-wds-language-support.md).
+-   si vous devez identifier la langue d’un morceau de texte, vous pouvez utiliser la détection automatique de la langue (diagnostic linux), disponible dans Windows 7 et versions ultérieures. Pour plus d’informations, consultez [services linguistiques étendus](../intl/extended-linguistic-services.md) (ELS).
 -   Pour obtenir la documentation de référence applicable, consultez [interfaces de complément de données](-search-data-addins-interfaces-entry-page.md).
 
 ## <a name="related-topics"></a>Rubriques connexes

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6cb3484ec9ebcd0f62a8c06eb4c23bf5355f1d5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7356c0aa4aa62521d2ab998773d07b8aa1a107c92b541c556756a567d31a09a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104519193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971788"
 ---
 # <a name="wm_uninitmenupopup-message"></a>\_Message WM UNINITMENUPOPUP
 
@@ -50,7 +50,7 @@ Le mot de poids fort identifie le menu qui a été détruit. Actuellement, ce pa
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si une application reçoit un message [**WM \_ INITMENUPOPUP**](wm-initmenupopup.md) , elle recevra un message **WM \_ UNINITMENUPOPUP** .
 

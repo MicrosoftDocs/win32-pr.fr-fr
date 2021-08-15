@@ -4,12 +4,12 @@ ms.assetid: 7810d1c8-2f64-4853-b7f6-b9d18a0c7fd1
 title: System. photo. ShutterSpeedNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbc96070885b8caabccf2f174097b4ac664ad73f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc43393065558d68ace2a5d7a707368d94d9b2feab79e2eda239d65fb2953ea4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970028"
 ---
 # <a name="systemphotoshutterspeednumerator"></a>System. photo. ShutterSpeedNumerator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Int32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

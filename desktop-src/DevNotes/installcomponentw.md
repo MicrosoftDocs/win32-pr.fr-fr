@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msoobci.dll
-ms.openlocfilehash: 4d262322be6084429f03d5725f61c0e0f7140871
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9deaa460ec58ad0aa07af38aa03f53971068b4a6a1d43131e5473a7e4def908c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955918"
 ---
 # <a name="installcomponentw-function"></a>InstallComponentW fonction)
 
@@ -60,7 +60,7 @@ GUID du composant d’exception en cours d’installation.
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Indicateurs utilisés pour contrôler les comportements d’installation. Ce paramètre peut être une combinaison des valeurs suivantes.
@@ -74,7 +74,7 @@ Indicateurs utilisés pour contrôler les comportements d’installation. Ce par
 | <span id="COMP_FLAGS_NO_OVERWRITE"></span><span id="comp_flags_no_overwrite"></span><dl> <dt>**COMP \_ INDICATEURS \_ sans \_ remplacement**</dt><dt></dt> </dl>                 | Ignore la sauvegarde des fichiers si la version du composant d’exception est identique à celle d’un composant installé. Cet indicateur est utilisé dans un scénario de réinstallation.<br/> |
 | <span id="COMP_FLAGS_NOUI"></span><span id="comp_flags_noui"></span><dl> <dt>**COMP \_ INDICATEURS \_ noui**</dt> <dt>0x00000002</dt> </dl>                                | Supprime toute l’interface utilisateur.<br/>                                                                                                                               |
 | <span id="COMP_FLAGS_UPDATE_DLLCACHE"></span><span id="comp_flags_update_dllcache"></span><dl> <dt>**COMP \_ INDICATEURS \_ Update \_ dllcache**</dt><dt></dt> </dl>        | Force la mise à jour du répertoire DLLCACHE lorsqu’un fichier système est mis à jour.<br/>                                                                       |
-| <span id="COMP_FLAGS_USE_SVCPACK_CACHE"></span><span id="comp_flags_use_svcpack_cache"></span><dl> <dt>**COMP \_ les indicateurs \_ utilisent le \_ \_ cache SVCPACK**</dt><dt></dt> </dl> | Utilise les fichiers mis en cache par une installation de Windows Service Pack pour remplacer les fichiers sauvegardés.<br/>                                                                |
+| <span id="COMP_FLAGS_USE_SVCPACK_CACHE"></span><span id="comp_flags_use_svcpack_cache"></span><dl> <dt>**COMP \_ les indicateurs \_ utilisent le \_ \_ cache SVCPACK**</dt><dt></dt> </dl> | utilise les fichiers mis en cache par un Windows Service Pack installer pour remplacer les fichiers sauvegardés.<br/>                                                                |
 
 
 
@@ -113,7 +113,7 @@ Révision du correctif logiciel du composant d’exception.
 *Nom* \[ dans, facultatif\]
 </dt> <dd>
 
-Chaîne descriptive du composant affiché par la boîte de dialogue protection des fichiers Windows si le système d’exploitation détecte qu’un fichier protégé de protection de fichiers Windows est endommagé, falsifié ou endommagé.
+chaîne descriptive du composant indiquée par la boîte de dialogue Windows protection de fichier si le système d’exploitation détecte qu’un fichier protégé de protection de fichier Windows est endommagé, falsifié ou endommagé.
 
 </dd> </dl>
 
@@ -121,11 +121,11 @@ Chaîne descriptive du composant affiché par la boîte de dialogue protection d
 
 Cette fonction retourne une valeur **HRESULT** (S \_ OK ou un code d’échec). Un code d’échec peut être vérifié par rapport à une valeur de 0x20000100 pour déterminer si l’échec est dû à un redémarrage requis.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les packages d’exception sont des fichiers système Windows qui sont publiés en dehors d’une version de package complète de Windows et qui mettent à jour les fichiers du système d’exploitation. Les packages d’exception sont créés uniquement par des équipes de système d’exploitation qui ont reçu l’autorisation de mettre à jour les fichiers système Windows.
+les packages d’Exception sont Windows les fichiers système qui sont publiés en dehors d’un package complet Windows version et qui mettent à jour les fichiers du système d’exploitation. les packages d’Exception sont créés uniquement par les équipes du système d’exploitation qui ont reçu l’autorisation de mettre à jour Windows fichiers système.
 
-Pour installer et désinstaller des fichiers qui ne sont pas protégés par la protection des fichiers Windows, utilisez les fonctions documentées dans les [fonctions d’installation générales](https://msdn.microsoft.com/library/ms794585.aspx). Pour installer des pilotes de périphérique, les fournisseurs doivent utiliser les fonctions documentées dans [fonctions d’installation des appareils](https://msdn.microsoft.com/library/ms792954.aspx) et [fonctions PNP Configuration Manager](https://msdn.microsoft.com/library/ms790838.aspx).
+pour installer et désinstaller des fichiers qui ne sont pas protégés par Windows Protection des fichiers, utilisez les fonctions documentées dans les [fonctions d’installation générales](https://msdn.microsoft.com/library/ms794585.aspx). Pour installer des pilotes de périphérique, les fournisseurs doivent utiliser les fonctions documentées dans [fonctions d’installation des appareils](https://msdn.microsoft.com/library/ms792954.aspx) et [fonctions PNP Configuration Manager](https://msdn.microsoft.com/library/ms790838.aspx).
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

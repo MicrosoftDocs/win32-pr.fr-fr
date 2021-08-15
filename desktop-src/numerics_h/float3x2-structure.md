@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9351fae9636ca2512825c7df5383eddf1558583e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 24d403446fa3544bdb001c065e9874f812a829680e19a5e6b526ed12276fd6e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971758"
 ---
 # <a name="float3x2-structure"></a>float3x2, structure
 
@@ -97,7 +97,7 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 
 | Condition requise | Valeur |
 |-|-|
-| Espace de noms | Windows :: Foundation :: Numerics |
+| Espace de noms | Windows :: Foundation :: numerics |
 | En-tête | <dl> <dt>Windowsnumerics. h</dt> </dl> |
 
 ## <a name="see-also"></a>Voir aussi

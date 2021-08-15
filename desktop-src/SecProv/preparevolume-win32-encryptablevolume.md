@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 918e4289f8f2c38af2a4a51bfe92f82a74b30b22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67b36703883825d4144037c54ffb55c00308ed1cfb8ee3e4b074d75d63bf7390
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891545"
 ---
 # <a name="preparevolume-method-of-the-win32_encryptablevolume-class"></a>Méthode PrepareVolume de la \_ classe Win32 EncryptableVolume
 
-La méthode **PrepareVolume** de la [**classe \_ EncryptableVolume Win32**](win32-encryptablevolume.md) crée un volume BitLocker avec le type de système de fichiers spécifié du volume de détection. Cette méthode doit être appelée pour que le volume puisse être protégé avec l’une des méthodes **ProtectKeyWith \** _.
+La méthode **PrepareVolume** de la [**classe \_ EncryptableVolume Win32**](win32-encryptablevolume.md) crée un volume BitLocker avec le type de système de fichiers spécifié du volume de détection. Cette méthode doit être appelée pour que le volume puisse être protégé avec l’une des méthodes **ProtectKeyWith \*** .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -37,7 +37,7 @@ uint32 PrepareVolume(
 
 <dl> <dt>
 
-_DiscoveryVolumeType * \[ dans\]
+*DiscoveryVolumeType* \[ dans\]
 </dt> <dd>
 
 Type : **chaîne**
@@ -47,7 +47,7 @@ Chaîne qui spécifie le type de volume de détection.
 | Valeur               | Signification                                                            |
 |---------------------|--------------------------------------------------------------------|
 | **&lt;None&gt;**    | Aucun volume de détection. Cette valeur crée un volume BitLocker natif. |
-| **&lt;default&gt;** | Cette valeur est le comportement par défaut.                                |
+| **&lt;valeurs&gt;** | Cette valeur est le comportement par défaut.                                |
 | **FAT32**           | Cette valeur crée un volume de détection FAT32.                       |
 
 </dd> <dt>
@@ -77,7 +77,7 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 |------------------------|---------------------------------|
 | **S_OK** <br/> 0 (0x0) | La méthode a réussi.<br/> |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous n’appelez pas cette méthode lors de l’activation d’un volume BitLocker, elle revient à appeler cette méthode avec la valeur par défaut dans le paramètre *DiscoveryVolumeType* .
 
@@ -85,8 +85,8 @@ Si vous n’appelez pas cette méthode lors de l’activation d’un volume BitL
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 7 entreprise, les applications de bureau Windows 7 édition intégrale \[ uniquement\]<br/>                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows 7 Entreprise, Windows 7 Édition Intégrale des \[ applications de bureau uniquement\]<br/>                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |
 

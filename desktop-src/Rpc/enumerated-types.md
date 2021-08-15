@@ -4,12 +4,12 @@ description: La Déclaration enum n’est pas traduite en instructions \ define 
 ms.assetid: dc38d3a2-cc6a-467f-a497-2a7abec07573
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0dee1d9a5415867f252c1738a638b602ebd91fa
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f6844f7d84f2b2ff7b5925429fa751979accb73cc711265a2cc44046607ff5ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930396"
 ---
 # <a name="enumerated-types-rpc"></a>Types énumérés (RPC)
 

@@ -4,12 +4,12 @@ ms.assetid: E5D08A97-9C74-4B97-98AB-D48D2D68044B
 title: Méthodes utilitaires
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 853d377e716e6b9a1853df330a2101c3c0cb973f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a65809d72c7fbd7b4eaacc83e621efe8c6c8d96fbf17ef76a17216333cff7d78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896358"
 ---
 # <a name="utilities-methods"></a>Méthodes utilitaires
 

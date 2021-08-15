@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a91dfe08d8261dbe62379f2b4d7a8385fc75bc28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46cb6027625cc0cf7057bcd4bb1a5d7fb659dd0ba5fcc406de4407fa6ba5e1bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118485195"
 ---
 # <a name="systemparameterscolumnsvarmost-field"></a>Champ SystemParameters. ColumnsVarMost
 

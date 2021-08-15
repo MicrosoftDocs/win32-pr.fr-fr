@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: dd4b858924e4b042b3d7a0636d90eb582e9506df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d892fd3f676183864d72d905b72cea2f01643211314fc293b1cd76e5d70fc237
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092696"
 ---
 # <a name="iuseridentity2changepassword-method"></a>IUserIdentity2 :: ChangePassword, méthode
 
@@ -45,16 +45,16 @@ HRESULT ChangePassword(
 *szOldPass* \[ dans\]
 </dt> <dd>
 
-Type : **WCHAR \** _
+Type : **WCHAR \***
 
 Chaîne de caractères larges qui contient le mot de passe actuellement associé à l’identité.
 
 </dd> <dt>
 
-_szNewPass * \[ dans\]
+*szNewPass* \[ dans\]
 </dt> <dd>
 
-Type : **WCHAR \** _
+Type : **WCHAR \***
 
 Chaîne de caractères larges qui contient le nouveau mot de passe à associer à l’identité.
 
@@ -62,15 +62,15 @@ Chaîne de caractères larges qui contient le nouveau mot de passe à associer �
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de *szOldPass* doit correspondre au mot de passe actuel de l’identité pour *szNewPass* à appliquer. Une valeur incorrecte de *szOldPass* entraînera l’échec de la valeur de retour E \_ .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

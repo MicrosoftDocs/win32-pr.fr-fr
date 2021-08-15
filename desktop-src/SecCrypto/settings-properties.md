@@ -1,19 +1,19 @@
 ---
-description: L’objet Settings expose les propriétés suivantes.
+description: l’objet Paramètres expose les propriétés suivantes.
 ms.assetid: 4BB369DC-B310-49B6-A117-DD778CCD9902
-title: Propriétés des paramètres
+title: Paramètres Sous
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ed80642cb22752b9da00147c0d4ca8059c8a29c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 458f4f35b485b2610112df4855196ce2a7b4cc276078c0d1da9bb6bffb758464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900339"
 ---
-# <a name="settings-properties"></a>Propriétés des paramètres
+# <a name="settings-properties"></a>Paramètres Sous
 
-L’objet [**Settings**](settings.md) expose les propriétés suivantes.
+l’objet [**Paramètres**](settings.md) expose les propriétés suivantes.
 
 ## <a name="in-this-section"></a>Dans cette section
 

@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - WinSpool.Drv
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 490221b15ed1e3c7dad3a4cb523c15e9ec484b13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b8b413854f8634477f7fec9010f4306587a093bd5c791b1b7d0117b6c3ef91f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971158"
 ---
 # <a name="writeprinter-function"></a>WritePrinter fonction)
 
@@ -84,7 +84,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -100,9 +100,9 @@ La séquence d’un travail d’impression se présente comme suit :
 5.  Répétez les étapes 2, 3 et 4 pour autant de pages que nécessaire.
 6.  Pour mettre fin au travail d’impression, appelez [**EndDocPrinter**](enddocprinter.md).
 
-Lorsqu’un document de niveau supérieur (par exemple, un fichier Adobe PDF ou Microsoft Word) ou d’autres données d’imprimante (par exemple, PCL, PS ou HPGL) sont envoyés directement à une imprimante, les paramètres d’impression définis dans le document ont priorité sur les paramètres d’impression Windows. Les documents sont générés lorsque la valeur du membre *pDatatype* de la structure [**\_ infos doc \_ 1**](doc-info-1.md) qui a été transmise dans le paramètre *PDOCINFO* de l’appel [**StartDocPrinter**](startdocprinter.md) est « RAW » doit décrire entièrement les paramètres du travail d’impression de style [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)dans la langue comprise par le matériel.
+lorsqu’un document de niveau supérieur (par exemple, un fichier Adobe PDF ou Microsoft Word) ou d’autres données d’imprimante (par exemple, PCL, PS ou HPGL) sont envoyés directement à une imprimante, les paramètres d’impression définis dans le document ont priorité sur les paramètres d’impression Windows. Les documents sont générés lorsque la valeur du membre *pDatatype* de la structure [**\_ infos doc \_ 1**](doc-info-1.md) qui a été transmise dans le paramètre *PDOCINFO* de l’appel [**StartDocPrinter**](startdocprinter.md) est « RAW » doit décrire entièrement les paramètres du travail d’impression de style [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)dans la langue comprise par le matériel.
 
-Dans les versions de Windows antérieures à Windows XP, quand une page dans un fichier mis en file d’attente dépasse environ 350 Mo, elle peut échouer et ne pas envoyer de message d’erreur. Par exemple, cela peut se produire lors de l’impression de fichiers EMF volumineux. La limite de taille de page dans les versions de Windows antérieures à Windows XP dépend de nombreux facteurs, notamment la quantité de mémoire virtuelle disponible, la quantité de mémoire allouée par les processus appelant et la quantité de fragmentation dans le segment de mémoire de processus. Dans Windows XP et les versions ultérieures de Windows, les fichiers EMF doivent avoir une taille inférieure ou égale à 2 Go. Si **WritePrinter** est utilisé pour écrire des données non EMF, telles que le PDL prêt pour l’impression, la taille du fichier est limitée uniquement par l’espace disque disponible.
+dans les versions de Windows antérieures à Windows XP, quand une page dans un fichier mis en file d’attente dépasse environ 350 mo, elle peut échouer et ne pas envoyer de message d’erreur. Par exemple, cela peut se produire lors de l’impression de fichiers EMF volumineux. la limite de taille de page dans les versions de Windows antérieures à Windows XP dépend de nombreux facteurs, notamment la quantité de mémoire virtuelle disponible, la quantité de mémoire allouée par les processus appelant et la quantité de fragmentation dans le segment de mémoire de processus. dans Windows XP et les versions ultérieures de Windows, les fichiers EMF doivent avoir une taille inférieure ou égale à 2 go. Si **WritePrinter** est utilisé pour écrire des données non EMF, telles que le PDL prêt pour l’impression, la taille du fichier est limitée uniquement par l’espace disque disponible.
 
 ## <a name="examples"></a>Exemples
 
