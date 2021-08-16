@@ -4,27 +4,27 @@ description: Cette rubrique montre comment traiter une notification de format en
 ms.assetid: 7B559846-FE52-4181-B25D-888BE90EB038
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25271ff33ee6978ebcb0bc474492f884ed7faaa2
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 070d1234dbd9d09159335539309deec86e2d3e1e05547d933cd18f16b9d7162d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103842894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829910"
 ---
 # <a name="how-to-process-the-dtn_format-notification"></a>Comment traiter la notification au \_ format DTN
 
 Cette rubrique montre comment traiter une notification de format envoyée par le contrôle de sélecteur de dates et d’heures (PAO).
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

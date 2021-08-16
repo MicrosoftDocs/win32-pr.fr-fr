@@ -4,12 +4,12 @@ ms.assetid: E1A7B1B0-2879-452E-9EBB-73F02B932200
 title: Procédure d’activation manuelle de la saisie semi-automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aee4b327c6ccdd62fd921c56cfb046edb8527bc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7df686e4c5a4a6e96b1faf82e4926dffc73398b360e3e6235d6a61451eae189
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859706"
 ---
 # <a name="how-to-enable-autocomplete-manually"></a>Procédure d’activation manuelle de la saisie semi-automatique
 
@@ -126,7 +126,7 @@ Les étapes suivantes montrent comment créer et initialiser un objet de saisie 
 
 ### <a name="creating-a-compound-autocomplete-object"></a>Création d’un objet de saisie semi-automatique composée
 
-Un objet de saisie semi-automatique composée correspond aux chaînes de plusieurs sources. Par exemple, la barre d’adresses Windows Internet Explorer utilise un objet de saisie semi-automatique composée, car l’utilisateur peut commencer à taper le nom d’un fichier ou d’une URL. La plupart des étapes impliquées dans la création d’un objet de saisie semi-automatique composée sont identiques à celles décrites dans la section « création d’un objet à saisie semi-automatique simple ». Ces étapes sont indiquées comme telles.
+Un objet de saisie semi-automatique composée correspond aux chaînes de plusieurs sources. par exemple, le Windows barre d’adresses d’Internet Explorer utilise un objet de saisie semi-automatique composée, car l’utilisateur peut commencer à taper le nom d’un fichier ou d’une URL. La plupart des étapes impliquées dans la création d’un objet de saisie semi-automatique composée sont identiques à celles décrites dans la section « création d’un objet à saisie semi-automatique simple ». Ces étapes sont indiquées comme telles.
 
 1.  Créez l’objet de saisie semi-automatique. Il s’agit du même que celui de l’étape 1 ci-dessus.
 

@@ -3,7 +3,7 @@ title: Attribut ReleaseDateYear
 description: L’attribut ReleaseDateYear est la partie année de la date de la version d’origine de l’élément.
 ms.assetid: e211d5ed-b337-4c34-9abe-03cc1ab92b81
 keywords:
-- Attribut ReleaseDateYear lecteur Windows Media
+- Lecteur Windows Media de l’attribut ReleaseDateYear
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27919f7f59a0e8ca232267964c3edf60c32f43ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6adc2301dd3ed21db4bb48f86f056f43d46719eebdd68b9d032d8c420a9741a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118333296"
 ---
 # <a name="releasedateyear-attribute"></a>Attribut ReleaseDateYear
 
@@ -29,7 +29,7 @@ L’attribut **ReleaseDateYear** est la partie année de la date de la version d
 -   [Pistes de CD](cd-track-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la base de données de bibliothèque (ou dans le cache).
 

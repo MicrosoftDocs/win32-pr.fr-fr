@@ -4,18 +4,18 @@ ms.assetid: b31500d6-a79d-4e6e-878e-6bd77055f1ad
 title: Événements d’appareil (API audio principales)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0513fc49ee5f3cb2bfe95ca2330cb79b74720923
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b61538bd7d8d297b52a321f446bb11c3e1365e549a3c2947b55538730c1660c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118407027"
 ---
 # <a name="device-events-core-audio-apis"></a>Événements d’appareil (API audio principales)
 
 Un événement d’appareil notifie les clients qu’une modification a été apportée à l’état d’un [périphérique de point de terminaison audio](audio-endpoint-devices.md) dans le système. Voici quelques exemples d’événements d’appareil :
 
--   L’utilisateur active ou désactive un périphérique de point de terminaison audio à partir de Gestionnaire de périphériques ou à partir du panneau de configuration multimédia Windows, Mmsys.cpl.
+-   l’utilisateur active ou désactive un périphérique de point de terminaison audio à partir de Gestionnaire de périphériques ou à partir du panneau de configuration Windows multimédia, Mmsys.cpl.
 -   L’utilisateur ajoute un adaptateur audio au système ou supprime un adaptateur audio du système.
 -   L’utilisateur connecte un périphérique de point de terminaison audio à une prise jack audio avec la détection de la présence des prises jack ou supprime un périphérique de point de terminaison audio d’une telle Jack.
 -   L’utilisateur modifie le [rôle d’appareil](device-roles.md) affecté à un appareil.
@@ -33,7 +33,7 @@ L’interface **IMMNotificationClient** est implémentée par un client. L’int
 
 Un client qui est inscrit pour recevoir des notifications d’événements d’appareil reçoit des notifications de tous les types d’événements d’appareil qui se produisent dans tous les périphériques de point de terminaison audio du système. Si un client s’intéresse uniquement à certains types d’événements ou à certains appareils, les méthodes de son implémentation de **IMMNotificationClient** doivent filtrer les événements de manière appropriée.
 
-Le SDK Windows fournit des exemples qui incluent plusieurs implémentations de l' [**interface IMMNotificationClient**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immnotificationclient). Pour plus d’informations, consultez [les exemples du kit de développement logiciel (SDK) qui utilisent les API audio principales](sdk-samples-that-use-the-core-audio-apis.md).
+le SDK Windows fournit des exemples qui incluent plusieurs implémentations de l' [**Interface IMMNotificationClient**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immnotificationclient). Pour plus d’informations, consultez [les exemples du kit de développement logiciel (SDK) qui utilisent les API audio principales](sdk-samples-that-use-the-core-audio-apis.md).
 
 L’exemple de code suivant montre une implémentation possible de l’interface **IMMNotificationClient** :
 
@@ -268,7 +268,7 @@ La classe CMMNotificationClient de l’exemple de code précédent est une impl�
 
 Chacune de ces méthodes accepte un paramètre d’entrée, *pwstrDeviceId*, qui est un pointeur vers une chaîne d’ID de point de terminaison. La chaîne identifie l’appareil de point de terminaison audio dans lequel l’événement d’appareil s’est produit.
 
-Dans l’exemple de code précédent, \_ PrintDeviceName est une méthode privée dans la classe CMMNotificationClient qui imprime le nom convivial de l’appareil. \_PrintDeviceName prend la chaîne d’ID de point de terminaison en tant que paramètre d’entrée. Elle transmet la chaîne à la méthode [**IMMDeviceEnumerator :: GetDevice**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice) . **GetDevice** crée un objet d’appareil de point de terminaison pour représenter l’appareil et fournit l’interface [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) à cet objet. Ensuite, \_ PrintDeviceName appelle la méthode [**IMMDevice :: OpenPropertyStore**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore) pour récupérer l' **interface IPropertyStore** dans la Banque de propriétés de l’appareil. Enfin, \_ PrintDeviceName appelle la méthode **IPropertyStore :: GetItem** pour obtenir la propriété friendly-name de l’appareil. Pour plus d’informations sur **IPropertyStore**, consultez la documentation SDK Windows.
+Dans l’exemple de code précédent, \_ PrintDeviceName est une méthode privée dans la classe CMMNotificationClient qui imprime le nom convivial de l’appareil. \_PrintDeviceName prend la chaîne d’ID de point de terminaison en tant que paramètre d’entrée. Elle transmet la chaîne à la méthode [**IMMDeviceEnumerator :: GetDevice**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice) . **GetDevice** crée un objet d’appareil de point de terminaison pour représenter l’appareil et fournit l’interface [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) à cet objet. Ensuite, \_ PrintDeviceName appelle la méthode [**IMMDevice :: OpenPropertyStore**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore) pour récupérer l' **interface IPropertyStore** dans la Banque de propriétés de l’appareil. Enfin, \_ PrintDeviceName appelle la méthode **IPropertyStore :: GetItem** pour obtenir la propriété friendly-name de l’appareil. pour plus d’informations sur **IPropertyStore**, consultez la documentation SDK Windows.
 
 En plus des événements d’appareil, les clients peuvent s’inscrire pour recevoir des notifications d’événements de session audio et d’événements de volume de point de terminaison. Pour plus d’informations, consultez [**interface IAudioSessionEvents**](/windows/desktop/api/Audiopolicy/nn-audiopolicy-iaudiosessionevents) et [**interface IAudioEndpointVolumeCallback**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback).
 

@@ -1,5 +1,5 @@
 ---
-description: La \_ classe de partage Win32 représente une ressource partagée sur un système informatique exécutant Windows. Il peut s’agir d’un lecteur de disque, d’une imprimante, d’une communication entre processus ou d’un autre appareil partageable. Pour plus d’informations sur la récupération des classes WMI, consultez récupération d’une classe.
+description: La \_ classe de partage Win32 représente une ressource partagée sur un système d’ordinateur exécutant Windows. Il peut s’agir d’un lecteur de disque, d’une imprimante, d’une communication entre processus ou d’un autre appareil partageable. Pour plus d’informations sur la récupération des classes WMI, consultez récupération d’une classe.
 ms.assetid: 2d47b726-a0fe-47f3-9e96-d1d507655e56
 ms.tgt_platform: multiple
 title: Classe Win32_Share
@@ -24,16 +24,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e871880da5aa9819de4a9eaaf3c6f074bd198d23
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 258116c3d6f01db938033056069aa036a3eaad23e44b31d80838ad26f570faa7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117834151"
 ---
 # <a name="win32_share-class"></a>\_Classe de partage Win32
 
-La classe de **\_ partage Win32** représente une ressource partagée sur un système informatique exécutant Windows. Il peut s’agir d’un lecteur de disque, d’une imprimante, d’une communication entre processus ou d’un autre appareil partageable. Pour plus d’informations sur la récupération des classes WMI, consultez [récupération d’une classe](../wmisdk/retrieving-a-class.md).
+La classe de **\_ partage Win32** représente une ressource partagée sur un système d’ordinateur exécutant Windows. Il peut s’agir d’un lecteur de disque, d’une imprimante, d’une communication entre processus ou d’un autre appareil partageable. Pour plus d’informations sur la récupération des classes WMI, consultez [récupération d’une classe](../wmisdk/retrieving-a-class.md).
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -71,7 +71,7 @@ La classe de **\_ partage Win32** possède ces méthodes.
 
 | Méthode                                                             | Description                                                                                                                                                                                                         |
 |:-------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Créés**](create-method-in-class-win32-share.md)               | Méthode de classe qui initie le partage pour une ressource de serveur.<br/>                                                                                                                                               |
+| [**Créer**](create-method-in-class-win32-share.md)               | Méthode de classe qui initie le partage pour une ressource de serveur.<br/>                                                                                                                                               |
 | [**Supprimer**](delete-method-in-class-win32-share.md)               | Méthode de classe qui supprime un nom de partage de la liste des ressources partagées d’un serveur, en déconnectant les connexions à la ressource partagée.<br/>                                                                       |
 | [**GetAccessMask**](getaccessmask-method-in-class-win32-share.md) | Retourne les droits d’accès au partage détenu par l’utilisateur ou le groupe au nom duquel l’instance est retournée. Vous devez utiliser cette méthode à la place de la propriété **AccessMask** , qui est toujours **null**.<br/> |
 | [**SetShareInfo**](setshareinfo-method-in-class-win32-share.md)   | Méthode de classe qui définit les paramètres d’une ressource partagée.<br/>                                                                                                                                              |
@@ -200,9 +200,9 @@ Type d'accès : Lecture seule
 Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**remplacement**](../wmisdk/standard-qualifiers.md) ("Name"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("les \| structures de gestion de réseau win32api partagent les \| [**\_ informations \_ 1**](/windows/win32/api/lmshare/ns-lmshare-share_info_1) \| shi1 \_ NetName")
 </dt> </dl>
 
-Alias donné à un chemin d’accès configuré en tant que partage sur un système informatique exécutant Windows.
+Alias donné à un chemin d’accès configuré en tant que partage sur un système d’ordinateur exécutant Windows.
 
-Windows 2008 exemple : « \\ SERVEUR01 \\ public »-windows Server 2008 nécessite que vous détrouviez l’UNC dans le nom.
+Windows 2008 exemple : « \\ serveur01 \\ public »-Windows Server 2008 nécessite que vous détrouviez l’UNC dans le nom.
 
 </dd> <dt>
 
@@ -218,7 +218,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("les \| structures de gestion de réseau win32api \| [**partagent les \_ informations \_ 502**](/windows/win32/api/lmshare/ns-lmshare-share_info_502) \| shi502 \_ path")
 </dt> </dl>
 
-Chemin d’accès local du partage Windows.
+chemin d’accès Local du partage de Windows.
 
 Exemple : « C : \\ Program Files »
 
@@ -406,7 +406,7 @@ Type de ressource partagée. Les types sont les suivants : lecteurs de disque, 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ partage Win32** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

@@ -1,6 +1,6 @@
 ---
-title: Configuration des flux de transfert de fichiers
-description: Configuration des flux de transfert de fichiers
+title: Configuration du transfert de fichiers Flux
+description: Configuration du transfert de fichiers Flux
 ms.assetid: faed54ae-9e80-492a-9602-e726bdb3b54a
 keywords:
 - flux, configuration des flux de transfert de fichiers
@@ -11,14 +11,14 @@ keywords:
 - extensions d’unité de données, flux de transfert de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75fac7d2270da82f1f9e82ed9123611ae608dd3c
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 9c0be95c9760a02275e223f56785149f6867d4aaf2462d07d158991b3cd21c01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849062"
 ---
-# <a name="configuring-file-transfer-streams"></a>Configuration des flux de transfert de fichiers
+# <a name="configuring-file-transfer-streams"></a>Configuration du transfert de fichiers Flux
 
 Les flux de transfert de fichiers ne nécessitent pas de paramètres spéciaux dans la structure du [**\_ \_ type de média WM**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type) . Ils requièrent une extension d’unité de données pour associer un nom de fichier à chaque exemple. Pour envoyer un nom avec des exemples de transfert de fichiers, vous devez implémenter un système d’extension d’unité de données pour le flux.
 
@@ -37,7 +37,7 @@ Pour définir une extension d’unité de données pour le flux, procédez comme
 
 <dl> <dt>
 
-[**Configuration commune à tous les flux**](configuration-common-to-all-streams.md)
+[**Configuration commune à tous les Flux**](configuration-common-to-all-streams.md)
 </dt> <dt>
 
 [**Configuration de types de flux arbitraires**](configuring-arbitrary-stream-types.md)
@@ -46,9 +46,9 @@ Pour définir une extension d’unité de données pour le flux, procédez comme
 [**Flux de fichiers**](file-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

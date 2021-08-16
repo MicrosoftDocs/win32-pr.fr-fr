@@ -1,7 +1,7 @@
 ---
-description: Appareils mobiles Windows prend en charge les propriétés de musique suivantes.
+description: Windows Appareils mobiles prend en charge les propriétés de musique suivantes.
 ms.assetid: a1688c95-af5a-4061-80d4-61f08787d49e
-title: Propriétés de musique (PortableDevice. h)
+title: Musique Propriétés (PortableDevice. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 3b33c2219dc9da43474f28b4b807727bdd1d90a8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9231ad4a3c15aac893cc51105e764d7bb6bbd4866dae6e11164b9418db557c9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842880"
 ---
-# <a name="music-properties"></a>Propriétés de la musique
+# <a name="music-properties"></a>Musique Sous
 
-Appareils mobiles Windows prend en charge les propriétés de musique suivantes.
+Windows Appareils mobiles prend en charge les propriétés de musique suivantes.
 
 
 

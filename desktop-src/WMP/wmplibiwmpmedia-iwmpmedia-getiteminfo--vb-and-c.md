@@ -3,9 +3,9 @@ title: Méthode IWMPMedia getItemInfo
 description: La méthode getItemInfo retourne la valeur de l’attribut spécifié pour l’élément multimédia.
 ms.assetid: b95fa61d-a600-4f31-a930-d80516204034
 keywords:
-- méthode getItemInfo lecteur Windows Media
-- méthode getItemInfo lecteur Windows Media, interface IWMPMedia
-- Interface IWMPMedia lecteur Windows Media, méthode getItemInfo
+- Lecteur Windows Media de la méthode getItemInfo
+- méthode getItemInfo Lecteur Windows Media, interface IWMPMedia
+- Lecteur Windows Media de l’interface IWMPMedia, méthode getItemInfo
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 523e57e68d13df55395cd4deca6e09904723bbaf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ce8fa8b55074781dd835e116b0403391fe9343af30d5236610219dca8aba810b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331989"
 ---
 # <a name="iwmpmediagetiteminfo-method"></a>IWMPMedia :: getItemInfo, méthode
 
@@ -56,7 +56,7 @@ Implements IWMPMedia.getItemInfo
 *bstrItemName* \[ dans\]
 </dt> <dd>
 
-**System. String** qui est le nom de l’attribut. Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).
+**System. String** qui est le nom de l’attribut. pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).
 
 </dd> </dl>
 
@@ -64,7 +64,7 @@ Implements IWMPMedia.getItemInfo
 
 **System. String** qui est la valeur de l’attribut spécifié.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode retourne les métadonnées pour un élément multimédia individuel ou un élément multimédia qui fait partie d’une sélection.
 

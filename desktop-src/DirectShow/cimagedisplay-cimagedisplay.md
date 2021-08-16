@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 389ac06488762d95afa1894f7cfc27d2f9e2725e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ccec7fa6e4cfaf8cd3c5ffb0f1c05dbdf77a95dba614ebcbd292d32693abbb36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118402519"
 ---
 # <a name="cimagedisplaycimagedisplay-constructor"></a>Constructeur CImageDisplay. CImageDisplay
 
@@ -40,7 +40,7 @@ CImageDisplay();
 
 Ce constructeur n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Le constructeur initialise le type de format, à l’aide des paramètres d’affichage du périphérique d’affichage principal.
 
@@ -50,7 +50,7 @@ Le constructeur initialise le type de format, à l’aide des paramètres d’af
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

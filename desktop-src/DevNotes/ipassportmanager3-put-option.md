@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 52a1324c4b1a04a207b5bccac1a95bcd060be8ca
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 92a1c432df3f3948a85205e26da64073722ba84dd365ebdcaccf3b80521c517c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117827196"
 ---
 # <a name="ipassportmanager3put_option-method"></a>IPassportManager3 ::p \_ méthode d’option ut
 
@@ -62,7 +62,7 @@ Option de connexion à définir. Actuellement, la seule option prise en charge e
 
 Retourne \_ la valeur OK lorsque la méthode est réussie.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est fournie avec les versions antérieures du kit de développement logiciel (SDK) Passport.
 

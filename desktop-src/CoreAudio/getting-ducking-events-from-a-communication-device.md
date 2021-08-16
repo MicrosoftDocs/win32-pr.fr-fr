@@ -4,16 +4,16 @@ ms.assetid: 709ad912-6b03-4ad3-bc47-ad8b6bd6de45
 title: Obtention d’événements de canard
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e45557c25570a89452a39683a0b6732b9632129
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a4a5869aa02a64ef3b7d035743b9bee3c91d295448c4d89d659862c5efc81d89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828260"
 ---
 # <a name="getting-ducking-events"></a>Obtention d’événements de canard
 
-Une application multimédia qui souhaite fournir une expérience d’un canard personnalisé doit écouter les notifications d’événements lorsqu’un flux de communication est ouvert ou fermé dans le système. L’implémentation personnalisée peut être fournie à l’aide de MediaFoundation, DirectShow ou DirectSound, qui utilisent les API audio de base. Un client direct WASAPI peut également remplacer la gestion par défaut s’il sait à quel moment la session de communication démarre et se termine.
+Une application multimédia qui souhaite fournir une expérience d’un canard personnalisé doit écouter les notifications d’événements lorsqu’un flux de communication est ouvert ou fermé dans le système. l’implémentation personnalisée peut être fournie à l’aide de MediaFoundation, DirectShow ou DirectSound, qui utilisent les api Audio de base. Un client direct WASAPI peut également remplacer la gestion par défaut s’il sait à quel moment la session de communication démarre et se termine.
 
 Pour fournir une implémentation personnalisée, une application multimédia doit recevoir des notifications du système lorsqu’une application de communication démarre ou termine un flux de communication. L’application multimédia doit implémenter l’interface [**IAudioVolumeDuckNotification**](/windows/desktop/api/AudioPolicy/nn-audiopolicy-iaudiovolumeducknotification) et inscrire l’implémentation auprès du système audio. Une fois l’inscription réussie, l’application multimédia reçoit des notifications d’événements sous la forme de rappels via les méthodes de l’interface. Pour plus d’informations, consultez [considérations relatives à l’implémentation pour l’installation de notifications](handling-audio-ducking-events-from-communication-devices.md).
 

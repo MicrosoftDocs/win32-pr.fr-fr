@@ -3,9 +3,9 @@ title: Méthode d’élément IWMPPlaylistArray
 description: La méthode Item retourne une interface IWMPPlaylist représentant la sélection à l’index spécifié.
 ms.assetid: 5cb4b89f-b679-4d92-a5f9-5d0fe686775d
 keywords:
-- Méthode Item lecteur Windows Media
-- Méthode Item lecteur Windows Media, interface IWMPPlaylistArray
-- Interface IWMPPlaylistArray lecteur Windows Media, méthode d’élément
+- méthode Item Lecteur Windows Media
+- méthode Item Lecteur Windows Media, interface IWMPPlaylistArray
+- Lecteur Windows Media de l’interface IWMPPlaylistArray, méthode Item
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 660e919ef51bbb9584971f25bdf92296d331de23
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9e73614e1ef00f29d6b09d3d49e2c7e514bae807245f00f30f4d3382d8f1a2e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331158"
 ---
 # <a name="iwmpplaylistarrayitem-method"></a>IWMPPlaylistArray :: Item, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPPlaylistArray.Item
 
 Interface **wmplib. IWMPPlaylist** pour la sélection récupérée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

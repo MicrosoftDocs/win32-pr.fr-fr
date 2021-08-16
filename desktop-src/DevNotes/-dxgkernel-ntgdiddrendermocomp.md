@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 6e1dd0942a6996264e02531f7e21b2a99f059143
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d057ba1c7b533d75ce10754670b911ddc01a689acee29d79614a3ce2f273d278
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117827970"
 ---
 # <a name="ntgdiddrendermocomp-function"></a>NtGdiDdRenderMoComp fonction)
 
@@ -74,7 +74,7 @@ Pointeur vers une [**structure \_ RENDERMOCOMPDATA DD**](/windows/win32/api/ddra
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations, consultez Microsoft DirectX Video Acceleration Driver Development Kit (DDK).
 

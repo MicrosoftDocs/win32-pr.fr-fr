@@ -37,7 +37,7 @@ Le tableau suivant décrit les propriétés et le résultat de l’interface uti
 
 
 
-|    Property                      |       Résultat de l’interface utilisateur                                                       |
+|    Propriété                      |       Résultat de l’interface utilisateur                                                       |
 |----------------------------------|-----------------------------------------------------------------------|
 | `UI_FONTPROPERTIES_NOTAVAILABLE` | Le bouton **italique** est désactivé et ne peut être défini que par l’application. |
 | `UI_FONTPROPERTIES_NOTSET`       | Le bouton **italique** n’est pas sélectionné.                                    |

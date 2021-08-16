@@ -1,5 +1,5 @@
 ---
-description: Le \_ type d' \_ énumération des valeurs de type de stockage wpd \_ décrit les différents types de stockage d’appareils mobiles Windows.
+description: le \_ type d' \_ énumération des valeurs de type de stockage WPD \_ décrit les différents types de stockage d’appareil Windows Portable.
 ms.assetid: 52c34458-e64e-4355-9231-7457a6dff5c5
 title: Énumération WPD_STORAGE_TYPE_VALUES (PortableDevice. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: b741feb1cb9a834e16a35627fe98718ac8acf30f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1aad78833f9e5baa0d3c7da3ab37d39f4159672b85d5c01c54ae8b034c5b43d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842075"
 ---
 # <a name="wpd_storage_type_values-enumeration"></a>\_ \_ Énumération des valeurs de type de stockage wpd \_
 
-Le type d’énumération des **\_ valeurs de \_ type \_ de stockage wpd** décrit les différents types de stockage d’appareils mobiles Windows.
+le type d’énumération des **\_ valeurs de \_ type \_ de stockage WPD** décrit les différents types de stockage d’appareil Windows Portable.
 
 ## <a name="syntax"></a>Syntaxe
 

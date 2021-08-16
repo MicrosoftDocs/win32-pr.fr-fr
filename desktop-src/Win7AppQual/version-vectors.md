@@ -4,12 +4,12 @@ ms.assetid: 526080CD-CE76-48B8-AEBC-6A135FD95BB0
 title: Vecteurs de version
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e41fb0b24a205b280be163caeb63287fc5036b21
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b7ba3fb77d13ce6aa08a095f4ae95e88c1ffaecf57251b7d9ad718f51be3326
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118328605"
 ---
 # <a name="version-vectors"></a>Vecteurs de version
 
@@ -35,9 +35,9 @@ Considérez l’exemple de code suivant.
 
 
 
-Dans ce cas, si la version du navigateur Windows Internet Explorer est au moins 5,5, le paragraphe correspondant est affiché dans la page Web. Bien que la première condition de cet exemple illustre la fonction des commentaires conditionnels, ces commentaires ne sont généralement pas utilisés pour afficher le balisage comme la première condition. Au lieu de cela, les commentaires conditionnels restants dans l’exemple précédent sont plus courants. Dans ces commentaires restants, les commentaires conditionnels utilisent une feuille de style différente pour chaque version différente du navigateur.
+dans ce cas, si la Windows version du navigateur Internet Explorer est au moins 5,5, le paragraphe correspondant est affiché dans la page web. Bien que la première condition de cet exemple illustre la fonction des commentaires conditionnels, ces commentaires ne sont généralement pas utilisés pour afficher le balisage comme la première condition. Au lieu de cela, les commentaires conditionnels restants dans l’exemple précédent sont plus courants. Dans ces commentaires restants, les commentaires conditionnels utilisent une feuille de style différente pour chaque version différente du navigateur.
 
-L’exemple de code précédent vérifie également l’égalité pour Microsoft Internet Explorer 6 et Windows Internet Explorer 7. Mais pour Windows Internet Explorer 8, l’exemple utilise l’opérateur GTE (supérieur ou égal à). Cet opérateur aide à la prochaine épreuve l’exemple afin que la version la plus conforme à la norme de la feuille de style soit utilisée lorsqu’une nouvelle version du navigateur est libérée (au lieu d’utiliser une feuille de style ou aucune feuille de style incorrecte). Souvent, les applications existantes ne considèrent pas une version d’Internet Explorer antérieure à 7 (ou la version la plus récente d’Internet Explorer pour laquelle le site est conçu). Pour plus d’informations sur les vecteurs de version, consultez [vecteurs de version](/previous-versions/cc817577(v=msdn.10)) dans MSDN Library.
+l’exemple de code précédent vérifie également l’égalité pour Microsoft internet explorer 6 et Windows internet explorer 7. toutefois, pour Windows Internet Explorer 8, l’exemple utilise l’opérateur gte (supérieur ou égal à). Cet opérateur aide à la prochaine épreuve l’exemple afin que la version la plus conforme à la norme de la feuille de style soit utilisée lorsqu’une nouvelle version du navigateur est libérée (au lieu d’utiliser une feuille de style ou aucune feuille de style incorrecte). Souvent, les applications existantes ne considèrent pas une version d’Internet Explorer antérieure à 7 (ou la version la plus récente d’Internet Explorer pour laquelle le site est conçu). Pour plus d’informations sur les vecteurs de version, consultez [vecteurs de version](/previous-versions/cc817577(v=msdn.10)) dans MSDN Library.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

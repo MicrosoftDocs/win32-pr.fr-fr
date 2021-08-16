@@ -3,7 +3,7 @@ title: Message LVM_SETWORKAREAS (commctrl. h)
 description: Définit les zones de travail dans un contrôle List-View. Vous pouvez envoyer ce message explicitement ou utiliser la \_ macro ListView SetWorkAreas.
 ms.assetid: 87ac192d-f481-43ac-b8a5-c754cf33e487
 keywords:
-- LVM_SETWORKAREAS les contrôles de message Windows
+- LVM_SETWORKAREAS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4166238c97b5766a5f2bbb19e0de853526d83385
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f1060377fd9aec9014d18d206444355b052f4aafb796403e3e47fa92a0a7aaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830660"
 ---
 # <a name="lvm_setworkareas-message"></a>\_Message SETWORKAREAS LVM
 
@@ -53,8 +53,8 @@ La valeur de retour de ce message n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

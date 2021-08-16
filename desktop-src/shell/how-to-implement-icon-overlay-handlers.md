@@ -4,12 +4,12 @@ ms.assetid: ADF27BFD-CC96-43F9-9EBB-DEBE0DEA7B92
 title: Comment implémenter des gestionnaires de superposition d’icône
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e22c1057f65c50b31c6627846ec77103827a0283
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8745d0d5c0cf9c69f28f0235ecc82acb07a14f1e3408d7fa7d65cf729e01403f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859696"
 ---
 # <a name="how-to-implement-icon-overlay-handlers"></a>Comment implémenter des gestionnaires de superposition d’icône
 
@@ -19,7 +19,7 @@ Les gestionnaires de superposition d’icône sont des objets COM (Component Obj
 
 ### <a name="step-1-implementing-getoverlayinfo"></a>Étape 1 : implémentation de GetOverlayInfo
 
-La méthode [**GetOverlayInfo**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelliconoverlayidentifier-getoverlayinfo) est d’abord appelée pendant l’initialisation. La méthode retourne le chemin d’accès qualifié complet du fichier qui contient l’image de superposition d’icône et son index de base zéro dans le fichier. L’interpréteur de commandes ajoute ensuite l’image à la liste d’images système. Les superpositions d’icône peuvent être contenues dans n’importe quel type de fichier standard, y compris. exe,. dll et. ico.
+La méthode [**GetOverlayInfo**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelliconoverlayidentifier-getoverlayinfo) est d’abord appelée pendant l’initialisation. La méthode retourne le chemin d’accès qualifié complet du fichier qui contient l’image de superposition d’icône et son index de base zéro dans le fichier. L’interpréteur de commandes ajoute ensuite l’image à la liste d’images système. Les superpositions d’icône peuvent être contenues dans n’importe quel type de fichier standard, y compris .exe, .dll et. ico.
 
 Une fois l’initialisation terminée, l’interpréteur de commandes appelle [**GetOverlayInfo**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelliconoverlayidentifier-getoverlayinfo) lorsqu’il doit afficher la superposition d’icône du gestionnaire. La méthode doit retourner le même nom de fichier et le même index qu’au cours de l’initialisation. Bien que l’interpréteur de commandes utilise l’image mise en cache dans la liste d’images système au lieu de charger l’image à partir du fichier, une superposition d’icône est toujours identifiée par son nom de fichier et son index.
 

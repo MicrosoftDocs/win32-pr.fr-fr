@@ -8,12 +8,12 @@ keywords:
 - Active Directory Active Directory Domain Services, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d8dafb89533d796f0651ad08b913eacda1d0fe9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8e4ef886409b435e1687d8ca6cf530b940852f3569818bb3afab69f57ab6b97c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841073"
 ---
 # <a name="about-active-directory-domain-services"></a>À propos de Active Directory Domain Services
 
@@ -78,7 +78,7 @@ Active Directory Domain Services fournit les fonctionnalités listées dans le t
 <li>Choix des packages d’authentification. Kerberos, SSL (Secure Sockets Layer) (SSL) ou une combinaison ; par exemple, établissez un canal SSL pour le chiffrement, puis utilisez Kerberos pour l’authentification.</li>
 <li>Gestion centralisée de l’accès aux services et aux ressources à l’aide des utilisateurs et des groupes dans Active Directory Domain Services.</li>
 <li>Délégation de l’administration afin que les administrateurs centraux puissent déléguer des tâches d’administration telles que la modification de mot de passe ou la création et la suppression d’objets spécifiques.</li>
-<li>Le serveur Active Directory utilise les mêmes mécanismes de contrôle d’accès que ceux utilisés sur les systèmes de fichiers dans les systèmes d’exploitation Windows. Ainsi, les outils qui gèrent le contrôle d’accès sur un système de fichiers fonctionnent pour Active Directory Domain Services.</li>
+<li>le serveur Active Directory utilise les mêmes mécanismes de contrôle d’accès que ceux utilisés sur les systèmes de fichiers dans les systèmes d’exploitation Windows. Ainsi, les outils qui gèrent le contrôle d’accès sur un système de fichiers fonctionnent pour Active Directory Domain Services.</li>
 <li>Infrastructure de clé publique complète. Le serveur de certificats Microsoft et la prise en charge des cartes à puce sont intégrés à Active Directory Domain Services pour fournir la gestion des certificats et des ouvertures de session par carte à puce.</li>
 </ul></td>
 </tr>
@@ -88,11 +88,11 @@ Active Directory Domain Services fournit les fonctionnalités listées dans le t
 </tr>
 <tr class="even">
 <td>Services système activés pour les annuaires</td>
-<td>Votre application cliente peut être facilement déployée sur des bureaux distribués en créant un package Windows Installer et en utilisant la fonctionnalité de déploiement d’application disponible dans les systèmes d’exploitation Windows.</td>
+<td>votre application cliente peut être facilement déployée sur des bureaux distribués en créant un package Windows Installer et en utilisant la fonctionnalité de déploiement d’application disponible dans les systèmes d’exploitation Windows.</td>
 </tr>
 <tr class="odd">
 <td>Intégration d’application clé</td>
-<td>Les applications distribuées de clés, telles qu’Exchange, sont intégrées à Active Directory Domain Services. Ainsi, les entreprises peuvent réduire le nombre de services d’annuaire à gérer.</td>
+<td>les applications distribuées de clés, telles que les Exchange, sont intégrées à Active Directory Domain Services. Ainsi, les entreprises peuvent réduire le nombre de services d’annuaire à gérer.</td>
 </tr>
 <tr class="even">
 <td>Schéma riche et extensible</td>

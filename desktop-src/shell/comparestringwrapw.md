@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Shlwapi.dll
-ms.openlocfilehash: 0731182f5c01ad56db722972628d2cbe39373835
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fe05c354aaa901d87c77ba04eecd5dc4efd925d77bdeaf5387a137d85b27348
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117861510"
 ---
 # <a name="comparestringwrapw-function"></a>CompareStringWrapW fonction)
 
@@ -214,7 +214,7 @@ Si la fonction est réussie, la valeur de retour est l’une des valeurs suivant
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Avertissement de sécurité :** L’utilisation incorrecte de cette fonction peut compromettre la sécurité de votre application. Les chaînes qui ne sont pas comparées correctement peuvent produire une entrée non valide. Testez les chaînes pour vous assurer qu’elles sont valides avant de les utiliser et fournissez des gestionnaires d’erreurs. Pour plus d’informations, consultez [Considérations sur la sécurité : fonctionnalités internationales](../intl/security-considerations--international-features.md)
 
@@ -222,14 +222,14 @@ La méthode recommandée consiste à utiliser [**CompareStringW**](/windows/win3
 
 **CompareStringWrapW** doit être appelé directement à partir de Shlwapi.dll, à l’aide de l’ordinal 45.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Aucun</dt> </dl>                               |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (version 5,0 ou ultérieure)</dt> </dl> |
 

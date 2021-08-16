@@ -4,12 +4,12 @@ description: Cette section contient des exemples de code et des informations sur
 ms.assetid: E9EF05EF-3C0B-4133-8871-0E273E15DE54
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc2dd847a99f19f8cfff75f665981268bca2b102
-ms.sourcegitcommit: c5f4fdf3ec950802c224b1081ecb8b90ad0261ee
+ms.openlocfilehash: df4a24db122174c343bd2596748dcd61fc97f50a1944e100777ba77952262b26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "103841946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118407647"
 ---
 # <a name="using-syslink-controls"></a>Utilisation des contrôles SysLink
 

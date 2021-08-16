@@ -3,7 +3,7 @@ title: Message PGM_GETBUTTONSTATE (commctrl. h)
 description: Récupère l’état du bouton spécifié dans un contrôle de pagineur. Vous pouvez envoyer ce message de manière explicite ou utiliser la macro de radiomessagerie \_ GetButtonState.
 ms.assetid: 58f99b67-fef7-4695-86e2-0579a2f6de2f
 keywords:
-- PGM_GETBUTTONSTATE les contrôles de message Windows
+- PGM_GETBUTTONSTATE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d8c9eebbc0aa91651a01de1fe193544f0c8afcf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2014b6e36a0ab883155d786760ef54f02c89ee0d17192d6082d40ad19eec95a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830190"
 ---
 # <a name="pgm_getbuttonstate-message"></a>\_Message GETBUTTONSTATE PGM
 
@@ -74,8 +74,8 @@ Retourne l’état du bouton spécifié dans *lParam*. Il s’agit d’une ou pl
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

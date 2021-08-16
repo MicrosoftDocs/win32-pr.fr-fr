@@ -4,18 +4,18 @@ ms.assetid: 72f69ad2-15d9-4191-a8aa-4c23a2392006
 title: Vérificateur des fichiers système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da4e0d67f6de6aba62fe262969d7f30db0c45335
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c2f751aa30c06dbff90b8d5221974236b45edf9f0f278c144f755568a0040f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106525726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330281"
 ---
 # <a name="system-file-checker"></a>Vérificateur des fichiers système
 
 L’utilitaire Vérificateur des fichiers système, Sfc.exe, permet aux administrateurs d’analyser toutes les ressources protégées pour vérifier leurs versions.
 
-Les fichiers essentiels pour redémarrer Windows qui ne correspondent pas à la version Windows attendue peuvent être remplacés par les versions appropriées. Si un fichier est réparé, les données de registre correspondantes sont également réparées. Les fichiers protégés non critiques pour redémarrer Windows ne sont pas réparés.
+les fichiers essentiels pour redémarrer Windows qui ne correspondent pas à la version de Windows attendue peuvent être remplacés par les versions appropriées. Si un fichier est réparé, les données de registre correspondantes sont également réparées. les fichiers protégés non critiques pour le redémarrage Windows ne sont pas réparés.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -71,7 +71,7 @@ Utilisez cette option pour les réparations hors connexion. Spécifiez l’empla
 <span id="_OFFWINDIR"></span><span id="_offwindir"></span>/OFFWINDIR
 </dt> <dd>
 
-Utilisez cette option pour les réparations hors connexion. Spécifiez l’emplacement du répertoire Windows hors connexion.
+Utilisez cette option pour les réparations hors connexion. spécifiez l’emplacement du répertoire de Windows hors connexion.
 
 **Windows XP :** Non pris en charge.
 
@@ -156,13 +156,13 @@ Analyse tous les fichiers système protégés, mais ne répare pas les fichiers.
 
 SFC définit la valeur de Registre suivante :
 
- = HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows NT \\ CurrentVersion \\ Winlogon \\ SfcScan
+ = HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows NT \\ CurrentVersion \\ Winlogon \\ SFCScan
 
 Pour plus d’informations, consultez [valeurs de Registre WFP](wfp-registry-values.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Sur Windows Vista uniquement, vous pouvez définir la variable d’environnement du **\_ \_ Journal de suivi Windows** sur l’emplacement d’un répertoire valide pour recevoir un fichier journal.
+sur Windows Vista uniquement, vous pouvez définir la variable d’environnement du **\_ \_ journal de suivi Windows** sur l’emplacement d’un répertoire valide pour recevoir un fichier journal.
 
 ## <a name="examples"></a>Exemples
 

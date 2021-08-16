@@ -3,7 +3,7 @@ title: LVN_GETINFOTIP le code de notification (commctrl. h)
 description: Envoyé par une grande icône Afficher le contrôle List-View avec le \_ \_ style étendu LVS ex info-bulle.
 ms.assetid: 62be5087-7e49-4722-a63a-1768e030af48
 keywords:
-- Contrôles Windows de code de notification LVN_GETINFOTIP
+- LVN_GETINFOTIP les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2b4552456a575e2f03e02b2bfb78f7fcc1d8ca1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f7477230913ec5efd0827bc48e1a6021619aa4cdbbad252426d1af364b5b36b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104519329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830440"
 ---
 # <a name="lvn_getinfotip-notification-code"></a>\_Code de notification LVN GETINFOTIP
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**NMLVGETINFOTIP**](/windows/win32/api/commctrl/ns-
 
 La valeur de retour de cette notification n’est pas utilisée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce code de notification est uniquement envoyé par les contrôles List-View qui ont le style étendu [**LVS \_ ex \_ info-bulle**](extended-list-view-styles.md) . Le \_ Code de notification LVN GETINFOTIP est envoyé uniquement pour le sous-élément 0.
 
@@ -61,8 +61,8 @@ Ce code de notification est uniquement envoyé par les contrôles List-View qui 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **LVN \_ GETINFOTIPW** (Unicode) et **LVN \_ GETINFOTIPA** (ANSI)<br/>             |
 

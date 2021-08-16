@@ -4,12 +4,12 @@ ms.assetid: 5B8D3A76-F30B-4F17-9257-0B6ED7F2D753
 title: Pourquoi avez-vous besoin d’un affichage de compatibilité ?
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9991e9dc0c2edcd66ae6655c094f17b240be985a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5653ae72b3cbf3c21bd2458c1561c1d8823f2b883711e2c3890c16f792254b1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118328656"
 ---
 # <a name="why-do-you-need-compatibility-view"></a>Pourquoi avez-vous besoin d’un affichage de compatibilité ?
 
@@ -17,7 +17,7 @@ La fonctionnalité d’affichage de compatibilité suit un ensemble de règles p
 
 ![illustration de l’icône de page cassée à côté de la barre d’adresses](images/iecompatview.png)
 
-Si un utilisateur clique sur l’icône, Windows Internet Explorer 8 bascule les modes de rendu et la page est rechargée instantanément.
+si un utilisateur clique sur l’icône Windows Internet Explorer 8 bascule les modes de rendu et la page est rechargée instantanément.
 
 Les utilisateurs ne voient pas toujours cette icône. Il s’agit d’une solution secondaire au lieu du mécanisme principal de compatibilité des applications. Windows Internet Explorer affiche cette icône uniquement lorsqu’un changement de l’affichage de compatibilité est pertinent, par exemple quand un utilisateur affiche des pages en mode standard. Dans tous les autres cas, par exemple quand un utilisateur affiche des pages de mode Quirks ou des vues de sites intranet de zone, l’icône n’apparaît pas. Pour plus d’informations sur l’affichage de compatibilité et le moment où l’icône s’affiche, consultez Présentation de l' [affichage de compatibilité](/archive/blogs/ie/).
 

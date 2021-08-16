@@ -4,27 +4,27 @@ description: La fenêtre parente d’un contrôle RichEdit peut traiter les code
 ms.assetid: E045EADE-CB37-492A-85EC-6CF236677F08
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e68e510bf7c5abe6109862a01d8926c8956736f9
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: e6bc730c648e76137db480f14895d540a9142ae6a80ffa58533e38ef513653ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103940781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828632"
 ---
 # <a name="how-to-use-rich-edit-control-notification-codes"></a>Comment utiliser les codes de notification de contrôle RichEdit
 
 La fenêtre parente d’un contrôle RichEdit peut traiter les codes de notification pour surveiller les événements qui affectent le contrôle. Les contrôles RichEdit prennent en charge tous les codes de notification utilisés avec les contrôles d’édition, ainsi que plusieurs autres.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -45,12 +45,12 @@ Vous pouvez autoriser l’utilisateur à déposer des fichiers dans un contrôle
 [Utilisation de contrôles RichEdit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

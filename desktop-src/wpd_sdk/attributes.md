@@ -1,5 +1,5 @@
 ---
-description: Appareils mobiles Windows prend en charge les attributs de propriété suivants.
+description: Windows Les appareils mobiles prennent en charge les attributs de propriété suivants.
 ms.assetid: 129ee2b8-075c-457a-85ef-658a56eed541
 title: Attributs de propriété (PortableDevice. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 9e48a4f81a6223ed034f6de14fe104a1a2aa4393
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 85bf37b716349aae164594eeb8085e8c6df9dc5445728bbf7d9222705a9cb8c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843562"
 ---
 # <a name="property-attributes-portabledeviceh"></a>Attributs de propriété (PortableDevice. h)
 
-Appareils mobiles Windows prend en charge les attributs de propriété suivants. Ces attributs sont retournés par les méthodes suivantes :
+Windows Les appareils mobiles prennent en charge les attributs de propriété suivants. Ces attributs sont retournés par les méthodes suivantes :
 
 -   [**IPortableDeviceCapabilities::GetFixedPropertyAttributes**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getfixedpropertyattributes)
 -   [**IPortableDeviceProperties::GetPropertyAttributes**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getpropertyattributes)
@@ -37,7 +37,7 @@ Appareils mobiles Windows prend en charge les attributs de propriété suivants.
 | **l' \_ attribut de propriété wpd \_ \_ peut \_ écrire**            | **VT \_ bool**    | Valeur booléenne qui spécifie si le client peut modifier la propriété.                                                                                                                                                                                                                                                                                                                     |
 | **\_ \_ \_ valeur par défaut de l’attribut de propriété wpd \_**        | VT \_ *xxxx*      | Valeur définie par l’appareil qui spécifie la valeur par défaut d’une propriété. Cela s’applique uniquement aux propriétés accessibles en écriture.                                                                                                                                                                                                                                                               |
 | **\_éléments de \_ l' \_ énumération des attributs de propriété wpd \_** | **VT \_ inconnu** | Interface [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) qui contient une collection de valeurs pour une propriété dont l’attribut de **\_ formulaire d' \_ attribut \_ de propriété wpd** est l' **\_ \_ \_ \_ énumération de formulaire d’attribut de propriété wpd**. Le type de données dépend de la propriété en cours d’interrogation.                                                                              |
-| **\_ \_ \_ propriété Fast de l’attribut de propriété wpd \_**        | **VT \_ bool**    | Si la valeur est true, cette propriété appartient au groupe de *Propriétés Fast* . Il s’agit des propriétés qui peuvent être récupérées rapidement à partir de l’appareil.                                                                                                                                                                                                                                                        |
+| **\_attribut de propriété WPD \_ \_ FAST \_ propriété**        | **VT \_ bool**    | Si la valeur est true, cette propriété appartient au groupe de *Propriétés Fast* . Il s’agit des propriétés qui peuvent être récupérées rapidement à partir de l’appareil.                                                                                                                                                                                                                                                        |
 | **\_formulaire d' \_ attribut de propriété wpd \_**                  | **VT \_ UI4**     | Valeur énumérée de [**WpdAttributeForm**](wpdattributeform.md) qui spécifie la forme des valeurs valides autorisées pour cette propriété.                                                                                                                                                                                                                                                         |
 | **nom de l' \_ attribut de propriété wpd \_ \_**                  | **\_LPWStr VT**  | Chaîne qui spécifie le nom convivial du script de la propriété. Les caractères valides sont alphanumériques \[ a-zA-z0-9 \] et' \_ '.                                                                                                                                                                                                                                                                    |
 | **plage d’attributs de la \_ propriété wpd \_ \_ \_ Max**            | VT \_ *xxxx*      | Valeur maximale d’une propriété dont l’attribut de **\_ formulaire d' \_ attribut \_ de propriété wpd** est une plage de formulaire d' **attribut de \_ propriété \_ \_ \_ wpd**. Le type de données peut être n’importe quel type numérique.                                                                                                                                                                                                               |

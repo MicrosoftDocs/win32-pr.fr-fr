@@ -4,12 +4,12 @@ description: Un contrôle d’édition est une fenêtre de contrôle rectangulai
 ms.assetid: 43baa58a-bc00-47c0-a3fe-413d50f08c29
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4bbc116d3cf96ec3f5349680cc4f4b3df673cfb
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 0506666f3b47ae85386fe995e66cd41c4ae252452bcd40ea7ebfeb089fa1ffad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117833920"
 ---
 # <a name="about-edit-controls"></a>À propos des contrôles d’édition
 
@@ -89,7 +89,7 @@ Le style de [**\_ mot de passe es**](edit-control-styles.md) affiche tous les ca
 
 Si un contrôle d’édition provient d' Comctl32.dll version 6, un cercle noir est le caractère par défaut pour le style de [**\_ mot de passe es**](edit-control-styles.md) . Dans les contrôles d’édition des versions précédentes des contrôles communs, le caractère par défaut est un astérisque.
 
-Le style [**es \_ OEMCONVERT**](edit-control-styles.md) provoque la conversion du texte entré dans le contrôle d’édition du jeu de caractères Windows en jeu de caractères OEM, puis retour au jeu de caractères Windows. Cela garantit une conversion de caractères correcte lorsque l’application appelle la fonction [**CharToOem**](/windows/desktop/api/winuser/nf-winuser-chartooema) pour convertir une chaîne Windows du contrôle d’édition en caractères OEM. **Es \_ OEMCONVERT** est particulièrement utile pour les contrôles d’édition qui contiennent des noms de fichiers qui seront utilisés sur des systèmes de fichiers qui ne prennent pas en charge Unicode.
+le style [**ES \_ OEMCONVERT**](edit-control-styles.md) fait en sorte que le texte entré dans le contrôle d’édition soit converti à partir des caractères Windows définis sur le jeu de caractères OEM, puis de nouveau à Windows jeu de caractères. cela garantit une conversion de caractères correcte lorsque l’application appelle la fonction [**CharToOem**](/windows/desktop/api/winuser/nf-winuser-chartooema) pour convertir une chaîne Windows dans le contrôle d’édition en caractères OEM. **Es \_ OEMCONVERT** est particulièrement utile pour les contrôles d’édition qui contiennent des noms de fichiers qui seront utilisés sur des systèmes de fichiers qui ne prennent pas en charge Unicode.
 
 Dans le cas d’un contrôle d’édition multiligne dans une boîte de dialogue, le style [**es \_ WANTRETURN**](edit-control-styles.md) fait en sorte que le contrôle insère un retour chariot lorsque l’utilisateur appuie sur la touche entrée tout en entrant du texte. Si ce style n’est pas spécifié, le fait d’appuyer sur la touche entrée revient à appuyer sur le bouton de commande par défaut dans la boîte de dialogue. Sans **es \_ WANTRETURN**, l’utilisateur doit appuyer sur Ctrl + Entrée pour insérer un retour chariot. Pour plus d’informations sur les retours à la ligne et les sauts de ligne, consultez [gestion des retours](edit-controls-text-operations.md)à la ligne.
 

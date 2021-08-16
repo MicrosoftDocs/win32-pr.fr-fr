@@ -4,18 +4,18 @@ description: Direct2D
 ms.assetid: 03b3b91c-9751-4f8d-af24-85067f06930b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8223ec5e98db3e45b0087073b4eb68baeae81280
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c4d685c62819fe97e7ca52a566a0e2d442f5e4be14d6b7ae0a252b2778c0bae5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825420"
 ---
 # <a name="direct2d"></a>Direct2D
 
 ## <a name="purpose"></a>Objectif
 
-Direct2D est une API graphique 2D à accélération matérielle et en mode immédiat, qui offre des performances élevées et un rendu de grande qualité pour les éléments géométriques, bitmaps et textes 2D. L’API Direct2D est conçue pour interagir correctement avec GDI, GDI+ et Direct3D.
+Direct2D est une API graphique 2D à accélération matérielle et en mode immédiat, qui offre des performances élevées et un rendu de grande qualité pour les éléments géométriques, bitmaps et textes 2D. l’API Direct2D est conçue pour interagir correctement avec GDI, GDI+ et Direct3D.
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
@@ -28,12 +28,12 @@ Direct2D est principalement conçu pour être utilisé par les classes de dével
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
--   Windows 7 ou Windows Vista avec Service Pack 2 (SP2) et mise à jour de la plateforme pour Windows Vista et versions ultérieures.
--   Windows Server 2008 R2 ou Windows Server 2008 avec Service Pack 2 (SP2) et la mise à jour de la plateforme pour Windows Server 2008 et versions ultérieures.
+-   Windows 7 ou Windows vista avec Service Pack 2 (SP2) et la mise à jour de la plateforme pour Windows Vista et versions ultérieures.
+-   Windows server 2008 R2 ou Windows server 2008 avec Service Pack 2 (SP2) et la mise à jour de la plateforme pour Windows Server 2008 et versions ultérieures.
 
 > [!Note]
 >
-> La mise à jour de plateforme pour Windows Vista et la mise à jour de la plateforme pour Windows Server 2008 sont un ensemble de bibliothèques d’exécution qui permet aux développeurs de cibler des applications sur Windows 7, Windows Vista, Windows Server 2008 R2 et Windows Server 2008. Ces mises à jour seront disponibles pour tous les clients Windows Vista et Windows Server 2008 via Windows Update. Les applications tierces qui requièrent une mise à jour de plateforme pour Windows Vista ou une mise à jour de plateforme pour Windows Server 2008 peuvent avoir Windows Update détecter si la mise à jour requise est installée ; Si ce n’est pas le cas, Windows Update le télécharge et l’installe en arrière-plan. Pour plus d’informations sur les deux mises à jour, consultez [mise à jour de la plateforme pour Windows Vista](https://support.microsoft.com/kb/971644).
+> la mise à jour de la plateforme pour Windows Vista et la mise à jour de la plateforme pour Windows Server 2008 est un ensemble de bibliothèques runtime qui permet aux développeurs de cibler des applications sur Windows 7, Windows Vista, Windows server 2008 R2 et Windows server 2008. ces mises à jour seront disponibles pour tous les clients Windows Vista et Windows Server 2008 par le biais de Windows Update. les applications tierces qui requièrent la mise à jour de la plateforme pour Windows Vista ou la mise à jour de la plateforme pour Windows Server 2008 peuvent avoir Windows Update détecter si la mise à jour requise est installée ; si ce n’est pas le cas, Windows Update le télécharge et l’installe en arrière-plan. pour plus d’informations sur les deux mises à jour, consultez [mise à jour de la plateforme pour Windows Vista](https://support.microsoft.com/kb/971644).
 
  
 

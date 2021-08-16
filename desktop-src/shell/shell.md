@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 75fc151e-5b9e-476b-b4e5-b848917357a8
-ms.openlocfilehash: 55f8062b71e553ec5ceefa413b45f439874744b8
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: fe2fbaa1bad61ac9c22d36919e49cf493a26a778a8e97d69d1b200c0c62205e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857718"
 ---
 # <a name="shell-object"></a>Objet Shell
 
@@ -63,14 +63,14 @@ L’objet **Shell** possède ces méthodes.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-cascadewindows.md"><strong>CascadeWindows</strong></a></td>
-<td style="text-align: left;">Cascade toutes les fenêtres sur le bureau. Cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner des <strong>fenêtres en cascade</strong>.<br/></td>
+<td style="text-align: left;">Cascade toutes les fenêtres sur le bureau. Cette méthode a le même effet que le fait de cliquer avec le bouton droit sur la barre des tâches et de sélectionner <strong>Cascade Windows</strong>.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-controlpanelitem.md"><strong>ControlPanelItem</strong></a></td>
-<td style="text-align: left;">Exécute l’application spécifiée du panneau de configuration (*. cpl). Si l’application est déjà ouverte, elle activera l’instance en cours d’exécution. <br/>
+<td style="text-align: left;">Exécute l’application du panneau de configuration (* .cpl) spécifiée. Si l’application est déjà ouverte, elle activera l’instance en cours d’exécution. <br/>
 <blockquote>
 <p>[!Note]<br />
-À compter de Windows Vista, la plupart des applications du panneau de configuration sont des éléments de Shell et ne peuvent pas être ouvertes avec cette fonction. Pour ouvrir ces applications du panneau de configuration, transmettez le nom canonique à control.exe. Par exemple :</p>
+à partir de Windows Vista, la plupart des applications du panneau de configuration sont des éléments de Shell et ne peuvent pas être ouvertes avec cette fonction. Pour ouvrir ces applications du panneau de configuration, transmettez le nom canonique à control.exe. Par exemple :</p>
 <pre class="syntax" data-space="preserve"><code>control.exe /name Microsoft.Personalization</code></pre>
 </blockquote>
 <br/></td>
@@ -81,7 +81,7 @@ L’objet **Shell** possède ces méthodes.
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-explore.md"><strong>Explorer</strong></a></td>
-<td style="text-align: left;">Ouvre un dossier spécifié dans une fenêtre de l’Explorateur Windows.<br/></td>
+<td style="text-align: left;">ouvre un dossier spécifié dans une fenêtre de l’explorateur de Windows.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-explorerpolicy.md"><strong>ExplorerPolicy</strong></a></td>
@@ -97,7 +97,7 @@ L’objet **Shell** possède ces méthodes.
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-findfiles.md"><strong>FindFiles</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue <strong>Rechercher : tous les fichiers</strong> . Cela revient à cliquer sur le menu <strong>Démarrer</strong> , puis à sélectionner <strong>Rechercher</strong> (ou son équivalent sous systèmes ANTÉRIEURs à Windows XP).<br/></td>
+<td style="text-align: left;">Affiche la boîte de dialogue <strong>Rechercher : tous les fichiers</strong> . cela revient à cliquer sur le menu <strong>démarrer</strong> , puis à sélectionner <strong>rechercher</strong> (ou son équivalent sous systèmes antérieurs à Windows XP).<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="/windows/desktop/shell/shell-findprinter"><strong>FindPrinter</strong></a></td>
@@ -113,7 +113,7 @@ L’objet **Shell** possède ces méthodes.
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-help.md"><strong>Aide</strong></a></td>
-<td style="text-align: left;">Affiche le centre d’aide et de support Windows. Cette méthode a le même effet que le fait de cliquer sur le menu <strong>Démarrer</strong> et de sélectionner <strong>aide et support</strong>.<br/></td>
+<td style="text-align: left;">affiche le centre d’aide et de Support Windows. Cette méthode a le même effet que le fait de cliquer sur le menu <strong>Démarrer</strong> et de sélectionner <strong>aide et support</strong>.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="/windows/desktop/shell/shell-isrestricted"><strong>IsRestricted</strong></a></td>
@@ -125,7 +125,7 @@ L’objet **Shell** possède ces méthodes.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-minimizeall.md"><strong>MinimizeAll</strong></a></td>
-<td style="text-align: left;">Réduit toutes les fenêtres sur le bureau. Cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner <strong>réduire toutes les fenêtres</strong> sur les systèmes plus anciens ou de cliquer sur l’icône <strong>afficher le bureau</strong> dans la zone lancement rapide de la barre des tâches de Windows 2000 ou Windows XP.<br/></td>
+<td style="text-align: left;">Réduit toutes les fenêtres sur le bureau. cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et que vous sélectionnez <strong>réduire tout Windows</strong> sur les anciens systèmes ou si vous cliquez sur l’icône <strong>afficher le bureau</strong> dans la zone lancement rapide de la barre des tâches de Windows 2000 ou Windows XP.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-namespace.md"><strong>Joint</strong></a></td>
@@ -137,7 +137,7 @@ L’objet **Shell** possède ces méthodes.
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-refreshmenu.md"><strong>RefreshMenu</strong></a></td>
-<td style="text-align: left;">Actualise le contenu du menu <strong>Démarrer</strong> . Utilisé uniquement avec les systèmes antérieurs à Windows XP.<br/></td>
+<td style="text-align: left;">Actualise le contenu du menu <strong>Démarrer</strong> . utilisé uniquement avec les systèmes précédents Windows XP.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-searchcommand.md"><strong>SearchCommand</strong></a></td>
@@ -165,7 +165,7 @@ L’objet **Shell** possède ces méthodes.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-shutdownwindows.md"><strong>ShutdownWindows</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue <strong>arrêter Windows</strong> . Cela revient à cliquer sur le menu <strong>Démarrer</strong> et à sélectionner <strong>arrêter</strong>.<br/></td>
+<td style="text-align: left;">affiche la boîte de dialogue <strong>arrêter le Windows</strong> . Cela revient à cliquer sur le menu <strong>Démarrer</strong> et à sélectionner <strong>arrêter</strong>.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-suspend.md"><strong>Momentané</strong></a></td>
@@ -173,11 +173,11 @@ L’objet **Shell** possède ces méthodes.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-tilehorizontally.md"><strong>TileHorizontally</strong></a></td>
-<td style="text-align: left;">Mosaïques horizontalement toutes les fenêtres sur le bureau. Cette méthode a le même effet que le clic droit sur la barre des tâches et la sélection <strong>horizontale des fenêtres de mosaïque</strong>.<br/></td>
+<td style="text-align: left;">Mosaïques horizontalement toutes les fenêtres sur le bureau. cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner des <strong>vignettes Windows horizontalement</strong>.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-tilevertically.md"><strong>TileVertically</strong></a></td>
-<td style="text-align: left;">Mosaïque verticalement toutes les fenêtres sur le bureau. Cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner les <strong>fenêtres de mosaïque verticalement</strong>.<br/></td>
+<td style="text-align: left;">Mosaïque verticalement toutes les fenêtres sur le bureau. cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner des <strong>vignettes Windows verticalement</strong>.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-toggledesktop.md"><strong>ToggleDesktop</strong></a></td>
@@ -189,7 +189,7 @@ L’objet **Shell** possède ces méthodes.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-undominimizeall.md"><strong>UndoMinimizeALL</strong></a></td>
-<td style="text-align: left;">Restaure toutes les fenêtres de bureau dans le même État que celui dans lequel elles se trouvaient avant la dernière commande <a href="shell-minimizeall.md"><strong>MinimizeAll</strong></a> . Cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et que vous sélectionnez <strong>Annuler réduire toutes les fenêtres</strong> sur les systèmes plus anciens ou un second clic sur l’icône <strong>afficher le bureau</strong> dans la zone lancement rapide de la barre des tâches de Windows 2000 ou Windows XP.<br/></td>
+<td style="text-align: left;">Restaure toutes les fenêtres de bureau dans le même État que celui dans lequel elles se trouvaient avant la dernière commande <a href="shell-minimizeall.md"><strong>MinimizeAll</strong></a> . cette méthode a le même effet que le fait de cliquer avec le bouton droit sur la barre des tâches et de sélectionner <strong>annuler réduire tout Windows</strong> sur les systèmes plus anciens ou un second clic sur l’icône <strong>afficher le bureau</strong> dans la zone lancement rapide de la barre des tâches de Windows 2000 ou Windows XP.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-windows.md"><strong>Windows</strong></a></td>
@@ -197,7 +197,7 @@ L’objet **Shell** possède ces méthodes.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-windowssecurity.md"><strong>WindowsSecurity</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue <strong>sécurité Windows</strong> .<br/></td>
+<td style="text-align: left;">affiche la boîte de dialogue <strong>Sécurité Windows</strong> .<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-windowswitcher.md"><strong>WindowSwitcher</strong></a></td>
@@ -225,13 +225,13 @@ L’objet **Shell** possède ces propriétés.
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

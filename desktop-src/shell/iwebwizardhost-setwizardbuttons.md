@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: 863aa667-454c-40cd-8091-9bb456047b6c
-ms.openlocfilehash: a1b2a79c7ea323c36371e08d3519e71e4c537935
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 36b40d0831c18a7931f3f29492dd4c7769440a76ddcec2aa33ba3e840e97950d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859122"
 ---
 # <a name="webwizardhostsetwizardbuttons-method"></a>Méthode WebWizardHost. SetWizardButtons
 
@@ -68,18 +68,18 @@ Active le bouton **Terminer** . Indique qu’il s’agit de la dernière page c�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Veillez à implémenter des fonctions de gestionnaire dans chaque page côté serveur pour OnBack () et OnNext (), correspondant aux boutons d’Assistant **précédent** et **suivant**. Les fonctions OnBack () et OnNext () répondent à **SetWizardButtons**. Au moment opportun, la fonction OnNext () appelle **SetWizardButtons** avec *vbLastPage* = **true**, qui peut activer un bouton **Terminer** . OnNext () appelle également [**FinalNext**](iwebwizardhost-finalnext.md) quand un utilisateur clique sur le bouton **Terminer** .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl> |
 

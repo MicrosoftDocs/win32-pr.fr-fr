@@ -4,27 +4,27 @@ description: L’exemple suivant fournit des fonctions C qui illustrent l’util
 ms.assetid: C74B4E43-615D-48B9-9884-F626BAF31F74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9851b30fdf58c0d4200600c0c4c83c7f9a00a555
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 654b4a101c2deb3c22993f41b11ee94df6ac738da41963046f02a072f3eaa6a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103841997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828611"
 ---
 # <a name="how-to-use-tab-methods-in-tom"></a>Comment utiliser les méthodes de tabulation dans TOM
 
 L’exemple suivant fournit des fonctions C qui illustrent l’utilisation des méthodes d’onglet dans le modèle d’objet de texte (TOM). Il est supposé que la plupart des applications incluent une barre d’outils qui indique la position actuelle et le type des onglets pour le paragraphe actuellement sélectionné.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -104,12 +104,12 @@ HRESULT CopyOnlyTabs(ITextPara *pParaFrom, ITextPara *pParaTo)
 [Utilisation de contrôles RichEdit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

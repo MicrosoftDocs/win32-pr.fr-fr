@@ -1,5 +1,5 @@
 ---
-description: L’interface IRenderEngine2 permet à l’application de remplacer le filtre de redimensionnement vidéo par défaut utilisé par les services d’édition DirectShow (DES). Le moteur de rendu de base et le moteur de rendu intelligent prennent tous deux en charge cette interface.
+description: l’interface IRenderEngine2 permet à l’application de remplacer le filtre de redimensionnement vidéo par défaut utilisé par les Services d’édition de DirectShow (DES). Le moteur de rendu de base et le moteur de rendu intelligent prennent tous deux en charge cette interface.
 ms.assetid: 37603c73-e199-431a-9a1e-a40c77755c70
 title: Interface IRenderEngine2 (qedit. h)
 ms.topic: reference
@@ -14,21 +14,21 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: ed7802cf3d47d745b4e4733bb1fb60c61130b44a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 39f1bc68fc6cd76e87d1998047cb211b3a8aa8e263c90e0494c7eaf15d52f75f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818507"
 ---
 # <a name="irenderengine2-interface"></a>Interface IRenderEngine2
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IRenderEngine2` interface permet à l’application de remplacer le filtre de redimensionnement vidéo par défaut utilisé par les services d’édition DirectShow (des). Le [moteur de rendu de base](basic-render-engine.md) et le [moteur de rendu intelligent](smart-render-engine.md) prennent tous deux en charge cette interface.
+l' `IRenderEngine2` interface permet à l’application de remplacer le filtre de redimensionnement vidéo par défaut utilisé par les Services d’édition de DirectShow (DES). Le [moteur de rendu de base](basic-render-engine.md) et le [moteur de rendu intelligent](smart-render-engine.md) prennent tous deux en charge cette interface.
 
 ## <a name="members"></a>Membres
 
@@ -50,7 +50,7 @@ L’interface **IRenderEngine2** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -58,7 +58,7 @@ L’interface **IRenderEngine2** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

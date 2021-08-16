@@ -3,7 +3,7 @@ title: Message PBM_SETBARCOLOR (commctrl. h)
 description: Définit la couleur de la barre de l’indicateur de progression dans le contrôle de barre de progression.
 ms.assetid: 4b512420-04ec-4884-ab13-4c58304b95f6
 keywords:
-- PBM_SETBARCOLOR les contrôles de message Windows
+- PBM_SETBARCOLOR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1387e69622e84990a197dc5a374d1c3449393408
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: babff5ad74d943d64f5ad61354447498e91e1325c99c82b32183fbc62eabafdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830200"
 ---
 # <a name="pbm_setbarcolor-message"></a>\_Message PBM SETBARCOLOR
 
@@ -47,7 +47,7 @@ Valeur **COLORREF** qui spécifie la nouvelle couleur de barre de l’indicateur
 
 Retourne la couleur de la barre de l’indicateur de progression précédente, ou CLR \_ par défaut si la couleur de la barre de l’indicateur de progression est la couleur par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque les styles visuels sont activés, ce message n’a aucun effet.
 
@@ -57,8 +57,8 @@ Lorsque les styles visuels sont activés, ce message n’a aucun effet.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

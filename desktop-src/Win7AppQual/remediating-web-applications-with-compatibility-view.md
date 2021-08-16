@@ -4,18 +4,18 @@ ms.assetid: ACAC2375-EA6C-4AA1-90B7-0BF237A51C02
 title: Résolution des problèmes de compatibilité dans les applications Web à l’aide de l’affichage de compatibilité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5acb7249854d9ac89b5601fdf83efa397c11c17
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a7dd876dcf8d25ebe7e6cca15ea88bfeba52aa29e3e5d83680815c15f8bda46d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118329508"
 ---
 # <a name="fixing-compatibility-issues-in-web-applications-by-using-compatibility-view"></a>Résolution des problèmes de compatibilité dans les applications Web à l’aide de l’affichage de compatibilité
 
 Cette section décrit les étapes de base de la prévention et la planification de la prochaine compatibilité des applications pendant que vous résolvez les problèmes maintenant.
 
-Dans la mesure du possible, Windows Internet Explorer prend en charge les modèles Internet Explorer hérités afin que les sites que vous développez continuent de se comporter comme prévu dans les versions plus récentes d’Internet Explorer. À compter de Windows Internet Explorer 8, vous pouvez choisir de prendre en charge les comportements hérités en sélectionnant le mode de rendu page par page.
+Windows Internet Explorer prend en charge les modèles Internet Explorer hérités chaque fois que cela est possible afin que les sites que vous développez pour eux continuent de se comporter comme prévu dans les versions plus récentes d’Internet Explorer. à compter de Windows Internet Explorer 8, vous pouvez choisir de prendre en charge les comportements hérités en sélectionnant le mode de rendu page par page.
 
 Internet Explorer 8 comprend les modes de rendu suivants que vous pouvez définir à l’aide de l’en-tête X-UA-compatible.
 
@@ -24,7 +24,7 @@ Internet Explorer 8 comprend les modes de rendu suivants que vous pouvez défini
 | Valeur content | Description                                                                           |
 |---------------|---------------------------------------------------------------------------------------|
 | IE=5          | Utilisez le mode Quirks.                                                                      |
-| IE = 7          | Utilisez toujours le mode Windows Internet Explorer 7.                                          |
+| IE = 7          | utilisez toujours Windows mode Internet Explorer 7.                                          |
 | IE=EmulateIE7 | Affichez en mode Internet Explorer 7, sauf si le site contient le DOCTYPE excentrique.           |
 | IE = 8          | Utilisez toujours le mode Internet Explorer 8.                                                  |
 | IE=EmulateIE8 | Remplacez l’affichage de compatibilité sur les ordinateurs clients et utilisez le mode Internet Explorer 8.      |

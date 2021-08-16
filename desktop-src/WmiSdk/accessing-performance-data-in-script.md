@@ -58,7 +58,7 @@ next
 
 
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 L’exemple de code de script suivant montre que vous devez effectuer un appel d’actualisation initial pour obtenir une valeur de départ pour l’objet actualisé. Les appels d’actualisation suivants contiennent ensuite des données.
 

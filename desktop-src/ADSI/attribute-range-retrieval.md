@@ -7,18 +7,18 @@ keywords:
 - ADSI-récupération de plage d’attributs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47f8787eb0b2aba30d1926b4d9cbb7e566e0f59c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 994b1c4535ebce264386b088a53b730e679147f07b4bef9fe99d3a45a63461fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117840576"
 ---
 # <a name="attribute-range-retrieval"></a>Récupération de plage d’attributs
 
 Un attribut à valeurs multiples peut avoir presque n’importe quel nombre de valeurs. Dans de nombreux cas, il peut être avantageux, voire nécessaire, de limiter la plage de valeurs récupérées par une requête.
 
-La récupération de plage implique de demander un nombre limité de valeurs d’attribut dans une seule requête. Le nombre de valeurs demandé doit être inférieur ou égal au nombre maximal de valeurs prises en charge par le serveur. Pour réduire le nombre de fois que la requête doit contacter le serveur, le nombre de valeurs demandé doit être aussi proche que possible de cette valeur maximale. Pour permettre à une application de fonctionner correctement avec tous les serveurs Windows, un nombre maximal de 1000 doit être utilisé.
+La récupération de plage implique de demander un nombre limité de valeurs d’attribut dans une seule requête. Le nombre de valeurs demandé doit être inférieur ou égal au nombre maximal de valeurs prises en charge par le serveur. Pour réduire le nombre de fois que la requête doit contacter le serveur, le nombre de valeurs demandé doit être aussi proche que possible de cette valeur maximale. pour permettre à une application de fonctionner correctement avec tous les serveurs Windows, un nombre maximal de 1000 doit être utilisé.
 
 Les spécificateurs de plage pour une requête de propriété requièrent la forme suivante :
 
@@ -44,17 +44,17 @@ Le tableau suivant répertorie des exemples de spécificateurs de plage.
 
 
 
- 
+ 
 
 Il existe plusieurs façons de récupérer une plage de valeurs de propriété. La méthode [**IADs. GetInfoEx**](/windows/desktop/api/Iads/nf-iads-iads-getinfoex) peut être utilisée dans un langage Automation ou C++. La méthode **IADs. GetInfoEx** est la méthode recommandée pour effectuer une récupération de plage. Pour plus d’informations sur l’utilisation de **IADs. GetInfoEx** pour la récupération de plages, consultez [utilisation de IADs :: GetInfoEx pour la récupération de plages](using-iads--getinfoex-for-range-retrieval.md).
 
-Si un langage Automation est utilisé, les objets d’annuaire ActiveX (ADO) peuvent être utilisés pour récupérer une plage de valeurs de propriété. Pour plus d’informations sur l’utilisation d’ADO pour la récupération de plages, consultez [utilisation d’ADO pour la récupération de plages](using-ado-for-range-retrieval.md).
+si un langage automation est utilisé, les objets d’annuaire d’ActiveX (ADO) peuvent être utilisés pour récupérer une plage de valeurs de propriété. Pour plus d’informations sur l’utilisation d’ADO pour la récupération de plages, consultez [utilisation d’ADO pour la récupération de plages](using-ado-for-range-retrieval.md).
 
 Si vous utilisez C++, les interfaces [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) et [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) peuvent être utilisées pour récupérer une plage de valeurs de propriété. Pour plus d’informations sur l’utilisation de **IDirectorySearch** et **IDirectoryObject** pour la récupération de plages, consultez [utilisation de IDirectorySearch et IDirectoryObject pour la récupération de plages](using-idirectorysearch-and-idirectoryobject-for-range-retrieval.md).
 
- 
+ 
 
- 
+ 
 
 
 

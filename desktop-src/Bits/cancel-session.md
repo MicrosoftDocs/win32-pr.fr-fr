@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 017097bea656309aabf3d773f34152805fd6a579
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d570a49d1a5ba632fbbb453b6397338af70d29b0dc837db12193d2889c867eaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106509822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835108"
 ---
 # <a name="cancel-session"></a>Cancel-Session
 
@@ -56,7 +56,7 @@ GUID de chaîne qui identifie la session sur le serveur. Remplacez {GUID} par l�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce paquet annule un travail de chargement s’il est envoyé avant l’envoi du dernier fragment. Cancel-Session n’a aucun effet sur un fichier dont le dernier fragment a déjà été envoyé. Quand le serveur BITS reçoit le dernier fragment, il écrit le fichier dans sa destination finale et, dans le cas d’une opération de chargement-réponse, publie le fichier dans l’application serveur. Dans le cas de chargement-réponse, le paquet Cancel-Session annule la partie réponse d’une tâche de chargement-réponse.
 
@@ -74,9 +74,9 @@ Le client BITS envoie ce paquet lorsque l’utilisateur annule le travail.
 [**Fermer-session**](close-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

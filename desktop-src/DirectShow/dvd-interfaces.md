@@ -4,12 +4,12 @@ ms.assetid: 8b0336ca-2480-4187-87f2-8b155601a77f
 title: Interfaces DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e25adbb8e8aab9dd12f680fd2ead0e4fd5ab2da
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: febe5817d2008b04fd58c9e9ae50e619eec6cf64a6ba804e9830756d7768564e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820553"
 ---
 # <a name="dvd-interfaces"></a>Interfaces DVD
 
