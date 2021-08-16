@@ -3,12 +3,12 @@ description: Spécifie si le chargeur de topologie Active le processeur vidéo d
 title: Attribut MF_TOPOLOGY_ENABLE_XVP_FOR_PLAYBACK (Mfidl. h)
 ms.topic: reference
 ms.date: 02/22/2021
-ms.openlocfilehash: e36841db57e8343248ef5e369915d4bc357815bb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3f315463ce1719617c5a48066401219f4b971f0a555cadf2af43b055a2b0e9a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106542129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875727"
 ---
 # <a name="mf_topology_enable_xvp_for_playback-attribute"></a>\_La topologie MF \_ active \_ XVP \_ pour l' \_ attribut de lecture
 
@@ -28,7 +28,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFTopology**](/windows/desktop/api/mfidl/nn-mfidl-imftopology)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cet attribut est défini, le chargeur de topologie extrait le processeur vidéo, si nécessaire, pendant la résolution de la topologie de non-transcodage. Lorsque vous utilisez la topologie pour créer vos propres [IMFTopology](/windows/win32/api/mfidl/nn-mfidl-imftopology) , cet attribut indique au chargeur d’utiliser XVP pour les conversions au lieu du convertisseur de couleur hérité, ce qui permet de convertir les couleurs à accélération matérielle. le convertisseur de couleurs hérité est un logiciel uniquement.
 
@@ -38,8 +38,8 @@ Si cet attribut est défini, le chargeur de topologie extrait le processeur vid�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

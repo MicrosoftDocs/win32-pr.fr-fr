@@ -8,12 +8,12 @@ keywords:
 - partitions de l’annuaire d’applications Active Directory, exemple de code pour la création
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d82b2c440547a28ffa585ea3a68a3127a5dc3942
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 923a1891b4980674df01463b4139ec24e771b3697c3648593b3499f3eb5f3838
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190792"
 ---
 # <a name="example-code-for-creating-an-application-directory-partition"></a>Exemple de code pour la création d’une partition d’annuaire d’applications
 
@@ -128,7 +128,7 @@ HRESULT CreateApplicationPartitionIADs(LPCWSTR pwszDCADsPath,
 
 
 
-L’exemple de code Visual Basic Scripting Edition suivant montre comment créer une nouvelle partition d’annuaire d’applications à l’aide d’ADSI.
+l’exemple de code Visual Basic scripting Edition suivant montre comment créer une nouvelle partition d’annuaire d’applications à l’aide d’ADSI.
 
 
 ```VB
@@ -215,7 +215,7 @@ End Sub
 
 
 
-L’exemple de code Visual Basic .NET suivant montre comment créer une nouvelle partition d’annuaire d’applications à l’aide de [System. DirectoryServices](/dotnet/api/system.directoryservices).
+l’exemple de code Visual Basic .net suivant montre comment créer une nouvelle partition d’annuaire d’applications à l’aide de [System. DirectoryServices](/dotnet/api/system.directoryservices).
 
 
 ```VB
@@ -358,6 +358,6 @@ static void CreateApplicationPartitionCS(string DCADsPath,
 
 
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7132e2e85015aaf9d38adbd6278ea4d3e1296446
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: da027136deed48a97b2ea9384bc37a1a45d00650d90b8fd855ea8226e58583aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106537212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118343645"
 ---
 # <a name="keywordlisttype-complex-type"></a>Type complexe KeywordListType
 
@@ -42,7 +42,7 @@ Définit une liste de mots clés qui classent les événements.
 
 | Élément                                                                | Type                                                               | Description                                                                                                  |
 |------------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [**keyword**](eventmanifestschema-keyword-keywordlisttype-element.md) | [**KeywordType**](eventmanifestschema-keywordtype-complextype.md) | Définit un mot clé qui identifie une catégorie d’événements. Vous pouvez spécifier un maximum de 48 Mots-clés.<br/> |
+| [**mot**](eventmanifestschema-keyword-keywordlisttype-element.md) | [**KeywordType**](eventmanifestschema-keywordtype-complextype.md) | Définit un mot clé qui identifie une catégorie d’événements. Vous pouvez spécifier un maximum de 48 Mots-clés.<br/> |
 
 
 
@@ -52,8 +52,8 @@ Définit une liste de mots clés qui classent les événements.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

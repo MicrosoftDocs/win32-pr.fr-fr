@@ -7,12 +7,12 @@ keywords:
 - noms d’affichage de classes Active Directory, icônes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 691d4ef22babeded12ec9b951f92247df99521b6
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: efe3548daa223cdfa05dee8ec3df8f2f8bc800c5ba7449920744de1a67ac8745
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103940838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118022600"
 ---
 # <a name="class-icons"></a>Icônes de classe
 
@@ -51,6 +51,6 @@ Pour ajouter une valeur à l’attribut **iconPath** , procédez comme suit.
 3.  Pour ajouter la nouvelle valeur, utilisez la méthode [**IADs ::P Utex**](/windows/desktop/api/iads/nf-iads-iads-putex) avec le paramètre *LnControlCode* défini sur **ADS \_ propriété \_ Append**.
 4.  Pour valider les modifications apportées à l’annuaire, appelez [**IADs :: setinfo**](/windows/desktop/api/iads/nf-iads-iads-setinfo).
 
- 
+ 
 
- 
+ 

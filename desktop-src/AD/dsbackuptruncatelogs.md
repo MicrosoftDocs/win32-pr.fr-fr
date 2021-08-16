@@ -15,16 +15,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 051ced828656c6b6e5af156e2d1a69c3b741cdce
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6ef435214248d8b7972e62419ce60626f7dd6ec9f6dc27a8813598e623d7a156
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191845"
 ---
 # <a name="dsbackuptruncatelogs-function"></a>DsBackupTruncateLogs fonction)
 
-\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. À partir de Windows Vista, utilisez [service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
+\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. à partir de Windows Vista, utilisez [Service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
 
 La fonction **DsBackupTruncateLogs** tronque les journaux de sauvegarde précédemment lus.
 
@@ -70,7 +70,7 @@ L’appelant ne dispose pas des privilèges d’accès appropriés pour appeler 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez la fonction **DsBackupTruncateLogs** lorsqu’une sauvegarde complète ou incrémentielle s’est terminée avec succès.
 

@@ -4,12 +4,12 @@ ms.assetid: c801233a-c4d8-4fd9-aaf0-3d4503bbce26
 title: Message WM_CANCELMODE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c23b842dfdfde7dc550d8ec6d942bcc83ea25f3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae26cef4919ed93bb2a1c60376ab450560cd2142cef7b3040032f791c45ab09f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849298"
 ---
 # <a name="wm_cancelmode-message"></a>\_Message WM CANCELMODE
 
@@ -48,7 +48,7 @@ Type : **LRESULT**
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le message **WM \_ CANCELMODE** est envoyé, la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) annule le traitement interne de l’entrée de la barre de défilement standard, annule le traitement du menu interne et libère la capture de la souris.
 

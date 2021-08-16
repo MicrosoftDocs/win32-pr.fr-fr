@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: cf07a0afc0fbd2629ffe54b543271014d5817d71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98415428a020129d884a036fab121511e489ec96af3a5606e25283dfec69c21d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118207230"
 ---
 # <a name="iwicbitmap_lock_proxy-function"></a>IWICBitmap \_ \_ fonction proxy Lock
 
@@ -46,22 +46,22 @@ HRESULT IWICBitmap_Lock_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap) \** _
+Type : **[ **IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap)\***
 
-Pointeur vers cet objet [_ *IWICBitmap* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap) .
+Pointeur vers cet objet [**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap) .
 
 </dd> <dt>
 
 *prcLock* \[ dans\]
 </dt> <dd>
 
-Type : **const [**WICRect**](/windows/desktop/api/Wincodec/ns-wincodec-wicrect) \** _
+Type : **const [**WICRect**](/windows/desktop/api/Wincodec/ns-wincodec-wicrect) \***
 
 Rectangle auquel accéder.
 
 </dd> <dt>
 
-_flags * \[ dans\]
+*indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **DWORD**
@@ -93,8 +93,8 @@ Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP avec SP2, applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                                                             |
+| Client minimal pris en charge<br/> | Windows XP avec SP2, Windows les \[ applications de bureau Vista uniquement\]<br/>                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll ; </dt> <dt>Wincodec. lib</dt> </dl> |
 
 

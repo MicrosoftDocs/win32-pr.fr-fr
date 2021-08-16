@@ -3,9 +3,9 @@ title: Événement Player. PlaylistCollectionPlaylistRemoved
 description: L’événement PlaylistCollectionPlaylistRemoved se produit lorsqu’une sélection est supprimée de la collection de sélections. | Événement Player. PlaylistCollectionPlaylistRemoved
 ms.assetid: 2405be98-b4c2-4b4e-bea6-0c48a3e26f18
 keywords:
-- Événement PlaylistCollectionPlaylistRemoved lecteur Windows Media
-- Événement PlaylistCollectionPlaylistRemoved lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement PlaylistCollectionPlaylistRemoved
+- Lecteur Windows Media d’événements PlaylistCollectionPlaylistRemoved
+- Lecteur Windows Media d’événements PlaylistCollectionPlaylistRemoved, classe Player
+- Lecteur Windows Media de classe Player, événement PlaylistCollectionPlaylistRemoved
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a449a7b00516f4fee613722d1cc126eb74227948
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 456f7598b9e1f1d2c2a6e76e58a0b06142980835c3c6d71d9ab10c2230ac386f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118337973"
 ---
 # <a name="playerplaylistcollectionplaylistremoved-event"></a>Événement Player. PlaylistCollectionPlaylistRemoved
 
@@ -53,9 +53,9 @@ Player.PlaylistCollectionPlaylistRemoved(
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La valeur des paramètres d’événement est spécifiée par le lecteur Windows Media et est accessible ou transmise à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
+la valeur des paramètres d’événement est spécifiée par Lecteur Windows Media, et est accessible ou passée à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 

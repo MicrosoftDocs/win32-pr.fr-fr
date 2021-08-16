@@ -4,12 +4,12 @@ ms.assetid: e2f22838-102e-432c-9c82-06a3e0741374
 title: Énumérations d’autorisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9363ca8039c326a81ad2e08a9136f5f65363146
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dade6bad12da6decb352e127f279b0f573ae16b6031089dcf92b51fde3813da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784327"
 ---
 # <a name="authorization-enumerations"></a>Énumérations d’autorisation
 
@@ -32,7 +32,7 @@ Les énumérations suivantes sont utilisées avec les applications d’autorisat
 | [**\_niveau obligatoire**](/windows/desktop/api/Winnt/ne-winnt-mandatory_level)<br/>                                         | Répertorie les niveaux de sécurité possibles.<br/>                                                                                                                                                                                                                                        |
 | [**opération à plusieurs \_ tiers de confiance \_**](/windows/desktop/api/AccCtrl/ne-accctrl-multiple_trustee_operation)<br/>                  | Contient des valeurs qui indiquent si une structure de [**tiers de confiance**](/windows/desktop/api/AccCtrl/ns-accctrl-trustee_a) est un tiers de confiance d’emprunt d’identité.<br/>                                                                                                                                                                  |
 | [**\_paramètre PROG Invoke \_**](/windows/win32/api/accctrl/ne-accctrl-prog_invoke_setting)<br/>                                | Indique la valeur initiale de la fonction utilisée pour suivre la progression d’un appel à la fonction [**TreeSetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-treesetnamedsecurityinfoa) ou [**TreeResetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-treeresetnamedsecurityinfoa) .<br/>                                       |
-| [**\_type d’objet se \_**](/windows/desktop/api/AccCtrl/ne-accctrl-se_object_type)<br/>                                          | Contient des valeurs qui correspondent aux types d’objets Windows qui prennent en charge la sécurité.<br/>                                                                                                                                                                                     |
+| [**SE \_ TYPE d’objet \_**](/windows/desktop/api/AccCtrl/ne-accctrl-se_object_type)<br/>                                          | contient des valeurs qui correspondent aux types d’objets de Windows qui prennent en charge la sécurité.<br/>                                                                                                                                                                                     |
 | [**\_niveau d’emprunt d’identité de sécurité \_**](/windows/desktop/api/Winnt/ne-winnt-security_impersonation_level)<br/>              | Contient des valeurs qui spécifient les niveaux d’emprunt d’identité de sécurité. Les niveaux d’emprunt d’identité de sécurité régissent le degré auquel un processus serveur peut agir pour le compte d’un [processus](/windows/desktop/SecGloss/p-gly)client.<br/>                                 |
 | [**\_type de page si \_**](/windows/desktop/api/Aclui/ne-aclui-si_page_type)<br/>                                              | Contient des valeurs qui indiquent les types de pages de propriétés dans une feuille de propriétés de l’éditeur de contrôle d’accès.<br/>                                                                                                                                                                      |
 | [**\_utilisation du nom sid \_**](/windows/desktop/api/Winnt/ne-winnt-sid_name_use)<br/>                                              | Contient des valeurs qui spécifient le type d’un [identificateur de sécurité](/windows/desktop/SecGloss/s-gly) (SID).<br/>                                                                                                                |

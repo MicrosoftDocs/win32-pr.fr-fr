@@ -4,12 +4,12 @@ description: Vous pouvez activer la sécurité pour une application particulièr
 ms.assetid: 04a7f688-78a3-490a-bcfa-862824a05422
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03174dd66e83a88724ff5d421d7b0dcb0c17699e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c5ace37c685748983d36b8a1e27a406fb8a81034d82ab793e77c4def960dfa2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118309104"
 ---
 # <a name="setting-process-wide-security-using-dcomcnfg"></a>Définition de la sécurité Process-Wide à l’aide de DCOMCNFG
 
@@ -124,7 +124,7 @@ Vous parcourez la base de données utilisateur dans Dcomcnfg.exe lorsque vous av
 
 ## <a name="dcomcnfgexe-and-64-bit-applications"></a>Applications Dcomcnfg.exe et 64 bits
 
-Sur les systèmes d’exploitation x64 de Windows XP vers Windows Server 2008, la version 64 bits de DCOMCNFG.EXE ne configure pas correctement les applications DCOM 32 bits pour l’activation à distance. Ce comportement provoque l’activation locale des composants qui sont censés être activés à distance. Ce comportement ne se produit pas dans Windows 7 et Windows Server 2008 R2 et versions ultérieures.
+sur les systèmes d’exploitation x64 de Windows XP à Windows Server 2008, la version 64 bits de DCOMCNFG.EXE ne configure pas correctement les applications DCOM 32 bits pour l’activation à distance. Ce comportement provoque l’activation locale des composants qui sont censés être activés à distance. ce comportement ne se produit pas dans Windows 7 et Windows Server 2008 R2 et versions ultérieures.
 
 La solution de contournement consiste à utiliser la version 32 bits de DCOMCNFG. Exécutez la version 32 bits de mmc.exe et chargez la version 32 bits du composant logiciel enfichable Services de composants à l’aide de la ligne de commande suivante.
 
@@ -139,9 +139,9 @@ La version 32 bits des services de composants inscrit correctement les applicati
 [Définition de la sécurité Process-Wide](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

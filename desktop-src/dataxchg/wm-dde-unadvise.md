@@ -1,9 +1,9 @@
 ---
 title: Message WM_DDE_UNADVISE (DDE. h)
-description: Une application cliente de échange dynamique de données (DDE) publie \_ un \_ message de notification d’inversion DDE WM pour informer une application serveur DDE que l’élément spécifié ou un format de presse-papiers particulier pour l’élément ne doit plus être mis à jour.
+description: une application cliente de échange dynamique de données (dde) publie \_ un \_ message de notification d’inversion dde WM pour informer une application serveur dde que l’élément spécifié ou un format de presse-papiers particulier pour l’élément ne doit plus être mis à jour.
 ms.assetid: 9a5f9a86-e6fa-450e-b8bf-f20042c7e6d1
 keywords:
-- WM_DDE_UNADVISE l’échange de données de message
+- WM_DDE_UNADVISE des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dba83badcb689789d2654d99780bcb8cc503511d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9bbd0ac8e056cc43be764e745f824b50fc90b3cb2f0c50c9061d111fb3bc178d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117915103"
 ---
 # <a name="wm_dde_unadvise-message"></a>\_Message d' \_ innotification DDE
 
-Une application cliente de échange dynamique de données (DDE) publie un message de **\_ \_ notification** d’inversion DDE WM pour informer une application serveur DDE que l’élément spécifié ou un format de presse-papiers particulier pour l’élément ne doit plus être mis à jour. Cela met fin au lien de données chaud ou chaud pour l’élément spécifié.
+une application cliente de échange dynamique de données (dde) publie un message de **\_ \_ notification** d’inversion dde WM pour informer une application serveur dde que l’élément spécifié ou un format de presse-papiers particulier pour l’élément ne doit plus être mis à jour. Cela met fin au lien de données chaud ou chaud pour l’élément spécifié.
 
 Pour poster ce message, appelez la fonction [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) avec les paramètres suivants.
 
@@ -54,7 +54,7 @@ Le mot de poids fort contient un atome global qui identifie l’élément pour l
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application cliente alloue le mot de poids fort de *lParam* en appelant la fonction [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma) .
 
@@ -68,7 +68,7 @@ L’application serveur publie le message d’accusé de réception [**\_ DDE DD
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>DDE. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Dde. h (inclure Windows. h)</dt> </dl> |
 
 
 

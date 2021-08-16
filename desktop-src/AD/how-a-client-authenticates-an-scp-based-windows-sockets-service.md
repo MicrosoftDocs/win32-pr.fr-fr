@@ -1,22 +1,22 @@
 ---
-title: Comment un client authentifie un service Windows Sockets SCP
+title: comment un Client authentifie un Service de sockets Windows basé sur SCP
 description: Cette rubrique montre le code qu’une application cliente utilise pour composer un SPN pour un service.
 ms.assetid: b5ef79c6-e321-435c-b3de-817fdea8836a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38471f48d8c80d0795b7176b95df0029d42325ac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 40d35ad62e05ab925d2dedc10506ddb339c2aafd188487f2e1591713189f451a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188663"
 ---
-# <a name="how-a-client-authenticates-an-scp-based-windows-sockets-service"></a>Comment un client authentifie un service Windows Sockets SCP
+# <a name="how-a-client-authenticates-an-scp-based-windows-sockets-service"></a>comment un Client authentifie un Service de sockets Windows basé sur SCP
 
 Cette rubrique montre le code qu’une application cliente utilise pour composer un SPN pour un service. Le client est lié au point de connexion de service (SCP) du service pour récupérer les données requises pour se connecter au service. Le SCP contient également des données que le client peut utiliser pour composer le SPN du service. Pour plus d’informations et pour obtenir un exemple de code qui crée une liaison avec le SCP et récupère les propriétés nécessaires, consultez [Comment les clients recherchent et utilisent un point de connexion de service](how-clients-find-and-use-a-service-connection-point.md).
 
-Cette rubrique montre également comment un client utilise un package de sécurité SSPI et le SPN du service pour établir une connexion mutuellement authentifiée au service Windows Sockets. N’oubliez pas que ce code est presque identique au code requis dans Microsoft Windows NT 4,0 et versions antérieures uniquement pour authentifier le client auprès du serveur. La seule différence est que le client doit fournir le nom de principal du service et spécifier l' \_ indicateur d’authentification mutuelle d’ISC req \_ \_ .
+cette rubrique montre également comment un client utilise un package de sécurité SSPI et le SPN du service pour établir une connexion mutuellement authentifiée au service de sockets Windows. N’oubliez pas que ce code est presque identique au code requis dans Microsoft Windows NT 4,0 et versions antérieures uniquement pour authentifier le client auprès du serveur. La seule différence est que le client doit fournir le nom de principal du service et spécifier l' \_ indicateur d’authentification mutuelle d’ISC req \_ \_ .
 
 ## <a name="client-code-to-make-an-spn-for-a-service"></a>Code client pour créer un SPN pour un service
 
@@ -266,9 +266,9 @@ return TRUE;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

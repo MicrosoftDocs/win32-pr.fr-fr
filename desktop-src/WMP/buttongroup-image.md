@@ -3,7 +3,7 @@ title: BUTTONGROUP. image
 description: L’attribut image spécifie ou récupère le nom de l’image représentant les boutons d’un BUTTONGROUP.
 ms.assetid: dad50a1e-d147-4e0f-b5d6-8cbfeef32438
 keywords:
-- Lecteur Windows Media BUTTONGROUP. image
+- BUTTONGROUP. image Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fa395edc149671ad05a38a5ff7c77053b6e3d82
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d2fcd8d76bd217087b6b948cec3216efc2bbc6c9845e9c18b5a7619d292232b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118342632"
 ---
 # <a name="buttongroupimage"></a>BUTTONGROUP. image
 
@@ -31,7 +31,7 @@ L’attribut **image** spécifie ou récupère le nom de l’image représentant
 
 Cet attribut est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les formats d’image pris en charge sont BMP, JPG, PNG et GIF. Si l’image est un fichier BMP 8 bits, ses valeurs de teinte et de saturation peuvent être modifiées de manière dynamique à l’aide des attributs **hueShift** et **saturation** .
 

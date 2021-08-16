@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dca24b3a601b9fcafd8d78a0194b6b986813f38c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 30c70c821906bcfa4dedb8dbe87aab882866a4f21b7d561b16d3613f9041e0f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384723"
 ---
 # <a name="decode-attribute"></a>Decode, attribut
 
@@ -91,7 +91,7 @@ Spécifie un type défini dans le fichier IDL.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **\[ Decode \]** fait en sorte que le compilateur MIDL génère du code qu’une application peut utiliser pour récupérer des données sérialisées à partir d’une mémoire tampon. L' **\[** attribut [**encode**](encode.md) **\]** fournit la prise en charge de la sérialisation, en générant le code permettant de sérialiser les données dans une mémoire tampon.
 
@@ -112,6 +112,6 @@ Pour plus d’informations sur l’utilisation de cette prise en charge de la s�
 [**contraire**](encode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

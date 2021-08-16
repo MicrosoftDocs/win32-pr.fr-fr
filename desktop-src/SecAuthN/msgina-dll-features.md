@@ -4,25 +4,25 @@ ms.assetid: cd2ce7b7-6167-4451-9f6e-881676a2145c
 title: Fonctionnalités de MSGina.dll
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51833ab92e47dad01c13df004797e3ab3552b09a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2acf5d1e7e9dccf9581b27ea2fef3deb1c2c8aa218a1b0a711b7015134e1d2d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117786748"
 ---
 # <a name="msginadll-features"></a>Fonctionnalités de MSGina.dll
 
 Si vous écrivez un [*Gina*](../secgloss/g-gly.md) pour remplacer la dll gina (MSGina.dll) standard de Microsoft, vous pouvez fournir une partie ou la totalité des fonctionnalités Gina standard. Voici une liste de fonctionnalités standard et une brève description de leur mode de contrôle.
 
 > [!Note]  
-> Les DLL GINA sont ignorées dans Windows Vista.
+> les dll GINA sont ignorées dans Windows Vista.
 
  
 
 Les valeurs de clé de Registre contrôlent la disponibilité ou le comportement de nombreuses fonctionnalités GINA standard. Sauf indication contraire, ces valeurs de clés appartiennent à la clé de Registre Winlogon et ont un type de valeur de la valeur de \[ reg \_ SZ \] . Le chemin d’accès réel de la clé [*Winlogon*](../secgloss/w-gly.md) est le suivant :
 
-**\\HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows NT \\ CurrentVersion \\ Winlogon**
+**\\HKEY \_ LOCAL \_ MACHINE \\ Software \\ Microsoft \\ Windows NT \\ CurrentVersion \\ Winlogon**
 
 -   **Boîte de dialogue notification légale**
 
@@ -62,7 +62,7 @@ Les valeurs de clé de Registre contrôlent la disponibilité ou le comportement
 
      
 
-    Si la valeur de clé **AutoAdminLogon** est présente et contient une valeur et que la valeur de clé **AutoLogonCount** n’est pas présente, une ouverture de session automatique se produit chaque fois que l’utilisateur actuel ferme une session ou que le système est redémarré. Le compte en cours de connexion est spécifié à l’aide des valeurs de clé **DefaultUserName** et **DefaultDomainName** . Le mot de passe du compte peut être spécifié de deux façons. Pour les ordinateurs exécutant l’un des systèmes d’exploitation Windows Server 2003 ou Windows XP, le mot de passe doit être stocké en tant que secret à l’aide de la fonction [**LsaStorePrivateData**](/windows/win32/api/ntsecapi/nf-ntsecapi-lsastoreprivatedata) . Pour plus d’informations, consultez [protection du mot de passe d’ouverture de session automatique](protecting-the-automatic-logon-password.md). L’autre façon de stocker le mot de passe est en texte brut dans l’entrée **DefaultPassword** de la clé Winlogon. pour des raisons de sécurité, cette technique doit être évitée. Si vous stockez le mot de passe à l’aide de la fonction **LsaStorePrivateData** , ne fournissez pas d’entrée **DefaultPassword** dans la clé Winlogon.
+    Si la valeur de clé **AutoAdminLogon** est présente et contient une valeur et que la valeur de clé **AutoLogonCount** n’est pas présente, une ouverture de session automatique se produit chaque fois que l’utilisateur actuel ferme une session ou que le système est redémarré. Le compte en cours de connexion est spécifié à l’aide des valeurs de clé **DefaultUserName** et **DefaultDomainName** . Le mot de passe du compte peut être spécifié de deux façons. pour les ordinateurs exécutant l’un des systèmes d’exploitation Windows Server 2003 ou Windows XP, le mot de passe doit être stocké en tant que secret à l’aide de la fonction [**LsaStorePrivateData**](/windows/win32/api/ntsecapi/nf-ntsecapi-lsastoreprivatedata) . Pour plus d’informations, consultez [protection du mot de passe d’ouverture de session automatique](protecting-the-automatic-logon-password.md). L’autre façon de stocker le mot de passe est en texte brut dans l’entrée **DefaultPassword** de la clé Winlogon. pour des raisons de sécurité, cette technique doit être évitée. Si vous stockez le mot de passe à l’aide de la fonction **LsaStorePrivateData** , ne fournissez pas d’entrée **DefaultPassword** dans la clé Winlogon.
 
     Si la valeur de clé **AutoAdminLogon** est présente et contient une valeur, et si la valeur de clé **AutoLogonCount** est présente et n’est pas égale à zéro, **AutoLogonCount** détermine le nombre d’ouvertures de session automatiques qui se produisent. Chaque fois que le système est redémarré, la valeur de **AutoLogonCount** est décrémentée d’une unité, jusqu’à ce qu’elle atteigne zéro. Lorsque **AutoLogonCount** atteint zéro, aucun compte n’est connecté automatiquement, la valeur de clé **AutoLogonCount** et la valeur de clé **DefaultPassword** , si elle est utilisée, sont supprimées du Registre, et **AutoAdminLogon** est défini à zéro.
 
@@ -86,7 +86,7 @@ Les valeurs de clé de Registre contrôlent la disponibilité ou le comportement
 
     Userinit.exe est une application exécutée par MSGina.dll lorsque l’utilisateur s’est connecté. Il s’exécute dans le [*contexte*](../secgloss/c-gly.md) de l’utilisateur qui vient d’être connecté et sur le Bureau de l’application. Son objectif est de configurer l’environnement de l’utilisateur, notamment la restauration des utilisations réseau, l’établissement de paramètres de profil tels que les polices et les couleurs d’écran, et l’exécution de scripts d’ouverture de session. Une fois ces tâches terminées, Userinit.exe exécute les programmes de l’interpréteur de commandes utilisateur. Les programmes de l’interpréteur de commandes héritent de l’environnement que Userinit.exe configure. Les programmes d’interpréteur de commandes spécifiques que Userinit.exe exécute sont stockés dans la valeur de clé de l' **interpréteur** de commandes sous la clé de Registre Winlogon.
 
-    La valeur de clé de l' **interpréteur** de commandes peut contenir une liste de programmes séparés par des virgules à exécuter. L’Explorateur Windows est le programme d’interpréteur de commandes par défaut qui est exécuté si la valeur de la clé de l' **interpréteur** de commandes est null ou absente. Par défaut, l’Explorateur Windows est listé.
+    La valeur de clé de l' **interpréteur** de commandes peut contenir une liste de programmes séparés par des virgules à exécuter. Windows L’Explorateur est le programme d’interpréteur de commandes par défaut qui est exécuté si la valeur de la clé de l' **interpréteur** de commandes est nulle ou manquante. par défaut, Windows Explorer est listé.
 
 -   **Options de sécurité connectées**
 

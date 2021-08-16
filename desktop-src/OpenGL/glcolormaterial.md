@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d32823eaa82e6a260790dd6fa23747f2b4228649
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55cc846cfbc400d2372186f9af4a09db08e5ad769d1e8fec5f5f6f757e1ff447
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118360470"
 ---
 # <a name="glcolormaterial-function"></a>glColorMaterial fonction)
 
@@ -72,7 +72,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glColorMaterial** spécifie les paramètres de matière qui effectuent le suivi de la couleur actuelle. Lorsque vous activez le \_ \_ matériel de couleur GL, pour chacun des matériaux ou matériaux spécifiés par *visage*, le ou les paramètres du matériau spécifiés par le *mode* suivent à tout moment la couleur actuelle. Activez et désactivez \_ \_ le matériel de couleur GL avec les fonctions [**glEnable**](glenable.md) et [**glDisable**](gldisable.md), que vous appelez avec la documentation de \_ couleur GL \_ comme argument. Par défaut, le \_ matériel de couleur de GL \_ est désactivé.
 

@@ -4,12 +4,12 @@ ms.assetid: 3aa7e979-8b55-416d-bed1-28296055d38e
 title: Négociation Microsoft
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7ce57a8f8924120dcce51e50e05de90fd6774b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebd223267a2e7d0e4dc23ae356a6fa2e6224c742c491e428369f15fb6d46ff73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117786951"
 ---
 # <a name="microsoft-negotiate"></a>Négociation Microsoft
 

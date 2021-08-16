@@ -1,19 +1,19 @@
 ---
-description: Les services HTTP Microsoft Windows (WinHTTP) exposent un ensemble de fonctions C/C++ qui permettent à votre application d’accéder aux ressources HTTP sur le Web. Cette rubrique fournit une vue d’ensemble de la façon dont ces fonctions sont utilisées pour interagir avec un serveur HTTP.
+description: Microsoft Windows HTTP Services (WinHTTP) expose un ensemble de fonctions C/C++ qui permettent à votre application d’accéder aux ressources HTTP sur le Web. Cette rubrique fournit une vue d’ensemble de la façon dont ces fonctions sont utilisées pour interagir avec un serveur HTTP.
 ms.assetid: 66a1616b-0cf3-45c7-880b-e36728b5a9c4
 title: Vue d’ensemble des sessions WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98dc8116dff75f279b87cb5f5ee6af607034176f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 753f7c2a3845b34ac306c1fb8d87441955ab9f4cfe0e1ea250737f62f993cd43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117743902"
 ---
 # <a name="winhttp-sessions-overview"></a>Vue d’ensemble des sessions WinHTTP
 
-Les services HTTP Microsoft Windows (WinHTTP) exposent un ensemble de fonctions C/C++ qui permettent à votre application d’accéder aux ressources HTTP sur le Web. Cette rubrique fournit une vue d’ensemble de la façon dont ces fonctions sont utilisées pour interagir avec un serveur HTTP.
+Microsoft Windows HTTP Services (WinHTTP) expose un ensemble de fonctions C/C++ qui permettent à votre application d’accéder aux ressources HTTP sur le Web. Cette rubrique fournit une vue d’ensemble de la façon dont ces fonctions sont utilisées pour interagir avec un serveur HTTP.
 
 -   [Utilisation de l’API WinHTTP pour accéder au Web](#using-the-winhttp-api-to-access-the-web)
 -   [Initialisation de WinHTTP](#initializing-winhttp)

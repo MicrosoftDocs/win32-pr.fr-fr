@@ -9,12 +9,12 @@ keywords:
 - index, configuration d’indexeurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 618316e22b13ca05ff0fc1bbfb6b4583e79ca858
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: da5a624a4ed9ae749559a1908e3809500bf8aece2b29b8ad406769c5f639e547
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845624"
 ---
 # <a name="to-configure-the-indexer"></a>Pour configurer l’indexeur
 
@@ -67,7 +67,7 @@ pMyIndexer = NULL;
 > [!Note]  
 > Le type d’index par défaut est le \_ \_ point de nettoyage le plus proche de WMT \_ \_ . Bien que vous puissiez définir le type d’index sur d’autres valeurs, cela dégradera les performances de recherche.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -85,9 +85,9 @@ pMyIndexer = NULL;
 [**Utilisation des index**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

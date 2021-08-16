@@ -4,12 +4,12 @@ ms.assetid: 523e3ea4-1d4e-45d1-bc24-93aa2fb14390
 title: Meilleures pratiques pour l’API haut débit mobile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 399c2ebc40a357eac9686bc3c2c9f471e3b853f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3a6c1e236a61dd2a5321be2edb7a68156f904605bd8a1da5fc169ea8b70e464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117881653"
 ---
 # <a name="mobile-broadband-api-best-practices"></a>Meilleures pratiques pour l’API haut débit mobile
 
@@ -124,7 +124,7 @@ int main()
 
 Suivez et Gérez toutes les notifications, même si elles ne sont pas déclenchées par votre application. Cela est nécessaire pour maintenir la synchronisation de l’interface utilisateur avec l’état réel de l’appareil.
 
-Il peut y avoir plus d’un gestionnaire de connexions en cours d’exécution sur un ordinateur. L’interface utilisateur d’interface réseau disponible de l’affichage natif fournie par Windows 7 est un gestionnaire de connexions. Tous les autres gestionnaires de connexions doivent répondre à toutes les notifications pour rester dans la synchronisation de l’interface utilisateur native Windows. Un utilisateur peut choisir d’effectuer une opération sur l’un des gestionnaires de connexions, ce qui peut entraîner un changement d’état de l’appareil haut débit mobile. Toutefois, d’autres gestionnaires de connexions doivent rester mis à jour afin d’indiquer correctement l’état modifié de l’appareil.
+Il peut y avoir plus d’un gestionnaire de connexions en cours d’exécution sur un ordinateur. l’interface utilisateur de l’interface réseau disponible de l’affichage natif fournie par Windows 7 est un gestionnaire de connexions. tous les autres gestionnaires de connexions doivent répondre à toutes les notifications pour qu’elles restent synchronisées avec l’interface utilisateur native Windows. Un utilisateur peut choisir d’effectuer une opération sur l’un des gestionnaires de connexions, ce qui peut entraîner un changement d’état de l’appareil haut débit mobile. Toutefois, d’autres gestionnaires de connexions doivent rester mis à jour afin d’indiquer correctement l’état modifié de l’appareil.
 
 Par exemple, si vous effectuez une connexion à l’aide de l’un des gestionnaires de connexions, l’état de l’appareil est modifié de disponible à connecté. Cette modification doit être visible pour les gestionnaires de connexions qui n’ont pas initié cette action. Tous les gestionnaires de connexions qui ont une interface utilisateur qui indique l’état de connexion de l’appareil, doivent écouter et gérer les notifications d’état de connexion afin de mettre correctement à jour leur interface utilisateur.
 

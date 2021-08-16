@@ -4,32 +4,32 @@ description: Cet article traite de l’emplacement par défaut des fenêtres lor
 ms.assetid: d81bd71c-6d8f-45a9-82cb-bdb9b8bcbb11
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: dc194741713a139f643ad84b829294577d020d94
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: b8dc2858b0e3cc3b2a451210a61315c610afc727ac42156d5c4fc5c112135807
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103953324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118212117"
 ---
 # <a name="window-management"></a>Gestion des fenêtres
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Cet article traite de l’emplacement par défaut des fenêtres lorsqu’elles sont initialement affichées sur l’écran, de leur ordre d’empilement par rapport à d’autres fenêtres ([ordre de plan](glossary.md)), de leur taille initiale et de la façon dont leur affichage affecte le focus d’entrée.
 
 Pour connaître les instructions suivantes :
 
--   Une fenêtre de niveau supérieur n’a pas de fenêtre propriétaire et est affichée dans la barre des tâches. Exemples : fenêtres d’application. Dans Windows Vista et versions ultérieures, les boîtes de dialogue sans fenêtres propriétaires et feuilles de propriétés sont également considérées comme de niveau supérieur.
+-   Une fenêtre de niveau supérieur n’a pas de fenêtre propriétaire et est affichée dans la barre des tâches. Exemples : fenêtres d’application. dans Windows Vista et versions ultérieures, les boîtes de dialogue sans fenêtres propriétaires et feuilles de propriétés sont également considérées comme de niveau supérieur.
 -   Une fenêtre propriétaire a une fenêtre propriétaire et n’est pas affichée dans la barre des tâches. Exemples : boîtes de dialogue modales, boîtes de dialogue non modales.
--   Une fenêtre initiée par l’utilisateur est affichée en tant que résultat direct de l’action d’un utilisateur. Dans le cas contraire, il est lancé par le programme s’il est initié par un programme ou par le système lancé par Microsoft Windows. Par exemple, une boîte de dialogue Options est lancée par l’utilisateur, mais un rappel de réunion est initié par le programme.
+-   Une fenêtre initiée par l’utilisateur est affichée en tant que résultat direct de l’action d’un utilisateur. Dans le cas contraire, elle est lancée par un programme ou lancée par Microsoft Windows. Par exemple, une boîte de dialogue Options est lancée par l’utilisateur, mais un rappel de réunion est initié par le programme.
 -   Une fenêtre contextuelle est une fenêtre initiée par l’utilisateur qui a une relation forte avec l’objet à partir duquel elle a été lancée. Par exemple, les fenêtres affichées par les menus contextuels ou les icônes de la zone de notification sont contextuelles, mais les fenêtres affichées par les barres de menus ne le sont pas.
 -   Le moniteur actif est le moniteur sur lequel le programme actif est en cours d’exécution.
--   Le moniteur par défaut est celui contenant le menu Démarrer, la barre des tâches et la zone de notification.
+-   l’analyse par défaut est celle avec le menu Démarrer, la barre des tâches et la zone de notification.
 
 ## <a name="design-concepts"></a>Principes de conception
 
-La gestion des fenêtres est l’une des activités les plus fondamentales de l’utilisateur. Avant Windows Vista, Windows avait souvent des tailles par défaut réduites et placées au milieu de l’écran. Cette approche fonctionne bien pour les anciennes analyses de faible résolution, mais pas pour le matériel vidéo moderne.
+La gestion des fenêtres est l’une des activités les plus fondamentales de l’utilisateur. avant Windows Vista, les petites tailles par défaut de Windows étaient souvent affectées et placées au milieu de l’écran. Cette approche fonctionne bien pour les anciennes analyses de faible résolution, mais pas pour le matériel vidéo moderne.
 
 Windows est conçu pour prendre en charge le matériel vidéo moderne, qui s’exécute souvent à des résolutions nettement supérieures à la résolution d’écran minimale prise en charge et peut avoir plusieurs moniteurs. Procédez ainsi :
 
@@ -39,9 +39,9 @@ Windows est conçu pour prendre en charge le matériel vidéo moderne, qui s’e
 
 ### <a name="the-minimum-supported-screen-resolution"></a>Résolution d’écran minimale prise en charge
 
-La [résolution d’écran](glossary.md) minimale prise en charge par Windows est de 800x600 pixels. Cela signifie que les fenêtres à taille fixe doivent s’afficher entièrement à la résolution minimale (tout en réservant de l’espace pour la barre des tâches), mais les fenêtres redimensionnables peuvent être optimisées pour une résolution efficace de 1 024 pixels, à condition qu’elles soient fonctionnelles à la résolution minimale.
+la [résolution d’écran minimale effective](glossary.md) prise en charge par Windows est de 800 x 600 pixels. Cela signifie que les fenêtres à taille fixe doivent s’afficher entièrement à la résolution minimale (tout en réservant de l’espace pour la barre des tâches), mais les fenêtres redimensionnables peuvent être optimisées pour une résolution efficace de 1 024 pixels, à condition qu’elles soient fonctionnelles à la résolution minimale.
 
-Alors que les résolutions d’écran physiques les plus courantes pour les PC Windows sont de 1024 x 768 pixels ou plus, le ciblage de 800 x 600 pixels permet à Windows d’effectuer les opérations suivantes :
+bien que les résolutions d’écran physiques les plus courantes pour les pc Windows soient de 1024 x 768 pixels ou plus, le ciblage de 800 x 600 pixels permet de Windows :
 
 -   Travaillez bien avec tout le matériel moderne, y compris les petits PC Notebooks.
 -   Prise en charge des paramètres haute résolution (points par pouce).
@@ -50,13 +50,13 @@ Alors que les résolutions d’écran physiques les plus courantes pour les PC W
 
 Le choix de la résolution minimale pour la prise en charge requiert un bon équilibre. Le ciblage d’une résolution plus élevée se traduirait par une expérience non optimale pour un pourcentage significatif de matériel moderne, tandis que le ciblage d’une résolution inférieure empêche les concepteurs de tirer pleinement parti de l’espace d’écran disponible.
 
-Si vous pensez que vos utilisateurs cibles utilisent des résolutions nettement supérieures à celles de la version Windows minimale, vous pouvez concevoir votre programme pour tirer pleinement parti de l’espace d’écran supplémentaire en utilisant des fenêtres redimensionnables qui évoluent bien.
+si vous pensez que vos utilisateurs cibles utilisent des résolutions nettement supérieures à celles de la Windows minimale, vous pouvez concevoir votre programme pour tirer pleinement parti de l’espace d’écran supplémentaire en utilisant des fenêtres redimensionnables qui évoluent correctement.
 
 ## <a name="guidelines"></a>Consignes
 
 ### <a name="general"></a>Général
 
--   **Prendre en charge la résolution effective Windows minimale de 800x600 pixels.** Pour les interfaces utilisateur (IU) critiques qui doivent fonctionner en mode sans échec, prennent en charge une résolution efficace de 640 x 480 pixels. Veillez à tenir compte de l’espace utilisé par la barre des tâches en réservant 48 [pixels relatifs](glossary.md) verticaux pour les fenêtres affichées avec la barre des tâches.
+-   **prendre en charge la résolution minimale Windows de 800 x 600 pixels.** Pour les interfaces utilisateur (IU) critiques qui doivent fonctionner en mode sans échec, prennent en charge une résolution efficace de 640 x 480 pixels. Veillez à tenir compte de l’espace utilisé par la barre des tâches en réservant 48 [pixels relatifs](glossary.md) verticaux pour les fenêtres affichées avec la barre des tâches.
 -   **Optimisez les dispositions de fenêtres redimensionnables pour une résolution efficace de 1024 x 768 pixels.** Redimensionnez automatiquement ces fenêtres pour réduire la résolution de l’écran d’une manière qui reste fonctionnelle.
 -   **Veillez à tester vos fenêtres en 96 ppp (100%) à 800 x 600 pixels, 120 DPI (125%) à 1 024 x 768 pixels et 144 dpi (150%) à 1200x900 pixels.** Vérifiez les problèmes de disposition, tels que le découpage des contrôles, du texte et des fenêtres, et l’étirement des icônes et des bitmaps.
 -   **Pour les programmes qui utilisent des scénarios tactiles et mobiles, optimisez pour 120 ppp.** Les écrans haute résolution sont actuellement répandus sur les PC tactiles et les ordinateurs portables.
@@ -81,7 +81,7 @@ Dans cet exemple, la boîte de dialogue n’a pas de bouton Fermer dans la barre
 ### <a name="window-size"></a>Taille de la fenêtre
 
 -   **Choisissez une taille de fenêtre par défaut adaptée à son contenu.** N’hésitez pas à utiliser des tailles de fenêtre initiales supérieures si vous pouvez utiliser l’espace de manière efficace.
--   **Utilisez des fenêtres redimensionnables quand cela est possible pour éviter les barres de défilement et les données tronquées.** Windows avec du contenu dynamique et des listes tirent le meilleur parti des fenêtres redimensionnables.
+-   **Utilisez des fenêtres redimensionnables quand cela est possible pour éviter les barres de défilement et les données tronquées.** Windows avec du contenu dynamique et des listes qui tirent le meilleur parti des fenêtres redimensionnables.
 -   **Pour les documents texte, envisagez une longueur de ligne maximale de 65 caractères** pour faciliter la lecture du texte. (Les caractères incluent des lettres, des signes de ponctuation et des espaces.)
 -   Fenêtres à taille fixe :
     -   **Doit être entièrement visible et dimensionné pour s’ajuster à la zone de travail.**
@@ -94,7 +94,7 @@ Dans cet exemple, la boîte de dialogue n’a pas de bouton Fermer dans la barre
 
 ![capture d’écran des boutons du lecteur multimédia ](images/win-window-mgt-image2.png)
 
-Dans cet exemple, le lecteur Windows Media modifie son format lorsque la fenêtre devient trop petite pour le format standard.
+dans cet exemple, Lecteur Windows Media modifie son format lorsque la fenêtre devient trop petite pour le format standard.
 
 ### <a name="window-location"></a>Emplacement de la fenêtre
 
@@ -114,7 +114,7 @@ Dans cet exemple, le lecteur Windows Media modifie son format lorsque la fenêtr
 
     ![figure de la fenêtre de la zone de notification ](images/win-window-mgt-image5.png)
 
-    Les fenêtres lancées à partir des icônes de la zone de notification sont affichées près de la zone de notification.
+    les Windows lancées à partir des icônes de la zone de notification s’affichent près de la zone de notification.
 
 -   S’il est affiché à l’aide d’un stylet, si possible, placez-le afin qu’il ne soit pas couvert par la main de l’utilisateur. Pour les utilisateurs droitiers, afficher à gauche ; Sinon, s’affiche à droite.
 
@@ -169,16 +169,16 @@ Dans cet exemple, le lecteur Windows Media modifie son format lorsque la fenêtr
 
 ### <a name="input-focus"></a>Focus d’entrée
 
--   **Les fenêtres affichées par les actions initiées par l’utilisateur doivent prendre le focus d’entrée, mais uniquement si la fenêtre est restituée immédiatement** (dans les 5 secondes). Une fois la fenêtre rendue, elle peut prendre le focus d’entrée une fois.
+-   **les Windows affichées par les actions initiées par l’utilisateur doivent prendre le focus d’entrée, mais uniquement si la fenêtre est restituée immédiatement** (dans les 5 secondes). Une fois la fenêtre rendue, elle peut prendre le focus d’entrée une fois.
     -   Si une fenêtre s’affiche lentement (plus de 5 secondes), les utilisateurs sont susceptibles d’effectuer une autre tâche pendant qu’ils attendent. Prendre le focus à ce stade serait un ennuyeux, surtout s’il est fait plusieurs fois.
--   **Les fenêtres qui ne sont pas immédiatement affichées ou affichées par une action initiée par le système ne doivent pas prendre le focus d’entrée.** Au lieu de cela, s’affichent en haut sans le focus et permettent aux utilisateurs de les activer lorsqu’ils sont prêts.
+-   **les Windows qui ne sont pas immédiatement affichées ou affichées par une action initiée par le système ne doivent pas prendre le focus d’entrée.** Au lieu de cela, s’affichent en haut sans le focus et permettent aux utilisateurs de les activer lorsqu’ils sont prêts.
     -   **Exception :** Gestionnaire d’informations d’identification.
 
 ### <a name="persistence"></a>Persistance
 
 -   **Quand une fenêtre est réaffichée, envisagez de l’afficher dans le même État que le dernier accès.** Lors de la fermeture, enregistrez l’analyse utilisée, la taille de la fenêtre, l’emplacement et l’État (agrandi et Restore). Lorsque vous réaffichez, restaurez la taille, l’emplacement et l’état de la fenêtre enregistrée à l’aide de l’analyse appropriée. Envisagez également de rendre ces attributs persistants entre les instances de programme pour chaque utilisateur. **Exceptions :**
     -   N’enregistrez pas ou ne rendez pas ces attributs persistants pour Windows quand leur utilisation est telle que les utilisateurs sont beaucoup plus susceptibles de démarrer complètement.
-    -   Pour les programmes susceptibles d’être utilisés sur les ordinateurs Windows tablette et Touch Technology, économisez deux États Windows en mode paysage et en mode portrait. Pour plus d’informations, consultez [conception pour différentes tailles d’affichage](/previous-versions/windows/desktop/ms695587(v=vs.85)).
+    -   pour les programmes susceptibles d’être utilisés sur des ordinateurs technologie Windows Tablet and Touch, enregistrez deux états Windows pour les modes paysage et portrait. Pour plus d’informations, consultez [conception pour différentes tailles d’affichage](/previous-versions/windows/desktop/ms695587(v=vs.85)).
 -   **Si la configuration de l’analyse en cours empêche l’affichage d’une fenêtre à l’aide de son dernier État :**
     -   Essayez d’afficher la fenêtre à l’aide de sa dernière analyse.
     -   Si la fenêtre est plus grande que le moniteur, redimensionnez la fenêtre en fonction des besoins.

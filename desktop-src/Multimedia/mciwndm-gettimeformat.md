@@ -3,7 +3,7 @@ title: Message MCIWNDM_GETTIMEFORMAT (VFW. h)
 description: Le \_ message MCIWNDM GETTIMEFORMAT récupère le format d’heure actuel d’un appareil MCI sous deux formes, sous la forme d’une valeur numérique et sous forme de chaîne. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndGetTimeFormat.
 ms.assetid: 01844872-5444-4f3b-92a3-64f80b94d3a0
 keywords:
-- Message MCIWNDM_GETTIMEFORMAT Windows Multimedia
+- message MCIWNDM_GETTIMEFORMAT Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a09f969c009ff23bc0951ed2efbc0dbf7aa95dda
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3badb7c7722db6444d3bd928535790876e0a128e69e50323cea3fe39c2dd987a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117985907"
 ---
 # <a name="mciwndm_gettimeformat-message"></a>\_Message MCIWNDM GETTIMEFORMAT
 
@@ -56,7 +56,7 @@ Pointeur vers une mémoire tampon destinée à contenir la forme de chaîne term
 
 Retourne un entier correspondant à la constante MCI définissant le format d’heure.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la chaîne de format d’heure est plus longue que la mémoire tampon de retour, MCIWnd tronque la chaîne.
 

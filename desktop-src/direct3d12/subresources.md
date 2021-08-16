@@ -5,12 +5,12 @@ ms.assetid: C4F92F8A-DBF0-412B-8707-CC4C1BF2D88F
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e8fa8ea0d48fea7ee8e192d9dcf1fe5e3d22423
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: b2fc4478e71bbafb8a21897f838ee8091592024a4e3c761280911e395f8ae491
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104548552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117911970"
 ---
 # <a name="subresources-direct3d-12-graphics"></a>Sous-ressources (Direct3D 12 Graphics)
 

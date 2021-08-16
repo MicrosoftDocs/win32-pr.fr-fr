@@ -4,12 +4,12 @@ ms.assetid: 7483BCE4-3B85-4659-98E3-670D2F7EE52D
 title: Utilisation de l’API de compression en mode bloc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ddd1ecaec03d332262ffb24462e73a9fcb789d2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b4b739c1496b43f64f8ceab4312602e9b98f7faebbb29317998a93e8f27b6883
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737454"
 ---
 # <a name="using-the-compression-api-in-block-mode"></a>Utilisation de l’API de compression en mode bloc
 
@@ -21,7 +21,7 @@ Le mode mémoire tampon est recommandé dans la plupart des cas, car il fraction
 
 Les applications qui utilisent le mode mémoire tampon ou bloc ont la possibilité de spécifier une routine d’allocation de mémoire personnalisée dans son appel à [**CreateCompressor**](/windows/desktop/api/compressapi/nf-compressapi-createcompressor) ou [**CreateDecompressor**](/windows/desktop/api/compressapi/nf-compressapi-createdecompressor).
 
-**Windows 8 et Windows Server 2012 :** Pour utiliser l’exemple de code suivant, vous devez exécuter Windows 8 ou Windows Server 2012 et disposer de « compressapi. h » et de « cabinet.dll » et d’un lien vers le fichier « cabinet. lib ».
+**Windows 8 et Windows Server 2012 :** pour utiliser l’exemple de code suivant, vous devez exécuter Windows 8 ou Windows Server 2012 et disposer de « compressapi. h » et de « cabinet.dll » et d’un lien vers le fichier « Cabinet. lib ».
 
 L’exemple suivant illustre l’utilisation de l’API de compression en mode bloc pour compresser un fichier à l’aide de l’algorithme de compression LZMS et d’une routine d’allocation de mémoire personnalisée. Votre application doit inclure l’indicateur de compression **\_ brut** pour utiliser l’API de compression en mode bloc. Tout d’abord, l’application appelle [**CreateCompressor**](/windows/desktop/api/compressapi/nf-compressapi-createcompressor) avec l' **\_ algorithme compress \_ LZMS** \| **compresser \_ RAW** pour générer le compresseur. Le paramètre *AllocationRoutines* spécifie la routine d’allocation de mémoire. L’application définit ensuite la taille de bloc pour le compresseur à l’aide de [**SetCompressorInformation**](/windows/desktop/api/compressapi/nf-compressapi-setcompressorinformation).
 

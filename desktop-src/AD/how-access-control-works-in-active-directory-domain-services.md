@@ -1,24 +1,24 @@
 ---
 title: Fonctionnement de Access Control dans Active Directory Domain Services
-description: Le contrôle d’accès pour les objets dans Active Directory Domain Services est basé sur les modèles de contrôle d’accès Windows NT et Windows 2000.
+description: le contrôle d’accès pour les objets dans Active Directory Domain Services est basé sur les modèles de contrôle d’accès Windows NT et Windows 2000.
 ms.assetid: 70eed84b-ada0-48e7-b448-704586e9afaa
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services, sécurité, Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2893c068e5a841ed609808964f203211309eaf4f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 0f53cdd7b958313b3cb16bc538addc73b42bd0dc917160176422b85c959c8c05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103940815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188285"
 ---
 # <a name="how-access-control-works-in-active-directory-domain-services"></a>Fonctionnement de Access Control dans Active Directory Domain Services
 
-Le contrôle d’accès pour les objets dans Active Directory Domain Services est basé sur les modèles de contrôle d’accès Windows NT et Windows 2000. Pour plus d’informations et pour obtenir une description détaillée de ce modèle et de ses composants, tels que les descripteurs de sécurité, les jetons d’accès, les SID, les ACL et les ACE, consultez [Access Control modèle](/windows/desktop/SecAuthZ/access-control-model).
+le contrôle d’accès pour les objets dans Active Directory Domain Services est basé sur les modèles de contrôle d’accès Windows NT et Windows 2000. Pour plus d’informations et pour obtenir une description détaillée de ce modèle et de ses composants, tels que les descripteurs de sécurité, les jetons d’accès, les SID, les ACL et les ACE, consultez [Access Control modèle](/windows/desktop/SecAuthZ/access-control-model).
 
-Les privilèges d’accès pour les ressources de Active Directory Domain Services sont généralement accordées via l’utilisation d’une entrée de contrôle d’accès (ACE). Une entrée du contrôle d’accès définit une autorisation d’accès ou d’audit sur un objet pour un utilisateur ou un groupe spécifique. Une liste de contrôle d’accès (ACL) est la collection ordonnée d’entrées de contrôle d’accès définie pour un objet. Un descripteur de sécurité prend en charge les propriétés et les méthodes qui créent et gèrent des ACL. Pour plus d’informations sur les modèles de sécurité, consultez [Security](/windows/desktop/SecAuthZ/access-control) or the *Windows 2000 Server Resource Kit*(en anglais). (Cette ressource n’est peut-être pas disponible dans certaines langues et pays ou régions.)
+Les privilèges d’accès pour les ressources de Active Directory Domain Services sont généralement accordées via l’utilisation d’une entrée de contrôle d’accès (ACE). Une entrée du contrôle d’accès définit une autorisation d’accès ou d’audit sur un objet pour un utilisateur ou un groupe spécifique. Une liste de contrôle d’accès (ACL) est la collection ordonnée d’entrées de contrôle d’accès définie pour un objet. Un descripteur de sécurité prend en charge les propriétés et les méthodes qui créent et gèrent des ACL. pour plus d’informations sur les modèles de sécurité, consultez [sécurité](/windows/desktop/SecAuthZ/access-control) ou le *Kit de ressources du serveur Windows 2000*. (Cette ressource n’est peut-être pas disponible dans certaines langues et pays ou régions.)
 
 Le plan de base du modèle de sécurité est le suivant :
 
@@ -38,8 +38,8 @@ Le tableau suivant répertorie les interfaces ADSI utilisées pour manipuler les
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

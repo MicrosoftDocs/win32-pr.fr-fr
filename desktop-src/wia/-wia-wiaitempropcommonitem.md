@@ -44,12 +44,12 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: d36a390256c6a9d183caa0f9231d2a92035d83da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6cf9c102e5ba9732369604bea21876af66ca525b596736521e92e59e52ddf9e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118207526"
 ---
 # <a name="common-wia-item-property-constants"></a>Constantes de propriété d’élément WIA courantes
 
@@ -156,7 +156,7 @@ La propriété <strong>WIA_IPA_BUFFER_SIZE</strong> contient la quantité minima
 <td style="text-align: left;"><p>Contient le type de compression actuel utilisé. Le minipilote crée et gère cette propriété.</p>
 <p>Une application lit cette propriété pour déterminer le type de compression d’image ou définit cette propriété pour configurer le paramètre de compression.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
-<p>Le tableau suivant contient les constantes qui sont valides avec cette propriété. Le symbole <strong>V</strong> indique que la constante est prise en charge uniquement dans Windows Vista et versions ultérieures. (Disponible uniquement par le biais de l’interface <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> .)</p>
+<p>Le tableau suivant contient les constantes qui sont valides avec cette propriété. le symbole <strong>V</strong> indique que la constante est prise en charge uniquement dans Windows Vista et versions ultérieures. (Disponible uniquement par le biais de l’interface <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> .)</p>
 
 <table>
 <thead>
@@ -228,7 +228,7 @@ La propriété <strong>WIA_IPA_BUFFER_SIZE</strong> contient la quantité minima
 <td style="text-align: left;"><p>Contient le paramètre de type de données actuel pour l’appareil. Le minipilote crée et gère cette propriété.</p>
 <p>Une application lit cette propriété pour déterminer le type de données de l’image. Une application écrit cette propriété pour définir le type de données actuel de l’image à transférer.</p>
 <p>Cette propriété est obligatoire pour tous les éléments WIA 2,0. Il doit être en lecture/écriture pour tous les éléments de l’acquisition WIA 2,0 et lecture uniquement pour les éléments de stockage WIA 2,0.</p>
-<p>Type : <strong>VT_I4</strong>; Accès pour les systèmes d’exploitation antérieurs à Windows Vista : cette propriété est en lecture seule pour les appareils photo et en lecture/écriture pour les scanneurs ; Accès pour Windows Vista et versions ultérieures : cette propriété est en lecture seule pour les éléments WIA_CATEGORY_FOLDER et WIA_CATEGORY_FINISHED_FILE, et en lecture/écriture pour toutes les autres catégories d’éléments WIA 2,0 ; Valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
+<p>Type : <strong>VT_I4</strong>; accès pour les systèmes d’exploitation antérieurs à Windows Vista : cette propriété est en lecture seule pour les appareils photo et en lecture/écriture pour les scanneurs ; accès pour Windows Vista et versions ultérieures : cette propriété est en lecture seule pour les éléments WIA_CATEGORY_FOLDER et WIA_CATEGORY_FINISHED_FILE, et en lecture/écriture pour toutes les autres catégories d’éléments WIA 2,0 ; Valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>Le tableau suivant contient les six constantes qui sont valides avec lorsque <strong>WIA_IPA_FORMAT</strong> n’est pas défini sur WiaImgFmt_RAW.</p>
 
 <table>
@@ -322,7 +322,7 @@ La propriété <strong>WIA_IPA_BUFFER_SIZE</strong> contient la quantité minima
 <td style="text-align: left;"><p>WIA_IPA_DEPTH contient le paramètre de profondeur de bit d’une image. Le minipilote crée et gère cette propriété. Une application lit cette propriété pour déterminer le paramètre de profondeur de bit de l’image. L’application peut également être en mesure de définir cette valeur sur la profondeur de bits souhaitée.</p>
 <p>Si l’appareil peut être défini sur une seule valeur, créez un type de <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> et placez la valeur valide dans celui-ci.</p>
 <p>Cette propriété est obligatoire pour tous les éléments WIA 2,0. Il doit être en lecture/écriture pour tous les éléments de l’acquisition WIA 2,0 et lecture uniquement pour les éléments de stockage WIA 2,0.</p>
-<p>Type : <strong>VT_I4</strong>; Accès pour les systèmes d’exploitation antérieurs à Windows Vista : lecture/écriture ; Accès pour Windows Vista et versions ultérieures : cette propriété est en lecture seule pour les éléments WIA_CATEGORY_FOLDER et WIA_CATEGORY_FINISHED_FILE, et en lecture/écriture pour toutes les autres catégories d’éléments WIA 2,0 ; Valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
+<p>Type : <strong>VT_I4</strong>; accès pour les systèmes d’exploitation antérieurs à Windows Vista : lecture/écriture ; accès pour Windows Vista et versions ultérieures : cette propriété est en lecture seule pour les éléments WIA_CATEGORY_FOLDER et WIA_CATEGORY_FINISHED_FILE, et en lecture/écriture pour toutes les autres catégories d’éléments WIA 2,0 ; Valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>WIA_DEPTH_AUTO est défini comme 0 bits par pixel, et c’est une nouvelle valeur de propriété définie pour le WIA_IPA_DEPTH. Cette valeur est valide pour tous les éléments de source de données d’image programmable, y compris le plateau et le chargeur. Lorsque WIA_DEPTH_AUTO est pris en charge par le mini-pilote WIA, le client d’application WIA peut définir WIA_IPA_DEPTH sur cette valeur, afin d’activer la détection automatique des couleurs au niveau de l’appareil. Lorsque WIA_DEPTH_AUTO est définie, le mini-pilote WIA doit mettre à jour WIA_IPA_DATATYPE sur le même élément à WIA_DATA_AUTO (qui doit être une valeur prise en charge, si l’appareil prend en charge la couleur automatique).</p>
 <p>WIA_DEPTH_AUTO est une valeur facultative, mais elle devient obligatoire lorsque WIA_DATA_AUTO est pris en charge pour WIA_IPA_DATATYPE.</p></td>
 </tr>
@@ -350,7 +350,7 @@ L’extension de nom de fichier n’inclut pas le point.
 <p>Une application lit cette propriété pour déterminer le format de l’image à recevoir. Une application écrit cette propriété pour définir le format. Cette propriété dépend de la propriété <a href="https://msdn.microsoft.com/library/ms795488.aspx">WIA_IPA_TYMED</a> . Le minipilote crée et gère cette propriété.</p>
 <p>Si l’appareil peut être défini sur une seule valeur, créez un <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> type et placez la valeur valide dans celui-ci.</p>
 <p>Type : <strong>CLSID</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
-<p>Le tableau suivant répertorie les constantes qui sont valides avec cette propriété. L’astérisque (*) indique que la constante n’est pas prise en charge dans Windows Vista. (Disponible uniquement par le biais de l’interface <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> .) Le double astérisque * * indique que la constante n’est pas prise en charge dans Windows Server 2003 ou Windows Vista. Le symbole <strong>V</strong> indique que la constante est prise en charge uniquement dans Windows Vista et versions ultérieures. (Disponible uniquement par le biais de l’interface <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> .)</p>
+<p>Le tableau suivant répertorie les constantes qui sont valides avec cette propriété. l’astérisque (*) indique que la constante n’est pas prise en charge dans Windows Vista. (Disponible uniquement par le biais de l’interface <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> .) le double astérisque * * indique que la constante n’est pas prise en charge dans Windows Server 2003 ou Windows Vista. le symbole <strong>V</strong> indique que la constante est prise en charge uniquement dans Windows Vista et versions ultérieures. (Disponible uniquement par le biais de l’interface <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> .)</p>
 
 <table>
 <thead>
@@ -386,7 +386,7 @@ L’extension de nom de fichier n’inclut pas le point.
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_BMP</td>
-<td>Bitmap Windows avec un fichier d’en-tête</td>
+<td>Windows bitmap avec un fichier d’en-tête</td>
 </tr>
 <tr class="even">
 <td>WiaImgFmt_CIFF *</td>
@@ -398,7 +398,7 @@ L’extension de nom de fichier n’inclut pas le point.
 </tr>
 <tr class="even">
 <td>WiaImgFmt_EMF</td>
-<td>Métafichier Windows étendu</td>
+<td>métafichier de Windows étendu</td>
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_EXEC</td>
@@ -422,7 +422,7 @@ L’extension de nom de fichier n’inclut pas le point.
 </tr>
 <tr class="even">
 <td>WiaImgFmt_ICO</td>
-<td>Format de fichier des icônes Windows</td>
+<td>format du fichier d’icône Windows</td>
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_JBIG<strong>V</strong></td>
@@ -442,7 +442,7 @@ L’extension de nom de fichier n’inclut pas le point.
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_MEMORYBMP</td>
-<td>Bitmap Windows sans fichier d’en-tête</td>
+<td>bitmap Windows sans fichier d’en-tête</td>
 </tr>
 <tr class="even">
 <td>WiaImgFmt_PDFA<strong>V</strong></td>
@@ -494,7 +494,7 @@ L’extension de nom de fichier n’inclut pas le point.
 </tr>
 <tr class="even">
 <td>WiaImgFmt_WMF</td>
-<td>Métafichier Windows</td>
+<td>métafichier Windows</td>
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_XML</td>
@@ -531,12 +531,12 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPA_ICM_PROFILE_NAME"></span><span id="wia_ipa_icm_profile_name"></span><dl> <dt><strong>WIA_IPA_ICM_PROFILE_NAME</strong></dt> <dt>PictureIcmProfileName</dt> </dl></td>
-<td style="text-align: left;"><p>Contient le nom du profil ICM requis pour décoder correctement l’image. Une application lit cette propriété pour déterminer le profil ICM à utiliser lors du traitement de l’image. Le service WIA crée et gère cette propriété en fonction de l’entrée ICMProfiles dans le fichier d’installation du pilote.</p>
+<td style="text-align: left;"><p>contient le nom de profil ICM nécessaire pour décoder correctement l’image. une application lit cette propriété pour déterminer le profil ICM à utiliser lors du traitement de l’image. Le service WIA crée et gère cette propriété en fonction de l’entrée ICMProfiles dans le fichier d’installation du pilote.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPA_ITEM_CATEGORY"></span><span id="wia_ipa_item_category"></span><dl> <dt><strong>WIA_IPA_ITEM_CATEGORY</strong></dt> <dt>PictureItemCategory</dt> </dl></td>
-<td style="text-align: left;"><p>Pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
+<td style="text-align: left;"><p>pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
 <p>Les éléments WIA 2,0 sont regroupés en catégories qui définissent la façon dont un <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> doit être traité ou utilisé. Par exemple, si l’élément représente un flux, l’application doit s’attendre à ce qu’il contienne les propriétés du chargeur de documents requis et fonctionne comme un chargeur de documents. Si l’élément représente un fichier fini, une application WIA 2,0 doit la traiter ainsi, en supposant que les données sont statiques et situées sur l’appareil. (Les règles pour chaque élément sont définies dans leurs documents de spécification individuels.)</p>
 <p>Obligatoire pour tous les éléments WIA 2,0.</p>
 <p>Type : <strong>VT_CLSID</strong>, Access : lecture seule, valeurs valides : <a href="-wia-wia2-itemcategoryguids.md"><strong>GUID de catégorie d’élément</strong></a></p></td>
@@ -546,7 +546,7 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 <td style="text-align: left;"><p>Contient les indicateurs descriptifs pour un élément WIA. Les indicateurs d’élément sont les mêmes que ceux du paramètre <em>lObjectFlags</em> de la fonction de l’utilitaire de service <a href="https://msdn.microsoft.com/library/ms794649.aspx">wiasCreateDrvItem</a> . Le service WIA crée et gère cette propriété.</p>
 <p>Une application lit cette propriété pour déterminer les valeurs d’indicateur descriptives de l’élément.</p>
 <p>Type : <strong>VT_I4</strong> accès : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
-<p>Le tableau suivant contient les indicateurs qui sont valides avec cette propriété. Un astérisque * indique que l’indicateur n’est pas pris en charge dans Windows Vista ou version ultérieure. (Disponible uniquement par le biais de l’interface <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> .) Un double astérisque * * indique que l’indicateur n’est pas pris en charge dans Windows Server 2003 ou Windows Vista ou version ultérieure. Le symbole <strong>V</strong> indique que l’indicateur est pris en charge uniquement dans Windows Vista et versions ultérieures. (Disponible uniquement par le biais de l’interface <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> .)</p>
+<p>Le tableau suivant contient les indicateurs qui sont valides avec cette propriété. un astérisque * indique que l’indicateur n’est pas pris en charge dans Windows Vista ou version ultérieure. (Disponible uniquement par le biais de l’interface <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> .) un double astérisque * * indique que l’indicateur n’est pas pris en charge dans Windows Server 2003 ou Windows Vista ou version ultérieure. le symbole <strong>V</strong> indique que l’indicateur est pris en charge uniquement dans Windows Vista et versions ultérieures. (Disponible uniquement par le biais de l’interface <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> .)</p>
 
 <table>
 <thead>
@@ -574,7 +574,7 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 </tr>
 <tr class="odd">
 <td>WiaItemTypeDocument<strong>V</strong></td>
-<td>Cet élément est un fichier de document dans l’un des formats de document que contient la propriété <strong>WIA_IPA_FORMAT</strong> . (Ces formats incluent ceux des fichiers autres que des fichiers. txt,. htm et. doc.)</td>
+<td>Cet élément est un fichier de document dans l’un des formats de document que contient la propriété <strong>WIA_IPA_FORMAT</strong> . (Ces formats incluent ceux des fichiers qui ne sont pas des images, tels que les fichiers .txt, .htm et .doc.)</td>
 </tr>
 <tr class="even">
 <td>WiaItemTypeDevice</td>
@@ -716,7 +716,7 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPA_ITEMS_STORED"></span><span id="wia_ipa_items_stored"></span><dl> <dt><strong>WIA_IPA_ITEMS_STORED</strong></dt> <dt>PictureItemItemsStored</dt> </dl></td>
-<td style="text-align: left;"><p>Pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
+<td style="text-align: left;"><p>pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
 <p>Spécifie le nombre d’éléments stockés dans l’élément WIA_CATEGORY_FOLDER.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
@@ -740,7 +740,7 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPA_PLANAR"></span><span id="wia_ipa_planar"></span><dl> <dt><strong>WIA_IPA_PLANAR</strong></dt> <dt>PicturePlanar</dt> </dl></td>
-<td style="text-align: left;"><p>Cette propriété n’est pas prise en charge dans Windows Vista et les versions ultérieures.</p>
+<td style="text-align: left;"><p>cette propriété n’est pas prise en charge dans Windows Vista et versions ultérieures.</p>
 <p>Contient les options de compression des données d’image. Le minipilote crée et gère cette propriété.</p>
 <p>Une application lit cette propriété pour déterminer les options de compression d’image ou définit les options de compression d’image actuelles.</p>
 <p>Type : <strong>VT_I4</strong>; Accès : lecture/écriture ; Valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a>. Si l’appareil peut être défini sur une seule valeur, créez un type de WIA_PROP_LIST et placez la valeur valide dans celui-ci.</p>
@@ -793,7 +793,7 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 </tr>
 <tr class="even">
 <td>WiaImgFmt_EMF</td>
-<td>Métafichier Windows étendu</td>
+<td>métafichier de Windows étendu</td>
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_EXIF</td>
@@ -809,7 +809,7 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 </tr>
 <tr class="even">
 <td>WiaImgFmt_ICO</td>
-<td>Format de fichier des icônes Windows</td>
+<td>format du fichier d’icône Windows</td>
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_JPEG</td>
@@ -825,7 +825,7 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 </tr>
 <tr class="even">
 <td>WiaImgFmt_MEMORYBMP</td>
-<td>Bitmap Windows sans fichier d’en-tête</td>
+<td>bitmap Windows sans fichier d’en-tête</td>
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_TIFF</td>
@@ -833,7 +833,7 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 </tr>
 <tr class="even">
 <td>WiaImgFmt_WMF</td>
-<td>Métafichier Windows</td>
+<td>métafichier Windows</td>
 </tr>
 </tbody>
 </table>
@@ -842,7 +842,7 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPA_RAW_BITS_PER_CHANNEL"></span><span id="wia_ipa_raw_bits_per_channel"></span><dl> <dt><strong>WIA_IPA_RAW_BITS_PER_CHANNEL</strong></dt> <dt>PictureRawBitsPerChannel</dt> </dl></td>
-<td style="text-align: left;"><p>Pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
+<td style="text-align: left;"><p>pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
 <p>Contient le nombre de bits dans chaque canal. Cette propriété doit être signalée comme un vecteur de valeurs d’octets comme il y a de canaux, où le premier octet correspond au nombre de bits dans le premier canal, le deuxième octet au nombre de bits dans le deuxième canal, et ainsi de suite. Il doit y avoir autant d’entrées qu’il y a de canaux en fonction de WIA_IPA_CHANNELS_PER_PIXEL. Le pilote définit cette propriété lorsque l’application passe à WiaImgFmt_RAW. Pour les sous-types connus, il y a autant d’entrées que celles répertoriées dans le tableau sous WIA_IPA_RAW_SUBTYPE.</p>
 <p>Type : <strong>VT_UI1</strong> | <strong>VT_VECTOR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
@@ -854,9 +854,9 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPA_SUPPRESS_PROPERTY_PAGE"></span><span id="wia_ipa_suppress_property_page"></span><dl> <dt><strong>WIA_IPA_SUPPRESS_PROPERTY_PAGE</strong></dt> <dt>PictureSuppressPropertyPage</dt> </dl></td>
 <td style="text-align: left;"><p>Spécifie s’il faut supprimer les pages de propriétés générales des éléments sur l’appareil.</p>
-<p>Cette propriété est disponible sur Windows XP et versions ultérieures.</p>
+<p>cette propriété est disponible sur Windows XP et versions ultérieures.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
-<p>Le tableau suivant contient les constantes qui sont valides avec cette propriété. L’astérisque (*) indique que la constante n’est pas valide avec Windows Vista et les versions ultérieures. (Disponible uniquement par le biais de l’interface <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> .)</p>
+<p>Le tableau suivant contient les constantes qui sont valides avec cette propriété. l’astérisque (*) indique que la constante n’est pas valide avec Windows Vista et versions ultérieures. (Disponible uniquement par le biais de l’interface <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> .)</p>
 
 <table>
 <thead>
@@ -885,7 +885,7 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 <p>Une application lit cette propriété pour déterminer la méthode de transfert de données du minipilote.</p>
 <p>Obligatoire pour tous les éléments WIA 2,0 avec transfert.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
-<p>Le tableau suivant contient les constantes qui sont valides avec cette propriété. L’astérisque * indique des constantes qui ne sont pas valides avec Windows Vista et les versions ultérieures. (Ils sont uniquement disponibles par le biais de l’interface <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> .)</p>
+<p>Le tableau suivant contient les constantes qui sont valides avec cette propriété. l’astérisque * indique des constantes qui ne sont pas valides avec Windows Vista et versions ultérieures. (Ils sont uniquement disponibles par le biais de l’interface <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> .)</p>
 
 <table>
 <thead>
@@ -918,7 +918,7 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPA_UPLOAD_ITEM_SIZE"></span><span id="wia_ipa_upload_item_size"></span><dl> <dt><strong>WIA_IPA_UPLOAD_ITEM_SIZE</strong></dt> <dt>PictureItemUploadItemSize</dt> </dl></td>
-<td style="text-align: left;"><p>Pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
+<td style="text-align: left;"><p>pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
 <p>Spécifie le nombre d’octets à télécharger pour un élément.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
@@ -933,8 +933,8 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Wiadef. h</dt> </dl> |
 
 
