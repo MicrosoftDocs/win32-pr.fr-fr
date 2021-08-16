@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7ef5c024b4799e40068fcaee78c2fb98e899015
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 892fab42a1b57979ee2d454d9caef86f2b12db4ae2cda9429f6e281d3beef378
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961518"
 ---
 # <a name="frs-ds-poll-attribute"></a>Attribut FRS-DS-Poll
 
@@ -36,7 +36,7 @@ Intervalle d’interrogation du service d’annuaire pour le moteur de réplicat
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.490               |
 | System-ID-GUID    | 1be8f177-a9ff-11d0-afe2-00c04fd930c9 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Intervalle d’interrogation du service d’annuaire pour le moteur de réplicat
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

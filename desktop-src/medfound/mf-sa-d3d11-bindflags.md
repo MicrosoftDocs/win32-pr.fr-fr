@@ -4,12 +4,12 @@ ms.assetid: C3B475B1-9A44-47EA-BCE7-D3D0FB56DDAC
 title: Attribut MF_SA_D3D11_BINDFLAGS (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bb5ae4161a6782a3ea7a69b471044e43c5ee7a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65f0fbc607ccdc8f878e25109fcadfdf8956007d99909d9a21c0e668951106d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102462"
 ---
 # <a name="mf_sa_d3d11_bindflags-attribute"></a>\_ \_ Attribut BINDFLAGS d3d11 MF sa \_
 
@@ -19,7 +19,7 @@ Spécifie les indicateurs de liaison à utiliser lors de l’allocation des surf
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **valeur de cet** attribut est une opération or au niveau du bit des indicateurs d' [**\_ \_ indicateur de liaison d3d11**](/windows/win32/api/d3d11/ne-d3d11-d3d11_bind_flag) .
 
@@ -49,8 +49,8 @@ Cet attribut peut être défini sur l’allocateur d’échantillon vidéo, dans
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

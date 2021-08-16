@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 64cc116199b688fc9dcd8d6fbf331d85da508948
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1edcf2b1cbe2363f805bee1f5eb67f5558702ea9e163a865e1a6c51d6f5ed6ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106537249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118523835"
 ---
 # <a name="d3dxuvatlas-enumeration"></a>Énumération D3DXUVATLAS
 
@@ -48,7 +48,7 @@ Les mailles avec plus de 25 000 visages auront la méthode de distance geodasic 
 
 </dd> <dt>
 
-<span id="D3DXUVATLAS_GEODESIC_FAST"></span><span id="d3dxuvatlas_geodesic_fast"></span>**D3DXUVATLAS \_ géodésique \_ rapidement**
+<span id="D3DXUVATLAS_GEODESIC_FAST"></span><span id="d3dxuvatlas_geodesic_fast"></span>**\_Fast géodésique \_ D3DXUVATLAS**
 </dt> <dd>
 
 Utilise des approximations pour améliorer la vitesse de représentation graphique au détriment d’une augmentation ou de plusieurs graphiques en sortie de la maille.

@@ -3,7 +3,7 @@ title: Application. Commands, propriété
 description: Représente un conteneur pour toutes les commandes qui sont définies par l’application.
 ms.assetid: 160d7d28-2d64-4cbc-b2b9-2da6b2f5b3c8
 keywords:
-- Ruban Windows de la propriété application. Commands
+- propriété Application. commands Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8de2b88b97dda96636a9c5da3ad078f678091d8d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c23d7b30b45a6023c547904adbcaaacb13b8777f9047133cd8d617a1a58c32d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964318"
 ---
 # <a name="applicationcommands-property"></a>Application. Commands, propriété
 
 Représente un conteneur pour toutes les commandes qui sont définies par l’application.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Application.Commands>
@@ -55,9 +55,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque élément d' [**application**](windowsribbon-element-application.md) .
 
@@ -151,8 +151,8 @@ L’exemple suivant montre un élément **application. Commands** qui contient u
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

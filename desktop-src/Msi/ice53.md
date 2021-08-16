@@ -15,7 +15,7 @@ ms.locfileid: "118635130"
 
 ICE53 recherche des entrées dans la table de Registre qui écrivent des informations de stratégie d’installation privées ou des valeurs de stratégie dans le registre système.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE53 publie un avertissement si la table du Registre spécifie l’écriture des informations internes ou de stratégie dans le registre.
 

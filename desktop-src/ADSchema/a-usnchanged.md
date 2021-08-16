@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0c00f30a2ba7ca38f78246cd14b33ea358da6fa
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2b6dba5a70417c06a1ce7a5db72621d36bdc6279c4d4ebc0582e9fb6b8fd9644
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922879"
 ---
 # <a name="usn-changed-attribute"></a>Attribut USN-Changed
 
@@ -46,7 +46,7 @@ Numéro de séquence de mise à jour (USN) affecté par le répertoire local pou
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

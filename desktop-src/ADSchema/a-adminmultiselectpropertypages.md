@@ -56,10 +56,10 @@ Il s’agit d’un attribut à valeurs multiples dont les valeurs sont un nombre
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | False                                                      |
-| Est de valeur unique       | False                                                      |
-| Est indexé             | False                                                      |
-| Dans le catalogue global      | False                                                      |
+| System-Only            | Faux                                                      |
+| Est de valeur unique       | Faux                                                      |
+| Est indexé             | Faux                                                      |
+| Dans le catalogue global      | Faux                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -77,10 +77,10 @@ Il s’agit d’un attribut à valeurs multiples dont les valeurs sont un nombre
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | False                                                      |
-| Est de valeur unique       | False                                                      |
-| Est indexé             | False                                                      |
-| Dans le catalogue global      | False                                                      |
+| System-Only            | Faux                                                      |
+| Est de valeur unique       | Faux                                                      |
+| Est indexé             | Faux                                                      |
+| Dans le catalogue global      | Faux                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -98,10 +98,10 @@ Il s’agit d’un attribut à valeurs multiples dont les valeurs sont un nombre
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | False                                                      |
-| Est de valeur unique       | False                                                      |
-| Est indexé             | False                                                      |
-| Dans le catalogue global      | False                                                      |
+| System-Only            | Faux                                                      |
+| Est de valeur unique       | Faux                                                      |
+| Est indexé             | Faux                                                      |
+| Dans le catalogue global      | Faux                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -119,10 +119,10 @@ Il s’agit d’un attribut à valeurs multiples dont les valeurs sont un nombre
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | False                                                      |
-| Est de valeur unique       | False                                                      |
-| Est indexé             | False                                                      |
-| Dans le catalogue global      | False                                                      |
+| System-Only            | Faux                                                      |
+| Est de valeur unique       | Faux                                                      |
+| Est indexé             | Faux                                                      |
+| Dans le catalogue global      | Faux                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -140,10 +140,10 @@ Il s’agit d’un attribut à valeurs multiples dont les valeurs sont un nombre
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | False                                                      |
-| Est de valeur unique       | False                                                      |
-| Est indexé             | False                                                      |
-| Dans le catalogue global      | False                                                      |
+| System-Only            | Faux                                                      |
+| Est de valeur unique       | Faux                                                      |
+| Est indexé             | Faux                                                      |
+| Dans le catalogue global      | Faux                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |

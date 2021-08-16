@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: b8fb4ce8-d284-4558-82a4-488d4d833bcb
-ms.openlocfilehash: 16f75f562149b50237a6b41bf2023d1f694741e3
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 9e2f514494ae8040c7bdb97f556555bd7f32794e4259300da240956ff6fcfe98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094144"
 ---
 # <a name="fmevent_user_refresh-message"></a>Message d’actualisation de l' \_ utilisateur FMEVENT \_
 
@@ -34,11 +34,11 @@ Envoyé à une DLL d’extension lorsque l’utilisateur choisit la commande **A
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Une DLL d’extension doit retourner zéro si elle traite ce message.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

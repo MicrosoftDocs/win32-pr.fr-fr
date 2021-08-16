@@ -3,22 +3,22 @@ title: Classes et interfaces
 description: Cette section contient des références de classe et d’interface pour l’inertie et les manipulations.
 ms.assetid: 056bcaa2-580a-457c-a0a6-e01a316dc21a
 keywords:
-- Tactile Windows, inertie
-- Tactile Windows, manipulations
-- Windows Touch, classes
-- Tactile Windows, interfaces
+- Windows Toucher, inertie
+- Windows Toucher, manipulations
+- Windows Toucher, classes
+- Windows Tactile, interfaces
 - inertie, classes
 - inertie, interfaces
 - manipulations, classes
 - manipulations, interfaces
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91a6699f1334f46dec1da378b5424a43376d0d50
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 71b641e393a195a0ad536a415513be6f183cdc59724e44aac5cb5213838d25ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086502"
 ---
 # <a name="classes-and-interfaces"></a>Classes et interfaces
 
@@ -31,12 +31,12 @@ Les classes et interfaces suivantes sont utilisées pour l’inertie et les mani
 | Classe/interface                                          | Description                                                                  |
 |----------------------------------------------------------|------------------------------------------------------------------------------|
 | [**\_IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents)    | Gère les événements de manipulation.                                                 |
-| [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor)           | Gère les calculs concernant le mouvement des objets pour Windows Touch.              |
-| [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) | Fournit des fonctionnalités permettant de surveiller et de répondre aux entrées tactiles Windows. |
+| [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor)           | gère les calculs concernant le mouvement des objets pour Windows Touch.              |
+| [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) | fournit les fonctionnalités de surveillance et de réponse à Windows entrée tactile. |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -45,9 +45,9 @@ Les classes et interfaces suivantes sont utilisées pour l’inertie et les mani
 [Inertie et manipulation](inertia-and-manipulation-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

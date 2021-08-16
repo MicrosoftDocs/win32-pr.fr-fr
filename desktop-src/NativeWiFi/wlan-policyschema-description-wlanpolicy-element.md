@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 5bcc38ca0d89430c03cf254892a54b80cb2a2eb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53526f57956ecaca65712b2abffacbba71ad049857b6a0fbddb9502cfdb05ff7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106542896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064769"
 ---
 # <a name="description-wlanpolicy-element"></a>Description (WLANPolicy) (élément)
 
@@ -37,8 +37,8 @@ L’élément **Description** est défini par l’élément [**WLANPolicy**](wla
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

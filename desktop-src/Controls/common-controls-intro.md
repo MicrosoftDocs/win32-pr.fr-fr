@@ -1,19 +1,19 @@
 ---
 title: À propos des contrôles communs
-description: Cette rubrique décrit les contrôles communs, un ensemble de fenêtres implémentées par la bibliothèque de contrôles communs, Comctl32.dll, qui est une DLL incluse dans le système d’exploitation Windows.
+description: cette rubrique décrit les contrôles communs, un ensemble de fenêtres implémentées par la bibliothèque de contrôles communs, Comctl32.dll, qui est une DLL incluse dans le système d’exploitation Windows.
 ms.assetid: c0d3eff4-c5b5-4b59-b980-96e0e4d6a595
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de0e83f5a2d63ada530f3fec15d5ea5803bcabf9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ec57117aa125da853f710ddcc48705eb7400a669ae8555568c8b023ad8a4c8ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698809"
 ---
 # <a name="about-common-controls"></a>À propos des contrôles communs
 
-Cette rubrique décrit les contrôles communs, un ensemble de fenêtres implémentées par la bibliothèque de contrôles communs, Comctl32.dll, qui est une DLL incluse dans le système d’exploitation Windows. Comme les autres fenêtres de contrôle, un contrôle commun est une fenêtre enfant qu’une application utilise conjointement à une autre fenêtre pour permettre l’interaction avec l’utilisateur.
+cette rubrique décrit les contrôles communs, un ensemble de fenêtres implémentées par la bibliothèque de contrôles communs, Comctl32.dll, qui est une DLL incluse dans le système d’exploitation Windows. Comme les autres fenêtres de contrôle, un contrôle commun est une fenêtre enfant qu’une application utilise conjointement à une autre fenêtre pour permettre l’interaction avec l’utilisateur.
 
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -30,12 +30,12 @@ Cette rubrique décrit les contrôles communs, un ensemble de fenêtres impléme
 [Référence de contrôle générale](common-control-reference.md)
 </dt> <dt>
 
-[Contrôles Windows](window-controls.md)
+[Windows Commandes](window-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

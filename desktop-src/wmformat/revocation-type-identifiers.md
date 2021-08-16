@@ -10,12 +10,12 @@ keywords:
 - API étendues clientes, identificateurs de type de révocation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d64790eaa58df2cde3cd09abaeb1c2eb7dd03a3e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 379a9d8dcdfb05357825dc7fb094e865a17f5158c046756ad852ffa8c8f16e3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084476"
 ---
 # <a name="revocation-type-identifiers"></a>Identificateurs de type de révocation
 
@@ -27,14 +27,14 @@ Les constantes énumérées dans le tableau suivant définissent des valeurs GUI
 |----------------------------------|-----------------------------------------------------------------------------------------------------|
 | \_application de type de révocation WMDRM \_ \_     | Identifie les informations de révocation relatives aux certificats d’application.                           |
 | \_périphérique de type de révocation WMDRM \_ \_  | Identifie les informations de révocation relatives aux certificats d’appareil.                                |
-| \_type de révocation WMDRM \_ \_ CARDEA  | Identifie les informations de révocation relatives à Windows Media DRM pour les certificats de périphériques réseau. |
+| \_type de révocation WMDRM \_ \_ CARDEA  | identifie les informations de révocation relatives à Windows DRM Media pour les certificats de périphériques réseau. |
 | \_type de révocation WMDRM \_ \_ REVINFO | Non documenté dans cette version.                                                                     |
 | \_type de révocation WMDRM \_ \_ GRL     | Non documenté dans cette version.                                                                     |
 | \_type de révocation WMDRM \_ \_ HDCP    | Non documenté dans cette version.                                                                     |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -43,9 +43,9 @@ Les constantes énumérées dans le tableau suivant définissent des valeurs GUI
 [**Constantes**](constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: bcdec0f4-82af-4a82-8912-a7e658e77244
 title: System. Trademarks
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86c354c4e4fb958cc2631101d8b82332efe65388
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6410532d09296898e7863a405270ca50bcb9f5cc29cba1714173f617e152e8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095436"
 ---
 # <a name="systemtrademarks"></a>System. Trademarks
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

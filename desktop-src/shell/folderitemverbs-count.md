@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 5545ea64da914188226fbdabf7cc6301baa695af
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 985ab6eb9508d57a7dd38616108bb0fdb58e7244623d90db435ca0a7022a570c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090589"
 ---
 # <a name="folderitemverbscount-property"></a>FolderItemVerbs. Count (propriété)
 
@@ -41,9 +41,9 @@ iCount = FolderItemVerbs.Count
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **Count** pour récupérer le nombre de verbes disponibles pour le dossier du panneau de configuration. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant utilise **Count** pour récupérer le nombre de verbes disponibles pour le dossier du panneau de configuration. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -148,7 +148,7 @@ End Sub
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

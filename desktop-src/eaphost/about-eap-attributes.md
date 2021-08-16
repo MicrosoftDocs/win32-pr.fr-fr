@@ -4,12 +4,12 @@ description: Est une \_ structure dâ€™attribut EAP qui contient un type de donnÃ
 ms.assetid: 3c54cca2-cd3b-4149-bb0e-036d490cdd3b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5348ee300c0e4d07d6aaf110ba9074b1ac32c02a
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: 77898ccde0bbaf9660a7e4c3948cce9ec17d9e4f7773b0900333e7152520c013
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "106512348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117749"
 ---
 # <a name="eap-attributes"></a>Attributs EAP
 

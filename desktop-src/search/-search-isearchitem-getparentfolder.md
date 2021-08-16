@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 4209b319e066d5481c669bcca021684f87532a3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5e5aded87ca197af8774a7b5506e21c958dc564eb0af67396e100877ac53e10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094909"
 ---
 # <a name="isearchitemgetparentfolder-method"></a>ISearchItem :: GetParentFolder, méthode
 
@@ -51,9 +51,9 @@ Au retour, contient l’adresse d’un pointeur vers le dossier qui contient l�
 *LPITEMIDLIST* \[ à\]
 </dt> <dd>
 
-Tapez : **ppidl \** _
+Type : **ppidl \***
 
-Au retour, contient l’adresse d’un pointeur vers une liste d’identificateurs d’éléments (PIDL) qui identifie le dossier parent. Le paramètre _LPITEMIDLIST * peut faire référence à un objet à n’importe quel niveau sous le dossier parent dans la hiérarchie d’espaces de noms, et peut donc être un pointeur à plusieurs niveaux vers un **PIDL** relatif au dossier parent.
+Au retour, contient l’adresse d’un pointeur vers une liste d’identificateurs d’éléments (PIDL) qui identifie le dossier parent. Le paramètre *LPITEMIDLIST* peut faire référence à un objet à n’importe quel niveau sous le dossier parent dans la hiérarchie d’espaces de noms et peut donc être un pointeur à plusieurs niveaux vers un **PIDL** relatif au dossier parent.
 
 </dd> </dl>
 
@@ -63,11 +63,11 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La méthode **ISearchItem :: GetParentFolder** est prise en charge uniquement sur Windows XP et windows Server 2003 et ne doit plus être utilisée.
+la méthode **ISearchItem :: GetParentFolder** est prise en charge uniquement sur Windows XP et Windows Server 2003 et ne doit plus être utilisée.
 
-Pour afficher un aperçu des pièces jointes avec un gestionnaire de protocole tiers sur les ordinateurs exécutant Windows XP ou Windows Server 2003, il peut être nécessaire d’utiliser l’interface [**ISearchItem**](-search-isearchitem.md) et les API suivantes : les interfaces [**IItemPreviewerExt**](-search-iitempreviewerext.md), [**IItemPropertyBag**](iitempropertybag.md)et [**ISearchProtocolUI**](-search-isearchprotocolui.md) , la structure [**LINKINFO**](-search-linkinfo.md) et l’énumération [**LinkType**](-search-linktype.md) .
+pour prévisualiser les pièces jointes avec un gestionnaire de protocole tiers sur des ordinateurs exécutant Windows XP ou Windows Server 2003, il peut être nécessaire d’utiliser l’interface [**ISearchItem**](-search-isearchitem.md) et les api suivantes : les interfaces [**IItemPreviewerExt**](-search-iitempreviewerext.md), [**IItemPropertyBag**](iitempropertybag.md)et [**ISearchProtocolUI**](-search-isearchprotocolui.md) , la structure [**LINKINFO**](-search-linkinfo.md) et l’énumération [**LINKTYPE**](-search-linktype.md) .
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -76,7 +76,7 @@ Pour afficher un aperçu des pièces jointes avec un gestionnaire de protocole t
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 | Composant redistribuable<br/>          | Windows Desktop Search (WDS) 3,0<br/>          |
 
 

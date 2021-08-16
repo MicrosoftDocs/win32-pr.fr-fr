@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb29e8f845e99f6d3c988dfd0c0201de129bee69
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 427bd338e416843418fa7551d4e1632dccaf268426ca2a910e164aeae50663dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104519153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119492669"
 ---
 # <a name="gllogicop-function"></a>glLogicOp fonction)
 
@@ -40,7 +40,7 @@ void WINAPI glLogicOp(
 
 <dl> <dt>
 
-*OpCode* 
+*opcode* 
 </dt> <dd>
 
 Constante symbolique qui sélectionne une opération logique. Les symboles suivants sont acceptés où s est égal à la valeur du bit source et d correspond à la valeur du bit de destination.
@@ -89,7 +89,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glLogicOp** spécifie une opération logique qui, lorsqu’elle est activée, est appliquée entre l’index de couleur entrant et l’index de couleur à l’emplacement correspondant dans le trame. L’opération logique est activée ou désactivée avec [**glEnable**](glenable.md) et **glDisable** à l’aide de la constante symbolique GL \_ Logic \_ op.
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 14753500ac15fb0ed30d46b1121431af78e1fe93
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 55df5e579b724a26e30223a0a0df7ffa815bda5a64b6f7d7e7e2c2c7f02f2fc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118804575"
 ---
 # <a name="d3dxcreateeffectpool-function"></a>D3DXCreateEffectPool fonction)
 
@@ -59,7 +59,7 @@ Si les arguments ne sont pas valides, la méthode retourne D3DERR \_ INVALIDCALL
 
 Si la méthode échoue, la valeur de retour est E \_ Fail.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour les effets au sein d’un pool, les paramètres partagés portant le même nom partagent des valeurs.
 

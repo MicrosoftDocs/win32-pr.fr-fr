@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 8b3de7192a9a26d367fc0b6ad231fbc046514ec6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8d6268857387d4caf4b024eb6dd308ac11349fe839173d307a311bf63ef84b56
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119385559"
 ---
 # <a name="rtlutf8tounicoden-function"></a>RtlUTF8ToUnicodeN fonction)
 
@@ -96,7 +96,7 @@ Taille, en octets, de la chaîne sur *UTF8StringSource*.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Bien que *UnicodeStringActualByteCount* soit facultatif et peut avoir la **valeur null**, les appelants doivent fournir un stockage pour celui-ci, car la longueur reçue peut être utilisée pour déterminer si la conversion a réussi.
 
@@ -114,8 +114,8 @@ Les appelants de **RtlUTF8ToUnicodeN** doivent être exécutés au niveau IRQL <
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                              |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>WDM. h</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl> |
 

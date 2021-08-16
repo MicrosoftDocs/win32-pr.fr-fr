@@ -3,7 +3,7 @@ title: Message EM_SETSCROLLPOS (RichEdit. h)
 description: Fait défiler le contenu d’un contrôle Rich Edit jusqu’au point spécifié.
 ms.assetid: 9ec514a4-97b1-44ab-b2ca-973b1f6fc404
 keywords:
-- EM_SETSCROLLPOS les contrôles de message Windows
+- EM_SETSCROLLPOS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec41ac5255059b8d40f3a4c2e9b666815b9094fc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4d1d86609c1b3f4b04ade24e5ea2f3343c367bbad0a52b8e07be7c18b2282536
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412334"
 ---
 # <a name="em_setscrollpos-message"></a>\_Message SETSCROLLPOS em
 
@@ -55,8 +55,8 @@ Ce message retourne toujours la valeur 1.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | Composant redistribuable<br/>          | Édition enrichie 3,0<br/>                                                              |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 

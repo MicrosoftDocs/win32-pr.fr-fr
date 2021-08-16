@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: face82230b9dd3bf6cbde18aaee8dd857e17d0a3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 100dd614978260824fa14cefc22e1bf7fdd5d11e474e4f58124685fc8d8f2eac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963568"
 ---
 # <a name="iportabledevicevaluessetiportabledevicekeycollectionvalue-method"></a>IPortableDeviceValues :: SetIPortableDeviceKeyCollectionValue, méthode
 
@@ -57,7 +57,7 @@ Pointeur vers une interface **IPortableDeviceKeyCollection** qui spécifie la no
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -69,7 +69,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si une valeur existante a la même clé que celle spécifiée par le paramètre de *clé* , elle remplace la valeur existante sans avertissement. La mémoire clé existante est libérée de manière appropriée.
 

@@ -4,12 +4,12 @@ ms.assetid: 0d13caba-a280-4b14-9c7a-240bd44c24d2
 title: System. Devices. dnssd. FullName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c34481e48b7a692effd5cbad37801dcfffebe02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c59e978002b7638a1610c2373a719bee6c6b18fed4cfd8fa9741c75de1a2fbf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097633"
 ---
 # <a name="systemdevicesdnssdfullname"></a>System. Devices. dnssd. FullName
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
