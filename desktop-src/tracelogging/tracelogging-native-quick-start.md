@@ -4,12 +4,12 @@ description: La section suivante décrit les étapes de base requises pour ajout
 ms.assetid: 444DA34B-7949-457D-A3EC-2F0CFBEDD1E2
 ms.topic: article
 ms.date: 02/20/2020
-ms.openlocfilehash: 7be18feb7f372922b7e3b811cd0c9941240e18e3
-ms.sourcegitcommit: 0aa1dd7577961438a1b3172f3a92fb11cbf359f1
+ms.openlocfilehash: cb3734e3f314270e3d8082f5c9d25d38ce065829b94c659023950e5e2709047b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "103940733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966498"
 ---
 # <a name="tracelogging-cc-quick-start"></a>TraceLogging C/C++ Démarrage rapide
 
@@ -19,7 +19,7 @@ La section suivante décrit les étapes de base requises pour ajouter TraceLoggi
 
 -   Windows 10
 -   Microsoft Visual Studio 2013
--   Le kit de développement logiciel (SDK) Windows 10 est requis pour écrire un fournisseur en mode utilisateur
+-   Windows 10 Le kit de développement logiciel (SDK) est requis pour écrire un fournisseur en mode utilisateur
 -   Windows Driver Kit (WDK) pour Windows 10 est requis pour écrire un fournisseur en mode noyau
 
 > [!IMPORTANT]
@@ -40,7 +40,7 @@ TRACELOGGING_DECLARE_PROVIDER( g_hMyComponentProvider );
 
 ```
 
-Le fichier d’en-tête comprend TraceLoggingProvider. h qui définit l’API TraceLogging native. Vous devez d’abord inclure Windows. h, car il définit les constantes utilisées par TraceLoggingProvider. h.
+Le fichier d’en-tête comprend TraceLoggingProvider. h qui définit l’API TraceLogging native. vous devez d’abord inclure Windows. h, car il définit les constantes utilisées par TraceLoggingProvider. h.
 
 Le fichier d’en-tête Forward déclare le descripteur de fournisseur `g_hMyComponentProvider` que vous allez transmettre aux API TraceLogging pour enregistrer les événements. Ce descripteur doit être accessible à tout code qui souhaite utiliser TraceLogging.
 
@@ -135,21 +135,21 @@ Lorsque vous avez terminé la journalisation des événements, vous devez annule
 
 ## <a name="compatibility"></a>Compatibilité
 
-En fonction de sa configuration, TraceLoggingProvider. h peut être à compatibilité descendante (compatible avec Windows Vista ou version ultérieure), ou peut être optimisé pour les versions ultérieures du système d’exploitation. TraceLoggingProvider. h utilise WINVER (mode utilisateur) et NTDDI_VERSION (mode noyau) pour déterminer s’il doit être compatible avec les versions antérieures du système d’exploitation ou être optimisé pour les versions plus récentes du système d’exploitation.
+en fonction de sa configuration, TraceLoggingProvider. h peut être à compatibilité descendante (compatible avec Windows Vista ou version ultérieure), ou peut être optimisé pour les versions ultérieures du système d’exploitation. TraceLoggingProvider. h utilise WINVER (mode utilisateur) et NTDDI_VERSION (mode noyau) pour déterminer s’il doit être compatible avec les versions antérieures du système d’exploitation ou être optimisé pour les versions plus récentes du système d’exploitation.
 
-Pour le mode utilisateur, si vous incluez <Windows. h> avant de définir WINVER, <Windows. h> définit WINVER sur la version du système d’exploitation cible par défaut du kit de développement logiciel (SDK). Si WINVER a la valeur 0x602 ou une version ultérieure, TraceLoggingProvider. h optimise son comportement pour Windows 8 (votre application ne s’exécutera pas sur les versions antérieures de Windows). Si vous avez besoin que votre programme s’exécute sur Vista ou Windows 7, veillez à définir WINVER sur la valeur appropriée avant d’inclure <Windows. h>.
+Pour le mode utilisateur, si vous incluez <Windows. h> avant de définir WINVER, <Windows. h> définit WINVER sur la version du système d’exploitation cible par défaut du kit de développement logiciel (SDK). si WINVER a la valeur 0x602 ou une version ultérieure, TraceLoggingProvider. h optimise son comportement pour Windows 8 (votre application ne s’exécutera pas sur les versions antérieures de Windows). si vous avez besoin que votre programme s’exécute sur Vista ou Windows 7, veillez à définir WINVER sur la valeur appropriée avant d’inclure <Windows. h>.
 
-De même, si vous incluez <WDM. h> avant de définir NTDDI_VERSION, <WDM. h> définit NTDDI_VERSION sur une valeur par défaut. Si NTDDI_VERSION a la valeur 0x06040000 ou une version ultérieure, TraceLoggingProvider. h optimise son comportement pour Windows 10 (votre pilote ne fonctionnera pas sur les versions antérieures de Windows).
+De même, si vous incluez <WDM. h> avant de définir NTDDI_VERSION, <WDM. h> définit NTDDI_VERSION sur une valeur par défaut. si NTDDI_VERSION a la valeur 0x06040000 ou une version ultérieure, TraceLoggingProvider. h optimise son comportement pour Windows 10 (votre pilote ne fonctionnera pas sur les versions antérieures de Windows).
 
 ## <a name="summary-and-next-steps"></a>Résumé et étapes suivantes
 
-Pour savoir comment capturer et afficher des données TraceLogging à l’aide des dernières versions internes des outils de performances Windows (WPT), consultez [enregistrement et affichage des événements TraceLogging](tracelogging-record-and-display-tracelogging-events.md).
+pour savoir comment capturer et afficher des données TraceLogging à l’aide des dernières versions internes des outils de Performance Windows (WPT), consultez [enregistrement et affichage des événements TraceLogging](tracelogging-record-and-display-tracelogging-events.md).
 
 Pour plus d’exemples de TraceLogging C++, consultez [exemples Tracelogging C/c++](tracelogging-c-cpp-tracelogging-examples.md) .
 
- 
+ 
 
- 
+ 
 
 
 

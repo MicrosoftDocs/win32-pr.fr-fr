@@ -6,12 +6,12 @@ keywords:
 - effet de bordure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49fb43ae8b3e9c4eb449a8231f8b4ffcacf7658b
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: 5ce125a96730ee59f63b18cfd1a08abd2432af6f3fdc6b5f06cfc2e9272a7a3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104530412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928991"
 ---
 # <a name="border-effect"></a>Effet de bordure
 
@@ -30,7 +30,7 @@ Les exemples ci-dessous illustrent la sortie de l’effet de bordure à l’aide
 | Avant                                                    |
 |-----------------------------------------------------------|
 | ![Capture d’écran qui affiche l’image avant l’effet.](images/border-before.jpg) |
-| After                                                     |
+| Après                                                     |
 | ![Capture d’écran qui montre l’image après la transformation.](images/10-border.png)   |
 
 
@@ -44,7 +44,7 @@ Les exemples ci-dessous illustrent la sortie de l’effet de bordure à l’aide
 | Avant                                                        |
 |---------------------------------------------------------------|
 | ![Capture d’écran qui montre l’image avant l’effet d’une bride.](images/border-before.jpg)     |
-| After                                                         |
+| Après                                                         |
 | ![Capture d’écran qui montre l’image après la transformation d’une bride.](images/10-border-clamp.png) |
 
 
@@ -58,7 +58,7 @@ Les exemples ci-dessous illustrent la sortie de l’effet de bordure à l’aide
 | Avant                                                       |
 |--------------------------------------------------------------|
 | ![Capture d’écran qui montre l’image avant l’effet d’un retour à la ligne.](images/border-before.jpg)    |
-| After                                                        |
+| Après                                                        |
 | ![Capture d’écran qui montre l’image après la transformation d’un retour à la ligne.](images/10-border-wrap.png) |
 
 
@@ -118,8 +118,8 @@ La taille de la bitmap de sortie est infinie pour toutes les entrées, à l’ex
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

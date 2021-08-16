@@ -3,7 +3,7 @@ title: commande Undo
 description: La commande Annuler annule l’action effectuée par la commande de copie, de suppression, d’annulation ou de collage réussie la plus récente. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: 81d696a9-5288-4efd-bc76-8416dd63e694
 keywords:
-- commande Annuler Windows Multimedia
+- commande annuler Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfc0814dff2c684095299b6820b8dc9a2464aa26
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ec088f893b221a80cb3fe84c191a52874a8c29f5163ad3bcdaa8e68a9a4d4d2e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804729"
 ---
 # <a name="undo-command"></a>commande Undo
 

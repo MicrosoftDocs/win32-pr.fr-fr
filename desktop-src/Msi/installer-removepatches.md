@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 2130ae2958f03eb16b5145e5eb61e42f869ad775
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bfa316b4ff01f6e5667b3fb2c5fce2333c4b4aaf34dc5a1dbb37feb61d1a9ce4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894029"
 ---
 # <a name="installerremovepatches-method"></a>Installer. RemovePatches, méthode
 
@@ -74,7 +74,7 @@ Chaîne qui spécifie les paires propriété = valeur à inclure. Ce paramètre 
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Consultez [désinstallation des correctifs](uninstalling-patches.md) pour obtenir un exemple qui montre comment une application peut supprimer un correctif de tous les produits disponibles pour l’utilisateur.
 
@@ -103,7 +103,7 @@ Consultez [désinstallation des correctifs](uninstalling-patches.md) pour obteni
 [Désinstallation des correctifs](uninstalling-patches.md)
 </dt> <dt>
 
-[Non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
+[non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

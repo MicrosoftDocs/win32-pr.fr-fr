@@ -4,16 +4,16 @@ ms.assetid: 8c5e4652-1a40-4d7d-aa89-606e979dc03d
 title: 'ITStreamQualityControl :: GetRange, méthode (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bea8b20c2617eb0fe54ccc4603997464fca25f48
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e13d07b848ef3be744f40ec1ba4bb4a73514f88204fa1918db661e00d36019ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774469"
 ---
 # <a name="itstreamqualitycontrolgetrange-method"></a>ITStreamQualityControl :: GetRange, méthode
 
-\[ Cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **GetRange** obtient la plage de valeurs valides pour une [**propriété de qualité de flux**](streamqualityproperty.md)donnée.
 

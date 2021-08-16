@@ -3,7 +3,7 @@ title: Attribut DRMKeyID
 description: L’attribut DRMKeyID identifie les droits d’utilisation de média pour le contenu protégé à l’aide de la gestion des droits numériques (DRM).
 ms.assetid: 37d2ddf9-9b87-42fd-84c0-0bd2a256056a
 keywords:
-- Attribut DRMKeyID lecteur Windows Media
+- Lecteur Windows Media de l’attribut DRMKeyID
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9a2427e41c7d9f4bdec61d3c351d6921d445650
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 077402cc8d0b15de598f7a731bd2f4e3bf0c9cd9d6765d6480a5e2fad0297bf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863389"
 ---
 # <a name="drmkeyid-attribute"></a>Attribut DRMKeyID
 
@@ -28,7 +28,7 @@ L’attribut **DRMKeyID** identifie les droits d’utilisation de média pour le
 -   [Éléments audio](audio-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En général, cet attribut est utilisé pour interroger et afficher les droits d’utilisation de média.
 

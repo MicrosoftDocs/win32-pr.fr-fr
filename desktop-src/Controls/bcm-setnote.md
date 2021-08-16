@@ -3,7 +3,7 @@ title: Message BCM_SETNOTE (commctrl. h)
 description: Définit le texte de la note associée à un bouton de lien de commande. Vous pouvez envoyer ce message de manière explicite ou utiliser le bouton \_ SetNote macro.
 ms.assetid: c167072a-8207-4744-ac66-247141d726ab
 keywords:
-- BCM_SETNOTE les contrôles de message Windows
+- BCM_SETNOTE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f544a7fb9dd89346cc2aa9725d36122746a8f608
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 82f0f049c1ad8a9837695a1f5d7327883e1dabfb7dd077bd6efce78fa6a0a708
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921549"
 ---
 # <a name="bcm_setnote-message"></a>\_Message SETNOTE BCM
 
@@ -47,7 +47,7 @@ Pointeur vers une chaîne **WCHAR** se terminant par un caractère null qui cont
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 À partir de la version 6,01 de ComCtl32, les boutons de lien de commande peuvent avoir une note.
 
@@ -59,8 +59,8 @@ Le **message \_ SETNOTE BCM** fonctionne uniquement avec les styles de bouton [*
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

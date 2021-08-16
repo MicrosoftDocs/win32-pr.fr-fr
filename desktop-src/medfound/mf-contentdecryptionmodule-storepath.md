@@ -3,12 +3,12 @@ description: Spécifie un chemin de fichier représentant un emplacement de stoc
 title: MF_CONTENTDECRYPTIONMODULE_STOREPATH (mfcontentdecryptionmodule.h)
 ms.topic: reference
 ms.date: 01/31/2020
-ms.openlocfilehash: 8f5ae27fc8ebbdbf0d9e529f1905631b462ff959
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8126bfea15f9946bb9950293a6c39c101f9c37c8870176fb4bb0108aa5862bb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723459"
 ---
 # <a name="mf_contentdecryptionmodule_storepath-property"></a>MF \_ CONTENTDECRYPTIONMODULE \_ STOREPATH, propriété
 
@@ -27,7 +27,7 @@ Spécifie un chemin de fichier représentant un emplacement de stockage que le m
 
 Chemin de fichier représentant un emplacement de stockage que le module de déchiffrement de contenu (CDM) peut utiliser pour l’initialisation.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le chemin d’accès spécifié avec cette propriété sera également utilisé pour les données spécifiques au contenu si la propriété [MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH](mf-contentdecryptionmodule-inprivatestorepath.md) n’est pas définie.
 
@@ -43,7 +43,7 @@ Définissez cette propriété lorsque vous créez un CDM en appelant [IMFContent
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Mise à jour 2020 de Windows 10 avril<br/>                                     |
+| Client minimal pris en charge<br/> | Windows 10 Mise à jour d’avril 2020<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>mfcontentdecryptionmodule. h</dt> </dl> |
 
 

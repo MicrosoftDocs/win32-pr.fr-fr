@@ -3,19 +3,19 @@ title: Source de l’image Push
 description: Source de l’image Push
 ms.assetid: 6cc290d8-2c15-4789-970d-9a3663a64d08
 keywords:
-- Apparences mobiles du lecteur Windows Media, source de l’image du bouton
+- Lecteur Windows Media Skins mobiles, source d’image de bouton
 - apparences, source de l’image du bouton
 - informations de référence sur les apparences, les boutons
 - boutons dans les apparences, source d’image
 - source d’image pour les apparences, boutons
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 021c77a305e0f6981823c8a1e471862554c32e08
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0b336f19900b53a4ae9fff39ce76af9fe52daac4de9e94fb09dcf7b0561f1dde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861839"
 ---
 # <a name="pushed-image-source"></a>Source de l’image Push
 
@@ -50,9 +50,9 @@ Si vous procédez ainsi, aucun de vos boutons ne peut afficher une image faisant
 [**Boutons**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

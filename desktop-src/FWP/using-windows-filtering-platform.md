@@ -1,19 +1,19 @@
 ---
-title: Utilisation de la plateforme de filtrage Windows
-description: Les exemples de code suivants montrent les opérations de base de la plateforme de filtrage Windows (WFP).
+title: utilisation de la plateforme de filtrage Windows
+description: les exemples de code suivants illustrent les opérations de base de la plateforme de filtrage Windows (WFP).
 ms.assetid: 39a757cb-bf82-4435-9854-7fa124d4040f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc724d85b563e6a2197118254d78fa78a258c939
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: f033f38dd7caa69f2cd268a5a79c0a6f644f27a16ee8a9c9ba63f12ecb6475be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "106518042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083229"
 ---
-# <a name="using-windows-filtering-platform"></a>Utilisation de la plateforme de filtrage Windows
+# <a name="using-windows-filtering-platform"></a>utilisation de la plateforme de filtrage Windows
 
-Les exemples de code suivants montrent les opérations de base de la plateforme de filtrage Windows (WFP).
+les exemples de code suivants illustrent les opérations de base de la plateforme de filtrage Windows (WFP).
 
 ## <a name="getting-started"></a>Mise en route
 
@@ -52,7 +52,7 @@ Comment filtrer le trafic réseau en toute sécurité.
 Comment configurer la sécurité du protocole Internet (IPsec).
 
 -   [Utilisation du mode de transport](using-transport-mode.md)
--   [Utilisation du mode de tunnel](using-tunnel-mode.md)
+-   [utilisation du Mode Tunnel](using-tunnel-mode.md)
 -   [Génération manuelle de la clé SA](manual-sa-keying.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
@@ -68,6 +68,6 @@ Comment configurer la sécurité du protocole Internet (IPsec).
 [Forum de discussion sur WFP](https://social.msdn.microsoft.com/forums/wfp/threads/)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

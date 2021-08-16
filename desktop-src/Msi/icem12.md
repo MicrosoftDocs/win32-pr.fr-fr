@@ -17,7 +17,7 @@ ICEM12 vérifie que dans une table ModuleSequence, les actions standard ont des 
 
 ce ICEM est disponible dans le fichier Mergemod. cub fourni dans le kit de développement logiciel (SDK) Windows Installer 2,0 et versions ultérieures. pour plus d’informations, consultez [SDK Windows components for Windows Installer developers](platform-sdk-components-for-windows-installer-developers.md).
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICEM12 publie une erreur dans les cas suivants :
 

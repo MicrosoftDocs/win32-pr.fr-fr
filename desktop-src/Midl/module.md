@@ -141,7 +141,7 @@ module somemodule
 [**propputref**](propputref.md)
 </dt> <dt>
 
-[**string**](string.md)
+[**chaîne**](string.md)
 </dt> <dt>
 
 [**TYPEFLAGS**](/windows/win32/api/oaidl/ne-oaidl-typeflags)

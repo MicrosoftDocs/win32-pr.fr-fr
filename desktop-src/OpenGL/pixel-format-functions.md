@@ -1,25 +1,25 @@
 ---
 title: Fonctions de format de pixel
-description: Les fonctions Windows suivantes gèrent les formats de pixel.
+description: les fonctions de Windows suivantes gèrent les formats de pixel.
 ms.assetid: 78a6be75-72f6-4aef-a6bc-5f052c6fe2e9
 keywords:
 - Fonctions WGL, format de pixel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39e219fc6a2aafecdcda43708cdb4c77553c88f9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 46c4b82a2b6cd91dd007cecf78065fa0c01204ecf468017ec7e121bd764c9ff2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119486329"
 ---
 # <a name="pixel-format-functions"></a>Fonctions de format de pixel
 
-Les fonctions Windows suivantes gèrent les formats de pixel.
+les fonctions de Windows suivantes gèrent les formats de pixel.
 
 
 
-| Fonction Windows                                               | Description                                                                                                                                                           |
+| Windows Fonctionnalités                                               | Description                                                                                                                                                           |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ChoosePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat)                 | Obtient le format de pixel du contexte de périphérique qui correspond le plus à un format de pixel spécifié.                                                                      |
 | [**SetPixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-setpixelformat)                       | Définit le format de pixel actuel d’un contexte de périphérique au format de pixel spécifié par un index de format de pixel.                                                                   |
@@ -29,7 +29,7 @@ Les fonctions Windows suivantes gèrent les formats de pixel.
 
 
 
- 
+ 
 
 La fonction [**ChoosePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat) retourne un index de format de pixel de base 1 qui identifie la meilleure correspondance à partir des formats de pixel pris en charge du contexte de périphérique.
 
@@ -49,9 +49,9 @@ La fonction [**DescribePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-desc
 
 La fonction **GetEnhMetaFilePixelFormat** retourne la taille du format de pixel d’un métafichier et récupère les informations de format de pixel du métafichier.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: La mise à jour sur place est généralement plus efficace que la m
 ms.assetid: d4b0b14e-957a-43d5-bacc-8eee4512e2ab
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77d76d2af5d60172b890eefa1041a08d47a5221b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5dfcfdc7abd355cd70bb1295af6ce8b4fb4749dfed6c55af4d1fd06ca8257170
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073699"
 ---
 # <a name="updating-routes-in-place-using-rtmupdateandunlockroute"></a>Mise à jour des itinéraires sur place à l’aide de RtmUpdateAndUnlockRoute
 
@@ -17,9 +17,9 @@ La mise à jour sur place est généralement plus efficace que la mise à jour d
 
 Pour obtenir un exemple de code qui montre comment utiliser ces fonctions, consultez [mettre à jour un itinéraire sur place à l’aide de RtmUpdateAndUnlockRoute](update-a-route-in-place-using-rtmupdateandunlockroute.md).
 
- 
+ 
 
- 
+ 
 
 
 

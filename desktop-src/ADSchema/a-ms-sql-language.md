@@ -1,11 +1,11 @@
 ---
-title: MS-SQL-attribut de langage
+title: attribut de langage MS-SQL
 description: Langue de l’instance actuelle de SQL Server.
 ms.assetid: 70ab1e8f-aff0-4a1e-ab2c-676a77b0c229
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut de langage MS-SQL
-- Schéma AD de l’attribut de langage mS-SQL
+- schéma AD d’attribut de langage MS-SQL
+- schéma AD d’attribut de langage mS-SQL
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fd9a4fb6ede4e656b7cebbfe7c5c920e19d9123
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: badc9f8a59df2727bcff304044666f2f6751dbcd7797d3178813a1dd5f289319
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705448"
 ---
-# <a name="ms-sql-language-attribute"></a>MS-SQL-attribut de langage
+# <a name="ms-sql-language-attribute"></a>attribut de langage MS-SQL
 
 Langue de l’instance actuelle de SQL Server.
 
@@ -29,8 +29,8 @@ Langue de l’instance actuelle de SQL Server.
 
 | Entrée | Valeur |
 |-------------------|---------------------------------------------|
-| CN                | Langage MS-SQL                             |
-| LDAP-Display-Name | Langage mS-SQL                             |
+| CN                | MS-SQL-langage                             |
+| LDAP-Display-Name | mS-SQL-langage                             |
 | Taille              | \-                                          |
 | Mettre à jour le privilège  | Administrateur de domaine                        |
 | Fréquence des mises à jour  | Dans le programme d’installation du système.                            |
@@ -45,7 +45,7 @@ Langue de l’instance actuelle de SQL Server.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

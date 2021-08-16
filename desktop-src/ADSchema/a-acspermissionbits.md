@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a27370178dd46fd50df44b1226686db5a70a846
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 332d27bb6a3be07f79a5a1c0bbefc4b5e8a6f94b88cba512f0c928995dc752a0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929759"
 ---
 # <a name="acs-permission-bits-attribute"></a>ACS-attribut de bits d’autorisation
 
@@ -45,7 +45,7 @@ Autorise l’origine du transit de multidiffusion pour un utilisateur donné.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -4,12 +4,12 @@ ms.assetid: fe47eed7-89d1-488b-b945-9e1aedc1f63c
 title: Message PHONE_BUTTON (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2da810630a937f8415e070373f359dca06a694e6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aec64f754725e5926a8cab1d98b25e4cb379a444bf4208d6e8f3e976dafee82f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072999"
 ---
 # <a name="phone_button-message"></a>\_Message du bouton téléphone
 
@@ -65,7 +65,7 @@ Spécifie s’il s’agit d’un événement de bouton ou de bouton. Ce paramèt
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un message de **\_ bouton téléphone** est envoyé chaque fois qu’un bouton change d’État. Une application garantit que pour chaque événement de clic de bouton, il reçoit finalement un événement de rebours de bouton correspondant. Un fournisseur de services qui ne peut pas détecter le bouton vers le haut est requis pour générer le message de bouton vers le haut peu après le bouton enfoncé pour chaque pression sur le bouton.
 

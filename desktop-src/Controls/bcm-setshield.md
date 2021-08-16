@@ -3,7 +3,7 @@ title: Message BCM_SETSHIELD (commctrl. h)
 description: Définit l’état d’élévation requis pour un bouton ou un lien de commande spécifié pour afficher une icône avec élévation de privilèges. Envoyez ce message explicitement ou à l’aide de la \_ macro Button SetElevationRequiredState.
 ms.assetid: 2ce2a006-7136-415b-824b-46b282b100f4
 keywords:
-- BCM_SETSHIELD les contrôles de message Windows
+- BCM_SETSHIELD les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2149e2945f2876309459c287961b7b0a4a1f9acf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 67ab7ab495e713d9f2c8d58c6723489f0099a7c2cba9df93d4f08870d521a0cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921489"
 ---
 # <a name="bcm_setshield-message"></a>\_Message SETSHIELD BCM
 
@@ -47,7 +47,7 @@ Valeur **booléenne** qui est **true** pour dessiner une icône avec élévation
 
 Retourne 1 en cas de réussite, ou un code d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application doit être manifestée pour utiliser comctl32.dll version 6 pour obtenir cette fonctionnalité.
 
@@ -57,8 +57,8 @@ Une application doit être manifestée pour utiliser comctl32.dll version 6 pour
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

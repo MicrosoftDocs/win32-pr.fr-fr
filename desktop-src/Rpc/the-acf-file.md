@@ -4,12 +4,12 @@ description: Le fichier ACF vous permet de personnaliser l’interface RPC de vo
 ms.assetid: 7d3fef5c-b645-4e10-b08d-b339025718b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9e803201004cd73a4be507aaba2affd20f1ea3d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d234b30c25870dd7a21cb790cc4839236ab69093291285b64c870cf7c05cb11f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080839"
 ---
 # <a name="the-acf-file"></a>Fichier ACF
 
@@ -29,6 +29,6 @@ interface hello
 
 Le compilateur MIDL a une option, [**/app \_ config**](/windows/desktop/Midl/-app-config), qui vous permet d’inclure certains attributs ACF, tels **que \_ descripteur implicite**, dans le fichier IDL, plutôt que de créer un fichier ACF distinct. Envisagez d’utiliser cette option si votre application n’a pas besoin de nombreuses configurations spéciales et si la compatibilité OSF stricte n’est pas un problème.
 
- 
+ 
 
- 
+ 

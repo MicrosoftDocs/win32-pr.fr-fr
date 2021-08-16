@@ -6,12 +6,12 @@ keywords:
 - IDL MIDL, attributs, appel de fonction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4d53407abf464d7b201c49d9cb2b1d3f3625b9d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4a3800b62bb6b94aac330ecf0b06761d62227a4ed6100f2fabdde5b61cd952d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895309"
 ---
 # <a name="function-call-attributes"></a>Attributs d’appel de fonction
 
@@ -19,25 +19,25 @@ Les programmes peuvent utiliser ces attributs sur des fonctions individuelles au
 
 
 
-| Attribut                        | Utilisation                                                                                                                                                                                                                                                      |
+| Attribut                        | Usage                                                                                                                                                                                                                                                      |
 |----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Message**](message.md)       | L’appel de procédure distante doit être traité comme un message asynchrone du client au serveur. Le client effectue l’appel et le retourne immédiatement, tandis que l’appel réel est géré par le transport de mise en file d’attente de messages ([**ncadg \_ MQ**](ncadg-mq.md)). |
 | [**environ**](maybe.md)           | Le client qui effectue cet appel de procédure distante n’attend aucune réponse indiquant la remise ou l’achèvement de l’appel. Cela diffère des opérations de [**message**](message.md) quand aucune réponse n’est attendue, mais que la remise est garantie.        |
 | [**diffusion**](broadcast.md)   | L’appel de procédure distante doit être envoyé à tous les serveurs sur le réseau. Le client accepte le premier retour, les réponses suivantes provenant d’autres serveurs sont ignorées.                                                                                    |
 | [**idempotent**](idempotent.md) | L’appel ne change pas d’État et retourne les mêmes informations chaque fois qu’il est appelé avec les mêmes paramètres d’entrée.                                                                                                                                     |
 | [**rappel**](callback.md)     | Désigne une fonction qui réside dans l’application cliente, que le serveur peut appeler pour obtenir des informations à partir du client.                                                                                                                             |
-| [**appeler \_ en tant que**](call-as.md)      | Mappe une fonction qui n’est pas accessible à distance à un appel de procédure distante.                                                                                                                                                                                                   |
-| [**localisé**](local.md)           | Désigne une procédure locale pour laquelle MIDL ne génère pas de code stub.                                                                                                                                                                                   |
+| [**appeler \_ en tant que**](call-as.md)      | Cartes une fonction qui n’est pas accessible à distance à un appel de procédure distante.                                                                                                                                                                                                   |
+| [**local**](local.md)           | Désigne une procédure locale pour laquelle MIDL ne génère pas de code stub.                                                                                                                                                                                   |
 
 
 
- 
+ 
 
 Sur les interfaces qui ne sont pas des [**objets**](object.md) , vous pouvez également appliquer l’attribut de [**\_ handle de contexte**](context-handle.md) à une fonction pour spécifier les caractéristiques de la valeur de retour.
 
- 
+ 
 
- 
+ 
 
 
 

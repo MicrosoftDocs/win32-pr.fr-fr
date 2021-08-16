@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d4a77acdc81c06d1f78da8bbc0160bd0d21bcfd8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9bad1974233dade51f9c49d8508d3ad65f3dfc3f3a1bbb27a55bf4ea0828cc09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020427"
 ---
 # <a name="settcpwindowsize-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetTcpWindowSize de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fenêtre de réception spécifie le nombre d'octets qu'un expéditeur peut transmettre sans recevoir d'accusé de réception. En général, les fenêtres de réception plus volumineuses améliorent les performances sur les réseaux à haut débit et à bande passante élevée. Pour des performances optimales, la fenêtre de réception doit être un multiple pair de la taille maximale du segment TCP (MSS).
 

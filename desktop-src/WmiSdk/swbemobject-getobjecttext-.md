@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 2447d8361d02626e1f5ea8fae1928ffd563d52ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d33e4f3f530bf7d9bda2e228243026de7d3768efb668cf6c8683690e8127f65f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992059"
 ---
 # <a name="swbemobjectgetobjecttext_-method"></a>SWbemObject. GetObjectText, \_ méthode
 

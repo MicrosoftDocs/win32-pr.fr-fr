@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cd8b267309fa8d017ace926f7497ca210fb2b00
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 97ce9502c77b6ba3b4188dc34e11c805032da40508232127cc96bf6b536d5bf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104520145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803449"
 ---
 # <a name="ms-ds-replication-notify-subsequent-dsa-delay-attribute"></a>ms-DS-réplication-notifier-suivant-attribut DSA-Delay
 
@@ -36,7 +36,7 @@ Cet attribut contrôle le délai entre la notification de chaque partenaire de r
 | Fréquence des mises à jour  | \-                                            |
 | Attribute-Id      | 1.2.840.113556.1.4.1664                       |
 | System-ID-GUID    | d63db385-dd92-4b52-b1d8-0d3ecc0e86b6          |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)          |
+| Syntaxe            | [**Énumération**](s-enumeration.md)          |
 
 
 
@@ -45,7 +45,7 @@ Cet attribut contrôle le délai entre la notification de chaque partenaire de r
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ac53f3920476489a1453bb6b5dc1e01d650d4fe
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6d0685a4af264dd2d4093fbb754c09d2124ecb2689063b61280bf55337ebb305
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104321993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777409"
 ---
 # <a name="glutessendcontour-function"></a>gluTessEndContour fonction)
 
@@ -51,7 +51,7 @@ Objet de pavage (créé avec [**gluNewTess**](glunewtess.md)).
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fonctions [**gluTessBeginContour**](glutessbegincontour.md) et **gluTessEndContour** délimitent la définition d’un contour de polygone. Au sein de chaque paire **gluTessBeginContour** / **gluTessEndContour** , il peut y avoir zéro ou plusieurs appels à [**gluTessVertex**](glutessvertex.md). Les sommets spécifient un contour fermé (le dernier vertex de chaque contour est automatiquement lié au premier). Vous pouvez appeler **gluTessBeginContour** uniquement entre [**gluTessBeginPolygon**](glutessbeginpolygon.md) et [**gluTessEndPolygon**](glutessendpolygon.md).
 

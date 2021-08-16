@@ -36,7 +36,7 @@ Il n’y a pas d’attributs.
 | [**Suppr**](async.md)<br/>           | Spécifie si les opérations asynchrones sont incluses dans les fonctions proxy générées.<br/> <br/>         |
 | [**événements**](events.md)<br/>         | Spécifie si les événements connexes sont inclus dans les fonctions générées.<br/> <br/>                        |
 | [**faultInfo**](faultinfo.md)<br/>   | Spécifie si les paramètres utilisés pour passer les informations d’erreur sont inclus dans les fonctions générées.<br/> <br/> |
-| [**opération**](operation.md)<br/>   | Spécifie une opération pour laquelle du code doit être généré.<br/> <br/>                                        |
+| [**operation**](operation.md)<br/>   | Spécifie une opération pour laquelle du code doit être généré.<br/> <br/>                                        |
 | [**portType**](porttype.md)<br/>     | Spécifie le type de port pour lequel le code doit être généré.<br/> <br/>                                       |
 | [**proxyClass**](proxyclass.md)<br/> | Spécifie le nom de la classe de proxy côté client.<br/> <br/>                                               |
 

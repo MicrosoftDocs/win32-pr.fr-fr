@@ -3,19 +3,19 @@ title: Élément VIDEO
 description: Élément VIDEO
 ms.assetid: 817e0d2e-cbc3-4b61-81c0-876104125f39
 keywords:
-- Apparences du lecteur Windows Media, élément vidéo
+- skins Lecteur Windows Media, élément VIDEO
 - Skins, élément VIDEO
 - Élément VIDEO
 - référence pour les apparences, élément VIDEO
 - éléments, vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbd8ab6bd014d2968483120fd1dd98804905faa4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f7b72df7472829fe9979c9f7a30558e340a69aeb2f7024641623ba6be1a46424
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054197"
 ---
 # <a name="video-element"></a>Élément VIDEO
 
@@ -39,7 +39,7 @@ L’élément **Video** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 L’élément **Video** peut implémenter les gestionnaires d’événements suivants.
 
@@ -52,7 +52,7 @@ L’élément **Video** peut implémenter les gestionnaires d’événements sui
 
 
 
- 
+ 
 
 L’élément **Video** prend en charge les attributs ambiants et peut implémenter les gestionnaires d’événements ambiants, sauf indication contraire. Pour plus d’informations, consultez [attributs ambiants](ambient-attributes.md) et [gestionnaires d’événements ambiants](ambient-event-handlers.md).
 
@@ -66,7 +66,7 @@ Les éléments vidéo prédéfinis sont des éléments **vidéo** normaux avec d
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -75,9 +75,9 @@ Les éléments vidéo prédéfinis sont des éléments **vidéo** normaux avec d
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Types de données NAP (NapTypes. h)
-description: 'Remarque : la plateforme de protection d’accès réseau n’est pas disponible à partir de Windows 10. les types de données pour l’API de protection d’accès réseau (NAP) sont les suivants.'
+description: 'remarque : la plateforme de protection d’accès réseau n’est pas disponible à partir de Windows 10 les types de données pour l’API de protection d’accès réseau (NAP) sont les suivants.'
 ms.assetid: 54f2866b-4333-4fc8-bb25-b7d4ae72b7dc
 keywords:
 - ProbationTime
@@ -16,12 +16,12 @@ keywords:
 - MessageId
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5780d73701354a12b244c5e5ea6167c2cfba70d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 550baa14779ccefaec14605938edb6076e7cc332aa9d1a2390ab430f7568e844
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802619"
 ---
 # <a name="nap-datatypes"></a>Types de données NAP
 
@@ -134,8 +134,8 @@ Valeur unique utilisée pour identifier les messages du système NAP.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                                                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                                                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                                                                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                                                                |
 | En-tête<br/>                   | <dl> <dt>NapTypes. h ; </dt> <dt>NapEnforcementClient. h</dt> </dl> |
 
 

@@ -47,12 +47,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0badba05eafa5cba06e48b8494ca893936af360e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6bbc73534914f1b6dc1bfd9f620a436bbcea2056a70cb50757afccf60beea04c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924649"
 ---
 # <a name="cim_datafile-class"></a>\_Classe de fichier de fichier CIM
 
@@ -742,7 +742,7 @@ Qualificateurs : [ **clé**](/windows/desktop/WmiSdk/key-qualifier)
 
 La propriété Name est une chaîne représentant le nom hérité qui sert de clé à une instance de fichier logique dans un système de fichiers. Les noms de chemin d’accès complets doivent être fournis.
 
-Exemple : C : \\ \\ système Windows \\win.ini
+exemple : C : \\ Windows \\ système \\win.ini
 
 Cette propriété est héritée de la [**\_ LogicalFile CIM**](cim-logicalfile.md).
 
@@ -944,7 +944,7 @@ Cette propriété est héritée de la [**\_ LogicalFile CIM**](cim-logicalfile.m
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ fichier de fichier CIM** est dérivée de [**CIM \_ LogicalFile**](cim-logicalfile.md).
 

@@ -10,12 +10,12 @@ keywords:
 - flux, récupération des attributs de métadonnées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c918cb47e77c3fd69c64de586b84b7f6244e4c9
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 02dc24f06779c12d40a109c1a8ef0fee9811370d3459f3811c0c870ee535d749
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807879"
 ---
 # <a name="retrieving-metadata-attributes"></a>Récupération des attributs de métadonnées
 
@@ -32,9 +32,9 @@ Pour obtenir un exemple de code illustrant la récupération des attributs de m�
 [**Utilisation des métadonnées**](working-with-metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

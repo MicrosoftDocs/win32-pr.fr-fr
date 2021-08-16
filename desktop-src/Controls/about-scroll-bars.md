@@ -4,12 +4,12 @@ description: Une fenêtre peut afficher un objet de données, tel qu’un docume
 ms.assetid: 9cb3afad-79ef-4817-950a-c8c1de39401b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d410e98ea1fe722d6dc1c4869010df30f99bddb
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: b93b3088df389753123e2a267ef3bc15eccb1b54626085ee90af7a20978107dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922367"
 ---
 # <a name="about-scroll-bars"></a>À propos des barres de défilement
 
@@ -34,7 +34,7 @@ Une barre de défilement se compose d’un arbre ombré avec un bouton fléché 
 
 L’utilisateur fait défiler le contenu d’une fenêtre en cliquant sur l’un des boutons de direction, en cliquant sur la zone de l’arbre de la barre de défilement ombrée ou en faisant glisser la case de défilement. Quand l’utilisateur clique sur un bouton fléché, l’application fait défiler le contenu d’une unité (généralement une ligne ou une colonne). Lorsque l’utilisateur clique sur les zones ombrées, l’application fait défiler le contenu d’une fenêtre à l’autre. La quantité de défilement qui se produit lorsque l’utilisateur fait glisser la case de défilement dépend de la distance pendant laquelle l’utilisateur fait glisser la case de défilement et sur la plage de défilement de la barre de défilement. Pour plus d’informations sur la plage de défilement, consultez [position de la case de défilement et plage de défilement](#scroll-box-position-and-scrolling-range).
 
-La capture d’écran suivante montre un contrôle RichEdit avec des barres de défilement verticales et horizontales, telles qu’elles peuvent apparaître dans Windows Vista. La barre de défilement verticale est actuellement « chaude », car le pointeur de la souris se trouve au-dessus de celle-ci au moment où la capture d’écran a été effectuée.
+la capture d’écran suivante montre un contrôle richedit avec des barres de défilement verticales et horizontales, telles qu’elles peuvent apparaître dans Windows Vista. La barre de défilement verticale est actuellement « chaude », car le pointeur de la souris se trouve au-dessus de celle-ci au moment où la capture d’écran a été effectuée.
 
 ![capture d’écran d’un contrôle RichEdit avec des barres de défilement](images/sbvista.png)
 
@@ -57,7 +57,7 @@ Pour obtenir un tableau des styles de contrôle de barre de défilement, consult
 > [!Note]  
 > Pour utiliser des styles visuels avec des barres de défilement, une application doit inclure un manifeste et doit appeler [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) au début du programme. Pour plus d’informations sur les styles visuels, consultez [styles visuels](themes-overview.md). Pour plus d’informations sur les manifestes, consultez [activation des styles visuels](cookbook-overview.md).
 
- 
+ 
 
 ## <a name="scroll-box-position-and-scrolling-range"></a>Position de la case de défilement et plage de défilement
 
@@ -84,7 +84,7 @@ Une application doit déplacer la case de défilement dans une barre de défilem
 
 ## <a name="scroll-bar-visibility"></a>Visibilité de la barre de défilement
 
-Le système masque et désactive une barre de défilement standard lorsque des valeurs minimales et maximales égales sont spécifiées. Le système masque et désactive également une barre de défilement standard si vous spécifiez une taille de page qui comprend la totalité de la plage de défilement de la barre de défilement. Il s’agit de la façon de masquer temporairement une barre de défilement lorsqu’elle n’est pas nécessaire pour le contenu de la zone cliente. Il n’est pas nécessaire de faire défiler les demandes de défilement dans la barre de défilement lorsqu’elle est masquée. Le système active la barre de défilement et l’affiche à nouveau lorsque vous définissez les valeurs minimale et maximale sur des valeurs inégales ou lorsque la taille de la page n’inclut pas l’intégralité de la plage de défilement. La fonction [**ShowScrollBar**](/windows/desktop/api/Winuser/nf-winuser-showscrollbar) peut également être utilisée pour masquer ou afficher une barre de défilement. Elle n’affecte pas la plage de la barre de défilement, la taille de la page ou la position de la case de défilement.
+Le système masque et désactive une barre de défilement standard lorsque des valeurs minimales et maximales égales sont spécifiées. Le système masque et désactive également une barre de défilement standard si vous spécifiez une taille de page qui comprend la totalité de la plage de défilement de la barre de défilement. Il s’agit de la façon de masquer temporairement une barre de défilement lorsqu’elle n’est pas nécessaire pour le contenu de la zone cliente. Il n’est pas nécessaire de faire défiler les demandes de défilement dans la barre de défilement lorsqu’elle est masquée. Le système active la barre de défilement et l’affiche à nouveau lorsque vous définissez les valeurs minimale et maximale sur des valeurs inégales et que la taille de la page n’inclut pas la plage de défilement entière. La fonction [**ShowScrollBar**](/windows/desktop/api/Winuser/nf-winuser-showscrollbar) peut également être utilisée pour masquer ou afficher une barre de défilement. Elle n’affecte pas la plage de la barre de défilement, la taille de la page ou la position de la case de défilement.
 
 La fonction [**EnableScrollBar**](/windows/desktop/api/Winuser/nf-winuser-enablescrollbar) peut être utilisée pour désactiver l’une ou les deux flèches d’une barre de défilement. Une application affiche des flèches désactivées en grisé et ne répond pas aux entrées d’utilisateur.
 
@@ -100,7 +100,7 @@ Les \_ valeurs SB spécifient l’action effectuée par l’utilisateur. Une app
 
 
 
-| Requête           | Action                                                                               | response                                                                                                                                                                                                                                                                                                                         |
+| Requête           | Action                                                                               | Réponse                                                                                                                                                                                                                                                                                                                         |
 |-------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_gamme SB        | L’utilisateur clique sur la flèche de défilement supérieure.                                                | Décrémente la position de la case de défilement ; fait défiler vers le haut des données d’une unité.                                                                                                                                                                                                                                              |
 | SB \_ LINEDOWN      | L’utilisateur clique sur la flèche de défilement inférieure.                                             | Incrémente la position de la case de défilement ; fait défiler vers le bas des données d’une unité.                                                                                                                                                                                                                                           |
@@ -116,7 +116,7 @@ Les \_ valeurs SB spécifient l’action effectuée par l’utilisateur. Une app
 
 
 
- 
+ 
 
 Une barre de défilement génère \_ du code de demande SB THUMBPOSITION et SB \_ THUMBTRACK lorsque l’utilisateur clique sur la case de défilement et la fait glisser. Une application doit être programmée pour traiter le \_ Code de demande SB THUMBTRACK ou SB \_ THUMBPOSITION.
 
@@ -143,14 +143,14 @@ Un contrôle de barre de défilement fournit une interface clavier intégrée qu
 
 
 
- 
+ 
 
- 
+ 
 
 > [!Note]  
 > L’interface clavier d’un contrôle de barre de défilement envoie les \_ codes de demande SB Top et SB \_ Bottom. Le \_ Code de demande SB Top indique que l’utilisateur a atteint la valeur supérieure de la plage de défilement. Une application fait défiler le contenu de la fenêtre vers le bas afin que le haut de l’objet de données soit visible. Le \_ Code de requête du bas SB indique que l’utilisateur a atteint la valeur inférieure de la plage de défilement. Si une application traite le \_ Code de demande SB Bottom, elle fait défiler le contenu de la fenêtre vers le haut afin que le bas de l’objet de données soit visible.
 
- 
+ 
 
 Si vous souhaitez une interface clavier pour une barre de défilement standard, vous pouvez en créer une vous-même en traitant le message [**WM \_**](/windows/desktop/inputdev/wm-keydown) KeyOut dans votre procédure de fenêtre, puis en effectuant l’action de défilement appropriée en fonction du code de la touche virtuelle qui accompagne le message. Pour plus d’informations sur la création d’une interface clavier pour une barre de défilement, consultez [création d’une interface clavier pour une barre de défilement standard](using-scroll-bars.md).
 
@@ -185,8 +185,8 @@ Vous pouvez récupérer les dimensions des bitmaps que le système utilise dans 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

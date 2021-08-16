@@ -1,28 +1,28 @@
 ---
-description: La procédure de cette rubrique indique comment créer un package Windows Installer pour installer un assembly Win32.
+description: la procédure de cette rubrique indique comment créer un package Windows Installer pour installer un assembly Win32.
 ms.assetid: 2d4bc2be-cce6-45e6-b6a7-7ff96d28eb96
-title: Installation d’assemblys Win32 pour l’utilisation privée d’une application sur Windows XP
+title: installation d’assemblys Win32 pour l’utilisation privée d’une Application sur Windows XP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e807e22c9c5dea67ece5ead0ded95f06ab203689
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f478bddeb04ca9112610bd88338437002082204cc62078bde200539a8a18b6bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893809"
 ---
-# <a name="installing-win32-assemblies-for-the-private-use-of-an-application-on-windows-xp"></a>Installation d’assemblys Win32 pour l’utilisation privée d’une application sur Windows XP
+# <a name="installing-win32-assemblies-for-the-private-use-of-an-application-on-windows-xp"></a>installation d’assemblys Win32 pour l’utilisation privée d’une Application sur Windows XP
 
-La procédure de cette rubrique indique comment créer un package Windows Installer pour installer un assembly Win32. Le package installe l’assembly et un fichier manifeste d’application dans un dossier créé que l’application utilise. Le manifeste d’application spécifie la dépendance de l’application sur l’assembly privé. Une fois le package installé, l’assembly privé est disponible pour l’utilisation exclusive de l’application. La dépendance d’assembly spécifiée dans le manifeste de l’application remplace (pour cette application) toutes les autres dépendances d’assembly globales spécifiées dans les fichiers manifeste de l’assembly.
+la procédure de cette rubrique indique comment créer un package Windows Installer pour installer un assembly Win32. Le package installe l’assembly et un fichier manifeste d’application dans un dossier créé que l’application utilise. Le manifeste d’application spécifie la dépendance de l’application sur l’assembly privé. Une fois le package installé, l’assembly privé est disponible pour l’utilisation exclusive de l’application. La dépendance d’assembly spécifiée dans le manifeste de l’application remplace (pour cette application) toutes les autres dépendances d’assembly globales spécifiées dans les fichiers manifeste de l’assembly.
 
-Avant de continuer, il est judicieux de comprendre comment créer un package Windows Installer sans assemblys. Pour plus d’informations, consultez [un exemple d’installation](an-installation-example.md).
+avant de continuer, il est judicieux de comprendre comment créer un package Windows Installer sans assemblys. Pour plus d’informations, consultez [un exemple d’installation](an-installation-example.md).
 
-**Pour installer un assembly privé sur Windows XP**
+**pour installer un assembly privé sur Windows XP**
 
-1.  Définissez un composant Windows Installer qui comprend l’assembly Win32 et le fichier manifeste de l’application. Ce composant peut contenir d’autres ressources qui doivent toujours être installées ou supprimées avec l’assembly. Les étapes restantes de cette procédure décrivent comment créer la base de données d’installation pour installer ce composant.
-2.  Ajoutez une ligne à la [table des composants](component-table.md) pour le composant qui contient l’assembly Win32 et le fichier manifeste de l’application. Entrez un [GUID](guid.md) de Windows Installer valide pour ce code de composant. Pour plus d’informations, consultez [modification du code du composant](changing-the-component-code.md) et [que se passe-t-il si les règles des composants sont rompues ?](what-happens-if-the-component-rules-are-broken.md)
+1.  définissez un composant Windows Installer qui comprend l’assembly Win32 et le fichier manifeste de l’application. Ce composant peut contenir d’autres ressources qui doivent toujours être installées ou supprimées avec l’assembly. Les étapes restantes de cette procédure décrivent comment créer la base de données d’installation pour installer ce composant.
+2.  Ajoutez une ligne à la [table des composants](component-table.md) pour le composant qui contient l’assembly Win32 et le fichier manifeste de l’application. entrez un [GUID](guid.md) de Windows Installer valide pour ce code de composant. Pour plus d’informations, consultez [modification du code du composant](changing-the-component-code.md) et [que se passe-t-il si les règles des composants sont rompues ?](what-happens-if-the-component-rules-are-broken.md)
 3.  Le programme d’installation copie le fichier manifeste de l’assembly dans le dossier qui contient le fichier spécifié dans le \_ champ application de fichier de la [table MsiAssembly](msiassembly-table.md).
-4.  Ajoutez une ligne à la [table FeatureComponents](featurecomponents-table.md) en liant le composant à une fonctionnalité de Windows Installer. Pour plus d’informations, consultez [composants et fonctionnalités](components-and-features.md). Une fonctionnalité de Windows Installer doit être une partie des fonctionnalités d’application qu’un utilisateur peut reconnaître. L’assembly est activé lorsque cette fonctionnalité est sélectionnée par un utilisateur ou a généré une erreur par une application. Si l’assembly définit une fonctionnalité supplémentaire, ajoutez une ligne supplémentaire à la [table des fonctionnalités](feature-table.md) pour les attributs de fonctionnalité. Cette étape n’est pas requise en cas de création d’un module de fusion.
+4.  ajoutez une ligne à la [table FeatureComponents](featurecomponents-table.md) en liant le composant à une fonctionnalité de Windows Installer. Pour plus d’informations, consultez [composants et fonctionnalités](components-and-features.md). une fonctionnalité de Windows Installer doit être une partie des fonctionnalités d’application qu’un utilisateur peut reconnaître. L’assembly est activé lorsque cette fonctionnalité est sélectionnée par un utilisateur ou a généré une erreur par une application. Si l’assembly définit une fonctionnalité supplémentaire, ajoutez une ligne supplémentaire à la [table des fonctionnalités](feature-table.md) pour les attributs de fonctionnalité. Cette étape n’est pas requise en cas de création d’un module de fusion.
 5.  Pour les assemblys côte à côte, les informations de liaison et d’activation, par exemple, les classes COM, les interfaces et les bibliothèques de types, sont stockées dans des fichiers manifeste plutôt que dans le registre. Les assemblys privés stockent ces informations dans un manifeste d’assembly. Sur les systèmes qui prennent en charge les assemblys côte à côte, le programme d’installation ignore le traitement des informations relatives au composant qui est entré dans la [table d’extension](extension-table.md), la [table de verbes](verb-table.md), la [table Typelib](typelib-table.md), la [table MIME](mime-table.md), la table de [classes](class-table.md), la [table ProgID](progid-table.md)et la [table AppID](appid-table.md). Les informations de liaison et d’activation peuvent être entrées dans les tables pour être utilisées par les systèmes qui ne prennent pas en charge le partage d’assembly côte à côte.
 6.  L’installation côte à côte n’inscrit pas l’assembly globalement. Le programme d’installation ignore l’inscription automatique du composant si des informations d’auto-inscription sont entrées dans la [table Selfreg](selfreg-table.md). Les informations d’auto-inscription peuvent être entrées dans la table SelfReg pour l’inscription automatique du composant sur les systèmes qui ne prennent pas en charge le partage d’assembly côte à côte.
 7.  Ajoutez toutes les autres informations du Registre, en excluant la liaison et l’activation ou l’inscription automatique du composant, à la table [du Registre](registry-table.md), à la [table RemoveRegistry](removeregistry-table.md)et à la [table d’environnement](environment-table.md).

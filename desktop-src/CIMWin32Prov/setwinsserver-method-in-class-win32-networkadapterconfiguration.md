@@ -1,5 +1,5 @@
 ---
-description: La méthode de classe WMI SetWINSServer définit les serveurs WINS (Windows Internet Service de nommage) principaux et secondaires sur cette carte réseau TCP/IP. Cette méthode est appliquée indépendamment de la carte réseau.
+description: la méthode de classe WMI SetWINSServer définit les serveurs WINS (primary et secondary Windows Internet Service de nommage) sur cette carte réseau TCP/IP. Cette méthode est appliquée indépendamment de la carte réseau.
 ms.assetid: fa8ce436-b67e-4975-a5c5-1a7d6aab4c8e
 ms.tgt_platform: multiple
 title: Méthode SetWINSServer de la classe Win32_NetworkAdapterConfiguration
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 49bfb0103a7d9cbbd6ea3faa0e1a868bac7b0196
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9471684b3ca6032c846684bdf4a50dffbd0e2f455e4a887498fdcfe1f2a051ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020387"
 ---
 # <a name="setwinsserver-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetWINSServer de la \_ classe Win32 NetworkAdapterConfiguration
 
-La méthode de [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) **SetWINSServer** définit les serveurs WINS (Windows Internet service de nommage) principaux et secondaires sur cette carte réseau TCP/IP. Cette méthode est appliquée indépendamment de la carte réseau.
+la méthode de [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) **SetWINSServer** définit les serveurs WINS (primary et secondary Windows Internet Service de nommage) sur cette carte réseau TCP/IP. Cette méthode est appliquée indépendamment de la carte réseau.
 
 Cette rubrique utilise la syntaxe format MOF (MOF). Pour plus d’informations sur l’utilisation de cette méthode, consultez [appel d’une méthode](/windows/desktop/WmiSdk/calling-a-method).
 
@@ -422,7 +422,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si *WINSPrimaryServer* et *WINSSecondaryServer* sont tous les deux définis sur «» (une chaîne vide), les serveurs WINS explicites reviennent à DHCP.
 

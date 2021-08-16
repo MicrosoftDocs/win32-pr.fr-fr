@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f0d2837a4bb84c07214cce3e4fbc3d4d96b9583
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6389ac30d5bffeb6ad354ec6c7e83f2834921fe8fb83c1abe2bca2d0c2f43bfd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705239"
 ---
 # <a name="iwmdrmlicensegetinclusionlist-method"></a>IWMDRMLicense :: GetInclusionList, méthode
 
@@ -60,7 +60,7 @@ Reçoit le nombre d’éléments dans le tableau *ppGuids* . Le tableau est allo
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -72,7 +72,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’émetteur de licence peut spécifier d’autres systèmes de protection sur lesquels le contenu chiffré peut être converti. La liste des GUID récupérés par cette méthode identifie les systèmes de protection autorisés. Lorsque vous entrez dans un contrat de licence avec Microsoft pour obtenir la bibliothèque stub, vous recevrez une liste des systèmes de protection actuellement pris en charge et les GUID utilisés pour les identifier.
 

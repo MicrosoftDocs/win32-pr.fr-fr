@@ -15,7 +15,7 @@ ms.locfileid: "118635150"
 
 ICE50 vérifie que les icônes de raccourci sont spécifiées pour s’afficher correctement et correspondent à l’extension du fichier cible.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE50 publie un message d’erreur si l’extension de l’icône et les fichiers cibles ne correspondent pas. ICE50 publie un avertissement si les icônes sont stockées dans des fichiers qui n’ont pas d’extension .exe ou. ico.
 
@@ -89,7 +89,7 @@ ICE50 signale l’erreur suivante pour l’exemple indiqué.
 
 
 
-| Raccourci  | Composant  | Cible   | Icône\_    |
+| Raccourci  | Composant  | Cible   | Située\_    |
 |-----------|------------|----------|-----------|
 | Shortcut1 | Composant1 | Feature1 | Icon1.bat |
 | Shortcut2 | Component2 | Feature1 | Icon2. dat |

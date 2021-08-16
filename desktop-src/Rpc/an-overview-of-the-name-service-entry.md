@@ -4,12 +4,12 @@ description: L’entrée service de nom se compose de trois sections distinctes.
 ms.assetid: 3059a9a9-174d-4d04-8565-e4558f17f465
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efc3855f586582b013bc47b11eb058ae461014f4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b2d7982cef018ec91435c647000031ae42a25e2e2bb315a20623ac75e610197e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106536879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073559"
 ---
 # <a name="an-overview-of-the-name-service-entry"></a>Vue d’ensemble de l’entrée Service Name
 
@@ -19,9 +19,9 @@ Lors de l’appel de [**RpcNsBindingExport**](/windows/desktop/api/Rpcnsi/nf-rpc
 
 Le client appelle [**RpcNsBindingLookupBegin**](/windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina) (ou [**RpcNsBindingImportBegin**](/windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina)) pour rechercher un handle de liaison approprié. Le nom de l’entrée, le descripteur d’interface et l’UUID de l’objet sont extraits. Celles-ci restreignent les entrées à partir desquelles les handles de liaison sont retournés. Si une entrée correspond aux critères de recherche, tous les descripteurs de liaison de cette entrée sont retournés à partir de [**RpcNsBindingImportNext**](/windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingimportnext).
 
- 
+ 
 
- 
+ 
 
 
 

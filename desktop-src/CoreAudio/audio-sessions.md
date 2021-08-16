@@ -4,12 +4,12 @@ ms.assetid: b8a1b656-a582-4112-99e9-bd575719ebb3
 title: Sessions audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57ae67a3eafe7a76add2fad192823868304e860d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 13d5b8cee0a3a53709d2c450bef36ae00e3a6f4d9323c75ff80e96b19550eb39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929409"
 ---
 # <a name="audio-sessions"></a>Sessions audio
 
@@ -27,7 +27,7 @@ Chaque session de rendu représente un sous-ensemble des flux qui forment la com
 
 Souvent, une application avec plusieurs flux affecte tous ses flux à la même session. Toutefois, l’application peut, en option, assigner différents flux à différentes sessions. Tout flux que l’application n’attribue pas explicitement à une session appartient à la session par défaut.
 
-Les applications audio typiques doivent éviter de modifier les paramètres de volume et de sourdine pour les sessions. Au lieu de cela, les utilisateurs contrôlent ces paramètres par le biais des interfaces utilisateur des programmes de contrôle. Par exemple, dans Windows Vista, le programme fourni par le système, Sndvol.exe, affiche un contrôle du volume et un contrôle muet pour chaque session de rendu active ou récemment active dans le système. Grâce à ces contrôles, les utilisateurs peuvent ajuster les paramètres de volume et de silence pour toutes les sessions dans le système.
+Les applications audio typiques doivent éviter de modifier les paramètres de volume et de sourdine pour les sessions. Au lieu de cela, les utilisateurs contrôlent ces paramètres par le biais des interfaces utilisateur des programmes de contrôle. par exemple, dans Windows Vista, le programme fourni par le système, Sndvol.exe, affiche un contrôle du volume et un contrôle muet pour chaque session de rendu active ou récemment active dans le système. Grâce à ces contrôles, les utilisateurs peuvent ajuster les paramètres de volume et de silence pour toutes les sessions dans le système.
 
 Le programme sndvol affiche actuellement des contrôles de volume pour les appareils de point de terminaison de rendu audio uniquement. Elle n’affiche pas de contrôles de volume pour les périphériques de capture audio.
 
@@ -57,7 +57,7 @@ Ces informations sont suffisantes pour distinguer une session particulière de t
 
 Dans le cas d’une session spécifique au processus, le système utilise une combinaison de GUID de session et d’ID de processus pour identifier de manière unique la session dans l’étendue de l’ordinateur. Par conséquent, si les clients de deux processus distincts affectent leurs flux respectifs à deux sessions spécifiques à un processus avec des GUID de session identiques, le système traite les sessions comme étant séparées, car leurs ID de processus sont différents. En outre, si une session inter-processus utilise le même GUID de session qu’une ou plusieurs sessions spécifiques au processus, le système traite la session interprocessus comme distincte des sessions spécifiques au processus, même si elle partage le même GUID de session.
 
-Par exemple, dans Windows Vista, les API de niveau supérieur telles que les fonctions **WaveOutXxx** Windows Multimedia et DirectSound attribuent généralement les flux audio qu’ils créent à la valeur par défaut, les sessions spécifiques au processus qui sont identifiées par le GUID de la valeur GUID de session \_ . Pour les clients de ces API, la session par défaut pour chaque processus client est distincte des sessions par défaut pour d’autres processus client, même si les sessions ont des GUID de session identiques. En outre, si une ou plusieurs applications attribuent des flux à la session interprocessus qui est identifiée par la valeur GUID de session GUID \_ null, le système traite cette session inter-processus comme distincte des sessions par défaut spécifiques au processus qui partagent le même GUID de session. En conséquence, le programme sndvol affiche un contrôle de volume distinct pour la session par défaut propre au processus, et il affiche un contrôle de volume supplémentaire pour la session interprocessus qui est identifiée par la valeur GUID de session GUID \_ null, si cette session existe.
+par exemple, dans Windows Vista, les api de niveau supérieur, telles que les fonctions **waveOutXxx** multimédias Windows et DirectSound attribuent généralement les flux audio qu’ils créent à la valeur par défaut, les sessions spécifiques au processus qui sont identifiées par la valeur guid de session guid \_ NULL. Pour les clients de ces API, la session par défaut pour chaque processus client est distincte des sessions par défaut pour d’autres processus client, même si les sessions ont des GUID de session identiques. En outre, si une ou plusieurs applications attribuent des flux à la session interprocessus qui est identifiée par la valeur GUID de session GUID \_ null, le système traite cette session inter-processus comme distincte des sessions par défaut spécifiques au processus qui partagent le même GUID de session. En conséquence, le programme sndvol affiche un contrôle de volume distinct pour la session par défaut propre au processus, et il affiche un contrôle de volume supplémentaire pour la session interprocessus qui est identifiée par la valeur GUID de session GUID \_ null, si cette session existe.
 
 Chaque session est associée à un seul périphérique de point de terminaison audio. Si deux sessions ont des GUID de session et des ID de processus identiques, mais sont associés à des appareils différents, le système traite les deux sessions comme étant séparées. Une session ne peut jamais contenir à la fois des flux de capture et de rendu, car un flux de capture peut être associé uniquement à un appareil de capture et un flux de rendu ne peut être associé qu’à un appareil de rendu.
 

@@ -4,12 +4,12 @@ ms.assetid: 05284291-977d-49b8-ad92-365f68384960
 title: Stratégie de métadonnées de photo System. GPS. DestLatitude
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 192db0f8efc868e9457e86d283d9967e4692c95b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d57cce67b13235933816e244e17b5c761e1f0d230055eb82d683eb610579e5aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882349"
 ---
 # <a name="systemgpsdestlatitude-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. DestLatitude
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. GPS. DestLa
 
 \_DestLatitude GPS \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Cette valeur est générée à partir de System. GPS. DestLatitudeNumerator et d
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 20} |             |
 | 2     | /xmp/exif:GPSDestLatitude |             |
@@ -58,7 +58,7 @@ Cette valeur est générée à partir de System. GPS. DestLatitudeNumerator et d
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 20} |             |
 | 2     | /xmp/exif:GPSDestLatitude |             |
@@ -71,7 +71,7 @@ Cette valeur est générée à partir de System. GPS. DestLatitudeNumerator et d
 
 
 
-| Commande | Chemin d’accès                      |
+| Commande | Chemin                      |
 |-------|---------------------------|
 | 1     | /App1/IFD/GPS/{UShort = 20} |
 | 2     | /xmp/exif:gpsdestlatitude |
@@ -86,7 +86,7 @@ Cette valeur est générée à partir de System. GPS. DestLatitudeNumerator et d
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 20}          |             |
 | 2     | /ifd/xmp/exif:GPSDestLatitude |             |
@@ -99,7 +99,7 @@ Cette valeur est générée à partir de System. GPS. DestLatitudeNumerator et d
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 20}          |             |
 | 2     | /ifd/xmp/exif:GPSDestLatitude |             |
@@ -112,7 +112,7 @@ Cette valeur est générée à partir de System. GPS. DestLatitudeNumerator et d
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /IFD/GPS/{UShort = 20}          |
 | 2     | /ifd/xmp/exif:gpsdestlatitude |
@@ -121,7 +121,7 @@ Cette valeur est générée à partir de System. GPS. DestLatitudeNumerator et d
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

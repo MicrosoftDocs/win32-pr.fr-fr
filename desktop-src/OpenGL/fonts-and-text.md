@@ -1,22 +1,22 @@
 ---
 title: Polices et texte (OpenGL)
-description: L’implémentation de OpenGL par Microsoft dans Windows prend en charge les graphiques GDI dans une fenêtre OpenGL à mémoire tampon unique.
+description: l’implémentation de OpenGL par Microsoft dans Windows prend en charge les graphiques GDI dans une fenêtre OpenGL à mémoire tampon unique.
 ms.assetid: 25a45e1a-6c1e-416b-8993-daeefc1100f3
 keywords:
 - OpenGL sur Windows, polices
 - OpenGL sur Windows, texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6fba4ffe996bd88a6285f615ddacb31e57fc311
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 966298b6a8d8e5584e761570205a5d3e7be58be3a8dfeb488db2a6f523fc9a25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082429"
 ---
 # <a name="fonts-and-text-opengl"></a>Polices et texte (OpenGL)
 
-L’implémentation de OpenGL par Microsoft dans Windows prend en charge les graphiques GDI dans une fenêtre OpenGL à mémoire tampon unique. Elle ne prend pas en charge les graphiques GDI dans une fenêtre OpenGL à double mémoire tampon. Par conséquent, vous pouvez appeler uniquement les fonctions de texte et de police GDI standard pour dessiner du texte dans une fenêtre OpenGL à une seule mise en mémoire tampon ; vous ne pouvez pas appeler ces fonctions pour dessiner du texte dans une fenêtre OpenGL à deux mémoires tampons.
+l’implémentation de OpenGL par Microsoft dans Windows prend en charge les graphiques GDI dans une fenêtre OpenGL à mémoire tampon unique. Elle ne prend pas en charge les graphiques GDI dans une fenêtre OpenGL à double mémoire tampon. Par conséquent, vous pouvez appeler uniquement les fonctions de texte et de police GDI standard pour dessiner du texte dans une fenêtre OpenGL à une seule mise en mémoire tampon ; vous ne pouvez pas appeler ces fonctions pour dessiner du texte dans une fenêtre OpenGL à deux mémoires tampons.
 
 Il existe une solution de contournement pour cette restriction sur du texte dans les fenêtres à deux mémoires tampons : créez des listes d’affichage OpenGL pour les images bitmap de caractères, puis exécutez ces listes d’affichage pour dessiner des caractères. Ce processus comporte trois étapes principales :
 

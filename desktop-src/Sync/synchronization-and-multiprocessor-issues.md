@@ -4,12 +4,12 @@ ms.assetid: b20a1d2c-b795-4ed8-ac33-539a347020c8
 title: Problèmes de synchronisation et de multiprocesseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3896dc240e76f1506bac2a6a2e95f101b05beca7
-ms.sourcegitcommit: 9c8ddec1e955f181beecad0478c1fb79013b5e9d
+ms.openlocfilehash: 2d0e86a2c69cf0a0c0e56656475f73fb489f7433a94511703b3777302702bb32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "106520209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886207"
 ---
 # <a name="synchronization-and-multiprocessor-issues"></a>Problèmes de synchronisation et de multiprocesseur
 
@@ -73,7 +73,7 @@ BOOL FetchComputedValue(int *piResult)
 
 Cette condition de concurrence peut être réparée à l’aide du mot clé **volatile** ou de la fonction [**interlockedexchang**](/windows/desktop/api/winnt/nf-winnt-interlockedexchange.md) pour garantir que la valeur de `iValue` est mise à jour pour tous les processeurs avant que la valeur de `fValueHasBeenComputed` soit définie sur **true**.
 
-À partir de Visual Studio 2005, s’il est compilé en mode **/volatile : ms** , le compilateur utilise la sémantique Acquire pour les opérations de lecture sur les variables **volatiles** et la sémantique de libération pour les opérations d’écriture sur les variables **volatiles** (lorsqu’elles sont prises en charge par l’UC). Par conséquent, vous pouvez corriger l’exemple comme suit :
+à compter de Visual Studio 2005, s’il est compilé en mode **/volatile : ms** , le compilateur utilise la sémantique acquire pour les opérations de lecture sur les variables **volatiles** et les sémantiques de libération pour les opérations d’écriture sur les variables **volatiles** (lorsqu’elles sont prises en charge par l’uc). Par conséquent, vous pouvez corriger l’exemple comme suit :
 
 ``` syntax
 volatile int iValue;
@@ -101,7 +101,7 @@ BOOL FetchComputedValue(int *piResult)
 }
 ```
 
-Avec Visual Studio 2003, les références **volatiles** à **volatiles** sont triées ; le compilateur ne réorganise pas l’accès aux variables **volatiles** . Toutefois, ces opérations peuvent être réorganisées par le processeur. Par conséquent, vous pouvez corriger l’exemple comme suit :
+avec Visual Studio 2003, les références **volatiles** à **volatiles** sont ordonnées ; le compilateur ne réorganise pas l’accès aux variables **volatiles** . Toutefois, ces opérations peuvent être réorganisées par le processeur. Par conséquent, vous pouvez corriger l’exemple comme suit :
 
 ``` syntax
 int iValue;

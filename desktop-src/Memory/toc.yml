@@ -7,7 +7,7 @@
         - name: Espace d’adressage virtuel
           href: virtual-address-space.md
           items:
-            - name: Espace d’adressage virtuel et stockage physique
+            - name: espace d’adressage virtuel et Stockage physique
               href: virtual-address-space-and-physical-storage.md
             - name: Plage de travail
               href: working-set.md

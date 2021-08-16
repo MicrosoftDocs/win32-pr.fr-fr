@@ -3,9 +3,9 @@ title: Méthode IWMPCdromBurn stopBurn
 description: La méthode stopBurn arrête le processus de gravure de CD.
 ms.assetid: f067010c-7125-4f3b-9315-51e2362d6ba9
 keywords:
-- méthode stopBurn lecteur Windows Media
-- méthode stopBurn lecteur Windows Media, interface IWMPCdromBurn
-- Interface IWMPCdromBurn lecteur Windows Media, méthode stopBurn
+- Lecteur Windows Media de la méthode stopBurn
+- méthode stopBurn Lecteur Windows Media, interface IWMPCdromBurn
+- Lecteur Windows Media de l’interface IWMPCdromBurn, méthode stopBurn
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b65721f46beb8dae4c05756a66d954646c9d5336
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1eb4dc77590f774623ed905a22941a68af5971e7b9c8a639794687d83a95fd41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861939"
 ---
 # <a name="iwmpcdromburnstopburn-method"></a>IWMPCdromBurn :: stopBurn, méthode
 

@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f7d0c2fb8d255a02d6df6f6677a31fa3366dfa6f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0075d881c688fd80dfdc1f74af37e4a61a5c71faaddc4893254ec0a36455a416
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924719"
 ---
 # <a name="cim_createdirectoryaction-class"></a>\_Classe CIM CreateDirectoryAction
 
@@ -434,7 +434,7 @@ Machine virtuelle Microsoft pour Java
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -516,7 +516,7 @@ NCR 3000
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Dépendant d’UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**UNIX dépendant** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -837,7 +837,7 @@ Cette propriété est héritée de l' [**\_ action CIM**](cim-action.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ CreateDirectoryAction** est dérivée de [**CIM \_ DirectoryAction**](cim-directoryaction.md).
 

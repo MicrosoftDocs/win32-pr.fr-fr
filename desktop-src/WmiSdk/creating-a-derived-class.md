@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Création d’une classe dérivée WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b65079d206cb7a0a490622018f6d2e2df98867d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cddc2b381346b2765e836bb3606cc06845280c41a7505b872098f383ac0409c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119374869"
 ---
 # <a name="creating-a-wmi-derived-class"></a>Création d’une classe dérivée WMI
 
@@ -53,7 +53,7 @@ Quand vous déclarez votre classe dérivée, observez les règles et restriction
 -   Le nombre maximal de propriétés que vous pouvez définir dans une classe WMI est 1024.
 
 > [!Note]  
-> Les classes ne peuvent pas être modifiées pendant l’exécution des fournisseurs. Vous devez arrêter l’activité, modifier la classe, puis redémarrer le service de gestion Windows. La détection d’une modification de classe n’est pas possible actuellement.
+> Les classes ne peuvent pas être modifiées pendant l’exécution des fournisseurs. vous devez arrêter l’activité, modifier la classe, puis redémarrer le service de gestion Windows. La détection d’une modification de classe n’est pas possible actuellement.
 
  
 

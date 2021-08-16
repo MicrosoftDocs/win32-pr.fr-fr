@@ -29,22 +29,22 @@ keywords:
 - XMR (droits multimédias extensibles)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc275419116362c08cabe4dc70aa227687705fdb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a73406d36c6ec7903ee7966f162811336aaecccaac5093e6d467e02c1a56ec71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881400"
 ---
 # <a name="building-an-xmr-license"></a>Génération d’une licence XMR
 
-Pour générer une licence pour le traitement DRM Windows Media, vous devez utiliser le schéma binaire XMR (extensible Media Rights). XMR est un schéma permettant de transmettre des restrictions et des droits d’utilisation de média et doit être concédé sous licence séparément.
+pour générer une licence de Windows media DRM à traiter, vous devez utiliser le schéma binaire XMR (Extensible media Rights). XMR est un schéma permettant de transmettre des restrictions et des droits d’utilisation de média et doit être concédé sous licence séparément.
 
-Le matériel important d’une licence est chiffré à l’aide de la clé publique dans la collection de certificats DRM Windows Media. il est donc visible uniquement pour le sous-système de l’API étendue du client Windows Media DRM. .
+le matériel important d’une licence est chiffré à l’aide de la clé publique dans la collection de certificats DRM Windows, et n’est donc visible que pour le sous-système de l’API étendue du Client media drm Windows. .
 
 Il vous incombe de vous assurer que la structure de licence et les paramètres de stratégie sont valides et cohérents avec l’intention de l’émetteur de licence et qu’ils sont conformes aux règles de conformité.
 
-Vous devez lire les règles de conformité de l’importation Windows Media DRM pour connaître l’ensemble complet d’objets XMR qui doivent être présents dans la licence.
+vous devez lire les règles de conformité de l’importation Media DRM Windows pour connaître l’ensemble complet d’objets XMR qui doivent être présents dans la licence.
 
 Pour transmettre la licence XMR au sous-système DRM, appelez la méthode [**IWMDRMLicenseManagement :: StoreLicense**](iwmdrmlicensemanagement-storelicense.md) . Utilisez le format suivant pour transmettre la licence dans le paramètre *bstrLicenseResponse* :
 
@@ -66,9 +66,9 @@ Cette chaîne doit être au format Unicode (UTF-16).
 [**Importation DRM**](drm-import.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

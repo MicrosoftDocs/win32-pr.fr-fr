@@ -4,12 +4,12 @@ description: Génère une liste d’objets adaptateur représentant l’état ac
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 0a35d4dd9a481880d66988b6ade079534d1297c1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0d00cba3236bf63a1691473098b1f94438b790a93a75215e36690745ee7977fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842519"
 ---
 # <a name="idxcoreadapterfactorycreateadapterlist-method"></a>IDXCoreAdapterFactory :: CreateAdapterList, méthode
 
@@ -69,7 +69,7 @@ Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](
 |E_NOINTERFACE|Une valeur non valide a été fournie pour *riid*.|
 |E_POINTER|`nullptr` a été fourni pour *ppvAdapterList*.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Même si aucun adaptateur n’est trouvé, à condition que les arguments soient valides, **CreateAdapterList** crée un objet [IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md) valide et retourne **S_OK**. Une fois générés, les adaptateurs de cette liste spécifique ne sont pas modifiés. Toutefois, la liste est considérée comme obsolète si l’un des adaptateurs devient non valide, ou si un nouvel adaptateur répond aux critères de filtre fournis. La liste retournée par **CreateAdapterList** n’est pas ordonnée d’une manière particulière, mais l’ordre d’une liste est cohérent entre plusieurs appels, et même entre les redémarrages du système d’exploitation. Le classement peut changer lors des modifications de configuration du système, y compris l’ajout ou la suppression d’un adaptateur, ou la mise à jour d’un pilote sur un adaptateur existant. Vous pouvez vous inscrire à ces modifications avec [IDXCoreAdapterFactory :: RegisterEventNotification](./nf-dxcore_interface-idxcoreadapterfactory-registereventnotification.md) en utilisant le type de notification **DXCoreNotificationType. AdapterListStale**.
 

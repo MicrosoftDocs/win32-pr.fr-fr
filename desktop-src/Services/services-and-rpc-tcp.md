@@ -1,23 +1,23 @@
 ---
-description: À compter de Windows Vista, le gestionnaire de contrôle des services (SCM) prend en charge les appels de procédure distante via le protocole de contrôle de transmission (RPC/TCP) et les canaux nommés (RPC/NP).
+description: à partir de Windows Vista, le gestionnaire de contrôle des services (SCM) prend en charge les appels de procédure distante via le protocole de contrôle de Transmission (rpc/TCP) et les canaux nommés (rpc/NP).
 ms.assetid: c51732f6-c22f-4726-afaa-13a8948ac44f
 title: Services et RPC/TCP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fdb2ef3b21f280ba4e5078d302813de41a5a43a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49d4ddfe95e114a972c600c9bef44864aa99fbe4ec412312d03e08fa7d7fe15b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888556"
 ---
 # <a name="services-and-rpctcp"></a>Services et RPC/TCP
 
-À compter de Windows Vista, le gestionnaire de contrôle des services (SCM) prend en charge les appels de procédure distante via le protocole de contrôle de transmission (RPC/TCP) et les canaux nommés (RPC/NP). Les fonctions SCM côté client utilisent RPC/TCP par défaut.
+à partir de Windows Vista, le gestionnaire de contrôle des services (SCM) prend en charge les appels de procédure distante via le protocole de contrôle de Transmission (rpc/TCP) et les canaux nommés (rpc/NP). Les fonctions SCM côté client utilisent RPC/TCP par défaut.
 
 RPC/TCP convient à la plupart des applications qui utilisent des fonctions SCM à distance, telles que l’administration à distance ou les outils de surveillance. Toutefois, pour la compatibilité et les performances, certaines applications peuvent avoir besoin de désactiver RPC/TCP en définissant les valeurs de Registre décrites dans cette rubrique.
 
-Lorsqu’un service appelle une fonction SCM distante, le SCM côté client tente d’abord d’utiliser RPC/TCP pour communiquer avec le SCM côté serveur. Si le serveur exécute une version de Windows qui prend en charge RPC/TCP et autorise le trafic RPC/TCP, la connexion RPC/TCPP est établie. Si le serveur exécute une version de Windows qui ne prend pas en charge RPC/TCP, ou prend en charge RPC/TCP, mais fonctionne derrière un pare-feu qui autorise uniquement le trafic de canal nommé, la connexion RPC/TCP expire et le SCM réessaye la connexion avec RPC/NP. Cela va aboutir, mais cela peut prendre un certain temps (généralement supérieur à 20 secondes), ce qui entraîne l’affichage du blocage de la fonction [**OpenSCManager**](/windows/desktop/api/Winsvc/nf-winsvc-openscmanagera) .
+Lorsqu’un service appelle une fonction SCM distante, le SCM côté client tente d’abord d’utiliser RPC/TCP pour communiquer avec le SCM côté serveur. si le serveur exécute une version de Windows qui prend en charge rpc/tcp et autorise le trafic rpc/tcp, la connexion rpc/TCPP est établie. si le serveur exécute une version de Windows qui ne prend pas en charge rpc/tcp, ou prend en charge rpc/tcp, mais fonctionne derrière un pare-feu qui autorise uniquement le trafic de canal nommé, la connexion rpc/tcp expire et le SCM réessaye la connexion avec RPC/NP. Cela va aboutir, mais cela peut prendre un certain temps (généralement supérieur à 20 secondes), ce qui entraîne l’affichage du blocage de la fonction [**OpenSCManager**](/windows/desktop/api/Winsvc/nf-winsvc-openscmanagera) .
 
 TCP ne contient pas les informations d’identification de l’utilisateur spécifiées avec une commande **net use** . Par conséquent, si RPC/TCP est activé et que **sc.exe** est utilisé pour tenter d’accéder au service spécifié, la commande peut échouer avec l’accès refusé. La désactivation de RPC/TCP côté client entraîne l’utilisation par la commande **sc.exe** d’un canal nommé qui contient les informations d’identification de l’utilisateur, de sorte que la commande s’exécute correctement. Pour plus d’informations sur la sc.exe, consultez [contrôle d’un service à l’aide de SC](controlling-a-service-using-sc.md).
 

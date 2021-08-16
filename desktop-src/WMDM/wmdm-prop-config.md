@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b19314b2f012d25fa2d97b44b9dc7524f9e3355
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6e50cd18f5b7646934a6add71674f93ebaae700ab39e57f833e555ea3688ecb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862819"
 ---
 # <a name="wmdm_prop_config-structure"></a>Structure de configuration de WMDM \_ prop \_
 
@@ -63,7 +63,7 @@ Pointeur vers un tableau de structures [**WMDM \_ prop \_ desc**](wmdm-prop-desc
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure de [**\_ \_ capacité de format WMDM**](wmdm-format-capability.md) retournée par [**IWMDMDevice3 :: GetFormatCapability**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability) pour un format particulier est constituée d’un certain nombre de configurations de propriétés. **WMDM \_ Les \_** structures de configuration prop décrivent ces configurations.
 

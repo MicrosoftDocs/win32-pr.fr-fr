@@ -1,10 +1,10 @@
 ---
-title: Téléphone-télécopie-autre attribut
+title: Téléphone-Fax-autre attribut
 description: Liste de numéros de télécopie de substitution.
 ms.assetid: b5e4ef38-ce91-4943-bad5-c299f83387d3
 ms.tgt_platform: multiple
 keywords:
-- Téléphone-télécopie-autre attribut schéma Active Directory
+- schéma AD d’un autre attribut Téléphone-Fax-Other
 - Schéma AD de l’attribut otherFacsimileTelephoneNumber
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12e765ce2c3f9b74b894714b99ae87deadd760d6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 99fd2e8a720299c903210f891df83e5f144882d5816fd647042190610814547d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924039"
 ---
-# <a name="phone-fax-other-attribute"></a>Téléphone-télécopie-autre attribut
+# <a name="phone-fax-other-attribute"></a>Téléphone-Fax-autre attribut
 
 Liste de numéros de télécopie de substitution.
 
@@ -45,7 +45,7 @@ Liste de numéros de télécopie de substitution.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

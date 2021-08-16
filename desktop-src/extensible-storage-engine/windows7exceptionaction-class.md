@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d8d363992042f516cc7fad4f532558d715a3e8e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad862992c6439a4298a8d9e0a5fc8e530011942d820f039b240fa2a2dbb3e532
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119718719"
 ---
 # <a name="windows7exceptionaction-class"></a>Windows7ExceptionAction, classe
 
-Action d’exception qui a été ajoutée à la version Windows 7 d’ESENT.
+action d’Exception qui a été ajoutée à la version Windows 7 d’ESENT.
 
 ## <a name="inheritance-hierarchy"></a>Hiérarchie d’héritage
 

@@ -9,12 +9,12 @@ keywords:
 - réponses des lecteurs aux fonctionnalités ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 291752d2d011fbc8b0a3e5211c5d8926f94b1cbd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8b8b8b64649388af6186155009f2a47b0f2b2c96cc42645e64dbb04f3054d7c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084496"
 ---
 # <a name="reader-response-to-asf-features"></a>Réponse du lecteur aux fonctionnalités ASF
 
@@ -39,9 +39,9 @@ La hiérarchisation des flux est définie à l’aide d’un tableau d’enregis
 [**Hiérarchisation des flux**](stream-prioritization.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

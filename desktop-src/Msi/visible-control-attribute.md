@@ -4,12 +4,12 @@ ms.assetid: 77d3164c-ea8a-4dcf-afd5-02bb2c2568c6
 title: Attribut de contrôle visible
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 550513f6bd0e40e58694c2c15a9986b5b02f289c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78abdecdc46f179b7639a6ecaa627d92b643ed781ade242a152262d38c46f7eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498799"
 ---
 # <a name="visible-control-attribute"></a>Attribut de contrôle visible
 
@@ -31,7 +31,7 @@ Tous les contrôles.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser la [table ControlCondition](controlcondition-table.md) pour afficher ou masquer un contrôle en fonction de la valeur d’une propriété ou d’une instruction conditionnelle. Vous pouvez également afficher ou masquer un contrôle en abonnant le contrôle à un [ControlEvent,](control-events.md). Entrez l’identificateur de l’attribut dans la colonne d’attribut et l’identificateur de l’événement dans la colonne d’événement de la [table EventMapping](eventmapping-table.md).
 

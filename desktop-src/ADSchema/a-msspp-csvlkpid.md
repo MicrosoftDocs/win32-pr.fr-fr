@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebd5c65ccec2368d26a84c2cbecdf95f034f7d29
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6ab710762973d4fa344c96c941ab0d0689a67fe76448047b779c2677b8093bd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022597"
 ---
 # <a name="ms-spp-csvlk-pid-attribute"></a>attribut ms-SPP-CSVLK-PID
 

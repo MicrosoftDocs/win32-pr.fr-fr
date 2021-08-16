@@ -1,11 +1,11 @@
 ---
-title: Attribut MS-SQL-AllowKnownPullSubscription
+title: attribut MS-SQL-AllowKnownPullSubscription
 description: True si la publication autorise les abonnés inscrits à s’abonner.
 ms.assetid: be3b618e-bdf5-4bb4-ac4d-51dc97e73408
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut MS-SQL-AllowKnownPullSubscription
-- Schéma AD de l’attribut mS-SQL-AllowKnownPullSubscription
+- schéma AD de l’attribut MS-SQL-AllowKnownPullSubscription
+- schéma AD de l’attribut mS-SQL-AllowKnownPullSubscription
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d07789bf68f470db69219765628ebc82b2014428
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6243c0a9158e965a3b15a676dc076ceea86c9a8c106e72dc5f29c82dc3a7289d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705457"
 ---
-# <a name="ms-sql-allowknownpullsubscription-attribute"></a>Attribut MS-SQL-AllowKnownPullSubscription
+# <a name="ms-sql-allowknownpullsubscription-attribute"></a>attribut MS-SQL-AllowKnownPullSubscription
 
 True si la publication autorise les abonnés inscrits à s’abonner.
 
@@ -45,7 +45,7 @@ True si la publication autorise les abonnés inscrits à s’abonner.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

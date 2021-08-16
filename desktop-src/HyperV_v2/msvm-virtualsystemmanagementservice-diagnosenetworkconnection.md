@@ -1,5 +1,5 @@
 ---
-description: Diagnostique la connectivité réseau d’une machine virtuelle dans un environnement de virtualisation de réseau Windows.
+description: diagnostique la connectivité réseau d’une machine virtuelle dans un environnement de virtualisation de réseau Windows.
 ms.assetid: c18f48bf-1f57-4a23-a495-462afad42750
 title: Méthode DiagnoseNetworkConnection de la classe Msvm_VirtualSystemManagementService
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 70760f771e3908265a4ac70ebc1cbdf957d652c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c82f72a9c2a2b16ad991940fcb378c41e75fdf31e9e6f8b74f23f9d115cab93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681128"
 ---
 # <a name="diagnosenetworkconnection-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Méthode DiagnoseNetworkConnection de la \_ classe VirtualSystemManagementService MSVM
 
-Diagnostique la connectivité réseau d’une machine virtuelle dans un environnement de virtualisation de réseau Windows.
+diagnostique la connectivité réseau d’une machine virtuelle dans un environnement de virtualisation de réseau Windows.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -109,7 +109,7 @@ Retourne une valeur 0 ou 4096 en cas de réussite ; Sinon, retourne une erreur.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1703 \[ uniquement\]<br/>                                               |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1703 \[ uniquement\]<br/>                                               |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

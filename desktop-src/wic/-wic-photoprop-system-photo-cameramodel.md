@@ -4,12 +4,12 @@ ms.assetid: ff85e6ee-dc75-45bc-a406-2290b012c22d
 title: Stratégie de métadonnées de photo System. photo. CameraModel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2cf9cbb2906f15d02e8d72219862c607d0f515a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e205d4d886d050e45b958f2ba0f06c6411584c4a96a717378f243e5d1dd4fae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882049"
 ---
 # <a name="systemphotocameramodel-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. CameraModel
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Came
 
 \_Photo \_ CameraModel
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                   | Format de disque |
+| Commande | Chemin                   | Format de disque |
 |-------|------------------------|-------------|
 | 1     | /App1/IFD/{UShort = 272} | ascii       |
 | 2     | /XMP/TIFF : modèle        | unicode     |
@@ -59,7 +59,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                   | Format de disque |
+| Commande | Chemin                   | Format de disque |
 |-------|------------------------|-------------|
 | 1     | /App1/IFD/{UShort = 272} | ascii       |
 | 2     | /XMP/TIFF : modèle        | unicode     |
@@ -73,7 +73,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                   |
+| Commande | Chemin                   |
 |-------|------------------------|
 | 1     | /App1/IFD/{UShort = 272} |
 | 2     | /XMP/TIFF : modèle        |
@@ -89,7 +89,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                | Format de disque |
+| Commande | Chemin                | Format de disque |
 |-------|---------------------|-------------|
 | 1     | /IFD/{UShort = 272}   | ascii       |
 | 2     | /IFD/XMP/TIFF : modèle | unicode     |
@@ -103,7 +103,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                | Format de disque |
+| Commande | Chemin                | Format de disque |
 |-------|---------------------|-------------|
 | 1     | /IFD/{UShort = 272}   | ascii       |
 | 2     | /IFD/XMP/TIFF : modèle | unicode     |
@@ -117,7 +117,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                |
+| Commande | Chemin                |
 |-------|---------------------|
 | 1     | /IFD/{UShort = 272}   |
 | 2     | /IFD/XMP/TIFF : modèle |
@@ -127,7 +127,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

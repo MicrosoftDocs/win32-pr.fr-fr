@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0537472a787d3689a259bfb79e9e4cd451c4aa1d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d4c9356e580400b6037feac4c90e5579da21d15ca9234c6f6df7a563932605c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929849"
 ---
 # <a name="acs-enable-rsvp-message-logging-attribute"></a>ACS-Enable-RSVP-attribut de journalisation des messages
 
@@ -45,7 +45,7 @@ True si la journalisation RSVP est activée.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

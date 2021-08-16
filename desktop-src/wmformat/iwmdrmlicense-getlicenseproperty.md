@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bf7fe91c57b9c69934f093cdd504b5e6d35efb8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 167fc0aa050765700805b4339e68142fa5d1eb7fc99e010c7393095dd9aa5c0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084839"
 ---
 # <a name="iwmdrmlicensegetlicenseproperty-method"></a>IWMDRMLicense :: GetLicenseProperty, méthode
 
@@ -53,7 +53,7 @@ Nom de la propriété à récupérer. Définissez l’une des constantes dans le
 
 | Constante                   | Description                                                                                                          |
 |----------------------------|----------------------------------------------------------------------------------------------------------------------|
-| révocation de \_ wszWMDRMNet g \_ | Utilisez pour obtenir la liste de révocation de Windows Media DRM pour les périphériques réseau pour la licence actuelle.                        |
+| révocation de \_ wszWMDRMNet g \_ | utilisez pour obtenir le Windows Media DRM pour la liste de révocation des périphériques réseau pour la licence actuelle.                        |
 | g \_ wszWMDRM \_ SAPLEVEL      | Utilisez pour obtenir le niveau de chemin d’accès audio sécurisé (SAP) requis pour lire le contenu couvert par la licence actuelle.                |
 | g \_ wszWMDRM \_ SAPRequired   | Utilisez pour vérifier si la licence actuelle requiert que SAP soit utilisé pour lire le contenu.                               |
 | \_wszWMDRM \_ SOURCEID      | Utilisez pour obtenir l’identificateur source de la licence actuelle.                                                            |
@@ -75,7 +75,7 @@ Reçoit la valeur de la propriété.
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

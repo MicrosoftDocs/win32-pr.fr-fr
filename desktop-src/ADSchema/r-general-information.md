@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a1b57688950c0705389916856bebba9378be0b0
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5f0d90bb141ab8c169e121de24a6c74864e7e99f56365784fff7d11ffb82a665
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103949918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922269"
 ---
 # <a name="general-information-property-set"></a>Jeu de propriétés General-Information
 
@@ -40,7 +40,7 @@ Jeu de propriétés contenant un ensemble d’attributs utilisateur qui constitu
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

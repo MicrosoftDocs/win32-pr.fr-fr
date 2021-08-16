@@ -1,6 +1,6 @@
 ---
-title: Identificateurs de type de média pour le kit de développement logiciel (SDK) Windows Media format
-description: En savoir plus sur les identificateurs de type de média utilisés pour définir le format des médias utilisés avec le kit de développement logiciel (SDK) Windows Media format.
+title: identificateurs de Type de média pour Windows media Format SDK
+description: en savoir plus sur les identificateurs de type de média utilisés pour définir le format des médias utilisés avec le kit de développement logiciel (SDK) Windows media format.
 ms.assetid: 5d903953-cd6b-4fba-b877-8c7ad3aeb87d
 keywords:
 - Windows Media Format SDK, identificateurs de type de média
@@ -9,16 +9,16 @@ keywords:
 - types de média, identificateurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8e4c01ba134dec4d4474a1949310fd5217cf7e6
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: a38d25a48e0cbee8925da64e8470ff1723656a6f11cd5ac57e1479108df52852
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106534954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084686"
 ---
-# <a name="media-type-identifiers-for-the-windows-media-format-sdk"></a>Identificateurs de type de média pour le kit de développement logiciel (SDK) Windows Media format
+# <a name="media-type-identifiers-for-the-windows-media-format-sdk"></a>identificateurs de Type de média pour le kit de développement logiciel (SDK) Windows media Format
 
-Vous devez utiliser des types de médias pour définir le format des médias utilisés avec le kit de développement logiciel (SDK) de format Windows Media. Pour obtenir une description des différents types de médias, consultez [types de médias](media-types.md).
+vous devez utiliser des types de médias pour définir le format des médias utilisés avec le kit de développement logiciel (SDK) Windows media format. Pour obtenir une description des différents types de médias, consultez [types de médias](media-types.md).
 
 Le tableau suivant répertorie les identificateurs globaux pour tous les types de média pris en charge et leurs valeurs GUID correspondantes.
 

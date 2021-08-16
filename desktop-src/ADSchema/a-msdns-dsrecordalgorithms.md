@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58b721a616b5b1967449965ef2c7dc9ad9889ca6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0a65ac7cde340cca7a07c5f4aedfd8f2e63babcc4c6f981a8efa6368b3b20968
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924469"
 ---
 # <a name="ms-dns-ds-record-algorithms-attribute"></a>attribut ms-DNS-DS-record-algorithmes
 
@@ -36,7 +36,7 @@ Attribut utilisé pour définir les algorithmes utilisés lors de l’écriture 
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2134              |
 | System-ID-GUID    | 5c5b7ad2-20fa-44bb-beb3-34b9c0f65579 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 

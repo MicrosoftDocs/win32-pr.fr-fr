@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5e0df9015182702a2be5d42eca172d4ef0c0b7b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3688ffb92e53c068541fd1579a6857ea66610eafb37aa175a5bbdecf33c147e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837012"
 ---
 # <a name="pki-critical-extensions-attribute"></a>Attribut PKI-Critical-extensions
 
@@ -45,7 +45,7 @@ Liste des extensions critiques dans le modèle de certificat.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

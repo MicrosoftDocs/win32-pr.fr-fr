@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 12949997363fce8073c15f7ca6b7312c211fa0f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3beb67ccdd4a50cdbb52e41846f46fcb4f2545dd833d30098e29c4d5887f8fae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926069"
 ---
 # <a name="productinstallproperty-method"></a>Méthode Product. InstallProperty
 
@@ -58,7 +58,7 @@ Spécifie la propriété à récupérer. Les propriétés de la liste suivante p
 | <span id="INSTALLPROPERTY_INSTALLLOCATION"></span><span id="installproperty_installlocation"></span><dl> <dt>**INSTALLPROPERTY \_ InstallLocation**</dt> </dl>                | Emplacement d’installation. Pour plus d’informations, consultez la propriété [**ARPINSTALLLOCATION**](arpinstalllocation.md) .<br/>                                                                                                                                                                                                                                                      |
 | <span id="INSTALLPROPERTY_INSTALLSOURCE"></span><span id="installproperty_installsource"></span><dl> <dt>**INSTALLPROPERTY \_ INSTALLSOURCE**</dt> </dl>                      | Source d’installation. Pour plus d’informations, consultez la propriété [**SourceDir**](sourcedir.md) .<br/>                                                                                                                                                                                                                                                                          |
 | <span id="INSTALLPROPERTY_LOCALPACKAGE"></span><span id="installproperty_localpackage"></span><dl> <dt>**INSTALLPROPERTY \_ LOCALPACKAGE**</dt> </dl>                         | Package local mis en cache.<br/>                                                                                                                                                                                                                                                                                                                                                |
-| <span id="INSTALLPROPERTY_PUBLISHER"></span><span id="installproperty_publisher"></span><dl> <dt>**serveur de \_ publication INSTALLPROPERTY**</dt> </dl>                                  | Publication. Pour plus d’informations, consultez la propriété [**Manufacturer**](manufacturer.md) .<br/>                                                                                                                                                                                                                                                                              |
+| <span id="INSTALLPROPERTY_PUBLISHER"></span><span id="installproperty_publisher"></span><dl> <dt>**serveur de \_ publication INSTALLPROPERTY**</dt> </dl>                                  | Publisher. Pour plus d’informations, consultez la propriété [**Manufacturer**](manufacturer.md) .<br/>                                                                                                                                                                                                                                                                              |
 | <span id="INSTALLPROPERTY_URLINFOABOUT"></span><span id="installproperty_urlinfoabout"></span><dl> <dt>**INSTALLPROPERTY \_ URLINFOABOUT**</dt> </dl>                         | Informations sur l’URL. Pour plus d’informations, consultez la propriété [**ARPURLINFOABOUT**](arpurlinfoabout.md) .<br/>                                                                                                                                                                                                                                                                  |
 | <span id="INSTALLPROPERTY_URLUPDATEINFO"></span><span id="installproperty_urlupdateinfo"></span><dl> <dt>**INSTALLPROPERTY \_ URLUPDATEINFO**</dt> </dl>                      | Informations de mise à jour d’URL. Pour plus d’informations, consultez la propriété [**ARPURLUPDATEINFO**](arpurlupdateinfo.md) .<br/>                                                                                                                                                                                                                                                         |
 | <span id="INSTALLPROPERTY_VERSIONMINOR"></span><span id="installproperty_versionminor"></span><dl> <dt>**INSTALLPROPERTY \_ VERSIONMINOR**</dt> </dl>                         | Version mineure du produit dérivée de la propriété [**ProductVersion**](productversion.md) .<br/>                                                                                                                                                                                                                                                                            |
@@ -89,7 +89,7 @@ Pour récupérer le type d’instance du produit, affectez à la *propriété* l
 
 | Valeur        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| InstanceType | Une valeur manquante ou une valeur de 0 indique une installation normale du produit. La valeur 1 indique un produit installé à l’aide d’une transformation à plusieurs instances et de la propriété [**MSINEWINSTANCE**](msinewinstance.md) . Disponible avec le programme d’installation exécutant Windows Server 2003 ou Windows XP avec SP1. Pour plus d’informations, consultez [installation de plusieurs instances de produits et de correctifs](installing-multiple-instances-of-products-and-patches.md). |
+| InstanceType | Une valeur manquante ou une valeur de 0 indique une installation normale du produit. La valeur 1 indique un produit installé à l’aide d’une transformation à plusieurs instances et de la propriété [**MSINEWINSTANCE**](msinewinstance.md) . disponible avec le programme d’installation exécutant Windows Server 2003 ou Windows XP avec SP1. Pour plus d’informations, consultez [installation de plusieurs instances de produits et de correctifs](installing-multiple-instances-of-products-and-patches.md). |
 
 
 
@@ -109,7 +109,7 @@ Les propriétés de la liste suivante peuvent également être récupérées à 
 | VERSION de INSTALLPROPERTY \_              | Version du produit dérivée de la propriété [**ProductVersion**](productversion.md) .                                                                                                                                                                                                                  |
 | INSTALLPROPERTY \_ PRODUCTICON          | Icône principale du package. Pour plus d’informations, consultez la propriété [**ARPPRODUCTICON**](arpproducticon.md) .                                                                                                                                                                                       |
 | INSTALLPROPERTY \_ PackageName          | Nom du package d’installation d’origine.                                                                                                                                                                                                                                                           |
-| \_ \_ application Lua autorisée \_ INSTALLPROPERTY | La valeur 1 indique un produit qui peut être desservi par des non-administrateurs à l’aide de la mise à [jour corrective du contrôle de compte d’utilisateur](user-account-control--uac--patching.md). Une valeur manquante ou une valeur de 0 indique que la mise à jour corrective des privilèges minimum n’est pas activée. Disponible avec Windows Installer 3,0 et versions ultérieures. |
+| \_ \_ application Lua autorisée \_ INSTALLPROPERTY | La valeur 1 indique un produit qui peut être desservi par des non-administrateurs à l’aide de la mise à [jour corrective du contrôle de compte d’utilisateur](user-account-control--uac--patching.md). Une valeur manquante ou une valeur de 0 indique que la mise à jour corrective des privilèges minimum n’est pas activée. disponible avec Windows Installer 3,0 et versions ultérieures. |
 
 
 
@@ -121,7 +121,7 @@ Les propriétés de la liste suivante peuvent également être récupérées à 
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’appel a échoué, la propriété contient la valeur sous forme de chaîne.
 
@@ -131,7 +131,7 @@ Si l’appel a échoué, la propriété contient la valeur sous forme de chaîne
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer 3,0 ou version ultérieure sur Windows Server 2003, Windows XP et Windows 2000<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows programme d’installation 3,0 ou version ultérieure sur Windows Server 2003, Windows XP et Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |
 | IID<br/>     | IID \_ IProduct est défini en tant que 000C10A0-0000-0000-C000-000000000046<br/>                                                                                                                                                                                                          |
 
@@ -144,7 +144,7 @@ Si l’appel a échoué, la propriété contient la valeur sous forme de chaîne
 [**Production**](product-object.md)
 </dt> <dt>
 
-[Non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
+[non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

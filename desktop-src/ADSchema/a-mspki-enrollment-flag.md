@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2df092e28633bd5825c422e306bf7a65982b32a8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f13f25d3c9e2d34979715f0b225ca399b1cf11193a2dc9107b9370b2ea44b5d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803119"
 ---
 # <a name="ms-pki-enrollment-flag-attribute"></a>MS-PKI-inscription-attribut d’indicateur
 
@@ -36,7 +36,7 @@ Contient les indicateurs liés à l’inscription.
 | Fréquence des mises à jour  | Lorsque l’objet modèle de certificat (MS-PKI-Certificate-template) est modifié, créé ou cloné. |
 | Attribute-Id      | 1.2.840.113556.1.4.1430                                                                           |
 | System-ID-GUID    | d15ef7d8-f226-46db-ae79-b34e560bd12c                                                              |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)                                                              |
+| Syntaxe            | [**Énumération**](s-enumeration.md)                                                              |
 
 
 
@@ -44,7 +44,7 @@ Contient les indicateurs liés à l’inscription.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

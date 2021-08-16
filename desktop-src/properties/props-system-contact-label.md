@@ -4,12 +4,12 @@ ms.assetid: c0bc416a-01c6-465b-adb5-46de3bdb2c9a
 title: System. contact. label
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5a8eb1cf3b304af4012b2c03ffe6a38ad042e22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92a6b79409e5202fc8d7b64fc3feb6ee8aaead82071ed70c326262db999dc450
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717799"
 ---
 # <a name="systemcontactlabel"></a>System. contact. label
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,12 +4,12 @@ description: Les valeurs de retour de fonction sont similaires aux paramètres \
 ms.assetid: 98d8d228-7222-49bf-9f29-7749a7a76d5a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08ada3808d024f201ef01a5f4977149a0ab9c75e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 525c63422b058da5267003711efa612814907eb91ced353bd78ee78a820a7377
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020999"
 ---
 # <a name="function-return-values"></a>Valeurs de retour de fonction
 
@@ -19,6 +19,6 @@ Toutefois, il est recommandé d’utiliser un paramètre **\[ out \]** au lieu d
 
 Les valeurs de retour de fonction qui sont des types pointeur sont allouées par le stub client avec un appel à [MIDL \_ User \_ allocate](/windows/desktop/Midl/midl-user-allocate-1). En conséquence, seul l’attribut de pointeur complet ou unique peut être appliqué à un type de retour de fonction de pointeur.
 
- 
+ 
 
- 
+ 

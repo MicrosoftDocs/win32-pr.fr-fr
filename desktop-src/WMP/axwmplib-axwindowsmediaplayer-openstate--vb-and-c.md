@@ -3,9 +3,9 @@ title: AxWindowsMediaPlayer. openState, propriété
 description: La propriété openState obtient une valeur d’énumération indiquant l’état de la source de contenu.
 ms.assetid: 7a76814a-649f-4516-a92a-5f536fb1b147
 keywords:
-- propriété openState lecteur Windows Media
-- propriété openState lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, propriété openState
+- Lecteur Windows Media de la propriété openState
+- Lecteur Windows Media de la propriété openState, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, propriété openState
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 919bf906ce67793c4cd26f32892eae8acf441295
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 09fa09451bf323a9f30afeddf7b2d003183a1eba7b0999a79fb42c70e1417013
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573569"
 ---
 # <a name="axwindowsmediaplayeropenstate-property"></a>AxWindowsMediaPlayer. openState, propriété
 
@@ -50,9 +50,9 @@ Public ReadOnly Property openState As WMPOpenState
 
 Valeur d’énumération WMPLib. WMPOpenState.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Il n’est pas garanti que les États du lecteur Windows Media se produisent dans un ordre particulier. En outre, tous les États ne se produisent pas nécessairement au cours d’une séquence d’événements. Vous ne devez pas écrire du code qui s’appuie sur l’ordre de l’État.
+il n’est pas garanti que les états de Lecteur Windows Media se produisent dans un ordre particulier. En outre, tous les États ne se produisent pas nécessairement au cours d’une séquence d’événements. Vous ne devez pas écrire du code qui s’appuie sur l’ordre de l’État.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -70,7 +70,7 @@ Il n’est pas garanti que les États du lecteur Windows Media se produisent dan
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**Événement AxWindowsMediaPlayer. OpenStateChange**](axwmplib-axwindowsmediaplayer-openstatechange.md)

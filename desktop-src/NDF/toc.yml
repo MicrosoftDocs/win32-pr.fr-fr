@@ -195,23 +195,23 @@
         - name: Classes d’assistance extensibles
           href: extensible-helper-classes.md
           items:
-            - name: Classe d’assistance extensible de plateforme de filtrage Windows
+            - name: Windows Classe d’assistance extensible de la plateforme de filtrage
               href: windows-filtering-platform-extensible-helper-class.md
             - name: 'Classes d’assistance extensibles pour les diagnostics sans fil 802,11'
               href: 802-11-wireless-diagnostics-extensible-helper-classes.md
-    - name: Traçage réseau dans Windows 7
+    - name: traçage réseau dans Windows 7
       href: network-tracing-in-windows-7.md
       items:
-        - name: "Traçage réseau dans Windows 7\_: architecture"
+        - name: "traçage réseau dans Windows 7\_: Architecture"
           href: network-tracing-in-windows-7-architecture.md
-        - name: Outils de résolution des problèmes à l’aide du suivi réseau dans Windows 7
+        - name: outils de résolution des problèmes à l’aide du traçage réseau dans Windows 7
           href: tools-for-troubleshooting-network-tracing-in-windows-7.md
           items:
             - name: Utilisation de netsh pour gérer les traces
               href: using-netsh-to-manage-traces.md
             - name: Utilisation de Moniteur réseau pour afficher les fichiers ETL
               href: using-network-monitor-to-view-etl-files.md
-        - name: "Traçage réseau dans Windows 7\_: scénarios"
+        - name: "traçage réseau dans Windows 7\_: scénarios"
           href: network-tracing-in-windows-7-scenarios.md
           items:
             - name: Résolution des problèmes de connexion Internet

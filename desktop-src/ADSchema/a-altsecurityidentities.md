@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2548e337f29778400bb173a8c15d928d7b06d988
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 62338280079ca5a3732ba3d72941fdb9b978720692b7211ae41612651f86387d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022797"
 ---
 # <a name="alt-security-identities-attribute"></a>Attribut alt-Security-Identities
 
@@ -45,7 +45,7 @@ Contient des mappages pour les certificats X. 509 ou des comptes d’utilisateur
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

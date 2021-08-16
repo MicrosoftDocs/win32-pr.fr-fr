@@ -4,16 +4,16 @@ ms.assetid: f51ff969-c13c-4584-9795-1e4748eeb91d
 title: WordInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e439c408c84a126a5e26babb07700a91e9590b10
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5c1e3f6dce116e41550c12327d0c7c3d82ee4d6a41cb409c4b2791246df81dd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079659"
 ---
 # <a name="wordinfo"></a>WordInfo
 
-\[Cette classe est obsolète et n’est pas prise en charge sur Windows Vista.\]
+\[cette classe est obsolète et n’est pas prise en charge sur Windows Vista.\]
 
 Divise le texte japonais en mots ou formulaires de dictionnaire.
 
@@ -37,7 +37,7 @@ Les deux
 
 [**IWordInfo**](iwordinfo.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le format de dictionnaire du mot est le formulaire racine ou de base du mot avec les fins de déflexion supprimées.
 

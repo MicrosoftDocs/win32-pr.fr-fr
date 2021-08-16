@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 24b2e786e2821c39c6ff67f5919dca2ac0c6bfe9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15aa93b70840e13901f88c40c715024ec33a835be14b7453da99aecae079b487
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879009"
 ---
 # <a name="capicom_store_location-enumeration"></a>\_Énumération de l’emplacement du magasin CAPICOM \_
 
@@ -38,7 +38,7 @@ Le type d’énumération de l' **\_ \_ emplacement du magasin CAPICOM** indique
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le type d’énumération de l' **\_ \_ emplacement du magasin CAPICOM** est utilisé par les méthodes suivantes :
 
@@ -51,7 +51,7 @@ Le type d’énumération de l' **\_ \_ emplacement du magasin CAPICOM** est uti
 
 | Condition requise | Valeur |
 |----------------------------|--------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
 | En-tête<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 

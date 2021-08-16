@@ -4,12 +4,12 @@ description: Cette section contient des informations générales sur la fonction
 ms.assetid: dd104661-1e0c-4569-9753-817bcded1894
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 121a4df5aa6fab222a5c4387ebdcfba51a7977b2
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 7f4961d80c04f8fa570286666511c04b1208c940369cd13b836095b8899505de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104463863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922489"
 ---
 # <a name="about-custom-draw"></a>À propos du dessin personnalisé
 
@@ -26,7 +26,7 @@ Cette section contient des informations générales sur la fonctionnalité de de
 <!-- -->
 
 -   [À propos des messages de notification de dessin personnalisés](#about-custom-draw-notification-messages)
--   [Cycles de peinture, étapes de dessin et messages de notification](#paint-cycles-drawing-stages-and-notification-messages)
+-   [Paint Cycles, dessins de phases et messages de notification](#paint-cycles-drawing-stages-and-notification-messages)
 -   [Tirer parti des services de dessin personnalisés](#taking-advantage-of-custom-draw-services)
     -   [Réponse à la notification de prépaint](#responding-to-the-prepaint-notification)
     -   [Demande de notifications spécifiques à un élément](#requesting-item-specific-notifications)
@@ -54,11 +54,11 @@ Le paramètre *lParam* d’une notification de dessin personnalisée est l’adr
 
 
 
- 
+ 
 
-## <a name="paint-cycles-drawing-stages-and-notification-messages"></a>Cycles de peinture, étapes de dessin et messages de notification
+## <a name="paint-cycles-drawing-stages-and-notification-messages"></a>Paint Cycles, dessins de phases et messages de notification
 
-Comme toutes les applications Windows, les contrôles communs se dessinent et s’effacent régulièrement en fonction des messages reçus du système ou d’autres applications. Le processus d’un contrôle qui se dessine ou efface lui-même est appelé « *cycle de peinture*». Les contrôles qui prennent en charge les codes de notification [ \_ CUSTOMDRAW](nm-customdraw.md) d’envoi de dessin en nm personnalisés périodiquement à chaque cycle de peinture. Ce code de notification est accompagné d’une structure [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) ou d’une autre structure qui contient une structure **NMCUSTOMDRAW** en tant que premier membre.
+comme toutes les applications Windows, les contrôles communs sont automatiquement peints et effacés en fonction des messages reçus du système ou d’autres applications. Le processus d’un contrôle qui se dessine ou efface lui-même est appelé « *cycle de peinture*». Les contrôles qui prennent en charge les codes de notification [ \_ CUSTOMDRAW](nm-customdraw.md) d’envoi de dessin en nm personnalisés périodiquement à chaque cycle de peinture. Ce code de notification est accompagné d’une structure [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) ou d’une autre structure qui contient une structure **NMCUSTOMDRAW** en tant que premier membre.
 
 L’une des informations que contient la structure [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) est l’étape actuelle du cycle de peinture. C’est ce que l’on appelle la *phase de dessin* et est représenté par la valeur dans le membre **dwDrawStage** de la structure. Un contrôle informe son parent des quatre étapes de dessin de base. Ces étapes de base, ou globale, de dessin sont représentées dans la structure par les valeurs d’indicateur suivantes (définies dans commctrl. h).
 
@@ -73,7 +73,7 @@ L’une des informations que contient la structure [**NMCUSTOMDRAW**](/windows/w
 
 
 
- 
+ 
 
 Chacune des valeurs précédentes peut être combinée à l' \_ indicateur d’élément CDDS pour spécifier les étapes de dessin spécifiques aux éléments. Pour plus de commodité, commctrl. h contient les valeurs spécifiques aux éléments suivantes.
 
@@ -89,7 +89,7 @@ Chacune des valeurs précédentes peut être combinée à l' \_ indicateur d’�
 
 
 
- 
+ 
 
 Votre application doit traiter le code de notification [ \_ CUSTOMDRAW nm](nm-customdraw.md) , puis retourner une valeur spécifique qui informe le contrôle de ce qu’il doit faire. Consultez les sections suivantes pour plus d’informations sur ces valeurs de retour.
 
@@ -112,7 +112,7 @@ Au début de chaque cycle de peinture, le contrôle envoie le code de notificati
 
 
 
-| Valeur retournée            | Résultat                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Valeur retournée            | Effet                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CDRF \_ par défaut         | Le contrôle se dessine lui-même. Il n’enverra pas de notifications [ \_ CUSTOMDRAW nm](nm-customdraw.md) supplémentaires pour ce cycle de peinture. Cet indicateur ne peut pas être utilisé avec un autre indicateur.                                                                                                                                                                                                                                                                               |
 | CDRF, \_ INerase           | Le contrôle dessinera uniquement l’arrière-plan.                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -126,7 +126,7 @@ Au début de chaque cycle de peinture, le contrôle envoie le code de notificati
 
 
 
- 
+ 
 
 ### <a name="requesting-item-specific-notifications"></a>Demande de notifications spécifiques à un élément
 
@@ -145,7 +145,7 @@ Pour modifier les couleurs de texte pour tous les contrôles qui prennent en cha
 > [!Note]  
 > Avant la [Version 6,0](common-control-versions.md) des contrôles communs, les barres d’outils ignorent l’indicateur [**CDRF \_ NEWFONT**](cdrf-constants.md) . La version 6,0 prend en charge l’indicateur **CDRF \_ NEWFONT** , et vous pouvez l’utiliser pour sélectionner une police différente pour la barre d’outils. Toutefois, vous ne pouvez pas modifier la couleur d’une barre d’outils quand un style visuel est actif. Pour modifier la couleur d’une barre d’outils dans la version 6,0, vous devez d’abord désactiver les styles visuels en appelant [**SetWindowTheme**](/windows/desktop/api/Uxtheme/nf-uxtheme-setwindowtheme) et en ne spécifiant aucun style visuel :
 
- 
+ 
 
 
 ```
@@ -196,6 +196,6 @@ Pour obtenir un exemple de gestionnaire de notification [ \_ CUSTOMDRAW](nm-cust
 [EXEMPLE : CustDTv illustre un dessin personnalisé dans un contrôle TreeView (Q248496)]( https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

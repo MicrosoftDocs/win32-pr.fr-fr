@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété de l’objet Characters de gauche
 ms.assetid: f496f075-6430-4806-a237-1c7b626d355e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e2f860e6827a9c96c42014456e43b791ab70ed4
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: e546dc662dc535889eb6c3a476a54b839c5d9577a7e2ff525eeadf79f727fbf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111988935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105015"
 ---
 # <a name="left-property-characters-object"></a>Propriété Left (objet Characters)
 

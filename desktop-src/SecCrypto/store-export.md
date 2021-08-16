@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: dbf4a2912cb62935447daa1589b6829c5a96488e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9adf0f42d64e0bc7ced76441ae0fe1da2d2b6609d9d717d5e3b26f8dd07db7b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897802"
 ---
 # <a name="storeexport-method"></a>Store. Export, méthode
 
@@ -89,7 +89,7 @@ Cette méthode retourne une chaîne qui contient les certificats dans le magasin
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

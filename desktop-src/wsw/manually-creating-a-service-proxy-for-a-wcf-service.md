@@ -1,19 +1,19 @@
 ---
 title: Création manuelle d’un proxy de service pour un service WCF
-description: Le moyen le plus simple de créer un proxy de service client pour un service Windows Communication Foundation (WCF) se situe au niveau de la couche de modèle de service avec l’outil WsUtil, comme décrit dans la rubrique Création d’un client.
+description: le moyen le plus simple de créer un proxy de service client pour un service Windows Communication Foundation (WCF) se situe au niveau de la couche de modèle de service avec l’outil WsUtil, comme décrit dans la rubrique création d’un client.
 ms.assetid: ef545090-382b-44bd-b7ab-f5a285b6e202
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e061fda95298986ee6336dee0662d80c89a0a5a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 33133ae48dee89e72871712d445453e237116f6f1fa08cf66a76381ea8d3d424
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106543608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927249"
 ---
 # <a name="manually-creating-a-service-proxy-for-a-wcf-service"></a>Création manuelle d’un proxy de service pour un service WCF
 
-Le moyen le plus simple de créer un proxy de service client pour un service Windows Communication Foundation (WCF) se situe au niveau de la couche de [modèle de service](service-model-layer-overview.md) avec l’outil WsUtil, comme décrit dans la rubrique [création d’un client](creating-a-client.md) . Toutefois, si nécessaire, vous pouvez également créer un proxy de service manuellement. Cette API comprend une fonction [**WsCreateServiceProxy**](/windows/desktop/api/WebServices/nf-webservices-wscreateserviceproxy) pour la création du proxy de service ainsi que des structures, des énumérations, etc. pour définir les propriétés nécessaires à l’interopérabilité avec WCF.
+le moyen le plus simple de créer un proxy de service client pour un service Windows Communication Foundation (WCF) se situe au niveau de la couche de [modèle de service](service-model-layer-overview.md) avec l’outil WsUtil, comme décrit dans la rubrique [création d’un client](creating-a-client.md) . Toutefois, si nécessaire, vous pouvez également créer un proxy de service manuellement. Cette API comprend une fonction [**WsCreateServiceProxy**](/windows/desktop/api/WebServices/nf-webservices-wscreateserviceproxy) pour la création du proxy de service ainsi que des structures, des énumérations, etc. pour définir les propriétés nécessaires à l’interopérabilité avec WCF.
 
 WCF fournit un certain nombre de liaisons standard, chacune ciblant un scénario d’utilisation spécifique. La liaison que le service auquel vous essayez de connecter utilise, à son tour, détermine les propriétés de canal que vous devez personnaliser pour que votre proxy de service communique avec le service.
 
@@ -95,11 +95,11 @@ Le tableau que vous avez déclaré pour contenir les propriétés est copié dan
 
 ## <a name="other-bindings"></a>Autres liaisons
 
-En outre, WWSAPI fournit des mécanismes permettant de créer des proxys de service pour communiquer avec les services WCF à l’aide d’autres liaisons, telles que NetTcpBinding et WSFederationHttpBinding. La plupart de ces liaisons requièrent la définition de propriétés de canal supplémentaires, telles que les descripteurs de sécurité. Pour obtenir des exemples qui illustrent l’utilisation d’autres liaisons, consultez la section [exemples de services Web Windows](windows-web-services-examples.md), en particulier les [exemples de couche de canal TCP](tcp-channel-layer-examples.md), les exemples de couche de [canal http](http-channel-layer-examples.md)et les sous-sections [exemples de couche](security-channel-layer-examples.md) de canal de sécurité.
+En outre, WWSAPI fournit des mécanismes permettant de créer des proxys de service pour communiquer avec les services WCF à l’aide d’autres liaisons, telles que NetTcpBinding et WSFederationHttpBinding. La plupart de ces liaisons requièrent la définition de propriétés de canal supplémentaires, telles que les descripteurs de sécurité. pour obtenir des exemples qui illustrent l’utilisation d’autres liaisons, consultez la section exemples de [Services Web Windows](windows-web-services-examples.md),, en particulier les [exemples de couche de canal TCP](tcp-channel-layer-examples.md), les [exemples de couche de canal HTTP](http-channel-layer-examples.md)et les sous-sections [exemples de couche](security-channel-layer-examples.md) de canal de sécurité.
 
- 
+ 
 
- 
+ 
 
 
 

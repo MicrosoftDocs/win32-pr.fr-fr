@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: a476f9653b7deced48394af0ecaa0ea0c8ae51e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efef054a324244553748b75659820f582100a01ed6f56f9a2f80b0ef0c08f105
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706319"
 ---
 # <a name="itemtransfer-method"></a>Item. Transfer, méthode
 
@@ -73,13 +73,13 @@ Par défaut. Définissez cette valeur sur **true** si l’appel doit être async
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode s’applique uniquement aux éléments de type de fichier. La méthode vérifie que l’élément prend en charge cette méthode avant de tenter d’effectuer le transfert de données.
 
 Utilisez « Clipboard » comme paramètre de *nom de fichier* pour transférer un élément dans le presse-papiers.
 
-Affectez la valeur **false** à *AsyncTransfer* pour les transferts au sein d’une application ou d’un script qui s’exécute dans un environnement qui termine un processus à la fin d’un script, tel que Windows Script Host (WSH). Dans le cas contraire, le script peut se terminer et le processus se terminer avant la fin du transfert.
+affectez la valeur **false** à *AsyncTransfer* pour les transferts au sein d’une application ou d’un script qui s’exécute dans un environnement qui termine un processus à la fin d’un script, tel que Windows script Host (WSH). Dans le cas contraire, le script peut se terminer et le processus se terminer avant la fin du transfert.
 
 La méthode de **transfert** n’a pas de valeur de retour. Une fois le transfert terminé, cette méthode envoie un événement [**OnTransferComplete**](-wia--iwiaevents-ontransfercomplete.md) au script ou à l’application.
 
@@ -119,8 +119,8 @@ Next
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (version 4,90 ou ultérieure)</dt> </dl> |
 
 

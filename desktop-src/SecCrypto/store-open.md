@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: ef4ffe89a4b726ecfa33fb95d213d809cae2487b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d70c6410d0ecb8edb91aa722bcf6f35cb9536c3ed2b7f03c2d5cb141937aeb69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897803"
 ---
 # <a name="storeopen-method"></a>Store. Open, méthode
 
@@ -124,7 +124,7 @@ Les magasins situés dans certains emplacements ne peuvent être ouverts qu’en
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cette méthode est appelée sur un magasin de cartes à puce, d’autres interfaces utilisateur de carte à puce peuvent être appelées.
 
@@ -141,7 +141,7 @@ Si *StoreLocation* est un **magasin d' \_ \_ utilisateurs de \_ carte \_ à puce
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 
@@ -156,7 +156,7 @@ Si *StoreLocation* est un **magasin d' \_ \_ utilisateurs de \_ carte \_ à puce
 [**Objets de chiffrement**](cryptography-objects.md)
 </dt> <dt>
 
-[**Fermer**](store-close.md)
+[**Plus**](store-close.md)
 </dt> </dl>
 
  
