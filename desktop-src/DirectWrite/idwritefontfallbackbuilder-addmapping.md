@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a084aa2a9df0e34741c8bf5f39ae00933d49cfe7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0b6496ac9ef9bdfa574cc2c4710ed4620fd855dbf5eff2b22885b32bf343d141
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650439"
 ---
 # <a name="idwritefontfallbackbuilderaddmapping-method"></a>IDWriteFontFallbackBuilder :: AddMapping, méthode
 
@@ -52,13 +52,13 @@ HRESULT AddMapping(
 *gamme* 
 </dt> <dd>
 
-Type : **[**DWRITE \_ Unicode \_ Range**](/windows/win32/api/Dwrite_1/ns-dwrite_1-dwrite_unicode_range) \** _
+Type : **[ **DWRITE \_ Unicode \_ Range**](/windows/win32/api/Dwrite_1/ns-dwrite_1-dwrite_unicode_range)\***
 
 Plages Unicode qui s’appliquent à ce mappage.
 
 </dd> <dt>
 
-_rangesCount * 
+*rangesCount* 
 </dt> <dd>
 
 Type : **UInt32**
@@ -97,22 +97,22 @@ Collection de polices explicites facultative pour ce mappage.
 *localeName* \[ dans, facultatif\]
 </dt> <dd>
 
-Type : **const WCHAR \** _
+Type : **const WCHAR \***
 
 Paramètres régionaux du contexte.
 
 </dd> <dt>
 
-_baseFamilyName * \[ in, facultatif\]
+*baseFamilyName* \[ dans, facultatif\]
 </dt> <dd>
 
-Type : **const WCHAR \** _
+Type : **const WCHAR \***
 
 Nom de famille de base avec lequel effectuer la correspondance, le cas échéant.
 
 </dd> <dt>
 
-_scale * 
+*scale* 
 </dt> <dd>
 
 Type : **float**
@@ -133,8 +133,8 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | \[Applications Windows 8.1 Desktop Apps \| UWP\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2012 R2 \[ Desktop Apps \| UWP\]<br/>                          |
+| Client minimal pris en charge<br/> | \[applications Windows 8.1 desktop apps \| UWP\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 Applications de \[ Bureau R2 \| applications UWP\]<br/>                          |
 | Téléphone minimal pris en charge<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 et applications Windows Runtime\]<br/> |
 | Bibliothèque<br/>                  | <dl> <dt>DWrite. lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |

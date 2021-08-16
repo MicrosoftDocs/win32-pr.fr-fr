@@ -17,12 +17,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e10029c0397c16a5a5eb30be6e3db64c0baec596
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b4b3d63b63e4deb9c48f9e117122f021e9d63791292e60da3cc919a6e4535e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069809"
 ---
 # <a name="readythread-class"></a>ReadyThread, classe
 
@@ -119,7 +119,7 @@ Les indicateurs d’État possibles sont les suivants :
 | Valeur                                                                          | Signification                                                                    |
 |--------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | <dl> <dt>0x1</dt> </dl> | Le thread a été préparé à partir du DPC (appel de procédure différé).<br/> |
-| <dl> <dt>0x2</dt> </dl> | La pile du noyau est actuellement remplacée.<br/>                      |
+| <dl> <dt>0X2</dt> </dl> | La pile du noyau est actuellement remplacée.<br/>                      |
 | <dl> <dt>0x4</dt> </dl> | L’espace d’adressage du processus est échangé.<br/>                       |
 
 
@@ -162,7 +162,7 @@ Identificateur de thread du thread en cours de préparation pour l’exécution.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

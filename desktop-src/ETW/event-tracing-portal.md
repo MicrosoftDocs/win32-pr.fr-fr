@@ -1,15 +1,15 @@
 ---
-description: Cette documentation est destinée aux applications en mode utilisateur qui souhaitent utiliser ETW. Pour plus d’informations sur l’instrumentation des pilotes de périphérique qui s’exécutent en mode noyau, voir WPP Software Tracing et ajout d’Event Tracing to Kernel-Mode drivers in the Windows Driver Kit (WDK) (en anglais).
+description: Cette documentation est destinée aux applications en mode utilisateur qui souhaitent utiliser ETW. pour plus d’informations sur l’instrumentation des pilotes de périphérique qui s’exécutent en mode noyau, voir WPP Software tracing et ajout d’Event tracing to Kernel-Mode drivers in the Windows Driver Kit (WDK).
 ms.assetid: 3de69436-671b-46a2-8d92-4eb3af2a4233
 title: Suivi d’événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9802635fffddfea79c979534771605af13949d69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 908e935d48749d80e5b2cfe237efeed5413c839157e53b489f4857c0349b4a1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070219"
 ---
 # <a name="event-tracing"></a>Suivi d’événements
 
@@ -17,7 +17,7 @@ ms.locfileid: "104320706"
 
 Suivi d’v nements pour Windows (ETW) fournit aux programmeurs d’applications la possibilité de démarrer et d’arrêter les sessions de suivi d’événements, d’instrumenter une application pour fournir des événements de trace et de consommer des événements de trace. Les événements de trace contiennent un en-tête d’événement et des données définies par le fournisseur qui décrivent l’état actuel d’une application ou d’une opération. Vous pouvez utiliser les événements pour déboguer une application et effectuer une analyse de la capacité et des performances.
 
-Cette documentation est destinée aux applications en mode utilisateur qui souhaitent utiliser ETW. Pour plus d’informations sur l’instrumentation des pilotes de périphérique qui s’exécutent en mode noyau, voir [WPP Software Tracing](/windows-hardware/drivers/devtest/wpp-software-tracing) et [Ajout d’Event tracing to Kernel-Mode drivers](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-) in the Windows Driver Kit (WDK) (en anglais).
+Cette documentation est destinée aux applications en mode utilisateur qui souhaitent utiliser ETW. pour plus d’informations sur l’instrumentation des pilotes de périphérique qui s’exécutent en mode noyau, voir [WPP Software tracing](/windows-hardware/drivers/devtest/wpp-software-tracing) et [ajout d’Event tracing to Kernel-Mode drivers](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-) in the Windows Driver Kit (WDK).
 
 ## <a name="where-applicable"></a>Le cas échéant
 
@@ -33,7 +33,7 @@ ETW est inclus dans Microsoft Windows 2000 et versions ultérieures. Pour plus d
 
 ## <a name="process-etw-traces-in-net-code"></a>Traiter les traces ETW dans le code .NET
 
-Vous pouvez utiliser l' [API .net TraceProcessing](https://www.nuget.org/packages/Microsoft.Windows.EventTracing.Processing.All) pour analyser les traces ETW pour vos applications et d’autres composants logiciels. Cette API est utilisée en interne chez Microsoft pour analyser les données ETW produites par le système d’ingénierie Windows, et elle est également utilisée pour alimenter plusieurs tables dans l' [Analyseur de performances Windows](/windows-hardware/test/wpt/windows-performance-analyzer). Cette API est disponible sous la forme d’un package NuGet.
+Vous pouvez utiliser l' [API .net TraceProcessing](https://www.nuget.org/packages/Microsoft.Windows.EventTracing.Processing.All) pour analyser les traces ETW pour vos applications et d’autres composants logiciels. cette API est utilisée en interne chez Microsoft pour analyser les données ETW produites par le système d’ingénierie Windows, et elle est également utilisée pour alimenter plusieurs tables dans [Windows analyseur de performances](/windows-hardware/test/wpt/windows-performance-analyzer). cette API est disponible sous la forme d’un package NuGet.
 
 Pour plus d’informations, consultez [cet article](/windows/apps/trace-processing/overview).
 

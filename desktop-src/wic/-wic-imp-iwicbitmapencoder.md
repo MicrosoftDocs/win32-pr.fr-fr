@@ -4,12 +4,12 @@ ms.assetid: b671e941-ded6-4bde-bc4d-461f13feade0
 title: Implémentation de IWICBitmapEncoder
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 590dffcf762d22155a89a8143994d9a4d8bcab02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69d02105470f837dba0689b665473c01c42f6cd6497a85424ea6eea3371696f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088011"
 ---
 # <a name="implementing-iwicbitmapencoder"></a>Implémentation de IWICBitmapEncoder
 
@@ -89,7 +89,7 @@ Consultez l’exemple dans [Implementing IWICBitmapDecoder](-wic-imp-iwicbitmapd
 
 [**CreateNewFrame**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe) est l’équivalent de l’encodeur de [**GetFrame**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getframe) sur [**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder). Cette méthode retourne un objet [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) , qui est l’objet qui sérialise réellement les données d’image pour un frame spécifique dans le conteneur.
 
-L’un des avantages de Windows Imaging Component (WIC) est qu’il fournit une couche d’abstraction pour les applications qui leur permet de fonctionner avec tous les formats d’image de la même façon. Toutefois, tous les formats d’image ne sont pas exactement identiques. Certains formats d’image ont des fonctionnalités que d’autres n’ont pas. Pour que les applications puissent tirer parti de ces fonctionnalités uniques, il est nécessaire de fournir un moyen de les exposer au codec. C’est l’objectif des options de l’encodeur. Si votre CODEC prend en charge les options de l’encodeur, vous devez créer un objet [IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) qui expose les options d’encodeur que vous prenez en charge et le retourner dans le paramètre *ppIEncoderOptions* de cette méthode. L’appelant peut ensuite utiliser cet objet IPropertyBag2 pour déterminer les options de codeur prises en charge par votre codec. Si l’appelant souhaite spécifier des valeurs pour l’une des options d’encodeur prises en charge, il assignera la valeur à la propriété appropriée dans l’objet IPropertyBag2 et la passera à l’objet [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) nouvellement créé dans sa méthode Initialize.
+l’un des avantages du composant WIC (Windows Imaging Component) est qu’il fournit une couche d’abstraction pour les applications qui leur permet de travailler avec tous les formats d’image de la même façon. Toutefois, tous les formats d’image ne sont pas exactement identiques. Certains formats d’image ont des fonctionnalités que d’autres n’ont pas. Pour que les applications puissent tirer parti de ces fonctionnalités uniques, il est nécessaire de fournir un moyen de les exposer au codec. C’est l’objectif des options de l’encodeur. Si votre CODEC prend en charge les options de l’encodeur, vous devez créer un objet [IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) qui expose les options d’encodeur que vous prenez en charge et le retourner dans le paramètre *ppIEncoderOptions* de cette méthode. L’appelant peut ensuite utiliser cet objet IPropertyBag2 pour déterminer les options de codeur prises en charge par votre codec. Si l’appelant souhaite spécifier des valeurs pour l’une des options d’encodeur prises en charge, il assignera la valeur à la propriété appropriée dans l’objet IPropertyBag2 et la passera à l’objet [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) nouvellement créé dans sa méthode Initialize.
 
 Pour instancier un objet [IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) , vous devez d’abord créer un struct PROPBAG2 pour spécifier chaque option d’encodeur prise en charge par votre encodeur et son type de données pour chaque propriété. Vous devez ensuite implémenter un objet IPropertyBag2 qui applique les plages de valeurs pour chaque propriété lors de l’écriture, et rapproche toutes les valeurs en conflit ou en chevauchement. Pour les ensembles simples d’options d’encodeur non conflictuelles, vous pouvez appeler la méthode [**CreateEncoderPropertyBag**](/windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwiccomponentfactory-createencoderpropertybag) , qui créera un objet IPropertyBag2 simple à l’aide des propriétés que vous spécifiez dans votre struct PROPBAG2. Vous devez toujours appliquer les plages de valeurs. Pour obtenir des options d’encodeur plus avancées, ou si vous devez rapprocher des valeurs conflictuelles, vous devez écrire votre propre implémentation de IPropertyBag2.
 
@@ -174,7 +174,7 @@ Si vous fournissez une version préliminaire JPEG, vous n’êtes pas obligé d�
 [Comment écrire un CODEC WIC-Enabled](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

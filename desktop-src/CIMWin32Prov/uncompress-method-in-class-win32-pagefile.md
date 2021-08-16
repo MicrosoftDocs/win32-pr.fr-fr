@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 45a5b48ffa6b2249992b61eadf72f42f6d71969b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9eb9a7729ecf7a414a25ad3156237676681e94bc43a0f394b6bd6f12add0eb22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834578"
 ---
 # <a name="uncompress-method-of-the-win32_pagefile-class"></a>Méthode decompress de la \_ classe pagefile Win32
 

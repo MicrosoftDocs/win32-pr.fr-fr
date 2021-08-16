@@ -4,12 +4,12 @@ description: Ce guide présente le modèle COM (Component Object Model) de Micro
 ms.assetid: 9c67dbfd-31ce-4664-a34a-4d26d97e1b1d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fdb6473146d1c30142c24d350261a18149e0198
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 299f88427e9d118352680769518decb6a48723cf62d0c86e0356a53b8236ccac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070899"
 ---
 # <a name="guide-com"></a>Guide (COM)
 

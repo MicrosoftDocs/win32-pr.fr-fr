@@ -5,12 +5,12 @@ metadata:
   ms.assetid: 58d9fe45-a2c7-8280-2826-e2e14ecea983
   ms.topic: article
   ms.date: 05/31/2018
-  ms.openlocfilehash: 9522843268b34daca6ff944a556c10d16ff731fa
-  ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+  ms.openlocfilehash: 328b579fda4bb00500a70a4303b51dde1dfb112def5f21563eb223ddcb1755bf
+  ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 06/09/2021
-  ms.locfileid: "111852704"
+  ms.lasthandoff: 08/11/2021
+  ms.locfileid: "119070549"
 title: Forum aux questions DirectX
 summary: >
   Cet article contient une série de questions fréquemment posées (FAQ) sur Microsoft DirectX.
@@ -20,23 +20,23 @@ sections:
   - question: >
       Les développeurs de jeux doivent-ils s’intéresser à la prise en charge des éditions x64 ?
     answer: >
-      Absolument. la technologie x64 est largement disponible sur le marché. La majorité des nouveaux processeurs vendus au cours des dernières années, et presque toutes les lignes de processeur en développement d’AMD et d’Intel, sont conformes à la technologie x64. Windows XP Professionnel Édition x64 a introduit la technologie d’activation du système d’exploitation pour x64 publiée en avril de 2005. Étant donné que les éditions x64 requièrent une nouvelle génération de pilotes natifs 64 bits, cette première version était limitée à la distribution OEM.
+      Absolument. la technologie x64 est largement disponible sur le marché. La majorité des nouveaux processeurs vendus au cours des dernières années, et presque toutes les lignes de processeur en développement d’AMD et d’Intel, sont conformes à la technologie x64. Windows XP Professional x64 Edition a introduit la technologie d’activation du système d’exploitation pour x64 publiée en avril de 2005. Étant donné que les éditions x64 requièrent une nouvelle génération de pilotes natifs 64 bits, cette première version était limitée à la distribution OEM.
 
 
-      Avec Windows Vista, les clients sont libres de choisir les éditions 32 bits ou 64 bits lors de l’achat d’ordinateurs Windows, et les licences pour Windows Vista sont valides pour les éditions 32 bits ou 64 bits du système d’exploitation. En outre, de nombreux pilotes 64 bits sont disponibles dans la zone, et les fabricants de périphériques sont requis pour fournir des pilotes natifs 32 bits et 64 bits dans le cadre du programme de certification Windows.
+      avec Windows Vista, les clients sont libres de choisir les éditions 32 bits ou 64 bits lors de l’achat d’ordinateurs Windows, et les licences pour Windows Vista sont valides pour les éditions 32 bits ou 64 bits du système d’exploitation. en outre, de nombreux pilotes 64 bits sont disponibles dans la zone, et les fabricants de périphériques sont requis pour fournir des pilotes natifs 32 bits et 64 bits dans le cadre du programme de Certification Windows.
 
 
-      Tous ces facteurs augmentent de façon considérable les déploiements des éditions 64 bits de Windows. À mesure que les nouveaux ordinateurs commencent à être livrés avec plus de 2 Go de RAM physique, l’incentive pour utiliser un système d’exploitation 32 bits diminue de manière importante en faveur des éditions 64 bits. La technologie 64 bits prend entièrement en charge le code natif 32 bits, bien que les implémentations natives de 64 bits soient nécessaires pour tirer pleinement parti du nouvel espace mémoire de 64 bits. Chaque application 32 bits doit avoir une compatibilité avec 64 bits comme condition d’expédition minimale et répondre à cette exigence est un impératif de base pour la compatibilité avec Windows Vista. En général, les incompatibilités proviennent de l’utilisation d’un code 16 bits conçu pour le système d’exploitation Windows 3,1 ou de l’installation de pilotes qui ne sont pas fournis à la fois sous forme native 32 bits et 64 bits.
+      Tous ces facteurs augmentent de façon considérable les déploiements des éditions 64 bits de Windows. À mesure que les nouveaux ordinateurs commencent à être livrés avec plus de 2 Go de RAM physique, l’incentive pour utiliser un système d’exploitation 32 bits diminue de manière importante en faveur des éditions 64 bits. La technologie 64 bits prend entièrement en charge le code natif 32 bits, bien que les implémentations natives de 64 bits soient nécessaires pour tirer pleinement parti du nouvel espace mémoire de 64 bits. chaque application 32 bits doit disposer d’une compatibilité 64 bits comme exigence d’expédition minimale et répondre à cette exigence est un impératif de base pour la compatibilité avec Windows Vista. les incompatibilités sont généralement dues à l’utilisation d’un code 16 bits conçu pour le système d’exploitation Windows 3,1 ou à l’installation de pilotes qui ne sont pas fournis à la fois sous forme native 32 bits et 64 bits.
 
 
       Pour plus d’informations sur la technologie 64 bits, consultez la page [programmation 64 bits pour les développeurs de jeux](/windows/desktop/DxTechArts/sixty-four-bit-programming-for-game-developers).
   - question: >
-      Les développeurs de jeux doivent-ils toujours publier des jeux pour Windows 95, Windows 98 ou Windows ME ?
+      les développeurs de jeux doivent-ils toujours publier des jeux pour Windows 95, Windows 98 ou Windows ME ?
     answer: >
       Plus pour deux raisons : performances et ensemble de fonctionnalités.
 
 
-      Si la vitesse d’UC minimale requise pour votre jeu est 1,2 GHz ou plus (ce qui est plus courant pour les titres à hautes performances), la grande majorité des ordinateurs éligibles exécute Windows XP. Par le moment où les ordinateurs avec une vitesse de processeur supérieure à 1,2 GHz étaient vendus, Windows XP a été installé en tant que système d’exploitation par défaut par presque tous les fabricants. Cela signifie qu’il existe de nombreuses fonctionnalités disponibles dans Windows XP, que les développeurs de jeux actuels doivent tirer parti des éléments suivants :
+      si la vitesse d’uc minimale requise pour votre jeu est 1,2 ghz ou plus (ce qui est plus courant pour les titres à hautes performances), la grande majorité des ordinateurs éligibles s’exécutent Windows XP. au moment où les ordinateurs ayant des vitesses de processeur supérieures à 1,2 ghz étaient vendus, Windows XP a été installé en tant que système d’exploitation par défaut par presque tous les fabricants. cela signifie qu’il existe de nombreuses fonctionnalités disponibles dans Windows XP, que les développeurs de jeux actuels doivent tirer parti des éléments suivants :
 
 
       -   Amélioration des tâches multitâches, ce qui se traduit par une expérience plus lisse pour la vidéo, l’audio et les jeux.
@@ -47,21 +47,21 @@ sections:
 
       -   Prise en charge des transferts DMA par défaut à partir de disques durs, ce qui entraîne un chargement plus rapide et plus rapide des applications.
 
-      -   Rapport d’erreurs Windows, ce qui aboutit à un système d’exploitation, des pilotes et des applications plus stables.
+      -   Windows le rapport d’erreurs, ce qui se traduit par un système d’exploitation, des pilotes et des applications plus stables.
 
       -   Prise en charge d’Unicode, ce qui simplifie grandement les problèmes de localisation.
 
       -   Amélioration de la sécurité et de la stabilité, ce qui a pour résultat une meilleure expérience utilisateur.
 
-      -   Meilleure prise en charge du matériel moderne, qui n’utilise plus les pilotes Windows 98.
+      -   meilleure prise en charge du matériel moderne, qui n’utilise plus les pilotes Windows 98.
 
       -   Amélioration de la gestion de la mémoire, ce qui améliore la stabilité et la sécurité.
 
       -   Système de fichiers NTFS amélioré, ce qui est plus résistant aux défaillances et offre de meilleures performances avec des fonctionnalités de sécurité.
   - question: >
-      Les développeurs de jeux doivent-ils toujours publier des jeux pour Windows 2000 ?
+      les développeurs de jeux doivent-ils toujours publier des jeux pour Windows 2000 ?
     answer: >
-      Plus maintenant. En plus des raisons indiquées dans, **les développeurs de jeux sont-ils toujours en mesure de publier des jeux pour windows 95, windows 98 ou Windows me ?**, Windows 2000 ne dispose pas des fonctionnalités suivantes :
+      Plus maintenant. en plus des raisons indiquées dans, **les développeurs de jeux sont-ils toujours en mesure de publier des jeux pour Windows 95, Windows 98 ou Windows ME ?**, Windows 2000 ne dispose pas des fonctionnalités suivantes :
 
 
       -   Windows XP prend en charge des fonctionnalités de processeur avancées, telles que l’Hyper-Threading, le multicœur et x64.
@@ -70,18 +70,18 @@ sections:
 
       -   Windows XP prend en charge la protection de la mémoire sans exécution qui permet d’empêcher les programmes malveillants et peut aider au débogage.
 
-      -   Windows XP a amélioré la prise en charge des cartes vidéo avancées AGP et PCI Express.
+      -   Windows XP a amélioré la prise en charge des cartes vidéo basées sur AGP et PCI Express avancées.
 
       -   Windows XP prend en charge le changement rapide d’utilisateur, le Bureau à distance et l’assistance à distance, ce qui peut aider à réduire les coûts de support produit.
 
-      -   Les outils de performances comme PIX (dans le kit de développement logiciel (SDK) développeur DirectX) ne prennent plus en charge Windows 2000.
+      -   les outils de performances comme PIX (dans le kit de développement logiciel (SDK) développeur DirectX) ne prennent plus en charge Windows 2000.
 
 
-      En bref, Windows 2000 n’a jamais été conçu ou commercialisé comme un système d’exploitation consommateur.
+      en résumé, Windows 2000 n’a jamais été conçu ou commercialisé comme un système d’exploitation consommateur.
   - question: >
-      Quelles sont les différences entre les différentes éditions de Windows Vista ? Comment les impactent-ils sur mon application DirectX ?
+      quelles sont les différences entre les différentes éditions de Windows Vista ? Comment les impactent-ils sur mon application DirectX ?
     answer: >
-      La famille Windows Vista comprend cinq éditions :
+      la famille Windows Vista comprend cinq éditions :
 
 
       -   Windows Vista Édition Familiale Basique
@@ -95,81 +95,81 @@ sections:
       -   Windows Vista Édition Intégrale
 
 
-      Édition familiale basique et édition familiale Premium sont des versions axées sur les consommateurs, avec des fonctionnalités telles que la sécurité des familles (anciennement appelées contrôles parental) et la version Premium Premium comprend Media Center. L’entreprise et l’entreprise sont des éditions axées sur l’entreprise, avec des fonctionnalités telles que la jonction de domaine et les Bureau à distance/services Terminal Server. L’édition intégrale combine toutes les fonctionnalités des éditions Consumer et Corporate en une seule version. Toutes les éditions sont disponibles à la fois dans les éditions 32 bits (x86) et 64 bits (x64), et les utilisateurs sont libres d’utiliser le même identificateur de produit pour les deux plateformes.
+      édition familiale basique et familiale Premium sont des versions axées sur le consommateur, avec des fonctionnalités telles que la sécurité de la famille (anciennement appelées contrôles Parental) et la Premium d’hébergement avec Media Center. Business et Enterprise sont des éditions axées sur l’entreprise, avec des fonctionnalités telles que la jonction de domaine et les Bureau à distance/Services Terminal server. L’édition intégrale combine toutes les fonctionnalités des éditions Consumer et Corporate en une seule version. Toutes les éditions sont disponibles à la fois dans les éditions 32 bits (x86) et 64 bits (x64), et les utilisateurs sont libres d’utiliser le même identificateur de produit pour les deux plateformes.
 
 
       La technologie sous-jacente aux différentes éditions est identique et elles ont toutes la même version du runtime DirectX et d’autres composants. Toutefois, les éditions présentent quelques différences mineures par rapport aux jeux :
 
 
-      -   L’Explorateur de jeux existe dans toutes les éditions, mais le raccourci jeux dans le menu Démarrer est uniquement dans édition familiale basique, édition familiale Premium et édition intégrale. L’Explorateur de jeux peut toujours être trouvé dans toutes les éditions (en cliquant sur Démarrer, en pointant sur tous les programmes, puis en cliquant sur jeux) et les fonctions de l’interface IGameExplorer sur toutes les éditions.
+      -   l’explorateur de jeux existe dans toutes les éditions, mais le raccourci jeux sur le menu Démarrer est disponible uniquement dans édition familial, Premium de base et édition intégrale. L’Explorateur de jeux peut toujours être trouvé dans toutes les éditions (en cliquant sur Démarrer, en pointant sur tous les programmes, puis en cliquant sur jeux) et les fonctions de l’interface IGameExplorer sur toutes les éditions.
 
-      -   Les jeux inclus avec Windows ne sont pas disponibles par défaut sur l’entreprise et l’entreprise, mais ils peuvent être activés par l’administrateur.
+      -   les jeux inclus avec Windows ne sont pas disponibles par défaut sur Business et Enterprise, mais ils peuvent être activés par l’administrateur.
 
-      -   La sécurité des familles et les évaluations des jeux n’affichent pas ou n’ont aucune incidence sur le comportement de l’entreprise ou de l’entreprise, et elles sont désactivées sur le niveau optimal lorsqu’un domaine est joint.
-
-
-      Les paramètres de contrôle de compte d’utilisateur ont les mêmes valeurs par défaut pour toutes les éditions, mais ils peuvent être remplacés par stratégie de groupe paramètres du domaine sur entreprise, entreprise et édition intégrale. Par exemple, le paramètre de stratégie contrôle de compte d’utilisateur : comportement de l’invite d’élévation pour les utilisateurs standard peut être configuré pour refuser automatiquement les demandes d’élévation dans de nombreux paramètres d’entreprise afin d’améliorer la sécurité, et de nombreux utilisateurs dans ces environnements s’exécuteront toujours en tant qu’utilisateurs standard sans pouvoir même choisir d’exécuter en tant qu’administrateur. Tout programme (tel qu’un programme d’installation) qui requiert des droits d’administration, en raison de la détection d’installation héritée ou de la présence d’un manifeste qui spécifie le niveau d’exécution demandé sur « requireAdministrator », échouera toujours dans de telles situations. D’autres paramètres de stratégie, tels que le contrôle de compte d’utilisateur : élever uniquement les exécutables signés et validés, peuvent également empêcher le bon fonctionnement de votre programme d’installation si vous ne signez pas votre fichier exécutable à l’aide d’Authenticode.
+      -   la sécurité des familles et les évaluations des jeux n’affichent pas ou n’ont aucune incidence sur le comportement de l’entreprise ou de la Enterprise, et elles sont désactivées sur le niveau Ultimate lorsqu’un domaine est joint.
 
 
-      Ces types de modifications de stratégie peuvent être appliqués à n’importe quelle édition de Windows Vista, mais elles sont plus probables sur les ordinateurs qui sont joints à un domaine.
-  - question: "Quelles sont les différences entre les différentes éditions de Windows 7 ? Comment les impactent-ils sur mon application DirectX ? \n"
+      les paramètres de contrôle de compte d’utilisateur ont les mêmes valeurs par défaut pour toutes les éditions, mais ils peuvent être remplacés par stratégie de groupe paramètres du domaine sur l’entreprise, Enterprise et édition intégrale. Par exemple, le paramètre de stratégie contrôle de compte d’utilisateur : comportement de l’invite d’élévation pour les utilisateurs standard peut être configuré pour refuser automatiquement les demandes d’élévation dans de nombreux paramètres d’entreprise afin d’améliorer la sécurité, et de nombreux utilisateurs dans ces environnements s’exécuteront toujours en tant qu’utilisateurs standard sans pouvoir même choisir d’exécuter en tant qu’administrateur. Tout programme (tel qu’un programme d’installation) qui requiert des droits d’administration, en raison de la détection d’installation héritée ou de la présence d’un manifeste qui spécifie le niveau d’exécution demandé sur « requireAdministrator », échouera toujours dans de telles situations. D’autres paramètres de stratégie, tels que le contrôle de compte d’utilisateur : élever uniquement les exécutables signés et validés, peuvent également empêcher le bon fonctionnement de votre programme d’installation si vous ne signez pas votre fichier exécutable à l’aide d’Authenticode.
+
+
+      ces types de modifications de stratégie peuvent être appliqués à n’importe quelle édition de Windows Vista, mais elles sont plus probables sur les ordinateurs qui sont joints à un domaine.
+  - question: "quelles sont les différences entre les différentes éditions de Windows 7 ? Comment les impactent-ils sur mon application DirectX ? \n"
     answer: >
-      La majorité des utilisateurs de Windows 7 auront probablement l’une des deux éditions suivantes : Windows 7 Édition familiale Premium, pour les particuliers ou Windows 7 professionnel, pour les utilisateurs professionnels et les développeurs. Pour les grandes entreprises, l’édition Windows 7 entreprise avec licence en volume inclut toutes les fonctionnalités de Windows 7. Windows 7 édition intégrale est l’équivalent au détail de cette édition.
+      la majorité des utilisateurs de Windows 7 auront probablement l’une des deux éditions suivantes : Windows 7 Édition Familiale Premium, pour les particuliers ou les Windows 7 Professionnel, pour les utilisateurs professionnels et les développeurs. pour les grandes entreprises, l’édition avec licence en volume Windows 7 Entreprise, qui inclut toutes les fonctionnalités de Windows 7 ; Windows 7 Édition Intégrale est l’équivalent au détail de cette édition.
 
 
-      Windows 7 Édition Starter est disponible dans le monde entier pour les fabricants OEM et doit être déployé principalement avec les netlivres, les ordinateurs portables ultra-faiblement alimentés. Windows 7 édition personnelle est disponible uniquement sur les marchés émergents.
+      Windows 7 Édition Starter L’édition est disponible dans le monde entier pour les fabricants OEM et doit être déployée principalement avec des netlivres, des ordinateurs portables ultra-faiblement alimentés. Windows 7 Édition Familiale Basique est disponible uniquement sur les marchés émergents.
 
 
-      Notez que toutes les éditions de Windows 7 (à l’exception de l’édition Starter) sont disponibles pour les versions 32 bits (x86) et 64 bits (x64), et que tous les packages de vente au détail de Windows 7 incluent le média pour les deux versions. Comme avec Windows Vista, les utilisateurs sont libres d’utiliser le même identificateur de produit commercialisé sur l’une ou l’autre des plateformes.
+      notez que toutes les éditions de Windows 7 (à l’exception de l’édition Starter) sont disponibles pour les versions 32 bits (x86) et 64 bits (x64), et que tous les packages de vente au détail de Windows 7 incluent des médias pour les deux versions. comme avec Windows Vista, les utilisateurs sont libres d’utiliser le même identificateur de produit commercialisé sur l’une ou l’autre des plateformes.
 
 
       La technologie sous-jacente dans les différentes éditions est identique et toutes les éditions ont la même version du runtime DirectX et d’autres composants. Ils présentent quelques différences en ce qui concerne les fonctionnalités de jeux :
 
 
-      -   L’Explorateur de jeux existe dans toutes les éditions, mais le raccourci jeux dans le menu Démarrer est masqué par défaut dans Windows 7 professionnel et entreprise. L’Explorateur de jeux est toujours disponible dans le menu Démarrer (en cliquant sur tous les programmes, puis en double-cliquant sur jeux) et le raccourci direct Games peut être activé par l’utilisateur.
+      -   l’explorateur de jeux existe dans toutes les éditions, mais le raccourci jeux sur le menu Démarrer est masqué par défaut dans Windows 7 Professionnel et Enterprise. l’explorateur de jeux est toujours disponible sur le menu Démarrer (en cliquant sur tous les programmes, puis en double-cliquant sur jeux) et le raccourci direct games peut être activé par l’utilisateur.
 
-      -   Les jeux inclus avec Windows ne sont pas disponibles par défaut sur Windows 7 professionnel et entreprise, mais ils peuvent être activés par l’administrateur.
+      -   les jeux inclus avec Windows ne sont pas disponibles par défaut sur Windows 7 Professionnel et Enterprise, mais ils peuvent être activés par l’administrateur.
 
-      -   La sécurité des familles et les évaluations des jeux sont disponibles dans toutes les éditions, mais elles sont désactivées sur Windows 7 professionnel, entreprise et édition intégrale quand le système d’exploitation rejoint un domaine. Comme avec Windows Vista Édition intégrale, cette fonctionnalité peut être réactivée sur un ordinateur qui a rejoint un domaine.
+      -   la sécurité des familles et les évaluations des jeux sont disponibles dans toutes les éditions, mais elles sont désactivées sur Windows 7 Professionnel, Enterprise et Ultimate quand le système d’exploitation rejoint un domaine. comme avec Windows Vista Ultimate, cette fonctionnalité peut être réactivée sur un ordinateur qui a rejoint un domaine.
 
 
-      Les paramètres de contrôle de compte d’utilisateur (UAC) peuvent être affectés par stratégie de groupe paramètres sur les éditions Windows 7 professionnel, entreprise et édition intégrale, à l’instar de Windows Vista. Pour plus d’informations, consultez **Quelles sont les différences entre les différentes éditions de Windows Vista ? Comment les impactent-ils sur mon application DirectX ?**
+      les paramètres de contrôle de compte d’utilisateur (UAC, User account control) peuvent être affectés par stratégie de groupe paramètres sur les éditions Windows 7 Professionnel, Enterprise et Ultimate, à l’instar de Windows Vista. pour plus d’informations, consultez **quelles sont les différences entre les différentes éditions de Windows Vista ? Comment les impactent-ils sur mon application DirectX ?**
   - question: "DirectX 10 sera-t-il disponible pour Windows XP ? \n"
     answer: >
-      Non. Windows Vista, qui a DirectX 10, inclut un runtime DirectX mis à jour basé sur le runtime de Windows XP SP2 (DirectX 9.0 c) avec des modifications pour fonctionner avec le nouveau modèle WDDM (Windows Display Driver Model) et la nouvelle pile de pilotes audio, ainsi qu’avec d’autres mises à jour dans le système d’exploitation. En plus de Direct3D 9, Windows Vista prend en charge deux nouvelles interfaces lorsque le matériel et les pilotes vidéo corrects sont présents : Direct3D9Ex et Direct3D10.
+      Non. Windows Vista, qui a directx 10, inclut un runtime directx mis à jour basé sur le runtime dans Windows XP SP2 (DirectX 9.0 c) avec des modifications pour fonctionner avec le nouveau modèle de pilote d’affichage des Windows (WDDM) et la nouvelle pile de pilotes audio, et avec d’autres mises à jour dans le système d’exploitation. en plus de Direct3D 9, Windows Vista prend en charge deux nouvelles interfaces lorsque le matériel et les pilotes vidéo corrects sont présents : Direct3D9Ex et Direct3D10.
 
 
-      Étant donné que ces nouvelles interfaces s’appuient sur la technologie WDDM, elles ne seront jamais disponibles sur les versions antérieures de Windows. Toutes les autres modifications apportées aux technologies DirectX pour Windows Vista sont également spécifiques à la nouvelle version de Windows. Le nom DirectX 10 trompe dans le fait que de nombreuses technologies fournies dans le kit de développement logiciel (SDK) DirectX (XACT, XINPUT, D3DX) ne sont pas comprises dans ce numéro de version. Ainsi, le fait de faire référence au numéro de version du runtime DirectX dans son ensemble a perdu une grande partie de sa signification, même pour la version 9.0 c. L’outil de diagnostic DirectX (DXdiag.exe) sur Windows Vista signale DirectX 10, mais cela fait uniquement référence à Direct3D 10.
+      Étant donné que ces nouvelles interfaces s’appuient sur la technologie WDDM, elles ne seront jamais disponibles dans les versions antérieures de Windows. toutes les autres modifications apportées aux technologies DirectX pour Windows Vista sont également spécifiques à la nouvelle version de Windows. Le nom DirectX 10 trompe dans le fait que de nombreuses technologies fournies dans le kit de développement logiciel (SDK) DirectX (XACT, XINPUT, D3DX) ne sont pas comprises dans ce numéro de version. Ainsi, le fait de faire référence au numéro de version du runtime DirectX dans son ensemble a perdu une grande partie de sa signification, même pour la version 9.0 c. l’outil de Diagnostic directx (DXdiag.exe) sur Windows Vista signale directx 10, mais cela fait uniquement référence à Direct3D 10.
   - question: "DirectX 11 sera-t-il disponible pour Windows Vista ou Windows XP ? \n"
     answer: >
-      DirectX 11 est intégré à Windows 7 et est disponible en tant que mise à jour pour Windows Vista (consultez <https://go.microsoft.com/fwlink/p/?linkid=160189> ). Cela comprend l’API Direct3D 11, l’infrastructure DirectX Graphics (DXGI) 1,1, les niveaux de fonctionnalités 10Level9, le périphérique de rendu logiciel de la plateforme Windows Advanced rastérisation (WARP) 10, Direct2D, DirectWrite et une mise à jour de l’API Direct3D 10,1 pour prendre en charge 10Level9 et WARP 10.
+      DirectX 11 est intégré à Windows 7 et est disponible en tant que mise à jour pour Windows Vista (consultez <https://go.microsoft.com/fwlink/p/?linkid=160189> ). cela comprend l’api direct3d 11, DirectX graphics Infrastructure (DXGI) 1,1, 10Level9 feature levels, Windows Advanced rastérisation Platform (distorsion) 10 software rendering device, Direct2D, DirectWrite et une mise à jour de l’API Direct3D 10,1 pour prendre en charge 10Level9 et WARP 10.
 
 
-      Pour les mêmes raisons que celles indiquées dans la question précédente (DirectX 10 sera-t-il **disponible pour Windows XP) ?** ), Direct3D 11 et les API associées ne sont pas disponibles sur Windows XP.
+      pour les mêmes raisons que celles notées dans la question précédente (DirectX 10 sera-t-il **disponible pour Windows XP ?** ), Direct3D 11 et les api associées ne sont pas disponibles sur Windows XP.
   - question: "Qu’est-il arrivé à DirectShow ? Je ne le trouve pas dans le kit de développement logiciel (SDK) DirectX. \n"
     answer: >
-      DirectShow a été supprimé du kit de développement logiciel (SDK) DirectX à compter du 2005 avril. Vous pouvez obtenir les en-têtes, les bibliothèques, les outils et les exemples pour DirectShow dans le kit de développement logiciel (SDK) Windows (anciennement appelé Platform SDK). DirectSetup dans le kit de développement logiciel (SDK) DirectX continue à prendre en charge la redistribution des composants système de DirectShow, et les derniers composants sont déjà installés sur les systèmes d’exploitation suivants : Microsoft Windows XP Service Pack 2, Windows XP Professionnel Édition x64, Windows Server 2003 Service Pack 1 et Windows Vista.
-  - question: "Quelles modifications ont été apportées au runtime DirectX pour Windows Vista ? \n"
+      DirectShow a été supprimé du kit de développement logiciel (SDK) DirectX à compter du 2005 avril. vous pouvez obtenir des en-têtes, des bibliothèques, des outils et des exemples pour DirectShow dans le Windows kit de développement logiciel (SDK). DirectSetup dans le kit de développement logiciel (SDK) DirectX continue à prendre en charge la redistribution des composants système de DirectShow, et les derniers composants sont déjà installés sur les systèmes d’exploitation suivants : Microsoft Windows XP service pack 2, Windows XP Professional édition x64, Windows Server 2003 Service pack 1 et Windows Vista.
+  - question: "quelles modifications ont été apportées au runtime DirectX pour Windows Vista ? \n"
     answer: >
-      Les principales modifications ont été apportées pour prendre en charge le nouveau WDDM. Pour plus d’informations sur le nouveau modèle de pilote, sur les impacts sur Direct3D 9 et sur les deux nouvelles interfaces graphiques, Direct3D 9Ex et Direct3D 10, consultez [API graphiques dans Windows](/windows/desktop/direct3darticles/graphics-apis-in-windows-vista). Les nouvelles API graphiques pour Windows 7 (Direct3D 11, Direct2D, DirectWrite, DXGI 1,1 et Direct3D 10.1) sont disponibles en tant que mise à jour pour Windows Vista (consultez <https://go.microsoft.com/fwlink/p/?linkid=160189> ).
+      Les principales modifications ont été apportées pour prendre en charge le nouveau WDDM. Pour plus d’informations sur le nouveau modèle de pilote, sur les impacts sur Direct3D 9 et sur les deux nouvelles interfaces graphiques, Direct3D 9Ex et Direct3D 10, consultez les [API Graphics dans Windows](/windows/desktop/direct3darticles/graphics-apis-in-windows-vista). les nouvelles api graphiques pour Windows 7, direct3d 11, Direct2D, DirectWrite, DXGI 1,1 et une mise à jour de direct3d 10.1, sont disponibles en tant que mise à jour pour Windows Vista (consultez <https://go.microsoft.com/fwlink/p/?linkid=160189> ).
 
 
-      Windows Vista Service Pack 1 comprend une version mise à jour du runtime DirectX. Cette mise à jour étend la prise en charge de Windows Vista pour inclure Direct3D 10,1, exposant de nouvelles fonctionnalités matérielles facultatives. (Tout le matériel capable de prendre en charge Direct3D 10,1 prend également entièrement en charge toutes les fonctionnalités de Direct3D 10.)
+      Windows Vista Service Pack 1 comprend une version mise à jour du runtime DirectX. cette mise à jour étend la prise en charge de Windows Vista pour inclure Direct3D 10,1, exposant de nouvelles fonctionnalités matérielles facultatives. (Tout le matériel capable de prendre en charge Direct3D 10,1 prend également entièrement en charge toutes les fonctionnalités de Direct3D 10.)
 
 
-      DirectSound a été mis à jour pour exposer les fonctionnalités de la nouvelle pile de pilotes audio Windows Vista, qui prend en charge les mémoires tampons logicielles multicanal. L’API mode mémorisé Direct3D a été complètement supprimée de Windows Vista. DirectPlay Voice a également été supprimé, ainsi que le programme d’assistance NAT de DirectPlay et l’interface utilisateur du mappeur d’action de DirectInput. La prise en charge des interfaces DirectX 7 et DirectX 8 pour Visual Basic 6,0 n’est pas disponible sur Windows Vista.
-  - question: "Quelles modifications ont été apportées au runtime DirectX pour Windows 7 ? \n"
+      DirectSound a été mis à jour pour exposer les fonctionnalités de la nouvelle pile de pilotes audio Windows Vista, qui prend en charge les mémoires tampons logicielles multicanal. l’API Mode mémorisé Direct3D a été complètement supprimée de Windows Vista. DirectPlay Voice a également été supprimé, ainsi que le programme d’assistance NAT de DirectPlay et l’interface utilisateur du mappeur d’action de DirectInput. la prise en charge des interfaces directx 7 et directx 8 pour Visual Basic 6,0 n’est pas disponible sur Windows Vista.
+  - question: "quelles modifications ont été apportées au runtime DirectX pour Windows 7 ? \n"
     answer: >
-      Windows 7 inclut tous les composants d’exécution DirectX disponibles dans Windows Vista et ajoute Direct3D 11, DXGI 1,1, 10Level9 Feature levels, The WARP10 Software Device, Direct2D, DirectWrite et une mise à jour de Direct3D 10,1 pour prendre en charge 10Level9 et WARP10. Pour plus d’informations, consultez [API graphiques dans Windows](/windows/desktop/direct3darticles/graphics-apis-in-windows-vista).
+      Windows 7 inclut tous les composants d’exécution DirectX présents dans Windows Vista et ajoute direct3d 11, DXGI 1,1, les niveaux de fonctionnalités 10Level9, le périphérique logiciel WARP10, Direct2D, DirectWrite et une mise à jour de Direct3D 10,1 pour prendre en charge 10Level9 et WARP10. Pour plus d’informations, consultez [API Graphics dans Windows](/windows/desktop/direct3darticles/graphics-apis-in-windows-vista).
 
 
-      Tous les autres composants sont identiques à Windows Vista, avec l’ajout de la prise en charge native de 64 bits (x64) pour l’API DirectMusic de base liée à l’horodateur MIDI. La couche de performances de DirectMusic reste déconseillée et n’est disponible que pour les applications 32 bits sur Windows 7 pour la compatibilité des applications. Notez que la prise en charge native 64 bits de DirectMusic n’est pas disponible sur Windows Vista.
+      tous les autres composants sont identiques à Windows Vista, avec l’ajout de la prise en charge native de 64 bits (x64) pour l’API DirectMusic de base liée à l’horodateur MIDI. la couche de performances de DirectMusic reste déconseillée et n’est disponible que pour les applications 32 bits sur Windows 7 pour la compatibilité des applications. notez que la prise en charge native 64 bits de DirectMusic n’est pas disponible sur Windows Vista.
   - question: "Je pense que j’ai trouvé un bogue de pilote, que dois-je faire ? \n"
     answer: >
       Tout d’abord, assurez-vous que vous avez vérifié les résultats avec le rastériseur de référence. Vérifiez ensuite les résultats avec la dernière version certifiée WHQL du pilote IHV. Vous pouvez vérifier par programme l’État WHQL à l’aide de la méthode GetAdapterIdentifier () sur l’interface IDirect3D9 en passant l' \_ indicateur de niveau WHQL D3DENUM \_ .
   - question: "Pourquoi est-ce que j’obtiens un grand nombre de messages d’erreur lorsque j’essaie de compiler les exemples ? \n"
     answer: >
-      Vous n’avez probablement pas défini correctement votre chemin d’accès include. De nombreux compilateurs, y compris Microsoft Visual C++, incluent une version antérieure du kit de développement logiciel (SDK). par conséquent, si votre chemin d’accès include recherche d’abord dans les répertoires Include standard du compilateur, vous obtiendrez des versions incorrectes des fichiers d’en-tête. Pour remédier à ce problème, assurez-vous que le chemin d’accès include et les chemins de bibliothèque sont définis pour rechercher d’abord les chemins d’accès de bibliothèque et d’inclusion Microsoft DirectX. Voir aussi le fichier dxreadme.txt dans le kit de développement logiciel (SDK). Si vous installez le kit de développement logiciel (SDK) DirectX et que vous utilisez Visual C++, le programme d’installation peut éventuellement configurer les chemins d’accès include pour vous.
+      Vous n’avez probablement pas défini correctement votre chemin d’accès include. de nombreux compilateurs, y compris Microsoft Visual C++, incluent une version antérieure du kit de développement logiciel (SDK). par conséquent, si votre chemin d’accès include recherche d’abord dans les répertoires include standard du compilateur, vous obtiendrez des versions incorrectes des fichiers d’en-tête. Pour remédier à ce problème, assurez-vous que le chemin d’accès include et les chemins de bibliothèque sont définis pour rechercher d’abord les chemins d’accès de bibliothèque et d’inclusion Microsoft DirectX. Voir aussi le fichier dxreadme.txt dans le kit de développement logiciel (SDK). Si vous installez le kit de développement logiciel (SDK) DirectX et que vous utilisez Visual C++, le programme d’installation peut éventuellement configurer les chemins d’accès include pour vous.
   - question: "J’obtiens des erreurs de l’éditeur de liens sur les symboles multiples ou manquants pour les identificateurs globaux uniques (GUID), que dois-je faire ? \n"
     answer: >
       Les différents GUID que vous utilisez doivent être définis une fois et une seule. La définition du GUID est insérée si vous \# Définissez le symbole INITGUID avant d’inclure les fichiers d’en-tête DirectX. Par conséquent, vous devez vous assurer que cela se produit uniquement pour une unité de compilation. Une alternative à cette méthode consiste à établir une liaison avec la bibliothèque dxguid. lib, qui contient les définitions de tous les GUID DirectX. Si vous utilisez cette méthode (ce qui est recommandé), vous ne devez jamais \# définir le symbole INITGUID.
@@ -193,7 +193,7 @@ sections:
       Un pointeur intelligent est une classe de modèle C++ conçue pour encapsuler les fonctionnalités de pointeur. En particulier, il existe des classes de pointeur intelligent standard conçues pour encapsuler des pointeurs d’interface COM. Ces pointeurs exécutent automatiquement QueryInterface au lieu d’un cast et ils gèrent AddRef et Release pour vous. La nécessité de les utiliser est en grande partie un goût. Si votre code contient un grand nombre de copies de pointeurs d’interface, avec plusieurs AddRefs et mises en production, les pointeurs intelligents peuvent probablement rendre votre code plus clair et réduire le risque d’erreur. Dans le cas contraire, vous ne pouvez pas les utiliser. Visual C++ comprend un pointeur intelligent Microsoft COM standard, défini dans le fichier d’en-tête « ComDef. h » (recherchez com \_ ptr \_ t dans l’aide).
   - question: "Je ne parviens pas à déboguer mon application DirectX, quels sont les conseils ? \n"
     answer: >
-      Le problème le plus courant lors du débogage d’applications DirectX est la tentative de débogage alors qu’une surface DirectDraw est verrouillée. Cette situation peut provoquer un « verrou Win16 » sur les systèmes Microsoft Windows 9x, ce qui empêche la fenêtre du débogueur de se peindre. La spécification de l' \_ indicateur D3DLOCK NOSYSLOCK lors du verrouillage de la surface peut généralement éliminer cela. Windows 2000 ne souffre pas de ce problème. Lors du développement d’une application, il est utile de l’exécuter avec la version de débogage du runtime DirectX (sélectionnée quand vous installez le kit de développement logiciel (SDK)), qui effectue une validation de paramètre et génère des messages utiles à la sortie du débogueur.
+      Le problème le plus courant lors du débogage d’applications DirectX est la tentative de débogage alors qu’une surface DirectDraw est verrouillée. cette situation peut provoquer un « verrou Win16 » sur les systèmes Microsoft Windows 9x, ce qui empêche la fenêtre du débogueur de se peindre. La spécification de l' \_ indicateur D3DLOCK NOSYSLOCK lors du verrouillage de la surface peut généralement éliminer cela. Windows 2000 ne souffre pas de ce problème. Lors du développement d’une application, il est utile de l’exécuter avec la version de débogage du runtime DirectX (sélectionnée quand vous installez le kit de développement logiciel (SDK)), qui effectue une validation de paramètre et génère des messages utiles à la sortie du débogueur.
   - question: "Quelle est la méthode correcte pour vérifier les codes de retour ? \n"
     answer: >
       Utilisez les macros ayant réussi et échoué. Les méthodes DirectX peuvent retourner plusieurs codes de réussite et d’échec, donc un simple :
@@ -212,27 +212,27 @@ sections:
       Vous n’en avez pas ! Les jeux doivent être en mesure de gérer le basculement des tâches de manière appropriée, car de nombreux éléments peuvent se produire : ALT + TAB, connexions Bureau à distance, changement rapide d’utilisateur, limites d’utilisation des contrôles parentaux et beaucoup d’autres événements.
 
 
-      En même temps, deux sources courantes de basculement de tâche accidentel sur les jeux avec des schémas de contrôle centrés sur le clavier sont en appuyant sur la touche de logo Windows et en activant la fonction d’accessibilité touches rémanentes avec la touche Maj. Pour résoudre ces cas en désactivant les fonctionnalités, consultez les techniques décrites dans [désactivation des touches de raccourci dans les jeux](/windows/desktop/DxTechArts/disabling-shortcut-keys-in-games).
+      en même temps, deux sources courantes de basculement de tâche accidentel sur les jeux avec des schémas de contrôle centrés sur le clavier sont en appuyant sur la touche de logo Windows et en activant la fonctionnalité d’accessibilité touches rémanentes avec la touche maj. Pour résoudre ces cas en désactivant les fonctionnalités, consultez les techniques décrites dans [désactivation des touches de raccourci dans les jeux](/windows/desktop/DxTechArts/disabling-shortcut-keys-in-games).
   - question: "Existe-t-il un livre recommandé expliquant COM ? \n"
     answer: >
       *Dans com* , Dale rogerson’s, publié par Microsoft Press, est une excellente introduction à com. Pour plus d’informations sur COM, nous vous recommandons vivement de consulter la boîte de Longman de l’ouvrage *Essential com* de don, publiée par.
   - question: "Qu’est-ce que le code managé ? \n"
     answer: >
-      Le code managé est du code dont l’exécution est gérée par le .NET Framework CLR (Common Language Runtime). Il se rapporte à un contrat de collaboration entre le code d’exécution en mode natif et le Runtime. Ce contrat spécifie que, à tout moment de l’exécution, le runtime peut arrêter l’exécution d’un processeur et récupérer des informations spécifiques à l’adresse d’instruction de l’UC actuelle. Les informations qui doivent être en fonction des requêtes sont généralement liées à l’état d’exécution, telles que le contenu de la mémoire de l’enregistrement ou de la pile.
+      le code managé est du code dont l’exécution est gérée par le .NET Framework clr (Common Language Runtime). Il se rapporte à un contrat de collaboration entre le code d’exécution en mode natif et le Runtime. Ce contrat spécifie que, à tout moment de l’exécution, le runtime peut arrêter l’exécution d’un processeur et récupérer des informations spécifiques à l’adresse d’instruction de l’UC actuelle. Les informations qui doivent être en fonction des requêtes sont généralement liées à l’état d’exécution, telles que le contenu de la mémoire de l’enregistrement ou de la pile.
 
 
       Avant l’exécution du code, le langage intermédiaire est compilé en code exécutable natif. Et, dans la mesure où cette compilation est effectuée par l’environnement d’exécution managé (ou, de manière plus correcte, par un compilateur qui sait comment cibler l’environnement d’exécution managé), l’environnement d’exécution managé peut apporter des garanties sur ce que le code va faire. Il peut insérer des interruptions et des raccordements de garbage collection appropriés, la gestion des exceptions, la sécurité de type, les limites de tableau et la vérification d’index, etc. Par exemple, un tel compilateur veille à disposer les frames de pile et tout ce qui est juste pour que le garbage collector puisse s’exécuter en arrière-plan sur un thread séparé, en continuant à parcourir la pile des appels active, en recherchant toutes les racines et en découvrant tous les objets actifs. En outre, étant donné que le langage intermédiaire a une notion de sécurité de type, le moteur d’exécution maintient la garantie de la sécurité de type en éliminant toute une classe d’erreurs de programmation qui mènent souvent à des brèches de sécurité.
 
 
       En revanche, ce n’est pas le monde non géré : les fichiers exécutables non managés sont fondamentalement une image binaire, le code x86, chargée en mémoire. Le compteur de programme est placé là et c’est le dernier système d’exploitation qui le sait. Il existe des protections en place autour de la gestion de la mémoire et des e/s de port, etc., mais le système ne connaît pas réellement ce que fait l’application. Par conséquent, il ne peut apporter aucune garantie quant à ce qui se passe lorsque l’application s’exécute.
-  - question: "Quels sont les livres relatifs à la programmation Windows générale ? \n"
+  - question: "quels sont les ouvrages relatifs à la programmation Windows générale ? \n"
     answer: >
       Paquet. Toutefois, les deux recommandations sont les suivantes :
 
 
-      -   Programmation de Windows par Charles Petzold (Microsoft Press)
+      -   programmation de Windows par Charles Petzold (Microsoft Press)
 
-      -   Programmation d’applications pour Windows par Jeffrey Richter (Microsoft Press)
+      -   programmation d’Applications pour Windows par Jeffrey Richter (Microsoft Press)
   - question: "Comment faire déboguer à l’aide des fichiers de symboles Windows ? \n"
     answer: >
       Microsoft publie des symboles supprimés pour toutes les DLL système (plus quelques autres). Pour y accéder, ajoutez ce qui suit à votre chemin d’accès aux symboles dans les paramètres du projet dans Visual Studio :
@@ -421,7 +421,7 @@ sections:
 
       4.  Vérifiez s’il y a de l’espace dans la mémoire tampon, autrement dit, par exemple, I + M <= N ? (Où M est le nombre de nouveaux vertex).
 
-      5.  Si c’est le cas, verrouillez le VB avec D3DLOCK \_ NOOVERWRITE. Cela indique à Direct3D et au pilote que vous allez ajouter des vertex et ne modifie pas ceux que vous avez précédemment regroupés par lots. Par conséquent, si une opération DMA était en cours, elle n’est pas interrompue. Si ce n’est pas le cas, Goto 11.
+      5.  si c’est le cas, verrouillez le VB avec D3DLOCK \_ NOOVERWRITE. Cela indique à Direct3D et au pilote que vous allez ajouter des vertex et ne modifie pas ceux que vous avez précédemment regroupés par lots. Par conséquent, si une opération DMA était en cours, elle n’est pas interrompue. Si ce n’est pas le cas, Goto 11.
 
       6.  Renseignez les sommets M à I.
 
@@ -433,7 +433,7 @@ sections:
 
       10. Goto 3.
 
-      11. OK, nous n’avons pas suffisamment d’espace, commençons par un nouveau VB. Nous ne voulons pas utiliser la même valeur, car il peut y avoir une opération DMA en cours. Nous communiquons cela à Direct3D et au pilote en verrouillant le même VB avec l' \_ indicateur D3DLOCK Discard. C’est ce que signifie « vous pouvez me faire un nouveau pointeur, car j’en ai terminé avec l’ancien et ne m’intéresse plus à l’ancien contenu ».
+      11. OK, nous n’avons pas suffisamment d’espace, commençons par un nouveau VB. Nous ne voulons pas utiliser la même valeur, car il peut y avoir une opération DMA en cours. nous communiquons cela à Direct3D et au pilote en verrouillant le même VB avec l' \_ indicateur D3DLOCK discard. C’est ce que signifie « vous pouvez me faire un nouveau pointeur, car j’en ai terminé avec l’ancien et ne m’intéresse plus à l’ancien contenu ».
 
       12. I = 0.
 
@@ -451,7 +451,7 @@ sections:
   questions:
   - question: "Quels sont les formats de fichiers pris en charge par les fonctions D3DX image file Loader ? \n"
     answer: >
-      Les fonctions D3DX image file Loader prennent en charge les fichiers BMP, TGA, JPG, DIB, PPM et DDS.
+      les fonctions D3DX image file loader prennent en charge les fichiers BMP, TGA, JPG, DIB, PPM et DDS.
   - question: "Les fonctions de rendu de texte dans D3DX ne semblent pas fonctionner, que dois-je faire ? \n"
     answer: >
       Une erreur courante lors de l’utilisation des fonctions ID3DXFont ::D rawText consiste à spécifier un composant alpha zéro pour le paramètre Color ; ce qui donne un texte complètement transparent (c’est-à-dire invisible). Pour le texte entièrement opaque, assurez-vous que le composant alpha du paramètre Color est entièrement saturé (255).
@@ -460,7 +460,7 @@ sections:
       Le kit de développement logiciel (SDK) DirectX 8,1 a ajouté deux fonctions à la bibliothèque D3DX spécifiquement à cet effet : D3DXSaveSurfaceToFile () et D3DXSaveTextureToFile (). Ces fonctions prennent en charge l’enregistrement d’une image dans un fichier au format BMP ou DDS. Dans les versions précédentes, vous devrez verrouiller la surface et lire les données de l’image, puis les écrire dans un fichier bitmap. Pour plus d’informations sur l’écriture d’une fonction pour stocker des bitmaps, consultez [stockage d’une image](/windows/desktop/gdi/storing-an-image).
 
 
-      GDI+ peut également être utilisé pour enregistrer l’image dans un grand nombre de formats, même si cela nécessite la distribution de fichiers de prise en charge supplémentaires avec votre application.
+      vous pouvez également GDI+ utiliser pour enregistrer l’image dans un grand nombre de formats, même si cela nécessite la distribution de fichiers de prise en charge supplémentaires avec votre application.
   - question: "Comment faire pour utiliser le HLSL (High Level Shader Language) dans mon jeu ? \n"
     answer: >
       Il existe trois façons d’incorporer le langage HLSL (High Level Shader Language) Microsoft dans votre moteur de jeu :
@@ -538,7 +538,7 @@ sections:
       Dans DirectSound 9,0, lorsque vous dupliquez une mémoire tampon, il est désormais possible d’obtenir l’interface IDirectSoundBuffer8 sur le tampon dupliqué, ce qui vous donne accès à la méthode AcquireResources. Cela vous permettra d’associer une mémoire tampon à l' \_ indicateur DSBCAPS LOCDEFER à une ressource matérielle. Vous pouvez ensuite définir vos paramètres EAX sur cette mémoire tampon avant d’avoir à appeler Play ().
   - question: "Je rencontre des problèmes de comportement non fiable lors de l’utilisation de notifications de position de curseur. Comment puis-je obtenir des informations plus précises ? \n"
     answer: >
-      Il existe des bogues subtils dans différentes versions de DirectSound, la pile audio principale Windows et les pilotes audio qui rendent les notifications de position de curseur non fiables. À moins que vous ne cibliez une configuration matérielle/logicielle connue sur laquelle vous savez que les notifications sont bien connues, évitez les notifications de position de curseur. Pour le suivi de position, GetCurrentPosition () est une technique plus sûre.
+      il existe des bogues subtils dans différentes versions de DirectSound, la pile audio principale Windows et les pilotes audio qui rendent les notifications de position de curseur non fiables. À moins que vous ne cibliez une configuration matérielle/logicielle connue sur laquelle vous savez que les notifications sont bien connues, évitez les notifications de position de curseur. Pour le suivi de position, GetCurrentPosition () est une technique plus sûre.
   - question: "Je suis victime d’une dégradation des performances lors de l’utilisation de GetCurrentPosition (). Que puis-je faire pour améliorer les performances ? \n"
     answer: >
       Chaque appel GetCurrentPosition () sur chaque mémoire tampon provoque un appel système et les appels système doivent être minimisés, car ils constituent un composant important de l’encombrement du processeur de DSound. Sur NT (Win2K et XP), les curseurs dans les tampons de logiciels (et les tampons matériels sur certains appareils) se déplacent en incréments de 10 ms, de sorte que l’appel de GetCurrentPosition () chaque 10 ms est idéal. L’appeler plus souvent que chaque 5 ms entraîne une dégradation des performances.
@@ -549,7 +549,7 @@ sections:
 
       -   N’appelez pas GetCurrentPosition trop souvent. Chaque appel GetCurrentPosition () sur chaque mémoire tampon provoque un appel système et les appels système doivent être minimisés, car ils constituent un composant important de l’encombrement du processeur de DSound. Sur NT (Win2K et XP), les curseurs dans les tampons de logiciels (et les tampons matériels sur certains appareils) se déplacent en incréments de 10 ms, de sorte que l’appel de GetCurrentPosition () chaque 10 ms est idéal. L’appeler plus souvent que chaque 5 ms entraîne une dégradation des performances.
 
-      -   Utilisez une fréquence d’images distincte et inférieure pour les données audio. Aujourd’hui, de nombreux jeux Windows peuvent dépasser 100 images par seconde et il n’est pas nécessaire, dans la plupart des cas, de mettre à jour vos paramètres audio 3D à la même fréquence d’images. Le traitement de votre audio chaque seconde ou troisième image graphique, ou tous les 30ms, peut réduire le nombre d’appels audio de manière significative dans votre application sans réduire la qualité audio.
+      -   Utilisez une fréquence d’images distincte et inférieure pour les données audio. aujourd’hui, de nombreux Windows jeux peuvent dépasser 100 images par seconde et il n’est pas nécessaire, dans la plupart des cas, de mettre à jour vos paramètres audio 3d à la même fréquence d’images. Le traitement de votre audio chaque seconde ou troisième image graphique, ou tous les 30ms, peut réduire le nombre d’appels audio de manière significative dans votre application sans réduire la qualité audio.
 
       -   Utilisez DS3D \_ différé pour les objets 3D. La plupart des cartes audio répondent immédiatement aux modifications de paramètres et, dans une seule image, la plupart peuvent changer, en particulier si vous modifiez la position ou l’orientation de l’écouteur. Cela amène la carte son/UC à effectuer de nombreux calculs inutiles. par conséquent, une autre optimisation rapide et universelle consiste à différer certaines modifications de paramètres et à les valider à la fin du frame.
 
@@ -564,7 +564,7 @@ sections:
           Bien que le pilote de carte son détectera probablement ce scénario et n’effectuera pas à nouveau le calcul (identique), l’appel audio devra atteindre le pilote audio (via une transition en anneau) et cette opération est déjà lente.
   - question: "Lorsque je diffuse un tampon, il a tendance à se lancer et à fonctionner mal. Quelle est la meilleure façon de diffuser une mémoire tampon ? \n"
     answer: >
-      Lorsque vous diffusez du contenu audio dans une mémoire tampon, il existe deux algorithmes de base : après-écriture-curseur (AWC) et avant-lecture-curseur (BPC). AWC minimise la latence au détriment du problème, tandis que BPC est le contraire. Étant donné qu’il n’y a généralement pas de modifications interactives du son diffusé en continu, ce type de latence est rarement un problème pour les jeux et les applications similaires, c’est pourquoi BPC est l’algorithme le plus approprié. Dans AWC, chaque fois que votre thread de diffusion en continu exécute « haut » les données de vos mémoires tampons de bouclage jusqu’à N MS au-delà de leurs curseurs d’écriture (généralement N = 40, pour permettre l’instabilité de la planification Windows). Dans BPC, vous écrivez toujours autant de données que possible dans les mémoires tampons, en les remplissant jusqu’à leurs curseurs de lecture (ou peut-être 32 octets avant de permettre aux pilotes qui signalent incorrectement leur progression du curseur de lecture).
+      Lorsque vous diffusez du contenu audio dans une mémoire tampon, il existe deux algorithmes de base : après-écriture-curseur (AWC) et avant-lecture-curseur (BPC). AWC minimise la latence au détriment du problème, tandis que BPC est le contraire. Étant donné qu’il n’y a généralement pas de modifications interactives du son diffusé en continu, ce type de latence est rarement un problème pour les jeux et les applications similaires, c’est pourquoi BPC est l’algorithme le plus approprié. dans AWC, chaque fois que votre thread de diffusion en continu exécute « haut » les données de vos mémoires tampons de bouclage jusqu’à N ms au-delà de leurs curseurs d’écriture (généralement N = 40, pour permettre la Windows de la planification). Dans BPC, vous écrivez toujours autant de données que possible dans les mémoires tampons, en les remplissant jusqu’à leurs curseurs de lecture (ou peut-être 32 octets avant de permettre aux pilotes qui signalent incorrectement leur progression du curseur de lecture).
 
 
       Utilisez BPC pour mimimize les problèmes et utilisez des mémoires tampons de 100 $ ou plus, même si vos jeux ne se déposent pas sur votre matériel de test, cela entraînera un problème sur certaines machines.
@@ -573,10 +573,10 @@ sections:
       La latence de démarrage (différente de la latence de diffusion mentionnée ci-dessus) peut être un problème dans le cas d’un matériel (l’appel de lecture () prend parfois beaucoup de temps sur certaines cartes son). Si vous voulez vraiment réduire cette latence, pour les sons Twitch (captures de pistolet, traces, etc.), une astuce pratique consiste à conserver des mémoires tampons toujours en boucle et à jouer un silence. Lorsque vous avez besoin de lire un son Twitch, de choisir un tampon libre, de voir où se trouve son curseur d’écriture et de placer le son dans la mémoire tampon juste après le curseur d’écriture. Certains Soundcards échouent QuerySupport pour les propriétés différées que je sais qu’elles prennent en charge. Existe-t-il une solution de contournement ? Vous pouvez simplement QuerySupport pour les versions non différées des propriétés et utiliser les paramètres différés quand même. Les pilotes carte son les plus récents peuvent également résoudre ce problème.
   - question: "Comment faire encoder les fichiers WAV en WMA ? \n"
     answer: >
-      Reportez-vous à la documentation sur l’encodeur Windows Media à l’adresse suivante : Windows Media Encoder 9 Series.
+      reportez-vous à la documentation sur l’encodeur multimédia Windows à l’adresse suivante : Windows media encoder 9 Series.
   - question: "Comment faire décoder des fichiers MP3 avec DirectSound ? \n"
     answer: >
-      DirectSound ne prend pas en charge le décodage MP3 en mode natif. Vous pouvez décoder les fichiers à l’avance vous-même (à l’aide d’un codec ACM d’un filtre DirectShow), ou simplement utiliser DirectShow lui-même, ce qui peut vous permettre d’effectuer le décodage. vous pouvez ensuite copier les données audio PCM obtenues dans vos mémoires tampons DirectSound.
+      DirectSound ne prend pas en charge le décodage MP3 en mode natif. vous pouvez décoder les fichiers à l’avance vous-même (à l’aide d’un codec ACM d’un filtre DirectShow), ou simplement utiliser DirectShow lui-même, ce qui peut vous permettre d’effectuer le décodage. vous pouvez ensuite copier les données audio PCM obtenues dans vos mémoires tampons DirectSound.
 - name: Extensions DirectX pour Alias Maya
   questions:
   - question: "Pourquoi mon NURBS ne s’affiche-t-il pas ? \n"
@@ -625,7 +625,7 @@ sections:
       Oui, mais ils agissent comme le même axe. Vous ne pouvez donc pas lire les déclencheurs indépendamment avec DirectInput. À l’aide de XInput, les déclencheurs retournent des valeurs distinctes.
 
 
-      Pour plus d’informations sur la raison pour laquelle DirectInput interprète les déclencheurs comme un seul axe, consultez [utilisation du contrôleur Xbox 360 avec DirectInput](/windows/desktop/xinput/xinput-and-directinput).
+      pour plus d’informations sur la raison pour laquelle DirectInput interprète les déclencheurs comme un axe, consultez [utilisation de l’manette Xbox 360 avec DirectInput](/windows/desktop/xinput/xinput-and-directinput).
   - question: "Quel est le nombre de contrôleurs pris en charge par XInput ? \n"
     answer: >
       XInput prend en charge 4 contrôleurs branchés à la fois.
@@ -640,7 +640,7 @@ sections:
       Utilisez la fonction [**XInputSetState**](/windows/desktop/api/xinput/nf-xinput-xinputsetstate) .
   - question: "Pourquoi mon périphérique audio par défaut change-t-il ? \n"
     answer: >
-      Lors de la connexion du casque, le casque du contrôleur agit comme un périphérique audio USB standard, donc lorsqu’il est connecté, Windows change automatiquement pour utiliser ce périphérique audio USB comme périphérique par défaut. Dans la mesure où l’utilisateur ne veut pas que tous les éléments audio passent par le casque, il devra le rétablir manuellement à sa valeur d’origine.
+      lors de la connexion du casque, le casque du contrôleur agit comme un périphérique audio usb standard, donc lorsqu’il est connecté, Windows change automatiquement pour utiliser ce périphérique audio usb comme périphérique par défaut. Dans la mesure où l’utilisateur ne veut pas que tous les éléments audio passent par le casque, il devra le rétablir manuellement à sa valeur d’origine.
   - question: "Comment faire contrôler les lumières du contrôleur ? \n"
     answer: >
       Les lumières sur le contrôleur sont prédéterminées par le système d’exploitation et ne peuvent pas être modifiées.
@@ -649,7 +649,7 @@ sections:
       Ce bouton est réservé à une utilisation ultérieure.
   - question: "Où puis-je me procurer des pilotes ? \n"
     answer: >
-      Les pilotes seront disponibles via Windows Update.
+      les pilotes seront disponibles via Windows Update.
   - question: "Comment l’ID de contrôleur est-il déterminé ? \n"
     answer: >
       Au démarrage de XInput, l’ID est déterminé de façon non déterministe par le moteur XInput et les contrôleurs qui sont branchés. Si les contrôleurs sont branchés pendant qu’une application XInput est en cours d’exécution, le système affecte au nouveau contrôleur le plus petit nombre disponible. Si un contrôleur est déconnecté, son numéro sera à nouveau disponible.

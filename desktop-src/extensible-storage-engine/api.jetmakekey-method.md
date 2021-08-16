@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 13db6e7106f5312e03ffa5acfbd86c72d38c6edb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 383671ef1d5ef57c48b7444e4e7d30391a54441ab47893b0e3339fdfcb65e5c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117579"
 ---
 # <a name="apijetmakekey-method"></a>API. JetMakeKey, méthode
 
@@ -103,7 +103,7 @@ public static void JetMakeKey(
     
     Options de clé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fonctions MakeKey fournissent des fonctionnalités de création de clés propres au type de données.
 

@@ -6,12 +6,12 @@ keywords:
 - effet de source bitmap
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a439c94f0f520b318b3cb3511775dbec58b6e139
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 19889372c7ebd4268f1b6fd8b77c360f290cc416631e9fb5e1cd3a0b0320844c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833320"
 ---
 # <a name="bitmap-source-effect"></a>Effet de source bitmap
 
@@ -29,7 +29,7 @@ Le CLSID de cet effet est CLSID \_ D2D1BitmapSource.
 -   [Orientation](#orientation)
 -   [Modes alpha](#alpha-modes)
 -   [Remarques](#remarks)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="effect-properties"></a>Propriétés d’effet
@@ -136,7 +136,7 @@ D2D1_BITMAPSOURCE_ORIENTATION GetBitmapSourceOrientation(unsigned short PhotoOri
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour optimiser les performances lors de l’utilisation conjointe de WIC et de [Direct2D](./direct2d-portal.md) , vous devez utiliser [**IWICFormatConverter**](/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter) pour convertir au format de pixel approprié en fonction du scénario de votre application et de la précision native de l’image.
 
@@ -162,8 +162,8 @@ Dans la plupart des cas, le pipeline [Direct2D](./direct2d-portal.md) de votre a
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

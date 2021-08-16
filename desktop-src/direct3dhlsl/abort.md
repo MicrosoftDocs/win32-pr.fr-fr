@@ -40,7 +40,7 @@ void abort(
  
 </dt> <dd>
 
-Aucune
+None
 
 </dd> </dl>
 

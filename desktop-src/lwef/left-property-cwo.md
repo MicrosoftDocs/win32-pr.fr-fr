@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété de l’objet CommandsWindow de ga
 ms.assetid: 03786379-42c2-4f54-99cc-1dc120c45858
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fdcbb8cb39b2c07120ecab2b4da5da99d55b78f
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 348a695e69320abd340fd06789603ff6e1f2b3fe8671fa583ed2f253970cdf5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105025"
 ---
 # <a name="left-property-commandswindow-object"></a>Propriété Left (objet CommandsWindow)
 

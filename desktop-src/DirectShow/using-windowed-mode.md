@@ -4,12 +4,12 @@ ms.assetid: 09ee4568-348b-4cf9-bb38-dada291cdef9
 title: Utilisation du mode fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95309f5546ce4f00a8dde029390b2edf48544f1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd5f71bfa58e46ade8c779e562278f908c8b8fd593989ed4007e6b98cb7916da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633089"
 ---
 # <a name="using-windowed-mode"></a>Utilisation du mode fenêtre
 
@@ -28,7 +28,7 @@ En mode fenêtre, le convertisseur vidéo crée sa propre fenêtre dans laquelle
 
 **Requête pour IVideoWindow**
 
-Avant de commencer la lecture, interrogez le gestionnaire du graphique de filtre pour l’interface **IVideoWindow** :
+avant de commencer la lecture, interrogez le gestionnaire de Graph de filtre de l’interface **IVideoWindow** :
 
 
 ```C++
@@ -75,7 +75,7 @@ pVidWin->SetWindowPosition(0, 0, rc.right, rc.bottom);
 
 
 
-Pour connaître la taille native de la vidéo, appelez la méthode [**IBasicVideo :: GetVideoSize**](/windows/desktop/api/Control/nf-control-ibasicvideo-getvideosize) sur le gestionnaire de graphique de filtre. Vous pouvez utiliser ces informations pour mettre à l’échelle la vidéo et conserver les proportions correctes.
+pour connaître la taille native de la vidéo, appelez la méthode [**IBasicVideo :: GetVideoSize**](/windows/desktop/api/Control/nf-control-ibasicvideo-getvideosize) sur le gestionnaire de Graph de filtre. Vous pouvez utiliser ces informations pour mettre à l’échelle la vidéo et conserver les proportions correctes.
 
 **Répondre aux \_ messages WM Move**
 
@@ -107,7 +107,7 @@ pVidWin->put_Owner(NULL);
 
 
 > [!Note]  
-> Si le parent de la fenêtre vidéo est un enfant de votre fenêtre d’application principale (en d’autres termes, si la fenêtre vidéo est un enfant d’un enfant), vous devez créer la fenêtre vidéo à l’aide de **CoCreateInstance** et l’ajouter au graphique, au lieu de laisser le gestionnaire de graphes de filtre ajouter le convertisseur vidéo pendant la [connexion intelligente](intelligent-connect.md). Cela permet de s’assurer que la fenêtre vidéo et la fenêtre enfant sont repeintes en même temps. Dans le cas contraire, la fenêtre enfant peut être peinte sur la fenêtre vidéo.
+> si le parent de la fenêtre vidéo est un enfant de la fenêtre principale de votre application (en d’autres termes, si la fenêtre vidéo est un enfant d’un enfant), vous devez créer la fenêtre vidéo à l’aide de **CoCreateInstance** et l’ajouter au graphique, au lieu de laisser le filtre Graph Manager ajouter le convertisseur vidéo pendant la [Connecter intelligente](intelligent-connect.md). Cela permet de s’assurer que la fenêtre vidéo et la fenêtre enfant sont repeintes en même temps. Dans le cas contraire, la fenêtre enfant peut être peinte sur la fenêtre vidéo.
 
  
 

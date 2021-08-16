@@ -1,21 +1,21 @@
 ---
 description: Cette rubrique présente les détails de l’événement lors de l’utilisation des fonctionnalités du proxy d’analyse des données d’encre.
 ms.assetid: 837867a4-7cda-41b0-b20d-eec9a3a7fb86
-title: Workflow d’événement de proxy de données
+title: Flow de l’événement de proxy de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b88fbb43e54b19486a6413bc44319fa2dd737486
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.openlocfilehash: c1ae6eab209466094ec79c0ed96923a28751b86c585d9ef750f9d12ef892036c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092804"
 ---
-# <a name="data-proxy-event-flow"></a>Workflow d’événement de proxy de données
+# <a name="data-proxy-event-flow"></a>Flow de l’événement de proxy de données
 
 Cette rubrique présente les détails de l’événement lors de l’utilisation des fonctionnalités du proxy d’analyse des données d’encre.
 
-## <a name="data-proxy-event-flow-overview"></a>Vue d’ensemble du workflow d’événement de proxy de données
+## <a name="data-proxy-event-flow-overview"></a>vue d’ensemble des Flow d’événements de Proxy de données
 
 Dans l’utilisation du proxy de données de [**InkAnalyzer**](inkanalyzer.md), il est supposé que l’application intégrant le InkAnalyzer possède déjà un modèle de document existant auquel il souhaite effectuer un proxy des résultats de l’analyse. Il est également supposé que l’application aura des résultats de toutes les opérations d’analyse précédentes qu’elle souhaiterait créer sur stockées dans son modèle de document. Il peut également y avoir des contextes non manuscrits qui peuvent être ajoutés au **InkAnalyzer** sous la forme d’un [**ContextNode**](icontextnode.md) **ImageNode** ou **TextWordNode** pour être éventuellement annotés avec de l’encre.
 

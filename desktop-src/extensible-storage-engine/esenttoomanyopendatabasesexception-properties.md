@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103108
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 18b99db9a300f81bd7a840b17379cd7a57c743c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba8e5dbc4f85aa919cad8f8b511eb8adc1ea16b81edd33b7464d9792a79c7e7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104557739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119113655"
 ---
 # <a name="esenttoomanyopendatabasesexception-properties"></a>Propriétés EsentTooManyOpenDatabasesException
 
@@ -49,7 +49,7 @@ Le type [EsentTooManyOpenDatabasesException](./esenttoomanyopendatabasesexceptio
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

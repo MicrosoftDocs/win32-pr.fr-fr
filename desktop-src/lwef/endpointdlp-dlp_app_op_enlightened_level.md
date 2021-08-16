@@ -1,6 +1,6 @@
 ---
 description: Associe une action de protection contre la perte de données (DLP) au niveau de l’application.
-title: Structure DLP_APP_OP_ENLIGHTENED_LEVEL (endpointdlp. h)
+title: DLP_APP_OP_ENLIGHTENED_LEVEL, structure (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type:
@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location:
 - endpointdlp.h
-ms.openlocfilehash: 2d9c1aa8335078cad71832c6090cada1669641cb
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: e47fa7705701701af2fc0832c5ea27cfdc7d1e67948ec095f3c24837a93de18b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610479"
 ---
 # <a name="dlp_app_op_enlightened_level-structure"></a>Structure DLP_APP_OP_ENLIGHTENED_LEVEL
 
@@ -58,11 +58,11 @@ Valeur de [DlpAppEnforceLevel](endpointdlp-dlpappenforcelevel.md) qui spécifie 
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Transmettez un tableau de ces structures dans [DlpInitializeEnforcementMode](endpointdlp-dlpinitializeenforcementmode.md) pour définir le mode de mise en application pour un ensemble d’opérations DLP de point de terminaison.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 7F77459B-5900-4967-A2A3-AAEE78DF84E1
 title: System. Devices. PlaybackState
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a95b736d80df49587954f20c4c000c82779d5648
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c81a7cf0bccb2a490fac1015ffeffc67f4fbb6c7fd1a1e95e7621dec7e09e16f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097455"
 ---
 # <a name="systemdevicesplaybackstate"></a>System. Devices. PlaybackState
 
@@ -73,7 +73,7 @@ propertyDescription
             defineToken = PLAYBACKSTATE_NOMEDIA
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

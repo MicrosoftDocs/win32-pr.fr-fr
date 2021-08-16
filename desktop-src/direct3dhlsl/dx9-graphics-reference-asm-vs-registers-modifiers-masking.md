@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7ce15f75f424cb7796ef7db7a8b89bd5bcbfa9cf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ee1a8d45e847f7da785bd09b83e778d140cee68007add882066b508b38043550
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119683"
 ---
 # <a name="destination-register-masking"></a>Masquage du registre de destination
 
@@ -35,7 +35,7 @@ Comme indiqué dans le tableau suivant, le masquage (où est l’un des [registr
 
 
 
- 
+ 
 
 -   En général, la spécification de masques d’écriture de registre de destination est un bon style de codage. Cela rend le code plus facile à lire et à gérer.
 -   Vous pouvez spécifier n’importe quelle combinaison de composants (y compris aucun) tant que x précède y, y précède z et z précède w.
@@ -91,9 +91,9 @@ Ces restrictions s’appliquent uniquement aux registres de coordonnées de text
 [Modificateurs de registre de nuanceur vertex](dx9-graphics-reference-asm-vs-registers-modifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

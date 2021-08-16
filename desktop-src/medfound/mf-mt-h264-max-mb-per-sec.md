@@ -4,12 +4,12 @@ ms.assetid: 882F54D1-A963-4016-BEC7-F9C1AC5885FD
 title: Attribut MF_MT_H264_MAX_MB_PER_SEC (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b53bdbabd9a633464ed388f2309627b69413c27
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93bce2de0aa4f6c67cc7f6e61c09fde89923467a9211ba9e10642edf5a7f6416
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104535"
 ---
 # <a name="mf_mt_h264_max_mb_per_sec-attribute"></a>\_Attribut de \_ \_ nombre maximal de \_ Mo \_ par \_ seconde pour MF MT H264 –
 
@@ -23,7 +23,7 @@ Spécifie le taux de traitement bloc macro maximal pour un flux vidéo H. 264.
 
 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux types de média pour les flux H. 264 transmis sur USB. La valeur de l’attribut est un tableau de valeurs UINT32 qui correspondent aux champs suivants dans le descripteur de format vidéo UVC 1,5 H. 264.
 
@@ -58,8 +58,8 @@ Cet attribut est également utilisé avec les [encodeurs de caméra H. 264 UVC 1
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

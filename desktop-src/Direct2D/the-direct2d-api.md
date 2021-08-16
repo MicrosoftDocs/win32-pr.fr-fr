@@ -25,12 +25,12 @@ keywords:
 - Direct2D, Primitives
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 858d03f626fe337b174f074d7725dcb1a636b463
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 54f318e3542d54ee92817193ef6b749a3ba1cf4678407ca7a12f28c6c187ae86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106530794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074993"
 ---
 # <a name="direct2d-api-overview"></a>Vue d’ensemble de l’API Direct2D.
 
@@ -70,18 +70,18 @@ L’API Direct2D est définie par les fichiers d’en-tête suivants.
 | d2d1helper. h        | Définit des fonctions, des classes et des structures d’assistance C++.                                                                       |
 | d2dbasetypes. h      | Définit des primitives de dessin pour Direct2D, telles que des points et des rectangles. Cet en-tête est inclus dans d2d1. h.                 |
 | d2derr. h            | Définit les codes d’erreur pour Direct2D. Cet en-tête est inclus dans d2d1. h.                                                   |
-| d2d1 \_ 1. h           | Définit les versions C et C++ de l’API Direct2D principale pour Windows 8 et versions ultérieures.                                              |
-| d2d1 \_ 1helper. h     | Définit des fonctions, des classes et des structures d’assistance C++ pour Windows 8 et versions ultérieures.                                               |
-| d2d1effects. h       | Définit les versions C et C++ de la partie effets d’image de l’API Direct2D pour Windows 8 et versions ultérieures.                            |
-| d2d1effecthelpers. h | Définit les fonctions, les classes et les structures d’assistance C++ de la partie effets d’image de l’API Direct2D pour Windows 8 et versions ultérieures. |
+| d2d1 \_ 1. h           | définit les versions C et C++ de l’API Direct2D principale pour Windows 8 et versions ultérieures.                                              |
+| d2d1 \_ 1helper. h     | définit des fonctions, des classes et des structures d’assistance C++ pour Windows 8 et versions ultérieures.                                               |
+| d2d1effects. h       | définit les versions C et C++ de la partie effets d’image de l’API Direct2D pour Windows 8 et versions ultérieures.                            |
+| d2d1effecthelpers. h | définit les fonctions, les classes et les structures d’assistance C++ de la partie effets d’image de l’API Direct2D pour Windows 8 et versions ultérieures. |
 
 
 
- 
+ 
 
 Pour utiliser Direct2D, votre application doit inclure le fichier d’en-tête d2d1. h.
 
-Pour compiler une application Direct2D, ajoutez d2d1. lib à la liste des bibliothèques. Vous pouvez trouver d2d1. h et d2d1. lib dans le [Kit de développement logiciel (SDK) Windows pour Windows 7](https://msdn.microsoft.com/windows/bb980924.aspx).
+Pour compiler une application Direct2D, ajoutez d2d1. lib à la liste des bibliothèques. vous pouvez trouver d2d1. h et d2d1. lib dans [Windows kit de développement logiciel (SDK) pour Windows 7](https://msdn.microsoft.com/windows/bb980924.aspx).
 
 Les sections suivantes décrivent certaines des interfaces courantes fournies par l’API Direct2D.
 
@@ -181,7 +181,7 @@ Pour plus d’informations sur les géométries, consultez [vue d’ensemble des
 
 ### <a name="bitmaps"></a>Images bitmap
 
-Direct2D ne fournit pas de méthodes pour charger ou stocker des bitmaps ; au lieu de cela, il vous permet de créer des bitmaps à l’aide du [WIC (Windows Imaging Component)](../wic/-wic-about-windows-imaging-codec.md). Les ressources bitmap peuvent être chargées à l’aide de WIC, puis utilisées pour créer un [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) via la méthode [**ID2D1RenderTarget :: CreateBitmapFromWicBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties_id2d1bitmap)) .
+Direct2D ne fournit pas de méthodes pour charger ou stocker des bitmaps ; au lieu de cela, il vous permet de créer des bitmaps à l’aide du [composant WIC (Windows Imaging Component)](../wic/-wic-about-windows-imaging-codec.md). Les ressources bitmap peuvent être chargées à l’aide de WIC, puis utilisées pour créer un [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) via la méthode [**ID2D1RenderTarget :: CreateBitmapFromWicBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties_id2d1bitmap)) .
 
 Les bitmaps peuvent également être créées à partir de données en mémoire qui ont été configurées par d’autres moyens. Une fois qu’une bitmap a été créée, elle peut être dessinée par la méthode [**DrawBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawbitmap(id2d1bitmap_constd2d1_rect_f__float_d2d1_bitmap_interpolation_mode_constd2d1_rect_f_)) de la cible de rendu ou par un pinceau bitmap.
 
@@ -189,15 +189,15 @@ Les bitmaps peuvent également être créées à partir de données en mémoire 
 
 ## <a name="drawing-text"></a>Dessiner du texte
 
-Direct2D a été conçu pour fonctionner avec les opérations de texte de la nouvelle API Text, DirectWrite. Pour faciliter l’utilisation de l’API DirectWrite, les cibles de rendu fournissent trois méthodes pour le rendu des ressources de texte DirectWrite : [**DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)), [**DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout)et [**DrawGlyphRun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun). Étant donné que Direct2D utilise le GPU pour le processus de rendu de texte ClearType, Direct2D fournit une utilisation de l’UC inférieure à GDI pour les opérations de texte et une meilleure évolutivité à mesure que la puissance de traitement GPU est disponible.
+Direct2D a été conçu pour fonctionner avec les opérations de texte de la nouvelle API Text, DirectWrite. pour faciliter l’utilisation de l’API DirectWrite, les cibles de rendu offrent trois méthodes de rendu des ressources texte DirectWrite : [**DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)), [**DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout)et [**DrawGlyphRun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun). Étant donné que Direct2D utilise le GPU pour le processus de rendu de texte ClearType, Direct2D fournit une utilisation de l’UC inférieure à GDI pour les opérations de texte et une meilleure évolutivité à mesure que la puissance de traitement GPU est disponible.
 
 [**ID2D1RenderTarget ::D rawtext**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) est conçu pour les scénarios les plus simples impliquant le rendu d’une chaîne de texte Unicode avec une mise en forme minimale. Une disposition plus complexe et une flexibilité typographique sont fournies par le biais de la méthode [**ID2D1RenderTarget ::D rawtextlayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) , qui utilise un objet [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) pour spécifier le contenu et la mise en forme à restituer. **IDWriteTextLayout** vous permet de spécifier une mise en forme individuelle pour les sous-chaînes de texte et d’autres options typographiques avancées.
 
 Pour les scénarios où un contrôle précis de la disposition au niveau du glyphe est requis, la méthode [**ID2D1RenderTarget ::D rawglyphrun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun) peut être utilisée conjointement avec les fonctionnalités de mesure fournies par [DirectWrite](../directwrite/direct-write-portal.md).
 
-Pour utiliser l’API DirectWrite, incluez l’en-tête DWrite. h. À l’instar de Direct2D, DirectWrite utilise une fabrique, [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) pour créer des objets de texte. Utilisez la fonction [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) pour créer une fabrique, puis utilisez ses méthodes Create pour créer des ressources DirectWrite (telles que [**IDWriteTextFormat**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode))).
+pour utiliser l’API DirectWrite, incluez l’en-tête dwrite. h. à l’instar de Direct2D, DirectWrite utilise une fabrique, [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) pour créer des objets de texte. utilisez la fonction [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) pour créer une fabrique, puis utilisez ses méthodes create pour créer des ressources DirectWrite (par exemple, [**IDWriteTextFormat**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode))).
 
-Pour plus d’informations sur DirectWrite, consultez la rubrique [Présentation de DirectWrite](../directwrite/introducing-directwrite.md) .
+pour plus d’informations sur DirectWrite, consultez la rubrique [présentation d’DirectWrite](../directwrite/introducing-directwrite.md) .
 
 ## <a name="direct2d-primitives"></a>Primitives Direct2D
 
@@ -212,7 +212,7 @@ Vous n’utilisez pas une fabrique ou une cible de rendu pour instancier des pri
 [Référence Direct2D](reference.md)
 </dt> <dt>
 
-[Exemple de Hello World DirectWrite](/samples/browse/?redirectedfrom=MSDN-samples)
+[DirectWrite Exemple de Hello World](/samples/browse/?redirectedfrom=MSDN-samples)
 </dt> <dt>
 
 [Présentation de DirectWrite](../directwrite/introducing-directwrite.md)
@@ -224,6 +224,6 @@ Vous n’utilisez pas une fabrique ou une cible de rendu pour instancier des pri
 [Composant Imagerie Windows (WIC)](../wic/-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

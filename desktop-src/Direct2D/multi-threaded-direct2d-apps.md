@@ -4,12 +4,12 @@ description: Décrit les meilleures pratiques pour créer des applications Direc
 ms.assetid: FDD770D4-817F-44D9-86C4-15DD04D214AE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6be979b867edd6d36583959c4a595dbd507ca94f
-ms.sourcegitcommit: c3243ec4ada05b7faf9d563853cb667ecef825e8
+ms.openlocfilehash: 5710435f263e7b0f735581e03416f1d01733711429ad95b3ed25e473aca6d936
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "103734789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636395"
 ---
 # <a name="multithreaded-direct2d-apps"></a>Applications Direct2D multithread
 
@@ -116,6 +116,6 @@ Pour résoudre ce problème, nous vous recommandons d’avoir un contexte distin
 -   Vous devez partager des ressources à poids élevé (telles que des bitmaps et des graphiques d’effets complexes) qui sont initialisées une seule fois, puis jamais modifiées sur les threads pour améliorer les performances.
 -   Vous pouvez partager des ressources légères (telles que des pinceaux de couleur unie et des formats de texte) qui sont initialisés une seule fois et qui ne sont jamais modifiés à travers les threads.
 
-## <a name="summary"></a>Résumé
+## <a name="summary"></a>Récapitulatif
 
 Lorsque vous développez des applications [Direct2D](./direct2d-portal.md) multithread, vous devez créer une fabrique Direct2D multithread, puis dériver toutes les ressources Direct2D de cette fabrique. Si un thread effectue des appels [Direct3D](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) ou dxgi, vous devez également l’acquérir explicitement, puis appliquer le verrou Direct2D pour assurer la protection de ces appels Direct3D ou DXGI. En outre, vous devez garantir l’intégrité du contexte en utilisant une copie de ressources mutables pour chaque thread.

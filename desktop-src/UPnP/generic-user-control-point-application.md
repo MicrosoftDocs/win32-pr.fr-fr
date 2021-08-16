@@ -4,12 +4,12 @@ description: L’application de point de contrôle utilisateur générique (UCP)
 ms.assetid: 18ac23df-9d69-4a28-91e5-991eb4f3e6ed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee56710cc1fafcc8551b34cb53df531f1f8cb601
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bc0bbf454da2bf36becb3c8b0aff2babc87925df7ac658fc9dc7963ba9182fad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104567646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655732"
 ---
 # <a name="generic-user-control-point-application"></a>Application de point de contrôle utilisateur générique
 
@@ -41,13 +41,13 @@ L’application de point de contrôle utilisateur générique (UCP) vous permet 
     ![fenêtre UCP générique](images/generic-ucp.png)
 
 > [!Note]  
-> Les fonctionnalités **afficher la présentation** et afficher le **service DESC.** ne sont pas implémentées dans l’exemple de code C++.
+> Vue de la **Présentation** et du **service d’affichage DESC.** la fonctionnalité n’est pas implémentée dans l’exemple de code C++.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

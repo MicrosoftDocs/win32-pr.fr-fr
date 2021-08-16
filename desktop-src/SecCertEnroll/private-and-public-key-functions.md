@@ -4,12 +4,12 @@ ms.assetid: 1358053e-ed4e-4482-b160-5b9b1024c771
 title: Fonctions de clés privées et publiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2c1d8ec481c87337e7d7e56cffee47f1f483b84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc6f210393ffaeb676e0190d391692225f25e0cfb4bc3acbcd2c3c188bf40a1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774422"
 ---
 # <a name="private-and-public-key-functions"></a>Fonctions de clés privées et publiques
 

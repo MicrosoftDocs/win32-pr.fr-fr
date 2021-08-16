@@ -1,6 +1,6 @@
 ---
-title: Variables d’état de texturation
-description: Variables d’état de texturation
+title: Texture, variables d’état
+description: Texture, variables d’état
 ms.assetid: 2d9d3d8b-ecaa-412c-8105-ae2ca801784e
 keywords:
 - Variables d’état de texturage OpenGL
@@ -12,14 +12,14 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff468c701100cc598a519ed3aa290913016a559e
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 7393fc6e700b028ba3783e5c78d8175e0c3fba4937bf3830d5cae8897aa0d4db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776579"
 ---
-# <a name="texturing-state-variables"></a>Variables d’état de texturation
+# <a name="texturing-state-variables"></a>Texture, variables d’état
 
 <dl> <dt><span id="GL_TEXTURE_x"></span><span id="gl_texture_x"></span><span id="GL_TEXTURE_X"></span>\_Texture GL \_ *x*</dt> <dd> 
 

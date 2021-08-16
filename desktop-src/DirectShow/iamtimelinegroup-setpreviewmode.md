@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: fe03e6be3572b6cc660e51c27551a316db990d80
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2f4c53372066ec28f3782fe53148eaba99489187c3be9b9ccf73195a7b1e6da9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756309"
 ---
 # <a name="iamtimelinegroupsetpreviewmode-method"></a>IAMTimelineGroup :: SetPreviewMode, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -56,7 +56,7 @@ Mode aperçu. Si la **valeur est true**, le groupe est en mode aperçu. Si la **
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En mode aperçu, les images sont supprimées pendant les effets lents ou les transitions pour maintenir la vidéo synchronisée avec l’audio. La vidéo peut paraître hachée en conséquence. En mode création, chaque frame est rendu. Le mode création est approprié pour l’écriture de fichiers ; pour l’aperçu à l’écran, la vidéo peut ne pas être synchronisée avec l’audio.
 
@@ -66,7 +66,7 @@ En mode aperçu, les images sont supprimées pendant les effets lents ou les tra
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

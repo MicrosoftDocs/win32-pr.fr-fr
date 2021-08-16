@@ -4,12 +4,12 @@ description: Raccourcis et variantes de commande
 ms.assetid: 4f854c78-435c-4a10-8938-645ad605fff3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a82ce41aaa9cc5744a2f199a7f7761111734e848
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 532a3379b5eb6dced9ccebb3e04e76be87fdca7ea5af341b647cb0205888c283
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807919"
 ---
 # <a name="command-shortcuts-and-variations"></a>Raccourcis et variantes de commande
 
@@ -35,9 +35,9 @@ Si une application utilise la fonctionnalité d’ouverture automatique pour ouv
 -   Vous demandez une notification dans une commande ultérieure.
 -   MCI détecte une défaillance.
 
- 
+ 
 
- 
+ 
 
 
 

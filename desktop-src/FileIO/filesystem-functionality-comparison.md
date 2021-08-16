@@ -1,19 +1,19 @@
 ---
-description: Les tables qui répertorient les fonctionnalités et les fonctionnalités prennent en charge les comparaisons pour les quatre principaux systèmes de fichiers Windows, NTFS, exFAT, UDF et FAT32.
+description: les Tables qui répertorient les fonctionnalités et les fonctionnalités prennent en charge les comparaisons pour les quatre principaux systèmes de fichiers Windows, NTFS, exFAT, UDF et FAT32.
 ms.assetid: 28cf2805-f1ce-46b4-bf08-a329f67f4d99
 title: Comparaison des fonctionnalités du système de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7547e48ff68a8fdab195087904a47a535aa3464
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5af85dbacfd04920d8eb0a9558e0d57cc6e4020da35ffac57f7bdc703e6ef15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790689"
 ---
 # <a name="file-system-functionality-comparison"></a>Comparaison des fonctionnalités du système de fichiers
 
-Les tableaux suivants répertorient les fonctionnalités et la prise en charge des fonctionnalités pour les quatre principaux systèmes de fichiers Windows, NTFS, exFAT, UDF et FAT32 :
+les tableaux suivants répertorient les fonctionnalités et les fonctionnalités de prise en charge des quatre principaux systèmes de fichiers Windows, NTFS, exFAT, UDF et FAT32 :
 
 -   [Fonctionnalité](#file-system-functionality-comparison)
 -   [Limites](#limits)
@@ -37,7 +37,7 @@ Les tableaux suivants répertorient les fonctionnalités et la prise en charge d
 | Horodatages du dernier archivage<br/> | Non<br/>                  | Non<br/>  | Non<br/>                 | Non<br/>              |
 | Respect de la casse<br/>           | Oui (option)<br/>        | Non<br/>  | Oui<br/>                | Non<br/>              |
 | Conservation de la casse<br/>          | Oui<br/>                 | Oui<br/> | Oui<br/>                | Oui<br/>             |
-| Liens directs<br/>               | Oui<br/>                 | Non<br/>  | Oui<br/>                | Non<br/>              |
+| Liens physiques<br/>               | Oui<br/>                 | Non<br/>  | Oui<br/>                | Non<br/>              |
 | Liens virtuels<br/>               | Oui<br/>                 | Non<br/>  | Non<br/>                 | Non<br/>              |
 | Fichiers partiellement alloués<br/>             | Oui<br/>                 | Non<br/>  | Oui<br/>                | Non<br/>              |
 | Flux avec nom<br/>            | Oui<br/>                 | Non<br/>  | Oui<br/>                | Non<br/>              |
@@ -52,7 +52,7 @@ Les tableaux suivants répertorient les fonctionnalités et la prise en charge d
 
 **Windows Server 2003 et Windows XP :** Le champ horodatage du dernier accès NTFS est mis à jour.
 
-## <a name="limits"></a>limites
+## <a name="limits"></a>Limites
 
 
 
@@ -149,7 +149,7 @@ Les tableaux suivants répertorient les fonctionnalités et la prise en charge d
 
  
 
-**Remarque**  Le magasin d’instances uniques pour NTFS est disponible dans le cadre de la fonctionnalité de stockage d’instance simple de Windows Server.
+**Remarque**  le magasin d’instances uniques pour NTFS est disponible dans le cadre de la fonctionnalité de Stockage d’instance unique dans Windows Server.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

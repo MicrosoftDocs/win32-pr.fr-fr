@@ -1,5 +1,5 @@
 ---
-description: Représente la gestion de la vérification de l’ordinateur (CMC) corrigée pour passer du pilote d’interruption à l’interrogation. Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+description: Représente la gestion de la vérification de l’ordinateur (CMC) corrigée pour passer du pilote d’interruption à l’interrogation. cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 ms.assetid: c5e99e13-0f65-40bc-8863-b2ca7ea221df
 title: Classe MSMCAEvent_SwitchToCMCPolling
 ms.topic: reference
@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: f7d0d543dc36054550d4ddf6cc1a77ce80cf1647
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8192dc83a50063b2aaabba2bf708053fadb8e094bfa1cab82b11b084f722a76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640939"
 ---
 # <a name="msmcaevent_switchtocmcpolling-class"></a>MSMCAEvent \_ SwitchToCMCPolling, classe
 
-La classe **MSMCAEvent \_ SwitchToCMCPolling** représente la gestion des machines (CMC) corrigée pour passer du pilote d’interruption à l’interrogation. Dans certains cas, le noyau interroge la couche d’abstraction système (SAL) pour toute erreur CMC ou une erreur de plateforme corrigée (CPE) qui s’est produite au cours de l’intervalle d’interrogation précédent. Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+La classe **MSMCAEvent \_ SwitchToCMCPolling** représente la gestion des machines (CMC) corrigée pour passer du pilote d’interruption à l’interrogation. Dans certains cas, le noyau interroge la couche d’abstraction système (SAL) pour toute erreur CMC ou une erreur de plateforme corrigée (CPE) qui s’est produite au cours de l’intervalle d’interrogation précédent. cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 
 La syntaxe suivante est simplifiée du code format MOF (MOF) et comprend toutes ses propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -79,7 +79,7 @@ Identificateur unique de cette instance de la classe.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **MSMCAEvent \_ SwitchToCMCPolling** est dérivée de [**WmiEvent**](wmievent.md).
 

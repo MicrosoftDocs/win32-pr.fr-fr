@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: fbbf83ae978e46a3867d27c23e8b8f726ba0d7dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb2a2073a791fcbb8e5bb6db83480f0fcea52b35e0380c20be730265d5bb34ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090639"
 ---
 # <a name="diskquotacontrollogquotathreshold-property"></a>DiskQuotaControl. LogQuotaThreshold, propriété
 
@@ -40,7 +40,7 @@ DiskQuotaControl.LogQuotaThreshold = bLogQuotaThreshold
 
 Cette propriété a la valeur **true** si une entrée du journal des événements système est effectuée lorsque l’utilisateur dépasse son seuil d’avertissement de quota, ou **false** dans le cas contraire.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

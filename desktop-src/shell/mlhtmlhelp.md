@@ -1,6 +1,6 @@
 ---
 description: Affiche une fenêtre d’aide qui correspond au paramètre de langue de l’interface utilisateur actuel.
-title: MLHtmlHelp fonction)
+title: MLHtmlHelp, fonction
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -15,16 +15,16 @@ api_type:
 api_location:
 - Shlwapi.dll
 ms.assetid: 1108614d-7034-48da-a4a5-544f8d9af3ca
-ms.openlocfilehash: 38d331d57b9484ab6d7a505d929508f30d510ad8
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: c38e84df2ca6f379e7d479125f1f454a10426406ba40ad21721fe01f67cce6f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090209"
 ---
-# <a name="mlhtmlhelp-function"></a>MLHtmlHelp fonction)
+# <a name="mlhtmlhelp-function"></a>MLHtmlHelp, fonction
 
-\[Cette fonction est disponible via Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
 Affiche une fenêtre d’aide qui correspond au paramètre de langue de l’interface utilisateur actuel.
 
@@ -92,7 +92,7 @@ Valeur **DWORD** indiquant la page de codes du paramètre de langue actuelle de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **HWND**
 
@@ -101,7 +101,7 @@ Selon le *uCommand* spécifié et le résultat, **MLHtmlHelp** retourne l’un d
 -   Handle (HWND) de la fenêtre d’aide.
 -   **Valeur null**. Dans certains cas, **null** indique un échec ; dans d’autres cas, la **valeur null** indique que la fenêtre d’aide n’a pas encore été créée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si un problème se produit avec le chemin d’accès du fichier d’aide pour la langue actuelle, l’appel est transféré à [HTMLHelp](/previous-versions/windows/desktop/htmlhelp/accessing-the-html-help-api) pour la gestion standard.
 
@@ -126,14 +126,14 @@ HWND hwnd = HtmlHelp(GetDesktopWindow(),
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Aucun</dt> </dl>                               |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (version 5,0 ou ultérieure)</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **MLHtmlHelpW** (Unicode) et **MLHtmlHelpA** (ANSI)<br/>                                               |

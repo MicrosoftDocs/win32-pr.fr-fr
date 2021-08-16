@@ -4,12 +4,12 @@ ms.assetid: E2AECE26-9649-41CB-9808-4F8171C707C3
 title: Guide de prise en main pour les fournisseurs en ligne intégrant les API du Service Broker d’authentification Web
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2bf0ce59cd92e32264823861aaef44e90b4f2c0
-ms.sourcegitcommit: 6377cd944d1f09f2dfe5727170ca8b330c8235bf
+ms.openlocfilehash: acdf3e2ff03e9830d43284042cfce046ff0f7952b9aec94bc22dcfcd9c6a1f06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113353632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119623169"
 ---
 # <a name="getting-started-guidance-for-online-providers-integrating-with-the-web-authentication-broker-apis"></a>Guide de prise en main pour les fournisseurs en ligne intégrant les API du Service Broker d’authentification Web
 

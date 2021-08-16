@@ -1,6 +1,6 @@
 ---
 description: Spécifie le niveau d’application d’une opération de protection contre la perte de données (DLP) de point de terminaison.
-title: Énumération DlpAppEnforceLevel (endpointdlp. h)
+title: DlpAppEnforceLevel, énumération (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type:
@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location:
 - endpointdlp.h
-ms.openlocfilehash: d0ccc8d0d39bc4022899deaeb9e8a81eae1f720f
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: 99bd06a41c88ff0b5a02b9b329877c015aea7dfb3fdbc58fea3c2e305829faf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119349349"
 ---
 # <a name="dlpappenforcelevel-enumeration"></a>Énumération DlpAppEnforceLevel
 
@@ -86,12 +86,12 @@ Valeur maximale de l’énumération.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de cette énumération sont utilisées par la structure [DLP_APP_OP_ENLIGHTENED_LEVEL](endpointdlp-dlp_app_op_enlightened_level.md) .
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

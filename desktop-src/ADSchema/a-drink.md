@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dda2886bc497064308c6b824c8f8db6587df70b3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c3bd5dd141d8ae6f4de2d1333b3d772098c788478da46fb6c2d02c6c1c5d75e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656668"
 ---
 # <a name="drink-attribute"></a>attribut Drink
 
@@ -43,7 +43,7 @@ Le type d’attribut Drink (boisson préférée) spécifie la boisson favorite d
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

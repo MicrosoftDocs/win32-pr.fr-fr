@@ -4,12 +4,12 @@ description: IAgentNotifySink DragStart
 ms.assetid: b3905b99-69e4-4046-aab9-2322618935aa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f33ae89f9e24c6c7b0ec69fba1a98b3a64a18620
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: a3510449923d4567d3126bf9cd84655acd782b021f9f37f655a51114122a4717
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105213"
 ---
 # <a name="iagentnotifysinkdragstart"></a>IAgentNotifySink ::D ragStart
 
@@ -44,7 +44,7 @@ Paramètre qui indique le bouton de la souris et l’état de la touche de modif
 
 
 
-| Value  | Description      |
+| Valeur  | Description      |
 |--------|------------------|
 | 0x0001 | Bouton gauche      |
 | 0x0010 | Bouton central    |

@@ -4,12 +4,12 @@ ms.assetid: 0d65a693-d879-4841-b93a-ad677eb34144
 title: Dimensions de performances
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0271a6a405004ac30f9b047a61f9fef7cc83f3e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 023de3074a6a531a0cab60b1e8389dd09b9b73901f1d6550ca524e9f90e8170b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641739"
 ---
 # <a name="performance-dimensions"></a>Dimensions de performances
 
@@ -25,7 +25,7 @@ Les sections suivantes traitent des dimensions de performance et des types d’a
 
 <dl> <dt>
 
-[Applications Windows Sockets hautes performances](high-performance-windows-sockets-applications-2.md)
+[Applications de sockets Windows hautes performances](high-performance-windows-sockets-applications-2.md)
 </dt> </dl>
 
  

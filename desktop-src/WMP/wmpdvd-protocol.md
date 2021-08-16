@@ -4,23 +4,23 @@ description: Protocole WMPDVD
 ms.assetid: 01f38c9a-3ce5-4cd4-91a7-248f542eed03
 keywords:
 - Lecteur Windows Media, protocoles
-- Modèle d’objet du lecteur Windows Media, protocoles
+- Lecteur Windows Media modèle objet, protocoles
 - modèle objet, protocoles
-- Contrôle ActiveX du lecteur Windows Media, protocoles pour le modèle objet
-- Contrôle ActiveX, protocoles pour le modèle objet
-- Windows Media Player Mobile contrôle ActiveX, protocoles pour le modèle objet
-- Windows Media Player Mobile, protocoles pour le modèle objet
-- protocoles, modèle objet du lecteur Windows Media
+- Lecteur Windows Media ActiveX contrôle, protocoles pour le modèle objet
+- contrôle ActiveX, protocoles pour le modèle objet
+- Lecteur Windows Media contrôle Mobile ActiveX, protocoles pour le modèle objet
+- Lecteur Windows Media Mobile, protocoles pour le modèle objet
+- protocoles, Lecteur Windows Media modèle objet
 - protocoles, WMPDVD
 - Protocole WMPDVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc4d3949c18a268ea6a2fffc196081ba466b5758
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8ca67f3cdee6f040aeb266e02493425ca76715ade2e3269f4377ba340af89cc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761289"
 ---
 # <a name="wmpdvd-protocol"></a>Protocole WMPDVD
 
@@ -77,7 +77,7 @@ player.url = "wmpdvd://Z/2/4?contentdir="d:\sample1\video_ts";
 
 
 
-L’attribution d’une chaîne WMPDVD à la propriété **URL** requiert le lecteur Windows Media 9 ou une version ultérieure.
+l’attribution d’une chaîne WMPDVD à la propriété **url** requiert Lecteur Windows Media série 9 ou une version ultérieure.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -86,9 +86,9 @@ L’attribution d’une chaîne WMPDVD à la propriété **URL** requiert le lec
 [**Protocoles et types de fichiers pris en charge**](supported-protocols-and-file-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

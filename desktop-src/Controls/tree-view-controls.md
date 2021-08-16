@@ -4,12 +4,12 @@ description: Un contrôle Tree-View est une fenêtre qui affiche une liste hiér
 ms.assetid: 10cc7949-dd77-412d-bad1-db8d8a049582
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df70a2d3c2f841b022930a07ee2f140ee5bfc8e3
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 5ea08743a7ac138a6cea5f766dd91aee2ec714acc2d4c8b98e1f2bee26c42ff9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769811"
 ---
 # <a name="about-tree-view-controls"></a>À propos des contrôles Tree-View
 
@@ -93,7 +93,7 @@ Lorsque la modification d’étiquette commence, un contrôle Tree-View envoie s
 
 Lorsque la modification d’étiquette est annulée ou terminée, un contrôle d’arborescence envoie sa fenêtre parente à un message de notification [TVN \_ ENDLABELEDIT](tvn-endlabeledit.md) . Le paramètre *lParam* est l’adresse d’une structure [**NMTVDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmtvdispinfoa) . Le paramètre *Item* est une structure [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) qui identifie l’élément et comprend le texte modifié. La fenêtre parente est responsable de la mise à jour de l’étiquette de l’élément s’il souhaite conserver la nouvelle étiquette. Le membre **pszText** de **TVITEM** est égal à zéro si la modification est annulée.
 
-Pendant la modification des étiquettes, en général en réponse au message de notification [TVN \_ BEGINLABELEDIT](tvn-beginlabeledit.md) , vous pouvez récupérer le handle du contrôle d’édition utilisé pour la modification des étiquettes à l’aide du message [**TVM \_ GETEDITCONTROL**](tvm-geteditcontrol.md) . Vous pouvez envoyer au contrôle d’édition un message [**em \_ SETLIMITTEXT**](em-setlimittext.md) pour limiter la quantité de texte qu’un utilisateur peut entrer ou sous-classer le contrôle d’édition pour intercepter et ignorer les caractères non valides. Notez, toutefois, que le contrôle d’édition s’affiche uniquement *après* l'   envoi de TVN \_ BEGINLABELEDIT.
+Pendant la modification des étiquettes, en général en réponse au message de notification [TVN \_ BEGINLABELEDIT](tvn-beginlabeledit.md) , vous pouvez récupérer le handle du contrôle d’édition utilisé pour la modification des étiquettes à l’aide du message [**TVM \_ GETEDITCONTROL**](tvm-geteditcontrol.md) . Vous pouvez envoyer au contrôle d’édition un message [**em \_ SETLIMITTEXT**](em-setlimittext.md) pour limiter la quantité de texte qu’un utilisateur peut entrer ou sous-classer le contrôle d’édition pour intercepter et ignorer les caractères non valides. Notez, toutefois, que le contrôle d’édition s’affiche uniquement *après* l’envoi de TVN \_ BEGINLABELEDIT.
 
 ## <a name="tree-view-item-position"></a>Position de l’élément de Tree-View
 
@@ -179,7 +179,7 @@ Un contrôle Tree-View envoie les messages de notification suivants à sa fenêt
 | Notification                                    | Description                                                                            |
 |-------------------------------------------------|----------------------------------------------------------------------------------------|
 | [TVN \_ BEGINDRAG](tvn-begindrag.md)             | Signale le début d’une opération de glisser-déplacer.                                        |
-| [TVN \_ BEGINLABELEDIT](tvn-beginlabeledit.md)   | Signale le début de la modification des étiquettes sur place.                                           |
+| [TVN \_ BEGINLABELEDIT](tvn-beginlabeledit.md)   | Signale le début de la modification des étiquettes sur place.                                           |
 | [TVN \_ BEGINRDRAG](tvn-beginrdrag.md)           | Signale que le bouton droit de la souris a commencé une opération de glisser-déplacer.             |
 | [TVN \_ DELETEITEM](tvn-deleteitem.md)           | Signale la suppression d’un élément spécifique.                                               |
 | [TVN \_ ENDLABELEDIT](tvn-endlabeledit.md)       | Signale la fin de la modification de l’étiquette.                                                      |
@@ -193,7 +193,7 @@ Un contrôle Tree-View envoie les messages de notification suivants à sa fenêt
 
 
 
- 
+ 
 
 ## <a name="default-tree-view-control-message-processing"></a>Traitement par défaut des messages de contrôle Tree-View
 
@@ -228,7 +228,7 @@ Cette section décrit le traitement des messages de fenêtre effectué par un co
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -237,6 +237,6 @@ Cette section décrit le traitement des messages de fenêtre effectué par un co
 [EXEMPLE : CustDTv illustre un dessin personnalisé dans un contrôle TreeView (Q248496)](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

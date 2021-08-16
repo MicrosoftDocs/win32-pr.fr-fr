@@ -4,12 +4,12 @@ ms.assetid: EA8EFEFA-9292-4D7B-BF5D-DE5239BB1D2C
 title: Attribut MF_MT_H264_RATE_CONTROL_MODES (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e3fc19070cd3b45aa25a1307a216f611dce1fd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d34fac6f047b8454ea6ddd79dfd26659fa7751fd1a6a14e01c7ea9457a5f7dc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104435"
 ---
 # <a name="mf_mt_h264_rate_control_modes-attribute"></a>\_Attribut de \_ \_ mode de contrôle du taux de H264 – MF \_ MT \_
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux types de média pour les flux H. 264 transmis sur USB. La valeur correspond au champ **bmRateControlModes** dans le contrôle de sonde/validation UVC 1,2 H. 264.
 
@@ -39,8 +39,8 @@ Cet attribut s’applique aux types de média pour les flux H. 264 transmis sur 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

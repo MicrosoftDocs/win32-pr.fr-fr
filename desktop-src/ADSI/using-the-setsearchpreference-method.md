@@ -9,12 +9,12 @@ keywords:
 - interroge ADSI à l’aide de SetSearchPreference
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29c357fd331ae8589bffdd3ff7a834a7bc9e0430
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e7f40d7af4069c9b67d9cd2634f6b7f58f51aafce95af9d4f9275b0e55fc1b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637479"
 ---
 # <a name="using-the-setsearchpreference-method"></a>Utilisation de la méthode SetSearchPreference
 
@@ -55,9 +55,9 @@ hr = pDSearch->SetSearchPreference(&arSearchPrefs, 2);
 
 Cet exemple définit la taille de la page sur 100 lignes et l’étendue sur \_ le \_ type de sous-arborescence étendue ads. Le paramètre taille de la page oblige le serveur à retourner immédiatement des données au client, après 100 lignes calculées. Le \_ paramètre de sous-arborescence étendue ADS \_ fait que la recherche englobe toutes les branches de l’arborescence sous le point à partir duquel la recherche est exécutée.
 
- 
+ 
 
- 
+ 
 
 
 

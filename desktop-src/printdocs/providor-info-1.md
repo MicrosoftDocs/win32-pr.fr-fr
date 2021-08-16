@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 2eabc00009b76247af71b06ea877ca0bf738c1d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f9e7015382ef34f4582c4772e148059c4ed01de9e81da5af71bc0849df26f15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091699"
 ---
 # <a name="providor_info_1-structure"></a>PROVIDOR \_ information \_ 1 (structure)
 
@@ -60,7 +60,7 @@ Pointeur vers une chaîne d’environnement se terminant par un caractère null 
 **pDLLName**
 </dt> <dd>
 
-Pointeur vers une chaîne terminée par le caractère null qui est le nom du fournisseur. dll.
+Pointeur vers une chaîne terminée par le caractère null qui est le nom du fournisseur .dll.
 
 </dd> </dl>
 

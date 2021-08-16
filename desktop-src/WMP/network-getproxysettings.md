@@ -3,9 +3,9 @@ title: Méthode Network. getProxySettings
 description: La méthode getProxySettings récupère le paramètre de proxy pour un protocole donné.
 ms.assetid: a7b21eab-93e1-458b-aab0-60fd298cce44
 keywords:
-- méthode getProxySettings lecteur Windows Media
-- méthode getProxySettings lecteur Windows Media, classe réseau
-- Classe réseau lecteur Windows Media, méthode getProxySettings
+- Lecteur Windows Media de la méthode getProxySettings
+- Lecteur Windows Media de la méthode getProxySettings, classe de réseau
+- Lecteur Windows Media de classe réseau, méthode getProxySettings
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44a306fca1e671e7e5b3a89c0da952e5c81ba20e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e142e7366c9e2b03e55dbd3768ee9c4fb41f30266d221a2ac5ac80019d5a7b3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647439"
 ---
 # <a name="networkgetproxysettings-method"></a>Méthode Network. getProxySettings
 
@@ -66,7 +66,7 @@ Cette méthode retourne un **nombre** (**long**) contenant l’une des valeurs s
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode échoue sauf si l’application appelante est en cours d’exécution sur l’ordinateur local ou sur l’intranet.
 
@@ -74,7 +74,7 @@ Cette méthode échoue sauf si l’application appelante est en cours d’exécu
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise le *réseau*. **getProxySettings** pour afficher un message qui donne des informations sur les paramètres de proxy actuels du lecteur, dans la fenêtre du navigateur. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise le *réseau*. **getProxySettings** pour afficher un message qui donne des informations sur les paramètres de proxy actuels du lecteur, dans la fenêtre du navigateur. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

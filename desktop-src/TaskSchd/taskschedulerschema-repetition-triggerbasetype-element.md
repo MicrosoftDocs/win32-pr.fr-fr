@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7ebd6f9f77998e5e975e24ff752a475e3880c0aa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dfcce3e008a9959ca279f64c83a898eb2239d007d8fc32dfb5da5942395055bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959539"
 ---
 # <a name="repetition-triggerbasetype-element"></a>Élément de répétition (triggerBaseType)
 
@@ -54,13 +54,13 @@ L’élément à **répétition** est défini par le type complexe [**triggerBas
 
 | Élément                                                                                   | Type     | Description                                                                                                         |
 |-------------------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------|
-| [**Duration**](taskschedulerschema-duration-repetitiontype-element.md)                   | duration | Spécifie la durée de répétition du modèle.<br/>                                                              |
+| [**Macauley**](taskschedulerschema-duration-repetitiontype-element.md)                   | duration | Spécifie la durée de répétition du modèle.<br/>                                                              |
 | [**Défini**](taskschedulerschema-interval-repetitiontype-element.md)                   | duration | Spécifie la durée entre chaque redémarrage de la tâche.<br/>                                           |
 | [**StopAtDurationEnd**](taskschedulerschema-stopatdurationend-repetitiontype-element.md) | boolean  | Spécifie qu’une instance en cours d’exécution de la tâche est arrêtée à la fin de la durée du modèle de répétition.<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous spécifiez une durée de répétition pour une tâche, vous devez également spécifier l’intervalle de répétition.
 
@@ -72,9 +72,9 @@ Si vous enregistrez une tâche qui contient un déclencheur avec un intervalle d
 4.  La tâche suivante démarre à la fin de la troisième minute.
 5.  La tâche suivante démarre à la fin de la quatrième minute.
 
-**Windows Server 2003, Windows XP et windows 2000 :** Si vous enregistrez une tâche qui contient un déclencheur avec un intervalle de répétition égal à une minute et une durée de répétition égale à quatre minutes, la tâche est lancée quatre fois.
+**Windows Server 2003, Windows XP et Windows 2000 :** Si vous enregistrez une tâche qui contient un déclencheur avec un intervalle de répétition égal à une minute et une durée de répétition égale à quatre minutes, la tâche est lancée quatre fois.
 
-**Windows Vista, Windows 7, Windows server 2008, Windows 8 et Windows server 2012 :** En règle générale, la définition de la durée de répétition sur un multiple exact de l’intervalle produit les nombres décrits ci-dessus. Toutefois, dans certaines conditions de charge élevée, il est possible que le délai d’expiration soit écoulé avant que TaskScheduler puisse lancer l’intervalle de tâche final.
+**Windows Vista, Windows 7, Windows Server 2008, Windows 8 et Windows Server 2012 :** En règle générale, la définition de la durée de répétition sur un multiple exact de l’intervalle produit les nombres décrits ci-dessus. Toutefois, dans certaines conditions de charge élevée, il est possible que le délai d’expiration soit écoulé avant que TaskScheduler puisse lancer l’intervalle de tâche final.
 
 Pour le développement de scripts, le modèle de répétition est spécifié à l’aide de la propriété [**déclencheur.**](trigger-repetition.md) reformation qui est héritée par tous les objets déclencheurs.
 
@@ -108,8 +108,8 @@ Le code XML suivant définit un élément de déclencheur de démarrage qui spé
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

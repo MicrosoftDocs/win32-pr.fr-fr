@@ -1,5 +1,5 @@
 ---
-description: Teste la connectivité réseau d’une machine virtuelle dans un environnement de virtualisation de réseau Windows.
+description: teste la connectivité réseau d’une machine virtuelle dans un environnement de virtualisation de réseau Windows.
 ms.assetid: 37d4c34d-406e-4c52-afce-b0eef754eeb3
 title: Méthode TestNetworkConnection de la classe Msvm_VirtualSystemManagementService
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: e8f15faacb1b8ad683b1ea9abfa9b91f5c376dab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66988944b6c4f4a97a450f63964d57084fc5886716d109e655921d8744bba721
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119388378"
 ---
 # <a name="testnetworkconnection-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Méthode TestNetworkConnection de la \_ classe VirtualSystemManagementService MSVM
 
-Teste la connectivité réseau d’une machine virtuelle dans un environnement de virtualisation de réseau Windows.
+teste la connectivité réseau d’une machine virtuelle dans un environnement de virtualisation de réseau Windows.
 
 ## <a name="syntax"></a>Syntaxe
 

@@ -4,12 +4,12 @@ description: Cette section montre comment utiliser l’API Microsoft Direct3D 11
 ms.assetid: 9BDEDB68-3484-4683-85AF-B583971382C8
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45bc4dad63c5fc12f2077481172061fc317135a7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5613a2ea9a4b8c472c7483e9e29d5ce2d5d2ffccbd3b4ee7d8c65a1621e88c92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633049"
 ---
 # <a name="how-to-use-direct3d-11"></a>Comment utiliser Direct3D 11
 
@@ -31,7 +31,7 @@ Cette section montre comment utiliser l’API Microsoft Direct3D 11 pour accompl
 | [Comment : créer une mémoire tampon constante](overviews-direct3d-11-resources-buffers-constant-how-to.md)<br/>                    | Cette rubrique montre comment initialiser une [mémoire tampon constante](overviews-direct3d-11-resources-buffers-intro.md) en préparation du rendu.<br/>                                                                                                                                         |
 | [Comment : créer une texture](overviews-direct3d-11-resources-textures-create.md)<br/>                                    | Cette rubrique montre comment créer une texture.<br/>                                                                                                                                                                                                                                       |
 | [Comment : initialiser une texture par programmation](overviews-direct3d-11-resources-textures-how-to-fill-manually.md)<br/> | Cette rubrique contient plusieurs exemples montrant comment initialiser des textures créées avec différents types d’utilisation.<br/>                                                                                                                                                             |
-| [Comment : initialiser une texture à partir d’un fichier](overviews-direct3d-11-resources-textures-how-to.md)<br/>                    | Cette rubrique montre comment utiliser WIC (Windows Imaging Component) pour créer la texture et la vue séparément.<br/>                                                                                                                                                                      |
+| [Comment : initialiser une texture à partir d’un fichier](overviews-direct3d-11-resources-textures-how-to.md)<br/>                    | cette rubrique montre comment utiliser Windows composant d’imagerie (WIC) pour créer la texture et la vue séparément.<br/>                                                                                                                                                                      |
 | [Comment : utiliser des ressources dynamiques](how-to--use-dynamic-resources.md)<br/>                                                 | Vous créez et utilisez des ressources dynamiques lorsque votre application doit modifier des données dans ces ressources. Vous pouvez créer des textures et des mémoires tampons pour une utilisation dynamique.<br/>                                                                                                                              |
 | [Comment : créer un nuanceur de calcul](direct3d-11-advanced-stages-compute-create.md)<br/>                                  | Cette rubrique montre comment créer un nuanceur de calcul.<br/>                                                                                                                                                                                                                                |
 | [Comment : concevoir un nuanceur de coque](direct3d-11-advanced-stages-hull-shader-design.md)<br/>                                 | Cette rubrique montre comment concevoir un nuanceur de coque.<br/>                                                                                                                                                                                                                                  |

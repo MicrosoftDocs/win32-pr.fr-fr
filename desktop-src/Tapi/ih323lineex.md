@@ -4,16 +4,16 @@ ms.assetid: 2ab57343-8cf5-4af2-91f7-46926cfce6dd
 title: Interface IH323LineEx (H323priv. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41888b16f645a3af1eefd9df61623cb28684bfdd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 856deae92568acd2eb9f9394e949dc2d5ea6a4bbde9c2c28f0b998c99098eef3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013109"
 ---
 # <a name="ih323lineex-interface"></a>Interface IH323LineEx
 
-\[**IH323LineEx** n’est pas disponible pour une utilisation dans Windows Vista, windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[**IH323LineEx** n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 L’interface **IH323LineEx** est implémentée par le [MSP H323](h323-msp.md) et n’est disponible que sur les objets d’adresse H. 323. Cette interface expose des méthodes qui permettent la création et la manipulation de terminaux qui peuvent communiquer entre des clients H323 et SDP.
 
