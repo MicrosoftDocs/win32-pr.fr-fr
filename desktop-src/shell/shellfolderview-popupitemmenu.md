@@ -1,6 +1,6 @@
 ---
 description: 'Méthode ShellFolderView. PopupItemMenu : crée un menu contextuel pour l’élément spécifié et retourne la chaîne de commande sélectionnée.'
-title: Méthode ShellFolderView. PopupItemMenu (shldisp. h)
+title: ShellFolderView.PopupItemMenu, méthode (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 1610d91e-87c3-4ba5-9147-1595eddb2c3a
-ms.openlocfilehash: 7a2feda23d6e1759e1c0be27805fefbb6b592df7
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: cf538a468e9664810e4a6869e47629adc585bea8ce81431cf3c0de3c583f5285
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968438"
 ---
 # <a name="shellfolderviewpopupitemmenu-method"></a>Méthode ShellFolderView. PopupItemMenu
 
@@ -68,19 +68,19 @@ Position verticale du menu, en coordonnées d’écran.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)\***
 
 **Chaîne** qui reçoit la chaîne de commande.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

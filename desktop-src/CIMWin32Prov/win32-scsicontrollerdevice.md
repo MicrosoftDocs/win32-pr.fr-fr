@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7a3189f9d9b75321df7c69214e68779864953f6c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1f703d5a290245b1596801f78c005c565faa45296c3582e4feaad5dc4011787b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117834170"
 ---
 # <a name="win32_scsicontrollerdevice-class"></a>\_Classe SCSIControllerDevice Win32
 
@@ -200,7 +200,7 @@ Cette propriété est héritée de la [**\_ ControlledBy CIM**](cim-controlledby
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ SCSIControllerDevice** est dérivée de [**CIM \_ ControlledBy**](cim-controlledby.md).
 

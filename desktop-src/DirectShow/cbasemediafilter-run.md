@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8c4023be7731f9bae60576bc7002010eb0b51823
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 73ab65404b6946a1cf220db54789df1234e14bf815c44633d3237ab50e04e2e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823689"
 ---
 # <a name="cbasemediafilterrun-method"></a>CBaseMediaFilter. Run, méthode
 
@@ -53,7 +53,7 @@ Temps de référence correspondant au temps de flux 0.
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’objet est arrêté, cette méthode suspend l’objet en appelant la méthode [**CBaseMediaFilter ::P ause**](cbasemediafilter-pause.md) . Il définit ensuite la variable de membre d' [**\_ État CBaseMediaFilter :: m**](cbasemediafilter-m-state.md) sur State \_ Running.
 
@@ -65,7 +65,7 @@ Le temps de flux est calculé comme le temps de référence actuel moins *tStart
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

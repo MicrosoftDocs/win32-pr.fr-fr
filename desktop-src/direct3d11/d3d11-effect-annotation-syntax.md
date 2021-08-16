@@ -43,7 +43,7 @@ Une annotation est une information définie par l’utilisateur, déclarée avec
 
 Vous pouvez ajouter plusieurs annotations entre crochets pointus, chacune d’elles étant séparées par un point-virgule. Les API d’infrastructure d’effet reconnaissent les annotations sur les variables globales ; toutes les autres annotations sont ignorées.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 Voici quelques exemples.
 

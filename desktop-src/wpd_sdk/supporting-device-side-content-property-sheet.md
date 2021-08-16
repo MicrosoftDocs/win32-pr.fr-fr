@@ -1,19 +1,19 @@
 ---
 title: Prise en charge du contenu côté appareil (feuille)
-description: Découvrez comment utiliser l’API de shell Windows ou l’API WPD pour obtenir des données pour les objets d’appareil, qui n’est pas accessible via le système de fichiers dans Windows Vista.
+description: découvrez comment utiliser l’api de l’interpréteur de commandes Windows ou l’api WPD pour obtenir des données pour les objets périphériques, qui ne sont pas accessibles par le biais du système de fichiers dans Windows Vista.
 ms.assetid: ea11f8e6-fb53-46e4-b210-2dae33cdc056
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3aeade3745c37296b334c54af9edcc768fb8c93e
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 451bf63c1270b121cf909fa5ee07aff62cc3b83aa0e0d031cae61005f725c197
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842566"
 ---
 # <a name="supporting-device-side-content"></a>Prise en charge du contenu côté appareil
 
-Étant donné que le contenu côté appareil n’est pas accessible par le biais du système de fichiers dans Windows Vista, vous devez utiliser l’API shell Windows ou l’API WPD pour récupérer des données pour les objets périphérique. Il s’agit de la principale différence entre un gestionnaire de feuille de propriétés normal et un gestionnaire de feuille de propriétés WPD. L’exemple de code suivant illustre la récupération du contenu côté appareil à l’aide de l’API du shell Windows.
+étant donné que le contenu côté appareil n’est pas accessible par le biais du système de fichiers dans Windows Vista, vous devez utiliser l’api Shell Windows ou l’api WPD pour récupérer des données pour les objets périphérique. Il s’agit de la principale différence entre un gestionnaire de feuille de propriétés normal et un gestionnaire de feuille de propriétés WPD. l’exemple de code suivant illustre la récupération du contenu côté appareil à l’aide de l’API Windows Shell.
 
 La première étape est l’initialisation de la liste d’identificateurs d’élément ou de PIDL. (Cette liste contient l’identificateur unique pour l’objet d’appareil donné.)
 
@@ -164,7 +164,7 @@ Exit:
 
 
 
-En plus de l’initialisation et du traitement de la liste d’identificateurs d’élément, votre application doit implémenter la méthode IShellPropSheetExt :: ReplacePage et insérer les gestionnaires de remplacement appropriés. Le shell Windows appelle cette méthode chaque fois qu’il est sur le point d’afficher une feuille de propriétés remplaçable, donnant à votre application la possibilité d’appeler un gestionnaire de remplacement correspondant. Le mot de poids faible du premier paramètre de la méthode ReplacePage est un identificateur pour la feuille de propriétés donnée que Windows va afficher. Les valeurs passées dans le mot de poids faible du premier paramètre correspondent aux valeurs définies dans le fichier WpdShellExtension. h. Ces valeurs et leurs descriptions apparaissent dans le tableau suivant.
+En plus de l’initialisation et du traitement de la liste d’identificateurs d’élément, votre application doit implémenter la méthode IShellPropSheetExt :: ReplacePage et insérer les gestionnaires de remplacement appropriés. l’interpréteur de commandes Windows appelle cette méthode chaque fois qu’il est sur le point d’afficher une feuille de propriétés remplaçable, donnant à votre application la possibilité d’appeler un gestionnaire de remplacement correspondant. le mot de poids faible du premier paramètre de la méthode ReplacePage est un identificateur pour la feuille de propriétés donnée que Windows va afficher. Les valeurs passées dans le mot de poids faible du premier paramètre correspondent aux valeurs définies dans le fichier WpdShellExtension. h. Ces valeurs et leurs descriptions apparaissent dans le tableau suivant.
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 397b9b69-edd2-482e-b078-0cc61b489a37
 title: Terminaux de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbc237565a806e8a0ef4ad9bbbce1c938daadb97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ec77dbbfefe8934171154d3e9d0a1aac2607e8ef9aa2101e2ea37bba0a5d083
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119406179"
 ---
 # <a name="file-terminals"></a>Terminaux de fichiers
 

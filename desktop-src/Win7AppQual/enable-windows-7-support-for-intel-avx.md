@@ -1,22 +1,22 @@
 ---
-description: Activer la prise en charge de Windows 7 pour Intel AVX
+description: activer la prise en charge de Windows 7 pour Intel AVX
 ms.assetid: fe19e337-3109-42d6-a704-70662ac7c684
-title: Activer la prise en charge de Windows 7 pour Intel AVX
+title: activer la prise en charge de Windows 7 pour Intel AVX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1509bac62634c85aa733b2c1de0c152169ac6cda
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f30469d0218f5da2c9f6df2b4f5637edffe09153ebad721f48b47401ecb1f3d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118329813"
 ---
-# <a name="enable-windows-7-support-for-intel-avx"></a>Activer la prise en charge de Windows 7 pour Intel AVX
+# <a name="enable-windows-7-support-for-intel-avx"></a>activer la prise en charge de Windows 7 pour Intel AVX
 
 ## <a name="affected-platforms"></a>Plateformes affectées
 
  **Clients** -Windows 7 SP1  
-**Serveurs** -Windows Server 2008 R2 SP1  
+**serveurs** -Windows Server 2008 R2 SP1  
 
 
 ## <a name="feature-impact"></a>Impact sur les fonctionnalités
@@ -78,7 +78,7 @@ Il existe trois niveaux généraux d’impact potentiel.
 
 ## <a name="links-to-other-resources"></a>Liens vers d’autres ressources
 
--   Pour plus d’informations sur les fonctions XState dans le SDK Windows, consultez [débogage de fonctions](../debug/debugging-functions.md).
+-   pour plus d’informations sur les fonctions XState dans le SDK Windows, consultez [débogage de fonctions](../debug/debugging-functions.md).
 -   Pour obtenir une vue d’ensemble des instructions et des fonctionnalités d’Intel AVX, consultez [Intel AVX : nouvelles frontières dans améliorations des performances et efficacité énergétique](https://software.intel.com/articles/intel-avx-new-frontiers-in-performance-improvements-and-energy-efficiency/).
 
  

@@ -3,7 +3,7 @@ title: Message TBM_SETRANGEMAX (commctrl. h)
 description: Définit la position logique maximale du curseur dans un TrackBar.
 ms.assetid: 8e9d8fd3-2ee3-4fb6-aa1f-9d6e999ef330
 keywords:
-- TBM_SETRANGEMAX les contrôles de message Windows
+- TBM_SETRANGEMAX les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b43997725e2fa88db3f9d4dc2fec1d51255cbb0c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f26b4a588e67164b96db8256116466206d0274a5bc64caedbcb1ccf25135ce62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829592"
 ---
 # <a name="tbm_setrangemax-message"></a>\_Message TBM SETRANGEMAX
 
@@ -47,7 +47,7 @@ Position maximale du curseur.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la position actuelle du curseur est supérieure au nouveau maximum, le message **TBM \_ SETRANGEMAX** définit la position du curseur sur la nouvelle valeur maximale.
 
@@ -57,8 +57,8 @@ Si la position actuelle du curseur est supérieure au nouveau maximum, le messag
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 4a421006-32ff-4555-a3c8-69fffdb46845
 title: À propos de l’énumération des ressources
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 601e65550dacbd07d493f35a6c35fece98657b6e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7fcb8f6975f6e680220f1f96c13e1faaaaed82d9c4cf8eaccf1a3c951dfce14c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117827723"
 ---
 # <a name="about-resource-enumeration"></a>À propos de l’énumération des ressources
 

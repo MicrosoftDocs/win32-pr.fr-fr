@@ -4,12 +4,12 @@ description: Cet exemple d’application montre comment passer des données d’
 ms.assetid: 5be8a5ef-8a63-43e7-b2a5-a4fff63c7ce3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 304a29b3f194e9ec8f530d1a5bb360d2d98add51
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 980c89a3793fed27694c3e439afbe9d6106dc4e14a945bee6af1bd01712bd2af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104101644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118388452"
 ---
 # <a name="basewindow-sample"></a>Exemple BaseWindow
 
@@ -17,7 +17,7 @@ Cet exemple d’application montre comment passer des données d’état de l’
 
 ## <a name="description"></a>Description
 
-L’exemple d’application BaseWindow est une variante de l' [exemple de Hello World Windows](windows-hello-world-sample.md). Elle utilise le message [**WM \_ NCCREATE**](/windows/desktop/winmsg/wm-nccreate) pour transmettre des données d’application à la procédure de fenêtre. Cet exemple est abordé dans la rubrique [gestion](managing-application-state-.md)de l’état de l’application.
+l’exemple d’application BaseWindow est une variante de l' [exemple de Windows Hello monde](windows-hello-world-sample.md). Elle utilise le message [**WM \_ NCCREATE**](/windows/desktop/winmsg/wm-nccreate) pour transmettre des données d’application à la procédure de fenêtre. Cet exemple est abordé dans la rubrique [gestion](managing-application-state-.md)de l’état de l’application.
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
@@ -25,6 +25,6 @@ Cet exemple est disponible [ici](https://github.com/microsoft/Windows-classic-sa
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-* [Apprendre à programmer pour Windows : exemple de code](learn-to-program-for-windows--sample-code.md)
+* [apprendre à programmer pour Windows : exemple de Code](learn-to-program-for-windows--sample-code.md)
 * [Gestion de l’état de l’application](managing-application-state-.md)
-* [Module 1. Votre premier programme Windows](your-first-windows-program.md)
+* [Module 1. votre premier programme de Windows](your-first-windows-program.md)

@@ -107,7 +107,7 @@ L’une ou l’autre méthode peut retourner plusieurs chaînes d’affichage et
 
 
 
-| Chaîne       | Objectif                                                                            | Initialiser                                                                           | InitializeEx                                                                                     |
+| String       | Objectif                                                                            | Initialiser                                                                           | InitializeEx                                                                                     |
 |--------------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | Nom d’affichage | Nom du gestionnaire affiché dans la zone de liste du gestionnaire de nettoyage de disque.               | Si *ppwszDisplayName* a la valeur **null**, la valeur par défaut est récupérée à partir du Registre. | Une chaîne correctement localisée doit être spécifiée dans *ppwszDisplayName* aucune valeur de Registre n’est utilisée. |
 | Description  | Texte descriptif affiché sous la zone de liste lorsque le nom du gestionnaire est sélectionné. | Si *ppwszDescription* a la valeur **null**, la valeur par défaut est récupérée à partir du Registre. | Une chaîne correctement localisée doit être spécifiée dans *ppwszDescription* aucune valeur de Registre n’est utilisée. |
@@ -309,7 +309,7 @@ le résultat de ce scénario est que le gestionnaire de nettoyage de disque rech
 <td>Nombre de jours qui doivent s’écouler depuis le dernier accès à un fichier ou lors de la création d’un répertoire pour ce fichier ou ce répertoire en vue du nettoyage.</td>
 </tr>
 <tr class="even">
-<td>Priority</td>
+<td>Priorité</td>
 <td>REG_DWORD ou REG_BINARY</td>
 <td>Détermine l’ordre d’exécution du gestionnaire par rapport à d’autres gestionnaires. Plus le nombre est élevé, plus il est haut dans le processus exécuté par le gestionnaire. Il n’existe aucune plage définie. aucun nombre n’est acceptable.</td>
 </tr>

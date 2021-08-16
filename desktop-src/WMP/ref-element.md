@@ -3,7 +3,7 @@ title: Élément REF
 description: L’élément REF spécifie une URL pour le contenu multimédia numérique.
 ms.assetid: 0ba11a1e-3802-4156-83ca-f1bae1eb366c
 keywords:
-- Élément REF lecteur Windows Media
+- élément REF Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 739ac61007e619055c28732c5c5aa763e84054fa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9195eb1fc3ca1f13e64376c0200cbb2e6ec4589e6740a74b1ff7670c0951df25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118333276"
 ---
 # <a name="ref-element"></a>Élément REF
 
@@ -35,7 +35,7 @@ L’élément **ref** spécifie une URL pour le contenu multimédia numérique.
 
 **Href** (obligatoire)
 
-URL d’un contenu multimédia pris en charge par le lecteur Windows Media.
+URL de tout contenu multimédia pris en charge par Lecteur Windows Media.
 
 ## <a name="parentchild-elements"></a>Éléments parent/enfant
 
@@ -50,19 +50,19 @@ URL d’un contenu multimédia pris en charge par le lecteur Windows Media.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet élément spécifie une URL pour un élément de contenu multimédia. L’URL peut pointer vers n’importe quel type de média pris en charge, à l’aide de n’importe quel protocole pris en charge par le lecteur Windows Media.
+Cet élément spécifie une URL pour un élément de contenu multimédia. l’URL peut pointer vers n’importe quel type de média pris en charge, à l’aide de n’importe quel protocole pris en charge par Lecteur Windows Media.
 
-Les types de médias pris en charge incluent des images fixes, telles que des images. gif et. jpg et des fichiers Flash, avec l’extension de nom de fichier. swf. Ces types de médias sont utiles pour inclure du contenu publicitaire dans une sélection. Avec les fichiers image et les fichiers Flash qui s’exécutent dans une boucle, vous devez également spécifier la durée d’affichage de l’élément multimédia en incluant un élément **Duration** dans l’élément **ref** . Si vous souhaitez qu’une image continue à s’afficher pendant que l’entrée suivante dans la playlist est mise en mémoire tampon, incluez un élément **param** dans l’élément **entry** , affectez à son attribut **Name** la valeur ShowWhileBuffering et affectez à son attribut **value la valeur** true.
+Les types de médias pris en charge incluent les images fixes, telles que .gif et les images .jpg et les fichiers Flash avec une extension de nom de fichier. swf. Ces types de médias sont utiles pour inclure du contenu publicitaire dans une sélection. Avec les fichiers image et les fichiers Flash qui s’exécutent dans une boucle, vous devez également spécifier la durée d’affichage de l’élément multimédia en incluant un élément **Duration** dans l’élément **ref** . Si vous souhaitez qu’une image continue à s’afficher pendant que l’entrée suivante dans la playlist est mise en mémoire tampon, incluez un élément **param** dans l’élément **entry** , affectez à son attribut **Name** la valeur ShowWhileBuffering et affectez à son attribut **value la valeur** true.
 
 Pour référencer du contenu sur un CD ou un DVD qui l’autorise, les protocoles wmpcd et wmpdvd sont fournis. Par exemple, si vous affectez à l’attribut **href** la valeur « wmpdvd://f/5/3 », le chapitre 3 du titre 5 est lu sur un DVD, mais uniquement si le DVD a été créé pour l’autoriser.
 
 Les applications qui ouvrent des médias numériques derrière un pare-feu bénéficient de meilleures performances lors de l’ouverture des éléments multimédias si l’adresse est spécifiée à l’aide du nom DNS (Domain Name Server) au lieu de l’adresse IP.
 
-L’utilisation la plus courante de cet élément est la substitution d’URL. Si le lecteur Windows Media ne parvient pas à ouvrir un élément multimédia défini dans un élément **ref** , il essaie l’URL dans l’élément **ref** suivant. Une fois que le lecteur Windows Media a ouvert le contenu multimédia à partir d’une URL définie dans l’étendue d’un élément d' **entrée** , il ignore les balises **ref** suivantes dans cet élément d' **entrée** . À la fin de la lecture de la partie de contenu, le lecteur Windows Media passe à l’élément d' **entrée** suivant, le cas échéant.
+L’utilisation la plus courante de cet élément est la substitution d’URL. si Lecteur Windows Media ne parvient pas à ouvrir un élément multimédia défini dans un élément **ref** , il essaie l’URL dans l’élément **ref** suivant. une fois que Lecteur Windows Media ouvre le contenu multimédia à partir d’une URL définie dans l’étendue d’un élément d' **entrée** , il ignore les balises **REF** suivantes dans cet élément d' **entrée** . une fois la partie de contenu terminée, Lecteur Windows Media passe à l’élément d' **entrée** suivant, le cas échéant.
 
--   **Important** Une fois que le lecteur Windows Media a établi une connexion à un élément de contenu référencé, il ignore tous les autres éléments **ref** de cette **entrée**, que la connexion se termine normalement ou anormalement.
+-   **Important** une fois que Lecteur Windows Media établit une connexion à un élément de contenu référencé, il ignore tous les autres éléments **REF** de cette **entrée**, que la connexion se termine normalement ou anormalement.
 
 Si l’élément multimédia référencé est un fichier image, l’élément **Duration** doit être utilisé pour spécifier l’heure d’affichage de l’image.
 
@@ -102,10 +102,10 @@ Toute tentative de lecture d’un média Flash qui comprend du son avec le premi
 [**Protocoles et types de fichiers pris en charge**](supported-protocols-and-file-types.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Informations de référence sur les métafichiers Windows Media**](windows-media-metafile-reference.md)
+[**Windows Référence du métafichier multimédia**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

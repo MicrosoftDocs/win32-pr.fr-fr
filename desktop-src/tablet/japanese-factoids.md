@@ -4,12 +4,12 @@ ms.assetid: 008bd1a8-d396-4f18-83cd-c68d57a7e8a7
 title: Factoids japonais
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a188d9dbdd55fdf5ea0e6520981890607c5da8d8
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: f336f7cb9f7016a6b7408833fc8ef3c1bb5c464c62e4752f4237fc203feb8b5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104394043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857007"
 ---
 # <a name="japanese-factoids"></a>Factoids japonais
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a3af6236d25e8a2c652f5a551bf7199f3a78d8e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0ef87874c005f12d3e49962ee438f516df3631c12ff17fc4db27e0a82fe1a654
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104996312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118531382"
 ---
 # <a name="id3dx11effectvariableasshaderresource-method"></a>ID3DX11EffectVariable :: AsShaderResource, méthode
 
@@ -47,7 +47,7 @@ Type : **[ **ID3DX11EffectShaderResourceVariable**](id3dx11effectshaderresource
 
 Pointeur vers une variable de ressource de nuanceur. Consultez [**ID3DX11EffectShaderResourceVariable**](id3dx11effectshaderresourcevariable.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 AsShaderResource retourne une version de la variable Effect qui a été spécialisée pour une variable de ressource Shader. Comme pour un cast, cette spécialisation retourne un objet non valide si la variable Effect ne contient pas de données de ressource de nuanceur.
 
@@ -58,7 +58,7 @@ Les applications peuvent tester la validité de l’objet retourné en appelant 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

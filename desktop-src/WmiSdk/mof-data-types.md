@@ -22,7 +22,7 @@ Le langage MOF prend en charge les types de données et les catégories de types
 -   [boolean](boolean.md)
 -   [Date/heure](date-and-time-format.md)
 -   [Tableaux MOF](mof-arrays.md)
--   [Nombreux](numbers.md)
+-   [Nombres](numbers.md)
 -   [DESSIN](object.md)
 -   [Informations de référence](references.md)
 -   [Chaînes](strings.md)

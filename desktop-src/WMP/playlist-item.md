@@ -3,9 +3,9 @@ title: Méthode playlist. Item
 description: La méthode Item récupère l’élément multimédia au niveau de l’index spécifié.
 ms.assetid: a564f6db-ede4-4c85-87ca-0e2539d914c2
 keywords:
-- méthode Item lecteur Windows Media
-- méthode Item lecteur Windows Media, classe playlist
-- Classe de sélection lecteur Windows Media, méthode d’élément
+- méthode item Lecteur Windows Media
+- méthode item Lecteur Windows Media, classe Playlist
+- Lecteur Windows Media de la classe Playlist, méthode item
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79c69386871aeec33dbc36a066ce3f75e80d7514
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 72987feb8438edc50c28bb6349b44c4f43736549c92a293794a6bc728ed7853a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862229"
 ---
 # <a name="playlistitem-method"></a>Méthode playlist. Item
 
@@ -53,13 +53,13 @@ retVal = Playlist.item(
 
 Cette méthode retourne un objet **multimédia** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise la *sélection*. **élément** permettant de récupérer un élément multimédia à partir de la sélection actuelle en fonction d’une sélection de l’utilisateur. Un élément SELECT HTML a été créé avec le nom « weblist » et rempli avec les titres de la sélection actuelle. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise la *sélection*. **élément** permettant de récupérer un élément multimédia à partir de la sélection actuelle en fonction d’une sélection de l’utilisateur. Un élément SELECT HTML a été créé avec le nom « weblist » et rempli avec les titres de la sélection actuelle. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

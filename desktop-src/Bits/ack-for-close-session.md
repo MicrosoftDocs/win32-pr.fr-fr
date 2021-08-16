@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7142bfd8d1d5d65d1f669a328c75a2c8cdfb036
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 289f2cfc2ca9f1e879e0aa592af28d86ae433f6e06d007aa71e00581baba2af5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104102533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835412"
 ---
 # <a name="ack-for-close-session"></a>ACK pour Close-Session
 
@@ -85,7 +85,7 @@ Remplacez erreur-Context par un nombre hexadécimal qui représente le contexte 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le client BITS renvoie le paquet de [**session de fermeture**](close-session.md) si le code de raison est compris entre 500 et 599, sauf si l’en-tête de code d’erreur bits est présent avec la valeur BG \_ E \_ session \_ \_ introuvable. Le client n’effectue pas de nouvelle tentative pour les codes de raison 100 à 499.
 
@@ -99,9 +99,9 @@ Le client BITS renvoie le paquet de [**session de fermeture**](close-session.md)
 [**Fermer-session**](close-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

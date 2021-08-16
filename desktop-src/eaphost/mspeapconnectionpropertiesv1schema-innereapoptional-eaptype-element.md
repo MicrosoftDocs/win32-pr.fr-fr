@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: be63845f389936656172b4cbb4e42de659bbf0e1
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 372163b39ea788b5c03bd25aedcc44aee172d58080fb94e3333a029a514962a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119404589"
 ---
 # <a name="innereapoptional-eaptype-element"></a>Élément InnerEapOptional (EapType)
 
@@ -33,7 +33,7 @@ L’élément **InnerEapOptional (EapType)** indique s’il faut effectuer l’a
 
 L’élément **InnerEapOptional** est défini par l’élément [**EapType**](mspeapconnectionpropertiesv1schema-eaptype-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’élément **InnerEapOptional** a la valeur true, l’élément [**EAP**](baseeapconnectionpropertiesv1schema-eap-element.md) doit être présent et décrire la méthode interne et sa configuration. Si la valeur est FALSe, PEAP effectue un accès invité. L’élément **InnerEapOptional** est facultatif.
 
@@ -41,10 +41,10 @@ Si l’élément **InnerEapOptional** a la valeur true, l’élément [**EAP**](
 
 
 
-| Role | Version minimale du système d’exploitation prise en charge |
+| Fonction | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

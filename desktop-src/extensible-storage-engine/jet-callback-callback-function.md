@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5e6d26bd5e347757fce270d5f2c78ab471755c1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d50f0f3a0908b725d7f704df962324a0f16af1fc6f7353515a8d604e87edd0a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118487612"
 ---
 # <a name="jet_callback-callback-function"></a>JET_CALLBACK fonction de rappel
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_callback-callback-function"></a>JET_CALLBACK fonction de rappel
 
@@ -82,11 +82,11 @@ Paramètre utilisé pour communiquer avec l’application à l’aide du rappel.
 
 #### <a name="return-value"></a>Valeur renvoyée
 
-La fonction retourne l’un des [codes d’erreur du moteur de stockage extensible](./extensible-storage-engine-error-codes.md). Pour plus d’informations sur la façon de renvoyer ces codes en tant que HRESULT, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md). En cas de réussite, l’opération qui a émis le rappel peut se poursuivre normalement. Dans certains cas, le rappel peut retourner un avertissement qui influence cette opération. Pour plus d’informations sur l’utilisation de ces avertissements par l’opération, consultez [JET_CBTYP](./jet-cbtyp.md) .
+la fonction retourne l’un des [codes d’erreur du moteur d’Stockage Extensible](./extensible-storage-engine-error-codes.md). pour plus d’informations sur la façon de retourner ces codes en tant que HRESULTs, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md). En cas de réussite, l’opération qui a émis le rappel peut se poursuivre normalement. Dans certains cas, le rappel peut retourner un avertissement qui influence cette opération. Pour plus d’informations sur l’utilisation de ces avertissements par l’opération, consultez [JET_CBTYP](./jet-cbtyp.md) .
 
 En cas d’échec, l’opération qui a émis le rappel peut se poursuivre normalement ou échouer. Pour plus d’informations sur l’utilisation du code d’erreur par l’opération, consultez [JET_CBTYP](./jet-cbtyp.md) .
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Si le rappel passe un curseur à l’application, il est important de savoir que ce curseur est intentionnellement limité à un ensemble de fonctionnalités plus réduit pour éviter la récursivité et d’autres ugliness. Les opérations suivantes sont autorisées :
 
@@ -140,11 +140,11 @@ Lorsque vous concevez votre rappel, prenez en compte le fait que même avec ces 
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

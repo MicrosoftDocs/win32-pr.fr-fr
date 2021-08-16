@@ -4,12 +4,12 @@ description: IAgentCommandEx SetVoiceCaption
 ms.assetid: 672fdc13-25d3-4ced-b295-2b687767c17f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 358514dd33fc97a98f9b63107eabc98e0387bab8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fe76edb17c2b099db5e16e2b6160703c6b11e8a9f52bcbc24a9ca4bfcb7077c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477212"
 ---
 # <a name="iagentcommandexsetvoicecaption"></a>IAgentCommandEx::SetVoiceCaption
 
@@ -43,6 +43,6 @@ Si vous définissez un objet de [**commande**](/windows/desktop/lwef/the-command
 [**IAgentCommand :: GetCaption**](iagentcommand--getcaption.md), [**IAgentCommand :: SetEnabled**](iagentcommand--setenabled.md), [**IAgentCommand :: setVisible**](iagentcommand--setvisible.md), [**IAgentCommand :: SetVoice**](iagentcommand--setvoice.md), [**IAgentCommandsEx :: Addex**](iagentcommandsex--addex.md), [**IAgentCommandsEx :: InsertEx**](iagentcommandsex--insertex.md), [**IAgentCommands :: Add**](iagentcommands--add.md), [**IAgentCommands :: Insert**](iagentcommands--insert.md)
 
 
- 
+ 
 
- 
+ 

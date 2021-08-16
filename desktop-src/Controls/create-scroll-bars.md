@@ -4,27 +4,27 @@ description: Lors de la création d’une fenêtre superposée, indépendante ou
 ms.assetid: 58353030-DCF5-4368-9658-BB282B8B5EF0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06b27e3e6d9495492f46567633cc53b0f3f7c5bd
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: aec76c49d9f97e21626546a760d0e42a44b04c70db5790e0b80c08fcdee34412
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831751"
 ---
 # <a name="how-to-create-scroll-bars"></a>Comment créer des barres de défilement
 
 Lors de la création d’une fenêtre superposée, indépendante ou enfant, vous pouvez ajouter des barres de défilement standard à l’aide de la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) et en spécifiant WS \_ HSCROLL, WS \_ VSCROLL ou les deux styles.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -105,9 +105,9 @@ HWND CreateAHorizontalScrollBar(HWND hwndParent, int sbHeight)
 [Utilisation des barres de défilement](using-scroll-bars.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,19 +1,19 @@
 ---
-description: Un utilisateur peut désactiver l’expérience de l’ingestion par défaut fournie par le système à l’aide des options disponibles sous l’onglet Communications du panneau de configuration multimédia de Windows, Mmsys.cpl.
+description: un utilisateur peut désactiver l’expérience de l’ingestion par défaut fournie par le système à l’aide des options disponibles sous l’onglet Communications de l’Windows panneau de configuration multimédia, Mmsys.cpl.
 ms.assetid: 5604b927-99f8-450f-a48c-b38d782584de
 title: Désactivation de l’expérience de l’utilisation des canards par défaut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed33fa7d9473cb5c68a018b98bff8a826612387e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 473b0bab8c3575d416cc72b7e931b4c85160bdaacc6031611ad80394f44b9098
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828550"
 ---
 # <a name="disabling-the-default-ducking-experience"></a>Désactivation de l’expérience de l’utilisation des canards par défaut
 
-Un utilisateur peut désactiver l’expérience de l’ingestion [par défaut](stream-attenuation.md) fournie par le système à l’aide des options disponibles sous l’onglet **communications** du panneau de configuration multimédia de Windows, Mmsys.cpl.
+un utilisateur peut désactiver l’expérience de l’ingestion [par défaut](stream-attenuation.md) fournie par le système à l’aide des options disponibles sous l’onglet **Communications** de l’Windows panneau de configuration multimédia, Mmsys.cpl.
 
 Lorsque l’application d’un canard est appliquée, un effet de fondu et d’atténuation est utilisé pour une période de 1 seconde. Il se peut qu’une application de jeu ne souhaite pas que le flux de communication interfère avec l’audio du jeu. Certaines applications multimédias peuvent constater que l’expérience de lecture est transférerez quand la musique est de nouveau en fondu. Ces types d’applications peuvent choisir de ne pas participer à l’expérience de l’utilisateur.
 

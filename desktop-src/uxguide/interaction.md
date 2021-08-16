@@ -4,35 +4,35 @@ description: L’interaction est la variété des manières dont les utilisateur
 ms.assetid: 1509c885-f4dc-4cf9-86a3-cc6754d3b4a0
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 869034e8d7cc8b9d7023e1511482dae203c14b49
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 09991d9b1c16c0605c89a695beb14c1117cb54fe8a5de1e2a805f6717070b1d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117853278"
 ---
 # <a name="interaction"></a>Interaction
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 L’interaction est la variété des manières dont les utilisateurs interagissent avec votre application, y compris le toucher, le clavier, la souris, et ainsi de suite. Utilisez ces instructions pour créer des expériences intuitives et distinctives optimisées pour le toucher, mais qui fonctionnent de manière cohérente sur les périphériques d’entrée.
 
 ## <a name="design-for-a-touch-first-experience"></a>Conception pour une expérience tactile
 
-Avant tout, concevez votre application en ayant comme objectif que l’entrée tactile sera la principale méthode d’entrée de vos utilisateurs. Si vous utilisez les contrôles de plateforme, la prise en charge du pavé tactile, de la souris et du stylet/stylet ne nécessite aucune programmation supplémentaire, car Windows le fournit gratuitement.
+Avant tout, concevez votre application en ayant comme objectif que l’entrée tactile sera la principale méthode d’entrée de vos utilisateurs. si vous utilisez les contrôles de plateforme, la prise en charge du pavé tactile, de la souris et du stylet/stylet ne nécessite aucune programmation supplémentaire, car Windows le fournit gratuitement.
 
-Sachez cependant qu’une interface utilisateur optimisée pour les entrées tactiles ne se révèle pas toujours supérieure à une interface utilisateur classique. Les deux présentent des avantages et des inconvénients propres à la technologie et à l’application. Lors du passage à une interface utilisateur tactile, il est important de comprendre les principales différences entre les touches tactiles (pavé tactile, stylet, souris et clavier). Ne vous contentez pas de vous familiariser avec les propriétés et comportements de l’appareil d’entrée pour les autoriser, car la fonctionnalité tactile dans Windows 8 fait plus que simplement émuler cette fonctionnalité.
+Sachez cependant qu’une interface utilisateur optimisée pour les entrées tactiles ne se révèle pas toujours supérieure à une interface utilisateur classique. Les deux présentent des avantages et des inconvénients propres à la technologie et à l’application. Lors du passage à une interface utilisateur tactile, il est important de comprendre les principales différences entre les touches tactiles (pavé tactile, stylet, souris et clavier). ne vous servez pas des propriétés et comportements de périphérique d’entrée familiers pour l’octroi, car la saisie tactile dans Windows 8 fait plus que simplement émuler cette fonctionnalité.
 
 Comme vous le découvrirez bientôt, les entrées tactiles nécessitent une approche différente de la conception de l’interface utilisateur.
 
 **Comparer les critères de l’interaction tactile**
 
-Ce tableau présente quelques-unes des différences entre les périphériques d’entrée que vous devez prendre en compte lorsque vous concevez des applications Windows Store optimisées pour le toucher.
+ce tableau présente quelques-unes des différences entre les périphériques d’entrée que vous devez prendre en compte lorsque vous concevez des applications Windows Store optimisées pour la technologie tactile.
 
 
 
-| Factor          | Interactions tactiles   | Interactions à l’aide de la souris, du clavier, du stylo/stylet | Pavé tactile  |
+| Facteur          | Interactions tactiles   | Interactions à l’aide de la souris, du clavier, du stylo/stylet | Pavé tactile  |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | **Précision**<br/>        | La zone de contact au bout du doigt est plus importante qu’une simple coordonnées x-y, ce qui augmente le risque d’activations involontaires de commandes.<br/>                                                               | La souris et le stylo/stylet répondent à une coordonnée x-y précise.<br/>                                                                                                                                                                                                                                            | Comme la souris.<br/>                           |
 |                                 | La forme de la zone de contact change tout au long du mouvement. <br/>                                                                                                                                       | Les mouvements de la souris et les traits du stylo/stylet répondent à des coordonnées x-y précises. Le focus du clavier est explicite.<br/>                                                                                                                                                                                                   | Comme la souris.<br/>                           |
@@ -62,7 +62,7 @@ Nous fournissons ici des instructions d’interaction utilisateur générales et
 
 ## <a name="visuals-for-feedback"></a>Éléments visuels pour les commentaires
 
-Les commentaires visuels appropriés lors des interactions avec votre application aident les utilisateurs à reconnaître, apprendre et s’adapter à la façon dont leurs interactions sont interprétées par l’application et les commentaires visuels Windows peuvent indiquer les interactions réussies, l’état du système de relais, améliorer le sens du contrôle, réduire les erreurs, aider les utilisateurs à comprendre le système et l’appareil d’entrée et encourager l’interaction.
+les commentaires visuels appropriés au cours des interactions avec votre application aident les utilisateurs à reconnaître, apprendre et s’adapter à la façon dont leurs interactions sont interprétées par l’application et Windows les commentaires visuels peuvent indiquer les interactions réussies, l’état du système de relais, le sens du contrôle, la réduction des erreurs, les utilisateurs à comprendre le système et l’appareil d’entrée, et encourager l’interaction.
 
 Le retour visuel est essentiel quand l’utilisateur doit réaliser, avec la fonction tactile, des activités qui demandent de l’exactitude et de la précision selon l’endroit concerné. Affichez le retour, quels que soient l’emplacement et le moment de la détection de l’entrée tactile, pour aider l’utilisateur à comprendre toutes les méthodes de ciblage personnalisé qui sont définies par votre application et ses contrôles.
 

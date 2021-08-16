@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 0a4f248edbfa4a1779016e40d73051d8c1d9acac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84446b49ab723f161de8f148e95916202efe06176191e820ab8bafc88ed9158a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969758"
 ---
 # <a name="iitempreviewerextsuggestbrowserpolicy-method"></a>IItemPreviewerExt :: SuggestBrowserPolicy, méthode
 
@@ -51,9 +51,9 @@ Identificateur de contexte de l’opération. Remplacez la valeur par défaut de
 *pdwFlags* \[ out, retval\]
 </dt> <dd>
 
-Type : **DWORD \** _
+Type : **DWORD \***
 
-Pointeur vers une valeur DWORD contenant des indicateurs de contrôle de vérification. L’indicateur _ *BROWSERPOLICY \_ non fiable \_ content** désactive toute possibilité de la préversion de l’exécution d’un script ou d’un ActiveX. Le paramètre *pdwFlags* ne doit pas être un pointeur **null** .
+Pointeur vers une valeur DWORD contenant des indicateurs de contrôle de vérification. L’indicateur de **\_ \_ contenu non approuvé BROWSERPOLICY** désactive toute possibilité d’exécution de l’aperçu de script ou de ActiveX. Le paramètre *pdwFlags* ne doit pas être un pointeur **null** .
 
 </dd> </dl>
 
@@ -63,13 +63,13 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’interface [**IItemPreviewerExt**](-search-iitempreviewerext.md) est prise en charge uniquement sur Windows XP et windows Server 2003 et ne doit plus être utilisée.
+l’interface [**IItemPreviewerExt**](-search-iitempreviewerext.md) est prise en charge uniquement sur Windows XP et Windows Server 2003 et ne doit plus être utilisée.
 
-Pour afficher un aperçu des pièces jointes avec un gestionnaire de protocole tiers sur les ordinateurs exécutant Windows XP ou Windows Server 2003, il peut être nécessaire d’utiliser l’interface [**IItemPreviewerExt**](-search-iitempreviewerext.md) et les API suivantes : les interfaces [**ISearchProtocolUI**](-search-isearchprotocolui.md), [**IItemPropertyBag**](iitempropertybag.md) et [**ISearchItem**](-search-isearchitem.md) , la structure [**LINKINFO**](-search-linkinfo.md) et l’énumération [**LinkType**](-search-linktype.md) .
+pour afficher un aperçu des pièces jointes avec un gestionnaire de protocole tiers sur les ordinateurs exécutant Windows XP ou Windows Server 2003, il peut être nécessaire d’utiliser l’interface [**IItemPreviewerExt**](-search-iitempreviewerext.md) et les api suivantes : les interfaces [**ISearchProtocolUI**](-search-isearchprotocolui.md), [**IItemPropertyBag**](iitempropertybag.md) et [**ISearchItem**](-search-isearchitem.md) , la structure [**LINKINFO**](-search-linkinfo.md) et l’énumération [**LINKTYPE**](-search-linktype.md) .
 
-L’utilisation de l’indicateur de **\_ \_ contenu non approuvé BROWSERPOLICY** est fortement recommandée pour désactiver toute possibilité de la version préliminaire de pouvoir exécuter un script ou un ActiveX. La méthode **IItemPreviewerExt :: SuggestBrowserPolicy** peut retourner des informations indiquant si l’aperçu de l’élément est approuvé ou non. Cela permet au contrôle d’affichage Trident d’exécuter le script, et même les contrôles ActiveX. Étant donné que le générateur d’aperçu utilise souvent des fichiers temporaires pour générer la version préliminaire, cela peut entraîner l’exécution d’un script et d’une exécution de code inattendus dans la zone de l’ordinateur local.
+Il est fortement recommandé d’utiliser l’indicateur de **\_ \_ contenu non approuvé BROWSERPOLICY** pour désactiver toute possibilité d’exécution d’un script ou d’un ActiveX. La méthode **IItemPreviewerExt :: SuggestBrowserPolicy** peut retourner des informations indiquant si l’aperçu de l’élément est approuvé ou non. cela permet au contrôle de l’écran trident d’exécuter le script et même de ActiveX contrôles. Étant donné que le générateur d’aperçu utilise souvent des fichiers temporaires pour générer la version préliminaire, cela peut entraîner l’exécution d’un script et d’une exécution de code inattendus dans la zone de l’ordinateur local.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -78,7 +78,7 @@ L’utilisation de l’indicateur de **\_ \_ contenu non approuvé BROWSERPOLICY
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 | Composant redistribuable<br/>          | Windows Desktop Search (WDS) 3,0<br/>          |
 
 

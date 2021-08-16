@@ -4,12 +4,12 @@ ms.assetid: cf68067a-742b-4acd-b8b1-c6758c35845f
 title: System. photo. CameraManufacturer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a69bdbf5d2a4b747ca733a0562973b8f709133f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef35e30b7078342955da475fc446789504d3ce7ec358245ea6a43d49c0f687a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970148"
 ---
 # <a name="systemphotocameramanufacturer"></a>System. photo. CameraManufacturer
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

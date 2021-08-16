@@ -4,21 +4,21 @@ description: Cette rubrique montre comment créer et initialiser l’ensemble mi
 ms.assetid: F2BF9CE2-05EF-4345-A00E-F5C8A8660B24
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f8d248c3036bd0c901ee318ae0274809dafdf20
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 58c915bded416d7359c32558a00feaa1d058c02f28882b73caa5dc010d8bb5b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118505150"
 ---
 # <a name="how-to-initialize-directcomposition"></a>Comment initialiser DirectComposition
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Cette rubrique montre comment créer et initialiser l’ensemble minimal d’objets Microsoft DirectComposition nécessaires pour créer une composition simple.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
@@ -988,6 +988,6 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
 [**SafeRelease**](/windows/desktop/medfound/saferelease)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
