@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a9cf5ade98d14d61920649bfe7f1cf895761042
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9cd4b57a60b776a0141561ffb99a3604f793e6233977df106ace5c851bf1cf6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117836482"
 ---
 # <a name="uniquemember-attribute"></a>attribut uniqueMember
 
@@ -43,7 +43,7 @@ Nom unique du membre d’un groupe. Utilisé par groupOfUniqueNames.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

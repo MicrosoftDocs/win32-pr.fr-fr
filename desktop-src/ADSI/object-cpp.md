@@ -7,12 +7,12 @@ keywords:
 - Dessin. COTISATIONS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 400cce3ec4be4e7597a87aac2fe9d70fc29957dd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d0051fc69b5bf5ca4375ad30349abd518db1326dee04178c839d7ac0df7dd920
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839378"
 ---
 # <a name="objectcpp"></a>Dessin. COTISATIONS
 
@@ -33,11 +33,11 @@ Dans l’exemple de composant fournisseur, un exemple de code de listes d’obje
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

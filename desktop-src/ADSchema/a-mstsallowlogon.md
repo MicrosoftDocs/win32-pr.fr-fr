@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bcd78662167e281ea720f2ad5d98f25c2f5c4ae
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1a5707f2f18ae4a2da1768090d9ebd1126c72411fc6b79212f459996ecbce080
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837869"
 ---
 # <a name="ms-ts-allow-logon-attribute"></a>attribut ms-TS-allow-Logon
 
@@ -42,7 +42,7 @@ Spécifie si l’utilisateur est autorisé à se connecter au Terminal Server. L
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

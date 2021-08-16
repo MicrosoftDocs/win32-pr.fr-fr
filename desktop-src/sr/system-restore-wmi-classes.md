@@ -6,12 +6,12 @@ keywords:
 - Restauration du système, référence, classes WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36674fe7a3bbe06a46a9cd022885353fe57ab098
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d85f8619a51b87b52f1874d40e9bef9b80852124d8f6bbfa2419627ea9d45049
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857232"
 ---
 # <a name="system-restore-wmi-classes"></a>Classes WMI de restauration du système
 
@@ -26,11 +26,11 @@ Les classes WMI suivantes sont utilisées avec la restauration du système.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

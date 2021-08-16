@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33ef1db92b908ef8474dfb125aca678d3c22d09f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f7f623f15510d38243822420925f628d427d2adc975f2b140b78dc191a91200a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838399"
 ---
 # <a name="acs-identity-name-attribute"></a>ACS-Identity-Name (attribut)
 
@@ -45,7 +45,7 @@ Cet attribut contient le nom unique d’un utilisateur ou d’une unité d’org
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

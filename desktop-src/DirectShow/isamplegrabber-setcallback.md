@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 46e0565c314bab86967ee0d5dabee6ba449a87dd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6e6d61d60a4664386cded025d2b7bcea82353602c7f7f8c0fb5bc4c53779ae2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117817916"
 ---
 # <a name="isamplegrabbersetcallback-method"></a>ISampleGrabber :: SetCallback, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -56,7 +56,7 @@ Pointeur vers une interface [**ISampleGrabberCB**](isamplegrabbercb.md) contenan
 *WhichMethodToCallback* 
 </dt> <dd>
 
-Index qui spécifie la méthode de rappel. Doit avoir l’une des valeurs suivantes.
+Index qui spécifie la méthode de rappel. Il doit s’agir de l’une des valeurs suivantes.
 
 
 
@@ -75,7 +75,7 @@ Index qui spécifie la méthode de rappel. Doit avoir l’une des valeurs suivan
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le thread de traitement des données se bloque jusqu’à ce que la méthode de rappel retourne. Si le rappel ne retourne pas rapidement, il peut interférer avec la lecture.
 
@@ -87,7 +87,7 @@ Le filtre n’appelle pas la fonction de rappel pour les exemples de préroll, o
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

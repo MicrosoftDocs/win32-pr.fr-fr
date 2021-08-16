@@ -1,55 +1,55 @@
 ### YamlMime:FAQ
 metadata:
-  description: FAQ DirectShow
+  description: DirectShow FAQ
   ms.assetid: 198758b9-025a-44af-958c-9ddea8cbb12d
-  title: FAQ DirectShow
+  title: DirectShow FAQ
   ms.topic: article
   ms.date: 05/31/2018
-  ms.openlocfilehash: a36cd1942fcc1b07e63a3ec7bfb8297b7d6b6e70
-  ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+  ms.openlocfilehash: b21916e381262be4a695abfeca0c570bc3b13f7b376c7728b33e3458f6e58c98
+  ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 06/09/2021
-  ms.locfileid: "111852696"
-title: FAQ DirectShow
+  ms.lasthandoff: 08/11/2021
+  ms.locfileid: "117821174"
+title: DirectShow FAQ
 summary: Cet article répond à de nombreuses questions fréquemment posées sur Microsoft DirectShow.
 sections:
 - name: Ignoré
   questions:
   - question: >
-      Quels sont les systèmes d’exploitation pris en charge par DirectShow ?
+      quels systèmes d’exploitation ne prend DirectShow en charge ?
     answer: >
-      DirectShow est disponible dans toutes les versions prises en charge de Windows.
+      DirectShow est disponible dans toutes les versions de Windows prises en charge.
   - question: >
       Combien de connaissances COM ai-je besoin pour programmer avec DirectShow ?
     answer: >
       Pour le développement d’applications, vous devez comprendre les principes de base de l’utilisation des objets COM : comment les instancier, accéder aux interfaces qu’elles exposent et gérer les décomptes de références sur ces interfaces. Le développement de filtres requiert davantage de connaissances COM.
   - question: >
-      Quels sont les formats pris en charge par DirectShow ?
+      formats pris en charge par DirectShow
     answer: >
       Consultez [formats pris en charge dans DirectShow](supported-formats-in-directshow.md).
   - question: >
-      Existe-t-il une liste de compatibilité matérielle (HCL) DirectShow ?
+      existe-t-il un DirectShow liste de compatibilité matérielle (HCL) ?
     answer: >
-      Non. DirectShow utilise les fonctionnalités matérielles Microsoft DirectDraw et Microsoft DirectSound s’ils sont disponibles. Quand aucun matériel spécial n’est disponible, DirectShow utilise GDI pour dessiner une vidéo  et les \* API multimédias WaveOut pour la lecture audio.
+      Non. DirectShow utilise les fonctionnalités matérielles microsoft DirectDraw et microsoft DirectSound si elles sont disponibles. quand aucun matériel spécial n’est disponible, DirectShow utilise GDI pour dessiner une vidéo  et les \* api multimédias waveOut pour la lecture audio.
   - question: >
-      Quelles langues puis-je utiliser pour écrire une application DirectShow ?
+      quelles langues puis-je utiliser pour écrire une application DirectShow ?
     answer: >
-      DirectShow est conçu principalement pour le développement C++. Un petit sous-ensemble de l’API DirectShow est exposé via Visual Basic 6,0 ; Toutefois, cette fonctionnalité est déconseillée.
+      DirectShow est conçu principalement pour le développement C++. un petit sous-ensemble de l’API DirectShow est exposé via Visual Basic 6,0 ; Toutefois, cette fonctionnalité est déconseillée.
   - question: >
-      DirectShow sera-t-il jamais accessible via du code géré ?
+      DirectShow sera-t-il jamais accessible via du code managé ?
     answer: >
-      Microsoft n’a pas de plan actuel pour implémenter une API DirectShow gérée.
+      Microsoft n’a pas de plan actuel pour implémenter une API de DirectShow gérée.
   - question: >
-      Quel compilateur ai-je besoin pour le développement DirectShow ?
+      quel compilateur ai-je besoin pour le développement de DirectShow ?
     answer: >
       Tout compilateur qui peut générer des objets COM (Component Object Model) doit fonctionner une fois que l’environnement du compilateur a été configuré correctement.
   - question: >
-      Comment DirectShow est-il lié à Microsoft DirectX ?
+      comment DirectShow est-il lié à Microsoft DirectX ?
     answer: >
-      En interne, DirectShow utilise DirectSound et DirectDraw lorsque le matériel le prend en charge. Les filtres de mélangeur vidéo et de mixage de superposition utilisent des surfaces DirectDraw 3 et DirectDraw 5. Le convertisseur de mixage vidéo 7 (Windows XP uniquement) utilise des surfaces DirectDraw 7. Le convertisseur de mixage vidéo 9 et le convertisseur vidéo amélioré utilisent les API Microsoft Direct3D les plus récentes. Vous n’avez pas besoin d’utiliser les autres API DirectX pour écrire une application DirectShow, bien qu’il soit possible de les combiner.
+      en interne, DirectShow utilise DirectSound et DirectDraw lorsque le matériel le prend en charge. les filtres de Mixer de la superposition et du convertisseur vidéo utilisent des surfaces directdraw 3 et directdraw 5. le convertisseur de mixage vidéo 7 (Windows XP uniquement) utilise des surfaces DirectDraw 7. Le convertisseur de mixage vidéo 9 et le convertisseur vidéo amélioré utilisent les API Microsoft Direct3D les plus récentes. vous n’avez pas besoin d’utiliser les autres api DirectX pour écrire une application DirectShow, bien qu’il soit possible de les combiner.
   - question: >
-      Comment DirectShow est-il lié à Microsoft ActiveMovie ?
+      comment DirectShow est-il lié à Microsoft ActiveMovie ?
     answer: >
       ActiveMovie était le nom d’origine de DirectShow. Le terme ActiveMovie n’est plus utilisé.
   - question: >
@@ -57,12 +57,12 @@ sections:
     answer: >
       Non, la source n’est pas disponible et Graphedt.exe n’est pas redistribuable.
   - question: >
-      DMOs remplacer les filtres DirectShow ?
+      DMOs remplacer les filtres de DirectShow ?
     answer: >
-      Microsoft DirectX Media Objects (DMOs) peut être utilisé dans une application DirectShow. Pour les encodeurs, les décodeurs et les effets, il est recommandé d’écrire un DMO au lieu d’un filtre DirectShow. (Remarque : Si vous souhaitez utiliser l’accélération vidéo DirectX dans votre décodeur, vous devez l’implémenter en tant que filtre.) À d’autres fins, un filtre DirectShow peut être plus approprié. Pour plus d’informations sur DMOs, consultez [objets multimédia DirectX](directx-media-objects.md).
+      Microsoft DirectX Media objects (DMOs) peut être utilisé dans une application DirectShow. pour les encodeurs, les décodeurs et les effets, il est recommandé d’écrire un DMO au lieu d’un filtre DirectShow. (Remarque : Si vous souhaitez utiliser l’accélération vidéo DirectX dans votre décodeur, vous devez l’implémenter en tant que filtre.) à d’autres fins, un filtre de DirectShow peut être plus approprié. Pour plus d’informations sur DMOs, consultez [objets multimédia DirectX](directx-media-objects.md).
   - question: >
-      Je lit un fichier de format AVI avec le lecteur Windows Media. Je peux entendre le son, mais il semble qu’il n’y ait pas de vidéo. à la place, je ne vois que le noir. Quel est le problème ?
-    answer: "Probablement, le fichier a été encodé avec un codec qui n’est pas présent sur votre système. Bien que le format de fichier AVI soit courant, il est possible de créer des fichiers AVI avec de nombreux formats de compression (codecs). Si vous tentez de lire un fichier AVI qui utilise un codec non pris en charge, vous pouvez entendre le composant audio, mais la vidéo s’affichera sous la forme d’un écran noir ou le contenu de l’écran restera inchangé.\n\n> [!Note]  \n> Le lecteur Windows Media tente souvent de télécharger et d’installer un codec s’il n’est pas présent sur votre système.\n\n \n"
+      je lit un fichier de format AVI avec Lecteur Windows Media. Je peux entendre le son, mais il semble qu’il n’y ait pas de vidéo. à la place, je ne vois que le noir. Quel est le problème ?
+    answer: "Probablement, le fichier a été encodé avec un codec qui n’est pas présent sur votre système. Bien que le format de fichier AVI soit courant, il est possible de créer des fichiers AVI avec de nombreux formats de compression (codecs). Si vous tentez de lire un fichier AVI qui utilise un codec non pris en charge, vous pouvez entendre le composant audio, mais la vidéo s’affichera sous la forme d’un écran noir ou le contenu de l’écran restera inchangé.\n\n> [!Note]  \n> Lecteur Windows Media tente souvent de télécharger et d’installer un codec s’il n’est pas présent sur votre système.\n\n \n"
   - question: >
       Comment faire générer mon application ? De quelles bibliothèques et fichiers d’en-tête ai-je besoin ?
     answer: >
@@ -70,7 +70,7 @@ sections:
   - question: >
       GraphEdit affiche un grand nombre de filtres qui ne sont pas documentés. Qu’est-ce que ces filtres ?
     answer: >
-      GraphEdit énumère tous les filtres inscrits sur votre système dans une catégorie de filtre. Il peut s’agir de filtres installés par des applications tierces ou installés par d’autres technologies Microsoft, telles que Windows Media ou NetMeeting. En outre, certains filtres DirectShow jouent le rôle de wrappers pour les codecs ou les périphériques matériels, chaque codec ou périphérique étant considéré comme un filtre distinct. Le codec vidéo Microsoft H. 263 est utilisé par NetMeeting et n’est plus pris en charge dans DirectShow. Pour plus d’informations, consultez [énumération des appareils et des filtres](enumerating-devices-and-filters.md).
+      GraphEdit énumère tous les filtres inscrits sur votre système dans une catégorie de filtre. il peut s’agir de filtres installés par des applications tierces ou installés par d’autres technologies Microsoft, telles que Windows Media ou NetMeeting. en outre, certains filtres de DirectShow jouent le rôle de wrappers pour les codecs ou les périphériques matériels, chaque codec ou périphérique apparaissant sous la forme d’un filtre distinct. Le codec vidéo Microsoft H. 263 est utilisé par NetMeeting et n’est plus pris en charge dans DirectShow. Pour plus d’informations, consultez [énumération des appareils et des filtres](enumerating-devices-and-filters.md).
   - question: >
       Je ne parviens pas à créer mon graphique personnalisé par programmation.
     answer: >
@@ -80,13 +80,13 @@ sections:
       Pour plus d’informations sur la création de graphiques, consultez les articles suivants :
 
 
-      -   [Génération du graphique de filtre](building-the-filter-graph.md)
+      -   [Génération du filtre Graph](building-the-filter-graph.md)
 
-      -   [Énumération d’objets dans un graphique de filtre](enumerating-objects-in-a-filter-graph.md)
+      -   [Énumération d’objets dans un filtre Graph](enumerating-objects-in-a-filter-graph.md)
   - question: >
-      Comment puis-je détecter si DirectShow est installé sur un ordinateur donné ?
+      comment puis-je détecter si DirectShow est installé sur un ordinateur donné ?
     answer: >
-      Appelez **CoCreateInstance** pour créer une instance du gestionnaire de graphique de filtre. Si cet appel se déroule correctement, DirectShow est installé sur l’ordinateur. Le code suivant illustre comment procéder :
+      appelez **CoCreateInstance** pour créer une instance du filtre Graph Manager. si cet appel se déroule correctement, DirectShow est installé sur l’ordinateur. Le code suivant illustre comment procéder :
 
 
 
@@ -102,7 +102,7 @@ sections:
   - question: >
       Comment faire modifier les paramètres d’un filtre sans afficher la page de propriétés ?
     answer: >
-      La plupart des filtres exposent une ou plusieurs interfaces pour définir des propriétés sur le filtre. Consultez la page de référence du filtre en question. (Voir [filtres DirectShow](directshow-filters.md).)
+      La plupart des filtres exposent une ou plusieurs interfaces pour définir des propriétés sur le filtre. Consultez la page de référence du filtre en question. (voir [DirectShow les filtres](directshow-filters.md).)
   - question: >
       Puis-je tester le filtre avec GraphEdit ?
     answer: >
@@ -110,7 +110,7 @@ sections:
   - question: >
       À quel moment les filtres de l’anneau des privilèges sont-ils exécutés ?
     answer: >
-      Les filtres s’exécutent à l’anneau 3, bien que certains filtres contrôlent les périphériques de diffusion en continu qui s’exécutent à l’anneau 0. Pour plus d’informations, voir [Comment les périphériques matériels participent au graphique de filtre](how-hardware-devices-participate-in-the-filter-graph.md).
+      Les filtres s’exécutent à l’anneau 3, bien que certains filtres contrôlent les périphériques de diffusion en continu qui s’exécutent à l’anneau 0. Pour plus d’informations, voir [Comment les périphériques matériels participent au filtre Graph](how-hardware-devices-participate-in-the-filter-graph.md).
   - question: >
       Ai-je besoin d’utiliser un débogueur de noyau ?
     answer: >

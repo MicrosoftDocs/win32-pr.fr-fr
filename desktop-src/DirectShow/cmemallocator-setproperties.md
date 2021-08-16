@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8505916245cca81fdd84132e4523fe9dd03b971b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5c5a145e630101bda4d060058cde7bfd91796386f0915e9e5329f63ced43ef19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821964"
 ---
 # <a name="cmemallocatorsetproperties-method"></a>CMemAllocator. SetProperties, méthode
 
@@ -65,7 +65,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                                                 | Description                                                           |
 |-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                        | Opération réussie.<br/>                                                   |
+| <dl> <dt>**\_OK**</dt> </dl>                        | Réussite.<br/>                                                   |
 | <dl> <dt>**\_pointeur E**</dt> </dl>                   | Argument de pointeur **null** .<br/>                                 |
 | <dl> <dt>**VFW \_ E \_ déjà \_ validé**</dt> </dl>   | Impossible de modifier la mémoire allouée lorsque le filtre est actif.<br/> |
 | <dl> <dt>**VFW \_ E \_ BADALIGN**</dt> </dl>             | Un alignement non valide a été spécifié.<br/>                        |
@@ -75,7 +75,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode remplace la méthode [**CBaseAllocator :: SetProperties**](cbaseallocator-setproperties.md) .
 
@@ -87,7 +87,7 @@ L’alignement de la mémoire tampon, spécifié par le membre **cbAlign** de la
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -6,12 +6,12 @@ keywords:
 - BITS des propriétés d’extension IIS BITS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c09412f6aa0be1ab76e6e45ea0920e1caf1054d7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 37c81d57114a23a07c5f952a9cb33399644f5cbed8bbf67cccf802a1c996b72b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835168"
 ---
 # <a name="bits-iis-extension-properties"></a>Propriétés des extensions IIS BITS
 
@@ -54,7 +54,7 @@ Dans IIS 7, la limite de téléchargement par défaut est de 30 millions octets.
 </tr>
 <tr class="odd">
 <td><strong>BITSServerNotificationURL</strong> Type de données : <strong>chaîne</strong><br/></td>
-<td>Optionnel. Contient l’URL de l’application serveur vers laquelle BITS publie le fichier de téléchargement. Vous devez spécifier une URL si la valeur de la propriété <strong>BITSServerNotificationType</strong> est 1 ou 2. L’URL est limitée à 2 200 caractères, à l’exclusion de la marque de fin null. L’URL doit être une URL HTTP ; BITS ne prend pas en charge les URL de notification HTTPs.<br/> Si l’URL n’est pas disponible au moment du chargement, le service BITS tente à nouveau le téléchargement jusqu’à ce que l’URL de notification existe ou que la période de nouvelle tentative expire.<br/> Notez que si le nom distant spécifié dans le travail contient une chaîne de requête, la chaîne de requête est ajoutée à l’URL que vous spécifiez. Par exemple, si le nom distant contient https://myserver/myvdir/subdir/file.asp?ACCOUNT=86433 et que vous spécifiez le paramètre <strong>BITSServerNotificationURL</strong> comme https://otherserver/myvdir2/bag.asp , l’URL vers laquelle bits est publié est https://otherserver/myvdir2/bag.asp?ACCOUNT=86433 .<br/> Si l’URL d’origine est https://myserver/myvdir/file.txt et que l’URL de notification est myasp. asp, bits utilise http//MyServer/myvdir/myasp. asp comme URL de notification.<br/> Si la partie du chemin d’accès et du nom de fichier de l’URL contient des caractères Unicode qui ne sont pas en commun à la page de codes sur le client et le serveur, la traduction d’URL échoue sur le serveur et le travail BITS est placé dans l’état d’erreur. Si la partie serveur de l’URL contient des caractères Unicode, vous devez encoder la partie serveur à l’aide de <a href="/windows/win32/intl/handling-internationalized-domain-names--idns">noms de domaine internationaux</a> (IDN).<br/></td>
+<td>Facultatif. Contient l’URL de l’application serveur vers laquelle BITS publie le fichier de téléchargement. Vous devez spécifier une URL si la valeur de la propriété <strong>BITSServerNotificationType</strong> est 1 ou 2. L’URL est limitée à 2 200 caractères, à l’exclusion de la marque de fin null. L’URL doit être une URL HTTP ; BITS ne prend pas en charge les URL de notification HTTPs.<br/> Si l’URL n’est pas disponible au moment du chargement, le service BITS tente à nouveau le téléchargement jusqu’à ce que l’URL de notification existe ou que la période de nouvelle tentative expire.<br/> Notez que si le nom distant spécifié dans le travail contient une chaîne de requête, la chaîne de requête est ajoutée à l’URL que vous spécifiez. Par exemple, si le nom distant contient https://myserver/myvdir/subdir/file.asp?ACCOUNT=86433 et que vous spécifiez le paramètre <strong>BITSServerNotificationURL</strong> comme https://otherserver/myvdir2/bag.asp , l’URL vers laquelle bits est publié est https://otherserver/myvdir2/bag.asp?ACCOUNT=86433 .<br/> Si l’URL d’origine est https://myserver/myvdir/file.txt et que l’URL de notification est myasp. asp, bits utilise http//MyServer/myvdir/myasp. asp comme URL de notification.<br/> Si la partie du chemin d’accès et du nom de fichier de l’URL contient des caractères Unicode qui ne sont pas en commun à la page de codes sur le client et le serveur, la traduction d’URL échoue sur le serveur et le travail BITS est placé dans l’état d’erreur. Si la partie serveur de l’URL contient des caractères Unicode, vous devez encoder la partie serveur à l’aide de <a href="/windows/win32/intl/handling-internationalized-domain-names--idns">noms de domaine internationaux</a> (IDN).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>BITSHostId</strong> Type de données : <strong>chaîne</strong><br/></td>
@@ -103,7 +103,7 @@ N’utilisez pas la propriété <strong>BITSHostId</strong> si le protocole SSL 
 
  
 
-L’exemple suivant montre comment définir les propriétés d’extension IIS BITS à l’aide de Windows Script Host. Si le répertoire virtuel pointe vers un partage distant, définissez également les propriétés IIS **UNCUserName** et **UNCPassword** .
+l’exemple suivant montre comment définir les propriétés d’extension IIS BITS à l’aide d’Windows Script Host. Si le répertoire virtuel pointe vers un partage distant, définissez également les propriétés IIS **UNCUserName** et **UNCPassword** .
 
 
 ```JScript

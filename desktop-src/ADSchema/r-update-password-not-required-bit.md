@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e1e0d9b2f5bd28411f7aed773e899668071cc6b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 356b2003f82ab5aa831b1d3d5eae891c984071dae96977fba5e657902a1ea6f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835925"
 ---
 # <a name="update-password-not-required-bit-extended-right"></a>Update-Password-not-required-bit Extended Right
 
@@ -38,7 +38,7 @@ Droit d’accès du contrôle étendu qui permet à un utilisateur d’activer o
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

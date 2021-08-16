@@ -8,12 +8,12 @@ keywords:
 - Modèle de réplication du programmeur dans Active Directory Domain Services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ada20bc07411528eaea4b7ff8c773c50ae8b6ec
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b758a31913d0c306105d0d3ce51e72607530e314d79601e8e5230495458d9793
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841229"
 ---
 # <a name="a-programmers-model-of-replication-in-active-directory-domain-services"></a>Modèle de réplication du programmeur dans Active Directory Domain Services
 
@@ -39,9 +39,9 @@ Le modèle ne garantit pas l’ordre de réplication des modifications apportée
 
 Le modèle diffère de la réalité de plusieurs façons qui affectent uniquement les performances. Par exemple, le serveur Active Directory envoie des messages de réplication contenant les modifications apportées à plusieurs objets, mais traite le contenu d’un tel message à plusieurs objets comme s’il s’agissait d’une série de messages à un seul objet. Le serveur Active Directory n’effectue pas la réplication point à point comme décrit dans le modèle, mais effectue plutôt une réplication transitive plus complexe et plus efficace qui est fonctionnellement équivalente au modèle.
 
- 
+ 
 
- 
+ 
 
 
 

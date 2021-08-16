@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eff07c4e4ab605a90eb2f828443c8111fd30d009
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 98e0155c9e4d187fc38143d2bfaccb9e77e66083471a40f0701d6ed3dc511b4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106513266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837059"
 ---
 # <a name="netboot-locally-installed-oses-attribute"></a>netboot-installation locale-attribut OS
 
@@ -45,7 +45,7 @@ L’attribut **netboot-local-installed-OS** est réservé à un usage interne.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

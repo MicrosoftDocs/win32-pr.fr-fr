@@ -7,12 +7,12 @@ keywords:
 - À propos de l’authentification mutuelle à l’aide de Kerberos AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9685dad0bd20f233b8dcb0ecf12af338f318646f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b020b2d808cee96319cf411b4199bb4ff78f357cfdf8379f01c7d07bc1c5c1c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841009"
 ---
 # <a name="about-mutual-authentication-using-kerberos"></a>À propos de l’authentification mutuelle à l’aide de Kerberos
 
@@ -27,12 +27,12 @@ Un service authentifie un client comme suit : le client établit un contexte de
 Le mécanisme Kerberos par lequel un client authentifie un service fonctionne comme suit : lorsqu’un service est installé, un programme d’installation de service, exécuté avec des privilèges d’administrateur, inscrit un ou plusieurs noms de principal du service (SPN) uniques pour chaque instance de service. Les noms sont enregistrés dans le contrôleur de domaine Active Directory (DC) sur l’objet de compte d’utilisateur ou d’ordinateur que l’instance de service utilisera pour ouvrir une session. Lorsqu’un client demande une connexion à un service, il compose un SPN pour une instance de service, à l’aide des données connues ou des données fournies par l’utilisateur. Le client utilise ensuite le package SSPI Negotiate pour présenter le nom de principal du service au centre de distribution de clés (KDC) pour le compte de domaine client. Le KDC recherche dans la forêt un compte d’utilisateur ou d’ordinateur sur lequel le SPN est inscrit. Si le SPN est inscrit sur plusieurs comptes, l’authentification échoue. Dans le cas contraire, le centre KDC chiffre un message à l’aide du mot de passe du compte sur lequel le SPN a été inscrit. Le KDC transmet ce message chiffré au client, qui à son tour le transmet à l’instance de service. Le service utilise le package SSPI Negotiate pour déchiffrer le message, qu’il transmet au client et sur le KDC du client. Le KDC authentifie le service si le message déchiffré correspond à son message d’origine.
 
 -   Pour plus d’informations sur la composition et l’inscription des noms de principal du service, consultez. [Noms de principal du service](service-principal-names.md)
--   Pour plus d’informations et pour obtenir un exemple de code qui compose un SPN pour un service Windows Sockets qui se publie lui-même avec un point de connexion de service, consultez [composition des noms de principal du service pour un service avec SCP](composing-the-spns-for-a-service-with-an-scp.md).
+-   pour plus d’informations et pour obtenir un exemple de code qui compose un SPN pour un service de sockets Windows qui se publie lui-même avec un point de connexion de service, consultez [composition des noms de principal du service pour un service avec SCP](composing-the-spns-for-a-service-with-an-scp.md).
 -   Pour plus d’informations et pour obtenir un exemple de code qui compose un SPN pour un service RPC, consultez [composition de SPN pour un service RpcNs](composing-spns-for-an-rpcns-service.md).
 
- 
+ 
 
- 
+ 
 
 
 

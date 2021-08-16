@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6e12da02ffbce99b29d324c1166b3d4cdf2265c6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9ff047865aa4f52dee6c03411cddb0c957327851f0f6ca1b7a03f0b6adaacfe5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117822730"
 ---
 # <a name="cbaserendererendofstream-method"></a>Méthode CBaseRenderer. EndOfStream
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La broche d’entrée du filtre appelle cette méthode lorsqu’elle reçoit une notification de fin de flux.
 
@@ -56,7 +56,7 @@ Cette méthode affecte à l’indicateur [**CBaseRenderer :: m \_ BeOS**](cbase
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

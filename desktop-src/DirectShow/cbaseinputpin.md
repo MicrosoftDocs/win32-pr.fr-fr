@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ba55006438a8484b0bf10b95ac8b9d8bbdb56e0f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ab98a2dcb1503e7593912df0e5dff51539855611311d4704e4045816fd6380e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823882"
 ---
 # <a name="cbaseinputpin-class"></a>CBaseInputPin, classe
 
@@ -55,7 +55,7 @@ Selon la fonction du code PIN, vous devrez peut-être remplacer des méthodes su
 | [**IsFlushing**](cbaseinputpin-isflushing.md)                             | Interroge si le filtre est en cours de vidage.                                                           |
 | [**CheckStreaming**](cbaseinputpin-checkstreaming.md)                     | Détermine si le code confidentiel peut accepter des exemples. Virtuels.                                                     |
 | [**PassNotify**](cbaseinputpin-passnotify.md)                             | Transmet un message de contrôle qualité à l’objet approprié.                                                 |
-| [**Inactif**](cbaseinputpin-inactive.md)                                 | Notifie le code confidentiel que le filtre n’est plus actif. Virtuels.                                              |
+| [**Inactive**](cbaseinputpin-inactive.md)                                 | Notifie le code confidentiel que le filtre n’est plus actif. Virtuels.                                              |
 | [**SampleProps**](cbaseinputpin-sampleprops.md)                           | Récupère les propriétés de l’exemple le plus récent.                                                         |
 | Méthodes IPin                                                               | Description                                                                                                 |
 | [**BeginFlush**](cbaseinputpin-beginflush.md)                             | Commence une opération de vidage.                                                                                   |
@@ -80,7 +80,7 @@ Selon la fonction du code PIN, vous devrez peut-être remplacer des méthodes su
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

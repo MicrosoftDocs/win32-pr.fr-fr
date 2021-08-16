@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI, utilisation de, à l’aide de la méthode IADs GetInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b374791e7fd7ff787c1b825827f410a9c15b551b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 534de8bd667ed33d562ac55b6a70452b6496d0a3d708c55a2cb0fee1a86a8a29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838453"
 ---
 # <a name="the-getinfo-method"></a>La méthode GetInfo
 
@@ -47,9 +47,9 @@ Debug.Print "User's title is " + usr.Get("title")
 
 Certains services d’annuaire ne retournent pas toutes les valeurs d’attribut d’un objet en réponse à un appel [**IADs :: GetInfo**](/windows/desktop/api/Iads/nf-iads-iads-getinfo) . Dans ces cas, utilisez la méthode [**IADs :: GetInfoEx**](/windows/desktop/api/Iads/nf-iads-iads-getinfoex) pour charger ces valeurs dans le cache local.
 
- 
+ 
 
- 
+ 
 
 
 

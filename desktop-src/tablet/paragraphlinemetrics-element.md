@@ -4,12 +4,12 @@ ms.assetid: 6a36d7a1-c14a-42cd-81e1-1743673eca83
 title: Élément ParagraphLineMetrics
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a864c002e085596dc58814ddf1a708903a74724
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.openlocfilehash: 5b24aabbb98d4d404b6c9bf50389c573e30e21463243fd3ab6b8db044e773fab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117856528"
 ---
 # <a name="paragraphlinemetrics-element"></a>Élément ParagraphLineMetrics
 
@@ -27,7 +27,7 @@ Contient des informations sur les lignes d’un paragraphe.
 
 ## <a name="child-elements"></a>Éléments enfants
 
-[**Ligne de base**](baseline-element.md)
+[**De base**](baseline-element.md)
 
 ## <a name="attributes"></a>Attributs
 

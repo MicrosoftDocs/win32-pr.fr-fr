@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: b1cb0760f1ee19acfa10208711e73919fd084ecf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fdff3fd1a606b8dbec35476988497dd14892692a42e6502343716264873c184d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857492"
 ---
 # <a name="shelllinkobjectresolve-method"></a>ShellLinkObject. Resolve, méthode
 
@@ -121,19 +121,19 @@ Désactivez le suivi des liaisons distribuées. Par défaut, le suivi de lien di
 
 </dt> <dd>
 
-Appelez la Windows Installer.
+appelez la Windows Installer.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est fondamentalement identique dans les fonctionnalités à [**résoudre**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve). Pour plus d’informations sur la résolution de liens, consultez la section Notes de cette page.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte de cette méthode pour JScript, VBScript et Visual Basic.
+l’exemple suivant illustre l’utilisation correcte de cette méthode pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -235,13 +235,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |

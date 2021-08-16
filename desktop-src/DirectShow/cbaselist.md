@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c6aa4a3c80cd583bd3cc83a2a0adedecb6caaf7c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5616edd16921bb2ae4d1a0b7ad67f5bbec3fba560594d4710512bd2cec6f275f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823703"
 ---
 # <a name="cbaselist-class"></a>CBaseList, classe
 
@@ -80,7 +80,7 @@ Environ la moitié des méthodes de cette classe agissent sur des objets uniques
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxlist. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxlist. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 
@@ -89,7 +89,7 @@ Environ la moitié des méthodes de cette classe agissent sur des objets uniques
 
 <dl> <dt>
 
-[Classes de base DirectShow](directshow-base-classes.md)
+[DirectShow Classes de base](directshow-base-classes.md)
 </dt> </dl>
 
  

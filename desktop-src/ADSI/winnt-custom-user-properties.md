@@ -8,12 +8,12 @@ keywords:
 - Fournisseur WinNT ADSI, objet utilisateur, propriétés personnalisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95230de6f7bb5bd848d7a8a047c0ec1966e5a67e
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 607e12fc58ff4829f425302c1d13997f2e6c085646b1ace2c3e8ae2ebfb7df6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838388"
 ---
 # <a name="winnt-custom-user-properties"></a>Propriétés de l’utilisateur personnalisé Winnt
 
@@ -27,13 +27,13 @@ Le fournisseur Winnt met à disposition les propriétés personnalisées suivant
 | **ObjectSID**       | Chaîne d’octets | SID de l’objet de l’utilisateur. Pour obtenir un exemple de récupération du SID de l’objet à l’aide du fournisseur WinNT, consultez [SID d’objet (fournisseur WinNT)](object-sid.md) .                                                                                                                                                                                                          |
 | **Paramètres**      | String       | Paramètres de l’utilisateur. Pointe vers une chaîne Unicode qui est réservée à une utilisation par des applications. Cette chaîne peut être une chaîne NULL, ou elle peut contenir un nombre quelconque de caractères avant le caractère null de fin. Les produits Microsoft utilisent ce membre pour stocker les données de configuration de l’utilisateur. Cette propriété ne peut être modifiée que par une application au cours de l’installation. |
 | **Mot de passe**     | Temps         | Durée d’utilisation du mot de passe. Cette propriété indique le nombre de secondes qui se sont écoulées depuis la dernière modification du mot de passe.                                                                                                                                                                                                                    |
-| **PasswordExpired** | Integer      | Indique quand le mot de passe a expiré. Quand vous utilisez l’opération obtenir, la valeur zéro est retournée si le mot de passe n’a pas expiré, ou une valeur différente de zéro si elle a expiré. Consultez l’exemple de cette rubrique.                                                                                                                                                                                          |
-| **PrimaryGroupID**  | Integer      | ID de groupe principal de l’utilisateur, par exemple, l’ID de groupe d’utilisateurs de domaine. Consultez l’exemple de cette rubrique.                                                                                                                                                                                                                                                                        |
-| **UserFlags**       | Integer      | Indicateur utilisateur défini dans [**l' \_ \_ \_ énumération de l’indicateur utilisateur ADS**](/windows/win32/api/iads/ne-iads-ads_user_flag_enum). Pour obtenir un exemple d’utilisation de UserFlags, consultez [mot de passe n’expire jamais (fournisseur WinNT)](winnt-password-never-expires.md) .                                                                                                                                                             |
+| **PasswordExpired** | Entier      | Indique quand le mot de passe a expiré. Quand vous utilisez l’opération obtenir, la valeur zéro est retournée si le mot de passe n’a pas expiré, ou une valeur différente de zéro si elle a expiré. Consultez l’exemple de cette rubrique.                                                                                                                                                                                          |
+| **PrimaryGroupID**  | Entier      | ID de groupe principal de l’utilisateur, par exemple, l’ID de groupe d’utilisateurs de domaine. Consultez l’exemple de cette rubrique.                                                                                                                                                                                                                                                                        |
+| **UserFlags**       | Entier      | Indicateur utilisateur défini dans [**l' \_ \_ \_ énumération de l’indicateur utilisateur ADS**](/windows/win32/api/iads/ne-iads-ads_user_flag_enum). Pour obtenir un exemple d’utilisation de UserFlags, consultez [mot de passe n’expire jamais (fournisseur WinNT)](winnt-password-never-expires.md) .                                                                                                                                                             |
 
 
 
- 
+ 
 
 Cet exemple montre comment définir le répertoire du lecteur de démarrage d’un utilisateur.
 
@@ -80,6 +80,6 @@ grpPrimaryID = usr.Get("PrimaryGroupID")
 
 
 
- 
+ 
 
- 
+ 

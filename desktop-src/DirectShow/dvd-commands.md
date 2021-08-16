@@ -4,18 +4,18 @@ ms.assetid: 1204c73e-c3de-4488-8ee3-e76edbf72da0
 title: Commandes de DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5bf06127ab3829ed6cdcbbb70c3b2c1d1b41cf0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d02f9c0b6a50b6d7eb67832286ee980b0faf69460621a46caf98089efc24b19c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820583"
 ---
 # <a name="dvd-commands"></a>Commandes de DVD
 
-Les commandes de navigation et de lecture de DVD sont définies dans une section de la spécification de DVD nommée Annexe J, ce qui explique pourquoi la documentation DirectShow fait souvent référence à « l’annexe J Commands ». Toutefois, les noms fournis à l’annexe J ne sont pas toujours très intuitifs. par conséquent, DirectShow utilise des noms qui peuvent être plus faciles à comprendre.
+les commandes de navigation et de lecture de dvd sont définies dans une section de la spécification de dvd nommée annexe J, ce qui explique pourquoi la documentation DirectShow fait souvent référence à « l’annexe j commands ». toutefois, les noms fournis à l’annexe J ne sont pas toujours très intuitifs, DirectShow utilise donc des noms qui peuvent être plus faciles à comprendre.
 
-Le tableau suivant répertorie les commandes de l’annexe J et leurs équivalents DirectShow.
+le tableau suivant répertorie les commandes de l’annexe J et leurs DirectShow équivalents.
 
 
 
@@ -34,7 +34,7 @@ Le tableau suivant répertorie les commandes de l’annexe J et leurs équivalen
 | Analyser vers l’avant \_                                                                             | Lire vers l’avant à un taux de lecture spécifié. La vitesse de lecture par défaut est 1,0. | [**PlayForwards**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-playforwards)                                             |
 | Analyse vers l’arrière \_                                                                            | Lire vers l’arrière à un taux de lecture spécifié.                                  | [**PlayBackwards**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-playbackwards)                                           |
 | Appel de menu \_                                                                                | Afficher un menu.                                                                 | [**ShowMenu**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-showmenu)                                                     |
-| Reprendre                                                                                    | Revenir à partir d’un menu et reprendre la lecture.                                      | [**Sort**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-resume)                                                         |
+| Reprendre                                                                                    | Revenir à partir d’un menu et reprendre la lecture.                                      | [**Reprendre**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-resume)                                                         |
 | Bouton supérieur, sélectionner, bouton \_ \_ inférieur, sélectionner, \_ \_ \_ bouton gauche, sélectionner le bouton \_ droit \_ \_ | Sélectionnez un bouton dont la position est relative au bouton actuellement sélectionné. | [**SelectButton**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-selectbutton)                                             |
 | Bouton \_ activer                                                                          | Activez le bouton sélectionné.                                                | [**ActivateButton**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-activatebutton)                                         |
 | \_Sélectionner \_ et \_ activer le bouton                                                             | Sélectionnez et activez un bouton.                                                | [**SelectAndActivateButton**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-selectandactivatebutton)                       |

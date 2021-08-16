@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 638316a72438ad3f4459cfe392c6090385606c8b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8b0bfbdcc196015be1eb47931b959aefe41d9b83d28ae71cdf0756658c64bc00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837741"
 ---
 # <a name="ms-wmi-intflags1-attribute"></a>attribut ms-WMI-intFlags1
 
@@ -36,7 +36,7 @@ L’attribut **MS-WMI-intFlags1** est réservé à un usage interne.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1678              |
 | System-ID-GUID    | 18e006b9-6445-48e3-9dcf-b5ecfbc4df8e |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -44,7 +44,7 @@ L’attribut **MS-WMI-intFlags1** est réservé à un usage interne.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

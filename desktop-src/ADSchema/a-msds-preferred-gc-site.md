@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 172e12758ba0b365fa195cb4e1384c161cea3d14
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e9ed4dc19bd3e75caad7f2fb0edd90584ec9e157942de441a873a170eee41766
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104200609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838139"
 ---
 # <a name="ms-ds-preferred-gc-site-attribute"></a>ms-DS-Preferred-attribut-GC-site
 
@@ -45,7 +45,7 @@ L’attribut **ms-DS-Preferred-gc-site** est utilisé par le gestionnaire de com
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -66,7 +66,7 @@ L’attribut **ms-DS-Preferred-gc-site** est utilisé par le gestionnaire de com
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ L’attribut **ms-DS-Preferred-gc-site** est utilisé par le gestionnaire de com
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ L’attribut **ms-DS-Preferred-gc-site** est utilisé par le gestionnaire de com
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ L’attribut **ms-DS-Preferred-gc-site** est utilisé par le gestionnaire de com
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ L’attribut **ms-DS-Preferred-gc-site** est utilisé par le gestionnaire de com
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ L’attribut **ms-DS-Preferred-gc-site** est utilisé par le gestionnaire de com
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 

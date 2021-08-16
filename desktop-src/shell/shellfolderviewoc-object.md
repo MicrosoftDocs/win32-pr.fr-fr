@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: b50f549c-a79d-4411-a18e-a181b4b924e3
-ms.openlocfilehash: 2670578417dc616d30f319887f5281fa5d0615f5
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: bc00dc285c1bcca72e998ecb22f75af56dd085542d0f191c484c096e5e511cce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857671"
 ---
 # <a name="shellfolderviewoc-object"></a>Objet ShellFolderViewOC
 
@@ -60,20 +60,20 @@ L’objet **ShellFolderViewOC** a ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’objet [**ShellFolderView**](shellfolderview.md) déclenche deux événements, [**EnumDone**](shellfolderviewoc-enumdone.md) et [**SelectionChanged**](shellfolderviewoc-selectionchanged.md), qui sont généralement gérés par des applications. Toutefois, certaines applications doivent gérer les événements d’une série d’objets **ShellFolderView** . Par exemple, une application peut héberger un contrôle WebBrowser qui permet aux utilisateurs de naviguer dans une série de dossiers. Chaque dossier a son propre objet **ShellFolderView** avec ses événements associés. La gestion de ces événements peut être difficile.
 
 L’objet **ShellFolderViewOC** simplifie la gestion des événements pour de tels scénarios. Elle permet aux applications de gérer des événements pour tous les objets [**ShellFolderView**](shellfolderview.md) avec une seule paire de gestionnaires d’événements **ShellFolderViewOC** . Chaque fois que l’utilisateur accède à un nouveau dossier, l’application transmet l’objet **ShellFolderView** associé à l’objet **ShellFolderViewOC** en appelant [**SetFolderView**](shellfolderviewoc-setfolderview.md). Ensuite, lorsqu’un événement [**EnumDone**](shellfolderviewoc-enumdone.md) ou [**SelectionChanged**](shellfolderviewoc-selectionchanged.md) est déclenché, l’objet **ShellFolderViewOC** transfère l’événement à son propre gestionnaire de traitement.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 5,0 ou ultérieure)</dt> </dl> |

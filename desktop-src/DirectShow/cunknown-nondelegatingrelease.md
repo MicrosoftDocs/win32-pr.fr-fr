@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ec709d4b636eea6a145f9a24a868ad5c495e4477
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1ac5145e1776602c5bb358805c45ec271766fe918b7924d948e286ae32b31794
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821953"
 ---
 # <a name="cunknownnondelegatingrelease-method"></a>Méthode CUnknown. NonDelegatingRelease
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne le nombre de références.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le nombre de références atteint zéro, l’objet se supprime lui-même.
 
@@ -54,7 +54,7 @@ Lorsque le nombre de références atteint zéro, l’objet se supprime lui-même
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>ComBase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>combase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

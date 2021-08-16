@@ -1,21 +1,21 @@
 ---
-description: Exemples DirectShow
+description: DirectShow Extraits
 ms.assetid: 4166d5ca-5e02-49f6-bcb1-d448f8175a0c
-title: Exemples DirectShow
+title: DirectShow Extraits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09f58c10615aaaa4305a30934e32ef9b11efb18c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eb99271821fcef80b66b379b29bd42de0505011fd47c8dfee208e6f00b007208
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821164"
 ---
-# <a name="directshow-samples"></a>Exemples DirectShow
+# <a name="directshow-samples"></a>DirectShow Extraits
 
-Les exemples DirectShow sont fournis avec le [SDK Windows](https://msdn.microsoft.com/windows/aa904949.aspx). Ils se trouvent sous le chemin path \[ SDK root \] \\ Samples \\ \\ DirectShow.
+les exemples de DirectShow sont fournis avec le [SDK Windows](https://msdn.microsoft.com/windows/aa904949.aspx). Ils se trouvent sous le chemin path \[ SDK root \] \\ Samples \\ \\ DirectShow.
 
-Le tableau suivant répertorie tous les exemples DirectShow fournis dans le SDK Windows. Pour obtenir des instructions sur la façon de générer les exemples, reportez-vous à la documentation fournie dans le SDK Windows.
+le tableau suivant répertorie tous les exemples de DirectShow fournis dans le SDK Windows. pour obtenir des instructions sur la façon de générer les exemples, reportez-vous à la documentation fournie dans le SDK Windows.
 
 S’il existe une documentation supplémentaire pour un exemple, la première colonne de cette table est liée à celui-ci.
 
@@ -38,9 +38,9 @@ S’il existe une documentation supplémentaire pour un exemple, la première co
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="directshow-base-classes.md">Classes de base DirectShow</a></td>
+<td><a href="directshow-base-classes.md">DirectShow Classes de base</a></td>
 <td>Bibliothèque de classes de base</td>
-<td>Classes C++ et fonctions utilitaires conçues pour l’implémentation de filtres DirectShow.</td>
+<td>classes C++ et fonctions utilitaires conçues pour implémenter des filtres de DirectShow.</td>
 
 </tr>
 <tr class="even">
@@ -62,9 +62,9 @@ S’il existe une documentation supplémentaire pour un exemple, la première co
 
 </tr>
 <tr class="odd">
-<td><a href="dmo-demo-sample.md">Exemple de démonstration DMO</a></td>
+<td><a href="dmo-demo-sample.md">DMO Exemple de démonstration</a></td>
 <td>DMO</td>
-<td>Diffuse en continu des données audio à partir d’un fichier WAV à l’aide d’un effet audio DMO.</td>
+<td>Flux des données audio à partir d’un fichier WAV à l’aide d’un effet audio DMO.</td>
 <td>Kit de développement logiciel (SDK) DirectX</td>
 </tr>
 <tr class="even">
@@ -178,7 +178,7 @@ S’il existe une documentation supplémentaire pour un exemple, la première co
 <tr class="even">
 <td>Exemple DDrawXCL</td>
 <td>Lecture</td>
-<td>Lit la vidéo en mode plein écran en mode plein écran DirectDraw, à l’aide de l’interface <a href="/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo"><strong>IDDrawExclModeVideo</strong></a> sur le filtre de <a href="overlay-mixer-filter.md">mixage de superposition</a> .</td>
+<td>lit la vidéo en mode plein écran en mode plein écran DirectDraw, à l’aide de l’interface <a href="/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo"><strong>IDDrawExclModeVideo</strong></a> sur le filtre de <a href="overlay-mixer-filter.md">Mixer de superposition</a> .</td>
 
 </tr>
 <tr class="odd">
@@ -190,12 +190,12 @@ S’il existe une documentation supplémentaire pour un exemple, la première co
 <tr class="even">
 <td>Exemple EVRPlayer</td>
 <td>Lecture</td>
-<td>Montre comment utiliser le filtre DirectShow EVR.
+<td>montre comment utiliser le filtre DirectShow EVR.
 <blockquote>
 [!Note]<br />
-Nécessite Windows Vista ou une version ultérieure.
+requiert Windows Vista ou version ultérieure.
 </blockquote>
-<br/> <br/> Cet exemple est disponible dans le SDK Windows pour Windows Server 2008 ou version ultérieure.<br/></td>
+<br/> <br/> cet exemple est disponible dans le SDK Windows pour Windows Server 2008 ou version ultérieure.<br/></td>
 <td>strmbase. lib</td>
 </tr>
 <tr class="odd">
@@ -249,11 +249,11 @@ Nécessite Windows Vista ou une version ultérieure.
 
 ## <a name="additional-dependencies"></a>Dépendances supplémentaires
 
-Certains des exemples sont liés à la bibliothèque de classes de base DirectShow. Pour générer ces exemples, vous devez d’abord créer la bibliothèque de classes de base. Pour plus d’informations, consultez [classes de base DirectShow](directshow-base-classes.md). La bibliothèque de classes de base est requise pour tous les exemples de filtres.
+certains des exemples sont liés à la bibliothèque de classes de base DirectShow. Pour générer ces exemples, vous devez d’abord créer la bibliothèque de classes de base. pour plus d’informations, consultez [DirectShow les Classes de Base](directshow-base-classes.md). La bibliothèque de classes de base est requise pour tous les exemples de filtres.
 
-Certains des exemples requièrent également le kit de développement logiciel (SDK) DirectX, en plus des SDK Windows. Pour générer ces exemples, vous devez installer le kit de développement logiciel (SDK) DirectX et définir la \_ variable d’environnement% DXSDK dir% comme étant égale à votre chemin d’installation du SDK DirectX.
+certains des exemples requièrent également le kit de développement logiciel (SDK) DirectX, en plus des SDK Windows. Pour générer ces exemples, vous devez installer le kit de développement logiciel (SDK) DirectX et définir la \_ variable d’environnement% DXSDK dir% comme étant égale à votre chemin d’installation du SDK DirectX.
 
-La plupart des exemples DirectShow utilisent un ensemble d’en-têtes et de fichiers sources communs situés dans les exemples de fichiers source \[ DirectShow du kit de développement logiciel (SDK) directrory \] \\ \\ \\ \\ Common. Si vous copiez un dossier d’exemple dans un autre répertoire, veillez à copier également le dossier commun.
+la plupart des exemples de DirectShow utilisent un ensemble d’en-têtes et de fichiers sources communs situés dans le \[ kit de développement logiciel (SDK) d' \] \\ exemples directrory \\ \\ DirectShow \\ commun. Si vous copiez un dossier d’exemple dans un autre répertoire, veillez à copier également le dossier commun.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

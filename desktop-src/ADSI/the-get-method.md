@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI, utilisation de, à l’aide de la méthode d’extraction IADs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11590fda2cfd207315453323fa3d0999f298103d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 386c3fe6e50a9f7357ec161b1e6bd8731cf8d0a74eed4b4a765adc3315c1045d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838629"
 ---
 # <a name="the-get-method"></a>Méthode d’extraction
 
@@ -71,9 +71,9 @@ Cleanup:
 
 Si aucune valeur n’est définie pour l’objet, la méthode [**IADs :: obtenir**](/windows/desktop/api/Iads/nf-iads-iads-get) retourne l’erreur « la propriété est introuvable dans le cache ».
 
- 
+ 
 
- 
+ 
 
 
 

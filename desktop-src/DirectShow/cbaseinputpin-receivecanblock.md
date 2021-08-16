@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 93c80d6c8f834b45381b89e80d2e0acc392bf25a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4ece7243c145d34ed06e29b2a29ae9847e682981337b96a47976c20eb76272d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823851"
 ---
 # <a name="cbaseinputpinreceivecanblock-method"></a>Méthode CBaseInputPin. ReceiveCanBlock
 
@@ -55,7 +55,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Retourne la \_ valeur false si les appels à la méthode **Receive** ne sont pas bloqués. Sinon, retourne S \_ OK ou un code d’erreur. Si la méthode de **réception** appelle **Receive** sur un code confidentiel en aval, le code pin en aval peut se bloquer. `ReceiveCanBlock` ce facteur doit être pris en compte.
 
@@ -73,7 +73,7 @@ Dans la classe de base, cette méthode retourne S \_ OK lorsque l’une des cond
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

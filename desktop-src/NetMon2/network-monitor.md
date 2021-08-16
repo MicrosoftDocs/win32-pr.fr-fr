@@ -4,12 +4,12 @@ ms.assetid: a70b6e22-e744-4760-b878-9ee35428fed5
 title: Moniteur réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e51a57dd2373d7a10fedd68a72dbc4021efdb921
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcc3b49dac14292da1bfd6d1e5e8514786dcbd08c2c274d311b924eb68517aa5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118364588"
 ---
 # <a name="network-monitor"></a>Moniteur réseau
 
@@ -23,9 +23,9 @@ Tous les jeux d’API fournis par Moniteur réseau sont accessibles à l’aide 
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-Pour appeler à partir de l’API Moniteur réseau, vous devez exécuter Windows NT Server 4,0, Windows 2000 Server ou Windows Server 2003, ou disposer de Microsoft Systems Management Server installé.
+pour appeler à partir de l’API Moniteur réseau, vous devez exécuter sur Windows NT server 4,0, Windows server 2000 ou Windows server 2003, ou disposer de Microsoft Systems Management server installé.
 
-Le pilote NPP et les fonctionnalités prises en charge incluent toutes les versions de Windows NT 4,0 et Windows 2000 Server.
+le pilote NPP et les fonctionnalités prises en charge incluent toutes les versions de Windows NT 4,0 et Windows serveur 2000.
 
 > [!Note]  
 > Moniteur réseau 2,1 et versions antérieures ne sont pas pris en charge sur Windows Vista et versions ultérieures.

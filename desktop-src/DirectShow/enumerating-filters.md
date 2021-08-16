@@ -4,16 +4,16 @@ ms.assetid: 57bcaa4d-37bf-457d-937e-f9d24fb5784f
 title: Énumération des filtres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2de0f979973d339b790b04a8a5d4d98fc52c95c6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4d584ddf74a13b06e99d9a7e0a34ac802c6da881d87cb163411100ea7772e1df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117819662"
 ---
 # <a name="enumerating-filters"></a>Énumération des filtres
 
-Le gestionnaire de graphes de filtre prend en charge la méthode [**IFilterGraph :: EnumFilters**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-enumfilters) , qui énumère tous les filtres dans le graphique de filtre. Elle retourne un pointeur vers l’interface [**IEnumFilters**](/windows/desktop/api/Strmif/nn-strmif-ienumfilters) . La méthode [**IEnumFilters :: Next**](/windows/desktop/api/Strmif/nf-strmif-ienumfilters-next) récupère les pointeurs d’interface [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) .
+le gestionnaire de Graph de filtre prend en charge la méthode [**IFilterGraph :: EnumFilters**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-enumfilters) , qui énumère tous les filtres dans le graphique de filtre. Elle retourne un pointeur vers l’interface [**IEnumFilters**](/windows/desktop/api/Strmif/nn-strmif-ienumfilters) . La méthode [**IEnumFilters :: Next**](/windows/desktop/api/Strmif/nf-strmif-ienumfilters-next) récupère les pointeurs d’interface [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) .
 
 L’exemple suivant montre une fonction qui énumère les filtres dans un graphique et affiche une boîte de message avec le nom de chaque filtre. Elle utilise la méthode [**IBaseFilter :: QueryFilterInfo**](/windows/desktop/api/Strmif/nf-strmif-ibasefilter-queryfilterinfo) pour récupérer le nom du filtre. Notez les emplacements où la fonction appelle **Release** sur une interface pour décrémenter le décompte de références.
 
@@ -69,7 +69,7 @@ HRESULT EnumFilters (IFilterGraph *pGraph)
 
 <dl> <dt>
 
-[Énumération d’objets dans un graphique de filtre](enumerating-objects-in-a-filter-graph.md)
+[Énumération d’objets dans un filtre Graph](enumerating-objects-in-a-filter-graph.md)
 </dt> </dl>
 
  
