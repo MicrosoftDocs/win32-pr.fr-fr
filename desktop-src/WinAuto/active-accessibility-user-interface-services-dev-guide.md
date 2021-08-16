@@ -4,12 +4,12 @@ description: 'Cette section traite des rubriques suivantes :'
 ms.assetid: 91738bc9-0e33-4959-8f8a-ac4645e8511a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c463e65231094d10606743eea13b19be216a7bb7
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: b97f214b70321ace5ccdbd78e724c37cb1717664a8d7fa621a59f2d847240862
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "106512296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327039"
 ---
 # <a name="active-accessibility-user-interface-services-developers-guide"></a>Active Accessibility Guide du développeur des services d’interface utilisateur
 
@@ -20,9 +20,9 @@ Cette section aborde les sujets suivants :
 -   [Guide du développeur pour les clients Active Accessibility](developer-s-guide-for-active-accessibility-clients.md)
 -   [Guide du développeur pour les serveurs Active Accessibility](developer-s-guide-for-active-accessibility-servers.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 3815d487-2d58-4ba8-85d2-cae6a642a791
 title: Vue fusionnée de HKEY_CLASSES_ROOT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8597db976922db9ca348488b0092c41ba7c7489
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a52b48be32ec524cdac42808d7f4efddfc78854b56133e647d6f5a9b06ae88bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885417"
 ---
 # <a name="merged-view-of-hkey_classes_root"></a>Vue fusionnée de la \_ racine de la classe HKEY \_
 
@@ -35,7 +35,8 @@ L’exemple suivant montre un ensemble de sous-clés sous les clés **HKEY \_ lo
 
 Les sous-clés suivantes se trouvent à la fois dans les classes de logiciels de l' **\_ \_ ordinateur \\ \\ local HKEY** et les **classes de logiciels de HKEY \_ Current \_ User \\ \\**. À partir de l’arborescence de l' **\_ \_ ordinateur local HKEY** , les sous-clés immédiates de ces clés sont incluses dans l’affichage fusionné uniquement si elles ne sont pas des doublons de sous-clés immédiates de l’arborescence de l' **\_ \_ utilisateur HKEY actuelle** . La vue fusionnée n’inclut pas le contenu de la **\_ \_ machine locale HKEY** des sous-clés dupliquées.
 
-**\**_ _*\*\\ shellex**  
+**\***  
+**\*\\shellex**  
 **\*\\shellex \\ ContextMenuHandlers**  
 **\*\\shellex \\ PropertySheetHandlers**  
 **AppID**  

@@ -4,12 +4,12 @@ description: Le tableau suivant récapitule les principales règles relatives à
 ms.assetid: 0c1f8398-75e6-45ec-a9f9-9dcdbe21c24d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f9403bb5057b2004d966c0634bc101a3282fe92
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ec50632693ad0df7ff44aa1d2a9a2760b07a2ed1b72a13ac5dc33294569c3484
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924700"
 ---
 # <a name="summary-of-memory-allocation-rules"></a>Résumé des règles d’allocation de mémoire
 
@@ -30,7 +30,7 @@ Le tableau suivant récapitule les principales règles relatives à l’allocati
 
 
 
- 
+ 
 
 Le tableau suivant récapitule les effets des attributs IDL de clé et ACF sur la gestion de la mémoire.
 
@@ -51,8 +51,8 @@ Le tableau suivant récapitule les effets des attributs IDL de clé et ACF sur l
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

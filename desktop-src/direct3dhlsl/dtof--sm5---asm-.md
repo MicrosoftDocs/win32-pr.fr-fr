@@ -4,12 +4,12 @@ description: Conversion au niveau du composant des données à virgule flottante
 ms.assetid: 1D2EF05C-06EF-44F0-AA0F-22D3057FF43E
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a66e72cf4c2cb1ac49adc492a586b4cbb9eef3b4
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3d16ddf79b1a201bf78e0b45d1206169576bee4193b8c8158469055131768efc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118792326"
 ---
 # <a name="dtof-sm5---asm"></a>dtof (SM5-ASM)
 
@@ -35,7 +35,7 @@ Conversion au niveau du composant des données à virgule flottante double préc
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque composant de la source est converti à partir de la représentation à double précision en une représentation à simple précision à l’aide de l’arrondi à la valeur la plus proche.
 
@@ -53,7 +53,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -67,9 +67,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

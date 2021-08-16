@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 866d1d82d939f143c4385caa5d94c68ffe3758f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 962d4bc3e8cffb778df56d78a9ddaf0641f57f8f96c8f7b024745a4b879f2f81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909931"
 ---
 # <a name="winbio_policy_source-enumeration"></a>Énumération de la source de la \_ stratégie WINBIO \_
 
@@ -54,14 +54,14 @@ La source de la stratégie est inconnue.
 <span id="WINBIO_POLICY_DEFAULT"></span><span id="winbio_policy_default"></span>**\_ \_ valeur par défaut de la stratégie WINBIO**
 </dt> <dd>
 
-La stratégie est la stratégie par défaut fournie par le Windows Biometric Framework.
+la stratégie est la stratégie par défaut fournie par le Windows Biometric Framework.
 
 </dd> <dt>
 
 <span id="WINBIO_POLICY_LOCAL"></span><span id="winbio_policy_local"></span>**\_stratégie WINBIO \_ locale**
 </dt> <dd>
 
-Stratégie définie par l’utilisateur pour son compte à l’aide de l’application **paramètres** . Cette stratégie remplace la stratégie par défaut.
+stratégie définie par l’utilisateur pour son compte à l’aide de l’application **Paramètres** . Cette stratégie remplace la stratégie par défaut.
 
 </dd> <dt>
 
@@ -78,8 +78,8 @@ Stratégie de groupe définie par l’administrateur informatique pour l’entre
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                                                                                                     |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                                                                                                     |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (inclure WinBio. h pour les applications clientes ou les \_ cartes WinBio. h pour les adaptateurs)</dt> </dl> |
 
 

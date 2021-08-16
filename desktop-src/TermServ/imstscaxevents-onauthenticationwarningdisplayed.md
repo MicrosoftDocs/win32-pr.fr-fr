@@ -1,6 +1,6 @@
 ---
 title: Méthode IMsTscAxEvents OnAuthenticationWarningDisplayed
-description: Appelé avant qu’un contrôle ActiveX affiche une boîte de dialogue d’authentification (par exemple, la boîte de dialogue erreur de certificat).
+description: appelé avant qu’un contrôle ActiveX affiche une boîte de dialogue d’authentification (par exemple, la boîte de dialogue erreur de certificat).
 ms.assetid: ce307e5f-5e26-4041-bbd5-6871c0678da4
 ms.tgt_platform: multiple
 keywords:
@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33307adf103536cce5841effe2843a7c48fda357
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df2de56a612c748db720e485d9f1e6e5750c9fc3281500dfddd751f41aed1641
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118854007"
 ---
 # <a name="imstscaxeventsonauthenticationwarningdisplayed-method"></a>IMsTscAxEvents :: OnAuthenticationWarningDisplayed, méthode
 
-Appelé avant qu’un contrôle ActiveX affiche une boîte de dialogue d’authentification (par exemple, la boîte de dialogue erreur de certificat).
+appelé avant qu’un contrôle ActiveX affiche une boîte de dialogue d’authentification (par exemple, la boîte de dialogue erreur de certificat).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -45,9 +45,9 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si nécessaire, la propriété [**UIParentWindowHandle**](imsrdpclientnonscriptable2-uiparentwindowhandle.md) de l’interface [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md) peut être utilisée pour s’assurer que la boîte de dialogue d’authentification modale à afficher est apparentée par une fenêtre spécifiée (cela peut être nécessaire pour empêcher les utilisateurs d’utiliser d’autres boîtes de dialogue pendant que la boîte de dialogue d’authentification est affichée). Par défaut, le parent est la fenêtre contrôle ActiveX.
+Si nécessaire, la propriété [**UIParentWindowHandle**](imsrdpclientnonscriptable2-uiparentwindowhandle.md) de l’interface [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md) peut être utilisée pour s’assurer que la boîte de dialogue d’authentification modale à afficher est apparentée par une fenêtre spécifiée (cela peut être nécessaire pour empêcher les utilisateurs d’utiliser d’autres boîtes de dialogue pendant que la boîte de dialogue d’authentification est affichée). par défaut, le parent est la fenêtre de contrôle ActiveX.
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
@@ -58,7 +58,7 @@ Pour plus d’informations sur la Connexion Bureau à distance par le Web, consu
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Windows Server 2008, Windows Server 2008 avec SP1<br/>                           |
+| Serveur minimal pris en charge<br/> | Windows serveur 2008, Windows server 2008 avec SP1<br/>                           |
 | Bibliothèque de types<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IMsTscAxEvents est défini en tant que 336d5562-efa8-482e-8cb3-c5c0fc7a7db6<br/>           |

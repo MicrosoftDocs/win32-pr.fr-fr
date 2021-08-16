@@ -4,12 +4,12 @@ ms.assetid: a6fed62f-af59-488c-a690-be8c3413086f
 title: ENTIER (API d’inscription de certificats)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f0e8ed162d4cf4b2ac4909baf1cd7b5e94ddea6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85151947653a66c98b7a030ade7b9ff7b4f5ee87fd84edc4cc52679be296a1a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118904340"
 ---
 # <a name="integer-certificate-enrollment-api"></a>ENTIER (API d’inscription de certificats)
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1629f93d077cabcfaf7f812a72ca7fb0c417320
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 23698d19877570dacbbc632c471114f91be47b54dde2b4e785be42b2c76b72ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118425751"
 ---
 # <a name="ms-ds-quota-amount-attribute"></a>attribut ms-DS-quota-amount
 
@@ -36,7 +36,7 @@ Quota attribué en termes de nombre d’objets appartenant à la base de donnée
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1845              |
 | System-ID-GUID    | fbb9a00d-3a8c-4233-9cf9-7189264903a1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Quota attribué en termes de nombre d’objets appartenant à la base de donnée
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

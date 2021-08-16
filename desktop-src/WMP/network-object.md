@@ -3,7 +3,7 @@ title: Objet réseau
 description: L’objet réseau fournit des propriétés et des méthodes permettant d’accéder aux statistiques relatives à la qualité d’une connexion réseau, ainsi que de spécifier et de récupérer les paramètres du proxy réseau.
 ms.assetid: 5ae6137e-22f5-4a65-8793-b6f66adb4cba
 keywords:
-- Objet réseau lecteur Windows Media
+- Lecteur Windows Media d’objets réseau
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d439679636bce773c43f5610060c4744ef4d5d7c
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.openlocfilehash: 6bf91c23d6a5c581430b17a370e66027a5f9174d0511a2647fba33834ec6c4b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104381007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996109"
 ---
 # <a name="network-object"></a>Objet réseau
 
@@ -49,7 +49,7 @@ L’objet **réseau** prend en charge les propriétés suivantes.
 
 
 
- 
+ 
 
 L’objet **réseau** prend en charge les méthodes suivantes.
 
@@ -70,7 +70,7 @@ L’objet **réseau** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’accès à l’objet **réseau** s’effectue par le biais de la propriété suivante.
 
@@ -82,7 +82,7 @@ L’accès à l’objet **réseau** s’effectue par le biais de la propriété 
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -91,9 +91,9 @@ L’accès à l’objet **réseau** s’effectue par le biais de la propriété 
 [**Référence du modèle objet pour l’écriture de scripts**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

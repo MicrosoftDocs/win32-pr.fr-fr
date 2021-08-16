@@ -4,12 +4,12 @@ ms.assetid: 31b2f9d2-98d5-4cf3-af02-f12de2740bb8
 title: Action ValidateProductID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4d0f9f58641e8e24d73a1acae0b79cc0b875aba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be241bddbafb8f963aea1e73a2750c9d45766eb06767b0b30142883fa1bcebac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942229"
 ---
 # <a name="validateproductid-action"></a>Action ValidateProductID
 
@@ -23,7 +23,7 @@ Cette action doit être séquencée avant l’Assistant interface utilisateur da
 
 Il n’y a aucun message ActionData.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le programme d’installation vérifie si un produit a été validé avec succès en vérifiant la propriété [**ProductID**](productid.md) . Le programme d’installation définit la propriété **ProductID** sur l’identificateur de produit complet après une validation réussie. L’Action ValidateProductID ne fait rien si la propriété **ProductID** a déjà été définie par une validation réussie ou par une autre méthode.
 

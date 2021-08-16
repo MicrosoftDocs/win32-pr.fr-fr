@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c2f3abbfbd989351af647557ec64f8ee3172dc5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4f188a65a0a2bff0438188ae7521615de45341147b138a849d2fd375ed8a959b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118938408"
 ---
 # <a name="glnormalpointer-function"></a>glNormalPointer fonction)
 
@@ -80,7 +80,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glNormalPointer** spécifie l’emplacement et les données d’un tableau de normales à utiliser lors du rendu. Le paramètre de *type* spécifie le type de données de chaque coordonnée normale. Le paramètre *Stride* détermine le décalage d’octets d’un perpendiculaire à l’autre, ce qui permet d’empaqueter des vertex et des attributs dans un tableau unique ou un stockage dans des tableaux séparés. Dans certaines implémentations, le stockage des vertex et des attributs dans un tableau unique peut être plus efficace que l’utilisation de tableaux séparés. Pour plus d’informations, consultez [**glInterleavedArrays**](glinterleavedarrays.md) .
 

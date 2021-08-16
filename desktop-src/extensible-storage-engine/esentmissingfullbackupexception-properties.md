@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102233
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 19077a9e169fc4e6d2dcf956c01917fec6050ea5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39c1d56e933992107980a4973c9a83d35c4ff489c35a7b4772d1e408856f14e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104568172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118776163"
 ---
 # <a name="esentmissingfullbackupexception-properties"></a>Propriétés EsentMissingFullBackupException
 
@@ -49,7 +49,7 @@ Le type [EsentMissingFullBackupException](./esentmissingfullbackupexception-clas
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

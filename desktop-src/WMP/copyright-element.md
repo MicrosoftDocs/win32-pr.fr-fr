@@ -3,7 +3,7 @@ title: Élément de COPYRIGHT (msfeeds. h)
 description: L’élément COPYRIGHT définit une chaîne de texte spécifiant les informations de copyright pour un élément ASX ou ENTRy.
 ms.assetid: 264b92de-b10c-41b9-b219-727879079f15
 keywords:
-- Élément de COPYRIGHT lecteur Windows Media
+- Lecteur Windows Media de l’élément de COPYRIGHT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83b757528cfb14a01854346854a342ee9faced65
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8e5a01e97364aa47182e38e3e3066895c771e2d5edb6c480e8108cb168e7f8cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997459"
 ---
 # <a name="copyright-element"></a>Élément de COPYRIGHT
 
@@ -42,13 +42,13 @@ Cet élément n’a pas d’attributs.
 | Hierarchy       | Éléments           |
 |-----------------|--------------------|
 | Éléments parents | **ASX**, **entrée** |
-| Éléments enfants  | Aucune               |
+| Éléments enfants  | None               |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet élément définit une chaîne de texte qui spécifie les informations de copyright pour un élément **ASX** ou d' **entrée** .
 
@@ -86,10 +86,10 @@ Si le métafichier est encodé à l’aide de UTF-8, les symboles de copyright e
 [**Ajout de caractères de copyright aux sous-fichiers**](adding-copyright-characters-to-metafiles.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Informations de référence sur les métafichiers Windows Media**](windows-media-metafile-reference.md)
+[**Windows Référence du métafichier multimédia**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

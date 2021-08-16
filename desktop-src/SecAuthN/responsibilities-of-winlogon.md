@@ -4,12 +4,12 @@ ms.assetid: 5aef4164-11bd-4acc-b851-de982e35d2b5
 title: Responsabilités de Winlogon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7842df1d4194dc7086f658a13f6725af8fa0d88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6561bea11c48eb474c0ff56c5c0aa5ebfa0c22d9d6689aa55a6a208bbbc683e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118919027"
 ---
 # <a name="responsibilities-of-winlogon"></a>Responsabilités de Winlogon
 
@@ -33,7 +33,7 @@ ms.locfileid: "103951888"
 
 -   Attribution de la sécurité à l’interpréteur de commandes utilisateur
 
-    Lorsqu’un utilisateur ouvre une session, GINA est responsable de la création d’un ou plusieurs processus initiaux pour cet utilisateur. Winlogon fournit une fonction de prise en charge pour que le GINA applique la sécurité de l’utilisateur qui vient d’être connecté à ces processus. Toutefois, la meilleure façon de procéder consiste à ce que le GINA appelle la fonction Windows [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasusera)et laisse le système fournir le service.
+    Lorsqu’un utilisateur ouvre une session, GINA est responsable de la création d’un ou plusieurs processus initiaux pour cet utilisateur. Winlogon fournit une fonction de prise en charge pour que le GINA applique la sécurité de l’utilisateur qui vient d’être connecté à ces processus. toutefois, la meilleure façon de procéder est de faire en sorte que GINA appelle la fonction Windows [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasusera)et laisse le système fournir le service.
 
 -   Contrôle de l’écran de veille
 
@@ -41,7 +41,7 @@ ms.locfileid: "103951888"
 
 -   Prise en charge de plusieurs fournisseurs de réseau
 
-    Plusieurs réseaux installés sur un système Windows peuvent être inclus dans le processus d’authentification et dans les opérations de mise à jour des mots de passe. Cette inclusion permet aux réseaux supplémentaires de collecter des informations d’identification et d’authentification en même temps pendant la connexion normale, à l’aide du Bureau sécurisé de Winlogon. Certains des paramètres requis dans les services Winlogon disponibles pour GINA prennent en charge explicitement ces fournisseurs de réseau supplémentaires.
+    plusieurs réseaux installés sur un système de Windows peuvent être inclus dans le processus d’authentification et dans les opérations de mise à jour des mots de passe. Cette inclusion permet aux réseaux supplémentaires de collecter des informations d’identification et d’authentification en même temps pendant la connexion normale, à l’aide du Bureau sécurisé de Winlogon. Certains des paramètres requis dans les services Winlogon disponibles pour GINA prennent en charge explicitement ces fournisseurs de réseau supplémentaires.
 
  
 

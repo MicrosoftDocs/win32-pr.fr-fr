@@ -4,12 +4,12 @@ ms.assetid: e1bea06b-11b9-4652-915a-deb563ad59f8
 title: PageWatermarkOriginWidth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bffe6457496972231877af2a51e03bc5109083d0
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 57533d7d7322eedf586c86bfbfd28a82b9cc143aedd7c6318c6c1f6ecb36451f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731909"
 ---
 # <a name="pagewatermarkoriginwidth"></a>PageWatermarkOriginWidth
 
@@ -28,7 +28,7 @@ Spécifie l’origine d’un filigrane par rapport à l’origine du PageImageab
 |----------------------------|--------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                    |
 | Préfixe d’étendue <br/> | Page<br/>                            |
-| Notes <br/>          | Lié à l’élément PageWatermark<br/> |
+| Remarques <br/>          | Lié à l’élément PageWatermark<br/> |
 
 
 
@@ -71,13 +71,13 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                                                                  |
+| Property                | xsi:type           | Valeur                                                                  |
 |-------------------------|--------------------|------------------------------------------------------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>                                                  |
 | DefaultValue<br/> | entier<br/> | non défini<br/>                                                   |
 | MaxValue<br/>     | entier<br/> | Valeur inférieure ou égale à PageImageableSize-ExtentWidth<br/> |
 | MinValue<br/>     | entier<br/> | 0<br/>                                                           |
-| Multiple<br/>     | integer<br/> | 1<br/>                                                           |
+| Plusieurs<br/>     | integer<br/> | 1<br/>                                                           |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/>                                             |
 | Unité<br/>     | string<br/>  | microns<br/>                                                     |
 

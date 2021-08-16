@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b48c25ef6c0e25c35ba07914c00fb063b4e8dc79
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 803e2e66306bce0d6fd308501edece61668d5f2e0d8041273d508b662f6cd66f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118736195"
 ---
 # <a name="activebasicdevicemaxvolume-property"></a>ActiveBasicDevice :: MaxVolume, propriété
 
@@ -52,7 +52,7 @@ Pointeur vers une valeur **UInt32** qui spécifie le volume maximal pris en char
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>PlayToDevice. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>PlayToDevice. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Playtodevice.dll</dt> </dl> |

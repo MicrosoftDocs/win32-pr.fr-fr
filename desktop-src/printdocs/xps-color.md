@@ -4,12 +4,12 @@ ms.assetid: 710f3ef1-bbc3-416d-9faf-aa4a716007c2
 title: XPS_COLOR (Xpsobjectmodel. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34c148c2a5452154bfe33b0c74d695fe78f0cdad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f771bcbb516352b2ef689060c11003808d434be8059d16af78fe8db646c97000
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971148"
 ---
 # <a name="xps_color"></a>\_couleur XPS
 
@@ -34,7 +34,7 @@ typedef union switch (XPS_COLOR_TYPE colorType) value
 } XPS_COLOR;
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le format de la structure dépend de la valeur de *colorType*.
 
@@ -51,8 +51,8 @@ Le format de la structure dépend de la valeur de *colorType*.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 7, Windows Vista avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Vista, applications \[ \| UWP\]<br/>                          |
-| Serveur minimal pris en charge<br/> | Windows Server 2008 R2, Windows Server 2008 avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Server 2008 pour applications \[ \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | Windows 7, Windows vista avec SP2 et la mise à jour de la plateforme pour les applications de bureau Windows vista \[ desktop apps \|\]<br/>                          |
+| Serveur minimal pris en charge<br/> | Windows server 2008 R2, Windows server 2008 avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Server 2008 \[ desktop apps \|\]<br/> |
 | En-tête<br/>                   | <dl> <dt>Xpsobjectmodel. h</dt> </dl>                                              |
 | MIDL<br/>                      | <dl> <dt>XpsObjectModel. idl</dt> </dl>                                            |
 

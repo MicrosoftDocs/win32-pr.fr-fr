@@ -7,12 +7,12 @@ keywords:
 - dessin OpenGL multithread OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bccb08d48bd8ccb62584f15911a1eb65080c4a6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 05d928a481e4334f97cad2f7009f008c899ad8378f3fd15cf9e117e6b9599393
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937254"
 ---
 # <a name="multithread-opengl-drawing-strategies"></a>Stratégies de dessin OpenGL multithread
 
@@ -22,9 +22,9 @@ Les systèmes de multitraitement symétrique (SMP) peuvent tirer parti de l’ut
 
 Un thread ne peut avoir qu’un seul contexte de rendu actif en cours. Lorsque vous utilisez plusieurs threads et plusieurs contextes de rendu, vous devez veiller à synchroniser leur utilisation. Par exemple, utilisez un seul thread pour appeler [**SwapBuffers**](/windows/desktop/api/wingdi/nf-wingdi-swapbuffers) une fois que tous les threads ont fini de dessiner.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96df5d50ab9fc89963f9d09f4c0cb92479b4ecac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9e88d493ea0e4e1a9312191533162c8eb5a94cfb4233d17d21bb7217a136d403
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882925"
 ---
 # <a name="systemmonitorbrowsecounters-method"></a>SystemMonitor :: BrowseCounters, méthode
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette boîte de dialogue permet à l’utilisateur de sélectionner des compteurs de performance locaux ou distants dans une liste d’objets de performance. Les compteurs sélectionnés sont ajoutés à la collection de [**compteurs**](counters.md) et s’affichent dans le graphique ou le rapport.
 

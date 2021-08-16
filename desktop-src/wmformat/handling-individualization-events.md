@@ -17,21 +17,21 @@ keywords:
 - événements, événements d’individualisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e74df94bf871ec62ec2acb94658785969812640
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 895710558c58fca108915ad1a73a0354c1fb39feb662fa3e2c698dadbe4cbe76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106512715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118433614"
 ---
 # <a name="handling-individualization-events"></a>Gestion des événements d’individualisation
 
-Lorsqu’une application DRM tente d’ouvrir un fichier protégé, le composant DRM examine l’attribut [**\_ \_ IndividualizedVersion DRM DRMHeader**](drm-drmheader-individualizedversion.md) dans le fichier, qui spécifie le niveau de version minimal requis pour accéder au contenu. Tous les niveaux du composant DRM fonctionnent avec toutes les versions 7,0 et ultérieures du lecteur Windows Media et du kit de développement logiciel (SDK) du format Windows Media. Si le niveau de version individualisé du composant DRM est inférieur à la version requise, le composant DRM enverra un événement **d' \_ \_ individualisation** à la méthode [**IWMStatusCallback :: OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) de l’application. L’application doit ensuite afficher un message ou une boîte de dialogue invitant les utilisateurs à démarrer ou à annuler la mise à niveau de sécurité. Cette invite est nécessaire car, pour des raisons de confidentialité, les utilisateurs doivent donner leur autorisation avant l’installation d’une mise à niveau de sécurité sur leur ordinateur.
+Lorsqu’une application DRM tente d’ouvrir un fichier protégé, le composant DRM examine l’attribut [**\_ \_ IndividualizedVersion DRM DRMHeader**](drm-drmheader-individualizedversion.md) dans le fichier, qui spécifie le niveau de version minimal requis pour accéder au contenu. tous les niveaux du composant DRM fonctionnent avec toutes les versions 7,0 et ultérieures de Lecteur Windows Media et le kit de développement logiciel (SDK) Windows Media Format. Si le niveau de version individualisé du composant DRM est inférieur à la version requise, le composant DRM enverra un événement **d' \_ \_ individualisation** à la méthode [**IWMStatusCallback :: OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) de l’application. L’application doit ensuite afficher un message ou une boîte de dialogue invitant les utilisateurs à démarrer ou à annuler la mise à niveau de sécurité. Cette invite est nécessaire car, pour des raisons de confidentialité, les utilisateurs doivent donner leur autorisation avant l’installation d’une mise à niveau de sécurité sur leur ordinateur.
 
 > [!Note]  
 > L’en-tête du contenu spécifie uniquement les deux premiers chiffres pour DRM \_ DRMVersion \_ IndividualizedVersion. En d’autres termes, pour exiger un composant DRM de niveau 2.2.0.1, l’en-tête contient « 2,2 ».
 
- 
+ 
 
 Pour démarrer la mise à niveau de sécurité et/ou déclencher l’individualisation, appelez la méthode [**IWMDRMReader :: Individual**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-individualize) avec le paramètre *dwFlags* défini sur 1.
 
@@ -42,7 +42,7 @@ Une fois le composant DRM correctement individualisé, l’application reçoit u
 > [!Note]  
 > DRM n’est pas pris en charge par la version x64 de ce kit de développement logiciel (SDK).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -57,9 +57,9 @@ Une fois le composant DRM correctement individualisé, l’application reçoit u
 [**Interface IWMDRMReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

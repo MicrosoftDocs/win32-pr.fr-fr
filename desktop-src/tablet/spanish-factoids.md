@@ -4,12 +4,12 @@ ms.assetid: ab607429-d845-4ca6-9aa2-b68c66c58738
 title: Espagnol Factoids
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b7c1cbd11dd76d12bd1aea860089c2a41ab9e08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c09490ddb9b3dee6ae55d50bc21968ab15be2e201842370b7d46f91a857f544
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118715509"
 ---
 # <a name="spanish-factoids"></a>Espagnol Factoids
 
@@ -44,7 +44,7 @@ Le tableau suivant répertorie les formats disponibles pour chaque Factoid utili
 <tr class="odd">
 <td><strong>Nombre</strong></td>
 <td>Tous les nombres, y compris les suffixes courants tels que mm et kg, et les symboles mathématiques. Les formats de DATE, d’heure, de téléphone et de devise Factoid sont également inclus dans ce Factoid.<br/></td>
-<td>820<br/> -6, 5<br/> -123.456<br/> 9, 02%<br/> 5,825 m<br/> 1340 mm<br/> 25 km<br/> 300 kg<br/> 5<br/> plus de 300 + 20 = 320<br/> 12/4 = 3<br/> 25%<br/> (1 + 3)/5<br/> 1 + 1 = 2<br/></td>
+<td>820<br/> -6, 5<br/> -123.456<br/> 9, 02%<br/> 5,825 m<br/> 1340 mm<br/> 25 km<br/> 300 kg<br/> 5<br/> plus de 300 + 20 = 320<br/> 12/4 = 3<br/> 25 %<br/> (1 + 3)/5<br/> 1 + 1 = 2<br/></td>
 </tr>
 <tr class="even">
 <td><strong>OneChar</strong></td>

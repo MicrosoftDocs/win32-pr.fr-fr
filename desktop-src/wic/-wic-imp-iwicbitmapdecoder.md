@@ -4,12 +4,12 @@ ms.assetid: 9e316bdd-803a-47af-b004-7675478eb829
 title: Implémentation de IWICBitmapDecoder
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b31bca377828606fe1beb68d6f1d95d290e01407
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0088b756a7a30134224e32fa67ee891f2c48339f9af70447cb760915ad420619
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118711146"
 ---
 # <a name="implementing-iwicbitmapdecoder"></a>Implémentation de IWICBitmapDecoder
 
@@ -46,9 +46,9 @@ Certains formats d’image ont des miniatures globales, des contextes de couleur
 
 ### <a name="querycapability"></a>QueryCapability
 
-[**QueryCapability**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-querycapability) est la méthode utilisée pour l’arbitrage du codec. (Pour plus d’informations, consultez [découverte et arbitrage](-wic-howwicworks.md) dans la rubrique fonctionnement [du composant de création d’images Windows](-wic-howwicworks.md) ). Si deux codecs sont capables de décoder le même format d’image, ou si une collision de modèle se produit dans laquelle deux codecs utilisent le même modèle d’identification, cette méthode vous permet de sélectionner le codec qui peut gérer au mieux une image spécifique.
+[**QueryCapability**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-querycapability) est la méthode utilisée pour l’arbitrage du codec. (pour plus d’informations, consultez [découverte et arbitrage](-wic-howwicworks.md) dans la rubrique fonctionnement [du composant de création d’images Windows](-wic-howwicworks.md) ). Si deux codecs sont capables de décoder le même format d’image, ou si une collision de modèle se produit dans laquelle deux codecs utilisent le même modèle d’identification, cette méthode vous permet de sélectionner le codec qui peut gérer au mieux une image spécifique.
 
-Lors de l’appel de cette méthode, le composant WIC (Windows Imaging Component) vous transmet le flux réel contenant l’image. Vous devez vérifier si vous pouvez décoder chaque frame dans l’image et énumérer les blocs de métadonnées, pour déclarer avec précision les fonctionnalités de ce décodeur par rapport au flux de fichier spécifique qui lui est passé. Cela est important pour tous les décodeurs, mais particulièrement important pour les formats d’image basés sur des conteneurs TIFF (Tagged Image File Format). Le processus de découverte fonctionne en faisant correspondre les modèles associés aux décodeurs dans le registre aux modèles dans le fichier image réel. La déclaration de votre modèle d’identification dans le registre garantit que votre décodeur sera toujours détecté pour les images dans votre format d’image. Toutefois, votre décodeur peut toujours être détecté pour les images dans d’autres formats. Par exemple, tous les conteneurs TIFF incluent le modèle TIFF, qui est un modèle d’identification valide pour le format d’image TIFF. Cela signifie que, pendant la découverte, au moins deux modèles d’identification se trouvent dans les fichiers image pour tout format d’image basé sur un conteneur de style TIFF. L’un est le modèle TIFF et l’autre est le modèle de format d’image réel. Bien qu’il soit moins probable, il peut y avoir des collisions de modèles entre d’autres formats d’image non liés. C’est pourquoi la découverte et l’arbitrage sont un processus en deux étapes. Vérifiez toujours que le flux d’image transmis à [**QueryCapability**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-querycapability) est en fait une instance valide de votre propre format d’image. En outre, si votre codec décode un format d’image pour lequel vous n’êtes pas propriétaire de la spécification, votre implémentation de **QueryCapability** doit vérifier la présence de toute fonctionnalité qui peut être valide sous la spécification de format d’image que votre CODEC n’implémente pas. Cela permet de s’assurer que les utilisateurs ne subissent pas de décodage inutile ou obtiennent des résultats inattendus avec votre codec.
+lors de l’appel de cette méthode, Windows composant de création d’images (WIC) vous transmet le flux réel contenant l’image. Vous devez vérifier si vous pouvez décoder chaque frame dans l’image et énumérer les blocs de métadonnées, pour déclarer avec précision les fonctionnalités de ce décodeur par rapport au flux de fichier spécifique qui lui est passé. Cela est important pour tous les décodeurs, mais particulièrement important pour les formats d’image basés sur des conteneurs TIFF (Tagged Image File Format). Le processus de découverte fonctionne en faisant correspondre les modèles associés aux décodeurs dans le registre aux modèles dans le fichier image réel. La déclaration de votre modèle d’identification dans le registre garantit que votre décodeur sera toujours détecté pour les images dans votre format d’image. Toutefois, votre décodeur peut toujours être détecté pour les images dans d’autres formats. Par exemple, tous les conteneurs TIFF incluent le modèle TIFF, qui est un modèle d’identification valide pour le format d’image TIFF. Cela signifie que, pendant la découverte, au moins deux modèles d’identification se trouvent dans les fichiers image pour tout format d’image basé sur un conteneur de style TIFF. L’un est le modèle TIFF et l’autre est le modèle de format d’image réel. Bien qu’il soit moins probable, il peut y avoir des collisions de modèles entre d’autres formats d’image non liés. C’est pourquoi la découverte et l’arbitrage sont un processus en deux étapes. Vérifiez toujours que le flux d’image transmis à [**QueryCapability**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-querycapability) est en fait une instance valide de votre propre format d’image. En outre, si votre codec décode un format d’image pour lequel vous n’êtes pas propriétaire de la spécification, votre implémentation de **QueryCapability** doit vérifier la présence de toute fonctionnalité qui peut être valide sous la spécification de format d’image que votre CODEC n’implémente pas. Cela permet de s’assurer que les utilisateurs ne subissent pas de décodage inutile ou obtiennent des résultats inattendus avec votre codec.
 
 Avant d’effectuer une opération sur l’image, vous devez enregistrer la position actuelle du flux afin de pouvoir la restaurer à sa position d’origine avant de retourner à partir de la méthode. L’énumération [**WICBitmapDecoderCapabilities**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmapdecodercapabilities) qui spécifie les fonctionnalités est définie comme suit :
 
@@ -158,7 +158,7 @@ hr = pPreviewFrame->QueryInterface(IID_IWICBitmapSource, (void**)&pPreview);
 [Comment écrire un CODEC WIC-Enabled](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

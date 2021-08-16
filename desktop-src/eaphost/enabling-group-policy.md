@@ -4,12 +4,12 @@ description: Découvrez comment configurer le demandeur en activant la stratégi
 ms.assetid: ac04b83b-1322-41d4-85e0-93687f10a7f6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af7b57e736bf078068156f6aff10d294621749a2
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 4b2a388bf8dba155e42d5542c1379f7b0cc34d44579b92809387541d7e20cf65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118784998"
 ---
 # <a name="enabling-group-policy"></a>Activation de stratégie de groupe
 
@@ -23,7 +23,7 @@ Voici les éléments à prendre en considération pour les demandeurs en ce qui 
 
 1.  La configuration EAP doit toujours être stockée au format XML chaque fois que cela est possible et pas au format binaire. La stratégie de groupe peut être appliquée à n’importe quel ordinateur du domaine, et la configuration de la méthode EAP et les données utilisateur ne sont pas nécessairement portables entre les architectures de processeur 32 bits et 64 bits. XML résout les problèmes de limite d’architecture de processeur, car le demandeur convertit localement le XML indépendant de l’architecture du processeur en représentation binaire de la configuration au moment de l’authentification.
 
-    Pour plus d'informations, consultez les rubriques ci-dessous.
+    Pour plus d’informations, voir les rubriques suivantes :
 
     -   [Forum aux questions (FAQ)](general-frequently-asked-questions.md)
     -   [Forum aux questions sur la méthode EAP](eap-method-frequently-asked-questions.md).
@@ -51,9 +51,9 @@ Voici les éléments à prendre en considération pour les demandeurs en ce qui 
 [Demandeurs EAPHost](eaphost-supplicants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: AccessibleObjectFromPointReturnedNullIAccessible
 ms.assetid: DF786659-8ADC-4EB0-A606-8B80C139691A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38c5807fa04f69271f2a2d38e7014b1cd17d4eaa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 71963ad564454dcb90266b4fe4c63ba7282dbc514ab286629798420ff1db9f6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327695"
 ---
 # <a name="accessibleobjectfrompointreturnednulliaccessible"></a>AccessibleObjectFromPointReturnedNullIAccessible
 
@@ -19,7 +19,7 @@ AccessibleObjectFromPoint ( {0} , {1} ) a retourné la valeur null
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -40,9 +40,9 @@ L’adresse de l’interface [**IAccessible**](/windows/desktop/api/oleacc/nn-ol
 [**AccessibleObjectFromPoint**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfrompoint)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

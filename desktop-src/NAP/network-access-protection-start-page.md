@@ -1,18 +1,18 @@
 ---
 title: Protection d’accès réseau (NAP)
-description: 'Remarque : la plateforme de protection d’accès réseau n’est pas disponible à partir de la protection d’accès réseau de Windows 10 (NAP) est un ensemble de composants du système d’exploitation qui offrent une plateforme pour l’accès protégé aux réseaux privés.'
+description: 'remarque : la plateforme de protection d’accès réseau n’est pas disponible à partir de Windows 10 la protection d’accès réseau (NAP) est un ensemble de composants du système d’exploitation qui fournissent une plate-forme pour l’accès protégé aux réseaux privés.'
 ms.assetid: f562f5f1-c05a-4e4e-bcd9-a302c61f2a5e
 keywords:
 - Protection d’accès réseau (NAP)
 - Protection d’accès réseau, page de démarrage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b99348428a867be5bf846fd40b030b844460cdc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fc1e5b5121566c3626ee7a9f2ba5d85efc1bf6cff17b412cd99874ae9b346780
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939127"
 ---
 # <a name="network-access-protection"></a>Protection d’accès réseau (NAP)
 
@@ -43,7 +43,7 @@ L’API NAP est conçue pour les développeurs C/C++. Pour les méthodes de cont
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-La plateforme NAP requiert des serveurs d’infrastructure NAP exécutant Windows Server 2008 ou version ultérieure et des clients NAP exécutant Windows XP avec Service Pack 3 (SP3), Windows Vista ou des systèmes d’exploitation ultérieurs. Pour obtenir des informations spécifiques sur les systèmes d’exploitation qui prennent en charge un élément de programmation particulier, reportez-vous aux sections exigences des API NAP dans la documentation de référence NAP.
+la plateforme nap requiert des serveurs d’infrastructure nap exécutant Windows Server 2008 ou version ultérieure et des clients NAP exécutant Windows XP avec Service Pack 3 (SP3), Windows Vista ou des systèmes d’exploitation ultérieurs. Pour obtenir des informations spécifiques sur les systèmes d’exploitation qui prennent en charge un élément de programmation particulier, reportez-vous aux sections exigences des API NAP dans la documentation de référence NAP.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

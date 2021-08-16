@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Advapi32.dll
-ms.openlocfilehash: 35ec65e7899f45a5222ae12b08992e77ea67f306
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e6b7c5b377ffa7b517ccd19d1dfbffa08d26191af3822f9d9b17cc02c33d055
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118922334"
 ---
 # <a name="logonuserexexw-function"></a>LogonUserExExW fonction)
 
@@ -121,7 +121,7 @@ Fournisseur d’ouverture de session. Ce paramètre peut prendre les valeurs sui
 
 Pointeur vers une structure [**de \_ groupes de jetons**](/windows/win32/api/winnt/ns-winnt-token_groups) qui spécifie une liste de SID de groupe ajoutée au jeton que cette fonction reçoit lorsque la connexion réussit. Les SID ajoutés au jeton affectent également l’expansion de groupe. Par exemple, si les SID ajoutés sont membres de groupes locaux, ces groupes sont également ajoutés au jeton d’accès reçu.
 
-Si ce paramètre n’est pas **null**, l’appelant de cette fonction doit avoir le privilège de **privilège de se \_ TCB \_** accordé et activé.
+si ce paramètre n’est pas **NULL**, l’appelant de cette fonction doit avoir le privilège de **\_ \_ privilège SE TCB** accordé et activé.
 
 </dd> <dt>
 
@@ -181,7 +181,7 @@ Le type de connexion **\_ \_ réseau LOGON32 Logon** est plus rapide, mais il pr
 -   La fonction retourne un [*jeton d’emprunt d’identité*](../secgloss/i-gly.md), et non un jeton principal. Vous ne pouvez pas utiliser ce jeton directement dans la fonction [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) . Toutefois, vous pouvez appeler la fonction [**DuplicateTokenEx**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-duplicatetokenex) pour convertir le jeton en jeton principal, puis l’utiliser dans **CreateProcessAsUser**.
 -   Si vous convertissez le jeton en jeton principal et que vous l’utilisez dans [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) pour démarrer un processus, le nouveau processus ne peut pas accéder à d’autres ressources réseau, telles que des serveurs distants ou des imprimantes, par le biais du redirecteur. Une exception est que, si la ressource réseau n’est pas contrôlée par l’accès, le nouveau processus peut y accéder.
 
-Le compte spécifié par *lpszUsername* doit disposer des droits de compte nécessaires. Par exemple, pour ouvrir une session sur un utilisateur avec l’indicateur **\_ \_ interactif d’ouverture de session LOGON32** , l’utilisateur (ou un groupe auquel l’utilisateur appartient) doit avoir le droit de compte de **\_ \_ \_ nom d’ouverture de session interactive se** . Pour obtenir la liste des droits de compte qui affectent les différentes opérations d’ouverture de session, consultez [droits d’accès à un objet de compte](../secmgmt/account-object-access-rights.md).
+Le compte spécifié par *lpszUsername* doit disposer des droits de compte nécessaires. par exemple, pour ouvrir une session sur un utilisateur avec l’indicateur **\_ \_ interactif d’ouverture de session LOGON32** , l’utilisateur (ou un groupe auquel l’utilisateur appartient) doit avoir le droit SE compte de **\_ \_ \_ nom d’ouverture de session interactive** . Pour obtenir la liste des droits de compte qui affectent les différentes opérations d’ouverture de session, consultez [droits d’accès à un objet de compte](../secmgmt/account-object-access-rights.md).
 
 Un utilisateur est considéré comme connecté s’il existe au moins un jeton. Si vous appelez [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) , puis que vous fermez le jeton, l’utilisateur est toujours connecté jusqu’à ce que le processus (et tous les processus enfants) se termine.
 
@@ -193,9 +193,9 @@ Si le paramètre facultatif *pTokenGroups* est fourni, LSA n’ajoutera pas auto
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                  |
-| Version<br/>                  | LogonUserExExW est également disponible onWindows Server 2003 ou Windows XPwith la version de distribution générale.<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                  |
+| Version<br/>                  | LogonUserExExW est également disponible onWindows Server 2003 ou Windows XPwith la version de Distribution générale.<br/> |
 | En-tête<br/>                   | <dl> <dt>Winbasep. h</dt> </dl>                                 |
 | DLL<br/>                      | <dl> <dt>Advapi32.dll</dt> </dl>                               |
 

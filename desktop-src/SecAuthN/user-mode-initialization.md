@@ -4,16 +4,16 @@ ms.assetid: 8f28177f-335a-4fa2-bf66-2ec1698bebec
 title: Initialisation du mode utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 473b06daf2e1c3612b02583d203ce4cd9afebabd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09be7c4c00937473e2ecc3d6b01bb7c59a2842085a133f381b5a8a10bd9b215f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915581"
 ---
 # <a name="user-mode-initialization"></a>Initialisation du mode utilisateur
 
-Les applications distribuées (client/serveur) utilisent des [*packages de sécurité*](../secgloss/s-gly.md) pour obtenir des connexions authentifiées et échanger des messages. L’application appelle les fonctions SSPI (Security Support Provider Interface) qui sont mappées aux [fonctions implémentées par le fournisseur SSP/APS](authentication-functions.md), ainsi que les [fonctions implémentées par SSP/APS en mode utilisateur](authentication-functions.md). Ce mappage est effectué par la DLL du fournisseur de sécurité (Secur32.dll ou Security.dll), qui peut être chargée dynamiquement dans les processus du client et du serveur. La DLL peut également être liée de manière statique à l’aide de secur32. lib. La DLL et la bibliothèque sont fournies avec le kit de développement logiciel (SDK) Microsoft Windows.
+Les applications distribuées (client/serveur) utilisent des [*packages de sécurité*](../secgloss/s-gly.md) pour obtenir des connexions authentifiées et échanger des messages. L’application appelle les fonctions SSPI (Security Support Provider Interface) qui sont mappées aux [fonctions implémentées par le fournisseur SSP/APS](authentication-functions.md), ainsi que les [fonctions implémentées par SSP/APS en mode utilisateur](authentication-functions.md). Ce mappage est effectué par la DLL du fournisseur de sécurité (Secur32.dll ou Security.dll), qui peut être chargée dynamiquement dans les processus du client et du serveur. La DLL peut également être liée de manière statique à l’aide de secur32. lib. la DLL et la bibliothèque sont fournies avec le kit de développement logiciel (SDK) Microsoft Windows.
 
 Le chargement du package de sécurité dans le processus du client ou du serveur est géré par le système, si la DLL SSP/AP qui contient le package de sécurité est correctement inscrite.
 

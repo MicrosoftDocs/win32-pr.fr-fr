@@ -4,12 +4,12 @@ description: Jusqu’à deux parties dans la description de la chaîne de format
 ms.assetid: 11c6742c-b2f5-4201-8b1c-7e31ae52e0da
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d1c1ce68b74440fc9339fb9cf9170bfdd1fdfcd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1bb31dcf075b7b07b65d2a976a37386e164d8cadc11903a33c22172c433a3a51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929536"
 ---
 # <a name="handles"></a>Poignées
 
@@ -67,7 +67,7 @@ Le décalage<2> fournit le décalage à partir du début de la pile jusqu’au h
 > [!Note]  
 > Une description de handle primitif dans la chaîne de format de type est réduite à une seule valeur FC \_ ignorée.
 
- 
+ 
 
 Générique
 
@@ -84,9 +84,9 @@ L' \_ \_ index de paire de routines de liaison \_<1> champ donne l’index dans 
 > [!Note]  
 > Une description de handle générique dans le format de type est la description du type de données associé uniquement.
 
- 
+ 
 
-Context
+Contexte
 
 ``` syntax
 FC_BIND_CONTEXT flags<1> offset<2> context_rundown_routine_index<1> param_num<1>
@@ -109,9 +109,9 @@ Les indicateurs<1> indiquent comment le descripteur est passé et le type. Les i
 
 
 
- 
+ 
 
-Les quatre premiers indicateurs ont toujours été présents, les quatre derniers ont été ajoutés dans Windows 2000.
+les quatre premiers indicateurs ont toujours été présents, les quatre derniers ont été ajoutés à Windows 2000.
 
 Le champ décalage<2> fournit le décalage à partir du début de la pile jusqu’au handle de contexte.
 
@@ -124,7 +124,7 @@ Pour les versions précédentes de l’interpréteur, le \_ paramètre param num
 > [!Note]  
 > Une description de handle de contexte dans la chaîne de format de type n’a pas le décalage<2> dans la description.
 
- 
+ 
 
 ## <a name="the-new-oif-header"></a>Nouvel en-tête de l’interfaces de création
 
@@ -175,11 +175,11 @@ typedef struct
 -   Le bit HasReturn est défini si la procédure a une valeur de retour.
 -   Le bit HasPipes est défini si le package de canal doit être utilisé pour prendre en charge un argument de canal.
 -   Le bit HasAsyncUuid est défini si la procédure est une procédure DCOM asynchrone.
--   Le bit HasExtensions indique que les extensions Windows 2000 et versions ultérieures sont utilisées.
+-   le bit HasExtensions indique que les extensions Windows 2000 et ultérieures sont utilisées.
 -   Le bit HasAsyncHandle indique une procédure RPC asynchrone.
 
 Le bit HasAsyncHandle a été initialement utilisé pour une implémentation DCOM différente de la prise en charge de Async et n’a donc pas pu être utilisé pour la prise en charge actuelle du style asynchrone dans DCOM. Le bit HasAsyncUuid indique actuellement cela.
 
- 
+ 
 
- 
+ 

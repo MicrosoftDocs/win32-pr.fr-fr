@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: f13c97836a5428c08c3b6be73a9d2f352bd0de1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8013e3720c388f1c2bc456167b010de58ff32045fb2956143fd4d03613a287e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118715415"
 ---
 # <a name="texttype-complex-type"></a>Type complexe TextType
 
@@ -33,7 +33,7 @@ Définit le type qui contient la valeur de texte dans un [ \[ lecteur \] du jour
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                     |
 
 

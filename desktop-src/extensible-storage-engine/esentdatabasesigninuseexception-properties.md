@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101548
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 63aee2ab445c3ff68f855e972163bc745777adfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82c08497682beee6592e70c25b5903ad8190b446e42ac08dfb4816afcda13353
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118780358"
 ---
 # <a name="esentdatabasesigninuseexception-properties"></a>Propriétés EsentDatabaseSignInUseException
 
@@ -49,7 +49,7 @@ Le type [EsentDatabaseSignInUseException](./esentdatabasesigninuseexception-clas
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 912c4c61f6c1f2b6bef46c7c5b6ea17223df5eb8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ddf340840e377ee03641ae33c0731f27e90ce4760cad4ddb6c636c1831fa80ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118505792"
 ---
 # <a name="texldb---ps"></a>texldb-PS
 
@@ -29,7 +29,7 @@ Instruction de chargement de texture biaisée. Cette instruction utilise le quat
 
 
 
- 
+ 
 
 Où :
 
@@ -58,7 +58,7 @@ Une instruction de texture dépendante d’une seconde commande est définie com
 
 src1 doit être un [échantillonneur (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md) , sans \# modificateur. Swizzle est autorisé sur src1 et, lorsqu’il est appliqué, les résultats de la recherche de texture sont antérieurs à swizzled avant d’être écrits dans l’heure d’été.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -68,7 +68,7 @@ src1 doit être un [échantillonneur (Direct3D 9 ASM-PS)](dx9-graphics-reference
 
 
 
- 
+ 
 
 texldb biaise le niveau de détail mipmap, calculé normalement dans le cadre de l’exemple de processus par la valeur (signée) de src0. w. Les valeurs d’écart positives entraînent la sélection de la des mipmaps plus petite et vice versa. Pour PS \_ 2 \_ 0 et PS \_ 2 \_ x, les valeurs de biais peuvent être comprises dans la plage \[ -3,0, + 3,0 \] . Pour PS \_ 3 \_ 0, les valeurs de biais peuvent être comprises dans la plage \[ -16,0, + 15,0 \] . Les valeurs de biais en dehors de ces plages produisent des résultats indéfinis. L’état de l’échantillonneur D3DSAMP \_ MIPMAPLODBIAS est toujours respecté et le biais du texldb est ajouté à cette valeur, mais pour chaque pixel. Une fois le niveau de détail biaisé calculé, D3DSAMP \_ MAXMIPLEVEL est toujours respecté et l’échantillon de texture se produit. Après texldb, le contenu de src0 n’est pas affecté (sauf si l’heure d’été est le même registre).
 
@@ -88,7 +88,7 @@ Si la texture source contient moins de quatre composants, les valeurs par défau
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -97,6 +97,6 @@ Si la texture source contient moins de quatre composants, les valeurs par défau
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

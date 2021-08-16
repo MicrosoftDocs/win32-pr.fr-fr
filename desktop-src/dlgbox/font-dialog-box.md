@@ -3,8 +3,8 @@ title: Police, boîte de dialogue
 description: La boîte de dialogue police permet à l’utilisateur de choisir des attributs pour une police logique, tels que la famille de polices et le style de police associé, la taille du point, les effets (souligné, barré et couleur du texte), ainsi qu’un script (ou jeu de caractères).
 ms.assetid: e8a996aa-4e34-45d0-a325-9c20b1a6ce07
 keywords:
-- Interface utilisateur Windows, entrée utilisateur
-- Interface utilisateur Windows, bibliothèque de boîtes de dialogue communes
+- Windows Interface utilisateur, entrée utilisateur
+- Windows Interface utilisateur, bibliothèque de boîtes de dialogue communes
 - entrée utilisateur, bibliothèque de boîtes de dialogue communes
 - capture de l’entrée utilisateur, bibliothèque de boîtes de dialogue communes
 - Bibliothèque de boîtes de dialogue communes
@@ -17,12 +17,12 @@ keywords:
 - boîtes de dialogue, police
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9a752ce53ecf496c58efb0c346a8c3d67c4f1b1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8544fcb60e499a360f60d1701863a11138d3f16fb06a770a9a2763800d908e12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118785885"
 ---
 # <a name="font-dialog-box"></a>Police, boîte de dialogue
 
@@ -42,7 +42,7 @@ Les rubriques suivantes sont présentées dans cette section.
 
 -   [Indicateurs d’initialisation de la boîte de dialogue police](#font-dialog-box-initialization-flags)
 -   [Personnalisation de la boîte de dialogue police sur les versions antérieures de Windows](#customizing-the-font-dialog-box-on-earlier-versions-of-windows)
--   [Personnalisation de la boîte de dialogue police sur Windows 7](#customizing-the-font-dialog-box-on-windows-7)
+-   [personnalisation de la boîte de dialogue police sur Windows 7](#customizing-the-font-dialog-box-on-windows-7)
 
 ## <a name="font-dialog-box-initialization-flags"></a>Indicateurs d’initialisation de la boîte de dialogue police
 
@@ -50,7 +50,7 @@ Avant d’appeler [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosef
 
 Si les **\_ deux** indicateurs **CF \_ PRINTERFONTS** ou CF sont définis, l’étiquette Description du type de police apparaît en bas de la boîte de dialogue **police** .
 
-À compter de Windows 7, les indicateurs **CF \_ PRINTERFONTS**, **CF \_ SCREENFONTS**, **CF \_** et **CF \_ WYSIWYG** ne sont plus utilisés par la fonction [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) pour l’énumération des polices. Ils sont obsolètes dans Windows 7. Toutefois, l’indicateur **CF \_ PRINTERFONTS** conserve une fonction : pour afficher l’étiquette de description du type de police au bas de la boîte de dialogue **police** .
+à partir de Windows 7, les indicateurs **cf \_ PRINTERFONTS**, **cf \_ SCREENFONTS**, **cf \_** et **cf \_ WYSIWYG** ne sont plus utilisés par la fonction [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) pour l’énumération des polices. ils sont obsolètes dans Windows 7. Toutefois, l’indicateur **CF \_ PRINTERFONTS** conserve une fonction : pour afficher l’étiquette de description du type de police au bas de la boîte de dialogue **police** .
 
 Vous pouvez utiliser le membre **Flags** pour activer ou désactiver certains des contrôles de boîte de dialogue de **police** , et vous pouvez utiliser le membre **Flags** conjointement avec d’autres membres [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) pour contrôler les valeurs initiales de certains contrôles.
 
@@ -71,7 +71,7 @@ Vous pouvez utiliser le membre **Flags** pour activer ou désactiver certains de
 > [!Note]  
 > Pour globaliser votre application, spécifiez le style à l’aide des membres **lfWeight** et **lfItalic** de la structure [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) vers laquelle pointe **lpLogFont**. Le nom du style peut changer en fonction de la langue de l’interface utilisateur système.
 
- 
+ 
 
 **Pour afficher le bouton appliquer**
 
@@ -85,7 +85,7 @@ Vous pouvez utiliser le membre **Flags** pour activer ou désactiver certains de
 
 -   Définissez n’importe quelle combinaison des indicateurs **CF \_ TTONLY**, cf **\_ FIXEDPITCHONLY**, cf **\_ NOVECTORFONTS**, **CF \_ NOVERTFONTS**, **CF \_ SCALABLEONLY** et **CF \_ WYSIWYG** . Vous pouvez également limiter les styles disponibles que la boîte de dialogue affiche pour certaines polices à l’aide de la valeur **CF \_ nosimulations** .
 
-À compter de Windows 7, la liste des polices affichée dans la boîte de dialogue est restreinte en fonction des polices affichées par l’utilisateur. Pour supprimer la restriction, définissez l’indicateur **CF \_ INACTIVEFONTS** .
+à partir de Windows 7, la liste des polices affichée dans la boîte de dialogue est restreinte en fonction des polices affichées par l’utilisateur. Pour supprimer la restriction, définissez l’indicateur **CF \_ INACTIVEFONTS** .
 
 **Pour limiter les noms de polices, les styles et les tailles de point que l’utilisateur peut spécifier**
 
@@ -118,15 +118,15 @@ Après le traitement du message [**WM \_ INITDIALOG**](wm-initdialog.md) , la pr
 
 La procédure de hook peut envoyer les messages [**WM \_ CHOOSEFONT \_ GETLOGFONT**](wm-choosefont-getlogfont.md), [**WM \_ CHOOSEFONT \_ SETLOGFONT**](wm-choosefont-setlogfont.md)et [**WM \_ CHOOSEFONT \_ SETFLAGS**](wm-choosefont-setflags.md) à la boîte de dialogue pour récupérer et définir les valeurs et les indicateurs actuels de la boîte de dialogue.
 
-## <a name="customizing-the-font-dialog-box-on-windows-7"></a>Personnalisation de la boîte de dialogue police sur Windows 7
+## <a name="customizing-the-font-dialog-box-on-windows-7"></a>personnalisation de la boîte de dialogue police sur Windows 7
 
-La capture d’écran suivante montre une boîte de dialogue **police** standard dans Windows 7.
+la capture d’écran suivante montre une boîte de dialogue **police** standard dans Windows 7.
 
 ![capture d’écran montrant la zone dialob de la police](images/fontdialogboxwin7.png)
 
-Dans les versions précédentes de Windows, le fichier de modèle font. DLG contient un modèle ChooseFont par défaut. Le fichier de modèle font. DLG sur Windows 7 contient deux modèles par défaut : le modèle par défaut des versions antérieures de Windows et le nouveau modèle ChooseFont de Windows 7. Par conséquent, lorsque vous personnalisez la boîte de dialogue **police** sur Windows 7, vous devez prendre en compte les problèmes suivants.
+dans les versions antérieures de Windows, le fichier de modèle font. dlg contient un modèle ChooseFont par défaut. le fichier de modèle font. dlg sur Windows 7 contient deux modèles par défaut : le modèle par défaut des versions antérieures Windows et le Windows nouveau modèle ChooseFont 7. par conséquent, lorsque vous personnalisez la boîte de dialogue **police** sur Windows 7, vous devez prendre en compte les problèmes suivants.
 
-1.  Utilisez le nouveau modèle lorsque vous créez des modèles personnalisés pour les applications qui s’exécutent sur Windows 7. Ce nouveau modèle contient un contrôle de lien sur lequel l’utilisateur peut cliquer pour ouvrir la fenêtre **du panneau de configuration polices** , comme illustré dans la capture d’écran suivante.
+1.  utilisez le nouveau modèle lorsque vous créez des modèles personnalisés pour les applications qui s’exécutent sur Windows 7. Ce nouveau modèle contient un contrôle de lien sur lequel l’utilisateur peut cliquer pour ouvrir la fenêtre **du panneau de configuration polices** , comme illustré dans la capture d’écran suivante.
 
     ![capture d’écran montrant le panneau de configuration de la police dans Windows 7](images/fontcontrolpanelforwin7.png)
 
@@ -142,15 +142,15 @@ Dans les versions précédentes de Windows, le fichier de modèle font. DLG cont
 
         `PUSHBUTTON      "S&how more fonts", IDC_MANAGE_LINK, 7, 199, 74, 14 , WS_TABSTOP`
 
-    -   Pour vous assurer que votre application utilise un modèle personnalisé, vous devez spécifier un modèle personnalisé avec l’indicateur **CF \_ ENABLETEMPLATE** , créer un modèle personnalisé basé sur le modèle ChooseFont Windows 7, puis activer éventuellement une procédure de raccordement.
+    -   pour vous assurer que votre application utilise un modèle personnalisé, vous devez spécifier un modèle personnalisé avec l’indicateur **CF \_ ENABLETEMPLATE** , créer un modèle personnalisé basé sur le modèle Windows 7 ChooseFont, puis activer éventuellement une procédure de raccordement.
 
-        Si vous activez une procédure de raccordement sans créer de modèle personnalisé, le modèle ChooseFont par défaut pour les versions antérieures de Windows sera chargé.
+        si vous activez une procédure de hook sans créer de modèle personnalisé, le modèle ChooseFont par défaut pour les versions antérieures de Windows sera chargé.
 
 > [!Note]  
-> Vous devez spécifier le type de contrôle **Control** ou **PUSHBUTTON** dans votre nouveau modèle, en fonction de la version de COMMCTL.DLL par rapport à laquelle votre application est compilée. Notez également que les fonctionnalités spécifiques à Windows 7, telles que l’affichage WYSIWYG des listes de polices et des familles étendues, ne sont pas disponibles lorsque vos applications s’exécutent sur des versions antérieures du système d’exploitation Windows.
+> Vous devez spécifier le type de contrôle **Control** ou **PUSHBUTTON** dans votre nouveau modèle, en fonction de la version de COMMCTL.DLL par rapport à laquelle votre application est compilée. notez également que Windows 7 fonctionnalités spécifiques, telles que l’affichage WYSIWYG des listes de polices et des familles étendues, ne sont pas disponibles lorsque vos applications s’exécutent sur des versions antérieures du système d’exploitation Windows.
 
- 
+ 
 
- 
+ 
 
- 
+ 

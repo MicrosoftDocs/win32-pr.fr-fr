@@ -530,7 +530,7 @@ Type de vidéo standard.
 | <dl> <dt>2 (0X2)</dt> </dl>   | GTF VESA. À partir de la norme de formule de minutage généralisée VESA.<br/>                                            |
 | <dl> <dt>3 (0x3)</dt> </dl>   | VESA CVT/à partir de la norme des minutages vidéo coordonné VESA.<br/>                                             |
 | <dl> <dt>4 (0x4)</dt> </dl>   | IBM<br/>                                                                                                 |
-| <dl> <dt>5 (0x5)</dt> </dl>   | pomme<br/>                                                                                               |
+| <dl> <dt>5 (0x5)</dt> </dl>   | POMME<br/>                                                                                               |
 | <dl> <dt>6 (0x6)</dt> </dl>   | NTSC M<br/>                                                                                              |
 | <dl> <dt>7 (0x7)</dt> </dl>   | NTSC J<br/>                                                                                              |
 | <dl> <dt>8 (0x8)</dt> </dl>   | NTSC 433<br/>                                                                                            |

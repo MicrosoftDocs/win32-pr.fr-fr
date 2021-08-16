@@ -47,7 +47,7 @@ si un correctif modifie uniquement les tables suivantes, Windows Installer 3,0 o
 -   [\_Colonnes](-columns-table.md)
 -   [\_Stockages](-storages-table.md)
 -   [\_Flux](-streams-table.md)
--   [\_Tables](-tables-table.md)
+-   [\_Elles](-tables-table.md)
 -   [\_Table TransformView](-transformview-table.md)
 -   [\_Validation](-validation-table.md)
 

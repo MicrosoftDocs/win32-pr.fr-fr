@@ -7,12 +7,12 @@ keywords:
 - represent_as
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7121925f1407cb3390c3ef1e7e5f2f6430506071
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3bbf217260f3d23f7390a2295d7db5a36174ae01a94f7368f8e7d2085d19ae0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118923998"
 ---
 # <a name="the-represent_as-attribute"></a>L' \_ attribut représente en tant que
 
@@ -39,7 +39,7 @@ Le tableau suivant décrit les quatre routines fournies par le programmeur.
 
 
 
- 
+ 
 
 En dehors de ces quatre routines fournies par le programmeur, le type nommé n’est pas manipulé par l’application. Le seul type visible pour l’application est le type représenté. L’application utilise le nom de type représenté au lieu du nom de type transmis dans les prototypes et les stubs générés par le compilateur. Vous devez fournir le jeu de routines pour les deux côtés.
 
@@ -48,9 +48,9 @@ Pour les objets de **\_ type nommé** temporaires, le stub appelle le **\_ type 
 Si le type représenté est un pointeur ou contient un pointeur, le **\_ type nommé \_ à \_** la routine locale doit allouer de la mémoire pour les données auxquelles les pointeurs pointent (l’objet de type représenté lui-même est manipulé de la manière habituelle). Pour \[ [les](/windows/desktop/Midl/out-idl) \] paramètres out et \[ [in](/windows/desktop/Midl/in), out \] d’un type qui contiennent une **\[ représentation \_ sous la forme** ou l’un de ses composants, la routine **\_ \_ \_ locale libre de type nommé** est automatiquement appelée pour les objets de données qui contiennent l’attribut. Pour les paramètres **\[ in \]** , la routine **\_ \_ \_ locale Free de type nommé** est appelée uniquement si l’attribut **\[ dereprésente \_ comme \]** attribut a été appliqué au paramètre. Si l’attribut a été appliqué aux composants du paramètre, la routine *\* *** \_ Free \_ local** n’est pas appelée. Les routines de libération ne sont pas appelées pour les données incorporées et les appels au plus une fois (associés à l’attribut de niveau supérieur) pour un paramètre **\[ in \]** only.
 
 > [!Note]  
-> Il est possible d’appliquer à la fois les attributs **\[ transmit \_ As \]** et **\[ \_ \] DEFAUT au même** type. Lors du marshaling des données, la **\[ représentation \_ en tant que \]** conversion de type est appliquée en premier, puis la **\[ transmission \_ comme \]** conversion est appliquée. L’ordre est inversé lors de l’annulation du marshaling des données. Ainsi, lors du marshaling, \* **\_ à partir de \_ local** alloue une instance d’un type nommé et la convertit d’un objet de type local en objet de type nommé temporaire. Cet objet est l’objet de type présenté utilisé pour la \* procédure **\_ de transmission de \_** la routine. Le \* **\_ à \_** la place de la routine alloue ensuite un objet de type transmis et le convertit de l’objet (nommé) présenté à l’objet transmis.
+> Il est possible d’appliquer à la fois les attributs **\[ transmit \_ As \]** et **\[ \_ \] DEFAUT au même** type. Lors du marshaling des données, la **\[ représentation \_ en tant que \]** conversion de type est appliquée en premier, puis la **\[ transmission \_ comme \]** conversion est appliquée. L’ordre est inversé lors de l’annulation du marshaling des données. Ainsi, lors du marshaling, \* *_\_ à partir de \_ local_* alloue une instance d’un type nommé et la convertit d’un objet de type local en objet de type nommé temporaire. Cet objet est l’objet de type présenté utilisé pour la \* procédure *_\_ de transmission de \__* la routine. Le \* *_\_ à \__* la place de la routine alloue ensuite un objet de type transmis et le convertit de l’objet (nommé) présenté à l’objet transmis.
 
- 
+ 
 
 Un tableau d’entiers longs peut être utilisé pour représenter une liste liée. De cette façon, l’application manipule la liste et la transmission utilise un tableau d’entiers longs lorsqu’une liste de ce type est transmise. Vous pouvez commencer par un tableau, mais l’utilisation d’une construction avec un tableau ouvert d’entiers longs est plus pratique. L’exemple suivant vous montre comment procéder.
 
@@ -111,11 +111,11 @@ LONGARR_free_local(
 
 Les routines indiquées ci-dessus effectuent les opérations suivantes :
 
--   Le **LONGARR \_ de \_** la routine locale compte les nœuds de la liste, alloue un objet LONGARR avec la taille **sizeof**(**LONGARR**) + Count \* **sizeof**(**long**), définit le champ **Size** sur Count et copie les données dans le champ **DataArr** .
+-   Le **LONGARR \_ de \_** la routine locale compte les nœuds de la liste, alloue un objet LONGARR avec la taille **sizeof**(**LONGARR**) + Count \* *_sizeof_*(**long**), définit le champ **Size** sur Count et copie les données dans le champ **DataArr** .
 -   La routine **LONGARR \_ à \_ local** crée une liste avec des nœuds de taille et transfère le tableau aux nœuds appropriés.
 -   La routine **LONGARR \_ Free \_ inst** ne libère rien dans ce cas.
 -   La **routine \_ \_ locale libre LONGARR** libère tous les nœuds de la liste.
 
- 
+ 
 
- 
+ 

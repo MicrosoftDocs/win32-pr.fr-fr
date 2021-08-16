@@ -1,23 +1,23 @@
 ---
-title: Fonctions (entrée tactile Windows)
-description: Cette section contient des fonctions pour les entrées tactiles Windows.
+title: fonctions (Windows entrée tactile)
+description: cette section contient des fonctions pour Windows entrée tactile.
 ms.assetid: 6c64ed75-37ac-47ae-b39e-bdf10d2b5211
 keywords:
-- Tactile Windows, fonctions
+- Windows Fonctions tactiles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a18ba246ab8b1d228d257d32982e9afc2c418eb
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: af2aae5f0e355a6fdb809b70c2d5fad629434b62c802f6ff0f5ad180facba82d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435325"
 ---
-# <a name="functions-windows-touch-input"></a>Fonctions (entrée tactile Windows)
+# <a name="functions-windows-touch-input"></a>fonctions (Windows entrée tactile)
 
-Cette section contient des fonctions pour les entrées tactiles Windows.
+cette section contient des fonctions pour Windows entrée tactile.
 
-Les fonctions suivantes sont utilisées pour l’entrée tactile Windows.
+les fonctions suivantes sont utilisées pour Windows entrée tactile.
 
 
 
@@ -38,10 +38,10 @@ Les fonctions suivantes sont utilisées pour l’entrée tactile Windows.
 
 <dl> <dt>
 
-[Entrée tactile Windows](multi-touch-input.md)
+[Windows Entrée tactile](multi-touch-input.md)
 </dt> <dt>
 
-[Guide de programmation des entrées tactiles Windows](guide-multi-touch-input.md)
+[Windows Guide de programmation de l’entrée tactile](guide-multi-touch-input.md)
 </dt> </dl>
 
  

@@ -9,12 +9,12 @@ keywords:
 - DWM (Gestionnaire de fenêtrage), fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 067f836e7fa8b5b84be02a402a3e0b3d0f78d1c1
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: fe8c1db28571fde16cf0fe0f9068f5bd650d31f637776c7bcc00717ab3043997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104316602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118503304"
 ---
 # <a name="dwm-functions"></a>Fonctions DWM
 
@@ -51,7 +51,7 @@ Cette section contient des informations sur les fonctions de Gestionnaire de fen
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmenableblurbehindwindow"><strong>DwmEnableBlurBehindWindow</strong></a><br/></td>
 <td>Active l’effet de flou sur une fenêtre spécifiée.<br/></td>
-<b>Remarque</b> À partir de Windows 8, l’appel de cette fonction n’entraîne pas l’effet de flou, en raison d’un changement de style dans la manière dont les fenêtres sont affichées.
+<b>Remarque</b> à partir de Windows 8, l’appel de cette fonction n’entraîne pas l’effet de flou, en raison d’un changement de style dans la manière dont les fenêtres sont affichées.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmenablecomposition"><strong>DwmEnableComposition</strong></a><br/></td>
@@ -97,7 +97,7 @@ Cette fonction est déconseillée à partir de Windows 8. DWM ne peut plus être
 <tr class="even">
 <td><a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetunmettabrequirements"><strong>DwmGetUnmetTabRequirements</strong></a><br/></td>
 <td><blockquote>
-<strong>Remarque</strong>  Cette fonction est publiquement disponible, mais non fonctionnelle, pour Windows 10, version 1803.
+<strong>Remarque</strong>  cette fonction est publiquement disponible, mais non fonctionnelle, pour Windows 10, version 1803.
 </blockquote>
 Vérifie la configuration requise pour obtenir des onglets dans la barre de titre de l’application pour la fenêtre spécifiée.<br/></td>
 </tr>
@@ -111,11 +111,11 @@ Vérifie la configuration requise pour obtenir des onglets dans la barre de titr
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmiscompositionenabled"><strong>DwmIsCompositionEnabled</strong></a><br/></td>
-<td>Obtient une valeur qui indique si la composition DWM est activée. Les applications sur les ordinateurs exécutant Windows 7 ou une version antérieure peuvent écouter les changements d’état de composition en gérant la notification de <a href="wm-dwmcompositionchanged.md"><strong>WM_DWMCOMPOSITIONCHANGED</strong></a> .<br/></td>
+<td>Obtient une valeur qui indique si la composition DWM est activée. les Applications sur les ordinateurs exécutant Windows 7 ou une version antérieure peuvent écouter les changements d’état de composition en gérant la notification <a href="wm-dwmcompositionchanged.md"><strong>WM_DWMCOMPOSITIONCHANGED</strong></a> .<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmmodifypreviousdxframeduration"><strong>DwmModifyPreviousDxFrameDuration</strong></a><br/></td>
-<td>Modifie le nombre d’actualisations de l’analyse à l’aide desquelles le frame précédent s’affiche. <br/> <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmmodifypreviousdxframeduration"><strong>DwmModifyPreviousDxFrameDuration</strong></a> n’est plus pris en charge. À partir de Windows 8.1, les appels à <strong>DwmModifyPreviousDxFrameDuration</strong> retournent toujours E_NOTIMPL.<br/></td>
+<td>Modifie le nombre d’actualisations de l’analyse à l’aide desquelles le frame précédent s’affiche. <br/> <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmmodifypreviousdxframeduration"><strong>DwmModifyPreviousDxFrameDuration</strong></a> n’est plus pris en charge. à partir de Windows 8.1, les appels à <strong>DwmModifyPreviousDxFrameDuration</strong> retournent toujours E_NOTIMPL.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmquerythumbnailsourcesize"><strong>DwmQueryThumbnailSourceSize</strong></a><br/></td>
@@ -131,7 +131,7 @@ Vérifie la configuration requise pour obtenir des onglets dans la barre de titr
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetdxframeduration"><strong>DwmSetDxFrameDuration</strong></a><br/></td>
-<td>Définit le nombre d’actualisations de l’analyse à l’aide desquelles afficher le frame présenté. <br/> <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetdxframeduration"><strong>DwmSetDxFrameDuration</strong></a> n’est plus pris en charge. À partir de Windows 8.1, les appels à <strong>DwmSetDxFrameDuration</strong> retournent toujours E_NOTIMPL.<br/></td>
+<td>Définit le nombre d’actualisations de l’analyse à l’aide desquelles afficher le frame présenté. <br/> <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetdxframeduration"><strong>DwmSetDxFrameDuration</strong></a> n’est plus pris en charge. à partir de Windows 8.1, les appels à <strong>DwmSetDxFrameDuration</strong> retournent toujours E_NOTIMPL.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmseticoniclivepreviewbitmap"><strong>DwmSetIconicLivePreviewBitmap</strong></a><br/></td>
@@ -143,7 +143,7 @@ Vérifie la configuration requise pour obtenir des onglets dans la barre de titr
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetpresentparameters"><strong>DwmSetPresentParameters</strong></a><br/></td>
-<td>Définit les paramètres présents pour la composition de frame. <br/> <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetpresentparameters"><strong>DwmSetPresentParameters</strong></a> n’est plus pris en charge. À partir de Windows 8.1, les appels à <strong>DwmSetPresentParameters</strong> retournent toujours E_NOTIMPL.<br/></td>
+<td>Définit les paramètres présents pour la composition de frame. <br/> <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetpresentparameters"><strong>DwmSetPresentParameters</strong></a> n’est plus pris en charge. à partir de Windows 8.1, les appels à <strong>DwmSetPresentParameters</strong> retournent toujours E_NOTIMPL.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetwindowattribute"><strong>DwmSetWindowAttribute</strong></a><br/></td>

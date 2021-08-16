@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 6fe48ef207132eb48e0e34ff712e8e9824fbf46c
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: bc69294f3b36b7652f7f0279e02926a279ef80e19f5d109dcfb22185101bf7b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104313303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118505627"
 ---
 # <a name="texture2dsamplecmplevelzero-methods"></a>Texture2D :: SampleCmpLevelZero, méthodes
 
@@ -34,7 +34,7 @@ ms.locfileid: "104313303"
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Reportez-vous à [texture-objet](dx-graphics-hlsl-to-type.md).
 

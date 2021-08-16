@@ -1,6 +1,6 @@
 ---
 title: Méthode SystemMonitor DisplayProperties
-description: Affiche la boîte de dialogue Propriétés du graphique.
+description: affiche la boîte de dialogue propriétés du Graph.
 ms.assetid: a3b04b3b-4c9b-4454-8d46-2001caf23bb6
 keywords:
 - Méthode DisplayProperties SysMon
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 674ebab6bc94eef797fce2376d53aa589a196c7e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ad58234377f3dd66f8a7d3ae49ec40baf53407b5b6b62c05ad8bfc3259b38661
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882634"
 ---
 # <a name="systemmonitordisplayproperties-method"></a>SystemMonitor ::D méthode isplayProperties
 
-Affiche la boîte de dialogue **Propriétés du graphique** .
+affiche la boîte de dialogue **propriétés du Graph** .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette boîte de dialogue permet à l’utilisateur de modifier les propriétés du contrôle Moniteur système.
 

@@ -9,20 +9,20 @@ keywords:
 - matrice de projection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3db0ebd8bd13b8d2cee32b8873f697ab073140bd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a0e3c88ffcfebc989400cfa9a85c16f355c0a7090ff4d16531cf03c3697ee869
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937318"
 ---
 # <a name="matrix-transformations"></a>Transformations de matrice
 
-Les vertex et les normales sont transformés par les matrices de projection et de modelview avant d’être utilisées pour produire une image dans le trame. Utilisez des fonctions telles [**que glMatrixMode**](glmatrixmode.md), [**glMultMatrix \***](glmultmatrix.md), [**glRotate \***](glrotate.md), [**\* glTranslate**](gltranslate.md)et [**glScale \***](glscale.md) pour composer les transformations souhaitées. Ou spécifiez des matrices directement avec [**glLoadMatrix \***](glloadmatrix.md) et [**glLoadIdentity**](glloadidentity.md). Utilisez [**glPushMatrix**](glpushmatrix.md) et [**glPopMatrix**](glpopmatrix.md) pour enregistrer et restaurer les matrices modelview et de projection sur leurs piles respectives.
+Les vertex et les normales sont transformés par les matrices de projection et de modelview avant d’être utilisées pour produire une image dans le trame. Utilisez des fonctions telles [**que glMatrixMode**](glmatrixmode.md), [ * *glMultMatrix \** _](glmultmatrix.md), [_*glRotate \**_](glrotate.md), [_*glTranslate \**_](gltranslate.md)et [_*glScale \**_](glscale.md) pour composer les transformations souhaitées. Ou spécifiez des matrices directement avec [_*glLoadMatrix \**_](glloadmatrix.md) et [_ *glLoadIdentity* *](glloadidentity.md). Utilisez [**glPushMatrix**](glpushmatrix.md) et [**glPopMatrix**](glpopmatrix.md) pour enregistrer et restaurer les matrices modelview et de projection sur leurs piles respectives.
 
- 
+ 
 
- 
+ 
 
 
 
