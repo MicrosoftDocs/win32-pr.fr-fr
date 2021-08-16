@@ -4,12 +4,12 @@ ms.assetid: 5e65a3d8-04b9-46ba-b4e5-a976e1923bfd
 title: Activation et désactivation de l’exécution automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a567f50db75cd129346e193e66ba0ae5f74fa955
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbd14a1dfd3aadb94f3586dec783ea6d394f717f500b5ac103c65fcb813baf14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090779"
 ---
 # <a name="enabling-and-disabling-autorun"></a>Activation et désactivation de l’exécution automatique
 
@@ -17,7 +17,7 @@ Il existe de nombreuses situations où l’exécution automatique peut être dé
 
 -   [Suppression de l’exécution automatique par programmation](#suppressing-autorun-programmatically)
 -   [Utilisation du Registre pour désactiver l’exécution automatique](#using-the-registry-to-disable-autorun)
--   [Exécution automatique pour d’autres types de supports de stockage](#autorun-for-other-types-of-storage-media)
+-   [exécution automatique pour les autres Types de médias de Stockage](#autorun-for-other-types-of-storage-media)
 
 ## <a name="suppressing-autorun-programmatically"></a>Suppression de l’exécution automatique par programmation
 
@@ -30,9 +30,9 @@ Dans les deux cas, vous ne souhaitez généralement pas lancer une autre applica
 
 Les utilisateurs peuvent supprimer manuellement l’exécution automatique en maintenant la touche Maj enfoncée lorsqu’ils insèrent le CD-ROM. Toutefois, il est généralement préférable de gérer cette opération par programme plutôt qu’en fonction de l’utilisateur.
 
-Avec les systèmes qui disposent de Shell [version 4,70](versions.md) et versions ultérieures, Windows envoie un message « QueryCancelAutoPlay » à la fenêtre de premier plan. Votre application peut répondre à ce message pour supprimer l’exécution automatique. Cette approche est utilisée par les utilitaires système tels que la boîte de dialogue [ouvrir](../dlgbox/open-and-save-as-dialog-boxes.md) un courant pour désactiver l’exécution automatique.
+avec les systèmes qui disposent de Shell [version 4,70](versions.md) et versions ultérieures, Windows envoie un message « QueryCancelAutoPlay » à la fenêtre de premier plan. Votre application peut répondre à ce message pour supprimer l’exécution automatique. Cette approche est utilisée par les utilitaires système tels que la boîte de dialogue [ouvrir](../dlgbox/open-and-save-as-dialog-boxes.md) un courant pour désactiver l’exécution automatique.
 
-Les fragments de code suivants montrent comment configurer et gérer ce message. Votre application doit être en cours d’exécution dans la fenêtre de premier plan. Tout d’abord, inscrivez « QueryCancelAutoPlay » en tant que message Windows :
+Les fragments de code suivants montrent comment configurer et gérer ce message. Votre application doit être en cours d’exécution dans la fenêtre de premier plan. tout d’abord, inscrivez « QueryCancelAutoPlay » en tant que message de Windows :
 
 
 ```C++
@@ -95,7 +95,7 @@ BOOL DialogProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 ## <a name="using-the-registry-to-disable-autorun"></a>Utilisation du Registre pour désactiver l’exécution automatique
 
-Il existe deux valeurs de Registre qui peuvent être utilisées pour désactiver de manière permanente l’exécution automatique : NoDriveAutoRun et NoDriveTypeAutoRun. La première valeur désactive l’exécution automatique pour les lettres de lecteur spécifiées et la seconde désactive l’exécution automatique pour une classe de lecteurs. Si l’une de ces valeurs est définie pour désactiver l’exécution automatique pour un appareil particulier, elle est désactivée. Consultez l’article de la base de connaissances [Comment désactiver la fonctionnalité d’exécution automatique dans Windows](https://support.microsoft.com/kb/967715) pour plus d’informations sur la désactivation de la fonctionnalité d’exécution automatique. Cet article répertorie les différentes mises à jour que vous devez avoir installées pour désactiver correctement la fonctionnalité d’exécution automatique.
+Il existe deux valeurs de Registre qui peuvent être utilisées pour désactiver de manière permanente l’exécution automatique : NoDriveAutoRun et NoDriveTypeAutoRun. La première valeur désactive l’exécution automatique pour les lettres de lecteur spécifiées et la seconde désactive l’exécution automatique pour une classe de lecteurs. Si l’une de ces valeurs est définie pour désactiver l’exécution automatique pour un appareil particulier, elle est désactivée. pour plus d’informations sur la désactivation de la fonctionnalité d’exécution automatique, consultez l’article de la Base de connaissances [comment désactiver la fonctionnalité d’exécution automatique dans Windows](https://support.microsoft.com/kb/967715) . Cet article répertorie les différentes mises à jour que vous devez avoir installées pour désactiver correctement la fonctionnalité d’exécution automatique.
 
 > [!Note]  
 > Les valeurs NoDriveAutoRun et NoDriveTypeAutoRun doivent uniquement être modifiées par les administrateurs système pour modifier la valeur de l’ensemble du système à des fins de test ou d’administration. Les applications ne doivent pas modifier ces valeurs, car il n’existe aucun moyen de les restaurer de manière fiable à leurs valeurs d’origine.
@@ -130,7 +130,7 @@ HKEY_CURRENT_USER
 
 En définissant les bits du premier octet de cette valeur, différents lecteurs peuvent être exclus de l’utilisation de l’exécution automatique.
 
-Le tableau suivant indique les constantes bits et de masque de bits, qui peuvent être définies dans le premier octet de NoDriveTypeAutoRun pour désactiver l’exécution automatique pour un type de lecteur particulier. Vous devez redémarrer l’Explorateur Windows pour que les modifications soient prises en compte.
+Le tableau suivant indique les constantes bits et de masque de bits, qui peuvent être définies dans le premier octet de NoDriveTypeAutoRun pour désactiver l’exécution automatique pour un type de lecteur particulier. vous devez redémarrer Windows Explorer pour que les modifications soient prises en compte.
 
 
 
@@ -146,7 +146,7 @@ Le tableau suivant indique les constantes bits et de masque de bits, qui peuvent
 
  
 
-## <a name="autorun-for-other-types-of-storage-media"></a>Exécution automatique pour d’autres types de supports de stockage
+## <a name="autorun-for-other-types-of-storage-media"></a>exécution automatique pour les autres Types de médias de Stockage
 
 L’exécution automatique est principalement destinée à la distribution publique des applications sur CD-ROM et DVD-ROM, et son utilisation est déconseillée pour d’autres supports de stockage. Toutefois, il est souvent utile d’activer l’exécution automatique sur d’autres types de supports de stockage amovibles. Cette fonctionnalité est généralement utilisée pour simplifier le débogage des fichiers AutoRun. inf. L’exécution automatique fonctionne uniquement sur les périphériques de stockage amovibles lorsque les critères suivants sont satisfaits :
 
@@ -162,7 +162,7 @@ L’exécution automatique est principalement destinée à la distribution publi
 
 Normalement, l’exécution automatique démarre automatiquement, mais elle peut également être démarrée manuellement. Si l’appareil est conforme aux critères ci-dessus, le menu contextuel de la lettre de lecteur inclut une commande d' **exécution automatique** . Pour exécuter l’exécution automatique manuellement, cliquez avec le bouton droit sur l’icône du lecteur et sélectionnez **exécution automatique** dans le menu contextuel ou double-cliquez sur l’icône du lecteur. Si les pilotes ne sont pas compatibles avec l’exécution automatique, le menu contextuel n’a pas d’élément de **lecture automatique** et l’exécution automatique ne peut pas être démarrée.
 
-Les pilotes compatibles avec l’exécution automatique sont fournis avec des lecteurs de disque amovibles, ainsi que d’autres types de supports amovibles, tels que les cartes CompactFlash. AutoRun fonctionne également avec les lecteurs réseau mappés à une lettre de lecteur avec l’Explorateur Windows ou montés avec la [console MMC (Microsoft Management Console)](/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page). Comme pour le matériel monté, un lecteur réseau monté doit avoir un fichier autorun. inf dans son répertoire racine et ne doit pas être désactivé par le biais du [Registre](#using-the-registry-to-disable-autorun).
+Les pilotes compatibles avec l’exécution automatique sont fournis avec des lecteurs de disque amovibles, ainsi que d’autres types de supports amovibles, tels que les cartes CompactFlash. AutoRun fonctionne également avec les lecteurs réseau mappés à une lettre de lecteur avec l’explorateur de Windows ou montés avec la [console MMC (Microsoft Management Console)](/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page). Comme pour le matériel monté, un lecteur réseau monté doit avoir un fichier autorun. inf dans son répertoire racine et ne doit pas être désactivé par le biais du [Registre](#using-the-registry-to-disable-autorun).
 
  
 

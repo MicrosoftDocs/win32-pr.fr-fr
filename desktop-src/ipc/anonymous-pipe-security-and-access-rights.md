@@ -4,16 +4,16 @@ ms.assetid: 17813ce1-b3f6-408f-9c55-5caa7eda6738
 title: Sécurité des canaux anonymes et droits d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02935a3b2bc5ea31d88aab3f23f23c348c054e5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b54869584a70bfbe886740e979c44864d852de0df23e311eb4aad89c321662c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118756356"
 ---
 # <a name="anonymous-pipe-security-and-access-rights"></a>Sécurité des canaux anonymes et droits d’accès
 
-La sécurité Windows vous permet de contrôler l’accès aux canaux anonymes. Pour plus d’informations sur la sécurité, consultez [modèle de contrôle d’accès](/windows/desktop/SecAuthZ/access-control-model).
+Windows security vous permet de contrôler l’accès aux canaux anonymes. Pour plus d’informations sur la sécurité, consultez [modèle de contrôle d’accès](/windows/desktop/SecAuthZ/access-control-model).
 
 Vous pouvez spécifier un [descripteur de sécurité](/windows/desktop/SecAuthZ/security-descriptors) pour un canal quand vous appelez la fonction [**CreatePipe**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-createpipe) . Le descripteur de sécurité contrôle l’accès aux extrémités de lecture et d’écriture du canal. Si vous spécifiez **null**, le canal obtient un descripteur de sécurité par défaut. Les listes de contrôle d’accès dans le descripteur de sécurité par défaut pour un canal proviennent du jeton principal ou d’emprunt d’identité du créateur.
 

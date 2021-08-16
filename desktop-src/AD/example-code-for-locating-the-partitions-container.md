@@ -8,12 +8,12 @@ keywords:
 - Partitions de l’annuaire d’applications Active Directory, exemple de code pour localiser le conteneur partitions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3f10156894a71a3308b58d125c16782497e5f29
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5757e638e046089d828ee1c681d04ec210986181cb74ec3b1253c05515eda2fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106536887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962307"
 ---
 # <a name="example-code-for-locating-the-partitions-container"></a>Exemple de code pour localiser le conteneur partitions
 
@@ -150,7 +150,7 @@ HRESULT GetPartitionsDNSearch(LPWSTR *ppwszPartitionsDN)
 
 
 
-L’exemple de code Visual Basic Scripting Edition suivant obtient le nom unique du conteneur partitions en recherchant l’objet [**crossRefContainer**](/windows/desktop/ADSchema/c-crossrefcontainer) dans le conteneur de configuration.
+l’exemple de code Visual Basic scripting Edition suivant obtient le nom unique du conteneur partitions en recherchant l’objet [**crossRefContainer**](/windows/desktop/ADSchema/c-crossrefcontainer) dans le conteneur de configuration.
 
 
 ```VB
@@ -262,7 +262,7 @@ HRESULT GetPartitionsDNManual(LPWSTR *ppwszPartitionsDN)
 
 
 
-L’exemple de code Visual Basic suivant obtient le nom unique du conteneur partitions en créant manuellement le nom unique.
+l’exemple de code Visual Basic suivant obtient le nom unique du conteneur partitions en créant manuellement le nom unique.
 
 
 ```VB
@@ -317,7 +317,7 @@ static string GetPartitionsDN()
 
 
 
-L’exemple de code Visual Basic .NET suivant obtient le nom unique du conteneur de partition en recherchant l’objet [**crossRefContainer**](/windows/desktop/ADSchema/c-crossrefcontainer) dans le conteneur de configuration. Cet exemple utilise Visual Basic .NET avec System. DirectoryServices.
+l’exemple de code Visual Basic .net suivant obtient le nom unique du conteneur de Partition en recherchant l’objet [**crossRefContainer**](/windows/desktop/ADSchema/c-crossrefcontainer) dans le conteneur de configuration. cet exemple utilise Visual Basic .net avec System. DirectoryServices.
 
 
 ```VB
@@ -352,6 +352,6 @@ End Function
 
 
 
- 
+ 
 
- 
+ 

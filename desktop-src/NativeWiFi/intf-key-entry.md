@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - wzcsapi.h
-ms.openlocfilehash: 91f25708e79be4f85c4200bd690404ff39f567d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d14c65d49d7ed28e2756c2a690cb4a7efa9000417e896a206710bf4365f8cd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065149"
 ---
 # <a name="intf_key_entry-structure"></a>Structure d’entrée de \_ clé INTF \_
 
-\[**INTF \_ L' \_ entrée de clé** n’est plus prise en charge à partir de Windows Vista et windows Server 2008. Utilisez plutôt l' [API WiFi Native](native-wifi-reference.md), qui offre des fonctionnalités similaires. Pour plus d’informations, consultez [à propos de l’API WiFi Native](about-the-native-wifi-api.md).\]
+\[**INTF \_ l' \_ entrée de clé** n’est plus prise en charge à partir de Windows Vista et Windows Server 2008. Utilisez plutôt l' [API WiFi Native](native-wifi-reference.md), qui offre des fonctionnalités similaires. Pour plus d’informations, consultez [à propos de l’API WiFi Native](about-the-native-wifi-api.md).\]
 
 La structure d' **\_ \_ entrée de clé INTF** stocke les informations clés sur une interface de réseau local sans fil gérée par le service de configuration sans fil.
 
@@ -48,10 +48,10 @@ Pointeur vers le GUID d’interface représenté sous la forme d’une chaîne U
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
-> Le fichier d’en-tête *wzcsapi. h* n’est pas disponible dans le SDK Windows.
+> le fichier d’en-tête *Wzcsapi. h* n’est pas disponible dans le SDK Windows.
 
  
 
@@ -62,7 +62,7 @@ Pointeur vers le GUID d’interface représenté sous la forme d’une chaîne U
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                 |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                 |
 | Fin de la prise en charge des clients<br/>    | Windows XP avec SP3<br/>                                                       |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                       |
 | En-tête<br/>                   | <dl> <dt>Wzcsapi. h</dt> </dl> |

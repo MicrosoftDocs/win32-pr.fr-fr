@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1a2273fd819faf9d89b66b830501c36b0ad61d3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fa2e71ddc8940786e83c9f15d458aca8ffae17bf305c1f1dc684b04d290640cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103942987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960118"
 ---
 # <a name="pki-max-issuing-depth-attribute"></a>PKI-Max-Emission-Depth (attribut)
 
@@ -36,7 +36,7 @@ Longueur maximale de la chaîne de certificats émise par le certificat.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1329              |
 | System-ID-GUID    | f0bfdefa-3b9d-11d2-90cc-00c04fd91ab1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Longueur maximale de la chaîne de certificats émise par le certificat.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

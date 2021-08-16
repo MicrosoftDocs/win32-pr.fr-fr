@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c44e80fa634067ea8b0336cbc63cbf33c09ab2e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d69dc91a1ab2ce7e8045707d3b6fd9dcb2a8a67d8d0231982bb13c8fc61ec253
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960338"
 ---
 # <a name="ms-pki-template-minor-revision-attribute"></a>MS-PKI-template-mineur-Revision (attribut)
 
@@ -36,7 +36,7 @@ Effectue le suivi des attributs dans la modification de la classe. Toutefois, ce
 | Fréquence des mises à jour  | Lorsque l’objet modèle de certificat (MS-PKI-Certificate-template) est modifié, créé ou cloné. |
 | Attribute-Id      | 1.2.840.113556.1.4.1435                                                                           |
 | System-ID-GUID    | 13f5236c-1884-46b1-b5d0-484e38990d58                                                              |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)                                                              |
+| Syntaxe            | [**Énumération**](s-enumeration.md)                                                              |
 
 
 
@@ -44,7 +44,7 @@ Effectue le suivi des attributs dans la modification de la classe. Toutefois, ce
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

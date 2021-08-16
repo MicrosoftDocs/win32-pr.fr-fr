@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e3c210ca60abc9e55b8864a2b121cf92be369a3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3d397f856fec49cf9909cd7089a1067250e78ca3f97c72d913d0ffdc146efb93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103761983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118532146"
 ---
 # <a name="id3dx11effecttype-interface"></a>Interface ID3DX11EffectType
 
@@ -51,7 +51,7 @@ L’interface **ID3DX11EffectType** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir des informations sur un type d’effet à partir d’une variable Effect, appelez [**ID3DX11EffectVariable :: GetType**](id3dx11effectvariable-gettype.md).
 
@@ -60,7 +60,7 @@ Pour obtenir des informations sur un type d’effet à partir d’une variable E
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

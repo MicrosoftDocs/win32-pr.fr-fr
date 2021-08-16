@@ -57,7 +57,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 Cette instruction est incluse pour faciliter le débogage d’un nuanceur dans l’assembly. vous ne pouvez pas créer de nuanceur dans un langage assembleur à l’aide du nuanceur modèle 4.
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 Voici quelques exemples du code généré pour les registres indexables.
 

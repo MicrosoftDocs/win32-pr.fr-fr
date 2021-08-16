@@ -4,12 +4,12 @@ description: Animations Microsoft Agent pour le caractère Robby
 ms.assetid: 05baf1ab-3217-4da4-9562-6719c58cd744
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 347c95fd6a29af72041d3b9e1192167d34602260
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8ef6cf0fc3d44f9783fe3d22f9f0d2b291e6acc51bd5bb72890af793ffe55156
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119609099"
 ---
 # <a name="microsoft-agent-animations-for-robby-character"></a>Animations Microsoft Agent pour le caractère Robby
 
@@ -76,13 +76,13 @@ Le fichier de caractères comprend des effets sonores pour certaines animations,
 | **Heureux**               | Oui, utilisation des branches de sortie | Oui               | **Oui**       | Aucun                                         | Sourires et redresser                                  |
 | **Processus**               | Non                       | Non                | **Oui**       | Aucun                                         | Appuie sur les boutons, imprime, lit, puis rejette l’impression       |
 | **Traitement**            | Oui, utilisation des branches de sortie | Non                | **Oui**       | Aucun                                         | Appuie sur les boutons, imprime, lit, puis rejette l’impression       |
-| **Lire**                  | **ReadReturn**           | Oui               | **Oui**       | Aucun                                         | Impressions, lectures et recherches                                |
+| **Lecture**                  | **ReadReturn**           | Oui               | **Oui**       | Aucun                                         | Impressions, lectures et recherches                                |
 | **ReadContinued**         | **ReadReturn**           | Oui               | **Oui**       | Aucun                                         | Lectures et recherches                                         |
 | **ReadReturn**            | Aucun                     | Non                | **Oui**       | Aucun                                         | Retourne à la position neutre                                |
 | **Lecture**               | Oui, utilisation des branches de sortie | Non                | **Oui**       | Aucun                                         | Impressions, lectures et recherches (animation de \* bouclage)          |
 | **RestPose**              | Aucun                     | Oui               | **Non**        | **Parlez**                                 | Position neutre                                           |
 | **Fer**                   | Oui, utilisation des branches de sortie | Oui               | **Non**        | Aucun                                         | Expression Sad                                             |
-| **Recherche**                | Non                       | Non                | **Oui**       | Aucun                                         | Affiche la boîte à outils et supprime l’outil                           |
+| **action**                | Non                       | Non                | **Oui**       | Aucun                                         | Affiche la boîte à outils et supprime l’outil                           |
 | **Dans**             | Oui, utilisation des branches de sortie | Non                | **Oui**       | Aucun                                         | Affiche la boîte à outils et supprime les outils ( \* animation de bouclage)    |
 | **Afficher**                  | Aucun                     | Non                | **Oui**       | **Affichage**                                  | S’affiche via la porte                                    |
 | **StartListening**        | Oui, utilisation des branches de sortie | Oui               | **Non**        | Aucun                                         | Place à l’oreille                                           |
@@ -93,7 +93,7 @@ Le fichier de caractères comprend des effets sonores pour certaines animations,
 | **Opération en cours**              | Non                       | Non                | **Oui**       | Aucun                                         | Tête Scratch ( \* animation de bouclage)                       |
 | **Connaître**             | Oui, utilisation des branches de sortie | Oui               | **Non**        | Aucun                                         | Shrugs                                                     |
 | **Wave**                  | Oui, utilisation des branches de sortie | Oui               | **Non**        | Aucun                                         | Fréquences                                                      |
-| **Écrire**                 | **WriteReturn**          | Oui               | **Oui**       | Aucun                                         | Révèle le crayon et le presse-papiers, les écritures et les recherches          |
+| **Écriture**                 | **WriteReturn**          | Oui               | **Oui**       | Aucun                                         | Révèle le crayon et le presse-papiers, les écritures et les recherches          |
 | **WriteContinued**        | **WriteReturn**          | Oui               | **Oui**       | Aucun                                         | Écritures et recherches                                        |
 | **WriteReturn**           | Aucun                     | Non                | **Non**        | Aucun                                         | Retourne à la position neutre                                |
 | **Écriture**               | Oui, utilisation des branches de sortie | Non                | **Oui**       | Aucun                                         | Révèle le crayon et le presse-papiers, les écritures ( \* animation de bouclage) |

@@ -54,10 +54,10 @@ Contient le nom phonétique donné ou le prénom de la personne.
 |------------------------|--------------------------------------------------------------------|
 | ID de lien                | \-                                                                 |
 | MAPI-Id                | 0x8C8E                                                             |
-| System-Only            | False                                                              |
-| Est de valeur unique       | True                                                               |
-| Est indexé             | True                                                               |
-| Dans le catalogue global      | True                                                               |
+| System-Only            | Faux                                                              |
+| Est de valeur unique       | Vrai                                                               |
+| Est indexé             | Vrai                                                               |
+| Dans le catalogue global      | Vrai                                                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                       |
 | Range-Lower            | 1                                                                  |
 | Range-Upper            | 64                                                                 |
@@ -75,10 +75,10 @@ Contient le nom phonétique donné ou le prénom de la personne.
 |------------------------|--------------------------------------------------------------------|
 | ID de lien                | \-                                                                 |
 | MAPI-Id                | 0x8C8E                                                             |
-| System-Only            | False                                                              |
-| Est de valeur unique       | True                                                               |
-| Est indexé             | True                                                               |
-| Dans le catalogue global      | True                                                               |
+| System-Only            | Faux                                                              |
+| Est de valeur unique       | Vrai                                                               |
+| Est indexé             | Vrai                                                               |
+| Dans le catalogue global      | Vrai                                                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                       |
 | Range-Lower            | 1                                                                  |
 | Range-Upper            | 64                                                                 |
@@ -96,10 +96,10 @@ Contient le nom phonétique donné ou le prénom de la personne.
 |------------------------|--------------------------------------------------------------------|
 | ID de lien                | \-                                                                 |
 | MAPI-Id                | 0x8C8E                                                             |
-| System-Only            | False                                                              |
-| Est de valeur unique       | True                                                               |
-| Est indexé             | True                                                               |
-| Dans le catalogue global      | True                                                               |
+| System-Only            | Faux                                                              |
+| Est de valeur unique       | Vrai                                                               |
+| Est indexé             | Vrai                                                               |
+| Dans le catalogue global      | Vrai                                                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                       |
 | Range-Lower            | 1                                                                  |
 | Range-Upper            | 64                                                                 |

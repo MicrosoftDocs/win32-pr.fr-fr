@@ -5,12 +5,12 @@ ms.assetid: 22d6a220-7712-4b07-a6d9-67dd748358a6
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33a8b6eb65706ad3adc9fd4c10b4c60f96a72848
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a16e4ff9890aa73b1107fe511c3e41480b5db7f1bb68a8a264a990cf58a94ea4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962318"
 ---
 # <a name="example-code-for-installing-a-static-context-menu-item"></a>Exemple de code pour l’installation d’un élément de menu contextuel statique
 
@@ -18,8 +18,8 @@ L’exemple de code suivant utilise deux scripts. Le premier script (Frommenu.vb
 
 Pour exécuter l’exemple de code
 
-1.  Copiez le code pour Frommenu.vbs ci-dessous, ouvrez le bloc-notes, collez le code dans le bloc-notes, enregistrez le fichier en tant que C : \\frommenu.vbs, puis fermez le bloc-notes.
-2.  Copiez le code pour Addmenu.vbs ci-dessous, ouvrez le bloc-notes, collez le code dans le bloc-notes, enregistrez le fichier en tant que C : \\addmenu.vbs, puis fermez le bloc-notes.
+1.  copiez le code pour Frommenu.vbs ci-dessous, ouvrez Bloc-notes, collez le code dans Bloc-notes, enregistrez le fichier en tant que C : \\frommenu.vbs, puis fermez Bloc-notes.
+2.  copiez le code pour Addmenu.vbs ci-dessous, ouvrez Bloc-notes, collez le code dans Bloc-notes, enregistrez le fichier en tant que C : \\addmenu.vbs, puis fermez Bloc-notes.
 3.  Exécutez Addmenu.vbs.
 4.  Démarrez le composant logiciel enfichable utilisateurs et ordinateurs Active Directory.
 
@@ -126,9 +126,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

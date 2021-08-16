@@ -4,12 +4,12 @@ ms.assetid: f0209d5c-a7ca-4cee-ad0d-7a09c31cad3a
 title: System. photo. MeteringModeText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9eab313a8aa6dd255cd56f1cdcb5babf69e2d2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3567855948306499fba14a1bc2d13944634eb871b97e680630af71a9b5f16f74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033327"
 ---
 # <a name="systemphotometeringmodetext"></a>System. photo. MeteringModeText
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

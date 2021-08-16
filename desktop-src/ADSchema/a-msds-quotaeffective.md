@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fe610c87c356431883cecded5eda3e0a9c42297
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 722daf2728992c441771830babf3b2b2bf9b4230367baae12a0d71264876ebc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960588"
 ---
 # <a name="ms-ds-quota-effective-attribute"></a>ms-DS-attribut quota-effectif
 
@@ -36,7 +36,7 @@ Quota effectif pour un principal de sécurité calculé à partir des quotas att
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1848              |
 | System-ID-GUID    | 6655b152-101c-48b4-b347-e1fcebc60157 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Quota effectif pour un principal de sécurité calculé à partir des quotas att
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

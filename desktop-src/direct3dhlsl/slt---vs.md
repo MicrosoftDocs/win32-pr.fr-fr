@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f6476ec24f82295d56b04682dfa4320547672b43
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 76117b802826d9c8b95264cdc07071c85db4a395e66124fc923ba5f9f11b9d7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104030566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095179"
 ---
 # <a name="slt---vs"></a>des SLT-vs
 
@@ -29,7 +29,7 @@ Calcule le signe si la première source est inférieure à la deuxième source.
 
 
 
- 
+ 
 
 where
 
@@ -37,7 +37,7 @@ where
 -   src0 est un registre source.
 -   src1 est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -47,7 +47,7 @@ where
 
 
 
- 
+ 
 
 Le fragment de code suivant montre les opérations effectuées.
 
@@ -68,9 +68,9 @@ dest.w = (src0.w < src1.w) ? 1.0f : 0.0f;
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

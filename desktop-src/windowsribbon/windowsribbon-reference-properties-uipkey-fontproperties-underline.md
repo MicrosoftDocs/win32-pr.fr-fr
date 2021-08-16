@@ -41,7 +41,7 @@ Le tableau suivant décrit les propriétés et le résultat de l’interface uti
 
 
 
-|      Property                   |       Résultat de l’interface utilisateur                                                          |
+|      Propriété                   |       Résultat de l’interface utilisateur                                                          |
 |---------------------------------|--------------------------------------------------------------------------|
 | `UI_FONTUNDERLINE_NOTAVAILABLE` | Le bouton **souligné** est désactivé et ne peut être défini que par l’application. |
 | `UI_FONTUNDERLINE_NOTSET`       | Le bouton **souligné** n’est pas sélectionné.                                    |

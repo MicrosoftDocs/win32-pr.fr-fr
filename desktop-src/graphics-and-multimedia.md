@@ -1,19 +1,19 @@
 ---
-description: Windows fournit des API et des composants qui prennent en charge les graphiques, les jeux et la création d’images.
+description: Windows fournit des api et des composants qui prennent en charge les graphiques, les jeux et la création d’images.
 ms.assetid: 516c969c-9f31-4f00-ac8c-140fdded72e1
 title: 'Graphismes et jeux '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b46cc79c489864c5299bf524b6447c43f45124b1
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 67534a46efb514c07f6bd9068687ebdda674725f0636ddb41c73e6b331ae57b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036277"
 ---
 # <a name="graphics-and-gaming"></a>Graphismes et jeux 
 
-Windows fournit des API et des composants qui prennent en charge les graphiques, les jeux et la création d’images.
+Windows fournit des api et des composants qui prennent en charge les graphiques, les jeux et la création d’images.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -23,9 +23,9 @@ Windows fournit des API et des composants qui prennent en charge les graphiques,
 | [DirectComposition](./directcomp/directcomposition-portal.md)<br/> | DirectComposition permet la composition d’une bitmap haute performance avec des transformations, des effets et des animations. Vous pouvez utiliser l’API DirectComposition pour créer des interfaces utilisateur visuellement attrayantes qui commesurent des transitions animées riches et fluides d’un visuel à un autre.<br/> |
 | [Mode jeu](/previous-versions/windows/desktop/gamemode/game-mode-portal)<br/> | Les API Mode Jeu pour la plateforme Windows universelle (UWP) vous permettent de créer une expérience de jeu optimale, en tirant parti du mode jeu de Windows 10.<br/> |
 | [Informations sur l’appareil de jeu](/previous-versions/windows/desktop/gamingdvcinfo/gaming-device-information-portal)<br/> | Les API de jeux d’informations sur les appareils permettent aux développeurs de jeux UWP de déterminer le type de console sur lequel le jeu s’exécute, afin d’effectuer des choix au moment de l’exécution pour utiliser au mieux le matériel.<br/> |
-| [Composant Imagerie Windows (WIC)](./wic/-wic-lh.md)<br/> | Le composant WIC (Windows Imaging Component) est une plateforme extensible qui fournit une API de bas niveau pour les images numériques. WIC prend en charge les formats d’image Web standard, les images de plage dynamique élevée et les données d’appareil photo brutes.<br/> |
-| [Win2D (site externe)](https://github.com/Microsoft/Win2D)<br/> | Win2D est une API Windows Runtime facile à utiliser pour le rendu d’éléments graphiques 2D en mode immédiat, avec accélération GPU. Elle est disponible pour \# les développeurs C et C++ qui écrivent des applications Windows pour Windows 8.1, Windows Phone 8,1 et Windows 10. Il utilise la puissance de Direct2D et s’intègre de façon transparente avec XAML et CoreWindow.<br/> |
-| [ANGLE pour le Windows Store (site externe)](https://github.com/microsoft/angle/wiki)<br/> | L’ANGLE pour le Windows Store est un projet open source qui permet aux développeurs d’exécuter du contenu OpenGL ES sur Windows en traduisant les appels de l’API ES OpenGL en appels d’API DirectX 11. L’ANGLE pour le Windows Store prend en charge Windows 8.1, Windows Phone 8,1 et Windows 10.<br/> |
+| [Composant Imagerie Windows (WIC)](./wic/-wic-lh.md)<br/> | le composant WIC (Windows Imaging Component) est une plateforme extensible qui fournit une API de bas niveau pour les images numériques. WIC prend en charge les formats d’image Web standard, les images de plage dynamique élevée et les données d’appareil photo brutes.<br/> |
+| [Win2D (site externe)](https://github.com/Microsoft/Win2D)<br/> | Win2D est une API Windows Runtime facile à utiliser pour le rendu d’éléments graphiques 2D en mode immédiat, avec accélération GPU. elle est disponible pour \# les développeurs C et C++ qui écrivent des applications Windows pour Windows 8.1, Windows Phone 8,1 et Windows 10. Il utilise la puissance de Direct2D et s’intègre de façon transparente avec XAML et CoreWindow.<br/> |
+| [ANGLE pour le magasin de Windows (Site externe)](https://github.com/microsoft/angle/wiki)<br/> | l’ANGLE pour Windows Store est un projet open source qui permet aux développeurs d’exécuter du contenu opengl es sur Windows en traduisant des appels d’api opengl es en appels d’api DirectX 11. l’ANGLE pour Windows Store prend en charge Windows 8.1, Windows Phone 8,1 et Windows 10.<br/> |
 
 > [!NOTE]
 > Depuis Windows 10 version 1809 (10.0 build 17763), TruePlay a été supprimé de Windows. La documentation TruePlay n’est pas publiée.

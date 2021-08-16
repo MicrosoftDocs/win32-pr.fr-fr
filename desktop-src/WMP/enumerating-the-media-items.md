@@ -4,26 +4,26 @@ description: Énumération des éléments multimédias
 ms.assetid: 1819b4c3-57ae-48fc-8a01-b699b5802b64
 keywords:
 - Lecteur Windows Media, sélections de synchronisation
-- Modèle objet du lecteur Windows Media, sélections de synchronisation
+- Lecteur Windows Media modèle objet, sélections de synchronisation
 - modèle objet, sélections de synchronisation
 - Lecteur Windows Media Mobile, sélections de synchronisation
-- Contrôle ActiveX du lecteur Windows Media, sélections de synchronisation
-- Contrôle ActiveX Windows Media Player Mobile, sélections de synchronisation
-- Contrôle ActiveX, sélections de synchronisation
+- contrôle de ActiveX Lecteur Windows Media, sélections de synchronisation
+- Lecteur Windows Media contrôle de ActiveX Mobile, sélections de synchronisation
+- contrôle de ActiveX, sélections de synchronisation
 - sélections, synchronisation
 - sélections de métafichiers, synchronisation
-- Sélections de métafichiers Windows Media, synchronisation
+- Windows Sélections de métafichiers multimédia, synchronisation
 - sélections de synchronisation, énumération
 - appareils mobiles, énumération
 - énumérations, sélections de synchronisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8e07148ed6978355056febfb2ad920e4b1380a3
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 96f6afd6c209f96edd011b6b5829af07583057bd9220c61015d8e8ffa9fe4bfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106545735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650909"
 ---
 # <a name="enumerating-the-media-items"></a>Énumération des éléments multimédias
 
@@ -162,9 +162,9 @@ Pour l’implémentation de la fonction GetPartnershipSyncState, consultez [dét
 [**Gestion des sélections de synchronisation**](managing-synchronization-playlists.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9fcb35cb-6813-46a5-aa38-e102f1b6b7dc
 title: Obtention de l’ID de session du processus en cours
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac76865bcfe9144e8b95d4642385804aaf1af8fa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4326020f145c98544132703611fbd783edac9ae9eb89a5c69f44b67dc997ca30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955978"
 ---
 # <a name="getting-the-session-id-of-the-current-process"></a>Obtention de l’ID de session du processus en cours
 

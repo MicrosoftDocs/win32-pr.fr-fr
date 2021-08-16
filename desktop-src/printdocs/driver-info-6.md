@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 20edef2aca2c6948984f5195b16711b78112354a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd90794fe4c6f41f8704cb626ddfcf9487c89da01afb8a2f8b1fddfe0efea43a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092069"
 ---
 # <a name="driver_info_6-structure"></a>\_Structure info \_ 6 du pilote
 
@@ -74,7 +74,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie le n
 **pEnvironment**
 </dt> <dd>
 
-Pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement pour lequel le pilote a été écrit (par exemple, Windows NT x86, Windows IA64 et Windows x64.
+pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement pour lequel le pilote a été écrit (par exemple, Windows NT x86, Windows IA64 et Windows x64.
 
 </dd> <dt>
 
@@ -172,11 +172,11 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie l’
 **pszProvider**
 </dt> <dd>
 
-Pointeur vers une chaîne se terminant par un caractère null qui spécifie le fournisseur du pilote d’imprimante (par exemple, « Microsoft Windows 2000 »)
+pointeur vers une chaîne se terminant par un caractère null qui spécifie le fournisseur du pilote d’imprimante (par exemple, « Microsoft Windows 2000 »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les chaînes de ces membres sont contenues dans le fichier. inf qui est utilisé pour ajouter le pilote.
 

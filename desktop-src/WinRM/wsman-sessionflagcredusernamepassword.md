@@ -5,8 +5,8 @@ ms.assetid: 70d12df4-f0ac-499a-8b2f-6ba83b77869e
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode SessionFlagCredUsernamePassword
-- Méthode SessionFlagCredUsernamePassword Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode SessionFlagCredUsernamePassword
+- méthode SessionFlagCredUsernamePassword Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode SessionFlagCredUsernamePassword
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84827f342f70b13f1a2f0192289b34e347f26045
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a0383d9f9bd5f7e565510bf62b0940fccc2e2d998e6419f770befa35a8a8e727
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119613509"
 ---
 # <a name="wsmansessionflagcredusernamepassword-method"></a>Méthode WSMan. SessionFlagCredUsernamePassword
 

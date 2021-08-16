@@ -4,12 +4,12 @@ ms.assetid: 1eb4395b-2df7-42d1-bc34-83a8593916c2
 title: System. GPS. LongitudeDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1467c81af9a89e45ca001fef4ad3144be8ecf471
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6ee1a16f71f4b95dd97bdab07d693f6ff27b8a229b56dcad40e1f3374316409
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091129"
 ---
 # <a name="systemgpslongitudedenominator"></a>System. GPS. LongitudeDenominator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Multivalue UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

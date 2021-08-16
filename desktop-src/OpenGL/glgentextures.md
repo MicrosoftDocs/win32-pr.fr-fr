@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 204a5d4fb736a88cf615577f4c740cde15d75829
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b28275bef054b26c2145ab9779ec776297ac7838d0313769123fb1be904a3bd3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625229"
 ---
 # <a name="glgentextures-function"></a>glGenTextures fonction)
 
@@ -72,7 +72,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glGenTextures** retourne *n* noms de texture dans le paramètre *textures* . Toutefois, les noms de texture ne sont pas nécessairement un ensemble contigu d’entiers. Toutefois, aucun des noms retournés ne peut être en cours d’utilisation juste avant l’appel de la fonction **glGenTextures** . Les textures générées supposent la dimensionnalité de la cible de texture à laquelle elles sont liées pour la première fois avec la fonction [**glBindTexture**](glbindtexture.md) . Les noms de texture retournés par **glGenTextures** ne sont pas retournés par les appels suivants à **glGenTextures** , sauf s’ils sont d’abord supprimés en appelant [**glDeleteTextures**](gldeletetextures.md).
 

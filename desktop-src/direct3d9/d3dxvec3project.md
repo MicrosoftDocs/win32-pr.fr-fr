@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a5a9abcb54c883d74bde831570b9df0b40fedfae
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1bb0d7b962dd4595ec9246c036d4ff9e459e062f366b6e62f46cce1a5a3ebab9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118803811"
 ---
 # <a name="d3dxvec3project-function-d3dx9mathh"></a>D3DXVec3Project, fonction (D3dx9math. h)
 
@@ -99,13 +99,13 @@ Pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) représentant la mat
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXVECTOR3**](d3dxvector3.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) qui est le vecteur projeté de l’espace de l’objet à l’espace à l’écran.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec3Project** peut être utilisée comme paramètre pour une autre fonction.
 

@@ -1,17 +1,17 @@
 ---
 description: Les fonctions suivantes sont utilisées pour récupérer ou définir des informations système.
 ms.assetid: aa7deebf-7dce-4147-8a15-1d7411aea0fa
-title: Fonctions d’informations système
+title: System Information Mission
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c88c9a3e01a526ab3947aba8b4b7a312b9c1235
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 675c2e5dfc9df9029a8ca7f5d4dc9468dd16a9d65cbd9ffa91edf6dc618e0e11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763458"
 ---
-# <a name="system-information-functions"></a>Fonctions d’informations système
+# <a name="system-information-functions"></a>System Information Mission
 
 Les fonctions suivantes sont utilisées pour récupérer ou définir des informations système.
 
@@ -37,14 +37,14 @@ Les fonctions suivantes sont utilisées pour récupérer ou définir des informa
 | [**GetSystemFirmwareTable**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable)                     | Récupère la table du microprogramme spécifiée à partir du fournisseur de la table du microprogramme.                                                                                                                                                          |
 | [**GetSystemInfo**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsysteminfo)                                       | Récupère des informations sur le système actuel.                                                                                                                                                                                   |
 | [**GetSystemRegistryQuota**](/windows/desktop/api/Winbase/nf-winbase-getsystemregistryquota)                     | Récupère la taille actuelle du Registre et la taille maximale que le Registre est autorisé à atteindre sur le système.                                                                                                             |
-| [**GetSystemWindowsDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemwindowsdirectorya)               | Récupère le chemin d’accès du répertoire Windows partagé sur un système multi-utilisateur.                                                                                                                                                        |
+| [**GetSystemWindowsDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemwindowsdirectorya)               | récupère le chemin d’accès du répertoire de Windows partagé sur un système multi-utilisateur.                                                                                                                                                        |
 | [**GetSystemWow64Directory**](/windows/win32/api/wow64apiset/nf-wow64apiset-getsystemwow64directorya)                   | Récupère le chemin d’accès du répertoire système utilisé par WOW64.                                                                                                                                                                         |
 | [**GetSystemWow64Directory2**](/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directory2a)                 | Récupère le chemin d’accès du répertoire système utilisé par WOW64, à l’aide du type d’ordinateur du fichier image spécifié.                                                                                                                            |
 | [**GetUserName**](/windows/desktop/api/Winbase/nf-winbase-getusernamea)                                           | Récupère le nom d’utilisateur du thread actuel.                                                                                                                                                                                    |
 | [**GetUserNameEx**](/windows/desktop/api/Secext/nf-secext-getusernameexa)                                       | Récupère le nom de l’utilisateur ou d’un autre principal de sécurité associé au thread appelant. Vous pouvez spécifier le format du nom retourné.                                                                                   |
 | [**GetVersion**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversion)                                             | Récupère le numéro de version du système d’exploitation actuel.                                                                                                                                                                     |
 | [**Tourne**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa)                                         | Récupère des informations sur le système d’exploitation actuel.                                                                                                                                                                         |
-| [**GetWindowsDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya)                           | Récupère le chemin d’accès du répertoire Windows.                                                                                                                                                                                      |
+| [**GetWindowsDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya)                           | récupère le chemin d’accès du répertoire de Windows.                                                                                                                                                                                      |
 | [**IsNativeVhdBoot**](/windows/desktop/api/Winbase/nf-winbase-isnativevhdboot)                                   | Indique si le système d’exploitation a été démarré à partir d’un conteneur de disque dur virtuel.                                                                                                                                                                              |
 | [**IsWow64GuestMachineSupported**](/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64guestmachinesupported)         |                                                                                                                                                                                                                                   |
 | [**IsProcessorFeaturePresent**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-isprocessorfeaturepresent)               | Détermine si une fonctionnalité de processeur est prise en charge par l’ordinateur actuel.                                                                                                                                                      |

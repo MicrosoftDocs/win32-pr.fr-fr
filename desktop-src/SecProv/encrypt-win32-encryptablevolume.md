@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 463f13c250404e9a66095144166e74dbfae933ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6e2ed0eea4bb9c70949a3916733bf2777397fcb509ba0ce2f91633bf15a74d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118892467"
 ---
 # <a name="encrypt-method-of-the-win32_encryptablevolume-class"></a>Méthode Encrypt de la \_ classe EncryptableVolume Win32
 
@@ -56,11 +56,11 @@ Entier non signé qui spécifie l’algorithme de chiffrement et la taille de cl
 
 Pour obtenir la liste des valeurs de EncryptionMethod possibles, consultez la méthode [**GetEncryptionMethod**](getencryptionmethod-win32-encryptablevolume.md) .
 
-La valeur par défaut pour Windows 7 ou une valeur inférieure est : 1 (AES \_ 128 \_ avec \_ diffuseur).
+la valeur par défaut pour Windows 7 ou en dessous est : 1 (AES \_ 128 \_ avec \_ diffuseur).
 
-La valeur par défaut pour Windows 8, Windows 8.1 ou Windows 10, version 1507 est : 3 (AES \_ 128).
+la valeur par défaut pour Windows 8, Windows 8.1 ou Windows 10, version 1507 est : 3 (AES \_ 128).
 
-La valeur par défaut pour Windows 10, version 1511 ou ultérieure est : 6 (XTS \_ AES \_ 128).
+la valeur par défaut pour Windows 10, version 1511 ou ultérieure est : 6 (XTS \_ AES \_ 128).
 
 </dd> <dt>
 
@@ -71,7 +71,7 @@ Type : **UInt32**
 
 Indicateurs qui décrivent le comportement de chiffrement.
 
-**Windows 7, Windows server 2008 R2, Windows Vista entreprise et Windows server 2008 :** Ce paramètre n’est pas disponible.
+**Windows 7, Windows server 2008 R2, Windows Vista Enterprise et Windows Server 2008 :** Ce paramètre n’est pas disponible.
 
 Combinaison de 32 bits avec les bits suivants actuellement définis.
 
@@ -155,15 +155,15 @@ Cette méthode est retournée immédiatement. Si le volume est déjà entièreme
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Lorsque vous utilisez cette méthode sans le second paramètre facultatif (selon la définition de Windows 7 et de Windows Vista Enterprise), la méthode lance toujours la conversion en mode complet afin de conserver un comportement à compatibilité descendante. De cette façon, l’attente de sécurité des applications et des scripts existants ne sera pas interrompue par l’ajout du deuxième paramètre facultatif dans Windows 8 et Windows Server 2012.
+lorsque vous utilisez cette méthode sans le second paramètre facultatif (selon la définition de la Windows 7 et Windows Vista Enterprise), la méthode lance toujours la conversion en mode complet afin de conserver un comportement à compatibilité descendante. de cette façon, l’attente de sécurité des applications et des scripts existants ne sera pas interrompue par l’ajout du deuxième paramètre facultatif dans Windows 8 et Windows Server 2012.
 
 Vous pouvez appeler [**GetConversionStatus**](getconversionstatus-win32-encryptablevolume.md) pour déterminer si le chiffrement est en cours et le pourcentage du volume qui a été chiffré.
 
 Une fois que le volume est entièrement chiffré et que des protecteurs de clés ont été ajoutés et activés, l’état de protection du volume passe à « activé ».
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -171,8 +171,8 @@ Les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista entreprise, les applications de bureau Windows Vista Édition intégrale \[ uniquement\]<br/>                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows vista Enterprise, Windows les applications de bureau vista Ultimate \[ uniquement\]<br/>                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |
 

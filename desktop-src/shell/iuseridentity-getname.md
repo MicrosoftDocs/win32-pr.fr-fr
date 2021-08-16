@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 88c0a3d08ff917c2cc9fd59f15e4c23fc22fc79d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 035f7c61290fb60e70821f0a43676c41dca0fc92cebc8ecfb963bb757ab47a5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661189"
 ---
 # <a name="iuseridentitygetname-method"></a>IUserIdentity :: GetName, méthode
 
@@ -45,13 +45,13 @@ HRESULT GetName(
 *pszName* \[ dans\]
 </dt> <dd>
 
-Type : **WCHAR \** _
+Type : **WCHAR \***
 
 Pointeur vers une chaîne de caractères larges qui reçoit le nom de cette identité d’utilisateur.
 
 </dd> <dt>
 
-_ulBuffSize * \[ dans\]
+*ulBuffSize* \[ dans\]
 </dt> <dd>
 
 Type : **ULong**
@@ -66,14 +66,14 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                  |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                         |
 | En-tête<br/>                   | <dl> <dt>Msident. h</dt> </dl>   |
