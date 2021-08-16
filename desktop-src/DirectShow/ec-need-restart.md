@@ -4,12 +4,12 @@ ms.assetid: 58f17338-dd60-4b77-80d3-b6b6a76af9b2
 title: EC_NEED_RESTART (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9651ae51b8dd8969a95b4f5e9d5093ec2e879f0a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fae3426048229c19b1d35a061d67d3d1d0a3149a8f820e891987c88405b76f7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820141"
 ---
 # <a name="ec_need_restart"></a>redémarrage de l’EC \_ requis \_
 
@@ -37,7 +37,7 @@ Zéro.
 
 Le gestionnaire de graphique de filtre met en pause et redémarre le graphique. Elle ne passe pas l’événement à l’application.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si un filtre rejette un échantillon au milieu d’un flux, le pin amont arrête de fournir des exemples. Le filtre peut redémarrer le flux en envoyant cet événement. Par exemple, le convertisseur audio peut perdre l’accès au périphérique audio, car une fenêtre vidéo a perdu le focus. À ce stade, le convertisseur audio commence à rejeter des exemples. Lorsqu’il regagne l’accès au périphérique audio, il envoie cet événement pour redémarrer le flux audio.
 
@@ -58,7 +58,7 @@ Si un filtre rejette un échantillon au milieu d’un flux, le pin amont arrête
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: f54eaa09-7ce8-4948-a0c5-edf2d054f6d5
 title: Règles de validation AppSequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ea44c1ee2d157608ddd1756e71d7183f310df87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73f2acec9d9d3858b5d68b0240499d95dba059ac1bcac745f1dc69bebc2056a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738642"
 ---
 # <a name="appsequence-validation-rules"></a>Règles de validation AppSequence
 
@@ -34,7 +34,7 @@ WSDAPI ignore les messages de WS-Discovery dupliqués. Si deux messages WS-Disco
 
 <dl> <dt>
 
-[Modèles de message d’échange de métadonnées et de découverte](discovery-and-metadata-exchange-message-patterns.md)
+[détection et schémas de Message Exchange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
 </dt> </dl>
 
  

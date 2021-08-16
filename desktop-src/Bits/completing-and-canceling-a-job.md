@@ -9,12 +9,12 @@ keywords:
 - achèvement d’un travail BITS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeb5cd6a33cf8cefa8749a1802c922dc80518722
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 348ee7c4ad4b9a38350e6a1f25d8d05d206b299518cf25197b643dbcb15cb4a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835054"
 ---
 # <a name="completing-and-canceling-a-job"></a>Finalisation et annulation d’un travail
 
@@ -28,9 +28,9 @@ La méthode [**Cancel**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-ca
 
 Si vous n’appelez pas la méthode [**Complete**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-complete) ou la méthode [**méthode ibackgroundcopyjob :: Cancel**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-cancel) dans un délai de 90 jours (par défaut [paramètre jobinactivitytimeout](group-policies.md) stratégie de groupe), le service annule le travail. Si le service annule le travail, les fichiers téléchargés et le fichier de réponse ne sont pas disponibles pour le client ; l’annulation du travail n’affecte pas les fichiers qui ont été téléchargés avec succès. Vous devez toujours appeler la méthode **Complete** ou **Cancel** et ne pas compter sur la stratégie paramètre jobinactivitytimeout pour nettoyer vos travaux. Les travaux laissés dans la file d’attente peuvent empêcher les utilisateurs de créer d’autres travaux si la limite de stratégie MaxJobsPerUser ou MaxJobsPerMachine est atteinte.
 
- 
+ 
 
- 
+ 
 
 
 

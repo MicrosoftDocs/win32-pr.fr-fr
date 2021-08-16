@@ -7,12 +7,12 @@ keywords:
 - haute résolution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6548849416268f31b8b0c4a4261347c818ffa24c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ec5c48f9a1b3552115ebbec8a54a6878716ef34675e41193ae08fb9cb8e55bc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825981"
 ---
 # <a name="direct2d-and-high-dpi"></a>Direct2D et haute résolution
 
@@ -37,7 +37,7 @@ Le pipeline graphique Direct2D est conçu pour évoluer de 96 PPP à 1200DPI.
 
 ## <a name="windows-8-and-high-dpi"></a>Windows 8 et haute résolution
 
-À compter de Windows 8, il existe des fonctionnalités supplémentaires pour la prise en charge de la haute résolution.
+à partir de Windows 8, il existe des fonctionnalités supplémentaires pour la prise en charge de la haute résolution.
 
 Si le contexte de périphérique PPP est suffisamment élevé, Direct2D modifie le seuil qu’il utilise pour activer l’anticrénelage vertical du texte. Cela aboutit à un rendu de texte plus rapide sur les affichages haute résolution. En outre, vous pouvez basculer le mode d’unité sur les pixels au lieu de DIP à l’aide de la méthode [**ID2D1DeviceContext :: SetUnitMode**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setunitmode) . Si vous définissez le mode d’unité sur pixels et le contexte de périphérique sur la résolution d’écran, l’optimisation est toujours activée.
 
@@ -57,9 +57,9 @@ Pour convertir un pixel physique en DIP, utilisez la formule suivante :
 
 > [!Note]
 >
-> À compter de Windows 8, vous pouvez basculer le mode d’unité sur les pixels au lieu de DIP à l’aide de la méthode [**ID2D1DeviceContext :: SetUnitMode**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setunitmode) .
+> à partir de Windows 8, vous pouvez basculer le mode d’unité sur les pixels au lieu de dip à l’aide de la méthode [**ID2D1DeviceContext :: SetUnitMode**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setunitmode) .
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -68,6 +68,6 @@ Pour convertir un pixel physique en DIP, utilisez la formule suivante :
 [Comment garantir que votre application s’affiche correctement sur les affichages haute résolution](how-to--size-a-window-properly-for-high-dpi-displays.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

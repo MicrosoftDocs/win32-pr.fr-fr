@@ -4,12 +4,12 @@ ms.assetid: 3ccd6a78-8bc3-4a46-8f11-7c2ae8a23c63
 title: PKEY_Device_FriendlyName (Functiondiscoverykeys \_ devpkey. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fab8b8f30e04ae66356fb0910e3767d74b7b697a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 148a9d7f87b32b7175aa794f769d2fa67b42c86c44e8cc7bf773d3fa6b09d106
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103846953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406425"
 ---
 # <a name="pkey_device_friendlyname"></a>Périphérique de l' \_ appareil \_
 
@@ -25,8 +25,8 @@ Le membre **pwszVal** de la structure **PROPVARIANT** pointe vers une chaîne de
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                        |
 | En-tête<br/>                   | <dl> <dt>Functiondiscoverykeys \_ devpkey. h</dt> </dl> |
 
 

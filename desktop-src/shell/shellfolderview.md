@@ -68,7 +68,7 @@ L’objet **ShellFolderView** a ces propriétés.
 
 
 
-| Property                                                      | Type d’accès          | Description                                                                                                  |
+| Propriété                                                      | Type d’accès          | Description                                                                                                  |
 |:--------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------------------------------|
 | [**Application**](shellfolderview-application.md)<br/> | Lecture seule<br/> | Contient l’objet d’application de l’objet.<br/>                                                         |
 | [**FocusedItem**](shellfolderview-focuseditem.md)<br/> | Lecture seule<br/> | Obtient un objet [**FolderItem**](folderitem.md) qui représente l’élément ayant le focus d’entrée.<br/> |

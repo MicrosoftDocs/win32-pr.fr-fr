@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66c125dd721b623c4203540757193511842a3a68
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6f0b0e73f31332009f02c7dbe4090b25bc8a83cf8006affb9e5533ca41f76110
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104200605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762049"
 ---
 # <a name="msmq-site-id-attribute"></a>Attribut MSMQ-site-ID
 
@@ -45,7 +45,7 @@ L’attribut **MSMQ-site-ID** contient des informations en mode mixte MSMQ.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

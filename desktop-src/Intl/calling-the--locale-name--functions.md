@@ -4,19 +4,19 @@ ms.assetid: e88c31b2-b1da-40ae-b512-67b8ad409b95
 title: Appel des fonctions « nom des paramètres régionaux »
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c58c15d2d9fe7721eb162f8c7cf96084bd4afa2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc97490f21c54a187f2db31c6ee5c7eaa6c45e64069f9be9594c99e2376ef04e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754889"
 ---
 # <a name="calling-the-locale-name-functions"></a>Appel des fonctions « nom des paramètres régionaux »
 
 Windows Vista introduit un grand nombre de fonctions qui utilisent des [noms de paramètres régionaux](locale-names.md) plutôt que des [identificateurs de paramètres régionaux](locale-identifiers.md). Ces nouvelles fonctions offrent une bonne prise en charge des [paramètres régionaux supplémentaires](custom-locales.md), et plusieurs d’entre elles offrent des fonctionnalités supplémentaires non disponibles dans les anciennes fonctions nls. Certaines d’entre elles, telles que les nouvelles fonctions d’énumération, représentent également des améliorations de conception.
 
 > [!Note]  
-> Les applications qui sont destinées à s’exécuter uniquement sur Windows Vista et versions ultérieures doivent utiliser les fonctions « nom des paramètres régionaux » de préférence aux fonctions NLS qui utilisent des identificateurs de paramètres régionaux.
+> les Applications qui sont destinées à s’exécuter uniquement sur Windows Vista et versions ultérieures doivent utiliser les fonctions « nom des paramètres régionaux » de préférence aux fonctions NLS qui utilisent des identificateurs de paramètres régionaux.
 
  
 
@@ -49,7 +49,7 @@ Le tableau suivant répertorie les fonctions des noms de paramètres régionaux,
 
  
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 Vous trouverez un exemple d’utilisation de plusieurs fonctions basées sur les noms de paramètres régionaux dans l' [exemple d’API nls : basée](nls--name-based-apis-sample.md)sur des noms.
 

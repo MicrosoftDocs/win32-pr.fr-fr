@@ -4,12 +4,12 @@ ms.assetid: 099d1cc7-f0c5-4c50-a1d5-f2defde7e104
 title: Filtre de séparateur DV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74ca8e856f1a49ff22ee05f7dc0ae341fad6aa91
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 323593fd5b55fdbd65cb05e83d1097d0d764c94c30141125dcc1cc6fc5ed60d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820671"
 ---
 # <a name="dv-splitter-filter"></a>Filtre de séparateur DV
 
@@ -44,16 +44,16 @@ Le filtre de séparateur DV peut accepter des modifications de format dynamiques
 
 Si la source DV est une caméra dynamique, il n’y a généralement aucune raison pour que le format audio change. Toutefois, le format peut changer si vous transmettez à partir d’une bande VTR contenant plusieurs sources hétérogènes.
 
-Chaque image DV contient des métadonnées, en plus des données audio et vidéo. Ces métadonnées peuvent changer de frame en Frame. Les applications peuvent analyser les métadonnées en examinant les exemples d’entrée ou les exemples de sortie vidéo. Toutefois, DirectShow ne fournit pas de prise en charge directe pour l’analyse des métadonnées DV. Pour plus d’informations, consultez IEC 61834-4.
+Chaque image DV contient des métadonnées, en plus des données audio et vidéo. Ces métadonnées peuvent changer de frame en Frame. Les applications peuvent analyser les métadonnées en examinant les exemples d’entrée ou les exemples de sortie vidéo. toutefois, DirectShow ne fournit pas de prise en charge directe pour l’analyse des métadonnées DV. Pour plus d’informations, consultez IEC 61834-4.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> </dl>
 
  

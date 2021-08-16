@@ -4,12 +4,12 @@ ms.assetid: ab441a37-3a4e-4dd3-85e9-a50e08618d72
 title: Termes utilisés dans le schéma d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc28fadfe1f62a971cc28225af77686bd1e88d21
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 2ced0bff502f25fdcefd8489c575ccbb6b8a2f67fd38a242daae0f109f3f5f05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118469361"
 ---
 # <a name="terms-used-in-the-print-schema"></a>Termes utilisés dans le schéma d’impression
 

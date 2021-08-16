@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: a2d251fa4fee996adaec51599e7b1d140a296b89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c0f690555beb19f7d5d79a81e2cc900194f731c3acacb075ae12dc304debffd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740381"
 ---
 # <a name="sio_query_rss_processor_info-control-code"></a>Code de contrôle SIO_QUERY_RSS_PROCESSOR_INFO
 
@@ -149,9 +149,9 @@ Pour afficher les informations d’erreur étendues, appelez [**WSAGetLastError*
 | **WSAENOTSOCK** | Le descripteur *s* n’est pas un Socket. |
 | **WSAEOPNOTSUPP** | La commande IOCTL spécifiée n’est pas prise en charge. Cette erreur est retournée si le fournisseur de transport ne prend pas en charge l’IOCTL de l' **\_ \_ \_ \_ information sur le processeur RSS de la requête SIO** . |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les **informations IOCTL du \_ \_ \_ processeur \_ RSS de la requête SIO** sont prises en charge sur Windows 8, Windows Server 2012 et les versions ultérieures du système d’exploitation.
+les **informations IOCTL du \_ \_ \_ processeur \_ RSS de la requête SIO** sont prises en charge sur Windows 8, Windows Server 2012 et versions ultérieures du système d’exploitation.
 
 Les **informations IOCTL du \_ \_ \_ processeur \_ RSS de la requête SIO** permettent de déterminer l’association entre un socket et un cœur de processeur RSS et un nœud NUMA.
 Cette IOCTL retourne une structure d' [**\_ \_ affinité de processeur de socket**](/windows/desktop/api/Ws2def/ns-ws2def-socket_processor_affinity) qui contient le [**\_ numéro de processeur**](/windows/desktop/api/winnt/ns-winnt-processor_number) et l’ID de nœud NUMA.

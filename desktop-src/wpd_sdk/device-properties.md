@@ -29,7 +29,7 @@ Windows Les appareils mobiles prennent en charge les propriétés d’appareil s
 <table>
 <thead>
 <tr class="header">
-<th>Property</th>
+<th>Propriété</th>
 <th>VarType</th>
 <th>Description</th>
 </tr>

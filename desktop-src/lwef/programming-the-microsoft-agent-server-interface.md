@@ -4,12 +4,12 @@ description: Programmation de l’interface du serveur Microsoft Agent
 ms.assetid: d1f9feb1-afcf-45a5-8ebf-7200c5963f70
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9699a102884eeab5079e25aaa39fb6942c5f4ef
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 81a57a0638e1832c66825693aba2c4cc7f2894739d3ad9c7d24f8929440165c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117882790"
 ---
 # <a name="programming-the-microsoft-agent-server-interface"></a>Programmation de l’interface du serveur Microsoft Agent
 
@@ -24,9 +24,9 @@ Microsoft Agent fournit des services qui vous permettent de programmer des carac
 -   [Accès aux services vocaux](accessing-speech-services.md)
 -   [Référence](reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

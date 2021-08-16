@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 1e6836cd58970f3667d8f629a678d55bec5185a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d7273b39c5cdccea7e46a077c925247846cd9ca255fc1dba20a95aeb159b773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118313548"
 ---
 # <a name="swbemobjectpath-object"></a>Objet SWbemObjectPath
 
@@ -65,7 +65,7 @@ L’objet **SWbemObjectPath** a ces propriétés.
 | [**Paramètres régionaux**](swbemobjectpath-locale.md)<br/>                   | Lecture/écriture<br/> | Chaîne qui contient les paramètres régionaux pour le chemin d’accès de cet objet.<br/>                                                                                                                     |
 | [**Espace de noms**](swbemobjectpath-namespace.md)<br/>             | Lecture/écriture<br/> | Nom de l’espace de noms qui fait partie du chemin d’accès de l’objet. Il s’agit de la même propriété d' [ \_ \_ espace de noms](wmi-system-properties.md) dans l’API com.<br/>                        |
 | [**ParentNamespace**](swbemobjectpath-parentnamespace.md)<br/> | Lecture seule<br/>  | Nom du parent de l’espace de noms qui fait partie du chemin d’accès de l’objet.<br/>                                                                                                      |
-| [**D**](swbemobjectpath-path.md)<br/>                       | Lecture/écriture<br/> | Contient le chemin d’accès absolu. Il est identique à la propriété système [ \_ \_ path](wmi-system-properties.md) dans l’API com. Il s’agit de la propriété par défaut de cet objet.<br/>    |
+| [**Chemin**](swbemobjectpath-path.md)<br/>                       | Lecture/écriture<br/> | Contient le chemin d’accès absolu. Il est identique à la propriété système [ \_ \_ path](wmi-system-properties.md) dans l’API com. Il s’agit de la propriété par défaut de cet objet.<br/>    |
 | [**Constitue**](swbemobjectpath-relpath.md)<br/>                 | Lecture/écriture<br/> | Contient le chemin d’accès relatif. Il est identique à la propriété système [ \_ \_ RelPath](wmi-system-properties.md) dans l’API com.<br/>                                              |
 | [**Sécurité\_**](swbemobjectpath-security-.md)<br/>            | Lecture seule<br/>  | Utilisé pour lire ou modifier les paramètres de sécurité.<br/>                                                                                                                             |
 | [**Serveur**](swbemobjectpath-server.md)<br/>                   | Lecture/écriture<br/> | Nom du serveur. C’est la même chose que la propriété système du [ \_ \_ serveur](wmi-system-properties.md) dans l’API com.<br/>                                                       |

@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 579cee086798e64abd07b25cc4f7bb14405157dd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d2da95cca7bf19182dd4c0f5f385715256ae9c5253c356094110c028fb1b016d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818129"
 ---
 # <a name="iresizeput_size-method"></a>IResize : méthode de taille de :p ut \_
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -61,7 +61,7 @@ Largeur de la vidéo, en pixels.
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Mode Stretch. Pour connaître les valeurs possibles, consultez [**indicateurs de redimensionnement**](resize-flags.md) .
@@ -72,7 +72,7 @@ Mode Stretch. Pour connaître les valeurs possibles, consultez [**indicateurs de
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 DES peuvent appeler cette méthode avant ou après l’appel à **put \_ MediaType**. Si la méthode DES appelle cette méthode avant d’appeler **put \_ MediaType**, le filtre doit sélectionner une valeur par défaut pour la profondeur de bits et utiliser les valeurs size pour construire un type de média de sortie. Si la méthode DES appelle cette méthode après avoir appelé **put \_ MediaType**, le filtre doit modifier son type de sortie actuel avec les nouvelles tailles.
 
@@ -86,7 +86,7 @@ Le paramètre *Flags* spécifie la manière dont le filtre doit effectuer l’op
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

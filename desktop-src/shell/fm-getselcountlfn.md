@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: d0815afc-5356-48a7-a90d-5f48dae6bee5
-ms.openlocfilehash: 1ec06c08775836a94b9ada6520ea7c5ea46b62f3
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: ff0884e1b80e4a5a7e6c295bd449c8e1f6d069ced6c988f584108318a98c6891
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094174"
 ---
 # <a name="fm_getselcountlfn-message"></a>\_Message FM GETSELCOUNTLFN
 
@@ -34,15 +34,15 @@ Envoyé par une extension du gestionnaire de fichiers pour récupérer le nombre
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne le nombre de fichiers sélectionnés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Seules les extensions qui prennent en charge les noms de fichiers longs (par exemple, les extensions prenant en charge le réseau) doivent utiliser ce message.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

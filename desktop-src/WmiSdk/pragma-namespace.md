@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b5f5e164632fef5a41e7233caf4fd154d1dafe16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3eea58c8e32ab8b1b851205b365b837194d0472a1c39017e2eb69dc3fe70a98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118316825"
 ---
 # <a name="pragma-namespace"></a>espace de noms pragma
 
@@ -37,7 +37,7 @@ L' *\[ espace de noms \]* est l’espace de noms spécifié.
 
 Si vous ne spécifiez pas cette commande ou le commutateur de ligne de commande équivalent, le compilateur MOF utilise par \\ défaut l’espace de noms racine par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez exiger que les applications et les scripts clients utilisent une connexion chiffrée pour l’authentification en ajoutant le qualificateur **RequiresEncryption** au fichier. MOF qui crée l’espace de noms. Vous pouvez également modifier un espace de noms existant en ajoutant cet attribut et recompiler le fichier MOF. Pour plus d’informations sur l’utilisation de **RequiresEncryption**, consultez la page [exiger une connexion chiffrée à un espace de noms](requiring-an-encrypted-connection-to-a-namespace.md).
 

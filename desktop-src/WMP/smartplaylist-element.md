@@ -3,7 +3,7 @@ title: Élément smartPlaylist
 description: L’élément smartPlaylist contient la partie définie dynamiquement d’une sélection.
 ms.assetid: 05912849-7475-4eb9-a7bd-00f20b80b1cf
 keywords:
-- Élément smartPlaylist lecteur Windows Media
+- élément smartPlaylist Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 511294af2de4343cb7f63db4312d530aadf57da6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a21d685759e9e8b27c881ceaec6595535b3c4b799eb28ecd94dd96a3a571ec99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763469"
 ---
 # <a name="smartplaylist-element"></a>Élément smartPlaylist
 
@@ -56,7 +56,7 @@ L’élément **smartPlaylist** contient la partie définie dynamiquement d’un
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un élément **smartPlaylist** contient généralement un élément **querySet** et peut également contenir un élément **Filter** .
 
@@ -116,7 +116,7 @@ Un élément **smartPlaylist** contient généralement un élément **querySet**
 [**Seq, élément**](seq-element.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de sélection Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Référence des éléments de sélection de média**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

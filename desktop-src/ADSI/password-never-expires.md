@@ -8,12 +8,12 @@ keywords:
 - ADSI Provider ADSI, exemples de gestion des utilisateurs, mot de passe n’expire jamais
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94c0d9eb42d37c1bcc7d65495fa0d72609060407
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: dfa48145fa2b78c7685cdf52ab58b1e681df48c7d10a80f0ac7462fa7d4cb868
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838929"
 ---
 # <a name="password-never-expires-ldap-provider"></a>Le mot de passe n’expire jamais (fournisseur LDAP)
 
@@ -56,6 +56,6 @@ hr = pUser->Release();
 
 
 
- 
+ 
 
- 
+ 

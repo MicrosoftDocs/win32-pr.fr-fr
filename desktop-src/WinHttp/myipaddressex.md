@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 88c205dbd5ce071a809cf87f4f97bb6d42120dcb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5db6107c061c845113e91590dab405bdd84cb4741f766abfeef6a1344652f115
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744161"
 ---
 # <a name="myipaddressex-function"></a>myIPAddressEx fonction)
 
@@ -31,7 +31,7 @@ Cette fonction n’a pas de paramètres.
 
 Une chaîne délimitée par des points-virgules contenant toutes les adresses IP pour localhost (IPv6 et/ou IPv4), ou une chaîne vide si impossible de résoudre localhost en adresse IP.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les implémenteurs FindProxyforURLEx doivent ajouter du code qui divise la chaîne d’adresses IP séparées par un point-virgule en adresses distinctes.
 

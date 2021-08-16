@@ -6,12 +6,12 @@ keywords:
 - effet de gestion des couleurs
 ms.topic: article
 ms.date: 02/05/2019
-ms.openlocfilehash: 5f3783132e0e2af511a99fd8c44d5f899e577a3a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 274591312ab110a24fb315d01f72d23a22a938ad41f380620d94a865602e82a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117826697"
 ---
 # <a name="color-management-effect"></a>Effet de gestion des couleurs
 
@@ -26,7 +26,7 @@ Le CLSID de cet effet est CLSID \_ D2D1ColorManagement.
 - [Comportement du canal alpha](#alpha-channel-behavior)
 - [Modes de qualité](#quality-modes)
 - [Exemple de code](#sample-code)
-- [Configuration requise](#requirements)
+- [Requirements](#requirements)
 - [Rubriques connexes](#related-topics)
 
 ## <a name="effect-properties"></a>Propriétés d’effet
@@ -62,7 +62,7 @@ Si votre application utilise l’espace de [D2D1_GAMMA1_G2084](/windows/desktop/
 
 Les API [**ID2D1DeviceContext5 :: CreateColorContextFromSimpleColorProfile**](/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext5-createcolorcontextfromsimplecolorprofile(constd2d1_simple_color_profile__id2d1colorcontext1)) et [**ID2D1DeviceContext5 :: CreateColorContextFromDxgiColorSpace**](/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext5-createcolorcontextfromdxgicolorspace) ne sont pas en compte pour cela ; au lieu de cela, le contenu HDR est mis à l’échelle pour s’ajuster à la plage 0-1 au cours de l’opération G2084 Degamma.
 
-Dans la pratique, le contenu encodé dans cet espace gamma utilise un WhiteLevel de référence de 10 000 nits, qui serait normalement représenté dans CCCS en tant que 10 000/80 = 125,0. Ainsi, pour mieux faciliter votre application, il est plus simple pour cette conversion gamma de faire évoluer également la luminance d’un facteur de 125. À partir de Windows 10, version 1809 (10,0 ; Build 17763), le comportement de l’effet de gestion des couleurs est tel qu’il applique cette mise à l’échelle. Cela signifie que vous, en tant que développeur, n’avez pas besoin d’appliquer un deuxième [effet de réglage de niveau blanc](white-level-adjustment-effect.md) dans le pipeline.
+Dans la pratique, le contenu encodé dans cet espace gamma utilise un WhiteLevel de référence de 10 000 nits, qui serait normalement représenté dans CCCS en tant que 10 000/80 = 125,0. Ainsi, pour mieux faciliter votre application, il est plus simple pour cette conversion gamma de faire évoluer également la luminance d’un facteur de 125. à partir de Windows 10, version 1809 (10,0 ; Build 17763), le comportement de l’effet de gestion des couleurs est tel qu’il applique cette mise à l’échelle. Cela signifie que vous, en tant que développeur, n’avez pas besoin d’appliquer un deuxième [effet de réglage de niveau blanc](white-level-adjustment-effect.md) dans le pipeline.
 
 ## <a name="compliance-with-icc-specification"></a>Conformité avec la spécification ICC
 
@@ -189,8 +189,8 @@ Pour obtenir un exemple de cet effet, téléchargez l' [exemple ajustement des p
 
 | Condition requise | Valeur |
 |-|-|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête | d2d1effects. h |
 | Bibliothèque | d2d1. lib, dxguid. lib |
 

@@ -619,7 +619,7 @@
                           href: microsoft-smb-protocol-dialects.md
                         - name: Authentification du protocole SMB Microsoft
                           href: microsoft-smb-protocol-authentication.md
-                        - name: Scénario d’échange de paquets de protocole SMB Microsoft
+                        - name: scénario de Exchange de paquets de protocole SMB Microsoft
                           href: microsoft-smb-protocol-packet-exchange-scenario.md
                     - name: Verrous opportunistes
                       href: opportunistic-locks.md
@@ -675,7 +675,7 @@
               href: retrieving-and-changing-file-attributes.md
             - name: Test de la fin d’un fichier
               href: testing-for-the-end-of-a-file.md
-            - name: Utilisation des flux
+            - name: Utilisation de Flux
               href: using-streams.md
         - name: Informations de référence sur la gestion des fichiers
           href: file-management-reference.md

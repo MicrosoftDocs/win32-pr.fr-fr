@@ -8,12 +8,12 @@ keywords:
 - contextes de sécurité Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c337cb05f8158dbb90f231652c42fb10a486aef4
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 844b5814eb5cf6c5b677ad0e541d18f9487c0929b7dde6ad0a11c5d91653cf15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104030982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183876"
 ---
 # <a name="security-contexts-and-active-directory-domain-services"></a>Contextes de sécurité et Active Directory Domain Services
 
@@ -33,9 +33,9 @@ Si possible, liez sans spécifier d’informations d’identification. Autrement
 Certains contextes de sécurité sont plus puissants que d’autres. Par exemple, le compte LocalSystem sur un contrôleur de domaine dispose d’un accès complet à Active Directory Domain Services, alors qu’un utilisateur standard n’a qu’un accès limité à certains objets de l’annuaire. En général, votre application ne doit pas s’exécuter dans un contexte de sécurité puissant, tel que LocalSystem, lorsqu’un contexte de sécurité moins puissant suffit pour effectuer les opérations. Cela signifie que vous pouvez diviser votre application en composants distincts, chacun d’entre eux s’exécutant dans un contexte de sécurité adapté aux opérations à effectuer. Par exemple, la configuration de votre application peut être divisée comme suit :
 
 -   Effectuez des modifications de schéma et des extensions dans le contexte d’un utilisateur qui est membre du groupe administrateurs de schéma.
--   Effectuez les modifications du conteneur de configuration dans le contexte d’un utilisateur membre du groupe administrateurs de l’entreprise.
+-   effectuez les modifications du conteneur de configuration dans le contexte d’un utilisateur membre du groupe administrateurs de Enterprise.
 -   Effectuez des modifications de conteneur de domaine dans le contexte d’un utilisateur membre du groupe administrateurs de domaine.
 
- 
+ 
 
- 
+ 

@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4051df4348ee47710b5d2d1f5dcc3f59f607d997
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee4fcf193296d5c474987a3a99877b3bfb43868f79527200893303df351920cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738838"
 ---
 # <a name="wmi-tasks-scheduled-tasks"></a>Tâches WMI : tâches planifiées
 
@@ -28,7 +28,7 @@ La procédure suivante décrit comment exécuter un script.
 
 **Pour exécuter un script**
 
-1.  Copiez le code et enregistrez-le dans un fichier avec une extension. vbs, par exemple *filename.vbs*. Assurez-vous que votre éditeur de texte n’ajoute pas d’extension. txt au fichier.
+1.  Copiez le code et enregistrez-le dans un fichier avec une extension. vbs, par exemple *filename.vbs*. Assurez-vous que votre éditeur de texte n’ajoute pas d’extension de .txt au fichier.
 2.  Ouvrez une fenêtre d’invite de commandes et accédez au répertoire où vous avez enregistré le fichier.
 3.  Tapez **cscript filename.vbs** à l’invite de commandes.
 4.  Si vous ne pouvez pas accéder à un journal des événements, vérifiez si vous exécutez à partir d’une invite de commandes avec élévation de privilèges. Certains journaux des événements, tels que le journal des événements de sécurité, peuvent être protégés par les contrôles d’accès utilisateur (UAC).
@@ -56,7 +56,7 @@ Le tableau suivant répertorie des exemples de scripts qui peuvent être utilis�
 <tbody>
 <tr class="odd">
 <td>... créer des tâches planifiées à l’aide de scripts ?</td>
-<td>Utilisez la classe <a href="/windows/desktop/CIMWin32Prov/win32-scheduledjob"><strong>Win32_ScheduledJob</strong></a> et la méthode <a href="/windows/desktop/CIMWin32Prov/create-method-in-class-win32-scheduledjob"><strong>Create</strong></a> . Si vous avez des difficultés à faire fonctionner cette tâche sur Windows 7 ou une version ultérieure, consultez la section <strong>Win32_ScheduledJob</strong> remarques. vos paramètres vous empêchent probablement d’utiliser la classe.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Utilisez la classe <a href="/windows/desktop/CIMWin32Prov/win32-scheduledjob"><strong>Win32_ScheduledJob</strong></a> et la méthode <a href="/windows/desktop/CIMWin32Prov/create-method-in-class-win32-scheduledjob"><strong>Create</strong></a> . si vous avez des difficultés à faire fonctionner cette tâche sur Windows 7 ou version ultérieure, consultez la section notes de <strong>Win32_ScheduledJob</strong> . vos paramètres vous empêchent probablement d’utiliser la classe.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />

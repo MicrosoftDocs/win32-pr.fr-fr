@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 41124567e8743227f46c9cb3b84dcb0d1f788bc3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: baf0ffe9d9eb961d07731ee9967b32e940dbdb3231935588387972433c61aa74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117834585"
 ---
 # <a name="takeownershipex-method-of-the-cim_datafile-class"></a>Méthode TakeOwnerShipEx de la \_ classe de fichier de fichier CIM
 
@@ -81,7 +81,7 @@ Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indi
 **0**
 </dt> <dd>
 
-Opération réussie.
+Réussite.
 
 </dd> <dt>
 
@@ -169,7 +169,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **TakeOwnerShipEx** dans le [**fichier de \_ fichier CIM**](cim-datafile.md) est implémentée par WMI.
 

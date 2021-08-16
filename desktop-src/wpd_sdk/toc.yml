@@ -4,14 +4,14 @@
     - name: Exigences générales pour le développement d’applications
       href: general-requirements-for-application-development.md
       items:
-        - name: Systèmes d’exploitation pris en charge
+        - name: Systèmes d'exploitation pris en charge
           href: supported-operating-systems.md
           items:
-            - name: Prise en charge dans Windows 7 et Windows Vista
+            - name: prise en charge dans Windows 7 et Windows Vista
               href: support-in-windows-vista.md
-            - name: Prise en charge dans Windows XP
+            - name: prise en charge dans Windows XP
               href: support-in-windows-xp.md
-    - name: Configuration requise pour les applications Windows Media DRM-Enabled
+    - name: configuration requise pour les Applications Windows Media DRM-Enabled
       href: requirements-for-windows-media-drm-enabled-applications.md
     - name: Exemples
       href: sample.md
@@ -42,7 +42,7 @@
           items:
             - name: Objet appareil
               href: device-object.md
-        - name: PROPERTYKEYs et GUID dans les appareils mobiles Windows
+        - name: PROPERTYKEYs et guid dans Windows appareils mobiles
           href: propertykeys-and-guids-in-windows-portable-devices.md
     - name: Guide de programmation
       href: programming-guide.md
@@ -88,7 +88,7 @@
         - name: Fonctionnement sur le contenu de l’appareil
           href: operating-on-device-content.md
           items:
-            - name: Transfert d’une image ou d’un fichier musical vers l’appareil
+            - name: transfert d’une Image ou d’un fichier Musique sur l’appareil
               href: transferring-an-image-or-music-file-to-the-device.md
             - name: Transfert d’un objet Properties-Only sur l’appareil
               href: transferring-a-properties-only-object-to-the-device.md
@@ -400,7 +400,7 @@
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata
                 - name: CreateObjectWithPropertiesOnly
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesonly
-                - name: DELETE
+                - name: Supprimer
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-delete
                 - name: EnumObjects
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-enumobjects
@@ -451,7 +451,7 @@
               items:
                 - name: Annuler
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-cancel
-                - name: DELETE
+                - name: Supprimer
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-delete
                 - name: GetPropertyAttributes
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getpropertyattributes
@@ -490,7 +490,7 @@
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-cancel
                 - name: CreateResource
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-createresource
-                - name: DELETE
+                - name: Supprimer
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-delete
                 - name: GetResourceAttributes
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-getresourceattributes
@@ -608,7 +608,7 @@
               items:
                 - name: Annuler
                   href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-cancel
-                - name: Connecter
+                - name: Se connecter
                   href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect
                 - name: Déconnecter
                   href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect
@@ -662,7 +662,7 @@
               href: media-properties.md
             - name: Propriétés diverses
               href: miscellaneous-properties.md
-            - name: Propriétés de la musique
+            - name: Musique Sous
               href: music-properties.md
             - name: Propriétés de l’Association réseau
               href: network-association-properties.md

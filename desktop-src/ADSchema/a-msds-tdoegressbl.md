@@ -1,10 +1,10 @@
 ---
-title: ms-DS-TDO-sortie-attribut-BL
-description: Lien des règles de sortie de lien secondaire vers TDO sur l’objet.
+title: ms-DS-TDO-Egress-BL (attribut)
+description: lien lien secondaire vers TDO Egress règles sur l’objet.
 ms.assetid: 3bf7a566-4e9b-45b4-b408-329f21b914db
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut ms-DS-TDO-sortie-BL
+- schéma AD de l’attribut ms-DS-TDO-Egress-BL
 - Schéma Active Directory de l’attribut msDS-TDOEgressBL
 topic_type:
 - apiref
@@ -14,22 +14,22 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5f70afa5b8ca53525f46634efa264f2b847f351
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: bb25639069a0beb6aae3b9267b7eb655d9e13c811823bbf6faa908050512d68f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104033326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763389"
 ---
-# <a name="ms-ds-tdo-egress-bl-attribute"></a>ms-DS-TDO-sortie-attribut-BL
+# <a name="ms-ds-tdo-egress-bl-attribute"></a>ms-DS-TDO-Egress-BL (attribut)
 
-Lien des règles de sortie de lien secondaire vers TDO sur l’objet.
+lien lien secondaire vers TDO Egress règles sur l’objet.
 
 
 
 | Entrée | Valeur |
 |-------------------|-----------------------------------------|
-| CN                | ms-DS-TDO-sortie-BL                     |
+| CN                | ms-DS-TDO-Egress-BL                     |
 | LDAP-Display-Name | msDS-TDOEgressBL                        |
 | Taille              | \-                                      |
 | Mettre à jour le privilège  | \-                                      |

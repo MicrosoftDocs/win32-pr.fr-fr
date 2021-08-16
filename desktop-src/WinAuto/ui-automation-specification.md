@@ -1,19 +1,19 @@
 ---
 title: Spécification UI Automation
-description: Cette rubrique fournit une vue d’ensemble de la spécification d’automatisation d’interface utilisateur de Microsoft, qui constitue la base de l’implémentation Windows d’UI Automation.
+description: cette rubrique fournit une vue d’ensemble de la spécification d’automatisation d’interface utilisateur de Microsoft, qui constitue la base de l’implémentation Windows d’ui automation.
 ms.assetid: 45160767-09b0-4fd1-bd73-bc5ac0e6f75e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d3cbb7ed2caa49e855b25f749820de8cf24f1e9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0fc07b70128a401d48813ded68c31dfcfca5bb5a49d2ca46683e9a902af003ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325094"
 ---
 # <a name="ui-automation-specification"></a>Spécification UI Automation
 
-Cette rubrique fournit une vue d’ensemble de la spécification d’automatisation d’interface utilisateur de Microsoft, qui constitue la base de l’implémentation Windows d’UI Automation. La spécification UI Automation peut être prise en charge sur des plateformes autres que Microsoft Windows. Pour plus d’informations, consultez [UI Automation Specification](./uiauto-specandcommunitypromise.md) .
+cette rubrique fournit une vue d’ensemble de la spécification d’automatisation d’interface utilisateur de Microsoft, qui constitue la base de l’implémentation Windows d’ui automation. La spécification UI Automation peut être prise en charge sur des plateformes autres que Microsoft Windows. Pour plus d’informations, consultez [UI Automation Specification](./uiauto-specandcommunitypromise.md) .
 
 Cette rubrique contient les sections suivantes :
 
@@ -28,7 +28,7 @@ Cette rubrique contient les sections suivantes :
 
 ## <a name="introducton"></a>Introducton
 
-La spécification UI Automation fournit un accès par programme flexible aux éléments de l’interface utilisateur sur le bureau Windows, ce qui permet aux produits de technologie d’assistance tels que les lecteurs d’écran de fournir aux utilisateurs finaux des informations sur l’interface utilisateur et de manipuler l’interface utilisateur par d’autres moyens que l’entrée standard.
+la spécification ui Automation fournit un accès par programme flexible aux éléments de l’interface utilisateur sur le bureau de Windows, ce qui permet aux produits de technologie d’assistance tels que les lecteurs d’écran de fournir aux utilisateurs finaux des informations sur l’interface utilisateur et de manipuler l’interface utilisateur par d’autres moyens que l’entrée standard.
 
 UI Automation est plus large dans la portée qu’une simple définition d’interface. Il offre :
 
@@ -44,7 +44,7 @@ UI Automation améliore Microsoft Active Accessibility par :
 -   Coexister avec et tirer parti de Microsoft Active Accessibility sans hériter de ses limitations. Pour plus d’informations, consultez [comparaison entre Microsoft Active Accessibility et UI Automation](microsoft-active-accessibility-and-ui-automation-compared.md).
 -   Fournir une alternative à [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) qui est simple à implémenter.
 
-L’implémentation de la spécification UI Automation dans Windows comporte des interfaces COM (Component Object Model) et des interfaces managées.
+l’implémentation de la spécification UI Automation dans Windows fonctionnalités des interfaces basées sur le modèle COM (component Object Model) et des interfaces managées.
 
 ## <a name="ui-automation-elements"></a>Éléments UI Automation
 
@@ -74,7 +74,7 @@ Pour aider les clients à traiter les informations de l’interface utilisateur 
 
 
 
- 
+ 
 
 Pour plus d’informations, consultez [UI Automation Tree Overview](uiauto-treeoverview.md).
 
@@ -90,7 +90,7 @@ Pour plus d'informations, consultez [UI Automation Properties Overview](uiauto-p
 
 Un modèle de contrôle décrit un aspect particulier des fonctionnalités d’un élément Automation. Par exemple, un simple contrôle « clic » comme un bouton ou un lien hypertexte doit prendre en charge le modèle de contrôle Invoke pour représenter l’action « click ».
 
-Chaque modèle de contrôle est une représentation canonique des fonctions et fonctions possibles de l’interface utilisateur. L’implémentation actuelle d’UI Automation définit 22 modèles de contrôle. L’API d’automatisation Windows peut également prendre en charge des modèles de contrôle personnalisés. Contrairement aux propriétés de rôle ou d’état de Microsoft Active Accessibility, un élément Automation peut prendre en charge plusieurs modèles de contrôle UI Automation.
+Chaque modèle de contrôle est une représentation canonique des fonctions et fonctions possibles de l’interface utilisateur. L’implémentation actuelle d’UI Automation définit 22 modèles de contrôle. l’API Windows Automation peut également prendre en charge des modèles de contrôle personnalisés. Contrairement aux propriétés de rôle ou d’état de Microsoft Active Accessibility, un élément Automation peut prendre en charge plusieurs modèles de contrôle UI Automation.
 
 Pour plus d'informations, consultez [UI Automation Control Patterns Overview](uiauto-controlpatternsoverview.md).
 
@@ -106,10 +106,10 @@ Pour plus d'informations, consultez [UI Automation Control Types Overview](uiaut
 
 ## <a name="ui-automation-events"></a>Événements UI Automation
 
-Les événements UI Automation notifient les applications des modifications apportées à, ainsi que les actions effectuées avec les éléments Automation. Il existe quatre types différents d’événements UI Automation, et ils ne signifient pas nécessairement que l’état visuel de l’interface utilisateur a changé. Le modèle d’événement UI Automation est indépendant de l’infrastructure [WinEvent](winevents-infrastructure.md) dans Windows, bien que l’API d’automatisation Windows rende les événements UI Automation interopérables avec Microsoft Active Accessibility Framework.
+Les événements UI Automation notifient les applications des modifications apportées à, ainsi que les actions effectuées avec les éléments Automation. Il existe quatre types différents d’événements UI Automation, et ils ne signifient pas nécessairement que l’état visuel de l’interface utilisateur a changé. le modèle d’événement ui automation est indépendant de l’infrastructure [WinEvent](winevents-infrastructure.md) dans Windows, bien que l’API automation Windows rend les événements UI automation interopérables avec Microsoft Active Accessibility framework.
 
 Pour plus d'informations, consultez [UI Automation Events Overview](uiauto-eventsoverview.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Spécification UI Automation](./uiauto-specandcommunitypromise.md), [vue d’ensemble de l’API Windows Automation](windows-automation-api-overview.md)
+[spécification UI automation](./uiauto-specandcommunitypromise.md), [Windows vue d’ensemble de l’API automation](windows-automation-api-overview.md)
