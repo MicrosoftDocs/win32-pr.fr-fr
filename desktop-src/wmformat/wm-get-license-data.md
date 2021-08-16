@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f238bea29ab7271896dc7516b6424e4cc298f5c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5f53b6ddfd532710e712637c57785d8893d8f977807bfb45cac0fc787ccbf58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844473"
 ---
 # <a name="wm_get_license_data-structure"></a>WM- \_ recevoir la structure des \_ données de licence \_
 
@@ -87,7 +87,7 @@ Pointeur vers un tableau d’octets contenant les données à publier dans l’U
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure remplie est retournée dans le paramètre *pValue* de la méthode [**IWMStatusCallback :: OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) si l' **\_ État WMT** est égal à **WMT, \_ aucun \_ droit \_ n'** a été acquis par le biais d’une **\_ \_ licence** WMT. Pour le service WMT \_ \_ , aucun droit \_ ex Events, le membre **HR** est une \_ licence NS e \_ \_ Required, NS \_ e \_ License \_ obsolète ou NS \_ e \_ License \_ incorrect \_ Rights. L’une de ces erreurs indique qu’une nouvelle licence doit être acquise en accédant à l’URL dans le membre **wszURL** .
 
@@ -103,7 +103,7 @@ L’exemple d’application audioplayer montre comment utiliser correctement les
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                      |
-| Version<br/>                  | SDK Windows Media Format 7 ou versions ultérieures du kit de développement logiciel (SDK)<br/>                       |
+| Version<br/>                  | Windows Media Format 7 SDK ou les versions ultérieures du kit de développement logiciel (SDK)<br/>                       |
 | En-tête<br/>                   | <dl> <dt>Drmexternals. h</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: Message TBM_SETSEL (commctrl. h)
 description: Définit les positions de début et de fin de la plage de sélection disponible dans un TrackBar.
 ms.assetid: 71f5b9f8-4850-44a8-8acf-adca9bda84c3
 keywords:
-- TBM_SETSEL les contrôles de message Windows
+- TBM_SETSEL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2edebc6b6dcf3b0b93e3047a39aac74c34d121bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d055b317cc6db5e17edbe57bc57e6dbfe287274788718e8e2a920e1f25d9316b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829325"
 ---
 # <a name="tbm_setsel-message"></a>\_Message TBM SETSEL
 
@@ -47,7 +47,7 @@ Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) sp�
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est ignoré si le TrackBar n’a pas le style [**tbs \_ ENABLESELRANGE**](trackbar-control-styles.md) .
 
@@ -59,8 +59,8 @@ Ce message est ignoré si le TrackBar n’a pas le style [**tbs \_ ENABLESELRANG
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

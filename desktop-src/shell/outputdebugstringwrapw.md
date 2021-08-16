@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Shlwapi.dll
-ms.openlocfilehash: e8213aee48a90a816e2968aac115159472ed7b8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: cce8754b01ddf156951964b7189b4a7189759c52cdcd08e08091ca62b2e950bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858788"
 ---
 # <a name="outputdebugstringwrapw-function"></a>OutputDebugStringWrapW fonction)
 
-\[Cette fonction peut être utilisée dans Windows XP. Elle n’est peut-être pas disponible dans les versions ultérieures. Utilisez [**OutputDebugStringW**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) à la place.\]
+\[cette fonction peut être utilisée dans Windows XP. Elle n’est peut-être pas disponible dans les versions ultérieures. Utilisez [**OutputDebugStringW**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) à la place.\]
 
 Envoie une chaîne Unicode au débogueur pour l’affichage.
 
@@ -59,7 +59,7 @@ Pointeur vers la chaîne Unicode terminée par le caractère null à afficher.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **OutputDebugStringWrapW** offre la possibilité d’utiliser des chaînes Unicode dans les systèmes d’exploitation antérieurs à Windows XP. La méthode recommandée consiste à utiliser [**OutputDebugStringW**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) conjointement avec la couche Microsoft pour Unicode (MSLU).
 
@@ -67,14 +67,14 @@ Cette fonction ne retourne pas de valeur.
 
 Si l’application n’a pas de débogueur, le débogueur système affiche la chaîne. Si l’application n’a pas de débogueur et que le débogueur système n’est pas actif, **OutputDebugStringWrapW** ne fait rien.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shlwapip. h</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (version 5,0 ou ultérieure)</dt> </dl> |
 

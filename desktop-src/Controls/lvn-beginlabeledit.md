@@ -3,7 +3,7 @@ title: LVN_BEGINLABELEDIT le code de notification (commctrl. h)
 description: Avertit une fenêtre parente d’un contrôle List-View à propos du début de la modification de l’étiquette d’un élément. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: c13a9e95-22a9-476e-aeee-4928b8b096b0
 keywords:
-- Contrôles Windows de code de notification LVN_BEGINLABELEDIT
+- LVN_BEGINLABELEDIT les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f77550b474534cee096b610a0805bce547d9b429
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ab5b5ecfed8fdc15ec2779e204d01b0375c7da702e2a2e9fe8a3cdc3b178b0fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830650"
 ---
 # <a name="lvn_beginlabeledit-notification-code"></a>\_Code de notification LVN BEGINLABELEDIT
 
@@ -53,7 +53,7 @@ Pour permettre à l’utilisateur de modifier l’étiquette, retournez **false*
 
 Pour empêcher l’utilisateur de modifier l’étiquette, retournez la **valeur true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque la modification d’étiquette commence, un contrôle d’édition est créé, positionné et initialisé. Avant qu’il ne soit affiché, le contrôle List-View envoie sa fenêtre parente à un \_ Code de notification LVN BEGINLABELEDIT.
 
@@ -67,8 +67,8 @@ Lorsque l’utilisateur annule ou termine la modification, la fenêtre parente r
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **LVN \_ BEGINLABELEDITW** (Unicode) et **LVN \_ BEGINLABELEDITA** (ANSI)<br/>     |
 

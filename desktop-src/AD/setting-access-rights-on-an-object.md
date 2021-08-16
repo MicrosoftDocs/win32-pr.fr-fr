@@ -8,12 +8,12 @@ keywords:
 - Objets AD, définition des droits d’accès sur un objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bcf54de381dab2af1dab4ea44654fb0a5682f06
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 7b6d0983246b0f7a39225d11ef5d919b3b26230699209e86812ad68928d072e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183428"
 ---
 # <a name="setting-access-rights-on-an-object"></a>Définition des droits d’accès sur un objet
 
@@ -30,9 +30,9 @@ Utilisez le processus général suivant pour créer une entrée du contrôle d�
 5.  Définissez les propriétés de l’entrée du contrôle d’accès à l’aide des méthodes [**IADsAccessControlEntry**](/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry) :
 
     1.  Utilisez [**IADsAccessControlEntry ::p le \_ tiers**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) de confiance pour définir le tiers de confiance auquel s’applique cette entrée du contrôle d’accès. Le tiers de confiance est un utilisateur, un groupe ou un autre principal de sécurité. Votre application doit utiliser la valeur de la propriété appropriée de l’objet utilisateur ou groupe du tiers de confiance auquel vous souhaitez appliquer l’entrée du contrôle d’accès. Le tiers de confiance est spécifié en tant que **BSTR** et peut prendre les formes suivantes :
-        -   Compte de domaine (nom d’ouverture de session utilisé dans une version précédente de Windows NT) sous la forme « <domain> \\ <user account> », où « &lt; domaine &gt; » est le nom du domaine Windows NT qui contient l’utilisateur et « &lt; compte d’utilisateur &gt; » est la propriété **sAMAccountName** de l’utilisateur spécifié. Par exemple : « Fabrikam \\ JeffSmith ».
-        -   Principal de sécurité connu qui représente des identités spéciales définies par le système de sécurité de Windows NT, telles que tout le monde, système local, Self-principal, utilisateur authentifié, propriétaire créateur, etc. Les objets représentant les principaux de sécurité connus sont stockés dans le conteneur de principaux de sécurité connu sous le conteneur de configuration. Par exemple, ouverture de session anonyme.
-        -   Groupe intégré qui représente les groupes d’utilisateurs intégrés définis par le système de sécurité de Windows NT. Il se présente sous la forme « BUILTIN \\ <group name> », où « &lt; nom &gt; de groupe » est le nom du groupe d’utilisateurs intégré. Les objets représentant les groupes prédéfinis sont stockés dans le conteneur Builtin sous le conteneur de domaine. Par exemple, « \\ administrateurs BUILTIN ».
+        -   compte de domaine (nom d’ouverture de session utilisé dans une version précédente de Windows NT) sous la forme « <domain> \\ <user account> », où « &lt; domaine &gt; » est le nom du domaine Windows NT qui contient l’utilisateur et « &lt; compte d’utilisateur &gt; » est la propriété **sAMAccountName** de l’utilisateur spécifié. Par exemple : « Fabrikam \\ JeffSmith ».
+        -   Principal de sécurité connu qui représente les identités spéciales définies par le système de sécurité Windows NT, telles que tout le monde, système local, Self-principal, utilisateur authentifié, propriétaire créateur, et ainsi de suite. Les objets représentant les principaux de sécurité connus sont stockés dans le conteneur de principaux de sécurité connu sous le conteneur de configuration. Par exemple, ouverture de session anonyme.
+        -   Groupe intégré qui représente les groupes d’utilisateurs intégrés définis par le système de sécurité Windows NT. Il se présente sous la forme « BUILTIN \\ <group name> », où « &lt; nom &gt; de groupe » est le nom du groupe d’utilisateurs intégré. Les objets représentant les groupes prédéfinis sont stockés dans le conteneur Builtin sous le conteneur de domaine. Par exemple, « \\ administrateurs BUILTIN ».
         -   SID (format de chaîne) de l’utilisateur spécifié, qui est la propriété **objectSID** de l’utilisateur spécifié. Vous pouvez convertir au format de chaîne à l’aide de la fonction [**ConvertSidToStringSid a**](/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida) dans l’API de sécurité Win32. Par exemple : « S-1-5-32-548 ».
     2.  Utilisez la propriété [**IADsAccessControlEntry. AccessMask**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) pour définir le masque qui spécifie le droit d’accès. L’énumération de l’énumération des [**\_ \_ droits ADS**](/windows/win32/api/iads/ne-iads-ads_rights_enum) spécifie les droits d’accès que vous pouvez définir sur un objet d’annuaire.
     3.  Utilisez la propriété [**IADsAccessControlEntry. AceType**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) pour spécifier si vous souhaitez autoriser ou refuser les droits d’accès définis par **AccessMask**. Pour les droits standard, il peut s’agir de **publicités \_ ACETYPE \_ accès \_ autorisé** ou de **publicités \_ ACETYPE \_ accès \_ refusé**. Pour les droits spécifiques aux objets (droits qui s’appliquent à une partie spécifique d’un objet ou à un type d’objet spécifique), utilisez les objets **ad \_ ACETYPE \_ Access \_ allowed \_ Object** ou **ad \_ ACETYPE \_ Access \_ denied \_**. L’énumération d’énumérations [**\_ \_ ACETYPE ADS**](/windows/win32/api/iads/ne-iads-ads_acetype_enum) spécifie les types d’accès que vous pouvez définir sur une entrée du contrôle d’accès.
@@ -47,6 +47,6 @@ Utilisez le processus général suivant pour créer une entrée du contrôle d�
 9.  Utilisez la méthode [**IADs. put**](/windows/desktop/api/iads/nf-iads-iads-put) pour écrire le descripteur de sécurité dans la propriété **ntSecurityDescriptor** de l’objet dans le cache de propriétés.
 10. Utilisez la méthode [**IADs. setinfo**](/windows/desktop/api/iads/nf-iads-iads-setinfo) pour mettre à jour la propriété sur l’objet dans le répertoire.
 
- 
+ 
 
- 
+ 

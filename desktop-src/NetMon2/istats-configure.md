@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 9f2dddea3132ce81a57f16737c0f90c6277d4efd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 357d0dd9dbb6e0f57a7ecd3dffcec4c0d1e546ce0bc058ce0144796ca8836113
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118364966"
 ---
 # <a name="istatsconfigure-method"></a>IStats :: configure, méthode
 
@@ -83,7 +83,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez appliquer cette méthode pour redémarrer un NPP qui a été démarré, arrêté mais non déconnecté.
 
@@ -109,7 +109,7 @@ L’objet BLOB d’erreur retourné par *hErrorBlob* contient des entrées que M
 [IStats](istats.md)
 </dt> <dt>
 
-[ISTATS :: Connect](istats-connect.md)
+[ISTATS :: Connecter](istats-connect.md)
 </dt> <dt>
 
 [OBJETS BLOB Moniteur réseau](network-monitor-blobs.md)

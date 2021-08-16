@@ -4,18 +4,18 @@ ms.assetid: a3f74372-bdc9-43eb-b72f-7d00a43e78a8
 title: Emprunt d’identité du client (autorisation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32e72abb17c9f5f6271f55fbfc77da4f6b93ca2d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 454e943b53cffbc4430c71b31e2b172095b999e2201c4cafc08b081bf1782e64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783065"
 ---
 # <a name="client-impersonation-authorization"></a>Emprunt d’identité du client (autorisation)
 
 L' [*emprunt d’identité*](/windows/desktop/SecGloss/i-gly) est la capacité d’un thread à s’exécuter en utilisant des informations de sécurité différentes de celles du processus propriétaire du thread. En règle générale, un thread dans une application serveur emprunte l’identité d’un client. Cela permet au thread de serveur d’agir au nom de ce client pour accéder aux objets sur le serveur ou valider l’accès aux propres objets du client.
 
-L’API Microsoft Windows fournit les fonctions suivantes pour commencer un emprunt d’identité :
+l’API Microsoft Windows fournit les fonctions suivantes pour commencer un emprunt d’identité :
 
 -   Une application de serveur DDE peut appeler la fonction [**DdeImpersonateClient**](/windows/win32/api/ddeml/nf-ddeml-ddeimpersonateclient) pour emprunter l’identité d’un client.
 -   Un serveur de canaux nommés peut appeler la fonction [**ImpersonateNamedPipeClient**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-impersonatenamedpipeclient) .

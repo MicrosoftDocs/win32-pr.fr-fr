@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI, utilisation, optimisation à l’aide de la méthode IADs GetInfoEx
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b522093fff00700cf35b864edde2a6ae7f8f9922
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: d4daf75fa3961a57996d6ae51d237d27835213a25a20c52452b5896c6224964a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838993"
 ---
 # <a name="optimization-using-getinfoex"></a>Optimisation à l’aide de GetInfoEx
 
@@ -76,6 +76,6 @@ Dans Active Directory, la plupart des attributs construits sont récupérés et 
 
 Pour plus d’informations et pour obtenir un exemple de code qui montre comment récupérer toutes les valeurs d’attribut, consultez l' [exemple de code pour la lecture d’un attribut construit](example-code-for-reading-a-constructed-attribute.md).
 
- 
+ 
 
- 
+ 

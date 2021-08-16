@@ -19,16 +19,16 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 79aa5153869c7337b6849e8c465dbbf8b36a0f58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d05920b0936e8ff4de3eb338938e03e92edb4596efbf01f1064b6952a7df661
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320577"
 ---
 # <a name="__ntlmuser9x-class"></a>\_\_NTLMUser9X, classe
 
-La classe système **\_ \_ NTLMUser9X** contrôle l’accès à distance aux versions non prises en charge de Windows. La syntaxe suivante est simplifiée à partir de code au format MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés sont répertoriées par ordre alphabétique, et non par ordre MOF.
+la classe système **\_ \_ NTLMUser9X** contrôle l’accès à distance aux versions non prises en charge de Windows. La syntaxe suivante est simplifiée à partir de code au format MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés sont répertoriées par ordre alphabétique, et non par ordre MOF.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -97,7 +97,7 @@ Appliquez aux espaces de noms enfants, en plus de l’espace de noms actuel.
 
 </dd> <dt>
 
-**Filtrage**
+**Mask**
 </dt> <dd> <dl> <dt>
 
 Type de données : **sint32**
@@ -106,7 +106,7 @@ Type de données : **sint32**
 Type d’accès : lecture/écriture
 </dt> </dl>
 
-Masque de la valeur qui spécifie les droits d’accès à l’espace de noms dans le référentiel Windows Management Instrumentation (WMI). Pour les valeurs de bit, consultez [**constantes de droits d’accès à l’espace de noms**](namespace-access-rights-constants.md).
+masque de la valeur qui spécifie les droits d’accès à l’espace de noms dans le référentiel Windows Management Instrumentation (WMI). Pour les valeurs de bit, consultez [**constantes de droits d’accès à l’espace de noms**](namespace-access-rights-constants.md).
 
 </dd> <dt>
 
@@ -152,7 +152,7 @@ Accès refusé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ NTLMUser9X** est utilisée comme paramètre d’entrée pour les méthodes [**\_ \_ SystemSecurity :: Get9XUserList**](--systemsecurity-get9xuserlist.md) et [**\_ \_ SystemSecurity :: Set9XUserList**](--systemsecurity-set9xuserlist.md) .
 

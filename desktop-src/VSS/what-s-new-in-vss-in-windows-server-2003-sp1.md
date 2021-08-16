@@ -1,19 +1,19 @@
 ---
-description: 'La liste suivante indique les ajouts et les modifications apportées à l’interface Service VSS dans Windows Server 2003 avec Service Pack 1 (SP1) :'
+description: 'la liste suivante indique les ajouts et les modifications apportées à l’interface Service VSS dans Windows Server 2003 avec Service Pack 1 (SP1) :'
 ms.assetid: 9e0dba98-5d23-444d-bd2f-cb72de8fb2d2
-title: Nouveautés de VSS dans Windows Server 2003 SP1
+title: nouveautés de VSS dans Windows Server 2003 SP1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 559b51d5b019d9d57aa154c4728ef5c8f4bb19d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: baed6cde05eb1aabe1bc43f48aa035146e020f23d215e7902d3544414619b4e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118344194"
 ---
-# <a name="whats-new-in-vss-in-windows-server-2003-sp1"></a>Nouveautés de VSS dans Windows Server 2003 SP1
+# <a name="whats-new-in-vss-in-windows-server-2003-sp1"></a>nouveautés de VSS dans Windows Server 2003 SP1
 
-La liste suivante indique les ajouts et les modifications apportées à l’interface Service VSS dans Windows Server 2003 avec Service Pack 1 (SP1) :
+la liste suivante indique les ajouts et les modifications apportées à l’interface Service VSS dans Windows Server 2003 avec Service Pack 1 (SP1) :
 
 ## <a name="auto-recovery"></a>Récupération automatique
 
@@ -38,7 +38,7 @@ Méthodes d’interface
 
 ## <a name="full-support-for-transportable-shadow-copies"></a>Prise en charge complète des clichés instantanés transportables
 
-Les clichés instantanés transportables sont pris en charge dans toutes les éditions de Windows Server 2003 avec SP1. Pour plus d’informations, consultez [importation de volumes clichés instantanés transportables](importing-transportable-shadow-copied-volumes.md).
+les clichés instantanés transportables sont pris en charge dans toutes les éditions de Windows Server 2003 avec SP1. Pour plus d’informations, consultez [importation de volumes clichés instantanés transportables](importing-transportable-shadow-copied-volumes.md).
 
 ## <a name="fast-recovery-using-transportable-shadow-copied-volumes"></a>Récupération rapide à l’aide de volumes de clichés instantanés transportables
 

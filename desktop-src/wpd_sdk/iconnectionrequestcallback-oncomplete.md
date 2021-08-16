@@ -1,5 +1,5 @@
 ---
-description: Notifie une application qu’une demande de connexion ou de déconnexion précédemment planifiée à l’appareil MTP/Bluetooth est terminée.
+description: notifie une application qu’une demande de Connecter ou de déconnexion précédemment planifiée à l’appareil MTP/Bluetooth s’est terminée.
 ms.assetid: 1588d0ec-0d6a-4379-bfdc-4ba5fdaa4665
 title: 'IConnectionRequestCallback :: OnComplete, méthode (Devpkey. h)'
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - PortableDeviceGuids.lib
 - PortableDeviceGuids.dll
-ms.openlocfilehash: 922169b7e17335c47425665bb9a9e54891e68723
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b21248cde95d4b58accb7e629efedfc7c05eef7b08f411e240314a6a07690b3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843187"
 ---
 # <a name="iconnectionrequestcallbackoncomplete-method"></a>IConnectionRequestCallback :: OnComplete, méthode
 
-La méthode **OnComplete** notifie une application qu’une demande de connexion ou de déconnexion précédemment planifiée à l’appareil MTP/Bluetooth est terminée
+la méthode **OnComplete** notifie une application qu’une demande de Connecter ou de déconnexion précédemment planifiée à l’appareil MTP/Bluetooth est terminée
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -49,7 +49,7 @@ HRESULT OnComplete(
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -61,11 +61,11 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application implémente l’interface [**IConnectionRequestCallback**](iconnectionrequestcallback.md) pour recevoir des notifications sur les demandes terminées et annuler les demandes en attente.
 
-Les appareils mobiles Windows (WPD) appellent cette méthode pour avertir une application qu’une demande précédemment planifiée est terminée. Chaque demande peut être suivie et annulée par son rappel fourni par l’application. Par conséquent, si l’application doit envoyer plusieurs demandes en même temps à l’aide du même objet [**IPortableDeviceConnector**](/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector) , chaque demande doit recevoir un objet [**IConnectionRequestCallback**](iconnectionrequestcallback.md) unique comme paramètre d’entrée des méthodes [**IPortableDeviceConnector :: Connect**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect) et [**IPortableDeviceConnector ::D éconnecter**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect) .
+Windows Les appareils mobiles (WPD) appellent cette méthode pour avertir une application qu’une demande précédemment planifiée est terminée. Chaque demande peut être suivie et annulée par son rappel fourni par l’application. par conséquent, si l’application doit envoyer plusieurs demandes en même temps à l’aide du même objet [**IPortableDeviceConnector**](/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector) , chaque demande doit recevoir un objet [**IConnectionRequestCallback**](iconnectionrequestcallback.md) unique comme paramètre d’entrée des méthodes [**IPortableDeviceConnector :: Connecter**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect) et [**IPortableDeviceConnector ::D éconnecter**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect) .
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -73,7 +73,7 @@ Les appareils mobiles Windows (WPD) appellent cette méthode pour avertir une ap
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                                                                             |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                                                                             |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                                                                              |
 | En-tête<br/>                   | <dl> <dt>Devpkey. h ; </dt> <dt>PortableDeviceConnectApi. h</dt> </dl> |
 | MIDL<br/>                      | <dl> <dt>PortableDeviceConnectApi. idl</dt> </dl>                                                                |

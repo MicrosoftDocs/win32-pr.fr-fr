@@ -4,12 +4,12 @@ ms.assetid: d4735eab-392f-49d9-a1d9-5895d9232624
 title: Message LINE_CREATE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd9973849c3942b5427dfb6b3fe7c47bc4d2a716
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4ab18245dc151f074588216d272c305c3a4cbd6aaa85c650ec9854710f5b9eac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762273"
 ---
 # <a name="line_create-message"></a>Créer un message de ligne \_
 
@@ -65,7 +65,7 @@ Inutilisé.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications plus anciennes (qui ont négocié la version 1,3 de TAPI) reçoivent un message de [**ligne \_ LINEDEVSTATE**](line-linedevstate.md) qui spécifie LINEDEVSTATE \_ rein, ce qui leur demande d’arrêter leur utilisation de l’API et d’appeler à nouveau [**lineInitialize**](/windows/desktop/api/Tapi/nf-tapi-lineinitialize) pour obtenir le nouveau nombre d’appareils. Toutefois, contrairement aux versions précédentes de TAPI, cette version ne requiert pas l’arrêt de toutes les applications avant d’autoriser la réinitialisation des applications. la réinitialisation peut avoir lieu immédiatement lors de la création d’un nouveau périphérique (l’arrêt complet est toujours nécessaire lorsqu’un fournisseur de services est supprimé du système).
 

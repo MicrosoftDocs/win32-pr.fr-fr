@@ -4,25 +4,25 @@ ms.assetid: db85ff3b-dbb1-4ed0-b663-21ca9eb66352
 title: Propriétés du point de terminaison audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d6ce4ed9b853c2b73b73de014f3a4c8a90072a9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bf76ef70afaed98ed04ad2ee56e83c38c14ffde1bb6e4d43b557d25769afb2f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828500"
 ---
 # <a name="audio-endpoint-properties"></a>Propriétés du point de terminaison audio
 
-Le fichier d’en-tête MMDeviceAPI. h définit plusieurs propriétés des [appareils de point de terminaison audio](audio-endpoint-devices.md) dans Windows Vista et versions ultérieures. Le service audio Windows définit les valeurs de ces propriétés. Les clients peuvent lire ces propriétés, mais ne doivent pas les définir. Les valeurs de propriété sont stockées en tant que structures **PROPVARIANT** .
+le fichier d’en-tête Mmdeviceapi. h définit plusieurs propriétés des [appareils de point de terminaison audio](audio-endpoint-devices.md) dans Windows Vista et versions ultérieures. le service audio Windows définit les valeurs de ces propriétés. Les clients peuvent lire ces propriétés, mais ne doivent pas les définir. Les valeurs de propriété sont stockées en tant que structures **PROPVARIANT** .
 
-La méthode recommandée pour lire les propriétés d’un périphérique d’entrée audio consiste à utiliser les API de l’espace de noms [**Windows. Devices. Enumeration**](/uwp/api/Windows.Devices.Enumeration) . Ces API sont prises en charge pour les applications du Windows Store et les applications de bureau. Pour les applications de bureau existantes qui lisent les propriétés des appareils à l’aide de l’interface [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) , consultez Propriétés de l' [appareil](device-properties.md). **IMMDevice** n’est pas pris en charge pour les applications du Windows Store.
+La méthode recommandée pour lire les propriétés d’un périphérique d’entrée audio consiste à utiliser les API du [**Windows. Espace de noms Devices. Enumeration**](/uwp/api/Windows.Devices.Enumeration) . ces api sont prises en charge pour les applications de bureau Windows store et. Pour les applications de bureau existantes qui lisent les propriétés des appareils à l’aide de l’interface [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) , consultez Propriétés de l' [appareil](device-properties.md). **IMMDevice** n’est pas pris en charge pour les applications Windows store.
 
 Pour obtenir des exemples de code qui montrent comment accéder aux propriétés d’un périphérique de point de terminaison audio, consultez les rubriques suivantes :
 
 -   [Événements de l’appareil](device-events.md)
 -   [Rôles d’appareil pour les applications DirectSound](device-roles-for-directsound-applications.md)
 
-Pour plus d’informations sur **PROPVARIANT**, consultez la documentation SDK Windows.
+pour plus d’informations sur **PROPVARIANT**, consultez la documentation SDK Windows.
 
 Les propriétés suivantes sont spécifiques aux périphériques de point de terminaison audio.
 

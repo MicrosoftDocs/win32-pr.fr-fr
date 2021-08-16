@@ -4,12 +4,12 @@ ms.assetid: 35f63d92-970f-4fb8-aba9-179fc7de70f4
 title: Constantes LINEANSWERMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 658d5b1265d28f8cb719719e4303fde97d3fff3e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: abfb9d6491864f5be8788575d718e42cc5f5c7c337fd046c110bd5bd82eae110
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761841"
 ---
 # <a name="lineanswermode_-constants"></a>\_Constantes LINEANSWERMODE
 
@@ -47,7 +47,7 @@ La réponse à un autre appel sur la même ligne n’a aucun effet sur l’appel
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 72d4ebffccc3d1bc7d446848c29ebbc60539430e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8ece49d1b961ce6ce5c14241d14bf69480e1eb79028f57a2cb959f5d7c4b79dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842066"
 ---
 # <a name="wpd_parameter_usage_types-enumeration"></a>\_ \_ Énumération des types d’utilisation des paramètres wpd \_
 

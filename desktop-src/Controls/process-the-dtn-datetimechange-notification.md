@@ -4,27 +4,27 @@ description: Cette rubrique montre comment traiter la notification des modificat
 ms.assetid: AE029962-E9D3-47BC-A24F-312B54137F18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5434c7ebbda673f76a757375e9a3d23504483d42
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 9490059a202eff69a05b34a086e74d6df52758713fd5b66d899d1ab114a31040
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103941511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829920"
 ---
 # <a name="how-to-process-the-dtn_datetimechange-notification"></a>Comment traiter la notification DTN \_ DATETIMECHANGE
 
 Cette rubrique montre comment traiter la notification des modifications apportées par l’utilisateur au contrôle de sélecteur de date et d’heure (PAO).
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

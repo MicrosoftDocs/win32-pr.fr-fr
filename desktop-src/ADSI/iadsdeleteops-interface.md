@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI, exemple de code C/C++, utilisant IADsDeleteOps pour supprimer des groupes entiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6332dd28e903996e8688d6c6fc672df080822595
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 192411e53f54de2a5f73cc043f35cea6787f4b879972b6a69ada4760c175292a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106517938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839942"
 ---
 # <a name="iadsdeleteops-interface"></a>Interface IADsDeleteOps
 
@@ -79,9 +79,9 @@ DeleteOps.DeleteObject (0)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

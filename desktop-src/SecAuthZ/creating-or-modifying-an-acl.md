@@ -1,19 +1,19 @@
 ---
-description: Windows prend en charge un ensemble de fonctions qui créent une liste de contrôle d’accès (ACL) ou modifient les entrées de contrôle d’accès (ACE) dans une ACL existante.
+description: Windows prend en charge un ensemble de fonctions qui créent une liste de contrôle d’accès (acl) ou modifient les entrées de contrôle d’accès (ace) dans une ACL existante.
 ms.assetid: 71301aab-1040-4f61-855f-2b891c8b6077
 title: Création ou modification d’une liste de contrôle d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0deb72bcd1a1c805dd8524027601952dda0eac1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 120b445d37f8c4b82c2b0b2a775a06d68faa46ab5752cc25e913d43676e9a72e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117782164"
 ---
 # <a name="creating-or-modifying-an-acl"></a>Création ou modification d’une liste de contrôle d’accès
 
-Windows prend en charge un ensemble de fonctions qui créent une [*liste de contrôle d’accès*](/windows/desktop/SecGloss/a-gly) (ACL) ou modifient les entrées de contrôle d' [*accès*](/windows/desktop/SecGloss/a-gly) (ACE) dans une ACL existante.
+Windows prend en charge un ensemble de fonctions qui créent une [*liste de contrôle d’accès*](/windows/desktop/SecGloss/a-gly) (acl) ou modifient les entrées de contrôle d' [*accès*](/windows/desktop/SecGloss/a-gly) (ace) dans une ACL existante.
 
 La fonction [**SetEntriesInAcl**](/windows/desktop/api/Aclapi/nf-aclapi-setentriesinacla) crée une liste de contrôle d’accès. **SetEntriesInAcl** peut spécifier un ensemble complet d’ACE pour la liste de contrôle d’accès (ACL), ou il peut fusionner une ou plusieurs nouvelles entrées de contrôle d’accès avec les ACE d’une liste ACL existante. La fonction **SetEntriesInAcl** utilise un tableau de structures d' [**\_ accès explicites**](/windows/desktop/api/AccCtrl/ns-accctrl-explicit_access_a) pour spécifier les informations relatives aux nouvelles entrées du nouveau. Chaque structure d' **\_ accès explicite** contient des informations qui décrivent une seule entrée de contrôle d’accès. Ces informations incluent les droits d’accès, le type d’entrée du contrôle d’accès, les indicateurs qui contrôlent l’héritage ACE et une structure de [**tiers de confiance**](/windows/desktop/api/AccCtrl/ns-accctrl-trustee_a) qui identifie le tiers de confiance.
 

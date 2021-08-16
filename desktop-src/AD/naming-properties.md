@@ -7,12 +7,12 @@ keywords:
 - Attributs de nom d’utilisateur Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a504070cf2e78cf5647072ff740d137b4a6e6056
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: e8548178bba8012231a803d476699e8ebb386b6fa9a29015f3721e7b32d94158
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103940805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185929"
 ---
 # <a name="user-naming-attributes"></a>Attributs de nom d’utilisateur
 
@@ -27,11 +27,11 @@ Les attributs de nom d’utilisateur identifient les objets utilisateur, tels qu
 > [!Note]  
 > Vous pouvez afficher et gérer ces attributs à l’aide du composant logiciel enfichable MMC utilisateurs et ordinateurs Active Directory, qui est disponible dans le [Outils d’administration de serveur distant (RSAT)](https://www.microsoft.com/download/details.aspx?id=45520).
 
- 
+ 
 
 ## <a name="userprincipalname"></a>userPrincipalName
 
-L’attribut **userPrincipalName** est le nom d’ouverture de session de l’utilisateur. L’attribut se compose d’un nom d’utilisateur principal (UPN), qui est le nom d’ouverture de session le plus commun pour les utilisateurs Windows. Les utilisateurs utilisent généralement leur UPN pour se connecter à un domaine. Cet attribut est une chaîne indexée à valeur unique.
+L’attribut **userPrincipalName** est le nom d’ouverture de session de l’utilisateur. l’attribut se compose d’un nom d’utilisateur principal (UPN), qui est le nom d’ouverture de session le plus courant pour les utilisateurs de Windows. Les utilisateurs utilisent généralement leur UPN pour se connecter à un domaine. Cet attribut est une chaîne indexée à valeur unique.
 
 Un UPN est un nom de connexion de style Internet pour un utilisateur basé sur la norme Internet RFC 822. L’UPN est plus petit qu’un nom unique et il est plus facile à mémoriser. Par convention, il doit correspondre au nom de l’adresse électronique de l’utilisateur. Le point de l’UPN consiste à consolider les espaces de noms de messagerie et d’ouverture de session afin que l’utilisateur ne doive mémoriser qu’un seul nom.
 
@@ -58,13 +58,13 @@ L’attribut **objectGUID** est l’identificateur unique d’un utilisateur. L�
 
 ## <a name="samaccountname"></a>sAMAccountName
 
-L’attribut **sAMAccountName** est un nom d’ouverture de session utilisé pour prendre en charge les clients et les serveurs de la version précédente de Windows, tels que windows NT 4,0, Windows 95, Windows 98 et LAN Manager. Le nom d’ouverture de session doit comporter au maximum 20 caractères et être unique parmi tous les objets principaux de sécurité au sein du domaine.
+l’attribut **sAMAccountName** est un nom d’ouverture de session utilisé pour prendre en charge les clients et les serveurs de la version précédente de Windows, tels que Windows NT 4,0, Windows 95, Windows 98 et LAN Manager. Le nom d’ouverture de session doit comporter au maximum 20 caractères et être unique parmi tous les objets principaux de sécurité au sein du domaine.
 
 ## <a name="objectsid"></a>objectSid
 
-L’attribut **objectSID** est l’identificateur de sécurité (SID) de l’utilisateur. Le SID est utilisé par le système pour identifier un utilisateur et ses appartenances à des groupes lors des interactions avec la sécurité Windows. L’attribut est à valeur unique. Le SID est une valeur binaire unique utilisée pour identifier l’utilisateur en tant que principal de sécurité.
+L’attribut **objectSID** est l’identificateur de sécurité (SID) de l’utilisateur. le SID est utilisé par le système pour identifier un utilisateur et leurs appartenances aux groupes lors des interactions avec la sécurité Windows. L’attribut est à valeur unique. Le SID est une valeur binaire unique utilisée pour identifier l’utilisateur en tant que principal de sécurité.
 
-Le SID est défini par le système lors de la création de l’utilisateur. Chaque utilisateur a un SID unique émis par un domaine Windows et stocké dans l’attribut **objectSID** de l’objet utilisateur dans l’annuaire. Chaque fois qu’un utilisateur ouvre une session, le système récupère le SID de l’utilisateur à partir du répertoire et le place dans le jeton d’accès de l’utilisateur. Le SID de l’utilisateur est également utilisé pour récupérer les SID pour les groupes dont l’utilisateur est membre et les place dans le jeton d’accès de l’utilisateur. Lorsqu’un SID a été utilisé en tant qu’identificateur unique pour un utilisateur ou un groupe, il ne peut pas être réutilisé pour identifier un autre utilisateur ou groupe.
+Le SID est défini par le système lors de la création de l’utilisateur. chaque utilisateur a un SID unique émis par un domaine Windows et stocké dans l’attribut **objectSid** de l’objet utilisateur dans l’annuaire. Chaque fois qu’un utilisateur ouvre une session, le système récupère le SID de l’utilisateur à partir du répertoire et le place dans le jeton d’accès de l’utilisateur. Le SID de l’utilisateur est également utilisé pour récupérer les SID pour les groupes dont l’utilisateur est membre et les place dans le jeton d’accès de l’utilisateur. Lorsqu’un SID a été utilisé en tant qu’identificateur unique pour un utilisateur ou un groupe, il ne peut pas être réutilisé pour identifier un autre utilisateur ou groupe.
 
 ## <a name="sidhistory"></a>sIDHistory
 
@@ -77,6 +77,6 @@ L’attribut **SIDHistory** contient les SID précédents pour l’objet User. I
 [Attributs d’objet utilisateur](user-object-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

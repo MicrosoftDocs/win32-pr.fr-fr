@@ -4,12 +4,12 @@ ms.assetid: 667c8751-1d17-4b59-8ced-ed5f0c333ae9
 title: DuckingMediaPlayer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f86952f1aa7b81c9a7dc711f0c4f36fc8531bd63
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: aab5a469ec2a7fb1551980d0a08a758e8e8e8f522831dc2148b2d8fb222ecdfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106539380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828280"
 ---
 # <a name="duckingmediaplayer"></a>DuckingMediaPlayer
 
@@ -18,7 +18,7 @@ Cet exemple d’application illustre l’atténuation du flux en implémentant u
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -28,7 +28,7 @@ Cette rubrique contient les sections suivantes.
 
 Cet exemple illustre les fonctionnalités suivantes.
 
--   DirectShow pour lire un fichier multimédia.
+-   DirectShow de lire un fichier multimédia.
 -   [WASAPI](wasapi.md) pour la gestion des flux et la gestion des événements de canard.
 
 ## <a name="requirements"></a>Configuration requise
@@ -52,7 +52,7 @@ Cet exemple est disponible aux emplacements suivants.
 
 | Emplacement    | Chemin d’accès/URL                                                                                            |
 |-------------|-----------------------------------------------------------------------------------------------------|
-| Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft SDK \\ Windows \\ v 7.0 \\ exemples \\ multimédia \\ audio \\ DuckingMediaPlayer \\ ... |
+| Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ \\ Audio Multimedia \\ DuckingMediaPlayer \\ ... |
 
 
 
@@ -62,8 +62,8 @@ Cet exemple est disponible aux emplacements suivants.
 
 Pour générer l’exemple DuckingMediaPlayer, procédez comme suit :
 
-1.  Ouvrez DuckingMediaPlayer. sln dans Visual Studio 2008.
-2.  À partir de la fenêtre, sélectionnez la configuration de la solution **Debug** ou **Release** , sélectionnez le menu **générer** dans la barre de menus, puis sélectionnez l’option **générer** . Si vous n’ouvrez pas Visual Studio à partir du shell CMD pour le kit de développement logiciel (SDK), Visual Studio n’aura pas accès à l’environnement de génération du kit de développement logiciel (SDK). Dans ce cas, l’exemple n’est pas généré, sauf si vous définissez explicitement la variable d’environnement MSSdk, qui est utilisée dans le fichier projet, DuckingMediaPlayer. vcproj.
+1.  ouvrez DuckingMediaPlayer. sln dans Visual Studio 2008.
+2.  À partir de la fenêtre, sélectionnez la configuration de la solution **Debug** ou **Release** , sélectionnez le menu **générer** dans la barre de menus, puis sélectionnez l’option **générer** . si vous n’ouvrez pas Visual Studio à partir du shell CMD pour le kit de développement logiciel (sdk), Visual Studio n’aura pas accès à l’environnement de génération du kit de développement logiciel (sdk). Dans ce cas, l’exemple n’est pas généré, sauf si vous définissez explicitement la variable d’environnement MSSdk, qui est utilisée dans le fichier projet, DuckingMediaPlayer. vcproj.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 

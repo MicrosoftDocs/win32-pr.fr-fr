@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 44126b69dc4e8720fde687d47dc70dd97e104c72
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4e234d0fe24eec947b388b5da798c55e7478ffa6bda69a9b9fe57c279af6d96e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843022"
 ---
 # <a name="iportabledevicevaluesgetat-method"></a>IPortableDeviceValues :: GetAt, méthode
 
@@ -65,7 +65,7 @@ Pointeur **PROPERTYKEY** facultatif qui récupère la clé de l’élément spé
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -78,9 +78,9 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si une propriété indique une valeur de type VT \_ inconnu, la propriété sera l’un des appareils mobiles Windows ([**IPortableDeviceKeyCollection**](iportabledevicekeycollection.md), [**IPortableDeviceValuesCollection**](iportabledevicevaluescollection.md), [**IPortableDeviceValues**](iportabledevicevalues.md) ou [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md)). Aucune autre interface ne peut être retournée par les appareils mobiles Windows.
+si une propriété indique une valeur de type VT \_ inconnu, la propriété sera l’un des Windows appareils mobiles ([**IPortableDeviceKeyCollection**](iportabledevicekeycollection.md), [**IPortableDeviceValuesCollection**](iportabledevicevaluescollection.md), [**IPortableDeviceValues**](iportabledevicevalues.md) ou [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md)). aucune autre interface ne peut être retournée par Windows appareils mobiles.
 
 ## <a name="requirements"></a>Configuration requise
 

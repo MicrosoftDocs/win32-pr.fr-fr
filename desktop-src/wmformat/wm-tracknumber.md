@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d55691335faaf835b270013c6499197c0e3f7bee
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 53a3997e6c214a6421a3e1bb257d7ff742ed5b36f0d4a27f9fffe45990b88f55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106512477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844112"
 ---
 # <a name="wmtracknumber"></a>WM/TrackNumber
 
@@ -31,7 +31,7 @@ L’attribut **WM/TrackNumber** contient le numéro de suivi du contenu. Cet att
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 De nombreuses applications existantes écrivent la valeur de **WM/TrackNumber** comme **DWORD**. Si vous créez une application qui lit des fichiers provenant de sources inconnues, vous devez inclure du code pour gérer les valeurs de type chaîne et **DWORD** .
 
@@ -42,9 +42,9 @@ De nombreuses applications existantes écrivent la valeur de **WM/TrackNumber** 
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

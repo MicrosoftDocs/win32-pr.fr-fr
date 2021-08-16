@@ -8,12 +8,12 @@ keywords:
 - ADsPath, LDAP, Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1728d2531bb2043f95e5896e67ec054095f2595a
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: a1850c30ff8a5a086fbd697080ac32b5e55549496739d9388a6d5e7ab251403d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839469"
 ---
 # <a name="ldap-adspath"></a>Chemin d’authentification LDAP
 
@@ -29,7 +29,7 @@ LDAP://HostName[:PortNumber][/DistinguishedName]
 > [!Note]  
 > Les crochets gauche et droit ( \[ \] ) indiquent des paramètres facultatifs ; il ne s’agit pas d’une partie littérale de la chaîne de liaison.
 
- 
+ 
 
 Le « nom d’hôte » peut être un nom d’ordinateur, une adresse IP ou un nom de domaine. Un nom de serveur peut également être spécifié dans la chaîne de liaison. La plupart des fournisseurs LDAP suivent un modèle qui requiert la spécification d’un nom de serveur.
 
@@ -51,7 +51,7 @@ Le tableau suivant répertorie des exemples de chaînes de liaison.
 
 
 
- 
+ 
 
 Si l’authentification Kerberos est requise pour la réussite d’une demande de répertoire spécifique, la chaîne de liaison doit utiliser soit un ADsPath sans serveur, tel que LDAP : menée = Jeff Smith, CN = Users, DC = fabrikam, DC = com, soit un ADsPath avec un nom de serveur DNS complet, par exemple LDAP://server01.fabrikam.com/CN=Jeff Smith, CN = Users, DC = fabrikam, DC = com. La liaison au serveur à l’aide d’un nom NETBIOS plat ou d’un nom DNS courts, par exemple, en utilisant le nom SERVEUR01 au lieu de server01.fabrikam.com, n’est pas garantie d’obtenir l’authentification Kerberos.
 
@@ -92,6 +92,6 @@ LDAP://CN=Line\0AFeed,CN=users,DC=fabrikam,DC=com
 
 Pour plus d’informations sur la notation de nom unique utilisée par les services d’annuaire compatibles LDAP, consultez [https://www.ietf.org/rfc/rfc1779.txt](https://www.ietf.org/rfc/rfc1779.txt) .
 
- 
+ 
 
- 
+ 

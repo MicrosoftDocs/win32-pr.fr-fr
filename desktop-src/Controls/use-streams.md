@@ -1,17 +1,17 @@
 ---
-title: Utilisation des flux
+title: Comment utiliser Flux
 description: Vous pouvez utiliser des flux pour transférer des données vers ou à partir d’un contrôle RichEdit. Un flux est défini par une structure EDITSTREAM, qui spécifie une mémoire tampon et une fonction de rappel définie par l’application.
 ms.assetid: A7ED47F1-968C-4E41-B1E2-4449072D2FC4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b89a9cc2a8caa157f9c65220fc5cead7564bc555
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: ae620d123ad983cd150bf78d27d99de137ec61eea8c5a32c9fcc9698cb262a63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104101384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828621"
 ---
-# <a name="how-to-use-streams"></a>Utilisation des flux
+# <a name="how-to-use-streams"></a>Comment utiliser Flux
 
 Vous pouvez utiliser des flux pour transférer des données vers ou à partir d’un contrôle RichEdit. Un flux est défini par une structure [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-editstream) , qui spécifie une mémoire tampon et une fonction de rappel définie par l’application.
 
@@ -19,16 +19,16 @@ Pour lire des données dans un contrôle Rich Edit (autrement dit, un flux de do
 
 Pour enregistrer le contenu d’un contrôle RichEdit (autrement dit, diffuser en continu les données), vous pouvez utiliser le message [**em \_ STREAMOUT**](em-streamout.md) . Le contrôle écrit à plusieurs reprises dans la mémoire tampon, puis appelle la fonction de rappel de l’application. Pour chaque appel, la fonction de rappel enregistre le contenu de la mémoire tampon.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -90,12 +90,12 @@ BOOL FillRichEditFromFile(HWND hwnd, LPCTSTR pszFile)
 [Utilisation de contrôles RichEdit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

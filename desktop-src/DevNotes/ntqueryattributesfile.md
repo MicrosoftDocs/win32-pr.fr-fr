@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - ntdll.dll
-ms.openlocfilehash: a1d6d2ff20539f5ef65c0886ba51a0dbabafb44d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6b1ecdc7cc7f0a5c18afc3eeb613c3f9cd9a38aa22a876ad156c3d1c6b1bc97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117826805"
 ---
 # <a name="ntqueryattributesfile-function"></a>NtQueryAttributesFile fonction)
 
-\[Cette fonction peut être modifiée ou supprimée de Windows sans préavis.\]
+\[cette fonction peut être modifiée ou supprimée de Windows sans préavis.\]
 
 Récupère les attributs de base pour l’objet fichier spécifié.
 
@@ -62,7 +62,7 @@ Retourne un code NTSTATUS ou d’erreur.
 
 Les formulaires et la signification des codes d’erreur de NTSTATUS sont répertoriés dans le fichier d’en-tête Ntstatus. h disponible dans le kit WDK et sont décrits dans la documentation WDK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a aucun fichier d’en-tête associé. La bibliothèque d’importation associée, ntdll. lib, est disponible dans le kit WDK. Vous pouvez également utiliser les fonctions [**LoadLibrary**](-loadlibrary.md) et [**GetProcAddress**](-getprocaddress-.md) pour établir une liaison dynamique à Ntdll.dll.
 

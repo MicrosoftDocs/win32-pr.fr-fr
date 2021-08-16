@@ -1,19 +1,19 @@
 ---
-description: Le Registre est une base de données hiérarchique qui contient des données qui sont essentielles au fonctionnement de Windows et aux applications et services qui s’exécutent sur Windows.
+description: le registre est une base de données hiérarchique qui contient des données qui sont essentielles pour le fonctionnement des Windows et des applications et des services qui s’exécutent sur Windows.
 ms.assetid: 4ed60563-73d8-4134-8cb2-8388734fb18d
 title: Structure du Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bf104806b5e4e10b4be7387018e714a0db8bf37
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: f2eb63d49db37bc23eee56bb845c9c5dedf9df7ce4ce610ff8ade500e97cb88e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763491"
 ---
 # <a name="structure-of-the-registry"></a>Structure du Registre
 
-Le Registre est une base de données hiérarchique qui contient des données qui sont essentielles au fonctionnement de Windows et aux applications et services qui s’exécutent sur Windows. Les données sont structurées dans un format d’arborescence. Chaque nœud de l’arborescence est appelé une *clé*. Chaque clé peut contenir à la fois des *sous-clés* et des entrées de données appelées *valeurs*. Parfois, la présence d’une clé correspond à toutes les données requises par une application. dans d’autres cas, une application ouvre une clé et utilise les valeurs associées à la clé. Une clé peut avoir n’importe quel nombre de valeurs, et les valeurs peuvent se présenter sous n’importe quelle forme. Pour plus d’informations, consultez [types de valeurs de Registre](registry-value-types.md) et limites de taille des [éléments du registre](registry-element-size-limits.md).
+le registre est une base de données hiérarchique qui contient des données qui sont essentielles pour le fonctionnement des Windows et des applications et des services qui s’exécutent sur Windows. Les données sont structurées dans un format d’arborescence. Chaque nœud de l’arborescence est appelé une *clé*. Chaque clé peut contenir à la fois des *sous-clés* et des entrées de données appelées *valeurs*. Parfois, la présence d’une clé correspond à toutes les données requises par une application. dans d’autres cas, une application ouvre une clé et utilise les valeurs associées à la clé. Une clé peut avoir n’importe quel nombre de valeurs, et les valeurs peuvent se présenter sous n’importe quelle forme. Pour plus d’informations, consultez [types de valeurs de Registre](registry-value-types.md) et limites de taille des [éléments du registre](registry-element-size-limits.md).
 
 Chaque clé a un nom constitué d’un ou de plusieurs caractères imprimables. Les noms de clés ne respectent pas la casse. Les noms de clés ne peuvent pas inclure de barre oblique inverse ( \\ ), mais tout autre caractère imprimable peut être utilisé. Les noms de valeur et les données peuvent inclure une barre oblique inverse.
 
@@ -33,7 +33,7 @@ Une arborescence du Registre peut avoir 512 niveaux de profondeur. Vous pouvez c
 
 <dl> <dt>
 
-[Vue d’ensemble du Registre Windows](/previous-versions/windows/it-pro/windows-server-2003/cc781906(v=ws.10))
+[vue d’ensemble du registre de Windows](/previous-versions/windows/it-pro/windows-server-2003/cc781906(v=ws.10))
 </dt> </dl>
 
  

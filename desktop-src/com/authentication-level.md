@@ -4,12 +4,12 @@ description: Le niveau d’authentification contrôle la sécurité qu’un clie
 ms.assetid: 0bad2bfd-6930-42fc-beb0-bce32440b0b5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 250661e4a8da42ffd91f37e282a39fbb52b6328a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a8c468408a22f1ea0c0fae67d7ce3d5f5b40f8a6342538614c1619acd40574ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118311149"
 ---
 # <a name="authentication-level"></a>Niveau d’authentification
 
@@ -33,7 +33,7 @@ COM choisit le niveau d’authentification à l’aide de sa négociation perman
 
 </dd> <dt>
 
-<span id="Connect__RPC_C_AUTHN_LEVEL_CONNECT_"></span><span id="connect__rpc_c_authn_level_connect_"></span><span id="CONNECT__RPC_C_AUTHN_LEVEL_CONNECT_"></span>Connect ( \_ \_ connexion au niveau Authn C RPC \_ \_ )
+<span id="Connect__RPC_C_AUTHN_LEVEL_CONNECT_"></span><span id="connect__rpc_c_authn_level_connect_"></span><span id="CONNECT__RPC_C_AUTHN_LEVEL_CONNECT_"></span>Connecter ( \_ \_ connexion au niveau authn C RPC \_ \_ )
 </dt> <dd>
 
 La négociation d’authentification normale se produit entre le client et le serveur, et une clé de session est établie, mais cette clé n’est jamais utilisée pour la communication entre le client et le serveur. Toute communication après l’établissement de la liaison n’est pas sécurisée.
@@ -78,9 +78,9 @@ Chaque paquet de données est signé et chiffré. Cela permet de protéger l’e
 [LegacyAuthenticationLevel](legacyauthenticationlevel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'CHString :: format, méthodes (ChString. h)'
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 7187d2c691c6efb2054d766ae432c55be893cd05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5432ac16b3e59b3f5e56d862a5bf66f5b23f732f74d586066584b6b937327830
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319938"
 ---
 # <a name="chstringformat-methods"></a>CHString :: format, méthodes
 
@@ -37,7 +37,7 @@ La méthode **format** met en forme et stocke une série de caractères et de va
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                                                                                                      |
-| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008<br/>                                                                                                                                |
 | En-tête<br/>                   | <dl> <dt>ChString. h (inclure FwCommon. h)</dt> </dl>                                                    |
 | Bibliothèque<br/>                  | <dl> <dt>FrameDyn. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll ; </dt> <dt>FrameDyn.dll</dt> </dl> |

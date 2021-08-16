@@ -7,12 +7,12 @@ keywords:
 - Active Directory les erreurs de journalisation et de récupération AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6fba921a63eb399d6ed4f44ef8569ed05370403
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4b267b359b5244fddc0e8a9b2ddfbfb5d6e5f9ab0a7e647683d44759f8a7261b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106540134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186590"
 ---
 # <a name="logging-and-recovery-errors-in-functions-in-active-directory-domain-services"></a>Erreurs de journalisation et de récupération dans les fonctions de Active Directory Domain Services
 
@@ -28,7 +28,7 @@ Cette rubrique répertorie les valeurs de retour d’erreur de journalisation et
 | **hrBackupInProgress**               | La sauvegarde est active.                                                                                                                |
 | **hrMissingPreviousLogFile**         | Un fichier journal est manquant pour le point de contrôle.                                                                                        |
 | **hrLogWriteFail**                   | Impossible d’écrire dans le fichier journal.                                                                                                 |
-| **hrBadLogVersion**                  | La version du fichier journal n’est pas compatible avec la version de la base de données du service d’annuaire Windows NT/Windows 2000 (NTDS). |
+| **hrBadLogVersion**                  | la version du fichier journal n’est pas compatible avec la version de la base de données du Service d’annuaire Windows NT/Windows 2000 (NTDS). |
 | **hrInvalidLogSequence**             | L’horodatage dans le journal suivant ne correspond pas à ce qui était attendu.                                                                 |
 | **hrLoggingDisabled**                | Le journal n’est pas actif.                                                                                                           |
 | **hrLogBufferTooSmall**              | Le tampon du journal est trop petit pour être récupéré.                                                                                     |
@@ -181,7 +181,7 @@ Cette rubrique répertorie les valeurs de retour d’erreur de journalisation et
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -202,9 +202,9 @@ Cette rubrique répertorie les valeurs de retour d’erreur de journalisation et
 [Valeurs de retour pour les fonctions dans Active Directory Domain Services](return-values-for-functions-in-active-directory-domain-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

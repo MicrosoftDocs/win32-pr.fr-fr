@@ -7,12 +7,12 @@ keywords:
 - espaces de noms ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d29d93963b2fc2b3fa6ea0eb486fe95b46ba0e9e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d416782f2a96ca716f6e803ad9d0b4200c82cff6ad0ad033751a89a5d2c8af1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839379"
 ---
 # <a name="namespaces"></a>Espaces de noms
 
@@ -51,11 +51,11 @@ ADSI définit une convention d’affectation de noms qui permet d’identifier d
 
 
 
-Des formats ADsPath supplémentaires peuvent être introduits par différents fournisseurs ADSI (tels que le fournisseur ADSI pour le serveur Internet Information Services, qui prend en charge le ADsPaths « IIS:// »).
+des formats ADsPath supplémentaires peuvent être introduits par différents fournisseurs adsi (tels que le fournisseur adsi pour le serveur Internet Information Services, qui prend en charge le ADsPaths « IIS:// »).
 
- 
+ 
 
- 
+ 
 
 
 

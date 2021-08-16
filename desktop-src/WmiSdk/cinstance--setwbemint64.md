@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'Méthodes CInstance :: SetWBEMINT64 (instance. h)'
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 3f83e39170125a07f28a25d594ad7203f44750a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd13f10fb42c7b93ab7b86d6c8d940ee07b332b12667058006a5868f8fd21fe7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319695"
 ---
 # <a name="cinstancesetwbemint64-methods"></a>CInstance :: SetWBEMINT64, méthodes
 
@@ -38,7 +38,7 @@ La méthode [**CInstance :: GetWBEMINT64**](cinstance-getwbemint64.md) définit
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                                                                                                      |
-| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008<br/>                                                                                                                                |
 | En-tête<br/>                   | <dl> <dt>Instance. h (inclure FwCommon. h)</dt> </dl>                                                    |
 | Bibliothèque<br/>                  | <dl> <dt>FrameDyn. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll ; </dt> <dt>FrameDyn.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-description: Appareils mobiles Windows prend en charge les propriétés de messagerie suivantes.
+description: Windows Appareils mobiles prend en charge les propriétés de messagerie suivantes.
 ms.assetid: c886622e-57e7-4bd1-b645-0e979ee7b66a
 title: Propriétés de l’e-mail (PortableDevice. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: de25d73e9fb331538ecdbf5f22306d85c282b338
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4c67a341bcc7fcac041f02cc183c02e024e60b121150aba0ce62da2f973ccbec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843231"
 ---
 # <a name="email-properties"></a>Propriétés de l’e-mail
 
-Appareils mobiles Windows prend en charge les propriétés de messagerie suivantes.
+Windows Appareils mobiles prend en charge les propriétés de messagerie suivantes.
 
 
 

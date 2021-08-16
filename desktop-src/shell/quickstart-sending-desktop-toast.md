@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbSyntax
-ms.openlocfilehash: 36f9da25c20d99da74be30046fc5f9f4789dfd73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79f8f65b18fd6774f318541b15d1649b7c25526f46bf3ab57f02edc4788687c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858653"
 ---
 # <a name="quickstart-sending-a-toast-notification-from-the-desktop"></a>Démarrage rapide : envoi d’une notification toast à partir du Bureau
 
@@ -26,7 +26,7 @@ Ce guide de démarrage rapide montre comment déclencher une notification toast 
     -   C++ : Runtime. Object. lib
     -   C \# : Windows. Winmd
 -   Un raccourci vers votre application, avec un [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md), doit être installé sur l’écran d’accueil. Notez, cependant, qu’il n’est pas nécessaire d’épingler à l’écran d’accueil. Pour plus d’informations, consultez [Comment activer les notifications de Toast de bureau par le biais d’une AppUserModelID](enable-desktop-toast-with-appusermodelid.md).
--   Une version de Microsoft Visual Studio qui prend en charge au moins Windows 8
+-   une version de Microsoft Visual Studio qui prend en charge au moins Windows 8
 
 ## <a name="instructions"></a>Instructions
 

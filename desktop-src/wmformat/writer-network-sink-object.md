@@ -3,19 +3,19 @@ title: Objet récepteur réseau de l’enregistreur
 description: Objet récepteur réseau de l’enregistreur
 ms.assetid: f7765b42-693a-4f48-b750-17579e860b6d
 keywords:
-- Windows Media Format SDK, objets récepteur réseau du scripteur
+- Windows Media Format SDK, writer Network Sink Objects
 - ASF (Advanced Systems Format), objets récepteur réseau du writer
 - ASF (format des systèmes avancés), objets du récepteur réseau de l’enregistreur
 - objets, enregistreur réseau du récepteur
 - objets du récepteur réseau du writer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c85af356c1d326ddaaf3703ca87c3b7bdd1628b9
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: c2011fd161fc4ac5e1cd03d955f06259e6499e343970cc309b1e8c41db051a32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104101352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843724"
 ---
 # <a name="writer-network-sink-object"></a>Objet récepteur réseau de l’enregistreur
 
@@ -35,7 +35,7 @@ L’objet récepteur réseau du writer est créé par la fonction [**WMCreateWri
 
 
 
- 
+ 
 
 L’interface de rappel suivante peut être implémentée par l’application pour suivre la progression d’un objet récepteur réseau du writer.
 
@@ -47,7 +47,7 @@ L’interface de rappel suivante peut être implémentée par l’application po
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -62,9 +62,9 @@ L’interface de rappel suivante peut être implémentée par l’application po
 [**Utilisation des récepteurs d’écriture**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

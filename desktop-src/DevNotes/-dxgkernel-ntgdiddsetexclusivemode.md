@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 1d2420f4ae093b4bfc3f68871daefd5c20da308e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 00b158c44aff185dd478aa9806e6fa9023f6bedb33127250e615f680e5a6a9bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117827990"
 ---
 # <a name="ntgdiddsetexclusivemode-function"></a>NtGdiDdSetExclusiveMode fonction)
 

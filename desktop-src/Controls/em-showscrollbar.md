@@ -3,7 +3,7 @@ title: Message EM_SHOWSCROLLBAR (RichEdit. h)
 description: Affiche ou masque l’une des barres de défilement dans la fenêtre hôte d’un contrôle RichEdit.
 ms.assetid: 0a6ec010-4870-4faf-9dc2-1da961dc8194
 keywords:
-- EM_SHOWSCROLLBAR les contrôles de message Windows
+- EM_SHOWSCROLLBAR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb569b194be3d744db67f98b71a595ba18a2d3a8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dc3988ced825fed457549fc9f662a418295de7df6085f04c3e71255ca4ad54c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831140"
 ---
 # <a name="em_showscrollbar-message"></a>\_Message SHOWSCROLLBAR em
 
@@ -47,7 +47,7 @@ Spécifie si la barre de défilement doit être affichée ou masquée. Spécifie
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est valide uniquement lorsque le contrôle est actif sur place. Les appels effectués alors que le contrôle est inactif peuvent échouer.
 
@@ -57,8 +57,8 @@ Cette méthode est valide uniquement lorsque le contrôle est actif sur place. L
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

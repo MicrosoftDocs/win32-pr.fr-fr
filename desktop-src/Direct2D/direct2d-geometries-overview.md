@@ -7,12 +7,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: cb97b0737bfad391fb9ba2501793a970fcbd9886
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: d3f8cd7420325fd876897d538ea9e01a5c0adb64b2d0c55437514773904d6013
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103734572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825841"
 ---
 # <a name="geometries-overview"></a>Vue d’ensemble des géométries
 
@@ -124,9 +124,9 @@ Il existe plusieurs façons de transformer une géométrie. Vous pouvez utiliser
 La méthode que vous devez utiliser dépend de l’effet que vous souhaitez. Lorsque vous utilisez la cible de rendu pour transformer puis restituer une géométrie, la transformation affecte tout sur la géométrie, y compris la largeur de tout trait que vous avez appliqué. En revanche, lorsque vous utilisez un [**ID2D1TransformedGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry), la transformation affecte uniquement les coordonnées qui décrivent la forme. La transformation n’affecte pas l’épaisseur du trait quand la géométrie est dessinée.
 
 > [!Note]  
-> À compter de Windows 8, la transformation universelle n’affecte pas l’épaisseur du trait des traits avec le type de transformation de trait [**d2d1 \_ \_ \_ \_ fixe**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type)ou le [**\_ type de transformation de trait \_ \_ \_ d2d1**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type). Vous devez utiliser ces types de transformation pour obtenir des traits indépendants de transformation
+> à partir de Windows 8 la transformation universelle n’affecte pas l’épaisseur du trait des traits avec le type de transformation de trait [**D2D1 \_ \_ \_ \_ fixe**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type)ou le [**\_ type de transformation de trait \_ \_ \_ D2D1**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type). Vous devez utiliser ces types de transformation pour obtenir des traits indépendants de transformation
 
- 
+ 
 
 L’exemple suivant crée un [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry), puis le dessine sans le transformer. Il produit la sortie indiquée dans l’illustration suivante.
 
@@ -220,17 +220,17 @@ L’interface [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry)
 | Comparaison                                                  | [**CompareWithGeometry**](id2d1geometry-comparewithgeometry.md)                                                                                                           |
 | Simplification (supprime les arcs et les courbes de Bézier quadratiques)   | [**Ainsi**](id2d1geometry-simplify.md)                                                                                                                                 |
 | Pavage                                                | [**Paver**](id2d1geometry-tessellate.md)                                                                                                                             |
-| Contour (supprimer l’intersection)                               | [**Décrire**](id2d1geometry-outline.md)                                                                                                                                   |
+| Contour (supprimer l’intersection)                               | [**Contour**](id2d1geometry-outline.md)                                                                                                                                   |
 | Calculer la zone ou la longueur d’une géométrie                  | [**ComputeArea**](id2d1geometry-computearea.md), [**ComputeLength**](id2d1geometry-computelength.md), [**ComputePointAtLength**](id2d1geometry-computepointatlength.md) |
 
 
 
- 
+ 
 
 > [!Note]  
-> À partir de Windows 8, vous pouvez utiliser la méthode [**ComputePointAndSegmentAtLength**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1pathgeometry1-computepointandsegmentatlength(float_uint32_constd2d1_matrix_3x2_f_float_d2d1_point_description)) sur le [**ID2D1PathGeometry1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1pathgeometry1) pour calculer la zone ou la longueur d’une géométrie.
+> à partir de Windows 8, vous pouvez utiliser la méthode [**ComputePointAndSegmentAtLength**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1pathgeometry1-computepointandsegmentatlength(float_uint32_constd2d1_matrix_3x2_f_float_d2d1_point_description)) sur [**ID2D1PathGeometry1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1pathgeometry1) pour calculer la zone ou la longueur d’une géométrie.
 
- 
+ 
 
 ### <a name="combining-geometries"></a>Combinaison de géométries
 
@@ -706,6 +706,6 @@ hr = m_pCircleGeometry1->ComputePointAtLength(
 [Référence Direct2D](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

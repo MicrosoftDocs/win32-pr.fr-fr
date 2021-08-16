@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: c8998a1ca04206362fcc0e7405fccf8c923d74d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d448d92cddf24e98f05cf023116e7087ad8cc3dcd310b7ccd3657571ee7650ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312658"
 ---
 # <a name="swbemservicesget-method"></a>SWbemServices. obten, méthode
 
@@ -132,7 +132,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Contrairement aux méthodes [**ExecQuery**](/windows/desktop/api/Provider/nf-provider-provider-execquery) et [**InstancesOf**](swbemservices-instancesof.md) , la méthode obtenir retourne toujours un [**SWbemObject**](swbemobject.md) représentant une instance spécifique d’une ressource managée par WMI. Pour obtenir une instance spécifique d’une ressource managée WMI à l’aide de la méthode obtenir, vous devez indiquer à l’instance de récupérer l’instance en passant la méthode au chemin d’accès de l’objet, comme indiqué dans le script suivant.
 

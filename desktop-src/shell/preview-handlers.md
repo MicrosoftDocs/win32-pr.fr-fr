@@ -4,12 +4,12 @@ ms.assetid: 166a4001-d237-44a4-a457-e320e995639c
 title: Gestionnaires d’aperçus et hôte de l’interpréteur de commandes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 993c6c8e7b15d9bfc24b5dd42352407a3a53c45b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5ccc6c2a519b4f9646e76a0a0ef4d0d26348e08d114eb9a080aaee09a75b9f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858761"
 ---
 # <a name="preview-handlers-and-shell-preview-host"></a>Gestionnaires d’aperçus et hôte de l’interpréteur de commandes
 
@@ -20,14 +20,14 @@ Cette rubrique aborde les sujets suivants :
 -   [Architecture du gestionnaire d’aperçus](#preview-handler-architecture)
 -   [Options du modèle de serveur](#server-model-options)
 -   [Initialisation](#initialization)
--   [Aperçu du workflow du gestionnaire de données](#preview-handler-data-flow)
+-   [Flow de données du gestionnaire d’aperçus](#preview-handler-data-flow)
 -   [Débogage d’un gestionnaire d’aperçus](#debugging-a-preview-handler)
 -   [Fournir votre propre processus pour un gestionnaire d’aperçus](#providing-your-own-process-for-a-preview-handler)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="preview-handler-architecture"></a>Architecture du gestionnaire d’aperçus
 
-Un gestionnaire d’aperçus est une application hébergée. Les ordinateurs hôtes incluent l’Explorateur Windows dans Windows Vista ou Microsoft Outlook 2007. Les hôtes implémentent [**IPreviewHandlerFrame**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe) comme méthode de communication entre le gestionnaire d’aperçus et l’hôte.
+Un gestionnaire d’aperçus est une application hébergée. les ordinateurs hôtes incluent l’explorateur de Windows dans Windows Vista ou Microsoft Outlook 2007. Les hôtes implémentent [**IPreviewHandlerFrame**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe) comme méthode de communication entre le gestionnaire d’aperçus et l’hôte.
 
 Le gestionnaire d’aperçus lui-même implémente les interfaces suivantes :
 
@@ -43,7 +43,7 @@ Votre gestionnaire est appelé par le biais de son [**IObjectWithSite**](/window
 
 Les gestionnaires d’aperçus sont toujours exécutés hors processus. Il existe deux méthodes d’implémentation de ce qui suit :
 
-1.  Un gestionnaire d’aperçus peut être généré en tant que serveur in-process, mais exécuté via un hôte de substitution hors processus. Ceci est la méthode privilégiée. Le système fournit un hôte de substitution pour cela dans le fichier Prevhost.exe. Les gestionnaires d’aperçus créés par cette méthode ne sont pas compatibles avec Outlook 2007 sur Windows XP. Toutefois, ces mêmes gestionnaires fonctionneront dans l’Explorateur Windows et Outlook 2007 s’exécutant sur Windows Vista.
+1.  Un gestionnaire d’aperçus peut être généré en tant que serveur in-process, mais exécuté via un hôte de substitution hors processus. Ceci est la méthode privilégiée. Le système fournit un hôte de substitution pour cela dans le fichier Prevhost.exe. les gestionnaires d’aperçus créés par cette méthode ne sont pas compatibles avec Outlook 2007 sur Windows XP. toutefois, ces mêmes gestionnaires fonctionnent dans Windows Explorer et Outlook 2007 s’exécutant sur Windows Vista.
 2.  Un gestionnaire d’aperçus peut être créé en tant que serveur COM (Component Object Model) local. Cela n’est pas recommandé pour plusieurs raisons. Tout d’abord, il est plus facile d’implémenter un serveur in-process. Plus important encore, l’implémentation en tant que serveur in-process offre un contrôle accru sur la durée de vie de l’objet gestionnaire, ce qui permet un nettoyage et une efficacité améliorés.
 
 Par défaut, les gestionnaires d’aperçus s’exécutent dans un processus de niveau d’intégrité faible pour des raisons de sécurité. Vous pouvez éventuellement désactiver l’exécution comme un processus de langage intermédiaire faible en définissant la valeur suivante dans le registre. Toutefois, il n’est pas recommandé de le faire. Les systèmes peuvent finalement être configurés pour rejeter tout processus qui n’est pas de niveau IL faible.
@@ -65,9 +65,9 @@ Si vous devez initialiser avec un fichier ou un élément de Shell, stockez le c
 
 En général, l’initialisation ne doit pas effectuer de tâches lourdes telles que la composition et le stockage d’une image d’aperçu. Pour une efficacité optimale, ce type de traitement ne doit pas être effectué tant que l’aperçu n’est pas appelé pour.
 
-## <a name="preview-handler-data-flow"></a>Aperçu du workflow du gestionnaire de données
+## <a name="preview-handler-data-flow"></a>Flow de données du gestionnaire d’aperçus
 
-Le workflow du processus d’aperçu suit le chemin d’accès général indiqué ici. L’hôte peut être considéré comme l’Explorateur Windows dans Windows Vista ou Outlook 2007.
+Le workflow du processus d’aperçu suit le chemin d’accès général indiqué ici. l’hôte peut être considéré comme Windows Explorer dans Windows Vista ou Outlook 2007.
 
 1.  Le gestionnaire d’aperçus est initialisé, de préférence avec un flux.
 2.  La fenêtre d’affichage est passée de l’hôte au gestionnaire via [**IPreviewHandler :: SetWindow**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow).

@@ -4,16 +4,16 @@ ms.assetid: 7748e111-9987-4685-8fc8-10c5d4631080
 title: Récupération des catégories fonctionnelles prises en charge par un appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6514c6255fa089dc235b5edd8a25b5ef581aee84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d410788616cc20563b914a293afcd8e2bbbd87099f738ae21463d2092c620597
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842691"
 ---
 # <a name="retrieving-the-functional-categories-supported-by-a-device"></a>Récupération des catégories fonctionnelles prises en charge par un appareil
 
-Les appareils mobiles Windows peuvent prendre en charge une ou plusieurs catégories fonctionnelles. Ces catégories sont décrites dans le tableau suivant.
+Windows Les appareils mobiles peuvent prendre en charge une ou plusieurs catégories fonctionnelles. Ces catégories sont décrites dans le tableau suivant.
 
 
 

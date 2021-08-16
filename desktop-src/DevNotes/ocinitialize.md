@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - OcManage.dll
-ms.openlocfilehash: aad102ac9881a801f693a429aab5dae07d09b5e8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 08e7ffd7f8ad6faa2b08f937627627b6e74bbc09505482c589023db5dae37677
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117826744"
 ---
 # <a name="ocinitialize-function"></a>OcInitialize fonction)
 
@@ -57,7 +57,7 @@ Chemin d’accès du fichier. inf OC maître.
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Ce paramètre peut être une ou plusieurs des valeurs suivantes.
@@ -94,7 +94,7 @@ Handle du journal.
 
 La fonction retourne la valeur de contexte du gestionnaire OC.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

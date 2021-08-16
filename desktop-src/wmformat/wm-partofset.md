@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3684f2ec3b9d48b6515a3c33133b9153fdf683c1
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 6fedc93c9cc43513729483dfb5f7fb849d88e3cf4e78bbae88b9b04ca3664be8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106512286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844486"
 ---
 # <a name="wmpartofset"></a>WM/PartOfSet
 
@@ -41,7 +41,7 @@ L’attribut **WM/PartOfSet** contient le numéro de référence et le nombre to
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -50,9 +50,9 @@ L’attribut **WM/PartOfSet** contient le numéro de référence et le nombre to
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
