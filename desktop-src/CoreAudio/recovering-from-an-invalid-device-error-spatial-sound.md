@@ -3,12 +3,12 @@ description: Récupération à partir d’une erreur de Invalid-Device (son spat
 title: Récupération à partir d’une erreur de Invalid-Device (son spatial)
 ms.topic: article
 ms.date: 10/29/2020
-ms.openlocfilehash: 1ec4f040aff10f2d118b20c489e74d792c907113
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 124d4a804c2f99c051fee50d1c8d819d794b87a5943c216951e0c72870de8c18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406217"
 ---
 # <a name="recovering-from-an-invalid-device-error-spatial-sound"></a>Récupération à partir d’une erreur de Invalid-Device (son spatial)
 

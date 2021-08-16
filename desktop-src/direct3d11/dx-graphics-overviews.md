@@ -4,12 +4,12 @@ description: Le Guide de programmation contient des informations sur l’utilisa
 ms.assetid: 1db500e4-c03d-442a-b429-1599d9591292
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fdb374d19126f46ed484154b363c975ca9ebe17
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
-ms.translationtype: HT
+ms.openlocfilehash: 3baacac4d11ac7c14a726b321b9eccbe9e6ef7cf9147bac80970d947b8e2ac95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104316740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119749"
 ---
 # <a name="programming-guide-for-direct3d-11"></a>Guide de programmation pour Direct3D 11
 
@@ -26,7 +26,7 @@ Le Guide de programmation contient des informations sur l’utilisation du pipel
 | [Rendu](overviews-direct3d-11-render.md) | Cette section contient des informations sur plusieurs technologies de rendu Direct3D 11. |
 | [Effets](d3d11-graphics-programming-guide-effects.md) | Un effet DirectX est une collection d’États de pipeline, définie par des expressions écrites en [HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-reference) et une syntaxe spécifique à l’infrastructure Effect. |
 | [Migration vers Direct3D 11](d3d11-programming-guide-migrating.md) | Cette section fournit des informations sur la migration vers Direct3D 11 à partir d’une version antérieure de Direct3D. |
-| [Interfaces vidéo Direct3D](direct3d-video-interfaces.md) | Cette rubrique répertorie les interfaces vidéo Direct3D disponibles dans Direct3D 9Ex et qui sont prises en charge sur Windows 7 et les versions ultérieures des systèmes d’exploitation clients Windows et sur Windows Server 2008 R2 et les versions ultérieures des systèmes d’exploitation Windows Server. |
+| [Interfaces vidéo Direct3D](direct3d-video-interfaces.md) | cette rubrique répertorie les interfaces vidéo direct3d disponibles dans direct3d 9ex et qui sont prises en charge sur Windows 7 et les versions ultérieures de Windows systèmes d’exploitation clients et sur Windows server 2008 R2 et versions ultérieures des systèmes d’exploitation Windows server. |
 
 ## <a name="related-topics"></a>Rubriques connexes
 

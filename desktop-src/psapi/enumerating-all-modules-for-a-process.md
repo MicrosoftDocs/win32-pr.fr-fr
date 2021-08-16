@@ -4,12 +4,12 @@ description: Pour déterminer les processus qui ont chargé une DLL particulièr
 ms.assetid: 2e411eba-ba60-4678-bf6f-bc15b6e8b478
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bf09d02d4ae9dc7e55177653e05e3d19df4ab7b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 17012019c21f550940ea8c11c07153b0c3495471b4d62bf2f8af469ef6b7b90b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032987"
 ---
 # <a name="enumerating-all-modules-for-a-process"></a>Énumération de tous les modules d’un processus
 
@@ -103,6 +103,6 @@ int main( void )
 
 La fonction principale obtient une liste de processus à l’aide de la fonction [**EnumProcesses**](/windows/desktop/api/Psapi/nf-psapi-enumprocesses) . Pour chaque processus, la fonction main appelle la fonction PrintModules, en lui transmettant l’identificateur de processus. PrintModules appelle à son tour la fonction [**OpenProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess) pour obtenir le handle de processus. Si **OpenProcess** échoue, la sortie affiche uniquement l’identificateur de processus. Par exemple, **OpenProcess** échoue pour les processus inactifs et CSRSS, car leurs restrictions d’accès empêchent le code au niveau de l’utilisateur de les ouvrir. Ensuite, PrintModules appelle la fonction [**EnumProcessModules**](/windows/desktop/api/Psapi/nf-psapi-enumprocessmodules) pour obtenir la fonction handles du module. Enfin, PrintModules appelle la fonction [**GetModuleFileNameEx**](/windows/desktop/api/Psapi/nf-psapi-getmodulefilenameexa) , une fois pour chaque module, pour obtenir les noms des modules.
 
- 
+ 
 
- 
+ 

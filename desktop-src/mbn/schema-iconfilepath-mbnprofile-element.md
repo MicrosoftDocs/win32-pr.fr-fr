@@ -11,12 +11,12 @@ api_name:
 - ICONFilePath
 api_type:
 - Schema
-ms.openlocfilehash: 6b1e98f76fe2f83ce214076223b5a1439bd0ea45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea662a7519a8705818ef502f5b797f437b0f89bee649d0bde18ce6f71b099d74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035817"
 ---
 # <a name="iconfilepath-mbnprofile-element"></a>Élément ICONFilePath (MBNProfile)
 
@@ -26,7 +26,7 @@ L’interface utilisateur de connexion du système d’exploitation affiche cett
 
 Lorsque vous passez le XML pour créer le profil dans la méthode [**CreateConnectionProfile**](/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-createconnectionprofile) de l’interface [**IMbnConnectionProfileManager**](/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager) , ce chemin d’accès doit pointer vers l’emplacement source du fichier d’icône. En cas de réussite de la création de l’objet [**IMbnConnectionProfile**](/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile) , le service haut débit mobile copie le fichier d’icône dans son magasin interne et le chemin du profil est modifié pour en tenir compte.
 
-Le fichier d’icône doit être au format. bmp avec une dimension de pixels de 32X32.
+Le fichier d’icône doit être au format .bmp avec une dimension de pixel 32X32.
 
 Cet élément est une chaîne d’une longueur maximale de 1024 caractères, contenant un chemin d’accès absolu au fichier.
 
@@ -46,7 +46,7 @@ L’élément **ICONFilePath** est défini par l’élément [**MBNProfile**](sc
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                         |
 
 

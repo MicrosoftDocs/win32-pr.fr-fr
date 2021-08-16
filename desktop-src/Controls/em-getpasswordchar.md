@@ -3,7 +3,7 @@ title: Message EM_GETPASSWORDCHAR (winuser. h)
 description: Obtient le caractère de mot de passe qu’un contrôle d’édition affiche lorsque l’utilisateur entre du texte. Vous pouvez envoyer ce message à un contrôle d’édition ou à un contrôle d’édition enrichi.
 ms.assetid: 874336f6-701b-466a-afa6-0cb3e787ba4c
 keywords:
-- EM_GETPASSWORDCHAR les contrôles de message Windows
+- EM_GETPASSWORDCHAR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6285f002554e22c89896711d3d1d355a95c6bb7a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b8c4e7ac576f18d0ab28fcf8c2288d2bee7966866a71180a81c34896c2396f56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831205"
 ---
 # <a name="em_getpasswordchar-message"></a>\_Message GETPASSWORDCHAR em
 
@@ -47,7 +47,7 @@ Non utilisé ; doit être égal à zéro.
 
 La valeur de retour spécifie le caractère à afficher à la place des caractères tapés par l’utilisateur. Si la valeur de retour est **null**, il n’y a pas de caractère de mot de passe et le contrôle affiche les caractères tapés par l’utilisateur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si un contrôle d’édition est créé avec le style [**\_ de mot de passe es**](edit-control-styles.md) , le caractère de mot de passe par défaut est défini sur un astérisque ( \* ). Si un contrôle d’édition est créé sans le style **\_ de mot de passe es** , il n’y a pas de caractère de mot de passe. Pour modifier le mot de passe, envoyez le message [**em \_ SETPASSWORDCHAR**](em-setpasswordchar.md) .
 
@@ -61,8 +61,8 @@ Si un contrôle d’édition est créé avec le style [**\_ de mot de passe es**
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

@@ -3,9 +3,9 @@ title: Controls. Play, méthode
 description: La méthode Play entraîne le démarrage de la lecture de l’élément multimédia actuel ou reprend la lecture d’un élément suspendu.
 ms.assetid: 2218a13b-6294-45f5-bb6f-c5a1e433e0c6
 keywords:
-- Play, méthode lecteur Windows Media
-- méthode Play lecteur Windows Media, classe Controls
-- Controls, classe Windows Media Player, Play, méthode
+- play, méthode Lecteur Windows Media
+- play, méthode Lecteur Windows Media, classe controls
+- controls, classe Lecteur Windows Media, méthode play
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea66f3bc4cf01d194dc44bcdf7b7cc838e1f3799
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 86ce3c1572515b320a62b1b3c76aac72e44101e21f3b0f89d7c3356046ea95f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997449"
 ---
 # <a name="controlsplay-method"></a>Controls. Play, méthode
 
@@ -44,9 +44,9 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si cette méthode est appelée pendant le transfert rapide ou le rembobinage, il s’agit de la valeur des *paramètres*. la valeur **rate** est définie sur 1,0.
+si cette méthode est appelée pendant le transfert rapide ou le rembobinage, la valeur de *Paramètres*. la valeur **rate** est définie sur 1,0.
 
 ## <a name="examples"></a>Exemples
 

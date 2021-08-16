@@ -4,12 +4,12 @@ description: IAgentCommandWindow
 ms.assetid: 24ad3b48-6557-4790-b9c4-2cf7df92fa7d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53cf42d98f811905590209b6fed70b28a5728903
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 200853d88f4f4ea70fce0f80d73f343a2a4d46935a2dfca0ebf78021b0b884ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961579"
 ---
 # <a name="iagentcommandwindowgetsize"></a>IAgentCommandWindow :: est à obtenir
 
@@ -47,9 +47,9 @@ Adresse d’une variable qui reçoit la hauteur de la fenêtre commandes vocales
 [**IAgentCommandWindow :: GetPosition**](iagentcommandwindow--getposition.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -31,7 +31,7 @@ L’attribut **WM/InitialKey** contient la clé initiale de la musique dans le f
 
 **\_chaîne de type WMT \_**
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 
 

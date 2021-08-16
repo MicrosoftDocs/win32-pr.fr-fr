@@ -11,12 +11,12 @@ api_name:
 - simIccIDType
 api_type:
 - Schema
-ms.openlocfilehash: 410145e659a4845c9c96aaeb76d522de3e0c7b53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33a984875e1e6840787d81dc53c8fc13ead54a0328f6610d75c30075066c13c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035757"
 ---
 # <a name="simiccidtype-simple-type"></a>Type simple simIccIDType
 
@@ -46,7 +46,7 @@ Le type simple **simIccIDType** est un jeton qui est limité par le modèle suiv
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                         |
 
 

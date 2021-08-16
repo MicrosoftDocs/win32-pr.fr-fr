@@ -39,7 +39,7 @@ Pour connaître la syntaxe complète [, consultez Syntaxe de variable (DirectX H
 
 Une variable Effect déclarée en dehors de toutes les fonctions est considérée comme globale dans la portée. les variables déclarées dans une fonction sont locales à cette fonction.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 Cet exemple illustre les variables numériques à effet global.
 

@@ -3,9 +3,9 @@ title: Méthode IWMPNetwork setProxyBypassForLocal
 description: La méthode setProxyBypassForLocal spécifie si le serveur proxy est contourné si le serveur d’origine se trouve sur un réseau local.
 ms.assetid: b308957a-0d7e-45be-8625-db198b276dad
 keywords:
-- méthode setProxyBypassForLocal lecteur Windows Media
-- méthode setProxyBypassForLocal lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, méthode setProxyBypassForLocal
+- Lecteur Windows Media de la méthode setProxyBypassForLocal
+- méthode setProxyBypassForLocal Lecteur Windows Media, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, méthode setProxyBypassForLocal
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35f869125d43529a039804fe28c0f0dc493f481e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dc751d05c87e780a2006e232d0b5d95e5d937e2719ad7e0c17ef6ac3d4b15333
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331136"
 ---
 # <a name="iwmpnetworksetproxybypassforlocal-method"></a>IWMPNetwork :: setProxyBypassForLocal, méthode
 
@@ -73,7 +73,7 @@ Valeur **System. Boolean** qui indique si le serveur proxy est contourné.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode n’a aucun effet, sauf si la valeur récupérée à partir de **IWMPNetwork. getProxySettings** est 2 (utiliser des paramètres manuels).
 
@@ -81,7 +81,7 @@ Cette méthode échoue sauf si l’application appelante est en cours d’exécu
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code suivant utilise **setProxyBypassForLocal** pour spécifier si le serveur proxy du lecteur Windows Media est contourné, lors de l’utilisation du protocole MMS, si le serveur d’origine se trouve sur un réseau local. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
+l’exemple de code suivant utilise **setProxyBypassForLocal** pour spécifier si le serveur proxy Lecteur Windows Media est contourné, lors de l’utilisation du protocole MMS, si le serveur d’origine se trouve sur un réseau local. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
 
 
 ```CSharp

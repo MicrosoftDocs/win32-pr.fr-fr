@@ -3,7 +3,7 @@ title: Propriété Tab. ScalingPolicy
 description: Représente un conteneur pour les spécifications de mise à l’échelle des onglets.
 ms.assetid: cc1e4a35-9348-459b-a2f1-25c34d49e5e8
 keywords:
-- Ruban Windows de la propriété Tab. ScalingPolicy
+- propriété Tab. ScalingPolicy Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c46528e7b5957415db55f1a51dd6dafed7e1da98
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11b98174ff5c3426a4805905f0aa7ada86d63a644f4245135bcede5c71d11e75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850794"
 ---
 # <a name="tabscalingpolicy-property"></a>Propriété Tab. ScalingPolicy
 
 Représente un conteneur pour les spécifications de mise à l’échelle des [onglets](windowsribbon-controls-tab.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Tab.ScalingPolicy>
@@ -55,9 +55,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**onglet**](windowsribbon-element-tab.md).
 
@@ -137,8 +137,8 @@ L’exemple de code suivant montre un manifeste [**ScalingPolicy**](windowsribbo
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

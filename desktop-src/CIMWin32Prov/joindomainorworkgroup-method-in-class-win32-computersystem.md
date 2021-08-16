@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 927dd6b2664c92ff07e94407fdc59fdd917363dd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b9faf923cf6c771e95a7dfb4f0b04f896c54d79c6b5548e97850d867057b065b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117834646"
 ---
 # <a name="joindomainorworkgroup-method-of-the-win32_computersystem-class"></a>Méthode JoinDomainOrWorkgroup de la \_ classe Win32 ComputerSystem
 
@@ -151,7 +151,7 @@ Effectue une jonction non sécurisée.
 
 Cette option demande une jonction de domaine à un compte créé au préalable sans authentification avec les informations d’identification de l’utilisateur du domaine. Cette option peut être utilisée conjointement avec l’option de configuration de l' **\_ ordinateur par mot de \_ \_ passe** . Dans ce cas, *Password* est le mot de passe du compte d’ordinateur créé au préalable.
 
-Avant Windows Vista avec SP1 et Windows Server 2008, une jonction non sécurisée ne s’est pas authentifiée auprès du contrôleur de domaine. Toutes les communications ont été effectuées à l’aide d’une session null (non authentifiée). À compter de Windows Vista avec SP1 et Windows Server 2008, le nom et le mot de passe du compte d’ordinateur sont utilisés pour l’authentification auprès du contrôleur de domaine.
+avant Windows Vista avec SP1 et Windows Server 2008, une jonction non sécurisée ne s’est pas authentifiée auprès du contrôleur de domaine. Toutes les communications ont été effectuées à l’aide d’une session null (non authentifiée). à compter de Windows Vista avec SP1 et Windows Server 2008, le nom et le mot de passe du compte d’ordinateur sont utilisés pour l’authentification auprès du contrôleur de domaine.
 
 </dd> <dt>
 
@@ -191,7 +191,7 @@ En règle générale, ces propriétés sont mises à jour pendant l’opération
 Autoriser la jonction de domaine si le compte existant est un contrôleur de domaine.
 
 > [!Note]  
-> Cet indicateur est pris en charge sur Windows Vista et versions ultérieures.
+> cet indicateur est pris en charge sur Windows Vista et versions ultérieures.
 
  
 
@@ -207,7 +207,7 @@ Autoriser la jonction de domaine si le compte existant est un contrôleur de dom
 Lorsque vous rejoignez le domaine, n’essayez pas de définir le contrôleur de domaine préféré dans le registre.
 
 > [!Note]  
-> Cet indicateur est pris en charge sur Windows 7, Windows Server 2008 R2 et versions ultérieures.
+> cet indicateur est pris en charge sur Windows 7, Windows Server 2008 R2 et versions ultérieures.
 
  
 
@@ -223,7 +223,7 @@ Lorsque vous rejoignez le domaine, n’essayez pas de définir le contrôleur de
 Lorsque vous rejoignez le domaine, ne créez pas le cache Netlogon.
 
 > [!Note]  
-> Cet indicateur est pris en charge sur Windows 7, Windows Server 2008 R2 et versions ultérieures.
+> cet indicateur est pris en charge sur Windows 7, Windows Server 2008 R2 et versions ultérieures.
 
  
 
@@ -239,7 +239,7 @@ Lorsque vous rejoignez le domaine, ne créez pas le cache Netlogon.
 Lorsque vous rejoignez le domaine, ne forcez pas le démarrage du service Netlogon.
 
 > [!Note]  
-> Cet indicateur est pris en charge sur Windows 7, Windows Server 2008 R2 et versions ultérieures.
+> cet indicateur est pris en charge sur Windows 7, Windows Server 2008 R2 et versions ultérieures.
 
  
 
@@ -255,7 +255,7 @@ Lorsque vous rejoignez le domaine, ne forcez pas le démarrage du service Netlog
 Quand vous joignez le domaine pour une jointure hors connexion uniquement, définissez le nom d’hôte de l’ordinateur cible et le nom NetBIOS.
 
 > [!Note]  
-> Cet indicateur est pris en charge sur Windows 7, Windows Server 2008 R2 et versions ultérieures.
+> cet indicateur est pris en charge sur Windows 7, Windows Server 2008 R2 et versions ultérieures.
 
  
 
@@ -271,7 +271,7 @@ Quand vous joignez le domaine pour une jointure hors connexion uniquement, défi
 Quand vous joignez le domaine, remplacez d’autres paramètres lors de la jonction de domaine et définissez le nom de principal du service (SPN).
 
 > [!Note]  
-> Cet indicateur est pris en charge sur Windows 7, Windows Server 2008 R2 et versions ultérieures.
+> cet indicateur est pris en charge sur Windows 7, Windows Server 2008 R2 et versions ultérieures.
 
  
 
@@ -287,7 +287,7 @@ Quand vous joignez le domaine, remplacez d’autres paramètres lors de la jonct
 Quand vous joignez le domaine, ne réutilisez pas un compte existant.
 
 > [!Note]  
-> Cet indicateur est pris en charge sur Windows 7, Windows Server 2008 R2 et versions ultérieures.
+> cet indicateur est pris en charge sur Windows 7, Windows Server 2008 R2 et versions ultérieures.
 
  
 
@@ -385,7 +385,7 @@ L’ordinateur n’est pas actuellement joint à un domaine.
 
 0x80041087
 
-Le *mot de passe* et le *nom d’utilisateur* sont spécifiés, mais le niveau d’authentification n’est pas le niveau d’authentification RPC de la **\_ \_ \_ \_ \_ confidentialité**. Pour Visual Basic, **wbemErrEncryptedConnectionRequired** est retourné.
+Le *mot de passe* et le *nom d’utilisateur* sont spécifiés, mais le niveau d’authentification n’est pas le niveau d’authentification RPC de la **\_ \_ \_ \_ \_ confidentialité**. pour Visual Basic, **wbemErrEncryptedConnectionRequired** est retourné.
 
 </dd> <dt>
 
@@ -396,11 +396,11 @@ Le *mot de passe* et le *nom d’utilisateur* sont spécifiés, mais le niveau d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors du déplacement d’un ordinateur d’un domaine vers un groupe de travail, vous devez supprimer l’ordinateur du domaine (avec un appel à [**UnjoinDomainOrWorkgroup**](unjoindomainorworkgroup-method-in-class-win32-computersystem.md)) avant d’appeler cette méthode pour joindre un groupe de travail (avec un appel à **JoinDomainOrWorkGroup**). Après avoir appelé cette méthode, redémarrez l’ordinateur affecté pour appliquer les modifications.
 
-Le *nom d’utilisateur* et le *mot de passe* peuvent être **null**. Toutefois, l’authentification de la connexion à WMI doit être 6 dans script ou **WbemAuthenticationLevelPktPrivacy** dans Visual Basic et dans d’autres langues qui peuvent utiliser la bibliothèque [wbemdisp.dll](/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library) . Pour plus d’informations, consultez [définition du niveau de sécurité de processus par défaut à l’aide de VBScript](/windows/desktop/WmiSdk/setting-the-default-process-security-level-using-vbscript).
+Le *nom d’utilisateur* et le *mot de passe* peuvent être **null**. toutefois, l’authentification de la connexion à WMI doit être 6 dans script ou **WbemAuthenticationLevelPktPrivacy** dans Visual Basic et dans d’autres langues qui peuvent utiliser la bibliothèque [wbemdisp.dll](/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library) . Pour plus d’informations, consultez [définition du niveau de sécurité de processus par défaut à l’aide de VBScript](/windows/desktop/WmiSdk/setting-the-default-process-security-level-using-vbscript).
 
 En C++, définissez l’authentification au **niveau de la \_ \_ \_ \_ \_ confidentialité** de l’authentification au niveau de l’authentification RPC C dans [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity), pour l’ensemble du processus, ou dans [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket), pour une connexion au proxy [**IWbemServices**](/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices) . Pour plus d’informations, consultez Définition de l' [authentification à l’aide de C++](/windows/desktop/WmiSdk/setting-authentication-using-c-) et [définition de la sécurité sur IWbemServices et d’autres proxies](/windows/desktop/WmiSdk/setting-the-security-on-iwbemservices-and-other-proxies).
 

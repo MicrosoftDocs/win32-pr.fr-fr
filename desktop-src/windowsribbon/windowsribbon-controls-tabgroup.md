@@ -4,12 +4,12 @@ description: Un groupe d’onglets est un contrôle contextuel qui est masqué o
 ms.assetid: 5b74ff46-2543-43f3-ab42-dab1bc67a75e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 253c803a07c0d27692442ddb7a291930a261a2ae
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 56ddf1c34903f0660f6f5ead5eb76cd17934ac5cc987358f24c32bc127c73706
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851255"
 ---
 # <a name="tab-group"></a>Groupe d’onglets
 
@@ -26,9 +26,9 @@ En règle générale, un groupe d’onglets s’affiche au cours d’États d’
 > [!IMPORTANT]
 > Un groupe d’onglets ne prend pas en charge les [modes d’application](ribbon-applicationmodes.md). Toutefois, les contrôles d' [onglet](windowsribbon-controls-tab.md) individuels au sein d’un groupe d’onglets peuvent.
 
- 
+ 
 
-La capture d’écran suivante montre un [onglet](windowsribbon-controls-tab.md) contextuel de Windows 7 Paint.
+la capture d’écran suivante montre un [onglet](windowsribbon-controls-tab.md) contextuel de Windows 7 Paint.
 
 ![capture d’écran qui montre un contrôle d’onglet contextuel.](images/controls/contextualtab.png)
 
@@ -43,13 +43,13 @@ La méthode de rappel [**IUICommandHandler :: UpdateProperty**](/windows/deskto
 > [!Note]  
 > Dans certains cas, une propriété peut être récupérée par le biais de la méthode [**IUIFramework :: GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) et définie avec la méthode [**IUIFramework :: SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) .
 
- 
+ 
 
 Le tableau suivant répertorie les clés de propriété associées au contrôle de groupe d’onglets.
 
 
 
-| Clé de propriété                                                                                     | Notes                                                                                                                                                                                                                         |
+| Clé de propriété                                                                                     | Remarques                                                                                                                                                                                                                         |
 |--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [IU \_ \_ ContextAvailable](windowsribbon-reference-properties-uipkey-contextavailable.md)     | Prend en charge [**IUIFramework :: GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) et [**IUIFramework :: SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty). |
 | [KeyTip de l’interface utilisateur \_ \_](windowsribbon-reference-properties-uipkey-keytip.md)                         | Peut uniquement être mis à jour par le biais d’une invalidation.                                                                                                                                                                                     |
@@ -59,18 +59,18 @@ Le tableau suivant répertorie les clés de propriété associées au contrôle 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Bibliothèque de contrôles de l’infrastructure du ruban Windows](windowsribbon-controls-entry.md)
+[Windows Bibliothèque de contrôles de Framework du ruban](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**Élément de balisage TabGroup**](windowsribbon-element-tabgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

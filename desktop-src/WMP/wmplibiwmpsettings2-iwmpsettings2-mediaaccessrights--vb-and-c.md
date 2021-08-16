@@ -3,9 +3,9 @@ title: IWMPSettings2 propriété mediaAccessRights
 description: La propriété mediaAccessRights obtient une valeur indiquant les autorisations actuellement accordées pour l’accès à la bibliothèque.
 ms.assetid: c4289a2c-e343-405d-9bf5-0e97f6617916
 keywords:
-- propriété mediaAccessRights lecteur Windows Media
-- propriété mediaAccessRights lecteur Windows Media, interface IWMPSettings2
-- Interface IWMPSettings2 lecteur Windows Media, propriété mediaAccessRights
+- Lecteur Windows Media de la propriété mediaAccessRights
+- Lecteur Windows Media de la propriété mediaAccessRights, interface IWMPSettings2
+- Lecteur Windows Media de l’interface IWMPSettings2, propriété mediaAccessRights
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96cca06b9618767e7748b4b1308ed97860c7c80b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 797e45c62b505033afd2126f79d5830de5bc9847a4de36199a6c919a4978f112
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122489"
 ---
 # <a name="iwmpsettings2mediaaccessrights-property"></a>IWMPSettings2 :: mediaAccessRights, propriété
 
@@ -63,7 +63,7 @@ Public ReadOnly Property mediaAccessRights As System.String
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une page Web doit tout d’abord demander l’autorisation à l’utilisateur de lire des informations ou d’écrire des données dans la bibliothèque. Cela signifie que certaines méthodes, propriétés et événements seront inaccessibles à partir du code si les droits d’accès appropriés n’ont pas été accordés. Pour obtenir les droits d’accès, l’application appelle **IWMPSettings2. obtenir \_ requestMediaAccessRights**, en passant un paramètre qui spécifie le niveau de droits d’accès souhaité.
 

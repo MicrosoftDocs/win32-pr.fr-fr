@@ -4,12 +4,12 @@ ms.assetid: 9f2c18ec-3684-42a8-a3df-5f8827b27642
 title: Télévision analogique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33af8ba94831afed59d783598dbf6bc0eaee0ec6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 886c2b3f93ca70fb4a533f131611431c4a15df51169f70ed49f321c0ccfc8c2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824756"
 ---
 # <a name="analog-television"></a>Télévision analogique
 
@@ -28,7 +28,7 @@ Le diagramme suivant montre un graphique de filtre classique pour la préversion
 -   Si la carte tuner a plusieurs entrées physiques, le filtre de la barre d' [affichage vidéo analogique](analog-video-crossbar-filter.md) permet à l’application de sélectionner l’entrée qui est décodée et rendue.
 -   Le filtre de [capture vidéo WDM](wdm-video-capture-filter.md) remet le flux vidéo numérisé.
 
-Le générateur de graphiques de capture insère automatiquement tous les filtres qui sont requis en amont du filtre de capture.
+le générateur de Graph de capture insère automatiquement tous les filtres qui sont requis en amont du filtre de capture.
 
 Cette section contient les rubriques suivantes :
 

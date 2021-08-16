@@ -1,6 +1,6 @@
 ---
-title: Architecture Windows Remote Management
-description: L’architecture Windows Remote Management se compose de composants sur les ordinateurs clients et serveurs.
+title: Windows Architecture de gestion à distance
+description: l’architecture Windows Remote Management se compose de composants sur les ordinateurs clients et serveurs.
 ms.assetid: 82e67851-fe46-4bb0-8278-9718b5e0c7ae
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0f5576913c5e4a1f2a105fb77e2282dc682c6659
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 889a823c4c67bed29f9ce695d84c893654b541aed76e0c79860e31f24c543662
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121592"
 ---
-# <a name="windows-remote-management-architecture"></a>Architecture Windows Remote Management
+# <a name="windows-remote-management-architecture"></a>Windows Architecture de gestion à distance
 
-L’architecture Windows Remote Management se compose de composants sur les ordinateurs clients et serveurs. L’illustration suivante montre les composants sur les deux ordinateurs, la façon dont les composants interagissent avec d’autres composants et le protocole utilisé pour la communication entre les ordinateurs.
+l’architecture Windows Remote Management se compose de composants sur les ordinateurs clients et serveurs. L’illustration suivante montre les composants sur les deux ordinateurs, la façon dont les composants interagissent avec d’autres composants et le protocole utilisé pour la communication entre les ordinateurs.
 
 ![architecture WinRM](images/winrm-architecture.png)
 
@@ -77,15 +77,15 @@ Les composants WinRM suivants résident sur l’ordinateur qui répond.
 
 -   Pilote IPMI (Intelligent Platform Management Interface) et fournisseur IPMI WMI
 
-    Ces composants fournissent toutes les données matérielles demandées à l’aide des classes IPMI. Pour plus d’informations, consultez [fournisseur IPMI](/previous-versions/windows/desktop/ipmiprv/ipmi-provider). Le matériel BMC doit avoir été détecté par le SMBIOS ou l’appareil créé manuellement par le chargement du pilote. Pour plus d’informations, consultez [installation et configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
+    Ces composants fournissent toutes les données matérielles demandées à l’aide des classes IPMI. Pour plus d’informations, consultez [fournisseur IPMI](/previous-versions/windows/desktop/ipmiprv/ipmi-provider). Le matériel BMC doit avoir été détecté par le SMBIOS ou l’appareil créé manuellement par le chargement du pilote. pour plus d’informations, consultez [Installation et Configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[À propos de Windows Remote Management](about-windows-remote-management.md)
+[à propos de Windows Remote Management](about-windows-remote-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

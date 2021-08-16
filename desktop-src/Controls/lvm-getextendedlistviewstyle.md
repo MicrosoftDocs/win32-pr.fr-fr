@@ -3,7 +3,7 @@ title: Message LVM_GETEXTENDEDLISTVIEWSTYLE (commctrl. h)
 description: Obtient les styles étendus en cours d’utilisation pour un contrôle List-View donné. Vous pouvez envoyer ce message explicitement ou utiliser la \_ macro ListView GetExtendedListViewStyle.
 ms.assetid: 5cfccdb8-a81c-4fa9-a4fa-19cf49bd6ce0
 keywords:
-- LVM_GETEXTENDEDLISTVIEWSTYLE les contrôles de message Windows
+- LVM_GETEXTENDEDLISTVIEWSTYLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 273da9e7eac85475b90ad05dc5fdd7f70d524562
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d04b2f83f5a8bd55f01aa84e315512c5ccb1b28b17f196c0199fc417544a6737
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968299"
 ---
 # <a name="lvm_getextendedlistviewstyle-message"></a>\_Message GETEXTENDEDLISTVIEWSTYLE LVM
 
@@ -45,8 +45,8 @@ Retourne une **valeur DWORD** qui représente les styles en cours d’utilisatio
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

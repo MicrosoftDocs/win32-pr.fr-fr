@@ -4,12 +4,12 @@ ms.assetid: d88916eb-bd68-4133-a920-4cdf93a9ea09
 title: System. photo. FNumberNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df2ec31f67623f4d1fb7886fafebc27428314340
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42b0c3961dd07e62dc886dd9a1942b7e4d5bb82ebd6a001ae09e11705fd1f959
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033357"
 ---
 # <a name="systemphotofnumbernumerator"></a>System. photo. FNumberNumerator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,12 +4,12 @@ description: Cette section décrit les éléments d’API suivants utilisés ave
 ms.assetid: f1d01045-a296-4b39-bd42-1262ba4ad3d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97868a924abadaddec66d53f58e039f280abb35e
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: cac237e8951e2aec3e6521c6918d13f216b0dbd7b11a9eba03c074910fbaea17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828520"
 ---
 # <a name="visual-styles-reference"></a>Référence des styles visuels
 
@@ -126,7 +126,7 @@ Cette section décrit les éléments d’API suivants utilisés avec les [styles
 |--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | [**PROPERTYORIGIN**](/windows/desktop/api/Uxtheme/ne-uxtheme-propertyorigin)                     | Retourné par [**GetThemePropertyOrigin**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemepropertyorigin) pour spécifier l’emplacement où une propriété a été trouvée.<br/> |
 | [**THÈMES**](/windows/desktop/api/Uxtheme/ne-uxtheme-themesize)                              | Identifie la taille de la partie de style visuel à récupérer. <br/>                                                  |
-| [**TM \_ props**](tm-props.md)                                | Actuellement non pris en charge.<br/>                                                                                    |
+| [**TM \_ props**](tm-props.md)                                | Non pris en charge actuellement.<br/>                                                                                    |
 | [**WINDOWTHEMEATTRIBUTETYPE**](/windows/desktop/api/Uxtheme/ne-uxtheme-windowthemeattributetype) | Spécifie le type d’attribut de style visuel à définir sur une fenêtre.<br/>                                            |
 
 
@@ -139,7 +139,7 @@ Cette section décrit les éléments d’API suivants utilisés avec les [styles
 
 | Rubrique                                                                            | Contenu                                                                                                                                                                                  |
 |----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Classes, parties et États de style Aero](aero-style-classes-parts-and-states.md) | Décrit les classes, les parties et les États pris en charge par le thème Aero, qui définit les styles visuels que Windows Vista utilise par défaut<br/>                                       |
+| [Classes, parties et États de style Aero](aero-style-classes-parts-and-states.md) | décrit les classes, les parties et les états pris en charge par le thème Aero, qui définit les styles visuels que Windows Vista utilise par défaut<br/>                                       |
 | [Format du fichier de thème](themesfileformat-overview.md)                               | Décrit le format des fichiers de thème (. Theme). <br/>                                                                                                                                 |
 | [Valeurs de format](theme-format-values.md)                                         | Répertorie les valeurs qui sont utilisées avec le paramètre *dwTextFlags* des fonctions [**DrawThemeText**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemetext) et [**GetThemeTextExtent**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemetextextent) . <br/> |
 | [Options de test de positionnement](theme-hit-test-options.md)                                   | Répertorie les valeurs d’option utilisées avec le paramètre *dwOptions* de la fonction [**HitTestThemeBackground**](/windows/desktop/api/Uxtheme/nf-uxtheme-hittestthemebackground) . <br/>                                |

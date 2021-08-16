@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 7d123bff-5dae-4430-be22-a822e231e43e
-ms.openlocfilehash: 6031f0fbf6c3c872252e9a80204c07356c54d0cb
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 87c6bfdf9321b0746cdff96de60f29aa3ec9c93e9c3222d4bc262ae211ece147
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860870"
 ---
 # <a name="diskquotacontroldefaultquotalimit-property"></a>DiskQuotaControl. DefaultQuotaLimit, propriété
 
@@ -40,7 +40,7 @@ DiskQuotaControl.DefaultQuotaLimit = iDefaultQuotaLimit
 
 Valeur **entière** qui spécifie ou reçoit la limite de quota par défaut pour les nouveaux utilisateurs, en octets.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

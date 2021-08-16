@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 05c2a652314babc212e17b48198e9441f4d3465d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: daa86bfd9975df5cd057dd3e577f443bafa6c363061e267e67adad69b590e678
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661079"
 ---
 # <a name="registering-control-panel-items"></a>Inscription des éléments du panneau de configuration
 
-Les éléments du panneau de configuration doivent être enregistrés afin d’apparaître dans la fenêtre du panneau de configuration. Si l’élément du panneau de configuration est implémenté dans le cadre d’un fichier. exe, il est inscrit en tant qu’objet de commande. L’inscription diffère si l’élément est implémenté en tant que fichier. dll qui exporte la fonction [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) .
+Les éléments du panneau de configuration doivent être enregistrés afin d’apparaître dans la fenêtre du panneau de configuration. Si l’élément du panneau de configuration est implémenté dans le cadre d’un fichier de .exe, il est inscrit en tant qu’objet de commande. L’inscription diffère si l’élément est implémenté en tant que .dll fichier qui exporte la fonction [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) .
 
 Des exigences spécifiques sont décrites dans les rubriques suivantes :
 
@@ -53,7 +53,7 @@ Des exigences spécifiques sont décrites dans les rubriques suivantes :
 [Création de liens de tâches pouvant faire l’objet d’une recherche pour un élément du panneau de configuration](creating-searchable-task-links.md)
 </dt> <dt>
 
-[Accès au panneau de configuration en mode sans échec sous Windows Vista](accessing-the-cp-in-safe-mode-under-vista.md)
+[accès au panneau de configuration en Mode Coffre sous Windows Vista](accessing-the-cp-in-safe-mode-under-vista.md)
 </dt> </dl>
 
  

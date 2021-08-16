@@ -4,12 +4,12 @@ description: Une Uniform Resource Locator (URL) est une représentation compacte
 ms.assetid: bb59ada6-f49f-412c-a32c-4fb9495b1222
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08157738d99e78ff4d458a3bdd1b1e2e661ce538
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 419433c8a06b6243bf048896664a67da31a3c58d1d79eb6fea65f9fc99dbe63a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104550437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121869"
 ---
 # <a name="handling-uniform-resource-locators"></a>Gestion des localisateurs de ressources uniformes
 
@@ -310,7 +310,7 @@ Le descripteur [**HINTERNET**](appendix-a-hinternet-handles.md) racine créé pa
 Pour plus d’informations, consultez [**Handles HINTERNET**](appendix-a-hinternet-handles.md).
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

@@ -3,9 +3,9 @@ title: IWMPErrorItem propriété customUrl
 description: La propriété customUrl obtient l’URL d’un site Web qui affiche des informations spécifiques sur l’échec du téléchargement du codec.
 ms.assetid: 638491da-f1e6-4d25-840e-24e6e2027c37
 keywords:
-- propriété customUrl lecteur Windows Media
-- propriété customUrl lecteur Windows Media, interface IWMPErrorItem
-- Interface IWMPErrorItem lecteur Windows Media, propriété customUrl
+- Lecteur Windows Media de la propriété customUrl
+- Lecteur Windows Media de la propriété customUrl, interface IWMPErrorItem
+- Lecteur Windows Media de l’interface IWMPErrorItem, propriété customUrl
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b12adddb460083d3d3da194d575577a3f66c1ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a9c368cc2d9c950b8030acbdd21c474ea8ad0402fa426256226512e412d1da2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122589"
 ---
 # <a name="iwmperroritemcustomurl-property"></a>IWMPErrorItem :: customUrl, propriété
 

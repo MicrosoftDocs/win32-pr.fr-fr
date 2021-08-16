@@ -1,21 +1,21 @@
 ---
 title: Démarrage rapide de Direct2D pour Windows 8
-description: Résume les étapes requises pour dessiner avec Direct2D pour Windows 8 et fournit un exemple de code. Direct2D est une API de code natif pour la création de graphiques 2D.
+description: résume les étapes requises pour dessiner avec Direct2D pour Windows 8 et fournit un exemple de code. Direct2D est une API de code natif pour la création de graphiques 2D.
 ms.assetid: FF4623FA-CA60-4637-9EE6-34C4EC84E51A
 keywords:
 - Direct2D, exemple de code de rectangle de dessin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43442e57ed0949bdf39fc05ce1a69fded42b4b3d
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: a3fd732d1d18cd731f6e6caa46f456f4896f47f778f8edc824442dfee5f6ac4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825430"
 ---
 # <a name="direct2d-quickstart-for-windows-8"></a>Démarrage rapide de Direct2D pour Windows 8
 
-Direct2D est une API en mode immédiat et en code natif pour la création de graphiques 2D. Cette rubrique montre comment utiliser Direct2D pour dessiner dans un [**Windows :: UI :: Core :: CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow).
+Direct2D est une API en mode immédiat et en code natif pour la création de graphiques 2D. cette rubrique montre comment utiliser Direct2D pour dessiner sur un [**Windows :: UI :: Core :: CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow).
 
 Cette rubrique contient les sections suivantes :
 
@@ -202,7 +202,7 @@ Un pinceau est un objet qui peint une zone, telle que le trait d’une forme ou 
 
 Direct2D fournit également d’autres types de pinceaux : les pinceaux de dégradé pour peindre des dégradés linéaires et radiaux, un [**pinceau bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush) pour peindre avec des bitmaps et des modèles, et à partir de Windows 8, un [**pinceau d’image**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1imagebrush) pour peindre avec une image rendue.
 
-Certaines API de dessin fournissent des stylets pour dessiner des contours et des pinceaux pour remplir des formes. Direct2D est différent : il ne fournit pas d’objet Pen, mais utilise un pinceau pour dessiner des contours et des formes de remplissage. Lors du dessin de contours, utilisez l’interface [**ID2D1StrokeStyle**](/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle) , ou à partir de Windows 8, l’interface [**ID2D1StrokeStyle1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1) , avec un pinceau pour contrôler les opérations de traçage de chemin.
+Certaines API de dessin fournissent des stylets pour dessiner des contours et des pinceaux pour remplir des formes. Direct2D est différent : il ne fournit pas d’objet Pen, mais utilise un pinceau pour dessiner des contours et des formes de remplissage. lors du dessin de contours, utilisez l’interface [**ID2D1StrokeStyle**](/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle) , ou à partir de Windows 8 l’interface [**ID2D1StrokeStyle1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1) , avec un pinceau pour contrôler les opérations de traçage de chemin.
 
 Un pinceau peut uniquement être utilisé avec la cible de rendu qui l’a créé et avec d’autres cibles de rendu dans le même domaine de ressource. En général, vous devez créer des pinceaux une seule fois et les conserver pendant toute la durée de vie de la cible de rendu qui les a créés. [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush) est l’exception solitaire ; étant donné qu’il est relativement peu coûteux à créer, vous pouvez créer un **ID2D1SolidColorBrush** chaque fois que vous dessinez un cadre, sans toucher aux performances perceptibles. Vous pouvez également utiliser un seul **ID2D1SolidColorBrush** et modifier sa couleur ou son opacité chaque fois que vous l’utilisez.
 

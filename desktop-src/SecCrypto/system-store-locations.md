@@ -4,12 +4,12 @@ ms.assetid: 41fe9366-4c17-43bb-91d6-934c7aa87a2d
 title: Emplacements du magasin système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0863ffde8be5db67459908b1ec26ec73da029744
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d793d94bcb1c58bcc0d8c046b038df7e699d287b9ede3f14d6e2cb3c94ab781e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897431"
 ---
 # <a name="system-store-locations"></a>Emplacements du magasin système
 
@@ -81,9 +81,9 @@ Les magasins physiques prédéfinis sont associés à ces magasins système, com
 | Magasin système | Magasin physique                                                                                    |
 |--------------|---------------------------------------------------------------------------------------------------|
 | MY           | . Valeurs                                                                                          |
-| Root         | . Default. AuthRoot<br/> . GroupPolicy<br/> . Entreprise<br/> . Carte à puce<br/> |
-| Confiance        | . Default. GroupPolicy<br/> . Entreprise<br/>                                            |
-| CA           | . Default. GroupPolicy<br/> . Entreprise <br/>                                           |
+| Root         | . Default. AuthRoot<br/> . GroupPolicy<br/> . Enterprise<br/> . Carte à puce<br/> |
+| Confiance        | . Default. GroupPolicy<br/> . Enterprise<br/>                                            |
+| CA           | . Default. GroupPolicy<br/> . Enterprise <br/>                                           |
 
 
 
@@ -217,7 +217,7 @@ Les magasins physiques prédéfinis associés à ces magasins système sont les 
 
  
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Des magasins physiques supplémentaires peuvent être associés à un magasin système à l’aide de [**CertRegisterPhysicalStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certregisterphysicalstore).
 

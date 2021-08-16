@@ -5,7 +5,7 @@ ms.assetid: 59be02fe-f207-4161-8765-9a88a8050248
 keywords:
 - Windows Media Format SDK, sauvegarde des licences
 - Windows Media Format SDK, restauration de licences
-- Windows Media Format SDK, sauvegarde et restauration de licences
+- Windows Media Format SDK, sauvegarde et restauration de licence
 - ASF (Advanced Systems Format), sauvegarde des licences
 - ASF (format des systèmes avancés), sauvegarde des licences
 - ASF (Advanced Systems Format), restauration des licences
@@ -20,12 +20,12 @@ keywords:
 - DRM (gestion des droits numériques), sauvegarde et restauration de la licence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d10d8e76c191225288a1021e08e4c77e7e14f3c6
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 378a41d975e8f19d38c637d585759d0038f5b86550769ae49d6a6490844f223e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103723530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028137"
 ---
 # <a name="backing-up-and-restoring-licenses"></a>Sauvegarde et restauration de licences
 
@@ -61,7 +61,7 @@ Les événements suivants sont envoyés à la méthode [**IWMStatusCallback :: 
 > [!Note]  
 > DRM n’est pas pris en charge par la version x64 de ce kit de développement logiciel (SDK).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -79,9 +79,9 @@ Les événements suivants sont envoyés à la méthode [**IWMStatusCallback :: 
 [**Interface IWMLicenseRestore**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,9 +3,9 @@ title: StringCollection. isIdentical, méthode
 description: La méthode isIdentical récupère une valeur indiquant si l’objet fourni est le même que celui actuel. | StringCollection. isIdentical, méthode
 ms.assetid: 5f2aabbe-e6c7-4aa2-a30d-30178a4ba3db
 keywords:
-- méthode isIdentical lecteur Windows Media
-- méthode isIdentical Player Windows Media, StringCollection Class
-- StringCollection, classe Windows Media Player, méthode isIdentical
+- Lecteur Windows Media de la méthode isIdentical
+- isIdentical, méthode Lecteur Windows Media, StringCollection, classe
+- StringCollection, classe Lecteur Windows Media, méthode isIdentical
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec4035e748921afd77865fa29c9a8507abe55128
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aded9879ded384feaa5bd12bd167c1eab0e1a0f764a3cf4370b84ca4b2422ff7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123019"
 ---
 # <a name="stringcollectionisidentical-method"></a>StringCollection. isIdentical, méthode
 
@@ -53,7 +53,7 @@ Objet **StringCollection** à comparer avec l’objet actuel.
 
 Cette méthode retourne une **valeur booléenne**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
