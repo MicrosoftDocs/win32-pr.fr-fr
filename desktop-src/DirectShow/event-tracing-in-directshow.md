@@ -4,16 +4,16 @@ ms.assetid: e78c4514-25f4-441d-bfd0-6dac4f7567fd
 title: Suivi d’événements dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c567d8a2e75d838570323d8ad6be04f11502c9c4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6afdeabfb13608453fc6b84bbefb36cca79265739c049cc0e5d35e997ebaf902
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117819581"
 ---
 # <a name="event-tracing-in-directshow"></a>Suivi d’événements dans DirectShow
 
-DirectShow prend en charge Suivi d’v nements pour Windows (ETW), qui peut être utilisé pour créer des journaux d’événements pour l’instrumentation ou le débogage. Pour plus d’informations sur ETW, reportez-vous à la documentation SDK Windows. Pour consommer des événements ETW dans une application DirectShow, vous devez activer le suivi, puis traiter les événements de trace. Effectuez les étapes suivantes.
+DirectShow prend en charge Suivi d’v nements pour Windows (ETW), qui peut être utilisé pour créer des journaux d’événements pour l’instrumentation ou le débogage. pour plus d’informations sur ETW, reportez-vous à la documentation SDK Windows. pour consommer des événements ETW dans une application DirectShow, vous devez activer le suivi, puis traiter les événements de trace. Effectuez les étapes suivantes.
 
 **Définir les clés de Registre nécessaires**
 
@@ -36,7 +36,7 @@ Ces clés s’appliquent aux fichiers binaires de mise en sortie et de débogage
 Pour activer le suivi dans votre application, procédez comme suit :
 
 1.  Appelez **StartTrace** pour démarrer une nouvelle session de suivi.
-2.  Appelez **EnableTrace** pour activer le suivi. Le GUID du fournisseur pour DirectShow est GUID \_ DShow \_ CTL.
+2.  Appelez **EnableTrace** pour activer le suivi. le guid du fournisseur pour DirectShow est guid \_ DSHOW \_ CTL.
 3.  Avant de quitter l’application, appelez **StopTrace** pour fermer la session de suivi.
 
 **Traiter les événements**
@@ -50,7 +50,7 @@ Pour traiter les événements, procédez comme suit :
 
 **Exemple de code**
 
-Le code suivant montre une classe d’assistance qui active le suivi. Ce code montre comment écrire des événements dans un fichier journal, qui peut être traité une fois la session terminée. Vous pouvez également traiter les événements en temps réel. Pour plus d’informations, reportez-vous à la documentation ETW dans le SDK Windows.
+Le code suivant montre une classe d’assistance qui active le suivi. Ce code montre comment écrire des événements dans un fichier journal, qui peut être traité une fois la session terminée. Vous pouvez également traiter les événements en temps réel. pour plus d’informations, reportez-vous à la documentation ETW dans le SDK Windows.
 
 
 ```C++

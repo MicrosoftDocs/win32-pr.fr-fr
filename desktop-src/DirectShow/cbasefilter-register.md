@@ -16,19 +16,19 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1bd7ba5a57d670ef28ffda022c95c7dc5b12df77
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 168d84d3bfc90fb710ae65a3b887eeb5575db407361a256c48161f0f7968a53c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403522"
 ---
 # <a name="cbasefilterregister-method"></a>CBaseFilter. Register, méthode
 
 La `Register` méthode ajoute le filtre au registre.
 
 > [!Note]  
-> Cette méthode est obsolète. Les nouveaux filtres doivent être inscrits à l’aide de la fonction [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) . Pour plus d’informations, consultez [comment inscrire des filtres DirectShow](how-to-register-directshow-filters.md).
+> Cette méthode est obsolète. Les nouveaux filtres doivent être inscrits à l’aide de la fonction [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) . pour plus d’informations, consultez [comment inscrire des filtres de DirectShow](how-to-register-directshow-filters.md).
 
  
 
@@ -53,7 +53,7 @@ Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
 | Code de retour                                                                             | Description                                          |
 |-----------------------------------------------------------------------------------------|------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                                  |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                                  |
 | <dl> <dt>**S \_ false**</dt> </dl> | Aucune information d’inscription n’est disponible.<br/> |
 
 
@@ -66,7 +66,7 @@ Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

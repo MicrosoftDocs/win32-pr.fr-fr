@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a9964c51524f7401afdfdd8a2da10cf43326bcae
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f5d52f19ca01a926c82fcc1e13cc7191866722ba5e0e6eef81e916e244744783
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106522540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118342983"
 ---
 # <a name="stringtabletype-complex-type"></a>Type complexe StringTableType
 
@@ -78,7 +78,7 @@ Définit une liste de chaînes localisées que vous pouvez référencer dans vot
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez référencer les chaînes à partir de n’importe quel type de manifeste contenant l’attribut de message. Pour faire référence à une chaîne avec un stringType « String » et un ID « Printer. Connection », utilisez $ (String. Printer. Connection) comme valeur de l’attribut de message.
 
@@ -88,8 +88,8 @@ Vous pouvez référencer les chaînes à partir de n’importe quel type de mani
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

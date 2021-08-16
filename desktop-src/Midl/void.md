@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4b14a5ae4a2325f840d8a840cb0a1bc5283bb4a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7ad758ba334114e13493e7b082f45f37dc6e68efba16dc3a55f14fa57a772d63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106510239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382435"
 ---
 # <a name="void-attribute"></a>void (attribut)
 
@@ -67,9 +67,9 @@ Spécifie le nom du type qui prend l' **\[** attribut de [**\_ handle de context
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le type de **pointeur \* void**, qui en C décrit un pointeur générique qui peut être casté pour représenter un type pointeur, est limité en MIDL avec le mot clé de **\[ \_ handle \] de contexte** .
+Le type **de pointeur void \* *_, qui, dans C, décrit un pointeur générique qui peut être casté pour représenter tout type pointeur, est limité en MIDL à son utilisation avec le* mot clé de \[ \_ handle \] de contexte _** .
 
 ## <a name="examples"></a>Exemples
 
@@ -93,9 +93,9 @@ HRESULT InitHandle([out] MY_CX_HNDL_TYPE * ppCxHndl);
 [Fichier de définition d’interface (IDL)](interface-definition-idl-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

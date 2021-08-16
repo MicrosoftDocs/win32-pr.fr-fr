@@ -1,6 +1,6 @@
 ---
 title: Structure WMDRMNET_POLICY_MINIMUM_ENVIRONMENT (wmdrmsdk. h)
-description: La \_ structure d’environnement minimale de la stratégie WMDRMNET \_ \_ contient les exigences de sécurité minimales pour Windows Media DRM pour les périphériques réseau.
+description: la \_ \_ \_ structure d’environnement minimale de la stratégie WMDRMNET contient les exigences de sécurité minimales pour Windows DRM pour les périphériques réseau.
 ms.assetid: b1bc9a8d-197e-45fe-a152-0b81add977eb
 keywords:
 - Structure WMDRMNET_POLICY_MINIMUM_ENVIRONMENT format Windows Media
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bf53fdec186a44eff375dd2e9cf9badfe0ba715
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26c11cf02d7cfcd2e3ab62c4e6b110e2c20b77cf6f79251a23f642b38d4df553
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118027460"
 ---
 # <a name="wmdrmnet_policy_minimum_environment-structure"></a>\_Structure d' \_ \_ environnement minimale de la stratégie WMDRMNET
 
-La structure d' **\_ \_ \_ environnement minimale de la stratégie WMDRMNET** contient les exigences de sécurité minimales pour Windows Media DRM pour les périphériques réseau.
+la structure d' **\_ \_ \_ environnement minimale de la stratégie WMDRMNET** contient les exigences de sécurité minimales pour Windows DRM pour les périphériques réseau.
 
 ## <a name="syntax"></a>Syntaxe
 

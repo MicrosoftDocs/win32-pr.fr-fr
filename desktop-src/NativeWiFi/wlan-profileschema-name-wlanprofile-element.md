@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 79174d1cb24fff1841b3022fa06e201794415ce5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a6d19c043f7cc2e42ca8221e98b05e4afe7628b143bd572465f00e1d3652275
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117984112"
 ---
 # <a name="name-wlanprofile-element"></a>Élément Name (WLANProfile)
 
@@ -31,13 +31,13 @@ L’élément Name (WLANProfile) contient le nom d’un profil de réseau local 
 
 L’élément **Name** est défini par l’élément [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les noms respectent la casse.
 
-Pour Windows XP avec Service Pack 3 (SP3) et l’API de réseau local sans fil pour Windows XP avec Service Pack 2 (SP2), l’élément Name est ignoré lorsque le profil est enregistré dans le magasin de profils. Le nom du profil est dérivé du SSID du réseau. Pour les profils réseau d’infrastructure, le nom du profil correspond à l’identificateur SSID du réseau. Pour les profils réseau ad hoc, le nom du profil correspond à l’identificateur SSID du réseau ad hoc suivi de `-adhoc` . Les caractères d’échappement XML, tels que les &, ne sont pas affichés. Évitez d’utiliser des caractères d’échappement XML dans des noms SSID pour les profils déployés sur Windows XP avec SP3 ou l’API LAN sans fil pour Windows XP avec SP2.
+pour Windows xp avec service pack 3 (SP3) et l’API de réseau local sans fil pour Windows XP avec service pack 2 (SP2), l’élément name est ignoré lorsque le profil est enregistré dans le magasin de profils. Le nom du profil est dérivé du SSID du réseau. Pour les profils réseau d’infrastructure, le nom du profil correspond à l’identificateur SSID du réseau. Pour les profils réseau ad hoc, le nom du profil correspond à l’identificateur SSID du réseau ad hoc suivi de `-adhoc` . Les caractères d’échappement XML, tels que les &, ne sont pas affichés. évitez d’utiliser des caractères d’échappement XML dans des noms SSID pour les profils déployés sur Windows xp avec SP3 ou une API de réseau local sans fil pour Windows XP avec SP2.
 
-Pour tout profil réseau destiné à être utilisé uniquement sur Windows Vista ou Windows Server 2008, le nom peut être n’importe quelle chaîne.
+pour tout profil réseau destiné à être utilisé uniquement sur Windows Vista ou Windows Server 2008, le nom peut être n’importe quelle chaîne.
 
 ## <a name="examples"></a>Exemples
 
@@ -50,7 +50,7 @@ Pour afficher des exemples de profils qui utilisent l’élément **Name** , con
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                 |
 
 

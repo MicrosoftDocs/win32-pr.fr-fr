@@ -4,12 +4,12 @@ ms.assetid: e9820e53-8891-4bff-a333-00ad2dbb03a4
 title: Scénarios de base pour la sécurisation des données dans les applications multiniveau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7929bcfeba96b43b7ec91513b42ffb7f46266613
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4f9c4bafb0334bb9e5f124eb184f6ebf2d17f4f0dc40ef04421162dc6604f531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118308741"
 ---
 # <a name="basic-scenarios-for-securing-data-in-multi-tier-applications"></a>Scénarios de base pour la sécurisation des données dans les applications multiniveau
 
@@ -39,7 +39,7 @@ Une combinaison des deux scénarios précédents, où l’emprunt d’identité 
 
 Ce scénario fonctionne mieux dans les situations où vous avez des relations de données utilisateur hybrides. Par exemple, vous avez des « responsables », des « responsables », des « comptables » et des milliers de clients Web individuels qui peuvent accéder à leurs propres comptes uniquement. Vous pouvez séparer les chemins logiques via l’application, éventuellement avec des composants distincts, pour gérer la dernière classe d’utilisateurs, en particulier lorsque les hypothèses de performances pour ces utilisateurs sont différentes.
 
-## <a name="trusted-scenario-using-microsoft-sql-server-roles"></a>Scénario approuvé à l’aide de rôles de Microsoft SQL Server
+## <a name="trusted-scenario-using-microsoft-sql-server-roles"></a>scénario approuvé à l’aide de rôles de Microsoft SQL Server
 
 -   Microsoft SQL Server 7,0 et versions ultérieures peuvent autoriser l’accès à des lignes spécifiques à l’aide de rôles, mais il fait confiance à l’application COM+ pour authentifier et autoriser les utilisateurs et les mapper aux rôles appropriés dans la base de données.
 -   L’application COM+ autorise les utilisateurs à utiliser la sécurité basée sur les rôles, et les rôles d’application correspondent bien aux rôles de base de données.

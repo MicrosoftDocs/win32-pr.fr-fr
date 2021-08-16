@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 2fbed0411f3562e3a05ec2ec4df99dfad6d8c902
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5c0fb2de39cfcc8b0571b05c85ffa3d03945f6c837ae10ba68252b5b9c24b524
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104043154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118299372"
 ---
 # <a name="d3dxcomputeimtfromtexture-function"></a>D3DXComputeIMTFromTexture fonction)
 
@@ -109,7 +109,7 @@ Pointeur vers la mémoire tampon (consultez [**ID3DXBuffer**](id3dxbuffer.md)) c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

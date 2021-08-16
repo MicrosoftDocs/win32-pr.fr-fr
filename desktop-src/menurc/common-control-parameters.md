@@ -4,12 +4,12 @@ description: La syntaxe générale d’une instruction de définition de ressour
 ms.assetid: e7a49a9f-93b5-4221-8006-3d1864b7a6a1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 261c71163276ed39841d6f6d7e125d4eb5420072
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: abbdbf707e1ee72f62c7c08cb7065f4d1a4b8f2f4c000d52f3a28c9806a21a0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117870560"
 ---
 # <a name="common-control-parameters"></a>Paramètres de contrôle communs
 
@@ -98,10 +98,10 @@ Données spécifiques au contrôle pour le contrôle. Lorsqu’une boîte de dia
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les unités de la boîte de dialogue horizontale sont 1/4 de l’unité de largeur de base du dialogue. Les unités verticales sont 1/8 de l’unité de hauteur de la boîte de dialogue. Les unités de base de la boîte de dialogue en cours sont calculées à partir de la hauteur et de la largeur de la police système actuelle. La fonction [**GetDialogBaseUnits**](/windows/win32/api/winuser/nf-winuser-getdialogbaseunits) retourne les unités de base de la boîte de dialogue en pixels. Les coordonnées sont relatives à l’origine de la boîte de dialogue.
 
- 
+ 
 
- 
+ 

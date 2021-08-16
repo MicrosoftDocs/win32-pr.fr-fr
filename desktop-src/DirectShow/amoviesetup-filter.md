@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - combase.h
-ms.openlocfilehash: 55a225185733a822591d8f93c2eca3674d51a340
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe50295f87e2932d3eb0fe53aac4896343a31441f8fa832bbaa69d5256846414
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824789"
 ---
 # <a name="amoviesetup_filter-structure"></a>\_Structure de filtre AMOVIESETUP
 
@@ -78,12 +78,12 @@ Pointeur vers un tableau de structures [**AMOVIESETUP \_ pin**](amoviesetup-pin.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur l’utilisation de cette structure, consultez [comment inscrire des filtres DirectShow](how-to-register-directshow-filters.md). Utilisez cette structure uniquement pour les filtres qui sont enregistrés dans la catégorie de filtre par défaut (CLSID \_ LegacyAmFilterCategory). Pour inscrire un filtre dans une autre catégorie, utilisez la méthode [**IFilterMapper2 :: RegisterFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter) , comme décrit dans [implémentation de DllRegisterServer](implementing-dllregisterserver.md).
+pour plus d’informations sur l’utilisation de cette structure, consultez [comment inscrire des filtres de DirectShow](how-to-register-directshow-filters.md). Utilisez cette structure uniquement pour les filtres qui sont enregistrés dans la catégorie de filtre par défaut (CLSID \_ LegacyAmFilterCategory). Pour inscrire un filtre dans une autre catégorie, utilisez la méthode [**IFilterMapper2 :: RegisterFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter) , comme décrit dans [implémentation de DllRegisterServer](implementing-dllregisterserver.md).
 
 > [!Note]  
-> Le fichier d’en-tête ComBase. h est fourni avec les [classes de base DirectShow](directshow-base-classes.md).
+> le fichier d’en-tête combase. h est fourni avec les [Classes de Base DirectShow](directshow-base-classes.md).
 
  
 
@@ -93,7 +93,7 @@ Pour plus d’informations sur l’utilisation de cette structure, consultez [co
 
 | Condition requise | Valeur |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| En-tête<br/> | <dl> <dt>ComBase. h (include streams. h)</dt> </dl> |
+| En-tête<br/> | <dl> <dt>combase. h (inclure Flux. h)</dt> </dl> |
 
 
 
@@ -101,7 +101,7 @@ Pour plus d’informations sur l’utilisation de cette structure, consultez [co
 
 <dl> <dt>
 
-[Structures DirectShow](directshow-structures.md)
+[DirectShow Celles](directshow-structures.md)
 </dt> </dl>
 
  

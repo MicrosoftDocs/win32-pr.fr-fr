@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e25f66006dcb37e2504785b2b28ca1f328edfcfd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8abd9e3ee848c2a586230807b107f59acb734c398b3c27b4833e4359bb4c6543
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117950315"
 ---
 # <a name="ts_char_-constants"></a>\_ \_ \* CONSTANTEs char TS
 
@@ -43,7 +43,7 @@ Les \_ \_ \* constantes char de TS décrivent le type de caractère.
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                              |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                    |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                         |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                         |
 | En-tête<br/>                   | <dl> <dt>Textstor. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Textstor. idl</dt> </dl> |
 

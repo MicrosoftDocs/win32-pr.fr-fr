@@ -8,18 +8,18 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b2ecad1b63335b7f2bfc81c099b4f920d9de21c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 55cd9e28e9ec9ce2f3068643d44306f542eebabb9b0b0c8860b15e9e986b49b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106508966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841769"
 ---
 # <a name="faults"></a>Pannes
 
 Un message d’erreur est utilisé pour communiquer les informations d’erreur relatives à un échec au niveau d’un point de terminaison distant. Un message d’erreur est semblable à tout autre message, sauf que le format du corps du message a un format standard. Les erreurs peuvent être utilisées à la fois par les protocoles d’infrastructure, tels que WS-Addressing et par les protocoles d’application de niveau supérieur.
 
--   [Vue d’ensemble](#overview)
+-   [Vue d'ensemble](#overview)
 -   [Génération d’erreurs dans un service](#generating-faults-in-a-service)
 -   [Gestion des erreurs sur un client](#handling-faults-on-a-client)
 -   [Utilisation d’erreurs avec des messages](#using-faults-with-messages)
@@ -50,7 +50,7 @@ Si vous travaillez au niveau de la couche de canal, des erreurs peuvent être en
 
 ## <a name="handling-faults-on-a-client"></a>Gestion des erreurs sur un client
 
-Si un client reçoit une erreur lors de l’utilisation d’un [proxy de service](service-proxy.md) ou via [**WsRequestReply**](/windows/desktop/api/WebServices/nf-webservices-wsrequestreply) ou [**WsReceiveMessage**](/windows/desktop/api/WebServices/nf-webservices-wsreceivemessage), l’erreur de **point de terminaison WS \_ E \_ \_ \_ received** est retournée. (Pour plus d’informations, consultez [valeurs de retour des services Web Windows](windows-web-services-return-values.md).) Ces fonctions remplissent également l’objet [WS \_ Error](ws-error.md) fourni à l’appel avec des informations sur l’erreur reçue.
+Si un client reçoit une erreur lors de l’utilisation d’un [proxy de service](service-proxy.md) ou via [**WsRequestReply**](/windows/desktop/api/WebServices/nf-webservices-wsrequestreply) ou [**WsReceiveMessage**](/windows/desktop/api/WebServices/nf-webservices-wsreceivemessage), l’erreur de **point de terminaison WS \_ E \_ \_ \_ received** est retournée. (pour plus d’informations, consultez [Windows les valeurs de retour des Services Web](windows-web-services-return-values.md).) Ces fonctions remplissent également l’objet [WS \_ Error](ws-error.md) fourni à l’appel avec des informations sur l’erreur reçue.
 
 Les propriétés suivantes d’un objet [WS \_ Error](ws-error.md) peuvent être interrogées à l’aide de [**WsGetFaultErrorProperty**](/windows/desktop/api/WebServices/nf-webservices-wsgetfaulterrorproperty) pour obtenir des informations sur une erreur qui a été reçue :
 
@@ -107,9 +107,9 @@ Les structures suivantes font partie des erreurs :
 -   [**\_ \_ Description détaillée de l’erreur WS \_**](/windows/desktop/api/WebServices/ns-webservices-ws_fault_detail_description)
 -   [**raison de l' \_ erreur WS \_**](/windows/desktop/api/WebServices/ns-webservices-ws_fault_reason)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: CUSTOMSLIDER. toolTip
 description: L’attribut toolTip spécifie ou récupère le texte d’info-bulle du curseur.
 ms.assetid: ac82b811-8396-4a02-b617-627e808b8faf
 keywords:
-- Lecteur Windows Media CUSTOMSLIDER. toolTip
+- CUSTOMSLIDER. toolTip Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e56159f18f4011b934f8ab2c611f703450268f13
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3881cab3f5e818a4d6c244b9b2e951711202f38cdb86ee9ce5856747defeacc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340908"
 ---
 # <a name="customslidertooltip"></a>CUSTOMSLIDER. toolTip
 
@@ -31,7 +31,7 @@ L’attribut **ToolTip** spécifie ou récupère le texte d’info-bulle du curs
 
 Cet attribut est une **chaîne** en lecture/écriture d’une longueur maximale de 1024 caractères. Il n'a aucune valeur par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque cet attribut a la valeur "" (chaîne vide), aucune info-bulle n’est affichée.
 

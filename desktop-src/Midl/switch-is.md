@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c52661c4fa1ebce57011f4424901dd1ec18250f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1975dcf38a04fc127de199e7cc663c8af41b63e6ce8f92d38be2115316ed0727
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103940470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382840"
 ---
 # <a name="switch_is-attribute"></a>le commutateur \_ est un attribut
 
@@ -95,7 +95,7 @@ Spécifie zéro ou plusieurs déclarateurs de pointeur. Un déclarateur de point
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la procédure distante.
@@ -116,7 +116,7 @@ Identifie le spécificateur de type d' [**Union**](union.md) .
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le discriminante associé au **\[ commutateur \_ est \]** l’attribut doit être défini au même niveau logique que l’Union :
 
@@ -181,7 +181,7 @@ typedef struct _WINNER_TYPE
 [**la longueur \_ est**](length-is.md)
 </dt> <dt>
 
-[**localisé**](local.md)
+[**local**](local.md)
 </dt> <dt>
 
 [**le nombre maximal \_ est**](max-is.md)
@@ -208,15 +208,15 @@ typedef struct _WINNER_TYPE
 [**type de commutateur \_**](switch-type.md)
 </dt> <dt>
 
-[**UE**](union.md)
+[**union**](union.md)
 </dt> <dt>
 
 [**unique**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

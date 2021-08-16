@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: b1016ae932d6841a5db590f2d24496113d3cefc8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3badf52755a77557c200569c25610b5918cf8dd599d17a83bdebb5c4ddfa6801
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118305872"
 ---
 # <a name="partitions-collection"></a>Collection partitions
 
@@ -47,13 +47,13 @@ Vous pouvez accéder à cette collection à partir des regroupements suivants :
 
 Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalogObject**](comadmincatalogobject.md) dans la collection :
 
--   [Modifiables](#changeable)
+-   [Modifiable](#changeable)
 -   [Supprimé](#deleteable)
 -   [Description](#description)
 -   [Identifiant](#partitions-collection)
 -   [Nom](#name)
 
-### <a name="changeable"></a>Modifiables
+### <a name="changeable"></a>Modifiable
 
 
 
@@ -62,7 +62,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Description    | Détermine si cette partition peut être modifiée. |
 | Accès         | Lecture/écriture                                        |
 | Type           | Bool                                             |
-| Default        | Vrai                                             |
+| Default        | True                                             |
 | Système minimal | Windows Server 2003                              |
 
 
@@ -78,7 +78,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Description    | Détermine si cette partition peut être supprimée. |
 | Accès         | Lecture/écriture                                         |
 | Type           | Bool                                              |
-| Default        | Vrai                                              |
+| Default        | True                                              |
 | Système minimal | Windows Server 2003                               |
 
 
@@ -101,7 +101,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
  
 
-### <a name="id"></a>id
+### <a name="id"></a>ID
 
 
 

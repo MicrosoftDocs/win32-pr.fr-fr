@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6643b17a85727f6e0df4e8deea9609f73afd1e76
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 620ad77f84aa2cb52a7bd99a96a22e7de560b53b2c3ba2022598609dde3737fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191855"
 ---
 # <a name="dsbackupgetdatabasenames-function"></a>DsBackupGetDatabaseNames fonction)
 
-\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. À partir de Windows Vista, utilisez [service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
+\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. à partir de Windows Vista, utilisez [Service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
 
 La fonction **DsBackupGetDatabaseNames** obtient la liste des fichiers de base de données à sauvegarder pour le contexte de sauvegarde donné.
 
@@ -134,7 +134,7 @@ Un échec d’allocation de mémoire s’est produit.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **DsBackupGetDatabaseNames** fournit une liste des fichiers de base de données nécessaires pour une sauvegarde. Une sauvegarde complète se compose des fichiers de base de données et des fichiers journaux fournis par la fonction [**DsBackupGetBackupLogs**](dsbackupgetbackuplogs.md) . Les sauvegardes incrémentielles des serveurs Active Directory ne sont pas prises en charge.
 

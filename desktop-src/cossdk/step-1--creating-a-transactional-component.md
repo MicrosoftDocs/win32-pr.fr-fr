@@ -161,7 +161,7 @@ End Sub
 
 
 
-## <a name="summary"></a>Récapitulatif
+## <a name="summary"></a>Résumé
 
 -   COM+ affecte des valeurs d’attribut par défaut. Vous pouvez reconfigurer la plupart des attributs de service.
 -   L’affectation de la valeur **obligatoire** à l’attribut de transaction d’un composant garantit que com+ doit créer chaque instance de ce composant dans une transaction, mais ne démarre pas nécessairement une nouvelle transaction.

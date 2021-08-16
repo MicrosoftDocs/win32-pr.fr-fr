@@ -1,28 +1,28 @@
 ---
-description: Interfaces DirectShow
+description: interfaces DirectShow
 ms.assetid: 5efd174f-2eb1-44e6-97e3-b73c7c52fef1
 title: Interfaces (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e0b66237ee106423cc8a5cd824b88d7a7af6ac8
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 5ceef5feb53c4c393b7cf80733a55242d6209b2c9022e12d22c3989ee99323d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106537719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818814"
 ---
-# <a name="directshow-interfaces"></a>Interfaces DirectShow
+# <a name="directshow-interfaces"></a>interfaces DirectShow
 
-Cette rubrique contient des informations de référence sur les interfaces Microsoft® DirectShow® Core. Pour fournir une prise en charge étendue de différents types de matériel, de formats de fichiers et d’opérations de flux, implémente un grand nombre d’interfaces. Certains sont utilisés par les applications ; d’autres sont utilisés en interne par les filtres et d’autres composants DirectShow.
+cette rubrique contient des informations de référence pour les interfaces® principales de Microsoft® DirectShow. Pour fournir une prise en charge étendue de différents types de matériel, de formats de fichiers et d’opérations de flux, implémente un grand nombre d’interfaces. Certains sont utilisés par les applications ; d’autres sont utilisés en interne par les filtres et d’autres composants de DirectShow.
 
-La rubrique suivante contient une liste alphabétique de toutes les interfaces DirectShow du code.
+la rubrique suivante contient une liste alphabétique de toutes les interfaces de DirectShow de code.
 
--   [Liste alphabétique des interfaces DirectShow](alphabetical-list-of-directshow-interfaces.md)
+-   [liste alphabétique des Interfaces DirectShow](alphabetical-list-of-directshow-interfaces.md)
 
 Une application particulière n’utilise qu’un petit sous-ensemble de ces interfaces. Les rubriques suivantes répertorient les interfaces par catégorie fonctionnelle. Toutes les interfaces ne sont pas répertoriées sur ces pages et une interface s’affiche sur plusieurs pages.
 
 -   [Interfaces pour la création de graphiques de filtre](interfaces-for-building-filter-graphs.md)
--   [Interfaces pour le contrôle d’un graphique de filtre](interfaces-for-controlling-a-filter-graph.md)
+-   [Interfaces pour le contrôle d’un filtre Graph](interfaces-for-controlling-a-filter-graph.md)
 -   [Interfaces de capture audio et de rendu](audio-capture-and-rendering-interfaces.md)
 -   [Interfaces DVD](dvd-interfaces.md)
 -   [Interfaces de capture vidéo](video-capture-interfaces.md)
@@ -34,10 +34,10 @@ Une application particulière n’utilise qu’un petit sous-ensemble de ces int
 
 <dl> <dt>
 
-[Objets DirectShow](directshow-objects.md)
+[DirectShow Objets](directshow-objects.md)
 </dt> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  
