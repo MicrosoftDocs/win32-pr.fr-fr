@@ -4,12 +4,12 @@ ms.assetid: 1e198bc8-c712-4d0f-9e3a-35a295445acf
 title: Personnalisation des pages d’inscription par le Web des services de certificats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4eb2fbf421eceb1ebf0b15379aca5d0788a992ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0132ce4e5e1fef588ffc429597717433dd1b780d2f7f35f9c886f1978b5b318a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767794"
 ---
 # <a name="customizing-certificate-services-web-enrollment-pages"></a>Personnalisation des pages d’inscription par le Web des services de certificats
 
@@ -45,7 +45,7 @@ sDefaultOrgUnit="Marketing"
 
 En outre, vous pouvez modifier le fichier Certrqtp. Inc pour ajouter, modifier ou supprimer des [*modèles de certificat*](../secgloss/c-gly.md) ou des types disponibles pour l’utilisateur. Ces modèles et types, ainsi que les informations connexes, sont contenus dans un tableau dimensionné appelé rgAvailReqTypes (*m*, 5).
 
-Ce tableau, comme tous les tableaux Visual Basic Scripting Edition, est basé sur zéro et, par conséquent, la première dimension du tableau, *m*, alloue de la mémoire pour les éléments *m*+ 1. Par conséquent, si vous personnalisez les pages Web dans, vous devez modifier le nombre d’éléments dans le tableau rgAvailReqTypes, définir la dimension *m* sur une valeur inférieure au nombre total d’éléments dont vous avez besoin. Par exemple, si vous avez sept modèles de certificat, modifiez la déclaration de rgAvailReqTypes comme indiqué dans l’exemple suivant.
+ce tableau, comme tous les tableaux Visual Basic scripting Edition, est basé sur zéro et, par conséquent, la première dimension du tableau, *m*, alloue de la mémoire pour les éléments *m*+ 1. Par conséquent, si vous personnalisez les pages Web dans, vous devez modifier le nombre d’éléments dans le tableau rgAvailReqTypes, définir la dimension *m* sur une valeur inférieure au nombre total d’éléments dont vous avez besoin. Par exemple, si vous avez sept modèles de certificat, modifiez la déclaration de rgAvailReqTypes comme indiqué dans l’exemple suivant.
 
 
 ```VB

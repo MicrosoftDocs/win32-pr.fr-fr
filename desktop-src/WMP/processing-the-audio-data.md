@@ -3,7 +3,7 @@ title: Traitement des données audio
 description: Traitement des données audio
 ms.assetid: ba41e3f4-d991-4da6-9091-7a7e42622e76
 keywords:
-- Plug-ins du lecteur Windows Media, méthode DoProcessOutput d’exemple Echo
+- plug-ins Lecteur Windows Media, méthode DoProcessOutput d’exemple Echo
 - plug-ins, ECHO, exemple DoProcessOutput, méthode
 - plug-ins de traitement de signal numérique, méthode DoProcessOutput d’exemple Echo
 - DSP plug-ins, ECHO, exemple DoProcessOutput, méthode
@@ -11,12 +11,12 @@ keywords:
 - Echo DSP, exemple de plug-in, données audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acc14acb99aed20825ff970025363c6a795a0c8c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 678e1debd586017bfbe748d4f2bed6d17607afcbe2719b5e3ecba8cabf667af6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334482"
 ---
 # <a name="processing-the-audio-data"></a>Traitement des données audio
 
@@ -53,9 +53,9 @@ Alors que le processus de création de l’effet ECHO est fondamentalement ident
 [**Implémentation de CEcho ::D oProcessOutput**](implementing-cecho--doprocessoutput.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

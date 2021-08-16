@@ -4,12 +4,12 @@ ms.assetid: 1b8306da-7577-40b8-b77c-5762c1962f00
 title: Autorisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c939a4dd8747b7219fe99650ab7a078239b5f643
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b0eb421a351c2f68667fd86925957fae5cf61569a229eaf9c4fe32eb1123abd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104211089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784201"
 ---
 # <a name="authorization"></a>Autorisation
 
@@ -21,7 +21,7 @@ Les technologies d’autorisation Microsoft incluent le gestionnaire d’autoris
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-Les technologies d’autorisation Microsoft sont destinées à être utilisées par les développeurs d’applications basées sur les systèmes d’exploitation Windows Server et Windows qui contrôlent l’accès aux ressources. Les développeurs doivent être familiarisés avec la programmation basée sur Windows. Bien que cela ne soit pas obligatoire, il est recommandé de comprendre les sujets relatifs à l’autorisation ou à la sécurité.
+les technologies d’autorisation Microsoft sont destinées à être utilisées par les développeurs d’applications basées sur le serveur Windows et les systèmes d’exploitation Windows qui contrôlent l’accès aux ressources. les développeurs doivent être familiarisés avec la programmation basée sur Windows. Bien que cela ne soit pas obligatoire, il est recommandé de comprendre les sujets relatifs à l’autorisation ou à la sécurité.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 

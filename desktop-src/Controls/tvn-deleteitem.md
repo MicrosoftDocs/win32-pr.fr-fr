@@ -3,7 +3,7 @@ title: TVN_DELETEITEM le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle Tree-View qu’un élément est en cours de suppression. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 0d8801e0-02ae-40c9-8625-83d98b434d0a
 keywords:
-- Contrôles Windows de code de notification TVN_DELETEITEM
+- TVN_DELETEITEM les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2953ca0cf272b102a08fba0516d4891dccde9daf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9244fd7a848adc3f2d82f48177482c0ffb8cbe1484bc501accfb7ffab3aefbc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408245"
 ---
 # <a name="tvn_deleteitem-notification-code"></a>\_Code de notification TVN DELETEITEM
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**NMTREEVIEW**](/windows/win32/api/commctrl/ns-comm
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le membre **lParam** de la structure [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) pointe vers la mémoire allouée par votre application, vous pouvez le libérer lorsque vous recevez le code de \_ notification TVN DELETEITEM.
 
@@ -61,8 +61,8 @@ Si le membre **lParam** de la structure [**TVITEM**](/windows/win32/api/commctrl
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **TVN \_ DELETEITEMW** (Unicode) et **TVN \_ DELETEITEMA** (ANSI)<br/>             |
 

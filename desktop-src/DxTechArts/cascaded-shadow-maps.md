@@ -460,7 +460,7 @@ VSMs et PCF tentent tous les deux de se rapprocher de la zone de pixels qui pass
 
 VSMs et PCF représentent un compromis entre la puissance de calcul GPU et la bande passante de texture GPU. Les VSMs requièrent plus d’opérations mathématiques pour calculer la variance. PCF requiert plus de bande passante de mémoire de texture. Les gros noyaux PCF peuvent rapidement devenir goulots d’étranglement en matière de bande passante. Avec la croissance de la puissance de calcul GPU plus rapidement que la bande passante GPU, les VSMs deviennent plus pratiques des deux algorithmes. Les VSMs sont également mieux adaptés aux mappages d’ombres de résolution inférieure en raison de la fusion et du filtrage.
 
-## <a name="summary"></a>Résumé
+## <a name="summary"></a>Récapitulatif
 
 CMS offre une solution au problème d’alias de perspective. Il existe plusieurs configurations possibles pour obtenir la fidélité visuelle nécessaire pour un titre. PCF et VSMs sont largement utilisés et doivent être combinés avec CMS pour réduire les alias.
 

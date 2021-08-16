@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wfext.h
-ms.openlocfilehash: de7a950e3f17c9b2cee2b66a047d289ca29b6b56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8001ca861b77755ea7f5ee829a9af490c2f426dcd6179f2fe84831c624bb4ef5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860654"
 ---
 # <a name="fmevent_load-message"></a>FMEVENT le \_ message de chargement
 
@@ -46,11 +46,11 @@ Adresse d’une structure [**de \_ charge FMS**](fms-load.md) qui spécifie la v
 
 Une DLL d’extension doit retourner la **valeur true** pour continuer le chargement de la dll. Si la DLL retourne la **valeur false**, le gestionnaire de fichiers appelle la fonction [**FreeLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-freelibrary) et met fin à toute communication avec la dll d’extension.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application doit remplir les membres **dwSize nul**, **szMenuName** et **HMENU** dans la structure [**de \_ chargement FMS**](fms-load.md) . Elle doit également enregistrer la valeur du membre **wMenuDelta** et l’utiliser pour identifier les éléments de menu lors de la modification du menu.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

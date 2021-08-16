@@ -86,7 +86,7 @@ Affiche l'aide de la ligne de commande.
 > 
 > Évitez de créer un package d’installation, tel que la [table de fichiers](file-table.md)partielle suivante.
 > 
-> | Fichier       | -\_ | FileName   |
+> | Fichier       | Composant\_ | FileName   |
 > |------------|-------------|------------|
 > | readme.txt | COMP1       | readme.txt |
 > | ReadMe.txt | COMP2       | readme.txt |

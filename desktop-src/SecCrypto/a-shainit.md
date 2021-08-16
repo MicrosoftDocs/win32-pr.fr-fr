@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - ntdll.dll
-ms.openlocfilehash: 831c86b02c946896014fa9eec02270f2e963e484
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a0081311988a5da0ae5ca21e924305918bb1e713a6cde3be1b77821c9b458cb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774264"
 ---
 # <a name="a_shainit-function"></a>Une \_ fonction SHAInit
 
@@ -50,9 +50,9 @@ Contexte SHA.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette fonction est très similaire à SHAInit, mais elle est appelée directement à partir de la bibliothèque, plutôt que d’être routée via l’infrastructure de chiffrement. Pour plus d’informations, consultez [fournisseurs NTCryptographic Windows](/previous-versions/tn-archive/cc723484(v=technet.10)).
+Cette fonction est très similaire à SHAInit, mais elle est appelée directement à partir de la bibliothèque, plutôt que d’être routée via l’infrastructure de chiffrement. pour plus d’informations, consultez [Windows les fournisseurs NTCryptographic](/previous-versions/tn-archive/cc723484(v=technet.10)).
 
 ## <a name="requirements"></a>Configuration requise
 

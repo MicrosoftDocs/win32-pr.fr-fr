@@ -4,12 +4,12 @@ ms.assetid: 5c17aba1-98f7-4d6c-a5d2-2b4623a65255
 title: WPD_CONTENT_TYPE_NETWORK_ASSOCIATION
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3c92f76080db4167a12578c58e9d85c9506c28b
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 63c383ac251d410e03fc5d26dd969d4161ae555ebf2cdd3802ca7228b1739ff0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842289"
 ---
 # <a name="wpd_content_type_network_association"></a>\_Association de \_ réseau de type de contenu wpd \_ \_
 
@@ -33,19 +33,19 @@ Ce type d’objet prend en charge les propriétés suivantes.
 | [\_nom du \_ fichier d’origine de l’objet wpd \_ \_](object-properties.md)                                                     | Obligatoire si l’objet représente un fichier.                             |
 | [\_objet wpd \_ non \_ utilisable](object-properties.md)                                                              | Recommandé si l’objet n’est pas destiné à être consommé par l’appareil. |
 | [\_références d’objets wpd \_](object-properties.md)                                                                       | Obligatoire si l’objet a des références à d’autres objets.               |
-| [\_Mots clés d’objet wpd \_](object-properties.md)                                                                           | facultatif.                                                             |
-| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                                            | facultatif.                                                             |
+| [\_Mots clés d’objet wpd \_](object-properties.md)                                                                           | Facultatif.                                                             |
+| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                                            | Facultatif.                                                             |
 | [l' \_ objet \_ wpd \_ est \_ protégé par DRM](object-properties.md)                                                         | Obligatoire si l’objet est protégé par la technologie DRM.                |
-| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                                                  | facultatif.                                                             |
+| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                                                  | Facultatif.                                                             |
 | [Date de modification de l' \_ objet wpd \_ \_](object-properties.md)                                                                | Recommandé.                                                          |
-| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                                                | facultatif.                                                             |
+| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                                                | Facultatif.                                                             |
 | [\_ \_ références arrière des objets wpd \_](object-properties.md)                                                                                       | Recommandé si l’objet est référencé par un autre objet.            |
-| [\_ID d' \_ \_ objet fonctionnel \_ du conteneur d’objets wpd \_](object-properties.md)                            | facultatif.                                                             |
-| [\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource](object-properties.md)                        | facultatif.                                                             |
+| [\_ID d' \_ \_ objet fonctionnel \_ du conteneur d’objets wpd \_](object-properties.md)                            | Facultatif.                                                             |
+| [\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource](object-properties.md)                        | Facultatif.                                                             |
 | [l' \_ objet wpd \_ peut \_ Supprimer](object-properties.md)                                                                      | Obligatoire si l’objet ne peut pas être supprimé.                             |
-| [\_paramètres régionaux de la langue de l’objet wpd \_ \_](object-properties.md)                                                                                        | facultatif.                                                             |
+| [\_paramètres régionaux de la langue de l’objet wpd \_ \_](object-properties.md)                                                                                        | Facultatif.                                                             |
 | [\_ \_ \_ \_ identificateurs de réseau hôte d’association de réseau wpd \_](network-association-properties.md) | Obligatoire.                                                             |
-| [\_Association de réseau wpd \_ \_ X509V3SEQUENCE](network-association-properties.md)                       | facultatif.                                                             |
+| [\_Association de réseau wpd \_ \_ X509V3SEQUENCE](network-association-properties.md)                       | Facultatif.                                                             |
 
 
 

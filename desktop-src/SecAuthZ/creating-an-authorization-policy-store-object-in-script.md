@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: feb02c80408210b663524e2aa914852a853e80ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 409a22df52d2914cd205700afccfc7a59f19031d924a921b5f2e5101621a895a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117782194"
 ---
 # <a name="creating-an-authorization-policy-store-object-in-script"></a>Création d’un objet du magasin de stratégies d’autorisation dans le script
 
@@ -23,12 +23,12 @@ Un magasin de stratégies d’autorisation contient des informations sur la stra
 Le gestionnaire d’autorisations prend en charge le stockage de la stratégie d’autorisation dans le service d’annuaire Active Directory ou dans un fichier XML, comme indiqué dans les exemples suivants. Dans l’API du gestionnaire d’autorisations, un magasin de stratégies d’autorisation est représenté par un objet [**AzAuthorizationStore**](/windows/desktop/api/Azroles/nn-azroles-iazauthorizationstore) . Les exemples montrent comment créer un objet **AzAuthorizationStore** pour un magasin de Active Directory et un magasin XML.
 
 -   [Création d’un magasin de Active Directory](#creating-an-active-directory-store)
--   [Création d’un magasin de SQL Server](#creating-a-sql-server-store)
+-   [création d’un magasin de SQL Server](#creating-a-sql-server-store)
 -   [Création d’un magasin XML](#creating-an-xml-store)
 
 ## <a name="creating-an-active-directory-store"></a>Création d’un magasin de Active Directory
 
-Pour utiliser Active Directory pour stocker la stratégie d’autorisation, le domaine doit être au niveau fonctionnel de domaine **Windows Server 2003** . Le magasin de stratégies d’autorisation ne peut pas être situé dans un **contexte d’attribution de noms sans domaine** (également appelé partition d’application). Il est recommandé de placer le magasin dans le conteneur de **données de programme** sous une nouvelle unité d’organisation créée spécifiquement pour le magasin de stratégies d’autorisation. Il est également recommandé de placer le magasin dans le même réseau local que les serveurs d’applications qui exécutent des applications qui utilisent le Windows Store.
+pour utiliser Active Directory pour stocker la stratégie d’autorisation, le domaine doit être au niveau fonctionnel du domaine **Windows Server 2003** . Le magasin de stratégies d’autorisation ne peut pas être situé dans un **contexte d’attribution de noms sans domaine** (également appelé partition d’application). Il est recommandé de placer le magasin dans le conteneur de **données de programme** sous une nouvelle unité d’organisation créée spécifiquement pour le magasin de stratégies d’autorisation. Il est également recommandé de placer le magasin dans le même réseau local que les serveurs d’applications qui exécutent des applications qui utilisent le Windows Store.
 
 L’exemple suivant montre comment créer un objet [**AzAuthorizationStore**](/windows/desktop/api/Azroles/nn-azroles-iazauthorizationstore) qui représente un magasin de stratégies d’autorisation dans Active Directory. L’exemple suppose qu’il existe déjà une Active Directory unité d’organisation nommée Program Data dans un domaine nommé authmanager.com.
 
@@ -48,18 +48,18 @@ authStore.Submit
 
 
 
-## <a name="creating-a-sql-server-store"></a>Création d’un magasin de SQL Server
+## <a name="creating-a-sql-server-store"></a>création d’un magasin de SQL Server
 
-Le gestionnaire d’autorisations prend en charge la création d’un magasin de stratégies d’autorisation basé sur Microsoft SQL Server. Pour créer un magasin d’autorisations basé sur SQL Server, utilisez une URL qui commence par le préfixe **MSSQL://**. L’URL doit contenir une chaîne de connexion SQL valide, un nom de base de données et le nom du magasin de stratégies d’autorisation : **MSSQL://**_ConnectionString_ *_/_* _DatabaseName_ *_/_* _PolicyStoreName_.
+le gestionnaire d’autorisations prend en charge la création d’un magasin de stratégies d’autorisation basé sur Microsoft SQL Server. pour créer un magasin d’autorisations basé sur SQL Server, utilisez une URL qui commence par le préfixe **MSSQL://**. l’URL doit contenir une chaîne de connexion SQL valide, un nom de base de données et le nom du magasin de stratégies d’autorisation : **MSSQL://**_ConnectionString_ *_/_* _DatabaseName_ *_/_* _PolicyStoreName_.
 
-Si l’instance de SQL Server ne contient pas la base de données du gestionnaire d’autorisations spécifiée, le gestionnaire d’autorisations crée une nouvelle base de données portant ce nom.
+si l’instance de SQL Server ne contient pas la base de données du gestionnaire d’autorisations spécifiée, le gestionnaire d’autorisations crée une nouvelle base de données portant ce nom.
 
 > [!Note]  
-> Les connexions à un magasin de SQL Server ne sont pas chiffrées, sauf si vous configurez explicitement le chiffrement SQL pour la connexion ou si vous configurez le chiffrement du trafic réseau qui utilise le protocole IPsec (Internet Protocol Security).
+> les connexions à un magasin de SQL Server ne sont pas chiffrées, sauf si vous configurez explicitement SQL le chiffrement pour la connexion ou configurez le chiffrement du trafic réseau qui utilise le protocole IPsec (Internet Protocol Security).
 
  
 
-L’exemple suivant montre comment créer un objet [**AzAuthorizationStore**](/windows/desktop/api/Azroles/nn-azroles-iazauthorizationstore) qui représente un magasin de stratégies d’autorisation dans une base de données SQL Server.
+l’exemple suivant montre comment créer un objet [**AzAuthorizationStore**](/windows/desktop/api/Azroles/nn-azroles-iazauthorizationstore) qui représente un magasin de stratégies d’autorisation dans une base de données SQL Server.
 
 
 ```VB

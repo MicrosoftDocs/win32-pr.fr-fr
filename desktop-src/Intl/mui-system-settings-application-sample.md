@@ -1,17 +1,17 @@
 ---
-description: 'MUI : exemple d’application de paramètres système'
+description: 'MUI : exemple d’Application Paramètres système'
 ms.assetid: 34cfd3a8-20b2-4a57-bc43-8da410cf9ae9
-title: 'MUI : exemple d’application de paramètres système'
+title: 'MUI : exemple d’Application Paramètres système'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d27871f3878c695b85b2131916185c62bc4a3dc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32669faf81276bf1605dcbed93615c874fcaf9cc82f90a29bb42653bf4fbace2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118390829"
 ---
-# <a name="mui-system-settings-application-sample"></a>MUI : exemple d’application de paramètres système
+# <a name="mui-system-settings-application-sample"></a>MUI : exemple d’Application Paramètres système
 
 L’exemple d’application décrit dans cette rubrique est une simple application Hello MUI qui prend en charge les paramètres système pour ses langues d’interface utilisateur.
 

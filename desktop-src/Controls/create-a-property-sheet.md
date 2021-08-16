@@ -4,12 +4,12 @@ description: L’exemple de cette section crée une feuille de propriétés qui 
 ms.assetid: 61ACF87A-938C-4487-ACEB-484FCB677C6A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d15abd44f3a583afd99c5d943b9105c8734b73c1
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 5fa99c3e678fa7d8e6aa70cd3f5c6e4c7bc514f94114c7bb7a411fa7df1caac3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106532695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831845"
 ---
 # <a name="how-to-create-a-property-sheet"></a>Guide pratique pour créer une feuille de propriétés
 
@@ -17,16 +17,16 @@ L’exemple de cette section crée une feuille de propriétés qui contient deux
 
 L’exemple définit les pages en remplissant une paire de structures [**PROPSHEETPAGE**](pss-propsheetpage.md) et en spécifiant l’adresse dans la structure [**PROPSHEETHEADER**](pss-propsheetheader.md) qui est transmise à la fonction [**feuille**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) .
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -89,7 +89,7 @@ VOID DoPropertySheet(HWND hwndOwner)
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les modèles de boîte de dialogue, les icônes et les étiquettes des pages sont chargés à partir des ressources contenues dans le fichier exécutable de l’application. L’icône de la feuille de propriétés est également chargée à partir des ressources de l’application.
 

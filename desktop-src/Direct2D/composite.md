@@ -6,12 +6,12 @@ keywords:
 - effet composite
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9872a66d031e8307f911ec7270af81397a80276
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f8cf326e5d0bfb33b3dc927ba7366eb6d2b343a1a50db462de58fac8ef648bef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117826575"
 ---
 # <a name="composite-effect"></a>Effet composite
 
@@ -27,7 +27,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Composite.
 -   [Propriétés d’effet](#effect-properties)
 -   [Types de mode](#mode-types)
 -   [Exemple de code](#sample-code)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -45,7 +45,7 @@ Voici un autre exemple utilisant le mode par défaut.
 | ![première image source avant l’effet.](images/default-before.jpg) |
 | Avant image 2                                                          |
 | ![deuxième image avant l’effet.](images/3-composite(2of2).png)    |
-| After                                                                   |
+| Après                                                                   |
 | ![image après la transformation.](images/3-composite.png)               |
 
 
@@ -125,8 +125,8 @@ Pour obtenir un exemple de cet effet, téléchargez l' [exemple de modes d’eff
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

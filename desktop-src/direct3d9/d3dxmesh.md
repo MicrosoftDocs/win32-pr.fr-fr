@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: a312c2618960691184182039afe38acc8947eb6a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6b83389ae4d92027245877e24e01621f0d93f123dee9ff4f040586b3e7c5111d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118525269"
 ---
 # <a name="d3dxmesh-enumeration"></a>Énumération D3DXMESH
 
@@ -102,7 +102,7 @@ Utilisez l’indicateur d’utilisation [**D3DPOOL \_ SYSTEMMEM**](./d3dpool.md)
 
 </dd> <dt>
 
-<span id="D3DXMESH_VB_MANAGED"></span><span id="d3dxmesh_vb_managed"></span>**D3DXMESH \_ VB \_ managé**
+<span id="D3DXMESH_VB_MANAGED"></span><span id="d3dxmesh_vb_managed"></span>**D3DXMESH \_ VB \_ géré**
 </dt> <dd>
 
 Utilisez l’indicateur d’utilisation [**\_ managée D3DPOOL**](./d3dpool.md) pour les mémoires tampons de vertex.
@@ -165,7 +165,7 @@ Utilisez l’indicateur d’utilisation [**D3DUSAGE \_ SOFTWAREPROCESSING**](d3d
 
 </dd> <dt>
 
-<span id="D3DXMESH_VB_SHARE"></span><span id="d3dxmesh_vb_share"></span>**\_Partage VB \_ D3DXMESH**
+<span id="D3DXMESH_VB_SHARE"></span><span id="d3dxmesh_vb_share"></span>**D3DXMESH \_ VB \_ partager**
 </dt> <dd>
 
 Force les maillages clonés à partager des mémoires tampons de vertex.
@@ -182,39 +182,39 @@ Utilisez uniquement le traitement matériel. Pour les appareils en mode mixte, c
 <span id="D3DXMESH_SYSTEMMEM"></span><span id="d3dxmesh_systemmem"></span>**D3DXMESH \_ SYSTEMMEM**
 </dt> <dd>
 
-Équivaut à spécifier à la fois D3DXMESH \_ VB \_ SYSTEMMEM et D3DXMESH \_ IB \_ SYSTEMMEM.
+équivaut à spécifier à la fois D3DXMESH \_ VB \_ SYSTEMMEM et D3DXMESH \_ IB \_ SYSTEMMEM.
 
 </dd> <dt>
 
 <span id="D3DXMESH_MANAGED"></span><span id="d3dxmesh_managed"></span>**Géré par D3DXMESH \_**
 </dt> <dd>
 
-Équivaut à spécifier à la fois D3DXMESH \_ VB \_ Managed et D3DXMESH \_ IB \_ Managed.
+équivaut à spécifier à la fois D3DXMESH \_ VB \_ géré et D3DXMESH \_ IB \_ géré.
 
 </dd> <dt>
 
 <span id="D3DXMESH_WRITEONLY"></span><span id="d3dxmesh_writeonly"></span>**D3DXMESH \_ WRITEONLY**
 </dt> <dd>
 
-Équivaut à spécifier à la fois D3DXMESH \_ VB \_ WRITEONLY et D3DXMESH \_ IB \_ WriteOnly.
+équivaut à spécifier à la fois D3DXMESH \_ VB \_ writeonly et D3DXMESH \_ IB \_ writeonly.
 
 </dd> <dt>
 
 <span id="D3DXMESH_DYNAMIC"></span><span id="d3dxmesh_dynamic"></span>**D3DXMESH \_ dynamique**
 </dt> <dd>
 
-Équivaut à spécifier à la fois D3DXMESH \_ VB \_ Dynamic et D3DXMESH \_ IB \_ Dynamic.
+équivaut à spécifier à la fois D3DXMESH \_ VB \_ dynamic et D3DXMESH \_ IB \_ dynamic.
 
 </dd> <dt>
 
 <span id="D3DXMESH_SOFTWAREPROCESSING"></span><span id="d3dxmesh_softwareprocessing"></span>**D3DXMESH \_ SOFTWAREPROCESSING**
 </dt> <dd>
 
-Équivaut à spécifier à la fois D3DXMESH \_ VB \_ SOFTWAREPROCESSING et D3DXMESH \_ IB \_ SOFTWAREPROCESSING.
+équivaut à spécifier à la fois D3DXMESH \_ VB \_ SOFTWAREPROCESSING et D3DXMESH \_ IB \_ SOFTWAREPROCESSING.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Une maille 32 bits (D3DXMESH \_ 32 bits) peut théoriquement prendre en charge (2 ^ 32)-1 face et vertex. Toutefois, l’allocation de mémoire pour une maille qui est importante sur un système d’exploitation 32 bits n’est pas pratique.
 

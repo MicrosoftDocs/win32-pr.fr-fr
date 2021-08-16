@@ -19,7 +19,7 @@ Le système utilise la liste des SID restreints lorsqu’il vérifie l’accès 
 
 Les variables d’attribut doivent être sous la forme d’une expression lorsqu’elles sont utilisées avec des opérateurs logiques ; dans le cas contraire, elles sont évaluées comme étant inconnues.
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 L’exemple suivant ajoute un SID et un SID restreint au contexte client créé par l’exemple dans [initialisation d’un contexte client](initializing-a-client-context.md).
 

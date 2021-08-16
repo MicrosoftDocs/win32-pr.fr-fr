@@ -3,7 +3,7 @@ title: Message CB_SHOWDROPDOWN (winuser. h)
 description: Une application envoie un \_ message CB SHOWDROPDOWN pour afficher ou masquer la zone de liste d’une zone de liste déroulante avec le \_ style déroulant CBS ou le \_ style DropDownList SCC.
 ms.assetid: 32b995d7-eed6-4173-8525-0d356dea39b3
 keywords:
-- CB_SHOWDROPDOWN les contrôles de message Windows
+- CB_SHOWDROPDOWN les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb66e9a0ecf3b6680fce9aca7f680fd6e6fd13e0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c820c65c053f7acbcffb379228ea5f7720476b6d2165ac4988ce8789e912cdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117832237"
 ---
 # <a name="cb_showdropdown-message"></a>\_Message SHOWDROPDOWN CB
 
@@ -47,7 +47,7 @@ Ce paramètre n'est pas utilisé.
 
 La valeur de retour est toujours **true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message n’a aucun effet sur une zone de liste déroulante créée avec le style [**\_ simple CBS**](combo-box-styles.md) .
 
@@ -57,8 +57,8 @@ Ce message n’a aucun effet sur une zone de liste déroulante créée avec le s
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

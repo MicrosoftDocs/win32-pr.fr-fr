@@ -1,19 +1,19 @@
 ---
-description: Les services HTTP Microsoft Windows (WinHTTP) utilisent des handles pour effectuer le suivi des paramètres et des informations requis lors de l’utilisation du protocole HTTP.
+description: Microsoft Windows HTTP Services (WinHTTP) utilise des handles pour effectuer le suivi des paramètres et des informations nécessaires lors de l’utilisation du protocole HTTP.
 ms.assetid: 0bd82860-1347-40c8-ae77-c4d865c109be
 title: Descripteurs HINTERNET dans WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf374675ad6f2114dd48e0a3ff1db50cd0dd7f9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a76f925d11646ed2fe5b5d3732fe8972d979cdc6383a4d47e955c0e60a1390e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104560987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563268"
 ---
 # <a name="hinternet-handles-in-winhttp"></a>Descripteurs HINTERNET dans WinHTTP
 
-Les services HTTP Microsoft Windows (WinHTTP) utilisent des handles pour effectuer le suivi des paramètres et des informations requis lors de l’utilisation du protocole HTTP. Chaque descripteur conserve les informations pertinentes pour une session HTTP, une connexion avec un serveur HTTP ou une ressource spécifique. Cette rubrique décrit les différents types de descripteurs, les conventions d’affectation de noms pour ces handles et leur structure hiérarchique.
+Microsoft Windows HTTP Services (WinHTTP) utilise des handles pour effectuer le suivi des paramètres et des informations nécessaires lors de l’utilisation du protocole HTTP. Chaque descripteur conserve les informations pertinentes pour une session HTTP, une connexion avec un serveur HTTP ou une ressource spécifique. Cette rubrique décrit les différents types de descripteurs, les conventions d’affectation de noms pour ces handles et leur structure hiérarchique.
 
 -   [À propos des handles HINTERNET](#about-hinternet-handles)
 -   [Descripteurs de nommage](#naming-handles)

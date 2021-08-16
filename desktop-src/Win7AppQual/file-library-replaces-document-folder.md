@@ -4,19 +4,19 @@ ms.assetid: 80b97bfc-4212-4401-a4a9-d96e2f39be60
 title: La bibliothèque de fichiers remplace le dossier de documents
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 699c645d574012a419f77538bcc58d61a4938120
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f1e8d08b176ebf4b5801a73695ea03f60a38eeb5a1ca51e1d90d9119dae5fcaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118329669"
 ---
 # <a name="file-library-replaces-document-folder"></a>La bibliothèque de fichiers remplace le dossier de documents
 
 ## <a name="affected-platforms"></a>Plateformes affectées
 
 **Clients** -Windows 7  
-**Serveurs** -Windows Server 2008 R2  
+**serveurs** -Windows Server 2008 R2  
 
 
 
@@ -67,7 +67,7 @@ Si vous souhaitez créer vos propres bibliothèques ou ajouter des emplacements 
 
 ## <a name="links-to-other-resources"></a>Liens vers d’autres ressources
 
--   **Bibliothèques Windows :**https://msdn.microsoft.com/library/dd758096(VS.85).aspx
+-   **bibliothèques de Windows :**https://msdn.microsoft.com/library/dd758096(VS.85).aspx
 -   **Maintien de la synchronisation avec une bibliothèque :**https://msdn.microsoft.com/library/dd758094(VS.85).aspx\#library\_keeping\_in\_sync
 
  

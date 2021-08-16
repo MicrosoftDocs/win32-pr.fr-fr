@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9739952792fcfa49da1b5656db513c3af41a419c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 47e189a2654ed4c760fdfcd6ced5506cc90d5e7cc989a7f79979e6d95b0bbfb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117847605"
 ---
 # <a name="iamwmbufferpasssetnotify-method"></a>IAMWMBufferPass :: SetNotify, méthode
 
@@ -31,7 +31,7 @@ La méthode **SetNotify** est utilisée par les applications pour fournir l’en
 
 ```C++
 HRESULT SetNotify(
-  [in] IAMWMBufferPassCallback *pCallback
+  [in] IAMWMBufferPassCallback *pCallback
 );
 ```
 
@@ -52,7 +52,7 @@ Pointeur vers l’interface **IAMWMBufferPassCallback** de l’application.
 
 Si la méthode est réussie, elle retourne la valeur \_ OK. En cas d’échec, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez cette méthode avant de placer le graphique de filtre dans l’état d’exécution.
 
@@ -63,6 +63,6 @@ Appelez cette méthode avant de placer le graphique de filtre dans l’état d�
 [**Interface IAMWMBufferPass**](/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iamwmbufferpass)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

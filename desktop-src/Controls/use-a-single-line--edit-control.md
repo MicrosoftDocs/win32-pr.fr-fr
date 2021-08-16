@@ -4,12 +4,12 @@ description: Cette rubrique montre comment créer une boîte de dialogue qui con
 ms.assetid: 742DF606-9998-46D0-8D0A-F79508AAFFC0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0d5d39a4c9fbc806de6ca151606e770eb0cea9b
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 597c3e611f53af56a42f837c4d85a43f97ff846e371314b130d72c568aaf860e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104032103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829113"
 ---
 # <a name="how-to-create-a-single-line-edit-control"></a>Procédure de création d’un contrôle d’édition de ligne unique
 
@@ -24,16 +24,16 @@ Le contrôle d’édition sur une seule ligne a le style [**\_ de mot de passe e
 
  
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

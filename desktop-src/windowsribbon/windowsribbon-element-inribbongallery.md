@@ -3,7 +3,7 @@ title: Élément InRibbonGallery
 description: Représente la Galerie de In-Ribbon, un contrôle basé sur la galerie qui expose un sous-ensemble par défaut d’éléments directement dans le ruban. Tous les éléments restants sont affichés lorsque l’utilisateur clique sur un bouton de menu déroulant.
 ms.assetid: 07d035e2-e6db-49fa-b786-a37cbceb58f6
 keywords:
-- Ruban des fenêtres d’élément InRibbonGallery
+- élément InRibbonGallery Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a25b2ebb937d954adce58231fd8c6b3347a031a7
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 1156c7a3b625496b0a4d50b750a3db5cda51a6b77745aaf26d4282de1be3443d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850829"
 ---
 # <a name="inribbongallery-element"></a>Élément InRibbonGallery
 
 Représente la [Galerie dans le ruban](windowsribbon-controls-inribbongallery.md), un contrôle basé sur la galerie qui expose un sous-ensemble par défaut d’éléments directement dans le ruban. Tous les éléments restants sont affichés lorsque l’utilisateur clique sur un bouton de menu déroulant.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <InRibbonGallery
@@ -214,11 +214,11 @@ Windows 8 et versions ultérieures.
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**ControlGroup**](windowsribbon-element-controlgroup.md) ou élément de [**groupe**](windowsribbon-element-group.md) .
 
-La capture d’écran suivante illustre le contrôle [de Galerie ruban dans le ruban](windowsribbon-controls-inribbongallery.md) de Microsoft Paint pour Windows 7.
+la capture d’écran suivante illustre le contrôle de [galerie ruban dans le ruban](windowsribbon-controls-inribbongallery.md) dans Microsoft Paint pour Windows 7.
 
 ![capture d’écran d’un contrôle de galerie dans le ruban dans le ruban Microsoft Paint.](images/controls/inribbongallery.png)
 
@@ -277,7 +277,7 @@ Cette section de code montre les déclarations de contrôle **InRibbonGallery** 
 ## <a name="element-information"></a>Informations sur les éléments
 
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: non
 
 

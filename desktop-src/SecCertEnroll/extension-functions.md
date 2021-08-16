@@ -4,12 +4,12 @@ ms.assetid: d53107b7-a153-41cf-9876-1d28aaf99816
 title: Fonctions d’extension
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bc490c8763a00fae9e7fb1e8a702ff87e2c18fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da84fbe58e4b3cdb3bd510b8ec33bedd0ab7af29f3c0a592724f2711bb9bedd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117779862"
 ---
 # <a name="extension-functions"></a>Fonctions d’extension
 

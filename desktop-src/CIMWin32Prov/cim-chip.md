@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 953ae371edca42409246307b21aad69a02cf4a66
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7a20d2066741dd14ada9ed35f29e226723c4fc5d7d3766f1a3762fdf070d0b03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835007"
 ---
 # <a name="cim_chip-class"></a>\_Classe de puce CIM
 
@@ -680,7 +680,7 @@ Cette propriété est héritée de la [**\_ PhysicalElement CIM**](cim-physicale
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ puce CIM** est dérivée de la [**\_ PhysicalComponent CIM**](cim-physicalcomponent.md).
 
