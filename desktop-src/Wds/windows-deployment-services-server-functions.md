@@ -1,19 +1,19 @@
 ---
-title: Fonctions du serveur des services de déploiement Windows
-description: Les fonctions suivantes sont utilisées avec l’API du serveur PXE Windows Deployment Services.
+title: Windows Fonctions du serveur des services de déploiement
+description: les fonctions suivantes sont utilisées avec Windows API du serveur de déploiement PXE.
 ms.assetid: b6089ff9-4d74-4f5d-957f-4a741c09f4b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3852ecfd3e51d6375ca8d566f78d019e733808ac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a16cc99f01dc88fce91beafe51a65f8e8ddccfdf08c4361fb194a7e60451a5aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330602"
 ---
-# <a name="windows-deployment-services-server-functions"></a>Fonctions du serveur des services de déploiement Windows
+# <a name="windows-deployment-services-server-functions"></a>Windows Fonctions du serveur des services de déploiement
 
-Les fonctions suivantes sont utilisées avec l’API du serveur PXE Windows Deployment Services.
+les fonctions suivantes sont utilisées avec Windows API du serveur de déploiement PXE.
 
 
 
@@ -47,9 +47,9 @@ Les fonctions suivantes sont utilisées avec l’API du serveur PXE Windows Depl
 
 
 
- 
+ 
 
-Les éléments suivants sont disponibles à partir de Windows 8 et de Windows Server 2012.
+les éléments suivants sont disponibles à partir de Windows 8 et Windows Server 2012.
 
 | Fonction                                                               | Description                                                                                   |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
@@ -65,11 +65,11 @@ Les éléments suivants sont disponibles à partir de Windows 8 et de Windows Se
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

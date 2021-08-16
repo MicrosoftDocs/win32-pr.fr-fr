@@ -1,6 +1,6 @@
 ---
-title: Filtre de lecteur ASF WM (kit de développement logiciel (SDK) Windows Media format 11)
-description: En savoir plus sur le filtre de lecteur ASF WM pour le kit de développement logiciel (SDK) Windows Media format 11. Passez en revue les informations de filtre et consultez les rubriques connexes.
+title: filtre de lecteur ASF WM (kit de développement logiciel (SDK) Windows Media Format 11)
+description: en savoir plus sur le filtre de lecteur ASF WM pour le SDK Windows Media Format 11. Passez en revue les informations de filtre et consultez les rubriques connexes.
 ms.assetid: 3d5ca88a-86bd-4d84-b4f4-782564ced58d
 keywords:
 - Windows Media Format SDK, lecteur ASF WM
@@ -11,19 +11,19 @@ keywords:
 - ASF (format avancé des systèmes), lecteur ASF WM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26bde36b1b2cfa7644d6e75d8d1ff96260b2e457
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: c825835e6d838a8a5d9b058f8bcf6ef52bd2a3d6a645787e0cf44da0f7573c78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844922"
 ---
-# <a name="wm-asf-reader-filter-windows-media-format-11-sdk"></a>Filtre de lecteur ASF WM (kit de développement logiciel (SDK) Windows Media format 11)
+# <a name="wm-asf-reader-filter-windows-media-format-11-sdk"></a>filtre de lecteur ASF WM (kit de développement logiciel (SDK) Windows Media Format 11)
 
-En fonction du nom d’un fichier ASF ou d’une URL, le lecteur ASF WM lit le contenu compressé, analyse les flux et expose une broche de sortie pour chacun d’entre eux. Ce filtre se connecte en aval au Windows Media Audio ou Windows Media Video DMOs, qui effectue la décompression. La recherche est prise en charge si le fichier ASF est accessible en recherche. Le lecteur ASF WM applique des horodatages aux échantillons de support en fonction de l’horodatage dans le fichier ASF, mais il ne modifie pas les horodatages de quelque manière que ce soit. En interne, le filtre utilise l’objet lecteur de format Windows Media pour lire le contenu Windows Media.
+En fonction du nom d’un fichier ASF ou d’une URL, le lecteur ASF WM lit le contenu compressé, analyse les flux et expose une broche de sortie pour chacun d’entre eux. ce filtre se connecte en aval au Windows Media Audio ou Windows Media Video DMOs, qui effectue la décompression. La recherche est prise en charge si le fichier ASF est accessible en recherche. Le lecteur ASF WM applique des horodatages aux échantillons de support en fonction de l’horodatage dans le fichier ASF, mais il ne modifie pas les horodatages de quelque manière que ce soit. en interne, le filtre utilise l’objet Windows media Format reader pour lire le contenu multimédia Windows.
 
 > [!Note]  
-> Dans le kit de développement logiciel (SDK) DirectX, ce filtre n’est pas le filtre source par défaut pour les fichiers ASF. ainsi, avec ce kit de développement logiciel (SDK), vous ne pouvez pas utiliser ce filtre avec la méthode **RenderFile** . vous devez l’ajouter explicitement au graphique de filtre à l’aide de son identificateur de classe (CLSID). Ce comportement est différent avec le kit de développement logiciel (SDK) du format Windows Media. Lorsque vous installez les bibliothèques Runtime SDK du format Windows Media, le lecteur ASF WM est inscrit comme filtre par défaut pour les fichiers ASF.
+> Dans le kit de développement logiciel (SDK) DirectX, ce filtre n’est pas le filtre source par défaut pour les fichiers ASF. ainsi, avec ce kit de développement logiciel (SDK), vous ne pouvez pas utiliser ce filtre avec la méthode **RenderFile** . vous devez l’ajouter explicitement au graphique de filtre à l’aide de son identificateur de classe (CLSID). ce comportement est différent avec le kit de développement logiciel (SDK) de Format multimédia Windows. lorsque vous installez les bibliothèques d’exécution du SDK Windows Media Format, le lecteur asf WM est inscrit comme filtre par défaut pour les fichiers asf.
 
  
 
@@ -66,10 +66,10 @@ Le lecteur ASF WM implémente partiellement les interfaces **IWMReaderAdvanced**
 
 <dl> <dt>
 
-[**Informations de référence sur DirectShow QASF**](directshow-qasf-reference.md)
+[**DirectShow Référence QASF**](directshow-qasf-reference.md)
 </dt> <dt>
 
-[**Lecture de fichiers ASF dans DirectShow**](reading-asf-files-in-directshow.md)
+[**Lecture des fichiers ASF dans DirectShow**](reading-asf-files-in-directshow.md)
 </dt> </dl>
 
  

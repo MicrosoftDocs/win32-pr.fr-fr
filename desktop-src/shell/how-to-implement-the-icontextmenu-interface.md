@@ -4,18 +4,18 @@ ms.assetid: F0C1D60E-7A5A-4609-9136-F4E535E9F6F1
 title: Comment implémenter l’interface IContextMenu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f251b9a64c3f401239eeb7c88286c016f399cc39
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f44ec65d95a4f6d67a9f15e10f5720be21c3b6c57fba5d0cf920bd12be54f662
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118223466"
 ---
 # <a name="how-to-implement-the-icontextmenu-interface"></a>Comment implémenter l’interface IContextMenu
 
 [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) est la plus puissante, mais également l’interface la plus compliquée à implémenter. Nous vous recommandons vivement d’implémenter un verbe à l’aide de l’une des méthodes Verb statiques. Pour plus d’informations, consultez [choix d’une méthode de menu contextuel statique ou dynamique](shortcut-choose-method.md). [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) a trois méthodes, [**GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring), [**commande InvokeCommand**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand)et [**QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu), qui sont décrites ici en détail.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
@@ -30,13 +30,13 @@ ms.locfileid: "103951939"
 
 ### <a name="icontextmenugetcommandstring-method"></a>IContextMenu :: GetCommandString, méthode
 
-La méthode [**IContextMenu :: GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) du gestionnaire est utilisée pour retourner le nom canonique d’un verbe. Cette méthode est facultative. Dans Windows XP et les versions antérieures de Windows, lorsque l’Explorateur Windows a une barre d’État, cette méthode est utilisée pour récupérer le texte d’aide qui s’affiche dans la barre d’État pour un élément de menu.
+La méthode [**IContextMenu :: GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) du gestionnaire est utilisée pour retourner le nom canonique d’un verbe. Cette méthode est facultative. dans Windows XP et les versions antérieures de Windows, lorsque Windows Explorer possède une barre d’état, cette méthode est utilisée pour récupérer le texte d’aide qui s’affiche dans la barre d’état pour un élément de menu.
 
 Le paramètre *idCmd* contient le décalage de l’identificateur de la commande qui a été définie lors de l’appel de [**IContextMenu :: QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) . Si une chaîne d’aide est demandée, *uFlags* est défini sur **GC \_ HELPTEXTW**. Copiez la chaîne d’aide dans la mémoire tampon *pszName* , en la convertissant en **PWSTR**. La chaîne de verbe est demandée en affectant à *uFlags* la valeur **GC \_ VERBW**. Copiez la chaîne appropriée dans *pszName*, tout comme avec la chaîne d’aide. Les indicateurs **GC \_ Validate** et **GC \_ VALIDATEW** ne sont pas utilisés par les gestionnaires de menu contextuel.
 
 L’exemple suivant illustre une implémentation simple de [**GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) qui correspond à l’exemple [**QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) fourni dans la section de la [méthode IContextMenu :: QueryContextMenu](shortcut-menu-using-dynamic-verbs.md) de cette rubrique. Étant donné que le gestionnaire ajoute un seul élément de menu, il n’existe qu’un seul jeu de chaînes qui peut être retourné. La méthode teste si *idCmd* est valide et, si c’est le cas, retourne la chaîne demandée.
 
-La fonction [**StringCchCopy**](/windows/win32/api/strsafe/nf-strsafe-stringcchcopya) est utilisée pour copier la chaîne demandée dans *pszName* afin de garantir que la chaîne copiée ne dépasse pas la taille de la mémoire tampon spécifiée par *cchName*. Cet exemple implémente la prise en charge uniquement des valeurs Unicode de *uFlags*, car seules celles-ci ont été utilisées dans l’Explorateur Windows depuis Windows 2000.
+La fonction [**StringCchCopy**](/windows/win32/api/strsafe/nf-strsafe-stringcchcopya) est utilisée pour copier la chaîne demandée dans *pszName* afin de garantir que la chaîne copiée ne dépasse pas la taille de la mémoire tampon spécifiée par *cchName*. cet exemple implémente la prise en charge uniquement des valeurs Unicode de *uFlags*, car seules celles-ci ont été utilisées dans l’explorateur de Windows depuis Windows 2000.
 
 
 ```
@@ -205,7 +205,7 @@ STDMETHODIMP CMenuExtension::QueryContextMenu(HMENU hMenu,
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour d’autres tâches d’implémentation de verbe, consultez [création de gestionnaires de menu contextuel](context-menu-handlers.md).
 

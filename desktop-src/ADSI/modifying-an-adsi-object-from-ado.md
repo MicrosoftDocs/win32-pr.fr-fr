@@ -1,24 +1,24 @@
 ---
 title: Modification d’un objet ADSI à partir d’ADO
-description: ADSI pour Windows 2000 et DS client incluent un fournisseur de OLE DB en lecture seule. Cela signifie que vous ne pouvez pas, à l’heure actuelle, émettre l’instruction UPDATE dans le dialecte SQL.
+description: ADSI pour Windows 2000 et DS Client comprend un fournisseur de OLE DB en lecture seule. cela signifie que vous ne pouvez pas, à l’heure actuelle, émettre l’instruction UPDATE dans le dialecte SQL.
 ms.assetid: b0a107ed-0271-45ab-b971-f589f34472e2
 ms.tgt_platform: multiple
 keywords:
 - Modification d’un objet ADSI à partir d’ADO ADSI
-- ActiveX Data Object ADSI, modification d’un objet ADSI à partir d’ADO
+- ActiveX de l’objet de données adsi, modification d’un objet adsi à partir d’ADO
 - ADSI ADSI, exemple de code C/C++, modification d’un objet ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53e7291088915a537231077e1d75161b57684caa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e4562e67043ea168a0b158088ffe3c2772f3ae28a0a2fa8881e102574cf2eb97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839449"
 ---
 # <a name="modifying-an-adsi-object-from-ado"></a>Modification d’un objet ADSI à partir d’ADO
 
-ADSI pour Windows 2000 et DS client incluent un fournisseur de OLE DB en lecture seule. Cela signifie que vous ne pouvez pas, à l’heure actuelle, émettre l’instruction UPDATE dans le dialecte SQL.
+ADSI pour Windows 2000 et DS Client comprend un fournisseur de OLE DB en lecture seule. cela signifie que vous ne pouvez pas, à l’heure actuelle, émettre l’instruction UPDATE dans le dialecte SQL.
 
 **Pour modifier un objet retourné à partir d’une requête ADO**
 
@@ -56,9 +56,9 @@ Wend
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d720a8aef42178da188b71a1635d97031b138397
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a19d7098266857f8a17e395ad749b216e45ce101278812f67c032943933955a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843960"
 ---
 # <a name="wmdrm_output_protection_levels-structure"></a>\_Structure des \_ niveaux de protection de sortie WMDRM \_
 
@@ -88,7 +88,7 @@ OPL minimal requis pour copier le contenu.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est utilisée par la méthode [**IWMDRMLicense :: GetOutputProtectionLevels**](iwmdrmlicense-getoutputprotectionlevels.md) .
 

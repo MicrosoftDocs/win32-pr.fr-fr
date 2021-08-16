@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: d4d0f35bff8fa65e0e09be32a55281b5118f244c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a763f6f4238632c3bcc736ebacbd2ff133b1955da673a0397ba9a95ebb87c2fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780561"
 ---
 # <a name="ntcomparetokens-function"></a>NtCompareTokens fonction)
 
@@ -68,7 +68,7 @@ Si la fonction réussit, la fonction retourne l’état \_ Success.
 
 Si la fonction échoue, elle retourne un code d’erreur **NTSTATUS** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Deux jetons de contrôle d’accès sont considérés comme équivalents si toutes les conditions suivantes sont remplies :
 
@@ -85,8 +85,8 @@ Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-t
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Ntseapi. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl> |
 

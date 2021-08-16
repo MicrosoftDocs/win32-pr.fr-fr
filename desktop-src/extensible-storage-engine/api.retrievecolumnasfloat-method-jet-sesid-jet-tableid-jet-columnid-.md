@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9022c53d384b6d92911a02797a684d11077987d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a388bd9d37d9502b512b59416ef9921f4eb5151369a181f3946e142b54285290
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118271730"
 ---
 # <a name="apiretrievecolumnasfloat-method-jet_sesid-jet_tableid-jet_columnid"></a>Méthode API. RetrieveColumnAsFloat (JET_SESID, JET_TABLEID, JET_COLUMNID)
 
@@ -82,7 +82,7 @@ public static Nullable<float> RetrieveColumnAsFloat(
     
     ColumnID à récupérer.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur renvoyée
 
 Type : [System. Nullable](/dotnet/api/system.nullable-1)\<[Single](/dotnet/api/system.single)\>  
 Données extraites de la colonne sous la forme d’une valeur float. NULL si la colonne est null.  

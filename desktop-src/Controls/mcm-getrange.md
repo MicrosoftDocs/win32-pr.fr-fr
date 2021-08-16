@@ -3,7 +3,7 @@ title: Message MCM_GETRANGE (commctrl. h)
 description: Récupère les dates minimales et maximales autorisées définies pour un contrôle Month Calendar. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro calendrier monthcal GetRange.
 ms.assetid: 5000053a-2975-4781-b3c9-83f9763f679a
 keywords:
-- MCM_GETRANGE les contrôles de message Windows
+- MCM_GETRANGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c757c046b88479072eb0771ecbf3f7fb79cdb31b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 26f8b9d5a485b12caf720afe518a2fc5499e55eba07c90c2fde1bb34eea2404b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830393"
 ---
 # <a name="mcm_getrange-message"></a>\_Message GETRANGE MCM
 
@@ -60,8 +60,8 @@ Retourne une **valeur DWORD** qui peut être égale à zéro (aucune limite n’
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

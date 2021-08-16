@@ -4,16 +4,16 @@ ms.assetid: 03e93c58-2e6e-42a2-8578-b4c2ad1a6199
 title: Versions de CAPICOM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d965ef9df4dbfa8d95aed7f0e51873b6abf5bd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 892427d8243e71328b418a7228b77f73b580e8e6df99e667d0129e09616697aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771995"
 ---
 # <a name="capicom-versions"></a>Versions de CAPICOM
 
-\[CAPICOM 2.1.0.2 peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom 2.1.0.2 peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 CAPICOM 1,0 fournit les fonctionnalités suivantes :
 

@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8f123bf11c8297f3a7ce0d4b0047874d8d7b31b1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5e7c73831ec45e6e0b65444e93e976fe349a2d4576d578f3399c60c399628cbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117847497"
 ---
 # <a name="iconfigasfwriter2setparam-method"></a>IConfigAsfWriter2 :: SetParam, méthode
 
@@ -31,9 +31,9 @@ La méthode **setParam** définit la valeur du paramètre de configuration de fi
 
 ```C++
 HRESULT SetParam(
-  [in] DWORD dwParam,
-  [in] DWORD dwParam1,
-  [in] DWORD dwParam2
+  [in] DWORD dwParam,
+  [in] DWORD dwParam1,
+  [in] DWORD dwParam2
 );
 ```
 
@@ -78,6 +78,6 @@ Si la méthode est réussie, elle retourne la valeur \_ OK. En cas d’échec, e
 [**IConfigAsfWriter2 :: GetParam**](iconfigasfwriter2-getparam.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

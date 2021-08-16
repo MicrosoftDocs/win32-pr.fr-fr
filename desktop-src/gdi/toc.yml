@@ -1,7 +1,7 @@
 - name: Windows GDI
   href: windows-gdi.md
   items:
-    - name: "Considérations relatives à la sécurité\_: Microsoft Windows GDI"
+    - name: "considérations relatives à la sécurité\_: Microsoft Windows GDI"
       href: security-considerations--gdi.md
     - name: Images bitmap
       href: bitmaps.md
@@ -30,7 +30,7 @@
               href: bitmap-scaling.md
             - name: Bitmaps en tant que pinceaux
               href: bitmaps-as-brushes.md
-            - name: Stockage bitmap
+            - name: Stockage Bitmap
               href: bitmap-storage.md
             - name: Compression de bitmap
               href: bitmap-compression.md
@@ -233,7 +233,7 @@
                   href: /windows/win32/api/Wingdi/ns-wingdi-logbrush
                 - name: LOGBRUSH32
                   href: /windows/win32/api/Wingdi/ns-wingdi-logbrush32
-    - name: Portion
+    - name: Découpage
       href: clipping.md
       items:
         - name: À propos du découpage
@@ -1398,9 +1398,9 @@
               href: window-regions.md
             - name: Arrière-plan de fenêtre
               href: window-background.md
-            - name: Fenêtres réduites
+            - name: Windows réduite
               href: minimized-windows.md
-            - name: Fenêtres redimensionnées
+            - name: Windows redimensionné
               href: resized-windows.md
             - name: Zone non cliente
               href: nonclient-area.md
@@ -1743,7 +1743,7 @@
                   href: framing-regions.md
                 - name: Récupération d’un rectangle englobant
                   href: retrieving-a-bounding-rectangle.md
-                - name: Déplacement de régions
+                - name: Déplacement vers d’autres régions
                   href: moving-regions.md
                 - name: Régions de test de positionnement
                   href: hit-testing-regions.md

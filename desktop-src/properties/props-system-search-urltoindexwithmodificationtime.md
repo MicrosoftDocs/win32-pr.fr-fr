@@ -4,12 +4,12 @@ ms.assetid: 53ca765b-0795-49ab-9946-c3ef101ababd
 title: System. Search. UrlToIndexWithModificationTime
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fcc83b9796ae2375f10235a08ba0db313fb1958
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7869005084379db1bdf288c6237a420666634c349eee47ca7942af2bb271a39d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464769"
 ---
 # <a name="systemsearchurltoindexwithmodificationtime"></a>System. Search. UrlToIndexWithModificationTime
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Multivalue Any
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété [System. Search. UrlToIndexWithModificationTime]() est la même que la propriété [System. Search. UrlToIndex](/previous-versions/windows/desktop/legacy/bb760177(v=vs.85)) , sauf que vous transmettez également l’heure de la dernière modification du document. Si l’heure de la dernière modification correspond, l’indexeur suppose que le document est déjà indexé et lève la notification. Cette propriété est un vecteur avec deux éléments, une valeur **VT \_ LPWStr** qui contient l’URL et une valeur de la **VT \_ fileTime** qui contient l’heure de la dernière modification.
 

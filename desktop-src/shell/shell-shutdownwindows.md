@@ -1,5 +1,5 @@
 ---
-description: Shell. ShutdownWindows, méthode-affiche la boîte de dialogue arrêt de Windows. Cela revient à cliquer sur le menu Démarrer et à sélectionner arrêter.
+description: Shell. ShutdownWindows, méthode-affiche la boîte de dialogue arrêter le Windows. cela revient à cliquer sur le menu Démarrer et à sélectionner arrêter.
 ms.assetid: 6fa8e2e0-a58f-4837-89f5-898cece2d80a
 title: Shell. ShutdownWindows, méthode (shldisp. h)
 ms.topic: reference
@@ -22,7 +22,7 @@ ms.locfileid: "117857728"
 ---
 # <a name="shellshutdownwindows-method"></a>Shell. ShutdownWindows, méthode
 
-Affiche la boîte de dialogue **arrêter Windows** . Cela revient à cliquer sur le menu **Démarrer** et à sélectionner **arrêter**.
+affiche la boîte de dialogue **arrêter le Windows** . Cela revient à cliquer sur le menu **Démarrer** et à sélectionner **arrêter**.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -47,9 +47,9 @@ Cette méthode n’a aucun paramètre.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant montre **ShutdownWindows** en cours d’utilisation. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant montre **ShutdownWindows** en cours d’utilisation. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -104,7 +104,7 @@ End Sub
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

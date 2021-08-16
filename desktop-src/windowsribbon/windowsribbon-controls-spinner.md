@@ -4,12 +4,12 @@ description: Le compteur est un contrôle composite qui se compose d’un bouton
 ms.assetid: 63689ed3-7326-4f7a-b700-d89e9b501ef1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0875fb31d0dac73c88f3bd502746c473dc1c2b1
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 30c4a6544c10634783b1671f586108a795d67d90c808943b08a2cfcbf6a476da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106538998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851381"
 ---
 # <a name="spinner"></a>Spinner
 
@@ -51,7 +51,7 @@ Le tableau suivant répertorie les clés de propriété associées au contrôle 
 <thead>
 <tr class="header">
 <th>Clé de propriété</th>
-<th>Notes</th>
+<th>Remarques</th>
 </tr>
 </thead>
 <tbody>
@@ -210,7 +210,7 @@ STDMETHODIMP CCommandHandler::UpdateProperty(
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la valeur minimale ([UI hyperdimensionnel \_ \_ MinValue](windowsribbon-reference-properties-uipkey-minvalue.md)) d’un compteur est initialisée à 0,0, l’application doit s’assurer que toute valeur suivante fournie par le contrôle n’est pas égale à-0,0 (zéro négatif). Si le compteur fournit la valeur-0,0, l’application doit réinitialiser cette valeur à 0,0 (valeur positive zéro) à l’aide de la méthode [**IUIFramework :: SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) , comme indiqué dans l’exemple suivant d’une méthode [**IUICommandHandler :: Execute**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) pour un contrôle Spinner.
 
@@ -301,7 +301,7 @@ STDMETHODIMP CCommandHandler::Execute(
 
 <dl> <dt>
 
-[Bibliothèque de contrôles de l’infrastructure du ruban Windows](windowsribbon-controls-entry.md)
+[Windows Bibliothèque de contrôles de Framework du ruban](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**Spinner, élément de balisage**](windowsribbon-element-spinner.md)

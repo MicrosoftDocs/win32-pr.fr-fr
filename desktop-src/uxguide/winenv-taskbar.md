@@ -1,34 +1,34 @@
 ---
 title: Barre des tâches
-description: La barre des tâches est le point d’accès pour les programmes affichés sur le bureau. Avec les nouvelles fonctionnalités de la barre des tâches de Windows 7, les utilisateurs peuvent fournir des commandes, accéder aux ressources et afficher l’état du programme directement à partir de la barre des tâches.
+description: La barre des tâches est le point d’accès pour les programmes affichés sur le bureau. avec les nouvelles fonctionnalités de la barre des tâches de Windows 7, les utilisateurs peuvent fournir des commandes, accéder aux ressources et afficher l’état du programme directement à partir de la barre des tâches.
 ms.assetid: c00e558a-313f-4741-a4b2-7d738f4544fa
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: c3e549e665f0200a448144ddf7202b258e88ff26
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 86b63e5f3b3dc1e8cecba78cbb1599c305d738250d92f76055596226c9028727
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117854106"
 ---
 # <a name="taskbar"></a>Barre des tâches
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
-La barre des tâches est le point d’accès pour les programmes affichés sur le bureau. Avec les nouvelles fonctionnalités de la barre des tâches de Windows 7, les utilisateurs peuvent fournir des commandes, accéder aux ressources et afficher l’état du programme directement à partir de la barre des tâches.
+La barre des tâches est le point d’accès pour les programmes affichés sur le bureau. avec les nouvelles fonctionnalités de la barre des tâches de Windows 7, les utilisateurs peuvent fournir des commandes, accéder aux ressources et afficher l’état du programme directement à partir de la barre des tâches.
 
 La barre des tâches est le point d’accès pour les programmes affichés sur le bureau, même si le programme est réduit. De tels programmes ont été considérés comme ayant une présence sur le bureau. Avec la barre des tâches, les utilisateurs peuvent afficher les fenêtres primaires ouvertes et certaines fenêtres secondaires sur le bureau, et passer rapidement de l’une à l’autre.
 
 ![capture d’écran de la barre des tâches avec les fonctionnalités appelées ](images/winenv-taskbar-image1.png)
 
-La barre des tâches Microsoft Windows.
+la barre des tâches Microsoft Windows.
 
-Les contrôles de la barre des tâches sont appelés boutons de la barre des tâches. Lorsqu’un programme crée une fenêtre principale (ou une fenêtre secondaire avec certaines caractéristiques), Windows ajoute un bouton de barre des tâches pour cette fenêtre et le supprime lorsque cette fenêtre se ferme.
+Les contrôles de la barre des tâches sont appelés boutons de la barre des tâches. lorsqu’un programme crée une fenêtre principale (ou une fenêtre secondaire avec certaines caractéristiques), Windows ajoute un bouton de barre des tâches pour cette fenêtre et le supprime lorsque cette fenêtre se ferme.
 
-Les programmes conçus pour Windows 7 peuvent tirer parti de ces nouvelles fonctionnalités de bouton de la barre des tâches :
+les programmes conçus pour Windows 7 peuvent tirer parti de ces nouvelles fonctionnalités de bouton de la barre des tâches :
 
--   Les listes de raccourcis fournissent un accès rapide aux destinations fréquemment utilisées (comme les fichiers, les dossiers et les liens) et aux commandes via un menu contextuel accessible à partir du bouton de la barre des tâches et de l’élément du menu Démarrer du programme, même si le programme n’est pas en cours d’exécution.
+-   les listes de raccourcis fournissent un accès rapide aux destinations fréquemment utilisées (comme les fichiers, les dossiers et les liens) et aux commandes via un menu contextuel accessible à partir du bouton de la barre des tâches du programme et de menu Démarrer élément même si le programme n’est pas en cours d’exécution.
 -   Les barres d’outils miniatures fournissent un accès rapide aux commandes fréquemment utilisées pour une fenêtre particulière. Les barres d’outils miniatures s’affichent dans la miniature du bouton de la barre des tâches.
 -   Les icônes de superposition affichent la modification de l’État sur l’icône du bouton de la barre des tâches du programme.
 -   Les barres de progression affichent la progression des tâches de longue durée sur le bouton de la barre des tâches du programme.
@@ -41,7 +41,7 @@ Techniquement, la barre des tâches s’étend de la barre entière du bouton D�
 
 ## <a name="is-this-the-right-user-interface"></a>S’agit-il de l’interface utilisateur appropriée ?
 
-Les programmes conçus pour Windows 7 peuvent tirer parti de ces fonctionnalités du bouton de barre des tâches. Posez-vous les questions clés suivantes pour déterminer s’il convient ou non de les utiliser :
+les programmes conçus pour Windows 7 peuvent tirer parti de ces fonctionnalités du bouton de barre des tâches. Posez-vous les questions clés suivantes pour déterminer s’il convient ou non de les utiliser :
 
 **Listes de raccourcis**
 
@@ -50,13 +50,13 @@ Les programmes conçus pour Windows 7 peuvent tirer parti de ces fonctionnalité
 
     ![capture d’écran de la barre des tâches avec Internet Explorer ](images/winenv-taskbar-image2.png)
 
-    Dans cet exemple, Windows Internet Explorer utilise une liste de raccourcis pour présenter les pages fréquemment visitées.
+    dans cet exemple, Windows Internet Explorer utilise une liste de raccourcis pour présenter les pages fréquemment visitées.
 
 -   **Les utilisateurs ont souvent besoin d’un accès rapide à un petit nombre de commandes de votre programme lors de l’utilisation d’autres programmes, même si votre programme n’est pas en cours d’exécution ?** Dans ce cas, envisagez de fournir une liste de raccourcis avec ces commandes fréquemment utilisées. Ces commandes doivent fonctionner même si votre programme n’est pas en cours d’exécution et doivent s’appliquer à l’ensemble du programme, et non à une fenêtre spécifique. Vous pouvez également fournir une barre d’outils miniatures pour les commandes qui s’appliquent à une fenêtre spécifique.
 
     ![capture d’écran de la barre des tâches avec pense-bête ](images/winenv-taskbar-image3.png)
 
-    Dans cet exemple, l’accessoire de Pense-bêtes permet aux utilisateurs de créer rapidement une note lors de l’utilisation d’autres programmes.
+    dans cet exemple, l’accessoire de Pense-bêtes permet aux utilisateurs de créer rapidement une note lors de l’utilisation d’autres programmes.
 
 -   **Promouvez-vous des fonctionnalités nouvelles, uniques ou difficiles à trouver ?** Dans ce cas, n’utilisez pas de listes de raccourcis parce qu’elles ne sont pas prévues à cet effet. Au lieu de cela, améliorez la détectabilité de ces commandes directement dans le programme.
 
@@ -85,7 +85,7 @@ Toutes les conditions suivantes s’appliquent-elles ?
 
 **Icônes de superposition**
 
--   **Le programme a-t-il une « présence du Bureau » ?** Si ce n’est pas le cas, utilisez plutôt une icône de zone de notification. Dans ce cas, envisagez d’utiliser une icône de superposition au lieu de placer l’État sur l’icône de la zone de notification pour les programmes conçus pour Windows 7. Cela permet de s’assurer que l’icône sera toujours visible (en cas d’utilisation de grandes icônes) et consolide le programme avec son état dans un même emplacement.
+-   **Le programme a-t-il une « présence du Bureau » ?** Si ce n’est pas le cas, utilisez plutôt une icône de zone de notification. dans ce cas, envisagez d’utiliser une icône de superposition au lieu de placer l’état sur l’icône de la zone de notification pour les programmes conçus pour Windows 7. Cela permet de s’assurer que l’icône sera toujours visible (en cas d’utilisation de grandes icônes) et consolide le programme avec son état dans un même emplacement.
 -   **L’icône de superposition s’affiche-t-elle temporairement pour afficher un changement d’État ?** Dans ce cas, une icône de superposition peut être appropriée, en fonction des facteurs suivants :
     -   **L’État est-il utile et pertinent lors de l’utilisation d’autres programmes ?** Si ce n’est pas le cas, affichez les informations dans les [barres d’État](ctrl-status-bars.md) du programme ou dans une autre zone d’État du programme.
 
@@ -141,16 +141,16 @@ Veillez à effectuer des recherches utilisateur pour vous assurer que vous avez 
 
 ### <a name="taskbar-buttons"></a>Boutons de la barre des tâches
 
--   **Faire apparaître les types de fenêtres suivants dans la barre des tâches (pour Windows 7, à l’aide d’une miniature de bouton de la barre des tâches) :**
+-   **faites apparaître les types de fenêtres suivants dans la barre des tâches (pour Windows 7, à l’aide d’une miniature de bouton de la barre des tâches) :**
     -   Fenêtres principales (y compris les boîtes de dialogue sans propriétaires)
     -   Feuilles de propriétés
     -   Boîtes de dialogue de progression non modales
     -   Assistants
--   **Pour Windows 7, utilisez les miniatures de bouton de la barre des tâches pour regrouper les types de fenêtres suivants avec le bouton de la barre des tâches de la fenêtre principale à partir duquel il a été lancé** Chaque programme (plus précisément, chaque programme perçu comme un programme distinct) doit avoir un seul bouton de la barre des tâches.
+-   **pour Windows 7, utilisez les miniatures de bouton de la barre des tâches pour regrouper les types de fenêtres suivants avec le bouton de la barre des tâches de la fenêtre principale à partir duquel il a été lancé** Chaque programme (plus précisément, chaque programme perçu comme un programme distinct) doit avoir un seul bouton de la barre des tâches.
 
     -   Fenêtres secondaires
     -   Onglets de l’espace de travail
-    -   Fenêtres de projet
+    -   Project windows
     -   fenêtres enfants MDI
 
     **Correct :**
@@ -163,22 +163,22 @@ Veillez à effectuer des recherches utilisateur pour vous assurer que vous avez 
 
     ![capture d’écran de l’Explorateur Windows et du panneau de configuration ](images/winenv-taskbar-image12.png)
 
-    Dans cet exemple, le panneau de configuration n’est pas correctement regroupé avec l’Explorateur Windows. Les utilisateurs perçoivent ces derniers comme des programmes distincts.
+    dans cet exemple, le panneau de configuration n’est pas regroupé correctement avec l’explorateur de Windows. Les utilisateurs perçoivent ces derniers comme des programmes distincts.
 
     **Incorrect :**
 
     ![capture d’écran du programme, de la barre de progression et d’une barre des tâches ](images/winenv-taskbar-image13.png)
 
-    Dans cet exemple, la sauvegarde Windows utilise incorrectement deux boutons de la barre des tâches pour un seul programme.
+    dans cet exemple, Sauvegarde Windows utilise de manière incorrecte deux boutons de la barre des tâches pour un seul programme.
 
 -   La **restauration d’une fenêtre principale doit également restaurer toutes ses fenêtres secondaires,** même si ces fenêtres secondaires possèdent leurs propres boutons de la barre des tâches. Lors de la restauration, placez les fenêtres secondaires au-dessus de la fenêtre principale.
--   **Pour Windows 7, les programmes qui ont normalement une présence sur le bureau peuvent afficher temporairement un bouton de barre des tâches pour afficher l’État.** Procédez ainsi uniquement si votre programme est normalement affiché sur le bureau et que les utilisateurs interagissent fréquemment avec lui. Un programme qui s’exécute normalement sans présence du Bureau doit utiliser son icône de zone de notification, bien qu’il ne soit pas toujours visible.
+-   **pour Windows 7, les programmes qui ont normalement une présence sur le bureau peuvent afficher temporairement un bouton de barre des tâches pour afficher l’état.** Procédez ainsi uniquement si votre programme est normalement affiché sur le bureau et que les utilisateurs interagissent fréquemment avec lui. Un programme qui s’exécute normalement sans présence du Bureau doit utiliser son icône de zone de notification, bien qu’il ne soit pas toujours visible.
 
     **Incorrect :**
 
     ![capture d’écran du bouton de la barre des tâches du centre de synchronisation Windows ](images/winenv-taskbar-image14.png)
 
-    Dans cet exemple, le centre de synchronisation Windows utilise incorrectement un bouton temporaire de la barre des tâches pour afficher l’État. Elle doit utiliser son icône de zone de notification à la place.
+    dans cet exemple, Windows centre de synchronisation utilise incorrectement un bouton temporaire de la barre des tâches pour afficher l’état. Elle doit utiliser son icône de zone de notification à la place.
 
 ### <a name="icons"></a>Icônes
 
@@ -218,7 +218,7 @@ Pour obtenir des instructions générales et des exemples, consultez [icônes](v
 
     ![capture d’écran de Live Messenger avec icône de superposition ](images/winenv-taskbar-image18.png)
 
-    Dans cet exemple, Windows Live Messenger affiche toujours une icône de superposition afin que les utilisateurs puissent toujours vérifier leur présence signalée.
+    dans cet exemple, Windows Live Messenger affiche toujours une icône de superposition afin que les utilisateurs puissent toujours vérifier leur présence signalée.
 
 -   **N’affiche pas d’icône pour indiquer qu’un problème a été résolu.** Au lieu de cela, il suffit de supprimer toute icône précédente indiquant un problème. Supposons que les utilisateurs s’attendent normalement à ce que votre programme s’exécute sans problème.
 -   **Affichez les icônes de superposition ou de zone de notification, mais jamais les deux à la fois.** Votre programme peut prendre en charge les deux mécanismes de compatibilité descendante, mais si votre programme affiche l’État à l’aide d’icônes de superposition, il ne doit pas non plus utiliser les icônes de la zone de notification pour l’État.
@@ -235,7 +235,7 @@ Pour obtenir des instructions générales et des exemples, consultez [icônes](v
     | Overlay | Statut |
     |---------------------------------------------------------------------------------------------------|----------------------------------|
     | ![capture d’écran de petite icône d’avertissement ](images/winenv-taskbar-image20.png)<br/>               | Avertissement<br/>               |
-    | ![capture d’écran de l’icône d’erreur de petite taille ](images/winenv-taskbar-image21.png)<br/>                 | Error<br/>                 |
+    | ![capture d’écran de l’icône d’erreur de petite taille ](images/winenv-taskbar-image21.png)<br/>                 | Erreur<br/>                 |
     | ![capture d’écran de la petite icône désactivée/déconnectée ](images/winenv-taskbar-image22.png)<br/> | Désactivé/déconnecté<br/> |
     | ![capture d’écran de la petite icône bloquée/hors connexion ](images/winenv-taskbar-image23.png)<br/>       | Bloqué/hors connexion<br/>       |
 
@@ -272,7 +272,7 @@ Pour obtenir des instructions générales et des exemples, consultez [icônes](v
 
 ### <a name="quick-launch-shortcuts"></a>Raccourcis de lancement rapide
 
--   **Placez les raccourcis de programme dans la zone lancement rapide uniquement si les utilisateurs s’y abonnent.** Étant donné que le lancement rapide a été supprimé de Windows 7, les programmes conçus pour Windows 7 ne doivent pas ajouter de raccourcis de programme à la zone de lancement rapide, ni fournir des options pour le faire.
+-   **Placez les raccourcis de programme dans la zone lancement rapide uniquement si les utilisateurs s’y abonnent.** étant donné que le lancement rapide a été supprimé de Windows 7, les programmes conçus pour Windows 7 ne doivent pas ajouter de raccourcis de programme à la zone de lancement rapide, ni fournir des options pour le faire.
 
 ### <a name="jump-lists"></a>Listes de raccourcis
 
@@ -308,7 +308,7 @@ Pour obtenir des instructions générales et des exemples, consultez [icônes](v
 
     ![capture d’écran de la liste de raccourcis avec une commande ](images/winenv-taskbar-image29.png)
 
-    Dans cet exemple, le Pense-bêtes accessoire fournit une seule commande de liste de raccourcis, car c’est tout ce qui est nécessaire.
+    dans cet exemple, le Pense-bêtes accessoire fournit une seule commande de liste de raccourcis, car c’est tout ce qui est nécessaire.
 
 -   **Fournissez des info-bulles uniquement lorsque cela est nécessaire pour aider les utilisateurs à comprendre les éléments de la liste de raccourcis.** Évitez les info-bulles redondantes, car il s’agit d’une gêne inutile. Pour plus d’informations sur les info-bulles, consultez info-bulles [et info-bulles](ctrl-tooltips-and-infotips.md).
 
@@ -329,7 +329,7 @@ Pour obtenir des instructions générales et des exemples, consultez [icônes](v
 -   **Fournissez au moins un et trois groupes au minimum.** Les éléments de la liste de raccourcis sont toujours regroupés pour étiqueter leur rôle. Le fait de disposer de plus de trois groupes rend les éléments plus difficiles à trouver.
 -   **Utilisez les noms de groupes standard, le cas échéant.** Les noms de groupes standard sont familiers et faciles à comprendre pour les utilisateurs.
 
-    Les commandes reçoivent le nom du groupe de tâches, qui est assigné par Windows et ne peuvent donc pas être modifiés.
+    les commandes reçoivent le nom du groupe de tâches, qui est assigné par Windows et ne peuvent donc pas être modifiés.
 
     **Correct :**
 
@@ -381,18 +381,18 @@ Pour obtenir des instructions générales et des exemples, consultez [icônes](v
 **Destinations**
 
 -   **Fournissez un ensemble dynamique de destinations spécifiques à l’utilisateur actuel, mais indépendantes de l’état d’exécution du programme ou du document actif.** Comme nous l’avons vu précédemment, assurez-vous qu’ils sont adaptés à l’objectif de votre programme, que les utilisateurs s’intéressent le plus et ont le niveau de spécificité approprié.
--   **Quand cela est approprié, utilisez une liste de destination « automatique ».** Les destinations automatiques sont gérées par Windows, mais votre programme contrôle les destinations spécifiques qui sont transmises.
+-   **Quand cela est approprié, utilisez une liste de destination « automatique ».** les destinations automatiques sont gérées par Windows, mais votre programme contrôle les destinations spécifiques qui sont transmises.
     -   Envisagez l’utilisation de récents pour les programmes de création de documents où les utilisateurs sont susceptibles de revenir aux destinations récemment utilisées.
 
         ![capture d’écran de la liste de liens avec le nom de groupe « récent » ](images/winenv-taskbar-image36.png)
 
-        Dans cet exemple, le bloc-notes Windows utilise les destinations récentes.
+        dans cet exemple, Windows Bloc-notes utilise des destinations récentes.
 
     -   Envisagez d’utiliser fréquemment pour les programmes qui affichent le contenu existant, où les utilisateurs sont susceptibles de revenir à des éléments qu’ils utilisent souvent. Les destinations fréquentes sont triées par ordre de fréquence, les plus fréquentes en premier.
 
         ![capture d’écran de la liste de liens avec un nom de groupe fréquent ](images/winenv-taskbar-image37.png)
 
-        Dans cet exemple, l’Explorateur Windows utilise des destinations fréquentes.
+        dans cet exemple, Windows Explorer utilise des destinations fréquentes.
 
     -   À utiliser fréquent si récent se traduirait par de nombreuses destinations inutiles. Les listes fréquentes sont plus stables et le meilleur choix lorsque les utilisateurs accèdent à de nombreuses destinations différentes, mais ne sont pas susceptibles de revenir à des listes rarement utilisées.
 
@@ -400,7 +400,7 @@ Pour obtenir des instructions générales et des exemples, consultez [icônes](v
 
         ![capture d’écran de la liste de raccourcis contenant plusieurs éléments récents ](images/winenv-taskbar-image38.png)
 
-        L’utilisation de récents dans Windows Internet Explorer entraînerait de nombreuses destinations inutiles.
+        l’utilisation de récents dans Windows Internet Explorer entraînerait de nombreuses destinations inutiles.
 
     -   Si les options récentes ou fréquentes sont des choix également appropriés, utilisez récent, car cette approche est plus facile à comprendre et est plus prévisible pour les utilisateurs.
     -   Si vous utilisez récent et que le programme a un équivalent dans le menu fichier, faites en sorte que les listes aient le même contenu dans le même ordre. Pour les utilisateurs, ceux-ci doivent apparaître dans les mêmes listes.
@@ -411,7 +411,7 @@ Pour obtenir des instructions générales et des exemples, consultez [icônes](v
 
         ![capture d’écran de la liste de liens avec le nom de groupe « nouveau » ](images/winenv-taskbar-image39.png)
 
-        Dans cet exemple, Windows Media Center répertorie les émissions enregistrées récemment que l’utilisateur n’a pas encore vues.
+        dans cet exemple, Windows Media Center répertorie les émissions enregistrées récemment que l’utilisateur n’a pas encore vues.
 
     -   Choisissez un ordre de tri qui correspond au modèle mental de l’utilisateur de la liste. Par exemple, une liste de style de tâche aurait la première chose à faire répertoriée. S’il n’existe aucun modèle mental clair, triez la liste de destination dans l’ordre alphabétique.
 
@@ -456,11 +456,11 @@ Pour obtenir des instructions générales et des exemples, consultez [icônes](v
 
     ![capture d’écran de la miniature du lecteur multimédia avec la commande ](images/winenv-taskbar-image44.png)
 
-    Dans cet exemple, le fait de cliquer sur suivant dans le lecteur Windows Media continue d’afficher la miniature, car les utilisateurs peuvent souhaiter fournir d’autres commandes.
+    dans cet exemple, le fait de cliquer sur suivant dans Lecteur Windows Media continue d’afficher la miniature parce que les utilisateurs peuvent souhaiter fournir d’autres commandes.
 
     ![capture d’écran de la miniature avec l’icône de conversation ](images/winenv-taskbar-image45.png)
 
-    Dans cet exemple, si vous cliquez sur conversation dans Windows Live Messenger, la miniature est ignorée car les utilisateurs sont susceptibles d’envoyer un message.
+    dans cet exemple, le fait de cliquer sur conversation dans Windows Live Messenger ignore la miniature, car les utilisateurs sont susceptibles d’envoyer un message.
 
 **Présentation**
 
@@ -477,7 +477,7 @@ Pour obtenir des instructions générales et des exemples, consultez [icônes](v
 
 Pour plus d’instructions, consultez [barres de progression](progress-bars.md).
 
-## <a name="text"></a>Text
+## <a name="text"></a>Texte
 
 ### <a name="window-titles"></a>Titres des fenêtres
 

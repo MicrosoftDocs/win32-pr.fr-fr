@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7639d9bca600457d519862e1f57d9ee698d2a155
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6dedebf88923d64ba14882a885f74254474664e79756dd7f12fd2e3b02a09545
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117836661"
 ---
 # <a name="repl-property-meta-data-attribute"></a>Attribut REPL-Property-Meta-Data
 
@@ -46,7 +46,7 @@ Effectue le suivi des informations d’état de réplication interne pour les ob
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

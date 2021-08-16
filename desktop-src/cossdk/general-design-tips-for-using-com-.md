@@ -1,17 +1,17 @@
 ---
 description: La clé de bonne conception est la planification. Si vous n’êtes pas familiarisé avec la conception d’une application à trois niveaux, consultez la section intitulée conception de l’application COM+ à l’aide de UML.
 ms.assetid: 463f4154-92f6-46c3-95ff-8513963dcadd
-title: Conseils de conception générale pour l’utilisation de COM+
+title: Astuces de conception générale pour l’utilisation de COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5765259f170b1a98f1abb2d097dfdaec2e09d47
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f54ade55331c0b3e2c5ea4b45465ca0bcdc007036b2e919441ccb2ebfbe95ef1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118306994"
 ---
-# <a name="general-design-tips-for-using-com"></a>Conseils de conception générale pour l’utilisation de COM+
+# <a name="general-design-tips-for-using-com"></a>Astuces de conception générale pour l’utilisation de COM+
 
 La clé de bonne conception est la planification. Si vous n’êtes pas familiarisé avec la conception d’une application à trois niveaux, consultez la section intitulée [conception de l’application com+ à l’aide de UML](designing-the-com--application-using-uml.md).
 

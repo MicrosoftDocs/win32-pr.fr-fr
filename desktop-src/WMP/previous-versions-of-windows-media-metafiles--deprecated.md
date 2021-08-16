@@ -1,13 +1,13 @@
 ---
-title: Versions précédentes des fichiers Windows Media (déconseillés)
-description: Versions précédentes des fichiers Windows Media (déconseillés)
+title: Versions précédentes de Windows les fichiers multimédias (dépréciés)
+description: Versions précédentes de Windows les fichiers multimédias (dépréciés)
 ms.assetid: f93b9735-6aa3-48ed-ae80-0485acea3167
 keywords:
-- Fichiers Windows Media, versions
+- Windows Fichiers multimédias, versions
 - refichiers, versions
-- Fichiers Windows Media, versions précédentes
+- Windows Fichiers multimédias, versions précédentes
 - fichiers de fichier, versions précédentes
-- versions des fichiers Windows Media
+- versions des Windows de fichiers multimédias
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -15,18 +15,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 79020b282180f0e17b438cbc52f6ed2fe2a4f559
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 35e46d7fb6a896b9d2ca841ac0cc83cc4875d5ac863f7cd5be520460e0f492ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334492"
 ---
-# <a name="previous-versions-of-windows-media-metafiles-deprecated"></a>Versions précédentes des fichiers Windows Media (déconseillés)
+# <a name="previous-versions-of-windows-media-metafiles-deprecated"></a>Versions précédentes de Windows les fichiers multimédias (dépréciés)
 
-Cette rubrique documente une fonctionnalité qui n’est plus utilisée dans la version actuelle des fichiers Windows Media.
+cette rubrique documente une fonctionnalité qui n’est plus utilisée dans la version actuelle de Windows les fichiers multimédias.
 
-Cette section documente une partie de la version 2 des fichiers Windows Media. La version 2 n’est pas la version actuelle des fichiers Windows Media, mais dans certains cas, Windows Media Services fournit des fichiers de sous-fichiers au format de la version 2. Les méta-fichiers Windows Media sont également désignés sous le terme de fichiers ASX.
+cette section documente une partie de la version 2 de Windows les fichiers multimédias. la version 2 n’est pas la version actuelle de Windows les fichiers multimédias, mais dans certains cas, Services Windows Media fournit des fichiers de sous-fichiers au format de la version 2. Windows Les fichiers de méta-fichiers multimédias sont également appelés fichiers ASX.
 
 Cette section documente les éléments suivants.
 
@@ -39,18 +39,18 @@ Cette section documente les éléments suivants.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Fichiers Windows Media**](windows-media-metafiles.md)
+[**Windows Fichiers multimédias**](windows-media-metafiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

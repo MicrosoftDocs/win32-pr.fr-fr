@@ -523,7 +523,7 @@ Les indications suivantes s’appliquent aux liens vers les pages de tâches, te
 -   **Pour les pages de tâche, créez l’instruction principale, les boutons de validation et les liens de tâche en tant que jeu de texte associé.**
     
 
-    |  Exemple                             |    Instruction                                                   |
+    | Exemple                             |    Instruction                                                   |
     |------------------------------|-------------------------------------------------------|
     | Lien de tâche :<br/>        | Connexion à un réseau sans fil<br/>              |
     | Instruction principale :<br/> | Choisir un réseau auquel se connecter<br/>             |

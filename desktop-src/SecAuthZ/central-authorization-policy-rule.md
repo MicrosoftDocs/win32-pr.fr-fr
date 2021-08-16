@@ -4,12 +4,12 @@ ms.assetid: 51436332-F06A-4929-B3C1-AD2F66C3273B
 title: Règle de stratégie d’autorisation centrale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cda6279b2bf28f80f99a0e2608b5bf209855a76a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5638633f655794464a9d603e1bb6a0380d2224170b9afe0f6314b1f8fee945b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104042878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783203"
 ---
 # <a name="central-authorization-policy-rule"></a>Règle de stratégie d’autorisation centrale
 
@@ -21,9 +21,9 @@ CAPR a les attributs suivants :
 -   Description : définit l’objectif du CAPR et toutes les informations qui peuvent être nécessaires aux consommateurs du CAPR.
 -   Expression d’applicabilité : définit les ressources ou situations dans lesquelles la stratégie sera appliquée.
 -   ID : identificateur à utiliser pour l’audit des modifications apportées au CAPR.
--   Stratégie de Access Control effective : descripteur de sécurité Windows contenant une liste DACL qui définit la stratégie d’autorisation effective.
+-   stratégie de Access Control Effective : descripteur de sécurité Windows contenant une liste DACL qui définit la stratégie d’autorisation effective.
 -   Expression d’exception : une ou plusieurs expressions qui fournissent un moyen de remplacer la stratégie et d’accorder l’accès à un principal d’après l’évaluation de l’expression.
--   Stratégie de préproduction : descripteur de sécurité Windows facultatif contenant une liste DACL qui définit une stratégie d’autorisation proposée (liste des entrées de contrôle d’accès) qui sera testée par rapport à la stratégie effective, mais non appliquée. S’il existe une différence entre les résultats de la stratégie effective et la stratégie de mise en lots, la différence est enregistrée dans le journal des événements d’audit.
+-   stratégie de préproduction : descripteur de sécurité facultatif Windows contenant une liste DACL qui définit une stratégie d’autorisation proposée (liste des entrées de contrôle d’accès) qui sera testée par rapport à la stratégie effective, mais non appliquée. S’il existe une différence entre les résultats de la stratégie effective et la stratégie de mise en lots, la différence est enregistrée dans le journal des événements d’audit.
     -   Étant donné que la mise en lots peut avoir un effet imprévisible sur les performances du système, un administrateur de stratégie de groupe doit être en mesure de sélectionner des ordinateurs spécifiques sur lesquels la mise en œuvre intermédiaire sera en vigueur. Cela permet à la stratégie existante d’être en place sur la plupart des ordinateurs d’une unité d’organisation pendant que la mise en lots se produit sur un sous-ensemble de machines.
     -   P2 : un administrateur local sur un ordinateur particulier doit être en mesure de désactiver la mise en lots si la mise en lots de cet ordinateur entraîne une dégradation des performances.
 -   Lien secondaire à CAP : liste des liens vers les liens vers toutes les majuscules qui peuvent faire référence à ce CAPR.
@@ -53,7 +53,7 @@ description="Department: Only employees of the finance department should be able
 
 ## <a name="deny-aces-in-capes"></a>Refuser les ACE dans CAPEs
 
-Dans Windows 8, les ACE de refus ne sont pas prises en charge dans un CAPR. L’expérience utilisateur de création de CAPR n’autorise pas la création d’une entrée du contrôle d’accès. En outre, lorsque l’autorité LSA récupère le CAP à partir de Active Directory, LSA vérifie qu’aucun CAPRs n’a de refus d’entrées de contrôle d’autorisation. Si une entrée du contrôle d’accès est détectée dans un CAPR, la limite est traitée comme étant non valide et ne sera pas copiée dans le registre ou le SRM.
+dans Windows 8 les entrées ace de refus ne sont pas prises en charge dans un CAPR. L’expérience utilisateur de création de CAPR n’autorise pas la création d’une entrée du contrôle d’accès. En outre, lorsque l’autorité LSA récupère le CAP à partir de Active Directory, LSA vérifie qu’aucun CAPRs n’a de refus d’entrées de contrôle d’autorisation. Si une entrée du contrôle d’accès est détectée dans un CAPR, la limite est traitée comme étant non valide et ne sera pas copiée dans le registre ou le SRM.
 
 > [!Note]  
 > La vérification de l’accès n’impose pas l’absence d’ACE de refus. Les ACE de refus dans un CAPR seront appliqués. Il est prévu que les outils de création empêchent cela de se produire.

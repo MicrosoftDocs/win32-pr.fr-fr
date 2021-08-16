@@ -1,6 +1,6 @@
 ---
 title: Interface IMsRdpClientAdvancedSettings6
-description: Expose les propriétés qui gèrent les paramètres de contrôle ActiveX avancés.
+description: expose les propriétés qui gèrent les paramètres avancés de contrôle de ActiveX.
 ms.assetid: 45b48cdf-3860-4359-99b2-8d2598146d1d
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e61d3358f1af228dcd1b5a7431ee759b486df7a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf4c108345e3dae0b5c8f4e45c3a1c07299cccdaed44404718e599c0ef973957
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352126"
 ---
 # <a name="imsrdpclientadvancedsettings6-interface"></a>Interface IMsRdpClientAdvancedSettings6
 
-Expose les propriétés qui gèrent les paramètres de contrôle ActiveX avancés. L’interface **IMsRdpClientAdvancedSettings6** est dérivée de l’interface [**IMsRdpClientAdvancedSettings5**](imsrdpclientadvancedsettings5.md) .
+expose les propriétés qui gèrent les paramètres avancés de contrôle de ActiveX. L’interface **IMsRdpClientAdvancedSettings6** est dérivée de l’interface [**IMsRdpClientAdvancedSettings5**](imsrdpclientadvancedsettings5.md) .
 
 Pour obtenir une instance de cette interface, utilisez la propriété [**IMsTscAx :: AdvancedSettings**](imstscax-advancedsettings.md) pour obtenir un pointeur d’interface [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md) . Appelez ensuite [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) sur le pointeur **IMsTscAdvancedSettings** et transmettez **IID \_ IMsRdpClientAdvancedSettings6** à **QueryInterface**.
 
@@ -45,7 +45,7 @@ L’interface **IMsRdpClientAdvancedSettings6** possède les propriétés suivan
 |:----------------------------------------------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | [**AuthenticationServiceClass**](imsrdpclientadvancedsettings6-authenticationserviceclass.md)<br/> | Lecture/écriture<br/> | Spécifie le nom de principal du service (SPN) à utiliser pour l’authentification auprès du serveur.<br/>                                     |
 | [**AuthenticationType**](imsrdpclientadvancedsettings6-authenticationtype.md)<br/>                 | Lecture seule<br/>  | Spécifie le type d’authentification utilisé pour cette connexion.<br/>                                                          |
-| [**ConnectToAdministerServer**](imsrdpclientadvancedsettings6-connecttoadministerserver.md)<br/>   | Lecture/écriture<br/> | Récupère ou spécifie si le contrôle ActiveX doit tenter de se connecter au serveur à des fins d’administration.<br/> |
+| [**ConnectToAdministerServer**](imsrdpclientadvancedsettings6-connecttoadministerserver.md)<br/>   | Lecture/écriture<br/> | récupère ou spécifie si le contrôle de ActiveX doit tenter de se connecter au serveur à des fins d’administration.<br/> |
 | [**EnableCredSspSupport**](imsrdpclientadvancedsettings6-enablecredsspsupport.md)<br/>             | Lecture/écriture<br/> | Spécifie si le fournisseur de services de sécurité des informations d’identification (CredSSP) est activé pour cette connexion.<br/>                    |
 | [**HotKeyFocusReleaseLeft**](imsrdpclientadvancedsettings6-hotkeyfocusreleaseleft.md)<br/>         | Lecture/écriture<br/> | Spécifie le code de la touche virtuelle à ajouter à CTRL + ALT pour déterminer le remplacement des raccourcis clavier pour CTRL + ALT + gauche.<br/>          |
 | [**HotKeyFocusReleaseRight**](imsrdpclientadvancedsettings6-hotkeyfocusreleaseright.md)<br/>       | Lecture/écriture<br/> | Spécifie le code de la touche virtuelle à ajouter à CTRL + ALT pour déterminer le remplacement des raccourcis clavier pour CTRL + ALT + droite.<br/>         |
@@ -56,7 +56,7 @@ L’interface **IMsRdpClientAdvancedSettings6** possède les propriétés suivan
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette interface a été étendue par l’interface [**IMsRdpClientAdvancedSettings7**](imsrdpclientadvancedsettings7.md) , qui hérite de toutes les méthodes et propriétés des interfaces précédentes.
 

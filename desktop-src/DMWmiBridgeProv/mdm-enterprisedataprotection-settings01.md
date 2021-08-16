@@ -1,6 +1,6 @@
 ---
 title: Classe MDM_EnterpriseDataProtection_Settings01
-description: La \_ classe EnterpriseDataProtection \_ Settings01 MDM est utilisée pour configurer les paramètres spécifiques de Windows information protection (WIP) (anciennement appelé protection des données d’entreprise).
+description: la \_ classe EnterpriseDataProtection \_ Settings01 MDM est utilisée pour configurer des paramètres spécifiques de Windows Information Protection (WIP) (anciennement appelés Enterprise Protection des données).
 ms.assetid: 7537f548-85fb-46b4-ab94-c9dcf2bf1447
 keywords:
 - Classe MDM_EnterpriseDataProtection_Settings01
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e6ef063a1a8d72666dc44a2276bcecfb7d420c3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e80502ff724a43f1034922b0734fe128124c193f0ef5319ee2976257d26fbe3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118165832"
 ---
 # <a name="mdm_enterprisedataprotection_settings01-class"></a>\_ \_ Classe SETTINGS01 EnterpriseDataProtection MDM
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-La **classe \_ EnterpriseDataProtection \_ Settings01 MDM** est utilisée pour configurer les paramètres spécifiques de Windows information protection (WIP) (anciennement appelé protection des données d’entreprise). Pour plus d’informations sur les travaux en cours, consultez [protéger vos données d’entreprise à l’aide de la protection des données d’entreprise (EDP)](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
+la **classe \_ EnterpriseDataProtection \_ Settings01 MDM** est utilisée pour configurer des paramètres spécifiques de Windows Information Protection (WIP) (anciennement appelés Enterprise Protection des données). Pour plus d’informations sur les travaux en cours, consultez [protéger vos données d’entreprise à l’aide de la protection des données d’entreprise (EDP)](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
 
 La syntaxe suivante issue du code MOF est simplifiée et inclut toutes les propriétés héritées.
 
@@ -145,7 +145,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [ **clé**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Identifie le nom du nœud parent. Pour cette classe, la chaîne est « Settings ».
+Identifie le nom du nœud parent. pour cette classe, la chaîne est « Paramètres ».
 
 </dd> <dt>
 
@@ -204,7 +204,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                            |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1. mof</dt> </dl>      |

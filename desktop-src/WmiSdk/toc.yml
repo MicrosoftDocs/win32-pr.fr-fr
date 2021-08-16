@@ -7,7 +7,7 @@
         - name: Nouveautés de WMI
           href: what-s-new-in-wmi.md
           items:
-            - name: Nouveautés de Windows 7
+            - name: nouveautés de Windows 7
               href: what-s-new-in-windows-7.md
             - name: Nouveautés de Windows Vista
               href: what-s-new-in-windows-vista.md
@@ -907,7 +907,7 @@
         - name: Fournisseurs WMI
           href: wmi-providers.md
           items:
-            - name: Fournisseur de données de performance mis en forme
+            - name: Fournisseur de données de Performance mis en forme
               href: formatted-performance-data-provider.md
               items:
                 - name: Récupération de la documentation pour les objets de données de performance bruts et mis en forme
@@ -2977,7 +2977,7 @@
                   href: strings.md
                 - name: ValueMap et qualificateurs de valeur
                   href: value-map.md
-                - name: NULLITÉ
+                - name: VOID
                   href: void.md
                 - name: Commandes de préprocesseur
                   href: preprocessor-commands.md
@@ -3115,12 +3115,12 @@
                   href: wmi-security-descriptor-objects.md
             - name: Propriétés du système WMI
               href: wmi-system-properties.md
-        - name: Référence managée pour les classes de commandes WMI Windows PowerShell
+        - name: référence managée pour les Classes de commande Windows PowerShell WMI
           href: managed-reference-for-wmi-powershell-command-classes.md
     - name: Glossaire WMI
       href: wmi-glossary.md
       items:
-        - name: Un
+        - name: A
           href: gloss-a.md
         - name: C
           href: gloss-c.md

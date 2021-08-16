@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 61fe8be0bdf75db5204066563ca07f8225678f7d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ebd46b751f4a098361618f3b6e992e4333425f501bf6afdedfca047e921ad7ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117772056"
 ---
 # <a name="capicom_store_open_mode-enumeration"></a>\_ \_ Énumération du mode d’ouverture d’un magasin CAPICOM \_
 
@@ -38,7 +38,7 @@ Le \_ type d’énumération du mode d’ouverture du magasin CAPICOM \_ \_ est 
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de l’utilisation de l' \_ \_ énumération du mode d’ouverture d’un magasin CAPICOM \_ , vous pouvez utiliser un seul des paramètres suivants.
 
@@ -52,7 +52,7 @@ Lors de l’utilisation de l' \_ \_ énumération du mode d’ouverture d’un m
 
 | Condition requise | Valeur |
 |----------------------------|--------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
 | En-tête<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 

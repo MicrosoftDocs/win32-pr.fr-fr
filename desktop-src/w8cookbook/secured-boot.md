@@ -4,25 +4,25 @@ description: Logiciel anti-programme malveillant à lancement anticipé (ELAM)
 ms.assetid: 4064CD44-FC50-48DE-8490-F592ED21CB7E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34c3e51d7fb009ffa0e85a59990b321fb38ad196
-ms.sourcegitcommit: a93d3abaf4d6d45a6f0b87faed3f576b222b1745
+ms.openlocfilehash: 0f1ca8e52f9d2465038e68b6b585bed70b974432566b3b67d080c97bb998103f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104042898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117852195"
 ---
 # <a name="early-launch-antimalware"></a>Logiciel anti-programme malveillant à lancement anticipé (ELAM)
 
 ## <a name="platforms"></a>Plateformes
 
  **Clients** -Windows 8  
-**Serveurs** -Windows Server 2012  
+**serveurs** -Windows Server 2012  
 
 ## <a name="description"></a>Description
 
-Comme le logiciel anti-programme malveillant est devenu mieux et mieux adapté à la détection des programmes malveillants du runtime, les attaquants deviennent également mieux adaptés à la création de rootkits qui peuvent masquer la détection. La détection de programmes malveillants qui démarrent tôt au cours du cycle de démarrage est un défi que la plupart des fournisseurs sont tenus de faire face à la diligence. En règle générale, ils créent des piratages système qui ne sont pas pris en charge par le système d’exploitation hôte et qui peuvent entraîner le placement de l’ordinateur dans un état instable. Jusqu’à présent, Windows n’a pas fourni un bon moyen de détecter et de résoudre ces menaces de démarrage anticipé.
+Comme le logiciel anti-programme malveillant est devenu mieux et mieux adapté à la détection des programmes malveillants du runtime, les attaquants deviennent également mieux adaptés à la création de rootkits qui peuvent masquer la détection. La détection de programmes malveillants qui démarrent tôt au cours du cycle de démarrage est un défi que la plupart des fournisseurs sont tenus de faire face à la diligence. En règle générale, ils créent des piratages système qui ne sont pas pris en charge par le système d’exploitation hôte et qui peuvent entraîner le placement de l’ordinateur dans un état instable. jusqu’à présent, Windows n’a pas fourni un bon moyen de détecter et de résoudre ces menaces de démarrage anticipé.
 
-Windows 8 introduit une nouvelle fonctionnalité appelée démarrage sécurisé, qui protège la configuration et les composants de démarrage de Windows et charge un pilote ELAM (anti-programme malveillant) à lancement anticipé. Ce pilote démarre avant les autres pilotes de démarrage et permet l’évaluation de ces pilotes et aide le noyau Windows à déterminer s’ils doivent être initialisés.
+Windows 8 introduit une nouvelle fonctionnalité appelée démarrage sécurisé, qui protège les composants et la configuration de démarrage du Windows et charge un pilote ELAM (Anti-malware) à lancement anticipé. ce pilote démarre avant les autres pilotes de démarrage et permet l’évaluation de ces pilotes et aide le noyau Windows à déterminer s’ils doivent être initialisés.
 
 ## <a name="manifestation"></a>Manifestation
 
@@ -48,7 +48,7 @@ Pour plus d’informations sur la configuration requise pour le pilote ELAM et l
 
 ## <a name="tests"></a>Tests
 
-Les pilotes ELAM doivent être spécialement signés par Microsoft pour s’assurer qu’ils sont démarrés par le noyau Windows au début du processus de démarrage. Pour obtenir la signature, les pilotes ELAM doivent transmettre un ensemble de tests de certification pour vérifier les performances et d’autres comportements. Ces tests sont inclus dans le kit de certification matérielle Windows.
+les pilotes ELAM doivent être spécialement signés par Microsoft pour s’assurer qu’ils sont démarrés par le noyau Windows au début du processus de démarrage. Pour obtenir la signature, les pilotes ELAM doivent transmettre un ensemble de tests de certification pour vérifier les performances et d’autres comportements. ces tests sont inclus dans le Kit de Certification du matériel Windows.
 
 ## <a name="resources"></a>Ressources
 
@@ -57,7 +57,7 @@ Les pilotes ELAM doivent être spécialement signés par Microsoft pour s’assu
 -   [CmUnRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmunregistercallback)
 -   [IoRegisterBootDriverCallback](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdrivercallback)
 -   [IoUnRegisterBootDriverCallback](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iounregisterbootdrivercallback)
--   [Certification matérielle avec la présentation de la Conférence du kit de certification matérielle Windows](https://channel9.msdn.com/events/BUILD/BUILD2011/HW-659T)
+-   [certification du matériel avec le Kit de Certification du matériel Windows présentation de la conférence](https://channel9.msdn.com/events/BUILD/BUILD2011/HW-659T)
 -   [Télécharger les kits et les outils](https://msdn.microsoft.com/windows/hardware/br259105)
 
  

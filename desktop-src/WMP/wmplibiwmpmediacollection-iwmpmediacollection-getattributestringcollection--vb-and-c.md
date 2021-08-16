@@ -3,9 +3,9 @@ title: Méthode IWMPMediaCollection getAttributeStringCollection
 description: La méthode getAttributeStringCollection retourne une interface IWMPStringCollection qui représente l’ensemble de toutes les valeurs d’un attribut spécifié dans un type de média.
 ms.assetid: 5ac19c04-75db-4618-9c4e-b20e2f709024
 keywords:
-- méthode getAttributeStringCollection lecteur Windows Media
-- méthode getAttributeStringCollection lecteur Windows Media, interface IWMPMediaCollection
-- Interface IWMPMediaCollection lecteur Windows Media, méthode getAttributeStringCollection
+- Lecteur Windows Media de la méthode getAttributeStringCollection
+- méthode getAttributeStringCollection Lecteur Windows Media, interface IWMPMediaCollection
+- Lecteur Windows Media de l’interface IWMPMediaCollection, méthode getAttributeStringCollection
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bef25cd811890e82273fd5d634633e25e7ec460c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 508630ee8a377e1542f823c1afb21521206369aa3ce489c58afae47efa268880
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331941"
 ---
 # <a name="iwmpmediacollectiongetattributestringcollection-method"></a>IWMPMediaCollection :: getAttributeStringCollection, méthode
 
@@ -73,11 +73,11 @@ Implements IWMPMediaCollection.getAttributeStringCollection
 
 Interface **wmplib. IWMPStringCollection** pour les valeurs récupérées.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).
+pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).
 
 ## <a name="examples"></a>Exemples
 

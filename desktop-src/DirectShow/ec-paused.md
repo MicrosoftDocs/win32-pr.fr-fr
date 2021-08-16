@@ -4,12 +4,12 @@ ms.assetid: 32acad47-65bd-42f0-987e-3690bb824b05
 title: EC_PAUSED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fa25a2f32f191519e55e286dac52542bcef949a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ebc16eefcf88402ccf0a6173bcfa22e3100c33985469b7372ad6bb2ea97c572d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820050"
 ---
 # <a name="ec_paused"></a>en \_ Pause EC
 
@@ -58,7 +58,7 @@ Le gestionnaire de graphique de filtre envoie cet événement lorsqu’il termin
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

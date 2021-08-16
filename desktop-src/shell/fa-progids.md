@@ -4,12 +4,12 @@ ms.assetid: f2b666d6-bf22-47b5-87e1-8de5ff51c152
 title: Identificateurs programmatiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67720fed1ad4b8401d11f6532cdc79836911e7cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cdc29a3981461a178bdf528768bb12b1840ac5dbed46f310c10718fa9429153
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860806"
 ---
 # <a name="programmatic-identifiers"></a>Identificateurs programmatiques
 
@@ -45,11 +45,11 @@ Une sous-clé ProgID doit inclure les éléments suivants. Notez que certaines d
 <tbody>
 <tr class="odd">
 <td><strong>Valeurs</strong></td>
-<td>Définissez l’entrée par défaut de la sous-clé ProgID sur un nom convivial pour ce ProgID, pouvant être affiché à l’utilisateur. L’utilisation de cette entrée pour contenir le nom convivial est déconseillée par l’entrée FriendlyTypeName sur les systèmes exécutant Windows 2000 ou une version ultérieure. Toutefois, vous devez définir cette valeur pour la compatibilité descendante.<br/></td>
+<td>Définissez l’entrée par défaut de la sous-clé ProgID sur un nom convivial pour ce ProgID, pouvant être affiché à l’utilisateur. l’utilisation de cette entrée pour contenir le nom convivial est déconseillée par l’entrée FriendlyTypeName sur les systèmes exécutant Windows 2000 ou une version ultérieure. Toutefois, vous devez définir cette valeur pour la compatibilité descendante.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>AllowSilentDefaultTakeOver</strong> (introduit dans Windows 8)</td>
-<td>Définissez cette entrée facultative pour signaler que Windows doit ignorer ce ProgID lors de la détermination d’un gestionnaire par défaut pour un type de fichier public. Que cette valeur soit définie ou non, l’identificateur de programme (ProgID) continue à s’afficher dans le menu contextuel et la boîte de dialogue OpenWith. Il s’agit d’une valeur REG_NONE.</td>
+<td>définissez cette entrée facultative pour signaler que Windows doit ignorer ce ProgID lors de la détermination d’un gestionnaire par défaut pour un type de fichier public. Que cette valeur soit définie ou non, l’identificateur de programme (ProgID) continue à s’afficher dans le menu contextuel et la boîte de dialogue OpenWith. Il s’agit d’une valeur REG_NONE.</td>
 </tr>
 <tr class="odd">
 <td><strong>AppUserModelID</strong> (introduite dans Windows 7)</td>

@@ -132,7 +132,7 @@ Lorsque votre type MIME peut être affiché inline dans un navigateur, le ProgID
 
 Cette section décrit les sous-clés et les valeurs de Registre individuelles utilisées pour l’inscription d’une application avec les **programmes par défaut**, comme illustré précédemment.
 
-### <a name="capabilities"></a>Fonctions
+### <a name="capabilities"></a>Fonctionnalités
 
 La sous-clé **Capabilities** contient toutes les informations sur les **programmes par défaut** pour une application spécifique. L’espace réservé% ApplicationCapabilityPath% fait référence au chemin d’accès du registre de **HKEY \_ Current \_ User** ou **HKEY \_ local \_ machine** à la sous-clé **Capabilities** de l’application. Cette sous-clé contient les valeurs significatives indiquées dans le tableau suivant.
 

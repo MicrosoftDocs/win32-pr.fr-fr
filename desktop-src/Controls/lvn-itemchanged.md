@@ -3,7 +3,7 @@ title: LVN_ITEMCHANGED le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle List-View qu’un élément a été modifié. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: d5f0b4e7-0d0c-4021-942b-71fd31880599
 keywords:
-- Contrôles Windows de code de notification LVN_ITEMCHANGED
+- LVN_ITEMCHANGED les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c856292e9b94590b50593a6c3c5f145497f47f28
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bea129a1b62b442b0fb545f29a57e9eab0d6d1bae057996df5bc269d9a4296d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830383"
 ---
 # <a name="lvn_itemchanged-notification-code"></a>\_Code de notification LVN ITEMCHANGED
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-comm
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si un contrôle d’affichage de liste a le style [**LVS \_ OWNERDATA**](list-view-window-styles.md) et que l’utilisateur sélectionne une plage d’éléments en maintenant la touche Maj enfoncée et en cliquant sur la souris, les \_ codes de notification LVN ITEMCHANGED ne sont pas envoyés pour chaque élément sélectionné ou désélectionné. Au lieu de cela, vous recevrez un code de notification [LVN \_ ODSTATECHANGED](lvn-odstatechanged.md) unique, indiquant que l’état d’une plage d’éléments a changé.
 
@@ -59,8 +59,8 @@ Si un contrôle d’affichage de liste a le style [**LVS \_ OWNERDATA**](list-vi
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

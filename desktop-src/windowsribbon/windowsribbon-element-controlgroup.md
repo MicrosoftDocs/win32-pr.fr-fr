@@ -3,7 +3,7 @@ title: Élément ControlGroup
 description: Représente un groupe de contrôles dans un modèle de disposition SizeDefinition.
 ms.assetid: 688f3fa5-f305-4554-b16a-590983cf23b9
 keywords:
-- Ruban des fenêtres d’élément ControlGroup
+- élément ControlGroup Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7d2b49612102d03003c2f61395a56647aaef4475
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: a1777bd469b6bf07530881f9c20888d69fe98117ecbdeba4f3f5557f01ced172
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851025"
 ---
 # <a name="controlgroup-element"></a>Élément ControlGroup
 
 Représente un groupe de contrôles dans un modèle de disposition [**SizeDefinition**](windowsribbon-element-sizedefinition.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ControlGroup
@@ -102,7 +102,7 @@ Représente un groupe de contrôles dans un modèle de disposition [**SizeDefini
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**Group**](windowsribbon-element-group.md) ou **ControlGroup** .
 
@@ -206,7 +206,7 @@ L’exemple de code suivant illustre le balisage de base pour un modèle de disp
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: non
 
 

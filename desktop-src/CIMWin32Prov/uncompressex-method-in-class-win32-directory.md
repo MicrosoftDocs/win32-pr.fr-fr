@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a0fd02d0757745199249d64fa08d73f8b5ec65a0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 89fbf8ee51f07c2912373cf77c6a05d64106f5bc923da947aff7f37b83e297b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117834450"
 ---
 # <a name="uncompressex-method-of-the-win32_directory-class"></a>Méthode UncompressEx de la \_ classe Directory Win32
 

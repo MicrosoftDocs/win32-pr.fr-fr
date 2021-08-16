@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 3472dc32cc503b83c12bcc17cdbd0d14b89b0de4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b5c652c458ec3e67888b3bcc49699da21ba53fc0dc4b9738457949ad1aa57766
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104482872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828000"
 ---
 # <a name="ntgdiddunlock-function"></a>NtGdiDdUnlock fonction)
 

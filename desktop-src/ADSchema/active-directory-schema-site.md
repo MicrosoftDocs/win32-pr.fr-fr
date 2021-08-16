@@ -5,12 +5,12 @@ ms.assetid: 22c5756f-d663-4cb7-aab0-956b22a01e9d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efca7057a79d87c45cc3e3da4b604e842143fedd
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: b2b48256d1df8f9c344fe0acceb2fb6a70ed3033260baea4db7df44dd71e1c3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "106509481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117836435"
 ---
 # <a name="active-directory-schema-terminology"></a>Terminologie relative au schéma Active Directory
 

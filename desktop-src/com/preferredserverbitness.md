@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre PreferredServerBitness COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 107a8c5b1504c5a59ca2ab178cd46236335d44ca
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 4b003fd4bdd861cbfd82e249123831e4e017eaeef1ad76b95121244fd415ae0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118309984"
 ---
 # <a name="preferredserverbitness"></a>PreferredServerBitness
 
@@ -21,11 +21,11 @@ Définit l’architecture préférée, 32 bits ou 64 bits, pour ce serveur COM.
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      PreferredServerBitness = value
+   {AppID_GUID}
+      PreferredServerBitness = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur **reg \_ DWORD** qui est uniquement disponible sur les versions 64 bits de Windows.
 
@@ -39,12 +39,12 @@ Il s’agit d’une valeur **reg \_ DWORD** qui est uniquement disponible sur le
 
 
 
- 
+ 
 
 Si cette valeur n’est pas présente, procédez comme suit :
 
--   Si l’ordinateur qui héberge le serveur exécute Windows XP ou Windows Server 2003 sans SP1 ou version ultérieure, COM préfère une version 64 bits du serveur si elle est disponible ; dans le cas contraire, elle activera une version 32 bits du serveur.
--   Si l’ordinateur qui héberge le serveur exécute Windows Server 2003 avec SP1 ou une version ultérieure, COM essaiera de faire correspondre l’architecture du serveur à l’architecture du client. En d’autres termes, pour un client 32 bits, COM activera un serveur 32 bits s’il est disponible ; dans le cas contraire, elle activera une version 64 bits du serveur. Pour un client 64 bits, COM activera un serveur 64 bits s’il est disponible ; dans le cas contraire, il activera un serveur 32 bits.
+-   si l’ordinateur qui héberge le serveur exécute Windows XP ou Windows server 2003 sans SP1 ou version ultérieure, COM préfère une version 64 bits du serveur si elle est disponible ; dans le cas contraire, elle activera une version 32 bits du serveur.
+-   si l’ordinateur qui héberge le serveur exécute Windows server 2003 avec SP1 ou une version ultérieure, COM essaiera de faire correspondre l’architecture du serveur à l’architecture du client. En d’autres termes, pour un client 32 bits, COM activera un serveur 32 bits s’il est disponible ; dans le cas contraire, elle activera une version 64 bits du serveur. Pour un client 64 bits, COM activera un serveur 64 bits s’il est disponible ; dans le cas contraire, il activera un serveur 32 bits.
 
 Le client peut également spécifier sa propre architecture à l’aide des \_ indicateurs CLSCTX activate \_ 32 \_ bit \_ Server et CLSCTX \_ Activate \_ 64 \_ bit Server \_ , et ceux-ci remplacent les préférences du serveur. Pour plus d’informations et pour obtenir un graphique des interactions possibles entre les préférences de l’architecture du client et du serveur, consultez [**CLSCTX**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx).
 
@@ -55,6 +55,6 @@ Le client peut également spécifier sa propre architecture à l’aide des \_ i
 [**CLSCTX**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
