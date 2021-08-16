@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0611e6e54fd83e09f811ffddcda4785cef162685
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 41f5703d9f58e7fee57f1ce8465e0413a7ca3c246590b816e84f7419e80f6efb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "106511916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118192760"
 ---
 # <a name="security-credentials"></a>Informations d'identification de sécurité
 
@@ -39,7 +39,7 @@ Les éléments d’API suivants sont utilisés avec les informations d’identif
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [**\_ \_ type d’informations d’identification WS CERT \_**](/windows/desktop/api/WebServices/ne-webservices-ws_cert_credential_type)                                         | Type des informations d’identification du certificat.                       |
 | [**\_ \_ type d’informations d’identification WS username \_**](/windows/desktop/api/WebServices/ne-webservices-ws_username_credential_type)                                 | Type des informations d’identification du nom d’utilisateur/mot de passe.                 |
-| [**\_ \_ \_ \_ type d’informations d’identification de l’authentification intégrée WS Windows \_**](/windows/desktop/api/WebServices/ne-webservices-ws_windows_integrated_auth_credential_type) | Type des informations d’identification de l’authentification intégrée de Windows. |
+| [**\_ \_ \_ \_ type d’informations d’identification de l’authentification intégrée WS Windows \_**](/windows/desktop/api/WebServices/ne-webservices-ws_windows_integrated_auth_credential_type) | type de l’Windows informations d’identification d’authentification intégrées. |
 
 
 
@@ -51,14 +51,14 @@ Les éléments d’API suivants sont utilisés avec les informations d’identif
 |-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [**\_ \_ informations d’identification WS CERT**](/windows/desktop/api/WebServices/ns-webservices-ws_cert_credential)                                                          | Type de base abstrait pour tous les types d’informations d’identification de certificat.                                                          |
 | [**\_ \_ informations d’identification du certificat personnalisé WS \_**](/windows/desktop/api/WebServices/ns-webservices-ws_custom_cert_credential)                                           | Type pour spécifier les informations d’identification de certificat qui doivent être fournies par un rappel à l’application.             |
-| [**\_ \_ \_ \_ informations d’identification de l’authentification intégrée Windows WS par défaut \_**](/windows/desktop/api/WebServices/ns-webservices-ws_default_windows_integrated_auth_credential) | Type permettant de fournir des informations d’identification d’authentification intégrée à Windows en fonction du jeton de thread actuel.                  |
-| [**\_ \_ \_ \_ informations d’identification de l’authentification intégrée Windows WS opaque \_**](/windows/desktop/api/WebServices/ns-webservices-ws_opaque_windows_integrated_auth_credential)   | Type pour fournir les informations d’identification d’authentification intégrée de Windows.                                                    |
+| [**\_ \_ \_ \_ informations d’identification de l’authentification intégrée Windows WS par défaut \_**](/windows/desktop/api/WebServices/ns-webservices-ws_default_windows_integrated_auth_credential) | Type pour fournir une Windows informations d’authentification intégrée basées sur le jeton de thread actuel.                  |
+| [**\_ \_ \_ \_ informations d’identification de l’authentification intégrée Windows WS opaque \_**](/windows/desktop/api/WebServices/ns-webservices-ws_opaque_windows_integrated_auth_credential)   | Type pour fournir une Windows informations d’identification d’authentification intégrée.                                                    |
 | [**\_ \_ informations d’identification du nom d’utilisateur WS String \_**](/windows/desktop/api/WebServices/ns-webservices-ws_string_username_credential)                                   | Type pour fournir une paire nom d’utilisateur/mot de passe sous forme de chaînes.                                                           |
-| [**\_ \_ \_ \_ \_ informations d’identification d’authentification intégrée Windows WS String**](/windows/desktop/api/WebServices/ns-webservices-ws_string_windows_integrated_auth_credential)   | Type pour fournir des informations d’identification Windows sous la forme d’un nom d’utilisateur, d’un mot de passe et de chaînes de domaine                                        |
+| [**\_ \_ \_ \_ \_ informations d’identification d’authentification intégrée Windows WS String**](/windows/desktop/api/WebServices/ns-webservices-ws_string_windows_integrated_auth_credential)   | Type permettant de fournir un Windows informations d’identification sous forme de nom d’utilisateur, de mot de passe et de domaine.                                        |
 | [**\_ \_ \_ informations d’identification du certificat WS subject name \_**](/windows/desktop/api/WebServices/ns-webservices-ws_subject_name_cert_credential)                              | Type pour la spécification d’informations d’identification de certificat à l’aide du nom d’objet du certificat, de l’emplacement du magasin et du nom du magasin. |
 | [**\_ \_ informations d’identification du certificat WS empreinte \_**](/windows/desktop/api/WebServices/ns-webservices-ws_thumbprint_cert_credential)                                   | Type permettant de spécifier des informations d’identification de certificat à l’aide de l’empreinte numérique du certificat, de l’emplacement du magasin et du nom du magasin.   |
 | [**\_ \_ informations d’identification WS username**](/windows/desktop/api/WebServices/ns-webservices-ws_username_credential)                                                  | Type de base abstrait pour toutes les informations d’identification de nom d’utilisateur/mot de passe.                                                         |
-| [**\_ \_ \_ informations d’identification de l’authentification intégrée WS Windows \_**](/windows/desktop/api/WebServices/ns-webservices-ws_windows_integrated_auth_credential)                  | Type de base abstrait pour tous les types d’informations d’identification utilisés avec l’authentification intégrée de Windows.                          |
+| [**\_ \_ \_ informations d’identification de l’authentification intégrée WS Windows \_**](/windows/desktop/api/WebServices/ns-webservices-ws_windows_integrated_auth_credential)                  | type de base abstrait pour tous les types d’informations d’identification utilisés avec l’authentification intégrée Windows.                          |
 
 
 

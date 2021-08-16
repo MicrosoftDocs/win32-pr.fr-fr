@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 06e607acc06ed00cc9fe91670650caee44c30430
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1b596dd6d8fbcc2b2a875b70d80e8eb4040c966590642a004c551ec159c9f5d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842046"
 ---
 # <a name="wpd_white_balance_settings-enumeration"></a>\_ \_ Énumération des paramètres de l’équilibre blanc wpd \_
 
@@ -94,7 +94,7 @@ L’appareil utilise des nombres d’équilibres blancs appropriés pour une uti
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération est utilisée par la propriété de l' [ \_ \_ \_ \_ équilibreur d’image de l’image wpd](still-image-properties.md) .
 

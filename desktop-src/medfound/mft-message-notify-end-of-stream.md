@@ -4,12 +4,12 @@ ms.assetid: 2d6cdf45-1bb4-4915-bd27-efa041089100
 title: MFT_MESSAGE_NOTIFY_END_OF_STREAM (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 476781b149553bec1d48632e0621ff0a38ad8d21
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 951337fb91a26f1498b2aa82d42754fb2954ab649b4a021d37d42047be331ab4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117872159"
 ---
 # <a name="mft_message_notify_end_of_stream"></a>\_ \_ \_ fin \_ de flux de notification de message MFT \_
 
@@ -19,7 +19,7 @@ Avertit une transformation de Media Foundation (MFT) qu’un flux d’entrée es
 
 Le paramètre *ulParam* contient l’identificateur du flux d’entrée, spécifié sous la forme d’une valeur **DWORD** . Dans les applications 64 bits, placez cette valeur dans les 32 bits inférieurs du **\_ pointeur PTR**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour envoyer ce message, appelez [**IMFTransform ::P rocessmessage**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage).
 
@@ -41,8 +41,8 @@ Aucune table MFT n’est requise pour répondre à ce message.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

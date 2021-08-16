@@ -5,17 +5,17 @@ ms.assetid: 8a4699da-9840-4622-9e94-d6d5c4e7708c
 ms.custom: contperf-fy21q1
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 2327a633f02c9d56116367405803c4da56ad5b19
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: db5a64d50bd225b714c2ff0578145c47c66bedb557dd067e0cdf89f369178b1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118042557"
 ---
 # <a name="ribbons"></a>Rubans
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Les rubans constituent le moyen le plus efficace pour aider les utilisateurs à trouver, comprendre et utiliser des commandes efficacement et directement avec un nombre minimal de clics, avec moins besoin de recourir à une version d’évaluation et à une erreur, et sans avoir à faire référence à l’aide.
 
@@ -37,7 +37,7 @@ Les onglets du ruban sont composés de groupes, qui sont un ensemble étiqueté 
 - Info-bulles améliorées, qui expliquent de façon concise les commandes qui leur sont associées et donnent les touches de raccourci. Ils peuvent également inclure des graphiques et des références à l’aide. Les info-bulles améliorées réduisent le besoin d’aide liée à la commande.
 - Lanceurs de boîte de dialogue, qui sont des boutons en bas de certains groupes qui ouvrent des boîtes de dialogue contenant des fonctionnalités liées au groupe.
 
-Les rubans ont été introduits à l’origine avec Microsoft Office 2007. Pour savoir pourquoi Office a besoin d’utiliser des rubans et que les nombreux problèmes liés à l’utilisation d’un ruban sont résolus, consultez [l’histoire du ruban](/archive/blogs/jensenh/the-story-of-the-ribbon).
+les rubans ont été introduits à l’origine avec Microsoft Office 2007. pour savoir pourquoi Office a besoin d’utiliser des rubans et que les nombreux problèmes liés à l’utilisation d’un ruban sont résolus, consultez [l’histoire du ruban](/archive/blogs/jensenh/the-story-of-the-ribbon).
 
 > [!Note]  
 > Les instructions relatives aux [menus](cmd-menus.md), [barres d’outils](cmd-toolbars.md), [boutons de commande](ctrl-command-buttons.md)et [icônes](vis-icons.md) sont présentées dans des articles distincts.
@@ -290,7 +290,7 @@ Dans cet exemple, des miniatures réalistes sont utilisées pour afficher les di
 
 ![capture d’écran de la Galerie de styles de paragraphes ](images/cmd-ribbons-image24.png)
 
-Dans cet exemple, Microsoft Word modifie la Galerie de styles pour refléter les styles actuels.
+dans cet exemple, Microsoft Word modifie la galerie de styles pour refléter les styles actuels.
 
 ![capture d’écran des boutons de commande de mise en forme du texte ](images/cmd-ribbons-image25.png)
 
@@ -369,8 +369,8 @@ Dans la mesure du possible, mappez les commandes de votre programme à ces ongle
 - **Insérer.** Contient des commandes pour insérer du contenu et des objets dans un document. S’il est utilisé, il s’agit toujours du deuxième onglet.
 - **Mise en page.** Contient des commandes qui affectent la mise en page, notamment les thèmes, la mise en page, l’arrière-plan, la mise en retrait, l’espacement et le positionnement. (Notez que les groupes de mise en retrait et d’espacement peuvent figurer à la place dans l’onglet dossier de démarrage, s’il y a suffisamment de place.) S’il est utilisé, il est toujours le troisième onglet.
 - **Révise.** Contient des commandes permettant d’ajouter des commentaires, de suivre les modifications et de comparer les versions.
-- **Affichage.** Contient des commandes qui affectent la vue de document, notamment le mode d’affichage, les options afficher/masquer, le zoom, la gestion des fenêtres et les macros, qui se trouvent traditionnellement dans la catégorie de menu Windows. S’il est utilisé, il s’agit du dernier onglet normal, sauf si l’onglet Développeur est affiché.
-- **Revel.** Contient les commandes utilisées uniquement par les développeurs. S’il est utilisé, il est masqué par défaut et le dernier onglet normal lorsqu’il est affiché.
+- **Affichage.** contient des commandes qui affectent la vue de document, notamment le mode d’affichage, les options afficher/masquer, le zoom, la gestion des fenêtres et les macros, qui se trouvent traditionnellement dans la catégorie de menu Windows. S’il est utilisé, il s’agit du dernier onglet normal, sauf si l’onglet Développeur est affiché.
+- **Développeur.** Contient les commandes utilisées uniquement par les développeurs. S’il est utilisé, il est masqué par défaut et le dernier onglet normal lorsqu’il est affiché.
 
 La plupart des programmes n’ont pas besoin des onglets révision et développeur.
 
@@ -696,7 +696,7 @@ Pour obtenir des instructions sur les touches de raccourci, consultez [clavier](
 - ![capture d’écran de l’invite de recherche de carnets d’adresses ](images/cmd-ribbons-image67.png)<br/>Si une [liste déroulante modifiable](/windows/desktop/uxguide/ctrl-drop) n’a pas de valeur, utilisez une [invite](glossary.md).
 - **Les listes déroulantes qui ne sont pas explicites ou qui sont rarement utilisées nécessitent une étiquette explicite.** Placez le signe deux-points à la fin de l’étiquette.
 - ![capture d’écran de automatiquement après : \[ secondes \] ](images/cmd-ribbons-image69.png)<br. >**pour les zones de texte, utilisez une étiquette explicite.** Placez le signe deux-points à la fin de l’étiquette.
-- **Utilisez les majuscules comme pour les phrases.** Cela est plus approprié pour le [ton](text-style-tone.md)Windows.
+- **Utilisez les majuscules comme pour les phrases.** cela est plus approprié pour le [ton](text-style-tone.md)Windows.
 - **Démarrez l’étiquette avec un verbe impératif.** sauf s’il est identique au nom de l’onglet ou du groupe ou à un verbe courant comme Show, Create, INSERT ou format.
 - **N’utilisez pas de ponctuation finale.**
 - **Pour économiser de l’espace, ne placez pas de ellipses sur les étiquettes de commande du ruban.** Toutefois, les ellipses sont utilisées par les commandes dans le bouton de l’application et les menus déroulants.
@@ -732,7 +732,7 @@ Quand vous faites référence à des rubans :
 - Reportez-vous aux éléments non disponibles comme indisponibles, non estompés, désactivés ou grisés. Dans documentation de programmation, utilisez désactivé.
 - Dans la mesure du possible, mettez en forme les étiquettes à l’aide du texte gras. Dans le cas contraire, placez les étiquettes entre guillemets uniquement si nécessaire pour éviter toute confusion.
 
-Exemples :
+Exemples :
 
 - Dans l’onglet dossier de **démarrage** , cliquez sur **Collage spécial**.
 - Dans l’onglet dossier de **démarrage** , dans la zone **police** , entrez « Segoe UI ».

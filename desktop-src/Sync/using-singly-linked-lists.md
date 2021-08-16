@@ -4,12 +4,12 @@ ms.assetid: 5608f84f-9211-4043-bb53-60339191ee29
 title: Utilisation de listes liées de façon unique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95af2e8da519026731bf6fc461b193978d179cd8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fa3a99202637e7d7b0b64f964ca1452244d72f02d99770bcdc6cbe368d960be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117765010"
 ---
 # <a name="using-singly-linked-lists"></a>Utilisation de listes liées de façon unique
 

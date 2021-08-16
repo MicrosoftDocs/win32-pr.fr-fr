@@ -4,12 +4,12 @@ ms.assetid: a6d05ef5-9933-4d03-a677-a8328bf1cb7d
 title: Message WM_GETFONT (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5254b701630f09cc7980470a9f5be68ad377bc03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f9d3dbd4a34557459fa0f31f6e2a96eba9d0cab36d54cf2bddaa353343a18b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200470"
 ---
 # <a name="wm_getfont-message"></a>\_Message WM GETFONT
 

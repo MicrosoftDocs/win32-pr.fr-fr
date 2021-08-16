@@ -3,19 +3,19 @@ title: Traitement de la vidéo
 description: Traitement de la vidéo
 ms.assetid: 2fa337dd-34c0-4a09-8c20-21f6103627dd
 keywords:
-- Plug-ins du lecteur Windows Media, DSP vidéo
+- plug-ins Lecteur Windows Media, DSP de vidéo
 - plug-ins, DSP vidéo
 - plug-ins de traitement de signal numérique, traitement vidéo
 - Plug-ins DSP, traitement vidéo
 - plug-ins vidéo DSP, traitement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a8d21aaa3999d05ea3628ff341c74379b07a6dd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ea168199270cfe8029b7b9303a7745db2c255f4268252a5bd80472a73c6f2f29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334022"
 ---
 # <a name="processing-the-video"></a>Traitement de la vidéo
 
@@ -106,6 +106,6 @@ Pour plus d’informations sur les formats vidéo, consultez le [site Web du Fou
 [**Implémentation d’un plug-in de DSP vidéo**](implementing-a-video-dsp-plug-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

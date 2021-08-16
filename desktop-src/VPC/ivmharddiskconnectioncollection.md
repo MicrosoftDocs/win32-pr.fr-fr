@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbde67f226c5b2d8cb86a8764c6dd61c24c2a468
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 997cbe915e7e4addac60c639a7ee6c260f07271ff5981939b25dbefd49fcba1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118345703"
 ---
 # <a name="ivmharddiskconnectioncollection-interface"></a>Interface IVMHardDiskConnectionCollection
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Définit la collection de connexions de disque dur au sein de la machine virtuelle. Pour obtenir un objet **IVMHardDiskConnectionCollection** , utilisez la propriété [**IVMVirtualMachine :: HardDiskConnections**](ivmvirtualmachine-harddiskconnections.md) .
 
@@ -43,7 +43,7 @@ L’interface **IVMHardDiskConnectionCollection** possède les propriétés suiv
 | Propriété                                                                 | Type d’accès          | Description                                                                         |
 |:-------------------------------------------------------------------------|:---------------------|:------------------------------------------------------------------------------------|
 | [**\_NewEnum**](ivmharddiskconnectioncollection--newenum.md)<br/> | Lecture seule<br/> | Énumérateur de la collection.<br/>                                        |
-| [**Saut**](ivmharddiskconnectioncollection-count.md)<br/>        | Lecture seule<br/> | Nombre de connexions de disque dur dans ce regroupement.<br/>                  |
+| [**Count**](ivmharddiskconnectioncollection-count.md)<br/>        | Lecture seule<br/> | Nombre de connexions de disque dur dans ce regroupement.<br/>                  |
 | [**Élément**](ivmharddiskconnectioncollection-item.md)<br/>          | Lecture seule<br/> | Objet de connexion de disque dur qui correspond à l’index spécifié.<br/> |
 
 
@@ -56,7 +56,7 @@ L’interface **IVMHardDiskConnectionCollection** possède les propriétés suiv
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                         |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                         |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                          |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                               |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                      |

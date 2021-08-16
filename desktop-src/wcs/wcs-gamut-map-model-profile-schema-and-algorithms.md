@@ -3,13 +3,13 @@ title: Algorithmes et schéma de profil de modèle de mappage de couleur WCS
 description: Algorithmes et schéma de profil de modèle de mappage de couleur WCS
 ms.assetid: 64b9871a-1b4f-4e9a-be4d-4c25b3198b91
 keywords:
-- Windows Color System (WCS), profil de modèle de mappage de gammes (GMMP)
-- WCS (système de couleurs Windows), profil de modèle de mappage de gammes (GMMP)
+- Windows Système de couleurs (WCS), profil de modèle de mappage de gammes (GMMP)
+- WCS (Windows Color System), profil de modèle de mappage de gammes (GMMP)
 - gestion des couleurs des images, profil de modèle de carte de couleurs (GMMP)
 - gestion des couleurs, profil de modèle de carte de couleurs (GMMP)
 - couleurs, profil de modèle de mappage de couleurs (GMMP)
-- Système de couleurs Windows (WCS), profils
-- WCS (système de couleurs Windows), profils
+- Windows Système de couleurs (WCS), profils
+- WCS (Windows Color System), profils
 - gestion des couleurs des images, profils
 - gestion des couleurs, profils
 - couleurs, profils
@@ -21,16 +21,16 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3714e5d7592cb1fbbbfa98e238642a2fcb38bafd
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e7db5b7a26fe5832fe33095c5785e90ad0a6938649878ff279e101a7e5817cc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104562681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118037289"
 ---
 # <a name="wcs-gamut-map-model-profile-schema-and-algorithms"></a>Algorithmes et schéma de profil de modèle de mappage de couleur WCS
 
--   [Vue d’ensemble](#overview)
+-   [Vue d'ensemble](#overview)
 -   [Architecture du profil de modèle de mappage de gamme](#gamut-map-model-profile-architecture)
 -   [Génération de la limite de gamme](#generation-of-the-gamut-boundary)
 -   [Schéma GMMP](#the-gmmp-schema)
@@ -46,7 +46,7 @@ ms.locfileid: "104562681"
 -   [Alignement des axes neutres](#aligning-the-neutral-axes)
     -   [Différence de couleur minimale (hachée)](#minimum-color-difference-mincd)
     -   [BasicPhoto](#basicphoto)
-    -   [Vue d’ensemble](#overview)
+    -   [Vue d'ensemble](#overview)
     -   [Cas de l’interpréteur de couleurs simple](#the-case-of-single-gamut-shell)
     -   [Amélioration du noir](#black-enhancement)
     -   [Cas des interpréteurs de couleurs doubles](#the-case-of-dual-gamut-shells)
@@ -193,13 +193,13 @@ targetNamespace = " http://schemas.microsoft.com/windows/2005/02/color/GamutMapM
 
 Version « 1,0 » avec la première version de Windows Vista.
 
-**Conditions de validation** : 1,0 dans Windows Vista. &lt;Les Versions 2,0 sont également valides afin de prendre en charge les modifications sans rupture au format.
+**conditions de Validation** : 1,0 dans Windows Vista. &lt;Les Versions 2,0 sont également valides afin de prendre en charge les modifications sans rupture au format.
 
 ### <a name="documentation"></a>Documentation
 
 Schéma de profil de modèle de mappage de gamme.
 
-Copyright (C) Microsoft. Tous droits réservés.
+Copyright (C) Microsoft. All rights reserved.
 
 **Conditions de validation** : chaque sous-élément est validé par son propre type.
 
@@ -897,7 +897,7 @@ où k ₂ = 1, k ₁ = 0,75/(C m ₐ ₓ) n, C m ₐ ₓ = 100, n = 2 et C est l
 
 pour qu’un poids de 0,25 soit placé sur le terme J lorsque Chroma est égal à zéro et un poids de 1 lorsque Chroma est 100. La tendance à placer moins de poids sur J lorsque Chroma est petit et plus poids sur J lorsque Chroma est important suit l’utilisation recommandée pour CMC et CIEDE2000.
 
-![Graphique qui affiche la fonction Weight sur le composant J de la métrique.](images/gmmp-image119.png)
+![Graph qui affiche la fonction weight sur le composant J de la métrique.](images/gmmp-image119.png)
 
 **Figure 31** : fonction Weight sur le composant J de la métrique
 
@@ -939,7 +939,7 @@ est perpendiculaire au triangle en ce qui concerne le produit scalaire pondéré
 
 La routine ProjectPointToBoundary commence par la réinitialisation de l’historique traité des sommets et des bords. Il s’agit de tables d’indicateurs BOOLÉENs qui assurent le suivi de la visite d’un sommet ou d’un bord. Elle réinitialise également la variable ShortestDistance sur « Infinity », qui est la valeur encodée maximale dans le système de nombres à virgule flottante utilisé. Elle s’exécute ensuite via une boucle, en recherchant le point le plus proche de chaque triangle à l’aide de l’appel ProcessTriangle. ProcessTriangle est la routine permettant de mettre à jour la variable ShortestDistance et est clairement dans la boucle critique. L’une des optimisations consiste à s’arrêter lorsque le résultat est suffisant. Après chaque appel à ProcessTriangle, la variable ShortestDistance est examinée. S’il répond à un seuil prédéfini, vous pouvez arrêter. Le seuil prédéfini dépend de l’espace colorimétrique utilisé et de la précision requise du système d’imagerie des couleurs. Pour une application classique, vous ne souhaitez pas effectuer de travail inutile si la différence de couleur est inférieure à ce qui peut être déterminé par la vision humaine. Pour CIECAM02, cette différence de couleur est de 1. Utilisez une valeur de seuil de 0,005 dans l’implémentation, toutefois, pour conserver la précision des calculs, car il peut s’agir uniquement d’une étape intermédiaire dans une chaîne de transformations.
 
-ProcessTriangle implémente la stratégie II précédente. En obtenant un vecteur normal du vecteur normal d’unité précalculée au triangle en ce qui concerne le produit scalaire standard, il calcule la distance entre le point de requête et le plan infini contenant le triangle en formant le produit scalaire du vecteur normal d’unité et du queryVector, le vecteur à partir de l’un des sommets du triangle, vertex1, au point de requête. , queryPoint.
+ProcessTriangle implémente la stratégie II précédente. En obtenant un vecteur normal du vecteur normal d’unité précalculée au triangle en ce qui concerne le produit scalaire standard, il calcule la distance entre le point de requête et le plan infini contenant le triangle en formant le produit scalaire du vecteur normal d’unité et du queryVector, le vecteur à partir de l’un des vertex du triangle,  vertex1, au point de requête, queryPoint.
 
 queryVector = queryPoint-vertex1
 

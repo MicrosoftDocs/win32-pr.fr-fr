@@ -4,12 +4,12 @@ ms.assetid: 650532fd-919b-495a-9fb9-981790447d3d
 title: Objets BLOB de clé privée DSS version 3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a6434e411ba3268901176a5c9739ceecfa79689
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6706f8cbfccb8c836efefb99a30086dc459619c8477b773a557f503ebbb2243
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767254"
 ---
 # <a name="dss-version-3-private-key-blobs"></a>Objets BLOB de clé privée DSS version 3
 

@@ -1,10 +1,10 @@
 ---
-title: attribut ms-SPP-KMS-IDS
-description: ID KMS activés par l’objet d’activation
+title: attribut ms-SPP-KMS-Ids
+description: KMS ID activés par l’objet d’activation
 ms.assetid: b5e11081-202e-4b9a-bf23-8552475f01f0
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut ms-SPP-KMS-IDS
+- schéma AD des attributs ms-SPP-KMS-Ids
 - Schéma AD de l’attribut msSPP-KMSIds
 topic_type:
 - apiref
@@ -14,22 +14,22 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77e47103137a52fa2dbcc9cf4eb04ae073191115
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4fd8296adf05a697f92abc70247681fea4776513c15d1c39c6592a2d15363889
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838072"
 ---
-# <a name="ms-spp-kms-ids-attribute"></a>attribut ms-SPP-KMS-IDS
+# <a name="ms-spp-kms-ids-attribute"></a>attribut ms-SPP-KMS-Ids
 
-ID KMS activés par l’objet d’activation
+KMS ID activés par l’objet d’activation
 
 
 
 | Entrée | Valeur |
 |-------------------|-------------------------------------------------------|
-| CN                | MS-SPP-KMS-IDS                                        |
+| CN                | ms-SPP-KMS-id                                        |
 | LDAP-Display-Name | msSPP-KMSIds                                          |
 | Taille              | \-                                                    |
 | Mettre à jour le privilège  | \-                                                    |

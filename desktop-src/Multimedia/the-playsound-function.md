@@ -11,12 +11,12 @@ keywords:
 - Fonction PlaySound, comparée à la fonction sndPlaySound
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5723b1937c974e6c622c1f2010e8d2129e787cdd
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1921ec4ef91f6266b48ee80d7f42be4540124c0b5c98dc18438ce0d16c398c2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104198881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118370849"
 ---
 # <a name="the-playsound-function"></a>La fonction PlaySound
 
@@ -40,6 +40,6 @@ Pour plus d’informations sur l’utilisation de PlaySound, consultez les rubri
 
 Pour obtenir plus d’exemples sur l’utilisation de **PlaySound** dans vos applications Win32, consultez [Playing Wave Resources](playing-wave-resources.md)(en anglais).
 
- 
+ 
 
- 
+ 

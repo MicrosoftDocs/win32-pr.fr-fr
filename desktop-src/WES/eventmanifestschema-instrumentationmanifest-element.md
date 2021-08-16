@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c15092d7a7eafd625e9c2026965af053d38fe4b9
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 7dac9ab8c8aa2a6caeacf43023c4995be69f293affd5dd5a904d7fb96d710266
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104211335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118343718"
 ---
 # <a name="instrumentationmanifest-element"></a>Élément instrumentationManifest
 
@@ -66,11 +66,11 @@ Nœud racine du manifeste.
 |------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Instrumentation**](eventmanifestschema-instrumentation-instrumentationmanifest-element.md) | [**InstrumentationType**](eventmanifestschema-instrumentationtype-complextype.md) | Cette section définit un ou plusieurs fournisseurs d’événements et les événements qu’ils consignent.<br/>                                                                                                                                                                                                                     |
 | [**localiz**](eventmanifestschema-localization-instrumentationmanifest-element.md)       | [**LocalizationType**](eventmanifestschema-localizationtype-complextype.md)       | Cette section définit les chaînes de message localisées que les consommateurs utilisent pour l’affichage. Par exemple, cette section contient la chaîne de message localisée pour le nom de votre fournisseur, les événements que vous définissez et les attributs d’événement que vous définissez, tels que les canaux, les tâches et les OpCodes.<br/> |
-| [**Metadata**](eventmanifestschema-metadata-instrumentationmanifest-element.md)               | [**MetadataType**](eventmanifestschema-metadatatype-complextype.md)               | Cette section définit les types de métadonnées que d’autres manifestes peuvent utiliser. Pour obtenir un exemple, consultez le fichier Winmeta.xml inclus dans le \\ dossier include du SDK Windows.<br/>                                                                                                                                    |
+| [**Metadata**](eventmanifestschema-metadata-instrumentationmanifest-element.md)               | [**MetadataType**](eventmanifestschema-metadatatype-complextype.md)               | Cette section définit les types de métadonnées que d’autres manifestes peuvent utiliser. pour obtenir un exemple, consultez le fichier Winmeta.xml inclus dans le \\ dossier include du SDK Windows.<br/>                                                                                                                                    |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément **instrumentationManifest** doit contenir les espaces de noms suivants :
 
@@ -162,8 +162,8 @@ L’exemple suivant illustre la structure d’un manifeste d’instrumentation e
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

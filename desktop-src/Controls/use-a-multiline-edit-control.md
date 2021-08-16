@@ -4,27 +4,27 @@ description: Cette rubrique montre comment implémenter un traitement de texte s
 ms.assetid: B955CC42-F89F-48EB-A19A-ADA6E5273EF6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d05133707e9a47a632a70807177c6ec1b63bc842
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: d11100d4d6f82c7a352d4ddacaa7fc05694b4d54125febc766a6d3f1c68376e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103941482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829070"
 ---
 # <a name="how-to-create-a-multiline-edit-control"></a>Création d’un contrôle d’édition multiligne
 
 Cette rubrique montre comment implémenter un traitement de texte simple en ajoutant un contrôle d’édition multiligne à la zone cliente d’une fenêtre. À l’aide du contrôle d’édition multiligne, l’utilisateur peut sélectionner Modifier les commandes dans un menu. Ces commandes permettent à l’utilisateur d’effectuer des opérations de modification simples, telles que l’annulation d’une action précédente, de couper ou copier des sélections dans le presse-papiers, de coller du texte à partir du presse-papiers et de supprimer la sélection actuelle.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -36,7 +36,7 @@ L’exemple de code C++ suivant implémente la plupart des fonctionnalités d’
 Les commandes de modification de l’utilisateur sont envoyées au processus de fenêtre via des messages de notification de [**\_ commande WM**](/windows/desktop/menurc/wm-command) .
 
 > [!Note]  
-> Si la fenêtre comprend le ruban Windows, la taille du contrôle d’édition doit être ajustée pour s’adapter à la hauteur du ruban. Pour plus d’informations, consultez [Windows Ribbon Framework](/windows/desktop/windowsribbon/-uiplat-windowsribbon-entry).
+> si la fenêtre comprend le ruban Windows, la taille du contrôle d’édition doit être ajustée pour s’adapter à la hauteur du ruban. pour plus d’informations, consultez [Windows infrastructure du ruban](/windows/desktop/windowsribbon/-uiplat-windowsribbon-entry).
 
  
 

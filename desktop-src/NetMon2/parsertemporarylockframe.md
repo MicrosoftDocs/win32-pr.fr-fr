@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 48fa646e709982d88093e0cbeb5e60375643351d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47a8c02a29007084161897e34bd3ba6fbe3b5f53460aaced2acaf8e4924d67f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118364385"
 ---
 # <a name="parsertemporarylockframe-function"></a>ParserTemporaryLockFrame fonction)
 
@@ -52,7 +52,7 @@ Si la fonction réussit, la valeur de retour est un pointeur vers le premier oct
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les analyseurs ne doivent pas appeler la fonction **LockFrame** . Si un analyseur prend un verrou, puis génère une erreur ou retourne sans déverrouiller le frame, l’analyseur laisse le système dans un État où il ne peut pas modifier les protocoles ni couper ou copier les frames. Les analyseurs doivent utiliser la fonction **ParserTemporaryLockFrame** , qui accorde un verrou uniquement pendant le contexte de l’entrée de la fonction dans l’analyseur. À la sortie de l’analyseur, le verrou de ce frame est libéré. Par conséquent, le pointeur est valide uniquement après le retour de l’analyseur à partir de l’appel à la fonction **AttachProperties** ou **RecognizeFrame** .
 

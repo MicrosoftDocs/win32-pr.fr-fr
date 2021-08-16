@@ -3,7 +3,7 @@ title: commande Open (Corecrt \_ IO. h)
 description: La commande Open Initialise un appareil. Tous les périphériques MCI reconnaissent cette commande.
 ms.assetid: 0bb97c8c-8222-4d4e-b20b-94e9f9095afe
 keywords:
-- ouvrir la commande multimédia Windows
+- ouvrir une commande Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac8d31f1806a9c12f764c679548564aa053c3041
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3d2e585a44c19093fa0d20ab4870f579c67cd568c3a693523242b84910e6589d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373268"
 ---
 # <a name="open-command"></a>ouvrir une commande
 
@@ -103,7 +103,7 @@ Peut être « Wait », « Notify », ou les deux. Pour plus d’informations
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 MCI réserve « cdaudio » pour le type de périphérique CD audio, « videodisc » pour le type d’appareil videodisc, « Sequencer » pour le type d’appareil MIDI Sequencer, « AVIVideo » pour le type de périphérique vidéo numérique et « WaveAudio » pour le type de périphérique Waveform-Audio.
 

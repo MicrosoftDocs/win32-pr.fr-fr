@@ -34,7 +34,7 @@ Lorsque vous créez un package de correctifs, vous devez utiliser une image d’
 
     
 
-    | Fichier       | -\_ | FileName   |
+    | Fichier       | Composant\_ | FileName   |
     |------------|-------------|------------|
     | readme.txt | COMP1       | readme.txt |
     | ReadMe.txt | COMP2       | readme.txt |

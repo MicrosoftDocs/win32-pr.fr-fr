@@ -3,7 +3,7 @@ title: Message WM_CAP_DLG_VIDEOFORMAT (VFW. h)
 description: Le \_ message WM Cap \_ DLG \_ VIDEOFORMAT affiche une boîte de dialogue dans laquelle l’utilisateur peut sélectionner le format vidéo.
 ms.assetid: 3b44507e-3806-467f-877a-e9992d1337cb
 keywords:
-- Message WM_CAP_DLG_VIDEOFORMAT Windows Multimedia
+- message WM_CAP_DLG_VIDEOFORMAT Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d244c4c141845d4ede66804918514e091872e89
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fbaa58e99c6a07db9109a0b1a6dae25de8abd46fef2631eb539961de16455ec0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135398"
 ---
 # <a name="wm_cap_dlg_videoformat-message"></a>\_Message WM Cap \_ DLG \_ VIDEOFORMAT
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fois ce message retourné, les applications devront peut-être mettre à jour la structure [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus) car l’utilisateur a peut-être modifié les dimensions de l’image.
 

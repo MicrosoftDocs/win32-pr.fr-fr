@@ -1,24 +1,24 @@
 ---
-description: Référence de recherche Windows
+description: Windows Référence de recherche
 ms.assetid: 3590cdab-5831-4372-adf7-61814031c931
-title: Référence de recherche Windows
+title: Windows Référence de recherche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: feff16b161a142e9f63b6ad14698f21c36c6f29f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5224937bdfaa3e0e4a87c2bfca94e54f40ebcb63c12684ba105997af9e6a9c1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863702"
 ---
-# <a name="windows-search-reference"></a>Référence de recherche Windows
+# <a name="windows-search-reference"></a>Windows Référence de recherche
 
 
 Cette référence se compose des sections suivantes :
 
--   [Interfaces de recherche Windows](-search-interfaces-entry-page.md)
--   [Structures de recherche Windows](-search-structures-entry-page.md)
--   [Constantes et énumérations Windows Search](-search-constants-and-enumerations-entry-page.md)
+-   [Windows Interfaces de recherche](-search-interfaces-entry-page.md)
+-   [Windows Rechercher dans les structures](-search-structures-entry-page.md)
+-   [Windows Rechercher des constantes et des énumérations](-search-constants-and-enumerations-entry-page.md)
 -   [Mappages de propriétés](-search-3x-wds-propertymappings.md)
 -   [Format de fichier de recherche enregistré](-search-savedsearchfileformat.md)
 
@@ -29,10 +29,10 @@ Cette référence se compose des sections suivantes :
 [Vue d’ensemble de Windows Search](-search-3x-wds-overview.md)
 </dt> <dt>
 
-[Guide du développeur Windows Search](-search-developers-guide-entry-page.md)
+[Windows Rechercher dans le Guide du développeur](-search-developers-guide-entry-page.md)
 </dt> <dt>
 
-[Exemples de code Windows Search](-search-samples-ovw.md)
+[Windows Rechercher des exemples de code](-search-samples-ovw.md)
 </dt> <dt>
 
 [Recherche fédérée dans Windows](-search-federated-search-overview.md)
@@ -41,7 +41,7 @@ Cette référence se compose des sections suivantes :
 [Technologies de recherche associées](-search-3x-wds-sampleentry.md)
 </dt> <dt>
 
-[Glossaire Windows Search](search-glossary.md)
+[Windows Rechercher dans le Glossaire](search-glossary.md)
 </dt> </dl>
 
  

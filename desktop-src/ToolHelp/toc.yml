@@ -23,7 +23,7 @@
           href: traversing-the-thread-list.md
         - name: Parcours de la liste des modules
           href: traversing-the-module-list.md
-        - name: Parcours de la liste des tas
+        - name: Traversée de la liste des tas
           href: traversing-the-heap-list.md
     - name: Référence de l’aide de l’outil
       href: tool-help-reference.md

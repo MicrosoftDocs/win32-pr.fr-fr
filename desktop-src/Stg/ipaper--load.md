@@ -6,12 +6,12 @@ keywords:
 - Charge IPaper
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16b5f16b8fe649d08226b2cff5a4b1a5234bddb6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0b592573f016018d359b5e3e35911d92371892b98ebea70338844b7f8ef4b1f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961379"
 ---
 # <a name="ipaperload"></a>IPaper :: Load
 
@@ -136,9 +136,9 @@ En cas d’erreur à la fin de la **charge**, le tableau de données d’encre e
 
 S’il n’y a aucune erreur à la fin du **chargement**, la méthode cliente [**IPaperSink :: Loaded**](ipapersink-methods.md) est appelée, dans la méthode NotifySinks Internal, pour notifier au client que l’opération de chargement est terminée. Il s’agit d’une notification importante pour le client, car il doit afficher les nouvelles données d’encre chargées. Cette notification utilise de manière significative les fonctionnalités des objets connectables dans le codocument.
 
- 
+ 
 
- 
+ 
 
 
 

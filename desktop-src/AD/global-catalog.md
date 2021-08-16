@@ -7,12 +7,12 @@ keywords:
 - Active Directory de catalogue global
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4496804d21e53cf2d87947288179e7f96ca75c8
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: e81abf04ab3e4d95819f91b5db8753a265e49ca79b2f405a32665dc46a8f2db5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189113"
 ---
 # <a name="global-catalog"></a>Catalogue global
 
@@ -22,6 +22,6 @@ Le catalogue global contient un réplica partiel de chaque contexte de nommage d
 
 Le catalogue global est généré automatiquement par le système de réplication Active Directory Domain Services. La topologie de réplication pour le catalogue global est générée automatiquement. Les propriétés répliquées dans le catalogue global incluent un ensemble de base défini par Microsoft. Les administrateurs peuvent spécifier des propriétés supplémentaires pour répondre aux besoins de leur installation.
 
- 
+ 
 
- 
+ 

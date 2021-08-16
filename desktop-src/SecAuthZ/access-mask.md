@@ -4,12 +4,12 @@ ms.assetid: f115ee54-3333-4109-8004-d71904a7a943
 title: ACCESS_MASK (Winnt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d10d9e8db246c2705911cc57221400f40da014d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d13378b44d17bedd818efd5fc84310b304a2f683a3331237e8cca208be8de810
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785466"
 ---
 # <a name="access_mask"></a>masque d’accès \_
 
@@ -23,7 +23,7 @@ typedef ACCESS_MASK* PACCESS_MASK;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les bits de cette valeur sont alloués comme suit.
 
@@ -33,7 +33,7 @@ Les bits de cette valeur sont alloués comme suit.
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0 15<br/>  | Droits spécifiques. Contient le masque d’accès spécifique au type d’objet associé au masque.<br/>                                                                                                                                                                                                                                                                                                                                                                                                          |
 | 16 23<br/> | Droits standard. Contient les droits d’accès standard de l’objet.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| 24<br/>    | Accédez à la sécurité du système (**accès à la \_ \_ sécurité du système**). Il est utilisé pour indiquer l’accès à une [*liste de contrôle d’accès système*](/windows/desktop/SecGloss/s-gly) (SACL). Ce type d’accès nécessite que le processus appelant ait le **privilège \_ \_ nom de sécurité se** (gérer le journal d’audit et de sécurité). Si cet indicateur est défini dans le masque d’accès d’une entrée de contrôle d’accès d’audit (succès ou échec de l’accès), l’accès à la liste SACL est audité.<br/> |
+| 24<br/>    | Accédez à la sécurité du système (**accès à la \_ \_ sécurité du système**). Il est utilisé pour indiquer l’accès à une [*liste de contrôle d’accès système*](/windows/desktop/SecGloss/s-gly) (SACL). ce type d’accès nécessite que le processus appelant dispose du **privilège \_ SE \_ nom de sécurité** (gérer le journal d’audit et de sécurité). Si cet indicateur est défini dans le masque d’accès d’une entrée de contrôle d’accès d’audit (succès ou échec de l’accès), l’accès à la liste SACL est audité.<br/> |
 | 25<br/>    | Maximum autorisé (**maximum \_ autorisé**).<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | 26 27<br/> | Réservé.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | 28<br/>    | Générique tout (**générique \_ tout**).<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -55,7 +55,7 @@ Les bits de droits standard, 16 à 23, contiennent les droits d’accès standar
 | 17<br/> | **LIRE \_ le contrôle**<br/> | Accès en lecture au propriétaire, au groupe et à la [*liste de contrôle d’accès discrétionnaire*](/windows/desktop/SecGloss/d-gly) (DACL) du descripteur de sécurité.<br/> |
 | 18<br/> | **ÉCRITURE \_ DAC**<br/>    | Accès en écriture à la liste DACL.<br/>                                                                                                                                                                                                     |
 | 19<br/> | **propriétaire en écriture \_**<br/>  | Accès en écriture au propriétaire.<br/>                                                                                                                                                                                                        |
-| 20<br/> | **SYNCHRONIZE**<br/>   | Synchronisez l’accès.<br/>                                                                                                                                                                                                           |
+| 20<br/> | **NON**<br/>   | Synchronisez l’accès.<br/>                                                                                                                                                                                                           |
 
 
 
@@ -90,9 +90,9 @@ Les constantes suivantes définies dans Winnt. h représentent les droits d’ac
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                   |
-| En-tête<br/>                   | <dl> <dt>Winnt. h (inclure Windows. h)</dt> </dl> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                   |
+| En-tête<br/>                   | <dl> <dt>winnt. h (inclure Windows. h)</dt> </dl> |
 
 
 
@@ -100,7 +100,7 @@ Les constantes suivantes définies dans Winnt. h représentent les droits d’ac
 
 <dl> <dt>
 
-[Contrôle d’accès](access-control.md)
+[Access Control](access-control.md)
 </dt> <dt>
 
 [Structures de Access Control de base](authorization-structures.md)

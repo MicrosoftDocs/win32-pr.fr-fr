@@ -1,19 +1,19 @@
 ---
-description: Windows 8 désactive les pilotes miroir Windows 2000 Display Driver Model (XDDM) standard et offre à la place l’API de duplication de bureau.
+description: Windows 8 désactive les pilotes de miroir du modèle de pilote d’affichage (XDDM) standard Windows 2000 et offre plutôt l’API de duplication de bureau.
 ms.assetid: 523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46
 title: API de duplication de bureau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad27f545318254404beb6372344d8dd0cdfdf604
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 93c1960d064d7fd1e34748dcc2efb3c86459b498df91b52c1384ef8698a37c01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104481080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118518471"
 ---
 # <a name="desktop-duplication-api"></a>API de duplication de bureau
 
-Windows 8 désactive les pilotes miroir Windows 2000 Display Driver Model (XDDM) standard et offre à la place l’API de duplication de bureau. L’API de duplication de bureau fournit un accès à distance à une image de bureau pour les scénarios de collaboration. Les applications peuvent utiliser l’API de duplication de bureau pour accéder aux mises à jour frame par image sur le bureau. Étant donné que les applications reçoivent des mises à jour de l’image de bureau dans une surface DXGI, les applications peuvent utiliser toute la puissance du GPU pour traiter les mises à jour de l’image.
+Windows 8 désactive les pilotes de miroir du modèle de pilote d’affichage (XDDM) standard Windows 2000 et offre plutôt l’API de duplication de bureau. L’API de duplication de bureau fournit un accès à distance à une image de bureau pour les scénarios de collaboration. Les applications peuvent utiliser l’API de duplication de bureau pour accéder aux mises à jour frame par image sur le bureau. Étant donné que les applications reçoivent des mises à jour de l’image de bureau dans une surface DXGI, les applications peuvent utiliser toute la puissance du GPU pour traiter les mises à jour de l’image.
 
 -   [Mise à jour des données d’image de bureau](#updating-the-desktop-image-data)
 -   [Rotation de l’image de bureau](#rotating-the-desktop-image)

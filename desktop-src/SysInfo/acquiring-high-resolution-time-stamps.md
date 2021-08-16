@@ -1,19 +1,19 @@
 ---
-description: Windows fournit des API que vous pouvez utiliser pour acquérir des horodatages haute résolution ou mesurer des intervalles de temps.
+description: Windows fournit des api que vous pouvez utiliser pour acquérir des horodatages haute résolution ou mesurer des intervalles de temps.
 ms.assetid: D66E0FC2-3AF2-489B-B4B5-78648905B77B
 title: Acquisition d’horodatages haute résolution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9a1300967738b717ab8d8c822bf2af3f6a4a7ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e25c50cb602dd7e5c53c967c12321ec02a6ea68613767f4019b2def7f5793b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764623"
 ---
 # <a name="acquiring-high-resolution-time-stamps"></a>Acquisition d’horodatages haute résolution
 
-Windows fournit des API que vous pouvez utiliser pour acquérir des horodatages haute résolution ou mesurer des intervalles de temps. L’API principale pour le code natif est [**QueryPerformanceCounter (QPC)**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter). Pour les pilotes de périphérique, l’API en mode noyau est [**KeQueryPerformanceCounter**](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter). Pour le code managé, la classe [**System. Diagnostics. chronomètre**](/previous-versions/windows/) utilise **QPC** comme heure précise.
+Windows fournit des api que vous pouvez utiliser pour acquérir des horodatages haute résolution ou mesurer des intervalles de temps. L’API principale pour le code natif est [**QueryPerformanceCounter (QPC)**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter). Pour les pilotes de périphérique, l’API en mode noyau est [**KeQueryPerformanceCounter**](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter). Pour le code managé, la classe [**System. Diagnostics. chronomètre**](/previous-versions/windows/) utilise **QPC** comme heure précise.
 
 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) est indépendant de et n’est pas synchronisé avec les références d’heure externes. Pour récupérer les horodatages qui peuvent être synchronisés avec une référence horaire externe, par exemple, le temps universel coordonné (UTC, Universal Time Coordinated) pour une utilisation dans des mesures à un moment donné dans le temps de haute résolution, utilisez [**GetSystemTimePreciseAsFileTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime).
 
@@ -21,7 +21,7 @@ Les horodatages et les mesures de l’intervalle de temps font partie intégrant
 
 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) est généralement la meilleure méthode pour utiliser les événements d’horodatage et mesurer les petits intervalles de temps qui se produisent sur le même système ou la même machine virtuelle. Envisagez d’utiliser [**GetSystemTimePreciseAsFileTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime) lorsque vous souhaitez horodater des événements sur plusieurs ordinateurs, à condition que chaque ordinateur participe à un schéma de synchronisation horaire tel que NTP (Network Time Protocol). **QPC** vous aide à éviter les difficultés qui peuvent être rencontrées avec d’autres approches de mesure du temps, telles que la lecture directe du compteur d’horodatage du processeur (TSC).
 
--   [Prise en charge de QPC dans les versions de Windows](#qpc-support-in-windows-versions)
+-   [prise en charge de QPC dans les versions Windows](#qpc-support-in-windows-versions)
 -   [Conseils pour l’acquisition d’horodatages](#guidance-for-acquiring-time-stamps)
     -   [Virtualisation](#virtualization)
     -   [Utilisation directe du TSC](#direct-tsc-usage)
@@ -33,25 +33,25 @@ Les horodatages et les mesures de l’intervalle de temps font partie intégrant
     -   [Résolution, précision, précision et stabilité](#resolution-precision-accuracy-and-stability)
 -   [Informations sur la minuterie matérielle](#hardware-timer-info)
 
-## <a name="qpc-support-in-windows-versions"></a>Prise en charge de QPC dans les versions de Windows
+## <a name="qpc-support-in-windows-versions"></a>prise en charge de QPC dans les versions Windows
 
-[**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) a été introduit dans Windows 2000 et Windows XP et a évolué pour tirer parti des améliorations apportées à la plate-forme matérielle et aux processeurs. Ici, nous décrivons les caractéristiques de **QPC** sur différentes versions de Windows pour vous aider à gérer les logiciels qui s’exécutent sur ces versions de Windows.
+[**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) a été introduite dans Windows 2000 et Windows XP et a évolué pour tirer parti des améliorations apportées à la plate-forme matérielle et aux processeurs. ici, nous décrivons les caractéristiques de **QPC** sur différentes versions de Windows pour vous aider à gérer les logiciels qui s’exécutent sur ces versions Windows.
 
 ### <a name="windows-xp-and-windows-2000"></a>Windows XP et Windows 2000
 
-[**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) est disponible sur Windows XP et Windows 2000 et fonctionne bien sur la plupart des systèmes. Toutefois, le BIOS de certains systèmes matériels n’indique pas correctement les caractéristiques de l’UC matérielle (TSC non indifférent), et certains systèmes à plusieurs cœurs ou multiprocesseurs utilisaient des processeurs avec TSCs qui n’ont pas pu être synchronisés entre les cœurs. Les systèmes avec un microprogramme défectueux qui exécutent ces versions de Windows peuvent ne pas fournir la même **QPC** de lecture sur différents cœurs s’ils ont utilisé le TSC comme base pour **QPC**.
+[**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) est disponible sur Windows XP et Windows 2000 et fonctionne bien sur la plupart des systèmes. Toutefois, le BIOS de certains systèmes matériels n’indique pas correctement les caractéristiques de l’UC matérielle (TSC non indifférent), et certains systèmes à plusieurs cœurs ou multiprocesseurs utilisaient des processeurs avec TSCs qui n’ont pas pu être synchronisés entre les cœurs. les systèmes avec un microprogramme défectueux qui exécutent ces versions de Windows peuvent ne pas fournir la même **QPC** de lecture sur différents cœurs s’ils ont utilisé le TSC comme base pour **QPC**.
 
 ### <a name="windows-vista-and-windows-server-2008"></a>Windows Vista et Windows Server 2008
 
-Tous les ordinateurs livrés avec Windows Vista et Windows Server 2008 utilisaient un compteur de plateforme (High Precision Event Timer (HPET)) ou le minuteur de gestion de l’alimentation ACPI (minuteur PM) comme base pour [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter). Ces minuteurs de plateforme ont une latence d’accès plus élevée que le TSC et sont partagés entre plusieurs processeurs. Cela limite l’extensibilité de **QPC** si elle est appelée simultanément à partir de plusieurs processeurs.
+tous les ordinateurs livrés avec Windows Vista et Windows Server 2008 utilisaient un compteur de plateforme High Precision Event Timer (HPET) ou le minuteur de gestion de l’alimentation ACPI (temporisateur PM) comme base pour [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter). Ces minuteurs de plateforme ont une latence d’accès plus élevée que le TSC et sont partagés entre plusieurs processeurs. Cela limite l’extensibilité de **QPC** si elle est appelée simultanément à partir de plusieurs processeurs.
 
 ### <a name="windows-7-and-windows-server-2008-r2"></a>Windows 7 et Windows Server 2008 R2
 
-La majorité des ordinateurs Windows 7 et Windows Server 2008 R2 disposent de processeurs avec TSCs à débit constant et utilisent ces compteurs comme base pour [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter). Les TSCs sont des compteurs matériels à haute résolution par processeur qui sont accessibles avec une latence et une surcharge très faibles (dans l’ordre des dizaines ou des centaines de cycles d’ordinateur, selon le type de processeur). Windows 7 et Windows Server 2008 R2 utilisent TSCs comme base de **QPC** sur des systèmes de domaine à une seule horloge où le système d’exploitation (ou l’hyperviseur) est en mesure de synchroniser étroitement les TSCs individuels sur tous les processeurs pendant l’initialisation du système. Sur ces systèmes, le coût de lecture du compteur de performances est nettement plus faible par rapport aux systèmes qui utilisent un compteur de plateforme. En outre, il n’existe aucune surcharge supplémentaire pour les appels simultanés et les requêtes en mode utilisateur contournent souvent des appels système, ce qui réduit encore davantage la surcharge. Sur les systèmes où le TSC n’est pas adapté pour la minuterie, Windows sélectionne automatiquement un compteur de plateforme (le minuteur HPET ou le minuteur ACPI PM) comme base pour **QPC**.
+la majorité des ordinateurs Windows 7 et Windows Server 2008 R2 disposent de processeurs avec TSCs à débit constant et utilisent ces compteurs comme base pour [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter). Les TSCs sont des compteurs matériels à haute résolution par processeur qui sont accessibles avec une latence et une surcharge très faibles (dans l’ordre des dizaines ou des centaines de cycles d’ordinateur, selon le type de processeur). Windows 7 et Windows Server 2008 R2 utilisent TSCs comme base de **QPC** sur des systèmes de domaine à une seule horloge où le système d’exploitation (ou l’hyperviseur) est en mesure de synchroniser étroitement les TSCs individuels sur tous les processeurs pendant l’initialisation du système. Sur ces systèmes, le coût de lecture du compteur de performances est nettement plus faible par rapport aux systèmes qui utilisent un compteur de plateforme. En outre, il n’existe aucune surcharge supplémentaire pour les appels simultanés et les requêtes en mode utilisateur contournent souvent des appels système, ce qui réduit encore davantage la surcharge. sur les systèmes où le TSC n’est pas adapté à la minuterie, Windows sélectionne automatiquement un compteur de plateforme (le minuteur HPET ou la minuterie ACPI PM) comme base pour **QPC**.
 
 ### <a name="windows-8-windows-81-windows-server-2012-and-windows-server-2012-r2"></a>Windows 8, Windows 8.1, Windows Server 2012 et Windows Server 2012 R2
 
-Windows 8, Windows 8.1, Windows Server 2012 et Windows Server 2012 R2 utilisent TSCs comme base pour le compteur de performances. L’algorithme de synchronisation TSC a été considérablement amélioré pour mieux prendre en charge de grands systèmes avec de nombreux processeurs. En outre, la prise en charge de la nouvelle API précise de l’heure du jour a été ajoutée, ce qui permet d’obtenir des horodatages précis de l’horloge du système d’exploitation. Pour plus d’informations, consultez [**GetSystemTimePreciseAsFileTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime). Sur les plateformes PC Windows RT, le compteur de performances est basé sur un compteur de plateforme propriétaire ou sur le compteur système fourni par le minuteur générique Windows RT PC si la plateforme est équipée.
+Windows 8, Windows 8.1, Windows Server 2012 et Windows Server 2012 R2 utilisent TSCs comme base pour le compteur de performance. L’algorithme de synchronisation TSC a été considérablement amélioré pour mieux prendre en charge de grands systèmes avec de nombreux processeurs. En outre, la prise en charge de la nouvelle API précise de l’heure du jour a été ajoutée, ce qui permet d’obtenir des horodatages précis de l’horloge du système d’exploitation. Pour plus d’informations, consultez [**GetSystemTimePreciseAsFileTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime). sur les plateformes pc Windows RT, le compteur de performances est basé sur un compteur de plateforme propriétaire ou sur le compteur système fourni par le minuteur générique Windows RT PC si la plateforme est équipée.
 
 ## <a name="guidance-for-acquiring-time-stamps"></a>Conseils pour l’acquisition d’horodatages
 
@@ -61,14 +61,14 @@ Sur un nombre relativement faible de plateformes qui ne peuvent pas utiliser le 
 
 En général, les résultats des compteurs de performances sont cohérents sur tous les processeurs des systèmes multicœurs et multiprocesseurs, même s’ils sont mesurés sur différents threads ou processus. Voici quelques exceptions à cette règle :
 
--   Les systèmes d’exploitation antérieurs à Windows Vista qui s’exécutent sur certains processeurs peuvent violer cette cohérence pour l’une des raisons suivantes :
+-   les systèmes d’exploitation antérieurs à Windows Vista qui s’exécutent sur certains processeurs peuvent violer cette cohérence pour l’une des raisons suivantes :
 
     -   Les processeurs matériels ont un TSC non indifférent et le BIOS n’indique pas correctement cette condition.
     -   L’algorithme de synchronisation TSC utilisé n’était pas adapté aux systèmes avec un grand nombre de processeurs.
 
 -   Lorsque vous comparez les résultats des compteurs de performance obtenus à partir de différents threads, envisagez des valeurs qui diffèrent par un battement de ± 1 pour avoir un classement ambigu. Si les horodatages sont tirés du même thread, cette incertitude de l’intervalle ± 1 ne s’applique pas. Dans ce contexte, le terme « Tick » fait référence à un laps de temps égal à 1 ÷ (fréquence du compteur de performance obtenu de [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency)).
 
-Quand vous utilisez le compteur de performances sur des systèmes de serveur de grande taille avec des domaines à plusieurs horloges qui ne sont pas synchronisés dans le matériel, Windows détermine que le TSC ne peut pas être utilisé à des fins de synchronisation et sélectionne un compteur de plateforme comme base pour [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter). Bien que ce scénario produise toujours des horodatages fiables, la latence d’accès et l’évolutivité sont affectées. Par conséquent, comme indiqué précédemment dans les instructions d’utilisation précédentes, utilisez uniquement les API qui fournissent 1 microseconde ou une meilleure résolution lorsque cette résolution est nécessaire. Le TSC est utilisé comme base pour les **QPC** sur des systèmes de domaine à plusieurs horloges qui incluent la synchronisation matérielle de tous les domaines d’horloge de processeur, car cela leur fait fonctionner en tant que système de domaine à horloge unique.
+quand vous utilisez le compteur de performances sur des systèmes de serveur de grande taille avec des domaines à plusieurs horloges qui ne sont pas synchronisés dans le matériel, Windows détermine que le TSC ne peut pas être utilisé à des fins de synchronisation et sélectionne un compteur de plateforme comme base pour [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter). Bien que ce scénario produise toujours des horodatages fiables, la latence d’accès et l’évolutivité sont affectées. Par conséquent, comme indiqué précédemment dans les instructions d’utilisation précédentes, utilisez uniquement les API qui fournissent 1 microseconde ou une meilleure résolution lorsque cette résolution est nécessaire. Le TSC est utilisé comme base pour les **QPC** sur des systèmes de domaine à plusieurs horloges qui incluent la synchronisation matérielle de tous les domaines d’horloge de processeur, car cela leur fait fonctionner en tant que système de domaine à horloge unique.
 
 La fréquence du compteur de performances est fixée au démarrage du système et est cohérente sur tous les processeurs. vous devez donc uniquement interroger la fréquence à partir de [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency) à mesure que l’application est initialisée, puis mettre en cache le résultat.
 
@@ -78,7 +78,7 @@ Le compteur de performances est censé fonctionner de manière fiable sur toutes
 
 ### <a name="direct-tsc-usage"></a>Utilisation directe du TSC
 
-Nous vous déconseillons fortement d’utiliser l’instruction de processeur **RDTSC** ou **rdtscp,** pour INTERroger directement le TSC, car vous n’obtiendrez pas de résultats fiables sur certaines versions de Windows, sur les migrations dynamiques des machines virtuelles, et sur les systèmes matériels sans invariant ou synchronisation étroite des TSCs. Au lieu de cela, nous vous encourageons à utiliser [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) pour tirer parti de l’abstraction, de la cohérence et de la portabilité qu’il offre.
+nous vous déconseillons fortement d’utiliser l’instruction de processeur **RDTSC** ou **rdtscp,** pour interroger directement le TSC, car vous n’obtiendrez pas de résultats fiables sur certaines versions de Windows, sur des migrations dynamiques de machines virtuelles et sur des systèmes matériels sans invariant ou synchronisés étroitement TSCs. Au lieu de cela, nous vous encourageons à utiliser [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) pour tirer parti de l’abstraction, de la cohérence et de la portabilité qu’il offre.
 
 ### <a name="examples-for-acquiring-time-stamps"></a>Exemples d’acquisition d’horodatages
 
@@ -140,7 +140,7 @@ La classe [**System. Diagnostics. chronomètre**](/previous-versions/windows/) f
 
 ### <a name="using-qpc-from-kernel-mode"></a>Utilisation de QPC à partir du mode noyau
 
-Le noyau Windows fournit un accès en mode noyau au compteur de performances par le biais de [**KeQueryPerformanceCounter**](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter) à partir desquels le compteur de performance et la fréquence de performance peuvent être obtenus. **KeQueryPerformanceCounter** est disponible uniquement à partir du mode noyau et est fourni pour les rédacteurs de pilotes de périphériques et d’autres composants en mode noyau.
+le noyau Windows fournit un accès en mode noyau au compteur de performances par le biais de [**KeQueryPerformanceCounter**](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter) à partir desquels le compteur de performance et la fréquence de performance peuvent être obtenus. **KeQueryPerformanceCounter** est disponible uniquement à partir du mode noyau et est fourni pour les rédacteurs de pilotes de périphériques et d’autres composants en mode noyau.
 
 Cet exemple montre comment utiliser [**KeQueryPerformanceCounter**](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter) en mode noyau C et C++.
 
@@ -219,13 +219,13 @@ Vous n’avez pas besoin d’effectuer ces vérifications.
 <span id="Which_processors_have_non-invariant_TSCs__How_can_I_check_if_my_system_has_a_________non-invariant_TSC_"></span><span id="which_processors_have_non-invariant_tscs__how_can_i_check_if_my_system_has_a_________non-invariant_tsc_"></span><span id="WHICH_PROCESSORS_HAVE_NON-INVARIANT_TSCS__HOW_CAN_I_CHECK_IF_MY_SYSTEM_HAS_A_________NON-INVARIANT_TSC_"></span>**Quels processeurs ont des TSCs non invariants ? Comment puis-je vérifier si mon système a un TSC non indifférent ?**
 </dt> <dd>
 
-Vous n’avez pas besoin d’effectuer cette vérification vous-même. Les systèmes d’exploitation Windows effectuent plusieurs vérifications lors de l’initialisation du système pour déterminer si le TSC est approprié comme base pour [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter). Toutefois, à des fins de référence, vous pouvez déterminer si votre processeur a un TSC invariant en utilisant l’une des opérations suivantes :
+Vous n’avez pas besoin d’effectuer cette vérification vous-même. Windows systèmes d’exploitation effectuent plusieurs vérifications lors de l’initialisation du système pour déterminer si le TSC est approprié comme base pour [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter). Toutefois, à des fins de référence, vous pouvez déterminer si votre processeur a un TSC invariant en utilisant l’une des opérations suivantes :
 
 -   utilitaire Coreinfo.exe de Windows Sysinternals
 -   vérification des valeurs retournées par l’instruction CPUID concernant les caractéristiques TSC
 -   documentation du fabricant du processeur
 
-L’exemple suivant montre les informations d’invariant TSC fournies par l’utilitaire de Coreinfo.exe Windows Sysinternals ([www.sysInternals.com](https://www.sysinternals.com)). Un astérisque signifie « true ».
+l’exemple suivant montre les informations d’invariant TSC fournies par l’utilitaire Windows Sysinternals Coreinfo.exe utility ([www.sysinternals.com](https://www.sysinternals.com)). Un astérisque signifie « true ».
 
 ``` syntax
 > Coreinfo.exe 
@@ -336,7 +336,7 @@ Appelez la méthode [**chronomètre. getTimestamp**](/previous-versions/windows/
 <span id="Under_what_circumstances_does_QueryPerformanceFrequency_return_FALSE__or_________QueryPerformanceCounter_return_zero_"></span><span id="under_what_circumstances_does_queryperformancefrequency_return_false__or_________queryperformancecounter_return_zero_"></span><span id="UNDER_WHAT_CIRCUMSTANCES_DOES_QUERYPERFORMANCEFREQUENCY_RETURN_FALSE__OR_________QUERYPERFORMANCECOUNTER_RETURN_ZERO_"></span>**Dans quelles circonstances QueryPerformanceFrequency retourne FALSe ou QueryPerformanceCounter retourne zéro ?**
 </dt> <dd>
 
-Cela ne se produit pas sur les systèmes qui exécutent Windows XP ou une version ultérieure.
+cela ne se produit pas sur les systèmes qui exécutent Windows XP ou version ultérieure.
 
 </dd> <dt>
 
@@ -382,7 +382,7 @@ Les deux diagrammes suivants illustrent l’impact de l’incertitude du batteme
 
  
 
-[**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) lit le compteur de performance et retourne le nombre total de cycles qui se sont produits depuis le démarrage du système d’exploitation Windows, y compris l’heure à laquelle l’ordinateur se trouvait dans un état de veille, comme en veille, en veille prolongée ou en veille connectée.
+[**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) lit le compteur de performance et retourne le nombre total de cycles qui se sont produits depuis le démarrage du système d’exploitation Windows, y compris l’heure à laquelle l’ordinateur se trouvait dans un état de veille tel que en veille, en veille prolongée ou en veille connectée.
 
 Ces exemples montrent comment calculer l’intervalle de graduation et la résolution et comment convertir le nombre de graduations en valeur d’heure.
 
@@ -460,7 +460,7 @@ Une référence pratique est qu’une erreur de fréquence de 100 ppm provoque u
 
 
 
-| Durée de l’intervalle de temps | Incertitude de mesure due à une erreur accumulée avec une tolérance de fréquence de +/-10 PPM |
+| Durée de l’intervalle de temps | incertitude de mesure due à une erreur accumulée avec une tolérance de fréquence de +/-10 PPM |
 |------------------------|--------------------------------------------------------------------------------------|
 | 1 microseconde          | ± 10 picoseconds (10-12)                                                             |
 | 1 milliseconde          | ± 10 nanosecondes (10-9)                                                              |
@@ -477,7 +477,7 @@ Le tableau ci-dessus montre que pour les intervalles de temps réduits, l’erre
 
 Les oscillateurs Crystal utilisés dans les ordinateurs personnels et les serveurs sont généralement fabriqués avec une tolérance de fréquence de ± 30 à 50 pièces par million et, rarement, les cristaux peuvent être désactivés jusqu’à 500 ppm. Bien que les cristaux avec des tolérances de décalage de fréquence beaucoup plus étroites soient disponibles, ils sont plus onéreux et ne sont donc pas utilisés dans la plupart des ordinateurs.
 
-Pour réduire les effets indésirables de cette erreur de décalage de fréquence, les versions récentes de Windows, en particulier Windows 8, utilisent plusieurs minuteries matérielles pour détecter le décalage de fréquence et compensent le résultat dans la mesure du possible. Ce processus d’étalonnage est effectué au démarrage de Windows.
+pour réduire les effets indésirables de cette erreur de décalage de fréquence, les versions récentes de Windows, en particulier Windows 8, utilisent plusieurs minuteries matérielles pour détecter le décalage de fréquence et compenser le décalage dans la mesure du possible. ce processus d’étalonnage est effectué au démarrage de Windows.
 
 Comme le montrent les exemples suivants, l’erreur de décalage de fréquence d’une horloge matérielle influence la précision obtenue et la résolution de l’horloge peut être moins importante.
 
@@ -543,7 +543,7 @@ Certains processeurs Intel et AMD contiennent un registre TSC qui est un registr
 
 Bien que le registre TSC ressemble à un mécanisme d’horodatage idéal, voici quelques circonstances dans lesquelles il ne peut pas fonctionner de manière fiable à des fins de minuterie :
 
--   Tous les processeurs n’ont pas de registres TSC. par conséquent, l’utilisation du Registre TSC dans le logiciel crée directement un problème de portabilité. (Windows sélectionne une autre source de temps pour [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) dans ce cas, ce qui évite le problème de portabilité.)
+-   Tous les processeurs n’ont pas de registres TSC. par conséquent, l’utilisation du Registre TSC dans le logiciel crée directement un problème de portabilité. (Windows sélectionnera une autre source de temps pour [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) dans ce cas, ce qui évite le problème de portabilité.)
 -   Certains processeurs peuvent varier la fréquence de l’horloge TSC ou arrêter l’avancement du Registre TSC, ce qui rend le TSC inadapté à des fins de synchronisation sur ces processeurs. Ces processeurs sont appelés registres TSC non invariants. (Windows détecte automatiquement cela et sélectionne une autre source de temps pour [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)).
 -   Sur les systèmes multiprocesseurs ou multicœurs, certains processeurs et systèmes ne peuvent pas synchroniser les horloges de chaque cœur avec la même valeur. (Windows détecte automatiquement cela et sélectionne une autre source de temps pour [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)).
 -   Sur certains systèmes multiprocesseurs volumineux, vous ne pourrez peut-être pas synchroniser les horloges du processeur avec la même valeur même si le processeur a un TSC invariant. (Windows détecte automatiquement cela et sélectionne une autre source de temps pour [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)).
@@ -551,7 +551,7 @@ Bien que le registre TSC ressemble à un mécanisme d’horodatage idéal, voici
 
 Comme les autres minuteries, le TSC est basé sur un oscillateur à quartz dont la fréquence exacte n’est pas connue à l’avance et qui a une erreur de décalage de fréquence. Ainsi, avant de pouvoir être utilisé, il doit être étalonné à l’aide d’une autre référence de minutage.
 
-Lors de l’initialisation du système, Windows vérifie si le TSC est adapté à des fins de synchronisation et effectue l’étalonnage et la synchronisation de base de la fréquence nécessaires.
+lors de l’initialisation du système, Windows vérifie si le TSC est adapté à des fins de synchronisation et effectue l’étalonnage et la synchronisation de base de la fréquence nécessaires.
 
 </dd> <dt>
 
@@ -565,7 +565,7 @@ Le minuteur ACPI, également appelé horloge PM, a été ajouté à l’architec
 <span id="HPET_Timer"></span><span id="hpet_timer"></span><span id="HPET_TIMER"></span>**Minuteur HPET**
 </dt> <dd>
 
-Le High Precision Event Timer (HPET) a été développé conjointement par Intel et Microsoft afin de répondre aux exigences de synchronisation du multimédia et d’autres applications de temps. La prise en charge de HPET dans Windows depuis Windows Vista, et Windows 7 et Windows 8 requiert la prise en charge de HPET dans la plateforme matérielle.
+Le High Precision Event Timer (HPET) a été développé conjointement par Intel et Microsoft afin de répondre aux exigences de synchronisation du multimédia et d’autres applications de temps. la prise en charge de HPET a été Windows depuis Windows Vista, et Windows 7 et Windows 8 certification de Logo matériel nécessite la prise en charge de HPET dans la plateforme matérielle.
 
 </dd> </dl>
 

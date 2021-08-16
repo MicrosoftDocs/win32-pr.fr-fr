@@ -1,32 +1,32 @@
 ---
 title: Inscription de l’extension de création d’objet
-description: Quand une DLL d’extension de création d’objet est créée dans Active Directory Domain Services, elle doit être inscrite auprès du Registre Windows et Active Directory Domain Services pour que COM et les composants logiciels enfichables MMC d’administration Active Directory prennent en compte l’extension.
+description: lors de la création d’une DLL d’extension de création d’objet dans Active Directory Domain Services, elle doit être inscrite auprès du registre Windows et Active Directory Domain Services pour rendre COM et les composants logiciels enfichables de la console MMC Active Directory d’administration compatibles avec l’extension.
 ms.assetid: 6e950c6c-1a4f-4de0-9be1-004c31d4734c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c27d8e2a50c2340d678fd43e546d68525afbc8a7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2d99e83d718f98255a3f06e1a8de1c09fb88ae8582c107fce70a6963bdf5c38b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103940800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184464"
 ---
 # <a name="registering-the-object-creation-extension"></a>Inscription de l’extension de création d’objet
 
-Quand une DLL d’extension de création d’objet est créée dans Active Directory Domain Services, elle doit être inscrite auprès du Registre Windows et Active Directory Domain Services pour que COM et les composants logiciels enfichables MMC d’administration Active Directory prennent en compte l’extension.
+lors de la création d’une DLL d’extension de création d’objet dans Active Directory Domain Services, elle doit être inscrite auprès du registre Windows et Active Directory Domain Services pour rendre COM et les composants logiciels enfichables de la console MMC Active Directory d’administration compatibles avec l’extension.
 
-## <a name="registering-in-the-windows-registry"></a>Inscription dans le Registre Windows
+## <a name="registering-in-the-windows-registry"></a>inscription dans le registre de Windows
 
-Comme tous les serveurs COM, une extension de création d’objet doit être inscrite dans le Registre Windows. L’extension est inscrite sous la clé suivante :
+comme tous les serveurs COM, une extension de création d’objet doit être inscrite dans le registre de Windows. L’extension est inscrite sous la clé suivante :
 
 ```
 HKEY_CLASSES_ROOT
-   CLSID
-      <extension CLSID>
-         InProcServer32
-            (Default) = <extension path>
-            ThreadingModel = Apartment
+   CLSID
+      <extension CLSID>
+         InProcServer32
+            (Default) = <extension path>
+            ThreadingModel = Apartment
 ```
 
 « &lt; CLSID &gt; d’extension » est la représentation sous forme de chaîne du CLSID telle qu’elle est produite par la fonction [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) . « &lt; chemin d’accès &gt; de l’extension » contient le chemin d’accès et le nom de fichier de la dll d’extension. La valeur **ThreadingModel** pour toutes les extensions de création d’objet doit être « Apartment ».
@@ -61,6 +61,6 @@ L’attribut **createWizardExt** identifie les extensions de création d’objet
 
 Le &lt; CLSID &gt; est la représentation sous forme de chaîne du CLSID de l’objet com, tel qu’il est généré par la fonction [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) .
 
- 
+ 
 
- 
+ 

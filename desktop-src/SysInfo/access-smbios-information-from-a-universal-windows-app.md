@@ -1,28 +1,28 @@
 ---
-description: Comment accéder aux informations SMBIOS (System Management BIOS) à partir d’une application Windows universelle.
+description: comment accéder aux informations SMBIOS (System Management BIOS) à partir d’une application Windows universelle.
 ms.assetid: 4D185319-C093-4B1B-A182-E845E72FEA5D
-title: Accéder aux informations SMBIOS à partir d’une application Windows universelle
+title: accéder aux informations SMBIOS à partir d’une application de Windows universel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76791622ad4bcba15ddd889f36a6f0feeb5e3dfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 936d30a653059b3573e962b2e52770aa2bd000180ee0612c1855de3d6a1a9778
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764953"
 ---
-# <a name="access-smbios-information-from-a-universal-windows-app"></a>Accéder aux informations SMBIOS à partir d’une application Windows universelle
+# <a name="access-smbios-information-from-a-universal-windows-app"></a>accéder aux informations SMBIOS à partir d’une application de Windows universel
 
-> OBSERVE Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.
+> OBSERVE Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.
 
-Comment accéder aux informations SMBIOS (System Management BIOS) à partir d’une application Windows universelle.
+comment accéder aux informations SMBIOS (System Management BIOS) à partir d’une application Windows universelle.
 
-## <a name="access-smbios-information-from-a-universal-windows-platform-app"></a>Accéder aux informations SMBIOS à partir d’une application plateforme Windows universelle
+## <a name="access-smbios-information-from-a-universal-windows-platform-app"></a>accéder aux informations SMBIOS à partir d’une application plateforme Windows universelle
 
-À compter de Windows 10, version 1803, les applications Windows universelles peuvent utiliser [GetSystemFirmwareTable](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable) et [EnumSystemFirmwareTables](/windows/win32/api/sysinfoapi/nf-sysinfoapi-enumsystemfirmwaretables) pour accéder aux informations SMBIOS en déclarant la fonctionnalité restreinte **SMBIOS** dans le manifeste de l’application.
+à compter de Windows 10, la version 1803, les applications universelles Windows peuvent utiliser [GetSystemFirmwareTable](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable) et [EnumSystemFirmwareTables](/windows/win32/api/sysinfoapi/nf-sysinfoapi-enumsystemfirmwaretables) pour accéder aux informations smbios en déclarant la fonctionnalité restreinte **smbios** dans le manifeste de l’application.
 
 > [!IMPORTANT]
-> Seul l’accès aux tables du microprogramme SMBIOS brut (RSMB) est pris en charge à partir d’une application Windows universelle. **Accès \_ Le refus** est retourné si vous essayez d’accéder à d’autres types de table de microprogramme à partir d’une application Windows universelle.
+> seul l’accès aux tables du microprogramme SMBIOS brut (RSMB) est pris en charge à partir d’une application Windows universelle. **Accès \_ le refus** est retourné si vous essayez d’accéder à d’autres types de table de microprogramme à partir d’une application de Windows universelle.
 
  
 
@@ -53,7 +53,7 @@ Pour déclarer la fonctionnalité restreinte **SMBIOS** dans le manifeste de l�
 [EnumSystemFirmwareTables](/windows/win32/api/sysinfoapi/nf-sysinfoapi-enumsystemfirmwaretables)
 </dt> <dt>
 
-[Accéder aux variables de microprogramme UEFI à partir d’une application Windows universelle](access-uefi-firmware-variables-from-a-universal-windows-app.md)
+[accéder aux variables de microprogramme UEFI à partir d’une application Windows universelle](access-uefi-firmware-variables-from-a-universal-windows-app.md)
 </dt> </dl>
 
  

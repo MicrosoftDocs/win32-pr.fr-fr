@@ -4,16 +4,16 @@ ms.assetid: ae32b354-799e-4f9b-8989-02bd95968210
 title: Liaison de volume et de numéro d’unité logique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c9f62e599f5b5e457a1ce6dbf6a52524d1b80d1
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 91014241014793b601c15c64ec19e5a2b1d153c71ba617cead54a5d68cf978b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104211156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125568"
 ---
 # <a name="volume-and-lun-binding"></a>Liaison de volume et de numéro d’unité logique
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 La liaison est la création de volumes ou de numéros d’unités logiques. Les volumes sont constitués d’étendues de disque et les numéros d’unités logiques sont constitués d’étendues de lecteurs. La liaison sélectionne pour un ensemble de mappages aux ressources physiques et se produit dans un sous-système, dans un Pack, ou les deux. Tous les programmes fournisseurs prennent en charge la liaison partiellement dirigée d’un modèle dans lequel l’appelant spécifie uniquement les attributs de liaison présentant un intérêt particulier, et permet au fournisseur de choisir le reste. Les opérations dans VDS pour les volumes de liaison et les numéros d’unités logiques sont similaires, mais pas identiques. Par exemple, les fournisseurs de matériel peuvent offrir des options de liaison supplémentaires.
 

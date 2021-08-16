@@ -8,12 +8,12 @@ keywords:
 - Active Directory de schéma, impact de la modification du schéma
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45aa43ed208b6eca5889220e09c78e8ada4a50a6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: afa9cc0ee4cdcd0da3581d6bf009837799387949e43dc68989612442352df591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187718"
 ---
 # <a name="impact-of-schema-changes"></a>Impact des modifications de schéma
 
@@ -27,13 +27,13 @@ Une extension de schéma a un impact sur une forêt de domaine contrôlée par A
     -   Pour une classe de catégorie 1 ou 2, vous pouvez ajouter ou supprimer des valeurs dans l’attribut **possSuperiors** . Les valeurs **possSuperiors** spécifient les classes d’objets qui peuvent contenir la classe.
     -   Pour une classe de catégorie 1 ou 2, vous pouvez ajouter ou supprimer des valeurs dans l’attribut **mayContain** . Les valeurs **mayContain** spécifient les attributs facultatifs, mais peuvent être présents dans une instance de la classe.
 
--   Le **lDAPDisplayName** pour une classe ou un attribut de catégorie 2 peut être modifié une fois qu’il a été créé. En règle générale, vous ne devez pas modifier le **lDAPDisplayName**. Toutefois, il existe une raison légitime de modifier le nom LDAP et c’est le cas si vous avez commis une erreur lors de la définition de l’attribut ou de la classe et que vous devez en créer un nouveau pour remplacer l’ancien. Pour ce faire, il n’est pas nécessaire de renommer le RDN (relative Distinguished Name) du schéma de la classe ou de l’attribut. Lorsque le nom LDAP est modifié, cela vous permet de contourner une erreur plutôt que de recréer l’ensemble de votre infrastructure Windows 2000. Pour plus d’informations, consultez [désactivation des classes et attributs existants](disabling-existing-classes-and-attributes.md).
+-   Le **lDAPDisplayName** pour une classe ou un attribut de catégorie 2 peut être modifié une fois qu’il a été créé. En règle générale, vous ne devez pas modifier le **lDAPDisplayName**. Toutefois, il existe une raison légitime de modifier le nom LDAP et c’est le cas si vous avez commis une erreur lors de la définition de l’attribut ou de la classe et que vous devez en créer un nouveau pour remplacer l’ancien. Pour ce faire, il n’est pas nécessaire de renommer le RDN (relative Distinguished Name) du schéma de la classe ou de l’attribut. lorsque le nom LDAP est modifié, cela vous permet de contourner une erreur au lieu de reconstruire l’intégralité de l’infrastructure Windows 2000. Pour plus d’informations, consultez [désactivation des classes et attributs existants](disabling-existing-classes-and-attributes.md).
 
     Le **lDAPDisplayName** des classes ou attributs prédéfinis (catégorie 1) ne peut pas être modifié. Pour plus d’informations sur les objets de schéma de catégorie 1 et 2, consultez [restrictions sur l’extension de schéma](restrictions-on-schema-extension.md).
 
- 
+ 
 
- 
+ 
 
 
 

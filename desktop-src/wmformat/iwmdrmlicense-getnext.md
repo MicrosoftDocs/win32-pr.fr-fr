@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da1dd1f8ce41648c7a67730d909058d10d616e7a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dc0905bc695d1317cc7e4a6a1933292ad68afa8f3e3aadb9572e7a7185f4089c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117847136"
 ---
 # <a name="iwmdrmlicensegetnext-method"></a>IWMDRMLicense :: GetNext, méthode
 
@@ -43,7 +43,7 @@ Cette méthode n’a aucun paramètre.
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -57,7 +57,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les méthodes de l’interface [**IWMDRMLicense**](iwmdrmlicense.md) fournissent des données sur une licence unique à la fois. L’objet sous-jacent contient une liste d’une ou de plusieurs licences. Lorsque vous appelez cette méthode, l’interface déplace ses références internes à la licence suivante dans la liste.
 

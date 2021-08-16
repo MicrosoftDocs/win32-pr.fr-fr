@@ -5,12 +5,12 @@ ms.assetid: 0aec6fe3-7757-4472-bc18-add2327d4e1b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 061818fc791e1c75d440d0c477a321b8c4e5edfb
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 601a5bbffda08f0789875176193977cbecfc34596a9900c870f81cfd677b9ef7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103940813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187674"
 ---
 # <a name="impact-on-directory-enabled-applications"></a>Impact sur les applications Directory-Enabled
 
@@ -31,7 +31,7 @@ En termes de réplication de répertoires, une mise à jour partielle se produit
 > [!Note]  
 > La fenêtre dans laquelle la mise à jour partielle peut affecter une application est petite : l’application doit commencer à lire des objets pendant que la réplication entrante est en cours, après la réception d’un ou plusieurs objets modifiés associés, mais avant la réception de tous les objets. Le délai entre les mises à jour au niveau du réplica source affecte directement la taille de cette fenêtre : les mises à jour qui se produisent de façon rapprochée dans le temps sont répliquées de façon rapprochée dans le temps. Une mise à jour partielle peut être un problème lorsqu’une application utilise un ensemble d’objets associé.
 
- 
+ 
 
 Par exemple, un service d’accès à distance peut utiliser l’annuaire pour stocker des données de stratégie et de profil. Les données de stratégie sont stockées dans un ensemble d’objets et le profil dans un autre jeu. Lorsqu’un utilisateur se connecte au service d’accès à distance, le service d’accès à distance lit la stratégie pour déterminer si l’utilisateur est autorisé à se connecter et, le cas échéant, quel profil appliquer à la session utilisateur. La mise à jour partielle peut affecter le service d’accès à distance de plusieurs façons :
 
@@ -55,6 +55,6 @@ Regardez la séquence d’événements suivante :
 
 En supposant que les attributs en question ont des numéros de version identiques lorsque les mises à jour se produisent, il existe une petite possibilité, mais réelle, que l’objet se termine avec une bande passante maximale de 64 Ko et un nombre maximal de 1 million d’utilisateurs pouvant être réservés, si l’application effectue les mises à jour en tant qu’opérations d’écriture distinctes. L’application doit toujours mettre à jour les deux propriétés en une seule opération.
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 3ee445be-dd55-4825-8508-fa18a346ffcd
 title: Message WM_MDIGETACTIVE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c49f4ec321f526cd4c9766555e2361ef2cfbd040
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7716138028f7fe7447cc89d8feded7806f4f8757cd4a18b4bef6f2d812de3f17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200139"
 ---
 # <a name="wm_mdigetactive-message"></a>\_Message WM MDIGETACTIVE
 

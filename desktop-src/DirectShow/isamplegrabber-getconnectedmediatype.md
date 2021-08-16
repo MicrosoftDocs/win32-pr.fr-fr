@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 85e30820afdca865f438ac40521a9be540fd4a1d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 03dc0c9763bdea75569f9447becb749bf284ae2ad7d77427f6dfc2f0aac58382
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818058"
 ---
 # <a name="isamplegrabbergetconnectedmediatype-method"></a>ISampleGrabber :: GetConnectedMediaType, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -61,14 +61,14 @@ Retourne l’une des valeurs suivantes.
 | Code de retour                                                                                           | Description                             |
 |-------------------------------------------------------------------------------------------------------|-----------------------------------------|
 | <dl> <dt>**\_pointeur E**</dt> </dl>             | Argument de pointeur **null** .<br/>   |
-| <dl> <dt>**\_OK**</dt> </dl>                  | Opération réussie.<br/>                     |
+| <dl> <dt>**\_OK**</dt> </dl>                  | Réussite.<br/>                     |
 | <dl> <dt>**VFW \_ E \_ non \_ connecté**</dt> </dl> | Le filtre n’est pas connecté.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode copie le type de média dans la structure de **\_ \_ type de média am** spécifiée par *PTYPE*. L’appelant doit libérer le bloc de format du type de média. Vous pouvez utiliser la fonction **CoTaskMemFree** ou la fonction [**FreeMediaType**](freemediatype.md) dans la bibliothèque de classes de base.
 
@@ -78,7 +78,7 @@ Cette méthode copie le type de média dans la structure de **\_ \_ type de méd
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

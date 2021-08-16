@@ -1,19 +1,19 @@
 ---
-description: Cette rubrique fournit des informations sur le codec ICO natif disponible via WIC (Windows Imaging Component).
+description: cette rubrique fournit des informations sur le codec ICO natif disponible via le composant WIC (Windows Imaging Component).
 ms.assetid: EF28956E-7156-4BAE-8805-C64B8C8ADE50
 title: Vue d’ensemble du format ICO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 329a53a3b5d386c5e5386141162c608dc9db1ec0
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: caf90f0a31beb2d004dcb43e08cb0b6b1539021071ff2cb3302b3076033bc833
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204069"
 ---
 # <a name="ico-format-overview"></a>Vue d’ensemble du format ICO
 
-Cette rubrique fournit des informations sur le codec ICO natif disponible via WIC (Windows Imaging Component).
+cette rubrique fournit des informations sur le codec ICO natif disponible via le composant WIC (Windows Imaging Component).
 
 ## <a name="codec-identity"></a>Identité du codec
 

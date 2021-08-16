@@ -5,12 +5,12 @@ ms.assetid: dbd1a203-b94c-4739-8c9d-aed1c9b43426
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e27e80e6c095fcc02ca02c57b0987d1e6ed410ff
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 11a680e1eefbc05dac84b3420bee23287eda2bd02325274532109544b04ff73a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118018142"
 ---
 # <a name="benefits-of-using-adsi-extensions"></a>Avantages de l’utilisation des extensions ADSI
 
@@ -35,7 +35,7 @@ Pour les clients ADSI, les extensions enrichissent l’environnement de programm
 
 Les extensions ADSI ont été conçues avec les objectifs suivants :
 
--   Facile à implémenter. Avec les technologies Microsoft actuelles existantes, Microsoft Visual C++ système de développement et le Active Template Library, une extension peut être créée rapidement.
+-   Facile à implémenter. avec les technologies Microsoft actuelles existantes, Microsoft Visual C++ système de développement et le Active Template Library, une extension peut être créée rapidement.
 -   Les clients affichent un IDispatch. Du point de vue des writers de script et Automation, les méthodes et propriétés d’extension sont fusionnées de manière transparente dans un objet ADSI.
 -   Indépendante. Les rédacteurs d’extensions peuvent étendre ADSI indépendamment sans connaissance préalable des extensions existantes.
 
@@ -66,9 +66,9 @@ Next
 
 **LastBackUp** est une propriété et **BackUpNOW** est une méthode fournie par l’enregistreur d’extensions. Le code illustre les avantages pour les consommateurs d’extension et les fournisseurs. Le générateur d’extensions n’a pas besoin de créer une nouvelle façon de filtrer, de rechercher et d’accéder au répertoire. Le consommateur de l’extension n’a pas besoin de réapprendre un nouveau paradigme de programmation. Les nouvelles méthodes et propriétés fournies par le writer d’extension sont affichées dans le cadre de l’interface ADSI.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ keywords:
 - Bloc RIFF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d6cfb0ecc3223f4a883998e9f192bfbbb5ff276
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f9f77cc4d3b9640e0d262a113d3c8f352bb30fce625737b1bf13dde24adbe578
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118371137"
 ---
 # <a name="searching-for-a-subchunk"></a>Recherche d’un sous-segment
 
@@ -54,6 +54,6 @@ mmioSeek(hmmio, mmckinfoParent.dwDataOffset + 4, SEEK_SET);
 
 Étant donné que **dwDataOffset** spécifie le décalage au début de la partie données du segment, vous devez rechercher 4 octets passés **dwDataOffset** pour définir la position du fichier après le type de formulaire.
 
- 
+ 
 
- 
+ 

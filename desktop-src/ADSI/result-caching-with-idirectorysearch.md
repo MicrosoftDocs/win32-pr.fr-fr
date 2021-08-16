@@ -8,12 +8,12 @@ keywords:
 - ADSI, recherche, IDirectorySearch, autres options de recherche, mise en cache des résultats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95016699eb4de36344b7e40f35e1a4a9cce761b8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4febc2f02e03759861978e062ee972d8e90df27b996c8161d6163e764fefe9a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838855"
 ---
 # <a name="result-caching-with-idirectorysearch"></a>Mise en cache des résultats avec IDirectorySearch
 
@@ -43,9 +43,9 @@ SearchPref.vValue.Boolean = TRUE;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

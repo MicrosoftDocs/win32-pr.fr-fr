@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d850547d57596dd36b36b941d1782c2aee1f5b3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2ba23607dcb8da7fb282e380e87fe6a2cbb9a26a50850845a5877d036983665f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869598"
 ---
 # <a name="wm_initmenupopup-message"></a>\_Message WM INITMENUPOPUP
 
@@ -52,7 +52,7 @@ Le mot de poids fort indique si le menu déroulant est le menu fenêtre. Si le m
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
@@ -84,7 +84,7 @@ Si une application traite ce message, elle doit retourner la valeur zéro.
 [**\_INITMENU WM**](wm-initmenu.md)
 </dt> <dt>
 
-**Conceptuel**
+**Méthodologique**
 </dt> <dt>
 
 [Raccourcis clavier](keyboard-accelerators.md)

@@ -4,12 +4,12 @@ ms.assetid: 22a69d3e-4ec3-4652-b4bb-dfcfffc2322b
 title: Stratégie de métadonnées de photo System. photo. DigitalZoom
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bf440e92243eb2102ac6abaa349ea83e58d9a2d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19dfaf2838c8f321b1406d951fcc335076bcdfc00e3a17de0954f1a62022570e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118205375"
 ---
 # <a name="systemphotodigitalzoom-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. DigitalZoom
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Digi
 
 \_Photo \_ DigitalZoom
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -41,7 +41,7 @@ Cette valeur est générée à partir de System. photo. DigitalZoomNumerator et 
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41988} |             |
 | 2     | /xmp/exif:DigitalZoomRatio    |             |
@@ -54,7 +54,7 @@ Cette valeur est générée à partir de System. photo. DigitalZoomNumerator et 
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41988} |             |
 | 2     | /xmp/exif:DigitalZoomRatio    |             |
@@ -67,7 +67,7 @@ Cette valeur est générée à partir de System. photo. DigitalZoomNumerator et 
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41988} |
 | 2     | /xmp/exif:digitalzoomratio    |
@@ -82,7 +82,7 @@ Cette valeur est générée à partir de System. photo. DigitalZoomNumerator et 
 
 
 
-| Commande | Chemin d’accès                           | Format de disque |
+| Commande | Chemin                           | Format de disque |
 |-------|--------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 41988}       |             |
 | 2     | /ifd/xmp/exif:DigitalZoomRatio |             |
@@ -95,7 +95,7 @@ Cette valeur est générée à partir de System. photo. DigitalZoomNumerator et 
 
 
 
-| Commande | Chemin d’accès                           | Format de disque |
+| Commande | Chemin                           | Format de disque |
 |-------|--------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 41988}       |             |
 | 2     | /ifd/xmp/exif:DigitalZoomRatio |             |
@@ -108,7 +108,7 @@ Cette valeur est générée à partir de System. photo. DigitalZoomNumerator et 
 
 
 
-| Commande | Chemin d’accès                           |
+| Commande | Chemin                           |
 |-------|--------------------------------|
 | 1     | /IFD/EXIF/{UShort = 41988}       |
 | 2     | /ifd/xmp/exif:digitalzoomratio |
@@ -117,7 +117,7 @@ Cette valeur est générée à partir de System. photo. DigitalZoomNumerator et 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

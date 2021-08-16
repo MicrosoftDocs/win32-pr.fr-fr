@@ -3,8 +3,8 @@ title: Boîtes de dialogue Rechercher et remplacer
 description: Affiche une boîte de dialogue non modale qui permet à l’utilisateur de spécifier une chaîne à rechercher, ainsi que les options à utiliser lors de la recherche de texte dans un document.
 ms.assetid: c8c035bf-795d-42a7-abc6-168dea43e6e9
 keywords:
-- Interface utilisateur Windows, entrée utilisateur
-- Interface utilisateur Windows, bibliothèque de boîtes de dialogue communes
+- Windows Interface utilisateur, entrée utilisateur
+- Windows Interface utilisateur, bibliothèque de boîtes de dialogue communes
 - entrée utilisateur, bibliothèque de boîtes de dialogue communes
 - capture de l’entrée utilisateur, bibliothèque de boîtes de dialogue communes
 - Bibliothèque de boîtes de dialogue communes
@@ -18,12 +18,12 @@ keywords:
 - boîtes de dialogue, remplacer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e3cf2c5217d586c0a5ada74fb7dd72aaca5f804
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 59bc5da5a8780a4f08bbf4bf757e1703d8d9120fdefe9d1730e515ffc6feae40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104566964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118503484"
 ---
 # <a name="find-and-replace-dialog-boxes"></a>Boîtes de dialogue Rechercher et remplacer
 
@@ -65,7 +65,7 @@ Dans un message [**FINDMSGSTRING**](findmsgstring.md) , le membre **Flags** de l
 
 
 
- 
+ 
 
 Pour un message **suivant** ou **remplacer tout** , le membre **indicateurs** peut inclure n’importe quelle combinaison des indicateurs suivants pour indiquer les options de recherche.
 
@@ -79,7 +79,7 @@ Pour un message **suivant** ou **remplacer tout** , le membre **indicateurs** pe
 
 
 
- 
+ 
 
 ## <a name="customizing-the-find-or-replace-dialog-box"></a>Personnalisation de la boîte de dialogue Rechercher ou remplacer
 
@@ -125,6 +125,6 @@ UpdateWindow(hDlg);
 
 
 
- 
+ 
 
- 
+ 

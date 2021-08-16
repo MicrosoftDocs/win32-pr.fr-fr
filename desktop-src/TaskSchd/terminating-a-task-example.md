@@ -4,12 +4,12 @@ description: Vous pouvez arrêter une tâche pendant qu’elle s’exécute en a
 ms.assetid: f8401650-e196-4959-8f23-3d649a55f73d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73e632b00a9e957849a5735d31018e3444113190
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2705687b5383589c297348b1b5efa805b8ab407aeaef1c8c1213b1f9f6b0e894
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104199315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118354771"
 ---
 # <a name="terminating-a-task-example"></a>Exemple de fin d’une tâche
 
@@ -32,7 +32,7 @@ La procédure suivante décrit comment arrêter une tâche si elle est en cours 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -41,6 +41,6 @@ La procédure suivante décrit comment arrêter une tâche si elle est en cours 
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8
 title: Constantes RecognitionProperty (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62971276b6348af3d8ac971851d70b03f7b003c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd18aeae50e0ae08337dd89a494292a7accbb389e6d02f0b990035fbf9644879
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117856420"
 ---
 # <a name="recognitionproperty-constants"></a>Constantes RecognitionProperty
 
@@ -76,7 +76,7 @@ Non implémenté.
 <td style="text-align: left;">GUID qui identifie la propriété pour le niveau de confiance que le module de reconnaissance a dans le résultat de la reconnaissance.<br/>
 <blockquote>
 [!Note]<br />
-L’évaluation de la confiance est disponible uniquement pour États-Unis anglais et tous les module de reconnaissance de mouvement dans Microsoft Windows XP Édition Tablet PC et Windows Vista. Les méthodes qui fournissent la propriété confidence pour tout autre module de reconnaissance retournent E_NOTIMPL.
+l’évaluation de la confiance est disponible uniquement pour États-Unis anglais et tous les module de reconnaissance de mouvement dans Microsoft Windows XP édition Tablet PC et Windows Vista. Les méthodes qui fournissent la propriété confidence pour tout autre module de reconnaissance retournent E_NOTIMPL.
 </blockquote>
 <br/></td>
 </tr>
@@ -89,9 +89,9 @@ L’évaluation de la confiance est disponible uniquement pour États-Unis angla
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-En C++, vous pouvez accéder à ces constantes dans le fichier d’en-tête Msinkaut. h, qui se trouve dans le dossier <systemdrive> : \\ Program Files \\ Microsoft SDK \\ Windows \\ v 6.0 \\ include si vous avez installé le kit de développement logiciel (SDK) à l’emplacement par défaut.
+en C++, vous pouvez accéder à ces constantes dans le fichier d’en-tête Msinkaut. h, situé dans le <systemdrive> \\ répertoire : Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ include si vous avez installé le kit de développement logiciel (sdk) à l’emplacement par défaut.
 
 > [!Note]  
 > En C++, ces constantes sont WCHARs, et non BSTR. Convertissez-les en BSTR avant d’utiliser. Pour plus d’informations sur le type de données BSTR, consultez [utilisation de la bibliothèque com](using-the-com-library.md).
@@ -104,7 +104,7 @@ En C++, vous pouvez accéder à ces constantes dans le fichier d’en-tête Msin
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 

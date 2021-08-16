@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0bfdb3ce2dfde84b070fee57e7fc587a71d5f948
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
-ms.translationtype: HT
+ms.openlocfilehash: 6a177e50ee3c4c9c715ea109faaed72c24e174e4e942059a4dee0dcd0de91a9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504737"
 ---
 # <a name="wavegetlanecount-function"></a>WaveGetLaneCount fonction)
 
@@ -38,7 +38,7 @@ Cette fonction n’a pas de paramètres.
 
 Le résultat sera compris entre 4 et 128, et comprend toutes les vagues : les pistes active, inactive et/ou d’assistance. Le résultat retourné par cette fonction peut varier considérablement en fonction de l’implémentation du pilote.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est prise en charge à partir du Shader Model 6,0 dans toutes les étapes du nuanceur. 
 

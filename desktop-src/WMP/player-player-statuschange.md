@@ -3,9 +3,9 @@ title: Événement Player. StatusChange
 description: L’événement StatusChange se produit lorsque la propriété Status change de valeur. | Événement Player. StatusChange
 ms.assetid: a457c345-2f24-4f91-a7ff-27025f7bb41d
 keywords:
-- Événement StatusChange lecteur Windows Media
-- Événement StatusChange lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement StatusChange
+- Lecteur Windows Media d’événements StatusChange
+- Lecteur Windows Media d’événements StatusChange, classe Player
+- Lecteur Windows Media de classe Player, événement StatusChange
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c11aaa81c8bfe45c986ba3b3c5dd2524130694e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a4643db91003418c8523de31e73c1a4ec8c9f0efa181c16d705ccd4a4db96ff5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118337909"
 ---
 # <a name="playerstatuschange-event"></a>Événement Player. StatusChange
 

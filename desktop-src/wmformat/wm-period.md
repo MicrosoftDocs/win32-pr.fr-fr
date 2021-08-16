@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86bd87c72d689d668be2432e746787bd1b483a1b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9f9e97dfe0b0a1ca04b502561df26cac7160412baa0b5824bf532b328d9df279
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103940428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844429"
 ---
 # <a name="wmperiod"></a>WM/period
 
@@ -41,7 +41,7 @@ L’attribut **WM/period** contient la période du contenu.
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -50,9 +50,9 @@ L’attribut **WM/period** contient la période du contenu.
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

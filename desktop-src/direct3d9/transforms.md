@@ -4,12 +4,12 @@ ms.assetid: ed52e32f-8fae-4e6f-b908-26e05ce940cc
 title: Transformations (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f482ef12c88140c2eff4c61e634fd3297aeaf295
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5570562c02f2283b869bbb5e60143ed4badac94eb10651b002a89aedf1cd60f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118519704"
 ---
 # <a name="transforms-direct3d-9"></a>Transformations (Direct3D 9)
 
@@ -156,7 +156,7 @@ Dans cette équation, C est la matrice composite en cours de création et M ₁ 
 
 Utilisez la fonction [**D3DXMatrixMultiply**](d3dxmatrixmultiply.md) pour effectuer une multiplication de matrice.
 
-L’ordre dans lequel la multiplication de la matrice est effectuée est essentiel. La formule précédente reflète la règle de la concaténation de matrice de gauche à droite. Autrement dit, les effets visibles des matrices que vous utilisez pour créer une matrice composite se produisent dans l’ordre de gauche à droite. L’exemple suivant illustre une matrice universelle classique. Imaginez que vous créez la matrice universelle pour un soubattante volante de stéréotype. Vous souhaiterez probablement faire tourner le volant volant autour de son centre-l’axe y de l’espace de modèle, et le traduire à un autre emplacement de votre scène. Pour obtenir cet effet, vous créez d’abord une matrice de rotation, puis vous la multipliez par une matrice de traduction, comme illustré dans l’équation suivante.
+L’ordre dans lequel la multiplication de la matrice est effectuée est essentiel. La formule précédente reflète la règle de la concaténation de matrice de gauche à droite. Autrement dit, les effets visibles des matrices que vous utilisez pour créer une matrice composite se produisent dans l’ordre de gauche à droite. L’exemple suivant illustre une matrice universelle classique. Imagine que vous créez la matrice universelle pour un soubattante volante de stéréotype. Vous souhaiterez probablement faire tourner le volant volant autour de son centre-l’axe y de l’espace de modèle, et le traduire à un autre emplacement de votre scène. Pour obtenir cet effet, vous créez d’abord une matrice de rotation, puis vous la multipliez par une matrice de traduction, comme illustré dans l’équation suivante.
 
 ![équation de spin basée sur une matrice de rotation et une matrice de traduction](images/wrldexpl.png)
 

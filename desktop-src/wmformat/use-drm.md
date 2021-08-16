@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fcb010855ac4660792a7c579556001d5d7c4c96
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b802a7bef777fab4ed835aa3a1770169deaa6eeea9a7eddeb802fb2e4b0a9dd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104507783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845300"
 ---
 # <a name="use_drm"></a>Utiliser \_ DRM
 
@@ -31,7 +31,7 @@ g \_ wszWMUse \_ DRM
 
 **\_type WMT \_ bool**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez [**IWMHeaderInfo :: setAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute) pour affecter à cette propriété la **valeur true** lors de la création du contenu DRM version 1. Cette propriété n’est pas accessible à partir de l’objet lecteur.
 
@@ -42,9 +42,9 @@ Utilisez [**IWMHeaderInfo :: setAttribute**](/previous-versions/windows/desktop
 [**Propriétés DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

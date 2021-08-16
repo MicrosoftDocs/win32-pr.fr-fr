@@ -3,15 +3,15 @@ title: Création du document ServiceInfo de manière dynamique
 description: Création du document ServiceInfo de manière dynamique
 ms.assetid: 96937b04-f705-49f6-8ddf-25c98a51dc9a
 keywords:
-- Windows Media Player Online stores, création d’un document ServiceInfo
+- Lecteur Windows Media des magasins en ligne, création d’un document ServiceInfo
 - magasins en ligne, créer un document ServiceInfo
 - tapez 1 magasins en ligne, création d’un document ServiceInfo
 - type 2 magasins en ligne, création d’un document ServiceInfo
-- Magasins en ligne du lecteur Windows Media, créer dynamiquement un document ServiceInfo
+- Lecteur Windows Media des magasins en ligne, créer dynamiquement un document ServiceInfo
 - magasins en ligne, créer dynamiquement un document ServiceInfo
 - tapez 1 magasins en ligne, en créant dynamiquement le document ServiceInfo
 - tapez 2 magasins en ligne, en créant dynamiquement le document ServiceInfo
-- Windows Media Player Online stores, document ServiceInfo
+- Lecteur Windows Media les magasins en ligne, document ServiceInfo
 - magasins en ligne, document ServiceInfo
 - type 1 magasins en ligne, document ServiceInfo
 - type 2 magasins en ligne, document ServiceInfo
@@ -20,12 +20,12 @@ keywords:
 - Document ServiceInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90159e72046536cf6b69521586a0640935478eb1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e3883487d072af57174a1f40f2fcef05d3290917b473a95bf723c34d793c5ba5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340989"
 ---
 # <a name="creating-the-serviceinfo-document-dynamically"></a>Création du document ServiceInfo de manière dynamique
 
@@ -88,9 +88,9 @@ L’exemple de code précédent utilise ASP pour récupérer le nom d’hôte du
 [**Document ServiceInfo**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

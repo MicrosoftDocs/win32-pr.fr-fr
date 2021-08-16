@@ -4,17 +4,17 @@ description: Cette rubrique présente les principes fondamentaux des effets Micr
 ms.assetid: 805B17D2-2F6B-4C25-8C6D-41FFA5DFC774
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cfd1ca154dcbc7e55ca65cc34d04cfa7d73ccee
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c9c5119367a35725a85efe20b8ba4d0f9f9887ff91b4d9618e2215bedfbfef67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117905048"
 ---
 # <a name="effects-directcomposition"></a>Effets (DirectComposition)
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Cette rubrique présente les principes fondamentaux des effets Microsoft DirectComposition et décrit les types d’effets pris en charge par DirectComposition.
 
@@ -49,12 +49,12 @@ DirectComposition prend en charge les types d’effets suivants.
 
 
 
- 
+ 
 
 > [!Note]  
 > DirectComposition n’effectue pas de traitement spécial lors de l’application d’effets à du contenu stéréo 3D. Cela signifie que le contenu 3D peut apparaître disproportionné lorsqu’un effet est appliqué à celui-ci.
 
- 
+ 
 
 ## <a name="opacity"></a>Opacity
 
@@ -76,7 +76,7 @@ Cette section décrit l’espace de coordonnées utilisé par DirectComposition 
 > [!Note]  
 > Dans DirectComposition, l’application d’effets 3D à plusieurs niveaux dans l’arborescence d’éléments visuels ne fonctionne pas de la même manière qu’avec un moteur 3D complet tel que Microsoft Direct3D. Par exemple, imaginez un visuel parent qui a un seul visuel enfant. Si le visuel enfant pivote vers l’avant dans la direction z (autour de l’axe des y) de 90 degrés, le bord du côté visuel enfant est confronté à la visionneuse, ce qui signifie que le visuel n’est pas visible (car une image bitmap n’a pas de profondeur réelle). Si le visuel parent est ensuite pivoté vers l’arrière dans la direction z négative (autour de l’axe des y) de 90 degrés, le visuel enfant peut s’attendre à être entièrement visible (puisque les transformations sont inversées). Toutefois, dans DirectComposition, ce n’est pas le cas. Le visuel enfant n’est pas visible, car il a été « aplati » dans la bitmap parente.
 
- 
+ 
 
 ### <a name="the-directcomposition-3d-coordinate-space"></a>Espace de coordonnées 3D DirectComposition
 
@@ -138,6 +138,6 @@ Pour appliquer un objet Effect à Visual, appelez la méthode [**IDCompositionVi
 [Concepts DirectComposition](directcomposition-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

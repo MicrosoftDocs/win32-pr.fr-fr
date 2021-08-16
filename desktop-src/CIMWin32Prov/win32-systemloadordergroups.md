@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 510acfbde2f562493a454abe80a4f7788377e556
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bad87d62fddff6c4d76bb05a97fe0b7f97e713e70d0eba3ccfd36bb4aa31e813
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106538834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117833957"
 ---
 # <a name="win32_systemloadordergroups-class"></a>\_Classe SystemLoadOrderGroups Win32
 
@@ -84,7 +84,7 @@ Référence à l’instance de qui représente le groupe d’ordre de chargement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ SystemLoadOrderGroups** est dérivée de [**CIM \_ SystemComponent**](cim-systemcomponent.md).
 

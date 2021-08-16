@@ -15,12 +15,12 @@ keywords:
 - HID (périphérique d’interface utilisateur)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3535e5601ec63a254c76060611999a1a2f08aeb
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6fed3772406cc85df57b95c4b11dbcfeaf60804e94da5602059ec790e87e0439
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117884326"
 ---
 # <a name="about-raw-input"></a>À propos des entrées brutes
 
@@ -36,7 +36,7 @@ Cette section couvre les sujets suivants :
 
 Auparavant, le clavier et la souris généraient généralement des données d’entrée. Le système a interprété les données provenant de ces appareils de manière à éliminer les détails spécifiques au périphérique des informations brutes. Par exemple, le clavier génère le code d’analyse spécifique à l’appareil, mais le système fournit une application avec le code de la touche virtuelle. En plus de masquer les détails de l’entrée brute, le gestionnaire de fenêtres ne prenait pas en charge tous les nouveaux HIDs. Pour obtenir une entrée du HIDs non pris en charge, une application doit effectuer de nombreuses opérations : ouvrir l’appareil, gérer le mode partagé, lire régulièrement l’appareil ou configurer le port de terminaison d’e/s, etc. Le modèle d’entrée brut et les API associées ont été développés pour permettre un accès simple aux entrées brutes à partir de tous les périphériques d’entrée, y compris le clavier et la souris.
 
-Le modèle d’entrée brut est différent du modèle d’entrée Windows d’origine pour le clavier et la souris. Dans le modèle d’entrée d’origine, une application reçoit une entrée indépendante du périphérique sous la forme de messages envoyés ou publiés dans son Windows, tels que [**WM \_ char**](wm-char.md), [**WM \_ MOUSEMOVE**](wm-mousemove.md)et [**WM \_ APPCOMMAND**](wm-appcommand.md). En revanche, pour les entrées brutes, une application doit inscrire les périphériques à partir desquels elle souhaite obtenir des données. En outre, l’application obtient l’entrée brute via le message [**\_ d’entrée WM**](wm-input.md) .
+le modèle d’entrée brut est différent du modèle d’entrée d’origine Windows pour le clavier et la souris. Dans le modèle d’entrée d’origine, une application reçoit une entrée indépendante du périphérique sous la forme de messages envoyés ou publiés dans son Windows, tels que [**WM \_ char**](wm-char.md), [**WM \_ MOUSEMOVE**](wm-mousemove.md)et [**WM \_ APPCOMMAND**](wm-appcommand.md). En revanche, pour les entrées brutes, une application doit inscrire les périphériques à partir desquels elle souhaite obtenir des données. En outre, l’application obtient l’entrée brute via le message [**\_ d’entrée WM**](wm-input.md) .
 
 Le modèle d’entrée brut présente plusieurs avantages :
 
@@ -54,7 +54,7 @@ Par défaut, aucune application ne reçoit d’entrée brute. Pour recevoir une 
 
 Pour inscrire des appareils, une application crée tout d’abord un tableau de structures [**RAWINPUTDEVICE**](/windows/win32/api/winuser/ns-winuser-rawinputdevice) qui spécifient la [collection de niveau supérieur](/windows-hardware/drivers/hid/top-level-collections) (CCM) pour les périphériques dont elle a besoin. La CCM est définie par une [page d’utilisation](/windows-hardware/drivers/hid/hid-usages#usage-page) (la classe de l’appareil) et un [ID d’utilisation](/windows-hardware/drivers/hid/hid-usages#usage-id) (l’appareil dans la classe). Par exemple, pour obtenir le clavier CCM, définissez UsagePage = 0x01 et UsageID = 0x06. L’application appelle [**RegisterRawInputDevices**](/windows/win32/api/winuser/nf-winuser-registerrawinputdevices) pour inscrire les appareils.
 
-Notez qu’une application peut inscrire un appareil qui n’est pas actuellement attaché au système. Lorsque cet appareil est attaché, le gestionnaire Windows envoie automatiquement l’entrée brute à l’application. Pour récupérer la liste des périphériques d’entrée bruts sur le système, une application appelle [**GetRawInputDeviceList**](/windows/win32/api/winuser/nf-winuser-getrawinputdevicelist). À l’aide de *hDevice* à partir de cet appel, une application appelle [**GetRawInputDeviceInfo**](/windows/win32/api/winuser/nf-winuser-getrawinputdeviceinfoa) pour récupérer les informations de l’appareil.
+Notez qu’une application peut inscrire un appareil qui n’est pas actuellement attaché au système. lorsque cet appareil est attaché, le gestionnaire de Windows envoie automatiquement l’entrée brute à l’application. Pour récupérer la liste des périphériques d’entrée bruts sur le système, une application appelle [**GetRawInputDeviceList**](/windows/win32/api/winuser/nf-winuser-getrawinputdevicelist). À l’aide de *hDevice* à partir de cet appel, une application appelle [**GetRawInputDeviceInfo**](/windows/win32/api/winuser/nf-winuser-getrawinputdeviceinfoa) pour récupérer les informations de l’appareil.
 
 Par le biais du membre **dwFlags** de [**RAWINPUTDEVICE**](/windows/win32/api/winuser/ns-winuser-rawinputdevice), une application peut sélectionner les appareils à écouter, ainsi que ceux qu’elle souhaite ignorer. Par exemple, une application peut demander une entrée à partir de tous les appareils de téléphonie, à l’exception des ordinateurs de réponse. Pour obtenir un exemple de code, consultez [inscription pour une entrée brute](using-raw-input.md).
 

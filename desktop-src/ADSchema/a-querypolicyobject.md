@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e33bc2840fb1ca8a936b417c4407f48fcdf7f46
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 57ddd8b98cdc19efc8bed8db709fb0b335ff770129dde5bbf5933b706273d722
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117836779"
 ---
 # <a name="query-policy-object-attribute"></a>Attribut d’objet de stratégie de requête
 
@@ -46,7 +46,7 @@ Référence à la Query-Policy par défaut en vigueur pour ce serveur.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -67,7 +67,7 @@ Référence à la Query-Policy par défaut en vigueur pour ce serveur.
 | Range-Upper            | \-                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                           |
 | System-Flags           | 0x00000010                                                                                           |
-| Classes utilisées dans        | [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ Référence à la Query-Policy par défaut en vigueur pour ce serveur.
 | Range-Upper            | \-                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                           |
 | System-Flags           | 0x00000010                                                                                           |
-| Classes utilisées dans        | [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -109,7 +109,7 @@ Référence à la Query-Policy par défaut en vigueur pour ce serveur.
 | Range-Upper            | \-                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                           |
 | System-Flags           | 0x00000010                                                                                           |
-| Classes utilisées dans        | [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ Référence à la Query-Policy par défaut en vigueur pour ce serveur.
 | Range-Upper            | \-                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                           |
 | System-Flags           | 0x00000010                                                                                           |
-| Classes utilisées dans        | [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ Référence à la Query-Policy par défaut en vigueur pour ce serveur.
 | Range-Upper            | \-                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                           |
 | System-Flags           | 0x00000010                                                                                           |
-| Classes utilisées dans        | [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ Référence à la Query-Policy par défaut en vigueur pour ce serveur.
 | Range-Upper            | \-                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                           |
 | System-Flags           | 0x00000010                                                                                           |
-| Classes utilisées dans        | [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -193,7 +193,7 @@ Référence à la Query-Policy par défaut en vigueur pour ce serveur.
 | Range-Upper            | \-                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                           |
 | System-Flags           | 0x00000010                                                                                           |
-| Classes utilisées dans        | [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 

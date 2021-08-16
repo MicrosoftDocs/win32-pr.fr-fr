@@ -1,6 +1,6 @@
 ---
-title: Conversion d’un fichier de DRM-Protected en un flux Windows Media DRM 10 pour les périphériques réseau
-description: Conversion d’un fichier de DRM-Protected en un flux Windows Media DRM 10 pour les périphériques réseau
+title: conversion d’un fichier de DRM-Protected en un flux Windows Media DRM 10 pour les périphériques réseau
+description: conversion d’un fichier de DRM-Protected en un flux Windows Media DRM 10 pour les périphériques réseau
 ms.assetid: 11aa0cfd-6d87-4ec4-82d8-db2507402911
 keywords:
 - Windows Media Format SDK, conversion de fichiers protégés par DRM
@@ -13,28 +13,28 @@ keywords:
 - DRM (gestion des droits numériques), conversion de fichiers protégés par DRM
 - gestion des droits numériques (DRM), fichiers protégés par DRM
 - DRM (gestion des droits numériques), fichiers protégés par DRM
-- Windows Media Format SDK, Windows Media DRM 10 pour les périphériques réseau
+- Windows media Format SDK, Windows media DRM 10 pour les périphériques réseau
 - Windows Media Format SDK, DRM 10 pour les périphériques réseau
 - ASF (Advanced Systems Format), Windows Media DRM 10 pour les périphériques réseau
-- ASF (format avancé des systèmes), Windows Media DRM 10 pour les périphériques réseau
+- ASF (Format de systèmes avancés), Windows Media DRM 10 pour les périphériques réseau
 - ASF (Advanced Systems Format), DRM 10 pour les périphériques réseau
 - ASF (format de systèmes avancés), DRM 10 pour les périphériques réseau
-- gestion des droits numériques (DRM), Windows Media DRM 10 pour les périphériques réseau
-- DRM (gestion des droits numériques), Windows Media DRM 10 pour les périphériques réseau
+- gestion des droits numériques (drm), Windows Media drm 10 pour les périphériques réseau
+- drm (digital rights management), Windows Media drm 10 pour les périphériques réseau
 - gestion des droits numériques (DRM), DRM 10 pour les périphériques réseau
 - DRM (gestion des droits numériques), DRM 10 pour les périphériques réseau
 - Windows Media DRM 10 pour les périphériques réseau, conversion de fichiers protégés par DRM
 - DRM 10 pour les périphériques réseau, conversion de fichiers protégés par DRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 644c1b4f7ede688434fbb1dde11b7051c6f644a5
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: ebe5aa16b13f41c0376da84237a846612b7ae6e730e630be6ec4a45ce48ff4fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103723602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848910"
 ---
-# <a name="converting-a-drm-protected-file-to-a-windows-media-drm-10-for-network-devices-stream"></a>Conversion d’un fichier de DRM-Protected en un flux Windows Media DRM 10 pour les périphériques réseau
+# <a name="converting-a-drm-protected-file-to-a-windows-media-drm-10-for-network-devices-stream"></a>conversion d’un fichier de DRM-Protected en un flux Windows Media DRM 10 pour les périphériques réseau
 
 Une fois qu’un appareil est inscrit et validé, vous pouvez commencer à traiter les messages de demande de licence à partir de celui-ci. Les messages de demande de licence sont envoyés par les appareils quand l’action à partir de l’application est nécessaire. La seule action actuellement prise en charge est « Play », qui est une demande de données sécurisées pour la lecture.
 
@@ -56,18 +56,18 @@ Lorsque vous recevez un message de demande de licence, vous devez effectuer les 
 > [!Note]  
 > DRM n’est pas pris en charge par la version x64 de ce kit de développement logiciel (SDK).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Utilisation du protocole Windows Media DRM 10 pour les périphériques réseau**](using-the-windows-media-drm-10-for-network-devices-protocol.md)
+[**utilisation du protocole Windows Media DRM 10 pour les périphériques réseau**](using-the-windows-media-drm-10-for-network-devices-protocol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

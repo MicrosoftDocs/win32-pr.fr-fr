@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 53efbe7eb2887165dacc4cb904822de953b84017
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ae0fba6885db46d987e59517cdc30dab484974869c67c85a257044e5eec58b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118365668"
 ---
 # <a name="iespconfigure-method"></a>IESP :: configure, méthode
 
@@ -66,7 +66,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 | Code de retour                                                                                                         | Description                                                                                                                                                                                                       |
 |---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>                | Le NPP n’est pas connecté au réseau.<br/>                                                                                                                                                               |
-| <dl> <dt>**NMERR \_ non \_ ESP**</dt> </dl>                      | Le NPP est connecté au réseau, mais pas avec la méthode [IESP :: Connect](iesp-connect.md) .<br/>                                                                                                         |
+| <dl> <dt>**NMERR \_ non \_ ESP**</dt> </dl>                      | le NPP est connecté au réseau, mais pas avec la méthode [IESP :: Connecter](iesp-connect.md) .<br/>                                                                                                         |
 | <dl> <dt>**\_capture NMERR**</dt> </dl>                     | Le NPP signale que la session de capture a démarré.<br/>                                                                                                                                                  |
 | <dl> <dt>**\_déclencheur NMERR non conforme \_**</dt> </dl>              | La partie déclencheur de l’objet BLOB de configuration est endommagée.<br/>                                                                                                                                              |
 | <dl> <dt>**l' \_ entrée d’objet BLOB NMERR \_ \_ n' \_ \_ existe pas**</dt> </dl> | Une entrée nécessaire à l’exécution de cette opération est manquante dans l’objet BLOB de configuration spécifié par *hConfigurationBlob* . Examinez l’objet BLOB d’erreur retourné par *hErrorBlob* pour déterminer quelle entrée est introuvable.<br/> |
@@ -82,7 +82,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez appliquer cette méthode pour redémarrer un NPP qui a été démarré et arrêté, mais qui n’est pas déconnecté.
 

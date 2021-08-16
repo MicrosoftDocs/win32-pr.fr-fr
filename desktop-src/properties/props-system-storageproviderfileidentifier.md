@@ -4,12 +4,12 @@ ms.assetid: 03863ed4-9d77-4394-9122-6b6f4285e9ec
 title: System. StorageProviderFileIdentifier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dd1fbfb2ba57722715498486360b15bd7d3349b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dea053cef5b60715af13ea485f2a82fae0a6416cfd03b4a6b18a102734660b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864532"
 ---
 # <a name="systemstorageproviderfileidentifier"></a>System. StorageProviderFileIdentifier
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = false
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

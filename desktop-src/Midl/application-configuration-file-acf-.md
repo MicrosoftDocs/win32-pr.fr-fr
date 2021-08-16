@@ -8,12 +8,12 @@ keywords:
 - fichier de configuration de l’application MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f9066e5641d6b71e68ba670984765661f1b9f6c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 56158267a11125a825442b4db98224d292fdfc309f79cb1562818dee9c08aa23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808341"
 ---
 # <a name="application-configuration-file-acf"></a>Fichier de configuration de l’application (ACF)
 
@@ -31,9 +31,9 @@ La structure et la syntaxe d’une définition d’interface ACF sont identiques
 
 Par défaut, le nom de l’interface ACF doit correspondre à son nom dans la définition IDL. Toutefois, lorsque vous utilisez l’option/ [**ACF**](-acf.md) du compilateur MIDL pour spécifier explicitement un nom de fichier ACF, il n’est pas nécessaire que les noms d’interface correspondent. Cette fonctionnalité permet à plusieurs interfaces de partager une seule spécification ACF.
 
- 
+ 
 
- 
+ 
 
 
 

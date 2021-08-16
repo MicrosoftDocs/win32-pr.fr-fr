@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: e25f8885c2444a51d5d5d8cc917121c7f3b26a09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15ef54d44a466f3c766075eae771ccac9d74e20c0622d6092530f1015a538425
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857078"
 ---
 # <a name="user-experience-guidelines"></a>Conseils sur l’expérience utilisateur
 
@@ -22,7 +22,7 @@ La responsabilité principale de tout élément du panneau de configuration est 
 
 Le panneau de configuration comprend de nombreux éléments qui suivent ces recommandations, telles que la facilité d’accès et le centre réseau et partage. Les autres éléments du panneau de configuration utilisent le format de feuille de propriétés de la boîte de dialogue à onglets, comme dans les versions antérieures de Windows. Les exemples incluent l’élément Mouse et les options Internet. L’utilisation du format de la feuille de propriétés doit être supprimée. Si vous créez des éléments du panneau de configuration, vous devez suivre les instructions relatives au déroulement des tâches.
 
-Par le passé, les éléments du panneau de configuration étaient empaquetés sous forme de fichiers. cpl. Cela n’est plus nécessaire. Les nouveaux éléments du panneau de configuration doivent être implémentés en tant que fichier. exe autonome ou en tant qu’option d’indicateur de ligne de commande pour le fichier exécutable principal de l’application.
+Par le passé, les éléments du panneau de configuration étaient empaquetés en tant que fichiers .cpl. Cela n’est plus nécessaire. Les nouveaux éléments du panneau de configuration doivent être implémentés en tant que fichier .exe autonome ou en tant qu’option d’indicateur de ligne de commande pour le fichier exécutable principal de l’application.
 
 > [!Note]  
 > Sur les systèmes 64 bits, les éléments du panneau de configuration de 32 bits s’affichent dans le panneau de configuration lorsque l’option de **dossier éléments du panneau de configuration de la vue 32** est sélectionnée. Les éléments 32 bits doivent se trouver dans le dossier% SystemRoot% \\ SysWOW64 à afficher. Ils ne nécessitent pas d’inscription supplémentaire.
@@ -57,7 +57,7 @@ Par le passé, les éléments du panneau de configuration étaient empaquetés s
 [Création de liens de tâches pouvant faire l’objet d’une recherche pour un élément du panneau de configuration](creating-searchable-task-links.md)
 </dt> <dt>
 
-[Accès au panneau de configuration en mode sans échec](accessing-the-cp-in-safe-mode-under-vista.md)
+[accès au panneau de configuration en Mode Coffre](accessing-the-cp-in-safe-mode-under-vista.md)
 </dt> </dl>
 
  

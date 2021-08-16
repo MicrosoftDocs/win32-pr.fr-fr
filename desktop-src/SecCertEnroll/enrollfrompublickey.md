@@ -4,12 +4,12 @@ ms.assetid: 0231da3b-a183-4443-8735-5affd24b145a
 title: enrollFromPublicKey
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21b336d04727f4bb4b90674bad6bb6c429465a0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0346e2966dc9109ed9413022ead4eda487c37c2ac66ad9da42d2dcee2445032
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780048"
 ---
 # <a name="enrollfrompublickey"></a>enrollFromPublicKey
 
@@ -17,7 +17,7 @@ L’exemple enrollFromPublicKey Initialise un objet de \# demande de certificat 
 
 ## <a name="location"></a>Emplacement
 
-Lorsque vous installez le kit de développement logiciel (SDK) Microsoft Windows, l’exemple est installé, par défaut, dans le dossier *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security \\ x509 Certificate \\ \\ enrollFromPublicKey VC.
+lorsque vous installez le kit de développement logiciel (SDK) de microsoft Windows, l’exemple est installé, par défaut, dans le dossier *% ProgramFiles%* \\ microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security \\ X509 certificate \\ \\ enrollFromPublicKey VC.
 
 ## <a name="discussion"></a>Discussions
 
@@ -34,7 +34,7 @@ Exemple enrollFromPublicKey :
 6.  Récupère un certificat de signature existant ou, si celui-ci est introuvable, crée une demande de certificat à partir du modèle spécifié sur la ligne de commande et tente de l’inscrire. FindCertByKeyUsage est défini dans enrollCommon. cpp.
 7.  Vérifie la chaîne de certificats.
 8.  Crée un objet [**ISignerCertificate**](/windows/desktop/api/CertEnroll/nn-certenroll-isignercertificate) , l’initialise à l’aide du certificat de signature, récupère la collection [**ISignerCertificates**](/windows/desktop/api/CertEnroll/nn-certenroll-isignercertificates) de l’objet de demande CMC et ajoute l’objet de certificat de signature à la collection.
-9.  Encode la demande CMC à l’aide d' [*Distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (der).
+9.  encode la demande CMC à l’aide d' [*Distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (DER).
 10. Crée un objet [**ICertConfig**](/windows/desktop/api/certcli/nn-certcli-icertconfig) et l’utilise pour récupérer une chaîne qui contient la configuration de l’autorité de certification.
 11. Crée un objet CryptoAPI [**ICertRequest2**](/windows/desktop/api/certcli/nn-certcli-icertrequest2) et l’utilise, ainsi que les chaînes qui contiennent la configuration de l’autorité de certification et la demande de certificat pour envoyer la demande à l’autorité de certification.
 12. Vérifie l’état du processus d’inscription et enregistre le certificat installé dans un fichier. La fonction EncodeToFileW est définie dans enrollCommon. cpp.

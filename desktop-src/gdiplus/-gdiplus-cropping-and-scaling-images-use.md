@@ -1,17 +1,17 @@
 ---
-title: Rognage et mise à l’échelle d’images GDI+
+title: rognage et mise à l’échelle d’images GDI+
 description: La classe Graphics fournit plusieurs méthodes DrawImage, dont certaines ont des paramètres de rectangle source et de destination que vous pouvez utiliser pour rogner et mettre à l’échelle des images.
 ms.assetid: cad64615-d8e6-4c03-a6c7-c98267a8f159
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18c70a7b4f7aa0374602326ab856a01bbadc0047
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d3684089ddab4ba963a79b80aafa67e94f94d988de5aa7d7d9f65ad31e48bcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104988328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118067549"
 ---
-# <a name="cropping-and-scaling-gdi-images"></a>Rognage et mise à l’échelle d’images GDI+
+# <a name="cropping-and-scaling-gdi-images"></a>rognage et mise à l’échelle d’images GDI+
 
 La classe [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) fournit plusieurs méthodes **DrawImage** , dont certaines ont des paramètres de rectangle source et de destination que vous pouvez utiliser pour rogner et mettre à l’échelle des images.
 

@@ -3,7 +3,7 @@ title: Message WM_CAP_PAL_OPEN (VFW. h)
 description: Le \_ message WM Cap \_ PAL \_ Open charge une nouvelle palette à partir d’un fichier de palette et la transmet à un pilote de capture.
 ms.assetid: e77b518e-ff03-4622-978f-d9ebaa49c6a4
 keywords:
-- Message WM_CAP_PAL_OPEN Windows Multimedia
+- message WM_CAP_PAL_OPEN Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e949bab50294251543c50d72c8d8b169cfc5514
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 29cb831ca0128b0562d6ee53b8e66309d2e1dbd91803dab13202dc4a6723bfa2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800578"
 ---
 # <a name="wm_cap_pal_open-message"></a>Message d’ouverture de WM \_ Cap \_ PAL \_
 

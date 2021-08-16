@@ -4,16 +4,16 @@ ms.assetid: 4ed594a0-2cc2-40d2-9b5c-dee59916fa1b
 title: Mérite du codec
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ecd177c3c32084a030ce75c15cecd5d4c04fc3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b56112942aa8378b2016616d0e090e17eb7225ca27b363c96e37eb7cccb6286e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104556533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118065121"
 ---
 # <a name="codec-merit"></a>Mérite du codec
 
-À compter de Windows 7, un Media Foundation codec peut se voir attribuer une valeur *mérite* . Lorsque les codecs sont énumérés, les codecs avec des mérites plus élevés sont préférés par rapport aux codecs avec une valeur plus faible. Les codecs ayant n’importe quelle valeur mérite sont préférés sur les codecs sans mérite affecté. Pour plus d’informations sur l’énumération des codecs, consultez [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex).
+à partir de Windows 7, un codec Media Foundation peut se voir attribuer une valeur *mérite* . Lorsque les codecs sont énumérés, les codecs avec des mérites plus élevés sont préférés par rapport aux codecs avec une valeur plus faible. Les codecs ayant n’importe quelle valeur mérite sont préférés sur les codecs sans mérite affecté. Pour plus d’informations sur l’énumération des codecs, consultez [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex).
 
 Les valeurs mérite sont attribuées par Microsoft. Actuellement, seuls les codecs matériels peuvent recevoir une valeur mérite. Le fournisseur du codec reçoit également un certificat numérique, qui est utilisé pour vérifier la valeur mérite du codec. Pour obtenir un certificat, envoyez une demande par courrier électronique à wmla@microsoft.com . Le processus d’obtention d’un certificat consiste à signer une licence et à fournir un ensemble de fichiers d’informations à Microsoft.
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: b5b782a56324faf19dd1527d2cd363d26f0e337c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a816ee16e128b992b18be274d814fe3369e1a59c0204201a9c6bd4a6cbc23857
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859237"
 ---
 # <a name="iuseridentitymanagermanageidentities-method"></a>IUserIdentityManager :: ManageIdentities, méthode
 
@@ -77,7 +77,7 @@ Résultat de l’opération de gestion. En cas de réussite, elle retourne S \_ 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

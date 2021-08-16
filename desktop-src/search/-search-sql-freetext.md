@@ -4,12 +4,12 @@ ms.assetid: 8afc95d1-25cd-4448-8bee-d132c2da22b3
 title: Prédicat FREETEXT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc78be4d5ac75f892c82c6dad390e4583876856f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91f9fb3d65c1b9dc72ef74c8c6862ccfb778ebbd4149b9e5bf5aca4d36674045
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863405"
 ---
 # <a name="freetext-predicate"></a>Prédicat FREETEXT
 
@@ -27,7 +27,7 @@ FREETEXT
 
 La référence de colonne de texte intégral est facultative. Avec elle, vous pouvez spécifier une colonne unique ou un [alias de regroupement de colonnes](-search-sql-with-as.md) sur lequel le prédicat FREETEXT est testé. Lorsque la colonne de texte intégral est spécifiée comme « ALL » ou « \* », toutes les propriétés de texte indexées sont recherchées. Bien qu’il ne soit pas nécessaire que la colonne soit une propriété de texte, les résultats peuvent être incompréhensibles si la colonne est d’un autre type de données. Le nom de colonne peut être un [identificateur](-search-sql-identifiers.md)standard ou délimité, et vous devez le séparer de la condition par une virgule. Si aucune condition de texte intégral n’est fournie, la colonne contents, qui est le corps du document, est utilisée.
 
-Vous pouvez spécifier des paramètres régionaux de recherche pour identifier l’analyseur lexical et les formes fléchies appropriées pour la requête de recherche. Les valeurs de paramètres régionaux valides sont un identificateur de code (LCID) de langue Windows standard. Par exemple, 1033 est le LCID de États-Unis-anglais. Placez le LCID en tant que dernier élément à l’intérieur des parenthèses de la clause FREETEXT. Pour obtenir des informations importantes sur la recherche et les langages, consultez [utilisation des recherches localisées](-search-sql-usinglocsearches.md).
+Vous pouvez spécifier des paramètres régionaux de recherche pour identifier l’analyseur lexical et les formes fléchies appropriées pour la requête de recherche. les valeurs de paramètres régionaux valides sont un identificateur de code (LCID) de langue Windows standard. Par exemple, 1033 est le LCID de États-Unis-anglais. Placez le LCID en tant que dernier élément à l’intérieur des parenthèses de la clause FREETEXT. Pour obtenir des informations importantes sur la recherche et les langages, consultez [utilisation des recherches localisées](-search-sql-usinglocsearches.md).
 
 > [!Note]  
 > Les paramètres régionaux de recherche par défaut sont les paramètres régionaux par défaut du système.

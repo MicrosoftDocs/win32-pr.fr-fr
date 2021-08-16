@@ -4,18 +4,18 @@ ms.assetid: 5A06B8D8-F14B-4D9E-9ED6-4246A26BF945
 title: Stratégie d’autorisation centralisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e1e5798c477a69e80f325a35fd443df101a148c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a07730bff997b545285b0d2845547a4d5deaffe78324e354e7eecbf879b763f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783186"
 ---
 # <a name="centralized-authorization-policy"></a>Stratégie d’autorisation centralisée
 
 Le [scénario de Access Control dynamique (DAC)](/previous-versions/windows/desktop/dacx/dynamic-access-control-developer-extensibility-roadmap) permet une administration de contrôle d’accès centralisée pour les scénarios de serveur de fichiers d’entreprise. La plupart des organisations disposent de plusieurs domaines dans lesquels elles souhaitent contrôler l’accès.
 
-Voici quelques exemples :
+Voici quelques exemples :
 
 -   Contrôle de l’accès aux informations sensibles, dans lequel les fichiers marqués comme sensibles disposent d’autorisations spécifiques
 -   Contrôle de l’accès aux fichiers contenant des informations d’identification personnelle (PII).

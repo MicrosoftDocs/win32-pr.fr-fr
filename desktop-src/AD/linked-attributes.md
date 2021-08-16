@@ -8,12 +8,12 @@ keywords:
 - Attributs AD, liés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee0e3f6706c797497fb1bb25ea82805385f9897e
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2167169d6a9d2f8eabe69323054767ae66823d8e1fe954a232ed63fd31a9b845
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104381762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186992"
 ---
 # <a name="linked-attributes-ad-ds"></a>Attributs liés (AD DS)
 
@@ -30,6 +30,6 @@ La liste suivante répertorie les instructions permettant de définir une nouvel
 -   La valeur [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) d’un lien précédent doit être 2.5.5.1, qui est la syntaxe de l' [**objet (DS-DN)**](/windows/desktop/ADSchema/s-object-ds-dn) .
 -   Par Convention, les attributs de lien Back sont ajoutés à la valeur [**mayContain**](/windows/desktop/ADSchema/a-maycontain) de la classe abstraite [**Top**](/windows/desktop/ADSchema/c-top) . Cela permet de lire l’attribut de lien précédent à partir des objets de toute classe, car ils ne sont pas réellement stockés avec l’objet, mais ils sont calculés en fonction des valeurs de lien de transfert.
 
- 
+ 
 
- 
+ 

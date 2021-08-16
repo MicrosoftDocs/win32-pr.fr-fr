@@ -4,12 +4,12 @@ ms.assetid: 33d369d0-2221-403e-8fbc-a9a1cbd640ad
 title: Constantes PHONEBUTTONFUNCTION_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4874fbfbd1e6900b58a604ba50c33c873eb5abc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a7c7151018d7ff0146137d293aa1543b74a84c5e8ac11d6641b0fc408003854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761311"
 ---
 # <a name="phonebuttonfunction_-constants"></a>\_Constantes PHONEBUTTONFUNCTION
 
@@ -487,7 +487,7 @@ Augmente le volume du son via le haut-parleur combiné du téléphone ou le haut
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la plage 0x80000000 à 0xFFFFFFFF peuvent être assignées pour les extensions spécifiques à l’appareil ; les valeurs de la plage comprise entre 0x00000000 et 0x7FFFFFFF sont réservées.
 

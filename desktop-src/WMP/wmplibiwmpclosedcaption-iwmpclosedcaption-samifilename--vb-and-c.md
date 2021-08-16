@@ -3,9 +3,9 @@ title: IWMPClosedCaption propriété SAMIFileName
 description: La propriété SAMIFileName obtient ou définit le nom d’un fichier contenant les informations nécessaires pour le sous-titrage.
 ms.assetid: c3162c5f-9d66-41d4-920c-ed9840742d9d
 keywords:
-- Propriété SAMIFileName lecteur Windows Media
-- Propriété SAMIFileName lecteur Windows Media, interface IWMPClosedCaption
-- Interface IWMPClosedCaption lecteur Windows Media, propriété SAMIFileName
+- Lecteur Windows Media de la propriété SAMIFileName
+- Lecteur Windows Media de la propriété SAMIFileName, interface IWMPClosedCaption
+- Lecteur Windows Media de l’interface IWMPClosedCaption, propriété SAMIFileName
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d251f2bbf0c8839ab9a0005c69e1869c47af16ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 973b0757eca4251e74180d829205ee6c7080ca821db2eeada3abc825bb4b5073
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930322"
 ---
 # <a name="iwmpclosedcaptionsamifilename-property"></a>IWMPClosedCaption :: SAMIFileName, propriété
 
@@ -48,7 +48,7 @@ Public Property SAMIFileName As System.String
 
 **System. String** qui est le nom du fichier sami (Synchronized Accessible Media Interchange).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le fichier SAMI doit utiliser une extension de nom de fichier. SMI ou. sami.
 
@@ -56,7 +56,7 @@ Si vous ne définissez pas de valeur à l’aide de **SAMIFileName**, cette prop
 
 Une fois que vous avez défini une valeur à l’aide de **SAMIFileName**, cette valeur persiste jusqu’à ce que vous ayez défini une nouvelle valeur (ou jusqu’à ce qu’un nouvel élément multimédia soit ouvert à l’aide du paramètre URL sami). Par conséquent, vous devez définir une nouvelle valeur pour cette propriété avant de lire chaque nouvel élément multimédia. De cette façon, la nouvelle valeur pour **SAMIFileName** prend effet lors de l’ouverture de l’élément multimédia suivant (ou lors de l’appel de **AxWindowsMediaPlayer. Close** ). La spécification d’une nouvelle valeur pour **SAMIFileName** n’a aucun effet sur le média actuel.
 
-Pour faire en sorte que le lecteur Windows Media utilise le fichier SAMI par défaut associé à un élément multimédia particulier, définissez **SAMIFileName** sur une chaîne de longueur nulle ("") avant de lire l’élément multimédia suivant.
+pour que Lecteur Windows Media utilise le fichier SAMI par défaut associé à un élément multimédia particulier, définissez **SAMIFileName** sur une chaîne de longueur nulle ("") avant de lire l’élément multimédia suivant.
 
 ## <a name="requirements"></a>Configuration requise
 
