@@ -4,12 +4,12 @@ ms.assetid: 092e8411-8ca4-4535-99d1-3db4bec5b03b
 title: Affectations de canal Finlande
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 362bce3ac8ba93d0b2cc6984e685d050988ad7a1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ef8ed5d6b341a379ae6cdd4b838b4797ed7dcb4e20966cb46930cabd60f90501
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119330449"
 ---
 # <a name="finland-channel-assignments"></a>Affectations de canal Finlande
 
@@ -17,7 +17,7 @@ Cette rubrique répertorie les tables de fréquence utilisées pour le réglage 
 
 Pour obtenir une explication des tableaux suivants, consultez [tables et affectations](tables-and-assignments.md).
 
-Les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
+les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
 
 ## <a name="cable-assignments"></a>Attributions de câble
 

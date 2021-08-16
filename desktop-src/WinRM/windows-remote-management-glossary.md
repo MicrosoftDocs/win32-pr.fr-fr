@@ -1,19 +1,19 @@
 ---
-title: Glossaire Windows Remote Management
+title: Windows Glossaire de la gestion à distance
 description: Page de glossaire
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: bbda0db7-f473-444b-85ab-f3c5240c4b18
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3b6d7411063fbb117c68e211181142ac773f924
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 532562a45090040cebbefae2bfff601727efb8bca794a9d9833e61a53ad63a8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106523768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117743263"
 ---
-# <a name="windows-remote-management-glossary"></a>Glossaire Windows Remote Management
+# <a name="windows-remote-management-glossary"></a>Windows Glossaire de la gestion à distance
 
 
 <dl> <dt>
@@ -54,7 +54,7 @@ Consultez [*Baseboard Management Controller (BMC)*](windows-remote-management-gl
 
 <dl> <dt>
 
-**MODÈLE**
+**CIM**
 </dt> <dd>
 
 Voir [*Common Information Model (CIM)*](windows-remote-management-glossary.md).
@@ -142,7 +142,7 @@ Composant du système d’exploitation qui reçoit les événements du BMC et d�
 **transfert d’événements**
 </dt> <dd>
 
-Une notification d’événements qui se produisent sur des ordinateurs distants peut être envoyée aux applications d’abonnement. Le transfert d’événements n’est pas une fonctionnalité de WinRM, mais du [Journal des événements Windows](/windows/desktop/WES/windows-event-log). Le transfert d’événements devient disponible pour la première fois dans Windows Vista. Les applications de gestion, telles que les Microsoft Operations Manager (MOM) utilisent le transfert d’événements.
+Une notification d’événements qui se produisent sur des ordinateurs distants peut être envoyée aux applications d’abonnement. le transfert d’événements n’est pas une fonctionnalité de WinRM, mais du [journal des événements Windows](/windows/desktop/WES/windows-event-log). le transfert d’événements devient disponible pour la première fois dans Windows Vista. Les applications de gestion, telles que les Microsoft Operations Manager (MOM) utilisent le transfert d’événements.
 
 </dd> </dl>
 
@@ -192,7 +192,7 @@ L’application cliente obtient les données BMC via l' [*écouteur*](windows-re
 **Interface de gestion de plateforme intelligente (IPMI)**
 </dt> <dd>
 
-Une norme de l’industrie informatique pour l’architecture du [*contrôleur BMC (Baseboard Management Controller)*](windows-remote-management-glossary.md). Les fonctionnalités de gestion du matériel Windows fournissent un [*pilote IPMI*](windows-remote-management-glossary.md) et un [*fournisseur IPMI*](windows-remote-management-glossary.md) WMI qui permettent aux scripts de gestion, aux outils en ligne de commande et aux applications d’obtenir des données BMC. Le fournisseur IPMI a des [classes](/previous-versions/windows/desktop/ipmiprv/ipmi-provider)WMI.
+Une norme de l’industrie informatique pour l’architecture du [*contrôleur BMC (Baseboard Management Controller)*](windows-remote-management-glossary.md). les fonctionnalités de gestion du matériel Windows fournissent un [*pilote ipmi*](windows-remote-management-glossary.md) et un [*fournisseur ipmi*](windows-remote-management-glossary.md) WMI qui permettent aux scripts de gestion, aux outils en ligne de commande et aux applications d’obtenir des données BMC. Le fournisseur IPMI a des [classes](/previous-versions/windows/desktop/ipmiprv/ipmi-provider)WMI.
 
 </dd> <dt>
 
@@ -231,7 +231,7 @@ Voir [*style de contrôleur clavier (KCS)*](windows-remote-management-glossary.m
 **Authentification Kerberos**
 </dt> <dd>
 
-Méthode d’authentification mutuelle entre le client et le serveur qui utilise des clés chiffrées. Pour les ordinateurs qui s’exécutent sur un système d’exploitation Windows, le compte client doit être un compte de domaine dans le même domaine que le serveur. Lorsqu’un client utilise des informations d’identification par défaut, Kerberos est la méthode d’authentification si la chaîne de connexion ne correspond pas à l’un des éléments suivants : localhost, 127.0.0.1 ou \[ :: 1 \] .
+Méthode d’authentification mutuelle entre le client et le serveur qui utilise des clés chiffrées. pour les ordinateurs qui exécutent sur un système d’exploitation Windows, le compte client doit être un compte de domaine dans le même domaine que le serveur. Lorsqu’un client utilise des informations d’identification par défaut, Kerberos est la méthode d’authentification si la chaîne de connexion ne correspond pas à l’un des éléments suivants : localhost, 127.0.0.1 ou \[ :: 1 \] .
 
 </dd> <dt>
 
@@ -271,14 +271,14 @@ Un package d’informations transmises entre des ordinateurs ou des réseaux dis
 **namespace**
 </dt> <dd>
 
-Un espace de noms [*WMI*](windows-remote-management-glossary.md) , qui est un regroupement logique de classes et d’instances WMI pour contrôler l’étendue et l’accès. La source de données de gestion la plus fréquente pour les systèmes exécutant Windows est l' \\ espace de noms CIMV2 racine, qui contient des classes telles que le [**\_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process). Les espaces de noms apparaissent dans l’URI de ressource pour les classes WMI, par exemple https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service .
+Un espace de noms [*WMI*](windows-remote-management-glossary.md) , qui est un regroupement logique de classes et d’instances WMI pour contrôler l’étendue et l’accès. la source de données de gestion la plus fréquente pour les systèmes qui exécutent Windows est l' \\ espace de noms cimv2 racine, qui contient des classes telles que le [**\_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process). Les espaces de noms apparaissent dans l’URI de ressource pour les classes WMI, par exemple https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service .
 
 </dd> <dt>
 
 **Négocier l’authentification**
 </dt> <dd>
 
-Type d’authentification unique négocié, qui est l’implémentation Windows d’un mécanisme de [*négociation GSSAPI simple et protégé (SPNEGO)*](windows-remote-management-glossary.md). La négociation SPNEGO détermine si l’authentification est gérée par Kerberos ou NTLM. Kerberos est le mécanisme préféré. L’authentification par négociation sur les systèmes Windows est également appelée authentification intégrée de Windows.
+un type d’authentification unique négocié, qui est l’implémentation Windows du mécanisme de [*négociation GSSAPI Simple et protégé (SPNEGO)*](windows-remote-management-glossary.md). La négociation SPNEGO détermine si l’authentification est gérée par Kerberos ou NTLM. Kerberos est le mécanisme préféré. l’authentification par négociation sur les systèmes basés sur des Windows est également appelée authentification intégrée Windows.
 
 </dd> <dt>
 
@@ -378,14 +378,14 @@ Application qui fournit des services de gestion aux clients via le protocole WS-
 **session**
 </dt> <dd>
 
-Une connexion entre un Windows Remote Management [*client*](windows-remote-management-glossary.md) et l' [*écouteur*](windows-remote-management-glossary.md)WinRM local ou distant, ou le service. Cette connexion est semblable à la connexion entre un script client WMI et WMI sur un serveur distant. Les opérations de session, telles que l’énumération d’une ressource (énumération), l’obtention d’une instance d’une ressource (obtenir) ou l’exécution d’une méthode de ressource (Invoke) sont des méthodes de l’objet de **session** . Un objet de **session** est créé par [**WSMan. CreateSession**](wsman-createsession.md).
+une connexion entre un Windows Remote Management [*client*](windows-remote-management-glossary.md) et l' [*écouteur*](windows-remote-management-glossary.md)WinRM local ou distant, ou le service. Cette connexion est semblable à la connexion entre un script client WMI et WMI sur un serveur distant. Les opérations de session, telles que l’énumération d’une ressource (énumération), l’obtention d’une instance d’une ressource (obtenir) ou l’exécution d’une méthode de ressource (Invoke) sont des méthodes de l’objet de **session** . Un objet de **session** est créé par [**WSMan. CreateSession**](wsman-createsession.md).
 
 </dd> <dt>
 
 **Interface SPNEGO (simple and Protected GSS-API Negotiation Mechanism)**
 </dt> <dd>
 
-Mécanisme d’authentification utilisé par le client ou le serveur pour recevoir des demandes de données via le WinRM dans un contexte de Active Directory. SPNEGO est basé sur un protocole RFC (Request for Comments) produit par l’IETF (Internet Engineering Task Force). SPNEGO est également connu sous le nom [*d’authentification intégrée de Windows*](windows-remote-management-glossary.md), le terme utilisé dans les rubriques d’aide Windows Remote Management.
+Mécanisme d’authentification utilisé par le client ou le serveur pour recevoir des demandes de données via le WinRM dans un contexte de Active Directory. SPNEGO est basé sur un protocole RFC (Request for Comments) produit par l’IETF (Internet Engineering Task Force). SPNEGO est également connu sous le nom [*d’authentification intégrée Windows*](windows-remote-management-glossary.md), le terme utilisé dans les rubriques d’aide Windows Remote Management.
 
 </dd> <dt>
 
@@ -463,7 +463,7 @@ Consultez [*négociation de l’authentification*](windows-remote-management-glo
 **Windows Management Instrumentation (WMI)**
 </dt> <dd>
 
-L’implémentation Microsoft de la norme WBEM (Web-Based Enterprise Management) publiée par la [*DMTF (Distributed Management Task Force)*](windows-remote-management-glossary.md). WMI vous permet de gérer des ordinateurs locaux et distants et de modéliser des objets ordinateur et réseau à l’aide d’une extension de la norme [*Common Information Model (CIM)*](windows-remote-management-glossary.md) .
+l’implémentation Microsoft de la norme WBEM (Web-Based Enterprise management) publiée par la [*DMTF (Distributed Management Task Force)*](windows-remote-management-glossary.md). WMI vous permet de gérer des ordinateurs locaux et distants et de modéliser des objets ordinateur et réseau à l’aide d’une extension de la norme [*Common Information Model (CIM)*](windows-remote-management-glossary.md) .
 
 </dd> <dt>
 
@@ -474,17 +474,17 @@ L’implémentation Microsoft d’un service Web de gestion basée sur le protoc
 
 </dd> <dt>
 
-**Windows Remote Shell (WinRS)**
+**Windows Shell distant (WinRS)**
 </dt> <dd>
 
-Outil shell qui s’appuie sur [*Windows Remote Management*](windows-remote-management-glossary.md) pour exécuter des commandes distantes, en particulier pour les serveurs headless. L’outil en ligne de commande est Winrs.
+outil shell qui s’appuie sur [*Windows Remote Management*](windows-remote-management-glossary.md) pour exécuter des commandes distantes, en particulier pour les serveurs headless. L’outil en ligne de commande est Winrs.
 
 </dd> <dt>
 
 **WMI**
 </dt> <dd>
 
-Voir [*Windows Management Instrumentation (WMI)*](windows-remote-management-glossary.md).
+voir [*Windows Management Instrumentation (WMI)*](windows-remote-management-glossary.md).
 
 </dd> <dt>
 

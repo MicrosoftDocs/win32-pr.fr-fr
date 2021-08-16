@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d591d4c23b626eaf2e2bfb10b528ff7c054507df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 754b72d47e4fecbc5de3697cbec255251714885835a2ec429210c9ce5f489c77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793753"
 ---
 # <a name="counter-complex-type"></a>Type complexe de compteur
 
@@ -391,7 +391,7 @@ Définit un compteur.
 <tr class="even">
 <td>type</td>
 
-<td>Nom du type de compteur. Pour connaître les valeurs possibles, consultez le bloc de syntaxe ci-dessus. Pour plus d’informations sur chaque type, consultez <a href="/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)">types de compteurs</a> dans le Guide de déploiement de Windows 2003. Le nom respecte la casse. Utilisez des minuscules. <br/></td>
+<td>Nom du type de compteur. Pour connaître les valeurs possibles, consultez le bloc de syntaxe ci-dessus. pour plus d’informations sur chaque type, consultez <a href="/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)">Types de compteurs</a> dans le Windows Guide de déploiement de 2003. Le nom respecte la casse. Utilisez des minuscules. <br/></td>
 </tr>
 <tr class="odd">
 <td>URI</td>
@@ -403,7 +403,7 @@ Définit un compteur.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour assurer la compatibilité descendante, chaque compteur de l’ensemble de compteurs doit spécifier les mêmes valeurs **perfFreqID** et **perfTimeID** .
 
@@ -413,8 +413,8 @@ Pour assurer la compatibilité descendante, chaque compteur de l’ensemble de c
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

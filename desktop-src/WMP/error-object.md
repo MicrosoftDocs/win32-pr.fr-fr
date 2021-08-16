@@ -3,7 +3,7 @@ title: Error, objet (kit de développement logiciel (SDK) WMP)
 description: L’objet Error donne accès à une collection d’objets ErrorItem.
 ms.assetid: 1f026ad4-0240-48fe-90ad-739a24e8a7ca
 keywords:
-- Objet d’erreur Windows Media Player
+- objet d’erreur Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0aae4c86dc3f5282be7a16207923e1238e217a9e
-ms.sourcegitcommit: 6f7576b297d54c0b8f9c79e02c912b83041aa4fb
+ms.openlocfilehash: c8e5b7627db2c55eb41a267f6c8d3a7a779e2f20190ca3061a49a41eb8577adb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "106512487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748468"
 ---
 # <a name="error-object"></a>Error, objet
 
@@ -34,7 +34,7 @@ L’objet **Error** prend en charge la propriété suivante.
 
 
 
- 
+ 
 
 L’objet **Error** prend en charge les méthodes suivantes.
 
@@ -44,11 +44,11 @@ L’objet **Error** prend en charge les méthodes suivantes.
 |----------------------------------------------|-------------------------------------------------------------------------------------------------|
 | [clearErrorQueue](error-clearerrorqueue.md) | Efface les erreurs de la file d’attente des erreurs.                                                         |
 | [item](error-item.md)                       | Récupère un objet [ErrorItem](erroritem-object.md) à partir de la file d’attente des erreurs.                     |
-| [aide à la](error-webhelp.md)                 | Ouvre la page d’aide Web du lecteur Windows Media pour afficher des informations supplémentaires sur l’erreur. |
+| [aide à la](error-webhelp.md)                 | lance la Lecteur Windows Media page d’aide Web pour afficher des informations supplémentaires sur l’erreur. |
 
 
 
- 
+ 
 
 L’objet d' **erreur** est accessible via la propriété suivante.
 
@@ -60,7 +60,7 @@ L’objet d' **erreur** est accessible via la propriété suivante.
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -69,9 +69,9 @@ L’objet d' **erreur** est accessible via la propriété suivante.
 [**Référence du modèle objet pour l’écriture de scripts**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

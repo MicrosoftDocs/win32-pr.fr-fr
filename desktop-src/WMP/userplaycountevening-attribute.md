@@ -3,7 +3,7 @@ title: Attribut UserPlaycountEvening
 description: L’attribut UserPlaycountEvening est le nombre de fois que l’élément a été lu entre 17 00 et 22 00 heure locale.
 ms.assetid: 2f8f5fbd-8edf-49ce-beb9-b9301b9d99da
 keywords:
-- Attribut UserPlaycountEvening lecteur Windows Media
+- Lecteur Windows Media de l’attribut UserPlaycountEvening
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e7c84af7d661dd1b99110f27e3b9d44daef9bb6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 51249a2c3e20f70da8cdc78471c67e3c3463b106549a10bb57f30e33f26cc196
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134402"
 ---
 # <a name="userplaycountevening-attribute"></a>Attribut UserPlaycountEvening
 
@@ -30,7 +30,7 @@ L’attribut **UserPlaycountEvening** est le nombre de fois que l’élément a 
 -   [Sélections](playlist-attributes-ref.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 

@@ -4,12 +4,12 @@ ms.assetid: c0b1bcf0-a2ea-4ec1-9ed8-892bfceec262
 title: System. Supplemental. AlbumID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad2b609d9d77d85f417d7274d1e5dcde06527c74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc459297765fd9a4ea40efeecbfffab7c4d83bf9eb576032e836e209c2b19106
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095506"
 ---
 # <a name="systemsupplementalalbumid"></a>System. Supplemental. AlbumID
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -66,7 +66,7 @@ Données binaires utilisées par la réplication de fichiers.
 | Range-Upper            | 65536                                                                                                                                                                                                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                              |
-| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-Paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
+| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ Données binaires utilisées par la réplication de fichiers.
 | Range-Upper            | 65536                                                                                                                                                                                                                                                                                   |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                              |
-| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-Paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
+| Classes utilisées dans        | [**NTFRS-Member**](c-ntfrsmember.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-paramètres**](c-ntfrssettings.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**NTFRS-abonnements**](c-ntfrssubscriptions.md)<br/> |
 
 
 

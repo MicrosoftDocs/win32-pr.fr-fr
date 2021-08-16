@@ -4,12 +4,12 @@ ms.assetid: 6fdaccb0-45bc-48f2-8f63-3df0bdf1dca4
 title: Ajout de noms de compteurs et de descriptions au Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e9d2c97ebe80a8ef2a8396ca42583cbad874859
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e58333e9694b9aa74ff1d5ade6a399aaa813e7735ea315be529587e813fec0fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106525061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117794054"
 ---
 # <a name="adding-counter-names-and-descriptions-to-the-registry"></a>Ajout de noms de compteurs et de descriptions au Registre
 
@@ -19,7 +19,7 @@ ms.locfileid: "106525061"
 Les noms et les descriptions de tous les objets de performance v1 et de leurs compteurs doivent être installés sur le système. Pour stocker les noms et les descriptions des objets et des compteurs de votre [fournisseur v1](providing-counter-data.md):
 
 - [Créez un fichier d’en-tête. h](#creating-a-symbolic-constants-h-file) contenant les constantes symboliques pour les décalages de vos objets et compteurs.
-- [Créez une initialisation (. INI)](#creating-an-initialization-ini-file) qui contient les chaînes.
+- [Créez un fichier d’initialisation (.INI)](#creating-an-initialization-ini-file) qui contient les chaînes.
 - Lors de l’installation de votre composant, [Exécutez l’outil **lodctr**](#running-the-lodctr-tool) pour installer les noms et les descriptions dans le registre.
 - Lors de la désinstallation de votre composant, exécutez l’outil unlodctr pour supprimer les noms et les descriptions du Registre.
 
@@ -57,11 +57,11 @@ L’exemple suivant illustre un fichier de constante symbolique, nommé CounterO
 #endif // OFFSETS_H
 ```
 
-## <a name="creating-an-initialization-ini-file"></a>Création d’une initialisation (. Fichier INI)
+## <a name="creating-an-initialization-ini-file"></a>Création d’un fichier d’initialisation (.INI)
 
-L’initialisation (. INI) contient le nom et les chaînes d’aide pour chaque objet et compteur définis dans votre fichier de symboles. La. Le fichier INI est utilisé comme entrée pour **lodctr** lors de l’installation de votre fournisseur.
+Le fichier d’initialisation (.INI) contient le nom et les chaînes d’aide pour chaque objet et compteur définis dans votre fichier de symboles. Le fichier .INI est utilisé comme entrée pour **lodctr** lors de l’installation de votre fournisseur.
 
-La. Le fichier INI doit être encodé au format UTF-16LE (avec la marque d’ordre d’octet) et doit contenir les sections et les clés suivantes :
+Le fichier .INI doit être encodé au format UTF-16LE (avec la marque d’ordre d’octet) et doit avoir les sections et les clés suivantes :
 
 ```ini
 [info]
@@ -87,7 +87,7 @@ La `[info]` section contient des informations générales sur le fournisseur. Le
 |Clé|Description
 |---|-----------
 |**DriverName**| Spécifiez le nom de la clé de performance du fournisseur située dans le Registre sous la `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services` clé. Pour plus d’informations sur la création de cette clé, consultez [création de la clé de performance de l’application](creating-the-applications-performance-key.md).
-|**SymbolFile**| Spécifiez le fichier d’en-tête. h qui contient les valeurs symboliques des objets et des compteurs de votre fournisseur. Pendant l’installation (lors de l’appel de **lodctr**), le fichier d’en-tête doit se trouver dans le même répertoire que le. Fichier INI.
+|**SymbolFile**| Spécifiez le fichier d’en-tête. h qui contient les valeurs symboliques des objets et des compteurs de votre fournisseur. Pendant l’installation (lors de l’appel de **lodctr**), le fichier d’en-tête doit se trouver dans le même répertoire que le fichier .INI.
 |**TPM**| Si vous incluez cette clé dans la `[info]` section, **lodctr** ajoute une valeur de registre de code de validation de bibliothèque à votre clé de performance avec une signature binaire de votre dll de performance. Lorsque PERFLIB appelle votre DLL, il compare la signature avec votre DLL pour déterminer si la DLL a été modifiée. La valeur de la clé **approuvée** est ignorée.
 
 Les `DriverName` `SymbolFile` clés et sont requises.
@@ -99,7 +99,7 @@ La `[objects]` section fournit une liste des objets de performance que le fourni
 Pour chaque objet (CounterSet) pris en charge par votre fournisseur, ajoutez une clé nommée `<symbol>_<langid>_NAME=` à la `[objects]` section, où `<symbol>` est le nom de l’objet et `<langid>` est l’ID de langue de l’une des langues prises en charge. La valeur est ignorée.
 
 > [!IMPORTANT]
-> La `[objects]` section améliore les performances du système. Bien que la section objets soit facultative, vous devez toujours inclure cette section dans votre. Fichier INI. Si vous incluez cette section, votre DLL de performance est appelée uniquement si vous prenez en charge l’objet demandé. Si vous n’incluez pas la section objets, votre DLL est appelée pour chaque requête, car le système ne connaît pas les objets pris en charge par votre fournisseur. Si la section de l’objet n’est pas incluse, **lodctr** génère un message dans le journal des événements de l’application, indiquant que le. Le fichier INI ne contient pas de section objets. L’identificateur d’événement de ce message est 2000.
+> La `[objects]` section améliore les performances du système. Bien que la section objets soit facultative, vous devez toujours inclure cette section dans votre fichier de .INI. Si vous incluez cette section, votre DLL de performance est appelée uniquement si vous prenez en charge l’objet demandé. Si vous n’incluez pas la section objets, votre DLL est appelée pour chaque requête, car le système ne connaît pas les objets pris en charge par votre fournisseur. Si la section de l’objet n’est pas incluse, **lodctr** génère un message dans le journal des événements de l’application indiquant que le fichier .INI ne contenait pas de section objets. L’identificateur d’événement de ce message est 2000.
 
 ### <a name="languages-section"></a>section [languages]
 
@@ -183,7 +183,7 @@ BYTES_SERVED_00C_HELP=Le nombre d'octets servis du cache.
 
 ## <a name="running-the-lodctr-tool"></a>Exécution de l’outil lodctr
 
-Pour charger les noms et les chaînes d’aide définis dans votre. Fichier INI (au cours de l’installation de votre fournisseur), exécutez l’outil **lodctr** à partir du dossier qui contient votre. Fichier INI et fichier d’en-tête. L’outil est inclus avec l’ordinateur. Vous devez exécuter **lodctr** avec des privilèges élevés. Le paramètre de **lodctr** est le chemin d’accès à votre. Fichier INI. Par exemple : `lodctr "C:\Program Files\MyCompany\MyProvider\MyProvider.ini"`.
+Pour charger les noms et les chaînes d’aide définis dans votre fichier .INI (au cours de l’installation de votre fournisseur), exécutez l’outil **lodctr** à partir du dossier qui contient votre fichier .INI et votre fichier d’en-tête. L’outil est inclus avec l’ordinateur. Vous devez exécuter **lodctr** avec des privilèges élevés. Le paramètre de **lodctr** est le chemin d’accès à votre fichier .INI. Par exemple : `lodctr "C:\Program Files\MyCompany\MyProvider\MyProvider.ini"`.
 
 Pour décharger les chaînes de noms et d’aide (pendant la désinstallation), exécutez l’outil **unlodctr** . Vous devez exécuter **unlodctr** avec des privilèges élevés. Le paramètre de **unlodctr** est le DriverName de votre fournisseur (nom de la clé de performance du fournisseur). Par exemple : `unlodctr "MyProvider"`.
 
@@ -191,7 +191,7 @@ Avant d’exécuter **lodctr**, assurez-vous que votre application comporte une 
 
 Comme alternative à l’exécution de **lodctr**, vous pouvez appeler [**LoadPerfCounterTextStrings**](/windows/win32/api/loadperf/nf-loadperf-loadperfcountertextstringsw) (défini dans loadperf. h) à partir de votre programme d’installation pour charger les descriptions des noms de compteur. Vous pouvez ensuite appeler [**UnloadPerfCounterTextStrings**](/windows/win32/api/loadperf/nf-loadperf-unloadperfcountertextstringsw) pendant la désinstallation.
 
-L’utilitaire **lodctr** copie les chaînes à partir du. INI vers les **compteurs** et les valeurs de registre de l' **aide** sous les sous-clés de langue appropriées. Si la sous-clé de langue correspondante n’existe pas, les chaînes de cette langue ne sont pas copiées. L’utilitaire met également à jour le **dernier compteur** et la **dernière valeur d’aide** . Les noms et les descriptions des compteurs de performances sont stockés à l’emplacement suivant dans le registre.
+L’utilitaire **lodctr** copie les chaînes du fichier .INI vers les **compteurs** et les valeurs de registre de l' **aide** sous les sous-clés de langue appropriées. Si la sous-clé de langue correspondante n’existe pas, les chaînes de cette langue ne sont pas copiées. L’utilitaire met également à jour le **dernier compteur** et la **dernière valeur d’aide** . Les noms et les descriptions des compteurs de performances sont stockés à l’emplacement suivant dans le registre.
 
 ```
 HKEY_LOCAL_MACHINE

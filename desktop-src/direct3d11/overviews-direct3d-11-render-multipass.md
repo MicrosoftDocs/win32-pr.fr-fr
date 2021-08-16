@@ -4,12 +4,12 @@ description: Le rendu à passe multiple est un processus dans lequel une applica
 ms.assetid: 9a11686a-fd99-4d40-8b02-6f8ec18346e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70fcf7f3f04bd641fdf82c9cf317e8a2ec99e85c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 242573dea2982f3525082187aad536a407e446c4ce59f116f53b8fa0d40fc582
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124207"
 ---
 # <a name="multiple-pass-rendering"></a>Rendu Multiple-Pass
 
@@ -48,7 +48,7 @@ Le pseudo-code suivant montre comment effectuer un rendu à passe multiple :
 > [!Note]  
 > Le contexte immédiat modifie une ressource, qui est liée au contexte immédiat comme une vue de la cible de rendu (RTV); en revanche, chaque contexte différé utilise simplement la ressource, qui est liée au contexte différé comme une vue de ressource de nuanceur (SRV). Pour plus d’informations sur les contextes immédiats et différés, consultez [rendu immédiat et différé](overviews-direct3d-11-render-multi-thread-render.md).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -57,9 +57,9 @@ Le pseudo-code suivant montre comment effectuer un rendu à passe multiple :
 [Rendu](overviews-direct3d-11-render.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

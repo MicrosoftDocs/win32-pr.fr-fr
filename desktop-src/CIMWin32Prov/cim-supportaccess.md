@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: db5f1dc4331bd50e2fc61899f9d45fe2cdb0eca0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c53254b51b228efb2c1f14b7fb5f07475fb275d20c7df6444dc88e048bb1d30f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020907"
 ---
 # <a name="cim_supportaccess-class"></a>\_Classe CIM SupportAccess
 
@@ -75,7 +75,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|FRU DMTF \| 002,11 "," MIF. \|FRU DMTF \| 002,12 ")
 </dt> </dl>
 
-Détails du mode de communication. Par exemple, si la propriété **CommunicationMode** est « Phone », cette propriété spécifie le numéro de téléphone à appeler.
+Détails du mode de communication. par exemple, si la propriété **CommunicationMode** est « Téléphone », cette propriété spécifie le numéro de téléphone à appeler.
 
 </dd> <dt>
 
@@ -209,7 +209,7 @@ Chaîne de forme libre arbitraire définie par le fournisseur du produit ou par 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

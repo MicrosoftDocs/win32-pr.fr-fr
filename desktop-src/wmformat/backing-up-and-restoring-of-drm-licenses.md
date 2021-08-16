@@ -5,7 +5,7 @@ ms.assetid: ec2777e9-76af-43fe-8bd5-4d7532d2fb32
 keywords:
 - Windows Media Format SDK, sauvegarde des licences DRM
 - Windows Media Format SDK, restauration de licences DRM
-- Windows Media Format SDK, licences DRM
+- Windows Kit de développement logiciel (SDK) Media format, licences DRM
 - Windows Media Format SDK, licences pour DRM
 - Windows Media Format SDK, fonctionnalité de restauration de sauvegarde
 - Windows Media Format SDK, service de gestion des licences
@@ -32,12 +32,12 @@ keywords:
 - détection des fraudes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7718f03170077f7db624f8a99b8262239a79ca9
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 019163a42312b14b7d7b7e15cea68be1996a976e42b31491f62486a43d37b8bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104316650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028147"
 ---
 # <a name="backing-up-and-restoring-of-drm-licenses"></a>Sauvegarde et restauration de licences DRM
 
@@ -66,7 +66,7 @@ Tout d’abord, les utilisateurs sauvegardent les licences dans l’application,
 > [!Note]  
 > Lorsqu’un utilisateur final restaure une licence sur un autre ordinateur et que la licence requiert une individualisation, l’utilisateur final doit autoriser les composants DRM à être mis à jour. Vous devez implémenter un processus dans votre application de lecteur pour prendre en charge cette fonctionnalité.
 
- 
+ 
 
 ## <a name="detecting-fraud"></a>Détection des fraudes
 
@@ -77,7 +77,7 @@ Conformément à la stratégie de détection des fraudes de Microsoft, lorsqu’
 > [!Note]  
 > DRM n’est pas pris en charge par la version x64 de ce kit de développement logiciel (SDK).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -89,9 +89,9 @@ Conformément à la stratégie de détection des fraudes de Microsoft, lorsqu’
 [**Sauvegarde et restauration de licences**](backing-up-and-restoring-licenses.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

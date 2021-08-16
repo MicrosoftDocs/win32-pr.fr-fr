@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a4222033d7e124e6ef29714bc47faf5664950fa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 464f7ad27603e506632d87254eaa4f76cbedf39ed15e353050cd13da0fa46204
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134932"
 ---
 # <a name="networkrecoveredpackets"></a>Network. recoveredPackets
 
@@ -33,7 +33,7 @@ La propriété **recoveredPackets** récupère le nombre de paquets récupérés
 
 Cette propriété est un **nombre** en lecture seule (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque fois que la lecture est arrêtée et redémarrée, cette propriété est définie sur zéro. Elle n’est pas réinitialisée si la lecture est suspendue.
 
@@ -41,7 +41,7 @@ Cette propriété retourne des informations valides uniquement au moment de l’
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise le *réseau*. **recoveredPackets** pour afficher le nombre de paquets récupérés. Les informations s’affichent dans une balise DIV HTML créée avec ID = « PR ». L’exemple utilise un minuteur avec un intervalle de 1 seconde pour mettre à jour l’affichage. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise le *réseau*. **recoveredPackets** pour afficher le nombre de paquets récupérés. Les informations s’affichent dans une balise DIV HTML créée avec ID = « PR ». L’exemple utilise un minuteur avec un intervalle de 1 seconde pour mettre à jour l’affichage. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

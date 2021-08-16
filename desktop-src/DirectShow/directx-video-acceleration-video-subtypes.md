@@ -4,12 +4,12 @@ ms.assetid: 031b076b-cdfa-407f-8efa-391bce3075ef
 title: Sous-types vidéo DirectX Video Acceleration (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0df0f079e795638c6802570c95e2468209a7256
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f9a2197d504929e001e07fb1ac107dbd7b13b1f443e43ec8ed90232372b08f69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016147"
 ---
 # <a name="directx-video-acceleration-video-subtypes"></a>Sous-types vidéo DirectX Video Acceleration
 

@@ -54,10 +54,10 @@ contient une partie de la carte rpc et stocke le numéro rpc pour UNIX rpc.
 |------------------------|---------------------------------------|
 | ID de lien                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | False                                 |
-| Est de valeur unique       | True                                  |
-| Est indexé             | False                                 |
-| Dans le catalogue global      | False                                 |
+| System-Only            | Faux                                 |
+| Est de valeur unique       | Vrai                                  |
+| Est indexé             | Faux                                 |
+| Dans le catalogue global      | Faux                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                          |
 | Range-Lower            | \-                                    |
 | Range-Upper            | \-                                    |
@@ -75,10 +75,10 @@ contient une partie de la carte rpc et stocke le numéro rpc pour UNIX rpc.
 |------------------------|---------------------------------------|
 | ID de lien                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | False                                 |
-| Est de valeur unique       | True                                  |
-| Est indexé             | False                                 |
-| Dans le catalogue global      | False                                 |
+| System-Only            | Faux                                 |
+| Est de valeur unique       | Vrai                                  |
+| Est indexé             | Faux                                 |
+| Dans le catalogue global      | Faux                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                          |
 | Range-Lower            | \-                                    |
 | Range-Upper            | \-                                    |
@@ -96,10 +96,10 @@ contient une partie de la carte rpc et stocke le numéro rpc pour UNIX rpc.
 |------------------------|---------------------------------------|
 | ID de lien                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | False                                 |
-| Est de valeur unique       | True                                  |
-| Est indexé             | False                                 |
-| Dans le catalogue global      | False                                 |
+| System-Only            | Faux                                 |
+| Est de valeur unique       | Vrai                                  |
+| Est indexé             | Faux                                 |
+| Dans le catalogue global      | Faux                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                          |
 | Range-Lower            | \-                                    |
 | Range-Upper            | \-                                    |
@@ -117,10 +117,10 @@ contient une partie de la carte rpc et stocke le numéro rpc pour UNIX rpc.
 |------------------------|---------------------------------------|
 | ID de lien                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | False                                 |
-| Est de valeur unique       | True                                  |
-| Est indexé             | False                                 |
-| Dans le catalogue global      | False                                 |
+| System-Only            | Faux                                 |
+| Est de valeur unique       | Vrai                                  |
+| Est indexé             | Faux                                 |
+| Dans le catalogue global      | Faux                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                          |
 | Range-Lower            | \-                                    |
 | Range-Upper            | \-                                    |

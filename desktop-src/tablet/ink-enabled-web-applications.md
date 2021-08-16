@@ -4,12 +4,12 @@ ms.assetid: 4a5a453d-e3c1-40e6-b0eb-99009f0024dd
 title: Applications Web Ink-Enabled
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b14e368c1d2e97e35afa6d72a0fe082f304c5fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf8097bd55c34abbcb4469d74642e9dbc9a5f29e3b0b7110a76543fd40f5b1ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118043490"
 ---
 # <a name="ink-enabled-web-applications"></a>Applications Web Ink-Enabled
 
@@ -17,7 +17,7 @@ L’exemple de [blog Ink](ink-blog-web-sample.md) illustre plusieurs techniques 
 
 ## <a name="testing-ink-enablement"></a>Test de l’activation de l’encre
 
-Il peut être utile de vérifier si l’ordinateur client peut afficher des contrôles à encre activée. Cela vous permet d’avoir un contrôle thewebpageshow si le client est un Tablet PC ou un autre, dans le cas contraire. Une façon de tester cela consiste à tenter de créer un objet tel qu’un objet [InkOverlay](/previous-versions/ms833057(v=msdn.10)), qui peut être créé uniquement sur un ordinateur sur lequel le système d’exploitation Windows Vista, Windows XP Tablet PC Edition ou le kit de développement logiciel (SDK) Windows XP Tablet PC Edition est installé. Si vous créez l’objet à l’intérieur d’un bloc try/catch et interceptez toutes les exceptions levées (souvent, une exception [FileNotFoundException](/previous-versions/windows/) est levée pour indiquer que l’assembly avec ce contrôle est introuvable), vous pouvez détecter si l’ordinateur client peut prendre en charge les contrôles compatibles avec l’encre. Dans l’exemple, ce code se trouve dans le constructeur de la `InkArea` classe.
+Il peut être utile de vérifier si l’ordinateur client peut afficher des contrôles à encre activée. Cela vous permet d’avoir un contrôle thewebpageshow si le client est un Tablet PC ou un autre, dans le cas contraire. une façon de tester cela consiste à tenter de créer un objet tel qu’un objet [InkOverlay](/previous-versions/ms833057(v=msdn.10)), qui peut être créé uniquement sur un ordinateur sur lequel est installé le Windows Vista, Windows XP tablet pc edition ou le kit de développement logiciel (SDK) Windows XP tablet pc edition. Si vous créez l’objet à l’intérieur d’un bloc try/catch et interceptez toutes les exceptions levées (souvent, une exception [FileNotFoundException](/previous-versions/windows/) est levée pour indiquer que l’assembly avec ce contrôle est introuvable), vous pouvez détecter si l’ordinateur client peut prendre en charge les contrôles compatibles avec l’encre. Dans l’exemple, ce code se trouve dans le constructeur de la `InkArea` classe.
 
 ## <a name="submitting-ink-data"></a>Envoi de données manuscrites
 

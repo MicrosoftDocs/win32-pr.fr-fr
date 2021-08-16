@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 'CHString :: Operator = (ChString. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9abfa9ea2b72aa8f6830d9fb6388861c8c3b82d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dde67bbf0f1a7326074bc7638cdd6b256ad763e115ad12e2c193e6bcdc66605e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131781"
 ---
 # <a name="chstringoperator"></a>CHString :: Operator =
 
@@ -73,7 +73,7 @@ Assigne une chaîne terminée par le caractère **null** à cet objet.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la chaîne de destination (autrement dit, le côté gauche) est déjà suffisamment grande pour stocker les nouvelles données, aucune nouvelle allocation de mémoire n’est effectuée. Toutefois, des exceptions de mémoire peuvent se produire chaque fois que vous utilisez l’opérateur d’assignation, car un nouveau stockage est souvent alloué pour contenir l’objet [**CHString**](chstring.md) résultant.
 

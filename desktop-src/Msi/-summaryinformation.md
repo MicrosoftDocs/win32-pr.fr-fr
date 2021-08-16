@@ -1,19 +1,19 @@
 ---
-description: La \_ table SummaryInformation est une table spéciale utilisée avec le flux d’informations de synthèse. Vous pouvez obtenir ou définir le flux d’informations de synthèse d’une base de données Windows Installer en exportant ou en important un fichier d’archive de texte nommé \_ SummaryInformation. IDT.
+description: La \_ table SummaryInformation est une table spéciale utilisée avec le flux d’informations de synthèse. vous pouvez obtenir ou définir le flux d’informations de synthèse d’une base de données Windows Installer en exportant ou en important un fichier d’archive de texte nommé \_ SummaryInformation. idt.
 ms.assetid: b1b42e03-7a05-46d4-9c42-b87906535adb
 title: _SummaryInformation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 803b89223db8b6fc8074336109221a8300f7c1ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3824ceb9b3ad12338d84dfeea016a3c7e4404c274543cc691dc6ea0fb121bd32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117805735"
 ---
 # <a name="_summaryinformation"></a>\_SummaryInformation
 
-La \_ table SummaryInformation est une table spéciale utilisée avec le [flux d’informations de synthèse](summary-information-stream.md). Vous pouvez obtenir ou définir le flux d’informations de synthèse d’une base de données Windows Installer en exportant ou en important un [fichier d’archive de texte](text-archive-files.md) nommé \_ SummaryInformation. IDT.
+La \_ table SummaryInformation est une table spéciale utilisée avec le [flux d’informations de synthèse](summary-information-stream.md). vous pouvez obtenir ou définir le flux d’informations de synthèse d’une base de données Windows Installer en exportant ou en important un [fichier d’archive de texte](text-archive-files.md) nommé \_ SummaryInformation. idt.
 
 Le fichier. IDT d’une table SummaryInformation exportée \_ a le format suivant.
 

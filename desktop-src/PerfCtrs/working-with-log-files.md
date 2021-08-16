@@ -4,12 +4,12 @@ ms.assetid: 1d8f8662-df1f-4f84-8b65-c152f79cc5c6
 title: Utilisation des fichiers journaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba2032b90036f8f58c07d8c7e80e7e7ac2b2701c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82281694b72a2c28bb0e65ee4db16bd9ba33b8ed9c6e5e74dbf6c6cbf559507a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143742"
 ---
 # <a name="working-with-log-files"></a>Utilisation des fichiers journaux
 
@@ -27,7 +27,7 @@ Si vous appelez [**PdhEnumObjectItems**](/windows/desktop/api/Pdh/nf-pdh-pdhenum
 
 Si vous utilisez [**PdhExpandWildCardPath**](/windows/desktop/api/Pdh/nf-pdh-pdhexpandwildcardpatha), vous pouvez créer un chemin d’accès qui contient un caractère générique pour le nom et le compteur de l’instance, par exemple, \\ Object ( \* ) \\ \* . La fonction retourne le \_ \_ chemin d’accès PDH non valide si l’objet ne contient pas d’instance. Dans ce cas, appelez **PdhExpandWildCardPath** à l’aide d’un caractère générique pour le compteur uniquement, par exemple, \\ Object \\ \* .
 
-Les systèmes d’exploitation plus récents peuvent lire les fichiers journaux qui ont été générés sur des systèmes d’exploitation plus anciens. Toutefois, les fichiers journaux créés sur Windows Vista et les systèmes d’exploitation ultérieurs ne peuvent pas être lus sur des systèmes d’exploitation antérieurs.
+Les systèmes d’exploitation plus récents peuvent lire les fichiers journaux qui ont été générés sur des systèmes d’exploitation plus anciens. toutefois, les fichiers journaux créés sur Windows Vista et les systèmes d’exploitation ultérieurs ne peuvent pas être lus sur les systèmes d’exploitation antérieurs.
 
 Pour obtenir un exemple qui lit des données à partir d’un fichier journal, consultez [lecture des données de performances à partir d’un fichier journal](reading-performance-data-from-a-log-file.md).
 
@@ -41,7 +41,7 @@ Avant d’écrire dans un fichier journal, appelez [**PdhOpenQuery**](/windows/d
 
 Pour ouvrir le fichier de destination, appelez [**PdhOpenLog**](/windows/desktop/api/Pdh/nf-pdh-pdhopenloga). Spécifiez la requête lorsque vous ouvrez le fichier journal. Pour collecter les données de performances et les écrire dans le fichier journal, appelez [**PdhUpdateLog**](/windows/desktop/api/Pdh/nf-pdh-pdhupdateloga).
 
-Si les données du compteur sont écrites dans un fichier journal délimité par des virgules (. csv) ou délimité par des tabulations (. TSV) et que le chemin d’accès contient une instance générique, le chemin d’accès est développé et seules les instances qui existent au moment où le chemin d’accès est développé sont incluses dans le fichier journal. Toutefois, pour les fichiers journaux binaires (. BLG) ou SQL, le caractère générique n’est pas développé afin que le fichier journal contienne des instances créées lors de la journalisation.
+Si les données du compteur sont écrites dans un fichier journal délimité par des virgules (.csv) ou délimité par des tabulations (. TSV) et que le chemin d’accès contient une instance de caractère générique, le chemin d’accès est développé et seules les instances qui existent au moment où le chemin d’accès est développé sont incluses dans le fichier journal. toutefois, pour les fichiers journaux binaires (. blg) ou SQL, le caractère générique n’est pas développé afin que le fichier journal contienne des instances créées lors de la journalisation.
 
 Pour obtenir un exemple qui écrit des données dans un fichier journal, consultez [écriture de données de performances dans un fichier journal](writing-performance-data-to-a-log-file.md).
 

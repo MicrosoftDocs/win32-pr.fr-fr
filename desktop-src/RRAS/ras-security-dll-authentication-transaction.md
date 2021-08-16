@@ -1,19 +1,19 @@
 ---
 title: Transaction d’authentification de la DLL de sécurité RAS
-description: Le serveur RAS Windows NT/Windows 2000 appelle la fonction RasSecurityDialogBegin de la DLL de sécurité pour commencer l’authentification d’un utilisateur distant.
+description: Windows le serveur RAS NT/Windows 2000 appelle la fonction RasSecurityDialogBegin de la DLL de sécurité pour commencer l’authentification d’un utilisateur distant.
 ms.assetid: e6549812-d906-4163-b9c8-86f8f1cb1ad3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 109f6ad5cd3d7b76e30db099a478ffaf562feb32
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fea463c56d96cad13fb55a2b6e0bbdfc154518ba012e4c71c6ab8bdd3213cd3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789475"
 ---
 # <a name="ras-security-dll-authentication-transaction"></a>Transaction d’authentification de la DLL de sécurité RAS
 
-Le serveur RAS Windows NT/Windows 2000 appelle la fonction [**RasSecurityDialogBegin**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogbegin) de la dll de sécurité pour commencer l’authentification d’un utilisateur distant. Le serveur RAS est bloqué et ne peut accepter aucun autre appel tant que **RasSecurityDialogBegin** n’est pas retourné. Pour cette raison, **RasSecurityDialogBegin** doit copier les paramètres d’entrée, créer un thread pour effectuer l’authentification et retourner le plus rapidement possible.
+Windows le serveur RAS NT/Windows 2000 appelle la fonction [**RasSecurityDialogBegin**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogbegin) de la DLL de sécurité pour commencer l’authentification d’un utilisateur distant. Le serveur RAS est bloqué et ne peut accepter aucun autre appel tant que **RasSecurityDialogBegin** n’est pas retourné. Pour cette raison, **RasSecurityDialogBegin** doit copier les paramètres d’entrée, créer un thread pour effectuer l’authentification et retourner le plus rapidement possible.
 
 Le thread créé par la DLL de sécurité utilise les fonctions [**RasSecurityDialogSend**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogsend) et [**RasSecurityDialogReceive**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogreceive) pour communiquer avec l’ordinateur distant. Ces fonctions ne sont pas disponibles pour une importation statique à partir d’une bibliothèque. Au lieu de cela, la DLL de sécurité doit utiliser les fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) pour établir une liaison dynamique à ces fonctions dans RASMAN.DLL.
 
@@ -23,6 +23,6 @@ Lorsque le thread a terminé l’authentification de l’utilisateur distant, il
 
 La DLL de sécurité peut appeler la fonction [**RasSecurityDialogGetInfo**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialoggetinfo) pour récupérer des informations sur le port associé à une transaction d’authentification. **RasSecurityDialogGetInfo** remplit une structure d' [**\_ \_ informations de sécurité RAS**](/windows/desktop/api/Rasshost/ns-rasshost-ras_security_info) qui indique l’état du dernier appel [**RasSecurityDialogReceive**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogreceive) pour le port.
 
- 
+ 
 
- 
+ 

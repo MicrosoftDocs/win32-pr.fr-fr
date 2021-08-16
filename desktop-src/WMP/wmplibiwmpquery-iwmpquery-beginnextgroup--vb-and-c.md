@@ -3,9 +3,9 @@ title: Méthode IWMPQuery beginNextGroup
 description: La méthode beginNextGroup commence un nouveau groupe de conditions. | Méthode IWMPQuery beginNextGroup
 ms.assetid: 15d20c9f-2ce7-4a86-9054-b7317ebe1a0a
 keywords:
-- méthode beginNextGroup lecteur Windows Media
-- méthode beginNextGroup lecteur Windows Media, interface IWMPQuery
-- Interface IWMPQuery lecteur Windows Media, méthode beginNextGroup
+- Lecteur Windows Media de la méthode beginNextGroup
+- méthode beginNextGroup Lecteur Windows Media, interface IWMPQuery
+- Lecteur Windows Media de l’interface IWMPQuery, méthode beginNextGroup
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 866727f821fb40b6bf09f3ee2cf0231c4ffc3005
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 56a5e0622140aacd2668b1ea145e6a36f7fb2b0ecd243adacc313301d5fb7220
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745724"
 ---
 # <a name="iwmpquerybeginnextgroup-method"></a>IWMPQuery :: beginNextGroup, méthode
 
@@ -53,7 +53,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le démarrage d’un nouveau groupe de conditions implique que vous avez terminé le groupe de conditions actuel. Le nouveau groupe de conditions est toujours concaténé au groupe de conditions précédent à l’aide de **ou** logique.
 

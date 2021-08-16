@@ -3,7 +3,7 @@ title: Commande MCI_SETAUDIO (mmsystem. h)
 description: La \_ commande MCI SETAUDIO définit les valeurs associées à la lecture et à la capture audio. Les appareils vidéo numériques et VCR reconnaissent cette commande.
 ms.assetid: 78624596-e465-4ef1-8988-edcfe9a46f89
 keywords:
-- Commande MCI_SETAUDIO Windows multimédia
+- commande MCI_SETAUDIO Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20605ff78c62a8e688778692d5ca8f8e1342a968
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b882209b8a9debc2c01e4f5c6f852d418c1a5cd321a764af022d19c58fe32a21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104200574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803396"
 ---
 # <a name="mci_setaudio-command"></a>\_Commande MCI SETAUDIO
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs suivants s’appliquent au type d’appareil **Digitalvideo** :
 
@@ -346,7 +346,7 @@ Pour les périphériques VCR, le paramètre *lpSetAudio* pointe vers une structu
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

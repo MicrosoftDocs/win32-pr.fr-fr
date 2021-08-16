@@ -4,18 +4,18 @@ ms.assetid: b9795825-41fa-474b-a0c5-06770aa99bc1
 title: Appel de fonctions de base de données à partir de programmes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e2adeab5570bc6786439d5de509f03ab906a0c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1959e43b680d84e04de1f68483e8a1016bbeca0e867daebf10a317838d68c0ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145702"
 ---
 # <a name="calling-database-functions-from-programs"></a>Appel de fonctions de base de données à partir de programmes
 
 Avant d’appeler l’une des [fonctions de base de données](database-functions.md) suivantes à partir d’un programme, par exemple une action personnalisée ou un processus Automation, le programme d’installation doit d’abord exécuter l’action [CostInitialize](costinitialize-action.md), l’action [FileCost](filecost-action.md)et l' [action CostFinalize](costfinalize-action.md).
 
-La liste suivante répertorie les fonctions de base de données utilisées dans Windows Installer :
+la liste suivante répertorie les fonctions de base de données utilisées dans Windows Installer :
 
 -   [**MsiGetComponentState**](/windows/desktop/api/Msiquery/nf-msiquery-msigetcomponentstatea)
 -   [**MsiGetFeatureCost**](/windows/desktop/api/Msiquery/nf-msiquery-msigetfeaturecosta)

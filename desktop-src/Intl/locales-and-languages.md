@@ -4,12 +4,12 @@ ms.assetid: 8214c00d-4ec6-4597-8088-7819a160f0dc
 title: Paramètres régionaux et langues
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df2c0d0fa41b9186b2135d9497d52de24577bbae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 462fc66a3296312de73a472309457e12954b6f30c80857594808350306bf4994
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147152"
 ---
 # <a name="locales-and-languages"></a>Paramètres régionaux et langues
 
@@ -23,9 +23,9 @@ Le système d’exploitation attribue des paramètres régionaux à chaque threa
 
 L’implémentation d’un langage requiert des paramètres régionaux correspondants. Le système d’exploitation implémente une langue neutre en sélectionnant les données pour les paramètres régionaux associés à une version spécifique de la langue, généralement les paramètres régionaux les plus répandus.
 
-À compter de Windows Vista, il est possible qu’une langue particulière corresponde à des paramètres régionaux supplémentaires, qui est un type de paramètres régionaux personnalisés. Étant donné que les paramètres régionaux supplémentaires partagent tous un identificateur de paramètres régionaux unique, vos applications doivent gérer ces paramètres régionaux et les langues correspondantes par leur nom plutôt que par leur identificateur.
+à partir de Windows Vista, il est possible qu’une langue particulière corresponde à des paramètres régionaux supplémentaires, qui est un type de paramètres régionaux personnalisés. Étant donné que les paramètres régionaux supplémentaires partagent tous un identificateur de paramètres régionaux unique, vos applications doivent gérer ces paramètres régionaux et les langues correspondantes par leur nom plutôt que par leur identificateur.
 
-Les concepts de langage sont étroitement liés aux concepts des paramètres régionaux, mais les deux termes ne sont pas interchangeables. En règle générale, les fonctions liées à l' [interface utilisateur multilingue](multilingual-user-interface.md) concernent les langues, tandis que les fonctions nls agissent sur les paramètres régionaux.
+Les concepts de langage sont étroitement liés aux concepts des paramètres régionaux, mais les deux termes ne sont pas interchangeables. en règle générale, les fonctions liées au [interface utilisateur multilingue](multilingual-user-interface.md) gérer les langages, tandis que les fonctions NLS agissent sur les paramètres régionaux.
 
 Les rubriques traitées dans cette section sont les suivantes :
 

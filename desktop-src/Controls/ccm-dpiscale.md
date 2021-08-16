@@ -3,7 +3,7 @@ title: Message CCM_DPISCALE (commctrl. h)
 description: Active la mise à l’échelle en points par pouce (dpi) automatique dans les contrôles de Tree-View, les contrôles de List-View, les contrôles ComboBoxEx, les contrôles d’en-tête, les boutons, les contrôles ToolBar, les contrôles d’animation et les listes d’images.
 ms.assetid: 3c751f10-992c-41f8-8f0b-3dc58f0591e4
 keywords:
-- CCM_DPISCALE les contrôles de message Windows
+- CCM_DPISCALE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56ef978f486f370adf9872d28e1accbacc37a6de
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e7e72cb8ac3acf413e4381580a4ecf38a4f5bd4b2f5b03d6cff7d7abb85c1f0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119320249"
 ---
 # <a name="ccm_dpiscale-message"></a>\_Message CCM DPISCALE
 
@@ -47,7 +47,7 @@ Doit être zéro.
 
 La valeur de retour n’est pas utilisée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le lancement rapide et la [barre des tâches](/windows/desktop/shell/taskbar) ne doivent pas spécifier de mise à l’échelle dpi, car les images sont déjà mises à l’échelle.
 
@@ -64,8 +64,8 @@ Tout contrôle qui utilise une liste d’images créée avec la métrique SmallI
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

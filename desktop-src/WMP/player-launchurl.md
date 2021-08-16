@@ -3,9 +3,9 @@ title: Player. launchURL, méthode
 description: La méthode launchURL envoie une URL au navigateur par défaut de l’utilisateur à restituer. | Player. launchURL, méthode
 ms.assetid: 2b445e59-f884-4519-9acb-f349319429d2
 keywords:
-- méthode launchURL lecteur Windows Media
-- méthode launchURL lecteur Windows Media, classe Player
-- Classe player lecteur Windows Media, méthode launchURL
+- Lecteur Windows Media de la méthode launchURL
+- méthode launchURL Lecteur Windows Media, classe Player
+- Lecteur Windows Media de classe Player, méthode launchURL
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c496e8f40f4d7c8a21e718b820e438d3ce32ad1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 79d22c65a29aaee9c849677dfa42acb5769bf30d2fb7079e305ee79632ef22e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134822"
 ---
 # <a name="playerlaunchurl-method"></a>Player. launchURL, méthode
 
@@ -53,7 +53,7 @@ Valeur de **chaîne** représentant l’URL à lancer.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ouvre uniquement les pages Web à l’aide des protocoles HTTP ou HTTPs.
 

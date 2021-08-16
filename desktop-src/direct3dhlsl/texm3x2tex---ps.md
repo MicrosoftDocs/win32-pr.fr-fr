@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 62206bc4ef1e1b64ec760a240a087ec13526d896
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 9653325098b05959fcbd9e7a838801652a532d936bdaebc829055b717a49096f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117723017"
 ---
 # <a name="texm3x2tex---ps"></a>texm3x2tex-PS
 
@@ -29,14 +29,14 @@ Effectue la multiplication de la dernière ligne d’une matrice matrice et util
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 -   SRC est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 L’instruction est utilisée comme l’une des deux instructions représentant une opération de multiplication de matrice matrice. Cette instruction doit être utilisée avec l’instruction [texm3x2pad-PS](texm3x2pad---ps.md) .
 
@@ -109,9 +109,9 @@ Cet exemple requiert les textures suivantes dans les étapes de texture suivante
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

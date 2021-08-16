@@ -1,19 +1,19 @@
 ---
-description: Types énumérés DirectShow
+description: DirectShow Types énumérés
 ms.assetid: 74467006-b077-49c0-8573-f939ac3d3444
-title: Types énumérés DirectShow
+title: DirectShow Types énumérés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 309059f9d8ef1c78c1acbcab32720b3a05c1cb89
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ddd835f9cb235ee9bde357cf553fc87671a7acebfc2e4ed4693fdbdad0f7b7fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104521799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119292029"
 ---
-# <a name="directshow-enumerated-types"></a>Types énumérés DirectShow
+# <a name="directshow-enumerated-types"></a>DirectShow Types énumérés
 
-Cette section décrit les types énumérés DirectShow.
+cette section décrit les types énumérés DirectShow.
 
 
 
@@ -53,7 +53,7 @@ Cette section décrit les types énumérés DirectShow.
 | [**AMVP \_ Sélectionner le \_ format \_ par**](/previous-versions/windows/desktop/api/vptype/ne-vptype-amvp_select_format_by)                      | Spécifie les critères que la console de mixage du VP doit utiliser pour sélectionner le format vidéo.                                                                                                                                                                                 |
 | [**AnalogVideoStandard**](/windows/win32/api/strmif/ne-strmif-analogvideostandard)                             | Spécifie le format du signal vidéo analogique de bande de bande.                                                                                                                                                                                                       |
 | [**CameraControlFlags**](/windows/win32/api/strmif/ne-strmif-cameracontrolflags)                               | Spécifie si une fonction d’appareil photo particulière est définie automatiquement ou manuellement.                                                                                                                                                                                |
-| [**CameraControlProperty**](/windows/win32/api/strmif/ne-strmif-cameracontrolproperty)                         | Spécifie quelle partie de l’appareil photo DirectShow contrôle.                                                                                                                                                                                                    |
+| [**CameraControlProperty**](/windows/win32/api/strmif/ne-strmif-cameracontrolproperty)                         | spécifie quelle partie de l’appareil photo DirectShow contrôle.                                                                                                                                                                                                    |
 | [**CompressionCaps**](/windows/desktop/api/strmif/ne-strmif-compressioncaps)                                     | Indique les fonctionnalités de compression vidéo.                                                                                                                                                                                                                       |
 | [**Niveau de protection de l’ACP de COPP \_ \_ \_**](/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_acp_protection_level)              | Spécifie le niveau de protection ACP.                                                                                                                                                                                                                             |
 | [**\_BUSTYPE Copp**](/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_bustype)                                          | Spécifie le type de bus d’e/s utilisé par la carte graphique.                                                                                                                                                                                                     |
@@ -108,8 +108,8 @@ Cette section décrit les types énumérés DirectShow.
 | [**TunerInputType**](/windows/win32/api/strmif/ne-strmif-tunerinputtype)                                       | Spécifie la fréquence d’un tuner TV (câble ou antenne).                                                                                                                                                                                                       |
 | [**TVAudioMode**](/windows/win32/api/strmif/ne-strmif-tvaudiomode)                                             | Spécifie le mode d’un contrôle audio TV.                                                                                                                                                                                                                       |
 | [**\_indicateur UOP \_ valide**](/windows/win32/api/strmif/ne-strmif-valid_uop_flag)                                     | Indique les commandes de l’opération utilisateur (UOP) qui sont actuellement autorisées par le DVD.                                                                                                                                                                                 |
-| [**VfwCaptureDialogs**](/windows/desktop/api/strmif/ne-strmif-vfwcapturedialogs)                                 | Spécifie une boîte de dialogue pour un pilote de capture Microsoft Video pour Windows.                                                                                                                                                                                        |
-| [**VfwCompressDialogs**](/windows/desktop/api/strmif/ne-strmif-vfwcompressdialogs)                               | Spécifie une boîte de dialogue pour un codec vidéo pour Windows.                                                                                                                                                                                                           |
+| [**VfwCaptureDialogs**](/windows/desktop/api/strmif/ne-strmif-vfwcapturedialogs)                                 | spécifie une boîte de dialogue pour un pilote de capture Microsoft Video for Windows.                                                                                                                                                                                        |
+| [**VfwCompressDialogs**](/windows/desktop/api/strmif/ne-strmif-vfwcompressdialogs)                               | spécifie une boîte de dialogue pour une vidéo pour Windows codec.                                                                                                                                                                                                           |
 | [**VideoControlFlags**](/windows/win32/api/strmif/ne-strmif-videocontrolflags)                                 | Spécifie un mode de fonctionnement pour un périphérique vidéo, tel qu’un retournement horizontal ou vertical, l’activation d’un déclencheur externe et le déclencheur simuler.                                                                                                                           |
 | [**\_Mode débit \_ VIDEOENCODER**](/windows/desktop/api/strmif/ne-strmif-videoencoder_bitrate_mode)               | Définit les trois types de taux de bits pris en charge par les méthodes de l’interface [**IEncoderAPI**](/windows/win32/api/strmif/nn-strmif-iencoderapi) .                                                                                                                                                    |
 | [**VideoProcAmpFlags**](/windows/win32/api/strmif/ne-strmif-videoprocampflags)                                 | Spécifie comment définir les propriétés de la vidéo.                                                                                                                                                                                                                          |
@@ -142,7 +142,7 @@ Cette section décrit les types énumérés DirectShow.
 
 <dl> <dt>
 
-[Informations de référence sur DirectShow](directshow-reference.md)
+[DirectShow Faire](directshow-reference.md)
 </dt> </dl>
 
  

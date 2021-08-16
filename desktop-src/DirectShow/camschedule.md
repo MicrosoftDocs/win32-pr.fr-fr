@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1bef8ad07347284c53a3490c21032070788fa3ce
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d2236eb66086bb590892401cab052f39d81a41941db38d2a73dedd5edb4c53ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955408"
 ---
 # <a name="camschedule-class"></a>CAMSchedule, classe
 
@@ -44,7 +44,7 @@ La `CAMSchedule` classe implémente un planificateur pour les horloges de réfé
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet objet d’assistance gère une liste de demandes de notification pour une horloge de référence. La classe [**CBaseReferenceClock**](cbasereferenceclock.md) l’utilise pour aider à planifier les demandes de notification. Les horloges utilisent cet objet de la manière suivante :
 
@@ -65,7 +65,7 @@ Cet objet d’assistance gère une liste de demandes de notification pour une ho
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Dsschedule. h (include streams. h)</dt> </dl>                                                                                |
+| En-tête<br/>  | <dl> <dt>Dsschedule. h (inclure Flux. h)</dt> </dl>                                                                                |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

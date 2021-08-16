@@ -3,9 +3,9 @@ title: Méthode Media. getItemInfo
 description: La méthode getItemInfo récupère la valeur de l’attribut spécifié pour l’élément multimédia actuel.
 ms.assetid: a1ee0d40-b979-424b-bd4e-d1acf6354d8d
 keywords:
-- méthode getItemInfo lecteur Windows Media
-- méthode getItemInfo lecteur Windows Media, classe multimédia
-- Classe multimédia lecteur Windows Media, méthode getItemInfo
+- Lecteur Windows Media de la méthode getItemInfo
+- méthode getItemInfo Lecteur Windows Media, classe multimédia
+- Lecteur Windows Media de classe de média, méthode getItemInfo
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef7e7348e73e3550ed668f6694ccfe9ed615215b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ab885a8505f3637d21f4a406e5a7c324ee6b9ec90e5ad0434a385e321072ccaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135152"
 ---
 # <a name="mediagetiteminfo-method"></a>Méthode Media. getItemInfo
 
@@ -45,7 +45,7 @@ strRetVal = Media.getItemInfo(
 *nom* \[ dans\]
 </dt> <dd>
 
-**Chaîne** contenant le nom de l’attribut. Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la page [référence des attributs](attribute-reference.md)du lecteur Windows Media.
+**Chaîne** contenant le nom de l’attribut. pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md)Lecteur Windows Media.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ strRetVal = Media.getItemInfo(
 
 Cette méthode retourne une **chaîne** représentant la valeur de l’attribut spécifié. Pour les attributs dont la valeur sous-jacente est **booléenne**, elle retourne la chaîne « true » ou « false ».
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode récupère les métadonnées pour un élément multimédia numérique individuel ou un élément multimédia qui fait partie d’une sélection.
 
@@ -63,15 +63,15 @@ Pour récupérer des attributs avec plusieurs valeurs et attributs avec des vale
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-Pour partager les bibliothèques Windows Media via UPnP, le lecteur Windows Media crée un service d’annuaire de contenu (CDS) qui est exposé sur UPnP. Les autres appareils peuvent alors parcourir les bibliothèques et y accéder.
+pour partager les Windows les bibliothèques multimédias via upnp, Lecteur Windows Media crée un service d’annuaire de contenu (CDS) exposé sur upnp. Les autres appareils peuvent alors parcourir les bibliothèques et y accéder.
 
-Dans Windows 7, une application peut utiliser les attributs [**TrackingID**](trackingid-attribute.md) et [**MediaType**](mediatype-attribute.md) du lecteur Windows Media pour créer l’ID d’objet de chaque élément dans les CDs. Notez que cette construction peut changer dans les versions futures de Windows. L’application passe chacune de ces chaînes d’attributs dans le paramètre *Name* dans un appel à **getItemInfo**. **getItemInfo** retourne la valeur de chaque attribut de la valeur de retour. L’application utilise ensuite la syntaxe suivante pour construire chaque ID d’objet :
+dans Windows 7, une application peut utiliser les attributs Lecteur Windows Media [**TrackingID**](trackingid-attribute.md) et [**MediaType**](mediatype-attribute.md) pour construire l’ID d’objet de chaque élément dans les CDS. Notez que cette construction peut changer dans les versions ultérieures de Windows. L’application passe chacune de ces chaînes d’attributs dans le paramètre *Name* dans un appel à **getItemInfo**. **getItemInfo** retourne la valeur de chaque attribut de la valeur de retour. L’application utilise ensuite la syntaxe suivante pour construire chaque ID d’objet :
 
 *TrackingID*. 0. *MediaTypeID*
 
 La signification de cette syntaxe est la suivante :
 
--   *TrackingID* est la chaîne stockée dans l’attribut [**TrackingID**](trackingid-attribute.md) du lecteur Windows Media de l’élément multimédia.
+-   *TrackingID* est la chaîne stockée dans l’attribut Lecteur Windows Media [**TrackingID**](trackingid-attribute.md) de l’élément multimédia.
 -   *MediaTypeID* dépend de la valeur de l’attribut [**MediaType**](mediatype-attribute.md) , comme indiqué dans le tableau suivant :
 
     | MediaType (attribut)                      | MediaTypeID |

@@ -4,12 +4,12 @@ ms.assetid: 840021a8-ec1d-4916-93b2-7cc1803e2d8c
 title: Stratégie de métadonnées de photo System. GPS. ProcessingMethod
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02bf1484eb8e8a53c65a9cd43c54b076e418d4eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 800515d3a7870fa2dc9b5a6ec8c19178889482fa820f66d7d98e8e3ff09870f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106532301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931739"
 ---
 # <a name="systemgpsprocessingmethod-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. ProcessingMethod
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. GPS. Proces
 
 \_ProcessingMethod GPS \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 27}     |             |
 | 2     | /xmp/exif:GPSProcessingMethod | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 27}     |             |
 | 2     | /xmp/exif:GPSProcessingMethod | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/GPS/{UShort = 27}     |
 | 2     | /xmp/exif:gpsprocessingmethod |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                              | Format de disque |
+| Commande | Chemin                              | Format de disque |
 |-------|-----------------------------------|-------------|
 | 1     | /ifd/xmp/exif:GPSProcessingMethod | unicode     |
 | 2     | /IFD/GPS/{UShort = 27}              |             |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                              | Format de disque |
+| Commande | Chemin                              | Format de disque |
 |-------|-----------------------------------|-------------|
 | 1     | /ifd/xmp/exif:GPSProcessingMethod | unicode     |
 | 2     | /IFD/GPS/{UShort = 27}              |             |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                              |
+| Commande | Chemin                              |
 |-------|-----------------------------------|
 | 1     | /ifd/xmp/exif:gpsprocessingmethod |
 | 2     | /IFD/GPS/{UShort = 27}              |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

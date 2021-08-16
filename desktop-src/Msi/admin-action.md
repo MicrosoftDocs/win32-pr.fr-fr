@@ -4,12 +4,12 @@ ms.assetid: 9925a645-5909-42c7-9de8-f908a5e42be9
 title: Action d’administration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00106c9ab7877918e122f1ec9bd201fe30bb68b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 785bd69a8de7da1df9a812f7e89d589b6e939b3eedd6b3cecb66bf86407636cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145932"
 ---
 # <a name="admin-action"></a>Action d’administration
 
@@ -23,9 +23,9 @@ Il n’existe aucune restriction de séquence.
 
 Il n’y a aucun message ActionData.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’action d’administration n’est pas appelée à partir de la séquence de la table d’action, Windows Installer exécute cette action lorsque [**MsiInstallProduct**](/windows/desktop/api/Msi/nf-msi-msiinstallproducta) est appelé avec le paramètre *szCommandLine* défini sur « action = admin » ou l’exécutable de ligne de commande Msiexec.exe est appelé avec le commutateur de ligne de commande « /a ».
+l’action d’administration n’est pas appelée à partir de la séquence de la table d’action, Windows Installer exécute cette action lorsque [**MsiInstallProduct**](/windows/desktop/api/Msi/nf-msi-msiinstallproducta) est appelé avec le paramètre *szCommandLine* défini sur « action = ADMIN » ou l’exécutable de ligne de commande Msiexec.exe est appelé avec le commutateur de ligne de commande « /a ».
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -9,12 +9,12 @@ keywords:
 - barre de langue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef227b29c8b481bfaefc4a218305ba8974fe54e2
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ea2f0adeacdfe105700efba761b0622432f4ac382d147bd82145242be9fdd71a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103843021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117952107"
 ---
 # <a name="language-bar-tsf-applications"></a>Barre de langue (applications TSF)
 

@@ -1,23 +1,23 @@
 ---
-title: Énumérations de PC virtuels Windows
+title: Windows Énumérations de PC virtuels
 ms.assetid: a9800f9f-d91f-48be-bbb9-f736132c2fd7
-description: 'En savoir plus sur : énumérations de PC virtuels Windows'
+description: 'en savoir plus sur : Windows énumérations de PC virtuels'
 keywords:
-- PC virtuels Windows Virtual PC, énumérations
+- Windows Virtual PC Virtual PC, énumérations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e16e8a9faee398b546a4c15e2df6ec85565d1ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9d136e3ec1a8b4cf6c3d988017844b0994f2a3c035a5e6c2a756ea504d79b95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136482"
 ---
-# <a name="windows-virtual-pc-enumerations"></a>Énumérations de PC virtuels Windows
+# <a name="windows-virtual-pc-enumerations"></a>Windows Énumérations de PC virtuels
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
-Les énumérations suivantes sont prises en charge par Windows Virtual PC :
+les énumérations suivantes sont prises en charge par Windows Virtual PC :
 
 -   [**VMDisplayVideoMode**](vmdisplayvideomode.md)
 -   [**VMDriveBusType**](vmdrivebustype.md)

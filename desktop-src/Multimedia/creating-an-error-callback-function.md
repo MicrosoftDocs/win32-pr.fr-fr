@@ -6,12 +6,12 @@ keywords:
 - capSetCallbackOnError macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ac37c0e12b8f92520c4445c4c5ba3361974d836
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c86b2c3445bdd4d93db36307827e648fe804e82ac8dfb06011bd7a920ab7c8e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144692"
 ---
 # <a name="creating-an-error-callback-function"></a>Création d’une fonction de rappel d’erreur
 
@@ -55,9 +55,9 @@ LRESULT PASCAL ErrorCallbackProc(HWND hWnd, int nErrID,
 [Utilisation de la capture vidéo](using-video-capture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

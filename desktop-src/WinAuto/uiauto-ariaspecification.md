@@ -4,12 +4,12 @@ description: Les sites Web augmentent leur utilitaire avec un contenu dynamique 
 ms.assetid: f400ad09-d15e-415b-b072-c28e728e27a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c31d6380c93506263c59855a9f2069890ab07df
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: a8f5a6c0efe4a2ff2ae1ec7ca76c54d19c8c351b77ef1bf3d0c4357721bdf5a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133492"
 ---
 # <a name="ui-automation-for-w3c-accessible-rich-internet-applications-specification"></a>UI Automation pour la spécification des applications Internet riches accessibles par le W3C
 
@@ -50,10 +50,10 @@ Les rôles ARIA du W3C peuvent être mappés à des rôles Microsoft Active Acce
 | Répertoire                       | [**\_liste des systèmes de rôles \_**](object-roles.md)                 | [Liste](uiauto-supportlistcontroltype.md)               | Répertoire                       |
 | document                        | [**\_client du système de rôle \_**](object-roles.md)             | [Document](uiauto-supportdocumentcontroltype.md)       | document                        |
 | formulaire                            | [**\_regroupement du système de rôle \_**](object-roles.md)         | [Groupe](uiauto-supportdocumentcontroltype.md)          | formulaire                            |
-| Grille                            | [**\_table système des rôles \_**](object-roles.md)               | [DataGrid](uiauto-supportdatagridcontroltype.md)       | Grille                            |
+| grid                            | [**\_table système des rôles \_**](object-roles.md)               | [DataGrid](uiauto-supportdatagridcontroltype.md)       | grid                            |
 | gridcell                        | [**\_cellule système de rôle \_**](object-roles.md)                 | [DataItem](uiauto-supportdataitemcontroltype.md)       | gridcell                        |
 | group                           | [**\_regroupement du système de rôle \_**](object-roles.md)         | [Groupe](uiauto-supportgroupcontroltype.md)             | group                           |
-| heading                         | [**\_texte du système de rôle \_**](object-roles.md)                 | [Text](uiauto-supporttextcontroltype.md)               | heading                         |
+| position                         | [**\_texte du système de rôle \_**](object-roles.md)                 | [Text](uiauto-supporttextcontroltype.md)               | position                         |
 | img                             | [**\_graphique du système de rôle \_**](object-roles.md)           | [Image](uiauto-supportimagecontroltype.md)             | img                             |
 | link                            | [**\_lien système de rôle \_**](object-roles.md)                 | [Lien hypertexte](uiauto-supporthyperlinkcontroltype.md)     | link                            |
 | list                            | [**\_liste des systèmes de rôles \_**](object-roles.md)                 | [Liste](uiauto-supportlistcontroltype.md)               | list                            |
@@ -71,7 +71,7 @@ Les rôles ARIA du W3C peuvent être mappés à des rôles Microsoft Active Acce
 | remarque                            | [**\_regroupement du système de rôle \_**](object-roles.md)         | [Groupe](uiauto-supportdocumentcontroltype.md)          | remarque                            |
 | Option                          | [**\_ListItem du système de rôle \_**](object-roles.md)         | [ListItem](uiauto-supportlistitemcontroltype.md)       | Option                          |
 | présentation                    | [**\_volet système de rôle \_**](object-roles.md)                 | [Volet](uiauto-supportpanecontroltype.md)               | présentation                    |
-| ProgressBar                     | [**\_PROGRESSBAR du système de rôle \_**](object-roles.md)   | [Barre de progression](uiauto-supportprogressbarcontroltype.md) | ProgressBar                     |
+| ProgressBar                     | [**\_PROGRESSBAR du système de rôle \_**](object-roles.md)   | [ProgressBar](uiauto-supportprogressbarcontroltype.md) | ProgressBar                     |
 | radio                           | [**RadioButton du système de rôle \_ \_**](object-roles.md)   | [RadioButton](uiauto-supportradiobuttoncontroltype.md) | radio                           |
 | RadioGroup                      | [**\_regroupement du système de rôle \_**](object-roles.md)         | [Groupe](uiauto-supportgroupcontroltype.md)             | RadioGroup                      |
 | region                          | [**\_volet système de rôle \_**](object-roles.md)                 | [Volet](uiauto-supportpanecontroltype.md)               | region                          |
@@ -91,7 +91,7 @@ Les rôles ARIA du W3C peuvent être mappés à des rôles Microsoft Active Acce
 | minuterie (Timer)                           | [**\_horloge système du rôle \_**](object-roles.md)               | [Volet](uiauto-supportpanecontroltype.md)               | minuterie (Timer)                           |
 | barre d'outils                         | [**\_ \_ barre d’outils système de rôle**](object-roles.md)           | [Barre](uiauto-supporttoolbarcontroltype.md)         | barre d'outils                         |
 | tooltip                         | [**\_ \_ info-bulle du système de rôle**](object-roles.md)           | [ToolTip](uiauto-supporttooltipcontroltype.md)         | tooltip                         |
-| tree                            | [**\_structure du système de rôle \_**](object-roles.md)           | [Arborescence](uiauto-supporttreecontroltype.md)               | tree                            |
+| tree                            | [**\_structure du système de rôle \_**](object-roles.md)           | [Arbres](uiauto-supporttreecontroltype.md)               | tree                            |
 | contrôle TreeGrid                        | [**\_table système des rôles \_**](object-roles.md)               | [DataGrid](uiauto-supportdatagridcontroltype.md)       | contrôle TreeGrid                        |
 | TreeItem                        | [**système de rôle \_ \_ OUTLINEITEM**](object-roles.md)   | [TreeItem](uiauto-supporttreeitemcontroltype.md)       | TreeItem                        |
 
@@ -125,7 +125,7 @@ AriaProperties est une propriété de type chaîne qui a une collection de paire
 | hidden                         | [**État \_ SYSTÈME \_ invisible**](object-state-constants.md) (accState)                                                                                                                                    | IsOffscreen                                                                                                                                                                                                                                             | hidden                                |
 | non valide                        | n/a                                                                                                                                                                                                                             | IsDataValidForForm                                                                                                                                                                                                                                      | non valide                               |
 | labelledby                     | n/a                                                                                                                                                                                                                             | LabeledBy                                                                                                                                                                                                                                               | n/a                                   |
-| Level                          | accValue                                                                                                                                                                                                                        | n/a (représenté par la structure de l’arborescence des éléments Automation)                                                                                                                                                                                                  | niveau                                 |
+| Niveau                          | accValue                                                                                                                                                                                                                        | n/a (représenté par la structure de l’arborescence des éléments Automation)                                                                                                                                                                                                  | level                                 |
 | opérationnel                           | n/a                                                                                                                                                                                                                             | n/a                                                                                                                                                                                                                                                     | opérationnel                                  |
 | lambda                      | n/a                                                                                                                                                                                                                             | [Document](uiauto-supportdocumentcontroltype.md) (type de contrôle)                                                                                                                                                                                          | lambda                             |
 | multisélectionnable                | [**État \_ \_EXTSELECTABLE système**](object-state-constants.md) (accState)                                                                                                                            | CanSelectMultiple (modèle de contrôle[Selection](uiauto-implementingselection.md) )                                                                                                                                                                       | multisélectionnable                       |

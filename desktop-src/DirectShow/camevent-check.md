@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1a112d1b9484acb4d7e9cc2992b8dee629f40e23
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1a961d7df45ddac7ade5e39f91c1aed56609ce2d2eeb8e7423799c9a4903884e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106536259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955538"
 ---
 # <a name="cameventcheck-method"></a>CAMEvent. Check, méthode
 
@@ -40,7 +40,7 @@ BOOL Check();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Retourne la **valeur true** si l’événement est défini, ou **false** dans le cas contraire. Cette méthode appelle la méthode [**CAMEvent :: wait**](camevent-wait.md) avec un délai d’attente de zéro. Si l’objet est un événement à réinitialisation automatique, cette méthode réinitialise l’événement.
 
@@ -50,7 +50,7 @@ Retourne la **valeur true** si l’événement est défini, ou **false** dans le
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxutil. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxutil. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

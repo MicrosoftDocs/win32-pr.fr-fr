@@ -1,45 +1,45 @@
 ---
-description: Cette section décrit les technologies de Windows qui vous permettent de prendre en charge les nombreuses cultures et les langues écrites de la place de marché internationale dans votre application Microsoft Win32 C ou C++.
+description: cette section décrit les technologies de Windows qui vous permettent de prendre en charge les nombreuses cultures et les langues écrites de la place de marché internationale dans votre application Microsoft Win32 basée sur C ou C++.
 ms.assetid: 90dbbd70-3609-4c12-bdc1-7fa222c96f67
 title: Internationalisation pour les applications Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83f6e4952c94af3b14dc0e8f4f135c1cc0cebafc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f78f4831390ffc31a5f3290f0784d32c3aa1044863c708e6e0329225519c2cae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147542"
 ---
 # <a name="internationalization-for-windows-applications"></a>Internationalisation pour les applications Windows
 
 (Anciennement intitulé « support international »)
 
-Cette section décrit les technologies de Windows qui vous permettent de prendre en charge les nombreuses cultures et les langues écrites de la place de marché internationale dans votre application Microsoft Win32 C ou C++.
+cette section décrit les technologies de Windows qui vous permettent de prendre en charge les nombreuses cultures et les langues écrites de la place de marché internationale dans votre application Microsoft Win32 basée sur C ou C++.
 
-Windows est devenu une plateforme essentielle pour les clients du monde entier. Les utilisateurs internationaux attendent des solutions adaptées à leurs langues et régions dans le monde entier. Dans cette section, vous trouverez les informations dont vous avez besoin pour développer des solutions multilingues, multiculturelles et multisites. La prise en charge internationale intégrée à Windows vous permet d’implémenter de nombreux scénarios avec une surcharge d’ingénierie moins importante que jamais.
+Windows est devenu une plateforme essentielle pour les clients du monde entier. Les utilisateurs internationaux attendent des solutions adaptées à leurs langues et régions dans le monde entier. Dans cette section, vous trouverez les informations dont vous avez besoin pour développer des solutions multilingues, multiculturelles et multisites. la prise en charge internationale intégrée à Windows vous permet d’implémenter de nombreux scénarios avec une surcharge d’ingénierie moins importante que jamais.
 
 Le développement d’applications mondialisables requiert l’utilisation de nombreux services et outils. Windows contient des fonctionnalités qui vous permettent de développer des solutions qui :
 
 - Prenez en charge les différents besoins spécifiques des langues et propres aux paramètres régionaux des utilisateurs dans le monde entier (y compris la prise en charge de texte spécialisée, le comportement de tri, la mise en forme de la date et de l’heure et les dispositions du clavier). (Pour plus d’informations, consultez le [Centre de connaissances du support linguistique national](./national-language-support-reference.md).)
-- Sont globalisés (peuvent être déployés dans le monde entier à partir d’une seule image binaire) et peuvent être localisés (adaptés à des marchés locaux spécifiques). (Pour plus d’informations, consultez [interface utilisateur multilingue](./multilingual-user-interface.md).)
+- Sont globalisés (peuvent être déployés dans le monde entier à partir d’une seule image binaire) et peuvent être localisés (adaptés à des marchés locaux spécifiques). (pour plus d’informations, consultez [interface utilisateur multilingue](./multilingual-user-interface.md).)
 - Affichez les polices et le texte internationaux, et autorisez les utilisateurs à spécifier la police de leur choix. (Pour plus d’informations, consultez [prise en charge des scripts et des polices dans Windows](/globalization/input/font-support).)
 - Autorisez l’utilisateur à entrer des caractères et des symboles complexes à l’aide d’un clavier standard.
 - Assurez la prise en charge de nombreux langages écrits différents par le biais de jeux de caractères Unicode et traditionnels.
-- Découvrez l’entrée de langue d’un utilisateur et personnalisez l’expérience utilisateur fournie par votre application. (Pour plus d’informations, consultez [écriture d’applications mondialisables dans Windows : services linguistiques étendus dans Windows](./using-extended-linguistic-services.md).)
+- Découvrez l’entrée de langue d’un utilisateur et personnalisez l’expérience utilisateur fournie par votre application. (pour plus d’informations, consultez [écriture d’Applications mondialisables dans Windows : Services linguistiques étendus dans Windows](./using-extended-linguistic-services.md).)
 
 ## <a name="in-this-section"></a>Dans cette section
 
 Les technologies de support internationales suivantes sont documentées dans cette section. Ils sont répertoriés dans certains scénarios clés pour lesquels ils peuvent être utilisés.
 
-- [Prise en main avec le développement Windows International](getting-started-with-international-development.md)
+- [Prise en main avec le développement International Windows](getting-started-with-international-development.md)
 
     Décrit comment prendre en main la création d’applications mondialisables et fournit un didacticiel illustrant une tâche courante dans l’écriture de logiciels globaux.
 
     Scénarios courants :
 
     - Déterminez le chemin à suivre pour apprendre à développer des logiciels internationaux.
-    - Découvrez les technologies d’internationalisation disponibles dans le kit de développement logiciel (SDK) Microsoft Windows.
+    - découvrez les technologies d’internationalisation disponibles dans le kit de développement logiciel (SDK) de Microsoft Windows.
     - Suivez un didacticiel qui prend une application monolingue existante et ajoute la prise en charge de langues supplémentaires.
 
 - [Services de globalisation](globalization-services.md)
@@ -64,7 +64,7 @@ Les technologies de support internationales suivantes sont documentées dans cet
 
 - [Polices internationales et affichage du texte](international-fonts-and-text-display.md)
 
-    Décrit la prise en charge fournie par la plateforme Windows pour les polices internationales, le texte international et la typographie fine.
+    décrit la prise en charge fournie par la plateforme Windows pour les polices internationales, le texte international et la typographie fine.
 
     Scénarios courants :
 
@@ -100,7 +100,7 @@ Les technologies de support internationales suivantes sont documentées dans cet
 
 ## <a name="related-international-technologies"></a>Technologies internationales associées
 
-La prise en charge du développement international est également disponible pour les applications écrites en code managé. Si vous développez pour le .NET Framework, vous aurez besoin d’une partie ou de la totalité des éléments suivants :
+La prise en charge du développement international est également disponible pour les applications écrites en code managé. si vous développez pour le .NET Framework, vous aurez besoin d’une partie ou de la totalité des éléments suivants :
 
 - L' [espace de noms System. Globalization](/dotnet/api/system.globalization) contient des classes qui définissent des informations liées à la culture et fournissent des fonctions de globalisation avancées.
 - L' [espace de noms System. Text](/dotnet/api/system.text) contient des classes qui représentent des encodages de caractères, des blocs de caractères et des objets de chaîne de manipulation et de mise en forme.

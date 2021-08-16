@@ -4,12 +4,12 @@ ms.assetid: ade9fe69-b3dd-44aa-856b-75d4a7e4c680
 title: Propriété AVEncStatVideoCodedFrames (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3aed3ed0a06003807a6bd0db90b8978282042daf
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 34f8858aba7a36d79096eccad40990e1859d4073695aaf80910587bac4005d6e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342559"
 ---
 # <a name="avencstatvideocodedframes-property"></a>Propriété AVEncStatVideoCodedFrames
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncStatVideoCodedFrames**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété est disponible une fois l’encodage terminé.
 
@@ -37,8 +37,8 @@ La valeur de cette propriété est égale à la propriété [**AVEncStatVideoTot
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

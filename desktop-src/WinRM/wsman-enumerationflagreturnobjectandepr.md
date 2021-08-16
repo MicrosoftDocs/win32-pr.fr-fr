@@ -5,8 +5,8 @@ ms.assetid: 052b93df-8a83-4b5e-8325-1ad500b43a88
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode EnumerationFlagReturnObjectAndEPR
-- Méthode EnumerationFlagReturnObjectAndEPR Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode EnumerationFlagReturnObjectAndEPR
+- méthode EnumerationFlagReturnObjectAndEPR Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode EnumerationFlagReturnObjectAndEPR
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 187f8c029d0392ad9ac1a909e1e45de165815e2b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: baa63e84770010a05e144c702a10a814aea4cf8323681f6e95c8bf2facc1dfc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742278"
 ---
 # <a name="wsmanenumerationflagreturnobjectandepr-method"></a>Méthode WSMan. EnumerationFlagReturnObjectAndEPR
 

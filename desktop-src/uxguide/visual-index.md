@@ -4,17 +4,17 @@ description: Exemples visuels de nombreux éléments d’interface utilisateur t
 ms.assetid: be99bf83-dcd7-44df-be0d-b1b17305a2d6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 2dc56707564115b612cc008d66697a2543191859
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: e240cd30b022fa8acab654c80189239852e5bf906c9cfcbeb03963e1b541763c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815882"
 ---
 # <a name="visual-index"></a>Index visuel
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Voici des exemples visuels de nombreux éléments d’interface utilisateur abordés dans le Guide de l’expérience utilisateur.
 
@@ -52,7 +52,7 @@ Cet index est divisé en sections suivantes :
 | [barres d’État](ctrl-status-bars.md)<br/> ![capture d’écran de la barre d’État et de la fenêtre contextuelle ](images/visual-index-image17.png)<br/>                                  |
 | [quitte](ctrl-tabs.md)<br/> ![capture d’écran de cinq onglets ](images/visual-index-image18.png)<br/>                                                                   |
 | [zones de texte](ctrl-text-boxes.md)<br/> ![capture d’écran d’une zone de texte et de son étiquette ](images/visual-index-image19.png)<br/>                                        |
-| [info-bulles](ctrl-tooltips-and-infotips.md)<br/> ![capture d’écran du bouton imprimer et de son info-bulle ](images/visual-index-image20.png)<br/>                           |
+| [tooltips](ctrl-tooltips-and-infotips.md)<br/> ![capture d’écran du bouton imprimer et de son info-bulle ](images/visual-index-image20.png)<br/>                           |
 | [info-bulle](ctrl-tooltips-and-infotips.md)<br/> ![capture d’écran du bouton partager et de son info-bulle ](images/visual-index-image21.png)<br/>                            |
 | [arborescences](ctrl-tree-views.md)<br/> ![capture d’écran de la hiérarchie des dossiers ](images/visual-index-image22.png)<br/>                                                |
 
@@ -119,7 +119,7 @@ Cet index est divisé en sections suivantes :
 
  
 
-## <a name="visuals"></a>Visuels
+## <a name="visuals"></a>Objets visuels
 
 
 

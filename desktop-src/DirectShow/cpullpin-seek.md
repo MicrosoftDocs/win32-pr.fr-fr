@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6f1a82ec549b5ceb888acc194a7abc2cd3eace47
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65ea4deddd000d1064adf8b8caf5a636eed87105856d506191d677e70978d096
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953988"
 ---
 # <a name="cpullpinseek-method"></a>CPullPin. Seek, méthode
 
@@ -61,7 +61,7 @@ Spécifie la position d’arrêt, en octets, multipliée par 10 millions.
 
 Retourne S \_ OK si la méthode est réussie, ou un code d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le thread de travail est en cours d’exécution, la méthode suspend le thread, vide le graphique de filtre et reprend le thread. Le thread commence à extraire les données à partir de la nouvelle position de départ. Dans le cas contraire, les nouvelles valeurs de position prennent effet à chaque démarrage du thread.
 

@@ -4,12 +4,12 @@ ms.assetid: 27b87f0f-7118-4252-b6e8-6ea18a9399e4
 title: Résolution des problèmes (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6726e761dd8c15e2da18e6c370472a73e82cef0b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 637ac4b43e8947a6011e35ae9a36db7829ed47fd4d5740f93778116e4ee8f9ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044077"
 ---
 # <a name="troubleshooting-direct3d-9"></a>Résolution des problèmes (Direct3D 9)
 
@@ -90,13 +90,13 @@ Pour des raisons de performances, la version de débogage du runtime en mode imm
 
 Bien que plusieurs méthodes Direct3D en mode immédiat imposent des limites aux valeurs qu’elles peuvent accepter, ces limites ne sont souvent vérifiées et appliquées que par la version Debug du mode exécution Direct3D. Les applications doivent être conformes à ces limites, ou des résultats imprévisibles et indésirables peuvent se produire lors de l’exécution sur la version commerciale de Direct3D. Par exemple, la méthode [**IDirect3DDevice9 ::D rawprimitive**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawprimitive) accepte un paramètre (PrimitiveCount) qui indique le nombre de primitives que la méthode restituera. La méthode peut uniquement accepter des valeurs comprises entre 0 et D3DMAXNUMPRIMITIVES. Dans la version Debug de Direct3D, si vous transmettez plus de primitives D3DMAXNUMPRIMITIVES, la méthode échoue correctement, en imprimant un message d’erreur dans le journal des erreurs et en renvoyant une valeur d’erreur à votre application. À l’inverse, si votre application génère la même erreur lorsqu’elle s’exécute avec la version commerciale du runtime, le comportement n’est pas défini. Pour des raisons de performances, la méthode ne valide pas les paramètres, ce qui se traduit par un comportement imprévisible et complet lorsqu’ils ne sont pas valides. Dans certains cas, l’appel peut fonctionner et, dans d’autres cas, il peut provoquer une erreur de mémoire dans Direct3D. Si un appel non valide fonctionne de manière cohérente avec une configuration matérielle spécifique et une version de DirectX, il n’existe aucune garantie qu’il continuera à fonctionner sur un autre matériel ou avec des versions ultérieures de DirectX.
 
-Si votre application rencontre des échecs inexpliqués lors de l’exécution avec le fichier d’exécution Direct3D de vente au détail, effectuez des tests sur la version de débogage et recherchez attentivement les cas où votre application transmet des paramètres non valides. Utilisez l’applet du panneau de configuration DirectX, basculez vers le runtime de débogage si nécessaire, puis activez l’option « arrêter sur D3DError ». Cette option force le runtime à utiliser la méthode Windows DebugBreak afin de forcer l’arrêt de l’application lorsqu’un bogue de l’application est détecté.
+Si votre application rencontre des échecs inexpliqués lors de l’exécution avec le fichier d’exécution Direct3D de vente au détail, effectuez des tests sur la version de débogage et recherchez attentivement les cas où votre application transmet des paramètres non valides. Utilisez l’applet du panneau de configuration DirectX, basculez vers le runtime de débogage si nécessaire, puis activez l’option « arrêter sur D3DError ». cette option force le runtime à utiliser la méthode Windows DebugBreak afin de forcer l’arrêt de l’application lorsqu’un bogue de l’application est détecté.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Conseils de programmation](programming-tips.md)
+[Astuces de programmation](programming-tips.md)
 </dt> </dl>
 
  

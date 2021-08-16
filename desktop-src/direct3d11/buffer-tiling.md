@@ -4,12 +4,12 @@ description: Une ressource de mémoire tampon est divisée en mosaïques de 64 K
 ms.assetid: 979EFCF3-1FE1-412A-A19D-F1B1CF86423B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 061fafa009e554499822c90c8fb6c0c8f34e47f9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f36352f492efb88bf220035d737b5767ef086e74ab91ffb4228d7734f838425b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117734241"
 ---
 # <a name="buffer-tiling"></a>Mosaïque de mémoires tampons
 
@@ -24,6 +24,6 @@ Les mémoires tampons structurées ne doivent pas avoir de contrainte sur le STR
 [Mode de mosaïque de la zone d’une ressource en mosaïque](how-a-tiled-resource-s-area-is-tiled.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
