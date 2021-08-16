@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: ecdb665a8e70ff329f25398eb855ff3e82c96cfa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: df4741538ae11dbe1b158fd9b8e8a6c8632c427f9a0e8376e8cd10c9056461fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117766084"
 ---
 # <a name="envelopeddataencrypt-method"></a>EnvelopedData. Encrypt, méthode
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt la [**classe EnvelopedCms**](/dotnet/api/system.security.cryptography.pkcs.envelopedcms?view=dotnet-plat-ext-3.1&preserve-view=true) dans l’espace de noms [**System. Security. Cryptography. Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) .\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt la [**classe EnvelopedCms**](/dotnet/api/system.security.cryptography.pkcs.envelopedcms?view=dotnet-plat-ext-3.1&preserve-view=true) dans l’espace de noms [**System. Security. Cryptography. Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) .\]
 
 La méthode **Encrypt** génère une clé de session, utilise cette clé pour chiffrer le contenu, encapsule le contenu chiffré pour chaque destinataire en chiffrant la clé de session avec la clé publique de chaque destinataire, puis retourne l' [*objet BLOB*](../secgloss/b-gly.md) qui contient le contenu chiffré et les clés de session chiffrées sous la forme d’une chaîne encodée.
 
@@ -64,7 +64,7 @@ Valeur de l’énumération de [**\_ \_ type d’encodage**](capicom-encoding-ty
 
 Cette méthode retourne un objet BLOB qui contient les données enveloppées dans une chaîne encodée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’objet BLOB retourné contient le contenu chiffré et une clé de session chiffrée pour chaque destinataire prévu. Ces clés de session sont chiffrées à l’aide de la clé publique de chaque destinataire. Les clés de session chiffrées ne peuvent être déchiffrées qu’avec la clé privée d’un destinataire.
 
@@ -78,7 +78,7 @@ Si la propriété [**Recipients**](envelopeddata-recipients.md) ne contient aucu
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Fin de la prise en charge des clients<br/> | Windows Vista<br/>                                                               |
 | Fin de la prise en charge des serveurs<br/> | Windows Server 2008<br/>                                                         |
-| Composant redistribuable<br/>       | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/>       | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>                   | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

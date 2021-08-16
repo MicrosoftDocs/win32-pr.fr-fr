@@ -1,5 +1,5 @@
 ---
-description: Cette section décrit les objets Windows implémentés par l’interpréteur de commandes.
+description: cette section décrit les objets Windows implémentés par l’interpréteur de commandes.
 title: Objets Shell pour l’écriture de scripts et Microsoft Visual Basic
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 52958c68edfd81771267c7a7ed29e42ab8ed1d5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: bd2c924d9b66194c8f016fc8b1c16bed8a7e3c62f82e3673837e0e31c8563fc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858798"
 ---
 # <a name="shell-objects-for-scripting-and-microsoft-visual-basic"></a>Objets Shell pour l’écriture de scripts et Microsoft Visual Basic
 
-Cette section décrit les objets Windows implémentés par l’interpréteur de commandes.
+cette section décrit les objets Windows implémentés par l’interpréteur de commandes.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -38,7 +38,7 @@ Cette section décrit les objets Windows implémentés par l’interpréteur de 
 <tbody>
 <tr class="odd">
 <td><a href="didiskquotauser-object.md"><strong>DIDiskQuotaUser</strong></a><br/></td>
-<td>Permet à un client de gérer les paramètres de quota de disque global d’un volume NTFS. Cet objet rend les fonctionnalités essentielles de l’interface <a href="didiskquotauser-object.md"><strong>DIDiskQuotaUser</strong></a> disponibles pour les scripts et les applications basées sur Microsoft Visual Basic.<br/></td>
+<td>Permet à un client de gérer les paramètres de quota de disque global d’un volume NTFS. cet objet rend les fonctionnalités essentielles de l’interface <a href="didiskquotauser-object.md"><strong>DIDiskQuotaUser</strong></a> disponibles pour les scripts et les applications basées sur Microsoft Visual Basic.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="diskquotacontrol-object.md"><strong>DiskQuotaControl</strong></a><br/></td>
@@ -164,7 +164,7 @@ Cette section décrit les objets Windows implémentés par l’interpréteur de 
 </tr>
 <tr class="odd">
 <td><a href="shelluihelper.md"><strong>ShellUIHelper</strong></a><br/></td>
-<td>Implémenté par le Shell pour aider les développeurs à écrire des scripts et Visual Basic utiliser certaines des fonctionnalités disponibles dans l’interpréteur de commandes. L’objet <a href="shelluihelper.md"><strong>ShellUIHelper</strong></a> n’a pas de propriétés ou d’événements. Des méthodes sont fournies pour ajouter des éléments à l’interpréteur de commandes.<br/></td>
+<td>implémenté par le shell pour aider les développeurs à écrire des scripts et Visual Basic utiliser certaines des fonctionnalités disponibles dans l’interpréteur de commandes. L’objet <a href="shelluihelper.md"><strong>ShellUIHelper</strong></a> n’a pas de propriétés ou d’événements. Des méthodes sont fournies pour ajouter des éléments à l’interpréteur de commandes.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="shellwindows.md"><strong>ShellWindows</strong></a><br/></td>

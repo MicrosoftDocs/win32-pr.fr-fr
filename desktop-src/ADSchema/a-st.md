@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 677daf6d72c63ffd08cc1ac8540e4ba03c3af792
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9c818eb0a885d598edc10b5857aee23e336095c301d3b1059b25ba7b2f9fd986
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104033315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959988"
 ---
 # <a name="state-or-province-name-attribute"></a>Attribut State-or-province-Name
 
@@ -46,7 +46,7 @@ Nom de l’État ou de la province d’un utilisateur.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

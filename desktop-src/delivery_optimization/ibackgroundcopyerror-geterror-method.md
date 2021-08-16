@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e14803c225ade6085658582e18b9ba2d52fc90c7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d147bc877f9694617ec94651f53f4cf438c00de8d752710c3659f24ba4ffe21c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118810324"
 ---
 # <a name="ibackgroundcopyerrorgeterror-method"></a>IBackgroundCopyError :: GetError, méthode
 
@@ -68,8 +68,8 @@ Cette méthode retourne **S_OK** en cas de réussite ou une des valeurs com HRES
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Dosvc. lib</dt> </dl>                |

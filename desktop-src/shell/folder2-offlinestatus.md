@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d456eae826e8a2e173b92fac4be716fb24bcb92d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2664a99fb103b41bd3b5040b3876b0cb92b8f9c010f420f93af7eb62a6f32bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860246"
 ---
 # <a name="folder2offlinestatus-property"></a>Dossier2. OfflineStatus, propriété
 
@@ -96,7 +96,7 @@ Le serveur est hors connexion, mais peut être atteint.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Les Fichiers hors connexion doivent être activés par le biais des options de dossier pour que **OfflineStatus** fonctionne correctement. Si l’option Fichiers hors connexion n’est pas activée, la propriété retourne **OFS \_ inactive**.
@@ -105,9 +105,9 @@ Le serveur est hors connexion, mais peut être atteint.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte de **OfflineStatus** pour JScript, VBScript et Visual Basic.
+l’exemple suivant illustre l’utilisation correcte de **OfflineStatus** pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -180,14 +180,14 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 5,0 ou ultérieure)</dt> </dl> |

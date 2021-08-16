@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 34a750b34f483342966ed1fcb3831d08b8df8f39
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7d7b1f2213fc6de3ec08a9c9b568222f5dd54a6de6f9bdb3adb27e052e8c088e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117773504"
 ---
 # <a name="attributescount-property"></a>Attributes. Count, propriété
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista, Windows XP. Utilisez plutôt la [**classe CryptographicAttributeObjectCollection**](/dotnet/api/system.security.cryptography.cryptographicattributeobjectcollection?view=dotnet-plat-ext-3.1&preserve-view=true) dans l’espace de noms [**System. Security. Cryptography**](/previous-versions/windows/) .\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista, Windows XP. Utilisez plutôt la [**classe CryptographicAttributeObjectCollection**](/dotnet/api/system.security.cryptography.cryptographicattributeobjectcollection?view=dotnet-plat-ext-3.1&preserve-view=true) dans l’espace de noms [**System. Security. Cryptography**](/previous-versions/windows/) .\]
 
 La propriété **Count** récupère le nombre d’objets [**attribute**](attribute.md) dans la collection.
 
@@ -41,7 +41,7 @@ Attributes.Count As Long
 
 Nombre d’objets [**attribute**](attribute.md) dans la collection. Chaque objet d' **attribut** représente un attribut unique dans la collection.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La propriété **Count** peut être utilisée pour spécifier le dernier objet d' [**attribut**](attribute.md) dans la collection lors de la récupération d’un objet **attribut** spécifique à l’aide de la propriété Attributes [**. Item**](attributes-item.md) .
 
@@ -53,7 +53,7 @@ La propriété **Count** peut être utilisée pour spécifier le dernier objet d
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Fin de la prise en charge des clients<br/> | Windows Vista<br/>                                                               |
 | Fin de la prise en charge des serveurs<br/> | Windows Server 2008<br/>                                                         |
-| Composant redistribuable<br/>       | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/>       | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>                   | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

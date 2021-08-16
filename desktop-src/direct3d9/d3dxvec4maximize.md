@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c145094deec5bdfdca123e6e494b18bbee01ce5b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e076fa269a9e79dc3da251a126acc56fa82640e53f9b15b0d8f60f5cee13dd32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118803703"
 ---
 # <a name="d3dxvec4maximize-function"></a>D3DXVec4Maximize fonction)
 
@@ -75,7 +75,7 @@ Type : **[ **D3DXVECTOR4**](d3dxvector4.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR4**](d3dxvector4.md) composée des plus grands composants des deux vecteurs.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec4Maximize** peut être utilisée comme paramètre pour une autre fonction.
 

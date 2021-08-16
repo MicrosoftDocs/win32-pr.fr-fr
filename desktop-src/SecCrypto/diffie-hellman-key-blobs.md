@@ -4,12 +4,12 @@ ms.assetid: 052f2108-d402-41a0-b4ac-e93ba6b06b49
 title: Objets BLOB de clé de Diffie-Hellman
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9194a9c12542fc0acf36aa0064a2f3e304e25f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8e993daf5b9ec0509ae6fa01df4edc06bafec733bb80f7b014921026fbc35ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767713"
 ---
 # <a name="diffie-hellman-key-blobs"></a>Objets BLOB de clé de Diffie-Hellman
 

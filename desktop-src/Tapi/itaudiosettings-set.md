@@ -4,16 +4,16 @@ ms.assetid: 3132e004-5543-4b21-878d-35197f7077d6
 title: 'ITAudioSettings :: Set, méthode (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf947c28d3b5270b3c5dabd4196d0e6b71f57911
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: abf26b35e3d5be18721abb6d8dd109946503cb11cb30d5c7db869d92e88adfcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003397"
 ---
 # <a name="itaudiosettingsset-method"></a>ITAudioSettings :: Set, méthode
 
-\[ Cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **Set** définit la valeur d’une [**propriété de paramètres audio**](audiosettingsproperty.md)donnée.
 

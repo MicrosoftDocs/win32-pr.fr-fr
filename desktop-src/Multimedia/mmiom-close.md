@@ -3,7 +3,7 @@ title: Message MMIOM_CLOSE (mmsystem. h)
 description: Le \_ message MMIOM Close est envoyé à une procédure d’e/s par la fonction mmioClose pour demander la fermeture d’un fichier.
 ms.assetid: 9d0dad5b-fd0a-4948-a4cf-9d138e353c76
 keywords:
-- Message MMIOM_CLOSE Windows Multimedia
+- message MMIOM_CLOSE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7863698b99bcead8bc22e6194d213bbc663d5ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17a26b8b2ffa80c7c522fa5cdcbfc5da3334e0d2b5e258e090932147bf85438c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104519297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065389"
 ---
 # <a name="mmiom_close-message"></a>MMIOM \_ Fermer le message
 
@@ -57,7 +57,7 @@ Retourne zéro si le fichier est fermé avec succès ou une erreur dans le cas c
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

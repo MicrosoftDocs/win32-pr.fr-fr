@@ -4,7 +4,7 @@ description: Raisons possibles d’une défaillance de correction en cours de r�
 ms.assetid: 29E875D7-97DA-4129-AB71-B261CD0E682A
 keywords:
 - MPRESOLVED_REASON énumération des fonctionnalités d’environnement Windows héritées
-- PMPRESOLVED_REASON des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMPRESOLVED_REASON de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab31fc8b734852ccdf15278f535d916228b43976
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a365ef55d9fe2d76e619f3c772cc1df2e6c5e1c8c33721f24dc844d064b33398
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975979"
 ---
 # <a name="mpresolved_reason-enumeration"></a>MPRESOLVED \_ Reason, énumération
 
@@ -70,8 +70,8 @@ Suffisamment de temps s’est écoulé. La valeur par défaut est d’une semain
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

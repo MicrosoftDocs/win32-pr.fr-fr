@@ -1,26 +1,26 @@
 ---
 title: Création d’une application de ruban
-description: L’infrastructure du ruban Windows est composée de deux plateformes de développement distinctes, mais dépendantes, d’un langage de balisage basé sur Extensible Application Markup Language (XAML) pour déclarer des contrôles et leur disposition visuelle, et d’un jeu d’interfaces COM (Component Object Model) C++ pour définir les fonctionnalités de commande et les hooks d’application. Cette division de main-d’œuvre au sein de l’architecture de l’infrastructure du ruban requiert qu’un développeur qui souhaite tirer parti des fonctionnalités d’interface utilisateur enrichies offertes par l’infrastructure doive concevoir et décrire l’interface utilisateur dans le balisage, puis utiliser les interfaces COM de l’infrastructure du ruban pour connecter l’infrastructure à l’application hôte.
+description: l’infrastructure du ruban Windows est composée de deux plateformes de développement distinctes, mais dépendantes, d’un langage de balisage basé sur Extensible Application Markup Language (XAML) pour déclarer des contrôles et leur disposition visuelle, et d’un jeu d’interfaces COM (Component Object Model) C++ pour définir les fonctionnalités de commande et les hooks d’Application. Cette division de main-d’œuvre au sein de l’architecture de l’infrastructure du ruban requiert qu’un développeur qui souhaite tirer parti des fonctionnalités d’interface utilisateur enrichies offertes par l’infrastructure doive concevoir et décrire l’interface utilisateur dans le balisage, puis utiliser les interfaces COM de l’infrastructure du ruban pour connecter l’infrastructure à l’application hôte.
 ms.assetid: 1bd3dbb5-822b-4551-8330-8b202a4cecdf
 keywords:
-- Ruban Windows, création d’applications
+- Windows Ruban, création d’applications
 - Ruban, création d’applications
-- Ruban Windows, feuille de route
+- Windows Ruban, feuille de route
 - Ruban, feuille de route
-- Ruban Windows, balisage
+- Windows Ruban, balisage
 - Ruban, balisage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a10f683c7fbb07b9992e418a4c09dc9aecba280
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ee3cc3395b2fe53759152f5d0244c6546c08832bda190035a918af6049a99811
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850028"
 ---
 # <a name="creating-a-ribbon-application"></a>Création d’une application de ruban
 
-L’infrastructure du ruban Windows est composée de deux plates-formes de développement distinctes et dépendantes. il s’agit d’un langage de balisage basé sur Extensible Application Markup Language (XAML) pour déclarer des contrôles et leur disposition visuelle, ainsi qu’un ensemble d’interfaces COM (Component Object Model) C++ pour définir les fonctionnalités de commande et les hooks d’application. Cette division de main-d’œuvre au sein de l’architecture de l’infrastructure du ruban requiert qu’un développeur qui souhaite tirer parti des fonctionnalités d’interface utilisateur enrichies offertes par l’infrastructure doive concevoir et décrire l’interface utilisateur dans le balisage, puis utiliser les interfaces COM de l’infrastructure du ruban pour connecter l’infrastructure à l’application hôte.
+l’infrastructure du ruban Windows est composée de deux plates-formes de développement distinctes et dépendantes. il s’agit d’un langage de balisage basé sur Extensible Application Markup Language (XAML) pour déclarer des contrôles et leur disposition visuelle, ainsi qu’un jeu d’interfaces COM (Component Object Model) C++ pour définir les fonctionnalités de commande et les hooks d’Application. Cette division de main-d’œuvre au sein de l’architecture de l’infrastructure du ruban requiert qu’un développeur qui souhaite tirer parti des fonctionnalités d’interface utilisateur enrichies offertes par l’infrastructure doive concevoir et décrire l’interface utilisateur dans le balisage, puis utiliser les interfaces COM de l’infrastructure du ruban pour connecter l’infrastructure à l’application hôte.
 
 -   [Feuille de route du ruban](#ribbon-roadmap)
 -   [Écrire le balisage](#write-the-markup)
@@ -37,7 +37,7 @@ L’infrastructure du ruban Windows est composée de deux plates-formes de déve
 
 Les aspects visuels d’une application de ruban, tels que les contrôles affichés et leur emplacement, sont déclarés dans le balisage (consultez [déclaration des commandes et des contrôles avec le balisage du ruban](windowsribbon-schema.md)). La logique de commande d’application, par exemple ce qui se produit quand un bouton est enfoncé, est implémentée dans le code.
 
-Le processus d’implémentation d’un ruban et de son incorporation dans une application Windows requiert quatre tâches de base : écrire le balisage, compiler le balisage, écrire le code, compiler et lier l’application entière.
+le processus d’implémentation d’un ruban et de son incorporation dans une application Windows nécessite quatre tâches de base : écrire le balisage, compiler le balisage, écrire le code, compiler et lier l’application entière.
 
 Le diagramme suivant illustre le flux de travail pour une implémentation de ruban typique.
 
@@ -50,9 +50,9 @@ Les sections suivantes décrivent ce processus plus en détail.
 Une fois l’interface utilisateur du ruban conçue, la première tâche d’un développeur d’applications est de décrire l’interface utilisateur avec le balisage du ruban.
 
 > [!IMPORTANT]
-> Le fichier de schéma de balisage de Framework du ruban, UICC. xsd, est installé avec le kit de développement logiciel (SDK) Microsoft Windows pour Windows 7 et .NET Framework 4,0. À l’aide du chemin d’installation standard, le fichier se trouve dans le dossier% ProgramFiles% \\ Microsoft SDK numéro de la \\ \\ \[ version Windows \] \\ où il peut être référencé par de nombreux éditeurs XML pour fournir des indications et une saisie semi-automatique.
+> le fichier de schéma de balisage de framework du ruban, UICC. xsd, est installé avec le kit de développement logiciel (SDK) Microsoft Windows pour Windows 7 et .NET Framework 4,0. à l’aide du chemin d’installation standard, le fichier se trouve dans le dossier% ProgramFiles% \\ Microsoft kits de développement logiciel (sdk) \\ Windows \\ \[ emplacement du numéro de version \] \\ où il peut être référencé par de nombreux éditeurs XML pour fournir des indications et une saisie semi-automatique.
 
- 
+ 
 
 Les contrôles de ruban, les commandes de ruban (les éléments indépendants du contrôle qui fournissent les fonctionnalités de base pour les contrôles de ruban) et l’ensemble de la disposition de contrôle et des relations visuelles sont déclarés dans le balisage. La structure du balisage du ruban met l’accent sur la distinction entre les contrôles du ruban et les commandes via deux hiérarchies de nœuds principales : une arborescence [commandes et ressources](windowsribbon-reference-elements-command.md) et une arborescence des [vues](windowsribbon-reference-elements-view.md) .
 
@@ -87,17 +87,17 @@ L’exemple de code suivant montre comment déclarer un contrôle Button, étiqu
 
 
 > [!TIP]
-> Bien qu’il soit possible d’utiliser n’importe quelle extension de nom de fichier pour le fichier de balisage du ruban,. xml est l’extension recommandée qui est utilisée dans la documentation.
+> Bien qu’il soit possible d’utiliser n’importe quelle extension de nom de fichier pour le fichier de balisage du ruban, .xml est l’extension recommandée qui est utilisée dans la documentation.
 
- 
+ 
 
 ### <a name="compile-the-markup"></a>Compiler le balisage
 
-Une fois le fichier de balisage du ruban créé, il doit être compilé dans un format binaire par le compilateur de balisage du ruban, le compilateur de commandes d’interface utilisateur (UICC), qui est inclus dans le kit de développement logiciel (SDK) Windows. Une référence à ce fichier binaire est transmise à la méthode [**IUIFramework :: LoadUI**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui) pendant l’initialisation de l’infrastructure du ruban par l’application hôte.
+une fois le fichier de balisage du ruban créé, il doit être compilé dans un format binaire par le compilateur de balisage du ruban, le compilateur de commandes d’interface utilisateur (UICC), qui est inclus dans le kit de développement logiciel (SDK) Windows. Une référence à ce fichier binaire est transmise à la méthode [**IUIFramework :: LoadUI**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui) pendant l’initialisation de l’infrastructure du ruban par l’application hôte.
 
-UICC peut être exécuté directement à partir d’une fenêtre de ligne de commande ou ajouté en tant qu’étape de génération personnalisée dans Visual Studio.
+UICC peut être exécuté directement à partir d’une fenêtre de ligne de commande ou ajouté comme « étape de génération personnalisée » dans Visual Studio.
 
-L’illustration suivante montre le compilateur de balisage UICC dans la fenêtre de l’interface de commande du kit de développement logiciel (SDK) Windows 7.
+l’illustration suivante montre le compilateur de balisage UICC dans la fenêtre de l’interface de commande du kit de développement logiciel (SDK) Windows 7.
 
 ![capture d’écran montrant uicc.exe dans une fenêtre de ligne de commande.](images/overviews/screenshot-intentcl-commandline.png)
 
@@ -119,9 +119,9 @@ Une fois que l’interface utilisateur préliminaire d’une application de ruba
 >
 > Si les IID sont définis par l’application, les GUID spécifiés dans UIRibbon. idl doivent être utilisés.
 >
-> UIRibbon. idl est fourni dans le cadre du [Kit de développement logiciel (SDK) Windows](https://msdn.microsoft.com/windows/bb980924.aspx) et se trouve dans le chemin d’installation standard de% ProgramFiles% \\ Microsoft SDK \\ Windows \\ v 7.0 \\ include.
+> UIRibbon. idl est fourni dans le cadre du [kit de développement logiciel (sdk) Windows](https://msdn.microsoft.com/windows/bb980924.aspx) et se trouve dans le chemin d’installation standard de% ProgramFiles% \\ Microsoft sdk \\ Windows \\ v 7.0 \\ include.
 
- 
+ 
 
 ### <a name="initialize-the-ribbon"></a>Initialiser le ruban
 
@@ -157,7 +157,7 @@ Les étapes suivantes décrivent en détail comment implémenter une application
     > \[! Précieuse\]  
     > L’infrastructure du ruban est initialisée en tant que thread unique cloisonné (STA).
 
-     
+     
 
     ```
     hr = pFramework->Initialize(hWndHost, pApplication);
@@ -192,7 +192,7 @@ Les étapes suivantes décrivent en détail comment implémenter une application
     > [!Note]  
     > L’interface [**IUICommandHandler**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler) permet de lier un gestionnaire de commandes à une ou plusieurs commandes.
 
-     
+     
 
 Au minimum, l’application doit implémenter les stubs des méthodes [**IUIApplication**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication) qui retournent E \_ NOTIMPL, comme indiqué dans l’exemple suivant.
 
@@ -235,7 +235,7 @@ STDMETHOD(OnDestroyUICommand)(UINT32 commandId,
 
 
 
-En fonction du compilateur et de l’éditeur de liens utilisés, le script de définition de ressource peut également nécessiter une compilation avant que l’application du ruban puisse être compilée. L’outil en ligne de commande [du compilateur de ressources (RC)](../menurc/using-rc-the-rc-command-line-.md) fourni avec Microsoft Visual Studio et le SDK Windows peuvent être utilisés pour cette tâche.
+En fonction du compilateur et de l’éditeur de liens utilisés, le script de définition de ressource peut également nécessiter une compilation avant que l’application du ruban puisse être compilée. l’outil en ligne de commande [du compilateur de ressources (RC)](../menurc/using-rc-the-rc-command-line-.md) fourni avec Microsoft Visual Studio et le SDK Windows peuvent être utilisés pour cette tâche.
 
 ### <a name="compile-the-application"></a>Compiler l’application
 
@@ -260,7 +260,7 @@ Le diagramme suivant illustre la communication au moment de l’exécution pour 
 > [!Note]  
 > L’implémentation des fonctions [**IUICommandHandler :: UpdateProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) et [**IUICommandHandler :: Execute**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) n’est pas nécessaire pour afficher initialement un ruban dans une application. Toutefois, ces méthodes sont nécessaires pour s’assurer que l’application fonctionne correctement lorsque les commandes sont exécutées par l’utilisateur.
 
- 
+ 
 
 ## <a name="ole-support"></a>Prise en charge OLE
 
@@ -285,9 +285,9 @@ Les objets créés dans une application serveur OLE conservent leur association 
 [Processus de conception du ruban](https://msdn.microsoft.com/library/cc872781.aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

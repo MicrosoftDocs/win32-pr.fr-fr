@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 1888b89773253285036c89e20332d92555b6db2b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 92bae081c5f888d271bfdeb278ca4c0d2b210fffddce8b57c76d5f446fc9e4d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118400747"
 ---
 # <a name="iamtimelineobjremoveall-method"></a>IAMTimelineObj :: RemoveAll, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -47,7 +47,7 @@ Cette méthode n’a aucun paramètre.
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour supprimer un objet en vue de le réinsérer ailleurs dans la chronologie, appelez [**IAMTimelineObj :: Remove**](iamtimelineobj-remove.md).
 
@@ -57,7 +57,7 @@ Pour supprimer un objet en vue de le réinsérer ailleurs dans la chronologie, a
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

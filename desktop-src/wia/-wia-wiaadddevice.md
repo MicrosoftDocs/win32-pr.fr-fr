@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 694265f0a59096a5a6a58ccbf4e43c92e21fe9b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81dcff3cdca3459126751b12b86f1e11adc2b4fec8926f69211f0508253b64fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965398"
 ---
 # <a name="wiaadddevice-function"></a>WiaAddDevice fonction)
 
@@ -42,7 +42,7 @@ Cette fonction n’a pas de paramètres.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction doit être appelée avec les informations d’identification d’administrateur. En cas d’exécution sous le contrôle de compte d’utilisateur (LUA), le processus doit être élevé.
 
@@ -52,8 +52,8 @@ Cette fonction doit être appelée avec les informations d’identification d’
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | Bibliothèque<br/>                  | <dl> <dt>Wiaguid. lib</dt> </dl> |
 

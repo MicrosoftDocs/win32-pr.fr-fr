@@ -4,12 +4,12 @@ ms.assetid: bcc398d3-22ea-466c-9206-92b0ac208def
 title: Considérations sur les threads de bibliothèque managée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b8677375b8bbdb5f171329927d01e6178b5cb83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60908618fe3b566a552167f3448ee1d4269f9246c7b08f9bb1acf3269cf2ae77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119031707"
 ---
 # <a name="managed-library-threading-considerations"></a>Considérations sur les threads de bibliothèque managée
 
@@ -17,7 +17,7 @@ Les considérations suivantes relatives au thread de Tablet PC sont spécifiques
 
 -   [Sécurité des threads](#thread-safety)
 -   [Applications STA et MTA](#sta-and-mta-applications)
--   [Considérations relatives au Threading Windows Forms](#windows-forms-threading-considerations)
+-   [Windows Considérations sur les threads de formulaires](#windows-forms-threading-considerations)
 -   [Considérations sur le presse-papiers](#clipboard-considerations)
 -   [Exceptions dans les gestionnaires d’événements](#exceptions-within-event-handlers)
 -   [Suppression d’objets et de contrôles](#disposing-objects-and-controls)
@@ -36,17 +36,17 @@ Les classes de la bibliothèque managée de la plateforme Tablet PC ne sont gén
 
 ## <a name="sta-and-mta-applications"></a>Applications STA et MTA
 
-Les applications managées créées à l’aide des assistants contenus dans Microsoft Visual Studio .NET sont des threads cloisonnés (STA) par défaut. Vous pouvez modifier le cloisonnement de votre application en définissant le thread STA ou l’attribut de thread du cloisonnement multithread (MTA) sur le point d’entrée de votre application.
+les applications managées créées à l’aide des assistants contenus dans Microsoft Visual Studio .net sont des threads cloisonnés (STA) par défaut. Vous pouvez modifier le cloisonnement de votre application en définissant le thread STA ou l’attribut de thread du cloisonnement multithread (MTA) sur le point d’entrée de votre application.
 
 Si votre application s’exécute dans un MTA, vous devez écrire du code thread-safe. Toutefois, en procédant ainsi, vous pouvez améliorer certains problèmes de performances de gestion des événements.
 
 Pour plus d’informations sur les attributs du thread STA et du thread MTA, consultez la classe [STAThreadAttribute](/dotnet/api/system.stathreadattribute?view=netcore-3.1) et la classe [MTAThreadAttribute](/dotnet/api/system.mtathreadattribute?view=netcore-3.1) .
 
-## <a name="windows-forms-threading-considerations"></a>Considérations relatives au Threading Windows Forms
+## <a name="windows-forms-threading-considerations"></a>Windows Considérations sur les threads de formulaires
 
-Les contrôles [InkPicture](/previous-versions/aa514604(v=msdn.10)) et [InkEdit](/previous-versions/ms552265(v=vs.100)) étendent Windows Forms contrôles. Les contrôles Windows Forms utilisent le modèle STA (Single-Threaded Apartment), car Windows Forms sont basés sur des fenêtres Win32 natives qui sont intrinsèquement des threads uniques. Dans le code managé, les contrôles d’encre doivent être créés dans le même thread que le thread principal pour le formulaire.
+les contrôles [InkPicture](/previous-versions/aa514604(v=msdn.10)) et [InkEdit](/previous-versions/ms552265(v=vs.100)) étendent Windows Forms contrôles. Windows les contrôles forms utilisent le modèle sta (single-threaded apartment), car les Windows Forms sont basés sur des fenêtres Win32 natives qui sont intrinsèquement des threads uniques. Dans le code managé, les contrôles d’encre doivent être créés dans le même thread que le thread principal pour le formulaire.
 
-Dans une application STA, certains événements se produisent sur un thread autre que le thread d’interface utilisateur de l’application. Lors de l’appel d’un objet ou d’un contrôle Windows Forms, y compris les contrôles [InkPicture](/previous-versions/aa514604(v=msdn.10)) et [InkEdit](/previous-versions/ms552265(v=vs.100)) , à partir d’un gestionnaire d’événements Tablet PC, utilisez la méthode [Control. Invoke](/dotnet/api/system.windows.forms.control.invoke?view=netcore-3.1) héritée de l’objet ou du contrôle. La propriété [InvokeRequired](/dotnet/api/system.windows.forms.control.invokerequired?view=netcore-3.1) , héritée de la classe Control, peut être utilisée pour déterminer si cela est nécessaire.
+Dans une application STA, certains événements se produisent sur un thread autre que le thread d’interface utilisateur de l’application. lors de l’appel d’un objet ou d’un contrôle Windows Forms, y compris les contrôles [InkPicture](/previous-versions/aa514604(v=msdn.10)) et [InkEdit](/previous-versions/ms552265(v=vs.100)) , à partir d’un gestionnaire d’événements Tablet PC, utilisez la méthode [control. Invoke](/dotnet/api/system.windows.forms.control.invoke?view=netcore-3.1) héritée de l’objet ou du contrôle. La propriété [InvokeRequired](/dotnet/api/system.windows.forms.control.invokerequired?view=netcore-3.1) , héritée de la classe Control, peut être utilisée pour déterminer si cela est nécessaire.
 
 Par exemple, dans le gestionnaire d’événements suivant pour l’événement de [reconnaissance](/previous-versions/ms829424(v=msdn.10)) , la propriété [InvokeRequired](/dotnet/api/system.windows.forms.control.invokerequired?view=netcore-3.1) est testée et, si la **valeur est true**, le gestionnaire d’événements est à nouveau appelé à partir du thread d’interface utilisateur.
 
@@ -70,7 +70,7 @@ void recoContext_Recognition(object sender,
 
 Si vous placez un [UserControl](/dotnet/api/system.web.ui.usercontrol?view=netframework-4.8) sur awebpagein un navigateur (consultez [contrôles Web](web-controls.md)), il s’exécute en tant qu’application STA. Pour les applications Smart client (voir [aucun déploiement Touch](no-touch-deployment.md)), le développeur a un contrôle total sur le [ApartmentState](/dotnet/api/system.threading.apartmentstate?view=netcore-3.1). (La valeur par défaut est généralement STA, mais peut être MTA, en fonction de votre version de CLR.) Pour les problèmes de Threading impliquant l' [**RealTimeStylus**](realtimestylus-class.md), consultez [Considérations sur les threads pour les API StylusInput](threading-considerations-for-the-stylusinput-apis.md).
 
-Pour plus d’informations sur l’appel d’Windows Forms à partir d’une application MTA, consultez [exemple de contrôle multithread Windows Forms](/previous-versions/dotnet/netframework-1.1/3s8xdz5c(v=vs.71)).
+pour plus d’informations sur l’appel d’Windows Forms à partir d’une application MTA, consultez [exemple de contrôle multithread Windows Forms](/previous-versions/dotnet/netframework-1.1/3s8xdz5c(v=vs.71)).
 
 ## <a name="clipboard-considerations"></a>Considérations sur le presse-papiers
 

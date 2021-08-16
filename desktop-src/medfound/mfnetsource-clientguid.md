@@ -4,12 +4,12 @@ ms.assetid: 490a2b03-aba8-4510-80c5-ca12f4037747
 title: MFNETSOURCE_CLIENTGUID, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc5df46741d4a0b9a6a125396b6f93dd32bfadf6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9585f5ac9cd69148272cb986746f6849aad4c3aa048b46baf2f75aeaba77c092
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118738988"
 ---
 # <a name="mfnetsource_clientguid-property"></a>MFNETSOURCE \_ propriété CLIENTGUID
 
@@ -31,7 +31,7 @@ Membre PROPVARIANT
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La constante **MFNETSOURCE \_ CLIENTGUID** définit le GUID de la clé de propriété. L’identificateur de propriété (PID) est égal à zéro. Pour définir cette propriété sur la source réseau, transmettez un pointeur **IPropertyStore** au programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
@@ -43,8 +43,8 @@ Si la valeur n’est pas définie ou définie en tant que **GUID \_ NULL**, Micr
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

@@ -1,6 +1,6 @@
 ---
-title: Variables d’État Implementation-Dependent
-description: Variables d’État Implementation-Dependent
+title: Variables d’état dépendantes de l’implémentation
+description: Variables d’état dépendantes de l’implémentation
 ms.assetid: 6778b50c-a6ac-4106-9dd6-3a123c257687
 keywords:
 - Variables d’État Implementation-Dependent OpenGL
@@ -12,14 +12,14 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 645702c9ea91f21d0e3bce5233b8014fd8f86859
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 4da38f841408bd6ddf481473837f36544d21d896f2764317957c65158be27fd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061457"
 ---
-# <a name="implementation-dependent-state-variables"></a>Variables d’État Implementation-Dependent
+# <a name="implementation-dependent-state-variables"></a>Variables d’état dépendantes de l’implémentation
 
 <dl> <dt><span id="GL_MAX_LIGHTS"></span><span id="gl_max_lights"></span>\_lumières max. GL \_</dt> <dd> 
 

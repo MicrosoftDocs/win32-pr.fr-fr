@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 7204308e6b9355b416218f31af301b5ea6d8fff5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 52ac939cc77bbd87dbecffc07253f0fadc5cbbdaa48e07f938f163c453c21e14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118798795"
 ---
 # <a name="max_fvf_decl_size-enumeration"></a>\_Énumération Max Commission de la \_ \_ taille decl
 
@@ -46,7 +46,7 @@ Nombre maximal d’éléments dans la déclaration de vertex. Le supplémentaire
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 MAXD3DDECLLENGTH est défini comme un maximum de 64 (voir d3d9types. h). Cela n’inclut pas l’élément de vertex du marqueur « end ».
 

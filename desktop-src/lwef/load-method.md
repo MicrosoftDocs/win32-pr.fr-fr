@@ -4,12 +4,12 @@ description: Load, méthode
 ms.assetid: 72a37471-f69b-49a5-a6eb-d65bff970c0f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0927fc8e49e55c2bdfcd7b1109bb8604540c199c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e201053bf3eb9fbd7a3c5c7eb94f9b032cde13087f76e1fcfa176d068655137a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106509651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118748651"
 ---
 # <a name="load-method"></a>Load, méthode
 
@@ -27,7 +27,7 @@ Charge un caractère dans la collection de [**caractères**](/windows/desktop/lw
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent ***. Caractères. Load "*** CharacterID * * *",* *  *fournisseur*
+*agent ***. Caractères. Load «**_CharacterID_*_»,_ *  *fournisseur*
 
 
 
@@ -42,9 +42,9 @@ Charge un caractère dans la collection de [**caractères**](/windows/desktop/lw
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Vous pouvez charger des caractères à partir du sous-répertoire de l’agent en spécifiant un chemin d’accès relatif (qui n’inclut pas de signe deux-points ou de barre oblique de début). Cela préfixe le chemin d’accès avec le répertoire de caractères de l’agent (situé dans le \\ répertoire msagent Windows localisé). Par exemple, si vous spécifiez ce qui suit, génie. ACS est chargé à partir du répertoire de caractères de l’agent :
+Vous pouvez charger des caractères à partir du sous-répertoire de l’agent en spécifiant un chemin d’accès relatif (qui n’inclut pas de signe deux-points ou de barre oblique de début). cela a pour préfixe le chemin d’accès avec le répertoire de caractères de l’Agent (situé dans le répertoire local Windows \\ msagent). Par exemple, si vous spécifiez ce qui suit, génie. ACS est chargé à partir du répertoire de caractères de l’agent :
 
 
 ```

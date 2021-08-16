@@ -1,25 +1,25 @@
 ---
-description: Ce didacticiel montre comment utiliser l’API de transcodage pour encoder un fichier Windows Media Audio (WMA).
+description: ce didacticiel montre comment utiliser l’API de transcodage pour encoder un fichier Windows Media Audio (WMA).
 ms.assetid: 2397ca78-edb5-4756-bd07-00529db28f76
 title: 'Didacticiel : encodage d’un fichier WMA'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f491a9d460771dae91a49ab42982fbe97b24c42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86301f301bb4f39f6c9258ec3eacfdd1646af8e76791e2df37ae6bf7d8f89880
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972788"
 ---
 # <a name="tutorial-encoding-a-wma-file"></a>Didacticiel : encodage d’un fichier WMA
 
-Ce didacticiel montre comment utiliser l' [API de transcodage](transcode-api.md) pour encoder un fichier Windows Media audio (WMA).
+ce didacticiel montre comment utiliser l' [API de transcodage](transcode-api.md) pour encoder un fichier Windows Media Audio (WMA).
 
 Ce didacticiel réutilise la majeure partie du code du didacticiel [codage d’un fichier MP4](tutorial--encoding-an-mp4-file-.md). vous devez donc lire ce didacticiel en premier. Le seul code qui diffère est la fonction `CreateTranscodeProfile` , qui crée le profil de transcodage.
 
 ## <a name="create-the-transcode-profile"></a>Créer le profil de transcodage
 
-Un *Profil* de transcodage décrit les paramètres d’encodage et le conteneur de fichiers. Pour WMA, le conteneur de fichiers est un fichier ASF (Advanced Streaming Format). Le fichier ASF contient un flux audio, qui est encodé à l’aide de l' [**Encodeur Windows Media Audio**](windowsmediaaudioencoder.md).
+Un *Profil* de transcodage décrit les paramètres d’encodage et le conteneur de fichiers. Pour WMA, le conteneur de fichiers est un fichier ASF (Advanced Streaming Format). le fichier ASF contient un flux audio, qui est encodé à l’aide de l' [**encodeur Windows Media Audio**](windowsmediaaudioencoder.md).
 
 Pour générer la topologie de transcodage, créez le profil de transcodage et spécifiez les paramètres du flux audio et du conteneur. Ensuite, créez la topologie en spécifiant la source d’entrée, l’URL de sortie et le profil de transcodage.
 

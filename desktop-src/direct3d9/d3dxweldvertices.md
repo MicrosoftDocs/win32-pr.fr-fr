@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 76e0a6f259bc8ba547a02b2e95cccf718d54e904
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3ce6a9a05573467e0725785a6272e5542c4f871080fe221ac12078b17165eb5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118803272"
 ---
 # <a name="d3dxweldvertices-function"></a>D3DXWeldVertices fonction)
 
@@ -55,7 +55,7 @@ Pointeur vers un objet [**ID3DXMesh**](id3dxmesh.md) , le maillage à partir duq
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -115,7 +115,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction utilise les informations d’adjacence fournies pour déterminer les points répliqués. Les vertex sont fusionnés en fonction d’une comparaison Epsilon. Les vertex avec la même position doivent déjà avoir été calculés et représentés par des données représentatives du point.
 

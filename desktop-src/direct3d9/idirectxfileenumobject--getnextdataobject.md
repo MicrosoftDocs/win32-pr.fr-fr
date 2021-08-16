@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: bc50af216eaae1687351d472b7151aaaeae9116f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 42d95fcee1b431f5121389d7bb6595e5c53ca56298c75ed6010ee86733c310e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985129"
 ---
 # <a name="idirectxfileenumobjectgetnextdataobject-method"></a>IDirectXFileEnumObject :: GetNextDataObject, méthode
 
@@ -55,7 +55,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est DXFILE \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des valeurs suivantes : DXFILEERR \_ BADVALUE, DXFILEERR \_ NOMOREOBJECTS
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les objets de niveau supérieur sont toujours des objets de données. Les objets de référence de données et les objets binaires peuvent uniquement être des enfants d’objets de données.
 

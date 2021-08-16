@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 86784aa071be22cd16a06d9d4516970d2924079a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2570336fa8052be29863a4b4c221057994828423041bacd4280edd729792dafd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032627"
 ---
 # <a name="foldernewfolder-method"></a>Folder. NewFolder, méthode
 
@@ -62,7 +62,7 @@ Cette valeur n’est pas utilisée actuellement.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Toutes les méthodes ne sont pas implémentées pour tous les dossiers. Par exemple, la méthode [**ParseName**](folder-parsename.md) n’est pas implémentée pour le dossier du panneau de configuration ( \_ contrôles CSIDL). Si vous tentez d’appeler une méthode non implémentée, une erreur 0x800A01BD (Decimal 445) est générée.
@@ -71,9 +71,9 @@ Cette méthode ne retourne pas de valeur.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **NewFolder** pour créer le nouveau dossier C : \\ TestFolder. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant utilise **NewFolder** pour créer le nouveau dossier C : \\ TestFolder. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -140,13 +140,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

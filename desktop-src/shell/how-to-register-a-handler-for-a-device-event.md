@@ -4,12 +4,12 @@ ms.assetid: 84B12B5C-C179-4124-A1FC-B90D120336BF
 title: Comment inscrire un gestionnaire pour un événement d’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34ef15071b349afa3f863e7c57b64c280c2aef8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66a13abe8917d93ac6a4801e0c11cb7223da25e362923df229180b8c8e6211ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859598"
 ---
 # <a name="how-to-register-a-handler-for-a-device-event"></a>Comment inscrire un gestionnaire pour un événement d’appareil
 
@@ -20,7 +20,7 @@ Les gestionnaires définissent la partie logicielle de l’exécution automatiqu
 
 Les gestionnaires et leurs valeurs associées sont définis sous la  \\ clé des **gestionnaires** AutoplayHandlers. Les sous-clés diffèrent selon que le système peut lire le contenu de l’appareil directement ou si l’appareil fournit du contenu au système par le biais d’une interface propriétaire.
 
-L’exemple suivant montre les sous-clés et les valeurs utilisées pour un périphérique, telles qu’une caméra vidéo numérique ou un lecteur. mp3, qui fournit son contenu au système via une interface propriétaire. L’exemple de gestionnaire est appelé **MyHandler**.
+L’exemple suivant montre les sous-clés et les valeurs utilisées pour un périphérique, telles qu’une caméra vidéo numérique ou un lecteur .mp3, qui fournit son contenu au système par le biais d’une interface propriétaire. L’exemple de gestionnaire est appelé **MyHandler**.
 
 ```
 HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER
@@ -45,7 +45,7 @@ HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER
 
  
 
-Vous pouvez entrer la valeur de l’action en tant que valeur littérale, par exemple « lire la musique » comme illustré dans cet exemple, ou en tant que nom de fichier avec une chaîne de ressource. Vous pouvez également entrer la valeur du fournisseur sous la forme d’une valeur littérale ou d’un nom de fichier avec une chaîne de ressource. L’exécution automatique combine la valeur d’action et la valeur de fournisseur avec le mot « using » pour créer une légende conviviale qui s’affiche dans l’interface utilisateur. Dans l’exemple, la légende obtenue est « lire la musique à l’aide du lecteur Windows Media ».
+Vous pouvez entrer la valeur de l’action en tant que valeur littérale, par exemple « lire la musique » comme illustré dans cet exemple, ou en tant que nom de fichier avec une chaîne de ressource. Vous pouvez également entrer la valeur du fournisseur sous la forme d’une valeur littérale ou d’un nom de fichier avec une chaîne de ressource. L’exécution automatique combine la valeur d’action et la valeur de fournisseur avec le mot « using » pour créer une légende conviviale qui s’affiche dans l’interface utilisateur. dans l’exemple, la légende obtenue est « lire la musique à l’aide de Lecteur Windows Media ».
 
 La valeur DefaultIcon pointe vers un fichier. ico ou une ressource dans un fichier binaire. Si la valeur numérique qui suit le nom de fichier binaire est égale ou supérieure à zéro, alors il s’agit de la valeur d’index de l’icône dans ce fichier binaire. S’il s’agit d’une valeur négative, il s’agit de l’ID de ressource icône. Les valeurs d’index négatives sont recommandées. Aucune valeur n’est nécessaire dans le cas d’un fichier. ico. Il est recommandé d’utiliser des variables d’environnement dans le chemin d’accès.
 

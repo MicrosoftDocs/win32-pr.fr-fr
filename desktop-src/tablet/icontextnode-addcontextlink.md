@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: eccfcc8be51ff951c1bcd6de55bd3a0f89cdc201
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 515ade35baed591060e76818d2b3e00a3654a89a9d42dda21d170ee54b2773ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967438"
 ---
 # <a name="icontextnodeaddcontextlink-method"></a>IContextNode :: AddContextLink, méthode
 
@@ -66,7 +66,7 @@ Pointeur vers le nouvel objet [**IContextLink**](icontextlink.md) .
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Caution]  
 > Pour éviter une fuite de mémoire, appelez [**IUnknown :: Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) sur \* *ppContextLinkToAdd* lorsque vous n’avez plus besoin d’utiliser le nœud de contexte.
@@ -81,7 +81,7 @@ Cet objet [**IContextNode**](icontextnode.md) est le nœud source (consultez [**
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

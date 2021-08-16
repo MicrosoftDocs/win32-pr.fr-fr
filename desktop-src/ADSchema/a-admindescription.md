@@ -58,10 +58,10 @@ Description affichée sur les écrans d’administration.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x804A                          |
-| System-Only            | False                           |
-| Est de valeur unique       | True                            |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Faux                           |
+| Est de valeur unique       | Vrai                            |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 0                               |
 | Range-Upper            | 1 024                            |
@@ -79,10 +79,10 @@ Description affichée sur les écrans d’administration.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x804A                          |
-| System-Only            | False                           |
-| Est de valeur unique       | True                            |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Faux                           |
+| Est de valeur unique       | Vrai                            |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 0                               |
 | Range-Upper            | 1 024                            |
@@ -100,10 +100,10 @@ Description affichée sur les écrans d’administration.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x804A                          |
-| System-Only            | False                           |
-| Est de valeur unique       | True                            |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Faux                           |
+| Est de valeur unique       | Vrai                            |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 0                               |
 | Range-Upper            | 1 024                            |
@@ -121,10 +121,10 @@ Description affichée sur les écrans d’administration.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x804A                          |
-| System-Only            | False                           |
-| Est de valeur unique       | True                            |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Faux                           |
+| Est de valeur unique       | Vrai                            |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 0                               |
 | Range-Upper            | 1 024                            |
@@ -142,10 +142,10 @@ Description affichée sur les écrans d’administration.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x804A                          |
-| System-Only            | False                           |
-| Est de valeur unique       | True                            |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Faux                           |
+| Est de valeur unique       | Vrai                            |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 0                               |
 | Range-Upper            | 1 024                            |
@@ -163,10 +163,10 @@ Description affichée sur les écrans d’administration.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x804A                          |
-| System-Only            | False                           |
-| Est de valeur unique       | True                            |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Faux                           |
+| Est de valeur unique       | Vrai                            |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 0                               |
 | Range-Upper            | 1 024                            |
@@ -184,10 +184,10 @@ Description affichée sur les écrans d’administration.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x804A                          |
-| System-Only            | False                           |
-| Est de valeur unique       | True                            |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Faux                           |
+| Est de valeur unique       | Vrai                            |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 0                               |
 | Range-Upper            | 1 024                            |

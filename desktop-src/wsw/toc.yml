@@ -1,7 +1,7 @@
-- name: Services Web Windows
+- name: Windows Services Web
   href: portal.md
   items:
-    - name: À propos des services Web Windows
+    - name: à propos des Services Web Windows
       href: about-windows-web-services.md
       items:
         - name: Vue d’ensemble de la couche de modèle de service
@@ -25,7 +25,7 @@
               items:
                 - name: Proxy de service et sessions
                   href: service-proxy-and-sessions.md
-            - name: Context
+            - name: Contexte
               href: context.md
             - name: Contrat
               href: contract.md
@@ -127,15 +127,15 @@
               href: operation-context-lifetime-and-threading.md
             - name: Cohérence de thread
               href: thread-safety.md
-        - name: Erreurs
+        - name: Errors
           href: errors.md
         - name: Pannes
           href: faults.md
         - name: Segment de mémoire (heap)
           href: heap.md
-        - name: Services
+        - name: Outils
           href: utilities.md
-    - name: Utilisation des services Web Windows
+    - name: utilisation des Services Web Windows
       href: using-windows-web-services.md
       items:
         - name: Création d’un client
@@ -144,7 +144,7 @@
           href: manually-creating-a-service-proxy-for-a-wcf-service.md
         - name: Création d'un service
           href: creating-a-service.md
-        - name: Exemples de services Web Windows
+        - name: Windows Exemples de services Web
           href: windows-web-services-examples.md
           items:
             - name: Exemples de modèle de service
@@ -375,10 +375,10 @@
                   href: filereptoolexample.md
                 - name: FileRepServiceExample
                   href: filerepserviceexample.md
-    - name: Référence des services Web Windows
+    - name: Windows Référence des services Web
       href: windows-web-services-reference.md
       items:
-        - name: Fonctions de rappel des services Web Windows
+        - name: Windows Fonctions de rappel des services Web
           href: web-services-for-windows-callback-functions.md
           items:
             - name: WS_ABANDON_MESSAGE_CALLBACK
@@ -724,7 +724,7 @@
               href: /windows/desktop/api/WebServices/ne-webservices-ws_xml_writer_output_type
             - name: WS_XML_WRITER_PROPERTY_ID
               href: /windows/desktop/api/WebServices/ne-webservices-ws_xml_writer_property_id
-        - name: Fonctions des services Web Windows
+        - name: Windows Fonctions des services Web
           href: web-services-for-windows-functions.md
           items:
             - name: WsAbandonCall
@@ -1119,7 +1119,7 @@
               href: /windows/desktop/api/WebServices/nf-webservices-wswritexmlnsattribute
             - name: WsXmlStringEquals
               href: /windows/desktop/api/WebServices/nf-webservices-wsxmlstringequals
-        - name: Handles des services Web Windows
+        - name: Windows Handles de services Web
           href: web-services-for-windows-handles.md
           items:
             - name: WS_CHANNEL
@@ -1152,7 +1152,7 @@
               href: ws-xml-reader.md
             - name: WS_XML_WRITER
               href: ws-xml-writer.md
-        - name: Macros des services Web Windows
+        - name: Windows Macros de services Web
           href: web-services-for-windows-macros.md
           items:
             - name: WS_STRING_EMPTY
@@ -1167,9 +1167,9 @@
               href: /windows/desktop/api/WebServices/nf-webservices-ws_xml_string_value
             - name: WsCountOf
               href: /windows/desktop/api/WebServices/nf-webservices-wscountof
-        - name: Valeurs renvoyées par les services Web Windows
+        - name: Windows Valeurs renvoyées par les services Web
           href: windows-web-services-return-values.md
-        - name: Structures des services Web Windows
+        - name: Windows Structures de services Web
           href: web-services-for-windows-structures.md
           items:
             - name: WS_ANY_ATTRIBUTE
@@ -1682,7 +1682,7 @@
               href: /windows/win32/api/WebServices/ns-webservices-ws_xml_writer_stream_output
             - name: WS_XML_WRITER_TEXT_ENCODING
               href: /windows/win32/api/WebServices/ns-webservices-ws_xml_writer_text_encoding
-- name: Prérécupération des API de débogage pour les applications du Windows Store
+- name: prérécupération des api de débogage pour les applications Windows store
   href: windows-runtime-prefetch-debug-apis.md
   items:
     - name: IContentPrefetcherTaskTrigger

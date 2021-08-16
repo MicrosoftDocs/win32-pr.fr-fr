@@ -1,6 +1,6 @@
 ---
-title: Types d’énumération du kit de développement logiciel Windows Media format
-description: Découvrez les types d’énumération que le kit de développement logiciel (SDK) du format Windows Media implémente, tels que DRM_HTTP_STATUS et DRM_LICENSE_STATE_CATEGORY.
+title: Windows Types d’énumération du kit de développement logiciel (SDK)
+description: découvrez les types d’énumération que le kit de développement logiciel (SDK) du Format de média Windows implémente, comme DRM_HTTP_STATUS et DRM_LICENSE_STATE_CATEGORY.
 ms.assetid: cd28f608-25ba-44a7-868b-b1cd4dfcfa45
 keywords:
 - Windows Media Format SDK, types énumération
@@ -9,16 +9,16 @@ keywords:
 - types de l'énumération
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45a6fcb6d433079cce9d570a7eb6e28f31691985
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 16b3a53688e21e58b0d9509cc901a72399f26b9d758cac89511e66a76d740db1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112067995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848158"
 ---
-# <a name="windows-media-format-sdk-enumeration-types"></a>Types d’énumération du kit de développement logiciel Windows Media format
+# <a name="windows-media-format-sdk-enumeration-types"></a>Windows Types d’énumération du kit de développement logiciel (SDK)
 
-Le kit de développement logiciel (SDK) du format Windows Media implémente les types d’énumération suivants.
+le kit de développement logiciel (SDK) Windows Media Format implémente les types d’énumération suivants.
 
 
 
@@ -39,7 +39,7 @@ Le kit de développement logiciel (SDK) du format Windows Media implémente les 
 | [**\_type d’index WMT \_**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_index_type)                                     | Définit l’objet avec lequel un index basé sur l’heure peut être associé.                                                              |
 | [**\_type d’indexeur WMT \_**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_indexer_type)                                 | Définit les types d’indexation pris en charge par l’indexeur.                                                                          |
 | [**\_protocole réseau \_ WMT**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_net_protocol)                                 | Définit les types de protocoles pris en charge par le récepteur réseau.                                                                   |
-| [**\_mode de \_ classe \_ MUSICSPEECH WMT**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_musicspeech_class_mode)            | Définit les modes de compression disponibles pour le codec vocal Windows Media Audio 9.                                                |
+| [**\_mode de \_ classe \_ MUSICSPEECH WMT**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_musicspeech_class_mode)            | définit les modes de compression disponibles pour le codec vocal Windows Media Audio 9.                                                |
 | [**\_format de décalage WMT \_**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_offset_format)                               | Définit les types d’offsets utilisés dans ce kit de développement logiciel (SDK).                                                                                   |
 | [**\_mode de lecture WMT \_**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_play_mode)                                       | Définit les options de lecture du lecteur.                                                                                      |
 | [**\_paramètres du proxy WMT \_**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_proxy_settings)                             | Définit les paramètres du proxy réseau à utiliser avec un objet lecteur.                                                                 |
@@ -48,7 +48,7 @@ Le kit de développement logiciel (SDK) du format Windows Media implémente les 
 | [**\_format de stockage WMT \_**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_storage_format)                             | Définit les types de fichiers qui peuvent être manipulés avec ce kit de développement logiciel (SDK).                                                                    |
 | [**\_sélection de flux WMT \_**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_stream_selection)                         | Définit l’état d’un flux.                                                                                                  |
 | [**\_type de transport WMT \_**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_transport_type)                             | Définit les types de transport pris en charge par ce kit de développement logiciel (SDK).                                                                               |
-| [**VERSION de WMT \_**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_version)                                            | Définit les numéros de version du kit de développement logiciel (SDK) du format Windows Media.                                                                     |
+| [**VERSION de WMT \_**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_version)                                            | définit les numéros de version du kit de développement logiciel (SDK) de Format multimédia Windows.                                                                     |
 | [**\_type d' \_ entrée de filigrane WMT \_**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_watermark_entry_type)                | Définit les types de filigranes pris en charge.                                                                                       |
 
 

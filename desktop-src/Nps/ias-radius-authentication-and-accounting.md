@@ -5,19 +5,19 @@ ms.assetid: 3e00d555-355c-4a4c-a389-ab44e9ed9ca9
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cce45bbc6e4802ed5137849a5b22520c8a4badbb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e3b0395b6bc147da4f78bb718cda714014b9b665f5a26a8d20fa29402ee8dec1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063489"
 ---
 # <a name="radius-authentication-authorization-and-accounting"></a>Authentification, autorisation et gestion des comptes RADIUS
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
 
- 
+ 
 
 NPS prend entièrement en charge le protocole protocole RADIUS (Remote Authentication Dial-In User Service) (RADIUS). Le protocole RADIUS est la norme de facto pour l’authentification des utilisateurs distants et il est documenté dans le document [rfc 2865](https://www.ietf.org/rfc/rfc2865.txt) et [RFC 2866](https://www.ietf.org/rfc/rfc2866.txt).
 
@@ -58,6 +58,6 @@ Un serveur RADIUS peut agir en tant que client proxy pour d’autres serveurs RA
 [Utilisation d’un serveur d’État](/windows/desktop/Nps/ias-working-with-a-state-server)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

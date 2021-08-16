@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 22718e51d6ef1bf7e3c5652741b95cadb4db9937
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a82c172d340bd4e03f7361ae3129294f3e778b221e45e0f22d8baef2a0d70a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968018"
 ---
 # <a name="smc_promote-message"></a>\_Message de promotion SMC
 
@@ -39,11 +39,11 @@ Ce message n’a pas de paramètres.
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette notification est reçue par la méthode [**IShellMenuCallback :: CallbackSM**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

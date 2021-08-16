@@ -1,11 +1,11 @@
 ---
-title: Attribut MS-SQL-CreationDate
+title: MS-SQL-CreationDate (attribut)
 description: Date à laquelle la base de données a été créée.
 ms.assetid: c3b098f0-2575-4a7d-9a1d-a6189b9af2c8
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut MS-SQL-CreationDate
-- Schéma AD de l’attribut mS-SQL-CreationDate
+- schéma AD de l’attribut MS-SQL-CreationDate
+- schéma AD de l’attribut mS-SQL-CreationDate
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c499a65ef8beee485bab647d8649559b74cfbd1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d9be6df5b67da26b9f5691e26c8b8a915f0e717f47d123455421a1fa9606b816
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961138"
 ---
-# <a name="ms-sql-creationdate-attribute"></a>Attribut MS-SQL-CreationDate
+# <a name="ms-sql-creationdate-attribute"></a>MS-SQL-CreationDate (attribut)
 
 Date à laquelle la base de données a été créée.
 
@@ -45,7 +45,7 @@ Date à laquelle la base de données a été créée.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

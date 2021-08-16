@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 695f3ef09cb5e7e67de757ee3926df6fde7ddff5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ae596819feb4bd70aa47e7881521e5a69e5bd0a509b974e591d08907efda51c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966798"
 ---
 # <a name="sharedmemory_header-structure"></a>\_Structure d’en-tête SHAREDMEMORY
 
@@ -93,7 +93,7 @@ Numéro de série de l’en-tête de mémoire partagée.
 **sysEvt**
 </dt> <dd>
 
-Événement système, préfixe SE \_ \* , associé à cet en-tête. Pour plus d’informations, consultez la section Notes.
+l’événement système, SE préfixé \_ \* , associé à cet en-tête. Pour plus d’informations, consultez la section Notes.
 
 </dd> <dt>
 
@@ -125,7 +125,7 @@ Indicateur qui spécifie si les numéros de série sont présents dans la sectio
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs suivantes sont définies pour le membre **sysEvt** .
 

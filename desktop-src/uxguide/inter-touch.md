@@ -1,30 +1,30 @@
 ---
 title: Toucher
-description: Toutes les applications Microsoft Windows doivent avoir une expérience tactile exceptionnelle. Et la création d’une telle expérience est plus facile que vous ne le pensez.
+description: toutes les applications Microsoft Windows doivent avoir une expérience tactile exceptionnelle. Et la création d’une telle expérience est plus facile que vous ne le pensez.
 ms.assetid: a87d0726-1c57-4cf8-9e35-4e73a09ff1a3
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: a44a95ad963d3563418ed0492e55606824011f31
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 68f73b7da9cf33dc20a3c0534044558e514284f024f11609ef9af4760ec79a8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104571606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119029674"
 ---
 # <a name="touch"></a>Toucher
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
-Toutes les applications Microsoft Windows doivent avoir une expérience tactile exceptionnelle. Et la création d’une telle expérience est plus facile que vous ne le pensez.
+toutes les applications Microsoft Windows doivent avoir une expérience tactile exceptionnelle. Et la création d’une telle expérience est plus facile que vous ne le pensez.
 
-Touch fait référence à l’utilisation d’un ou plusieurs doigts pour fournir une entrée via un affichage de périphérique et interagir avec Windows et des applications. Une application optimisée tactile dispose d’une interface utilisateur et d’un modèle d’interaction conçus pour prendre en charge les zones tactiles les plus grandes et les plus précises, les différents facteurs de forme des appareils tactiles et les nombreuses postures et poignées que les utilisateurs peuvent adopter lors de l’utilisation d’un appareil tactile.
+Touch fait référence à l’utilisation d’un ou de plusieurs doigts pour fournir une entrée via un affichage de périphérique et interagir avec des Windows et des applications. Une application optimisée tactile dispose d’une interface utilisateur et d’un modèle d’interaction conçus pour prendre en charge les zones tactiles les plus grandes et les plus précises, les différents facteurs de forme des appareils tactiles et les nombreuses postures et poignées que les utilisateurs peuvent adopter lors de l’utilisation d’un appareil tactile.
 
 ![Utilisateur qui interagit avec Tablet PC à l’aide de Touch](images/inter_touch_image1.jpeg)
 
 Chaque appareil d’entrée a ses atouts. Le clavier est le mieux adapté à la saisie de texte et donne des commandes avec un déplacement minimal. La souris est idéale pour un pointage efficace et précis. Touch est idéal pour la manipulation d’objets et pour donner des commandes simples. Un stylet est idéal pour une expression de forme libre, comme avec l’écriture manuscrite et le dessin.
 
-Windows 8.1 est optimisé pour la réactivité, la précision et la facilité d’utilisation avec Touch, tout en prenant en charge des méthodes d’entrée traditionnelles (telles que la souris, le stylet et le clavier). La vitesse, la précision et les commentaires tactiles fournis par les modes de saisie traditionnels sont familiers et attrayants pour de nombreux utilisateurs et peuvent être mieux adaptés à des scénarios d’interaction spécifiques.
+Windows 8.1 est optimisé pour la réactivité, la précision et la facilité d’utilisation avec touch, tout en prenant en charge des méthodes d’entrée traditionnelles (telles que la souris, le stylet et le clavier). La vitesse, la précision et les commentaires tactiles fournis par les modes de saisie traditionnels sont familiers et attrayants pour de nombreux utilisateurs et peuvent être mieux adaptés à des scénarios d’interaction spécifiques.
 
 Vous trouverez des instructions relatives à la souris, au stylet et à l’accessibilité dans des rubriques distinctes.
 
@@ -67,7 +67,7 @@ Heureusement, si votre application est déjà bien conçue, il est facile de fai
 
 ## <a name="guidelines-for-touch-input"></a>Instructions pour les entrées tactiles
 
-Avec Touch, votre application Windows peut utiliser des mouvements physiques pour émuler la manipulation directe des éléments d’interface utilisateur.
+avec touch, votre application Windows peut utiliser des mouvements physiques pour émuler la manipulation directe des éléments d’interface utilisateur.
 
 Tenez compte des meilleures pratiques suivantes lors de la conception de votre application tactile :
 
@@ -75,7 +75,7 @@ Tenez compte des meilleures pratiques suivantes lors de la conception de votre a
 
 **La cohérence est essentielle pour créer des expériences tactiles qui semblent naturelles et intuitives.** Une fois que les utilisateurs apprennent un mouvement standard, ils s’attendent à ce que le mouvement ait le même effet sur toutes les applications. Pour éviter toute confusion et frustration, n’assignez jamais de significations non standard aux gestes standard. Utilisez plutôt des mouvements personnalisés pour les interactions propres à votre programme.
 
-Nous allons ensuite décrire le langage tactile Windows, mais avant de continuer, voici une brève liste de termes de saisie tactile de base.
+nous allons ensuite décrire le langage de Windows touch, mais avant de commencer, voici une brève liste de termes de saisie tactile de base.
 
 -   **Mouvement**
 
@@ -91,7 +91,7 @@ Nous allons ensuite décrire le langage tactile Windows, mais avant de continuer
 
     Les interactions dépendent de la façon dont une manipulation est interprétée et de la commande ou de l’action qui résulte de la manipulation. Par exemple, les objets peuvent être déplacés à l’aide des gestes de diapositive et de balayage, mais les résultats diffèrent selon qu’un seuil de distance est franchi ou non. Vous pouvez utiliser la diapositive pour faire glisser un objet ou un panoramique dans une vue, tandis que l’option balayer peut être utilisée pour sélectionner un élément ou afficher une barre d’application.
 
-### <a name="the-windows-touch-language"></a>Langage tactile Windows
+### <a name="the-windows-touch-language"></a>langage tactile Windows
 
 Windows fournit un ensemble concis d’interactions tactiles utilisées dans le système. L’application de ce langage tactile rend votre application plus familière que les utilisateurs connaissent déjà. Cela augmente la confiance des utilisateurs en facilitant l’apprentissage et l’utilisation de votre application. Pour en savoir plus sur l’implémentation du langage tactile, consultez gestes, manipulations et interactions.
 
@@ -210,7 +210,7 @@ Effet : faites pivoter l’objet sous-jacent de la même façon que les doigts.
 
 Mouvement de rotation.
 
-La rotation n’est logique que pour certains types d’objets, donc elle n’est pas mappée à une interaction Windows système.
+la Rotation n’est logique que pour certains types d’objets, donc elle n’est pas mappée à une interaction système Windows.
 
 La rotation est souvent effectuée différemment par différentes personnes. Certaines personnes préfèrent faire pivoter un doigt autour d’un doigt pivot, tandis que d’autres préfèrent faire pivoter les deux doigts dans un mouvement circulaire. La plupart des gens utilisent une combinaison des deux, avec un doigt qui se déplace plus que l’autre. Bien que la rotation lisse sur un angle soit la meilleure interaction, dans de nombreux contextes, tels que l’affichage de photos, il est préférable de régler à la rotation de 90 degré le plus proche une fois que l’utilisateur a pu aller. Dans la modification de photos, vous pouvez utiliser une petite rotation pour redresser la photo.
 
@@ -275,11 +275,11 @@ En outre, les recherches montrent qu’une taille minimale de 10x10 mm (environ 
 
 L’objectif n’est pas d’avoir des contrôles géants, juste ceux qui sont facilement utilisés avec Touch.
 
-![Capture d’écran illustrant la barre d’outils de Microsoft Word avec le bouton « grammaire de l’orthographe de la & C » mis en surbrillance, avec une hauteur de 41 DLU et une largeur de 40 DLU.](images/inter-touch-image15.png)
+![capture d’écran qui affiche la barre d’outils Microsoft Word avec le bouton « grammaire de l’orthographe de B C & » mis en surbrillance, avec une hauteur de 41 DLU et une largeur de 40 DLU.](images/inter-touch-image15.png)
 
-Dans cet exemple, Microsoft Word utilise des boutons supérieurs à 10x10 mm pour les commandes les plus importantes.
+dans cet exemple, Microsoft Word utilise des boutons supérieurs à 10x10 mm pour les commandes les plus importantes.
 
-![Capture d’écran montrant la calculatrice Windows.](images/inter-touch-image16.png)
+![capture d’écran montrant la calculatrice Windows.](images/inter-touch-image16.png)
 
 Cette version de Calculator utilise des boutons supérieurs à 10x10 mm pour ses commandes les plus fréquemment utilisées.
 
@@ -381,7 +381,7 @@ Il peut arriver que l’espacement supplémentaire soit souhaitable quand vous u
 
 Supposons que l’emplacement actuel du pointeur est le plus proche possible d’une cible, ce qui la rend facile à acquérir. Ainsi, les menus contextuels tirent pleinement parti de la Loi de Fitts, tout comme les mini-barres d’outils utilisées par Microsoft Office.
 
-![Capture d’écran montrant un exemple de menu contextuel et une mini-barre d’outils de Microsoft Office côte à côte.](images/inter-touch-image27.png)
+![capture d’écran montrant un exemple de menu contextuel et une mini-barre d’outils de Microsoft Office côte à côte.](images/inter-touch-image27.png)
 
 **Évitez de placer de petits contrôles près du bord de l’application ou de l’affichage.** Les petites cibles proches des bords peuvent être difficiles à toucher (les panneaux d’affichage peuvent interférer avec les gestes de périphérie). Pour vous assurer que les contrôles sont faciles à cibler quand une fenêtre est agrandie, faites-en au moins 23x23 pixels (13x13) ou placez-les en dehors du bord de la fenêtre.
 
@@ -395,7 +395,7 @@ Envisagez d’ajouter plus que l’espacement vertical recommandé dans des grou
 
 ![image](images/inter-touch-image28.png)
 
-Dans cet exemple, les listes de raccourcis de la barre des tâches de Windows 7 sont plus spacieux quand elles sont affichées avec Touch.
+dans cet exemple, les listes de raccourcis de la barre des tâches Windows 7 sont plus spacieux quand elles sont affichées avec touch.
 
 ### <a name="interaction"></a>Interaction
 

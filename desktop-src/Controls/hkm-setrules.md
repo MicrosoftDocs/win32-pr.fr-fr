@@ -3,7 +3,7 @@ title: Message HKM_SETRULES (commctrl. h)
 description: Définit les combinaisons non valides et la combinaison de modificateur par défaut pour un contrôle de touche d’accès rapide.
 ms.assetid: de3dd463-a534-4c7c-ae04-da80a3bff2ab
 keywords:
-- HKM_SETRULES les contrôles de message Windows
+- HKM_SETRULES les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c33c0918a7bb44fdac9a1f2c60fdde8e06b5e679
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4ec47450ca0d67854d7be413d8a3eb3e5fec3eac49e18f6bcf96f86b563c8906
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958708"
 ---
 # <a name="hkm_setrules-message"></a>\_Message hkm SETRULES
 
@@ -64,7 +64,7 @@ Tableau d’indicateurs qui spécifient la combinaison de touches à utiliser lo
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’un utilisateur entre une combinaison de touches non valide, comme défini par les indicateurs spécifiés dans *wParam*, le système utilise l’opérateur or au niveau du bit pour combiner les clés entrées par l’utilisateur avec les indicateurs spécifiés dans *lParam*. La combinaison de touches obtenue est convertie en chaîne, puis affichée dans le contrôle de touche d’accès rapide.
 
@@ -74,8 +74,8 @@ Lorsqu’un utilisateur entre une combinaison de touches non valide, comme défi
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

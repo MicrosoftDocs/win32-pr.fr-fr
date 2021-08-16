@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11fc821ccd4515dcfc2932855c58bbad9525f8de
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: bc94ab62be3cb1f37941c92aa8e339d17f95f4927962b491ca123489f9c792a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960728"
 ---
 # <a name="ms-ds-krbtgt-link-bl-attribute"></a>attribut ms-DS-KrbTgt-Link-BL
 
@@ -42,7 +42,7 @@ Lien vers l’arrière pour l’attribut [**ms-DS-krbtgt-Link**](a-msds-krbtgtli
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

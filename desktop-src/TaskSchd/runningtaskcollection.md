@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c28d75cee0ba4b19751ba1e4c5a5c3061a1dad64
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 81651e62be3b787678ee77f2b997c24e99016041567b23da0c534d94633dfdcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059967"
 ---
 # <a name="runningtaskcollection-object"></a>Objet RunningTaskCollection
 
@@ -40,7 +40,7 @@ L’objet **RunningTaskCollection** a ces propriétés.
 
 | Propriété                                                | Description                                                    |
 |:--------------------------------------------------------|:---------------------------------------------------------------|
-| [**Saut**](runningtaskcollection-count.md)<br/> | Obtient le nombre de tâches en cours d’exécution dans la collection.<br/> |
+| [**Count**](runningtaskcollection-count.md)<br/> | Obtient le nombre de tâches en cours d’exécution dans la collection.<br/> |
 | [**Élément**](runningtaskcollection-item.md)<br/>   | Obtient la tâche spécifiée à partir de la collection. <br/>       |
 
 
@@ -53,8 +53,8 @@ L’objet **RunningTaskCollection** a ces propriétés.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

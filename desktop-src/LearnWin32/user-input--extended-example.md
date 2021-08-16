@@ -53,7 +53,7 @@ Les ellipses sont stockées dans un conteneur de **liste** STL :
 
 
 > [!Note]  
-> **le \_ ptr partagé** est une classe de pointeur intelligent qui a été ajoutée à C++ dans TR1 et formalisée en C + + 0x. Visual Studio 2010 ajoute la prise en charge des fonctionnalités **partagées \_ PT** r et autres C + + 0x. Pour plus d’informations, consultez [exploration des nouvelles fonctionnalités C++ et MFC dans Visual Studio 2010](/archive/msdn-magazine/2010/april/visual-c-exploring-new-c-and-mfc-features-in-visual-studio-2010) dans *MSDN Magazine*. (Cette ressource n’est peut-être pas disponible dans certaines langues et certains pays.)
+> **le \_ ptr partagé** est une classe de pointeur intelligent qui a été ajoutée à C++ dans TR1 et formalisée en C + + 0x. Visual Studio 2010 ajoute la prise en charge des fonctionnalités **shared \_ pt** r et d’autres composants C + + 0x. pour plus d’informations, consultez [exploration des nouvelles fonctionnalités C++ et MFC dans Visual Studio 2010](/archive/msdn-magazine/2010/april/visual-c-exploring-new-c-and-mfc-features-in-visual-studio-2010) dans *MSDN Magazine*. (Cette ressource n’est peut-être pas disponible dans certaines langues et certains pays.)
 
  
 
@@ -142,7 +142,7 @@ void MainWindow::OnLButtonDown(int pixelX, int pixelY, DWORD flags)
 
 
 
-Les coordonnées de la souris sont passées à cette méthode en pixels, puis converties en adresses IP (DIP). Il est important de ne pas confondre ces deux unités. Par exemple, la fonction [**DragDetect**](/windows/desktop/api/winuser/nf-winuser-dragdetect) utilise des pixels, mais le dessin et le test de positionnement utilisent des DIP. La règle générale est que les fonctions liées à l’entrée de souris ou Windows utilisent des pixels, tandis que Direct2D et DirectWrite utilisent des DIP. Testez toujours votre programme à un paramètre de haute résolution et n’oubliez pas de marquer votre programme comme prenant en charge DPI. Pour plus d’informations, consultez [dpi et Device-Independent pixels](dpi-and-device-independent-pixels.md).
+Les coordonnées de la souris sont passées à cette méthode en pixels, puis converties en adresses IP (DIP). Il est important de ne pas confondre ces deux unités. Par exemple, la fonction [**DragDetect**](/windows/desktop/api/winuser/nf-winuser-dragdetect) utilise des pixels, mais le dessin et le test de positionnement utilisent des DIP. la règle générale est que les fonctions liées à l’entrée de souris ou windows utilisent des pixels, tandis que Direct2D et DirectWrite utilisent des dip. Testez toujours votre programme à un paramètre de haute résolution et n’oubliez pas de marquer votre programme comme prenant en charge DPI. Pour plus d’informations, consultez [dpi et Device-Independent pixels](dpi-and-device-independent-pixels.md).
 
 Voici le code qui gère les messages [**WM \_ MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) .
 
@@ -248,7 +248,7 @@ Enfin, n’oubliez pas de définir le curseur lorsque la fenêtre reçoit un mes
 
 
 
-## <a name="summary"></a>Résumé
+## <a name="summary"></a>Récapitulatif
 
 Dans ce module, vous avez appris à gérer l’entrée au clavier et à la souris. Comment définir des raccourcis clavier ; et comment mettre à jour l’image de curseur pour refléter l’état actuel du programme.
 

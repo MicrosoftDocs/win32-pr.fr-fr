@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 54a3ce9d9f6ce5bb0016e5943f8c4ffae0cd0eae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a74e142a13e4e249718b4f57c8449dae31ec2ddca93d4c7a56b8c61129b6b573
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979069"
 ---
 # <a name="jet_threadstatsequals-method-object"></a>JET_THREADSTATS. Equals, méthode (Object)
 

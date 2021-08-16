@@ -4,12 +4,12 @@ ms.assetid: fac60d01-d07e-41e9-98a3-34c592d97a92
 title: Types de bitmaps
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4427f83e7ff0ccedbfa4fc0155ac2ef3c8968dfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0503bec0f8b029e373ff414b51a60c3b1201a37b9151b722cdfc94d4cdea46cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977299"
 ---
 # <a name="types-of-bitmaps"></a>Types de bitmaps
 
@@ -71,7 +71,7 @@ La compression JPEG ne fonctionne pas correctement pour les dessins en ligne, le
 
 ![illustration comparant une image bitmap d’un dessin de ligne à deux équivalents JPEG et un gif ; l’image gif conserve les couleurs et la netteté de la ligne.](images/aboutgdip03-art03a.png)
 
-JPEG est un schéma de compression, pas un format de fichier. Le format d’échange de fichiers JPEG (JFIF) est un format de fichier couramment utilisé pour le stockage et le transfert d’images qui ont été compressées conformément au schéma JPEG. Les fichiers JFIF affichés par les navigateurs Web utilisent l’extension. jpg.
+JPEG est un schéma de compression, pas un format de fichier. Le format d’échange de fichiers JPEG (JFIF) est un format de fichier couramment utilisé pour le stockage et le transfert d’images qui ont été compressées conformément au schéma JPEG. Les fichiers JFIF affichés par les navigateurs Web utilisent l’extension .jpg.
 
 **Fichier image d’échange (EXIF)**
 

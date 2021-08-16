@@ -5,12 +5,12 @@ ms.assetid: 163f7778-690c-4166-b0c5-c7be1a03ae98
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: 592684378b4264319d790b1e2e05eb9e0ae37f28
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 8f97059e607595aa944631c739ef38490ce7287879b77c9f9c8dda9c06103dbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958494"
 ---
 # <a name="about-list-view-controls"></a>À propos des contrôles List-View
 
@@ -57,7 +57,7 @@ Les contrôles List-View peuvent afficher des éléments dans cinq vues différe
 
  
 
-Les captures d’écran suivantes utilisent des affichages pour montrer différentes quantités d’informations sur chacun des sept animaux familiers. Les vues montrent comment les informations peuvent apparaître sur Windows Vista. Les styles visuels du contrôle ont été définis sur le thème « Explorer » à l’aide de [**SetWindowTheme**](/windows/desktop/api/Uxtheme/nf-uxtheme-setwindowtheme).
+Les captures d’écran suivantes utilisent des affichages pour montrer différentes quantités d’informations sur chacun des sept animaux familiers. les vues montrent comment les informations peuvent apparaître sur Windows Vista. Les styles visuels du contrôle ont été définis sur le thème « Explorer » à l’aide de [**SetWindowTheme**](/windows/desktop/api/Uxtheme/nf-uxtheme-setwindowtheme).
 
 La capture d’écran suivante montre le mode Détails.
 
@@ -314,7 +314,7 @@ Une application peut récupérer et définir trois couleurs pour un contrôle d�
 
 
 
-| Color                   | Messages utilisés pour récupérer et définir des couleurs                                                             |
+| Couleur                   | Messages utilisés pour récupérer et définir des couleurs                                                             |
 |-------------------------|------------------------------------------------------------------------------------------------------|
 | Couleur du texte              | [**LVM \_ GETTEXTCOLOR**](lvm-gettextcolor.md), [ **LVM \_ SETTEXTCOLOR**](lvm-settextcolor.md)         |
 | Couleur d’arrière-plan du texte   | [**LVM \_ GETTEXTBKCOLOR**](lvm-gettextbkcolor.md), [ **LVM \_ SETTEXTBKCOLOR**](lvm-settextbkcolor.md) |

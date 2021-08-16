@@ -1,6 +1,6 @@
 ---
 description: Utilisé pour déterminer s’il faut afficher l’option partager ce dossier dans l’affichage Web.
-title: CanShareFolderW fonction)
+title: CanShareFolderW, fonction
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Ntshrui.dll
 ms.assetid: 5fd28a14-53e7-4016-9c49-9bb14ce7808b
-ms.openlocfilehash: 46df03208ecc468aac366fb0b4cfb33e1a68157e
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 7013c6ae825c34ae7d2dd7b9d507eac1e52c8d4e3a27182e5297e72ef13b4d9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032867"
 ---
-# <a name="cansharefolderw-function"></a>CanShareFolderW fonction)
+# <a name="cansharefolderw-function"></a>CanShareFolderW, fonction
 
-\[Cette fonction est disponible via Windows XP avec Service Pack 2 (SP2) et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP avec Service Pack 2 (SP2) et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
 Utilisé pour déterminer s’il faut afficher l’option **partager ce dossier** dans l’affichage Web.
 
@@ -51,7 +51,7 @@ Pointeur vers une chaîne qui spécifie le chemin d’accès du dossier à teste
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **STDAPI**
 
@@ -69,18 +69,18 @@ Les valeurs de retour sont les suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de fichier. lib associé. Vous devez utiliser [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) pour l’utiliser.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Ntshrui.dll</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **CanShareFolderW** (Unicode)<br/>                                               |
 

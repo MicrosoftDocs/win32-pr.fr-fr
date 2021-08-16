@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 85147d764d5b6580305723e9b05b127b116a660e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cd91ee37187d8b2a6906d88832d06250b05c572d789d15db3b5621f78b890ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118742609"
 ---
 # <a name="d3dauthenticatedquery_protection"></a>\_Protection D3DAUTHENTICATEDQUERY
 
@@ -36,7 +36,7 @@ Retourne le niveau de protection actuel de l’appareil.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette requête est valide pour tous les types de canaux.
 
@@ -46,8 +46,8 @@ Cette requête est valide pour tous les types de canaux.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>D3d9types. h</dt> </dl> |
 
 

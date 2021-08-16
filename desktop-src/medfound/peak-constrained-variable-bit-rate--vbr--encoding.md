@@ -4,12 +4,12 @@ ms.assetid: bc37362e-d66d-4552-8357-d22093d5d0ad
 title: Encodage à vitesse de transmission variable Peak-Constrained
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d8a32ed6b6f90ce1e112cf5afd19f33e65f541a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b97361c6d4ac8cefd33b223157347e450252691cab024e167862f50c7aac0fbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118737666"
 ---
 # <a name="peak-constrained-variable-bit-rate-encoding"></a>Encodage à vitesse de transmission variable Peak-Constrained
 
@@ -111,7 +111,7 @@ done:
 [Modèle de mémoire tampon de compartiment avec fuite](the-leaky-bucket-buffer-model.md)
 </dt> <dt>
 
-[Comment créer une topologie pour Two-Pass l’encodage Windows Media](how-to-create-a-topology-for-2-pass-windows-media-encoding.md)
+[comment créer une topologie pour Two-Pass l’encodage de média Windows](how-to-create-a-topology-for-2-pass-windows-media-encoding.md)
 </dt> </dl>
 
  

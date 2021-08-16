@@ -4,12 +4,12 @@ ms.assetid: 6c8ec020-5f12-453b-bbeb-3baabb1ca213
 title: Indicateurs de type de bus OPM (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae3e6988d6bcd33015b0efc5b12561ef3373a9e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26e4989a91c308a7dc82bb15e9cd577a6facd89a0a6de9a32f0ef95f400917ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972998"
 ---
 # <a name="opm-bus-type-flags"></a>Indicateurs de type de bus OPM
 
@@ -34,7 +34,7 @@ Les indicateurs figurant dans le tableau ci-dessous spécifient le type de bus d
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Jusqu’à trois indicateurs peuvent être définis à l’aide d' **une opération or** au niveau du bit. Les indicateurs de la plage 0x00 à 0x04 **( \_ type de bus OPM \_ \_ xxx**) donnent le type de bus de base. Les indicateurs dans la plage 0x10000 à 0x50000 **( \_ \_ \_ modificateur d’implémentation \_ de bus OPM xxx**) modifient la description de base. Le pilote définit un indicateur de type bus et peut éventuellement avoir la valeur d’un indicateur de modificateur. En outre, le pilote peut éventuellement définir l’indicateur **\_ \_ \_ \_ non \_ standard du modificateur d’implémentation de bus OPM** .
 
@@ -48,8 +48,8 @@ Les \_ \_ indicateurs de type de bogue OPM \_ xxxx et le **\_ \_ \_ \_ type de \
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Opmapi. h</dt> </dl> |
 
 

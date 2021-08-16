@@ -4,12 +4,12 @@ ms.assetid: d18525de-bb75-4c5e-b387-cfec7ba03df7
 title: Sens de la transition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01d43ec4258d2f23c8b8961e3e1b8fd3d554b057
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e2097f13225c7691780646d77a18d048a48e31eda498955bdc53a0c954728c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104552014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951491"
 ---
 # <a name="transition-direction"></a>Sens de la transition
 

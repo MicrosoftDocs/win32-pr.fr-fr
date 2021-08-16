@@ -4,12 +4,12 @@ ms.assetid: 75608e80-5911-45a8-beca-ceac1f4d2c1c
 title: Modèle XMVectorSwizzle (DirectXMath. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8e872d76f3251eccc8616c143c645b388e2dca4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 800d976d63480f88defea7f1db07651563df44e8985ae5925810617b44302e87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984479"
 ---
 # <a name="xmvectorswizzle-template"></a>Modèle XMVectorSwizzle
 
@@ -38,7 +38,7 @@ template<uint32_t SwizzleX, uint32_t SwizzleY, uint32_t SwizzleZ, uint32_t Swizz
 
 Retourne le [**XMVECTOR**](xmvector-data-type.md)swizzled.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est une version de modèle de [**XMVectorSwizzle**](/windows/win32/api/directxmath/nf-directxmath-xmvectorswizzle) où les arguments *Swizzle \** sont des valeurs de modèle.
 
@@ -53,7 +53,7 @@ Cette fonction est une version de modèle de [**XMVectorSwizzle**](/windows/win3
 
 ### <a name="platform-requirements"></a>Conditions requises par la plateforme
 
-Microsoft Visual Studio 2010 ou Microsoft Visual Studio 2012 avec le SDK Windows pour Windows 8. Pris en charge pour les applications de bureau Win32, les applications du Windows Store et les applications Windows Phone 8.
+Microsoft Visual Studio 2010 ou Microsoft Visual Studio 2012 avec le SDK Windows pour Windows 8. pris en charge pour les applications de bureau Win32, les applications de Windows Store et les applications Windows Phone 8.
 
 ## <a name="requirements"></a>Configuration requise
 

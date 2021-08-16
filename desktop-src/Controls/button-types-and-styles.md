@@ -4,12 +4,12 @@ description: Il existe plusieurs types de boutons et un ou plusieurs styles de b
 ms.assetid: bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 682cc39ed2f88ce88f499757fbc4f902bfdceeea
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: b5c3614f90c36d5a81603153ec7c8612d61e73e2e98c7f668cb53a6ad2bb584b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117832493"
 ---
 # <a name="button-types"></a>Types de bouton
 
@@ -32,7 +32,7 @@ La capture d’écran suivante montre les différents types de boutons.
 
 ![capture d’écran d’une boîte de dialogue qui montre des exemples de huit types de boutons](images/buttontypes.png)
 
-La capture d’écran montre comment les boutons peuvent apparaître dans Windows Vista. L’apparence varie selon les versions différentes du système d’exploitation et selon le thème défini par l’utilisateur.
+la capture d’écran montre comment les boutons peuvent apparaître dans Windows Vista. L’apparence varie selon les versions différentes du système d’exploitation et selon le thème défini par l’utilisateur.
 
 Notez les points suivants sur l’illustration :
 
@@ -62,7 +62,7 @@ Un bouton de commande peut être l’un des deux styles standard ou default, com
 
 Quand l’utilisateur clique sur un bouton de commande, il reçoit le focus clavier. Le système envoie à la fenêtre parente du bouton un message de [**\_ commande WM**](/windows/desktop/menurc/wm-command) qui contient le code de notification sur lequel l' [utilisateur a \_ cliqué](bn-clicked.md) .
 
-Le *bouton partagé* est un type spécial de bouton de commande introduit dans Windows Vista et la [version 6,00](common-control-versions.md). Un bouton partagé est divisé en deux parties. La partie principale fonctionne comme un bouton de commande standard ou par défaut. La deuxième partie a une flèche pointant vers le bas. En général, un menu s’affiche lorsque l’utilisateur clique sur la flèche.
+le *bouton partagé* est un type spécial de bouton de commande introduit dans Windows Vista et la [Version 6,00](common-control-versions.md). Un bouton partagé est divisé en deux parties. La partie principale fonctionne comme un bouton de commande standard ou par défaut. La deuxième partie a une flèche pointant vers le bas. En général, un menu s’affiche lorsque l’utilisateur clique sur la flèche.
 
 Un bouton partagé a le style [**BS \_ SPLITBUTTON**](button-styles.md) ou le style [**BS \_ DEFSPLITBUTTON**](button-styles.md) s’il s’agit du bouton par défaut dans une boîte de dialogue. Vous pouvez modifier l’apparence du bouton en utilisant le message [**BCM \_ SETSPLITINFO**](bcm-setsplitinfo.md) ou la macro [**\_ SETSPLITINFO Button**](/windows/desktop/api/Commctrl/nf-commctrl-button_setsplitinfo) correspondante.
 
@@ -98,6 +98,6 @@ L’application peut vérifier si une case d’option est activée à l’aide d
 [Utilisation des boutons](using-buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

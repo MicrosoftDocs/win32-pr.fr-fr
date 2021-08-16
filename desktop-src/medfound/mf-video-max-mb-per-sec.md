@@ -4,12 +4,12 @@ ms.assetid: 1AA41DE3-C37C-41BA-9549-5F12373DDB3B
 title: Attribut MF_VIDEO_MAX_MB_PER_SEC (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbee009b50daee074241c11750e9d25240cda153
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c76e6a44a6e0993f9cf6410a0092708da767f92815fc98020dd2f4d88359370
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106542908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739237"
 ---
 # <a name="mf_video_max_mb_per_sec-attribute"></a>\_ \_ Attribut nombre maximal de \_ Mo \_ par \_ seconde de la vidéo MF
 
@@ -19,7 +19,7 @@ Spécifie, sur [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransfor
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ceci est un attribut de lecture seule.
 

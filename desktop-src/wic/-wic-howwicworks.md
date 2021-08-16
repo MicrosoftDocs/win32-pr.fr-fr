@@ -1,17 +1,17 @@
 ---
-description: En savoir plus sur le fonctionnement du composant de création d’images Windows
+description: en savoir plus sur le fonctionnement du composant de création d’images Windows
 ms.assetid: c233e25b-bec6-4e67-8fbf-2bf9b70c7522
-title: Fonctionnement du composant de création d’images Windows
+title: fonctionnement du composant de création d’images Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bc9fe31ae4346f2c2d1f0b273e78ed10a0ec7e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a63fe341bbb16afe78b159caa5c50c13fdb2cb8ee7a92f4c482dd03f8d9b8a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965108"
 ---
-# <a name="how-the-windows-imaging-component-works"></a>Fonctionnement du composant de création d’images Windows
+# <a name="how-the-windows-imaging-component-works"></a>fonctionnement du composant de création d’images Windows
 
 Cette rubrique contient les sections suivantes :
 
@@ -25,7 +25,7 @@ Cette rubrique contient les sections suivantes :
 
 ## <a name="discovery-and-arbitration"></a>Découverte et arbitrage
 
-Avant de pouvoir décoder une image, vous devez trouver un codec approprié qui peut décoder ce format d’image. Dans la plupart des systèmes, étant donné que les formats d’images pris en charge sont codés en dur, aucun processus de découverte n’est nécessaire. Étant donné que la plateforme WIC (Windows Imaging Component) est extensible, il est nécessaire de pouvoir identifier le format d’une image et de la faire correspondre à un codec approprié.
+Avant de pouvoir décoder une image, vous devez trouver un codec approprié qui peut décoder ce format d’image. Dans la plupart des systèmes, étant donné que les formats d’images pris en charge sont codés en dur, aucun processus de découverte n’est nécessaire. étant donné que la plateforme WIC (Windows Imaging Component) est extensible, il est nécessaire de pouvoir identifier le format d’une image et de la faire correspondre à un codec approprié.
 
 Pour prendre en charge la découverte au moment de l’exécution, chaque format d’image doit avoir un modèle d’identification qui peut être utilisé pour identifier le décodeur approprié pour ce format. (Il est fortement recommandé, pour les nouveaux formats de fichier, d’utiliser un GUID pour le modèle d’identification, car il est garanti qu’il est unique.) Le modèle d’identification doit être incorporé dans chaque fichier image conforme à ce format d’image. Chaque décodeur a une entrée de Registre qui spécifie le ou les modèles d’identification des formats d’image qu’il peut décoder. Lorsqu’une application doit ouvrir une image, elle demande un décodeur à partir de WIC. WIC recherche les décodeurs disponibles dans le registre et vérifie chaque entrée du Registre pour un modèle d’identification qui correspond au modèle incorporé dans le fichier image. Pour plus d’informations sur les entrées de Registre du décodeur, consultez [entrées de Registre spécifiques au codeur](-wic-decoderregentries.md)
 
@@ -77,7 +77,7 @@ Ces interfaces sont décrites en détail dans la section relative à l' [implém
 
 Un codec WIC est instancié pour gérer une seule image et a généralement une durée de vie réduite. Elle est créée lorsqu’une image est chargée et libérée lorsque l’image est fermée. Une application peut utiliser un grand nombre de codecs simultanément avec des durées de vie qui se chevauchent (le fait de faire défiler un répertoire contenant des centaines d’images) et plusieurs applications peuvent le faire en même temps.
 
-Bien que certains codecs aient une durée de vie limitée à la durée de vie du processus dans lequel ils vivent, ce n’est pas le cas avec les codecs WIC. La Galerie de photos Windows Vista, l’Explorateur Windows et la visionneuse de photos, ainsi que de nombreuses autres applications, s’appuient sur WIC et utiliseront votre codec pour afficher des images et des miniatures. Si la durée de vie de votre codec est limitée à la durée de vie du processus, chaque fois qu’une image ou une miniature était affichée dans l’Explorateur Windows Vista, le codec instancié pour décoder cette image restera en mémoire jusqu’à ce que l’utilisateur redémarre son ordinateur. Si votre CODEC n’est jamais déchargé, ses ressources sont en fait « divulguées », car elles ne peuvent pas être utilisées par un autre composant du système.
+Bien que certains codecs aient une durée de vie limitée à la durée de vie du processus dans lequel ils vivent, ce n’est pas le cas avec les codecs WIC. la galerie de photos Windows Vista, l’explorateur de Windows et la visionneuse de photos, ainsi que de nombreuses autres applications, s’appuient sur WIC et utilisent votre codec pour afficher des images et des miniatures. si la durée de vie de votre codec est limitée à la durée de vie du processus, chaque fois qu’une image ou une miniature était affichée dans le Windows l’explorateur Vista, le codec instancié pour décoder cette image restera en mémoire jusqu’à ce que l’utilisateur redémarre son ordinateur. Si votre CODEC n’est jamais déchargé, ses ressources sont en fait « divulguées », car elles ne peuvent pas être utilisées par un autre composant du système.
 
 ## <a name="how-to-wic-enabled-a-codec"></a>Comment activer un codec avec WIC
 
@@ -86,12 +86,12 @@ Bien que certains codecs aient une durée de vie limitée à la durée de vie du
 3.  Si votre format de conteneur n’est pas basé sur un conteneur TIFF ou JPEG, vous devrez peut-être écrire des gestionnaires de métadonnées pour les formats de métadonnées courants (EXIF, XMP). Toutefois, si vous utilisez un format de conteneur basé sur TIFF ou JPEG, cela n’est pas nécessaire, car vous pouvez déléguer aux gestionnaires de métadonnées fournis par le système.
 4.  Incorporez un modèle d’identification unique (nous vous recommandons d’utiliser un GUID) dans tous vos fichiers image. Cela permet à votre format d’image d’être mis en correspondance avec votre codec pendant la découverte. Si vous écrivez un wrapper de WIC pour un format d’image existant, vous devez trouver un modèle de bits que l’encodeur écrit toujours dans ses fichiers image qui est propre à ce format d’image, et l’utiliser comme modèle d’identification.)
 5.  Inscrivez votre codec au moment de l’installation. Cela permet à votre codec d’être découvert au moment de l’exécution en faisant correspondre le modèle d’identification dans le Registre avec le modèle incorporé dans le fichier image.
-6.  À compter de Windows 7, WIC exige que les codecs soient de type cloisonnement COM « both ». Cela signifie que vous devez effectuer le verrouillage approprié pour gérer les appelants inter-cloisonnement et les appelants dans les scénarios multithread. Pour plus d’informations, consultez la section suivante sur la prise en charge de Multi-Threaded Apartment.
-7.  Prise en charge des plateformes 64 bits : pour Windows 7, WIC exige que les codecs WIC tiers soient fournis comme fichiers binaires natifs 32 bits et 64 bits. En outre, la forme 32 bits doit être installée et exécutée sur les systèmes 64 bits, et le programme d’installation du codec Windows 7 tiers doit installer à la fois les binaires 32 bits et 64 bits sur les systèmes 64 bits.
+6.  à partir de Windows 7, WIC exige que les codecs soient de type cloisonnement COM « Both ». Cela signifie que vous devez effectuer le verrouillage approprié pour gérer les appelants inter-cloisonnement et les appelants dans les scénarios multithread. Pour plus d’informations, consultez la section suivante sur la prise en charge de Multi-Threaded Apartment.
+7.  prise en charge des plateformes 64 bits : pour Windows 7, wic exige que les codecs wic tiers soient fournis comme fichiers binaires natifs 32 bits et 64 bits. en outre, le formulaire 32 bits doit être installé et exécuté sur les systèmes 64 bits, et le programme d’installation du codec tiers Windows 7 doit installer à la fois les binaires 32 bits et 64 bits sur les systèmes 64 bits.
 
 ## <a name="multi-threaded-apartment-support-in-wic"></a>Prise en charge du cloisonnement multithread dans WIC
 
-Les objets d’un cloisonnement multithread (MTA) peuvent être appelés simultanément par n’importe quel nombre de threads dans le MTA. Cela permet d’améliorer les performances sur les systèmes à plusieurs cœurs et certains scénarios de serveur. En outre, les codecs WIC dans un MTA peuvent appeler d’autres objets dans le MTA sans le coût de marshaling associé à l’appel entre les threads dans différents Apartments STA. Dans Windows 7, tous les codecs WIC intégrés ont été mis à jour pour prendre en charge les MTA, y compris JPEG, TIFF, PNG, GIF, ICO et BMP. Il est fortement recommandé d’écrire des codecs tiers pour prendre en charge les MTA. Les codecs tiers qui ne prennent pas en charge les MTA entraînent des coûts de performances significatifs dans les applications multithread en raison du marshaling. L’activation de la prise en charge de MTA nécessite une synchronisation appropriée à implémenter dans le codec tiers. L’implémentation exacte de ces techniques de synchronisation dépasse le cadre de ce document. Pour plus d’informations sur la synchronisation des objets COM, consultez [comprendre et utiliser les modèles de threads com](/previous-versions/ms809971(v=msdn.10)).
+Les objets d’un cloisonnement multithread (MTA) peuvent être appelés simultanément par n’importe quel nombre de threads dans le MTA. Cela permet d’améliorer les performances sur les systèmes à plusieurs cœurs et certains scénarios de serveur. En outre, les codecs WIC dans un MTA peuvent appeler d’autres objets dans le MTA sans le coût de marshaling associé à l’appel entre les threads dans différents Apartments STA. dans Windows 7, tous les codecs WIC intégrés ont été mis à jour pour prendre en charge les mta, y compris JPEG, TIFF, PNG, GIF, ICO et BMP. Il est fortement recommandé d’écrire des codecs tiers pour prendre en charge les MTA. Les codecs tiers qui ne prennent pas en charge les MTA entraînent des coûts de performances significatifs dans les applications multithread en raison du marshaling. L’activation de la prise en charge de MTA nécessite une synchronisation appropriée à implémenter dans le codec tiers. L’implémentation exacte de ces techniques de synchronisation dépasse le cadre de ce document. Pour plus d’informations sur la synchronisation des objets COM, consultez [comprendre et utiliser les modèles de threads com](/previous-versions/ms809971(v=msdn.10)).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -109,7 +109,7 @@ Les objets d’un cloisonnement multithread (MTA) peuvent être appelés simulta
 [Comment écrire un CODEC WIC-Enabled](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Vue d’ensemble des métadonnées WIC](-wic-about-metadata.md)

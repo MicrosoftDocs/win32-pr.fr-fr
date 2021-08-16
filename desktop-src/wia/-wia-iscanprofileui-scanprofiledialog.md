@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofileui.h
-ms.openlocfilehash: bc8707378f1debc322fea258ceb8aad0c6400ea0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2003471a151677b5f0fbd9ae88e9d3cf8d975525a9dbf8340c6fc1a9f2befc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965808"
 ---
 # <a name="iscanprofileuiscanprofiledialog-method"></a>IScanProfileUI :: ScanProfileDialog, méthode
 
@@ -54,7 +54,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La boîte de dialogue est modale. l’utilisateur ne peut pas basculer vers la fenêtre parente tant que la boîte de dialogue n’est pas fermée.
 
@@ -66,8 +66,8 @@ Les valeurs de l' `<ProfileName>` élément et de l' `<WiaItem>` élément peuve
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Scanprofileui. h</dt> </dl>  |
 | MIDL<br/>                      | <dl> <dt>Scanprofiles. idl</dt> </dl> |
 

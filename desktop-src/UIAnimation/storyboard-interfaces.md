@@ -1,19 +1,19 @@
 ---
 title: Interfaces de Storyboard
-description: Cette section contient les spécifications de référence pour les interfaces du gestionnaire d’animations Windows qui prennent en charge les storyboards.
+description: cette section contient les spécifications de référence pour les interfaces du gestionnaire d’animations Windows qui prennent en charge les storyboards.
 ms.assetid: 372D6348-3DF2-48EB-B495-BAD4E5DAAAD3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fba60c480ef4c316731da6eefbe5334616a72b5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 49d7eb16f2b3ba5ff5780502a9e4de8d145d715c1b629a715031dd9ae8679cb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999669"
 ---
 # <a name="storyboard-interfaces"></a>Interfaces de Storyboard
 
-Cette section contient les spécifications de référence pour les interfaces du gestionnaire d’animations Windows qui prennent en charge les storyboards.
+cette section contient les spécifications de référence pour les interfaces du gestionnaire d’animations Windows qui prennent en charge les storyboards.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

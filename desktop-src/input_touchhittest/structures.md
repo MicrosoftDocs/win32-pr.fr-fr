@@ -9,12 +9,12 @@ keywords:
 - interface tactile
 ms.topic: article
 ms.date: 02/07/2020
-ms.openlocfilehash: f5c912616e44d0fa836b5c2188592e2d959c62ad
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 7d8975ba5b674bb297483801ab0288ff8535472ef6962cb46e0457f44e68be88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106521786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118757868"
 ---
 # <a name="touch-hit-testing-structures"></a>Structures de test de positionnement tactile
 
