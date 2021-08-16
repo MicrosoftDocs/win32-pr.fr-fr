@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre AppIDFlags COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdad2b80625d6a60460d43f242d7897e0ae7eb40
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 44ecf7d0d112d2ceff913f3de6250c130e16455c1810cc6234db63a6aaf463fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106511515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048867"
 ---
 # <a name="appidflags"></a>AppIDFlags
 
@@ -21,11 +21,11 @@ Jeu d’indicateurs qui contrôlent le comportement d’activation d’un serveu
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      AppIDFlags = flags
+   {AppID_GUID}
+      AppIDFlags = flags
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **Registre \_ DWORD** .
 
@@ -39,7 +39,7 @@ Il s’agit d’une valeur de **Registre \_ DWORD** .
 
 
 
- 
+ 
 
 ### <a name="appidregflags_activate_iuserver_indesktop-description"></a>APPIDREGFLAGS \_ activer \_ IUSERVER \_ Description de l’ordinateur de bureau
 
@@ -57,7 +57,7 @@ Si l’indicateur de **\_ \_ \_ \_ \_ liaison SD et \_ Bind du processus de serv
 
 Si l’indicateur de **\_ \_ \_ \_ \_ liaison SD et \_ Bind du processus de serveur APPIDREGFLAGS** est défini dans **AppIDFlags**, les serveurs com configurés pour runas « cet utilisateur » seront lancés avec un descripteur de sécurité de processus qui autorise le [processus \_ tout \_ accès](/windows/desktop/ProcThread/process-security-and-access-rights) dans le SID LogonID du jeton de processus. En outre, le propriétaire du descripteur de sécurité sera défini sur le SID LogonID du jeton de processus. En outre, le gestionnaire de contrôle des services COM (SCM) modifie le jeton du processus serveur COM comme suit :
 
--   Elle ajoute un SID APPID au jeton. Elle accorde l’accès complet au SID APPID dans la liste de contrôle d’accès discrétionnaire (DACL, Discretionary Access Control List) du jeton par défaut. Dans Windows Vista et les versions ultérieures de Windows, il accorde l’autorisation de contrôle de lecture du SID OwnerRights \_ dans la liste DACL par défaut du jeton. Dans les versions antérieures à Windows Vista de Windows, il définit le propriétaire du jeton sur le SID APPID.
+-   Elle ajoute un SID APPID au jeton. Elle accorde l’accès complet au SID APPID dans la liste de contrôle d’accès discrétionnaire (DACL, Discretionary Access Control List) du jeton par défaut. dans Windows Vista et les versions ultérieures de Windows, il accorde l’autorisation de contrôle READ SID OwnerRights \_ dans la liste DACL par défaut du jeton. dans les versions antérieures Windows Vista de Windows, il définit le propriétaire du jeton sur le SID APPID.
 
 Les considérations de sécurité suivantes doivent être prises en compte lors de l’utilisation de l’indicateur **\_ \_ \_ \_ SD \_ et \_ Bind du processus de serveur APPIDREGFLAGS sécurisé** :
 
@@ -65,7 +65,7 @@ Les considérations de sécurité suivantes doivent être prises en compte lors 
 -   Lorsque l’indicateur de **\_ \_ \_ \_ \_ liaison SD et \_ Bind du processus du serveur APPIDREGFLAGS** est défini, com renforce le descripteur de sécurité de l’objet processus dans le cas de serveurs com « Activator » runas. Pour ces serveurs, le client COM est supposé renforcer le jeton qu’il utilise pour l’activation COM.
 -   Lorsque l’indicateur de **\_ \_ \_ \_ \_ liaison SD et \_ Bind du processus de serveur APPIDREGFLAGS sécurisé** est défini, com renforce le descripteur de sécurité de l’objet processus dans le cas des serveurs com « cet utilisateur » runas. Elle renforce également le jeton de processus du serveur COM puisque le SCM COM est l’entité qui crée le jeton.
 
-L' **indicateur \_ \_ \_ \_ SD \_ et \_ Bind du processus de serveur sécurisé APPIDREGFLAGS** est pris en charge dans Windows XP, Windows server 2003, Windows Vista et Windows Server 2008 uniquement lorsque le correctif MSRC8322 ([Bulletin de sécurité MS09-012](https://support.microsoft.com/kb/959454)) est appliqué. Il est pris en charge en mode natif dans Windows 7 et les versions ultérieures de Windows.
+l' **indicateur \_ \_ \_ \_ SD \_ et \_ BIND du processus de serveur sécurisé APPIDREGFLAGS** est pris en charge dans Windows XP, Windows server 2003, Windows Vista et Windows server 2008 uniquement lorsque le correctif MSRC8322 ([bulletin de sécurité MS09-012](https://support.microsoft.com/kb/959454)) est appliqué. il est pris en charge en mode natif dans Windows 7 et les versions ultérieures de Windows.
 
 L' **indicateur \_ \_ \_ \_ SD \_ et \_ Bind du processus de serveur sécurisé APPIDREGFLAGS** s’applique uniquement aux serveurs com configurés pour runas « Activator » ou « cet utilisateur ». Elle ne s’applique pas aux serveurs COM qui sont des services NT.
 
@@ -77,9 +77,9 @@ Si le **APPIDREGFLAGS d' \_ activation du problème \_ \_ RPC \_ à \_** l’ind
 
 Les considérations de sécurité suivantes doivent être prises en compte lors de l’utilisation du **RPC d’activation du problème APPIDREGFLAGS à l’indicateur d' \_ \_ \_ \_ \_ identification** :
 
--   L’activation de l’indicateur **APPIDREGFLAGS \_ \_ Activation \_ RPC \_ à \_** l’indicateur d’identification est destinée à être utilisée par les serveurs com qui n’effectuent pas de travail pour le compte des clients dans les demandes d’activation d’objet. Pour ces serveurs, le fait d’avoir le SCM COM émettre des demandes d’activation d’objet au [ \_ niveau RPC C \_ IMP \_ Level \_ identifier](impersonation-levels.md) réduit le risque de jetons privilégiés avec le niveau de [**\_ \_ nom emprunter l’identité se**](/windows/desktop/SecAuthZ/privilege-constants) qui apparaît dans le processus.
+-   L’activation de l’indicateur **APPIDREGFLAGS \_ \_ Activation \_ RPC \_ à \_** l’indicateur d’identification est destinée à être utilisée par les serveurs com qui n’effectuent pas de travail pour le compte des clients dans les demandes d’activation d’objet. pour ces serveurs, le fait d’avoir le SCM COM émettre des demandes d’activation d’objet au [ \_ niveau RPC C \_ IMP \_ level \_ identifier](impersonation-levels.md) réduit le risque de jetons privilégiés avec SE niveau de [**nom d’emprunt d' \_ identité \_**](/windows/desktop/SecAuthZ/privilege-constants) figurant dans le processus.
 
-L' **activation de l' \_ émission \_ \_ RPC \_ à \_** l’indicateur APPIDREGFLAGS dans l’indicateur d’identification est prise en charge dans Windows 7 et les versions ultérieures de Windows.
+l’ACTIVATION de l’indicateur **APPIDREGFLAGS \_ ISSUE \_ ACTIVATION \_ RPC \_ à \_** l’indicateur d’identification est prise en charge dans Windows 7 et les versions ultérieures de Windows.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -100,6 +100,6 @@ L' **activation de l' \_ émission \_ \_ RPC \_ à \_** l’indicateur APPIDREGF
 [Stations Windows](/windows/desktop/winstation/window-stations)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

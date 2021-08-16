@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Modification du Registre système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb274163999996267b5f1df62fb9352831763d4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33562e2747d63d8531ff2b23d07eadac33d830ef3ecf3b8613f22170c0b735ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992839"
 ---
 # <a name="modifying-the-system-registry"></a>Modification du Registre système
 

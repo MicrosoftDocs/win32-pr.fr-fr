@@ -73,7 +73,7 @@
               href: odl-language-features-in-midl.md
             - name: Génération d’une DLL de proxy et d’une bibliothèque de types à partir d’un seul fichier IDL
               href: generating-a-proxy-dll-and-a-type-library-from-a-single-idl-file-2.md
-        - name: Composants MIDLRT et Windows Runtime
+        - name: composants MIDLRT et Windows Runtime
           href: midlrt-and-windows-runtime-components.md
           items:
             - name: Fichiers de métadonnées et MDMERGE
@@ -473,7 +473,7 @@
           href: helpstringdll.md
         - name: hidden
           href: hidden.md
-        - name: consolidation
+        - name: hyper
           href: hyper.md
         - name: id
           href: id.md

@@ -4,12 +4,12 @@ description: Cet article est destiné aux développeurs de contenu de jeu et aux
 ms.assetid: 95580b75-fb8e-b8a9-2137-40d6c60ae35d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74499068877a400a94eb0ca32c2a1aff4bcf6c6d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 686258873176c99f1942cff915c072d1c1290f6a8b2411130d7e701322d4e4e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051213"
 ---
 # <a name="making-video-games-accessible-business-justifications-and-design-considerations"></a>Rendre les jeux vidéo accessibles : justifications et considérations relatives à la conception
 
@@ -40,7 +40,7 @@ Les fonctionnalités d’accessibilité ont généralement tendance à répondre
 -   Audition : malentendants, sourds.
 -   Troubles de la parole, différences de langue.
 -   Mobilité-poignet, bras, Leg et handles.
--   Troubles de la formation cognitive et défis de raisonnement, y compris la dyslexie.
+-   problèmes cognitifs Learnings et raisonnements, y compris la dyslexie.
 
 Dans le contexte des jeux vidéo, l’ajout d’une accessibilité consiste à rendre un titre utilisable par une personne présentant l’un de ces handicaps.
 
@@ -180,7 +180,7 @@ Pour vous aider à comprendre les problèmes de dégradation de l’audit, imagi
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sans aucun handicap vocal    | Vous jouez à un jeu qui requiert des commandes vocales pour contrôler vos caractères et vous ne pouvez pas jouer parce que vous n’avez pas de microphone. <br/> Vous jouez tard à la nuit et vous ne souhaitez pas perturber l’utilisation de votre Communicator. <br/> |
 | Qui a un handicap vocal | Vous jouez à un jeu qui requiert des commandes vocales pour contrôler vos caractères et vous ne pouvez pas jouer parce que le jeu ne peut pas reconnaître ce que vous dites.                                                                                                               |
-| Qui ne peut pas parler      | Le jeu que vous jouez nécessite une entrée vocale pour que vous ne puissiez pas le lire. <br/> Le jeu en ligne que vous jouez vous attend à ce que vous coordonniez la stratégie via le Communicator pour que vous ne soyez pas en mesure de jouer efficacement. <br/>                                               |
+| Qui ne parvient pas à parler      | Le jeu que vous jouez nécessite une entrée vocale pour que vous ne puissiez pas le lire. <br/> Le jeu en ligne que vous jouez vous attend à ce que vous coordonniez la stratégie via le Communicator pour que vous ne soyez pas en mesure de jouer efficacement. <br/>                                               |
 
 
 

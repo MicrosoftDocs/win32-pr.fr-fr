@@ -1,22 +1,22 @@
 ---
-description: Cette section contient des rubriques spécifiques à Windows Server 2008 R2.
+description: cette section contient des rubriques spécifiques à Windows Server 2008 R2.
 ms.assetid: 1b6969b2-595e-40c5-8b4b-f305ccbfb058
-title: Compatibilité Windows Server 2008 R2
+title: Windows Compatibilité avec le serveur 2008 R2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee30c7ce517557407b2103111853817439285ef9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e13a27cdaf815eca485bb0693d89a3ba9e3062e59eda19b94dc7b425fe796f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994479"
 ---
-# <a name="windows-server-2008-r2-compatibility"></a>Compatibilité Windows Server 2008 R2
+# <a name="windows-server-2008-r2-compatibility"></a>Windows Compatibilité avec le serveur 2008 R2
 
-Cette section contient des rubriques spécifiques à Windows Server 2008 R2. Vous trouverez ci-dessous la liste des rubriques traitées dans cette section :
+cette section contient des rubriques spécifiques à Windows Server 2008 R2. Vous trouverez ci-dessous la liste des rubriques traitées dans cette section :
 
--   [Le service de réplication de fichiers (FRS) est déconseillé dans Windows Server 2008 R2](file-replication-service--frs--is-deprecated-in-windows-server-2008-r2.md)
--   [Microsoft Message Queuing (MSMQ)-suppression du service de support client Windows 2000](microsoft-message-queuing--msmq----removal-of-windows-2000-client-support-ser.md)
+-   [le Service de réplication de fichiers (FRS) est déconseillé dans Windows Server 2008 R2](file-replication-service--frs--is-deprecated-in-windows-server-2008-r2.md)
+-   [Microsoft Message Queuing (MSMQ)-suppression du Service de Support Client Windows 2000](microsoft-message-queuing--msmq----removal-of-windows-2000-client-support-ser.md)
 -   [Nouveaux binaires de Low-Level](new-low-level-binaries.md)
 -   [Suppression des services UDDI du système d’exploitation serveur](removal-of-uddi-services-from-server-os.md)
 -   [64 bits uniquement](64-bit-only.md)

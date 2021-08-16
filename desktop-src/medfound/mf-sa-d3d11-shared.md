@@ -4,12 +4,12 @@ ms.assetid: 798CA474-3B1A-4795-81B7-563749197104
 title: Attribut MF_SA_D3D11_SHARED (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff6ecb23a99a732e183bc16942e33bbb4f8e3a40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 439e92ca57c306434898bfe167646d4e9df98a4cee0b4db8b9c8f84e394cdc21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875981"
 ---
 # <a name="mf_sa_d3d11_shared-attribute"></a>\_ \_ Attribut partagé d3d11 MF sa \_
 
@@ -19,7 +19,7 @@ Indique à l’allocateur d’échantillon vidéo de créer des textures pouvant
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="sample-allocator"></a>Allocateur d’échantillon
 
@@ -31,8 +31,8 @@ Cet attribut peut être défini sur l’allocateur d’échantillon vidéo, dans
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

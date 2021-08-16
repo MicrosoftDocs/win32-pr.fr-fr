@@ -4,12 +4,12 @@ description: convertit une image en gris monochrome.
 ms.assetid: 4e0b26ed-ba71-5f8f-db1e-f1b4e28fbd11
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0dc3cb6a807d282649a2826713cdf48fa966d9f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 03b74e553074b3ee0c9ad4e0d5121b9b084884ddb030c75308eb9964531fc6b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075330"
 ---
 # <a name="grayscale-effect"></a>Effet de nuances de gris
 
@@ -23,7 +23,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Grayscale.
 
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -40,8 +40,8 @@ Cet effet n’a pas de propriétés.
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
+| Client minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
+| Serveur minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
 | En-tête                   | d2d1effects \_ 2. h                                  |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                              |
 

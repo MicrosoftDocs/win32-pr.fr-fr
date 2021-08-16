@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de propriétés d’erreur
 - Windows Remote Management de propriété d’erreur, objet énumérateur
-- Objet Enumerator Windows Remote Management, propriété Error
+- objet Enumerator Windows Remote Management, propriété Error
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfcd736d6704f59b3826e4edf9549689fe7ca19c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c3c69c967bbe2297c9b7310df2b0c2bd7bcba980f2f991f2bba6467aa073d55a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106538964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993829"
 ---
 # <a name="enumeratorerror-property"></a>Enumerator. Error, propriété
 

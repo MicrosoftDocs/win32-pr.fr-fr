@@ -4,18 +4,18 @@ ms.assetid: 784ef76e-3c17-45e0-9a0b-656c11c71322
 title: Fonctions de débogage d’attente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4d2f9f8d40e6b9676426254f0b9165b546dec7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f8f1de3d19ce7408625a5ab42f230d23ce401728e9fa7cf060edae62e19fcfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049199"
 ---
 # <a name="wait-debugging-functions"></a>Fonctions de débogage d’attente
 
 Microsoft DirectShow fournit plusieurs fonctions pour déboguer des attentes infinies.
 
-Dans les versions commerciales, les fonctions [**DbgWaitForMultipleObjects**](dbgwaitformultipleobjects.md) et [**DbgWaitForSingleObject**](dbgwaitforsingleobject.md) fonctionnent comme leurs équivalents d’API Windows, **WaitForMultipleObjects** et **WaitForSingleObject**, avec des intervalles de délai d’attente infinis.
+dans les versions commerciales, les fonctions [**DbgWaitForMultipleObjects**](dbgwaitformultipleobjects.md) et [**DbgWaitForSingleObject**](dbgwaitforsingleobject.md) fonctionnent comme leurs équivalents API Windows, **WaitForMultipleObjects** et **WaitForSingleObject**, avec des intervalles de délai d’attente infinis.
 
 Dans les versions Debug, ces fonctions utilisent une valeur de délai d’attente globale. Si le délai d’attente expire, la fonction déclenche une assertion. La clé de Registre suivante spécifie la valeur du délai d’attente, en millisecondes :
 

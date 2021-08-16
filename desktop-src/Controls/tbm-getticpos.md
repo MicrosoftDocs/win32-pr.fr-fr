@@ -3,7 +3,7 @@ title: Message TBM_GETTICPOS (commctrl. h)
 description: Récupère la position physique actuelle d’une graduation dans un TrackBar.
 ms.assetid: a4b0ec32-ef4e-4607-ade1-5e2be02bebe4
 keywords:
-- TBM_GETTICPOS les contrôles de message Windows
+- TBM_GETTICPOS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bb1346f63e9bb10b919c678373e0e8df0724861
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 56d191034fc1551d4ffc1840498e352e2f3cd82985f1bbc5a7ae8d5350a41fb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046339"
 ---
 # <a name="tbm_getticpos-message"></a>\_Message TBM GETTICPOS
 
@@ -47,7 +47,7 @@ Doit être zéro.
 
 Retourne la distance, en coordonnées clientes, à partir de la gauche ou du haut de la zone cliente du TrackBar jusqu’à la graduation spécifiée. La valeur de retour est la coordonnée x de la graduation pour un TrackBar horizontal ou la coordonnée y pour un TrackBar vertical. Si *wParam* n’est pas un index valide, la valeur de retour est-1.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Étant donné que les première et dernière graduations ne sont pas disponibles par le biais de ce message, les index valides sont décalés par rapport à leur position de graduation sur le TrackBar. Si la différence entre [**TBM \_ GETRANGEMIN**](tbm-getrangemin.md) et [**TBM \_ GETRANGEMAX**](tbm-getrangemax.md) est inférieure à deux, alors il n’y a pas d’index valide et ce message échoue.
 
@@ -65,8 +65,8 @@ L’exemple suivant illustre la relation entre les graduations sur un TrackBar, 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

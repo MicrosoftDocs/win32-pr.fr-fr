@@ -4,12 +4,12 @@ description: Vous pouvez rechercher des appareils de trois façons par type, par
 ms.assetid: 511fb119-ad4e-406a-8a1e-fb508eceff2a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 055d08db76edd5bcc5591d3254613462c00fc974
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7f4975c14008dcf98b7a9145320f509a3c2bceb245cd54481654ed6548a92348
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058070"
 ---
 # <a name="discovering-devices"></a>Détection des appareils
 
@@ -27,9 +27,9 @@ Lorsque vous utilisez la recherche asynchrone, les nouveaux périphériques dét
 
 Une fois que vous avez découvert des appareils, vous pouvez [les contrôler](controlling-a-device.md).
 
- 
+ 
 
- 
+ 
 
 
 

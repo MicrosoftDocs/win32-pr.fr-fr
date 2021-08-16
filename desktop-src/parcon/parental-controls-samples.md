@@ -4,18 +4,18 @@ ms.assetid: 19dac95c-2279-4bf9-a58c-dd30177c0c9d
 title: Exemples de contrôle parental
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26962f4edd16e1e860883607316d5a7cbf3d9122
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c23111e42b670c30630b7ebd250c94ba2f148fcf4a81874fcc3c360db9b4bbd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971608"
 ---
 # <a name="parental-controls-samples"></a>Exemples de contrôle parental
 
-Des exemples de code pour les contrôles parentaux sont disponibles sous chemins d’accès <installation directory> \\ Windows \\ <version number> \\ exemples de \\ sécurité \\ parentalcontrols. Les exemples sont les suivants :
+des exemples de code pour le contrôle Parental sont disponibles sous chemin d’accès <installation directory> \\ Windows \\ <version number> \\ exemples de \\ sécurité \\ ParentalControls. Les exemples sont les suivants :
 
-## <a name="utilities"></a>Services
+## <a name="utilities"></a>Outils
 
 Fonctionnalités d’assistance pour la gestion COM de base, les opérations de chaîne SID et les fonctionnalités de lecture et d’écriture WMI. Tous les autres exemples dépendent de ce projet, sauf indication contraire.
 

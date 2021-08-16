@@ -46,7 +46,7 @@ L’objet **qualificateurs** possède ces propriétés.
 
 
 
-| Property                                           | Type d’accès          | Description                                                                                                                                                                                                                     |
+| Propriété                                           | Type d’accès          | Description                                                                                                                                                                                                                     |
 |:---------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_NewEnum**](qualifiers-newenum.md)<br/> | Lecture seule<br/> | Récupère une interface [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) sur un objet qui peut être utilisé pour énumérer la collection. cette propriété est masquée dans Visual Basic scripting Edition (VBScript).<br/> |
 | [**Count**](qualifiers-count.md)<br/>       | Lecture seule<br/> | Récupère le nombre de qualificateurs dans la collection.<br/>                                                                                                                                                                |

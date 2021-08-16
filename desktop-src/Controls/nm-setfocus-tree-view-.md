@@ -3,7 +3,7 @@ title: Code de notification NM_SETFOCUS (arborescence) (commctrl. h)
 description: Avertit une fenêtre parente d’un contrôle Tree-View que le contrôle a reçu le focus d’entrée. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 4bdd6cd2-afd3-4c0b-914b-8fff55e474a9
 keywords:
-- Contrôles Windows de code de notification NM_SETFOCUS (arborescence)
+- NM_SETFOCUS (arborescence) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b9e24d95b95b3c66fe43920f780b2e8d0f66679
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5c7aab780dec67e82e19716bc15a6c65d37894bb9d3bbe9b6bb58c227283be76
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919549"
 ---
 # <a name="nm_setfocus-tree-view-notification-code"></a>\_Code de notification nm SetFocus (arborescence)
 
@@ -55,8 +55,8 @@ La valeur de retour est ignorée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

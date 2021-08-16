@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 3e780705-09f9-4368-9bae-ad20c45e4fe1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ec592153e823fe6ffaabf0afa1e7b8be24379a8
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 8b10405473a92a9bd93471c94ef497dbb50f04fc260724f00c6dabf2f07c7341
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104030858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977109"
 ---
 # <a name="glossary-imapi"></a>Glossaire (IMAPi)
 
@@ -229,14 +229,14 @@ API de mastérisation d’images qui permet de créer et d’écrire des images 
 <span id="imapi.imapi2_glossary_IMAPIv1"></span><span id="imapi.imapi2_glossary_imapiv1"></span><span id="IMAPI.IMAPI2_GLOSSARY_IMAPIV1"></span>**IMAPIv1** 
 </dt> <dd>
 
-La version d’IMAPi exposée pour la première fois dans Windows XP. IMAPi 1,0 prend en charge les supports CD-R et CD-RW.
+la version d’imapi exposée pour la première fois dans Windows XP. IMAPi 1,0 prend en charge les supports CD-R et CD-RW.
 
 </dd> <dt>
 
 <span id="imapi.imapi2_glossary_IMAPIv2"></span><span id="imapi.imapi2_glossary_imapiv2"></span><span id="IMAPI.IMAPI2_GLOSSARY_IMAPIV2"></span>**IMAPIv2** 
 </dt> <dd>
 
-La deuxième version d’IMAPi, publiée avec Windows Vista.
+la deuxième version d’imapi, publiée avec Windows Vista.
 
 </dd> <dt>
 
@@ -313,7 +313,7 @@ Méthode d’écriture sur un support CD où les données d’une seule piste so
 <span id="imapi.imapi2_glossary_UDF"></span><span id="imapi.imapi2_glossary_udf"></span><span id="IMAPI.IMAPI2_GLOSSARY_UDF"></span>**UDF (Universal Disk Format)**
 </dt> <dd>
 
-Ce système de fichiers est défini par OSTA (Association de technologie de stockage optique) qui prend en charge les disques à session unique et à plusieurs sessions.
+ce système de fichiers est défini par OSTA (Association de technologie de Stockage optique) qui prend en charge les disques à session unique et à plusieurs sessions.
 
 </dd> <dt>
 
@@ -324,9 +324,9 @@ Désignation d’une interface COM où une interface donnée prend en charge la 
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

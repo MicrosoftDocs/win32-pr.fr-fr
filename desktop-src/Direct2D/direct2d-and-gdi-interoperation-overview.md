@@ -13,12 +13,12 @@ keywords:
 - Direct3D, interopérabilité de Direct2D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 991d94b4460e9130b3353be38d5f749511434eb6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 951bebc9ea7ca63496a9cdc93fa33ddb74817661e7f5bc072b55d207bfcbdeb7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918237"
 ---
 # <a name="direct2d-and-gdi-interoperability-overview"></a>Vue d’ensemble de l’interopérabilité de Direct2D et GDI
 
@@ -26,9 +26,9 @@ Cette rubrique explique comment utiliser Direct2D et [GDI](/windows/desktop/gdi/
 
 Cette rubrique contient les sections suivantes.
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Dessiner du contenu Direct2D dans un contexte de périphérique GDI](#draw-direct2d-content-to-a-gdi-device-context)
--   [ID2D1DCRenderTargets, les transformations GDI et les versions de langue de droite à gauche de Windows](#id2d1dcrendertargets-gdi-transforms-and-right-to-left-language-builds-of-windows)
+-   [ID2D1DCRenderTargets, les transformations GDI et les builds de langue de droite à gauche de Windows](#id2d1dcrendertargets-gdi-transforms-and-right-to-left-language-builds-of-windows)
 -   [Dessiner du contenu GDI sur une cible de rendu Direct2D GDI-Compatible](#draw-gdi-content-to-a-direct2d-gdi-compatible-render-target)
 -   [Rubriques connexes](#related-topics)
 
@@ -238,7 +238,7 @@ Ce code produit des sorties comme indiqué dans l’illustration suivante (des l
 
 ![illustration de deux graphiques circulaires rendus avec Direct2D et GDI](images/gdiinteropcallout.png)
 
-## <a name="id2d1dcrendertargets-gdi-transforms-and-right-to-left-language-builds-of-windows"></a>ID2D1DCRenderTargets, les transformations GDI et les versions de langue de droite à gauche de Windows
+## <a name="id2d1dcrendertargets-gdi-transforms-and-right-to-left-language-builds-of-windows"></a>ID2D1DCRenderTargets, les transformations GDI et les builds de langue de droite à gauche de Windows
 
 Quand vous utilisez un [**ID2D1DCRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget), celui-ci affiche le contenu Direct2D dans une image bitmap interne, puis restitue le bitmap dans le DC avec GDI.
 
@@ -246,7 +246,7 @@ GDI peut appliquer une transformation GDI (via la méthode [**SetWorldTransform*
 
 Par exemple, supposons que vous utilisez la cible de rendu pour dessiner une scène qui contient des géométries et du texte avec un alias. Si vous utilisez une transformation GDI pour appliquer une transformation d’échelle au DC et que vous mettez à l’échelle la scène de manière à ce qu’elle soit 10 fois supérieure, vous verrez des contours et des arêtes en escalier. (Si, toutefois, vous avez appliqué une transformation similaire à l’aide de Direct2D, la qualité visuelle de la scène n’est pas dégradée.)
 
-Dans certains cas, il peut ne pas être évident que GDI effectue un traitement supplémentaire qui peut dégrader la qualité du contenu Direct2D. Par exemple, sur une version de Windows de droite à gauche (RTL), le contenu rendu par un [**ID2D1DCRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget) peut être inversé horizontalement lorsque GDI le copie à son emplacement de destination. Le fait que le contenu soit inversé dépend des paramètres actuels du contrôleur de l’objet.
+Dans certains cas, il peut ne pas être évident que GDI effectue un traitement supplémentaire qui peut dégrader la qualité du contenu Direct2D. par exemple, sur une build de droite à gauche (RTL) de Windows, le contenu rendu par un [**ID2D1DCRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget) peut être inversé horizontalement lorsque GDI le copie vers sa destination. Le fait que le contenu soit inversé dépend des paramètres actuels du contrôleur de l’objet.
 
 Selon le type de contenu rendu, vous pouvez empêcher l’inversion. Si le contenu Direct2D comprend du texte ClearType, cette inversion dégradera la qualité du texte.
 
@@ -373,6 +373,6 @@ Le code génère des graphiques comme indiqué dans l’illustration suivante av
 [SDK GDI](/windows/desktop/gdi/windows-gdi)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

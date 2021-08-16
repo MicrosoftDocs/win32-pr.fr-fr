@@ -4,12 +4,12 @@ description: Observer l’étiquette appropriée
 ms.assetid: 7dcc4907-f38c-4706-982e-7792eef27c7a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3c32fb2e06139c9cace81e6d62c789205eb625c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b9051139ea41170e6dbb43db48fb5e0d492e5ee34f56a5f3ec4fd31571290b61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975899"
 ---
 # <a name="observe-appropriate-etiquette"></a>Observer l’étiquette appropriée
 
@@ -29,9 +29,9 @@ La poli affecte également la façon dont nous répondons aux autres ou en perce
 
 Tenez également compte de l’impact culturel sur l’étiquette sociale. Cela peut s’appliquer au attire, aux gestes ou au choix de mots du caractère. Alors que les comportements polis peuvent varier selon la culture, le concept de poli est croisé.
 
- 
+ 
 
- 
+ 
 
 
 

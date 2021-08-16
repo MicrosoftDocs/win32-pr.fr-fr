@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7108dfc094f3183950dd94e5398263f4bf7cfd5c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: be29e4a1bd6721b8f53dbe2394be3552ca4845143cf948f130ef55e11881b518
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589239"
 ---
 # <a name="tracelogging-managed-quick-start"></a>Démarrage rapide managé TraceLogging
 
@@ -115,13 +115,13 @@ L’attribut remplace la nécessité de créer manuellement un fichier manifeste
 
 ## <a name="summary-and-next-steps"></a>Résumé et étapes suivantes
 
-Consultez [enregistrement et affichage des événements TraceLogging](tracelogging-record-and-display-tracelogging-events.md) pour plus d’informations sur la capture et l’affichage des données TraceLogging à l’aide des dernières versions internes des outils de performances Windows (WPT).
+consultez [enregistrement et affichage des événements TraceLogging](tracelogging-record-and-display-tracelogging-events.md) pour plus d’informations sur la capture et l’affichage des données TraceLogging à l’aide des dernières versions internes des outils de Performance Windows (WPT).
 
 Pour obtenir des exemples de TraceLogging managés, consultez [exemples .net Tracelogging](tracelogging-net-examples.md) .
 
- 
+ 
 
- 
+ 
 
 
 

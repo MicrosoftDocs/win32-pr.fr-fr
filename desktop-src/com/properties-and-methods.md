@@ -4,12 +4,12 @@ description: Comme tout objet OLE, un contrôle fournit une grande partie de ses
 ms.assetid: 5a0cdb5d-7e27-40e9-94db-cfda853879c6
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 701b100be635fdb8db9cb51f258dc722edd23eca
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 52dae30453089f235a4e70d7896569ebefcdff9f7f2419b5fc54af88b8563d63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047887"
 ---
 # <a name="properties-and-methods"></a>Propriétés et méthodes
 
@@ -33,15 +33,15 @@ Pour plus d'informations, voir les rubriques suivantes :
 
 <dl> <dt>
 
-[Contrôles ActiveX](activex-controls.md)
+[ActiveX Commandes](activex-controls.md)
 </dt> <dt>
 
 [Pages de propriétés et feuilles de propriétés](property-pages-and-property-sheets.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

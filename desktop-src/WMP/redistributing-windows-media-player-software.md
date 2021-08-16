@@ -1,6 +1,6 @@
 ---
-title: Redistribution du logiciel Windows Media Player
-description: Redistribution du logiciel Windows Media Player
+title: redistribution du logiciel Lecteur Windows Media
+description: redistribution du logiciel Lecteur Windows Media
 ms.assetid: 9af2225d-b18e-40d6-835e-f41003a7dea7
 keywords:
 - Lecteur Windows Media, redistribution de logiciels
@@ -9,35 +9,35 @@ keywords:
 - redistribution de logiciels
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c027fa77294f3a9017e3bbc19eead1196297e3b
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 078fc47ed65bdac4217bf1dc52abbb325fa34c90c2e6e3dacbb996c2aba4f0e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104381615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118333502"
 ---
-# <a name="redistributing-windows-media-player-software"></a>Redistribution du logiciel Windows Media Player
+# <a name="redistributing-windows-media-player-software"></a>redistribution du logiciel Lecteur Windows Media
 
-Pour plus d’informations sur l’obtention d’une licence pour inclure la prise en charge ou la redistribution des composants du lecteur Windows Media sur votre site Web, dans votre application ou sur vos appareils, consultez les liens licence et redistribution sur le [site Web Windows Media](https://support.microsoft.com/help/18612/windows-media-player).
+pour plus d’informations sur l’obtention d’une licence pour inclure la prise en charge de ou redistribuer des composants Lecteur Windows Media sur votre site web, dans votre application ou sur vos appareils, consultez les liens licence et redistribution sur le [site web Windows Media](https://support.microsoft.com/help/18612/windows-media-player).
 
-Les sections suivantes fournissent des informations sur les packages d’installation que vous pouvez utiliser pour inclure le lecteur Windows Media dans votre application.
+les sections suivantes fournissent des informations sur les packages d’installation que vous pouvez utiliser pour inclure des Lecteur Windows Media dans votre application.
 
--   [Redistribution du lecteur Windows Media 11](redistributing-windows-media-player-11.md)
--   [Redistribution du lecteur Windows Media 10](redistributing-windows-media-player-10.md)
--   [Redistribution du lecteur Windows Media 9](redistributing-windows-media-player-9.md)
--   [Détection du lecteur Windows Media à partir d’une application](detecting-windows-media-player-from-an-application.md)
--   [Détection de l’état de l’installation du programme d’installation de Windows Media](detecting-setup-status-for-windows-media-setup.md)
+-   [redistribution Lecteur Windows Media 11](redistributing-windows-media-player-11.md)
+-   [redistribution Lecteur Windows Media 10](redistributing-windows-media-player-10.md)
+-   [redistribution de Lecteur Windows Media 9](redistributing-windows-media-player-9.md)
+-   [détection des Lecteur Windows Media à partir d’une Application](detecting-windows-media-player-from-an-application.md)
+-   [détection de l’état de l’installation de Windows Media](detecting-setup-status-for-windows-media-setup.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Lecteur Windows Media**](windows-media-player.md)
+[**Lecteur Windows Media**](windows-media-player.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

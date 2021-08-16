@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9f16ed07235e52d9aefd7bffff9ce430c3978d2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7dbc4b4a74871eb111b778d798587e53027053fe57cc8cda837a3aafb7c24d74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048487"
 ---
 # <a name="impersonation-level-constants"></a>Constantes de niveau d’emprunt d’identité
 
@@ -39,7 +39,7 @@ Spécifie un niveau d’emprunt d’identité, qui indique la quantité d’auto
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 [**GetUserName**](/windows/desktop/api/winbase/nf-winbase-getusernamea) échoue lors de l’emprunt d’identité au niveau de l’identité. La solution de contournement consiste à emprunter l’identité, à appeler [**OpenThreadToken**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken), à rétablir, à appeler [**GetTokenInformation**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation)et enfin à appeler [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida). À l’aide de [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket), le client définit le niveau d’emprunt d’identité
 

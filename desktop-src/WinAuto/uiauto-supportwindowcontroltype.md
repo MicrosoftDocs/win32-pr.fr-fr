@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 422742381cd501d295e4cb7e354ca07e10c13360
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a70ae728ded97bb68f3984b6fba323710d3582e984610ad6dec248d8509ea97f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118824574"
 ---
 # <a name="window-control-type"></a>Window (type de contrôle)
 
@@ -75,7 +75,7 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
- 
+ 
 
 ## <a name="relevant-properties"></a>Propriétés pertinentes
 
@@ -83,7 +83,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur      | Notes                                                                                                                                                   |
+| Propriété UI Automation                                                                                              | Valeur      | Remarques                                                                                                                                                   |
 |---------------------------------------------------------------------------------------------------------------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques. | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                            |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques. | Rectangle externe qui contient l’ensemble du contrôle.                                                                                                |
@@ -98,7 +98,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -106,15 +106,15 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
-| Modèle de contrôle/Propriété de modèle                        | Prise en charge/valeur | Notes                                                                                                                                                                        |
+| Modèle de contrôle/Propriété de modèle                        | Prise en charge/valeur | Remarques                                                                                                                                                                        |
 |---------------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IDockProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-idockprovider)           | Logique conditionnelle   | Le modèle de contrôle [Dock](uiauto-implementingdock.md) doit être pris en charge si la fenêtre peut être ancrée.                                                                       |
-| [**ITransformProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itransformprovider) | Obligatoire      | Le modèle de contrôle [Transform](uiauto-implementingtransform.md) permet à la fenêtre d’être déplacée, redimensionnée ou pivotée sur l’écran. (Ne s’applique pas aux applications du Windows Store.) |
+| [**ITransformProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itransformprovider) | Obligatoire      | Le modèle de contrôle [Transform](uiauto-implementingtransform.md) permet à la fenêtre d’être déplacée, redimensionnée ou pivotée sur l’écran. (ne s’applique pas aux applications du windows Store Windows.) |
 | [**IWindowProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iwindowprovider)       | Obligatoire      | Le modèle de contrôle [Window](uiauto-implementingwindow.md) permet des opérations spécifiques pour la fenêtre.                                                                      |
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -122,7 +122,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
-| Événement UI Automation                                                                                                                                        | Notes                                                                                                                                                                                                                     |
+| Événement UI Automation                                                                                                                                        | Remarques                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AsyncContentLoadedEventId**](uiauto-event-ids.md)                                                                   |                                                                                                                                                                                                                           |
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                                           |                                                                                                                                                                                                                           |
@@ -144,7 +144,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -159,9 +159,9 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

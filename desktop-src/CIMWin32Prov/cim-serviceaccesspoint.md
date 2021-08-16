@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 681e5e11de525e535f7965b72adb8ac0e316f7aa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7dbabaa1ddaba8e557d745318a775f906aae7036379bfcf39f42d09d569e650f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919639"
 ---
 # <a name="cim_serviceaccesspoint-class-cimwin32-wmi-providers"></a>CIM_ServiceAccessPoint, classe (fournisseurs WMI CIMWin32)
 
@@ -350,7 +350,7 @@ Type de SAP, tel que attaché ou redirigé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ ServiceAccessPoint** est dérivée de la [**\_ LogicalElement CIM**](cim-logicalelement.md).
 

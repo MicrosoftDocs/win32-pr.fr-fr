@@ -1,22 +1,22 @@
 ---
-description: Découvrez comment empêcher les blocages dans les applications Windows pour les plateformes Windows 7 et Windows Server 2008 R2.
+description: découvrez comment empêcher les blocages dans les applications Windows pour les plateformes Windows 7 et Windows Server 2008 R2.
 ms.assetid: 698a046b-1934-49cd-a717-d61e7e1ec534
 title: Prévention des blocages dans les applications Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35a2d8fac95039f20c8c684c50138933c54750c3
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 5509b8733e45b105694a8bfdadddae0d67096b92c390ed98b3dd937817823b39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104042904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994818"
 ---
 # <a name="preventing-hangs-in-windows-applications"></a>Prévention des blocages dans les applications Windows
 
 ## <a name="affected-platforms"></a>Plateformes affectées
 
 **Clients** -Windows 7  
-**Serveurs** -Windows Server 2008 R2  
+**serveurs** -Windows Server 2008 R2  
 
 
 
@@ -34,7 +34,7 @@ Les utilisateurs comme les applications réactives. Lorsqu’il clique sur un me
 
 Un programmeur peut reconnaître de nombreuses raisons légitimes pour qu’une application ne puisse pas répondre instantanément aux entrées d’utilisateur. L’application peut être chargée de recalculer certaines données ou d’attendre la fin de l’exécution de l’e/s disque. Toutefois, à partir de la recherche des utilisateurs, nous savons que les utilisateurs sont mécontents et frustrés après quelques secondes d’inactivité. Après 5 secondes, ils tenteront de mettre fin à une application bloquée. À la suite des blocages, les blocages d’applications sont la source la plus courante de perturbation de l’utilisateur lors de l’utilisation d’applications Win32.
 
-Il existe de nombreuses causes racines pour les blocages des applications, et non pas toutes les manifestes dans une interface utilisateur qui ne répond pas. Toutefois, une interface utilisateur qui ne répond pas est l’une des expériences de blocage les plus courantes, et ce scénario reçoit actuellement la prise en charge de système d’exploitation la plus courante pour la détection et la récupération. Windows détecte automatiquement, collecte les informations de débogage et éventuellement arrête ou redémarre les applications bloquées. Dans le cas contraire, l’utilisateur devra peut-être redémarrer l’ordinateur pour pouvoir récupérer une application bloquée.
+Il existe de nombreuses causes racines pour les blocages des applications, et non pas toutes les manifestes dans une interface utilisateur qui ne répond pas. Toutefois, une interface utilisateur qui ne répond pas est l’une des expériences de blocage les plus courantes, et ce scénario reçoit actuellement la prise en charge de système d’exploitation la plus courante pour la détection et la récupération. Windows détecte automatiquement, collecte les informations de débogage et met éventuellement fin à des applications bloquées ou les redémarre. Dans le cas contraire, l’utilisateur devra peut-être redémarrer l’ordinateur pour pouvoir récupérer une application bloquée.
 
 **Blocages-perspective du système d’exploitation**
 
@@ -44,16 +44,16 @@ La détection n’est que la première étape. À ce stade, l’utilisateur ne p
 
 L’expérience fantôme complète ressemble à ceci :
 
-![Capture d’écran montrant la boîte de dialogue « le bloc-notes ne répond pas ».](images/preventinghangs-ghostwindow.gif)
+![capture d’écran montrant la boîte de dialogue « Bloc-notes ne répond pas ».](images/preventinghangs-ghostwindow.gif)
 
-La Gestionnaire de fenêtrage effectue une dernière chose ; Il s’intègre à Rapport d’erreurs Windows, permettant à l’utilisateur de fermer et éventuellement de redémarrer l’application, mais également de renvoyer des données de débogage précieuses à Microsoft. Vous pouvez obtenir ces données de blocage pour vos propres applications en vous inscrivant sur le site Web winqual.
+La Gestionnaire de fenêtrage effectue une dernière chose ; il s’intègre à Rapport d’erreurs Windows, permettant à l’utilisateur de fermer et éventuellement de redémarrer l’application, mais également de renvoyer des données de débogage précieuses à Microsoft. Vous pouvez obtenir ces données de blocage pour vos propres applications en vous inscrivant sur le site Web winqual.
 
 Windows 7 a ajouté une nouvelle fonctionnalité à cette expérience. Le système d’exploitation analyse l’application bloquée et, dans certaines circonstances, donne à l’utilisateur la possibilité d’annuler une opération de blocage et de rendre l’application réactive. L’implémentation actuelle prend en charge l’annulation des appels de socket bloquants ; d’autres opérations seront annulées par l’utilisateur dans les versions ultérieures.
 
 Pour intégrer votre application à l’expérience de récupération des blocages et tirer le meilleur parti des données disponibles, procédez comme suit :
 
 -   Assurez-vous que votre application s’inscrit au redémarrage et à la récupération, ce qui rend le blocage aussi simple que possible pour l’utilisateur. Une application correctement inscrite peut redémarrer automatiquement avec la plupart de ses données non enregistrées intactes. Cela fonctionne pour les blocages d’application et les blocages.
--   Obtenir des informations sur la fréquence, ainsi que des données de débogage pour vos applications bloquées et bloquées à partir du site Web winqual. Vous pouvez utiliser ces informations même pendant votre version bêta pour améliorer votre code. Pour obtenir une vue d’ensemble, consultez « Présentation de Rapport d’erreurs Windows ».
+-   Obtenir des informations sur la fréquence, ainsi que des données de débogage pour vos applications bloquées et bloquées à partir du site Web winqual. Vous pouvez utiliser ces informations même pendant votre version bêta pour améliorer votre code. pour obtenir une vue d’ensemble, consultez « présentation de Rapport d’erreurs Windows ».
 -   Vous pouvez désactiver la fonctionnalité de ghosting dans votre application via un appel à DisableProcessWindowsGhosting (). Toutefois, cela empêche l’utilisateur moyen de fermer et redémarrer une application bloquée et se termine souvent par un redémarrage.
 
 **Blocages-perspective développeur**
@@ -69,13 +69,13 @@ Toutefois, l’utilisateur perçoit cela comme un bogue. La conception doit corr
 
 -   Met en file d’attente les opérations de longue durée ou de blocage en tant que tâches en arrière-plan (cela nécessite un mécanisme de messagerie bien pensé pour informer le thread d’interface utilisateur lorsque le travail est terminé)
 -   Gardez le code pour les threads de l’interface utilisateur simple ; supprimer autant d’appels d’API bloquant que possible
--   Affiche les fenêtres et les boîtes de dialogue uniquement lorsqu’elles sont prêtes et entièrement opérationnelles. Si la boîte de dialogue doit afficher des informations qui nécessitent trop de ressources pour être calculées, affichez d’abord des informations génériques et mettez-les à jour à la volée lorsque davantage de données sont disponibles. La boîte de dialogue Propriétés du dossier de l’Explorateur Windows en est un bon exemple. Il doit afficher la taille totale du dossier, les informations qui ne sont pas immédiatement disponibles à partir du système de fichiers. La boîte de dialogue s’affiche immédiatement et le champ « taille » est mis à jour à partir d’un thread de travail :
+-   Affiche les fenêtres et les boîtes de dialogue uniquement lorsqu’elles sont prêtes et entièrement opérationnelles. Si la boîte de dialogue doit afficher des informations qui nécessitent trop de ressources pour être calculées, affichez d’abord des informations génériques et mettez-les à jour à la volée lorsque davantage de données sont disponibles. la boîte de dialogue propriétés du dossier de Windows Explorer en est un bon exemple. Il doit afficher la taille totale du dossier, les informations qui ne sont pas immédiatement disponibles à partir du système de fichiers. La boîte de dialogue s’affiche immédiatement et le champ « taille » est mis à jour à partir d’un thread de travail :
 
-![Capture d’écran montrant la page « général » des propriétés de Windows avec le texte « taille », « taille sur le disque » et « contient ».](images/preventinghangs-updatingdialog.gif)
+![capture d’écran montrant la page « général » des propriétés de Windows dont le texte est « taille », « taille sur le disque » et « contient » le texte entouré d’un cercle.](images/preventinghangs-updatingdialog.gif)
 
-Malheureusement, il n’existe aucun moyen simple de concevoir et d’écrire une application réactive. Windows ne fournit pas d’infrastructure asynchrone simple qui permet une planification aisée des opérations de blocage ou de longue durée. Les sections suivantes présentent quelques-unes des meilleures pratiques pour empêcher les blocages et mettre en évidence certains des pièges les plus courants.
+Malheureusement, il n’existe aucun moyen simple de concevoir et d’écrire une application réactive. Windows ne fournit pas une infrastructure asynchrone simple qui permet une planification facile des opérations de blocage ou de longue durée. Les sections suivantes présentent quelques-unes des meilleures pratiques pour empêcher les blocages et mettre en évidence certains des pièges les plus courants.
 
-## <a name="best-practices"></a>Bonnes pratiques
+## <a name="best-practices"></a>Meilleures pratiques
 
 **Garder le thread d’interface utilisateur simple**
 
@@ -91,7 +91,7 @@ La responsabilité principale du thread d’interface utilisateur est de récup�
 **Ne pas :**
 
 -   Attendre un objet de noyau (comme un événement ou un mutex) pendant plus d’un laps de temps. Si vous devez attendre, envisagez d’utiliser MsgWaitForMultipleObjects (), qui se débloquera à l’arrivée d’un nouveau message
--   Partagez la file d’attente de messages de fenêtre d’un thread avec un autre thread à l’aide de la fonction AttachThreadInput (). Il est non seulement extrêmement difficile de synchroniser correctement l’accès à la file d’attente, mais aussi d’empêcher le système d’exploitation Windows de détecter correctement une fenêtre bloquée
+-   Partagez la file d’attente de messages de fenêtre d’un thread avec un autre thread à l’aide de la fonction AttachThreadInput (). il est non seulement extrêmement difficile de synchroniser correctement l’accès à la file d’attente, mais également d’empêcher le système d’exploitation Windows de détecter correctement une fenêtre bloquée
 -   Utilisez TerminateThread () sur l’un de vos threads de travail. L’arrêt d’un thread de cette manière ne lui permet pas de libérer des verrous ou des événements de signal et peut facilement entraîner des objets de synchronisation orphelins
 -   Appelez un code inconnu de votre thread d’interface utilisateur. Cela est particulièrement vrai si votre application a un modèle d’extensibilité ; Il n’y a aucune garantie que le code tiers respecte vos instructions de réactivité
 -   Effectuer tout type d’appel de diffusion en blocage ; SendMessage ( \_ diffusion HWND) vous place à la merci de chaque application mal écrite en cours d’exécution
@@ -179,7 +179,7 @@ L’exemple de code ci-dessous illustre ce problème. L’accès illimité à la
 
 **Ne pas :**
 
--   Gérez les exceptions natives si elles ne sont pas nécessaires ou requises par les API Win32. Si vous utilisez des gestionnaires d’exceptions natifs pour la création de rapports ou la récupération de données après des défaillances catastrophiques, envisagez d’utiliser le mécanisme de système d’exploitation par défaut de Rapport d’erreurs Windows à la place
+-   Gérez les exceptions natives si elles ne sont pas nécessaires ou requises par les API Win32. si vous utilisez des gestionnaires d’exceptions natifs pour la création de rapports ou la récupération de données après des défaillances catastrophiques, envisagez d’utiliser le mécanisme de système d’exploitation par défaut de Rapport d’erreurs Windows à la place
 -   Utilisez des exceptions C++ avec n’importe quel type de code d’interface utilisateur (User32). une exception levée dans un rappel transite par des couches de code C fournies par le système d’exploitation. Ce code ne connaît pas les sémantiques de la désroll C++
 
 ## <a name="links-to-resources"></a>Liens vers les ressources
@@ -195,7 +195,7 @@ L’exemple de code ci-dessous illustre ce problème. L’accès illimité à la
 -   [**Fonction GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage)
 -   [Annulation d’e/s](../fileio/canceling-pending-i-o-operations.md)
 -   [**IsHungAppWindow fonction)**](/windows/win32/api/winuser/nf-winuser-ishungappwindow)
--   [File d’attente de messages](../winmsg/using-messages-and-message-queues.md)
+-   [File d’attente des messages](../winmsg/using-messages-and-message-queues.md)
 -   [**MsgWaitForMultipleObjects fonction)**](/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjects)
 -   [Nouvelle API de pool de threads](../procthread/thread-pool-api.md)
 -   [**PostMessage, fonction**](/windows/win32/api/winuser/nf-winuser-postmessagea)

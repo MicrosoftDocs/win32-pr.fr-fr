@@ -9,23 +9,23 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5d9eea11af9b302dc6efb0db3121af2aaa9c031e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f929d96a9b6ebd9f3569989b5e94a382729f315387c96477a2c375cd4be7bb8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883137"
 ---
 # <a name="logfiles-methods"></a>Méthodes LogFiles
 
 La classe [**LogFiles**](logfiles.md) possède les méthodes suivantes :
 
--   [**Complémentaires**](systemmonitor-logfiles-add.md)
+-   [**Ajouter**](systemmonitor-logfiles-add.md)
 -   [**Installez**](systemmonitor-logfiles-remove.md)
 
- 
+ 
 
- 
+ 
 
 
 

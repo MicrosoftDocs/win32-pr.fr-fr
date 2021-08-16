@@ -5,12 +5,12 @@ ms.assetid: c02b5075-d685-44cf-937f-a1edfd2550ca
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 12/17/2018
-ms.openlocfilehash: de31b23821fb1315a690612e5b337c5bb47a016d
-ms.sourcegitcommit: 39a48585ed40e1cb466dcbf085847d0eb10f0da7
+ms.openlocfilehash: f9d0ade037c0332f390bbea4c9f126f78f4172879fc50465fcf9e329e89fa23d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "104381755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620649"
 ---
 # <a name="setting-up-a-source-initiated-subscription"></a>Configuration d’un abonnement initié par la source
 
@@ -26,11 +26,11 @@ Lors de la configuration d’un abonnement initié par la source, déterminez si
 Les ordinateurs source d’événements et l’ordinateur du collecteur d’événements doivent être configurés pour configurer un abonnement initié par la source.
 
 > [!Note]  
-> Ces instructions partent du principe que vous disposez d’un accès administrateur au contrôleur de domaine Windows Server desservant le domaine dans lequel l’ordinateur ou les ordinateurs distants sont configurés pour collecter des événements.
+> ces instructions partent du principe que vous disposez d’un accès administrateur au contrôleur de domaine Windows Server qui dessert le domaine dans lequel l’ordinateur ou les ordinateurs distants sont configurés pour collecter des événements.
 
 ### <a name="configuring-the-event-source-computer"></a>Configuration de l’ordinateur source de l’événement
 
-1. Exécutez la commande suivante à partir d’une invite de commandes avec élévation de privilèges sur le contrôleur de domaine Windows Server pour configurer Windows Remote Management :
+1. exécutez la commande suivante à partir d’une invite de commandes avec élévation de privilèges sur le contrôleur de domaine Windows Server pour configurer Windows Remote Management :
 
     **WinRM QC-q**
 
@@ -38,7 +38,7 @@ Les ordinateurs source d’événements et l’ordinateur du collecteur d’év�
 
     **% SYSTEMROOT% \\ system32 \\ gpedit. msc**
 
-3. Sous le nœud **configuration** de l’ordinateur, développez le nœud **modèles d’administration** , développez le nœud **composants Windows** , puis sélectionnez le nœud **transfert d’événements** .
+3. sous le nœud **Configuration** de l’ordinateur, développez le nœud **Modèles d’administration** , développez le nœud **composants Windows** , puis sélectionnez le nœud **transfert d’événements** .
 
 4. Cliquez avec le bouton droit sur le paramètre **SubscriptionManager** , puis sélectionnez **Propriétés**. Activez le paramètre **SubscriptionManager** , puis cliquez sur le bouton **Afficher** pour ajouter une adresse de serveur au paramètre. Ajoutez au moins un paramètre qui spécifie l’ordinateur du collecteur d’événements. La fenêtre **Propriétés de SubscriptionManager** contient un onglet **expliquer** qui décrit la syntaxe du paramètre.
 
@@ -48,7 +48,7 @@ Les ordinateurs source d’événements et l’ordinateur du collecteur d’év�
 
 ### <a name="configuring-the-event-collector-computer"></a>Configuration de l’ordinateur du collecteur d’événements
 
-1. Exécutez la commande suivante à partir d’une invite de commandes avec élévation de privilèges sur le contrôleur de domaine Windows Server pour configurer Windows Remote Management :
+1. exécutez la commande suivante à partir d’une invite de commandes avec élévation de privilèges sur le contrôleur de domaine Windows Server pour configurer Windows Remote Management :
 
     **WinRM QC-q**
 
@@ -112,7 +112,7 @@ Les ordinateurs source d’événements et l’ordinateur du collecteur d’év�
 
 1. Sur l’ordinateur du collecteur d’événements, procédez comme suit :
 
-    1. Exécutez la commande suivante à partir d’une invite de commandes avec élévation de privilèges sur le contrôleur de domaine Windows Server pour récupérer l’état d’exécution de l’abonnement :
+    1. exécutez la commande suivante à partir d’une invite de commandes avec élévation de privilèges sur le contrôleur de domaine Windows Server pour connaître l’état d’exécution de l’abonnement :
 
         **wecutil gr** *&lt; subscriptionID &gt;*
 
@@ -133,18 +133,18 @@ Pour pouvoir transférer le journal de sécurité, vous devez ajouter le compte 
 ## <a name="setting-up-a-source-initiated-subscription-where-the-event-sources-are-not-in-the-same-domain-as-the-event-collector-computer"></a>Configuration d’un abonnement initié par la source lorsque les sources d’événements ne se trouvent pas dans le même domaine que l’ordinateur du collecteur d’événements
 
 > [!Note]  
-> Ces instructions partent du principe que vous disposez d’un accès administrateur à un contrôleur de domaine Windows Server. Dans ce cas, étant donné que l’ordinateur ou les ordinateurs collecteurs d’événements distants ne sont pas dans le domaine pris en charge par le contrôleur de domaine, il est essentiel de démarrer un client individuel en définissant Windows Remote Management sur « automatique » à l’aide de services (services. msc). Vous pouvez également exécuter « WinRM quickconfig » sur chaque client distant.
+> ces instructions partent du principe que vous disposez d’un accès administrateur à un contrôleur de domaine Windows Server. dans ce cas, étant donné que l’ordinateur ou les ordinateurs collecteurs d’événements distants ne sont pas dans le domaine pris en charge par le contrôleur de domaine, il est essentiel de démarrer un client individuel en définissant Windows Remote Management sur « automatique » à l’aide de services (services. msc). Vous pouvez également exécuter « WinRM quickconfig » sur chaque client distant.
 
 Les conditions préalables suivantes doivent être remplies pour que l’abonnement soit créé.
 
-1. Sur l’ordinateur du collecteur d’événements, exécutez les commandes suivantes à partir d’une invite de commandes avec élévation de privilèges pour configurer Windows Remote Management et le service collecteur d’événements :
+1. sur l’ordinateur du collecteur d’événements, exécutez les commandes suivantes à partir d’une invite de commandes avec élévation de privilèges pour configurer Windows Remote Management et le service collecteur d’événements :
 
     **WinRM QC-q**
 
     **wecutil QC/q**
 
 2. L’ordinateur collecteur doit avoir un certificat d’authentification serveur (certificat avec un rôle d’authentification serveur) dans un magasin de certificats de l’ordinateur local.
-3. Sur l’ordinateur source de l’événement, exécutez la commande suivante pour configurer Windows Remote Management :
+3. sur l’ordinateur source de l’événement, exécutez la commande suivante pour configurer Windows Remote Management :
 
     **WinRM QC-q**
 
@@ -158,7 +158,7 @@ Les conditions préalables suivantes doivent être remplies pour que l’abonnem
 - Un certificat d’authentification serveur doit être installé sur l’ordinateur du collecteur d’événements dans le magasin personnel de l’ordinateur local. L’objet de ce certificat doit correspondre au nom de domaine complet du collecteur.
 - Un certificat d’authentification client doit être installé sur les ordinateurs source d’événements dans le magasin personnel de l’ordinateur local. L’objet de ce certificat doit correspondre au nom de domaine complet de l’ordinateur.
 - Si le certificat client a été émis par une autorité de certification différente de celle du collecteur d’événements, ces certificats racine et intermédiaires doivent également être installés sur le collecteur d’événements.
-- Si le certificat client a été émis par une autorité de certification intermédiaire et que le collecteur exécute Windows 2012 ou une version ultérieure, vous devrez configurer la clé de Registre suivante :
+- si le certificat client a été émis par une autorité de certification intermédiaire et que le collecteur s’exécute Windows 2012 ou une version ultérieure, vous devrez configurer la clé de registre suivante :
 
     **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\Schannel\ClientAuthTrustMode (DWORD) = 2**
  
@@ -213,7 +213,7 @@ Pour plus d’informations, consultez cet article : https://technet.microsoft.c
 ### <a name="event-source-computer-configuration"></a>Configuration de l’ordinateur source d’événements
 
 1. Ouverture de session avec un compte d’administrateur et ouverture de l’éditeur de stratégie de groupe local (gpedit. msc)
-2. Accédez à l’ordinateur local Local\configuration \ modèles d’administration\Composants Components\Event de transfert.
+2. accédez à l’ordinateur Local local\configuration Configuration\Administrative templates \ Windows Components\Event redirection.
 3. Ouvrez la stratégie « configurer l’adresse du serveur, l’intervalle d’actualisation et l’autorité de certification de l’émetteur d’un gestionnaire d’abonnements cible ».
 4. Activez la stratégie et cliquez sur le SubscriptionManagers « afficher... » bouton.
 5. Dans la fenêtre SubscriptionManagers, entrez la chaîne suivante :
@@ -221,7 +221,7 @@ Pour plus d’informations, consultez cet article : https://technet.microsoft.c
     **Serveur = https://** &lt; _Nom de domaine complet du serveur_ &gt; collecteur d’événements **: 5986/WSMan/SubscriptionManager/WEC, Refresh =** &lt; _Intervalle d’actualisation en secondes_ &gt; **, IssuerCA =** &lt; _Empreinte numérique du certificat de l’autorité de certification émettrice_&gt;
 
 6. Exécutez la ligne de commande suivante pour actualiser les paramètres de stratégie de groupe locaux : gpupdate/force
-7. Ces étapes doivent générer l’événement 104 dans votre ordinateur source observateur d’événements journal des applications et des services avec le message suivant :
+7. ces étapes doivent générer l’événement 104 sur votre ordinateur source observateur d’événements les Applications et Services Logs\Microsoft\ Windows journal \Eventlog-ForwardingPlugin\Operational avec le message suivant :
 
     « Le redirecteur s’est correctement connecté au gestionnaire d’abonnement au &lt; nom de domaine complet de l’adresse &gt; , suivi de l’événement 100 avec le message suivant : «l’abonnement &lt; sub_name &gt; est correctement créé ».
 

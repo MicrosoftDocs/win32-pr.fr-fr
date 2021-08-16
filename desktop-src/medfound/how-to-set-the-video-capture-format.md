@@ -4,12 +4,12 @@ ms.assetid: 479abaea-f310-4139-9967-f24b03c34558
 title: Comment définir le format de capture vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c27cb9c20cbf989ab5db3564733dc96860c7bcb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0968560772345bea91f5acfb79e7157a6376f388a5c0065634a273196b7552cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974398"
 ---
 # <a name="how-to-set-the-video-capture-format"></a>Comment définir le format de capture vidéo
 
@@ -152,7 +152,7 @@ L’ordre dans lequel les formats sont retournés dépend de l’appareil. En r�
 La fréquence d’images est traitée légèrement différemment des autres attributs de format. Pour plus d’informations, consultez [comment définir la fréquence d’images de capture vidéo](how-to-set-the-video-capture-frame-rate.md).
 
 > [!Note]  
-> Dans certains appareils, la liste format contient une entrée dupliquée pour chaque format. Par exemple, si l’appareil prend en charge 15 formats de capture distincts, la liste contiendra 30 entrées. Au sein de chaque paire, l’un des types de média aura [**le \_ \_ type de \_ format \_ de fichier MF MT**](mf-mt-am-format-type-attribute.md) d’attribut égal au **format \_ videoinfo**, et l’autre aura un type de **\_ \_ format de AM \_ \_ MT MF** égal au **format \_ VideoInfo2**. (Ces deux valeurs sont définies dans le fichier d’en-tête UUID. h.) Le deuxième type peut également contenir des informations supplémentaires sur la couleur ([informations sur la couleur étendue](extended-color-information.md)) ou afficher une valeur différente pour l’entrelacement ([**\_ \_ \_ mode entrelacé MF MT**](mf-mt-interlace-mode-attribute.md)). Ces types dupliqués sont disponibles pour prendre en charge les anciennes applications DirectShow. Dans une application Media Foundation, vous devez ignorer le **format \_ videoinfo** type chaque fois qu’un type **\_ VideoInfo2 de format** dupliqué est listé.
+> Dans certains appareils, la liste format contient une entrée dupliquée pour chaque format. Par exemple, si l’appareil prend en charge 15 formats de capture distincts, la liste contiendra 30 entrées. Au sein de chaque paire, l’un des types de média aura [**le \_ \_ type de \_ format \_ de fichier MF MT**](mf-mt-am-format-type-attribute.md) d’attribut égal au **format \_ videoinfo**, et l’autre aura un type de **\_ \_ format de AM \_ \_ MT MF** égal au **format \_ VideoInfo2**. (Ces deux valeurs sont définies dans le fichier d’en-tête UUID. h.) Le deuxième type peut également contenir des informations supplémentaires sur la couleur ([informations sur la couleur étendue](extended-color-information.md)) ou afficher une valeur différente pour l’entrelacement ([**\_ \_ \_ mode entrelacé MF MT**](mf-mt-interlace-mode-attribute.md)). ces types dupliqués sont disponibles pour prendre en charge les anciennes applications DirectShow. Dans une application Media Foundation, vous devez ignorer le **format \_ videoinfo** type chaque fois qu’un type **\_ VideoInfo2 de format** dupliqué est listé.
 
  
 

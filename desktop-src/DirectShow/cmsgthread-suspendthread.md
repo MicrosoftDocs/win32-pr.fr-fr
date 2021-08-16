@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 69190015104d712864965e757d82afbdcc852884
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f5242c8708c07beb85d297dff706dbe192f59f1f7b46b05eba7362c9f0182d52
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915739"
 ---
 # <a name="cmsgthreadsuspendthread-method"></a>CMsgThread. SuspendThread, méthode
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Si la fonction membre est réussie, la valeur de retour est le nombre de suspensions précédent du thread. Si la fonction membre échoue, la valeur de retour est 0xFFFFFFFF. Pour obtenir des informations d’erreur étendues, appelez la fonction Microsoft Win32 **GetLastError** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le thread client appelle cette fonction membre pour interrompre l’opération du thread de travail. Le thread de travail reste suspendu et ne s’exécute pas jusqu’à ce qu’un appel supplémentaire à la fonction membre [**CMsgThread :: ResumeThread**](cmsgthread-resumethread.md) soit effectué.
 
@@ -54,7 +54,7 @@ Le thread client appelle cette fonction membre pour interrompre l’opération d
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Msgthrd. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Msgthrd. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

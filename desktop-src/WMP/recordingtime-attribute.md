@@ -3,7 +3,7 @@ title: Attribut RecordingTime
 description: L’attribut RecordingTime est la date et l’heure de l’enregistrement d’origine, pour les éléments dont la date est différente de la date de sortie.
 ms.assetid: 39f7356b-b4b9-48cd-bd14-1336a2f4736a
 keywords:
-- Attribut RecordingTime lecteur Windows Media
+- Lecteur Windows Media de l’attribut RecordingTime
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a11f0ee588ed05f0a7ecf14e07bf20fc62039c4b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 035dbb8f2098a92826678eebb9ec08999c00989125edbd6f9c4d1852d0345e2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995629"
 ---
 # <a name="recordingtime-attribute"></a>Attribut RecordingTime
 
@@ -29,7 +29,7 @@ L’attribut **RecordingTime** est la date et l’heure de l’enregistrement d�
 -   [Éléments de photo](photo-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 
@@ -41,7 +41,7 @@ Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Lecteur Windows Media série 9 ou version ultérieure (l’élément photo est pris en charge uniquement dans le lecteur Windows Media 10 ou version ultérieure)<br/> |
+| Version<br/> | Lecteur Windows Media série 9 ou version ultérieure (l’élément photo est pris en charge uniquement dans Lecteur Windows Media 10 ou version ultérieure)<br/> |
 
 
 

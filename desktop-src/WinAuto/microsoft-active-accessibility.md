@@ -13,7 +13,7 @@ ms.locfileid: "118565047"
 ---
 # <a name="microsoft-active-accessibility"></a>Microsoft Active Accessibility
 
-## <a name="purpose"></a>Fonction
+## <a name="purpose"></a>Objectif
 
 Microsoft Active Accessibility est une technologie COM (Component Object Model) qui améliore la façon dont les aides à l’accessibilité fonctionnent avec les applications qui s’exécutent sur Microsoft Windows. Il fournit des bibliothèques de liens dynamiques qui sont incorporées au système d’exploitation, ainsi qu’une interface COM et des éléments d’API qui fournissent des méthodes fiables pour exposer des informations sur les éléments d’interface utilisateur.
 

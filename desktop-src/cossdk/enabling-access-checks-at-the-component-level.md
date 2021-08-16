@@ -4,12 +4,12 @@ ms.assetid: b9ff5296-9076-4492-833c-7402b7090f8f
 title: Activation des vérifications d’accès au niveau du composant
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5da2de5f9d2f4f2d39f43330c8320c0bb0218bf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3063873923d3d4c491312ca4efccd9bcd665b46bf1bdfc882b69dbe4942757f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047467"
 ---
 # <a name="enabling-access-checks-at-the-component-level"></a>Activation des vérifications d’accès au niveau du composant
 
@@ -32,7 +32,7 @@ Par défaut, lorsque vous installez un composant, les vérifications d’accès 
 Le nouveau paramètre prendra effet lors du prochain démarrage de l’application.
 
 > [!Note]  
-> À compter de Windows Server 2003, les contrôles d’accès au niveau du composant sont désactivés par défaut lors de la création d’une application COM+. Les contrôles d’accès sont activés par défaut au niveau de l’application et sont désactivés par défaut au niveau du composant. Auparavant, les contrôles d’accès étaient désactivés par défaut au niveau de l’application et activés par défaut au niveau du composant.
+> à partir de Windows Server 2003, les contrôles d’accès au niveau du composant sont désactivés par défaut lors de la création d’une application COM+. Les contrôles d’accès sont activés par défaut au niveau de l’application et sont désactivés par défaut au niveau du composant. Auparavant, les contrôles d’accès étaient désactivés par défaut au niveau de l’application et activés par défaut au niveau du composant.
 
  
 

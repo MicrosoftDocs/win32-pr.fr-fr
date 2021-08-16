@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e67892f9e4cf6799f1b9311bb2cd47ec02744cb6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5deca3d7fa188c834f2ca952c9b6c4760a3a1b56c83eb8250e343257b8108de5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883505"
 ---
 # <a name="counteritemwidth-property"></a>CounterItem. Width, propriété
 
@@ -42,7 +42,7 @@ Property Width As Long
 
 Largeur de ligne utilisée dans un graphique linéaire. Les valeurs valides sont comprises entre 1 et 3, où 1 (la valeur par défaut) est la largeur la plus étroite.
 
-**Avant Windows Vista :** Les valeurs valides sont comprises entre 1 et 9. N’utilisez pas une valeur de largeur supérieure à 3 Si votre application est exécutée sur Windows Vista.
+**avant Windows Vista :** Les valeurs valides sont comprises entre 1 et 9. n’utilisez pas une valeur de largeur supérieure à 3 si votre application est exécutée sur Windows Vista.
 
 ## <a name="exceptions"></a>Exceptions
 
@@ -56,7 +56,7 @@ Largeur de ligne utilisée dans un graphique linéaire. Les valeurs valides sont
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La largeur de ligne par défaut pour les seize premiers compteurs que vous ajoutez est 1. La largeur de ligne par défaut pour les seize compteurs suivants (compteurs 17-32) que vous ajoutez est 2. La largeur de ligne par défaut pour les seize compteurs suivants (compteurs 33-48) que vous ajoutez est 3. Après cela, SYSMON choisit de façon aléatoire la largeur de ligne. Pour plus d’informations, consultez [**CounterItem. Color**](counteritem-color.md).
 

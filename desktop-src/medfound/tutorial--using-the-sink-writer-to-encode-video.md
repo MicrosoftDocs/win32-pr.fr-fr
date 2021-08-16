@@ -4,12 +4,12 @@ ms.assetid: 3E297366-0863-4E89-A0D5-438CD1FC5AF9
 title: 'Didacticiel : utilisation de l’enregistreur récepteur pour encoder une vidéo'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a3e6095355e18db6c8335cadcbc4afc56b35406
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5347a82fd40355c8006b15492a59543018ae5868cb02fcefeeb1812bd26930c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972778"
 ---
 # <a name="tutorial-using-the-sink-writer-to-encode-video"></a>Didacticiel : utilisation de l’enregistreur récepteur pour encoder une vidéo
 
@@ -40,7 +40,7 @@ Ces constantes spécifient les paramètres suivants du format vidéo :
 -   Taille de la trame (largeur et hauteur)
 -   Images par seconde.
 -   Vitesse de transmission encodée.
--   Format d’encodage, Windows Media Video 9 (**MFVideoFormat \_ WMV3**).
+-   format d’encodage, Windows Media Video 9 (**MFVideoFormat \_ WMV3**).
 -   Format d’entrée, qui est 32 bits RGB.
 -   Durée du fichier de sortie.
 

@@ -8,12 +8,12 @@ keywords:
 - Recherche de plages ADSI, exemple de code, à l’aide de IDirectoryObject
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 145314fa9c0c44c9b4865ea711e8533a8d1fcc59
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a0d049d629c347f0d85d8a4585436f4d7bbddf88b20186890643f7770070843a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082633"
 ---
 # <a name="example-code-for-ranging-with-idirectoryobject"></a>Exemple de code pour IDirectoryObject
 
@@ -101,9 +101,9 @@ HRESULT EnumGroupWithIDirectoryObject(LPCWSTR pwszGroupDN,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

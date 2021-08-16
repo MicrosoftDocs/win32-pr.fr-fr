@@ -1,5 +1,5 @@
 ---
-description: La \_ classe WMI singleton de WMISetting Win32 contient les paramètres opérationnels du service WMI. Cette classe ne peut avoir qu’une seule instance, qui existe toujours pour chaque système Windows et ne peut pas être supprimée. Impossible de créer des instances supplémentaires.
+description: La \_ classe WMI singleton de WMISetting Win32 contient les paramètres opérationnels du service WMI. cette classe ne peut avoir qu’une seule instance, qui existe toujours pour chaque système Windows et ne peut pas être supprimée. Impossible de créer des instances supplémentaires.
 ms.assetid: d33cd4f3-969b-46ce-baff-466f1a464906
 ms.tgt_platform: multiple
 title: Classe Win32_WMISetting
@@ -41,16 +41,16 @@ api_type:
 - DllExport
 api_location:
 - Wbemcore.dll
-ms.openlocfilehash: 8f94524d18074e3a35c7bcad09e9b9fba80e8470
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 39c976a6a8b4c25fbc42561b7d0a8db52b9029f679ad72993f931efa596d2d6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079573"
 ---
 # <a name="win32_wmisetting-class"></a>\_Classe WMISetting Win32
 
-La [classe WMI](../wmisdk/retrieving-a-class.md) singleton de **\_ WMISetting Win32** contient les paramètres opérationnels du service WMI. Cette classe ne peut avoir qu’une seule instance, qui existe toujours pour chaque système Windows et ne peut pas être supprimée. Impossible de créer des instances supplémentaires.
+La [classe WMI](../wmisdk/retrieving-a-class.md) singleton de **\_ WMISetting Win32** contient les paramètres opérationnels du service WMI. cette classe ne peut avoir qu’une seule instance, qui existe toujours pour chaque système Windows et ne peut pas être supprimée. Impossible de créer des instances supplémentaires.
 
 La syntaxe suivante est simplifiée à partir de code au format MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -138,7 +138,7 @@ Type d’accès : lecture/écriture
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32Registry \| Software \\ \\ Microsoft \\ \\ WBEM \\ \\ Scripting \| Enable for ASP »)
 </dt> </dl>
 
-Si la **valeur est true**, les scripts WMI peuvent être utilisés sur des Pages de Active Server (ASP). Cette propriété est valide sur les systèmes exécutant des versions de Windows non prises en charge uniquement. Pour les systèmes Windows pris en charge, les scripts WMI sont toujours autorisés sur ASP.
+Si la **valeur est true**, les scripts WMI peuvent être utilisés sur des Pages de Active Server (ASP). cette propriété est valide sur les systèmes qui exécutent des versions non prises en charge de Windows uniquement. pour les systèmes Windows pris en charge, les scripts WMI sont toujours autorisés sur ASP.
 
 </dd> <dt>
 
@@ -655,7 +655,7 @@ Cette propriété est héritée [**du \_ paramètre CIM**](cim-setting.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ WMISetting** est dérivée [**du \_ paramètre CIM**](cim-setting.md). Une seule instance de cette classe peut exister sur un ordinateur.
 
@@ -673,13 +673,13 @@ Vous pouvez utiliser la classe **Win32 \_ WMISetting** pour déterminer le mode 
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code [modifier les paramètres WMI](https://Gallery.TechNet.Microsoft.Com/aa80d174-3592-4fed-9c50-11f34e541445) VBScript dans la Galerie TechNet utilise la classe **Win32 \_ WMISetting** pour configurer l’intervalle de sauvegarde et le niveau de journalisation WMI.
+l’exemple de code [Modify WMI Paramètres](https://Gallery.TechNet.Microsoft.Com/aa80d174-3592-4fed-9c50-11f34e541445) VBScript de la galerie TechNet utilise la classe **Win32 \_ WMISetting** pour configurer l’intervalle de sauvegarde et le niveau de journalisation WMI.
 
 La liste de l’exemple de code VBScript de l' [espace de noms par défaut](https://Gallery.TechNet.Microsoft.Com/3fc69acd-ead0-4dd1-9ea1-e15a7331cfa0) sur la Galerie TechNet utilise la classe **Win32 \_ WMISetting** pour récupérer et afficher le paramètre WMI « espace de noms par défaut pour les scripts » WMI actuel.
 
 La modification de l’exemple de code VBScript de l' [espace de noms WMI par défaut](https://Gallery.TechNet.Microsoft.Com/6dbb20e6-036d-43a2-ad6d-58325ada6a19) dans la Galerie TechNet utilise la propriété **ASPScriptDefaultNamespace** pour définir le paramètre WMI « espace de noms par défaut pour les scripts » sur « root \\ cimv2 ».
 
-L’exemple de code VBScript de la [liste tous les paramètres WMI](https://Gallery.TechNet.Microsoft.Com/29c04301-e9b2-46d1-8714-2dbb51014c92) utilise un certain nombre de propriétés sur **Win32 \_ WMISetting** pour retourner une liste des paramètres WMI configurés sur un ordinateur.
+la [liste de tous les](https://Gallery.TechNet.Microsoft.Com/29c04301-e9b2-46d1-8714-2dbb51014c92) exemples de code wmi Paramètres VBSCript utilise un certain nombre de propriétés sur **Win32 \_ WMISetting** pour retourner une liste de paramètres WMI configurés sur un ordinateur.
 
 L’exemple de code JavaScript liste des informations sur les [paramètres WMI](https://Gallery.TechNet.Microsoft.Com/0427cfde-4cd9-4a3d-9140-3bb622a1df5d) utilise un certain nombre de propriétés sur **Win32 \_ WMISetting** pour retourner une liste des paramètres WMI configurés sur un ordinateur.
 

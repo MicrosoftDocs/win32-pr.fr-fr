@@ -4,12 +4,12 @@ description: Conventions de document
 ms.assetid: 63ff3427-6a91-4968-ad8d-f8b56c3587a8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90b30e0b535dbfee8265163c11750092c6f84d33
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3ce19cbf9927915df1985c5511bb13b52d8e99a94a038a67251aebcb873e6ecc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601609"
 ---
 # <a name="document-conventions"></a>Conventions de document
 
@@ -26,20 +26,20 @@ Cette documentation utilise les conventions typographiques suivantes :
 | ENTRÉE, F1                        | Les mots en majuscules indiquent les noms de fichiers, les noms de clés et les séquences de touches. |
 | `Agent1.Commands.Enabled = True` | Le texte de cette police indique des exemples de code.                                       |
 | `' This is a comment`            | Une apostrophe ( `'` ) indique un commentaire de code.                                  |
-| `Agent1.Commands.Add "Test1", _` | Un espace et un trait de soulignement ( \_ ) continuent une ligne de code.                       |
+| `Agent1.Commands.Add "Test1", _` | Un espace et un trait de soulignement ( \_ ) continuent une ligne de code.                       |
 | `[words or expression]`          | Les éléments entre crochets sont facultatifs.                                     |
 | `This | That`                    | Une barre verticale indique un choix entre deux ou plusieurs éléments.                   |
 | *agent*                          | Le mot « agent » en italique représente le nom du contrôle d’agent que vous utilisez.  |
 
 
 
- 
+ 
 
 Les descriptions des interfaces de programmation de ce document sont conformes aux conventions de Microsoft VBScript. Toutefois, ils doivent être généralement applicables à d’autres langages.
 
- 
+ 
 
- 
+ 
 
 
 

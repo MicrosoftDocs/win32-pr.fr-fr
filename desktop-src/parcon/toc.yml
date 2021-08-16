@@ -1,16 +1,16 @@
 - name: Contrôle parental
   href: parental-controls-portal.md
   items:
-    - name: Nouveautés des contrôles parentaux Windows 8
+    - name: nouveautés de Windows 8 contrôle Parental
       href: what-s-new-in-windows-8-parental-controls.md
-    - name: Nouveautés des contrôles parentaux Windows 7
+    - name: nouveautés de Windows 7 contrôle Parental
       href: what-s-new-in-windows-7-parental-controls.md
     - name: À propos des contrôles parentaux
       href: about-parental-controls.md
       items:
         - name: Déclaration de problème de contrôle parental
           href: parental-controls-problem-statement.md
-        - name: Solution de sécurité des familles Windows
+        - name: Windows Solution de sécurité des familles
           href: windows-family-safety-solution.md
         - name: Décisions de conception des clés de contrôle parental
           href: parental-controls-key-design-decisions.md
@@ -43,7 +43,7 @@
         - name: Utilisation des API de contrôle parental
           href: using-parental-controls-apis.md
           items:
-            - name: Utilisation des API de paramètres de contrôle parental
+            - name: utilisation des contrôles de contrôle Parental Paramètres les api
               href: using-parental-controls-settings-apis.md
             - name: Utilisation des API de journalisation pour les contrôles parentaux
               href: using-logging-apis-for-parental-controls.md

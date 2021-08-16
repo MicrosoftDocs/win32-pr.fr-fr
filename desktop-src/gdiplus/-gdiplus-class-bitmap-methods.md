@@ -4,12 +4,12 @@ ms.assetid: e8768602-7ea2-42c2-b2ae-9ef1d7bdd30e
 title: Méthodes bitmap
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b4c758b6fc1a0449fef627974b9b16e564a40be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 3f95492cd89096bbb35266d73bd5a566ff6cb0070d9256d857811dc26295f3c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977635"
 ---
 # <a name="bitmap-methods"></a>Méthodes bitmap
 
@@ -21,7 +21,7 @@ Cette rubrique répertorie les méthodes de la classe [**bitmap**](/windows/desk
 -   [**Clone (RectF&, PixelFormat)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-clone(inconstrectf__inpixelformat))
 -   [**Clone (réel, réel, réel, réel, PixelFormat)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-clone(inreal_inreal_inreal_inreal_inpixelformat))
 -   [**Clone (INT, INT, INT, INT, PixelFormat)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-clone(inint_inint_inint_inint_inpixelformat))
--   [**Clone**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-clone)
+-   [**Répliqué**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-clone)
 -   [**ConvertFormat**](/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-convertformat)
 -   [**FindFirstItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-findfirstitem)
 -   [**FindNextItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-findnextitem)

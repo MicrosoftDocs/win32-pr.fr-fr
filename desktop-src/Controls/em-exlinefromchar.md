@@ -3,7 +3,7 @@ title: Message EM_EXLINEFROMCHAR (RichEdit. h)
 description: Détermine la ligne qui contient le caractère spécifié dans un contrôle RichEdit.
 ms.assetid: 497482fb-9640-4063-a9f5-e0691b65225d
 keywords:
-- EM_EXLINEFROMCHAR les contrôles de message Windows
+- EM_EXLINEFROMCHAR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce904725c5dc63732bae07cfaa95b41558db11d7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c41f5fbe540a4d765a48292d4ffd5b4af5849681dd1a82f4512b79348a6249d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104479468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915639"
 ---
 # <a name="em_exlinefromchar-message"></a>\_Message EXLINEFROMCHAR em
 
@@ -53,8 +53,8 @@ Ce message retourne l’index de base zéro de la ligne.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

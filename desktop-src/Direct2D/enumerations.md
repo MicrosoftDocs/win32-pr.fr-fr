@@ -7,12 +7,12 @@ keywords:
 ms.topic: article
 ms.date: 01/31/2019
 ms.custom: seodec18
-ms.openlocfilehash: 317233bc170cfb3064d1c076ed1031a577c0186a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5ee52a02341d992be7bb930caf0f7d69682ce1bef9dd4e8a3cec5aec3393145e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108849"
 ---
 # <a name="direct2d-enumerations"></a>Énumérations Direct2D
 

@@ -3,7 +3,7 @@ title: Str_GetPtr fonction)
 description: Copie une chaîne d’une mémoire tampon vers une autre.
 ms.assetid: a3dd55a0-3f8b-4d6c-9956-666bebc3ab8d
 keywords:
-- Contrôles Windows de la fonction Str_GetPtr
+- Str_GetPtr Windows des contrôles de fonction
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fec99bb4d91bde86d901c0e7ed4761bafd15f3a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77c76ad276f6cb6dfc12bc272fbbc86c83617a0d00d36d77cf2ab0ca113811d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919449"
 ---
 # <a name="str_getptr-function"></a>\_Fonction Str GetPtr
 
-\[Cette fonction est disponible via Windows XP avec Service Pack 2 (SP2) et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP avec Service Pack 2 (SP2) et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
 Copie une chaîne d’une mémoire tampon vers une autre.
 
@@ -83,7 +83,7 @@ Si *pszDest* n’a pas la **valeur null**, retourne le nombre de caractères cop
 
 Si *pszDest* ne peut pas contenir la totalité de la chaîne pointée par *PszSource*, (*cchDest*-1) caractères sont copiés, la chaîne se termine par null et *cchDest* retournée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Chaîne \_ GetPtr** est disponible en tant que versions ANSI (**Str \_ GetPtrA**) et Unicode (**Str \_ GetPtrW**). Ces fonctions ne sont pas exportées par nom ou déclarées dans un fichier d’en-tête public. Pour les utiliser, vous devez utiliser [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) et la requête ordinale 233 (**Str \_ GetPtrA**) ou 235 (**str \_ GetPtrW**) à partir de ComCtl32.dll pour obtenir un pointeur de fonction.
 
@@ -93,8 +93,8 @@ Si *pszDest* ne peut pas contenir la totalité de la chaîne pointée par *PszSo
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>ComCtl32.dll</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **Chaîne \_ GetPtrW** (Unicode) et **Str \_ GetPtrA** (ANSI)<br/>                       |
 

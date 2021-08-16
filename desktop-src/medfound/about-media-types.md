@@ -4,12 +4,12 @@ ms.assetid: 169cdb00-0c1a-4530-90b7-bc89c71d1d04
 title: À propos des types de média (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 263c2b473e378e6ae5dc75453b20d02dce61818f
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 2d3abce5d86b931a472dc07e1b6daf244f1456cfd3220f85c2b0e311f243a122
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975078"
 ---
 # <a name="about-media-types-microsoft-media-foundation"></a>À propos des types de média (Microsoft Media Foundation)
 
@@ -30,12 +30,12 @@ Tous les types de média doivent avoir un GUID de type principal et un GUID de s
 
 ## <a name="why-attributes"></a>Pourquoi des attributs ?
 
-Les attributs présentent plusieurs avantages par rapport aux structures de format qui ont été utilisés dans les technologies précédentes telles que DirectShow et le kit de développement logiciel (SDK) du format Windows Media.
+les attributs présentent plusieurs avantages par rapport aux structures de format qui ont été utilisés dans les technologies précédentes telles que DirectShow et le kit de développement logiciel (SDK) Windows Media format.
 
 -   Il est plus facile de représenter les valeurs « ne sais pas » ou « ne pas se soucier ». Par exemple, si vous écrivez une transformation vidéo, vous savez peut-être à l’avance quels sont les formats RVB et YUV que la transformation prend en charge, mais pas les dimensions de la trame vidéo, jusqu’à ce que vous les obteniez de la source vidéo. De même, vous risquez de ne pas vous soucier de certains détails, tels que les vidéos primaires. Avec une structure de format, chaque membre doit être rempli avec une *certaine* valeur. Par conséquent, il est devenu courant d’utiliser zéro pour indiquer une valeur inconnue ou par défaut. Cette pratique peut provoquer des erreurs si un autre composant traite zéro comme une valeur légitime. Avec les attributs, il vous suffit d’omettre les attributs qui sont inconnus ou non pertinents pour votre composant.
 
 -   À mesure que les spécifications ont évolué au fil du temps, les structures de format ont été étendues en ajoutant des données supplémentaires à la fin de la structure. Par exemple, **WAVEFORMATEXTENSIBLE** étend la structure **WAVEFORMATEX** . Cette pratique est sujette à une erreur, car les composants doivent convertir les pointeurs de structure en d’autres types de structure. Les attributs peuvent être étendus en toute sécurité.
--   Des structures de format mutuellement incompatibles ont été définies. Par exemple, DirectShow définit les structures **VIDEOINFOHEADER** et **VIDEOINFOHEADER2** . Les attributs étant définis indépendamment l’un de l’autre, ce problème ne se pose pas.
+-   Des structures de format mutuellement incompatibles ont été définies. par exemple, DirectShow définit les structures **VIDEOINFOHEADER** et **VIDEOINFOHEADER2** . Les attributs étant définis indépendamment l’un de l’autre, ce problème ne se pose pas.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

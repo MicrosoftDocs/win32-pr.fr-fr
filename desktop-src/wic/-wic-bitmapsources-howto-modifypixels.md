@@ -4,12 +4,12 @@ ms.assetid: a08af015-bc42-4a31-af03-106714b08d08
 title: Comment modifier les pixels d’une source bitmap
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8be623d540fcd313476ea5c7ec5e724231d33aec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbfa25a5f09742066c4e67af1fb1735aa038f086d6a107e88ae34e7b7c597770
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965388"
 ---
 # <a name="how-to-modify-the-pixels-of-a-bitmap-source"></a>Comment modifier les pixels d’une source bitmap
 
@@ -17,7 +17,7 @@ Cette rubrique montre comment modifier les pixels d’une source bitmap à l’a
 
 Pour modifier les pixels d’une source bitmap
 
-1.  Créez un objet [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) pour créer des objets WIC (Windows Imaging Component).
+1.  créez un objet [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) pour créer des objets WIC (Windows Imaging Component).
 
     ```C++
     // Create WIC factory

@@ -4,12 +4,12 @@ ms.assetid: 0b96231a-f990-4c1c-8d00-cafeb3985ab3
 title: Notification de suppression de l’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93c84fa280e0adbc1d0eec9043fbb2f1446487f0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f3cc73aba6ad02eb1dfba095b6f45b9fa6c067c51dbe165f4ded86141dae1c66
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103950363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052019"
 ---
 # <a name="device-removal-notification"></a>Notification de suppression de l’appareil
 
@@ -21,7 +21,7 @@ DirectShow n’envoie aucun événement lorsqu’un nouvel appareil est branché
 
 <dl> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

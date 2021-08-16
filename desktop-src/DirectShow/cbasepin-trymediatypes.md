@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 19b8da39d07b8aae9401bdc6ccf2eecb5d3a1e88
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1a4d4e33ca339c1ade344bb2ca9531bea381d14b4381773673b07e522437e90a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108619"
 ---
 # <a name="cbasepintrymediatypes-method"></a>Méthode CBasePin. TryMediaTypes
 
@@ -73,14 +73,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                                  | Description                                       |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                         | Opération réussie.<br/>                               |
+| <dl> <dt>**\_OK**</dt> </dl>                         | Réussite.<br/>                               |
 | <dl> <dt>**VFW \_ E \_ aucun \_ \_ type acceptable**</dt> </dl> | Impossible de trouver un type de média acceptable.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour chaque type de média retourné par l’interface **IEnumMediaTypes** , cette méthode tente une connexion en appelant la méthode [**CBasePin :: AttemptConnection**](cbasepin-attemptconnection.md) .
 
@@ -92,7 +92,7 @@ Si le paramètre *VPM* est non **null**, le code PIN ignore les types de média 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

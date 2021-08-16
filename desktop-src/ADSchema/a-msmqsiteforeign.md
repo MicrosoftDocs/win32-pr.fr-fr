@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3447e1ffef1123fc565e6910dfba65b78ac8c288
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1e9d6aba3b9f2fddb2131478014986439d1ae184cb6a68f974e6cbe82ecbaa74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081733"
 ---
 # <a name="msmq-site-foreign-attribute"></a>MSMQ-site-attribut étranger
 
@@ -45,7 +45,7 @@ Valeur booléenne qui indique s’il s’agit d’un site étranger MSMQ.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
