@@ -1,19 +1,19 @@
 ---
-description: Un lien d’interpréteur de commandes est un objet de données qui contient des informations utilisées pour accéder à un autre objet dans l’espace de noms du shell&\# 8212 ; autrement dit, tout objet visible par le biais de l’Explorateur Windows.
+description: un lien d’interpréteur de commandes est un objet de données qui contient des informations utilisées pour accéder à un autre objet dans l’espace de noms du Shell&\# 8212 ; autrement dit, tout objet visible via Windows Explorer.
 ms.assetid: 32ad306d-54bd-4130-ad30-08db50ef106e
 title: Liens de Shell
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 327bcb425f998bcc2a4c0714118d4461ded253ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25f9f5e639cfa3619d5c79b011ab101af7c25ed1813db1c96b9f5422504f8c1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859021"
 ---
 # <a name="shell-links"></a>Liens de Shell
 
-Un *lien d’interpréteur* de commandes est un objet de données qui contient des informations utilisées pour accéder à un autre objet dans l’espace de noms du shell, c’est-à-dire tout objet visible par le biais de l’Explorateur Windows. Les types d’objets accessibles via des liens de Shell incluent des fichiers, des dossiers, des lecteurs de disque et des imprimantes. Un lien de Shell permet à un utilisateur ou à une application d’accéder à un objet à partir de n’importe quel emplacement de l’espace de noms. L’utilisateur ou l’application n’a pas besoin de connaître le nom et l’emplacement actuels de l’objet.
+un *lien d’interpréteur* de commandes est un objet de données qui contient des informations utilisées pour accéder à un autre objet dans l’espace de noms du Shell, c’est-à-dire tout objet visible via Windows Explorer. Les types d’objets accessibles via des liens de Shell incluent des fichiers, des dossiers, des lecteurs de disque et des imprimantes. Un lien de Shell permet à un utilisateur ou à une application d’accéder à un objet à partir de n’importe quel emplacement de l’espace de noms. L’utilisateur ou l’application n’a pas besoin de connaître le nom et l’emplacement actuels de l’objet.
 
 -   [À propos des liens de Shell](#about-shell-links)
     -   [Résolution de lien](#link-resolution)
@@ -26,7 +26,7 @@ Un *lien d’interpréteur* de commandes est un objet de données qui contient d
 
 ## <a name="about-shell-links"></a>À propos des liens de Shell
 
-L’utilisateur crée un lien de Shell en choisissant la commande **créer un raccourci** dans le menu contextuel d’un objet. Le système crée automatiquement une icône pour le lien de l’interpréteur de commandes en associant l’icône de l’objet à une petite flèche (appelée icône de superposition de lien définie par le système) qui apparaît dans le coin inférieur gauche de l’icône. Un lien de Shell avec une icône est appelé raccourci ; Toutefois, les termes lien et raccourci de l’interpréteur de commandes sont souvent utilisés indifféremment. En règle générale, l’utilisateur crée des raccourcis pour accéder rapidement aux objets stockés dans des sous-dossiers ou dans des dossiers partagés sur d’autres ordinateurs. Par exemple, un utilisateur peut créer un raccourci vers un document Microsoft Word situé dans un sous-dossier et placer l’icône de raccourci sur le bureau. L’utilisateur peut ensuite ouvrir le document en double-cliquant sur l’icône de raccourci. Si le document est déplacé ou renommé après la création du raccourci, le système tente de mettre à jour le raccourci la prochaine fois que l’utilisateur le sélectionne.
+L’utilisateur crée un lien de Shell en choisissant la commande **créer un raccourci** dans le menu contextuel d’un objet. Le système crée automatiquement une icône pour le lien de l’interpréteur de commandes en associant l’icône de l’objet à une petite flèche (appelée icône de superposition de lien définie par le système) qui apparaît dans le coin inférieur gauche de l’icône. Un lien de Shell avec une icône est appelé raccourci ; Toutefois, les termes lien et raccourci de l’interpréteur de commandes sont souvent utilisés indifféremment. En règle générale, l’utilisateur crée des raccourcis pour accéder rapidement aux objets stockés dans des sous-dossiers ou dans des dossiers partagés sur d’autres ordinateurs. par exemple, un utilisateur peut créer un raccourci vers un document Microsoft Word qui se trouve dans un sous-dossier et placer l’icône de raccourci sur le bureau. L’utilisateur peut ensuite ouvrir le document en double-cliquant sur l’icône de raccourci. Si le document est déplacé ou renommé après la création du raccourci, le système tente de mettre à jour le raccourci la prochaine fois que l’utilisateur le sélectionne.
 
 Les applications peuvent également créer et utiliser des liens et des raccourcis de l’interpréteur de commandes. Par exemple, une application de traitement de texte peut créer un lien de Shell pour implémenter une liste des documents les plus récemment utilisés. Une application crée un lien de Shell à l’aide de l’interface [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka) pour créer un objet de lien de Shell. L’application utilise l’interface [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) ou [**IPersistStream**](/windows/win32/api/objidl/nn-objidl-ipersiststream) pour stocker l’objet dans un fichier ou un flux.
 
@@ -55,7 +55,7 @@ Le système fournit des noms indépendants de l’emplacement pour les liens de 
 
 ### <a name="link-files"></a>Fichiers de liaison
 
-Quand l’utilisateur crée un raccourci vers un objet en choisissant la commande **créer un raccourci** dans le menu contextuel de l’objet, Windows stocke les informations dont il a besoin pour accéder à l’objet dans un fichier de liaison, c’est-à-dire un fichier binaire avec l’extension de nom de fichier. lnk. Un fichier de liaison contient les informations suivantes :
+quand l’utilisateur crée un raccourci vers un objet en choisissant la commande **créer un raccourci** dans le menu contextuel de l’objet, Windows stocke les informations dont il a besoin pour accéder à l’objet dans un fichier de liaison, c’est-à-dire un fichier binaire avec l’extension de nom de fichier. lnk. Un fichier de liaison contient les informations suivantes :
 
 -   Emplacement (chemin d’accès) de l’objet référencé par le raccourci (appelé objet correspondant).
 -   Répertoire de travail de l’objet correspondant.

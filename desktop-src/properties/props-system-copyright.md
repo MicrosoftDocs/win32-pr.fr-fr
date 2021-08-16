@@ -4,12 +4,12 @@ ms.assetid: 95efb9c4-af3d-4a24-9670-60bacf61dfce
 title: System. Copyright
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40e49232168894314f3ec4011064cf2997ae9de7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea6b060fe5961d5907e9b8cc17d9d2c47961026101e2657ca402f8904bb3eb49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117684396"
 ---
 # <a name="systemcopyright"></a>System. Copyright
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

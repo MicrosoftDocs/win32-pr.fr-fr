@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3f1964eaf84e9b0a2669f59357f54d16b1b4cbd3
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: d90444aff674ce876f19f02f21104dd7e42143de5926ba068bbe2c49f427fdde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104381417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117725886"
 ---
 # <a name="shader-model-4"></a>Nuanceur modèle 4
 
@@ -68,7 +68,7 @@ Le nuancier modèle 4 est un sur-ensemble des fonctionnalités du [nuanceur mod�
 
 
 
- 
+ 
 
 \* -GS \_ 4 \_ 1, PS \_ 4 \_ 1, vs \_ 4 \_ 1 et FX \_ 4 \_ 1 sont pris en charge sur Direct3D 10,1 ou une version ultérieure.
 
@@ -91,9 +91,9 @@ La section [Shader Model 4 assembly](dx-graphics-hlsl-sm4-asm.md) décrit les in
 [Modèles de nuanceur et profils Shader](dx-graphics-hlsl-models.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

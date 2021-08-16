@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 79db73558cb243437560cc77ed66b64f2807fe13
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 863269c5127915af82b8ef82aa36b60b17941d8627b3f81a789f75618219c773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "103940527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117725393"
 ---
 # <a name="append-function"></a>Append, fonction
 
@@ -28,7 +28,7 @@ Ajoute une valeur à la fin de la mémoire tampon.
 
 ``` syntax
 void Append(
-  in T value
+  in T value
 );
 ```
 
@@ -45,11 +45,11 @@ Valeur d'entrée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 None
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 T peut être n’importe quel type de données, y compris les structures.
 
@@ -57,13 +57,13 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -75,9 +75,9 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

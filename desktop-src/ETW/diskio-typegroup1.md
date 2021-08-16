@@ -21,12 +21,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 9d20f80eb840283600f5d106f89c6cf8032ee746
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 3a69643602a59fa7be8cd844f3f2908c92e2e08545f7444d1002ec1542b36730
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117814975"
 ---
 # <a name="diskio_typegroup1-class"></a>E \_ TypeGroup1, classe
 
@@ -128,7 +128,7 @@ Délai entre l’initiation et l’achèvement des e/s, tel qu’il est mesuré 
 
 **Windows Server 2003 :** Cette propriété a une valeur [**WmiDataId**](event-tracing-mof-qualifiers.md) de 7.
 
-**Windows 2000 Server et windows 2000 professionnel :** Cette propriété n’est pas prise en charge.
+**Windows 2000 Server et Windows 2000 Professional :** Cette propriété n’est pas prise en charge.
 
 </dd> <dt>
 
@@ -146,7 +146,7 @@ Qualificateurs : [**WmiDataId**](event-tracing-mof-qualifiers.md) (7), [**point
 
 Le paquet de requête d’e/s, qui identifie l’activité d’e/s.
 
-**Windows server 2003, windows 2000 Server et windows 2000 professionnel :** Cette propriété n’est pas prise en charge.
+**Windows server 2003, Windows 2000 server et Windows 2000 Professional :** Cette propriété n’est pas prise en charge.
 
 </dd> <dt>
 
@@ -224,7 +224,7 @@ Qualificateurs : [**WmiDataId**](event-tracing-mof-qualifiers.md) (9)
 
 Identificateur du thread émetteur.
 
-**Windows server 2008 R2, Windows server 2008, Windows 7, Windows Vista, Windows server 2003 avec SP1, Windows server 2003, windows 2000 Server et windows 2000 professionnel :** Cette propriété n’est pas prise en charge.
+**Windows server 2008 R2, Windows server 2008, Windows 7, Windows Vista, Windows server 2003 avec SP1, Windows server 2003, Windows 2000 server et Windows 2000 Professional :** Cette propriété n’est pas prise en charge.
 
 </dd> <dt>
 
@@ -244,7 +244,7 @@ Réservé.
 
 **Windows server 2008 R2, Windows server 2008 et Windows 7 :** Le nom de la propriété est **QueueDepth**, qui contient le nombre de cycles de l’UC à partir du début de l’opération jusqu’à la fin de l’opération. Notez que cette valeur peut provoquer un dépassement de capacité.
 
-**Windows Vista, Windows server 2003 avec SP1, Windows server 2003, windows 2000 Server et windows 2000 professionnel :** Le nom de la propriété est **ResponseTime**, qui contient le nombre de cycles de l’UC à partir du début de l’opération jusqu’à la fin de l’opération. Notez que cette valeur peut provoquer un dépassement de capacité.
+**Windows Vista, Windows server 2003 avec SP1, Windows server 2003, Windows 2000 server et Windows 2000 Professional :** Le nom de la propriété est **ResponseTime**, qui contient le nombre de cycles de l’UC à partir du début de l’opération jusqu’à la fin de l’opération. Notez que cette valeur peut provoquer un dépassement de capacité.
 
 </dd> <dt>
 
@@ -264,9 +264,9 @@ Taille des données lues ou écrites à partir du disque, en octets.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Windows Server 2003 utilise la définition suivante pour la classe de type d’événement **e \_ TypeGroup1** .
+Windows Le serveur 2003 utilise la définition suivante pour la classe de type d’événement **e \_ TypeGroup1** .
 
 ``` syntax
 [EventType{10, 11}, EventTypeName{"Read", "Write"}]
@@ -286,7 +286,7 @@ La propriété **ResponseTime** contient le nombre de cycles de l’UC à partir
 
 La propriété **HighResResponseTime** n’est pas prise en charge.
 
-Windows Server 2003 avec SP1 et Windows Vista utilise la définition suivante pour la classe de type d’événement **e \_ TypeGroup1** .
+Windows le serveur 2003 avec SP1 et Windows Vista utilise la définition suivante pour la classe de type d’événement **e \_ TypeGroup1** .
 
 ``` syntax
 [EventType{10, 11}, EventTypeName{"Read", "Write"}]
@@ -307,7 +307,7 @@ La propriété **IRP** est le paquet de requête d’e/s. Cette propriété iden
 
 La propriété **HighResResponseTime** est prise en charge. La propriété contient le temps entre le début et l’achèvement des e/s, tel qu’il est mesuré par PartitionManager (dans les unités KeQueryPerformanceCounter). Utilisez cette propriété à la place de la propriété **ResponseTime** pour déterminer le temps de réponse des e/s disque.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

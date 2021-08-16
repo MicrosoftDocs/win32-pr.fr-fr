@@ -3,9 +3,9 @@ title: Événement Player. CdromMediaChange
 description: L’événement CdromMediaChange se produit lorsqu’un CD ou un DVD est inséré ou éjecté d’un lecteur de CD ou DVD. | Événement Player. CdromMediaChange
 ms.assetid: d31a791a-55e5-49ee-bfe5-7488277e3fda
 keywords:
-- Événement CdromMediaChange lecteur Windows Media
-- Événement CdromMediaChange lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement CdromMediaChange
+- Lecteur Windows Media d’événements CdromMediaChange
+- Lecteur Windows Media d’événements CdromMediaChange, classe Player
+- Lecteur Windows Media de classe Player, événement CdromMediaChange
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c3125235d5f8d19963b85284e7dbe40c7af408d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ca5e7301c1fb697f4dbbceea2d4dc46af1d884fe4b3e06166b5c24aa43502a73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747385"
 ---
 # <a name="playercdrommediachange-event"></a>Événement Player. CdromMediaChange
 
@@ -53,11 +53,11 @@ Player.CdromMediaChange(
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’index du lecteur de CD correspond à l’index d’un objet **cdrom** dans le **CdromCollection**.
 
-La valeur des paramètres d’événement est spécifiée par le lecteur Windows Media et est accessible ou transmise à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
+la valeur des paramètres d’événement est spécifiée par Lecteur Windows Media, et est accessible ou passée à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 

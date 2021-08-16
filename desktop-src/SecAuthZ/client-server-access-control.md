@@ -4,12 +4,12 @@ ms.assetid: 8301ed4f-9458-410b-af19-4f055656005a
 title: Access Control client/serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92b1d349abb2d55f00b9801c9bb493437fa858eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c943d9d1e1f1cc5dcc405f49ab200aa30618f7eefb86c7f26342f005f23249fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117782724"
 ---
 # <a name="clientserver-access-control"></a>Access Control client/serveur
 
@@ -23,7 +23,7 @@ Un serveur protégé contrôle l’accès à ses services. Windows fournit une p
 
 -   Emprunter l’identité du contexte de [*sécurité*](/windows/desktop/SecGloss/s-gly)d’un client, ce qui amène le système à effectuer la plupart des contrôles d’accès et de [*privilège*](/windows/desktop/SecGloss/p-gly) sur le [*jeton d’accès*](/windows/desktop/SecGloss/a-gly) du client plutôt que sur le serveur
 -   Enregistrer un client sur l’ordinateur du serveur
--   Se connecter aux ressources réseau à l’aide du contexte de sécurité du client
+-   Connecter aux ressources réseau à l’aide du contexte de sécurité du client
 -   Créer des [*descripteurs de sécurité*](/windows/desktop/SecGloss/s-gly) pour protéger des objets privés
 -   Déterminer si un descripteur de sécurité autorise l’accès à un client
 -   Déterminer si un jeu de privilèges est activé dans le jeton d’un client

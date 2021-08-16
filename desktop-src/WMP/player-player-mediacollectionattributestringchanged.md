@@ -3,9 +3,9 @@ title: Événement Player. MediaCollectionAttributeStringChanged
 description: L’événement MediaCollectionAttributeStringChanged se produit lorsqu’une valeur d’attribut de la bibliothèque est modifiée. | Événement Player. MediaCollectionAttributeStringChanged
 ms.assetid: 9bc81cf2-50a9-41cf-8eff-25c9395dfdac
 keywords:
-- Événement MediaCollectionAttributeStringChanged lecteur Windows Media
-- Événement MediaCollectionAttributeStringChanged lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement MediaCollectionAttributeStringChanged
+- Lecteur Windows Media d’événements MediaCollectionAttributeStringChanged
+- Lecteur Windows Media d’événements MediaCollectionAttributeStringChanged, classe Player
+- Lecteur Windows Media de classe Player, événement MediaCollectionAttributeStringChanged
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f92eba7f0f585b9bbff7a8eb52ab13ec0d74aaa5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9435be90761abf88927789fad4380172f0ef6f31427848195d3aa14ea4112cf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747395"
 ---
 # <a name="playermediacollectionattributestringchanged-event"></a>Événement Player. MediaCollectionAttributeStringChanged
 
@@ -47,7 +47,7 @@ Player.MediaCollectionAttributeStringChanged(
 *bstrAttribName* 
 </dt> <dd>
 
-**Chaîne** spécifiant le nom de l’attribut. Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la page [référence des attributs](attribute-reference.md)du lecteur Windows Media.
+**Chaîne** spécifiant le nom de l’attribut. pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md)Lecteur Windows Media.
 
 </dd> <dt>
 
@@ -69,11 +69,11 @@ Player.MediaCollectionAttributeStringChanged(
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand un utilisateur modifie des métadonnées de bibliothèque, l’objet **MediaCollection** est mis à jour et cet événement se déclenche pour chaque attribut modifié.
 
-La valeur des paramètres d’événement est spécifiée par le lecteur Windows Media et est accessible ou transmise à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
+la valeur des paramètres d’événement est spécifiée par Lecteur Windows Media, et est accessible ou passée à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 

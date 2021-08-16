@@ -3,18 +3,18 @@ title: Clés et entrées de Registre pour un magasin de type 2 en ligne
 description: Clés et entrées de Registre pour un magasin de type 2 en ligne
 ms.assetid: 17dff940-3884-488a-9016-29bb47c51caf
 keywords:
-- Magasins en ligne du lecteur Windows Media, registre
+- Lecteur Windows Media magasins en ligne, registre
 - magasins en ligne, registre
 - type 2 magasins en ligne, registre
 - Registre, type 2 magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 685a26514730e7c370c698cbc9c64c29366c35ee
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: c01a5494f56a4c3fa7ea91d9537f6177453a1df54f684aa73c347029574f8dde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104101333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746450"
 ---
 # <a name="registry-keys-and-entries-for-a-type-2-online-store"></a>Clés et entrées de Registre pour un magasin de type 2 en ligne
 
@@ -23,7 +23,7 @@ ms.locfileid: "104101333"
 
  
 
-Pour rendre disponible un magasin en ligne de type 2 dans le lecteur Windows Media, le fournisseur de la Banque d’informations en ligne doit créer les sous-clés et les entrées de Registre suivantes sur l’ordinateur de l’utilisateur.
+pour rendre disponible un magasin en ligne de type 2 dans Lecteur Windows Media, le fournisseur de magasin en ligne doit créer les sous-clés et les entrées de registre suivantes sur l’ordinateur de l’utilisateur.
 
 
 ```C++
@@ -49,9 +49,9 @@ Dans la syntaxe précédente du Registre, les symboles en italique sont des espa
 | Espace réservé    | Description                                                                                                                                                                                                                                                                                                                                                                                            |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *keyName*      | Chaîne convenue entre Microsoft et le magasin en ligne. Cette chaîne identifie de façon unique le magasin en ligne. Exemple : « Proseware »<br/>                                                                                                                                                                                                                                                          |
-| *flags*        | Un or **au niveau du** bit d’une ou de plusieurs fonctionnalités de plug-in signalent que ces indicateurs spécifient si le lecteur Windows Media doit appeler des méthodes particulières de [IWMPSubscriptionService](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice) et [IWMPSubscriptionService2](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2). Pour plus d’informations sur les indicateurs pris en charge, consultez le tableau des indicateurs de capacité de plug-in qui suit ce tableau. Exemple : 00000037<br/> |
+| *flags*        | un or **au niveau du** bit d’une ou de plusieurs fonctionnalités de plug-in signalent que ces indicateurs spécifient si Lecteur Windows Media doit appeler des méthodes particulières de [IWMPSubscriptionService](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice) et [IWMPSubscriptionService2](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2). Pour plus d’informations sur les indicateurs pris en charge, consultez le tableau des indicateurs de capacité de plug-in qui suit ce tableau. Exemple : 00000037<br/> |
 | *identificateur*        | GUID qui est l’identificateur de classe (CLSID) de la classe qui implémente **IWMPSubscriptionService** dans le plug-in du magasin en ligne. Ce GUID doit être au format de Registre, avec les accolades. Format : {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}<br/>                                                                                                                                    |
-| *convivial* | Nom convivial du magasin en ligne. Exemple : « Proseware Music service »<br/>                                                                                                                                                                                                                                                                                                                     |
+| *convivial* | Nom convivial du magasin en ligne. exemple : « proseware Musique Service »<br/>                                                                                                                                                                                                                                                                                                                     |
 | *pluginName*   | Nom du plug-in du magasin en ligne. Exemple : « plug-in de service Proseware »<br/>                                                                                                                                                                                                                                                                                                                  |
 | *ClassName*    | Nom de la classe qui implémente **IWMPSubscriptionService** dans le plug-in du magasin en ligne. Exemple : « CProsewareService »<br/>                                                                                                                                                                                                                                                                |
 | *NomModule*   | Chemin d’accès complet à la DLL qui implémente le plug-in du magasin en ligne. Exemple : « C : \\ Program Files \\ proseware \\ProsewareService.dll »<br/>                                                                                                                                                                                                                                                |
@@ -66,12 +66,12 @@ Le tableau suivant décrit les indicateurs de capacité de plug-in.
 
 | Indicateur                                    | Valeur | Description                                                                                                                                                                                                                        |
 |-----------------------------------------|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| limite d’abonnement \_ \_ ALLOWPLAY            | 0X1   | Le lecteur Windows Media doit appeler [IWMPSubscriptionService :: allowPlay](/previous-versions/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowplay).                                                                                                                      |
-| limite d’abonnement \_ \_ ALLOWCDBURN          | 0X2   | Le lecteur Windows Media doit appeler [IWMPSubscriptionService :: allowCDBurn](/previous-versions/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowcdburn).                                                                                                                  |
-| limite d’abonnement \_ \_ ALLOWPDATRANSFER     | 0X4   | Le lecteur Windows Media doit appeler [IWMPSubscriptionService :: allowPDATransfer](/previous-versions/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowpdatransfer).                                                                                                        |
-| limite d’abonnement \_ \_ BACKGROUNDPROCESSING | 0X8   | Le lecteur Windows Media doit appeler [IWMPSubscriptionService :: startBackgroundProcessing](/previous-versions/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-startbackgroundprocessing).                                                                                      |
-| limite d’abonnement \_ \_ DEVICEAVAILABLE      | 0X10  | Le lecteur Windows Media doit appeler [IWMPSubscriptionService2 ::D eviceavailable](/previous-versions/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice2-deviceavailable).                                                                                                        |
-| limite d’abonnement \_ \_ PREPAREFORSYNC       | 0X20  | Le lecteur Windows Media doit appeler [IWMPSubscriptionService2 ::P repareforsync](/previous-versions/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice2-prepareforsync).                                                                                                          |
+| limite d’abonnement \_ \_ ALLOWPLAY            | 0X1   | Lecteur Windows Media doit appeler [IWMPSubscriptionService :: allowPlay](/previous-versions/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowplay).                                                                                                                      |
+| limite d’abonnement \_ \_ ALLOWCDBURN          | 0X2   | Lecteur Windows Media doit appeler [IWMPSubscriptionService :: allowCDBurn](/previous-versions/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowcdburn).                                                                                                                  |
+| limite d’abonnement \_ \_ ALLOWPDATRANSFER     | 0X4   | Lecteur Windows Media doit appeler [IWMPSubscriptionService :: allowPDATransfer](/previous-versions/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowpdatransfer).                                                                                                        |
+| limite d’abonnement \_ \_ BACKGROUNDPROCESSING | 0X8   | Lecteur Windows Media doit appeler [IWMPSubscriptionService :: startBackgroundProcessing](/previous-versions/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-startbackgroundprocessing).                                                                                      |
+| limite d’abonnement \_ \_ DEVICEAVAILABLE      | 0X10  | Lecteur Windows Media devez appeler [IWMPSubscriptionService2 ::d eviceavailable](/previous-versions/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice2-deviceavailable).                                                                                                        |
+| limite d’abonnement \_ \_ PREPAREFORSYNC       | 0X20  | Lecteur Windows Media devez appeler [IWMPSubscriptionService2 ::p repareforsync](/previous-versions/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice2-prepareforsync).                                                                                                          |
 | ABONNEMENTs \_ v1 \_                  | 0XF   | Par défaut. Cette valeur est utilisée si aucun n’est inscrit. Cela équivaut à la combinaison de la limite d’abonnement ALLOWPLAY, de l’abonnement Cap ALLOWCDBURN, de la limite d’abonnement \_ \_ \_ ALLOWPDATRANSFER et de la limite d' \_ \_ \_ abonnement \_ \_ BACKGROUNDPROCESSING. |
 
 
@@ -80,7 +80,7 @@ Le tableau suivant décrit les indicateurs de capacité de plug-in.
 
 **Entrées de Registre pour le développement et le test**
 
-Lorsque vous commencez à développer votre boutique en ligne, Microsoft vous propose deux clés : une clé de test et une clé de production. Pendant la phase de développement et de test, votre magasin en ligne s’affiche dans le lecteur Windows Media uniquement si votre clé de test ou votre clé de production se trouve dans le registre sur l’ordinateur de l’utilisateur. Pour plus d’informations sur les clés de test et de production, consultez [clés de test et de production pour un magasin de type 2 en ligne](test-and-production-keys-for-a-type-2-online-store.md).
+Lorsque vous commencez à développer votre boutique en ligne, Microsoft vous propose deux clés : une clé de test et une clé de production. pendant la phase de développement et de test, votre magasin en ligne s’affiche dans Lecteur Windows Media uniquement si votre clé de test ou votre clé de production se trouve dans le registre sur l’ordinateur de l’utilisateur. Pour plus d’informations sur les clés de test et de production, consultez [clés de test et de production pour un magasin de type 2 en ligne](test-and-production-keys-for-a-type-2-online-store.md).
 
 Placez votre clé de test ou de production à l’emplacement suivant dans le registre.
 
@@ -92,7 +92,7 @@ Placez votre clé de test ou de production à l’emplacement suivant dans le re
 
 
 
-Notez que la valeur de l’entrée de Registre TestParameter peut spécifier plusieurs clés de test ou de production. Par exemple, supposons que Proseware a une clé de test de « 1234 » et que contoso a une clé de test « 2345 ». L’entrée de Registre suivante spécifie que les banques de test pour Proseware et contoso s’affichent dans le lecteur Windows Media.
+Notez que la valeur de l’entrée de Registre TestParameter peut spécifier plusieurs clés de test ou de production. Par exemple, supposons que Proseware a une clé de test de « 1234 » et que contoso a une clé de test « 2345 ». l’entrée de registre suivante spécifie que les banques de test pour proseware et Contoso s’affichent dans Lecteur Windows Media.
 
 
 ```C++
@@ -104,7 +104,7 @@ Notez que la valeur de l’entrée de Registre TestParameter peut spécifier plu
 
 **Entrée de Registre ActiveService**
 
-Lorsque l’utilisateur active un magasin en ligne, le lecteur Windows Media écrit des informations dans le Registre qui identifient le magasin en ligne actif. Le lecteur Windows Media place les informations à l’emplacement suivant dans le registre sur l’ordinateur de l’utilisateur.
+lorsque l’utilisateur active un magasin en ligne, Lecteur Windows Media écrit dans le registre des informations qui identifient le magasin en ligne actif. Lecteur Windows Media place les informations à l’emplacement suivant dans le registre sur l’ordinateur de l’utilisateur.
 
 
 ```C++

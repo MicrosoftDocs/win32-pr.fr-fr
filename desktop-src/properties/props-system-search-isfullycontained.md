@@ -1,19 +1,19 @@
 ---
-description: Émis comme TRUE par tous les éléments enfants d’un conteneur (par exemple, un message électronique ou un fichier compressé avec une extension de nom. zip) qui émet System. Search. IsClosedDirectory comme TRUE. Cela permet de s’assurer que les éléments enfants sont inclus dans l’index de recherche.
+description: Émis comme TRUE par tous les éléments enfants d’un conteneur (par exemple, un message électronique ou un fichier compressé avec une extension de nom de .zip) qui émet System. Search. IsClosedDirectory comme TRUE. Cela permet de s’assurer que les éléments enfants sont inclus dans l’index de recherche.
 ms.assetid: 6da60e89-6956-41f6-8624-063c4d46464d
 title: System. Search. IsFullyContained
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d1245f29a2940146a4e5d8f0a392210173be75e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ce7f325be26abdb81dcb51da7018f6da786e6ec5f3a31111e4ae3823acf8c78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864988"
 ---
 # <a name="systemsearchisfullycontained"></a>System. Search. IsFullyContained
 
-Émis comme **true** par tous les éléments enfants d’un conteneur (par exemple, un message électronique ou un fichier compressé avec une extension de nom. zip) qui émet [System. Search. IsClosedDirectory](./props-system-search-iscloseddirectory.md) comme **true**. Cela permet de s’assurer que les éléments enfants sont inclus dans l’index de recherche.
+Émis comme **true** par tous les éléments enfants d’un conteneur (par exemple, un message électronique ou un fichier compressé avec une extension de nom de .zip) qui émet [System. Search. IsClosedDirectory](./props-system-search-iscloseddirectory.md) comme **true**. Cela permet de s’assurer que les éléments enfants sont inclus dans l’index de recherche.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -6,12 +6,12 @@ keywords:
 - Microsoft Agent, animations pour les caractères Microsoft
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f88d0e38ef30517732c637eb73b512e3b5361fc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 27f2223516bf231aea32ef8a953bf8a54f32a506e8eda023a9418140e040f41d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117694214"
 ---
 # <a name="animation-lists-for-the-characters-available-from-microsoft"></a>Liste d’animations pour les caractères disponibles auprès de Microsoft
 
@@ -24,9 +24,9 @@ Les sections suivantes répertorient les animations disponibles pour chacun des 
 -   [Animations Microsoft Agent pour le caractère Robby](microsoft-agent-animations-for-robby-character.md)
 -   [Animations Microsoft Agent pour le caractère Peedy](microsoft-agent-animations-for-peedy-character.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: 9ad3199a-bca1-4990-80da-80744e349047
 title: Chiffrement d’un message dans CAPICOM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8039586736c09673644cacc90759e8d5f25b6e1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a3ef531fa75fc4d99a423ffbb6c0edd591caf6b1939f12fea439e7f9fbc80dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117766191"
 ---
 # <a name="encrypting-a-message-in-capicom"></a>Chiffrement d’un message dans CAPICOM
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 Cette sous-routine prend une chaîne à chiffrer, une chaîne de mot de passe à utiliser pour générer une clé de chiffrement et le nom d’un fichier dans lequel le message chiffré sera écrit. Tous les paramètres sont passés dans la sous-routine par valeurs. Pour déchiffrer le message, vous devez utiliser la même chaîne de mot de passe. Si le mot de passe est perdu, le texte ne peut pas être déchiffré. La confidentialité du message est perdue si un destinataire involontaire accède au mot de passe.
 

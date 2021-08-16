@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce5767ed329fde43cc1022af54d937fc99e0e323
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: bd839bff96f5ba327e585f8608bd4612fc047d354c24fee972e507ea5ca681f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104100988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117656119"
 ---
 # <a name="bufferaverage"></a>BufferAverage
 
@@ -31,7 +31,7 @@ L’attribut **BufferAverage** contient la taille moyenne de la mémoire tampon 
 
 **\_valeur DWORD de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de l’accès à l’interface **IWMHeaderInfo3** de l’objet Writer, vous pouvez ajouter ou modifier cette valeur. Dans d’autres objets (éditeur de métadonnées, lecteur et lecteur synchrone), cette valeur est en lecture seule.
 
@@ -44,9 +44,9 @@ Le writer écrit automatiquement une valeur **BufferAverage** pour chaque flux V
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

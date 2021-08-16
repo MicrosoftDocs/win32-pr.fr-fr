@@ -3,17 +3,17 @@ title: Annulation
 description: La plupart des opérations dans WWSAPI peuvent être annulées pendant l’exécution.
 ms.assetid: d73d76e1-bd78-40ce-9f92-e282b6b127ce
 keywords:
-- Annulation des services Web pour Windows
+- Annuler les services Web pour Windows
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e979455e898922dfb7c81381c1f1aafd455274
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: bf75bd8d07d8f78ddf0a5750e6f4f96feb073dc15b8e63ed23ab8ceb061de145
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104316848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841779"
 ---
 # <a name="cancellation"></a>Annulation
 

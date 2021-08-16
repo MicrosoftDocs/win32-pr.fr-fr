@@ -4,12 +4,12 @@ ms.assetid: 38c73501-6376-41bb-8ad0-8f94ad42dfc9
 title: System. Link. Status
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df9b4a6b398ba022f9f62a0860262028ced49a55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e9e227582049a719b13849f178b7f4afa1e63ca74576b68b526d5c2e39935e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117683562"
 ---
 # <a name="systemlinkstatus"></a>System. Link. Status
 
@@ -73,7 +73,7 @@ propertyDescription
             defineName = LINK_STATUS_BROKEN
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

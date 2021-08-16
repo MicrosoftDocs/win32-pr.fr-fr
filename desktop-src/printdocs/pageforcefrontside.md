@@ -4,12 +4,12 @@ ms.assetid: 0658c808-f050-41f3-90b6-2a013b616b58
 title: PageForceFrontSide
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79f22e9ec52b7cee72e8f3a479d161e9abb765c4
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 53d05aeab9ae3e9e28ab981b5525ec0214ae6093e688cce66c9c0e68f7a1cc45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117868194"
 ---
 # <a name="pageforcefrontside"></a>PageForceFrontSide
 
@@ -27,7 +27,7 @@ Force l’affichage de la sortie sur l’avant d’une feuille de média. S’ap
 
 | Nom | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Composant<br/> |
+| Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |
 

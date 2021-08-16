@@ -4,12 +4,12 @@ ms.assetid: 997600C9-5264-44EC-BAEC-CB5CEEA0BD14
 title: Comment inscrire un type de fichier pour une nouvelle application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 728cc48075ab1c2631f0a950059da65ae326ae79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9de165d378d27c6891b681f95da7242b026844bd7734709ebd272c06edf40e3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859659"
 ---
 # <a name="how-to-register-a-file-type-for-a-new-application"></a>Comment inscrire un type de fichier pour une nouvelle application
 
@@ -24,7 +24,7 @@ Pour créer un ProgID pour chaque type de fichier unique géré par votre applic
 Notez que certains types de fichiers ont plusieurs extensions qui pointent vers le même ProgID ; par exemple :
 
 -   **HKEY \_ CLASSES \_ racine** \\ **app. jpeg** (votre ProgID)
--   **HKEY \_ CLASSES \_ root** \\ **. jpg** = App. jpeg (mappages de types de fichiers)
+-   **HKEY \_ CLASSES \_ racine** \\ **.jpg** = App. jpeg (mappages de types de fichiers)
 -   **HKEY \_ CLASSES \_ racine** \\ **. jpeg** = App. jpeg
 
 ### <a name="step-2"></a>Étape 2 :
@@ -42,7 +42,7 @@ Spécifiez une valeur unique pour la description du type de fichier de chaque Pr
 -   Laissez la valeur par défaut du ProgID vide, auquel cas le système utilise le fichier. ext.
 -   Fournissez une valeur localisée via FriendlyTypeName et, pour la compatibilité avec les anciennes applications qui lisent directement le registre, veillez à fournir la valeur par défaut du ProgID en tant que Description du type de fichier (autrement dit, utilisez la même valeur que celle référencée par FriendlyTypeName dans la ressource anglaise).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous envisagez d’associer le fichier à une application existante, localisez un ProgID d’application dans le registre. Pour plus d’informations, consultez [types de fichiers](fa-file-types.md).
 

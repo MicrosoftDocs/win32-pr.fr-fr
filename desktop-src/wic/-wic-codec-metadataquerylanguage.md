@@ -1,23 +1,23 @@
 ---
-description: Cette rubrique présente le langage de requête de métadonnées pour WIC (Windows Imaging Component).
+description: cette rubrique présente le langage de requête de métadonnées pour le composant WIC (Windows Imaging Component).
 ms.assetid: 5ffa0a69-b53d-4be3-b802-deaaa743e6bd
 title: Vue d’ensemble du langage de requête de métadonnées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee4b55bdc7079565f98411e28977d3d8c41e191f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c69effefd288f13c72239a41c5ace1a518775337cc496a2defa864d179cd6cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104557736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117668230"
 ---
 # <a name="metadata-query-language-overview"></a>Vue d’ensemble du langage de requête de métadonnées
 
-Cette rubrique présente le langage de requête de métadonnées pour WIC (Windows Imaging Component). Vous utilisez le langage de requête de métadonnées pour créer des expressions qui recherchent des données spécifiques (éléments de métadonnées) et des emplacements (blocs de métadonnées) dans les métadonnées d’une image.
+cette rubrique présente le langage de requête de métadonnées pour le composant WIC (Windows Imaging Component). Vous utilisez le langage de requête de métadonnées pour créer des expressions qui recherchent des données spécifiques (éléments de métadonnées) et des emplacements (blocs de métadonnées) dans les métadonnées d’une image.
 
 Cette rubrique contient les sections suivantes.
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Introduction](#introduction)
 -   [Anatomie d’une expression de chemin d’accès](#anatomy-of-a-path-expression)
     -   [Sélection de bloc](#block-selection)
@@ -179,7 +179,7 @@ Le tableau suivant fournit des exemples non valides et les raisons pour lesquell
 
 ## <a name="photo-metadata-policy-expressions"></a>Expressions de stratégie de métadonnées de photo
 
-Comme indiqué précédemment, une expression de requête complète commence par une barre oblique (/). Les expressions qui ne commencent pas par la barre oblique sont évaluées en tant qu’expressions de stratégie. Une expression de stratégie vous permet d’interroger les métadonnées de photo pour les propriétés de l' [interpréteur](https://msdn.microsoft.com/library/ms788673(VS.85).aspx)de commandes Windows relatives aux images. Dans la section de sélection des données, plus haut dans ce document, l’expression « /XMP/XMP : Rating » a été utilisée pour accéder à la propriété d’évaluation XMP. Cette propriété peut également être interrogée à l’aide de l’expression de stratégie suivante :
+Comme indiqué précédemment, une expression de requête complète commence par une barre oblique (/). Les expressions qui ne commencent pas par la barre oblique sont évaluées en tant qu’expressions de stratégie. une expression de stratégie vous permet d’interroger les métadonnées de la photo pour les propriétés de l' [interpréteur](https://msdn.microsoft.com/library/ms788673(VS.85).aspx)de Windows relatives aux images. Dans la section de sélection des données, plus haut dans ce document, l’expression « /XMP/XMP : Rating » a été utilisée pour accéder à la propriété d’évaluation XMP. Cette propriété peut également être interrogée à l’aide de l’expression de stratégie suivante :
 
 -   System. SimpleRating
 
@@ -234,7 +234,7 @@ Le tableau suivant est une définition formelle du langage de requête de métad
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Vue d’ensemble des métadonnées WIC](-wic-about-metadata.md)

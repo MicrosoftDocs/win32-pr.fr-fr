@@ -4,12 +4,12 @@ ms.assetid: aa47010e-8510-475d-836a-cb63deeb3a7b
 title: Filtre de décodage vidéo DV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6baab43d4a369cb16d92974a0e6e469c914961bb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0f00d63c92da4c16697d7cc9ff173f4c50e822a10da429a586f8eaa688e9eb96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820681"
 ---
 # <a name="dv-video-decoder-filter"></a>Filtre de décodage vidéo DV
 
@@ -86,7 +86,7 @@ Ce filtre décode un flux vidéo numérique (DV) en vidéo non compressée.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez l’interface [**IIPDVDec**](/windows/desktop/api/Strmif/nn-strmif-iipdvdec) pour définir la résolution du décodage sur complète, demi-taille, quart de taille ou une taille d’un huitième.
 
@@ -96,10 +96,10 @@ Utilisez l’interface [**IIPDVDec**](/windows/desktop/api/Strmif/nn-strmif-iipd
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> </dl>
 
  

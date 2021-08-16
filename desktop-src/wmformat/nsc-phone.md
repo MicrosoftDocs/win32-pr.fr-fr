@@ -1,6 +1,6 @@
 ---
 title: NSC_Phone
-description: L' \_ attribut téléphone NSC contient le numéro de téléphone du contact de la station de multidiffusion.
+description: l' \_ attribut Téléphone NSC contient le numéro de téléphone du contact de la station de multidiffusion.
 ms.assetid: cf9fa9e1-3b7f-41b2-97fc-04da731de5f5
 keywords:
 - Format Windows Media NSC_Phone
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40417d750b60b9fcfcfbd5522d42a453ee07af96
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d5621ab3f1eddecb9ca24cf2780dcafa50718de2c4ecc1558d6ea52248a26870
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117654465"
 ---
 # <a name="nsc_phone"></a>\_Téléphone NSC
 
-L' **attribut \_ téléphone NSC** contient le numéro de téléphone du contact de la station de multidiffusion.
+l' **attribut \_ Téléphone NSC** contient le numéro de téléphone du contact de la station de multidiffusion.
 
 ## <a name="global-constant"></a>Constante globale
 
@@ -41,9 +41,9 @@ L' **attribut \_ téléphone NSC** contient le numéro de téléphone du contact
 [**Attributs de station de multidiffusion**](multicast-station-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - WinSpool.drv
-ms.openlocfilehash: 9ac4dd4b0db9a59cc0140872ff04f89adaf8b6c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10b0b36333e51dfb5c831f6c74e00c6930ccbb9d1ce31646fed0d689abc7f639
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117686692"
 ---
 # <a name="getspoolfilehandle-function"></a>GetSpoolFileHandle fonction)
 
@@ -54,7 +54,7 @@ Si la fonction est réussie, elle retourne un handle au fichier de mise en file 
 
 Si la fonction échoue, elle retourne **une \_ \_ valeur de handle non valide**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avec le descripteur du fichier de mise en file d’attente, votre application peut écrire dans le fichier de mise en file d’attente avec des appels à [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile) suivis de [**CommitSpoolData**](commitspooldata.md).
 
@@ -68,8 +68,8 @@ Cette fonction échoue si elle est appelée avant la fin de la mise en attente d
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Winspool. h (inclure Windows. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Winspool. lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>WinSpool. drv</dt> </dl>                   |

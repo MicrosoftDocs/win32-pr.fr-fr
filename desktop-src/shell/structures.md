@@ -1,5 +1,5 @@
 ---
-description: Cette section décrit les structures de l’interpréteur de commandes Windows.
+description: cette section décrit les Structures de l’interpréteur de commandes Windows.
 title: Structures de Shell
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 5bbda4cd81c3db2dff664b9d16d2db60aa8f12f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa046223ba3aa6a6e98d6e74f623aeaad9e85d3a10148bb688eb385c0e7c22fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117675802"
 ---
 # <a name="shell-structures"></a>Structures de Shell
 
-Cette section décrit les structures de l’interpréteur de commandes Windows.
+cette section décrit les Structures de l’interpréteur de commandes Windows.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -110,7 +110,7 @@ Cette section décrit les structures de l’interpréteur de commandes Windows.
 </tr>
 <tr class="odd">
 <td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-component"><strong>-</strong></a><br/></td>
-<td>Utilisé par Windows 2000 pour conserver les informations relatives à un composant. Cette structure remplace la structure <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-ie4component"><strong>IE4COMPONENT</strong></a> .<br/></td>
+<td>utilisé par Windows 2000 pour contenir des informations sur un composant. Cette structure remplace la structure <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-ie4component"><strong>IE4COMPONENT</strong></a> .<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-componentsopt"><strong>COMPONENTSOPT</strong></a><br/></td>
@@ -122,7 +122,7 @@ Cette section décrit les structures de l’interpréteur de commandes Windows.
 </tr>
 <tr class="even">
 <td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-compstateinfo"><strong>COMPSTATEINFO</strong></a><br/></td>
-<td>Utilisé par Windows 2000 pour conserver les informations sur l’état d’un composant.<br/></td>
+<td>utilisé par Windows 2000 pour contenir les informations sur l’état d’un composant.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Syncmgr/ns-syncmgr-confirm_conflict_item"><strong>CONFIRM_CONFLICT_ITEM</strong></a><br/></td>
@@ -191,7 +191,7 @@ Cette section décrit les structures de l’interpréteur de commandes Windows.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_darwin_link"><strong>EXP_DARWIN_LINK</strong></a><br/></td>
-<td>Contient un bloc de données supplémentaire utilisé par <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>IShellLinkDataList</strong></a>. Il contient l’ID de Windows Installer du lien.<br/></td>
+<td>Contient un bloc de données supplémentaire utilisé par <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>IShellLinkDataList</strong></a>. il contient l’ID de Windows Installer du lien.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_propertystorage"><strong>EXP_PROPERTYSTORAGE</strong></a><br/></td>
@@ -219,7 +219,7 @@ Cette section décrit les structures de l’interpréteur de commandes Windows.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-filedescriptora"><strong>FILEDESCRIPTOR</strong></a><br/></td>
-<td>Décrit les propriétés d’un fichier copié par le biais du presse-papiers pendant une opération de <a href="dragdrop.md">glisser-déplacer</a> Microsoft ActiveX.<br/></td>
+<td>décrit les propriétés d’un fichier en cours de copie à l’aide du presse-papiers lors d’une opération de <a href="dragdrop.md">glisser-déplacer</a> de Microsoft ActiveX.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-filegroupdescriptora"><strong>FILEGROUPDESCRIPTOR</strong></a><br/></td>
@@ -263,7 +263,7 @@ Cette section décrit les structures de l’interpréteur de commandes Windows.
 </tr>
 <tr class="even">
 <td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-ie4component"><strong>IE4COMPONENT</strong></a><br/></td>
-<td>Utilisé par Microsoft Internet Explorer 4,0 et Microsoft Internet Explorer 4,01 pour stocker des informations sur un composant. Avec Windows 2000, il est remplacé par la structure du <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-component"><strong>composant</strong></a> .<br/></td>
+<td>Utilisé par Microsoft Internet Explorer 4,0 et Microsoft Internet Explorer 4,01 pour stocker des informations sur un composant. avec Windows 2000, il est remplacé par la structure du <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-component"><strong>composant</strong></a> .<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a><br/></td>
@@ -287,7 +287,7 @@ Cette section décrit les structures de l’interpréteur de commandes Windows.
 </tr>
 <tr class="even">
 <td><a href="/windows/win32/api/winuser/ns-winuser-multikeyhelpw"><strong>MULTIKEYHELP</strong></a><br/></td>
-<td>Spécifie un mot clé à rechercher et la table de mots clés dans laquelle l’aide Windows doit être recherchée.<br/></td>
+<td>spécifie un mot clé à rechercher et la table de mots clés à rechercher en Windows aide.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/win32/api/shellapi/ns-shellapi-nc_address"><strong>NC_ADDRESS</strong></a><br/></td>
@@ -359,7 +359,7 @@ Cette section décrit les structures de l’interpréteur de commandes Windows.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-qcminfo"><strong>QCMINFO</strong></a><br/></td>
-<td>Contient des informations pour la fusion d’éléments de menu dans des menus de l’Explorateur Windows.<br/></td>
+<td>contient des informations pour la fusion d’éléments de menu dans Windows menus de l’explorateur.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shlwapi/ns-shlwapi-qitab"><strong>QITAB</strong></a><br/></td>
@@ -407,10 +407,10 @@ Cette section décrit les structures de l’interpréteur de commandes Windows.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/shell/objects"><strong>SHCOLUMNID</strong></a><br/></td>
-<td>Spécifie l’identificateur FMTID/PID d’une colonne qui sera affichée par l’affichage Détails de l’Explorateur Windows. <br/>
+<td>spécifie l’identificateur FMTID/PID d’une colonne qui sera affichée par le mode détails de l’explorateur de Windows. <br/>
 <blockquote>
 [!Note]<br />
-À compter de Windows Vista, <a href="/windows/desktop/shell/objects"><strong>SHCOLUMNID</strong></a> est considéré comme une forme héritée et ne doit pas être utilisé. À la place, utilisez la structure <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> .
+à partir de Windows Vista, <a href="/windows/desktop/shell/objects"><strong>SHCOLUMNID</strong></a> est considéré comme une forme héritée et ne doit pas être utilisé. À la place, utilisez la structure <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> .
 </blockquote>
 <br/></td>
 </tr>
@@ -459,7 +459,7 @@ Cette section décrit les structures de l’interpréteur de commandes Windows.
 <td>Contient des informations que la fonction <a href="/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa"><strong>SHFileOperation</strong></a> utilise pour effectuer des opérations sur les fichiers. <br/>
 <blockquote>
 [!Note]<br />
-À compter de Windows Vista, l’utilisation de l’interface <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>IFileOperation</strong></a> est recommandée par rapport à cette fonction.
+à partir de Windows Vista, l’utilisation de l’interface <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>IFileOperation</strong></a> est recommandée par rapport à cette fonction.
 </blockquote>
 <br/></td>
 </tr>

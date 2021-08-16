@@ -3,9 +3,9 @@ title: Méthode playlist. moveItem
 description: La méthode moveItem modifie l’emplacement d’un élément dans la sélection.
 ms.assetid: 82a8de86-4419-48a7-89f8-f7b9084b51d4
 keywords:
-- méthode moveItem lecteur Windows Media
-- méthode moveItem lecteur Windows Media, classe de sélection
-- Classe de sélection lecteur Windows Media, méthode moveItem
+- Lecteur Windows Media de la méthode moveItem
+- méthode moveItem Lecteur Windows Media, classe Playlist
+- Lecteur Windows Media de classe Playlist, méthode moveItem
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06e2e48b2987af4becd8c07357ff2eecf137f31d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a725ae53e38d1903d31dc47a3362f90c29fb064e3a785b816de0d0b695998aee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746850"
 ---
 # <a name="playlistmoveitem-method"></a>Méthode playlist. moveItem
 
@@ -61,7 +61,7 @@ Playlist.moveItem(
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les sélections stockées dans la bibliothèque peuvent changer en dehors de votre contrôle. Veillez à surveiller et à gérer tous les événements appropriés liés à la sélection afin que l’ordre des éléments dans la sélection ne change pas de manière inattendue.
 

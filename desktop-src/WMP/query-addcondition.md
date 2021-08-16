@@ -3,9 +3,9 @@ title: Query. addCondition, méthode
 description: La méthode addCondition ajoute une condition à l’objet de requête à l’aide de et de la logique.
 ms.assetid: 29b5d372-eddf-4b70-882b-d2dde79d9287
 keywords:
-- méthode addCondition lecteur Windows Media
-- méthode addCondition lecteur Windows Media, classe Query
-- Classe de requête lecteur Windows Media, méthode addCondition
+- Lecteur Windows Media de la méthode addCondition
+- méthode addCondition Lecteur Windows Media, classe Query
+- Lecteur Windows Media de classe de requête, méthode addCondition
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4035d2877cf0081e9153277c88feb545a529568d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 53a3eed0a7923b93861eabc30d115a7726046d0595b7c57625d9a9afaf9c7523
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746588"
 ---
 # <a name="queryaddcondition-method"></a>Query. addCondition, méthode
 
@@ -69,7 +69,7 @@ Query.addCondition(
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les requêtes composées à l’aide de la **requête** ne respectent pas la casse.
 
@@ -85,7 +85,7 @@ Le tableau suivant répertorie les valeurs prises en charge pour l' *opérateur*
 |---------------------|----------------|
 | BeginsWith          | Chaînes        |
 | Contient            | Chaînes        |
-| Égal à              | Tous les types      |
+| Est égal à              | Tous les types      |
 | GreaterThan         | Nombres, dates |
 | Supérieur ou égal à | Nombres, dates |
 | LessThan            | Nombres, dates |
@@ -100,7 +100,7 @@ Le tableau suivant répertorie les valeurs prises en charge pour l' *opérateur*
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise **query. addCondition** et **query. beginNextGroup** pour exécuter un exemple de requête.
+l’exemple de JScript suivant utilise **query. addCondition** et **query. beginNextGroup** pour exécuter un exemple de requête.
 
 
 ```JScript

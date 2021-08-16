@@ -14,18 +14,18 @@ keywords:
 - décodage de l’audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33fa063baa8e9a88c2fb7a4d9c67375965282167
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 84bd4fdbafd5685882f34b698c0745b998b6cee2e63514041db17fed2195346c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103724103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845587"
 ---
 # <a name="to-decode-audio-to-spdif"></a>Pour décoder l’audio en S/PDIF
 
-L’encodage audio du codec Windows Media Audio 9 Professional peut être décodé au format S/PDIF de Sony/Philips. Pour générer la sortie S/PDIF, procédez comme suit :
+l’encodage Audio du codec Windows Media Audio 9 Professional peut être décodé au Format S/PDIF de Sony/Philips. Pour générer la sortie S/PDIF, procédez comme suit :
 
-1.  Ouvrez un fichier qui contient un flux Windows Media Audio 9 Professional en appelant la méthode [**IWMReader :: Open**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open) .
+1.  ouvrez un fichier qui contient un flux de Windows Media Audio 9 Professional en appelant la méthode [**IWMReader :: Open**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open) .
 2.  Identifiez le numéro de sortie du flux de votre choix. Pour plus d’informations, consultez [pour identifier les numéros de sortie](to-identify-output-numbers.md).
 3.  Appelez la méthode [**IWMReaderAdvanced2 :: SetOutputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting) pour configurer la sortie S/PDIF. Utilisez g \_ wszEnableWMAProSPDIFOutput pour le nom du paramètre. Le type de données est de **\_ type WMT \_ bool**; affectez la valeur **true** pour activer la sortie S/PDIF.
 4.  Récupérez l’interface des propriétés de sortie ([**IWMOutputMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops)) du format de sortie souhaité en appelant la méthode [**IWMReader :: GetOutputFormat**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat) . Pour plus d’informations sur l’énumération des formats de sortie, consultez [assignation de formats de sortie](assigning-output-formats.md).
@@ -35,7 +35,7 @@ L’encodage audio du codec Windows Media Audio 9 Professional peut être décod
 > [!Note]  
 > Vous pouvez effectuer les étapes précédentes sur le lecteur synchrone à l’aide des méthodes correspondantes de l’interface [**IWMSyncReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader) .
 
- 
+ 
 
 L’exemple de code suivant montre comment définir un flux audio en sortie audio en tant que données S/PDIF. Cette fonction suppose qu’un fichier a déjà été chargé dans le lecteur et que le numéro de sortie a été identifié. Pour plus d’informations sur l’utilisation de ce code, consultez [utilisation des exemples de code](using-the-code-examples.md).
 
@@ -102,9 +102,9 @@ Exit:
 [**Interface IWMSyncReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

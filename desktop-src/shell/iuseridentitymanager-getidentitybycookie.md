@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: eb4e5ad5bda349a5b1650b090abc44a9fd1e6332
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a077f3e6a65a04e4c018198dde39b80c5a6e5acbee282c9e2cc282642526894b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117678153"
 ---
 # <a name="iuseridentitymanagergetidentitybycookie-method"></a>IUserIdentityManager :: GetIdentityByCookie, méthode
 
@@ -45,9 +45,9 @@ HRESULT GetIdentityByCookie(
 *uidCookie* \[ dans\]
 </dt> <dd>
 
-Type : **GUID \** _
+Type : **GUID \***
 
-Adresse d’une valeur _ *GUID** qui représente le cookie de l’identité que vous souhaitez récupérer.
+Adresse d’une valeur **GUID** qui représente le cookie de l’identité que vous souhaitez récupérer.
 
 </dd> <dt>
 
@@ -77,7 +77,7 @@ Résultat de la requête de récupération. En cas de réussite, elle retourne S
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

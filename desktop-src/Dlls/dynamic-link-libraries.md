@@ -4,12 +4,12 @@ ms.assetid: 09e35b46-86a1-44ed-ab6d-207857b2605c
 title: Bibliothèques de Dynamic-Link (bibliothèques de liens dynamiques)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8068cd0b8f1d5431c5638a10350d9a1ae7060aad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 369091464aad63ea78ea9f24a84fb4eb49eb810a1faff14571fc67e2e39bb0fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117815898"
 ---
 # <a name="dynamic-link-libraries-dynamic-link-libraries"></a>Bibliothèques de Dynamic-Link (bibliothèques de liens dynamiques)
 
@@ -19,14 +19,14 @@ Une DLL peut définir deux types de fonctions : exporté et interne. Les foncti
 
 Les dll offrent un moyen de modulariser les applications afin que leurs fonctionnalités puissent être mises à jour et réutilisées plus facilement. Les dll permettent également de réduire la surcharge de mémoire lorsque plusieurs applications utilisent la même fonctionnalité en même temps, car même si chaque application reçoit sa propre copie des données DLL, les applications partagent le code DLL.
 
-L’interface de programmation d’applications (API) Windows est implémentée sous la forme d’un ensemble de dll, de sorte que tout processus qui utilise l’API Windows utilise la liaison dynamique.
+l’interface de programmation d’applications (api) Windows est implémentée sous la forme d’un ensemble de dll, de sorte que tout processus qui utilise l’API Windows utilise la liaison dynamique.
 
 -   [À propos des bibliothèques Dynamic-Link](about-dynamic-link-libraries.md)
 -   [Utilisation des bibliothèques de Dynamic-Link](using-dynamic-link-libraries.md)
 -   [Référence de bibliothèque de liens dynamiques](dynamic-link-library-reference.md)
 
 > [!Note]  
-> Si vous êtes un utilisateur rencontrant des difficultés avec une DLL sur votre ordinateur, vous devez contacter le support technique de l’éditeur du logiciel qui publie la DLL. Si vous pensez que vous avez besoin de la prise en charge d’un produit Microsoft (y compris Windows), accédez à notre site de support technique à l’adresse [support.Microsoft.com](https://support.microsoft.com).
+> Si vous êtes un utilisateur rencontrant des difficultés avec une DLL sur votre ordinateur, vous devez contacter le support technique de l’éditeur du logiciel qui publie la DLL. si vous pensez que vous avez besoin de la prise en charge d’un produit Microsoft (y compris Windows), accédez à notre site de support technique à l’adresse [support.microsoft.com](https://support.microsoft.com).
 
  
 

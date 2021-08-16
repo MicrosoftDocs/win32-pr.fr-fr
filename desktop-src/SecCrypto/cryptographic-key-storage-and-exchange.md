@@ -1,17 +1,17 @@
 ---
 description: Dans certaines situations, les clés doivent être exportées à partir de l’environnement sécurisé du fournisseur de services de chiffrement (CSP) dans l’espace de données d’une application. Les clés qui ont été exportées sont stockées dans des structures BLOB de clé chiffrée.
 ms.assetid: 859b1bfe-6182-4728-a721-1f34cc98f66f
-title: Stockage de clé de chiffrement et Exchange
+title: Stockage et Exchange de clé de chiffrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be7e789a736f0fcd5208bc16d73b43c6a9232e33
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3028efb449b59deb24a7097369d8894d0876907f3555c836e95e14d8c4bf5cfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768756"
 ---
-# <a name="cryptographic-key-storage-and-exchange"></a>Stockage de clé de chiffrement et Exchange
+# <a name="cryptographic-key-storage-and-exchange"></a>Stockage et Exchange de clé de chiffrement
 
 Dans certaines situations, les clés doivent être exportées à partir de l’environnement sécurisé du [*fournisseur de services de chiffrement*](../secgloss/c-gly.md) (CSP) dans l’espace de données d’une application. Les clés qui ont été exportées sont stockées dans des structures [*blob de clé*](../secgloss/k-gly.md) chiffrée.
 

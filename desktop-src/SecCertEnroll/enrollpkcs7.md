@@ -4,12 +4,12 @@ ms.assetid: e7df1a2e-5674-4cc6-874b-45bcc7e25127
 title: enrollPKCS7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34bc7f9d7b7d5ae9fa88db0dd70c177c3aa69da0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0635fdf4daacc9c7a04db98c7e34e9d3495c6f18ca3e145b166f19e3cd49610a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117779950"
 ---
 # <a name="enrollpkcs7"></a>enrollPKCS7
 
@@ -17,7 +17,7 @@ L’exemple enrollPKCS7 crée une \# demande PKCS 7 à partir d’un certificat 
 
 ## <a name="location"></a>Emplacement
 
-Lorsque vous installez le kit de développement logiciel (SDK) Microsoft Windows, l’exemple est installé, par défaut, dans le dossier *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security \\ x509 Certificate \\ \\ enrollPKCS7 VC.
+lorsque vous installez le kit de développement logiciel (SDK) de microsoft Windows, l’exemple est installé, par défaut, dans le dossier *% ProgramFiles%* \\ microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security \\ X509 certificate \\ \\ enrollPKCS7 VC.
 
 ## <a name="discussion"></a>Discussions
 

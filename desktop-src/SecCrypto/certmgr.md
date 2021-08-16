@@ -4,16 +4,16 @@ ms.assetid: c9b68a81-c4f7-4754-9b47-c83f3679f0e3
 title: CertMgr
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b0e248aef1f726b16d8f17098cfc9642393b963
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 832610510eeb74b821ec690cab93fd9af74d69ca3479508b5c0707d45f491c2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117769989"
 ---
 # <a name="certmgr"></a>CertMgr
 
-Les outils CertMgr remplacent DumpCert. Il comprend de nouvelles fonctionnalités pour la gestion des [*certificats*](../secgloss/c-gly.md), des [*listes*](../secgloss/c-gly.md) de certificats de confiance (CTL) et des [*listes de révocation de certificats*](../secgloss/c-gly.md) (CRL). L’outil est installé dans le \\ dossier bin du chemin d’installation du kit de développement logiciel (SDK) Microsoft Windows.
+Les outils CertMgr remplacent DumpCert. Il comprend de nouvelles fonctionnalités pour la gestion des [*certificats*](../secgloss/c-gly.md), des [*listes*](../secgloss/c-gly.md) de certificats de confiance (CTL) et des [*listes de révocation de certificats*](../secgloss/c-gly.md) (CRL). l’outil est installé dans le \\ dossier Bin du chemin d’installation du kit de développement logiciel (SDK) de Microsoft Windows.
 
 CertMgr est disponible dans le cadre de la SDK Windows, que vous pouvez télécharger à partir de <https://go.microsoft.com/fwlink/p/?linkid=84091> .
 
@@ -63,7 +63,7 @@ Les options suivantes s’appliquent à toutes les fonctions CertMgr, sauf indic
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 CertMgr est pris en charge uniquement dans Internet Explorer 4,0 ou version ultérieure.
 

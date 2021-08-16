@@ -1,19 +1,19 @@
 ---
-description: Décrit l’introduction de la hiérarchisation des index et des événements d’ensemble de lignes pour Windows 7.
+description: décrit l’introduction de la hiérarchisation des index et des événements d’ensemble de lignes pour Windows 7.
 ms.assetid: 6cdfb7d3-f849-432c-960f-912e5024c583
-title: Indexation des événements d’ensemble de priorités et d’ensembles de lignes dans Windows 7
+title: indexation de la hiérarchisation et des événements d’ensemble de lignes dans Windows 7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6610500a3c2fcd359f346e5239507fb15ad896d
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 92491300127c60ebdf2a265583fca77e77a09907b7f42b471f6d3d047a7f6aa4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106535731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117680500"
 ---
-# <a name="indexing-prioritization-and-rowset-events-in-windows-7"></a>Indexation des événements d’ensemble de priorités et d’ensembles de lignes dans Windows 7
+# <a name="indexing-prioritization-and-rowset-events-in-windows-7"></a>indexation de la hiérarchisation et des événements d’ensemble de lignes dans Windows 7
 
-Cette rubrique décrit l’introduction de la hiérarchisation des index et des événements d’ensemble de lignes pour Windows 7.
+cette rubrique décrit l’introduction de la hiérarchisation des index et des événements d’ensemble de lignes pour Windows 7.
 
 Cette rubrique est organisée comme suit :
 
@@ -25,7 +25,7 @@ Cette rubrique est organisée comme suit :
 
 ## <a name="indexing-prioritization-and-rowset-events"></a>Indexation de la hiérarchisation et des événements d’ensemble de lignes
 
-Dans Windows 7 ? et versions ultérieures, il existe une pile de priorités dans laquelle le contexte d’une requête particulière, le client peut demander que les étendues utilisées dans cette requête soient hiérarchisées au-dessus de celles des éléments normaux.
+dans Windows 7 ? et versions ultérieures, il existe une pile de priorités dans laquelle le contexte d’une requête particulière, le client peut demander que les étendues utilisées dans cette requête soient hiérarchisées au-dessus de celles des éléments normaux.
 
 Cette pile de définition de priorités présente les caractéristiques suivantes :
 
@@ -39,7 +39,7 @@ Cette pile de définition de priorités présente les caractéristiques suivante
 
 La pile de priorité définit une priorité globale des éléments traités dans l’indexeur comme suit :
 
--   Les notifications de priorité élevée n’ont pas d’interruption et sont généralement envoyées uniquement pour un petit nombre d’éléments. Par exemple, l’Explorateur Windows utilise cette priorité pour les opérations de moteur de copie de petite taille.
+-   Les notifications de priorité élevée n’ont pas d’interruption et sont généralement envoyées uniquement pour un petit nombre d’éléments. par exemple, Windows Explorer utilise cette priorité pour les opérations de moteur de copie de petite taille.
 -   La pile de priorité est supérieure à la pile, a un intervalle et est la dernière requête prioritaire demandée.
 -   Deuxième requête dans la pile.
 -   Troisième requête dans la pile.
@@ -141,13 +141,13 @@ Consultez les ressources suivantes relatives à la hiérarchisation et aux ensem
 
 <dl> <dt>
 
-[Recherche Windows 7](./-search-3x-wds-overview.md)
+[recherche Windows 7](./-search-3x-wds-overview.md)
 </dt> <dt>
 
-[Nouvelle recherche pour Windows 7](new-for-windows-7-search.md)
+[nouveautés pour la recherche de Windows 7](new-for-windows-7-search.md)
 </dt> <dt>
 
-[Bibliothèques de shell Windows dans Windows 7](-search-win7-development-scenarios.md)
+[Windows bibliothèques Shell dans Windows 7](-search-win7-development-scenarios.md)
 </dt> </dl>
 
  

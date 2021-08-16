@@ -4,12 +4,12 @@ ms.assetid: 859decab-cbe3-4cec-b37c-6d0e7c353876
 title: Élément Depth (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf68bcbc96b6d1beb2c381f0a17532272b8d397e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 245156088cd68fcf67103c18b987a9b459b0b760b3a04a1ced817badd25aada8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117862524"
 ---
 # <a name="depth-element-search-connector-schema"></a>Élément Depth (schéma du connecteur de recherche)
 
@@ -66,7 +66,7 @@ L' <depth> élément spécifie si la portée du connecteur de recherche doit inc
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la profondeur est profonde, les utilisateurs peuvent parcourir ou Rechercher des éléments dans le niveau d’URL de scopeItem ou dans des URL enfants.
 

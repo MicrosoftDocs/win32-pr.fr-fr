@@ -3,7 +3,7 @@ title: ICMProgressProcCallback, fonction de rappel
 description: La fonction ICMProgressProcCallback est une fonction de rappel fournie par l’application qui signale la progression et permet à l’application d’annuler le traitement des couleurs.
 ms.assetid: 4e0bfa4c-f0eb-4776-98d6-90d9adf71bee
 keywords:
-- Fonction de rappel ICMProgressProcCallback Windows Color System
+- fonction de rappel ICMProgressProcCallback Windows système de couleurs
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8acf790a135a41e4eabb4a67c2498f1ed914c4c8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d697bb09b4871f6debb1a41a7ecc3e795307ee544ec30bfaf4b5b44ba0328578
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117671385"
 ---
 # <a name="icmprogressproccallback-callback-function"></a>ICMProgressProcCallback, fonction de rappel
 
@@ -69,7 +69,7 @@ Spécifie les données qui sont passées par l’application à une fonction ICM
 
 Cette fonction retourne la **valeur true** pour continuer le traitement de la bitmap. La valeur de retour est **false** pour annuler le traitement. Si le traitement est annulé, la fonction appelante retourne la valeur zéro pour indiquer un échec, même si sa mémoire tampon de sortie peut être partiellement remplie.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nom de cette fonction de rappel est fourni par l’application. Plusieurs fonctions WCS, y compris [**TranslateBitmapBits**](/windows/win32/api/icm/nf-icm-translatebitmapbits) et [**CheckBitmapBits**](/windows/win32/api/icm/nf-icm-checkbitmapbits), appellent cette fonction régulièrement.
 

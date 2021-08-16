@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5d5effa69a23a61a602efaf1172de09a09889e32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27f5beec56a0125d26cc359f40b5033eda1f035f2dec7666725264ec6fd59ba7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117677967"
 ---
 # <a name="ncm_getaddress-message"></a>\_Message NCM GETADDRESS
 
@@ -65,7 +65,7 @@ Retourne l’une des valeurs suivantes de type **HRESULT**.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez le message **NCM \_ GETADDRESS** pour valider une adresse réseau dans un contrôle d’adresse réseau par rapport à un masque de type d’adresse réseau prédéfini. Pour instancier, utilisez la classe **msctls \_ NetAddress** définie dans shellapi. h. Appelez [**InitNetworkAddressControl**](/windows/desktop/api/Shellapi/nf-shellapi-initnetworkaddresscontrol) au moment de l’exécution avant d’envoyer ce message. Cette commande initialise la bibliothèque de contrôles communs qui contient le contrôle d’adresse réseau.
 
@@ -75,14 +75,14 @@ Les représentations de l’adresse IP (Internet Protocol) versions 4 et 6 (v4/V
 
 Définissez le masque de type d’adresse réseau à l’aide du message [**NCM \_ SETALLOWTYPE**](ncm-setallowtype.md) avant d’envoyer la macro **NCM \_ GETADDRESS** .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Shellapi. h</dt> </dl> |
 
 

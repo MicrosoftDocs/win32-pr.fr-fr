@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c17445dcaa76e1c3a46e39cafb403321ea337bc3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 224c720d442770ee65726c832b7f21c5932a43fb5852e7a8c403bf5d3006248c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117836212"
 ---
 # <a name="dns-host-name-attributes-property-set"></a>Propriété DNS-Host-Name-Attributes définie
 
@@ -38,7 +38,7 @@ Contient les attributs DNS-Host-Name et ms-DS-Additional-DNS-Host-Name.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

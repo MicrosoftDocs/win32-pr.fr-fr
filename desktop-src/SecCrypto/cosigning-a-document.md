@@ -4,20 +4,20 @@ ms.assetid: f81cbf7b-317d-4fab-9b30-88b6c6576db8
 title: Cosignature d’un document
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa06cbbc95dc0fe558c6e704bd18102e80221dbc
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: eb384ef47001f1df85810ac37595988da96a356ff3b36b1b140d1a6f54d0d698
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106530928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117769384"
 ---
 # <a name="cosigning-a-document"></a>Cosignature d’un document
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 Un document peut être signé par plus d’un signataire. Cela se produit quand, par exemple, deux ou plusieurs parties signent un contrat ou une note de frais. Dans l’exemple suivant, un document déjà signé est reçu par un deuxième signataire. Ce signataire utilise la méthode [**cosign**](signeddata-cosign.md) pour attacher une signature supplémentaire au document.
 
-Si une erreur CAPICOM se produit, une valeur négative est retournée dans la propriété **Err. Number** . Pour plus d’informations sur les codes d’erreur CAPICOM, consultez [**code d' \_ erreur \_ CAPICOM**](capicom-error-code.md). Si le code d’erreur dans la propriété **Err. Number** est une valeur positive, l’erreur est une erreur Windows. Pour plus d’informations sur les codes d’erreur Windows, consultez winerror. h.
+Si une erreur CAPICOM se produit, une valeur négative est retournée dans la propriété **Err. Number** . Pour plus d’informations sur les codes d’erreur CAPICOM, consultez [**code d' \_ erreur \_ CAPICOM**](capicom-error-code.md). si le code d’erreur dans la propriété **Err. Number** est une valeur positive, l’erreur est une erreur de Windows. pour plus d’informations sur les codes d’erreur Windows, consultez Winerror. h.
 
 > [!Note]
 > La cosignature d’un document requiert également que le cosignataire dispose d’un [*certificat*](../secgloss/c-gly.md) disponible avec une [*clé privée*](../secgloss/p-gly.md) pour créer la signature. Si un signataire n’est pas spécifié dans l’appel de la méthode [**Sign**](signeddata-sign.md) et qu’il n’existe pas de certificat dans \_ le \_ magasin mon magasin avec une clé privée associée, la méthode échoue. S’il existe un seul certificat dans CAPICOM \_ My \_ Store avec une clé privée associée, la clé et le certificat sont utilisés. S’il existe plus d’un certificat utilisable, une invite s’affiche pour permettre à l’utilisateur de choisir le certificat souhaité.

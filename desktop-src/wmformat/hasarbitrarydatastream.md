@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2cadfc2408d008034fc9e96920b786ce0c5a524
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: c688f30d1def70bd404d973270adad2d4c664de7302c5dd77bd40e176bd8fc2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103940416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117847659"
 ---
 # <a name="hasarbitrarydatastream"></a>HasArbitraryDataStream
 
@@ -31,11 +31,11 @@ L’attribut **HasArbitraryDataStream** est un attribut de niveau fichier qui sp
 
 **\_type WMT \_ bool**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’un attribut codé.
 
-Cet attribut ne peut pas être dupliqué au niveau du fichier. Si cet attribut est utilisé pour un flux individuel, il sera traité en tant que métadonnées personnalisées et ne transmettra pas sa signification normale aux objets du kit de développement logiciel (SDK) du format Windows Media.
+Cet attribut ne peut pas être dupliqué au niveau du fichier. si cet attribut est utilisé pour un flux individuel, il sera traité en tant que métadonnées personnalisées et ne transmettra pas sa signification normale aux objets du kit de développement logiciel (SDK) de Format multimédia Windows.
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -44,9 +44,9 @@ Cet attribut ne peut pas être dupliqué au niveau du fichier. Si cet attribut e
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

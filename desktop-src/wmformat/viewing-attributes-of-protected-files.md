@@ -20,21 +20,21 @@ keywords:
 - DRM (gestion des droits numériques), fichiers protégés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 642e9f580c3dffa1d3785985d548a5f971cfc218
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 37cd09e61dbd5515d643cbffe8cce809d0f828e8d153858c78ee52db7e714344
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103723395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844912"
 ---
 # <a name="viewing-attributes-of-protected-files"></a>Affichage des attributs des fichiers protégés
 
-Dans certains scénarios, vous devrez peut-être récupérer certains attributs DRM dans un fichier sans avoir à accéder au contenu du fichier. Cette fonctionnalité est utile, par exemple, dans les applications qui traitent des lots de fichiers de différentes manières en fonction des informations contenues dans l’en-tête de fichier. Dans les versions précédentes du kit de développement logiciel (SDK) du format Windows Media, les applications devaient être liées à la bibliothèque statique DRM afin d’ouvrir n’importe quel fichier protégé. Les applications qui ne disposent pas de la bibliothèque DRM peuvent utiliser l’interface [**IWMDRMEditor :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmeditor-getdrmproperty) sur l’objet de l’éditeur de métadonnées pour examiner certains attributs DRM.
+Dans certains scénarios, vous devrez peut-être récupérer certains attributs DRM dans un fichier sans avoir à accéder au contenu du fichier. Cette fonctionnalité est utile, par exemple, dans les applications qui traitent des lots de fichiers de différentes manières en fonction des informations contenues dans l’en-tête de fichier. dans les versions précédentes du kit de développement logiciel (SDK) Windows Media Format, les applications devaient être liées à la bibliothèque statique DRM afin d’ouvrir n’importe quel fichier protégé. Les applications qui ne disposent pas de la bibliothèque DRM peuvent utiliser l’interface [**IWMDRMEditor :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmeditor-getdrmproperty) sur l’objet de l’éditeur de métadonnées pour examiner certains attributs DRM.
 
 > [!Note]  
 > DRM n’est pas pris en charge par la version x64 de ce kit de développement logiciel (SDK).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -49,9 +49,9 @@ Dans certains scénarios, vous devrez peut-être récupérer certains attributs 
 [**Interface IWMDRMEditor**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 6bd15cbef62ff69efcccd28fcb625fc1432fdf89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 223f498f42e33dda09206b1e21a44138fda54e261ec957efb62e55148a014d6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117677836"
 ---
 # <a name="explorer-data-provider-sample"></a>Fournisseur de données de l’Explorateur, exemple
 
@@ -22,12 +22,12 @@ Montre comment implémenter une extension d’espace de noms Shell, y compris le
 
 Cette rubrique contient les sections suivantes.
 
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -53,14 +53,14 @@ Pour générer l’exemple à partir de l’invite de commandes :
 1.  Ouvrez la fenêtre d’invite de commandes et accédez au répertoire du projet **ExplorerDataProvider** .
 2.  Entrez `msbuild ExplorerDataProvider.sln`.
 
-Pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
+pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
 
-1.  Ouvrez l’Explorateur Windows et accédez au répertoire du projet **ExplorerDataProvider** .
+1.  ouvrez Windows Explorer et accédez au répertoire du projet **ExplorerDataProvider** .
 2.  Double-cliquez sur l’icône du fichier ExplorerDataProvider. sln pour ouvrir le projet dans Visual Studio.
-3.  Dans le menu **générer** , sélectionnez **générer la solution**. La DLL sera générée dans le répertoire de \\ débogage ou de version par défaut \\ .
+3.  Dans le menu **Générer**, sélectionnez **Générer la solution**. La DLL sera générée dans le répertoire de \\ débogage ou de version par défaut \\ .
 
 > [!Note]  
-> Dans la version de cet exemple incluse dans le SDK Windows, la configuration de la version 64 bits n’inclut pas le fichier ExplorerDataProvider. def dans l’option de **fichier de définition de module** de l’éditeur de liens. Vous devez spécifier ce fichier vous-même avant de générer dans un environnement 64 bits. Ajoutez la ligne `ModuleDefinitionFile="ExplorerDataProvider.def"` à la section VCLinkerTool (commence à la ligne 329) du fichier ExplorerDataProvider. vcproj comme indiqué ici :
+> dans la version de cet exemple incluse dans le SDK Windows, la configuration de la version 64 bits n’inclut pas le fichier ExplorerDataProvider. def dans l’option de **fichier de définition de Module** de l’éditeur de liens. Vous devez spécifier ce fichier vous-même avant de générer dans un environnement 64 bits. Ajoutez la ligne `ModuleDefinitionFile="ExplorerDataProvider.def"` à la section VCLinkerTool (commence à la ligne 329) du fichier ExplorerDataProvider. vcproj comme indiqué ici :
 >
 > <span codelanguage=""></span>
 >
@@ -84,7 +84,7 @@ Pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut)�
 >
 > ## <a name="running-the-sample"></a>Exécution de l'exemple
 >
-> 1.  Accédez au répertoire qui contient le nouveau fichier. dll et. propDesc à l’aide de l’invite de commandes ou de l’Explorateur Windows.
+> 1.  accédez au répertoire qui contient les nouveaux .dll et le fichier. propdesc à l’aide de l’invite de commandes ou de l’explorateur de Windows.
 > 2.  Sur la ligne de commande, tapez `regsvr32.exe` .
 >     > [!Note]  
 >     > Si vous exécutez cette commande à partir d’une invite de commandes avec élévation de privilèges, l’inscription automatique inscrira également le fichier. propDesc automatiquement. S’il est exécuté à partir d’une invite de commandes non élevée, l’extension de l’espace de noms fonctionne, mais sans fonctionnalité de propriété personnalisée.

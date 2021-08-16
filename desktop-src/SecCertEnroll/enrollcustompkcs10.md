@@ -4,12 +4,12 @@ ms.assetid: dcb69d7e-457e-457b-9eea-15676ed710aa
 title: enrollCustomPKCS10
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86ad95f483d4bc82136865e94a70ad46e90e1c24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 937b1e955ecd369794e832f16afff1594ed1df1271494d7172832132d4cb7863
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780028"
 ---
 # <a name="enrollcustompkcs10"></a>enrollCustomPKCS10
 
@@ -17,7 +17,7 @@ L’exemple enrollCustomPKCS10 crée une demande PKCS \# 10 personnalisée, l’
 
 ## <a name="location"></a>Emplacement
 
-Lorsque vous installez le kit de développement logiciel (SDK) Microsoft Windows, l’exemple est installé, par défaut, dans le dossier *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security \\ x509 Certificate \\ \\ enrollCustomPKCS10 VC.
+lorsque vous installez le kit de développement logiciel (SDK) de microsoft Windows, l’exemple est installé, par défaut, dans le dossier *% ProgramFiles%* \\ microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security \\ X509 certificate \\ \\ enrollCustomPKCS10 VC.
 
 ## <a name="discussion"></a>Discussions
 

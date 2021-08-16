@@ -4,12 +4,12 @@ ms.assetid: 22d98d5c-58ac-4dfc-a7e7-74c2a58b730b
 title: System. Supplemental. ResourceId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: effe24bf31fb6953a3d41458307452129f33672f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 993a0c6410b5fd009480dc03ba2f20bef37bd5a976b555614b8a55a35aac2177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864512"
 ---
 # <a name="systemsupplementalresourceid"></a>System. Supplemental. ResourceId
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

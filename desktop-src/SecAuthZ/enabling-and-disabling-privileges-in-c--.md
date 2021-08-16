@@ -4,12 +4,12 @@ ms.assetid: aa2d3fe7-01ee-4243-b72c-3e8b90068e22
 title: Activation et désactivation des privilèges en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 354f3ac2b27a7c027bd7c48e753263c43b676dd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbc36e3db162b1a7a7f12f1849ab7708bda19d90991e58a65135d0eb4c0abd04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117781725"
 ---
 # <a name="enabling-and-disabling-privileges-in-c"></a>Activation et désactivation des privilèges en C++
 
@@ -19,11 +19,11 @@ L’activation d’un privilège dans un jeton d’accès permet au processus d�
 
 | Privilège, constante           | Valeur de chaîne                  | Nom d’affichage                        |
 |------------------------------|-------------------------------|-------------------------------------|
-| nom de la \_ ASSIGNPRIMARYTOKEN se \_ | SeAssignPrimaryTokenPrivilege | Remplacer un jeton de niveau processus       |
-| nom de la sauvegarde de SE \_ \_             | SeBackupPrivilege             | Sauvegarder des fichiers et des répertoires       |
-| \_nom de débogage de se \_              | SeDebugPrivilege              | Déboguer les programmes                      |
-| \_augmenter le \_ nom du quota \_    | SeIncreaseQuotaPrivilege      | Ajuster les quotas de mémoire pour un processus  |
-| \_nom TCB du se \_                | SeTcbPrivilege                | Agir en tant que partie du système d'exploitation |
+| SE \_ nom de ASSIGNPRIMARYTOKEN \_ | SeAssignPrimaryTokenPrivilege | Remplacer un jeton de niveau processus       |
+| SE \_ nom de la sauvegarde \_             | SeBackupPrivilege             | Sauvegarder des fichiers et des répertoires       |
+| SE \_ nom du débogage \_              | SeDebugPrivilege              | Déboguer les programmes                      |
+| SE \_ AUGMENTER \_ le \_ nom du quota    | SeIncreaseQuotaPrivilege      | Ajuster les quotas de mémoire pour un processus  |
+| SE \_ \_nom TCB                | SeTcbPrivilege                | Agir en tant que partie du système d'exploitation |
 
 
 

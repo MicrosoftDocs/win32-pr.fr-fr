@@ -1,10 +1,10 @@
 ---
-title: attribut ms-TS-Connect-Printer-Drives
-description: Les lecteurs d’imprimante session des services Terminal Server spécifient s’il faut se reconnecter aux imprimantes clientes mappées à l’ouverture de session.
+title: attribut ms-TS-Connecter-Printer-drives
+description: la session des Services Terminal server Connecter les lecteurs d’imprimante spécifie s’il faut se reconnecter aux imprimantes clientes mappées à l’ouverture de session.
 ms.assetid: 80bf0ace-5c63-49f8-b689-23a55bb09577
 ms.tgt_platform: multiple
 keywords:
-- Schéma Active Directory MS-TS-Connect-Printer-Drives
+- schéma AD des attributs ms-TS-Connecter-Printer-drives
 - Schéma AD de l’attribut msTSConnectPrinterDrives
 topic_type:
 - apiref
@@ -14,22 +14,22 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d905207bf101c3077b2242311b69c5a61a5378c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e4ff7e2e754acd33103ee6df29d2fe3e688e2760f2b31cd65a7200d1ef54df79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837859"
 ---
-# <a name="ms-ts-connect-printer-drives-attribute"></a>attribut ms-TS-Connect-Printer-Drives
+# <a name="ms-ts-connect-printer-drives-attribute"></a>attribut ms-TS-Connecter-Printer-drives
 
-Les lecteurs d’imprimante session des services Terminal Server spécifient s’il faut se reconnecter aux imprimantes clientes mappées à l’ouverture de session.
+la session des Services Terminal server Connecter les lecteurs d’imprimante spécifie s’il faut se reconnecter aux imprimantes clientes mappées à l’ouverture de session.
 
 
 
 | Entrée | Valeur |
 |-------------------|--------------------------------------|
-| CN                | MS-TS-Connect-imprimantes-lecteurs         |
+| CN                | ms-TS-Connecter-imprimantes-lecteurs         |
 | LDAP-Display-Name | msTSConnectPrinterDrives             |
 | Taille              | \-                                   |
 | Mettre à jour le privilège  | \-                                   |
@@ -42,7 +42,7 @@ Les lecteurs d’imprimante session des services Terminal Server spécifient s�
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

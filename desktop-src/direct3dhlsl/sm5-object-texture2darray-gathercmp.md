@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fbac4c231f7a7070d3ca4549f3d1189b81292b8c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2753ac82ab653634a1c211f1eedde6b2867ade42f645d2f63d3cab41776ebb31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104973971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117724637"
 ---
 # <a name="texture2darraygathercmpsfloatfloatint-function"></a>Texture2DArray :: GatherCmp (S, float, float, int) (fonction)
 
@@ -81,7 +81,7 @@ Type : **float4**
 
 Une valeur à quatre composants, chaque composant est le résultat d’une comparaison par composant.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les échantillons de texture peuvent être utilisés pour l’interpolation bilinéaire.
 
@@ -89,7 +89,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

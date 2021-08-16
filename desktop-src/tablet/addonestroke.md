@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: 0af3913f2579363afbb0c3985ad0f40f58051eac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 431043b261b3e6fa67e8c6c9e45df27bb6c252dfd92b18e0e4127d4795533c0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857128"
 ---
 # <a name="addonestroke-function"></a>AddOneStroke fonction)
 
@@ -94,7 +94,7 @@ Cette fonction peut retourner l’une de ces valeurs.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                         |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                         |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | Bibliothèque<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

@@ -12,12 +12,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 06d3bb806e98e489020aa1755ef2a6c952459d86
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9bc707f88fcc731146fcd3a5bbca641e6f0515a728b07af0863894d249c16a98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726139"
 ---
 # <a name="optimizing-hlsl-shaders"></a>Optimisation des nuanceurs HLSL
 
@@ -61,7 +61,7 @@ Le tableau suivant répertorie certains cas où vous pouvez tester des condition
 
 
 
- 
+ 
 
 ## <a name="pack-variables-and-interpolants"></a>Variables et interpolations de Pack
 
@@ -83,9 +83,9 @@ N’oubliez pas que vos nuanceurs sont petits et simples. En général, les nuan
 [Guide de programmation pour HLSL](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

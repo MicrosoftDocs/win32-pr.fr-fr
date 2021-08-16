@@ -4,12 +4,12 @@ ms.assetid: 33af6310-3915-4d59-a0e7-676c6720451c
 title: System. contact. ConnectedServiceName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 434ab80b4834cc6fb426fba4a2971033d88c729d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ff0d0fa66cd4d443e357914073938197a28bf4ba624b7da61b519a325a9eb124
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117684993"
 ---
 # <a name="systemcontactconnectedservicename"></a>System. contact. ConnectedServiceName
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

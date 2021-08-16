@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 963e68d5875c3ee512e7e0d6ee7c243db72f4400
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: d7f6a37b1d37225425a60cc42887d5e587d9522929bc78a28dbb5bf5854493f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726149"
 ---
 # <a name="shader-models-vs-shader-profiles"></a>Modèles de nuanceur et profils Shader
 
@@ -22,7 +22,7 @@ Le langage d’ombrage de haut niveau pour DirectX implémente une série de mod
 
 Le Shader Model 1 a démarré avec DirectX 8 et inclut des instructions de niveau assembly et de type C. Ce modèle présente de nombreuses limitations provoquées par un matériel de nuanceur programmable précoce. Les modèles de nuanceur 2 et 3 s’étendent beaucoup sur le nombre d’instructions, et les nuanceurs de constantes pourraient utiliser. Elles sont bien plus puissantes que le modèle de nuanceur 1, mais contiennent néanmoins certaines des limitations existantes du premier modèle de nuanceur.
 
-À compter de Windows Vista, le nuanceur modèle 4 est un remaniement complet. Il autorise un nombre illimité d’instructions et de constantes (dans les contraintes matérielles de votre ordinateur), a des objets basés sur des modèles pour rendre le nettoyeur d’échantillonnage de texture et plus efficace, et présente le moins de restrictions de modèle de nuanceur. Toutefois, elle nécessite la Windows Driver Model qui est uniquement disponible sur le système d’exploitation Windows Vista (ou version ultérieure).
+à partir de Windows Vista, shader model 4 est un remaniement complet. Il autorise un nombre illimité d’instructions et de constantes (dans les contraintes matérielles de votre ordinateur), a des objets basés sur des modèles pour rendre le nettoyeur d’échantillonnage de texture et plus efficace, et présente le moins de restrictions de modèle de nuanceur. toutefois, elle nécessite la Windows Driver Model qui est uniquement disponible sur le système d’exploitation Windows Vista (ou version ultérieure).
 
 ## <a name="shader-profiles"></a>Profils de nuanceur
 

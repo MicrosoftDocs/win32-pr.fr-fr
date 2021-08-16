@@ -9,7 +9,7 @@ keywords:
 - Windows Media Format SDK, Secure audio Path (SAP)
 - gestion des droits numériques (DRM), chemin audio sécurisé (SAP)
 - DRM (gestion des droits numériques), chemin d’accès audio sécurisé (SAP)
-- Kit de développement logiciel (SDK) Windows Media format, composant de noyau DRM
+- Windows Media Format SDK, composant de noyau DRM
 - gestion des droits numériques (DRM), composant de noyau
 - DRM (gestion des droits numériques), composant de noyau
 - Microsoft Secure audio Path (SAP), composant noyau DRM
@@ -17,12 +17,12 @@ keywords:
 - SAP (chemin d’accès audio sécurisé), composant de noyau DRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bacc0074fdf390ca478ed41b59188ad42ec193c1
-ms.sourcegitcommit: 52d79b29f3b9933c8bef43207ff80c668a81cb73
+ms.openlocfilehash: 8b8db4389d9156ef13d9e87983a4ae433e6028805268f3cbd55690d4d0d8144b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104032072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845756"
 ---
 # <a name="the-drm-kernel-component-deprecated"></a>Composant de noyau DRM (déconseillé)
 
@@ -34,9 +34,9 @@ Tout d’abord, le composant client DRM et le composant de noyau DRM sont en com
 
 Deuxièmement, le composant de noyau DRM ne déchiffre pas le signal musical tant que tous les composants restants n’ont pas été authentifiés. Autrement dit, avant de déchiffrer le contenu et de le passer au composant système suivant, le composant de noyau DRM vérifie chaque composant qui reste dans le chemin d’accès à la carte son (chaque composant pouvant accéder au contenu) et vérifie que ces composants sont signés avec un certificat de Microsoft. Un composant non signé peut indiquer un composant suspect ou un pilote malveillant. Ainsi, lorsque le composant de noyau DRM valide les composants restants, si un composant échoue à ce test, le signal s’arrête et ne peut pas être lu. Dans le cas contraire, si tous les composants sont validés, le composant de noyau DRM déchiffre la musique et le transmet au composant suivant.
 
-Microsoft signe numériquement les pilotes qui réussissent les tests WHQL (Windows® Hardware Quality Lab) pour assurer aux utilisateurs qu’ils utilisent les pilotes de qualité supérieure. Cette pratique est standard et garantit l’authenticité des composants, car la signature ne peut pas être falsifiée et le code ne peut pas être modifié sans détruire la signature. Les pilotes certifiés pour le chemin d’accès audio sécurisé doivent protéger les données audio qu’ils traitent de l’accès par des composants non fiables. 
+Microsoft signe numériquement les pilotes qui passent le Windows® tests WHQL (Hardware quality Lab) pour assurer aux utilisateurs qu’ils utilisent les pilotes de qualité supérieure. Cette pratique est standard et garantit l’authenticité des composants, car la signature ne peut pas être falsifiée et le code ne peut pas être modifié sans détruire la signature. Les pilotes certifiés pour le chemin d’accès audio sécurisé doivent protéger les données audio qu’ils traitent de l’accès par des composants non fiables. 
 
-Les pilotes inclus dans Windows Millennium Edition et Windows XP sont mis à jour pour un chemin d’accès audio sécurisé et signés. Les pilotes qui ne sont pas signés pour une utilisation avec Windows me ou Windows XP ne peuvent pas lire de musique protégée. Les fabricants de pilotes peuvent réémettre des versions mises à jour de leurs pilotes qui sont signés par WHQL et les publier sur Internet pour que les clients puissent les télécharger.
+les pilotes inclus dans Windows Millennium Edition et Windows XP sont mis à jour pour le chemin Audio sécurisé et signé. les pilotes qui ne sont pas signés pour une utilisation avec Windows Me ou Windows XP ne peuvent pas lire de musique protégée. Les fabricants de pilotes peuvent réémettre des versions mises à jour de leurs pilotes qui sont signés par WHQL et les publier sur Internet pour que les clients puissent les télécharger.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -45,9 +45,9 @@ Les pilotes inclus dans Windows Millennium Edition et Windows XP sont mis à jou
 [**Chemin d’accès audio sécurisé Microsoft**](microsoft-secure-audio-path--deprecated.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

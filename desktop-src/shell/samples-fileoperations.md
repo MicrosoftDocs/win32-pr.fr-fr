@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 4ef70e6da6e59b0fcff0ba488a26d5e2cf43509a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0aea9f50522c71dc36f2a9fa457de66a3cdc05a37d06c590f9fe9cdbe3042b76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117677579"
 ---
 # <a name="file-operations-sample"></a>Opérations sur les fichiers, exemple
 
@@ -22,12 +22,12 @@ Montre comment copier, déplacer, supprimer et renommer des objets de système d
 
 Cette rubrique contient les sections suivantes.
 
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
