@@ -4,12 +4,12 @@ ms.assetid: 97b07dbc-6b84-46d2-acc7-db81d94538f7
 title: LPD3DXIMTSIGNALCALLBACK
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dbf75bf1a3fc05b217feef8446636efaae55b3b
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 96e4f6ffaa4c844e755d489aae52dd13b8390da1145734d50f5865bbe0e3cfc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728506"
 ---
 # <a name="lpd3dximtsignalcallback"></a>LPD3DXIMTSIGNALCALLBACK
 
@@ -47,7 +47,7 @@ Cette fonction doit être implémentée pour retourner S \_ OK.
 
 ## <a name="remarks"></a>Remarques
 
-Veillez à spécifier la Convention d’appel des [**types de données Windows**](../winprog/windows-data-types.md) lors de la déclaration de la fonction de rappel. Sinon, les dépassements de capacité de la pile peuvent se produire.
+veillez à spécifier la convention d’appel des [**Types de données Windows**](../winprog/windows-data-types.md) lors de la déclaration de la fonction de rappel. Sinon, les dépassements de capacité de la pile peuvent se produire.
 
 
 

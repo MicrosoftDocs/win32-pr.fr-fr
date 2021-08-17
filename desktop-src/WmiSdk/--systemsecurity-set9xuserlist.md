@@ -1,5 +1,5 @@
 ---
-description: Définit les droits d’accès à distance pour une liste d’utilisateurs individuels sur des ordinateurs exécutant des versions obsolètes de Windows, où le contrôle d’accès via les descripteurs de sécurité Windows n’est pas disponible.
+description: définit les droits d’accès à distance pour une liste d’utilisateurs individuels sur des ordinateurs exécutant des versions obsolètes de Windows, où le contrôle d’accès via Windows descripteurs de sécurité n’est pas disponible.
 ms.assetid: f6da65d3-86dd-4fc8-b4c0-f7ddc8536d4e
 ms.tgt_platform: multiple
 title: '__SystemSecurity :: Set9XUserList, méthode'
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - all
-ms.openlocfilehash: dd377da3adf55aef6a78576e1c978196f349f619
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1185fa91d9d12e240f592d458b975b650947cf5b8cd1b289a7e016b455556a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118109960"
 ---
 # <a name="__systemsecurityset9xuserlist-method"></a>\_\_SystemSecurity :: Set9XUserList, méthode
 
-La méthode **\_ \_ SystemSecurity :: Set9XUserList** définit les droits d’accès à distance pour une liste d’utilisateurs individuels sur des ordinateurs exécutant des versions obsolètes de Windows, où le contrôle d’accès par le biais de descripteurs de sécurité Windows n’est pas disponible.
+la méthode **\_ \_ SystemSecurity :: Set9XUserList** définit les droits d’accès à distance pour une liste d’utilisateurs individuels sur les ordinateurs qui exécutent des versions obsolètes de Windows, où le contrôle d’accès via Windows descripteurs de sécurité n’est pas disponible.
 
 La liste est spécifiée sous la forme d’un tableau d’objets incorporés où chaque objet est une instance de la classe [**\_ \_ NTLMUser9X**](--ntlmuser9x.md) . Cette fonction est similaire au descripteur de sécurité, mais elle est plus limitée. Les groupes ne sont pas pris en charge et il n’y a aucun contrôle sur l’accès local, car l’utilisateur local a toujours un accès complet. Refuser et autoriser les entrées de contrôle d’accès (ACE) sont autorisées, et pour cette raison, l’ordre d’accès est important dans la liste de contrôle d’accès discrétionnaire (DACL, Discretionary Access Control List). Pour plus d’informations, consultez [ordre des entrées de commande dans une liste DACL](/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl).
 
@@ -51,7 +51,7 @@ Tableau d’utilisateurs.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Cette méthode retourne un **HRESULT** qui indique l’état de l’appel de la méthode. La liste suivante répertorie les valeurs de retour dont l’importance est de **Set9XUserList**. Pour les applications de script et de Visual Basic, le résultat peut être obtenu à partir de out- [Parameters. returnValue](parsing-outparameters-objects.md). Pour plus d’informations, consultez [construction d’objets inparamètres et analyse d’objets de paramètres de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
+Cette méthode retourne un **HRESULT** qui indique l’état de l’appel de la méthode. La liste suivante répertorie les valeurs de retour dont l’importance est de **Set9XUserList**. pour les applications de script et de Visual Basic, le résultat peut être obtenu à partir de out- [parameters. ReturnValue](parsing-outparameters-objects.md). Pour plus d’informations, consultez [construction d’objets inparamètres et analyse d’objets de paramètres de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
 
 <dl> <dt>
 

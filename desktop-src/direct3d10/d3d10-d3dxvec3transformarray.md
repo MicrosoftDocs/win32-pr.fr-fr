@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: bc38f0ef634763d9a5be85795a897b483431aede
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 00e8c2325b395a929af42abda4218a2458a8d964116a04f28ebac1ff72a877f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914692"
 ---
 # <a name="d3dxvec3transformarray-function-d3dx10mathh"></a>D3DXVec3TransformArray, fonction (D3DX10Math. h)
 
@@ -98,13 +98,13 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointeur vers un tableau transformé [**D3DXVECTOR4**](d3d10-d3dxvector4.md) .
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette fonction transforme le tableau (x, y, z, 1) par la matrice pM.
 

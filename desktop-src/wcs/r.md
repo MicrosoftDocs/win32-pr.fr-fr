@@ -3,18 +3,18 @@ title: R
 description: R
 ms.assetid: 03819a70-487b-45fd-9eb0-1becc55b4ccb
 keywords:
-- Windows Color System (WCS), Glossaire
-- WCS (système de couleurs Windows), Glossaire
+- Windows Système de couleurs (WCS), Glossaire
+- WCS (Windows Color System), glossaire
 - gestion des couleurs des images, Glossaire
 - gestion des couleurs, Glossaire
 - couleurs, Glossaire
-- Système de couleurs Windows (WCS), définitions
-- WCS (système de couleurs Windows), définitions
+- Windows Système de couleurs (WCS), définitions
+- WCS (Windows Color System), définitions
 - gestion des couleurs des images, définitions
 - gestion des couleurs, définitions
 - couleurs, définitions
-- Windows Color System (WCS), termes
-- WCS (système de couleurs Windows), termes
+- Windows Système de couleurs (WCS), termes
+- WCS (Windows Color System), termes
 - gestion des couleurs des images, termes
 - gestion des couleurs, termes
 - couleurs, termes
@@ -26,12 +26,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5f03f0d294fff0c850c4674d3431c34dccf67ed
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: d13eb2e78b76c2ca6323a7a9d9e625748a3cf2ab3ce5e6aafdd2b6904f654713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106539780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118209699"
 ---
 # <a name="r"></a>R
 

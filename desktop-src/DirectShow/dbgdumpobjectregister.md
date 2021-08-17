@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 727d9c00ebbe3d48bb46797a1e27b9dd27c7b2c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d82d7b419949210e19460880126a07ad52f63ae59f6055e5a2b968a2dd5c7beb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821576"
 ---
 # <a name="dbgdumpobjectregister-function"></a>DbgDumpObjectRegister fonction)
 
@@ -44,7 +44,7 @@ Cette fonction n’a pas de paramètres.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans les versions Debug, la bibliothèque de débogage gère une liste d’objets actifs. La liste comprend tous les objets qui dérivent de [**CBaseObject**](cbaseobject.md), qui ont été créés par le module en cours et qui n’ont pas été détruits. Le constructeur **CBaseObject** et les méthodes de destructeur mettent à jour la liste.
 
@@ -56,7 +56,7 @@ Cette fonction génère plusieurs messages de mémoire de journal \_ . Au niveau
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxdebug. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Wxdebug. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

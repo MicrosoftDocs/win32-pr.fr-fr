@@ -1,15 +1,15 @@
 ---
 title: Algorithmes et schéma de profil de modèle d’appareil de couleur WCS
-description: Cette rubrique fournit des informations sur le schéma de profil de modèle de périphérique de couleur WCS et les algorithmes qui lui sont associés. Cette rubrique contient les sections suivantes OverviewColor Device Model Profile ArchitectureThe CDMP SchemaWCS CDMP v 2.0 étalonnage AdditionThe CDMP Schema ElementsColorDeviceModelProfileColorDeviceModelNamespaceVersionVersionDocumentationCRTDevice elementLCDDevice elementProjectorDevice elementScannerDevice elementCameraDevice elementRGBPrinterDevice elementCMYKPrinterDevice elementRGBVirtualDevice elementPlugInDeviceTypeRGBVirtualMeasurementTypeGammaTypeGammaOffsetGainTypeGammaOffsetGainLinearGainTypeToneResponseCurvesTypeGamutBoundarySamplesTypeFloatPairListCMYKPrinterMeasurementTypeRGBPrinterMeasurementTypeRGBCaptureMeasurementTypeOneBasedIndexRGBProjectorMeasurementTypeDisplayMeasurementTy peMeasurementConditionsTypeGeometryTypeRGBPrimariesGroupNonNegativeCMYKSampleTypeNonNegativeRGBSampleTypeNonNegativeCMYKTypeNonNegativeRGBTypeExtensionTypeNonNegativeXYZTypeXYZTypeThe CDMP Baseline AlgorithmsCRT modèle d’appareil BaselineLCD modèle d’appareil BaselineRGB imprimante modèle d’appareil BaselineRGB modèle d’appareil BaselineCMYK imprimante modèle de périphérique BaselineRGB projecteur périphérique BaselineICC modèle d’appareil BaselineRelated rubriques
+description: Cette rubrique fournit des informations sur le schéma de profil de modèle de périphérique de couleur WCS et les algorithmes qui lui sont associés. Cette rubrique contient les sections suivantes OverviewColor Device Model Profile ArchitectureThe CDMP SchemaWCS CDMP v 2.0 étalonnage AdditionThe CDMP Schema ElementsColorDeviceModelProfileColorDeviceModelNamespaceVersionVersionDocumentationCRTDevice elementLCDDevice elementProjectorDevice elementScannerDevice elementCameraDevice elementRGBPrinterDevice elementCMYKPrinterDevice elementRGBVirtualDevice elementPlugInDeviceTypeRGBVirtualMeasurementTypeGammaTypeGammaOffsetGainTypeGammaOffsetGainLinearGainTypeToneResponseCurvesTypeGamutBoundarySamplesTypeFloatPairListCMYKPrinterMeasurementTypeRGBPrinterMeasurementTypeRGBCaptureMeasurementTypeOneBasedIndexRGBProjectorMeasurementTypeDisplayMeasurementTypeMeasurementConditionsTypeGeometryTypeRGBPrimariesGroupNonNegativeCMYKSampleTypeNonNegativeRGBSampleTypeNonNegativeCMYKTypeNonNegativeRGBTypeExtensionTypeNonNegativeXYZTypeXYZTypeThe  Modèle d’appareil CDMP de base AlgorithmsCRT BaselineLCD modèle de périphérique BaselineRGB d’imprimante BaselineRGB modèle d’appareil virtuel BaselineCMYK modèle d’appareil d’imprimante BaselineRGB modèle d’appareil BaselineICC modèle d’appareil BaselineRelated rubriques
 ms.assetid: bbb3b50d-75fc-476d-a011-af7dcc2ac520
 keywords:
-- Système de couleurs Windows (WCS), profil de modèle de périphérique en couleurs (CDMP)
-- WCS (système de couleurs Windows), profil de modèle de périphérique en couleurs (CDMP)
+- Windows Système de couleurs (WCS), profil de modèle de périphérique en couleur (CDMP)
+- WCS (Windows color System), profil de modèle de périphérique en couleurs (CDMP)
 - gestion des couleurs des images, profil de modèle de périphérique en couleurs (CDMP)
 - gestion des couleurs, profil de modèle de périphérique en couleurs (CDMP)
 - couleurs, profil de modèle de périphérique en couleurs (CDMP)
-- Système de couleurs Windows (WCS), profils
-- WCS (système de couleurs Windows), profils
+- Windows Système de couleurs (WCS), profils
+- WCS (Windows Color System), profils
 - gestion des couleurs des images, profils
 - gestion des couleurs, profils
 - couleurs, profils
@@ -21,12 +21,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8b671bf97625b00c99060e65be4d39c44e5b35f
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 5210da85cd320a80e6b29a59e3cb5ff37c86fd174934832404e4b52cf53bd110
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104551796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118037902"
 ---
 # <a name="wcs-color-device-model-profile-schema-and-algorithms"></a>Algorithmes et schéma de profil de modèle d’appareil de couleur WCS
 
@@ -34,7 +34,7 @@ Cette rubrique fournit des informations sur le schéma de profil de modèle de p
 
 Cette rubrique contient les sections suivantes :
 
--   [Vue d’ensemble](#overview)
+-   [Vue d'ensemble](#overview)
 -   [Architecture du profil de modèle de périphérique en couleurs](#color-device-model-profile-architecture)
 -   [Schéma CDMP](#the-cdmp-schema)
 -   [Ajout d’étalonnage à WCS CDMP v 2.0](#wcs-cdmp-v20-calibration-addition)
@@ -484,7 +484,7 @@ En outre, le profil d’appareil fournit des informations spécifiques sur le mo
 
 ## <a name="wcs-cdmp-v20-calibration-addition"></a>Ajout d’étalonnage à WCS CDMP v 2.0
 
-L’élément **ColorDeviceModel** du schéma CDMP a été mis à jour dans Windows 7 pour inclure le nouvel élément d’étalonnage. L’exemple suivant montre la modification apportée au schéma CDMP.
+l’élément **ColorDeviceModel** du schéma CDMP a été mis à jour dans Windows 7 pour inclure le nouvel élément d’étalonnage. L’exemple suivant montre la modification apportée au schéma CDMP.
 
 
 ```C++
@@ -565,7 +565,7 @@ Version = « 1,0 » avec Windows Vista.
 
 Schéma de profil de modèle d’appareil.
 
-Copyright (C) Microsoft. Tous droits réservés.
+Copyright (C) Microsoft. All rights reserved.
 
 ### <a name="crtdevice-element"></a>Élément CRTDevice
 
@@ -1051,7 +1051,7 @@ Avec le cône actuel, la recherche initiale concerne les points situés à une d
 
 ![Diagramme qui montre le déroulement de l’algorithme.](images/cdmp-lcd-dmp-figure4.png)
 
-**Figure 4** : diagramme de Flow permettant de déterminer le jeu de points d’échantillonnage utilisé dans l’extrapolation pour une valeur RVB d’entrée
+**Figure 4** : diagramme de Flow permettant de déterminer le jeu de points d’échantillonnage utilisé dans l’extrapolation pour une valeur rvb d’entrée
 
 En supposant que le processus précédent génère *un ensemble non* vide de points (*R <sub>i</sub>*,*G <sub>i</sub>*,*B <sub>i</sub>* ) et correspondant (*L <sub>i</sub>*,*<sub>i</sub>*,*b <sub>i</sub>* ), puis, pour chaque point, un poids *w <sub></sub>* affecté, donné par
 
@@ -1145,7 +1145,7 @@ L’encodage de type de fonction ICC parametricCurveType et la prise en charge c
 
 
 
-| Type de fonction                                         | Paramètres                          | Type                                     | Remarque                                           |
+| Type de fonction                                         | Paramètres                          | Type                                     | Notes                                           |
 |------------------------------------------|---------------------------|--------------------------------------|--------------------------------------------|
 | ![Affiche la fonction « GammaType ».](images/cdmp-image154.png)<br/> | g<br/>              | GammaType<br/>                 | Implémentation courante<br/>           |
 | ![Affiche la fonction « GammaOffsetGainType ».](images/cdmp-image156.png)<br/> | GA b<br/>           | GammaOffsetGainType<br/>       | CIE 122-1966<br/>                    |

@@ -5,12 +5,12 @@ ms.assetid: 6c9e0dbf-59a2-4db9-8fb8-0dbfda5cf38b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 303e0a708c2b52225af83475674e5f60d1a8418d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 46e155e4d8467722e9ac5eae04189ed3ba8333f65ec162ffb50f6b9268cf8a92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751040"
 ---
 # <a name="removing-an-event-source-from-a-collector-initiated-subscription"></a>Suppression d’une source d’événement d’un abonnement initié par le collecteur
 
@@ -26,17 +26,17 @@ Pour répertorier les abonnements en cours sur un ordinateur local, vous pouvez 
 >
 > Vous pouvez utiliser cet exemple pour supprimer une source d’événement d’un abonnement initié par le collecteur, ou vous pouvez taper la commande suivante à l’invite de commandes :
 >
-> **wecutil SS** *SubscriptionName*  * */ESA : * * * EventSourceAddress* **/res**
+> **wecutil SS** *SubscriptionName* **/ESA :**_EventSourceAddress_ **/res**
 >
 > *EventSourceAddress* peut être localhost pour l’ordinateur local ou un nom de domaine complet pour un ordinateur distant.
 
- 
+ 
 
 Cet exemple suit une série d’étapes pour supprimer une source d’événement d’un abonnement initié par le collecteur.
 
 **Pour supprimer une source d’événement d’un abonnement initié par le collecteur**
 
-1.  Ouvrez l’abonnement existant en fournissant le nom de l’abonnement et les droits d’accès en tant que paramètres à la fonction [**EcOpenSubscription**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . Pour plus d’informations sur les droits d’accès, consultez [**constantes du collecteur d’événements Windows**](windows-event-collector-constants.md).
+1.  Ouvrez l’abonnement existant en fournissant le nom de l’abonnement et les droits d’accès en tant que paramètres à la fonction [**EcOpenSubscription**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . pour plus d’informations sur les droits d’accès, consultez [**Windows des constantes du collecteur d’événements**](windows-event-collector-constants.md).
 2.  Récupérez le tableau des sources d’événements de l’abonnement en appelant la fonction [**EcGetSubscriptionProperty**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionproperty) . Pour plus d’informations sur les propriétés d’abonnement qui peuvent être récupérées, consultez l’énumération de l' [**\_ ID de \_ propriété \_ d’abonnement EC**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_property_id) .
 3.  Recherchez la source d’événements spécifiée dans le tableau des sources d’événements de l’abonnement en appelant la fonction [**EcGetObjectArrayProperty**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetobjectarrayproperty) . La valeur de la propriété **EcSubscriptionEventSourceAddress** sera localhost pour l’ordinateur local ou sera un nom de domaine complet pour un ordinateur distant. Pour plus d’informations sur les propriétés de la source d’événements qui peuvent être récupérées, consultez l’énumération de l' **\_ ID de \_ propriété \_ d’abonnement EC** .
 4.  Supprimez la source de l’événement de l’abonnement en appelant la fonction [**EcRemoveObjectArrayElement**](/windows/desktop/api/Evcoll/nf-evcoll-ecremoveobjectarrayelement) .
@@ -325,12 +325,12 @@ DWORD GetEventSourceProperty(EC_OBJECT_ARRAY_PROPERTY_HANDLE hArray,
 [Liste des abonnements du collecteur d’événements](listing-event-collector-subscriptions.md)
 </dt> <dt>
 
-[Informations de référence sur le collecteur d’événements Windows](windows-event-collector-reference.md)
+[Windows Référence du collecteur d’événements](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

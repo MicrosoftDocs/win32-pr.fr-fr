@@ -15,12 +15,12 @@ keywords:
 - licences, acquisition de licence silencieuse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7ef92eaf4e347e8eb30f56c1111ec5b27f1e62d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7eff454ce673230f0c7dbe6f64afbf46e9bbe8b5f948609f5fb67d647a4151ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118197461"
 ---
 # <a name="silent-license-acquisition"></a>Acquisition de licence en mode silencieux
 
@@ -43,9 +43,9 @@ Pour effectuer une acquisition de licence en mode silencieux, procédez comme su
 [**Utilisation du modèle d’événement Media Foundation**](using-the-media-foundation-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

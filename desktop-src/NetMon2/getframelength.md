@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 29a2a08ac105414a914e14a9ce8e69976725700c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2344f2401995af3bac2e8245f48824dfb992076113eb8c27dcb9eff0a54eae04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117795701"
 ---
 # <a name="getframelength-function"></a>GetFrameLength fonction)
 
@@ -52,7 +52,7 @@ Si la fonction réussit, la valeur de retour est la longueur du frame en octets.
 
 Si la fonction échoue, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **GetFrameLength** .
 

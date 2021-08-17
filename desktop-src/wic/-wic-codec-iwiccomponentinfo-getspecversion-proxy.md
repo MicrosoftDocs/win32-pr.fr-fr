@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: a7b9b0a44eb5fd8404eecc3ad355ec280583d690
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a29b57e84b7cf9ceee67ac4f64ac090e697366fbe0698a891c8fbcc87e3ff5b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118206582"
 ---
 # <a name="iwiccomponentinfo_getspecversion_proxy-function"></a>IWICComponentInfo \_ \_ fonction proxy GetSpecVersion
 
@@ -46,9 +46,9 @@ HRESULT IWICComponentInfo_GetSpecVersion_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICComponentInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo) \** _
+Type : **[ **IWICComponentInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo)\***
 
-Pointeur vers cet objet [_ *IWICComponentInfo* *](/windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo) .
+Pointeur vers cet objet [**IWICComponentInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo) .
 
 </dd> <dt>
 
@@ -64,16 +64,16 @@ Taille de la mémoire tampon *wzSpecVersion* .
 *wzSpecVersion* \[ in, out\]
 </dt> <dd>
 
-Type : **WCHAR \** _
+Type : **WCHAR \***
 
 Lorsque cette méthode est retournée, contient une chaîne invarient de culture de la version de la spécification du composant. Le formulaire de version est NN. NN. NN. NN.
 
 </dd> <dt>
 
-_pcchActual * \[ out\]
+*pcchActual* \[ à\]
 </dt> <dd>
 
-Type : **uint \** _
+Type : **uint \***
 
 Pointeur qui reçoit la longueur réelle de la version de la spécification du composant.
 
@@ -81,7 +81,7 @@ Pointeur qui reçoit la longueur réelle de la version de la spécification du c
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
@@ -93,8 +93,8 @@ Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP avec SP2, applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                                                             |
+| Client minimal pris en charge<br/> | Windows XP avec SP2, Windows les \[ applications de bureau Vista uniquement\]<br/>                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll ; </dt> <dt>Wincodec. lib</dt> </dl> |
 
 

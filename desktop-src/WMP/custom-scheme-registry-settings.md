@@ -1,28 +1,28 @@
 ---
-title: Paramètres de Registre du schéma personnalisé
-description: Paramètres de Registre du schéma personnalisé
+title: Paramètres du registre du schéma personnalisé
+description: Paramètres du registre du schéma personnalisé
 ms.assetid: ded2b492-7755-4ba5-87cf-720a79ec79de
 keywords:
-- Lecteur Windows Media, paramètres de Registre du schéma personnalisé
-- Windows Media Player, schémas
+- Lecteur Windows Media, paramètres de registre du schéma personnalisé
+- Lecteur Windows Media, schémas
 - Lecteur Windows Media, registre
 - Registre, paramètres de schéma personnalisés
 - Registre, schémas
-- Registre, paramètres pour le lecteur Windows Media
+- registre, paramètres pour Lecteur Windows Media
 - schémas
 - paramètres de Registre du schéma personnalisé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a02649d9536140fff0ff0d3188a5b25feb49688
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: af1f20b69570a18d256049bb0e785099e43b091d080e4f9f65e62655c3103d68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117750392"
 ---
-# <a name="custom-scheme-registry-settings"></a>Paramètres de Registre du schéma personnalisé
+# <a name="custom-scheme-registry-settings"></a>Paramètres du registre du schéma personnalisé
 
-Les schémas sont des protocoles personnalisés. Le lecteur Windows Media gère une liste de schémas dans le registre sur l’ordinateur de l’utilisateur. Lorsque l’utilisateur tente de lire un fichier multimédia numérique, le lecteur vérifie d’abord si le kit de développement logiciel (SDK) du format Windows Media prend en charge le schéma. Si ce n’est pas le cas, le lecteur vérifie le schéma par rapport à la liste figurant dans le registre. Si une correspondance est trouvée, le lecteur vérifie ensuite une valeur qui indique la technologie sous-jacente, ou le *Runtime* (par exemple, Microsoft DirectShow ou le kit de développement logiciel (SDK) Windows Media Format), peut être utilisé pour lire le fichier. Si aucune correspondance n’est trouvée, le lecteur présente à l’utilisateur une boîte de dialogue d’avertissement qui demande à l’utilisateur l’autorisation d’essayer de lire le fichier. Si vous diffusez en continu des fichiers multimédias numériques à l’aide d’un schéma de protocole personnalisé, vous pouvez empêcher l’affichage de cet avertissement sur l’ordinateur de l’utilisateur en inscrivant le schéma et en fournissant une valeur pour le Runtime.
+Les schémas sont des protocoles personnalisés. Lecteur Windows Media gère une liste de schémas dans le registre sur l’ordinateur de l’utilisateur. lorsque l’utilisateur tente de lire un fichier multimédia numérique, le lecteur vérifie d’abord si le kit de développement logiciel (SDK) Windows media Format prend en charge le schéma. Si ce n’est pas le cas, le lecteur vérifie le schéma par rapport à la liste figurant dans le registre. si une correspondance est trouvée, le lecteur vérifie ensuite une valeur qui indique la technologie sous-jacente ou le *runtime* (par exemple, Microsoft DirectShow ou le kit de développement logiciel (SDK) Windows Media Format), qui peut être utilisé pour lire le fichier. Si aucune correspondance n’est trouvée, le lecteur présente à l’utilisateur une boîte de dialogue d’avertissement qui demande à l’utilisateur l’autorisation d’essayer de lire le fichier. Si vous diffusez en continu des fichiers multimédias numériques à l’aide d’un schéma de protocole personnalisé, vous pouvez empêcher l’affichage de cet avertissement sur l’ordinateur de l’utilisateur en inscrivant le schéma et en fournissant une valeur pour le Runtime.
 
 La liste des schémas est conservée sous la forme d’un ensemble de clés de Registre qui correspondent aux schémas inscrits, sans le signe deux-points et les deux barres obliques (://). Par exemple, la clé pour le schéma wmhtml://, qui est utilisé pour diffuser des médias enrichis, est nommée « wmhtml ». Une liste distincte est conservée pour l’ordinateur local et pour chaque utilisateur. Pour l’ordinateur local, les clés de schéma sont des sous-clés de la clé de Registre suivante :
 
@@ -50,14 +50,14 @@ Chaque sous-clé de schéma peut contenir l’une des valeurs possibles suivante
 
 | Valeur | Description                                |
 |-------|--------------------------------------------|
-| 6     | Rendu à l’aide du kit de développement logiciel (SDK) Windows Media format. |
-| 7     | Rendu à l’aide de Microsoft DirectShow.         |
+| 6     | rendu à l’aide du kit de développement logiciel (SDK) Windows Media Format. |
+| 7     | Effectuer un rendu à l’aide de Microsoft DirectShow.         |
 
 
 
- 
+ 
 
-La modification de la valeur d' *exécution* d’un schéma pris en charge par le kit de développement logiciel (SDK) du format Windows Media n’a aucun effet. Le lecteur utilisera toujours le kit de développement logiciel (SDK) de format Windows Media comme Runtime pour les schémas pris en charge par le kit de développement logiciel (SDK) Windows Media format. Cette valeur de Registre est conçue pour permettre la configuration du runtime pour les schémas personnalisés.
+la modification de la valeur d' *exécution* d’un schéma pris en charge par le kit de développement logiciel (SDK) Windows Media Format n’a aucun effet. le lecteur utilise toujours le kit de développement logiciel (sdk) de format de média Windows comme runtime pour les schémas pris en charge par le kit de développement logiciel (sdk) Windows media format. Cette valeur de Registre est conçue pour permettre la configuration du runtime pour les schémas personnalisés.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -66,9 +66,9 @@ La modification de la valeur d' *exécution* d’un schéma pris en charge par l
 [**Paramètres du Registre**](registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 2ba9b943-0daa-40c1-87ea-2fa647fb7095
 title: MFPKEY_MACROBLOCKMODECOSTMETHOD, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 289219300a79c67565891c48cec848851c17bd7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfe61be79b07a09d1f55c09b1970c4becbf7aca9818c525420712952bac40db4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873283"
 ---
 # <a name="mfpkey_macroblockmodecostmethod-property"></a>MFPKEY \_ propriété MACROBLOCKMODECOSTMETHOD
 
@@ -27,7 +27,7 @@ VT \_
 
 0
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété peut être définie sur l’une des valeurs suivantes.
 
@@ -48,8 +48,8 @@ Cette propriété peut être définie sur l’une des valeurs suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

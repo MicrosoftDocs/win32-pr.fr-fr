@@ -4,12 +4,12 @@ ms.assetid: 980b8242-2ba2-469f-b834-da7d3fb22e14
 title: ACE (Winnt. h)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e4d06b3457e4df6aea38d3e35acf4f7aaa4e2f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de555170bc8b7c1594b38adaa95d19b7e9ace54c8241fc971ea9f5383cf3e115
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106525015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785218"
 ---
 # <a name="ace"></a>MAILLOTS
 
@@ -181,9 +181,9 @@ Les ACE d’alarme système propre à l’objet et à l’alarme système ne son
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                   |
-| En-tête<br/>                   | <dl> <dt>Winnt. h (inclure Windows. h)</dt> </dl> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                   |
+| En-tête<br/>                   | <dl> <dt>winnt. h (inclure Windows. h)</dt> </dl> |
 
 
 

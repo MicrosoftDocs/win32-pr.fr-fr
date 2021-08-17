@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI, page de démarrage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15cc702fec86f1202f1fbd00ba575fd848e4ab74
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: a03c82f075822d04edf27edc56e14bb058745ae2ee0d7fbe280cd33ee2af2282
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181433"
 ---
 # <a name="active-directory-service-interfaces"></a>Interfaces de service Active Directory
 
@@ -27,7 +27,7 @@ ADSI permet des tâches d’administration courantes, telles que l’ajout de no
 > [!Note]  
 > La documentation suivante est destinée aux programmeurs informatiques. Si vous êtes un utilisateur final qui tente de déboguer une erreur d’impression ou un problème de réseau à distance, consultez les forums de la [communauté Microsoft](https://answers.microsoft.com).
 
- 
+ 
 
 ## <a name="where-applicable"></a>Le cas échéant
 
@@ -37,7 +37,7 @@ Les éditeurs de logiciels indépendants et les développeurs d’utilisateurs f
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-Vous pouvez écrire des applications clientes ADSI dans de nombreux langages. Pour la plupart des tâches d’administration, ADSI définit des interfaces et des objets accessibles à partir de langages compatibles Automation tels que Microsoft Visual Basic, Microsoft Visual Basic Scripting Edition (VBScript) et Java à des langages de performances et d’efficacité plus sensibles, tels que C et C++. Une bonne base de la programmation COM est utile pour le programmeur ADSI.
+Vous pouvez écrire des applications clientes ADSI dans de nombreux langages. pour la plupart des tâches d’administration, ADSI définit des interfaces et des objets accessibles à partir de langages compatibles Automation tels que microsoft Visual Basic, microsoft Visual Basic scripting Edition (VBScript) et Java à des langages de performances et d’efficacité plus sensibles, tels que C et C++. Une bonne base de la programmation COM est utile pour le programmeur ADSI.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
@@ -85,9 +85,9 @@ Documentation des interfaces et des méthodes ADSI.
 [Clients et serveurs COM](../com/com-clients-and-servers.md)
 </dt> <dt>
 
-[Active Directory Domain Services](../ad/active-directory-domain-services.md)
+[Services de domaine Active Directory](../ad/active-directory-domain-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

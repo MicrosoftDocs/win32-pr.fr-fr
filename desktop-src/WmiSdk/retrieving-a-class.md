@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Récupération d’une classe WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9378854eb483c6cdac7ddee47d581d8876270e97
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 9e2695a934436e6e53fe84ee11c6008615b3d6f5d1807039d76b72fa704a2cf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "106543552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739878"
 ---
 # <a name="retrieving-a-wmi-class"></a>Récupération d’une classe WMI
 
@@ -119,7 +119,7 @@ Vous pouvez récupérer une définition de classe dans VBScript de la même faç
     Sur Active Server pages (ASP), utilisez [**GetObject**](https://msdn.microsoft.com/library/e9waz863(v=VS.71).aspx) ou [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) dans le script côté serveur. Pour plus d’informations, consultez [création de pages de Active Server pour WMI](creating-active-server-pages-for-wmi.md).
 
 3.  Une classe ou une instance peut également être spécifiée, auquel cas l’objet retourné est un objet WMI, par exemple, une instance de [**\_ disque logique Win32**](/windows/desktop/CIMWin32Prov/win32-logicaldisk), plutôt qu’un objet services. Notez que vous ne pouvez pas utiliser les fonctions VBScript [**GetObject**](https://msdn.microsoft.com/library/e9waz863(v=VS.71).aspx) pour créer une instance de l’objet générique [**SWbemObject**](swbemobject.md).
-4.  Dans les pages HTML s’exécutant dans Microsoft Internet Explorer (IE), [**GetObject**](https://msdn.microsoft.com/library/e9waz863(v=VS.71).aspx) et [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) peuvent échouer parce que les objets de script WMI, comme les contrôles ActiveX, ne sont pas marqués comme sécurisés pour l’écriture de scripts. La seule exception est l’objet [**SWbemDateTime**](swbemdatetime.md) . La seule façon dont ces appels peuvent être exécutés est lorsque vous réduisez les paramètres de sécurité d’Internet Explorer, ce qui n’est pas recommandé.
+4.  dans les pages HTML s’exécutant dans Microsoft Internet Explorer (IE), [**GetObject**](https://msdn.microsoft.com/library/e9waz863(v=VS.71).aspx) et [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) peuvent échouer parce que les objets de script WMI, comme les contrôles ActiveX, ne sont pas marqués comme sécurisés pour l’écriture de scripts. La seule exception est l’objet [**SWbemDateTime**](swbemdatetime.md) . La seule façon dont ces appels peuvent être exécutés est lorsque vous réduisez les paramètres de sécurité d’Internet Explorer, ce qui n’est pas recommandé.
 
 Lorsque vous récupérez une classe en C++, appelez la version de la fonction [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) de [**GetObject**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject).
 

@@ -4,12 +4,12 @@ ms.assetid: 7e2ff8be-b21f-4833-a165-0112d4220677
 title: Propriété AVDecVideoSWPowerLevel (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1196c45cf038085856b1d63a5cd3a1c7dc350d0d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a7c362e066a16e333cda402704a720b5e1b0b8534f1b56536d32009e6fa29663
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824219"
 ---
 # <a name="avdecvideoswpowerlevel-property"></a>Propriété AVDecVideoSWPowerLevel
 
@@ -42,7 +42,7 @@ La plage des valeurs possibles est \[ 0.. 100 \] , inclusive, avec la significat
 
 L’énumération [**eAVDecVideoSWPowerLevel**](/windows/desktop/api/codecapi/ne-codecapi-eavdecvideoswpowerlevel) définit des constantes spécifiques dans cette plage.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez définir cette propriété lors de la lecture pour modifier le niveau d’économie d’énergie.
 
@@ -52,8 +52,8 @@ Vous pouvez définir cette propriété lors de la lecture pour modifier le nivea
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

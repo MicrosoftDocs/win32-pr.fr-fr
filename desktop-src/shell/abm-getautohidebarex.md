@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 2ef95739a1031efb199e6acd99686e0858a9630e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9aecbc81e313c3d971b310cc35bd399b93cc18f2ef2a4f02a00d51a16745eb61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104982970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118225238"
 ---
 # <a name="abm_getautohidebarex-message"></a>\_Message ABM GETAUTOHIDEBAREX
 
@@ -46,7 +46,7 @@ Pointeur vers une structure [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-sh
 
 Retourne le handle du appbar de masquage automatique. La valeur de retour est **null** si une erreur se produit ou si aucun appbar de masquage automatique n’est associé au bord donné du moniteur donné.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

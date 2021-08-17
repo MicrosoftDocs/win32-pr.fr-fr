@@ -4,12 +4,12 @@ ms.assetid: 7ab2ea1e-8455-4724-b249-0c78688f6627
 title: System. photo. GainControlDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f9aa6872526d16c9a0f14e86c8625cdceb1bdfb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 115f89b5b27cead24c062dd95eb2cd51215aa6e26cd325f918edd1a808d4aab9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228999"
 ---
 # <a name="systemphotogaincontroldenominator"></a>System. photo. GainControlDenominator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

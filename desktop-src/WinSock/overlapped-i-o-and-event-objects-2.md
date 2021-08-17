@@ -4,16 +4,16 @@ ms.assetid: b36ab606-df1a-4254-b048-6d47eb366275
 title: Objets d’e/s et d’événement avec chevauchement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed034f06243959d94a1ada7eaa71e33c84cd35ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bca6ae2ee17036275183518bfd444b9317bcdc05145a9fcb327ad48388618a66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741051"
 ---
 # <a name="overlapped-io-and-event-objects"></a>Objets d’e/s et d’événement avec chevauchement
 
-Windows Sockets 2 prend en charge les e/s avec chevauchement et tous les fournisseurs de transport prennent en charge cette fonctionnalité. Les e/s avec chevauchement suivent le modèle établi dans Windows et peuvent être exécutées sur les sockets créés avec la fonction de [**Socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket) ou les sockets créés avec la fonction [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa) avec l’indicateur de **\_ \_ chevauchement d’indicateur WSA** défini dans le paramètre *dwFlags* .
+Windows Sockets 2 prend en charge les e/s avec chevauchement et tous les fournisseurs de transport prennent en charge cette fonctionnalité. les e/s avec chevauchement suivent le modèle établi dans Windows et peuvent être exécutées sur les sockets créés avec la fonction de [**socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket) ou les sockets créés avec la fonction [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa) avec l’indicateur de **\_ \_ chevauchement d’indicateur WSA** défini dans le paramètre *dwFlags* .
 
 > [!Note]  
 > La création d’un socket avec l’attribut Overlapped n’a aucun impact sur le fait qu’un socket est actuellement en mode blocage ou non bloquant. Les sockets créés avec l’attribut Overlapped peuvent être utilisés pour effectuer des e/s avec chevauchement, ce qui ne modifie pas le mode de blocage d’un Socket. Étant donné que les opérations d’e/s avec chevauchement ne sont pas bloquées, le mode de blocage d’un socket n’est pas pertinent pour ces opérations.

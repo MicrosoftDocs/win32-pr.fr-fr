@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Windows.Foundation.idl
-ms.openlocfilehash: ec26401aeeed61445b0f244880864366fd5c6118
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aff219d5e6847c64034eed1b057e300ea601eedaa8aa7a131f1467aeacc42422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118323162"
 ---
 # <a name="iasyncactionput_completed-method"></a>IAsyncAction : méthode :p ut \_ terminée
 
@@ -42,7 +42,7 @@ HRESULT put_Completed(
 *Gestionnaire* \[ à\]
 </dt> <dd>
 
-Tapez : **[**AsyncActionCompletedHandler**](asyncactioncompletedhandler.md) \** _
+Type : **[ **AsyncActionCompletedHandler**](asyncactioncompletedhandler.md)\***
 
 Méthode qui gère la notification d’achèvement.
 
@@ -50,7 +50,7 @@ Méthode qui gère la notification d’achèvement.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 

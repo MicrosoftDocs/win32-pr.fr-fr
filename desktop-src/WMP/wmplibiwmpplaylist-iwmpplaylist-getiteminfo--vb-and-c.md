@@ -3,9 +3,9 @@ title: Méthode IWMPPlaylist getItemInfo
 description: La méthode getItemInfo retourne la valeur d’un attribut playlist spécifié par Name.
 ms.assetid: 62e882d6-66bb-450c-9700-b99d30dd42fa
 keywords:
-- méthode getItemInfo lecteur Windows Media
-- méthode getItemInfo lecteur Windows Media, interface IWMPPlaylist
-- Interface IWMPPlaylist lecteur Windows Media, méthode getItemInfo
+- Lecteur Windows Media de la méthode getItemInfo
+- méthode getItemInfo Lecteur Windows Media, interface IWMPPlaylist
+- Lecteur Windows Media de l’interface IWMPPlaylist, méthode getItemInfo
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ced433b13f5af2d1df8c12dba023b7fbb55c5f7d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 54e3ad24f12333dbc9db5baf977300d1755a9cecc60739504da05478d5acc48e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745751"
 ---
 # <a name="iwmpplaylistgetiteminfo-method"></a>IWMPPlaylist :: getItemInfo, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPPlaylist.getItemInfo
 
 **System. String** qui est la valeur de l’attribut playlist.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’utiliser cette méthode, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

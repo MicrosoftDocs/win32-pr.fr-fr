@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c79a6b946ed9d10cd2bfc989f8cde27fad2ffa92
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cbb4b04ddf3b81d330825b3333899e149d2f7b0d1f30c19106c6977e5291846f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789140"
 ---
 # <a name="ras_user_0-structure"></a>Structure de l' \_ utilisateur RAS \_ 0
 
-\[Cette version de la structure de l' **\_ utilisateur RAS \_ 0** n’est pas prise en charge à partir de Windows Vista. Utilisez à la place l' [**\_ utilisateur RAS \_ 0**](/windows/desktop/api/Mprapi/ns-mprapi-ras_user_0) plus récent défini dans mprapi. h.\]
+\[cette version de la structure de l' **\_ utilisateur RAS \_ 0** n’est pas prise en charge à partir de Windows Vista. Utilisez à la place l' [**\_ utilisateur RAS \_ 0**](/windows/desktop/api/Mprapi/ns-mprapi-ras_user_0) plus récent défini dans mprapi. h.\]
 
 La structure de l' **\_ utilisateur RAS \_ 0** est utilisée dans les fonctions [**RasAdminUserSetInfo**](rasadminusersetinfo.md) et [**RasAdminUserGetInfo**](rasadminusergetinfo.md) pour spécifier des informations sur un utilisateur.
 

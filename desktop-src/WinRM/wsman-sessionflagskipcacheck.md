@@ -5,8 +5,8 @@ ms.assetid: a67cadb3-c20a-4a58-a13b-5bbd23c547d1
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode SessionFlagSkipCACheck
-- Méthode SessionFlagSkipCACheck Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode SessionFlagSkipCACheck
+- méthode SessionFlagSkipCACheck Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode SessionFlagSkipCACheck
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e536112b16ad8cbab3cebb2de582a2e0ea8aec0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fe24e10ca7a568a6dc9b3af6efed6e31a3a9fde5acac70e2badab37d24373350
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742028"
 ---
 # <a name="wsmansessionflagskipcacheck-method"></a>Méthode WSMan. SessionFlagSkipCACheck
 

@@ -7,12 +7,12 @@ keywords:
 - Ce que l’installation doit faire d’AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5724a7acbb4d0bf8ef3008fa48e2f10fcc04a324
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b3dcf125a171fba921a5341ad5f3de8bbe5d791d4eb4dc072f551345df3218ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182172"
 ---
 # <a name="what-the-installation-must-do"></a>Ce que l’installation doit faire
 
@@ -29,9 +29,9 @@ Les nouveaux attributs référencés à l’étape 3 doivent être référencés
 
 L’étape 4 n’est pas nécessaire si les extensions ne seront pas utilisées immédiatement ; les extensions s’affichent dans le cache de schéma en 5 minutes environ, en fonction de la charge du système. Pour plus d’informations sur le cache de schéma et sur la façon de déclencher un rechargement de cache, consultez [mise à jour du cache de schéma](updating-the-schema-cache.md).
 
- 
+ 
 
- 
+ 
 
 
 

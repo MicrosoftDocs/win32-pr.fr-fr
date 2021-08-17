@@ -4,9 +4,9 @@ description: Obtient la ligne de commande du processus qui charge le composant A
 ms.assetid: a4fdad32-9059-452d-9896-f18b57c2a8f9
 ms.tgt_platform: multiple
 keywords:
-- Propriété CommandLine Windows Remote Management
+- propriété CommandLine Windows Remote Management
 - Windows Remote Management de propriété CommandLine, objet WSMan
-- Objet WSMan Windows Remote Management, propriété CommandLine
+- objet WSMan Windows Remote Management, propriété CommandLine
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55982a3955ae94dbd77c29f0def23d50e2e74294
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 469ed5bc14dadb95f7cc6aa4a3729a8a270d3d882e6984f8a178da9b9efa67e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106542867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742656"
 ---
 # <a name="wsmancommandline-property"></a>WSMan. CommandLine, propriété
 

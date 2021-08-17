@@ -4,12 +4,12 @@ ms.assetid: e0fb2092-0427-40c9-9e09-aefc5ef017e6
 title: System. ParsingPath
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae62243ff37464617f87654f8ca1f04c3ea606da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de98a39806d2db752c72da9706eaf35b4b6b5296cb82f3a75bee4d35add3680c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118230397"
 ---
 # <a name="systemparsingpath"></a>System. ParsingPath
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

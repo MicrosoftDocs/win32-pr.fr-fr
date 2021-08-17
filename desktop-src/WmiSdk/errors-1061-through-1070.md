@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Erreurs 1061 à 1070
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76a4bf0773ade1f62eb11f0c496aea340410c4a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c0072f30c8daf584c1aaf2acf783b15d2d9498a3c1479264a1db361c3e3ce43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117924569"
 ---
 # <a name="errors-1061-through-1070"></a>Erreurs 1061 à 1070
 

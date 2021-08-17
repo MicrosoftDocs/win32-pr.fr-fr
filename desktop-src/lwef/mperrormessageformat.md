@@ -3,7 +3,7 @@ title: MpErrorMessageFormat, fonction (MpClient. h)
 description: Retourne un message d’erreur mis en forme en fonction d’un code d’erreur.
 ms.assetid: C125FCE4-3BB0-4608-BBF3-E7FEF17D0807
 keywords:
-- Fonctionnalités d’environnement Windows hérités de la fonction MpErrorMessageFormat
+- fonctionnalités d’environnement Windows hérités de la fonction MpErrorMessageFormat
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a3499b3be885b29135d22b470da4143cfb23ea6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 124bf9e2c5c2ecc18f286b99f0c3b93695abd3f6a40853fcc47de580edef5db4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883506"
 ---
 # <a name="mperrormessageformat-function"></a>MpErrorMessageFormat fonction)
 
@@ -63,9 +63,9 @@ Code d’erreur basé sur **HRESULT**.
 *pwszErrorDesc* \[ à\]
 </dt> <dd>
 
-Tapez : **LPWStr \** _
+Type : **LPWStr \***
 
-Retourne un message d’erreur mis en forme en fonction de _hrError *. Cette chaîne doit être libérée à l’aide de [**MpFreeMemory**](mpfreememory.md).
+Retourne un message d’erreur mis en forme basé sur *hrError*. Cette chaîne doit être libérée à l’aide de [**MpFreeMemory**](mpfreememory.md).
 
 </dd> </dl>
 
@@ -77,7 +77,7 @@ Si la fonction s’exécute correctement, la valeur de retour est **\_ OK**.
 
 Si la fonction échoue, la valeur de retour est un code **HRESULT** en échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est en charge de la mise en forme des codes d’erreur système en plus des codes d’erreur spécifiques retournés par les fonctions de protection contre les programmes malveillants. Les codes d’erreur **HRESULT** spécifiques aux fonctions de protection contre les programmes malveillants ont une fonctionnalité de 0x50. Voici une liste d’un sous-ensemble de codes d’erreur spécifiques à la protection contre les programmes malveillants qui peuvent être renvoyés par différentes fonctions de protection contre les programmes malveillants. À l’aide **de la macro HRESULT \_ de l' \_ \_ État MP**, les codes d’erreur suivants peuvent être convertis en **HRESULT**. Voir aussi [codes d’erreur du moteur anti-programme malveillant Forefront Client Security](https://support.microsoft.com/kb/939359) pour obtenir la liste des autres codes d’erreur possibles.
 
@@ -104,8 +104,8 @@ Cette fonction est en charge de la mise en forme des codes d’erreur système e
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

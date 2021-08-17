@@ -4,12 +4,12 @@ ms.assetid: 46a81a7b-527c-4d41-8d25-ce65fd87416e
 title: Message SFVM_GETDETAILSOF (shlobj. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6170c0fc8dc29435b2c6f2bb033f30706ccb7b33
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: c6fd850a3f500a1d259ebdcae9e5c549ef76a8eab0d5e1d14c1385fbba8d27ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118048448"
 ---
 # <a name="sfvm_getdetailsof-message"></a>\_Message SFVM GETDETAILSOF
 
@@ -45,14 +45,14 @@ Pointeur vers une structure [**DETAILSINFO**](/windows/desktop/api/shlobj_core/n
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                |
 | Fin de la prise en charge des clients<br/>    | Windows XP SP2<br/>                                                      |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Shlobj. h</dt> </dl> |

@@ -4,12 +4,12 @@ description: En savoir plus sur les structures d’API du demandeur EAPHost, tel
 ms.assetid: 77595f36-140d-4d8e-af8e-63e9de0031c4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e7121e123fd790a54a95dafb59c080f435ca917
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: e6703070eabbc571927569f28c39109bbe1eda2f1c70b621982dde3ab4ac3a61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117904616"
 ---
 # <a name="eaphost-supplicant-structures"></a>Structures du demandeur EAPHost
 
@@ -31,15 +31,15 @@ Les structures de l’API du demandeur EAPHost sont les suivantes.
 | [**valeur de la propriété de la \_ méthode EAP \_ \_**](/previous-versions/windows/desktop/api/EapTypes/ns-eaptypes-eap_method_property_value)                | Windows 7 ou version ultérieure : contient une valeur de propriété de méthode.                                                                |
 | [**valeur de propriété de la \_ méthode EAP \_ \_ \_ bool**](/windows/desktop/api/EapTypes/ns-eaptypes-eap_method_property_value_bool)     | Windows 7 ou version ultérieure : contient une valeur de propriété de méthode de type de données BOOL.                                                 |
 | [**valeur de propriété de la \_ méthode EAP \_ \_ \_ DWORD**](/windows/desktop/api/EapTypes/ns-eaptypes-eap_method_property_value_dword)   | Windows 7 ou version ultérieure : contient une valeur de propriété de méthode de type de données DWORD.                                                |
-| [**\_chaîne de \_ valeur de propriété \_ \_ de la méthode EAP**](/windows/desktop/api/EapTypes/ns-eaptypes-eap_method_property_value_string) | Windows 7 ou version ultérieure : contient une valeur de propriété de méthode de type de données String.                                               |
+| [**\_chaîne de \_ valeur de propriété \_ \_ de la méthode EAP**](/windows/desktop/api/EapTypes/ns-eaptypes-eap_method_property_value_string) | Windows 7 ou version ultérieure : contient une valeur de propriété de méthode de type de données string.                                               |
 | [**\_informations d’authentification EAPHOST \_**](/windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-eaphost_auth_info)                                 | Décrit les informations d’authentification actuelles au cours des différentes étapes du processus d’authentification EAP.          |
 | [**EapHostPeerMethodResult**](/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult)                       | Contient les données de résultat générées par EAPHost au cours d’une session d’authentification qui est ensuite transmise à une méthode EAP. |
-| [**EapHostPeerNapInfo**](/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult)                            | Windows 7 ou version ultérieure : contient les informations de protection d’accès réseau (NAP) sur un demandeur EAP.                   |
+| [**EapHostPeerNapInfo**](/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult)                            | Windows 7 ou version ultérieure : contient les informations de Protection d’accès réseau (NAP) sur un demandeur EAP.                   |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

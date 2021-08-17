@@ -6,12 +6,12 @@ keywords:
 - effet de mise à l’échelle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad3af77bc24db387fff0854e0432c270fa2ce6d5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d3a28e71dfb552a35bf138c245a82937bd600e61acd8b4a82b42cbc8d9d66a65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118003659"
 ---
 # <a name="scale-effect"></a>Effet d’échelle
 
@@ -24,7 +24,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Scale.
     -   [Modes de bordure](#border-modes)
 -   [Modes d’interpolation](#interpolation-modes)
 -   [Bitmap de sortie](#output-bitmap)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -36,7 +36,7 @@ Cet exemple montre l’effet de mise à l’échelle dans 2 fois l’entrée et 
 | Avant                                                     |
 |------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg) |
-| After                                                      |
+| Après                                                      |
 | ![image après la transformation.](images/22-scale.png)     |
 
 
@@ -168,8 +168,8 @@ L’emplacement de la bitmap est (0,0) ou la valeur de la propriété du point c
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

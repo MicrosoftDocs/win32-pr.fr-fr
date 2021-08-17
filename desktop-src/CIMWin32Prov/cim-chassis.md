@@ -49,12 +49,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b1eb7f5e2733056cf48c1c9333453613ace699c6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 271f01587dc67c14464cfdb06de321d853b8b9a606a99cb1aca8fdcb0ff2ca17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835034"
 ---
 # <a name="cim_chassis-class"></a>\_Classe de châssis CIM
 
@@ -453,12 +453,12 @@ Châssis périphérique.
 
 <span id="Storage_Chassis"></span><span id="storage_chassis"></span><span id="STORAGE_CHASSIS"></span>
 
-<span id="Storage_Chassis"></span><span id="storage_chassis"></span><span id="STORAGE_CHASSIS"></span>**Châssis de stockage** (22)
+<span id="Storage_Chassis"></span><span id="storage_chassis"></span><span id="STORAGE_CHASSIS"></span>**châssis Stockage** (22)
 
 
 </dt> <dd>
 
-Châssis de stockage.
+châssis Stockage.
 
 </dd> <dt>
 
@@ -1196,7 +1196,7 @@ Cette propriété est héritée de la [**\_ PhysicalPackage CIM**](cim-physicalp
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ châssis CIM** est dérivée de la [**\_ PhysicalFrame CIM**](cim-physicalframe.md).
 

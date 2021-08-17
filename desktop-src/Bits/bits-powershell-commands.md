@@ -4,12 +4,12 @@ description: Service de transfert intelligent en arrière-plan (BITS) 4,0 peut u
 ms.assetid: 2c151dfe-4f89-41ea-a533-21ffcf0aa39e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5bd195d2202849c2bf2df580d159ee401911c51
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7acc88c557209ed2958d06766215278e75223a1b297bd2704ca1dcba062cfed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118173855"
 ---
 # <a name="managed-reference-for-bits-powershell-commands"></a>Référence prise en charge pour les commandes PowerShell BITS
 
@@ -21,7 +21,7 @@ mkdir -force c:\temp\BITSFILES
 Start-BitsTransfer -Source https://aka.ms/WinServ16/StndPDF -Destination c:\temp\BITSFILES\WindowsServer2016.pdf
 ```
 
-Les applets de commande Windows PowerShell pour BITS fournissent la plupart des fonctionnalités de l’utilitaire de ligne de commande Bitsadmin. Toutefois, Windows PowerShell effectue également les opérations suivantes :
+Windows PowerShell applets de commande pour BITS fournissent la plupart des fonctionnalités de l’utilitaire de ligne de commande bitsadmin. toutefois, Windows PowerShell effectue également les opérations suivantes :
 
 -   Automatise les tâches BITS dans un langage de script extensible et orienté gestion.
 -   Fournit un outil unique pour toutes les tâches liées au travail.
@@ -31,7 +31,7 @@ Les applets de commande Windows PowerShell pour BITS fournissent la plupart des 
 
  
 
-Pour plus d’informations sur l’utilisation de Windows PowerShell, consultez [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx).
+pour plus d’informations sur l’utilisation de Windows Powershell, consultez [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx).
 
 ## <a name="bits-powershell-classes"></a>Classes PowerShell BITS
 

@@ -4,12 +4,12 @@ ms.assetid: 11b5f668-28ef-4961-9739-2b102ec397bd
 title: System. photo. LensModel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e1c8cc79ba7c43399c9ff9c6efe4aa707110ae1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21ca968f1724e191533b5fafdcffd0d2a7bb4d95f91cdc8eac3fa88115a5924c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228364"
 ---
 # <a name="systemphotolensmodel"></a>System. photo. LensModel
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

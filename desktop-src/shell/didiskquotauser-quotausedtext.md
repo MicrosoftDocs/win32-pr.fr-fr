@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: be27a17c-77ec-4016-8c2e-16fbc88c7c7a
-ms.openlocfilehash: bf818bdcd22b734c6f4638a837af97bfecef1695
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 40fca179fd415ca548bdb8b07c16696fde54f165bfde7d373087ec1a763e787c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118050672"
 ---
 # <a name="didiskquotauserquotausedtext-property"></a>DIDiskQuotaUser. QuotaUsedText, propriété
 
@@ -39,7 +39,7 @@ QuotaUsedText = DIDiskQuotaUser.QuotaUsedText
 
 Valeur de chaîne qui est définie sur la quantité d’espace disque actuellement utilisée. Si la compression de fichiers NTFS est activée, cette propriété reflète la quantité d’espace disque requise par les données dans un État non compressé.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

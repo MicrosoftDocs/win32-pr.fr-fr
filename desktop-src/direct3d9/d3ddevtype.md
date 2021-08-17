@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 2be365ffbbe5bf778379c7be060c85c0b099422f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d311706d328a5d05668a4d1dcddb032f17fba0c69e48286f899875a8da6a650e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106529603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117732989"
 ---
 # <a name="d3ddevtype-enumeration"></a>Énumération D3DDEVTYPE
 
@@ -62,7 +62,7 @@ Initialisez Direct3D sur un ordinateur sur lequel aucune pixellisation matériel
 
 Les fonctionnalités Direct3D sont implémentées dans le logiciel ; Toutefois, le rastériseur de référence utilise des instructions d’UC spéciales à chaque fois que cela est possible.
 
-L’appareil de référence est installé par le SDK Windows 8,0 ou une version ultérieure et est conçu comme une aide au débogage uniquement pour le développement.
+l’appareil de référence est installé par le SDK Windows 8,0 ou une version ultérieure et est conçu comme une aide au débogage uniquement pour le développement.
 
 </dd> <dt>
 
@@ -80,7 +80,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Toutes les méthodes de l’interface [**IDirect3D9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3d9) qui prennent un type d’appareil **D3DDEVTYPE** échouent si D3DDEVTYPE \_ NULLREF est spécifié. Pour utiliser ces méthodes, remplacez D3DDEVTYPE \_ ref dans l’appel de méthode.
 

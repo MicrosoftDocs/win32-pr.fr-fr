@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: afe5469cabf6764ed9b02fdcffcc8c1bedaca1d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 781d1b440f1287b22d5c3ddf7ecf7132f7311fc5f48da5da20e4145717f65bb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118218400"
 ---
 # <a name="inkrecognizercontext-class"></a>InkRecognizerContext, classe
 
@@ -95,7 +95,7 @@ La classe **InkRecognizerContext** possède les propriétés suivantes.
 | [**Guide**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_guide)<br/>                                     | Lecture/écriture<br/> | Obtient ou définit le [**InkRecognizerGuide**](inkrecognizerguide-class.md) à utiliser pour l’entrée d’encre.<br/>                                                   |
 | [**PrefixText**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_prefixtext)<br/>                           | Lecture/écriture<br/> | Obtient ou définit les caractères qui précèdent la collection [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) dans l’objet **InkRecognizerContext** .<br/> |
 | [**RecognitionFlags**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognitionflags)<br/>               | Lecture/écriture<br/> | Obtient ou définit les indicateurs qui spécifient comment le module de reconnaissance interprète l’encre et détermine la chaîne de résultat.<br/>                                     |
-| [**Module de reconnaissance**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognizer)<br/>                           | Lecture/écriture<br/> | Obtient ou définit l’objet [**IInkRecognizer**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) utilisé par l’objet **InkRecognizerContext** .<br/>                                   |
+| [**Reconnaissance**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognizer)<br/>                           | Lecture/écriture<br/> | Obtient ou définit l’objet [**IInkRecognizer**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) utilisé par l’objet **InkRecognizerContext** .<br/>                                   |
 | [**Traits**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_strokes)<br/>                                 | Lecture/écriture<br/> | Obtient ou définit la collection [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) associée à l’objet **InkRecognizerContext** .<br/>                    |
 | [**SuffixText**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_suffixtext)<br/>                           | Lecture/écriture<br/> | Obtient ou définit les caractères qui viennent après la collection [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) dans l’objet **InkRecognizerContext** .<br/>  |
 | [**Mots**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist)<br/>                               | Lecture/écriture<br/> | Obtient ou définit l’objet [**InkWordList**](inkwordlist-class.md) utilisé pour améliorer les résultats de la reconnaissance.<br/>                               |
@@ -104,7 +104,7 @@ La classe **InkRecognizerContext** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) en C++.
 
@@ -127,7 +127,7 @@ Pour améliorer les performances de votre application, supprimez votre objet **I
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

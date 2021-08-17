@@ -23,12 +23,12 @@ keywords:
 - sécurité pour TSF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d7a345087304be638be93fa352845cdd468bf15
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: be73494d4538b25dfa0b004c8691391fb1c572c7ce6d82247cacae4fb9e0a838
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117952019"
 ---
 # <a name="new-features-in-tsf"></a>Nouvelles fonctionnalités de TSF
 
@@ -36,7 +36,7 @@ Avec le lancement de Microsoft WindowsXP Service Pack1, Text Services Framework 
 
 ## <a name="extended-support-of-advanced-text-services"></a>Prise en charge étendue des services de texte avancés
 
-La prise en charge a été ajoutée à TSF et Windows pour fournir une interface utilisateur cohérente pour toutes les applications sur le bureau. Cette nouvelle prise en charge permet aux applications ou aux contrôles hérités qui ne sont pas conscients de TSF de tirer parti de certains services de texte avancés gratuitement. Par exemple, la dictée vocale et l’écriture manuscrite peuvent maintenant être utilisées pour entrer du texte dans un document de n’importe quelle application.
+la prise en charge a été ajoutée à TSF et Windows pour fournir une interface utilisateur cohérente pour toutes les applications sur le bureau. Cette nouvelle prise en charge permet aux applications ou aux contrôles hérités qui ne sont pas conscients de TSF de tirer parti de certains services de texte avancés gratuitement. Par exemple, la dictée vocale et l’écriture manuscrite peuvent maintenant être utilisées pour entrer du texte dans un document de n’importe quelle application.
 
 Cette nouvelle fonctionnalité est disponible uniquement pour WindowsXP Service Pack1 ou version ultérieure. Elle est désactivée par défaut. Pour l’activer, cliquez sur la case à cocher dans l’onglet nouveau **avancé** de la partie **services de texte et langues d’entrée** du panneau de configuration **Options régionales et linguistiques** .
 
@@ -50,6 +50,6 @@ Cette nouvelle fonctionnalité est disponible uniquement pour WindowsXP Service 
 
 La sécurité et la robustesse de TSF ont été considérablement améliorées, afin de réduire la probabilité qu’un programme hostile soit en mesure d’accéder à la pile, au segment de mémoire ou à d’autres emplacements de mémoire sécurisés. La sécurité des exemples d’applications et de services de texte du kit de développement logiciel (SDK) a également été améliorée.
 
- 
+ 
 
- 
+ 

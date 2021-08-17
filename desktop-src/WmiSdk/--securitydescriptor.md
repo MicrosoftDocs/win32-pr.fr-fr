@@ -20,12 +20,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 5f305387a29d1d1569addafd127f53c98246e1a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c248a437651396811f71c04e72dd8b209c5d10823f49d03abbe7e9d9ee6b6867
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110196"
 ---
 # <a name="__securitydescriptor-class"></a>\_\_SecurityDescriptor (classe)
 
@@ -137,7 +137,7 @@ Heure au format [ \_ DateTime CIM](cim-datetime.md) lorsque le descripteur de s�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette classe fournit les propriétés héritées par le [**\_ SecurityDescriptor Win32**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor). Pour plus d’informations, consultez [objets descripteur de sécurité WMI](wmi-security-descriptor-objects.md) et [modification de la sécurité d’accès sur des objets sécurisables](changing-access-security-on-securable-objects.md). Pour plus d’informations sur les ACE, consultez [Access Control Components](/windows/desktop/SecAuthZ/access-control-components).
 

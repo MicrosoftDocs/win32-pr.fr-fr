@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: edf85ee664b33df9c63c390a870401b100327f53
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a89ca0c6b1cf33a422265fb177e1b1432a52fbd12b3f9fda658125682f3888ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848438"
 ---
 # <a name="drm_play_opl_ex-structure"></a>\_Structure de lecture DRM \_ OPL \_ ex
 
@@ -72,7 +72,7 @@ Réservé pour un usage futur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est identique à la **structure \_ \_ OPL de la lecture DRM** , à ceci près qu’elle comprend un numéro de version.
 

@@ -8,12 +8,12 @@ keywords:
 - points de connexion de service AD, propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 511bbba8acf50a185f1bdd8b55d9b7f8ce684817
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 05241e958233bd271621f2155a97924e213b03144ea68ed5e783373df373496a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104101424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183566"
 ---
 # <a name="service-connection-point-properties"></a>Propriétés du point de connexion de service
 

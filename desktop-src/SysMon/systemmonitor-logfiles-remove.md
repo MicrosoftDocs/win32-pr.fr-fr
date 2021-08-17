@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 057607c57db600ca7a28c8a5bb6d75d5570829cb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c12c0bae91df3baf421638665a5587612e6d1404c3300cf02b0308b7bef7d016
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117955431"
 ---
 # <a name="logfilesremove-method"></a>LogFiles. Remove, méthode
 
@@ -53,9 +53,9 @@ Index entier du fichier journal à supprimer de la collection. L’index est de 
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-**Avant Windows Vista :** Vous ne pouvez pas supprimer les fichiers journaux de la [**collection de fichiers journaux**](systemmonitor-logfiles.md) si la valeur de [**systemmonitor. DataSourceType**](systemmonitor-datasourcetype.md) est définie sur sysmonLogFiles.
+**avant Windows Vista :** Vous ne pouvez pas supprimer les fichiers journaux de la [**collection de fichiers journaux**](systemmonitor-logfiles.md) si la valeur de [**systemmonitor. DataSourceType**](systemmonitor-datasourcetype.md) est définie sur sysmonLogFiles.
 
 ## <a name="requirements"></a>Configuration requise
 

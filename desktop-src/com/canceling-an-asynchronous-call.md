@@ -4,12 +4,12 @@ description: Un client peut annuler un appel asynchrone en cours si l’objet d�
 ms.assetid: 30a162f2-ce16-4ee6-8002-59216ac0e59a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 775b187f1abd3fca43ba907d92f6eabd926e4608
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 42d2751400d631c62c19f68f2cab841c0845b432df676abe60befed1f231e103
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737113"
 ---
 # <a name="canceling-an-asynchronous-call"></a>Annulation d’un appel asynchrone
 
@@ -34,6 +34,6 @@ Il n’y a aucune garantie que le serveur n’a pas réellement arrêté l’ex�
 [Exécution d’un appel asynchrone](making-an-asynchronous-call.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

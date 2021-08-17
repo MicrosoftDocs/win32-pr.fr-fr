@@ -1,5 +1,5 @@
 ---
-description: Fournit des événements pour les services HTTP Microsoft Windows (WinHTTP).
+description: fournit des événements pour les Services HTTP Microsoft Windows (WinHTTP).
 ms.assetid: 0721d7f9-2e84-41a9-be52-89c8d638eb90
 title: Interface IWinHttpRequestEvents
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - HttpRequest.idl
-ms.openlocfilehash: 3cdd0bf10c0d4bd75351ddaab6e88ce7182850fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42b8355de57ada064e57a129c77ba507a72028b1c38ce115e58db110f2ce976b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744347"
 ---
 # <a name="iwinhttprequestevents-interface"></a>Interface IWinHttpRequestEvents
 
-L’interface **IWinHttpRequestEvents** fournit des événements pour les [services http Microsoft Windows (WinHTTP)](about-winhttp.md). Elle utilise uniquement des méthodes d’événement.
+l’interface **IWinHttpRequestEvents** fournit des événements pour [Microsoft Windows HTTP Services (WinHTTP)](about-winhttp.md). Elle utilise uniquement des méthodes d’événement.
 
 ## <a name="members"></a>Membres
 
@@ -47,7 +47,7 @@ L’interface **IWinHttpRequestEvents** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La procédure suivante décrit comment s’inscrire pour les notifications.
 
@@ -60,7 +60,7 @@ Les notifications peuvent être arrêtées en appelant [Unadvise](/windows/win32
 Pour afficher du code qui s’inscrit pour les notifications COM, consultez la section client de l’article [points de connexion com](/archive/msdn-magazine/2007/september/clr-inside-out-com-connection-points) .
 
 > [!Note]  
-> Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+> pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la Page de démarrage de WinHTTP.
 
  
 
@@ -70,8 +70,8 @@ Pour afficher du code qui s’inscrit pour les notifications COM, consultez la s
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | MIDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 

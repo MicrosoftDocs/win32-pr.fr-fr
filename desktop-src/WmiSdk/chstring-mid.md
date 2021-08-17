@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'CHString :: Mid, méthodes (ChString. h)'
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 5d05259128f80bcb21d00144d19002ca58ce39c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbe5b7fc6e3f0d4130e106217c46c82202c230f180dd4c90d09f90073dee08ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319841"
 ---
 # <a name="chstringmid-methods"></a>CHString :: Mid, méthodes
 
@@ -37,7 +37,7 @@ La méthode **Mid** extrait une sous-chaîne de longueur *nCount* caractères à
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                                                                                                      |
-| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008<br/>                                                                                                                                |
 | En-tête<br/>                   | <dl> <dt>ChString. h (inclure FwCommon. h)</dt> </dl>                                                    |
 | Bibliothèque<br/>                  | <dl> <dt>FrameDyn. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll ; </dt> <dt>FrameDyn.dll</dt> </dl> |

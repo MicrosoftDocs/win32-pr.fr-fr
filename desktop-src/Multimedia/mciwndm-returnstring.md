@@ -3,7 +3,7 @@ title: Message MCIWNDM_RETURNSTRING (VFW. h)
 description: Le \_ message MCIWNDM RETURNSTRING récupère la réponse à la commande de chaîne MCI la plus récente envoyée à un périphérique MCI.
 ms.assetid: 36a5222c-a63c-4b8c-ad0c-a00477e95b96
 keywords:
-- Message MCIWNDM_RETURNSTRING Windows Multimedia
+- message MCIWNDM_RETURNSTRING Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b99307bd7d61a70db594d0a696cceccd6d246a3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d2ea9624c70245c67f0f6a78af68bf291ae3ce60ba65ae2cd273008bbc914ec2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137656"
 ---
 # <a name="mciwndm_returnstring-message"></a>\_Message MCIWNDM RETURNSTRING
 
@@ -56,7 +56,7 @@ Pointeur vers une mémoire tampon définie par l’application devant contenir l
 
 Retourne un entier correspondant à la chaîne MCI.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la chaîne se terminant par un caractère NULL est plus longue que la mémoire tampon, la chaîne est tronquée.
 

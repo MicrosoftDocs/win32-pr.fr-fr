@@ -801,7 +801,7 @@
             - name: Messages de diagnostic RC
               href: rc-diagnostic-messages.md
               items:
-                - name: Un
+                - name: A
                   href: a.md
                 - name: B
                   href: b.md

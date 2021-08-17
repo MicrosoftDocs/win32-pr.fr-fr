@@ -4,21 +4,21 @@ description: Élément de groupe VML
 ms.assetid: 536c2380-2583-4fe8-a92e-c539de209a70
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33c128fddb5f070c9dbb6bbbd92c172cd58f5bce
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5fd68bf24d217310bf52998779396b4e0b72aef02073c3ad6d2a0d6566d30fc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117754596"
 ---
 # <a name="vml-group-element"></a>Élément de groupe VML
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit un groupe qui peut être utilisé pour collecter des formes.
 
@@ -52,7 +52,7 @@ Seuls les sous-éléments suivants peuvent être utilisés avec le **groupe**.
 
 -   **Groupe**
 -   **Typedeforme**
--   **Graphique à base de formes**
+-   **Forme**
 -   **Verrou**
 
 **Exemple**
@@ -92,6 +92,6 @@ L’exemple suivant montre comment définir un groupe.
 
 
 
- 
+ 
 
- 
+ 

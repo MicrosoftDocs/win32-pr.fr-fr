@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: e457757a3542bbfc8ded7536396458ef3e592714
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 958eb9134062d5380a2afda77eeaad3034a2da7430d2f6a3094916ceae211e4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926781"
 ---
 # <a name="wmimonitorbasicdisplayparams-class"></a>WmiMonitorBasicDisplayParams, classe
 
@@ -163,7 +163,7 @@ Type d’entrée vidéo.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **MaxHorizontalImageSize** et **MaxVerticalImageSize** représentent les dimensions d’image maximales que le moniteur peut afficher correctement pour l’ensemble des combinaisons de mise en forme et de minutage prises en charge. La dimension image maximale est définie par la norme VESA Video image image Definition (VIAD) et est arrondie au centimètre le plus proche. Le système de l’ordinateur hôte peut utiliser ces données pour sélectionner la taille de l’image et les proportions qui permettront un texte correctement mis à l’échelle. Sachez que, si l’un des champs ou les deux sont nuls, le système n’émet aucune supposition quant à la taille d’affichage. Par exemple, la taille d’un affichage de projection peut être indéterminée.
 

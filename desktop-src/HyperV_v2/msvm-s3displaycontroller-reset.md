@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 492a420384b760500c54e1c3c481638bcd2ee7d4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c914f5e32e379c003cb0b29ad196084c7bb5303cf9143ce45dc00c9b6c6920d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810905"
 ---
 # <a name="reset-method-of-the-msvm_s3displaycontroller-class"></a>Méthode Reset de la \_ classe MSVM S3DisplayController
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

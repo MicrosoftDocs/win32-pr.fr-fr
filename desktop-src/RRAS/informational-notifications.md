@@ -4,12 +4,12 @@ description: Pour les États de connexion connus sous le nom d’état d’exéc
 ms.assetid: 3f5ea9e0-f75a-4b02-a0dc-86cb5012c242
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d6223c808309fcac3afc563f02c160412c80c88
-ms.sourcegitcommit: dc13cc13522097188392392d85f99de48a213984
+ms.openlocfilehash: 2f526dcd0cd52eaa15929f970debe3ba78788fdb7525e734ee2e26e348b32552
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "104462786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117790993"
 ---
 # <a name="informational-notifications"></a>Notifications d’information
 
@@ -19,9 +19,9 @@ Le client peut choisir de transmettre ces notifications d’information à l’u
 
 Vous devez éviter d’écrire du code qui dépend de l’ordre ou de l’occurrence d’États d’information particuliers, car cela peut varier d’une plateforme à l’autre.
 
- 
+ 
 
- 
+ 
 
 
 

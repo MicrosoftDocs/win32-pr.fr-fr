@@ -1,10 +1,10 @@
-- name: SDK du lecteur Windows Media
+- name: Lecteur Windows Media SDK
   href: windows-media-player-sdk.md
   items:
-    - name: À propos du kit de développement logiciel (SDK) Windows Media Player
+    - name: à propos du kit de développement logiciel (SDK) Lecteur Windows Media
       href: about-the-windows-media-player-sdk.md
       items:
-        - name: À propos des versions SDK du lecteur Windows Media
+        - name: à propos des Versions Lecteur Windows Media SDK
           href: about-windows-media-player-sdk-versions.md
         - name: Organisation de la documentation
           href: organization-of-the-documentation.md
@@ -16,7 +16,7 @@
           href: samples.md
         - name: Pour plus d'informations
           href: for-more-information.md
-    - name: Modèle objet du lecteur Windows Media
+    - name: Lecteur Windows Media Modèle objet
       href: windows-media-player-object-model.md
       items:
         - name: À propos du modèle objet Player
@@ -51,7 +51,7 @@
                   href: about-the-playlist--playlistcollection--and-playlistarray-objects.md
                 - name: À propos de l’objet de requête
                   href: about-the-query-object.md
-                - name: À propos de l’objet Settings
+                - name: à propos de l’objet Paramètres
                   href: about-the-settings-object.md
                 - name: À propos de l’objet StringCollection
                   href: about-the-stringcollection-object.md
@@ -73,16 +73,16 @@
                   href: accessing-the-library-programmatically.md
                 - name: À propos des services de bibliothèque
                   href: about-library-services.md
-            - name: Utilisation du HTML avec le lecteur Windows Media
+            - name: utilisation de HTML avec Lecteur Windows Media
               href: using-html-with-windows-media-player.md
-            - name: Incorporation du contrôle du lecteur Windows Media
+            - name: incorporation du contrôle Lecteur Windows Media
               href: embedding-the-windows-media-player-control.md
               items:
-                - name: Incorporation du contrôle du lecteur Windows Media dans une page Web
+                - name: incorporation du contrôle Lecteur Windows Media dans une Page Web
                   href: embedding-the-windows-media-player-control-in-a-web-page.md
-                - name: Incorporation du contrôle du lecteur Windows Media dans un document Office
+                - name: incorporation du contrôle Lecteur Windows Media dans un Document Office
                   href: embedding-the-windows-media-player-control-in-an-office-document.md
-                - name: Incorporation du contrôle du lecteur Windows Media dans un programme personnalisé
+                - name: incorporation du contrôle Lecteur Windows Media dans un programme personnalisé
                   href: embedding-the-windows-media-player-control-in-a-custom-program.md
             - name: À propos de la synchronisation des appareils
               href: about-device-synchronization.md
@@ -104,16 +104,16 @@
         - name: Guide de contrôle du lecteur
           href: player-control-guide.md
           items:
-            - name: Utilisation du contrôle du lecteur Windows Media dans une page Web
+            - name: utilisation du contrôle Lecteur Windows Media dans une Page Web
               href: using-the-windows-media-player-control-in-a-web-page.md
               items:
-                - name: Masquage du contrôle du lecteur Windows Media
+                - name: masquage du contrôle Lecteur Windows Media
                   href: hiding-the-windows-media-player-control.md
                 - name: Éléments PARAM dans un élément OBJECT
                   href: param-elements-in-an-object-element.md
                 - name: Exemple simple de script dans une page Web
                   href: simple-example-of-scripting-in-a-web-page.md
-                - name: Utilisation du contrôle du lecteur Windows Media avec Firefox
+                - name: utilisation du contrôle Lecteur Windows Media avec Firefox
                   href: using-the-windows-media-player-control-with-firefox.md
                   items:
                     - name: Incorporation du contrôle Player dans une page Web affichée par Firefox
@@ -128,35 +128,35 @@
                       href: using-the-invokeurls-property-in-a-web-page-displayed-by-firefox.md
                 - name: "Utilisation de Windows Media Player avec Netscape\_7.1"
                   href: using-windows-media-player-with-netscape-7-1.md
-            - name: Utilisation du contrôle du lecteur Windows Media avec Microsoft Office
+            - name: utilisation du contrôle Lecteur Windows Media avec Microsoft Office
               href: using-the-windows-media-player-control-with-microsoft-office.md
-            - name: Utilisation du contrôle du lecteur Windows Media avec Visual Basic
+            - name: utilisation du contrôle Lecteur Windows Media avec Visual Basic
               href: using-the-windows-media-player-control-with-visual-basic.md
-            - name: Utilisation du contrôle du lecteur Windows Media dans un programme C++
+            - name: utilisation du contrôle Lecteur Windows Media dans un programme C++
               href: using-the-windows-media-player-control-in-a-c---program.md
               items:
-                - name: Utilisation du contrôle du lecteur Windows Media dans une application console
+                - name: utilisation du contrôle Lecteur Windows Media dans une Application Console
                   href: using-the-windows-media-player-control-in-a-console-application.md
-                - name: Hébergement du contrôle du lecteur Windows Media dans une application Windows
+                - name: hébergement du contrôle Lecteur Windows Media dans une Application Windows
                   href: hosting-the-windows-media-player-control-in-a-windows-application.md
                 - name: Utilisation à distance du contrôle Windows Media Player
                   href: remoting-the-windows-media-player-control.md
                 - name: Gestion des événements en C++
                   href: handling-events-in-c.md
-                - name: Utilisation d’habillages avec le contrôle du lecteur Windows Media
+                - name: utilisation d’habillages avec le contrôle Lecteur Windows Media
                   href: using-skins-with-the-windows-media-player-control.md
-            - name: Utilisation du contrôle du lecteur Windows Media dans une solution .NET Framework
+            - name: utilisation du contrôle Lecteur Windows Media dans une Solution .NET Framework
               href: using-the-windows-media-player-control-in-a--net-framework-solution.md
               items:
-                - name: Utilisation du contrôle du lecteur Windows Media avec Microsoft Visual Studio
+                - name: utilisation du contrôle Lecteur Windows Media avec Microsoft Visual Studio
                   href: using-the-windows-media-player-control-with-microsoft-visual-studio.md
-                - name: Incorporation du contrôle du lecteur Windows Media dans une solution C#
+                - name: incorporation du contrôle Lecteur Windows Media dans une Solution C#
                   href: embedding-the-windows-media-player-control-in-a-c--solution.md
-                - name: Intégration du contrôle du lecteur Windows Media dans une solution Visual Basic .NET
+                - name: incorporation du contrôle Lecteur Windows Media dans une Solution Visual Basic .net
                   href: embedding-the-windows-media-player-control-in-a-visual-basic--net-solution.md
-                - name: Création du contrôle du lecteur Windows Media par programmation
+                - name: création du contrôle Lecteur Windows Media par programmation
                   href: creating-the-windows-media-player-control-programmatically.md
-                - name: À propos des types de données .NET Framework
+                - name: à propos des Types de données .NET Framework
                   href: about--net-framework-data-types.md
             - name: Création de présentations Web-Based
               href: creating-web-based-presentations.md
@@ -175,7 +175,7 @@
                   href: about-sami-files.md
                 - name: Exemple de fichier SAMI
                   href: sami-file-example.md
-                - name: Utilisation de SAMI avec le contrôle du lecteur Windows Media dans un navigateur
+                - name: utilisation de SAMI avec le contrôle Lecteur Windows Media dans un navigateur
                   href: using-sami-with-the-windows-media-player-control-in-a-browser.md
                 - name: À propos des URL SAMI
                   href: about-sami-urls.md
@@ -270,7 +270,7 @@
               items:
                 - name: Différences entre les modèles objet
                   href: differences-between-the-object-models.md
-                - name: Utilisation du modèle objet Windows Media Player 7 ou version ultérieure
+                - name: utilisation du modèle objet Lecteur Windows Media 7 ou version ultérieure
                   href: using-the-windows-media-player-7-or-later-object-model.md
                 - name: Gestion des erreurs
                   href: error-handling.md
@@ -282,7 +282,7 @@
                   href: dvd.md
                 - name: Comparaison du modèle d’objet détaillé
                   href: detailed-object-model-comparison.md
-        - name: Référence du modèle objet du lecteur Windows Media
+        - name: Lecteur Windows Media Référence du modèle objet
           href: windows-media-player-object-model-reference.md
           items:
             - name: Référence du modèle objet pour l’écriture de scripts
@@ -770,12 +770,12 @@
                       href: query-addcondition.md
                     - name: Query. beginNextGroup
                       href: query-beginnextgroup.md
-                - name: Settings (objet)
+                - name: Paramètres Dessin
                   href: settings-object.md
                   items:
                     - name: Paramètres. démarrage automatique
                       href: settings-autostart.md
-                    - name: Settings. balance
+                    - name: Paramètres. solde
                       href: settings-balance.md
                     - name: Paramètres. baseURL
                       href: settings-baseurl.md
@@ -789,21 +789,21 @@
                       href: settings-getmode.md
                     - name: Paramètres. invokeURLs
                       href: settings-invokeurls.md
-                    - name: Settings. isAvailable
+                    - name: Paramètres. isAvailable
                       href: settings-isavailable.md
                     - name: Paramètres. mediaAccessRights
                       href: settings-mediaaccessrights.md
-                    - name: Settings. muet
+                    - name: Paramètres. muet
                       href: settings-mute.md
                     - name: Paramètres. playCount
                       href: settings-playcount.md
-                    - name: Settings. rate
+                    - name: Paramètres. rate
                       href: settings-rate.md
                     - name: Paramètres. requestMediaAccessRights
                       href: settings-requestmediaaccessrights.md
                     - name: Paramètres. setMode
                       href: settings-setmode.md
-                    - name: Settings. volume
+                    - name: Paramètres. volume
                       href: settings-volume.md
                 - name: 'StringCollection, objet'
                   href: stringcollection-object.md
@@ -1753,33 +1753,33 @@
                       items:
                         - name: "IWMPVideoRenderConfig\_::p ut_presenterActivate"
                           href: /previous-versions/windows/desktop/api/wmprealestate/nf-wmprealestate-iwmpvideorenderconfig-put_presenteractivate
-            - name: 'Référence du modèle objet pour Visual Basic .NET et C #'
+            - name: 'référence du modèle objet pour Visual Basic .net et C #'
               href: object-model-reference-for-visual-basic--net-and-c.md
               items:
-                - name: Objet AxWindowsMediaPlayer (VB et C#)
+                - name: objet AxWindowsMediaPlayer (VB et C#)
                   href: axwindowsmediaplayer-object--vb-and-c.md
                   items:
-                    - name: Événement AxWindowsMediaPlayer. AudioLanguageChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. AudioLanguageChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-audiolanguagechange.md
-                    - name: 'AxWindowsMediaPlayer. Buffering, événement (VB et C#)'
+                    - name: événement AxWindowsMediaPlayer. buffering (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-buffering.md
-                    - name: Événement AxWindowsMediaPlayer. CdromBurnError (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. CdromBurnError (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-cdromburnerror.md
-                    - name: Événement AxWindowsMediaPlayer. CdromBurnMediaError (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. CdromBurnMediaError (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-cdromburnmediaerror.md
-                    - name: Événement AxWindowsMediaPlayer. CdromBurnStateChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. CdromBurnStateChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-cdromburnstatechange.md
                     - name: AxWindowsMediaPlayer. cdromCollection (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-cdromcollection--vb-and-c.md
-                    - name: Événement AxWindowsMediaPlayer. CdromMediaChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. CdromMediaChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-cdrommediachange.md
-                    - name: Événement AxWindowsMediaPlayer. CdromRipMediaError (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. CdromRipMediaError (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-cdromripmediaerror.md
-                    - name: Événement AxWindowsMediaPlayer. CdromRipStateChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. CdromRipStateChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-cdromripstatechange.md
-                    - name: 'AxWindowsMediaPlayer. Click, événement (VB et C#)'
+                    - name: événement AxWindowsMediaPlayer. Click (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-click.md
-                    - name: AxWindowsMediaPlayer. Close (VB et C#)
+                    - name: AxWindowsMediaPlayer. close (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-close.md
                     - name: AxWindowsMediaPlayer. closedCaption (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-closedcaption--vb-and-c.md
@@ -1787,127 +1787,127 @@
                       href: axwmplib-axwindowsmediaplayer-ctlcontrols--vb-and-c.md
                     - name: AxWindowsMediaPlayer. Ctlenabled (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-ctlenabled--vb-and-c.md
-                    - name: Événement AxWindowsMediaPlayer. CurrentItemChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. CurrentItemChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-currentitemchange.md
                     - name: AxWindowsMediaPlayer. currentMedia (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-currentmedia--vb-and-c.md
-                    - name: Événement AxWindowsMediaPlayer. CurrentMediaItemAvailable (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. CurrentMediaItemAvailable (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-currentmediaitemavailable.md
                     - name: AxWindowsMediaPlayer. currentPlaylist (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-currentplaylist--vb-and-c.md
-                    - name: Événement AxWindowsMediaPlayer. CurrentPlaylistChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. CurrentPlaylistChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-currentplaylistchange.md
-                    - name: Événement AxWindowsMediaPlayer. CurrentPlaylistItemAvailable (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. CurrentPlaylistItemAvailable (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-currentplaylistitemavailable.md
-                    - name: 'AxWindowsMediaPlayer. Disconnect, événement (VB et C#)'
+                    - name: événement AxWindowsMediaPlayer. disconnect (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-disconnect.md
-                    - name: Événement AxWindowsMediaPlayer. DomainChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. DomainChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-domainchange.md
-                    - name: 'AxWindowsMediaPlayer. DoubleClick, événement (VB et C#)'
+                    - name: événement AxWindowsMediaPlayer. DoubleClick (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-doubleclick.md
-                    - name: Événement AxWindowsMediaPlayer. DurationUnitChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. DurationUnitChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-durationunitchange.md
-                    - name: AxWindowsMediaPlayer. DVD (VB et C#)
+                    - name: AxWindowsMediaPlayer. dvd (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-dvd--vb-and-c.md
                     - name: AxWindowsMediaPlayer. enableContextMenu (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-enablecontextmenu--vb-and-c.md
-                    - name: Événement AxWindowsMediaPlayer. EndOfStream (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. EndOfStream (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-endofstream.md
                     - name: AxWindowsMediaPlayer. Error (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-error--vb-and-c.md
-                    - name: Événement AxWindowsMediaPlayer. Error (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. Error (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-error.md
-                    - name: Événement AxWindowsMediaPlayer. FolderScanStateChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. FolderScanStateChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-folderscanstatechange.md
                     - name: AxWindowsMediaPlayer. fullScreen (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-fullscreen--vb-and-c.md
                     - name: AxWindowsMediaPlayer. isOnline (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-isonline--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer. KeyOut, événement (VB et C#)'
+                    - name: événement AxWindowsMediaPlayer. keyout (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-keydown.md
-                    - name: Événement AxWindowsMediaPlayer. KeyPress (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. keypress (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-keypress.md
-                    - name: 'AxWindowsMediaPlayer. KeyUp, événement (VB et C#)'
+                    - name: événement AxWindowsMediaPlayer. KeyUp (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-keyup.md
                     - name: AxWindowsMediaPlayer. launchURL (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-launchurl.md
-                    - name: Événement AxWindowsMediaPlayer. LibraryConnect (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. LibraryConnect (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-libraryconnect.md
-                    - name: Événement AxWindowsMediaPlayer. LibraryDisconnect (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. LibraryDisconnect (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-librarydisconnect.md
-                    - name: Événement AxWindowsMediaPlayer. MarkerHit (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. MarkerHit (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-markerhit.md
-                    - name: Événement AxWindowsMediaPlayer. MediaChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. MediaChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-mediachange.md
                     - name: AxWindowsMediaPlayer. mediaCollection (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-mediacollection--vb-and-c.md
-                    - name: Événement AxWindowsMediaPlayer. MediaCollectionAttributeStringAdded (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. MediaCollectionAttributeStringAdded (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-mediacollectionattributestringadded.md
-                    - name: Événement AxWindowsMediaPlayer. MediaCollectionAttributeStringChanged (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. MediaCollectionAttributeStringChanged (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-mediacollectionattributestringchanged.md
-                    - name: Événement AxWindowsMediaPlayer. MediaCollectionAttributeStringRemoved (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. MediaCollectionAttributeStringRemoved (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-mediacollectionattributestringremoved.md
-                    - name: Événement AxWindowsMediaPlayer. MediaCollectionChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. MediaCollectionChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-mediacollectionchange.md
-                    - name: Événement AxWindowsMediaPlayer. MediaCollectionMediaAdded (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. MediaCollectionMediaAdded (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-mediacollectionmediaadded.md
-                    - name: Événement AxWindowsMediaPlayer. MediaCollectionMediaRemoved (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. MediaCollectionMediaRemoved (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-mediacollectionmediaremoved.md
-                    - name: Événement AxWindowsMediaPlayer. MediaError (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. MediaError (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-mediaerror.md
-                    - name: Événement AxWindowsMediaPlayer. ModeChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. ModeChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-modechange.md
-                    - name: 'AxWindowsMediaPlayer. MouseDown, événement (VB et C#)'
+                    - name: événement AxWindowsMediaPlayer. MouseDown (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-mousedown.md
-                    - name: 'AxWindowsMediaPlayer. MouseMove, événement (VB et C#)'
+                    - name: événement AxWindowsMediaPlayer. MouseMove (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-mousemove.md
-                    - name: 'AxWindowsMediaPlayer. MouseUp, événement (VB et C#)'
+                    - name: événement AxWindowsMediaPlayer. MouseUp (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-mouseup.md
-                    - name: AxWindowsMediaPlayer. Network (VB et C#)
+                    - name: AxWindowsMediaPlayer. network (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-network--vb-and-c.md
                     - name: AxWindowsMediaPlayer. newMedia (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-newmedia.md
                     - name: AxWindowsMediaPlayer. newPlaylist (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-newplaylist.md
-                    - name: Événement AxWindowsMediaPlayer. NewStream (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. NewStream (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-newstream.md
                     - name: AxWindowsMediaPlayer. openPlayer (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-openplayer.md
-                    - name: Événement AxWindowsMediaPlayer. OpenPlaylistSwitch (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. OpenPlaylistSwitch (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-openplaylistswitch.md
                     - name: AxWindowsMediaPlayer. openState (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-openstate--vb-and-c.md
-                    - name: Événement AxWindowsMediaPlayer. OpenStateChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. OpenStateChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-openstatechange.md
-                    - name: Événement AxWindowsMediaPlayer. PlaylistChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. PlaylistChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-playlistchange.md
                     - name: AxWindowsMediaPlayer. playlistCollection (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-playlistcollection--vb-and-c.md
-                    - name: Événement AxWindowsMediaPlayer. PlaylistCollectionChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. PlaylistCollectionChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-playlistcollectionchange.md
-                    - name: Événement AxWindowsMediaPlayer. PlaylistCollectionPlaylistAdded (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. PlaylistCollectionPlaylistAdded (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-playlistcollectionplaylistadded.md
-                    - name: Événement AxWindowsMediaPlayer. PlaylistCollectionPlaylistRemoved (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. PlaylistCollectionPlaylistRemoved (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-playlistcollectionplaylistremoved.md
-                    - name: Événement AxWindowsMediaPlayer. PlaylistCollectionPlaylistSetAsDeleted (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. PlaylistCollectionPlaylistSetAsDeleted (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-playlistcollectionplaylistsetasdeleted.md
                     - name: AxWindowsMediaPlayer. lecture (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-playstate--vb-and-c.md
-                    - name: Événement AxWindowsMediaPlayer. PlayStateChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. PlayStateChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-playstatechange.md
-                    - name: 'AxWindowsMediaPlayer. PositionChange, événement (VB et C#)'
+                    - name: événement AxWindowsMediaPlayer. PositionChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-positionchange.md
-                    - name: Événement AxWindowsMediaPlayer. commande (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. commande (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-scriptcommand.md
-                    - name: AxWindowsMediaPlayer. Settings (VB et C#)
+                    - name: AxWindowsMediaPlayer. settings (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-settings--vb-and-c.md
-                    - name: AxWindowsMediaPlayer. Status (VB et C#)
+                    - name: AxWindowsMediaPlayer. status (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-status--vb-and-c.md
-                    - name: Événement AxWindowsMediaPlayer. StatusChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. StatusChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-statuschange.md
                     - name: AxWindowsMediaPlayer. stretchToFit (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-stretchtofit--vb-and-c.md
-                    - name: Événement AxWindowsMediaPlayer. StringCollectionChange (VB et C#)
+                    - name: événement AxWindowsMediaPlayer. StringCollectionChange (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-stringcollectionchange.md
                     - name: AxWindowsMediaPlayer. uiMode (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-uimode--vb-and-c.md
@@ -1915,11 +1915,11 @@
                       href: axwmplib-axwindowsmediaplayer-url--vb-and-c.md
                     - name: AxWindowsMediaPlayer. versionInfo (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-versioninfo--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer. Warning, événement (VB et C#)'
+                    - name: événement AxWindowsMediaPlayer. Warning (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-warning.md
                     - name: AxWindowsMediaPlayer. windowlessVideo (VB et C#)
                       href: axwmplib-axwindowsmediaplayer-windowlessvideo--vb-and-c.md
-                - name: 'Interfaces pour Visual Basic .NET et C #'
+                - name: 'Interfaces pour Visual Basic .net et C #'
                   href: interfaces-for-visual-basic--net-and-c.md
                   items:
                     - name: Interface IWMPCdrom (VB et C#)
@@ -1927,9 +1927,9 @@
                       items:
                         - name: IWMPCdrom. driveSpecifier (VB et C#)
                           href: wmplibiwmpcdrom-iwmpcdrom-drivespecifier--vb-and-c.md
-                        - name: IWMPCdrom. EJECT (VB et C#)
+                        - name: IWMPCdrom. eject (VB et C#)
                           href: wmplibiwmpcdrom-iwmpcdrom-eject--vb-and-c.md
-                        - name: IWMPCdrom. playlist (VB et C#)
+                        - name: IWMPCdrom. Playlist (VB et C#)
                           href: wmplibiwmpcdrom-iwmpcdrom-playlist--vb-and-c.md
                     - name: Interface IWMPCdromBurn (VB et C#)
                       href: iwmpcdromburn--vb-and-c.md
@@ -1942,13 +1942,13 @@
                           href: wmplibiwmpcdromburn-iwmpcdromburn-burnprogress--vb-and-c.md
                         - name: IWMPCdromBurn. burnState (VB et C#)
                           href: wmplibiwmpcdromburn-iwmpcdromburn-burnstate--vb-and-c.md
-                        - name: IWMPCdromBurn. Erase (VB et C#)
+                        - name: IWMPCdromBurn. erase (VB et C#)
                           href: wmplibiwmpcdromburn-iwmpcdromburn-erase--vb-and-c.md
                         - name: IWMPCdromBurn. getItemInfo (VB et C#)
                           href: wmplibiwmpcdromburn-iwmpcdromburn-getiteminfo-iwmpcdromburn.md
                         - name: IWMPCdromBurn. isAvailable (VB et C#)
                           href: wmplibiwmpcdromburn-iwmpcdromburn-isavailable--vb-and-c.md
-                        - name: IWMPCdromBurn. Label (VB et C#)
+                        - name: IWMPCdromBurn. label (VB et C#)
                           href: wmplibiwmpcdromburn-iwmpcdromburn-label--vb-and-c.md
                         - name: IWMPCdromBurn. refreshStatus (VB et C#)
                           href: wmplibiwmpcdromburn-iwmpcdromburn-refreshstatus--vb-and-c.md
@@ -1959,7 +1959,7 @@
                     - name: Interface IWMPCdromCollection (VB et C#)
                       href: iwmpcdromcollection--vb-and-c.md
                       items:
-                        - name: IWMPCdromCollection. Count (VB et C#)
+                        - name: IWMPCdromCollection. count (VB et C#)
                           href: wmplibiwmpcdromcollection-iwmpcdromcollection-count--vb-and-c.md
                         - name: IWMPCdromCollection. getByDriveSpecifier (VB et C#)
                           href: wmplibiwmpcdromcollection-iwmpcdromcollection-getbydrivespecifier--vb-and-c.md
@@ -2017,22 +2017,22 @@
                           href: wmplibiwmpcontrols-iwmpcontrols-fastreverse--vb-and-c.md
                         - name: IWMPControls. isAvailable (VB et C#)
                           href: iwmpcontrols-isavailable--vb-and-c.md
-                        - name: IWMPControls. Next (VB et C#)
+                        - name: IWMPControls. next (VB et C#)
                           href: wmplibiwmpcontrols-iwmpcontrols-next--vb-and-c.md
                         - name: IWMPControls. pause (VB et C#)
                           href: wmplibiwmpcontrols-iwmpcontrols-pause--vb-and-c.md
-                        - name: IWMPControls. Play (VB et C#)
+                        - name: IWMPControls. play (VB et C#)
                           href: wmplibiwmpcontrols-iwmpcontrols-play--vb-and-c.md
                         - name: IWMPControls. playItem (VB et C#)
                           href: wmplibiwmpcontrols-iwmpcontrols-playitem--vb-and-c.md
-                        - name: IWMPControls. Previous (VB et C#)
+                        - name: IWMPControls. previous (VB et C#)
                           href: wmplibiwmpcontrols-iwmpcontrols-previous--vb-and-c.md
-                        - name: IWMPControls. Stop (VB et C#)
+                        - name: IWMPControls. stop (VB et C#)
                           href: wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md
                     - name: Interface IWMPControls2 (VB et C#)
                       href: iwmpcontrols2--vb-and-c.md
                       items:
-                        - name: IWMPControls2. Step (VB et C#)
+                        - name: IWMPControls2. step (VB et C#)
                           href: wmplibiwmpcontrols2-iwmpcontrols2-step--vb-and-c.md
                     - name: Interface IWMPControls3 (VB et C#)
                       href: iwmpcontrols3--vb-and-c.md
@@ -2054,17 +2054,17 @@
                     - name: Interface IWMPDVD (VB et C#)
                       href: iwmpdvd--vb-and-c.md
                       items:
-                        - name: IWMPDVD. Back (VB et C#)
+                        - name: IWMPDVD. back (VB et C#)
                           href: wmplibiwmpdvd-iwmpdvd-back--vb-and-c.md
-                        - name: IWMPDVD. Domain (VB et C#)
+                        - name: IWMPDVD. domain (VB et C#)
                           href: wmplibiwmpdvd-iwmpdvd-domain--vb-and-c.md
                         - name: IWMPDVD. isAvailable (VB et C#)
                           href: iwmpdvd-isavailable--vb-and-c.md
-                        - name: IWMPDVD. Resume (VB et C#)
+                        - name: IWMPDVD. resume (VB et C#)
                           href: wmplibiwmpdvd-iwmpdvd-resume--vb-and-c.md
                         - name: IWMPDVD. titleMenu (VB et C#)
                           href: wmplibiwmpdvd-iwmpdvd-titlemenu--vb-and-c.md
-                        - name: Menu IWMPDVD. (VB et C#)
+                        - name: menu IWMPDVD. (VB et C#)
                           href: wmplibiwmpdvd-iwmpdvd-topmenu--vb-and-c.md
                     - name: Interface IWMPError (VB et C#)
                       href: iwmperror--vb-and-c.md
@@ -2075,7 +2075,7 @@
                           href: wmplibiwmperror-iwmperror-errorcount--vb-and-c.md
                         - name: IWMPError. Item (VB et C#)
                           href: iwmperror-item--vb-and-c.md
-                        - name: IWMPError. Webhelp (VB et C#)
+                        - name: IWMPError. webhelp (VB et C#)
                           href: wmplibiwmperror-iwmperror-webhelp--vb-and-c.md
                     - name: Interface IWMPErrorItem (VB et C#)
                       href: iwmperroritem--vb-and-c.md
@@ -2088,7 +2088,7 @@
                           href: wmplibiwmperroritem-iwmperroritem-errorcontext--vb-and-c.md
                         - name: IWMPErrorItem. errorDescription (VB et C#)
                           href: wmplibiwmperroritem-iwmperroritem-errordescription--vb-and-c.md
-                        - name: IWMPErrorItem. Remedy (VB et C#)
+                        - name: IWMPErrorItem. remedy (VB et C#)
                           href: wmplibiwmperroritem-iwmperroritem-remedy--vb-and-c.md
                     - name: Interface IWMPErrorItem2 (VB et C#)
                       href: iwmperroritem2--vb-and-c.md
@@ -2118,7 +2118,7 @@
                       items:
                         - name: IWMPMedia. attributeCount (VB et C#)
                           href: wmplibiwmpmedia-iwmpmedia-attributecount--vb-and-c.md
-                        - name: IWMPMedia. Duration (VB et C#)
+                        - name: IWMPMedia. duration (VB et C#)
                           href: wmplibiwmpmedia-iwmpmedia-duration--vb-and-c.md
                         - name: IWMPMedia. durationString (VB et C#)
                           href: wmplibiwmpmedia-iwmpmedia-durationstring--vb-and-c.md
@@ -2165,7 +2165,7 @@
                     - name: Interface IWMPMediaCollection (VB et C#)
                       href: iwmpmediacollection--vb-and-c.md
                       items:
-                        - name: IWMPMediaCollection. Add (VB et C#)
+                        - name: IWMPMediaCollection. add (VB et C#)
                           href: wmplibiwmpmediacollection-iwmpmediacollection-add--vb-and-c.md
                         - name: IWMPMediaCollection. getAll (VB et C#)
                           href: wmplibiwmpmediacollection-iwmpmediacollection-getall--vb-and-c.md
@@ -2183,7 +2183,7 @@
                           href: wmplibiwmpmediacollection-iwmpmediacollection-getbyname--vb-and-c.md
                         - name: IWMPMediaCollection. getMediaAtom (VB et C#)
                           href: wmplibiwmpmediacollection-iwmpmediacollection-getmediaatom--vb-and-c.md
-                        - name: IWMPMediaCollection. Remove (VB et C#)
+                        - name: IWMPMediaCollection. remove (VB et C#)
                           href: wmplibiwmpmediacollection-iwmpmediacollection-remove--vb-and-c.md
                         - name: IWMPMediaCollection. setDeleted (VB et C#)
                           href: wmplibiwmpmediacollection-iwmpmediacollection-setdeleted--vb-and-c.md
@@ -2214,14 +2214,14 @@
                       items:
                         - name: IWMPMetadataText. Description (VB et C#)
                           href: wmplibiwmpmetadatatext-iwmpmetadatatext-description--vb-and-c.md
-                        - name: IWMPMetadataText. Text (VB et C#)
+                        - name: IWMPMetadataText. text (VB et C#)
                           href: wmplibiwmpmetadatatext-iwmpmetadatatext-text--vb-and-c.md
                     - name: Interface IWMPNetwork (VB et C#)
                       href: iwmpnetwork--vb-and-c.md
                       items:
                         - name: IWMPNetwork. bandWidth (VB et C#)
                           href: wmplibiwmpnetwork-iwmpnetwork-bandwidth--vb-and-c.md
-                        - name: IWMPNetwork. DEBIT binaire (VB et C#)
+                        - name: IWMPNetwork. débit binaire (VB et C#)
                           href: wmplibiwmpnetwork-iwmpnetwork-bitrate--vb-and-c.md
                         - name: IWMPNetwork. bufferingCount (VB et C#)
                           href: wmplibiwmpnetwork-iwmpnetwork-bufferingcount--vb-and-c.md
@@ -2267,7 +2267,7 @@
                           href: wmplibiwmpnetwork-iwmpnetwork-setproxyname--vb-and-c.md
                         - name: IWMPNetwork. setProxyPort (VB et C#)
                           href: wmplibiwmpnetwork-iwmpnetwork-setproxyport--vb-and-c.md
-                        - name: IWMPNetwork. Setproxysettings n' (VB et C#)
+                        - name: IWMPNetwork. setproxysettings n' (VB et C#)
                           href: wmplibiwmpnetwork-iwmpnetwork-setproxysettings--vb-and-c.md
                         - name: IWMPNetwork. sourceProtocol (VB et C#)
                           href: wmplibiwmpnetwork-iwmpnetwork-sourceprotocol--vb-and-c.md
@@ -2280,9 +2280,9 @@
                           href: wmplibiwmpplaylist-iwmpplaylist-attributecount--vb-and-c.md
                         - name: IWMPPlaylist. attributeName (VB et C#)
                           href: iwmpplaylist-attributename--vb-and-c.md
-                        - name: IWMPPlaylist. Clear (VB et C#)
+                        - name: IWMPPlaylist. clear (VB et C#)
                           href: iwmpplaylist-iwmpplaylist-clear--vb-and-c.md
-                        - name: IWMPPlaylist. Count (VB et C#)
+                        - name: IWMPPlaylist. count (VB et C#)
                           href: wmplibiwmpplaylist-iwmpplaylist-count--vb-and-c.md
                         - name: IWMPPlaylist. getItemInfo (VB et C#)
                           href: wmplibiwmpplaylist-iwmpplaylist-getiteminfo--vb-and-c.md
@@ -2303,7 +2303,7 @@
                     - name: Interface IWMPPlaylistArray (VB et C#)
                       href: iwmpplaylistarray--vb-and-c.md
                       items:
-                        - name: IWMPPlaylistArray. Count (VB et C#)
+                        - name: IWMPPlaylistArray. count (VB et C#)
                           href: wmplibiwmpplaylistarray-iwmpplaylistarray-count--vb-and-c.md
                         - name: IWMPPlaylistArray. Item (VB et C#)
                           href: wmplibiwmpplaylistarray-iwmpplaylistarray-item--vb-and-c.md
@@ -2320,7 +2320,7 @@
                           href: wmplibiwmpplaylistcollection-iwmpplaylistcollection-isdeleted--vb-and-c.md
                         - name: IWMPPlaylistCollection. newPlaylist (VB et C#)
                           href: wmplibiwmpplaylistcollection-iwmpplaylistcollection-newplaylist--vb-and-c.md
-                        - name: IWMPPlaylistCollection. Remove (VB et C#)
+                        - name: IWMPPlaylistCollection. remove (VB et C#)
                           href: wmplibiwmpplaylistcollection-iwmpplaylistcollection-remove--vb-and-c.md
                     - name: Interface IWMPQuery (VB et C#)
                       href: iwmpquery--vb-and-c.md
@@ -2332,7 +2332,7 @@
                     - name: Interface IWMPSettings (VB et C#)
                       href: iwmpsettings--vb-and-c.md
                       items:
-                        - name: IWMPSettings. AutoStart (VB et C#)
+                        - name: IWMPSettings. autostart (VB et C#)
                           href: wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md
                         - name: IWMPSettings. balance (VB et C#)
                           href: wmplibiwmpsettings-iwmpsettings-balance--vb-and-c.md
@@ -2348,7 +2348,7 @@
                           href: wmplibiwmpsettings-iwmpsettings-invokeurls--vb-and-c.md
                         - name: IWMPSettings. isAvailable (VB et C#)
                           href: iwmpsettings-isavailable--vb-and-c.md
-                        - name: IWMPSettings. MUTE (VB et C#)
+                        - name: IWMPSettings. muet (VB et C#)
                           href: wmplibiwmpsettings-iwmpsettings-mute--vb-and-c.md
                         - name: IWMPSettings. playCount (VB et C#)
                           href: wmplibiwmpsettings-iwmpsettings-playcount--vb-and-c.md
@@ -2370,7 +2370,7 @@
                     - name: Interface IWMPStringCollection (VB et C#)
                       href: iwmpstringcollection--vb-and-c.md
                       items:
-                        - name: IWMPStringCollection. Count (VB et C#)
+                        - name: IWMPStringCollection. count (VB et C#)
                           href: wmplibiwmpstringcollection-iwmpstringcollection-count--vb-and-c.md
                         - name: IWMPStringCollection. Item (VB et C#)
                           href: wmplibiwmpstringcollection-iwmpstringcollection-item--vb-and-c.md
@@ -2621,7 +2621,7 @@
                       href: wm-beatsperminute-attribute.md
                     - name: Attribut WM/Category
                       href: wm-category-attribute.md
-                    - name: Attribut WM/composer
+                    - name: attribut WM/Composer
                       href: wm-composer-attribute.md
                     - name: Attribut WM/conducteur
                       href: wm-conductor-attribute.md
@@ -2681,7 +2681,7 @@
                       href: wm-providerrating-attribute.md
                     - name: Attribut WM/ProviderStyle
                       href: wm-providerstyle-attribute.md
-                    - name: Attribut WM/Publisher
+                    - name: attribut WM/Publisher
                       href: wm-publisher-attribute.md
                     - name: Attribut WM/SubscriptionContentID
                       href: wm-subscriptioncontentid-attribute.md
@@ -2719,11 +2719,11 @@
                   href: cd-playlist-attributes.md
                 - name: Attributs de piste CD
                   href: cd-track-attributes.md
-                - name: Attributs de fichiers Windows Media couramment utilisés
+                - name: attributs de fichier multimédia Windows couramment utilisés
                   href: commonly-used-windows-media-file-attributes.md
                 - name: Attributs de DVD
                   href: dvd-attributes.md
-                - name: Attributs du fichier musical
+                - name: Musique Attributs de fichier
                   href: music-file-attributes.md
                 - name: Autres attributs d’élément
                   href: other-item-attributes.md
@@ -2760,7 +2760,7 @@
                   href: /previous-versions/windows/desktop/api/wmp/ne-wmp-wmpstringcollectionchangeeventtype
                 - name: WMPSyncState
                   href: /previous-versions/windows/desktop/api/wmp/ne-wmp-wmpsyncstate
-    - name: Apparences du lecteur Windows Media
+    - name: Lecteur Windows Media Apparences
       href: windows-media-player-skins.md
       items:
         - name: À propos des apparences
@@ -2789,7 +2789,7 @@
                       href: art-file-formats.md
                     - name: Exemple d’art simple
                       href: simple-art-example.md
-                - name: Fichiers JScript
+                - name: JScript Fichiers
                   href: jscript-files.md
             - name: Écriture de code
               href: writing-code.md
@@ -2820,9 +2820,9 @@
               href: submitting-your-skin.md
             - name: Référencement d’apparences dans des URL
               href: referencing-skins-in-urls.md
-            - name: Nouveautés pour les apparences du lecteur Windows Media
+            - name: nouveautés pour les apparences de Lecteur Windows Media
               href: new-for-windows-media-player-skins.md
-            - name: Bordures du lecteur Windows Media (déconseillée)
+            - name: bordures pour la Lecteur Windows Media (déconseillée)
               href: borders-for-windows-media-player--deprecated.md
         - name: Guide de création d’apparence
           href: skin-creation-guide.md
@@ -3781,7 +3781,7 @@
                   href: global-attributes.md
                 - name: Écoute des attributs
                   href: listening-attributes.md
-        - name: Apparences mobiles du lecteur Windows Media
+        - name: Lecteur Windows Media Skins mobiles
           href: windows-media-player-mobile-skins.md
           items:
             - name: À propos des apparences
@@ -3789,7 +3789,7 @@
               items:
                 - name: À propos de la compatibilité
                   href: about-compatibility.md
-                - name: Fonctionnalités mobile du lecteur Windows Media
+                - name: Lecteur Windows Media Fonctionnalités mobiles
                   href: windows-media-player-mobile-functionality.md
                   items:
                     - name: Fonctions de bouton
@@ -3999,7 +3999,7 @@
                       href: video-size.md
                     - name: Exemple de section vidéo
                       href: sample-video-section.md
-    - name: Plug-ins du lecteur Windows Media
+    - name: Lecteur Windows Media Plug-ins
       href: windows-media-player-plug-ins.md
       items:
         - name: Génération d’un plug-in
@@ -4009,7 +4009,7 @@
               href: getting-started-with-the-plug-in-wizard.md
             - name: Utilisation de l’Assistant de plug-in avec Visual Studio
               href: using-the-plug-in-wizard-with-visual-studio.md
-        - name: Visualisations personnalisées du lecteur Windows Media
+        - name: Lecteur Windows Media Visualisations personnalisées
           href: windows-media-player-custom-visualizations.md
           items:
             - name: À propos des visualisations personnalisées
@@ -4106,7 +4106,7 @@
                       href: /previous-versions/windows/desktop/api/effects/ne-effects-playerstate
                     - name: TimedLevel
                       href: /previous-versions/bb249531(v%3Dvs.85)
-        - name: Plug-ins de l’interface utilisateur du lecteur Windows Media
+        - name: Lecteur Windows Media Plug-ins d’interface utilisateur
           href: windows-media-player-user-interface-plug-ins.md
           items:
             - name: À propos des plug-ins d’interface utilisateur
@@ -4117,7 +4117,7 @@
                   items:
                     - name: Plug-ins de zone d’affichage (déconseillé)
                       href: display-area-plug-ins--deprecated.md
-                    - name: Plug-ins de zone Paramètres
+                    - name: Paramètres Plug-ins de zone
                       href: settings-area-plug-ins.md
                     - name: Plug-ins de zone de métadonnées (déconseillés)
                       href: metadata-area-plug-ins--deprecated.md
@@ -4154,7 +4154,7 @@
                       href: the-onsearch-method.md
                     - name: Méthode LaunchPage
                       href: the-launchpage-method.md
-                - name: Création d’un plug-in d’interface utilisateur pour Windows Media Player 10 mobile
+                - name: création d’un Plug-in d’Interface utilisateur pour Lecteur Windows Media 10 Mobile
                   href: creating-a-user-interface-plug-in-for-windows-media-player-10-mobile.md
                   items:
                     - name: Mise en route
@@ -4185,7 +4185,7 @@
                       href: /previous-versions/windows/desktop/api/wmpplug/nf-wmpplug-iwmppluginui-setproperty
                     - name: "IWMPPluginUI\_:: TranslateAccelerator"
                       href: /previous-versions/windows/desktop/api/wmpplug/nf-wmpplug-iwmppluginui-translateaccelerator
-        - name: Plug-ins du lecteur Windows Media DSP
+        - name: Lecteur Windows Media Plug-ins DSP
           href: windows-media-player-dsp-plug-ins.md
           items:
             - name: À propos des plug-ins DSP
@@ -4198,7 +4198,7 @@
                   items:
                     - name: Empaquetage du plug-in DSP
                       href: dsp-plug-in-packaging.md
-                    - name: Connexion au lecteur Windows Media
+                    - name: connexion à Lecteur Windows Media
                       href: connecting-to-windows-media-player.md
                     - name: Entrée et sortie de données
                       href: data-input-and-output.md
@@ -4209,7 +4209,7 @@
                     - name: Assistant de plug-in DSP
                       href: dsp-plug-in-wizard.md
                       items:
-                        - name: Mises à jour de l’Assistant de plug-in DSP pour le lecteur Windows Media 11
+                        - name: mises à jour de l’assistant de Plug-in DSP pour Lecteur Windows Media 11
                           href: updates-to-the-dsp-plug-in-wizard-for-windows-media-player-11.md
                     - name: Interfaces requises
                       href: required-interfaces.md
@@ -4368,7 +4368,7 @@
                       href: /previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpplugin_caps
                     - name: WMPServices_StreamState
                       href: /previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpservices_streamstate
-        - name: Plug-ins de conversion du lecteur Windows Media
+        - name: Lecteur Windows Media Plug-ins de conversion
           href: windows-media-player-conversion-plug-ins.md
           items:
             - name: À propos des plug-ins de conversion
@@ -4390,13 +4390,13 @@
                       href: /previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpconvert-convertfile
                     - name: 'IWMPConvert::GetErrorURL'
                       href: /previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpconvert-geterrorurl
-    - name: Fichiers Windows Media
+    - name: Windows Fichiers multimédias
       href: windows-media-metafiles.md
       items:
-        - name: À propos des fichiers Windows Media
+        - name: à propos des Windows de fichiers multimédias
           href: about-windows-media-metafiles.md
           items:
-            - name: Présentation des fichiers Windows Media
+            - name: Windows Présentation des fichiers multimédias
               href: windows-media-metafiles-overview.md
               items:
                 - name: Objectif d’une sélection de métafichiers
@@ -4405,18 +4405,18 @@
                   href: using-a-metafile-playlist.md
                 - name: Prise en charge de plusieurs langues
                   href: support-for-multiple-languages.md
-            - name: Packages de téléchargement Windows Media (déconseillés)
+            - name: Windows Packages de téléchargement de médias (déconseillés)
               href: windows-media-download-packages--deprecated.md
               items:
-                - name: Fonctionnement des packages de téléchargement Windows Media (déconseillé)
+                - name: fonctionnement des Packages de téléchargement Windows Media (déconseillé)
                   href: how-windows-media-download-packages-work--deprecated.md
-                - name: Utilisation des bordures dans les packages de téléchargement Windows Media (déconseillés)
+                - name: utilisation des bordures dans les Packages de téléchargement de médias Windows (déconseillés)
                   href: using-borders-in-windows-media-download-packages--deprecated.md
-                - name: Utilisation des sélections dans les packages de téléchargement Windows Media (déconseillés)
+                - name: utilisation des sélections dans les Packages de téléchargement de médias Windows (déconseillés)
                   href: using-playlists-in-windows-media-download-packages--deprecated.md
-                - name: Création d’un package de téléchargement Windows Media (déconseillé)
+                - name: création d’un Package de téléchargement de médias Windows (déconseillé)
                   href: creating-a-windows-media-download-package--deprecated.md
-        - name: Guide des métafichiers Windows Media
+        - name: Windows Guide du métafichier multimédia
           href: windows-media-metafile-guide.md
           items:
             - name: Types de sélections
@@ -4426,25 +4426,25 @@
               items:
                 - name: Imbrication de refichiers
                   href: nesting-metafiles.md
-                - name: Utilisation de pages ASP pour créer dynamiquement des sélections de métafichiers Windows Media
+                - name: utilisation de Pages ASP pour créer dynamiquement des sélections de métafichiers Windows Media
                   href: using-asp-pages-to-dynamically-create-windows-media-metafile-playlists.md
             - name: Sélections de métafichiers
               href: metafile-playlists.md
               items:
                 - name: Contrôle des sélections
                   href: control-of-playlists.md
-                - name: Graphiques personnalisés dans le lecteur Windows Media
+                - name: graphiques personnalisés dans Lecteur Windows Media
                   href: custom-graphics-in-windows-media-player.md
-                - name: Affichage des pages Web dans le lecteur Windows Media
+                - name: affichage des Pages Web dans les Lecteur Windows Media
                   href: displaying-web-pages-in-windows-media-player.md
                   items:
                     - name: Avantages de l’utilisation de HTMLView
                       href: advantages-of-using-htmlview.md
                     - name: Création d’une présentation HTMLView
                       href: creating-an-htmlview-presentation.md
-                    - name: Ajout d’un contrôle de lecteur Windows Media incorporé
+                    - name: ajout d’un contrôle de Lecteur Windows Media incorporé
                       href: adding-an-embedded-windows-media-player-control.md
-                    - name: S’assurer que le lecteur Windows Media ouvre le contenu HTMLView
+                    - name: s’assurer que Lecteur Windows Media ouvre le contenu HTMLView
                       href: ensuring-that-windows-media-player-opens-the-htmlview-content.md
                     - name: Problèmes de page Web
                       href: web-page-issues.md
@@ -4482,7 +4482,7 @@
                 - name: Exemples de sélections
                   href: example-playlists.md
                   items:
-                    - name: Une sélection de base
+                    - name: Sélection de base
                       href: a-basic-playlist.md
                     - name: Une sélection avancée
                       href: an-advanced-playlist.md
@@ -4492,10 +4492,10 @@
               href: metafile-extension-guidelines.md
             - name: Ordre de priorité
               href: order-of-precedence.md
-        - name: Informations de référence sur les métafichiers Windows Media
+        - name: Windows Référence du métafichier multimédia
           href: windows-media-metafile-reference.md
           items:
-            - name: Informations de référence sur les éléments de métafichier Windows Media
+            - name: Windows Informations de référence sur les éléments de métafichier multimédia
               href: windows-media-metafile-elements-reference.md
               items:
                 - name: 'ABSTRACT, élément'
@@ -4547,17 +4547,17 @@
                   href: title-element--metafile.md
             - name: Extensions de noms de fichiers
               href: file-name-extensions.md
-        - name: Versions précédentes des fichiers Windows Media (déconseillés)
+        - name: Versions précédentes de Windows les fichiers multimédias (dépréciés)
           href: previous-versions-of-windows-media-metafiles--deprecated.md
           items:
             - name: 'Reference, élément (déconseillé)'
               href: reference-element--deprecated.md
             - name: Paramètre MSWMExt (déconseillé)
               href: mswmext-parameter--deprecated.md
-    - name: Sélections Windows Media
+    - name: Windows Sélections multimédias
       href: windows-media-playlists.md
       items:
-        - name: Informations de référence sur les éléments de sélection Windows Media
+        - name: Windows Référence des éléments de sélection de média
           href: windows-media-playlist-elements-reference.md
           items:
             - name: 'argument, élément'
@@ -4586,7 +4586,7 @@
               href: sourcefilter-element.md
             - name: 'title, élément (WPL)'
               href: title-element--wpl.md
-    - name: Windows Media Player Online stores
+    - name: Lecteur Windows Media Magasins en ligne
       href: windows-media-player-online-stores.md
       items:
         - name: Kit de bienvenue des magasins en ligne
@@ -4594,19 +4594,19 @@
           items:
             - name: Présentation du kit de bienvenue des magasins en ligne
               href: introduction-to-the-online-stores-welcome-kit.md
-            - name: Obtention d’un magasin de musique en ligne sur un tableau
+            - name: obtention d’un magasin Musique en ligne sur le tableau
               href: getting-an-online-music-store-on-board.md
-            - name: Configuration requise pour les magasins musicaux en ligne
+            - name: configuration requise pour les magasins de Musique en ligne
               href: requirements-for-online-music-stores.md
-            - name: Contrats et licences pour les magasins musicaux en ligne
+            - name: contrats et licences pour les magasins de Musique en ligne
               href: contracts-and-licenses-for-online-music-stores.md
-            - name: Formulaire d’informations de contact pour un magasin de musique en ligne
+            - name: formulaire d’informations de Contact pour une boutique en ligne Musique
               href: contact-information-form-for-an-online-music-store.md
-            - name: Formulaire d’informations de démarrage pour un magasin de musique en ligne
+            - name: formulaire d’informations de démarrage pour une boutique en ligne Musique
               href: startup-information-form-for-an-online-music-store.md
-            - name: Tests de validation pour les magasins de musique de type 2 en ligne
+            - name: Tests de Validation pour les magasins de Musique en ligne de Type 2
               href: validation-tests-for-type-2-online-music-stores.md
-            - name: Problèmes d’intégration courants pour les magasins de musique en ligne
+            - name: problèmes d’intégration courants pour les magasins de Musique en ligne
               href: common-on-boarding-problems-for-online-music-stores.md
         - name: Tapez 1 magasins en ligne
           href: type-1-online-stores.md
@@ -4614,7 +4614,7 @@
             - name: À propos des magasins en ligne de type 1
               href: about-type-1-online-stores.md
               items:
-                - name: Catalogue musical
+                - name: Musique Catalogue
                   href: music-catalog.md
                 - name: Conteneurs de contenu
                   href: content-containers.md
@@ -4936,22 +4936,22 @@
                 - name: Création du plug-in pour un magasin de type 2 en ligne
                   href: building-the-plug-in-for-a-type-2-online-store.md
                   items:
-                    - name: Installation de l’Assistant projet
+                    - name: installation de l’assistant Project
                       href: installing-the-project-wizard.md
-                    - name: Création d’un exemple de projet
+                    - name: Création d’un exemple de Project
                       href: creating-a-sample-project.md
-                    - name: Compilation de l’exemple de projet
+                    - name: Compilation de l’exemple de Project
                       href: compiling-the-sample-project.md
-                    - name: Exécution de l’exemple de projet
+                    - name: Exécution de l’exemple Project
                       href: running-the-sample-project.md
-                    - name: Personnalisation de l’exemple de projet
+                    - name: Personnalisation de l’exemple de Project
                       href: customizing-the-sample-project.md
                 - name: Navigation pour les magasins de type 2 en ligne
                   href: navigation-for-type-2-online-stores.md
                   items:
                     - name: Navigation entre les volets des tâches de service
                       href: navigating-between-service-task-panes.md
-                    - name: Navigation à partir des fonctionnalités du lecteur Windows Media
+                    - name: navigation à partir des fonctionnalités de Lecteur Windows Media
                       href: navigating-from-windows-media-player-features.md
                     - name: Navigation vers d’autres magasins en ligne
                       href: navigating-to-other-online-stores.md
@@ -5075,7 +5075,7 @@
                   items:
                     - name: WMPSubscriptionServiceEvent
                       href: /previous-versions/windows/desktop/api/subscriptionservices/ne-subscriptionservices-wmpsubscriptionserviceevent
-                - name: Convention de travail de BITS du lecteur Windows Media
+                - name: Lecteur Windows Media Convention de travail BITS
                   href: windows-media-player-bits-job-convention.md
                 - name: Clés et entrées de Registre pour un magasin de type 2 en ligne
                   href: registry-keys-and-entries-for-a-type-2-online-store.md
@@ -5092,7 +5092,7 @@
               href: using-htmlview-with-online-stores.md
             - name: Intégration de la fonctionnalité d’affichage du centre d’informations
               href: integrating-the-info-center-view-feature.md
-            - name: Correspondance des couleurs du lecteur Windows Media
+            - name: correspondance des couleurs de Lecteur Windows Media
               href: matching-the-windows-media-player-colors.md
             - name: Utilisation de sélections automatiques pour organiser le contenu de la bibliothèque
               href: using-auto-playlists-to-organize-content-in-the-library.md
@@ -5162,7 +5162,7 @@
         - name: Paramètres du Registre
           href: registry-settings.md
           items:
-            - name: Paramètres de registre de l’extension de nom de fichier
+            - name: Paramètres de registre de l’Extension de nom de fichier
               href: file-name-extension-registry-settings.md
               items:
                 - name: Entrée de registre des autorisations
@@ -5175,11 +5175,11 @@
                   href: library-classification-registry-entries.md
                 - name: Sous-clé ConvertPluginCLSID
                   href: convertpluginclsid-subkey.md
-            - name: Paramètres de Registre du schéma personnalisé
+            - name: Paramètres du registre du schéma personnalisé
               href: custom-scheme-registry-settings.md
             - name: Paramètres du registre de surveillance des dossiers
               href: folder-monitoring-registry-settings.md
-            - name: Paramètres de Registre du port du pare-feu
+            - name: Paramètres du registre du Port du pare-feu
               href: firewall-port-registry-settings.md
             - name: Inscription de la dépendance d’application
               href: registering-application-dependency.md
@@ -5191,20 +5191,20 @@
           href: command-line-parameters.md
         - name: Sorties audio
           href: audio-outputs.md
-        - name: Redistribution du logiciel Windows Media Player
+        - name: redistribution du logiciel Lecteur Windows Media
           href: redistributing-windows-media-player-software.md
           items:
-            - name: Redistribution du lecteur Windows Media 11
+            - name: redistribution Lecteur Windows Media 11
               href: redistributing-windows-media-player-11.md
-            - name: Redistribution du lecteur Windows Media 10
+            - name: redistribution Lecteur Windows Media 10
               href: redistributing-windows-media-player-10.md
-            - name: Redistribution du lecteur Windows Media série 9
+            - name: redistribution de Lecteur Windows Media série 9
               href: redistributing-windows-media-player-9.md
-            - name: Détection du lecteur Windows Media à partir d’une application
+            - name: détection des Lecteur Windows Media à partir d’une Application
               href: detecting-windows-media-player-from-an-application.md
-            - name: Détection de l’état de l’installation du programme d’installation de Windows Media
+            - name: détection de l’état de l’installation de Windows Media
               href: detecting-setup-status-for-windows-media-setup.md
-        - name: Publication de codecs pour le lecteur Windows Media
+        - name: publication de codecs pour Lecteur Windows Media
           href: publishing-codecs-for-windows-media-player.md
         - name: Redimensionnement de la boîte de dialogue acquisition de licence
           href: resizing-the-license-acquisition-dialog-box.md
@@ -5215,7 +5215,7 @@
               href: about-the-metadata.md
             - name: Extensions d’appareil MTP pour le transfert de métadonnées
               href: mtp-device-extensions-for-metadata-transfer.md
-            - name: Extensions d’appareils Windows Media Gestionnaire de périphériques pour le transfert de métadonnées
+            - name: Windows Extensions de périphérique Media Gestionnaire de périphériques pour le transfert de métadonnées
               href: windows-media-device-manager-device-extensions-for-metadata-transfer.md
               items:
                 - name: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
@@ -5232,5 +5232,5 @@
           href: custom-image-support-for-devices.md
     - name: Glossaire
       href: glossary.md
-    - name: Points clés dans le kit de développement logiciel (SDK) du lecteur Windows Media
+    - name: Points clés du kit de développement logiciel (SDK) Lecteur Windows Media
       href: key-points-in-the-wmp-sdk.md

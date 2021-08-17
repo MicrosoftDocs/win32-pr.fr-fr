@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a6ab8a6f55ce5e069a01edb5d281bfe506c5fee6
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f66bc54f00e5eb560589429f1cb116183e165a36d90f5d560d8895678a2d5bad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104973942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117723176"
 ---
 # <a name="texldl---ps"></a>texldl-PS
 
@@ -37,7 +37,7 @@ Où :
 -   src0 est un registre source qui fournit les coordonnées de texture pour l’échantillon de texture. Consultez [Registre de coordonnées de texture](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md).
 -   src1 identifie le ou les registres de l’échantillonneur \# de source, où \# spécifie le numéro d’échantillonnage de texture à échantillonner. L’échantillonneur s’est associé à une texture et à un état de contrôle défini par l’énumération [**D3DSAMPLERSTATETYPE**](/windows/desktop/direct3d9/d3dsamplerstatetype) (par exemple, D3DSAMP \_ MINFILTER).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 

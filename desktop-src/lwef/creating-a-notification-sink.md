@@ -4,12 +4,12 @@ description: Création d’un récepteur de notification
 ms.assetid: 6a3cc771-1fef-4b79-baa1-c8d050e36d92
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 481cdd754e545ef87e3c0dc44324d46e48baf044
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2acf76d77e69df41b7fbd3fb83fbd232dfdfd03682d39681e1f2a4fa9f2d19ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118480091"
 ---
 # <a name="creating-a-notification-sink"></a>Création d’un récepteur de notification
 
@@ -34,9 +34,9 @@ hRes = pAgentEx->Register((IUnknown *)pSinkEx, &lNotifySinkID);
 
 N’oubliez pas d’annuler l’inscription de votre récepteur de notification lorsque votre application s’arrête et libère les interfaces de Microsoft Agent.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -10,12 +10,12 @@ keywords:
 - lecteurs synchrones, objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 491fed915a049dbfc52acc24d06a0344d8e3109c
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 629f08684f996a611acaf00b913eaa8715869bdfd0219ea27994e2f8faf7c896
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "106510671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118197059"
 ---
 # <a name="synchronous-reader-object"></a>Lecteur synchrone, objet
 
@@ -32,7 +32,7 @@ Les interfaces suivantes sont prises en charge par l’objet lecteur synchrone.
 | [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)   | Définit et récupère les informations d’en-tête, telles que les métadonnées, les [*marqueurs*](wmformat-glossary.md), etc.                                            |
 | [**IWMHeaderInfo2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2) | Énumère les informations de codec disponibles. Hérite de toutes les méthodes de **IWMHeaderInfo**.                                                                      |
 | [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) | Prend en charge des tailles d’attribut volumineuses, des noms d’attributs dupliqués et la prise en charge de plusieurs langues. Hérite de toutes les méthodes de **IWMHeaderInfo** et **IWMHeaderInfo2**. |
-| [**IWMProfile**](iwmprofile.md)         | Fournit l’accès aux informations de profil du fichier Windows Media chargé dans le lecteur.                                                                       |
+| [**IWMProfile**](iwmprofile.md)         | fournit l’accès aux informations de profil du fichier multimédia Windows chargé dans le lecteur.                                                                       |
 | [**IWMProfile2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2)       | Récupère l’identificateur global unique (GUID), le cas échéant, associé au profil. Hérite de toutes les méthodes de **IWMProfile**.                               |
 | [**IWMProfile3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3)       | Prend en charge le partage de bande passante et les informations de hiérarchisation des flux dans le profil. Hérite de toutes les méthodes de **IWMProfile** et **IWMProfile2**.                |
 | [**IWMSyncReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)   | Fournit des fonctionnalités de lecture synchrones pour les fichiers multimédias numériques.                                                                                                 |
@@ -40,7 +40,7 @@ Les interfaces suivantes sont prises en charge par l’objet lecteur synchrone.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -55,9 +55,9 @@ Les interfaces suivantes sont prises en charge par l’objet lecteur synchrone.
 [**Lecture des fichiers avec le lecteur synchrone**](reading-files-with-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 469686cbd96dedc7f816fdd1f482d3474362688e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 141f79398e1f9f250b402df130daa728c8e2f0e5f78702d7866dbe9a202b5978
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118323118"
 ---
 # <a name="iasyncoperationwithprogresscompletedhandlertresulttprogressinvoke-method"></a>IAsyncOperationWithProgressCompletedHandler<TResult, TProgress> :: Invoke, méthode
 
@@ -41,7 +41,7 @@ HRESULT Invoke(
 *asyncInfo* \[ dans\]
 </dt> <dd>
 
-Type : **[**IAsyncOperationWithProgress<TResult, TProgress>**](/previous-versions//br205807(v=vs.85)) \** _
+Type : **[ **IAsyncOperationWithProgress<TResult, TProgress>**](/previous-versions//br205807(v=vs.85))\***
 
 Action asynchrone qui signale la fin de l’opération.
 
@@ -49,7 +49,7 @@ Action asynchrone qui signale la fin de l’opération.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 

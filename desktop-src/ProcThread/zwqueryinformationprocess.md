@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ntdll.dll
 - ntoskrnl.exe
-ms.openlocfilehash: 30207c8d3d54c54f77194b542e10e9fee94e055a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7972d3d2e6b98f56829680dd77c4c0a97b51679ffb2d9cfef928d4a279f6b7f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792913"
 ---
 # <a name="zwqueryinformationprocess-function"></a>ZwQueryInformationProcess fonction)
 
@@ -82,7 +82,7 @@ Type d’informations de processus à récupérer. Ce paramètre peut avoir l’
 </tr>
 <tr class="odd">
 <td><span id="ProcessWow64Information"></span><span id="processwow64information"></span><span id="PROCESSWOW64INFORMATION"></span><dl> <dt><strong>ProcessWow64Information</strong></dt> <dt>26</dt> </dl></td>
-<td>Détermine si le processus s’exécute dans l’environnement WOW64 (WOW64 est l’émulateur x86 qui permet aux applications Win32 de s’exécuter sur Windows 64 bits).<br/> Il est préférable d’utiliser la fonction <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process"><strong>IsWow64Process</strong></a> pour obtenir ces informations.<br/></td>
+<td>Détermine si le processus s’exécute dans l’environnement WOW64 (WOW64 est l’émulateur x86 qui permet aux applications Win32 de s’exécuter sur les Windows 64 bits).<br/> Il est préférable d’utiliser la fonction <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process"><strong>IsWow64Process</strong></a> pour obtenir ces informations.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ProcessImageFileName"></span><span id="processimagefilename"></span><span id="PROCESSIMAGEFILENAME"></span><dl> <dt><strong>ProcessImageFileName</strong></dt> <dt>27</dt> </dl></td>
@@ -93,7 +93,7 @@ Type d’informations de processus à récupérer. Ce paramètre peut avoir l’
 <td>Récupère une valeur <strong>ULong</strong> indiquant si le processus est considéré comme critique.<br/>
 <blockquote>
 [!Note]<br />
-Cette valeur peut être utilisée à partir de Windows XP avec SP3. À partir de Windows 8.1, <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocesscritical"><strong>IsProcessCritical</strong></a> doit être utilisé à la place.
+cette valeur peut être utilisée à partir de Windows XP avec SP3. à partir de Windows 8.1, <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocesscritical"><strong>IsProcessCritical</strong></a> doit être utilisé à la place.
 </blockquote>
 <br/></td>
 </tr><tr class="even">
@@ -224,9 +224,9 @@ Retourne un code d’erreur ou de réussite NTSTATUS.
 
 Les formulaires et la signification des codes d’erreur de NTSTATUS sont répertoriés dans le fichier d’en-tête Ntstatus. h disponible dans le DDK, et sont décrits dans la documentation du DDK sous Kernel-Mode architecture du pilote/Guide de conception/Guide de conception/techniques de programmation des pilotes/erreurs de journalisation.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La fonction **ZwQueryInformationProcess** et les structures qu’elle retourne sont internes au système d’exploitation et peuvent être modifiées d’une version de Windows à une autre. Pour maintenir la compatibilité de votre application, il est préférable d’utiliser à la place les fonctions publiques mentionnées dans la description du paramètre *ProcessInformationClass* .
+la fonction **ZwQueryInformationProcess** et les structures qu’elle retourne sont internes au système d’exploitation et peuvent être modifiées d’une version de Windows à une autre. Pour maintenir la compatibilité de votre application, il est préférable d’utiliser à la place les fonctions publiques mentionnées dans la description du paramètre *ProcessInformationClass* .
 
 Si vous utilisez **ZwQueryInformationProcess**, accédez à la fonction via la [liaison dynamique au moment de l’exécution](../dlls/using-run-time-dynamic-linking.md). Cela donne à votre code la possibilité de répondre correctement si la fonction a été modifiée ou supprimée du système d’exploitation. Toutefois, les modifications de signature peuvent ne pas être détectables.
 
@@ -238,8 +238,8 @@ Cette fonction n’a pas de bibliothèque d’importation associée. Vous devez 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl> |
 
 

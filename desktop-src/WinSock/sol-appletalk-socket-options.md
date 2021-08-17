@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 api_location:
 - Atalkwsh.h
-ms.openlocfilehash: 146cfa02706cc9a2669cf21ba6d9eac0ac74ee4d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5ea45b4007a3bd36d2cfbceda5b7ec4f2cff20d9bb2387fb2d184710a8a4492c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740006"
 ---
 # <a name="sol_appletalk-socket-options"></a>\_Options de socket AppleTalk AppleTalk
 
@@ -31,30 +31,30 @@ Pour énumérer les protocoles et découvrir les propriétés prises en charge p
 
 | Option                          | Obtenir | Définissez | Type Optval                          | Description                                                                                                                                                                                          |
 |---------------------------------|-----|-----|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \_confirmer le \_ nom               | Oui |     | **\_TUPLE du NBP WSH \_**                  | Confirme qu’un nom AppleTalk donné est lié à l’adresse spécifiée.                                                                                                                                  |
-| par conséquent, \_ DÉSinscrire le \_ nom            |     | Oui | **\_nom du Registre WSH \_**              | Annule l’inscription du nom sur le réseau.                                                                                                                                                               |
-| \_GETLOCALZONES               | Oui |     | **\_zones de recherche WSH \_**               | Retourne une liste de noms de zone connus du nom d’adaptateur donné.                                                                                                                                        |
-| \_GETMYZONE                   | Oui |     | Char \[\]                            | Retourne la zone par défaut sur le réseau.                                                                                                                                                             |
-| \_GETNETINFO                  | Oui |     | **\_recherche WSH \_ NETDEF \_ sur l' \_ adaptateur** | Retourne les valeurs d’amorçage pour le réseau ainsi que la zone par défaut. Le paramètre *optlen* doit être au moins un octet supérieur à la taille de la **\_ recherche WSH \_ NETDEF \_ sur \_** la structure de l’adaptateur.  |
-| \_GETZONELIST                 | Oui |     | **\_zones de recherche WSH \_**               | Retourne les noms de zone à partir de la liste des zones Internet. Le paramètre *optlen* doit être au moins d’un octet plus grand que la taille de la structure de **\_ \_ zones de recherche WSH** .                                       |
-| \_Rechercher \_ MYZONE              | Oui |     |                                      | Comme \_ GETMYZONE                                                                                                                                                                                |
-| \_nom de recherche \_                | Oui |     | **\_nom de recherche WSH \_**                | Recherche un nom de NBP spécifié et retourne les tuples correspondants des informations de nom et NBP. Le paramètre *optlen* doit être au moins un octet supérieur à la taille de la \_ structure de nom de recherche WSH \_ . |
-| \_Rechercher \_ NETDEF sur \_ l' \_ adaptateur | Oui |     | **\_recherche WSH \_ NETDEF \_ sur l' \_ adaptateur** | Comme c’est le cas \_ GETNETINFO.                                                                                                                                                                              |
-| \_zones de recherche \_               | Oui |     | **\_zones de recherche WSH \_**               | Comme c’est le cas \_ GETZONELIST.                                                                                                                                                                             |
-| \_ \_ zones de recherche \_ sur l' \_ adaptateur  | Oui |     | **\_zones de recherche WSH \_**               | Comme c’est le cas \_ GETLOCALZONES.                                                                                                                                                                           |
-| ainsi, \_ PAP \_ obtient l' \_ État du serveur \_    | Oui |     | **\_État du \_ \_ serveur \_ d’accès WSH PAP**    | Retourne l’État PAP d’un serveur donné                                                                                                                                                           |
-| DONC \_ PAP \_ prime \_ lecture            |     | Oui | Char \[\]                            | Cet appel prime une lecture sur une connexion PAP afin que l’expéditeur puisse commencer à envoyer les données                                                                                                                 |
-| par conséquent, \_ PAP \_ définir l' \_ État du serveur \_    |     | Oui | Char \[\]                            | Définit l’État à envoyer si un autre client demande l’État                                                                                                                                     |
-| \_nom du Registre \_              |     | Oui | **\_nom du Registre WSH \_**              | Inscrit le nom donné sur le réseau AppleTalk.                                                                                                                                                    |
-| \_supprimer le \_ nom                |     | Oui | **\_nom du Registre WSH \_**              | Identique au nom de l’annulation de l' \_ inscription \_                                                                                                                                                                         |
+| \_confirmer le \_ nom               | oui |     | **\_TUPLE du NBP WSH \_**                  | Confirme qu’un nom AppleTalk donné est lié à l’adresse spécifiée.                                                                                                                                  |
+| par conséquent, \_ DÉSinscrire le \_ nom            |     | oui | **\_nom du Registre WSH \_**              | Annule l’inscription du nom sur le réseau.                                                                                                                                                               |
+| \_GETLOCALZONES               | oui |     | **\_zones de recherche WSH \_**               | Retourne une liste de noms de zone connus du nom d’adaptateur donné.                                                                                                                                        |
+| \_GETMYZONE                   | oui |     | Char \[\]                            | Retourne la zone par défaut sur le réseau.                                                                                                                                                             |
+| \_GETNETINFO                  | oui |     | **\_recherche WSH \_ NETDEF \_ sur l' \_ adaptateur** | Retourne les valeurs d’amorçage pour le réseau ainsi que la zone par défaut. Le paramètre *optlen* doit être au moins un octet supérieur à la taille de la **\_ recherche WSH \_ NETDEF \_ sur \_** la structure de l’adaptateur.  |
+| \_GETZONELIST                 | oui |     | **\_zones de recherche WSH \_**               | Retourne les noms de zone à partir de la liste des zones Internet. Le paramètre *optlen* doit être au moins d’un octet plus grand que la taille de la structure de **\_ \_ zones de recherche WSH** .                                       |
+| \_Rechercher \_ MYZONE              | oui |     |                                      | Comme \_ GETMYZONE                                                                                                                                                                                |
+| \_nom de recherche \_                | oui |     | **\_nom de recherche WSH \_**                | Recherche un nom de NBP spécifié et retourne les tuples correspondants des informations de nom et NBP. Le paramètre *optlen* doit être au moins un octet supérieur à la taille de la \_ structure de nom de recherche WSH \_ . |
+| \_Rechercher \_ NETDEF sur \_ l' \_ adaptateur | oui |     | **\_recherche WSH \_ NETDEF \_ sur l' \_ adaptateur** | Comme c’est le cas \_ GETNETINFO.                                                                                                                                                                              |
+| \_zones de recherche \_               | oui |     | **\_zones de recherche WSH \_**               | Comme c’est le cas \_ GETZONELIST.                                                                                                                                                                             |
+| \_ \_ zones de recherche \_ sur l' \_ adaptateur  | oui |     | **\_zones de recherche WSH \_**               | Comme c’est le cas \_ GETLOCALZONES.                                                                                                                                                                           |
+| ainsi, \_ PAP \_ obtient l' \_ État du serveur \_    | oui |     | **\_État du \_ \_ serveur \_ d’accès WSH PAP**    | Retourne l’État PAP d’un serveur donné                                                                                                                                                           |
+| DONC \_ PAP \_ prime \_ lecture            |     | oui | Char \[\]                            | Cet appel prime une lecture sur une connexion PAP afin que l’expéditeur puisse commencer à envoyer les données                                                                                                                 |
+| par conséquent, \_ PAP \_ définir l' \_ État du serveur \_    |     | oui | Char \[\]                            | Définit l’État à envoyer si un autre client demande l’État                                                                                                                                     |
+| \_nom du Registre \_              |     | oui | **\_nom du Registre WSH \_**              | Inscrit le nom donné sur le réseau AppleTalk.                                                                                                                                                    |
+| \_supprimer le \_ nom                |     | oui | **\_nom du Registre WSH \_**              | Identique au nom de l’annulation de l' \_ inscription \_                                                                                                                                                                         |
 
 
 
  
 
-</dt> </dl> </dd> <dt><span id="Windows_Support_for_SOL_APPLETALK_options"></span><span id="windows_support_for_sol_appletalk_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_APPLETALK_OPTIONS"></span>**Prise en charge Windows pour les \_ options AppleTalk AppleTalk**</dt> <dd> <dl> <dt> 
+</dt> </dl> </dd> <dt><span id="Windows_Support_for_SOL_APPLETALK_options"></span><span id="windows_support_for_sol_appletalk_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_APPLETALK_OPTIONS"></span>**Windows Prise en charge des \_ options AppleTalk AppleTalk**</dt> <dd> <dl> <dt> 
 
-| Option                          | Windows Vista et versions ultérieures | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/me |
+| Option                          | Windows Vista et versions ultérieures | Windows Server 2003 | Windows XP | Windows 2000 | Windows 4 | Windows 9x/Me |
 |---------------------------------|-------------------------|---------------------|------------|--------------|-------------|---------------|
 | \_confirmer le \_ nom               |                         | x                   | x          | x            | x           |               |
 | par conséquent, \_ DÉSinscrire le \_ nom            |                         | x                   | x          | x            | x           |               |
@@ -77,12 +77,12 @@ Pour énumérer les protocoles et découvrir les propriétés prises en charge p
 
  
 
-Les options de **sol \_ AppleTalk** sont uniquement prises en charge sur les versions serveur de Windows 2000 et Windows NT 4,0.
+les options de **SOL \_ APPLETALK** sont uniquement prises en charge sur les versions serveur de Windows 2000 et Windows NT 4,0.
 
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les options de socket **\_ AppleTalk AppleTalk** et les structures utilisées par ces options de socket sont définies dans le fichier d’en-tête *Atalkwsh. h* .
 

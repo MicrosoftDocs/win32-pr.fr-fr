@@ -1,34 +1,34 @@
 ---
-title: Présentation de l’infrastructure du ruban Windows
-description: Affichez la page d’accueil de l’infrastructure de ruban Windows, qui est une alternative aux menus superposés, aux barres d’outils et aux volets de tâches des applications Windows traditionnelles.
+title: présentation de l’infrastructure du ruban Windows
+description: affichez la page d’accueil de l’infrastructure de ruban Windows, qui est une alternative aux menus superposés, aux barres d’outils et aux volets de tâches des applications Windows traditionnelles.
 ms.assetid: bc19d5eb-e3a4-4022-8051-512cb3a3e065
 keywords:
-- Ruban Windows, infrastructure
+- Windows Ruban, infrastructure
 - Ruban, infrastructure
-- Ruban Windows, à propos de
+- Windows Ruban, à propos de
 - Ruban, à propos de
-- Ruban Windows, composants
+- Windows Ruban, composants
 - Ruban, composants
-- Ruban Windows, vues
+- Windows Ruban, vues
 - Ruban, vues
-- Ruban Windows, architecture
+- Windows Ruban, architecture
 - Ruban, architecture
-- Ruban Windows, API
+- Windows Ruban, API
 - Ruban, API
-- Ruban Windows, sécurité
+- Windows Ruban, sécurité
 - Ruban, sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db15165b91708a85e5ae6237b66a15bf733e80a7
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 65576d90abb68b0efddf850f4855633f4b362d8cb21ce6f6f85f7924085e8810
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850640"
 ---
-# <a name="introducing-the-windows-ribbon-framework"></a>Présentation de l’infrastructure du ruban Windows
+# <a name="introducing-the-windows-ribbon-framework"></a>présentation de l’infrastructure du ruban Windows
 
-L’infrastructure de ruban Windows est un système de présentation de commande riche qui offre une alternative moderne aux menus en couches, aux barres d’outils et aux volets de tâches des applications Windows traditionnelles.
+l’infrastructure du ruban Windows est un système de présentation de commande riche qui offre une alternative moderne aux menus en couches, aux barres d’outils et aux volets de tâches des applications Windows traditionnelles.
 
 -   [Nouveau paradigme de commande](#a-new-command-paradigm)
 -   [Views](#views)
@@ -43,13 +43,13 @@ L’infrastructure de ruban Windows est un système de présentation de commande
 
 ## <a name="a-new-command-paradigm"></a>Nouveau paradigme de commande
 
-L’infrastructure du ruban est une collection d’API Microsoft Win32 qui prennent en charge un hôte de nouvelles fonctionnalités d’interface utilisateur pour les développeurs Windows.
+l’infrastructure du ruban est une collection d’api Microsoft Win32 qui prennent en charge un hôte de nouvelles fonctionnalités d’interface utilisateur pour les développeurs Windows.
 
 Cette infrastructure de commande d’interface utilisateur riche et moderne offre les fonctionnalités suivantes :
 
 -   Implémentation facile pour les nouvelles applications de Framework de ruban et la migration simple des applications Win32 existantes.
 -   Apparence et comportement cohérents dans les applications du ruban.
--   Respectez les instructions de l’interface utilisateur Windows pour une expérience Windows de première classe grâce aux normes d’accessibilité, à la prise en charge de style visuel (à thème), aux réglages à contraste élevé automatique et à la reconnaissance des points par pouce (dpi).
+-   respect des directives de l’interface utilisateur Windows pour une expérience Windows de première classe grâce aux normes d’accessibilité, à la prise en charge de style visuel (à thème), aux réglages à contraste élevé automatique et à la reconnaissance des points par pouce (dpi).
 
 L’infrastructure du ruban se compose de deux composants d’interface utilisateur principaux :
 
@@ -64,21 +64,21 @@ Les composants de l’interface utilisateur principale de l’infrastructure du 
 
 ### <a name="the-ribbon-view"></a>Affichage du ruban
 
-L’interface utilisateur de la vue du [**ruban**](windowsribbon-element-ribbon.md) est la principale fonctionnalité de l’infrastructure du ruban et fournit l’expérience utilisateur de nouvelle génération pour la présentation des commandes dans les applications Windows.
+l’interface utilisateur de la vue du [**ruban**](windowsribbon-element-ribbon.md) est la principale fonctionnalité de l’infrastructure du ruban et fournit l’expérience utilisateur de nouvelle génération pour la présentation des commandes dans Windows applications.
 
-Le ruban est une barre de commandes qui expose les principales fonctionnalités d’une application via une série d’onglets en haut d’une fenêtre d’application. Elle est similaire à la fonctionnalité et à l’apparence de l’interface utilisateur Fluent Microsoft Office 2007. Le ruban fournit un correspondants intuitif au processus d’évaluation et d’erreur de la découverte de commande, typique des systèmes de menus Windows standard. Optimisé pour l’efficacité et la détectabilité, le ruban facilite la recherche, la compréhension et l’utilisation des commandes avec des clics de souris et des séquences de touches minimaux par le biais d’un système de contrôles standard, de galeries et d’un aperçu instantané.
+Le ruban est une barre de commandes qui expose les principales fonctionnalités d’une application via une série d’onglets en haut d’une fenêtre d’application. elle est similaire à la fonctionnalité et à l’apparence de l’interface utilisateur Microsoft Office 2007 Fluent. le ruban fournit un correspondants intuitif au processus d’évaluation et d’erreur de la découverte de commande, typique des systèmes de menus de Windows standard. Optimisé pour l’efficacité et la détectabilité, le ruban facilite la recherche, la compréhension et l’utilisation des commandes avec des clics de souris et des séquences de touches minimaux par le biais d’un système de contrôles standard, de galeries et d’un aperçu instantané.
 
-L’image suivante illustre l’implémentation de l’infrastructure du ruban dans Paint pour Windows 7.
+l’image suivante illustre l’implémentation de l’infrastructure du ruban dans Paint pour Windows 7.
 
 ![capture d’écran montrant l’implémentation du ruban dans Paint pour Windows 7.](images/overviews/screenshot-paint-win7transparency-mirror.png)
 
 ### <a name="the-contextpopup-view"></a>Vue ContextPopup
 
-La vue [**ContextPopup**](windowsribbon-element-contextpopup.md) , via le [contrôle contextuel](windowsribbon-controls-contextpopup.md) contextuel, fournit un système de menu contextuel plus riche que celui disponible avec les applications Windows antérieures. Une fenêtre contextuelle de contexte ne peut être déployée que pour la prise en charge d’un ruban. un popup de contexte autonome n’est pas pris en charge par l’infrastructure du ruban.
+la vue [**ContextPopup**](windowsribbon-element-contextpopup.md) , via le [contrôle contextuel](windowsribbon-controls-contextpopup.md) contextuel, fournit un système de menu contextuel plus riche que celui disponible avec les applications Windows antérieures. Une fenêtre contextuelle de contexte ne peut être déployée que pour la prise en charge d’un ruban. un popup de contexte autonome n’est pas pris en charge par l’infrastructure du ruban.
 
 ## <a name="ribbon-architecture"></a>Architecture du ruban
 
-Contrairement au modèle de développement d’interface utilisateur Windows traditionnel basé sur les contrôles, le développement de l’interface utilisateur de l’infrastructure de ruban Windows est basé sur le concept plus abstrait des commandes. En vous concentrant sur les commandes associées aux contrôles, plutôt que sur les contrôles eux-mêmes, le Framework est en mesure d’ajuster automatiquement l’interface utilisateur en fonction des besoins en réponse à l’état d’exécution de la commande récupéré à partir de l’application hôte du ruban.
+contrairement au modèle de développement d’interface utilisateur Windows basé sur les contrôles traditionnel, Windows le développement de l’interface utilisateur de l’infrastructure du ruban est basé sur le concept plus abstrait des commandes. En vous concentrant sur les commandes associées aux contrôles, plutôt que sur les contrôles eux-mêmes, le Framework est en mesure d’ajuster automatiquement l’interface utilisateur en fonction des besoins en réponse à l’état d’exécution de la commande récupéré à partir de l’application hôte du ruban.
 
 Une application qui utilise l’infrastructure de ruban expose des commandes sans être engagées avec les détails de la façon dont cette commande est représentée dans l’interface utilisateur. C’est ce qu’on appelle parfois un modèle d’interface utilisateur basé sur des intentions. Le [**type de commande**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype), ses propriétés et ses ressources définissent l’objectif de la commande pour l’application. Par exemple, l’entrée de la souris, l’entrée au clavier ou l’agitation d’un appareil gyroscopique peuvent entraîner l’exécution de la même commande. l’application est uniquement concernée par l’exécution de la commande, et non par la manière dont elle a été appelée.
 
@@ -144,21 +144,21 @@ Les API de ruban fournissent les connexions nécessaires entre une vue et l’ap
 
 La DLL de l’infrastructure du ruban (uiribbon.dll) s’exécute dans le processus et a les mêmes privilèges que l’application hôte. Le ruban accepte uniquement ce que l’application hôte fournit comme entrée d’entrée ou d’utilisateur à partir de contrôles étroitement limités tels que le compteur et la zone de liste modifiable modifiable.
 
-En outre, le Framework ne stocke pas définitivement les informations, à l’exception de ce qui est fourni par l’application hôte ou collectées (comme l’autorise l’utilisateur final) par le biais du programme de l’expérience utilisateur Windows.
+en outre, le framework ne stocke pas définitivement les informations, à l’exception de ce qui est fourni par l’application hôte ou collectées (comme l’autorise l’utilisateur final) par le biais du programme de l’expérience utilisateur Windows.
 
 ### <a name="accessibility-and-localization"></a>Accessibilité et localisation
 
 Pour fournir une interface utilisateur hautement accessible, l’infrastructure du ruban implémente Microsoft Active Accessibility. En remplissant automatiquement les propriétés de Active Accessibility Microsoft pertinentes à l’aide d’informations valides et utiles, l’infrastructure réduit considérablement la charge des développeurs pour fournir une expérience inclusive pour tous les utilisateurs.
 
-Pour plus d’informations sur l’accessibilité dans l’infrastructure du ruban, consultez [utilisation de Active Accessibility dans l’interface utilisateur Office Fluent 2007](/previous-versions/office/developer/office-2007/bb404170(v=office.12)).
+pour plus d’informations sur l’accessibilité dans l’infrastructure du ruban, consultez [utilisation de Active Accessibility dans l’Interface utilisateur 2007 Office Fluent](/previous-versions/office/developer/office-2007/bb404170(v=office.12)).
 
-En outre, l’infrastructure du ruban est une fonctionnalité Windows et, par conséquent, est localisée pour tous les langages pris en charge par Windows. Toutefois, les développeurs sont responsables de la localisation de leurs propres ressources d’application spécifiques.
+en outre, l’infrastructure du ruban est une fonctionnalité Windows et, par conséquent, est localisée pour tous les langages que Windows prend en charge. Toutefois, les développeurs sont responsables de la localisation de leurs propres ressources d’application spécifiques.
 
 ## <a name="conclusion"></a>Conclusion
 
 Le ruban est une nouvelle forme de présentation de commande que les développeurs d’applications, les architectes et les concepteurs doivent prendre en compte lors de la conception et de la création de nouvelles applications ou de la mise à jour d’applications existantes.
 
-Le [Forum de développement du ruban Windows](https://social.msdn.microsoft.com/Forums/windowsdesktop/home?forum=windowsribbondevelopment) est disponible pour discuter des sujets et poser des questions relatives au développement d’applications qui implémentent l’infrastructure de ruban Windows.
+le [Forum de développement Windows ruban](https://social.msdn.microsoft.com/Forums/windowsdesktop/home?forum=windowsribbondevelopment) est disponible pour discuter des sujets et poser des questions relatives au développement d’applications qui implémentent l’infrastructure de ruban Windows.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

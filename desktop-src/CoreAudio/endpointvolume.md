@@ -4,12 +4,12 @@ ms.assetid: 2597f3b1-5339-4fd4-9938-39ff917626b4
 title: EndpointVolume
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e89efe89035ec272c68c6a9289672a249616e23
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c157149e6b15014b1228b2b5c97080fcdbdccd9acc2745ee5a986a7de7c997f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828270"
 ---
 # <a name="endpointvolume"></a>EndpointVolume
 
@@ -18,7 +18,7 @@ Cet exemple d’application utilise les API audio de base pour modifier le volum
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -52,7 +52,7 @@ Cet exemple est disponible aux emplacements suivants.
 
 | Emplacement    | Chemin d’accès/URL                                                                                        |
 |-------------|-------------------------------------------------------------------------------------------------|
-| Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft SDK \\ Windows \\ v 7.0 \\ exemples \\ multimédia \\ audio \\ EndpointVolume \\ ... |
+| Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ \\ Audio Multimedia \\ EndpointVolume \\ ... |
 
 
 
@@ -64,9 +64,9 @@ Pour générer l’exemple x, procédez comme suit :
 
 Pour générer l’exemple EndpointVolumeChanger, procédez comme suit :
 
-1.  Ouvrez l’interpréteur de commandes pour le SDK Windows et accédez au répertoire d’exemple EndpointVolume.
-2.  Exécutez la commande `start EndpointVolumeChanger.sln` dans le répertoire EndpointVolume pour ouvrir le projet EndpointVolumeChanger dans la fenêtre Visual Studio.
-3.  À partir de la fenêtre, sélectionnez la configuration de la solution **Debug** ou **Release** , sélectionnez le menu **générer** dans la barre de menus, puis sélectionnez l’option **générer** . Si vous n’ouvrez pas Visual Studio à partir du shell CMD pour le kit de développement logiciel (SDK), Visual Studio n’aura pas accès à l’environnement de génération du kit de développement logiciel (SDK). Dans ce cas, l’exemple n’est pas généré, sauf si vous définissez explicitement la variable d’environnement MSSdk, qui est utilisée dans le fichier projet, WASAPIEndpointVolume. vcproj.
+1.  ouvrez l’interpréteur de commandes pour le SDK Windows et accédez au répertoire d’exemple EndpointVolume.
+2.  exécutez la commande `start EndpointVolumeChanger.sln` dans le répertoire EndpointVolume pour ouvrir le projet EndpointVolumeChanger dans la fenêtre Visual Studio.
+3.  À partir de la fenêtre, sélectionnez la configuration de la solution **Debug** ou **Release** , sélectionnez le menu **générer** dans la barre de menus, puis sélectionnez l’option **générer** . si vous n’ouvrez pas Visual Studio à partir du shell CMD pour le kit de développement logiciel (sdk), Visual Studio n’aura pas accès à l’environnement de génération du kit de développement logiciel (sdk). Dans ce cas, l’exemple n’est pas généré, sauf si vous définissez explicitement la variable d’environnement MSSdk, qui est utilisée dans le fichier projet, WASAPIEndpointVolume. vcproj.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 

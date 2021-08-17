@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6eaebe5370e97dcb42ddcf79018015ceff9147f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b750c8dee2b95597636620dc54ad193cb762cd259b2bf7149c52996e85e09b18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926025"
 ---
 # <a name="access-to-wmi-namespaces"></a>Accès aux espaces de noms WMI
 
@@ -32,11 +32,11 @@ Les informations suivantes sont présentées dans cette rubrique :
 
 ## <a name="wmi-namespace-security"></a>Sécurité de l’espace de noms WMI
 
-WMI gère la sécurité des espaces de noms en comparant le [*jeton d’accès*](/windows/desktop/SecGloss/a-gly) de l’utilisateur qui se connecte à l’espace de noms avec le [*descripteur de sécurité*](/windows/desktop/SecGloss/s-gly) de l’espace de noms. Pour plus d’informations sur la sécurité Windows, consultez [accès aux objets sécurisables WMI](access-to-wmi-securable-objects.md).
+WMI gère la sécurité des espaces de noms en comparant le [*jeton d’accès*](/windows/desktop/SecGloss/a-gly) de l’utilisateur qui se connecte à l’espace de noms avec le [*descripteur de sécurité*](/windows/desktop/SecGloss/s-gly) de l’espace de noms. pour plus d’informations sur la sécurité de Windows, consultez [accès aux objets sécurisables WMI](access-to-wmi-securable-objects.md).
 
-Sachez que, à partir de Windows Vista, le [contrôle de compte d’utilisateur (UAC, User Account Control)](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) affecte l’accès aux données WMI et ce qui peut être configuré avec le [*contrôle WMI*](gloss-w.md). Pour plus d’informations, consultez [autorisations par défaut sur les espaces de noms WMI](#default-permissions-on-wmi-namespaces) et [le contrôle de compte d’utilisateur et WMI](user-account-control-and-wmi.md).
+n’oubliez pas que, à partir de Windows Vista, le [contrôle de compte d’utilisateur (UAC, User Account control)](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) affecte l’accès aux données wmi et ce qui peut être configuré avec le [*contrôle wmi*](gloss-w.md). Pour plus d’informations, consultez [autorisations par défaut sur les espaces de noms WMI](#default-permissions-on-wmi-namespaces) et [le contrôle de compte d’utilisateur et WMI](user-account-control-and-wmi.md).
 
-L’accès aux espaces de noms WMI est également affecté lorsque la connexion provient d’un ordinateur distant. Pour plus d’informations, consultez [connexion à WMI sur un ordinateur distant](connecting-to-wmi-on-a-remote-computer.md), [sécurisation d’une connexion WMI à distance](securing-a-remote-wmi-connection.md)et [connexion via le pare-feu Windows](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista).
+L’accès aux espaces de noms WMI est également affecté lorsque la connexion provient d’un ordinateur distant. pour plus d’informations, consultez [connexion à wmi sur un ordinateur distant](connecting-to-wmi-on-a-remote-computer.md), [sécurisation d’une connexion WMI à distance](securing-a-remote-wmi-connection.md)et [connexion via Windows pare-feu](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista).
 
 Les fournisseurs doivent s’appuyer sur le paramètre d’emprunt d’identité de la connexion pour déterminer si le script ou l’application cliente doit recevoir des données. Pour plus d’informations sur les scripts et les applications clientes, consultez Définition de la [sécurité des processus d’application cliente](setting-client-application-process-security.md). Pour plus d’informations sur l’emprunt d’identité du [*fournisseur*](gloss-p.md) , consultez [développement d’un fournisseur WMI](developing-a-wmi-provider.md).
 
@@ -46,7 +46,7 @@ WMI utilise les [*listes de contrôle d’accès système*](/windows/desktop/Sec
 
 L’audit n’est pas activé lors de l’installation du système d’exploitation. Pour activer l’audit, cliquez sur l’onglet **audit** dans la fenêtre **sécurité** standard. Vous pouvez ensuite ajouter une entrée d’audit.
 
-Stratégie de groupe de l’ordinateur local doit être défini pour autoriser l’audit. Vous pouvez activer l’audit en exécutant le composant logiciel enfichable MMC gpedit. msc et en définissant **audit Object Access** sous **Configuration ordinateur** paramètres Windows paramètres de  >    >  **sécurité**  >  **stratégies locales**  >  **stratégie d’audit**.
+Stratégie de groupe de l’ordinateur local doit être défini pour autoriser l’audit. vous pouvez activer l’audit en exécutant le composant logiciel enfichable MMC Gpedit. msc et en définissant **audit Object Access** sous **Configuration ordinateur**  >  **Windows Paramètres**  >  **sécurité Paramètres**  >    >  **stratégie d’audit** stratégies locales.
 
 Une entrée d’audit modifie la liste SACL de l’espace de noms. Lorsque vous ajoutez une entrée d’audit, il s’agit d’un utilisateur, d’un groupe, d’un ordinateur ou d’un principal de sécurité intégré. Après avoir ajouté l’entrée, vous pouvez définir les opérations d’accès qui entraînent des événements du journal de sécurité. Par exemple, pour les utilisateurs authentifiés de groupe, vous pouvez cliquer sur exécuter des méthodes. Ce paramètre génère des événements de journal de sécurité chaque fois qu’un membre du groupe utilisateurs authentifiés exécute une méthode dans cet espace de noms. L’ID d’événement pour les événements WMI est 4662.
 
