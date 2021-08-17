@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 451078a6167ff7ca89ad4153c416826af8ac6d05
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 532a41bb9e39f844b3a485fc236ae8d03450d45cdcb45d92c8cfa94d9af4a4bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403408"
 ---
 # <a name="cbaserenderergetstate-method"></a>Méthode CBaseRenderer. GetState
 
@@ -65,7 +65,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                                                | Description                                                    |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                       | Opération réussie.<br/>                                            |
+| <dl> <dt>**\_OK**</dt> </dl>                       | Réussite.<br/>                                            |
 | <dl> <dt>**\_ \_ état \_ intermédiaire de VFW S**</dt> </dl> | Le filtre passe à l’état indiqué.<br/> |
 | <dl> <dt>**\_pointeur E**</dt> </dl>                  | Argument de pointeur **null** .<br/>                          |
 
@@ -73,7 +73,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode remplace la méthode [**CBaseFilter :: GetState**](cbasefilter-getstate.md) . Quand le convertisseur est suspendu, il ne termine pas la transition d’État tant qu’il n’a pas reçu d’exemple à restituer. Si le délai d’attente expire avant la fin de la transition d’État, la méthode retourne le niveau intermédiaire de l' \_ État VFW S \_ \_ .
 
@@ -83,7 +83,7 @@ Cette méthode remplace la méthode [**CBaseFilter :: GetState**](cbasefilter-g
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

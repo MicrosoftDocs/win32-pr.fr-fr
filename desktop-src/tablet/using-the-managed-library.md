@@ -4,18 +4,18 @@ ms.assetid: d283ea1c-faf3-4222-a9a7-c67087636b86
 title: Utilisation de la bibliothèque managée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b1a1050705a6d74e6b183d04ec1c8f82d3954f0
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 9d1241787b680045d6c84b440717ced5426e4352d8c280ef58c1bb7f75c9fc66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106523095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449244"
 ---
 # <a name="using-the-managed-library"></a>Utilisation de la bibliothèque managée
 
-Le common language runtime est la base du Microsoft .NET Framework. Vous pouvez considérer le common language runtime comme un agent qui gère le code au moment de l’exécution, en fournissant des services centraux tels que la gestion de la mémoire, la gestion des threads et la communication à distance, tout en appliquant également une sécurité de code stricte. En fait, le concept de gestion de code est un principe fondamental de la common language runtime. Le code qui cible le common language runtime est connu sous le nom de code managé. Le code qui ne cible pas le common language runtime est connu sous le nom de code natif.
+Le common language runtime est la base du .NET Framework Microsoft. Vous pouvez considérer le common language runtime comme un agent qui gère le code au moment de l’exécution, en fournissant des services centraux tels que la gestion de la mémoire, la gestion des threads et la communication à distance, tout en appliquant également une sécurité de code stricte. En fait, le concept de gestion de code est un principe fondamental de la common language runtime. Le code qui cible le common language runtime est connu sous le nom de code managé. Le code qui ne cible pas le common language runtime est connu sous le nom de code natif.
 
-La bibliothèque de classes Framework est une collection complète orientée objet de classes réutilisables que vous pouvez utiliser pour développer des applications allant des applications de ligne de commande traditionnelles ou d’interface utilisateur graphique (GUI) aux applications basées sur les dernières innovations fournies par ASP.NET et les services Web.
+la bibliothèque de classes Framework est une collection complète orientée objet de classes réutilisables que vous pouvez utiliser pour développer des applications allant des applications de ligne de commande traditionnelles ou d’interface utilisateur graphique (GUI) aux applications basées sur les dernières innovations fournies par ASP.NET et les Services Web.
 
 La bibliothèque gérée Tablet PC contient un ensemble d’objets gérés qui étend l’infrastructure pour assurer la prise en charge de l’entrée et de la sortie de l’écriture manuscrite sur Tablet PC, ainsi que l’échange de données avec d’autres ordinateurs.
 
@@ -35,13 +35,13 @@ La seule fois où vous devez effectuer une liaison explicite au nouvel assembly 
 
 La meilleure façon d’indiquer au chargeur common language runtime d’utiliser la DLL la plus récente consiste à rediriger les versions d’assembly au niveau de l’application. Vous pouvez spécifier que votre application utilise la version la plus récente de l’assembly en plaçant des informations de liaison d’assembly dans le fichier de configuration de votre application. Pour plus d’informations sur la redirection des versions d’assembly au niveau de l’application, consultez [redirection des versions d’assembly](/documentation/?url=%2flibrary%2fcpguide%2fhtml%2fcpconassemblyversionredirection.asp%3fframe%3dtrue), en particulier la section « Spécification d’une liaison d’assembly dans des fichiers de configuration ».
 
-Vous devrez créer un fichier de configuration dans le même répertoire que votre fichier exécutable. Le fichier de configuration doit porter le même nom que votre exécutable, suivi de l’extension de fichier. config. Par exemple, pour une application, MyApp.exe, le fichier de configuration doit être le fichier MyApp.exe.config. Le fichier de configuration utilise un élément [bindingRedirect](/previous-versions/dotnet/netframework-1.1/eftw1fys(v=vs.71)) pour forcer toutes les versions antérieures à être mappées à la dernière version, comme illustré dans l’exemple suivant :
+Vous devrez créer un fichier de configuration dans le même répertoire que votre fichier exécutable. Le fichier de configuration doit porter le même nom que votre exécutable, suivi de l’extension de fichier .config. Par exemple, pour une application, MyApp.exe, le fichier de configuration doit être le fichier MyApp.exe.config. Le fichier de configuration utilise un élément [bindingRedirect](/previous-versions/dotnet/netframework-1.1/eftw1fys(v=vs.71)) pour forcer toutes les versions antérieures à être mappées à la dernière version, comme illustré dans l’exemple suivant :
 
 `<bindingRedirect oldVersion="0.0.0.0-1.7.2600.xxxx" newVersion="1.7.2600.xxxx" />`
 
 Pour plus d’informations sur les fichiers de configuration, y compris des exemples de construction du Extensible Markup Language (XML) pour le fichier de configuration, consultez [bindingRedirect](/previous-versions/dotnet/netframework-1.1/eftw1fys(v=vs.71)) et [redirection des versions d’assembly](/documentation/?url=%2flibrary%2fcpguide%2fhtml%2fcpconassemblyversionredirection.asp%3fframe%3dtrue).
 
-Les applications créées avec Microsoft Windows XP Tablet PC Edition Kit de développement 1,7 et versions ultérieures sont automatiquement liées à la nouvelle version de l’assembly Microsoft. Ink. Pour plus d’informations sur la liaison d’assembly, consultez [Comment le runtime localise les assemblys](/documentation/?url=%2flibrary%2fcpguide%2fhtml%2fcpconHowRuntimeLocatesAssemblies.asp).
+les Applications créées avec microsoft Windows XP Tablet PC Edition Kit de développement 1,7 et versions ultérieures sont automatiquement liées à la nouvelle version de l’assembly Microsoft. Ink. Pour plus d’informations sur la liaison d’assembly, consultez [Comment le runtime localise les assemblys](/documentation/?url=%2flibrary%2fcpguide%2fhtml%2fcpconHowRuntimeLocatesAssemblies.asp).
 
 > [!Note]  
 > L’utilisation de la stratégie d’application pour effectuer une liaison à l’assembly mis à jour ne fonctionne pas pour les applications qui utilisent la classe [diviseur](/previous-versions/ms583616(v=vs.100)) ou la classe [PenInputPanel](/previous-versions/aa514041(v=msdn.10)) . Les applications qui utilisent l’une de ces classes doivent continuer à utiliser Microsoft.Ink.15.dll ou être recompilées après avoir fait référence à l’assembly mis à jour.
@@ -58,7 +58,7 @@ La classe [Form](/dotnet/api/system.windows.forms.form?view=netcore-3.1) et ses 
 
 ## <a name="forms-and-the-recognizercontext"></a>Forms et RecognizerContext
 
-Les événements [RecognizerContext](/previous-versions/ms552546(v=vs.100)) s’exécutent dans un thread différent du thread sur lequel se trouve le formulaire. Dans Windows Forms, les contrôles sont liés à un thread spécifique et ne sont pas thread-safe. Par conséquent, vous devez utiliser l’une des méthodes Invoke du contrôle pour marshaler l’appel au thread approprié. Quatre méthodes sur un contrôle sont thread-safe : les méthodes [Invoke](/dotnet/api/system.windows.forms.control.invoke?view=netcore-3.1), [BeginInvoke](/dotnet/api/system.windows.forms.control.begininvoke?view=netcore-3.1), [EndInvoke](/dotnet/api/system.windows.forms.control.endinvoke?view=netcore-3.1)et [CreateGraphics](/dotnet/api/system.windows.forms.control.creategraphics?view=netcore-3.1) . Pour tous les autres appels de méthode, utilisez l’une de ces méthodes Invoke lors de l’appel à partir d’un thread différent. Pour plus d’informations sur l’utilisation de ces méthodes, consultez [manipulation de contrôles à partir de threads](/previous-versions/757y83z4(v=vs.140)).
+Les événements [RecognizerContext](/previous-versions/ms552546(v=vs.100)) s’exécutent dans un thread différent du thread sur lequel se trouve le formulaire. dans Windows Forms, les contrôles sont liés à un thread spécifique et ne sont pas thread-safe. Par conséquent, vous devez utiliser l’une des méthodes Invoke du contrôle pour marshaler l’appel au thread approprié. Quatre méthodes sur un contrôle sont thread-safe : les méthodes [Invoke](/dotnet/api/system.windows.forms.control.invoke?view=netcore-3.1), [BeginInvoke](/dotnet/api/system.windows.forms.control.begininvoke?view=netcore-3.1), [EndInvoke](/dotnet/api/system.windows.forms.control.endinvoke?view=netcore-3.1)et [CreateGraphics](/dotnet/api/system.windows.forms.control.creategraphics?view=netcore-3.1) . Pour tous les autres appels de méthode, utilisez l’une de ces méthodes Invoke lors de l’appel à partir d’un thread différent. Pour plus d’informations sur l’utilisation de ces méthodes, consultez [manipulation de contrôles à partir de threads](/previous-versions/757y83z4(v=vs.140)).
 
 ## <a name="waiting-for-events"></a>En attente d’événements
 

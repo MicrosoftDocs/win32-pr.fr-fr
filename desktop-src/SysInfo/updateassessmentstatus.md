@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - waasapitypes.h
-ms.openlocfilehash: 790077118db7704bdd04801758f44cbb50cc54b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4ece78c9593ab674a4198829c4e75612a9c4b337e17b3d2b6c5ed2fc19f42c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118884305"
 ---
 # <a name="updateassessmentstatus-enumeration"></a>Énumération UpdateAssessmentStatus
 
@@ -53,7 +53,7 @@ typedef enum TagUpdateAssessmentStatus {
 <span id="____UpdateAssessmentStatus_Latest"></span><span id="____updateassessmentstatus_latest"></span><span id="____UPDATEASSESSMENTSTATUS_LATEST"></span>**UpdateAssessmentStatus \_ Dernière version**
 </dt> <dd>
 
-Ce résultat dans **assessmentForCurrent** implique que l’appareil se trouve sur les dernières mises à jour de fonctionnalités et mise à jour de qualité disponibles pour cet appareil. Dans **assessmentForUpToDate**, ce résultat implique que l’appareil se trouve sur la dernière mise à jour de qualité pour la version de Windows qu’il exécute.
+Ce résultat dans **assessmentForCurrent** implique que l’appareil se trouve sur les dernières mises à jour de fonctionnalités et mise à jour de qualité disponibles pour cet appareil. Dans **assessmentForUpToDate**, ce résultat implique que l’appareil se trouve sur la dernière mise à jour de qualité pour la version de Windows qu’il est en cours d’exécution.
 
 </dd> <dt>
 
@@ -93,14 +93,14 @@ L’appareil n’est pas sur la dernière mise à jour des fonctionnalités, car
 <span id="____UpdateAssessmentStatus_NotLatestDeferredFeature"></span><span id="____updateassessmentstatus_notlatestdeferredfeature"></span><span id="____UPDATEASSESSMENTSTATUS_NOTLATESTDEFERREDFEATURE"></span>**UpdateAssessmentStatus \_ NotLatestDeferredFeature**
 </dt> <dd>
 
-La dernière mise à jour de la fonctionnalité n’a pas été installée en raison de la stratégie de report des mises à jour Windows Update pour les fonctionnalités d’entreprise de l’appareil. La détermination des **daysOutOfDate** prend en compte les stratégies de report. **daysOutOfDate** ne commence pas à s’incrémenter tant que la période de report n’a pas expiré. Cet État s’applique uniquement à **assessmentForCurrent**.
+la dernière mise à jour de la fonctionnalité n’a pas été installée en raison de la stratégie de report des mises à jour Windows Update pour les fonctionnalités d’entreprise de l’appareil. La détermination des **daysOutOfDate** prend en compte les stratégies de report. **daysOutOfDate** ne commence pas à s’incrémenter tant que la période de report n’a pas expiré. Cet État s’applique uniquement à **assessmentForCurrent**.
 
 </dd> <dt>
 
 <span id="____UpdateAssessmentStatus_NotLatestDeferredQuality"></span><span id="____updateassessmentstatus_notlatestdeferredquality"></span><span id="____UPDATEASSESSMENTSTATUS_NOTLATESTDEFERREDQUALITY"></span>**UpdateAssessmentStatus \_ NotLatestDeferredQuality**
 </dt> <dd>
 
-L’appareil n’est pas sur la dernière mise à jour de qualité en raison de la Windows Update de l’appareil pour la stratégie de report de mise à jour de qualité professionnelle. La détermination des **daysOutOfDate** prend en compte les stratégies de report. **daysOutOfDate** ne commence pas à s’incrémenter tant que la période de report n’a pas expiré.
+l’appareil n’est pas sur la dernière mise à jour de qualité en raison de la Windows Update de l’appareil pour la stratégie de report de mise à jour de qualité professionnelle. La détermination des **daysOutOfDate** prend en compte les stratégies de report. **daysOutOfDate** ne commence pas à s’incrémenter tant que la période de report n’a pas expiré.
 
 </dd> <dt>
 
@@ -121,7 +121,7 @@ L’appareil n’est pas sur la dernière mise à jour de qualité, car l’appa
 <span id="____UpdateAssessmentStatus_NotLatestManaged"></span><span id="____updateassessmentstatus_notlatestmanaged"></span><span id="____UPDATEASSESSMENTSTATUS_NOTLATESTMANAGED"></span>**UpdateAssessmentStatus \_ NotLatestManaged**
 </dt> <dd>
 
-L’appareil n’est pas sur la dernière mise à jour, car l’approbation des mises à jour n’est pas effectuée par le biais de Windows Update.
+l’appareil n’est pas sur la dernière mise à jour, car l’approbation des mises à jour n’est pas effectuée par le biais de Windows Update.
 
 </dd> <dt>
 
@@ -135,11 +135,11 @@ L’appareil n’est pas sur la dernière mise à jour en raison d’une raison 
 <span id="____UpdateAssessmentStatus_NotLatestTargetedVersion"></span><span id="____updateassessmentstatus_notlatesttargetedversion"></span><span id="____UPDATEASSESSMENTSTATUS_NOTLATESTTARGETEDVERSION"></span>**UpdateAssessmentStatus \_ NotLatestTargetedVersion**
 </dt> <dd>
 
-L’appareil n’est pas sur la dernière mise à jour des fonctionnalités en raison de la stratégie de version cible de l’Windows Update de l’appareil. Cette stratégie conserve l’appareil sur la version de la fonctionnalité ciblée.
+l’appareil n’est pas sur la dernière mise à jour des fonctionnalités en raison de la stratégie de Version cible de l’Windows Update de l’appareil. Cette stratégie conserve l’appareil sur la version de la fonctionnalité ciblée.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération est utilisée le plus souvent avec les structures [**UpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-updateassessment) et [**OSUpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-osupdateassessment) , qui sont utilisées à leur tour avec la méthode [**GetOSUpdateAssessment**](/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment) pour [**IWaaSAssessor**](/windows/desktop/api/waasapi/nn-waasapi-iwaasassessor).
 
@@ -149,8 +149,8 @@ Cette énumération est utilisée le plus souvent avec les structures [**UpdateA
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1703 \[ uniquement\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1703 \[ uniquement\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                   |
 | MIDL<br/>                      | <dl> <dt>WaaSAPI. idl</dt> </dl> |
 
 

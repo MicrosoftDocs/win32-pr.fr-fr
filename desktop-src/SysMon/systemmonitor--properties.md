@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 16cee42f76a1fc448698ce7245e688279d8624a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 17c4a26028219ebf4c1e3a8024493432c30e4c550c5d5e087ddf21a864d5ad27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882982"
 ---
 # <a name="systemmonitor-properties"></a>Propriétés SystemMonitor
 
@@ -31,7 +31,7 @@ La classe [**systemmonitor**](systemmonitor.md) a les propriétés suivantes :
 -   [**DisplayType**](systemmonitor-displaytype.md)
 -   [**EnableDigitGrouping**](systemmonitor-enabledigitgrouping.md)
 -   [**EnableToolTips**](systemmonitor-enabletooltips.md)
--   [**Son**](systemmonitor-font.md)
+-   [**Police**](systemmonitor-font.md)
 -   [**CouleurTexte**](systemmonitor-forecolor.md)
 -   [**GraphTitle**](systemmonitor-graphtitle.md)
 -   [**GridColor**](systemmonitor-gridcolor.md)
@@ -61,9 +61,9 @@ La classe [**systemmonitor**](systemmonitor.md) a les propriétés suivantes :
 -   [**UpdateInterval**](systemmonitor-updateinterval.md)
 -   [**YAxisLabel**](systemmonitor-yaxislabel.md)
 
- 
+ 
 
- 
+ 
 
 
 

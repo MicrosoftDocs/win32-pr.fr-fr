@@ -4,12 +4,12 @@ ms.assetid: 5d798825-c70b-4d5a-b88c-a9db40663f6a
 title: Propriété ProductLanguage
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3199bd2fcef457b40ad98e52f50c595bc424f9a7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f6cd2a079767b1e39f07bdcf90f2a359604d89ccf9e394d2695b5aa74cc9e459
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118376454"
 ---
 # <a name="productlanguage-property"></a>Propriété ProductLanguage
 
@@ -17,7 +17,7 @@ La propriété **ProductLanguage** spécifie le langage que le programme d’ins
 
 Cette propriété est obligatoire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de la propriété **ProductLanguage** doit être l’une des langues listées dans la propriété [**Résumé du modèle**](template-summary.md) .
 
@@ -29,7 +29,7 @@ Lorsque vous créez un package comme indépendant de la langue, affectez la vale
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

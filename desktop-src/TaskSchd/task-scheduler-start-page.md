@@ -9,17 +9,17 @@ keywords:
 - Planificateur de tâches, page du portail
 ms.topic: article
 ms.date: 10/18/2019
-ms.openlocfilehash: dfbfb76145e38003e7c501b98c817f4aaca3ff09
-ms.sourcegitcommit: 087843ef08ddcd8bce9ed647b610035925da2b3e
+ms.openlocfilehash: 05edababae87c760f5506d8a40d18ef8dcc59ab35fa78b692cc76b5ad3b46579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/19/2019
-ms.locfileid: "104100825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118357742"
 ---
 # <a name="task-scheduler-for-developers"></a>Planificateur de tâches pour les développeurs
 
 > [!IMPORTANT]
-> Cette rubrique et les autres rubriques de cette section sont destinées aux développeurs. Si vous souhaitez utiliser le composant Planificateur de tâches de votre capacité en tant qu’administrateur ou professionnel de l’informatique, consultez [Planificateur de tâches](/dynamics365/business-central/dev-itpro/developer/devenv-task-scheduler).
+> Cette rubrique et les autres rubriques de cette section sont destinées aux développeurs. si vous souhaitez utiliser le composant Planificateur de tâches de votre capacité en tant qu’administrateur ou un Professional informatique, consultez [Planificateur de tâches](/dynamics365/business-central/dev-itpro/developer/devenv-task-scheduler).
 
 ## <a name="about-the-task-scheduler"></a>À propos de l’Planificateur de tâches
 
@@ -50,8 +50,8 @@ Le Planificateur de tâches fournit des API dans ces formes.
 
 Le Planificateur de tâches requiert les systèmes d’exploitation suivants.
 
-- Planificateur de tâches 2,0 : le client requiert Windows Vista ou version ultérieure. Le serveur nécessite Windows Server 2008 ou une version ultérieure.
-- Planificateur de tâches 1,0 : le client requiert Windows Vista ou Windows XP. Le serveur nécessite Windows Server 2008 ou Windows Server 2003.
+- Planificateur de tâches 2,0 : le Client requiert Windows Vista ou version ultérieure. le serveur requiert Windows server 2008 ou version ultérieure.
+- Planificateur de tâches 1,0 : le Client requiert Windows Vista ou Windows XP. le serveur requiert Windows server 2008 ou Windows server 2003.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

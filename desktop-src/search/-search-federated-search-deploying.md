@@ -1,19 +1,19 @@
 ---
-description: Cette rubrique explique comment un utilisateur inscrit un nouveau magasin de données distant avec la recherche fédérée en ouvrant un fichier de description OpenSearch (. fichier osdx), le déploiement d’un fichier. fichier osdx et le suivi de l’utilisation de votre service OpenSearch.
+description: cette rubrique explique comment un utilisateur inscrit un nouveau magasin de données distant avec la recherche fédérée en ouvrant un fichier de Description de OpenSearch (. fichier osdx), en déployant un fichier. fichier osdx et en indiquant comment suivre l’utilisation de votre service OpenSearch.
 ms.assetid: 9db0f970-4e17-492b-ab75-a8b0f8011d0a
-title: Déployer des connecteurs de recherche dans la recherche fédérée Windows
+title: déployer des connecteurs de recherche dans Windows recherche fédérée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a870169cd6cca3537327a8631a15d61da78eb6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7515fa905abf3767696457f30a52abdb0a36d78883e9649cb2bf42e77e8b8c2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463134"
 ---
-# <a name="deploying-search-connectors-in-windows-federated-search"></a>Déploiement de connecteurs de recherche dans la recherche fédérée Windows
+# <a name="deploying-search-connectors-in-windows-federated-search"></a>déploiement de connecteurs de recherche dans Windows recherche fédérée
 
-Cette rubrique explique comment un utilisateur inscrit un nouveau magasin de données distant avec la recherche fédérée en ouvrant un fichier de description OpenSearch (. fichier osdx), le déploiement d’un fichier. fichier osdx et le suivi de l’utilisation de votre service [OpenSearch](https://github.com/dewitt/opensearch) .
+cette rubrique explique comment un utilisateur inscrit un nouveau magasin de données distant avec la recherche fédérée en ouvrant un fichier de Description de OpenSearch (. fichier osdx), en déployant un fichier. fichier osdx et en indiquant comment suivre l’utilisation de votre service [OpenSearch](https://github.com/dewitt/opensearch) .
 
 Cette rubrique est organisée comme suit :
 
@@ -27,13 +27,13 @@ Cette rubrique est organisée comme suit :
 
 ## <a name="the-searchconnector-ms-search-connector-file"></a>Fichier. searchconnector-ms (connecteur de recherche)
 
-Il vous suffit d’ouvrir le fichier. fichier osdx qui décrit comment se connecter au service Web et de mapper les éléments personnalisés dans votre fichier. XML RSS ou Atom inscrit votre nouveau magasin de données distant avec la recherche fédérée. Un magasin de données qui dispose déjà d’un service Web [OpenSearch](https://github.com/dewitt/opensearch) compatible avec la recherche fédérée peut être ajouté à l’Explorateur Windows lorsqu’un utilisateur ouvre un fichier. fichier osdx.
+Il vous suffit d’ouvrir le fichier. fichier osdx qui décrit comment se connecter au service Web et de mapper les éléments personnalisés dans votre fichier. XML RSS ou Atom inscrit votre nouveau magasin de données distant avec la recherche fédérée. un magasin de données qui dispose déjà d’un service web [OpenSearch](https://github.com/dewitt/opensearch) qui est compatible avec la recherche fédérée peut être ajouté à Windows Explorer lorsqu’un utilisateur ouvre un fichier. fichier osdx.
 
 Une fois que vous avez donné l’fichier osdx à votre utilisateur et que l’utilisateur ouvre le fichier. fichier osdx, les événements suivants se produisent.
 
-1.  Un fichier. searchconnector-MS est créé dans le dossier **recherches Windows** (% UserProfile%/Searches).
+1.  un fichier. searchconnector-ms est créé dans le dossier **recherches Windows** (% userprofile%/Searches).
 2.  Un raccourci vers le fichier. searchconnector-MS est créé dans le dossier **des liens** (% UserProfile%/Links).
-3.  Un raccourci s’affiche dans le volet **favoris** de navigation de l’Explorateur Windows, ce qui permet à l’utilisateur de naviguer dans le nouveau magasin de données et d’interroger le service Web.
+3.  un raccourci s’affiche dans le volet **favoris** de navigation Windows Explorer, ce qui permet à l’utilisateur de naviguer dans le nouveau magasin de données et d’interroger le service web.
 
 ## <a name="deployment-methods"></a>Méthodes de déploiement
 
@@ -60,11 +60,11 @@ Déploiement Push décrit tout type de déploiement qui ne dépend pas de l’in
 
 ## <a name="tracking-usage"></a>Suivi de l’utilisation
 
-Pour suivre l’utilisation de votre service [OpenSearch](https://github.com/dewitt/opensearch) par les utilisateurs effectuant des recherches à partir de l’Explorateur Windows, filtrez les fichiers journaux de votre serveur Web pour cette chaîne d’agent utilisateur : `Windows-Search+(Windows+NT+6.1)` .
+pour suivre l’utilisation de votre service [OpenSearch](https://github.com/dewitt/opensearch) par les utilisateurs effectuant des recherches dans Windows Explorer, filtrez les fichiers journaux de votre serveur web pour cette chaîne d’agent utilisateur : `Windows-Search+(Windows+NT+6.1)` .
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-Pour plus d’informations sur l’implémentation de la Fédération de recherche dans des magasins de données distants à l’aide des technologies OpenSearch dans Windows 7 et versions ultérieures, consultez « ressources supplémentaires » dans la rubrique [recherche fédérée dans Windows](/previous-versions//dd742958(v=vs.85)).
+pour plus d’informations sur l’implémentation de la fédération de recherche dans des magasins de données distants à l’aide des technologies OpenSearch dans Windows 7 et versions ultérieures, consultez « ressources supplémentaires » dans la rubrique [recherche fédérée dans Windows](/previous-versions//dd742958(v=vs.85)).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -76,16 +76,16 @@ Pour plus d’informations sur l’implémentation de la Fédération de recherc
 [Prise en main avec la recherche fédérée dans Windows](getting-started-with-federated-search-in-windows.md)
 </dt> <dt>
 
-[Connexion de votre service Web dans la recherche fédérée Windows](-search-federated-search-web-service.md)
+[connexion de votre Service web dans Windows recherche fédérée](-search-federated-search-web-service.md)
 </dt> <dt>
 
-[Activation de votre magasin de données dans la recherche fédérée Windows](-search-federated-search-data-store.md)
+[activation de votre magasin de données dans Windows recherche fédérée](-search-federated-search-data-store.md)
 </dt> <dt>
 
-[Création d’un fichier de description OpenSearch dans Windows Federated Search](-search-federated-search-osdx-file.md)
+[création d’un fichier de Description OpenSearch dans Windows recherche fédérée](-search-federated-search-osdx-file.md)
 </dt> <dt>
 
-[Meilleures pratiques suivantes dans Windows Federated Search](-search-fedsearch-best.md)
+[suivre les meilleures pratiques en matière de Windows la recherche fédérée](-search-fedsearch-best.md)
 </dt> </dl>
 
  

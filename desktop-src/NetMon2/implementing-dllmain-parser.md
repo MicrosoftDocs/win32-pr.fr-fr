@@ -4,12 +4,12 @@ ms.assetid: 1741a12c-3645-4e83-b97f-37e67218c5eb
 title: Implémentation de l’analyseur DllMain
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55dd1ab7432920ac7496643c7c6f9aa0692daf56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb79ab862c64d8d99359965fec6c0d1ca8bf3cf9e35fdf58f1cbc063d5c3e6c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132938"
 ---
 # <a name="implementing-dllmain-parser"></a>Implémentation de l’analyseur DllMain
 

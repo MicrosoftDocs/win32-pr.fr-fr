@@ -1,31 +1,31 @@
 ---
-title: Le service de disque virtuel passe à l’API de gestion de stockage Windows
-description: Le service de disque virtuel passe à l’API de gestion de stockage Windows
+title: le Service disque virtuel est en train de passer à Windows API de gestion Stockage
+description: le Service disque virtuel est en train de passer à Windows API de gestion Stockage
 ms.assetid: AB2A7D08-03B2-4595-A8EC-805D111A0E89
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ceea3ffe82358737ca8f39e9ef6db0bdb1f116ef
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: a45e25452ae0b6bb20e0ca04130b7fa2fd64f2a191d504380f973f663b7931ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "104383036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117852036"
 ---
-# <a name="virtual-disk-service-is-transitioning-to-windows-storage-management-api"></a>Le service de disque virtuel passe à l’API de gestion de stockage Windows
+# <a name="virtual-disk-service-is-transitioning-to-windows-storage-management-api"></a>le Service disque virtuel est en train de passer à Windows API de gestion Stockage
 
 ## <a name="platforms"></a>Plateformes
 
 **Clients** – Windows 8  
-**Serveurs** – Windows Server 2012  
+**serveurs** – Windows Server 2012  
 
 
 ## <a name="description"></a>Description
 
-À compter de Windows 8 et de Windows Server 2012, l’interface COM du service de disque virtuel est remplacée par l’API de gestion du stockage, une interface de programmation basée sur WMI. Pour la gestion des sous-systèmes de stockage (Windows), des partitions et des volumes, nous vous recommandons fortement d’utiliser l’API de gestion du stockage. Pour plus d’informations, consultez [API de gestion du stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).
+à partir de Windows 8 et Windows Server 2012, l’interface COM du Service de disque virtuel est remplacée par l’API de gestion des Stockage, une interface de programmation basée sur WMI. pour la gestion des sous-systèmes de stockage, (Windows) des disques, des partitions et des volumes, nous vous recommandons fortement d’utiliser l’API de gestion des Stockage. pour plus d’informations, consultez [Windows Stockage API de gestion](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).
 
-Pour toutes les utilisations, à l’exception des volumes de démarrage miroir (à l’aide d’un volume miroir pour héberger le système d’exploitation), les disques dynamiques sont déconseillés. Pour les données qui nécessitent une résilience contre les défaillances de disque, utilisez des espaces de stockage, une solution de virtualisation de stockage résiliente. Pour plus d’informations, consultez [Storage Spaces Technical Preview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831739(v=ws.11)).
+Pour toutes les utilisations, à l’exception des volumes de démarrage miroir (à l’aide d’un volume miroir pour héberger le système d’exploitation), les disques dynamiques sont déconseillés. pour les données qui nécessitent une résilience contre les défaillances de disque, utilisez espaces de stockage, une solution de virtualisation de stockage résiliente. pour plus d’informations, consultez [espaces de stockage Technical Preview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831739(v=ws.11)).
 
-Vous pouvez continuer à utiliser DiskPart, DiskRAID et la gestion des disques au cours de la période de dépréciation, mais ces outils ne fonctionnent pas avec les espaces de stockage ou avec les autres API de gestion de stockage Windows basées sur le nouveau Windows Management Instrumentation (WMI) ou les nouveaux utilitaires ou clients de gestion de stockage intégrés.
+vous pouvez continuer à utiliser DiskPart, DiskRAID et la gestion des disques au cours de la période de dépréciation, mais ces outils ne fonctionnent pas avec espaces de stockage ou avec d’autres api de gestion de Stockage Windows basées sur le Windows Management Instrumentation (WMI) ou des utilitaires de gestion de stockage intégrés ou des clients.
 
 
 | API | Sous-systèmes de stockage | Disques de base | Disques dynamiques | Espaces de stockage |
@@ -36,18 +36,18 @@ Vous pouvez continuer à utiliser DiskPart, DiskRAID et la gestion des disques a
 | DiskRAID |  Oui | n/a | n/a | n/a |
 | Interface utilisateur graphique de gestion des disques | n/a | Oui | Oui | Non |
 | PowerShell | Oui | Oui | Non | Oui |
-| Panneau de configuration espaces de stockage | n/a | Non | Non | Oui |
+| espaces de stockage Panneau de configuration | n/a | Non | Non | Oui |
 
 
 Le résultat de cette transition est l’augmentation de la résilience du stockage, de la disponibilité et de l’évolutivité. un langage de programmation et de script unifié, des coûts de gestion du stockage réduits et une gestion du stockage à distance plus facile.
 
 ## <a name="manifestation"></a>Manifestation
 
-Les utilitaires DiskPart et DiskRAID utilisés dans l’environnement VDS ne prennent pas en charge les nouveaux espaces de stockage. De même, le nouvel utilitaire de stockage PowerShell ne prend pas en charge les disques dynamiques déconseillés
+les utilitaires DiskPart et DiskRAID utilisés dans l’environnement VDS ne prennent pas en charge la nouvelle espaces de stockage. de même, le nouvel utilitaire PowerShell Stockage ne prend pas en charge les disques dynamiques déconseillés
 
 ## <a name="mitigation"></a>Limitation des risques
 
-Microsoft vous recommande vivement de baser les nouvelles applications de gestion du stockage sur l’API de gestion du stockage Windows et de faire passer les applications existantes basées sur l’infrastructure VDS à l’API de gestion du stockage Windows pendant vos cycles de mise à jour standard.
+Microsoft vous recommande vivement de baser les nouvelles applications de gestion du stockage sur l’api de gestion de l’Windows Stockage, et de faire passer les applications existantes basées sur l’infrastructure VDS à l’api de gestion des Stockage Windows lors de vos cycles de mise à jour standard.
 
 ## <a name="resources"></a>Ressources
 
@@ -56,6 +56,6 @@ Microsoft vous recommande vivement de baser les nouvelles applications de gestio
 -   [Windows Management Instrumentation](../wmisdk/wmi-start-page.md)
 -   [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=VS.85).aspx)
 
- 
+ 
 
- 
+ 

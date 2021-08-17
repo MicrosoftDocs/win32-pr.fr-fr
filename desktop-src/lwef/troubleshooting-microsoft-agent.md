@@ -6,12 +6,12 @@ keywords:
 - Microsoft Agent, résolution des problèmes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d88a7c9c88185193cfd85512c50ea15d2e931d26
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dbdefa0a25e7f55152c2d3ef1d6341bd38aeec0cab8138c9b4fd6ede60b7a85d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118474486"
 ---
 # <a name="troubleshooting-microsoft-agent"></a>Résolution des problèmes de Microsoft Agent
 
@@ -23,9 +23,9 @@ Si vous avez des difficultés à exécuter Microsoft Agent sur votre ordinateur,
 -   [Problèmes de sortie](output-problems.md)
 -   [Problèmes d’entrée vocale](speech-input-problems.md)
 
- 
+ 
 
- 
+ 
 
 
 

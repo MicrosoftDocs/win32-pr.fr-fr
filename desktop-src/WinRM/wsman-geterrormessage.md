@@ -5,8 +5,8 @@ ms.assetid: 5f0a5259-8356-4406-8612-34f4921184f0
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode GetErrorMessage
-- Méthode GetErrorMessage Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode GetErrorMessage
+- méthode GetErrorMessage Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode GetErrorMessage
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d085e6f19c64f609fe1389a2822df1594ee69bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 94e7f23a5d2678d3df024c78397aaeb6a388d8b75368f329867f6457b9ad4d84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742089"
 ---
 # <a name="wsmangeterrormessage-method"></a>Méthode WSMan. GetErrorMessage
 
@@ -58,7 +58,7 @@ Chaîne de message d’erreur mise en forme comme les messages retournés par la
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode C++ correspondante est [**IWSManEx :: GetErrorMessage**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-geterrormessage).
 

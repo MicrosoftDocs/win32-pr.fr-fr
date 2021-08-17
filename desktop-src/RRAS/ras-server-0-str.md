@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16f910fdfe53221daf8227d9f3e594133548fee9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dbb7a135fd6f8d1d77b59d1085460d51ad5357e47ca1a050e3d1ba6fd89461c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789383"
 ---
 # <a name="ras_server_0-structure"></a>\_Structure du serveur RAS \_ 0
 
-\[La structure du **\_ serveur RAS \_ 0** n’est pas prise en charge à partir de Windows Vista.\]
+\[la structure du **\_ serveur RAS \_ 0** n’est pas prise en charge à partir de Windows Vista.\]
 
 La structure du **\_ serveur RAS \_ 0** est utilisée par la fonction [**RasAdminServerGetInfo**](rasadminservergetinfo.md) pour retourner des informations sur les ports configurés sur un serveur RAS.
 
@@ -69,8 +69,8 @@ Spécifie la version du serveur RAS. Utilisez ces informations pour prendre une 
 | Valeur                                                                                                                                                                  | Signification                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | <span id="RASDOWNLEVEL"></span><span id="rasdownlevel"></span><dl> <dt>**RASDOWNLEVEL**</dt> </dl>              | Indique un serveur RAS LAN Manager version 1,0.<br/>                      |
-| <span id="RASADMIN_35"></span><span id="rasadmin_35"></span><dl> <dt>**RASADMIN \_ 35**</dt> </dl>                | Indique un serveur ou un client RAS Windows NT Server 3,51 et antérieur.<br/> |
-| <span id="RASADMIN_CURRENT"></span><span id="rasadmin_current"></span><dl> <dt>**RASADMIN \_ actuel**</dt> </dl> | Indique un client ou un serveur RAS Windows NT 4,0.<br/>                     |
+| <span id="RASADMIN_35"></span><span id="rasadmin_35"></span><dl> <dt>**RASADMIN \_ 35**</dt> </dl>                | Indique un Windows NT Server 3,51 et un client ou un serveur RAS antérieur.<br/> |
+| <span id="RASADMIN_CURRENT"></span><span id="rasadmin_current"></span><dl> <dt>**RASADMIN \_ actuel**</dt> </dl> | Indique une Windows serveur ou client RAS NT 4,0.<br/>                     |
 
 
 

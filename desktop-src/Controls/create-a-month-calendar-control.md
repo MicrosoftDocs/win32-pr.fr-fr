@@ -4,27 +4,27 @@ description: Cette rubrique montre comment créer dynamiquement un contrôle Mon
 ms.assetid: 35ADDA85-5D7D-46F4-A637-99FEE4592B3B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82f3824618e9801b68eb67b13c64c638a5057481
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 22f0fbc819a79b05842db75c1871e8150b311444e6055d076a9831b0bc42486b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103734916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831815"
 ---
 # <a name="how-to-create-a-month-calendar-control"></a>Comment créer un contrôle Month Calendar
 
 Cette rubrique montre comment créer dynamiquement un contrôle Month Calendar à l’aide de la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) .
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

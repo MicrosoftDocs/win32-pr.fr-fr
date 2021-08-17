@@ -3,9 +3,9 @@ title: Méthode IWMPQuery addCondition
 description: La méthode addCondition ajoute une condition à la requête composée à l’aide de et de la logique.
 ms.assetid: 4594ee6f-b153-4d53-b3ee-cd1718a4d5dc
 keywords:
-- méthode addCondition lecteur Windows Media
-- méthode addCondition lecteur Windows Media, interface IWMPQuery
-- Interface IWMPQuery lecteur Windows Media, méthode addCondition
+- Lecteur Windows Media de la méthode addCondition
+- méthode addCondition Lecteur Windows Media, interface IWMPQuery
+- Lecteur Windows Media de l’interface IWMPQuery, méthode addCondition
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9de3015ef0389fef82934cbd8e9326b6f9ec2307
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe85999c60364827d483f81d14ff88602c9b2831c16e7cff8a3e17076b77671d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745704"
 ---
 # <a name="iwmpqueryaddcondition-method"></a>IWMPQuery :: addCondition, méthode
 
@@ -82,7 +82,7 @@ Implements IWMPQuery.addCondition
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les conditions contenues dans une requête composée sont organisées en groupes de conditions. Plusieurs conditions au sein d’un groupe de conditions sont toujours concaténées à l’aide de la logique **et** . Les groupes de conditions sont toujours concaténés les uns aux autres à l’aide de **ou** logique. Pour démarrer un nouveau groupe de conditions, appelez [IWMPQuery. beginNextGroup](wmplibiwmpquery-iwmpquery-beginnextgroup--vb-and-c.md).
 
@@ -98,7 +98,7 @@ Le tableau suivant répertorie les valeurs prises en charge pour *bstrOperator*.
 |---------------------|----------------|
 | BeginsWith          | Chaînes        |
 | Contient            | Chaînes        |
-| Égal à              | Tous les types      |
+| Est égal à              | Tous les types      |
 | GreaterThan         | Nombres, dates |
 | Supérieur ou égal à | Nombres, dates |
 | LessThan            | Nombres, dates |

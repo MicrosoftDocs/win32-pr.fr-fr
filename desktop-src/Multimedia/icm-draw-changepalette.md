@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DRAW_CHANGEPALETTE (VFW. h)
-description: Le \_ message CHANGEPALETTE de dessin ICM \_ indique à un pilote de rendu que la palette de films est en modification. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawChangePalette.
+description: le ICM \_ message de dessin \_ CHANGEPALETTE avertit un pilote de rendu que la palette de films est en modification. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawChangePalette.
 ms.assetid: 974fc0d8-d0c7-4a82-af84-68b53f753259
 keywords:
-- Message ICM_DRAW_CHANGEPALETTE Windows Multimedia
+- message ICM_DRAW_CHANGEPALETTE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6364abb2c535158b2e64ff311041b00490c5958c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e936c7dce397910ef70a80e2efa7f3e031ab8a61b8f59fece158d5c28e9e1270
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987595"
 ---
-# <a name="icm_draw_changepalette-message"></a>\_Message CHANGEPALETTE de dessin ICM \_
+# <a name="icm_draw_changepalette-message"></a>ICM \_ DESSINER le \_ message CHANGEPALETTE
 
-Le **message \_ \_ CHANGEPALETTE de dessin ICM** indique à un pilote de rendu que la palette de films est en modification. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawChangePalette**](/windows/desktop/api/Vfw/nf-vfw-icdrawchangepalette) .
+le **ICM message de \_ dessin \_ CHANGEPALETTE** avertit un pilote de rendu que la palette de films est en modification. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawChangePalette**](/windows/desktop/api/Vfw/nf-vfw-icdrawchangepalette) .
 
 
 ```C++
@@ -49,7 +49,7 @@ Pointeur vers une structure [**BITMAPINFO,**](/windows/win32/api/wingdi/ns-wingd
 
 Retourne ICERR \_ OK en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message doit être pris en charge par les gestionnaires de rendu installables qui dessinent des fichiers DIB avec une structure interne qui comprend une palette.
 

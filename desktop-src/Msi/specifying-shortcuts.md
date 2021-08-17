@@ -23,7 +23,7 @@ Utilisez votre éditeur de base de données pour ouvrir MNP2000.msi et entrez le
 
 
 
-| Raccourci  | Répertoire\_ | Nom         | -\_ | Cible             | Arguments | Description | Touche d’accès rapide | Icône\_         | IndexIcône | ShowCmd | WkDir |
+| Raccourci  | Répertoire\_ | Nom         | Composant\_ | Cible             | Arguments | Description | Touche d’accès rapide | Située\_         | IndexIcône | ShowCmd | WkDir |
 |-----------|-------------|--------------|-------------|--------------------|-----------|-------------|--------|----------------|-----------|---------|-------|
 | sBaseball | MENUDIR     | Baseball.txt | Chaussures    | Chaussures           |           |             |        | \_icon.exe Orca |           |         |       |
 | sConcert  | MENUDIR     | Concert.txt  | Concert     | \[\#Concert.txt\]  |           |             |        |                |           |         |       |

@@ -3,19 +3,19 @@ title: Modèle de nuanceur HLSL 6,4
 description: Décrit les Machine Learning intrinsèques ajoutés au modèle de nuanceur HLSL 6,4.
 ms.topic: article
 ms.date: 02/21/2019
-ms.openlocfilehash: 10e74b268243ab059c2d0945887a6d429d40bb53
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 5e161d77439eef63547d92fcc4f47e3185ac798141d20017d7e7102ee86a38cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103869645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118511833"
 ---
 # <a name="hlsl-shader-model-64"></a>Modèle de nuanceur HLSL 6,4
 
 Décrit les Machine Learning intrinsèques ajoutés au modèle de nuanceur HLSL 6,4.
 
 ## <a name="shader-model-64"></a>Modèle de nuanceur 6,4
-Ces fonctions intrinsèques sont une fonctionnalité requise/prise en charge du modèle de nuanceur 6,4. Par conséquent, aucune vérification de bit de capacité distincte n’est requise, au-delà de la garantie de l’utilisation du modèle de nuanceur 6,4. Le client minimal pris en charge pour ces routines est Windows 10, version 1903.
+Ces fonctions intrinsèques sont une fonctionnalité requise/prise en charge du modèle de nuanceur 6,4. Par conséquent, aucune vérification de bit de capacité distincte n’est requise, au-delà de la garantie de l’utilisation du modèle de nuanceur 6,4. le client minimal pris en charge pour ces routines est Windows 10, version 1903.
 
 ## <a name="shading-language-intrinsics"></a>Intrinsèques du langage d’ombrage
 

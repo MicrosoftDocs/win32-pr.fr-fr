@@ -4,12 +4,12 @@ ms.assetid: 59f20de0-de24-43c7-a1a2-bdc91ee28059
 title: Propriétés du certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbc234f574e0b5bef2d4884706584b5c33ea9c31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48850b812c8a8227f41229ccbaa88259805d61a199d695f4a90d4652a94b99dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771564"
 ---
 # <a name="certificate-properties"></a>Propriétés du certificat
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a088a1be640c6653a8a8ccd8b00cf21bd027ecd7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5daa2b33fdc356782837aadfe37186bc4cc2b493208fdc78ba645ada9e746582
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106525834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117884849"
 ---
 # <a name="ienumprogressitemsremotenext-method"></a>IEnumProgressItems :: RemoteNext, méthode
 
@@ -84,7 +84,7 @@ D’autres codes de réussite peuvent être retournés à la suite de l’implé
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le nombre d’éléments restants dans la séquence est inférieur au nombre demandé, il récupère les éléments restants.
 
@@ -95,7 +95,7 @@ Si le nombre d’éléments restants dans la séquence est inférieur au nombre 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | MIDL<br/>                      | <dl> <dt>Imapi2fs. idl</dt> </dl> |
 
 

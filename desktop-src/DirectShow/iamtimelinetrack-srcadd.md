@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e3d1d727fb6a99e3dea9ec2659838df1bfcd392b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e705f840a073ee6796776f6f68c7b57df0bd972facf8f7a586792519735bfb3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117998749"
 ---
 # <a name="iamtimelinetracksrcadd-method"></a>IAMTimelineTrack :: SrcAdd, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -56,7 +56,7 @@ Pointeur vers l’interface [**IAMTimelineObj**](iamtimelineobj.md) de l’objet
 
 Retourne S \_ OK en cas de réussite. Retourne E \_ nointerface si l’objet n’est pas un objet source. Sinon, retourne une valeur **HRESULT** indiquant la cause de l’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Définissez les heures de début et de fin de la source avant d’appeler cette méthode. (Appelez [**IAMTimelineObj :: SetStartStop**](iamtimelineobj-setstartstop.md).)
 
@@ -68,7 +68,7 @@ Actuellement, les ne peuvent pas afficher simultanément plus de 75 sources comp
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

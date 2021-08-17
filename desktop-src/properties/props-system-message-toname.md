@@ -4,12 +4,12 @@ ms.assetid: 22b62f60-c087-45ec-b0e2-8e94aa6bafe0
 title: System. message. ToName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3b18d03f479287de3f4c662de72dc161c14a094
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44a4c4ad2af25909dcafd5c15257cb54febe80677815e514151374afcbd256d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117683032"
 ---
 # <a name="systemmessagetoname"></a>System. message. ToName
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

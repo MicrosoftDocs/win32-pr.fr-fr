@@ -4,17 +4,17 @@ ms.assetid: cacb0aec-d438-4875-a96e-4e0239fdc6ba
 title: Codes d’erreur système (0-499) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 413d9674f511bd49df12267b60d6c6c3dac366aa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a9eddec2baf098f62bb1c0ad88e632360807e7f3fd0ea045f2565587f13e93a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118405648"
 ---
 # <a name="system-error-codes-0-499"></a>Codes d’erreur système (0-499)
 
 > [!NOTE]
-> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. Pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
+> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
 
 La liste suivante décrit les [codes d’erreur système](system-error-codes.md) (erreurs comprises entre 0 et 499). Elles sont retournées par la fonction [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) lorsque de nombreuses fonctions échouent. Pour récupérer le texte de description de l’erreur dans votre application, utilisez la fonction [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) avec le **format \_ message \_ de \_** l’indicateur système.
 
@@ -535,7 +535,7 @@ La demande n'est pas prise en charge.
 
 
 
-Windows ne peut pas trouver le chemin d’accès réseau. Vérifiez que le chemin d’accès réseau est correct et que l’ordinateur de destination n’est pas occupé ou désactivé. Si Windows ne trouve toujours pas le chemin d’accès réseau, contactez votre administrateur réseau.
+Windows ne peut pas trouver le chemin d’accès réseau. Vérifiez que le chemin d’accès réseau est correct et que l’ordinateur de destination n’est pas occupé ou désactivé. si Windows ne parvient toujours pas à trouver le chemin d’accès réseau, contactez votre administrateur réseau.
 
 
 </dt> </dl> </dd> <dt>
@@ -860,7 +860,7 @@ Impossible de créer le répertoire ou le fichier.
 
 
 
-Le stockage pour traiter cette demande n’est pas disponible.
+Stockage pour traiter cette demande n’est pas disponible.
 
 
 </dt> </dl> </dd> <dt>
@@ -2199,7 +2199,7 @@ Impossible d’imbriquer des appels à LoadModule.
 
 
 
-Cette version de %1 n’est pas compatible avec la version de Windows que vous exécutez. Vérifiez les informations système de votre ordinateur, puis contactez l’éditeur du logiciel.
+cette version de %1 n’est pas compatible avec la version de Windows que vous exécutez. Vérifiez les informations système de votre ordinateur, puis contactez l’éditeur du logiciel.
 
 
 </dt> </dl> </dd> <dt>
@@ -3199,8 +3199,8 @@ Tentative d’accès à une adresse non valide.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>WinError. h (inclure Windows. h)</dt> </dl> |
 
 

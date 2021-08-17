@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 2691e3306a84ce4eff3d73df4b070ba4b65671f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 03efb6cdfbea712f2fbca194073b89bcee66975481c1a7c0fdc2d7bd385eb652
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971020"
 ---
 # <a name="utilitieslocaltimetoutctime-method"></a>Méthode Utilities. LocalTimeToUTCTime
 
@@ -52,7 +52,7 @@ Heure locale à convertir en temps universel coordonné.
 
 Temps universel coordonné qui correspond à l’heure locale spécifiée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Alors que le système utilise le temps universel coordonné en interne, les applications affichent généralement l’heure locale, qui correspond à la date et à l’heure du fuseau horaire local de l’ordinateur.
 
@@ -62,7 +62,7 @@ Alors que le système utilise le temps universel coordonné en interne, les appl
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 
@@ -71,7 +71,7 @@ Alors que le système utilise le temps universel coordonné en interne, les appl
 
 <dl> <dt>
 
-[**Services**](utilities.md)
+[**Outils**](utilities.md)
 </dt> </dl>
 
  

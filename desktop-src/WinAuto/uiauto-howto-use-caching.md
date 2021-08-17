@@ -4,12 +4,12 @@ description: Cette rubrique contient un exemple de code qui montre comment utili
 ms.assetid: d72fa637-35ca-4c28-922d-263f469cb1c8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8758621a8499202b820a6ffc3459fade57c2a485
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a020f200384f88e1e4f06f9418676e8fc567851424ed03b1c36e2e6299f98e45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133252"
 ---
 # <a name="how-to-use-caching"></a>Utilisation de la mise en cache
 
@@ -133,9 +133,9 @@ HRESULT GetCachedListItem(IUIAutomationElement* pItem)
 [Rubriques de procédures pour les clients UI Automation](uiauto-howto-topics-for-uiautomation-clients.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

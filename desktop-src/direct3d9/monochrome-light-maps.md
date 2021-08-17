@@ -1,17 +1,17 @@
 ---
 description: Certaines cartes accélérateur 3D plus anciennes ne prennent pas en charge la fusion de texture à l’aide de la valeur alpha du pixel de destination.
 ms.assetid: 77d3b9fd-3232-4955-9df2-d4763d3eed6f
-title: Cartes de lumière monochromes (Direct3D 9)
+title: Cartes de lumière monochrome (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9ca63c2e7bb3ed51f1c6c5184536aa51e0a11e3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dac6f62aaba08ac6c8e1116a0bc5059fed3dea19da51d83b034bfae79653ed5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106516337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728236"
 ---
-# <a name="monochrome-light-maps-direct3d-9"></a>Cartes de lumière monochromes (Direct3D 9)
+# <a name="monochrome-light-maps-direct3d-9"></a>Cartes de lumière monochrome (Direct3D 9)
 
 Certaines cartes accélérateur 3D plus anciennes ne prennent pas en charge la fusion de texture à l’aide de la valeur alpha du pixel de destination. Pour plus d’informations, consultez [fusion de texture alpha (Direct3D 9)](alpha-texture-blending.md) . En général, ces adaptateurs ne prennent pas en charge la fusion de texture multiple. Si votre application s’exécute sur un adaptateur tel que celui-ci, elle peut utiliser la fusion de texture multipasse pour effectuer un mappage de lumière monochrome.
 

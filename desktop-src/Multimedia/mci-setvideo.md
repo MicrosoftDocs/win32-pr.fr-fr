@@ -3,7 +3,7 @@ title: Commande MCI_SETVIDEO (mmsystem. h)
 description: La \_ commande MCI SETVIDEO définit les valeurs associées à la lecture vidéo. Les appareils vidéo numériques et VCR reconnaissent cette commande.
 ms.assetid: b84956d8-01a0-49f6-a96c-2693a25e6f2a
 keywords:
-- Commande MCI_SETVIDEO Windows multimédia
+- commande MCI_SETVIDEO Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83a20e0cc5466ac9ff28a59543543069fa9acd05
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 23206d169ad5e273927ead247c44194660c8d6b201c725e1b4d4ab24fd5e1544
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803376"
 ---
 # <a name="mci_setvideo-command"></a>\_Commande MCI SETVIDEO
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs supplémentaires suivants sont utilisés avec le type d’appareil « Digitalvideo » :
 
@@ -349,7 +349,7 @@ Pour les périphériques VCR, le paramètre *lpSetVideo* pointe vers une structu
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

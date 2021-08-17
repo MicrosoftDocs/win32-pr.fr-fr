@@ -4,12 +4,12 @@ description: AccEvent (Observateur d’événements accessible) permet aux déve
 ms.assetid: 0077da81-7a1f-4f8b-b519-ebefcc63d264
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76e6fa4896c0cfe3155536537099b1c00af8ebe5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bb2192bf6973444bf2bfc307ff4613d9d1c593d5a22f9800ecb61bc310b3a210
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327800"
 ---
 # <a name="accessibility-tools---accevent-accessible-event-watcher"></a>Outils d’accessibilité-AccEvent (Observateur d’événements accessible)
 
@@ -18,13 +18,13 @@ ms.locfileid: "104382368"
 **AccEvent** est installé avec le kit de développement logiciel (SDK) Windows. Il se trouve dans le \\ dossier bin \\ < *version* > \\ < *Platform*> du chemin d’installation du kit de développement logiciel (Accevent.exe).
 
 > [!NOTE]
-> **AccEvent** est un outil hérité. Nous vous recommandons d’utiliser à la place [Accessibility Insights](https://accessibilityinsights.io/) .
+> **AccEvent** est un outil hérité. nous vous recommandons d’utiliser à la place l' [accessibilité Informations](https://accessibilityinsights.io/) .
 
 ## <a name="requirements"></a>Configuration requise
 
 **AccEvent** peut être utilisé pour examiner les données d’accessibilité sur les systèmes qui n’ont pas d’automatisation d’interface utilisateur, ils ont été écrits à l’origine pour Microsoft Active Accessibility. Pour examiner l’Automation d’interface utilisateur, UI Automation doit être présent sur le système. Pour plus d’informations, consultez la section « Configuration requise » d' [UI Automation](entry-uiauto-win32.md).
 
-**AccEvent** est installé dans le cadre de l’ensemble d’outils de la SDK Windows, il n’est pas distribué en tant que téléchargement de fichier exécutable distinct. Le SDK Windows comprend tous les outils liés à l’accessibilité documentés dans cette section. [Obtient le SDK Windows.](https://developer.microsoft.com/) (Il existe également un kit de développement logiciel (SDK) à partir de cette page, si vous avez besoin d’une version précédente.)
+**AccEvent** est installé dans le cadre de l’ensemble d’outils de la SDK Windows, il n’est pas distribué en tant que téléchargement de fichier exécutable distinct. le SDK Windows comprend tous les outils liés à l’accessibilité documentés dans cette section. [obtient le SDK Windows.](https://developer.microsoft.com/) (Il existe également un kit de développement logiciel (SDK) à partir de cette page, si vous avez besoin d’une version précédente.)
 
 Pour exécuter **AccEvent**, recherchez AccEvent.exe dans le \\ dossier bin \\ < *version* > \\ < *Platform*> et exécutez-le (vous n’êtes généralement pas obligé d’exécuter en tant qu’administrateur).
 
@@ -60,23 +60,23 @@ Vous utilisez le menu **mode** pour configurer le mode d’opération **AccEvent
 | WinEvents (hors contexte)   | Affiche des informations sur les événements de Active Accessibility Microsoft (WinEvents) passés aux fonctions de raccordement qui résident dans l’espace d’adressage du client. Pour plus d’informations, consultez [fonctions de raccordement hors contexte](out-of-context-hook-functions.md). |
 | Afficher le rectangle de surbrillance     | Met en surbrillance un rectangle autour de l’élément d’interface utilisateur qui a déclenché l’événement sélectionné.                                                                                                                                                                 |
 | Afficher l’info-bulle d’informations     | Affiche des informations d’événement dans une info-bulle.                                                                                                                                                                                                        |
-| Paramètres                     | Affiche la boîte de dialogue **paramètres d’événement UIA** ou **paramètres WinEvent** .                                                                                                                                                                     |
+| Paramètres                     | affiche la boîte de dialogue **Paramètres d’événements UIA** ou **Paramètres WinEvent** .                                                                                                                                                                     |
 
 
 
- 
+ 
 
 ### <a name="filtering-ui-automation-events"></a>Filtrage des événements UI Automation
 
-Pour configurer les événements UI Automation et les propriétés qui s’affichent dans la fenêtre **AccEvent** , cliquez sur le menu **mode** , sélectionnez **UIA événements**, puis sélectionnez **paramètres**. La boîte de dialogue **paramètres d’événement UIA** s’affiche. Vous pouvez également utiliser cette boîte de dialogue pour filtrer les événements.
+pour configurer les événements UI Automation et les propriétés qui s’affichent dans la fenêtre **AccEvent** , cliquez sur le menu **Mode** , sélectionnez **UIA événements**, puis sélectionnez **Paramètres**. la boîte de dialogue **Paramètres d’événements UIA** s’affiche. Vous pouvez également utiliser cette boîte de dialogue pour filtrer les événements.
 
-La boîte de dialogue **paramètres d’événement UIA** contient les volets suivants :
+la boîte de dialogue **Paramètres d’événements UIA** contient les volets suivants :
 
 - **Événements globaux**
 
     Activez la case à cocher **FocusChangedEvent** pour afficher des informations sur les événements de modification de focus globaux.
 
-- **Type d’événement**
+- **Type d'événement**
 
     Sélectionnez les événements qui vous intéressent.
 
@@ -94,9 +94,9 @@ La boîte de dialogue **paramètres d’événement UIA** contient les volets su
 
 ### <a name="filtering-active-accessibility-events"></a>Filtrage des événements de Active Accessibility
 
-Pour configurer les événements et propriétés Microsoft Active Accessibility qui s’affichent dans la fenêtre **AccEvent** , cliquez sur le menu **mode** , sélectionnez **winEvents (en contexte)** ou **winEvents (hors contexte)**, puis sélectionnez **paramètres**. La boîte de dialogue **paramètres de WinEvent** s’affiche. Vous pouvez également utiliser cette boîte de dialogue pour filtrer les événements.
+pour configurer les événements et propriétés Microsoft Active Accessibility qui s’affichent dans la fenêtre **AccEvent** , cliquez sur le menu **Mode** , sélectionnez **WinEvents (en contexte)** ou **WinEvents (hors contexte)**, puis sélectionnez **Paramètres**. la boîte de dialogue **WinEvent Paramètres** s’affiche. Vous pouvez également utiliser cette boîte de dialogue pour filtrer les événements.
 
-La boîte de dialogue **paramètres WinEvent** contient les volets suivants :
+la boîte de dialogue **WinEvent Paramètres** contient les volets suivants :
 
 - **Objets**
 

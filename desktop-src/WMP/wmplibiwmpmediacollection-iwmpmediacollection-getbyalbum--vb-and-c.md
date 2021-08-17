@@ -3,9 +3,9 @@ title: Méthode IWMPMediaCollection getByAlbum
 description: La méthode getByAlbum retourne une interface IWMPPlaylist qui fournit l’accès aux éléments multimédias à partir de l’album spécifié.
 ms.assetid: 26f004c0-de46-4792-8212-9d4ac749bb21
 keywords:
-- méthode getByAlbum lecteur Windows Media
-- méthode getByAlbum lecteur Windows Media, interface IWMPMediaCollection
-- Interface IWMPMediaCollection lecteur Windows Media, méthode getByAlbum
+- Lecteur Windows Media de la méthode getByAlbum
+- méthode getByAlbum Lecteur Windows Media, interface IWMPMediaCollection
+- Lecteur Windows Media de l’interface IWMPMediaCollection, méthode getByAlbum
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c455e9bd61038a4d72bb6537d7c62b30a5d0b733
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 07137068961447b9f311dbdb765d34fbf2689ca80fd2035e8a60ebe27e4037bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117929762"
 ---
 # <a name="iwmpmediacollectiongetbyalbum-method"></a>IWMPMediaCollection :: getByAlbum, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPMediaCollection.getByAlbum
 
 Interface **wmplib. IWMPPlaylist** pour les éléments multimédias récupérés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

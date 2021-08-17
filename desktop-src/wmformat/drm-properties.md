@@ -10,12 +10,12 @@ keywords:
 - DRM (gestion des droits numériques), propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb8542d360c38ab3f12406462cefc0454e7eae33
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9d553d644a6f3ec7130262d0e8567a4aa6ceab53286b24248607b1928991f51d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848265"
 ---
 # <a name="drm-properties"></a>Propriétés DRM
 
@@ -58,7 +58,7 @@ Le tableau suivant répertorie les propriétés DRM que les applications peuvent
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -67,9 +67,9 @@ Le tableau suivant répertorie les propriétés DRM que les applications peuvent
 [**Liste des attributs DRM**](drm-attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

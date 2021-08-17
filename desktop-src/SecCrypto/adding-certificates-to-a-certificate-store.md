@@ -4,16 +4,16 @@ ms.assetid: a1cb6e1e-0702-4f73-827e-3f9e9237b4b6
 title: Ajout de certificats à un magasin de certificats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6f4c018be697f48e40d52480f49694762fb956f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e3c4b2fafbcd11bf2d984dfd5b5a575f67dc4f6d3c70337de399ca6076029ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774034"
 ---
 # <a name="adding-certificates-to-a-certificate-store"></a>Ajout de certificats à un magasin de certificats
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista, Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista, Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 Les [*certificats*](../secgloss/c-gly.md) peuvent être ajoutés ou supprimés des [*magasins de certificats*](../secgloss/c-gly.md) si le magasin est ouvert avec l’autorisation de lecture/écriture. L’autorisation de lecture/écriture n’est pas accordée aux magasins de Active Directory. Alors que les certificats peuvent être ajoutés ou supprimés des magasins de mémoire, les modifications apportées aux magasins de mémoire ne sont pas conservées entre les sessions.
 

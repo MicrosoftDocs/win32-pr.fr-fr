@@ -3,9 +3,9 @@ title: IWMPNetwork propriété downloadProgress
 description: La propriété downloadProgress obtient le pourcentage de téléchargement terminé.
 ms.assetid: 40568c81-5bb5-45d9-b654-31072608663d
 keywords:
-- propriété downloadProgress lecteur Windows Media
-- propriété downloadProgress lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, propriété downloadProgress
+- Lecteur Windows Media de la propriété downloadProgress
+- Lecteur Windows Media de la propriété downloadProgress, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, propriété downloadProgress
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b10b767845ac951e1364e15c7f6f1d729882e0d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 96c2b47895d595a570191d9aa66b90b1cdc53392f8f111d64307074e5689f2ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331978"
 ---
 # <a name="iwmpnetworkdownloadprogress-property"></a>IWMPNetwork ::d propriété ownloadProgress
 
@@ -48,9 +48,9 @@ Public ReadOnly Property downloadProgress As System.Int32
 
 **System. Int32** qui est la progression du téléchargement exprimée sous forme de pourcentage.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Lorsque le contrôle du lecteur Windows Media est connecté à un fichier multimédia numérique qui peut être lu et téléchargé en même temps, la propriété **downloadProgress** obtient le pourcentage du fichier total téléchargé. Cette fonctionnalité est actuellement prise en charge uniquement pour les fichiers multimédias numériques téléchargés à partir de serveurs Web. Un fichier de l’un des formats suivants peut être téléchargé et lu simultanément :
+lorsque le contrôle de Lecteur Windows Media est connecté à un fichier multimédia numérique qui peut être lu et téléchargé en même temps, la propriété **downloadProgress** obtient le pourcentage du fichier total téléchargé. Cette fonctionnalité est actuellement prise en charge uniquement pour les fichiers multimédias numériques téléchargés à partir de serveurs Web. Un fichier de l’un des formats suivants peut être téléchargé et lu simultanément :
 
 -   ASF (Advanced Systems Format)
 -   Audio Windows Media (WMA)
@@ -155,7 +155,7 @@ End Sub
 
 <dl> <dt>
 
-[**AxWindowsMediaPlayer. Buffering, événement (VB et C#)**](axwmplib-axwindowsmediaplayer-buffering.md)
+[**événement AxWindowsMediaPlayer. buffering (VB et C#)**](axwmplib-axwindowsmediaplayer-buffering.md)
 </dt> <dt>
 
 [**Interface IWMPNetwork (VB et C#)**](iwmpnetwork--vb-and-c.md)

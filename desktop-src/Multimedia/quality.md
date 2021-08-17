@@ -3,7 +3,7 @@ title: Quality (commande)
 description: La commande Quality définit un niveau de qualité personnalisé pour la compression des données audio, vidéo ou d’images fixes. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: cc920ec9-362c-43db-808e-b9fb59d1df6d
 keywords:
-- commande Quality Windows Multimedia
+- commande quality Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2de9cc61d72db541b5f06d8903d7c9dcf153ce07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f50f019b0e89f21d792f75c13e6c8e755486009d38d242878fec3121333fb9af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118372324"
 ---
 # <a name="quality-command"></a>Quality (commande)
 
@@ -79,7 +79,7 @@ Peut être « Wait », « Notify », « test » ou une combinaison de ceux
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette commande définit un nom de chaîne pour le niveau de qualité, qui peut ensuite être utilisé dans une commande [setvideo](setvideo.md) "Quality", setvideo "Still Quality" ou [SetAudio](setaudio.md) "Quality" pour l’établir comme le niveau de qualité de la vidéo, du reste ou de la compression audio en cours.
 

@@ -9,12 +9,12 @@ keywords:
 - capCaptureSetSetup macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0ad32bd3983301687b0eb0bb01f0fd932a43944
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 95d3a4d28c12905722447189eabc494b220d737fc0c87f7a9ebc12948390920d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373513"
 ---
 # <a name="measuring-video-quality"></a>Mesure de la qualité vidéo
 
@@ -22,9 +22,9 @@ Une façon de mesurer la qualité vidéo consiste à limiter le nombre de trames
 
 Vous pouvez récupérer la limite actuelle d’images supprimées (exprimées sous forme de pourcentage) à l’aide du message [**\_ \_ \_ \_ d’installation**](wm-cap-get-sequence-setup.md) de la séquence de l’aide de WM (ou de la macro [**capCaptureGetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) ). Vous pouvez définir une nouvelle limite en spécifiant un pourcentage comme valeur du membre **wPercentDropForError** de la structure **CAPTUREPARMS** , puis en envoyant la structure mise à jour à la fenêtre de capture à l’aide du message [**\_ \_ \_ \_ d’installation**](wm-cap-set-sequence-setup.md) de la séquence de la définition de l’embout WM (ou de la macro [**capCaptureSetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup) ). La valeur par défaut de **wPercentDropForError** est 10 pour cent.
 
- 
+ 
 
- 
+ 
 
 
 

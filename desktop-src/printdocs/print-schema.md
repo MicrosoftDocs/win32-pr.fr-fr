@@ -4,18 +4,18 @@ ms.assetid: d746bdd1-96c2-41f5-ad99-0b51c8ee8731
 title: Référence du schéma d’impression hérité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81a8f417d20913563cfd4a52ba51d21b516e73f0
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 540496004534dff3e66ce1c30415ccec14c6d7b31c59ecf2f79905c25d5e7861
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118470856"
 ---
 # <a name="legacy-print-schema-reference"></a>Référence du schéma d’impression hérité
 
 Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la [spécification du schéma d’impression](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
-Le schéma d’impression et les technologies associées sont disponibles dans le Microsoft .NET Framework 3,0, Microsoft Windows Vista et versions ultérieures.
+le schéma d’impression et les technologies associées sont disponibles dans microsoft .NET Framework 3,0, microsoft Windows Vista et versions ultérieures.
 
 Le schéma d’impression fournit un format XML pour l’expression et l’organisation d’un grand ensemble de propriétés qui décrivent un format de travail ou PrintCapabilities de manière hiérarchique.
 

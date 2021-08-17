@@ -6,25 +6,25 @@ keywords:
 - SSL en mode noyau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 737ac7c6c25bac6e7b66d91aa967fc6fa550459b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3c9dcfeb87b1a98539d7bd6a3b8b82dcfd5ee41fc9ad4c4c306f4c399aebd18a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393917"
 ---
 # <a name="kernel-mode-ssl"></a>SSL en mode noyau
 
-Le mode noyau SSL a été introduit dans Windows Server 2003 avec Service Pack 1 (SP1) avec prise en charge limitée. Pour les ordinateurs qui exécutent Windows Server 2003 avec SP1, une clé de registre doit être configurée pour activer le SSL de noyau. Pour les ordinateurs qui exécutent Windows Server 2008 et Windows Vista, la prise en charge du mode noyau complet pour SSL est fournie.
+le mode noyau SSL a été introduit dans Windows Server 2003 avec Service Pack 1 (SP1) avec prise en charge limitée. pour les ordinateurs qui exécutent sur Windows Server 2003 avec SP1, une clé de registre doit être configurée pour activer le SSL de noyau. pour les ordinateurs s’exécutant sur Windows Server 2008 et Windows Vista, la prise en charge du mode noyau complet pour SSL est fournie.
 
 Les sections suivantes décrivent la prise en charge SSL en mode noyau :
 
 -   Modes noyau SSL dans Windows Server 2003 avec SP1
--   SSL en mode noyau dans Windows Server 2008 et Windows Vista
+-   SSL en Mode noyau dans Windows Server 2008 et Windows Vista
 
 ## <a name="kernel-modes-ssl-in-windows-server-2003-with-sp1"></a>Modes noyau SSL dans Windows Server 2003 avec SP1
 
-Dans Windows Server 2003 avec SP1, l’API du serveur HTTP offre la possibilité d’exécuter la sécurité SSL en mode noyau (le mode utilisateur est SSL par défaut). La fonctionnalité en mode noyau améliore les performances SSL en déplaçant les opérations de chiffrement et de déchiffrement vers le noyau, réduisant ainsi le nombre de transitions entre le mode noyau et le mode utilisateur.
+dans Windows server 2003 avec SP1, l’API du serveur HTTP offre la possibilité d’exécuter la sécurité ssl en mode noyau (le mode utilisateur est ssl par défaut). La fonctionnalité en mode noyau améliore les performances SSL en déplaçant les opérations de chiffrement et de déchiffrement vers le noyau, réduisant ainsi le nombre de transitions entre le mode noyau et le mode utilisateur.
 
 Les fonctionnalités suivantes ne sont pas prises en charge lorsque SSL est exécuté en mode noyau :
 
@@ -40,9 +40,9 @@ Le mode noyau SSL est contrôlé par la valeur de Registre **EnableKernelSSL** e
 
 **HKEY \_ \_** \\  \\  \\  \\  \\ **Paramètres** http des services \\  de CurrentControlSet de système d’ordinateur local EnableKernelSSL
 
-## <a name="kernel-mode-ssl-in-windows-server-2008-and-windows-vista"></a>SSL en mode noyau dans Windows Server 2008 et Windows Vista
+## <a name="kernel-mode-ssl-in-windows-server-2008-and-windows-vista"></a>SSL en Mode noyau dans Windows Server 2008 et Windows Vista
 
-Pour les ordinateurs qui exécutent Windows Server 2008 et Windows Vista, l’API du serveur HTTP offre des fonctionnalités SSL améliorées.
+pour les ordinateurs qui exécutent sur Windows server 2008 et Windows Vista, l’API du serveur HTTP est dotée de fonctionnalités SSL améliorées.
 
 Les nouvelles fonctionnalités suivantes sont prises en charge :
 

@@ -4,12 +4,12 @@ ms.assetid: 01ee0766-06ed-4255-9057-2fe033a772cd
 title: MFPKEY_RESIZE_INTERLACE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45d0efe93901a08322a05dbed2515f76b04a214b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4c614865d0c8a49238b9c8d6f7714787bb22aaadaa317a8a3a0405a7f51c87be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873033"
 ---
 # <a name="mfpkey_resize_interlace-property"></a>\_Propriété entrelacé de REdimensionnement MFPKEY \_
 
@@ -27,7 +27,7 @@ VT \_ bool
 
 -   [Dimensionnement vidéo DSP](videoresizer.md)
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Utilisez l’une des valeurs suivantes :
 
@@ -50,8 +50,8 @@ Si cette propriété n’est pas définie, le DSP utilise le type de média d’
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: Si vous utilisez Inspect pour examiner un contrôle simple comme un
 ms.assetid: 30884e11-cc73-4bb8-9d9e-b9f1b53c4193
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb341881ee2ea503b1f74643723a1f90c8e5d1d5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c52dc54f2c32be3aff3e535427668943cf1ee21423636e3be8c018f6e3257b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745282"
 ---
 # <a name="screening-out-unnecessary-objects"></a>Filtrage des objets inutiles
 
@@ -20,7 +20,7 @@ Si vous utilisez [Inspect](inspect-objects.md) pour examiner un contrôle simple
 | Nom          | Role                                                                  | ChildCount |
 |---------------|-----------------------------------------------------------------------|------------|
 | Requise      | [**barre de menus du \_ système de rôle \_**](object-roles.md)     | 0          |
-| Aucune          | [**\_TITLEBAR système de rôle \_**](object-roles.md)   | 5          |
+| None          | [**\_TITLEBAR système de rôle \_**](object-roles.md)   | 5          |
 | Oeuvre | [**barre de menus du \_ système de rôle \_**](object-roles.md)     | 0          |
 | Barr    | [**\_ScrollBar système de rôle \_**](object-roles.md) | 5          |
 | Horizontal  | [**\_ScrollBar système de rôle \_**](object-roles.md) | 5          |
@@ -28,13 +28,13 @@ Si vous utilisez [Inspect](inspect-objects.md) pour examiner un contrôle simple
 
 
 
- 
+ 
 
 Les développeurs clients doivent identifier et filtrer ces objets de fenêtre parente et les objets enfants invisibles, car ils ne fournissent pas d’informations significatives aux utilisateurs finaux.
 
- 
+ 
 
- 
+ 
 
 
 

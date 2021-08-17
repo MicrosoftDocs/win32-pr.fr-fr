@@ -13,12 +13,12 @@ keywords:
 - rééchantillonnage de l’audio, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 608272a7e531d7380991a705d391e6226a6758d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7a5d95ed50117ac9d0fe7d71a2148314e1b9faf3ba8a26b99bb69083029b991c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118434473"
 ---
 # <a name="audio-resampling"></a>Rééchantillonnage audio
 
@@ -41,9 +41,9 @@ Chaque rééchantillonnage peut affecter la qualité du son. Lorsque cela est po
 [**Utilisation des sorties**](working-with-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

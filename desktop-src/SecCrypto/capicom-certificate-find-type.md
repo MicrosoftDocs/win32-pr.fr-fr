@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: c5c867b230ba2045d97619d7f55e257bd7803b74
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fb10b9289ae094f27fe29c3f2723d639eccc029aa7e5512833ac7e859c5c36ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117772694"
 ---
 # <a name="capicom_certificate_find_type-enumeration"></a>L' \_ \_ \_ énumération de type de certificat CAPICOM
 
@@ -46,7 +46,7 @@ Le type d’énumération de **\_ \_ \_ type** d’énumération de certificat C
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le type d’énumération de **\_ \_ \_ type du certificat CAPICOM** est utilisé par la méthode [**Certificates. Find**](certificates-find.md) .
 
@@ -56,7 +56,7 @@ Le type d’énumération de **\_ \_ \_ type du certificat CAPICOM** est utilis�
 
 | Condition requise | Valeur |
 |----------------------------|--------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
 | En-tête<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 

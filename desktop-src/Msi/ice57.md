@@ -19,7 +19,7 @@ La combinaison de données par utilisateur et par ordinateur dans le même compo
 
 Consultez la propriété [**ALLUSERS**](allusers.md) .
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE57 publie une erreur s’il trouve un composant contenant à la fois des entrées de Registre par ordinateur et par utilisateur, des fichiers, des chemins d’accès de clé de répertoire ou des raccourcis non publiés.
 
@@ -60,7 +60,7 @@ Component 'Component4' has both per-user data and
 
 
 
-| Registre | Root | -\_ |
+| Registre | Root | Composant\_ |
 |----------|------|-------------|
 | RegKeyA  | 1    | Composant1  |
 | RegKeyB  | 1    | Component2  |
@@ -75,7 +75,7 @@ Component 'Component4' has both per-user data and
 
 
 
-| Fichier  | -\_ |
+| Fichier  | Composant\_ |
 |-------|-------------|
 | Filea | Composant1  |
 | FileB | Component2  |

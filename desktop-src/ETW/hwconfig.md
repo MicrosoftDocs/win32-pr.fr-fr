@@ -1,5 +1,5 @@
 ---
-description: La classe HWConfig est la classe parente pour les événements de configuration matérielle sur Windows XP. La syntaxe suivante est simplifiée à partir du code MOF.
+description: la classe HWConfig est la classe parente pour les événements de configuration matérielle sur Windows XP. La syntaxe suivante est simplifiée à partir du code MOF.
 ms.assetid: 47f062c0-fdf0-4beb-906d-257571324de9
 title: HWConfig, classe
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: cfb194e09701dbc52b00279b624877f09ffac24b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1d4b8f69784729ffe5d51f3068b03fc0b4154182b2d05f2896e4556a05f7eba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118394679"
 ---
 # <a name="hwconfig-class"></a>HWConfig, classe
 
-La classe **HWConfig** est la classe parente pour les événements de configuration matérielle sur Windows XP.
+la classe **HWConfig** est la classe parente pour les événements de configuration matérielle sur Windows XP.
 
 La syntaxe suivante est simplifiée à partir du code MOF.
 
@@ -38,13 +38,13 @@ class HWConfig : MSNT_SystemTrace
 
 La classe **HWConfig** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces événements fournissent la configuration matérielle de l’ordinateur. Contrairement aux autres événements de journalisation de noyau NT, la session de noyau génère automatiquement des événements de configuration matérielle. vous n’activez pas ces événements lors du démarrage de la session du journal de noyau NT.
 
 **Windows 2000 :** Non pris en charge.
 
-Pour les événements de configuration matérielle sur Windows Vista et Windows Server 2003, consultez la classe [SystemConfig](systemconfig.md) .
+pour les événements de configuration matérielle sur Windows Vista et Windows Server 2003, consultez la classe [SystemConfig](systemconfig.md) .
 
 Les consommateurs de suivi d’événements peuvent implémenter un traitement spécial pour les événements de configuration matérielle en appelant la fonction [**SetTraceCallback**](/windows/win32/api/evntrace/nf-evntrace-settracecallback) et en spécifiant [**EventTraceConfigGuid**](nt-kernel-logger-constants.md) comme paramètre *pguid* . Utilisez les types d’événements suivants pour identifier l’événement de configuration matérielle réel lors de l’utilisation d’événements.
 
@@ -61,13 +61,13 @@ Les consommateurs de suivi d’événements peuvent implémenter un traitement s
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                   |
 
 

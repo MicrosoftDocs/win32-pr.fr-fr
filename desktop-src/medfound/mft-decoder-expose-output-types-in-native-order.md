@@ -4,12 +4,12 @@ ms.assetid: 8505CFA1-210A-4DA8-B92A-FCE62F0310E5
 title: Attribut MFT_DECODER_EXPOSE_OUTPUT_TYPES_IN_NATIVE_ORDER (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01ecf074fa0767552a48e3238374dbd02f077404
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46b91492054215aee5a63dbcf0adf300d74933a0859a2d71256e7e4352deba9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117872338"
 ---
 # <a name="mft_decoder_expose_output_types_in_native_order-attribute"></a>Le \_ DÉcodeur MFT \_ expose les \_ \_ types \_ de sortie dans l' \_ \_ attribut order natif
 
@@ -19,7 +19,7 @@ Spécifie si un décodeur expose des types de sortie IYUV/I420 (convenant au tra
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est une indication pour le décodeur de réorganiser sa liste de types de sortie dans un ordre particulier, en fonction de l’utilisation prévue, de lecture ou de transcodage.
 
@@ -43,7 +43,7 @@ Pour définir cet attribut :
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 

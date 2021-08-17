@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les structures suivante
 ms.assetid: 36424B41-B179-414A-ACFF-E63DA7B27043
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52cf24c71da3f022833c6ecf9843e996df2c514b
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: a4aba62751b619982628575b380ea75eb57661db8737325fee1fb1b042e856ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "106518047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504341"
 ---
 # <a name="directdraw-structures"></a>Structures DirectDraw
 
@@ -32,7 +32,7 @@ Cette section contient des informations sur les structures suivantes utilisées 
 > [!Note]  
 > Vous devez initialiser la mémoire pour chaque structure DirectX à 0 avant d’utiliser la structure. En outre, pour toutes les structures qui contiennent un membre **dwSize nul** , vous devez définir le membre sur la taille de la structure, en octets, avant que la structure ne soit utilisée. L’exemple suivant effectue ces tâches sur une structure commune, [**DDCAPS**](/windows/desktop/api/Ddraw/ns-ddraw-ddcaps_dx3):
 
- 
+ 
 
 
 ```
@@ -48,9 +48,9 @@ ddcaps.dwSize = sizeof(DDCAPS);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

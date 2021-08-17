@@ -4,12 +4,12 @@ description: Vous pouvez créer une barre d’État à l’aide de la fonction C
 ms.assetid: 4ED4BFD3-904D-4198-8152-5DD13CA7C189
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c133d7c7e15e5f43d198f21cadff54bcb4be14c2
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: e7075c8d8896d59a5711d5ee80be4af90948ee4ee99a441fbbf1140cd7452c4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118413187"
 ---
 # <a name="how-to-create-status-bars"></a>Comment créer des barres d’État
 
@@ -20,18 +20,18 @@ Après avoir créé la barre d’État, vous pouvez la diviser en parties, défi
 > [!Note]  
 > Pour vous assurer que la DLL de contrôles communs est chargée, utilisez d’abord la fonction [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) .
 
- 
+ 
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -112,9 +112,9 @@ HWND DoCreateStatusBar(HWND hwndParent, int idStatus, HINSTANCE
 [Utilisation des barres d’État](using-status-bars.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -6,16 +6,16 @@ keywords:
 - CMainWindow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc3e9cb538246dfa6931a2f036ba75cab5e962a7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 45f67fd2a00bb6f3ab082499e5ca2a4a991a9fb33159a4f43c05923ae393efcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117962466"
 ---
 # <a name="cmainwindow"></a>CMainWindow
 
-Le système d’exploitation Microsoft Windows traduit les actions utilisateur suivantes en messages de fenêtre standard et les envoie à la procédure principale dans l’application **StoClien** :
+le système d’exploitation Microsoft Windows traduit les actions utilisateur suivantes en messages de fenêtre standard et les envoie à la procédure principale dans l’application **StoClien** :
 
 -   L’utilisateur clique avec le bouton gauche de la souris ou le bouton de l’extrémité du stylet dans tablettes pour lancer une séquence de dessin de ligne.
 -   L’utilisateur clique sur le bouton et le maintient enfoncé et déplace la souris pour dessiner une ligne.
@@ -130,9 +130,9 @@ Lorsque la souris est déplacée vers Draw, une séquence de messages **WM \_ MO
 
 Quand le bouton gauche de la souris est relâché, le message **WM \_ LBUTTONUP** est reçu. La méthode [CGuiPaper :: InkStop](cguipaper-methods.md) arrête la séquence de dessin de la ligne.
 
- 
+ 
 
- 
+ 
 
 
 

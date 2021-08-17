@@ -1,6 +1,6 @@
 ---
 title: Utilisation de formes prédéfinies
-description: Cet article décrit l’utilisation de formes prédéfinies dans VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
+description: cet article décrit l’utilisation de formes prédéfinies dans VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
 ms.assetid: 9a2e8b5a-b1d0-4a73-b058-24dac1f0b655
 keywords:
 - Atelier Web, formes prédéfinies
@@ -42,19 +42,19 @@ keywords:
 - Éléments VML, arc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b410cf288a3ba63e4c1d745fd962a445b0b220b8
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c1f389a3a2670bd487799063df6bfcec59f28945ed09cad119fccd88e40f01b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117753868"
 ---
 # <a name="using-predefined-shapes"></a>Utilisation de formes prédéfinies
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
  
 
@@ -64,7 +64,7 @@ Dans cette rubrique :
 
 -   [rectangulaire](#roundrect)
 -   [roundrect](#roundrect)
--   [line](#polyline)
+-   [spline](#polyline)
 -   [polyligne](#polyline)
 -   [courbe](#curve)
 -   [arc](#arc)
