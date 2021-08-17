@@ -1,6 +1,6 @@
 ---
 title: Attribut Invocation-Id
-description: Utilisé pour identifier de manière unique chaque annuaire Microsoft Exchange Server dans l’organisation.
+description: utilisé pour identifier de manière unique chaque Microsoft Exchange Server répertoire de l’organisation.
 ms.assetid: c069a57c-b9d0-49e9-8096-39b43f378573
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 611589c466013ad46c0920a2da1e2250cf596214
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 345b6f23ff4a6f4d2640c2d388f5505126400bab364bf5a3cf199047e06e4e16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322899"
 ---
 # <a name="invocation-id-attribute"></a>Attribut Invocation-Id
 
-Utilisé pour identifier de manière unique chaque annuaire Microsoft Exchange Server dans l’organisation.
+utilisé pour identifier de manière unique chaque Microsoft Exchange Server répertoire de l’organisation.
 
 
 
@@ -33,7 +33,7 @@ Utilisé pour identifier de manière unique chaque annuaire Microsoft Exchange S
 | LDAP-Display-Name | invocationId                                          |
 | Taille              | \-                                                    |
 | Mettre à jour le privilège  | \-                                                    |
-| Fréquence des mises à jour  | Lors de l’installation du serveur Exchange.                |
+| Fréquence des mises à jour  | lors de l’installation du Exchange Server.                |
 | Attribute-Id      | 1.2.840.113556.1.2.115                                |
 | System-ID-GUID    | bf96798e-0de6-11d0-a285-00aa003049e2                  |
 | Syntaxe            | [**Object(Replica-Link)**](s-object-replica-link.md) |
@@ -46,7 +46,7 @@ Utilisé pour identifier de manière unique chaque annuaire Microsoft Exchange S
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

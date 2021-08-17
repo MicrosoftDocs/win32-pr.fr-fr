@@ -4,16 +4,16 @@ ms.assetid: 4018c742-1d23-47b9-a787-69bf8847b54a
 title: Ajout de disques étrangers à un Pack
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fbfa2ff3d00857fd4e1b92e78f1760c25ce516b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26b83dd76cdc3f1637c07d8d9d818fdaf61fb093151f23aea06f0e9c7f81d6a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117755454"
 ---
 # <a name="adding-foreign-disks-to-a-pack"></a>Ajout de disques étrangers à un Pack
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Le plus souvent, un disque étranger est un disque dynamique qui est alloué sur un ordinateur et physiquement déplacé vers un autre ordinateur. Toutefois, tout disque appartenant à un autre Pack que le Pack en ligne est considéré comme un disque étranger qui appartient à un pack de disques étrangers.
 

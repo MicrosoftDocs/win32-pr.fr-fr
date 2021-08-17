@@ -1,21 +1,21 @@
 ---
-title: Tâches d’animation Windows
-description: Les rubriques contenues dans cette section décrivent les tâches de base requises pour les applications qui utilisent le gestionnaire d’animations Windows.
+title: Windows Tâches d’animation
+description: les rubriques contenues dans cette section décrivent les tâches de base requises pour les applications qui utilisent Windows gestionnaire d’animations.
 ms.assetid: 28103e5e-f00a-4ff5-820b-ece24a7ef21a
 keywords:
-- Animation Windows Animation Windows, tâches
+- Windows animation Windows animation, tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a2007e53a738494e9b143b3aa8a6cf83290acb1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4db8f5116a6e36697e649ad81bfbad883c57aee50440c3ba80734419ce2fb372
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058147"
 ---
-# <a name="windows-animation-tasks"></a>Tâches d’animation Windows
+# <a name="windows-animation-tasks"></a>Windows Tâches d’animation
 
-Les rubriques contenues dans cette section décrivent les tâches de base requises pour les applications qui utilisent le gestionnaire d’animations Windows.
+les rubriques contenues dans cette section décrivent les tâches de base requises pour les applications qui utilisent Windows gestionnaire d’animations.
 
 Ces tâches, dans l’ordre, sont les suivantes :
 
@@ -25,8 +25,8 @@ Ces tâches, dans l’ordre, sont les suivantes :
 
 | Rubrique                                                                                                | Description                                                                                                                                                                                                                                                                                           |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Créer les objets d’animation principaux](adding-animation-to-an-application.md)<br/>               | Pour utiliser l’animation Windows dans votre application, la première étape consiste à créer un petit ensemble d’objets d’animation principaux.<br/>                                                                                                                                                                           |
-| [Créer des variables d’animation](create-animation-variables.md)<br/>                              | Une application doit créer une variable d’animation pour chaque caractéristique visuelle qui doit être animée à l’aide de l’animation Windows.<br/>                                                                                                                                                            |
+| [Créer les objets d’animation principaux](adding-animation-to-an-application.md)<br/>               | pour utiliser Windows Animation dans votre application, la première étape consiste à créer un petit ensemble d’objets d’Animation principaux.<br/>                                                                                                                                                                           |
+| [Créer des variables d’animation](create-animation-variables.md)<br/>                              | une application doit créer une variable d’animation pour chaque caractéristique visuelle qui doit être animée à l’aide d’Windows animation.<br/>                                                                                                                                                            |
 | [Mettre à jour le gestionnaire d’animations et dessiner des frames](introducing-windows-animation-manager.md)<br/> | Chaque fois qu’une application planifie un Storyboard, l’application doit fournir l’heure actuelle au gestionnaire d’animations. L’heure actuelle est également requise pour indiquer au gestionnaire d’animations de mettre à jour son état et de définir toutes les variables d’animation sur les valeurs interpolées appropriées.<br/> |
 | [Lire les valeurs de la variable d’animation](updating---application-driven-animation.md)<br/>         | Chaque fois que votre application peint, elle doit lire les valeurs actuelles des variables d’animation qui représentent les caractéristiques visuelles à animer.<br/>                                                                                                                                  |
 | [Créer une table de montage séquentiel et ajouter des transitions](updating---timer-driven-animation.md)<br/>          | Pour créer une animation, une application doit construire une table de montage séquentiel.<br/>                                                                                                                                                                                                                        |
@@ -40,13 +40,13 @@ Ces tâches, dans l’ordre, sont les suivantes :
 
 <dl> <dt>
 
-[Vue d’ensemble des animations Windows](scenic-animation-api-overview.md)
+[Windows Vue d’ensemble de l’animation](scenic-animation-api-overview.md)
 </dt> <dt>
 
-[Informations de référence sur les animations Windows](windows-animation-reference.md)
+[Windows Référence d’animation](windows-animation-reference.md)
 </dt> <dt>
 
-[Exemples d’animation Windows](windows-animation-samples.md)
+[Windows Exemples d’animation](windows-animation-samples.md)
 </dt> </dl>
 
  

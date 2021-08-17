@@ -44,12 +44,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc3cb600a853e4bc2dea7c693e676f992db85f48
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 02f1ef263868d29685242962e4538bd84635138fb0f205194d8c27c5b6932aeb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058957"
 ---
 # <a name="imsrdpclientadvancedsettings3connectionbarshowminimizebutton-property"></a>IMsRdpClientAdvancedSettings3 :: ConnectionBarShowMinimizeButton, propriété
 
@@ -80,7 +80,7 @@ Affectez à ce paramètre la **\_ valeur variant true** pour afficher le bouton 
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété ne peut pas être définie lorsque le contrôle est connecté.
 

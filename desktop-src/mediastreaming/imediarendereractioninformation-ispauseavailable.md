@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9eb0b750f5a04528aef830d87376c276bdaf6674
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fad69863306a8a937771f16c2ab9a83a2622c571d2cd5ee5658a279bf7564132
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117870846"
 ---
 # <a name="imediarendereractioninformationispauseavailable-method"></a>IMediaRendererActionInformation :: IsPauseAvailable, méthode
 
@@ -50,7 +50,7 @@ Valeur booléenne qui est **true** si DMR accepte actuellement la méthode [**Pa
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e1a632fa867269f04e8f5f66e6bc352ef1701cd9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 24c5195d38aeaebefd1713df31f23b6b2ec7b2324a31381027f3442b541678c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118094176"
 ---
 # <a name="id3dxanimationcontrollervalidateevent-method"></a>ID3DXAnimationController :: ValidateEvent, méthode
 
@@ -57,7 +57,7 @@ Retourne S \_ OK si le handle d’événement est valide et que l’événement 
 
 Retourne E \_ Fail si le descripteur d’événement n’est pas valide et/ou si l’événement est terminé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode indique qu’un handle d’événement est valide même si l’événement est en cours d’exécution, mais n’est pas encore terminé.
 

@@ -4,12 +4,12 @@ description: Bouton bascule lorsque l’utilisateur clique sur pour fournir une 
 ms.assetid: 290052b7-0528-41c5-b6f4-958cc42d502b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d72c06f8382e7210f1041960b92de5f6054548d1
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: dd4f9cd407ff8d2a08ca8bc8313f25374a429c1038544f0d31f270621af0267f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104551163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964341"
 ---
 # <a name="toggle-button"></a>Bouton bascule
 
@@ -50,7 +50,7 @@ Le tableau suivant répertorie les clés de propriété associées au contrôle 
 <thead>
 <tr class="header">
 <th>Clé de propriété</th>
-<th>Notes</th>
+<th>Remarques</th>
 </tr>
 </thead>
 <tbody>
@@ -114,7 +114,7 @@ Si la commande associée au contrôle est invalidée via un appel à <a href="/w
 
 <dl> <dt>
 
-[Bibliothèque de contrôles de l’infrastructure du ruban Windows](windowsribbon-controls-entry.md)
+[Windows Bibliothèque de contrôles de Framework du ruban](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**ToggleButton, élément de balisage**](windowsribbon-element-togglebutton.md)

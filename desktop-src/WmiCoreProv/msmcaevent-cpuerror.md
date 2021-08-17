@@ -1,5 +1,5 @@
 ---
-description: Représente un événement d’erreur d’UC. Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+description: Représente un événement d’erreur d’UC. cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 ms.assetid: 4ee4aa51-a965-4569-b53c-0ba21bf42752
 title: Classe MSMCAEvent_CPUError
 ms.topic: reference
@@ -24,16 +24,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: dff990b46d730a1e8b54ef99a24a686745e3dacf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42542f9e32bee31e44df65c0d0ade3d337e3fe395315fe28d6fd8b1c66b3b8dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926872"
 ---
 # <a name="msmcaevent_cpuerror-class"></a>MSMCAEvent \_ CPUError, classe
 
-La classe **MSMCAEvent \_ CPUError** représente un événement d’erreur d’UC. Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+La classe **MSMCAEvent \_ CPUError** représente un événement d’erreur d’UC. cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 
 La syntaxe suivante est simplifiée du code format MOF (MOF) et comprend toutes ses propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -122,7 +122,7 @@ Niveau de gravité de l’erreur signalée.
 
 | Valeur                                                                                                | Signification                |
 |------------------------------------------------------------------------------------------------------|------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Récupérable<br/> |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Récupérable<br/> |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Erreur irrécupérable<br/>       |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Corrigible<br/> |
 
@@ -227,11 +227,11 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Type de message du journal des événements. Ces messages correspondent aux codes de message du journal des événements utilisés pour insérer des messages du journal des événements par le fournisseur de consommateur du journal des événements Windows lorsqu’il reçoit l’un des événements.
+Type de message du journal des événements. ces messages correspondent aux codes de message du journal des événements utilisés pour insérer des messages du journal des événements par le fournisseur de consommateur du journal des événements Windows lorsqu’il reçoit l’un des événements.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **MSMCAEvent \_ CPUError** est dérivée de [**WmiEvent**](wmievent.md).
 

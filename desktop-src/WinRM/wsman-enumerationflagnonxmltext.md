@@ -5,8 +5,8 @@ ms.assetid: 5e062e73-f833-4090-ba5a-48ca374724e7
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode EnumerationFlagNonXmlText
-- Méthode EnumerationFlagNonXmlText Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode EnumerationFlagNonXmlText
+- méthode EnumerationFlagNonXmlText Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode EnumerationFlagNonXmlText
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26a9547f85a07702dc3735129842e5bc286ee9b7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f6606a20d0ab7f59b7521367243ccdc97fd90209f1791d8f1ded3e48c70e3f59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742288"
 ---
 # <a name="wsmanenumerationflagnonxmltext-method"></a>Méthode WSMan. EnumerationFlagNonXmlText
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 518c11da8d5f9b0762843c5b69292562a94b80c4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a981d0469219a32b5931507f5df6d742e84fa67e6676e44c24edfb823f521a3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807295"
 ---
 # <a name="defaultbind-attribute"></a>defaultbind (attribut)
 
@@ -65,7 +65,7 @@ Spécifie le type de retour de la fonction.
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la fonction à laquelle l’attribut **\[ defaultbind \]** sera appliqué.
@@ -79,7 +79,7 @@ Liste des paramètres de la fonction.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les propriétés qui ont l’attribut **\[ defaultbind \]** doivent également avoir l' **\[** attribut pouvant être [**lié**](bindable.md) **\]** . Une seule propriété dans une interface ou une dispinterface peut avoir l’attribut **\[ defaultbind \]** .
 
@@ -126,6 +126,6 @@ interface MyObject : IUnknown
 [TYPEFLAGS](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

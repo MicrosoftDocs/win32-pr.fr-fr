@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4852e2d4c1ffa08b1a7ea7b3d8395c1b116cca6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 57d9c2792282245ad4903d77700f5413bef0d2f769a65753aed60f50ba759707
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800109"
 ---
 # <a name="inapclientmanagementgetregisteredsystemhealthagents-method"></a>INapClientManagement :: GetRegisteredSystemHealthAgents, méthode
 
@@ -85,8 +85,8 @@ La méthode retourne un code d’État HRESULT incluant, sans s’y limiter, l�
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                         |
 | En-tête<br/>                   | <dl> <dt>NapManagement. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapManagement. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |

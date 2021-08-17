@@ -20,21 +20,21 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bb297aac0bc26e50bba519206eff346abb7943c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38b669fdf38d6dcaffe5d8a0ac77c8ac362142faca2df03fb23eb45d869ed0ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117704043"
 ---
 # <a name="jetrestore2-function"></a>Fonction JetRestore2
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetrestore2-function"></a>Fonction JetRestore2
 
-**JetRestore2** restaure et récupère une sauvegarde en continu d’une instance, y compris toutes les bases de données attachées. Cette fonction est principalement utilisée à des fins de compatibilité descendante avec Windows 2000 et des moteurs de base de données antérieurs, où une seule instance de base de données est autorisée. Dans ce cas, l’instance active est l’instance qui est restaurée.
+**JetRestore2** restaure et récupère une sauvegarde en continu d’une instance, y compris toutes les bases de données attachées. cette fonction est principalement utilisée à des fins de compatibilité descendante avec Windows 2000 et des moteurs de base de données antérieurs, où une seule instance de base de données est autorisée. Dans ce cas, l’instance active est l’instance qui est restaurée.
 
 ```cpp
     JET_ERR JET_API JetRestore2(
@@ -60,7 +60,7 @@ Pointeur facultatif vers la fonction qui sera appelée en tant qu’informations
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -88,7 +88,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidParameter</p></td>
-<td><p>L’un des paramètres fournis contenait une valeur inattendue ou contenait une valeur qui n’a pas de sens lorsqu’elle était associée à la valeur d’un autre paramètre. Cette erreur est retournée par <a href="gg269306(v=exchg.10).md">JetRestoreInstance</a> lorsque le moteur est en mode multi-instance et pinstance fait référence à une instance non valide de Windows XP et versions ultérieures.</p></td>
+<td><p>L’un des paramètres fournis contenait une valeur inattendue ou contenait une valeur qui n’a pas de sens lorsqu’elle était associée à la valeur d’un autre paramètre. cette erreur est retournée par <a href="gg269306(v=exchg.10).md">JetRestoreInstance</a> lorsque le moteur est en mode multi-instance et pinstance fait référence à une instance non valide Windows XP et versions ultérieures.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errInvalidPath</p></td>
@@ -100,7 +100,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </tr>
 <tr class="odd">
 <td><p>JET_errRunningInMultiInstanceMode</p></td>
-<td><p>L’opération a échoué, car les paramètres ont impliqué le mode d’instance unique (mode de compatibilité de Windows 2000) et le moteur est déjà en mode multi-instance.</p></td>
+<td><p>l’opération a échoué, car les paramètres impliquaient le mode d’instance unique (Windows mode de compatibilité 2000) et le moteur est déjà en mode multi-instance.</p></td>
 </tr>
 </tbody>
 </table>
@@ -110,7 +110,7 @@ En cas de réussite, les fichiers de base de données du jeu de sauvegarde sont 
 
 En cas d’échec, l’instance reste dans un État non initialisé. L’état des fichiers du journal des transactions et des bases de données référencées par ces fichiers du journal des transactions aura probablement été modifié lors de la tentative d’initialisation de la restauration et de récupération des bases de données.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Le processus de récupération reconstruira les bases de données attachées à l’instance au cours de la sauvegarde et enregistrera les modifications dans les fichiers de la base de données. Le résultat sera celui des bases de données qui sont cohérentes avec les transactions. Si possible, il enregistrera également dans la base de données les modifications apportées depuis la sauvegarde jusqu’à la dernière modification trouvée dans les journaux des transactions. Cela est possible si les journaux des transactions générés depuis la sauvegarde sont toujours présents dans le répertoire du journal des transactions. Notez que si la journalisation circulaire a été activée pour l’instance, les journaux de transactions générés sont réutilisés afin que la récupération puisse enregistrer les modifications apportées jusqu’à l’heure de la sauvegarde. Dans tous les cas, il est possible que ce processus prenne un certain temps si le nombre de fichiers du journal des transactions à relire sur les bases de données est important.
 
@@ -130,11 +130,11 @@ Les différentes étapes de la récupération auront des entrées de journal des
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

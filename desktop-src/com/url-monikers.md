@@ -4,12 +4,12 @@ description: L’architecture du moniker OLE fournit un modèle de programmation
 ms.assetid: 8e0e2bad-9275-4b96-a96b-35d9c933ae31
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb2a63f63d14dfe51c0b8c5c3727637e12a51356
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: f92e952e2d9bdd8ae70108e34845a3e920228b1b68f1db061977dff36e942254
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104211147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129484"
 ---
 # <a name="url-monikers"></a>Monikers d’URL
 

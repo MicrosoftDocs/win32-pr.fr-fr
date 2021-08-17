@@ -4,12 +4,12 @@ ms.assetid: 1a007bed-15e5-4400-9d2f-32e37e1765d2
 title: IMR_DOCUMENTFEED le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc4fe46f95b7ad17ba7bb7850ec3fb9ca980519f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbef4c83d35fa02e2c879d76b9520df6d01588c07cb725b13e66888e9dd27722
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948776"
 ---
 # <a name="imr_documentfeed-notification-code"></a>\_Code de notification IMR DOCUMENTFEED
 
@@ -44,7 +44,7 @@ Pointeur vers une mémoire tampon destinée à contenir la structure [**RECONVER
 
 Retourne la structure actuelle de la chaîne de reconversion. Si *lParam* a la valeur **null**, l’application retourne la taille requise pour que la mémoire tampon contienne la structure. La commande retourne 0 en cas d’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’IME met en cache les chaînes converties pour une meilleure précision de conversion. L’une des limitations de mise en cache de l’IME est qu’elle perd la chaîne convertie dans les circonstances suivantes :
 
@@ -62,7 +62,7 @@ Avec la commande **IMR \_ DOCUMENTFEED** , l’IME peut actualiser ses chaînes 
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

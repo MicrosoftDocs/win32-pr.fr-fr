@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab2dd5e38b22731fee7f957ee8f817537e32c645
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fbcd3e06304824ba51431b00b6a5b90d24d7719194dd84974470a101d5f6a1c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104479709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961558"
 ---
 # <a name="entry-ttl-attribute"></a>Attribut Entry-TTL
 
@@ -36,7 +36,7 @@ Cet attribut opérationnel est géré par le serveur et semble être présent da
 | Fréquence des mises à jour  | \-                                          |
 | Attribute-Id      | 1.3.6.1.4.1.1466.101.119.3                  |
 | System-ID-GUID    | d213decc-d81a-4384-AAC2-dcfcfd631cf8        |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)        |
+| Syntaxe            | [**Énumération**](s-enumeration.md)        |
 
 
 
@@ -45,7 +45,7 @@ Cet attribut opérationnel est géré par le serveur et semble être présent da
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

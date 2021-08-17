@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 228884435322992b8c87d20a9f351161f945c43c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ec3f934d9d94bfcc1129414b652de770d205b6e190b9f901c6e4f35768f59217
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117732401"
 ---
 # <a name="d3dformat"></a>D3DFORMAT
 
@@ -116,7 +116,7 @@ typedef enum _D3DFORMAT {
 } D3DFORMAT;
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il existe plusieurs types de formats :
 
@@ -147,7 +147,7 @@ Ces formats sont les seuls formats valides pour une mémoire tampon d’arrière
 
 
 
-| Format      | Mémoire tampon d’arrière-plan | Afficher                   |
+| Format      | Mémoire tampon d’arrière-plan | Affichage                   |
 |-------------|-------------|---------------------------|
 | A2R10G10B10 | x           | x (mode plein écran uniquement) |
 | A8R8G8B8    | x           |                           |
@@ -344,7 +344,7 @@ Les données dans un format non signé doivent être positives. Les formats non 
 
  
 
-### <a name="other"></a>Autres
+### <a name="other"></a>Autre
 
 Cet indicateur est utilisé pour les formats non définis.
 

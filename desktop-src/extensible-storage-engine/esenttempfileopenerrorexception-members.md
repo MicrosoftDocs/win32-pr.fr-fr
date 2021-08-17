@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103038
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a349e31061dda7b5fc813ab7422b7ce03cd30bd9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e8ad4900e7014151507e3d2ee588b201f6e8aa7c30d5d4b06b1b92ec343fc36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104564732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119113735"
 ---
 # <a name="esenttempfileopenerrorexception-members"></a>Membres EsentTempFileOpenErrorException
 
@@ -73,7 +73,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

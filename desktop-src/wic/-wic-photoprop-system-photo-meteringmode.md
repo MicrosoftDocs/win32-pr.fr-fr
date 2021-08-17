@@ -4,12 +4,12 @@ ms.assetid: cb0bf0d5-eccf-4345-a242-76769c34e02d
 title: Stratégie de métadonnées de photo System. photo. MeteringMode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12a4443521c84113e4e2a6f4c2b9b2b3f822ae90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 424b14fa6216d5c88c350512d1583b311f92ef2f487e604760b1836b296d3bf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964778"
 ---
 # <a name="systemphotometeringmode-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. MeteringMode
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Mete
 
 \_Photo \_ MeteringMode
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37383} | ushort      |
 | 2     | /xmp/exif:MeteringMode        | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37383} | ushort      |
 | 2     | /xmp/exif:MeteringMode        | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37383} |
 | 2     | /xmp/exif:meteringmode        |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                       | Format de disque |
+| Commande | Chemin                       | Format de disque |
 |-------|----------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37383}   | ushort      |
 | 2     | /ifd/xmp/exif:MeteringMode | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                       | Format de disque |
+| Commande | Chemin                       | Format de disque |
 |-------|----------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37383}   | ushort      |
 | 2     | /ifd/xmp/exif:MeteringMode | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                       |
+| Commande | Chemin                       |
 |-------|----------------------------|
 | 1     | /IFD/EXIF/{UShort = 37383}   |
 | 2     | /ifd/xmp/exif:meteringmode |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -4,12 +4,12 @@ ms.assetid: 33ba9292-3bc7-41ba-a602-e2fc94cd3a57
 title: Proxy de données avec analyse de l’encre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52717b955625e67f50c20703dd0e84449aa1037f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad79a37a3220351adad56c0a131392e96964714114ba1e0a982833b07bc85077
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092778"
 ---
 # <a name="data-proxy-with-ink-analysis"></a>Proxy de données avec analyse de l’encre
 
@@ -31,7 +31,7 @@ Il existe deux approches de base pour le proxy de données d’analyse d’encre
 
 L’approche de mise à jour synchrone requiert la modification (création et suppression) des nœuds dans la collection d’objets [**ContextNode**](icontextnode.md) de l’objet [**InkAnalyzer**](inkanalyzer.md) à mesure qu’ils se produisent dans le document de l’application. Par exemple, chaque fois qu’un mot de texte est ajouté à l’application, un **ContextNode** de type **TextWord** correspondant est créé dans le **InkAnalyzer**. Si l’emplacement du texte dans la page change, l’emplacement du **ContextNode** correspondant est mis à jour en même temps. Cette méthode est moins efficace en termes de ressources de calcul que la méthode à la demande, car chaque modification de document implique une mise à jour du **InkAnalyzer**, même si la modification n’affecte pas l’encre en cours d’analyse.
 
-L’exemple suivant est destiné à illustrer le fonctionnement de la mise à jour synchrone. Imaginez une application qui a un modèle de document existant. Lorsque l’utilisateur final apporte une modification au document, telle que l’ajout d’un nouveau texte, la modification est traitée comme suit :
+L’exemple suivant est destiné à illustrer le fonctionnement de la mise à jour synchrone. Imagine une application qui a un modèle de document existant. Lorsque l’utilisateur final apporte une modification au document, telle que l’ajout d’un nouveau texte, la modification est traitée comme suit :
 
 1.  L’utilisateur final crée les nouvelles données.
 2.  L’application détermine la façon de traiter les données, de les stocker et de les restituer.

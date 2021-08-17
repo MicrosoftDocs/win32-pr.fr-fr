@@ -4,12 +4,12 @@ ms.assetid: 236725f6-16a3-4209-a9e3-a127c1d7243a
 title: Classes COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 626c3dfdae542b602cf27a8d8be5cb69dde5910f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ae2cdabc1f4535df6734cf525f288bf6cbd8a93543a9163848815441c9bc384c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129221"
 ---
 # <a name="com-classes"></a>Classes COM+
 
@@ -20,7 +20,7 @@ Voici les classes COM+.
 | Classe                                                            | Description                                                                                                                                                                                                                             |
 |------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AppDomainHelper**](appdomainhelper.md)                       | Lie un objet managé à un domaine d’application, qui est un environnement isolé dans lequel les applications s’exécutent.                                                                                                                           |
-| [**ClrAssemblyLocator**](clrassemblylocator.md)                 | Récupère des informations sur un assembly lors de l’utilisation du code managé dans le common language runtime .NET Framework.                                                                                                                          |
+| [**ClrAssemblyLocator**](clrassemblylocator.md)                 | récupère des informations sur un assembly lors de l’utilisation du code managé dans le common language runtime .NET Framework.                                                                                                                          |
 | [**CServiceConfig**](cserviceconfig.md)                         | Spécifie et configure les services qui doivent être actifs dans le domaine de service entré lors de l’appel de [**CoCreateActivity**](/windows/desktop/api/ComSvcs/nf-comsvcs-cocreateactivity) ou [**CoEnterServiceDomain**](/windows/desktop/api/ComSvcs/nf-comsvcs-coenterservicedomain).                     |
 | [**SecurityCallContext**](securitycallcontext.md)               | Fournit l’accès au contexte de sécurité de l’appel actuel, qui contient des informations sur les appelants d’un objet.                                                                                                                           |
 | [**SecurityCallers**](securitycallers.md)                       | Fournit l’accès aux informations sur les appelants individuels dans une collection d’appelants. La collection représente la chaîne d’appels se terminant par l’appel en cours, et chaque appelant de la collection représente l’identité d’un appelant. |

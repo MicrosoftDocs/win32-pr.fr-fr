@@ -4,12 +4,12 @@ ms.assetid: d6877063-6cf9-48dc-8208-0f3fc85b6d6b
 title: Résolution des problèmes de Prise en main avec WSDAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12396ea656423772d35dbd4ca237c7c536dcdaf1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 413146288e6c7fc6e513f994fbe24d6ee9940897f22bcd5a715ae41f77f83c02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738615"
 ---
 # <a name="getting-started-with-wsdapi-troubleshooting"></a>Résolution des problèmes de Prise en main avec WSDAPI
 
@@ -39,11 +39,11 @@ Les tableaux suivants présentent certains problèmes qui peuvent empêcher les 
 
 | Problème                                                                                                                                                                                              | Procédure de diagnostic                                                                                                                                                                                                                             | Identification du problème                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Le pare-feu bloque le trafic de découverte du réseau.                                                                                                                                                       | [Inspection des paramètres de l’adaptateur et du pare-feu](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | L’activation de l’exception découverte du réseau sur le pare-feu résout le problème.                                                                                                                      |
-| Les exceptions de pare-feu spécifiques à l’application bloquent les messages.                                                                                                                               | [Inspection des paramètres de l’adaptateur et du pare-feu](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | La désactivation du pare-feu résout le problème. WF. msc affiche les règles de pare-feu spécifiques à l’application.                                                                                                      |
-| L’appareil ne répond pas aux demandes UDP en envoyant un message [messages ProbeMatches](probematches-message.md) ou [ResolveMatches](resolvematches-message.md) en temps opportun (moins de 4 secondes). | [Inspection des paramètres de l’adaptateur et du pare-feu](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | La désactivation du pare-feu résout le problème et un hôte générique qui répond en moins de 4 secondes fonctionne correctement.                                                                            |
-| Le contexte de sécurité de l’application est incorrect (autrement dit, le client et l’hôte ne disposent pas des autorisations adéquates sur le réseau).                                                                 | [Utilisation d’un hôte et d’un client génériques pour UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md) ou [utilisation d’un hôte et d’un client génériques pour l’échange de métadonnées http](using-a-generic-host-and-client-for-http-metadata-exchange.md) | L’adresse de l’appareil n’est pas affichée dans la sortie du client de débogage WSD. L’exécution de l’application en tant qu’administrateur résout le problème.                                                                          |
-| Une stratégie IPSec bloque les messages.                                                                                                                                                                | [Utilisation d’un hôte et d’un client génériques pour UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md) ou [utilisation d’un hôte et d’un client génériques pour l’échange de métadonnées http](using-a-generic-host-and-client-for-http-metadata-exchange.md) | L’adresse de l’appareil n’est pas affichée dans la sortie du client de débogage WSD. Le problème n’est pas résolu en désactivant le pare-feu. Le problème ne peut pas être reproduit sur une machine qui n’est soumise à aucune stratégie IPSec. |
+| Le pare-feu bloque le trafic de découverte du réseau.                                                                                                                                                       | [inspection des Paramètres de l’adaptateur et du pare-feu](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | L’activation de l’exception découverte du réseau sur le pare-feu résout le problème.                                                                                                                      |
+| Les exceptions de pare-feu spécifiques à l’application bloquent les messages.                                                                                                                               | [inspection des Paramètres de l’adaptateur et du pare-feu](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | La désactivation du pare-feu résout le problème. WF. msc affiche les règles de pare-feu spécifiques à l’application.                                                                                                      |
+| L’appareil ne répond pas aux demandes UDP en envoyant un message [messages ProbeMatches](probematches-message.md) ou [ResolveMatches](resolvematches-message.md) en temps opportun (moins de 4 secondes). | [inspection des Paramètres de l’adaptateur et du pare-feu](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | La désactivation du pare-feu résout le problème et un hôte générique qui répond en moins de 4 secondes fonctionne correctement.                                                                            |
+| Le contexte de sécurité de l’application est incorrect (autrement dit, le client et l’hôte ne disposent pas des autorisations adéquates sur le réseau).                                                                 | [Utilisation d’un hôte et d’un client génériques pour UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md) ou [utilisation d’un hôte et d’un client génériques pour les métadonnées http Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md) | L’adresse de l’appareil n’est pas affichée dans la sortie du client de débogage WSD. L’exécution de l’application en tant qu’administrateur résout le problème.                                                                          |
+| Une stratégie IPSec bloque les messages.                                                                                                                                                                | [Utilisation d’un hôte et d’un client génériques pour UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md) ou [utilisation d’un hôte et d’un client génériques pour les métadonnées http Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md) | L’adresse de l’appareil n’est pas affichée dans la sortie du client de débogage WSD. Le problème n’est pas résolu en désactivant le pare-feu. Le problème ne peut pas être reproduit sur une machine qui n’est soumise à aucune stratégie IPSec. |
 
 
 
@@ -149,12 +149,12 @@ Pour les applications qui utilisent la découverte dirigée, le <a href="probema
 <tbody>
 <tr class="odd">
 <td>L’adresse de transport publiée par l’hôte est incorrecte.</td>
-<td><a href="using-a-generic-host-and-client-for-http-metadata-exchange.md">Utilisation d’un hôte et d’un client génériques pour l’échange de métadonnées HTTP</a></td>
+<td><a href="using-a-generic-host-and-client-for-http-metadata-exchange.md">Utilisation d’un hôte et d’un client génériques pour les métadonnées HTTP Exchange</a></td>
 <td>L’inspection de XAddrs dans la sortie du client de débogage WSD indique que l’adresse de transport est incorrecte ou incorrecte.</td>
 </tr>
 <tr class="even">
 <td>Impossible d’établir une connexion TCP pour l’échange de métadonnées.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour l’échange de métadonnées HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
 <td>La sortie de l’analyseur de paquets n’affiche pas l’échange de paquets suivant :
 <ul>
 <li>Paquet TCP SYN envoyé à partir du client</li>
@@ -164,52 +164,52 @@ Pour les applications qui utilisent la découverte dirigée, le <a href="probema
 </tr>
 <tr class="odd">
 <td>Le client n’a pas envoyé de requête HTTP obtenir valide.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour l’échange de métadonnées HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
 <td>Il n’y a aucune requête HTTP d’extraction dans la sortie de l’analyseur de paquets, ou la requête est incorrecte.</td>
 </tr>
 <tr class="even">
 <td>Le client n’a pas envoyé de message d' WS-Transfer d' <a href="get--metadata-exchange--http-request-and-message.md">extraction</a> valide.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour l’échange de métadonnées HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
 <td>Il n’existe aucun WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">recevoir</a> de message dans la sortie de l’analyseur de paquets, ou le message est incorrect.</td>
 </tr>
 <tr class="odd">
 <td>L’hôte n’écoute pas sur le chemin d’accès de l’URL spécifié dans la requête HTTP.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour l’échange de métadonnées HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
 <td>Il n’y a aucune réponse HTTP dans la sortie de l’analyseur de paquets.</td>
 </tr>
 <tr class="even">
 <td>Le WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">obtenir</a> le message ne contient pas <strong>d’élément à</strong> , ou l’élément <strong>à</strong> est vide.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour l’échange de métadonnées HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
 <td>L’inspection du message indique que l’élément <strong>to</strong> n’est pas présent ou vide.</td>
 </tr>
 <tr class="odd">
 <td>La valeur de l’élément <strong>to</strong> d’un WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">obtenir</a> le message ne correspond pas à l’une des adresses de point de terminaison de l’hôte.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour l’échange de métadonnées HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
 <td>L’inspection du message indique que la valeur de l’élément <strong>to</strong> ne correspond pas à l’une des adresses de point de terminaison publiées dans le message <a href="probematches-message.md">messages ProbeMatches</a> ou <a href="resolvematches-message.md">ResolveMatches</a> de l’hôte.</td>
 </tr>
 <tr class="even">
 <td>L’hôte n’a pas envoyé d’en-tête de réponse HTTP valide.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour l’échange de métadonnées HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
 <td>Il n’y a aucune réponse HTTP dans la sortie de l’analyseur de paquets, ou la requête est incorrecte.</td>
 </tr>
 <tr class="odd">
 <td>L’en-tête de réponse HTTP envoyé par l’hôte indique que la demande ne peut pas être terminée.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour l’échange de métadonnées HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
 <td>L’en-tête de réponse a un code d’État autre que HTTP/1.1 200.</td>
 </tr>
 <tr class="even">
 <td>L’hôte n’a pas envoyé de message <a href="getresponse--metadata-exchange--message.md">GetResponse</a> valide.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour l’échange de métadonnées HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
 <td>Il n’existe aucun message <a href="getresponse--metadata-exchange--message.md">GetResponse</a> dans la sortie de l’analyseur de paquets ou le message est incorrect.</td>
 </tr>
 <tr class="odd">
 <td>Le message <a href="getresponse--metadata-exchange--message.md">GetResponse</a> ne contient pas d’élément <strong>latesto</strong> , ou l’élément <strong>latesto</strong> est vide.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour l’échange de métadonnées HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
 <td>L’inspection du message indique que l’élément <strong>latesto</strong> n’est pas présent ou vide.</td>
 </tr>
 <tr class="even">
 <td>La valeur de l’élément <strong>latesto</strong> dans un message <a href="getresponse--metadata-exchange--message.md">GetResponse</a> ne correspond pas à la valeur de l’élément <strong>MessageID</strong> du message d' <a href="get--metadata-exchange--http-request-and-message.md">extraction</a> correspondant.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour l’échange de métadonnées HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
 <td>L’inspection du message indique que l’élément <strong>latesto</strong> contient une valeur incorrecte ou incorrecte.</td>
 </tr>
 </tbody>

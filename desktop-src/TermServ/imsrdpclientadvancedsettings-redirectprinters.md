@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94fecc3b6f72b8706168c75d220d78fc49340752
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 91bb51e0701a57070e4a71d275ff419971a2ec81a0e1b6664157e40972dc92a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117757456"
 ---
 # <a name="imsrdpclientadvancedsettingsredirectprinters-property"></a>IMsRdpClientAdvancedSettings :: RedirectPrinters, propriété
 
@@ -90,7 +90,7 @@ Affectez à ce paramètre la valeur **Variant \_ true** pour autoriser la redire
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 903522b63754ff7972e4cdcf5221946442497896
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 51584bc38c49345f6bb1d940aed24a052e9a4f9cd05fc2dc84246a6ba1168fd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953498"
 ---
 # <a name="ctransformfilterpause-method"></a>CTransformFilter. pause, méthode
 
@@ -40,11 +40,11 @@ HRESULT Pause();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne S \_ OK ou une autre valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode appelle la méthode [**StartStreaming**](ctransformfilter-startstreaming.md) . La méthode **StartStreaming** n’a aucun effet dans la classe de base, mais la classe dérivée peut la substituer.
 
@@ -54,7 +54,7 @@ Cette méthode appelle la méthode [**StartStreaming**](ctransformfilter-startst
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transfrm. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Transfrm. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -1,20 +1,20 @@
 ---
-title: Recommandations pour les applications d’extension de schéma
+title: Recommandations pour les Applications d’Extension de schéma
 description: Cette rubrique contient des recommandations relatives aux applications d’extension de schéma.
 ms.assetid: 615e927e-a113-4557-b354-55a208a649eb
 ms.tgt_platform: multiple
 keywords:
-- Recommandations pour les applications d’extension de schéma AD
+- Recommandations pour les Applications d’Extension de schéma AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2393211eb910ce4bc490667398da7f38d212ddcf
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 3c0a01e68fbe9751b778caa2404d02afb1ddd7704457c9cf0aedcc914387ab5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104101429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025267"
 ---
-# <a name="recommendations-for-schema-extension-applications"></a>Recommandations pour les applications d’extension de schéma
+# <a name="recommendations-for-schema-extension-applications"></a>Recommandations pour les Applications d’Extension de schéma
 
 Outre les conditions préalables, les meilleures pratiques suivantes sont recommandées pour les applications d’extension de schéma :
 
@@ -36,6 +36,6 @@ Outre les conditions préalables, les meilleures pratiques suivantes sont recomm
 
     Pour plus d’informations sur la mise à jour du cache de schéma, consultez [l’exemple de code pour la mise à jour du cache de schéma](example-code-for-updating-the-schema-cache.md).
 
- 
+ 
 
- 
+ 

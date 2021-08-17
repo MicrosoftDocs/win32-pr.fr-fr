@@ -4,12 +4,12 @@ ms.assetid: eaca30cb-fec1-49ca-8b23-5e54c583e3e2
 title: Table de répertoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 273445aef67e3f166255321d0ac0ccf1aee37515
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f19e9b5994062ac55564799854fc36016fc6ddb9887bc36aa9a94652ef31aeb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947343"
 ---
 # <a name="directory-table"></a>Table de répertoire
 
@@ -64,7 +64,7 @@ Les noms de répertoires de cette colonne peuvent être formatés en tant que pa
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque enregistrement de la table représente un répertoire dans les images source et de destination. La table de répertoire doit spécifier un répertoire racine unique avec une valeur de colonne de répertoire égale à la propriété [**targetDir**](targetdir.md) .
 

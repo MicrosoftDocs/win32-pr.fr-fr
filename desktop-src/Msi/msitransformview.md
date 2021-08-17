@@ -4,20 +4,20 @@ ms.assetid: 2d4a934f-e245-4d0a-b8bf-52457107ac08
 title: MsiTransformView
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7eb50c397c10ede3a21b40600952d50e55a5ba1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 978f27fe68d89abd3ea94a4d13adc815bbc6510564caf949b937d8a4213428b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118944247"
 ---
 # <a name="msitransformview"></a>MsiTransformView
 
 Cette table temporaire active l' [option de désinstallation correctif de l’action personnalisée](custom-action-patch-uninstall-option.md) pour les actions personnalisées ajoutées ou mises à jour par un correctif.
 
-Si un correctif ajoute ou met à jour une action personnalisée ayant l’attribut **msidbCustomActionTypePatchUninstall** , Windows Installer exécute l’action personnalisée nouvelle ou mise à jour lorsque le correctif est désinstallé. Windows Installer rend les mises à jour dans le correctif en cours de désinstallation disponibles pour l’action personnalisée de désinstallation des correctifs. Le correctif doit inclure une *<PatchGUID>* table MsiTransformView pour fournir ces informations à Windows Installer. Les informations contenues dans ce tableau sont disponibles pour toute action personnalisée immédiate et ne sont pas disponibles pour les actions personnalisées différées.
+si un correctif ajoute ou met à jour une action personnalisée ayant l’attribut **msidbCustomActionTypePatchUninstall** , Windows Installer exécute l’action personnalisée nouvelle ou mise à jour lorsque le correctif est désinstallé. Windows Le programme d’installation rend les mises à jour dans le correctif en cours de désinstallation disponibles pour l’action personnalisée de désinstallation des correctifs. le correctif doit inclure une *<PatchGUID>* table MsiTransformView pour fournir ces informations à Windows Installer. Les informations contenues dans ce tableau sont disponibles pour toute action personnalisée immédiate et ne sont pas disponibles pour les actions personnalisées différées.
 
-**[Windows Installer 4,0 et versions antérieures](not-supported-in-windows-installer-4-0.md):** Non pris en charge. L' [option de désinstallation corrective de l’action personnalisée](custom-action-patch-uninstall-option.md) est disponible à partir de Windows Installer 4,5.
+**[Windows Installer 4,0 et versions antérieures](not-supported-in-windows-installer-4-0.md):** Non pris en charge. l' [Option de désinstallation corrective de l’Action personnalisée](custom-action-patch-uninstall-option.md) est disponible à partir de Windows Installer 4,5.
 
 Ce tableau doit être nommé MsiTransformView *<PatchGUID>* table, où *<PatchGUID>* est le GUID qui identifie de façon unique le correctif. La *<PatchGUID>* table MsiTransformView contient les colonnes suivantes.
 
@@ -74,11 +74,11 @@ Valeur actuelle de la base de données de référence ou numéro de colonne.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les actions personnalisées de désinstallation des correctifs s’exécutent lorsque le correctif est désinstallé. Elles ne s’exécutent pas lorsque le produit est désinstallé. Utilisez l' [option de désinstallation corrective action personnalisée](custom-action-patch-uninstall-option.md) et le tableau ci-dessous pour exécuter une opération personnalisée uniquement lorsque le correctif est en cours de désinstallation.
 
-Un correctif peut mettre à jour une action personnalisée fournie dans le package d’origine (fichier. msi). Pour exécuter la version mise à jour de l’action personnalisée lorsque le correctif est désinstallé, marquez l’action personnalisée avec l’attribut **msidbCustomActionTypePatchUninstall** dans le package d’origine.
+Un correctif peut mettre à jour une action personnalisée fournie dans le package d’origine (fichier .msi.) Pour exécuter la version mise à jour de l’action personnalisée lorsque le correctif est désinstallé, marquez l’action personnalisée avec l’attribut **msidbCustomActionTypePatchUninstall** dans le package d’origine.
 
  
 

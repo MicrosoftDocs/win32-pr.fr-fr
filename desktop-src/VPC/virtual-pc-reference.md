@@ -1,27 +1,27 @@
 ---
-title: Informations de référence sur les PC virtuels Windows
+title: Windows Informations de référence sur Virtual PC
 ms.assetid: 86bf2bed-1b1f-4faa-8947-416fc787cfbc
-description: 'En savoir plus sur : informations de référence sur les PC virtuels Windows'
+description: 'en savoir plus sur : Windows de référence Virtual PC'
 keywords:
-- PC virtuels Windows Virtual PC, référence
+- Windows Virtual PC Virtual PC, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cbb00c9b67605c4b8f5f4e06ef1a4710cbc6cfb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f0c0a21da9a43815f0abf47acdedf729d28dda0c9c0e3f367e082191d87599d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056437"
 ---
-# <a name="windows-virtual-pc-reference"></a>Informations de référence sur les PC virtuels Windows
+# <a name="windows-virtual-pc-reference"></a>Windows Informations de référence sur Virtual PC
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
-Les éléments suivants sont pris en charge par Windows Virtual PC :
+les éléments suivants sont pris en charge par Windows Virtual PC :
 
--   [Constantes de Windows Virtual PC](windows-virtual-pc-constants.md)
--   [Énumérations de PC virtuels Windows](virtual-pc-enumerations.md)
--   [Interfaces de PC virtuels Windows](virtual-pc-interfaces.md)
+-   [Windows Constantes d’ordinateur virtuel](windows-virtual-pc-constants.md)
+-   [Windows Énumérations de PC virtuels](virtual-pc-enumerations.md)
+-   [Windows Interfaces Virtual PC](virtual-pc-interfaces.md)
 -   [Séquences de touches](key-sequences.md)
 
 ## <a name="related-topics"></a>Rubriques connexes

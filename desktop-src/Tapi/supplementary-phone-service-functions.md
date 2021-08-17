@@ -1,17 +1,17 @@
 ---
 description: Les fonctions de service téléphonique supplémentaires sont répertoriées par catégorie dans les rubriques suivantes.
 ms.assetid: 0d1a81d2-aa9e-4a85-85d3-aa4eabb26eb5
-title: Fonctions de service téléphonique supplémentaires
+title: fonctions de Service de Téléphone supplémentaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 527c39441a924a4f9787d22bf8db596882e7f257
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8ee0e32260ac3821fd06e7e8962ab2a6186fb42f1140eb6cd8f705709f2dfbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118861417"
 ---
-# <a name="supplementary-phone-service-functions"></a>Fonctions de service téléphonique supplémentaires
+# <a name="supplementary-phone-service-functions"></a>fonctions de Service de Téléphone supplémentaires
 
 Les fonctions de service téléphonique supplémentaires sont répertoriées par catégorie dans les rubriques suivantes. Une fonction est identifiée comme [*asynchrone*](a-tapgloss.md) si elle indique la fin d’un message de réponse à l’application. Si la fonction retourne toujours son résultat à l’application immédiatement, la fonction est considérée comme [*synchrone*](s-tapgloss.md).
 
@@ -23,13 +23,13 @@ Voici un regroupement fonctionnel des fonctions supplémentaires de service tél
 -   [Appareils hookswitch](#hookswitch-devices)
 -   [Lampes](#lamps)
 -   [Ouverture et fermeture des appareils téléphoniques](#opening-and-closing-phone-devices)
--   [Initialisation et arrêt du téléphone](#phone-initialization-and-shutdown)
--   [État du téléphone et fonctionnalités](#phone-status-and-capabilities)
--   [Négociation de version de téléphone](#phone-version-negotiation)
--   [Alarme](#ring)
+-   [initialisation et arrêt de Téléphone](#phone-initialization-and-shutdown)
+-   [état et fonctionnalités de Téléphone](#phone-status-and-capabilities)
+-   [négociation de version de Téléphone](#phone-version-negotiation)
+-   [Anneau](#ring)
 -   [État](#status)
 
-## <a name="phone-initialization-and-shutdown"></a>Initialisation et arrêt du téléphone
+## <a name="phone-initialization-and-shutdown"></a>Téléphone Initialisation et arrêt
 
 
 
@@ -42,7 +42,7 @@ Voici un regroupement fonctionnel des fonctions supplémentaires de service tél
 
  
 
-## <a name="phone-version-negotiation"></a>Négociation de version de téléphone
+## <a name="phone-version-negotiation"></a>Téléphone Négociation de version
 
 
 
@@ -54,7 +54,7 @@ Voici un regroupement fonctionnel des fonctions supplémentaires de service tél
 
  
 
-## <a name="opening-and-closing-phone-devices"></a>Ouverture et fermeture des appareils téléphoniques
+## <a name="opening-and-closing-phone-devices"></a>ouverture et fermeture des appareils Téléphone
 
 
 
@@ -67,7 +67,7 @@ Voici un regroupement fonctionnel des fonctions supplémentaires de service tél
 
  
 
-## <a name="phone-status-and-capabilities"></a>État du téléphone et fonctionnalités
+## <a name="phone-status-and-capabilities"></a>Téléphone État et fonctionnalités
 
 
 
@@ -99,7 +99,7 @@ Voici un regroupement fonctionnel des fonctions supplémentaires de service tél
 
  
 
-## <a name="display"></a>Afficher
+## <a name="display"></a>Affichage
 
 
 

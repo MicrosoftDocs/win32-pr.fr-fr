@@ -1,17 +1,17 @@
 ---
-description: Installation du service dans le SPI Windows Sockets 2 (Winsock).
+description: installation du Service dans le SPI de Windows sockets 2 (Winsock).
 ms.assetid: a303fbcf-9122-422a-9b12-d00a5df0fc0f
-title: Installation du service dans le SPI Windows Sockets 2
+title: Installation du Service dans le SPI Windows sockets 2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9028f35c21cc7055e8b8dde060c1c178dbf76715
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faad2431add9b20ebd3358c48469f382596b658de1339525b147b094a7c3786c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740523"
 ---
-# <a name="service-installation-in-the-windows-sockets-2-spi"></a>Installation du service dans le SPI Windows Sockets 2
+# <a name="service-installation-in-the-windows-sockets-2-spi"></a>Installation du Service dans le SPI Windows sockets 2
 
 -   [**NSPInstallServiceClass**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnspinstallserviceclass)
 -   [**NSPRemoveServiceClass**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnspremoveserviceclass)

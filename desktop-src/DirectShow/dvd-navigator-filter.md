@@ -4,12 +4,12 @@ ms.assetid: 3b2c01a2-d52c-4497-8fc9-d1113e8507e8
 title: Filtre de navigateur DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53bb1c6f46e3dd846ffccda32fece2c2f04c8992
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a395001daeac5f90be85bea972d1d4f118198ee4343960cb4eed0d958e1677aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104481856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016007"
 ---
 # <a name="dvd-navigator-filter"></a>Filtre de navigateur DVD
 
@@ -100,7 +100,7 @@ Pour activer les types étendus, appelez <a href="/windows/desktop/api/Strmif/nf
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
 [Applications DVD](dvd-applications.md)

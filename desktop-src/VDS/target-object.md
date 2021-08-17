@@ -4,16 +4,16 @@ ms.assetid: e88d65ad-9b56-4620-a0f5-573c5e245b3e
 title: Objet cible
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e1e81ea94a2f608378eba069defc83a721e0fb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b528d66fb789e4d237dacae151c3dda596e834f84f529c3677905672de3b7588
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057947"
 ---
 # <a name="target-object"></a>Objet cible
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Un objet cible modélise une cible iSCSI contenue dans un sous-système iSCSI.
 
@@ -30,7 +30,7 @@ Le tableau suivant répertorie les interfaces, énumérations et structures asso
 | Type                                                                                      | Élément                                                                                                                     |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Interfaces toujours exposées par cet objet dans les fournisseurs iSCSI VDS 1,1 et 2,0 uniquement | [**IVdsIscsiTarget**](/windows/desktop/api/Vds/nn-vds-ivdsiscsitarget).                                                                                 |
-| Énumérations associées                                                                   | Aucun                                                                                                                       |
+| Énumérations associées                                                                   | Aucun.                                                                                                                       |
 | Structures associées                                                                     | [**VDS \_ La \_ \_ prop cible iSCSI**](/windows/desktop/api/Vds/ns-vds-vds_iscsi_target_prop) et la [**\_ \_ notification cible VDS**](/windows/desktop/api/Vds/ns-vds-vds_target_notification). |
 
 

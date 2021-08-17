@@ -4,12 +4,12 @@ description: Les sections suivantes décrivent les documents composés, le méca
 ms.assetid: d4a57956-37ba-44ca-8efc-bf617ad5e77b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4061f8642167e0258a48e62d6caa7f039cf6088a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2f5e30d6126cec85d9daf975fbaf89a7f280f32c02d6eb8f4e3fa1acd932fa7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130071"
 ---
 # <a name="ole-and-data-transfer"></a>OLE et Transfert de données
 
@@ -25,9 +25,9 @@ Les sections suivantes décrivent les documents composés, le mécanisme fourni 
 [COM (Component Object Model)](component-object-model--com--portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

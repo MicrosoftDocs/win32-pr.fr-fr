@@ -4,12 +4,12 @@ ms.assetid: aaec6fee-df6b-4033-8ece-73ecd1799653
 title: AcceptSecurityContext (Negotiate), fonction (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: d4a9d38618760a97e9475e8d5914d6e54c5eea81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ac466530be0a19a6b8c88355f238a1cd491f9c2ff6d7d8dbe67b16ba20f43b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141631"
 ---
 # <a name="acceptsecuritycontext-negotiate-function"></a>AcceptSecurityContext (Negotiate) (fonction)
 
@@ -142,7 +142,7 @@ Cette fonction retourne l’une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **AcceptSecurityContext (Negotiate)** est l’équivalent serveur de la fonction [**InitializeSecurityContext (Negotiate)**](initializesecuritycontext--negotiate.md) .
 
@@ -171,8 +171,8 @@ Une fois le [*contexte de sécurité*](../secgloss/s-gly.md) établi, l’applic
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                   |
 | En-tête<br/>                   | <dl> <dt>SSPI. h (include Security. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

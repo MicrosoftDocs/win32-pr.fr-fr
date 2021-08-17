@@ -24,12 +24,12 @@ keywords:
 - pilotes de décompresseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14b861d381dfc28307c090dbb71b93db8e58e90a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bacb3d94feee3da290bf9c1cc90cab92f2aade083effd8a01cb17906c22e0f4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140995"
 ---
 # <a name="how-the-audio-compression-manager-works"></a>Fonctionnement du gestionnaire de compression audio
 
@@ -47,9 +47,9 @@ Pour la sortie Waveform-Audio, l’ACM passe chaque mémoire tampon de données 
 
 Pour une entrée Waveform-Audio, l’ACM transmet des tampons d’ombre vides au pilote. Elle utilise une tâche en arrière-plan pour recevoir une notification après que le pilote a rempli le tampon d’ombre. L’ACM transmet ensuite les tampons au pilote pour la compression. Une fois la compression terminée, le pilote transmet les données à l’application.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,20 +12,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: af354cbdc9c5f9ca5225c9f38d452a2ebac218c8
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 63cb5bf3ae6efe00888d9e91a94f423d494385b28ce4affefc2c22d70534ed5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106510238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117756038"
 ---
 # <a name="tpriority-enumeration"></a>Énumération TPriority
 
 Cette énumération n’est pas implémentée.
 
- 
+ 
 
- 
+ 
 
 
 

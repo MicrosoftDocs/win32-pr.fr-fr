@@ -3,7 +3,7 @@ title: Création de fichiers MIDI
 description: Création de fichiers MIDI
 ms.assetid: 2fca3b41-14f9-4eaf-9fdb-8f952c834302
 keywords:
-- Multimédia Windows, création de fichiers MIDI
+- Windows multimédia, création de fichiers MIDI
 - multimédia, création de fichiers MIDI
 - audio multimédia, création de fichiers MIDI
 - audio, création de fichiers MIDI
@@ -18,12 +18,12 @@ keywords:
 - Spécification GM (General MIDI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e36ccc25e73d6a28afc9001f2862870f1fa1a9ef
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 07e2a229a8e9208645fa7ffae296c004b833156b240f063066be2a8732175054
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144606"
 ---
 # <a name="creating-midi-files"></a>Création de fichiers MIDI
 
@@ -41,15 +41,15 @@ La spécification de fichiers MIDI standard définit un moyen d’échanger des 
 
 La spécification standard MIDI (GM) définit une configuration MIDI minimale d’un « système MIDI général ». Ce système se compose d’une classe spécifique de périphériques de lecture MIDI et présente un intérêt pour les développeurs multimédias qui créent des fichiers MIDI. La plupart des cartes son et des synthétiseurs MIDI fabriqués aujourd’hui sont compatibles avec la spécification GM. Les fichiers MIDI qui sont créés dans la spécification GM doivent généralement sembler tels qu’ils étaient prévus, quel que soit l’appareil compatible GM sur lequel ils sont lus.
 
-Pour que les fichiers MIDI soient un format viable pour représenter de la musique dans un environnement informatique multimédia, Windows suit la spécification General MIDI System Level 1. Les rubriques suivantes fournissent des instructions de création MIDI supplémentaires :
+pour permettre aux fichiers midi d’être un format viable pour représenter de la musique dans le calcul multimédia, Windows suit la spécification General MIDI System Level 1. Les rubriques suivantes fournissent des instructions de création MIDI supplémentaires :
 
 -   [Instructions de création pour les fichiers MIDI](authoring-guidelines-for-midi-files.md)
 -   [Attributions de correctifs MIDI standard](standard-midi-patch-assignments.md)
 -   [Attributions de clés MIDI standard](standard-midi-key-assignments.md)
 
- 
+ 
 
- 
+ 
 
 
 

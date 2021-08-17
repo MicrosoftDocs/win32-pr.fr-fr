@@ -4,12 +4,12 @@ description: L’interface IAccessible est une collection de méthodes qui expos
 ms.assetid: 82f6e934-58ea-47f2-98a3-2ab1c20f24c3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 218d009793dc1bebac2a7e5caeba8fa140ac0d96
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c683e83928db53894c7c2c22976a5cf58c402c241e698dca5248230b1b24177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744894"
 ---
 # <a name="using-the-iaccessible-interface"></a>Utilisation de l’interface IAccessible
 
@@ -27,9 +27,9 @@ Cette section fournit des suggestions, des instructions et des exemples pour aid
 -   [Propriétés et méthodes de sélection et de focus](selection-and-focus-properties-and-methods.md)
 -   [Propriétés et méthodes de navigation entre les objets](object-navigation-properties-and-methods.md)
 
- 
+ 
 
- 
+ 
 
 
 

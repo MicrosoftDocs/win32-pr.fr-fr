@@ -4,16 +4,16 @@ ms.assetid: aa59f322-09b1-4b0a-be6f-d865c20f76e5
 title: Pilote MSTape
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 951084f8827f925bba43028c0792736883d5ff0f
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 23eaf6dd7f0d6713b0db5ba5ed21ba4f7640c1373f23cb0066b0b31f366809cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952208"
 ---
 # <a name="mstape-driver"></a>Pilote MSTape
 
-Cette rubrique s’applique à Windows XP ou version ultérieure.
+cette rubrique s’applique à Windows XP ou version ultérieure.
 
 Le pilote MSTape prend en charge les appareils caméscopes D-VHS et MPEG. Il est exposé aux applications en tant que filtre de [capture vidéo WDM](wdm-video-capture-filter.md) . Sa fonctionnalité est semblable à celle de [MSDV](msdv-driver.md), le pilote de caméscope DV :
 
@@ -98,7 +98,7 @@ Pour plus d’informations sur les monikers de périphérique, consultez [utilis
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
 [Contrôle d’un caméscope DV](controlling-a-dv-camcorder.md)

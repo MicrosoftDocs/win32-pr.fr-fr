@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b689dd95aa1e078572d33de64f245e4844698d5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0944b843c8deb38012242111b6c5057ccf7cb8557c69caefe9a87283d2ae418
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119328739"
 ---
 # <a name="rt_lostevent-class"></a>RT \_ LostEvent, classe
 
@@ -38,7 +38,7 @@ class RT_LostEvent : Lost_Event
 
 La classe **RT \_ LostEvent** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le type d’événement RTLostEvent indique qu’un ou plusieurs événements ont été perdus. Le type d’événement RTLostBuffer indique qu’une ou plusieurs mémoires tampons ont été perdues. Les types d’événements RTLostEvent et RTLostBuffer sont remis avant le traitement des événements de la mémoire tampon.
 
@@ -46,13 +46,13 @@ RTLostFile indique que le fichier de stockage utilisé par le journal automatiqu
 
 Le fait de perdre des événements dépend de la fréquence à laquelle les événements sont journalisés et du temps passé par le consommateur à traiter les événements.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                      |
 
 

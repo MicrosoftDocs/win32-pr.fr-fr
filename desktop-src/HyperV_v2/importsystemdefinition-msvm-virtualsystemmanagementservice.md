@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: bb38ab343a3d92fabd1dc44ed100d2d2f7f7bf01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee8dd5bb7d17684216b747717c0adf32011dafa543f05c91a0c1264da89caf2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118149735"
 ---
 # <a name="importsystemdefinition-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Méthode ImportSystemDefinition de la \_ classe VirtualSystemManagementService MSVM
 
@@ -46,7 +46,7 @@ uint32 ImportSystemDefinition(
 *SystemDefinitionFile* \[ dans\]
 </dt> <dd>
 
-Le chemin d’accès complet au fichier de définition de système (. XML ou. exp) représentant l’ordinateur virtuel qui doit être importé. Le fichier de définition ne doit pas être déjà utilisé par le système hôte ou la plateforme de virtualisation.
+Le chemin d’accès complet au fichier de définition de système (.xml ou. exp) représentant l’ordinateur virtuel à importer. Le fichier de définition ne doit pas être déjà utilisé par le système hôte ou la plateforme de virtualisation.
 
 </dd> <dt>
 
@@ -132,8 +132,8 @@ Le **système n’est pas disponible** (32777)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
