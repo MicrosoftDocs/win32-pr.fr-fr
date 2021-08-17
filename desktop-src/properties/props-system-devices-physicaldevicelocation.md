@@ -4,12 +4,12 @@ ms.assetid: 418b47b7-91fd-4da3-9162-8677f5fe2a49
 title: System. Devices. PhysicalDeviceLocation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eccc6f3ece199934207d4a501406c9773df5f49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47e729af44480b5d1188eeb3fce63744c8e808aa7114552ed36a10d17caf9dcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118728079"
 ---
 # <a name="systemdevicesphysicaldevicelocation"></a>System. Devices. PhysicalDeviceLocation
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,12 +4,12 @@ ms.assetid: ebcc8202-94b4-47ad-9918-e5bc843a258f
 title: Identificateurs de propriété primitifs de chiffrement (bcrypt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71f4996a216fbc4fbf63216f99b5f630c4769e97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5452c6a55388998a08577cb19ef2fba6905faddbdf28f5f8051b7bc8d9d1c375
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908220"
 ---
 # <a name="cryptography-primitive-property-identifiers"></a>Identificateurs de la propriété primitive de chiffrement
 
@@ -84,10 +84,10 @@ Pointeur vers une chaîne Unicode terminée par le caractère null qui représen
 | Identificateur                   | Valeur                         | Description                                                                                                                                                                    |
 |------------------------------|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **\_mode chaîne \_ BCRYPT \_ CBC** | L « ChainingModeCBC »<br/> | Définit le mode de chaînage de l’algorithme pour [*chiffrer les chaînages de blocs*](/windows/desktop/SecGloss/c-gly).<br/>            |
-| **\_ \_ CCM en mode \_ chaîné** | L « ChainingModeCCM »<br/> | Définit le mode de chaînage de l’algorithme sur compteur avec le mode CBC-MAC (CCM). **Windows Vista :** Cette valeur est prise en charge à partir de Windows Vista avec SP1.<br/> <br/> |
+| **\_ \_ CCM en mode \_ chaîné** | L « ChainingModeCCM »<br/> | Définit le mode de chaînage de l’algorithme sur compteur avec le mode CBC-MAC (CCM). **Windows Vista :** cette valeur est prise en charge à partir de Windows Vista avec SP1.<br/> <br/> |
 | **\_mode de chaîne BCRYPT \_ \_ CFB** | L « ChainingModeCFB »<br/> | Définit le mode de chaînage de l’algorithme pour [*chiffrer les commentaires*](/windows/desktop/SecGloss/c-gly).<br/>                              |
 | **\_ \_ BCE en mode de chaîne BCRYPT \_** | L « ChainingModeECB »<br/> | Définit le mode de chaînage de l’algorithme sur [*Electronic Codebook*](/windows/desktop/SecGloss/e-gly).<br/>                  |
-| **\_mode de chaîne BCRYPT \_ \_ GCM** | L « ChainingModeGCM »<br/> | Définit le mode de chaînage de l’algorithme en mode Galois/Counter (GCM). **Windows Vista :** Cette valeur est prise en charge à partir de Windows Vista avec SP1.<br/> <br/>       |
+| **\_mode de chaîne BCRYPT \_ \_ GCM** | L « ChainingModeGCM »<br/> | Définit le mode de chaînage de l’algorithme en mode Galois/Counter (GCM). **Windows Vista :** cette valeur est prise en charge à partir de Windows Vista avec SP1.<br/> <br/>       |
 | **\_mode de chaîne BCRYPT \_ \_ na**  | L "ChainingModeN/A"<br/> | L’algorithme ne prend pas en charge le chaînage.<br/>                                                                                                                            |
 
 
@@ -120,7 +120,7 @@ L « DSAParameters »
 
 Spécifie les paramètres à utiliser avec une clé DSA. Cette propriété est un [**\_ \_ \_ en-tête de paramètre DSA DSA**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header) ou une structure d' [**\_ \_ \_ en-tête \_ de paramètre DSA DSA v2**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header_v2) . Cette propriété peut uniquement être définie et doit être définie pour la clé avant la fin de la clé.
 
-**Windows 8 :** À partir de Windows 8, cette propriété peut être une structure d' [**\_ \_ \_ en \_ -tête de paramètre DSA DSA v2**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header_v2) . Utilisez cette structure si la taille de la clé dépasse 1024 bits et est inférieure ou égale à 3072 bits. Si la taille de la clé est supérieure ou égale à 512, mais inférieure ou égale à 1024 bits, utilisez la structure d' [**\_ \_ \_ en-tête de paramètre DSA DSA**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header) .
+**Windows 8 :** à partir de Windows 8, cette propriété peut être une structure d' [**\_ \_ \_ en \_ -tête de paramètre DSA DSA V2**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header_v2) . Utilisez cette structure si la taille de la clé dépasse 1024 bits et est inférieure ou égale à 3072 bits. Si la taille de la clé est supérieure ou égale à 512, mais inférieure ou égale à 1024 bits, utilisez la structure d' [**\_ \_ \_ en-tête de paramètre DSA DSA**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header) .
 
 
 </dt> </dl> </dd> <dt>
@@ -340,8 +340,8 @@ Taille, en octets, de la longueur d’une signature pour une clé. Ce type de do
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Bcrypt. h</dt> </dl> |
 
 

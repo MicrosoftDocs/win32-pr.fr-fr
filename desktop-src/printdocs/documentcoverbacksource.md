@@ -4,12 +4,12 @@ ms.assetid: 43a0c881-75cc-4fbc-a0c3-b3eab9dfe4df
 title: DocumentCoverBackSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5be16ab26a4aa3dd7109fee7d630ed354b9b686d
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: bf2e83451cca940ab251f1ff3ceb25603d21cba8d6ec6dbd617395839917a135
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118732939"
 ---
 # <a name="documentcoverbacksource"></a>DocumentCoverBackSource
 
@@ -28,7 +28,7 @@ Spécifie la source d’une feuille de couverture principale personnalisée.
 |----------------------------|------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                        |
 | Préfixe d’étendue <br/> | Document<br/>                            |
-| Notes <br/>          | Lié à l’élément DocumentCoverBack<br/> |
+| Remarques <br/>          | Lié à l’élément DocumentCoverBack<br/> |
 
 
 
@@ -67,7 +67,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                      |
+| Property                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:string<br/>       |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |

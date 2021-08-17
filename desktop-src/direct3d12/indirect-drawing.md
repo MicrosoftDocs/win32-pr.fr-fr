@@ -5,12 +5,12 @@ ms.assetid: F8D6C88A-101E-4F66-999F-43206F6527B6
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fa474a469d5789d4b31830400d981ea771db2e8
-ms.sourcegitcommit: b9a7a48e52219bf8d33e6b8171fc9f8b52151e92
+ms.openlocfilehash: c55070bead6f848777cb81dd7fb33878ddcf7954a7f8a4fbb55f4ab9c01d4cea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2021
-ms.locfileid: "112421877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123845"
 ---
 # <a name="indirect-drawing"></a>Dessin indirect
 
@@ -153,9 +153,9 @@ La disposition d’une structure unique au sein de la mémoire tampon d’argume
 |-------|-------------------------------------------|
 | 0:3   | Données pour l’index de paramètre racine 2           |
 | 4:7   | Données pour l’index de paramètre racine 6           |
-| 8:15  | Adresse virtuelle de VB à l’emplacement 3 (64 bits)  |
-| 16:19 | Taille VB                                   |
-| 20:23 | STRIDE VB                                 |
+| 8:15  | adresse virtuelle de VB à l’emplacement 3 (64 bits)  |
+| 16:19 | taille de VB                                   |
+| 20:23 | VB stride                                 |
 | 24:27 | VertexCountPerInstance                    |
 | 28:31 | InstanceCount                             |
 | 32:35 | StartVertexLocation                       |

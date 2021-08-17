@@ -14,12 +14,12 @@ keywords:
 - Portage OpenGL depuis IRIS GL, fonction greset
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 078482f47dcaf7fd5f84605e2e0fa32d0cf14729
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bf5a48c09e7078f3eccd316de9cb86872d61343aabfa0faf60fbe5af2bef218c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936147"
 ---
 # <a name="porting-greset"></a>Portage greset
 
@@ -59,13 +59,13 @@ Cet exemple prend une opération or au niveau du bit des constantes symboliques,
 
 
 
- 
+ 
 
 Pour restaurer les valeurs des variables d’État à celles enregistrées avec le dernier [**glPushAttrib**](glpushattrib.md), il vous suffit d’appeler [**glPopAttrib**](glpopattrib.md). Les variables que vous n’avez pas enregistrées resteront inchangées. La pile d’attributs a une profondeur finie d’au moins 16.
 
- 
+ 
 
- 
+ 
 
 
 

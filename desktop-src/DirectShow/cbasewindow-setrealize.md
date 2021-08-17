@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 587e54cdbbbf57ddb4cf52e2d5dfb916acaee22d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 825a020b73bc74b38a32daa6f6870b76a009f5b8090e253370c77dfce7d7dc31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954564"
 ---
 # <a name="cbasewindowsetrealize-method"></a>Méthode CBaseWindow. SetRealize
 
@@ -53,7 +53,7 @@ Valeur booléenne qui spécifie s’il faut réaliser des palettes. Si la **vale
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par défaut, la méthode **SetPalette** réalise la palette spécifiée. Appelez cette méthode pour modifier le comportement par défaut, afin que les palettes soient sélectionnées mais pas réalisées. Cette méthode définit la variable de membre [**CBaseWindow :: m \_ bNoRealize**](cbasewindow-m-bnorealize.md) .
 
@@ -63,7 +63,7 @@ Par défaut, la méthode **SetPalette** réalise la palette spécifiée. Appelez
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

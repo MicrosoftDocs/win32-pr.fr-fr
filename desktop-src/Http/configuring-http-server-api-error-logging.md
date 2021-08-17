@@ -6,12 +6,12 @@ keywords:
 - API serveur HTTP, configuration des journaux d’erreurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 698f6b5ae81b1933ea745789e0fae33dfc7ebce6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a10479a1b2bd1ebf559213b6cd4b738f6c0b9ea63c142edcce3c10f64f877dda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950888"
 ---
 # <a name="configuring-http-server-api-error-logging"></a>Configuration de la journalisation des erreurs de l’API du serveur HTTP
 
@@ -27,7 +27,7 @@ HKEY_LOCAL_MACHINE
 ```
 
 > [!Note]  
-> L’emplacement et la forme des valeurs de configuration peuvent changer dans les versions ultérieures du système d’exploitation Windows.
+> l’emplacement et la forme des valeurs de configuration peuvent changer dans les versions ultérieures du système d’exploitation Windows.
 
  
 

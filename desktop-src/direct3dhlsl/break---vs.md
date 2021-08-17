@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 27751d1d6f17a6c3d64baf3dbb1b4d8b37570209
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: bb51d7c6b398a1ee86afbffe78cd1bf54cf8e5290e5c04f8d7815525137ce303
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118794567"
 ---
 # <a name="break---vs"></a>Break-vs
 
@@ -29,9 +29,9 @@ Sortir de la boucle actuelle à l’instruction [ENDLOOP-vs](endloop---vs.md) ou
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction est prise en charge dans les versions suivantes.
 
@@ -43,7 +43,7 @@ Cette instruction est prise en charge dans les versions suivantes.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -52,9 +52,9 @@ Cette instruction est prise en charge dans les versions suivantes.
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

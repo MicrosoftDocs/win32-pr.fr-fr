@@ -65,12 +65,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d3f1bbc9dabe078751d58875745a789895cb4c9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04cf87a40b48e5f0fc505fe5bc921229ce208fe910d9418431ddae3187b2c5d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950698"
 ---
 # <a name="msvm_serialcontroller-class"></a>MSVM \_ SerialController, classe
 
@@ -157,7 +157,7 @@ La classe **MSVM \_ SerialController** possède ces méthodes.
 | **OnlineDevice**                                                       | Cette méthode n'est pas prise en charge.<br/> |
 | **QuiesceDevice**                                                      | Cette méthode n'est pas prise en charge.<br/> |
 | [**RequestStateChange**](msvm-serialcontroller-requeststatechange.md) | Demande un changement d’État.<br/>      |
-| [**Réinitialiser**](msvm-serialcontroller-reset.md)                           | Réinitialise l’appareil.<br/>            |
+| [**Initialisation**](msvm-serialcontroller-reset.md)                           | Réinitialise l’appareil.<br/>            |
 | **RestoreProperties**                                                  | Cette méthode n'est pas prise en charge.<br/> |
 | **SaveProperties**                                                     | Cette méthode n'est pas prise en charge.<br/> |
 | **SetPowerState**                                                      | Cette méthode n'est pas prise en charge.<br/> |
@@ -972,7 +972,7 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ SerialController** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 

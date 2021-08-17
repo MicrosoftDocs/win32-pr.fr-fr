@@ -8,12 +8,12 @@ keywords:
 - numéros de version
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78e43de27f18f89a5f240242b63ade057f57ec92
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ac69601c593c51a5a15a0af0706a019f135d855875f6e1ecabdb414a8a100045
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118733094"
 ---
 # <a name="version-information"></a>Informations sur la version
 

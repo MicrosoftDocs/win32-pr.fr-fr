@@ -4,12 +4,12 @@ ms.assetid: 8aa25afd-efa8-4fe0-92d4-8432f9d633c9
 title: Attribut MFSampleExtension_PacketCrossOffsets (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d416f41fef9caab3d73c2bdd015d345452ccbd69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b39abdcaf0dfb5888c1705a0a76a19c3a55be522b82405f5a77345efe0d8f13e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102305"
 ---
 # <a name="mfsampleextension_packetcrossoffsets-attribute"></a>\_Attribut MFSampleExtension PacketCrossOffsets
 
@@ -29,9 +29,9 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetBlob**](/windows/des
 
 [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet attribut s’applique aux exemples de médias protégés par Windows Media Digital Rights Management (DRM). La valeur de l’attribut est un tableau de **DWORD** s. Chaque entrée du tableau correspond au décalage d’une limite de charge utile, par rapport au début du frame. Une application peut utiliser ces valeurs lors du déchiffrement et de la reconstruction des frames.
+cet attribut s’applique aux échantillons de médias protégés par Windows media Digital Rights Management (DRM). La valeur de l’attribut est un tableau de **DWORD** s. Chaque entrée du tableau correspond au décalage d’une limite de charge utile, par rapport au début du frame. Une application peut utiliser ces valeurs lors du déchiffrement et de la reconstruction des frames.
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
@@ -41,8 +41,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Wmcontainer. h</dt> </dl> |
 
 

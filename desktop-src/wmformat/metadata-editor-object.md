@@ -11,12 +11,12 @@ keywords:
 - métadonnées, objets Editor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e27a30f5bd22bef9533352927901ad2b8a9e44fe
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 5e8e78aaf6ada96a9cefa1a9ec6f4aa5708c7382539bc3b75493734c18d600b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103724098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027447"
 ---
 # <a name="metadata-editor-object"></a>Éditeur de métadonnées, objet
 
@@ -39,7 +39,7 @@ Les interfaces suivantes sont prises en charge par l’objet de l’éditeur de 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -60,9 +60,9 @@ Les interfaces suivantes sont prises en charge par l’objet de l’éditeur de 
 [**Utilisation des métadonnées**](working-with-metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

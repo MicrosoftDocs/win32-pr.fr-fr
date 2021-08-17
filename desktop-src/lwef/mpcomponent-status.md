@@ -3,8 +3,8 @@ title: Structure MPCOMPONENT_STATUS (MpClient. h)
 description: Informations sur l’état du composant.
 ms.assetid: 0E589E52-A204-425C-880B-CF13C16893F3
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPCOMPONENT_STATUS
-- PMPCOMPONENT_STATUS des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPCOMPONENT_STATUS
+- PMPCOMPONENT_STATUS des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2923136d2599440bc6ccfe863af9795f7d7ff96
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dcb12a0358cf4d0112ca1cb8dfedc90c7c3aec504578685e78291dbe5e006cda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747797"
 ---
 # <a name="mpcomponent_status-structure"></a>\_Structure d’État MPCOMPONENT
 
@@ -70,8 +70,8 @@ Code de réussite ou d’échec associé à l’État.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

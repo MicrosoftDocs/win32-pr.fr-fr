@@ -4,12 +4,12 @@ ms.assetid: dfc7ad46-c13b-46d1-8854-0d93ecaac55a
 title: SENSOR_CATEGORY_BIOMETRIC (sensors. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71660c7bc94037c21502c91e017a8eba369766a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1551a82e359d2277c8b46f227d7a72660b1419b3ba3ddfcf58bdd4ac1de5425b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889575"
 ---
 # <a name="sensor_category_biometric"></a>biométrique de catégorie de capteur \_ \_
 
@@ -53,7 +53,7 @@ Cette catégorie comprend les champs de données définis par la plateforme suiv
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                            |
 | En-tête<br/>                   | <dl> <dt>Capteurs. h</dt> </dl> |
 

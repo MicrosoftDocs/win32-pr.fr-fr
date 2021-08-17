@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5f21c6d67468ecb07bbe0fe83bec7b48a086571
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 37ef829fad368e7d8cf3b65ab70db4600f6d635b1d36bcc5e3f50fcdbaf429a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883958"
 ---
 # <a name="systemmonitorondblclick-event"></a>SystemMonitor. OnDblClick, événement
 
@@ -53,7 +53,7 @@ Index du compteur sélectionné dans l’objet de collection de [**compteurs**](
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque cet événement est déclenché, le compteur sélectionné par l’utilisateur dans le graphique linéaire et l’histogramme est également sélectionné dans le volet légende. Cela permet à l’utilisateur du moniteur système de voir plus facilement le compteur sélectionné lorsque plusieurs valeurs de compteur sont affichées.
 

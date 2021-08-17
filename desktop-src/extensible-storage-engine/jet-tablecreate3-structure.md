@@ -17,21 +17,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 587649b592f2b0d213a481c3bfbecc723240e486
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64f820b9e9a42099cdb99d8ab8f0756e8fdbb23256917821d05573afd9068017
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979239"
 ---
 # <a name="jet_tablecreate3-structure"></a>Structure JET_TABLECREATE3
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
-La structure **JET_TABLECREATE3** contient les informations nécessaires pour créer une table remplie avec des colonnes et des index dans une base de données ESE (Extensible Storage Engine) et qui désigne une fonction de rappel. La structure **JET_TABLECREATE3** est utilisée par la fonction [JetCreateTableColumnIndex3](./jetcreatetablecolumnindex3-function.md) .
+la structure **JET_TABLECREATE3** contient les informations nécessaires pour créer une table remplie avec des colonnes et des index dans une base de données ESE (Extensible Stockage Engine) et qui désigne une fonction de rappel. La structure **JET_TABLECREATE3** est utilisée par la fonction [JetCreateTableColumnIndex3](./jetcreatetablecolumnindex3-function.md) .
 
-La structure **JET_TABLECREATE3** a été introduite dans le système d’exploitation Windows 7.
+la structure **JET_TABLECREATE3** a été introduite dans le système d’exploitation Windows 7.
 
 ``` cpp
 typedef struct tagJET_TABLECREATE3 {
@@ -211,19 +211,19 @@ Groupe de bits qui contient zéro, une ou plusieurs des valeurs d’option d’a
 
 Pointeur vers une structure [JET_SPACEHINTS](./jet-spacehints-structure.md) pour l’index séquentiel par défaut.
 
-**pSeqSpacehints** a été introduit dans Windows 7.
+**pSeqSpacehints** a été introduite dans Windows 7.
 
 **pLVSpacehints**
 
 Pointeur vers une structure [JET_SPACEHINTS](./jet-spacehints-structure.md) pour une arborescence de valeurs longues séparée.
 
-**pLVSpacehints** a été introduit dans Windows 7.
+**pLVSpacehints** a été introduite dans Windows 7.
 
 **cbSeparateLV**
 
 Taille à laquelle séparer un LV intrinsèque de l’enregistrement principal. Toute structure c à valeurs longues pour une arborescence LV séparée. Pour plus d’informations, consultez ng-value in [JET_SPACEHINTS](./jet-spacehints-structure.md). Les colonnes de valeur longue inférieures à cette valeur peuvent être séparées si l’enregistrement devient trop volumineux.
 
-**cbSeparateLV** a été introduit dans Windows 7.
+**cbSeparateLV** a été introduite dans Windows 7.
 
 **TableID**
 
@@ -245,11 +245,11 @@ Le nombre d’objets créés est égal à la somme des colonnes, des tables et d
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
+<td><p>requiert Windows Vista ou Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
+<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

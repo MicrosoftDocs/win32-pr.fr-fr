@@ -4,16 +4,16 @@ ms.assetid: 1d40745f-9282-45ca-96e1-ed2a6f03cb98
 title: Utilitaires de débogage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cac574e5a7129e9a1f07167898d367e6bfa30173
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f68b8ff1e2b8cb48de2997895ba1a5ee6b50570d6c94ea94700e15c81eb4d061
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953228"
 ---
 # <a name="debugging-utilities"></a>Utilitaires de débogage
 
-Cette section contient des entrées de référence pour les macros et les fonctions fournies par DirectShow pour faciliter le débogage. Pour utiliser ces fonctions, vous devez générer la bibliothèque de classes de base DirectShow.
+cette section contient des entrées de référence pour les macros et les fonctions que DirectShow fournit pour faciliter le débogage. pour utiliser ces fonctions, vous devez générer la DirectShow bibliothèque de classes de base.
 
 -   [Macros Assert et Breakpoint](assert-and-breakpoint-macros.md)
 -   [Fonctions de débogage des sections critiques](critical-section-debugging-functions.md)
@@ -28,7 +28,7 @@ Cette section contient des entrées de référence pour les macros et les foncti
 [Débogage dans DirectShow](debugging-in-directshow.md)
 </dt> <dt>
 
-[Utilisation des classes de base DirectShow](using-the-directshow-base-classes.md)
+[utilisation des Classes de Base DirectShow](using-the-directshow-base-classes.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 4E43FAA9-7D6F-43DB-A998-189411E0AB4C
 title: Constantes CNG CNG (NCryptprotect. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ece376a0b7282f26ef933b249a1356b2d012d438
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1afc589afa113250728b46639b7cd47442034f7b3bc82264099f334919a94c76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908797"
 ---
 # <a name="cng-dpapi-constants"></a>Constantes CNG CNG
 
@@ -141,7 +141,7 @@ Protège le contenu de l’ordinateur local. Tous les utilisateurs de l’ordina
 <span id="NCRYPT_KEY_PROTECTION_LOCAL_USER"></span><span id="ncrypt_key_protection_local_user"></span>**\_protection de clé NCRYPT \_ \_ \_ utilisateur local**
 </dt> <dd> <dl> <dt>
 
-utilisateur
+"user" (utilisateur)
 </dt> <dt>
 
 
@@ -171,7 +171,7 @@ Représente le fournisseur de protection de clés Microsoft qui prend en charge 
 <span id="WINDOWS_CLIENT_KEY_PROTECTION_PROVIDER"></span><span id="windows_client_key_protection_provider"></span>**\_fournisseur de \_ protection de clé client \_ Windows \_**
 </dt> <dd> <dl> <dt>
 
-« Fournisseur de protection de clé client Windows »
+« fournisseur de Protection de clé de Client Windows »
 </dt> <dt>
 
 
@@ -189,8 +189,8 @@ Représente le fournisseur de protection de clé Microsoft qui est disponible un
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>NCryptprotect. h</dt> </dl> |
 
 

@@ -3,8 +3,8 @@ title: Structure MPSCAN_RESULT (MpClient. h)
 description: Résultats d’une analyse.
 ms.assetid: 9031A371-092A-4175-BE1D-90442A5BED2D
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPSCAN_RESULT
-- PMPSCAN_RESULT des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPSCAN_RESULT
+- PMPSCAN_RESULT des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7be60df7993732bafcd7c44ac2fb581c111aed6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a41efd40529976d4b7fe639c4907729ed39ae261f5ac644faf1a36e1a213a97e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104200584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747150"
 ---
 # <a name="mpscan_result-structure"></a>\_Structure de résultat MPSCAN
 
@@ -142,8 +142,8 @@ Version de signature utilisée pour l’analyse.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

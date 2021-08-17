@@ -4,12 +4,12 @@ description: L’exemple de code suivant montre comment rendre un filtre diffici
 ms.assetid: 83c336fa-983e-4e17-86b3-3a42f4824c74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a15df58a6ccae781e20c9830fea63956f91be35
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fa4d5de2384116629fed36c170d12b9ec262ca29779aa0cf6d6abc2f4f22f5c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069109"
 ---
 # <a name="hindering-filter-deletion"></a>Empêcher la suppression du filtre
 
@@ -133,9 +133,9 @@ CLEANUP:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

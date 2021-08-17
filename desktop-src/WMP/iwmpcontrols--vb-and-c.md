@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPControls (VB et C) (WMP. h)
-description: Fournit un moyen de manipuler la lecture d’un élément multimédia en représentant les contrôles de transport du lecteur Windows Media, tels que lecture, arrêt et pause. l’interface IWMPControls expose les propriétés suivantes.
+title: interface IWMPControls (VB et C) (Wmp. h)
+description: fournit un moyen de manipuler la lecture d’un élément multimédia en représentant les contrôles de transport de Lecteur Windows Media, tels que lecture, arrêt et Pause. l’interface IWMPControls expose les propriétés suivantes.
 ms.assetid: 46603d98-c7dd-4c20-a4ae-1472b3af8d52
 keywords:
-- IWMPControls (VB et C) interface Windows Media Player
-- Interface IWMPControls (VB et C), le lecteur Windows Media, décrit
+- interface IWMPControls (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPControls (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,29 +15,29 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b544978d801f3a9d5d5cbd9644f1d32ac53791e4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1b96f79b8942935d9722bf38dbd1ae946b03d16496664b4c069552819785c1f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119308"
 ---
-# <a name="iwmpcontrols-vb-and-c-interface"></a>Interface IWMPControls (VB et C#)
+# <a name="iwmpcontrols-vb-and-c-interface"></a>interface IWMPControls (VB et C#)
 
-Fournit un moyen de manipuler la lecture d’un élément multimédia en représentant les contrôles de transport du lecteur Windows Media, tels que lecture, arrêt et pause.
+fournit un moyen de manipuler la lecture d’un élément multimédia en représentant les contrôles de transport de Lecteur Windows Media, tels que lecture, arrêt et Pause.
 
 L’interface **IWMPControls** expose les propriétés suivantes.
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPControls (VB et C#)** possède les types de membres suivants :
+l’interface **IWMPControls (VB et C#)** possède les types de membres suivants :
 
 -   [Méthodes](#methods)
 -   [Propriétés](#properties)
 
 ### <a name="methods"></a>Méthodes
 
-L’interface **IWMPControls (VB et C#)** possède ces méthodes.
+l’interface **IWMPControls (VB et C#)** possède ces méthodes.
 
 
 
@@ -58,7 +58,7 @@ L’interface **IWMPControls (VB et C#)** possède ces méthodes.
 
 ### <a name="properties"></a>Propriétés
 
-L’interface **IWMPControls (VB et C#)** a ces propriétés.
+l’interface **IWMPControls (VB et C#)** a ces propriétés.
 
 
 
@@ -100,7 +100,7 @@ Procurez-vous une interface **IWMPControls** à l’aide de la propriété suiva
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPControls2 (VB et C#)**](iwmpcontrols2--vb-and-c.md)

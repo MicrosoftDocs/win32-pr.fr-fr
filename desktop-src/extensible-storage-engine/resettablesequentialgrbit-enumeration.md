@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2325f5d314fd91b74edc38ccb092f24868cff099
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d0f3d9d10b056ed7b602a1c4105bb198fd4dc8e4111de4cd42624e5725ad2fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978669"
 ---
 # <a name="resettablesequentialgrbit-enumeration"></a>Énumération ResetTableSequentialGrbit
 
@@ -70,7 +70,7 @@ public enum ResetTableSequentialGrbit
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Aucune</td>
+<td>None</td>
 <td>Options par défaut.</td>
 </tr>
 </tbody>

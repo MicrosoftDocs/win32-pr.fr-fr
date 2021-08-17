@@ -4,12 +4,12 @@ ms.assetid: a05ae7e6-d882-4287-9990-23e4cd340b05
 title: Identificateurs d’algorithme CNG (bcrypt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba244f2a815933322793fdd572ed7a4e69256a0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1f2f9539f9fc446d0c313d32117890bc3b1eff4ed8261a815e41acdda13cbe4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908915"
 ---
 # <a name="cng-algorithm-identifiers"></a>Identificateurs d’algorithme CNG
 
@@ -47,7 +47,7 @@ Les identificateurs suivants sont utilisés pour identifier des algorithmes de c
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_AES_GMAC_ALGORITHM"></span><span id="bcrypt_aes_gmac_algorithm"></span><dl> <dt><strong>BCRYPT_AES_GMAC_ALGORITHM</strong></dt> <dt> &quot; AES-GMAC &quot; </dt> </dl></td>
-<td style="text-align: left;">Algorithme de chiffrement symétrique GMAC (Advanced Encryption Standard) Galois (Advanced Encryption code).<br/> Standard : SP800-38D<br/> <strong>Windows Vista :</strong> Cet algorithme est pris en charge à partir de Windows Vista avec SP1.<br/></td>
+<td style="text-align: left;">Algorithme de chiffrement symétrique GMAC (Advanced Encryption Standard) Galois (Advanced Encryption code).<br/> Standard : SP800-38D<br/> <strong>Windows Vista :</strong> cet algorithme est pris en charge à partir de Windows Vista avec SP1.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_CAPI_KDF_ALGORITHM"></span><span id="bcrypt_capi_kdf_algorithm"></span><dl> <dt><strong>BCRYPT_CAPI_KDF_ALGORITHM</strong></dt> <dt>L &quot; CAPI_KDF &quot; </dt> </dl></td>
@@ -67,7 +67,7 @@ Les identificateurs suivants sont utilisés pour identifier des algorithmes de c
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_DSA_ALGORITHM"></span><span id="bcrypt_dsa_algorithm"></span><dl> <dt><strong>BCRYPT_DSA_ALGORITHM</strong></dt> <dt> &quot; DSA &quot; </dt> </dl></td>
-<td style="text-align: left;">Algorithme de signature numérique.<br/> Standard : FIPS 186-2<br/> <strong>Windows 8 :</strong> À partir de Windows 8, cet algorithme prend en charge FIPS 186-3. Les clés inférieures ou égales à 1024 bits adhèrent à FIPS 186-2 et les clés supérieures à 1024 à FIPS 186-3.<br/></td>
+<td style="text-align: left;">Algorithme de signature numérique.<br/> Standard : FIPS 186-2<br/> <strong>Windows 8 :</strong> à partir de Windows 8, cet algorithme prend en charge FIPS 186-3. Les clés inférieures ou égales à 1024 bits adhèrent à FIPS 186-2 et les clés supérieures à 1024 à FIPS 186-3.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_ECDH_P256_ALGORITHM"></span><span id="bcrypt_ecdh_p256_algorithm"></span><dl> <dt><strong>BCRYPT_ECDH_P256_ALGORITHM</strong></dt> <dt> &quot; ECDH_P256 &quot; </dt> </dl></td>
@@ -118,13 +118,13 @@ Les identificateurs suivants sont utilisés pour identifier des algorithmes de c
 <td style="text-align: left;">Algorithme du générateur de nombres aléatoires.<br/> Standard : FIPS 186-2, FIPS 140-2, NIST SP 800-90<br/>
 <blockquote>
 [!Note]<br />
-À compter de Windows Vista avec SP1 et Windows Server 2008, le générateur de nombres aléatoires est basé sur le mode de compteur AES spécifié dans la norme NIST SP 800-90.
+à partir de Windows Vista avec SP1 et Windows Server 2008, le générateur de nombres aléatoires est basé sur le mode de compteur AES spécifié dans la norme NIST SP 800-90.
 </blockquote>
-<br/> <strong>Windows Vista :</strong> Le générateur de nombres aléatoires est basé sur le générateur de nombres aléatoires basé sur le hachage spécifié dans la norme FIPS 186-2.<br/> <strong>Windows 8 :</strong> À partir de Windows 8, l’algorithme RNG prend en charge FIPS 186-3. Les clés inférieures ou égales à 1024 bits adhèrent à FIPS 186-2 et les clés supérieures à 1024 à FIPS 186-3.<br/></td>
+<br/> <strong>Windows Vista :</strong> Le générateur de nombres aléatoires est basé sur le générateur de nombres aléatoires basé sur le hachage spécifié dans la norme FIPS 186-2.<br/> <strong>Windows 8 :</strong> à partir de Windows 8, l’algorithme RNG prend en charge FIPS 186-3. Les clés inférieures ou égales à 1024 bits adhèrent à FIPS 186-2 et les clés supérieures à 1024 à FIPS 186-3.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_RNG_DUAL_EC_ALGORITHM"></span><span id="bcrypt_rng_dual_ec_algorithm"></span><dl> <dt><strong>BCRYPT_RNG_DUAL_EC_ALGORITHM</strong></dt> <dt> &quot; DUALECRNG &quot; </dt> </dl></td>
-<td style="text-align: left;">Algorithme de générateur de nombres aléatoires à double courbe elliptique. <br/> Standard : SP800-90.<br/> <strong>Windows 8 :</strong> À compter de Windows 8, l’algorithme EC RNG prend en charge FIPS 186-3. Les clés inférieures ou égales à 1024 bits adhèrent à FIPS 186-2 et les clés supérieures à 1024 à FIPS 186-3.<br/> <strong>Windows 10 :</strong> À partir de Windows 10, l’algorithme de générateur de nombres aléatoires à deux courbes elliptiques a été supprimé. Les utilisations existantes de cet algorithme continuent de fonctionner. Toutefois, le générateur de nombres aléatoires est basé sur le mode de compteur AES spécifié dans la norme NIST SP 800-90. Le nouveau code doit utiliser <strong>BCRYPT_RNG_ALGORITHM</strong>, et il est recommandé de modifier le code existant pour utiliser <strong>BCRYPT_RNG_ALGORITHM</strong>. <br/></td>
+<td style="text-align: left;">Algorithme de générateur de nombres aléatoires à double courbe elliptique. <br/> Standard : SP800-90.<br/> <strong>Windows 8 :</strong> à partir de Windows 8, l’algorithme EC RNG prend en charge FIPS 186-3. Les clés inférieures ou égales à 1024 bits adhèrent à FIPS 186-2 et les clés supérieures à 1024 à FIPS 186-3.<br/> <strong>Windows 10 :</strong> à partir de Windows 10, l’algorithme du générateur de nombres aléatoires à deux courbes elliptiques a été supprimé. Les utilisations existantes de cet algorithme continuent de fonctionner. Toutefois, le générateur de nombres aléatoires est basé sur le mode de compteur AES spécifié dans la norme NIST SP 800-90. Le nouveau code doit utiliser <strong>BCRYPT_RNG_ALGORITHM</strong>, et il est recommandé de modifier le code existant pour utiliser <strong>BCRYPT_RNG_ALGORITHM</strong>. <br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_RNG_FIPS186_DSA_ALGORITHM"></span><span id="bcrypt_rng_fips186_dsa_algorithm"></span><dl> <dt><strong>BCRYPT_RNG_FIPS186_DSA_ALGORITHM</strong></dt> <dt> &quot; FIPS186DSARNG &quot; </dt> </dl></td>
@@ -183,11 +183,11 @@ Les identificateurs suivants sont utilisés pour identifier des algorithmes de c
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser l’algorithme ECDH **\_ ECDSA \_ souhaité** ou bcrypt, appelez [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) avec l’algorithme **\_ ECDSA bcrypt \_** ou l' **\_ \_ algorithme ECDH** de bcrypt comme *pszAlgId*. **\_ \_** Utilisez ensuite [**BCryptSetProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetproperty) pour définir la propriété de nom de la **\_ \_ courbe \_ ECC BCRYPT** sur un algorithme nommé listé dans CNG named Curves.
 
-Pour le fournisseur de paramètres de courbe elliptique définis par l’utilisateur directement, utilisez [**BCryptSetProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetproperty) pour définir la propriété **BCRYPT \_ ECC \_ Parameters** . Pour plus d’informations, téléchargez le [Kit de développement du fournisseur de services de chiffrement Windows 10 (CPDK)](https://www.microsoft.com/download/details.aspx?id=30688) .
+Pour le fournisseur de paramètres de courbe elliptique définis par l’utilisateur directement, utilisez [**BCryptSetProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetproperty) pour définir la propriété **BCRYPT \_ ECC \_ Parameters** . pour plus d’informations, téléchargez le [Kit de développement du fournisseur de services de chiffrement (CPDK) Windows 10](https://www.microsoft.com/download/details.aspx?id=30688) .
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -195,8 +195,8 @@ Pour le fournisseur de paramètres de courbe elliptique définis par l’utilisa
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Bcrypt. h</dt> </dl> |
 
 

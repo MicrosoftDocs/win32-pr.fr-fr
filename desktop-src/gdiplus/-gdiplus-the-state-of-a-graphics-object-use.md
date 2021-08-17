@@ -1,19 +1,19 @@
 ---
-description: La classe Graphics est au cœur de Windows GDI+. Pour dessiner tout, vous créez un objet Graphics, définissez ses propriétés et appelez ses méthodes (DrawLine, DrawImage, DrawString et like).
+description: la classe graphics est au cœur de Windows GDI+. Pour dessiner tout, vous créez un objet Graphics, définissez ses propriétés et appelez ses méthodes (DrawLine, DrawImage, DrawString et like).
 ms.assetid: 7d70f9fe-c0b2-4d65-815d-483d06df96ad
 title: État d’un objet Graphics
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 661733f944b08633b5df84eed3ac488e612d9e4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f68a2ba754aadc1f7d2572dcbc2ac40d08d7fe95d382ce60511cd72d441bb80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104569792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977329"
 ---
 # <a name="the-state-of-a-graphics-object"></a>État d’un objet Graphics
 
-La classe [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) est au cœur de Windows GDI+. Pour dessiner tout, vous créez un objet **Graphics** , définissez ses propriétés et appelez ses méthodes ( [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)), [DrawImage](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint)), [DrawString](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(constwchar_int_constfont_constpointf__constbrush))et like).
+la classe [**graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) est au cœur de Windows GDI+. Pour dessiner tout, vous créez un objet **Graphics** , définissez ses propriétés et appelez ses méthodes ( [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)), [DrawImage](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint)), [DrawString](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(constwchar_int_constfont_constpointf__constbrush))et like).
 
 L’exemple suivant construit un objet [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) et un objet [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) , puis appelle la méthode [**Graphics ::D rawrectangle**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inint_inint_inint_inint)) de l’objet **Graphics** :
 
@@ -33,7 +33,7 @@ EndPaint(hWnd, &ps);
 
 
 
-Dans le code précédent, la méthode [BeginPaint](/windows/win32/api/winuser/nf-winuser-beginpaint) retourne un handle vers un contexte de périphérique (Device Context) et ce handle est passé au constructeur [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . Un contexte de périphérique est une structure (gérée par Windows) qui contient des informations sur le périphérique d’affichage en cours d’utilisation.
+Dans le code précédent, la méthode [BeginPaint](/windows/win32/api/winuser/nf-winuser-beginpaint) retourne un handle vers un contexte de périphérique (Device Context) et ce handle est passé au constructeur [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . un contexte de périphérique est une structure (conservée par Windows) qui contient des informations sur le périphérique d’affichage en cours d’utilisation.
 
 ## <a name="graphics-state"></a>État graphique
 
@@ -46,7 +46,7 @@ Un objet [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-gr
 
 ### <a name="device-context"></a>Contexte de périphérique
 
-En tant que programmeur d’applications, vous n’êtes pas obligé de réfléchir à l’interaction entre un objet [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) et son contexte de périphérique. Cette interaction est gérée par GDI+ en arrière-plan.
+En tant que programmeur d’applications, vous n’êtes pas obligé de réfléchir à l’interaction entre un objet [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) et son contexte de périphérique. cette interaction est gérée par GDI+ en arrière-plan.
 
 ### <a name="quality-settings"></a>Paramètres de qualité
 

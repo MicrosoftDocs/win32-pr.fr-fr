@@ -1,36 +1,36 @@
 ---
 title: Service de noms
-description: Cette rubrique explique comment la bibliothèque de gestion échange dynamique de données permet à une application serveur d’inscrire les noms de service qu’elle prend en charge.
+description: cette rubrique explique comment la bibliothèque de gestion échange dynamique de données permet à une application serveur d’inscrire les noms de service qu’elle prend en charge.
 ms.assetid: 4b7e7f43-18aa-4c2e-aa2b-5ce7bb18048f
 keywords:
-- Interface utilisateur Windows, échange dynamique de données (DDE)
-- Échange dynamique de données (DDE), service de nom
+- Windows Interface utilisateur, échange dynamique de données (DDE)
+- échange dynamique de données (DDE), service de nom
 - DDE (échange dynamique de données), service de nom
 - échange de données, échange dynamique de données (DDE)
-- Interface utilisateur Windows, bibliothèque de gestion des échange dynamique de données (DDEML)
-- Bibliothèque de gestion des échange dynamique de données (DDEML), service de noms
+- Windows Interface utilisateur, échange dynamique de données Management Library (DDEML)
+- bibliothèque de gestion des échange dynamique de données (DDEML), service de noms
 - DDEML (bibliothèque de gestion échange dynamique de données), service de nom
 - échange de données, bibliothèque de gestion des échange dynamique de données (DDEML)
-- Échange dynamique de données (DDE), inscription de nom de service
+- échange dynamique de données (DDE), inscription de nom de service
 - DDE (échange dynamique de données), inscription de nom de service
-- Bibliothèque de gestion des échange dynamique de données (DDEML), inscription du nom de service
+- bibliothèque de gestion des échange dynamique de données (DDEML), inscription du nom de service
 - DDEML (bibliothèque de gestion échange dynamique de données), inscription de nom de service
-- Échange dynamique de données (DDE), filtre de nom de service
+- échange dynamique de données (DDE), filtre de nom de service
 - DDE (échange dynamique de données), filtre de nom de service
-- Bibliothèque de gestion des échange dynamique de données (DDEML), filtre de nom de service
+- bibliothèque de gestion des échange dynamique de données (DDEML), filtre de nom de service
 - DDEML (bibliothèque de gestion échange dynamique de données), filtre de nom de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10f958ab73164e70177cb5deeb5f400f44695015
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7346bd98979e9bd5a4aa0e43493e975d802875cf8fd0fc79d7bd002bcd0c5494
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118811646"
 ---
 # <a name="name-service"></a>Service de noms
 
-La bibliothèque de gestion des échange dynamique de données (DDEML) permet à une application serveur d’inscrire les noms de service qu’elle prend en charge et d’empêcher le DDEML d’envoyer des transactions [**XTYP \_ Connect**](xtyp-connect.md) pour les noms de service non pris en charge à la fonction de rappel échange dynamique de données (DDE) du serveur.
+la bibliothèque de gestion des échange dynamique de données (DDEML) permet à une application serveur d’inscrire les noms de service qu’elle prend en charge et d’empêcher le DDEML d’envoyer des transactions [**XTYP \_ CONNECT**](xtyp-connect.md) pour les noms de service non pris en charge à la fonction de rappel échange dynamique de données (DDE) du serveur.
 
 Les rubriques suivantes décrivent le service de noms.
 
@@ -51,9 +51,9 @@ Outre l’inscription des noms de service, [**DdeNameService**](/windows/desktop
 
 Par défaut, le filtre de nom de service est activé lorsqu’une application appelle [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea). Cette valeur par défaut empêche DDEML d’envoyer la transaction [**XTYP \_ Connect**](xtyp-connect.md) à un serveur avant que le serveur ait créé les handles de chaîne dont elle a besoin. Un serveur peut désactiver son filtre de nom de service en spécifiant l' \_ indicateur FILTEROFF DNS dans un appel à [**DdeNameService**](/windows/desktop/api/Ddeml/nf-ddeml-ddenameservice). L' \_ indicateur FilterOn DNS Active le filtre.
 
- 
+ 
 
- 
+ 
 
 
 

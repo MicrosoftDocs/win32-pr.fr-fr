@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7261fa832e5acfb4ef7d9723bc93b862947ef380
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ad2bf1795f5059ec1fdda00ddb6a93cfe396dae5b4119d392eff42382fa978b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118785865"
 ---
 # <a name="dlgitemtemplateex-structure"></a>DLGITEMTEMPLATEEX, structure
 
@@ -187,7 +187,7 @@ Nombre d’octets de données de création qui suivent ce membre. Si cette valeu
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un modèle étendu pour une boîte de dialogue se compose d’un en-tête [**DLGTEMPLATEEX**](dlgtemplateex.md) suivi d’une structure **DLGITEMTEMPLATEEX** pour chaque contrôle dans la boîte de dialogue.
 

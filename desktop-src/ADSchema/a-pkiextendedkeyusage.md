@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cc138a90100f89496dc4076235a1cc4161c1694
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dd38be7e87318c12e46cf3a268d1afb18045bc957e1adc61f06e325fa5e291b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106510376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960128"
 ---
 # <a name="pki-extended-key-usage-attribute"></a>PKI-attribut d’utilisation de clé étendue
 
@@ -45,7 +45,7 @@ OID de l’utilisation améliorée de la clé pour le modèle de certificat.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

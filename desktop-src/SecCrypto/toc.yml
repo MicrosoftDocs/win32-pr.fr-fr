@@ -29,7 +29,7 @@
                   href: public-private-key-pairs.md
                 - name: Clés de session
                   href: session-keys.md
-                - name: Stockage de clé de chiffrement et Exchange
+                - name: Stockage et Exchange de clé de chiffrement
                   href: cryptographic-key-storage-and-exchange.md
             - name: Données encodées et décodées
               href: encoded-and-decoded-data.md
@@ -3500,7 +3500,7 @@
             - name: Paramètres
               href: settings.md
               items:
-                - name: Propriétés des paramètres
+                - name: Paramètres Sous
                   href: settings-properties.md
                   items:
                     - name: Propriété ActiveDirectorySearchLocation
@@ -3632,7 +3632,7 @@
                       href: template-name.md
                     - name: Propriété OID
                       href: template-oid.md
-            - name: Services
+            - name: Outils
               href: utilities.md
               items:
                 - name: Méthodes utilitaires

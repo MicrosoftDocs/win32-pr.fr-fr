@@ -13,12 +13,12 @@ api_type:
 - IDLDef
 api_location:
 - Wtypes.idl
-ms.openlocfilehash: b4c8cf38a8f99458e76cabc726aa39ad01a71ebc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15e7ecdc06495c0fa68b2949ae159bbc76b8cababd2b8703d3ebbdebb874399b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075753"
 ---
 # <a name="tyspec-enumeration"></a>Énumération TYSPEC
 
@@ -94,7 +94,7 @@ Un ID d’objet. Cette valeur n’est pas prise en charge actuellement.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’Union **uCLSSPEC** est définie comme suit :
 

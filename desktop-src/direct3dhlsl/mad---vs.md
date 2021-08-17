@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 01e96bb63395fe9e5dd27a17fbb5c0ddd9bf3c17
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: a42a4f2d28ed8f0506909199b4c15c26ae3bc434ec250ddae9909ef53525583b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986399"
 ---
 # <a name="mad---vs"></a>Mad-vs
 
@@ -29,7 +29,7 @@ Multiplie et ajoute des sources.
 
 
 
- 
+ 
 
 where
 
@@ -38,7 +38,7 @@ where
 -   src1 est un registre source.
 -   src2 est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -48,7 +48,7 @@ where
 
 
 
- 
+ 
 
 Le fragment de code suivant montre les opérations effectuées.
 
@@ -69,9 +69,9 @@ dest.w = src0.w * src1.w + src2.w;
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

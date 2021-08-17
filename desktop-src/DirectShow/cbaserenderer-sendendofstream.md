@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f04e4c8c90796aafb64870a9d59d38b0a33e7435
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 344783d8e8aac755d157f125b02827c9f362ca96271dccb84134f451b31d1bc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954818"
 ---
 # <a name="cbaserenderersendendofstream-method"></a>Méthode CBaseRenderer. SendEndOfStream
 
@@ -49,13 +49,13 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 | Code de retour                                                                             | Description                                                               |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | Le gestionnaire de graphique de filtre n’accepte pas les notifications d’événements.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                                                       |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                                                       |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le filtre peut recevoir une notification de fin de flux avant l’heure d’arrêt de l’exemple actuel. Si c’est le cas, le filtre doit attendre avant de publier une notification d' [**\_ achèvement ce**](ec-complete.md) dans le gestionnaire de graphes de filtre.
 
@@ -73,7 +73,7 @@ La méthode de rappel de la minuterie est [**CBaseRenderer :: TimerCallback**](
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

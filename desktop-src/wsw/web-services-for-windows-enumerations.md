@@ -1,19 +1,19 @@
 ---
 title: Énumérations des services web Windows
 ms.assetid: e54df9d6-87ff-4901-a662-5198132ceb18
-description: En savoir plus sur les énumérations des services Web Windows
+description: en savoir plus sur les énumérations de Services Web Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 770aa5ecab0a680ca1e013236ee053382ccab299
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1836ab77377a3080bd9a7211644acbc7d06300f7afd708aaa4e250137a7d5b35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026137"
 ---
 # <a name="windows-web-services-enumerations"></a>Énumérations des services web Windows
 
-L’API des services Web Windows comprend les énumérations suivantes :
+l’API des Services Web Windows comprend les énumérations suivantes :
 
 -   [**\_version d’adressage WS \_**](/windows/desktop/api/WebServices/ne-webservices-ws_addressing_version)
 -   [**\_type de \_ modèle de liaison WS \_**](/windows/desktop/api/WebServices/ne-webservices-ws_binding_template_type)

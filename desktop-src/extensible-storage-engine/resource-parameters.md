@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 953488a273092413df78d4fe396899d284c7a01c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87c8c93e70950aca360e4aa9bad62b8280611c6713156dec80e4d11414f346d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978599"
 ---
 # <a name="resource-parameters"></a>Paramètres de ressource
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="resource-parameters"></a>Paramètres de ressource
 
@@ -50,7 +50,7 @@ Des valeurs élevées pour ce paramètre forcent le moteur de base de données �
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -86,7 +86,7 @@ Des valeurs élevées pour ce paramètre forcent le moteur de base de données �
 </tr>
 <tr class="odd">
 <td><p>Disponibilité :</p></td>
-<td><p>Windows Vista et versions ultérieures</p></td>
+<td><p>Windows Versions Vista et ultérieures</p></td>
 </tr>
 </tbody>
 </table>
@@ -95,7 +95,7 @@ Des valeurs élevées pour ce paramètre forcent le moteur de base de données �
 *JET_paramDisablePerfmon*  
 107  
 
-Ce paramètre peut être utilisé pour empêcher le moteur de base de données de publier des données sur ses performances sur Windows. Cela peut être fait pour réduire l’activité de thread de service du moteur de base de données.
+Ce paramètre peut être utilisé pour empêcher le moteur de base de données de publier des données sur ses performances dans Windows. Cela peut être fait pour réduire l’activité de thread de service du moteur de base de données.
 
 <table>
 <colgroup>
@@ -145,7 +145,7 @@ Ce paramètre peut être utilisé pour empêcher le moteur de base de données d
 </tr>
 <tr class="odd">
 <td><p>Disponibilité :</p></td>
-<td><p>Windows Vista et versions ultérieures</p></td>
+<td><p>Windows Versions Vista et ultérieures</p></td>
 </tr>
 </tbody>
 </table>
@@ -158,7 +158,7 @@ Ce paramètre permet aux applications qui fonctionnent en mode multi-instance de
 
 **Windows 2000 :**  Une quantité suffisante de mémoire pour sauvegarder toutes les pages de version est toujours réservée à l’heure [JetInit](./jetinit-function.md) .
 
-**Windows XP :**  À compter de Windows XP, cela est toujours vrai en mode d’instance unique. Toutefois, la mémoire de page de version est allouée dynamiquement en mode multi-instance.
+**Windows XP :**  à partir de Windows XP, cela est toujours vrai en mode d’instance unique. Toutefois, la mémoire de page de version est allouée dynamiquement en mode multi-instance.
 
 <table>
 <colgroup>
@@ -172,7 +172,7 @@ Ce paramètre permet aux applications qui fonctionnent en mode multi-instance de
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -233,7 +233,7 @@ Ce paramètre réserve le nombre demandé de ressources de curseur pour une util
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -292,7 +292,7 @@ Ce paramètre contrôle le nombre maximal d’instances qui peuvent être créé
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -355,7 +355,7 @@ En général, vous avez besoin de deux ressources, plus une ressource par index 
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -416,7 +416,7 @@ Ce paramètre réserve le nombre demandé de ressources de session pour une util
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -481,7 +481,7 @@ Ce paramètre réserve le nombre demandé de ressources de table temporaire pour
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -548,7 +548,7 @@ Chaque page de la Banque des versions telle que configurée par ce paramètre a 
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -607,7 +607,7 @@ Ce paramètre contrôle la taille d’un cache spécial utilisé pour accélére
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -670,7 +670,7 @@ Si ce paramètre a la valeur zéro, la valeur par défaut est 100% de **JET_para
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -735,12 +735,12 @@ Chaque page de la Banque des versions telle que configurée par ce paramètre a 
 <tbody>
 <tr class="odd">
 <td><p>Valeur par défaut :</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong>  0 (90% de JET_paramMaxVerPages)</p>
-<p><strong>Windows Vista :</strong>  58</p></td>
+<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0 (90% de JET_paramMaxVerPages)</p>
+<p><strong>Windows Vista :</strong> 58</p></td>
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -801,7 +801,7 @@ Le moteur de base de données peut choisir d’utiliser une plus grande taille d
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -860,12 +860,12 @@ Ce paramètre contrôle le nombre d’éléments de travail de nettoyage en arri
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
-<td><p><strong>Windows XP et Windows Server 2003 :  </strong>  1 – 63</p>
-<p><strong>Windows Vista :</strong>  1 – 127</p></td>
+<td><p><strong>Windows XP et Windows Server 2003 :</strong> 1 – 63</p>
+<p><strong>Windows Vista :</strong> 1 – 127</p></td>
 </tr>
 <tr class="even">
 <td><p>Étendue :</p></td>
@@ -877,7 +877,7 @@ Ce paramètre contrôle le nombre d’éléments de travail de nettoyage en arri
 </tr>
 <tr class="even">
 <td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p><strong>Windows XP et Windows Server 2003 :  </strong>  º</p>
+<td><p><strong>Windows XP et Windows Server 2003 :</strong>  º</p>
 <p><strong>Windows Vista :</strong>  Oui</p></td>
 </tr>
 <tr class="odd">
@@ -914,11 +914,11 @@ Ce paramètre contrôle le nombre d’éléments de travail de nettoyage en arri
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

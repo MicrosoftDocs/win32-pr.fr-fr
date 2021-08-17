@@ -3,8 +3,8 @@ title: WebViewFolderContents, objet (Shldisp.h)
 description: Implémenté par le Shell pour une utilisation à l’intérieur d’une WebView.
 ms.assetid: c9c46e21-2721-43c9-a6f4-38fafbda3798
 keywords:
-- Fonctionnalités de l’environnement Windows hérité de l’objet WebViewFolderContents
-- Objet WebViewFolderContents fonctionnalités d’environnement Windows héritées, Description
+- fonctionnalités d’environnement Windows héritées d’objets WebViewFolderContents
+- fonctionnalités de l’environnement Windows héritées de l’objet WebViewFolderContents, description
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9ea2020e2d9baaffbc026692faafc702db14781
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 179fe0146f49d0e5172410ca119953a7b3f245af20c0e4c2d83ff78fa23b93e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035957"
 ---
 # <a name="webviewfoldercontents-object"></a>Objet WebViewFolderContents
 
@@ -78,7 +78,7 @@ L’objet **WebViewFolderContents** a ces propriétés.
 | [**FocusedItem**](webviewfoldercontents-focuseditem.md)<br/> | Lecture seule<br/> | Obtient un objet [**FolderItem**](../shell/folderitem.md) qui représente l’élément ayant le focus d’entrée.<br/>                           |
 | [**Dossier**](webviewfoldercontents-folder.md)<br/>           | Lecture seule<br/> | Obtient un objet [**dossier**](../shell/folder.md) qui représente la vue.<br/>                                                            |
 | [**Parent**](webviewfoldercontents-parent.md)<br/>           | Lecture seule<br/> | Non implémenté.<br/>                                                                                                              |
-| [**Script**](webviewfoldercontents-script.md)<br/>           | Lecture seule<br/> | Obtient l’objet de script pour la vue.<br/>                                                                                       |
+| [**Conseils**](webviewfoldercontents-script.md)<br/>           | Lecture seule<br/> | Obtient l’objet de script pour la vue.<br/>                                                                                       |
 | [**ViewOptions**](webviewfoldercontents-viewoptions.md)<br/> | Lecture seule<br/> | Obtient un jeu d’indicateurs [**ShellFolderViewOptions**](/windows/desktop/api/shldisp/ne-shldisp-shellfolderviewoptions) qui indiquent les options actuelles de la vue.<br/> |
 
 
@@ -91,7 +91,7 @@ L’objet **WebViewFolderContents** a ces propriétés.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

@@ -4,12 +4,12 @@ ms.assetid: bcf5c2f0-b99f-4de5-83f4-44f17dc31cd4
 title: Fonctions de réponse de certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15eec71d0493fa4961988b86db0397d0fd516508
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43f82922ce2b0cdfad370bbfbf4d1fd3a135c19d5ba613110364f7283ec12a06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118902399"
 ---
 # <a name="certificate-response-functions"></a>Fonctions de réponse de certificat
 

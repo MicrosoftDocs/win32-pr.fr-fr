@@ -4,12 +4,12 @@ ms.assetid: a05357c0-6a82-42ff-b4f8-d3e0ee089055
 title: PageMirrorImage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fe917d6973fbd074111a5da7b6fe5620e7251e9
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: dd4c8f64611180d8510d5e58c8e99167dbed1cb1ff4d1cd2ae91e5de191b4f38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118732569"
 ---
 # <a name="pagemirrorimage"></a>PageMirrorImage
 
@@ -27,7 +27,7 @@ Décrit le paramètre de mise en miroir de la sortie.
 
 | Nom | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Composant<br/> |
+| Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |
 

@@ -6,12 +6,12 @@ keywords:
 - effet d’éclairage diffus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d085e43f161275cbe46d5b8eeb03f0ad13ff5f8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 59ee0032351ce5409aabf75eaa36cd79362b8e51b85edb26d2d1d06ca9346bfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104565341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075375"
 ---
 # <a name="spot-diffuse-lighting-effect"></a>Effet d’éclairage diffus par spot
 
@@ -24,7 +24,7 @@ Le CLSID de cet effet est CLSID \_ D2D1SpotDiffuse.
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
 -   [Modes de mise à l’échelle](#scale-modes)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -91,8 +91,8 @@ L<sub>r</sub>, l<sub>g</sub>, l<sub>b</sub> = couleur claire des composants RVB.
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

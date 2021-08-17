@@ -4,12 +4,12 @@ ms.assetid: a4bde9d0-5460-4f27-8ca0-7500b735f9d4
 title: System. contact. anniversaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74f727ed06633c0767948143621fd5a30170681c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ba15a088ba02e4141770a64a5728f1c3c3c97a6d4771189652be296df1154c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118730227"
 ---
 # <a name="systemcontactbirthday"></a>System. contact. anniversaire
 
@@ -44,7 +44,7 @@ propertyDescription
       type = DateTime
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,16 +4,16 @@ ms.assetid: 61575839-4604-4c8b-ae4d-fe796c3c5314
 title: Structure TAPI_AUDIO_STREAM_CONFIG_CAPS (Ipmsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: daec587a8e760bedd3ab9c6b3469ef8f70b72383
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 51fc4777e6d174f7d4aaeac9bbd3f6d467123275b4030c9fa21363223584e8b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118861218"
 ---
 # <a name="tapi_audio_stream_config_caps-structure"></a>\_Structure d' \_ \_ \_ embouts de la configuration du flux audio TAPI
 
-\[ Cette structure n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette structure n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La structure d' **\_ \_ \_ \_ embouts de la configuration du flux audio TAPI** est contenue dans la  structure de la [**\_ \_ configuration \_ du flux TAPI**](tapi-stream-config-caps.md) lorsque le membre CapsType est défini sur le membre **AudioCap** de l’Union [**StreamConfigCapsType**](streamconfigcapstype.md) .
 

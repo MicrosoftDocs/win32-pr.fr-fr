@@ -3,7 +3,7 @@ title: Message WM_CAP_SET_CALLBACK_VIDEOSTREAM (VFW. h)
 description: Le \_ message WM Cap \_ Set \_ callback \_ VIDEOSTREAM définit une fonction de rappel dans l’application.
 ms.assetid: 590089b8-7a8d-476b-9b81-f96bf73b0369
 keywords:
-- Message WM_CAP_SET_CALLBACK_VIDEOSTREAM Windows Multimedia
+- message WM_CAP_SET_CALLBACK_VIDEOSTREAM Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cde1d2b44ba3786f2d17934e6e92e0894d8d3bba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f2cdb4d7d18997fe437609b43a266242f04bd0bc2bb25429191d944240706244
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940717"
 ---
 # <a name="wm_cap_set_callback_videostream-message"></a>\_ \_ \_ Message VIDEOSTREAM de rappel Set callback \_ de WM
 
@@ -49,7 +49,7 @@ Pointeur vers la fonction de rappel de flux vidéo, de type [**capVideoStreamCal
 
 Retourne la **valeur true** en cas de réussite ou **false** si la capture en continu ou une session de capture de trame unique est en cours.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fenêtre de capture appelle la fonction de rappel avant d’écrire le frame capturé sur le disque. Cela permet aux applications de modifier le frame si vous le souhaitez.
 

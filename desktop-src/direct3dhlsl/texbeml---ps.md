@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d97877c67970f43a995fcfbe21d9aead2d792e09
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c549e93829c3165d4921342d4e74a8dc15bc1518f7c88aa205f8afc889fae95e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118788063"
 ---
 # <a name="texbeml---ps"></a>texbeml-PS
 
@@ -29,14 +29,14 @@ Appliquez une transformation de placage d’environnement factice avec correctio
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 -   SRC est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 Les données de couleur rouge et verte dans le registre SRC sont interprétées comme les données de perturbation (du, DV). Les données de couleur bleue dans le registre SRC sont interprétées comme les données de luminance.
 
@@ -147,6 +147,6 @@ Cet exemple requiert les textures suivantes dans les étapes de texture suivante
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

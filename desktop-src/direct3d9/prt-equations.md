@@ -4,12 +4,12 @@ ms.assetid: 66876e9e-cde1-4d04-9b31-30be1c115e6b
 title: Équations PRT (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a65559fada82fda7f7eed1c7d05543883a06a19e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bcd3dc716349ce46d4e678f0e408e5c964eb5f01d633649e3d512db6115c0267
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118798170"
 ---
 # <a name="prt-equations-direct3d-9"></a>Équations PRT (Direct3D 9)
 

@@ -3,7 +3,7 @@ title: Message LVM_GETITEMSTATE (commctrl. h)
 description: Récupère l’état d’un élément de vue liste. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView GetItemState.
 ms.assetid: 862960ed-a64a-4d66-b384-9228932eae6f
 keywords:
-- LVM_GETITEMSTATE les contrôles de message Windows
+- LVM_GETITEMSTATE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 817b355e78f22c01c289f681d256ee6b4d0aa882
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4737be14f3e975f87a6cbea460ef53dd40ecbb7b6a2d06c39a247dbe8aa0a14e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958298"
 ---
 # <a name="lvm_getitemstate-message"></a>\_Message GETITEMSTATE LVM
 
@@ -62,7 +62,7 @@ Informations d’État à récupérer. Ce paramètre peut être une combinaison 
 
 Retourne l’état actuel de l’élément spécifié. Les seuls bits valides dans la valeur de retour sont ceux qui correspondent aux bits définis dans le paramètre *lParam* .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les informations d’état d’un élément incluent un jeu d’indicateurs binaires, ainsi que des index de liste d’images qui indiquent l’image d’état de l’élément et l’image de superposition.
 
@@ -72,8 +72,8 @@ Les informations d’état d’un élément incluent un jeu d’indicateurs bina
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

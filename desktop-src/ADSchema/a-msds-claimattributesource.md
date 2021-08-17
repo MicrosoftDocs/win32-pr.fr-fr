@@ -52,10 +52,10 @@ Pour un objet de type de revendication, cet attribut pointe vers l’attribut qu
 |------------------------|---------------------------------------------------------|
 | ID de lien                | \-                                                      |
 | MAPI-Id                | \-                                                      |
-| System-Only            | False                                                   |
-| Est de valeur unique       | True                                                    |
-| Est indexé             | False                                                   |
-| Dans le catalogue global      | False                                                   |
+| System-Only            | Faux                                                   |
+| Est de valeur unique       | Vrai                                                    |
+| Est indexé             | Faux                                                   |
+| Dans le catalogue global      | Faux                                                   |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                            |
 | Range-Lower            | \-                                                      |
 | Range-Upper            | \-                                                      |

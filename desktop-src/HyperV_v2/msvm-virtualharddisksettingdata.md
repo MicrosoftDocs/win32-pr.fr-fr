@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6e13efbb068d15ca4051995e7d9f317eb2ccacab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7f87ba072aaff03ab415ccabe803546a89192ecb1e28d85b628dd0655d47421
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068419"
 ---
 # <a name="msvm_virtualharddisksettingdata-class"></a>MSVM \_ VirtualHardDiskSettingData, classe
 
@@ -121,7 +121,7 @@ Type d’accès : lecture/écriture
 Spécifie l’alignement souhaité, en octets, pour la charge utile de données du disque virtuel
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -188,7 +188,7 @@ Format du disque dur virtuel. Il s’agit de l’une des valeurs suivantes.
 </dt> <dd>
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -224,7 +224,7 @@ Type d’accès : lecture/écriture
 Spécifie si le disque virtuel peut être utilisé comme magasin de stockage pour un périphérique de mémoire persistante.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -268,7 +268,7 @@ Type d'accès : Lecture seule
 GUID utilisé pour identifier de manière unique le parent du disque dur virtuel. Si le disque dur virtuel n’a pas de parent, ce champ est vide.
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -299,7 +299,7 @@ Type d'accès : Lecture seule
 Horodateur du parent du disque dur virtuel. Si le disque dur virtuel n’a pas de parent, ce champ est vide.
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -343,7 +343,7 @@ Type d’accès : lecture/écriture
 Méthode d’abstraction d’adresse mémoire persistante à utiliser avec ce disque virtuel.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -425,7 +425,7 @@ Lors de la détection de conflit ou dans le cas contraire, un client peut défin
 
 Les erreurs générées par la fonction [**SetVirtualDiskInformation**](/windows/win32/api/virtdisk/nf-virtdisk-setvirtualdiskinformation) sont propagées par le biais de cette propriété. Un client peut également utiliser le même mécanisme pour fournir la valeur **VirtualDiskId** lors de la création d’un disque dur virtuel via la méthode [**MSVM \_ ImageManagementService. CreateVirtualHardDisk**](createvirtualharddisk-msvm-imagemanagementservice.md) dans le même espace de noms. Cela peut être utilisé pour créer des disques durs virtuels VHD1 ou VHD2.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> </dl>
 
@@ -435,8 +435,8 @@ Les erreurs générées par la fonction [**SetVirtualDiskInformation**](/windows
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

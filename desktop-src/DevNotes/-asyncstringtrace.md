@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Exstrace.dll
-ms.openlocfilehash: 342670dc406cb84588984d0a9ab10fae280c5483
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ac099b0b69c1417c428aefe04b8e6591f945545a2b69196da588ebce8de23f18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076173"
 ---
 # <a name="asyncstringtrace-function"></a>AsyncStringTrace fonction)
 
@@ -62,11 +62,11 @@ Marqueur pour les fonctions **vsprintf** .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Cette fonction retourne la longueur de l’instruction de trace, en octets.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Exstrace.dll est un composant facultatif qui est installé avec le protocole SMTP (Simple Mail Transfer Protocol) et le protocole NNTP (Network News Transfer Protocol).
 
