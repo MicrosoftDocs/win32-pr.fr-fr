@@ -4,12 +4,12 @@ description: Le comportement d’un appareil est défini par les services qu’i
 ms.assetid: 5b352870-6de1-42f2-a178-ed7036b7afc9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb702adf3ccb0f21bc71f08e98427cca15495f3b
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: fce2857c11a02ef5eeebe7b2cd5e75ee76138929e5bd95a2e3bdfa7ffd2c71dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106525813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137262"
 ---
 # <a name="implementing-device-behavior"></a>Implémentation du comportement de l’appareil
 
@@ -175,7 +175,7 @@ Vous devez utiliser l’outil Utl2idl pour traduire chaque description de servic
 
 Un objet qui fournit les fonctionnalités d’un service est appelé [*objet de service*](s-gly.md). En plus de fournir des fonctionnalités de service, les objets de service gèrent les erreurs à l’aide de l’interface [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) . Pour plus d’informations, consultez [utilisation de l’API d’hôte d’appareil avec la technologie UPnP](using-the-device-host-api-with-upnp-technology.md).
 
-Pour garantir la compatibilité avec Visual Basic, qui ne prend pas en charge les \[ paramètres de sortie \] , les paramètres **/direction** de **direction** dans la description de service sont convertis en \[ paramètres in, out \] dans IDL. Le serveur doit les libérer \[ , paramètres out \] .
+pour garantir la compatibilité avec Visual Basic, qui ne prend pas en charge les \[ paramètres de sortie \] , les paramètres **/direction** de **direction** dans la description de service sont convertis en \[ paramètres in, out \] dans IDL. Le serveur doit les libérer \[ , paramètres out \] .
 
 ## <a name="implementing-a-device-control-object"></a>Implémentation d’un objet de contrôle d’appareil
 

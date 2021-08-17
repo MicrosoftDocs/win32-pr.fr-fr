@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b7e1e2c2a1d818216245e45a9129018a3ba2e1c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0ae8e902d1e58ff216f36ae8003dc8f3f553a32005136ef2a86201bd17279107
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067089"
 ---
 # <a name="midl_pragma-warning-attribute"></a>MIDL \_ pragma warning (attribut)
 
@@ -45,7 +45,7 @@ Liste de numéros de message séparés par des espaces.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le pragma peut être utilisé comme un pragma de compilateur C. Autrement dit, il désactive, active ou retourne le comportement par défaut pour un avertissement MIDL donné.
 
@@ -61,12 +61,12 @@ midl_pragma warning( disable: 2007 )   // file already imported midl_pragma warn
 
 <dl> <dt>
 
-[**pragma**](pragma.md)
+[**Bali**](pragma.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

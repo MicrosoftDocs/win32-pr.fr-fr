@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Pdh.dll
-ms.openlocfilehash: 980665372d49f483e3fb59b7571ec38fa9c2851a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da6cc5b476373a55135d91d21163f15cb04379fff9d7c7c2cf1342451a5a201d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061157"
 ---
 # <a name="pdhvbgetonecounterpath-function"></a>PdhVbGetOneCounterPath fonction)
 
@@ -84,8 +84,8 @@ La fonction retourne le nombre de caractères écrits dans la mémoire tampon *P
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | Bibliothèque<br/>                  | <dl> <dt>PDH. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 

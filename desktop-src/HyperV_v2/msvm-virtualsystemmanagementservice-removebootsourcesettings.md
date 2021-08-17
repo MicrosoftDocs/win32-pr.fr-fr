@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5407e56b761dd545d20b89e0a28742f9c542b15a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0e0b73626cb12d384b2c2b0269acc09cc44e2a506835d6cc9fca3990b4d8d670
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148042"
 ---
 # <a name="removebootsourcesettings-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Méthode RemoveBootSourceSettings de la \_ classe VirtualSystemManagementService MSVM
 
@@ -56,7 +56,7 @@ Si l’opération est effectuée de façon asynchrone, cette méthode retourne 4
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 
@@ -98,7 +98,7 @@ La méthode retourne l'une des valeurs suivantes :
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                             |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

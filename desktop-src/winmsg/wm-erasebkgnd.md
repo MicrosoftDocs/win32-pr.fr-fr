@@ -4,12 +4,12 @@ ms.assetid: 3bdc37da-227c-4be1-bf0b-99704b8acbe1
 title: Message WM_ERASEBKGND (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dccde6ab4efa8a6589fe7d422dd9e1c04e425f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c74c3b0d1dd2e31e88715d0668f53676759c27cb986b6549fe9e001ab394579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931779"
 ---
 # <a name="wm_erasebkgnd-message"></a>\_Message WM ERASEBKGND
 
@@ -46,7 +46,7 @@ Type : **LRESULT**
 
 Une application doit retourner une valeur différente de zéro si elle efface l’arrière-plan ; Sinon, elle doit retourner zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) efface l’arrière-plan à l’aide du pinceau d’arrière-plan de classe spécifié par le membre **hbrBackground** de la structure [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) . Si **hbrBackground** a la **valeur null**, l’application doit traiter le message **WM \_ ERASEBKGND** et effacer l’arrière-plan.
 

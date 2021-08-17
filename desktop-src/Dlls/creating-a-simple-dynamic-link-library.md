@@ -4,12 +4,12 @@ ms.assetid: 3b11a83b-9943-4b66-8d0d-4a236ad5ffb8
 title: Création d’une bibliothèque de Dynamic-Link simple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 572c25c87a3130739a55fcccfc9d8f9c6514d812
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47c3708f98c6b916c54940bc1667ebc4827b29c78596f55102331491aca29e65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963789"
 ---
 # <a name="creating-a-simple-dynamic-link-library"></a>Création d’une bibliothèque de Dynamic-Link simple
 

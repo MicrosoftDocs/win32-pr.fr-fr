@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: ed7f7be1786192fb2be42f6d36cfb4bf222136fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f354769ca18c7490e8bcbf9b1aec0d6c30eb2503dfd66c8a9761a2dddf8ad13d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968058"
 ---
 # <a name="smc_initmenu-message"></a>\_Message SMC INITMENU
 
@@ -40,11 +40,11 @@ Ce message n’a pas de paramètres.
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette notification est reçue par la méthode [**IShellMenuCallback :: CallbackSM**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

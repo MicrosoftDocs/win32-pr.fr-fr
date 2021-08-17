@@ -4,12 +4,12 @@ ms.assetid: 90433df4-5a96-4bc2-a780-93306abcb0a4
 title: Propriété AVEncMPVGOPSize (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c8907d0992153039b1af9a9a0e82ee5782b525d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f7c82ae5c613bb3e78069be3f39f652d840e19c5d62d095fe020f4186bf975f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104033518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119258449"
 ---
 # <a name="avencmpvgopsize-property"></a>Propriété AVEncMPVGOPSize
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 Les encodeurs peuvent implémenter cette propriété en tant que jeu énuméré ou en tant que plage linéaire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Définissez cette propriété avant de démarrer un enregistrement.
 
@@ -43,8 +43,8 @@ La taille de GOP 0 est dépendante de l’encodeur et les encodeurs peuvent choi
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

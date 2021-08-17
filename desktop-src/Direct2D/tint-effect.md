@@ -4,12 +4,12 @@ description: Cet effet colore l’image source en multipliant l’image source p
 ms.assetid: b0fd3598-26b6-faee-4f10-ebba96241bc8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f12e7593f9cb0695a6adb7b955fb66b13c8d00b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 61734e9e060da4609927c9db46eee50dab1bef1e6328f304fdfb2436529289cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119384909"
 ---
 # <a name="tint-effect"></a>Effet de teinte
 
@@ -36,8 +36,8 @@ Le CLSID de cet effet est CLSID \_ D2D1Tint.
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
+| Client minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
+| Serveur minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
 | En-tête                   | d2d1effects \_ 2. h                                  |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                              |
 

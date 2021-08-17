@@ -1,19 +1,19 @@
 ---
-description: Les versions 64 bits de Windows 7 et Windows Server 2008 R2 et versions ultérieures de Windows prennent en charge plus de 64 processeurs logiques sur un seul ordinateur. Cette fonctionnalité n’est pas disponible dans les versions 32 bits de Windows.
+description: les versions 64 bits de Windows 7 et Windows Server 2008 R2 et versions ultérieures de Windows prennent en charge plus de 64 processeurs logiques sur un seul ordinateur. Cette fonctionnalité n’est pas disponible dans les versions 32 bits de Windows.
 ms.assetid: c627ac0f-96e8-48b5-9103-4316f487e173
 title: Groupes de processeurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cebc5b9ab1b386847b6561a9f6322c2fca0e2ae5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc5916faf3cf90bce7f8549834fe130f299f782d6b2534969c89d74df454ae9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119418669"
 ---
 # <a name="processor-groups"></a>Groupes de processeurs
 
-Les versions 64 bits de Windows 7 et Windows Server 2008 R2 et versions ultérieures de Windows prennent en charge plus de 64 processeurs logiques sur un seul ordinateur. Cette fonctionnalité n’est pas disponible dans les versions 32 bits de Windows.
+les versions 64 bits de Windows 7 et Windows Server 2008 R2 et versions ultérieures de Windows prennent en charge plus de 64 processeurs logiques sur un seul ordinateur. Cette fonctionnalité n’est pas disponible dans les versions 32 bits de Windows.
 
 Les systèmes avec plusieurs processeurs physiques ou systèmes avec des processeurs physiques dotés de plusieurs cœurs fournissent le système d’exploitation avec plusieurs processeurs logiques. Un *processeur logique* est un moteur informatique logique du point de vue du système d’exploitation, de l’application ou du pilote. Un *noyau* est une unité de processeur, qui peut se composer d’un ou de plusieurs processeurs logiques. Un *processeur physique* peut se composer d’un ou de plusieurs cœurs. Un processeur physique est identique à un package de processeur, un socket ou un processeur.
 
@@ -27,7 +27,7 @@ Pour de meilleures performances, le système d’exploitation prend en compte la
 
 Sur les systèmes avec 64 ou moins de processeurs, les applications existantes fonctionneront correctement sans modification. Les applications qui n’appellent pas de fonctions qui utilisent des masques d’affinité de processeur ou des numéros de processeur fonctionnent correctement sur tous les systèmes, quel que soit le nombre de processeurs. Pour fonctionner correctement sur les systèmes avec plus de 64 processeurs logiques, les types d’applications suivants peuvent nécessiter des modifications :
 
--   Les applications qui gèrent, gèrent ou affichent des informations par processeur pour l’ensemble du système doivent être modifiées pour prendre en charge plus de 64 processeurs logiques. Un exemple d’une telle application est le gestionnaire des tâches Windows, qui affiche la charge de travail de chaque processeur dans le système.
+-   Les applications qui gèrent, gèrent ou affichent des informations par processeur pour l’ensemble du système doivent être modifiées pour prendre en charge plus de 64 processeurs logiques. un exemple d’une telle application est Windows gestionnaire des tâches, qui affiche la charge de travail de chaque processeur dans le système.
 -   Les applications dont les performances sont critiques et qui peuvent évoluer efficacement au-delà de 64 processeurs logiques doivent être modifiées pour s’exécuter sur ces systèmes. Par exemple, les applications de base de données peuvent tirer parti des modifications.
 -   Si une application utilise une DLL avec des structures de données par processeur et que la DLL n’a pas été modifiée pour prendre en charge plus de 64 processeurs logiques, tous les threads de l’application qui appellent des fonctions exportées par la DLL doivent être affectés au même groupe.
 

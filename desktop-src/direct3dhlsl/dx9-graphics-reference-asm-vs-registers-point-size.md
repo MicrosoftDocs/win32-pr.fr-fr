@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 36dbc6dc20d61baf4e0820dd0b6e10d3e6e918ae
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6de5c2fba55ce9cdfcee535ec001a89cbebcdddc5e3685224f9eb0c560870534
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119663"
 ---
 # <a name="point-size-register"></a>Registre de la taille du point
 
@@ -28,7 +28,7 @@ Ce registre de sortie du nuanceur de vertex contient des données de taille de p
 
 
 
- 
+ 
 
 Un registre se compose de propriétés qui déterminent le comportement de chaque registre.
 
@@ -42,7 +42,7 @@ Un registre se compose de propriétés qui déterminent le comportement de chaqu
 
 
 
- 
+ 
 
 Seul le composant x scalaire de la taille en points est utilisé.
 
@@ -53,9 +53,9 @@ Seul le composant x scalaire de la taille en points est utilisé.
 [Registres de nuanceur vertex](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

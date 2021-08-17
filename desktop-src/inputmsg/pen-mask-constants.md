@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: bd181b5eafbe1cf6de56c95886deb04e5bd6d2b0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f8b44787dd1039bd3ffd3fa9afef76a527e2143cfe52bdcfa7676c15efa51342
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666113"
 ---
 # <a name="pen-mask"></a>Masque du stylet
 
@@ -100,8 +100,8 @@ l' **inclinaison** de la structure de [**POINTER_PEN_INFO**](/previous-versions/
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Winuser. h</dt> </dl> |
 
 

@@ -1,17 +1,17 @@
 ---
-title: Fonctions courantes (Windows Internet)
+title: fonctions courantes (Internet Windows)
 description: Les différents protocoles Internet (tels que FTP et http) utilisent plusieurs des mêmes fonctions WinINet pour gérer les informations sur Internet.
 ms.assetid: c80768cf-c8c0-4bdf-9ea2-f82c92ade05a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1893b085da1b3e77228e4a9abf75acc166d84726
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ed7b6a68c2633175eca793f48b2180b7212905762ca0f58290436aa17ae9a728
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106510107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132892"
 ---
-# <a name="common-functions-windows-internet"></a>Fonctions courantes (Windows Internet)
+# <a name="common-functions-windows-internet"></a>fonctions courantes (Internet Windows)
 
 Les différents protocoles Internet (tels que FTP et http) utilisent plusieurs des mêmes fonctions WinINet pour gérer les informations sur Internet. Ces fonctions courantes gèrent leurs tâches de manière cohérente, quel que soit le protocole auquel elles s’appliquent. Les applications peuvent utiliser ces fonctions pour créer des fonctions à usage général qui gèrent les tâches entre les différents protocoles (telles que la lecture de fichiers pour FTP et http).
 
@@ -520,7 +520,7 @@ La fonction [**InternetLockRequestFile**](/windows/desktop/api/Wininet/nf-winine
 Si l' [indicateur \_ Internet \_ aucun \_ cache \_ Write](api-flags.md) ou indicateur de [ \_ \_ \_ cache](api-flags.md) de l’indicateur Internet n’a pas été défini, [**InternetLockRequestFile**](/windows/desktop/api/Wininet/nf-wininet-internetlockrequestfile) crée un fichier temporaire avec l’extension tmp, sauf si le descripteur est connecté à une ressource HTTPS. Si la fonction accède à une ressource https et qu' \_ \_ aucune écriture dans le cache n’est définie pour l’indicateur Internet \_ (ou le cache de l' \_ \_ indicateur Internet \_ \_ ), [**InternetLockRequestFile**](/windows/desktop/api/Wininet/nf-wininet-internetlockrequestfile) échoue.
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

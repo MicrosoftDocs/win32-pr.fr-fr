@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 379cdf49a6ee1a467a0e5120e841e4d2179447be
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e6aee5dd8a93611cf485286b4f833257a9e2525c96ed476ab55e7da32c645ccb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106512839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442139"
 ---
 # <a name="omt-guid-attribute"></a>Attribut OMT-Guid
 
@@ -45,7 +45,7 @@ Identificateur unique d’une entrée de table de lien-Track-objet-Move.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Identificateur unique d’une entrée de table de lien-Track-objet-Move.
 |------------------------|----------------------------------------------------------------|
 | ID de lien                | \-                                                             |
 | MAPI-Id                | \-                                                             |
-| System-Only            | Faux                                                          |
-| Est de valeur unique       | Vrai                                                           |
-| Est indexé             | Faux                                                          |
-| Dans le catalogue global      | Faux                                                          |
+| System-Only            | False                                                          |
+| Est de valeur unique       | True                                                           |
+| Est indexé             | False                                                          |
+| Dans le catalogue global      | False                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                   |
 | Range-Lower            | 0                                                              |
 | Range-Upper            | 16                                                             |
@@ -78,10 +78,10 @@ Identificateur unique d’une entrée de table de lien-Track-objet-Move.
 |------------------------|----------------------------------------------------------------|
 | ID de lien                | \-                                                             |
 | MAPI-Id                | \-                                                             |
-| System-Only            | Faux                                                          |
-| Est de valeur unique       | Vrai                                                           |
-| Est indexé             | Faux                                                          |
-| Dans le catalogue global      | Faux                                                          |
+| System-Only            | False                                                          |
+| Est de valeur unique       | True                                                           |
+| Est indexé             | False                                                          |
+| Dans le catalogue global      | False                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                   |
 | Range-Lower            | 0                                                              |
 | Range-Upper            | 16                                                             |
@@ -99,10 +99,10 @@ Identificateur unique d’une entrée de table de lien-Track-objet-Move.
 |------------------------|----------------------------------------------------------------|
 | ID de lien                | \-                                                             |
 | MAPI-Id                | \-                                                             |
-| System-Only            | Faux                                                          |
-| Est de valeur unique       | Vrai                                                           |
-| Est indexé             | Faux                                                          |
-| Dans le catalogue global      | Faux                                                          |
+| System-Only            | False                                                          |
+| Est de valeur unique       | True                                                           |
+| Est indexé             | False                                                          |
+| Dans le catalogue global      | False                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                   |
 | Range-Lower            | 0                                                              |
 | Range-Upper            | 16                                                             |
@@ -120,10 +120,10 @@ Identificateur unique d’une entrée de table de lien-Track-objet-Move.
 |------------------------|----------------------------------------------------------------|
 | ID de lien                | \-                                                             |
 | MAPI-Id                | \-                                                             |
-| System-Only            | Faux                                                          |
-| Est de valeur unique       | Vrai                                                           |
-| Est indexé             | Faux                                                          |
-| Dans le catalogue global      | Faux                                                          |
+| System-Only            | False                                                          |
+| Est de valeur unique       | True                                                           |
+| Est indexé             | False                                                          |
+| Dans le catalogue global      | False                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                   |
 | Range-Lower            | 0                                                              |
 | Range-Upper            | 16                                                             |
@@ -141,10 +141,10 @@ Identificateur unique d’une entrée de table de lien-Track-objet-Move.
 |------------------------|----------------------------------------------------------------|
 | ID de lien                | \-                                                             |
 | MAPI-Id                | \-                                                             |
-| System-Only            | Faux                                                          |
-| Est de valeur unique       | Vrai                                                           |
-| Est indexé             | Faux                                                          |
-| Dans le catalogue global      | Faux                                                          |
+| System-Only            | False                                                          |
+| Est de valeur unique       | True                                                           |
+| Est indexé             | False                                                          |
+| Dans le catalogue global      | False                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                   |
 | Range-Lower            | 0                                                              |
 | Range-Upper            | 16                                                             |
@@ -162,10 +162,10 @@ Identificateur unique d’une entrée de table de lien-Track-objet-Move.
 |------------------------|----------------------------------------------------------------|
 | ID de lien                | \-                                                             |
 | MAPI-Id                | \-                                                             |
-| System-Only            | Faux                                                          |
-| Est de valeur unique       | Vrai                                                           |
-| Est indexé             | Faux                                                          |
-| Dans le catalogue global      | Faux                                                          |
+| System-Only            | False                                                          |
+| Est de valeur unique       | True                                                           |
+| Est indexé             | False                                                          |
+| Dans le catalogue global      | False                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                   |
 | Range-Lower            | 0                                                              |
 | Range-Upper            | 16                                                             |

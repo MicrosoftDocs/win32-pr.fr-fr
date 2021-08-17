@@ -1,19 +1,19 @@
 ---
-description: Les rubriques de cette section décrivent brièvement les exemples de programmes pour la recherche qui accompagnent le kit de développement logiciel (SDK) Microsoft Windows pour Windows 7.
+description: les rubriques de cette section décrivent brièvement les exemples de programmes pour la recherche qui accompagnent le kit de développement logiciel (SDK) Microsoft Windows pour Windows 7.
 ms.assetid: 9cd35360-dee5-433e-9576-dbe39bd34cbb
-title: Exemples de code Windows Search
+title: Windows Rechercher des exemples de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bd67fd8bcb5599be1aa29c1c3ac574a1deb8438
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d70c87999273671ebe4b6f0ac8c00bd0d4b43978705908f132e504c143831b08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094900"
 ---
-# <a name="windows-search-code-samples"></a>Exemples de code Windows Search
+# <a name="windows-search-code-samples"></a>Windows Rechercher des exemples de code
 
-Les rubriques de cette section décrivent brièvement les exemples de programmes pour la recherche qui accompagnait le kit de développement logiciel (SDK) Microsoft Windows pour Windows 7. Ces exemples peuvent également être exécutés sur Windows 10, à l’aide du kit de développement logiciel (SDK) Windows 10.
+les rubriques de cette section décrivent brièvement les exemples de programmes pour la recherche qui accompagnait le kit de développement logiciel (SDK) Microsoft Windows pour Windows 7. ces exemples peuvent également être exécutés sur Windows 10 à l’aide du kit de développement logiciel (SDK) Windows 10.
 
 Les rubriques suivantes décrivent les exemples d’API de recherche fournis.
 
@@ -34,11 +34,11 @@ Les rubriques suivantes décrivent les exemples d’API de recherche fournis.
 
 [Vue d’ensemble de Windows Search](-search-3x-wds-overview.md)
 
-[Guide du développeur Windows Search](-search-developers-guide-entry-page.md)
+[Windows Rechercher dans le Guide du développeur](-search-developers-guide-entry-page.md)
 
-[Référence de recherche Windows](-search-reference-entry-page.md)
+[Windows Référence de recherche](-search-reference-entry-page.md)
 
-[Exemples de code Windows Search](-search-samples-ovw.md)
+[Windows Rechercher des exemples de code](-search-samples-ovw.md)
 
 [Recherche fédérée dans Windows](-search-federated-search-overview.md)
 

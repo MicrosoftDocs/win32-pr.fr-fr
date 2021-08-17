@@ -3,7 +3,7 @@ title: Message EM_HIDESELECTION (RichEdit. h)
 description: Le \_ message em HIDESELECTION masque ou affiche la sélection dans un contrôle RichEdit.
 ms.assetid: 1245618f-c9e6-4876-9133-6009370cdb97
 keywords:
-- EM_HIDESELECTION les contrôles de message Windows
+- EM_HIDESELECTION les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a5690e52c2a25f5a359de205ac1584e1ef45ed4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2d9e33ba0fd8f9a97dcc7ef9ba0a76acfd76110a4d718fa282f3ba66d8f1ef6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437929"
 ---
 # <a name="em_hideselection-message"></a>\_Message em HIDESELECTION
 
@@ -53,8 +53,8 @@ Ce message ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

@@ -1,35 +1,35 @@
 ---
-title: Utilisation de SAMI avec le contrôle du lecteur Windows Media dans un navigateur
-description: Utilisation de SAMI avec le contrôle du lecteur Windows Media dans un navigateur
+title: utilisation de SAMI avec le contrôle Lecteur Windows Media dans un navigateur
+description: utilisation de SAMI avec le contrôle Lecteur Windows Media dans un navigateur
 ms.assetid: 41906e57-adaa-4df7-86ba-19b8a757e216
 keywords:
-- Lecteur Windows Media, SAMI (Synchronized Accessible Media Interchange)
-- Modèle objet du lecteur Windows Media, SAMI (Synchronized Accessible Media Interchange)
+- Lecteur Windows Media, SAMI (synchronized Accessible Media Interchange)
+- modèle objet Lecteur Windows Media, SAMI (synchronized Accessible Media Interchange)
 - modèle objet, SAMI (Synchronized Accessible Media Interchange)
-- Windows Media Player Mobile, SAMI (Synchronized Accessible Media Interchange)
-- Contrôle ActiveX du lecteur Windows Media, SAMI (Synchronized Accessible Media Interchange)
-- Contrôle ActiveX Mobile Player Windows Media, SAMI (Synchronized Accessible Media Interchange)
-- Contrôle ActiveX, SAMI (Synchronized Accessible Media Interchange)
+- Lecteur Windows Media Mobile, accessible en SAMI (Synchronized Accessible Media Interchange)
+- contrôle de ActiveX Lecteur Windows Media, SAMI (synchronized Accessible Media Interchange)
+- Lecteur Windows Media contrôle Mobile ActiveX, SAMI (synchronized Accessible Media Interchange)
+- contrôle de ActiveX, SAMI (synchronized Accessible Media Interchange)
 - Fichiers de Media Interchange (SAMI) synchronisés, fichiers
 - SAMI (Synchronized Accessible Media Interchange), fichiers
 - SAMI (Synchronized Accessible Media Interchange), exemple de code
 - SAMI (Synchronized Accessible Media Interchange), exemple de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b651c3af117942d56ffc5334323913d26cdf6f99
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d277f2849e6036d85bc8c03940a7dbd59df8b81083ca88240ebd68be768fde9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134342"
 ---
-# <a name="using-sami-with-the-windows-media-player-control-in-a-browser"></a>Utilisation de SAMI avec le contrôle du lecteur Windows Media dans un navigateur
+# <a name="using-sami-with-the-windows-media-player-control-in-a-browser"></a>utilisation de SAMI avec le contrôle Lecteur Windows Media dans un navigateur
 
-Au lieu de créer un fichier SAMI pour chaque style ou langage de police, vous pouvez déclarer différentes classes de style dans un fichier à l’aide de scripts de base et du modèle objet de contrôle du lecteur Windows Media. Vous pouvez créer des contrôles personnalisés qui permettent à l’utilisateur de choisir entre les différentes options de style et de langue. En outre, vous disposez d’un contrôle total sur la conception de l’interface du lecteur et la personnalisation de chaque fonction.
+au lieu de créer un fichier SAMI pour chaque style ou langage de police, vous pouvez déclarer différentes classes de style dans un fichier à l’aide de scripts de base et du modèle objet de contrôle Lecteur Windows Media. Vous pouvez créer des contrôles personnalisés qui permettent à l’utilisateur de choisir entre les différentes options de style et de langue. En outre, vous disposez d’un contrôle total sur la conception de l’interface du lecteur et la personnalisation de chaque fonction.
 
-Pour plus d’informations sur l’intégration du contrôle du lecteur Windows Media dans une page [Web, consultez exemple simple de script dans une page Web](simple-example-of-scripting-in-a-web-page.md).
+pour plus d’informations sur l’incorporation du contrôle Lecteur Windows Media dans une page web, consultez [exemple Simple de script dans une Page Web](simple-example-of-scripting-in-a-web-page.md).
 
-L’exemple de code suivant montre comment utiliser des sous-titres avec le contrôle du lecteur Windows Media incorporé dans une page Web. Il comprend des contrôles pour permettre à l’utilisateur de sélectionner le style et la langue de la police.
+l’exemple de code suivant montre comment utiliser des sous-titres avec le contrôle Lecteur Windows Media incorporé dans une page web. Il comprend des contrôles pour permettre à l’utilisateur de sélectionner le style et la langue de la police.
 
 
 ```C++
@@ -119,9 +119,9 @@ L’exemple de code suivant montre comment utiliser des sous-titres avec le cont
 [**Ajout de sous-titres à des médias numériques**](adding-closed-captions-to-digital-media.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

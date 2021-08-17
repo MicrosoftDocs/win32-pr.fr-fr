@@ -4,12 +4,12 @@ ms.assetid: cf2ac58e-7fc3-4635-8b82-586a0732b2a3
 title: Liste de contrôle d’internationalisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22b18ef8cf88efa8d496d19c0b66208cd44abaf7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd4650f7bd1111f35c911d6efe12bfbec4b537f2cdabdc50160965b5e602708b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147512"
 ---
 # <a name="internationalization-checklist"></a>Liste de contrôle d’internationalisation
 
@@ -19,7 +19,7 @@ Cette rubrique fournit des actions à effectuer pour créer du code prenant en c
     -   Concevez les icônes et les bitmaps pour qu’elles soient significatives et non choquantes sur vos marchés cibles, et ne contiennent pas de texte.
     -   Concevoir des menus et des boîtes de dialogue pour laisser de la place pour l’expansion de texte. Par exemple, les chaînes en anglais s’étendent souvent de 40% lorsqu’elles sont traduites en allemand ou néerlandais.
     -   N’utilisez pas d’argot ou de références spécifiques à la culture dans des éléments d’interface utilisateur ou des messages.
-    -   Créez des combinaisons de touches de raccourci qui sont accessibles sur les claviers internationaux. Par exemple, évitez d’utiliser des touches de caractère de ponctuation comme touches de raccourci, car elles ne se trouvent pas toujours sur les claviers internationaux ou sont facilement générées par l’utilisateur. Pour obtenir des exemples de dispositions de clavier, consultez [dispositions de clavier Windows](https://msdn.microsoft.com/goglobal/bb964651.aspx).
+    -   Créez des combinaisons de touches de raccourci qui sont accessibles sur les claviers internationaux. Par exemple, évitez d’utiliser des touches de caractère de ponctuation comme touches de raccourci, car elles ne se trouvent pas toujours sur les claviers internationaux ou sont facilement générées par l’utilisateur. pour obtenir des exemples de dispositions du clavier, consultez [Windows les dispositions du clavier](https://msdn.microsoft.com/goglobal/bb964651.aspx).
     -   Tenez compte des lois locales qui affectent les conceptions de fonctionnalités, telles que les exigences que les entités gouvernementales achètent des logiciels qui prennent en charge plusieurs langues officielles.
     -   Développez des contrats tiers qui prennent en charge les normes d’interface utilisateur internationales et les décisions de conception de votre organisation.
     -   Utilisez une terminologie cohérente dans les chaînes d’interface utilisateur qui doivent être traduites.
@@ -52,7 +52,7 @@ Cette rubrique fournit des actions à effectuer pour créer du code prenant en c
 
 -   Compilez toutes les éditions internationales du programme à partir d’un ensemble de fichiers sources.
     -   Réduisez ou éliminez les mécanismes qui nécessitent une recompilation du code pour différentes éditions de langue.
-    -   Stocker des éléments localisables, tels que des chaînes et des icônes, dans des fichiers de ressources Windows.
+    -   stocker des éléments localisables, tels que des chaînes et des icônes, dans des fichiers de ressources Windows.
     -   Stockez les documents dans toutes les éditions de langue en utilisant le même format de fichier.
 
 <!-- -->

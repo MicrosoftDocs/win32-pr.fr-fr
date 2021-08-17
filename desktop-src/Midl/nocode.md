@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64f5138dc1794e9b2714e5f64762c1af17b47fb2
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 86ec4612bc1bd5db1a8cdcbecdced51911591cdf5c482c83381f86deafd66a9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066959"
 ---
 # <a name="nocode-attribute"></a>attribut nocode
 
@@ -86,7 +86,7 @@ Spécifie les attributs qui s’appliquent à la fonction dans son ensemble, par
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la fonction tel qu’il est défini dans le fichier IDL.
@@ -107,7 +107,7 @@ Spécifie un paramètre de la fonction tel qu’il est défini dans le fichier I
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **\[ nocode \]** peut apparaître dans l’en-tête ACF, ou il peut être appliqué à une fonction individuelle.
 
@@ -150,9 +150,9 @@ L’attribut **\[ nocode \]** est ignoré lors de la génération de stubs de se
 [**handle implicite \_**](implicit-handle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

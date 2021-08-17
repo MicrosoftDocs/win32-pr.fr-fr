@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 53bfc903f8bc1be56962e912b1c82f02faaf0c44
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 70ff3ca1fb2509cd5f788cc1965920c46af5791bec10bb833df19f4b4f9be533
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104991865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119933"
 ---
 # <a name="state-objects"></a>Objets d’état
 
@@ -262,7 +262,7 @@ ProceduralPrimitiveHitGroup MyProceduralHitGroup
 
 Notez que les trois champs utilisent des noms *exportés* . Un nom exporté peut être différent du nom d’origine en langage HLSL, si l’application choisit d’effectuer une exportation-attribution d’un nouveau nom.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les sous-objets ont la notion d' « Association », ou « quel sous-objet va utiliser l’exportation ».
 

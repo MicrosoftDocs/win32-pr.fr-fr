@@ -6,12 +6,12 @@ keywords:
 - récupération des propriétés de l’élément de travail Planificateur de tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74a51c623301a4a3b53369713abe95ea1dafba80
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3519f3f995e4a5c49a58f0c8be590b34a82381bfd534b61bac6ff8aba05de33c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059977"
 ---
 # <a name="retrieving-work-item-property-examples"></a>Récupération d’exemples de propriétés d’élément de travail
 
@@ -22,7 +22,7 @@ Les exemples de code listés en bas de cette page montrent comment récupérer l
 > [!Note]  
 > Dans l’exemple de code suivant, toutes les interfaces sont libérées après qu’elles ne sont plus nécessaires.
 
- 
+ 
 
 Notez que si vous récupérez une propriété de type chaîne (par exemple, un commentaire pour un élément de travail), vous devez appeler [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) pour libérer la mémoire allouée pour la chaîne retournée.
 
@@ -52,7 +52,7 @@ La procédure suivante décrit comment récupérer une propriété de tâche.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -61,6 +61,6 @@ La procédure suivante décrit comment récupérer une propriété de tâche.
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

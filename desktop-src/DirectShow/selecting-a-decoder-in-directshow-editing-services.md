@@ -1,23 +1,23 @@
 ---
-description: Sélection d’un décodeur dans les services de modification DirectShow
+description: sélection d’un décodeur dans DirectShow Services d’édition
 ms.assetid: dc6b0445-7fc1-4331-9000-a652b44a8364
-title: Sélection d’un décodeur dans les services de modification DirectShow
+title: sélection d’un décodeur dans DirectShow Services d’édition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 956ad0284722eb394590b1b0065f167c55b3cf51
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dcff63d44918a189f49e11527fe6fef35d108b7f20c1dadefa0a045e2c895b0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104481512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119341269"
 ---
-# <a name="selecting-a-decoder-in-directshow-editing-services"></a>Sélection d’un décodeur dans les services de modification DirectShow
+# <a name="selecting-a-decoder-in-directshow-editing-services"></a>sélection d’un décodeur dans DirectShow Services d’édition
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
-Lorsque les [services d’édition DirectShow](directshow-editing-services.md) affichent un projet de montage vidéo, le moteur de rendu sélectionne automatiquement les décodeurs nécessaires. Cela peut se produire à l’intérieur de la méthode [**IRenderEngine :: ConnectFrontEnd**](irenderengine-connectfrontend.md) , ou de manière dynamique pendant le rendu.
+lorsque [DirectShow Services de modification](directshow-editing-services.md) (DES) affichent un projet de montage vidéo, le moteur de rendu sélectionne automatiquement les décodeurs nécessaires. Cela peut se produire à l’intérieur de la méthode [**IRenderEngine :: ConnectFrontEnd**](irenderengine-connectfrontend.md) , ou de manière dynamique pendant le rendu.
 
-Un utilisateur peut installer plusieurs décodeurs capable de décoder un fichier particulier. Quand plusieurs décodeurs sont disponibles, l’algorithme DES utilise l’algorithme de [connexion intelligente](intelligent-connect.md) pour sélectionner le décodeur.
+Un utilisateur peut installer plusieurs décodeurs capable de décoder un fichier particulier. quand plusieurs décodeurs sont disponibles, l’algorithme DES Connecter utilise l’algorithme [Intelligent](intelligent-connect.md) pour sélectionner le décodeur.
 
 Il n’existe aucun moyen pour l’application de spécifier directement le décodeur à utiliser. Toutefois, vous pouvez choisir le décodeur indirectement par le biais de l’interface de rappel [**IAMGraphBuilderCallback**](/windows/desktop/api/Strmif/nn-strmif-iamgraphbuildercallback) . En implémentant cette interface dans votre application, vous pouvez recevoir des notifications pendant le processus de création de graphiques et rejeter certains filtres du graphique.
 
@@ -34,7 +34,7 @@ public:
 
 
 
-Créez ensuite une instance du gestionnaire de graphes de filtres et enregistrez votre classe pour recevoir des notifications de rappel :
+créez ensuite une instance du filtre Graph Manager et enregistrez votre classe pour recevoir des notifications de rappel :
 
 
 ```C++
@@ -58,7 +58,7 @@ if (pSite)
 
 
 
-Ensuite, créez le moteur de rendu et appelez la méthode [**IRenderEngine :: SetFilterGraph**](irenderengine-setfiltergraph.md) avec un pointeur vers le gestionnaire de graphique de filtre. Cela garantit que le moteur de rendu ne crée pas son propre gestionnaire de graphes de filtre, mais utilise à la place l’instance que vous avez configurée pour les rappels.
+ensuite, créez le moteur de rendu et appelez la méthode [**IRenderEngine :: SetFilterGraph**](irenderengine-setfiltergraph.md) avec un pointeur vers le gestionnaire de Graph de filtre. cela garantit que le moteur de rendu ne crée pas son propre filtre Graph Manager, mais utilise à la place l’instance que vous avez configurée pour les rappels.
 
 
 ```C++
@@ -74,7 +74,7 @@ hr = pRender->SetFilterGraph(pGraph);
 
 
 
-Lorsque le projet est rendu, la méthode [**IAMGraphBuilderCallback :: SelectedFilter**](/windows/desktop/api/Strmif/nf-strmif-iamgraphbuildercallback-selectedfilter) de l’application est appelée immédiatement avant que le gestionnaire de graphique de filtre crée un nouveau filtre. La méthode **SelectedFilter** reçoit un pointeur vers une interface **IMoniker** qui représente un moniker pour le filtre. Examinez le moniker et, si vous décidez de rejeter le filtre, retournez un code d’erreur à partir de la méthode **SelectedFilter** .
+lorsque le projet est rendu, la méthode [**IAMGraphBuilderCallback :: SelectedFilter**](/windows/desktop/api/Strmif/nf-strmif-iamgraphbuildercallback-selectedfilter) de l’application est appelée immédiatement avant que le gestionnaire de Graph de filtre crée un nouveau filtre. La méthode **SelectedFilter** reçoit un pointeur vers une interface **IMoniker** qui représente un moniker pour le filtre. Examinez le moniker et, si vous décidez de rejeter le filtre, retournez un code d’erreur à partir de la méthode **SelectedFilter** .
 
 La partie difficile consiste à identifier les monikers qui représentent des décodeurs, et en particulier les monikers qui représentent des décodeurs que vous souhaitez rejeter. Une solution est la suivante :
 
@@ -114,7 +114,7 @@ La partie difficile consiste à identifier les monikers qui représentent des d�
 
 <dl> <dt>
 
-[Rendu d’un projet](rendering-a-project.md)
+[Rendu d’un Project](rendering-a-project.md)
 </dt> </dl>
 
  

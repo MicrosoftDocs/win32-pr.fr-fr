@@ -1,6 +1,6 @@
 ---
-title: Copie de flux sans décompression des données
-description: Copie de flux sans décompression des données
+title: copie Flux sans décompression des données
+description: copie Flux sans décompression des données
 ms.assetid: c268ce44-a09d-4304-bc39-8b6657da2bdb
 keywords:
 - Windows Media Format SDK, copie de flux
@@ -9,16 +9,16 @@ keywords:
 - flux, copier sans décompresser les données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 831b85ad431a6c4d3f4255c281d22ca17004674f
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 2387861c25ad565298fb2731300f6da8ccc00c26c5f7c82c36fede1bb7f62f9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "104381678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931559"
 ---
-# <a name="copying-streams-without-decompressing-the-data"></a>Copie de flux sans décompression des données
+# <a name="copying-streams-without-decompressing-the-data"></a>copie Flux sans décompression des données
 
-La méthode la plus simple et la plus courante pour copier un flux d’un fichier vers un autre consiste à récupérer les exemples dans leur état compressé, puis à les écrire dans le nouveau fichier sans les décompresser et les recompresser. Les exemples obtenus à partir d’un fichier dans leur état compressé sont appelés exemples de flux, car ils ne sont pas modifiés par rapport à leur représentation dans le flux. Il est recommandé de toujours utiliser des exemples de flux pour copier des flux, car la décompression et la recompression des données multimédias numériques dégradent la qualité. Si vous devez copier un flux à partir de données décompressées, consultez [copie de flux à l’aide d’exemples décompressés](copying-streams-using-decompressed-samples.md).
+La méthode la plus simple et la plus courante pour copier un flux d’un fichier vers un autre consiste à récupérer les exemples dans leur état compressé, puis à les écrire dans le nouveau fichier sans les décompresser et les recompresser. Les exemples obtenus à partir d’un fichier dans leur état compressé sont appelés exemples de flux, car ils ne sont pas modifiés par rapport à leur représentation dans le flux. Il est recommandé de toujours utiliser des exemples de flux pour copier des flux, car la décompression et la recompression des données multimédias numériques dégradent la qualité. si vous devez copier un flux à partir de données décompressées, consultez [copie d’Flux à l’aide d’exemples décompressés](copying-streams-using-decompressed-samples.md).
 
 Il est possible de concaténer deux ou plusieurs flux en un seul flux à l’aide d’exemples compressés, mais uniquement si les vitesses de transmission sont identiques. Le processus est fondamentalement le même que les étapes décrites ci-dessous, sauf que vous devez lire plusieurs fichiers originaux pour obtenir tout le contenu dont vous avez besoin. Toutefois, vous pouvez uniquement écrire des exemples compressés à partir de plusieurs fichiers dans un seul flux si les structures de **\_ \_ type de média WM** (y compris tous les membres de la structure **pbFormat** ) de tous les flux compressés sont identiques. Pour combiner des données provenant de plusieurs flux qui ne sont pas du même format, vous devez décompresser le contenu et le recompresser dans le flux de destination. En outre, lorsque vous combinez des données de deux ou plusieurs flux en un seul flux, vous devez ajouter les valeurs de fenêtre de mémoire tampon pour tous les flux afin d’obtenir la fenêtre de mémoire tampon pour le nouveau flux. Cela est dû au fait qu’il est impossible de déterminer la quantité de mémoire tampon qui est prise à la fin d’un flux de données et au début d’un autre.
 
@@ -47,7 +47,7 @@ Pour copier l’intégralité d’un flux d’un fichier ASF dans un nouveau fic
 > [!Note]  
 > Les flux d’images ne peuvent pas être copiés d’un fichier à un autre à l’aide d’exemples de flux. Pour copier des données de flux d’image, récupérez les exemples non compressés, puis traitez-les par le biais du writer comme vous le feriez normalement.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -56,12 +56,12 @@ Pour copier l’intégralité d’un flux d’un fichier ASF dans un nouveau fic
 [**Copie de données d’un fichier vers un autre**](copying-data-from-one-file-to-another.md)
 </dt> <dt>
 
-[**Copie de flux à l’aide d’exemples décompressés**](copying-streams-using-decompressed-samples.md)
+[**copie Flux à l’aide d’exemples décompressés**](copying-streams-using-decompressed-samples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

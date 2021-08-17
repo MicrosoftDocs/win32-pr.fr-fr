@@ -1,11 +1,11 @@
 ---
-title: MS-SQL-OLAPDatabase, classe
-description: Conteneur pour le stockage des objets MS-SQL-OLAPCube.
+title: classe MS-SQL-OLAPDatabase
+description: conteneur pour le stockage des objets MS-SQL-OLAPCube.
 ms.assetid: 651593bd-4c2a-47bf-a601-8f110291f6f6
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de la classe MS-SQL-OLAPDatabase
-- Schéma AD de la classe mS-SQL-OLAPDatabase
+- schéma AD de la classe MS-SQL-OLAPDatabase
+- schéma AD de la classe mS-SQL-OLAPDatabase
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b21e40b08504e5a68e288ec98afb32e4d9689b8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b5edbfcb234258b9fbff61d3325bb1d1e55a6b707071c15f29ab77db941c4015
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441209"
 ---
-# <a name="ms-sql-olapdatabase-class"></a>MS-SQL-OLAPDatabase, classe
+# <a name="ms-sql-olapdatabase-class"></a>classe MS-SQL-OLAPDatabase
 
-Conteneur pour le stockage des objets [**MS-SQL-OLAPCube**](c-ms-sql-olapcube.md) .
+conteneur pour le stockage des objets [**MS-SQL-OLAPCube**](c-ms-sql-olapcube.md) .
 
 
 
@@ -42,7 +42,7 @@ Conteneur pour le stockage des objets [**MS-SQL-OLAPCube**](c-ms-sql-olapcube.md
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -69,9 +69,9 @@ Conteneur pour le stockage des objets [**MS-SQL-OLAPCube**](c-ms-sql-olapcube.md
 
 
 
-## <a name="windows-2000-server-attributes"></a>Attributs du serveur Windows 2000
+## <a name="windows-2000-server-attributes"></a>attributs de serveur Windows 2000
 
-Cette classe contient les attributs suivants pour le serveur Windows 2000 :
+cette classe contient les attributs suivants pour Windows serveur 2000 :
 
 
 
@@ -93,7 +93,7 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**DSA-signature**](a-dsasignature.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                 | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)             | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                 | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -109,18 +109,18 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**Date et heure de modification**](a-modifytimestamp.md)                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**MS-DS-Consistency-enfant-nombre**](a-ms-ds-consistencychildcount.md)    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**MS-DS-Consistency-Guid**](a-ms-ds-consistencyguid.md)                 | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**MS-SQL-applications**](a-ms-sql-applications.md)                      | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-Applications**](a-ms-sql-applications.md)                      | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-ConnectionURL**](a-ms-sql-connectionurl.md)                    | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**Contact MS-SQL**](a-ms-sql-contact.md)                                | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**Description de MS-SQL**](a-ms-sql-description.md)                        | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-InformationURL**](a-ms-sql-informationurl.md)                  | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**MS-SQL-Mots clés**](a-ms-sql-keywords.md)                              | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-mots clés**](a-ms-sql-keywords.md)                              | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-LastBackupDate**](a-ms-sql-lastbackupdate.md)                  | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                      | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-PublicationURL**](a-ms-sql-publicationurl.md)                  | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-taille**](a-ms-sql-size.md)                                      | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                  | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                  | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**Type MS-SQL**](a-ms-sql-type.md)                                      | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                   | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -189,9 +189,9 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 
 
 
-## <a name="windows-server-2003-attributes"></a>Attributs Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Attributs du serveur 2003
 
-Cette classe contient les attributs suivants pour Windows Server 2003 :
+cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
@@ -213,7 +213,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**DSA-signature**](a-dsasignature.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                 | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -246,18 +246,18 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**MS-SQL-applications**](a-ms-sql-applications.md)                        | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-Applications**](a-ms-sql-applications.md)                        | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-ConnectionURL**](a-ms-sql-connectionurl.md)                      | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**Contact MS-SQL**](a-ms-sql-contact.md)                                  | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                  | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**Description de MS-SQL**](a-ms-sql-description.md)                          | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-InformationURL**](a-ms-sql-informationurl.md)                    | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**MS-SQL-Mots clés**](a-ms-sql-keywords.md)                                | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-mots clés**](a-ms-sql-keywords.md)                                | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-LastBackupDate**](a-ms-sql-lastbackupdate.md)                    | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                  | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                        | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-PublicationURL**](a-ms-sql-publicationurl.md)                    | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-taille**](a-ms-sql-size.md)                                        | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                    | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                    | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**Type MS-SQL**](a-ms-sql-type.md)                                        | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                     | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -327,9 +327,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Attributs Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Attributs du serveur 2003 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
+cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
@@ -351,7 +351,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**DSA-signature**](a-dsasignature.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                 | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -387,18 +387,18 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**msSFU-30-POSIX-Member-of**](a-mssfu30posixmemberof.md)                  | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**MS-SQL-applications**](a-ms-sql-applications.md)                        | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-Applications**](a-ms-sql-applications.md)                        | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-ConnectionURL**](a-ms-sql-connectionurl.md)                      | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**Contact MS-SQL**](a-ms-sql-contact.md)                                  | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                  | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**Description de MS-SQL**](a-ms-sql-description.md)                          | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-InformationURL**](a-ms-sql-informationurl.md)                    | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**MS-SQL-Mots clés**](a-ms-sql-keywords.md)                                | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-mots clés**](a-ms-sql-keywords.md)                                | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-LastBackupDate**](a-ms-sql-lastbackupdate.md)                    | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                  | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                        | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-PublicationURL**](a-ms-sql-publicationurl.md)                    | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-taille**](a-ms-sql-size.md)                                        | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                    | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                    | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**Type MS-SQL**](a-ms-sql-type.md)                                        | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                     | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -468,9 +468,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
-## <a name="windows-server-2008-attributes"></a>Attributs Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Attributs du serveur 2008
 
-Cette classe contient les attributs suivants pour Windows Server 2008 :
+cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
@@ -492,7 +492,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**DSA-signature**](a-dsasignature.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                       | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                       | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                              | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                      | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -539,18 +539,18 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**msSFU-30-POSIX-Member-of**](a-mssfu30posixmemberof.md)                     | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**MS-SQL-applications**](a-ms-sql-applications.md)                           | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-Applications**](a-ms-sql-applications.md)                           | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-ConnectionURL**](a-ms-sql-connectionurl.md)                         | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**Contact MS-SQL**](a-ms-sql-contact.md)                                     | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                     | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**Description de MS-SQL**](a-ms-sql-description.md)                             | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-InformationURL**](a-ms-sql-informationurl.md)                       | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**MS-SQL-Mots clés**](a-ms-sql-keywords.md)                                   | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-mots clés**](a-ms-sql-keywords.md)                                   | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-LastBackupDate**](a-ms-sql-lastbackupdate.md)                       | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                     | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                           | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-PublicationURL**](a-ms-sql-publicationurl.md)                       | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-taille**](a-ms-sql-size.md)                                           | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                       | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                       | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**Type MS-SQL**](a-ms-sql-type.md)                                           | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                        | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -620,9 +620,9 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Attributs Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Attributs du serveur 2008 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
+cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
@@ -644,7 +644,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**DSA-signature**](a-dsasignature.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                        | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -698,18 +698,18 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**msSFU-30-POSIX-Member-of**](a-mssfu30posixmemberof.md)                       | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**MS-SQL-applications**](a-ms-sql-applications.md)                             | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-Applications**](a-ms-sql-applications.md)                             | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-ConnectionURL**](a-ms-sql-connectionurl.md)                           | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**Contact MS-SQL**](a-ms-sql-contact.md)                                       | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                       | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**Description de MS-SQL**](a-ms-sql-description.md)                               | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-InformationURL**](a-ms-sql-informationurl.md)                         | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**MS-SQL-Mots clés**](a-ms-sql-keywords.md)                                     | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-mots clés**](a-ms-sql-keywords.md)                                     | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-LastBackupDate**](a-ms-sql-lastbackupdate.md)                         | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                       | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                             | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-PublicationURL**](a-ms-sql-publicationurl.md)                         | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-taille**](a-ms-sql-size.md)                                             | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                         | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                         | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**Type MS-SQL**](a-ms-sql-type.md)                                             | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                          | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -779,7 +779,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
-## <a name="windows-server-2012-attributes"></a>Attributs Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Attributs
 
 Cette classe contient les attributs suivants pour Windows Server 2012 :
 
@@ -803,7 +803,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**DSA-signature**](a-dsasignature.md)                                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -858,23 +858,23 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-value-type-référence-BL**](a-msds-valuetypereferencebl.md)                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**msSFU-30-POSIX-Member-of**](a-mssfu30posixmemberof.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**MS-SQL-applications**](a-ms-sql-applications.md)                                         | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-Applications**](a-ms-sql-applications.md)                                         | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-ConnectionURL**](a-ms-sql-connectionurl.md)                                       | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**Contact MS-SQL**](a-ms-sql-contact.md)                                                   | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                                   | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**Description de MS-SQL**](a-ms-sql-description.md)                                           | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-InformationURL**](a-ms-sql-informationurl.md)                                     | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**MS-SQL-Mots clés**](a-ms-sql-keywords.md)                                                 | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-mots clés**](a-ms-sql-keywords.md)                                                 | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-LastBackupDate**](a-ms-sql-lastbackupdate.md)                                     | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                                   | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                                         | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-PublicationURL**](a-ms-sql-publicationurl.md)                                     | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**MS-SQL-taille**](a-ms-sql-size.md)                                                         | Faux     | **MS-SQL-OLAPDatabase**         |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                                     | Faux     | **MS-SQL-OLAPDatabase**         |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                                     | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**Type MS-SQL**](a-ms-sql-type.md)                                                         | Faux     | **MS-SQL-OLAPDatabase**         |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |

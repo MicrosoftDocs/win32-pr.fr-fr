@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4cb3b0ad33e54e79464949f441842173fb48a180
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bc0e389678240396d22e616a39ed0050b1f73b0b974dbe2800fcda2c6d4076a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106542154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119121811"
 ---
 # <a name="id3dxbasemeshclonemeshfvf-method"></a>ID3DXBaseMesh :: CloneMeshFVF, méthode
 
@@ -85,7 +85,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **ID3DXBaseMesh :: CloneMeshFVF** est utilisé pour reformater et modifier la disposition des données de vertex. Pour ce faire, créez un nouvel objet de maillage. Par exemple, utilisez-le pour ajouter de l’espace pour les normales, les coordonnées de texture, les couleurs, les pondérations, etc. qui n’étaient pas déjà présentes.
 

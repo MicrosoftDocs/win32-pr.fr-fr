@@ -1,19 +1,19 @@
 ---
-description: Une barre d’outils de bureau d’application (également appelée appbar) est une fenêtre similaire à la barre des tâches Windows.
+description: une barre d’outils de bureau d’application (également appelée appbar) est une fenêtre similaire à la barre des tâches Windows.
 ms.assetid: d9f63cb1-e2cc-4a3b-a3b8-de028e0f0123
 title: Utilisation des barres d’outils de l’application Desktop
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 140ef94c1daeb571cd0d766dfbd4dc28b7991efd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3c8604136040f5f3a1b4c1e9fcecb3b0c26b087724f477e592857ca4046d3a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119351449"
 ---
 # <a name="using-application-desktop-toolbars"></a>Utilisation des barres d’outils de l’application Desktop
 
-Une *barre d’outils de bureau d’application* (également appelée appbar) est une fenêtre similaire à la barre des tâches Windows. Elle est ancrée à un bord de l’écran et contient généralement des boutons qui permettent à l’utilisateur d’accéder rapidement à d’autres applications et fenêtres. Le système empêche d’autres applications d’utiliser la zone de bureau utilisée par un appbar. Un nombre quelconque de barres peut exister sur le Bureau à un moment donné.
+une *barre d’outils de bureau d’application* (également appelée appbar) est une fenêtre similaire à la barre des tâches Windows. Elle est ancrée à un bord de l’écran et contient généralement des boutons qui permettent à l’utilisateur d’accéder rapidement à d’autres applications et fenêtres. Le système empêche d’autres applications d’utiliser la zone de bureau utilisée par un appbar. Un nombre quelconque de barres peut exister sur le Bureau à un moment donné.
 
 Cette rubrique contient les sections suivantes.
 

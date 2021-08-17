@@ -1,13 +1,13 @@
 - name: Articles sur le graphisme DirectX
   href: directx-graphics-articles-portal.md
   items:
-    - name: Mise à jour de plateforme pour Windows 7
+    - name: mise à jour de plateforme pour Windows 7
       href: platform-update-for-windows-7.md
     - name: Améliorations de Direct3D 9Ex
       href: direct3d-9ex-improvements.md
     - name: Partage de surface entre les API graphiques Windows
       href: surface-sharing-between-windows-graphics-apis.md
-    - name: Guide de la plateforme de rastérisation avancée Windows (WARP)
+    - name: Windows Guide de la plateforme de rastérisation avancée (WARP)
       href: directx-warp.md
     - name: API graphiques dans Windows
       href: graphics-apis-in-windows-vista.md

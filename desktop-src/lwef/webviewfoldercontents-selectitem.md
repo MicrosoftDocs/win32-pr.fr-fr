@@ -3,9 +3,9 @@ title: Méthode WebViewFolderContents. SelectItem (shldisp. h)
 description: Méthode WebViewFolderContents. SelectItem-définit l’état de sélection d’un élément dans la vue.
 ms.assetid: c0e163ee-1951-476c-807a-781e26766d99
 keywords:
-- Méthode SelectItem fonctionnalités d’environnement Windows héritées
-- Méthode SelectItem fonctionnalités de l’environnement Windows héritées, objet WebViewFolderContents
-- Objet WebViewFolderContents fonctionnalités d’environnement Windows héritées, méthode SelectItem
+- fonctionnalités d’environnement Windows héritées de la méthode SelectItem
+- méthode SelectItem héritage Windows fonctionnalités d’environnement, objet WebViewFolderContents
+- objets WebViewFolderContents hérités Windows (fonctionnalités d’environnement), méthode SelectItem
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66e2d05c010199f05826df7ed4591e8c7c1723e2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d144801e62962f4071b6c8e60147326908a9b4f7787e0d4ac549be9c51fa3c97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960619"
 ---
 # <a name="webviewfoldercontentsselectitem-method"></a>Méthode WebViewFolderContents. SelectItem
 
@@ -127,13 +127,13 @@ Donne le focus à l’élément.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Cette méthode ne retourne pas de valeur.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte de cette méthode pour JScript Embedded en HTML.
+l’exemple suivant illustre l’utilisation correcte de cette méthode pour JScript incorporée en HTML.
 
 
 ```HTML
@@ -173,7 +173,7 @@ L’exemple suivant illustre l’utilisation correcte de cette méthode pour JSc
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

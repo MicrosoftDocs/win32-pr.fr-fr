@@ -6,12 +6,12 @@ keywords:
 - effet de transfert linéaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfedbb79f057ee871ce23cc086034afc3e6cdda0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7dcb2bb688d1e8ebf4b1b1ebfdd531d900755b46840bada2bade49d957ed0f6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119385292"
 ---
 # <a name="linear-transfer-effect"></a>Effet de transfert linéaire
 
@@ -21,7 +21,7 @@ Le CLSID de cet effet est CLSID \_ D2D1LinearTransfer.
 
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -31,7 +31,7 @@ Le CLSID de cet effet est CLSID \_ D2D1LinearTransfer.
 | Avant                                                          |
 |-----------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)      |
-| After                                                           |
+| Après                                                           |
 | ![image après la transformation.](images/13-lineartransfer.png) |
 
 
@@ -99,8 +99,8 @@ Cet effet fonctionne sur les images alpha directes et prémultipliées. L’effe
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

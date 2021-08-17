@@ -5,19 +5,19 @@ ms.assetid: b9090ad5-564c-4f48-b7bd-24617d582d2e
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 517acfa320069f9c94ee291e9215459d27ba25ad
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 343f00ee28475d1e6180646a0e548c18d51701afed587c99582dad7dc60d094c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063309"
 ---
 # <a name="retrieving-a-collection"></a>Récupération d’une collection
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
 
- 
+ 
 
 Le code suivant récupère la collection de clients pour le serveur NPS.
 
@@ -109,7 +109,7 @@ Le code suivant récupère la collection de clients pour le serveur NPS.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La variable pSdoServiceControl contient un pointeur vers un objet de données serveur pour NPS. Pour plus d’informations, consultez la rubrique [récupération d’un service SDO](/windows/desktop/Nps/sdo-retrieving-a-service-sdo).
 
@@ -147,6 +147,6 @@ L’exemple de code ci-dessus peut être adapté pour récupérer d’autres col
 [**DIFFÉRENT**](/windows/win32/api/oaidl/ns-oaidl-variant)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

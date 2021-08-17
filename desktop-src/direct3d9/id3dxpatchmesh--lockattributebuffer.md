@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 71e50fdc27f3f50b560324c74f5a1609f900772d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9b3c550037e156ea5584b65af6d6adb1cb666614de257c590a8d4944283ebdfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120763"
 ---
 # <a name="id3dxpatchmeshlockattributebuffer-method"></a>ID3DXPatchMesh :: LockAttributeBuffer, méthode
 
@@ -72,7 +72,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La mémoire tampon d’attribut est généralement verrouillée, écrite dans, puis déverrouillée pour la lecture.
 

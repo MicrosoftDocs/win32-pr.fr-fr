@@ -1,22 +1,22 @@
 ---
-description: Les codecs Windows Media Audio et vidéo sont un ensemble d’objets que vous pouvez utiliser pour compresser et décompresser des données multimédias numériques.
+description: les codecs Windows Media Audio et vidéo sont un ensemble d’objets que vous pouvez utiliser pour compresser et décompresser des données multimédias numériques.
 ms.assetid: 74de2e75-b1ee-436d-8d78-efe366ab7aa6
 title: Codecs Windows Media
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ec98f98fbd0561b291dfc4cc18e4270bf363baf
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 863bb21e17200016317ce273ecb8e2493b9d6bea7d19f92f3f397fb61b88eba4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106525805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972528"
 ---
 # <a name="windows-media-codecs"></a>Codecs Windows Media
 
-Les codecs Windows Media Audio et vidéo sont un ensemble d’objets que vous pouvez utiliser pour compresser et décompresser des données multimédias numériques. Chaque codec se compose de deux objets : un encodeur et un décodeur. Cette partie de la documentation explique comment utiliser les fonctionnalités des codecs vidéo et Windows Media Audio pour produire et consommer des flux de données compressés.
+les codecs Windows Media Audio et vidéo sont un ensemble d’objets que vous pouvez utiliser pour compresser et décompresser des données multimédias numériques. Chaque codec se compose de deux objets : un encodeur et un décodeur. cette partie de la documentation explique comment utiliser les fonctionnalités des codecs vidéo et Windows Media Audio pour produire et consommer des flux de données compressés.
 
 > [!Note]  
-> Cette documentation concerne principalement les développeurs qui souhaitent utiliser des codecs Windows Media dans leurs applications multimédias basées sur C++. Pour obtenir une vue d’ensemble technique des fonctionnalités des codecs Windows Media, consultez [à propos des codecs Windows Media](about-the-windows-media-codecs.md).
+> cette documentation concerne principalement les développeurs qui souhaitent utiliser Windows codecs multimédias dans leurs applications multimédias basées sur C++. pour obtenir une vue d’ensemble technique des fonctionnalités des codecs multimédias Windows, consultez [à propos des codecs multimédias Windows](about-the-windows-media-codecs.md).
 
  
 
@@ -39,22 +39,22 @@ En outre, il existe différents codecs pour l’audio et la vidéo, mais égalem
 
 ## <a name="codec-descriptions"></a>Descriptions des codecs
 
-Le tableau suivant décrit les utilisations prévues des codecs Windows Media.
+le tableau suivant décrit les utilisations prévues des codecs multimédias Windows.
 
 
 
 | Codec                                                                     | Description                                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Windows Media Audio](windowsmediaaudioencoder.md)                       | Un codec audio qui prend en charge trois catégories de contenu encodé : standard, Professional et Lossless.                                                                                                                                                                                      |
-| [Windows Media Audio Voice](windowsmediaaudiovoiceencoder.md)            | Codec audio optimisé pour l’encodage de la voix humaine à des taux de compression élevés. Il s’agit du codec préféré pour les flux composés principalement de mots prononcés. Pour le contenu mixte musical et vocal, ce codec peut modifier dynamiquement l’algorithme d’encodage utilisé, pour obtenir une qualité optimale. |
+| [Windows Media Audio](windowsmediaaudioencoder.md)                       | un codec audio qui prend en charge trois catégories de contenu encodé : Standard, Professional et sans perte.                                                                                                                                                                                      |
+| [Windows Voix Media audio](windowsmediaaudiovoiceencoder.md)            | Codec audio optimisé pour l’encodage de la voix humaine à des taux de compression élevés. Il s’agit du codec préféré pour les flux composés principalement de mots prononcés. Pour le contenu mixte musical et vocal, ce codec peut modifier dynamiquement l’algorithme d’encodage utilisé, pour obtenir une qualité optimale. |
 | [Windows Media Video 9](windowsmediavideo9encoder.md)                    | Codec vidéo qui prend en charge quatre catégories de contenu encodé : profil simple, profil principal, profil avancé et image.                                                                                                                                                                  |
-| [Écran Windows Media Video 9](usingthewindowsmediavideo9screencodec.md) | Codec vidéo optimisé pour l’encodage des captures d’écran séquentielles à partir des moniteurs d’ordinateur. Ce codec est souvent utilisé pour la formation ou le support logiciel en enregistrant les images du moniteur pendant l’utilisation des applications de l’ordinateur.                                                                         |
+| [Windows Écran Media Video 9](usingthewindowsmediavideo9screencodec.md) | Codec vidéo optimisé pour l’encodage des captures d’écran séquentielles à partir des moniteurs d’ordinateur. Ce codec est souvent utilisé pour la formation ou le support logiciel en enregistrant les images du moniteur pendant l’utilisation des applications de l’ordinateur.                                                                         |
 
 
 
  
 
-Les versions les plus récentes des objets codec permettent également d’accéder à certains codecs hérités, notamment les Windows Media Video 7 et 8, Windows Media Screen 7, les codecs Microsoft MPEG-4 plus anciens et les codecs Microsoft ISO MPEG-4.
+les versions les plus récentes des objets codec permettent également d’accéder à certains codecs hérités, y compris les Windows Media Video 7 et 8, Windows l’écran de support 7, les codecs mpeg-4 anciens et les codecs microsoft ISO mpeg-4.
 
 > [!Note]  
 > Cette documentation ne couvre pas ces codecs hérités. Il couvre uniquement les versions actuelles des codecs.
@@ -65,7 +65,7 @@ Pour les codecs plus anciens, utilisez les mêmes procédures que lors de l’ut
 
 ## <a name="in-this-section"></a>Dans cette section
 
--   [À propos des codecs Windows Media](about-the-windows-media-codecs.md)
+-   [à propos des codecs multimédias Windows](about-the-windows-media-codecs.md)
 -   [Utilisation des objets codec et DSP](decidinghowtousethewindowsmediaaudioandvideocodecs.md)
 -   [Méthodes d’encodage](encodingmethods.md)
 -   [Implémentation du codec](codecimplementation.md)
@@ -81,7 +81,7 @@ Pour les codecs plus anciens, utilisez les mêmes procédures que lors de l’ut
 -   [Utilisation des extensions d’unité de données](usingdataunitextensions.md)
 -   [Constantes codec et DSP IPropertyBag](codecanddspproperties.md)
 -   [Analyseur de table des matières](toc-parser.md)
--   [FAQ sur les codecs Windows Media](frequentlyaskedquestions.md)
+-   [Windows FAQ sur les codecs multimédias](frequentlyaskedquestions.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
 

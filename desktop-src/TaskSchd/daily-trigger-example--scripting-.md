@@ -1,6 +1,6 @@
 ---
 title: Exemple de déclencheur quotidien (script)
-description: Cet exemple de script montre comment créer une tâche qui exécute le bloc-notes à 8 00 AM tous les jours.
+description: cet exemple de script montre comment créer une tâche qui s’exécute Bloc-notes à 8 00 AM tous les jours.
 ms.assetid: a13bd54d-b45a-46e5-8281-d080f50f6bef
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,29 +9,29 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3399934786e1cd0f95ca020c92027ccafafa5272
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 530d687264af9d2e7dbd4e9d05cf7dde39a449d3249c3576a35edc8a9e9f088d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139532"
 ---
 # <a name="daily-trigger-example-scripting"></a>Exemple de déclencheur quotidien (script)
 
-Cet exemple de script montre comment créer une tâche qui exécute le bloc-notes à 8:00 AM tous les jours. La tâche contient un déclencheur quotidien qui spécifie une limite de départ pour activer le déclencheur et spécifier l’heure d’exécution de la tâche, un intervalle de déclencheur pour spécifier que la tâche s’exécute tous les jours et une limite de fin pour désactiver le déclencheur. L’exemple montre également comment définir un modèle de répétition pour le déclencheur afin de répéter la tâche. La tâche contient également une action exécutable qui exécute le bloc-notes.
+cet exemple de script montre comment créer une tâche qui s’exécute Bloc-notes à 8:00 AM tous les jours. La tâche contient un déclencheur quotidien qui spécifie une limite de départ pour activer le déclencheur et spécifier l’heure d’exécution de la tâche, un intervalle de déclencheur pour spécifier que la tâche s’exécute tous les jours et une limite de fin pour désactiver le déclencheur. L’exemple montre également comment définir un modèle de répétition pour le déclencheur afin de répéter la tâche. la tâche contient également une action exécutable qui exécute Bloc-notes.
 
 La procédure suivante décrit comment planifier une tâche pour démarrer un exécutable à 8:00 AM tous les jours. (Ces étapes correspondent aux commentaires de code inclus dans l’exemple de code.)
 
-**Pour planifier le démarrage du bloc-notes à 8:00 AM tous les jours**
+**pour planifier le démarrage de Bloc-notes à 8:00 AM tous les jours**
 
 1.  Créez un objet [**TaskService**](taskservice.md) . Cet objet vous permet de créer la tâche dans un dossier spécifié.
 2.  Récupérez un dossier de tâches et créez une tâche. Utilisez la méthode [**TaskService. GetFolder**](taskservice-getfolder.md) pour récupérer le dossier dans lequel la tâche est stockée et la méthode [**TaskService. newtask**](taskservice-newtask.md) pour créer l’objet [**TaskDefinition**](taskdefinition.md) qui représente la tâche.
-3.  Définissez des informations sur la tâche à l’aide de l’objet [**TaskDefinition**](taskdefinition.md) . Utilisez la propriété [**TaskDefinition. Settings**](taskdefinition-settings.md) pour définir les paramètres qui déterminent la façon dont le service Planificateur de tâches effectue la tâche et la propriété [**TaskDefinition. RegistrationInfo**](taskdefinition-registrationinfo.md) pour définir les informations qui décrivent la tâche.
+3.  Définissez des informations sur la tâche à l’aide de l’objet [**TaskDefinition**](taskdefinition.md) . utilisez la propriété [**TaskDefinition. Paramètres**](taskdefinition-settings.md) pour définir les paramètres qui déterminent la façon dont le service de Planificateur de tâches effectue la tâche et la propriété [**TaskDefinition. RegistrationInfo**](taskdefinition-registrationinfo.md) pour définir les informations qui décrivent la tâche.
 4.  Créez un déclencheur quotidien à l’aide de la propriété [**TaskDefinition. Triggers**](taskdefinition-triggers.md) . Cette propriété permet d’accéder à l’objet [**TriggerCollection**](triggercollection.md) utilisé pour créer le déclencheur. Utilisez la méthode [**TriggerCollection. Create**](triggercollection-create.md) (en spécifiant le type de déclencheur que vous souhaitez créer) pour créer un déclencheur quotidien. Lorsque vous créez le déclencheur, définissez la limite de démarrage pour activer le déclencheur et spécifier l’heure d’exécution de la tâche, l’intervalle entre les jours et la limite de fin pour désactiver le déclencheur. L’exemple ci-dessous montre comment définir un modèle de répétition pour le déclencheur afin de répéter la tâche.
 5.  Créez une action à exécuter par la tâche à l’aide de la propriété [**TaskDefinition. actions**](taskdefinition-actions.md) . Cette propriété permet d’accéder à l’objet [**ActionCollection**](actioncollection.md) utilisé pour créer l’action. Utilisez la méthode [**ActionCollection. Create**](actioncollection-create.md) pour spécifier le type d’action que vous souhaitez créer. Cet exemple utilise un objet [**ExecAction**](execaction.md) , qui représente une action qui exécute une opération de ligne de commande.
-6.  Inscrivez la tâche à l’aide de la méthode [**TaskFolder. RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) . Pour cet exemple, la tâche démarre le bloc-notes à 8:00 AM tous les jours.
+6.  Inscrivez la tâche à l’aide de la méthode [**TaskFolder. RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) . pour cet exemple, la tâche démarre Bloc-notes à 8:00 AM tous les jours.
 
-L’exemple VBScript suivant montre comment planifier une tâche pour exécuter le bloc-notes tous les jours à 8:00 AM.
+l’exemple VBScript suivant montre comment planifier l’exécution d’une tâche Bloc-notes tous les jours à 8:00 AM.
 
 
 ```VB
@@ -141,9 +141,9 @@ WScript.Echo "Task submitted."
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

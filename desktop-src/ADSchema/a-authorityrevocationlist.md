@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fccc08cfb43bf4175bb51f2324e22c247d01f042
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5dac5f2cdaf204a82c30451df5df50c230748c3afd747fe40542fd7c26cfe423
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442999"
 ---
 # <a name="authority-revocation-list-attribute"></a>Attribut autorité-révocation-liste
 
@@ -45,7 +45,7 @@ Cross Certificate, liste de révocation de certificats.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Cross Certificate, liste de révocation de certificats.
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                         |
 | MAPI-Id                | 0x8026                                                                                                                                     |
-| System-Only            | Faux                                                                                                                                      |
-| Est de valeur unique       | Faux                                                                                                                                      |
-| Est indexé             | Faux                                                                                                                                      |
-| Dans le catalogue global      | Faux                                                                                                                                      |
+| System-Only            | False                                                                                                                                      |
+| Est de valeur unique       | False                                                                                                                                      |
+| Est indexé             | False                                                                                                                                      |
+| Dans le catalogue global      | False                                                                                                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                               |
 | Range-Lower            | \-                                                                                                                                         |
 | Range-Upper            | \-                                                                                                                                         |
@@ -78,10 +78,10 @@ Cross Certificate, liste de révocation de certificats.
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                         |
 | MAPI-Id                | 0x8026                                                                                                                                     |
-| System-Only            | Faux                                                                                                                                      |
-| Est de valeur unique       | Faux                                                                                                                                      |
-| Est indexé             | Faux                                                                                                                                      |
-| Dans le catalogue global      | Faux                                                                                                                                      |
+| System-Only            | False                                                                                                                                      |
+| Est de valeur unique       | False                                                                                                                                      |
+| Est indexé             | False                                                                                                                                      |
+| Dans le catalogue global      | False                                                                                                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                               |
 | Range-Lower            | \-                                                                                                                                         |
 | Range-Upper            | \-                                                                                                                                         |
@@ -99,10 +99,10 @@ Cross Certificate, liste de révocation de certificats.
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                         |
 | MAPI-Id                | 0x8026                                                                                                                                     |
-| System-Only            | Faux                                                                                                                                      |
-| Est de valeur unique       | Faux                                                                                                                                      |
-| Est indexé             | Faux                                                                                                                                      |
-| Dans le catalogue global      | Faux                                                                                                                                      |
+| System-Only            | False                                                                                                                                      |
+| Est de valeur unique       | False                                                                                                                                      |
+| Est indexé             | False                                                                                                                                      |
+| Dans le catalogue global      | False                                                                                                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                               |
 | Range-Lower            | \-                                                                                                                                         |
 | Range-Upper            | \-                                                                                                                                         |
@@ -120,10 +120,10 @@ Cross Certificate, liste de révocation de certificats.
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                         |
 | MAPI-Id                | 0x8026                                                                                                                                     |
-| System-Only            | Faux                                                                                                                                      |
-| Est de valeur unique       | Faux                                                                                                                                      |
-| Est indexé             | Faux                                                                                                                                      |
-| Dans le catalogue global      | Faux                                                                                                                                      |
+| System-Only            | False                                                                                                                                      |
+| Est de valeur unique       | False                                                                                                                                      |
+| Est indexé             | False                                                                                                                                      |
+| Dans le catalogue global      | False                                                                                                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                               |
 | Range-Lower            | \-                                                                                                                                         |
 | Range-Upper            | \-                                                                                                                                         |
@@ -141,10 +141,10 @@ Cross Certificate, liste de révocation de certificats.
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                         |
 | MAPI-Id                | 0x8026                                                                                                                                     |
-| System-Only            | Faux                                                                                                                                      |
-| Est de valeur unique       | Faux                                                                                                                                      |
-| Est indexé             | Faux                                                                                                                                      |
-| Dans le catalogue global      | Faux                                                                                                                                      |
+| System-Only            | False                                                                                                                                      |
+| Est de valeur unique       | False                                                                                                                                      |
+| Est indexé             | False                                                                                                                                      |
+| Dans le catalogue global      | False                                                                                                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                               |
 | Range-Lower            | \-                                                                                                                                         |
 | Range-Upper            | \-                                                                                                                                         |
@@ -162,10 +162,10 @@ Cross Certificate, liste de révocation de certificats.
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                         |
 | MAPI-Id                | 0x8026                                                                                                                                     |
-| System-Only            | Faux                                                                                                                                      |
-| Est de valeur unique       | Faux                                                                                                                                      |
-| Est indexé             | Faux                                                                                                                                      |
-| Dans le catalogue global      | Faux                                                                                                                                      |
+| System-Only            | False                                                                                                                                      |
+| Est de valeur unique       | False                                                                                                                                      |
+| Est indexé             | False                                                                                                                                      |
+| Dans le catalogue global      | False                                                                                                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                               |
 | Range-Lower            | \-                                                                                                                                         |
 | Range-Upper            | \-                                                                                                                                         |

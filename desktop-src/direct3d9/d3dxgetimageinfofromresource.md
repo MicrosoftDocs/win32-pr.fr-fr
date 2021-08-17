@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ea324ef94ab765bad25f7d07eef07972ab94cff6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7d383a458b99478eee8435aa46441cdd77cc5c953bbf489c657e448078c9931b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123225"
 ---
 # <a name="d3dxgetimageinfofromresource-function"></a>D3DXGetImageInfoFromResource fonction)
 
@@ -69,13 +69,13 @@ Pointeur vers une structure d' [**\_ informations D3DXIMAGE**](d3dximage-info.md
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être la suivante : D3DERR \_ INVALIDCALL
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DXGetImageInfoFromResourceW. Dans le cas contraire, l’appel de fonction est résolu en D3DXGetImageInfoFromResourceA, car les chaînes ANSI sont utilisées.
 

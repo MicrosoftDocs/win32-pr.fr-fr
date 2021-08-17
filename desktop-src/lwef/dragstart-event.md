@@ -4,12 +4,12 @@ description: Événement DragStart
 ms.assetid: fef0ae05-1958-45c6-8260-107c47b5fa92
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06e382e77c87848226568755c06d2541ebb4db14
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 835ffc22e23643d306b361977a4bbe8b04e6481f8a577c3c2cef959b4be46ea7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963089"
 ---
 # <a name="dragstart-event"></a>Événement DragStart
 
@@ -40,11 +40,11 @@ Se produit lorsque l’utilisateur commence à faire glisser un caractère.
 
 
 
- 
+ 
 
 </dd> </dl>
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Cet événement est envoyé uniquement au client d’entrée-actif d’un caractère. Lorsque l’utilisateur fait glisser un caractère sans client d’entrée-actif, le serveur définit son dernier client d’entrée/de sortie en tant que client en entrée-actif, en envoyant l’événement [**ActivateInput**](activateinput-event.md) à ce client, puis en envoyant l’événement **DragStart** .
 
@@ -53,9 +53,9 @@ Cet événement est envoyé uniquement au client d’entrée-actif d’un caract
 [**Événement DragComplete**](dragcomplete-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

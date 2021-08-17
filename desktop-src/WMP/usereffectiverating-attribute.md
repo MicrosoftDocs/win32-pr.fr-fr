@@ -1,9 +1,9 @@
 ---
 title: Attribut UserEffectiveRating
-description: L’attribut UserEffectiveRating est l’évaluation calculée par le lecteur Windows Media en fonction de la fréquence à laquelle l’élément a été lu.
+description: l’attribut UserEffectiveRating est l’évaluation calculée par Lecteur Windows Media en fonction de la fréquence à laquelle l’élément a été lu.
 ms.assetid: 6a420e20-f61d-4e15-84f8-a738caabd1d7
 keywords:
-- Attribut UserEffectiveRating lecteur Windows Media
+- Lecteur Windows Media de l’attribut UserEffectiveRating
 topic_type:
 - apiref
 api_name:
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94abda9f8237c169845683263081566957a10b1e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 25e3244d793288fe1535c7e7cb4d44c05a3b71404531cf2ae344eb77528dd4a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134442"
 ---
 # <a name="usereffectiverating-attribute"></a>Attribut UserEffectiveRating
 
-L’attribut **UserEffectiveRating** est l’évaluation calculée par le lecteur Windows Media en fonction de la fréquence à laquelle l’élément a été lu.
+l’attribut **UserEffectiveRating** est l’évaluation calculée par Lecteur Windows Media en fonction de la fréquence à laquelle l’élément a été lu.
 
 ## <a name="applies-to"></a>S'applique à
 
@@ -30,7 +30,7 @@ L’attribut **UserEffectiveRating** est l’évaluation calculée par le lecteu
 -   [Sélections](playlist-attributes-ref.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les évaluations des utilisateurs sont représentées par des valeurs entières, comme décrit dans le tableau suivant. Quand vous spécifiez une valeur, utilisez l’une des valeurs de la colonne valeur d’écriture. Lorsque vous récupérez des valeurs, vous pouvez utiliser les plages de la colonne lecture des valeurs pour déterminer le nombre d’étoiles.
 

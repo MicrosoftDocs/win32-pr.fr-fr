@@ -4,12 +4,12 @@ ms.assetid: 535d644d-4045-4ff1-9c12-a3d5f665453d
 title: INTERNET_PORT (WinHTTP. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fb0f5e18e8dba25db231185e34b53c033682367
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48ca41ee7291f7dc9c1f3d42805145ca3c049a925ffd365aef2864856aec33d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133142"
 ---
 # <a name="internet_port"></a>\_port Internet
 
@@ -62,8 +62,8 @@ Port HTTPs Internet par défaut.
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>      |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>   |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>      |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>   |
 | En-tête<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl> |
 
 

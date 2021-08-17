@@ -3,7 +3,7 @@ title: Message IPM_SETRANGE (commctrl. h)
 description: Définit la plage valide pour le champ spécifié dans le contrôle d’adresse IP.
 ms.assetid: 03068c5d-822f-459d-8f79-e7f0430a27bf
 keywords:
-- IPM_SETRANGE les contrôles de message Windows
+- IPM_SETRANGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e70df7b2b8f76f514d9a0cc6101aba2ee7cf4ec6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d599619fa9a065a27a9721b890f6d52c496bf646504009e1950b7ca1279f8a2c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434469"
 ---
 # <a name="ipm_setrange-message"></a>\_Message IPM SEtrange
 
@@ -47,7 +47,7 @@ Valeur de **mot** qui contient la limite inférieure de la plage dans l’octet 
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’utilisateur entre une valeur dans le champ qui est en dehors de cette plage, le contrôle envoie la notification [IPN \_ FIELDCHANGED](ipn-fieldchanged.md) avec la valeur entrée. Si la valeur est toujours en dehors de la plage après l’envoi de la notification, le contrôle tente de modifier la valeur entrée à la limite de plage la plus proche.
 
@@ -57,8 +57,8 @@ Si l’utilisateur entre une valeur dans le champ qui est en dehors de cette pla
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

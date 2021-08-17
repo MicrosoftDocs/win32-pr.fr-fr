@@ -4,12 +4,12 @@ ms.assetid: b5e99ad1-1698-483c-8173-796af33085c4
 title: Rechercher des messages d’erreur du gestionnaire de protocole (searchapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 297ea44c367069a5558355cf6fe81cd9db57ee53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4473e3e235641e5b4bb5d86313b4154cd00ec029fe96d42d8964dab51f33780f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969728"
 ---
 # <a name="search-protocol-handler-error-messages"></a>Rechercher les messages d’erreur du gestionnaire de protocole
 
@@ -40,8 +40,8 @@ Messages d’erreur retournés par les gestionnaires de protocole :
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP avec SP2, applications de \[ Bureau Windows Vista uniquement\]<br/>                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows XP avec SP2, Windows les \[ applications de bureau Vista uniquement\]<br/>                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                   |
 | Composant redistribuable<br/>          | Windows Desktop Search (WDS) 3,0<br/>                                            |
 | En-tête<br/>                   | <dl> <dt>Searchapi. h</dt> </dl> |
 

@@ -4,12 +4,12 @@ description: Les fonctions de partage de gestion de réseau contrôlent les ress
 ms.assetid: 3764c667-2290-48e6-ba3a-c74eee2c27f9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5034d46e233ebb7ed4de691bd79942a3ecdf5263
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e97dc4570c3ef1300322bdf9bd4c9616176e31661319ac77378c61a71667523f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064289"
 ---
 # <a name="share-functions"></a>Fonctions de partage
 
@@ -30,7 +30,7 @@ Les fonctions de partage sont répertoriées ci-dessous.
 
 
 
- 
+ 
 
 Ces fonctions de partage s’appliquent uniquement aux partages sur un serveur de bloc de message serveur (LAN Manager). Ces fonctions de partage ne prennent pas en charge les partages système de fichiers DFS (DFS). Par exemple, la fonction [**NetShareGetInfo**](/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo) peut uniquement récupérer des informations pour une ressource de partage spécifiée sur un serveur SMB. Pour récupérer les informations d’un partage à l’aide d’un fournisseur de réseau différent (WebDAV ou partage DFS, par exemple), utilisez la fonction [**WNetGetConnection**](/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona) .
 
@@ -63,6 +63,6 @@ Pour plus d’informations, consultez la documentation relative à une fonction 
 
 Si vous programmez pour Active Directory, vous pourrez peut-être appeler certaines méthodes d’interface de service d’Active Directory (ADSI) pour obtenir les mêmes fonctionnalités que celles que vous pouvez obtenir en appelant les fonctions de partage de gestion de réseau. Pour plus d’informations, consultez [**IADsFileShare**](/windows/desktop/api/iads/nn-iads-iadsfileshare).
 
- 
+ 
 
- 
+ 

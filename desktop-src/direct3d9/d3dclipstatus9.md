@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 3b22fdfcc136c05ec8fe03ae491612606b2df62f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1820e0646d735a8e1f3817832172d11e83218bbe8748e639084c47b3f77ea5df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123366"
 ---
 # <a name="d3dclipstatus9-structure"></a>D3DCLIPSTATUS9, structure
 
@@ -84,7 +84,7 @@ Indicateurs d’intersection de clips qui décrivent l’état actuel du clip. C
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le découpage est activé pendant le traitement du vertex (par [**ProcessVertices**](/windows/desktop/api), [**DrawPrimitive**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawprimitive)ou d’autres fonctions de dessin), Direct3D calcule un code de découpage pour chaque vertex. Le code de la séquence est une combinaison de \_ \* bits D3DCS. Lorsqu’un vertex se trouve en dehors d’un plan de découpage particulier, le bit correspondant est défini dans le code de découpage. Direct3D conserve l’état du clip à l’aide de **D3DCLIPSTATUS9**, qui a des membres ClipUnion et ClipIntersection. ClipUnion est un or au niveau du bit de tous les codes de clip de vertex et ClipIntersection est une opération and au niveau du bit de tous les codes de clip de vertex. Les valeurs initiales sont égales à zéro pour ClipUnion et 0xFFFFFFFF pour ClipIntersection. Lorsque le \_ découpage D3DRS a la valeur **false**, ClipUnion et ClipIntersection sont définis sur zéro. Direct3D met à jour l’état du clip pendant les appels de dessin. Pour calculer l’état du clip d’un objet particulier, définissez ClipUnion et ClipIntersection sur leur valeur initiale et poursuivez le dessin.
 

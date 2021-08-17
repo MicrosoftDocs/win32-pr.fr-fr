@@ -1,25 +1,25 @@
 ---
-description: Pour prendre en charge à la fois IPv4 et IPv6 sur Windows XP avec Service Pack 1 (SP1) et sur Windows Server 2003, une application doit créer deux sockets, un socket à utiliser avec IPv4 et un socket pour une utilisation avec IPv6.
+description: pour prendre en charge à la fois IPv4 et IPv6 sur Windows XP avec Service Pack 1 (SP1) et sur Windows Server 2003, une application doit créer deux sockets, un socket à utiliser avec IPv4 et un socket pour une utilisation avec IPv6.
 ms.assetid: 7ae49081-ffb5-4eee-b488-2541398e7acc
 title: Dual-Stack Sockets pour les applications Winsock IPv6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 943d8150586bcf14a905ab32dcacaea63b7d6982
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 424580569fb3bed5e81c6232cb99dc2d53a30af1ab2c23c9b4afa6945c0a6eb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106522666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132662"
 ---
 # <a name="dual-stack-sockets-for-ipv6-winsock-applications"></a>Dual-Stack Sockets pour les applications Winsock IPv6
 
-Pour prendre en charge à la fois IPv4 et IPv6 sur Windows XP avec Service Pack 1 (SP1) et sur Windows Server 2003, une application doit créer deux sockets, un socket à utiliser avec IPv4 et un socket pour une utilisation avec IPv6. Ces deux sockets doivent être gérés séparément par l’application.
+pour prendre en charge à la fois IPv4 et IPv6 sur Windows XP avec Service Pack 1 (SP1) et sur Windows Server 2003, une application doit créer deux sockets, un socket à utiliser avec IPv4 et un socket pour une utilisation avec IPv6. Ces deux sockets doivent être gérés séparément par l’application.
 
-Windows Vista et les versions ultérieures offrent la possibilité de créer un seul socket IPv6 pouvant gérer à la fois le trafic IPv6 et IPv4. Par exemple, un socket d’écoute TCP pour IPv6 est créé, placé en mode pile double et lié au port 5001. Ce socket à double pile peut accepter les connexions des clients TCP IPv6 se connectant au port 5001 et à partir de clients TCP IPv4 se connectant au port 5001. Cette fonctionnalité permet une conception d’application considérablement simplifiée et réduit la charge de ressources requise pour la publication d’opérations sur deux sockets distincts.
+Windows Vista et les versions ultérieures offrent la possibilité de créer un seul socket IPv6 pouvant gérer le trafic IPv6 et IPv4. Par exemple, un socket d’écoute TCP pour IPv6 est créé, placé en mode pile double et lié au port 5001. Ce socket à double pile peut accepter les connexions des clients TCP IPv6 se connectant au port 5001 et à partir de clients TCP IPv4 se connectant au port 5001. Cette fonctionnalité permet une conception d’application considérablement simplifiée et réduit la charge de ressources requise pour la publication d’opérations sur deux sockets distincts.
 
 ## <a name="creating-a-dual-stack-socket"></a>Création d’un socket Dual-Stack
 
-Par défaut, un socket IPv6 créé sur Windows Vista et versions ultérieures fonctionne uniquement via le protocole IPv6. Pour créer un socket IPv6 dans un socket à double pile, la fonction [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) doit être appelée avec l’option de socket **IPv6 \_ V6ONLY** pour définir cette valeur sur zéro avant que le socket ne soit lié à une adresse IP. Lorsque l’option de socket **IPv6 \_ V6ONLY** a la valeur zéro, un socket créé pour la famille d’adresses **\_ inet6** de la même façon peut être utilisé pour envoyer et recevoir des paquets vers et à partir d’une adresse IPv6 ou d’une adresse mappée IPv4.
+par défaut, un socket ipv6 créé sur Windows Vista et versions ultérieures fonctionne uniquement via le protocole IPv6. Pour créer un socket IPv6 dans un socket à double pile, la fonction [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) doit être appelée avec l’option de socket **IPv6 \_ V6ONLY** pour définir cette valeur sur zéro avant que le socket ne soit lié à une adresse IP. Lorsque l’option de socket **IPv6 \_ V6ONLY** a la valeur zéro, un socket créé pour la famille d’adresses **\_ inet6** de la même façon peut être utilisé pour envoyer et recevoir des paquets vers et à partir d’une adresse IPv6 ou d’une adresse mappée IPv4.
 
 ## <a name="ip-addresses-with-a-dual-stack-socket"></a>Adresses IP avec un socket Dual-Stack
 
@@ -41,7 +41,7 @@ Pour un socket à double pile lors de l’envoi de datagrammes avec la fonction 
 
 <dl> <dt>
 
-[Guide IPv6 pour les applications Windows Sockets](ipv6-guide-for-windows-sockets-applications-2.md)
+[Guide IPv6 pour les Applications Windows sockets](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [Modification des structures de données pour IPv6 Winsock appications](changing-data-structures-2.md)

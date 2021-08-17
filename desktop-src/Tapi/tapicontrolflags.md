@@ -4,16 +4,16 @@ ms.assetid: 48259444-bf7b-4f0e-9068-2bdf89dde694
 title: Énumération TAPIControlFlags (Ipmsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07cc3e931c69a408d996fa28e6002b6c53c9df87
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 278cc2328335409d4ffcc95ea136826d121acd57776f98aaad947c8fb9ee5d93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139802"
 ---
 # <a name="tapicontrolflags-enumeration"></a>Énumération TAPIControlFlags
 
-\[ Cette énumération n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette énumération n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 L’énumération **TAPIControlFlags** est utilisée par un certain nombre de méthodes pour indiquer si une propriété donnée est contrôlée automatiquement ou manuellement.
 

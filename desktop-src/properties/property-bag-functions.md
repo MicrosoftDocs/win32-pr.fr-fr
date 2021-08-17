@@ -1,19 +1,19 @@
 ---
-description: Cette section décrit un ensemble de fonctions d’assistance Windows utilisées avec les objets IPropertyBag.
+description: cette section décrit un ensemble de Windows fonctions d’assistance utilisées avec les objets IPropertyBag.
 ms.assetid: 4ef85855-7eb6-43ec-bf29-1223eaf1a0cc
 title: Fonctions de jeu de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b694c579c76be96b00fa8392344ac59bdc0ce42f
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 7b33bdcced7c030a476a3ec303ac30b5c5d0f722bceea5358678ba1a2fe6f790
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970938"
 ---
 # <a name="property-bag-functions"></a>Fonctions de jeu de propriétés
 
-Cette section décrit un ensemble de fonctions d’assistance Windows utilisées avec les objets [**IPropertyBag**](/windows/win32/api/oaidl/nn-oaidl-ipropertybag) .
+cette section décrit un ensemble de Windows fonctions d’assistance utilisées avec les objets [**IPropertyBag**](/windows/win32/api/oaidl/nn-oaidl-ipropertybag) .
 
 
 

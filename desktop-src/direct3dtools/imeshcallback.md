@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: fc51c3e74361c989473cb100a5b3aa3452f9671f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2eb80d06fd0a5c4723f3607c3e28ebd9790527a41c4c0ae8b7e36c96ac3aeb2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119484909"
 ---
 # <a name="span-idvspixengineimeshcallbackspanimeshcallback-interface"></a><span id="vspixengine.imeshcallback"></span>Interface IMeshCallback
 

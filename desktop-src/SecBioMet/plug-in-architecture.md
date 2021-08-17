@@ -4,20 +4,20 @@ description: Les unités biométriques exposent les fonctionnalités d’un appa
 ms.assetid: d2835413-70a3-45fa-93e2-3fe78097554f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52e43af9c0ea5a8db57cc0e0970b5625b1ba118f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 33a82f85387698f7fb80c65525004ac541a1108635ca3d929adda7b0cbb932cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119411062"
 ---
 # <a name="plug-in-architecture"></a>Architecture du plug-in
 
-Les périphériques biométriques sont fabriqués dans un large éventail de types et de configurations. Le Windows Biometric Framework résout cette variété en fournissant une architecture extensible qui permet aux développeurs tiers de créer des composants de plug-in personnalisés. Le composant principal est un objet logiciel appelé unité biométrique. Les unités biométriques exposent les fonctionnalités d’un appareil à l’infrastructure par le biais d’une interface standard qui se compose de capteurs, de moteurs et d’adaptateurs de stockage. Les unités biométriques et leurs composants constitutifs sont présentés dans les rubriques suivantes.
+Les périphériques biométriques sont fabriqués dans un large éventail de types et de configurations. le Windows Biometric Framework résout cette variété en fournissant une architecture extensible qui permet aux développeurs tiers de créer des composants de plug-in personnalisés. Le composant principal est un objet logiciel appelé unité biométrique. Les unités biométriques exposent les fonctionnalités d’un appareil à l’infrastructure par le biais d’une interface standard qui se compose de capteurs, de moteurs et d’adaptateurs de stockage. Les unités biométriques et leurs composants constitutifs sont présentés dans les rubriques suivantes.
 
 ## <a name="biometric-unit"></a>Unité biométrique
 
-Le composant central de l’architecture du plug-in Windows Biometric Framework est l’unité biométrique, un objet logiciel qui expose les fonctionnalités d’un appareil biométrique à l’infrastructure par le biais d’une interface standard.
+le composant central de l’architecture du plug-in Windows Biometric Framework est l’unité biométrique, un objet logiciel qui expose les fonctionnalités d’un appareil biométrique à l’infrastructure par le biais d’une interface standard.
 
 Un seul capteur physique est associé à chaque unité biométrique. Le capteur capture les données biométriques et peut également, en fonction de ses capacités matérielles, exécuter d’autres opérations biométriques telles que la correspondance de modèle et le stockage. Les capteurs qui ne prennent pas en charge la correspondance ou le stockage d’intégration nécessitent des modules logiciels supplémentaires pour exécuter ces fonctions. Pour plus d’informations, consultez [adaptateurs](/previous-versions//dd401508(v=vs.85)).
 
@@ -29,12 +29,12 @@ L’illustration suivante montre la façon dont les données circulent via une u
 
 ### <a name="creation"></a>Création
 
-Lorsque le service de biométrie Windows démarre ou lorsqu’il reçoit une notification matérielle de la part du gestionnaire de Plug-and-Play, il recherche tout matériel qui prend en charge le GUID d’interface \_ DEVINTERFACE \_ \_ (E2B5183A-99EA-4cc3-AD6B-80CA8D715B80). Pour chaque périphérique biométrique qui l’a découvert, alors :
+lorsque le Service biométrique Windows démarre ou lorsqu’il reçoit une notification matérielle de la part du gestionnaire de Plug-and-Play, il recherche tout matériel qui prend en charge le GUID d’interface \_ DEVINTERFACE \_ \_ (E2B5183A-99EA-4cc3-AD6B-80CA8D715B80). Pour chaque périphérique biométrique qui l’a découvert, alors :
 
 -   Ouvre un handle vers l’appareil.
--   Interroge les fonctionnalités de l’appareil à l’aide d’une interface de contrôle de pilote biométrique Windows.
+-   interroge les fonctionnalités de l’appareil à l’aide d’une interface de contrôle de pilote biométrique Windows.
 -   Ouvre la clé de registre de l’appareil et tente de localiser les informations relatives aux plug-ins d’adaptateur associés.
--   Ouvre la clé de Registre du service de biométrie Windows et recherche des informations sur tous les plug-ins globaux qui doivent remplacer les valeurs spécifiques à l’appareil trouvées à l’étape précédente.
+-   ouvre la clé de registre Windows biometric Service et recherche des informations sur tous les plug-ins globaux qui doivent remplacer les valeurs spécifiques à l’appareil trouvées à l’étape précédente.
 -   Crée une unité biométrique pour représenter l’appareil et la transmet à un fournisseur de services biométriques.
 
 ### <a name="configuration"></a>Configuration
@@ -48,7 +48,7 @@ Lorsqu’une unité biométrique est déplacée d’un pool de capteurs à un au
 
 ### <a name="shut-down"></a>Éteindre
 
-Lorsque le service de biométrie Windows s’arrête ou que le gestionnaire de Plug-and-Play le notifie qu’une unité a été supprimée, le service supprime toutes les unités biométriques.
+lorsque le service biométrique Windows s’arrête ou lorsque le gestionnaire de Plug-and-Play le notifie qu’une unité a été supprimée, le service supprime toutes les unités biométriques.
 
 ## <a name="adapters"></a>Adaptateurs
 
@@ -58,7 +58,7 @@ Les composants logiciels enfichables appelés adaptateurs connectent une unité 
 -   Un adaptateur de moteur génère des modèles biométriques à partir d’exemples capturés, fait correspondre des exemples à des modèles existants et des modèles d’index.
 -   Un adaptateur de stockage gère les bases de données de modèles.
 
-Les adaptateurs peuvent être chargés et déchargés au moment de l’exécution. Cela permet au service de biométrie Windows de reconfigurer dynamiquement une unité biométrique en la connectant à un ensemble différent de cartes.
+Les adaptateurs peuvent être chargés et déchargés au moment de l’exécution. cela permet au Service de Windows biométrique de reconfigurer dynamiquement une unité biométrique en la connectant à un ensemble différent de cartes.
 
 Enfin, chaque interface de capteur, de moteur et d’adaptateur de stockage expose deux méthodes, **ControlUnit** et **ControlUnitPrivileged**, qui permettent aux applications clientes d’accéder aux fonctionnalités d’adaptateur personnalisées définies par le fournisseur. Cela permet au fournisseur de définir un ensemble quasiment illimité d’opérations de contrôle pour un appareil. En outre, en choisissant la fonction à implémenter, un fournisseur peut choisir de mettre des opérations de contrôle à la disposition des utilisateurs sans privilèges tout en restreignant les autres opérations aux utilisateurs privilégiés.
 
@@ -75,6 +75,6 @@ Deux conditions sont requises :
 
 Ces nombres ne sont pas arbitraires. De nombreuses études ont montré que les êtres humains ont tendance à rencontrer tout ce qui se passe dans un délai de deux secondes dans le cadre du moment « maintenant ». Si l’événement A et l’événement B se produisent dans un délai de deux secondes l’un de l’autre, les utilisateurs perçoivent ces événements comme étant simultanés. Si les événements sont séparés par plus d’environ trois secondes, les gens pensent qu’il y a un retard : ils estiment que quelque chose est trop long. C’est un problème de la psychologie humaine intégrée.
 
- 
+ 
 
- 
+ 

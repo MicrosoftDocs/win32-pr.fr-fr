@@ -4,12 +4,12 @@ ms.assetid: 0cc18e14-7329-49b0-bb07-912fa403db46
 title: Gestion des interfaces à l’aide de GetInterfaceInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39a8ad420f8a2d4fdbacc2bf01e65f5d9fbc9d8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cc2afa6fe0b520e1cc5f952b44bc94052b630f4335bd739b4d7c3582d16e277
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146742"
 ---
 # <a name="managing-interfaces-using-getinterfaceinfo"></a>Gestion des interfaces à l’aide de GetInterfaceInfo
 

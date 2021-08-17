@@ -3,7 +3,7 @@ title: VIDEO. Cursor
 description: L’attribut Cursor spécifie ou récupère la valeur de curseur utilisée lorsque la souris se trouve sur une zone cliquable de la vidéo.
 ms.assetid: 2faaf9cd-47be-47d5-ad4e-8f3bb322d812
 keywords:
-- VIDEO. Cursor lecteur Windows Media
+- VIDEO. cursor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c23ab90b974ad5a7f9cfaf9fcc598371cd0697f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 73c39b40412a02e145b8063f473272184e1d7cf03caaa170de19bde7fad37a50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134242"
 ---
 # <a name="videocursor"></a>VIDEO. Cursor
 
@@ -50,7 +50,7 @@ Cet attribut est une **chaîne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 À des fins de rendu, System est le curseur par défaut. La valeur par défaut Récupérée à partir de cet attribut est "" (chaîne vide).
 

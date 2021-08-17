@@ -5,12 +5,12 @@ ms.assetid: 3b378071-ebd6-47b0-8a9c-3e671505011a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 539eafca38c19855fdb057ceeb6e79cb4613773a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f538259134d539104e55706578778931a1180a1901a9891eec7f62f1f40144b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119423739"
 ---
 # <a name="using-remote-desktop-services-virtual-channels"></a>Utilisation de Services Bureau à distance canaux virtuels
 
@@ -57,11 +57,11 @@ Les API de canal virtuel dynamique (DVC) étendent les API de canal virtuel exis
 
 </dd> </dl>
 
-Si vous avez activé l’application d’un canal virtuel dans votre déploiement Services Bureau à distance, vous pouvez également rendre l’application disponible pour les ordinateurs clients qui accèdent au serveur hôte de session Bureau à distance à l’aide du contrôle ActiveX Bureau à distance. Pour plus d’informations, consultez [utilisation du contrôle ActiveX Bureau à distance avec des canaux virtuels](using-the-remote-desktop-activex-control-with-virtual-channels.md).
+si vous avez activé l’application d’un canal virtuel dans votre déploiement Services Bureau à distance, vous pouvez également mettre l’application à la disposition des ordinateurs clients qui accèdent au serveur hôte de Session bureau à distance à l’aide du contrôle Bureau à distance ActiveX. pour plus d’informations, consultez [utilisation du contrôle Bureau à distance ActiveX avec des canaux virtuels](using-the-remote-desktop-activex-control-with-virtual-channels.md).
 
- 
+ 
 
- 
+ 
 
 
 

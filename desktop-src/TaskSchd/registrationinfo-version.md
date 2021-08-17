@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c312878383c5361317a765cbf84a503244c188a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b08ef170004b7c9791f18cf65360c2446d5c87a6b835fb6fbcb048f47892c470
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059987"
 ---
 # <a name="registrationinfoversion-property"></a>RegistrationInfo. version, propriété
 
@@ -40,7 +40,7 @@ RegistrationInfo.Version As String
 
 Numéro de version de la tâche.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, le numéro de version de la tâche est spécifié à l’aide de l’élément [**version**](taskschedulerschema-version-registrationinfotype-element.md) du schéma planificateur de tâches.
 
@@ -50,8 +50,8 @@ Lors de la lecture ou de l’écriture de données XML pour une tâche, le numé
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

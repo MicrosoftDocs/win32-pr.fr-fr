@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fdb51ef642c216d8e41b774ffc596a8f3d4feb28
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2291cf5dc669d0f0cac64de8ab9cbfc128ecbdd99153c5f96b1cf07a44d9a02b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104520193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442719"
 ---
 # <a name="ms-ds-approx-immed-subordinates-attribute"></a>attribut ms-DS-approx-immed-subordonnés
 
@@ -36,7 +36,7 @@ La valeur retournée par cet attribut est basée sur les tailles d’index. Cett
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1669              |
 | System-ID-GUID    | e185d243-f6ce-4adb-b496-b0c005d7823c |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ La valeur retournée par cet attribut est basée sur les tailles d’index. Cett
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

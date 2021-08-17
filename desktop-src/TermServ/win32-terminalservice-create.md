@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14b776d3e451d84c63be5bb61b98ed22081e1a29
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 911ecec0c0ad2cc248bcfdfa2b4e475538d6eff35e8d7bd568df29302b610ee9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137882"
 ---
 # <a name="create-method-of-the-win32_service-class-remote-desktop-services"></a>Créer une méthode de la classe Win32_Service (Services Bureau à distance)
 
@@ -177,7 +177,7 @@ Le système tente de démarrer avec une bonne configuration.
 *StartMode* \[ dans\]
 </dt> <dd>
 
-Mode de démarrage du service de base Windows.
+mode de démarrage du service de base Windows.
 
 <dt>
 
@@ -202,7 +202,7 @@ Service qui doit être démarré automatiquement par le gestionnaire de contrôl
 
 </dd> <dt>
 
-Manuel
+Manuelle
 </dt> <dd>
 
 Service qui doit être démarré par le gestionnaire de contrôle des services lorsqu’un processus appelle la méthode [**StartService**](win32-terminalservice-startservice.md) .
@@ -249,18 +249,18 @@ Nom du groupe associé au nouveau service. Les groupes d’ordre de chargement s
 *LoadOrderGroupDependencies* \[ dans\]
 </dt> <dd>
 
-Tableau des groupes d’ordre de chargement qui doivent démarrer avant ce service. Chaque élément du tableau est délimité par **null** et la liste se termine par deux valeurs **null** . Dans Visual Basic ou un script, vous pouvez transmettre un vbArray. Si le pointeur est **null** ou s’il pointe vers une chaîne vide, le service n’a pas de dépendances. Les noms de groupes doivent être préfixés par l' **\_ \_ identificateur de groupe SC** (défini dans le fichier winsvc. h) pour le différencier d’un nom de service, car les services et les groupes de services partagent le même espace de noms. La dépendance sur un groupe signifie que ce service peut s’exécuter si au moins un membre du groupe est en cours d’exécution après une tentative de démarrage de tous les membres du groupe.
+Tableau des groupes d’ordre de chargement qui doivent démarrer avant ce service. Chaque élément du tableau est délimité par **null** et la liste se termine par deux valeurs **null** . dans Visual Basic ou un script, vous pouvez transmettre un vbArray. Si le pointeur est **null** ou s’il pointe vers une chaîne vide, le service n’a pas de dépendances. Les noms de groupes doivent être préfixés par l' **\_ \_ identificateur de groupe SC** (défini dans le fichier winsvc. h) pour le différencier d’un nom de service, car les services et les groupes de services partagent le même espace de noms. La dépendance sur un groupe signifie que ce service peut s’exécuter si au moins un membre du groupe est en cours d’exécution après une tentative de démarrage de tous les membres du groupe.
 
 </dd> <dt>
 
 *ServiceDependencies* \[ dans\]
 </dt> <dd>
 
-Tableau qui contient les noms des services qui doivent démarrer avant le démarrage de ce service. Chaque élément du tableau est délimité par **null** et la liste se termine par deux valeurs **null** . Dans Visual Basic ou un script, vous pouvez transmettre un vbArray. Si le pointeur a la **valeur null**, ou s’il pointe vers une chaîne vide, le service n’a pas de dépendances. La dépendance sur un service signifie que ce service ne peut s’exécuter que si le service dont il dépend est en cours d’exécution.
+Tableau qui contient les noms des services qui doivent démarrer avant le démarrage de ce service. Chaque élément du tableau est délimité par **null** et la liste se termine par deux valeurs **null** . dans Visual Basic ou un script, vous pouvez transmettre un vbArray. Si le pointeur a la **valeur null**, ou s’il pointe vers une chaîne vide, le service n’a pas de dépendances. La dépendance sur un service signifie que ce service ne peut s’exécuter que si le service dont il dépend est en cours d’exécution.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne l’une des valeurs répertoriées dans la liste suivante ou toute autre valeur pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -451,14 +451,14 @@ La méthode **Create** est semblable à la méthode [**change**](win32-terminals
 
 Le paramètre *LoadOrderGroup* représente un regroupement de services système définissant les dépendances d’exécution. Les services doivent être lancés dans l’ordre spécifié par le groupe d’ordre de chargement, car les services dépendent les uns des autres. Ces services dépendants requièrent la présence des services antécédents pour fonctionner correctement.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                                |
-| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                          |
+| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                          |
 | Espace de noms<br/>                | Racine \\ cimv2 \\ licences TS<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |

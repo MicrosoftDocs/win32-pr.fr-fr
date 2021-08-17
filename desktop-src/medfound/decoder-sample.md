@@ -4,12 +4,12 @@ ms.assetid: 941e5400-e679-41f4-9830-3548dc6037aa
 title: Exemple de décodeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dd7586534876cfa7f530e675b0342a92bf46b8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 290f8b2db32b12d535feaeef65f37b77e1a29115cd8844a8d8aad29fb7ce699a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449383"
 ---
 # <a name="decoder-sample"></a>Exemple de décodeur
 
@@ -20,7 +20,7 @@ Cet exemple implémente un décodeur vidéo simulé MPEG-1 qui affiche le code d
 ![capture d’écran d’une image vidéo à partir du décodeur](images/decodersample.png)
 
 > [!Note]  
-> Avant le SDK Windows pour Windows 7, cet exemple était inclus dans l' [exemple MPEG1Source](mpeg1source-sample.md).
+> avant la SDK Windows pour Windows 7, cet exemple était inclus dans l' [exemple MPEG1Source](mpeg1source-sample.md).
 
  
 
@@ -44,7 +44,7 @@ Cet exemple illustre les interfaces de Media Foundation suivantes :
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/Decoder).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/Decoder).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

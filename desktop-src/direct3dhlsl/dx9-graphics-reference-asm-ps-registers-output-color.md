@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 316160e39ce172d56e4ecac17dfbd1d53077005b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: 038446bb7d588222e04028727a447b6a47c941ab6a18a3ba4216f46e93440961
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119703"
 ---
 # <a name="output-color-register"></a>Registre des couleurs de sortie
 
@@ -29,7 +29,7 @@ Syntaxe
 
 
 
- 
+ 
 
 Où :
 
@@ -44,9 +44,9 @@ Où :
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 -   Si oCn est écrit, mais qu’il n’existe aucune cible de rendu correspondante, cette écriture dans oCn est ignorée.
 -   Les États de rendu D3DRS \_ COLORWRITEENABLE, D3DRS \_ COLORWRITEENABLE1, D3DRS \_ COLORWRITEENABLE2 et D3DRS \_ COLORWRITEENABLE3 déterminent les composants de oCn qui sont finalement écrits dans la cible de rendu (après Blend, le cas échéant). Si le nuanceur écrit, mais pas tous les composants définis par les \_ \* États de rendu D3DRS COLORWRITEENABLE pour un registre oCn donné, les canaux non écrits produisent des valeurs non définies dans la cible de rendu correspondante. Si aucun des composants d’un oCn n’est écrit, la cible de rendu correspondante ne doit pas être mise à jour (comme indiqué ci-dessus), de sorte que les \_ États de rendu D3DRS COLORWRITEENABLE \* ne s’appliquent pas.
@@ -78,6 +78,6 @@ Où :
 [Plusieurs cibles de rendu (Direct3D 9)](/windows/desktop/direct3d9/multiple-render-targets)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

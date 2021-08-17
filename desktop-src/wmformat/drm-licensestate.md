@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bcec4c571d6e8c88e2bea70f628d2d85eac853ca
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d3b57cd75a50a0a7acfb4dce09bd28f913296b65fb94097e852876fd41e4481e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104507542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119447919"
 ---
 # <a name="drm_licensestate"></a>\_LICENSESTATE DRM
 
@@ -31,7 +31,7 @@ g \_ wszWMDRM \_ LicenseState
 
 **\_binaire de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété ne retourne aucune information.
 
@@ -42,9 +42,9 @@ Cette propriété ne retourne aucune information.
 [**Propriétés DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ec94409366761ee208d3e8a6af59a4d07527d82f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b176cb09efdcb701cdf9cd2c4c85bda54c4ebb03712568b5e1c8240d41277c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148162"
 ---
 # <a name="msvm_virtualethernetswitchbandwidthsettingdata-class"></a>MSVM \_ VirtualEthernetSwitchBandwidthSettingData, classe
 
@@ -68,7 +68,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Brève description de l’objet. Cette propriété est héritée de la classe [**CIM \_ propriété ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement) et est toujours définie sur « paramètres Ethernet de bande passante ».
+Brève description de l’objet. cette propriété est héritée de la classe [**CIM \_ propriété managedelement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement) et a toujours la valeur « Ethernet Switch Bandwidth Paramètres ».
 
 </dd> <dt>
 
@@ -126,7 +126,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Nom complet de l’objet. Cette propriété est héritée de [**CIM \_ SettingData**](/previous-versions//cc136911(v=vs.85))et est toujours définie sur « paramètres Ethernet de bande passante ».
+Nom complet de l’objet. cette propriété est héritée de [**CIM \_ SettingData**](/previous-versions//cc136911(v=vs.85))et est toujours définie sur « Ethernet Switch Bandwidth Paramètres ».
 
 </dd> <dt>
 
@@ -152,8 +152,8 @@ Identifie de façon unique une instance de cette classe. Cette propriété est h
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
