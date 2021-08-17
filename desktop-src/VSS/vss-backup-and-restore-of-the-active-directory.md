@@ -4,12 +4,12 @@ ms.assetid: 66efd5e5-e6c9-4179-b119-1b5b977b0f9f
 title: Sauvegarde et restauration VSS du Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9d4441a05e06e67c23467887857a0f7bbcde73f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e8312e974d705cd193eaaecdaa163a2d408836aedfb14c21ff97f72486efbf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751482"
 ---
 # <a name="vss-backup-and-restore-of-the-active-directory"></a>Sauvegarde et restauration VSS du Active Directory
 

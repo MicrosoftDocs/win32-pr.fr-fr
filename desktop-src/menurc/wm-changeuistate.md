@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cdfec2a26b3b3d160d3d207c338c8ebecd32bf2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3849f9a5d2ccd0cec1bcaba4280e125ea01a669c8535c2dc520ebb98c3a3fcdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869709"
 ---
 # <a name="wm_changeuistate-message"></a>\_Message WM CHANGEUISTATE
 
@@ -76,7 +76,7 @@ Ce paramètre n’est pas utilisé et doit être égal à 0.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fenêtre doit envoyer ce message à lui-même ou à son parent lorsqu’il doit modifier les éléments d’état de l’interface utilisateur de toutes les fenêtres dans la même hiérarchie. La procédure de fenêtre doit laisser [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) traiter ce message afin que l’ensemble de l’arborescence de la fenêtre ait un état d’interface utilisateur cohérent. Lorsque la fenêtre de niveau supérieur reçoit le message **WM \_ CHANGEUISTATE** , elle envoie un message [**WM \_ UPDATEUISTATE**](wm-updateuistate.md) avec les mêmes paramètres à toutes les fenêtres enfants. Lorsque le système traite le message **WM \_ UPDATEUISTATE** , il effectue la modification dans l’état de l’interface utilisateur.
 

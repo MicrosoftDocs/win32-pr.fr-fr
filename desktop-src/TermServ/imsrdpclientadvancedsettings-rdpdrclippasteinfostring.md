@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e830d4875f43a887d7fd8dfe51bf3e70921dd309
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a5e1c022a32ca867d0b3ff667bae4453b495a94e972b70fc7f00d1d8c62d80c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103869774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352927"
 ---
 # <a name="imsrdpclientadvancedsettingsrdpdrclippasteinfostring-property"></a>IMsRdpClientAdvancedSettings :: RdpdrClipPasteInfoString, propriété
 

@@ -1,19 +1,19 @@
 ---
 title: Propriétés et méthodes de sélection et de focus
-description: À l’instar de nombreux éléments des applications exécutées sur les systèmes d’exploitation Microsoft Windows, les objets accessibles sélectionnent et reçoivent le focus clavier. Ces attributs permettent aux utilisateurs d’interagir avec des éléments d’application, de modifier des valeurs et de les manipuler.
+description: à l’instar de nombreux éléments des applications exécutées sur les systèmes d’exploitation Microsoft Windows, les objets accessibles sélectionnent et reçoivent le focus clavier. Ces attributs permettent aux utilisateurs d’interagir avec des éléments d’application, de modifier des valeurs et de les manipuler.
 ms.assetid: 8170fe19-f157-4d7d-8eec-d384e51f1560
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bbb5eee361707ec4876245eef5b0eb352f8dfd6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3bf5c5bc4a60e664c124e7181f998d9e0a7af6ab82ef9b2d4f030f7541d530ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745228"
 ---
 # <a name="selection-and-focus-properties-and-methods"></a>Propriétés et méthodes de sélection et de focus
 
-À l’instar de nombreux éléments des applications exécutées sur les systèmes d’exploitation Microsoft Windows, les objets accessibles *sélectionnent* et reçoivent *le focus* clavier. Ces attributs permettent aux utilisateurs d’interagir avec des éléments d’application, de modifier des valeurs et de les manipuler.
+à l’instar de nombreux éléments des applications exécutées sur les systèmes d’exploitation Microsoft Windows, les objets accessibles *sélectionnent* et reçoivent *le focus* clavier. Ces attributs permettent aux utilisateurs d’interagir avec des éléments d’application, de modifier des valeurs et de les manipuler.
 
 Il existe quelques différences clés entre la sélection des objets et le focus de l’objet :
 
@@ -31,12 +31,12 @@ Microsoft Active Accessibility expose les menus standard créés avec les API de
 > [!Note]  
 > Microsoft Active Accessibility ne prend pas en charge la sélection du texte contenu dans les contrôles Edit et Rich Edit, car le texte est exposé sous la forme d’une chaîne unique dans la propriété [**value**](value-property.md) de ces contrôles.
 
- 
+ 
 
 ## <a name="in-this-section"></a>Dans cette section
 
 -   [Sélection des objets enfants](selecting-child-objects.md)
 
- 
+ 
 
- 
+ 

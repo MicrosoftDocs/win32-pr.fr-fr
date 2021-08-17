@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: e72f19c6449729dca7d8c395596823214824ae44
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4952f11129763d4a60a65d49863f1a311f8f9ede968d6dffdc0337ca715acc0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117772454"
 ---
 # <a name="capicom_key_algorithm-enumeration"></a>CAPICOM \_ Key Algorithm ( \_ énumération)
 
@@ -36,7 +36,7 @@ L’énumération de l' **\_ \_ algorithme de clé CAPICOM** définit des algori
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération est réservée à une utilisation ultérieure.
 
@@ -46,7 +46,7 @@ Cette énumération est réservée à une utilisation ultérieure.
 
 | Condition requise | Valeur |
 |----------------------------|--------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
 | En-tête<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 

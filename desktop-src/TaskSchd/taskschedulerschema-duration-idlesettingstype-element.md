@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 31ad092693c72dcc33357f4b7e21436e2cba8af8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 46523caa10f96d7dd76947540932107106ad0d5c8a4b7f26fc6f6d5bebb40325
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118356566"
 ---
 # <a name="duration-idlesettingstype-element"></a>Élément Duration (idleSettingsType)
 
@@ -53,7 +53,7 @@ L’élément est défini par le type complexe [**idleSettingsType**](taskschedu
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour la programmation de script, ce paramètre inactif est spécifié à l’aide de la propriété [**IdleSettings. IdleDuration**](idlesettings-idleduration.md) .
 
@@ -78,8 +78,8 @@ Le code XML suivant définit un paramètre inactif qui autorise 5 minutes à dé
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

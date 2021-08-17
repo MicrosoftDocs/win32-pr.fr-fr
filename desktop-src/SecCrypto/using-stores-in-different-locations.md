@@ -4,16 +4,16 @@ ms.assetid: bfb7ff48-1d6b-404f-9dd4-6de1898354b7
 title: Utilisation de magasins dans différents emplacements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e22fa4d4eca4748d6c4652a8b33d22a1db492a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e57e1c1584754f0b02b61438a7a6a83694c36cd77c633c52f6bec216721d7c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971405"
 ---
 # <a name="using-stores-in-different-locations"></a>Utilisation de magasins dans différents emplacements
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 L’exemple suivant illustre les aspects de l’utilisation de l’objet [**Store**](store.md) . Il montre les magasins d’ouverture dans le magasin de mémoire CAPICOM, le magasin de l' \_ \_ \_ utilisateur actuel CAPICOM \_ \_ et les emplacements des magasins de l' \_ ordinateur local CAPICOM \_ \_ .
 

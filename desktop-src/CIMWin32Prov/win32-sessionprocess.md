@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f4090da88e8f5d31b0940b0c7d217a930a364b63
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f31473cf1efa0310669523f0481b58d8b54036f738a69191f19a0a52d804eb05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118416814"
 ---
 # <a name="win32_sessionprocess-class"></a>\_Classe SessionProcess Win32
 
@@ -84,7 +84,7 @@ Qualificateurs : [**override**](../wmisdk/standard-qualifiers.md) (« Dependen
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Win32 \_ SessionProcess** retourne l’ensemble de la session de l’administrateur lorsqu’il est connecté avec élévation de privilèges ou lorsqu’il est exécuté à distance. Il s’agit d’une extension du comportement de la classe.
 

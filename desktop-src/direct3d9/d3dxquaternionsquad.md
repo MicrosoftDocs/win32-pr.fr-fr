@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c7bef8671b38ec2e8208a6de0ec7542cf28ffa44
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1ef71912dd5c8efeb25f2ad30dd9746b1cb493aff2aa28dd2008ef764a1135ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117731297"
 ---
 # <a name="d3dxquaternionsquad-function-d3dx9mathh"></a>D3DXQuaternionSquad, fonction (D3dx9math. h)
 
@@ -99,13 +99,13 @@ Paramètre qui indique la distance à interpoler entre les quaternions.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXQUATERNION**](d3dxquaternion.md)\***
 
 Pointeur vers une structure [**D3DXQUATERNION**](d3dxquaternion.md) qui est le résultat de l’interpolation sphérique Quadrangle.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette fonction utilise la séquence suivante d’opérations d’interpolation linéaire sphérique :
 

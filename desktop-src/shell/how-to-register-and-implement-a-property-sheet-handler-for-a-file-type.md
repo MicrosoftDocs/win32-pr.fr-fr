@@ -3,18 +3,18 @@ description: Quand l’utilisateur clique avec le bouton droit sur un membre d�
 title: Comment inscrire et implémenter un gestionnaire de feuille de propriétés pour un type de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77cf54886f7819fa910da23393c6db488ddfee72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ce0451071ba1f454ffae9ca1444f30428909946442f5aead853e74095d0c0c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118049805"
 ---
 # <a name="how-to-register-and-implement-a-property-sheet-handler-for-a-file-type"></a>Comment inscrire et implémenter un gestionnaire de feuille de propriétés pour un type de fichier
 
 Quand l’utilisateur clique avec le bouton droit sur un membre d’un type de fichier pour afficher la feuille de propriétés propriétés, l’interpréteur de commandes appelle les gestionnaires de feuille de propriétés qui sont inscrits pour le type de fichier. Chaque gestionnaire peut ajouter une page personnalisée à la feuille de propriétés par défaut.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
@@ -121,7 +121,7 @@ STDMETHODIMP CShellPropSheetExt::AddPages(LPFNADDPROPSHEETPAGE, lpfnAddPage, LPA
 
 La variable **g \_ HINST** est le handle d’instance de la dll et IDD \_ PAGEDLG est l’ID de ressource du modèle de boîte de dialogue de la page. La fonction **PageDlgProc** est la procédure de boîte de dialogue qui gère les messages de la page. La variable **g \_ DllRefCount** contient le nombre de références de l’objet. La méthode [**AddPages**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages) appelle [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) pour incrémenter le nombre. Toutefois, le décompte de références est libéré par la fonction de rappel, **PageCallbackProc**, lorsque la page va être détruite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir une présentation générale de l’inscription des gestionnaires d’extensions de Shell, consultez [création de gestionnaires d’extensions de Shell](handlers.md).
 

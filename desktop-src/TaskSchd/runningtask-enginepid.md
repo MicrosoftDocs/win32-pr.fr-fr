@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bd725c44fc85e82d3693d9467956d3040aad2bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eed259ccc92e954ae1acde076f0cc09167d15071ea71a33039e7298479875b5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117759072"
 ---
 # <a name="runningtaskenginepid-property"></a>RunningTask. EnginePID, propriété
 
@@ -42,7 +42,7 @@ RunningTask.EnginePID As Integer
 
 ID de processus du moteur qui exécute la tâche.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’ID de processus retourné par cette propriété ne peut pas être ajouté directement à une chaîne. La valeur retournée doit être convertie en une valeur entière en appelant la fonction [CInt](/previous-versions//fctcwhw9(v=vs.85)) sur la valeur retournée.
 
@@ -60,8 +60,8 @@ wscript.echo "Process Id of Engine is " & "ProcessId
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

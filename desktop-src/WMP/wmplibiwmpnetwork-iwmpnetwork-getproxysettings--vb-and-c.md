@@ -3,9 +3,9 @@ title: Méthode IWMPNetwork getProxySettings
 description: La méthode getProxySettings retourne des informations sur les paramètres de proxy pour un protocole.
 ms.assetid: eda4829a-4869-4557-8fe9-8061a1e0f586
 keywords:
-- méthode getProxySettings lecteur Windows Media
-- méthode getProxySettings lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, méthode getProxySettings
+- Lecteur Windows Media de la méthode getProxySettings
+- méthode getProxySettings Lecteur Windows Media, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, méthode getProxySettings
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d970160c07c90e84585c87ed1abf740fbe3c6318
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e69c990b01ed885b80c96e3e36ad28c2793baf618fea68b0e20006390c2adeed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331639"
 ---
 # <a name="iwmpnetworkgetproxysettings-method"></a>IWMPNetwork :: getProxySettings, méthode
 
@@ -77,7 +77,7 @@ Implements IWMPNetwork.getProxySettings
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode échoue sauf si l’application appelante est en cours d’exécution sur l’ordinateur local ou sur l’intranet.
 
@@ -165,7 +165,7 @@ End Select
 [**Interface IWMPNetwork (VB et C#)**](iwmpnetwork--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPNetwork. Setproxysettings n' (VB et C#)**](wmplibiwmpnetwork-iwmpnetwork-setproxysettings--vb-and-c.md)
+[**IWMPNetwork. setproxysettings n' (VB et C#)**](wmplibiwmpnetwork-iwmpnetwork-setproxysettings--vb-and-c.md)
 </dt> </dl>
 
  

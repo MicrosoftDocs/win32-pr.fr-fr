@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e597da8ea1ed4a4291142065e8e06f89d2664e03
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7a828ef50956d9ab5336dfe88fa12bed9f7541633ec4589a9c556511e8487a9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106529248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117734261"
 ---
 # <a name="cd3dx12_pipeline_state_stream_primitive_topology-structure"></a>\_Structure de \_ la \_ \_ topologie primitive du flux d’État du pipeline CD3DX12 \_
 
@@ -72,7 +72,7 @@ Conversion implicite en une structure de [**\_ \_ \_ type de topologie primitive
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 \_ \_ \_ \_ La topologie primitive du flux d’État du pipeline CD3DX12 \_ est une spécialisation typedef du modèle de sous- [**objet de flux d' \_ \_ état \_ \_ du pipeline CD3DX12**](cd3dx12-pipeline-state-stream-subobject.md) , et est définie comme suit :
 

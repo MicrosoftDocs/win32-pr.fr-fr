@@ -4,12 +4,12 @@ ms.assetid: ae7eff53-c932-4cba-9e71-c60f308f0e2d
 title: Fonctionnalités de WS-Discovery supplémentaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce9856605273bec9c757e0b29c389991bf061309
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a7ee4094950c51ed84724abb9eaea493f7dad7cf7803832fb6e8762fdd99811
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118106777"
 ---
 # <a name="additional-ws-discovery-functionality"></a>Fonctionnalités de WS-Discovery supplémentaires
 
@@ -43,7 +43,7 @@ Les appareils et services basés sur WSDAPI ne fournissent pas leur WSDL dans l�
 
 ## <a name="app_max_delay"></a>\_délai maximal de l’application \_
 
-DPWS définit \_ \_ le délai maximal pour l’application, l’intervalle aléatoire entre la réception d’une [sonde](probe-message.md) et l’envoi d’un [ProbeMatch](probematches-message.md), comme 5 000 millisecondes. Le pare-feu Windows requiert que le modèle de réponse de demande/monodiffusion de multidiffusion pour UDP ne fonctionne que dans la fenêtre de pare-feu 4 secondes. Par conséquent, WSDAPI transmet les réponses en 2 500 ms ou moins, au lieu de la fenêtre 5 000 MS décrite par le \_ délai maximal de l’application \_ .
+DPWS définit \_ \_ le délai maximal pour l’application, l’intervalle aléatoire entre la réception d’une [sonde](probe-message.md) et l’envoi d’un [ProbeMatch](probematches-message.md), comme 5 000 millisecondes. Windows Le pare-feu nécessite que le modèle de réponse demande/monodiffusion de multidiffusion pour UDP fonctionne uniquement dans la fenêtre de pare-feu 4 secondes. Par conséquent, WSDAPI transmet les réponses en 2 500 ms ou moins, au lieu de la fenêtre 5 000 MS décrite par le \_ délai maximal de l’application \_ .
 
 ## <a name="iana-port-reservations"></a>Réservations de port IANA
 

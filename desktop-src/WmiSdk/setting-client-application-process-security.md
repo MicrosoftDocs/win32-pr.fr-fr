@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Définition de la sécurité des processus d’application cliente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bfa0a42390ffa433cff01300b0976d40553665c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7be6b3f6e632ade53700bbe81afc7698a06fe2ff038e0c57c1b4a7eed44afa68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739468"
 ---
 # <a name="setting-client-application-process-security"></a>Définition de la sécurité des processus d’application cliente
 
@@ -26,7 +26,7 @@ La procédure suivante décrit les étapes que vous devez effectuer pour défini
 
 **Pour définir la sécurité de WMI sur votre processus d’application**
 
-1.  Déterminez les niveaux de sécurité requis pour les systèmes d’exploitation Windows sur lesquels votre application cliente s’exécute.
+1.  déterminez les niveaux de sécurité requis pour les systèmes d’exploitation Windows sur lesquels votre application cliente s’exécute.
 2.  Appelez la fonction COM [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) pour définir la sécurité par défaut du processus dans lequel l’application cliente s’exécute. Cela permet de déclarer le niveau de sécurité requis par d’autres applications pour accéder au processus dans lequel votre application s’exécute.
 3.  Si vous avez besoin de modifier la sécurité sur un proxy individuel, par exemple sur un autre appel à [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices), appelez [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket).
 4.  Si vous devez contrôler le matériel distant ou un objet système qui nécessite davantage de privilèges, utilisez la fonction [**AdjustTokenPrivileges**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) pour activer les privilèges nécessaires. Notez que vous ne pouvez pas activer un privilège que le processus n’a pas déjà affecté. Pour plus d’informations, consultez la page [vérification de l’accès aux objets privés](/windows/desktop/SecAuthZ/checking-access-to-private-objects).

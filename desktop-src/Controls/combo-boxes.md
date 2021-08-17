@@ -1,17 +1,17 @@
 ---
-title: Zone de liste déroulante (contrôles Windows)
+title: zone de liste déroulante (contrôles Windows)
 description: Cette section contient des informations sur les éléments de programmation utilisés avec les zones de liste déroulante. Une zone de liste déroulante est un type de contrôle unique, défini par la classe COMBOBOX, qui combine une grande partie des fonctionnalités d’une zone de liste et d’un contrôle d’édition.
 ms.assetid: vs|controls|~\controls\comboboxes\comboboxes.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5ab64b07539f19c640a41710eca93ab544fac6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 62c133237bd10f2412dcdfad6ea6ab2148e487e4b25f57b5559276de961dbcf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103941570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117832210"
 ---
-# <a name="combo-box-windows-controls"></a>Zone de liste déroulante (contrôles Windows)
+# <a name="combo-box-windows-controls"></a>zone de liste déroulante (contrôles Windows)
 
 Cette section contient des informations sur les éléments de programmation utilisés avec les zones de liste déroulante. Une *zone de liste déroulante* est un type de contrôle unique, défini par la classe ComboBox, qui combine une grande partie des fonctionnalités d’une zone de liste et d’un contrôle d’édition.
 

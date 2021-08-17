@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e4e3514d4717262a7afab7ae808d747de3a1b635
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 12cb5f1b41cc4450173c3a2fc35d01afb00e1cab9984edabfa3684ab33b8228d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117730807"
 ---
 # <a name="d3dxvec3transformcoord-function-d3dx9mathh"></a>D3DXVec3TransformCoord, fonction (D3dx9math. h)
 
@@ -69,13 +69,13 @@ Pointeur vers la structure [**D3DXMATRIX**](d3dxmatrix.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXVECTOR3**](d3dxvector3.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) qui est le vecteur transformé.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette fonction transforme le vecteur, *PV* (x, y, z, 1), par la matrice, *PM*, en projetant le résultat dans w = 1.
 

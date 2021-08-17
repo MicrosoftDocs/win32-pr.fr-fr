@@ -4,17 +4,17 @@ description: Cet article explique comment vous pouvez implémenter un contrôle 
 ms.assetid: 760ed960-08a3-e967-282e-7fbdbaeb7a4d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a119c5933aae14e2d3e45085dafa241a4dcb11e1
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 195d3272c4051adbafc25d910f01ac98ec036cead314c7f7b04301528508a494
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118396415"
 ---
 # <a name="using-an-input-method-editor-in-a-game"></a>Utilisation d’un éditeur de méthode d’entrée dans un jeu
 
 > [!Note]  
-> Cet article détaille l’utilisation de l’éditeur de méthode d’entrée (IME) Windows XP. Les modifications apportées à l’IME pour Windows Vista ne sont pas entièrement détaillées dans cet article. Pour plus d’informations sur les modifications apportées à l’IME pour Windows Vista, voir [éditeurs de méthode d’entrée (IME)](https://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx#e4eac) dans [Windows Vista-une vue d’ensemble de Ever-Expanding de l’internationalisation](https://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx) sur le portail informatique et de développement global Microsoft.
+> cet article détaille l’utilisation de l’éditeur de méthode d’entrée (IME) Windows XP. les modifications apportées à l’IME pour Windows Vista ne sont pas entièrement détaillées dans cet article. pour plus d’informations sur les modifications apportées à l’ime pour Windows vista, consultez [éditeurs de méthode d’entrée (ime)](https://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx#e4eac) dans [Windows vista-une vue d’ensemble de Ever-Expanding de l’internationalisation](https://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx) sur le portail informatique et de développement Global Microsoft.
 
  
 
@@ -44,7 +44,7 @@ Contenu :
 -   [Rendu](#rendering)
     -   [Indicateur de paramètres régionaux d’entrée](#input-locale-indicator)
     -   [Fenêtre de composition](#composition-window)
-    -   [Lecture et fenêtres candidates](#reading-and-candidate-windows)
+    -   [Lecture et Windows candidat](#reading-and-candidate-windows)
 -   [Limitations](#limitations)
 -   [Informations de Registre](#registry-information)
 -   [Annexe A : versions CHT par système d’exploitation](#appendix-a-cht-versions-per-operating-system)
@@ -54,7 +54,7 @@ Contenu :
 
 ## <a name="default-ime-behavior"></a>Comportement IME par défaut
 
-Les IME mappent l’entrée au clavier aux composants phonétiques ou à d’autres éléments de langage spécifiques à une langue sélectionnée. Dans un scénario classique, l’utilisateur tape des clés qui représentent la prononciation d’un caractère complexe. Si l’IME reconnaît la prononciation comme étant valide, elle présente à l’utilisateur une liste de mots et d’expressions candidats à partir desquels l’utilisateur peut sélectionner un choix final. Le mot choisi est ensuite envoyé à l’application par le biais d’une série de messages Microsoft Windows [**WM \_ char**](/windows/desktop/inputdev/wm-char) . Étant donné que l’IME fonctionne à un niveau inférieur à l’application en interceptant l’entrée au clavier, la présence d’un IME est transparente pour l’application. Presque toutes les applications Windows peuvent facilement tirer parti des éditeurs IME sans être conscients de leur existence et sans nécessiter un codage spécial.
+Les IME mappent l’entrée au clavier aux composants phonétiques ou à d’autres éléments de langage spécifiques à une langue sélectionnée. Dans un scénario classique, l’utilisateur tape des clés qui représentent la prononciation d’un caractère complexe. Si l’IME reconnaît la prononciation comme étant valide, elle présente à l’utilisateur une liste de mots et d’expressions candidats à partir desquels l’utilisateur peut sélectionner un choix final. le mot choisi est ensuite envoyé à l’application par le biais d’une série de messages Microsoft Windows [**WM \_ CHAR**](/windows/desktop/inputdev/wm-char) . Étant donné que l’IME fonctionne à un niveau inférieur à l’application en interceptant l’entrée au clavier, la présence d’un IME est transparente pour l’application. presque toutes les applications Windows peuvent facilement tirer parti des éditeurs de logiciels sans avoir conscience de leur existence et sans nécessiter un codage spécial.
 
 Un IME standard affiche plusieurs fenêtres pour guider l’utilisateur à travers l’entrée de caractères, comme illustré dans les exemples suivants.
 
@@ -65,7 +65,7 @@ Un IME standard affiche plusieurs fenêtres pour guider l’utilisateur à trave
 | R. Fenêtre de lecture                                 | Contient les séquences de touches du clavier ; change généralement après chaque séquence de touches.                                                                                                                                                                                                                                              | chaîne de lecture                               |
 | B. Fenêtre de composition                             | Contient la collection de caractères que l’utilisateur a composés avec l’IME. Ces caractères sont dessinés par l’IME en haut de l’application. Lorsque l’utilisateur notifie l’IME que la chaîne de composition est satisfaisante, l’IME envoie ensuite la chaîne de composition à l’application via une série de \_ messages WM char. | chaîne de composition                           |
 | C. Fenêtre candidate                               | Lorsque l’utilisateur a entré une prononciation valide, l’IME affiche une liste des caractères candidats qui correspondent tous à la prononciation donnée. L’utilisateur sélectionne ensuite le caractère prévu dans cette liste, et l’IME ajoute ce caractère à l’affichage de la fenêtre de composition.                                                    | caractère suivant dans la chaîne de composition |
-| D. Indicateur de [paramètres régionaux d’entrée](/windows/desktop/Intl/nls-terminology) | Affiche la langue sélectionnée par l’utilisateur pour l’entrée au clavier. Cet indicateur est incorporé dans la barre des tâches Windows. La langue d’entrée peut être sélectionnée en ouvrant les options régionales et linguistiques du panneau de configuration, puis en cliquant sur détails dans l’onglet langues.                                                               | \-                                           |
+| D. Indicateur de [paramètres régionaux d’entrée](/windows/desktop/Intl/nls-terminology) | Affiche la langue sélectionnée par l’utilisateur pour l’entrée au clavier. cet indicateur est incorporé dans la barre des tâches Windows. La langue d’entrée peut être sélectionnée en ouvrant les options régionales et linguistiques du panneau de configuration, puis en cliquant sur détails dans l’onglet langues.                                                               | \-                                           |
 
 
 
@@ -83,7 +83,7 @@ CDXUTIMEEditBox est implémenté dans le code DXUT suivant :
 
 ## <a name="overriding-the-default-ime-behavior"></a>Substitution du comportement IME par défaut
 
-Normalement, un IME utilise des procédures Windows standard pour créer une fenêtre (voir [utilisation de Windows](/windows/desktop/winmsg/using-windows)). Dans des circonstances normales, cela produit des résultats satisfaisants. Toutefois, lorsque l’application s’affiche en mode plein écran, comme c’est souvent le cas pour les jeux, les fenêtres standard ne fonctionnent plus et peuvent ne pas s’afficher en plus de l’application. Pour surmonter ce problème, l’application doit dessiner les fenêtres IME lui-même au lieu de s’appuyer sur Windows pour effectuer cette tâche.
+normalement, un IME utilise des procédures de Windows standard pour créer une fenêtre (consultez [utilisation de Windows](/windows/desktop/winmsg/using-windows)). Dans des circonstances normales, cela produit des résultats satisfaisants. Toutefois, lorsque l’application s’affiche en mode plein écran, comme c’est souvent le cas pour les jeux, les fenêtres standard ne fonctionnent plus et peuvent ne pas s’afficher en plus de l’application. pour surmonter ce problème, l’application doit dessiner les fenêtres IME lui-même au lieu de s’appuyer sur Windows pour effectuer cette tâche.
 
 Lorsque le comportement de création de la fenêtre IME par défaut ne fournit pas ce qu’une application requiert, l’application peut remplacer la gestion de la fenêtre IME. Une application peut y parvenir en traitant les messages liés à l’IME et en appelant l’API du [Gestionnaire de méthode d’entrée](/windows/desktop/Intl/input-method-manager) (IMM).
 
@@ -222,9 +222,9 @@ Lorsque le IMM envoie un \_ message WM INPUTLANGCHANGE, CDXUTIMEEditBox doit eff
 
 Le IMM envoie un \_ message WM IME \_ SETCONTEXT lorsqu’une fenêtre de l’application est activée. Le paramètre lParam de ce message contient un indicateur qui indique à l’éditeur de l’éditeur que les fenêtres doivent être dessinées et celles qui ne le doivent pas. Étant donné que l’application gère tout le dessin, elle n’a pas besoin de l’éditeur IME pour dessiner les fenêtres IME. Par conséquent, le gestionnaire de messages de l’application affecte simplement à lParam la valeur 0 et retourne.
 
-Pour que les applications prennent en charge l’IME, un traitement spécial est nécessaire pour le message IME WM \_ IME \_ SETCONTEXT. Dans la mesure où Windows envoie généralement ce message à l’application avant d’appeler la méthode PanoramaInitialize (), le panorama n’a pas la possibilité de traiter l’interface utilisateur pour afficher les fenêtres de liste de candidats.
+Pour que les applications prennent en charge l’IME, un traitement spécial est nécessaire pour le message IME WM \_ IME \_ SETCONTEXT. étant donné que Windows envoie généralement ce message à l’application avant d’appeler la méthode PanoramaInitialize (), le Panorama n’a pas la possibilité de traiter l’interface utilisateur pour afficher les fenêtres de liste de candidats.
 
-L’extrait de code suivant spécifie que les applications Windows n’affichent pas d’interface utilisateur associée à la fenêtre Liste des candidats, ce qui permet au panorama de gérer spécifiquement cette interface utilisateur.
+l’extrait de code suivant indique à Windows applications de ne pas afficher l’interface utilisateur associée à la fenêtre liste des candidats, ce qui permet au Panorama de gérer spécifiquement cette interface utilisateur.
 
 ``` syntax
 case WM_IME_SETCONTEXT:
@@ -343,7 +343,7 @@ Le dessin de la fenêtre de composition est géré dans la méthode RenderCompos
 
 Le curseur doit clignoter pour les IME coréens, mais il ne doit pas être destiné à d’autres éditeurs IME. RenderComposition détermine si le curseur doit être visible en fonction des valeurs du minuteur lorsque l’IME coréen est utilisé.
 
-### <a name="reading-and-candidate-windows"></a>Lecture et fenêtres candidates
+### <a name="reading-and-candidate-windows"></a>Lecture et Windows candidat
 
 Les fenêtres de lecture et de candidat sont rendues par la même méthode CDXUTIMEEditBox, RenderCandidateReadingWindow. Les deux fenêtres contiennent un tableau de chaînes pour la disposition verticale, ou une chaîne unique dans le cas d’une disposition horizontale. La majeure partie du code de RenderCandidateReadingWindow est utilisée pour positionner la fenêtre afin qu’aucune partie de la fenêtre ne se situe en dehors de la fenêtre de l’application et qu’elle soit découpée.
 
@@ -393,9 +393,9 @@ Si aucune condition n’est remplie, la fenêtre de lecture est verticale.
 | Système d'exploitation           | Version de l’IME CHT |
 |----------------------------|-----------------|
 | Windows 98                 | 4,2             |
-| Windows 2000               | 4.3             |
+| Windows 2000               | 4.3             |
 | unknown                    | 4.4             |
-| Windows ME                 | 5.0             |
+| Windows J'                 | 5.0             |
 | Office XP                  | 5,1             |
 | Windows XP                 | 5.2             |
 | Downloadble Web autonome | 6.0             |
@@ -473,7 +473,7 @@ Si la valeur de retour est supérieure à la valeur de uReadingBufLen, tous les 
 
 Cette fonction est implémentée dans l’IME CHT 6,0 ou version ultérieure et peut être acquise par GetProcAddress sur un handle de module IME. le descripteur du module IME peut être obtenu par ImmGetIMEFileName et LoadLibrary.
 
-**Configuration requise**
+**Requirements**
 
 <dl> <dt>
 
@@ -519,7 +519,7 @@ Affichez (ou masquez) la fenêtre de lecture.
 
 Retourne la valeur TRUE en cas de réussite ou FALSe dans le cas contraire.
 
-**Configuration requise**
+**Requirements**
 
 <dl> <dt>
 

@@ -1,19 +1,19 @@
 ---
-title: Mise à l’échelle de l’écran Active Accessibility et Windows Vista
-description: Windows Vista permet aux utilisateurs de modifier le paramètre de points par pouce (dpi) pour que la plupart des éléments d’interface utilisateur de l’écran apparaissent plus grands.
+title: mise à l’échelle de l’écran Active Accessibility et Windows Vista
+description: Windows Vista permet aux utilisateurs de modifier le paramètre de points par pouce (dpi) afin que la plupart des éléments d’interface utilisateur de l’écran apparaissent plus grands.
 ms.assetid: c781fefd-09f0-4340-b3d3-f4e57308f392
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6db8e192dc01d4c7d75f19741cdfac7b3b08d22c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: acf9c1ff6755507541c08b34e183dd751e0941fc646a1f691e4488884e572c79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327059"
 ---
-# <a name="active-accessibility-and-windows-vista-screen-scaling"></a>Mise à l’échelle de l’écran Active Accessibility et Windows Vista
+# <a name="active-accessibility-and-windows-vista-screen-scaling"></a>mise à l’échelle de l’écran Active Accessibility et Windows Vista
 
-Windows Vista permet aux utilisateurs de modifier le paramètre de points par pouce (dpi) pour que la plupart des éléments d’interface utilisateur de l’écran apparaissent plus grands. Bien que cette fonctionnalité soit disponible dans Microsoft Windows, dans les versions précédentes, la mise à l’échelle devait être implémentée par les applications. Dans Windows Vista, le Gestionnaire de fenêtrage effectue une mise à l’échelle par défaut pour toutes les applications qui ne gèrent pas leur propre mise à l’échelle. Les applications clientes Microsoft Active Accessibility doivent prendre en compte cette fonctionnalité.
+Windows Vista permet aux utilisateurs de modifier le paramètre de points par pouce (dpi) afin que la plupart des éléments d’interface utilisateur de l’écran apparaissent plus grands. bien que cette fonctionnalité soit disponible dans Microsoft Windows, dans les versions précédentes, la mise à l’échelle devait être implémentée par les applications. dans Windows Vista, le Gestionnaire de fenêtrage effectue une mise à l’échelle par défaut pour toutes les applications qui ne gèrent pas leur propre mise à l’échelle. Les applications clientes Microsoft Active Accessibility doivent prendre en compte cette fonctionnalité.
 
 ## <a name="scaling-in-windows-vista"></a>Mise à l’échelle dans Windows Vista
 
@@ -50,6 +50,6 @@ La solution est en deux parties :
 
 Si votre application effectue une communication interprocessus directe avec des applications qui ne prennent pas en charge dpi, vous pouvez effectuer une conversion entre les coordonnées logiques et physiques à l’aide des fonctions [**PhysicalToLogicalPoint**](/windows/win32/api/winuser/nf-winuser-physicaltologicalpoint) et [**LogicalToPhysicalPoint**](/windows/win32/api/winuser/nf-winuser-logicaltophysicalpoint) .
 
- 
+ 
 
- 
+ 

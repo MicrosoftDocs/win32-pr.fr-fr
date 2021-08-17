@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 58d8c859502e81b5c5101adac3c8c26539870dd5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2f40301957ec323b8abf7c09829bf3b551e2e1665a811409622d342784d86e54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117758891"
 ---
 # <a name="logontype-simple-type"></a>Type simple logonType
 
@@ -56,7 +56,7 @@ Le type simple **LogonType** définit les valeurs suivantes.
 | S4U                        | L’utilisateur doit se connecter à l’aide d’une connexion S4U (service for user). Lorsqu’une ouverture de session S4U est utilisée, aucun mot de passe n’est stocké par le système et il n’y a aucun accès au réseau ou aux fichiers chiffrés.<br/>                                                                                                                                                          |
 | Mot de passe                   | L’utilisateur doit se connecter à l’aide d’un mot de passe.<br/>                                                                                                                                                                                                                                                                                                              |
 | InteractiveToken           | L’utilisateur doit déjà avoir ouvert une session. La tâche est exécutée uniquement dans une session interactive existante.<br/>                                                                                                                                                                                                                                                   |
-| InteractiveTokenOrPassword | N’est plus utilisé ; actuellement identique au mot de passe.<br/> **Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows server 2012 R2, Windows 8, Windows server 2012, Windows Vista et Windows server 2008 :** La tâche est exécutée dans une session interactive existante ou l’utilisateur doit ouvrir une session à l’aide d’un mot de passe.<br/> <br/> |
+| InteractiveTokenOrPassword | N’est plus utilisé ; actuellement identique au mot de passe.<br/> **Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows Server 2012 R2, Windows 8, Windows Server 2012, Windows Vista et Windows Server 2008 :** la tâche est exécutée dans une session interactive existante ou l’utilisateur doit se connecter à l’aide d’un mot de passe.<br/> <br/> |
 
 
 
@@ -66,8 +66,8 @@ Le type simple **LogonType** définit les valeurs suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

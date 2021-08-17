@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bf86a3005a2b865b2096eddc5ffa9c0c33f848a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9550c072840fabf5d862e32f3bbdc6c26d3b32faf9cf6bf6dcfeae1be400e0a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789094"
 ---
 # <a name="rasadminfreebuffer-function"></a>RasAdminFreeBuffer fonction)
 
-\[Cette fonction est fournie uniquement pour la compatibilité descendante avec Windows NT Server 4,0. Elle retourne un \_ appel \_ d’erreur non \_ implémenté sur Windows Server 2003. Les applications doivent utiliser la fonction [**MprAdminBufferFree**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminbufferfree) .\]
+\[Cette fonction est fournie uniquement pour la compatibilité descendante avec Windows NT Server 4,0. elle retourne un \_ appel \_ d’erreur non \_ implémenté sur Windows Server 2003. Les applications doivent utiliser la fonction [**MprAdminBufferFree**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminbufferfree) .\]
 
 La fonction **RasAdminFreeBuffer** libère de la mémoire qui a été allouée par RAS pour le compte de l’appelant.
 
@@ -67,7 +67,7 @@ Si la fonction échoue, la valeur de retour peut être le code d’erreur suivan
 
 Il n’y a pas d’informations d’erreur étendues pour cette fonction. ne pas appeler [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez la fonction **RasAdminFreeBuffer** pour libérer les tampons alloués par les fonctions [**RasAdminPortEnum**](rasadminportenum.md) et [**RasAdminPortGetInfo**](rasadminportgetinfo.md) .
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 920ae912c599b66a03a25d7bc8ecc9b199036b26
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7b9e0c719bb72116ba84a33f46c81cf243773d4c66e5ff0997066e7228b19db1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117905796"
 ---
 # <a name="interlockedxor-function"></a>InterlockedXor fonction)
 
@@ -28,9 +28,9 @@ Effectue un **Xor** atomique sur la valeur.
 
 ``` syntax
 void InterlockedXor(
-  in  UINT dest,
-  in  UINT value,
-  out UINT original_value
+  in  UINT dest,
+  in  UINT value,
+  out UINT original_value
 );
 ```
 
@@ -69,7 +69,7 @@ Valeur d'origine.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette opération ne peut être effectuée que sur des ressources typées **int** ou **uint** et des variables de mémoire partagée. Il existe trois utilisations possibles de cette fonction. La première est lorsque R est un type de variable de mémoire partagée. Dans ce cas, la fonction effectue un **Xor** atomique avec la valeur du registre de mémoire partagée référencé par *dest*. Le deuxième scénario est lorsque R est un type de variable de ressource. Dans ce scénario, la fonction effectue une **Xor** atomique avec la valeur de l’emplacement de la ressource référencée par *dest*. Enfin, le troisième scénario est lorsque R est un type de variable locale. Dans ce scénario, la fonction réduit à un **Xor** des valeurs de *dest* et *value*. Le résultat de l’opération remplace la valeur dans *dest*. La fonction surchargée a une variable de sortie supplémentaire qui sera définie sur la valeur d’origine de *dest*. Cette opération surchargée est disponible uniquement lorsque R est accessible en lecture et en écriture.
 
@@ -83,7 +83,7 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -95,6 +95,6 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

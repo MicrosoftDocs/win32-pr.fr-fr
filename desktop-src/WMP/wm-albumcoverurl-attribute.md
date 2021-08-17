@@ -3,7 +3,7 @@ title: Attribut WM/AlbumCoverURL
 description: L’attribut WM/AlbumCoverURL est l’URL (Uniform Resource Locator) de la pochette de l’album ou d’une image miniature.
 ms.assetid: 0134867a-7c11-4d50-9ab5-b48c1ca6c473
 keywords:
-- Attribut WM/AlbumCoverURL lecteur Windows Media
+- Lecteur Windows Media de l’attribut WM/AlbumCoverURL
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6939c5451f3ae8f41214a817293e3c7f3cb3b66c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ce3e3d2948419761a139139493e737df1a9a709147613eadd3e077f0f5101f3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118332625"
 ---
 # <a name="wmalbumcoverurl-attribute"></a>Attribut WM/AlbumCoverURL
 
@@ -29,7 +29,7 @@ L’attribut **WM/AlbumCoverURL** est l’URL (Uniform Resource Locator) de la p
 -   [**Éléments de photo**](photo-item-attributes.md)
 -   [**Éléments vidéo**](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour un élément audio, cet attribut est l’URL de la pochette de l’album. Pour un élément photo ou vidéo, cet attribut est l’URL d’une image miniature.
 

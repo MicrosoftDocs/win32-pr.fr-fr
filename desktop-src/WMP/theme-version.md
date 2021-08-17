@@ -1,9 +1,9 @@
 ---
 title: THEMe. version
-description: L’attribut version spécifie ou récupère le numéro de version du lecteur Windows Media pour lequel l’apparence a été créée.
+description: l’attribut version spécifie ou récupère le numéro de version Lecteur Windows Media pour lequel l’apparence a été créée.
 ms.assetid: 74405b82-96a3-4ac2-aba2-24daceb0a429
 keywords:
-- THEMe. version lecteur Windows Media
+- thème. version Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08a8d4050f76219481541d27394fef47434855af
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a224275a581faa35f85094813d0d2378938fdf17398d57ca2eda0d740e748c72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117932524"
 ---
 # <a name="themeversion"></a>THEMe. version
 
-L’attribut **version** spécifie ou récupère le numéro de version du lecteur Windows Media pour lequel l’apparence a été créée.
+l’attribut **version** spécifie ou récupère le numéro de version Lecteur Windows Media pour lequel l’apparence a été créée.
 
 ``` syntax
 theme.version

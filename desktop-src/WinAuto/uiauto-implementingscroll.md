@@ -15,12 +15,12 @@ keywords:
 - interfaces, IScrollProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b525c77a7f89f7adc95a3d90d999f8b243cfcdb6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c1d1cf3c04be18f362a64e619ec4659fac58923f29e6105174057b18a580f8d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324392"
 ---
 # <a name="scroll-control-pattern"></a>Scroll (modèle de contrôle)
 
@@ -44,7 +44,7 @@ Lorsque vous implémentez le modèle de contrôle **Scroll** , notez les convent
 -   Les barres de défilement d’un contrôle conteneur ne prennent pas en charge le modèle de contrôle **Scroll** . Ils doivent prendre en charge le modèle de contrôle [RangeValue](uiauto-implementingrangevalue.md) à la place.
 -   Lorsque le défilement est mesuré sous forme de pourcentage, toutes les valeurs ou quantités liées à la graduation du défilement doivent être normalisées dans une plage de 0 à 100.
 -   La propriété [**IScrollProvider :: HorizontallyScrollable**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontallyscrollable) et la propriété [**VerticallyScrollable**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticallyscrollable) sont indépendantes de la propriété **IsEnabled** .
--   Si la propriété [**IScrollProvider :: HorizontallyScrollable**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontallyscrollable) a la **valeur false**, la propriété [**HorizontalViewSize**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontalviewsize) doit avoir la valeur 100 (100%) la propriété [**HorizontalScrollPercent**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontalscrollpercent) doit être définie sur **UIA \_ ScrollPatternNoScroll** (-1). De même, si la propriété [**VerticallyScrollable**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticallyscrollable) a la **valeur false**, la propriété [**VerticalViewSize**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticalviewsize) doit avoir la valeur 100 (100%) la propriété [**VerticalScrollPercent**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticalscrollpercent) doit être définie sur **UIA \_ ScrollPatternNoScroll** (-1). Cela permet à un client Microsoft UI Automation d’utiliser ces valeurs de propriété dans la méthode [**SetScrollPercent**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-setscrollpercent) tout en évitant une condition de concurrence critique si une direction dans laquelle le client n’est pas intéressé par le défilement est activée.
+-   Si la [**propriété IScrollProvider :: HorizontallyScrollable**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontallyscrollable) a la **valeur false**, la propriété [**HorizontalViewSize**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontalviewsize) doit avoir la valeur 100 (100%) et la propriété [**HorizontalScrollPercent**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontalscrollpercent) la valeur **UIA \_ ScrollPatternNoScroll** (-1). De même, si la propriété [**VerticallyScrollable**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticallyscrollable) a la **valeur false**, la propriété [**VerticalViewSize**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticalviewsize) doit avoir la valeur 100 (100%) et la propriété [**VerticalScrollPercent**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticalscrollpercent) la valeur **UIA \_ ScrollPatternNoScroll** (-1). Cela permet à un client Microsoft UI Automation d’utiliser ces valeurs de propriété dans la méthode [**SetScrollPercent**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-setscrollpercent) tout en évitant une condition de concurrence critique si une direction dans laquelle le client n’est pas intéressé par le défilement est activée.
 -   La propriété [**IScrollProvider :: HorizontalScrollPercent**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontalscrollpercent) est spécifique aux paramètres régionaux. La définition de **HorizontalScrollPercent** sur 100 doit définir l’emplacement de défilement du contrôle sur l’équivalent de sa position la plus à droite pour les langues telles que l’anglais qui sont lues de gauche à droite. Sinon, pour les langues telles que l’arabe, qui sont lues de droite à gauche, la définition de **HorizontalScrollPercent** sur 100 doit définir l’emplacement de défilement à la position la plus à gauche.
 
 ## <a name="required-members-for-iscrollprovider"></a>Membres requis pour **IScrollProvider**
@@ -53,7 +53,7 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
-| Membres nécessaires                                                                  | Type de membre | Notes |
+| Membres nécessaires                                                                  | Type de membre | Remarques |
 |-----------------------------------------------------------------------------------|-------------|-------|
 | [**HorizontalScrollPercent**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontalscrollpercent) | Propriété    | Aucun  |
 | [**VerticalScrollPercent**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticalscrollpercent)     | Propriété    | Aucun  |
@@ -61,12 +61,12 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 | [**VerticalViewSize**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticalviewsize)               | Propriété    | Aucun  |
 | [**HorizontallyScrollable**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontallyscrollable)   | Propriété    | Aucun  |
 | [**VerticallyScrollable**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticallyscrollable)       | Propriété    | Aucun  |
-| [**Scroll**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-scroll)                                   | Méthode      | Aucun  |
+| [**Variable**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-scroll)                                   | Méthode      | Aucun  |
 | [**SetScrollPercent**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-setscrollpercent)               | Méthode      | Aucun  |
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé aucun événement.
 
@@ -83,9 +83,9 @@ Ce modèle de contrôle n’est associé aucun événement.
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

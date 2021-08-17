@@ -3,7 +3,7 @@ title: VIEW. redimensionnable
 description: L’attribut redimensionnable récupère une valeur indiquant si la vue peut être redimensionnée.
 ms.assetid: 4f0e4f31-cf16-498f-823f-da43566043b1
 keywords:
-- AFFICHAGE. lecteur Windows Media redimensionnable
+- VIEW. redimensionnable Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed4d61973e34891d336ea5729ea40478c6c32808
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 622c732ce6a1218fa16bbe70c1ef18d53ba4211abfde9d39fc794ec862348033
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118332907"
 ---
 # <a name="viewresizable"></a>VIEW. redimensionnable
 
@@ -42,7 +42,7 @@ Cet attribut est une valeur **booléenne** en lecture seule avec une valeur par 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 S’il n’y a pas de **TitleBar** et, par conséquent, aucune fenêtre ou bordure, vous devez utiliser la méthode **Size** pour redimensionner l’élément **View** .
 

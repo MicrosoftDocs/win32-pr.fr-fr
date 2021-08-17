@@ -4,12 +4,12 @@ description: Le système gère un ensemble de paramètres d’accessibilité qui
 ms.assetid: efa289bb-5965-4002-93df-116ab2621efc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5f089b28d36ffa982ca6568996126a812263af9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a289162366f5d69c501ffbea55108167324c11a1c865184105afd587f36bcfd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106518026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327787"
 ---
 # <a name="accessibility-parameters"></a>Paramètres d’accessibilité
 
@@ -32,7 +32,7 @@ Windows prend en charge les paramètres d’accessibilité suivants.
 
 
 
- 
+ 
 
 Les paramètres système suivants sont utiles pour les applications d’accessibilité. Pour plus d’informations, consultez fonction [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) .
 
@@ -47,15 +47,15 @@ Les paramètres système suivants sont utiles pour les applications d’accessib
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[À propos des fonctionnalités d’accessibilité Windows](about-windows-accessibility-features.md)
+[à propos des fonctionnalités d’accessibilité Windows](about-windows-accessibility-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

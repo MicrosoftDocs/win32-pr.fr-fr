@@ -1,12 +1,12 @@
 ---
 title: Session. Timeout, propriété (WSManDisp. h)
-description: Définit et obtient la durée maximale, en millisecondes, pendant laquelle l’application cliente attend Windows Remote Management exécuter ses opérations.
+description: définit et obtient la durée maximale, en millisecondes, pendant laquelle l’application cliente attend Windows Remote Management exécuter ses opérations.
 ms.assetid: ca35722a-1fd3-48bf-a11b-4624cb81aae3
 ms.tgt_platform: multiple
 keywords:
-- Propriété Timeout Windows Remote Management
-- Propriété Timeout Windows Remote Management, objet session
-- Windows Remote Management de l’objet session, propriété Timeout
+- propriété Timeout Windows Remote Management
+- propriété Timeout Windows Remote Management, objet Session
+- Windows Remote Management de l’objet Session, propriété Timeout
 topic_type:
 - apiref
 api_name:
@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6c28b5284d9061e1c80fb3c66193d394c347a18
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4731e4f76ee890bc925a14b69c8ffb3d50e47406939b76183359021242a5fadc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117743240"
 ---
 # <a name="sessiontimeout-property"></a>Session. Timeout (propriété)
 
-Définit et obtient la durée maximale, en millisecondes, pendant laquelle l’application cliente attend Windows Remote Management exécuter ses opérations.
+définit et obtient la durée maximale, en millisecondes, pendant laquelle l’application cliente attend Windows Remote Management exécuter ses opérations.
 
 Cette propriété est en lecture/écriture.
 
@@ -43,7 +43,7 @@ Session.Timeout As long
 
 Valeur du délai d’attente, en millisecondes. Lorsque la valeur du délai d’attente est dépassée, une erreur d’exécution se produit.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur du délai d’attente peut être définie avant chaque opération effectuée par l’agent. Si une valeur de délai d’attente n’est pas spécifiée, l’agent définit la valeur du délai d’attente.
 

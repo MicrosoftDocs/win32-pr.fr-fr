@@ -3,7 +3,7 @@ title: Message MCIWNDM_SETTIMEFORMAT (VFW. h)
 description: Le \_ message MCIWNDM SETTIMEFORMAT définit le format d’heure d’un appareil MCI. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndSetTimeFormat.
 ms.assetid: 7de82094-6d35-44fd-88e7-ebd18a558cfd
 keywords:
-- Message MCIWNDM_SETTIMEFORMAT Windows Multimedia
+- message MCIWNDM_SETTIMEFORMAT Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bcec1f0db5accad93211bf1eb6f1c9297e2b9f33
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79620aecba07b11ed63dfc43fd2d70b41728586b36649b4b13aace9d1364197c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802893"
 ---
 # <a name="mciwndm_settimeformat-message"></a>\_Message MCIWNDM SETTIMEFORMAT
 
@@ -49,7 +49,7 @@ Pointeur vers une mémoire tampon contenant la chaîne terminée par le caractè
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application peut spécifier des formats d’heure autres que des images ou des millisecondes tant que les formats sont pris en charge par l’appareil MCI. Les formats incontinus, tels que Tracks et SMPTE, peuvent entraîner un comportement erratique du TrackBar. Pour ces formats d’heure, vous souhaiterez peut-être désactiver la barre d’outils à l’aide de la macro [**MCIWndChangeStyles**](/windows/desktop/api/Vfw/nf-vfw-mciwndchangestyles) et en spécifiant le \_ style de fenêtre NOPLAYBAR MCIWNDF.
 

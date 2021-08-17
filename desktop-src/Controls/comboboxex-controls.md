@@ -4,12 +4,12 @@ description: Les contrôles ComboBoxEx sont des contrôles de zone de liste dér
 ms.assetid: a4b1aa79-40c4-4eff-801c-4f308d86fb35
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 427abef015474047d1842d13e5fb40640d0406c5
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 993fa8db73246c62f8ceee805e767c13ffdcc15a12d0222e09f308324cc97bab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831835"
 ---
 # <a name="about-comboboxex-controls"></a>À propos des contrôles ComboBoxEx
 
@@ -49,7 +49,7 @@ Il existe également plusieurs [styles étendus de contrôle ComboBoxEx](combobo
 > [!Note]  
 > Le [**style \_ simple CBS**](combo-box-styles.md) peut ne pas fonctionner correctement dans certains cas.
 
- 
+ 
 
 Étant donné que le contrôle ComboBoxEx effectue Owner Draw tâches pour vous en fonction d’une liste d’images affectée, le style [**CBS \_ OWNERDRAWFIXED**](combo-box-styles.md) est implicite ; vous n’avez pas besoin de l’utiliser lors de la création du contrôle. Étant donné que les listes d’images sont utilisées pour fournir des graphiques d’élément, le style [**CBS \_ OWNERDRAWVARIABLE**](combo-box-styles.md) ne peut pas être utilisé. Le contrôle ComboBoxEx prend également en charge les [styles étendus de contrôle ComboBoxEx](comboboxex-control-extended-styles.md) qui fournissent des fonctionnalités supplémentaires.
 
@@ -75,7 +75,7 @@ Les contrôles ComboBoxEx prennent en charge les attributs d’élément de rapp
 
 
 
- 
+ 
 
 Le contrôle demande des informations sur les éléments de rappel en envoyant des codes de notification [CBEN \_ GETDISPINFO](cben-getdispinfo.md) . Cette notification est envoyée sous la forme d’un message [**WM \_ Notify**](wm-notify.md) . Lorsque votre application traite ce message, elle doit fournir les informations demandées pour le contrôle. Si vous définissez le membre **Mask** de la structure [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) associée sur CBEIF \_ di \_ SETITEM, le contrôle stocke les données d’élément et ne les redemande pas.
 
@@ -88,7 +88,7 @@ La structure [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-combob
 > [!Note]  
 > Si vous utilisez le [**style \_ simple CBS**](combo-box-styles.md) , les icônes ne sont pas affichées.
 
- 
+ 
 
 ## <a name="about-comboboxex-control-notification-messages"></a>À propos des messages de notification de contrôle ComboBoxEx
 
@@ -108,7 +108,7 @@ Voici les codes de notification spécifiques à ComboBoxEx qui sont envoyés par
 
 
 
- 
+ 
 
 ## <a name="comboboxex-control-message-forwarding"></a>ComboBoxEx le transfert des messages de contrôle
 
@@ -139,6 +139,6 @@ Voici les messages Windows qu’un contrôle ComboBoxEx transmet à sa fenêtre 
 -   [**WM \_ COMMANDE**](/windows/desktop/menurc/wm-command) (y compris toutes les \_ notifications CBN.)
 -   [**\_notification WM**](wm-notify.md)
 
- 
+ 
 
- 
+ 

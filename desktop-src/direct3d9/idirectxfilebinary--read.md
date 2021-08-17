@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 60548640fbbb0e67909eab1fed2df24a3465bf95
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2e0c926580df3471ae314d2c6127b38bf3c2231946010a0ab58500125edc6f39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104043152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728985"
 ---
 # <a name="idirectxfilebinaryread-method"></a>IDirectXFileBinary :: Read, méthode
 

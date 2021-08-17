@@ -4,25 +4,25 @@ description: L’outil AccScope permet aux développeurs et aux testeurs d’év
 ms.assetid: 7C4D78CD-CDDA-8369-B747-6224C152A997
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d057e818a0fe01ef6f219f1a03d82190d21ac14
-ms.sourcegitcommit: 305298a7727a428310fa138b45a933bcd7ef2532
+ms.openlocfilehash: a4e55aa40822b786ee69185abe753bb0bacd65345d042526a126b4c8343a2639
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/25/2020
-ms.locfileid: "104562513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327719"
 ---
 # <a name="accessibility-tools---accscope"></a>Outils d’accessibilité-AccScope
 
 L’outil **AccScope** permet aux développeurs et aux testeurs d’évaluer l’accessibilité de leur application pendant le développement et la conception de l’application, plutôt que dans les phases de test tardive du cycle de développement d’une application. Le test peut même démarrer dès les premières phases de prototypage. **AccScope** peut visualiser la manière dont un lecteur d’écran expose les informations UI Automation fournies par une application, et peut afficher les zones où vous pouvez ajouter des informations ou une prise en charge à votre application pour améliorer son accessibilité.
 
 > [!NOTE]
-> **AccScope** est un outil hérité. Nous vous recommandons d’utiliser à la place [Accessibility Insights](https://accessibilityinsights.io/) .
+> **AccScope** est un outil hérité. nous vous recommandons d’utiliser à la place l' [accessibilité Informations](https://accessibilityinsights.io/) .
 
 ## <a name="about-accscope"></a>À propos de AccScope
 
 **AccScope** est installé avec le kit de développement logiciel (SDK) Windows. Il se trouve dans le \\ dossier bin \\ < *version* > \\ < *Platform* > \\ AccScope du chemin d’installation du kit de développement logiciel (SDK). Exécutez le programme AccScope.exe.
 
-**AccScope** est une application de bureau, pas une application du Windows Store. Vous pouvez l’utiliser pour examiner n’importe quelle application qui s’affiche sous la forme d’une fenêtre, y compris une application de bureau ou une application du Windows Store.
+**AccScope** est une application de bureau, pas une application du windows Store Windows. vous pouvez l’utiliser pour examiner n’importe quelle application qui s’affiche sous la forme d’une fenêtre, y compris une application de bureau ou une application du windows Store Windows.
 
 Vous devrez peut-être exécuter **AccScope** en tant qu’administrateur la première fois que vous l’utilisez pour activer le mode narrateur.
 
@@ -40,7 +40,7 @@ Vous devrez peut-être exécuter **AccScope** en tant qu’administrateur la pre
     > [!Note]  
     > **AccScope** et sa cible doivent être exécutées sur le même affichage.
 
-     
+     
 
 - Sélectionnez **focus automatique** pour permettre à AccScope de modifier la fenêtre cible chaque fois qu’un utilisateur déplace le focus vers la fenêtre (à l’aide de la souris ou du clavier).
 - Sélectionnez **actualisation automatique** pour activer le mode **AccScope** qui actualise toutes les données d’accessibilité de la fenêtre cible toutes les 5 secondes. Cela est utile si les données Microsoft UI Automation de la fenêtre cible changent constamment.
@@ -102,7 +102,7 @@ Voici quelques aspects spécifiques de votre application pour tester le scénari
 - **Ordre des éléments :** Vérifiez que l’ordre dans lequel le narrateur lit vos contrôles est exact, en fonction des chiffres (cercles verts) affichés dans les visualisations. Si les éléments ne sont pas dans l’ordre attendu pour la lecture, modifiez la structure de l’interface utilisateur de l’application et l’arborescence UI Automation obtenue, puis effectuez un test à nouveau jusqu’à ce que vous ayez vérifié que vos éléments se trouvent dans l’ordre de lecture attendu.
 - **Texte parlé :** Déplacez la souris dans la visualisation et pointez sur chacun des rectangles d’élément pour afficher les info-bulles pour chaque élément. En mode narrateur, les info-bulles affichent une entrée de **texte narrateur** qui est littéralement le texte que le narrateur lit. En général, ce texte est composé du **nom** et du **type de contrôle**. Vérifiez qu’il s’agit des bonnes informations pour chaque contrôle de votre interface utilisateur. Si des informations sont incorrectes, modifiez les propriétés UI Automation via les techniques activées par votre infrastructure d’interface utilisateur particulière pour ce faire. (Si **le type de contrôle** est inattendu, vous devrez peut-être utiliser un autre contrôle, car il est souvent exclusivement contrôlé par les implémentations de contrôle de l’infrastructure d’interface utilisateur.) Ensuite, testez à nouveau et vérifiez que le **texte du narrateur** est correct.
 - **Disposition des éléments :** Vérifiez chacun des cas suivants :
-    - Vérifiez que les éléments redondants ne sont pas exposés par Narrator. Un exemple d’élément redondant est le contrôle d’évaluation de chaque élément de mosaïque du Windows Store.
+    - Vérifiez que les éléments redondants ne sont pas exposés par Narrator. un exemple d’élément redondant est le contrôle d’évaluation de chaque élément de mosaïque Windows Store.
     - Vérifiez que les éléments importants (éléments dont l’utilisateur a besoin pour accomplir les tâches clés dans l’application) s’affichent dans la navigation des éléments du narrateur.
     - Si vous utilisez la disposition **visuelle** et qu’un élément est manquant parce que les contrôles se chevauchent, basculez en mode **liste** pour voir la séquence que le narrateur signale.
     - Vérifiez que la structure de l’arborescence UI Automation est précise et attendue pour votre application.

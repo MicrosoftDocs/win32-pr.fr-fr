@@ -4,12 +4,12 @@ ms.assetid: CB05B5F8-BE15-4BE0-A651-F6E8912D649D
 title: Interfaces (Windows Runtime)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f627a77f91417b16d8bfc3e940036910003c40f0
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 468944bcd2437309d953fe53e64e36366ca0cd7ac6ad4d8c32aa9c8d71f91ca7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106543380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741643"
 ---
 # <a name="interfaces"></a>Interfaces
 
@@ -42,21 +42,21 @@ ms.locfileid: "106543380"
 | [**ICompositionGraphicsDeviceInterop**](/windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiongraphicsdeviceinterop) | Interface d’interopérabilité native qui permet d’obtenir et de définir le périphérique graphique. |
 | [**IContactManagerInterop**](/previous-versions//dn302109(v=vs.85)) | Permet d’accéder aux méthodes [**ContactManager**](/uwp/api/Windows.ApplicationModel.Contacts.ContactManager?view=winrt-19041) dans une application qui gère plusieurs fenêtres. |
 | [**ICoreApplication**](/previous-versions//hh438365(v=vs.85)) | Permet aux applications de gérer les modifications d’État, de gérer les fenêtres et de les intégrer à divers frameworks d’interface utilisateur. |
-| [**ICoreApplicationExit**](/previous-versions//hh438366(v=vs.85)) | Permet d’arrêter l’exécution des applications du Windows Store. |
+| [**ICoreApplicationExit**](/previous-versions//hh438366(v=vs.85)) | fournit les moyens pour Windows les applications du windows Store de s’arrêter. |
 | [**ICoreApplicationInitialization**](/previous-versions//hh438370(v=vs.85)) | Contient une méthode Run qui est utilisée pour démarrer l’objet application à partir du point d’entrée d’une application. |
 | [**ICoreApplicationView**](/previous-versions//hh438372(v=vs.85)) | Représente une vue d’une application. |
 | [**ICoreImmersiveApplication**](/previous-versions//hh438382(v=vs.85)) | Contient des méthodes pour gérer des vues dans une application. |
-| [**ICoreInputInterop**](/windows/desktop/api/corewindow/nn-corewindow-icoreinputinterop) | Active une source d’entrée sur l’objet [**CoreInput**](https://www.bing.com/search?q=**CoreInput**) d’une application du Windows Store. |
+| [**ICoreInputInterop**](/windows/desktop/api/corewindow/nn-corewindow-icoreinputinterop) | active une source d’entrée sur l’objet [**CoreInput**](https://www.bing.com/search?q=**CoreInput**) de l’application du Store Windows. |
 | [**ICoreWindowInterop**](/windows/desktop/api/corewindow/nn-corewindow-icorewindowinterop) | Permet aux applications d’obtenir la fenêtre handleof la fenêtre ([**CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow?view=winrt-19041)) associée à cette interface. |
 | [**IDllServerActivatableClassRegistration**](/windows/win32/api/activationregistration/nn-activationregistration-idllserveractivatableclassregistration) | Permet d’obtenir les informations d’inscription d’un serveur in-process. |
-| [**IErrorReportingSettings**](/previous-versions//br205818(v=vs.85)) | Fournit l’intégration du débogueur pour les applications Windows Runtime. |
+| [**IErrorReportingSettings**](/previous-versions//br205818(v=vs.85)) | fournit l’intégration du débogueur pour les applications Windows Runtime. |
 | [**IEventHandler<T>**](/previous-versions//hh438385(v=vs.85)) | Représente la méthode qui gérera un événement qui a des données d’événement de type **T**. |
 | [**IExeServerActivatableClassRegistration**](/windows/win32/api/activationregistration/nn-activationregistration-iexeserveractivatableclassregistration) | Permet d’obtenir les informations d’inscription d’un serveur hors processus. |
 | [**IExeServerRegistration**](/windows/win32/api/activationregistration/nn-activationregistration-iexeserverregistration) | Représente un serveur hors processus inscrit. |
 | [**IFindReferenceTargetsCallback**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback) | Définit l’interface pour les rappels à partir de [**IReferenceTracker :: FindTrackerTargets**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-findtrackertargets). L’implémentation de cette interface doit passer toutes les instances [**IReferenceTrackerTarget**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget) qu’elle trouve à la méthode **FoundTrackerTarget** . |
 | [**IInputPaneInterop**](/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop) | Permet l’accès aux membres de la classe [**InputPane**](/uwp/api/Windows.UI.ViewManagement.InputPane?view=winrt-19041) dans une application de bureau. |
 | [**IInputStream**](/previous-versions//hh438387(v=vs.85)) | Permet d’obtenir une opération de lecture asynchrone sur un flux séquentiel d’octets. |
-| [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable) | Fournit les fonctionnalités requises pour toutes les classes Windows Runtime. |
+| [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable) | fournit les fonctionnalités requises pour toutes les classes Windows Runtime. |
 | [**IIterable<T>**](/previous-versions//br205825(v=vs.85)) | Expose l’itérateur, qui prend en charge une itération simple sur une collection d’un type spécifié. |
 | [**IIterator<T>**](/previous-versions//br205827(v=vs.85)) | Prend en charge l’itération sur une collection. |
 | [**IKeyValuePair<K, V>**](/previous-versions//br205831(v=vs.85)) | Représente une paire clé-valeur. |
@@ -80,15 +80,15 @@ ms.locfileid: "106543380"
 | [**IOplockBreakingHandler**](/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-ioplockbreakinghandler) | Cette interface n’est pas implémentée actuellement. |
 | [**IOutputStream**](/previous-versions//hh438390(v=vs.85)) | Permet d’obtenir une opération d’écriture asynchrone sur un flux séquentiel d’octets. |
 | [**IPdfRendererNative**](/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative) | Représente une API hautes performances permettant d’afficher une seule page d’un fichier PDF (portable document format). |
-| [**IPackageDebugSettings**](/previous-versions//hh438393(v=vs.85)) | Permet aux développeurs du débogueur de contrôler le cycle de vie d’une application du Windows Store, par exemple lorsqu’elle est suspendue ou reprise. |
-| [**IPlayToManagerInterop**](/windows/desktop/api/playtomanagerinterop/nn-playtomanagerinterop-iplaytomanagerinterop) | Permet d’accéder aux méthodes [**PlayToManager**](/uwp/api/Windows.Media.PlayTo.PlayToManager?view=winrt-19041) dans une application du Windows Store qui gère plusieurs fenêtres. |
-| [**IPrintManagerInterop**](/windows/desktop/api/printmanagerinterop/nn-printmanagerinterop-iprintmanagerinterop) | Permet d’accéder aux méthodes [**PrintManager**](/uwp/api/Windows.Graphics.Printing.PrintManager?view=winrt-19041) dans une application du Windows Store qui gère plusieurs fenêtres. |
-| [**IPropertyValue**](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvalue) | Représente une valeur dans un magasin de propriétés Windows Runtime. |
+| [**IPackageDebugSettings**](/previous-versions//hh438393(v=vs.85)) | permet aux développeurs du débogueur de contrôler le cycle de vie d’une application Windows Store, par exemple lorsqu’elle est interrompue ou reprise. |
+| [**IPlayToManagerInterop**](/windows/desktop/api/playtomanagerinterop/nn-playtomanagerinterop-iplaytomanagerinterop) | permet l’accès aux méthodes [**PlayToManager**](/uwp/api/Windows.Media.PlayTo.PlayToManager?view=winrt-19041) dans Windows une application du windows Store qui gère plusieurs fenêtres. |
+| [**IPrintManagerInterop**](/windows/desktop/api/printmanagerinterop/nn-printmanagerinterop-iprintmanagerinterop) | permet l’accès aux méthodes [**PrintManager**](/uwp/api/Windows.Graphics.Printing.PrintManager?view=winrt-19041) dans Windows une application du windows Store qui gère plusieurs fenêtres. |
+| [**IPropertyValue**](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvalue) | représente une valeur dans un magasin de propriétés Windows Runtime. |
 | [**IPropertyValueStatics**](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics) | Crée les objets [**IPropertyValue**](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvalue) que vous pouvez stocker dans une banque de propriétés. |
 | [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)) | Permet d’obtenir un lecteur d’octets asynchrone ou un writer d’octet positionné à l’emplacement spécifié sur un flux d’octets d’accès aléatoire. |
 | [**IRandomAccessStreamFileAccessMode**](/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-irandomaccessstreamfileaccessmode) | Fournit l’accès au mode d’accès aux fichiers utilisé lors de l’appel de la méthode [**StorageFile. OpenAsync**](/uwp/api/Windows.Storage.StorageFile?view=winrt-19041) pour ouvrir le flux d’octets à accès aléatoire. |
-| [**IReference<T>**](/previous-versions//br224583(v=vs.85)) | Permet d’étendre le système de propriétés Windows Runtime pour les énumérations définies par l’utilisateur, les structures et les types délégués. |
-| [**IReferenceArray<T>**](/previous-versions//br224584(v=vs.85)) | Permet d’étendre le système de propriétés Windows Runtime pour les tableaux d’énumérations définies par l’utilisateur, de structures et de types délégués. |
+| [**IReference<T>**](/previous-versions//br224583(v=vs.85)) | permet d’étendre le système de propriétés Windows Runtime pour les énumérations définies par l’utilisateur, les structures et les types délégués. |
+| [**IReferenceArray<T>**](/previous-versions//br224584(v=vs.85)) | permet d’étendre le système de propriétés Windows Runtime pour les tableaux d’énumérations définies par l’utilisateur, de structures et de types délégués. |
 | [**IReferenceTracker**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetracker) | Définit l’interface implémentée par l’infrastructure XAML pour la gestion des références d’objet XAML. |
 | [**IReferenceTrackerHost**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost) | Définit une interface qui fournit les services globaux utilisés par le système de garbage collection (GC) utilisé par l’infrastructure XAML. |
 | [**IReferenceTrackerManager**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager) | Définit l’interface pour un gestionnaire de références d’objet XAML. Implémentez cette interface pour gérer des instances de [**IReferenceTracker**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetracker) sur des objets XAML. |

@@ -4,9 +4,9 @@ description: Invoque une méthode et retourne les résultats de l'appel de la m�
 ms.assetid: c83d0631-2efb-47d9-abcf-ab0c8de06c36
 ms.tgt_platform: multiple
 keywords:
-- Appeler la méthode Windows Remote Management
-- Méthode Invoke Windows Remote Management, objet session
-- Windows Remote Management d’objet de session, méthode Invoke
+- appeler la méthode Windows Remote Management
+- méthode Invoke Windows Remote Management, objet Session
+- Windows Remote Management d’objet de Session, méthode Invoke
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 117c688b616f377730524a09234b1dc38a4996c2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ac2afa20390890c53a7362d776c1df7c84d0a638e7fcb10269c901d194a50dea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117743250"
 ---
 # <a name="sessioninvoke-method"></a>Session. Invoke, méthode
 
@@ -60,7 +60,7 @@ Identificateur de la ressource à récupérer.
 
 Ce paramètre peut contenir l’un des éléments suivants :
 
--   URI avec ou sans [*sélecteurs*](windows-remote-management-glossary.md). Dans l’exemple de Visual Basic Scripting Edition (VBScript) suivant, la clé est spécifiée par `Win32_Service?Name=winmgmt` .
+-   URI avec ou sans [*sélecteurs*](windows-remote-management-glossary.md). dans l’exemple VBScript (Visual Basic scripting Edition) suivant, la clé est spécifiée par `Win32_Service?Name=winmgmt` .
 
     ```VB
     strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/" _ 

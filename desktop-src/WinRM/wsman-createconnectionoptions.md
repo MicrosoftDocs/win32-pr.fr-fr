@@ -5,8 +5,8 @@ ms.assetid: 3669a5fe-8305-4fa3-aa75-fafefcd8b33d
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode CreateConnectionOptions
-- Méthode CreateConnectionOptions Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode CreateConnectionOptions
+- méthode CreateConnectionOptions Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode CreateConnectionOptions
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e051b65e7ab85f11d6a10b94573082da8823ce50
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3a4bd1218fcf6ca228cbc7538434b00b7b4e80d4c5b2df54807e031c11c14f99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742666"
 ---
 # <a name="wsmancreateconnectionoptions-method"></a>Méthode WSMan. CreateConnectionOptions
 
@@ -45,7 +45,7 @@ Cette méthode n’a aucun paramètre.
 
 Objet [**ConnectionOptions**](connectionoptions.md) utilisé pour spécifier une paire nom d’utilisateur/mot de passe utilisée pour identifier un utilisateur à des fins d’authentification.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La syntaxe suivante est utilisée pour appeler cette méthode.
 

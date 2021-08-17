@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3867e08dd001a035a3ab25da056f75c1e73eeeef
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c7ed2a597c1b92245a34dae510c079a5b5aa7a4e7893a78dbb70d7bc5988d580
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106523156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118357139"
 ---
 # <a name="daysofweek-monthlydayofweekscheduletype-element"></a>DaysOfWeek (monthlyDayOfWeekScheduleType) (élément)
 
@@ -49,7 +49,7 @@ L’élément **DaysOfWeek** est défini par le type complexe [**monthlyDayOfWee
 | Élément                                                                   | Type | Description                                           |
 |---------------------------------------------------------------------------|------|-------------------------------------------------------|
 | [**Vendredi**](taskschedulerschema-friday-daysofweektype-element.md)       |      | Spécifie que la tâche est exécutée le vendredi.<br/>    |
-| [**Monday**](taskschedulerschema-monday-daysofweektype-element.md)       |      | Spécifie que la tâche est exécutée le lundi.<br/>    |
+| [**Lundi**](taskschedulerschema-monday-daysofweektype-element.md)       |      | Spécifie que la tâche est exécutée le lundi.<br/>    |
 | [**Samedi**](taskschedulerschema-saturday-daysofweektype-element.md)   |      | Spécifie que la tâche est exécutée le samedi.<br/>  |
 | [**Dimanche**](taskschedulerschema-sunday-daysofweektype-element.md)       |      | Spécifie que la tâche est exécutée le dimanche.<br/>    |
 | [**Thursday**](taskschedulerschema-thursday-daysofweektype-element.md)   |      | Spécifie que la tâche est exécutée le jeudi.<br/>  |
@@ -58,7 +58,7 @@ L’élément **DaysOfWeek** est défini par le type complexe [**monthlyDayOfWee
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de scripts, les jours de la semaine pour un calendrier mensuel de jour de la semaine sont spécifiés à l’aide de la propriété [**MonthlyDOWTrigger. DaysOfWeek**](monthlydowtrigger-daysofweek.md) .
 
@@ -104,8 +104,8 @@ Le code XML suivant définit un calendrier mensuel de jour de semaine qui démar
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

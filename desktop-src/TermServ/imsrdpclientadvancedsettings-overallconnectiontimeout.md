@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50de6687d3d5cbccb3f7fdab94eca5ba4f2331c6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 400a2a64e42424b49c5e9e6506eae0c7ab4391cbd6299ac18aa8d9a43b97bdc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117757760"
 ---
 # <a name="imsrdpclientadvancedsettingsoverallconnectiontimeout-property"></a>IMsRdpClientAdvancedSettings :: overallConnectionTimeout, propriété
 
@@ -92,7 +92,7 @@ Nouvelle durée, en secondes. La valeur maximale est 600, qui représente 10 min
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

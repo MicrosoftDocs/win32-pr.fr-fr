@@ -4,12 +4,12 @@ description: Événement ListenComplete
 ms.assetid: 29e3f424-17b4-4287-b644-ed62b80e0035
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dbfe0fac272b50af3f82efdc8a422bebddbf786
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d25e9bfbf23c6a2911c718b576c99395ef06fd802853b39b699384a9ab92429b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883891"
 ---
 # <a name="listencomplete-event"></a>Événement ListenComplete
 
@@ -42,7 +42,7 @@ Se produit lorsque le mode d’écoute (reconnaissance vocale) est terminé.
 
 </dd> </dl>
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Cet événement est envoyé à tous les clients lorsque le délai d’attente du mode d’écoute se termine, après que l’utilisateur a libéré la clé d’écoute, lorsque le client actif d’entrée appelle la méthode [**Listen**](listen-method.md) avec la **valeur false** ou que l’utilisateur a terminé de parler. Vous pouvez utiliser cet événement pour déterminer à quel moment reprendre la sortie de caractères parlés (audio).
 

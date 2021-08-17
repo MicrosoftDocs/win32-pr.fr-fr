@@ -1,19 +1,19 @@
 ---
-description: Le composant lecteur de note du journal Microsoft Windows fournit un accès par programmation aux fichiers au format journal.
+description: le composant Microsoft Windows Journal Note Reader fournit un accès par programmation aux fichiers au format journal.
 ms.assetid: 85dcda59-2972-48e3-a9f5-5cce0b60a1f1
 title: Utilisation du composant de lecture du journal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48fd098db4ce1c0c92a5ded76b0950e264aa2a73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41559ac31ff081ecb810b0fe6e82ce1107ed87dae897cc7e6b8be4569e9b78f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449188"
 ---
 # <a name="using-the-journal-reader-component"></a>Utilisation du composant de lecture du journal
 
-Le composant lecteur de note du journal Microsoft Windows fournit un accès par programmation aux fichiers au format journal.
+le composant Microsoft Windows Journal Note Reader fournit un accès par programmation aux fichiers au format journal.
 
 ## <a name="component-overview"></a>Vue d’ensemble des composants
 
@@ -21,19 +21,19 @@ Les fichiers journaux ont l’extension de fichier. jnt. Ce composant simple pre
 
 Le composant ne permet pas d’écrire des fichiers. jnt.
 
-Le composant est disponible dans les versions managées et non managées. Le composant non managé est disponible dans la bibliothèque de liens dynamiques (DLL) journal.dll. La version managée se trouve dans l’assembly Microsoft.Ink.Journal.dll (pour la redistribution vers Windows XP Édition Tablet PC ou Windows Vista) ou Microsoft.Ink.dll.
+Le composant est disponible dans les versions managées et non managées. Le composant non managé est disponible dans la bibliothèque de liens dynamiques (DLL) journal.dll. la version managée se trouve dans l’assembly Microsoft.Ink.Journal.dll (pour la redistribution vers Windows XP édition Tablet PC ou Windows Vista), ou Microsoft.Ink.dll.
 
 > [!IMPORTANT]
 >
-> À partir de Windows 10, version 1607, journal.dll n’est pas inclus dans le système d’exploitation Windows. Cette bibliothèque doit être considérée comme dépréciée ou obsolète et ne doit pas être utilisée.
+> à partir de Windows 10, la version 1607, journal.dll n’est pas inclus dans le système d’exploitation Windows. Cette bibliothèque doit être considérée comme dépréciée ou obsolète et ne doit pas être utilisée.
 
  
 
 ### <a name="assembly-changes-of-note"></a>Modifications de l’assembly de note
 
-Il est important de tenir compte de certaines modifications apportées à l’assembly contenant le composant lecteur de note de journal qui s’est produit entre la version publiée avec la version 1,7 du kit de développement de Tablet PC et la version fournie avec le système d’exploitation Windows Vista.
+il est important de tenir compte de certaines modifications apportées à l’assembly contenant le composant lecteur de Note de Journal qui s’est produit entre la version publiée avec la version 1,7 du Kit de développement de Tablet pc et la version fournie avec le système d’exploitation Windows Vista.
 
-La version 1,7 du composant lecteur, qui peut être redistribuée vers Windows XP ou Windows Vista, est contenue dans un assembly appelé Microsoft.Ink.Journal.dll. Le composant lecteur est fourni avec Windows Vista, mais il a été intégré à l’assembly principal Microsoft.Ink.dll. Cela signifie que les applications qui utilisent l’assembly 1,7 doivent redistribuer cet assembly avec leur installation.
+la version 1,7 du composant lecteur, qui peut être redistribuée vers Windows XP ou Windows Vista, est contenue dans un assembly appelé Microsoft.Ink.Journal.dll. le composant lecteur est fourni avec Windows Vista, mais il a été intégré à l’assembly Microsoft.Ink.dll principal. Cela signifie que les applications qui utilisent l’assembly 1,7 doivent redistribuer cet assembly avec leur installation.
 
 ## <a name="using-the-component"></a>Utilisation du composant
 

@@ -1,19 +1,19 @@
 ---
-title: Principaux problèmes pour les titres Windows
+title: principaux problèmes pour les titres de Windows
 description: Cet article présente un grand nombre des problèmes courants que nous avons rencontrés dans les jeux de PC actuels.
 ms.assetid: 89b83473-1aa9-9a2d-8778-15cfb91cdea4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 547c977f7d8e4895ef73ba229a9012854a7c6d27
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b89be8ad7a68c247d589f304ea77fa9b3e63e105739264e39f71794c705b66cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118396504"
 ---
-# <a name="top-issues-for-windows-titles"></a>Principaux problèmes pour les titres Windows
+# <a name="top-issues-for-windows-titles"></a>principaux problèmes pour les titres de Windows
 
-Le groupe Microsoft Windows Gaming and Graphics Developers Group relations effectue une analyse des performances pour de nombreux jeux Windows chaque année. Pendant ces sessions, nous obtenons une expérience pratique pour associer les commentaires des développeurs et les requêtes que nous recevons quotidiennement. Parfois, nous pouvons vous aider à identifier un incident mystérieux ou tout autre problème dans un titre, ce qui nous permet d’approfondir vos connaissances sur les problèmes que les développeurs rencontrent.
+le groupe de Relations développeurs de jeux et de Technologies graphiques de Microsoft Windows effectue une analyse des performances pour de nombreux jeux Windows chaque année. Pendant ces sessions, nous obtenons une expérience pratique pour associer les commentaires des développeurs et les requêtes que nous recevons quotidiennement. Parfois, nous pouvons vous aider à identifier un incident mystérieux ou tout autre problème dans un titre, ce qui nous permet d’approfondir vos connaissances sur les problèmes que les développeurs rencontrent.
 
 Cet article présente un grand nombre des problèmes courants que nous avons rencontrés dans les jeux de PC actuels.
 
@@ -82,14 +82,14 @@ En raison de la grande variabilité du matériel PC sur le marché, les titres u
 
 ## <a name="over-reliance-on-real-time-audio-sample-rate-conversion"></a>Over-Reliance sur Real-Time conversion du taux d’échantillonnage audio
 
-Une autre source courante de la gravure de cycle d’UC que nous avons constatée se produit lorsque le système audio est nécessaire pour convertir la vitesse de lecture pendant la combinaison dans le tampon matériel. Avec les pilotes Windows Driver Model (WDM), le format de mémoire tampon matérielle n’est pas contrôlé par l’application directe, car il s’agit d’une ressource de niveau noyau. au lieu de cela, le format est sélectionné en fonction du format de qualité la plus élevée de toutes les sources et des capacités du matériel. Par défaut, Windows XP utilise une conversion de taux d’échantillonnage de haute qualité pour ce processus, et si la majorité des exemples audio requièrent une conversion de taux, une partie importante des cycles de l’UC est consommée.
+Une autre source courante de la gravure de cycle d’UC que nous avons constatée se produit lorsque le système audio est nécessaire pour convertir la vitesse de lecture pendant la combinaison dans le tampon matériel. avec les pilotes Windows Driver Model (WDM), le format de mémoire tampon matérielle n’est pas contrôlé par l’application directe, car il s’agit d’une ressource de niveau noyau. au lieu de cela, le format est sélectionné en fonction du format de qualité la plus élevée de toutes les sources et des capacités du matériel. par défaut, Windows XP utilise une conversion de taux d’échantillonnage de haute qualité pour ce processus, et si la majorité des exemples audio requièrent une conversion de taux, une partie importante des cycles de l’uc est consommée.
 
-Nous vous recommandons de créer toutes vos mémoires tampons DirectSound avec le même taux d’échantillonnage. Si vous utilisez des fonctions Microsoft Win32 **WaveOut** , vous devez également utiliser un taux d’échantillonnage cohérent. Avec les pilotes WDM, les mémoires tampons sont toutes mélangées par le noyau, et si vous utilisez un taux d’échantillonnage plus élevé sur certains d’entre eux, les taux d’échantillonnage de tous les REST sont convertis en correspondance. Notez que cela implique l’utilisation du même taux de lecture pour tous vos échantillons audio, y compris les mémoires tampons de décompression audio en continu. La définition du taux de mémoire tampon principale n’a aucun effet, sauf si vous ciblez Windows 98 ou Windows Millennium Edition.
+Nous vous recommandons de créer toutes vos mémoires tampons DirectSound avec le même taux d’échantillonnage. Si vous utilisez des fonctions Microsoft Win32 **WaveOut** , vous devez également utiliser un taux d’échantillonnage cohérent. Avec les pilotes WDM, les mémoires tampons sont toutes mélangées par le noyau, et si vous utilisez un taux d’échantillonnage plus élevé sur certains d’entre eux, les taux d’échantillonnage de tous les REST sont convertis en correspondance. Notez que cela implique l’utilisation du même taux de lecture pour tous vos échantillons audio, y compris les mémoires tampons de décompression audio en continu. la définition du taux de mémoire tampon principale n’a aucun effet, sauf si vous ciblez Windows 98 ou Windows Millennium Edition.
 
 > [!Note]  
-> Sur Windows Vista et les versions ultérieures du système d’exploitation, DirectSound et **WaveOut** utilisent l' [API de session audio Windows (WASAPI)](/windows/desktop/CoreAudio/wasapi) pour toute la sortie audio.
+> sur Windows Vista et les versions ultérieures du système d’exploitation, DirectSound et **waveOut** utilisent l' [API de Session audio Windows (WASAPI)](/windows/desktop/CoreAudio/wasapi) pour toute la sortie audio.
 
- 
+ 
 
 ## <a name="fragmention-of-virtual-memory"></a>Fragmentation de la mémoire virtuelle
 
@@ -101,12 +101,12 @@ Ces problèmes s’affichent le plus souvent lorsque le jeu utilise un schéma d
 
 En guise d’aide au débogage, certains développeurs ont activé des exceptions sur l’unité de virgule flottante (FPU) via des manipulations du mot de contrôle à virgule flottante. Cette opération est très problématique et risque d’entraîner un blocage du processus. Tout comme la Convention d’appel exige que le registre ebx soit préservé, la majorité du système suppose que le FPU est dans un État par défaut, donne des résultats raisonnables et ne génère pas d’exceptions. Les pilotes et autres composants système calculent souvent des résultats en partant de l’hypothèse que les valeurs d’erreur standard apparaissent dans les registres pour des conditions erronées, mais si les exceptions sont activées, elles ne sont pas gérées et entraînent des blocages.
 
-Direct3D définit l’unité à virgule flottante sur simple précision, en arrondissant à la valeur la plus proche dans le cadre de l’initialisation du thread appelant, sauf si l' \_ indicateur D3DCREATE FPU \_ Preserve est utilisé, auquel cas le mot de contrôle à virgule flottante est intact. Dans la mesure où le mot de contrôle est un paramètre par thread, garantir que tous les threads de votre application sont définis en mode de précision simple peut optimiser les performances. N’oubliez pas que l’appel de [**\_ CONTROL87**](https://msdn.microsoft.com/library/e9b52ceh(v=VS.71).aspx) n’est pas valide pour le codage natif x64, qui utilise exclusivement SSE à la place, et il est extrêmement onéreux sur l’architecture PowerPC de l’UC Xbox 360.
+Direct3D définit l’unité à virgule flottante sur simple précision, en arrondissant à la valeur la plus proche dans le cadre de l’initialisation du thread appelant, sauf si l' \_ indicateur D3DCREATE FPU \_ Preserve est utilisé, auquel cas le mot de contrôle à virgule flottante est intact. Dans la mesure où le mot de contrôle est un paramètre par thread, garantir que tous les threads de votre application sont définis en mode de précision simple peut optimiser les performances. n’oubliez pas que l’appel de [**\_ control87**](https://msdn.microsoft.com/library/e9b52ceh(v=VS.71).aspx) n’est pas valide pour le codage natif x64, qui utilise exclusivement SSE à la place, et il est extrêmement onéreux sur l’architecture basée sur PowerPC de l’uc Xbox 360.
 
 > [!Note]  
 > Si vous modifiez le mot de contrôle, utilisez [**\_ controlfp \_**](https://msdn.microsoft.com/library/c9676k6h(v=VS.80).aspx) et sachez que pour les plateformes x64, vous ne pouvez pas modifier la précision à virgule flottante via le mot de contrôle.
 
- 
+ 
 
 Dans toutes les bibliothèques où nous avons besoin d’utiliser des règles d’arrondi ou d’autres comportements différents, par exemple pour gérer les nuanceurs de vertex logiciels ou la compilation, nous enregistrons et restaurons le mot de contrôle. Si un jeu doit utiliser des exceptions d’arrondi non standard ou FPU, il doit enregistrer et restaurer le mot de contrôle à virgule flottante, et vous devez vous assurer qu’il n’appelle pas de code externe qui n’a pas été prouvé comme étant à l’abri de ces problèmes, y compris les API système.
 
@@ -118,12 +118,12 @@ Il est fortement recommandé que le programme d’installation du jeu installe e
 
 Une installation sans assistance de DirectX peut être effectuée en exécutant cette commande à partir de votre package d’installation : **dxsetup.exe/Silent**
 
-En outre, la taille réelle du dossier redistribuable peut être configurée pour inclure uniquement les fichiers CAB (. cab) qui sont réellement nécessaires pour les plateformes et l’utilisation cibles du jeu.
+En outre, la taille réelle du dossier redistribuable peut être configurée pour inclure uniquement les fichiers CAB (.cab) qui sont réellement nécessaires pour les plateformes et l’utilisation cibles du jeu.
 
 > [!Note]  
 > Avant d’utiliser **Dxsetup**, lisez- [le de façon indirecte](https://walbourn.github.io/).
 
- 
+ 
 
 ## <a name="excessive-use-of-thread-synchronization"></a>Utilisation excessive de la synchronisation des threads
 
@@ -135,6 +135,6 @@ Une source courante de synchronisation excessive dans les jeux est l’utilisati
 
 L’utilisation de l’instruction **RDTSC** x86 n’est pas recommandée. **RDTSC** ne parvient pas à calculer correctement le minutage sur certains schémas de gestion de l’alimentation qui modifient la fréquence de l’UC de manière dynamique et sur de nombreux processeurs multicœurs pour lesquels le compteur de cycle n’est pas synchronisé entre les cœurs. Les jeux doivent à la place utiliser l’API [**QueryPerformanceCounter**](/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter) . Pour plus d’informations sur les problèmes liés à **RDTSC** et l’implémentation du minutage haute résolution avec **QueryPerformanceCounter**, consultez l’article [synchronisation des jeux et processeurs multicœurs](/windows/desktop/DxTechArts/game-timing-and-multicore-processors).
 
- 
+ 
 
- 
+ 

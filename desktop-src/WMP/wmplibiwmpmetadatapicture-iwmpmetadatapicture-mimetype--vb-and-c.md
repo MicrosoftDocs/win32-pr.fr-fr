@@ -3,9 +3,9 @@ title: Propriété mimeType IWMPMetadataPicture
 description: La propriété mimeType obtient le type MIME de l’image représentée par l’attribut de métadonnées.
 ms.assetid: 3ddd7f20-a183-4b95-bdcf-5497349f6db6
 keywords:
-- propriété mimeType lecteur Windows Media
-- propriété mimeType lecteur Windows Media, interface IWMPMetadataPicture
-- Interface IWMPMetadataPicture lecteur Windows Media, propriété mimeType
+- propriété mimeType Lecteur Windows Media
+- mimeType, propriété Lecteur Windows Media, interface IWMPMetadataPicture
+- Lecteur Windows Media de l’interface IWMPMetadataPicture, propriété mimeType
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b79602e1cdf8d4cc2ceda6ca217b81a7f899c6cc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e61f155394ecf91b73b0f6056f3c1aaed53b87f3202928e86d10db1298a430b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745987"
 ---
 # <a name="iwmpmetadatapicturemimetype-property"></a>IWMPMetadataPicture :: mimeType, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property mimeType As System.String
 
 **System. String** qui est le type MIME de l’image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’utiliser cette propriété, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

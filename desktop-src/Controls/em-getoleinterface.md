@@ -3,7 +3,7 @@ title: Message EM_GETOLEINTERFACE (RichEdit. h)
 description: Récupère un objet IRichEditOle qu’un client peut utiliser pour accéder à la fonctionnalité COM (Component Object Model) d’un contrôle RichEdit.
 ms.assetid: fa462c7b-29b9-4694-b7ad-6068c69ffb76
 keywords:
-- EM_GETOLEINTERFACE les contrôles de message Windows
+- EM_GETOLEINTERFACE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d7557d40c6dcec38ce629d949a8db9915714821
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4e1799039081ed8250cb062aa3d1348a2fe8a8dbdcfa768fab74855d18d8e9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831670"
 ---
 # <a name="em_getoleinterface-message"></a>\_Message GETOLEINTERFACE em
 
@@ -55,8 +55,8 @@ Si l’opération échoue, la valeur de retour est zéro.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

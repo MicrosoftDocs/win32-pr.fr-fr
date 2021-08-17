@@ -3,7 +3,7 @@ title: Message WM_CAP_ABORT (VFW. h)
 description: Le \_ message WM Cap \_ Abort arrête l’opération de capture.
 ms.assetid: a0479d73-8422-4833-9e8a-c262ec386f58
 keywords:
-- Message WM_CAP_ABORT Windows Multimedia
+- message WM_CAP_ABORT Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2843e3c4d59b62f2b58be20cef63ed0dc2e79d4b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 904edb47c371ee13ed3492fd9257e3933bf2f001010d7dd2b0177a7729500813
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800654"
 ---
 # <a name="wm_cap_abort-message"></a>\_Message WM Cap \_ Abort
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’opération de capture doit donner l’utilisation de ce message.
 
