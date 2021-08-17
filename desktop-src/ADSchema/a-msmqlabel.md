@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b24d71e42849e30cfc34ed058d7453f77eb7753
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a3e9bb3bbf70a82b99c1f1549617fa4aa67ae7563c3eaee3e6dda268096fbb30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118013849"
 ---
 # <a name="msmq-label-attribute"></a>Attribut MSMQ-Label
 
@@ -45,7 +45,7 @@ Remplacé par [**MSMQ-label-ex**](a-msmqlabelex.md).
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

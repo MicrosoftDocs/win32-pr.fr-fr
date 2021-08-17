@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e9a16b01e186de5645ffe65e003ebbe6defca2d5
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: aac29792274a36ad4bb7266ffa02d0ea5d2bb1b6cec8efe2db213e9b0dd4890b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104030609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118088692"
 ---
 # <a name="phase---ps"></a>phase-PS
 
@@ -41,7 +41,7 @@ phase
 
 
 
- 
+ 
 
 Les instructions de nuanceur qui se produisent avant l’instruction de phase sont des instructions de la phase 1. Toutes les autres instructions sont des instructions de la phase 2. En ayant deux phases pour les instructions, le nombre maximal d’instructions par nuanceur est augmenté.
 
@@ -71,9 +71,9 @@ phase
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e6a19000073fd12e05aa915921850264979a0541
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a0873f07cc76af9fab827c3df98a8f08ef300de93d4ae6b316809ba32aac87ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117758745"
 ---
 # <a name="monthstype-complex-type"></a>Type complexe monthsType
 
@@ -97,7 +97,7 @@ Définit les éléments enfants et les informations de séquencement pour les é
 
 | Élément                                                               | Type | Description                                            |
 |-----------------------------------------------------------------------|------|--------------------------------------------------------|
-| [**Avril**](taskschedulerschema-april-monthstype-element.md)         | N/A  | Spécifie que la tâche s’exécute en avril. <br/>     |
+| [**avril**](taskschedulerschema-april-monthstype-element.md)         | N/A  | Spécifie que la tâche s’exécute en avril. <br/>     |
 | [**Août**](taskschedulerschema-august-monthstype-element.md)       | N/A  | Spécifie que la tâche s’exécute en août. <br/>    |
 | [**Décembre**](taskschedulerschema-december-monthstype-element.md)   | N/A  | Spécifie que la tâche s’exécute en décembre. <br/>  |
 | [**February**](taskschedulerschema-february-monthstype-element.md)   | N/A  | Spécifie que la tâche s’exécute en février. <br/>  |
@@ -118,8 +118,8 @@ Définit les éléments enfants et les informations de séquencement pour les é
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

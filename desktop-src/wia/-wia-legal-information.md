@@ -4,12 +4,12 @@ ms.assetid: 343c8f3c-3172-4e38-b276-082199b2d48b
 title: Informations légales (WIA)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb8023ce16eed495f977f5703d14c9457179fbbc
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 8fa7e6ff958651678bd9fe1f43fdad32998c7afc7d3080ac91ee01c53b5e4cdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118034920"
 ---
 # <a name="legal-information-wia"></a>Informations légales (WIA)
 
@@ -19,7 +19,7 @@ Les produits mentionnés dans ce document peuvent faire l'objet de brevets, de d
 
 
 
-Microsoft, MS-DOS, Windows, Windows NT, JScript, Visual Basic Scripting Edition et Visual Basic sont soit des marques de Microsoft Corporation, soit des marques déposées de Microsoft Corporation, aux États-Unis d’Amérique et/ou dans d’autres pays/régions.
+microsoft, MS-DOS, Windows, Windows NT, JScript, Visual Basic édition scripting Edition et Visual Basic sont soit des marques de microsoft Corporation, soit des marques déposées de Microsoft Corporation, aux états-unis d’amérique et/ou dans d’autres pays ou régions.
 
 Les noms des sociétés et des produits mentionnés dans le présent document peuvent être des marques de leurs propriétaires respectifs.
 

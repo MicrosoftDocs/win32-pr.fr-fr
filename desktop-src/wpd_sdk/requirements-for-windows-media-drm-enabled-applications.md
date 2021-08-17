@@ -1,21 +1,21 @@
 ---
-description: Configuration requise pour les applications Windows Media DRM-Enabled
+description: configuration requise pour les Applications Windows Media DRM-Enabled
 ms.assetid: 67f872dc-79ef-4799-bb7b-b84d7dc11c71
-title: Configuration requise pour les applications Windows Media DRM-Enabled
+title: configuration requise pour les Applications Windows Media DRM-Enabled
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59543bf6ea803d2b9d58721fd775c49b79653c0b
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 14ad59b5b590436ca5734fcb8d226d41f4f995a5d4ea97e0c46d771df476be6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106535112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118027048"
 ---
-# <a name="requirements-for-windows-media-drm-enabled-applications"></a>Configuration requise pour les applications Windows Media DRM-Enabled
+# <a name="requirements-for-windows-media-drm-enabled-applications"></a>configuration requise pour les Applications Windows Media DRM-Enabled
 
-Pour créer une application compatible avec Windows Media Digital Rights Management (DRM), vous devez disposer des en-têtes et des bibliothèques décrits dans la section [configuration générale requise pour le développement d’applications](general-requirements-for-application-development.md) de ce document. En outre, l’application doit fournir des propriétés supplémentaires dans les informations du client lors de l’ouverture de l’appareil.
+pour créer une application Windows Media Digital Rights Management (DRM), vous devez disposer des en-têtes et des bibliothèques décrits dans la section [configuration générale requise pour le développement d’applications](general-requirements-for-application-development.md) de ce document. En outre, l’application doit fournir des propriétés supplémentaires dans les informations du client lors de l’ouverture de l’appareil.
 
-Les deux propriétés supplémentaires requises pour activer les transferts de contenu protégés par DRM Windows Media sont décrites dans le tableau suivant.
+les deux propriétés supplémentaires requises pour activer les transferts de contenu protégés par DRM Windows sont décrites dans le tableau suivant.
 
 
 
@@ -30,7 +30,7 @@ Les deux propriétés supplémentaires requises pour activer les transferts de c
 
 Ces propriétés doivent être fournies dans les informations du client de l’application lorsque l’appareil est ouvert à l’aide de la méthode [**IPortableDevice :: Open**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-open) . Lorsque ces propriétés sont fournies, l’API WPD autorise les transferts de contenu protégés. Si l’application a fourni un certificat et une clé privée, l’API crée un canal sécurisé pour transférer le contenu WMDRM protégé sur l’appareil.
 
-Pour plus d’informations sur la création et la distribution d’applications Windows qui prennent en charge la gestion des droits numériques Windows Media, consultez la rubrique suivante sur la [licence des applications Windows](https://www.microsoft.com/windows/windowsmedia/licensing/licensing_drm_apps.aspx) .
+pour plus d’informations sur la création et la distribution d’applications Windows qui prennent en charge Windows Media DRM, consultez la rubrique suivante [sur les applications basées sur les licences Windows](https://www.microsoft.com/windows/windowsmedia/licensing/licensing_drm_apps.aspx) .
 
 ## <a name="transferring-content"></a>Transfert de contenu
 
@@ -108,13 +108,13 @@ Les mêmes prérequis avec la clé privée et le certificat de l’application s
 
 La méthode ci-dessus pour acquérir l’interface **IWMDRMDeviceApp** à partir du pointeur **IStream** n’est utile que si votre application effectue déjà un transfert de contenu protégé préalablement, avant de continuer à effectuer des opérations de contrôle et de synchronisation des licences.
 
-Notre recommandation pour la plupart des applications qui ont besoin d’accéder à **IWMDRMDeviceApp** consiste à initialiser **IWMDRMDeviceApp** directement, car cela ne nécessite pas que votre application transfère le contenu protégé ou conserve les interfaces de transfert pour effectuer la synchronisation des appareils et des licences. Cette méthode nécessite l’utilisation des API Windows Media Gestionnaire de périphériques (WMDM). Pour plus d’informations et pour obtenir des exemples de code, consultez le livre blanc [accès aux API WMDRM à partir d’une application wpd](../windows-portable-devices.md) sur le site WHDC.
+Notre recommandation pour la plupart des applications qui ont besoin d’accéder à **IWMDRMDeviceApp** consiste à initialiser **IWMDRMDeviceApp** directement, car cela ne nécessite pas que votre application transfère le contenu protégé ou conserve les interfaces de transfert pour effectuer la synchronisation des appareils et des licences. cette méthode nécessite l’utilisation des api Windows Media Gestionnaire de périphériques (WMDM). Pour plus d’informations et pour obtenir des exemples de code, consultez le livre blanc [accès aux API WMDRM à partir d’une application wpd](../windows-portable-devices.md) sur le site WHDC.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Appareils mobiles Windows**](/windows/desktop/windows-portable-devices)
+[**Windows Appareils mobiles**](/windows/desktop/windows-portable-devices)
 </dt> </dl>
 
  

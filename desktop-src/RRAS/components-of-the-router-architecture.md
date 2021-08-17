@@ -6,12 +6,12 @@ keywords:
 - routeurs RRAS, composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48fb0cc69de5402b03550873b3b052f6329b5238
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0f39f104e001db99076dcd29d9d5b603d5cf9f3c526d54cd16e1ed0e4d10c575
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791593"
 ---
 # <a name="components-of-the-router-architecture"></a>Composants de l’architecture du routeur
 
@@ -41,9 +41,9 @@ Dans le cas d’une interface LAN, l’interface correspond à un appareil physi
 
 Les interfaces de réseau étendu ont une qualité supplémentaire qu’elles reçoivent généralement une adresse réseau uniquement au moment où une connexion est établie. Par exemple, une interface WAN utilisant PPP reçoit son adresse de couche réseau de l’homologue distant pendant le processus de connexion. La réception d’une adresse réseau dans le cadre du processus de connexion est parfois appelée *liaison tardive*.
 
- 
+ 
 
- 
+ 
 
 
 

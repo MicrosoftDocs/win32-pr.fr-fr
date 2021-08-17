@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101501
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a9adc732f0950a3f369edb254ecd1bd2eb440e20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55efab67be4ba39ec9cbe929e08067a0824544b1d731d794dca1eeebce3951fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117712807"
 ---
 # <a name="esentdatabaseinvalidincrementalreseedexception-properties"></a>Propriétés EsentDatabaseInvalidIncrementalReseedException
 
@@ -49,7 +49,7 @@ Le type [EsentDatabaseInvalidIncrementalReseedException](./esentdatabaseinvalidi
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

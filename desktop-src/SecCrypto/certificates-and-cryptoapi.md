@@ -4,12 +4,12 @@ ms.assetid: 91425185-2a06-4040-b83d-c42ee080d55f
 title: Certificats et CryptoAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 325086ab0dd46ace85745ca292bcab9bcd5324e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8af32073cc3f42bbee07d1702fd1e6044c424ac236cf05ed8374c33757c1408
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117770740"
 ---
 # <a name="certificates-and-cryptoapi"></a>Certificats et CryptoAPI
 

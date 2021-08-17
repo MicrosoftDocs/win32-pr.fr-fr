@@ -3,7 +3,7 @@ title: CUSTOMSLIDER.downImage
 description: L’attribut downImage spécifie ou récupère l’image de l’état inactif du curseur personnalisé.
 ms.assetid: e1efe703-df0a-4ef9-92a9-c9cfb991ee37
 keywords:
-- Lecteur Windows Media CUSTOMSLIDER. downImage
+- CUSTOMSLIDER. downImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8365043654bc3cca9fbf79162302cf804155956d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f3e151f825dab7170c3e3678f280303265af0df91561c7dc709323dd8043809e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117750338"
 ---
 # <a name="customsliderdownimage"></a>CUSTOMSLIDER.downImage
 
@@ -31,7 +31,7 @@ L’attribut **downImage** spécifie ou récupère l’image de l’état inacti
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est facultatif. S’il n’est pas spécifié, le fichier spécifié dans l’attribut **image** sera utilisé.
 

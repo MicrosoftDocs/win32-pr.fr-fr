@@ -4,12 +4,12 @@ ms.assetid: 4F33BF2D-EB32-46B6-B071-F9130D404201
 title: Attribut MF_MT_VIDEO_3D_FIRST_IS_LEFT (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 027d91509d772a9200cdfc0ac64cce15514aa5a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19b7deed122f3de419455abf54bfcc18ad50ef199d87afa8bcaad8d34000a011
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104393788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117876800"
 ---
 # <a name="mf_mt_video_3d_first_is_left-attribute"></a>La \_ \_ vidéo 3D MF MT \_ \_ First est l' \_ \_ attribut Left
 
@@ -19,7 +19,7 @@ Pour un format vidéo 3D, spécifie la vue de gauche.
 
 **Bool** stocké comme **UInt32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour la vidéo 3D, chaque exemple de vidéo contient deux vues, qui sont désignées en *premier* et en *deuxième vue*. La disposition exacte des vues en mémoire est indiquée par l’attribut [de \_ \_ format vidéo \_ 3D \_ MF MT](mf-mt-video-3d-format.md) .
 
@@ -49,8 +49,8 @@ Par défaut, la première vue est la vue de gauche, tandis que la deuxième vue 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

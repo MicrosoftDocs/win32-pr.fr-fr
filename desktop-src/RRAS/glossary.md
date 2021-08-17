@@ -1,21 +1,21 @@
 ---
 title: Glossaire (RRAS)
-description: Ce glossaire contient les définitions des termes utilisés dans la documentation des services de routage et d’accès à distance (RRAS).
+description: ce glossaire contient les définitions des termes utilisés dans la documentation du service routage et Access Services distant (RRAS).
 ms.assetid: f01310bb-dd74-41de-8a55-ca91b805dfd2
 keywords:
 - RRAS, Glossaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bc73cab4d3f8be9f14e09a49ee89c6f5a800f79
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 267df34f4e0e5dd1eb81547714f917c55c770b659471b5cecae8c5e3cfdd35f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103941608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791462"
 ---
 # <a name="glossary-rras"></a>Glossaire (RRAS)
 
-Ce glossaire contient les définitions des termes utilisés dans la documentation des services de routage et d’accès à distance (RRAS).
+ce glossaire contient les définitions des termes utilisés dans la documentation du service routage et Access Services distant (RRAS).
 
 RRAS utilise sa propre collection de termes. Veuillez lire attentivement la liste de définitions suivante pour comprendre ce qui est prévu lorsque ces termes se produisent dans la documentation RRAS.
 

@@ -3,7 +3,7 @@ title: Message WM_GETOBJECT (winuser. h)
 description: Envoyé par Microsoft Active Accessibility et Microsoft UI Automation pour obtenir des informations sur un objet accessible contenu dans une application serveur.
 ms.assetid: 59350aa1-1697-4110-b9a6-f30ee56c4cff
 keywords:
-- WM_GETOBJECT l’accessibilité des messages Windows
+- WM_GETOBJECT message Windows accessibilité
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcac5c7f6dd8203c32b9f6f3c4eb59144cc3f8ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2767a689b87c2e293cb481647c61a29ad40167992e637802d1c0be63d18fc74e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744735"
 ---
 # <a name="wm_getobject-message"></a>Message WM de \_ GETOBJECT
 
@@ -49,12 +49,12 @@ Fournit des informations supplémentaires sur le message et est utilisé uniquem
 *dwObjId* 
 </dt> <dd>
 
-Identificateur d’objet. Cette valeur est l’une des constantes d' [identificateur d’objet](object-identifiers.md) ou un identificateur d’objet personnalisé. Une application serveur doit vérifier cette valeur pour identifier le type d’informations demandées. Avant de comparer cette valeur aux \_ valeurs objid, le serveur doit le caster en **DWORD**. dans le cas contraire, sur Windows 64 bits, l’extension de signe du *lParam* peut interférer avec la comparaison.
+Identificateur d’objet. Cette valeur est l’une des constantes d' [identificateur d’objet](object-identifiers.md) ou un identificateur d’objet personnalisé. Une application serveur doit vérifier cette valeur pour identifier le type d’informations demandées. avant de comparer cette valeur aux \_ valeurs OBJID, le serveur doit le caster en **DWORD**. dans le cas contraire, sur la Windows 64 bits, l’extension de signe du *lParam* peut interférer avec la comparaison.
 
 -   Si *dwObjId* est l’une des \_ valeurs objid telles que [**objID \_ client**](object-identifiers.md), la demande concerne un objet Microsoft Active Accessibility qui implémente [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible).
 -   Si *dwObjId* est égal à **UiaRootObjectId**, la demande est pour un fournisseur UI Automation. Si le serveur implémente UI Automation, il doit retourner un fournisseur à l’aide de la fonction [**UiaReturnRawElementProvider**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiareturnrawelementprovider) .
 -   Si *dwObjId* est [**objID \_ NATIVEOM**](object-identifiers.md), la demande est pour le modèle objet sous-jacent du contrôle. Si le contrôle prend en charge cette requête, il doit retourner une interface COM appropriée en appelant la fonction [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject) .
--   Si *dwObjId* est [**objID \_ QUERYCLASSNAMEIDX**](object-identifiers.md), la demande est que le contrôle s’identifie comme un contrôle Windows standard ou un contrôle commun implémenté par la bibliothèque de contrôles communs (ComCtrl.dll).
+-   si *dwObjId* est [**OBJID \_ QUERYCLASSNAMEIDX**](object-identifiers.md), la demande est que le contrôle s’identifie comme un contrôle de Windows standard ou un contrôle commun implémenté par la bibliothèque de contrôles communs (ComCtrl.dll).
 
 </dd> </dl>
 
@@ -66,7 +66,7 @@ Si la fenêtre ou le contrôle n’a pas besoin de répondre à ce message, elle
 -   Si *dwObjId* est [**objID \_ NATIVEOM**](object-identifiers.md) et que la fenêtre expose un modèle objet natif, les fenêtres doivent retourner la valeur obtenue par un appel à la fonction [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject) .
 -   Si *dwObjId* est [**un \_ client objid**](object-identifiers.md) et que la fenêtre implémente [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible), la fenêtre doit retourner la valeur obtenue par un appel à la fonction [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’un client appelle [**AccessibleObjectFromWindow**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromwindow) ou l’une des autres fonctions **AccessibleObjectFrom**_X_ qui récupèrent une interface vers un objet, Microsoft Active Accessibility envoie le message **WM \_ GETOBJECT** à la procédure de fenêtre appropriée au sein de l’application serveur appropriée. Lors du traitement de **WM \_ GETOBJECT**, les applications serveur appellent [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject) et utilisent la valeur de retour de cette fonction comme valeur de retour pour le message. Microsoft Active Accessibility, conjointement avec la bibliothèque COM, effectue le marshaling approprié et transmet le pointeur d’interface du serveur au client.
 
@@ -87,7 +87,7 @@ Pour les clients, cela signifie qu’ils peuvent recevoir des pointeurs d’inte
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | Composant redistribuable<br/>          | Active Accessibility 1,3 RDK sur Windows NT 4,0 avec SP6 et versions ultérieures et Windows 95<br/>              |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 

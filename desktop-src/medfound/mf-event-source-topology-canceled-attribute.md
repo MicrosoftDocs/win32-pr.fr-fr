@@ -4,12 +4,12 @@ ms.assetid: b7252336-1612-43fc-8f08-1fdfdbb293eb
 title: Attribut MF_EVENT_SOURCE_TOPOLOGY_CANCELED (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2a161aec292d834b0418f59f1c26ea2f11a538e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef612c8a1081ecc26eaa9dc593a5906ff965d0387ab02490eedd68f7fbf5e813
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118060656"
 ---
 # <a name="mf_event_source_topology_canceled-attribute"></a>Attribut d’annulation de la topologie de la \_ source d’événements MF \_ \_ \_
 
@@ -21,7 +21,7 @@ Spécifie si la [source de Sequencer](sequencer-source.md) a annulé une topolog
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est utilisé avec les événements suivants :
 
@@ -38,8 +38,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 
