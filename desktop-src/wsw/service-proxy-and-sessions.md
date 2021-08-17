@@ -3,17 +3,17 @@ title: Proxy de service et sessions
 description: Le proxy de service a des comportements spéciaux pour les liaisons de canal de session et non basées sur une session.
 ms.assetid: 6dc9de95-b97c-4acc-9d45-d5e6ebb6bd77
 keywords:
-- Services Web proxy de service et sessions pour Windows
+- Services Web de proxy de service et de sessions pour Windows
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fc8477a8cd03579e1d8cbfe4509f89890af8482
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 2d845bd341f1343338031619a72fd5dbd307fe1a92175b3753d83b373d73c812
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104032111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962888"
 ---
 # <a name="service-proxy-and-sessions"></a>Proxy de service et sessions
 

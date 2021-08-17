@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: c0f174254314656d153fdb568b9a9fa457775282
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 914863e14c6b3788b3e375a90537395b323338b9479343e05d1ec0c4fc8c3326
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016771"
 ---
 # <a name="cbasevideorenderer-class"></a>CBaseVideoRenderer, classe
 

@@ -3,7 +3,7 @@ title: EN_UPDATE le code de notification (winuser. h)
 description: Envoyé lorsqu’un contrôle d’édition va se redessiner lui-même.
 ms.assetid: 59138736-6cc9-4a3f-95f3-ada9cbf253cb
 keywords:
-- Contrôles Windows de code de notification EN_UPDATE
+- EN_UPDATE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df0b045efcfb5d50cb2a85c9ae230e215263aa2e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c126122336fd878dda633620c395cb86c112de1f5dc89e8e25d2c4e08bd93ebd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119436428"
 ---
 # <a name="en_update-notification-code"></a>Code de notification en cours de \_ mise à jour
 
@@ -53,7 +53,7 @@ Handle du contrôle d’édition.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Édition enrichie 1,0 :** Pour recevoir des \_ codes de notification en mise à jour, spécifiez la [**\_ mise à jour ENM**](rich-edit-control-event-mask-flags.md) dans le masque envoyé avec le message [**em \_ SETEVENTMASK**](em-seteventmask.md) .
 
@@ -67,8 +67,8 @@ Pour plus d’informations sur la compatibilité des versions RichEdit avec les 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

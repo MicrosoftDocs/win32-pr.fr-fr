@@ -4,12 +4,12 @@ ms.assetid: a3aeea9b-09c0-4834-892a-c378b67402f4
 title: Exemple de service complet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb87ebfef3f964eacee66be94a4b5291c335d0d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1f3f5fc0fb59342841a9d1f1280475ace12c54998d59e5f36a19557f0ccc5c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888330"
 ---
 # <a name="the-complete-service-sample"></a>Exemple de service complet
 

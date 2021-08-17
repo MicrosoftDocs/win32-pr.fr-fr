@@ -4,12 +4,12 @@ ms.assetid: 64fcd03f-8e0a-498d-82ea-0c69be0a3886
 title: JobCollateAllDocuments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e75eb21fcd518f0fda4edd4c3c4eff721a6a5b17
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4c5e9adc0b6e9682f3c67f1bc8f5ef46c5e272c434968c3c1490e474b7edc0b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971308"
 ---
 # <a name="jobcollatealldocuments"></a>JobCollateAllDocuments
 

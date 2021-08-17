@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9fefd44fe1b913fbba0e3ebfaa6f750b88d40813
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 185baf6818d2022dbe7b64cfab888945e1a2405433eefa925d2de70dcca286e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016857"
 ---
 # <a name="cbaserendererrender-method"></a>CBaseRenderer. Render, méthode
 
@@ -58,13 +58,13 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 | Code de retour                                                                             | Description                                                      |
 |-----------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | Le filtre est arrêté, ou *pMediaSample* a la **valeur null**.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                                              |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                                              |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode appelle la méthode virtuelle pure [**CBaseRenderer ::D orendersample**](cbaserenderer-dorendersample.md), qui fait le vrai travail. La classe dérivée doit implémenter **DoRenderSample**.
 
@@ -76,7 +76,7 @@ Juste avant d’appeler **DoRenderSample**, cette méthode appelle la méthode [
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

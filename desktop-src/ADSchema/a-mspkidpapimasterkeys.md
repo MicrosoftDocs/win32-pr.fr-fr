@@ -1,6 +1,6 @@
 ---
 title: attribut ms-PKI-DPAPIMasterKeys
-description: Stockage des clés principales DPAPI chiffrées pour l’utilisateur.
+description: Stockage de clés principales DPAPI chiffrées pour l’utilisateur.
 ms.assetid: 91e29a4b-0ff4-49a3-ba7f-18531188b9c0
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c79d9c801243e0ed099b88268e801c633b676679
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 376a4fbd54928ccf4ab20e67b118d91cd0e3712fc24230b5dde654df9c278c6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960328"
 ---
 # <a name="ms-pki-dpapimasterkeys-attribute"></a>attribut ms-PKI-DPAPIMasterKeys
 
-Stockage des clés principales DPAPI chiffrées pour l’utilisateur.
+Stockage de clés principales DPAPI chiffrées pour l’utilisateur.
 
 
 
@@ -42,7 +42,7 @@ Stockage des clés principales DPAPI chiffrées pour l’utilisateur.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

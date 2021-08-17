@@ -4,12 +4,12 @@ description: Animation d’un caractère
 ms.assetid: ed42de30-acac-41e8-bacb-4caaff254724
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ed47b30a9bcfcdb5e305b87ced5f02526ae0056
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 937b970f1cdc9de9c973d298bbe963bfa70e4de3733869292e54d5d32742c722
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976779"
 ---
 # <a name="animating-a-character"></a>Animation d’un caractère
 
@@ -37,6 +37,6 @@ Lorsque votre application cliente charge plusieurs caractères en même temps, l
 
 Microsoft Agent est également en lecture automatique d’autres animations. Par exemple, si l’état du caractère n’a pas été modifié pendant plusieurs secondes, l’agent commence à exécuter les animations assignées aux animations au **ralenti** du personnage. De même, lorsque l’entrée vocale est activée, l’agent lit les animations d' **écoute** du personnage, puis émet **des animations lorsqu'** un énoncé est détecté. Ces animations gérées par le serveur sont appelées des *États* et sont définies lors de la création d’un caractère. Pour plus d’informations, consultez [conception de caractères pour Microsoft Agent](agent-states.md).
 
- 
+ 
 
- 
+ 

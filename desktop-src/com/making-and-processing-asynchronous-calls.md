@@ -4,12 +4,12 @@ description: Les objets COM peuvent prendre en charge l’appel asynchrone.
 ms.assetid: bf7f9f8e-66ce-41a4-854c-62dbe840a89e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 059f55cc64a70f130e7fb654426803edbe8b7209
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 173f33ea3a0d4ec59f994eeff259e776efa58ae5b0182ba97f77e1ba99dd0d82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106509064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130201"
 ---
 # <a name="making-and-processing-asynchronous-calls"></a>Établissement et traitement des appels asynchrones
 
@@ -22,7 +22,7 @@ Les clients n’effectuent pas d’appels asynchrones directement sur l’objet 
 > [!Note]  
 > La prise en charge asynchrone n’est pas disponible pour **IDispatch** ou pour les interfaces qui héritent de **IDispatch**.
 
- 
+ 
 
 Les objets serveur qui prennent en charge les appels asynchrones implémentent l’interface [**ICallFactory**](/windows/win32/api/objidlbase/nn-objidlbase-icallfactory) . Cette interface expose une méthode unique, [**createCall**](/windows/win32/api/objidlbase/nf-objidlbase-icallfactory-createcall), qui crée une instance d’un objet d’appel spécifié. Les clients peuvent interroger **ICallFactory** pour déterminer si un objet prend en charge l’appel asynchrone.
 
@@ -43,6 +43,6 @@ Pour plus d'informations, voir les rubriques suivantes :
 -   [Annulation des appels de méthode](canceling-method-calls.md)
 -   [Synchronisation des appels](call-synchronization.md)
 
- 
+ 
 
- 
+ 

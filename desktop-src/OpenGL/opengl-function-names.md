@@ -7,12 +7,12 @@ keywords:
 - noms de fonctions OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e06d04d1acde3ddf9baebd4c5ab44b4f55cb126
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7729ca1f8a092c261a2ae87a835b51ea253ff2d09de710a830458c0825642bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936879"
 ---
 # <a name="opengl-function-names"></a>Noms des fonctions OpenGL
 
@@ -20,9 +20,9 @@ De nombreuses fonctions OpenGL sont des variations les unes des autres, qui se d
 
 L’effet d’une fonction OpenGL peut varier selon que certains modes sont activés ou non. Par exemple, vous devez activer l’éclairage si les fonctions liées à l’éclairage produisent un objet correctement éclairé. Pour activer un mode particulier, utilisez la fonction [**glEnable**](glenable.md) et fournissez la constante appropriée pour identifier le mode (par exemple, l’éclairage du GL \_ ). Pour désactiver un mode, utilisez [**glDisable**](gldisable.md). Consultez **glEnable** pour obtenir la liste complète des modes qui peuvent être activés.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: ff66092d-b3e5-4a51-bfc2-d39d539dc19c
 title: System. Search. contents
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08cdc01261d69b8b12a345dfa831b04074edc7d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85e9a739770c421de1a425974ee0488887b7552b20a1ca59d0ec095d991c041d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774529"
 ---
 # <a name="systemsearchcontents"></a>System. Search. contents
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

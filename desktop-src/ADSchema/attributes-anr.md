@@ -5,12 +5,12 @@ ms.assetid: fc76c2e8-461f-48bf-82ed-329b8f74408e
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcb0324fc39d3a492aeaf7eb843fab3d2dbb0b56
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 71dd9873ef5aad455b4b8c9a0cc62b8dcce4034c2eb383247f647d779b463f45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922829"
 ---
 # <a name="anr-attributes"></a>Attributs ANR
 
@@ -23,7 +23,7 @@ Voici les attributs qui prennent en charge la résolution de noms ambigus (ANR).
 [**Nom complet**](a-displayname.md)  
 [**Nom donné**](a-givenname.md)  
 [**Legacy-Exchange-DN**](a-legacyexchangedn.md)  
-[**Physical-Delivery-Office-Name**](a-physicaldeliveryofficename.md)  
+[**Physical-delivery-Office-Name**](a-physicaldeliveryofficename.md)  
 [**Adresses proxy**](a-proxyaddresses.md)  
 [**UNIQUE**](a-name.md)  
 [**Nom de compte SAM**](a-samaccountname.md)  
@@ -38,7 +38,7 @@ Voici les attributs qui prennent en charge la résolution de noms ambigus (ANR).
 [**Nom donné**](a-givenname.md)  
 [**Legacy-Exchange-DN**](a-legacyexchangedn.md)  
 [**ms-DS-supplémentaire-Sam-Account-Name**](a-msds-additionalsamaccountname.md)  
-[**Physical-Delivery-Office-Name**](a-physicaldeliveryofficename.md)  
+[**Physical-delivery-Office-Name**](a-physicaldeliveryofficename.md)  
 [**Adresses proxy**](a-proxyaddresses.md)  
 [**UNIQUE**](a-name.md)  
 [**Nom de compte SAM**](a-samaccountname.md)  
@@ -50,7 +50,7 @@ Voici les attributs qui prennent en charge la résolution de noms ambigus (ANR).
 <dl>
 
 [**Nom complet**](a-displayname.md)  
-[**Physical-Delivery-Office-Name**](a-physicaldeliveryofficename.md)  
+[**Physical-delivery-Office-Name**](a-physicaldeliveryofficename.md)  
 [**Adresses proxy**](a-proxyaddresses.md)  
 [**UNIQUE**](a-name.md)  
 </dl>
@@ -63,7 +63,7 @@ Voici les attributs qui prennent en charge la résolution de noms ambigus (ANR).
 [**Nom donné**](a-givenname.md)  
 [**Legacy-Exchange-DN**](a-legacyexchangedn.md)  
 [**ms-DS-supplémentaire-Sam-Account-Name**](a-msds-additionalsamaccountname.md)  
-[**Physical-Delivery-Office-Name**](a-physicaldeliveryofficename.md)  
+[**Physical-delivery-Office-Name**](a-physicaldeliveryofficename.md)  
 [**Adresses proxy**](a-proxyaddresses.md)  
 [**UNIQUE**](a-name.md)  
 [**Nom de compte SAM**](a-samaccountname.md)  
@@ -83,7 +83,7 @@ Voici les attributs qui prennent en charge la résolution de noms ambigus (ANR).
 [**ms-DS-phonétique-Display-Name**](a-msds-phoneticdisplayname.md)  
 [**ms-DS-phonétique-prénom**](a-msds-phoneticfirstname.md)  
 [**ms-DS-phonétique-Last-Name**](a-msds-phoneticlastname.md)  
-[**Physical-Delivery-Office-Name**](a-physicaldeliveryofficename.md)  
+[**Physical-delivery-Office-Name**](a-physicaldeliveryofficename.md)  
 [**Adresses proxy**](a-proxyaddresses.md)  
 [**UNIQUE**](a-name.md)  
 [**Nom de compte SAM**](a-samaccountname.md)  
@@ -103,7 +103,7 @@ Voici les attributs qui prennent en charge la résolution de noms ambigus (ANR).
 [**ms-DS-phonétique-Display-Name**](a-msds-phoneticdisplayname.md)  
 [**ms-DS-phonétique-prénom**](a-msds-phoneticfirstname.md)  
 [**ms-DS-phonétique-Last-Name**](a-msds-phoneticlastname.md)  
-[**Physical-Delivery-Office-Name**](a-physicaldeliveryofficename.md)  
+[**Physical-delivery-Office-Name**](a-physicaldeliveryofficename.md)  
 [**Adresses proxy**](a-proxyaddresses.md)  
 [**UNIQUE**](a-name.md)  
 [**Nom de compte SAM**](a-samaccountname.md)  
@@ -123,16 +123,16 @@ Voici les attributs qui prennent en charge la résolution de noms ambigus (ANR).
 [**ms-DS-phonétique-Display-Name**](a-msds-phoneticdisplayname.md)  
 [**ms-DS-phonétique-prénom**](a-msds-phoneticfirstname.md)  
 [**ms-DS-phonétique-Last-Name**](a-msds-phoneticlastname.md)  
-[**Physical-Delivery-Office-Name**](a-physicaldeliveryofficename.md)  
+[**Physical-delivery-Office-Name**](a-physicaldeliveryofficename.md)  
 [**Adresses proxy**](a-proxyaddresses.md)  
 [**UNIQUE**](a-name.md)  
 [**Nom de compte SAM**](a-samaccountname.md)  
 [**Famille**](a-sn.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

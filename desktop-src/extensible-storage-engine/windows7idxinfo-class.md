@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 77902cbbeb5779acdf235a645fc48c865fb683bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89377e1428259453ebcf789fbb04c619b7cd403ec649e0a2f0b48202ab428157
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470859"
 ---
 # <a name="windows7idxinfo-class"></a>Windows7IdxInfo, classe
 
-Les niveaux d’informations sur les colonnes qui ont été ajoutés à la version Windows 7 d’ESENT.
+les niveaux d’informations de colonne qui ont été ajoutés à la version Windows 7 d’ESENT.
 
 ## <a name="inheritance-hierarchy"></a>Hiérarchie d’héritage
 

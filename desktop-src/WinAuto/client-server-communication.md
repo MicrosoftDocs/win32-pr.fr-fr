@@ -4,12 +4,12 @@ description: Le mécanisme WinEvents permet aux serveurs de communiquer facileme
 ms.assetid: 992fe603-dcfe-4afd-88db-6d258a7a5f64
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95b29170d5a903493977af130ef6d48bb3b896b6
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: 896b6f6688e0e2929ebb351fe9d7cc210803768a8031faa44a8aca8127b12002
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "106509235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133932"
 ---
 # <a name="clientserver-communication"></a>Communication client/serveur
 
@@ -32,9 +32,9 @@ Une fois que le client dispose d’une adresse d’interface, il peut appeler le
 -   [Fonctionnement de la fonction GETOBJECT de WM \_](how-wm-getobject-works.md)
 -   [Récupération d’un objet IAccessible](retrieving-an-iaccessible-object.md)
 
- 
+ 
 
- 
+ 
 
 
 

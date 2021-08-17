@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDeviceTypes.h
-ms.openlocfilehash: 8e70455402a49673b574a0c696b6dda30cc6a884
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2419453beac6b493ddd1bbbe1281b1596ce00456599074b3872fecb003550c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440759"
 ---
 # <a name="wpd_stream_units-enumeration"></a>\_Énumération des unités de flux wpd \_
 
@@ -84,7 +84,7 @@ Les unités de flux de données sont spécifiées en microsecondes.
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                        |
 | En-tête<br/>                   | <dl> <dt>PortableDeviceTypes. h</dt> </dl> |
 

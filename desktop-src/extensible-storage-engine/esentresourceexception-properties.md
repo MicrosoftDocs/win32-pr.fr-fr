@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102652
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 5d31528c575cdc0ddec0f5a2f6b75fc0ea5c419a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ebdd045116260e202292e5a5ea0a6e01688b26bb49f641e2fce3a7758d12f9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104393795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119115199"
 ---
 # <a name="esentresourceexception-properties"></a>Propriétés EsentResourceException
 
@@ -49,7 +49,7 @@ Le type [EsentResourceException](./esentresourceexception-class.md) expose les m
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

@@ -855,7 +855,7 @@
                   href: /windows/desktop/api/Msctf/nf-msctf-itfdocumentmgr-gettop
                 - name: Pop
                   href: /windows/desktop/api/Msctf/nf-msctf-itfdocumentmgr-pop
-                - name: Envoi de données (push)
+                - name: Envoi (push)
                   href: /windows/desktop/api/Msctf/nf-msctf-itfdocumentmgr-push
             - name: ITfEditRecord
               href: /windows/desktop/api/Msctf/nn-msctf-itfeditrecord
@@ -1987,7 +1987,7 @@
     - name: Glossaire
       href: glossary.md
       items:
-        - name: Un
+        - name: A
           href: a.md
         - name: B
           href: b.md

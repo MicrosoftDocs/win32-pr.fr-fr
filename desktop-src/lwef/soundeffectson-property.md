@@ -4,12 +4,12 @@ description: Propriété SoundEffectsOn
 ms.assetid: 478c4748-5ca1-4237-958a-17f0a476c32c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5982a90fbc21aeae06d965dcb92ad7c3b9120db5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 664a9f3ce4e76d7f42cc6fb15e737bea302730bb03ea414e968336ee147772cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975709"
 ---
 # <a name="soundeffectson-property"></a>Propriété SoundEffectsOn
 
@@ -27,7 +27,7 @@ Retourne ou définit une valeur indiquant si les effets sonores sont activés po
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent*. **Caractères («***CharacterID***»). SoundEffectsOn** \[  =  *booléen*\]
+*agent*. **Caractères («**_CharacterID_*_»). SoundEffectsOn_* \[  =  *booléen*\]
 
 
 
@@ -41,7 +41,7 @@ Retourne ou définit une valeur indiquant si les effets sonores sont activés po
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété détermine si les effets sonores inclus dans les animations d’un caractère sont lus lors de la lecture d’une animation. Le paramètre de cette propriété s’applique à tous les clients du caractère.
 

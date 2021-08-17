@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17f3b49328ad85bc68147ad58b043459c223e6a0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 11a3ea2393482f09b233cd7bb8a404cc55ed39588a44ba334fd85e11d3bfb16c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106542144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117734021"
 ---
 # <a name="cd3dx12_pipeline_state_stream_ps-structure"></a>\_Structure de flux d’état de pipeline CD3DX12 \_ \_ \_ PS
 
@@ -72,7 +72,7 @@ Conversion implicite en une structure de [**\_ \_ bytecode de nuanceur D3D12**](
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 \_ \_ \_ Le flux d’état de pipeline CD3DX12 \_ PS est une spécialisation typedef du modèle de sous- [**objet de flux d' \_ \_ état \_ \_ de pipeline CD3DX12**](cd3dx12-pipeline-state-stream-subobject.md) , et est défini comme suit :
 

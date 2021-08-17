@@ -32,12 +32,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 71fe9c0ad29afa7be20df6fbf05c5d1183d23d13
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 82519db788c063909b48aec26f77c131865e4752f69b63feb1daf5d2e9745092
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924109"
 ---
 # <a name="cim_dma-class"></a>\_Classe DMA CIM
 
@@ -826,7 +826,7 @@ Exécution en mode Count-by-Word.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **classe \_ DMA CIM** est dérivée de la [**\_ SystemResource CIM**](cim-systemresource.md).
 

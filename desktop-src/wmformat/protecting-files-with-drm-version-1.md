@@ -17,16 +17,16 @@ keywords:
 - DRM (gestion des droits numériques), WMStubDRM. lib
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d3e4d1ae9c0d3835c20f75b4e61c262a85a26f4
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 6b500f3711b8c92324cbd87d4dc199a8a0bb803cba69357a23f139fb96f8281f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104314516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084536"
 ---
 # <a name="protecting-files-with-drm-version-1"></a>Protection des fichiers avec DRM version 1
 
-Lorsque ce type de protection est appliqué, une licence DRM version 1 est générée et valide uniquement sur l’ordinateur à partir duquel la demande de licence a été effectuée. Étant donné qu’aucune clé ou valeur initiale de clé n’est définie, il n’existe aucun moyen de générer des licences portables pour le contenu protégé à l’aide de cette technique. Toutefois, lorsque vous utilisez le kit de développement logiciel (SDK) Windows Media Format 7,1 ou une version ultérieure, les licences sont récupérables dans le service de migration de licences Microsoft.
+Lorsque ce type de protection est appliqué, une licence DRM version 1 est générée et valide uniquement sur l’ordinateur à partir duquel la demande de licence a été effectuée. Étant donné qu’aucune clé ou valeur initiale de clé n’est définie, il n’existe aucun moyen de générer des licences portables pour le contenu protégé à l’aide de cette technique. toutefois, lors de l’utilisation de Windows Media Format SDK 7,1 ou version ultérieure, les licences sont récupérables par le service de Migration de licences Microsoft.
 
 Pour protéger des fichiers ASF à l’aide de DRM version 1, procédez comme suit :
 
@@ -43,7 +43,7 @@ Pour protéger des fichiers ASF à l’aide de DRM version 1, procédez comme su
 
     
 
-     
+     
 
 L’exemple de code suivant montre comment créer un enregistreur DRM pour DRM version 1 et définir les propriétés DRM. La vérification des erreurs a été omise pour des raisons de clarification.
 
@@ -99,9 +99,9 @@ hr= pWMHeaderInfo->SetAttribute( 0,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

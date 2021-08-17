@@ -4,16 +4,16 @@ ms.assetid: 83cb0fdc-437e-4d03-87f0-6a416281c0d5
 title: Événement PBT_APMQUERYSUSPEND (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 277e4faf7617037b917dedab3193e421a381166a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e8063ce68a88c8a39cb6f9ab8a4f559aed41242eaae25fab616ace8793b16ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143382"
 ---
 # <a name="pbt_apmquerysuspend-event"></a>\_Événement PBT APMQUERYSUSPEND
 
-\[PBT \_ APMQUERYSUSPEND peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. La prise en charge de cet événement a été supprimée dans Windows Vista. Utilisez [**SetThreadExecutionState**](/windows/desktop/api/Winbase/nf-winbase-setthreadexecutionstate) à la place.\]
+\[PBT \_ APMQUERYSUSPEND peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. la prise en charge de cet événement a été supprimée dans Windows Vista. Utilisez [**SetThreadExecutionState**](/windows/desktop/api/Winbase/nf-winbase-setthreadexecutionstate) à la place.\]
 
 Demande l’autorisation de suspendre l’ordinateur. Une application qui accorde cette autorisation doit effectuer des opérations de préparation à la mise en veille avant de retourner sa réponse.
 
@@ -73,7 +73,7 @@ Indicateurs d’action. Si le bit 0 est 1, l’application peut inviter l’util
 
 Retourne la **valeur true** pour autoriser l’interruption de la demande. Pour refuser la demande, retournez **la \_ requête \_ de diffusion Deny**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application doit traiter cet événement aussi rapidement que possible. L’application peut demander à l’utilisateur des instructions sur la façon de se préparer à la suspension uniquement si le bit 0 dans le paramètre *Flags* est défini. Toutefois, si ce message est émis parce que l’utilisateur ferme le couvercle de l’ordinateur portable, il ne sera pas possible d’inviter l’utilisateur. Les applications doivent respecter un certain comportement lorsqu’elles ferment le couvercle de l’ordinateur portable ou appuient sur le bouton d’alimentation et permettent à la transition de s’effectuer correctement.
 
@@ -85,8 +85,8 @@ Le système laisse environ 20 secondes à une application de supprimer le messag
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                                    |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                                           |
 | En-tête<br/>                   | <dl> <dt>WinUser. h (inclure Windows. h)</dt> </dl> |

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7c0fd10f578d598c326cdfb4cf943d3a35fe78a9
-ms.sourcegitcommit: a232805e6c618673f2df904111cc4f5a33e15504
-ms.translationtype: HT
+ms.openlocfilehash: 8c85936ca28aabe0365fd912b4d764739b0ab15765241a243ad67143dacd0d7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "104383384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119484199"
 ---
 # <a name="waveactivemax-function"></a>WaveActiveMax fonction)
 
@@ -47,7 +47,7 @@ Expression à évaluer.
 
 Valeur maximale.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’ordre des opérations n’est pas défini.
 

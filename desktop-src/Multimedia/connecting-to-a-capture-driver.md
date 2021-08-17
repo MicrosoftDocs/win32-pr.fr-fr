@@ -6,12 +6,12 @@ keywords:
 - capDriverDisconnect macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2161279f5b8b8dc528ee548d0a6a8ad6e9b397f4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b34e606c439143400f1ea1845db37e7faf93009350254c173c4003400c3996f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144862"
 ---
 # <a name="connecting-to-a-capture-driver"></a>Connexion à un pilote de capture
 
@@ -38,9 +38,9 @@ capDriverDisconnect (hWndC);
 [Utilisation de la capture vidéo](using-video-capture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

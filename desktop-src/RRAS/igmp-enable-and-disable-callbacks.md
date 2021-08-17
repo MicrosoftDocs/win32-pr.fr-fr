@@ -4,12 +4,12 @@ description: Le gestionnaire de groupe de multidiffusion utilise deux rappels à
 ms.assetid: e4b2be85-6c67-4801-9905-eb1990d4bbb6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6aa58e9b65c67ac5946f5f5e54e611565e59d8c7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 103a0f9abb4d2a78b2b87fde3cb5832b4e88eb2677851d9fe703e5162263642c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791142"
 ---
 # <a name="igmp-enable-and-disable-callbacks"></a>Activer et désactiver les rappels IGMP
 
@@ -19,6 +19,6 @@ Une fois que la propriété d’une interface a changé, le gestionnaire de grou
 
 Le gestionnaire de groupe de multidiffusion appelle l’PMGM activer le rappel de [**\_ \_ \_ rappel IGMP**](/windows/desktop/api/Mgm/nc-mgm-pmgm_enable_igmp_callback) lorsque la modification de la propriété de l’interface est terminée.
 
- 
+ 
 
- 
+ 

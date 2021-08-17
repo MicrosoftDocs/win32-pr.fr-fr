@@ -13,12 +13,12 @@ keywords:
 - VFW (vidéo pour Windows), fonctions du gestionnaire de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2ccac567c88412bf8b41cc18e072229f1b24cc8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 81c84dc5562a807c2bc97355f2838a9d285547359e1c93e308f31d22c5c51e1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104101545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144592"
 ---
 # <a name="custom-file-and-stream-handler-functions"></a>Fonctions de gestionnaire de fichiers et de flux personnalisées
 
@@ -26,6 +26,6 @@ La fonction suivante est utilisée avec des gestionnaires de fichiers et de flux
 
 [**DllGetClassObject**](/previous-versions//dd797891(v=vs.85))
 
- 
+ 
 
- 
+ 

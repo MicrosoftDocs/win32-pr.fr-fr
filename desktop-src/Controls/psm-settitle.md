@@ -3,7 +3,7 @@ title: Message PSM_SETTITLE (Prsht. h)
 description: Définit le titre d’une feuille de propriétés. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro PropSheet SetTitle.
 ms.assetid: 53ce8e20-4554-41f4-bad9-fb24c2c93c34
 keywords:
-- PSM_SETTITLE les contrôles de message Windows
+- PSM_SETTITLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a848a5bdaeaae64b6f1825740d1e8ade07a5a22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 782d5ebf3e7fe0850b89d9f52f0dc5c406dbd41c9bdad694b41b8ae9ea4c8b0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985449"
 ---
 # <a name="psm_settitle-message"></a>\_Message PSM SETTITLE
 
@@ -49,7 +49,7 @@ Pointeur vers une mémoire tampon qui contient la chaîne de titre. Si le [**HIW
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans un Assistant Aero, ce message peut être utilisé pour modifier le titre d’une page intérieure de manière dynamique ; par exemple, lors de la gestion de la notification [ \_ SetActive PSN](psn-setactive.md) .
 
@@ -59,8 +59,8 @@ Dans un Assistant Aero, ce message peut être utilisé pour modifier le titre d�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **PSM \_ SETTITLEW** (Unicode) et **PSM \_ SETTITLEA** (ANSI)<br/>              |
 

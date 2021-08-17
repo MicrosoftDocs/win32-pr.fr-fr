@@ -4,12 +4,12 @@ ms.assetid: eca3f9b7-6051-4654-8016-a9c679519bc7
 title: Attribut MFASFSPLITTER_PACKET_BOUNDARY (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 044fd3ed635dc7cb45db1cb9e5c480481b06cd31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0904c6b5a002d6aa18361365946a176521674ea22f7a45cc042b89d844c4210d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464059"
 ---
 # <a name="mfasfsplitter_packet_boundary-attribute"></a>MFASFSPLITTER \_ attribut de limite de paquet \_
 
@@ -21,7 +21,7 @@ Spécifie si une mémoire tampon contient le début d’un paquet ASF (Advanced 
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si une mémoire tampon de média expose l’interface [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) via **QueryInterface** et que la valeur de cet attribut est différente de zéro, le séparateur ASF traite la mémoire tampon comme le début d’un nouveau paquet.
 
@@ -37,8 +37,8 @@ Notez que les implémentations standard du [**IMFMediaBuffer**](/windows/desktop
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcontainer. h</dt> </dl> |
 
 

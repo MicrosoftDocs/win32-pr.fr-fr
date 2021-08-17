@@ -4,12 +4,12 @@ ms.assetid: 33a1b546-ece2-44ef-a1c0-5579c32be0bc
 title: Attribut MF_DEVSOURCE_ATTRIBUTE_MEDIA_TYPE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a05283f33fa3b3bf4b9e339b830c2ae6a948ea82
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: eb4685f419658ecf77782a4cef770fd205119bb6cfd95523edb7fbbe001fd700
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106529530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105035"
 ---
 # <a name="mf_devsource_attribute_media_type-attribute"></a>\_Attribut de \_ \_ type de média d’attribut DEVSOURCE MF \_
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetBlob**](/windows/
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetBlob**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setblob).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut contient une paire de GUID : un type principal et un sous-type. Ces GUID décrivent le format de sortie par défaut de l’appareil. L’appareil peut prendre en charge des formats de sortie supplémentaires.
 
@@ -46,8 +46,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

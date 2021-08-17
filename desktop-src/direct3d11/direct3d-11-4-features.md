@@ -4,12 +4,12 @@ description: Les fonctionnalités suivantes ont été ajoutées dans Direct3D 11
 ms.assetid: 689A0460-5725-4C48-B960-41FE20499082
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5b0d2814aa1f9a7ac7b5f2c87ff9d918b36116f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 57190dbd244a565d579e807f7b7b2322ebfec0216d8a6862c4772c4cd4ebe142
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124534"
 ---
 # <a name="direct3d-114-features"></a>Fonctionnalités Direct3D 11,4
 
@@ -27,7 +27,7 @@ Pour vous assurer que les commandes graphiques en particulier sont exécutées d
 
 ## <a name="fences-for-multi-device-synchronization-and-interop-with-direct3d-12"></a>Clôtures pour la synchronisation de plusieurs appareils et l’interopérabilité avec Direct3D 12
 
-[**ID3D11Fence**](/windows/desktop/api/D3D11_3/nn-d3d11_3-id3d11fence), [**ID3D11Device5**](/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device5) et [**ID3D11DeviceContext4**](/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext4) fournissent les mêmes fonctionnalités de barrière que Direct3D 12 pour Direct3D 11. Les délimiteurs sont utilisés pour synchroniser plusieurs appareils Direct3D11, et pour l’interopérabilité entre Direct3D 11 et Direct3D 12. Les délimiteurs sont pris en charge dans Windows 10 Creators Update.
+[**ID3D11Fence**](/windows/desktop/api/D3D11_3/nn-d3d11_3-id3d11fence), [**ID3D11Device5**](/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device5) et [**ID3D11DeviceContext4**](/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext4) fournissent les mêmes fonctionnalités de barrière que Direct3D 12 pour Direct3D 11. Les délimiteurs sont utilisés pour synchroniser plusieurs appareils Direct3D11, et pour l’interopérabilité entre Direct3D 11 et Direct3D 12. Les délimiteurs sont pris en charge dans la Windows 10 Creators Update.
 
 ## <a name="extended-nv12-texture-support"></a>Prise en charge étendue de la texture NV12
 
@@ -37,7 +37,7 @@ Reportez-vous au paramètre booléen dans [**d3d11 \_ Feature \_ Data \_ d3d11 \
 
 ## <a name="shader-caching"></a>Mise en cache du nuanceur
 
-Les pilotes peuvent prendre en charge la mise en cache des nuanceurs gérés par le système d’exploitation des applications Direct3D11 dans Windows 10 Creators Update.
+les pilotes peuvent prendre en charge la mise en cache des nuanceurs gérés par le système d’exploitation des applications Direct3D11 dans le Windows 10 Creators update.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -46,6 +46,6 @@ Les pilotes peuvent prendre en charge la mise en cache des nuanceurs gérés par
 [Nouveautés de Direct3D 11](dx-graphics-overviews-introduction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

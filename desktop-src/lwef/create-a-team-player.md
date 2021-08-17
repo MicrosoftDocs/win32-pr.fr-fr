@@ -4,12 +4,12 @@ description: Créer un lecteur d’équipe
 ms.assetid: a252dd9d-69bf-4348-bf59-1ac97faaa3eb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 306691b6d61b0bf7dce702af7c0208c62b8cad13
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1ab130a4ff655e4c215fa89cb4dc7ab69caa82af89aaec4cd00237b016aa70ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118480111"
 ---
 # <a name="create-a-team-player"></a>Créer un lecteur d’équipe
 
@@ -21,9 +21,9 @@ La création d’un sens de l’équipe implique deux facteurs : l’identité 
 
 L’interdépendance peut être plus difficile à implémenter ou plus longue à établir, bien qu’il soit important de tenir compte du fait que l’interdépendance semble avoir un impact social plus fort que l’identité de l’équipe. Cela est illustré par la loyauté de la réputation des produits que les organisations marketing s’efforcent de mettre en place. La création d’un sens de l’interdépendance implique la démonstration de l’utilité et de la fiabilité continues de l’utilisateur. Les questions importantes à résoudre sont « le caractère fournit-il une valeur ? ». et « est-ce que le caractère opère la prévisibilité et est fiable ? » Un facteur important ici est la façon dont la relation du caractère est établie avec l’utilisateur. Pour provoquer un sens de l’interdépendance de l’équipe, le caractère doit être présenté sous la forme d’un homologue à l’utilisateur. Bien qu’il puisse être utile dans certains scénarios de présenter le caractère en tant qu’expert ou agent, pour tirer parti des avantages collaboratifs de Team Dynamics, il doit exister un sens de l’égalité dans lequel l’utilisateur peut être dépendant du caractère sans sens de l’absence. Cela peut être aussi simple que le fait que le caractère fasse référence à lui-même en tant que coéquipier ou compagnon plutôt qu’en tant qu’assistant. Elle peut également être influencée par la manière dont le caractère demande des informations à l’utilisateur. Par exemple, un caractère peut indiquer « nous allons travailler ensemble pour répondre à cette question ».
 
- 
+ 
 
- 
+ 
 
 
 

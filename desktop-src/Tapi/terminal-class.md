@@ -4,12 +4,12 @@ ms.assetid: 2a16d33c-2d87-4172-a5ff-33ff62e96615
 title: Classe de terminal (Tapi3if. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06d67d7668f9e4e16ad357408c8e9087fce870a1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6fd20d3e540529b343d1fb848b9e8cb2579a621b40146e0d170fdb175c4c9a18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975449"
 ---
 # <a name="terminal-class"></a>Classe de terminal
 
@@ -127,9 +127,9 @@ Fenêtre d’affichage vidéo, créée dynamiquement.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La version **BSTR** des classes de terminal est principalement désignée pour l’utilisation d’applications Visual Basic. (Par exemple, ils sont retournés en tant qu’éléments de la collection obtenue avec l' [**obtention de \_ DynamicTerminalClasses**](/windows/win32/api/tapi3if/nf-tapi3if-itterminalsupport-get_dynamicterminalclasses).)
+la version **BSTR** des classes de terminal est principalement désignée pour l’utilisation d’applications Visual Basic. (Par exemple, ils sont retournés en tant qu’éléments de la collection obtenue avec l' [**obtention de \_ DynamicTerminalClasses**](/windows/win32/api/tapi3if/nf-tapi3if-itterminalsupport-get_dynamicterminalclasses).)
 
 -   Chaîne CLSID de BSTR \_ \_ HandsetTerminal
 -   Chaîne CLSID de BSTR \_ \_ HeadsetTerminal

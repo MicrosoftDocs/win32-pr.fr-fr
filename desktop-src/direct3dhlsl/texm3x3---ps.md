@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6238a4b148de67275af1b288d57686cc4d381ee9
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 17030bb99eb472b5cffe53474eb04c30159e5e30ffb2d219f1ac47dfce9da205
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118787732"
 ---
 # <a name="texm3x3---ps"></a>texm3x3-PS
 
@@ -29,14 +29,14 @@ Effectue une multiplication de matrice 3x3 quand elle est utilisée conjointemen
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 -   SRC est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 Cette instruction est la même que l’instruction [texm3x3tex-PS](texm3x3tex---ps.md) , sans la recherche de texture.
 
@@ -93,9 +93,9 @@ t (m + 2)<sub>RVBA</sub> = (u<sup>'</sup> , v<sup>'</sup> , w<sup>'</sup> , 1)
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

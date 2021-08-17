@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 615d6561e12f67edee34e0de84dade12f250e0f0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f28958436ba7ff87aed139bf58129f028c5c3e008f8cc0f291bc3b37091fc5d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971869"
 ---
 # <a name="win32_printerdriver-class"></a>\_Classe PrinterDriver Win32
 
@@ -348,7 +348,7 @@ World Wide Web (WWW) le lien vers le site Web du fabricant de l’imprimante. No
 
 </dd> <dt>
 
-**Cours**
+**Démarré**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -587,7 +587,7 @@ Version du système d’exploitation pour le pilote d’imprimante.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PrinterDriver** est dérivée [**du \_ service CIM**](cim-service.md) qui dérive de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

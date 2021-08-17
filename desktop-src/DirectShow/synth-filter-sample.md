@@ -4,12 +4,12 @@ ms.assetid: 2d087967-3734-463f-bc5e-9552290ddc0b
 title: Exemple de filtre Synth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd569091df92eca3fbff4d8cb200150d6e6bfdca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01a3a366a6612aadf653b5af13099dbc8a4f08c2fb828bca6e64514cb1801e4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119291190"
 ---
 # <a name="synth-filter-sample"></a>Exemple de filtre Synth
 
@@ -21,9 +21,9 @@ Ce filtre illustre la génération de graphiques dynamiques. Il peut basculer en
 
 Ce filtre apparaît dans GraphEdit comme « filtre de synthétiseur audio ».
 
-Pour plus d’informations sur la génération de graphiques dynamiques, consultez [génération de graphiques dynamiques](dynamic-graph-building.md).
+pour plus d’informations sur la génération de graphiques dynamiques, consultez [génération de Graph dynamique](dynamic-graph-building.md).
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 Le filtre Synth permet à l’utilisateur de définir la forme d’onde, la fréquence, le nombre de canaux et d’autres propriétés via la page de propriétés. Pour définir le point de terminaison supérieur ou inférieur de la plage de fréquences balayées, maintenez la touche Maj enfoncée tout en réglant le curseur fréquence. Le filtre prend également en charge une interface personnalisée, ISynth2, pour la définition de ces propriétés.
 
@@ -31,7 +31,7 @@ Pour illustrer la fonctionnalité de création de graphique dynamique, procédez
 
 1.  Générez le filtre et inscrivez-le avec l’utilitaire regsvr32.
 2.  Lancez GraphEdit.
-3.  Insérez le filtre de synthétiseur audio. Il apparaît dans la catégorie filtres DirectShow.
+3.  Insérez le filtre de synthétiseur audio. il apparaît dans la catégorie filtres de DirectShow.
 4.  Affichez la broche de sortie du filtre.
 5.  Cliquez sur le bouton **lecture** .
 6.  Ouvrez la page de propriétés du filtre.
@@ -65,15 +65,15 @@ Les méthodes suivantes de la classe CDynamicSourceStream sont introuvables dans
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Cet exemple est installé sous le chemin d’accès suivant : exemples *\[ racine \] du kit de développement logiciel (SDK)* \\ \\ fichiers multimédias de \\ \\ filtres DirectShow \\ .
+cet exemple est installé sous le chemin d’accès suivant : exemples *\[ racine \] du kit de développement logiciel (SDK)* \\ exemples de filtres de \\ DirectShow multimédias \\ \\ \\ .
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Exemples DirectShow](directshow-samples.md)
+[DirectShow Extraits](directshow-samples.md)
 </dt> </dl>
 
  

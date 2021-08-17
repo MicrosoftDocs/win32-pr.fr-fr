@@ -4,12 +4,12 @@ description: API du composant de protocole WebSocket
 ms.assetid: ae73fd5e-9715-448c-b7ca-898f2705e228
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c16290a7af5b5fea406e5f47c0db718d775e4d17
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a712234f55b0270db9da23dc0efa1da823c85907cca92ac3428cb1225fac8a97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134212"
 ---
 # <a name="websocket-protocol-component-api"></a>API du composant de protocole WebSocket
 
@@ -34,16 +34,16 @@ L’API du composant de protocole WebSocket active des canaux de communication b
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-L’API du composant de protocole WebSocket est conçue pour être utilisée par les programmeurs C/C++. Vous devez être familiarisé avec la mise en réseau HTTP et Windows.
+L’API du composant de protocole WebSocket est conçue pour être utilisée par les programmeurs C/C++. vous devez être familiarisé avec la mise en réseau HTTP et Windows.
 
 > [!Note]  
-> La meilleure façon d’utiliser le protocole WebSocket sur Windows consiste à utiliser l' [API Windows http services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page) ou l' [espace de noms Windows. Networking. Sockets](/uwp/api/Windows.Networking.Sockets).
+> la meilleure façon d’utiliser le protocole websocket sur Windows consiste à utiliser l' [API Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page) ou le [Windows. Espace de noms Networking. Sockets](/uwp/api/Windows.Networking.Sockets).
 
  
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-L’API du composant de protocole WebSocket requiert Windows 8 et les versions ultérieures du système d’exploitation Windows. Les API peuvent être liées de manière dynamique via websocket.dll.
+l’API du composant de protocole websocket requiert Windows 8 et les versions ultérieures du système d’exploitation Windows. Les API peuvent être liées de manière dynamique via websocket.dll.
 
 > [!Note]  
 > websocket.dll assure la prise en charge des en-têtes HTTP liés aux protocoles client et serveur, vérifie les données de négociation reçues et analyse le flux de données WebSocket. Elle ne gère pas les opérations HTTP spécifiques (redirection, authentification, prise en charge du proxy) et n’effectue aucune opération d’e/s (envoi ou réception d’octets de flux WebSocket).
@@ -57,7 +57,7 @@ L’API du composant de protocole WebSocket requiert Windows 8 et les versions u
 [HTTP](/windows/desktop/Http/http-api-start-page)
 </dt> <dt>
 
-[Services HTTP Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page)
+[Windows Services HTTP (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page)
 </dt> </dl>
 
  

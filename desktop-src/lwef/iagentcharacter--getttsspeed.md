@@ -4,12 +4,12 @@ description: IAgentCharacter GetTTSSpeed
 ms.assetid: 25526ef7-581f-489c-a299-bd3b5ac9ea61
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 551074e1647cffc88e0b5f9f530cea931cd21ff9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 33e7fbe4cbba7eaed22f49865e1a0f0994c512867fb6f233ef2bbfa01dcaafcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119609869"
 ---
 # <a name="iagentcharactergetttsspeed"></a>IAgentCharacter::GetTTSSpeed
 
@@ -38,9 +38,9 @@ Bien que votre application ne puisse pas écrire cette valeur, vous pouvez inclu
 
 Cette propriété retourne le paramètre de vitesse de sortie en cours pour le caractère. Pour les caractères utilisant la sortie TTS, la propriété retourne la sortie TTS réelle pour le caractère. Si TTS n’est pas activé ou que le caractère ne prend pas en charge la sortie TTS, le paramètre reflète le paramètre utilisateur pour la vitesse de sortie.
 
- 
+ 
 
- 
+ 
 
 
 

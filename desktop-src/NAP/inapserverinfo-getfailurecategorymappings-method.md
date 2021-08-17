@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7ba830dd8a35a2c60b14c4feec14846125223e5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 13fcd87105eace269d3b8f395392c8a0ba275a135c212863ef69e45e597eb752
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144382"
 ---
 # <a name="inapserverinfogetfailurecategorymappings-method"></a>INapServerInfo :: GetFailureCategoryMappings, méthode
 
@@ -85,7 +85,7 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                               |
 | En-tête<br/>                   | <dl> <dt>NapServerManagement. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapServerManagement. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |

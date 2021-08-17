@@ -4,22 +4,22 @@ ms.assetid: 9984ba36-4e43-4886-a073-34b330274c9c
 title: À propos des types de média (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7b1489543b33f5eeb2c288add48148b37f31915
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 9fa3034581e443472f1b73c0bc42ca7b8b532a18120df3e067b02ad16f37930e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074893"
 ---
 # <a name="about-media-types-directshow"></a>À propos des types de média (DirectShow)
 
-Étant donné que DirectShow est modulaire, il nécessite un moyen de décrire le format des données à chaque point du graphique de filtre. Par exemple, envisagez la lecture AVI. Les données entrent dans le graphique sous forme de flux de blocs RIFF. Celles-ci sont analysées dans des flux vidéo et audio. Le flux vidéo est constitué de trames vidéo, qui sont probablement compressées. Après le décodage, le flux vidéo est une série de bitmaps non compressées. Le flux audio passe par un processus similaire.
+étant donné que DirectShow est modulaire, il est nécessaire de décrire le format des données à chaque point du graphique de filtre. Par exemple, envisagez la lecture AVI. Les données entrent dans le graphique sous forme de flux de blocs RIFF. Celles-ci sont analysées dans des flux vidéo et audio. Le flux vidéo est constitué de trames vidéo, qui sont probablement compressées. Après le décodage, le flux vidéo est une série de bitmaps non compressées. Le flux audio passe par un processus similaire.
 
-Types de médias : Comment DirectShow représente les formats
+Types de média : comment DirectShow représente les Formats
 
 Le *type de média* est un moyen universel et extensible de décrire les formats multimédias numériques. Lorsque deux filtres se connectent, ils s’accordent sur un type de support. Le type de média identifie le type de données que le filtre en amont va remettre au filtre en aval et la disposition physique des données. Si deux filtres ne peuvent pas s’accorder sur un type de média, ils ne se connectent pas.
 
-Pour certaines applications, vous n’aurez jamais à vous soucier des types de médias. Dans la lecture de fichier, par exemple, DirectShow gère tous les détails. D’autres types d’applications peuvent avoir besoin de travailler directement avec les types de média.
+Pour certaines applications, vous n’aurez jamais à vous soucier des types de médias. dans le cas d’une lecture de fichier, par exemple, DirectShow gère tous les détails. D’autres types d’applications peuvent avoir besoin de travailler directement avec les types de média.
 
 Les types de média sont définis à l’aide de la structure du [**\_ \_ type de média am**](/windows/win32/api/strmif/ns-strmif-am_media_type) . Cette structure contient les informations suivantes :
 
@@ -80,7 +80,7 @@ La structure du [**\_ \_ type de média am**](/windows/win32/api/strmif/ns-strmi
 
 <dl> <dt>
 
-[Le graphique de filtre et ses composants](the-filter-graph-and-its-components.md)
+[le filtre Graph et ses composants](the-filter-graph-and-its-components.md)
 </dt> </dl>
 
  

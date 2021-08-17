@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 35d66f6d504a96c1146bc15285762d83faa6de3b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4f145a827546a9258ee2968d0348ab7725147bb47132f5df5acbd2865a45b78e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429809"
 ---
 # <a name="cbasepinrun-method"></a>CBasePin. Run, méthode
 
@@ -53,7 +53,7 @@ Heure de début passée à la méthode [**IMediaFilter :: Run**](/windows/deskt
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le filtre passe de en pause à en cours d’exécution, la classe [**CBaseFilter**](cbasefilter.md) appelle cette méthode sur tous les codes confidentiels du filtre.
 
@@ -67,7 +67,7 @@ L’état interne du gestionnaire de graphique de filtre n’est pas mis à jour
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

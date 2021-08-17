@@ -4,12 +4,12 @@ ms.assetid: a69ba953-cd5c-487f-b9e0-dbd6c44b88b8
 title: Écriture sur un mailslot
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 568727f7a83d46925f3e681f3dec4906903ca8df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d13c31fd6b24217267b394f80c2dcdf551b6949f8692811173021fb78326f2f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119359308"
 ---
 # <a name="writing-to-a-mailslot"></a>Écriture sur un mailslot
 

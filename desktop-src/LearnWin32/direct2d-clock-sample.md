@@ -4,12 +4,12 @@ description: Cet exemple d’application montre comment utiliser des transformat
 ms.assetid: 7A4B0985-977A-4AB2-B8AF-0586C8533F08
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cf8e346502cf826fff9053e29dc9d9749e529a6
-ms.sourcegitcommit: 8eac40ea4d87a85e036ed5bbffec7b7a3dab39ec
+ms.openlocfilehash: 8101dc6ed56b3dc38afa4072aee13bc811874653f002cc607f1cc67c57bed2d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "104029908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146415"
 ---
 # <a name="direct2d-clock-sample"></a>Exemple d’horloge Direct2D
 
@@ -29,18 +29,18 @@ Cet exemple est disponible [ici](https://github.com/microsoft/Windows-classic-sa
 
 <dl> <dt>
 
-[Apprendre à programmer pour Windows : exemple de code](learn-to-program-for-windows--sample-code.md)
+[apprendre à programmer pour Windows : exemple de Code](learn-to-program-for-windows--sample-code.md)
 </dt> <dt>
 
 [Application de transformations dans Direct2D](applying-transforms-in-direct2d.md)
 </dt> <dt>
 
-[Module 3 : graphiques Windows](module-3---windows-graphics.md)
+[Module 3 : Windows graphics](module-3---windows-graphics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

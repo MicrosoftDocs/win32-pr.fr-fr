@@ -4,12 +4,12 @@ ms.assetid: 84f4753d-5c77-4dbe-ba08-cab51b4f0569
 title: System. DeviceInterface. HID. ProductId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac455ef994fe3ff5d3b775f0a010a3fdc2cbfdae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1512226cfb1e11a813209f0f6af7677e8c165a8d34148a781fb7bc058f25fce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098040"
 ---
 # <a name="systemdeviceinterfacehidproductid"></a>System. DeviceInterface. HID. ProductId
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

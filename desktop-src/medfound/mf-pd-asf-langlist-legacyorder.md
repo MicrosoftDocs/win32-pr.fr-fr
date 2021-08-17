@@ -4,12 +4,12 @@ ms.assetid: 8853bd88-d51a-478c-8c78-cf69a260e295
 title: Attribut MF_PD_ASF_LANGLIST_LEGACYORDER (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f24abc714a7605800faa8ad66f8c0b888fba6f79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32693550ecbe48d14d6e26b9c509f3b90cfd1c327fd945583f1cdff729db7bc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102929"
 ---
 # <a name="mf_pd_asf_langlist_legacyorder-attribute"></a>MF \_ PD \_ ASF \_ LANGLIST \_ LEGACYORDER (attribut)
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetBlob**](/windows/des
 
 [**IMFPresentationDescriptor**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux descripteurs de présentation générés à partir de l' [objet ASF ContentInfo](asf-contentinfo-object.md) par un appel à [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor). Le format du tableau d’octets est le suivant :
 
@@ -37,7 +37,7 @@ Cet attribut s’applique aux descripteurs de présentation générés à partir
 
 | Champ de l’objet de liste de langues | Type de données    | Taille    | Description                            |
 |----------------------------|--------------|---------|----------------------------------------|
-| Nombre d’enregistrements de l’ID de langue  | **GRANDE**    | 4 octets | Nombre de langues                    |
+| Nombre d’enregistrements de l’ID de langue  | **DWORD**    | 4 octets | Nombre de langues                    |
 | Enregistrements d’ID de langue        | **POIDS**\[\] | Variable  | Tableau de chaînes de langage (voir ci-dessous). |
 
 
@@ -50,7 +50,7 @@ Le premier **DWORD** est le nombre de langages, suivi d’un tableau de chaînes
 
 | Champ de l’objet de liste de langues | Type de données     | Taille    | Description                                                                               |
 |----------------------------|---------------|---------|-------------------------------------------------------------------------------------------|
-| Longueur de l’ID de langue         | **GRANDE**     | 4 octets | Longueur de la chaîne en octets, y compris la taille du caractère **null** de fin. |
+| Longueur de l’ID de langue         | **DWORD**     | 4 octets | Longueur de la chaîne en octets, y compris la taille du caractère **null** de fin. |
 | ID de langue                | **WCHAR**\[\] | Variable  | Chaîne terminée par le caractère null qui contient le nom du langage RFC 1766.                           |
 
 
@@ -59,7 +59,7 @@ Le premier **DWORD** est le nombre de langages, suivi d’un tableau de chaînes
 
 Chaque chaîne est une balise de langue conforme à la norme RFC 1766.
 
-Utilisez cet attribut uniquement pour la compatibilité descendante avec l’ordre d’énumération de l’interface [**IWMReaderAdvanced4**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4) dans le kit de développement logiciel (SDK) du format Windows Media. Les chaînes de langue sont stockées dans un ordre différent dans l’attribut [**MF \_ PD \_ ASF \_ LANGLIST**](mf-pd-asf-langlist-attribute.md) .
+utilisez cet attribut uniquement pour la compatibilité descendante avec l’ordre d’énumération de l’interface [**IWMReaderAdvanced4**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4) dans le kit de développement logiciel (SDK) de Format multimédia Windows. Les chaînes de langue sont stockées dans un ordre différent dans l’attribut [**MF \_ PD \_ ASF \_ LANGLIST**](mf-pd-asf-langlist-attribute.md) .
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -67,8 +67,8 @@ Utilisez cet attribut uniquement pour la compatibilité descendante avec l’ord
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Wmcontainer. h</dt> </dl> |
 
 

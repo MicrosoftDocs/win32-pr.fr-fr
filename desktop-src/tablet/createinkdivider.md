@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: 26e5785845f3ce8448269a821f67fcafc98bf4b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa63937bdf6f65ab46f012bd541eadcd7e8ef5b8a4d8957a462f2d6666e62a02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119266537"
 ---
 # <a name="createinkdivider-function"></a>CreateInkDivider fonction)
 
@@ -44,7 +44,7 @@ Cette fonction n’a pas de paramètres.
 
 Retourne un handle vers l’objet créé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette classe hérite de la classe de base [**InkDivider**](inkdivider-class.md) et implémente des fonctions virtuelles.
 
@@ -54,7 +54,7 @@ Cette classe hérite de la classe de base [**InkDivider**](inkdivider-class.md) 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                         |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                         |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | Bibliothèque<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

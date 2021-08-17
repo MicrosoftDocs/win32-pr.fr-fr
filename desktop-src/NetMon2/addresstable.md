@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 41acab19f83fdcc88a384c0407b666a7f641a598
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1c766e29033136954abab69755e1231e610983314cdaa01da3957889af5eb33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064279"
 ---
 # <a name="addresstable-structure"></a>ADDRESSTABLE, structure
 
@@ -62,7 +62,7 @@ Tableau de paires d’adresses. Notez que vous ne pouvez stocker que huit paires
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette structure dans le cadre du processus de construction de filtre de capture. Pour plus d’informations sur l’implémentation de cette structure, consultez [filtres de capture](capture-filters.md).
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6844d560ef677841c8c142cac8c57a5a8dc4bea
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 82d0fc7e9064c26a70a8a29230882c8e0444eb94406fb268ba9261ab8e4d0cdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960448"
 ---
 # <a name="msmq-nt4-stub-attribute"></a>Attribut MSMQ-NT4-stub
 
@@ -36,7 +36,7 @@ L’attribut **MSMQ-NT4-stub** contient des informations en mode mixte MSMQ.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.960               |
 | System-ID-GUID    | 6f914be6-d57e-11d1-90a2-00c04fd91ab1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ L’attribut **MSMQ-NT4-stub** contient des informations en mode mixte MSMQ.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

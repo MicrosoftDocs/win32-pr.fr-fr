@@ -1,5 +1,5 @@
 ---
-description: L’interface IAMTimelineObj fournit des méthodes pour manipuler des objets Timeline dans les services de modification DirectShow (DES).
+description: l’interface IAMTimelineObj fournit des méthodes permettant de manipuler des objets timeline dans des Services d’édition DirectShow.
 ms.assetid: ae8a778d-00b3-4b88-98dd-16e0a8645127
 title: Interface IAMTimelineObj (qedit. h)
 ms.topic: reference
@@ -14,21 +14,21 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e968ec01d937aeac9a5838b75462a6d23a632512
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a987cfd0f08311a0e7a233ab479e5cdbe2fc649fd521ad4f4ed1b37b6df6d75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428159"
 ---
 # <a name="iamtimelineobj-interface"></a>Interface IAMTimelineObj
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IAMTimelineObj` interface fournit des méthodes pour manipuler des objets Timeline dans les [services d’édition DirectShow](directshow-editing-services.md) (des). Tous les objets Timeline implémentent cette méthode, y compris les objets source, Effect, transition, Track, Group et composition. Créez un objet Timeline en appelant la méthode [**IAMTimeline :: CreateEmptyNode**](iamtimeline-createemptynode.md) .
+l' `IAMTimelineObj` interface fournit des méthodes permettant de manipuler des objets de chronologie dans des [Services d’édition DirectShow](directshow-editing-services.md) . Tous les objets Timeline implémentent cette méthode, y compris les objets source, Effect, transition, Track, Group et composition. Créez un objet Timeline en appelant la méthode [**IAMTimeline :: CreateEmptyNode**](iamtimeline-createemptynode.md) .
 
 ## <a name="members"></a>Membres
 
@@ -87,7 +87,7 @@ L’interface **IAMTimelineObj** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -95,7 +95,7 @@ L’interface **IAMTimelineObj** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

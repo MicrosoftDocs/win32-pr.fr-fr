@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: fbc6c63a3084db6a9be0a4b4ea7672d84881a29a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9068809c052638e33d45a5affadc23a289fa65ae04e6b1a71af1e40e4b508b15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993749"
 ---
 # <a name="afd_event_close-event"></a>Événement de fermeture d' \_ événement AFD \_
 
@@ -67,7 +67,7 @@ Champ privé utilisé en interne.
 *Processus* 
 </dt> <dd>
 
-Adresse [EPROCESS](/windows-hardware/drivers/kernel/eprocess) du processus qui possède le socket associé. Il s’agit d’une structure opaque qui sert d’objet de processus pour un processus. Pour plus d’informations, consultez la documentation du kit de pilotes Windows pour la structure [EPROCESS](/windows-hardware/drivers/kernel/eprocess) .
+Adresse [EPROCESS](/windows-hardware/drivers/kernel/eprocess) du processus qui possède le socket associé. Il s’agit d’une structure opaque qui sert d’objet de processus pour un processus. pour plus d’informations, consultez la documentation du Kit de pilotes Windows pour la structure [EPROCESS](/windows-hardware/drivers/kernel/eprocess) .
 
 </dd> <dt>
 
@@ -85,7 +85,7 @@ Code NTSTATUS pour l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’événement de **\_ \_ fermeture d’événement AFD** est suivi pour qu’une opération réseau Winsock ferme un Socket. Le canal de cet événement est Winsock-AFD. Le niveau de cet événement est informatif.
 
@@ -95,8 +95,8 @@ L’événement de **\_ \_ fermeture d’événement AFD** est suivi pour qu’u
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

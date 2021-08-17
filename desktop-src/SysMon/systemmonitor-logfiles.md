@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8127433319290b44498b272834923784b714052
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bed0ea39809d3dfe40ebcedf2fbf2105833af836c12b95ffdfe442d3956d52a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882179"
 ---
 # <a name="systemmonitorlogfiles-property"></a>SystemMonitor. LogFiles, propriété
 
@@ -40,7 +40,7 @@ Property LogFiles As ILogFiles
 
 Collection d’objets [**LogFileItem**](logfileitem.md) qui spécifient les fichiers journaux utilisés comme source de données pour le graphique.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour ajouter ou supprimer un fichier journal de la collection de fichiers journaux, la valeur de [**systemmonitor. DataSourceType**](systemmonitor-datasourcetype.md) ne doit pas être définie sur sysmonLogFiles.
 

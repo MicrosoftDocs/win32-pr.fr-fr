@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21c8218273350edede9f210f491c8b7fc2fb0c4f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2bdc1f2765688cd736353095450a95c6edd03817d32fbf23fbf16bd997f4e4a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106524879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858049"
 ---
 # <a name="constants-d3d12h"></a>Constantes (D3D12. h)
 
@@ -30,10 +30,10 @@ Les constantes suivantes sont déclarées dans d3d12. h, pour une utilisation pa
 
 | Constante                                                                         | Valeur            |
 |----------------------------------------------------------------------------------|------------------|
-| Valeur de coupe de la \_ bande d’index 16 bits D3D12 \_ \_ \_ \_                                           | 0xFFFF           |
-| Valeur de coupe de la \_ bande d’index 32 bits D3D12 \_ \_ \_ \_                                           | égale       |
+| Valeur de coupe de la \_ bande d’index 16 bits D3D12 \_ \_ \_ \_                                           | 0xffff           |
+| Valeur de coupe de la \_ bande d’index 32 bits D3D12 \_ \_ \_ \_                                           | 0xffffffff       |
 | Valeur de coupe de la bande d’index D3D12 \_ 8 bits \_ \_ \_ \_                                            | vert             |
-| D3D12 \_ ajouter \_ un \_ élément aligné                                                  | égale       |
+| D3D12 \_ ajouter \_ un \_ élément aligné                                                  | 0xffffffff       |
 | \_Nombre de \_ \_ bits de \_ plage d’adresses \_ \_ de l’axe du tableau D3D12                                   | 9                |
 | D3D12 \_ \_ ou \_ nombre de \_ distances d’abattage \_                                           | 8                |
 | \_Nombre d' \_ éléments D3D12 ou \_ distance d’abattage \_ \_ \_                                  | 2                |
@@ -144,7 +144,7 @@ Les constantes suivantes sont déclarées dans d3d12. h, pour une utilisation pa
 | D3D12 \_ \_ alignement du \_ positionnement des ressources MSAA \_ par défaut \_                             | 4 194 304          |
 | \_Index du \_ \_ tableau cible \_ de rendu par défaut D3D12 \_                                     | 0                |
 | D3D12 \_ \_ alignement du \_ positionnement des ressources par défaut \_                                   | 65536            |
-| D3D12 \_ \_ exemple de \_ masque par défaut                                                     | égale       |
+| D3D12 \_ \_ exemple de \_ masque par défaut                                                     | 0xffffffff       |
 | D3D12 \_ ciseaux par défaut \_ \_                                                    | 0                |
 | D3D12 \_ ciseaux par défaut \_ \_                                                    | 0                |
 | D3D12 \_ ciseaux par défaut \_ \_ STARTX                                                  | 0                |
@@ -160,7 +160,7 @@ Les constantes suivantes sont déclarées dans d3d12. h, pour une utilisation pa
 | D3D12 \_ fenêtre d’affichage par défaut \_ \_ TOPLEFTX                                               | 0                |
 | D3D12 \_ gauche de la fenêtre d’affichage par défaut \_ \_                                               | 0                |
 | Largeur de la \_ fenêtre d’affichage par défaut D3D12 \_ \_                                                  | 0                |
-| Ajout de décalage de la \_ plage du descripteur D3D12 \_ \_ \_                                         | égale       |
+| Ajout de décalage de la \_ plage du descripteur D3D12 \_ \_ \_                                         | 0xffffffff       |
 | \_Fin des \_ \_ valeurs d’espace de Registre réservées du pilote \_ \_ D3D12 \_                            | 0xfffffff7       |
 | \_Démarrage des \_ \_ valeurs d’espace de registres réservés \_ \_ du pilote D3D12 \_                          | 0xfffffff0       |
 | \_ \_ Nombre maximal de points de contrôle d’entrée D3D12 DS au \_ \_ \_ \_ total \_ scalaires                           | 3968             |
@@ -228,7 +228,7 @@ Les constantes suivantes sont déclarées dans d3d12. h, pour une utilisation pa
 | \_Le point de contrôle D3D12 HS a \_ inscrit le nombre de \_ \_ bits du \_ composant \_ \_                       | 32               |
 | \_Lectures du Registre du point de contrôle D3D12 HS \_ \_ \_ \_ \_ par \_ inst                            | 2                |
 | \_Point de contrôle D3D12 HS-inscrire des \_ \_ \_ \_ ports de lecture \_                                 | 1                |
-| \_ \_ \_ \_ \_ Limite supérieure du nombre d’instances \_ de la phase de fourche \_ D3D12 HS                            | égale       |
+| \_ \_ \_ \_ \_ Limite supérieure du nombre d’instances \_ de la phase de fourche \_ D3D12 HS                            | 0xffffffff       |
 | \_ \_ ID d’instance de branche d’entrée D3D12 HS, \_ \_ \_ composants de \_ Registre \_                       | 1                |
 | ID de l' \_ \_ instance de fourche d’entrée D3D12 HS- \_ \_ \_ nombre de \_ bits du \_ composant \_ \_            | 32               |
 | \_ \_ \_ \_ \_ Nombre d' \_ enregistreurs d’ID d’instance \_ de branche d’entrée D3D12 HS                            | 1                |
@@ -244,7 +244,7 @@ Les constantes suivantes sont déclarées dans d3d12. h, pour une utilisation pa
 | Nombre de registres de l’ID de la \_ \_ primitive d’entrée D3D12 HS \_ \_ \_ \_                                 | 1                |
 | Lectures du registre de l’ID de la \_ \_ primitive d’entrée D3D12 HS \_ \_ \_ \_ \_ par \_ inst                      | 2                |
 | ID de la \_ \_ primitive d’entrée D3D12 HS \_ inscrire les \_ \_ \_ ports de lecture \_                           | 1                |
-| \_ \_ \_ \_ \_ Limite supérieure du nombre d’instances \_ de la phase de jointure \_ D3D12 HS                            | égale       |
+| \_ \_ \_ \_ \_ Limite supérieure du nombre d’instances \_ de la phase de jointure \_ D3D12 HS                            | 0xffffffff       |
 | Limite inférieure de D3D12 \_ HS \_ MAXTESSFACTOR \_ \_                                           | supérieures             |
 | Limite supérieure de D3D12 \_ HS \_ MAXTESSFACTOR \_ \_                                           | 64 f            |
 | POINTS de contrôle de sortie D3D12 HS-nombre \_ \_ maximal de \_ \_ \_ \_ \_ scalaires                          | 3968             |
@@ -271,10 +271,10 @@ Les constantes suivantes sont déclarées dans d3d12. h, pour une utilisation pa
 | \_ \_ \_ Nombre d’emplacements de \_ ressource d’entrée de \_ vertex D3D12 IA \_                                  | 32               |
 | \_ \_ \_ Composants d’éléments de \_ structure d’entrée \_ de vertex \_ IA D3D12                        | 128              |
 | \_ \_ \_ Nombre d’éléments de \_ structure d’entrée \_ de vertex \_ IA D3D12                              | 32               |
-| D3D12 \_ entier \_ Division \_ par \_ zéro \_ quotient                                       | égale       |
-| D3D12 \_ entier \_ Division \_ par \_ zéro \_ restant                                      | égale       |
-| D3D12 \_ conserver \_ \_ les cibles \_ de rendu et le \_ stencil de profondeur \_                                | égale       |
-| D3D12 \_ conserver les \_ vues d' \_ accès non ordonnées \_                                            | égale       |
+| D3D12 \_ entier \_ Division \_ par \_ zéro \_ quotient                                       | 0xffffffff       |
+| D3D12 \_ entier \_ Division \_ par \_ zéro \_ restant                                      | 0xffffffff       |
+| D3D12 \_ conserver \_ \_ les cibles \_ de rendu et le \_ stencil de profondeur \_                                | 0xffffffff       |
+| D3D12 \_ conserver les \_ vues d' \_ accès non ordonnées \_                                            | 0xffffffff       |
 | \_Gamma linéaire \_ D3D12                                                             | supérieures             |
 | \_Version principale de D3D12 \_                                                            | 12               |
 | \_Composant de \_ couleur de bordure Max \_ D3D12 \_                                             | supérieures             |
@@ -294,18 +294,18 @@ Les constantes suivantes sont déclarées dans d3d12. h, pour une utilisation pa
 | Nombre de bits de la \_ plage D3D12 MIP \_ LOD \_ \_ \_                                               | 8                |
 | D3D12- \_ échantillonner la largeur de ligne de l' \_ anticrénelage \_ \_                                       | 1.4 f             |
 | \_ \_ \_ \_ Résultat de l’extraction de \_ l’accès en dehors de \_ l' \_ exemple D3D12                          | 0                |
-| \_Fin des \_ \_ valeurs d' \_ espace de Registre \_ réservées du système d’exploitation \_ D3D12                                | égale       |
+| \_Fin des \_ \_ valeurs d' \_ espace de Registre \_ réservées du système d’exploitation \_ D3D12                                | 0xffffffff       |
 | \_Démarrage des \_ \_ valeurs d’espace de registres réservés \_ \_ au système d’exploitation \_ D3D12                              | 0xfffffff8       |
-| \_Vignette compressée D3D12 \_                                                              | égale       |
+| \_Vignette compressée D3D12 \_                                                              | 0xffffffff       |
 | Nombre de bits de la plage d’adresses D3D12 \_ pixel \_ \_ \_ \_                                         | 15               |
 | D3D12 \_ \_ nombre de \_ \_ bits de \_ plage d’adresses \_ de pixels \_ pré-ciseaux                           | 16               |
 | \_Composants du Registre D3D12 PS \_ cs \_ UAV \_ \_                                         | 1                |
 | \_Nombre de registres D3D12 PS \_ cs \_ UAV \_ \_                                              | 8                |
 | \_Lectures du Registre D3D12 PS \_ cs \_ UAV \_ \_ \_ par \_ inst                                   | 1                |
 | D3D12 \_ PS \_ cs \_ UAV \_ inscrire \_ les \_ ports de lecture                                        | 1                |
-| D3D12 \_ PS \_ FRONTFACING \_ valeur par défaut \_                                           | égale       |
+| D3D12 \_ PS \_ FRONTFACING \_ valeur par défaut \_                                           | 0xffffffff       |
 | D3D12 \_ PS \_ FRONTFACING \_ false \_                                             | 0                |
-| D3D12 \_ PS \_ FRONTFACING \_ \_ valeur true                                              | égale       |
+| D3D12 \_ PS \_ FRONTFACING \_ \_ valeur true                                              | 0xffffffff       |
 | \_Composants du \_ Registre d’entrée D3D12 PS \_ \_                                           | 4                |
 | \_Nombre de \_ \_ bits du \_ composant \_ Registre d’entrée \_ D3D12 PS                                | 32               |
 | \_Nombre de \_ registres d’entrée D3D12 PS \_ \_                                                | 32               |
@@ -359,7 +359,7 @@ Les constantes suivantes sont déclarées dans d3d12. h, pour une utilisation pa
 | D3D12 \_ req \_ TEXTURE3D \_ U \_ V \_ ou \_ W \_ dimension                                    | 2 048             |
 | D3D12 \_ req \_ TEXTURECUBE \_ dimension                                               | 16384            |
 | \_Instruction D3D12 RESINFO \_ manquante sur le \_ \_ composant \_ retVal                          | 0                |
-| \_ \_ Cloisonnement des ressources D3D12 \_ toutes les sous- \_ ressources                                      | égale       |
+| \_ \_ Cloisonnement des ressources D3D12 \_ toutes les sous- \_ ressources                                      | 0xffffffff       |
 | D3D12_RS_SET_SHADING_RATE_COMBINER_COUNT                                         | 2       |
 | \_Version principale du nuanceur D3D12 \_ \_                                                    | 5                |
 | \_ \_ Nombre maximal d’instances de NUANCEur D3D12 \_                                                    | 65535            |
@@ -375,8 +375,8 @@ Les constantes suivantes sont déclarées dans d3d12. h, pour une utilisation pa
 | D3D12 \_ pour la taille \_ maximale de la mémoire tampon \_ \_ \_ en \_ octets                                        | 2 048             |
 | D3D12 \_ la \_ \_ \_ fenêtre d’écriture maximale de la mémoire tampon \_ \_ en \_ octets                                 | 512              |
 | D3D12 \_ le \_ \_ nombre d’emplacements de mémoire tampon \_                                                   | 4                |
-| D3D12 \_ pour que l' \_ index de Registre DDI signale un \_ \_ \_ \_ intervalle                                   | égale       |
-| D3D12 \_ so \_ aucun \_ flux pixellisé \_                                                | égale       |
+| D3D12 \_ pour que l' \_ index de Registre DDI signale un \_ \_ \_ \_ intervalle                                   | 0xffffffff       |
+| D3D12 \_ so \_ aucun \_ flux pixellisé \_                                                | 0xffffffff       |
 | D3D12 \_ pour \_ le \_ nombre de composants de sortie \_                                              | 128              |
 | D3D12 \_ le \_ nombre de flux \_                                                         | 4                |
 | Jour D3D12 \_ spec \_ date \_                                                           | 14               |
@@ -400,7 +400,7 @@ Les constantes suivantes sont déclarées dans d3d12. h, pour une utilisation pa
 | \_ \_ \_ Nombre total de \_ composants \_ du vertex standard D3D12                                 | 64               |
 | \_ \_ Nombre de bits fractionnaires \_ de sous-pixel D3D12 \_                                          | 8                |
 | D3D12- \_ nombre de \_ bits fractionnaires sous-Texel \_ \_                                          | 8                |
-| \_Fin des \_ \_ valeurs d’espace de registres réservés \_ \_ du système D3D12 \_                            | égale       |
+| \_Fin des \_ \_ valeurs d’espace de registres réservés \_ \_ du système D3D12 \_                            | 0xffffffff       |
 | \_Démarrage des \_ \_ valeurs d’espace de Registre réservé \_ \_ au système D3D12 \_                          | 0xfffffff0       |
 | \_Facteur de \_ \_ \_ pavage \_ D3D12 du paveur Max                              | 64               |
 | \_Facteur de \_ \_ pavage de densité d’isoligne Max \_ \_ D3D12 du paveur \_                  | 64               |

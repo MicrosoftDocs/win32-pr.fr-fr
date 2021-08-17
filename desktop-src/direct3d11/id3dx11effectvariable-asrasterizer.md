@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cbe4edc1b1195a9d449b37897f0875b1f35aae3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dfaf83debc6c7e73a89f78b0c8c3899cce2fb83fb6a5884fa5a5ed9ed5b35912
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104996325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858099"
 ---
 # <a name="id3dx11effectvariableasrasterizer-method"></a>ID3DX11EffectVariable :: AsRasterizer, méthode
 
@@ -47,7 +47,7 @@ Type : **[ **ID3DX11EffectRasterizerVariable**](id3dx11effectrasterizervariable
 
 Pointeur vers une variable de rastériseur. Consultez [**ID3DX11EffectRasterizerVariable**](id3dx11effectrasterizervariable.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 AsRasterizer retourne une version de la variable Effect qui a été spécialisée pour une variable rastériseur. Comme pour un cast, cette spécialisation retourne un objet non valide si la variable Effect ne contient pas de données rastériseur.
 
@@ -58,7 +58,7 @@ Les applications peuvent tester la validité de l’objet retourné en appelant 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

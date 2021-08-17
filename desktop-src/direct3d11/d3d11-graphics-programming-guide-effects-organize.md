@@ -4,12 +4,12 @@ description: Avec Direct3D 11, l’état d’effet de certaines étapes de pipel
 ms.assetid: e5057f94-69dd-4219-a5f4-569e48502475
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5a0523dd8abdabde29a5485b8d3b1e6d13b9429
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: 1d36bf99887e96dc5854778edb24f0ceacbc0cdf5a7994532bc2ebd94137fe8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119126093"
 ---
 # <a name="organizing-state-in-an-effect-direct3d-11"></a>Organisation de l’État dans un effet (Direct3D 11)
 
@@ -25,7 +25,7 @@ Avec Direct3D 11, l’état d’effet de certaines étapes de pipeline est organ
 
 
 
- 
+ 
 
 Pour les étapes du nuanceur, où le nombre de modifications d’État doit être plus contrôlé par une application, l’État a été divisé en état de mémoire tampon constante, état de l’échantillonneur, état de la ressource du nuanceur et état d’affichage de l’accès non ordonné (pour les nuanceurs de pixels et de calcul). Cela permet à une application conçue pour mettre à jour uniquement l’État qui change, ce qui améliore les performances en réduisant la quantité de données qui doit être transmise au GPU.
 
@@ -177,6 +177,6 @@ La syntaxe des nuanceurs d’effets est plus détaillée dans la [syntaxe de tec
 [Effets (Direct3D 11)](d3d11-graphics-programming-guide-effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

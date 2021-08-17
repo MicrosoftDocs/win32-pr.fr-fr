@@ -4,12 +4,12 @@ description: Détermine si le débogueur est automatiquement lancé lors de l’
 ms.assetid: e05ae7cb-79d1-4543-aef3-9397548c2030
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23c7730c3c6e0fe9dc01b43a7c4f9621897f9f16
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 030cab43fe0ac4a67551920479b9c36f3d1ff33f2ba2854647fcf209cfe694e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737221"
 ---
 # <a name="auto"></a>Auto
 
@@ -19,10 +19,10 @@ Détermine si le débogueur est automatiquement lancé lors de l’envoi d’une
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\DebugObjectRPCEnabled\AeDebug
-   Auto = value
+   Auto = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **\_ mot reg** .
 
@@ -34,7 +34,7 @@ Il s’agit d’une valeur de **\_ mot reg** .
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -49,9 +49,9 @@ Il s’agit d’une valeur de **\_ mot reg** .
 [**ORPC \_ dbg \_ tout**](orpc-dbg-all.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Mappage d’instances Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f51eaec7b2c6ef121d0f65df375e1bb0fce32cc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66a3e40a6f4a85ebb1bb3d7e1e5a5de7bc43c754ff7672f694aff05b62853dbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317636"
 ---
 # <a name="mapping-active-directory-instances"></a>Mappage d’instances Active Directory
 
@@ -48,7 +48,7 @@ Le tableau suivant répertorie le mappage entre chaque attribut d’un objet Act
 | DN-String               | Objet incorporé de la classe **DN \_ avec \_ String** | Mappé aux instances du **DN avec la \_ classe \_ String** .                    |
 | Énumération             | **\_SINT32 CIM**                               | Mappé directement à la valeur entière.                                     |
 | IA5-String              | **\_chaîne CIM**                               | Mappé à partir de la valeur de la chaîne.                                      |
-| Integer                 | **\_SINT32 CIM**                               | Mappé directement à la valeur entière.                                     |
+| Entier                 | **\_SINT32 CIM**                               | Mappé directement à la valeur entière.                                     |
 | Descripteur de sécurité NT  | Objet incorporé de la classe **Uint8Array**       | Mappé aux instances de la classe **Uint8Array** .                          |
 | Chaîne numérique          | **\_chaîne CIM**                               | Mappé à partir de la valeur de la chaîne.                                      |
 | ID objet               | **\_chaîne CIM**                               | Mappé à partir de la représentation sous forme de chaîne de l’OID ; par exemple, « 1.3.3.4 ». |

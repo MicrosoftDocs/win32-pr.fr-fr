@@ -26,7 +26,7 @@ L’exemple de code suivant peut être modifié pour accorder au service un acc�
 
 
 
-| Property                                                              | Description                                                          |
+| Propriété                                                              | Description                                                          |
 |-----------------------------------------------------------------------|----------------------------------------------------------------------|
 | [**serviceDNSName**](/windows/desktop/ADSchema/a-servicednsname)                       | Nom du serveur hôte sur lequel le service est en cours d’exécution.         |
 | [**serviceBindingInformation**](/windows/desktop/ADSchema/a-servicebindinginformation) | Informations de liaison privées que le service met à jour lorsqu’il démarre. |

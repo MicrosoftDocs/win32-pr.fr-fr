@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPMediaCollection (VB et C) (WMP. h)
+title: interface IWMPMediaCollection (VB et C) (Wmp. h)
 description: Fournit des méthodes qui peuvent être utilisées pour organiser une grande collection d’éléments multimédias.
 ms.assetid: a9e3d466-7dcf-4f1b-ba6f-9d166a35f03d
 keywords:
-- IWMPMediaCollection (VB et C) interface Windows Media Player
-- Interface IWMPMediaCollection (VB et C), le lecteur Windows Media, décrit
+- interface IWMPMediaCollection (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPMediaCollection (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -16,26 +16,26 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 424fd45b1fd3d02000a9774ffe75ec87e52dd9c5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ce15616b2059802610360b52d5af9bfa8d56b56b7ed06129bb849de567e22e26
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119468449"
 ---
-# <a name="iwmpmediacollection-vb-and-c-interface"></a>Interface IWMPMediaCollection (VB et C#)
+# <a name="iwmpmediacollection-vb-and-c-interface"></a>interface IWMPMediaCollection (VB et C#)
 
 Fournit des méthodes qui peuvent être utilisées pour organiser une grande collection d’éléments multimédias.
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPMediaCollection (VB et C#)** possède les types de membres suivants :
+l’interface **IWMPMediaCollection (VB et C#)** possède les types de membres suivants :
 
 -   [Méthodes](#methods)
 
 ### <a name="methods"></a>Méthodes
 
-L’interface **IWMPMediaCollection (VB et C#)** possède ces méthodes.
+l’interface **IWMPMediaCollection (VB et C#)** possède ces méthodes.
 
 
 
@@ -85,7 +85,7 @@ Procurez-vous une interface **IWMPMediaCollection** en utilisant les propriété
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPMediaCollection2**](iwmpmediacollection2--vb-and-c.md)

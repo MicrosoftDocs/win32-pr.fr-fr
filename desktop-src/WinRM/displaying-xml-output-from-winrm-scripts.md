@@ -1,6 +1,6 @@
 ---
 title: Affichage de la sortie XML des scripts WinRM
-description: Les scripts de Windows Remote Management renvoient du code XML plutôt que des objets. Le code XML n’est pas dans un format explicite. Vous pouvez utiliser les méthodes de l’API MSXML et le fichier XSL préinstallé pour transformer les données au format lisible.
+description: Windows Les scripts de gestion à distance renvoient du code XML plutôt que des objets. Le code XML n’est pas dans un format explicite. vous pouvez utiliser les méthodes de l’API MSXML et le fichier XSL préinstallé pour transformer les données au format lisible.
 ms.assetid: a2c9401b-bc1e-4f8e-aabf-b6ade1a849ba
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,20 +10,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c70dd0a61181f6fc61e685641ff0ed5e3d43ffe8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: df5c27c1fe22ae87395357aeefe681af7c041420d32b7bccbf595fab38bb060b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680019"
 ---
 # <a name="displaying-xml-output-from-winrm-scripts"></a>Affichage de la sortie XML des scripts WinRM
 
-Les scripts de Windows Remote Management renvoient du code XML plutôt que des objets. Le code XML n’est pas dans un format explicite. Vous pouvez utiliser les méthodes de l’API [MSXML](/previous-versions/windows/desktop/ms763742(v=vs.85)) et le fichier XSL préinstallé pour transformer les données au format lisible.
+Windows Les scripts de gestion à distance renvoient du code XML plutôt que des objets. Le code XML n’est pas dans un format explicite. vous pouvez utiliser les méthodes de l’API [MSXML](/previous-versions/windows/desktop/ms763742(v=vs.85)) et le fichier XSL préinstallé pour transformer les données au format lisible.
 
-Pour plus d’informations sur la sortie XML WinRM et des exemples de données brutes et au format XML, consultez [script dans Windows Remote Management](scripting-in-windows-remote-management.md).
+pour plus d’informations sur la sortie xml WinRM et des exemples de données brutes et au format xml, consultez [script dans Windows Remote Management](scripting-in-windows-remote-management.md).
 
-L’outil de ligne de commande **WinRM** est fourni avec un fichier de transformation nommé WsmTxt. xsl qui affiche la sortie sous forme de tableau. Si votre script fournit ce fichier aux méthodes MSXML qui exécutent transforme, la sortie apparaît comme la sortie de l’outil **WinRM** .
+L’outil de ligne de commande **WinRM** est fourni avec un fichier de transformation nommé WsmTxt. xsl qui affiche la sortie sous forme de tableau. si votre script fournit ce fichier aux méthodes de MSXML qui exécutent transforme, la sortie apparaît comme la sortie de l’outil **Winrm** .
 
 **Pour mettre en forme une sortie XML brute**
 
@@ -36,7 +36,7 @@ L’outil de ligne de commande **WinRM** est fourni avec un fichier de transform
 
     
 
-2.  Créez des objets MSXML qui représentent la sortie de réponse XML et la transformation XSL.
+2.  créez MSXML objets qui représentent la sortie de réponse XML et la transformation XSL.
 
     ```VB
     Set xmlFile = CreateObject( "MSXml.DOMDocument" )
@@ -54,7 +54,7 @@ L’outil de ligne de commande **WinRM** est fourni avec un fichier de transform
 
     
 
-4.  Fournissez la réponse à la méthode MSXML [LoadXml](/previous-versions/windows/desktop/ms754585(v=vs.85)) et la méthode [Load](/previous-versions/windows/desktop/ms762722(v=vs.85)) pour stocker le fichier de transformation.
+4.  fournissez la réponse à la méthode MSXML [loadXML](/previous-versions/windows/desktop/ms754585(v=vs.85)) et à la méthode [load](/previous-versions/windows/desktop/ms762722(v=vs.85)) pour stocker le fichier de transformation.
 
     ```VB
     xmlFile.LoadXml(xmlResponse)
@@ -64,7 +64,7 @@ L’outil de ligne de commande **WinRM** est fourni avec un fichier de transform
 
     
 
-5.  Utilisez la méthode MSXML [transformNode](/previous-versions/windows/desktop/ms761399(v=vs.85)) et affichez ou enregistrez la sortie.
+5.  utilisez la méthode MSXML [transformNode](/previous-versions/windows/desktop/ms761399(v=vs.85)) et affichez ou enregistrez la sortie.
 
     ```VB
     Wscript.Echo xmlFile.TransformNode(xslFile)
@@ -94,7 +94,7 @@ Wscript.Echo xmlFile.TransformNode(xslFile)
 
 Vous pouvez ajouter une sous-routine à vos scripts qui utilisent le fichier XSL préinstallé pour convertir la sortie XML brute d’un script WinRM en un format tabulaire.
 
-La sous-routine suivante utilise des appels aux méthodes de script MSXML pour fournir la sortie à WsmTxt. Xsl.
+la sous-routine suivante utilise des appels aux méthodes de script MSXML pour fournir la sortie à WsmTxt. xsl.
 
 
 ```VB
@@ -140,15 +140,15 @@ End Sub
 
 <dl> <dt>
 
-[À propos de Windows Remote Management](about-windows-remote-management.md)
+[à propos de Windows Remote Management](about-windows-remote-management.md)
 </dt> <dt>
 
-[Utilisation de Windows Remote Management](using-windows-remote-management.md)
+[utilisation de Windows Remote Management](using-windows-remote-management.md)
 </dt> <dt>
 
-[Référence Windows Remote Management](windows-remote-management-reference.md)
+[Windows Informations de référence sur la gestion à distance](windows-remote-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

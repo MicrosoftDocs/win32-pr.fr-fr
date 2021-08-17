@@ -4,12 +4,12 @@ ms.assetid: a15fe075-6696-4c70-b658-ae62d542bb4e
 title: PageCopies
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5002850fa1df5a86b0022a941e3b2a1f7e414a44
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: bba414a7c1d3d846f204c74d98b649ef40cb32443d12730b8dfcf157f07ea431
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091909"
 ---
 # <a name="pagecopies"></a>PageCopies
 
@@ -78,7 +78,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 | MaxValue<br/>     | entier<br/> | non défini<br/>         |
 | MinValue<br/>     | integer<br/> | 1<br/>                 |
 | Obligatoire<br/>    | string<br/>  | PSK : sans condition<br/> |
-| Multiple<br/>     | integer<br/> | 1<br/>                 |
+| Plusieurs<br/>     | integer<br/> | 1<br/>                 |
 | Unité<br/>     | string<br/>  | copie<br/>            |
 
 

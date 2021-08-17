@@ -27,7 +27,7 @@ pour ajouter les chaînes de ressources utilisées par Windows les Interfaces ut
 
     
 
-    | Fichier        | -\_     | FileName                     |
+    | Fichier        | Composant\_     | FileName                     |
     |-------------|-----------------|------------------------------|
     | msimsgmuija | MSIMSG \_ MUI \_ ja | msimsgja.dll\|msimsg.dll. mui |
     | msimsgmuics | \_CS MSIMSG MUI \_ | msimsgcs.dll\|msimsg.dll. mui |
@@ -81,7 +81,7 @@ pour ajouter les chaînes de ressources utilisées par Windows les Interfaces ut
 
     
 
-    | Raccourci | Répertoire\_   | -\_ | Cible               | Icône             |
+    | Raccourci | Répertoire\_   | Composant\_ | Cible               | Icône             |
     |----------|---------------|-------------|----------------------|------------------|
     | Quick1   | DesktopFolder | MSIMSG      | FeatureChild1 \_ local | HelpFileIcon.exe |
     | Quick2   | DesktopFolder | MSIMSG      | FeatureChild1 \_ local | HelpFileIcon.exe |

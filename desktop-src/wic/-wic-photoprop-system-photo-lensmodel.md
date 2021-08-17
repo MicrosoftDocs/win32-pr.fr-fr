@@ -4,12 +4,12 @@ ms.assetid: 39aeff17-e8d3-4ceb-86a1-1749d2ca98d6
 title: Stratégie de métadonnées de photo System. photo. LensModel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8a5249136346407ab9fcd1e4802d6910d3e514a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a07fff44e14a04dab220f8dbce243a638710f30db253c43c1ff79a240bb32f3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441869"
 ---
 # <a name="systemphotolensmodel-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. LensModel
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Lens
 
 \_Photo \_ LensModel
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Si le fichier est au format JPEG, le gestionnaire utilise le chemin d’accès s
 
 
 
-| Commande | Chemin d’accès                          | Format de disque | Obligatoire |
+| Commande | Chemin                          | Format de disque | Obligatoire |
 |-------|-------------------------------|-------------|----------|
 | 1     | /xmp/MicrosoftPhoto:LensModel | Unicode     | Oui      |
 
@@ -59,7 +59,7 @@ Si le fichier est au format TIFF, le gestionnaire utilise l’ordre de priorité
 
 
 
-| Commande | Chemin d’accès                              | Format de disque | Obligatoire |
+| Commande | Chemin                              | Format de disque | Obligatoire |
 |-------|-----------------------------------|-------------|----------|
 | 1     | /ifd/xmp/MicrosoftPhoto:LensModel | Unicode     | Oui      |
 
@@ -67,7 +67,7 @@ Si le fichier est au format TIFF, le gestionnaire utilise l’ordre de priorité
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

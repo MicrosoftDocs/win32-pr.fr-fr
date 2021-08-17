@@ -1,17 +1,17 @@
 ---
 description: Une image bitmap est un objet graphique utilisé pour créer, manipuler (mettre à l’échelle, faire défiler, faire pivoter et peindre) et stocker des images en tant que fichiers sur un disque. Cette vue d’ensemble décrit les classes bitmap et les opérations de bitmap.
 ms.assetid: ff0a5ae3-ae2e-4417-b5e5-0f9871c03964
-title: Bitmaps (Windows GDI)
+title: bitmaps (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae9f9242cbdfe62650a125c2edcdc8c35198ce1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1179797d319a52c6de7efcfaa3056b7702c4a1172359e4018f4b112fbd779b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470049"
 ---
-# <a name="bitmaps-windows-gdi"></a>Bitmaps (Windows GDI)
+# <a name="bitmaps-windows-gdi"></a>bitmaps (Windows GDI)
 
 Une *image bitmap* est un objet graphique utilisé pour créer, manipuler (mettre à l’échelle, faire défiler, faire pivoter et peindre) et stocker des images en tant que fichiers sur un disque. Cette vue d’ensemble décrit les classes bitmap et les opérations de bitmap.
 

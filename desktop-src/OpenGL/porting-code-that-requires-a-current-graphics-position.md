@@ -11,12 +11,12 @@ keywords:
 - positions raster
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd7e7cbbaf0a22385c83569775758e24f70cd210
-ms.sourcegitcommit: b95a94ffffda33f9ebbdd41787c01866444b4cf4
+ms.openlocfilehash: f2354264ed5ad022c0657c95a31007ad33df2882d3c9ab2c44cfafeea99b53d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "103679265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485789"
 ---
 # <a name="port-code-that-needs-a-current-graphics-position"></a>Code de port qui a besoin d’une position graphique actuelle
 
@@ -40,9 +40,9 @@ Cette rubrique contient des informations sur les éléments suivants.
 -   [Portage des Viewports, Screenmasks et Scrboxes](porting-viewports--screenmasks--and-scrboxes.md)
 -   [Portage des plans de découpage](porting-clipping-planes.md)
 
- 
+ 
 
- 
+ 
 
 
 

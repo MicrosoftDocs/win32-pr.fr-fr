@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3435be46f2bb2c7bcf8ca662b039f3e5ef856d8b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2a26bb57416cd73f6d838ab08167923c4900b7b923a6a6f411239bbacd3fdbac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119309139"
 ---
 # <a name="imstscaxeventsonautoreconnecting-method"></a>IMsTscAxEvents :: OnAutoReconnecting, méthode
 
@@ -75,7 +75,7 @@ Pour plus d’informations sur la réinitialisation de ce code, reportez-vous à
 
 </dt> <dd>
 
-Le processus de reconnexion se produit automatiquement. Il s’agit de la valeur par défaut.
+Le processus de reconnexion se produit automatiquement. Il s'agit de la valeur par défaut.
 
 </dd> <dt>
 
@@ -105,7 +105,7 @@ Le processus de reconnexion se produit manuellement.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Implémentez cette méthode dans votre récepteur d’événements pour recevoir une notification indiquant que le contrôle rétablit une connexion avec un serveur hôte de session Bureau à distance.
 
@@ -118,7 +118,7 @@ Lorsque l’état du processus de reconnexion automatique est modifié en défin
 
  
 
-Lorsque l’état du processus de reconnexion automatique est modifié en affectant à la valeur du paramètre *pArcContinueStatus* la valeur **autoReconnectContinueManual**, le conteneur contrôle manuellement le processus de reconnexion automatique en appelant [**Connect**](imstscax-connect.md) pour déclencher une tentative de connexion ou se [**déconnecter**](imstscax-disconnect.md) pour annuler le processus de reconnexion automatique. Une fois défini sur cette valeur, le contrôle cesse d’effectuer des tentatives de reconnexion automatique et devient la stratégie du conteneur pour effectuer des appels de **connexion** afin de déclencher des tentatives de reconnexion automatique. Cette opération est effectuée lorsque le conteneur fournit un comportement personnalisé d’interface utilisateur pour la reconnexion automatique, par exemple le redémarrage d’une connexion RAS ou VPN abandonnée avant le processus de reconnexion automatique.
+lorsque l’état du processus de reconnexion automatique est modifié en affectant à la valeur du paramètre *pArcContinueStatus* la valeur **autoReconnectContinueManual**, le conteneur contrôle manuellement le processus de reconnexion automatique en appelant [**Connecter**](imstscax-connect.md) pour déclencher une tentative de connexion ou se [**déconnecter**](imstscax-disconnect.md) pour annuler le processus de reconnexion automatique. une fois défini sur cette valeur, le contrôle cesse d’effectuer des tentatives de reconnexion automatique et devient la stratégie du conteneur pour effectuer **Connecter** appels afin de déclencher des tentatives de reconnexion automatique. Cette opération est effectuée lorsque le conteneur fournit un comportement personnalisé d’interface utilisateur pour la reconnexion automatique, par exemple le redémarrage d’une connexion RAS ou VPN abandonnée avant le processus de reconnexion automatique.
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

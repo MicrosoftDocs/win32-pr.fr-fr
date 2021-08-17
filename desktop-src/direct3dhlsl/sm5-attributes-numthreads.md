@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: abcca751b58bc88ba984ac5c2210a563591d592e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f790548fb8ab629b7f6e7af345fa535d28a0d2216f570d02e851ce18618bbae2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118510118"
 ---
 # <a name="numthreads"></a>numThreads
 
@@ -42,7 +42,7 @@ Les valeurs de paramètre autorisées pour **numThreads** dépendent de la versi
 
 
 
- 
+ 
 
 L’illustration suivante montre la relation entre les paramètres passés à [**ID3D11DeviceContext ::D ispatch**](/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-dispatch), Dispatch (5, 3, 2), les valeurs spécifiées dans l’attribut numThreads, numThreads (10, 8, 3) et les valeurs qui seront transmises au nuanceur de calcul pour les valeurs système associées aux threads ([SV \_ GroupIndex](sv-groupindex.md),[SV \_](sv-dispatchthreadid.md)DispatchThreadID, VP [ \_ GroupThreadID](sv-groupthreadid.md),[SV \_ GroupID](sv-groupid.md)).
 
@@ -52,13 +52,13 @@ Cet attribut est pris en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | x       |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -70,6 +70,6 @@ Cet attribut est pris en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

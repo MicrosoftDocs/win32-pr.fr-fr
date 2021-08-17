@@ -4,12 +4,12 @@ description: La sécurité vous permet de contrôler l’accès aux objets de bu
 ms.assetid: 6512d128-3b0c-4ba7-8709-2fd225389a40
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d18b48e0b80dc39ea1b3f65a77acb615c4cb8c7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1805a9b5b3db70bf496d467b774dc7c959030b43d6f89d40aabd0336540b7e56
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119346689"
 ---
 # <a name="desktop-security-and-access-rights"></a>Sécurité des postes de travail et droits d’accès
 
@@ -33,7 +33,7 @@ Les droits d’accès valides pour les objets de bureau incluent les droits d' [
 
 
 
- 
+ 
 
 Le tableau suivant répertorie les droits d’accès spécifiques aux objets.
 
@@ -53,7 +53,7 @@ Le tableau suivant répertorie les droits d’accès spécifiques aux objets.
 
 
 
- 
+ 
 
 Voici les droits d' [accès génériques](/windows/desktop/SecAuthZ/generic-access-rights) pour un objet de bureau contenu dans la station de fenêtre interactive de la session d’ouverture de session de l’utilisateur.
 
@@ -110,10 +110,10 @@ STANDARD_RIGHTS_REQUIRED<br />
 
 
 
- 
+ 
 
 Vous pouvez demander le \_ \_ droit d’accès à la sécurité du système d’accès à un objet de bureau si vous souhaitez lire ou écrire la liste SACL de l’objet. Pour plus d’informations, consultez [listes de contrôle d’accès (ACL)](/windows/desktop/SecAuthZ/access-control-lists) et [droit d’accès SACL](/windows/desktop/SecAuthZ/sacl-access-right).
 
- 
+ 
 
- 
+ 

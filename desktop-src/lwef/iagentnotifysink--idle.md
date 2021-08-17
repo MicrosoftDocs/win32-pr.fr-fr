@@ -4,12 +4,12 @@ description: IAgentNotifySink inactif
 ms.assetid: 7770a698-31d9-4f3a-9c7e-858c480b640e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b43e060f361499b02bc0a83db697938975c76291
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8263bd9bc62d4fccfad74b18b189c6e4bae426245dd3d4d6a46c826ebacf498d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105170"
 ---
 # <a name="iagentnotifysinkidle"></a>IAgentNotifySink :: Idle
 
@@ -49,9 +49,9 @@ Cet événement vous permet de suivre le moment où le serveur Microsoft Agent d
 [**IAgentCharacter :: GetIdleOn**](iagentcharacter--getidleon.md), [ **IAgentCharacter :: SetIdleOn**](iagentcharacter--setidleon.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

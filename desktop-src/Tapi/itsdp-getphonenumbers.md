@@ -4,16 +4,16 @@ ms.assetid: c4ad6c5a-e15c-45ae-94de-763a843554bb
 title: 'ITSdp :: GetPhoneNumbers, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 465bc6b2d2167ca17d25b8f50466f111724ea3b5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d417a86ba89269055aa7e30a94724f58da7978d58d80a61d65f6caec8793d5ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060807"
 ---
 # <a name="itsdpgetphonenumbers-method"></a>ITSdp :: GetPhoneNumbers, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **GetPhoneNumbers** obtient un tableau de numéros de téléphone associés à un objet blob de conférence.
 
@@ -65,7 +65,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les listes que *pNumbers* et *pNames* pointent sont de la même longueur.
 

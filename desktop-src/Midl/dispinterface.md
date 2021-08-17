@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f7cc2b6087b53ff81aa7270a209266dd8248884
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3df65adc3bfa486907df0465f2fca5a1427f6d0b1eb89b5c02e6f199be71e9e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384666"
 ---
 # <a name="dispinterface-attribute"></a>dispinterface (attribut)
 
@@ -74,13 +74,13 @@ Nom par lequel la **dispinterface** est connue dans la bibliothèque de types. C
 
 (Syntaxe 1) Liste comprenant un prototype de fonction pour chaque méthode et propriété de **dispinterface**. Un nombre quelconque de définitions de fonction peuvent apparaître dans *methlist*. Une fonction dans *methlist* se présente sous la forme suivante :
 
-**\[  attributs \]** *ReturnType methname type paramName ***(*** params * * *);**
+**\[**_attributs_ *_\]_* *ReturnType methname type paramName ***(**_params_*_);_*
 
 Les attributs suivants sont acceptés sur une méthode dans une **dispinterface**: **\[ helpString \]**, **\[ HelpContext \]**, **\[** [**propget**](propget.md) **\]** , **\[** [**propput**](propput.md) **\]** , **\[** [**PROPPUTREF**](propputref.md) **\]** , **\[** [**String**](string.md) **\]** et **\[** [**vararg**](vararg.md) **\]** . Si **\[ vararg \]** est spécifié, le dernier paramètre doit être un tableau sécurisé de type **Variant** .
 
 La liste de paramètres est une liste délimitée par des virgules, dont chaque élément se présente sous la forme suivante :
 
-**\[***attributs***\]**
+**\[**_attributs_*_\]_*
 
 Le *type* peut être n’importe quel type déclaré ou intégré, ou un pointeur vers n’importe quel type. Les attributs sur les paramètres sont les suivants :
 
@@ -95,7 +95,7 @@ Le *type* peut être n’importe quel type déclaré ou intégré, ou un pointeu
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le compilateur MIDL accepte l’ordonnancement des paramètres suivant (de gauche à droite) :
 
@@ -134,7 +134,7 @@ L’exemple précédent déclare tous les membres de Hello et tous les membres q
 > [!Note]  
 > L’outil Mktyplib.exe est obsolète. Utilisez plutôt le compilateur MIDL.
 
- 
+ 
 
 Les propriétés et les méthodes d’une dispinterface ne font pas partie du VTBL de la dispinterface. Par conséquent, [CreateStdDispatch](/windows/win32/api/oleauto/nf-oleauto-createstddispatch) et [DispInvoke](/windows/win32/api/oleauto/nf-oleauto-dispinvoke) ne peuvent pas être utilisés pour implémenter IDispatch :: Invoke. La dispinterface est utilisée lorsqu’une application doit exposer des fonctions non VTBL existantes par le biais de l’automatisation. Ces applications peuvent implémenter IDispatch :: Invoke en examinant le paramètre dispidMember et en appelant directement la fonction correspondante.
 
@@ -196,7 +196,7 @@ dispinterface MyObject
 [**masquer**](hidden.md)
 </dt> <dt>
 
-[**in**](in.md)
+[**dans**](in.md)
 </dt> <dt>
 
 [**interface**](interface.md)
@@ -250,6 +250,6 @@ dispinterface MyObject
 [**Version**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

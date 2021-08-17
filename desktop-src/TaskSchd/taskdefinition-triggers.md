@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 914724c8b0f39cafb7328a39acd827eed1ec386e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1c6dc654473b7e6c01e439f48e013b8e758383641f711643098460ce5bdb4960
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975019"
 ---
 # <a name="taskdefinitiontriggers-property"></a>TaskDefinition. Triggers, propriété
 
@@ -46,8 +46,8 @@ Collection de déclencheurs utilisés pour démarrer une tâche.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -60,7 +60,7 @@ Collection de déclencheurs utilisés pour démarrer une tâche.
 [**TriggerCollection**](triggercollection.md)
 </dt> <dt>
 
-[**Stead**](trigger.md)
+[**Déclencheur**](trigger.md)
 </dt> </dl>
 
  

@@ -1,19 +1,19 @@
 ---
-title: Énumérations de méthodes d’authentificateur EAPHost
-description: En savoir plus sur les énumérations de méthode d’authentificateur EAPHost. Les énumérations sont les \_ \_ \_ actions de délai d’envoi de l’authentificateur EAP et de réponse de l' \_ authentificateur de méthode EAP \_ \_ \_ .
+title: énumérations de méthode Authenticator EAPHost
+description: en savoir plus sur EAPHost Authenticator énumérations de méthode. Les énumérations sont les \_ \_ \_ actions de délai d’envoi de l’authentificateur EAP et de réponse de l' \_ authentificateur de méthode EAP \_ \_ \_ .
 ms.assetid: 8c21625f-a9b7-4ea5-98ff-cdcce637dad8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14b9f19efba1756ce450683a2c3516d3f352ac84
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 043ed53dfe3c358eb5c7a697261481f8a579d4f267f1ea989b0da01a1e45f120
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106512339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094439"
 ---
-# <a name="eaphost-authenticator-method-enumerations"></a>Énumérations de méthodes d’authentificateur EAPHost
+# <a name="eaphost-authenticator-method-enumerations"></a>énumérations de méthode Authenticator EAPHost
 
-Les énumérations de la méthode d’authentificateur EAPHost sont les suivantes.
+les énumérations de la méthode Authenticator EAPHost sont les suivantes.
 
 
 
@@ -24,11 +24,11 @@ Les énumérations de la méthode d’authentificateur EAPHost sont les suivante
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

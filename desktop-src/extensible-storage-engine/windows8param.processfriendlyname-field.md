@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c7e6908864a1a8aec22ee1a4fda651217c01d73f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29f1fac6a5694cbe2a1d99e0c3bffc8441efb336bbbc69666f73660fa907cfbd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119400929"
 ---
 # <a name="windows8paramprocessfriendlyname-field"></a>Champ Windows8Param. ProcessFriendlyName
 

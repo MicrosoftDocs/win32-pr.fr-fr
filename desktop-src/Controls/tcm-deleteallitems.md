@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b73a91cd6ec3b5472b6e7da2127f8224062cfbbc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8a67a8e2fdf1137b51a1baf0097be3a555f404d13851a0e58fe301d3eafd5c64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434149"
 ---
 # <a name="tcm_deleteallitems-message"></a>\_Message DELETEALLITEMS TCM
 

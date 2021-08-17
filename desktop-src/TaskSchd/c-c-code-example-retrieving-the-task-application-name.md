@@ -7,12 +7,12 @@ keywords:
 - récupération des propriétés de la tâche Planificateur de tâches, nom de l’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eeb590900cf7b4c6d8821560e91e2f05c21c0f73
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dde0d00910ab590e8668e66da3380744a85228e86dafba4d1db7349b24bb80a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139632"
 ---
 # <a name="cc-code-example-retrieving-the-task-application-name"></a>Exemple de code C/C++ : récupération du nom de l’application de tâche
 
@@ -122,9 +122,9 @@ int main(int argc, char **argv)
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

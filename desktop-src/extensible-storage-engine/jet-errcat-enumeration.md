@@ -60,12 +60,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e08ec4ce308003dc30edaa32a07000e244dc9f37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f259edf0e087831cfb667caa5fa8dcf215638ab6d739812fa2e6208327a22f7c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119232799"
 ---
 # <a name="jet_errcat-enumeration"></a>Énumération JET_ERRCAT
 
@@ -105,7 +105,7 @@ public enum JET_ERRCAT
 </tr>
 <tr class="even">
 <td></td>
-<td>Error</td>
+<td>Erreur</td>
 <td>Catégorie générique.</td>
 </tr>
 <tr class="odd">
@@ -165,17 +165,17 @@ public enum JET_ERRCAT
 </tr>
 <tr class="even">
 <td></td>
-<td>MobileVBActiveX</td>
+<td>API</td>
 <td>Conteneur pour l’utilisation et l’État.</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>Utilisation</td>
+<td>Usage</td>
 <td>Erreur d’utilisation classique, ce qui signifie que le code client n’a pas transmis d’arguments corrects à l’API JET. Cette erreur ne sera probablement pas déplacée avec une nouvelle tentative. Récupération : en général, le code client doit déclarer () que cette classe d’erreurs n’est pas retournée, de sorte que les problèmes peuvent être détectés pendant le développement. Dans la version commerciale, l’application aura probablement peu d’options, mais pour retourner le problème à l’opérateur.</td>
 </tr>
 <tr class="even">
 <td></td>
-<td>State</td>
+<td>État</td>
 <td>Il s’agit de la classification des différents signaux que l’API peut renvoyer décrivent l’état de la base de données, un cas classique est JET_errRecordNotFound qui peut être retourné par JetSeek () lorsque l’enregistrement que vous avez demandé n’a pas été trouvé. La récupération : pas vraiment pertinente, dépend beaucoup de l’API.</td>
 </tr>
 <tr class="odd">
@@ -185,7 +185,7 @@ public enum JET_ERRCAT
 </tr>
 <tr class="even">
 <td></td>
-<td>Max</td>
+<td>Max.</td>
 <td>Valeur maximale de l’énumération. Cela ne doit pas être utilisé.</td>
 </tr>
 </tbody>

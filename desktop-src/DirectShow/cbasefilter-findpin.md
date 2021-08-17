@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2bbef9b051a42597b2585a432f544eead4e2e0a1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3818ef4356f11a2d003abe4e9442c4de06108aa32e50f480a3d097ea5db0c343
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017187"
 ---
 # <a name="cbasefilterfindpin-method"></a>Méthode CBaseFilter. FindPin
 
@@ -57,7 +57,7 @@ Adresse d’une variable qui reçoit un pointeur vers l’interface [**IPIN**](/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne l’une des valeurs **HRESULT** suivantes.
 
@@ -73,7 +73,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode appelle la méthode [**CBasePin :: Name**](cbasepin-name.md) pour comparer le nom de chaque pin à la chaîne spécifiée par le paramètre *ID* .
 
@@ -85,7 +85,7 @@ Si la méthode est réussie, l’interface **IPIN** a un nombre de références 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

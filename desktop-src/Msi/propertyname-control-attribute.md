@@ -4,12 +4,12 @@ ms.assetid: e04c1bb1-1538-4bf4-ad5c-aa4b6d89d136
 title: PropertyName (attribut de contrôle)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e83fe50267e16cb11dd215894ce985bf34eafe37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 277ab0961d6aa674ab19ea8b6a19958d5c3028bd4e014d9f98af2ae783636ca1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145312"
 ---
 # <a name="propertyname-control-attribute"></a>PropertyName (attribut de contrôle)
 
@@ -23,7 +23,7 @@ Tous les contrôles.
 
 Cet attribut n’utilise pas d’indicateurs binaires.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Consultez les [attributs de contrôle](control-attributes.md) et le contrôle que vous devez créer sous [contrôles](controls.md).
 

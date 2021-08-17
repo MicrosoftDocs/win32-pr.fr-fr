@@ -1,17 +1,17 @@
 ---
 description: Voici la liste complète du schéma du fichier de configuration du serveur de publication.
 ms.assetid: 501151ee-67f5-4127-b048-91ea4a42f9e7
-title: Schéma du fichier de configuration du serveur de publication
+title: Publisher Schéma du fichier de configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88a8e3d86adc71efda144bb5eed72876bf99911a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f0e7d2b794d2fadd8e7906b2e4eeacc252fd6b6b802898070185ac2ae4c97f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141992"
 ---
-# <a name="publisher-configuration-file-schema"></a>Schéma du fichier de configuration du serveur de publication
+# <a name="publisher-configuration-file-schema"></a>Publisher Schéma du fichier de configuration
 
 Voici la liste complète du schéma du fichier de configuration du serveur de publication.
 

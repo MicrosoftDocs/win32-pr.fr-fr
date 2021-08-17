@@ -4,12 +4,12 @@ ms.assetid: 5dfecf8b-6bda-4158-8772-3344382a74f0
 title: System. DeviceInterface. HID. VersionNumber
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 071c62f477e1134308a967eeb0cd846d26e9dc5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ff5ca4bf692add3b333efb7ddc065e84badcce5a70b1a117ee354b6376b27b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091479"
 ---
 # <a name="systemdeviceinterfacehidversionnumber"></a>System. DeviceInterface. HID. VersionNumber
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

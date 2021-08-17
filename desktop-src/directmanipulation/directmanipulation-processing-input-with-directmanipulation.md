@@ -4,12 +4,12 @@ ms.assetid: 0818E34E-990E-4C36-9954-EF87EB226AF6
 title: Traitement des entrées avec DirectManipulation
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 284a0a1866a2082e2c34c65de347b0dcdfab3a64
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 49b72f88da8978192af402c8b810655c102395d5aad273f34340ed57e2703008
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106536939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094652"
 ---
 # <a name="processing-input-with-directmanipulation"></a>Traitement des entrées avec DirectManipulation
 
@@ -44,7 +44,7 @@ Pour une fenêtre d’affichage en mouvement (avec un État en cours d’exécut
 
 Dans certains cas, un thread d’interface utilisateur d’application peut être trop lent pour répondre au test de positionnement. Un thread de test de positionnement peut être utilisé ([**RegisterHitTestTarget**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-registerhittesttarget)) pour permettre au client de déplacer les messages [WM/_POINTERDOWN](../inputmsg/wm-pointerdown.md) et [DM/_POINTERHITTEST](../inputmsg/dm-pointerhittest.md) vers un thread spécifique afin d’autoriser le test de positionnement.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En règle générale, la [manipulation directe](direct-manipulation-portal.md) envoie uniquement des messages [WM/_POINTERDOWN](../inputmsg/wm-pointerdown.md) et [DM/_POINTERHITTEST](../inputmsg/dm-pointerhittest.md) au thread d’interface utilisateur, en préservant les messages ultérieurs en attendant une réponse du client. Si le client appelle [**SetContact**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact), les seuls messages reçus par le thread d’interface utilisateur lorsqu’une manipulation est détectée sont [WM/_POINTERDOWN](../inputmsg/wm-pointerdown.md) et [DM/_POINTERHITTEST](../inputmsg/dm-pointerhittest.md)et le [message WM/_POINTERCAPTURECHANGED](../inputmsg/wm-pointercapturechanged.md).
 

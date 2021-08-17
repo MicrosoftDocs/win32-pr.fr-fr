@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 662fc8739f90eea15295b762edc446ac16677aef
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 24d7052cd7d36da8a9464cbbef142904a70f83767872dadf25fda2033fa66fa6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959108"
 ---
 # <a name="chkdsk-method-of-the-win32_logicaldisk-class"></a>Méthode CHKDSK de la \_ classe disque logique Win32
 
@@ -132,7 +132,7 @@ Opération réussie- [**chkdsk**](chkdsk-method-in-class-win32-logicaldisk.md) t
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode s’applique uniquement aux instances de disque logique qui représentent un disque physique de l’ordinateur. Elle ne s’applique pas aux lecteurs logiques mappés.
 
