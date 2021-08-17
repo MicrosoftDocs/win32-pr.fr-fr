@@ -20,12 +20,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b43ef805161afce6cb73bfaa26060308bc0aa5d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9954c416d9ad28f0ba0b2ddd6853b125039bf4db24adb3b3ff41f8722b2ba494
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117950794"
 ---
 # <a name="tf_lbi_style_-constants"></a>\_ \_ Constantes de style IFA \_ de l’TF \*
 
@@ -57,7 +57,7 @@ Si ce style est combiné avec \_ \_ le bouton TF IFA style \_ BTN \_ , une flèc
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                            |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                  |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                       |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Ctfutb. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Ctfutb. idl</dt> </dl> |
 

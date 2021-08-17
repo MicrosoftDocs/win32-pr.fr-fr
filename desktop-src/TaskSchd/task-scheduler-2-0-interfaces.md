@@ -1,19 +1,19 @@
 ---
 title: Interfaces Planificateur de tâches 2,0
-description: Les interfaces décrites dans les rubriques suivantes fournissent un accès par programme aux fonctionnalités disponibles dans le Planificateur de tâches utilisé dans le système d’exploitation Windows Vista.
+description: les interfaces décrites dans les rubriques suivantes fournissent un accès par programme aux fonctionnalités disponibles dans le Planificateur de tâches utilisé dans le système d’exploitation Windows Vista.
 ms.assetid: 67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d833e3f2e1c99b7fbbd45567022e1a9877d1657b
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 1c510fc244e596dd3d75e00b4f6a8b8345260a56a1dd256740a94fc207c450db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103941495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117759064"
 ---
 # <a name="task-scheduler-20-interfaces"></a>Interfaces Planificateur de tâches 2,0
 
-Les interfaces décrites dans les rubriques suivantes fournissent un accès par programme aux fonctionnalités disponibles dans le Planificateur de tâches utilisé dans le système d’exploitation Windows Vista.
+les interfaces décrites dans les rubriques suivantes fournissent un accès par programme aux fonctionnalités disponibles dans le Planificateur de tâches utilisé dans le système d’exploitation Windows Vista.
 
 Ces rubriques contiennent une description de l’interface, une liste des propriétés et des méthodes définies par l’interface, ainsi que des remarques sur les circonstances spéciales qui doivent être notées lors de l’utilisation de l’interface.
 

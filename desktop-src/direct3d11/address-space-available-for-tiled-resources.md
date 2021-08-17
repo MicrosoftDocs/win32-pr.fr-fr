@@ -4,12 +4,12 @@ description: Cette section spécifie l’espace d’adressage virtuel disponible
 ms.assetid: A3D08564-3C7A-4578-BC38-EE202045580A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c774c697cf5d3bf575d01ce5751dc413c1d14b0
-ms.sourcegitcommit: 4dcafeb002cbee4f6028b32a956ec22cb95cbc44
+ms.openlocfilehash: e5753fdb9d700689c6ebfffdae4368399c0e4bb36d328c9ff1a8cfc284005214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "103679085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117734281"
 ---
 # <a name="address-space-available-for-tiled-resources"></a>Espace d’adressage disponible pour les ressources en mosaïque
 
@@ -30,9 +30,9 @@ Sur les systèmes futurs avec une table de pages partagée entre l’UC et le GP
 [Paramètres de création de ressources en mosaïque](tiled-resource-creation-parameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

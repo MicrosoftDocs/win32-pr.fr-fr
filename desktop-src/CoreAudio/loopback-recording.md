@@ -4,12 +4,12 @@ ms.assetid: 71c567f7-fffa-4b75-897a-63ed30c4c9b0
 title: Enregistrement de bouclage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 374da7497096118905f5e4c79bbacda832a42a7b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7aa5ffe48bf11ad57b02085ab00dfd1ca09be0f72a56935cbd8d1bb40543033f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118005272"
 ---
 # <a name="loopback-recording"></a>Enregistrement de bouclage
 
@@ -27,7 +27,7 @@ Dans l’exemple de code de [capture d’un flux](capturing-a-stream.md), la fon
 -   Dans l’appel à la méthode [**IMMDeviceEnumerator :: GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint) , modifiez le premier paramètre (*flux* de données) de eCapture en eRender.
 -   Dans l’appel à la méthode [**IAudioClient :: Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) , modifiez la valeur du deuxième paramètre (*StreamFlags*) de 0 à AUDCLNT \_ StreamFlags \_ Loopback.
 
-Dans les versions de Windows antérieures à Windows 10 1703, le client de capture en mode Pull ne reçoit aucun événement lorsqu’un flux est initialisé avec une mise en mémoire tampon pilotée par les événements et qu’il est activé pour la boucle. Pour contourner ce contournement, initialisez un flux de rendu en mode piloté par les événements. Chaque fois que le client reçoit un événement pour le flux de rendu, il doit signaler au client de capture d’exécuter le thread de capture qui lit le jeu d’exemples suivant dans la mémoire tampon du point de terminaison de capture. Dans les versions 1703 et ultérieures de Windows 10, les clients de bouclage piloté par les événements sont pris en charge et n’ont plus besoin de la solution de contournement impliquant le flux de rendu.  
+dans les versions de Windows antérieures à Windows 10 1703, le client de capture en mode pull ne reçoit aucun événement lorsqu’un flux est initialisé avec une mise en mémoire tampon pilotée par les événements et qu’il est activé pour la boucle. Pour contourner ce contournement, initialisez un flux de rendu en mode piloté par les événements. Chaque fois que le client reçoit un événement pour le flux de rendu, il doit signaler au client de capture d’exécuter le thread de capture qui lit le jeu d’exemples suivant dans la mémoire tampon du point de terminaison de capture. dans Windows 10 versions 1703 et ultérieures, les clients de bouclage piloté par les événements sont pris en charge et n’ont plus besoin de la solution de contournement impliquant le flux de rendu.  
 
 Un client peut activer le mode de bouclage uniquement pour un flux en mode partagé (AUDCLNT \_ SHAREMODE \_ partagé). Les flux en mode exclusif ne peuvent pas fonctionner en mode de bouclage.
 
@@ -51,9 +51,9 @@ L’absence de noms standardisés peut amener les utilisateurs à avoir des diff
 
 Un périphérique de bouclage matériel est un périphérique de capture. Ainsi, si un adaptateur prend en charge un périphérique de bouclage, une application audio peut enregistrer à partir de l’appareil de la même manière qu’il enregistre depuis n’importe quel autre périphérique de capture.
 
-Par exemple, si vous sélectionnez un périphérique de bouclage matériel comme périphérique de capture par défaut, vous pouvez utiliser la fonction RecordAudioStream (sans modification) dans l’exemple de code de [capture d’un flux](capturing-a-stream.md) pour capturer le flux de l’appareil. (Vous pouvez également utiliser une API audio héritée, telle que les fonctions **WaveInXxx** Windows Multimedia, pour capturer le flux de données à partir de l’appareil.)
+Par exemple, si vous sélectionnez un périphérique de bouclage matériel comme périphérique de capture par défaut, vous pouvez utiliser la fonction RecordAudioStream (sans modification) dans l’exemple de code de [capture d’un flux](capturing-a-stream.md) pour capturer le flux de l’appareil. (vous pouvez également utiliser une API audio héritée, telle que les Windows fonctions **waveInXxx** multimédias, pour capturer le flux de données à partir de l’appareil.)
 
-Si votre carte audio contient un périphérique de bouclage matériel, vous pouvez utiliser le panneau de configuration multimédia de Windows, Mmsys.cpl, pour désigner l’appareil comme périphérique de capture par défaut. La procédure comporte trois étapes :
+si votre carte audio contient un périphérique de bouclage matériel, vous pouvez utiliser le panneau de configuration Windows multimédia, Mmsys.cpl, pour désigner l’appareil comme périphérique de capture par défaut. Les étapes sont les suivantes :
 
 1.  Pour exécuter Mmsys.cpl, ouvrez une fenêtre d’invite de commandes et entrez la commande suivante :
 
@@ -71,7 +71,7 @@ Si votre carte audio contient un périphérique de bouclage matériel, vous pouv
 
 WASAPI prend en charge l’enregistrement de bouclage, que le matériel audio contienne ou non un périphérique de bouclage, ou que l’utilisateur ait activé l’appareil.
 
-Windows Vista fournit la gestion des droits numériques (DRM). Les fournisseurs de contenu s’appuient sur DRM pour protéger leur musique propriétaire ou tout autre contenu contre toute copie non autorisée et toute autre utilisation illégale. De même, un pilote audio approuvé n’autorise pas un périphérique de bouclage à capturer des flux numériques contenant du contenu protégé. Windows Vista permet uniquement aux pilotes approuvés de lire du contenu protégé. Pour plus d’informations sur les pilotes approuvés et la DRM, consultez la documentation de Windows DDK.
+Windows Vista fournit la gestion des droits numériques (DRM). Les fournisseurs de contenu s’appuient sur DRM pour protéger leur musique propriétaire ou tout autre contenu contre toute copie non autorisée et toute autre utilisation illégale. De même, un pilote audio approuvé n’autorise pas un périphérique de bouclage à capturer des flux numériques contenant du contenu protégé. Windows Vista autorise uniquement les pilotes approuvés à lire du contenu protégé. pour plus d’informations sur les pilotes approuvés et la DRM, consultez la documentation Windows DDK.
 
 Le bouclage WASAPI contient la combinaison de tout le son en cours de lecture, quelle que soit la session des services Terminal Server à partir de laquelle le son provient. Par exemple, vous pouvez exécuter un client de bouclage dans un service s’exécutant dans la session 0 et capturer l’audio de toutes les sessions utilisateur, ainsi que le son lu à partir de la session 0.
 

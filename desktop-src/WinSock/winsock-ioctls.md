@@ -1,23 +1,23 @@
 ---
-description: Rubrique de navigation pour les IOCTL de socket Windows Sockets (Winsock).
+description: rubrique de Navigation pour les ioctl de sockets Winsock (Windows sockets).
 ms.assetid: 6a63c2c9-4e09-4a62-b39f-3ccb26287da8
 title: Winsock IOCTLs (Winsock2.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eadf4a0e2799d6123bf81069fe65ea16313af444
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: d8d9c47e68433747e341bbc0a082b5d40af76403b473caabe3423f5a186f499f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739949"
 ---
 # <a name="winsock-ioctls"></a>IOCTL Winsock
 
-Cette section décrit les contrôles d’entrée/sortie (IOCTL) du socket Winsock pour différentes éditions des systèmes d’exploitation Windows. Utilisez la fonction [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) ou [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85)) pour émettre une IOCTL Winsock afin de contrôler le mode d’un socket, le protocole de transport ou le sous-système de communication.
+cette section décrit les contrôles d’entrée/sortie (ioctl) Winsock Socket pour différentes éditions de Windows systèmes d’exploitation. Utilisez la fonction [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) ou [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85)) pour émettre une IOCTL Winsock afin de contrôler le mode d’un socket, le protocole de transport ou le sous-système de communication.
 
 Certaines IOCTL Winsock requièrent plus d’explications que ce tableau ne peut communiquer ; ces options contiennent des liens vers des rubriques supplémentaires.
 
-Il est possible d’adopter un schéma d’encodage qui conserve les OpCodes [**ioctlsocket**](/windows/desktop/api/winsock/nf-winsock-ioctlsocket) actuellement définis tout en fournissant un moyen pratique de partitionner l’espace d’identificateur opcode dans autant que le paramètre *dwIoControlCode* soit maintenant une entité 32 bits. Le paramètre *dwIoControlCode* est conçu pour permettre l’indépendance du protocole et du fournisseur lors de l’ajout de nouveaux codes de contrôle tout en conservant la compatibilité descendante avec les codes de contrôle Windows sockets 1,1 et UNIX. Le paramètre *dwIoControlCode* se présente sous la forme suivante.
+Il est possible d’adopter un schéma d’encodage qui conserve les OpCodes [**ioctlsocket**](/windows/desktop/api/winsock/nf-winsock-ioctlsocket) actuellement définis tout en fournissant un moyen pratique de partitionner l’espace d’identificateur opcode dans autant que le paramètre *dwIoControlCode* soit maintenant une entité 32 bits. le paramètre *dwIoControlCode* est conçu pour permettre l’indépendance du protocole et Windows du fournisseur lors de l’ajout de nouveaux codes de contrôle tout en conservant la compatibilité descendante avec les codes de contrôle 1,1 et sockets et Unix. Le paramètre *dwIoControlCode* se présente sous la forme suivante.
 
 | I  | O  | V  | T  | Fournisseur/famille d’adresses | Code                   |
 |-|-|-|-|-|-|
@@ -37,13 +37,13 @@ T est une quantité de 2 bits qui définit le type de l’IOCTL. Les valeurs sui
 
 0 l’IOCTL est un code IOCTL UNIX standard, comme avec **FIONREAD** et **FIONBIO**.
 
-1 l’IOCTL est un code IOCTL Windows Sockets 2 générique. Les nouveaux codes IOCTL définis pour Windows Sockets 2 auront T = = 1.
+1 l’ioctl est un code d’ioctl Windows sockets 2 générique. les nouveaux codes IOCTL définis pour Windows sockets 2 auront T = = 1.
 
 2 l’IOCTL s’applique uniquement à une famille d’adresses spécifique.
 
 3 l’IOCTL s’applique uniquement au fournisseur d’un fournisseur spécifique, comme avec **IOC_VENDOR**. Ce type permet aux entreprises d’obtenir un numéro de fournisseur qui apparaît dans le paramètre de **famille fournisseur/adresse** . Ensuite, le fournisseur peut définir de nouvelles IOCTL propres à ce fournisseur sans avoir à inscrire l’IOCTL auprès d’un centre d’échanges de données, offrant ainsi de la flexibilité et de la confidentialité des fournisseurs.
 
-**Fournisseur/famille d’adresses** Quantité de 11 bits qui définit le fournisseur propriétaire du code (si T = = 3) ou qui contient la famille d’adresses à laquelle le code s’applique (si T = = 2). S’il s’agit d’un code UNIX IOCTL (T = = 0), ce paramètre a la même valeur que le code sur UNIX. S’il s’agit d’un IOCTL Windows Sockets 2 générique (T = = 1), ce paramètre peut être utilisé en tant qu’extension du paramètre de code pour fournir des valeurs de code supplémentaires.
+**Fournisseur/famille d’adresses** Quantité de 11 bits qui définit le fournisseur propriétaire du code (si T = = 3) ou qui contient la famille d’adresses à laquelle le code s’applique (si T = = 2). S’il s’agit d’un code UNIX IOCTL (T = = 0), ce paramètre a la même valeur que le code sur UNIX. s’il s’agit d’un générique Windows sockets 2 IOCTL (T = = 1), ce paramètre peut être utilisé en tant qu’extension du paramètre de code pour fournir des valeurs de code supplémentaires.
 
 **Code** Quantité de 16 bits qui contient le code IOCTL spécifique pour l’opération.
 
@@ -69,9 +69,9 @@ Si le socket passé dans le paramètre *s* est orienté message (par exemple, ta
 
 Déterminez si toutes les données OOB ont été lues. Cela s’applique uniquement à un socket de type flux de données (par exemple, type de flux de chaussette \_ ) qui a été configuré pour la réception en ligne de toutes les données OOB (par conséquent \_ OOBINLINE). Si aucune donnée OOB n’est en attente de lecture, l’opération retourne la valeur TRUE. Sinon, elle retourne **false** et l’opération de réception suivante effectuée sur le socket récupère une partie ou la totalité des données précédant la marque ; l’application doit utiliser l’opération **SIOCATMARK** pour déterminer si elle est conservée. Si des données normales précèdent les données urgentes (hors bande), elles seront reçues dans l’ordre. (Notez que les opérations de [**réception**](/windows/desktop/api/winsock/nf-winsock-recv) ne mélangeront jamais les données OOB et normales dans le même appel.) *lpvOutBuffer* pointe vers un booléen dans lequel [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) stocke le résultat.
 
-## <a name="windows-sockets-2-commands"></a>Commandes Windows Sockets 2
+## <a name="windows-sockets-2-commands"></a>Windows Commandes Sockets 2
 
-Les commandes Windows Sockets 2 suivantes sont prises en charge.
+les commandes Windows sockets 2 suivantes sont prises en charge.
 
 ### <a name="sio_acquire_port_reservation-opcode-setting-i-t3"></a>SIO_ACQUIRE_PORT_RESERVATION (paramètre opcode : I, T = = 3)
 
@@ -79,7 +79,7 @@ Demandez une réservation d’exécution pour un bloc de ports TCP ou UDP. Pour 
 
 Pour plus d’informations, consultez la référence sur la [**\_ réservation de \_ port \_ SIO Acquire**](/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)) .
 
-[**SIO \_ L’acquisition de la \_ \_ réservation de port**](/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)) est prise en charge sur Windows Vista et les versions ultérieures du système d’exploitation.
+[**SIO \_ l’acquisition de la \_ \_ réservation de PORT**](/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)) est prise en charge sur Windows Vista et les versions ultérieures du système d’exploitation.
 
 ### <a name="sio_address_list_change-opcode-setting-v-t1"></a>\_Modification de la liste d’adresses SIO \_ \_ (paramètre opcode : V, T = = 1)
 
@@ -92,13 +92,13 @@ Il est supposé que l’application utilise des e/s avec chevauchement pour êtr
 Obtient la liste des adresses de transport locales de la famille de protocoles du socket à laquelle l’application peut se lier. La liste des adresses varie en fonction de la famille d’adresses et certaines adresses sont exclues de la liste.
 
 > [!Note] 
-> Dans les environnements plug-and-Play Windows, les adresses peuvent être ajoutées et supprimées dynamiquement. Par conséquent, les applications ne peuvent pas compter sur la persistance des informations retournées par la **\_ requête de \_ liste \_ d’adresses SIO** . Les applications peuvent s’inscrire à des notifications de changement d’adresse par le biais de l’IOCTL de **\_ modification de \_ liste \_ d’adresses SIO** qui fournit une notification par le biais d’un événement d’e/s ou de modification de la \_ liste d’adresses FD \_ \_ . La séquence d’actions suivante peut être utilisée pour garantir que l’application dispose toujours des informations de liste d’adresses actuelles :
+> dans Windows environnements Plug-and-Play, les adresses peuvent être ajoutées et supprimées dynamiquement. Par conséquent, les applications ne peuvent pas compter sur la persistance des informations retournées par la **\_ requête de \_ liste \_ d’adresses SIO** . Les applications peuvent s’inscrire à des notifications de changement d’adresse par le biais de l’IOCTL de **\_ modification de \_ liste \_ d’adresses SIO** qui fournit une notification par le biais d’un événement d’e/s ou de modification de la \_ liste d’adresses FD \_ \_ . La séquence d’actions suivante peut être utilisée pour garantir que l’application dispose toujours des informations de liste d’adresses actuelles :
 
 -  Problème de modification de la **\_ liste d’adresses \_ \_ SIO** IOCTL
 -  Émettre une requête IOCTL de **\_ liste d’adresses \_ \_ SIO**
 -  Chaque fois que la **\_ liste d’adresses SIO \_ \_ change** IOCTL avertit l’application de la modification de la liste d’adresses (via des e/s avec chevauchement ou en signalant un événement de modification de la \_ \_ liste d’adresses FD \_ ), toute la séquence d’actions doit être répétée.
 
-Pour plus d’informations, consultez la référence de [**\_ requête de \_ liste \_ d’adresses SIO**](/previous-versions/windows/desktop/legacy/dd877219(v=vs.85)) . **SIO \_ La \_ \_ requête de liste d’adresses** est prise en charge sur Windows 2000 et versions ultérieures.
+Pour plus d’informations, consultez la référence de [**\_ requête de \_ liste \_ d’adresses SIO**](/previous-versions/windows/desktop/legacy/dd877219(v=vs.85)) . **SIO \_ la \_ \_ requête de liste d’adresses** est prise en charge sur Windows 2000 et versions ultérieures.
 
 ### <a name="sio_apply_transport_setting-opcode-setting-i-t3"></a>SIO \_ appliquer \_ le \_ paramètre de transport (paramètre opcode : I, T = = 3)
 
@@ -106,15 +106,15 @@ Applique un paramètre de transport à un Socket. Le paramètre de transport app
 
 Le seul paramètre de transport actuellement défini est pour la fonctionnalité de **\_ fonctionnalité de \_ notification \_ en temps réel** sur un socket TCP.
 
-Si l' [**\_ \_ ID de paramètre de transport**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id) transmis a le membre **GUID** défini sur la **\_ \_ \_ fonctionnalité de notification en temps réel**, il s’agit d’une demande d’application des paramètres de notification en temps réel pour le socket TCP utilisé avec [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) pour recevoir des notifications de réseau en arrière-plan dans une application Windows Store.
+si l' [**\_ \_ ID de paramètre de TRANSPORT**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id) transmis a le membre **Guid** défini sur la **\_ \_ \_ fonctionnalité de notification en temps réel**, il s’agit d’une demande d’application des paramètres de notification en temps réel pour le socket TCP utilisé avec [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) pour recevoir des notifications de réseau en arrière-plan dans une application Windows Store.
 
-Pour plus d’informations, consultez la référence des [**\_ \_ \_ paramètres de transport Apply SIO**](/previous-versions/windows/desktop/legacy/jj553481(v=vs.85)) . **SIO \_ APPLIQUER \_ les \_ paramètres de transport** est pris en charge sur Windows 8, Windows Server 2012 et versions ultérieures.
+Pour plus d’informations, consultez la référence des [**\_ \_ \_ paramètres de transport Apply SIO**](/previous-versions/windows/desktop/legacy/jj553481(v=vs.85)) . **SIO \_ l' \_ \_ option appliquer le paramètre de TRANSPORT** est prise en charge sur Windows 8, Windows Server 2012 et versions ultérieures.
 
 ### <a name="sio_associate_handle-opcode-setting-i-t1"></a>\_Handle SIO Associate \_ (paramètre opcode : I, T = = 1)
 
 Associe ce socket au handle spécifié d'une interface connexe. La mémoire tampon d’entrée contient la valeur entière correspondant à la constante de manifeste de l’interface associée (par exemple, TH \_ netdev et Th \_ TAPI.), suivie d’une valeur qui est un handle de l’interface associée spécifiée, ainsi que d’autres informations requises. Reportez-vous à la section appropriée dans les [annexes Winsock](winsock-annexes.md) pour obtenir des détails spécifiques à une interface connexe particulière. La taille totale est reflétée dans la longueur de la mémoire tampon d’entrée. Aucune mémoire tampon de sortie n’est requise. Le code d’erreur [WSAENOPROTOOPT](windows-sockets-error-codes-2.md) est indiqué pour les fournisseurs de services qui ne prennent pas en charge cette ioctl. Le descripteur associé à cette IOCTL peut être récupéré à l’aide du **\_ \_ handle SIO translate**.
 
-Une interface auxiliaire peut être utilisée, par exemple, si un fournisseur particulier fournit (1) un grand nombre de contrôles supplémentaires sur le comportement d’un socket et (2) les contrôles sont suffisamment spécifiques au fournisseur pour qu’ils ne soient pas mappés à des fonctions de socket Windows existantes ou qu’il est probable qu’elles soient définies à l’avenir. Il est recommandé d’utiliser le modèle COM (Component Object Model) à la place de cette IOCTL pour découvrir et suivre les autres interfaces qui peuvent être prises en charge par un Socket. Cette IOCTL est présente pour la compatibilité (inverse) avec les systèmes où COM n’est pas disponible ou ne peut pas être utilisé pour une autre raison.
+une interface auxiliaire peut être utilisée, par exemple, si un fournisseur particulier fournit (1) un grand nombre de contrôles supplémentaires sur le comportement d’un socket et (2) les contrôles sont suffisamment spécifiques au fournisseur pour qu’ils ne soient pas mappés à des fonctions de socket Windows existantes ou qu’il est probable qu’elles soient définies à l’avenir. Il est recommandé d’utiliser le modèle COM (Component Object Model) à la place de cette IOCTL pour découvrir et suivre les autres interfaces qui peuvent être prises en charge par un Socket. Cette IOCTL est présente pour la compatibilité (inverse) avec les systèmes où COM n’est pas disponible ou ne peut pas être utilisé pour une autre raison.
 
 ### <a name="sio_associate_port_reservation-opcode-setting-i-t3"></a>\_ \_ Réservation de port SIO Associate \_ (paramètre opcode : I, T = = 3)
 
@@ -122,7 +122,7 @@ Associez un socket à une réservation persistante ou d’exécution pour un blo
 
 Pour plus d’informations, consultez la référence de [**\_ réservation de \_ port \_ SIO Associate**](/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)) .
 
-[**SIO \_ La \_ \_ réservation de port associée**](/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)) est prise en charge sur Windows Vista et les versions ultérieures du système d’exploitation.
+[**SIO \_ la \_ \_ réservation de PORT associée**](/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)) est prise en charge sur Windows Vista et les versions ultérieures du système d’exploitation.
 
 ### <a name="sio_base_handle-opcode-setting-o-t1"></a>\_ \_ Descripteur de base SIO (paramètre opcode : O, T = = 1)
 
@@ -132,7 +132,7 @@ Un fournisseur de services en couche n’intercepte jamais cette IOCTL puisque l
 
 Si la mémoire tampon de sortie n’est pas assez grande pour un handle de socket (le *cbOutBuffer* est inférieur à la taille d’un **Socket**) ou si le paramètre *lpvOutBuffer* est un pointeur **null** , une **\_ erreur de socket** est retournée comme résultat de cette IOCTL et [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) retourne [WSAEFAULT](windows-sockets-error-codes-2.md).
 
-**SIO \_ Le \_ descripteur de base** est défini dans le fichier d’en-tête *mswsock. h* et pris en charge sur Windows Vista et versions ultérieures.
+**SIO \_ le \_ descripteur de BASE** est défini dans le fichier d’en-tête *Mswsock. h* et pris en charge sur Windows Vista et versions ultérieures.
 
 ### <a name="sio_bsp_handle-opcode-setting-o-t1"></a>\_Handle BSP SIO \_ (paramètre opcode : O, T = = 1)
 
@@ -142,7 +142,7 @@ Cette IOCTL est utilisée par un fournisseur de services en couche pour s’assu
 
 Si la mémoire tampon de sortie n’est pas assez grande pour un handle de socket (le *cbOutBuffer* est inférieur à la taille d’un **Socket**) ou si le paramètre *lpvOutBuffer* est un pointeur **null** , une **\_ erreur de socket** est retournée comme résultat de cette IOCTL et [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) retourne [WSAEFAULT](windows-sockets-error-codes-2.md).
 
-**SIO \_ Le \_ descripteur BSP** est défini dans le fichier d’en-tête *mswsock. h* et pris en charge sur Windows Vista et versions ultérieures.
+**SIO \_ le \_ descripteur BSP** est défini dans le fichier d’en-tête *Mswsock. h* et pris en charge sur Windows Vista et versions ultérieures.
 
 ### <a name="sio_bsp_handle_select-opcode-setting-o-t1"></a>SIO \_ du \_ handle BSP \_ Select (paramètre opcode : O, T = = 1)
 
@@ -152,7 +152,7 @@ Cette IOCTL est utilisée par un fournisseur de services en couche pour s’assu
 
 Si la mémoire tampon de sortie n’est pas assez grande pour un handle de socket (le *cbOutBuffer* est inférieur à la taille d’un **Socket**) ou si le paramètre *lpvOutBuffer* est un pointeur **null** , une **\_ erreur de socket** est retournée comme résultat de cette IOCTL et [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) retourne [WSAEFAULT](windows-sockets-error-codes-2.md).
 
-**SIO \_ Le \_ handle BSP \_ Select** est défini dans le fichier d’en-tête *mswsock. h* et pris en charge sur Windows Vista et versions ultérieures.
+**SIO \_ le \_ HANDLE BSP \_ SELECT** est défini dans le fichier d’en-tête *Mswsock. h* et pris en charge sur Windows Vista et versions ultérieures.
 
 ### <a name="sio_bsp_handle_poll-opcode-setting-o-t1"></a>\_Interrogation \_ de handle BSP SIO \_ (paramètre opcode : O, T = = 1)
 
@@ -162,7 +162,7 @@ Cette IOCTL est utilisée par un fournisseur de services en couche pour s’assu
 
 Si la mémoire tampon de sortie n’est pas assez grande pour un handle de socket (le *cbOutBuffer* est inférieur à la taille d’un **Socket**), le paramètre *lpvOutBuffer* est un pointeur **null** ou le paramètre *lpOverlapped* n’est pas un pointeur **null** , une **\_ erreur de socket** est retournée comme résultat de cette IOCTL et [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) retourne [WSAEFAULT](windows-sockets-error-codes-2.md).
 
-**SIO \_ Le \_ \_ sondage du handle BSP** est défini dans le fichier d’en-tête *mswsock. h* et pris en charge sur Windows Vista et versions ultérieures.
+**SIO \_ le \_ \_ sondage du HANDLE BSP** est défini dans le fichier d’en-tête *Mswsock. h* et pris en charge sur Windows Vista et versions ultérieures.
 
 ### <a name="sio_chk_qos-opcode-setting-i-o-t3"></a>SIO \_ chk \_ QoS (paramètre opcode : I, O, T = = 3)
 
@@ -173,7 +173,7 @@ Récupère des informations sur les caractéristiques du trafic QoS. Pendant la 
 Active le partage de port et la parallélisation des indications de réception. Lorsque votre application utilise cette option de socket pour associer des sockets à différents processeurs, puis lie les sockets à la même adresse, les indications de réception sont distribuées sur les sockets en fonction du hachage RSS (Receive Side Scaling). Les paramètres RSS ne changent pas. par conséquent, tout flux donné (point de terminaison local, paire de point de terminaison distant) sera toujours indiqué sur le même processeur. Par conséquent, tous les paquets appartenant à un Flow donné seront signalés au même socket. Cette IOCTL doit être appelée avant la liaison, sinon WSAEINVAL est retourné. La mémoire tampon d’entrée est un index de processeur (de base 0) de type USHORT. L’IOCTL est incompatible avec SO_REUSEADDR et SO_REUSE_MULTICASTPORT. Pris en charge uniquement pour les sockets UDP.
 
 > [!NOTE]
-> Si vous ciblez la version 10.0.19041.0 (Windows 10, version 2004) du SDK Windows, utilisez la valeur `0x98000015` au lieu du nom **SIO_CPU_AFFINITY**.
+> si vous ciblez la version 10.0.19041.0 (Windows 10, version 2004) du SDK Windows, utilisez la valeur `0x98000015` au lieu du nom **SIO_CPU_AFFINITY**.
 
 ### <a name="sio_enable_circular_queueing-opcode-setting-v-t1"></a>SIO \_ activer \_ la \_ file d’attente circulaire (paramètre opcode : V, T = = 1)
 
@@ -195,7 +195,7 @@ Cette IOCTL remplit la mémoire tampon de sortie avec une structure [sockaddr](s
 
 Récupère un pointeur vers la fonction d’extension spécifiée prise en charge par le fournisseur de services associé. La mémoire tampon d’entrée contient un identificateur global unique (**GUID**) dont la valeur identifie la fonction d’extension en question. Le pointeur vers la fonction souhaitée est retourné dans la mémoire tampon de sortie. Les identificateurs de fonction d’extension sont établis par les fournisseurs de fournisseurs de services et doivent être inclus dans la documentation du fournisseur qui décrit les fonctionnalités et la sémantique des fonctions d’extension.
 
-Les valeurs GUID pour les fonctions d’extension prises en charge par le fournisseur de services TCP/IP Windows sont définies dans le fichier d’en-tête *mswsock. h* . La valeur possible pour ces GUID est la suivante :
+les valeurs GUID pour les fonctions d’extension prises en charge par le Windows fournisseur de services TCP/IP sont définies dans le fichier d’en-tête *Mswsock. h* . La valeur possible pour ces GUID est la suivante :
 
 | Terme                                                                                                                | Description                                                                               |
 |-|-|
@@ -219,13 +219,13 @@ Récupérez la structure [**QoS**](/windows/win32/api/winsock2/ns-winsock2-qos) 
 Retourne une liste d’interfaces IP configurées et leurs paramètres sous la forme d’un tableau de structures d' [**\_ informations d’interface**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-interface_info) .
 
 > [!Note]  
-> La prise en charge de cette commande est obligatoire pour les fournisseurs de services TCP/IP compatibles Windows Sockets 2.
+> la prise en charge de cette commande est obligatoire pour les fournisseurs de services TCP/IP conformes à Windows sockets 2.
 
 Le paramètre *lpvOutBuffer* pointe vers la mémoire tampon dans laquelle stocker les informations sur les interfaces sous la forme d’un tableau de structures d' [**\_ informations d’interface**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-interface_info) pour les adresses IP de monodiffusion sur les interfaces. Le paramètre *cbOutBuffer* spécifie la longueur de la mémoire tampon de sortie. Le nombre d’interfaces retournées (nombre de structures retournées dans la mémoire tampon vers laquelle pointe le paramètre *lpvOutBuffer* ) peut être déterminé en fonction de la longueur réelle de la mémoire tampon de sortie retournée dans le paramètre *lpcbBytesReturned* .
 
 Si la fonction [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) est appelée avec **la \_ \_ \_ liste d’interfaces d’extraction SIO** et que le membre de niveau du paramètre du socket n’est pas défini en tant qu' **\_ adresse IP IPPROTO**, **WSAEINVAL** est retourné.  Un appel à la fonction **WSAIoctl** avec **SIO \_ obtenir l' \_ interface \_ List** retourne **WSAEFAULT** si le paramètre *cbOutBuffer* qui spécifie la longueur de la mémoire tampon de sortie est trop petit pour recevoir la liste des interfaces configurées.
 
-**SIO \_ La \_ \_ liste des interfaces de récupération** est prise en charge sur Windows Me/98 et Windows NT 4,0 avec SP4 et versions ultérieures.
+**SIO \_ la \_ \_ liste des interfaces de récupération** est prise en charge sur Windows Me/98 et Windows NT 4,0 avec SP4 et versions ultérieures.
 
 ### <a name="sio_get_interface_list_ex-opcode-setting-o-t0"></a>SIO \_ obtient la \_ liste des interfaces par \_ \_ exemple (paramètre opcode : O, T = = 0)
 
@@ -262,25 +262,25 @@ Voir aussi [horodatage Winsock](/windows/win32/winsock/winsock-timestamping).
 
 Avertit une application lorsque la valeur d’un backlog d’envoi (ISB) idéal change pour la connexion sous-jacente.
 
-Lors de l’envoi de données via une connexion TCP à l’aide de Windows Sockets, il est important de conserver une quantité suffisante de données en attente (envoyées mais non acceptées) dans TCP afin d’obtenir le débit le plus élevé. La valeur idéale pour la quantité de données en suspens pour obtenir le meilleur débit pour la connexion TCP est appelée taille du backlog d’envoi (ISB) idéal. La valeur ISB est une fonction du produit Bandwidth-Delay de la connexion TCP et de la fenêtre de réception publiée du récepteur (et en partie la quantité de congestion dans le réseau).
+lors de l’envoi de données via une connexion TCP à l’aide de Windows sockets, il est important de conserver une quantité suffisante de données en attente (envoyées mais non acceptées) dans TCP afin d’obtenir le débit le plus élevé. La valeur idéale pour la quantité de données en suspens pour obtenir le meilleur débit pour la connexion TCP est appelée taille du backlog d’envoi (ISB) idéal. La valeur ISB est une fonction du produit Bandwidth-Delay de la connexion TCP et de la fenêtre de réception publiée du récepteur (et en partie la quantité de congestion dans le réseau).
 
-La valeur ISB par connexion est disponible à partir de l’implémentation du protocole TCP dans Windows Server 2008, Windows Vista avec SP1 et les versions ultérieures du système d’exploitation. L’IOCTL **SIO de modification de \_ BACKLOG d' \_ envoi \_ \_ idéale** peut être utilisée par une application pour recevoir une notification lorsque la valeur ISB change de manière dynamique pour une connexion.
+la valeur ISB par connexion est disponible à partir de l’implémentation du protocole TCP dans Windows Server 2008, Windows Vista avec SP1 et les versions ultérieures du système d’exploitation. L’IOCTL **SIO de modification de \_ BACKLOG d' \_ envoi \_ \_ idéale** peut être utilisée par une application pour recevoir une notification lorsque la valeur ISB change de manière dynamique pour une connexion.
 
 Pour plus d’informations, consultez la référence de [**\_ modification du BACKLOG d' \_ envoi \_ \_ SIO idéale**](/previous-versions/windows/desktop/legacy/bb736548(v=vs.85)) .
 
-[**SIO \_ La \_ \_ \_ modification de la file d’attente d’envoi idéale**](/previous-versions/windows/desktop/legacy/bb736548(v=vs.85)) est prise en charge sur Windows Server 2008, Windows Vista avec SP1 et les versions ultérieures du système d’exploitation.
+[**SIO \_ la \_ \_ \_ modification de la file d’attente d’envoi idéale**](/previous-versions/windows/desktop/legacy/bb736548(v=vs.85)) est prise en charge sur Windows Server 2008, Windows Vista avec SP1 et les versions ultérieures du système d’exploitation.
 
 ### <a name="sio_ideal_send_backlog_query-opcode-setting-o-t0"></a>SIO \_ \_ \_ requête de BACKLOG d’envoi idéale \_ (paramètre opcode : O, T = = 0)
 
 Récupère la valeur d’un backlog d’envoi idéal pour la connexion sous-jacente.
 
-Lors de l’envoi de données via une connexion TCP à l’aide de Windows Sockets, il est important de conserver une quantité suffisante de données en attente (envoyées mais non acceptées) dans TCP afin d’obtenir le débit le plus élevé. La valeur idéale pour la quantité de données en suspens pour obtenir le meilleur débit pour la connexion TCP est appelée taille du backlog d’envoi (ISB) idéal. La valeur ISB est une fonction du produit Bandwidth-Delay de la connexion TCP et de la fenêtre de réception publiée du récepteur (et en partie la quantité de congestion dans le réseau).
+lors de l’envoi de données via une connexion TCP à l’aide de Windows sockets, il est important de conserver une quantité suffisante de données en attente (envoyées mais non acceptées) dans TCP afin d’obtenir le débit le plus élevé. La valeur idéale pour la quantité de données en suspens pour obtenir le meilleur débit pour la connexion TCP est appelée taille du backlog d’envoi (ISB) idéal. La valeur ISB est une fonction du produit Bandwidth-Delay de la connexion TCP et de la fenêtre de réception publiée du récepteur (et en partie la quantité de congestion dans le réseau).
 
-La valeur ISB par connexion est disponible à partir de l’implémentation du protocole TCP dans Windows Server 2008 et versions ultérieures. L’IOCTL d’une **\_ requête de BACKLOG d' \_ envoi \_ \_ SIO idéale** peut être utilisée par une application pour interroger la valeur ISB pour une connexion.
+la valeur ISB par connexion est disponible à partir de l’implémentation du protocole TCP dans Windows Server 2008 et versions ultérieures. L’IOCTL d’une **\_ requête de BACKLOG d' \_ envoi \_ \_ SIO idéale** peut être utilisée par une application pour interroger la valeur ISB pour une connexion.
 
 Pour plus d’informations, consultez la référence de [**\_ requête de journal des travaux en \_ souffrance d’envoi \_ \_ SIO idéale**](/previous-versions/windows/desktop/legacy/bb736549(v=vs.85)) .
 
-[**SIO \_ La \_ \_ \_ requête d’envoi de BACKLOG idéale**](/previous-versions/windows/desktop/legacy/bb736549(v=vs.85)) est prise en charge sur Windows Server 2008, Windows Vista avec SP1 et les versions ultérieures du système d’exploitation.
+[**SIO \_ la \_ \_ \_ requête d’envoi de BACKLOG idéale**](/previous-versions/windows/desktop/legacy/bb736549(v=vs.85)) est prise en charge sur Windows Server 2008, Windows Vista avec SP1 et les versions ultérieures du système d’exploitation.
 
 ### <a name="sio_keepalive_vals-opcode-setting-i-t3"></a>SIO \_ KeepAlive \_ Vals (paramètre opcode : I, T = = 3)
 
@@ -290,13 +290,13 @@ Active ou désactive le paramètre par connexion de l’option TCP **Keep-Alive*
 
 L’option [**so \_ KeepAlive**](so-keepalive.md) , qui est l’une des [options de \_ Socket](sol-socket-socket-options.md)de socket sol, peut également être utilisée pour activer ou désactiver le protocole TCP Keep-Alive sur une connexion, ainsi que pour interroger l’état actuel de cette option. Pour demander si TCP Keep-Alive est activé sur un socket, la fonction [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) peut être appelée avec l’option **so \_ KeepAlive** . Pour activer ou désactiver le protocole TCP Keep-Alive, la fonction [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) peut être appelée avec l’option [**so \_ KeepAlive**](so-keepalive.md) . Si TCP Keep-Alive est activé avec **\_ KeepAlive**, les paramètres TCP par défaut sont utilisés pour le délai d’expiration et l’intervalle de conservation, sauf si ces valeurs ont été modifiées à l’aide de **SIO \_ KeepAlive \_ Vals**.
 
-Pour plus d’informations, consultez la référence [**SIO \_ KeepAlive \_ Vals**](/previous-versions/windows/desktop/legacy/dd877220(v=vs.85)) . **SIO \_ KEEPALIVE \_ Vals** est pris en charge sur Windows 2000 et versions ultérieures.
+Pour plus d’informations, consultez la référence [**SIO \_ KeepAlive \_ Vals**](/previous-versions/windows/desktop/legacy/dd877220(v=vs.85)) . **SIO \_ KEEPALIVE \_ VALS** est pris en charge sur Windows 2000 et versions ultérieures.
 
-### <a name="sio_loopback_fast_path-opcode-setting-i-t3"></a>\_ \_ \_ Chemin d’accès rapide de bouclage SIO (paramètre opcode : I, T = = 3)
+### <a name="sio_loopback_fast_path-opcode-setting-i-t3"></a>\_ \_ \_ chemin de FAST de bouclage SIO (paramètre opcode : I, T = = 3)
 
-Configure un socket TCP pour une latence plus faible et des opérations plus rapides sur l’interface de bouclage. Cette IOCTL demande que la pile TCP/IP utilise un chemin d’accès rapide spécial pour les opérations de bouclage sur ce Socket. L’IOCTL du [**\_ \_ \_ chemin d’accès rapide de bouclage SIO**](/previous-versions/windows/desktop/legacy/jj841212(v=vs.85)) peut être utilisé uniquement avec les sockets TCP. Cette IOCTL doit être utilisée des deux côtés de la session de bouclage. Le chemin d’accès rapide de bouclage TCP est pris en charge à l’aide de l’interface de bouclage IPv4 ou IPv6. Par défaut, **le \_ \_ \_ chemin d’accès rapide de bouclage SIO** est désactivé.
+Configure un socket TCP pour une latence plus faible et des opérations plus rapides sur l’interface de bouclage. Cette IOCTL demande que la pile TCP/IP utilise un chemin d’accès rapide spécial pour les opérations de bouclage sur ce Socket. l’IOCTL du [**\_ \_ \_ chemin d’accès du FAST de bouclage SIO**](/previous-versions/windows/desktop/legacy/jj841212(v=vs.85)) peut être utilisé uniquement avec les sockets TCP. Cette IOCTL doit être utilisée des deux côtés de la session de bouclage. Le chemin d’accès rapide de bouclage TCP est pris en charge à l’aide de l’interface de bouclage IPv4 ou IPv6. par défaut, **le \_ \_ \_ chemin d’accès FAST de bouclage SIO** est désactivé.
 
-Pour plus d’informations, consultez la référence sur le [**\_ \_ \_ chemin d’accès rapide de bouclage SIO**](/previous-versions/windows/desktop/legacy/jj841212(v=vs.85)) . **SIO \_ Le \_ \_ chemin d’accès rapide de bouclage** est pris en charge sur Windows 8, Windows Server 2012 et versions ultérieures.
+pour plus d’informations, consultez la référence du [**\_ \_ \_ chemin d’accès au FAST de bouclage SIO**](/previous-versions/windows/desktop/legacy/jj841212(v=vs.85)) . **SIO \_ le \_ \_ chemin d’accès FAST de bouclage** est pris en charge sur Windows 8, Windows Server 2012 et versions ultérieures.
 
 ### <a name="sio_multipoint_loopback-opcode-setting-v-t1"></a>SIO \_ multipoint \_ loopback (paramètre opcode : V, T = = 1)
 
@@ -312,7 +312,7 @@ Interroge l’association entre un socket et un cœur de processeur RSS et un n�
 
 Les [**informations IOCTL du \_ \_ \_ processeur \_ RSS de la requête SIO**](/previous-versions/windows/desktop/legacy/jj553482(v=vs.85)) renvoient une structure d' [**\_ \_ affinité de processeur de socket**](/windows/desktop/api/Ws2def/ns-ws2def-socket_processor_affinity) qui contient le [**\_ numéro de processeur**](/windows/win32/api/winnt/ns-winnt-processor_number) et l’ID de nœud NUMA. La structure retournée du **\_ numéro de processeur** contient un numéro de groupe et un numéro de processeur relatif dans le groupe.
 
-Pour plus d’informations, consultez la [**référence \_ \_ \_ \_ informations sur le processeur RSS de la requête SIO**](/previous-versions/windows/desktop/legacy/jj553482(v=vs.85)) . **SIO \_ Les \_ \_ \_ informations sur le processeur RSS** de la requête sont prises en charge sur Windows 8, Windows Server 2012 et versions ultérieures.
+Pour plus d’informations, consultez la [**référence \_ \_ \_ \_ informations sur le processeur RSS de la requête SIO**](/previous-versions/windows/desktop/legacy/jj553482(v=vs.85)) . **SIO \_ les \_ \_ \_ informations sur le processeur RSS** de la requête sont prises en charge sur Windows 8, Windows Server 2012 et versions ultérieures.
 
 ### <a name="sio_query_rss_scalability_info-opcode-setting-o-t3"></a>\_Informations d' \_ extensibilité du flux RSS des requêtes SIO \_ \_ (paramètre opcode : O, T = = 3)
 
@@ -331,7 +331,7 @@ Si la mémoire tampon de sortie n’est pas assez grande pour la structure d' **
 
 Dans une mise en réseau haut débit où plusieurs UC résident dans un seul système, la capacité de la pile de protocole réseau à évoluer correctement sur un système multi-PROCESSEURs est inhibée, car l’architecture de NDIS 5,1 et des versions antérieures limite le traitement de protocole à un seul processeur. La mise à l’échelle côté réception (RSS) résout ce problème en autorisant l’équilibrage de la charge réseau à partir d’une carte réseau sur plusieurs processeurs.
 
-**SIO \_ Les \_ \_ \_ informations de scalabilité RSS** de la requête sont prises en charge sur Windows Vista et versions ultérieures.
+**SIO \_ les \_ \_ \_ informations de scalabilité RSS** de la requête sont prises en charge sur Windows Vista et versions ultérieures.
 
 ### <a name="sio_query_transport_setting-opcode-setting-i-t3"></a>\_ \_ \_ Paramètre de transport de requête SIO (paramètre opcode : I, T = = 3)
 
@@ -339,37 +339,37 @@ Interroge les paramètres de transport sur un Socket. Le paramètre de transport
 
 Le seul paramètre de transport actuellement défini est pour la fonctionnalité de **\_ fonctionnalité de \_ notification \_ en temps réel** sur un socket TCP.
 
-Si l' [**\_ \_ ID du paramètre de transport**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id) a le membre **GUID** défini sur la **\_ \_ \_ fonctionnalité de notification en temps réel**, il s’agit d’une demande d’interrogation des paramètres de notification en temps réel pour le socket TCP utilisé avec [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) pour recevoir des notifications de réseau en arrière-plan dans une application Windows Store. Si l’appel [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) ou [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85)) réussit, cette IOCTL retourne une structure de sortie de [**\_ \_ \_ paramètre \_ de notification en temps réel**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input) avec l’état actuel.
+si le [**paramètre de TRANSPORT \_ \_ ID**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id) a le membre **Guid** défini sur la **\_ \_ \_ fonctionnalité de notification en temps réel**, il s’agit d’une demande d’interrogation des paramètres de notification en temps réel pour le socket TCP utilisé avec [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) pour recevoir des notifications de réseau en arrière-plan dans une application Windows Store. Si l’appel [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) ou [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85)) réussit, cette IOCTL retourne une structure de sortie de [**\_ \_ \_ paramètre \_ de notification en temps réel**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input) avec l’état actuel.
 
-Pour plus d’informations, consultez la référence des [**\_ paramètres de \_ transport \_ de requête SIO**](/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)) . **SIO \_ Le \_ \_ paramètre de transport de requête** est pris en charge sur Windows 8, Windows Server 2012 et versions ultérieures.
+Pour plus d’informations, consultez la référence des [**\_ paramètres de \_ transport \_ de requête SIO**](/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)) . **SIO \_ le \_ \_ paramètre de TRANSPORT de requête** est pris en charge sur Windows 8, Windows Server 2012 et versions ultérieures.
 
 ### <a name="sio_query_wfp_ale_endpoint_handle-opcode-setting-o-t3"></a>\_ \_ \_ \_ Handle de point de terminaison ALE de la requête SIO \_ (paramètre opcode : O, T = = 3)
 
 Interroge le descripteur de point de terminaison ALE.
 
-La plateforme de filtrage Windows (WFP) prend en charge l’inspection et la modification du trafic réseau. Sur Windows Vista, WFP se concentre sur les scénarios où l’ordinateur hôte est le point de terminaison de communication. Sur Windows Server 2008, toutefois, il existe des implémentations de pare-feu de périmètre qui souhaitent tirer parti de la plateforme WFP pour inspecter et transmettre le trafic direct par proxy. Le serveur Internet Security and Acceleration (ISA) est un exemple de périphérique de périmètre.
+la plateforme de filtrage de Windows (WFP) prend en charge l’inspection et la modification du trafic réseau. sur Windows Vista, WFP se concentre sur les scénarios où l’ordinateur hôte est le point de terminaison de communication. toutefois, sur Windows Server 2008, il existe des implémentations de pare-feu de périmètre qui souhaitent tirer parti de la plateforme WFP pour inspecter et transmettre le trafic direct par proxy. Le serveur Internet Security and Acceleration (ISA) est un exemple de périphérique de périmètre.
 
 Certains scénarios de pare-feu peuvent nécessiter la possibilité d’injecter un paquet entrant dans le chemin d’envoi associé à un point de terminaison existant. Il doit exister un mécanisme pour découvrir le handle de point de terminaison de la couche de transport associé au point de terminaison de destination. L’application qui a créé le point de terminaison est propriétaire des points de terminaison de la couche de transport. Cette IOCTL est utilisée pour fournir le descripteur de socket au mappage de handle de point de terminaison de couche de transport.
 
 Si la mémoire tampon de sortie n’est pas assez grande pour le handle de point de terminaison ( *cbOutBuffer* est inférieur à la taille d’un **UINT64**) ou si le paramètre *lpvOutBuffer* est un pointeur **null** , une **\_ erreur de socket** est retournée comme résultat de cette IOCTL et [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) retourne [WSAEINVAL](windows-sockets-error-codes-2.md).
 
-**SIO \_ Le \_ \_ \_ \_ descripteur de point de terminaison ALE WFP de requête** est pris en charge sur Windows Vista et versions ultérieures.
+**SIO \_ le \_ \_ \_ \_ descripteur de point de terminaison ALE WFP de requête** est pris en charge sur Windows Vista et versions ultérieures.
 
 ### <a name="sio_query_wfp_connection_redirect_context-opcode-setting-i-t3"></a>SIO \_ interroger le \_ \_ \_ contexte de redirection de connexion WFP \_ (paramètre opcode : I, T = = 3)
 
-Interroge le contexte de redirection pour un enregistrement de redirection utilisé par un service de redirection de plateforme de filtrage Windows (WFP).
+interroge le contexte de redirection pour un enregistrement de redirection utilisé par un service de redirection de plateforme de filtrage Windows (WFP).
 
 L’IOCTL du [**\_ \_ \_ \_ \_ contexte de redirection de connexion WFP de la requête SIO**](/previous-versions/windows/desktop/legacy/hh859712(v=vs.85)) est utilisée pour fournir le suivi de connexion en proxy sur les connexions de socket redirigées. Cette fonctionnalité WFP facilite le suivi des enregistrements de redirection à partir de la redirection initiale d’une connexion à la connexion finale à la destination.
 
-Pour plus d’informations, consultez la référence du [**\_ \_ \_ \_ \_ contexte de redirection de connexion WFP de la requête SIO**](/previous-versions/windows/desktop/legacy/hh859712(v=vs.85)) . **SIO \_ Interroger le \_ \_ \_ \_ contexte de redirection de connexion WFP** est pris en charge sur windows 8, Windows Server 2012 et versions ultérieures.
+Pour plus d’informations, consultez la référence du [**\_ \_ \_ \_ \_ contexte de redirection de connexion WFP de la requête SIO**](/previous-versions/windows/desktop/legacy/hh859712(v=vs.85)) . **SIO \_ interroger le \_ \_ \_ \_ contexte de redirection de connexion WFP** est pris en charge sur Windows 8, Windows Server 2012 et versions ultérieures.
 
 ### <a name="sio_query_wfp_connection_redirect_records-opcode-setting-i-t3"></a>SIO \_ interroger les \_ \_ \_ enregistrements de redirection de connexion WFP \_ (paramètre opcode : I, T = = 3)
 
-Interroge l’enregistrement de redirection pour la connexion TCP/IP acceptée en vue d’une utilisation par un service de redirection de plateforme de filtrage Windows (WFP).
+interroge l’enregistrement de redirection pour la connexion TCP/IP acceptée en vue d’une utilisation par un service de redirection de plateforme de filtrage Windows (WFP).
 
 Les [**\_ enregistrements de \_ \_ \_ redirection \_ de connexion WFP de la requête SIO**](/previous-versions/windows/desktop/legacy/hh859713(v=vs.85)) sont utilisés pour fournir le suivi de connexion en proxy sur les connexions de socket redirigées. Cette fonctionnalité WFP facilite le suivi des enregistrements de redirection à partir de la redirection initiale d’une connexion à la connexion finale à la destination.
 
-Pour plus d’informations, consultez la référence des [**\_ \_ \_ \_ \_ enregistrements de redirection de connexion WFP de la requête SIO**](/previous-versions/windows/desktop/legacy/hh859713(v=vs.85)) . **SIO \_ Les \_ \_ enregistrements de \_ redirection \_ de connexion WFP de requête** sont pris en charge sur windows 8, Windows Server 2012 et versions ultérieures.
+Pour plus d’informations, consultez la référence des [**\_ \_ \_ \_ \_ enregistrements de redirection de connexion WFP de la requête SIO**](/previous-versions/windows/desktop/legacy/hh859713(v=vs.85)) . **SIO \_ les \_ \_ enregistrements de \_ redirection \_ de connexion WFP** sont pris en charge sur Windows 8, Windows Server 2012 et versions ultérieures.
 
 ### <a name="sio_rcvall-opcode-setting-i-t3"></a>SIO \_ RCVALL (paramètre opcode : I, T = = 3)
 
@@ -380,9 +380,9 @@ Permet à un socket de recevoir tous les paquets IPv4 ou IPv6 transmettant throu
 
 Le socket doit également être lié à une interface IPv4 ou IPv6 locale explicite, ce qui signifie que vous ne pouvez pas effectuer de liaison pour **inadr \_ any** ou **in6addr \_ any**.
 
-Sur Windows Server 2008 et versions antérieures, le paramètre IOCTL [**SIO \_ RCVALL**](/previous-versions/windows/desktop/legacy/ee309610(v=vs.85)) ne capture pas les paquets locaux envoyés à partir d’une interface réseau. Cela inclut les paquets reçus sur une autre interface et a transmis l’interface réseau spécifiée pour l’IOCTL **SIO \_ RCVALL** .
+sur Windows Server 2008 et versions antérieures, le paramètre IOCTL [**SIO \_ RCVALL**](/previous-versions/windows/desktop/legacy/ee309610(v=vs.85)) ne capture pas les paquets locaux envoyés à partir d’une interface réseau. Cela inclut les paquets reçus sur une autre interface et a transmis l’interface réseau spécifiée pour l’IOCTL **SIO \_ RCVALL** .
 
-Sur Windows 7 et Windows Server 2008 R2, cela a été modifié afin que les paquets locaux envoyés à partir d’une interface réseau soient également capturés. Cela comprend les paquets reçus sur une autre interface, puis le transfert de l’interface réseau liée au socket avec [**SIO \_ RCVALL**](/previous-versions/windows/desktop/legacy/ee309610(v=vs.85)) ioctl.
+sur Windows 7 et Windows Server 2008 R2, cela a été modifié afin que les paquets locaux envoyés à partir d’une interface réseau soient également capturés. Cela comprend les paquets reçus sur une autre interface, puis le transfert de l’interface réseau liée au socket avec [**SIO \_ RCVALL**](/previous-versions/windows/desktop/legacy/ee309610(v=vs.85)) ioctl.
 
 La définition de cette IOCTL requiert des privilèges d’administrateur sur l’ordinateur local.
 
@@ -427,7 +427,7 @@ Libère une réservation d’exécution pour un bloc de ports TCP ou UDP. La ré
 
 Pour plus d’informations, consultez la référence sur la réservation du port de la [**\_ version \_ \_ SIO**](/previous-versions/windows/desktop/legacy/gg699722(v=vs.85)) .
 
-[**SIO \_ La \_ \_ réservation de port de version**](/previous-versions/windows/desktop/legacy/gg699722(v=vs.85)) est prise en charge sur Windows Vista et les versions ultérieures du système d’exploitation.
+[**SIO \_ la \_ \_ réservation de PORT de version**](/previous-versions/windows/desktop/legacy/gg699722(v=vs.85)) est prise en charge sur Windows Vista et les versions ultérieures du système d’exploitation.
 
 ### <a name="sio_routing_interface_change-opcode-setting-i-t1"></a>\_ \_ Modification de l’interface de routage SIO \_ (paramètre opcode : I, T = = 1)
 
@@ -456,7 +456,7 @@ Si l’adresse de destination spécifiée dans la mémoire tampon d’entrée ne
 
 ### <a name="sio_set_compatibility_mode-opcode-setting-i-t3"></a>SIO \_ définir \_ le \_ mode de compatibilité (paramètre opcode : I, T = = 3)
 
-Demande comment la pile de mise en réseau doit gérer certains comportements pour lesquels la méthode par défaut de gestion du comportement peut varier entre les différentes versions de Windows. La structure d’arguments pour le **\_ \_ \_ mode de compatibilité Set SIO** est spécifiée dans la structure du **\_ \_ mode de compatibilité WSA** définie dans le fichier d’en-tête *Mswsockdef. h* . Cette structure est définie comme suit :
+demande comment la pile de mise en réseau doit gérer certains comportements pour lesquels la méthode par défaut de gestion du comportement peut différer d’une version à l’autre de Windows. La structure d’arguments pour le **\_ \_ \_ mode de compatibilité Set SIO** est spécifiée dans la structure du **\_ \_ mode de compatibilité WSA** définie dans le fichier d’en-tête *Mswsockdef. h* . Cette structure est définie comme suit :
 
 ```cpp
 /* Argument structure for SIO_SET_COMPATIBILITY_MODE */
@@ -466,15 +466,15 @@ typedef struct _WSA_COMPATIBILITY_MODE {
 } WSA_COMPATIBILITY_MODE, *PWSA_COMPATIBILITY_MODE;
 ```
 
-La valeur spécifiée dans le membre **BehaviorId** indique le comportement demandé. La valeur spécifiée dans le membre **TargetOsVersion** indique la version de Windows demandée pour le comportement.
+La valeur spécifiée dans le membre **BehaviorId** indique le comportement demandé. la valeur spécifiée dans le membre **TargetOsVersion** indique la version Windows demandée pour le comportement.
 
 Le membre **BehaviorId** peut être l’une des valeurs du type d’énumération d’ID de **\_ \_ comportement \_ de compatibilité WSA** défini dans le fichier d’en-tête *Mswsockdef. h* . Les valeurs possibles pour le membre **BehaviorId** sont les suivantes.
 
 | Terme                                                                                                                                                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |-|-|
 | <span id="WsaBehaviorAll"></span><span id="wsabehaviorall"></span><span id="WSABEHAVIORALL"></span>WsaBehaviorAll<br/>                                                     | Cela équivaut à demander tous les comportements compatibles possibles définis pour l’ID de **\_ comportement de \_ \_ compatibilité WSA**.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| <span id="WsaBehaviorReceiveBuffering"></span><span id="wsabehaviorreceivebuffering"></span><span id="WSABEHAVIORRECEIVEBUFFERING"></span>WsaBehaviorReceiveBuffering<br/> | Lorsque le membre **TargetOsVersion** est défini sur une valeur pour Windows Vista ou version ultérieure, la réduction de la taille de la mémoire tampon de réception TCP sur ce socket à l’aide de l’option de socket **\_ RCVBUF** est autorisée même après l’établissement d’une connexion TCP. <br/> Lorsque le membre **TargetOsVersion** est défini sur une valeur antérieure à Windows Vista, la réduction de la taille de la mémoire tampon de réception TCP sur ce socket à l’aide de l’option de socket **\_ RCVBUF** n’est pas autorisée après l’établissement de la connexion. <br/>                                                                                                                                                                                  |
-| <span id="WsaBehaviorAutoTuning"></span><span id="wsabehaviorautotuning"></span><span id="WSABEHAVIORAUTOTUNING"></span>WsaBehaviorAutoTuning<br/>                         | Quand le membre **TargetOsVersion** est défini sur une valeur pour Windows Vista ou version ultérieure, le réglage automatique de la fenêtre de réception est activé et le facteur d’échelle de la fenêtre TCP est réduit à 2 de la valeur par défaut 8.<br/> Lorsque le **TargetOsVersion** est défini sur une valeur antérieure à Windows Vista, le réglage automatique de la fenêtre de réception est désactivé. L’option de mise à l’échelle de la fenêtre TCP est également désactivée et la taille maximale de la fenêtre de réception est limitée à 65 535 octets. L’option de mise à l’échelle de la fenêtre TCP ne peut pas être négociée sur la connexion même si l’option de socket **\_ RCVBUF** a été appelée sur ce socket en spécifiant une valeur supérieure à 65 535 octets avant l’établissement de la connexion.<br/> |
+| <span id="WsaBehaviorReceiveBuffering"></span><span id="wsabehaviorreceivebuffering"></span><span id="WSABEHAVIORRECEIVEBUFFERING"></span>WsaBehaviorReceiveBuffering<br/> | lorsque le membre **TargetOsVersion** est défini sur une valeur pour Windows Vista ou version ultérieure, la réduction de la taille de la mémoire tampon de réception TCP sur ce socket à l’aide de l’option de socket **\_ RCVBUF** est autorisée même après l’établissement d’une connexion tcp. <br/> lorsque le membre **TargetOsVersion** est défini sur une valeur antérieure à Windows Vista, la réduction de la taille de la mémoire tampon de réception TCP sur ce socket à l’aide de l’option de socket **\_ RCVBUF** n’est pas autorisée après l’établissement de la connexion. <br/>                                                                                                                                                                                  |
+| <span id="WsaBehaviorAutoTuning"></span><span id="wsabehaviorautotuning"></span><span id="WSABEHAVIORAUTOTUNING"></span>WsaBehaviorAutoTuning<br/>                         | quand le membre **TargetOsVersion** est défini sur une valeur pour Windows Vista ou version ultérieure, le réglage automatique de la fenêtre de réception est activé et le facteur d’échelle de la fenêtre TCP est réduit à 2 de la valeur par défaut 8.<br/> lorsque le **TargetOsVersion** est défini sur une valeur antérieure à Windows Vista, le réglage automatique de la fenêtre de réception est désactivé. L’option de mise à l’échelle de la fenêtre TCP est également désactivée et la taille maximale de la fenêtre de réception est limitée à 65 535 octets. L’option de mise à l’échelle de la fenêtre TCP ne peut pas être négociée sur la connexion même si l’option de socket **\_ RCVBUF** a été appelée sur ce socket en spécifiant une valeur supérieure à 65 535 octets avant l’établissement de la connexion.<br/> |
 
 
 
@@ -482,7 +482,7 @@ Le membre **BehaviorId** peut être l’une des valeurs du type d’énumératio
 
 Pour plus d’informations, consultez la référence sur le [**\_ mode de \_ compatibilité \_ SIO Set**](/previous-versions/windows/desktop/legacy/cc136103(v=vs.85)) .
 
-**SIO \_ Le \_ \_ mode de compatibilité défini** est pris en charge sur Windows Vista et versions ultérieures.
+**SIO \_ le \_ \_ MODE de compatibilité défini** est pris en charge sur Windows Vista et versions ultérieures.
 
 ### <a name="sio_set_group_qos-opcode-setting-i-t1"></a>SIO \_ définir la \_ qualité de service du groupe \_ (paramètre opcode : I, T = = 1)
 
@@ -490,7 +490,7 @@ Réservé.
 
 ### <a name="sio_set_priority_hint-opcode-setting-i-t3"></a>SIO_SET_PRIORITY_HINT (paramètre opcode : I, T = = 3)
 
-Fournit un indicateur au protocole de transport sous-jacent pour traiter le trafic sur ce Socket avec une priorité spécifique. *LpvInBuffer* doit pointer vers une variable de type **PRIORITY_HINT** avec *cbInBuffer* défini sur sizeof (PRIORITY_HINT). Les paramètres *lpvOutBuffer* et *CbOutBuffer* doivent être **null** et 0, respectivement. L’implémentation Microsoft Windows TCP prend en charge cette IOCTL à compter de Windows 10, version 1809 (10,0 ; Générez 17763) et versions ultérieures comme suit : lorsque la valeur de priorité demandée est définie sur **IoPriorityHintVeryLow**, TCP utilise une version modifiée de l’algorithme LEDBAT (définie dans RFC 6817) pour contrôler le taux de trafic sortant sur le Socket. Le trafic entrant n’est pas affecté par cette IOCTL. LEDBAT est un algorithme de nettoyage, et son objectif est de maintenir la latence faible et d’empêcher tout effet néfaste sur le trafic de priorité normale en se déroulant lorsque le trafic de priorité normale est présent.
+Fournit un indicateur au protocole de transport sous-jacent pour traiter le trafic sur ce Socket avec une priorité spécifique. *LpvInBuffer* doit pointer vers une variable de type **PRIORITY_HINT** avec *cbInBuffer* défini sur sizeof (PRIORITY_HINT). Les paramètres *lpvOutBuffer* et *CbOutBuffer* doivent être **null** et 0, respectivement. l’implémentation TCP de Microsoft Windows prend en charge cette IOCTL à partir de Windows 10, version 1809 (10,0 ; Générez 17763) et versions ultérieures comme suit : lorsque la valeur de priorité demandée est définie sur **IoPriorityHintVeryLow**, TCP utilise une version modifiée de l’algorithme LEDBAT (définie dans RFC 6817) pour contrôler le taux de trafic sortant sur le Socket. Le trafic entrant n’est pas affecté par cette IOCTL. LEDBAT est un algorithme de nettoyage, et son objectif est de maintenir la latence faible et d’empêcher tout effet néfaste sur le trafic de priorité normale en se déroulant lorsque le trafic de priorité normale est présent.
 
 Consultez également [RFC 6817](https://tools.ietf.org/html/rfc6817).
 
@@ -504,7 +504,7 @@ Associe la structure [**QoS**](/windows/win32/api/winsock2/ns-winsock2-qos) spé
 
 Contrôle les caractéristiques de retransmission initiales (SYN/SYN + ACK) d’un socket TCP en configurant les paramètres du délai d’attente de retransmission initial (RTO). Les paramètres de configuration sont spécifiés dans une structure de [**\_ \_ \_ paramètres de RTO initial TCP**](/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers) .
 
-Pour plus d’informations, consultez la référence [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) . [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) est pris en charge sur Windows 8, windows server 2012 et versions ultérieures.
+Pour plus d’informations, consultez la référence [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) . [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) est pris en charge sur Windows 8, Windows Server 2012 et versions ultérieures.
 
 ### <a name="sio_timestamping"></a>SIO_TIMESTAMPING
 
@@ -524,11 +524,11 @@ Il est recommandé d’utiliser le modèle COM (Component Object Model) à la pl
 
 ### <a name="sio_set_wfp_connection_redirect_records-opcode-setting-i-t3"></a>SIO \_ définir \_ les \_ \_ enregistrements de redirection de connexion WFP \_ (paramètre opcode : I, T = = 3)
 
-Définit l’enregistrement de redirection sur le nouveau socket TCP utilisé pour la connexion à la destination finale en vue d’une utilisation par un service de redirection de plateforme de filtrage Windows (WFP).
+définit l’enregistrement de redirection sur le nouveau socket TCP utilisé pour la connexion à la destination finale en vue d’une utilisation par un service de redirection de plateforme de filtrage Windows (WFP).
 
 Les [**\_ enregistrements de \_ \_ \_ redirection \_ de connexion SIO Set WFP**](/previous-versions/windows/desktop/legacy/hh859714(v=vs.85)) sont utilisés dans le cadre du suivi de connexion par proxy sur les connexions de socket redirigées. Cette fonctionnalité WFP facilite le suivi des enregistrements de redirection à partir de la redirection initiale d’une connexion à la connexion finale à la destination.
 
-Pour plus d’informations, consultez la référence des [**\_ \_ \_ \_ \_ enregistrements de redirection de connexion SIO Set WFP**](/previous-versions/windows/desktop/legacy/hh859714(v=vs.85)) . **SIO \_ Les \_ \_ enregistrements de \_ redirection \_ de connexion WFP** sont pris en charge sur windows 8, Windows Server 2012 et versions ultérieures.
+Pour plus d’informations, consultez la référence des [**\_ \_ \_ \_ \_ enregistrements de redirection de connexion SIO Set WFP**](/previous-versions/windows/desktop/legacy/hh859714(v=vs.85)) . **SIO \_ les \_ \_ enregistrements de \_ redirection \_ de connexion WFP** sont pris en charge sur Windows 8, Windows Server 2012 et versions ultérieures.
 
 ### <a name="sio_tcp_info-opcode-setting-i-o-t3"></a>SIO \_ TCP \_ info (paramètre d’opcode : I, O, T = = 3)
 
@@ -536,16 +536,16 @@ Récupère les statistiques TCP pour un Socket. Les statistiques TCP sont fourni
 
 Contrairement à la récupération des statistiques TCP avec la fonction [**GetPerTcpConnectionEStats**](/windows/win32/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats) , la récupération des statistiques TCP avec ce code de contrôle ne nécessite pas que le code utilisateur charge, stocke et filtre la table de connexion TCP et ne nécessite pas de privilèges élevés pour utiliser.
 
-Pour plus d’informations, consultez [**SIO \_ TCP \_ info**](/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)). **SIO \_ Les \_ informations TCP** sont prises en charge sur Windows 10, version 1703, windows server 2016 et versions ultérieures.
+Pour plus d’informations, consultez [**SIO \_ TCP \_ info**](/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)). **SIO \_ les \_ informations TCP** sont prises en charge sur Windows 10, version 1703, Windows Server 2016 et versions ultérieures.
 
 ## <a name="remarks"></a>Remarques
 
 Les IOCTL Winsock sont définis dans plusieurs fichiers d’en-tête différents. Celles-ci incluent le fichier d’en-tête *Winsock2. h*, *mswsock. h* et *Mstcpip. h* .
 
-Dans le kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et versions ultérieures, l’Organisation des fichiers d’en-tête a changé et un certain nombre d’IOCTL d’IOCTL Winsock sont également définis dans les fichiers d’en-tête *Ws2def. h*, *Ws2ipdef. h* et *Mswsockdef. h* . Le fichier d’en-tête *Ws2def. h* est automatiquement inclus dans le fichier d’en-tête *Winsock2. h* . Le fichier d’en-tête *Ws2ipdef. h* est automatiquement inclus dans le fichier d’en-tête *Ws2tcpip. h* . Le fichier d’en-tête *Mswsockdef. h* est automatiquement inclus dans le fichier d’en-tête *Mswsockdef. h* .
+dans le kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et versions ultérieures, l’organisation des fichiers d’en-tête a changé et un certain nombre d’ioctl d’ioctl Winsock sont également définis dans les fichiers d’en-tête *Ws2def. h*, *Ws2ipdef. h* et *Mswsockdef. h* . Le fichier d’en-tête *Ws2def. h* est automatiquement inclus dans le fichier d’en-tête *Winsock2. h* . Le fichier d’en-tête *Ws2ipdef. h* est automatiquement inclus dans le fichier d’en-tête *Ws2tcpip. h* . Le fichier d’en-tête *Mswsockdef. h* est automatiquement inclus dans le fichier d’en-tête *Mswsockdef. h* .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 |Condition requise|Valeur|
 |-|-|
-| En-tête<br/> | <dl> <dt>Winsock2. h ; </dt> <dt>Mstcpip. h ; </dt> <dt>Mswsock. h ; </dt> <dt>Mswsockdef. h sur Windows Vista, Windows Server 2008 et Windows 7 (inclure mswsock. h); </dt> <dt>Ws2def. h sur Windows Vista, Windows Server 2008 et Windows 7 (inclure Winsock2. h); </dt> <dt>Ws2ipdef. h sur Windows Vista, Windows Server 2008 et Windows 7 (inclure Ws2tcpip. h)</dt> </dl> |
+| En-tête<br/> | <dl> <dt>Winsock2. h ;</dt> <dt>Mstcpip. h ;</dt> <dt>Mswsock. h ;</dt> <dt>Mswsockdef. h sur Windows Vista, Windows Server 2008 et Windows 7 (inclure Mswsock. h);</dt> <dt>Ws2def. h sur Windows Vista, Windows Server 2008 et Windows 7 (inclure Winsock2. h);</dt> <dt>Ws2ipdef. h sur Windows Vista, Windows Server 2008 et Windows 7 (inclure Ws2tcpip. h)</dt> </dl> |

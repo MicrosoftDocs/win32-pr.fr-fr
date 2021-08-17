@@ -4,12 +4,12 @@ description: Les applications administratives appellent un sous-ensemble de fonc
 ms.assetid: ed172425-6d1e-45d8-8076-7705e833bfd5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72c7d69b88503f7a4af18f0ab4650923a2845f5c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 527c8574a0e6ab85fe4e826a224377fa0de5de3851b7e31264b4c68c3c2fce56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791914"
 ---
 # <a name="administrative-application-scenario"></a>Scénario d’application administrative
 
@@ -23,7 +23,7 @@ Chaque ligne de la table représente une étape.
 
 
 
-| Action de l’application administrative                                                                                                                                                                                      | Action du gestionnaire de groupe de multidiffusion                                                                                                                                                                                                                                                              | Notes                                                                                                                                                                                           |
+| Action de l’application administrative                                                                                                                                                                                      | Action du gestionnaire de groupe de multidiffusion                                                                                                                                                                                                                                                              | Remarques                                                                                                                                                                                           |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Obtenez un ou plusieurs MFEs à l’aide de la fonction [**MgmGetFirstMfe**](/windows/desktop/api/Mgm/nf-mgm-mgmgetfirstmfe) .                                                                                                                                   | Retourner autant de MFEs que possible dans la mémoire tampon fournie par le client. Si aucun MFEs ne peut être retourné dans la mémoire tampon fournie, la mémoire tampon de l’erreur de retour \_ est insuffisante \_ et la taille de la mémoire tampon nécessaire pour retourner un MFE.<br/>                                                              | Les clients peuvent également récupérer des statistiques MFE à l’aide des fonctions statistiques correspondantes, [**MgmGetFirstMfeStats**](/windows/desktop/api/Mgm/nf-mgm-mgmgetfirstmfestats) et [**MgmGetNextMfeStats**](/windows/desktop/api/Mgm/nf-mgm-mgmgetnextmfestats). |
 | Si \_ une erreur \_ de mémoire tampon insuffisante est reçue, appelez à nouveau la fonction [**MgmGetFirstMfe**](/windows/desktop/api/Mgm/nf-mgm-mgmgetfirstmfe) à l’aide d’une mémoire tampon de la taille indiquée.                                                                     |                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                 |

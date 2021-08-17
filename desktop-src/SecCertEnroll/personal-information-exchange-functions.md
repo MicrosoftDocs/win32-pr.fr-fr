@@ -1,19 +1,19 @@
 ---
-description: Chacune des sections suivantes traite d’une fonction exportée par Xenroll.dll pour gérer les messages d’échange d’informations personnelles (PFX).
+description: chacune des sections suivantes traite d’une fonction exportée par Xenroll.dll pour gérer les messages PFX (Personal Information Exchange).
 ms.assetid: f7e6b3a6-eae4-49f8-a624-609742741560
-title: Fonctions d’échange d’informations personnelles
+title: fonctions d’informations personnelles Exchange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dea1670e6017cd30ed8358d2670585727667068
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a1e7cddcda00131b64c5fe6122d777695bbab4f80cbac8e71648a2197fed036
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106540883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774682"
 ---
-# <a name="personal-information-exchange-functions"></a>Fonctions d’échange d’informations personnelles
+# <a name="personal-information-exchange-functions"></a>fonctions d’informations personnelles Exchange
 
-Chacune des sections suivantes traite d’une fonction exportée par Xenroll.dll pour gérer les messages d’échange d’informations personnelles (PFX). Chaque section explique également comment utiliser CertEnroll.dll pour remplacer la fonction ou indique qu’il n’existe aucun mappage entre les deux bibliothèques.
+chacune des sections suivantes traite d’une fonction exportée par Xenroll.dll pour gérer les messages PFX (Personal Information Exchange). Chaque section explique également comment utiliser CertEnroll.dll pour remplacer la fonction ou indique qu’il n’existe aucun mappage entre les deux bibliothèques.
 
 ## <a name="createfilepfxwstr"></a>createFilePFXWStr
 

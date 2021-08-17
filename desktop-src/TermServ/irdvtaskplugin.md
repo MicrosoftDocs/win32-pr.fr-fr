@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 59e90e899e8084f7fbc6b0b6f11067061eaa807b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fe76f0b0b92286d5a4b7db5126706fd55bdb6f580c11fda1dcaa55a47be4678c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129168"
 ---
 # <a name="irdvtaskplugin-interface"></a>Interface IRDVTaskPlugin
 
@@ -63,13 +63,13 @@ L’interface **IRDVTaskPlugin** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’agent de tâche est exécuté sur l’ordinateur virtuel lorsque cet ordinateur virtuel est planifié pour une mise à jour du système. L’agent de tâche met à jour l’ordinateur virtuel lorsque la méthode [**StartTask**](irdvtaskplugin-starttask.md) est appelée.
 
 Pour inscrire l’agent de tâche, ajoutez la clé suivante au registre de l’ordinateur virtuel :
 
-**HKEY \_ \_** Plug-ins des tâches de l’ordinateur local \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Terminal Server** \\  \\  \\ **TaskAgentName**
+**HKEY \_ \_** plug-ins des tâches de l’ordinateur LOCAL \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Terminal Server** \\  \\  \\ **TaskAgentName**
 
 Sous cette clé de Registre, ajoutez les valeurs suivantes :
 
@@ -89,7 +89,7 @@ Sous cette clé de Registre, ajoutez les valeurs suivantes :
 
  
 
-Bien que cette interface soit prise en charge sur les systèmes d’exploitation identifiés dans la configuration requise ci-dessous, elle n’est utilisée que si la machine virtuelle est hébergée sur Windows Server 2012.
+Bien que cette interface soit prise en charge sur les systèmes d’exploitation identifiés dans la configuration requise ci-dessous, elle est utilisée uniquement si la machine virtuelle est hébergée sur Windows Server 2012.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -97,7 +97,7 @@ Bien que cette interface soit prise en charge sur les systèmes d’exploitation
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------|
-| Client minimal pris en charge<br/> | Windows 7 Entreprise<br/>   |
+| Client minimal pris en charge<br/> | Windows 7 Entreprise<br/>   |
 | Serveur minimal pris en charge<br/> | Windows Server 2008 R2<br/> |
 
 

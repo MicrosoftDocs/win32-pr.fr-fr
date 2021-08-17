@@ -4,12 +4,12 @@ ms.assetid: bc679f0e-17f6-455c-8a00-1d435538ef86
 title: Attribut MF_PD_SAMI_STYLELIST (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebb07dd1713faa81fd02bfe7a32c81398cddb736
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7f57d418eb86c19d3aa2db12808dde810456c38ec6abd45fbece450b30f60f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117876172"
 ---
 # <a name="mf_pd_sami_stylelist-attribute"></a>MF \_ PD \_ STYLELIST (attribut same) \_
 
@@ -21,7 +21,7 @@ La [source du média sami](sami-media-source.md) définit cet attribut sur le de
 
 Tableau d’octets
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’objet blob d’attribut a la structure suivante :
 
@@ -33,7 +33,7 @@ Description
 
 Taille (en octets)
 
-**GRANDE**
+**DWORD**
 
 Nombre de chaînes de style.
 
@@ -41,7 +41,7 @@ Nombre de chaînes de style.
 
 Pour chaque chaîne de style :
 
-**GRANDE**
+**DWORD**
 
 Taille de la chaîne en octets, y compris le caractère **null** .
 
@@ -101,8 +101,8 @@ HRESULT DisplaySAMIStyleNames(IMFPresentationDescriptor *pPD)
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

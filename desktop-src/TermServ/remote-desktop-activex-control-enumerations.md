@@ -1,20 +1,20 @@
 ---
-title: Énumérations de contrôles ActiveX Bureau à distance
-description: Les énumérations suivantes sont utilisées avec le contrôle ActiveX Bureau à distance.
+title: énumérations de contrôle de ActiveX Bureau à distance
+description: les énumérations suivantes sont utilisées avec le contrôle Bureau à distance ActiveX.
 ms.assetid: C4EBA996-B3C7-492B-A6B7-96A3EC1847B2
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb2313cdc429fd39366a38f9596298a94e24e65b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f5880ff690e93d3a18337347b964aae421bff5acc95c5ec4859e597bc307822e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117756180"
 ---
-# <a name="remote-desktop-activex-control-enumerations"></a>Énumérations de contrôles ActiveX Bureau à distance
+# <a name="remote-desktop-activex-control-enumerations"></a>énumérations de contrôle de ActiveX Bureau à distance
 
-Les énumérations suivantes sont utilisées avec le contrôle ActiveX Bureau à distance.
+les énumérations suivantes sont utilisées avec le contrôle Bureau à distance ActiveX.
 
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -90,6 +90,6 @@ Format de données utilisé pour un instantané du client du conteneur d’appli
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

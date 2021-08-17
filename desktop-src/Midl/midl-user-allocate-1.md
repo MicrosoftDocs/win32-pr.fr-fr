@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4be10c5e1c7073afb3abf359c3ec2fb79a4335b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 16729e0a0a422c8ed2d8a8f323b563cb6a268fcb041e6a9d2ba13a9c9b847d79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117806657"
 ---
 # <a name="midl_user_allocate-attribute"></a>attribut d’allocation de l' \_ utilisateur MIDL \_
 
@@ -38,7 +38,7 @@ Spécifie le nombre d’octets à allouer.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications clientes et les applications serveur doivent implémenter la fonction d' **\_ \_ allocation utilisateur MIDL** , sauf si vous compilez en mode de compatibilité OSF ([**/OSF**](-osf.md)). Les applications et les stubs générés appellent **MIDL \_ User \_ allocate** lors du traitement d’objets référencés par des pointeurs :
 
@@ -80,7 +80,7 @@ void __RPC_FAR * __RPC_API midl_user_allocate(size_t cBytes)
 [Attributs de tableau et de Sized-Pointer](array-and-sized-pointer-attributes.md)
 </dt> <dt>
 
-[**in**](in.md)
+[**dans**](in.md)
 </dt> <dt>
 
 [**\_utilisateur \_ gratuit MIDL**](/windows/desktop/Rpc/the-midl-user-free-function)
@@ -101,6 +101,6 @@ void __RPC_FAR * __RPC_API midl_user_allocate(size_t cBytes)
 [**unique**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

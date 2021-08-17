@@ -5,8 +5,8 @@ ms.assetid: f4c5966a-0d9f-4d93-9ccd-2e8a5f32b77f
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode EnumerationFlagHierarchyDeepBasePropsOnly
-- Méthode EnumerationFlagHierarchyDeepBasePropsOnly Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode EnumerationFlagHierarchyDeepBasePropsOnly
+- méthode EnumerationFlagHierarchyDeepBasePropsOnly Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode EnumerationFlagHierarchyDeepBasePropsOnly
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86a0ed7d725f60e673d3426be1b11179ec8333d5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 197c615b8d805fc142fa8afb2cf4fbb56ef22eec76caf63f03c27f3d9f131b82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742457"
 ---
 # <a name="wsmanenumerationflaghierarchydeepbasepropsonly-method"></a>Méthode WSMan. EnumerationFlagHierarchyDeepBasePropsOnly
 

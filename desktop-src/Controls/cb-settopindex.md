@@ -3,7 +3,7 @@ title: Message CB_SETTOPINDEX (winuser. h)
 description: Une application envoie le \_ message CB SETTOPINDEX pour s’assurer qu’un élément particulier est visible dans la zone de liste d’une zone de liste déroulante.
 ms.assetid: vs|controls|~\controls\comboboxes\comboboxreference\comboboxmessages\cb_settopindex.htm
 keywords:
-- CB_SETTOPINDEX les contrôles de message Windows
+- CB_SETTOPINDEX les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f402cbd16cd61a829a2221600bd3c548829f348
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d9364ef5013ef692adda76f96752f11691d5f4cc87c857386914105d16decb11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117832287"
 ---
 # <a name="cb_settopindex-message"></a>\_Message SETTOPINDEX CB
 
@@ -55,8 +55,8 @@ Si le message échoue, la valeur de retour est CB \_ Err.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

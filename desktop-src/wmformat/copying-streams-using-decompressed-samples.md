@@ -1,6 +1,6 @@
 ---
-title: Copie de flux à l’aide d’exemples décompressés
-description: Copie de flux à l’aide d’exemples décompressés
+title: copie Flux à l’aide d’exemples décompressés
+description: copie Flux à l’aide d’exemples décompressés
 ms.assetid: 03ad8415-1dff-4362-94b4-7ec69c3e7888
 keywords:
 - Windows Media Format SDK, copie de flux
@@ -9,14 +9,14 @@ keywords:
 - flux, copie à l’aide de données décompressées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88c5c0f98b02090d98814983ad518ee3cd7e5d8e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e9e044d2a1d456c14c2e2d069e0a117ab6f6de218c062771da9c24bf887ddfdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106544144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848805"
 ---
-# <a name="copying-streams-using-decompressed-samples"></a>Copie de flux à l’aide d’exemples décompressés
+# <a name="copying-streams-using-decompressed-samples"></a>copie Flux à l’aide d’exemples décompressés
 
 Il est fortement recommandé de ne pas copier les flux d’un fichier vers un autre à l’aide d’exemples décompressés. Le processus de décompression et de recompression des exemples entraîne une dégradation de la qualité de la sortie. Si vous avez besoin de décompresser vos exemples, puis de les copier dans un autre flux, vous risquez de rencontrer des difficultés avec les flux codés en fonction de la vitesse de transmission variable (VBR).
 
@@ -29,12 +29,12 @@ Lorsque le codec finit de compresser un flux VBR basé sur la qualité, il enreg
 [**Copie de données d’un fichier vers un autre**](copying-data-from-one-file-to-another.md)
 </dt> <dt>
 
-[**Copie de flux sans décompression des données**](copying-streams-without-decompressing-the-data.md)
+[**copie Flux sans décompression des données**](copying-streams-without-decompressing-the-data.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

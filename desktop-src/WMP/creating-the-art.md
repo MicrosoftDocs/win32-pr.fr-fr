@@ -3,22 +3,22 @@ title: Création de l’illustration
 description: Création de l’illustration
 ms.assetid: 326483d5-faae-439b-8519-61f2f502c950
 keywords:
-- Windows Media Player Mobile Skins, fichiers art
+- Lecteur Windows Media Skins mobiles, fichiers artistiques
 - apparences, fichiers artistiques
 - création d’apparences, d’illustrations
 - fichiers art pour les apparences, création
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e9c4dafd201e66aee2c38f4490cb5ef5cf4c1c1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c14ff211ba89ba0b2b884669745c9927afe7cdffadda7489ebe6a1b630c95579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117936388"
 ---
 # <a name="creating-the-art"></a>Création de l’illustration
 
-L’art de cette apparence a été créé à l’aide d’Adobe Photoshop. D’autres programmes d’édition de graphiques, tels que Jasc Paint Shop Pro ou Microsoft Paint, auraient pu être utilisés. Photoshop a été choisi comme exemple d’application de modification de graphiques qui prend en charge les couches, ce qui est utile pour créer plusieurs fichiers bitmap qui s’aligneront les uns avec les autres.
+L’art de cette apparence a été créé à l’aide d’Adobe Photoshop. d’autres programmes d’édition de graphiques, tels que Jasc Paint Shop Pro ou Microsoft Paint, auraient pu être utilisés. Photoshop a été choisi comme exemple d’application de modification de graphiques qui prend en charge les couches, ce qui est utile pour créer plusieurs fichiers bitmap qui s’aligneront les uns avec les autres.
 
 Les étapes suivantes ont été utilisées pour créer l’art. De nombreuses autres procédures et outils art peuvent être utilisés. ce n’est qu’une des façons de procéder. La chose importante à garder à l’esprit est que vous souhaitez vous retrouver avec les fichiers bitmap spécifiques dont vous avez besoin pour votre apparence.
 
@@ -38,9 +38,9 @@ Les étapes suivantes ont été utilisées pour créer l’art. De nombreuses au
 [**Repère d’apparence**](skin-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

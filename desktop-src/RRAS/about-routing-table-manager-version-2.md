@@ -9,20 +9,20 @@ keywords:
 - Gestionnaire de routage de la version 2 RRAS, Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5014dc894c4a517bfdfac8478e520658a4987d4a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c87228222f31daf7f951064d05c92d950a3fff0d570fcac3536887b50193b16b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792106"
 ---
 # <a name="about-routing-table-manager-version-2"></a>À propos du gestionnaire de table de routage version 2
 
-La documentation suivante décrit la technologie du gestionnaire de tables de routage version 2 (RTMv2). L’API RTMv2 est une fonctionnalité de Windows 2000 et des systèmes d’exploitation ultérieurs que vous pouvez utiliser pour écrire des protocoles de routage qui interagissent avec le gestionnaire de tables de routage.
+La documentation suivante décrit la technologie du gestionnaire de tables de routage version 2 (RTMv2). l’API RTMv2 est une fonctionnalité de Windows 2000 et des systèmes d’exploitation ultérieurs que vous pouvez utiliser pour écrire des protocoles de routage qui interagissent avec le gestionnaire de tables de routage.
 
 Le gestionnaire de tables de routage est le référentiel central des informations de routage pour tous les protocoles de routage qui fonctionnent sous le service de routage et d’accès à distance (RRAS).
 
-RTMv2 n’est pas disponible pour Windows NT version 4,0. En outre, RTMv2 ne peut pas être utilisé pour les protocoles de routage IPX qui s’exécutent sur Windows NT 4,0 ou Windows 2000. Si vous utilisez IPX ou écrivez des protocoles de routage pour Windows NT 4,0, reportez-vous à la rubrique [à propos de la version 1 du gestionnaire de tables de routage](about-routing-table-manager-version-1.md).
+RTMv2 n’est pas disponible pour Windows NT version 4,0. en outre, RTMv2 ne peut pas être utilisé pour les protocoles de routage IPX qui s’exécutent sur Windows NT 4,0 ou Windows 2000. Si vous utilisez IPX ou si vous écrivez des protocoles de routage pour Windows NT 4,0, reportez-vous à la rubrique à [propos du gestionnaire de tables de routage version 1](about-routing-table-manager-version-1.md).
 
 Cette vue d’ensemble décrit les rubriques suivantes :
 
@@ -42,9 +42,9 @@ Cette vue d’ensemble décrit les rubriques suivantes :
 -   [Maintenance des listes de Client-Specific](maintaining-client-specific-lists.md)
 -   [Gestion des handles](managing-handles.md)
 
- 
+ 
 
- 
+ 
 
 
 

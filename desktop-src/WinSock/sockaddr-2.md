@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: ccd4b98efc987630ab625e5c9788f0be16018e88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afdacd0b4579bcb73bfaaa2da0b3714c7d597d94c0d25020e7353e3afd168d71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117927320"
 ---
 # <a name="sockaddr"></a>sockaddr
 
@@ -25,7 +25,7 @@ La structure sockaddr varie selon le protocole sélectionné. À l’exception d
 
 Les fonctions Winsock utilisant sockaddr ne sont pas strictement interprétées comme des pointeurs vers une structure sockaddr. La structure est interprétée différemment dans le contexte de différentes familles d’adresses. La seule exigence est que le premier **u \_ short** soit la famille d’adresses et que la taille totale de la mémoire tampon en octets soit *namelen*.
 
-La structure de [**\_ stockage sockaddr**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)) stocke également les informations d’adresse de socket et la structure est suffisamment volumineuse pour stocker les informations d’adresse IPv4 ou IPv6. L’utilisation de la structure de **\_ stockage sockaddr** favorise l’indépendance des versions de protocole et de la famille de protocoles, et simplifie le développement. Il est recommandé d’utiliser la structure de **\_ stockage sockaddr** à la place de la structure sockaddr. La structure de **\_ stockage sockaddr** est prise en charge sur Windows Server 2003 et versions ultérieures.
+La structure de [**\_ stockage sockaddr**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)) stocke également les informations d’adresse de socket et la structure est suffisamment volumineuse pour stocker les informations d’adresse IPv4 ou IPv6. L’utilisation de la structure de **\_ stockage sockaddr** favorise l’indépendance des versions de protocole et de la famille de protocoles, et simplifie le développement. Il est recommandé d’utiliser la structure de **\_ stockage sockaddr** à la place de la structure sockaddr. la structure de **\_ stockage SOCKADDR** est prise en charge sur Windows Server 2003 et versions ultérieures.
 
 La structure sockaddr et sockaddr \_ dans les structures ci-dessous sont utilisés avec IPv4. D’autres protocoles utilisent des structures similaires.
 
@@ -67,7 +67,7 @@ struct sockaddr_in6_old {
 };
 ```
 
-Dans le kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et versions ultérieures, **sockaddr** et **sockaddr \_ dans** les balises typedef sont définis pour sockaddr et sockaddr \_ dans les structures comme suit :
+dans le kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et versions ultérieures, **SOCKADDR** et **SOCKADDR \_ dans** les balises typedef sont définis pour SOCKADDR et SOCKADDR \_ dans les structures comme suit :
 
 ``` syntax
 typedef struct sockaddr {
@@ -92,7 +92,7 @@ typedef struct sockaddr_in {
 } SOCKADDR_IN, *PSOCKADDR_IN;
 ```
 
-Sur l’SDK Windows publiée pour Windows Vista et versions ultérieures, l’Organisation des fichiers d’en-tête a changé et les structures sockaddr et sockaddr \_ sont définies dans le fichier d’en-tête *Ws2def. h* , et non dans le fichier d’en-tête *Winsock2. h* . Le fichier d’en-tête *Ws2def. h* est automatiquement inclus dans le fichier d’en-tête *Winsock2. h* . La \_ structure sockaddr in6 est définie dans le fichier d’en-tête *Ws2ipdef. h* , et non dans le fichier d’en-tête *Ws2tcpip. h* . Le fichier d’en-tête *Ws2ipdef. h* est automatiquement inclus dans le fichier d’en-tête *Ws2tcpip. h* . Les fichiers d’en-tête *Ws2def. h* et *Ws2ipdef. h* ne doivent jamais être utilisés directement.
+sur l’SDK Windows publiée pour Windows Vista et versions ultérieures, l’organisation des fichiers d’en-tête a changé et les structures sockaddr et sockaddr \_ sont définies dans le fichier d’en-tête *Ws2def. h* , et non dans le fichier d’en-tête *Winsock2. h* . Le fichier d’en-tête *Ws2def. h* est automatiquement inclus dans le fichier d’en-tête *Winsock2. h* . La \_ structure sockaddr in6 est définie dans le fichier d’en-tête *Ws2ipdef. h* , et non dans le fichier d’en-tête *Ws2tcpip. h* . Le fichier d’en-tête *Ws2ipdef. h* est automatiquement inclus dans le fichier d’en-tête *Ws2tcpip. h* . Les fichiers d’en-tête *Ws2def. h* et *Ws2ipdef. h* ne doivent jamais être utilisés directement.
 
 ## <a name="example-code"></a>Exemple de code
 

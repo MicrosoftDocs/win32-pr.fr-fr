@@ -14,18 +14,18 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78f25ea90f8eb37c829cdc86e89f6d7e8cad2312
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 445ea8626d7ecc6c1c72cd13eebfc9811ae229b772787eae2625224d830bc25e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117721077"
 ---
-# <a name="cdn_includeitem-notification-code"></a>\_Code de notification CDN INCLUDEITEM
+# <a name="cdn_includeitem-notification-code"></a>CDN \_ Code de notification INCLUDEITEM
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[à partir de Windows Vista, les boîtes de dialogue **ouvrir** et **enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
-Envoyé par une boîte de dialogue **ouvrir** ou **Enregistrer sous** pour déterminer si la boîte de dialogue doit afficher un élément dans la liste d’éléments d’un dossier de l’interpréteur de commandes. Lorsque l’utilisateur ouvre un dossier, la boîte de dialogue envoie une notification **\_ INCLUDEITEM CDN** pour chaque élément du dossier. La boîte de dialogue envoie cette notification uniquement si l’indicateur **OFN \_ ENABLEINCLUDENOTIFY** a été défini lors de la création de la boîte de dialogue.
+Envoyé par une boîte de dialogue **ouvrir** ou **Enregistrer sous** pour déterminer si la boîte de dialogue doit afficher un élément dans la liste d’éléments d’un dossier de l’interpréteur de commandes. lorsque l’utilisateur ouvre un dossier, la boîte de dialogue envoie une notification **CDN \_ INCLUDEITEM** pour chaque élément du dossier. La boîte de dialogue envoie cette notification uniquement si l’indicateur **OFN \_ ENABLEINCLUDENOTIFY** a été défini lors de la création de la boîte de dialogue.
 
 Votre procédure de hook [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc) reçoit ce message sous la forme d’un message [**WM \_ Notify**](../controls/wm-notify.md) .
 
@@ -53,13 +53,13 @@ Ce paramètre n'est pas utilisé.
 
 Pointeur vers une structure [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa) .
 
-La structure [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa) contient une structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) dont le membre de **code** indique le message de notification **CDN \_ INCLUDEITEM** .
+la structure [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa) contient une structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) dont le membre de **code** indique le CDN message de notification **\_ INCLUDEITEM** .
 
 Le membre des **fibres** discontinues de la structure [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa) est un pointeur vers une interface pour le dossier dont les éléments sont énumérés. Le membre **PIDL** est un pointeur vers une liste d’identificateurs d’éléments qui identifie l’élément par rapport au dossier.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la procédure de hook [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc) retourne la valeur zéro, la boîte de dialogue exclut l’élément de la liste d’éléments.
 
@@ -67,9 +67,9 @@ Pour inclure l’élément, retournez une valeur différente de zéro à partir 
 
 ## <a name="remarks"></a>Remarques
 
-La boîte de dialogue comprend toujours les éléments qui ont à la fois les attributs **SFGAO \_ FileSystem** et **SFGAO \_ FILESYSANCESTOR** , quelle que soit la valeur retournée par **CDN \_ INCLUDEITEM**.
+la boîte de dialogue comprend toujours les éléments qui ont à la fois les attributs **SFGAO \_ FILESYSTEM** et **SFGAO \_ FILESYSANCESTOR** , quelle que soit la valeur retournée par **CDN \_ INCLUDEITEM**.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -85,7 +85,7 @@ La boîte de dialogue comprend toujours les éléments qui ont à la fois les at
 
 <dl> <dt>
 
-**Informations de référence**
+**Référence**
 </dt> <dt>
 
 [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea)

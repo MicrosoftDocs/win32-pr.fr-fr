@@ -4,12 +4,12 @@ ms.assetid: 67909072-72fe-4777-ae52-a7b9047c9dd5
 title: Constantes de mise en cache de clé privée (Wincrypt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6afa1394b33f4e36e31934e813b7c9fc41814e28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87d4caf6a3973a5113e03cbe24882241609ff83b8be65a20492f8f967abb734f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117978560"
 ---
 # <a name="private-key-caching-constants"></a>Constantes de mise en cache de clés privées
 
@@ -43,12 +43,12 @@ Les constantes suivantes sont utilisées pour identifier les valeurs de Registre
 | Constante/valeur                                                                                                                                                                                                                                                                                          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt></dt><dt>« AllowCachePW »</dt> </dl>                                                                                                                                                         | Valeur **reg \_ DWORD** sous la clé de Registre **HKEY \_ local \_ machine \\ Software \\ Policies \\ Microsoft \\ Cryptography \\ Protect** , qui spécifie si la mise en cache de mot de passe est activée pour les clés protégées par mot de passe dans les fournisseurs de services de chiffrement logiciels Microsoft. Si cette valeur est égale à 0, la mise en cache du mot de passe est désintégrée et l’utilisateur est invité à entrer le mot de passe chaque fois qu’une clé protégée par mot de passe est utilisée. Toute autre valeur, ou l’absence de cette valeur, indique que le mot de passe sera mis en cache. Dans ce scénario, l’utilisateur n’est invité qu’une seule fois par processus pour chaque clé. <br/> |
-| <span id="szKEY_CACHE_ENABLED"></span><span id="szkey_cache_enabled"></span><span id="SZKEY_CACHE_ENABLED"></span><dl> <dt>**szKEY \_ CACHE \_ activé**</dt> <dt>« CachePrivateKeys »</dt> </dl>          | Valeur **reg \_ DWORD** sous la clé de Registre **szKEY \_ CryptoAPI \_ Private \_ Key \_ options** qui spécifie si la mise en cache de la clé privée est activée. Si cette valeur est 1, la mise en cache de la clé privée est activée. Toute autre valeur, ou l’absence de cette valeur, indique que la mise en cache de la clé privée est désactivée.<br/> **Windows Vista avec SP1, Windows Vista et Windows XP :** Cette valeur de Registre n’est pas prise en charge.<br/>                                                                                                                                                        |
+| <span id="szKEY_CACHE_ENABLED"></span><span id="szkey_cache_enabled"></span><span id="SZKEY_CACHE_ENABLED"></span><dl> <dt>**szKEY \_ CACHE \_ activé**</dt> <dt>« CachePrivateKeys »</dt> </dl>          | Valeur **reg \_ DWORD** sous la clé de Registre **szKEY \_ CryptoAPI \_ Private \_ Key \_ options** qui spécifie si la mise en cache de la clé privée est activée. Si cette valeur est 1, la mise en cache de la clé privée est activée. Toute autre valeur, ou l’absence de cette valeur, indique que la mise en cache de la clé privée est désactivée.<br/> **Windows vista avec SP1, Windows vista et Windows XP :** Cette valeur de Registre n’est pas prise en charge.<br/>                                                                                                                                                        |
 | <span id="szKEY_CACHE_SECONDS"></span><span id="szkey_cache_seconds"></span><span id="SZKEY_CACHE_SECONDS"></span><dl> <dt>**szKEY \_ \_Secondes du cache**</dt> <dt>« PrivateKeyLifetimeSeconds »</dt> </dl> | Valeur **reg \_ DWORD** sous la clé de Registre **szKEY \_ CryptoAPI \_ Private \_ Key \_ options** qui spécifie l’âge maximal, en secondes, de n’importe quelle clé privée mise en cache.<br/> **Windows XP :** Cette valeur de Registre n’est pas prise en charge.<br/>                                                                                                                                                                                                                                                                                                                                          |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les différences entre les **\_ \_ secondes du cache szKEY** et les valeurs de l' **\_ \_ \_ \_ intervalle de \_ purge du cache de clé szPRIV** sont les suivantes :
 
@@ -70,8 +70,8 @@ Les différences entre les **\_ \_ secondes du cache szKEY** et les valeurs de l
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Wincrypt. h</dt> </dl> |
 
 

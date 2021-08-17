@@ -5,18 +5,18 @@ ms.tgt_platform: multiple
 title: Nouveautés de WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e60c096cf72fe3ee48559c95b6ba643fa46b1f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bec41c28985090368e9f16e0f75c663ca2b811db44ece6e930e04bb1dd2c8c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117921239"
 ---
 # <a name="whats-new-in-wmi"></a>Nouveautés de WMI
 
-## <a name="new-security-feature-in-windows-7"></a>Nouvelle fonctionnalité de sécurité dans Windows 7
+## <a name="new-security-feature-in-windows-7"></a>nouvelle fonctionnalité de sécurité dans Windows 7
 
-La liste suivante répertorie la nouvelle fonctionnalité de sécurité de l’Windows Management Instrumentation (WMI) qui est disponible dans Windows 7.
+la liste suivante répertorie la nouvelle fonctionnalité de sécurité de l’Windows Management Instrumentation (WMI) qui est disponible dans Windows 7.
 
 <dl> <dt>
 
@@ -29,9 +29,9 @@ Modifications pour améliorer la sécurité du processus hôte du fournisseur pa
 
 ## <a name="new-or-updated-features-in-windows-8"></a>Fonctionnalités nouvelles ou mises à jour dans Windows 8
 
-La principale mise à jour de Windows Management Instrumentation était la version complète de la nouvelle génération de WMI, appelée infrastructure de gestion Windows (MI). MI est entièrement compatible avec les versions précédentes de WMI et fournit un hôte de fonctionnalités et d’avantages qui facilitent la conception et le développement de fournisseurs et de clients. Pour plus d’informations sur MI, consultez [Nouveautés de mi](/previous-versions/windows/desktop/wmi_v2/what-s-new-in-mi) .
+la principale mise à jour de Windows Management Instrumentation était la version complète de la nouvelle génération de WMI, connue sous le nom de « Infrastructure de gestion de Windows » (MI). MI est entièrement compatible avec les versions précédentes de WMI et fournit un hôte de fonctionnalités et d’avantages qui facilitent la conception et le développement de fournisseurs et de clients. Pour plus d’informations sur MI, consultez [Nouveautés de mi](/previous-versions/windows/desktop/wmi_v2/what-s-new-in-mi) .
 
-Pour plus d’informations sur les nouvelles fonctionnalités de WMI dans les versions précédentes du système d’exploitation, consultez [Nouveautés de Windows 7](what-s-new-in-windows-7.md)et [Nouveautés de Windows Vista](what-s-new-in-windows-vista.md).
+pour plus d’informations sur les nouvelles fonctionnalités de WMI dans les versions précédentes du système d’exploitation, consultez [nouveautés de Windows 7](what-s-new-in-windows-7.md)et [nouveautés de Windows Vista](what-s-new-in-windows-vista.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -4,12 +4,12 @@ ms.assetid: b5026566-89b5-458e-b36d-a55e5f8c10c1
 title: DXGI_USAGE (DXGI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e55e99d86201c76fbe2ec229b13b5831d767ff34
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1d7bc0773794c6c2243d8a3171cbd6ffdafbe1cdd558e1198c2c8cc0b1a3440d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106525874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117909930"
 ---
 # <a name="dxgi_usage"></a>utilisation de DXGI \_
 
@@ -29,7 +29,7 @@ Indicateurs pour les options de création de surface et de ressource.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque indicateur est défini comme un entier non signé.
 

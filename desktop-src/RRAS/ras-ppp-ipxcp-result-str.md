@@ -1,6 +1,6 @@
 ---
 title: Structure RAS_PPP_IPXCP_RESULT (rassapi. h)
-description: La \_ structure du résultat d’accès distant PPP ppp \_ \_ est utilisée pour signaler le résultat d’une opération de projection PPP Internetwork Packet Exchange (IPX) pour un port.
+description: la \_ structure du résultat d’accès distant ppp ppp \_ \_ est utilisée pour signaler le résultat d’une opération de projection ppp IPX (packet network Exchange) pour un port.
 ms.assetid: e1236e1b-f0ef-46cf-a12f-35529215752c
 keywords:
 - RAS_PPP_IPXCP_RESULT de la structure RAS
@@ -14,18 +14,18 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bb7ca4d006bd1a1df5a645799998b463c0b14f7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8bc79b7700fc47176928688b517377f5e02903da04841b50949937448065086d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789603"
 ---
 # <a name="ras_ppp_ipxcp_result-structure"></a>Structure des résultats du protocole d’accès distant \_ PPP \_ IPXCP \_
 
-\[La structure des **\_ \_ \_ résultats IPXCP PPP d’accès distant** n’est pas prise en charge à partir de Windows Vista.\]
+\[la structure des **\_ \_ \_ résultats IPXCP PPP d’accès distant** n’est pas prise en charge à partir de Windows Vista.\]
 
-La structure du **\_ \_ \_ résultat d’accès distant PPP ppp** est utilisée pour signaler le résultat d’une opération de projection PPP Internetwork Packet Exchange (IPX) pour un port.
+la structure du **\_ \_ \_ résultat d’accès distant ppp ppp** est utilisée pour signaler le résultat d’une opération de projection ppp IPX (packet network Exchange) pour un port.
 
 ## <a name="syntax"></a>Syntaxe
 

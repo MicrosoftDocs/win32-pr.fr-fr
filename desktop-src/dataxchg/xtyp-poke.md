@@ -1,9 +1,9 @@
 ---
 title: XTYP_POKE transaction (Ddeml. h)
-description: Un client utilise la \_ transaction d’XTYPe pour envoyer des données non sollicitées au serveur. Une fonction de rappel de serveur échange dynamique de données (DDE), DdeCallback, reçoit cette transaction lorsqu’un client spécifie XTYP \_ dans la fonction DdeClientTransaction.
+description: Un client utilise la \_ transaction d’XTYPe pour envoyer des données non sollicitées au serveur. une fonction de rappel de serveur échange dynamique de données (DDE), DdeCallback, reçoit cette transaction lorsqu’un client spécifie XTYP \_ dans la fonction DdeClientTransaction.
 ms.assetid: 63c6115e-24f8-4f35-8397-8be63110b21f
 keywords:
-- Échange de données de transaction XTYP_POKE
+- XTYP_POKE Exchange de données de transaction
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e538f72b7a736ed9be5cf3e1d83e8729f42ef83d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a179f4130ae06c4548b52586d6086201c2d832a158cef877d9aaf524160f4b16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914749"
 ---
 # <a name="xtyp_poke-transaction"></a>XTYP \_ transaction de journalisation
 
-Un client utilise la **transaction \_ d’XTYPe** pour envoyer des données non sollicitées au serveur. Une fonction de rappel de serveur échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit cette transaction lorsqu’un client spécifie **XTYP \_** dans la fonction [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) .
+Un client utilise la **transaction \_ d’XTYPe** pour envoyer des données non sollicitées au serveur. une fonction de rappel de serveur échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit cette transaction lorsqu’un client spécifie **XTYP \_** dans la fonction [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) .
 
 
 ```C++
@@ -97,7 +97,7 @@ Non utilisé.
 
 Une fonction de rappel de serveur doit retourner l’indicateur **\_ Fack DDE** si elle traite cette transaction, l’indicateur **DDE \_ FBUSY** s’il est trop occupé pour traiter cette transaction, ou l’indicateur **DDE \_ FNOTPROCESSED** s’il rejette cette transaction.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette transaction est filtrée si l’application serveur a spécifié l’indicateur d' **\_ \_ échec** de l’CBF dans la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
 
@@ -129,7 +129,7 @@ Cette transaction est filtrée si l’application serveur a spécifié l’indic
 **Méthodologique**
 </dt> <dt>
 
-[Bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
+[bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

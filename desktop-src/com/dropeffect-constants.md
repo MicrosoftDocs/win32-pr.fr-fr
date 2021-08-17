@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2b1888aa028d4e047a9a8ec1f54e2497fa28ce4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 05c9a4fa961b0da2e654d4672392104b95e718bbb176167c7bb715c39f25cfc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736951"
 ---
 # <a name="dropeffect-constants"></a>Constantes DROPEFFECT
 
@@ -39,7 +39,7 @@ Représente des informations sur les effets d’une opération de glisser-dépla
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Votre application doit toujours masquer les valeurs de l’énumération **DROPEFFECT** pour garantir la compatibilité avec les futures implémentations. Actuellement, seules certaines positions dans une valeur **DROPEFFECT** ont une signification. À l’avenir, d’autres interprétations pour le service bits seront ajoutées. Les sources de glissement et les cibles de dépôt doivent masquer soigneusement ces valeurs avant la comparaison. Ils ne doivent jamais comparer un **DROPEFFECT** à une copie DROPEFFECT, par exemple, \_ en procédant comme suit :
 

@@ -5,8 +5,8 @@ ms.assetid: 299d9a95-bd30-414c-996d-6633e8b7ce52
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode CreateSession
-- Méthode CreateSession Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode CreateSession
+- méthode CreateSession Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode CreateSession
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 966fd1f43db7114d3a4c0cf4cddaa4428fcb41c6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 330f8ea6456001c7e3b81dfbfeb07a125d30a5069596ef7d4f3e6ad561994ecb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742602"
 ---
 # <a name="wsmancreatesession-method"></a>Méthode WSMan. CreateSession
 
@@ -72,9 +72,9 @@ Pointeur vers un objet [**ConnectionOptions**](connectionoptions.md) qui contien
 
 Objet de [**session**](session.md) qui peut ensuite être utilisé pour effectuer des opérations WinRM locales ou distantes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La méthode **CreateSession** Initialise l’objet de [**session**](session.md) en rassemblant des paramètres, tels que des indicateurs, des informations d’identification et une chaîne de connexion pour le paramètre de *connexion* . **CreateSession** ne se connecte pas réellement à l’ordinateur local ou distant. Si la connexion ne peut pas être établie, un échec se produit lors de la première opération de **session** , telle qu’une opération d' [**extraction**](session-get.md) ou d' [**énumération**](session-enumerate.md), après l’appel à **CreateSession**. Ce comportement diffère d’une connexion [*WMI*](windows-remote-management-glossary.md) à un [*espace de noms*](windows-remote-management-glossary.md) sur un ordinateur distant. Pour plus d’informations, consultez [Windows Remote Management et WMI](windows-remote-management-and-wmi.md).
+La méthode **CreateSession** Initialise l’objet de [**session**](session.md) en rassemblant des paramètres, tels que des indicateurs, des informations d’identification et une chaîne de connexion pour le paramètre de *connexion* . **CreateSession** ne se connecte pas réellement à l’ordinateur local ou distant. Si la connexion ne peut pas être établie, un échec se produit lors de la première opération de **session** , telle qu’une opération d' [**extraction**](session-get.md) ou d' [**énumération**](session-enumerate.md), après l’appel à **CreateSession**. Ce comportement diffère d’une connexion [*WMI*](windows-remote-management-glossary.md) à un [*espace de noms*](windows-remote-management-glossary.md) sur un ordinateur distant. pour plus d’informations, consultez [Windows Remote Management et WMI](windows-remote-management-and-wmi.md).
 
 L’exemple de code VBScript suivant est utilisé pour appeler cette méthode.
 
@@ -118,7 +118,7 @@ L’exemple de code VBScript suivant crée une session sur l’ordinateur local.
 
 L’exemple de code VBScript suivant crée une session sur un ordinateur distant qui est identifié par une adresse IP. Le script fournit un nom d’utilisateur et un mot de passe pour un compte. Les indicateurs **WSManFlagCredUserNamePassword** et **WSManFlagUseBasic** sont combinés pour indiquer que le compte est un compte local sur l’ordinateur distant. Si la création de la session échoue, le script se termine. Le script utilise les méthodes qui retournent la constante, telles que [**WSMan. SessionFlagUseBasic**](wsman-sessionflagusebasic.md).
 
-Pour exécuter ce script, sachez que vous devez configurer les paramètres de configuration par défaut pour le client et le serveur afin d’autoriser le trafic non chiffré et l’authentification de base (**AllowUnencrypted** a la valeur **true** et Basic défini sur **true**). Pour plus d’informations, consultez [installation et configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
+Pour exécuter ce script, sachez que vous devez configurer les paramètres de configuration par défaut pour le client et le serveur afin d’autoriser le trafic non chiffré et l’authentification de base (**AllowUnencrypted** a la valeur **true** et Basic défini sur **true**). pour plus d’informations, consultez [Installation et Configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
 
 
 ```VB
@@ -177,7 +177,7 @@ Set NewSession = WSMan.CreateSession("127.0.51.1", iFlags, _
 [Authentification des connexions à distance](authentication-for-remote-connections.md)
 </dt> <dt>
 
-[Installation et configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md)
+[Installation et Configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md)
 </dt> </dl>
 
  

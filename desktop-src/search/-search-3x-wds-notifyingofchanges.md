@@ -1,21 +1,21 @@
 ---
-description: En utilisant les composants API de notification, vous pouvez informer l’indexeur qu’un élément a été modifié, déplacé ou supprimé et peut ajouter des étendues de recherche à la file d’attente de l’indexeur de recherche Windows des URL qui nécessitent une indexation.
+description: en utilisant les composants api de notification, vous pouvez informer l’indexeur qu’un élément a été modifié, déplacé ou supprimé et qu’il peut ajouter des étendues de recherche à la file d’attente de Windows recherche d’url de l’indexeur de recherche qui requièrent l’indexation.
 ms.assetid: 817550e2-a256-48d5-9fa6-1ea04f8b8589
-title: Notification de l’index des modifications (Windows Search)
+title: notification de l’Index des modifications (recherche Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5a89112da20c4010e1fc23fab16778309195d20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4cb386763be5192851368b1f46b69f94576fbe261a57d215d649d38ac5a19ecf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118052226"
 ---
-# <a name="notifying-the-index-of-changes-windows-search"></a>Notification de l’index des modifications (Windows Search)
+# <a name="notifying-the-index-of-changes-windows-search"></a>notification de l’Index des modifications (recherche Windows)
 
-En utilisant les composants API de notification, vous pouvez informer l’indexeur qu’un élément a été modifié, déplacé ou supprimé et peut ajouter des étendues de recherche à la file d’attente de l’indexeur de recherche Windows des URL qui nécessitent une indexation.
+en utilisant les composants api de notification, vous pouvez informer l’indexeur qu’un élément a été modifié, déplacé ou supprimé et qu’il peut ajouter des étendues de recherche à la file d’attente de Windows recherche d’url de l’indexeur de recherche qui requièrent l’indexation.
 
-Les composants peuvent notifier à l’indexeur de recherche Windows que les données de leur magasin ont changé. En règle générale, vous pouvez vous appuyer sur les analyses planifiées de l’indexeur. Toutefois, le fait de fournir des notifications à l’indexeur peut améliorer les performances en veillant à ce que l’indexeur n’analyse pas l’intégralité du magasin sur les index incrémentiels. Par exemple, cela peut être recommandé si vous vous attendez à ce que votre magasin de données soit exceptionnellement volumineux et/ou exceptionnellement occupé, par exemple dans le cas d’un magasin de données de messagerie électronique.
+les composants peuvent notifier à l’indexeur de recherche Windows que les données de leur magasin ont changé. En règle générale, vous pouvez vous appuyer sur les analyses planifiées de l’indexeur. Toutefois, le fait de fournir des notifications à l’indexeur peut améliorer les performances en veillant à ce que l’indexeur n’analyse pas l’intégralité du magasin sur les index incrémentiels. Par exemple, cela peut être recommandé si vous vous attendez à ce que votre magasin de données soit exceptionnellement volumineux et/ou exceptionnellement occupé, par exemple dans le cas d’un magasin de données de messagerie électronique.
 
 -   [Implémentation des notifications gérées par l’indexeur](#implementing-indexer-managed-notifications)
     -   [File d’attente des notifications](#notifications-queue)
@@ -51,7 +51,7 @@ Dans l’appel à cette méthode, vous incluez le nombre de modifications signal
 
 ## <a name="implementing-provider-managed-notifications"></a>Implémentation des notifications gérées par le fournisseur
 
-Les notifications gérées par le fournisseur vous permettent de contrôler l’accès à votre magasin de données et de surveiller la progression de l’indexeur lorsqu’il met à jour le catalogue de recherche Windows. Votre fournisseur doit surveiller les modifications apportées au magasin de données et créer une file d’attente de notifications. Régulièrement, votre fournisseur envoie un lot de notifications de modifications à l’indexeur. Lorsque l’indexeur reçoit vos notifications, il renvoie un accusé de réception. Si, après un certain laps de temps, vous ne recevez pas d’accusé de réception, vous pouvez renvoyer les notifications. Étant donné que l’indexeur analyse le magasin de données et met à jour le catalogue de recherche Windows, il avertit votre fournisseur de chaque mise à jour du catalogue et vous permet de supprimer les éléments de votre file d’attente. Votre fournisseur gère sa file d’attente de notification tout au long de ce processus. ainsi, en cas de défaillance, vous pouvez renvoyer des notifications à l’indexeur.
+les notifications gérées par le fournisseur vous permettent de contrôler l’accès à votre magasin de données et de surveiller la progression de l’indexeur lorsqu’il met à jour le catalogue de recherche Windows. Votre fournisseur doit surveiller les modifications apportées au magasin de données et créer une file d’attente de notifications. Régulièrement, votre fournisseur envoie un lot de notifications de modifications à l’indexeur. Lorsque l’indexeur reçoit vos notifications, il renvoie un accusé de réception. Si, après un certain laps de temps, vous ne recevez pas d’accusé de réception, vous pouvez renvoyer les notifications. étant donné que l’indexeur analyse le magasin de données et met à jour le catalogue de recherche Windows, il avertit votre fournisseur de chaque mise à jour du catalogue et vous permet de supprimer les éléments de votre file d’attente. Votre fournisseur gère sa file d’attente de notification tout au long de ce processus. ainsi, en cas de défaillance, vous pouvez renvoyer des notifications à l’indexeur.
 
 Pour implémenter des notifications gérées par le fournisseur, vous devez implémenter les éléments suivants :
 
@@ -78,9 +78,9 @@ Dans l’appel à cette méthode, vous incluez le nombre de modifications signal
 
 Pour obtenir des mises à jour sur l’état de vos éléments et du catalogue, vous devez inscrire votre interface [**ISearchNotifyInlineSite**](/windows/desktop/api/Searchapi/nn-searchapi-isearchnotifyinlinesite) auprès de l’indexeur afin de pouvoir envoyer des rappels. Chaque mise à jour envoyée à l’aide de [**ISearchNotifyInlineSite :: OnItemIndexedStatusChange**](/windows/desktop/api/Searchapi/nf-searchapi-isearchnotifyinlinesite-onitemindexedstatuschange) identifie les éléments par ID de produit, l’état de chaque élément ([**Rechercher l' \_ \_ \_ État**](/windows/desktop/api/Searchapi/ns-searchapi-search_item_indexing_status)de l’indexation) et la phase d’indexation ([**\_ \_ phase d’indexation**](/windows/desktop/api/Searchapi/ne-searchapi-search_indexing_phase)de la recherche) dans laquelle se trouvent les éléments.
 
-Non seulement vous recevez des mises à jour sur l’état de chaque élément, comme décrit précédemment, vous obtenez également des informations importantes sur l’état du catalogue. Le service de recherche Windows peut être interrompu ou redémarré par l’utilisateur final, une application tierce ou une autre défaillance. Dans ce cas, vous avez besoin d’un moyen de déterminer les notifications à réexécuter vers l’indexeur.
+Non seulement vous recevez des mises à jour sur l’état de chaque élément, comme décrit précédemment, vous obtenez également des informations importantes sur l’état du catalogue. le service de recherche de Windows peut être interrompu ou redémarré par l’utilisateur final, une application tierce ou une autre défaillance. Dans ce cas, vous avez besoin d’un moyen de déterminer les notifications à réexécuter vers l’indexeur.
 
-La méthode [**ISearchNotifyInlineSite :: OnCatalogStatusChange**](/windows/desktop/api/Searchapi/nf-searchapi-isearchnotifyinlinesite-oncatalogstatuschange) , appelée par le service de recherche Windows, informe les clients sur l’état du catalogue à l’aide des paramètres décrits dans le tableau suivant.
+la méthode [**ISearchNotifyInlineSite :: OnCatalogStatusChange**](/windows/desktop/api/Searchapi/nf-searchapi-isearchnotifyinlinesite-oncatalogstatuschange) , appelée par le service de recherche Windows, informe les clients sur l’état du catalogue à l’aide des paramètres décrits dans le tableau suivant.
 
 
 

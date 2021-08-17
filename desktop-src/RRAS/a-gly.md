@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 74559a2a-693f-48a4-b577-e217a21f8b06
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75cf6173391bf8295cd6482f2e9735bfefd95455
-ms.sourcegitcommit: fdd00b445ee88366e9cdd1eed0cb3e42e2a73eca
+ms.openlocfilehash: e68e274a589467715daeefd039adac2cfdb67e628d3d3c89f96293a3325d7d37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "106511871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792322"
 ---
 # <a name="a-rras"></a>A (RRAS)
 
@@ -46,9 +46,9 @@ Un itinéraire autostatique est un itinéraire qui est obtenu de manière dynami
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

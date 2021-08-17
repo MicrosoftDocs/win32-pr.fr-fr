@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 3ee30112baf7813c983230fb90cd15ea7f52e2bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17ccb07a97112cab4390dc1eece2bf6fce51acf1c80244ed03253b5a2f6112b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132918"
 ---
 # <a name="irtcstart-method"></a>IRTC :: Start, méthode
 
@@ -50,14 +50,14 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 |-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_capture NMERR \_ suspendue**</dt> </dl> | La capture est dans un état suspendu et doit être arrêtée avant de pouvoir être redémarrée. Appelez [IRTC :: Stop](idelaydc-stop.md) pour arrêter la capture.<br/> |
 | <dl> <dt>**\_capture NMERR**</dt> </dl>       | La capture a déjà démarré.<br/>                                                                                                            |
-| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>  | Le NPP n’est pas connecté au réseau. Appelez [IRTC :: Connect](irtc-connect.md) pour connecter le NPP au réseau.<br/>                         |
-| <dl> <dt>**NMERR \_ pas de \_ temps réel**</dt> </dl>   | Le NPP est connecté au réseau, mais pas avec la méthode [IRTC :: Connect](irtc-connect.md) .<br/>                                             |
+| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>  | Le NPP n’est pas connecté au réseau. appelez [IRTC :: Connecter](irtc-connect.md) pour connecter le NPP au réseau.<br/>                         |
+| <dl> <dt>**NMERR \_ pas de \_ temps réel**</dt> </dl>   | le NPP est connecté au réseau, mais pas avec la méthode [IRTC :: Connecter](irtc-connect.md) .<br/>                                             |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous redémarrez la capture à l’aide des méthodes IRTC :: Start et [IRTC :: Stop](irtc-stop.md) , vous devez appeler la méthode [IRTC :: configure](irtc-configure.md) pour reconfigurer la connexion chaque fois que vous appelez IRTC :: Start pour redémarrer la capture de données.
 
@@ -89,7 +89,7 @@ Lorsque vous redémarrez la capture à l’aide des méthodes IRTC :: Start et 
 [IRTC :: configure](irtc-configure.md)
 </dt> <dt>
 
-[IRTC :: Connect](irtc-connect.md)
+[IRTC :: Connecter](irtc-connect.md)
 </dt> <dt>
 
 [IRTC ::P ause](irtc-pause.md)

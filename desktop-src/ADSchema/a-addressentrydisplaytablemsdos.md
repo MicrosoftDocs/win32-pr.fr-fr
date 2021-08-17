@@ -57,10 +57,10 @@ Table d’affichage MAPI pour une entrée d’adresse pour le client MSDOS.
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32 768                                                    |
@@ -78,10 +78,10 @@ Table d’affichage MAPI pour une entrée d’adresse pour le client MSDOS.
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32 768                                                    |
@@ -99,10 +99,10 @@ Table d’affichage MAPI pour une entrée d’adresse pour le client MSDOS.
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32 768                                                    |
@@ -120,10 +120,10 @@ Table d’affichage MAPI pour une entrée d’adresse pour le client MSDOS.
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32 768                                                    |
@@ -141,10 +141,10 @@ Table d’affichage MAPI pour une entrée d’adresse pour le client MSDOS.
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32 768                                                    |
@@ -162,10 +162,10 @@ Table d’affichage MAPI pour une entrée d’adresse pour le client MSDOS.
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32 768                                                    |

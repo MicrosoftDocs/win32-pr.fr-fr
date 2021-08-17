@@ -4,20 +4,20 @@ ms.assetid: e344c360-4ab5-4a5f-a1b2-b0fa890b8666
 title: Exemple de WPA-Enterprise avec PEAP-MSCHAPv2 Profile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 364cc7a9cc85e4c5e2ef908c0ac2a4726d6c5a96
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: c6bd504f803795613b545c64025df3094346ea2478dd729b91ec8cec69f45c3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117797429"
 ---
 # <a name="wpa-enterprise-with-peap-mschapv2-profile-sample"></a>Exemple de WPA-Enterprise avec PEAP-MSCHAPv2 Profile
 
 Cet exemple de profil utilise le protocole PEAP-MSCHAPv2 (Protected Extensible Authentication Protocol avec le protocole PEAP-MSCHAPv2) avec le **/** _mot de passe_ * username * pour s’authentifier sur le réseau. L’utilisateur est invité à entrer des informations d’identification.
 
-Cet exemple est configuré pour utiliser la sécurité d’accès Wi-Fi protégée s’exécutant en mode entreprise (WPA-Enterprise). Le type de sécurité WPA-Enterprise utilise 802.1 X pour l’échange d’authentification avec le serveur principal. Le protocole TKIP (Temporal Key Integrity Protocol) est utilisé pour le chiffrement.
+cet exemple est configuré pour utiliser la sécurité d’accès Wi-Fi protégée s’exécutant en mode Enterprise (WPA-Enterprise). Le type de sécurité WPA-Enterprise utilise 802.1 X pour l’échange d’authentification avec le serveur principal. Le protocole TKIP (Temporal Key Integrity Protocol) est utilisé pour le chiffrement.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** L’enfant de [**nom**](wlan-profileschema-name-wlanprofile-element.md) de l’élément [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) est ignoré. Le nom du profil, tel qu’il est stocké dans le magasin de profils, est dérivé de l’enfant de [**nom**](wlan-profileschema-name-ssid-element.md) de l’élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) .
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** L’enfant de [**nom**](wlan-profileschema-name-wlanprofile-element.md) de l’élément [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) est ignoré. Le nom du profil, tel qu’il est stocké dans le magasin de profils, est dérivé de l’enfant de [**nom**](wlan-profileschema-name-ssid-element.md) de l’élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) .
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>

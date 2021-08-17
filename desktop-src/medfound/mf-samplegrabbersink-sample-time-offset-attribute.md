@@ -4,12 +4,12 @@ ms.assetid: 8d06b415-aafc-4276-9a88-4b7262df62f1
 title: Attribut MF_SAMPLEGRABBERSINK_SAMPLE_TIME_OFFSET (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d99f65c5023bbe8705e21269dfb07d6f24db4190
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ad8086d7820a9f7c642fb049af8696521f675be3f7606ff19166a4570ee8000
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875989"
 ---
 # <a name="mf_samplegrabbersink_sample_time_offset-attribute"></a>Attribut de décalage de l’heure d’exemple MF \_ SAMPLEGRABBERSINK \_ \_ \_
 
@@ -19,7 +19,7 @@ Décalage entre l’horodatage de chaque échantillon reçu par l’accroche éc
 
 **UINT64**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez définir cet attribut sur l’objet [**IMFActivate**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) qui est retourné par la fonction [**MFCreateSampleGrabberSinkActivate**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatesamplegrabbersinkactivate) . Cet attribut permet à la fonction de rappel de l’exemple de la fonction de rappel de recevoir des exemples antérieurs à l’heure de la présentation.
 
@@ -33,8 +33,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

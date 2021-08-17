@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Sécurisation d’une connexion WMI à distance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df2a044e49fed5eaa27fbc246dca3306a6c29650
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8650ee47c549121a51e5d131055a84c176da944c6146f0532ffc86f1d2f9e4c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739513"
 ---
 # <a name="securing-a-remote-wmi-connection"></a>Sécurisation d’une connexion WMI à distance
 
@@ -20,19 +20,19 @@ WMI possède les paramètres d’emprunt d’identité, d’authentification et 
 
 Les sections suivantes sont présentées dans cette rubrique :
 
--   [Paramètres d’emprunt d’identité et d’authentification DCOM pour WMI](#dcom-impersonation-and-authentication-settings-for-wmi)
+-   [emprunt d’identité et authentification DCOM Paramètres pour WMI](#dcom-impersonation-and-authentication-settings-for-wmi)
 -   [Définition de la sécurité DCOM pour autoriser un utilisateur à accéder à distance à un ordinateur](#setting-dcom-security-to-allow-a-user-to-access-a-computer-remotely)
 -   [Autoriser les utilisateurs à accéder à un espace de noms WMI spécifique](#allowing-users-access-to-a-specific-wmi-namespace)
 -   [Définition de la sécurité des espaces de noms pour exiger le chiffrement des données pour les connexions à distance](#setting-namespace-security-to-require-data-encryption-for-remote-connections)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="dcom-impersonation-and-authentication-settings-for-wmi"></a>Paramètres d’emprunt d’identité et d’authentification DCOM pour WMI
+## <a name="dcom-impersonation-and-authentication-settings-for-wmi"></a>emprunt d’identité et authentification DCOM Paramètres pour WMI
 
 WMI possède les paramètres d’emprunt d’identité DCOM par défaut, d’authentification et de service d’authentification (NTLM ou Kerberos) requis par le système distant. Votre système local peut utiliser des valeurs par défaut différentes de celles que le système distant cible n’accepte pas. Vous pouvez modifier ces paramètres dans l’appel de connexion. Pour plus d’informations, consultez Définition de la [sécurité des processus d’application cliente](setting-client-application-process-security.md). Toutefois, pour le service d’authentification, il est recommandé de spécifier **la \_ \_ \_ valeur par défaut RPC C Authn** et de permettre à DCOM de choisir le service approprié pour l’ordinateur cible.
 
 Vous pouvez fournir des paramètres dans les paramètres pour les appels à [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) ou [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) en C++. Dans les scripts, vous pouvez établir des paramètres de sécurité dans les appels à [**SWbemLocator. ConnectServer**](swbemlocator-connectserver.md), dans un objet [**SWbemSecurity**](swbemsecurity.md) ou dans la chaîne de [moniker](constructing-a-moniker-string.md) de script.
 
-Pour obtenir la liste de toutes les constantes d’emprunt d’identité C++, consultez [définition du niveau de sécurité de processus par défaut à l’aide de C++](setting-the-default-process-security-level-using-c-.md). Pour plus d’Visual Basic les constantes et les chaînes de script pour l’utilisation de la connexion moniker, consultez [définition du niveau de sécurité de processus par défaut à l’aide de VBScript](setting-the-default-process-security-level-using-vbscript.md).
+Pour obtenir la liste de toutes les constantes d’emprunt d’identité C++, consultez [définition du niveau de sécurité de processus par défaut à l’aide de C++](setting-the-default-process-security-level-using-c-.md). pour plus d’Visual Basic les constantes et les chaînes de script pour l’utilisation de la connexion moniker, consultez [définition du niveau de sécurité de processus par défaut à l’aide de VBScript](setting-the-default-process-security-level-using-vbscript.md).
 
 Le tableau suivant répertorie les paramètres d’emprunt d’identité, d’authentification et de service d’authentification DCOM par défaut requis par l’ordinateur cible (ordinateur B) dans une connexion à distance. Pour plus d’informations, consultez Sécurisation d’une connexion WMI à distance.
 
@@ -46,7 +46,7 @@ Le tableau suivant répertorie les paramètres d’emprunt d’identité, d’au
 
  
 
-Les connexions à distance WMI sont affectées par [le contrôle de compte d’utilisateur (UAC) et le](/previous-versions/aa905108(v=msdn.10)) [pare-feu Windows](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx). Pour plus d’informations, consultez [connexion à WMI à distance à partir de Vista](connecting-to-wmi-remotely-starting-with-vista.md) et [connexion via le pare-feu Windows](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista).
+les connexions à distance WMI sont affectées par [le contrôle de compte d’utilisateur (UAC)](/previous-versions/aa905108(v=msdn.10)) et [Windows pare-feu](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx). pour plus d’informations, consultez [connexion à WMI à distance à partir de Vista](connecting-to-wmi-remotely-starting-with-vista.md) et [connexion via Windows pare-feu](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista).
 
 N’oubliez pas que la connexion à WMI sur l’ordinateur local a le niveau d’authentification par défaut **PktPrivacy**.
 
@@ -89,7 +89,7 @@ La procédure suivante définit les autorisations d’activation à distance pou
 
 **Pour définir les autorisations d’activation à distance**
 
-1.  Connectez-vous à l’ordinateur distant à l’aide du contrôle WMI.
+1.  Connecter à l’ordinateur distant à l’aide du contrôle WMI.
 
     Pour plus d’informations sur le contrôle WMI, consultez Définition de la [sécurité de l’espace de noms avec le contrôle WMI](setting-namespace-security-with-the-wmi-control.md).
 

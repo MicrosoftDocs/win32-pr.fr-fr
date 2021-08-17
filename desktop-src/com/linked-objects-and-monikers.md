@@ -4,12 +4,12 @@ description: Les objets liés, comme les objets incorporés, s’appuient sur un
 ms.assetid: f72557b9-cd24-4d96-8144-94a5344ec2ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7c14f4cc74ee84fbf745e730d77203ebb4f43b0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4fb8107a5c98ae407cc8e6198d782f75b092110232ae23f41a42dcaefae31758
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736492"
 ---
 # <a name="linked-objects-and-monikers"></a>Objets liés et monikers
 
@@ -23,7 +23,7 @@ En implémentant l’interface [**IOleLink**](/windows/desktop/api/OleIdl/nn-ole
 
 Lorsqu’un document composé contenant un objet lié est enregistré, les données du lien sont enregistrées avec la source du lien, et non avec le conteneur. Seules les informations relatives à son nom et à son emplacement sont enregistrées avec le document composé. Ce comportement est différent de celui d’un objet incorporé, dont les données sont stockées avec celles de son conteneur.
 
-Les applications de conteneur peuvent fournir des informations sur leurs objets incorporés, de sorte que ces dernières, ou parties, puissent agir comme des sources de liaison. En implémentant la prise en charge de la liaison aux objets incorporés de votre conteneur, vous rendez les imbrications imbriquées possibles, ce qui évite à l’utilisateur d’avoir à repérer les originaux de chaque objet d’incorporation auquel un lien est souhaité. Par exemple, si un utilisateur souhaite incorporer une feuille de calcul Microsoft Excel dans Microsoft Word, et que la feuille de calcul contient une bitmap créée dans Paintbrush, l’utilisateur peut créer un lien vers une copie de l’image bitmap contenue dans la feuille de calcul plutôt que dans l’original.
+Les applications de conteneur peuvent fournir des informations sur leurs objets incorporés, de sorte que ces dernières, ou parties, puissent agir comme des sources de liaison. En implémentant la prise en charge de la liaison aux objets incorporés de votre conteneur, vous rendez les imbrications imbriquées possibles, ce qui évite à l’utilisateur d’avoir à repérer les originaux de chaque objet d’incorporation auquel un lien est souhaité. par exemple, si un utilisateur souhaite incorporer une feuille de calcul Microsoft Excel dans Microsoft Word, et que la feuille de calcul contient une bitmap créée dans Paintbrush, l’utilisateur peut effectuer un lien vers une copie de l’image bitmap contenue dans la feuille de calcul plutôt que dans l’original.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -38,9 +38,9 @@ Les applications de conteneur peuvent fournir des informations sur leurs objets 
 [Gestionnaires d’objets](object-handlers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

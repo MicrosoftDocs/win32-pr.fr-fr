@@ -3,7 +3,7 @@ title: Resume, commande
 description: La commande Resume continue à être lue ou enregistrée sur un appareil qui a été suspendu à l’aide de la commande pause.
 ms.assetid: 0a2cdd23-8c1d-4d9e-9b63-3fdcbb13e3a2
 keywords:
-- commande Resume Windows multimédia
+- commande resume Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87f01fd96e2b25e191608c7c6abf70bfd842158d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c7e4a728e3ca89e2b4ddc21809830d5af3be9a2b04e004f99d5a792a9be5da01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801891"
 ---
 # <a name="resume-command"></a>Resume, commande
 
