@@ -4,12 +4,12 @@ description: Traditionnellement, le fait de disposer d’un système monolithiqu
 ms.assetid: 6055bcef-e34c-4f2d-92b9-9aec75cf3cec
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82cd1ea3301d68e77562a63c542bc075692e5192
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 859b2a0a83e7f12bd7caf372e60acf2736a114a0cdf46893830032a47a548019
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924170"
 ---
 # <a name="the-model-for-distributed-systems"></a>Modèle pour les systèmes distribués
 
@@ -27,9 +27,9 @@ Les systèmes client-serveur traditionnels ont deux nœuds avec des rôles et de
 
 Le système distribué ne dispose peut-être pas de clients et de serveurs dédiés pour chaque échange de paquets particulier, mais il est important de se souvenir qu’il existe un appelant, (ou initiateur, qui est souvent appelé client). Il y a également le destinataire de l’appel (souvent appelé serveur). Il n’est pas nécessaire d’avoir des échanges de paquets bidirectionnels dans le format de demande-réponse d’un système distribué. souvent, les messages ne sont envoyés qu’une seule fois.
 
- 
+ 
 
- 
+ 
 
 
 

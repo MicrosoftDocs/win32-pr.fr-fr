@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c8a571f97fcf5abc5ff9a69ff476d48adfd8015c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d978536a16507118ffd400359ce8f360b16d24140dc588913c3ad69fd7fb661d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118765065"
 ---
 # <a name="jet_lsequals-method-jet_ls"></a>JET_LS. Equals, méthode (JET_LS)
 
@@ -57,7 +57,7 @@ public bool Equals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - autre  
+  - Autres  
     Type : [Microsoft.ISAM.esent.Interop.JET_LS](./jet-ls-structure.md)  
     
     Instance de à comparer à cette instance.

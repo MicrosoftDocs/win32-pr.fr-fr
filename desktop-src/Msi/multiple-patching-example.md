@@ -15,7 +15,7 @@ ms.locfileid: "118943366"
 
 l’exemple suivant montre comment Windows Installer 3,0 et versions ultérieures peuvent être utilisés pour appliquer des correctifs dans l’ordre dans lequel ils sont créés.
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 Dans cet exemple, il existe trois correctifs, QFE1, QFE2 et ServicePack1, et chacun d’eux a une table [MsiPatchSequence](msipatchsequence-table.md) . Ces correctifs ont été créés pour être appliqués à la version 1,0 de l’application.
 

@@ -1,6 +1,6 @@
 ---
 title: Interface ID3D12DeviceDownlevel
-description: Fournit une requête de statistiques de mémoire spécifique à Windows 7.
+description: fournit une requête de statistiques de mémoire spécifique à la Windows 7.
 keywords:
 - Interface ID3D12DeviceDownlevel
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/29/2019
-ms.openlocfilehash: 401cbd0045211ef51e3ef6b06042262964ae2ec5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8cd9b39e865377734fca3d0791b89219d611f57f456a85a8f9b12e345aba9e99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106525854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124077"
 ---
 # <a name="id3d12devicedownlevel-interface"></a>Interface ID3D12DeviceDownlevel
 
-Cette interface est accessible via **QueryInterface** sur un [appareil Direct3D 12](/windows/desktop/api/d3d12/nn-d3d12-id3d12device) lors de l’utilisation de [Direct3D 12 sur Windows 7](https://devblogs.microsoft.com/directx/porting-directx-12-games-to-windows-7/). Il fournit une requête de statistiques de mémoire spécifique à Windows 7.
+cette interface est accessible via **QueryInterface** sur un [appareil direct3d 12](/windows/desktop/api/d3d12/nn-d3d12-id3d12device) lors de l’utilisation de [direct3d 12 sur Windows 7](https://devblogs.microsoft.com/directx/porting-directx-12-games-to-windows-7/). il fournit une requête de statistiques de mémoire spécifique à la Windows 7.
 
 ### <a name="methods"></a>Méthodes
 
@@ -31,7 +31,7 @@ L’interface **ID3D12DeviceDownlevel** possède ces méthodes.
 
 | Méthode | Description |
 |:-------|:------------|
-| [**QueryVideoMemoryInfo**](id3d12devicedownlevel-queryvideomemoryinfo.md) | Fournit des statistiques de mémoire sur Windows 7. |
+| [**QueryVideoMemoryInfo**](id3d12devicedownlevel-queryvideomemoryinfo.md) | fournit des statistiques de mémoire sur Windows 7. |
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -42,5 +42,5 @@ L’interface **ID3D12DeviceDownlevel** possède ces méthodes.
 
 ## <a name="see-also"></a>Voir aussi
 * [Interfaces Direct3D 12 sur Windows 7](direct3d-12on7-interfaces.md)
-* [Informations de référence sur Direct3D 12 sur Windows 7 (d3d12downlevel. h)](direct3d-12on7-reference.md)
+* [informations de référence sur Direct3D 12 sur Windows 7 (d3d12downlevel. h)](direct3d-12on7-reference.md)
 * [Direct3D 12 sur Windows 7](https://devblogs.microsoft.com/directx/porting-directx-12-games-to-windows-7/)

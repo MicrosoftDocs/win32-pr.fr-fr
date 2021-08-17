@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e412ebfe97035c4847391a7cc9166cf512897bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 387bf2e42475d27f5440afb3fa0b945c910b3ac3bad610495936cd3a4a900bbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882324"
 ---
 # <a name="systemmonitorloadsettings-method"></a>Méthode SystemMonitor. LoadSettings
 
@@ -53,7 +53,7 @@ Chaîne HTML qui spécifie les compteurs à ajouter au moniteur système.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour enregistrer les compteurs actuels dans le moniteur système dans un fichier HTML, appelez la méthode [**systemmonitor. SaveAs**](systemmonitor-saveas.md) .
 
@@ -63,8 +63,8 @@ Pour enregistrer les compteurs actuels dans le moniteur système dans un fichier
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon. ocx</dt> </dl> |
 
 

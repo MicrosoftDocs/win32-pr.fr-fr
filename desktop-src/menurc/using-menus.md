@@ -23,12 +23,12 @@ keywords:
 - menus, polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d216b5fe5e6c25a98b5bdf3abe9d55b4bb0b34f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 61f3a71a580a323fa2058613f8c9a14d9c2782bd3ba139e5d182750e5047fe74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103726749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971928"
 ---
 # <a name="using-menus"></a>Utilisation des menus
 
@@ -458,7 +458,7 @@ Les applications écrites pour des versions antérieures du système peuvent con
 
 Lorsque vous définissez l’indicateur de type bitmap **miim \_** ou **MF \_** pour un élément de menu, vous devez également spécifier un handle vers le bitmap que le système doit afficher pour l’élément de menu. Vous pouvez fournir la bitmap en tant que ressource bitmap ou créer l’image bitmap au moment de l’exécution. Si vous utilisez une ressource bitmap, vous pouvez utiliser la fonction [**LoadBitmap**](/windows/desktop/api/winuser/nf-winuser-loadbitmapa) pour charger la bitmap et obtenir son handle.
 
-Pour créer l’image bitmap au moment de l’exécution, utilisez les fonctions Windows Graphics Device Interface (GDI). GDI offre plusieurs moyens de créer une bitmap au moment de l’exécution, mais les développeurs utilisent généralement la méthode suivante :
+pour créer l’image bitmap au moment de l’exécution, utilisez les fonctions Windows Graphics Device Interface (GDI). GDI offre plusieurs moyens de créer une bitmap au moment de l’exécution, mais les développeurs utilisent généralement la méthode suivante :
 
 1.  Utilisez la fonction [**CreateCompatibleDC**](/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc) pour créer un contexte de périphérique compatible avec le contexte de périphérique utilisé par la fenêtre principale de l’application.
 2.  Utilisez la fonction [**CreateCompatibleBitmap**](/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap) pour créer une bitmap compatible avec la fenêtre principale de l’application ou utilisez la fonction [**CreateBitmap**](/windows/desktop/api/wingdi/nf-wingdi-createbitmap) pour créer une image bitmap monochrome.
@@ -995,7 +995,7 @@ Les constantes suivantes correspondent aux valeurs de retour possibles du messag
 
 
 
- 
+ 
 
 ### <a name="setting-fonts-for-menu-item-text-strings"></a>Définition des polices pour les chaînes de texte Menu-Item
 
@@ -1553,7 +1553,7 @@ Au lieu d’utiliser une ressource bitmap, vous pouvez créer une bitmap au mome
     > [!Note]  
     > Vous pouvez également utiliser la fonction [**CreateBitmap**](/windows/desktop/api/wingdi/nf-wingdi-createbitmap) pour créer une image bitmap monochrome.
 
-     
+     
 
 3.  Utilisez la fonction [**SelectObject**](/windows/desktop/api/wingdi/nf-wingdi-selectobject) pour sélectionner la bitmap dans le contexte de périphérique compatible.
 4.  Utilisez les fonctions de dessin GDI, telles que [**ellipse**](/windows/desktop/api/wingdi/nf-wingdi-ellipse) et [**LineTo**](/windows/desktop/api/wingdi/nf-wingdi-lineto), pour dessiner une image dans la bitmap, ou utilisez des fonctions telles que [**BitBlt**](/windows/desktop/api/wingdi/nf-wingdi-bitblt) et [**StretchBlt**](/windows/desktop/api/wingdi/nf-wingdi-stretchblt) pour copier une image dans la bitmap.
@@ -2206,6 +2206,6 @@ VOID WINAPI OnDestroy(HWND hwnd)
 
 
 
- 
+ 
 
- 
+ 

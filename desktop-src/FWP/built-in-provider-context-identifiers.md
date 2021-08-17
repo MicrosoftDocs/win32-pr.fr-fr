@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 942ed1d21d2acd46f0dc6b303049e0936e3cf63d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c0247b58b38de55eb67479c68e0c0955fb9d2a56a793215330366ca8ccfbe4e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951328"
 ---
 # <a name="built-in-provider-context-identifiers"></a>Identificateurs de contexte fournisseur intégrés
 
-Les identificateurs des contextes de fournisseur intégrés à la plateforme de filtrage Windows (WFP) sont chacun représentés par un GUID. Ces contextes de fournisseur intégrés identifient les stratégies par défaut à utiliser avec les sockets sécurisés.
+les identificateurs des contextes de fournisseur intégrés à la plateforme de filtrage Windows (WFP) sont chacun représentés par un GUID. Ces contextes de fournisseur intégrés identifient les stratégies par défaut à utiliser avec les sockets sécurisés.
 
 Ces identificateurs sont définis comme suit.
 
@@ -54,8 +54,8 @@ Stratégie par défaut du mode rapide IPsec (Internet Protocol Security) pour le
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Fwpmu. h</dt> </dl> |
 
 

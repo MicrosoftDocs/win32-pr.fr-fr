@@ -1,5 +1,5 @@
 ---
-description: Avertit le pilote lorsque Microsoft DirectDraw bascule vers ou à partir d’une surface Windows Graphics Device Interface (GDI).
+description: avertit le pilote lorsque Microsoft DirectDraw bascule vers ou à partir d’une surface Windows Graphics Device Interface (GDI).
 ms.assetid: e79be33a-24bc-477b-bc67-395fff74309c
 title: NtGdiDdFlipToGDISurface, fonction (Ntgdi. h)
 ms.topic: reference
@@ -16,18 +16,18 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 7e233bddf72c79507eab1fcefbf3de66460d228e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8fe1966958b21441f76eb392f2616b22014b6810cb5384ca5a1f79b4ddcb2a9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956388"
 ---
 # <a name="ntgdiddfliptogdisurface-function"></a>NtGdiDdFlipToGDISurface fonction)
 
 \[Cette fonction est sujette à modification avec chaque révision du système d’exploitation. Utilisez à la place DirectDraw et Microsoft Direct3DAPIs ; Ces API isolent les applications de ces modifications du système d’exploitation et masquent de nombreuses autres difficultés liées à l’interaction directe avec les pilotes d’affichage.\]
 
-Avertit le pilote lorsque Microsoft DirectDraw bascule vers ou à partir d’une surface Windows Graphics Device Interface (GDI).
+avertit le pilote lorsque Microsoft DirectDraw bascule vers ou à partir d’une surface Windows Graphics Device Interface (GDI).
 
 ## <a name="syntax"></a>Syntaxe
 

@@ -4,12 +4,12 @@ description: IAgentCommandsEx SetFontName
 ms.assetid: c676ceb6-c098-4ac0-9103-ece469317ad6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e9a4b76a58fc3651c02bedc43f8d372f607c2df
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 511425df848749791d2803a484e00da8e838cfa191eade05c578fdad4b3ca6cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105197"
 ---
 # <a name="iagentcommandsexsetfontname"></a>IAgentCommandsEx::SetFontName
 
@@ -43,9 +43,9 @@ Cette propriété s’applique uniquement à l’utilisation du caractère par v
 [**IAgentCommandsEx :: GetFontName**](iagentcommandsex--getfontname.md), [**IAgentCommandsEx :: GetFontSize**](iagentcommandsex--getfontsize.md), [**IAgentCommandsEx :: SetFontSize**](iagentcommandsex--setfontsize.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,38 +1,38 @@
 ---
-title: Hébergement du contrôle du lecteur Windows Media dans une application Windows
-description: Hébergement du contrôle du lecteur Windows Media dans une application Windows
+title: hébergement du contrôle Lecteur Windows Media dans une Application Windows
+description: hébergement du contrôle Lecteur Windows Media dans une Application Windows
 ms.assetid: 8da04160-b9db-4082-aeff-b0107189e33e
 keywords:
-- Lecteur Windows Media, incorporer un contrôle ActiveX
-- Modèle objet du lecteur Windows Media, incorporer un contrôle ActiveX
-- modèle objet, incorporer un contrôle ActiveX
-- Windows Media Player Mobile, incorporer un contrôle ActiveX
-- Contrôle ActiveX du lecteur Windows Media, incorporation
-- Windows Media Player Mobile, contrôle ActiveX, incorporation
-- Contrôle ActiveX, incorporation
-- Windows Media Player, programmes Windows
-- Windows Media Player Object Model, programmes Windows
-- modèle objet, programmes Windows
-- Windows Media Player Mobile, programmes Windows
-- Windows Media Player ActiveX Control, programmes Windows
-- Windows Media Player Mobile contrôle ActiveX, programmes Windows
-- Contrôle ActiveX, programmes Windows
-- Incorporation de programmes basés sur Windows
-- incorporation, programmes Windows
+- Lecteur Windows Media, incorporation ActiveX contrôle
+- modèle objet Lecteur Windows Media, incorporation ActiveX contrôle
+- modèle objet, incorporation ActiveX contrôle
+- Lecteur Windows Media Mobile, incorporation ActiveX contrôle
+- contrôle de ActiveX Lecteur Windows Media, incorporation
+- Lecteur Windows Media contrôle de ActiveX Mobile, incorporation
+- contrôle de ActiveX, incorporation
+- Lecteur Windows Media, programmes basés sur Windows
+- Lecteur Windows Media modèle objet, programmes basés sur des Windows
+- modèle objet, programmes basés sur des Windows
+- Lecteur Windows Media programmes mobiles, à base de Windows
+- Lecteur Windows Media contrôle ActiveX, programmes basés sur Windows
+- Lecteur Windows Media contrôle de ActiveX Mobile, programmes basés sur des Windows
+- contrôle de ActiveX, programmes basés sur Windows
+- incorporation de programmes basés sur Windows
+- incorporation, programmes basés sur des Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2190f0d0076fe3253c39f583ae7d2c197f8cb11
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9f3c2b4d84194376bd16842f0a9567c83fce2aa616ed4bfef4f20f7255068e8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748276"
 ---
-# <a name="hosting-the-windows-media-player-control-in-a-windows-application"></a>Hébergement du contrôle du lecteur Windows Media dans une application Windows
+# <a name="hosting-the-windows-media-player-control-in-a-windows-application"></a>hébergement du contrôle Lecteur Windows Media dans une Application Windows
 
-Pour utiliser le contrôle ActiveX du lecteur Windows Media (y compris l’interface utilisateur) dans un programme Windows, vous devez fournir un conteneur de contrôles ActiveX. ATL fournit la classe **CAxWindow** pour fournir les fonctionnalités de la fenêtre hôte ActiveX.
+pour utiliser le contrôle ActiveX Lecteur Windows Media (y compris l’interface utilisateur) dans un programme basé sur Windows, vous devez fournir un conteneur de contrôle ActiveX. ATL fournit la classe **CAxWindow** pour fournir ActiveX fonctionnalité de fenêtre hôte.
 
-Pour héberger le contrôle du lecteur Windows Media à l’aide de la classe **CAxWindow** , procédez comme suit :
+pour héberger le contrôle Lecteur Windows Media à l’aide de la classe **CAxWindow** , procédez comme suit :
 
 1.  Incluez les en-têtes suivants :
     ```C++
@@ -54,7 +54,7 @@ Pour héberger le contrôle du lecteur Windows Media à l’aide de la classe **
 
     
 
-3.  Lorsque votre fenêtre d’application est créée, appelez **AtlAxWinInit**, qui est requis lors de l’utilisation de la fenêtre hôte ActiveX ATL.
+3.  lorsque votre fenêtre d’application est créée, appelez **AtlAxWinInit**, qui est requis lors de l’utilisation de la fenêtre hôte ATL ActiveX.
     ```C++
     AtlAxWinInit();
     
@@ -88,7 +88,7 @@ Pour héberger le contrôle du lecteur Windows Media à l’aide de la classe **
 
     
 
-7.  Créez le contrôle du lecteur Windows Media dans la fenêtre hôte à l’aide de l’ID de classe :
+7.  créez le contrôle Lecteur Windows Media dans la fenêtre hôte à l’aide de l’ID de classe :
     ```C++
     hr = spHost->CreateControl(CComBSTR(_T("{6BF52A52-394A-11d3-B153-00C04F79FAA6}")), m_wndView, 0);
     
@@ -106,11 +106,11 @@ Pour héberger le contrôle du lecteur Windows Media à l’aide de la classe **
 
 Lorsque vous écrivez votre propre code, veillez à vérifier les erreurs dans chaque code de retour **HRESULT** .
 
-Pour obtenir un exemple complet illustrant comment héberger le contrôle Windows Media Player ActiveX à l’aide de la classe **CAxWindow** , consultez l’exemple WMPHost.
+pour obtenir un exemple complet qui illustre comment héberger le contrôle Lecteur Windows Media ActiveX à l’aide de la classe **CAxWindow** , consultez l’exemple WMPHost.
 
-## <a name="hosting-the-windows-media-player-10-mobile-control-in-windows-ce"></a>Hébergement du contrôle mobile du lecteur Windows Media 10 dans Windows CE
+## <a name="hosting-the-windows-media-player-10-mobile-control-in-windows-ce"></a>hébergement du contrôle Mobile Lecteur Windows Media 10 dans Windows CE
 
-Microsoft eMbedded Visual C++ 4,0 et le kit de développement logiciel (SDK) Pocket PC 2003 ou le kit de développement logiciel (SDK) Smartphone 2003 doivent être installés lors du développement d’applications basées sur Windows CE qui hébergent un contrôle mobile Windows Media Player 10. En outre, contrairement à ATL pour Windows, ATL pour Windows CE ne prend pas en charge le modèle de thread cloisonné. Par conséquent, vous devez rechercher toutes les instances de cloisonnement Threading dans votre projet ATL et les modifier pour utiliser le Threading libre.
+Microsoft embedded Visual C++ 4,0 et le kit de développement logiciel (sdk) Pocket PC 2003 ou le kit de développement logiciel (sdk) Smartphone 2003 doivent être installés lors du développement d’applications basées sur Windows CE qui hébergent un contrôle Mobile Lecteur Windows Media 10. en outre, contrairement à atl pour Windows, atl pour Windows CE ne prend pas en charge le modèle de thread cloisonné. Par conséquent, vous devez rechercher toutes les instances de cloisonnement Threading dans votre projet ATL et les modifier pour utiliser le Threading libre.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -119,12 +119,12 @@ Microsoft eMbedded Visual C++ 4,0 et le kit de développement logiciel (SDK) Poc
 [**Exemples**](samples.md)
 </dt> <dt>
 
-[**Utilisation du contrôle du lecteur Windows Media dans un programme C++**](using-the-windows-media-player-control-in-a-c---program.md)
+[**utilisation du contrôle Lecteur Windows Media dans un programme C++**](using-the-windows-media-player-control-in-a-c---program.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -26,16 +26,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e311685bf5ef436be11d4593523aceee73b955b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07fd683ad6f2f0d2a9afd88b46a7786131e15c370c9046945ad3e9594a533391
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119106996"
 ---
 # <a name="systemparametersenableadvanced-property"></a>Propriété SystemParameters. EnableAdvanced
 
-Obtient ou définit une valeur indiquant si le moteur de base de données accepte ou rejette les modifications apportées à un sous-ensemble des paramètres système. Ce paramètre est utilisé conjointement avec la [configuration](./systemparameters.configuration-property.md) pour empêcher la définition de certains paramètres système à partir des valeurs par défaut de la configuration sélectionnée. Pris en charge sur Windows Vista et les autres. Ignoré sur Windows XP et Windows Server 2003.
+Obtient ou définit une valeur indiquant si le moteur de base de données accepte ou rejette les modifications apportées à un sous-ensemble des paramètres système. Ce paramètre est utilisé conjointement avec la [configuration](./systemparameters.configuration-property.md) pour empêcher la définition de certains paramètres système à partir des valeurs par défaut de la configuration sélectionnée. pris en charge sur Windows Vista et les autres. ignoré sur Windows XP et Windows Server 2003.
 
 **Espace de noms :**  [Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly :**  Microsoft. ISAM. esent. Interop (en Microsoft.Isam.Esent.Interop.dll)

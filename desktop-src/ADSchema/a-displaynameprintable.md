@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eff05c2279f026e3a94b707b522509b4801ff27
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1354cb59920460d83ad63b0e30498332dcce03b24a3a17db842cf87edf18119d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961698"
 ---
 # <a name="display-name-printable-attribute"></a>Display-Name-Printable (attribut)
 
@@ -45,7 +45,7 @@ Nom complet imprimable d’un objet. Le nom d’affichage imprimable est génér
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

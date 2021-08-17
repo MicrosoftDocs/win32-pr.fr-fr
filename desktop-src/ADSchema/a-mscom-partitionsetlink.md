@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52e2d6fa4046ac95d0fcbde6dea999e1ef2968ec
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ddc17fb3e1f6ff80b5834d1d96f2758bd56bf3a6941890cd3f184d7229ece1c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106512843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961108"
 ---
 # <a name="ms-com-partitionsetlink-attribute"></a>attribut ms-COM-PartitionSetLink
 
@@ -44,7 +44,7 @@ Lien utilisé pour associer une partition COM+ à un objet COM+ PartitionSet.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

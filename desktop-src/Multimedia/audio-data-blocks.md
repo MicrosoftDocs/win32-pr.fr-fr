@@ -10,12 +10,12 @@ keywords:
 - WAVEHDR, structure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8a81a5a29ec9718e7c11306b6bafc1aa20369e5
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 08a4a0c7236c52854911b51677cf792fa504371fb18900ac947e8fdf1391bd69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941753"
 ---
 # <a name="audio-data-blocks"></a>Blocs de données audio
 
@@ -34,7 +34,7 @@ Avant d’utiliser l’une de ces fonctions pour passer un bloc de données à u
 
 
 
- 
+ 
 
 Avant de passer un bloc de données audio à un pilote de périphérique, vous devez préparer le bloc de données en le transmettant à [**waveInPrepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveinprepareheader) ou [**waveOutPrepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutprepareheader). Lorsque le pilote de périphérique est terminé avec le bloc de données et le retourne, vous devez nettoyer cette préparation en passant le bloc de données à [**waveInUnprepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveinunprepareheader) ou [**waveOutUnprepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutunprepareheader) avant que toute mémoire allouée puisse être libérée.
 
@@ -58,6 +58,6 @@ Utilisation d’une fonction de rappel pour traiter des messages de pilote
 -   [Utilisation d’une fenêtre ou d’un thread pour traiter des messages de pilote](using-a-window-or-thread-to-process-driver-messages.md)
 -   [Gestion des blocs de données par interrogation](managing-data-blocks-by-polling.md)
 
- 
+ 
 
- 
+ 

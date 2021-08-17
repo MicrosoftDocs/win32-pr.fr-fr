@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b5783dd5e662aed33722a1c587bfcdc3cab76c78
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6046beae61aebaf33ea5eedb6ef2ec643f2edb39dbbedc61372085be2220068b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900349"
 ---
 # <a name="signedcodedescription-property"></a>Propriété SignedCode. Description
 
@@ -39,7 +39,7 @@ SignedCode.Description As String
 
 Description du fichier exécutable signé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La description est le texte qui apparaît dans la boîte de dialogue vérification Authenticode. Le texte doit décrire le fichier exécutable signé. Si cette propriété a la **valeur null**, la boîte de dialogue affiche le nom du fichier exécutable.
 
@@ -49,7 +49,7 @@ La description est le texte qui apparaît dans la boîte de dialogue vérificati
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

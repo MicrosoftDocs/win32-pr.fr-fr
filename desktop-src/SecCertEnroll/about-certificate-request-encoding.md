@@ -4,12 +4,12 @@ ms.assetid: 0b9fa1bc-b67e-4b50-abd5-cbc3663ff219
 title: Encodage de demande de certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cd9dfedede4c7b10d4968242b1d27ad11e2b6f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd6bb65b496264fcd1f9667416c78d5d8cf246f1c9aa4cf736990a1f61669f19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118904848"
 ---
 # <a name="certificate-request-encoding"></a>Encodage de demande de certificat
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 54d2463d38ea9d7f01037e932531465dd2d06a70
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69528e14496d6055605532411b558085ac963c911022a9a734d7d4cb9129004e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896598"
 ---
 # <a name="utilitiesbinarystringtobytearray-method"></a>Méthode Utilities. BinaryStringToByteArray
 
@@ -58,7 +58,7 @@ Tableau qui contient le résultat de la conversion.
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

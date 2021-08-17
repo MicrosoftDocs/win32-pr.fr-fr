@@ -1,19 +1,19 @@
 ---
-description: La plate-forme capteur et emplacement Windows définit des constantes pour les événements de pilote. Les manfuactureres de capteur peuvent également définir leurs propres constantes.
+description: le capteur de Windows et la plateforme d’emplacement définissent des constantes pour les événements de pilote. Les manfuactureres de capteur peuvent également définir leurs propres constantes.
 ms.assetid: ca61c912-bce5-4e41-ab48-40615d5b93ba
 title: Constantes d’événement (sensors. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc9fb3ced92c1fe263538f2ce27c3fc65fdd7676
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1b16be770777c8e679e74123ce1c40c385893afee11ff3792dd58df007ae4c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890227"
 ---
 # <a name="event-constants-sensorsh"></a>Constantes d’événement (sensors. h)
 
-La plate-forme capteur et emplacement Windows définit des constantes pour les événements de pilote. Les manfuactureres de capteur peuvent également définir leurs propres constantes.
+le capteur de Windows et la plateforme d’emplacement définissent des constantes pour les événements de pilote. Les manfuactureres de capteur peuvent également définir leurs propres constantes.
 
 **Types d’événements de capteur**
 
@@ -63,7 +63,7 @@ La plateforme de capteur réserve ce GUID pour une utilisation ultérieure.
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                            |
 | En-tête<br/>                   | <dl> <dt>Capteurs. h</dt> </dl> |
 

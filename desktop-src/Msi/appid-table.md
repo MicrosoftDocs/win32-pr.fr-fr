@@ -4,12 +4,12 @@ ms.assetid: d76ed6df-944b-4996-bf07-e42ceb7a1b69
 title: Table AppId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07fa202907c094d8c12f73d838f5ad1d6b942125
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e8452635cd7c167d6a8618629eaec2f6f6c1aa2e72e0b3628a7d4542a9e7160
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066269"
 ---
 # <a name="appid-table"></a>Table AppId
 
@@ -82,18 +82,18 @@ Cette colonne contient la valeur de DllSurrogate qui sera écrite sous HKCR \\ A
 <span id="ActivateAtStorage"></span><span id="activateatstorage"></span><span id="ACTIVATEATSTORAGE"></span>ActivateAtStorage
 </dt> <dd>
 
-Une valeur entière différente de zéro dans ce champ amène Windows Installer à écrire HKCR \\ AppID \\ { <appid> } "ActivateAtStorage" = "Y" dans le registre. Si le champ est laissé vide ou a une valeur égale à zéro, aucune valeur ne sera écrite.
+une valeur entière différente de zéro dans ce champ amène Windows Installer à écrire HKCR \\ AppID \\ { <appid> } "ActivateAtStorage" = "Y" dans le registre. Si le champ est laissé vide ou a une valeur égale à zéro, aucune valeur ne sera écrite.
 
 </dd> <dt>
 
 <span id="RunAsInteractiveUser"></span><span id="runasinteractiveuser"></span><span id="RUNASINTERACTIVEUSER"></span>RunAsInteractiveUser
 </dt> <dd>
 
-Une valeur entière différente de zéro dans ce champ amène Windows Installer à écrire HKCR \\ AppID \\ {AppID>} "RunAs" = "interactive user" dans le registre. Si le champ est laissé vide ou a une valeur égale à zéro, aucune valeur ne sera écrite.
+une valeur entière différente de zéro dans ce champ amène Windows Installer à écrire HKCR \\ AppID \\ {appid>} "RunAs" = "Interactive User" dans le registre. Si le champ est laissé vide ou a une valeur égale à zéro, aucune valeur ne sera écrite.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette table est utilisée par l' [action RegisterClassInfo](registerclassinfo-action.md) et l' [action UnregisterClassInfo](unregisterclassinfo-action.md).
 

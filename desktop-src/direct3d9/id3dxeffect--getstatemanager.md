@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 293b642dfecfa4cc14426addf2567d43dffa7233
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6700447485d83f2610149b809065ab02140a2e6cf068508b6571d5132844fb0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106527095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119121640"
 ---
 # <a name="id3dxeffectgetstatemanager-method"></a>ID3DXEffect :: GetStateManager, méthode
 
@@ -55,7 +55,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le [**ID3DXEffectStateManager**](id3dxeffectstatemanager.md) est une interface implémentée par l’utilisateur qui fournit des rappels dans une application pour définir l’état de l’appareil à partir d’un effet.
 

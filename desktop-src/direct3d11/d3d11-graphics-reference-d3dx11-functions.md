@@ -6,19 +6,19 @@ keywords:
 - fonctions, DirectX 11 D3DX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b76c1764f464461b4800a9161ac37dcff8c539a
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a6b4c98dda5f85f03af1add120d22b95fa620d4a45e8e4db80d3b607f2c3e70e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119126053"
 ---
 # <a name="d3dx-functions-direct3d-11-graphics"></a>Fonctions D3DX (graphiques Direct3D 11)
 
 Cette section contient des informations sur les fonctions D3DX 11.
 
 > [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+> la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 
  
 
@@ -43,7 +43,7 @@ Cette section contient des informations sur les fonctions D3DX 11.
 <td><a href="d3dx11compilefromfile.md"><strong>D3DX11CompileFromFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -56,7 +56,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons de compiler hors con
 <td><a href="d3dx11compilefrommemory.md"><strong>D3DX11CompileFromMemory</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -69,7 +69,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons de compiler hors con
 <td><a href="d3dx11compilefromresource.md"><strong>D3DX11CompileFromResource</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -82,7 +82,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser des <a 
 <td><a href="d3dx11computenormalmap.md"><strong>D3DX11ComputeNormalMap</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -95,7 +95,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser la bibl
 <td><a href="d3dx11createasynccompilerprocessor.md"><strong>D3DX11CreateAsyncCompilerProcessor</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Consultez la section Notes.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Consultez la section Notes.
 </blockquote>
 <br/> Créer un processeur de données asynchrones pour un nuanceur.<br/></td>
 </tr>
@@ -103,7 +103,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 <td><a href="d3dx11createasyncfileloader.md"><strong>D3DX11CreateAsyncFileLoader</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Consultez la section Notes.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Consultez la section Notes.
 </blockquote>
 <br/> Créez un chargeur de fichiers asynchrones.<br/></td>
 </tr>
@@ -111,7 +111,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 <td><a href="d3dx11createasyncmemoryloader.md"><strong>D3DX11CreateAsyncMemoryLoader</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Consultez la section Notes.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Consultez la section Notes.
 </blockquote>
 <br/> Créez un chargeur de mémoire asynchrone.<br/></td>
 </tr>
@@ -119,7 +119,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 <td><a href="d3dx11createasyncresourceloader.md"><strong>D3DX11CreateAsyncResourceLoader</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Consultez la section Notes.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Consultez la section Notes.
 </blockquote>
 <br/> Créez un chargeur de ressources asynchrones.<br/></td>
 </tr>
@@ -127,7 +127,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 <td><a href="d3dx11createasyncshaderpreprocessprocessor.md"><strong>D3DX11CreateAsyncShaderPreprocessProcessor</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Consultez la section Notes.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Consultez la section Notes.
 </blockquote>
 <br/> Créer un processeur de données pour un nuanceur de manière asynchrone.<br/></td>
 </tr>
@@ -135,7 +135,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 <td><a href="d3dx11createasynctextureinfoprocessor.md"><strong>D3DX11CreateAsyncTextureInfoProcessor</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Consultez la section Notes.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Consultez la section Notes.
 </blockquote>
 <br/> Créez un processeur de données à utiliser avec une <a href="id3dx11threadpump.md"><strong>pompe de thread</strong></a>.<br/></td>
 </tr>
@@ -143,7 +143,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 <td><a href="d3dx11createasynctextureprocessor.md"><strong>D3DX11CreateAsyncTextureProcessor</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Consultez la section Notes.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Consultez la section Notes.
 </blockquote>
 <br/> Créez un processeur de données à utiliser avec une <a href="id3dx11threadpump.md"><strong>pompe de thread</strong></a>.<br/></td>
 </tr>
@@ -151,7 +151,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 <td><a href="d3dx11createasyncshaderresourceviewprocessor.md"><strong>D3DX11CreateAsyncShaderResourceViewProcessor</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Consultez la section Notes.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Consultez la section Notes.
 </blockquote>
 <br/> Créez un processeur de données qui chargera une ressource, puis créez une vue de ressource de nuanceur pour celle-ci. Les processeurs de données sont un composant de la fonctionnalité de chargement de données asynchrone dans D3DX11 qui utilise des <a href="id3dx11threadpump.md"><strong>pompes de thread</strong></a>.<br/></td>
 </tr>
@@ -159,7 +159,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 <td><a href="d3dx11createshaderresourceviewfromfile.md"><strong>D3DX11CreateShaderResourceViewFromFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -176,7 +176,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser les él
 <td><a href="d3dx11createshaderresourceviewfrommemory.md"><strong>D3DX11CreateShaderResourceViewFromMemory</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -193,7 +193,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser les él
 <td><a href="d3dx11createshaderresourceviewfromresource.md"><strong>D3DX11CreateShaderResourceViewFromResource</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -210,7 +210,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser les <a 
 <td><a href="d3dx11createtexturefromfile.md"><strong>D3DX11CreateTextureFromFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -227,7 +227,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser les él
 <td><a href="d3dx11createtexturefrommemory.md"><strong>D3DX11CreateTextureFromMemory</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -244,7 +244,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser les él
 <td><a href="d3dx11createtexturefromresource.md"><strong>D3DX11CreateTextureFromResource</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -261,7 +261,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser les <a 
 <td><a href="d3dx11createthreadpump.md"><strong>D3DX11CreateThreadPump</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Consultez la section Notes.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Consultez la section Notes.
 </blockquote>
 <br/> Créer une pompe de thread.<br/></td>
 </tr>
@@ -269,7 +269,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 <td><a href="d3dx11filtertexture.md"><strong>D3DX11FilterTexture</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -282,7 +282,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser la bibl
 <td><a href="d3dx11getimageinfofromfile.md"><strong>D3DX11GetImageInfoFromFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -295,7 +295,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser la bibl
 <td><a href="d3dx11getimageinfofrommemory.md"><strong>D3DX11GetImageInfoFromMemory</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -308,7 +308,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser la bibl
 <td><a href="d3dx11getimageinfofromresource.md"><strong>D3DX11GetImageInfoFromResource</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -321,7 +321,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser les <a 
 <td><a href="d3dx11loadtexturefromtexture.md"><strong>D3DX11LoadTextureFromTexture</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -334,7 +334,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser la bibl
 <td><a href="d3dx11preprocessshaderfromfile.md"><strong>D3DX11PreprocessShaderFromFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -347,7 +347,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser l’API
 <td><a href="d3dx11preprocessshaderfrommemory.md"><strong>D3DX11PreprocessShaderFromMemory</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -360,7 +360,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser l’API
 <td><a href="d3dx11preprocessshaderfromresource.md"><strong>D3DX11PreprocessShaderFromResource</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -373,7 +373,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser l’API
 <td><a href="d3dx11savetexturetofile.md"><strong>D3DX11SaveTextureToFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -386,7 +386,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser la bibl
 <td><a href="d3dx11savetexturetomemory.md"><strong>D3DX11SaveTextureToMemory</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -399,7 +399,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser la bibl
 <td><a href="d3dx11shprojectcubemap.md"><strong>D3DX11SHProjectCubeMap</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>
@@ -412,7 +412,7 @@ Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser la bibl
 <td><a href="d3dx11unsetalldeviceobjects.md"><strong>D3DX11UnsetAllDeviceObjects</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/>
 <blockquote>

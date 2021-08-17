@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 8085bae0d00ebe830efff420744f6b7e9b4bf23c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 25c21e5f301d88f3790900c70873d9485161f5041d28bb1a30f3bb85082a9bd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069899"
 ---
 # <a name="process-class"></a>Process, classe
 
@@ -38,7 +38,7 @@ class Process : MSNT_SystemTrace
 
 La classe **Process** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Pour activer les événements de processus dans une session de journalisation du noyau NT, spécifiez l’indicateur de **\_ \_ \_ processus indicateur de suivi d’événement** dans le membre **EnableFlags** d’une structure de [**\_ \_ Propriétés de trace d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) lors de l’appel de la fonction [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) . Vous pouvez également spécifier l’indicateur suivant :
 
@@ -67,8 +67,8 @@ Les événements de démarrage de processus et de thread peuvent être consigné
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/> |
 
 
 

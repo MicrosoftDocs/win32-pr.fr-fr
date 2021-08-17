@@ -4,12 +4,12 @@ description: L’en-tête ACF contient des attributs spécifiques à la platefor
 ms.assetid: c09ec0f2-2302-450a-b74b-c9008beca325
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64e958044f043db8828f0fdda192918c632c321b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 11bdfeced843337143fd441d816e3b575be2e7ebc7d93000094f8dcd3737a00d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924609"
 ---
 # <a name="the-acf-header"></a>En-tête ACF
 
@@ -21,6 +21,6 @@ Le **\[** [**code**](/windows/desktop/Midl/code) **\]** ou le **\[** [**nocode**
 
 Pour plus d’informations, consultez la rubrique [attributs ACF](/windows/desktop/Midl/acf-attributes).
 
- 
+ 
 
- 
+ 

@@ -1,19 +1,19 @@
 ---
 title: Fonctionnalités Direct3D 11,2
-description: Les fonctionnalités suivantes ont été ajoutées dans Direct3D 11,2, qui est inclus avec Windows 8.1, Windows RT 8,1 et Windows Server 2012 R2.
+description: les fonctionnalités suivantes ont été ajoutées dans Direct3D 11,2, qui est inclus avec Windows 8.1, Windows RT 8,1 et Windows Server 2012 R2.
 ms.assetid: 2A2D9BBB-F53A-4187-A25B-F4E58C896EE2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 299b720bfb91297043c8e7d76beb50067eb64e17
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b1cd253cf618b3915c4f303691cab86a11cc9268061d536892c0ff5ccf4fffe4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124544"
 ---
 # <a name="direct3d-112-features"></a>Fonctionnalités Direct3D 11,2
 
-Les fonctionnalités suivantes ont été ajoutées dans Direct3D 11,2, qui est inclus avec Windows 8.1, Windows RT 8,1 et Windows Server 2012 R2.
+les fonctionnalités suivantes ont été ajoutées dans Direct3D 11,2, qui est inclus avec Windows 8.1, Windows RT 8,1 et Windows Server 2012 R2.
 
 -   [Ressources en mosaïque](#tiled-resources)
     -   [Vérifier la prise en charge des ressources en mosaïque](#check-tiled-resources-support)
@@ -88,7 +88,7 @@ Direct3D 11,2 vous permet d’annoter des commandes graphiques avec ces API :
 
 ## <a name="hlsl-shader-linking"></a>Liaison de nuanceur HLSL
 
-Windows 8.1 ajoute une compilation et une liaison distinctes des nuanceurs HLSL, ce qui permet aux programmeurs graphiques de créer des fonctions HLSL précompilées, de les empaqueter dans des bibliothèques et de les lier à des nuanceurs complets au moment de l’exécution. Il s’agit essentiellement d’un équivalent à la compilation, aux bibliothèques et à la liaison de C/C++ séparés, et permet aux programmeurs de composer du code HLSL précompilé lorsque des informations supplémentaires deviennent disponibles pour finaliser le calcul. Pour plus d’informations sur l’utilisation de la liaison de nuanceur, consultez Utilisation de la [liaison de nuanceur](/windows/desktop/direct3dhlsl/using-shader-linking).
+Windows 8.1 ajoute une compilation et une liaison distinctes des nuanceurs hlsl, ce qui permet aux programmeurs graphiques de créer des fonctions HLSL précompilées, de les empaqueter dans des bibliothèques et de les lier à des nuanceurs complets au moment de l’exécution. Il s’agit essentiellement d’un équivalent à la compilation, aux bibliothèques et à la liaison de C/C++ séparés, et permet aux programmeurs de composer du code HLSL précompilé lorsque des informations supplémentaires deviennent disponibles pour finaliser le calcul. Pour plus d’informations sur l’utilisation de la liaison de nuanceur, consultez Utilisation de la [liaison de nuanceur](/windows/desktop/direct3dhlsl/using-shader-linking).
 
 Procédez comme suit pour créer un nuanceur final à l’aide de la liaison dynamique au moment de l’exécution.
 
@@ -102,11 +102,11 @@ Procédez comme suit pour créer un nuanceur final à l’aide de la liaison dyn
 
 ### <a name="function-linking-graph-flg"></a>Graphique de liaison de fonction (FLG)
 
-Windows 8.1 ajoute également le graphique de liaison de fonction (FLG). Vous pouvez utiliser FLG pour construire des nuanceurs qui se composent d’une séquence d’appels de fonctions précompilées qui passent des valeurs les unes aux autres. Lors de l’utilisation de FLG, il n’est pas nécessaire d’écrire du code HLSL et d’appeler le compilateur HLSL. Au lieu de cela, la structure du nuanceur est spécifiée par programme à l’aide d’appels d’API C++. Les nœuds FLG représentent les signatures d’entrée et de sortie et les appels des fonctions de bibliothèque précompilées. L’ordre d’enregistrement des nœuds d’appel de fonction définit la séquence d’appels. Le nœud de signature d’entrée doit être spécifié en premier, tandis que le nœud de signature de sortie doit être spécifié en dernier. Les bords FLG définissent la façon dont les valeurs sont passées d’un nœud à un autre. Les types de données des valeurs passées doivent être identiques ; Il n’existe pas de conversion de type implicite. Les règles de forme et swizzling suivent le comportement HLSL et les valeurs peuvent uniquement être transmises par progression dans cette séquence. Pour plus d’informations sur l’API FLG, consultez [**ID3D11FunctionLinkingGraph**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionlinkinggraph).
+Windows 8.1 ajoute également le Graph de liaison de fonction (FLG). Vous pouvez utiliser FLG pour construire des nuanceurs qui se composent d’une séquence d’appels de fonctions précompilées qui passent des valeurs les unes aux autres. Lors de l’utilisation de FLG, il n’est pas nécessaire d’écrire du code HLSL et d’appeler le compilateur HLSL. Au lieu de cela, la structure du nuanceur est spécifiée par programme à l’aide d’appels d’API C++. Les nœuds FLG représentent les signatures d’entrée et de sortie et les appels des fonctions de bibliothèque précompilées. L’ordre d’enregistrement des nœuds d’appel de fonction définit la séquence d’appels. Le nœud de signature d’entrée doit être spécifié en premier, tandis que le nœud de signature de sortie doit être spécifié en dernier. Les bords FLG définissent la façon dont les valeurs sont passées d’un nœud à un autre. Les types de données des valeurs passées doivent être identiques ; Il n’existe pas de conversion de type implicite. Les règles de forme et swizzling suivent le comportement HLSL et les valeurs peuvent uniquement être transmises par progression dans cette séquence. Pour plus d’informations sur l’API FLG, consultez [**ID3D11FunctionLinkingGraph**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionlinkinggraph).
 
 ## <a name="inbox-hlsl-compiler"></a>Compilateur HLSL de la boîte de réception
 
-Le compilateur HLSL est désormais la boîte de réception de Windows 8.1 et versions ultérieures. Désormais, la plupart des API de programmation de nuanceur peuvent être utilisées dans les applications du Windows Store conçues pour Windows 8.1 et versions ultérieures. De nombreuses API de programmation de nuanceur n’ont pas pu être utilisées dans les applications du Windows Store conçues pour Windows 8. les pages de référence pour ces API ont été marquées avec une remarque. Toutefois, certaines API de nuanceur (par exemple, [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile)) peuvent toujours être utilisées uniquement pour développer des applications du Windows Store, et pas dans les applications que vous envoyez au Windows Store. les pages de référence pour ces API sont toujours signalées par une note.
+le compilateur HLSL est désormais la boîte de réception de Windows 8.1 et versions ultérieures. désormais, la plupart des api de programmation de nuanceur peuvent être utilisées dans Windows applications du windows Store conçues pour Windows 8.1 et versions ultérieures. de nombreuses api de programmation de nuanceur n’ont pas pu être utilisées dans les applications Windows store qui ont été générées pour Windows 8 ; les pages de référence pour ces API ont été marquées avec une remarque. toutefois, certaines api de nuanceur (par exemple, [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile)) peuvent toujours être utilisées uniquement pour développer des applications Windows store, et pas dans les applications que vous envoyez au magasin de Windows ; les pages de référence pour ces API sont toujours signalées par une note.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -115,6 +115,6 @@ Le compilateur HLSL est désormais la boîte de réception de Windows 8.1 et ver
 [Nouveautés de Direct3D 11](dx-graphics-overviews-introduction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

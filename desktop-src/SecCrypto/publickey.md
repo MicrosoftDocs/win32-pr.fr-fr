@@ -41,7 +41,7 @@ L’objet **PublicKey** possède ces propriétés.
 
 
 
-| Property                                                            | Type d’accès          | Description                                                                                                                            |
+| Propriété                                                            | Type d’accès          | Description                                                                                                                            |
 |:--------------------------------------------------------------------|:---------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
 | [**Algorithm**](publickey-algorithm.md)<br/>                 | Lecture seule<br/> | Récupère l’objet [**OID**](oid.md) qui identifie l’algorithme utilisé par la clé publique. Il s’agit de la propriété par défaut.<br/> |
 | [**EncodedKey**](publickey-encodedkey.md)<br/>               | Lecture seule<br/> | Récupère un objet [**EncodedData**](encodeddata.md) qui fournit l’accès à la valeur de la clé publique.<br/>                 |

@@ -56,10 +56,10 @@ Lien vers l’arrière du groupe ou de l’utilisateur non membre vers les group
 |------------------------|---------------------------------|
 | ID de lien                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | False                           |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Faux                           |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -77,10 +77,10 @@ Lien vers l’arrière du groupe ou de l’utilisateur non membre vers les group
 |------------------------|---------------------------------|
 | ID de lien                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | False                           |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Faux                           |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -98,10 +98,10 @@ Lien vers l’arrière du groupe ou de l’utilisateur non membre vers les group
 |------------------------|---------------------------------|
 | ID de lien                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | False                           |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Faux                           |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -119,10 +119,10 @@ Lien vers l’arrière du groupe ou de l’utilisateur non membre vers les group
 |------------------------|---------------------------------|
 | ID de lien                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | False                           |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Faux                           |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -140,10 +140,10 @@ Lien vers l’arrière du groupe ou de l’utilisateur non membre vers les group
 |------------------------|---------------------------------|
 | ID de lien                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | False                           |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Faux                           |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |

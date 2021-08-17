@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 1577ff3109c2cc3ca547f68f7841ecebb2f03569
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c7fcd1d3b20164395212c553f7965e97513d3df1c0011def688e7b249abce296
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128531"
 ---
 # <a name="d3dxvec4normalize-function-d3dx10mathh"></a>D3DXVec4Normalize, fonction (D3DX10Math. h)
 
@@ -58,13 +58,13 @@ Pointeur vers la structure D3DXVECTOR4 source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointeur vers une structure D3DXVECTOR4 qui est la version normalisée du vecteur.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXVec4Normalize peut être utilisée comme paramètre pour une autre fonction.
 

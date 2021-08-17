@@ -5,12 +5,12 @@ ms.assetid: 714c122f-3d68-4466-900c-1d129e544d45
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7417f2592ef30df7d3a44c28f30307ccf6173ef
-ms.sourcegitcommit: 9bf844f41bd6451b8508d93e722e88a43e913b56
+ms.openlocfilehash: b75c195dcc9989cf01b00f49edeedbfd38a7c8b11fed82a2dc67099b7b2f4a69
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "106527258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932069"
 ---
 # <a name="color-space-constants"></a>Constantes des espaces de couleurs
 
@@ -50,7 +50,7 @@ Valeur de signature qui indique l’espace colorimétrique dans lequel les donn�
 [Concepts de base de la gestion des couleurs](basic-color-management-concepts.md)
 </dt> <dt>
 
-[Constantes ICM](wcs-constants.md)
+[constantes ICM](wcs-constants.md)
 </dt> </dl>
 
  

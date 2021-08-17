@@ -4,12 +4,12 @@ ms.assetid: ffb06903-593e-47ce-adb2-baed5d379110
 title: Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f74262dc2f214b349d7d75d2ba362e3a6771e29c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 901662a0d35e53c6970dda45babcde8cb5f63a0c25d7ba5a2fb4c2f3f3f52301
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885008"
 ---
 # <a name="registry"></a>Registre
 
@@ -27,7 +27,7 @@ Pour plus d’informations sur la base de données du Registre et l’accès par
 
 <dl> <dt>
 
-[Référence du Registre du kit de ressources Windows Server 2003](/previous-versions/windows/it-pro/windows-server-2003/cc778196(v=ws.10))
+[Windows Référence du Registre du kit de ressources serveur 2003](/previous-versions/windows/it-pro/windows-server-2003/cc778196(v=ws.10))
 </dt> </dl>
 
  

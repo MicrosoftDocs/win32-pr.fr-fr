@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: bc7ecfdc699cfe5f572c303d2c8a9e71bafc026b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: daf1164fefdc414a84508e4b295620af3cb671e9da624dd60cc08541c5c4fd7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963648"
 ---
 # <a name="iportabledevicevaluesgetiunknownvalue-method"></a>IPortableDeviceValues :: GetIUnknownValue, méthode
 
@@ -57,7 +57,7 @@ Adresse d’une variable qui reçoit un pointeur vers l’interface **IUnknown**
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

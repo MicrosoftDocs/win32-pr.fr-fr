@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winsmcrd.h
-ms.openlocfilehash: fe3205311789ee51bb9b96b3b425b735e1fdf887
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a377643e794b679be593bb99b8750698c92dd3aa8abacd79bfdb1c478c9c7b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918885"
 ---
 # <a name="scard_io_request-structure"></a>Structure de \_ demande d’e/s en cicatrice \_
 
@@ -60,8 +60,8 @@ Longueur, en octets, de la structure de **\_ \_ demande d’e/s en cicatrices** 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Winsmcrd. h</dt> </dl> |
 
 

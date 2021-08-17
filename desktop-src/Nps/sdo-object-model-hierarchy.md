@@ -5,12 +5,12 @@ ms.assetid: 22159f61-2b35-4a0d-9b8b-8cb0a8192afb
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2484b4d7402f8a5b43a590651f36d4d1707bca2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f3f63b5692571bab49580251d6ef879adde8ae9a57af4c541404aabc48538e38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063337"
 ---
 # <a name="object-model-hierarchy"></a>Hiérarchie du modèle objet
 
@@ -25,9 +25,9 @@ Pour plus d’informations, consultez la page [obtention d’SDOs de service et 
 La deuxième façon dont les objets fournissent l’accès aux autres objets est qu’une collection d’objets est représentée comme une propriété de l’objet qui le contient. Pour récupérer une collection d’objets, appelez [**ISdo :: GetProperty**](/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty) sur la propriété d’un objet qui représente la collection. Par exemple, pour récupérer la collection de stratégies, appelez **ISdo :: GetProperty** sur l’interface [**ISdo**](/windows/desktop/api/sdoias/nn-sdoias-isdo) exposée par l’objet NPS.
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008.
 
- 
+ 
 
 ![récupération de la collection de stratégies](images/sdo02.png)
 
@@ -103,6 +103,6 @@ Cette collection contient la collection « Microsoft Realms évaluateur ». Le
 [Attributs pris en charge par SDO](/windows/desktop/Nps/sdo-sdo-supported-attributes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2da5c629bcef9ca2072d0ddda433fde97932e97e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: bccf4a081141c1902fe93680937a3196e015e6690acf76d69f3a3d8a016c092e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106522631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963748"
 ---
 # <a name="wmmcdi"></a>WM/MCDI
 
@@ -31,7 +31,7 @@ L’attribut **WM/MCDI** contient l’identificateur de CD de musique. Il s’ag
 
 **\_binaire de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est compatible avec le frame ID3, MCDI. La spécification ID3 du frame MCDI nécessite qu’une seule trame de ce type existe pour chaque fichier et qu’une trame TRCK valide existe. L’éditeur de métadonnées n’effectue aucune validation pour ces règles. En outre, la taille de WM/MCDI n’est pas limitée à 804 octets, tout comme le cadre MCDI ID3.
 
@@ -42,9 +42,9 @@ Cet attribut est compatible avec le frame ID3, MCDI. La spécification ID3 du fr
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

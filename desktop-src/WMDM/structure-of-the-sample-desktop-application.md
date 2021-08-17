@@ -3,7 +3,7 @@ title: Structure de l’exemple d’application de bureau
 description: Structure de l’exemple d’application de bureau
 ms.assetid: e042470d-dc78-488c-bcad-2e8d34714d5d
 keywords:
-- Gestionnaire de périphériques Windows Media, exemples
+- Windows Gestionnaire de périphériques de média, exemples
 - Gestionnaire de périphériques, exemples
 - applications de bureau, exemples
 - Windows Media Gestionnaire de périphériques, exemple d’application de bureau
@@ -11,12 +11,12 @@ keywords:
 - exemples, applications de bureau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34fb377c1bb6ebf943721b55ec6175e65f70ddde
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7dde8250a5efc8bc0f0b9582739bd8770d95ee586ea571a43bcbb9be69e8774
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957159"
 ---
 # <a name="structure-of-the-sample-desktop-application"></a>Structure de l’exemple d’application de bureau
 
@@ -35,16 +35,16 @@ L’exécutable utilise le projet d’assistance uniquement lorsque l’utilisat
 | CDevices             | Devices. cpp             | Classe qui gère le volet gauche de la fenêtre d’application principale, où les périphériques disponibles sont répertoriés. Cette classe gère la boucle de messagerie, qui gère les entrées d’utilisateur, telles que la sélection d’un appareil et la notification au volet CDevFiles de charger les fichiers appropriés lorsque la sélection de l’appareil a été modifiée.                                                                              |
 | CDevFiles            | Devfiles. cpp            | Classe qui gère le volet de droite de la fenêtre d’application principale, où les fichiers sur l’appareil sélectionné sont répertoriés. Cette classe gère la boucle de messagerie et gère l’entrée de l’utilisateur, par exemple, en faisant glisser des fichiers sur l’appareil et en supprimant des fichiers de l’appareil.                                                                                                                          |
 | CStatus              | État. cpp              | Classe qui gère la barre d’État inférieure dans la fenêtre principale, où le nombre de périphériques et de fichiers est indiqué, ainsi que la quantité de mémoire disponible et utilisée sur l’appareil sélectionné.                                                                                                                                                                                                         |
-| CWMDM                | Wmdevmgr. cpp            | Interface de niveau supérieur pour Windows Media Gestionnaire de périphériques. Cette classe gère l’authentification, récupère l’interface **IWMDeviceManager** de niveau supérieur et s’inscrit pour les notifications avec l’interface **IWMDMNotification** .                                                                                                                                                                  |
+| CWMDM                | Wmdevmgr. cpp            | interface de niveau supérieur pour Windows Gestionnaire de périphériques multimédia. Cette classe gère l’authentification, récupère l’interface **IWMDeviceManager** de niveau supérieur et s’inscrit pour les notifications avec l’interface **IWMDMNotification** .                                                                                                                                                                  |
 | CProgress            | Progress. cpp            | Classe dans le projet d’application principal qui crée et gère la boîte de dialogue indiquant la progression d’un événement.                                                                                                                                                                                                                                                                             |
 | CItemData            | ItemData. cpp            | Classe wrapper qui contient un pointeur vers un stockage (si représente un fichier ou un dossier sur l’appareil) ou un appareil (si représente un appareil), ainsi qu’une variété d’informations sur l’objet, notamment la taille et les attributs.                                                                                                                                                                  |
 | CNotificationHandler | Notificationhandler. cpp | Gère l’arrivée des appareils et les notifications de suppression en alertant la fenêtre CDevices.                                                                                                                                                                                                                                                                                                               |
-| CProgressHelper      | ProgressHelper. cpp      | Créé par CDevFiles dans les fonctions locales pour recevoir des notifications de Windows Media Gestionnaire de périphériques en implémentant **IWMDMProgress**. Elle est utilisée par la classe CProgress pour déterminer la quantité de barres dans la barre de progression et lorsqu’une action est terminée. Cette classe est définie comme un objet COM qui expose l’interface du kit de développement logiciel (SDK) **IWMDMProgress** et une interface personnalisée IWMDMProgressHelper. |
+| CProgressHelper      | ProgressHelper. cpp      | créé par CDevFiles dans les fonctions locales pour recevoir des notifications de Windows Media Gestionnaire de périphériques en implémentant **IWMDMProgress**. Elle est utilisée par la classe CProgress pour déterminer la quantité de barres dans la barre de progression et lorsqu’une action est terminée. Cette classe est définie comme un objet COM qui expose l’interface du kit de développement logiciel (SDK) **IWMDMProgress** et une interface personnalisée IWMDMProgressHelper. |
 | COperationHelper     | Operationhelper. cpp     | Cette classe implémente **IWMDMOperation** pour gérer le transfert manuel de fichiers. Elle est multithread pour lui permettre de se produire de manière asynchrone et est définie comme un objet COM qui expose une interface personnalisée, IWMDMOperationHelper, pour instancier et initialiser la classe. Cette classe est utilisée uniquement si l’utilisateur sélectionne « utiliser l’interface de l’opération » dans le menu **options** .                            |
 
 
 
- 
+ 
 
 Les listes suivantes décrivent les étapes de base qui se produisent pour différentes actions de l’utilisateur :
 
@@ -88,9 +88,9 @@ Après avoir cliqué sur « créer une sélection » dans le menu **conteneurs
 [**Exemple d’application de bureau**](sample-desktop-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

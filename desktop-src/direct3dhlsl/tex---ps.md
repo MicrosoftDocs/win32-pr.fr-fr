@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a3070883b167d26cf31f7d7f388f6bd3736a4bde
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0646a057fdc2fb96e5f72e7451b9b273191ced22f5092a14fab11a9042c5de25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118788108"
 ---
 # <a name="tex---ps"></a>Tex-PS
 
@@ -29,13 +29,13 @@ Charge le registre de destination avec les données de couleur (RVBA) échantill
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -45,7 +45,7 @@ where
 
 
 
- 
+ 
 
 Le numéro de registre de destination spécifie le numéro de l’étape de texture.
 
@@ -62,6 +62,6 @@ Les coordonnées de texture peuvent être associées à n’importe quelle étap
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

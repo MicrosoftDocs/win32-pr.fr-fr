@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Fveapi.dll
-ms.openlocfilehash: 5b4a367c3566c1475f856783d800ec43e21071e2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 050983663b782d40c330092919b8fc29060cbba057a16d147b80c6ea477cbf54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956088"
 ---
 # <a name="fveenablerawaccessw-function"></a>FveEnableRawAccessW fonction)
 
@@ -76,8 +76,8 @@ Cette fonction retourne l’un des codes suivants, ou un autre code d’erreur e
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Fveapi.dll</dt> </dl> |
 
 

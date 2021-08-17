@@ -4,12 +4,12 @@ description: Lorsqu’une application réside dans un processus avec d’autres 
 ms.assetid: edb20108-e0c3-4b9b-b57d-45a96d9472ba
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00828ddf95fd024069a8a535c95673eb014d84b9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5e2044b83de96a352546d90c45cd54879fc87923786b7852133ffeb28dbf9cbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932350"
 ---
 # <a name="be-wary-of-other-rpc-endpoints-running-in-the-same-process"></a>Méfiez-vous des autres points de terminaison RPC s’exécutant dans le même processus
 
@@ -19,9 +19,9 @@ Comme pour les handles de contexte stricts, le fait de ne pas placer un autre po
 
 Pour garantir qu’un processus est appelé uniquement sur une séquence de protocole spécifique, enregistrez une fonction de rappel de sécurité et, dans cette fonction, vérifiez quelle séquence de protocole l’appel est effectué.
 
- 
+ 
 
- 
+ 
 
 
 

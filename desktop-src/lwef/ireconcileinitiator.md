@@ -3,8 +3,8 @@ title: Interface IReconcileInitiator
 description: Expose des méthodes qui fournissent le réconciliateur de porte-documents avec le moyen d’informer l’initiateur de sa progression, de définir un objet de fin et de demander une version donnée d’un document. L’initiateur est responsable de l’implémentation de cette interface.
 ms.assetid: 1a32d67f-1ddc-49dc-af88-b8c41a50ac54
 keywords:
-- Fonctionnalités d’environnement Windows héritées de l’interface IReconcileInitiator
-- Fonctionnalités d’environnement Windows héritées de l’interface IReconcileInitiator, Description
+- fonctionnalités d’environnement Windows héritées de l’interface IReconcileInitiator
+- fonctionnalités d’environnement Windows héritées de l’interface IReconcileInitiator, description
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 759ad26fd87db7076811b9b31d6ef39df1479e3e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ff81862e5ff0b27b75f952749957e6559306257240f2a02aca5f34e3efc870cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118749139"
 ---
 # <a name="ireconcileinitiator-interface"></a>Interface IReconcileInitiator
 
@@ -53,7 +53,7 @@ L’interface **IReconcileInitiator** possède ces méthodes.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                                   |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 4,0 ou ultérieure)</dt> </dl> |
 

@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1384d1582f4f0089df55030c22471438575bd072
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 377f0eb5e62242a9411d27cb53e1e252d2e8243ad00db5b74e94aad0efdb0ee9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118854413"
 ---
 # <a name="imstscaxfullscreentitle-property"></a>IMsTscAx :: FullScreenTitle, propriété
 
@@ -86,7 +86,7 @@ Titre de la fenêtre. La longueur maximale de cette chaîne est le \_ chemin d�
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété est utilisée pour définir le titre de la fenêtre du contrôle lorsque la connexion est ouverte en mode plein écran. N’utilisez pas cette propriété pour le mode plein écran géré par le conteneur. Lorsque la méthode [**IMsTscAdvancedSettings ::p ut \_ ContainerHandledFullScreen**](imstscadvancedsettings-containerhandledfullscreen.md) est appelée, la fenêtre de conteneur affiche le titre de la fenêtre.
 

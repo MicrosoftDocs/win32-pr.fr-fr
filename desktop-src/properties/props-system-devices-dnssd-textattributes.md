@@ -4,12 +4,12 @@ ms.assetid: c514c9c9-7d5b-4c4a-b99a-723597b5b801
 title: System. Devices. dnssd. TextAttributes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 593a27c590fd9e5939b256607e450b592c89268a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15dfd926a80106a9baa2b14a5b26baa3ad03a77d4aa7e651cfce87b8aebbc034
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118728316"
 ---
 # <a name="systemdevicesdnssdtextattributes"></a>System. Devices. dnssd. TextAttributes
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: df0fc00f0bd51e89da432e6f3b0143ce6092cedb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8fd41bff4700915c43ab709efa0033905cc5895c81839d399f81fc7bc4317e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106540884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064099"
 ---
 # <a name="duplicateblob-function"></a>DuplicateBlob fonction)
 
