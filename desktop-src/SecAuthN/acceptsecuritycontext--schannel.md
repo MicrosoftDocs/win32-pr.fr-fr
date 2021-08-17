@@ -4,12 +4,12 @@ ms.assetid: 03fd5272-8476-4c93-8590-0d00acf6a130
 title: AcceptSecurityContext (SChannel), fonction (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: ba353cfbe64d6471230a720680301ebab0da511a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2700704c9fc1c40fc2d5648306147c5091a318e5c8bd4383bb32bc5416c8d069
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141642"
 ---
 # <a name="acceptsecuritycontext-schannel-function"></a>AcceptSecurityContext (SChannel) (fonction)
 
@@ -147,7 +147,7 @@ Cette fonction retourne l’une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **AcceptSecurityContext (SChannel)** est l’équivalent serveur de la fonction [**InitializeSecurityContext (SChannel)**](initializesecuritycontext--schannel.md) .
 
@@ -177,7 +177,7 @@ Une fois le [*contexte de sécurité*](../secgloss/s-gly.md) établi, l’applic
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                |
 | En-tête<br/>                   | <dl> <dt>SSPI. h (include Security. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

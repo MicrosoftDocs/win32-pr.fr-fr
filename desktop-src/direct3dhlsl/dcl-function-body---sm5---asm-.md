@@ -4,12 +4,12 @@ description: Déclarez un corps de fonction.
 ms.assetid: 3A651107-BEA6-4D79-938F-8E0243C874C3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33f020748ecff270311fbbc89798d82b223b1f34
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 339e7f5d7edb91f4f3405b328286a9ae32a8108efdaafaba1f212870be7ff8b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104101113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117727233"
 ---
 # <a name="dcl_function_body-sm5---asm"></a>\_corps de la fonction DCL \_ (SM5-ASM)
 
@@ -34,7 +34,7 @@ Déclarez un corps de fonction.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction déclare un corps de fonction unique dont le code apparaîtra ultérieurement dans le programme à l’étiquette FB \# .
 
@@ -48,7 +48,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -62,9 +62,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

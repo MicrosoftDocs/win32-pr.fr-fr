@@ -57,10 +57,10 @@ Cet attribut répertorie les classes auxiliaires qui ont été attachées dynami
 |------------------------|--------------|
 | ID de lien                | \-           |
 | MAPI-Id                | \-           |
-| System-Only            | True         |
-| Est de valeur unique       | False        |
-| Est indexé             | False        |
-| Dans le catalogue global      | False        |
+| System-Only            | Vrai         |
+| Est de valeur unique       | Faux        |
+| Est indexé             | Faux        |
+| Dans le catalogue global      | Faux        |
 | Descripteur de sécurité NT | O :BAG : BAD : S : |
 | Range-Lower            | \-           |
 | Range-Upper            | \-           |
@@ -78,10 +78,10 @@ Cet attribut répertorie les classes auxiliaires qui ont été attachées dynami
 |------------------------|--------------|
 | ID de lien                | \-           |
 | MAPI-Id                | \-           |
-| System-Only            | True         |
-| Est de valeur unique       | False        |
-| Est indexé             | False        |
-| Dans le catalogue global      | False        |
+| System-Only            | Vrai         |
+| Est de valeur unique       | Faux        |
+| Est indexé             | Faux        |
+| Dans le catalogue global      | Faux        |
 | Descripteur de sécurité NT | O :BAG : BAD : S : |
 | Range-Lower            | \-           |
 | Range-Upper            | \-           |
@@ -99,10 +99,10 @@ Cet attribut répertorie les classes auxiliaires qui ont été attachées dynami
 |------------------------|--------------|
 | ID de lien                | \-           |
 | MAPI-Id                | \-           |
-| System-Only            | True         |
-| Est de valeur unique       | False        |
-| Est indexé             | False        |
-| Dans le catalogue global      | False        |
+| System-Only            | Vrai         |
+| Est de valeur unique       | Faux        |
+| Est indexé             | Faux        |
+| Dans le catalogue global      | Faux        |
 | Descripteur de sécurité NT | O :BAG : BAD : S : |
 | Range-Lower            | \-           |
 | Range-Upper            | \-           |
@@ -120,10 +120,10 @@ Cet attribut répertorie les classes auxiliaires qui ont été attachées dynami
 |------------------------|--------------|
 | ID de lien                | \-           |
 | MAPI-Id                | \-           |
-| System-Only            | True         |
-| Est de valeur unique       | False        |
-| Est indexé             | False        |
-| Dans le catalogue global      | False        |
+| System-Only            | Vrai         |
+| Est de valeur unique       | Faux        |
+| Est indexé             | Faux        |
+| Dans le catalogue global      | Faux        |
 | Descripteur de sécurité NT | O :BAG : BAD : S : |
 | Range-Lower            | \-           |
 | Range-Upper            | \-           |
@@ -141,10 +141,10 @@ Cet attribut répertorie les classes auxiliaires qui ont été attachées dynami
 |------------------------|--------------|
 | ID de lien                | \-           |
 | MAPI-Id                | \-           |
-| System-Only            | True         |
-| Est de valeur unique       | False        |
-| Est indexé             | False        |
-| Dans le catalogue global      | False        |
+| System-Only            | Vrai         |
+| Est de valeur unique       | Faux        |
+| Est indexé             | Faux        |
+| Dans le catalogue global      | Faux        |
 | Descripteur de sécurité NT | O :BAG : BAD : S : |
 | Range-Lower            | \-           |
 | Range-Upper            | \-           |
@@ -162,10 +162,10 @@ Cet attribut répertorie les classes auxiliaires qui ont été attachées dynami
 |------------------------|--------------|
 | ID de lien                | \-           |
 | MAPI-Id                | \-           |
-| System-Only            | True         |
-| Est de valeur unique       | False        |
-| Est indexé             | False        |
-| Dans le catalogue global      | False        |
+| System-Only            | Vrai         |
+| Est de valeur unique       | Faux        |
+| Est indexé             | Faux        |
+| Dans le catalogue global      | Faux        |
 | Descripteur de sécurité NT | O :BAG : BAD : S : |
 | Range-Lower            | \-           |
 | Range-Upper            | \-           |

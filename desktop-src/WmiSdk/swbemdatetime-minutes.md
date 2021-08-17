@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: cce55d731916d0e8180de1bde495566d4ed22c49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a6150dcdee6051fdfb8737618f4735cfe1e568da05ec35a6cd935be197a56ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992239"
 ---
 # <a name="swbemdatetimeminutes-property"></a>SWbemDateTime. minutes, propriété
 
@@ -56,7 +56,7 @@ La valeur n’était pas comprise dans la plage comprise entre 0 et 59.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la propriété **SWbemDateTime. minutes** est définie sur 1, la propriété [**SWbemDateTime. seconds**](swbemdatetime-seconds.md) contient une valeur qui est décalée d’une seconde une erreur d’arrondi qui se produit lorsqu’une valeur **DateTime** CIM est convertie en valeur de **\_ Date VT** . Si la propriété **minutes** est définie sur 0, la propriété **seconds** retourne la valeur correcte.
 

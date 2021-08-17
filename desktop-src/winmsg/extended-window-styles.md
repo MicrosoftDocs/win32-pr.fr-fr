@@ -16,7 +16,7 @@ ms.locfileid: "118705773"
 
 Les styles de fenêtre étendus sont les suivants.
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 ```C++
 

@@ -1,20 +1,20 @@
 ---
 title: API WinRM C++
-description: Les interfaces Windows Remote Management peuvent être utilisées pour obtenir des données ou gérer des ressources sur un ordinateur distant. Cette API est principalement destinée à un usage interne. Nous vous recommandons d’utiliser à la place l’API du shell client WinRM dans la mesure du possible.
+description: les interfaces Windows Remote Management peuvent être utilisées pour obtenir des données ou gérer des ressources sur un ordinateur distant. Cette API est principalement destinée à un usage interne. Nous vous recommandons d’utiliser à la place l’API du shell client WinRM dans la mesure du possible.
 ms.assetid: e50075a1-cb43-4bd6-9bbf-6b715fde6a3a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa7cff2334d9839936d15f7258a70ce03f9751e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 71c6039dde1884f2b4b7aa9801fbbd26bb0e10b9a5353dffb5096ba66461d1d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742945"
 ---
 # <a name="winrm-c-api"></a>API WinRM C++
 
-Les interfaces Windows Remote Management peuvent être utilisées pour obtenir des données ou gérer des [*ressources*](windows-remote-management-glossary.md) sur un ordinateur distant. Cette API est principalement destinée à un usage interne. Nous vous recommandons d’utiliser à la place l' [API du shell client WinRM](client-shell-api.md) dans la mesure du possible. Les interfaces correspondent étroitement à l' [API de script WinRM](winrm-scripting-api.md).
+les interfaces Windows Remote Management peuvent être utilisées pour obtenir des données ou gérer des [*ressources*](windows-remote-management-glossary.md) sur un ordinateur distant. Cette API est principalement destinée à un usage interne. Nous vous recommandons d’utiliser à la place l' [API du shell client WinRM](client-shell-api.md) dans la mesure du possible. Les interfaces correspondent étroitement à l' [API de script WinRM](winrm-scripting-api.md).
 
 Les interfaces WinRM qui héritent directement de **IDispatch** ont chacune un objet de script correspondant. Pour plus d’informations, consultez l' [API de script WinRM](winrm-scripting-api.md).
 
@@ -70,12 +70,12 @@ Fournit le chemin d’accès à une ressource. Vous pouvez utiliser un objet [**
 
 <dl> <dt>
 
-[Référence Windows Remote Management](windows-remote-management-reference.md)
+[Windows Informations de référence sur la gestion à distance](windows-remote-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

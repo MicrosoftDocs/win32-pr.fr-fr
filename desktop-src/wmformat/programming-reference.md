@@ -1,30 +1,30 @@
 ---
-title: Informations de référence sur la programmation du SDK Windows Media format
-description: Informations de référence sur la programmation du SDK Windows Media format
+title: Windows Informations de référence sur la programmation du SDK Media format
+description: Windows Informations de référence sur la programmation du SDK Media format
 ms.assetid: cafb8aa7-6b0a-4bcc-b618-2520a31cd7a6
 keywords:
-- Windows Media Format SDK, informations de référence sur la programmation
+- Windows Media Format SDK, référence de programmation
 - Windows Media Format SDK, ASF (Advanced Systems Format)
 - ASF (Advanced Systems Format), informations de référence sur la programmation
 - ASF (format avancé des systèmes), informations de référence sur la programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44c316b85e91c31b513fbfcdff003ba37efea93b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 60d600833202da1522d07dfcedebb8892f92975cac59bb0117f3367b44ada5b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084616"
 ---
-# <a name="windows-media-format-sdk-programming-reference"></a>Informations de référence sur la programmation du SDK Windows Media format
+# <a name="windows-media-format-sdk-programming-reference"></a>Windows Informations de référence sur la programmation du SDK Media format
 
-Le kit de développement logiciel (SDK) de Microsoft® Windows Media® prend en charge une plage d’objets, d’interfaces, de fonctions indépendantes, de structures, de types énumération, d’attributs, etc. Les sections suivantes documentent ces informations en détail.
+le kit de développement logiciel (SDK) Microsoft® Windows Media® prend en charge une plage d’objets, d’interfaces, de fonctions indépendantes, de structures, de types d’énumération, d’attributs, etc. Les sections suivantes documentent ces informations en détail.
 
 
 
 | Section                                                                              | Description                                                                                                  |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [Objets](objects.md)                                                               | Décrit les objets et les interfaces pris en charge par chaque objet dans le kit de développement logiciel (SDK) du format Windows Media.           |
+| [Objets](objects.md)                                                               | décrit les objets et les interfaces pris en charge par chaque objet dans le kit de développement logiciel (SDK) de Format multimédia Windows.           |
 | [Fonctions](functions.md)                                                           | Décrit toutes les fonctions indépendantes, généralement celles utilisées pour créer et initialiser différents objets.      |
 | [Interfaces](interfaces.md)                                                         | Décrit toutes les interfaces et les méthodes de ce kit de développement logiciel (SDK).                                                        |
 | [Structures](structures.md)                                                         | Décrit les structures prises en charge par ce kit de développement logiciel (SDK).                                                              |
@@ -48,13 +48,13 @@ Le kit de développement logiciel (SDK) de Microsoft® Windows Media® prend en 
 
 <dl> <dt>
 
-[**À propos du kit de développement logiciel (SDK) Windows Media format**](about-the-windows-media-format-sdk.md)
+[**à propos du kit de développement logiciel (SDK) Windows Media Format**](about-the-windows-media-format-sdk.md)
 </dt> <dt>
 
 [**Guide de programmation**](programming-guide.md)
 </dt> <dt>
 
-[**SDK Windows Media format 11**](windows-media-format-11-sdk.md)
+[**Windows Kit de développement logiciel (SDK) Media format 11**](windows-media-format-11-sdk.md)
 </dt> </dl>
 
  

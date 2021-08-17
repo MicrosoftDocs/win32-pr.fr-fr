@@ -4,12 +4,12 @@ ms.assetid: 27e6d4f5-39d5-4cb4-88bc-b0d61ccaa2f3
 title: Stratégie de métadonnées de photo System. photo. orientation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a28f4f350cd1a4c24d71ec737b4679aea2f7cab5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87f9496942e6be971e0e047596125669fc9112cf82bce6eb02ec7e1cdbddc4de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087065"
 ---
 # <a name="systemphotoorientation-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. orientation
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. orie
 
 Orientation de photo de l' \_ hypergraphique \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                   | Format de disque |
+| Commande | Chemin                   | Format de disque |
 |-------|------------------------|-------------|
 | 1     | /App1/IFD/{UShort = 274} | ushort      |
 | 2     | /XMP/TIFF : orientation  | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                   | Format de disque |
+| Commande | Chemin                   | Format de disque |
 |-------|------------------------|-------------|
 | 1     | /App1/IFD/{UShort = 274} | ushort      |
 | 2     | /XMP/TIFF : orientation  | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                   |
+| Commande | Chemin                   |
 |-------|------------------------|
 | 1     | /App1/IFD/{UShort = 274} |
 | 2     | /XMP/TIFF : orientation  |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /IFD/{UShort = 274}         | ushort      |
 | 2     | /IFD/XMP/TIFF : orientation | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /IFD/{UShort = 274}         | ushort      |
 | 2     | /IFD/XMP/TIFF : orientation | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      |
+| Commande | Chemin                      |
 |-------|---------------------------|
 | 1     | /IFD/{UShort = 274}         |
 | 2     | /IFD/XMP/TIFF : orientation |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

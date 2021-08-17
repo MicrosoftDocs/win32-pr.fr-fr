@@ -23,7 +23,7 @@
           items:
             - name: Configuration par défaut
               href: default-configuration.md
-            - name: Configuration du serveur de publication
+            - name: Publisher Configuré
               href: publisher-configuration.md
             - name: Configuration par application
               href: per-application-configuration.md
@@ -67,7 +67,7 @@
               href: searching-for-assemblies.md
             - name: Recherche de fichiers d’assembly
               href: searching-for-assembly-files.md
-            - name: Création de classes Windows côte à côte
+            - name: création de Classes de Windows côte à côte
               href: creating-side-by-side-windows-classes.md
             - name: Création d’objets Registration-Free COM
               href: creating-registration-free-com-objects.md
@@ -98,7 +98,7 @@
           href: should-you-provide-a-shared-component-as-a-side-by-side-assembly.md
         - name: Création d’une DLL pour un assembly côte à côte
           href: authoring-a-dll-for-a-side-by-side-assembly.md
-        - name: Création d’un stockage d’État pour des assemblys côte à côte
+        - name: Stockage d’état de création pour les assemblys côte à côte
           href: authoring-state-storage-for-side-by-side-assemblies.md
     - name: Référence des assemblys côte à côte
       href: side-by-side-assemblies-reference.md
@@ -178,13 +178,13 @@
               href: application-manifests.md
             - name: Fichiers de configuration des applications
               href: application-configuration-files.md
-            - name: Fichiers de configuration du serveur de publication
+            - name: Publisher Fichiers de configuration
               href: publisher-configuration-files.md
             - name: Schéma de fichier manifeste
               href: manifest-file-schema.md
             - name: Schéma du fichier de configuration de l’application
               href: application-configuration-file-schema.md
-            - name: Schéma du fichier de configuration du serveur de publication
+            - name: Publisher Schéma du fichier de configuration
               href: publisher-configuration-file-schema.md
         - name: Référence du contexte d’activation
           href: activation-context-reference.md
@@ -246,7 +246,7 @@
               href: mt-exe.md
             - name: Pktextract.exe
               href: pktextract-exe.md
-        - name: Objet Microsoft. Windows. ActCtx
+        - name: Librairie. Windows. Objet ActCtx
           href: microsoft-windows-actctx-object.md
           items:
             - name: Propriété de manifeste

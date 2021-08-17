@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - IACom.h
-ms.openlocfilehash: b2471e77fec02900804de831fc1197c071b9f566
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96e932b8e47f323198e1b0cc87da0df7839a593a76850c00c2c2e4d095854851
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091449"
 ---
 # <a name="recognizercapabilities-enumeration"></a>Énumération RecognizerCapabilities
 
@@ -190,7 +190,7 @@ Reconnaît un seul mot ou caractère par opération de reconnaissance. Le [**IIn
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération permet une combinaison au niveau du bit de ses valeurs membres. Utilisez cette énumération pour rechercher un module de reconnaissance d’encre installée qui prend en charge les attributs dont vous avez besoin.
 
@@ -200,7 +200,7 @@ Cette énumération permet une combinaison au niveau du bit de ses valeurs membr
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 

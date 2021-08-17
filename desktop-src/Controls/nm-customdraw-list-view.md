@@ -3,7 +3,7 @@ title: Code de notification NM_CUSTOMDRAW (mode liste) (commctrl. h)
 description: Envoyé par un contrôle List-View pour notifier à ses fenêtres parentes les opérations de dessin. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 4e9b91e3-d042-4fd0-b063-a9e6ea9ad564
 keywords:
-- Contrôles Windows de code de notification NM_CUSTOMDRAW (mode liste)
+- NM_CUSTOMDRAW (mode liste) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19d8927006f3a6a7e5543f2b072d24469a73a7ec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d2b30af8dc61f9bb12d524f2b3f6ac58fb1adecebf66b4ad4477756e17f9a621
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018870"
 ---
 # <a name="nm_customdraw-list-view-notification-code"></a>\_CUSTOMDRAW nm (mode liste) Code de notification
 
@@ -54,20 +54,20 @@ La valeur que votre application peut retourner dépend de l’étape de dessin a
 | Code de retour                                                                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**CDRF \_ par défaut**</dt> </dl>         | Le contrôle se dessine lui-même. Il n’enverra pas de codes de notification [ \_ CUSTOMDRAW nm](nm-customdraw.md) supplémentaires pour ce cycle de peinture. Cela se produit lorsque **dwDrawStage** est égal à CDDS \_ prépaint.<br/>                                                                                                                                                                                                                                                            |
-| <dl> <dt>**CDRF, \_ INerase**</dt> </dl>           | Windows Vista. Le contrôle ne dessine pas le rectangle de focus autour d’un élément. <br/>                                                                                                                                                                                                                                                                                                                                                                                 |
+| <dl> <dt>**CDRF, \_ INerase**</dt> </dl>           | Windows Vista. Le contrôle peint uniquement l’arrière-plan. <br/>                                                                                                                                                                                                                                                                                                                                                                                 |
 | <dl> <dt>**CDRF \_ NOTIFYITEMDRAW**</dt> </dl>    | Le contrôle notifie le parent de toutes les opérations de dessin liées aux éléments. Il envoie les codes de notification [ \_ CUSTOMDRAW nm](nm-customdraw.md) avant et après les éléments de dessin. Cela se produit lorsque **dwDrawStage** est égal à CDDS \_ prépaint.<br/>                                                                                                                                                                                                                        |
 | <dl> <dt>**CDRF \_ NOTIFYPOSTERASE**</dt> </dl>   | Le contrôle notifie le parent après l’effacement d’un élément. Cela se produit lorsque **dwDrawStage** est égal à CDDS \_ prépaint.<br/>                                                                                                                                                                                                                                                                                                                                             |
 | <dl> <dt>**CDRF \_ NOTIFYPOSTPAINT**</dt> </dl>   | Le contrôle notifie le parent après avoir peint un élément. Cela se produit lorsque **dwDrawStage** est égal à CDDS \_ prépaint.<br/>                                                                                                                                                                                                                                                                                                                                            |
 | <dl> <dt>**CDRF \_ NEWFONT**</dt> </dl>           | L’application a spécifié une nouvelle police pour l’élément ; le contrôle utilise la nouvelle police. Pour plus d’informations sur la modification des polices, consultez [modification des polices et des couleurs](custom-draw.md). Cela se produit lorsque **dwDrawStage** est égal à CDDS \_ ITEMPREPAINT.<br/>                                                                                                                                                                              |
 | <dl> <dt>**CDRF \_ NOTIFYSUBITEMDRAW**</dt> </dl> | [Version 4,71.](common-control-versions.md) Votre application recevra un code de contrôle [ \_ CUSTOMDRAW nm](nm-customdraw.md) avec **dwDrawStage** défini sur CDDS \_ ITEMPREPAINT CDDS sous- \| \_ élément avant que chaque sous-élément de vue liste soit dessiné. Vous pouvez ensuite spécifier la police et la couleur de chaque sous-élément séparément ou retourner [**CDRF \_ par défaut**](cdrf-constants.md) pour le traitement par défaut. Cela se produit lorsque **dwDrawStage** est égal à CDDS \_ ITEMPREPAINT.<br/> |
 | <dl> <dt>**CDRF \_ SKIPDEFAULT**</dt> </dl>       | L’application a dessiné l’élément manuellement. Le contrôle ne dessine pas l’élément. Cela se produit lorsque **dwDrawStage** est égal à CDDS \_ ITEMPREPAINT.<br/>                                                                                                                                                                                                                                                                                                                       |
-| <dl> <dt>**CDRF \_ SKIPPOSTPAINT**</dt> </dl>     | Windows Vista. Le contrôle peint uniquement l’arrière-plan. <br/>                                                                                                                                                                                                                                                                                                                                                                                                   |
+| <dl> <dt>**CDRF \_ SKIPPOSTPAINT**</dt> </dl>     | Windows Vista. Le contrôle ne dessine pas le rectangle de focus. <br/>                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 [Version 5,80.](common-control-versions.md) Si vous modifiez la police en retournant [**CDRF \_ NEWFONT**](cdrf-constants.md), le contrôle List-View peut afficher du texte tronqué. Ce comportement est nécessaire pour la compatibilité descendante avec les versions antérieures des contrôles communs. Si vous souhaitez modifier la police d’un contrôle List-View, vous obtiendrez de meilleurs résultats si vous envoyez un message [**CCM \_ SETVERSION**](ccm-setversion.md) avec la valeur *wParam* définie sur 5 avant d’ajouter des éléments au contrôle.
 
@@ -77,8 +77,8 @@ La valeur que votre application peut retourner dépend de l’étape de dessin a
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

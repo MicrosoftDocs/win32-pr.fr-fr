@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 88bd2f6292687c5387fadf65f8f43437904168cc
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 23b4caa0e4da92e992eb0486f5a998ad7d21016dc691563f29589c5fc9ab5310
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104990892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119973"
 ---
 # <a name="shader-model-2"></a>Nuancier, modèle 2
 
@@ -66,7 +66,7 @@ Le modèle de nuanceur 2 a ajouté des fonctionnalités supplémentaires au [nua
 
 
 
- 
+ 
 
 Pour plus d’informations sur le nuancier Model 2, consultez :
 
@@ -80,9 +80,9 @@ Pour plus d’informations sur le nuancier Model 2, consultez :
 [Modèles de nuanceur et profils Shader](dx-graphics-hlsl-models.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

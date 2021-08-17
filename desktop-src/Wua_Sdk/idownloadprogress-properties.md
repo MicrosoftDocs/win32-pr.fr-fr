@@ -4,12 +4,12 @@ ms.assetid: 8f64c702-b2b5-4a5f-9365-bc962e35f499
 title: Propriétés IDownloadProgress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 469246acb59b4aa58efcbf4bb5aa7f04b7e44b6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eeed70acfb6b350c463b731d44cfe0d48cc1fd8a5190c247fcda316c4707126f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130571"
 ---
 # <a name="idownloadprogress-properties"></a>Propriétés IDownloadProgress
 

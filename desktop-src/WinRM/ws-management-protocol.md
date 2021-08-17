@@ -5,12 +5,12 @@ ms.assetid: 2c47acd2-5d52-4e0f-8848-a11aff59f963
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61e01fdc860eeb5510dd78a4127fdc22b30d711a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 95a20900e77d7d686868e00f7067b23fff644255997a14c9d4c1cbdcf3d1951d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742730"
 ---
 # <a name="ws-management-protocol"></a>Protocole Gestion des services web
 
@@ -30,7 +30,7 @@ Le protocole WS-Management fournit une norme pour la construction de [*messages*
 
 Les messages respectent les conventions du [*protocole SOAP (Simple Object Access Protocol)*](windows-remote-management-glossary.md) qui est utilisé par tous les protocoles de service Web.
 
-L’exemple de code suivant affiche un message avec une opération d’extraction. Cet exemple est indiqué comme une aide pour comprendre à quoi ressemble les messages sous-jacents. Vous n’avez pas besoin de savoir comment produire des messages SOAP. Les messages sont assemblés par Windows Remote Management lorsque vous exécutez une commande à l’aide de l’outil de ligne de commande **WinRM** ou lorsque vous exécutez un script écrit avec l' [API de script WinRM](winrm-scripting-api.md).
+L’exemple de code suivant affiche un message avec une opération d’extraction. Cet exemple est indiqué comme une aide pour comprendre à quoi ressemble les messages sous-jacents. Vous n’avez pas besoin de savoir comment produire des messages SOAP. les messages sont assemblés par Windows Remote Management lorsque vous exécutez une commande à l’aide de l’outil de ligne de commande **winrm** ou lorsque vous exécutez un script écrit avec l' [API de script winrm](winrm-scripting-api.md).
 
 Le message est une demande d’obtenir l’instance du [**\_ disque logique Win32**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) avec la propriété **DeviceID** « c : » à partir d’un serveur nommé ordinateur_distant. La demande utilise le transport HTTP via le port 80. Le compte qui envoie la demande doit se trouver dans le groupe Administrateurs local sur l’ordinateur distant.
 
@@ -72,12 +72,12 @@ Les caractères situés avant le signe deux-points au début de chaque balise in
 
 <dl> <dt>
 
-[À propos de Windows Remote Management](about-windows-remote-management.md)
+[à propos de Windows Remote Management](about-windows-remote-management.md)
 </dt> <dt>
 
 [Gestion matérielle à distance](remote-hardware-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

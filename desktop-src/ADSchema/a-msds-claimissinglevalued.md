@@ -36,7 +36,7 @@ Pour un objet de type de revendication, cet attribut identifie si le type de rev
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2160              |
 | System-ID-GUID    | cd789fb9-96b4-4648-8219-ca378161af38 |
-| Syntaxe            | [**Expression**](s-boolean.md)         |
+| Syntaxe            | [**Boolean**](s-boolean.md)         |
 
 
 
@@ -52,10 +52,10 @@ Pour un objet de type de revendication, cet attribut identifie si le type de rev
 |------------------------|-----------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                              |
 | MAPI-Id                | \-                                                                                                              |
-| System-Only            | True                                                                                                            |
-| Est de valeur unique       | True                                                                                                            |
-| Est indexé             | False                                                                                                           |
-| Dans le catalogue global      | False                                                                                                           |
+| System-Only            | Vrai                                                                                                            |
+| Est de valeur unique       | Vrai                                                                                                            |
+| Est indexé             | Faux                                                                                                           |
+| Dans le catalogue global      | Faux                                                                                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                    |
 | Range-Lower            | \-                                                                                                              |
 | Range-Upper            | \-                                                                                                              |

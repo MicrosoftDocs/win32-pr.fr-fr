@@ -8,18 +8,18 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 11ce07c94104ecd986dc117b00dba2a49a7b5dc5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d8617f679907e46d8fc194bb75b9e5c2dac267a1c4781fc7cc0f1bf47d49d06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993359"
 ---
 # <a name="sio_set_wfp_connection_redirect_records-control-code"></a>SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS, code de contrôle
 
 ## <a name="description"></a>Description
 
-Le code de contrôle des **\_ \_ \_ \_ \_ enregistrements de redirection de connexion SIO Set WFP** définit l’enregistrement de redirection sur le nouveau socket TCP utilisé pour se connecter à la destination finale en vue d’une utilisation par un service de redirection de plateforme de filtrage Windows (WFP).
+le code de contrôle des **\_ \_ \_ \_ \_ enregistrements de redirection de connexion SIO SET WFP** définit l’enregistrement de redirection sur le nouveau socket TCP utilisé pour se connecter à la destination finale en vue d’une utilisation par un service de redirection de plateforme de filtrage Windows (WFP).
 
 Pour effectuer cette opération, appelez la fonction [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) ou **WSPIoctl** avec les paramètres suivants.
 
@@ -146,9 +146,9 @@ Pour afficher les informations d’erreur étendues, appelez [**WSAGetLastError*
 | **WSAENOTSOCK** | Une opération a été tentée sur un qui n’est pas un Socket. Cette erreur est retournée si le *descripteur* n’est pas un Socket. |
 | **WSAEOPNOTSUPP** | L’opération tentée n’est pas prise en charge pour le type d’objet référencé. Cette erreur est retournée si la commande IOCTL spécifiée n’est pas prise en charge. Cette erreur est également retournée si **les \_ \_ \_ \_ \_ enregistrements de redirection de connexion SIO Set WFP** ne sont pas pris en charge par le fournisseur de transport. |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les **\_ enregistrements de \_ \_ \_ redirection \_ de connexion SIO Set WFP** sont pris en charge sur Windows 8, Windows Server 2012 et les versions ultérieures du système d’exploitation.
+les **\_ enregistrements de \_ \_ \_ redirection \_ de connexion SIO SET WFP** sont pris en charge sur Windows 8, Windows Server 2012 et versions ultérieures du système d’exploitation.
 
 WFP autorise l’accès au chemin de traitement des paquets TCP/IP, où les paquets sortants et entrants peuvent être examinés ou modifiés avant d’autoriser leur traitement ultérieur.
 En appuyant sur le chemin de traitement TCP/IP, les éditeurs de logiciels indépendants (ISV) peuvent créer plus facilement des pare-feu, des logiciels antivirus, des logiciels de diagnostic et d’autres types d’applications et de services.

@@ -3,7 +3,7 @@ title: PixelAspectRatioY
 description: L’attribut PixelAspectRatioY est la partie verticale des proportions d’une vidéo.
 ms.assetid: de2799c4-4f9a-4dc9-8c60-9b11cd1894b3
 keywords:
-- Lecteur Windows Media PixelAspectRatioY
+- PixelAspectRatioY Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 981816eab204b493f94f240e0de97d94417e4df8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 256e3a5a0ac17493e4a0caf280834ff72aa132f02e381d8fd9a10f6c44d41888
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134852"
 ---
 # <a name="pixelaspectratioy"></a>PixelAspectRatioY
 
@@ -27,7 +27,7 @@ L’attribut **PixelAspectRatioY** est la partie verticale des proportions d’u
 
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour une vidéo avec des proportions de 16:9, **PixelAspectRatioY** est égal à « 9 ».
 

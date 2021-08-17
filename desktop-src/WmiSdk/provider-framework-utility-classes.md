@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Classes de l’utilitaire de l’infrastructure du fournisseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cab09c99fe2597cacd81e55a4ed18bd4e286ff16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 254a1321ab835c86e7b4bf0e5cb14048be0352290707a61aaf993a9a6cc6e8dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130981"
 ---
 # <a name="provider-framework-utility-classes"></a>Classes de l’utilitaire de l’infrastructure du fournisseur
 
@@ -34,7 +34,7 @@ Dans les trois cas, le pointeur vers long doit être le même pointeur.
  
 
 > [!Caution]  
-> Les builds de débogage de fournisseur sont liées à Framedyd. lib pour Framedyd.dll. Framedyd.dll se trouve dans le répertoire bin du kit de développement logiciel (SDK) Microsoft Windows \\ qui n’est pas inclus dans le chemin d’accès système. Quand une version Debug d’un fournisseur est testée avec le service de gestion Windows, le chargement du fournisseur Framework échoue car Framedyd.dll ou l’une de ses dépendances ne sera pas trouvé. Par conséquent, vous devez copier Framedyd.dll à partir du \\ répertoire SDK Windows bin vers \\ le \\ répertoire system32 wbem ou ajouter le \\ répertoire SDK Windows bin au chemin de recherche du système.
+> Les builds de débogage de fournisseur sont liées à Framedyd. lib pour Framedyd.dll. Framedyd.dll se trouve dans le répertoire bin du kit de développement logiciel (SDK) de Microsoft Windows \\ qui n’est pas inclus dans le chemin d’accès système. quand une version debug d’un fournisseur est testée avec le service de gestion Windows, le chargement du fournisseur framework échoue car Framedyd.dll ou l’une de ses dépendances ne sera pas localisée. par conséquent, vous devez copier Framedyd.dll à partir du \\ répertoire SDK Windows bin vers \\ le \\ répertoire system32 wbem ou ajouter le \\ répertoire SDK Windows bin au chemin de recherche du système.
 
  
 
@@ -47,7 +47,7 @@ Le tableau suivant répertorie les classes de l’utilitaire de l’infrastructu
 | [**CHString**](chstring.md)                           | Fournit des fonctions de comparaison et de manipulation de chaînes pour WMI.                                                                  |
 | [**CHStringArray**](/windows/desktop/api/ChStrArr/nl-chstrarr-chstringarray)                 | Contient pour la création et la manipulation de tableaux de CHString.                                                                      |
 | [**TRefPointerCollection**](/windows/desktop/api/RefPtrCo/nl-refptrco-trefpointercollection) | Accorde l’accès à une classe de conteneur pour les pointeurs.                                                                                |
-| [**WBEMTime**](wbemtime.md)                           | Facilite les conversions entre les différents formats d’heure d’exécution de Windows et ANSI C.                                               |
+| [**WBEMTime**](wbemtime.md)                           | facilite les conversions entre différents Windows et les formats d’heure d’exécution C ANSI.                                               |
 | [**WBEMTimeSpan**](/windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan)                   | Contient des fonctions d’assistance utilisées pour calculer et conserver la différence de temps entre deux objets [**WBEMTime**](wbemtime.md) . |
 
 

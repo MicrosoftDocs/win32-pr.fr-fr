@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9bae54c6c4477682422328410558f1b405eb2677
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 995a9ff69c4b1404035e323f85540f232ad01aa7dc46efaa5e42acd79429052d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120643"
 ---
 # <a name="id3dxpatchmeshunlockindexbuffer-method"></a>ID3DXPatchMesh :: UnlockIndexBuffer, méthode
 
@@ -44,7 +44,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La mémoire tampon d’index est généralement verrouillée, écrite dans, puis déverrouillée pour la lecture.
 

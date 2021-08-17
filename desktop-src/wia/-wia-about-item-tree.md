@@ -1,19 +1,19 @@
 ---
-description: Avec Windows Vista, l’arborescence des éléments de l’acquisition d’images Windows (WIA) a changé de manière significative.
+description: avec Windows Vista, l’arborescence des éléments de l’Acquisition d’Image Windows (WIA) a changé de manière significative.
 ms.assetid: dda87bcc-2315-4f0d-87a0-d5a33d5d929a
 title: À propos de l’arborescence d’éléments IWiaItem2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4d3e7d39319c7b1c94f88612c5d571f17f2a027
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ae342f5a85e61b6384604dae703881c6888e3e1cf8e61cc8a39a32ac77ad436
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119264425"
 ---
 # <a name="about-the-iwiaitem2-item-tree"></a>À propos de l’arborescence d’éléments IWiaItem2
 
-Avec Windows Vista, l’arborescence des éléments de l’acquisition d’images Windows (WIA) a changé de manière significative. Les éléments [**IWiaItem2**](-wia-iwiaitem2.md) sont utilisés pour représenter des attributs d’appareil et des données de périphérique. Les applications de création d’images voient un appareil WIA (Windows Image Acquisition) 2,0 sous la forme d’une arborescence d’éléments hiérarchique, avec l’élément racine représentant l’appareil lui-même et les éléments enfants représentant des éléments tels que des sources de données programmables, des images ou des dossiers qui contiennent des images.
+avec Windows Vista, l’arborescence des éléments de l’Acquisition d’Image Windows (WIA) a changé de manière significative. Les éléments [**IWiaItem2**](-wia-iwiaitem2.md) sont utilisés pour représenter des attributs d’appareil et des données de périphérique. les applications de création d’images voient un appareil WIA (Windows Image Acquisition) 2,0 comme une arborescence hiérarchique d’éléments, avec l’élément racine représentant l’appareil lui-même et les éléments enfants représentant des éléments tels que des sources de données programmables, des images ou des dossiers qui contiennent des images.
 
 -   [Éléments d’application](#application-items)
 -   [Indicateurs d’élément](#item-flags)

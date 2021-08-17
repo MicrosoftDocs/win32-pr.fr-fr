@@ -19,7 +19,7 @@ Pendant la publication, le programme d’installation installe toutes les icône
 
 Si aucune icône n’est référencée dans la propriété ou la table et qu’aucune interface utilisateur n’est fournie pour créer une référence au moment de l’exécution, vous devez supprimer l’icône pour obtenir de meilleures performances.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE36 publie un message si une icône de la table d’icônes n’est pas référencée dans la [classe](class-table.md), le [ProgID](progid-table.md)ou les tables de [raccourcis](shortcut-table.md) et si aucune interface utilisateur n’est fournie pour créer une telle référence au moment de l’exécution.
 
@@ -74,7 +74,7 @@ Icon Bloat. Icon Icon4 is not used in the Class, Shortcut, or ProgID table. This
 
 
 
-| Raccourci  | Icône\_ |
+| Raccourci  | Située\_ |
 |-----------|--------|
 | Shortcut1 | Icon2  |
 

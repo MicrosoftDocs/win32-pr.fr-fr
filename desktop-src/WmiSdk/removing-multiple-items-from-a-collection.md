@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Suppression de plusieurs éléments d’une collection WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c44203f3279163a1de595cac8a00270dccd31c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17795378f5215977e5e7c2d0afd745c5d02fe6b294d062fcdbcf82f7ccc15351
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992439"
 ---
 # <a name="removing-multiple-items-from-a-wmi-collection"></a>Suppression de plusieurs éléments d’une collection WMI
 

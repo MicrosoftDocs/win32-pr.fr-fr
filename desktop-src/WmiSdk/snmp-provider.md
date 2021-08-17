@@ -1,20 +1,20 @@
 ---
-description: Le fournisseur SNMP (simple Network Management Protocol) permet aux applications clientes d’accéder aux informations SNMP par le biais d’Windows Management Instrumentation (WMI).
+description: le fournisseur SNMP (Simple Network Management Protocol) permet aux applications clientes d’accéder aux informations SNMP par le biais d’Windows Management Instrumentation (WMI).
 ms.assetid: 71e758d9-2ea6-42f5-93b4-d370a96b10cf
 ms.tgt_platform: multiple
 title: WMI et SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ea7e8385e1fb95ac20d14af31f82444350e044
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6f1327afe2a86a1f56f40c0a93d904148ccaf1fd0547b6cb623d9eb420c2a51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992299"
 ---
 # <a name="wmi-and-snmp"></a>WMI et SNMP
 
-Le fournisseur SNMP (simple Network Management Protocol) permet aux applications clientes d’accéder aux informations SNMP par le biais d’Windows Management Instrumentation (WMI). Le fournisseur SNMP n’est pas installé par défaut. Pour plus d’informations sur l’installation du fournisseur, consultez [configuration de l’environnement SNMP WMI](setting-up-the-wmi-snmp-environment.md).
+le fournisseur SNMP (Simple Network Management Protocol) permet aux applications clientes d’accéder aux informations SNMP par le biais d’Windows Management Instrumentation (WMI). Le fournisseur SNMP n’est pas installé par défaut. Pour plus d’informations sur l’installation du fournisseur, consultez [configuration de l’environnement SNMP WMI](setting-up-the-wmi-snmp-environment.md).
 
 Le protocole SNMP (simple Network Management Protocol) utilise un schéma pour définir des objets. Le schéma est différent du schéma utilisé dans WMI. Le schéma SNMPv1 et SNMPv2C est appelé la structure des informations de gestion (SMI) et est empaqueté en tant que fichiers MIB (Management Information base). Les fichiers MIB définissent des objets à l’aide d’un langage standard, à savoir la notation de syntaxe abstraite 1 (ASN. 1), et un certain nombre de définitions de macros qui servent de modèles pour décrire les objets. Les macros fournissent des informations telles que le nom de l’objet, l’identificateur, la syntaxe, la description, les droits d’accès, les opérations de protocole et l’encodage de protocole. Le tableau suivant répertorie la manière dont le fournisseur SNMP gère les différents aspects d’un objet MIB.
 

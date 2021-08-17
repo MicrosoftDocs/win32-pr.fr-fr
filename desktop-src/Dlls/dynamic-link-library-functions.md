@@ -4,12 +4,12 @@ ms.assetid: 29e50bd5-1712-407f-bcb3-50a0a22ab8b5
 title: Dynamic-Link les fonctions de la bibliothèque
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f47ce37b6f91570ce9f3314fc329b5e85cde310f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 521c9200b3fa6585ec2804d76ac385845dcd6fb56ef4e7b70a7a3d9bd59150c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070579"
 ---
 # <a name="dynamic-link-library-functions"></a>Dynamic-Link les fonctions de la bibliothèque
 
@@ -30,9 +30,9 @@ Les fonctions suivantes sont utilisées dans la liaison dynamique.
 | [**Échec GetModuleHandle**](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea)                     | Récupère un handle de module pour le module spécifié.                                                                                                            |
 | [**GetModuleHandleEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandleexa)                 | Récupère un handle de module pour le module spécifié.                                                                                                            |
 | [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress)                       | Récupère l’adresse d’une fonction ou d’une variable exportée à partir de la DLL spécifiée.                                                                              |
-| [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya)                             | Mappe le module exécutable spécifié dans l’espace d’adressage du processus appelant.                                                                            |
-| [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa)                         | Mappe le module exécutable spécifié dans l’espace d’adressage du processus appelant.                                                                            |
-| [**LoadPackagedLibrary**](/windows/desktop/api/Winbase/nf-winbase-loadpackagedlibrary)             | Mappe le module empaqueté spécifié et ses dépendances dans l’espace d’adressage du processus appelant. Seules les applications du Windows Store peuvent appeler cette fonction.         |
+| [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya)                             | Cartes le module exécutable spécifié dans l’espace d’adressage du processus appelant.                                                                            |
+| [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa)                         | Cartes le module exécutable spécifié dans l’espace d’adressage du processus appelant.                                                                            |
+| [**LoadPackagedLibrary**](/windows/desktop/api/Winbase/nf-winbase-loadpackagedlibrary)             | Cartes le module empaqueté spécifié et ses dépendances dans l’espace d’adressage du processus appelant. seules les applications Windows store peuvent appeler cette fonction.         |
 | [**RemoveDllDirectory**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-removedlldirectory)               | Supprime un répertoire qui a été ajouté au chemin de recherche de DLL du processus à l’aide de [**AddDllDirectory**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-adddlldirectory).                                         |
 | [**SetDefaultDllDirectories**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-setdefaultdlldirectories)   | Spécifie un jeu de répertoires par défaut à rechercher lorsque le processus appelant charge une DLL.                                                                         |
 | [**SetDllDirectory**](/windows/desktop/api/Winbase/nf-winbase-setdlldirectorya)                     | Modifie le chemin de recherche utilisé pour localiser les dll de l’application.                                                                                              |

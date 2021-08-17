@@ -4,12 +4,12 @@ description: La barre de titre en haut d’une fenêtre affiche une icône et un
 ms.assetid: f41ab777-6c94-4d8e-b743-c635e93df396
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1fee3642a67be85b27eac6a73ac7c452f2349d1
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: f9183e4c4f5364fb45ba2a73dd2d40509c03c7838bbb248e1d95765b675f50cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104381423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993999"
 ---
 # <a name="title-bar-msaa-ui-element-reference"></a>Barre de titre (référence des éléments d’interface utilisateur MSAA)
 
@@ -20,7 +20,7 @@ ms.locfileid: "104381423"
 
 La barre de titre en haut d’une fenêtre affiche une icône et une ligne de texte définies par l’application. Le texte spécifie le nom de l’application et indique l’objectif de la fenêtre. La barre de titre permet également à l’utilisateur de déplacer la fenêtre à l’aide d’une souris ou d’un autre dispositif de pointage.
 
-Les barres de titre contiennent au moins trois petits boutons qui permettent de réduire, d’agrandir ou de restaurer et de fermer la fenêtre associée à la barre de titre. Les barres de titre contiennent également un bouton d’aide contextuelle. Les applications qui s’exécutent dans la version Far-East du système d’exploitation Windows peuvent également contenir des boutons de l’éditeur de méthode d’entrée (IME). Microsoft Active Accessibility expose ces boutons en tant qu’éléments enfants de la barre de titre.
+Les barres de titre contiennent au moins trois petits boutons qui permettent de réduire, d’agrandir ou de restaurer et de fermer la fenêtre associée à la barre de titre. Les barres de titre contiennent également un bouton d’aide contextuelle. les Applications qui s’exécutent dans la Far-East version du système d’exploitation Windows peuvent également contenir des boutons de l’éditeur de méthode d’entrée (IME). Microsoft Active Accessibility expose ces boutons en tant qu’éléments enfants de la barre de titre.
 
 ## <a name="iaccessible-methods"></a>Méthodes IAccessible
 
@@ -99,7 +99,7 @@ Les barres de titre prennent en charge les propriétés [**IAccessible**](/windo
 
  
 
-## <a name="notes"></a>Notes
+## <a name="notes"></a>Remarques
 
 -   Bien que la barre de titre d’une application ait la propriété **État** indicateur de l’état du système, elle n’a jamais le [**\_ \_ focus**](object-state-constants.md)sur le système d’état de l’indicateur d' **État** . [**\_ \_**](object-state-constants.md) La définition du focus sur un objet de barre de titre est axée sur la fenêtre d’application.
 -   Étant donné que l’objet de barre de titre ne prend pas en charge l' [**affichage des \_ accChild**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchild), les boutons de la barre de titre sont des éléments simples. Ils ne prennent pas en charge l’interface [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) proprement dit. L’objet barre de titre fournit des informations sur ces boutons enfants.

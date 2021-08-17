@@ -3,7 +3,7 @@ title: LISTBOX. replaceItem
 description: La méthode replaceItem remplace le texte à l’index spécifié par le texte spécifié.
 ms.assetid: 8dc05dc6-4f89-4ae6-8a28-cbc418449694
 keywords:
-- LISTBOX. replaceItem Windows Media Player
+- LISTBOX. replaceItem Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 74592feb9bc58e23853b886ee2383744e36b9cff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4524b479490dff81b9a114ca957c7c40282ded130d2bf35dba8c58a6197eab17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135212"
 ---
 # <a name="listboxreplaceitem"></a>LISTBOX. replaceItem
 

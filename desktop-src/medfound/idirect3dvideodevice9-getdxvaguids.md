@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - dxva.h
-ms.openlocfilehash: 3ea05af8f27399af38419e177d7bd40b029cd63b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a355c27177a546a2e91e769f72d9f4b9e216b005f711d42b5b7af39b4b78361
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119269239"
 ---
 # <a name="idirect3dvideodevice9getdxvaguids-method"></a>IDirect3DVideoDevice9 :: GetDXVAGuids, méthode
 
@@ -60,7 +60,7 @@ Adresse d’un tableau de GUID ou **null**. Si la valeur n’est pas **null**, l
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez cette méthode deux fois. Lors du premier appel, affectez à *pGuids* la **valeur null**. Le paramètre *pNumGuids* reçoit le nombre de GUID du profil DXVA. Allouez un tableau de GUID avec la taille requise et rappelez la méthode. Cette fois-ci, définissez *pGuids* sur l’adresse du tableau. La méthode remplit le tableau avec la liste des GUID de profil DXVA.
 
@@ -70,8 +70,8 @@ Appelez cette méthode deux fois. Lors du premier appel, affectez à *pGuids* la
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>DXVA. h</dt> </dl> |
 
 
