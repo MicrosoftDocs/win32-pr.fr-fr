@@ -4,12 +4,12 @@ ms.assetid: e5fc3bae-0646-4418-a8f7-369856f03cd5
 title: Création de dll pour les assemblys côte à côte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa15f3876c60ce55be00d60d8f417eb0c2cbf6ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb83ba1d788d82e8d4fa7ab5f657170875b5deee6921aec3013406328dc2fcf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142452"
 ---
 # <a name="authoring-dlls-for-side-by-side-assemblies"></a>Création de dll pour les assemblys côte à côte
 
@@ -17,9 +17,9 @@ Lorsque vous créez vos propres assemblys côte à côte, suivez les [instructio
 
 -   Vos dll doivent être conçues de manière à ce que plusieurs versions puissent s’exécuter en même temps et dans le même processus sans interférer les unes avec les autres. Par exemple, de nombreuses applications hébergent plusieurs plug-ins qui requièrent chacun une version différente d’un composant. Le développeur doit concevoir et tester l’assembly côte à côte pour s’assurer que plusieurs versions du composant fonctionnent correctement lorsqu’elles sont exécutées en même temps dans le même processus.
 
--   Si vous envisagez de fournir votre composant en tant que composant partagé sur des systèmes antérieurs à Windows XP, vous devez continuer à installer le composant sur ces systèmes en tant que composant partagé d’instance unique. Dans ce cas, vous devez vous assurer que votre composant est à compatibilité descendante.
+-   si vous envisagez de fournir votre composant en tant que composant partagé sur des systèmes antérieurs à Windows XP, vous devez continuer à installer le composant sur ces systèmes en tant que composant partagé d’instance unique. Dans ce cas, vous devez vous assurer que votre composant est à compatibilité descendante.
 
--   Évaluer l’utilisation des objets quand plusieurs versions de votre assembly sont exécutées sur le système. Déterminez si les différentes versions de l’assembly nécessitent des structures de données distinctes, telles que les fichiers mappés en mémoire, les canaux nommés, les messages Windows inscrits et les classes, la mémoire partagée, les sémaphores, les mutex et les pilotes matériels. Toutes les structures de données utilisées dans les versions d’assembly doivent être à compatibilité descendante. Déterminez les structures de données qui peuvent être utilisées dans les différentes versions et les structures de données qui doivent être privées pour une version. Déterminez si les structures de données partagées nécessitent des objets de synchronisation distincts, tels que des sémaphores et des mutex.
+-   Évaluer l’utilisation des objets quand plusieurs versions de votre assembly sont exécutées sur le système. déterminez si les différentes versions de l’assembly nécessitent des structures de données distinctes, telles que les fichiers mappés en mémoire, les canaux nommés, les messages et les classes inscrits Windows, la mémoire partagée, les sémaphores, les mutex et les pilotes matériels. Toutes les structures de données utilisées dans les versions d’assembly doivent être à compatibilité descendante. Déterminez les structures de données qui peuvent être utilisées dans les différentes versions et les structures de données qui doivent être privées pour une version. Déterminez si les structures de données partagées nécessitent des objets de synchronisation distincts, tels que des sémaphores et des mutex.
 
 -   Certains objets, tels que les classes de fenêtre et les atomes, sont nommés de manière unique pour chaque processus. Les objets tels que les classes de fenêtre doivent être dotés d’un contrôle de version pour chaque assembly utilisant le manifeste. Pour les objets tels que les atomes, utilisez des identificateurs spécifiques à la version, sauf si vous envisagez de partager entre les versions. Si vous utilisez des identificateurs spécifiques à la version, utilisez le numéro de version en quatre parties.
 
@@ -47,7 +47,7 @@ Lorsque vous créez vos propres assemblys côte à côte, suivez les [instructio
 
 -   Assignez des versions à toutes les structures de données.
 
--   Votre DLL doit stocker l’état de l’assembly côte à côte comme décrit dans [création du stockage d’État pour les assemblys côte à côte](authoring-state-storage-for-side-by-side-assemblies.md).
+-   votre DLL doit stocker l’état de l’assembly côte à côte, comme décrit dans la section création d’un [état Stockage pour les assemblys côte à côte](authoring-state-storage-for-side-by-side-assemblies.md).
 
  
 

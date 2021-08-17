@@ -3,7 +3,7 @@ title: Message LVM_GETFOOTERITEM (commctrl. h)
 description: Obtient des informations sur un élément de pied de page dans un contrôle List-View. Envoyez ce message explicitement ou à l’aide de la \_ macro ListView GetFooterItem.
 ms.assetid: 92f55719-c265-433f-84fc-a673680c7ad9
 keywords:
-- LVM_GETFOOTERITEM les contrôles de message Windows
+- LVM_GETFOOTERITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e642c9d853ae11edcd9199e48de61592de4883c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c0b38bb8a91f93c456bd8096a3736eaec79e6c3472d0f18a133de482bb2c0328
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968279"
 ---
 # <a name="lvm_getfooteritem-message"></a>\_Message GETFOOTERITEM LVM
 
@@ -53,8 +53,8 @@ Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

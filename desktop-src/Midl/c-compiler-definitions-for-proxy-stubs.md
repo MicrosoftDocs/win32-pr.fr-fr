@@ -6,12 +6,12 @@ keywords:
 - Compilateur MIDL MIDL, compilateur C, définitions pour les proxys/stubs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af1504c600c3f86a934ab3daa132b041c7310af3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f12b9fd1e2688545137dba870816c1765102ce3593d09ea3cb062bd8250c7c28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807833"
 ---
 # <a name="c-compiler-definitions-for-proxystubs"></a>C-définitions de compilateur pour les proxys/stubs
 
@@ -27,7 +27,7 @@ Le fichier d’en-tête rpcproxy. h comprend les définitions de macro suivantes
 
 
 
- 
+ 
 
 En définissant la macro **\_ \_ dll du proxy d’inscription** lors de la compilation de dlldata. c, votre dll de marshaling de proxy/stub inclut automatiquement les définitions par défaut des fonctions **DllMain**, **DllRegisterServer** et **DllUnregisterServer** . Vous pouvez utiliser ces fonctions pour enregistrer automatiquement votre DLL de proxy dans le registre système.
 
@@ -61,9 +61,9 @@ proxy.dll : $(PROXYSTUBOBJX) example.def
 
 Pour plus d’informations sur l’option de préprocesseur [**/d**](-d.md) , consultez la documentation de votre compilateur C.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -29,12 +29,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31c575acefbfef54dc4c858f465f0cdde2ce8bc7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9cfe0551cf02f94f3494fde5ebf49ffb60c2bd4a966db1efb5f0dfeb3bd9e4bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138812"
 ---
 # <a name="imsrdpclientadvancedsettings6relativemousemode-property"></a>IMsRdpClientAdvancedSettings6 :: RelativeMouseMode, propriété
 
@@ -61,9 +61,9 @@ HRESULT get_RelativeMouseMode(
 
 Contient la nouvelle valeur de la propriété.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le mode de la souris indique comment le contrôle ActiveX calcule les coordonnées de la souris qu’il envoie au serveur Bureau à distance hôte de session (hôte de session Bureau à distance). Lorsque la souris est en mode relatif, le contrôle ActiveX calcule les coordonnées de la souris par rapport à la dernière position de la souris. Lorsque la souris est en mode absolu, le contrôle ActiveX calcule les coordonnées de la souris par rapport au Bureau du serveur hôte de session Bureau à distance.
+le mode de la souris indique comment le contrôle de ActiveX calcule les coordonnées de la souris qu’il envoie au serveur d’hôte de session Bureau à distance (hôte de session bureau à distance). lorsque la souris est en mode relatif, le contrôle ActiveX calcule les coordonnées de la souris par rapport à la dernière position de la souris. lorsque la souris est en mode absolu, le contrôle ActiveX calcule les coordonnées de la souris par rapport au bureau du serveur hôte de Session bureau à distance.
 
 ## <a name="requirements"></a>Configuration requise
 

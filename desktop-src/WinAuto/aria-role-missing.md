@@ -6,12 +6,12 @@ keywords:
 - AriaContainerRoleErrorMessage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eede416392e8b4cb644938242a9975238118ff07
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 0cebaa2e6f4526d0a1e820e60adc1d28439d3f361c7ffb58a0c4d855861ea46d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104383143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133992"
 ---
 # <a name="aria-role-error-for-elements-with-event-handlers"></a>Erreur de rôle ARIA pour les éléments avec gestionnaires d’événements
 
@@ -21,7 +21,7 @@ L’élément a un gestionnaire d’événements mais le rôle WAI-ARIA valide n
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -43,9 +43,9 @@ Pour corriger cette erreur, définissez l’attribut de [**rôle**](https://deve
 
 
 
- 
+ 
 
- 
+ 
 
 
 

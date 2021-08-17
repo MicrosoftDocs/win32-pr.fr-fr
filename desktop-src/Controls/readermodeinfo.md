@@ -3,8 +3,8 @@ title: READERMODEINFO, structure
 description: Contient les informations requises pour initialiser la fonction DoReaderMode.
 ms.assetid: 7b9c73bc-b093-4592-befd-67508fb86fe0
 keywords:
-- Contrôles Windows de la structure READERMODEINFO
-- Contrôles Windows du pointeur de structure PREADERMODEINFO
+- READERMODEINFO, structure Windows, contrôles
+- PREADERMODEINFO, pointeur de structure, contrôles Windows
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2dacf0fc59ef62447ca12b7a470689e13967d687
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 510dc7a763d50b42f06b2510e609e0bc7c3c6f31fa1f4c08393964cef75487fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169119"
 ---
 # <a name="readermodeinfo-structure"></a>READERMODEINFO, structure
 
@@ -137,7 +137,7 @@ Informations supplémentaires requises par l’application, lues par l’appelan
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure n’est pas déclarée dans un en-tête public. Pour l’utiliser, vous devez inclure la déclaration ci-dessus dans votre propre en-tête.
 
@@ -147,8 +147,8 @@ Cette structure n’est pas déclarée dans un en-tête public. Pour l’utilise
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista, applications de \[ Bureau Windows Vista uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>          |
+| Client minimal pris en charge<br/> | Windows vista, Windows les \[ applications de bureau vista uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>          |
 
 
 

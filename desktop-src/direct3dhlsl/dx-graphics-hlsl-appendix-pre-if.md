@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a32206232c726f19febf77c3f3270882894a6747
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bb5f4716509905d4ce800abbe4cb11b85d116d7a5afd5a56301b1ecb5ce0724b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726449"
 ---
 # <a name="if-elif-else-and-endif-directives"></a>\#Directives if, \# Elif, \# else et \# endif
 
@@ -49,7 +49,7 @@ Directives de préprocesseur qui contrôlent la compilation des parties d’un f
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque \# directive if dans un fichier source doit être mise en correspondance par une \# directive de fermeture endif. Un nombre quelconque de \# directives Elif peuvent apparaître entre les \# directives if et \# endif, mais au plus une \# directive else est autorisée. La \# directive else, le cas échéant, doit être la dernière directive avant \# endif. Les directives de compilation conditionnelle contenues dans les fichiers include doivent respecter les mêmes conditions.
 

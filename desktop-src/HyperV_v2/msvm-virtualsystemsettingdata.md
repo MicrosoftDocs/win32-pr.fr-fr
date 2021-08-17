@@ -73,12 +73,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2787abbacfe4220b135544eecd3aeb7e86596c81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb57c7b96a6e2cd1839f4d830074bb69d742aef688325a37d61b67589d026436
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147892"
 ---
 # <a name="msvm_virtualsystemsettingdata-class"></a>MSVM \_ VirtualSystemSettingData, classe
 
@@ -229,7 +229,7 @@ Type d'accès : Lecture seule
 Architecture de ce système.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -263,7 +263,7 @@ Type d’accès : lecture/écriture
 Identifie l’action à entreprendre sur la machine virtuelle, lorsqu’une erreur critique se produit, comme la déconnexion du stockage.
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -308,7 +308,7 @@ Qualificateurs : [**SubType**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 Identifie la durée maximale d’exécution du **AutomaticCriticalErrorAction** pour résoudre l’erreur critique. Cela s’applique uniquement lorsque la valeur de la propriété **AutomaticCriticalErrorAction** n’est pas 0 (aucun). Une fois le délai d’attente expiré, la machine virtuelle est mise hors tension. La valeur est arrondie à la minute la plus proche. La valeur 0 indique que la machine virtuelle doit être mise hors tension immédiatement lorsqu’elle rencontre une condition d’erreur critique.
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -331,7 +331,7 @@ Il peut s’agir de l’une des valeurs suivantes.
 
 | Valeur                                                                               | Signification                        |
 |-------------------------------------------------------------------------------------|--------------------------------|
-| <dl> <dt>2</dt> </dl>        | Aucun<br/>               |
+| <dl> <dt>2</dt> </dl>        | Aucun.<br/>               |
 | <dl> <dt>3</dt> </dl>        | Redémarrer.<br/>            |
 | <dl> <dt>4</dt> </dl>        | Revenir à l’instantané.<br/> |
 | <dl> <dt>5.. 32768</dt> </dl> | Réservé.<br/>           |
@@ -382,7 +382,7 @@ Type d’accès : lecture/écriture
 Indique si les instantanés automatiques doivent être activés sur cet ordinateur virtuel.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -405,7 +405,7 @@ Il peut s’agir de l’une des valeurs suivantes.
 
 | Valeur                                                                               | Signification                                  |
 |-------------------------------------------------------------------------------------|------------------------------------------|
-| <dl> <dt>2</dt> </dl>        | Aucun<br/>                         |
+| <dl> <dt>2</dt> </dl>        | Aucun.<br/>                         |
 | <dl> <dt>3</dt> </dl>        | Redémarrer si l’activité était déjà active.<br/> |
 | <dl> <dt>4</dt> </dl>        | Toujours démarrer.<br/>                 |
 | <dl> <dt>5.. 32768</dt> </dl> | Réservé.<br/>                     |
@@ -581,7 +581,7 @@ Type d’accès : lecture/écriture
 
 Ordre de la source de démarrage de la machine virtuelle.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -675,7 +675,7 @@ Type d’accès : lecture/écriture
 Identifie le mode de console de la machine virtuelle.
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10 et Windows Server 2016.
+> cette propriété a été ajoutée dans Windows 10 et Windows Server 2016.
 
  
 
@@ -839,7 +839,7 @@ Type d’accès : lecture/écriture
 Indique le type de transport à utiliser lors de la connexion à une session étendue.
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1803.
+> cette propriété a été ajoutée dans Windows 10, version 1803.
 
  
 
@@ -873,7 +873,7 @@ Type d’accès : lecture/écriture
 Indique si l’invité peut contrôler les types de cache.
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -891,7 +891,7 @@ Type d'accès : Lecture seule
 Chemin d’un répertoire où sont stockées les informations relatives à l’état d’exécution invité.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -909,7 +909,7 @@ Type d'accès : Lecture seule
 Chemin d’accès d’un fichier dans lequel les informations relatives à l’état d’exécution invité sont stockées. Un chemin d’accès relatif ajoute à la valeur de la propriété **GuestStateDataRoot** .
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -927,7 +927,7 @@ Type d’accès : lecture/écriture
 La taille du haut (au-dessus de 4 Go) Memory-Mapped écart d’e/s en Mo
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703.
+> cette propriété a été ajoutée dans Windows 10, version 1703.
 
  
 
@@ -974,7 +974,7 @@ Type d'accès : Lecture seule
 Indique s’il s’agit d’un instantané créé automatiquement pour l’utilisateur.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -1005,7 +1005,7 @@ Type d’accès : lecture/écriture
 Verrouiller la console lors de la déconnexion de vmconnect.
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -1035,7 +1035,7 @@ Type d’accès : lecture/écriture
 
 Configure la taille, en mégaoctets, du premier intervalle MMIO pour un ordinateur virtuel.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 Plage : 128 3584
 
@@ -1052,7 +1052,7 @@ Type d’accès : lecture/écriture
 
 Détermine si le protocole préféré pour le démarrage PXE est IPv4 ou IPv6.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 <dt>
 
@@ -1127,7 +1127,7 @@ Type d’accès : lecture/écriture
 
 Indique si le BIOS s’interrompt après chaque échec d’entrée de démarrage en attendant que l’utilisateur appuie sur une touche. **True** si le BIOS s’arrête ; Sinon, **false**.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -1160,7 +1160,7 @@ Indique si le démarrage sécurisé est activé pour la machine virtuelle. **Tru
 
  
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -1178,7 +1178,7 @@ Identificateur global unique du modèle de valeurs initiales des variables liée
 Il s’agit d’une propriété en lecture seule, mais elle peut être modifiée à l’aide de la méthode [**ModifyVirtualSystem**](https://www.bing.com/search?q=**ModifyVirtualSystem**) de la classe [**MSVM \_ VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) .
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -1235,7 +1235,7 @@ Type d’accès : lecture/écriture
 Indique le type d’instantané défini par l’utilisateur.
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -1343,7 +1343,7 @@ Type d'accès : Lecture seule
 
 Les valeurs valides pour cette propriété sont Microsoft : Hyper-V : SubType : 1 et Microsoft : Hyper-V : SubType : 2. Une machine virtuelle de génération 1 est SubType 1. Une machine virtuelle de génération 2 est sous-type 2.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 <dt>
 
@@ -1394,7 +1394,7 @@ Spécifie le type de machine virtuelle que les données de paramètre représent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ VirtualSystemSettingData** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -1404,8 +1404,8 @@ L’accès à la classe **MSVM \_ VirtualSystemSettingData** peut être limité 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

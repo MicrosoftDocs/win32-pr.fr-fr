@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Construction d’objets inparamètres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbf9a351caec1ca7af3113bead4078670c88a5f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bc13a51687954331a050337fe785bab29b23ee9c72785ffde78d4f8a8e0d198
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131581"
 ---
 # <a name="constructing-inparameters-objects"></a>Construction d’objets inparamètres
 
@@ -20,7 +20,7 @@ La procédure suivante décrit comment construire un objet [**inparamètres**](s
 
 **Pour construire le paramètre *objwbemInParams***
 
-1.  Connectez-vous à WMI.
+1.  Connecter à WMI.
 2.  Obtenez la définition de la classe WMI qui définit la méthode que vous souhaitez exécuter.
 3.  Obtenez un objet [**inparamètres**](swbemmethod-inparameters.md) spécifique à la méthode de classe WMI que vous souhaitez exécuter.
 

@@ -1,6 +1,6 @@
 ---
 title: Filtrage des identificateurs de condition (Fwpmu. h)
-description: Les identificateurs de condition de filtrage de la plateforme de filtrage Windows (WFP) sont représentés par un GUID.
+description: les identificateurs de condition de filtrage de la plateforme de filtrage de Windows (WFP) sont représentés par un GUID.
 ms.assetid: 4f0b970a-e511-4107-8023-22a8775905b9
 topic_type:
 - apiref
@@ -138,16 +138,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 617946e5708bb982f96edcad155bcbf2509596dc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5d5d1eaf0a86cfdb2cb1051e6ae18f149bcb7934e1de5730857eead42b14917f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951238"
 ---
 # <a name="filtering-condition-identifiers"></a>Filtrage des identificateurs de condition
 
-Les identificateurs de condition de filtrage de la plateforme de filtrage Windows (WFP) sont représentés par un **GUID**. Le type de données de la valeur de condition pour chaque condition de filtrage est spécifié sous la forme d’un [**\_ \_ type de données fwp**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type). Ces identificateurs et leurs types de données sont définis ici.
+les identificateurs de condition de filtrage de la plateforme de filtrage de Windows (WFP) sont représentés par un **GUID**. Le type de données de la valeur de condition pour chaque condition de filtrage est spécifié sous la forme d’un [**\_ \_ type de données fwp**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type). Ces identificateurs et leurs types de données sont définis ici.
 
 Les conditions standard sont répertoriées en premier, suivies des conditions spécifiques du mode utilisateur. Les conditions sont regroupées par système d’exploitation pris en charge, afin que vous puissiez identifier facilement les conditions prises en charge pour un système d’exploitation donné.
 
@@ -371,7 +371,7 @@ Les conditions standard sont répertoriées en premier, suivies des conditions s
 
 
 
-| Constantes disponibles pour Windows Vista avec SP1, Windows Server 2008 et versions ultérieures                                                                                                                                                                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| constantes disponibles pour Windows Vista avec SP1, Windows Server 2008 et versions ultérieures                                                                                                                                                                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="FWPM_CONDITION_IP_ARRIVAL_INTERFACE"></span><span id="fwpm_condition_ip_arrival_interface"></span><dl> <dt>**\_interface d' \_ \_ arrivée IP de condition \_ FWPM**</dt> </dl>                       | LUID de l’interface réseau associée à l’adresse IP d’arrivée. <br/> **Type de données :** FWP \_ UINT64<br/>                                                                                                                                                                                                                                                                                                                                                                          |
 | <span id="FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE"></span><span id="fwpm_condition_arrival_interface_type"></span><dl> <dt>**\_type d' \_ interface d’arrivée \_ \_ de la condition FWPM**</dt> </dl>                 | Type de l’interface réseau d’arrivée telle que définie par l’IANA (Internet Assigned Names Authority). Pour plus d’informations, consultez [https://www.iana.org/assignments/ianaiftype-mib](https://www.iana.org/assignments/ianaiftype-mib). <br/> **Valeurs possibles :** Valeurs de type d’interface listées dans le fichier d’en-tête Ipifcons. h.<br/> **Type de données :** FWP \_ UInt32<br/>                                                                                                                   |
@@ -393,7 +393,7 @@ Les conditions standard sont répertoriées en premier, suivies des conditions s
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Constantes disponibles pour Windows Vista et versions ultérieures</th>
+<th style="text-align: left;">constantes disponibles pour Windows Vista et versions ultérieures</th>
 <th style="text-align: left;">Description</th>
 </tr>
 </thead>
@@ -632,7 +632,7 @@ Les constantes suivantes sont disponibles pour le mode utilisateur uniquement.
 
 
 
-| Conditions de mode utilisateur disponibles pour Windows 8 et Windows Server 2012                                                                                                                       | Description                                                                                                                                                               |
+| conditions de mode utilisateur disponibles pour Windows 8 et Windows Server 2012                                                                                                                       | Description                                                                                                                                                               |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="FWPM_CONDITION_QM_MODE"></span><span id="fwpm_condition_qm_mode"></span><dl> <dt>**\_ \_ mode QM de condition FWPM \_**</dt> </dl> | Mode du filtre en mode rapide (QM). Consultez [**\_ \_ type de trafic IPSec**](/windows/desktop/api/Ipsectypes/ne-ipsectypes-ipsec_traffic_type) pour connaître les valeurs possibles.<br/> **Type de données :** FWP \_ UInt32<br/> |
 
@@ -647,7 +647,7 @@ Les constantes suivantes sont disponibles pour le mode utilisateur uniquement.
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Conditions de mode utilisateur disponibles pour Windows 7, Windows Server 2008 R2 et versions ultérieures</th>
+<th style="text-align: left;">conditions de mode utilisateur disponibles pour Windows 7, Windows Server 2008 R2 et versions ultérieures</th>
 <th style="text-align: left;">Description</th>
 </tr>
 </thead>
@@ -685,7 +685,7 @@ Les constantes suivantes sont disponibles pour le mode utilisateur uniquement.
 <td style="text-align: left;">Méthode utilisée pour authentifier l’Association de sécurité.<br/>
 <blockquote>
 [!Note]<br />
-Disponible uniquement sur Windows Server 2008 R2, Windows 7 et versions ultérieures.
+disponible uniquement sur Windows Server 2008 R2, Windows 7 et versions ultérieures.
 </blockquote>
 <br/> <strong>Type de données :</strong> FWP_UINT32 <br/></td>
 </tr>
@@ -703,7 +703,7 @@ Disponible uniquement sur Windows Server 2008 R2, Windows 7 et versions ultérie
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Constantes disponibles pour Windows Vista et versions ultérieures</th>
+<th style="text-align: left;">constantes disponibles pour Windows Vista et versions ultérieures</th>
 <th style="text-align: left;">Description</th>
 </tr>
 </thead>
@@ -844,7 +844,7 @@ Disponible uniquement sur Windows Server 2008 R2, Windows 7 et versions ultérie
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque les adresses IP sont stockées au \_ format fwp UInt32 ou lorsqu’un port IP est stocké au \_ format fwp UINT16, elles sont stockées dans l’ordre de l’hôte, et non dans l’ordre du réseau.
 
@@ -854,6 +854,6 @@ Lorsque les adresses IP sont stockées au \_ format fwp UInt32 ou lorsqu’un po
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Fwpmu. h</dt> </dl> |

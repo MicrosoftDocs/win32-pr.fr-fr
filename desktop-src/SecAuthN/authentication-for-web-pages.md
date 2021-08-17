@@ -4,12 +4,12 @@ ms.assetid: 5B058197-67B3-40DD-80D8-7BD8EE084CC9
 title: Authentification pour les pages Web
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e7c7bd37334f345ae16074c050b6b06c5fd644f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e46a063cdd63631f84aa21980f89a143b3d1e9b42af020799d0f9f1bb7502b63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141435"
 ---
 # <a name="authentication-for-web-pages"></a>Authentification pour les pages Web
 
@@ -27,14 +27,14 @@ Aucun
 
 ### <a name="1-getting-started"></a>1. Mise en route
 
-Lancez le fichier d’installation pour installer un site Web Contoso dans Internet Information Services 8 sur l’ordinateur local afin d’héberger les fichiers HTML et CSS de l’exemple.
+lancez le fichier d’installation pour installer un site web Contoso dans Internet Information Services 8 sur l’ordinateur local afin d’héberger les fichiers HTML et CSS de l’exemple.
 
 1.  Des exemples de fichiers HTML et CSS seront installés dans le répertoire Program Files de Microsoft \\ contoso.
-2.  En outre, une application du Windows Store « Fabrikam social » sera déconditionnée sur le bureau.
+2.  en outre, une application de magasin de Windows « Fabrikam Social » sera déconditionnée sur le bureau.
 
 ### <a name="2-getting-familiar"></a>2. Familiarisez-vous avec
 
-Pour avoir une idée de ce à quoi ressemblent les exemples de pages dans le répartiteur d’authentification Web, ouvrez le fichier solution Fabrikam de Visual Studio 11 social dans le dossier « Fabrikam social » sur le bureau.
+pour avoir une idée de ce à quoi ressemblent les exemples de pages dans le service Broker d’authentification Web, ouvrez le fichier de solution fabrikam social Visual Studio 11 dans le dossier « fabrikam social » sur le bureau.
 
 1.  Exécutez l’application et appuyez sur « Démarrer » pour afficher les exemples de pages dans le répartiteur d’authentification Web.
 2.  L’application peut être redimensionnée d’un côté ou activée en partageant des données à l’application.

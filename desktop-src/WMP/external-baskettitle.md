@@ -3,7 +3,7 @@ title: External. basketTitle
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. basketTitle
 ms.assetid: 528b7d8e-7702-4139-b2bd-a06c7f15cb87
 keywords:
-- External. basketTitle Windows Media Player
+- External. basketTitle Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 610ce5ecf054d6ab1edba4e0aab5f2eff3a969fa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f20b01fd9b0185dcd1d20a2d063f464699d51e51d54560dfc43f87da21dc9c44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649529"
 ---
 # <a name="externalbaskettitle"></a>External. basketTitle
 
@@ -28,7 +28,7 @@ ms.locfileid: "106530378"
 
  
 
-La propriété **basketTitle** récupère le titre du bouton dans le volet Liste (également appelé panier) dans le lecteur Windows Media.
+la propriété **basketTitle** récupère le titre du bouton dans le volet liste (également appelé panier) dans Lecteur Windows Media.
 
 ``` syntax
 window.external.basketTitle

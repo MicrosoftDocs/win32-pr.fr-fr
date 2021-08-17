@@ -3,7 +3,7 @@ title: LISTBOX. getItem
 description: La méthode getItem récupère le texte de l’élément avec l’index spécifié.
 ms.assetid: fc4b1b4b-bd4d-4263-a83f-99c406d0ef61
 keywords:
-- LISTBOX. getItem lecteur Windows Media
+- LISTBOX. getItem Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2c6bd930fabfe29e50bf8eb8265beb6d1abea7f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 05c4043462aa1013df46039bb2d4524ba3b17b4d937a9b8145d46cf181ff246f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996459"
 ---
 # <a name="listboxgetitem"></a>LISTBOX. getItem
 

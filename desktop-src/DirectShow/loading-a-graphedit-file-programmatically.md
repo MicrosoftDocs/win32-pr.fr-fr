@@ -4,12 +4,12 @@ ms.assetid: 0e1cff4e-43f8-4d0a-b7a7-b6d0278e9e4a
 title: Chargement d’un fichier baGraphEdit par programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9a4780ead7b65d883bdd48917c6372425612435
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: faf2bdff86a47e740e6cb177a70a7b1e12ffc7c865d8ad231f6ada9122f286d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104481745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118153177"
 ---
 # <a name="loading-a-graphedit-file-programmatically"></a>Chargement d’un fichier baGraphEdit par programmation
 
@@ -55,7 +55,7 @@ HRESULT LoadGraphFile(IGraphBuilder *pGraph, const WCHAR* wszName)
 
 
 > [!Note]  
-> L’appel à **IPersistStream :: Load** dans l’exemple de code précédent peut retourner un code d’erreur ou de réussite DirectShow. Pour obtenir la liste des valeurs de retour possibles, consultez [codes d’erreur et de réussite](error-and-success-codes.md).
+> l’appel à **IPersistStream :: Load** dans l’exemple de code précédent peut retourner un DirectShow code d’erreur ou de réussite. Pour obtenir la liste des valeurs de retour possibles, consultez [codes d’erreur et de réussite](error-and-success-codes.md).
 
  
 
@@ -65,7 +65,7 @@ Les fichiers GraphEdit sont destinés uniquement à des fins de test et de débo
 
 <dl> <dt>
 
-[Simulation de la génération de graphiques avec GraphEdit](simulating-graph-building-with-graphedit.md)
+[simulation d’Graph génération avec GraphEdit](simulating-graph-building-with-graphedit.md)
 </dt> <dt>
 
 [**StgIsStorageFile**](/windows/win32/api/coml2api/nf-coml2api-stgisstoragefile)

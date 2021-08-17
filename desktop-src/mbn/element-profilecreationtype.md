@@ -7,12 +7,12 @@ MSHAttr:
 title: ProfileCreationType (dans MBNProfileExt)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b56e09a18721bfa7d5f33d8e7511122f3d731f4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 798f5f300a712f4b614e73007e0d0237c19e41010335d469bd58521a29847805
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119358709"
 ---
 # <a name="span-idwwan_profile_v4element_profilecreationtypespanprofilecreationtype-in-mbnprofileext"></a><span id="WWAN_profile_v4.element_ProfileCreationType"></span>ProfileCreationType (dans MBNProfileExt)
 
@@ -39,11 +39,11 @@ Pour plus d’informations sur cet élément, consultez la documentation de l’
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributs
 
-Aucun
+Aucun.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Éléments enfants
 
-Aucun
+Aucun.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Éléments parents
 

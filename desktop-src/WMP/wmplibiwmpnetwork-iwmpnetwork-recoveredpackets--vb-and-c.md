@@ -3,9 +3,9 @@ title: IWMPNetwork propriété recoveredPackets
 description: La propriété recoveredPackets obtient le nombre de paquets récupérés.
 ms.assetid: 90fcefcd-2bd7-4fb5-8337-36bec5d44e60
 keywords:
-- propriété recoveredPackets lecteur Windows Media
-- propriété recoveredPackets lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, propriété recoveredPackets
+- Lecteur Windows Media de la propriété recoveredPackets
+- Lecteur Windows Media de la propriété recoveredPackets, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, propriété recoveredPackets
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fe9fb8b44249be30289abb2f8922343285ca074
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7665fad35e87b32b4e5cf20875e7b0f59c5e7fb8915fa7595fd625a04303835c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956079"
 ---
 # <a name="iwmpnetworkrecoveredpackets-property"></a>IWMPNetwork :: recoveredPackets, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property recoveredPackets As System.Int32
 
 **System. Int32** qui correspond au nombre de paquets récupérés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque fois que la lecture est arrêtée et redémarrée, cette propriété est réinitialisée à zéro. La valeur n’est pas réinitialisée si la lecture est suspendue.
 

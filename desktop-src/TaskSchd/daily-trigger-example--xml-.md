@@ -1,6 +1,6 @@
 ---
 title: Exemple de déclencheur quotidien (XML)
-description: Le code XML de cet exemple définit une tâche qui démarre le bloc-notes à 8 00 AM tous les jours.
+description: le code XML de cet exemple définit une tâche qui démarre Bloc-notes à 8 00 AM tous les jours.
 ms.assetid: b7818071-12b6-41df-85b9-282c08cf6e31
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,22 +9,22 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: fe673a764e6e7e4e3ae5089022da2232821d9184
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: cd98ada9a69f694d59262682317b7e5be91509b4862f8b896e22b7b0deac2167
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "103679525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139502"
 ---
 # <a name="daily-trigger-example-xml"></a>Exemple de déclencheur quotidien (XML)
 
-Le code XML de cet exemple définit une tâche qui démarre le bloc-notes à 8:00 AM tous les jours. L’exemple montre également comment définir un modèle de répétition pour le déclencheur afin de répéter la tâche.
+le code XML de cet exemple définit une tâche qui démarre Bloc-notes à 8:00 AM tous les jours. L’exemple montre également comment définir un modèle de répétition pour le déclencheur afin de répéter la tâche.
 
-Pour inscrire une tâche définie en XML, vous pouvez utiliser la fonction [**ITaskFolder :: RegisterTask**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) ([**TaskFolder. RegisterTask**](taskfolder-registertask.md) pour l’écriture de scripts) ou l’outil de ligne de commande Schtasks.exe. Si vous utilisez l’outil Schtasks.exe (situé dans le répertoire C : \\ Windows \\ system32), vous pouvez utiliser la commande suivante pour inscrire la tâche : **SCHTASKS/Create/XML** *<path to the XML file containing the task definition>* **/TN** *<task name>* .
+Pour inscrire une tâche définie en XML, vous pouvez utiliser la fonction [**ITaskFolder :: RegisterTask**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) ([**TaskFolder. RegisterTask**](taskfolder-registertask.md) pour l’écriture de scripts) ou l’outil de ligne de commande Schtasks.exe. si vous utilisez l’outil Schtasks.exe (situé dans le répertoire C : \\ Windows \\ System32), vous pouvez utiliser la commande suivante pour inscrire la tâche : **schtasks/create/xml** *<path to the XML file containing the task definition>* **/tn** *<task name>* .
 
-## <a name="to-define-a-task-to-start-notepad-every-day-at-800-am"></a>Pour définir une tâche de démarrage du bloc-notes tous les jours à 8:00 AM
+## <a name="to-define-a-task-to-start-notepad-every-day-at-800-am"></a>pour définir une tâche de façon à ce qu’elle démarre Bloc-notes tous les jours à 8:00 AM
 
-L’exemple de code XML suivant montre comment définir une tâche avec une seule action d’exécution (démarrage du bloc-notes), un seul déclencheur de calendrier (démarre la tâche chaque jour à 8:00 AM) et plusieurs autres paramètres de tâche qui affectent la façon dont la tâche est gérée par Planificateur de tâches.
+l’exemple de code XML suivant montre comment définir une tâche avec une action d’exécution unique (à partir de Bloc-notes), un seul déclencheur de calendrier (démarre la tâche chaque jour à 8:00 AM) et plusieurs autres paramètres de tâche qui affectent la façon dont la tâche est gérée par Planificateur de tâches.
 
 
 ```XML
@@ -100,7 +100,7 @@ Voici quelques éléments importants à prendre en compte lors de l’utilisatio
 
 -   [**Actions**](taskschedulerschema-actions-tasktype-element.md)
 
-    Définit les actions exécutées par la tâche (dans ce cas, le bloc-notes).
+    définit les actions effectuées par la tâche (dans ce cas, en cours d’exécution Bloc-notes).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -109,9 +109,9 @@ Voici quelques éléments importants à prendre en compte lors de l’utilisatio
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

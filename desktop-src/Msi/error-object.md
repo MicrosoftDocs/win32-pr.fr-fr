@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 36fce310e6f75889ba5092f4fe43b6ca52ee2963
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 237cf88b2830bf210e84d016b52b7fd0b0183c0c0072ac8f654663e2cd3c12dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947030"
 ---
 # <a name="error-object"></a>Objet d’erreur
 
@@ -41,11 +41,11 @@ L’objet **Error** a ces propriétés.
 |:--------------------------------------------------------|:--------------------------------------------------------------------------------------------|
 | [**DatabaseKeys**](error-databasekeys.md)<br/>   | Retourne les clés primaires de la ligne dans la table de base de données qui a provoqué l’erreur.<br/> |
 | [**DatabaseTable**](error-databasetable.md)<br/> | Retourne le nom de table de la table dans la base de données à l’origine de l’erreur.<br/>           |
-| [**Language**](error-language.md)<br/>           | Retourne la langue de l’erreur.<br/>                                                |
+| [**Langage**](error-language.md)<br/>           | Retourne la langue de l’erreur.<br/>                                                |
 | [**ModuleKeys**](error-modulekeys.md)<br/>       | Retourne les clés primaires de la ligne dans la table de module qui a provoqué l’erreur.<br/>   |
 | [**ModuleTable**](error-moduletable.md)<br/>     | Retourne le nom de table de la table dans le module à l’origine de l’erreur.<br/>             |
-| [**D**](error-path.md)<br/>                   | Retourne le chemin d’accès au fichier ou au répertoire à l’origine de l’erreur. Actuellement inutilisé.<br/>    |
-| [**Entrer**](error-type.md)<br/>                   | Retourne le type d’erreur.<br/>                                                        |
+| [**Chemin**](error-path.md)<br/>                   | Retourne le chemin d’accès au fichier ou au répertoire à l’origine de l’erreur. Actuellement inutilisé.<br/>    |
+| [**Type**](error-type.md)<br/>                   | Retourne le type d’erreur.<br/>                                                        |
 
 
 

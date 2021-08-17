@@ -4,12 +4,12 @@ ms.assetid: b7a670c8-977e-4577-af61-5a9639b2822a
 title: System.Devices.DeviceInstanceId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b172071c87b0ee96f79ffcb56c38298524ff6664
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2a2491bfb4e1cfe915d2ebf7fce7d4fd87d5de47d7fff97af39c8549b6a4243
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106542936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118054278"
 ---
 # <a name="systemdevicesdeviceinstanceid"></a>System.Devices.DeviceInstanceId
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

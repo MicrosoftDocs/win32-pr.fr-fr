@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 propriété DisableConnectionBar
-description: Spécifie si le contrôle ActiveX Bureau à distance doit désactiver la barre de connexion.
+description: spécifie si le contrôle de ActiveX Bureau à distance doit désactiver la barre de connexion.
 ms.assetid: 82c57b93-f976-43e6-97f9-3602bf97e466
 ms.tgt_platform: multiple
 keywords:
@@ -18,16 +18,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a129d4781db69a564eecbca3a715c3c5ccf1a9cc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4f74fce650eb82514538eed7066b937c29f8618aba1eab7531f3bdb7e1127da5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104519234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138742"
 ---
 # <a name="imsrdpclientnonscriptable5disableconnectionbar-property"></a>IMsRdpClientNonScriptable5 ::D propriété isableConnectionBar
 
-Spécifie si le contrôle ActiveX Bureau à distance doit désactiver la barre de connexion. Si cette propriété contient **la \_ valeur variant true**, la barre de connexion doit être désactivée. Si cette propriété contient **la \_ valeur false**, la barre de connexion doit être activée.
+spécifie si le contrôle de ActiveX Bureau à distance doit désactiver la barre de connexion. Si cette propriété contient **la \_ valeur variant true**, la barre de connexion doit être désactivée. Si cette propriété contient **la \_ valeur false**, la barre de connexion doit être activée.
 
 Cette propriété est en écriture seule.
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 10bf0886032c93288435ade05fec46077d53753c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 285d26e4eb141904e8a1951e6e42d0df0ef5d9738e5849057bbfe1e0a978e0b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742999"
 ---
 # <a name="irtcstop-method"></a>IRTC :: Stop, méthode
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Stop();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -48,15 +48,15 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
 | Code de retour                                                                                          | Description                                                                                                                   |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl> | Le NPP n’est pas connecté au réseau. Appelez [IRTC :: Connect](irtc-connect.md) pour connecter le NPP au réseau.<br/> |
+| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl> | Le NPP n’est pas connecté au réseau. appelez [IRTC :: Connecter](irtc-connect.md) pour connecter le NPP au réseau.<br/> |
 | <dl> <dt>**NMERR \_ pas de \_ capture**</dt> </dl> | Le NPP ne capture pas de données. Appelez [IRTC :: Start](irtc-start.md) pour démarrer la capture.<br/>                            |
-| <dl> <dt>**NMERR \_ pas de \_ temps réel**</dt> </dl>  | Le NPP est connecté au réseau, mais pas avec la méthode [IRTC :: Connect](irtc-connect.md) .<br/>                     |
+| <dl> <dt>**NMERR \_ pas de \_ temps réel**</dt> </dl>  | le NPP est connecté au réseau, mais pas avec la méthode [IRTC :: Connecter](irtc-connect.md) .<br/>                     |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Lorsque vous redémarrez la capture après avoir appelé la méthode **IRTC :: Stop** , veillez à appeler [IRTC :: configure](irtc-configure.md) chaque fois que vous appelez [IRTC :: Start](irtc-start.md) pour redémarrer la capture.
 
@@ -80,7 +80,7 @@ Lorsque vous redémarrez la capture après avoir appelé la méthode **IRTC :: 
 [IRTC](irtc.md)
 </dt> <dt>
 
-[IRTC :: Connect](irtc-connect.md)
+[IRTC :: Connecter](irtc-connect.md)
 </dt> <dt>
 
 [IRTC :: configure](irtc-configure.md)

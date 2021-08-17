@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 46b0dfb321763a3b3bfe622e116f2e76c5e59423
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9246352e78472461bfbfe37569d9bd631905fda03c87571ed7ed3dad04edb797
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744465"
 ---
 # <a name="iwinhttprequestsetcredentials-method"></a>IWinHttpRequest :: SetCredentials, méthode
 
@@ -56,7 +56,7 @@ Spécifie le mot de passe pour l’authentification. Ce paramètre est ignoré s
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Spécifie quand [**IWinHttpRequest**](iwinhttprequest-interface.md) utilise les informations d’identification. Il peut s’agir de l’une des valeurs suivantes.
@@ -78,12 +78,12 @@ Spécifie quand [**IWinHttpRequest**](iwinhttprequest-interface.md) utilise les 
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode retourne une valeur d’erreur si un appel à l' [**ouverture**](iwinhttprequest-open.md) ne s’est pas terminé correctement. Il est supposé qu’une certaine mesure d’interaction avec un serveur proxy ou un serveur d’origine doit se produire pour que les utilisateurs puissent définir des informations d’identification pour la session. En outre, jusqu’à ce que les utilisateurs sachent quels schémas d’authentification sont pris en charge, ils ne peuvent pas formater les informations d’identification.
 
 > [!Note]  
-> Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+> pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la Page de démarrage de WinHTTP.
 
  
 
@@ -285,8 +285,8 @@ WScript.Echo(WinHttpReq.GetAllResponseHeaders());
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | MIDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

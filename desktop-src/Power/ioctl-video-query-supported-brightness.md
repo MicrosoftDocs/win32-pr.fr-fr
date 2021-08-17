@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntddvdeo.h
-ms.openlocfilehash: a5618ec29fd47ba690106b5f826e6fb145eac208
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c41b6773b0ed64160e2ad8850b6092dd5ec987c3e6726ba1cd668909c266311
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143392"
 ---
 # <a name="ioctl_video_query_supported_brightness-control-code"></a>\_Code de \_ contrôle de \_ luminosité pris en charge \_ pour la requête de vidéo IOCTL
 
@@ -124,7 +124,7 @@ Si l’opération échoue ou est en attente, [**DeviceIoControl**](/windows/desk
 
 Chaque élément du tableau *lpOutBuffer* est d’une longueur d’un octet. Par conséquent, lors du retour, le paramètre *lpBytesReturned* indique le nombre de niveaux pris en charge. Chaque niveau est une valeur comprise entre 0 et 100. Plus la valeur est grande, plus le rétroéclairage est clair. Tous les niveaux sont pris en charge, que la source d’alimentation soit AC ou DC.
 
-Le fichier d’en-tête utilisé pour créer des applications qui incluent cette fonctionnalité, Ntddvdeo. h, est inclus dans le kit de développement de pilotes (DDK) Microsoft Windows. Pour plus d’informations sur l’obtention du DDK, consultez [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/windows/hardware/gg454513) .
+le fichier d’en-tête utilisé pour créer des applications qui incluent cette fonctionnalité, Ntddvdeo. h, est inclus dans Microsoft Windows Driver Development Kit (DDK). Pour plus d’informations sur l’obtention du DDK, consultez [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/windows/hardware/gg454513) .
 
 Vous pouvez également définir ce code de contrôle comme suit :
 
@@ -140,7 +140,7 @@ Vous pouvez également définir ce code de contrôle comme suit :
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP1 uniquement\]<br/>                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Ntddvdeo. h</dt> </dl> |
 
 
