@@ -1,20 +1,20 @@
 ---
 title: Read-Only les contrôleurs de schéma et le schéma de Active Directory
-description: Windows Server 2008 introduit un nouveau type de contrôleur de domaine, le contrôleur de domaine en lecture seule (RODC).
+description: Windows Le serveur 2008 introduit un nouveau type de contrôleur de domaine, le contrôleur de domaine en lecture seule (RODC).
 ms.assetid: 9d9082d2-6f7f-4ffa-b8c7-6414be764d0c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4284ffdda7ed2fbe481c201f7da69371209ce55
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: a9616230c38ad3d210aca5e18d5492a09610b9b3048b72f810c3c0ac466c4ea5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104102496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184150"
 ---
 # <a name="read-only-dcs-and-the-active-directory-schema"></a>Read-Only les contrôleurs de schéma et le schéma de Active Directory
 
-Windows Server 2008 introduit un nouveau type de contrôleur de domaine, le contrôleur de domaine en lecture seule (RODC). Cela fournit un contrôleur de domaine à utiliser dans les succursales où un contrôleur de domaine complet ne peut pas être placé. L’objectif est de permettre aux utilisateurs des succursales de se connecter et d’effectuer des tâches telles que le partage de fichiers et d’imprimantes, même en l’absence de connectivité réseau avec les sites hub.
+Windows Le serveur 2008 introduit un nouveau type de contrôleur de domaine, le contrôleur de domaine en lecture seule (RODC). Cela fournit un contrôleur de domaine à utiliser dans les succursales où un contrôleur de domaine complet ne peut pas être placé. L’objectif est de permettre aux utilisateurs des succursales de se connecter et d’effectuer des tâches telles que le partage de fichiers et d’imprimantes, même en l’absence de connectivité réseau avec les sites hub.
 
 RODC ne change pas la manière dont le schéma est utilisé. Toutefois, il est utile de mentionner que le schéma prend en charge une Read-Only ensemble d’attributs partiels (Roll-pas), également appelé jeu d’attributs filtré RODC, qui est un ensemble d’attributs spéciaux qui n’est pas répliqué sur RODC pour des raisons de sécurité. RO-pas sont définis dans le schéma via l’attribut [**searchFlags**](/windows/desktop/ADSchema/a-searchflags) .
 
@@ -24,9 +24,9 @@ Certaines applications qui utilisent [Active Directory Domain Services](active-d
 
 ## <a name="adding-attributes-to-the-rodc-filtered-attribute-set"></a>Ajout d’attributs à l’ensemble d’attributs filtré RODC
 
-L’ensemble d’attributs filtrés RODC est un ensemble dynamique d’attributs qui n’est pas répliqué sur un RODC de la forêt. Vous pouvez configurer l’ensemble d’attributs filtrés RODC sur un contrôleur de schéma qui exécute Windows Server 2008. Lorsque les attributs ne peuvent pas être répliqués sur RODC, ces données ne peuvent pas être exposées inutilement si un RODC est volé ou compromis.
+L’ensemble d’attributs filtrés RODC est un ensemble dynamique d’attributs qui n’est pas répliqué sur un RODC de la forêt. vous pouvez configurer l’ensemble d’attributs filtré de RODC sur un contrôleur de schéma qui exécute Windows Server 2008. Lorsque les attributs ne peuvent pas être répliqués sur RODC, ces données ne peuvent pas être exposées inutilement si un RODC est volé ou compromis.
 
-Vous ne pouvez pas ajouter d’attributs système critiques à l’ensemble d’attributs filtré RODC. Un attribut est essentiel du système s’il est requis pour AD DS, l’autorité de sécurité locale (LSA), le gestionnaire de comptes de sécurité (SAM) et l’un des fournisseurs de services de sécurité spécifiques à Microsoft, tels que le protocole d’authentification Kerberos, pour fonctionner correctement. Dans les versions de Windows Server 2008 après la version bêta 3, un attribut critique du système a une valeur d’attribut schemaFlagsEx égale à (valeur d’attribut schemaFlagsEx & 0x1 = **true**).
+Vous ne pouvez pas ajouter d’attributs système critiques à l’ensemble d’attributs filtré RODC. Un attribut est essentiel du système s’il est requis pour AD DS, l’autorité de sécurité locale (LSA), le gestionnaire de comptes de sécurité (SAM) et l’un des fournisseurs de services de sécurité spécifiques à Microsoft, tels que le protocole d’authentification Kerberos, pour fonctionner correctement. dans les versions de Windows Server 2008 après la version bêta 3, un attribut critique du système a une valeur d’attribut schemaFlagsEx égale à (valeur d’attribut schemaFlagsEx & 0x1 = **TRUE**).
 
 Pour obtenir des instructions pas à pas sur l’ajout d’attributs à l’ensemble d’attributs filtré RODC, consultez [l’annexe D du Guide pas à pas pour]( /previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772331(v=ws.10))les contrôleurs de domaine en lecture seule.
 
@@ -41,6 +41,6 @@ En outre, il est recommandé de marquer également comme confidentielles tous le
 [Guide pas à pas pour les contrôleurs de domaine en lecture seule]( https://support.microsoft.com/kb/922836)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

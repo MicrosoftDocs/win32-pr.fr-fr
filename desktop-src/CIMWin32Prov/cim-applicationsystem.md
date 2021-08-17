@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a69c05b11c5f3c623824783ed13f42c0a3eab801
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dac29acc878df097ed6a8376ea2184b09b83e6323b5114cb57a9df537c556047
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322629"
 ---
 # <a name="cim_applicationsystem-class"></a>\_Classe CIM ApplicationSystem
 
@@ -334,7 +334,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ ApplicationSystem** est dérivée [**du \_ système CIM**](cim-system.md).
 

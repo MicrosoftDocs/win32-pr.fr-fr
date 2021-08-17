@@ -3,11 +3,11 @@ title: Informations de référence MIDI
 description: Informations de référence MIDI
 ms.assetid: 6229a4a7-be42-4e2a-af9d-695c4759a4ef
 keywords:
-- Multimédia Windows, MIDI (Musical Instrument Digital Interface)
+- Windows multimédia, MIDI (Musical Instrument Digital Interface)
 - multimédia, MIDI (Musical Instrument Digital Interface)
 - audio multimédia, MIDI (Musical Instrument Digital Interface)
 - audio, MIDI (Musical Instrument Digital Interface)
-- Windows Multimedia, référence MIDI
+- Windows multimédia, référence MIDI
 - multimédia, référence MIDI
 - audio multimédia, référence MIDI
 - audio, référence MIDI
@@ -17,12 +17,12 @@ keywords:
 - Référence MIDI, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c21542867faf1e09d68dc4fc81a50d25f56b5c5e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8da65f193bbdc6b67d317fac7546d4f5d7826d89307d1800c565febf0c7a8b6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428349"
 ---
 # <a name="midi-reference"></a>Informations de référence MIDI
 
@@ -58,12 +58,12 @@ Cette section décrit les fonctions, les macros, les messages et les structures 
 
 -   [**midiInGetErrorText**](/windows/win32/api/mmeapi/nf-mmeapi-midiingeterrortext)
 -   [**midiOutGetErrorText**](/windows/win32/api/mmeapi/nf-mmeapi-midioutgeterrortext)
--   [**\_erreur MIM**](mim-error.md)
--   [**\_LONGERROR MIM**](mim-longerror.md)
--   [**MM \_ \_ erreur MIM**](mm-mim-error.md)
--   [**MM \_ \_ LONGERROR MIM**](mm-mim-longerror.md)
+-   [**MIM \_ Erreurs**](mim-error.md)
+-   [**MIM \_ LONGERROR**](mim-longerror.md)
+-   [**MM \_ MIM \_ erreur**](mm-mim-error.md)
+-   [**MM \_ MIM \_ LONGERROR**](mm-mim-longerror.md)
 
-## <a name="managing-midi-streams"></a>Gestion des flux MIDI
+## <a name="managing-midi-streams"></a>Gestion des Flux MIDI
 
 -   [**midiStreamClose**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamclose)
 -   [**midiStreamOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamopen)
@@ -80,10 +80,10 @@ Cette section décrit les fonctions, les macros, les messages et les structures 
 -   [**midiInOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midiinopen)
 -   [**midiOutClose**](/windows/win32/api/mmeapi/nf-mmeapi-midioutclose)
 -   [**midiOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midioutopen)
--   [**\_fermeture MIM**](mim-close.md)
--   [**MIM \_ ouvert**](mim-open.md)
--   [**MM \_ MIM \_ proche**](mm-mim-close.md)
--   [**MM \_ MIM \_ ouvert**](mm-mim-open.md)
+-   [**MIM \_ PLUS**](mim-close.md)
+-   [**MIM \_ AFFICHER**](mim-open.md)
+-   [**MM \_ MIM \_ fermer**](mm-mim-close.md)
+-   [**MM \_ MIM \_ ouverts**](mm-mim-open.md)
 -   [**\_fermeture MOM de mm \_**](mm-mom-close.md)
 -   [**\_ouverture de MOM mm \_**](mm-mom-open.md)
 -   [**\_fermeture MOM**](mom-close.md)
@@ -124,12 +124,12 @@ Cette section décrit les fonctions, les macros, les messages et les structures 
 -   [**midiInStop**](/windows/win32/api/mmeapi/nf-mmeapi-midiinstop)
 -   [**MIDIPROPTEMPO**](/windows/win32/api/mmeapi/ns-mmeapi-midiproptempo)
 -   [**MIDIPROPTIMEDIV**](/windows/win32/api/mmeapi/ns-mmeapi-midiproptimediv)
--   [**\_données MIM**](mim-data.md)
--   [**\_LONGDATA MIM**](mim-longdata.md)
--   [**\_MOREDATA MIM**](mim-moredata.md)
--   [**MM \_ \_ données MIM**](mm-mim-data.md)
--   [**MM \_ \_ MOREDATA MIM**](mm-mim-moredata.md)
--   [**MM \_ \_ LONGDATA MIM**](mm-mim-longdata.md)
+-   [**MIM \_ MÉTADONNÉE**](mim-data.md)
+-   [**MIM \_ LONGDATA**](mim-longdata.md)
+-   [**MIM \_ MOREDATA**](mim-moredata.md)
+-   [**MM \_ MIM \_ données**](mm-mim-data.md)
+-   [**MM \_ MIM \_ MOREDATA**](mm-mim-moredata.md)
+-   [**MM \_ MIM \_ LONGDATA**](mm-mim-longdata.md)
 
 ## <a name="sending-messages-to-devices"></a>Envoi de messages à des appareils
 
@@ -143,6 +143,6 @@ Cette section décrit les fonctions, les macros, les messages et les structures 
 [Interface MIDI (Musical Instrument Digital Interface)](musical-instrument-digital-interface--midi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

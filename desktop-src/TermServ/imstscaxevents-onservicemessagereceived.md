@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05a26b78fa31667fb550848d4edd7918aa2bde3e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9ca511710834f8aa9fdda02565c33c4732e4cba9300e74ad3b48276d74890bc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117757247"
 ---
 # <a name="imstscaxeventsonservicemessagereceived-method"></a>IMsTscAxEvents :: OnServiceMessageReceived, méthode
 
@@ -54,7 +54,7 @@ Spécifie le message système.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur les messages système, consultez [configurer la messagerie pour un serveur de passerelle Bureau à distance](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd834700(v=ws.11)).
 

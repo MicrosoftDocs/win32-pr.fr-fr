@@ -3,7 +3,7 @@ title: Message EM_REPLACESEL (winuser. h)
 description: Remplace le texte sélectionné dans un contrôle d’édition ou un contrôle RichEdit par le texte spécifié.
 ms.assetid: 525e6f5a-f52f-4bab-bc76-caa484729897
 keywords:
-- EM_REPLACESEL les contrôles de message Windows
+- EM_REPLACESEL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d9745b870a310626a6cbbbddbef118a63c64479
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 478550432aa8c03a081e8de214cdd7e8337a46eca2676a0531b177a81ff20a54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831180"
 ---
 # <a name="em_replacesel-message"></a>\_Message REPLACESEL em
 
@@ -47,7 +47,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui contient le te
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez le message **em \_ REPLACESEL** pour remplacer uniquement une partie du texte dans un contrôle d’édition. Pour remplacer tout le texte, utilisez le message [**WM \_ SETTEXT**](/windows/desktop/winmsg/wm-settext) .
 
@@ -63,8 +63,8 @@ Dans un contrôle Rich Edit, le texte de remplacement prend la mise en forme du 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

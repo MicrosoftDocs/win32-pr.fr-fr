@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 58354e35ca8456f6fde57d2f2567a6b6a202f6d7
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: db869d277c98c3e99bd2bbc54f7e40ac86770f647e8258ee5718a96eaedec18c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118096614"
 ---
 # <a name="d3dswapeffect-enumeration"></a>Énumération D3DSWAPEFFECT
 
@@ -75,7 +75,7 @@ Utilisez une zone dédiée de la mémoire vidéo qui peut être superposée sur 
 
 Différences entre Direct3D 9 et Direct3D 9Ex :
 
-- La \_ superposition D3DSWAPEFFECT est disponible uniquement dans les Direct3D9Ex qui s’exécutent sur Windows 7 (ou plus le système d’exploitation actuel).
+- la \_ superposition D3DSWAPEFFECT est disponible uniquement dans les Direct3D9Ex s’exécutant sur Windows 7 (ou plus système d’exploitation actuel).
 
 </dd> <dt>
 

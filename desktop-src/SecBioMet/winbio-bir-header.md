@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1479c0db3ee826d79cf95a311215c8cf76f1c96b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d2166a206dd1590f83e16bc67482d3b42e24717efae4c44e54a99b9aa7d83b84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911082"
 ---
 # <a name="winbio_bir_header-structure"></a>\_Structure d' \_ en-tête Bir WINBIO
 
@@ -197,9 +197,9 @@ Structure [**de \_ \_ format enregistrée par WINBIO**](winbio-registered-format
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le paramètre *SubType* spécifie le sous-facteur associé aux données biométriques. Actuellement, le Windows Biometric Framework (WBF) prend uniquement en charge la capture d’empreintes digitales et utilise les constantes suivantes pour représenter les informations de sous-type :
+Le paramètre *SubType* spécifie le sous-facteur associé aux données biométriques. actuellement, le Windows Biometric Framework (WBF) prend uniquement en charge la capture d’empreintes digitales et utilise les constantes suivantes pour représenter les informations de sous-type :
 
 -   WINBIO \_ ANSI \_ 381 \_ pos \_ inconnu
 -   WINBIO \_ ANSI \_ 381 \_ pos \_ RH \_
@@ -218,7 +218,7 @@ Le paramètre *SubType* spécifie le sous-facteur associé aux données biométr
 
 > [!IMPORTANT]
 >
-> N’essayez pas de valider la valeur fournie pour la valeur du paramètre *SubType* . Le service de biométrie Windows validera la valeur fournie avant de la passer à votre implémentation. Si la valeur est **WINBIO \_ sous-type \_ aucune \_ information** ou **WINBIO sous- \_ type \_ any**, validez le cas échéant.
+> N’essayez pas de valider la valeur fournie pour la valeur du paramètre *SubType* . le Service de biométrie Windows validera la valeur fournie avant de la passer à votre implémentation. Si la valeur est **WINBIO \_ sous-type \_ aucune \_ information** ou **WINBIO sous- \_ type \_ any**, validez le cas échéant.
 
  
 
@@ -241,8 +241,8 @@ Si l’un des bits suivants est déclaré, la structure **d' \_ \_ en-tête Bir 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                       |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (include WinBio. h)</dt> </dl> |
 
 

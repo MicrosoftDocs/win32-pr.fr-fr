@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9be825d6117cf1cc14464973146dbe176d696d25
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 041ffccb3301831c91554ef3cda835d3f2e79204730e838b25f26660e76d9a52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119723"
 ---
 # <a name="output-depth-register"></a>Registre de profondeur de sortie
 
@@ -29,7 +29,7 @@ Syntaxe
 
 
 
- 
+ 
 
 Où :
 
@@ -41,7 +41,7 @@ Où :
 
 
 
- 
+ 
 
 Il est important de savoir que l’écriture dans oDepth provoque la perte des algorithmes d’optimisation de la mémoire tampon de profondeur matérielle (Z) qui accélèrent les performances des tests de profondeur.
 
@@ -73,9 +73,9 @@ Si une application a une mémoire tampon w définie en tant que tampon de profon
 [Inscrit](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

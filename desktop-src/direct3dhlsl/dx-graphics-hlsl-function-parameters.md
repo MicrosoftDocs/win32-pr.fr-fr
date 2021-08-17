@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3ba35ad04b20b67e45550644e842d69209ca5088
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 7a2f2fdb656917ccf9dc57f06713fe01d77398d35776ac0c479b7d088281bc0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104381432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118514762"
 ---
 # <a name="function-arguments"></a>Arguments de fonction
 
@@ -109,7 +109,7 @@ S’il existe plusieurs arguments de fonction, ils sont séparés par des virgul
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les arguments de fonction sont répertoriés dans une liste d’arguments séparés par des virgules dans une déclaration de fonction. Comme dans les fonctions C, chaque argument doit avoir un nom de paramètre et un type déclarés ; un argument d’une fonction HLSL peut éventuellement inclure une sémantique, une valeur initiale et une entrée de nuanceur de pixels peut inclure un type d’interpolation.
 

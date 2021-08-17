@@ -4,12 +4,12 @@ description: Cet article fournit une vue d’ensemble de l’utilisation optimal
 ms.assetid: 7ce0c9c7-485c-8d72-0353-27fd2e369a7c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd9935c490204736995e17e3c8013ce56f57624b
-ms.sourcegitcommit: 4c71a269e3a114c72dd9eb31ccb4948a32beaa5b
+ms.openlocfilehash: cdabd1a99f203adb2422cc4bbc71c3fb2f6108a0a3869077e97683bdcf830100
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "114662259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070559"
 ---
 # <a name="debugging-with-symbols"></a>Débogage avec des symboles
 
@@ -220,7 +220,7 @@ Par exemple, pour indexer de manière récursive tous les symboles des symboles 
 
 Le paramètre **/t "Comment"** est utilisé pour ajouter une description à la transaction qui a ajouté les symboles. Cela peut être utile lors de l’exécution de tâches d’administration sur les symboles.
 
-## <a name="best-practices"></a>Bonnes pratiques
+## <a name="best-practices"></a>Meilleures pratiques
 
 -   Configurez votre propre partage de fichiers de serveur de symboles pour votre équipe, société ou produit.
 -   Configurez \_ \_ \_ le chemin d’accès des symboles NT pour qu’il pointe vers un cache local, un serveur de symboles privé et le serveur de symboles Microsoft.

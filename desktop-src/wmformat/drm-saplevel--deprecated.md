@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43711c6c394761f599271809419a46311265d8b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f80b43cfcf0c89283237f8ff2d3e4f8612050296d7462f54890c3efa908fa9be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106522771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930889"
 ---
 # <a name="drm_saplevel-deprecated"></a>\_SAPLEVEL DRM (déconseillé)
 
@@ -33,7 +33,7 @@ g \_ wszWMDRM \_ SAPLEVEL
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une propriété en écriture seule qui est définie en appelant [**IWMDRMReader :: SetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty). La valeur est une représentation sous forme de chaîne de caractères larges du niveau SAP, telle que L "200". Les valeurs actuellement prises en charge sont 200 et 300.
 

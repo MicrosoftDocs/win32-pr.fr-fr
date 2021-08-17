@@ -6,12 +6,12 @@ keywords:
 - type_UserSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a29e5936763f9fe7b3513d66ddca7db9c35dbfe7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a5b7c5d0918489dbc41baaa4e799aa1dbbda67723cf8104e0641ced24b9b5bf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103730020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118923539"
 ---
 # <a name="the-type_usersize-function"></a>La fonction type d' \_ utilisateur
 
@@ -39,14 +39,14 @@ Le paramètre *pFlags* est un pointeur vers un champ d’indicateur **long non s
 
 
 
- 
+ 
 
 L’indicateur de contexte de marshaling permet de modifier le comportement de votre routine en fonction du contexte de l’appel RPC. Par exemple, si vous avez un handle (**long**) vers un bloc de données, vous pouvez envoyer le descripteur pour un appel in-process, mais vous enverrez les données réelles pour un appel à un autre ordinateur. L’indicateur de contexte de marshaling et ses valeurs sont définis dans les fichiers Wtypes. h et Wtypes. idl dans le kit de développement logiciel (SDK) de la plateforme.
 
 > [!Note]  
 > Lorsque le type de câble est correctement défini, il n’est pas nécessaire d’utiliser les indicateurs de format NDR, car le moteur de NDR effectue les conversions nécessaires.
 
- 
+ 
 
 Le *StartingSize* un paramètre est l’offset de la mémoire tampon actuelle. La taille de départ indique l’offset de la mémoire tampon pour l’objet utilisateur, et elle peut ou non être correctement alignée. Votre routine doit tenir compte de ce qui est nécessaire.
 
@@ -71,6 +71,6 @@ La fonction **<type> \_ utilisateur** n’est pas appelée si la taille du câbl
 [Marshal de câble \_](/windows/desktop/Midl/wire-marshal)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

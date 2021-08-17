@@ -1,5 +1,5 @@
 ---
-description: Le code de contrôle récupère le contexte de redirection pour un enregistrement de redirection utilisé par un service de redirection de plateforme de filtrage Windows.
+description: le code de contrôle récupère le contexte de redirection pour un enregistrement de redirection utilisé par un service de redirection de plateforme de filtrage Windows.
 ms.assetid: 87DB11BB-E08D-49DF-A211-133D813373E0
 title: Code de contrôle SIO_QUERY_WFP_CONNECTION_REDIRECT_CONTEXT
 ms.topic: reference
@@ -8,18 +8,18 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 1e5e5f6c56411ada1e87e8cdf240a89f9c293e4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 268e1bf44c1370e49116414a367119ea8eb008a2711cbfcebdf64f6c3c1b8d62
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244939"
 ---
 # <a name="sio_query_wfp_connection_redirect_context-control-code"></a>Code de contrôle SIO_QUERY_WFP_CONNECTION_REDIRECT_CONTEXT
 
 ## <a name="description"></a>Description
 
-Le code de contrôle de contexte de redirection de **\_ \_ \_ connexion \_ \_ WFP de la requête SIO** récupère le contexte de redirection pour un enregistrement de redirection utilisé par un service de redirection de plateforme de filtrage Windows (WFP).
+le code de contrôle de contexte de redirection de **\_ \_ \_ connexion \_ \_ wfp de la requête SIO** récupère le contexte de redirection pour un enregistrement de redirection utilisé par un service de redirection de plateforme de filtrage Windows (WFP).
 
 Pour effectuer cette opération, appelez la fonction [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) ou **WSPIoctl** avec les paramètres suivants.
 
@@ -147,9 +147,9 @@ Pour afficher les informations d’erreur étendues, appelez [**WSAGetLastError*
 | **WSAENOTSOCK** | Le descripteur *s* n’est pas un Socket. |
 | **WSAEOPNOTSUPP** | La commande IOCTL spécifiée n’est pas prise en charge. Cette erreur est retournée si l’IOCTL du **\_ \_ \_ \_ \_ contexte de redirection de la connexion WFP de la requête SIO** n’est pas prise en charge par le fournisseur de transport. |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’IOCTL du **\_ \_ \_ \_ \_ contexte de redirection de connexion WFP de la requête SIO** est prise en charge sur Windows 8, Windows Server 2012 et les versions ultérieures du système d’exploitation.
+l’IOCTL du **\_ \_ \_ \_ \_ contexte de redirection de connexion WFP de la requête SIO** est prise en charge sur Windows 8, Windows Server 2012 et les versions ultérieures du système d’exploitation.
 
 WFP autorise l’accès au chemin de traitement des paquets TCP/IP, où les paquets sortants et entrants peuvent être examinés ou modifiés avant d’autoriser leur traitement ultérieur.
 En appuyant sur le chemin de traitement TCP/IP, les éditeurs de logiciels indépendants (ISV) peuvent créer plus facilement des pare-feu, des logiciels antivirus, des logiciels de diagnostic et d’autres types d’applications et de services.

@@ -8,12 +8,12 @@ keywords:
 - Active Directory, références
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f63c87fb0248d85ab20191296f9659eb58e460f6
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 9ea6773157ce01c7b3d47f127697e5aefec02204f3894c10fe856295538334a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106510455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184670"
 ---
 # <a name="referrals-ad-ds"></a>Références (AD DS)
 
@@ -60,6 +60,6 @@ Pour plus d’informations sur les références, consultez :
 
 Pour plus d’informations et pour obtenir un exemple de code qui montre comment obtenir le nom unique du conteneur partitions, consultez [l’exemple de code pour localiser le conteneur partitions](example-code-for-locating-the-partitions-container.md).
 
- 
+ 
 
- 
+ 

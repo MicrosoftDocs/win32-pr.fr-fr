@@ -4,12 +4,12 @@ ms.assetid: e6be2ecd-603a-405f-8a48-68d971e1f6de
 title: Message WM_PRINT (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a012d26e4357a639a7eb8d7930937a06a991124
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45a09d3cb7dbb3b4a4fca7a2af4272f1b4175aa26e911d1def909c97ba35f3d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964849"
 ---
 # <a name="wm_print-message"></a>\_Message d’impression WM
 
@@ -62,11 +62,11 @@ Options de dessin. Ce paramètre peut être une ou plusieurs des valeurs suivant
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) traite ce message en fonction de l’option de dessin spécifiée : si PRF \_ CHECKVISIBLE est spécifié et que la fenêtre n’est pas visible, ne rien faire, si PRF \_ non client est spécifié, dessinez la zone non cliente dans le contexte de périphérique spécifié, si PRF \_ ERASEBKGND est spécifié, envoyez la fenêtre un message [**WM \_ ERASEBKGND**](../winmsg/wm-erasebkgnd.md) , si \_ le client PRF est spécifié, envoyez à la fenêtre un message [**WM \_ PRINTCLIENT**](wm-printclient.md) , si les \_ enfants PRF sont définis, envoyer **\_** \_ **\_** un message d’impression WM à chaque fenêtre enfant visible.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

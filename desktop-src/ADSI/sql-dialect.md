@@ -1,28 +1,28 @@
 ---
-title: Dialecte SQL
-description: Le dialecte SQL, dérivé de l’langage SQL, utilise des expressions explicites pour définir des instructions de requête.
+title: SQL Dialecte
+description: le dialecte SQL, dérivé de l’langage SQL, utilise des expressions explicites pour définir des instructions de requête.
 ms.assetid: c1032268-e0f5-4d74-ab72-864cdd36851d
 ms.tgt_platform: multiple
 keywords:
-- Langage SQL (ADSI)
-- dialecte ADSI, dialecte SQL
+- SQL Dialecte ADSI
+- dialecte ADSI, SQL dialecte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b0936a54bc7bd0028717967ce779fe2f2048a33
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b7483a5e3785f410e6c2fd875122ba24618a82b70d1ed6dc9a85105ae4e8dcfa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106508956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119262049"
 ---
-# <a name="sql-dialect"></a>Dialecte SQL
+# <a name="sql-dialect"></a>SQL Dialecte
 
-Le dialecte SQL, dérivé de l’langage SQL, utilise des expressions explicites pour définir des instructions de requête. Utilisez une instruction de requête SQL avec les interfaces de recherche ADSI suivantes :
+le dialecte SQL, dérivé de l’langage SQL, utilise des expressions explicites pour définir des instructions de requête. utilisez une instruction de requête SQL avec les interfaces de recherche ADSI suivantes :
 
--   Interfaces [ADO (ActiveX Data Object)](searching-with-activex-data-objects-ado.md) , qui sont des interfaces Automation qui utilisent OLE DB.
+-   interfaces d' [objets de données ActiveX (ADO)](searching-with-activex-data-objects-ado.md) , qui sont des interfaces Automation qui utilisent des OLE DB.
 -   [OLE DB](searching-with-ole-db.md), qui est un ensemble d’interfaces C/C++ pour interroger des bases de données.
 
-Les instructions SQL requièrent la syntaxe suivante.
+les instructions SQL requièrent la syntaxe suivante.
 
 
 ```sql
@@ -31,7 +31,7 @@ SELECT [ALL] * | select-list FROM 'ADsPath' [WHERE search-condition] [ORDER BY s
 
 
 
-Le tableau suivant répertorie les mots clés des instructions de requête SQL.
+le tableau suivant répertorie SQL mots clés d’instruction de requête.
 
 
 
@@ -44,14 +44,14 @@ Le tableau suivant répertorie les mots clés des instructions de requête SQL.
 
 
 
- 
+ 
 
 > [!Note]  
-> Dans les cas où un jeu de caractères multioctets est utilisé, si la recherche est effectuée par ADO avec le dialecte SQL, une barre oblique inverse ne peut pas être utilisée pour échapper des caractères. Au lieu de cela, les séquences d’échappement listées dans les [caractères spéciaux](search-filter-syntax.md) doivent être utilisées. Par exemple, pour une instruction qui a utilisé la syntaxe « samAccountName = \( test », qui utilise la barre oblique inverse « \\ », pour échapper la parenthèse ouvrante « ( », à la place, vous devez remplacer la barre oblique inverse par le caractère spécial « \\ 28 », comme suit : « sAMAccountName = \\ 28Test ».
+> dans les cas où un jeu de caractères multioctets est utilisé, si la recherche est effectuée par ADO avec le dialecte SQL, une barre oblique inverse ne peut pas être utilisée pour échapper des caractères. Au lieu de cela, les séquences d’échappement listées dans les [caractères spéciaux](search-filter-syntax.md) doivent être utilisées. Par exemple, pour une instruction qui a utilisé la syntaxe « samAccountName = \( test », qui utilise la barre oblique inverse « \\ », pour échapper la parenthèse ouvrante « ( », à la place, vous devez remplacer la barre oblique inverse par le caractère spécial « \\ 28 », comme suit : « sAMAccountName = \\ 28Test ».
 
- 
+ 
 
-Les instructions de requête suivantes sont des exemples de dialecte SQL dans ADSI.
+les instructions de requête suivantes sont des exemples de SQL dialecte dans ADSI.
 
 Pour rechercher tous les objets de groupe.
 
@@ -71,7 +71,7 @@ SELECT ADsPath, cn FROM 'LDAP://OU=Sales,DC=Fabrikam,DC=COM' WHERE objectCategor
 
 
 
-La grammaire formelle pour les requêtes SQL est définie dans l’exemple de code suivant. Tous les mots clés ne respectent pas la casse.
+la grammaire formelle pour les requêtes de SQL est définie dans l’exemple de code suivant. Tous les mots clés ne respectent pas la casse.
 
 
 ```sql
@@ -100,7 +100,7 @@ boolean-literal ::= TRUE | FALSE | YES | NO | ON | OFF
 
 
 
-Les jointures internes SQL ne sont pas prises en charge par le fournisseur de OLE DB Active Directory, mais vous pouvez utiliser SQL pour joindre des données SQL et Active Directory. Pour plus d’informations, consultez [création d’une jointure hétérogène entre SQL Server et Active Directory](creating-a-heterogeneous-join-between-sql-server-and-active-directory.md).
+SQL jointures internes ne sont pas prises en charge par le fournisseur de OLE DB Active Directory, mais vous pouvez utiliser SQL pour joindre des données SQL et Active Directory. pour plus d’informations, consultez [création d’une jointure hétérogène entre SQL Server et Active Directory](creating-a-heterogeneous-join-between-sql-server-and-active-directory.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -115,15 +115,15 @@ Les jointures internes SQL ne sont pas prises en charge par le fournisseur de OL
 [Recherche avec l’interface IDirectorySearch](searching-with-idirectorysearch.md)
 </dt> <dt>
 
-[Recherche avec ActiveX Data Objects](searching-with-activex-data-objects-ado.md)
+[recherche avec ActiveX Data Objects](searching-with-activex-data-objects-ado.md)
 </dt> <dt>
 
 [Recherche avec OLE DB](searching-with-ole-db.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

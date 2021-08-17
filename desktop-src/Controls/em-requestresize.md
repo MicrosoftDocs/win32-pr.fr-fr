@@ -3,7 +3,7 @@ title: Message EM_REQUESTRESIZE (RichEdit. h)
 description: Force un contrôle RichEdit à envoyer un code de \_ notification en REQUESTRESIZE à sa fenêtre parente.
 ms.assetid: efc22771-9b9f-4a30-a906-f02095607c21
 keywords:
-- EM_REQUESTRESIZE les contrôles de message Windows
+- EM_REQUESTRESIZE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec41e7be8e0f30d5c1ec011247f3964292c2218e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7113f52e2fa3a293549443f779ba937bf20b85736c6751cd9ab77bdbecd45c3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104200581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440159"
 ---
 # <a name="em_requestresize-message"></a>\_Message REQUESTRESIZE em
 
@@ -47,7 +47,7 @@ Non utilisé ; doit être égal à zéro.
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est utile lors du traitement de la [**\_ taille WM**](/windows/desktop/winmsg/wm-size) pour le parent d’un contrôle Rich Edit sans fin.
 
@@ -57,8 +57,8 @@ Ce message est utile lors du traitement de la [**\_ taille WM**](/windows/deskto
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

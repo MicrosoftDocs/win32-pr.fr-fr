@@ -4,12 +4,12 @@ ms.assetid: 19286f26-96f1-429c-9d6a-5e9b98597cd2
 title: Propriété AVEncStatCommonCompletedPasses (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2927e501963d450cbc08106e7860dfbfd2d7d98a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d5950a8f013dc697b0e8178e65610971776c0bd7bba233a58d164c05080f966f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106512860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119275869"
 ---
 # <a name="avencstatcommoncompletedpasses-property"></a>Propriété AVEncStatCommonCompletedPasses
 
@@ -35,8 +35,8 @@ Cette propriété a une plage de valeurs linéaire. Pour accéder à la plage pr
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

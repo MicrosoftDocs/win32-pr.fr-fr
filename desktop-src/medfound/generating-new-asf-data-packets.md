@@ -4,12 +4,12 @@ ms.assetid: 7afa9694-c965-40e2-8549-e32ff48def2a
 title: Génération de nouveaux paquets de données ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78f3432ecf34c58247a1533adb202b75f59d770c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9473037d656bd4fcc01b91a908103fcda3e364a36e8caaf42cfc0558381e5af8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118742072"
 ---
 # <a name="generating-new-asf-data-packets"></a>Génération de nouveaux paquets de données ASF
 
@@ -37,7 +37,7 @@ Avant d’appeler [**ProcessSample**](/windows/desktop/api/wmcontainer/nf-wmcont
 Le multiplexeur peut accepter les entrées en tant qu’exemples de supports compressés ou non compressés via [**ProcessSample**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample). Le multiplexeur attribue des heures d’envoi à ces exemples en fonction de l’utilisation de la bande passante du flux. Pendant ce processus, le multiplexeur vérifie les paramètres de compartiment avec fuite (taux de bits et utilisation de la fenêtre de mémoire tampon) et peut rejeter des exemples qui n’adhèrent pas à ces valeurs. L’exemple de média d’entrée peut faire échouer la vérification de la bande passante pour l’une des raisons suivantes :
 
 -   Si l’exemple de média d’entrée est arrivé à expiration parce que l’heure d’envoi du dernier assignée est supérieure à l’horodatage de cet exemple de support. [**ProcessSample**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample) échoue et retourne l’exemple de code d’erreur **MF \_ E \_ Late \_** .
--   Si l’horodatage sur l’échantillon de média d’entrée est antérieur à l’heure d’envoi affectée (cela indique un dépassement de mémoire tampon). Le multiplexeur peut ignorer cette situation s’il est configuré pour ajuster la vitesse de transmission en définissant l’indicateur de vitesse de **\_ \_ \_ transmission** du multiplexeur MFASF au cours de l’initialisation du multiplexeur. Pour plus d’informations, consultez « initialisation du multiplexeur et paramètres des compartiments de fuites » dans [création de l’objet multiplexeur](creating-the-multiplexer-object.md). Si cet indicateur n’est pas défini et que le multiplexeur rencontre une saturation de la bande passante, [**ProcessSample**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample) échoue et retourne le code d’erreur de **\_ \_ \_ dépassement de bande passante MF E** .
+-   Si l’horodatage sur l’échantillon de média d’entrée est antérieur à l’heure d’envoi affectée (cela indique un dépassement de mémoire tampon). Le multiplexeur peut ignorer cette situation s’il est configuré pour ajuster la vitesse de transmission en définissant l’indicateur de vitesse de **\_ \_ \_ transmission** du multiplexeur MFASF au cours de l’initialisation du multiplexeur. pour plus d’informations, consultez « initialisation du multiplexeur et Paramètres de compartiment des fuites » dans [création de l’objet multiplexeur](creating-the-multiplexer-object.md). Si cet indicateur n’est pas défini et que le multiplexeur rencontre une saturation de la bande passante, [**ProcessSample**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample) échoue et retourne le code d’erreur de **\_ \_ \_ dépassement de bande passante MF E** .
 
 Une fois que le multiplexeur a affecté l’heure d’envoi, l’exemple de média d’entrée est ajouté à la *fenêtre d’envoi*, c’est-à-dire une liste d’exemples de médias d’entrée classés par heure d’envoi et prêts à être traités dans des paquets de données. Pendant la construction des paquets de données, l’exemple de média d’entrée est analysé et les données pertinentes sont écrites dans un paquet de données comme charge utile. Un paquet de données complet peut contenir des données provenant d’un ou de plusieurs exemples de supports d’entrée.
 
@@ -120,7 +120,7 @@ HRESULT GenerateASFDataPackets(
 
 La `WriteBufferToByteStream` fonction est présentée dans la rubrique [**IMFByteStream :: Write**](/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-write).
 
-Pour voir une application complète qui utilise cet exemple de code, consultez [Didacticiel : copie de flux de fichiers ASF d’un fichier vers un autre](tutorial--copying-asf-streams-from-one-file-to-another.md).
+pour voir une application complète qui utilise cet exemple de code, consultez [didacticiel : copie de Flux ASF d’un fichier vers un autre](tutorial--copying-asf-streams-from-one-file-to-another.md).
 
 ## <a name="post-packet-generation-calls"></a>Appels de Packet-Generation de publication
 
@@ -131,7 +131,7 @@ Une fois tous les exemples de médias générés, appelez [**IMFASFMultiplexer 
 Vous devez vous assurer que [**end**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-end) est appelé après que tous les paquets de données ont été récupérés. Si des paquets sont en attente dans le multiplexeur, **end** échoue et retourne le code d’erreur **MF \_ E \_ flush \_ requis** . Dans ce cas, récupérez le paquet en attente en appelant [**flush**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-flush) et [**GetNextPacket**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket) dans une boucle.
 
 > [!Note]  
-> Pour l’encodage VBR, après avoir appelé **end**, vous devez définir les statistiques d’encodage dans les propriétés d’encodage de l’objet ContentInfo. Pour plus d’informations sur ce processus, consultez « Configuration de l’objet ContentInfo avec les paramètres de l’encodeur » dans [définition des propriétés dans l’objet ContentInfo](setting-properties-in-the-contentinfo-object.md). La liste suivante répertorie les propriétés spécifiques à définir :
+> Pour l’encodage VBR, après avoir appelé **end**, vous devez définir les statistiques d’encodage dans les propriétés d’encodage de l’objet ContentInfo. pour plus d’informations sur ce processus, consultez « configuration de l’objet ContentInfo avec l’encodeur Paramètres » dans [définition des propriétés dans l’objet contentinfo](setting-properties-in-the-contentinfo-object.md). La liste suivante répertorie les propriétés spécifiques à définir :
 >
 > -   [**MFPKEY \_ RAVG**](mfpkey-ravgproperty.md) est la vitesse de transmission moyenne du contenu VBR.
 > -   [**MFPKEY \_ BAVG**](mfpkey-bavgproperty.md) est la fenêtre de mémoire tampon pour la vitesse de transmission moyenne.
@@ -147,7 +147,7 @@ Vous devez vous assurer que [**end**](/windows/desktop/api/wmcontainer/nf-wmcont
 [Multiplexeur ASF](asf-multiplexer.md)
 </dt> <dt>
 
-[Didacticiel : copie de flux de fichiers ASF d’un fichier à un autre](tutorial--copying-asf-streams-from-one-file-to-another.md)
+[didacticiel : copie de Flux ASF d’un fichier à un autre](tutorial--copying-asf-streams-from-one-file-to-another.md)
 </dt> <dt>
 
 [Didacticiel : écriture d’un fichier WMA à l’aide de l’encodage CBR](tutorial--writing-a-wma-file-by-using-cbr-encoding.md)

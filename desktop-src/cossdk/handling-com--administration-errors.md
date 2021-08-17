@@ -4,12 +4,12 @@ ms.assetid: 03f00c19-ff81-478b-b545-048f3dbe5eda
 title: Gestion des erreurs d’administration COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e7e5838d7fee7616a23f5e361df1aef65421492
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 965276fff68edf45ae27423ee4ed707e4bb7f1476b0237dab270538e0fa0f1be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118306707"
 ---
 # <a name="handling-com-administration-errors"></a>Gestion des erreurs d’administration COM+
 
@@ -20,7 +20,7 @@ Les erreurs générées lors de l’utilisation des objets comadmin sont signal�
 
 ## <a name="error-codes"></a>Codes d’erreur
 
-Vous gérez les codes d’erreur d’administration comme vous le feriez pour n’importe quel message d’erreur COM. Dans Microsoft Visual C++, ces codes sont retournés en tant que valeurs **HRESULT** . Dans Microsoft Visual Basic, elles sont levées en tant qu’exceptions que vous pouvez intercepter. Pour les programmeurs C++, les codes d’erreur d’administration COM+ sont définis dans Winerror. h. Pour les programmeurs Visual Basic, ils sont disponibles via l’IDE Visual Basic.
+Vous gérez les codes d’erreur d’administration comme vous le feriez pour n’importe quel message d’erreur COM. dans Microsoft Visual C++, ces codes sont retournés en tant que valeurs **HRESULT** . dans Microsoft Visual Basic, elles sont levées en tant qu’exceptions que vous pouvez intercepter. Pour les programmeurs C++, les codes d’erreur d’administration COM+ sont définis dans Winerror. h. pour les programmeurs Visual Basic, ils sont disponibles via l’IDE Visual Basic.
 
 ## <a name="errorinfo-collection"></a>ErrorInfo, collection
 

@@ -3,9 +3,9 @@
   items:
     - name: Nouveautés des services pour Windows 8
       href: what-s-new-in-services-for-windows-8.md
-    - name: Nouveautés des services pour Windows 7
+    - name: nouveautés des Services pour Windows 7
       href: what-s-new-in-services.md
-    - name: Modifications de service pour Windows Vista
+    - name: modifications de Service pour Windows Vista
       href: service-changes-for-windows-vista.md
     - name: À propos des services
       href: about-services.md

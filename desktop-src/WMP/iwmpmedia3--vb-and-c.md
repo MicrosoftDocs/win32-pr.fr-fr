@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPMedia3 (VB et C) (WMP. h)
+title: interface IWMPMedia3 (VB et C) (Wmp. h)
 description: Fournit des méthodes supplémentaires pour accéder aux propriétés d’un élément multimédia.
 ms.assetid: e16aa5e2-ae44-41c2-8c61-fb688c2e89e2
 keywords:
-- IWMPMedia3 (VB et C) interface Windows Media Player
-- Interface IWMPMedia3 (VB et C), le lecteur Windows Media, décrit
+- interface IWMPMedia3 (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPMedia3 (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,26 +15,26 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: edb5438ad4d80031d5b45c738c6b6cc9335018af
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d536f792f0acc8003669be05448ec1f68f82830ccbadf75483bbbc6b84610ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119415916"
 ---
-# <a name="iwmpmedia3-vb-and-c-interface"></a>Interface IWMPMedia3 (VB et C#)
+# <a name="iwmpmedia3-vb-and-c-interface"></a>interface IWMPMedia3 (VB et C#)
 
 Fournit des méthodes supplémentaires pour accéder aux propriétés d’un élément multimédia.
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPMedia3 (VB et C#)** possède les types de membres suivants :
+l’interface **IWMPMedia3 (VB et C#)** possède les types de membres suivants :
 
 -   [Méthodes](#methods)
 
 ### <a name="methods"></a>Méthodes
 
-L’interface **IWMPMedia3 (VB et C#)** possède ces méthodes.
+l’interface **IWMPMedia3 (VB et C#)** possède ces méthodes.
 
 
 
@@ -75,7 +75,7 @@ Obtient une interface **IWMPMedia3** en effectuant un cast de la valeur retourn�
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPMedia (VB et C#)**](iwmpmedia--vb-and-c.md)

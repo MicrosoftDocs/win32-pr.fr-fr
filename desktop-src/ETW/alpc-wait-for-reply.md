@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 898077511db25ec7f53bc075ecb845d04e540626
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05b2f2e867e3e95e8ba0916ad288363db7ad8b6a7753f956df5415529d8ec5e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070309"
 ---
 # <a name="alpc_wait_for_reply-class"></a>\_Attente ALPC \_ pour la \_ classe reply
 
@@ -48,7 +48,7 @@ La **classe \_ d’attente ALPC \_ pour la \_ réponse** possède ces propriét�
 
 <dl> <dt>
 
-**ID**
+**MessageID**
 </dt> <dd> <dl> <dt>
 
 Type de données : **UInt32**
@@ -61,14 +61,14 @@ Identificateur du message.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

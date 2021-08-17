@@ -7,16 +7,16 @@ keywords:
 - Sauvegarde de récupération de l’état du système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a5f6b281c07f5b0ad8d6cd7e59b4f93ec9208a5
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: cfdf95ff77fd17a578b85e6037c71146666eae9522d066bc1c4629fb9a2c24e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "104463875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835537"
 ---
 # <a name="srdelayedexe"></a>Srdelayed.exe
 
-Les applications qui effectuent des opérations de restauration de l’état du système au début du démarrage du système d’exploitation peuvent ne pas pouvoir utiliser les fonctions de gestion de fichiers pour déplacer, supprimer ou définir le nom abrégé de certains fichiers système. Srdelayed.exe est un fichier exécutable, fourni avec la fonctionnalité de Sauvegarde Windows Server (WSB) de Windows Server 2008, qui peut permettre aux applications de récupération de l’état du système de déplacer, supprimer et définir le nom abrégé des fichiers système.
+Les applications qui effectuent des opérations de restauration de l’état du système au début du démarrage du système d’exploitation peuvent ne pas pouvoir utiliser les fonctions de gestion de fichiers pour déplacer, supprimer ou définir le nom abrégé de certains fichiers système. Srdelayed.exe est un fichier exécutable, fourni avec la fonctionnalité de Sauvegarde Windows Server (WSB) dans Windows Server 2008, qui peut permettre aux applications de récupération de l’état du système de déplacer, supprimer et définir le nom abrégé des fichiers système.
 
 L’outil srdelayed est conçu pour les applications de récupération de l’état du système. elle ne remplace pas les fonctions de gestion de fichiers. Cet outil doit être utilisé uniquement lorsque l’application ne peut pas déplacer, supprimer ou définir le nom abrégé d’un fichier système à l’aide des fonctions [**MoveFileEx**](/windows/desktop/api/winbase/nf-winbase-movefileexa), [**DeleteFile**](/windows/desktop/api/fileapi/nf-fileapi-deletefilea)et [**SetFileShortName**](/windows/desktop/api/winbase/nf-winbase-setfileshortnamea) . Pendant une restauration et un redémarrage de l’état du système, Srdelayed.exe est utilisé par la restauration du système et l’outil de ligne de commande wbadmin.exe pour déplacer, supprimer et définir le nom abrégé de certains fichiers système. Srdelayed peut donc être utile pour les développeurs qui requièrent la possibilité de restaurer ces fichiers système dans leurs propres applications de récupération de l’état du système.
 
@@ -37,7 +37,7 @@ Votre application doit utiliser le format suivant pour définir la valeur de **S
 
 Par exemple, la valeur suivante pour **SetupExecute** indique que le Srdelayed.exe se trouve dans le dossier system32 et que le fichier texte est nommé DelayedOperations :
 
-C : \\ Windows \\ system32 \\srdelayed.exe \\ \\ ?? \\ C : \\ temp \\ DelayedOperations  
+C : \\ Windows \\ System32 \\srdelayed.exe \\ \\ ?? \\ C : \\ temp \\ DelayedOperations  
 
 
 Les espaces dans le chemin d’accès et le nom doivent être encodés au format hexadécimal. Par exemple, pour les *fichiers programme*, encodez le chemin d’accès en tant que « \\ \\ ?? \\ C :Program%20Files \\a.dll».
@@ -120,8 +120,8 @@ SetFileShortName shortn ~1.dll \\ \\ ?? \\ Volume {26a21bda-A627-11D7-9931-806e6
 
 Srdelayed écrit la chaîne L "SC =*xxxxxxx*" dans le quatrième champ de chaque enregistrement du fichier texte, où *xxxxxxx* est un hexadécimal qui indique l’état de l’opération demandée. La valeur zéro indique que l’opération a réussi.
 
-Srdelayed crée une clé de Registre nommée **SystemRestore** sous **HKEY \_ local \_ machine** \\ **Software** \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** pour consigner le résultat de l’opération de restauration entière. Si srdelayed effectue toutes les opérations demandées avec succès, le nom RestoreStatusResult est écrit sous cette clé avec une valeur égale à zéro. Si srdelayed n’est pas en mesure d’effectuer l’une des opérations demandées, les noms RestoreStatusResult et RestoreStatusDetails sont écrits sous cette clé avec des valeurs autres que zéro. Le nom RestoreStatusDetails est écrit sous cette clé uniquement si srdelayed n’est pas en mesure d’effectuer les opérations demandées. Si une opération de définition du nom abrégé d’un fichier échoue, srdelayed continue à l’opération suivante. Srdelayed considère les opérations de déplacement de fichier et de suppression de fichier comme critiques et ne continue pas en cas d’échec d’une opération de déplacement ou de suppression.
+Srdelayed crée une clé de registre nommée **SystemRestore** sous **HKEY \_ LOCAL \_ MACHINE** \\ **Software** \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** pour consigner le résultat de l’opération de restauration entière. Si srdelayed effectue toutes les opérations demandées avec succès, le nom RestoreStatusResult est écrit sous cette clé avec une valeur égale à zéro. Si srdelayed n’est pas en mesure d’effectuer l’une des opérations demandées, les noms RestoreStatusResult et RestoreStatusDetails sont écrits sous cette clé avec des valeurs autres que zéro. Le nom RestoreStatusDetails est écrit sous cette clé uniquement si srdelayed n’est pas en mesure d’effectuer les opérations demandées. Si une opération de définition du nom abrégé d’un fichier échoue, srdelayed continue à l’opération suivante. Srdelayed considère les opérations de déplacement de fichier et de suppression de fichier comme critiques et ne continue pas en cas d’échec d’une opération de déplacement ou de suppression.
 
- 
+ 
 
- 
+ 

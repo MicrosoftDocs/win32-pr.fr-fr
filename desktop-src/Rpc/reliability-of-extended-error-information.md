@@ -4,12 +4,12 @@ description: Les informations d’erreur étendues ne sont pas fiables.
 ms.assetid: d4735a7b-ede0-4230-b10a-bf9772aca6a6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c20edfbaa68f2a9ce80893f4f47bba33ec5ce595
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e2cb85e31f993719e5f0a555a63dd83a80064ed76df1ebda43cf03f994dab9fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926837"
 ---
 # <a name="reliability-of-extended-error-information"></a>Fiabilité des informations d’erreur étendues
 
@@ -21,9 +21,9 @@ Les raisons suivantes expliquent pourquoi les informations d’erreur étendues 
 -   La propagation des informations d’erreur étendues peut être désactivée, comme expliqué précédemment. Si le code de détection est inclus, l’application ne fonctionnera probablement pas dans certains environnements.
 -   La propagation des informations d’erreur étendues est effectuée de manière optimale. La propagation ou la génération d’informations d’erreur étendues peut échouer si la mémoire est insuffisante sur l’ordinateur pour traiter ou propager la chaîne. Dans ce cas, la chaîne est supprimée. Certains protocoles ont des longueurs limitées pour les paquets d’erreurs, car ils n’incluent généralement pas une grande quantité d’informations. Si la longueur de la chaîne dépasse la longueur autorisée du paquet, le temps d’exécution RPC commence à supprimer les informations de la chaîne en vue de faire tenir la chaîne dans le paquet. La durée d’exécution supprime d’abord les enregistrements, en commençant par l’avant-dernier, jusqu’à ce que seuls le premier et le dernier enregistrement soient conservés. Si la chaîne ne tient toujours pas dans un paquet, le temps d’exécution expose les paramètres de chaîne et les noms d’ordinateur. Si un paramètre de chaîne est supprimé, le type du paramètre est défini sur aucun. Si un enregistrement est supprimé, l’indicateur EEInfoNextRecordsMissing est défini dans l’enregistrement suivant, et EEInfoPreviousRecordsMissing est défini dans l’enregistrement précédent.
 
- 
+ 
 
- 
+ 
 
 
 

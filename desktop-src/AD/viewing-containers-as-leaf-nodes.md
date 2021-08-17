@@ -9,12 +9,12 @@ keywords:
 - feuille Active Directory, affichage des conteneurs en tant que nœuds terminaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1631526ed78132829a7576960a997b13cc232b5f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 33713f70e1b84ded536a928f8489f4fd41461bd4e37de46a84036bc6370327db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104314598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182253"
 ---
 # <a name="viewing-containers-as-leaf-nodes"></a>Affichage des conteneurs en tant que nœuds terminaux
 
@@ -26,6 +26,6 @@ Tout objet dans Active Directory Domain Services peut être un conteneur d’aut
 2.  Utilisez la [**méthode IADs ::P ut**](/windows/desktop/api/iads/nf-iads-iads-put) pour affecter la valeur **true** ou **false** à l’attribut **treatAsLeaf** .
 3.  Pour valider les modifications apportées à l’annuaire, appelez la méthode [**IADs :: setinfo**](/windows/desktop/api/iads/nf-iads-iads-setinfo) .
 
- 
+ 
 
- 
+ 

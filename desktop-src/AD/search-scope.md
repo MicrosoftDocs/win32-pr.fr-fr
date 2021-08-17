@@ -8,12 +8,12 @@ keywords:
 - Active Directory, recherche, spécification de l’étendue de recherche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7ff076e0410088c69eace25f204241c1c51c6fb
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 11ea307e349ffc91da41e72798be9c6232c9a510e2edf5563e5407d3d58ef2fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183857"
 ---
 # <a name="specifying-the-search-scope"></a>Spécification de l’étendue de recherche
 
@@ -23,6 +23,6 @@ Vous pouvez spécifier l’étendue d’une recherche sous la forme d’une rech
 -   **Un niveau**. Une recherche à un niveau est limitée aux enfants immédiats d’un objet de base, mais exclut l’objet de base lui-même. Ce paramètre peut effectuer une recherche ciblée d’objets enfants immédiats d’un objet parent. Par exemple, considérez un objet parent P1 et ses enfants immédiats : C1, C2 et C3. Une recherche à un niveau évalue C1, C2 et C3 par rapport aux critères de recherche, mais n’évalue pas P1. Utilisez une recherche à un niveau pour énumérer tous les enfants d’un objet. Une énumération [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) se traduit par une recherche à un niveau.
 -   **Sous-arborescence**. Une recherche de sous-arborescence (ou une recherche profonde) comprend tous les objets enfants, ainsi que l’objet de base. Vous pouvez demander au fournisseur LDAP de débusquer les références à d’autres services d’annuaire LDAP, y compris d’autres domaines ou forêts d’annuaire.
 
- 
+ 
 
- 
+ 

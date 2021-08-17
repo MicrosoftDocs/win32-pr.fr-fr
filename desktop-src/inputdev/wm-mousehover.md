@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65747ade6bd2ec9456281ac02711de18675a411e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 52a8fb4aef4d363b87b0093316d264dddb212aa11d42e10b6ae97a4a93ee46a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451499"
 ---
 # <a name="wm_mousehover-message"></a>\_Message WM MOUSEHOVER
 
@@ -74,7 +74,7 @@ Le mot de poids fort spécifie la coordonnée y du curseur. La coordonnée est r
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le suivi de survol s’arrête quand **WM \_ MOUSEHOVER** est généré. L’application doit appeler à nouveau [**TrackMouseEvent**](/windows/win32/api/winuser/nf-winuser-trackmouseevent) si elle nécessite un suivi supplémentaire du comportement de pointage de la souris.
 

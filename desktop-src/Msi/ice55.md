@@ -15,7 +15,7 @@ ms.locfileid: "118635140"
 
 ICE55 valide que tous les objets LockPermission existent et ont des valeurs d’autorisation valides.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE55 publie une erreur si un LockObject listé dans la [table LockPermissions](lockpermissions-table.md) n’existe pas ou si aucun niveau de privilège n’est spécifié dans la colonne autorisation.
 
@@ -34,7 +34,7 @@ Could not find item 'File3' in table 'File' which is referenced
 
 
 
-| LockObject | Table de charge de travail | Domain | Utilisateur  | Autorisation |
+| LockObject | Table de charge de travail | Domaine | Utilisateur  | Autorisation |
 |------------|-------|--------|-------|------------|
 | Fichier1      | Fichier  |        | guest |            |
 | Fichier3      | Fichier  |        | guest | 1          |

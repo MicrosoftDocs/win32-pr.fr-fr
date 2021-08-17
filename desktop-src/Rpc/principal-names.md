@@ -4,12 +4,12 @@ description: Pour qu’un client crée une session mutuellement authentifiée av
 ms.assetid: 4d9977f8-0efb-4559-977e-3eba4e277bc0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 554ffecff6eb019b4712e6b2d9f5c6319db492e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 19c0ba17916fb9f9c91ac959ea961c19d0f0a03e31d4caa11784dc123b54c5a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927218"
 ---
 # <a name="principal-names"></a>Noms principaux
 
@@ -30,9 +30,9 @@ Pour rechercher le nom principal du serveur, les applications peuvent appeler [*
 
 L’interrogation du nom du serveur de cette manière n’est pas sécurisée et doit être évitée. Pour l’authentification du serveur, le programme client doit connaître le serveur auquel il se connecte et créer le nom principal du serveur à partir de zéro.
 
- 
+ 
 
- 
+ 
 
 
 

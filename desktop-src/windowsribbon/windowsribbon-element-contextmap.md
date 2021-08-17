@@ -3,7 +3,7 @@ title: Élément ContextMap
 description: Représente un mappage de paire ContextMenu et MiniToolbar.
 ms.assetid: 84379578-24c6-4bf7-8dcf-8e21e5665d29
 keywords:
-- Ruban des fenêtres d’élément ContextMap
+- élément ContextMap Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4754fc75ca09e39cdc7eabbeae2a0a2d2630c31f
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: aa8fd3a6b082d4bba54fdc3d43848d6a6cbe5ff6deacb4e041dba5cb4c0e3b09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931459"
 ---
 # <a name="contextmap-element"></a>Élément ContextMap
 
 Représente un mappage de paire [**ContextMenu**](windowsribbon-element-contextmenu.md) et [**MiniToolbar**](windowsribbon-element-minitoolbar.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ContextMap
@@ -95,7 +95,7 @@ Il n’y a pas d’éléments enfants.
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque [**ContextPopup. ContextMaps**](windowsribbon-element-contextpopup-contextmaps.md).
 
@@ -193,7 +193,7 @@ Cette section de code illustre un ensemble de déclarations de contrôle **Conte
 ## <a name="element-information"></a>Informations sur les éléments
 
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: Oui
 
 

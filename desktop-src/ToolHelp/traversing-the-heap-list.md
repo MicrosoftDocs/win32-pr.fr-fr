@@ -1,17 +1,17 @@
 ---
-title: Parcours de la liste des tas
+title: Traversée de la liste des tas
 description: Exemples montrant comment obtenir une liste de segments de mémoire pour le processus actuel.
 ms.assetid: cfa1d2a4-fec0-4089-9351-e0a26f9ecfe3
 ms.topic: article
 ms.date: 03/23/2021
-ms.openlocfilehash: 5cc555f9a94166fa181309985d8a49c686baf06c
-ms.sourcegitcommit: 4af3e9ec3142ba499d20ed8b174c2b219c5eacd2
+ms.openlocfilehash: 868526c76ee85095f5b52cc9238e9e16015bfb3a81c9888da148f1d5ecc644aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "106533288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119419249"
 ---
-# <a name="traversing-the-heap-list"></a>Parcours de la liste des tas
+# <a name="traversing-the-heap-list"></a>Traversée de la liste des tas
 
 L’exemple suivant obtient une liste de segments de mémoire pour le processus en cours. Il prend un instantané des tas à l’aide de la fonction [**CreateToolhelp32Snapshot**](/windows/desktop/api/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot) , puis parcourt la liste à l’aide des fonctions [**Heap32ListFirst**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listfirst) et [**Heap32ListNext**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listnext) . Pour chaque segment de mémoire, il utilise les fonctions [**Heap32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32first) et [**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next) pour parcourir les blocs de tas.
 
