@@ -4,12 +4,12 @@ ms.assetid: b4f63642-9282-4e11-b40c-eec406b2dd2b
 title: Échange de service TG (ticket-granting)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3b227ee551d762abd145ca56c6cced110b6a2dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a691235b3e7f0faed68f38f0663c7792e381666f441399397f7e653bbb550080
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117786567"
 ---
 # <a name="ticket-granting-service-exchange"></a>Échange de service TG (ticket-granting)
 
@@ -17,7 +17,7 @@ Une fois qu’un ticket TGT (Ticket-Granting Ticket) et une [*clé de session*](
 
 **Pour demander un ticket pour un autre service**
 
-1.  Le client Kerberos sur la station de travail de l’utilisateur demande des [*informations d’identification*](../secgloss/c-gly.md) pour le service en envoyant au [*Centre de distribution de clés*](../secgloss/k-gly.md) (KDC) un message de type KRB \_ TGS \_ REQ (demande de service de Ticket-Granting Kerberos). Ce message est constitué de l’identité du service pour lequel le client demande des informations d’identification, d’un message d’authentificateur chiffré avec la nouvelle [*clé de session*](../secgloss/s-gly.md)de connexion de l’utilisateur et du TGT obtenu auprès de l' [échange du service d’authentification](authentication-service-exchange.md).
+1.  Le client Kerberos sur la station de travail de l’utilisateur demande des [*informations d’identification*](../secgloss/c-gly.md) pour le service en envoyant au [*Centre de distribution de clés*](../secgloss/k-gly.md) (KDC) un message de type KRB \_ TGS \_ REQ (demande de service de Ticket-Granting Kerberos). Ce message est constitué de l’identité du service pour lequel le client demande des informations d’identification, d’un message d’authentificateur chiffré avec la nouvelle [*clé de session*](../secgloss/s-gly.md)de connexion de l’utilisateur et du TGT obtenu à partir du [service d’authentification Exchange](authentication-service-exchange.md).
 2.  Lorsque le KDC reçoit une \_ demande TGS de KRB \_ , le KDC déchiffre le ticket TGT avec sa clé secrète et extrait la clé de session de connexion de l’utilisateur.
 3.  Le KDC utilise la [*clé de session*](../secgloss/s-gly.md) de connexion pour déchiffrer le message de l’authentificateur de l’utilisateur et l’évalue. Si l’authentificateur réussit le test, le KDC extrait les données d’autorisation de l’utilisateur à partir du TGT et invente une clé de session à partager avec le serveur demandé.
 4.  Le KDC chiffre une copie de la clé de session de service avec la clé de session de connexion de l’utilisateur.

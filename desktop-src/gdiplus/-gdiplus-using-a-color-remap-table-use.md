@@ -4,18 +4,18 @@ ms.assetid: 2b56ccd5-b9f3-4c5e-8a0b-4b3d1f2b7122
 title: Utilisation d’une table de remappage des couleurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe1c07bc0a67a02ea07aeaa3931e661af5665e33
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a00f36c493bbdc696fa672b2899d4d7c6d3231a9e40c0e4162b5113d78a67164
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036297"
 ---
 # <a name="using-a-color-remap-table"></a>Utilisation d’une table de remappage des couleurs
 
 Le remappage est le processus de conversion des couleurs d’une image en fonction d’une table de remappage des couleurs. La table de remappage des couleurs est un tableau de structures [**ColorMap**](/windows/win32/api/Gdipluscolormatrix/ns-gdipluscolormatrix-colormap) . Chaque structure **ColorMap** du tableau a un membre **oldColor** et un membre **NewColor** .
 
-Lorsque GDI+ dessine une image, chaque pixel de l’image est comparé au tableau des anciennes couleurs. Si la couleur d’un pixel correspond à une ancienne couleur, sa couleur est remplacée par la nouvelle couleur correspondante. Les couleurs sont modifiées uniquement pour le rendu : les valeurs de couleur de l’image elle-même (stockées dans une [**image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) ou un objet [**bitmap**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-bitmap) ) ne sont pas modifiées.
+quand GDI+ dessine une image, chaque pixel de l’image est comparé au tableau des anciennes couleurs. Si la couleur d’un pixel correspond à une ancienne couleur, sa couleur est remplacée par la nouvelle couleur correspondante. Les couleurs sont modifiées uniquement pour le rendu : les valeurs de couleur de l’image elle-même (stockées dans une [**image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) ou un objet [**bitmap**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-bitmap) ) ne sont pas modifiées.
 
 Pour dessiner une image remappée, initialisez un tableau de structures [**ColorMap**](/windows/win32/api/Gdipluscolormatrix/ns-gdipluscolormatrix-colormap) . Transmettez l’adresse de ce tableau à la méthode [**ImageAttributes :: SetRemapTable**](/windows/win32/api/Gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setremaptable) d’un objet [**ImageAttributes**](/windows/win32/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes) , puis transmettez l’adresse de l’objet **ImageAttributes** à la méthode [DrawImage des méthodes](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint)) d’un objet [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) .
 

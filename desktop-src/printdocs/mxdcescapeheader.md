@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: a16e0d5bb1a8ce48e071fe1b32543610d8433e86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53dd83e362ab21938121a986ee2402076d72f870460bc9db608b9a048cee0f28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119099073"
 ---
 # <a name="mxdc_escape_header_t-structure"></a>MXDC \_ \_ structure T de l’en-tête d’échappement \_
 
@@ -78,7 +78,7 @@ Constante de code qui indique à MXDC ce qu’il faut faire.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler [**MXDC \_ Escape**](mxdc-escape.md), \_ les applications doivent d’abord vérifier que le pilote est MXDC en appelant [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) avec l’échappement [**GETTECHNOLOGY**](/previous-versions/windows/desktop/legacy/dd144931(v=vs.85)) . Si le pilote est le MXDC, la fonction retourne la chaîne se terminant par zéro « http://schemas.microsoft.com/xps/2005/06 ».
 
@@ -125,8 +125,8 @@ Lorsque l' **opcode** est MXDCOP, \_ Définissez le \_ \_ mode XPSPASSTHRU :
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Mxdc. h</dt> </dl> |
 
 

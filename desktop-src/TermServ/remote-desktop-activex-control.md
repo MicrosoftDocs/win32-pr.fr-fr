@@ -1,42 +1,42 @@
 ---
-title: Contrôle ActiveX Bureau à distance
-description: Décrit comment utiliser le contrôle ActiveX Bureau à distance.
+title: contrôle de ActiveX Bureau à distance
+description: décrit comment utiliser le contrôle Bureau à distance ActiveX.
 ms.assetid: 28DA1103-549F-4C56-B421-54CDFD1A4AF1
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79a80b9793432a46b5baec5841c18b591c031f34
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 63d2fb83de4d779421b1b2f933dadc0bbca490332ab81f8c43d823575ec64989
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106536271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058647"
 ---
-# <a name="remote-desktop-activex-control"></a>Contrôle ActiveX Bureau à distance
+# <a name="remote-desktop-activex-control"></a>contrôle de ActiveX Bureau à distance
 
-Décrit comment utiliser le contrôle ActiveX Bureau à distance.
+décrit comment utiliser le contrôle Bureau à distance ActiveX.
 
 ## <a name="in-this-section"></a>Dans cette section
 
 <dl> <dt>
 
-[Utilisation du contrôle ActiveX Bureau à distance](using-remote-desktop-web-connection.md)
+[utilisation du contrôle de ActiveX Bureau à distance](using-remote-desktop-web-connection.md)
 </dt> <dd>
 
-Comment vous pouvez utiliser le contrôle ActiveX Bureau à distance pour personnaliser l’expérience utilisateur Services Bureau à distance.
+comment vous pouvez utiliser le contrôle Bureau à distance ActiveX pour personnaliser l’expérience utilisateur Services Bureau à distance.
 
 </dd> <dt>
 
-[Référence du contrôle ActiveX Bureau à distance](remote-desktop-activex-control-reference.md)
+[référence de contrôle de ActiveX Bureau à distance](remote-desktop-activex-control-reference.md)
 </dt> <dd>
 
-Les éléments de programmation suivants sont utilisés avec le contrôle ActiveX Bureau à distance.
+les éléments de programmation suivants sont utilisés avec le contrôle Bureau à distance ActiveX.
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

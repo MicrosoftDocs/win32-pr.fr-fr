@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6885d9dabb1d5d41cec20cc6922671f54b1a8a1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: aaf2dca0a2370dbddee78641d07d5bfe2068856b62e1ce42d1779e137f731bda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119297579"
 ---
 # <a name="ms-dns-propagation-time-attribute"></a>MS-DNS-propagation-attribut-heure
 
@@ -36,7 +36,7 @@ Attribut utilisé pour définir en secondes le temps attendu requis pour propage
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2147              |
 | System-ID-GUID    | ba340d47-2181-4ca0-a2f6-fae4479dab2a |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Poclass.h
 - BatClass.h
-ms.openlocfilehash: ee4010e055686c0df2987c34b48b133975b434ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a48514b81ddf5d8f7c0d84d4404eb01752413e73ade43db089fbb6dade673bc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143529"
 ---
 # <a name="ioctl_battery_query_information-control-code"></a>\_Code de \_ contrôle des \_ informations sur les requêtes de batterie IOCTL
 
@@ -143,7 +143,7 @@ Certaines informations sur les batteries sont facultatives ou n’ont pas de sen
 
 Toutes les demandes d’informations sur la batterie se terminent avec l’état **fichier d’erreur \_ \_ \_ introuvable** chaque fois que l’élément **BatteryTag** de la demande ne correspond pas à celui de la balise de batterie actuelle. Cela permet de s’assurer que les informations sur la batterie retournée correspondent à celles de la batterie demandée. (Pour plus d’informations, consultez [balises de batterie](battery-information.md) .)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette IOCTL de batterie récupère diverses informations pour la batterie. La structure des paramètres d’entrée, les [**\_ \_ informations sur les requêtes**](battery-query-information-str.md)de la batterie, indiquent le type d’informations à retourner et le moment où les informations sur la batterie doivent être retournées. Le type de données et le contenu de la mémoire tampon de sortie varient en fonction des données demandées.
 
@@ -159,9 +159,9 @@ Pour obtenir un exemple, consultez [énumération des unités de batterie](enume
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                                                                                                                                                                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                                                                                                                                                                                |
-| En-tête<br/>                   | <dl> <dt>Poclass. h ; </dt> <dt>BatClass. h sur Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows Server 2003 et Windows XP</dt> </dl> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                                                                                                                                                                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                                                                                                                                                                                |
+| En-tête<br/>                   | <dl> <dt>Poclass. h ;</dt> <dt>BatClass. h sur Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 et Windows XP</dt> </dl> |
 
 
 

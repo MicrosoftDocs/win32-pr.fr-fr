@@ -37,7 +37,7 @@ Il s’agit de l’attribut par défaut pour spécifier le genre de contenu.
 
 Si vous modifiez **WM/genre** ou **WM/GenreID** dans un fichier mp3, l’autre attribut sera modifié en correspondance.
 
-### <a name="example"></a> Exemple
+### <a name="example"></a>Exemple
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 6f174397b1ace85acd90ffe3def6b8122bf8d7f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8feace72eeb51ed0904ad748892ca3c1b3adea9c8ca6c97ac7a76ea11890dd08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117922427"
 ---
 # <a name="swbemobjectexgettext_-method"></a>SWbemObjectEx. GetText, \_ méthode
 
@@ -105,7 +105,7 @@ Une erreur interne, critique et inattendue est survenue. Signalez cette erreur a
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de la construction de votre [**SWbemNamedValueSet**](swbemnamedvalueset.md), seules les paires nom/valeur suivantes sont autorisées.
 

@@ -1,9 +1,9 @@
 ---
 title: Message WM_DDE_POKE (DDE. h)
-description: Une application cliente de échange dynamique de données (DDE) publie un message de l’application de \_ \_ serveur de publication DDE dans une application de serveur DDE.
+description: une application cliente de échange dynamique de données (dde) publie un message de l’application de \_ \_ serveur de publication dde dans une application de serveur dde.
 ms.assetid: 848142b7-a7ef-4206-9bb3-b511388cfaaa
 keywords:
-- WM_DDE_POKE l’échange de données de message
+- WM_DDE_POKE des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 001697cbd5328b9c8d9eb72ebddff5f86ef6381c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df1329c6667698a0b633deb2726c47469b515e8fcd78d735a3949e7c8e19a4dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736286"
 ---
 # <a name="wm_dde_poke-message"></a>Message d’échange de messages de l' \_ échange WM \_
 
-Une application cliente de échange dynamique de données (DDE) publie un message de l’application de serveur de publication DDE dans une application de serveur DDE. **\_ \_** Un client utilise ce message pour demander au serveur d’accepter un élément de données non sollicité. Le serveur doit répondre avec un message d' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE qui indique s’il a accepté l’élément de données.
+une application cliente de échange dynamique de données (dde) publie un message de l’application de serveur de publication dde dans une application de serveur dde. **\_ \_** Un client utilise ce message pour demander au serveur d’accepter un élément de données non sollicité. Le serveur doit répondre avec un message d' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE qui indique s’il a accepté l’élément de données.
 
 Pour poster ce message, appelez la fonction [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) avec les paramètres suivants.
 
@@ -54,7 +54,7 @@ Le mot de poids fort contient un atome global qui identifie l’élément de don
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="posting"></a>Publication
 
@@ -85,7 +85,7 @@ Pour libérer l’objet, le serveur doit appeler la fonction [**FreeDDElParam**]
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>DDE. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Dde. h (inclure Windows. h)</dt> </dl> |
 
 
 

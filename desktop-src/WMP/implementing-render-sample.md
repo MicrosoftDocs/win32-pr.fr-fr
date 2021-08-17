@@ -13,12 +13,12 @@ keywords:
 - Render (fonction), exemple d’éclat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dabc816283113a82c1d5d677dfc0ca8e8887d344
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 8c00b57f15655468e5bd0000ccc3b5120e19c2af58d5a1ad6b5493b535c7253f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104508277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135572"
 ---
 # <a name="implementing-render-sample"></a>Implémentation de Render, exemple
 
@@ -71,13 +71,13 @@ Une variable nommée *MyColor* est utilisée pour la couleur de l’éclat et es
 
 Une variable nommée *myLevel* est utilisée pour l’instantané de niveau audio Wave. Cette valeur dépend du niveau de puissance réel au moment de l’instantané.
 
-L’instruction **switch** est définie par la présélection que l’utilisateur a choisie sur le lecteur Windows Media. Le choix permet de définir *MyColor* sur la couleur souhaitée (rouge, vert ou bleu). Toutefois, la couleur exacte sera déterminée par le niveau de puissance audio. Par exemple, si la présélection rouge est choisie, la couleur est un rouge fixe, mais il sera plus clair ou plus sombre en fonction de la forme d’onde audio au moment de l’instantané. Veillez à utiliser la macro **RBG** pour créer votre couleur.
+l’instruction **switch** est définie par la présélection que l’utilisateur a choisie sur Lecteur Windows Media. Le choix permet de définir *MyColor* sur la couleur souhaitée (rouge, vert ou bleu). Toutefois, la couleur exacte sera déterminée par le niveau de puissance audio. Par exemple, si la présélection rouge est choisie, la couleur est un rouge fixe, mais il sera plus clair ou plus sombre en fonction de la forme d’onde audio au moment de l’instantané. Veillez à utiliser la macro **RBG** pour créer votre couleur.
 
-Un pinceau est créé appelé *hNewBrush* et il est utilisé pour remplir le rectangle *PRC* fourni par le lecteur Windows Media. La surface de dessin est le contexte de périphérique *HDC* fourni par le lecteur Windows Media.
+un pinceau est créé appelé *hNewBrush* et il est utilisé pour remplir le rectangle *prc* fourni par Lecteur Windows Media. la surface de dessin est le contexte de périphérique *hdc* fourni par Lecteur Windows Media.
 
 Le pinceau est supprimé par **SupprimerObjet**. Veillez à toujours supprimer les stylets ou les pinceaux que vous créez.
 
-Une fois le code de **rendu** terminé, le lecteur Windows Media affiche les graphiques *HDC* dans une fenêtre déterminée par l’apparence utilisée.
+une fois le code de **rendu** terminé, Lecteur Windows Media affiche les graphiques *hdc* dans une fenêtre déterminée par l’apparence utilisée.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

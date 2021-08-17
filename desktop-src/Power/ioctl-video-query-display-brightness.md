@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - Ntddvdeo.h
-ms.openlocfilehash: 547501a28492aecfe06f63f95b0e007fc80d3d02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 673930fbde301c031049316255c9bcee40fd4e6a4f3c362977caf6e0569c5f5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143412"
 ---
 # <a name="ioctl_video_query_display_brightness-control-code"></a>Code de contrôle de luminosité de l' \_ \_ affichage des requêtes vidéo \_ IOCTL \_
 
-\[Ce code de contrôle peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. La prise en charge de ce code de contrôle a été supprimée dans Windows Server 2008 et Windows Vista. Utilisez la classe [**WmiMonitorBrightness**](/windows/desktop/WmiCoreProv/wmimonitorbrightness) à la place.\]
+\[Ce code de contrôle peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. la prise en charge de ce code de contrôle a été supprimée dans Windows Server 2008 et Windows Vista. Utilisez la classe [**WmiMonitorBrightness**](/windows/desktop/WmiCoreProv/wmimonitorbrightness) à la place.\]
 
 Récupère les niveaux de rétroéclairage AC et DC actuels et l’état d’alimentation actuel.
 
@@ -124,7 +124,7 @@ Si l’opération échoue ou est en attente, [**DeviceIoControl**](/windows/desk
 
 ## <a name="remarks"></a>Remarques
 
-Le fichier d’en-tête utilisé pour créer des applications qui incluent cette fonctionnalité, Ntddvdeo. h, est inclus dans le kit de développement de pilotes (DDK) Microsoft Windows. Pour plus d’informations sur l’obtention du DDK, consultez [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/windows/hardware/gg454513) .
+le fichier d’en-tête utilisé pour créer des applications qui incluent cette fonctionnalité, Ntddvdeo. h, est inclus dans Microsoft Windows Driver Development Kit (DDK). Pour plus d’informations sur l’obtention du DDK, consultez [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/windows/hardware/gg454513) .
 
 Vous pouvez également définir ce code de contrôle comme suit :
 
@@ -140,7 +140,7 @@ Vous pouvez également définir ce code de contrôle comme suit :
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP1 uniquement\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | Fin de la prise en charge des clients<br/>    | Windows XP SP2<br/>                                                        |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003 R2<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Ntddvdeo. h</dt> </dl> |

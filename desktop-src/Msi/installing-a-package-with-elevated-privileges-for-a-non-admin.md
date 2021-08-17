@@ -4,25 +4,25 @@ ms.assetid: 61b9297e-f45e-4f50-9001-9bae580e1bf4
 title: Installation d’un package avec des privilèges élevés pour un non-administrateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec81de333d6ca388017e03c96f739d7bd258a7c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 603d2a39fd20a6ae2971a29e615887041e2a1fbf64989e93d5a1046f96102b5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946107"
 ---
 # <a name="installing-a-package-with-elevated-privileges-for-a-non-admin"></a>Installation d’un package avec des privilèges élevés pour un non-administrateur
 
 Un administrateur peut utiliser les méthodes suivantes pour permettre à un utilisateur non-administrateur d’installer une application avec des privilèges système élevés.
 
--   Dans Windows Vista avec Windows Installer, un membre du groupe administrateurs peut accorder l’autorisation à un non-administrateur d’élever l’installation par le biais du [*contrôle de compte d’utilisateur*](u-gly.md) (UAC), comme décrit dans utilisation de [Windows Installer avec UAC](using-windows-installer-with-uac.md).
+-   dans Windows Vista avec Windows Installer, un membre du groupe administrateurs peut accorder l’autorisation à un non-administrateur d’élever l’installation par le biais du [*contrôle de compte d’utilisateur*](u-gly.md) (uac), comme décrit dans utilisation de [Windows Installer avec uac](using-windows-installer-with-uac.md).
 
     **Windows Vista :** Obligatoire.
 
 Les méthodes suivantes peuvent également être utilisées pour installer une application avec des privilèges système élevés.
 
--   Un administrateur peut publier une application sur l’ordinateur d’un utilisateur en affectant ou en publiant le package Windows Installer à l’aide du déploiement d’applications et de [stratégie de groupe](/previous-versions/windows/desktop/Policy/group-policy-start-page). L’administrateur publie le package pour l’installation par ordinateur. Si un utilisateur qui n’est pas administrateur installe ensuite l’application, l’installation peut s’exécuter avec des privilèges élevés. Les utilisateurs non-administrateurs ne peuvent pas installer les packages non publiés qui nécessitent des privilèges système élevés.
--   Un administrateur peut accéder à l’ordinateur de l’utilisateur et [publier](advertisement.md) l’application pour une installation par ordinateur. Étant donné que le Windows Installer a toujours des privilèges élevés lors de l’installation dans le [contexte d’installation](installation-context.md)par ordinateur, si un utilisateur non-administrateur installe ensuite l’application publiée, l’installation peut s’exécuter avec des privilèges élevés. Les utilisateurs non-administrateurs ne peuvent toujours pas installer les packages non publiés qui requièrent des privilèges élevés.
+-   un administrateur peut publier une application sur l’ordinateur d’un utilisateur en affectant ou en publiant le package Windows Installer à l’aide du déploiement d’applications et de [stratégie de groupe](/previous-versions/windows/desktop/Policy/group-policy-start-page). L’administrateur publie le package pour l’installation par ordinateur. Si un utilisateur qui n’est pas administrateur installe ensuite l’application, l’installation peut s’exécuter avec des privilèges élevés. Les utilisateurs non-administrateurs ne peuvent pas installer les packages non publiés qui nécessitent des privilèges système élevés.
+-   Un administrateur peut accéder à l’ordinateur de l’utilisateur et [publier](advertisement.md) l’application pour une installation par ordinateur. étant donné que le Windows Installer a toujours des privilèges élevés lors de l’installation dans le [contexte d’installation](installation-context.md)par ordinateur, si un utilisateur non-administrateur installe ensuite l’application publiée, l’installation peut s’exécuter avec des privilèges élevés. Les utilisateurs non-administrateurs ne peuvent toujours pas installer les packages non publiés qui requièrent des privilèges élevés.
 -   Un utilisateur sans privilèges peut installer une application publiée qui requiert des privilèges élevés si un agent du système local publie l’application. L’application peut être publiée pour une installation par utilisateur ou par ordinateur. Une application installée à l’aide de cette méthode est considérée comme gérée. Pour plus d’informations, consultez [publication d’une Application Per-User à installer avec des privilèges élevés](advertising-a-per-user-application-to-be-installed-with-elevated-privileges.md).
 -   Un administrateur peut définir la stratégie [AlwaysInstallElevated a](alwaysinstallelevated.md) pour les installations par utilisateur et par ordinateur. Cette méthode peut ouvrir un ordinateur à un risque de sécurité, car lorsque cette stratégie est définie, un utilisateur non-administrateur peut exécuter des installations avec des privilèges élevés et accéder à des emplacements sécurisés sur l’ordinateur, tels que SystemFolder ou la clé de Registre **HKLM** .
 

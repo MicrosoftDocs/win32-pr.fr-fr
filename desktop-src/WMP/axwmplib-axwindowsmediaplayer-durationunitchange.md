@@ -3,7 +3,7 @@ title: Événement DurationUnitChange de l’objet AxWindowsMediaPlayer
 description: L’événement DurationUnitChange est réservé pour une utilisation ultérieure.
 ms.assetid: d8d7da21-bc61-49f8-91bd-4c232295c1ac
 keywords:
-- Événement DurationUnitChange de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement DurationUnitChange de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f90aa052c61893d83683d10f482cd05841a49fab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1efa872389ad88a236808de64ed299dd3afc123cee59f39f1215f7a16bcb589f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136042"
 ---
 # <a name="durationunitchange-event-of-the-axwindowsmediaplayer-object"></a>Événement DurationUnitChange de l’objet AxWindowsMediaPlayer
 
@@ -53,7 +53,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement est réservé à une utilisation ultérieure.
 
@@ -73,7 +73,7 @@ Cet événement est réservé à une utilisation ultérieure.
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

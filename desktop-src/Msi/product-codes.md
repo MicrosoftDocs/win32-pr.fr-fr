@@ -4,12 +4,12 @@ ms.assetid: 6fbad59b-27b7-4ac1-bad5-8a608c7b270f
 title: Codes de produit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edca03d54dcd14068e89b2314b729e672b0c631c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b2afe0c96e78d14bc989d4acdc7195d374b82466c4b345a999df7085468587e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145372"
 ---
 # <a name="product-codes"></a>Codes de produit
 
@@ -21,7 +21,7 @@ Si un serveur exposé dans la [table PublishComponent](publishcomponent-table.md
 
 Notez que les lettres dans les GUID de code de produit doivent être en majuscules. Les utilitaires tels que GUIDGEN génèrent des GUID contenant des minuscules. Les minuscules dans ces GUID doivent être remplacées par des majuscules à utiliser comme code de produit ou code de package. Pour plus d’informations, consultez [modification du code du produit](changing-the-product-code.md).
 
-Le code du package est un GUID identifiant un [*package*](p-gly.md)de Windows Installer particulier. Le code du package associe un fichier. msi à une application ou à un produit et peut également être utilisé pour la vérification des sources. Les codes de produit et de package ne sont pas interchangeables. Deux fichiers. msi non identiques ne doivent jamais avoir le même code de package. Bien qu’il soit courant d’expédier une application qui possède le même code de package et le même code de produit, les deux valeurs peuvent divergent lorsque l’application est mise à jour. Pour plus d’informations, consultez [codes de package](package-codes.md).
+le code du package est un GUID identifiant un [*package*](p-gly.md)de Windows Installer particulier. Le code du package associe un fichier .msi à une application ou un produit et peut également être utilisé pour la vérification des sources. Les codes de produit et de package ne sont pas interchangeables. Deux fichiers de .msi non identiques ne doivent jamais avoir le même code de package. Bien qu’il soit courant d’expédier une application qui possède le même code de package et le même code de produit, les deux valeurs peuvent divergent lorsque l’application est mise à jour. Pour plus d’informations, consultez [codes de package](package-codes.md).
 
  
 

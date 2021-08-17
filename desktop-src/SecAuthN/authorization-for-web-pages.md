@@ -4,12 +4,12 @@ ms.assetid: DD6836EE-DF73-4A07-9DF1-0F5A959DDE8F
 title: Autorisation pour les pages Web
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88c26e9bc8333d74d18989c5c581cc54054a29ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73e4f64cbbf3dd9ac38a13719cd8835a198f1fbb3b522e8ac368ffaf4e759fc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141325"
 ---
 # <a name="authorization-for-web-pages"></a>Autorisation pour les pages Web
 
@@ -36,8 +36,8 @@ Vous devez connaître les fichiers HTML et CSS suivants.
 1.  Les fichiers HTML suivants correspondent aux deux pages du workflow d’autorisation Web
     -   WebAuthLogin.html – exemple de code HTML pour la page de connexion
     -   WebAuthPermissions.html – exemple de code HTML pour la page autorisations
-2.  Les fichiers CSS contiennent des styles Windows 8 pour faciliter la création d’une page Web d’application du Windows Store.
-    -   UI-Light. CSS : cela a été dérivé de la feuille de style de base pour les contrôles Windows 8.
+2.  les fichiers CSS contiennent Windows 8 styles pour faciliter la création d’une page web d’application Windows Store.
+    -   ui-light. css : cela a été dérivé de la feuille de style de base pour les contrôles Windows 8.
     -   UI-webauth. CSS : fournit un style incrémentiel pour optimiser la disposition des pages d’authentification Web.
     -   Theme-Colors. CSS : fournit le style incrémentiel pour remplacer les couleurs d’accentuation par défaut des contrôles par la couleur de la personnalisation du fournisseur.
 

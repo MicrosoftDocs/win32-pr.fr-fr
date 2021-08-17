@@ -7,16 +7,16 @@ keywords:
 - Fonctions SNMP, SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9f4cc98ce84fbb66f8beb59a6bf995dc4315159
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 42028e4045d4d0dfeb183dc29a3dc85e7220ed3d5bccf39a3cc9871215188153
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143012"
 ---
 # <a name="snmp-functions"></a>Fonctions SNMP
 
-\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
+\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
 
 Cette rubrique décrit trois regroupements de fonctions SNMP et répertorie les fonctions incluses dans chaque groupe :
 
@@ -40,7 +40,7 @@ Les fonctions de l’agent d’extension SNMP définissent l’interface entre l
 
 
 
- 
+ 
 
 ## <a name="snmp-management-api-functions"></a>Fonctions de l’API de gestion SNMP
 
@@ -60,7 +60,7 @@ Les fonctions de gestion SNMP définissent l’interface entre les applications 
 
 
 
- 
+ 
 
 ## <a name="snmp-utility-api-functions"></a>Fonctions de l’API de l’utilitaire SNMP
 
@@ -97,8 +97,8 @@ Les fonctions de l’utilitaire SNMP offrent des fonctionnalités qui sont utile
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

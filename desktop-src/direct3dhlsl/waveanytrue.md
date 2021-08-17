@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 16801c4329f5bc0bf325d8bb67e8c0bb94887678
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: 2c49c9727461d316d7d2c9d8f048971384e568476d1ca693aeec49cdf14a4795
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104991029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117721729"
 ---
 # <a name="waveactiveanytrue-function"></a>WaveActiveAnyTrue fonction)
 
@@ -47,7 +47,7 @@ Expression booléenne à évaluer.
 
 True si l’expression est vraie dans une voie.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est prise en charge à partir du Shader Model 6,0 dans toutes les étapes du nuanceur. 
 

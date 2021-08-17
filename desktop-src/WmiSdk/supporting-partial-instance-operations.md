@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Prise en charge des opérations de Partial-Instance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05bf656688ffbcc6981c6a3e55dc480570ad0f98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a2043c09ca129acab6976cabda2b854be464d26036cb5b9df1bc5b82989ccc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117922849"
 ---
 # <a name="supporting-partial-instance-operations"></a>Prise en charge des opérations de Partial-Instance
 

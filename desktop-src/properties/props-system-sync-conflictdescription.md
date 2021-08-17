@@ -4,12 +4,12 @@ ms.assetid: a54f8cd9-fe6d-4ddc-bf00-261681cb6366
 title: System. Sync. ConflictDescription
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a22a62e5d0bb583422a1f90247b40032ebaefa6a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 25fc529e6850d993b2c27a9f293f5c8c8209ffb1a78dfb4003ca3c7d9c096329
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095496"
 ---
 # <a name="systemsyncconflictdescription"></a>System. Sync. ConflictDescription
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

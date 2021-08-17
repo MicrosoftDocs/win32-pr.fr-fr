@@ -4,12 +4,12 @@ ms.assetid: 48c766e5-a69d-47d2-a885-f24b80e910d8
 title: Glossaire Uniscribe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e154e65c103ce6e4287ac8aa2e76e0be4206f9fd
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 808ff2e9620810fe2ec344a037437e6ce8d62bff9460a53cf7b777cedc9d46b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104316722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146968"
 ---
 # <a name="uniscribe-glossary"></a>Glossaire Uniscribe
 
@@ -53,7 +53,7 @@ Une application peut justifier du texte pour s’ajuster à une ligne en ajustan
 
 ## <a name="cluster"></a>cluster
 
-Un cluster est la plus petite unité linguistique qui peut être mise en forme. Dans les langages tels que l’arabe et la plupart des langages indo-aryens, les glyphes utilisés pour représenter chaque caractère (point de code Unicode) dépendent fortement des points de code environnants, qui constituent le cluster. Dans ces langages, les applications peuvent traduire des points de code en glyphes appropriés uniquement en examinant le cluster. Dans certains scripts, tels que le DÉVANÂGARÎ, l’ordre des glyphes au sein d’un cluster peut différer de l’ordre des points de code Unicode correspondants. Pour plus d’informations, consultez [traitement des glyphes Windows](/typography/develop/processing-part1) sur le site Microsoft Typography.
+Un cluster est la plus petite unité linguistique qui peut être mise en forme. Dans les langages tels que l’arabe et la plupart des langages indo-aryens, les glyphes utilisés pour représenter chaque caractère (point de code Unicode) dépendent fortement des points de code environnants, qui constituent le cluster. Dans ces langages, les applications peuvent traduire des points de code en glyphes appropriés uniquement en examinant le cluster. Dans certains scripts, tels que le DÉVANÂGARÎ, l’ordre des glyphes au sein d’un cluster peut différer de l’ordre des points de code Unicode correspondants. pour plus d’informations, consultez [Windows traitement des glyphes](/typography/develop/processing-part1) sur le site de typographie de Microsoft.
 
 ## <a name="complex-script"></a>script complexe
 
@@ -64,14 +64,14 @@ Un script complexe est un [script](#complex-script) avec l’une des propriété
 -   A des caractères d’association.
 -   A des règles de justification et de justification de mot spécialisées.
 -   Filtre les combinaisons de caractères non conformes.
--   N’est pas pris en charge dans les polices Windows principales et peut donc nécessiter une [police de secours](#font-fallback).
+-   n’est pas pris en charge dans les polices de Windows principales et peut donc nécessiter une [police de secours](#font-fallback).
 
 Dans certains scripts complexes, l’ordre des glyphes peut être très différent de l’ordre des caractères Unicode sous-jacents qu’ils représentent. Pour plus d’informations, consultez [à propos des scripts complexes](about-complex-scripts.md) .
 
 > [!Note]  
 > Dans le contexte de la typographie, il est parfois souhaitable de gérer le script latin utilisé en écrivant l’anglais comme script complexe. Il peut s’agir, par exemple, de la fonctionnalité de remplaçants stylistiques décrite dans la documentation d’un [**\_ \_ enregistrement de fonctionnalité OpenType**](/windows/desktop/api/Usp10/ns-usp10-opentype_feature_record)ou de ligatures, telles que « fi », où un seul glyphe représente deux caractères consécutifs ou plus.
 
- 
+ 
 
 ## <a name="embedding-level"></a>niveau d’incorporation
 
@@ -146,6 +146,6 @@ Le sous-blocage est une largeur d’espace blanc à gauche ou à droite de la pa
 [À propos de Uniscribe](about-uniscribe.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

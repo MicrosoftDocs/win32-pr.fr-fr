@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e37740802fac4d89bbcbe9d5c105e357b55ab481
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 176ebab3b2879b3d158310ec61fa9e65df45f8b502029ede1c58c2c1dd33f225
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882028"
 ---
 # <a name="systemmonitormaximumscale-property"></a>SystemMonitor. MaximumScale, propriété
 
@@ -42,7 +42,7 @@ Property MaximumScale As Long
 
 Valeur maximale positive de l’axe vertical du graphique. La valeur maximale par défaut de l’échelle verticale est 100. La valeur la plus basse que vous pouvez affecter à la valeur maximale est supérieure d’une unité à la valeur [**MinimumScale**](systemmonitor-minimumscale.md) . La valeur la plus élevée que vous pouvez affecter à la valeur maximale est 999 999 999.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le contrôle ajuste automatiquement la position des nombres d’échelle affichés sur l’échelle verticale en fonction de la taille du contrôle affiché.
 

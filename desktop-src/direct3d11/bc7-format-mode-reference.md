@@ -4,12 +4,12 @@ description: Cette documentation contient la liste des 8 modes de blocage et des
 ms.assetid: B1CEB729-6694-49BF-ACB9-FD1EFAB0B0D1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9756582d7d5ac52d4c16b2f4734decebbd66ae8
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: 2f96bfd9c90697b47587048684239ecf084dd43a76e0ef76b9717fe09d3b3630
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119126164"
 ---
 # <a name="bc7-format-mode-reference"></a>Référence du mode de format BC7
 

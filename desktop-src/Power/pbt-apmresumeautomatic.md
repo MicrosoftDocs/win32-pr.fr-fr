@@ -4,12 +4,12 @@ ms.assetid: cd331f79-b64d-479e-aea8-5118ccc87224
 title: Événement PBT_APMRESUMEAUTOMATIC (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a7a481dee356c85b3831fcace0c1ff127b0b276
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43e66fcd2201e9fb3c4feeb135843e92a350303b89a5c5045836428b9a326a30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143342"
 ---
 # <a name="pbt_apmresumeautomatic-event"></a>\_Événement PBT APMRESUMEAUTOMATIC
 
@@ -18,7 +18,7 @@ Notifie les applications que le système reprend du mode veille ou veille prolon
 Une fenêtre reçoit cet événement par le biais du message [**WM \_ POWERBROADCAST**](wm-powerbroadcast.md) . Les paramètres *wParam* et *lParam* sont définis comme suit.
 
 > [!Note]  
-> Dans les systèmes Windows 10, version 1507 ou ultérieure, si le système sort du mode veille uniquement à entrer immédiatement en veille prolongée, cet événement n’est pas remis. Un message [**WM \_ POWERBROADCAST**](wm-powerbroadcast.md) n’est pas envoyé dans ce cas.
+> dans Windows 10 versions 1507 ou ultérieures, si le système quitte le mode veille uniquement pour entrer immédiatement en veille prolongée, cet événement n’est pas remis. Un message [**WM \_ POWERBROADCAST**](wm-powerbroadcast.md) n’est pas envoyé dans ce cas.
 
  
 
@@ -76,7 +76,7 @@ Réservé doit être égal à zéro.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le système détecte une activité utilisateur après avoir diffusé PBT \_ APMRESUMEAUTOMATIC, il diffuse un événement [PBT \_ APMRESUMESUSPEND](pbt-apmresumesuspend.md) pour permettre aux applications de savoir qu’elles peuvent reprendre une interaction complète avec l’utilisateur.
 
@@ -86,8 +86,8 @@ Si le système détecte une activité utilisateur après avoir diffusé PBT \_ A
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>WinUser. h (inclure Windows. h)</dt> </dl> |
 
 

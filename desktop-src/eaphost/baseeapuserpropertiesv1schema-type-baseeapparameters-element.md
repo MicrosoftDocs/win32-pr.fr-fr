@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c5e8ae944d8268df7524c3519523ff4f8cb35856
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: dbb8d2d95b1c4d09d08567688ef90e61d93362658647b07240ecb3b3d344d5b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104323469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117619"
 ---
 # <a name="type-baseeapparameters-element-for-user-properties"></a>Élément type (BaseEapParameters) pour les propriétés utilisateur
 
@@ -39,8 +39,8 @@ L’élément **type** est défini par le type complexe [**BaseEapParameters**](
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

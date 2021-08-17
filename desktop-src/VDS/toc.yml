@@ -47,7 +47,7 @@
                   href: portal-object.md
                 - name: Objet groupe du portail
                   href: portal-group-object.md
-                - name: Objet de pool de stockage
+                - name: Stockage Objet de pool
                   href: storage-pool-object.md
         - name: Présentation de la configuration
           href: configuration.md

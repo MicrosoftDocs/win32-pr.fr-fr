@@ -4,17 +4,17 @@ description: Avec les liens de commande, les utilisateurs sélectionnent une ré
 ms.assetid: a77819b1-9a32-4468-94fb-3f73a469fb81
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: b579f554d46d48fd7e373d28df516ae1c0baca6a
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: ac24618b70d96b1b625549582af27e47b5386f354f09e7147000fc5ed438a36f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091049"
 ---
 # <a name="command-links"></a>Liens de commande
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Avec les liens de commande, les utilisateurs sélectionnent une réponse unique à une instruction principale et, en procédant ainsi, passent à l’étape suivante dans une tâche.
 
@@ -56,7 +56,7 @@ Pour vous décider, posez-vous les questions suivantes :
 
     ![capture d’écran de la boîte de dialogue avec la liste des commandes ](images/ctrl-command-links-image4.png)
 
-    Dans cet exemple, la fonctionnalité d’exécution automatique de Microsoft Windows utilise un mode liste.
+    dans cet exemple, la fonctionnalité d’exécution automatique de Microsoft Windows utilise un mode liste.
 
 -   **Une combinaison de cases d’option et d’un bouton de validation est-elle un meilleur choix ?** Les cases d’option sont un meilleur choix lorsque l’une des conditions suivantes est vraie :
     -   **La plupart des utilisateurs doivent sélectionner une option forte par défaut.** Les utilisateurs sont moins susceptibles de modifier une case d’option par défaut qu’un lien de commande par défaut, en particulier dans un Assistant, où les utilisateurs sont habitués à cliquer sur suivant pour accepter les valeurs par défaut appropriées. En revanche, les liens de commande sont un meilleur choix si vous souhaitez inciter les utilisateurs à faire un choix explicite.
@@ -109,13 +109,13 @@ Pour vous décider, posez-vous les questions suivantes :
     Dans cet exemple, les liens de commande sont explicites.
 
 > [!Note]  
-> Les liens de commande nécessitent Windows Vista ou une version ultérieure, donc ils ne sont pas adaptés aux versions antérieures de Windows. Vous pouvez utiliser des liens standard comme substituts.
+> les liens de commande nécessitent Windows Vista ou une version ultérieure, donc ils ne sont pas adaptés aux versions antérieures de Windows. Vous pouvez utiliser des liens standard comme substituts.
 
  
 
 ![capture d’écran des liens standard avec des icônes et du texte ](images/ctrl-command-links-image12.png)
 
-Dans cet exemple, des liens standard avec une icône et une explication supplémentaire sont utilisés comme substituts des liens de commande dans Windows XP.
+dans cet exemple, les liens standard avec une icône et une explication supplémentaire sont utilisés comme substituts des liens de commande dans Windows XP.
 
 ## <a name="design-concepts"></a>Principes de conception
 
@@ -167,7 +167,7 @@ Les liens de commande ont plusieurs modèles d’utilisation :
 
 | Usage                                                                                                                      | Exemple                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Réponses de page** Les liens de commande sont utilisés pour répondre à l’instruction principale et passer à la page suivante.    | avec ce modèle, les liens de commande remplacent le bouton suivant, mais il existe toujours un bouton Annuler.<br/>Les réponses de page n’impliquent pas l’engagement. étant donné que les liens de commande ressemblent à des liens et que les utilisateurs associent des liens avec navigation dans un workflow de page, les liens ne sont pas appropriés pour les pages de validation les utilisateurs doivent toujours pouvoir revenir en arrière. <br/> ![Capture d’écran montrant une boîte de dialogue « se connecter à Internet » avec des liens de commande « sans fil », « Broadband (PPPoE) » et « Dial-up ».](images/ctrl-command-links-image16.png)<br/>Dans cet exemple, des liens de commande sont utilisés pour fournir des réponses descriptives à l’instruction principale. Alors que les cases d’option peuvent être utilisées ici, les liens de commande permettent aux utilisateurs de répondre d’un simple clic.<br/> |
+| **Réponses de page** Les liens de commande sont utilisés pour répondre à l’instruction principale et passer à la page suivante.    | avec ce modèle, les liens de commande remplacent le bouton suivant, mais il existe toujours un bouton Annuler.<br/>Les réponses de page n’impliquent pas l’engagement. étant donné que les liens de commande ressemblent à des liens et que les utilisateurs associent des liens avec navigation dans un workflow de page, les liens ne sont pas appropriés pour les pages de validation les utilisateurs doivent toujours pouvoir revenir en arrière. <br/> ![capture d’écran montrant une boîte de dialogue « Connecter à Internet » avec des liens de commande « sans fil », « Broadband (PPPoE) » et « Dial-up ».](images/ctrl-command-links-image16.png)<br/>Dans cet exemple, des liens de commande sont utilisés pour fournir des réponses descriptives à l’instruction principale. Alors que les cases d’option peuvent être utilisées ici, les liens de commande permettent aux utilisateurs de répondre d’un simple clic.<br/> |
 | **Réponses aux boîtes de dialogue** Des liens de commande sont utilisés pour répondre à l’instruction principale et fermer la boîte de dialogue.  | avec ce modèle, les liens de commande remplacent les boutons de validation (tels que OK), mais il existe toujours un bouton Annuler.<br/>Contrairement aux flux de pages, il n’existe aucun moyen d’annuler une réponse basée sur une boîte de dialogue une fois qu’elle a été effectuée. par conséquent, les liens de commande de la boîte de dialogue impliquent un engagement. <br/> ![capture d’écran de la boîte de dialogue avec des liens de commande ](images/ctrl-command-links-image17.png)<br/>Dans cet exemple, des liens de commande sont utilisés pour fournir des réponses descriptives à l’instruction principale. Alors que les cases d’option peuvent être utilisées ici, les liens de commande permettent aux utilisateurs de choisir un seul clic.<br/>                                                   |
 | **Réponses détaillées** Une page ou une réponse de boîte de dialogue qui contient des informations détaillées.                          | Il peut arriver que les utilisateurs aient besoin d’informations plus détaillées pour choisir leur réponse. <br/> ![capture d’écran de la boîte de dialogue Copier un fichier et des miniatures ](images/ctrl-command-links-image18.png)<br/> Dans cet exemple, des liens de commande détaillés sont utilisés afin que les utilisateurs puissent prendre des décisions avisées. Les miniatures et les détails de fichier aident les utilisateurs à décider.<br/>                                                                                                                                                                                                                                                                                                         |
 
@@ -213,7 +213,7 @@ Les liens de commande ont plusieurs modèles d’utilisation :
 ### <a name="icons"></a>Icônes
 
 -   **Tous les liens de commande nécessitent une icône.** Les icônes aident les utilisateurs à distinguer les liens de commande des liens classiques et du texte de l’interface utilisateur.
--   **Utilisez l’icône de flèche uniquement pour les liens de commande.** Les liens habituels ne doivent pas utiliser l’icône en forme de flèche, sauf s’ils sont utilisés comme substituts des liens de commande dans Windows XP.
+-   **Utilisez l’icône de flèche uniquement pour les liens de commande.** les liens habituels ne doivent pas utiliser l’icône en forme de flèche, sauf s’ils sont utilisés comme substituts des liens de commande dans Windows XP.
 -   **Utilisez l’icône de bouclier de sécurité pour indiquer qu’une réponse requiert une élévation immédiate.** Pour obtenir des instructions supplémentaires sur l’utilisation de l’icône de bouclier de sécurité, consultez le [contrôle de compte d’utilisateur](winenv-uac.md).
 -   **Utilisez des icônes personnalisées uniquement si elles aident les utilisateurs à identifier visuellement et différencier les options.** N’utilisez pas d’icônes personnalisées si elles ne sont pas immédiatement reconnaissables ou significatives.
 

@@ -1,23 +1,23 @@
 ---
-description: Cette rubrique présente certaines fonctions d’assistance pour la connexion des filtres DirectShow.
+description: cette rubrique présente certaines fonctions d’assistance pour la connexion des filtres de DirectShow.
 ms.assetid: cfd85944-7ae7-49e6-948f-9e190cdeed12
-title: Connecter deux filtres
+title: Connecter Deux filtres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7e70e607c510490e7ed841ea44303153a94e83f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ab83e8608c088fde6d06c0a44621f1c066f177ecf76cbc8ba3f55d31218b49ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954208"
 ---
-# <a name="connect-two-filters"></a>Connecter deux filtres
+# <a name="connect-two-filters"></a>Connecter Deux filtres
 
-Cette rubrique présente certaines fonctions d’assistance pour la connexion des filtres DirectShow.
+cette rubrique présente certaines fonctions d’assistance pour la connexion des filtres de DirectShow.
 
 Pour connecter deux filtres, vous devez trouver une broche de sortie non connectée sur le filtre en amont et une broche d’entrée non connectée sur le filtre en aval.
 
-Si vous avez déjà des pointeurs vers les deux codes confidentiels, appelez la méthode [**IGraphBuilder :: Connect**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) pour les connecter. Si les codes confidentiels ne peuvent pas se connecter directement entre eux, la méthode **IGraphBuilder :: Connect** peut insérer des filtres supplémentaires pour terminer la connexion. Pour plus d’informations, consultez [connexion intelligente](intelligent-connect.md).
+si vous avez déjà des pointeurs vers les deux codes confidentiels, appelez la méthode [**IGraphBuilder :: Connecter**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) pour les connecter. si les codes confidentiels ne peuvent pas se connecter directement entre eux, la méthode **IGraphBuilder :: Connecter** peut insérer des filtres supplémentaires pour terminer la connexion. Pour plus d’informations, consultez [Intelligent connecter](intelligent-connect.md).
 
 Si vous avez un pointeur vers les filtres, mais pas les codes confidentiels, vous devez utiliser la méthode [**IBaseFilter :: EnumPins**](/windows/desktop/api/Strmif/nf-strmif-ibasefilter-enumpins) pour rechercher les broches. (Consultez [énumération des codes confidentiels](enumerating-pins.md).) Les fonctions d’assistance de cette rubrique illustrent cette technique.
 
@@ -53,7 +53,7 @@ HRESULT ConnectFilters(
 Cette fonction effectue les opérations suivantes :
 
 1.  Appelle la `FindUnconnectedPin` fonction pour recevoir une broche d’entrée non connectée. Cette fonction est présentée dans la rubrique [Rechercher un code confidentiel non connecté sur un filtre](find-an-unconnected-pin-on-a-filter.md).
-2.  Appelle [**IGraphBuilder :: Connect**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) pour connecter les deux broches.
+2.  appelle [**IGraphBuilder :: Connecter**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) pour connecter les deux broches.
 
 ### <a name="filter-to-input-pin"></a>Filtrer sur la broche d’entrée
 

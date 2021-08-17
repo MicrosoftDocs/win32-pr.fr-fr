@@ -3,7 +3,7 @@ title: XTYP_WILDCONNECT transaction (Ddeml. h)
 description: Permet à un client d’établir une conversation sur chacune des paires nom de service et nom de rubrique du serveur qui correspondent au nom du service et au nom de la rubrique spécifiés.
 ms.assetid: 4651e14f-ca13-412e-853d-326a13db78e4
 keywords:
-- Échange de données de transaction XTYP_WILDCONNECT
+- XTYP_WILDCONNECT Exchange de données de transaction
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc63d6c367aebc440418beaabb0a06f05b0df967
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5b2b170a8d2362dec6311f935a5bc0bb92fa16a9b04270afc59d8fe5ad5c19f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914729"
 ---
 # <a name="xtyp_wildconnect-transaction"></a>\_Transaction WILDCONNECT XTYP
 
-Permet à un client d’établir une conversation sur chacune des paires nom de service et nom de rubrique du serveur qui correspondent au nom du service et au nom de la rubrique spécifiés. Une fonction de rappel de serveur échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit cette transaction lorsqu’un client spécifie un nom de service **null** , un nom de rubrique **null** ou les deux dans un appel à la fonction [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) ou [**DdeConnectList**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnectlist) .
+Permet à un client d’établir une conversation sur chacune des paires nom de service et nom de rubrique du serveur qui correspondent au nom du service et au nom de la rubrique spécifiés. une fonction de rappel de serveur échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit cette transaction lorsqu’un client spécifie un nom de service **null** , un nom de rubrique **null** ou les deux dans un appel à la fonction [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) ou [**DdeConnectList**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnectlist) .
 
 
 ```C++
@@ -100,7 +100,7 @@ Le serveur doit retourner un handle de données qui identifie un tableau de stru
 
 Le serveur doit retourner la **valeur null** pour refuser la transaction **XTYP \_ WILDCONNECT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette transaction est filtrée si l’application serveur a spécifié l’indicateur **CBF \_ Fail \_ connections** dans la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
 
@@ -140,7 +140,7 @@ Un serveur ne peut pas bloquer ce type de transaction ; le \_ Code de retour de
 **Méthodologique**
 </dt> <dt>
 
-[Bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
+[bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

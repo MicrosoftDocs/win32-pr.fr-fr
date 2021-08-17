@@ -4,17 +4,17 @@ ms.assetid: dd3ab119-328b-4782-811a-f06909c17dec
 title: Effet d’accesseur Set alpha
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 372ec018a9cfb8fe15307ae44f5a905bf1eb3440
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e599b314dced175188d77dad1ae93259a23b8eb892471d047afab218add9a664
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586759"
 ---
 # <a name="alpha-setter-effect"></a>Effet d’accesseur Set alpha
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -39,7 +39,7 @@ Nom convivial : « DxtAlphaSetter »
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une propriété avec une valeur négative est ignorée. Une seule propriété peut avoir une valeur non négative. La propriété alpha spécifie une valeur alpha constante pour chaque pixel de l’image. Cette propriété remplace les valeurs alpha de l’image d’origine. La propriété AlphaRamp spécifie la valeur alpha de chaque pixel sous la forme d’un pourcentage de la valeur d’origine du pixel, de 0,0 à 1,0.
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3703132cd8a0f7744119d9b8cb5d9d48f260094c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7d5786096fb9c38188d73d613fd11efd97c2401e9f8ae9c7eb4a05dfe1dc1e6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103870134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117729245"
 ---
 # <a name="id3dxsprite-interface"></a>Interface ID3DXSprite
 
@@ -41,7 +41,7 @@ L’interface **ID3DXSprite** possède ces méthodes.
 |:------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Début**](id3dxsprite--begin.md)                   | Prépare un appareil pour le dessin des sprites.<br/>                                                                                                                                                                            |
 | [**Dessin**](id3dxsprite--draw.md)                     | Ajoute un sprite à la liste des sprites regroupés par lots.<br/>                                                                                                                                                                     |
-| [**Effet**](id3dxsprite--end.md)                       | Appelle [**ID3DXSprite :: Flush**](id3dxsprite--flush.md) et restaure l’état de l’appareil pour qu’il se trouvait avant l’appel de [**ID3DXSprite :: Begin**](id3dxsprite--begin.md) .<br/>                                            |
+| [**End**](id3dxsprite--end.md)                       | Appelle [**ID3DXSprite :: Flush**](id3dxsprite--flush.md) et restaure l’état de l’appareil pour qu’il se trouvait avant l’appel de [**ID3DXSprite :: Begin**](id3dxsprite--begin.md) .<br/>                                            |
 | [**Purge**](id3dxsprite--flush.md)                   | Force tous les sprites regroupés par lot à être envoyés à l’appareil. Les États des appareils restent tels qu’ils étaient après le dernier appel à [**ID3DXSprite :: Begin**](id3dxsprite--begin.md). La liste des sprites regroupés par lot est alors effacée.<br/> |
 | [**GetDevice**](id3dxsprite--getdevice.md)           | Récupère l’appareil associé à l’objet Sprite.<br/>                                                                                                                                                           |
 | [**GetTransform**](id3dxsprite--gettransform.md)     | Obtient la transformation de sprite.<br/>                                                                                                                                                                                        |
@@ -55,7 +55,7 @@ L’interface **ID3DXSprite** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface **ID3DXSprite** est obtenue en appelant la fonction [**D3DXCreateSprite**](d3dxcreatesprite.md) .
 

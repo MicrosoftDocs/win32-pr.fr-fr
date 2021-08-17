@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6eec52139710d0ffafe06f22504a735e59312818
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4470754e710faf9f7abe5a94cfb2e08e6e79c1b0415110b96dbac35807556911
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061066"
 ---
 # <a name="provider-complex-type"></a>Type complexe du fournisseur
 
@@ -184,7 +184,7 @@ Définit un fournisseur et les compteurs qu’il fournit.
 <tr class="odd">
 <td>applicationIdentity</td>
 <td><strong>xs:string</strong></td>
-<td>Nom du fichier binaire qui contient les chaînes de ressources localisées, soit un fichier. exe, soit un fichier. dll (n’incluez pas le chemin d’accès au fichier binaire).<br/> L’utilitaire Lodctr.exe utilise le chemin d’accès à partir du paramètre facultatif [<em>path</em>] pour rechercher le fichier binaire. Par exemple, <strong>lodctr</strong> [<strong>/m :</strong><em>Manifest</em> [<em>chemin</em>]]. Si vous n’incluez pas le paramètre [<em>path</em>], Lodctr.exe recherche le dossier qui contient le manifeste.<br/></td>
+<td>Nom du fichier binaire qui contient les chaînes de ressources localisées, soit un fichier .exe, soit .dll (n’incluez pas le chemin d’accès au fichier binaire).<br/> L’utilitaire Lodctr.exe utilise le chemin d’accès à partir du paramètre facultatif [<em>path</em>] pour rechercher le fichier binaire. Par exemple, <strong>lodctr</strong> [<strong>/m :</strong><em>Manifest</em> [<em>chemin</em>]]. Si vous n’incluez pas le paramètre [<em>path</em>], Lodctr.exe recherche le dossier qui contient le manifeste.<br/></td>
 </tr>
 <tr class="even">
 <td>rappel</td>
@@ -215,11 +215,11 @@ Définit un fournisseur et les compteurs qu’il fournit.
 <tbody>
 <tr class="odd">
 <td><span id="userMode"></span><span id="usermode"></span><span id="USERMODE"></span>userMode<br/></td>
-<td>Spécifiez ce mode pour un composant en mode utilisateur, tel qu’une application, une DLL ou un pilote en mode utilisateur. Les extensions classiques pour les composants en mode utilisateur sont. exe ou. dll. Il s’agit de la valeur par défaut.<br/></td>
+<td>Spécifiez ce mode pour un composant en mode utilisateur, tel qu’une application, une DLL ou un pilote en mode utilisateur. Les extensions types pour les composants en mode utilisateur sont .exe ou .dll. Il s’agit de la valeur par défaut.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="kernel"></span><span id="KERNEL"></span>noyau<br/></td>
-<td>Spécifiez ce mode pour un composant en mode noyau, tel qu’un pilote WDM ou WDF. L’extension classique des composants en mode noyau est. sys.<br/> <strong>Windows Vista et Windows Server 2008 :</strong> Cette valeur n’est pas prise en charge avant Windows 7 et Windows Server 2008 R2.<br/></td>
+<td>Spécifiez ce mode pour un composant en mode noyau, tel qu’un pilote WDM ou WDF. L’extension classique des composants en mode noyau est .sys.<br/> <strong>Windows Vista et Windows Server 2008 :</strong> cette valeur n’est pas prise en charge tant que Windows 7 et Windows Server 2008 R2.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -248,8 +248,8 @@ Définit un fournisseur et les compteurs qu’il fournit.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

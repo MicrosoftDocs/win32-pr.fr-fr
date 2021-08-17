@@ -4,16 +4,16 @@ ms.assetid: a3f849ac-bda9-4937-bf3b-bce8df20cbf0
 title: 'ITSdp :: get_IsValid, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88ca3cfdc1061e0a2830010ec39b2e6667c9341c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1674b51c605354a021948a63a0e993578a3d0114e625acec2cb9e24238423c56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140292"
 ---
 # <a name="itsdpget_isvalid-method"></a>ITSdp :: obtient \_ IsValid, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir \_ IsValid** valide le protocole SDP (session descripteur) (SDP ; consultez le document RFC 2327) pour les valeurs de structure et de champ.
 
