@@ -39,12 +39,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9ab05a9126cb5ffb81b65a460e6a9d671c268bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 616caaed9829c7f926f95f8982033457e1835a6beccfcad8313f6624d68195db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950828"
 ---
 # <a name="http_log_field_-constants"></a>\_ \_ Constantes de champ de journal http \_
 
@@ -169,7 +169,7 @@ Code d’état HTTP.
 
 
 
-Code d’État Windows.
+code d’état Windows.
 
 
 </dt> </dl> </dd> <dt>
@@ -344,8 +344,8 @@ ID du flux.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Http. h</dt> </dl> |
 
 

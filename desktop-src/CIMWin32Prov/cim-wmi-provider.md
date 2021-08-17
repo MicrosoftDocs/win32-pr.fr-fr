@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Fournisseur WMI CIM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a3249549e0915f51b6a9a6f2386c18ba695919a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: acb9a01e0771645cf6101171ce870be593181cb61d6118e627b9bf96b61994be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118420332"
 ---
 # <a name="cim-wmi-provider"></a>Fournisseur WMI CIM
 
@@ -912,7 +912,7 @@ La classe [**CIM \_ LogicalDevice**](cim-logicaldevice.md) représente une entit
 [**\_Disque logique CIM**](cim-logicaldisk.md)
 </dt> <dd>
 
-La [**classe \_ LogicalDisk CIM**](cim-logicaldisk.md) représente une plage contiguë de blocs logiques qui est identifiable par un système de fichiers par le biais du champ **DeviceID** (Key) du disque. Par exemple, dans un environnement Windows, le champ **DeviceID** contient une lettre de lecteur. dans un environnement UNIX, elle contient le chemin d’accès ; dans un environnement NetWare, il contient le nom du volume.
+La [**classe \_ LogicalDisk CIM**](cim-logicaldisk.md) représente une plage contiguë de blocs logiques qui est identifiable par un système de fichiers par le biais du champ **DeviceID** (Key) du disque. par exemple, dans un environnement Windows, le champ **DeviceID** contient une lettre de lecteur. dans un environnement de UNIX, il contient le chemin d’accès ; dans un environnement NetWare, il contient le nom du volume.
 
 </dd> <dt>
 
@@ -1570,7 +1570,7 @@ La classe de [**\_ service CIM**](cim-service.md) représente un élément logiq
 [**\_SERVICEACCESSBYSAP CIM**](cim-serviceaccessbysap.md)
 </dt> <dd>
 
-La classe d’association [**CIM \_ ServiceAccessBySAP**](cim-serviceaccessbysap.md) représente les points d’accès pour un service. Par exemple, il est possible d’accéder à une imprimante par des points d’accès SAP, Macintosh ou de service Windows, qui sont potentiellement hébergés sur différents systèmes.
+La classe d’association [**CIM \_ ServiceAccessBySAP**](cim-serviceaccessbysap.md) représente les points d’accès pour un service. par exemple, il est possible d’accéder à une imprimante par des points d’accès de service (sap) NetWare, Macintosh ou Windows, qui sont potentiellement hébergés sur différents systèmes.
 
 </dd> <dt>
 

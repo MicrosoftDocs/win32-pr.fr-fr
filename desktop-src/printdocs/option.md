@@ -4,12 +4,12 @@ ms.assetid: feda78d9-58e7-4668-8a25-40e5fd8ad456
 title: Option
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ac4318e6a79a3d4daa77f15901d032c66134bdd
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: c1f02f506c61353698bc4386541ea96dbf858790dd7c34c6d80b8dc2542c46a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098973"
 ---
 # <a name="option"></a>Option
 
@@ -46,7 +46,7 @@ Le tableau suivant répertorie les éléments qui peuvent être des parents de c
 
 | Category                   | Détails                                                                                                                                                                                                                                                                                          |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Éléments parents<br/> | Composant <br/>                                                                                                                                                                                                                                                                              |
+| Éléments parents<br/> | Fonctionnalité <br/>                                                                                                                                                                                                                                                                              |
 | Éléments enfants<br/>  | *Property* (zéro, un ou plusieurs)<br/> *ScoredProperty* (zéro ou plus pour les options avec l’attribut XML’name'; une ou plusieurs options pour les options qui n’utilisent pas l’attribut XML’name' \* )<br/> \* seules les options publiques définies dans le schéma d’impression ne peuvent pas avoir d’attribut’name', tel que DocumentNUp)<br/> |
 | Élément This<br/>    | Aucune donnée de caractères n’est autorisée.<br/> Les frères enfants en double ne sont pas autorisés.<br/>                                                                                                                                                                                                |
 

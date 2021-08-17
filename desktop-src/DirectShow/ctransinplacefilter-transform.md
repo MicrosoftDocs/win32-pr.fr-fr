@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d5b84f326807f730745268a217b6066dacb9aaa7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 224052bc882792f57eedf9ea58842b953e5853012d3581ef14cad58467b614b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953398"
 ---
 # <a name="ctransinplacefiltertransform-method"></a>CTransInPlaceFilter. Transform, méthode
 
@@ -58,13 +58,13 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 | Code de retour                                                                             | Description                            |
 |-----------------------------------------------------------------------------------------|----------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | Ne fournissez pas cet exemple.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                    |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                    |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe dérivée doit implémenter cette méthode. Transformez les exemples de données sur place. Si le filtre utilise deux allocations, il copie les données de l’exemple d’entrée vers un nouvel exemple et passe la copie à cette méthode.
 
@@ -76,7 +76,7 @@ Si le filtre ne doit pas livrer cet exemple (par exemple, pour prendre en charge
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transip. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Transip. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

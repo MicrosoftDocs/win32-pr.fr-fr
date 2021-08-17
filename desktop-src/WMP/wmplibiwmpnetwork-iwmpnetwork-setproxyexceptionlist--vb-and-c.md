@@ -3,9 +3,9 @@ title: Méthode IWMPNetwork setProxyExceptionList
 description: La méthode setProxyExceptionList spécifie la liste des exceptions du proxy. | Méthode IWMPNetwork setProxyExceptionList
 ms.assetid: a7a5e9ad-f71f-431e-9a53-b56456778104
 keywords:
-- méthode setProxyExceptionList lecteur Windows Media
-- méthode setProxyExceptionList lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, méthode setProxyExceptionList
+- Lecteur Windows Media de la méthode setProxyExceptionList
+- méthode setProxyExceptionList Lecteur Windows Media, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, méthode setProxyExceptionList
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dad011dee8e1199e6111be60acfec41d85d1e58
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eddfd3ce8495c02fc6ae352f918349ff7174afb99e69d9e1ba8aa19c45d1a49d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745761"
 ---
 # <a name="iwmpnetworksetproxyexceptionlist-method"></a>IWMPNetwork :: setProxyExceptionList, méthode
 
@@ -73,7 +73,7 @@ Implements IWMPNetwork.setProxyExceptionList
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une liste d’ordinateurs, de domaines et/ou d’adresses qui contournent le serveur proxy lorsque la partie hôte de l’URL cible correspond à une entrée de la liste.
 

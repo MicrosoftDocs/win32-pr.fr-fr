@@ -3,7 +3,7 @@ title: Code de notification NM_RDBLCLK (barre d’outils) (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle que l’utilisateur a double-cliqué sur le bouton droit de la souris dans le contrôle. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 0281a687-3f1c-4fc1-bf1d-19c7ac920cd3
 keywords:
-- Contrôles Windows de code de notification NM_RDBLCLK (barre d’outils)
+- NM_RDBLCLK (barre d’outils) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dec2129b6400c60bd59e441ff8af2083e781ba22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 14d81fadafa6faa0a4375d9aa34e98bb22a0099f9d0cdabcdbe1a385317e5df1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119391529"
 ---
 # <a name="nm_rdblclk-toolbar-notification-code"></a>\_Code de notification RDBLCLK nm (barre d’outils)
 
@@ -55,8 +55,8 @@ Retourne **false** pour permettre au contrôle de barre d’outils d’effectuer
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -1,9 +1,9 @@
 ---
-title: Button, élément (infrastructure de ruban Windows)
+title: Button, élément (Windows Framework du ruban)
 description: Représente un contrôle bouton.
 ms.assetid: a17d4dd8-9b0d-4b4a-93f4-f2a8c008fc58
 keywords:
-- Ruban des fenêtres d’élément de bouton
+- élément Button Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 40236b60a9fe9c72dd35d67fcf7c98bc188938af
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: ccd6084fef3c06c62e5dc780f526965a24966e9d36b5c249f57984921d9276c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964298"
 ---
 # <a name="button-element"></a>Button, élément
 
 Représente un contrôle [bouton](windowsribbon-controls-button.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Button
@@ -103,7 +103,7 @@ Il n’y a pas d’éléments enfants.
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque élément [**SplitButton. ButtonItem**](windowsribbon-element-splitbutton-buttonitem.md) .
 
@@ -204,7 +204,7 @@ Cette section de code montre les déclarations de contrôle de **bouton** .
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: Oui
 
 

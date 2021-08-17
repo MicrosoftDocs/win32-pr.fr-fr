@@ -1,6 +1,6 @@
 ---
 title: Identificateurs de contexte de filtre (Fwpmu. h)
-description: Identificateurs des contextes de filtre intégrés à la plateforme de filtrage Windows.
+description: identificateurs des contextes de filtre intégrés à la plateforme de filtrage Windows.
 ms.assetid: bcfae832-5386-43c5-b916-89577765ee5d
 topic_type:
 - apiref
@@ -17,16 +17,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c09968f1ab68016405f22460409e83cfd826b716
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fdc7d9914a9b6089ace87e7e9b942499d8e65dc7705bf524f74cddf96ee419d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951268"
 ---
 # <a name="filter-context-identifiers"></a>Identificateurs de contexte de filtre
 
-Les identificateurs des contextes de filtre intégrés à la plateforme de filtrage Windows sont définis comme suit.
+les identificateurs des contextes de filtre intégrés à la plateforme de filtrage Windows sont définis comme suit.
 
 <dl> <dt>
 
@@ -48,7 +48,7 @@ Contextes de filtre de transport IPsec dans la couche entrante.
 Contextes de filtre de transport IPsec dans une couche sortante.
 
 > [!Note]  
-> Pour Windows 7, utilisez **la \_ négociation de suppression du contexte \_ IPSec \_ sortants \_ \_ FWPM**.
+> pour Windows 7, utilisez **la \_ négociation de suppression du contexte \_ IPSEC \_ sortant \_ \_ IPSEC**.
 
  
 
@@ -73,7 +73,7 @@ Filtrez les contextes utilisés dans la couche de connexion ALE.
 Filtrez les contextes utilisés dans la couche de connexion ALE ou d’acceptation.
 
 > [!Note]  
-> Pour Windows 7, utilisez **FWPM \_ Context \_ ALE \_ Set \_ Connection \_ autoriser \_ First \_ \_ \_ Encrypted PKT non chiffré** ou **FWPM \_ Context \_ PEA \_ allow \_ auth \_ FW**.
+> pour Windows 7, utilisez **FWPM \_ context \_ ale \_ SET \_ CONNECTION \_ autoriser \_ FIRST \_ \_ \_ encrypted PKT non chiffré** ou **FWPM \_ context \_ pea \_ allow \_ AUTH \_ FW**.
 
  
 
@@ -106,8 +106,8 @@ Contextes utilisés dans la sous-couche d’audit RPC.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Fwpmu. h</dt> </dl> |
 
 

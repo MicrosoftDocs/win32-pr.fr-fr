@@ -1,11 +1,11 @@
 ---
 title: Player. Buffering (événement)
-description: L’événement de mise en mémoire tampon se produit lorsque le contrôle du lecteur Windows Media démarre ou termine la mise en mémoire tampon ou le téléchargement. | Player. Buffering (événement)
+description: l’événement de mise en mémoire tampon se produit lorsque le contrôle Lecteur Windows Media commence ou termine la mise en mémoire tampon ou le téléchargement. | Player. Buffering (événement)
 ms.assetid: a0a09bf7-19bc-4838-a403-924e8d83b48d
 keywords:
-- Mise en mémoire tampon des événements Windows Media Player
-- Événement de mise en mémoire tampon Windows Media Player, classe Player
-- Classe de lecteur Windows Media Player, événement de mise en mémoire tampon
+- Lecteur Windows Media d’événement de mise en mémoire tampon
+- Lecteur Windows Media d’événement de mise en mémoire tampon, classe Player
+- Lecteur Windows Media de classe Player, événement de mise en mémoire tampon
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a73ac77f9b8e81162a6cc0f9220562caba26eae
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d0ac382315d37fcd36a5470ae3f7f07bf4454687b660a2311498b5b0866e32b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747520"
 ---
 # <a name="playerbuffering-event"></a>Player. Buffering (événement)
 
-L’événement de **mise en mémoire tampon** se produit lorsque le contrôle du lecteur Windows Media démarre ou termine la mise en mémoire tampon ou le téléchargement.
+l’événement de **mise en mémoire tampon** se produit lorsque le contrôle Lecteur Windows Media commence ou termine la mise en mémoire tampon ou le téléchargement.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -64,11 +64,11 @@ Player.Buffering(
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Utilisez cet événement pour déterminer quand la mise en mémoire tampon ou le téléchargement démarre ou s’arrête. Vous pouvez utiliser le même bloc d’événements pour les cas et le *réseau* de test. **bufferingProgress** et *réseau*. **downloadProgress** pour déterminer si le lecteur Windows Media met actuellement en mémoire tampon ou télécharge le contenu.
+Utilisez cet événement pour déterminer quand la mise en mémoire tampon ou le téléchargement démarre ou s’arrête. Vous pouvez utiliser le même bloc d’événements pour les cas et le *réseau* de test. **bufferingProgress** et *réseau*. **downloadProgress** pour déterminer si Lecteur Windows Media est en train de mettre en mémoire tampon ou de télécharger du contenu.
 
-La valeur des paramètres d’événement est spécifiée par le lecteur Windows Media et est accessible ou transmise à une méthode dans un fichier JScript importé en utilisant le nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
+la valeur des paramètres d’événement est spécifiée par Lecteur Windows Media, et est accessible ou passée à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
 
 ## <a name="requirements"></a>Configuration requise
 

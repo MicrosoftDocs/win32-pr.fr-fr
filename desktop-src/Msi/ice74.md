@@ -4,22 +4,22 @@ ms.assetid: 2af132f0-0ffa-405f-9d05-7cb5d5f826b8
 title: ICE74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fe2762710e061f2c88f55893294a40fbac8700f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d3120b0f4cd40acc53a1bcd3623dac33941a7f5da39bc538781e4ffd1d56345
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119328319"
 ---
 # <a name="ice74"></a>ICE74
 
 ICE74 vérifie que la propriété [**FASTOEM**](fastoem.md) n’a pas été créée dans la [table de propriétés](property-table.md).
 
-La propriété [**FASTOEM**](fastoem.md) permet aux OEM de réduire le temps nécessaire pour installer Windows Installer applications pour la première fois. Elle ne peut pas être utilisée après la première installation. La propriété **FASTOEM** ne doit pas être créée dans la table de propriétés, car cela interfère avec les installations suivantes pour la maintenance, la suppression ou la réparation de l’application.
+la propriété [**FASTOEM**](fastoem.md) permet aux oem de réduire le temps nécessaire pour installer Windows Installer applications pour la première fois. Elle ne peut pas être utilisée après la première installation. La propriété **FASTOEM** ne doit pas être créée dans la table de propriétés, car cela interfère avec les installations suivantes pour la maintenance, la suppression ou la réparation de l’application.
 
 ICE74 vérifie également que la propriété [**UpgradeCode**](upgradecode.md) est créée dans la table de [Propriétés](property-table.md), et que sa valeur n’est pas un GUID null, {00000000-0000-0000-0000-000000000000} .
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE74 peut poster les erreurs suivantes.
 

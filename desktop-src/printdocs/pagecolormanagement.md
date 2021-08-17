@@ -4,12 +4,12 @@ ms.assetid: 27408582-9c39-4d39-8314-a495d1c7766d
 title: PageColorManagement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 685794f1c9bb64c8bb3e966c4ec03bcac8821369
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: d75a8be4ad0cfdc3ec5d33937da4a27b59875450335801f676810c799831bca1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098862"
 ---
 # <a name="pagecolormanagement"></a>PageColorManagement
 
@@ -27,7 +27,7 @@ Configure la gestion des couleurs pour la page actuelle. Cela est considéré co
 
 | Nom | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Composant<br/> |
+| Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun <br/>   |
 

@@ -1,35 +1,35 @@
 ---
-title: Exemples de fonctions tactiles Windows
-description: Décrit le chemin d’accès aux exemples tactiles Windows et donne un bref aperçu des exemples.
+title: Windows Exemples tactiles
+description: décrit le chemin d’accès aux exemples Windows Touch et donne une vue d’ensemble succincte des exemples.
 ms.assetid: ad720387-55b9-44a0-8ff0-521b9ed24ab4
 keywords:
-- Windows Touch SDK, exemples de code
-- Windows Touch SDK, exemple de code
+- Windows Kit de développement logiciel (SDK) tactile, exemples de code
+- Windows Kit de développement logiciel (SDK) tactile, exemple de code
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: 6678d1629abb0d9b106a7f4ebbc44e0fce7d2957
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 92d79ee06536e80f1c980ece8b3436873e6de61e0211ccf04dba95352b26b3b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119328079"
 ---
-# <a name="windows-touch-samples"></a>Exemples de fonctions tactiles Windows
+# <a name="windows-touch-samples"></a>Windows Exemples tactiles
 
-Décrit le chemin d’accès aux exemples tactiles Windows et donne un bref aperçu des exemples.
+décrit le chemin d’accès aux exemples Windows Touch et donne une vue d’ensemble succincte des exemples.
 
-Lorsque vous installez les [exemples tactiles Windows 7](), vous pouvez choisir l’emplacement d’installation des exemples. Par exemple, si vous installez sur le lecteur C, le kit de développement logiciel (SDK) utilise par défaut « C : \\ Program Files \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples ». Le dossier Touch est situé dans le répertoire d’exemples. Ce dossier contient tous les exemples de fonctions tactiles Windows.
+lorsque vous installez les [exemples de touches tactiles Windows 7](), vous pouvez choisir l’emplacement d’installation des exemples. par exemple, si vous installez sur le lecteur C, le kit de développement logiciel (sdk) utilise par défaut « C : \\ Program Files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples ». Le dossier Touch est situé dans le répertoire d’exemples. ce dossier contient tous les exemples d’Windows Touch.
 
-Les exemples tactiles Windows suivants sont fournis avec le [Kit de développement logiciel (SDK) Windows 7]().
+les exemples Windows Touch suivants sont fournis avec le [kit de développement logiciel (SDK) Windows 7]().
 
 - [Exemple de manipulation et d’inertie](manipulation-and-inertia-sample.md)
-- [Exemple de mouvement tactile Windows (MTGestures)](windows-touch-gesture-sample--mtgestures-.md)
-- [Exemples de saisie tactile Windows en C# (MTGesturesCS)](windows-touch-gestures-in-c--sample--mtgesturescs-.md)
-- [Exemple de manipulation tactile Windows (MTManipulation)](windows-touch-manipulation-sample--mtmanipulation-.md)
-- [Exemple de bloc-notes Windows Touch (MTScratchpadWMTouch)](windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md)
-- [Exemple de bloc-notes Windows Touch en C# (MTScratchpadWMTouchCS)](windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md)
-- [Bloc-notes Windows Touch utilisant l’exemple de stylet en temps réel (MTScratchpadRTStylus)](windows-touch-scratchpad-using-the-real-time-stylus-sample--mtscratchpadrtstylus-.md)
-- [Bloc-notes Windows Touch utilisant le stylet en temps réel dans l’exemple C# (MTScratchpadRTStylusCS)](windows-touch-scratchpad-using-the-real-time-stylus-in-c--sample--mtscratchpadrtstyluscs-.md)
+- [Windows Exemple de mouvement tactile (MTGestures)](windows-touch-gesture-sample--mtgestures-.md)
+- [Windows Gestes tactiles dans l’exemple C# (MTGesturesCS)](windows-touch-gestures-in-c--sample--mtgesturescs-.md)
+- [Windows Exemple de manipulation tactile (MTManipulation)](windows-touch-manipulation-sample--mtmanipulation-.md)
+- [Windows Exemple Touch de bloc-notes (MTScratchpadWMTouch)](windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md)
+- [Windows Exemple Touch du bloc-notes en C# (MTScratchpadWMTouchCS)](windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md)
+- [Windows Touch bloc-notes utilisant l’exemple de stylet en temps réel (MTScratchpadRTStylus)](windows-touch-scratchpad-using-the-real-time-stylus-sample--mtscratchpadrtstylus-.md)
+- [Windows Touch bloc-notes utilisant le stylet en temps réel dans l’exemple C# (MTScratchpadRTStylusCS)](windows-touch-scratchpad-using-the-real-time-stylus-in-c--sample--mtscratchpadrtstyluscs-.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
 

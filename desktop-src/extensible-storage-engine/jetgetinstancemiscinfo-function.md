@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ed63c6a5c6d3b2488f7226da0a1f23e1adb39e09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ada8dfcd69a4e1933bcb60756d1b812f3b358cd37a3cda914819d2a9f6f4275
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119472349"
 ---
 # <a name="jetgetinstancemiscinfo-function"></a>JetGetInstanceMiscInfo fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetgetinstancemiscinfo-function"></a>JetGetInstanceMiscInfo fonction)
 
 La fonction **JetGetInstanceMiscInfo** récupère des informations sur l’instance, tandis que l’instance est en ligne.
 
-**Windows Vista : JetGetInstanceMiscInfo** est introduit dans Windows Vista.
+**Windows vista : JetGetInstanceMiscInfo** est introduit dans Windows vista.
 
 ```cpp
     JET_ERR JET_API JetGetInstanceMiscInfo(
@@ -87,7 +87,7 @@ Les options suivantes peuvent être utilisées avec ce paramètre.
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -127,11 +127,11 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista.</p></td>
+<td><p>requiert Windows Vista.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008.</p></td>
+<td><p>requiert Windows Server 2008.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

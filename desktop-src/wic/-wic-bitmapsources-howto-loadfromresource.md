@@ -1,17 +1,17 @@
 ---
 description: Cette rubrique montre comment charger un IWICBitmapFrameDecode à partir d’une ressource d’application.
 ms.assetid: 2260ad3a-44d4-4fe2-aa8c-608ffc11fbfb
-title: Chargement d’une image bitmap à partir d’une ressource (composant Windows Imaging)
+title: procédure de chargement d’une image Bitmap à partir d’une ressource (Windows composant de création d’images)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: deb33ad57b3b9dac1cb5d98719c681adb38c11de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88bc10766ed6720e60dd85a9600107c883da80d7b326ddd810b6261e509915da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118034741"
 ---
-# <a name="how-to-load-a-bitmap-from-a-resource-windows-imaging-component"></a>Chargement d’une image bitmap à partir d’une ressource (composant Windows Imaging)
+# <a name="how-to-load-a-bitmap-from-a-resource-windows-imaging-component"></a>procédure de chargement d’une image Bitmap à partir d’une ressource (Windows composant de création d’images)
 
 Cette rubrique montre comment charger un [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) à partir d’une ressource d’application.
 

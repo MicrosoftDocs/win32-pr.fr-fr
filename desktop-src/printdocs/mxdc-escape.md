@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: 08b5ae7e44f7b9c35d6a395b78ce514aee050e5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ace79404808db750a15b2c17b6fedb336dbd1d72b1581888324a4d87bb7cd67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106541207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460879"
 ---
 # <a name="mxdc_escape-function"></a>MXDC \_ fonction d’échappement)
 
@@ -104,13 +104,13 @@ Pointeur vers une mémoire tampon contenant les données de sortie.
 
 Si la fonction est réussie, la valeur de retour est supérieure à zéro. Si la fonction échoue ou n’est pas prise en charge, la valeur de retour est inférieure ou égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette séquence d’échappement est prise en charge par MXDC et XPSDrv, mais pas par GDI.
 
 Pour déterminer si le pilote d’imprimante est le MXDC, appelez [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) avec l’échappement [**GETTECHNOLOGY**](/previous-versions/windows/desktop/legacy/dd144931(v=vs.85)) . Si le pilote est le MXDC, **ExtEscape** retourne la chaîne se terminant par zéro « http://schemas.microsoft.com/xps/2005/06 ». Assurez-vous que la mémoire tampon référencée par le paramètre *lpszOutData* est suffisamment grande pour contenir cette chaîne.
 
-Pour déterminer si le pilote d’imprimante est le pilote Microsoft XPS document Writer intégré de Windows, vérifiez que le pilote d’imprimante est le MXDC, puis déterminez si le nom du pilote d’imprimante est « Microsoft XPS document Writer ».
+pour déterminer si le pilote d’imprimante est le pilote Microsoft xps document writer intégré Windows, vérifiez que le pilote d’imprimante est le MXDC, puis déterminez si le nom du pilote d’imprimante est « Microsoft XPS Document writer ».
 
 Pour connaître le nom du pilote d’imprimante, utilisez l’une des techniques suivantes. <dl> Appelez [**GetPrinterDriver**](getprinterdriver.md) avec la valeur de paramètre *Level* définie sur 1. Le nom du pilote d’imprimante est retourné dans le membre **pname** de la structure [**\_ informations sur le pilote \_ 1**](driver-info-1.md) .  
 ou  
@@ -139,8 +139,8 @@ Le tableau suivant indique où trouver différents objets dans le fichier XPS. l
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Mxdc. h</dt> </dl> |
 
 

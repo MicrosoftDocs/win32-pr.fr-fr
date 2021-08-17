@@ -3,7 +3,7 @@ title: Vue d’ensemble de l’utilisateur
 description: Vue d’ensemble de l’utilisateur
 ms.assetid: a1cf4b47-1410-464d-8542-334d3eb9c200
 keywords:
-- Plug-ins du lecteur Windows Media, visualisations
+- plug-ins Lecteur Windows Media, visualisations
 - plug-ins, visualisations
 - visualisations, vue d’ensemble de l’utilisateur
 - visualisations personnalisées, vue d’ensemble de l’utilisateur
@@ -16,12 +16,12 @@ keywords:
 - présélections dans visualisations, vue d’ensemble de l’utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f0b8b389f07dc1a39c852f881a9c7d287176b73
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1d78cb01fe5ee87857ea546fc8c225f9ca16217c642ebbee06025cb037d94fec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134485"
 ---
 # <a name="user-overview"></a>Vue d’ensemble de l’utilisateur
 
@@ -33,7 +33,7 @@ Une visualisation classique s’affiche comme indiqué dans l’illustration sui
 
 ## <a name="standard-visualizations"></a>Visualisations standard
 
-Le lecteur Windows Media comprend plusieurs visualisations, telles que les suivantes :
+Lecteur Windows Media comprend plusieurs visualisations, telles que les suivantes :
 
 -   Intelligent
 -   Plenoptic
@@ -50,7 +50,7 @@ Les deux effets font partie de la même visualisation, mais ont des présélecti
 
 ## <a name="skin-attributes"></a>Attributs d’apparence
 
-Si vous créez des apparences pour le lecteur Windows Media, vous pouvez afficher les visualisations standard dans vos habillages à l’aide de l’élément **Effects** . Pour plus d’informations sur l’utilisation des visualisations dans les apparences, consultez [apparences du lecteur Windows Media](windows-media-player-skins.md).
+si vous créez des apparences pour Lecteur Windows Media, vous pouvez afficher les visualisations standard dans vos habillages à l’aide de l’élément **effects** . pour plus d’informations sur l’utilisation des visualisations dans les apparences, consultez [Lecteur Windows Media skins](windows-media-player-skins.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -59,9 +59,9 @@ Si vous créez des apparences pour le lecteur Windows Media, vous pouvez affiche
 [**À propos des visualisations personnalisées**](about-custom-visualizations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

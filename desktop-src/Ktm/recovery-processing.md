@@ -4,12 +4,12 @@ ms.assetid: 5bc9a155-6ba4-41f8-8e12-e87f48d83940
 title: Traitement de la récupération
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a8e74d4f8bff3e56af03b017522212e7a02e232
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec99ad63d18c95da3ebb3ad5db6c204301d75336cc1842dd21e1edf79f5f9a38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146492"
 ---
 # <a name="recovery-processing"></a>Traitement de la récupération
 

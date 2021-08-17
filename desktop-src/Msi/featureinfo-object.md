@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 1db1bab5b1e55f027bb01eb9eff22484a4e39170
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 136bc160ea81367f8f55ad81cfc06f5e2e272cafae9d7b8f444a65d34e85d52b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119328369"
 ---
 # <a name="featureinfo-object"></a>Objet FeatureInfo
 
@@ -40,7 +40,7 @@ L’objet **FeatureInfo** a ces propriétés.
 |:----------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------|
 | [**Attributs**](featureinfo-attributes.md)<br/>   | Lecture/écriture<br/> | Retourne la valeur de la fonctionnalité dans la colonne attributs du tableau des fonctionnalités.<br/> |
 | [**Description**](featureinfo-description.md)<br/> |                       | Retourne la description de la fonctionnalité.<br/>                                          |
-| [**Intitulé**](featureinfo-title.md)<br/>             | Lecture seule<br/>  | Retourne le titre de la fonctionnalité.<br/>                                                |
+| [**Titre**](featureinfo-title.md)<br/>             | Lecture seule<br/>  | Retourne le titre de la fonctionnalité.<br/>                                                |
 
 
 
@@ -62,7 +62,7 @@ L’objet **FeatureInfo** a ces propriétés.
 
 <dl> <dt>
 
-[Exemples de scripts Windows Installer](windows-installer-scripting-examples.md)
+[Windows Exemples de scripts d’installation](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

@@ -19,21 +19,21 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f0ac02142d48009d668d903b39163b425d738b55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: effd1ea5a9489df0a85af54a79cd773cc05b2fa3d6dbe57096a61fbd4c79c25a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119472029"
 ---
 # <a name="jetgetsessionparameter-function"></a>JetGetSessionParameter fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 La fonction **JetGetSessionParameter** lit le paramètre de session pour la session donnée.
 
-La fonction **JetGetSessionParameter** a été introduite dans le système d’exploitation Windows 8.
+la fonction **JetGetSessionParameter** a été introduite dans le système d’exploitation Windows 8.
 
 ``` c++
 JET_ERR JET_API JetGetSessionParameter (
@@ -75,7 +75,7 @@ En cas de réussite, la mémoire tampon de sortie appropriée pour le paramètre
 
 En cas d’échec, l’état des mémoires tampons de sortie n’est pas défini.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Le paramètre de session est utilisé pour la durée de vie de la session ou jusqu’à ce que la valeur soit réinitialisée.
 

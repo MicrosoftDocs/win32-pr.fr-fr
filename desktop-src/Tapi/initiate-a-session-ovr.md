@@ -4,12 +4,12 @@ ms.assetid: 65e53587-0e40-411b-8d6c-d6adfc9d1e6c
 title: Initier une session
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e925ba90460b88c85a9aab1624923acdbc4572a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0226fc1b04ea5859bc4a96b6f5ca43e3749e7664a9ccf6810b586115171530b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975849"
 ---
 # <a name="initiate-a-session"></a>Initier une session
 
@@ -34,7 +34,7 @@ Les paramètres d’appel peuvent être stockés ou modifiés à l’aide des m�
 Si la session est correctement configurée, TAPI retourne un pointeur d’interface [**ITBasicCallControl**](/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol) qui peut être utilisé pour d’autres opérations de session, ou pour obtenir un pointeur d’interface [**ITCallInfo**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo) qui peut être utilisé pour acquérir des informations de session supplémentaires. L’interface [**ITCallStateEvent**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent) traite les événements d’état d’appel TAPI.
 
 > [!Note]  
-> L’interface TAPI ne doit pas être utilisée pour les transmissions de télécopie. Utilisez plutôt les fonctions disponibles via MAPI, l’API de messagerie Microsoft.
+> L’interface TAPI ne doit pas être utilisée pour les transmissions de télécopie. utilisez plutôt les fonctions disponibles via MAPI, l’API Messages Microsoft.
 
  
 

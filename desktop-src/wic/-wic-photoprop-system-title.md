@@ -4,12 +4,12 @@ ms.assetid: 84da345e-ec03-48fe-8fda-043b706e4e1c
 title: Stratégie de métadonnées de photo System. title
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b02513f3f566576999e83b09c156d36ac480c17d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26917efc84b3308a039abe3a60b279d080aa023e2e4b5f76be8623a7aaae7bf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964658"
 ---
 # <a name="systemtitle-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. title
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. title](../p
 
 Titre de la \_ section
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                | Format de disque    |
+| Commande | Chemin                                | Format de disque    |
 |-------|-------------------------------------|----------------|
 | 1     | /App1/IFD/{UShort = 40091}            | \_octets Unicode |
 | 2     | /XMP/ <xmpalt> DC : titre         | unicode        |
@@ -66,7 +66,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                | Format de disque    |
+| Commande | Chemin                                | Format de disque    |
 |-------|-------------------------------------|----------------|
 | 1     | /App1/IFD/{UShort = 40091}            | \_octets Unicode |
 | 2     | /XMP/DC : titre                       | unicode        |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                |
+| Commande | Chemin                                |
 |-------|-------------------------------------|
 | 1     | /App1/IFD/{UShort = 40091}            |
 | 2     | /XMP/DC : titre                       |
@@ -106,7 +106,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                    | Format de disque    |
+| Commande | Chemin                                    | Format de disque    |
 |-------|-----------------------------------------|----------------|
 | 1     | /IFD/{UShort = 40091}                     | \_octets Unicode |
 | 2     | /IFD/XMP/ <xmpalt> DC : titre         | unicode        |
@@ -128,7 +128,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                    | Format de disque    |
+| Commande | Chemin                                    | Format de disque    |
 |-------|-----------------------------------------|----------------|
 | 1     | /IFD/{UShort = 40091}                     | \_octets Unicode |
 | 2     | /IFD/XMP/DC : titre                       | unicode        |
@@ -149,7 +149,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                    |
+| Commande | Chemin                                    |
 |-------|-----------------------------------------|
 | 1     | /IFD/{UShort = 40091}                     |
 | 2     | /IFD/XMP/DC : titre                       |
@@ -164,7 +164,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

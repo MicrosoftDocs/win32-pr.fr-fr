@@ -4,12 +4,12 @@ ms.assetid: 5fbf6c4a-3897-4a12-bef6-19478fdb48aa
 title: Disponibilité des références SKU des contrôles parentaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b858bc62e8f10a3b06313befd99d67e497b8d442
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21184a383a28e3ae06198f203475c1c03334e5d678278bbb3b4988b52971e79e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119461199"
 ---
 # <a name="parental-controls-sku-availability"></a>Disponibilité des références SKU des contrôles parentaux
 
@@ -27,7 +27,7 @@ Le contrôle parental s’installe uniquement sur ces références (SKU). Les so
 
 Il est recommandé que les solutions détectent la disponibilité de l’infrastructure de contrôle parental en vérifiant la réussite de COM CoCreateInstance sur l’API de conformité.
 
-Les applications qui prennent en charge les contrôles parentaux en fonction de l’infrastructure de Windows Vista peuvent également vouloir supprimer toute leur propre interface utilisateur exposant des paramètres ou d’autres fonctionnalités lorsque l’interface utilisateur des contrôles parentaux est supprimée sur une référence SKU prise en charge. Une fonction est fournie pour une détermination de visibilité qui couvre des cas tels que la suppression jointe à un domaine.
+les applications prenant en charge les contrôles parentaux en fonction de l’infrastructure Windows Vista peuvent également vouloir supprimer une de leurs propres paramètres ou d’autres fonctionnalités lorsque l’interface utilisateur des contrôles parentaux est supprimée sur une référence SKU prise en charge. Une fonction est fournie pour une détermination de visibilité qui couvre des cas tels que la suppression jointe à un domaine.
 
  
 

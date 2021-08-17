@@ -1,19 +1,19 @@
 ---
-title: Personnalisation du fluide ALE
-description: Le filtrage réseau au niveau des couches de mise en œuvre de la couche application (ALE) de la plateforme de filtrage Windows (WFP) peut être personnalisé en ajoutant des filtres avec des options de classification spécifiques.
+title: personnalisation de la Flow ALE
+description: le filtrage réseau au niveau des couches de mise en œuvre de la couche application (ALE) de la plateforme de filtrage Windows (WFP) peut être personnalisé en ajoutant des filtres avec des options de classification spécifiques.
 ms.assetid: 123af237-cf42-410b-8a2f-c011cb5f4f19
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e9843a60719f424403139885f24f165c0dd936b
-ms.sourcegitcommit: 60ad94096619da5476f9bbcd4cc231b40b6f5358
+ms.openlocfilehash: fbe42a6df32bc69ba454226eb113cb43756224daaf752c3925f1f2d3bacd7650
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104314366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951368"
 ---
-# <a name="ale-flow-customization"></a>Personnalisation du fluide ALE
+# <a name="ale-flow-customization"></a>personnalisation de la Flow ALE
 
-Le filtrage réseau au niveau des couches de mise en œuvre de la couche application (ALE) de la plateforme de filtrage Windows (WFP) peut être personnalisé en ajoutant des filtres avec des options de classification spécifiques.
+le filtrage réseau au niveau des couches de mise en œuvre de la couche application (ALE) de la plateforme de filtrage Windows (WFP) peut être personnalisé en ajoutant des filtres avec des options de classification spécifiques.
 
 ## <a name="multicastbroadcast-traffic"></a>Trafic de multidiffusion/diffusion
 
@@ -25,7 +25,7 @@ Pour ajouter des paquets de réponse provenant de différents pairs au même flu
 
 Consultez [utilisation des options de classification pour l'](using-classify-options.md) exemple de code.
 
-## <a name="ale-flow-lifetime"></a>Durée de vie du flot ALE
+## <a name="ale-flow-lifetime"></a>durée de vie de Flow ALE
 
 Pour modifier les valeurs du délai d’inactivité d’un fluide ALE, ajoutez un filtre avec l’option de durée de vie de l' [**\_ option de classification fwp \_ \_ \_ \_ Bcast**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_classify_option0) et/ou l’option de durée de vie **\_ \_ \_ \_ monodiffusion option de classement fwp** définie sur la valeur du délai d’inactivité souhaité.
 
@@ -53,9 +53,9 @@ Consultez [utilisation des options de classification](using-classify-options.md)
 [Utilisation des options de classification](using-classify-options.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

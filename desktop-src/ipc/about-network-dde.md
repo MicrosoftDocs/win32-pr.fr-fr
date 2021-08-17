@@ -4,12 +4,12 @@ ms.assetid: f9eee391-2b4a-4c17-bea5-72cda5124e1c
 title: À propos de DDE réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 412971f6bef8d2782dce38b5aef413e4d073f6b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eeb8f232dc10080a575a6afe500727435bed7913ae95364daf697844c3c65dc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118756455"
 ---
 # <a name="about-network-dde"></a>À propos de DDE réseau
 
@@ -19,7 +19,7 @@ Le service DDE réseau est utilisé pour initier et maintenir les connexions ré
 
 DDE est une forme de communication interprocessus qui utilise la mémoire partagée pour échanger des données entre des applications. Les applications peuvent utiliser DDE pour les transferts de données à usage unique ou pour les échanges en cours et la mise à jour des données. Pour plus d’informations sur les échanges de données, consultez [échange dynamique de données](../dataxchg/dynamic-data-exchange.md).
 
-DDEML simplifie la tâche d’ajout de la fonctionnalité DDE à une application. Au lieu d’envoyer, de publier et de traiter des messages DDE directement, une application utilise les fonctions fournies par le DDEML pour gérer les conversations DDE. Pour plus d’informations sur DDEML, consultez [bibliothèque de gestion des échange dynamique de données](../dataxchg/dynamic-data-exchange-management-library.md).
+DDEML simplifie la tâche d’ajout de la fonctionnalité DDE à une application. Au lieu d’envoyer, de publier et de traiter des messages DDE directement, une application utilise les fonctions fournies par le DDEML pour gérer les conversations DDE. pour plus d’informations sur DDEML, consultez [bibliothèque de gestion des échange dynamique de données](../dataxchg/dynamic-data-exchange-management-library.md).
 
 ## <a name="network-dde-files"></a>Fichiers DDE réseau
 

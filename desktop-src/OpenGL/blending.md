@@ -7,20 +7,20 @@ keywords:
 - fusion de OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0fe7cd2893700d8015148fcc5c25707d19676c7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d5b38786d2320a646bd6cac096e535e4e1441df98522ac86a146836b929c0986
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118361433"
 ---
 # <a name="blending"></a>Fusion
 
 La fusion associe les valeurs R, G, B et A d’un fragment à celles stockées dans le trame à l’emplacement correspondant. La fusion, qui est exécutée uniquement en mode RVBA, dépend de la valeur alpha du fragment et de celle du pixel actuellement stocké correspondant ; elle peut également dépendre des valeurs RVB. Vous contrôlez la fusion avec [**glBlendFunc**](glblendfunc.md), avec lequel vous indiquez les facteurs de fusion source et de destination.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 567d5542-fc7b-4d19-bc3c-b9d6e26e3387
 title: Stratégie de métadonnées de photo System. photo. PeopleNames
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c3de9f5adda67fcd0e555194500f109df078bdf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4118cc8242d6dfe8a91d0bcd2b6039095fdf180037f51205d3541b9aefa2cc0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087048"
 ---
 # <a name="systemphotopeoplenames-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. PeopleNames
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Peop
 
 \_Photo \_ PeopleNames
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                                           | Format de disque |
+| Commande | Chemin                                                           | Format de disque |
 |-------|----------------------------------------------------------------|-------------|
 | 1     | /XMP/ <xmpstruct> MP : RegionInfo/ <xmpbag> MPRI : regions | ushort      |
 
@@ -61,7 +61,7 @@ Impossible d’écrire cette propriété à l’aide de la stratégie de métado
 
 
 
-| Commande | Chemin d’accès                                |
+| Commande | Chemin                                |
 |-------|-------------------------------------|
 | 1     | /XMP/ <xmpstruct> MP : RegionInfo |
 
@@ -75,7 +75,7 @@ Impossible d’écrire cette propriété à l’aide de la stratégie de métado
 
 
 
-| Commande | Chemin d’accès                                                               | Format de disque |
+| Commande | Chemin                                                               | Format de disque |
 |-------|--------------------------------------------------------------------|-------------|
 | 1     | /IFD/XMP/ <xmpstruct> MP : RegionInfo/ <xmpbag> MPRI : regions | ushort      |
 
@@ -91,7 +91,7 @@ Impossible d’écrire cette propriété à l’aide de la stratégie de métado
 
 
 
-| Commande | Chemin d’accès                                    |
+| Commande | Chemin                                    |
 |-------|-----------------------------------------|
 | 1     | /IFD/XMP/ <xmpstruct> MP : RegionInfo |
 
@@ -99,7 +99,7 @@ Impossible d’écrire cette propriété à l’aide de la stratégie de métado
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

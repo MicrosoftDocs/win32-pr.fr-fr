@@ -4,12 +4,12 @@ ms.assetid: 94f585bf-fd2f-4f71-bf06-6a39d1c4beb2
 title: System. PropList. XPDetailsPanel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b05b332a87ecb56e63852fecd7456197ab8e21c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b6c1771b7580085bf36e28f1e844605bff73a66fb13a162254be57528c67312
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464942"
 ---
 # <a name="systemproplistxpdetailspanel"></a>System. PropList. XPDetailsPanel
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

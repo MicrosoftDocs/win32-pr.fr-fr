@@ -3,9 +3,9 @@ title: Événement Player. MediaCollectionMediaAdded
 description: L’événement MediaCollectionMediaAdded se produit lorsqu’un élément multimédia est ajouté à la bibliothèque locale. | Événement Player. MediaCollectionMediaAdded
 ms.assetid: 01696d28-e83b-4fd2-8e88-2871831b61e7
 keywords:
-- Événement MediaCollectionMediaAdded lecteur Windows Media
-- Événement MediaCollectionMediaAdded lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement MediaCollectionMediaAdded
+- Lecteur Windows Media d’événements MediaCollectionMediaAdded
+- Lecteur Windows Media d’événements MediaCollectionMediaAdded, classe Player
+- Lecteur Windows Media de classe Player, événement MediaCollectionMediaAdded
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d18dd0536f508090c46f9fc5a9059c809f50091d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7fef517c3d22335df6dd5dc5f62adcfd8f35dc3f2f91b08f8041c05770311993
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747348"
 ---
 # <a name="playermediacollectionmediaadded-event"></a>Événement Player. MediaCollectionMediaAdded
 
@@ -53,7 +53,7 @@ Objet **multimédia** qui a été ajouté.
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement se produit uniquement pour la bibliothèque locale.
 

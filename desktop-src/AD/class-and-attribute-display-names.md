@@ -9,12 +9,12 @@ keywords:
 - noms d’affichage des attributs AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d65cd6ac6fc3077ff0d2bba15ffa9904b147654
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 213132acfa6463b1c1e8a7615f5d7f488e53edfcdf9b75f8df5759fcd0e4d398
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118022590"
 ---
 # <a name="class-and-attribute-display-names"></a>Noms complets des classes et des attributs
 
@@ -42,7 +42,7 @@ Chaque fournisseur doit préfixer le nom complet de la classe avec un identifica
 
 Si un fournisseur étend une classe existante avec de nouveaux attributs, il doit de nouveau identifier de manière unique le nom complet de l’attribut afin qu’aucun conflit ne se produise avec d’autres noms d’affichage d’attribut. Là encore, le fait de préfixer le nom d’affichage de l’attribut avec un identificateur convivial unique basé sur le nom du fournisseur est une bonne pratique. Par exemple, si la société Fabrikam étend la classe utilisateur avec un nouvel attribut RH, elle peut afficher de manière unique l’attribut « informations sur les RH fabrikam ».
 
-En outre, du point de vue de la localisation, chaque fournisseur doit localiser les noms d’affichage des classes et des attributs dans chaque langue prise en charge par Windows 2000.
+en outre, du point de vue de la localisation, chaque fournisseur doit localiser les noms d’affichage des classes et des attributs dans chaque langue prise en charge par Windows 2000.
 
 ## <a name="adding-a-value-to-the-attributedisplaynames-attribute"></a>Ajout d’une valeur à l’attribut attributeDisplayNames
 
@@ -55,6 +55,6 @@ En outre, du point de vue de la localisation, chaque fournisseur doit localiser 
 
 Pour plus d’informations sur l’affectation de noms aux nouvelles classes et attributs, consultez [Naming Attributes and classes](naming-attributes-and-classes.md).
 
- 
+ 
 
- 
+ 

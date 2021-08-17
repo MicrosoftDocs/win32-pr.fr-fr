@@ -3,7 +3,7 @@ title: EQUALIZERSETTINGS.gainLevel10
 description: L’attribut gainLevel10 spécifie ou récupère le niveau de gain de la bande 10.
 ms.assetid: 0d645719-86aa-4475-8e87-ea6c20e4fed7
 keywords:
-- Lecteur Windows Media EQUALIZERSETTINGS. gainLevel10
+- EQUALIZERSETTINGS. gainLevel10 Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 512819d4c01524e82a92fee9849a9589366a36ba
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9e80e05686d06871aa40e8a649a119a41fb1a7a59bbb60a77b56497561ae9f27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748816"
 ---
 # <a name="equalizersettingsgainlevel10"></a>EQUALIZERSETTINGS.gainLevel10
 
@@ -31,7 +31,7 @@ L’attribut **gainLevel10** spécifie ou récupère le niveau de gain de la ban
 
 Cet attribut est un **nombre** en lecture/écriture (**float**) dont la valeur est normalement comprise entre 20 et + 20. Sa valeur par défaut est zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut ajuste la partie du spectre de fréquences audio centrée sur 16kHz.
 

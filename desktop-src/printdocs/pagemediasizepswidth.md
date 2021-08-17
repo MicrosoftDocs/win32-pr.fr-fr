@@ -4,18 +4,18 @@ ms.assetid: a1a684ce-5615-4ff7-a7aa-5c9f786f84ed
 title: PageMediaSizePSWidth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfe678107d2a183ee0f0bf6ce290dfe230fa8cc2
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 125116e2dc1273f791822e73a057eede70784bfe4c9b3dfef15171b234ea7d85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118471032"
 ---
 # <a name="pagemediasizepswidth"></a>PageMediaSizePSWidth
 
 Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la [spécification du schéma d’impression](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
-Spécifie la largeur de la page perpendiculairement au sens de l’orientation du flux (référence [PostScript Printer Description file format Specification](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)).
+spécifie la largeur de la page perpendiculairement au sens de l’orientation du flux (référence [PostScript spécification du Format du fichier de Description](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)de l’imprimante).
 
 -   [Informations sur les éléments](#element-information)
 -   [Structure de contenu](#structure-content)
@@ -28,7 +28,7 @@ Spécifie la largeur de la page perpendiculairement au sens de l’orientation d
 |----------------------------|-------------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                     |
 | Préfixe d’étendue <br/> | Page<br/>                                             |
-| Notes <br/>          | Lié à l’élément PageMediaSize, option CustomPS<br/> |
+| Remarques <br/>          | Lié à l’élément PageMediaSize, option CustomPS<br/> |
 
 
 
@@ -78,7 +78,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 | MaxValue<br/>     | entier<br/> | non défini<br/>       |
 | MinValue<br/>     | entier<br/> | non défini<br/>       |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Unité<br/>     | string<br/>  | microns<br/>         |
 
 
@@ -89,7 +89,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 <dl> <dt>
 
-[Spécification de format de fichier de description d’imprimante PostScript](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
+[PostScript Spécification de format de fichier de description d’imprimante](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
 </dt> <dt>
 
 [Spécification du schéma d’impression](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)

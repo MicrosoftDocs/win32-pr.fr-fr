@@ -4,12 +4,12 @@ ms.assetid: bf98318b-4d87-44cc-85a1-68faf5547e06
 title: Concepts de recyclage des applications COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab37376ff3bc6d03f454f63822641ed69fad0b47
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ba6a635487427fce3f17203f11426261996348a5e4057ab8bceebcae552d51bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129261"
 ---
 # <a name="com-application-recycling-concepts"></a>Concepts de recyclage des applications COM+
 
@@ -18,7 +18,7 @@ Le recyclage des applications peut augmenter considérablement la stabilité glo
 Le recyclage d’applications s’effectue en créant un doublon du processus Dllhost associé à une application. Ce processus Dllhost duplique toutes les futures demandes d’objets, ce qui laisse l’ancien Dllhost terminer la maintenance des demandes d’objets restantes. L’ancien processus Dllhost est arrêté lorsqu’il détecte la publication de toutes les références externes aux objets du processus ou lorsque la valeur du délai d’expiration est atteinte. Grâce à ce comportement, le recyclage d’applications garantit qu’une application cliente ne rencontre pas d’interruption de service.
 
 > [!Note]  
-> Vous ne pouvez pas recycler une application COM+ qui a été configurée pour s’exécuter en tant que service Windows. En outre, les applications de bibliothèque disposent des propriétés de recyclage et de regroupement de leur processus hôte.
+> vous ne pouvez pas recycler une application COM+ qui a été configurée pour s’exécuter en tant que service Windows. En outre, les applications de bibliothèque disposent des propriétés de recyclage et de regroupement de leur processus hôte.
 
  
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Gestion des erreurs avec le compilateur MOF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 905b406020787de894a2821b501ee465ab63ea5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03f5174af836a0b27824c40486364cc81809db97b9608e6b1c813c4c1029d3aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104485817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993169"
 ---
 # <a name="handling-errors-with-the-mof-compiler"></a>Gestion des erreurs avec le compilateur MOF
 

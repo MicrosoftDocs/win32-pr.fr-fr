@@ -29,7 +29,7 @@ Transformation scalaire utilisée par le [**dessin**](drawing-element.md) ou [**
 
 ## <a name="child-elements"></a>Éléments enfants
 
-Aucune.
+Aucun.
 
 ## <a name="attributes"></a>Attributs
 
