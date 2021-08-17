@@ -4,12 +4,12 @@ ms.assetid: 58cb9e95-7ac8-42f1-ad2a-a3979ec800eb
 title: System. audio. format
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9895c36c4ce196d29bb4b370b805253f5dfaad3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77ed979896503ebc67f72390726389d17ae1d0f14db245a924b0480facde8ad7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970808"
 ---
 # <a name="systemaudioformat"></a>System. audio. format
 
@@ -47,7 +47,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

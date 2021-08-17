@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vist
 ms:contentKeyID: 39510639
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 55f2a3575a607e9b0505321151c2be29811d7022
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac11a6855fb0d21eba76fd29ca14f062cd3773df876b45298dc17dea7b867299
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119719559"
 ---
 # <a name="jet_threadstats-properties"></a>Propriétés de la JET_THREADSTATS
 

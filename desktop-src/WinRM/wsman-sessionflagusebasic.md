@@ -5,8 +5,8 @@ ms.assetid: 789ecef9-7871-43af-9d63-018f1d99bd09
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode SessionFlagUseBasic
-- Méthode SessionFlagUseBasic Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode SessionFlagUseBasic
+- méthode SessionFlagUseBasic Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode SessionFlagUseBasic
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41641e0398791ab46c81f71f967f2d43700a2984
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bf908ad4cbe70f9480c23dbc26d5a0593212a285cd541ad70605e990e30792d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742001"
 ---
 # <a name="wsmansessionflagusebasic-method"></a>Méthode WSMan. SessionFlagUseBasic
 

@@ -4,12 +4,12 @@ description: La Galerie de Drop-Down se compose d’un bouton qui, lorsque vous 
 ms.assetid: 10644e10-f903-49f6-aecd-1a63d97fe447
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f07553dcc767b50786e271544ea44bd17670a2a9
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 7746b4d290a7b47bd1b55677676206474e3ee460afe043af2b55902e9a3d4349
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103732205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964371"
 ---
 # <a name="drop-down-gallery"></a>Galerie de Drop-Down
 
@@ -54,7 +54,7 @@ Le tableau suivant répertorie les clés de propriété associées au contrôle 
 <thead>
 <tr class="header">
 <th>Clé de propriété</th>
-<th>Notes</th>
+<th>Remarques</th>
 </tr>
 </thead>
 <tbody>
@@ -122,7 +122,7 @@ Si la commande associée au contrôle est invalidée via un appel à <a href="/w
 
 <dl> <dt>
 
-[Bibliothèque de contrôles de l’infrastructure du ruban Windows](windowsribbon-controls-entry.md)
+[Windows Bibliothèque de contrôles de Framework du ruban](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**Élément de balisage DropDownGallery**](windowsribbon-element-dropdowngallery.md)

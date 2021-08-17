@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 223c263f5701aa74a1e983159abb985dcad55e17
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 254de7c2bc581920fd328fb7dca5afdcd58756a9f9f2aef6b695eaf415465e0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960698"
 ---
 # <a name="ms-ds-maximum-password-age-attribute"></a>attribut ms-DS-maximum-Password-Age
 
@@ -42,7 +42,7 @@ ms.locfileid: "106516139"
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -63,7 +63,7 @@ ms.locfileid: "106516139"
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Classes utilisées dans        | [**ms-DS-Password-paramètres**](c-msds-passwordsettings.md)<br/> |
+| Classes utilisées dans        | [**ms-DS-mot de passe-Paramètres**](c-msds-passwordsettings.md)<br/> |
 
 
 
@@ -84,7 +84,7 @@ ms.locfileid: "106516139"
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Classes utilisées dans        | [**ms-DS-Password-paramètres**](c-msds-passwordsettings.md)<br/> |
+| Classes utilisées dans        | [**ms-DS-mot de passe-Paramètres**](c-msds-passwordsettings.md)<br/> |
 
 
 
@@ -105,7 +105,7 @@ ms.locfileid: "106516139"
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Classes utilisées dans        | [**ms-DS-Password-paramètres**](c-msds-passwordsettings.md)<br/> |
+| Classes utilisées dans        | [**ms-DS-mot de passe-Paramètres**](c-msds-passwordsettings.md)<br/> |
 
 
 

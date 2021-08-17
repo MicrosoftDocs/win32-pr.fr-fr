@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 96c159a2ed63684b4bad2cbc6fa789c2dbd76edf
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 54414d7af326c1a069585f9d5deaa3e728d421a65490c5b9f5322b98e06f531e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104462586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120133"
 ---
 # <a name="getrendertargetsamplecount"></a>GetRenderTargetSampleCount
 
@@ -49,7 +49,7 @@ Obtient le nombre d’échantillons pour une cible de rendu.
 
 Nombre d’échantillons.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette fonction et [**GetRenderTargetSamplePosition**](dx-graphics-hlsl-getrendertargetsampleposition.md) pour déterminer le nombre et la position des emplacements d’échantillonnage pour une cible de rendu.
 
@@ -59,9 +59,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                        | Prise en charge |
+| Modèle de nuanceur                                                        | Pris en charge |
 |---------------------------------------------------------------------|-----------|
-| [Nuancier modèle 4](dx-graphics-hlsl-sm4.md) et modèles de nuanceur supérieurs | Oui       |
+| [Nuancier modèle 4](dx-graphics-hlsl-sm4.md) et modèles de nuanceur supérieurs | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md)           | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md)           | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)           | non        |

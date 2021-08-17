@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af1bdaa670d68bcb562a894d826c2844756dfdd5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d0e899168d1750fafe588130276c3729f692e50df01e525a9c00b9a4e87d13f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104520073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119326279"
 ---
 # <a name="ms-wmi-targettype-attribute"></a>MS-WMI-TargetType (attribut)
 
@@ -44,7 +44,7 @@ Référence WMI à une définition de type pour un objet de stratégie.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

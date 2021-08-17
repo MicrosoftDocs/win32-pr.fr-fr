@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28d4755b6f760ed1af75c676ecb70074c3ea7c92
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 362b6cbb977e66a92425da1355f0747660d867f67aec0ad684f7e8e3956edc63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139442"
 ---
 # <a name="execactionworkingdirectory-property"></a>ExecAction. WorkingDirectory, propriété
 
@@ -40,7 +40,7 @@ ExecAction.WorkingDirectory As String
 
 Le répertoire qui contient le fichier exécutable ou les fichiers utilisés par le fichier exécutable.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de la lecture ou de l’écriture de code XML, le répertoire de travail de l’application est spécifié dans l’élément [**WorkingDirectory**](taskschedulerschema-workingdirectory-exectype-element.md) du schéma planificateur de tâches.
 
@@ -52,8 +52,8 @@ Le chemin d’accès est vérifié pour s’assurer qu’il est valide lorsque l
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

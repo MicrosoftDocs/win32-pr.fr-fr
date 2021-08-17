@@ -4,12 +4,12 @@ ms.assetid: ca0547b2-d0f8-4edc-a62c-3c903e1b33ea
 title: '\_Énumération de la topologie primitive d3d11 \_'
 ms.date: 06/26/2019
 ms.topic: reference
-ms.openlocfilehash: 1d2beab107a3f3abe03e5a17f068e1b508422241
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
-ms.translationtype: HT
+ms.openlocfilehash: 7c899d738b2a80036eaea61352f5e8aa82c73ddbeb48433d275d74506a478d49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104991857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990009"
 ---
 # <a name="d3d11_primitive_topology-enumeration"></a>\_Énumération de la topologie primitive d3d11 \_
 
@@ -322,6 +322,6 @@ Interpréter les données de vertex comme une liste de correctifs.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’énumération de la **\_ \_ topologie primitive d3d11** est de type défini dans le fichier d’en-tête d3d11. h comme une ÉNUMÉRation de la topologie de la [**\_ primitive \_ D3D**](/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_primitive_topology) , qui est entièrement définie dans le fichier d’en-tête D3DCommon. h.

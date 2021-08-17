@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - ntddndis.h
-ms.openlocfilehash: fe28a87eeb1457bace0b72a386bcb07667b24a64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9f4a4ef2a833081cde0c3c7ca4d395e59743944291a95d7680c241191988b35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065049"
 ---
 # <a name="ndis_object_header-structure"></a>\_Structure d' \_ en-tête d’objet NDIS
 
@@ -69,7 +69,7 @@ Spécifie la taille totale, en octets, de la structure NDIS qui contient **l' \_
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                       |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                                                        |
 | En-tête<br/>                   | <dl> <dt>Ntddndis. h (inclure Windot11. h)</dt> </dl> |
 

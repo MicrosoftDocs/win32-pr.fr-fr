@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Shlwapi.dll
-ms.openlocfilehash: 3911e0366d30f3eb9420391f9d06867ded73530e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9a02e89713dd82de63817c00d5402fabe991fed565ebe33fa40286ad30058d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710749"
 ---
 # <a name="charlowerwrapw-function"></a>CharLowerWrapW fonction)
 
@@ -65,20 +65,20 @@ Si *PCH* est un caractère unique, la valeur de retour est une valeur 32 bits do
 
 Il n’existe aucune indication de réussite ou d’échec. L’échec est rare. Il n’y a pas d’informations d’erreur étendues pour cette fonction. ne pas appeler [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode recommandée consiste à utiliser [**CharLowerW**](/windows/win32/api/winuser/nf-winuser-charlowera) conjointement avec la couche Microsoft pour Unicode (MSLU).
 
 **CharLowerWrapW** doit être appelé directement à partir de Shlwapi.dll, à l’aide de l’ordinal 38.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (version 5,0 ou ultérieure)</dt> </dl> |
 
 

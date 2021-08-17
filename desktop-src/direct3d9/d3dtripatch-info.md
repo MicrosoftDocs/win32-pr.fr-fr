@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: b910d38025c44d6157a76aa3e3425ba46d628787
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c20a846d13cd45bb8a1629fca0e958d3042aacf148c24b0633dd19fb5462bd66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106532468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850112"
 ---
 # <a name="d3dtripatch_info-structure"></a>\_Structure d’informations D3DTRIPATCH
 
@@ -101,7 +101,7 @@ Non disponible. Non pris en charge.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par exemple, le diagramme suivant identifie l’ordre des vertex et les numéros de segment pour un correctif de triangle de Bézier cubique. L’ordre des vertex détermine les numéros de segment utilisés par [**DrawTriPatch**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawtripatch). Le décalage est le nombre d’octets du premier vertex de patch de triangle dans la mémoire tampon de vertex.
 

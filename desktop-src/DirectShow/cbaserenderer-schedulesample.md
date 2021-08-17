@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c340e54f35b353820b128681cfbc0c5798d38849
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 88e728b90078ab11a6215dad60a88b819b2c513071637e2aa5c6b6ed7226189b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118157591"
 ---
 # <a name="cbaserendererschedulesample-method"></a>Méthode CBaseRenderer. ScheduleSample
 
@@ -53,7 +53,7 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 Retourne la **valeur true** si l’exemple a été planifié, ou **false** si l’exemple a été supprimé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode détermine d’abord si l’exemple doit être rendu immédiatement, rendu dans le futur ou supprimé. (Pour ce faire, elle appelle la méthode [**CBaseRenderer :: GetSampleTimes**](cbaserenderer-getsampletimes.md) .) Si l’exemple doit être rendu immédiatement, la méthode signale l’événement [**CBaseRenderer :: m \_ RenderEvent**](cbaserenderer-m-renderevent.md) . Si l’exemple doit être rendu à l’avenir, la méthode appelle la méthode [**IReferenceClock :: AdviseTime**](/windows/desktop/api/Strmif/nf-strmif-ireferenceclock-advisetime) pour la planification.
 
@@ -63,7 +63,7 @@ Cette méthode détermine d’abord si l’exemple doit être rendu immédiateme
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

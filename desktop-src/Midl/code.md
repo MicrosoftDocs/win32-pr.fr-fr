@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa041859c0bffca2771695b7055105b8ae846221
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f1d94f4f764fb25e5e2a5a43d1cdbe76f5288901846c2291daa4497947a486f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104313030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117991813"
 ---
 # <a name="code-attribute"></a>attribut de code
 
@@ -85,7 +85,7 @@ Spécifie zéro, un ou plusieurs attributs qui s’appliquent à la fonction dan
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la fonction tel qu’il est défini dans le fichier IDL.
@@ -106,7 +106,7 @@ Spécifie un paramètre de la fonction tel qu’il est défini dans le fichier I
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **\[ code \]** peut apparaître dans l’en-tête ACF ou être appliqué à une fonction individuelle.
 
@@ -139,7 +139,7 @@ Le **\[ code \]** ou le [**\[ nocode \]**](nocode.md) peut apparaître dans la l
 [**handle implicite \_**](implicit-handle.md)
 </dt> <dt>
 
-[**localisé**](local.md)
+[**local**](local.md)
 </dt> <dt>
 
 [**SansCode**](nocode.md)
@@ -151,9 +151,9 @@ Le **\[ code \]** ou le [**\[ nocode \]**](nocode.md) peut apparaître dans la l
 [**représenter \_ comme**](represent-as.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

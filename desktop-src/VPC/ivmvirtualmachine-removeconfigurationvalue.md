@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 683cad2c7cce34822f6f5607ea2676902284baf0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 130feab953b5116ae8d6194f23cefc88c6792cf584ec884edd359ce6fc44a906
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117752288"
 ---
 # <a name="ivmvirtualmachineremoveconfigurationvalue-method"></a>IVMVirtualMachine :: RemoveConfigurationValue, méthode
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Supprime la valeur du paramètre de configuration spécifié pour cet ordinateur virtuel.
 
@@ -69,7 +69,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode fournit un accès de bas niveau à toute valeur de configuration. Il peut être utilisé pour supprimer des valeurs de configuration pour les clés définies par le client. Soyez prudent si vous utilisez cette méthode pour supprimer les valeurs de configuration système, car certaines valeurs ne peuvent pas être modifiées pendant l’exécution de la machine virtuelle.
 
@@ -115,7 +115,7 @@ La chaîne de chemin d’accès *configurationKey* est spécifiée comme suit :
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

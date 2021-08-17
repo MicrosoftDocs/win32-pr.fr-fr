@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 'CHStringArray :: Operator [] (ChStrArr. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e92b30768b9d013bfca672548a7c58b0eeffb455
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 859cfe52535aea0fb43d6195648215431f80cff86f0525b9ef7c5247b6a831a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131771"
 ---
 # <a name="chstringarrayoperator--"></a>CHStringArray ::, opérateur \[\]
 
@@ -43,7 +43,7 @@ Un index d’entiers supérieur ou égal à zéro et inférieur ou égal à la v
 
 Les opérateurs d’indice retournent l’élément pointeur [**CHString**](chstring.md) actuellement à cet index.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser le premier opérateur, qui appelle des tableaux qui ne sont pas **const**, sur le côté droit (r-value) ou sur le côté gauche (valeur l) d’une instruction d’assignation. Le deuxième, qui appelle pour les tableaux **const** , peut être utilisé uniquement à droite.
 

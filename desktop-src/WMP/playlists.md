@@ -4,28 +4,28 @@ description: Sélections
 ms.assetid: b1ac9208-33d1-448f-9e2e-920fad9c6add
 keywords:
 - Lecteur Windows Media, sélections
-- Modèle objet du lecteur Windows Media, sélections
+- Lecteur Windows Media modèle objet, playlists
 - modèle objet, sélections
-- Contrôle ActiveX du lecteur Windows Media, sélections
-- Contrôle ActiveX, sélections
-- Contrôle ActiveX mobile du lecteur Windows Media, sélections
-- Windows Media Player Mobile, sélections
+- contrôle de ActiveX Lecteur Windows Media, sélections
+- contrôle de ActiveX, sélections
+- Lecteur Windows Media contrôle de ActiveX Mobile, sélections
+- Lecteur Windows Media Mobile, sélections
 - sélections, migration
-- Sélections de métafichiers Windows Media, migration
+- Windows Sélections de métafichiers multimédia, migration
 - sélections de métafichiers, migration
 - Guide de migration, sélections
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 124c07a6bd3aec0bebd235678e9fa8a5f069ec73
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bccdd98789de6c8d4faa06882376967298646febabd790067710dc4f460ba65b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334472"
 ---
 # <a name="playlists"></a>Sélections
 
-Le modèle objet de contrôle ActiveX du lecteur Windows Media 6,4 comprend quatre méthodes et une propriété pour l’utilisation des sélections de métafichiers Windows Media :
+le Lecteur Windows Media 6,4 ActiveX modèle objet de contrôle comprend quatre méthodes et une propriété pour l’utilisation de Windows les sélections de métafichiers Media :
 
 -   *Player6*. **GetCurrentEntry**
 -   *Player6*. **SetCurrentEntry**
@@ -35,14 +35,14 @@ Le modèle objet de contrôle ActiveX du lecteur Windows Media 6,4 comprend quat
 
 Ensemble, ils offrent des fonctionnalités limitées pour naviguer dans un métafichier de sélection avec une extension de nom de fichier. asx et récupérer des informations sur les entrées contenues dans la sélection.
 
-Le lecteur Windows Media 7 a introduit la « bibliothèque multimédia ». La bibliothèque permet aux utilisateurs d’organiser leur contenu multimédia numérique, ainsi que de créer des sélections personnalisées qui peuvent être gérées à partir de l’interface utilisateur graphique du lecteur. Le modèle objet de contrôle ActiveX Windows Media Player 7 ou version ultérieure prend en charge l’utilisation des sélections de bibliothèque, ainsi que les sélections contenues dans les fichiers Windows Media avec une extension de nom de fichier. asx.
+Lecteur Windows Media 7 a introduit « la bibliothèque multimédia ». La bibliothèque permet aux utilisateurs d’organiser leur contenu multimédia numérique, ainsi que de créer des sélections personnalisées qui peuvent être gérées à partir de l’interface utilisateur graphique du lecteur. le Lecteur Windows Media 7 ou version ultérieure ActiveX modèle objet de contrôle assure la prise en charge de l’utilisation des listes de sélection de bibliothèque, ainsi que des sélections contenues dans Windows des fichiers multimédias avec une extension de nom de fichier. asx.
 
 > [!Note]  
-> Pour des raisons de sécurité, l’utilisateur doit accorder des droits d’accès à la bibliothèque pour que votre programme puisse manipuler son contenu. Les droits d’accès ne peuvent être demandés et accordés que par le biais du modèle objet Windows Media Player 9 ou version ultérieure. Pour plus d’informations sur les droits d’accès, consultez accès à la [bibliothèque](library-access.md).
+> Pour des raisons de sécurité, l’utilisateur doit accorder des droits d’accès à la bibliothèque pour que votre programme puisse manipuler son contenu. les droits d’accès peuvent uniquement être demandés et accordés par le biais du modèle objet série Lecteur Windows Media 9 ou version ultérieure. Pour plus d’informations sur les droits d’accès, consultez accès à la [bibliothèque](library-access.md).
 
- 
+ 
 
-Le modèle objet Windows Media Player 7 ou version ultérieure comprend trois objets pour la gestion des sélections. L’objet **PlaylistCollection** fournit les fonctionnalités d’organisation des sélections. Il représente l’ensemble de la collection de sélections dans la bibliothèque de l’utilisateur. L’objet **PlaylistArray** permet de récupérer une sélection spécifique à partir de l’objet **PlaylistCollection** à l’aide d’un numéro d’index. deux des méthodes de l’objet **PlaylistCollection** récupèrent un objet **PlaylistArray** . L’objet **playlist** fournit les propriétés et les méthodes nécessaires pour manipuler les éléments multimédias contenus dans une seule playlist.
+le modèle objet Lecteur Windows Media 7 ou version ultérieure comprend trois objets pour la gestion des sélections. L’objet **PlaylistCollection** fournit les fonctionnalités d’organisation des sélections. Il représente l’ensemble de la collection de sélections dans la bibliothèque de l’utilisateur. L’objet **PlaylistArray** permet de récupérer une sélection spécifique à partir de l’objet **PlaylistCollection** à l’aide d’un numéro d’index. deux des méthodes de l’objet **PlaylistCollection** récupèrent un objet **PlaylistArray** . L’objet **playlist** fournit les propriétés et les méthodes nécessaires pour manipuler les éléments multimédias contenus dans une seule playlist.
 
 Par exemple, étant donné que chaque sélection de la bibliothèque a un nom unique, vous pouvez récupérer une sélection à partir de la bibliothèque à l’aide de *PlaylistCollection*. méthode **GetByName** :
 
@@ -63,9 +63,9 @@ WMP9.currentPlaylist = pl;
 
 
 
-Le plus souvent, vous souhaitez utiliser la sélection actuelle. Bien qu’il soit possible d’utiliser plusieurs objets de sélection, un seul peut être récupéré par le *joueur*. propriété **currentPlaylist** à un moment donné : celle que le lecteur Windows Media traite à ce moment-là.
+Le plus souvent, vous souhaitez utiliser la sélection actuelle. Bien qu’il soit possible d’utiliser plusieurs objets de sélection, un seul peut être récupéré par le *joueur*. propriété **currentPlaylist** à un moment donné : celle que Lecteur Windows Media est en cours de traitement à ce moment-là.
 
-Lorsque Windows Media Player 7 ou version ultérieure lit un métafichier Windows Media avec une extension de nom de fichier. asx, il crée tout d’abord un objet **playlist** . Ensuite, il remplit l’objet avec les informations de la sélection. asx, puis fait de cet objet **playlist** la sélection actuelle. Cela signifie que vous pouvez utiliser les propriétés et les méthodes associées à l’objet **playlist** pour manipuler les sélections. asx exactement comme vous le feriez pour gérer des sélections dans la bibliothèque. Par exemple, pour récupérer le nombre d’entrées dans une sélection. asx à l’aide du modèle d’objet version 6,4, vous utilisez *Player6*. Propriété **EntryCount** :
+lorsque Lecteur Windows Media 7 ou version ultérieure lit un métafichier Windows Media avec une extension de nom de fichier. asx, il crée tout d’abord un objet **Playlist** . Ensuite, il remplit l’objet avec les informations de la sélection. asx, puis fait de cet objet **playlist** la sélection actuelle. Cela signifie que vous pouvez utiliser les propriétés et les méthodes associées à l’objet **playlist** pour manipuler les sélections. asx exactement comme vous le feriez pour gérer des sélections dans la bibliothèque. Par exemple, pour récupérer le nombre d’entrées dans une sélection. asx à l’aide du modèle d’objet version 6,4, vous utilisez *Player6*. Propriété **EntryCount** :
 
 
 ```C++
@@ -75,7 +75,7 @@ var entrycount = WMP64.EntryCount;
 
 
 
-Lorsque vous utilisez le modèle objet Windows Media Player 7 ou version ultérieure, vous utilisez la *sélection*. propriété **Count** :
+lorsque vous utilisez le modèle objet Lecteur Windows Media 7 ou version ultérieure, vous utilisez la *sélection*. propriété **Count** :
 
 
 ```C++
@@ -95,7 +95,7 @@ var entrynum = WMP64.GetCurrentEntry();
 
 
 
-Vous pouvez obtenir le même résultat en utilisant le modèle objet Windows Media Player 7 ou version ultérieure dans le script. L’exemple JScript suivant compare l’objet multimédia actuel à chaque élément de la sélection. Lorsque le *média* est. **isIdentical** retourne la valeur true, une boîte de message affiche l’index de l’élément multimédia actuel.
+vous pouvez obtenir le même résultat en utilisant le modèle objet Lecteur Windows Media 7 ou version ultérieure dans le script. l’exemple de JScript suivant compare l’objet multimédia actuel à chaque élément de la sélection. Lorsque le *média* est. **isIdentical** retourne la valeur true, une boîte de message affiche l’index de l’élément multimédia actuel.
 
 
 ```C++
@@ -134,7 +134,7 @@ WMP6.SetCurrentEntry(2);
 
 
 
-Les index d’entrée de playlist sont de base zéro dans le lecteur Windows Media 7 ou version ultérieure ; pour faire de la deuxième entrée dans une sélection de métafichiers celle qui est active, lorsque vous utilisez le modèle objet Windows Media Player 7 ou version ultérieure, utilisez la syntaxe suivante :
+les index d’entrée de Playlist sont de base zéro dans Lecteur Windows Media 7 ou version ultérieure ; pour faire de la deuxième entrée dans une sélection de métafichier la seconde en cours, lorsque vous utilisez le modèle objet Lecteur Windows Media 7 ou version ultérieure, utilisez la syntaxe suivante :
 
 
 ```C++
@@ -144,7 +144,7 @@ WMP9.controls.currentItem = WMP9.currentPlaylist.item(1);
 
 
 
-L’exemple JScript suivant illustre une fonction qui accepte un numéro d’index en tant que paramètre, puis définit l’entrée de la sélection qui correspond à l’index de l’élément multimédia actuel :
+l’exemple de JScript suivant illustre une fonction qui accepte un numéro d’index en tant que paramètre, puis définit l’entrée de la sélection qui correspond à l’index de l’élément multimédia actuel :
 
 
 ```C++
@@ -179,7 +179,7 @@ return false;
 
 
 
-Les fichiers Windows Media peuvent contenir des éléments de paramètres personnalisés que vous spécifiez à l’aide de la **<PARAM>** balise. Lorsque vous utilisez le modèle d’objet version 6,4, vous pouvez récupérer le nom d’un paramètre particulier avec *Player6*. Méthode **GetMediaParameterName** . L’exemple JScript suivant récupère le nom du premier paramètre de la première entrée d’une sélection. ASX :
+Windows Les fichiers multimédias peuvent contenir des éléments de paramètres personnalisés que vous spécifiez à l’aide de la **<PARAM>** balise. Lorsque vous utilisez le modèle d’objet version 6,4, vous pouvez récupérer le nom d’un paramètre particulier avec *Player6*. Méthode **GetMediaParameterName** . l’exemple de JScript suivant récupère le nom du premier paramètre de la première entrée d’une sélection. asx :
 
 
 ```C++
@@ -199,7 +199,7 @@ var paramvalue = WMP6.GetMediaParameter(1, paramname);
 
 
 
-L’exemple JScript suivant utilise le modèle objet Windows Media Player 7 ou version ultérieure pour récupérer le nom et la valeur du paramètre de la première entrée dans une sélection. ASX :
+l’exemple de JScript suivant utilise le modèle objet Lecteur Windows Media 7 ou version ultérieure pour récupérer le nom et la valeur du paramètre de la première entrée dans une sélection. asx :
 
 
 ```C++
@@ -223,7 +223,7 @@ alert(attname + ": " + attval);
 
 Vous pouvez utiliser *PlaylistCollection*. méthode **importPlaylist** pour ajouter une sélection. asx à la bibliothèque. Une fois importée, la sélection de métafichiers devient une sélection de bibliothèque, ce qui vous permet de la manipuler à l’aide de toutes les propriétés et méthodes à votre disposition. L’utilisateur doit accorder des droits d’accès complets à la bibliothèque pour que votre application puisse utiliser la méthode **importPlaylist** .
 
-Vous pouvez utiliser *PlaylistCollection*. **GetByName** pour tester si une sélection existe. Cette méthode retourne toujours un objet **PlaylistArray** valide. Si le tableau de sélection récupéré contient exactement une sélection, alors il existe une sélection portant ce nom dans la bibliothèque. Dans le cas contraire, le tableau de sélection ne contiendra aucun objet de sélection. Cela signifie qu’il n’y a aucune playlist dans la bibliothèque dont le nom est passé comme argument à la méthode **GetByName** . L’exemple JScript suivant illustre ceci :
+Vous pouvez utiliser *PlaylistCollection*. **GetByName** pour tester si une sélection existe. Cette méthode retourne toujours un objet **PlaylistArray** valide. Si le tableau de sélection récupéré contient exactement une sélection, alors il existe une sélection portant ce nom dans la bibliothèque. Dans le cas contraire, le tableau de sélection ne contiendra aucun objet de sélection. Cela signifie qu’il n’y a aucune playlist dans la bibliothèque dont le nom est passé comme argument à la méthode **GetByName** . l’exemple de JScript suivant illustre ce qui suit :
 
 
 ```C++
@@ -266,9 +266,9 @@ if (!plarray.count)
 [**Objet playlist**](playlist-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

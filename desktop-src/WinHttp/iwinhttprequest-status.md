@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: ea7569867336547bba4639e36cf65f7b5a08ae6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d377fd6421cc1bfd5ebb41cdfd71f0a1155abafe4f6dd5f2ca816f0462383b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744455"
 ---
 # <a name="iwinhttprequeststatus-property"></a>IWinHttpRequest :: Status, propriété
 
@@ -55,12 +55,12 @@ Valeur de type **long** qui reçoit le code d’état retourné.
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les résultats de cette propriété ne sont valides qu’une fois que la méthode [**Send**](iwinhttprequest-send.md) s’est terminée avec succès. Pour obtenir la liste des codes d’État, consultez [**codes d’État http**](http-status-codes.md).
 
 > [!Note]  
-> Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+> pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHttp.
 
  
 
@@ -194,8 +194,8 @@ WScript.Echo( WinHttpReq.GetAllResponseHeaders());
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | MIDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

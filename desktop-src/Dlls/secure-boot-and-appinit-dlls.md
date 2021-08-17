@@ -29,7 +29,7 @@ notez que le démarrage sécurisé est un protocole UEFI et non une fonctionnali
 
 l’une des conditions de certification pour les applications de bureau Windows 8 est que l’application ne doit pas charger de dll arbitraires pour intercepter les appels d’API Win32 à l’aide du \_ mécanisme de dll AppInit. pour plus d’informations sur les conditions requises en matière de certification, reportez-vous à la section 1,1 des [conditions de certification pour Windows 8 les applications de bureau](../win_cert/certification-requirements-for-windows-desktop-apps.md).
 
-## <a name="summary"></a>Récapitulatif
+## <a name="summary"></a>Résumé
 
 -   Le \_ mécanisme des DLL AppInit n’est pas une approche recommandée pour les applications légitimes, car cela peut entraîner des blocages système et des problèmes de performances.
 -   Le \_ mécanisme des DLL AppInit est désactivé par défaut lorsque le démarrage sécurisé est activé.

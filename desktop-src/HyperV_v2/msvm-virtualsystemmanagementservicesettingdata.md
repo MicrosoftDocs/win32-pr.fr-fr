@@ -32,12 +32,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 782f196fdbd3a09126a7b4d14be6789bb633f043
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ccb0a1a9bc4a10ec7f8a366f012446e0374dab299f8ee779f16cfeb38fb005b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147972"
 ---
 # <a name="msvm_virtualsystemmanagementservicesettingdata-class"></a>MSVM \_ VirtualSystemManagementServiceSettingData, classe
 
@@ -97,7 +97,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (32)
 </dt> </dl>
 
-Utilisé par les fabricants d’ordinateurs OEM pour permettre aux systèmes d’exploitation Windows verrouillés du BIOS de s’exécuter sur la machine virtuelle. Cette chaîne doit avoir une longueur de 32 caractères exactement.
+utilisé par les fabricants d’ordinateurs oem pour permettre aux systèmes d’exploitation Windows verrouillés par le BIOS de s’exécuter sur la machine virtuelle. Cette chaîne doit avoir une longueur de 32 caractères exactement.
 
 Il s’agit d’une propriété en lecture seule, mais elle peut être modifiée à l’aide de la méthode [**ModifyServiceSettings**](modifyservicesettings-msvm-virtualsystemmanagementservice.md) de la classe [**MSVM \_ VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) .
 
@@ -143,7 +143,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**MSVM \_ VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md).**ConfigurationDataRoot**")
 </dt> </dl>
 
-Racine de données externes par défaut. Par défaut, «*root* \\ ProgramData \\ Microsoft \\ Windows \\ Virtualization ».
+Racine de données externes par défaut. par défaut, «*root* \\ ProgramData \\ Microsoft \\ Windows \\ virtualization ».
 
 Il s’agit d’une propriété en lecture seule, mais elle peut être modifiée à l’aide de la méthode [**ModifyServiceSettings**](modifyservicesettings-msvm-virtualsystemmanagementservice.md) de la classe [**MSVM \_ VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) .
 
@@ -161,7 +161,7 @@ Type d'accès : Lecture seule
 Indique si la mise en cache des fichiers en mémoire doit être utilisée par défaut pour les disques. Cette valeur peut être remplacée par disque dans le champ **CachingMode** de la classe [**MSVM \_ StorageAllocationSettingData**](msvm-storageallocationsettingdata.md) .
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -214,7 +214,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Description de l'objet . Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « paramètres pour le service de gestion du système virtuel ».
+Description de l'objet . cette propriété est héritée de [**CIM \_ propriété managedelement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « Paramètres pour le Service de gestion de système virtuel ».
 
 </dd> <dt>
 
@@ -242,7 +242,7 @@ Type d'accès : Lecture seule
 
 Indique si le mode de session étendu est autorisé sur le serveur. **True** indique que l’autorisation est autorisée ; sinon, **false**.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -273,7 +273,7 @@ Type d'accès : Lecture seule
 Indique si le planificateur racine de l’hyperviseur est activé.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -370,7 +370,7 @@ Spécifie si la mémoire peut être allouée à partir de nœuds NUMA (non-Unifo
 
 | Valeur                                                                                | Signification                                                                                     |
 |--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| <dl> <dt>**Vrai**</dt> </dl>  | La mémoire peut être allouée à partir des nœuds NUMA locaux et distants.<br/>                   |
+| <dl> <dt>**:**</dt> </dl>  | La mémoire peut être allouée à partir des nœuds NUMA locaux et distants.<br/>                   |
 | <dl> <dt>**Faux**</dt> </dl> | La mémoire ne peut être allouée qu’à partir du nœud NUMA affecté à la machine virtuelle.<br/> |
 
 
@@ -417,7 +417,7 @@ Il s’agit d’une propriété en lecture seule, mais elle peut être modifiée
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ VirtualSystemManagementServiceSettingData** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -427,8 +427,8 @@ L’accès à la classe **MSVM \_ VirtualSystemManagementServiceSettingData** pe
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

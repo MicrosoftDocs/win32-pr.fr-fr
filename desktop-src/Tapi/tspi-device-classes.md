@@ -4,12 +4,12 @@ ms.assetid: b29ea789-d017-4e35-b77a-c0d54ac54c66
 title: Classes d’appareils TSPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6775e73df3914339edbdf791659de821855864dd
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: efd6d2e79e021b6b73bc24ef0edb5b343fb8487ced3ca414084c7f2ad23a6c48
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975435"
 ---
 # <a name="tspi-device-classes"></a>Classes d’appareils TSPI
 
@@ -34,7 +34,7 @@ Voici les noms de classes d’appareil par défaut.
 | [midi/in](/previous-versions/windows/desktop/legacy/ms725244(v=vs.85))                                 | Séquenceur MIDI (entrée uniquement)                      |
 | [midi/out](/previous-versions/windows/desktop/legacy/ms725245(v=vs.85))                               | Séquenceur MIDI (sortie uniquement)                     |
 | [TAPI/ligne](/previous-versions/windows/desktop/legacy/ms725511(v=vs.85))                             | Périphérique de ligne                                      |
-| [TAPI/téléphone](/previous-versions/windows/desktop/legacy/ms725512(v=vs.85))                           | Appareil téléphonique                                     |
+| [TAPI/téléphone](/previous-versions/windows/desktop/legacy/ms725512(v=vs.85))                           | appareil Téléphone                                     |
 | [NDIS](/previous-versions/windows/desktop/legacy/ms725247(v=vs.85))                                       | Appareil réseau                                   |
 | [TAPI/terminal](/previous-versions/windows/desktop/legacy/ms725515(v=vs.85))                     | Appareil terminal                                  |
 

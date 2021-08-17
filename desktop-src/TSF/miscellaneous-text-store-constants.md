@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ead33c21bb78035dd9fda443a53de575ffa64d9e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55bfa06f7f0ebda1d572a4e637076de25c7a21ef4d273cdc2527ab6481393404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117952097"
 ---
 # <a name="miscellaneous-text-store-constants"></a>Constantes de magasin de texte diverses
 
@@ -49,7 +49,7 @@ Les constantes du magasin de texte divers définissent certaines propriétés po
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                              |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                    |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                         |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                         |
 | En-tête<br/>                   | <dl> <dt>Textstor. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Textstor. idl</dt> </dl> |
 

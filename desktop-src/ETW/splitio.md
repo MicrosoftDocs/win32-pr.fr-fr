@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: f2efc14ce8804852f983ebe9dcb852c8c0669899
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0268c3dfa778eb8694a81f57b9212b68bd6674e6c7de6324cdc297550745b2a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069719"
 ---
 # <a name="splitio-class"></a>SplitIo, classe
 
@@ -38,7 +38,7 @@ class SplitIo : MSNT_SystemTrace
 
 La classe **SplitIo** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour activer les événements d’e/s fractionnés dans une session de journalisation du noyau NT, spécifiez l’indicateur d' **\_ \_ \_ \_ e/s Split** de l’indicateur de suivi d’événement dans le membre **EnableFlags** d’une structure de [**\_ \_ Propriétés de trace d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) lors de l’appel de la fonction [](/windows/win32/api/evntrace/nf-evntrace-starttracea)
 
@@ -56,14 +56,14 @@ Les consommateurs de suivi d’événements peuvent implémenter un traitement s
 
 Les événements de fractionnement des e/s indiquent que les demandes d’e/s ont été fractionnées en plusieurs demandes d’e/s disque en raison du disque de mise en miroir sous-jacent.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

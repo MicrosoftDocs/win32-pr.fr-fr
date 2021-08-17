@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 65fc16f409fd79782ec4a91f223dfc754563f8bb
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 2b3fc743d8431d76582553979bb25e1269df970d70187c65c2bddd1014834c76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104042948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147942"
 ---
 # <a name="msvm_virtualsystemreferencepointexportsettingdata-class"></a>MSVM \_ VirtualSystemReferencePointExportSettingData, classe
 
@@ -83,7 +83,7 @@ ID d’instance WMI des disques pour lesquels les données doivent être export�
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                             |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

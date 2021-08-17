@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ffb7be05301ae807505242153be902ab30eecf14
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1b2bcb98f5fd64da221f73bf2cee4222d8925797acd4c7e01914e8e068d6e381
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104043084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123047"
 ---
 # <a name="d3dxloadsurfacefrommemory-function"></a>D3DXLoadSurfaceFromMemory fonction)
 
@@ -145,7 +145,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des valeurs suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction gère la conversion vers et à partir des formats de texture compressés.
 

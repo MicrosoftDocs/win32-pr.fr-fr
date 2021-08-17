@@ -4,24 +4,24 @@ description: StorAHCI remplace MSAHCI
 ms.assetid: 9C6FAFA7-A6B3-4D3A-94EE-B53626DBF183
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7a41a9b113ba33c35e3a1a1c4b2ea5dad3054c8
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: 6affffe41dd00c009ebb7bebf508dac1b63bec673c17783f594d22969822e542
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "106510913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932139"
 ---
 # <a name="storahci-replaces-msahci"></a>StorAHCI remplace MSAHCI
 
 ## <a name="platforms"></a>Plateformes
 
 **Clients** – Windows 8  
-**Serveurs** – Windows Server 2012  
+**serveurs** – Windows Server 2012  
 
 
 ## <a name="description"></a>Description
 
-StorAHCI, un miniport Storport, prend en charge les contrôleurs d’interface de contrôleur d’hôte (AHCI) avancés SATA dans Windows et remplace MSAHCI, un miniport ATAport.
+StorAHCI, un miniport Storport, prend en charge les contrôleurs d’interface de contrôleur d’hôte (AHCI) avancés sata dans Windows, et remplace MSAHCI, un miniport ATAport.
 
 ## <a name="manifestation"></a>Manifestation
 
@@ -33,9 +33,9 @@ Cette modification est transparente pour l’utilisateur.
 
 Mettez à jour tous les utilitaires et scripts qui reposent sur des liaisons ATAport. Ne vous fiez pas au nom du lecteur. Utilisez plutôt la détection de disque standard.
 
- 
+ 
 
- 
+ 
 
 
 

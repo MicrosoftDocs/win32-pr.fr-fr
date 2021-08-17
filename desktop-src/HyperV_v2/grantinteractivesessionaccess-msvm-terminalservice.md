@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: b8bd49805b5fdc5545a81e4f0b816fe35a6c37b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39fd1e77eeea7429a2ef225226b964e44f1384295dc798c1b93611f282674fb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682329"
 ---
 # <a name="grantinteractivesessionaccess-method-of-the-msvm_terminalservice-class"></a>Méthode GrantInteractiveSessionAccess de la \_ classe TerminalService MSVM
 
@@ -51,7 +51,7 @@ Référence à une instance de la classe [**MSVM \_ ComputerSystem**](msvm-compu
 *Des approbations* \[ dans\]
 </dt> <dd>
 
-Tableau de chaînes, chacune identifiant un tiers de confiance qui sera autorisé à accéder à la session interactive de l’ordinateur virtuel. Les identificateurs de tiers de confiance doivent être spécifiés au format compatible SAM Windows ou au format de chaîne SID Windows.
+Tableau de chaînes, chacune identifiant un tiers de confiance qui sera autorisé à accéder à la session interactive de l’ordinateur virtuel. les identificateurs de tiers de confiance doivent être spécifiés dans Windows format compatible SAM ou Windows format de chaîne SID.
 
 </dd> <dt>
 
@@ -107,8 +107,8 @@ Cette méthode retourne l’une des valeurs suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

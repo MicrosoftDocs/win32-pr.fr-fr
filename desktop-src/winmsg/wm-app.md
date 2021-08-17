@@ -4,12 +4,12 @@ ms.assetid: fdb549df-426f-4af5-9c17-6e8730e4abc0
 title: WM_APP (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4998f8240b08d248a75b375bb813ba02cd02344e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01c2f09bef9ef479cfa5bd0bb56760fd17196087992276b2caa1daf7616fea9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931819"
 ---
 # <a name="wm_app"></a>\_application WM
 
@@ -19,7 +19,7 @@ Utilisé pour définir des messages privés, généralement au format **WM \_ ap
 #define WM_APP                          0x8000
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La constante d' **\_ application WM** est utilisée pour faire la distinction entre les valeurs de message qui sont réservées à une utilisation par le système et les valeurs qui peuvent être utilisées par une application pour envoyer des messages dans une classe de fenêtre privée. Voici les plages de numéros de message disponibles.
 

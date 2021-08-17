@@ -4,18 +4,18 @@ ms.assetid: 01bc261d-dfee-430e-86c9-cfafe82856c8
 title: Mappage des données de paramètres régionaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec2b4ec93efab1cc9023bedfa5479c3a1fc81987
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1576844f13dda80a6b9d754fc807ef8a35514dcfedd88dc04cf233cfb2a1bfb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147191"
 ---
 # <a name="mapping-locale-data"></a>Mappage des données de paramètres régionaux
 
-NLS comprend un certain nombre de fonctions API que vos applications peuvent utiliser pour mapper les données de paramètres régionaux entre les [identificateurs](locale-identifiers.md) de paramètres régionaux et les [noms de paramètres régionaux](locale-names.md), et répertorier les paramètres régionaux neutres. Cette rubrique traite de l’utilisation de ces fonctions sur Windows Vista et versions ultérieures, ainsi que sur les systèmes d’exploitation antérieurs à Windows Vista (parfois appelés « systèmes de niveau inférieur »).
+NLS comprend un certain nombre de fonctions API que vos applications peuvent utiliser pour mapper les données de paramètres régionaux entre les [identificateurs](locale-identifiers.md) de paramètres régionaux et les [noms de paramètres régionaux](locale-names.md), et répertorier les paramètres régionaux neutres. cette rubrique traite de l’utilisation de ces fonctions sur Windows vista et versions ultérieures, ainsi que sur les systèmes d’exploitation antérieurs à Windows vista (parfois appelés « systèmes de niveau inférieur »).
 
-## <a name="map-locale-data-on-windows-vista-and-later"></a>Mapper les données de paramètres régionaux sur Windows Vista et versions ultérieures
+## <a name="map-locale-data-on-windows-vista-and-later"></a>mapper les données de paramètres régionaux sur Windows Vista et versions ultérieures
 
 NLS fournit plusieurs fonctions de mappage de paramètres régionaux utilisables par les applications que vous développez pour s’exécuter sur Windows Vista et versions ultérieures. Il comprend également les fonctions que vos applications peuvent utiliser pour énumérer les paramètres régionaux neutres.
 
@@ -25,14 +25,14 @@ Pour effectuer un mappage entre un nom de paramètres régionaux et un identific
 
 **Répertorier les paramètres régionaux neutres**
 
-Pour énumérer les paramètres régionaux neutres pour Windows 7 et versions ultérieures, votre application peut appeler [**EnumSystemLocalesEx**](/windows/desktop/api/Winnls/nf-winnls-enumsystemlocalesex) avec *DwFlags* défini sur [**locale \_ NEUTRALDATA**](locale-neutraldata.md). Elle peut également utiliser [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) avec *LCTYPE* défini sur [**locale \_ INEUTRAL**](locale-ineutral.md).
+pour énumérer les paramètres régionaux neutres pour Windows 7 et versions ultérieures, votre application peut appeler [**EnumSystemLocalesEx**](/windows/desktop/api/Winnls/nf-winnls-enumsystemlocalesex) avec *dwFlags* défini sur [**locale \_ NEUTRALDATA**](locale-neutraldata.md). Elle peut également utiliser [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) avec *LCTYPE* défini sur [**locale \_ INEUTRAL**](locale-ineutral.md).
 
-## <a name="map-locale-data-on-pre-windows-vista-operating-systems"></a>Mapper les données de paramètres régionaux sur les systèmes d’exploitation antérieurs à Windows Vista
+## <a name="map-locale-data-on-pre-windows-vista-operating-systems"></a>mapper les données de paramètres régionaux sur les systèmes d’exploitation antérieurs à Windows Vista
 
-NLS comprend une bibliothèque de liens directs (DLL) à utiliser pour les applications que vous développez pour qu’elles s’exécutent sur des systèmes d’exploitation antérieurs à Windows Vista. La DLL prend en charge les fonctions de conversion et de liste pour le mappage des données.
+NLS comprend une bibliothèque de liens directs (DLL) à utiliser pour les applications que vous développez pour s’exécuter sur les systèmes d’exploitation antérieurs à Windows Vista. La DLL prend en charge les fonctions de conversion et de liste pour le mappage des données.
 
 > [!Note]  
-> Les applications qui s’exécutent uniquement sous Windows Vista et les versions ultérieures ne doivent pas utiliser les fonctions de mappage ou d’énumération de niveau inférieur.
+> les Applications qui s’exécutent uniquement sur Windows Vista et versions ultérieures ne doivent pas utiliser les fonctions de mappage ou d’énumération de niveau inférieur.
 
  
 

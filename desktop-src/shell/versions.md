@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 49fb1767b7074da6480a47c52eb1384fb935317b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d74371478b30037e75b1c168dc235735ba6bd219fa461245262ff55a508ae5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967834"
 ---
 # <a name="shell-and-shlwapi-dll-versions"></a>Versions des DLL Shell et Shlwapi
 
@@ -23,15 +23,15 @@ Cette section décrit comment déterminer la version des dll Shell sur laquelle 
 -   [Numéros de version des DLL](#dll-version-numbers)
 -   [Utilisation de DllGetVersion pour déterminer le numéro de version](#using-dllgetversion-to-determine-the-version-number)
     -   [Utilisation de DllGetVersion](#using-dllgetversion)
--   [Versions du projet](#project-versions)
+-   [Project Versions](#project-versions)
 
 ## <a name="dll-version-numbers"></a>Numéros de version des DLL
 
 Tous les éléments de programmation, à l’exception de quelques-uns, décrits dans la documentation de l’interpréteur de commandes sont contenus dans deux dll : Shell32.dll et Shlwapi.dll. En raison des améliorations en cours, différentes versions de ces dll implémentent des fonctionnalités différentes. Tout au long de la documentation de référence du shell, chaque élément de programmation spécifie un numéro de version DLL minimal pris en charge. Ce numéro de version indique que l’élément de programmation est implémenté dans cette version et les versions ultérieures de la DLL, sauf indication contraire. Si aucun numéro de version n’est spécifié, l’élément de programmation est implémenté dans toutes les versions existantes de la DLL.
 
-Avant Windows XP, les nouvelles versions de Shell32.dll et Shlwapi.dll étaient parfois fournies avec les nouvelles versions de Windows Internet Explorer. À compter de Windows XP, ces dll n’étaient plus fournies comme des fichiers redistribuables en dehors des nouvelles versions de Windows elle-même. Le tableau suivant présente les différentes versions des DLL et la façon dont elles ont été distribuées à nouveau vers Microsoft Internet Explorer 3,0, Windows 95 et Microsoft Windows NT 4,0.
+avant Windows XP, de nouvelles versions de Shell32.dll et de Shlwapi.dll étaient parfois fournies avec les nouvelles versions de Windows Internet Explorer. à partir de Windows XP, ces dll n’étaient plus fournies en tant que fichiers redistribuables en dehors des nouvelles versions de Windows elles-mêmes. le tableau suivant présente les différentes versions des DLL et la façon dont elles ont été distribuées à nouveau vers microsoft Internet Explorer 3,0, Windows 95 et microsoft Windows NT 4,0.
 
-Shell32.dll version 4,0 est disponible dans les versions d’origine de Windows 95 et Microsoft Windows NT 4,0. L’interpréteur de commandes n’a pas été mis à jour avec la version 3,0 d’Internet Explorer, donc Shell32.dll n’a pas de version 4,70. Les versions 4,71 et 4,72 de Shell32.dll étaient fournies avec les versions d’Internet Explorer correspondantes, mais elles n’étaient pas nécessairement installées (voir la remarque 1). Pour les versions ultérieures à Microsoft Internet Explorer 4,01 et Windows 98, les numéros de version pour Shell32.dll et Shlwapi.dll divergent. En général, vous devez supposer que les dll ont des numéros de version différents et tester chacune d’elles séparément.
+Shell32.dll version 4,0 est disponible dans les versions d’origine de Windows 95 et Microsoft Windows NT 4,0. L’interpréteur de commandes n’a pas été mis à jour avec la version 3,0 d’Internet Explorer, donc Shell32.dll n’a pas de version 4,70. Les versions 4,71 et 4,72 de Shell32.dll étaient fournies avec les versions d’Internet Explorer correspondantes, mais elles n’étaient pas nécessairement installées (voir la remarque 1). pour les versions ultérieures à Microsoft Internet Explorer 4,01 et Windows 98, les numéros de version pour Shell32.dll et Shlwapi.dll divergent. En général, vous devez supposer que les dll ont des numéros de version différents et tester chacune d’elles séparément.
 
 #### <a name="shell32dll"></a>Shell32.dll
 
@@ -40,7 +40,7 @@ Shell32.dll version 4,0 est disponible dans les versions d’origine de Windows 
 | 4.0     | Windows 95 et Microsoft Windows NT 4,0                                     |
 | 4.71    | Microsoft Internet Explorer 4,0. Consultez la remarque 1.                                |
 | 4.72    | Internet Explorer 4,01 et Windows 98. Consultez la remarque 1.                          |
-| 5.0     | Windows 2000 et Windows Millennium Edition (Windows Me). Voir la remarque 2.       |
+| 5.0     | Windows 2000 et Windows Millennium edition (Windows Me). Voir la remarque 2.       |
 | 6.0     | Windows XP                                                                  |
 | 6.0.1   | Windows Vista                                                               |
 | 6.1     | Windows 7                                                                   |
@@ -54,14 +54,14 @@ Shell32.dll version 4,0 est disponible dans les versions d’origine de Windows 
 | 4.72    | Internet Explorer 4,01 et Windows 98. Consultez la remarque 1.                          |
 | 4,7     | Internet Explorer 3. x                                                       |
 | 5.0     | Microsoft Internet Explorer 5 et Windows 98 SE. Voir la remarque 2.                |
-| 5.5     | Microsoft Internet Explorer 5,5 et Windows Millennium Edition (Windows Me) |
+| 5.5     | Microsoft Internet Explorer 5,5 et Windows Millennium edition (Windows Me) |
 | 6.0     | Windows XP et Windows Vista                                                |
 
 
 
-**Remarque 1 :** Tous les systèmes avec Internet Explorer 4,0 ou 4,01 avaient la version associée de Shlwapi.dll (respectivement 4,71 ou 4,72). Toutefois, pour les systèmes antérieurs à Windows 98, Internet Explorer 4,0 et 4,01 peuvent être installés avec ou sans ce qui était connu sous le nom d' *environnement intégré*. Si Internet Explorer a été installé avec l’interpréteur de commandes intégré, la version associée de Shell32.dll (4,71 ou 4,72) a également été installée. Si Internet Explorer a été installé sans l’interpréteur de commandes intégré, Shell32.dll est resté en version 4,0. En d’autres termes, la présence de la version 4,71 ou 4,72 de Shlwapi.dll sur un système ne garantit pas que Shell32.dll a le même numéro de version. Tous les systèmes Windows 98 ont la version 4,72 de Shell32.dll.
+**Remarque 1 :** Tous les systèmes avec Internet Explorer 4,0 ou 4,01 avaient la version associée de Shlwapi.dll (respectivement 4,71 ou 4,72). toutefois, pour les systèmes antérieurs à Windows 98, Internet Explorer 4,0 et 4,01 peuvent être installés avec ou sans ce qui était connu comme le *Shell intégré*. Si Internet Explorer a été installé avec l’interpréteur de commandes intégré, la version associée de Shell32.dll (4,71 ou 4,72) a également été installée. Si Internet Explorer a été installé sans l’interpréteur de commandes intégré, Shell32.dll est resté en version 4,0. En d’autres termes, la présence de la version 4,71 ou 4,72 de Shlwapi.dll sur un système ne garantit pas que Shell32.dll a le même numéro de version. tous les systèmes Windows 98 disposent de la version 4,72 de Shell32.dll.
 
-**Remarque 2 :** La version 5,0 de Shlwapi.dll a été distribuée avec Internet Explorer 5 et a été trouvée sur tous les systèmes sur lesquels Internet Explorer 5 a été installé, à l’exception de Windows 2000. La version 5,0 de Shell32.dll a été distribuée en mode natif avec Windows 2000 et Windows Millennium Edition (Windows Me), ainsi que la version 5,0 de Shlwapi.dll.
+**Remarque 2 :** la Version 5,0 de Shlwapi.dll a été distribuée avec internet explorer 5 et a été trouvée sur tous les systèmes sur lesquels internet explorer 5 a été installé, à l’exception de Windows 2000. la version 5,0 de Shell32.dll a été distribuée en mode natif avec Windows 2000 et Windows Millennium edition (Windows), ainsi que la version 5,0 de Shlwapi.dll.
 
 ## <a name="using-dllgetversion-to-determine-the-version-number"></a>Utilisation de DllGetVersion pour déterminer le numéro de version
 
@@ -70,11 +70,11 @@ Depuis la version 4,71, les dll de l’interpréteur de commandes, entre autres,
 > [!Note]  
 > Les dll n’exportent pas nécessairement [**DllGetVersion**](/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc). Testez toujours ce dernier avant de tenter de l’utiliser.
 
-Pour les versions de Windows antérieures à Windows 2000, [**DllGetVersion**](/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc) retourne une structure [**DLLVERSIONINFO**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo) qui contient les numéros de version principale et secondaire, le numéro de build et un ID de plateforme. Pour les systèmes Windows 2000 et versions ultérieures, **DllGetVersion** peut retourner une structure [**DLLVERSIONINFO2**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo2) . En plus des informations fournies via **DLLVERSIONINFO**, **DLLVERSIONINFO2** fournit également le numéro de correctif qui identifie le dernier Service Pack installé, ce qui offre un moyen plus robuste de comparer les numéros de version. Étant donné que le premier membre de **DLLVERSIONINFO2** est une structure **DLLVERSIONINFO** , la structure la plus récente est à compatibilité descendante.
+pour les versions Windows antérieures à Windows 2000, [**DllGetVersion**](/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc) retourne une structure [**DLLVERSIONINFO**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo) qui contient les numéros de version principale et secondaire, le numéro de build et un ID de plateforme. pour les systèmes Windows 2000 et versions ultérieures, **DllGetVersion** peut retourner une structure [**DLLVERSIONINFO2**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo2) . En plus des informations fournies via **DLLVERSIONINFO**, **DLLVERSIONINFO2** fournit également le numéro de correctif qui identifie le dernier Service Pack installé, ce qui offre un moyen plus robuste de comparer les numéros de version. Étant donné que le premier membre de **DLLVERSIONINFO2** est une structure **DLLVERSIONINFO** , la structure la plus récente est à compatibilité descendante.
 
 ### <a name="using-dllgetversion"></a>Utilisation de DllGetVersion
 
-L’exemple de fonction suivant `GetVersion` charge une DLL spécifiée et tente d’appeler sa fonction [**DllGetVersion**](/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc) . En cas de réussite, elle utilise une macro pour empaqueter les numéros de version majeure et mineure de la structure [**DLLVERSIONINFO**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo) dans une **valeur DWORD** qui est retournée à l’application appelante. Si la DLL n’exporte pas **DllGetVersion**, la fonction retourne la valeur zéro. Avec les systèmes Windows 2000 et versions ultérieures, vous pouvez modifier la fonction pour gérer la possibilité que **DllGetVersion** retourne une structure [**DLLVERSIONINFO2**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo2) . Dans ce cas, utilisez les informations contenues dans le membre **ullVersion** de la structure **DLLVERSIONINFO2** pour comparer les versions, les numéros de build et les versions de Service Pack. La macro [**MAKEDLLVERULL**](/windows/desktop/api/Shlwapi/nf-shlwapi-makedllverull) simplifie la tâche de comparaison de ces valeurs à celles de **ullVersion**.
+L’exemple de fonction suivant `GetVersion` charge une DLL spécifiée et tente d’appeler sa fonction [**DllGetVersion**](/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc) . En cas de réussite, elle utilise une macro pour empaqueter les numéros de version majeure et mineure de la structure [**DLLVERSIONINFO**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo) dans une **valeur DWORD** qui est retournée à l’application appelante. Si la DLL n’exporte pas **DllGetVersion**, la fonction retourne la valeur zéro. avec les systèmes Windows 2000 et versions ultérieures, vous pouvez modifier la fonction pour gérer la possibilité que **DllGetVersion** retourne une structure [**DLLVERSIONINFO2**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo2) . Dans ce cas, utilisez les informations contenues dans le membre **ullVersion** de la structure **DLLVERSIONINFO2** pour comparer les versions, les numéros de build et les versions de Service Pack. La macro [**MAKEDLLVERULL**](/windows/desktop/api/Shlwapi/nf-shlwapi-makedllverull) simplifie la tâche de comparaison de ces valeurs à celles de **ullVersion**.
 
 > [!Note]  
 > L’utilisation incorrecte de [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) peut poser des risques de sécurité. Reportez-vous à la documentation de **LoadLibrary** pour plus d’informations sur la façon de charger correctement des dll avec différentes versions de Windows.
@@ -150,9 +150,9 @@ else
 ```
 
 
-## <a name="project-versions"></a>Versions du projet
+## <a name="project-versions"></a>Project Versions
 
-Pour garantir la compatibilité de votre application avec différentes versions ciblées d’un fichier. dll, les macros de version sont présentes dans les fichiers d’en-tête. Ces macros permettent de définir, d’exclure ou de redéfinir certaines définitions pour les différentes versions de la DLL. Pour une description détaillée de ces macros, consultez [utilisation des en-têtes Windows](../winprog/using-the-windows-headers.md) .
+Pour vous assurer que votre application est compatible avec les différentes versions ciblées d’un fichier .dll, les macros de version sont présentes dans les fichiers d’en-tête. Ces macros permettent de définir, d’exclure ou de redéfinir certaines définitions pour les différentes versions de la DLL. pour une description détaillée de ces macros, consultez [utilisation des en-têtes de Windows](../winprog/using-the-windows-headers.md) .
 
 Par exemple, le nom de macro **\_ Win32 \_ IE** se trouve généralement dans les en-têtes plus anciens. Vous êtes responsable de la définition de la macro sous la forme d’un nombre hexadécimal. Ce numéro de version définit la version cible de l’application qui utilise la DLL. Le tableau suivant répertorie les numéros de version disponibles et l’effet de chacun d’entre eux sur votre application.
 

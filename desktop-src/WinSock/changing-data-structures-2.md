@@ -4,12 +4,12 @@ ms.assetid: 2bf353e2-38d5-462c-9e6c-65886b617215
 title: Modification des structures de données pour IPv6 Winsock appications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2c91e19ed733d111bd4e12d824da6ee1a988e9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2999c0d0c5a335c1367165c227fc1aad805579db5a790a19d316a1624e922947
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741549"
 ---
 # <a name="changing-data-structures-for-ipv6-winsock-appications"></a>Modification des structures de données pour IPv6 Winsock appications
 
@@ -76,7 +76,7 @@ int main(int argc, char **argv)
 
 
 > [!Note]  
-> La structure de [**\_ stockage sockaddr**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)) est une nouveauté pour Windows XP.
+> la structure de [**\_ stockage SOCKADDR**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)) est une nouveauté pour Windows XP.
 
  
 
@@ -88,7 +88,7 @@ Tâche de codage
 
 **Pour modifier votre base de code existante de IPv4 en IPv4 et IPv6-interopérabilité**
 
-1.  Acquérir l’utilitaire Checkv4.exe. L’utilitaire est inclus dans le kit de développement logiciel (SDK) Microsoft Windows, qui est disponible par le biais de votre abonnement MSDN, ou à partir du Web en téléchargement.
+1.  Acquérir l’utilitaire Checkv4.exe. l’utilitaire est inclus dans le kit de développement logiciel (SDK) de Microsoft Windows, qui est disponible par le biais de votre abonnement MSDN, ou à partir du web en téléchargement.
 2.  Exécutez l’utilitaire Checkv4.exe sur votre code. Découvrez comment exécuter l’utilitaire Checkv4.exe sur vos fichiers dans la section relative à l' [utilisation de l’utilitaire Checkv4.exe](using-the-checkv4-exe-utility-2.md).
 3.  L’utilitaire vous avertit de l’utilisation de **sockaddr** ou **sockaddr \_ dans** les structures, et fournit des recommandations sur la façon de remplacer soit par la structure compatible IPv6 [**sockaddr le \_ stockage**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)).
 4.  Remplacez toutes les instances de ce type et le code associé selon le cas, pour utiliser la structure de **\_ stockage sockaddr** .
@@ -104,7 +104,7 @@ Vous pouvez également rechercher dans votre base de code des instances de **soc
 
 <dl> <dt>
 
-[Guide IPv6 pour les applications Windows Sockets](ipv6-guide-for-windows-sockets-applications-2.md)
+[Guide IPv6 pour les Applications Windows sockets](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [Sockets à double pile pour les applications Winsock IPv6](dual-stack-sockets.md)

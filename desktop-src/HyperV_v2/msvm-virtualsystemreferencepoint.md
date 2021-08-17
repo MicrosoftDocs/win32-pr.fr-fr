@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: add160cf44a592462634704ddf783cd8f4084068
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 8d5faa54edc18aa025445a34574aa912a39a1322c91f4d1a7e94c740a493f2b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106522751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963509"
 ---
 # <a name="msvm_virtualsystemreferencepoint-class"></a>MSVM \_ VirtualSystemReferencePoint, classe
 
@@ -212,7 +212,7 @@ Nom du [**\_ ComputerSystem CIM**](cim-computersystem.md) auquel ce point de ré
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                             |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

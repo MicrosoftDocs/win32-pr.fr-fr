@@ -4,12 +4,12 @@ description: Chaînes de format de NDR de l’appel de procédure distante (RPC)
 ms.assetid: 9c83a039-49d3-491d-8110-29d1548730de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf0569a913d6c5a4b19b342cc288d6a8682dfc4a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3d0a481e2c992f3fd4dda2d5552fbbabb7e9b01e6eb639a092e25ba9a26bd59a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926303"
 ---
 # <a name="rpc-ndr-format-strings"></a>Chaînes de format de NDR RPC
 
@@ -45,6 +45,6 @@ Les descripteurs de chaîne de format du moteur de rapport de non-remise RPC son
 -   [Descripteurs de paramètre](parameter-descriptors.md)
 -   [Chaînes de format de type](type-format-strings.md)
 
- 
+ 
 
- 
+ 

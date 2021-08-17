@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: e75ab6b796f23399b453a6c7eebfe0d40e3b7b49
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d245a96181e194479b0c5e115b3b3aea89096da8176713047578a93264e470da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852359"
 ---
 # <a name="d3dx10createasynctextureprocessor-function"></a>D3DX10CreateAsyncTextureProcessor fonction)
 
@@ -56,7 +56,7 @@ Pointeur vers la valeur devive (voir [**interface ID3D10Device**](/windows/deskt
 
 Type : **[ **\_ \_ \_ informations sur le chargement de l’image d3dx10**](d3dx10-image-load-info.md)\***
 
-facultatif. Identifie les caractéristiques d’une texture (voir informations sur le chargement de l' [**\_ image \_ \_ d3dx10**](d3dx10-image-load-info.md)) lorsque le processeur de données est créé ; affectez la valeur **null** pour lire les caractéristiques d’une texture lorsque la texture est chargée.
+Facultatif. Identifie les caractéristiques d’une texture (voir informations sur le chargement de l' [**\_ image \_ \_ d3dx10**](d3dx10-image-load-info.md)) lorsque le processeur de données est créé ; affectez la valeur **null** pour lire les caractéristiques d’une texture lorsque la texture est chargée.
 
 </dd> <dt>
 
@@ -69,13 +69,13 @@ Adresse d’un pointeur vers une mémoire tampon qui contient le processeur de d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette API crée une interface de processeur de données et charge la texture. [**D3DX10CreateAsyncTextureInfoProcessor**](d3dx10createasynctextureinfoprocessor.md) crée l’interface du processeur de données.
 

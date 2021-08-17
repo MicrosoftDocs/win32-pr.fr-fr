@@ -4,12 +4,12 @@ description: Cette section décrit le format du fichier de ressources binaires q
 ms.assetid: a0b17555-f50a-4d58-b2bc-760843dd67eb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b90c789cd1684c1f5ca31af0e2d60a31052ca03f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 16bfc85190993992b7bf87001f3d807b777ed2fe27b4d66cba0b7f7c948d8cfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869790"
 ---
 # <a name="resource-file-formats"></a>Formats de fichiers de ressources
 
@@ -61,6 +61,6 @@ Une *table de messages* est une ressource qui contient le texte mis en forme à 
 
 La structure principale d’une ressource de version est la structure [**vs \_ FIXEDFILEINFO**](/windows/win32/api/verrsrc/ns-verrsrc-vs_fixedfileinfo) . Les structures supplémentaires incluent la structure [**VarFileInfo**](varfileinfo.md) pour stocker les données d’informations de langue et [**StringFileInfo**](stringfileinfo.md) pour les informations de chaîne définies par l’utilisateur. Toutes les chaînes d’une ressource de version sont au format Unicode. Chaque bloc d’informations est aligné sur une limite **DWORD** .
 
- 
+ 
 
- 
+ 

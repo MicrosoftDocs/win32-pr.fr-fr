@@ -1,6 +1,6 @@
 ---
 title: Attribut Print-Language
-description: Le langage de description de page pris en charge (par exemple, PostScript, PCL).
+description: le langage de description de page pris en charge (par exemple, PostScript, PCL).
 ms.assetid: 454f2425-012f-4a2d-b383-7e1e626b0871
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac354fe2053ae82405adf96e2ff709ab891ecd77
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f2db3f709a07ac5ee79e7fc73df95ec3d6381b9e839370fe20fc2d067b4f0193
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119837905"
 ---
 # <a name="print-language-attribute"></a>Attribut Print-Language
 
-Le langage de description de page pris en charge (par exemple, PostScript, PCL).
+le langage de description de page pris en charge (par exemple, PostScript, PCL).
 
 
 
@@ -45,7 +45,7 @@ Le langage de description de page pris en charge (par exemple, PostScript, PCL).
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -1,5 +1,5 @@
 ---
-description: La propriété version de l’objet installer est une propriété en lecture seule qui est la représentation sous forme de chaîne de la version actuelle de Windows Installer. La chaîne est retournée sous la forme suivante.
+description: la propriété Version de l’objet Installer est une propriété en lecture seule qui est la représentation sous forme de chaîne de la Version actuelle de Windows Installer. La chaîne est retournée sous la forme suivante.
 ms.assetid: 9af262f0-b573-471d-aac6-6a72e8cb5314
 title: Installer. version, propriété
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 29af85b8fc1afe468dc87d5516da9a528024c73a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b3d2aeb845647317751eba53caae1609f8d3d66f9f7d373aa7faa24e3b8cdfb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119295545"
 ---
 # <a name="installerversion-property"></a>Installer. version, propriété
 
-La propriété **version** de l’objet [**installer**](installer-object.md) est une propriété en lecture seule qui est la représentation sous forme de chaîne de la version actuelle de Windows Installer. La chaîne est retournée sous la forme suivante.
+la propriété **Version** de l’objet [**Installer**](installer-object.md) est une propriété en lecture seule qui est la représentation sous forme de chaîne de la Version actuelle de Windows Installer. La chaîne est retournée sous la forme suivante.
 
 *majeure*. *mineure*. *générer*. *mettre à jour*
 

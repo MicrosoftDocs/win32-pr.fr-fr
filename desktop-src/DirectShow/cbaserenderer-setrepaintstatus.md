@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 39822b535680a699654e969abc316c10c54ba51b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 748d0091bd3d2eae11773a9f94b62ceeb92b2d3ca64049f1a1981e38bf222e8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016847"
 ---
 # <a name="cbaserenderersetrepaintstatus-method"></a>Méthode CBaseRenderer. SetRepaintStatus
 
@@ -53,7 +53,7 @@ Valeur booléenne indiquant si les événements de redessination sont activés. 
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode garantit que le gestionnaire de graphes de filtre n’est pas submergé d' \_ événements EC REpains redondants. Une fois que le filtre a envoyé un événement de [**\_ redessin ce**](ec-repaint.md) , il appelle cette méthode avec la valeur **true**. Le filtre n’envoie pas d’événements de redessin EC supplémentaires tant qu’il n’a pas \_ reçu plus de données.
 
@@ -63,7 +63,7 @@ Cette méthode garantit que le gestionnaire de graphes de filtre n’est pas sub
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

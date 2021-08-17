@@ -4,12 +4,12 @@ description: Chaque attribut de pointeur (\ Ref \, \ unique \ et \ PTR \) a des 
 ms.assetid: 25a609cd-efe7-4cbb-b80e-b6a3ad8cda38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c7710fb3c39702b2b2fdb789ed1218dc88d44ea
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0bcc6649dc663d7b029a7d7f345719330719d2eb19b6b7a63fa02797c17df16c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927494"
 ---
 # <a name="pointer-attributes-applied-to-the-parameter"></a>Attributs de pointeur appliqués au paramètre
 

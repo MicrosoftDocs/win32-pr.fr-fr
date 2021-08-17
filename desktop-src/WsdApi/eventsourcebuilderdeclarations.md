@@ -4,12 +4,12 @@ ms.assetid: ba303691-d331-4831-8416-47bb9eeb70da
 title: élément eventSourceBuilderDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0baba3dd7013b2e684713e801caa87316266fc2e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 3dc5f553aef289ea37657b3524db91897f3f7910b474859b627fd35af91b3c23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130811"
 ---
 # <a name="eventsourcebuilderdeclarations-element"></a>élément eventSourceBuilderDeclarations
 
@@ -57,7 +57,7 @@ proxyClass
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

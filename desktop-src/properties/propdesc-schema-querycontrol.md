@@ -1,19 +1,19 @@
 ---
-description: Non pris en charge dans Windows 7 et versions ultérieures. Spécifie le contrôle à utiliser dans le générateur de requêtes.
+description: non pris en charge dans Windows 7 et versions ultérieures. Spécifie le contrôle à utiliser dans le générateur de requêtes.
 ms.assetid: 7d79c2fe-c63d-4ac5-8dd6-1a6103e53245
 title: queryControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 448b47038f82afb9f860209bfe89eb9e6eecb890
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34f05800fc026c61a4ea50098fb1d8f4deb98d971c9eecfed478d71bd3c01033
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823559"
 ---
 # <a name="querycontrol"></a>queryControl
 
-Non pris en charge dans Windows 7 et versions ultérieures. Spécifie le contrôle à utiliser dans le générateur de requêtes. Il ne doit y avoir qu’un seul élément [queryControl]() pour chaque élément [displayInfo](./propdesc-schema-displayinfo.md) .
+non pris en charge dans Windows 7 et versions ultérieures. Spécifie le contrôle à utiliser dans le générateur de requêtes. Il ne doit y avoir qu’un seul élément [queryControl]() pour chaque élément [displayInfo](./propdesc-schema-displayinfo.md) .
 
 S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [queryControl]() n’est fourni, les paramètres d’attribut par défaut sont appliqués à la description de la propriété.
 
@@ -75,7 +75,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [qu
 <tbody>
 <tr class="odd">
 <td>contrôle</td>
-<td>Public. Optionnel. La valeur par défaut est &quot; default &quot; . Les valeurs valides sont les suivantes. 
+<td>Public. Facultatif. La valeur par défaut est &quot; default &quot; . Les valeurs valides sont les suivantes. 
 <table>
 <colgroup>
 <col style="width: 50%" />

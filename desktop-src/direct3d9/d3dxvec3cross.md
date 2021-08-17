@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ba0d8a80690f43d5f8e9f6df55aa3b2e0db23dc2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3fdf2a5d3c3771056f169900df519d90a183798d6f5c60df0904444dbce5fd9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122573"
 ---
 # <a name="d3dxvec3cross-function"></a>D3DXVec3Cross fonction)
 
@@ -75,7 +75,7 @@ Type : **[ **D3DXVECTOR3**](d3dxvector3.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) qui est le produit croisé de deux vecteurs 3D.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction détermine le produit croisé avec le code suivant.
 

@@ -4,17 +4,17 @@ description: Cette rubrique montre comment utiliser un objet clip rectangle pour
 ms.assetid: 377EF49A-F9F2-4A72-9D22-DEC33803AD0D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d26019f37949b0111ee9b5958fa3fba2c9507cb
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 10386f3e99dead7fff04a57463c2ee753bd1d712e9a59e6b928136c32f25ae75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104032070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119096"
 ---
 # <a name="how-to-clip-with-a-rectangle-clip-object"></a>Comment découper un objet Rectangle
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Cette rubrique montre comment utiliser un objet clip rectangle pour découper un élément visuel ou une arborescence d’éléments visuels.
 
@@ -22,7 +22,7 @@ L’exemple de cette rubrique définit un clip rectangulaire centré à l’empl
 
 ![résultat de l’application d’un objet Rectangle à un élément visuel](images/clipwithrectangleclipobject.png)
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
@@ -147,9 +147,9 @@ Veillez à libérer l’objet de clip rectangle lorsque vous n’en avez plus be
 
 <dl> <dt>
 
-[Portion](clipping.md)
+[Découpage](clipping.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

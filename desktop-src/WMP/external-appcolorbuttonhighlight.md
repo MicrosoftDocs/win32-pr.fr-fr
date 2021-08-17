@@ -3,7 +3,7 @@ title: External. appColorButtonHighlight
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. appColorButtonHighlight
 ms.assetid: 448480bf-e5e1-4f7a-ab50-a0395af6007f
 keywords:
-- External. appColorButtonHighlight Windows Media Player
+- External. appColorButtonHighlight Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67efc01db88cb13c85eebaedd2cdca0ec40d2a18
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0dea96976a167bf8dccbbe097ec0aaabc6c020fc09bde67d4ede98744875dbdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649985"
 ---
 # <a name="externalappcolorbuttonhighlight"></a>External. appColorButtonHighlight
 
@@ -28,7 +28,7 @@ ms.locfileid: "106537553"
 
  
 
-La propriété **appColorButtonHighlight** récupère la couleur de surbrillance du bouton en cours pour l’interface utilisateur du lecteur Windows Media.
+la propriété **appColorButtonHighlight** récupère la couleur de surbrillance du bouton en cours pour l’interface utilisateur Lecteur Windows Media.
 
 ``` syntax
 window.external.appColorButtonHighlight
@@ -39,9 +39,9 @@ window.external.appColorButtonHighlight
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les utilisateurs peuvent modifier la couleur de l’interface utilisateur du lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
+les utilisateurs peuvent modifier la couleur de l’interface utilisateur Lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
 
 ## <a name="requirements"></a>Configuration requise
 

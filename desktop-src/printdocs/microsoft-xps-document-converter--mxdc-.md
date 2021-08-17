@@ -1,19 +1,19 @@
 ---
-description: Cette section décrit comment les applications Windows interagissent avec Microsoft XPS Document Converter (MXDC), qui est un composant qui permet aux applications d’utiliser l’API d’impression GDI avec les imprimantes qui ont un pilote d’impression XPSDrv.
+description: cette section décrit comment Windows applications interagissent avec Microsoft XPS Document Converter (MXDC), qui est un composant qui permet aux applications d’utiliser l’API d’impression GDI avec les imprimantes qui ont un pilote d’impression XPSDrv.
 ms.assetid: e947e4c4-eda1-407c-9ba8-048beef1974b
 title: Microsoft XPS Document Converter (MXDC)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a66a19d251c47736f43f3e2080150e9ef7d95580
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8fb076aecb367bd0e12856b0c313aa0dc96b94743ab98919a38e1d5d8fef706
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971228"
 ---
 # <a name="microsoft-xps-document-converter-mxdc"></a>Microsoft XPS Document Converter (MXDC)
 
-Cette section décrit comment les applications Windows interagissent avec Microsoft XPS Document Converter (MXDC), qui est un composant qui permet aux applications d’utiliser l’API d’impression GDI avec les imprimantes qui ont un pilote d’impression XPSDrv.
+cette section décrit comment Windows applications interagissent avec Microsoft XPS Document Converter (MXDC), qui est un composant qui permet aux applications d’utiliser l’API d’impression GDI avec les imprimantes qui ont un pilote d’impression XPSDrv.
 
 Cette section fournit des informations sur les rubriques suivantes.
 

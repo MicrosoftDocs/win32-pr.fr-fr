@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c9ba2c13053a8c550128f5d66623b5eed3a9dec
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 0da33bf63d999ddad42f58dfa15a1c36571a664855ac20e48ef43bfd7aecd55b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139382"
 ---
 # <a name="schtasksexe"></a>Schtasks.exe
 
@@ -134,7 +134,7 @@ Valeur qui spécifie un nom qui identifie de façon unique la tâche planifiée.
 <span id="_TR_taskrun"></span><span id="_tr_taskrun"></span><span id="_TR_TASKRUN"></span>**/TR** **exécution_tâche**
 </dt> <dd>
 
-Valeur qui spécifie le chemin d’accès et le nom de fichier de la tâche à exécuter à l’heure planifiée. Par exemple : C : \\ Windows \\ system32 \\calc.exe.
+Valeur qui spécifie le chemin d’accès et le nom de fichier de la tâche à exécuter à l’heure planifiée. par exemple : C : \\ Windows \\ System32 \\calc.exe.
 
 </dd> <dt>
 
@@ -243,7 +243,7 @@ Valeur qui crée une tâche à partir d’un fichier XML. Ce paramètre peut êt
 <span id="_V1_"></span><span id="_v1_"></span>**/V1** 
 </dt> <dd>
 
-Valeur qui crée une tâche visible pour les plateformes Windows 2000, Windows Server 2003 et Windows XP.
+valeur qui crée une tâche visible pour les plateformes Windows 2000, Windows Server 2003 et Windows XP.
 
 **Windows XP et Windows Server 2003 :** Cette option n’est pas disponible.
 
@@ -283,9 +283,9 @@ Valeur qui affiche le message d’aide pour Schtasks.exe.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Lorsque vous créez une tâche sur un ordinateur distant qui exécute le système d’exploitation Windows XP, Windows Server 2003 ou Windows 2000, utilisez le commutateur/v1
+lorsque vous créez une tâche sur un ordinateur distant qui exécute le système d’exploitation Windows XP, Windows Server 2003 ou Windows 2000, utilisez le commutateur/V1
 
 Vous ne pouvez pas créer une tâche de Planificateur de tâches à distance non interactive 1,0 (créez une tâche en n’utilisant pas le commutateur/IT et en utilisant le commutateur/v1) si l’exception de pare-feu de partage de fichiers et d’imprimantes est activée sur l’ordinateur distant et que l’exception de pare-feu de gestion des tâches planifiées distantes est désactivée.
 
@@ -728,14 +728,14 @@ Valeur qui affiche le message d’aide pour Schtasks.exe.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 

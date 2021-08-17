@@ -1,21 +1,21 @@
 ---
-title: Considérations sur la sécurité contrôles Microsoft Windows
-description: Cette rubrique fournit des informations sur les considérations relatives à la sécurité pour les contrôles Windows.
+title: considérations sur la sécurité contrôles Microsoft Windows
+description: cette rubrique fournit des informations sur les considérations relatives à la sécurité pour les contrôles Windows.
 ms.assetid: d5396fa1-452e-40e1-beaf-ae04690048f1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e29ba986ddd1db980134f428c8abf152321617ef
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 45faa0f3d2f521038c056055329d70541625bac88c16e62c1581b55ae2a6c5bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104102500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696509"
 ---
-# <a name="security-considerations-microsoft-windows-controls"></a>Considérations relatives à la sécurité : contrôles Microsoft Windows
+# <a name="security-considerations-microsoft-windows-controls"></a>considérations relatives à la sécurité : contrôles Microsoft Windows
 
-Cette rubrique fournit des informations sur les considérations relatives à la sécurité pour les contrôles Windows. Les informations contenues dans cette rubrique ne fournissent pas tout ce que vous devez savoir sur les problèmes de sécurité. Utilisez-la comme point de départ et référence pour ce domaine technologique.
+cette rubrique fournit des informations sur les considérations relatives à la sécurité pour les contrôles Windows. Les informations contenues dans cette rubrique ne fournissent pas tout ce que vous devez savoir sur les problèmes de sécurité. Utilisez-la comme point de départ et référence pour ce domaine technologique.
 
-L’interconnexion entre les ordinateurs est courante. la principale préoccupation d’un développeur doit être la sécurité des applications. Les sections suivantes présentent certains problèmes de sécurité potentiels à prendre en compte lors de la programmation de contrôles Windows.
+L’interconnexion entre les ordinateurs est courante. la principale préoccupation d’un développeur doit être la sécurité des applications. les sections suivantes présentent certains problèmes de sécurité potentiels à prendre en compte lors de la programmation de contrôles Windows.
 
 -   [Messages de contrôle se terminant par null](#null-terminated-control-messages)
 -   [Utilisation de chaîne](#string-use)
@@ -30,7 +30,7 @@ La plupart des messages de contrôle et des macros ont des paramètres de chaîn
 
 ## <a name="string-use"></a>Utilisation de chaîne
 
-Quand vous programmez des contrôles Windows, il est nécessaire de manipuler des chaînes. Presque tous les contrôles requièrent l’insertion de texte. Par exemple, pour remplir une zone de liste, vous devez charger des chaînes dans le contrôle. Étant donné que l’utilisation de chaînes de manière incorrecte provoque souvent des dépassements de mémoire tampon, prenez des précautions pour éviter ce risque de sécurité.
+quand vous programmez des contrôles Windows, il est nécessaire de manipuler des chaînes. Presque tous les contrôles requièrent l’insertion de texte. Par exemple, pour remplir une zone de liste, vous devez charger des chaînes dans le contrôle. Étant donné que l’utilisation de chaînes de manière incorrecte provoque souvent des dépassements de mémoire tampon, prenez des précautions pour éviter ce risque de sécurité.
 
 Pour plus d’informations sur les dépassements de mémoire tampon, consultez *écriture de code sécurisé* par Michael Howard et David LeBlanc, Microsoft Press, 2002 et [meilleures pratiques pour les API de sécurité](/windows/desktop/SecBP/best-practices-for-the-security-apis).
 
@@ -74,7 +74,7 @@ Le tableau suivant répertorie les fonctionnalités qui, si elles sont utilisée
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -95,6 +95,6 @@ Le tableau suivant répertorie les fonctionnalités qui, si elles sont utilisée
 [Meilleures pratiques pour les API de sécurité](/windows/desktop/SecBP/best-practices-for-the-security-apis)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

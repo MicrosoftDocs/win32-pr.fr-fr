@@ -4,16 +4,16 @@ ms.assetid: 26e51c0d-c1cb-410f-ab19-eb884afa8431
 title: 'ITFormatControl :: GetNumberOfCapabilities, méthode (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e29153f5ee9ce8c5e12b93a1d219905c40f80418
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 57bd79b61f8c41893ec8d99ffc9bfadcc3887631c885d5caa430a6fb723396a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117945274"
 ---
 # <a name="itformatcontrolgetnumberofcapabilities-method"></a>ITFormatControl :: GetNumberOfCapabilities, méthode
 
-\[ Cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **GetNumberOfCapabilities** récupère le nombre de fonctionnalités associées au format actuel.
 

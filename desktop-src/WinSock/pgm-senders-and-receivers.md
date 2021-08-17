@@ -4,12 +4,12 @@ ms.assetid: 777e0106-0314-4ec8-b064-88ceb694614b
 title: Expéditeurs et destinataires PGM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e300a0c9de199e1f836e71407caf6487812cf7b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 559ac30ace4374b48c86efeb579e1426cc455b00adb803e97244a37d8df7fda5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741066"
 ---
 # <a name="pgm-senders-and-receivers"></a>Expéditeurs et destinataires PGM
 
@@ -144,7 +144,7 @@ Les sessions PGM ont deux options pour les modes de données : le mode de messa
 
 Le mode message est approprié pour les applications qui doivent envoyer des messages discrets, et est spécifié par un type de socket \_ RDM. Le mode de flux est approprié pour les applications qui doivent envoyer des données de diffusion en continu à des destinataires, tels que des applications vidéo ou vocales, et est spécifié par un type de socket de flux de chaussette \_ . Choix des effets du mode de traitement des données par Winsock.
 
-Prenons l’exemple suivant : un expéditeur PGM en mode message effectue trois appels à la fonction [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend) , chacun avec une mémoire tampon de 100 octets. Cette opération apparaît sur le câble sous forme de trois paquets PGM discrets. Du côté du récepteur, chaque appel à la fonction [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv) retourne uniquement 100 octets, même si un tampon de réception plus grand est fourni. En revanche, avec un expéditeur PGM en mode flux, ces transmissions de 3 100 octets peuvent être fusionnées en moins de trois paquets physiques sur le réseau (ou fusionnés en un seul objet blob de données côté récepteur). Ainsi, lorsque le récepteur appelle l’une des fonctions de réception de Windows Sockets, toute quantité de données reçues par le transport PGM peut être retournée à l’application sans tenir compte de la façon dont les données ont été physiquement transmises ou reçues.
+Prenons l’exemple suivant : un expéditeur PGM en mode message effectue trois appels à la fonction [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend) , chacun avec une mémoire tampon de 100 octets. Cette opération apparaît sur le câble sous forme de trois paquets PGM discrets. Du côté du récepteur, chaque appel à la fonction [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv) retourne uniquement 100 octets, même si un tampon de réception plus grand est fourni. En revanche, avec un expéditeur PGM en mode flux, ces transmissions de 3 100 octets peuvent être fusionnées en moins de trois paquets physiques sur le réseau (ou fusionnés en un seul objet blob de données côté récepteur). ainsi, lorsque le récepteur appelle l’une des fonctions de réception Windows sockets, toute quantité de données reçues par le transport PGM peut être renvoyée à l’application sans tenir compte de la façon dont les données ont été physiquement transmises ou reçues.
 
  
 
