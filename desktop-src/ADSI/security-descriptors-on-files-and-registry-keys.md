@@ -7,18 +7,18 @@ keywords:
 - Descripteurs de sécurité sur les fichiers et les clés de Registre ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11600a495b9a70513b9bd401777e9cdd61449ede
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: ae567e9550989153f0b85207be49a729bc0499c320f410c92fc993269d997da7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119333219"
 ---
 # <a name="security-descriptors-on-files-and-registry-keys"></a>Descripteurs de sécurité sur les fichiers et les clés de Registre
 
-Les interfaces ADSI (Active Directory Service Interfaces) peuvent être utilisées pour gérer et sécuriser les systèmes de fichiers au sein d’une organisation, y compris la possibilité de définir ou de modifier des ACL sur des fichiers ou des partages de fichiers créés par des utilisateurs. Les interfaces de sécurité, telles que [**IADsSecurityDescriptor**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor), [**IADsAccessControlList**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrollist)et [**IADsAccessControlEntry**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry) , définissent des ACL sur Active Directory, Exchange, un fichier, un partage de fichiers ou des objets de clé de registre. Avant d’utiliser ces interfaces, vous devrez peut-être modifier le descripteur de sécurité s’il utilise un format différent de celui de l’interface ou si vous n’avez pas de droits d’accès à la liste SACL du descripteur de sécurité, car vous n’êtes pas membre du groupe administrateurs de sécurité.
+Les interfaces ADSI (Active Directory Service Interfaces) peuvent être utilisées pour gérer et sécuriser les systèmes de fichiers au sein d’une organisation, y compris la possibilité de définir ou de modifier des ACL sur des fichiers ou des partages de fichiers créés par des utilisateurs. les interfaces de sécurité, telles que [**IADsSecurityDescriptor**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor), [**IADsAccessControlList**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrollist)et [**IADsAccessControlEntry**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry) , définissent des acl sur Active Directory, Exchange, un fichier, un partage de fichiers ou des objets de clé de registre. Avant d’utiliser ces interfaces, vous devrez peut-être modifier le descripteur de sécurité s’il utilise un format différent de celui de l’interface ou si vous n’avez pas de droits d’accès à la liste SACL du descripteur de sécurité, car vous n’êtes pas membre du groupe administrateurs de sécurité.
 
-Pour récupérer, définir ou modifier le descripteur de sécurité, utilisez l’interface [**IADsSecurityUtility**](/windows/desktop/api/Iads/nn-iads-iadssecurityutility) . Cette interface vous permet de récupérer un descripteur de sécurité à partir de différentes ressources dans son format d’origine (par exemple, le format ADSI [**IADsSecurityDescriptor**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor), un descripteur de sécurité brut ou une chaîne hexadécimale utilisée dans Exchange 5,5). Une fois récupéré, vous pouvez le convertir dans un autre format, par exemple à partir d’un descripteur de sécurité brut vers **IADsSecurityDescriptor**. Vous pouvez ensuite réécrire le nouveau format dans la ressource.
+Pour récupérer, définir ou modifier le descripteur de sécurité, utilisez l’interface [**IADsSecurityUtility**](/windows/desktop/api/Iads/nn-iads-iadssecurityutility) . cette interface vous permet de récupérer un descripteur de sécurité à partir de différentes ressources dans son format d’origine (par exemple, le format ADSI [**IADsSecurityDescriptor**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor), un descripteur de sécurité brut ou une chaîne hexadécimale utilisée dans Exchange 5,5). Une fois récupéré, vous pouvez le convertir dans un autre format, par exemple à partir d’un descripteur de sécurité brut vers **IADsSecurityDescriptor**. Vous pouvez ensuite réécrire le nouveau format dans la ressource.
 
 Certaines des valeurs de propriété [**IADsAccessControlEntry**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry) , telles que [**AccessMask**](iadsaccesscontrolentry-property-methods.md) et **AceFlags**, sont différentes pour différents types d’objets. Par exemple, un objet Active Directory utilise le membre **de \_ \_ \_ lecture générique droit ADS** de l’énumération d’énumération des [**\_ droits \_ ADS**](/windows/win32/api/iads/ne-iads-ads_rights_enum) pour la propriété **IADsAccessControlEntry. AccessMask** , mais le droit d’accès équivalent pour un objet fichier est **\_ \_ lecture générique de fichier**. Il n’est pas possible de supposer que toutes les valeurs de propriété seront les mêmes pour les objets Active Directory et les objets non Active Directory. La liste suivante répertorie les propriétés **IADsAccessControlEntry** qui diffèrent pour les objets non-Active Directory et où les valeurs appropriées peuvent être obtenues.
 
@@ -86,7 +86,7 @@ Normalement, [**IADsSecurityUtility. GetSecurityDescriptor**](/windows/desktop/a
 
 Pour plus d’informations et pour obtenir un exemple de code qui utilise l’interface [**IADsSecurityUtility**](/windows/desktop/api/Iads/nn-iads-iadssecurityutility) pour ajouter une entrée du contrôle d’accès à un fichier, consultez l' [exemple de code pour l’ajout](example-code-for-adding-an-ace-to-a-file.md)d’une entrée du contrôle d’accès à un fichier.
 
-L’exemple de code suivant fournit les identificateurs constants pour les propriétés de fichier, de partage de fichiers et de Registre pour les propriétés [**AccessMask**](iadsaccesscontrolentry-property-methods.md), **AceType**, **AceFlags** et **Flags** à utiliser avec Visual Basic et Microsoft Visual Basic Scripting Edition.
+l’exemple de code suivant fournit les identificateurs constants pour les propriétés de fichier, de partage de fichiers et de registre pour les propriétés [**AccessMask**](iadsaccesscontrolentry-property-methods.md), **AceType**, **AceFlags** et **flags** à utiliser avec Visual Basic et Microsoft Visual Basic scripting Edition.
 
 
 ```VB
@@ -183,6 +183,6 @@ Const ACE_INHERITED_OBJECT_TYPE_PRESENT = 2
 
 
 
- 
+ 
 
- 
+ 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 58ad88c9f975455bdd2d77a0ef8ee028d9027d9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6adaa0f4884ad275137a6c949dbc466416006f33bb6603dc61e87153d9b23361
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065099"
 ---
 # <a name="lanprofile-element"></a>Élément LANProfile
 
@@ -83,7 +83,7 @@ L’espace de noms cible de l’élément LANProfile est `https://www.microsoft.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour afficher la liste des éléments enfants dans une structure de type arborescence, consultez [ \_ éléments de schéma de profil de réseau local](lan-profileschema-elements.md).
 
@@ -93,8 +93,8 @@ Pour afficher la liste des éléments enfants dans une structure de type arbores
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

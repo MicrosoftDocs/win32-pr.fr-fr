@@ -3,7 +3,7 @@ title: LISTBOX. MultiSelect
 description: L’attribut MultiSelect spécifie ou récupère une valeur indiquant si l’utilisateur peut sélectionner plusieurs lignes. Ne peut être défini qu’au moment de la conception.
 ms.assetid: ccbf47c7-8351-4b8c-8d9d-00dc811d4ae0
 keywords:
-- LISTBOX. multisélection du lecteur Windows Media
+- LISTBOX. multiselect Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45f46c71258046ebb6b1fd32e73e4a5b281cb87b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1352ae54728a82fa0ba8c7eb6d28ed05c981dd9ff1d0b35521033e79a6dd1df3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135272"
 ---
 # <a name="listboxmultiselect"></a>LISTBOX. MultiSelect
 

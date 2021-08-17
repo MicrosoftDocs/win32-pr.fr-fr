@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e5abaa11373086fe7f1237e10daf3e0a3df1cdb4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b18fa8a7591a54877251e10448842c3cd9d2394099028bf3a2cb680aee979bbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136212"
 ---
 # <a name="opcodetype-complex-type"></a>Type complexe OpcodeType
 
@@ -71,13 +71,13 @@ Définit une opération dans un composant de l’application. Utilisé conjointe
 | mofValue | [**UInt8Type**](eventmanifestschema-hexint8type-simpletype.md)   | Réservé à un usage interne uniquement.<br/>                                                                                                                                                                                                                                                                           |
 | name     | **QName**                                                         | Nom de l’opcode. Ce nom doit être unique dans l’étendue de ce fournisseur. <br/>                                                                                                                                                                                                                      |
 | symbole   | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | Symbole à utiliser pour référencer l’opcode dans votre application. Le [**compilateur de message (MC.exe)**](message-compiler--mc-exe-.md) utilise le symbole pour créer une constante pour l’opcode dans le fichier d’en-tête généré par le compilateur. Si vous ne spécifiez pas de symbole, le compilateur en génère un pour vous.<br/> |
-| value    | [**UInt8Type**](eventmanifestschema-hexint8type-simpletype.md)   | Valeur de l’opcode. Vous pouvez spécifier des valeurs dans la plage 10 et 239. Pour obtenir la liste des valeurs opcode prédéfinies, consultez la section Notes.<br/>                                                                                                                                                                                    |
+| valeur    | [**UInt8Type**](eventmanifestschema-hexint8type-simpletype.md)   | Valeur de l’opcode. Vous pouvez spécifier des valeurs dans la plage 10 et 239. Pour obtenir la liste des valeurs opcode prédéfinies, consultez la section Notes.<br/>                                                                                                                                                                                    |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Voici les valeurs opcode prédéfinies que vous pouvez utiliser. Ces valeurs sont définies dans le fichier Winmeta.xml inclus dans le SDK Windows.
+Voici les valeurs opcode prédéfinies que vous pouvez utiliser. ces valeurs sont définies dans le fichier Winmeta.xml inclus dans le SDK Windows.
 
 
 
@@ -105,8 +105,8 @@ Voici les valeurs opcode prédéfinies que vous pouvez utiliser. Ces valeurs son
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

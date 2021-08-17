@@ -3,11 +3,11 @@ title: Ordre de priorité
 description: Ordre de priorité
 ms.assetid: 3865ea8a-2489-4714-9a05-d1082589841f
 keywords:
-- Sous-fichiers Windows Media, ordre de priorité
-- Fichiers Windows Media, priorité
+- Windows Fichiers multimédias, ordre de priorité
+- Windows Fichiers multimédias, priorité
 - sous-fichiers, ordre de priorité
 - fichiers de préversion, précédence
-- Windows Media, sous-fichiers
+- Windows Médias, sous-fichiers
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -15,16 +15,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9161d1e43f61ae1b1a7231c640e33c4c6ec6527f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 12b55f34dd18fa6122d3f1588111aaffe374f2d87c06ef9100cbac057efd4bd3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467990"
 ---
 # <a name="order-of-precedence"></a>Ordre de priorité
 
-Tous les attributs d’élément de métafichier ne sont pas égaux. Certains attributs d’éléments de métafichier remplacent d’autres attributs d’élément. Les attributs d’élément peuvent être remplacés par des attributs d’élément similaires en fonction de la position et de l’ordre. Tous les attributs d’une sélection de métafichier remplacent ceux contenus dans un fichier Windows Media référencé. Un attribut qui remplace un autre a une priorité plus élevée.
+Tous les attributs d’élément de métafichier ne sont pas égaux. Certains attributs d’éléments de métafichier remplacent d’autres attributs d’élément. Les attributs d’élément peuvent être remplacés par des attributs d’élément similaires en fonction de la position et de l’ordre. tous les attributs d’une sélection de métafichier remplacent ceux contenus dans un fichier multimédia Windows référencé. Un attribut qui remplace un autre a une priorité plus élevée.
 
 La hiérarchie, prioritaire vers la plus faible, est indiquée dans le tableau suivant. L’élément de priorité la plus élevée n’est jamais remplacé.
 
@@ -36,11 +36,11 @@ La hiérarchie, prioritaire vers la plus faible, est indiquée dans le tableau s
 | Portée de l’élément de **référence**    | Substitué uniquement par du contenu DRM signé.      |
 | Portée de l’élément d' **entrée**  | Remplace les éléments des catégories ci-dessous. |
 | Étendue **ASX**            | Remplace les éléments du fichier multimédia.              |
-| Étendue du fichier Windows Media | Remplacé par tous les éléments ci-dessus.             |
+| Windows Étendue du fichier multimédia | Remplacé par tous les éléments ci-dessus.             |
 
 
 
- 
+ 
 
 -   « Contenu DRM signé »-objet de signature numérique.
 
@@ -56,11 +56,11 @@ La hiérarchie, prioritaire vers la plus faible, est indiquée dans le tableau s
 
 -   Étendue **ASX**
 
-    Toutes les propriétés entrées dans le métafichier remplacent celles contenues dans le fichier Windows Media. Les attributs de l’élément **entry** remplacent les attributs de l’élément **ASX** . Pendant la diffusion du clip multimédia référencé de l’élément d' **entrée** , les métadonnées de **titre** de l’élément d' **entrée** sont affichées à la place des informations de titre de l’élément **ASX** .
+    toutes les propriétés entrées dans le métafichier remplacent celles contenues dans le fichier multimédia Windows. Les attributs de l’élément **entry** remplacent les attributs de l’élément **ASX** . Pendant la diffusion du clip multimédia référencé de l’élément d' **entrée** , les métadonnées de **titre** de l’élément d' **entrée** sont affichées à la place des informations de titre de l’élément **ASX** .
 
--   Étendue du fichier Windows Media
+-   Windows Étendue du fichier multimédia
 
-    Les attributs du fichier Windows Media sont remplacés par n’importe quel attribut de métafichier. Les métadonnées de fichier multimédia s’affichent uniquement si aucune métadonnée n’est définie pour cet élément dans le métafichier.
+    les attributs du fichier multimédia Windows sont remplacés par tous les attributs de métafichier. Les métadonnées de fichier multimédia s’affichent uniquement si aucune métadonnée n’est définie pour cet élément dans le métafichier.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -72,15 +72,15 @@ La hiérarchie, prioritaire vers la plus faible, est indiquée dans le tableau s
 [**Sélections de métafichiers**](metafile-playlists.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Guide des métafichiers Windows Media**](windows-media-metafile-guide.md)
+[**Windows Guide du métafichier multimédia**](windows-media-metafile-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

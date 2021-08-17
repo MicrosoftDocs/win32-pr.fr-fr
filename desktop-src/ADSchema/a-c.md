@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 472bee17e6fa82d537ca1476a57b939231613ef0
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 066e488642622427348b02f68ecf8706cccdb74210ab641033f0374db253895c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119307209"
 ---
 # <a name="country-name-attribute"></a>Attribut Country-Name
 
@@ -46,7 +46,7 @@ Pays/région de l’adresse de l’utilisateur. Le pays ou la région est repré
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -67,7 +67,7 @@ Pays/région de l’adresse de l’utilisateur. Le pays ou la région est repré
 | Range-Upper            | 3                                                                                                                                                                         |
 | Search-Flags           | 0x00000010                                                                                                                                                                |
 | System-Flags           | 0x00000012                                                                                                                                                                |
-| Classes utilisées dans        | [**Country**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+| Classes utilisées dans        | [**Pays ou région**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ Pays/région de l’adresse de l’utilisateur. Le pays ou la région est repré
 | Range-Upper            | 3                                                                                                                                                                         |
 | Search-Flags           | 0x00000010                                                                                                                                                                |
 | System-Flags           | 0x00000012                                                                                                                                                                |
-| Classes utilisées dans        | [**Country**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+| Classes utilisées dans        | [**Pays ou région**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
 
 
 
@@ -109,7 +109,7 @@ Pays/région de l’adresse de l’utilisateur. Le pays ou la région est repré
 | Range-Upper            | 3                                                                                                      |
 | Search-Flags           | 0x00000010                                                                                             |
 | System-Flags           | 0x00000012                                                                                             |
-| Classes utilisées dans        | [**Country**](c-country.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+| Classes utilisées dans        | [**Pays ou région**](c-country.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ Pays/région de l’adresse de l’utilisateur. Le pays ou la région est repré
 | Range-Upper            | 3                                                                                                                                                                         |
 | Search-Flags           | 0x00000010                                                                                                                                                                |
 | System-Flags           | 0x00000012                                                                                                                                                                |
-| Classes utilisées dans        | [**Country**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+| Classes utilisées dans        | [**Pays ou région**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ Pays/région de l’adresse de l’utilisateur. Le pays ou la région est repré
 | Range-Upper            | 3                                                                                                                                                                         |
 | Search-Flags           | 0x00000010                                                                                                                                                                |
 | System-Flags           | 0x00000012                                                                                                                                                                |
-| Classes utilisées dans        | [**Country**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+| Classes utilisées dans        | [**Pays ou région**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ Pays/région de l’adresse de l’utilisateur. Le pays ou la région est repré
 | Range-Upper            | 3                                                                                                                                                                         |
 | Search-Flags           | 0x00000010                                                                                                                                                                |
 | System-Flags           | 0x00000012                                                                                                                                                                |
-| Classes utilisées dans        | [**Country**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+| Classes utilisées dans        | [**Pays ou région**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
 
 
 
@@ -193,7 +193,7 @@ Pays/région de l’adresse de l’utilisateur. Le pays ou la région est repré
 | Range-Upper            | 3                                                                                                                                                                         |
 | Search-Flags           | 0x00000010                                                                                                                                                                |
 | System-Flags           | 0x00000012                                                                                                                                                                |
-| Classes utilisées dans        | [**Country**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+| Classes utilisées dans        | [**Pays ou région**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
 
 
 

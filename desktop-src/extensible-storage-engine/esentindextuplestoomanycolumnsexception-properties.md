@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101808
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 84d217fca499a4c9593762f3f6ef6368e9cdbdf7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb07e4c819b969e772264bd944a1b19d82f0dcab981b4fe7a5a03472157f9fdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973132"
 ---
 # <a name="esentindextuplestoomanycolumnsexception-properties"></a>Propriétés EsentIndexTuplesTooManyColumnsException
 
@@ -49,7 +49,7 @@ Le type [EsentIndexTuplesTooManyColumnsException](./esentindextuplestoomanycolum
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

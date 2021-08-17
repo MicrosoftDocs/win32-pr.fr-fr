@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae6fce7fcfdf235ba8a83f262161c2e0f2afc71c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9501184f3316e464aa26f42d51e0b4c27eccaeb72d447faa91edaa33b0b4774c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060027"
 ---
 # <a name="principaluserid-property"></a>Propriété principal. UserId
 
@@ -40,7 +40,7 @@ Principal.UserId As String
 
 Identificateur d’utilisateur requis pour exécuter la tâche.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ne définissez pas cette propriété si un identificateur de groupe est spécifié dans la propriété [**GroupID**](principal-groupid.md) .
 
@@ -52,8 +52,8 @@ Lors de la lecture ou de l’écriture de données XML pour une tâche, l’iden
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -66,7 +66,7 @@ Lors de la lecture ou de l’écriture de données XML pour une tâche, l’iden
 [Planificateur de tâches](task-scheduler-start-page.md)
 </dt> <dt>
 
-[**Directeur**](principal.md)
+[**Principal**](principal.md)
 </dt> <dt>
 
 [**Principal. GroupId**](principal-groupid.md)

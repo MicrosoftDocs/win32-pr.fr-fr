@@ -4,12 +4,12 @@ ms.assetid: ad2303a0-f3f3-43a0-83eb-023640da2ece
 title: Exemple de code OPM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9883643829815d27725c392e2c4f13f34e816988
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e075b3fc8b88d87b80126c8dea307cf151e5f9fc817fa61b9ed8be37ef12c5e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102119"
 ---
 # <a name="opm-example-code"></a>Exemple de code OPM
 

@@ -4,12 +4,12 @@ description: La présentation est la dernière étape du processus UPnP.
 ms.assetid: e8d20ae6-2dd8-4de2-b07b-6cf4e725735e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 195399316882de71c148f2369dd2978c4cfbd728
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c92f8457a881dc0414713e996d230261330c10911f2aea285a2e365ad0d59320
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137192"
 ---
 # <a name="presentation"></a>Présentation
 
@@ -32,7 +32,7 @@ Si l’URL de présentation dans le modèle de description de périphérique ét
 
 
 
- 
+ 
 
 Un script côté client peut avoir besoin d’extraire l’URL de description de l’appareil à partir de l’URL de présentation pour charger l’objet [**IUPnPDescriptionDocument**](/windows/desktop/api/Upnp/nn-upnp-iupnpdescriptiondocument) . Pour ce faire, prenez la chaîne de requête et terminez-la au signe plus (« + »).
 
@@ -69,9 +69,9 @@ set Item = EmbeddedDevices.Item(DeviceUdnString)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

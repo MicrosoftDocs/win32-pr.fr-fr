@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 500a346080d7bf0c44d392a63a71310db74225a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bdb6a3bb8ae5b768c42609817c76934c203989ba6dea665fc6cc0a6896659de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143332"
 ---
 # <a name="processor_power_information-structure"></a>\_Structure des informations d’alimentation du processeur \_
 
@@ -85,7 +85,7 @@ Limite de fréquence d’horloge du processeur, en mégahertz. Ce nombre corresp
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Notez que cette définition de structure a été omise par erreur dans Winnt. h. Cette erreur sera corrigée à l’avenir. En attendant, pour compiler votre application, incluez la définition de structure contenue dans cette rubrique dans votre code source.
 
@@ -95,8 +95,8 @@ Notez que cette définition de structure a été omise par erreur dans Winnt. h.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 

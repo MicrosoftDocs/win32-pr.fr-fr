@@ -3,7 +3,7 @@ title: Implémentation de CEchoPropPage Apply
 description: Implémentation de CEchoPropPage Apply
 ms.assetid: e887b851-e623-4ec4-8d8b-165e4b21e116
 keywords:
-- Plug-ins du lecteur Windows Media, pages de propriétés de l’exemple Echo
+- plug-ins Lecteur Windows Media, pages de propriétés de l’exemple Echo
 - plug-ins, pages de propriétés d’exemple Echo
 - plug-ins de traitement de signal numérique, pages de propriétés d’exemple Echo
 - Plug-ins DSP, pages de propriétés d’exemple Echo
@@ -11,16 +11,16 @@ keywords:
 - Echo DSP, exemple de plug-in, méthode Apply CEchoPropPage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bdca8a771d3e3e26923567f25bf7d19e968595e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4a53d05bee90908f766034c300c99bcfa8d529b06e6713c803bd99bcf042b579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135622"
 ---
 # <a name="implementing-cechoproppageapply"></a>Implémentation de CEchoPropPage :: apply
 
-La méthode CEchoPropPage :: apply est implémentée dans EchoPropPage. cpp. Elle s’exécute lorsque l’utilisateur clique sur **appliquer** dans la boîte de dialogue page de propriétés du lecteur Windows Media. L’exemple de code de l’Assistant de plug-in fournit une implémentation pour gérer une seule propriété. Vous pouvez modifier ce code pour l’un des exemples de propriétés Echo, puis ajouter du code pour stocker l’autre valeur de propriété.
+La méthode CEchoPropPage :: apply est implémentée dans EchoPropPage. cpp. elle s’exécute lorsque l’utilisateur clique sur **appliquer** dans la boîte de dialogue page de propriétés de Lecteur Windows Media. L’exemple de code de l’Assistant de plug-in fournit une implémentation pour gérer une seule propriété. Vous pouvez modifier ce code pour l’un des exemples de propriétés Echo, puis ajouter du code pour stocker l’autre valeur de propriété.
 
 ## <a name="declaring-the-apply-method-variables"></a>Déclaration des variables de méthode Apply
 
@@ -152,9 +152,9 @@ m_bDirty = FALSE; // Tell the property page to disable Apply.
 [**Modification de la page de propriétés de l’exemple Echo**](modifying-the-echo-sample-property-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

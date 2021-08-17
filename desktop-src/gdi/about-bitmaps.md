@@ -4,12 +4,12 @@ ms.assetid: 36afaabc-1334-42d1-8004-7952ce3c119e
 title: À propos des bitmaps
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53dbba516734dc255ce33005a7a9073865765785
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb155a2d96b32303c38438663cb7cc9b893a1560e8f33956ff894d309f055010
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119355509"
 ---
 # <a name="about-bitmaps"></a>À propos des bitmaps
 
@@ -21,7 +21,7 @@ Une image bitmap est l’un des objets GDI qui peuvent être sélectionnés dans
 |----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Images bitmap](bitmaps.md)                 | Crée, manipule (mettre à l’échelle, faire défiler, faire pivoter et peindre) et stocke les images en tant que fichiers sur un disque.                                                                                                       |
 | [Pinceaux](brushes.md)                 | Peint l’intérieur des polygones, des ellipses et des tracés.                                                                                                                                                |
-| [Polices](fonts-and-text.md)            | Dessine du texte sur les affichages vidéo et les autres périphériques de sortie.                                                                                                                                               |
+| [Police](fonts-and-text.md)            | Dessine du texte sur les affichages vidéo et les autres périphériques de sortie.                                                                                                                                               |
 | [Palette logique](logical-palette.md) | Palette de couleurs créée par une application et associée à un contexte de périphérique donné.                                                                                                                |
 | [Chemins d’accès](paths.md)                     | Un ou plusieurs figures (ou formes) qui sont remplies et/ou délimitées.                                                                                                                                     |
 | [Stylets](pens.md)                       | Outil graphique utilisé par une application pour dessiner des lignes et des courbes.                                                                                                                                   |
@@ -63,11 +63,11 @@ Les rubriques suivantes décrivent les différentes zones des bitmaps.
 -   [Rotation de bitmap](bitmap-rotation.md)
 -   [Mise à l’échelle des bitmaps](bitmap-scaling.md)
 -   [Bitmaps en tant que pinceaux](bitmaps-as-brushes.md)
--   [Stockage bitmap](bitmap-storage.md)
+-   [Stockage Bitmap](bitmap-storage.md)
 -   [Compression de bitmap](bitmap-compression.md)
 -   [Fusion alpha](alpha-blending.md)
 -   [Ombrage lissé](smooth-shading.md)
--   [Fonctions bitmap compatibles ICM](icm-enabled-bitmap-functions.md)
+-   [fonctions Bitmap compatibles ICM](icm-enabled-bitmap-functions.md)
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: bb227536-3b29-4221-b2d5-bab5e9d91448
 title: Utilisation des interfaces IXpsOMPageReference
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f4526e6c561a962b77fa3f2fc62d56431359aa6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee38856075a967fbf0f66255c922e181961dc42f1214f75e05da7d4062d6c4a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098681"
 ---
 # <a name="working-with-ixpsompagereference-interfaces"></a>Utilisation des interfaces IXpsOMPageReference
 

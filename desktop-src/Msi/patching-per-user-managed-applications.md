@@ -1,21 +1,21 @@
 ---
-description: À partir de Windows Installer 3,0, il est possible d’appliquer des correctifs à une application qui a été installée dans un contexte géré par l’utilisateur une fois que le correctif a été inscrit comme ayant des privilèges élevés.
+description: à partir de Windows Installer 3,0, il est possible d’appliquer des correctifs à une application qui a été installée dans un contexte géré par l’utilisateur une fois que le correctif a été inscrit comme ayant des privilèges élevés.
 ms.assetid: ebe5f447-9b74-48dc-8192-f2ac90dca490
 title: Mise à jour corrective des applications gérées par utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0aa6a19933e5c8ab409d510d980b8ed634a630e1
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 516af282dc7f149b86d03192303dc1b3da14416d1a6a22a4f3e716f641777500
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106522512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979369"
 ---
 # <a name="patching-per-user-managed-applications"></a>Mise à jour corrective des applications gérées par utilisateur
 
-À partir de Windows Installer 3,0, il est possible d’appliquer des correctifs à une application qui a été installée dans un contexte géré par l’utilisateur une fois que le correctif a été inscrit comme ayant des privilèges élevés.
+à partir de Windows Installer 3,0, il est possible d’appliquer des correctifs à une application qui a été installée dans un contexte géré par l’utilisateur une fois que le correctif a été inscrit comme ayant des privilèges élevés.
 
-**Windows Installer 2,0 :** Non pris en charge. Vous ne pouvez pas appliquer de correctifs aux applications installées dans un contexte géré par utilisateur à l’aide des versions de Windows Installer antérieures à Windows Installer 3,0.
+**Windows Installer 2,0 :** Non pris en charge. vous ne pouvez pas appliquer de correctifs aux applications installées dans un contexte géré par utilisateur à l’aide des versions de Windows Installer antérieures à Windows Installer 3,0.
 
 Une application est installée dans l’état géré par l’utilisateur dans les cas suivants.
 
@@ -24,7 +24,7 @@ Une application est installée dans l’état géré par l’utilisateur dans le
 
 Des privilèges sont requis pour installer une application dans le contexte géré par l’utilisateur ; par conséquent, les réinstallations de Windows Installer ultérieures ou les réparations de l’application sont également effectuées par le programme d’installation à l’aide de privilèges élevés. Cela signifie que seuls les correctifs de sources approuvées peuvent être appliqués à l’application.
 
-À partir de Windows Installer 3,0, vous pouvez appliquer un correctif à une application gérée par utilisateur une fois que le correctif a été inscrit comme ayant des privilèges élevés. Pour inscrire un correctif comme ayant des privilèges élevés, utilisez la fonction [**MsiSourceListAddSourceEx**](/windows/desktop/api/Msi/nf-msi-msisourcelistaddsourceexa) ou la méthode [**SourceListAddSource**](patch-sourcelistaddsource.md) de l’objet [**patch**](patch-object.md) , avec des privilèges élevés. Après avoir inscrit le correctif, vous pouvez appliquer le correctif à l’aide des fonctions [**MsiApplyPatch**](/windows/desktop/api/Msi/nf-msi-msiapplypatcha) ou [**MsiApplyMultiplePatches**](/windows/desktop/api/Msi/nf-msi-msiapplymultiplepatchesa) , des méthodes [**ApplyPatch**](installer-applypatch.md) ou [**ApplyMultiplePatches**](installer-applymultiplepatches.md) de l’objet du [**programme d’installation**](installer-object.md)ou de l’option de [ligne de commande](command-line-options.md)/p.
+à partir de Windows Installer 3,0, vous pouvez appliquer un correctif à une application gérée par utilisateur une fois que le correctif a été inscrit comme ayant des privilèges élevés. Pour inscrire un correctif comme ayant des privilèges élevés, utilisez la fonction [**MsiSourceListAddSourceEx**](/windows/desktop/api/Msi/nf-msi-msisourcelistaddsourceexa) ou la méthode [**SourceListAddSource**](patch-sourcelistaddsource.md) de l’objet [**patch**](patch-object.md) , avec des privilèges élevés. Après avoir inscrit le correctif, vous pouvez appliquer le correctif à l’aide des fonctions [**MsiApplyPatch**](/windows/desktop/api/Msi/nf-msi-msiapplypatcha) ou [**MsiApplyMultiplePatches**](/windows/desktop/api/Msi/nf-msi-msiapplymultiplepatchesa) , des méthodes [**ApplyPatch**](installer-applypatch.md) ou [**ApplyMultiplePatches**](installer-applymultiplepatches.md) de l’objet du [**programme d’installation**](installer-object.md)ou de l’option de [ligne de commande](command-line-options.md)/p.
 
 > [!Note]
 > Un correctif peut être enregistré comme ayant des privilèges élevés avant l’installation de l’application. Lorsqu’un correctif a été inscrit, il reste inscrit jusqu’à ce que la dernière application inscrite pour ce correctif soit supprimée.

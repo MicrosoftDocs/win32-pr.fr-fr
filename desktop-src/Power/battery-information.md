@@ -4,12 +4,12 @@ ms.assetid: 3580b37d-611c-46b4-9300-4943833d6852
 title: Informations sur la batterie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4f9838a2a95db037b9655f116f07e3cf2e072d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3b1afd2461985ec85a07d40bd309c588a5404e4b59be7555a01fc6c147eb221
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143692"
 ---
 # <a name="battery-information"></a>Informations sur la batterie
 

@@ -1,19 +1,19 @@
 ---
-description: Windows prend en charge les formats pour la compression des bitmaps qui définissent leurs couleurs avec 8 ou 4 bits par pixel. La compression réduit le stockage de disque et de mémoire requis pour la bitmap.
+description: Windows prend en charge les formats pour compresser les bitmaps qui définissent leurs couleurs avec 8 ou 4 bits par pixel. La compression réduit le stockage de disque et de mémoire requis pour la bitmap.
 ms.assetid: 14d14662-910a-4f3f-914e-6ccfc602c822
 title: Compression de bitmap
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38739f0e33f095b8eff567fc63b57db96b8cdc66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a3fa089401e77e882cf62472d007495e3e6c686d52259f095cb5a2758204736
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105768"
 ---
 # <a name="bitmap-compression"></a>Compression de bitmap
 
-Windows prend en charge les formats pour la compression des bitmaps qui définissent leurs couleurs avec 8 ou 4 bits par pixel. La compression réduit le stockage de disque et de mémoire requis pour la bitmap.
+Windows prend en charge les formats pour compresser les bitmaps qui définissent leurs couleurs avec 8 ou 4 bits par pixel. La compression réduit le stockage de disque et de mémoire requis pour la bitmap.
 
 Quand le membre de **compression** de la structure d’en-tête d’informations bitmap est bi \_ RLE8, un format de codage de longueur d’exécution (RLE) est utilisé pour compresser une image bitmap de 8 bits. Ce format peut être compressé en mode encodé ou absolu. Les deux modes peuvent se trouver n’importe où dans la même bitmap :
 
@@ -31,13 +31,13 @@ Quand le membre de **compression** de la structure d’en-tête d’informations
 
  
 
--   En *mode absolu*, le premier octet est égal à zéro et le deuxième octet est une valeur comprise entre 03H et FFH. Le deuxième octet représente le nombre d’octets qui suivent, chacun contenant l’index de couleur d’un pixel unique. Lorsque le deuxième octet est inférieur ou égal à deux, l’échappement a la même signification que le mode encodé. En mode absolu, chaque exécution doit être alignée sur une limite de mot.
+-   En *mode absolu*, le premier octet est égal à zéro et le deuxième octet est une valeur comprise entre 03H et FFH. Le deuxième octet représente le nombre d’octets qui suivent, chacun contenant l’index de couleur d’un pixel unique. Lorsque le deuxième octet est inférieur ou égal à deux, l’échappement a la même signification que le mode encodé. En mode absolu, chaque exécution doit être complétée par des zéros pour se terminer sur une limite de mot de 16 bits.
 
 L’exemple suivant montre les valeurs hexadécimales d’une bitmap 8 bits compressée :
 
 
 ```C++
-[03 04] [05 06] [00 03 45 56 67] [02 78] [00 02 05 01] 
+[03 04] [05 06] [00 03 45 56 67 00] [02 78] [00 02 05 01] 
 [02 78] [00 00] [09 1E] [00 01] 
 ```
 

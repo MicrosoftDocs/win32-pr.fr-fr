@@ -4,12 +4,12 @@ description: Découvrez comment vérifier la prise en charge d’appareils pour 
 ms.assetid: 91D9706A-47C5-4220-8AC7-167095E74F74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dcc770812281ea89e8ebb68065aa68a00e1887d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 03c2e7392f576b8c0dca059a4ef2fdd2ee6415230e5fd41e497d60899332f674
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124047"
 ---
 # <a name="using-direct3d-11-feature-data-to-supplement-direct3d-feature-levels"></a>Utilisation des données de fonctionnalités Direct3D 11 pour compléter les niveaux de fonctionnalité Direct3D
 
@@ -25,9 +25,9 @@ Appelez [**ID3D11Device :: CheckFeatureSupport**](/windows/desktop/api/D3D11/nf
 
 ## <a name="can-i-minimize-the-work-required-for-feature-support-checks"></a>Puis-je réduire le travail requis pour les vérifications de prise en charge des fonctionnalités ?
 
-En plus d’avoir le bon Runtime Direct3D 11 (généralement associé à une version de Windows), le pilote Graphics doit également être suffisamment récent pour prendre en charge la fonctionnalité facultative. Les spécifications WDDM nécessitent la prise en charge de fonctionnalités facultatives si le matériel peut le prendre en charge. Ainsi, lorsqu’un pilote Graphics prend en charge l’une des fonctionnalités facultatives qui ont été ajoutées dans une version particulière de Windows, cela signifie généralement que le pilote Graphics prend en charge les autres fonctionnalités ajoutées à cette version de Windows. Par exemple, si un pilote de périphérique prend en charge les ombres sur le niveau de fonctionnalité 9, vous savez que le pilote de périphérique est au moins WDDM 1,2.
+en plus de disposer du bon runtime Direct3D 11 (généralement associé à une version Windows), le pilote graphics doit également être suffisamment récent pour prendre en charge la fonctionnalité facultative. Les spécifications WDDM nécessitent la prise en charge de fonctionnalités facultatives si le matériel peut le prendre en charge. ainsi, lorsqu’un pilote graphics prend en charge l’une des fonctionnalités facultatives qui ont été ajoutées dans une version particulière de Windows, cela signifie généralement que le pilote graphics prend en charge les autres fonctionnalités ajoutées à cette version de Windows. Par exemple, si un pilote de périphérique prend en charge les ombres sur le niveau de fonctionnalité 9, vous savez que le pilote de périphérique est au moins WDDM 1,2.
 
-**Remarque**    Si un périphérique Microsoft Direct3D prend en charge le [niveau de fonctionnalité](overviews-direct3d-11-devices-downlevel-intro.md) 11,1, toutes les fonctionnalités facultatives indiquées par les [**\_ \_ \_ \_ options d3d11 des données de la fonctionnalité d3d11**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) sont prises en charge automatiquement, à l’exception de **SAD4ShaderInstructions** et **ExtendedDoublesShaderInstructions**.
+**Remarque**  Si un périphérique Microsoft Direct3D prend en charge le [niveau de fonctionnalité](overviews-direct3d-11-devices-downlevel-intro.md) 11,1, toutes les fonctionnalités facultatives indiquées par les [**\_ \_ \_ \_ options d3d11 des données de la fonctionnalité d3d11**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) sont prises en charge automatiquement, à l’exception de **SAD4ShaderInstructions** et **ExtendedDoublesShaderInstructions**.
 
 Le runtime définit toujours les regroupements de membres suivants de manière identique. Autrement dit, toutes les valeurs d’un regroupement sont **true** ou **false** :
 
@@ -37,11 +37,11 @@ Le runtime définit toujours les regroupements de membres suivants de manière i
 
 **Options de niveau de fonctionnalité 11,2 ([**\_ fonctionnalité d3d11 \_ d3d11 \_ options1**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature)) :** les fonctionnalités facultatives indiquées par ce champ sont indépendantes et doivent être vérifiées individuellement.
 
-### <a name="feature-support-on-windows-rt-81-and-windows-phone-81-devices"></a>Prise en charge des fonctionnalités sur les appareils Windows RT 8,1 et Windows Phone 8,1
+### <a name="feature-support-on-windows-rt-81-and-windows-phone-81-devices"></a>prise en charge des fonctionnalités sur les appareils Windows RT 8,1 et Windows Phone 8,1
 
-Les périphériques tablette Windows RT peuvent prendre en charge un large éventail de niveaux de fonctionnalités et de fonctionnalités facultatives, sont optimisés pour réduire la consommation d’énergie et utilisent des graphiques intégrés plutôt que des GPU discrètes. Les applications du Windows Store pour les appareils ARM doivent prendre en charge le niveau de fonctionnalité 9,1. Les applications DirectX pour Windows RT doivent tirer parti des fonctionnalités facultatives qui peuvent économiser de la puissance et des cycles, comme l’instanciation simple, quand elles sont disponibles.
+Windows RT les tablettes peuvent prendre en charge un large éventail de niveaux de fonctionnalité et de fonctionnalités facultatives, sont optimisés pour réduire la consommation d’énergie et utilisent des graphiques intégrés plutôt que des gpu discrètes. Windows Les applications du Store pour les appareils ARM doivent prendre en charge le niveau de fonctionnalité 9,1. les applications DirectX pour Windows RT doivent tirer parti des fonctionnalités facultatives qui peuvent économiser de la puissance et des cycles, telles que l’instanciation simple, quand elles sont disponibles.
 
-Windows Phone 8 appareils mobiles prennent en charge le niveau de fonctionnalité 9,3 avec des fonctionnalités facultatives spécifiques. Consultez [niveau de fonctionnalité Direct3D 9 \_ 3 pour Windows Phone 8](/previous-versions/windows/apps/jj714085(v=vs.105)).
+Windows Phone 8 appareils mobiles prennent en charge le niveau de fonctionnalité 9,3 avec des fonctionnalités facultatives spécifiques. consultez [niveau de fonctionnalité Direct3D 9 \_ 3 pour Windows Phone 8](/previous-versions/windows/apps/jj714085(v=vs.105)).
 
 ## <a name="what-are-the-direct3d-11-optional-features"></a>Quelles sont les fonctionnalités facultatives de Direct3D 11 ?
 
@@ -104,6 +104,6 @@ Direct3D 11,2 ajoute quatre nouvelles fonctionnalités facultatives qui peuvent 
 [Appareils](overviews-direct3d-11-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -8,12 +8,12 @@ keywords:
 - interfaces MIDL, MIDL et RPC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8254915a510e7d176ba315d7a92b049bd0b60926
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 260c718f0910c2e6834c93409b6d8cd4969e3d2bbe9c53c65821dc0fe0eb19ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146222"
 ---
 # <a name="the-client-stub"></a>Stub client
 
@@ -27,9 +27,9 @@ Lorsque l’application cliente effectue un appel à la procédure distante, son
 
 Le compilateur MIDL bascule [**/client**](-client.md), [**/cstub**](-cstub.md)et [**/out**](-out.md) sur le fichier stub client.
 
- 
+ 
 
- 
+ 
 
 
 

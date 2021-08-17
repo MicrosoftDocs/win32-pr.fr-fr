@@ -3,7 +3,7 @@ title: Message IPM_GETADDRESS (commctrl. h)
 description: Obtient les valeurs d’adresse pour les quatre champs dans le contrôle d’adresse IP.
 ms.assetid: 4fe68d45-7d7f-46da-a110-65f899b3c393
 keywords:
-- IPM_GETADDRESS les contrôles de message Windows
+- IPM_GETADDRESS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 426e9c76712701b2f4e108679133be23eb700687
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e9bcb35ed71532e815b33b45e1c15e9b82b75b5c87fac406b52de80670e3d72a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434510"
 ---
 # <a name="ipm_getaddress-message"></a>\_Message de message de message IPM
 
@@ -49,8 +49,8 @@ Retourne le nombre de champs non vides.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

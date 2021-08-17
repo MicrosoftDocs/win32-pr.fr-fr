@@ -27,12 +27,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: cd527474309802a4c6d2315d8a9e61b6733e70d2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2b5045e47e42c86ff82a983ad1e86463c9a5320e46b616d68cc33b3a2f0fc865
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119438639"
 ---
 # <a name="cim_job-class-cimwin32-wmi-providers"></a>CIM_Job, classe (fournisseurs WMI CIMWin32)
 
@@ -363,7 +363,7 @@ Heure à laquelle le travail n’est pas valide ou doit être arrêté.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ tâche CIM** est dérivée de la [**\_ LogicalElement CIM**](cim-logicalelement.md).
 

@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5099deff3913d23173a466245cbf08fd5b95a6a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 995509385cabc18a7768300e29482b00f674ce347463b0b8aeb2c3af7e6a209b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119475749"
 ---
 # <a name="imsrdpclientcolordepth-property"></a>IMsRdpClient :: ColorDepth, propriété
 
@@ -100,7 +100,7 @@ Profondeur de couleur. Les valeurs incluent 8, 15, 16, 24 et 32 bits par pixel.
 
 Si les méthodes sont correctement exécutées, la méthode **S \_ OK** est retournée. Toute autre valeur **HRESULT** indique que l’appel a échoué.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété ne peut pas être définie lorsque le contrôle est connecté.
 

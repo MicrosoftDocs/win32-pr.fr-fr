@@ -3,7 +3,7 @@ title: IWMPSettings. isAvailable (VB et C)
 description: La propriété isAvailable (la \_ méthode obtenir IsAvailable dans C \) obtient une valeur qui indique si une action spécifiée peut être exécutée.
 ms.assetid: 9db1fc50-5c2a-4d2d-b1ed-02b8e6571372
 keywords:
-- Lecteur Windows Media IWMPSettings. isAvailable (VB et C)
+- IWMPSettings. isAvailable (VB et C) Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e932f0adb325c4c2f9f88e9f80d75ecaecd3ca85
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 590979677e79073466f7511b3f382a4bfcebc8bf0fd8ad4cb10f6dcd957db28a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135372"
 ---
 # <a name="iwmpsettingsisavailable-vb-and-c"></a>IWMPSettings. isAvailable (VB et C#)
 
@@ -55,7 +55,7 @@ System.Boolean get_isAvailable (
 
 | Valeur              | Description                                                                                                             |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------|
-| démarrage automatique          | Détecte si la propriété AutoStart peut être définie pour spécifier que le lecteur Windows Media démarre automatiquement la lecture. |
+| démarrage automatique          | détecte si la propriété autostart peut être définie pour spécifier que Lecteur Windows Media démarre automatiquement la lecture. |
 | Balance            | Détecte si la propriété de balance peut être utilisée pour définir le solde stéréo.                                           |
 | BaseURL            | Détecte si la propriété baseURL peut être définie pour spécifier une URL de base.                                                |
 | DefaultFrame       | Détecte si la propriété defaultFrame peut être définie pour spécifier le frame par défaut.                                    |
@@ -76,7 +76,7 @@ System.Boolean get_isAvailable (
 
 Valeur **System. Boolean** indiquant si l’action spécifiée peut être exécutée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **IWMPSettings. isIdentical** est une propriété de Visual Basic qui accepte un paramètre. En C#, on parle de méthode **IWMPSettings. obten \_ isIdentical** .
 
@@ -158,7 +158,7 @@ playerSettings.Lines = results
 [**Interface IWMPSettings (VB et C#)**](iwmpsettings--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings. AutoStart (VB et C#)**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
+[**IWMPSettings. autostart (VB et C#)**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPSettings. balance (VB et C#)**](wmplibiwmpsettings-iwmpsettings-balance--vb-and-c.md)
@@ -179,7 +179,7 @@ playerSettings.Lines = results
 [**IWMPSettings. invokeURLs (VB et C#)**](wmplibiwmpsettings-iwmpsettings-invokeurls--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings. MUTE (VB et C#)**](wmplibiwmpsettings-iwmpsettings-mute--vb-and-c.md)
+[**IWMPSettings. muet (VB et C#)**](wmplibiwmpsettings-iwmpsettings-mute--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPSettings. playCount (VB et C#)**](wmplibiwmpsettings-iwmpsettings-playcount--vb-and-c.md)

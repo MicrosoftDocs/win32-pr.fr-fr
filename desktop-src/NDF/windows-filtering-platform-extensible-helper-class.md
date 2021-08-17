@@ -1,19 +1,19 @@
 ---
-title: Classe d’assistance extensible de plateforme de filtrage Windows
-description: La plateforme de filtrage Windows (WFP) comprend une classe d’assistance de l’infrastructure de diagnostics du réseau (NDF), appelée classe d’assistance de la plateforme de filtrage (FPHC).
+title: Windows Classe d’assistance extensible de la plateforme de filtrage
+description: la plateforme de filtrage de Windows (WFP) comprend une classe d’assistance de l’infrastructure de diagnostics du réseau (NDF), appelée classe d’assistance de la plateforme de filtrage (FPHC).
 ms.assetid: 006ea30c-8682-4a3d-803a-73dba5162696
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 858835c1a649602293ed042c13205ca982de9258
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ff972beffebb44b33eb68a0439193307639522738ac1f8766845404c03d3cd9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065209"
 ---
-# <a name="windows-filtering-platform-extensible-helper-class"></a>Classe d’assistance extensible de plateforme de filtrage Windows
+# <a name="windows-filtering-platform-extensible-helper-class"></a>Windows Classe d’assistance extensible de la plateforme de filtrage
 
-La [plateforme de filtrage Windows (WFP)](/windows/desktop/FWP/windows-filtering-platform-start-page) comprend une classe d’assistance de l’infrastructure de diagnostics du réseau (NDF), appelée classe d’assistance de la plateforme de filtrage (fphc). FPHC peut aider à identifier les causes racines des problèmes de connectivité provoqués par la plateforme WFP. Les développeurs de pare-feu tiers peuvent implémenter leurs propres classes d’assistance NDF. L’extensibilité FPHC permet d’appeler ces classes d’assistance tierces pendant les Diagnostics.
+la [plateforme de filtrage de Windows (WFP)](/windows/desktop/FWP/windows-filtering-platform-start-page) comprend une classe d’assistance de l’infrastructure de diagnostics du réseau (NDF), appelée classe d’assistance de la plateforme de filtrage (FPHC). FPHC peut aider à identifier les causes racines des problèmes de connectivité provoqués par la plateforme WFP. Les développeurs de pare-feu tiers peuvent implémenter leurs propres classes d’assistance NDF. L’extensibilité FPHC permet d’appeler ces classes d’assistance tierces pendant les Diagnostics.
 
 Cette rubrique suppose que vous connaissez l' [API WFP](/windows/desktop/FWP/windows-filtering-platform-start-page).
 
@@ -77,7 +77,7 @@ Le tableau suivant répertorie les attributs d’événement associés à chaque
 
 Avant de suggérer des informations de diagnostic et de réparation à l’utilisateur, une extension FPHC doit collecter plus de données que ce qui est fourni par les notifications FPHC. Ces données peuvent être obtenues à partir des [fonctions de gestion des événements WFP](/windows/desktop/FWP/fwp-mgmt-functions). Ces fonctions sont illustrées dans l’exemple [affichage des événements .net](/windows/desktop/FWP/displaying-net-events) .
 
-Un exemple de gestion des événements plus détaillé est inclus dans le kit de développement logiciel (SDK). Le code source de l’exemple se trouve dans l’emplacement d’installation du kit de développement logiciel (SDK) sous C : \\ Program Files \\ Microsoft SDK \\ Windows \\ <version number> \\ Samples \\ NetDs \\ WFP \\ DiagEvents. Le kit de développement logiciel (SDK) Windows Vista est disponible dans le [Centre de téléchargement](https://www.microsoft.com/downloads/details.aspx?FamilyID=f26b1aa4-741a-433a-9be5-fa919850bdbf).
+Un exemple de gestion des événements plus détaillé est inclus dans le kit de développement logiciel (SDK). le code source de l’exemple se trouve dans l’emplacement d’installation du kit de développement logiciel (sdk) sous C : \\ Program Files \\ Microsoft sdk \\ Windows \\ <version number> \\ samples \\ NetDs \\ WFP \\ DiagEvents. le kit de développement logiciel (SDK) Windows Vista est disponible dans le [centre de téléchargement](https://www.microsoft.com/downloads/details.aspx?FamilyID=f26b1aa4-741a-433a-9be5-fa919850bdbf).
 
 ## <a name="built-in-fphc-diagnostics"></a>Diagnostics FPHC intégrés
 

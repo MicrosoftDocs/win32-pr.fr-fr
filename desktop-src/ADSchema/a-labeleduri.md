@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bcfae6b1d2029fd916cf2e796e611a6b76318bc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1a3455529afd0b2fe9125410becb8f46ca75c4ec23a08ddd157ef0ecebfb9daf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104479781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322189"
 ---
 # <a name="labeleduri-attribute"></a>labeledURI (attribut)
 
@@ -43,7 +43,7 @@ Uniform Resource Identifier suivi d’une étiquette. L’étiquette est utilis�
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

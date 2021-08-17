@@ -91,12 +91,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0ec6b287f3281fd0224e9c2efc39391781bd7f82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d149c733bfc9ccf408b7798a37a762b947eac23b25888beeda375e77c60417f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148352"
 ---
 # <a name="msvm_memory-class"></a>\_Classe de mémoire MSVM
 
@@ -204,7 +204,7 @@ La classe de **\_ mémoire MSVM** possède ces méthodes.
 | **OnlineDevice**                                             | Cette méthode n'est pas prise en charge.<br/> |
 | **QuiesceDevice**                                            | Cette méthode n'est pas prise en charge.<br/> |
 | [**RequestStateChange**](msvm-memory-requeststatechange.md) | Demande un changement d’État.<br/>      |
-| [**Réinitialiser**](msvm-memory-reset.md)                           | Réinitialise la mémoire virtuelle.<br/>    |
+| [**Initialisation**](msvm-memory-reset.md)                           | Réinitialise la mémoire virtuelle.<br/>    |
 | **RestoreProperties**                                        | Cette méthode n'est pas prise en charge.<br/> |
 | **SaveProperties**                                           | Cette méthode n'est pas prise en charge.<br/> |
 | **SetPowerState**                                            | Cette méthode n'est pas prise en charge.<br/> |
@@ -713,7 +713,7 @@ Type de données : tableau **UInt16**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Les extensions de stockage ont des informations d’État supplémentaires au-delà de celles capturées dans le **OperationalStatus** et d’autres propriétés héritées de [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement). Ces informations supplémentaires (par exemple, « protection désactivée », valeur = 9) sont capturées dans la propriété **VolumeStatus** . Cette propriété est héritée de la [**\_ StorageExtent CIM**](/windows/desktop/CIMWin32Prov/cim-storageextent)et est toujours définie sur 2 (aucun/non applicable).
+Stockage étendues ont des informations d’état supplémentaires au-delà de celles capturées dans les propriétés **OperationalStatus** et autres héritées de [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement). Ces informations supplémentaires (par exemple, « protection désactivée », valeur = 9) sont capturées dans la propriété **VolumeStatus** . Cette propriété est héritée de la [**\_ StorageExtent CIM**](/windows/desktop/CIMWin32Prov/cim-storageextent)et est toujours définie sur 2 (aucun/non applicable).
 
 </dd> <dt>
 
@@ -781,7 +781,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-**True** si les extensions de stockage sous-jacentes participent à un groupe de redondance de stockage. Cette propriété est héritée de [**CIM \_ StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent)et est toujours définie sur **false**.
+**True** si les extensions de stockage sous-jacentes participent à un groupe de redondance Stockage. Cette propriété est héritée de [**CIM \_ StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent)et est toujours définie sur **false**.
 
 </dd> <dt>
 
@@ -1162,7 +1162,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-**True** si le stockage est accessible de manière séquentielle par un périphérique d’accès au média. Une partition de bande est un exemple d’extension de stockage à accès séquentiel. Les volumes de stockage, les partitions de disque et les disques logiques représentent des étendues ayant un accès aléatoire. Cette propriété est héritée de [**CIM \_ StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent)et est toujours définie sur **false**.
+**True** si le stockage est accessible de manière séquentielle par un périphérique d’accès au média. Une partition de bande est un exemple d’extension de stockage à accès séquentiel. les volumes Stockage, les partitions de disque et les disques logiques représentent des étendues accessibles de façon aléatoire. Cette propriété est héritée de [**CIM \_ StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent)et est toujours définie sur **false**.
 
 </dd> <dt>
 
@@ -1309,7 +1309,7 @@ Indique si la mémoire est volatile. Cette propriété est héritée de la [**\_
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe de **\_ mémoire MSVM** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -1319,8 +1319,8 @@ L’accès à la classe de **\_ mémoire MSVM** peut être limité par le filtra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

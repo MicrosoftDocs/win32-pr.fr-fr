@@ -4,12 +4,12 @@ ms.assetid: 4896a9f8-0486-4380-bf49-d1c9ef114acc
 title: Assistance IP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1d50153e1ad890063f33a473058f6a850a9f171
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6262543d1644fbe62858f2c90064f42d2c1348b2f3c56033813f453d33470ce3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146772"
 ---
 # <a name="ip-helper"></a>Assistance IP
 
@@ -23,11 +23,11 @@ L’API d’assistance IP est applicable dans tout environnement informatique da
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-L’API d’assistance IP est conçue pour être utilisée par les programmeurs C/C++. Les programmeurs doivent également être familiarisés avec les concepts de mise en réseau Windows et TCP/IP.
+L’API d’assistance IP est conçue pour être utilisée par les programmeurs C/C++. les programmeurs doivent également être familiarisés avec les concepts de mise en réseau Windows et TCP/IP.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-L’API d’assistance IP peut être utilisée sur toutes les plateformes Windows. Tous les systèmes d’exploitation ne prennent pas en charge toutes les fonctions. Lorsque certaines implémentations ou fonctionnalités des restrictions de plateforme Windows Sockets 2 existent, elles sont clairement notées dans la documentation. Si une fonction d’assistance IP est appelée sur une plateforme qui ne prend pas en charge la fonction, l’erreur \_ non \_ prise en charge est retournée. Pour plus d’informations sur les systèmes d’exploitation qui prennent en charge une fonction particulière, reportez-vous aux sections relatives à la configuration requise dans la documentation.
+l’API d’assistance IP peut être utilisée sur toutes les plates-formes Windows. Tous les systèmes d’exploitation ne prennent pas en charge toutes les fonctions. lorsque certaines implémentations ou fonctionnalités de Windows des restrictions de plateforme sockets 2 existent, elles sont clairement notées dans la documentation. Si une fonction d’assistance IP est appelée sur une plateforme qui ne prend pas en charge la fonction, l’erreur \_ non \_ prise en charge est retournée. Pour plus d’informations sur les systèmes d’exploitation qui prennent en charge une fonction particulière, reportez-vous aux sections relatives à la configuration requise dans la documentation.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

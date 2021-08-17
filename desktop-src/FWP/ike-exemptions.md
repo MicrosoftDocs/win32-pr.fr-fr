@@ -1,21 +1,21 @@
 ---
 title: Exemptions IKE/AuthIP
-description: Protocole IKE (Internet Key Exchange) (IKE) et protocole Authenticated IP (Authenticated Internet Protocol) (AuthIP), afin de fonctionner, doivent exempter le trafic réseau du filtrage IPsec.
+description: protocole IKE (Internet Key Exchange) (IKE) et protocole Authenticated IP (Authenticated Internet Protocol) (AuthIP), afin de fonctionner, doivent exempter le trafic réseau du filtrage IPsec.
 ms.assetid: 365bfebc-250a-440f-8056-ff9601daa030
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d58a6d00ddd337d56c3c00a34b6949213be6ee26
-ms.sourcegitcommit: 60ad94096619da5476f9bbcd4cc231b40b6f5358
+ms.openlocfilehash: a2963c804c6bd63f191563566bcc99dcf9f0f4a74bb2c844a402adc856dbad3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104381567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069059"
 ---
 # <a name="ikeauthip-exemptions"></a>Exemptions IKE/AuthIP
 
-Les modules de génération de clés IPsec (Internet Protocol Security), protocole IKE (Internet Key Exchange) (IKE) et protocole Authenticated IP (Authenticated Internet Protocol) (AuthIP), afin de fonctionner, doivent exempter le trafic réseau du filtrage IPsec.
+les modules de génération de clés ipsec (Internet Protocol security), protocole IKE (Internet Key Exchange) (IKE) et protocole Authenticated IP (Authenticated Internet Protocol) (AuthIP), afin de fonctionner, doivent exempter le trafic réseau du filtrage IPsec.
 
-Dans la plateforme de filtrage Windows (WFP), le moteur de filtrage de base (BFE) ajoute automatiquement des filtres d’exemption IKE et AuthIP lorsque le filtre de stratégie en mode principal IKE ou AuthIP (MM) est ajouté et les supprime lorsque le dernier filtre de stratégie IKE ou AuthIP MM est supprimé. De cette façon, les fournisseurs de stratégie n’ont pas à gérer individuellement les exemptions de filtrage IKE et AuthIP.
+dans Windows plate-forme de filtrage (WFP), le moteur de filtrage de Base ajoute automatiquement des filtres d’exemption ike et authip lorsque le filtre de stratégie en mode principal ike ou authip (MM) est ajouté et les supprime lorsque le dernier filtre de stratégie ike ou authip MM est supprimé. De cette façon, les fournisseurs de stratégie n’ont pas à gérer individuellement les exemptions de filtrage IKE et AuthIP.
 
 Un filtre de stratégie IKE MM est un filtre dans la couche de moteur [**FWPM \_ \_ IKEEXT \_ V {4 \| 6}**](management-filtering-layer-identifiers-.md) qui fait référence à un contexte de fournisseur de type [**FWPM \_ IPSec \_ IKE \_ mm \_ Context**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type).
 

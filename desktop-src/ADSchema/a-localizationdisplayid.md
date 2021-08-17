@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4d9453b04bd5c944784b68ff5e4442f00bf65f5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 995a51d1d07409aa7b284e23d0ce72f182482a6a78e7dda4b89d2ed5113b33e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119301879"
 ---
 # <a name="localization-display-id-attribute"></a>Attribut localization-Display-ID
 
@@ -36,7 +36,7 @@ Permet d’indexer dans le fichier Extrts.mc pour obtenir le displayName localis
 | Fréquence des mises à jour  | Un ID ne doit jamais être modifié.       |
 | Attribute-Id      | 1.2.840.113556.1.4.1353              |
 | System-ID-GUID    | a746f0d1-78d0-11d2-9916-0000f87a57d4 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -46,7 +46,7 @@ Permet d’indexer dans le fichier Extrts.mc pour obtenir le displayName localis
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

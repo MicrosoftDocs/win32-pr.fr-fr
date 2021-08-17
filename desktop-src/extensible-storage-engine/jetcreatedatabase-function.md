@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b8fbec76e3b38f9b42c36156b2312a8e77a6b43a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 788c8e9fcc97d834843f42752d59cd6c8754fd49b99eac829ed5a68ae18cf287
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119358298"
 ---
 # <a name="jetcreatedatabase-function"></a>Fonction JetCreateDatabase
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetcreatedatabase-function"></a>Fonction JetCreateDatabase
 
@@ -98,7 +98,7 @@ Groupe de bits spécifiant zéro ou plusieurs des options suivantes.
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -176,7 +176,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </table>
 
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Si la base de données spécifiée dans *szFilename* existe et que JET_bitDbOverwriteExisting n’a pas été transmis, l’appel de l’API échoue. Si JET_bitDbOverwriteExisting a été transmis, l’ancien fichier de base de données sera d’abord supprimé.
 
@@ -194,11 +194,11 @@ Si l’API crée un fichier de base de données, puis accède à une autre erreu
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>
@@ -222,7 +222,7 @@ Si l’API crée un fichier de base de données, puis accède à une autre erreu
 
 #### <a name="see-also"></a>Voir aussi
 
-[Fichiers ESE (Extensible Storage Engine)](./extensible-storage-engine-files.md)  
+[fichiers de moteur d’Stockage Extensible](./extensible-storage-engine-files.md)  
 [JET_ERR](./jet-err.md)  
 [JET_DBID](./jet-dbid.md)  
 [JET_GRBIT](./jet-grbit.md)  

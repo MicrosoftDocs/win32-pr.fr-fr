@@ -1,5 +1,5 @@
 ---
-description: Représente un environnement ou un paramètre d’environnement système sur un système informatique Windows.
+description: représente un environnement ou un paramètre d’environnement système sur un système de Windows ordinateur.
 ms.assetid: da7ee891-c759-4046-a9d8-d3caf66ab5a9
 ms.tgt_platform: multiple
 title: Classe Win32_Environment
@@ -22,16 +22,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3b7267e3ac03c14cfc6ad6ca73ede42cc8478b41
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5d7237d83c298916045b4bd0443eadc3048c94dc7ad028a1bd7bfa993c4ce764
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119391749"
 ---
 # <a name="win32_environment-class"></a>\_Classe d’environnement Win32
 
-La [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) de l' **\_ environnement Win32** représente un environnement ou un paramètre d’environnement système sur un système informatique Windows. L’interrogation de cette classe retourne les variables d’environnement trouvées dans :
+la [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) de l' **\_ environnement Win32** représente un environnement ou un paramètre d’environnement système sur un système d’Windows ordinateur. L’interrogation de cette classe retourne les variables d’environnement trouvées dans :
 
 **HKEY \_ \_** Environnement de \\  \\  \\ **contrôle** \\  \\  CurrentControlSet de système d’ordinateur local sessionmanager
 
@@ -136,7 +136,7 @@ Type d’accès : lecture/écriture
 Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Name"), [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (« Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \\ \\ Session Manager \\ \\ Environment »)
 </dt> </dl>
 
-Chaîne de caractères qui spécifie le nom d’une variable d’environnement Windows. En spécifiant le nom d’une variable qui n’existe pas encore, une application crée une nouvelle variable d’environnement.
+chaîne de caractères qui spécifie le nom d’une variable d’environnement de type Windows. En spécifiant le nom d’une variable qui n’existe pas encore, une application crée une nouvelle variable d’environnement.
 
 Exemple : "path"
 
@@ -278,7 +278,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**clé**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (260), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \\ \\ Session Manager \\ \\ Environment")
 </dt> </dl>
 
-Nom du propriétaire du paramètre d’environnement. Elle est définie sur <SYSTEM> pour les paramètres spécifiques au système Windows (par opposition à un utilisateur spécifique) et <DEFAULT> pour les paramètres utilisateur par défaut.
+Nom du propriétaire du paramètre d’environnement. elle est définie sur <SYSTEM> pour les paramètres spécifiques au système basé sur le Windows (par opposition à un utilisateur spécifique) et <DEFAULT> pour les paramètres utilisateur par défaut.
 
 Exemple : « jdupont »
 
@@ -296,13 +296,13 @@ Type d’accès : lecture/écriture
 Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (« Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \\ \\ Session Manager \\ \\ Environment »)
 </dt> </dl>
 
-Variable d’espace réservé d’une variable d’environnement Windows. Les informations telles que le répertoire du système de fichiers peuvent passer d’un ordinateur à un ordinateur. Le système d’exploitation remplace ces espaces réservés.
+variable d’espace réservé d’une variable d’environnement basée sur Windows. Les informations telles que le répertoire du système de fichiers peuvent passer d’un ordinateur à un ordinateur. Le système d’exploitation remplace ces espaces réservés.
 
 Exemple : « % SystemRoot% »
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe d' **\_ environnement Win32** est dérivée de [**CIM \_ SystemResource**](cim-systemresource.md). Vous pouvez utiliser cette classe pour rechercher les chemins d’accès de dossiers spéciaux, tels que le dossier système ou les fichiers programme sur un ordinateur distant. Voici quelques exemples : windir, systemroot, ProgramFiles et UserProfile. **Win32 \_** Fondamentalement, l’environnement retourne ce qui se trouve dans :
 
@@ -312,7 +312,7 @@ et
 
 **HKEY \_** \\ Environnement **< utilisateur >** des utilisateurs \\ 
 
-Le processus appelant qui utilise cette classe doit avoir le privilège **se \_ Restore \_ Name** sur l’ordinateur où se trouve le registre. Par exemple, si vous énumérez cette classe sur l’ordinateur local, le compte sous lequel votre application s’exécute doit disposer de ce privilège. Pour plus d’informations, consultez [exécution d’opérations privilégiées](/windows/desktop/WmiSdk/executing-privileged-operations).
+le processus appelant qui utilise cette classe doit avoir le privilège **SE \_ restore \_ NAME** sur l’ordinateur où se trouve le registre. Par exemple, si vous énumérez cette classe sur l’ordinateur local, le compte sous lequel votre application s’exécute doit disposer de ce privilège. Pour plus d’informations, consultez [exécution d’opérations privilégiées](/windows/desktop/WmiSdk/executing-privileged-operations).
 
 ## <a name="examples"></a>Exemples
 

@@ -4,12 +4,12 @@ ms.assetid: 26baa3aa-e54d-42fe-b2b2-a3fcca6dee91
 title: Détection de l’insertion ou de la suppression d’un média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e6cfd4539d6f2ce5eac41e355f56a5a87835505
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 3f3f6d579ed654ae2d2f77d00f70b88dc1441d03bbce59c0f8cb39ca6800c6af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104116054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119318349"
 ---
 # <a name="detecting-media-insertion-or-removal"></a>Détection de l’insertion ou de la suppression d’un média
 

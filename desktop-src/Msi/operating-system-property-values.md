@@ -1,19 +1,19 @@
 ---
-description: Le tableau de cette rubrique affiche des valeurs pour les propriétés de système d’exploitation Windows Installer sélectionnées.
+description: le tableau de cette rubrique affiche des valeurs pour les propriétés de système d’exploitation Windows Installer sélectionnées.
 ms.assetid: 4f516cf0-d5b3-4df6-b171-54bbafc0ef93
 title: Valeurs de propriété du système d’exploitation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b5747d5be27566bbdb5ec1e7e9208ac5ffbf6f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 461419a29bc62b9aa51e76fe2a471f4c6ef9a079767f40cbeaab397358a10ec8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145552"
 ---
 # <a name="operating-system-property-values"></a>Valeurs de propriété du système d’exploitation
 
-Le tableau de cette rubrique affiche des valeurs pour les [Propriétés de système d’exploitation](property-reference.md)Windows Installer sélectionnées.
+le tableau de cette rubrique affiche des valeurs pour les [propriétés de système d’exploitation](property-reference.md)Windows Installer sélectionnées.
 
 
 
@@ -46,7 +46,7 @@ Le tableau de cette rubrique affiche des valeurs pour les [Propriétés de syst�
 
  
 
-Pour plus d’informations, consultez [versions publiées de Windows Installer](released-versions-of-windows-installer.md), [**VersionNT**](versionnt.md), [**WindowsBuild**](windowsbuild.md)et [**ServicePackLevel**](servicepacklevel.md).
+pour plus d’informations, consultez [Versions publiées de Windows Installer](released-versions-of-windows-installer.md), [**VersionNT**](versionnt.md), [**WindowsBuild**](windowsbuild.md)et [**ServicePackLevel**](servicepacklevel.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

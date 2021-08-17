@@ -4,12 +4,12 @@ ms.assetid: 38b28529-224f-4624-bb5e-22fee500e8e6
 title: IMulticastControl ::p ut_LoopbackMode, méthode (Confpriv. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de5b5e51b3814b380cc06d9c960db1a4e4b9ecb2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d564fbfd3e5ea0db2c168b6207823945eceb148af17d78bed25cbc59bb4e5ee6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140412"
 ---
 # <a name="imulticastcontrolput_loopbackmode-method"></a>IMulticastControl ::p ut \_ LoopbackMode, méthode
 

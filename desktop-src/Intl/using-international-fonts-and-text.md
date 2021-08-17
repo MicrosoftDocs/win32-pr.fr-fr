@@ -1,19 +1,19 @@
 ---
-description: Dans chaque version majeure de Windows, des polices sont ajoutées pour prendre en charge les langues et les scripts internationaux.
+description: dans chaque version majeure de Windows, des polices sont ajoutées pour prendre en charge les langues et les scripts internationaux.
 ms.assetid: 77b8c200-2682-4651-855a-602f768edc9b
 title: Énumération et sélection des polices internationales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63e5d0d07a0953f72f097f8578f5e32b3ee49093
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4b28e2dca3937f3513a930f157a364d466f761ed54a53d09c3e2b8b1c89bb30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146882"
 ---
 # <a name="international-font-enumeration-and-selection"></a>Énumération et sélection des polices internationales
 
-Dans chaque version majeure de Windows, des polices sont ajoutées pour prendre en charge les langues et les scripts internationaux. Veuillez [prendre en charge les scripts et les polices dans Windows](https://msdn.microsoft.com/globalization/mt791278) pour les polices ajoutées dans chaque version de Windows depuis Windows 2000, ainsi que les scripts, les régions et les langues pris en charge.
+dans chaque version majeure de Windows, des polices sont ajoutées pour prendre en charge les langues et les scripts internationaux. pour plus d’informations sur la [prise en charge des scripts et des polices dans Windows](https://msdn.microsoft.com/globalization/mt791278) , consultez les polices ajoutées dans chaque version Windows depuis Windows 2000, ainsi que les scripts, les régions et les langues pris en charge.
 
 ## <a name="enumfontfamiliesex"></a>EnumFontFamiliesEx
 
@@ -31,16 +31,16 @@ Si vous souhaitez afficher uniquement les polices qui couvrent un jeu de caract�
 
 Enfin, comme pour tout autre champ de la boîte de dialogue police, vous pouvez choisir d’afficher une zone de liste de scripts vide. Cette fonctionnalité est utile si l’utilisateur a mis en surbrillance plusieurs polices différentes couvrant plusieurs jeux de caractères. Dans ce cas, vous devez appeler [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) avec l’indicateur **CF \_ NOSCRIPTSEL** .
 
-À compter de Windows 7, [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) implémente la prise en charge du masquage des polices dans les listes de sélection de polices. **ChooseFont** répertorie uniquement les polices affichées et filtre les polices masquées lors de l’affichage des polices dans la zone de liste. L’indicateur supplémentaire (**CF \_ INACTIVEFONTS**) du membre Flags de la structure [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) est ajouté pour vous permettre d’afficher toutes les polices installées dans la liste de polices, le même que **ChooseFont** se comporter avant Windows 7. Pour plus d’informations sur les différences de comportement dans Windows 7 pour la fonction **ChooseFont** , consultez la [**boîte de dialogue commune Win32 ChooseFont ()**](../win7appqual/choosefont-win32-common-dialog.md) dans le [Windows 7 application Quality Cookbook](../win7appqual/windows-7-application-quality-cookbook.md). Reportez-vous à la fonction **ChooseFont** et à la structure **ChooseFont** pour les différences d’expérience de l’utilisateur final dans Windows 7.
+à partir de Windows 7, [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) implémente la prise en charge du masquage des polices dans les listes de sélection de polices. **ChooseFont** répertorie uniquement les polices affichées et filtre les polices masquées lors de l’affichage des polices dans la zone de liste. l’indicateur supplémentaire (**CF \_ INACTIVEFONTS**) du membre flags de la structure [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) est ajouté pour vous permettre d’afficher toutes les polices installées dans la liste de polices, le même que **ChooseFont** se comporter avant Windows 7. pour plus d’informations sur les différences de comportement dans Windows 7 pour la fonction **ChooseFont** , consultez la [**boîte de dialogue commune de ChooseFont () Win32**](../win7appqual/choosefont-win32-common-dialog.md) dans le guide de [qualité des applications Windows 7](../win7appqual/windows-7-application-quality-cookbook.md). reportez-vous à la fonction **ChooseFont** et à la structure **ChooseFont** pour les différences d’expérience de l’utilisateur final dans Windows 7.
 
 Notez que les jeux de caractères sont une notion héritée correspondant aux jeux de caractères pré-Unicode. À l’heure actuelle, il n’existe aucun mécanisme pour filtrer les polices en fonction des scripts Unicode ou des plages de caractères.
 
-## <a name="font-controls-in-windows-scenic-ribbon"></a>Contrôles de police dans Windows Scenic ruban
+## <a name="font-controls-in-windows-scenic-ribbon"></a>contrôles de police dans Windows Scenic ruban
 
-Windows 7 présente le ruban Windows Scenic qui est fourni avec un ensemble de contrôles ciblant la sélection des polices. Ces contrôles de police prennent en charge le nouveau comportement de masquage de police de Windows 7. Vous pouvez utiliser ces contrôles de police pour répertorier uniquement les polices affichées et autoriser l’utilisateur à sélectionner la police.
+Windows 7 présente le ruban Windows Scenic qui est fourni avec un ensemble de contrôles ciblant la sélection des polices. ces contrôles de police prennent en charge le nouveau comportement de masquage de police Windows 7. Vous pouvez utiliser ces contrôles de police pour répertorier uniquement les polices affichées et autoriser l’utilisateur à sélectionner la police.
 
 > [!Note]  
-> La prise en charge du masquage des polices n’est pas disponible lorsque le ruban Windows Scenic s’exécute sur n’importe quelle plateforme antérieure à Windows 7.
+> la prise en charge du masquage des polices n’est pas disponible lorsque le ruban Windows Scenic s’exécute sur une plateforme antérieure à Windows 7.
 
  
 
@@ -57,7 +57,7 @@ Windows 7 présente le ruban Windows Scenic qui est fourni avec un ensemble de c
 [**CHOOSEFONT, structure**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
 </dt> <dt>
 
-[**Contrôles de police dans Windows Scenic ruban**](../windowsribbon/windowsribbon-element-fontcontrol.md)
+[**contrôles de police dans Windows Scenic ruban**](../windowsribbon/windowsribbon-element-fontcontrol.md)
 </dt> <dt>
 
 [**ChooseFont () boîte de dialogue commune Win32**](../win7appqual/choosefont-win32-common-dialog.md)

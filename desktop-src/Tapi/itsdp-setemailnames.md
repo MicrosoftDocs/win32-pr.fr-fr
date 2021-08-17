@@ -4,16 +4,16 @@ ms.assetid: 1d6d5b01-bc0f-455f-8b23-bc0f409afde4
 title: 'ITSdp :: SetEmailNames, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9ff31e66f5f69fe7fad43da5ec436c3f567cd49
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f23fa550c5750a3fad5d0b20ccdf2e032ed98c20a10b2f8e758ea7c9874e05a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140232"
 ---
 # <a name="itsdpsetemailnames-method"></a>ITSdp :: SetEmailNames, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **SetEmailNames** définit un tableau d’adresses de messagerie associées à l’objet blob de conférence.
 
@@ -65,7 +65,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les listes dont les *adresses* et les *noms* pointent sont de la même longueur.
 

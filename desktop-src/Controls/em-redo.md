@@ -3,7 +3,7 @@ title: Message EM_REDO (RichEdit. h)
 description: Envoie un \_ message de rétablissement em à un contrôle RichEdit pour rétablir l’action suivante dans la file d’attente de restauration par progression du contrôle.
 ms.assetid: 28ec1ec2-a56d-442f-b3cb-9feeb92edaeb
 keywords:
-- EM_REDO les contrôles de message Windows
+- EM_REDO les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bba7a684db0d40ebcfeec4a540989c4dab4c5dd2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d39b679e8bf7e78cf7ce028d0bb440438770d0d0123516313fb418b2136ebc11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437859"
 ---
 # <a name="em_redo-message"></a>\_Message de rétablissement em
 
@@ -49,7 +49,7 @@ Si l’opération de **rétablissement** échoue, la valeur de retour est une va
 
 Si l’opération de **rétablissement** échoue, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour déterminer s’il existe des actions dans la file d’attente de restauration par progression du contrôle, envoyez le message de la valeur [**em \_**](em-canredo.md) .
 
@@ -59,8 +59,8 @@ Pour déterminer s’il existe des actions dans la file d’attente de restaurat
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

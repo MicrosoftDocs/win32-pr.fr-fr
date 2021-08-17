@@ -4,12 +4,12 @@ ms.assetid: 1F433405-5943-4579-BDAD-423C4E1A6E76
 title: Élément Name (schéma de bibliothèque)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54d38baa32587ee04c62c8c3086d5353e8eed9e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 179d8b4a1f4358ccb441cc38c6c0765a6dc4d9ade8b3c32a1504be2151cfedaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883939"
 ---
 # <a name="name-element-library-schema"></a>Élément Name (schéma de bibliothèque)
 
@@ -39,9 +39,9 @@ L' <name> élément spécifie le nom de cette bibliothèque. Cet élément est o
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le nom est le nom de bibliothèque convivial qui s’affiche dans l’Explorateur Windows. Le nom peut être spécifié au <dllname> format, <index> comme dans l’exemple suivant.
+le nom est le nom de bibliothèque convivial qui s’affiche dans Windows Explorer. Le nom peut être spécifié au <dllname> format, <index> comme dans l’exemple suivant.
 
 
 ```

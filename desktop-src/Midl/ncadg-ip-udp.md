@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 173ccd0b81eb5fa7d84a6fa4d2821162b852303d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f91db32fd7636f956e64dafc0db15efb520e643b435995dd977db7a631a20c78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104101529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067059"
 ---
 # <a name="ncadg_ip_udp-attribute"></a>\_ \_ attribut UDP IP ncadg
 
@@ -45,7 +45,7 @@ Spécifie un nombre 16 bits facultatif. Les valeurs inférieures à 1024 sont g�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les restrictions suivantes s’appliquent aux protocoles de datagramme, [**ncadg \_ IPX**](ncadg-ipx.md) et **ncadg \_ IP \_ UDP**:
 
@@ -124,6 +124,6 @@ interface iface2
 [Liaison de chaîne](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

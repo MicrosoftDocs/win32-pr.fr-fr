@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 6ef421e35f7fa121c31e58cfeba4eee969a1b6fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9272f61e7efeaf90ba68b1577af9b0062e507984372f7f09ebdbfc15e4ac6fbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064969"
 ---
 # <a name="userbasedvirtuallan-singlesignon-element"></a>Élément userBasedVirtualLan (singleSignOn)
 
@@ -25,7 +25,7 @@ L’élément userBasedVirtualLan (singleSignOn) spécifie si le réseau local v
 
 Cet élément est facultatif. Quand userBasedVirtualLan n’est pas spécifié dans un profil, la valeur FALSe est utilisée.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément sera ignoré s’il est présent dans un profil.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément sera ignoré s’il est présent dans un profil.
 
 ``` syntax
 <xs:element name="userBasedVirtualLan"
@@ -36,7 +36,7 @@ Cet élément est facultatif. Quand userBasedVirtualLan n’est pas spécifié d
 
 L’élément **userBasedVirtualLan** est défini par l’élément [**singleSignOn**](onexschema-singlesignon-onex-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce paramètre peut être défini sur la ligne de commande à l’aide de la commande **netsh wlan set profileparameter** . Pour plus d’informations, consultez [commandes netsh pour réseau local sans fil (WLAN)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755301(v=ws.10)).
 
@@ -46,8 +46,8 @@ Ce paramètre peut être défini sur la ligne de commande à l’aide de la comm
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

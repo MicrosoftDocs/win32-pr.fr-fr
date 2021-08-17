@@ -4,12 +4,12 @@ ms.assetid: 71B50B44-6025-4EEC-8B37-53D80CF37B07
 title: Attribut MF_NALU_LENGTH_SET (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a01034cf62758787747882da40ac703d205fa55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f409cb3c1846667ac21e7d46c559eefb0afc4fe4efbce1f454454d286733157
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104385"
 ---
 # <a name="mf_nalu_length_set-attribute"></a>\_ \_ Attribut Set de longueur Nalu MF \_
 
@@ -19,7 +19,7 @@ Indique que les informations de longueur NALU sont envoyées en tant qu' **objet
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Définissez cet attribut sur le type de média d’entrée de MEDIASUBTYPE \_ H264 –.
 
@@ -33,8 +33,8 @@ L' **objet BLOB** contenant les informations de longueur Nalu peut être récup�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 389e251c-4a2e-45c0-8caa-a1fdc730e8c3
 title: System. ContainedItems
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37af50c6b61a565d3ec33c8a56456d2913d0d8ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7adaebcb41116a8a39956ee92607ea509366cca0c3c24f76a03dbd5f6fe4fec5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091519"
 ---
 # <a name="systemcontaineditems"></a>System. ContainedItems
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

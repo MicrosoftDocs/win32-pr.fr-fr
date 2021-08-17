@@ -16,16 +16,16 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 8af1b7c10eed427423afea8b40a1df5bc237f99e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37d7a0ab0b2e4d1ab893619eda4b3d32b8b4e1f60791e0981125d4445bda5f98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857349"
 ---
 # <a name="swbemobjectexecmethodasync_-method"></a>SWbemObject.Exe\_ méthode cMethodAsync
 
-La **méthode \_ ExecMethodAsync** de [**SWbemObject**](swbemobject.md) exécute de manière asynchrone une méthode exportée par un fournisseur de méthode. Cette méthode est similaire à [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md), mais fonctionne directement sur l’objet de la méthode à exécuter. Windows Management Instrumentation (WMI) n’implémente pas cette méthode. Le fournisseur implémente cette méthode.
+La **méthode \_ ExecMethodAsync** de [**SWbemObject**](swbemobject.md) exécute de manière asynchrone une méthode exportée par un fournisseur de méthode. Cette méthode est similaire à [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md), mais fonctionne directement sur l’objet de la méthode à exécuter. Windows WMI (Management Instrumentation) n’implémente pas cette méthode. Le fournisseur implémente cette méthode.
 
 Pour une explication de cette syntaxe, consultez [conventions de document pour l’API de script](document-conventions-for-the-scripting-api.md).
 
@@ -165,7 +165,7 @@ L’utilisateur actuel n’a pas été autorisé à exécuter la méthode.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez la méthode **SWbemObject.Exe\_ cMethodAsync** comme alternative à l’accès direct pour l’exécution d’une [*méthode de fournisseur*](gloss-p.md) lorsque vous ne pouvez pas exécuter une méthode directement. Par exemple, si votre méthode a des paramètres out, utilisez la méthode **SWbemObject.ExecMethodAsync \_** avec un langage de script qui ne prend pas en charge les paramètres de sortie. Dans le cas contraire, il est recommandé d’appeler une méthode à l’aide d’un accès direct. Pour plus d’informations, consultez [manipulation d’informations sur les classes et les instances](manipulating-class-and-instance-information.md).
 
@@ -179,7 +179,7 @@ La méthode **SWbemObject.Exe\_ cMethodAsync** suppose que l’objet représent�
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre la méthode [**ExecMethodAsync**](swbemservices-execmethodasync.md) . Le script crée un [**objet \_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process) qui représente un processus qui exécute le bloc-notes. Il illustre la configuration d’un objet [**Parameters**](swbemmethod-inparameters.md) et explique comment obtenir les résultats d’un objet de [**paramètres de paramètres**](swbemmethod-outparameters.md) .
+L’exemple suivant illustre la méthode [**ExecMethodAsync**](swbemservices-execmethodasync.md) . le script crée un [**objet \_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process) qui représente un processus en cours d’exécution Bloc-notes. Il illustre la configuration d’un objet [**Parameters**](swbemmethod-inparameters.md) et explique comment obtenir les résultats d’un objet de [**paramètres de paramètres**](swbemmethod-outparameters.md) .
 
 Pour obtenir un script qui montre les mêmes opérations exécutées de façon synchrone, consultez [**SWbemObject.ExecMethod**](swbemobject-execmethod-.md). Pour obtenir un exemple d’utilisation de l’accès direct, consultez [**créer une méthode dans la classe \_ processus Win32**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process). Pour obtenir un exemple de la même opération à l’aide d’un objet [**SWbemServices**](swbemservices.md) , consultez [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md).
 

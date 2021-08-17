@@ -4,12 +4,12 @@ ms.assetid: 8a6aa39c-ec81-42ac-a26e-29f1f6960220
 title: Configuration et démarrage d’une session de suivi d’événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f86ec57975e8f12ede17e5e2cda962c010aa1af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1650e503b8c54108d58f6e7cebda546eb9d9e32d8ef014da0c27e5d062af4567
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963159"
 ---
 # <a name="configuring-and-starting-an-event-tracing-session"></a>Configuration et démarrage d’une session de suivi d’événements
 
@@ -17,7 +17,7 @@ Pour configurer une session de suivi d’événements, utilisez la structure des
 
 Une fois que vous avez spécifié les propriétés de la session, appelez la fonction [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) pour démarrer la session. Si la fonction est réussie, le paramètre *SessionHandle* contient le handle de session et la propriété **LoggerNameOffset** contient l’offset du nom de la session.
 
-Pour activer les fournisseurs qui doivent enregistrer des événements dans votre session, appelez la fonction [**EnableTrace**](/windows/win32/api/evntrace/nf-evntrace-enabletrace) pour activer les fournisseurs classiques et la fonction [**EnableTraceEx**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex) pour activer les fournisseurs [basés sur un manifeste](about-event-tracing.md) . Pour permettre aux fournisseurs de journaliser des événements de journal sur des conditions spécifiques sur Windows 8.1, Windows Server 2012 R2 et versions ultérieures, appelez la fonction [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) .
+Pour activer les fournisseurs qui doivent enregistrer des événements dans votre session, appelez la fonction [**EnableTrace**](/windows/win32/api/evntrace/nf-evntrace-enabletrace) pour activer les fournisseurs classiques et la fonction [**EnableTraceEx**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex) pour activer les fournisseurs [basés sur un manifeste](about-event-tracing.md) . pour permettre aux fournisseurs de journaliser des événements de journal sur des conditions spécifiques sur Windows 8.1, Windows Server 2012 R2 et versions ultérieures, appelez la fonction [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) .
 
 En outre, vous pouvez également suivre des informations supplémentaires sur un événement à l’aide d’un appel à la fonction [**TraceSetInformation**](/windows/win32/api/evntrace/nf-evntrace-tracesetinformation) . **TraceSetInformation** place des informations de traçage supplémentaires dans la section des données étendues d’un événement et peut inclure des informations telles que les informations de version de la trace ou les fournisseurs actuellement inscrits sur le système. Pour plus d’informations, consultez [récupération de données de suivi d’événements supplémentaires](retrieving-additional-event-tracing-data.md).
 
@@ -25,7 +25,7 @@ Jusqu’à huit sessions de suivi peuvent activer et recevoir des événements d
 
 Vous pouvez utiliser l’une des trois fonctions pour activer un fournisseur, mais vous risquez de perdre des fonctionnalités si vous utilisez [**EnableTrace**](/windows/win32/api/evntrace/nf-evntrace-enabletrace) pour activer un fournisseur basé sur un manifeste, car vous ne pouvez pas fournir une valeur MatchAllKeyword, spécifier des éléments de données étendus à inclure dans l’événement ou fournir des données de filtre définies par le fournisseur. Pour plus d’informations, consultez la section Notes de chaque fonction.
 
-Sur Windows 8.1, Windows Server 2012 R2 et versions ultérieures, la charge utile d’événement, la portée et les filtres de parcours de pile peuvent être utilisés par la fonction [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) et les structures de [**\_ \_ descripteur de filtre d’événement**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) et de [**\_ \_ paramètres de trace**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters) pour filtrer sur des conditions spécifiques dans une session de journalisation. Pour plus d’informations sur les filtres de charge utile d’événement, consultez les fonctions [**TdhCreatePayloadFilter**](/windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter)et [**TdhAggregatePayloadFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters) , ainsi que les structures de prédicat **activer les \_ \_ paramètres de trace**, **\_ \_ descripteur de filtre d’événement** et de [**\_ filtre \_ de charge utile**](/windows/desktop/api/Tdh/ns-tdh-payload_filter_predicate) .
+sur Windows 8.1, Windows Server 2012 R2 et versions ultérieures, la charge utile d’événement, la portée et les filtres de parcours de pile peuvent être utilisés par la fonction [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) et les structures [**activer les \_ \_ paramètres de TRACE**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters) et [**\_ \_ descripteurs de filtre d’événement**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) pour filtrer sur des conditions spécifiques dans une session de journalisation. Pour plus d’informations sur les filtres de charge utile d’événement, consultez les fonctions [**TdhCreatePayloadFilter**](/windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter)et [**TdhAggregatePayloadFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters) , ainsi que les structures de prédicat **activer les \_ \_ paramètres de trace**, **\_ \_ descripteur de filtre d’événement** et de [**\_ filtre \_ de charge utile**](/windows/desktop/api/Tdh/ns-tdh-payload_filter_predicate) .
 
 Pour déterminer le niveau et les mots clés utilisés pour activer un fournisseur basé sur un manifeste, utilisez l’une des commandes suivantes :
 

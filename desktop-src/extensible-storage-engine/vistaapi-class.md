@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 77f9b3ab7e3ab94ae6b4181253cf735ba92699f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2cec15da58bc53c44c5bf6ed588b5c6c6c71ea1a42e2f5eb488e2ba3d5b2c0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119106903"
 ---
 # <a name="vistaapi-class"></a>VistaApi, classe
 
-Les API ESENT prises en charge dans Windows Vista.
+les api ESENT prises en charge pour la première fois dans Windows Vista.
 
 ## <a name="inheritance-hierarchy"></a>Hiérarchie d’héritage
 

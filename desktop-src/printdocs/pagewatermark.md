@@ -4,12 +4,12 @@ ms.assetid: d1c36c47-107c-4012-a839-1018c2652209
 title: PageWatermark
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b93eadfb3aeaa2c0be1de2cf5775bd1b5c88666
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 7b5070b6418b3ba0830f95cba059d6a84e9ababd1f83097830aeca5ca71e074f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091869"
 ---
 # <a name="pagewatermark"></a>PageWatermark
 
@@ -29,7 +29,7 @@ Décrit le paramètre de filigrane des caractéristiques de sortie et de filigra
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                              |
 | Préfixe d’étendue <br/> | Page<br/>                                                                                                                                 |
-| Notes <br/>          | Les coordonnées sont relatives à PageImageableSize, où l’origine du filigrane est relative à l’origine du PageImageableSize.<br/> |
+| Remarques <br/>          | Les coordonnées sont relatives à PageImageableSize, où l’origine du filigrane est relative à l’origine du PageImageableSize.<br/> |
 
 
 
@@ -95,7 +95,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Nom                               | Type de données         | Unité                  | Valeurs prises en charge                                                                                                                                                                      | Résumé                                                                      |
+| Nom                               | Type de données         | Unité                  | Valeurs prises en charge                                                                                                                                                                      | Récapitulatif                                                                      |
 |------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | \_OptionName\_<br/>          | string<br/> | caractères<br/> | Nom complet valide tel que défini par les [espaces de noms dans XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/). Si aucun espace de noms n’est spécifié, l’espace de noms par défaut est utilisé.<br/> | Nom de l'option.<br/>                                           |
 | \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Définit une option qui, lorsqu’elle est sélectionnée, désactive cette fonctionnalité.<br/> |

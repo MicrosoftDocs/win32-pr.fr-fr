@@ -3,12 +3,12 @@ description: Cette section décrit la prise en charge Media Foundation pour les 
 title: Prise en charge de Matroska Media Container (MKV)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdd860f58087bc8a0f3fe95d278bfa81edc412d0
-ms.sourcegitcommit: 88049609e29f91a42442235885abf56f598b06b3
+ms.openlocfilehash: aceb7a836b4a0409af3c359c8d81a0f232e6eb61082960cfb2b0705531de199c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110154214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102139"
 ---
 # <a name="matroska-media-container-mkv-support"></a>Prise en charge de Matroska Media Container (MKV)
 
@@ -65,7 +65,7 @@ ID Matroska : V_MPEG4/ISO/ASP
 
 ID Matroska : V_MS/VFW/FOURCC
 
-- Description : correspond à plusieurs codecs généralement pris en charge dans le format AVI et disponibles sur la console.
+- Description : Cartes à plusieurs codecs généralement pris en charge dans le format AVI et disponibles sur la console.
 
 ID Matroska : V_THEORA
 
@@ -216,7 +216,7 @@ ID Matroska : A_TRUEHD
 
 ID Matroska : A_MS/ACM
 
-- MSFT Media Foundation MF_MT_SUBTYPE : correspond à plusieurs types audio WAVE_FORMAT définis dans mmreg. h
+- MSFT Media Foundation MF_MT_SUBTYPE : Cartes à plusieurs types audio WAVE_FORMAT définis dans mmreg. h
 
 
 ### <a name="subtitles-codec-support-for-mkv"></a>Prise en charge du codec sous-titres pour MKV
