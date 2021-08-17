@@ -13,16 +13,16 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: e29cd7b17c634250f56cbafcf86379449ac88199
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e1e9bea21cd4e21ca7549ce34343b42c50b293471e69576d7c1164f92a371c62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103846990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118004104"
 ---
 # <a name="ldrdllnotification-callback-function"></a>LdrDllNotification fonction de rappel
 
-\[Cette fonction peut être modifiée ou supprimée de Windows sans préavis.\]
+\[cette fonction peut être modifiée ou supprimée de Windows sans préavis.\]
 
 Fonction de rappel de notification spécifiée avec la fonction [**LdrRegisterDllNotification**](ldrregisterdllnotification.md) . Le chargeur appelle cette fonction lorsqu’une DLL est chargée pour la première fois.
 
@@ -112,7 +112,7 @@ Pointeur vers les données de contexte pour la fonction de rappel.
 
 Cette fonction de rappel ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction de rappel de notification est appelée avant que la liaison dynamique ait lieu.
 
@@ -122,8 +122,8 @@ La fonction de rappel de notification est appelée avant que la liaison dynamiqu
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: Envoyé à une application qui a initié une carte d’apprentissage avec l’aide de Windows.
+description: envoyé à une application qui a initié une carte d’apprentissage avec Windows aide.
 title: Message WM_TCARD (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,16 +13,16 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5eb6a3b5a4b840549b75e152f0420bfa055138c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85435c5674ad6a2ac4e05edaa5d450dc61de9eac6dae05d3b19662aec91a61f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117856984"
 ---
 # <a name="wm_tcard-message"></a>\_Message WM TCARD
 
-Envoyé à une application qui a initié une carte d’apprentissage avec l’aide de Windows. Le message informe l’application lorsque l’utilisateur clique sur un bouton autorisé. Une application initie une carte d’apprentissage en spécifiant la \_ commande help TCARD dans un appel à la fonction [**WinHelp**](/windows/desktop/api/Winuser/nf-winuser-winhelpa) .
+envoyé à une application qui a initié une carte d’apprentissage avec Windows aide. Le message informe l’application lorsque l’utilisateur clique sur un bouton autorisé. Une application initie une carte d’apprentissage en spécifiant la \_ commande help TCARD dans un appel à la fonction [**WinHelp**](/windows/desktop/api/Winuser/nf-winuser-winhelpa) .
 
 ## <a name="parameters"></a>Paramètres
 
@@ -75,7 +75,7 @@ L’utilisateur a fermé la carte de formation.
 
 </dt> <dd>
 
-L’utilisateur a cliqué sur un bouton **d’aide** Windows autorisé.
+l’utilisateur a cliqué sur un bouton **d’aide** Windows auteur.
 
 </dd> <dt>
 
@@ -167,13 +167,13 @@ Si *idAction* spécifie Help \_ TCARD \_ Data, ce paramètre est une **valeur de
 
 La valeur de retour est ignorée ; utilisez zéro.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                          |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                          |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Winuser. h</dt> </dl> |
 

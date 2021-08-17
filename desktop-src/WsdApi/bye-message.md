@@ -4,12 +4,12 @@ ms.assetid: 7b9abfcc-28ab-4f29-af69-6dc68e3f51b6
 title: Message Bye
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26880e8b1d4eae7f366f797017b033f9f444fe1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8276c05314b31782442bfdf6de998dd41241391de9dc94947409041c8f4aa420
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738651"
 ---
 # <a name="bye-message"></a>Message Bye
 
@@ -107,7 +107,7 @@ Un message Bye a les points de focalisation suivants.
 
 <dl> <dt>
 
-[Détection et messages d’échange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
+[détection et Messages de Exchange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Message de salutation](hello-message.md)

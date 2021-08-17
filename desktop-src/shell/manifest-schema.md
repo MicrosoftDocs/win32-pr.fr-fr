@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: d0b57f1eb81169674c6c8d36e66c8a3cd21cf0e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30324e32e1bd841423318a37eb1472d673ffc53c6e745f54f9398cec73138239
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858855"
 ---
 # <a name="transfer-manifest-schema"></a>Schéma de manifeste de transfert
 
@@ -254,11 +254,11 @@ Décrit un fichier unique à copier. Plusieurs éléments de [fichier](#syntax) 
 
 | Attribut   | Description                                                                                                                                                                  |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Indiquez | facultatif. Type MIME du fichier.                                                                                                                                         |
+| Indiquez | Facultatif. Type MIME du fichier.                                                                                                                                         |
 | destination | Obligatoire. Chemin d’accès suggéré pour le fichier une fois qu’il a été téléchargé. Ce chemin d’accès est relatif à l’URL de destination du site de téléchargement. Le site de chargement peut modifier cette valeur si nécessaire. |
-| extension   | facultatif. Extension de nom de fichier du fichier.                                                                                                                               |
+| extension   | Facultatif. Extension de nom de fichier du fichier.                                                                                                                               |
 | id          | Obligatoire. Index numérique du fichier.                                                                                                                                   |
-| est        | facultatif. Taille du fichier, en octets.                                                                                                                                    |
+| taille        | Facultatif. Taille du fichier, en octets.                                                                                                                                    |
 | source      | Obligatoire. Chemin d’accès complet du système de fichiers pour le fichier.                                                                                                                            |
 
 
@@ -625,7 +625,7 @@ URL vers laquelle le fichier doit être publié. Cet élément est ajouté par l
 
 | Attribut | Description                                                                    |
 |-----------|--------------------------------------------------------------------------------|
-| nom_fichier  | facultatif. Nom de fichier du fichier publié.                                   |
+| nom_fichier  | Facultatif. Nom de fichier du fichier publié.                                   |
 | href      | Obligatoire. URL du dossier de destination.                                   |
 | name      | Obligatoire. Définit le nom des données de formulaire associé à cette section de la publication. |
 
@@ -801,7 +801,7 @@ Aucun.
 
 | Élément parent | Éléments enfants                                                    |
 |----------------|-------------------------------------------------------------------|
-| Aucun           | [filelist](#syntax), [folderlist](#syntax), [uploadinfo](#syntax) |
+| None           | [filelist](#syntax), [folderlist](#syntax), [uploadinfo](#syntax) |
 
 
 

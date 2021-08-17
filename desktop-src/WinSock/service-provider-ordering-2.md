@@ -4,12 +4,12 @@ ms.assetid: f76c63b3-9952-4aaf-813f-152f4838d3c4
 title: Classement des fournisseurs de services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c23d9357d30c94b084bf6288013c38a2d46a4b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 445fcc0cadafae8fd61ee2e34a872485b67466037c1dc71e34ab173156c8d9b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740580"
 ---
 # <a name="service-provider-ordering"></a>Classement des fournisseurs de services
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 298f6b11ddfbad300585da45cfac96e9ccf4350d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2da1f274507aa590bb894246927c09d2e94039dc6f8a125612bc48df1a699f02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106544527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837913"
 ---
 # <a name="ms-tpm-tpm-information-for-computer-bl-attribute"></a>attribut ms-TPM-TPM-information-for-Computer-BL
 

@@ -4,12 +4,12 @@ ms.assetid: 83ed881f-8474-445e-8fb5-9635138a63dd
 title: Données hors bande dans le SPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab9808fa301073bcbb06be23a9487c2a1fa4f14d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 858e2845e9fbe198dc7af7a70edfad8a4ac429f8f1abe84289b87a779f6e478b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741049"
 ---
 # <a name="out-of-band-data-in-the-spi"></a>Données hors bande dans le SPI
 

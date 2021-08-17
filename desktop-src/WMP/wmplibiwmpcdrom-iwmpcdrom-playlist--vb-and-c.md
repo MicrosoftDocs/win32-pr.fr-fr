@@ -3,9 +3,9 @@ title: Propriété de la sélection IWMPCdrom
 description: La propriété playlist obtient une interface IWMPPlaylist représentant les pistes sur le CD-ROM actuellement dans le lecteur de CD ou les entrées de titre au niveau de la racine pour un DVD.
 ms.assetid: 09c3db45-6586-4a5b-b72c-77c64473bdd0
 keywords:
-- Propriété playlist lecteur Windows Media
-- Propriété playlist lecteur Windows Media, interface IWMPCdrom
-- Interface IWMPCdrom lecteur Windows Media, propriété playlist
+- Lecteur Windows Media de propriétés de la sélection
+- Lecteur Windows Media de propriété Playlist, interface IWMPCdrom
+- Lecteur Windows Media de l’interface IWMPCdrom, propriété Playlist
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a386881c8416f4ea1881f3ccd68ee4291aa3fa84
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 988ff17e3716f01308957b3f5f247759fb3f18f639f7b279a8f00d7f6f9e2189
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116605"
 ---
 # <a name="iwmpcdromplaylist-property"></a>IWMPCdrom ::P propriété laylist
 
@@ -48,13 +48,13 @@ Public ReadOnly Property Playlist As IWMPPlaylist
 
 Interface **wmplib. IWMPPlaylist** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En général, le contenu basé sur DVD est organisé en titres. Chaque titre contient un ou plusieurs chapitres. Chaque DVD étant créé différemment, la façon dont les titres et les chapitres sont utilisés est celle de l’auteur du contenu.
 
 Pour un DVD, cette propriété obtient une sélection qui contient comme premier élément une interface **IWMPMedia** nommée « DVD ». Cette interface représente le support DVD. La lecture de l’élément entraîne la lecture du DVD à partir du début s’il s’agit de la première lecture après l’insertion d’un nouveau DVD, ou la reprise de la lecture si le DVD est le même que le dernier DVD affiché. La définition de cet élément en tant qu’élément actuel pendant la lecture entraîne la lecture du DVD à partir du début.
 
-Les éléments supplémentaires (représentés par les interfaces **IWMPMedia** ) de la sélection sont des titres de DVD représentés par des sélections imbriquées. Lorsque vous affectez à **IWMPControls. CurrentItem** la valeur égal à l’un de ces éléments de sélection imbriqués, le lecteur Windows Media définit automatiquement la sélection imbriquée comme playlist actuelle après le début de la lecture du chapitre. Vous pouvez ensuite utiliser les propriétés de l’interface **IWMPPlaylist** , les méthodes et les événements associés pour travailler avec des chapitres DVD, qui sont également des éléments de sélection.
+Les éléments supplémentaires (représentés par les interfaces **IWMPMedia** ) de la sélection sont des titres de DVD représentés par des sélections imbriquées. lorsque vous affectez à **IWMPControls. currentItem** la valeur égal à l’un de ces éléments de sélection imbriqués, Lecteur Windows Media définit automatiquement la sélection imbriquée comme playlist actuelle après le début de la lecture du chapitre. Vous pouvez ensuite utiliser les propriétés de l’interface **IWMPPlaylist** , les méthodes et les événements associés pour travailler avec des chapitres DVD, qui sont également des éléments de sélection.
 
 Pour récupérer la valeur de cette propriété, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

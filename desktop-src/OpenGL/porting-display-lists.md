@@ -10,12 +10,12 @@ keywords:
 - afficher les listes, Portage à partir de IRIS GL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 461000e6d785f0d03bbbc8f738eba60768bc5d74
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 858f1f3be180b3ef09c81bb8d61b18705fc9485742d7384562eecff142f4bfb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980801"
 ---
 # <a name="porting-display-lists"></a>Portage des listes d’affichage
 
@@ -45,7 +45,7 @@ Le tableau suivant répertorie les fonctions IRIS GL Display List avec leurs fon
 
 
 
- 
+ 
 
 Cette rubrique contient des informations sur les éléments suivants.
 
@@ -53,9 +53,9 @@ Cette rubrique contient des informations sur les éléments suivants.
 -   [Portage des listes d’affichage modifiées](porting-edited-display-lists.md)
 -   [Exemple de port d’une liste d’affichage](a-sample-port-of-a-display-list.md)
 
- 
+ 
 
- 
+ 
 
 
 

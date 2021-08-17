@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 002c85b189a3994b70795c05228ae5331c610284
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: caaa4ab9688ab8169bd0955c8abb1e976e7eb318e94875be1486e61b32e13207
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117862793"
 ---
 # <a name="irichchunkremotegetdata-method"></a>IRichChunk :: RemoteGetData, méthode
 

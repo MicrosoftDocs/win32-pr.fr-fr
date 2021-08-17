@@ -4,17 +4,17 @@ description: Avec une barre de progression, les utilisateurs peuvent suivre la p
 ms.assetid: 067961fa-2fb1-4cd1-99a4-cbe2244c3913
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: f0bb693541f40b82c66409b9f6696456491ba687
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: b62240da0df0b284e8a5f7175131eaa9db18fc1743f9f8701019cc2efb390464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117853731"
 ---
 # <a name="progress-bars"></a>Barres de progression
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Avec une barre de progression, les utilisateurs peuvent suivre la progression d’une longue opération. Une barre de progression peut afficher un pourcentage approximatif d’achèvement (arrêt) ou indiquer qu’une opération est en cours (indéterminé).
 
@@ -98,7 +98,7 @@ Ce modèle est généralement inutile et doit être évité.
 </tr>
 <tr class="odd">
 <td><strong>Barres de progression déterminées non modales</strong><br/> Indiquez la progression d’une opération en remplissant de gauche à droite et en remplissant complètement une fois l’opération terminée.<br/></td>
-<td>Contrairement aux barres de progression modales, les utilisateurs peuvent effectuer d’autres tâches pendant que l’opération est en cours. Ces barres de progression peuvent être affichées en contexte ou sur une barre d’État. <br/> <img src="images/progress-bars-image7.png" alt="Screen shot of progress bar on status bar " /><br/> Dans cet exemple, Windows Internet ExplorerWindows Internet Explorer affiche la progression du chargement d’une page Web dans la barre d’État. Les utilisateurs peuvent effectuer d’autres tâches pendant le chargement de la page.<br/></td>
+<td>Contrairement aux barres de progression modales, les utilisateurs peuvent effectuer d’autres tâches pendant que l’opération est en cours. Ces barres de progression peuvent être affichées en contexte ou sur une barre d’État. <br/> <img src="images/progress-bars-image7.png" alt="Screen shot of progress bar on status bar " /><br/> dans cet exemple, Windows internet ExplorerWindows internet Explorer affiche la progression du chargement d’une page Web dans la barre d’état. Les utilisateurs peuvent effectuer d’autres tâches pendant le chargement de la page.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -113,14 +113,14 @@ Ce modèle est généralement inutile et doit être évité.
 
 |   Type de barre de progression  | Description             |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Barres de progression indéterminées modales**<br/> indiquez qu’une opération est en cours en présentant une animation qui continue continuellement à travers la barre de gauche à droite. <br/>   | Utilisé uniquement pour les opérations dont la progression globale ne peut pas être déterminée, donc il n’y a aucune notion d’exhaustivité. les barres de progression de désachèvement sont préférables, car elles indiquent le pourcentage approximatif de l’opération qui a été effectuée, et aident les utilisateurs à déterminer si l’opération doit continuer à attendre. ils sont également moins gênants. <br/> ![capture d’écran de la barre de progression modale](images/progress-bars-image8.png)<br/> Dans cet exemple, Windows Update utilise une barre de progression modale modale pour indiquer la progression lors de la recherche de mises à jour.<br/> |
-| **Barres de progression indéterminées non modales**<br/> indiquez qu’une opération est en cours en présentant une animation qui continue continuellement à travers la barre de gauche à droite.<br/> | Contrairement aux barres de progression modales, les utilisateurs peuvent effectuer d’autres tâches pendant que le traitement est en cours. Ces barres de progression peuvent être affichées en contexte ou sur une barre d’État. <br/> ![capture d’écran de la barre de progression fine dans la fenêtre Outlook ](images/progress-bars-image9.png)<br/> Dans cet exemple, Microsoft Outlook utilise une barre de progression indéterminée sans mode en remplissant les propriétés du contact. Les utilisateurs peuvent continuer à utiliser la fenêtre des propriétés pendant que ce travail est en cours.<br/>                                                                                                                    |
+| **Barres de progression indéterminées modales**<br/> indiquez qu’une opération est en cours en présentant une animation qui continue continuellement à travers la barre de gauche à droite. <br/>   | Utilisé uniquement pour les opérations dont la progression globale ne peut pas être déterminée, donc il n’y a aucune notion d’exhaustivité. les barres de progression de désachèvement sont préférables, car elles indiquent le pourcentage approximatif de l’opération qui a été effectuée, et aident les utilisateurs à déterminer si l’opération doit continuer à attendre. ils sont également moins gênants. <br/> ![capture d’écran de la barre de progression modale](images/progress-bars-image8.png)<br/> dans cet exemple, Windows Update utilise une barre de progression modale modale pour indiquer la progression lors de la recherche de mises à jour.<br/> |
+| **Barres de progression indéterminées non modales**<br/> indiquez qu’une opération est en cours en présentant une animation qui continue continuellement à travers la barre de gauche à droite.<br/> | Contrairement aux barres de progression modales, les utilisateurs peuvent effectuer d’autres tâches pendant que le traitement est en cours. Ces barres de progression peuvent être affichées en contexte ou sur une barre d’État. <br/> ![capture d’écran de la barre de progression fine dans la fenêtre Outlook ](images/progress-bars-image9.png)<br/> dans cet exemple, Microsoft Outlook utilise une barre de progression indéterminée non modale lors du remplissage des propriétés de contact. Les utilisateurs peuvent continuer à utiliser la fenêtre des propriétés pendant que ce travail est en cours.<br/>                                                                                                                    |
 
 
 
  
 
-### <a name="meters"></a>Mètres
+### <a name="meters"></a>Compteurs
 
 
 
@@ -134,7 +134,7 @@ Ce modèle est généralement inutile et doit être évité.
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **Fournissez des commentaires sur la progression de l’exécution d’une opération de longue durée.** Les utilisateurs ne doivent jamais deviner si la progression est effectuée.
 -   **Indiquez clairement la progression réelle.** La barre de progression doit avancer si la progression est effectuée. Si la plage des durées d’achèvement attendues est importante, envisagez d’utiliser une échelle non linéaire pour indiquer la progression des longues périodes. Vous ne souhaitez pas que les utilisateurs se terminent que votre programme s’est bloqué quand il ne l’a pas fait.
@@ -157,7 +157,7 @@ Ce modèle est généralement inutile et doit être évité.
 
     ![capture d’écran de la barre de progression montrant la vitesse de transfert ](images/progress-bars-image11.png)
 
-    Dans cet exemple, l’Explorateur Windows copie les fichiers sélectionnés par l’utilisateur, de sorte que l’affichage des noms de fichiers en cours de copie est explicite.
+    dans cet exemple, Windows Explorer copie les fichiers sélectionnés par l’utilisateur, de sorte que l’affichage des noms de fichiers en cours de copie est explicite.
 
     **Incorrect :**
 
@@ -165,7 +165,7 @@ Ce modèle est généralement inutile et doit être évité.
 
     Dans cet exemple, un programme d’installation fournit des détails qui n’ont pas de sens pour l’utilisateur.
 
--   **Fournissez des animations utiles.** Si c’est bien fait, les animations améliorent l’expérience utilisateur en aidant les utilisateurs à visualiser l’opération. Les bonnes animations ont un impact plus important que le texte seul. Par exemple, la barre de progression de la commande Outlook Delete affiche la Corbeille pour la destination si les fichiers peuvent être récupérés, mais aucune corbeille si les fichiers ne peuvent pas être récupérés.
+-   **Fournissez des animations utiles.** Si c’est bien fait, les animations améliorent l’expérience utilisateur en aidant les utilisateurs à visualiser l’opération. Les bonnes animations ont un impact plus important que le texte seul. par exemple, la barre de progression de la commande Outlook Delete affiche la corbeille pour la destination si les fichiers peuvent être récupérés, mais aucune corbeille si les fichiers ne peuvent pas être récupérés.
 
     ![capture d’écran de la progression de la suppression ](images/progress-bars-image14.png)
 
@@ -325,7 +325,7 @@ Pour arrêter les barres de progression :
 -   **Activez la barre de progression en rouge lorsqu’il existe une condition récupérable par l’utilisateur qui empêche la poursuite de la progression.** Affichez un message pour expliquer le problème et recommander une solution.
 -   **Activez la barre de progression en jaune pour indiquer que l’utilisateur a suspendu la tâche ou qu’il existe une condition qui entrave la progression** , mais que la progression est toujours en cours (par exemple, avec une connectivité réseau médiocre). Si l’utilisateur a été suspendu, remplacez l’étiquette du bouton suspendre par reprendre. Si la progression est entravée, affichez un message pour expliquer le problème et recommander une solution.
 
-### <a name="meters"></a>Mètres
+### <a name="meters"></a>Compteurs
 
 -   **Utilisez les barres de progression uniquement pour la progression.** Utilisez des compteurs pour indiquer les pourcentages qui ne sont pas liés à la progression.
 

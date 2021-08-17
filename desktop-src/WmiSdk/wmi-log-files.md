@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Fichiers journaux WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a51dfe4efbec32e60812980511676f723fd5aee9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fff9064dd82484568282f649b3380f544d9ba58a569e36583664806d47b5e9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739426"
 ---
 # <a name="wmi-log-files"></a>Fichiers journaux WMI
 
@@ -22,7 +22,7 @@ WMI utilise le [suivi d’événements](/windows/desktop/ETW/event-tracing-porta
 
 ## <a name="event-tracing-instead-of-text-logs"></a>Suivi des événements au lieu des journaux texte
 
-L’activité du service WMI est enregistrée dans le fichier WMITracing. log. Pour plus d’informations sur l’activation du suivi d’événements WMI et l’accès au fichier WMITracing. log, consultez suivi de l' [activité WMI](tracing-wmi-activity.md). Les fournisseurs de Windows Driver Model (WDM) continuent à se connecter au fichier wbemprov. log.
+L’activité du service WMI est enregistrée dans le fichier WMITracing. log. Pour plus d’informations sur l’activation du suivi d’événements WMI et l’accès au fichier WMITracing. log, consultez suivi de l' [activité WMI](tracing-wmi-activity.md). Windows Les fournisseurs de modèle de pilote (WDM) continuent à se connecter au fichier wbemprov. log.
 
 ## <a name="wmi-log-files"></a>Fichiers journaux WMI
 

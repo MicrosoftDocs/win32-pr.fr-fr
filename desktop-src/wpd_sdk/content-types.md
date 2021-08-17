@@ -4,16 +4,16 @@ ms.assetid: f1bbd10f-bfe8-4860-aa10-17d198dc50a3
 title: Types de contenu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2a44021d9f91fc6a3f43853763e5573e0c64b3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae7bf7c70d3f76fc4b201dd6866e6bcce8403f12401051a5b03658f7ce39b599
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117653087"
 ---
 # <a name="content-types"></a>Types de contenu
 
-Appareils mobiles Windows classifie tous les objets par type de contenu. Les sections suivantes répertorient les types pris en charge.
+Windows Périphériques portables classifie tous les objets par type de contenu. Les sections suivantes répertorient les types pris en charge.
 
 
 
@@ -26,7 +26,7 @@ Appareils mobiles Windows classifie tous les objets par type de contenu. Les sec
 | [**\_type de contenu wpd \_ \_ tout**](wpd-content-type-all.md)                                   | Représente tous les types d’objets.                                                                |
 | [**\_ \_ rendez-vous de type de contenu wpd \_**](wpd-content-type-appointment.md)                   | Représente un rendez-vous dans un calendrier.                                                    |
 | [**TYPE de contenu WPD- \_ \_ \_ \_ album audio**](wpd-content-type-audio-album.md)                  | Représente une collection de fichiers audio.                                                     |
-| [**\_type de contenu wpd \_ \_ audio**](wpd-content-type-audio.md)                               | Représente un fichier audio, tel qu’un fichier Windows Media Audio (WMA) ou MP3.                  |
+| [**\_type de contenu wpd \_ \_ audio**](wpd-content-type-audio.md)                               | représente un fichier audio, tel qu’un fichier Windows Media Audio (WMA) ou MP3.                  |
 | [**\_calendrier du \_ type de contenu wpd \_**](wpd-content-type-calendar.md)                         | Représente un calendrier.                                                                      |
 | [**\_certificat de \_ type de contenu wpd \_**](wpd-content-type-certificate.md)                   | Représente un certificat utilisé pour l’authentification.                                           |
 | [**\_contact de \_ type de contenu wpd \_**](wpd-content-type-contact.md)                           | Représente des données de contact personnelles.                                                           |

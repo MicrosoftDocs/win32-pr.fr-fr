@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c0cb7bf2d6215c3de3b4cf656d3777d94e8f719
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5f13ffe007e537fe8d3f63d99aafd768cce4e914af2afb454d3bfed285a908d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106517349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837795"
 ---
 # <a name="ms-wmi-author-attribute"></a>MS-WMI-attribut Author
 
@@ -44,7 +44,7 @@ Auteur d’une instance d’une classe.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

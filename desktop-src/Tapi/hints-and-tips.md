@@ -1,17 +1,17 @@
 ---
 description: Vous trouverez ci-dessous des conseils et des conseils à prendre en compte lors de l’écriture d’une application pour TAPI 3
 ms.assetid: 55aae46a-af5c-4b6d-89fc-9063f078bcd6
-title: Conseils et astuces
+title: indicateurs et Astuces
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9202bdef97fb87b9f0736ed032b298af56917d8c
-ms.sourcegitcommit: 70f39ec77d19d3c32c376ee2831753d2cafae41a
+ms.openlocfilehash: 57d51e8c7e3f8c6e4a9e38b27fa5cfe4c10e45d37cfa67af095d573eea319614
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106537195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762931"
 ---
-# <a name="hints-and-tips"></a>Conseils et astuces
+# <a name="hints-and-tips"></a>indicateurs et Astuces
 
 Vous trouverez ci-dessous des conseils et des conseils à prendre en compte lors de l’écriture d’une application pour TAPI 3 :
 

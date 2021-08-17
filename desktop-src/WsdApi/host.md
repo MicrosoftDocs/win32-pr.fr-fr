@@ -4,12 +4,12 @@ ms.assetid: 95066c04-5bdc-4c97-98b8-1da9928d9395
 title: élément hôte
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9f051f6665715ecaa519a060e18a3cbf4912210
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 9fe0637c358fabe27f2a1203306cd53407d85ab8b52f2dcd7a827dd49becffda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738605"
 ---
 # <a name="host-element"></a>élément hôte
 
@@ -34,7 +34,7 @@ Il n’y a pas d’attributs.
 | Élément                                   | Description                                                                 |
 |-------------------------------------------|-----------------------------------------------------------------------------|
 | [**ServiceID**](serviceid.md)<br/> | Définit l’identificateur de service pour l’hôte de service.<br/> <br/> |
-| [**Types**](types.md)<br/>         | Définit une liste de noms qualifiés XSD.<br/> <br/>               |
+| [**Modes**](types.md)<br/>         | Définit une liste de noms qualifiés XSD.<br/> <br/>               |
 
 
 
@@ -61,7 +61,7 @@ Il n’y a pas d’attributs.
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

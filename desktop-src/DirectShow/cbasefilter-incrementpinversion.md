@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 53e66ccd5bdd34c4767001403439f4372ff2938a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 01c82a5f506673b6145b468004bbc900d3acdb051f525df20930344137618e72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824106"
 ---
 # <a name="cbasefilterincrementpinversion-method"></a>Méthode CBaseFilter. IncrementPinVersion
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode incrémente la variable membre [**CBaseFilter :: m \_ PinVersion**](cbasefilter-m-pinversion.md) . Si le filtre crée ou détruit dynamiquement des codes confidentiels, appelez cette méthode chaque fois que les codes confidentiels changent.
 
@@ -54,7 +54,7 @@ Cette méthode incrémente la variable membre [**CBaseFilter :: m \_ PinVersion
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

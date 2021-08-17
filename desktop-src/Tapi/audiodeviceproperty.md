@@ -4,16 +4,16 @@ ms.assetid: 0ed9b75e-3c79-4e41-9883-63b85ebfae06
 title: Énumération AudioDeviceProperty (Ipmsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab807759bfb316858be41ea9bb4b78d795ee1a1a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5a634caa627f5d518e8783ce056e89a69931aa981466754a9d320f36787186f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117948791"
 ---
 # <a name="audiodeviceproperty-enumeration"></a>Énumération AudioDeviceProperty
 
-\[ Cette énumération n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette énumération n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 L’énumération **AudioDeviceProperty** est utilisée par les méthodes [**ITAudioDeviceControl :: GetRange**](itaudiodevicecontrol-getrange.md), [**ITAudioDeviceControl :: obten**](itaudiodevicecontrol-get.md)et [**ITAudioDeviceControl :: Set**](itaudiodevicecontrol-set.md) pour indiquer la propriété qui est adressée.
 

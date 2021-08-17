@@ -3,7 +3,7 @@ title: Spécifications du PC multimédia
 description: Spécifications du PC multimédia
 ms.assetid: 2cd54682-310e-4a7b-a174-6751850256b1
 keywords:
-- Windows Multimedia, Media PC Marketing Council
+- Windows multimedia, media PC Marketing Council
 - multimédia, Media PC Marketing Council
 - PC multimédia (MPC), à propos de
 - MPC (PC multimédia), à propos de
@@ -18,12 +18,12 @@ keywords:
 - MPC-niveau 2, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af698a84443876dbf0ea98b9dfcc505f1e1d3eeb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4de04612c2e5e84f55049f35e131830c3ff40ae7f8dc829e1e3875a6c494ac1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117985239"
 ---
 # <a name="multimedia-pc-specifications"></a>Spécifications du PC multimédia
 
@@ -34,9 +34,9 @@ Cette annexe résume les spécifications.
 -   [Spécification de niveau 1](level-1-specification.md)
 -   [Spécification de niveau 2](level-2-specification.md)
 
- 
+ 
 
- 
+ 
 
 
 

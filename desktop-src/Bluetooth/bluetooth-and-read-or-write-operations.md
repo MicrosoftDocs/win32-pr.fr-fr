@@ -1,21 +1,21 @@
 ---
 title: Bluetooth et opérations de lecture ou d’écriture
-description: Bluetooth est capable d’effectuer toutes les opérations de lecture et d’écriture disponibles avec les sockets Windows actuellement prises en charge avec d’autres familles d’adresses.
+description: Bluetooth est capable d’effectuer toutes les opérations de lecture et d’écriture disponibles avec les sockets Windows actuellement pris en charge avec d’autres familles d’adresses.
 ms.assetid: 1445aa04-38ca-47be-9483-d4133edbf3f4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5a3a8c1d92b45d4b540899f5594de72cf19896e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 15bedb264ae17efe1c84ca7826229edf9e9dccb9880ce670ff81dc019909583c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118172934"
 ---
 # <a name="bluetooth-and-read-or-write-operations"></a>Bluetooth et opérations de lecture ou d’écriture
 
-Bluetooth est capable d’effectuer toutes les opérations de lecture et d’écriture disponibles avec les sockets Windows actuellement prises en charge avec d’autres familles d’adresses.
+Bluetooth est capable d’effectuer toutes les opérations de lecture et d’écriture disponibles avec les sockets Windows actuellement pris en charge avec d’autres familles d’adresses.
 
-Pour plus d’informations sur les opérations de lecture et d’écriture, consultez [Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2).
+pour plus d’informations sur les opérations de lecture et d’écriture, consultez [Windows sockets](/windows/desktop/WinSock/windows-sockets-start-page-2).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -36,6 +36,6 @@ Pour plus d’informations sur les opérations de lecture et d’écriture, cons
 [**SendTo**](/windows/desktop/api/winsock/nf-winsock-sendto)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

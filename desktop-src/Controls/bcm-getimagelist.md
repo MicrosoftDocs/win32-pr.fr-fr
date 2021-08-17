@@ -3,7 +3,7 @@ title: Message BCM_GETIMAGELIST (commctrl. h)
 description: Obtient la \_ structure IMAGELIST du bouton qui décrit la liste d’images assignée à un contrôle bouton. Vous pouvez envoyer ce message de manière explicite ou utiliser le bouton \_ GetImageList macro.
 ms.assetid: 79383758-53d4-4955-b472-befd338cbec6
 keywords:
-- BCM_GETIMAGELIST les contrôles de message Windows
+- BCM_GETIMAGELIST les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b0c28e997e23d6df63150fe2283d04be1a8c0d4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ba74f358e80871ffad4822fd8088ca6aeb58521d8878254ed920356db5a6daf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117833910"
 ---
 # <a name="bcm_getimagelist-message"></a>\_Message GETIMAGELIST BCM
 
@@ -47,7 +47,7 @@ Pointeur vers une structure [**\_ IMAGELIST de bouton**](/windows/desktop/api/Co
 
 Si le message est correctement exécuté, la méthode retourne la **valeur true**. Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Pour utiliser ce message, vous devez fournir un manifeste spécifiant Comclt32.dll version 6,0. Pour plus d’informations sur les manifestes, consultez [activation des styles visuels](cookbook-overview.md).
@@ -60,8 +60,8 @@ Si le message est correctement exécuté, la méthode retourne la **valeur true*
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

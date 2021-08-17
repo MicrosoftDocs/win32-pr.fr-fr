@@ -16,18 +16,18 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 3f8a8c85cb4c78be578187b1f55afce078fe7bd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c35daf5b6e986b2519f127969edc5bbcf05a260bd23e8aa1168b1a7c20a5372
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104485729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739436"
 ---
 # <a name="swbemdatetimegetfiletime-method"></a>Méthode SWbemDateTime. GetFileTime
 
 La méthode **GetFileTime** de l’objet [**SWbemDateTime**](swbemdatetime.md) convertit une valeur de date et d’heure dans le format [DateTime](datetime.md) CIM au format FILETIME.
 
-Si le paramètre est défini sur **true**, la valeur de retour représente une heure locale pour le client. Dans le cas contraire, la valeur de retour est une heure UTC (Coordinated Universal Time). Une structure [DateTime](datetime.md) **fileTime** est une valeur 64 bits qui représente le nombre d’unités de 100 nanosecondes depuis le début du 1er janvier 1601. Windows Management Instrumentation (WMI) traite les valeurs **fileTime** comme des représentations sous forme de chaîne de nombres 64 bits non signés.
+Si le paramètre est défini sur **true**, la valeur de retour représente une heure locale pour le client. Dans le cas contraire, la valeur de retour est une heure UTC (Coordinated Universal Time). Une structure [DateTime](datetime.md) **fileTime** est une valeur 64 bits qui représente le nombre d’unités de 100 nanosecondes depuis le début du 1er janvier 1601. Windows WMI (Management Instrumentation) traite les valeurs **fileTime** comme des représentations sous forme de chaîne de nombres 64 bits non signés.
 
 Pour une explication de cette syntaxe, consultez [conventions de document pour l’API de script](document-conventions-for-the-scripting-api.md).
 
@@ -70,7 +70,7 @@ L'appel a échoué.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **VT \_** Les valeurs de date et **fileTime** ne peuvent pas contenir de champs génériques.
 

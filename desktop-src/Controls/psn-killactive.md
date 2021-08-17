@@ -3,7 +3,7 @@ title: PSN_KILLACTIVE le code de notification (Prsht. h)
 description: Avertit une page qu’il va perdre l’activation soit parce qu’une autre page est activée, soit parce que l’utilisateur a cliqué sur le bouton OK. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 470cd6ff-73ad-451a-a861-4d3324a8a8db
 keywords:
-- Contrôles Windows de code de notification PSN_KILLACTIVE
+- PSN_KILLACTIVE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ae5f90670c79797ef8576c5e6e3911255ab5fe1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5eaf1a5221e186ebe5f01f942ec99d82906ea87ef7f1b8f73860bade24ab1751
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169649"
 ---
 # <a name="psn_killactive-notification-code"></a>\_Code de notification PSN KILLACTIVE
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-
 
 Retourne la **valeur true** pour empêcher la page de perdre l’activation, ou **false** pour l’autoriser.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application gère ce code de notification pour valider les informations entrées par l’utilisateur.
 
@@ -68,8 +68,8 @@ Si la procédure de la boîte de dialogue affecte la \_ **valeur true** à DWL M
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

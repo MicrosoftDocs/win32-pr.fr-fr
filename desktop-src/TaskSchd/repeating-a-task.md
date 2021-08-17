@@ -6,12 +6,12 @@ keywords:
 - modèle de répétition Planificateur de tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 451b2c2cf7e48c40496ddba95728f435ab494ab7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7039b57bdc6cc7f53125e74b8a6fda7d017106cd44c66d2535f7fdf27505a960
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117759353"
 ---
 # <a name="repeating-a-task"></a>Répétition d’une tâche
 
@@ -31,7 +31,7 @@ Si vous enregistrez une tâche qui contient un déclencheur avec un intervalle d
 4.  La tâche suivante démarre à la fin de la troisième minute.
 5.  La tâche suivante démarre à la fin de la quatrième minute.
 
-**Windows Server 2003, Windows XP et windows 2000 :** Si vous enregistrez une tâche qui contient un déclencheur avec un intervalle de répétition égal à une minute et une durée de répétition égale à quatre minutes, la tâche est démarrée quatre fois.
+**Windows Server 2003, Windows XP et Windows 2000 :** Si vous enregistrez une tâche qui contient un déclencheur avec un intervalle de répétition égal à une minute et une durée de répétition égale à quatre minutes, la tâche est démarrée quatre fois.
 
 ## <a name="objects-interfaces-and-xml-elements"></a>Objets, interfaces et éléments XML
 
@@ -48,9 +48,9 @@ Lors de la lecture ou de l’écriture de données XML pour une tâche, le modè
 [Déclencheurs de tâche](task-triggers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

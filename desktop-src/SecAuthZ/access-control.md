@@ -4,18 +4,18 @@ ms.assetid: d9ce4ec5-5c09-4b33-93a1-39638a925986
 title: Access Control (autorisation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31c0198f0ce0de77750e0587d9b54c1e20cee756
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b34be93577446066fcaf7e01e634c60632c68c430198a375eadc2efbcec3e701
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785639"
 ---
 # <a name="access-control-authorization"></a>Access Control (autorisation)
 
 Le contrôle d’accès fait référence à des fonctionnalités de sécurité qui contrôlent qui peut accéder aux ressources dans le système d’exploitation. Les applications appellent des fonctions de contrôle d’accès pour définir qui peut accéder à des ressources spécifiques ou contrôler l’accès aux ressources fournies par l’application.
 
-Cette vue d’ensemble décrit le modèle de sécurité pour le contrôle de l’accès aux objets Windows, tels que les fichiers, et pour le contrôle de l’accès aux fonctions d’administration, telles que la définition de l’heure système ou de l’audit des actions de l’utilisateur. La rubrique [Access Control Model](access-control-model.md) fournit une description détaillée des parties du contrôle d’accès et de la façon dont elles interagissent les unes avec les autres.
+cette vue d’ensemble décrit le modèle de sécurité pour le contrôle de l’accès aux objets Windows, tels que les fichiers, et pour le contrôle de l’accès aux fonctions d’administration, telles que la définition de l’heure système ou de l’audit des actions de l’utilisateur. La rubrique [Access Control Model](access-control-model.md) fournit une description détaillée des parties du contrôle d’accès et de la façon dont elles interagissent les unes avec les autres.
 
 Les rubriques suivantes décrivent le contrôle d’accès :
 

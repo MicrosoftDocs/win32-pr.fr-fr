@@ -6,12 +6,12 @@ keywords:
 - Gestion des jeux de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af3f9862d3074a5221bf1d5d975754486a562f87
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d8b6b81c466232d4fd325d53a3cfe67ebb1cbc60c757a6dfe135a021ab7892a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106512325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117960883"
 ---
 # <a name="managing-property-sets"></a>Gestion des jeux de propriétés
 
@@ -23,9 +23,9 @@ COM définit l’interface [**IPropertySetStorage**](/windows/desktop/api/Propid
 
 Lorsque vous créez ou ouvrez une instance de [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage), elle est semblable à l’ouverture d’un objet qui prend en charge [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) ou [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream), car vous devez spécifier le mode de stockage dans lequel vous ouvrez l’interface. Pour **IStorage**, ceux-ci incluent le mode de transaction, le mode lecture/écriture et le mode de partage.
 
-Lorsque vous créez un jeu de propriétés à l’aide d’un appel à [**IPropertySetStorage :: Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create), spécifiez si le jeu de propriétés doit être simple ou non simple. Un jeu de propriétés simple contient des types qui peuvent être écrits entièrement dans le flux de jeu de propriétés, dont la taille est limitée, et ne peut pas être supérieur à 256 Ko dans Windows NT 4,0 et versions antérieures, ou 1 Mo dans Windows 2000, Windows XP et Windows Server 2003. Toutefois, lorsque vous avez besoin de stocker une plus grande quantité d’informations dans le jeu de propriétés, vous pouvez spécifier que le jeu de propriétés n’est pas simple. Cela vous permet d’utiliser un ou plusieurs des types qui spécifient uniquement un pointeur vers un objet de stockage ou de flux. Ces types sont VT \_ Stream, VT \_ streaming Object, VT \_ Storage et VT \_ Stored \_ Object.
+Lorsque vous créez un jeu de propriétés à l’aide d’un appel à [**IPropertySetStorage :: Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create), spécifiez si le jeu de propriétés doit être simple ou non simple. un jeu de propriétés simple contient des types qui peuvent être écrits entièrement dans le flux de jeu de propriétés, dont la taille est limitée, et ne peut pas dépasser 256 ko dans Windows NT 4,0 et versions antérieures, ou 1 mo dans Windows 2000, Windows XP et Windows Server 2003. Toutefois, lorsque vous avez besoin de stocker une plus grande quantité d’informations dans le jeu de propriétés, vous pouvez spécifier que le jeu de propriétés n’est pas simple. Cela vous permet d’utiliser un ou plusieurs des types qui spécifient uniquement un pointeur vers un objet de stockage ou de flux. Ces types sont VT \_ Stream, VT \_ streaming Object, VT \_ Storage et VT \_ Stored \_ Object.
 
-Les données stockées dans ces propriétés ne sont pas comptabilisées par rapport à la limite de taille définie pour la propriété 256 KB dans Windows NT 4,0 ou version antérieure, ou la limite de 1 Mo dans Windows 2000, Windows XP et Windows Server 2003. Toutefois, les données relatives à la propriété, telles que son nom, s’appliquent. En outre, si vous avez besoin d’une mise à jour avec transaction, le jeu de propriétés doit être insimple. Il existe, bien sûr, une certaine baisse des performances pour l’ouverture de ces types, car cela nécessite l’ouverture du flux ou de l’objet de stockage auquel vous avez le pointeur.
+les données stockées dans ces propriétés ne sont pas comptabilisées par rapport à la limite de taille définie pour la propriété 256 KB dans Windows NT 4,0 ou version antérieure, ou la limite de 1 mo dans Windows 2000, Windows XP et Windows Server 2003. Toutefois, les données relatives à la propriété, telles que son nom, s’appliquent. En outre, si vous avez besoin d’une mise à jour avec transaction, le jeu de propriétés doit être insimple. Il existe, bien sûr, une certaine baisse des performances pour l’ouverture de ces types, car cela nécessite l’ouverture du flux ou de l’objet de stockage auquel vous avez le pointeur.
 
 Si votre application utilise des fichiers composés, vous pouvez utiliser l’implémentation fournie par COM de ces interfaces, qui sont implémentées sur l’objet de stockage de fichiers composés COM.
 
@@ -40,6 +40,6 @@ Pour plus d’informations sur les jeux de propriétés dans COM, consultez :
 -   [Caractéristiques de performances](performance-characteristics.md)
 -   [Implémentation du jeu de propriétés d’informations de résumé](implementing-the-summary-information-property-set.md)
 
- 
+ 
 
- 
+ 

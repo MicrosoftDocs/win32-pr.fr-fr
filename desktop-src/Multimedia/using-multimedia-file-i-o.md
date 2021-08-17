@@ -3,7 +3,7 @@ title: Utilisation des e/s de fichier multimédia
 description: Utilisation des e/s de fichier multimédia
 ms.assetid: bc568e80-f1ca-43c8-bd45-2b4ad1dd53ed
 keywords:
-- Multimédia Windows, e/s de fichier
+- Windows multimédia, e/s de fichier
 - multimédia, e/s de fichier
 - entrée multimédia, e/s de fichier
 - e/s de fichier multimédia, à propos de
@@ -16,12 +16,12 @@ keywords:
 - E/s (entrée et sortie), exemples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 477e7b07394b33326030b0eeebae8eb1a6415c1f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 758829e114ebc5c756f61b749adbd2472572dda94e346ac140714d83051c34ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136174"
 ---
 # <a name="using-multimedia-file-io"></a>Utilisation des e/s de fichier multimédia
 
@@ -41,9 +41,9 @@ Cette section contient des exemples montrant comment effectuer les tâches suiva
 -   [Installation des procédures d’e/s personnalisées](installing-custom-i-o-procedures.md).
 -   [Partage d’une procédure d’e/s avec d’autres applications](sharing-an-i-o-procedure-with-other-applications.md).
 
- 
+ 
 
- 
+ 
 
 
 

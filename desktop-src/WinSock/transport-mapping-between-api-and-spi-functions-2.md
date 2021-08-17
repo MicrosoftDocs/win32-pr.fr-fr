@@ -4,12 +4,12 @@ ms.assetid: 37ef8a69-2aa0-4824-8ca9-4b84158086db
 title: Mappage de transport entre les fonctions API et SPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0f11b950c48d0887f1e593c65f9d77e27c33917
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebf4167353fa05c5656c588a9dff99c96564a5202ffdc4d21edf358c340634e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739939"
 ---
 # <a name="transport-mapping-between-api-and-spi-functions"></a>Mappage de transport entre les fonctions API et SPI
 
@@ -29,13 +29,13 @@ Les autres fonctions d’API qui sont réduites dans les versions améliorées d
 
 Les fonctions de prise en charge telles que [**htonl**](/windows/desktop/api/winsock/nf-winsock-htonl), [**htons**](/windows/desktop/api/winsock/nf-winsock-htons), [**ntohl**](/windows/desktop/api/winsock/nf-winsock-ntohl)et [**ntohs**](/windows/desktop/api/winsock/nf-winsock-ntohs) sont implémentées dans la \_32.dll Ws2 et ne sont pas transmises aux fournisseurs de services. Il en va de même pour les versions WSA de ces fonctions.
 
-L’énumération du fournisseur de services Windows Sockets et les fonctions associées au hook de blocage sont réalisées dans la \_32.dll Ws2. par conséquent, [**WSAEnumProtocols**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa), [WSAIsBlocking](/windows/desktop/api/winsock2/nf-winsock2-wsaisblocking), [WSASetBlockingHook](/windows/desktop/api/winsock2/nf-winsock2-wsasetblockinghook)et [WSAUNHOOKBLOCKINGHOOK](/windows/desktop/api/winsock2/nf-winsock2-wsaunhookblockinghook) n’apparaissent pas en tant que fonctions SPI.
+Windows L’énumération des fournisseurs de services de sockets et les fonctions associées au hook de blocage sont réalisées dans la \_32.dll Ws2. par conséquent, [**WSAEnumProtocols**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa), [WSAIsBlocking](/windows/desktop/api/winsock2/nf-winsock2-wsaisblocking), [WSASetBlockingHook](/windows/desktop/api/winsock2/nf-winsock2-wsasetblockinghook)et [WSAUNHOOKBLOCKINGHOOK](/windows/desktop/api/winsock2/nf-winsock2-wsaunhookblockinghook) n’apparaissent pas en tant que fonctions SPI.
 
 Étant donné que les codes d’erreur sont retournés avec les fonctions SPI, les équivalents de [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) et [**WSASetLastError**](/windows/desktop/api/winsock/nf-winsock-wsasetlasterror) ne sont pas requis dans le SPI.
 
-La manipulation d’objet d’événement et les fonctions d’attente, notamment [**WSACreateEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsacreateevent), [**WSACloseEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsacloseevent), [**WSASetEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsasetevent), [**WSAResetEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsaresetevent)et [**WSAWaitForMultipleEvents**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) , sont mappées directement aux services Windows natifs et ne sont donc pas présentes dans le SPI.
+la manipulation d’objet d’événement et les fonctions d’attente, notamment [**WSACreateEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsacreateevent), [**WSACloseEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsacloseevent), [**WSASetEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsasetevent), [**WSAResetEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsaresetevent)et [**WSAWaitForMultipleEvents**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) , sont mappées directement aux services Windows natifs et ne sont donc pas présentes dans le SPI.
 
-Toutes les fonctions de conversion et de résolution de noms spécifiques à TCP/IP dans Windows Sockets 1,1, telles que **GetXbyY**, **WSAAsyncGetXByY** et [**WSACancelAsyncRequest**](/windows/desktop/api/winsock/nf-winsock-wsacancelasyncrequest), ainsi que [**GetHostName**](/windows/desktop/api/winsock/nf-winsock-gethostname) sont implémentées dans le \_32.dll Ws2 en termes de nouvelles fonctions de résolution de noms. Pour plus d’informations, consultez [résolution de noms compatible pour TCP/IP dans le SPI Windows sockets 1,1](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-spi-2.md). Les fonctions de conversion telles que [**inet \_ addr**](/windows/win32/api/winsock2/nf-winsock2-inet_addr) et [**inet \_ NTOA**](/windows/win32/api/winsock2/nf-winsock2-inet_ntoa) sont implémentées dans le \_32.dll Ws2.
+toutes les fonctions de conversion et de résolution de noms propres à TCP/IP dans Windows sockets 1,1, telles que **GetXbyY**, **WSAAsyncGetXByY** et [**WSACancelAsyncRequest**](/windows/desktop/api/winsock/nf-winsock-wsacancelasyncrequest), ainsi que [**gethostname**](/windows/desktop/api/winsock/nf-winsock-gethostname) sont implémentées dans le \_32.dll Ws2 en termes de nouvelles fonctions de résolution de noms. pour plus d’informations, consultez [résolution de noms Compatible pour TCP/IP dans le SPI Windows sockets 1,1](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-spi-2.md). Les fonctions de conversion telles que [**inet \_ addr**](/windows/win32/api/winsock2/nf-winsock2-inet_addr) et [**inet \_ NTOA**](/windows/win32/api/winsock2/nf-winsock2-inet_ntoa) sont implémentées dans le \_32.dll Ws2.
 
  
 

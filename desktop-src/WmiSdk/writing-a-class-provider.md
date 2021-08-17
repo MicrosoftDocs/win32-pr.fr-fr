@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: Écriture d’un fournisseur de classe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff1e20115c4f833ad828e8d181ca97782d233130
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b45815c795b6f43f3e7ec99b9ce9535c4d14b2bc8426ea5ca6b44f736415bbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106517893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118311938"
 ---
 # <a name="writing-a-class-provider"></a>Écriture d’un fournisseur de classe
 
-Un fournisseur de classes gère une classe ou une série de classes pour WMI. Un fournisseur de classe peut être push ou pull ; autrement dit, il peut soit stocker ses propres données, soit autoriser WMI à stocker des données pour celui-ci dans le service de gestion Windows. Bien qu’un fournisseur de classes soit installé sur un ordinateur spécifique, il peut modifier les définitions de classe dans toute l’entreprise. Par conséquent, la plupart des développeurs ne créent pas souvent des fournisseurs de classes.
+Un fournisseur de classes gère une classe ou une série de classes pour WMI. Un fournisseur de classe peut être push ou pull ; autrement dit, il peut soit stocker ses propres données, soit autoriser WMI à stocker des données pour celui-ci dans le Service de gestion Windows. Bien qu’un fournisseur de classes soit installé sur un ordinateur spécifique, il peut modifier les définitions de classe dans toute l’entreprise. Par conséquent, la plupart des développeurs ne créent pas souvent des fournisseurs de classes.
 
 Avant de construire un fournisseur de classes, vérifiez que les classes prises en charge doivent réellement être générées dynamiquement. Dans la plupart des cas, la liste des classes est à variation lente et finie. Si c’est le cas, vous ne devez pas être obligé de créer un fournisseur de classe. Au lieu de cela, vous pouvez placer vos définitions de classe dans le référentiel WMI à l’aide de l’API WMI ou d’un fichier MOF.
 

@@ -10,23 +10,23 @@ keywords:
 - applications pour Direct2D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44d023e348e30b4e421ffe177f30c0c55a344fba
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 907ec9a026005fec03b034978873f012cd956a8a7533d97b85b9122664ef1163
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104558571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825336"
 ---
 # <a name="creating-a-simple-direct2d-application"></a>Création d’une application Direct2D simple
 
 Cette rubrique vous guide tout au long du processus de création de la classe DemoApp, qui crée une fenêtre et utilise Direct2D pour dessiner une grille et deux rectangles. Dans ce didacticiel, vous allez apprendre à créer des ressources Direct2D et à dessiner des formes de base. Vous allez également apprendre à structurer votre application afin d’améliorer les performances en minimisant la création des ressources.
 
-Pour suivre le didacticiel, vous pouvez utiliser Microsoft Visual Studio 2008 pour créer un projet Win32, puis remplacer le code dans l’en-tête d’application principal et le fichier CPP par le code décrit dans ce didacticiel.
+pour suivre le didacticiel, vous pouvez utiliser Microsoft Visual Studio 2008 pour créer un projet Win32, puis remplacer le code dans l’en-tête d’application principal et le fichier cpp par le code décrit dans ce didacticiel.
 
 > [!Note]  
-> Si vous souhaitez créer une application du Windows Store qui utilise Direct2D, consultez la rubrique [Direct2d QuickStart pour Windows 8](direct2d-quickstart-with-device-context.md) .
+> si vous souhaitez créer une application Windows Store qui utilise Direct2D, consultez la rubrique [démarrage rapide de direct2d pour Windows 8](direct2d-quickstart-with-device-context.md) .
 
- 
+ 
 
 Pour obtenir une vue d’ensemble des interfaces que vous pouvez utiliser pour créer du contenu Direct2D, consultez [vue d’ensemble de l’API Direct2D](the-direct2d-api.md).
 
@@ -666,9 +666,9 @@ Dans cette partie, vous allez implémenter la procédure Windows, la méthode On
 Vous avez terminé le tutoriel.
 
 > [!Note]  
-> Pour utiliser Direct2D, assurez-vous que votre application comprend le fichier d’en-tête d2d1. h et qu’elle est compilée par rapport à la bibliothèque d2d1. lib. Vous pouvez trouver d2d1. h et d2d1. lib dans le [Kit de développement logiciel (SDK) Windows pour Windows 7](https://msdn.microsoft.com/windows/bb980924.aspx).
+> Pour utiliser Direct2D, assurez-vous que votre application comprend le fichier d’en-tête d2d1. h et qu’elle est compilée par rapport à la bibliothèque d2d1. lib. vous pouvez trouver d2d1. h et d2d1. lib dans [Windows kit de développement logiciel (SDK) pour Windows 7](https://msdn.microsoft.com/windows/bb980924.aspx).
 
- 
+ 
 
 ## <a name="summary"></a>Résumé
 
@@ -684,6 +684,6 @@ Dans ce didacticiel, vous avez appris à créer des ressources Direct2D et à de
 [Amélioration des performances de Direct2D](improving-direct2d-performance.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

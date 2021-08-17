@@ -31,12 +31,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31951b943723e620414b2f714327db8c786f9ab9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0f7c73c1d1a48bbc76b4988afca8a07fd9ce505d0633c74f67306901259d9f89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126509"
 ---
 # <a name="win32_tslicenseserver-class"></a>\_Classe TSLicenseServer Win32
 
@@ -323,7 +323,7 @@ Version du serveur de licences Bureau à distance.
 
 </dd> <dt>
 
-**NuméroVersion**
+**VersionNumber**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -336,13 +336,13 @@ Numéro de version du serveur de licences Bureau à distance.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette classe est une classe [Singleton](/windows/desktop/WmiSdk/standard-wmi-qualifiers) et ne peut avoir qu’une seule instance. Toutes les méthodes contenues dans cette classe sont statiques.
 
 Pour utiliser cette classe, vous devez être membre du groupe administrateurs. Si l’appelant n’est pas membre du groupe administrateurs, les propriétés retournées sont vides.
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Configuration requise
 

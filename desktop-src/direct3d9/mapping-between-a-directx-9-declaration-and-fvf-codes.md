@@ -4,12 +4,12 @@ ms.assetid: be4357b5-5b92-44ca-9100-ec9473930446
 title: Mappage entre une déclaration Direct3D et les codes de la Commission de la Commission (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4831af7b8c03ae4abd5ac2847351d2a6c921fb97
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a35d28653eba57e99987fb67910f1bec87f4d5bd001fc6f3f6b0e25d65264c55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728425"
 ---
 # <a name="mapping-between-a-direct3d-declaration-and-fvf-codes-direct3d-9"></a>Mappage entre une déclaration Direct3D et les codes de la Commission de la Commission (Direct3D 9)
 
@@ -17,7 +17,7 @@ Ce tableau mappe les membres d’une déclaration [**D3DVERTEXELEMENT9**](d3dver
 
 
 
-| Type de données             | Utilisation                      | Index d’utilisation | CLOS                       |
+| Type de données             | Usage                      | Index d’utilisation | CLOS                       |
 |-----------------------|----------------------------|-------------|---------------------------|
 | D3DDECLTYPE \_ FLOAT3   | \_Position D3DDECLUSAGE     | 0           | D3DFVF \_ xyz               |
 | D3DDECLTYPE \_ float4   | \_Position D3DDECLUSAGE    | 0           | D3DFVF \_ XYZRHW            |

@@ -4,12 +4,12 @@ ms.assetid: aaa4069e-0b6a-4a76-b950-1a85a9ed969d
 title: Implémentation de DllRegisterServer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b994e80a181b69efffbe6123382957e7a38f8278
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e39d55b73dd70a21c10df26a100f964917a57dd9f036ebd5c2708359bca1dd50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117998090"
 ---
 # <a name="implementing-dllregisterserver"></a>Implémentation de DllRegisterServer
 
@@ -36,7 +36,7 @@ g_Templates
 
 
 
-. Toutefois, cette fonction présente des limitations. Tout d’abord, il affecte chaque filtre à la catégorie « filtres DirectShow » (CLSID \_ LegacyAmFilterCategory), mais tous les filtres n’appartiennent pas à cette catégorie. Les filtres de capture et les filtres de compression, par exemple, ont leurs propres catégories. Deuxièmement, si votre filtre prend en charge un périphérique matériel, vous devrez peut-être inscrire deux informations supplémentaires que **AMovieDLLRegisterServer2** ne gère pas : le *support* et la *catégorie pin*. Un support définit une méthode de communication dans un périphérique matériel, tel qu’un bus. La catégorie pin définit la fonction d’un code confidentiel. Pour plus d’informations sur les supports, consultez « KSPIN \_ Medium » dans le kit de développement de pilotes (DDK) Microsoft Windows. Pour obtenir la liste des catégories de code confidentiel, consultez [jeu de propriétés pin](pin-property-set.md).
+. Toutefois, cette fonction présente des limitations. tout d’abord, il affecte chaque filtre à la catégorie « filtres de DirectShow » (CLSID \_ LegacyAmFilterCategory), mais tous les filtres n’appartiennent pas à cette catégorie. Les filtres de capture et les filtres de compression, par exemple, ont leurs propres catégories. Deuxièmement, si votre filtre prend en charge un périphérique matériel, vous devrez peut-être inscrire deux informations supplémentaires que **AMovieDLLRegisterServer2** ne gère pas : le *support* et la *catégorie pin*. Un support définit une méthode de communication dans un périphérique matériel, tel qu’un bus. La catégorie pin définit la fonction d’un code confidentiel. pour plus d’informations sur les supports, consultez « KSPIN \_ medium » dans le Kit de développement de pilotes Windows Microsoft (DDK). Pour obtenir la liste des catégories de code confidentiel, consultez [jeu de propriétés pin](pin-property-set.md).
 
 Si vous souhaitez spécifier une catégorie de filtre, un support ou une catégorie de code confidentiel, appelez la méthode [**IFilterMapper2 :: RegisterFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter) à partir de **DllRegisterServer**. Cette méthode prend un pointeur vers une structure [**REGFILTER2**](/windows/desktop/api/strmif/ns-strmif-regfilter2) , qui spécifie des informations sur le filtre.
 

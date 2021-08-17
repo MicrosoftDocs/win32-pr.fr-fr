@@ -4,12 +4,12 @@ ms.assetid: 7c38bc15-be86-4260-b2e4-13afc90de6d7
 title: stringFormat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 730355507b78d99eba02e82666427dd29425c942
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: e76c72865c3a0f327657d3d97cda55d57ebae1023793dabcad03db513319c004
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867455"
 ---
 # <a name="stringformat"></a>stringFormat
 
@@ -70,7 +70,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [st
 <tbody>
 <tr class="odd">
 <td>formatas</td>
-<td>Public. Optionnel. La valeur par défaut est &quot; général &quot; . Les valeurs valides sont les suivantes. 
+<td>Public. Facultatif. La valeur par défaut est &quot; général &quot; . Les valeurs valides sont les suivantes. 
 <table>
 <thead>
 <tr class="header">
@@ -80,7 +80,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [st
 </thead>
 <tbody>
 <tr class="odd">
-<td>Généralités</td>
+<td>Général</td>
 <td>Par défaut. Retourne la valeur sous forme de chaîne non mise en forme.</td>
 </tr>
 <tr class="even">

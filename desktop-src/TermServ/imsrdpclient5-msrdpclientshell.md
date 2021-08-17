@@ -38,12 +38,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46129dc4736b50e8b6a650cc7a59f9b238da56e2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f56b403bb5fd754e95786c2a1d4012ccbbacd3e103b1ee02fbf290ff05d30d3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117942041"
 ---
 # <a name="imsrdpclient5msrdpclientshell-property"></a>IMsRdpClient5 :: MsRdpClientShell, propriété
 

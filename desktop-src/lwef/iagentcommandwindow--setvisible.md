@@ -4,12 +4,12 @@ description: IAgentCommandWindow SetVisible
 ms.assetid: 44f3fc2d-937a-4890-8dad-e0f29da4c6b5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a43ddff54f4869cbe36016f30d775eeea017ae6c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 35b8d06c40fd88b525cadf9f90a1edd4edaaf3a9e9be7ccdcfa98dd6abf8b833
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117692642"
 ---
 # <a name="iagentcommandwindowsetvisible"></a>IAgentCommandWindow :: SetVisible
 
@@ -41,9 +41,9 @@ L’utilisateur peut remplacer cette propriété.
 [**IAgentCommandWindow::GetVisible**](iagentcommandwindow--getvisible.md)
 
 
- 
+ 
 
- 
+ 
 
 
 
