@@ -3,16 +3,16 @@ title: Accès au média
 description: Accès au média
 ms.assetid: 18ea844d-98c9-4168-9af2-161dda52f6bd
 keywords:
-- Sélections de métafichiers Windows Media, accès aux médias
+- Windows Sélections de métafichiers multimédia, accès aux médias
 - sélections, accès aux médias
 - sélections de métafichiers, accès aux médias
-- Sélections de métafichiers Windows Media, accès aux médias
+- Windows Sélections de métafichiers multimédia, accès aux médias
 - sélections, accès multimédia
 - sélections de métafichiers, accès aux médias
-- Sélections de métafichiers Windows Media, contrôle de la lecture
+- Windows Sélections de métafichiers multimédia, contrôle de la lecture
 - sélections, contrôle de la lecture
 - sélections de métafichiers, contrôle de la lecture
-- Sélections de métafichiers Windows Media, définition de la durée
+- Windows Sélections de métafichiers multimédia, définition de la durée
 - sélections, définition de la durée
 - sélections de métafichiers, définition de la durée
 - Lecteur Windows Media, accès aux médias
@@ -30,25 +30,25 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c5a995a6816e3c46a002bd1ea924c9ea9a207000
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c1a0846be4e8b9b62e424ce24d1b1800bc361c6a28f52a323c6bfa8511ae040b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956399"
 ---
 # <a name="accessing-media"></a>Accès au média
 
-Utilisez des sélections pour spécifier et contrôler la diffusion multimédia en continu ou les fichiers multimédias lus par le lecteur Windows Media.
+utilisez des sélections pour spécifier et contrôler la diffusion multimédia en continu ou les fichiers multimédias que Lecteur Windows Media lit.
 
-Utilisez l’élément **entry** pour spécifier un élément Media unique (un fichier multimédia ou un flux en direct) et tous les éléments enfants (tels que des images, des liens **moreinfo** et du texte **abstrait** ). Utilisez un élément **ENTRYREF** pour spécifier une sélection. Une sélection peut contenir un ou plusieurs éléments d' **entrée** ou de **ENTRYREF** . Le lecteur Windows Media exécute une sélection en commençant par la première entrée, puis en lisant chaque entrée jusqu’à ce que la liste soit terminée.
+Utilisez l’élément **entry** pour spécifier un élément Media unique (un fichier multimédia ou un flux en direct) et tous les éléments enfants (tels que des images, des liens **moreinfo** et du texte **abstrait** ). Utilisez un élément **ENTRYREF** pour spécifier une sélection. Une sélection peut contenir un ou plusieurs éléments d' **entrée** ou de **ENTRYREF** . Lecteur Windows Media exécute une playlist en commençant par la première entrée, puis en lisant chaque entrée jusqu’à ce que la liste soit terminée.
 
-Un élément d' **entrée** peut pointer vers n’importe quel type de média que le lecteur Windows Media peut lire. Cela comprend non seulement les fichiers. WMA,. wmv,. ASF et. avi, mais également des flux en direct. En utilisant une série d’éléments d' **entrée** ou de **ENTRYREF** pour référencer du contenu multimédia, vous pouvez utiliser une sélection pour envoyer un flux unique constitué de plusieurs sources. Les flux référencés sont lus de manière séquentielle et considérés comme un flux continu par la visionneuse. Par exemple, la sélection peut contenir deux éléments d' **entrée** : une présentation standard d’un fichier Windows Media avec une extension. WMA et un flux Windows Media en direct.
+un élément d' **entrée** peut pointer vers n’importe quel type de média que Lecteur Windows Media pouvez lire. Cela comprend non seulement les fichiers. WMA,. wmv,. ASF et .avi, mais également des flux en direct. En utilisant une série d’éléments d' **entrée** ou de **ENTRYREF** pour référencer du contenu multimédia, vous pouvez utiliser une sélection pour envoyer un flux unique constitué de plusieurs sources. Les flux référencés sont lus de manière séquentielle et considérés comme un flux continu par la visionneuse. par exemple, la sélection peut contenir deux éléments d' **entrée** : une présentation standard d’un fichier multimédia Windows avec une extension. wma et un flux multimédia en direct Windows.
 
 > [!Note]  
-> Une sélection ne doit pas contenir de liens vers des fichiers multimédias dont le contenu est créé avec des versions différentes de la Rights Management numérique (DRM). Dans une sélection de métafichiers, s’il existe des liens vers des fichiers multimédias avec un contenu DRM version 1 et des fichiers multimédias créés avec des versions DRM ultérieures, le lecteur Windows Media ne lira que le contenu DRM version 1.
+> Une sélection ne doit pas contenir de liens vers des fichiers multimédias dont le contenu est créé avec des versions différentes de la Rights Management numérique (DRM). dans une sélection de métafichiers, s’il existe des liens vers des fichiers multimédias avec un contenu drm version 1 et des fichiers multimédias créés avec des versions drm ultérieures, Lecteur Windows Media ne lira que le contenu drm version 1.
 
- 
+ 
 
 ## <a name="controlling-playback"></a>Contrôle de la lecture
 
@@ -105,15 +105,15 @@ Utilisez l’élément **Duration** pour spécifier la durée de lecture d’un 
 [**Utilisation des sélections de métafichiers**](using-metafile-playlists.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Guide des métafichiers Windows Media**](windows-media-metafile-guide.md)
+[**Windows Guide du métafichier multimédia**](windows-media-metafile-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

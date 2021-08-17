@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f53343e436ac78b93bcee30c7da5c9d8eb2dc415
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 44c06f0d88558fcb7692218cfe5aa98a2483fd1881dcab2f1d75f2c251bffb91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123057"
 ---
 # <a name="d3dxloadsurfacefromfile-function"></a>D3DXLoadSurfaceFromFile fonction)
 
@@ -125,11 +125,11 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des valeurs suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DXLoadSurfaceFromFileW. Dans le cas contraire, l’appel de fonction est résolu en D3DXLoadSurfaceFromFileA, car les chaînes ANSI sont utilisées.
 
-Cette fonction gère la conversion vers et à partir des formats de texture compressés et prend en charge les formats de fichier suivants :. bmp,. DDS,. dib,. HDR,. jpg,. PFM,. png,. ppm et. tga. Consultez [**D3DXIMAGE \_ FILEFORMAT**](./d3dximage-fileformat.md).
+Cette fonction gère la conversion vers et à partir des formats de texture compressés et prend en charge les formats de fichier suivants : .bmp,. DDS,. dib,. HDR, .jpg,. PFM, .png,. ppm et. tga. Consultez [**D3DXIMAGE \_ FILEFORMAT**](./d3dximage-fileformat.md).
 
 L’écriture sur une surface non-niveau zéro n’entraîne pas la mise à jour du rectangle de modification. Si **D3DXLoadSurfaceFromFile** est appelé et que la surface n’était pas encore modifiée (ce qui est peu probable dans les scénarios d’utilisation normale), l’application doit appeler explicitement [**AddDirtyRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-adddirtyrect) sur l’aire.
 

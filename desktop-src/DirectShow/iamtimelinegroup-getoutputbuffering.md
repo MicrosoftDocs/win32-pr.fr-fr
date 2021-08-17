@@ -24,7 +24,7 @@ ms.locfileid: "119428489"
 # <a name="iamtimelinegroupgetoutputbuffering-method"></a>IAMTimelineGroup :: GetOutputBuffering, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

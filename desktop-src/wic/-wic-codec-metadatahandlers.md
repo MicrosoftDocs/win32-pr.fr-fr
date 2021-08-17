@@ -1,23 +1,23 @@
 ---
-description: Cette rubrique présente la configuration requise pour la création de gestionnaires de métadonnées personnalisés pour le composant WIC (Windows Imaging Component), y compris les lecteurs et les enregistreurs de métadonnées.
+description: cette rubrique présente la configuration requise pour créer des gestionnaires de métadonnées personnalisés pour le composant WIC (Windows Imaging Component), y compris les lecteurs et les enregistreurs de métadonnées.
 ms.assetid: 08f1872b-6e4d-44ee-abc7-48685e435acc
 title: Vue d’ensemble de l’extensibilité des métadonnées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6576585f7f35628432504086695dd6c64091d3b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7d38206fb02c47edbe9744deb6ceb0093277d8354f8717aa89c3f1976bdeb51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088171"
 ---
 # <a name="metadata-extensibility-overview"></a>Vue d’ensemble de l’extensibilité des métadonnées
 
-Cette rubrique présente la configuration requise pour la création de gestionnaires de métadonnées personnalisés pour le composant WIC (Windows Imaging Component), y compris les lecteurs et les enregistreurs de métadonnées. Il aborde également la configuration requise pour l’extension de la détection des composants runtime WIC pour inclure vos gestionnaires de métadonnées personnalisés.
+cette rubrique présente la configuration requise pour créer des gestionnaires de métadonnées personnalisés pour le composant WIC (Windows Imaging Component), y compris les lecteurs et les enregistreurs de métadonnées. Il aborde également la configuration requise pour l’extension de la détection des composants runtime WIC pour inclure vos gestionnaires de métadonnées personnalisés.
 
 Cette rubrique contient les sections suivantes.
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Introduction](#introduction)
 -   [Création d’un lecteur de métadonnées](#creating-a-metadata-reader)
     -   [Interface IWICMetadataReader](#iwicmetadatareader-interface)
@@ -39,7 +39,7 @@ Cette rubrique contient les sections suivantes.
 
 ## <a name="prerequisites"></a>Prérequis
 
-Pour comprendre cette rubrique, vous devez avoir une connaissance approfondie de WIC, de ses composants et de ses métadonnées pour les images. Pour plus d’informations sur les métadonnées WIC, consultez [vue d’ensemble des métadonnées WIC](-wic-about-metadata.md). Pour plus d’informations sur les composants WIC, consultez [vue d’ensemble du composant de création d’images Windows](-wic-about-windows-imaging-codec.md).
+Pour comprendre cette rubrique, vous devez avoir une connaissance approfondie de WIC, de ses composants et de ses métadonnées pour les images. Pour plus d’informations sur les métadonnées WIC, consultez [vue d’ensemble des métadonnées WIC](-wic-about-metadata.md). pour plus d’informations sur les composants WIC, consultez la [vue d’ensemble du composant de création d’images Windows](-wic-about-windows-imaging-codec.md).
 
 ## <a name="introduction"></a>Introduction
 
@@ -478,7 +478,7 @@ Ainsi, pour écrire un lecteur de métadonnées 8BIM pour les informations de r�
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Vue d’ensemble des métadonnées WIC](-wic-about-metadata.md)

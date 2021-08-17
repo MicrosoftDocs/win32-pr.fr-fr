@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 485dbbaf5ab4522eb50fe598325e5ecbb48fff57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe3f9164a403971b8c0ba0fed38ef256037324698487003e4aa52932ddb1463c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118606"
 ---
 # <a name="boundingboxcontains-methods"></a>BoundingBox. Contains, méthodes
 

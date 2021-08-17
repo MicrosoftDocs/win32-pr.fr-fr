@@ -1,19 +1,19 @@
 ---
 title: Menu contextuel contexte
-description: Une fenêtre contextuelle contextuelle est le contrôle principal dans la vue ContextPopup de l’infrastructure de ruban Windows.
+description: une fenêtre contextuelle contextuelle est le contrôle principal dans la vue ContextPopup de l’infrastructure du ruban Windows.
 ms.assetid: c41b888a-15aa-4c47-ad73-5dc30b5fa6f9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c77441cc3cdcc9212d27d2230d76d2618f1831ab
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 15424aa8b2b82580218eb3663e4b157bce321fdde027e03101ce2cf38626aac2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106512741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964411"
 ---
 # <a name="context-popup"></a>Menu contextuel contexte
 
-Une fenêtre contextuelle contextuelle est le contrôle principal dans la [**vue ContextPopup**](windowsribbon-element-contextpopup.md) de l’infrastructure de ruban Windows. Il s’agit d’un système de menu contextuel riche qui est exposé uniquement par l’infrastructure en tant qu’extension d’une implémentation de ruban ; l’infrastructure n’expose pas la fenêtre contextuelle de contexte en tant que contrôle indépendant.
+une fenêtre contextuelle contextuelle est le contrôle principal dans la [**vue ContextPopup**](windowsribbon-element-contextpopup.md) de l’infrastructure du ruban Windows. Il s’agit d’un système de menu contextuel riche qui est exposé uniquement par l’infrastructure en tant qu’extension d’une implémentation de ruban ; l’infrastructure n’expose pas la fenêtre contextuelle de contexte en tant que contrôle indépendant.
 
 -   [Composants de la fenêtre contextuelle contextuelle](#context-popup)
 -   [Implémenter la fenêtre contextuelle de contexte](#implement-the-context-popup)
@@ -40,11 +40,11 @@ La fenêtre contextuelle contextuelle est purement conceptuelle et n’expose pa
 > [!Note]  
 > La fenêtre contextuelle s’affiche généralement en cliquant avec le bouton droit de la souris (ou en utilisant le raccourci clavier MAJ + F10) sur un objet qui vous intéresse. Toutefois, les étapes nécessaires à l’affichage de la fenêtre contextuelle sont définies par l’application.
 
- 
+ 
 
 ## <a name="implement-the-context-popup"></a>Implémenter la fenêtre contextuelle de contexte
 
-De la même façon que les autres contrôles de l’infrastructure de ruban Windows, la fenêtre contextuelle est implémentée via un composant de balisage qui spécifie ses détails de présentation et un composant de code qui régit ses fonctionnalités.
+de la même façon que d’autres contrôles de l’infrastructure de ruban Windows, la fenêtre contextuelle est implémentée via un composant de balisage qui spécifie ses détails de présentation et un composant de code qui régit ses fonctionnalités.
 
 Le tableau suivant répertorie les contrôles qui sont pris en charge par chaque sous-contrôle contextuel de contexte.
 
@@ -68,7 +68,7 @@ Le tableau suivant répertorie les contrôles qui sont pris en charge par chaque
 
 
 
- 
+ 
 
 ### <a name="markup"></a>balisage
 
@@ -86,7 +86,7 @@ L’exemple suivant illustre le balisage de base pour un élément [**MiniToolba
 > [!Note]  
 > Un élément [**MenuGroup**](windowsribbon-element-menugroup.md) est spécifié pour chaque ligne de contrôles dans la mini-barre d’outils.
 
- 
+ 
 
 
 ```C++
@@ -108,7 +108,7 @@ L’exemple suivant illustre le balisage de base pour un élément [**ContextMen
 > [!Note]  
 > Chaque ensemble de contrôles de l’élément [**MenuGroup**](windowsribbon-element-menugroup.md) est séparé par une barre horizontale dans le menu contextuel.
 
- 
+ 
 
 
 ```C++
@@ -212,7 +212,7 @@ La référence à [**IUIContextualUI**](/windows/desktop/api/uiribbon/nn-uiribbo
 > [!Caution]  
 > L' Mini-Toolbar a un effet de fondu prédéfini basé sur la proximité du pointeur de la souris. Pour cette raison, il est recommandé d’afficher le Mini-Toolbar aussi près que possible du pointeur de la souris. Dans le cas contraire, en raison des mécanismes d’affichage en conflit, le Mini-Toolbar peut ne pas s’afficher comme prévu.
 
- 
+ 
 
 ## <a name="context-popup-properties"></a>Propriétés de la fenêtre contextuelle de contexte
 
@@ -222,12 +222,12 @@ Aucune clé de propriété n’est associée au contrôle contextuel contextuel.
 
 <dl> <dt>
 
-[Bibliothèque de contrôles de l’infrastructure du ruban Windows](windowsribbon-controls-entry.md)
+[Windows Bibliothèque de contrôles de Framework du ruban](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [Exemple ContextPopup](windowsribbon-contextpopupsample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: fa95f292-36e6-4e88-8a0d-aa8bd08def2b
 title: Exemple de signature d’assembly
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e4c47482074f7decdc44af6b94bc7df31df6969
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 3896da43b846edfd09348c6515fbf5e44fdd45dd2911b9fcdcf25e99f63fb6ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "106527087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142462"
 ---
 # <a name="assembly-signing-example"></a>Exemple de signature d’assembly
 
@@ -19,7 +19,7 @@ Notez que la modification des fichiers d’assembly ou du contenu du manifeste a
 
 Commencez par les fichiers d’assembly, le manifeste de l’assembly et le fichier de certificat que vous allez utiliser pour signer l’assembly. Le fichier de certificat doit avoir une taille de 2048 bits ou plus. Vous n’êtes pas obligé d’utiliser un certificat approuvé. Le certificat est utilisé uniquement pour vérifier que l’assembly n’a pas été endommagé.
 
-Exécutez l’utilitaire de [Pktextract.exe](pktextract-exe.md) fourni dans le kit de développement logiciel (SDK) Microsoft Windows pour extraire le jeton de clé publique du fichier de certificat. Pour que Pktextract fonctionne correctement, le fichier de certificat doit être présent dans le même répertoire que l’utilitaire. Utilisez la valeur de jeton de clé publique extraite pour mettre à jour l’attribut **PublicKeyToken** de l’élément **assemblyIdentity** dans le fichier manifeste.
+exécutez l’utilitaire de [Pktextract.exe](pktextract-exe.md) fourni dans le kit de développement logiciel (SDK) de Microsoft Windows pour extraire le jeton de clé publique du fichier de certificat. Pour que Pktextract fonctionne correctement, le fichier de certificat doit être présent dans le même répertoire que l’utilitaire. Utilisez la valeur de jeton de clé publique extraite pour mettre à jour l’attribut **PublicKeyToken** de l’élément **assemblyIdentity** dans le fichier manifeste.
 
 Voici un exemple de fichier manifeste nommé MySampleAssembly. manifest. L’assembly MySampleAssembly contient un seul fichier, MYFILE.DLL. Notez que la valeur de l’attribut **PublicKeyToken** de l’élément **assemblyIdentity** a été mise à jour avec la valeur du jeton de clé publique.
 
@@ -36,7 +36,7 @@ Voici un exemple de fichier manifeste nommé MySampleAssembly. manifest. L’ass
 </assembly>
 ```
 
-Exécutez ensuite l’utilitaire [Mt.exe](mt-exe.md) fourni dans le SDK Windows. Les fichiers d’assembly doivent se trouver dans le même répertoire que le manifeste. Dans cet exemple, il s’agit du répertoire MySampleAssembly. Appelez Mt.exe pour l’exemple comme suit :
+exécutez ensuite l’utilitaire [Mt.exe](mt-exe.md) fourni dans le SDK Windows. Les fichiers d’assembly doivent se trouver dans le même répertoire que le manifeste. Dans cet exemple, il s’agit du répertoire MySampleAssembly. Appelez Mt.exe pour l’exemple comme suit :
 
 **c : \\ MySampleAssembly>mt.exe-manifest MySampleAssembly. manifest-hashupdate-makecdfs**
 

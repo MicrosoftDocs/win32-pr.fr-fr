@@ -5,12 +5,12 @@ ms.assetid: 14561E77-44E0-4A58-8456-F40D59ECA175
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8bf720ebb71d016457fa4383a8d33aa62e2eee4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 29d0017f10a6027fc7ce48618a9d28bd4e92262d83d0f3aa81cc0bc8d02b7edc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124334"
 ---
 # <a name="descriptor-heaps-overview"></a>Vue d’ensemble des tas de descripteurs
 
@@ -38,7 +38,7 @@ L’utilisation de tas de descripteurs par Direct3D 12 reflète ce que fait la m
 
 Les tas de descripteurs ne peuvent être modifiés qu’immédiatement par le processeur, il n’est pas possible de modifier un tas de descripteur par le GPU.
 
-## <a name="synchronization"></a>Synchronization
+## <a name="synchronization"></a>Synchronisation
 
 Le contenu du tas du descripteur peut être modifié avant, pendant et après l’enregistrement des listes de commandes qui le référencent. Toutefois, les descripteurs ne peuvent pas être modifiés lorsqu’une liste de commandes soumise pour l’exécution peut référencer cet emplacement, car cela pourrait appeler une condition de concurrence.
 
@@ -81,9 +81,9 @@ Dans la pratique, un moteur graphique peut utiliser une stratégie différente d
 [Tas de descripteurs](descriptor-heaps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

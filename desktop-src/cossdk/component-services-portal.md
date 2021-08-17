@@ -4,12 +4,12 @@ ms.assetid: b21a6b08-c17c-4fcc-bc60-39037bc9902f
 title: COM+ (services de composants)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b778c31957ddfe3f71db23b2f5be2a3ee681fde0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 02f582096e7f14dc6c415459284e809d4a84098b4e36a143d4e5bc2735605ede
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128981"
 ---
 # <a name="com-component-services"></a>COM+ (services de composants)
 
@@ -29,7 +29,7 @@ COM+ est principalement conçu pour les développeurs de Microsoft Visual C++ et
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-La version 1,5 de COM+ est incluse dans Windows à partir de Windows XP et de Windows Server 2003. COM+ version 1,0 est inclus dans Windows 2000.
+la version 1,5 de COM+ est incluse dans Windows à partir de Windows XP et Windows Server 2003. la version 1,0 de COM+ est incluse dans Windows 2000.
 
 ## <a name="in-this-section"></a>Dans cette section
 

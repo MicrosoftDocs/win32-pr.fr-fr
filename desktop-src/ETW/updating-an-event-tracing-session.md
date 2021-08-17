@@ -4,12 +4,12 @@ ms.assetid: 1496bf88-a989-4fa1-888a-90385c4ca8ee
 title: Mise à jour d’une session de suivi d’événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e580c2e84dec6682e5fad323fe0cad427300a21
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfa4f092211d59dda080906f01380f8751fbc099f79dc8f1cd8ea1f7a2ba36fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119383339"
 ---
 # <a name="updating-an-event-tracing-session"></a>Mise à jour d’une session de suivi d’événements
 

@@ -4,12 +4,12 @@ ms.assetid: 02749ce5-40db-487e-b51e-e3692266342c
 title: Services de téléphonie étendus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34a319f59f51643fb5bf13ec95800d40ffa6d8f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 403f57904138b3797069222875086b0a4990b8e625f701f380120d65c235784e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140702"
 ---
 # <a name="extended-telephony-services"></a>Services de téléphonie étendus
 

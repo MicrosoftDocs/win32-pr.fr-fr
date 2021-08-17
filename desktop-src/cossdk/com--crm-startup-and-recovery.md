@@ -4,12 +4,12 @@ ms.assetid: dee1f2df-dfe0-44c3-830b-871690e513e9
 title: Démarrage et récupération COM+ CRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a0e631e2e5ecef1621705c9af74aa48898d733b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1f65b8b1e32f2b587f7c288c6c5147ef30148360e89fc0a04ac952c8630076e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129191"
 ---
 # <a name="com-crm-startup-and-recovery"></a>Démarrage et récupération COM+ CRM
 

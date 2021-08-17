@@ -1,21 +1,21 @@
 ---
-description: Le Manifestchk.vbs de fichier VBScript est un outil de validation fourni dans le kit de développement logiciel (SDK) Microsoft Windows qui valide les fichiers de manifeste de l’application et de l’assembly.
+description: le Manifestchk.vbs de fichier VBScript est un outil de validation fourni dans le kit de développement logiciel (SDK) de Microsoft Windows qui valide les fichiers de manifeste de l’application et de l’assembly.
 ms.assetid: 8269cb92-bd3f-411f-8395-fe06ed550cc5
 title: Manifestchk.vbs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09aff347fbd8b6f44c4e38f123870fa5ee8df572
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 686843d1b4ab099d44a33b715f65564a12834f54ed6e8f62310df0aedbe53de1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142052"
 ---
 # <a name="manifestchkvbs"></a>Manifestchk.vbs
 
-Le Manifestchk.vbs de fichier VBScript est un outil de validation fourni dans le kit de développement logiciel (SDK) Microsoft Windows qui valide les fichiers de manifeste de l’application et de l’assembly.
+le Manifestchk.vbs de fichier VBScript est un outil de validation fourni dans le kit de développement logiciel (SDK) de Microsoft Windows qui valide les fichiers de manifeste de l’application et de l’assembly.
 
-L’exécution de cet exemple nécessite Windows Script Host. Pour plus d’informations sur Windows Script Host, consultez la section Windows Script Host de la SDK Windows. Windows Script Host est en fait deux hôtes. CScript.exe est la version qui vous permet d’exécuter des scripts à partir de l’invite de commandes. CScript.exe fournit des commutateurs de ligne de commande pour définir les propriétés de script.
+l’exécution de cet exemple requiert Windows Script Host. pour plus d’informations sur Windows script host, consultez la section Windows script host de l’SDK Windows. Windows Script Host est en fait deux hôtes. CScript.exe est la version qui vous permet d’exécuter des scripts à partir de l’invite de commandes. CScript.exe fournit des commutateurs de ligne de commande pour définir les propriétés de script.
 
 Le format de ligne de commande est le suivant :
 
@@ -41,7 +41,7 @@ Si l’indicateur/q n’est pas spécifié, Manifestchk.vbs affiche des informat
 Cet utilitaire vérifie les éléments suivants :
 
 -   Une ligne de commande valide.
--   Cette version de MSXML 3 est installée.
+-   cette MSXML version 3 est installée.
 -   Que le manifeste utilise du XML bien formé.
 -   Que le manifeste accepte le schéma fourni. Notez que Manifestchk.vbs vérifie le fichier manifeste en fonction de ce qui est spécifié dans le schéma fourni. Pour obtenir un exemple de schéma de manifeste, consultez [schéma de fichier manifeste](manifest-file-schema.md).
 

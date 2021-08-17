@@ -4,12 +4,12 @@ ms.assetid: 0fa00a3f-2a5d-411d-9fc6-9486a600f018
 title: Table de classe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29e7584fcb0440b8754179d8e274158cc64e3b74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48985bd2d7e9670c89df53993e7170dc3e0e43a2b6e60f63d29e9f43e8d2ab3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066039"
 ---
 # <a name="class-table"></a>Table de classe
 
@@ -22,13 +22,13 @@ La table de classe contient les colonnes suivantes.
 | Colonne           | Type                         | Clé | Nullable |
 |------------------|------------------------------|-----|----------|
 | CLSID            | [GUID](guid.md)             | O   | N        |
-| Context          | [Identificateur](identifier.md) | O   | N        |
-| -\_      | [Identificateur](identifier.md) | O   | N        |
+| Contexte          | [Identificateur](identifier.md) | O   | N        |
+| Composant\_      | [Identificateur](identifier.md) | O   | N        |
 | ProgId \_ par défaut  | [Text](text.md)             | N   | O        |
 | Description      | [Text](text.md)             | N   | O        |
 | AppId\_          | [GUID](guid.md)             | N   | O        |
 | FileTypeMask     | [Text](text.md)             | N   | O        |
-| Icône\_           | [Identificateur](identifier.md) | N   | O        |
+| Située\_           | [Identificateur](identifier.md) | N   | O        |
 | IndexIcône        | [Integer](integer.md)       | N   | O        |
 | DefInprocHandler | [Nom du fichier](filename.md)     | N   | O        |
 | Argument         | [Correct](formatted.md)   | N   | O        |
@@ -183,7 +183,7 @@ Si **msidbClassAttributesRelativePath** est défini dans cette colonne, le nom d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette table est référencée lorsque l’action [RegisterClassInfo](registerclassinfo-action.md) ou l' [action UnregisterClassInfo](unregisterclassinfo-action.md) sont exécutées.
 

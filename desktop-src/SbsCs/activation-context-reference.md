@@ -4,12 +4,12 @@ ms.assetid: b53b30e0-948e-406c-9fb4-9681dc3c5670
 title: Référence du contexte d’activation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d6f8225b4db8b22227edf2b779ed9e1b50da7a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72eb4bc136a95766a62bb96e67ac198f88fca905c60ba98e6bf922ce65a36389
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142582"
 ---
 # <a name="activation-context-reference"></a>Référence du contexte d’activation
 
@@ -51,8 +51,8 @@ Le tableau suivant répertorie les structures de contexte d’activation.
 | [**données de la \_ section ACTCTX \_ \_**](/windows/win32/api/winbase/ns-winbase-actctx_section_keyed_data)                                            | Retourne les informations de contexte d’activation avec le GUID ou la section de contexte d’activation avec balises d’entier 32 bits.                                                                                                                                                                                                                                                                   |
 | [**\_ \_ informations détaillées sur le fichier \_ d’assembly**](/windows/desktop/api/Winnt/ns-winnt-assembly_file_detailed_information)                              | Contient des informations sur un fichier de l’assembly dans le contexte d’activation.                                                                                                                                                                                                                                                                                                                 |
 | [**\_ \_ \_ informations sur le niveau d’exécution du contexte d’activation \_**](/windows/desktop/api/Winnt/ns-winnt-activation_context_run_level_information)                 | Utilisé par la fonction [**QueryActCtxW**](/windows/desktop/api/Winbase/nf-winbase-queryactctxw) .<br/> **Windows Server 2003 et Windows XP :** Cette structure n’est pas disponible.<br/>                                                                                                                                                                                                                                    |
-| [**\_élément de contexte de compatibilité \_**](/windows/desktop/api/Winnt/ns-winnt-compatibility_context_element)                                         | Utilisé par la fonction [**QueryActCtxW**](/windows/desktop/api/Winbase/nf-winbase-queryactctxw) dans le cadre de la structure des informations de compatibilité du contexte d' [**Activation \_ \_ \_**](/windows/desktop/api/Winnt/ns-winnt-activation_context_compatibility_information) . <br/> **Windows Server 2008 et versions antérieures, et Windows Vista et versions antérieures :** Cette structure n’est pas disponible. Il est disponible à partir de Windows Server 2008 R2 et Windows 7.<br/> |
-| [**\_informations de \_ compatibilité du contexte d’activation \_**](/windows/desktop/api/Winnt/ns-winnt-activation_context_compatibility_information)          | Utilisé par la fonction [**QueryActCtxW**](/windows/desktop/api/Winbase/nf-winbase-queryactctxw) .<br/> **Windows Server 2008 et versions antérieures, et Windows Vista et versions antérieures :** Cette structure n’est pas disponible. Il est disponible à partir de Windows Server 2008 R2 et Windows 7.<br/>                                                                                                                                   |
+| [**\_élément de contexte de compatibilité \_**](/windows/desktop/api/Winnt/ns-winnt-compatibility_context_element)                                         | Utilisé par la fonction [**QueryActCtxW**](/windows/desktop/api/Winbase/nf-winbase-queryactctxw) dans le cadre de la structure des informations de compatibilité du contexte d' [**Activation \_ \_ \_**](/windows/desktop/api/Winnt/ns-winnt-activation_context_compatibility_information) . <br/> **Windows Server 2008 et versions antérieures, et Windows Vista et versions antérieures :** Cette structure n’est pas disponible. il est disponible à partir de Windows Server 2008 R2 et Windows 7.<br/> |
+| [**\_informations de \_ compatibilité du contexte d’activation \_**](/windows/desktop/api/Winnt/ns-winnt-activation_context_compatibility_information)          | Utilisé par la fonction [**QueryActCtxW**](/windows/desktop/api/Winbase/nf-winbase-queryactctxw) .<br/> **Windows Server 2008 et versions antérieures, et Windows Vista et versions antérieures :** Cette structure n’est pas disponible. il est disponible à partir de Windows Server 2008 R2 et Windows 7.<br/>                                                                                                                                   |
 
 
 
@@ -63,7 +63,7 @@ Le tableau suivant répertorie les énumérations de contexte d’activation.
 | Énumération                                                                       | Description                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_niveau d' \_ exécution \_ demandé par ACTCTX**](/windows/desktop/api/Winnt/ne-winnt-actctx_requested_run_level)               | Décrit le niveau d’exécution demandé du contexte d’activation. **Windows Server 2003 et Windows XP :** Cette énumération n’est pas disponible.<br/>                                                                                                      |
-| [**\_type d' \_ élément de compatibilité ACTCTX \_**](/windows/desktop/api/Winnt/ne-winnt-actctx_compatibility_element_type) | Décrit l’élément Compatibility dans le manifeste de l’application. **Windows Server 2008 et versions antérieures, et Windows Vista et versions antérieures :** Cette énumération n’est pas disponible. Il est disponible à partir de Windows Server 2008 R2 et Windows 7.<br/> |
+| [**\_type d' \_ élément de compatibilité ACTCTX \_**](/windows/desktop/api/Winnt/ne-winnt-actctx_compatibility_element_type) | Décrit l’élément Compatibility dans le manifeste de l’application. **Windows Server 2008 et versions antérieures, et Windows Vista et versions antérieures :** Cette énumération n’est pas disponible. il est disponible à partir de Windows Server 2008 R2 et Windows 7.<br/> |
 
 
 

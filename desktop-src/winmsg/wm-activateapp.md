@@ -4,12 +4,12 @@ ms.assetid: fc3626ac-8f19-4aa6-8fe9-5020d00c09db
 title: Message WM_ACTIVATEAPP (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee2d64b90426e004a3c18fdc60538fd21862c42f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9afeabe12dfcc36ae7bf2403a7757004847bcf58370f4a0a0904c9bf008e6c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931889"
 ---
 # <a name="wm_activateapp-message"></a>\_Message WM ACTIVATEAPP
 

@@ -1,5 +1,5 @@
 ---
-description: L’interface IXml2Dex enregistre et charge les fichiers projet DES services de modification DirectShow (DES) en Extensible Markup Language (XML). Cette interface fournit également des méthodes pour lire et écrire des fichiers de graphique DirectShow (. GRF).
+description: l’interface IXml2Dex enregistre et charge DirectShow fichiers de projet des Services d’édition dans Extensible Markup Language (XML). cette interface fournit également des méthodes pour lire et écrire des fichiers DirectShow graph (. grf).
 ms.assetid: a07b0cbe-1f1d-4ccd-a994-9bb1a49c78d8
 title: Interface IXml2Dex (qedit. h)
 ms.topic: reference
@@ -14,21 +14,21 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: ac15110aa1482c37a835ae874057a792e310fc2f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3bc12c2305a8b92110d4aa17522184e9a3c5ee83b60ccd5a989468fa0a8c6e7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952388"
 ---
 # <a name="ixml2dex-interface"></a>Interface IXml2Dex
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IXml2Dex` interface enregistre et charge les fichiers projet des [services de modification DirectShow](directshow-editing-services.md) (des) en Extensible Markup Language (XML). Cette interface fournit également des méthodes pour lire et écrire des fichiers de graphique DirectShow (. GRF).
+l' `IXml2Dex` interface enregistre et charge [DirectShow](directshow-editing-services.md) fichiers de projet des Services d’édition dans Extensible Markup Language (XML). cette interface fournit également des méthodes pour lire et écrire des fichiers DirectShow graph (. grf).
 
 ## <a name="members"></a>Membres
 
@@ -51,7 +51,7 @@ L’interface **IXml2Dex** possède ces méthodes.
 | [**PasteXMLFile**](ixml2dex-pastexmlfile.md)               | Non implémenté.<br/>                                                |
 | [**ReadXML**](ixml2dex-readxml.md)                         | Non implémenté.<br/>                                                |
 | [**ReadXMLFile**](ixml2dex-readxmlfile.md)                 | Charge un fichier projet XML.<br/>                                      |
-| [**Réinitialiser**](ixml2dex-reset.md)                             | Non implémenté.<br/>                                                |
+| [**Initialisation**](ixml2dex-reset.md)                             | Non implémenté.<br/>                                                |
 | [**WriteGrfFile**](ixml2dex-writegrffile.md)               | Écrit un graphique de filtre dans un fichier au format. GRF.<br/>                 |
 | [**WriteXML**](ixml2dex-writexml.md)                       | Convertit une chronologie en une chaîne XML.<br/>                         |
 | [**WriteXMLFile**](ixml2dex-writexmlfile.md)               | Convertit une chronologie en XML et écrit les données XML dans un fichier.<br/> |
@@ -61,7 +61,7 @@ L’interface **IXml2Dex** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -69,7 +69,7 @@ L’interface **IXml2Dex** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

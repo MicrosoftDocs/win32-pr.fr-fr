@@ -4,12 +4,12 @@ ms.assetid: f82ce6da-fe2d-4931-99dc-4aeb2f0f3317
 title: SENSOR_CATEGORY_LOCATION (sensors. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec2e9d4c8bb64b9bd8026dd5a8ab05d848a1c975
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aea3ad5210cdcd8d8082b8963ca2e4a0c17708ec13c28546f5582f0c6cc7ab03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889498"
 ---
 # <a name="sensor_category_location"></a>emplacement de la catégorie de capteur \_ \_
 
@@ -93,7 +93,7 @@ Cette catégorie comprend les champs de données définis par la plateforme suiv
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                            |
 | En-tête<br/>                   | <dl> <dt>Capteurs. h</dt> </dl> |
 

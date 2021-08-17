@@ -4,12 +4,12 @@ ms.assetid: 82a93f57-8273-45bf-81d7-50a673845ae1
 title: Fonctions d’agrégation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da68ad1104c93e8ae04f7ec37cbbde5020109336
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30d504a9343116bc23e847728716eeaa79fc2d26d993e962dd81ccd43669e22a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104560054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094953"
 ---
 # <a name="aggregate-functions"></a>Fonctions d’agrégation
 
@@ -17,7 +17,7 @@ Une fonction d’agrégation effectue un calcul sur un ensemble de valeurs et re
 
 ## <a name="about-aggregate-functions"></a>À propos des fonctions d’agrégation
 
-Les fonctions d’agrégation des langage SQL de recherche Windows (SQL) ont la syntaxe suivante :
+les fonctions d’agrégation dans Windows langage SQL de recherche (SQL) ont la syntaxe suivante :
 
 
 ```
@@ -56,7 +56,7 @@ La partie fonction peut inclure l’une des fonctions et la syntaxe suivantes :
 
 Vous pouvez utiliser n’importe quelle colonne numérique ou de date pour les agrégations, et pas seulement celles qui se trouvent dans la clause SELECT. Toutefois, vous ne pouvez pas regrouper sur des agrégats. Une erreur de syntaxe est retournée si l’argument de colonne passé n’est pas un type numérique ou de date.
 
-La partie étiquette est facultative et fournit un alias plus lisible pour l’étiquette. Si vous n’incluez pas d’étiquette d’alias, Windows Search transforme la fonction et le nom de colonne en une étiquette. Par exemple, MAX (System.Document. WordCount) devient MAX \_ SystemDocumentWordCount.
+La partie étiquette est facultative et fournit un alias plus lisible pour l’étiquette. si vous n’incluez pas d’étiquette d’alias, Windows recherche transforme la fonction et le nom de colonne en étiquette. Par exemple, MAX (System.Document. WordCount) devient MAX \_ SystemDocumentWordCount.
 
 ## <a name="multi-level-groups-and-counting"></a>Groupes et décomptes à plusieurs niveaux
 

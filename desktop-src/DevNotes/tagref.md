@@ -4,12 +4,12 @@ ms.assetid: e7d83dca-13a5-4396-b50b-0d068209c03c
 title: TAGREF
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34e27a60847630e7bbd8e07ccf005dfd7b474d7a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2bf5a9de8da025e8278ab0bca7ccbe16d70d16b782591181f6ce6ce74a010a39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075774"
 ---
 # <a name="tagref"></a>TAGREF
 
@@ -22,7 +22,7 @@ typedef DWORD TAGREF;
 
 
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Un **TAGREF** est spécifique à une base de données de shims et valide sur plusieurs bases de données. Il peut s’agir d’une valeur entière qui représente l’index ou de l’une des valeurs suivantes :
 
@@ -48,8 +48,8 @@ Indique une BALIse de liste racine qui peut être utilisée comme parent pour ob
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

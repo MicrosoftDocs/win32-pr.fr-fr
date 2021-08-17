@@ -4,12 +4,12 @@ ms.assetid: a7cfaa6d-e17d-458a-ae63-72963615bef8
 title: Comment recoder une image JPEG avec des métadonnées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c023defb760faeab2bc6ea92232fcc916ef15126
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 13851af04c6af742dbc68acc31fd674c3602ebeb16bec6903a3570f8cb1e0400
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106525317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088161"
 ---
 # <a name="how-to-re-encode-a-jpeg-image-with-metadata"></a>Comment recoder une image JPEG avec des métadonnées
 
@@ -17,7 +17,7 @@ L’exemple suivant montre comment recoder une image et ses métadonnées dans u
 
 Cette rubrique contient les sections suivantes.
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Partie 1 : décoder une image](#part-1-decode-an-image)
 -   [Partie 2 : créer et initialiser l’encodeur d’image](#part-2-create-and-initialize-the-image-encoder)
 -   [Partie 3 : copier les informations de trame décodées](#part-3-copy-decoded-frame-information)
@@ -29,7 +29,7 @@ Cette rubrique contient les sections suivantes.
 
 ## <a name="prerequisites"></a>Prérequis
 
-Pour comprendre cette rubrique, vous devez être familiarisé avec le système de métadonnées WIC (Windows Imaging Component), comme décrit dans la [vue d’ensemble des métadonnées WIC](-wic-about-metadata.md). Vous devez également être familiarisé avec les composants du codec WIC comme décrit dans la [vue d’ensemble du composant de création d’images Windows](-wic-about-windows-imaging-codec.md).
+pour comprendre cette rubrique, vous devez être familiarisé avec le système de métadonnées wic (Windows Imaging Component), comme décrit dans [vue d’ensemble des métadonnées wic](-wic-about-metadata.md). vous devez également être familiarisé avec les composants du codec WIC comme décrit dans la [vue d’ensemble du composant de création d’images Windows](-wic-about-windows-imaging-codec.md).
 
 ## <a name="part-1-decode-an-image"></a>Partie 1 : décoder une image
 

@@ -18,12 +18,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 96df2214aff9b5be6f10a1f08f6e6ea2e015c6b5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 29211ae7a5aca5abc33af545ba581c4baf82f1dac51c72b910f8251560ea92d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069569"
 ---
 # <a name="tcpip_v0_typegroup1-class"></a>TcpIp \_ v0 \_ TypeGroup1, classe
 
@@ -122,7 +122,7 @@ Adresse IP source.
 
 </dd> <dt>
 
-est
+taille
 </dt> <dd> <dl> <dt>
 
 Type de données : **UInt32**
@@ -160,7 +160,7 @@ Numéro du port source.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                   |
 
 

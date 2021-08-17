@@ -4,12 +4,12 @@ description: L’exemple de code suivant montre comment permettre à un utilisat
 ms.assetid: f0a3de8e-6d3f-45d3-af42-b8ae62278667
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d05c1b75b41c6f71abe508e53e478f4978f50bd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 37410958c0f602b929ff319b98faa4f88074a94f760508bac473bbf348f0ff3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069309"
 ---
 # <a name="forcing-filter-deletion"></a>Forcer la suppression du filtre
 
@@ -18,7 +18,7 @@ L’exemple de code suivant montre comment permettre à un utilisateur disposant
 > [!Note]  
 > Une application d’installation peut utiliser cette fonctionnalité pendant une désinstallation pour s’assurer que tous les objets ont été correctement supprimés.
 
- 
+ 
 
 
 ```C++
@@ -249,9 +249,9 @@ CLEANUP:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

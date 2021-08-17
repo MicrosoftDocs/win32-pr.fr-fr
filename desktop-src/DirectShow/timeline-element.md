@@ -1,7 +1,7 @@
 ---
 description: L’élément timeline définit la chronologie. Cet élément est le nœud racine dans le fichier XML.
 ms.assetid: db1da09f-d9b2-43fa-8dec-e3dc11cbfafa
-title: Élément timeline (Windows. UI. Xaml. Media. Animation. h)
+title: élément timeline (Windows. ui. xaml. media. animation. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,17 +13,17 @@ api_type:
 - HeaderDef
 api_location:
 - windows.ui.xaml.media.animation.h
-ms.openlocfilehash: 97e87dbbcfbcefb8968f6bbe43e9df94277e3d7a
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: f94dd76206aabbe39e443dac5ab277e499face91c94a6a69b3fe5ee29eb67c70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951668"
 ---
 # <a name="timeline-element"></a>Élément timeline
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -61,7 +61,7 @@ L' `timeline` élément définit la chronologie. Cet élément est le nœud raci
 
 | Condition requise | Valeur |
 |-------------------|--------------------------------------------------------------------------------------------------------------|
-| En-tête<br/> | <dl> <dt>Windows. UI. Xaml. Media. Animation. h</dt> </dl> |
+| En-tête<br/> | <dl> <dt>Windows. ui. xaml. media. animation. h</dt> </dl> |
 
 
 

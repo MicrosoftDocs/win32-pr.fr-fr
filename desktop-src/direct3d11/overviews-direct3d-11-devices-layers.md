@@ -4,12 +4,12 @@ description: Le runtime Direct3D 11 est construit avec des couches, en commença
 ms.assetid: c545983c-5351-42a9-82e5-deea73aa035f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb05658860e678e8020392cb046a634e3b03c7c2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f59d0405d53526b8fb0b93e52fd1a53b5c17839f6c58df919bac335b21ad2477
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104507926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124360"
 ---
 # <a name="software-layers"></a>Couches logicielles
 
@@ -37,17 +37,17 @@ Pour créer un appareil qui prend en charge la couche de débogage, vous devez i
 
 
 > [!Note]  
-> Pour Windows 7 avec la mise à jour de plateforme pour Windows 7 (KB2670838) ou Windows 8. x, pour créer un appareil qui prend en charge la couche de débogage, installez le kit de développement logiciel (SDK) Windows pour Windows 8. x afin d’obtenir D3D11 \_1SDKLayers.dll.
+> pour Windows 7 avec la mise à jour de plateforme pour Windows 7 (KB2670838) ou Windows 8. x, pour créer un appareil qui prend en charge la couche de débogage, installez le kit de développement logiciel (SDK) Windows pour Windows 8. x afin d’obtenir D3D11 \_1SDKLayers.dll.
 
 
 > [!Note]  
-> Pour Windows 10, pour créer un appareil qui prend en charge la couche de débogage, activez la fonctionnalité facultative « outils graphiques ». Accédez au panneau Paramètres, sous système, applications & fonctionnalités, gérer les fonctionnalités facultatives, ajouter une fonctionnalité, puis Rechercher « outils Graphics ».
+> par Windows 10, pour créer un appareil qui prend en charge la couche de débogage, activez la fonctionnalité facultative « outils graphiques ». accédez au panneau Paramètres, sous système, applications & fonctionnalités, gérer les fonctionnalités facultatives, ajouter une fonctionnalité, puis rechercher « outils graphics ».
 
 
 > [!Note]  
 > Pour plus d’informations sur le débogage des applications DirectX à distance, consultez [débogage des applications DirectX à distance](/windows/desktop/direct3dtools/debugging-directx-apps-remotely).
 
- 
+ 
 
 Vous pouvez également activer/désactiver l’indicateur de débogage à l’aide du [panneau de configuration DirectX](/previous-versions//bb219725(v=vs.85)) inclus dans le kit de développement logiciel (SDK) DirectX.
 
@@ -70,6 +70,6 @@ En règle générale, vous devez compiler ces appels en dehors de votre version 
 [Appareils](overviews-direct3d-11-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

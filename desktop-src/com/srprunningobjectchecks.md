@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre SRPRunningObjectChecks COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ad307856bcfdd30cfaa6c731551ac6570d2bec6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c416b5f430540282873e37c5e74ef2cccc1c564f4a5b27842ba2a49e99cc8769
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129791"
 ---
 # <a name="srprunningobjectchecks"></a>SRPRunningObjectChecks
 
@@ -21,10 +21,10 @@ Détermine si les tentatives de connexion aux objets en cours d’exécution son
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   SRPRunningObjectChecks = value
+   SRPRunningObjectChecks = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **reg \_ SZ** .
 
@@ -37,9 +37,9 @@ Les valeurs de chaîne {N, n, NO, no} indiquent que les tentatives de connexion 
 [SRPTrustLevel](srptrustlevel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

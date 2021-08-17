@@ -4,12 +4,12 @@ ms.assetid: cf35724f-5f80-4b3e-992a-a9d5ea99aae9
 title: Considérations générales sur les threads
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21f825ec7a1397dae7d60aa14b31603ee76a2f59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63f4c6f2aa76775d3d88e8ea60c3899a2d8ac47e5ef07fddbbdfaca96196dee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092573"
 ---
 # <a name="general-threading-considerations"></a>Considérations générales sur les threads
 
@@ -49,9 +49,9 @@ Lorsque votre application effectue un rendu personnalisé ou lorsque votre appli
 
 | Objet ou contrôle                                            | Événement                                                                                                                                                                                                                     |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InkCollector**](inkcollector-class.md) Dessin<br/> | Événements [Control. Invalidate](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) et Control [. Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) du contrôle sous-jacent.<br/>                                 |
-| [**InkOverlay**](inkoverlay-class.md) Dessin<br/>     | Événements [Control. Invalidate](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) et Control [. Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) du contrôle sous-jacent.<br/>                                 |
-| [InkPicture](inkpicture-control.md) Régulation<br/>      | Contrôle hérité du contrôle [InkPicture](inkpicture-control.md) . les événements [invalidés](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) et [Control. Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) .<br/> |
+| [**InkCollector**](inkcollector-class.md) Dessin<br/> | les événements control. [invalidate](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) et control [. Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) du contrôle sous-jacent.<br/>                                 |
+| [**InkOverlay**](inkoverlay-class.md) Dessin<br/>     | les événements control. [invalidate](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) et control [. Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) du contrôle sous-jacent.<br/>                                 |
+| [InkPicture](inkpicture-control.md) Régulation<br/>      | contrôle hérité du contrôle [InkPicture](inkpicture-control.md) . les événements [invalidés](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) et [control. Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) .<br/> |
 
 
 

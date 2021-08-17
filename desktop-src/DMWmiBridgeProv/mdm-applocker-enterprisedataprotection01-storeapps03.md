@@ -1,6 +1,6 @@
 ---
 title: Classe MDM_AppLocker_EnterpriseDataProtection01_StoreApps03
-description: La \_ \_ \_ classe ENTERPRISEDATAPROTECTION01 StoreApps03 de MDM AppLocker capture la liste des applications Windows autorisées à gérer les données d’entreprise. Doit être utilisé conjointement avec les paramètres de./Vendor/MSFT/Policy/ConfigSource/DataProtection.
+description: la \_ \_ \_ classe EnterpriseDataProtection01 StoreApps03 de MDM AppLocker capture la liste des applications Windows autorisées à gérer les données d’entreprise. Doit être utilisé conjointement avec les paramètres de./Vendor/MSFT/Policy/ConfigSource/DataProtection.
 ms.assetid: f37fe52d-dbe1-45b7-acd5-5047c46d9bd0
 keywords:
 - Classe MDM_AppLocker_EnterpriseDataProtection01_StoreApps03
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 240f641e542bbbe0c71fd686e2d9df3908b9bab3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf5b0c3af455e501695cb7a2093b841159f5755ac54e1de97a370c7dc7f2d6fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077409"
 ---
 # <a name="mdm_applocker_enterprisedataprotection01_storeapps03-class"></a>\_ \_ Classe StoreApps03 ENTERPRISEDATAPROTECTION01 de MDM AppLocker \_
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-La **classe \_ \_ EnterpriseDataProtection01 \_ StoreApps03 de MDM AppLocker** capture la liste des applications Windows autorisées à gérer les données d’entreprise. Doit être utilisé conjointement avec les paramètres de./Vendor/MSFT/Policy/ConfigSource/DataProtection.
+la **classe \_ \_ EnterpriseDataProtection01 \_ StoreApps03 de MDM AppLocker** capture la liste des applications Windows autorisées à gérer les données d’entreprise. Doit être utilisé conjointement avec les paramètres de./Vendor/MSFT/Policy/ConfigSource/DataProtection.
 
 La syntaxe suivante issue du code MOF est simplifiée et inclut toutes les propriétés héritées.
 
@@ -68,7 +68,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [ **clé**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Définit des restrictions pour l’exécution d’applications à partir du Windows Store.
+définit des restrictions pour l’exécution d’applications à partir du magasin de Windows.
 
 </dd> <dt>
 
@@ -88,7 +88,7 @@ Décrit le chemin d’accès complet au nœud parent. Pour cette classe, la cha�
 
 </dd> <dt>
 
-[**Stratégie**](/windows/client-management/mdm/applocker-csp)
+[**Policy**](/windows/client-management/mdm/applocker-csp)
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -105,7 +105,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine DMMap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |
