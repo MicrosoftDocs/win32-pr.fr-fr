@@ -3,9 +3,9 @@ title: Événement Player. Error
 description: L’événement d’erreur se produit lorsqu’il y a une condition d’erreur.
 ms.assetid: 1e418a56-ae81-4ff0-b721-3390be08970d
 keywords:
-- Événement d’erreur lecteur Windows Media
-- Événement d’erreur lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement d’erreur
+- Lecteur Windows Media d’événement d’erreur
+- événement d’erreur Lecteur Windows Media, classe Player
+- Lecteur Windows Media de classe Player, événement d’erreur
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a99411773994ad012155eea5a203ed341d50b460
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a7e4642eef19b4edc4b1aa5bc75022a307d279d0d60482af0c7e2f0a9368c06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134812"
 ---
 # <a name="playererror-event"></a>Événement Player. Error
 
@@ -46,7 +46,7 @@ Cet événement ne retourne pas de valeur.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant crée un gestionnaire d’événements pour afficher le texte de description de la première erreur dans la file d’attente d’erreurs. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant crée un gestionnaire d’événements pour afficher le texte de description de la première erreur dans la file d’attente d’erreurs. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

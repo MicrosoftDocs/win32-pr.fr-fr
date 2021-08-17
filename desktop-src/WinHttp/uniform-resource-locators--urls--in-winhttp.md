@@ -4,16 +4,16 @@ ms.assetid: 940c414d-274f-475c-a50e-7a0853c3c26b
 title: URL (Uniform Resource Locators) dans WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 486ed3b17e2cf205f6ac815e87617a84e0ccc4cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 798d18dd2e3d2095e175904fcc2f3a332d618100174f174510c98780b06a57ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133005"
 ---
 # <a name="uniform-resource-locators-urls-in-winhttp"></a>URL (Uniform Resource Locators) dans WinHTTP
 
-Une URL est une représentation compacte de l’emplacement et de la méthode d’accès d’une ressource située sur Internet. Chaque URL se compose d’un schéma (HTTP, HTTPs, FTP ou Gopher) et d’une chaîne spécifique au schéma. Cette chaîne peut également inclure une combinaison d’un chemin d’accès de répertoire, d’une chaîne de recherche ou d’un nom de ressource. Les fonctions des services HTTP Microsoft Windows (WinHTTP) offrent la possibilité de créer, combiner, décomposer et rendre canoniques les URL. Pour plus d’informations, consultez [rfc 1738](https://www.ietf.org/rfc/rfc1738.txt), [Uniform Resource Locators](https://www.ietf.org/rfc/rfc1738.txt) et [RFC 2396](https://www.ietf.org/rfc/rfc2396.txt), [Uniform Resource Identifiers (Uri) : Generic Syntax](https://www.ietf.org/rfc/rfc1738.txt).
+Une URL est une représentation compacte de l’emplacement et de la méthode d’accès d’une ressource située sur Internet. Chaque URL se compose d’un schéma (HTTP, HTTPs, FTP ou Gopher) et d’une chaîne spécifique au schéma. Cette chaîne peut également inclure une combinaison d’un chemin d’accès de répertoire, d’une chaîne de recherche ou d’un nom de ressource. les fonctions Microsoft Windows HTTP Services (WinHTTP) offrent la possibilité de créer, combiner, décomposer et canonicaliser des url. Pour plus d’informations, consultez [rfc 1738](https://www.ietf.org/rfc/rfc1738.txt), [Uniform Resource Locators](https://www.ietf.org/rfc/rfc1738.txt) et [RFC 2396](https://www.ietf.org/rfc/rfc2396.txt), [Uniform Resource Identifiers (Uri) : Generic Syntax](https://www.ietf.org/rfc/rfc1738.txt).
 
 ## <a name="what-is-a-canonicalized-url"></a>Qu’est-ce qu’une URL canonique ?
 

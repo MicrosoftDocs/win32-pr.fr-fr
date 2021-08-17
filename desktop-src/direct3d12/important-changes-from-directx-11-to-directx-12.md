@@ -1,18 +1,18 @@
 ---
-title: Modifications importantes de Direct3D 11 à Direct3D 12
+title: Modifications importantes entre Direct3D 11 et Direct3D 12
 description: Direct3D 12 représente un écart significatif par rapport au modèle de programmation Direct3D 11. Direct3D 12 permet aux applications d’être plus proches du matériel que jamais.
 ms.assetid: CE5066C9-7EA6-437D-9EB0-AACFB6CFAD9E
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5be891d71d6c1f3a12d8d5aac3ec46785207ed31
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3afc5fe9a451addf1d1f7b9aeddf1f55ca40a22db99134ba71d8195c72ad2b13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123832"
 ---
-# <a name="important-changes-from-direct3d-11-to-direct3d-12"></a>Modifications importantes de Direct3D 11 à Direct3D 12
+# <a name="important-changes-from-direct3d-11-to-direct3d-12"></a>Modifications importantes entre Direct3D 11 et Direct3D 12
 
 Direct3D 12 représente un écart significatif par rapport au modèle de programmation Direct3D 11. Direct3D 12 permet aux applications d’être plus proches du matériel que jamais. En étant plus proche du matériel, Direct3D 12 est plus rapide et plus efficace. Toutefois, le compromis de votre application ayant une rapidité et une efficacité accrues avec Direct3D 12 est que vous êtes responsable des tâches supplémentaires que vous étiez avec Direct3D 11.
 
@@ -79,9 +79,9 @@ Le portage à partir de Direct3D 11 est un processus impliqué, décrit dans [Po
 
 <dl> <dt>
 
-[Comprendre Direct3D 12](directx-12-getting-started.md)
+[Comprendre Direct3D 12](directx-12-getting-started.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

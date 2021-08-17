@@ -1,17 +1,17 @@
 ---
-description: Transfert d’une image ou d’un fichier musical vers l’appareil
+description: transfert d’une Image ou d’un fichier Musique sur l’appareil
 ms.assetid: bace274c-512a-46da-80a7-84734ee880b7
-title: Transfert d’une image ou d’un fichier musical vers l’appareil
+title: transfert d’une Image ou d’un fichier Musique sur l’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f3308212825f6c67ea79a40873fc466164d62f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44cf16c4c95080b5479825bbc4a0f8dcfd131fdb603821edab0a2e9df4d03c41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928059"
 ---
-# <a name="transferring-an-image-or-music-file-to-the-device"></a>Transfert d’une image ou d’un fichier musical vers l’appareil
+# <a name="transferring-an-image-or-music-file-to-the-device"></a>transfert d’une Image ou d’un fichier Musique sur l’appareil
 
 L’une des opérations les plus courantes accomplies par une application est le transfert de contenu vers un appareil connecté.
 

@@ -1,28 +1,28 @@
 ---
 title: Surveillance des applications de
-description: Cette rubrique explique comment utiliser les éléments de la bibliothèque de gestion échange dynamique de données pour créer une application qui surveille l’activité d’échange de données dynamiques dans le système.
+description: cette rubrique explique comment utiliser les éléments de la bibliothèque de gestion échange dynamique de données pour créer une application qui surveille l’activité d’échange de données dynamiques dans le système.
 ms.assetid: 6705dc8e-d1e9-4057-9fa2-42cd5cf818af
 keywords:
-- Interface utilisateur Windows, échange dynamique de données (DDE)
-- Échange dynamique de données (DDE), surveillance des applications
+- Windows Interface utilisateur, échange dynamique de données (DDE)
+- échange dynamique de données (DDE), surveillance des applications
 - DDE (échange dynamique de données), surveillance des applications
 - échange de données, échange dynamique de données (DDE)
-- Interface utilisateur Windows, bibliothèque de gestion des échange dynamique de données (DDEML)
-- Bibliothèque de gestion des échange dynamique de données (DDEML), applications de surveillance
+- Windows Interface utilisateur, échange dynamique de données Management Library (DDEML)
+- bibliothèque de gestion des échange dynamique de données (DDEML), applications de surveillance
 - DDEML (bibliothèque de gestion échange dynamique de données), surveillance des applications
 - échange de données, bibliothèque de gestion des échange dynamique de données (DDEML)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1f75685d4caa15e519485b2d8b37983faa35366
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8fbf6db1faa765378ea2b22b1146de770e9c94b14cf7e9e511ab862be48369c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128551"
 ---
 # <a name="monitoring-applications"></a>Surveillance des applications de
 
-Les éléments d’API de la bibliothèque de gestion échange dynamique de données (DDEML) peuvent être utilisés pour créer une application qui surveille l’activité de échange dynamique de données (DDE) dans le système. Comme n’importe quelle application DDEML, une application de surveillance DDE contient une fonction de rappel DDE. Le DDEML notifie la fonction de rappel DDE d’une application de surveillance chaque fois qu’un événement DDE se produit, en passant des informations sur l’événement à la fonction de rappel. L’application affiche généralement les informations dans une fenêtre ou les écrit dans un fichier.
+les éléments d’API de la bibliothèque de gestion échange dynamique de données (DDEML) peuvent être utilisés pour créer une application qui surveille l’activité de échange dynamique de données (DDE) dans le système. Comme n’importe quelle application DDEML, une application de surveillance DDE contient une fonction de rappel DDE. Le DDEML notifie la fonction de rappel DDE d’une application de surveillance chaque fois qu’un événement DDE se produit, en passant des informations sur l’événement à la fonction de rappel. L’application affiche généralement les informations dans une fenêtre ou les écrit dans un fichier.
 
 Pour recevoir des notifications de DDEML, une application doit être inscrite en tant qu’analyseur DDE en spécifiant l' \_ indicateur de moniteur APPCLASS dans un appel à la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) . Dans ce même appel, l’application peut spécifier un ou plusieurs indicateurs d’analyse pour indiquer les types d’événements pour lesquels le DDEML doit notifier la fonction de rappel de l’application. Les indicateurs de surveillance suivants peuvent être spécifiés par une application :
 
@@ -40,7 +40,7 @@ Pour recevoir des notifications de DDEML, une application doit être inscrite en
 
 
 
- 
+ 
 
 L’exemple suivant montre comment inscrire une application de surveillance DDE afin que sa fonction de rappel DDE reçoive des notifications de tous les événements DDE.
 
@@ -84,7 +84,7 @@ DDEML informe l’application de surveillance d’un événement DDE en envoyant
 
 
 
- 
+ 
 
 L’exemple suivant illustre la fonction de rappel DDE d’une application de surveillance DDE qui met en forme les informations relatives à chaque événement de handle de chaîne, puis affiche les informations dans une fenêtre. La fonction utilise la structure [**MONHSZSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monhszstructa) pour extraire les informations de l’objet DDE.
 
@@ -189,9 +189,9 @@ DWORD dwData2;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

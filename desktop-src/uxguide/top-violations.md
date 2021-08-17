@@ -4,23 +4,23 @@ description: Voici un ensemble d’instructions importantes dans le Guide de l�
 ms.assetid: 4705a807-5949-4957-8ea6-70871beaf8e0
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: d1006b7ad9de30941b6ceb4cc7282ec578450840
-ms.sourcegitcommit: 8755905962e156f29203705d09d6df8b7d0e2fca
+ms.openlocfilehash: 712b31a7a5166e41e590470aea48f60a1f159850da3ea6917b36ece9ada80fa0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "106531160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119332469"
 ---
 # <a name="ux-checklist-for-desktop-applications"></a>Liste de contrôle d’expérience utilisateur pour les applications de bureau
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Voici un ensemble d’instructions importantes dans le Guide de l’expérience utilisateur. Vous pouvez l’utiliser comme liste de vérification pour vous assurer que l’interface utilisateur de votre programme obtient ces éléments importants.
 
 ## <a name="windows"></a>Windows
 
--   **Prendre en charge la résolution effective Windows minimale de 800x600 pixels.** Pour les interfaces utilisateur (IU) critiques qui doivent fonctionner en mode sans échec, prennent en charge une [résolution efficace](glossary.md) de 640 x 480 pixels. Veillez à tenir compte de l’espace utilisé par la barre des tâches en réservant 48 [pixels relatifs](glossary.md) verticaux pour les fenêtres affichées avec la barre des tâches.
+-   **prendre en charge la résolution minimale Windows de 800 x 600 pixels.** Pour les interfaces utilisateur (IU) critiques qui doivent fonctionner en mode sans échec, prennent en charge une [résolution efficace](glossary.md) de 640 x 480 pixels. Veillez à tenir compte de l’espace utilisé par la barre des tâches en réservant 48 [pixels relatifs](glossary.md) verticaux pour les fenêtres affichées avec la barre des tâches.
 -   **Optimisez les dispositions de fenêtres redimensionnables pour une résolution efficace de 1024 x 768 pixels.** Redimensionnez automatiquement ces fenêtres pour réduire la résolution de l’écran d’une manière qui reste fonctionnelle.
 -   **Veillez à tester votre Windows en mode 96 points par pouce (dpi) (à 800x600 pixels), 120 ppp (à 1024 x 768 pixels) et 144 dpi (en 1200x900 pixels).** Vérifiez les problèmes de disposition, tels que le découpage des contrôles, du texte et des fenêtres, et l’étirement des icônes et des bitmaps.
 -   **Pour les programmes qui utilisent des scénarios tactiles et mobiles, optimisez pour 120 ppp.** Les écrans haute résolution sont actuellement répandus sur les PC tactiles et les ordinateurs portables.
@@ -38,10 +38,10 @@ Voici un ensemble d’instructions importantes dans le Guide de l’expérience 
 
 ## <a name="text"></a>Texte
 
--   **Utilisez des termes ordinaires et conversationnels lorsque vous le pouvez.** Concentrez-vous sur les objectifs de l’utilisateur, et non sur la technologie. Cela est particulièrement efficace si vous décrivez un concept ou une action technique complexe. Imaginez que vous examinez l’épaule de l’utilisateur et que vous expliquiez comment accomplir cette tâche.
+-   **Utilisez des termes ordinaires et conversationnels lorsque vous le pouvez.** Concentrez-vous sur les objectifs de l’utilisateur, et non sur la technologie. Cela est particulièrement efficace si vous décrivez un concept ou une action technique complexe. Imagine vous intéressent à l’épaule de l’utilisateur et expliquent comment accomplir cette tâche.
 -   **Soyez poli, pris en charge et encourageant.** L’utilisateur ne doit jamais se sentir à l’aise avec, à tort ou à intimidant.
 -   **Supprimez le texte redondant.** Recherchez du texte redondant dans les titres de la fenêtre, les instructions principales, les instructions supplémentaires, les zones de contenu, les liens de commande et les boutons de validation. En règle générale, laissez le texte intégral dans les instructions principales et les contrôles interactifs, et supprimez toute redondance des autres emplacements.
--   **Utilisez la mise en majuscules de style titre pour les titres et les majuscules de style des phrases pour tous les autres éléments de l’interface utilisateur.** Cela est plus approprié pour le ton Windows.
+-   **Utilisez la mise en majuscules de style titre pour les titres et les majuscules de style des phrases pour tous les autres éléments de l’interface utilisateur.** cela est plus approprié pour le ton Windows.
     -   **Exception :** Pour les applications héritées, vous pouvez utiliser la mise en majuscules de style titre pour les boutons de commande, les menus et les en-têtes de colonnes si nécessaire pour éviter de mélanger les styles de mise en majuscules.
 -   **Pour les noms de fonctionnalités et de technologies, soyez prudent en majuscules.** En règle générale, seuls les principaux composants doivent être en majuscules (à l’aide de la mise en majuscules du style titre).
 -   **Pour les noms de fonctionnalités et de technologies, soyez cohérent en majuscules.** Si le nom apparaît plusieurs fois sur un écran de l’interface utilisateur, il doit toujours apparaître de la même façon. De même, dans tous les écrans de l’interface utilisateur du programme, le nom doit être présenté de manière cohérente.
@@ -49,7 +49,7 @@ Voici un ensemble d’instructions importantes dans le Guide de l’expérience 
     -   **Exceptions :** Barre d’adresses, barre de liens, ruban.
 -   **N’utilisez pas toutes les lettres majuscules pour les touches du clavier.** Au lieu de cela, suivez la casse utilisée par les claviers standard ou en minuscules si la touche n’est pas étiquetée sur le clavier.
 -   **Les ellipses signifient incomplète.** Utilisez des ellipses dans le texte de l’interface utilisateur comme suit :
-    -   **Commandes.** Indique qu’une commande a besoin d’informations supplémentaires. N’utilisez pas de points de suspension quand une action affiche une autre fenêtre, uniquement lorsque des informations supplémentaires sont requises. Les commandes dont le verbe implicite est d’afficher une autre fenêtre n’acceptent pas les points de suspension, tels que avancé, aide, options, propriétés ou paramètres.
+    -   **Commandes.** Indique qu’une commande a besoin d’informations supplémentaires. N’utilisez pas de points de suspension quand une action affiche une autre fenêtre, uniquement lorsque des informations supplémentaires sont requises. les commandes dont le verbe implicite est d’afficher une autre fenêtre n’acceptent pas les points de suspension, tels que avancé, aide, Options, propriétés ou Paramètres.
     -   **Métadonnée.** Indique que le texte est tronqué.
     -   **Celles.** Indique qu’une tâche est en cours (par exemple, « recherche en cours... »).
 
@@ -62,9 +62,9 @@ Voici un ensemble d’instructions importantes dans le Guide de l’expérience 
 -   **Ne placez pas de points à la fin des étiquettes de contrôle ou des instructions principales.**
 -   **Utilisez un espace entre les phrases.** Non deux.
 
-## <a name="controls"></a>Commandes
+## <a name="controls"></a>Contrôles
 
--   **Généralités**
+-   **Général**
     -   **Étiquetez chaque contrôle ou groupe de contrôles. Exceptions**
         -   Les zones de texte et les listes déroulantes peuvent être étiquetées à l’aide d’invites.
         -   Les contrôles subordonnés utilisent l’étiquette du contrôle associé. Les contrôles spin sont toujours des contrôles subordonnés.
@@ -173,7 +173,7 @@ Voici un ensemble d’instructions importantes dans le Guide de l’expérience 
 -   **Vérifiez que les propriétés sont nécessaires.** N’encombrez pas vos pages de propriétés avec des propriétés inutiles simplement pour éviter de prendre des décisions de conception matérielle.
 -   **Présenter les propriétés en termes d’objectifs d’utilisateur plutôt que de technologie.** La seule raison pour laquelle une propriété configure une technologie spécifique ne signifie pas que vous devez présenter la propriété en ce qui concerne cette technologie.
     -   Si vous devez présenter des paramètres en termes de technologie (peut-être parce que vos utilisateurs reconnaissent le nom de la technologie), incluez une brève description de l’avantage de l’utilisateur.
--   **Utilisez des étiquettes d’onglet explicites et explicites.** Évitez les étiquettes d’onglet génériques qui peuvent s’appliquer à n’importe quel onglet, tel que général, avancé ou paramètres.
+-   **Utilisez des étiquettes d’onglet explicites et explicites.** évitez les étiquettes d’onglet génériques qui peuvent s’appliquer à n’importe quel onglet, tel que général, avancé ou Paramètres.
 -   **Évitez les pages générales.** Vous n’êtes pas obligé de disposer d’une page générale. Utilisez une page générale uniquement si :
     -   Les propriétés s’appliquent à plusieurs tâches et sont significatives pour la plupart des utilisateurs. Ne placez pas de propriétés spécialisées ou avancées sur une page général, mais vous pouvez les rendre accessibles via un bouton de commande sur la page général.
     -   Les propriétés ne correspondent pas à une catégorie plus spécifique. Si c’est le cas, utilisez plutôt ce nom pour la page.
@@ -187,13 +187,13 @@ Voici un ensemble d’instructions importantes dans le Guide de l’expérience 
 -   **Envisagez d’abord les alternatives légères, telles que les boîtes de dialogue, les volets de tâches ou les pages uniques.** Les assistants sont une interface utilisateur lourde, mieux utilisée pour les tâches à plusieurs étapes, peu fréquentes. Vous n’avez pas besoin d’utiliser les assistants. vous pouvez fournir des informations et de l’aide utiles dans toutes les interfaces utilisateur.
 -   **Utilisez Next uniquement lorsque vous avancez jusqu’à la page suivante sans engagement.** L’avancement jusqu’à la page suivante est considéré comme un engagement quand son effet ne peut pas être annulé en cliquant sur précédent ou annuler.
 -   **Utilisez l’arrière-plan uniquement pour corriger les erreurs.** Hormis les erreurs de correction, les utilisateurs ne doivent pas cliquer sur précédent pour progresser dans une tâche.
--   **Lorsque les utilisateurs s’engagent sur une tâche, utilisez un bouton de validation qui est une réponse spécifique à l’instruction principale (par exemple, imprimer, connecter ou démarrer).** N’utilisez pas d’étiquettes génériques comme Next (qui n’implique pas engagement) ou terminer (qui n’est pas spécifique) pour la validation d’une tâche. Les étiquettes sur ces boutons de validation doivent être logiques. Démarrez toujours les étiquettes de bouton de validation avec un verbe. **Exceptions :**
+-   **lorsque les utilisateurs s’engagent sur une tâche, utilisez un bouton de validation qui est une réponse spécifique à l’instruction principale (par exemple, imprimer, Connecter ou démarrer).** N’utilisez pas d’étiquettes génériques comme Next (qui n’implique pas engagement) ou terminer (qui n’est pas spécifique) pour la validation d’une tâche. Les étiquettes sur ces boutons de validation doivent être logiques. Démarrez toujours les étiquettes de bouton de validation avec un verbe. **Exceptions :**
     -   Utilisez terminer lorsque les réponses spécifiques sont toujours génériques, telles que enregistrer, sélectionner, choisir ou récupérer.
     -   Utilisez terminer pour modifier un paramètre spécifique ou une collection de paramètres.
 -   **Utilisez des liens de commande uniquement pour les choix, pas pour les engagements.** Les boutons de validation spécifiques indiquent un engagement bien supérieur à celui des liens de commande dans un Assistant.
 -   **Quand vous utilisez des liens de commande, masquez le bouton suivant, mais laissez le bouton Annuler.**
 -   **Utilisez la touche Fermer pour Follow-Up et les pages de saisie semi-automatique.** N’utilisez pas annuler, car la fermeture de la fenêtre n’abandonne pas les modifications ou les actions effectuées à ce stade. N’utilisez pas Done, car il ne s’agit pas d’un verbe impératif.
--   **N’utilisez pas « Wizard » dans les noms d’Assistant.** Par exemple, utilisez « se connecter à un réseau » au lieu de « Assistant installation réseau ». Toutefois, il est acceptable de faire référence aux assistants en tant qu’assistants. Par exemple : « Si vous configurez un réseau pour la première fois, vous pouvez obtenir de l’aide à l’aide de l’Assistant Connexion à un réseau. »
+-   **N’utilisez pas « Wizard » dans les noms d’Assistant.** par exemple, utilisez « Connecter à un réseau » au lieu de « assistant installation réseau ». Toutefois, il est acceptable de faire référence aux assistants en tant qu’assistants. par exemple : « si vous configurez un réseau pour la première fois, vous pouvez obtenir de l’aide à l’aide de l’Connecter à un assistant réseau ».
 -   **Conserver les sélections de l’utilisateur via la navigation.** Par exemple, si l’utilisateur apporte des modifications, clique sur précédent, puis sur suivant, ces modifications doivent être conservées. Les utilisateurs ne sont pas censés devoir réentrer les modifications, sauf s’ils ont explicitement choisi de les effacer.
 
 ## <a name="wizard-pages"></a>Pages de l’assistant
@@ -247,7 +247,7 @@ Ces termes sont inutiles et contraires au ton encourageant de Windows. Au lieu d
 
 ## <a name="icons"></a>Icônes
 
--   **Toutes les icônes doivent respecter les règles d’icône de** [style Aero](vis-icons.md). Remplacez toutes les icônes de style Windows XP.
+-   **Toutes les icônes doivent respecter les règles d’icône de** [style Aero](vis-icons.md). remplacez tous les Windows les icônes de style XP.
 -   **Choisissez les icônes standard en fonction de leur type de message, et non pas de la gravité du problème sous-jacent :**
     -   **Erreurs.** Une erreur ou un problème qui s’est produit.
     -   **Tres.** Condition susceptible de provoquer un problème à l’avenir.

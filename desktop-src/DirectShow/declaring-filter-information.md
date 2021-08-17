@@ -4,12 +4,12 @@ ms.assetid: ed3c1d44-ccef-4dde-819b-f5d4d3be6d1e
 title: Déclaration d’informations de filtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8975217f1b7746b26dc5dd16ce9f4e7f694f44bc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 89c22fb13b524bed56e8cc9d51e573f2729f843e56565db2793d1a8b4568af52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953198"
 ---
 # <a name="declaring-filter-information"></a>Déclaration d’informations de filtre
 
@@ -69,7 +69,7 @@ Le nom du filtre est déclaré en tant que variable globale statique, car il ser
 
 <dl> <dt>
 
-[Comment inscrire des filtres DirectShow](how-to-register-directshow-filters.md)
+[comment inscrire des filtres de DirectShow](how-to-register-directshow-filters.md)
 </dt> </dl>
 
  

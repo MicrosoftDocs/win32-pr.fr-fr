@@ -13,12 +13,12 @@ keywords:
 - redistribution, détection de l’état de l’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6add696f2b2989de1e77d48504a1d540634213d8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 250ab87fd81592b868e1dbf13106577f83e680796310aff246f0c1483fa847cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931389"
 ---
 # <a name="detecting-setup-status"></a>Détection de l’état de l’installation
 
@@ -32,13 +32,13 @@ L’entrée de Registre **InstallResult** se présente sous la forme suivante.
 
 | Nom              | Type           | Valeur                                                                                                                   |
 |-------------------|----------------|-------------------------------------------------------------------------------------------------------------------------|
-| **InstallResult** | **\_valeur DWORD reg** | **HRESULT** qui indique si l’installation du lecteur Windows Media a réussi et si un redémarrage est nécessaire. |
+| **InstallResult** | **\_valeur DWORD reg** | **HRESULT** qui indique si Lecteur Windows Media installation a réussi et si un redémarrage est nécessaire. |
 
 
 
- 
+ 
 
-Le code suivant définit les variables *fSucess* et *fRebootNeeded* sur **true** ou **false**, selon le cas, en fonction de la valeur **HRESULT** écrite par le programme d’installation de Windows Media dans le package de redistribution des composants.
+le code suivant définit les variables *fSucess* et *fRebootNeeded* sur **True** ou **false**, selon le cas, en fonction de la valeur **HRESULT** écrite par Windows configuration de média dans le package de redistribution de composants.
 
 
 ```C++
@@ -122,9 +122,9 @@ int main( void )
 [**Redistribution de logiciels**](software-redistribution.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

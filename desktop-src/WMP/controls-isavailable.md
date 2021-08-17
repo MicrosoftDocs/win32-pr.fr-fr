@@ -3,7 +3,7 @@ title: Controls. isAvailable
 description: La propriété isAvailable indique si un type spécifié d’informations est disponible ou si une action spécifiée peut être exécutée. | Controls. isAvailable
 ms.assetid: d2bfaa67-eac9-4fc4-9424-636ddb4b35d6
 keywords:
-- Controls. isAvailable lecteur Windows Media
+- controls. isAvailable Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61afa07596a55208be63bd29759fd5f9f3e10170
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 502343b7654241a00e9efb33acc6f5de842c6fb6bad650f24839a5fe7febf9b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135742"
 ---
 # <a name="controlsisavailable"></a>Controls. isAvailable
 
@@ -63,7 +63,7 @@ Cette méthode retourne une valeur **booléenne** .
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant crée un élément bouton HTML qui cherche à la position de départ de l’élément multimédia actuel. Le code JScript utilise **isAvailable** pour vérifier que le fichier prend en charge l’opération de recherche. L’objet **Player** a été créé avec ID = "Player".
+L’exemple suivant crée un élément bouton HTML qui cherche à la position de départ de l’élément multimédia actuel. le code JScript utilise **isAvailable** pour vérifier que le fichier prend en charge l’opération de recherche. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

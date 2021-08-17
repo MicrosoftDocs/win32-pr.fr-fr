@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété visible de l’objet Command, qui
 ms.assetid: 80137e16-4646-4251-b1c0-bca39ff7a233
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af4efec1ad8a97d6412a560a81836273b93ebf2b
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 07ebc5dee52ff3ab388674bd844e476f0bcc768595b1ba5e69d3c3be5435553f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975459"
 ---
 # <a name="visible-property-command-object"></a>Visible, propriété (objet Command)
 

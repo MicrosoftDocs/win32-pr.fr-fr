@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 335aa1fc6f8b7996efd74e07c3958020066ece72
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e590123aa30676c5e993577d0e421b88cbaf0a14e185b49bb312569b274189c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949721"
 ---
 # <a name="reset-method-of-the-msvm_syntheticfcport-class"></a>Méthode Reset de la \_ classe MSVM SyntheticFcPort
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

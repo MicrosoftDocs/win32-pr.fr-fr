@@ -20,12 +20,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 5c6ba04760e924ffe9d86916cffdb82ea2488219
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac1e80bceb3dc584a22e342780bbf32660276868e473ff33ff01d6c2ad65d504
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131952"
 ---
 # <a name="__trustee-class"></a>\_\_Classe fiduciaire
 
@@ -137,7 +137,7 @@ Heure au format [ \_ DateTime CIM](cim-datetime.md) lorsque le descripteur de s�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette classe fournit des propriétés qui sont héritées par la classe [**Win32 \_ Trusted**](/previous-versions/windows/desktop/secrcw32prov/win32-trustee) , qui est un membre de la classe [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) . Pour plus d’informations, consultez [objets descripteur de sécurité WMI](wmi-security-descriptor-objects.md) et [modification de la sécurité d’accès sur des objets sécurisables](changing-access-security-on-securable-objects.md). Pour plus d’informations sur les ACE, consultez [Access Control Components](/windows/desktop/SecAuthZ/access-control-components).
 

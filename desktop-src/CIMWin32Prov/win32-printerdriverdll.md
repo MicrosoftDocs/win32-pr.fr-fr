@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 41484c39d9e1b59efd79d7aee08719b3a241de97
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 884c52e388da62529a2aceb49c68ca888f18e0fd7701e05d951880774c3ed035
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971859"
 ---
 # <a name="win32_printerdriverdll-class"></a>\_Classe PrinterDriverDll Win32
 
@@ -63,7 +63,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [ **clé**](../wmisdk/standard-qualifiers.md)
 </dt> </dl>
 
-Référence à l’instance de fichier de fichier [**CIM \_**](cim-datafile.md) représentant le fichier de pilote pour cette imprimante Windows.
+référence à l’instance de fichier de fichier [**CIM \_**](cim-datafile.md) représentant le fichier de pilote pour cette imprimante basée sur Windows.
 
 Cette propriété est héritée de la [**\_ dépendance CIM**](cim-dependency.md).
 
@@ -87,7 +87,7 @@ Cette propriété est héritée de la [**\_ dépendance CIM**](cim-dependency.md
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PrinterDriverDll** est dérivée de la [**\_ dépendance CIM**](cim-dependency.md).
 

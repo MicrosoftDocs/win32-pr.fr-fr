@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfea2e8e67af30075990d6643b10bb86cf3021ae
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e5c5e62e6d339482123f66b7f23aae771f335392b54b9a766681dab78f6fbafa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851639"
 ---
 # <a name="id3dx11effectconstantbuffer-interface"></a>Interface ID3DX11EffectConstantBuffer
 
@@ -52,7 +52,7 @@ L’interface **ID3DX11EffectConstantBuffer** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez des mémoires tampons constantes pour stocker de nombreuses constantes d’effet ; regroupement de constantes dans des tampons en fonction de leur fréquence de mise à jour. Cela vous permet de réduire le nombre de modifications d’État et d’effectuer le moins d’appels d’API pour modifier l’État. Ces deux facteurs conduisent à de meilleures performances.
 
@@ -61,7 +61,7 @@ Utilisez des mémoires tampons constantes pour stocker de nombreuses constantes 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

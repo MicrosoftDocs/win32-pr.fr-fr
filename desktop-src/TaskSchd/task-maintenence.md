@@ -1,19 +1,19 @@
 ---
 title: Maintenance automatique (Planificateur de tâches)
-description: L’activité de maintenance fait référence à une application ou à un processus qui permet de maintenir l’intégrité et les performances d’un PC Windows.
+description: l’activité de Maintenance fait référence à une application ou à un processus qui permet de maintenir l’intégrité et les performances d’un PC Windows.
 ms.assetid: 1D38341B-15AA-422F-AED1-647FCDE69E2E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 456383eeb75c3b29bf575357d4b17d5f8a66234b
-ms.sourcegitcommit: 857e701bbd35004661bb047e1f24622af9ff1dd7
+ms.openlocfilehash: 43fe72159ac5fd14c2dcc80126e572fa1475ed52ffd5710b74621cf00ad40a39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "104383160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139302"
 ---
 # <a name="automatic-maintenance"></a>Maintenance automatique
 
-L’activité de maintenance fait référence à une application ou à un processus qui permet de maintenir l’intégrité et les performances d’un PC Windows. La maintenance implique la mise à jour du système d’exploitation Windows et des applications, la vérification de la sécurité et l’exécution d’analyses de programmes malveillants. La gestion automatique de Windows (WAM) est un ensemble d’améliorations apportées à l’API Planificateur de tâches que vous pouvez utiliser pour lier vos applications à la planification de la maintenance de Windows. En particulier, WAM vous permet d’ajouter des activités qui nécessitent une planification régulière, mais qui n’ont pas d’exigences de temps exactes. Au lieu de cela, WAM s’appuie sur le système d’exploitation pour choisir l’heure appropriée pour activer la tâche tout au long de la journée. Le système choisit ces heures en fonction de l’impact minimal sur l’utilisateur, des performances du PC et de l’efficacité énergétique.
+l’activité de Maintenance fait référence à une application ou à un processus qui permet de maintenir l’intégrité et les performances d’un PC Windows. la Maintenance implique la mise à jour du système d’exploitation et des applications Windows, la vérification de la sécurité et l’exécution d’analyses de programmes malveillants. Windows la gestion automatique (WAM) est un ensemble d’améliorations apportées à l’API Planificateur de tâches que vous pouvez utiliser pour lier vos applications au calendrier de maintenance Windows. En particulier, WAM vous permet d’ajouter des activités qui nécessitent une planification régulière, mais qui n’ont pas d’exigences de temps exactes. Au lieu de cela, WAM s’appuie sur le système d’exploitation pour choisir l’heure appropriée pour activer la tâche tout au long de la journée. Le système choisit ces heures en fonction de l’impact minimal sur l’utilisateur, des performances du PC et de l’efficacité énergétique.
 
 ## <a name="how-scheduled-maintenance-works"></a>Fonctionnement de la maintenance planifiée
 
@@ -31,7 +31,7 @@ Une fois que le système a terminé la tâche (même avec un code d’erreur d�
 
 ## <a name="automatic-maintenancemdashdaily-wakeup"></a>Réveil quotidien de maintenance automatique &mdash;
 
-Sur Windows 7, une tâche de maintenance s’exécute exclusivement pendant l’heure de la *maintenance*, avec la valeur par défaut 3 AM et configurable via stratégie de groupe. L’ordinateur sort de veille, exécute des tâches de maintenance et revient en mode veille. Cette session quotidienne était limitée à une durée maximale de 1 heure par tentative. Cela permet au système d’effectuer une maintenance quotidienne, à partir de 3 heures par défaut. Notez que l’utilisateur peut replanifier l’heure à laquelle la maintenance est déclenchée en configurant ces paramètres.
+sur Windows 7, une tâche de maintenance s’exécute exclusivement pendant l’heure de la *maintenance*, avec la valeur par défaut 3 AM et configurable via stratégie de groupe. L’ordinateur sort de veille, exécute des tâches de maintenance et revient en mode veille. Cette session quotidienne était limitée à une durée maximale de 1 heure par tentative. Cela permet au système d’effectuer une maintenance quotidienne, à partir de 3 heures par défaut. Notez que l’utilisateur peut replanifier l’heure à laquelle la maintenance est déclenchée en configurant ces paramètres.
 
 Avec l’avènement des ordinateurs portables et la concentration sur la durée de vie de la batterie, les machines ne sont plus configurées pour autoriser la réveil S3 dans la plupart des cas, et généralement Doze-to-S4 (veille prolongée) dès que possible, pour économiser la batterie. En réponse à ces modifications, Planificateur de tâches (> Win7) exécute des tâches de maintenance chaque fois qu’elles sont dues, et la machine est inactive et à l’alimentation secteur.
 
@@ -49,7 +49,7 @@ powercfg /a
 Heure de la maintenance, si la machine est configurée correctement, fonctionne toujours, mais si ce n’est pas le cas,
   - Vérifiez les paramètres de mise en éveil de vos paramètres BIOS. 
   - Vérifiez si l’option autoriser la minuterie de réveil est activée dans les options d’alimentation.
-    Accédez à **panneau** de  >  **configuration matériel et sons**  >  **options d’alimentation**  >  **modifier les paramètres de plan** modifier les paramètres  >  **d’alimentation avancés** > cliquez sur mettre en **veille**  >  **autoriser le minuteur de réveil**.
+    accédez à **panneau** de  >  **configuration matériel et sons**  >  **Options d’alimentation**-  >  **modifier le Plan Paramètres**  >  **modifier les paramètres d’alimentation avancés** > cliquez sur mettre en **veille**  >  **autoriser le minuteur de réveil**.
   - Vérifiez si votre tâche planifiée est configurée comme suit.
       * MaintenanceSettings : la tâche doit être configurée avec period, échéance.
       * Activé : la tâche doit être activée.

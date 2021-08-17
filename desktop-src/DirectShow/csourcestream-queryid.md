@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 267748fe4ce1eeec4650544a2f72069df897a366
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1bd8582d16022c9d5dfd60eb87847d564ef69203e329ff37eaa9c2964a11794c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119317509"
 ---
 # <a name="csourcestreamqueryid-method"></a>CSourceStream. QueryId, méthode
 
@@ -57,7 +57,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                       | Description                                 |
 |---------------------------------------------------------------------------------------------------|---------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>              | Opération réussie.<br/>                         |
+| <dl> <dt>**\_OK**</dt> </dl>              | Réussite.<br/>                         |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl>     | Mémoire insuffisante.<br/>             |
 | <dl> <dt>**\_pointeur E**</dt> </dl>         | Argument de pointeur **null** .<br/>       |
 | <dl> <dt>**VFW \_ E \_ \_ introuvable**</dt> </dl> | Le code PIN est introuvable dans le filtre.<br/> |
@@ -66,7 +66,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode implémente la méthode [**IPIN :: QueryId**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryid) . Pour construire une chaîne d’identification, le code PIN appelle la méthode [**CSource :: FindPinNumber**](csource-findpinnumber.md) avec lui-même comme paramètre. La méthode **FindPinNumber** retourne le numéro de code confidentiel, indexé à partir de zéro. `QueryId` incrémente la valeur de retour d’une unité et convertit le résultat en une chaîne. Par exemple, la première broche devient « 1 ». la deuxième broche devient « 2 ». et ainsi de suite.
 
@@ -78,7 +78,7 @@ Si cette méthode retourne VFW \_ E \_ \_ introuvable, cela indique que le table
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Source. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Source. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

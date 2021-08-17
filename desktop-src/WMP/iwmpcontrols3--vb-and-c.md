@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPControls3 (VB et C) (WMP. h)
+title: interface IWMPControls3 (VB et C) (Wmp. h)
 description: Fournit des propriétés et des méthodes pour la sélection et la prise en charge de la langue audio qui complètent l’interface IWMPControls2. En plus des propriétés et des méthodes héritées de IWMPControls2, l’interface IWMPControls3 expose les propriétés suivantes.
 ms.assetid: 1f42a352-da97-4382-9b59-a9b074aa2a5a
 keywords:
-- IWMPControls3 (VB et C) interface Windows Media Player
-- Interface IWMPControls3 (VB et C), le lecteur Windows Media, décrit
+- interface IWMPControls3 (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPControls3 (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,14 +15,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9788dbd1b5910d655cbaa17055c76a0ae6d0280e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2baf3f0b5f2bc4f2e4d0bfa5ccddd717c913aa30f5e24b5559eb527c910bcaf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135412"
 ---
-# <a name="iwmpcontrols3-vb-and-c-interface"></a>Interface IWMPControls3 (VB et C#)
+# <a name="iwmpcontrols3-vb-and-c-interface"></a>interface IWMPControls3 (VB et C#)
 
 Fournit des propriétés et des méthodes pour la sélection et la prise en charge de la langue audio qui complètent l’interface **IWMPControls2** .
 
@@ -30,14 +30,14 @@ En plus des propriétés et des méthodes héritées de **IWMPControls2**, l’i
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPControls3 (VB et C#)** possède les types de membres suivants :
+l’interface **IWMPControls3 (VB et C#)** possède les types de membres suivants :
 
 -   [Méthodes](#methods)
 -   [Propriétés](#properties)
 
 ### <a name="methods"></a>Méthodes
 
-L’interface **IWMPControls3 (VB et C#)** possède ces méthodes.
+l’interface **IWMPControls3 (VB et C#)** possède ces méthodes.
 
 
 
@@ -53,7 +53,7 @@ L’interface **IWMPControls3 (VB et C#)** possède ces méthodes.
 
 ### <a name="properties"></a>Propriétés
 
-L’interface **IWMPControls3 (VB et C#)** a ces propriétés.
+l’interface **IWMPControls3 (VB et C#)** a ces propriétés.
 
 
 
@@ -84,7 +84,7 @@ Obtient une interface **IWMPControls3** en effectuant un cast de la valeur retou
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPControls (VB et C#)**](iwmpcontrols--vb-and-c.md)

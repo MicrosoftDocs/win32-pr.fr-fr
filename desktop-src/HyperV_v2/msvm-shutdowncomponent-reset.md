@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 77c651ce429764edba069be21b246a8623cd0e76
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 39142fbc4596c44b8d6b028656ac172b78b66f8fc31590e49b0b666ccd64d528
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950388"
 ---
 # <a name="reset-method-of-the-msvm_shutdowncomponent-class"></a>Méthode Reset de la \_ classe MSVM ShutdownComponent
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

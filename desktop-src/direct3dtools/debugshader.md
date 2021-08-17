@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 4103d62a52c08fac6ed775b8f1eb19e358789c9c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5a87947d6d3eae5191b212610af66728fa0a80fbcb1699cc83e68adf22dd9496
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104481504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095109"
 ---
 # <a name="span-idvspixenginedebugshaderspandebugshader-structure"></a><span id="vspixengine.debugshader"></span>DebugShader, structure
 

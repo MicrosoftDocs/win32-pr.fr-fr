@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c4645a8d4b2440b0b102658d3eca74d825d774dc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 31df09f995e02f91964150c6283065b26df31f5f30890a1fea79ea2264fca2cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958977"
 ---
 # <a name="cim_computersystem-class-cimwin32-wmi-providers"></a>CIM_ComputerSystem, classe (fournisseurs WMI CIMWin32)
 
@@ -437,7 +437,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **classe \_ ComputerSystem CIM** est dérivée [**du \_ système CIM**](cim-system.md).
 

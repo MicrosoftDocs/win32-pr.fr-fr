@@ -4,12 +4,12 @@ description: Cette section fournit une documentation de référence sur les obje
 ms.assetid: 5f844721-fbbc-4311-8c53-aea5baf4b347
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06ebccdc3c422c6eabe299e622fa1d3e438c6297
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f28d3bcf45395738f4b2243395d30f4eb861ac47f941dd01d271f1e09393f5b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133442"
 ---
 # <a name="ui-automation-objects"></a>Objets UI Automation
 

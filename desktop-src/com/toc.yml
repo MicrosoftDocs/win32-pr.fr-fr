@@ -10,9 +10,9 @@
             - name: Nouveautés de COM
               href: what-s-new-in-com.md
               items:
-                - name: Modifications apportées à COM dans Windows 7
+                - name: modifications apportées à COM dans Windows 7
                   href: changes-to-com-in-windows-7.md
-                - name: Modifications apportées à COM dans Windows Vista
+                - name: modifications apportées à COM dans Windows Vista
                   href: changes-to-com-in-windows-vista.md
             - name: COM (Component Object Model)
               href: the-component-object-model.md
@@ -280,7 +280,7 @@
                       href: schannel.md
                     - name: Snego
                       href: snego.md
-                - name: Améliorations de la sécurité DCOM dans Windows XP Service Pack 2 et Windows Server 2003 Service Pack 1
+                - name: améliorations de la sécurité DCOM dans Windows XP service pack 2 et Windows Server 2003 service pack 1
                   href: dcom-security-enhancements-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1.md
                 - name: Listes de Access Control pour COM
                   href: access-control-lists-for-com.md
@@ -1244,14 +1244,14 @@
                 - name: IRpcProxyBuffer
                   href: /windows/desktop/api/objidl/nn-objidl-irpcproxybuffer
                   items:
-                    - name: Méthode Connect
+                    - name: Connecter Méthode
                       href: /windows/desktop/api/objidl/nf-objidl-irpcproxybuffer-connect
                     - name: Méthode Disconnect
                       href: /windows/desktop/api/objidl/nf-objidl-irpcproxybuffer-disconnect
                 - name: IRpcStubBuffer
                   href: /windows/desktop/api/objidl/nn-objidl-irpcstubbuffer
                   items:
-                    - name: Méthode Connect
+                    - name: Connecter Méthode
                       href: /windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-connect
                     - name: Méthode CountRefs
                       href: /windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-countrefs
@@ -1451,7 +1451,7 @@
                           href: autotreatas.md
                         - name: AuxUserType
                           href: auxusertype.md
-                        - name: Control
+                        - name: Contrôler
                           href: control.md
                         - name: Conversion
                           href: conversion.md
@@ -1511,7 +1511,7 @@
                           href: clsid.md
                         - name: Insertable
                           href: insertable-progid.md
-                        - name: Protocol
+                        - name: Protocole
                           href: protocol.md
                         - name: Shell
                           href: shell.md
@@ -2825,9 +2825,9 @@
             - name: Contrôles ActiveX
               href: activex-controls.md
               items:
-                - name: Architecture des contrôles ActiveX
+                - name: ActiveX Architecture des contrôles
                   href: activex-controls-architecture.md
-                - name: Interfaces de contrôles ActiveX
+                - name: ActiveX Interfaces de contrôles
                   href: activex-controls-interfaces.md
                 - name: Propriétés et méthodes
                   href: properties-and-methods.md
@@ -2854,7 +2854,7 @@
                 - name: Inscription et licences
                   href: registration-and-licensing.md
                   items:
-                    - name: Informations de registre des contrôles ActiveX
+                    - name: ActiveX Contrôle les informations de Registre
                       href: activex-controls-registry-information.md
             - name: Pages de propriétés et feuilles de propriétés
               href: property-pages-and-property-sheets.md
@@ -2863,7 +2863,7 @@
                   href: property-sheets-and-property-pages.md
                 - name: Liaison de données via IPropertyNotifySink
                   href: data-binding-through-ipropertynotifysink.md
-            - name: Instructions relatives au contrôle ActiveX et au conteneur de contrôles
+            - name: ActiveX Instructions relatives aux conteneurs de contrôle et de contrôle
               href: activex-control-and-control-container-guidelines.md
               items:
                 - name: Vue d’ensemble des instructions relatives aux conteneurs de contrôle et de contrôle
@@ -2893,7 +2893,7 @@
                       href: ambient-properties-for-controls.md
                     - name: Utilisation des fonctionnalités du conteneur
                       href: using-the-container-s-functionality.md
-                - name: Conteneurs
+                - name: Containers
                   href: containers.md
                   items:
                     - name: Interfaces requises
@@ -2904,7 +2904,7 @@
                       href: miscellaneous-status-bits-support.md
                     - name: Gestion du clavier dans les contrôles
                       href: keyboard-handling-in-controls.md
-                    - name: Interfaces de stockage
+                    - name: Stockage Interface
                       href: storage-interfaces.md
                     - name: Propriétés ambiantes
                       href: ambient-properties.md
@@ -2927,7 +2927,7 @@
                       href: simple-data-binding.md
                     - name: Liaison de données avancée
                       href: advanced-data-binding.md
-                    - name: Interfaces privées Visual Basic
+                    - name: Visual Basic Interfaces privées
                       href: visual-basic-private-interfaces.md
                       items:
                         - name: IGetOleObject
@@ -3286,7 +3286,7 @@
                   href: translating-to-c---from-visual-basic.md
                 - name: Conversion en C++ à partir de Java
                   href: translating-to-c---from-java.md
-                - name: Ajout d’un contrôle ActiveX à un projet Visual C++
+                - name: ajout d’un contrôle ActiveX à un Visual C++ Project
                   href: adding-an-activex-control-to-a-visual-c---project.md
                 - name: Compilateur MIDL
                   href: midl-compiler.md
@@ -3297,15 +3297,15 @@
             - name: Conversion en Visual Basic
               href: translating-to-visual-basic.md
               items:
-                - name: Conversion en Visual Basic à partir de C++
+                - name: conversion en Visual Basic à partir de C++
                   href: translating-to-visual-basic-from-c--.md
-                - name: Conversion en Visual Basic à partir de Java
+                - name: conversion en Visual Basic à partir de Java
                   href: translating-to-visual-basic-from-java.md
-                - name: Ajout d’un composant à un projet Visual Basic
+                - name: ajout d’un composant à un Visual Basic Project
                   href: adding-a-component-to-a-visual-basic-project.md
-                - name: Ajout d’une référence à un projet Visual Basic
+                - name: ajout d’une référence à un Visual Basic Project
                   href: adding-a-reference-to-a-visual-basic-project.md
-                - name: Explorateur d’objets Visual Basic
+                - name: Visual Basic Explorateur d’objets
                   href: visual-basic-object-browser.md
             - name: Conversion en Java
               href: translating-to-java.md
@@ -3327,23 +3327,23 @@
               href: embedding-com-objects-in-web-pages.md
             - name: Utilisation d’objets COM dans des pages Active Server
               href: using-com-objects-in-active-server-pages.md
-            - name: Utilisation d’objets COM dans Windows Script Host
+            - name: utilisation d’objets COM dans Windows l’environnement d’exécution de scripts
               href: using-com-objects-in-windows-script-host.md
             - name: Écriture de scripts d’objets COM dans des applications personnalisées
               href: scripting-com-objects-in-custom-applications.md
             - name: Conversion en VBScript
               href: translating-to-vbscript.md
               items:
-                - name: Conversion en VBScript à partir de JScript
+                - name: Traduction en VBScript à partir de JScript
                   href: translating-to-vbscript-from-jscript.md
                 - name: Conversion en VBScript à partir de JavaScript
                   href: translating-to-vbscript-from-javascript.md
-            - name: Traduire en JScript
+            - name: Conversion en JScript
               href: translating-to-jscript.md
               items:
-                - name: Conversion en JScript à partir de VBScript
+                - name: conversion en JScript à partir de VBScript
                   href: translating-to-jscript-from-vbscript.md
-                - name: Conversion en JScript à partir de JavaScript
+                - name: conversion en JScript à partir de JavaScript
                   href: translating-to-jscript-from-javascript.md
             - name: Conversion en JavaScript
               href: translating-to-javascript.md

@@ -1,6 +1,6 @@
 ---
 title: Méthode SetBrokerNonHAMode de la classe Win32_SessionBrokerServiceProperties
-description: Migre les données du SQL Server central vers une base de données locale. Il configure également le serveur Broker pour utiliser la base de données locale.
+description: migre les données du SQL Server central vers une base de données locale. Il configure également le serveur Broker pour utiliser la base de données locale.
 ms.assetid: a73908be-0cc8-4512-842c-439d5cf18ed4
 ms.tgt_platform: multiple
 keywords:
@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ef811bf8024f8e89f9739461dfa8499891077f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 34daa0817056975a6b15164dd29edcbcc86cd7cd9475f753e91500845ce089a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058408"
 ---
 # <a name="setbrokernonhamode-method-of-the-win32_sessionbrokerserviceproperties-class"></a>Méthode SetBrokerNonHAMode de la \_ classe Win32 SessionBrokerServiceProperties
 
-Migre les données du SQL Server central vers une base de données locale. Il configure également le serveur Broker pour utiliser la base de données locale.
+migre les données du SQL Server central vers une base de données locale. Il configure également le serveur Broker pour utiliser la base de données locale.
 
 ## <a name="syntax"></a>Syntaxe
 

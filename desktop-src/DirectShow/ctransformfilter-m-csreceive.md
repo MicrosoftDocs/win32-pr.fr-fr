@@ -1,5 +1,5 @@
 ---
-description: Section critique qui protège l’état de diffusion en continu. Pour plus d’informations, consultez Data Flow for filtre Developers.
+description: Section critique qui protège l’état de diffusion en continu. pour plus d’informations, consultez Flow de données pour les développeurs de filtres.
 ms.assetid: f77c3129-ca25-47b8-8a6e-3a07169701af
 title: 'Membre CTransformFilter :: m_csReceive (Transfrm. h)'
 ms.topic: reference
@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 542f108cee8dbe761040ef8474ae7cec565e0b52
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5166b91c62828718d34a0e8063098b1fc3b326adc115a9f78912961ec7ce3f47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953558"
 ---
 # <a name="ctransformfilterm_csreceive-member"></a>CTransformFilter :: m \_ csReceive, membre
 
-Section critique qui protège l’état de diffusion en continu. Pour plus d’informations, consultez [Data Flow for filtre Developers](data-flow-for-filter-developers.md).
+Section critique qui protège l’état de diffusion en continu. pour plus d’informations, consultez [Flow de données pour les développeurs de filtres](data-flow-for-filter-developers.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -42,7 +42,7 @@ CCritSec m_csReceive;
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transfrm. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Transfrm. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

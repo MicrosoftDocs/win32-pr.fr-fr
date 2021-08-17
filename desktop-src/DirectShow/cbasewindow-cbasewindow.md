@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 05205750810294076bf005d0e5b73fda6b2143d5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d8873ee896d910d1596138a8d116c93ae0190534bac48b6ceb19165074f07b72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016747"
 ---
 # <a name="cbasewindowcbasewindow-constructor"></a>Constructeur CBaseWindow. CBaseWindow
 
@@ -57,7 +57,7 @@ Valeur booléenne qui spécifie la variable membre [**CBaseWindow :: m \_ bDoPo
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Après avoir créé l’objet, appelez la méthode [**CBaseWindow ::P reparewindow**](cbasewindow-preparewindow.md) pour créer la fenêtre. **PrepareWindow** est une méthode virtuelle. Elle appelle [**CBaseWindow :: InitialiseWindow**](cbasewindow-initialisewindow.md), également une méthode virtuelle. Ces méthodes sont séparées du constructeur afin que les classes dérivées puissent les remplacer, si nécessaire.
 
@@ -69,7 +69,7 @@ Si la valeur du paramètre *bDoGetDC* est **true**, l' `CBaseWindow` objet récu
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

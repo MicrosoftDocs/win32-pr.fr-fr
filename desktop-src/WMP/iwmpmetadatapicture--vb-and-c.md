@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPMetadataPicture (VB et C) (WMP. h)
+title: interface IWMPMetadataPicture (VB et C) (Wmp. h)
 description: Fournit des propriétés pour obtenir des informations sur l’image contenue dans un fichier multimédia numérique qui est représenté par un attribut WM/Picturemetadata.
 ms.assetid: f8260882-dfb8-4ff0-954c-5060cb7a6995
 keywords:
-- IWMPMetadataPicture (VB et C) interface Windows Media Player
-- Interface IWMPMetadataPicture (VB et C), le lecteur Windows Media, décrit
+- interface IWMPMetadataPicture (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPMetadataPicture (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,14 +15,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3b462c431a136745974dcde5716c3bd81226f15
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1b73a48b2ea93d696f2b8780edec90dfcf0522e2353c508e31d96dd7a404d0d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996489"
 ---
-# <a name="iwmpmetadatapicture-vb-and-c-interface"></a>Interface IWMPMetadataPicture (VB et C#)
+# <a name="iwmpmetadatapicture-vb-and-c-interface"></a>interface IWMPMetadataPicture (VB et C#)
 
 Fournit des propriétés pour obtenir des informations sur l’image contenue dans un fichier multimédia numérique représenté par un attribut de métadonnées [**WM/Picture**](/windows/desktop/wmformat/wmpicture). Cet attribut correspond aux images de la pochette d’album contenues dans un fichier multimédia numérique, et non à une pochette d’album téléchargée sur Internet.
 
@@ -55,7 +55,7 @@ Récupérez une interface **IWMPMetadataPicture** en passant le nom d’attribut
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPMetadataPicture (VB et C#)** ne définit aucun membre.
+l’interface **IWMPMetadataPicture (VB et C#)** ne définit aucun membre.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -71,7 +71,7 @@ L’interface **IWMPMetadataPicture (VB et C#)** ne définit aucun membre.
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  

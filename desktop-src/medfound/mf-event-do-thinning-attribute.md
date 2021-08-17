@@ -4,12 +4,12 @@ ms.assetid: 42b6d0b3-e5af-4a48-969c-53628d1b7c31
 title: Attribut MF_EVENT_DO_THINNING (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a08807413881a13789c50dbf2d063693e7e4539
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9305df2b17e00b03bd9788ecd8caf26db82b8e331d1c72626374b63e7dcaf15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104935"
 ---
 # <a name="mf_event_do_thinning-attribute"></a>\_Attribut de \_ fin d’événement MF \_
 
@@ -21,7 +21,7 @@ Quand une source de média demande un nouveau taux de lecture, cet attribut spé
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est utilisé avec l’événement [MESourceRateChangeRequested](mesourceratechangerequested.md) . Si la valeur est **true**, la source du média demande un commutateur à une lecture fine.
 
@@ -35,8 +35,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

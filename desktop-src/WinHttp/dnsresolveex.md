@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 1c63ba3e20653c41864394d9c563c851f2aab5e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0f0100367d4fad6d6e0b013e5d552f733086e6ddd5bc720779ef1fb5b65cdce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133222"
 ---
 # <a name="dnsresolveex-function"></a>dnsResolveEx fonction)
 
@@ -38,7 +38,7 @@ Chaîne contenant l’hôte HTTP fourni à FindProxyForUrl.
 
 Chaîne délimitée par des points-virgules contenant des adresses IPv6 et IPv4 ou une chaîne vide si l’hôte ne peut pas être résolu.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les implémenteurs FindProxyforURLEx doivent ajouter du code qui divise la chaîne d’adresses IP séparées par un point-virgule en adresses distinctes.
 

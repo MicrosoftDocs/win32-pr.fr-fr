@@ -4,16 +4,16 @@ description: Méthodes facultatives
 ms.assetid: 8cdb5686-177c-48c9-8315-e5921520007c
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 904aad26ecfba6396c9911b247443f9a956bca7f
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: d64f4b22693c77295d3a21cfb59055f9a232d08bb1426d995f710bbf24073d60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130041"
 ---
 # <a name="optional-methods"></a>Méthodes facultatives
 
-Un composant OLE peut implémenter une interface sans implémenter toutes les sémantiques de chaque méthode de l’interface, à la place \_ NOTIMPL ou S \_ OK. Le tableau suivant décrit les méthodes qu’un conteneur de contrôles ActiveX n’est pas tenu d’implémenter (autrement dit, le conteneur de contrôle peut retourner E \_ NOTIMPL).
+Un composant OLE peut implémenter une interface sans implémenter toutes les sémantiques de chaque méthode de l’interface, à la place \_ NOTIMPL ou S \_ OK. le tableau suivant décrit les méthodes qu’un conteneur de contrôle ActiveX n’est pas tenu d’implémenter (autrement dit, le conteneur de contrôle peut retourner e \_ NOTIMPL).
 
 Le tableau ci-dessous décrit les méthodes facultatives. Notez que la méthode doit toujours exister, mais peut simplement retourner E \_ NOTIMPL au lieu d’implémenter la sémantique réelle. Notez que toute méthode d’une interface obligatoire qui n’est pas listée ci-dessous doit être considérée comme obligatoire et ne pas retourner E \_ NOTIMPL.
 
@@ -37,7 +37,7 @@ Le tableau ci-dessous décrit les méthodes facultatives. Notez que la méthode 
 | Méthode                                                                     | Commentaires                                                 |
 |----------------------------------------------------------------------------|----------------------------------------------------------|
 | [**ContextSensitiveHelp**](/windows/desktop/api/OleIdl/nf-oleidl-iolewindow-contextsensitivehelp)<br/> | Facultatif<br/>                                      |
-| [**Scroll**](/windows/desktop/api/OleIdl/nf-oleidl-ioleinplacesite-scroll)<br/>                        | Peut retourner S \_ false sans action.<br/>           |
+| [**Variable**](/windows/desktop/api/OleIdl/nf-oleidl-ioleinplacesite-scroll)<br/>                        | Peut retourner S \_ false sans action.<br/>           |
 | [**DiscardUndoState**](/windows/desktop/api/OleIdl/nf-oleidl-ioleinplacesite-discardundostate)<br/>    | Peut retourner S \_ OK sans action.<br/>              |
 | [**DeactivateAndUndo**](/windows/desktop/api/OleIdl/nf-oleidl-ioleinplacesite-deactivateandundo)<br/>  | La désactivation est obligatoire ; Undo est facultatif. <br/> |
 
@@ -117,7 +117,7 @@ Le tableau ci-dessous décrit les méthodes facultatives. Notez que la méthode 
 |---------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ParseDisplayName**](/windows/desktop/api/OleIdl/nf-oleidl-iparsedisplayname-parsedisplayname)<br/> | Uniquement si la liaison aux contrôles ou à d’autres incorporations dans le conteneur est prise en charge, ce qui est nécessaire pour la liaison de moniker.<br/>                                                                                                                  |
 | [**LockContainer**](/windows/desktop/api/OleIdl/nf-oleidl-iolecontainer-lockcontainer)<br/>           | Comme pour ParseDisplayName<br/>                                                                                                                                                                                                                   |
-| [**EnumObjects**](/windows/desktop/api/OleIdl/nf-oleidl-iolecontainer-enumobjects)<br/>               | Retourne tous les contrôles ActiveX via un énumérateur avec [**IEnumUnknown**](/windows/win32/api/objidlbase/nn-objidlbase-ienumunknown), mais pas nécessairement tous les objets (parce qu’il n’y a aucune garantie que tous les objets sont des contrôles ActiveX ; certains peuvent être des contrôles Windows normaux).<br/> |
+| [**EnumObjects**](/windows/desktop/api/OleIdl/nf-oleidl-iolecontainer-enumobjects)<br/>               | retourne tous les contrôles de ActiveX par le biais d’un énumérateur avec [**IEnumUnknown**](/windows/win32/api/objidlbase/nn-objidlbase-ienumunknown), mais pas nécessairement tous les objets (parce qu’il n’y a aucune garantie que tous les objets sont ActiveX contrôles ; certains peuvent être des contrôles de Windows normaux).<br/> |
 
 
 

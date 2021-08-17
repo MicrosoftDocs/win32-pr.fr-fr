@@ -11,16 +11,16 @@ keywords:
 - ASF (format des systèmes avancés), paramètres de mise en réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f4f219a60d9211b63eb124500c014452a0143d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 591bf4aa2154d5cc04a8a17b5fc75f290a8493a39d530d4246bc0338c2424e62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931419"
 ---
 # <a name="default-networking-settings"></a>Paramètres réseau par défaut
 
-Les tableaux suivants décrivent les paramètres par défaut des paramètres de mise en réseau dans le kit de développement logiciel (SDK) de format Windows Media, regroupés par interface.
+les tableaux suivants décrivent les paramètres par défaut des paramètres de mise en réseau dans le kit de développement logiciel (SDK) de Format multimédia Windows, regroupés par interface.
 
 
 
@@ -47,7 +47,7 @@ Les tableaux suivants décrivent les paramètres par défaut des paramètres de 
 
 
 
- 
+ 
 
 
 
@@ -62,7 +62,7 @@ Les tableaux suivants décrivent les paramètres par défaut des paramètres de 
 
 
 
- 
+ 
 
 
 
@@ -74,7 +74,7 @@ Les tableaux suivants décrivent les paramètres par défaut des paramètres de 
 
 
 
- 
+ 
 
 
 
@@ -86,7 +86,7 @@ Les tableaux suivants décrivent les paramètres par défaut des paramètres de 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -95,9 +95,9 @@ Les tableaux suivants décrivent les paramètres par défaut des paramètres de 
 [**Implémentation des fonctionnalités réseau**](implementing-network-functionality.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

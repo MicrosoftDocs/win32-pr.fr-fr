@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 58ac84a0caca5a5709c74adbca567633e12daa10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55a4044aa27f8b77f34afbb95bc6c23be2dabbfd53981def43c5141059d7443c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119358049"
 ---
 # <a name="d3dauthenticatedquery_channeltype"></a>D3DAUTHENTICATEDQUERY \_ CHANNELTYPE
 
@@ -36,7 +36,7 @@ Retourne le type de canal authentifié.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette requête est valide pour tous les types de canaux.
 
@@ -46,8 +46,8 @@ Cette requête est valide pour tous les types de canaux.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>D3d9types. h</dt> </dl> |
 
 

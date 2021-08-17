@@ -4,12 +4,12 @@ ms.assetid: 5a45acfa-fceb-4fc9-b758-f9a14965ef80
 title: System. photo. EXIFVersion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08e3420b5dbdbb94871e56cb82fbf240275308f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46fdfc275bc8af116e9ba1e9a0dfae3b086f9d39660d1b91814bfae275838936
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095971"
 ---
 # <a name="systemphotoexifversion"></a>System. photo. EXIFVersion
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 1285b5391014919d7108f207917b0c44c03fa360
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9cc727845489740fae54dcc96bf5bc903bceb0205688c1c60bee3df980f66845
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965748"
 ---
 # <a name="iwiaapperrorhandlerreportstatus-method"></a>IWiaAppErrorHandler :: ReportStatus, méthode
 
@@ -55,13 +55,13 @@ Non utilisé. Définit la valeur 0.
 *pWiaItem2* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+Type : **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
 Pointeur vers l’élément en cours de transfert.
 
 </dd> <dt>
 
-_hrStatus * \[ dans\]
+*hrStatus* \[ dans\]
 </dt> <dd>
 
 Type : **HRESULT**
@@ -97,7 +97,7 @@ Retourne *hrStatus* si la récupération à partir de l’erreur n’est pas pos
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre *lPercentComplete* permet à une fenêtre de gestionnaire d’erreurs d’afficher la progression. Par exemple, un pilote peut fournir une estimation du temps nécessaire à la mise en route. Le paramètre *lPercentComplete* passé dans **IWiaAppErrorHandler :: ReportStatus** est la même valeur que le **lPercentComplete** que le pilote définit dans la structure [**WiaTransferParams**](-wia-wiatransferparams.md) .
 
@@ -113,8 +113,8 @@ Si *hrStatus* est \_ une erreur de gravité, le gestionnaire d’erreurs doit af
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl>     |
 | Bibliothèque<br/>                  | <dl> <dt>Wiaguid. lib</dt> </dl> |

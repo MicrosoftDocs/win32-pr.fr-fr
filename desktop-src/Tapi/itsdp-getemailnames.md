@@ -4,16 +4,16 @@ ms.assetid: e51f25d7-41e5-408e-930b-396c7ac24437
 title: 'ITSdp :: GetEmailNames, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31f0200b5cc6ea0422f47a323cd1c57d7e0f9a5d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f74ea369210a6ca32e47bb3359000195c544374b7352da96570f6d0f58f2af4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140262"
 ---
 # <a name="itsdpgetemailnames-method"></a>ITSdp :: GetEmailNames, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **GetEmailNames** obtient un tableau de noms de messagerie associés à l’objet blob de conférence.
 
@@ -65,7 +65,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les listes que *pAddresses* et *pNames* pointent sont de la même longueur.
 

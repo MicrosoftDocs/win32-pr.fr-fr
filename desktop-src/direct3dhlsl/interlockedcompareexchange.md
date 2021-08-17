@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 74bc189996752d754599bf4547e8baa4d9fb74cc
-ms.sourcegitcommit: 12e9b14501d51641b690ee0cf764e2b91eb9a140
-ms.translationtype: HT
+ms.openlocfilehash: 46cf8c3fb0e3bc0b21c5bf8bc3d946851ce213b765731518d252495250071228
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "104990881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119253"
 ---
 # <a name="interlockedcompareexchange-function-hlsl-reference"></a>InterlockedCompareExchange, fonction (référence HLSL)
 
@@ -28,10 +28,10 @@ Compare atomiquement la destination à la valeur de comparaison. S’ils sont id
 
 ``` syntax
 void InterlockedCompareExchange(
-  in  R dest,
-  in  T compare_value,
-  in  T value,
-  out T original_value
+  in  R dest,
+  in  T compare_value,
+  in  T value,
+  out T original_value
 );
 ```
 
@@ -79,14 +79,14 @@ Valeur d'origine.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Compare atomiquement la valeur référencée par *dest* avec *la \_ valeur de comparaison*, stocke la *valeur* dans l’emplacement référencé par *dest* si les valeurs correspondent, retourne la valeur d’origine de *dest* dans la *\_ valeur d’origine*. Cette opération ne peut être effectuée que sur des ressources typées **int** ou **uint** et des variables de mémoire partagée. Il existe deux utilisations possibles de cette fonction. La première est lorsque R est un type de variable de mémoire partagée. Dans ce cas, la fonction effectue l’opération sur le registre de mémoire partagée référencé par *dest*. Le deuxième scénario est lorsque R est un type de variable de ressource. Dans ce scénario, la fonction effectue l’opération sur l’emplacement de la ressource référencé par *dest*. Cette opération est uniquement disponible lorsque R est accessible en lecture et en écriture.
 
 > [!Note]  
 > Si vous appelez **InterlockedCompareExchange** dans une boucle de nuanceur [**de calcul for**](dx-graphics-hlsl-for.md) ou [**while**](dx-graphics-hlsl-while.md) , pour compiler correctement, vous devez utiliser l’attribut de **\[ \_ \_ \] condition allow UAV** sur cette boucle.
 
- 
+ 
 
 ### <a name="minimum-shader-model"></a>Modèle de nuanceur minimal
 
@@ -94,25 +94,25 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Prise en charge |
+| Modèle de nuanceur                                                                | Pris en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
 
 
 
- 
+ 
 
 Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      |  x   |  x     |  x       | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -124,9 +124,9 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
