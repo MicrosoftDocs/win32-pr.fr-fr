@@ -1,17 +1,17 @@
 ---
 description: Le système réduit la fenêtre principale d’une application (style chevauchant) à une fenêtre réduite lorsque l’utilisateur clique sur réduire dans le menu fenêtre ou l’application appelle la fonction ShowWindow et spécifie une valeur telle que SW \_ Minimize.
 ms.assetid: a52dba49-e4ec-45e2-a00f-211a58e28773
-title: Fenêtres réduites
+title: Windows réduite
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c792a90dba2526b6d09fabf8281fc74ebfe96667
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d9633c3bcba452e4708c6a48557fe547eff03c4e2a6801e3669da2faa768272
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103754380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118760029"
 ---
-# <a name="minimized-windows"></a>Fenêtres réduites
+# <a name="minimized-windows"></a>Windows réduite
 
 Le système réduit la fenêtre principale d’une application (style chevauchant) à une fenêtre réduite lorsque l’utilisateur clique sur réduire dans le menu fenêtre ou l’application appelle la fonction [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow) et spécifie une valeur telle que SW \_ Minimize. La réduction d’une fenêtre accélère les performances du système en réduisant la quantité de travail qu’une application doit effectuer lors de la mise à jour de sa fenêtre principale.
 

@@ -15,7 +15,7 @@ ms.locfileid: "118635205"
 
 ICE43 vérifie que les raccourcis qui ne font pas référence à une fonctionnalité en tant que cible (raccourcis non publiés) se trouvent dans des composants dont l’entrée de Registre HKCU est le chemin de leur clé.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE43 publie un message d’erreur si un raccourci non publié se trouve dans un composant qui n’a pas d’entrée de Registre HKCU comme chemin d’accès de clé.
 
@@ -57,7 +57,7 @@ ICE43 signale les erreurs suivantes pour l’exemple indiqué.
 
 
 
-| Registre | Root | Valeur | -\_ |
+| Registre | Root | Valeur | Composant\_ |
 |----------|------|-------|-------------|
 | Reg3     | 2    |       | Component3  |
 | Reg5     | 0    |       | Component4  |
