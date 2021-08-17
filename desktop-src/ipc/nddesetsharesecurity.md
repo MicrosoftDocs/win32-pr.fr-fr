@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: 112752bcd0953fbbc358c75080cb2749273ed95d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00e6d8c4b235e8f7d02ba22e737fc4de9bf4a739864afb1464e6f84c620faa48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481823"
 ---
 # <a name="nddesetsharesecurity-function"></a>NDdeSetShareSecurity fonction)
 
@@ -80,7 +80,7 @@ Si la fonction est réussie, la valeur de retour est NDDE \_ aucune \_ erreur.
 
 Si la fonction échoue, la valeur de retour est un code d’erreur qui peut être traduit en message d’erreur texte en appelant [**NDdeGetErrorString**](nddegeterrorstring.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour modifier le [**\_ descripteur de sécurité**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) associé à un partage DDE dans le DSDM, l’utilisateur doit disposer du privilège approprié ; le créateur du partage dispose de ce privilège.
 
@@ -103,7 +103,7 @@ Pour modifier le [**\_ descripteur de sécurité**](/windows/desktop/api/winnt/n
 
 <dl> <dt>
 
-[Présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
+[présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Fonctions DDE réseau](network-dde-functions.md)

@@ -8,12 +8,12 @@ keywords:
 - services de texte, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e86d6d537687afe22ba618657c6591cb733ccef2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dd67185325d33a0bc8b01147ec21cd1f0ee362b5db8b1ca55accaea6ac59f041
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118874760"
 ---
 # <a name="text-services"></a>Services de texte
 
@@ -24,9 +24,9 @@ Les éléments de programmation suivants sont utilisés ou implémentés par un 
 -   [Sessions de modification](edit-sessions.md)
 -   [Fournir des attributs d’affichage](providing-display-attributes.md)
 
- 
+ 
 
- 
+ 
 
 
 

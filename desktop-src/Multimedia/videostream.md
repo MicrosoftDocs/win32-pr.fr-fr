@@ -6,20 +6,20 @@ keywords:
 - Fonctions de rappel AVICap, Videostream
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13aaf600947dee19e68fc6c71355e165e035cdb7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f64eb736b686b1f91903e415133ba6be4ac4ffb68766a7304228657474598c02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940757"
 ---
 # <a name="videostream"></a>Videostream
 
 Les applications peuvent utiliser des fonctions de rappel Videostream pendant la capture en continu pour traiter une trame vidéo capturée. La fenêtre de capture appelle une fonction de rappel Videostream juste avant d’écrire chaque frame capturé sur le disque.
 
- 
+ 
 
- 
+ 
 
 
 

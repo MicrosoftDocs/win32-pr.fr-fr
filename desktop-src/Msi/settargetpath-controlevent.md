@@ -29,7 +29,7 @@ Nom de la propriété contenant le chemin d’accès. Si la propriété est indi
 
 ## <a name="action-on-subscribers"></a>Action sur les abonnés
 
-Aucune.
+Aucun.
 
 ## <a name="typical-use"></a>Utilisation courante
 

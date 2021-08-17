@@ -77,7 +77,7 @@ public static void JetGetDatabaseInfo(
 
 <!-- end list -->
 
-  - value  
+  - valeur  
     Type : [System. String](/dotnet/api/system.string)  
     
     Valeur à récupérer.

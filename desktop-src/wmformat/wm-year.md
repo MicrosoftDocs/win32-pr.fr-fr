@@ -31,7 +31,7 @@ L’attribut **WM/Year** contient l’année de publication du contenu.
 
 **\_chaîne de type WMT \_**
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 
 

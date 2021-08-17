@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6149968cff0d38f6bff47d61c7e3b9c569bbe3cb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fe93b62b27a0c33cf669f9b815b047996b861248ac107baf4868992a3fa70687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118514716"
 ---
 # <a name="expressions"></a>Expressions
 
 Une expression est une séquence de [variables](dx-graphics-hlsl-variable-syntax.md) et de littéraux, avec des signes de ponctuation par [opérateur](dx-graphics-hlsl-statement-blocks.md). Un littéral est une valeur de données explicite, telle que 1 pour un entier ou 2,1 pour un nombre à virgule flottante. Les littéraux sont souvent utilisés pour assigner une valeur à une variable.
 
-Expression suivie d’un point-virgule (;) est appelée une instruction. Les instructions vont de la complexité des expressions simples aux blocs d’instructions qui accomplissent une séquence d’actions. Les instructions de contrôle de Flow déterminent l’exécution des instructions de commande.
+Expression suivie d’un point-virgule (;) est appelée une instruction. Les instructions vont de la complexité des expressions simples aux blocs d’instructions qui accomplissent une séquence d’actions. les instructions de contrôle de Flow déterminent l’exécution des instructions de commande.
 
 Un bloc d’instructions indique également la sous-étendue. Les variables déclarées dans un bloc d’instructions sont uniquement reconnues dans le bloc. Les instructions HLSL déterminent l’ordre dans lequel les expressions sont évaluées. Chaque expression peut être l’une des suivantes :
 
@@ -36,9 +36,9 @@ Un bloc d’instructions indique également la sous-étendue. Les variables déc
 [Instructions (DirectX HLSL)](dx-graphics-hlsl-statements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: 6e2b1636-9d24-40e6-9ed4-e17d1af6a044
 title: Exemple SimpleCapture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da6fd255ad4c69254eb6ff64bdb99731e0c5ba9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b05c0843749e41e3a80aaa9342c709b3434ec5c4886d3b5184698da4cbc0d36e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101788"
 ---
 # <a name="simplecapture-sample"></a>Exemple SimpleCapture
 
-\[Action déconseillée. L’API MFPlay peut être supprimée dans les versions futures de Windows. Les applications doivent utiliser le [lecteur source](source-reader.md) pour la capture vidéo.\]
+\[Action déconseillée. L’API MFPlay peut être supprimée des versions futures de Windows. Les applications doivent utiliser le [lecteur source](source-reader.md) pour la capture vidéo.\]
 
 Montre comment afficher un aperçu de la vidéo à partir d’un périphérique de capture vidéo, à l’aide de l’API MFPlay.
 
@@ -40,7 +40,7 @@ Cet exemple illustre les interfaces de Microsoft Media Foundation suivantes :
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/SimpleCapture).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/SimpleCapture).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

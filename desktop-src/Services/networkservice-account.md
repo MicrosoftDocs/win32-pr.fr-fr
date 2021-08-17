@@ -4,12 +4,12 @@ ms.assetid: f90d9346-10ed-4eba-bae2-9a1f1e6dc6b7
 title: Compte NetworkService
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c319518dbe925a146882014211d131c30420a282
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24f8256a15b43d9a9c0403067a61f9a7cbf6b9d2df0d78936c4d9c06f6dfd87c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106537061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889393"
 ---
 # <a name="networkservice-account"></a>Compte NetworkService
 
@@ -23,14 +23,14 @@ Le compte NetworkService possède sa propre sous-clé sous la clé de Registre *
 
 Le compte NetworkService dispose des privilèges suivants :
 
--   **Se \_ \_Nom de ASSIGNPRIMARYTOKEN** (désactivé)
--   **Se \_ \_Nom de l’audit** (désactivé)
--   **Se \_ MODIFIER \_ le \_ nom** de la notification (activé)
--   **Se \_ CRÉER \_ un \_ nom global** (activé)
--   **Se \_ \_Nom d’emprunt d’identité** (activé)
--   **Se \_ AUGMENTER \_ le \_ nom du quota** (désactivé)
--   **Se \_ \_Nom** de l’arrêt (désactivé)
--   **Se \_ Détacher le \_ nom** (désactivé)
+-   **se \_ \_Nom de ASSIGNPRIMARYTOKEN** (désactivé)
+-   **se \_ \_Nom de l’audit** (désactivé)
+-   **se \_ MODIFIER \_ le \_ nom** de la notification (activé)
+-   **se \_ CRÉER \_ un \_ nom global** (activé)
+-   **se \_ \_Nom d’emprunt d’identité** (activé)
+-   **se \_ AUGMENTER \_ le \_ nom du quota** (désactivé)
+-   **se \_ \_Nom** de l’arrêt (désactivé)
+-   **se \_ Détacher le \_ nom** (désactivé)
 -   Tous les privilèges attribués aux utilisateurs et aux utilisateurs authentifiés
 
 Pour plus d’informations, consultez [sécurité des services et droits d’accès](service-security-and-access-rights.md).

@@ -4,12 +4,12 @@ ms.assetid: 09F54504-A6CF-4385-BDD7-8D23B1D0125C
 title: Attribut MF_NALU_LENGTH_INFORMATION (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c46d9a0b7cbec92c4cde40548b8d3baecf955b50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2020c0086247adda742ce2613045bb3a2004c3b8c13c7cdcb04a0ff3997cf0cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104415"
 ---
 # <a name="mf_nalu_length_information-attribute"></a>\_Attribut d' \_ information de longueur Nalu MF \_
 
@@ -19,7 +19,7 @@ Indique les longueurs de NALUs dans l’exemple. Il s’agit d’un **objet BLOB
 
 **OBJET BLOB**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour que cet attribut soit défini, le support doit être de type MEDIASUBTYPE \_ H264 – et l’attribut [set de \_ \_ longueur \_ Nalu MF](mf-nalu-length-set.md) doit être défini sur le type de média d’entrée de MEDIASUBTYPE \_ H264 –.
 
@@ -43,8 +43,8 @@ m_spSample->SetBlob( MF_NALU_LENGTH_INFORMATION,
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

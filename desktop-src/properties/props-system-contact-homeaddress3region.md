@@ -4,12 +4,12 @@ ms.assetid: 07af228c-c1d6-48f0-929c-9adc67829ace
 title: System. contact. HomeAddress3Region
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 395c42c163a3997f003b3fd28b511af97dcd033a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d3005c693005689c8b33533f4cf9a702e32198f1c00a96c24347d276c7374129
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098258"
 ---
 # <a name="systemcontacthomeaddress3region"></a>System. contact. HomeAddress3Region
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

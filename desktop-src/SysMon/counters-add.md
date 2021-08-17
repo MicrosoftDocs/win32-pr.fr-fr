@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e6c974c5df6f531cd75292290c61534a923e5be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a36d2b9bdc2edc9565b1eac5ebae335e5fbad80752f572c48c0f1b05c9668de1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883397"
 ---
 # <a name="countersadd-method"></a>Counters. Add, méthode
 
@@ -82,7 +82,7 @@ Pour plus d’informations sur la spécification d’un chemin d’accès de com
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous spécifiez un compteur de caractères génériques dans le paramètre *pathname* , la méthode **Add** crée un objet [**CounterItem**](counteritem.md) pour chaque chemin d’accès développé. La méthode **Add** retourne ensuite un pointeur vers le premier **CounterItem** ajouté.
 

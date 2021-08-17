@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 06ba24374ee2ad4e6fd008d90c55d2990dc166f6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7f55eb0434b36daca81e8e3e93b335c2d58124a53d31d59d20ddaa525a6b1c04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118803767"
 ---
 # <a name="d3dxvec4catmullrom-function-d3dx9mathh"></a>D3DXVec4CatmullRom, fonction (D3dx9math. h)
 
@@ -99,13 +99,13 @@ Facteur de pondération. Consultez la section Notes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXVECTOR4**](d3dxvector4.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR4**](d3dxvector4.md) qui est le résultat de l’interpolation Catmull-Rom.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 À partir de quatre points (P1, P2, P3, P4), recherchez une fonction Q (s) de ce type :
 

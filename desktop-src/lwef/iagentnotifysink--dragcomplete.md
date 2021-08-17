@@ -4,12 +4,12 @@ description: IAgentNotifySink DragComplete
 ms.assetid: b2d9b9c2-709e-4988-aa92-f129e3836fc7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb93fbc7bae1ac43d534962659b850561bd50a6d
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: b63c24abd41f0509293ba2fafeb055f195a4d13ad354662e8d32d0fb1715e1fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477027"
 ---
 # <a name="iagentnotifysinkdragcomplete"></a>IAgentNotifySink ::D ragComplete
 
@@ -44,7 +44,7 @@ Paramètre qui indique le bouton de la souris et l’état de la touche de modif
 
 
 
-| Value  | Description      |
+| Valeur  | Description      |
 |--------|------------------|
 | 0x0001 | Bouton gauche      |
 | 0x0010 | Bouton central    |

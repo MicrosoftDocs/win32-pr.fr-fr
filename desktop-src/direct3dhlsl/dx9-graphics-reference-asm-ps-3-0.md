@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 19587cbaa79e2b89633560a7b7889219172d0c25
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 79145936709e43fab9b87602233225567a0067528a31036aacc11c5b425c0dfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512891"
 ---
 # <a name="ps_3_0"></a>PS \_ 3 \_ 0
 
@@ -31,7 +31,7 @@ Un nuanceur de pixels programmable est constitué d’un ensemble d’instructio
 
 Ajoutez un registre facial. Ajoutez un registre de position. Les registres de couleurs (v \# ) sont désormais à virgule flottante intégrale et les registres de coordonnées de texture (t \# ) ont été consolidés. Les déclarations d’entrée prennent les noms d’utilisation, et plusieurs utilisations sont autorisées pour les composants d’un registre donné.
 
-## <a name="dynamic-flow-control"></a>Contrôle de Flow dynamique
+## <a name="dynamic-flow-control"></a>contrôle de Flow dynamique
 
 L’appareil prend en charge le contrôle de Flow dynamique ([si bool-PS](if-bool---ps.md), [break-PS](break---ps.md)et [break \_ COMP-PS](break-comp---ps.md)). Profondeur d’imbrication de plages comprise entre 0 et 24.
 
@@ -39,7 +39,7 @@ L’appareil prend en charge le contrôle de Flow dynamique ([si bool-PS](if-boo
 
 Le nombre de registres temporaires pris en charge est de 32.
 
-## <a name="static-flow-control-nesting-depth"></a>Profondeur d’imbrication du contrôle de Flow statique
+## <a name="static-flow-control-nesting-depth"></a>profondeur d’imbrication des contrôles de Flow statique
 
 L’appel de [PS](call---ps.md) / [callnz](callnz-bool---ps.md)prévu  / peut être imbriqué sur une profondeur maximale de 4.[ \_ ](callnz-pred---ps.md) Indépendamment, [les instructions Loop-](loop---ps.md)PS / [REP-PS](rep---ps.md) peuvent être imbriquées à une profondeur maximale de 4.
 
@@ -77,7 +77,7 @@ Si PS \_ 3 \_ 0 est pris en charge, les limites suivantes sont prises en charge 
 
 
 
-| Encapsul                                                                                                          | Value                                                                                                                                                                                                                                                                                                 |
+| Encapsul                                                                                                          | Valeur                                                                                                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | MaxTextureWidth, MaxTextureHeight                                                                            | 4 Ko chacun                                                                                                                                                                                                                                                                                               |
 | MaxTextureRepeat                                                                                             | 8 Ko                                                                                                                                                                                                                                                                                                    |

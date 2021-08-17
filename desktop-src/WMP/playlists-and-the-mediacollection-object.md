@@ -4,24 +4,24 @@ description: Sélections et objet MediaCollection
 ms.assetid: 3c98ceed-2545-4774-998b-c1db0d172a81
 keywords:
 - Lecteur Windows Media, sélections
-- Modèle objet du lecteur Windows Media, sélections
+- Lecteur Windows Media modèle objet, playlists
 - modèle objet, sélections
-- Windows Media Player Mobile, sélections
-- Contrôle ActiveX du lecteur Windows Media, sélections
-- Contrôle ActiveX mobile du lecteur Windows Media, sélections
-- Contrôle ActiveX, sélections
+- Lecteur Windows Media Mobile, sélections
+- contrôle de ActiveX Lecteur Windows Media, sélections
+- Lecteur Windows Media contrôle de ActiveX Mobile, sélections
+- contrôle de ActiveX, sélections
 - sélections, objet MediaCollection
 - sélections de métafichiers, objet MediaCollection
-- Sélections de métafichiers Windows Media, objet MediaCollection
+- Windows Sélections de métafichiers multimédia, objet MediaCollection
 - Objet MediaCollection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 334b693046e6c78e92a4af901816b57bb9c4cddc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9b1a0bba2e966e51523dc24965c2f2a066767b059f26a08fde9ee5856a1694df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334452"
 ---
 # <a name="playlists-and-the-mediacollection-object"></a>Sélections et objet MediaCollection
 
@@ -42,7 +42,7 @@ Veillez à ne pas confondre le *MediaCollection*. méthode **GetByName** avec *P
 
 Vous pouvez utiliser *MediaCollection*. **Ajoutez** une méthode pour ajouter des sélections ainsi que des éléments multimédias à la bibliothèque. Pour ajouter une sélection, vous transmettez à la méthode le chemin d’accès au métafichier qui définit la sélection. La méthode retourne toujours un objet **Media** . Vous ne pouvez pas effectuer un cast entre des objets de **média** et de **sélection** . Pour utiliser la sélection que vous avez ajoutée, récupérez l’objet de **sélection** portant le même nom que l’objet **multimédia** .
 
-L’exemple C# suivant montre comment récupérer des médias par type à l’aide de **MediaCollection**. méthode **getByAttribute** . Ce code récupère les noms de tous les attributs associés à un type donné, ainsi que l’État en lecture/écriture ou en lecture seule de ces attributs. Il génère un fichier unique qui contient des listes d’attributs pour les types audio, vidéo, radio, sélection, autre, musique et photo.
+L’exemple C# suivant montre comment récupérer des médias par type à l’aide de **MediaCollection**. méthode **getByAttribute** . Ce code récupère les noms de tous les attributs associés à un type donné, ainsi que l’État en lecture/écriture ou en lecture seule de ces attributs. il génère un fichier unique qui contient des listes d’attributs pour les types Audio, vidéo, Radio, Playlist, Other, Musique et Photo.
 
 
 ```C++
@@ -135,9 +135,9 @@ Les sélections statiques incluent des éléments multimédias spécifiques. Les
 [**Sélections statiques et automatiques**](static-and-auto-playlists.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

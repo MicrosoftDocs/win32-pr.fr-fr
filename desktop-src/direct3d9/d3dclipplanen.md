@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 4508f1654a357eb80b3847b7562e230c6a9be4d0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 315f1cdd8f8835b869f04edd9869243f3e05a9c2c9a08a41eeffc014727b3fc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104394087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118805466"
 ---
 # <a name="d3dclipplanen-macro"></a>D3DCLIPPLANEn macro)
 
@@ -41,7 +41,7 @@ Cette macro n’a pas de paramètres.
 
 Cette macro ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les plans de découpage définis par l’utilisateur sont activés lorsque la valeur définie dans l' \_ État de rendu D3DRS CLIPPLANEENABLE contient un ou plusieurs bits Set (autrement dit, n’est pas 0). La valeur de l’État Render n’est pas importante. le système n’interprète pas la valeur comme un nombre. Au lieu de cela, la valeur active le plan de découpage dont le bit correspondant est défini. Le bit 0 contrôle l’état du premier plan de découpage (au niveau de l’index 0), le bit 1 le deuxième plan, et ainsi de suite.
 

@@ -9,12 +9,12 @@ keywords:
 - Type de HTTP_URL_CONTEXT HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 681e24c06334a9010287e2084d9d6a04428ca6a1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 151ef975470ca21c6e82e5bc7bd7bd8b99a70573385375e8552b6660ce78f631
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950798"
 ---
 # <a name="http-server-api-version-10-data-types"></a>Types de données de l’API du serveur HTTP 1,0
 
@@ -27,9 +27,9 @@ L’API du serveur HTTP utilise divers types d’identificateurs à usage spéci
 
 Une application ne doit pas tenter de générer ou de modifier un identificateur qui appartient à l’un de ces types.
 
- 
+ 
 
- 
+ 
 
 
 

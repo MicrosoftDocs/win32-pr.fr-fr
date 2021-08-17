@@ -4,16 +4,16 @@ ms.assetid: 7ae672d3-e11d-453c-b9c0-354d21830ae4
 title: Envoi d’un message de données enveloppées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f59c04418a2f1d0186ddc0d88c30e7cc790c715b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d93c73e22a9ac98e08d12164e78aa585a6b2ba3da6f47bf53675a7320bc206e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900359"
 ---
 # <a name="sending-an-enveloped-data-message"></a>Envoi d’un message de données enveloppées
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 Dans l’exemple suivant, un message en texte en clair est lu à partir d’un fichier et un magasin de certificats qui contient les certificats des destinataires de messages prévus est ouvert. Tous les certificats du magasin sont ajoutés en tant que destinataires du message, le message est enveloppé et le message enveloppé est écrit dans un fichier.
 

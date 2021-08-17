@@ -4,16 +4,16 @@ ms.assetid: 67a36123-4fce-4d40-83c3-b9668221276b
 title: Signature d’un document
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ce1754cdfa1e89c23525474bae880dc2809c242
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 526bc4cd98d6cab40efc884a2377f3720c9849dbb7f6c1d4e8da5d49898bfa64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118898163"
 ---
 # <a name="signing-a-document"></a>Signature d’un document
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 Une signature standard est utilisée pour signer un texte et enregistrer ce texte signé dans un fichier. Le texte signé peut également être envoyé sur Internet. Le message signé est au \# format PKCS 7.
 

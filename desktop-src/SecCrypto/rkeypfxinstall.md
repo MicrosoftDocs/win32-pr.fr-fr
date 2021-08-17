@@ -13,18 +13,18 @@ api_type:
 - HeaderDef
 api_location:
 - Rkeysvcc.h
-ms.openlocfilehash: 4908b7224a02f5a28b876b1ff67cbcec7d23df5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f19a01e9132bf9c4b1e281a75b0e0d7a27b4f9c7f299eefdd47bef8d60daea97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900544"
 ---
 # <a name="rkeypfxinstall-function"></a>RKeyPFXInstall fonction)
 
 La fonction **RKeyPFXInstall** n’est pas prise en charge.
 
-**Windows Server 2003 :** La fonction **RKeyPFXInstall** installe un certificat sur un ordinateur distant. Notez que ce comportement a changé avec Windows Server 2003 avec Service Pack 1 (SP1).
+**Windows Server 2003 :** La fonction **RKeyPFXInstall** installe un certificat sur un ordinateur distant. notez que ce comportement a changé avec Windows Server 2003 avec Service Pack 1 (SP1).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -96,7 +96,7 @@ Si la fonction échoue, la valeur de retour est un **ULong** qui indique l’err
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Rkeysvcc. h</dt> </dl> |
 
 

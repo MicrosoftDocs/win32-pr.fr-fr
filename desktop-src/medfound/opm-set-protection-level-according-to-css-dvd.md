@@ -4,12 +4,12 @@ ms.assetid: 8d9ecb9b-8528-4b23-ab2f-234ba2cb7ed0
 title: OPM_SET_PROTECTION_LEVEL_ACCORDING_TO_CSS_DVD (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 971d288367bdc5c59e11bdfd5b86fb233755c95e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2290f8d0dd17e01d482c197a54448a3317b11f80840579c2ddd05f01b6103840
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101902"
 ---
 # <a name="opm_set_protection_level_according_to_css_dvd"></a>\_ \_ niveau de protection de l’ensemble OPM \_ selon le \_ \_ \_ \_ DVD CSS
 
@@ -26,7 +26,7 @@ Définit le niveau de protection HDCP pour la lecture des DVD, en suivant les r�
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette commande permet de définir High-Bandwidth protection du contenu numérique (HDCP) lors de la diffusion de DVD standard. Contrairement à la commande de [**\_ \_ \_ niveau de protection Set de OPM**](opm-set-protection-level.md) , si HDCP ne peut pas être défini pour une raison quelconque, cette commande n’arrête pas la lecture. (Les règles CSS de DVD contiennent un « meilleur effort » pour les joueurs.) Dans le cas contraire, cette commande est identique à la commande de **\_ \_ \_ niveau de protection Set OPM** .
 
@@ -36,8 +36,8 @@ Cette commande permet de définir High-Bandwidth protection du contenu numériqu
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Opmapi. h</dt> </dl> |
 
 

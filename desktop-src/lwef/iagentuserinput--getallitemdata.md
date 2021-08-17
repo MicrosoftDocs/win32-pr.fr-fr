@@ -4,12 +4,12 @@ description: IAgentUserInput GetAllItemData
 ms.assetid: d1857b28-c745-4ed2-b49e-774f247e7348
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ced6a618d4fbbc093bf54c19fc393b7e195f2069
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d74c59e05e021fdff05ee8991c4563a7a4be918f6ecb244c26402b5234b240b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104461958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105145"
 ---
 # <a name="iagentuserinputgetallitemdata"></a>IAgentUserInput::GetAllItemData
 
@@ -57,16 +57,16 @@ Si l’entrée vocale n’est pas la source de l’événement ; par exemple, s
 > [!Note]  
 > Tous les moteurs de reconnaissance vocale ne peuvent pas retourner toutes les valeurs de tous les paramètres de cet événement. Contactez votre fournisseur de moteur pour déterminer si le moteur prend en charge l’interface de l’API Microsoft Speech pour retourner des alternatives et des scores de confiance.
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
 [**IAgentUserInput :: GetItemConfidence**](iagentuserinput--getitemconfidence.md), [**IAgentUserInput :: GetItemText**](iagentuserinput--getitemtext.md), [**IAgentUserInput :: getItemID**](iagentuserinput--getitemid.md)
 
 
- 
+ 
 
- 
+ 
 
 
 
