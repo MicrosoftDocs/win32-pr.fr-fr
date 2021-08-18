@@ -1,19 +1,19 @@
 ---
 title: Réautorisation ALE
-description: Le trafic réseau au niveau des couches de mise en œuvre de la couche application (ALE) de la plateforme de filtrage Windows (WFP) est filtré par flux ALE.
+description: le trafic réseau au niveau des couches de mise en œuvre de la couche application (ALE) de la plateforme de filtrage de Windows (WFP) est filtré par les flux ALE.
 ms.assetid: 3cc7f78e-3f9d-4a91-8ea0-9b64c299068a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed05c4c0767d449ec128250f852c365455bd0dc7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 850cd7f789c1fb1222a0d6820e84a42cf41763dac4e57b96667e7feda364374c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103727012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582689"
 ---
 # <a name="ale-reauthorization"></a>Réautorisation ALE
 
-Le trafic réseau au niveau des couches de mise en œuvre de la couche application (ALE) de la plateforme de filtrage Windows (WFP) est filtré par [flux ALE](ale-stateful-filtering.md). Une fois qu’un flux ALE est autorisé, tout le trafic qui fait partie du flux ALE est autorisé. La réautorisation est une demande de validation des autorisations du fluide ALE, généralement en raison d’une modification de la stratégie réseau.
+le trafic réseau au niveau des couches de mise en œuvre de la couche application (ALE) de la plateforme de filtrage de Windows (WFP) est filtré par les [flux ALE](ale-stateful-filtering.md). Une fois qu’un flux ALE est autorisé, tout le trafic qui fait partie du flux ALE est autorisé. La réautorisation est une demande de validation des autorisations du fluide ALE, généralement en raison d’une modification de la stratégie réseau.
 
 Les flux ALE se voient attribuer une direction, entrante ou sortante, en fonction de la direction du premier paquet qui a déclenché la création et l’autorisation du flux. Les flux ALE entrants sont créés et autorisés au niveau de la couche [**FWPM d' \_ authentification ALE de la couche \_ ALE \_ \_ reçues \_ Accept \_ V {4 \| 6}**](management-filtering-layer-identifiers-.md) . Les flux ALE sortants sont créés et autorisés au niveau de la couche **FWPM d' \_ authentification ALE de couche \_ ALE \_ \_ \_ V {4 \| 6}** . La direction du fluide ALE ne limite pas la direction des paquets qui appartiennent au Flow. Les flux ALE contiennent des paquets entrants et sortants, quelle que soit la direction du flux ALE lui-même.
 
@@ -35,7 +35,7 @@ L’une des raisons de cette classification à sens mixte est qu’il n’y a pe
 
 ### <a name="arrival-interface-reauthorization"></a>Réautorisation de l’interface d’arrivée
 
-La réautorisation de l’interface d’arrivée est disponible à partir de Windows Server 2008 et de Windows Vista avec Service Pack 1 (SP1).
+la réautorisation de l’interface d’arrivée est disponible à partir de Windows Server 2008 et Windows Vista avec Service Pack 1 (SP1).
 
 Les paquets appartenant au même flot ALE peuvent arriver à partir de plusieurs interfaces. Le premier paquet à venir sur une interface différente de l’interface d’origine du fluide ALE est réautorisé.
 
@@ -55,7 +55,7 @@ La réautorisation est déclenchée immédiatement après l’appel FwpsComplete
 
 Seule une autorisation initiale peut être reportée. Un appel à FwpsPendOperation0 échoue si l’indicateur de condition fwp est défini sur l’indicateur de [**\_ \_ \_ \_ réautorisation**](filtering-condition-flags-.md) .
 
-Pour plus d’informations, consultez la documentation du [Kit de pilotes Windows](/windows-hardware/drivers/ddi/_netvista/) .
+pour plus d’informations, consultez la documentation du [Kit de pilotes Windows](/windows-hardware/drivers/ddi/_netvista/) .
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -73,9 +73,9 @@ Pour plus d’informations, consultez la documentation du [Kit de pilotes Window
 [Trafic de diffusion/multidiffusion ALE](ale-multicast-broadcast-traffic.md)
 </dt> <dt>
 
-[Personnalisation du fluide ALE](ale-flow-customization.md)
+[personnalisation de la Flow ALE](ale-flow-customization.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

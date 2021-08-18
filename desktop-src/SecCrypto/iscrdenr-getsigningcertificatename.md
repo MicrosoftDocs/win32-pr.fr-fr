@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 8d9a8a84067e82a18e5066721f3e7f39d075c339
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29933856eb644e638e9e58c8da0b0e3d6234e4f0175925c8a1fb5b48b126e3ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104393692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622399"
 ---
 # <a name="iscrdenrgetsigningcertificatename-method"></a>ISCrdEnr :: getSigningCertificateName, méthode
 
@@ -80,7 +80,7 @@ Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’err
 
 Chaîne qui représente le nom du certificat de signature. Le certificat de signature est utilisé pour signer la [*demande de certificat*](../secgloss/c-gly.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **getSigningCertificateName** retourne le nom du sujet du certificat que vous (ou un autre administrateur) avez sélectionné lors d’un appel précédent réussi à [**ISCrdEnr :: selectSigningCertificate**](iscrdenr-selectsigningcertificate.md) ou [**ISCrdEnr :: setSigningCertificate**](iscrdenr-setsigningcertificate.md). Cette méthode appelle la fonction [**CertGetNameString**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa) pour récupérer le nom de l’objet en fonction de la séquence décrite pour la \_ \_ \_ \_ valeur de type d’affichage simple du nom de certificat du paramètre *dwType* de **CertGetNameString**.
 
@@ -91,7 +91,7 @@ La méthode **getSigningCertificateName** retourne le nom du sujet du certificat
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ ISCrdEnr est défini en tant que 753988a1-1357-436D-9cf5-f089bdd67d64<br/>             |
 

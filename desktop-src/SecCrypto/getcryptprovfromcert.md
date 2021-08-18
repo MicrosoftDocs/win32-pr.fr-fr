@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Mssign32.dll
-ms.openlocfilehash: bcd396c45333dee42bae4cb8bdfdd52792f1bdd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c885c439014a26bafba3be8614981c67d200e9f87cd4e3c4f03e8cbcc1b77e38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006657"
 ---
 # <a name="getcryptprovfromcert-function"></a>GetCryptProvFromCert fonction)
 
@@ -116,7 +116,7 @@ Spécifie le type de fournisseur de services de chiffrement. Il peut s’agir de
 
 En cas de réussite, cette fonction retourne **true**. La fonction **GetCryptProvFromCert** retourne la **valeur false** en cas d’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’outil [Makecert](makecert.md) appelle **GetCryptProvFromCert** quand vous l’appelez à l’aide de l’option **de ligne de commande-is** .
 
@@ -130,8 +130,8 @@ Lorsque vous avez terminé d’utiliser le fournisseur de services de chiffremen
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Mssign32.dll</dt> </dl> |
 
 

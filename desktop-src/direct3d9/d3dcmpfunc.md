@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: e49f0e058e795e00349020619f1e6d6310dfd94f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1fa8d0c9288e6c0d516e7fc9b8a07237f553dd6c86072f1895edf9a79c297077
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103870090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989107"
 ---
 # <a name="d3dcmpfunc-enumeration"></a>Énumération D3DCMPFUNC
 
@@ -110,7 +110,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de ce type énuméré définissent les fonctions de comparaison prises en charge pour les \_ États de rendu D3DRS ZFUNC, D3DRS \_ ALPHAFUNC et D3DRS \_ STENCILFUNC.
 

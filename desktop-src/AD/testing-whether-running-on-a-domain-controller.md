@@ -1,20 +1,20 @@
 ---
 title: Test de l’exécution sur un contrôleur de domaine
-description: Le code suivant utilise la fonction VerifyVersionInfo pour déterminer si le processus appelant s’exécute sur un contrôleur de domaine du serveur Windows 2000.
+description: le code suivant utilise la fonction VerifyVersionInfo pour déterminer si le processus appelant s’exécute sur un contrôleur de domaine Windows 2000 Server.
 ms.assetid: 1cef6478-5503-467c-9b82-830d17018b19
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8aeb73af18be9f0c787c2ee30b150689d760aec
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: bb49577994716598bb730fcc7e86a9cce76a2835e8cfa1558b7d608b9cbc5ea2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104101412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024587"
 ---
 # <a name="testing-whether-running-on-a-domain-controller"></a>Test de l’exécution sur un contrôleur de domaine
 
-Le code suivant utilise la fonction [**VerifyVersionInfo**](/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa) pour déterminer si le processus appelant s’exécute sur un contrôleur de domaine du serveur Windows 2000. Votre programme d’installation de service peut utiliser ce test avant d’installer un service sous le compte LocalSystem. Si le test indique que vous êtes en cours d’exécution sur un contrôleur de domaine, vous installez le service pour qu’il s’exécute sous un compte d’utilisateur ou affichez une boîte de dialogue qui vous avertit des dangers liés à l’exécution en tant que LocalSystem sur un contrôleur de domaine (ce qui signifie que le service disposerait alors d’un accès illimité à Active Directory Domain Services, un contexte de sécurité extrêmement puissant
+le code suivant utilise la fonction [**VerifyVersionInfo**](/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa) pour déterminer si le processus appelant s’exécute sur un contrôleur de domaine Windows 2000 Server. Votre programme d’installation de service peut utiliser ce test avant d’installer un service sous le compte LocalSystem. Si le test indique que vous êtes en cours d’exécution sur un contrôleur de domaine, vous installez le service pour qu’il s’exécute sous un compte d’utilisateur ou affichez une boîte de dialogue qui vous avertit des dangers liés à l’exécution en tant que LocalSystem sur un contrôleur de domaine (ce qui signifie que le service disposerait alors d’un accès illimité à Active Directory Domain Services, un contexte de sécurité extrêmement puissant
 
 
 ```C++
@@ -45,6 +45,6 @@ BOOL Is_Win2000_DomainController ()
 
 
 
- 
+ 
 
- 
+ 

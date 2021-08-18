@@ -4,12 +4,12 @@ ms.assetid: 0045e931-929b-40c4-a524-5664d2fc5170
 title: EncryptMessage (Digest), fonction (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 13bcaa5b91f165321d03e229416741b90a978dc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af16238ca58449c286edd9eabb88d7bc9a3f7fa781fac360863fdd52f7296833
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106539053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008427"
 ---
 # <a name="encryptmessage-digest-function"></a>EncryptMessage (Digest) (fonction)
 
@@ -102,7 +102,7 @@ Si la fonction échoue, elle retourne l’un des codes d’erreur suivants.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **EncryptMessage (Digest)** chiffre un message basé sur le message et la [*clé de session*](../secgloss/s-gly.md) à partir d’un contexte de [*sécurité*](../secgloss/s-gly.md).
 
@@ -138,8 +138,8 @@ Pour des performances optimales, les structures *pMessage* doivent être alloué
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                   |
 | En-tête<br/>                   | <dl> <dt>SSPI. h (include Security. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

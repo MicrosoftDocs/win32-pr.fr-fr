@@ -3,7 +3,7 @@ title: Objet ClosedCaption
 description: L’objet ClosedCaption offre un moyen d’inclure des sous-titres avec un clip multimédia. Le texte de sous-titrage se trouve dans un fichier SAMI (Synchronized Accessible Media Interchange).
 ms.assetid: 5e192aa4-0ecd-4bda-8dad-1750039c7898
 keywords:
-- Objet ClosedCaption lecteur Windows Media
+- objet ClosedCaption Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 85e53468e8d5cc2694555b9a05d8b207d1660618
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.openlocfilehash: 10ae51af31e724bd066dbbb9e826569da40159460eb1e7bf570aea331dff86be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104030455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119593"
 ---
 # <a name="closedcaption-object"></a>Objet ClosedCaption
 
@@ -39,7 +39,7 @@ L’objet **ClosedCaption** prend en charge les propriétés suivantes.
 
 
 
- 
+ 
 
 L’objet **ClosedCaption** prend en charge les méthodes suivantes.
 
@@ -53,7 +53,7 @@ L’objet **ClosedCaption** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’objet **ClosedCaption** est accessible par le biais de la propriété suivante.
 
@@ -65,7 +65,7 @@ L’objet **ClosedCaption** est accessible par le biais de la propriété suivan
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -77,9 +77,9 @@ L’objet **ClosedCaption** est accessible par le biais de la propriété suivan
 [**Référence du modèle objet pour l’écriture de scripts**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

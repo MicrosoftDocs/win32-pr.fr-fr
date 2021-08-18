@@ -4,12 +4,12 @@ ms.assetid: 3c8fcb8d-2ea4-4b24-b649-7bd375c1133d
 title: Gestion des noms d’instance en double
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: 220e5d7d0181a79c1d1415486cc946d484e11952
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f58f6ed11951c7b66951f5154009127c5029de3760a9419a7c9716781be8234f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144002"
 ---
 # <a name="handling-duplicate-instance-names"></a>Gestion des noms d’instance en double
 
@@ -19,7 +19,7 @@ Malheureusement, cette Convention ne résout pas complètement le problème. Les
 
 ## <a name="process-counterset"></a>Process CounterSet
 
-Ce problème est particulièrement problématique pour le `Process` CounterSet, car il utilise uniquement le nom de l’exe du processus comme nom d’instance, même si le nom de l’exe n’est pas unique. Impossible de modifier le comportement par défaut du `Process` CounterSet sur Windows en raison de problèmes de compatibilité.
+Ce problème est particulièrement problématique pour le `Process` CounterSet, car il utilise uniquement le nom de l’exe du processus comme nom d’instance, même si le nom de l’exe n’est pas unique. impossible de modifier le comportement par défaut du `Process` counterset sur Windows en raison de problèmes de compatibilité.
 
 Vous pouvez modifier le comportement des `Process` countersets et `Thread` pour utiliser des noms d’instance uniques en définissant les `ProcessNameFormat` valeurs de `ThreadNameFormat` Registre ou sous la `HKLM\System\CurrentControlSet\Services\Perfproc\Performance` clé de registre.
 

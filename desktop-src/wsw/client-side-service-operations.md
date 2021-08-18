@@ -3,17 +3,17 @@ title: Opérations de service côté client
 ms.assetid: 9d6e2441-91de-4108-b1c4-282fbca5fe7c
 description: En savoir plus sur les opérations de service côté client
 keywords:
-- Service côté client services Web pour Windows
+- Services Web des opérations de service côté client pour Windows
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4cd00bfbd832db12a722363bf5b1af8f7298345
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e73ccbb0c742d0be09570b0959c9c1a663d7f4d0f054cc88070d842ac6d954ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657299"
 ---
 # <a name="client-side-service-operations"></a>Opérations de service côté client
 
@@ -72,7 +72,7 @@ if(FAILED(hr))
 L’application doit toujours passer le paramètre d’erreur à :
 
 -   Obtenir des informations détaillées sur l’erreur si une défaillance se produit pendant l’appel de l’opération de service.
--   Obtient l’objet d’erreur si le service a retourné une erreur. L’erreur se trouve dans l’objet Error. Dans ce cas, la valeur **HRESULT** retournée par l’opération de service est **erreur de point de terminaison WS \_ E \_ \_ \_ received** (voir les [valeurs de retour des services Web Windows](windows-web-services-return-values.md)).
+-   Obtient l’objet d’erreur si le service a retourné une erreur. L’erreur se trouve dans l’objet Error. dans ce cas, la valeur **HRESULT** retournée par l’opération de service est l' **erreur de point de terminaison WS \_ E \_ \_ \_ received** (voir [Windows les valeurs de retour des Services Web](windows-web-services-return-values.md)).
 
 ### <a name="call-properties-for-client-side-service-operations"></a>Propriétés d’appel pour les opérations de service côté client
 
@@ -125,7 +125,7 @@ Toutes les valeurs **HRESULT** de réussite doivent être traitées comme des su
 -   **WS \_ E \_ opération \_ abandonnée**: l’appel a été abandonné. L’objet Error contient la raison de l’abandon.
 -   **WS \_ E \_ \_ opération non valide**: le proxy de service n’est pas dans un état approprié pour effectuer un appel, vérifiez l’état du proxy de service pour déterminer l’état du proxy de service.
 
-Pour obtenir la liste complète des valeurs de retour, consultez [valeurs de retour des services Web Windows](windows-web-services-return-values.md).
+pour obtenir la liste complète des valeurs de retour, consultez [Windows les valeurs renvoyées par les Services Web](windows-web-services-return-values.md).
 
 ### <a name="code-examples"></a>Exemples de code
 

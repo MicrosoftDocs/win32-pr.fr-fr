@@ -4,12 +4,12 @@ ms.assetid: 0fb0d9c2-9f6d-4fcd-a6c6-9ba8fe9f5fb5
 title: À propos des applications isolées et des assemblys côte à côte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c9099ca2e41d61c84e2952661b33ca008651f8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08ab72689173d4e8942d10dfc62259091574634227c3f4d252b0d87853ec9be7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142662"
 ---
 # <a name="about-isolated-applications-and-side-by-side-assemblies"></a>À propos des applications isolées et des assemblys côte à côte
 
@@ -21,7 +21,7 @@ Les [assemblys côte à côte](about-side-by-side-assemblies-.md) sont des assem
 
 Un [*assembly côte à côte*](s-sbscs-gly.md) classique est une dll unique avec un manifeste unique. Les assemblys côte à côte stockent les informations relatives à la liaison et à l’activation COM, traditionnellement enregistrées dans le registre, dans les manifestes. Dans certains cas, les versions de l’assembly spécifiées dans les manifestes peuvent être modifiées, sur une base globale ou par application, par les serveurs de publication d’assembly, les développeurs d’applications ou les administrateurs. Pour plus d’informations, consultez [configuration par défaut](default-configuration.md), configuration du serveur de [publication](publisher-configuration.md)et [configuration par application](per-application-configuration.md).
 
-Les développeurs peuvent utiliser les assemblys côte à côte fournis par Microsoft, ou d’autres serveurs de publication d’assembly côte à côte, dans leurs applications. Par exemple, les développeurs peuvent obtenir les fonctionnalités des contrôles communs mis à jour, tels que les thèmes, en concevant leurs applications de manière à utiliser l’assembly côte à côte qui contient Comctl32.dll 6,0. Pour obtenir la liste des assemblys et des manifestes côte à côte fournis avec Windows XP, consultez [assemblys côte à côte pris en charge par Microsoft](supported-microsoft-side-by-side-assemblies.md). Les développeurs peuvent également créer leurs propres assemblys côte à côte. Pour plus d’informations, consultez [instructions relatives à la création d’assemblys côte à côte](guidelines-for-creating-side-by-side-assemblies.md).
+Les développeurs peuvent utiliser les assemblys côte à côte fournis par Microsoft, ou d’autres serveurs de publication d’assembly côte à côte, dans leurs applications. Par exemple, les développeurs peuvent obtenir les fonctionnalités des contrôles communs mis à jour, tels que les thèmes, en concevant leurs applications de manière à utiliser l’assembly côte à côte qui contient Comctl32.dll 6,0. pour obtenir la liste des assemblys et des manifestes côte à côte fournis avec Windows XP, consultez [assemblys côte à côte pris en charge par Microsoft](supported-microsoft-side-by-side-assemblies.md). Les développeurs peuvent également créer leurs propres assemblys côte à côte. Pour plus d’informations, consultez [instructions relatives à la création d’assemblys côte à côte](guidelines-for-creating-side-by-side-assemblies.md).
 
  
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 2e93e59715d9f262d7693f2bef652f8be63337f7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5bb0cd8539a996b66ccf9f413e57ebf1d213fe6372e56b50b35abc5e210595f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987609"
 ---
 # <a name="id3dxbasemeshlockvertexbuffer-method"></a>ID3DXBaseMesh :: LockVertexBuffer, méthode
 
@@ -41,7 +41,7 @@ HRESULT LockVertexBuffer(
 
 <dl> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -73,7 +73,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous utilisez des mémoires tampons de vertex, vous êtes autorisé à effectuer plusieurs appels de verrouillage. Toutefois, vous devez vous assurer que le nombre d’appels de verrous correspond au nombre d’appels de déverrouillage. Les appels DrawPrimitive échouent avec un nombre de verrous en attente sur une mémoire tampon de vertex actuellement définie.
 

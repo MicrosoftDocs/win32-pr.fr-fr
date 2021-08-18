@@ -4,12 +4,12 @@ ms.assetid: 4cc20a59-d8e9-4c9b-9438-21bccbbe4a64
 title: 'Exemple de programme C : obtention et définition des propriétés de certificat'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99ac3d865eb90f57f1c687dbf58e89a2725066aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f4197d4ba716f780fec419aaf9588807d379ac85ccbfdb95535936539129dbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007667"
 ---
 # <a name="example-c-program-getting-and-setting-certificate-properties"></a>Exemple de programme C : obtention et définition des propriétés de certificat
 

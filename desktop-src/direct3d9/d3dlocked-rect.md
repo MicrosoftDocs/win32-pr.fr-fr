@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 9242a267085579cce52e66f2b9326a8e6298c87c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b419483329e5461de5bc98b3a37b556e37138a055932b1d6c80d3a19b13ae516
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104530957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988899"
 ---
 # <a name="d3dlocked_rect-structure"></a>D3DLOCKED \_ Rect, structure
 
@@ -62,7 +62,7 @@ Pointeur vers les bits verrouillés. Si un [**Rect**](/previous-versions//dd1628
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le pas pour les formats DXTn est différent de ce qui a été retourné dans DirectX 7. Il fait maintenant référence au nombre d’octets dans une ligne de blocs. Par exemple, si vous avez une largeur de 16, vous obtiendrez un pas de 4 blocs (4 \* 8 pour DXT1, 4 \* pour DXT2-5).
 

@@ -4,12 +4,12 @@ ms.assetid: e1ea1e99-a2bc-4e76-91f6-e388c39dfbbb
 title: Division de transport des responsabilités entre la DLL et les fournisseurs de services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 142ac98c95e95c310c2eefb7bfdaf1f70a03bf28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33c256cb03bcc9e3f8746db5196c21fc2de0a8b157304a205587b275acc0bbb3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733219"
 ---
 # <a name="transport-division-of-responsibilities-between-dll-and-service-providers"></a>Division de transport des responsabilités entre la DLL et les fournisseurs de services
 
@@ -36,7 +36,7 @@ En plus de son service de routage de trafic majeur, le \_32.dll Ws2 fournit un c
 
 Les fournisseurs de services implémentent le protocole de transport réel, qui comprend des fonctions telles que la configuration des connexions, le transfert de données, l’exercice du contrôle de workflow et du contrôle des erreurs, etc. Le32.dll Ws2 n' \_ a aucune connaissance de la façon dont les demandes aux fournisseurs de services sont réalisées. il s’agit de l’implémentation du fournisseur de services. L’implémentation de telles fonctions peut varier d’un fournisseur à l’autre. Les fournisseurs de services masquent les détails spécifiques à l’implémentation de la façon dont les opérations réseau sont effectuées.
 
-Les fournisseurs de services de transport peuvent être divisés en deux catégories : ceux dont les descripteurs de socket sont des handles de système de fichiers réels (et sont ci-après appelés fournisseurs IFS). les autres sont appelés fournisseurs non-IFS. L' \_32.dll Ws2 transmet toujours le descripteur de socket du fournisseur de services de transport à l’application Windows Sockets, de sorte que les applications sont libres de tirer parti des descripteurs de socket qui sont des handles de système de fichiers, le cas échéant.
+Les fournisseurs de services de transport peuvent être divisés en deux catégories : ceux dont les descripteurs de socket sont des handles de système de fichiers réels (et sont ci-après appelés fournisseurs IFS). les autres sont appelés fournisseurs non-IFS. l' \_32.dll Ws2 transmet toujours le descripteur de socket du fournisseur de services de transport à l’application Windows sockets, de sorte que les applications sont libres de tirer parti des descripteurs de socket qui sont des handles de système de fichiers, si c’est le cas.
 
 Pour résumer : les fournisseurs de services implémentent les protocoles de bas niveau spécifiques au réseau. Le \_32.dll Ws2 fournit la gestion du trafic de niveau moyen qui interconnecte ces protocoles de transport avec les applications. Les applications fournissent à leur tour la stratégie quant à la façon dont ces flux de trafic et les opérations spécifiques au réseau sont utilisés pour accomplir les fonctions souhaitées par l’utilisateur.
 

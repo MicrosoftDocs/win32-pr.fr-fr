@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04f4efaac16325ec77721665a4dee14c9514a192
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 97f38fe7dfc99c5c9c1c6a7cae1a5fdd5750c5f3e9af37e56706b27300876da1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067349"
 ---
 # <a name="defaultvalue-attribute"></a>defaultvalue (attribut)
 
@@ -51,7 +51,7 @@ Spécifie le type de retour de la fonction.
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la fonction à laquelle l’attribut **\[ DefaultValue \]** sera appliqué.
@@ -93,7 +93,7 @@ Spécifie zéro, un ou plusieurs paramètres supplémentaires, chacun d’entre 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur par défaut que vous spécifiez pour le paramètre peut être n’importe quelle constante, ou une expression qui correspond à une constante, qui peut être représentée par un **Variant**. Plus précisément, vous ne pouvez pas appliquer l’attribut **\[ \] DefaultValue** à un paramètre qui est une structure, un tableau ou un type **SAFEARRAY** .
 
@@ -157,6 +157,6 @@ interface QueryDef : IUnknown
 [TYPEFLAGS](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

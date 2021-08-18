@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: a27dc275ce900bfd6412599cb81ad14038f96405
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 16562f3b954c9968899b7af63729a105956c7f809d094bdfa6c508a160a6d51d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006647"
 ---
 # <a name="hasheddataalgorithm-property"></a>HashedData. algorithme, propriété
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt la [**classe HashAlgorithm**](/previous-versions/windows/) dans l’espace de noms [**System. Security. Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) .\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt la [**classe HashAlgorithm**](/previous-versions/windows/) dans l’espace de noms [**System. Security. Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) .\]
 
 La propriété de l' **algorithme** définit ou récupère le type d’algorithme de hachage utilisé.
 
@@ -63,7 +63,7 @@ Valeur de l’énumération de l' [**\_ \_ algorithme de hachage CAPICOM**](capi
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Fin de la prise en charge des clients<br/> | Windows Vista<br/>                                                               |
 | Fin de la prise en charge des serveurs<br/> | Windows Server 2008<br/>                                                         |
-| Composant redistribuable<br/>       | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/>       | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>                   | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

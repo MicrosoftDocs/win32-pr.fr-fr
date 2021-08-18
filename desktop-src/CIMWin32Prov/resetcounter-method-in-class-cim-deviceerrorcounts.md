@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 386547362f5a7aa52bddfbf9df3af01949aecbdd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b36a525be507945113120fc2bdb0084b0a6b1a076101b5e4ab69445146479d1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588259"
 ---
 # <a name="resetcounter-method-of-the-cim_deviceerrorcounts-class"></a>Méthode ResetCounter de la \_ classe CIM DeviceErrorCounts
 
@@ -100,7 +100,7 @@ Compteur d’erreurs à réinitialiser.
 
 Retourne 0 (zéro) en cas de réussite, 1 (un) s’il n’est pas pris en charge et toute autre valeur si une erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

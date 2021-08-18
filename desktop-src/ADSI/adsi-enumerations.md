@@ -8,12 +8,12 @@ keywords:
 - Énumérations ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 459aa59bc0f7907f59a4cd5a7e5fcb4f1b2630d8
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: c10d5aed5688e7128a64a32dee2f83efa22ab5bf292231517026299ccb592886
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "104030887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023907"
 ---
 # <a name="adsi-enumerations"></a>Énumérations ADSI
 
@@ -56,11 +56,11 @@ Les interfaces ADSI (Active Directory Service Interfaces) définissent et utilis
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Étant donné que les applications Visual Basic Scripting Edition ne peuvent pas lire les données d’une bibliothèque de types, les applications VBScript ne peuvent pas reconnaître les constantes symboliques comme défini dans ces énumérations. Utilisez plutôt les constantes numériques pour définir les indicateurs appropriés dans une application VBScript. Pour utiliser les constantes symboliques comme bonne pratique de programmation, écrivez des déclarations explicites de telles constantes, comme cela est fait ici dans les applications VBScript.
+étant donné que les applications Visual Basic scripting Edition ne peuvent pas lire les données d’une bibliothèque de types, les applications VBScript ne peuvent pas reconnaître les constantes symboliques telles qu’elles sont définies dans ces énumérations. Utilisez plutôt les constantes numériques pour définir les indicateurs appropriés dans une application VBScript. Pour utiliser les constantes symboliques comme bonne pratique de programmation, écrivez des déclarations explicites de telles constantes, comme cela est fait ici dans les applications VBScript.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -72,9 +72,9 @@ Les interfaces ADSI (Active Directory Service Interfaces) définissent et utilis
 [**IADsPathname :: Set**](/windows/desktop/api/Iads/nf-iads-iadspathname-set)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

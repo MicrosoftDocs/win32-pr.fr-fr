@@ -4,12 +4,12 @@ ms.assetid: 6faeb1e3-ea6e-4cb1-a1e6-2a9a81b4c0c7
 title: Mappage direct des texels à des pixels (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f86e9d05acff402128ddb83fc97898ff6a21d7c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7294b88fb8b672aea980dbb23cb4e7c5bbd2bfdbf4d33a5078a09dbfa3084d0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988261"
 ---
 # <a name="directly-mapping-texels-to-pixels-direct3d-9"></a>Mappage direct des texels à des pixels (Direct3D 9)
 

@@ -1,24 +1,24 @@
 ---
 title: Recherche de groupes par portée ou par type dans un domaine
-description: Dans les domaines Windows 2000, il existe une seule classe appelée groupe pour toutes les étendues de groupe (domaine local, global, universel) et types (sécurité, distribution).
+description: dans Windows domaines 2000, il existe une seule classe appelée groupe pour toutes les étendues de groupe (domaine Local, Global, universel) et types (sécurité, distribution).
 ms.assetid: e32629d9-aa62-4953-aa49-43af726b7deb
 ms.tgt_platform: multiple
 keywords:
 - Recherche de groupes par étendue ou type dans un domaine AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ee9aae5e2c7be7b9cba590f9bc80f0517bca918
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 84d424ce21912aa1e7fa7104099fc8359a5a1c80beeae1fc143aa0bd4aea71d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024947"
 ---
 # <a name="searching-for-groups-by-scope-or-type-in-a-domain"></a>Recherche de groupes par portée ou par type dans un domaine
 
-Dans les domaines Windows 2000, il existe une seule classe appelée [**groupe**](/windows/desktop/ADSchema/c-group) pour toutes les étendues de groupe (domaine local, global, universel) et types (sécurité, distribution). L’attribut [**GroupType**](/windows/desktop/ADSchema/a-grouptype) de l’objet Group spécifie le type de groupe et l’étendue.
+dans Windows domaines 2000, il existe une seule classe appelée [**groupe**](/windows/desktop/ADSchema/c-group) pour toutes les étendues de groupe (domaine Local, Global, universel) et types (sécurité, distribution). L’attribut [**GroupType**](/windows/desktop/ADSchema/a-grouptype) de l’objet Group spécifie le type de groupe et l’étendue.
 
-Pour utiliser le type ou l’étendue pour rechercher des groupes sur les domaines Windows 2000, utilisez un filtre qui contient une règle de correspondance pour l’attribut [**GroupType**](/windows/desktop/ADSchema/a-grouptype) . Pour plus d’informations sur les règles de correspondance, consultez [syntaxe de filtre de recherche](/windows/desktop/ADSI/search-filter-syntax).
+pour utiliser le type ou l’étendue pour rechercher des groupes sur Windows domaines 2000, utilisez un filtre qui contient une règle de correspondance pour l’attribut [**groupType**](/windows/desktop/ADSchema/a-grouptype) . Pour plus d’informations sur les règles de correspondance, consultez [syntaxe de filtre de recherche](/windows/desktop/ADSI/search-filter-syntax).
 
 Pour plus d’informations et pour obtenir un exemple de code qui montre comment rechercher des groupes dans un domaine, consultez l' [exemple de code pour rechercher des groupes dans un domaine](example-code-for-performing-a-query-in-a-domain.md).
 
@@ -44,6 +44,6 @@ La chaîne de requête suivante recherche les groupes de distribution universels
 
 
 
- 
+ 
 
- 
+ 

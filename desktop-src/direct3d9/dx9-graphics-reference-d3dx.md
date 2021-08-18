@@ -4,17 +4,17 @@ ms.assetid: 6e4d48bb-d17a-44df-9a4f-c65ce1eaa8be
 title: Informations de référence sur D3DX (graphiques Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb2ecb6df8a62651ce317bb1bd025db4502fd04a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4a75076152911d1208bdc5edda6bec5c8eb70fed361f00c982afa5907feee61d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988169"
 ---
 # <a name="d3dx-reference-direct3d-9-graphics"></a>Informations de référence sur D3DX (graphiques Direct3D 9)
 
 > [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+> la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 
  
 

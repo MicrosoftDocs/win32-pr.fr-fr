@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c21f073b74d1ab7dac09ddd8bfb3d6be543e122a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d19348029a0c298e43c1018cce4b7ab7021fe7a0bcdb7d21ed66a515a983b496
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987949"
 ---
 # <a name="id3dxanimationcontrollergetanimationset-method"></a>ID3DXAnimationController :: GetAnimationSet, méthode
 
@@ -65,7 +65,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur suivante est retournée : D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le contrôleur d’animation contient un tableau d’ensembles d’animations. Cette méthode retourne l’une d’entre elles à l’index donné.
 

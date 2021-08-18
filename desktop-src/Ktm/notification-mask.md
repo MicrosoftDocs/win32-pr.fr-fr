@@ -4,12 +4,12 @@ ms.assetid: 65db8ba5-193c-439b-8e8c-6cb4a9bd4efd
 title: NOTIFICATION_MASK (KtmTypes. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3650c10f619cf45db34d9172476261838897a5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c17391d2b406b3f7a3ee9a3a868bc1b6734050c787fdbb432785e5be0b917468
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146542"
 ---
 # <a name="notification_mask"></a>masque de NOTIFICATION \_
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1d8d1be33299354e77ef92d885bb3b092cccfb6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5d08be3ce14074c126a35272ede1b670121634f75d0b3d6cfb0db34e4f305760
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067279"
 ---
 # <a name="first_is-attribute"></a>First \_ est l’attribut
 
@@ -38,7 +38,7 @@ Spécifie une ou plusieurs expressions en langage C. Chaque expression prend la 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le **\[ premier \_ est \]** un attribut n’est pas présent, ou si l’index spécifié est un nombre négatif, l’élément de tableau zéro est le premier élément transmis.
 
@@ -100,6 +100,6 @@ HRESULT Proc1(
 [**chaîne**](string.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

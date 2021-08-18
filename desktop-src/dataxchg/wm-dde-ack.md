@@ -1,9 +1,9 @@
 ---
 title: Message WM_DDE_ACK (DDE. h)
-description: 'Le \_ \_ message d’accusé de réception DDE DDE avertit une application échange dynamique de données (DDE) de la réception et du traitement des messages suivants : WM \_ DDE \_ en attente, \_ exécution DDE WM \_ , \_ données DDE WM \_ , \_ notification DDE WM, notification DDE non- \_ \_ \_ notification, \_ lancement DDE WM \_ ou \_ requête DDE WM \_ (dans certains cas). Pour poster ce message, appelez la fonction PostMessage avec les paramètres suivants.'
+description: 'le \_ \_ message d’accusé de réception dde dde avertit une application échange dynamique de données (DDE) de la réception et du traitement des messages suivants : wm \_ dde \_ en attente, \_ exécution dde wm \_ , \_ données dde wm \_ , \_ notification dde wm, notification dde non- \_ \_ \_ notification, \_ lancement dde wm \_ ou \_ requête dde wm \_ (dans certains cas). Pour poster ce message, appelez la fonction PostMessage avec les paramètres suivants.'
 ms.assetid: aca47dbf-e1f2-4725-8364-0aa7fcd98bd9
 keywords:
-- WM_DDE_ACK l’échange de données de message
+- WM_DDE_ACK des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a407fc6cad7077586539f119dd65be59a507cacd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf1aad39115e1bdb68208a9ccbb0d83eea934ef2ff8c6521a0602e081c7ed811
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636239"
 ---
 # <a name="wm_dde_ack-message"></a>Message d’accusé de réception DDE de WM \_ \_
 
-Le message d’accusé de réception **\_ DDE \_ DDE** notifie une application échange dynamique de données (DDE) de la réception et du traitement des messages suivants : [**WM \_ DDE \_**](wm-dde-poke.md)en attente, WM [**\_ DDE \_ Execute**](wm-dde-execute.md), WM DDE [**\_ \_ Data**](wm-dde-data.md), [**WM \_ DDE \_ readvit**](wm-dde-advise.md), [**WM \_ DDE \_ Unadvise**](wm-dde-unadvise.md), [**WM \_ DDE \_ initiate**](wm-dde-initiate.md)ou [**WM \_ DDE \_ Request**](wm-dde-request.md) (dans certains cas).
+le message d’accusé de réception **\_ dde \_ dde** notifie une application échange dynamique de données (DDE) de la réception et du traitement des messages suivants : [**wm \_ dde \_**](wm-dde-poke.md)en attente, wm [**\_ dde \_ execute**](wm-dde-execute.md), wm dde [**\_ \_ Data**](wm-dde-data.md), [**wm \_ dde \_ readvit**](wm-dde-advise.md), [**wm \_ dde \_ unadvise**](wm-dde-unadvise.md), [**wm \_ dde \_ INITIATE**](wm-dde-initiate.md)ou [**wm \_ dde \_ REQUEST**](wm-dde-request.md) (dans certains cas).
 
 Pour poster ce message, appelez la fonction [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) avec les paramètres suivants.
 
@@ -60,7 +60,7 @@ Lors de la réponse à tous les autres messages, le mot de poids faible spécifi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="posting"></a>Publication
 
@@ -90,7 +90,7 @@ L’application qui reçoit un message **d' \_ \_ accusé** de réception DDE de
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>DDE. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Dde. h (inclure Windows. h)</dt> </dl> |
 
 
 

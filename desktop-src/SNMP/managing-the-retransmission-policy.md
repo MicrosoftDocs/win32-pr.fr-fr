@@ -4,12 +4,12 @@ description: L’application WinSNMP peut demander que l’implémentation de l�
 ms.assetid: 1f1a9589-3566-4d90-ac4d-7acf69f34676
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f2e47d983f8da62ccb8ffbe9c20b35c71bfbb70
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 63737f8cb4a0fcdb8c6e3824d07cbc7c592c1f7e9813e8751197fcd1d64ad786
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009427"
 ---
 # <a name="managing-the-retransmission-policy"></a>Gestion de la stratégie de retransmission
 
@@ -26,7 +26,7 @@ L’implémentation identifie le mode de retransmission par défaut dans une val
 
 
 
- 
+ 
 
 Une application WinSNMP peut récupérer à tout moment le mode de retransmission en vigueur pour l’implémentation en appelant la fonction [**SnmpGetRetransmitMode**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpgetretransmitmode) . L’API WinSNMP fournit d’autres [fonctions de base de données](winsnmp-functions.md) qui simplifient la gestion de la stratégie de retransmission.
 
@@ -38,9 +38,9 @@ Une application WinSNMP peut récupérer à tout moment le mode de retransmissio
 
 L’application peut exécuter sa propre stratégie de retransmission. Dans ce cas, l’exécution peut ou non reposer sur les valeurs de la base de données.
 
- 
+ 
 
- 
+ 
 
 
 

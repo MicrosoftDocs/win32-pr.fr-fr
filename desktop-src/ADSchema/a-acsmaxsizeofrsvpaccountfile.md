@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65bb87a2998e8ba27fda7123dd278a4f38510643
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 01fac254ac423233798c67b26e3a2c7f9097e60b31505246e30093ac5cf2fbbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103745324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022867"
 ---
 # <a name="acs-max-size-of-rsvp-account-file-attribute"></a>ACS-Max-size-of-RSVP-attribut de fichier de compte
 
@@ -36,7 +36,7 @@ Taille maximale, en octets, d’un fichier de compte RSVP.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.902               |
 | System-ID-GUID    | f0722311-aef5-11d1-bdcf-0000f80367c1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Taille maximale, en octets, d’un fichier de compte RSVP.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

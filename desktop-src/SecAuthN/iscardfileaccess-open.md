@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: d1b68c004d4de308b641a1c4cb187312150f4d2d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d830ce4238980fa2df56cbd412b929a0071cc759168b3320d809f17c495c3c49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007997"
 ---
 # <a name="iscardfileaccessopen-method"></a>ISCardFileAccess :: Open, méthode
 
-\[La méthode **Open** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section relative à la configuration requise. Il n’est pas disponible pour une utilisation dans Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
+\[La méthode **Open** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section relative à la configuration requise. elle n’est pas disponible pour une utilisation dans Windows server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
 
 La méthode **Open** ouvre le fichier spécifié pour une utilisation ultérieure.
 
@@ -92,7 +92,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour fermer un fichier, appelez [**Close**](iscardfileaccess-close.md).
 
@@ -106,8 +106,8 @@ Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                       |
 
@@ -117,7 +117,7 @@ Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner
 
 <dl> <dt>
 
-[**Fermer**](iscardfileaccess-close.md)
+[**Plus**](iscardfileaccess-close.md)
 </dt> <dt>
 
 [**ISCardFileAccess**](iscardfileaccess.md)

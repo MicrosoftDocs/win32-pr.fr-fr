@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Core.h
-ms.openlocfilehash: 38236a48cdd5197f7f19ef9be3f6fc0f1faca72c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9300eb74027d25562dabb9a596face10105110d1750b359bcaae9ab6b2b83084
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106520342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634699"
 ---
 # <a name="d3dx10createdevice-function"></a>D3DX10CreateDevice fonction)
 
@@ -70,7 +70,7 @@ Handle d’un module chargé qui implémente un pilote logiciel (tel que D3D10Re
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
@@ -94,7 +94,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Cette fonction retourne l’un des [codes de retour Direct3D 10](d3d10-graphics-reference-returnvalues.md)suivants.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction tente de créer le meilleur appareil pour le matériel. Tout d’abord, la fonction tente de créer un appareil 10,1. Si un appareil 10,1 ne peut pas être créé, la fonction tente de créer un appareil 10,0. Si aucun appareil n’est correctement créé, la fonction retourne E \_ Fail.
 
@@ -104,7 +104,7 @@ Si votre application doit créer uniquement un appareil 10,1 ou un appareil 10,0
 -   Utilisez la fonction [**D3D10CreateDevice1**](/windows/desktop/api/D3D10_1/nf-d3d10_1-d3d10createdevice1) pour créer un appareil Direct3D 10,1 uniquement.
 -   Utilisez la fonction [**D3DX10GetFeatureLevel1**](d3dx10getfeaturelevel1.md) pour récupérer un pointeur d’interface [**ID3D10Device1**](/windows/desktop/api/D3D10_1/nn-d3d10_1-id3d10device1) à partir d’un pointeur d’interface [**ID3D10Device**](/windows/desktop/api/D3D10/nn-d3d10-id3d10device) .
 
-Un périphérique Direct3D 10,1 peut uniquement être créé sur des ordinateurs exécutant Windows Vista Service Pack 1 ou version ultérieure, et avec un matériel compatible Direct3D 10,1 installé. Toutefois, il est légal d’appeler cette fonction sur des ordinateurs exécutant n’importe quelle version de Windows sur laquelle la DLL D3DX10 est installée.
+un périphérique direct3d 10,1 peut être créé uniquement sur des ordinateurs exécutant Windows Vista Service Pack 1 ou version ultérieure, et avec un matériel compatible Direct3D 10,1 installé. toutefois, il est légal d’appeler cette fonction sur les ordinateurs exécutant n’importe quelle version de Windows sur laquelle la DLL D3DX10 est installée.
 
 ## <a name="requirements"></a>Configuration requise
 

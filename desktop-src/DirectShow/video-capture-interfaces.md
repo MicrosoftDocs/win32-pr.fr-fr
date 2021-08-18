@@ -4,16 +4,16 @@ ms.assetid: a7ec6607-d6fe-4cf4-b3f2-8636c4d15982
 title: Interfaces de capture vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7c88ab86833a3570789dee311b36d49f382c9cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bfee9807a94f381fef3a294dcd405de6fe8b67fafef3ace562309fe5e10d2ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633059"
 ---
 # <a name="video-capture-interfaces"></a>Interfaces de capture vidéo
 
-Ces interfaces prennent en charge la capture vidéo, à l’aide d’appareils Microsoft® Windows® Driver Model (WDM) ou de Microsoft® Video pour les appareils Windows® (VFW).
+ces interfaces prennent en charge la capture vidéo, à l’aide des périphériques WDM (microsoft® Windows® Driver Model) ou des appareils microsoft® video pour Windows (VFW) hérités.
 
 
 

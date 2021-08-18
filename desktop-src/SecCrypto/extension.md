@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: a048cd5f29825c2d96a9d924473159e93d3e0be1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e311c6dc69f40d32163c70cabf6a38780a989764bd77f4023c61ede5c1ba713c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006957"
 ---
 # <a name="extension-object"></a>Objet d’extension
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt la [**classe X509Extension**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1) dans l’espace de noms [**System. Security. Cryptography. X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) .\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt la [**classe X509Extension**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1) dans l’espace de noms [**System. Security. Cryptography. X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) .\]
 
 L’objet d' **extension** représente une extension de certificat unique.
 
@@ -56,7 +56,7 @@ L’objet d' **extension** possède ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Impossible de créer l’objet d' **extension** .
 
@@ -70,7 +70,7 @@ L’objet d' **extension** est utilisé par l’objet de collection d' [**Extens
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Fin de la prise en charge des clients<br/> | Windows Vista<br/>                                                               |
 | Fin de la prise en charge des serveurs<br/> | Windows Server 2008<br/>                                                         |
-| Composant redistribuable<br/>       | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/>       | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | En-tête<br/>                | <dl> <dt>Mmcobj. h</dt> </dl>    |
 | DLL<br/>                   | <dl> <dt>Capicom.dll</dt> </dl> |
 

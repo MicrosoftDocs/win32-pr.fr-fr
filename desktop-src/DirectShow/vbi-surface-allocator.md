@@ -4,16 +4,16 @@ ms.assetid: 51c73a25-1112-4fb4-a45f-967c6a1b5c55
 title: Allocateur de surface VBI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5849b23b8f21a7b49e477060386628ba4c19b2e5
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 2c586c3ef135722ac259813d918dc4054617b8ae6bfb987083f0a2ceaa986067
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071983"
 ---
 # <a name="vbi-surface-allocator"></a>Allocateur de surface VBI
 
-L’allocateur de surface VBI contrôle l’allocation de mémoires tampons VBI dans des graphiques de télévision analogiques avec des scénarios de capture de port vidéo matériel. Avec les appareils tels que le décodeur Bt829, la mémoire tampon de trame peut contenir plusieurs mémoires tampons de capture VBI accessibles via un mécanisme matériel propriétaire connu de manière générique comme un port vidéo. Le filtre allocateur de surface VBI se connecte en aval du filtre de capture et n’a aucune broche de sortie. Le filtre fonctionne en étroite collaboration avec le [mélangeur de superposition](overlay-mixer-filter.md) (par le biais de DirectDraw) pour effectuer des opérations coordonnées sur le port vidéo matériel, en utilisant la même mémoire tampon de trame SVGA limitée.
+L’allocateur de surface VBI contrôle l’allocation de mémoires tampons VBI dans des graphiques de télévision analogiques avec des scénarios de capture de port vidéo matériel. Avec les appareils tels que le décodeur Bt829, la mémoire tampon de trame peut contenir plusieurs mémoires tampons de capture VBI accessibles via un mécanisme matériel propriétaire connu de manière générique comme un port vidéo. Le filtre allocateur de surface VBI se connecte en aval du filtre de capture et n’a aucune broche de sortie. le filtre fonctionne en étroite collaboration avec la [superposition Mixer](overlay-mixer-filter.md) (par le biais de DirectDraw) pour effectuer des opérations coordonnées sur le port vidéo matériel, en utilisant la même mémoire tampon de trame SVGA limitée.
 
 
 
@@ -38,7 +38,7 @@ L’allocateur de surface VBI contrôle l’allocation de mémoires tampons VBI 
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  

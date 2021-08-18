@@ -1,19 +1,19 @@
 ---
-description: Liste alphabétique des interfaces DirectShow
+description: liste alphabétique des Interfaces DirectShow
 ms.assetid: 9c7f56f4-92af-40c6-8124-f2715ac3f6d7
-title: Liste alphabétique des interfaces DirectShow
+title: liste alphabétique des Interfaces DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de76bd17dfb8be99f8cb3554015d6860785fb148
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bd37ad1d6b510f61964eb9f210ab9481560b2d3e2f522b8fc38da10b7582a991
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074823"
 ---
-# <a name="alphabetical-list-of-directshow-interfaces"></a>Liste alphabétique des interfaces DirectShow
+# <a name="alphabetical-list-of-directshow-interfaces"></a>liste alphabétique des Interfaces DirectShow
 
-Voici une liste alphabétique des interfaces DirectShow.
+voici une liste alphabétique des interfaces DirectShow.
 
 
 
@@ -55,7 +55,7 @@ Voici une liste alphabétique des interfaces DirectShow.
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamchannelinfo"><strong>IAMChannelInfo</strong></a></td>
-<td>Obtient et définit les informations de canal pour les fichiers de station Windows Media (. NSC).</td>
+<td>obtient et définit les informations de canal pour Windows fichiers de Station multimédia (. nsc).</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamclockadjust"><strong>IAMClockAdjust</strong></a></td>
@@ -79,7 +79,7 @@ Voici une liste alphabétique des interfaces DirectShow.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamdeviceremoval"><strong>IAMDeviceRemoval</strong></a></td>
-<td>Permet au gestionnaire de graphes de filtre de s’inscrire pour les événements de suppression de périphérique pour un appareil de capture.</td>
+<td>permet au gestionnaire de Graph de filtre de s’inscrire pour les événements de suppression d’appareil pour un appareil de capture.</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound"><strong>IAMDirectSound</strong></a></td>
@@ -99,7 +99,7 @@ Voici une liste alphabétique des interfaces DirectShow.
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamextendedseeking"><strong>IAMExtendedSeeking</strong></a></td>
-<td>Recherche un marqueur dans un flux Windows Media ou modifie la vitesse de lecture d’un fichier Windows Media.</td>
+<td>recherche un marqueur dans un flux de média Windows ou modifie la vitesse de lecture d’un fichier multimédia Windows.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltergraphcallback"><strong>IAMFilterGraphCallback</strong></a></td>
@@ -131,19 +131,19 @@ Voici une liste alphabétique des interfaces DirectShow.
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowconfig"><strong>IAMNetShowConfig</strong></a></td>
-<td>Configure le filtre source du lecteur Windows Media 6,4 hérité.</td>
+<td>configure le filtre source hérité Lecteur Windows Media 6,4.</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowexprops"><strong>IAMNetShowExProps</strong></a></td>
-<td>Configure le filtre source du lecteur Windows Media 6,4 hérité.</td>
+<td>configure le filtre source hérité Lecteur Windows Media 6,4.</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowpreroll"><strong>IAMNetShowPreroll</strong></a></td>
-<td>Définit et récupère les paramètres de préroll pour le filtre source 6,4 du lecteur Windows Media hérité.</td>
+<td>définit et récupère les paramètres de préroll pour le filtre source hérité Lecteur Windows Media 6,4.</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamnetworkstatus"><strong>IAMNetworkStatus</strong></a></td>
-<td>Signale la qualité de la connexion réseau pour le filtre source 6,4 du lecteur Windows Media hérité.</td>
+<td>signale la qualité de la connexion réseau pour le filtre source hérité Lecteur Windows Media 6,4.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamopenprogress"><strong>IAMOpenProgress</strong></a></td>
@@ -167,7 +167,7 @@ Voici une liste alphabétique des interfaces DirectShow.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Control/nn-control-iamstats"><strong>IAMStats</strong></a></td>
-<td>Récupère les données de performances du gestionnaire de graphes de filtre.</td>
+<td>récupère les données de performances à partir du gestionnaire de Graph de filtre.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig"><strong>IAMStreamConfig</strong></a></td>
@@ -199,11 +199,11 @@ Voici une liste alphabétique des interfaces DirectShow.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamvfwcapturedialogs"><strong>IAMVfwCaptureDialogs</strong></a></td>
-<td>Affiche une boîte de dialogue fournie par un pilote de capture Video for Windows (VFW).</td>
+<td>affiche une boîte de dialogue fournie par un pilote de capture Video for Windows (VFW).</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamvfwcompressdialogs"><strong>IAMVfwCompressDialogs</strong></a></td>
-<td>Affiche une boîte de dialogue fournie par un codec Video for Windows (VFW).</td>
+<td>affiche une boîte de dialogue fournie par un codec Video for Windows (VFW).</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator"><strong>IAMVideoAccelerator</strong></a></td>
@@ -223,7 +223,7 @@ Voici une liste alphabétique des interfaces DirectShow.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamvideodecimationproperties"><strong>IAMVideoDecimationProperties</strong></a></td>
-<td>Contrôle la manière dont le mélangeur de superposition effectue la décimalisation vidéo.</td>
+<td>contrôle la façon dont la superposition Mixer effectue la décimalisation vidéo.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamvideoprocamp"><strong>IAMVideoProcAmp</strong></a></td>
@@ -247,7 +247,7 @@ Voici une liste alphabétique des interfaces DirectShow.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></td>
-<td>Exposé par les filtres. Il s’agit de l’interface principale pour tous les filtres DirectShow.</td>
+<td>Exposé par les filtres. il s’agit de l’interface principale pour tous les filtres de DirectShow.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Control/nn-control-ibasicaudio"><strong>IBasicAudio</strong></a></td>
@@ -315,7 +315,7 @@ Voici une liste alphabétique des interfaces DirectShow.
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasample"><strong>IDirectDrawMediaSample</strong></a></td>
-<td>Donne accès aux surfaces DirectDraw allouées par le filtre de <a href="overlay-mixer-filter.md">mixage de superposition</a> .</td>
+<td>donne accès aux surfaces DirectDraw allouées par le filtre de <a href="overlay-mixer-filter.md">Mixer de superposition</a> .</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasampleallocator"><strong>IDirectDrawMediaSampleAllocator</strong></a></td>
@@ -327,11 +327,11 @@ Voici une liste alphabétique des interfaces DirectShow.
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/dmodshow/nn-dmodshow-idmowrapperfilter"><strong>IDMOWrapperFilter</strong></a></td>
-<td>Permet à une application d’utiliser un objet de média DirectX (DMO) à l’intérieur d’un graphique de filtre.</td>
+<td>permet à une application d’utiliser un objet multimédia DirectX (DMO) à l’intérieur d’un graphique de filtre.</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-idshowplugin"><strong>IDShowPlugin</strong></a></td>
-<td>Permet au filtre de source Windows Media de communiquer avec le plug-in du lecteur Windows Media 6,4 pour Netscape Navigator.</td>
+<td>active le filtre de Source multimédia Windows pour communiquer avec le Plug-in Lecteur Windows Media 6,4 pour Netscape Navigator.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-idvdcmd"><strong>IDvdCmd</strong></a></td>
@@ -431,7 +431,7 @@ Voici une liste alphabétique des interfaces DirectShow.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-igraphbuilder"><strong>IGraphBuilder</strong></a></td>
-<td>Étend l’interface <a href="/windows/desktop/api/Strmif/nn-strmif-ifiltergraph"><strong>IFilterGraph</strong></a> . Il s’agit de l’interface principale du gestionnaire de graphique de filtre.</td>
+<td>Étend l’interface <a href="/windows/desktop/api/Strmif/nn-strmif-ifiltergraph"><strong>IFilterGraph</strong></a> . il s’agit de l’interface principale du gestionnaire de Graph de filtre.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-igraphconfig"><strong>IGraphConfig</strong></a></td>
@@ -479,7 +479,7 @@ Voici une liste alphabétique des interfaces DirectShow.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-imediaeventsink"><strong>IMediaEventSink</strong></a></td>
-<td>Notifie le gestionnaire de graphes de filtres des événements qui se produisent dans le graphique de filtre.</td>
+<td>notifie le gestionnaire de Graph des événements qui se produisent dans le graphique de filtre.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-imediafilter"><strong>IMediaFilter</strong></a></td>
@@ -537,7 +537,7 @@ Action déconseillée.
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx"><strong>IMixerOCX</strong></a></td>
-<td>Exposé par le filtre de mixage de superposition.</td>
+<td>exposé par le filtre de Mixer de superposition.</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify"><strong>IMixerOCXNotify</strong></a></td>
@@ -545,7 +545,7 @@ Action déconseillée.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Mpconfig/nn-mpconfig-imixerpinconfig"><strong>IMixerPinConfig</strong></a></td>
-<td>Manipule les flux vidéo sur le filtre de mixage de superposition.</td>
+<td>manipule les flux vidéo sur le filtre de Mixer de recouvrement.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Mpconfig/nn-mpconfig-imixerpinconfig2"><strong>IMixerPinConfig2</strong></a></td>
@@ -617,7 +617,7 @@ Action déconseillée.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iregisterserviceprovider"><strong>IRegisterServiceProvider</strong></a></td>
-<td>Inscrit un objet en tant que service à l’aide du gestionnaire de graphique de filtre.</td>
+<td>inscrit un objet en tant que service avec le gestionnaire de Graph de filtre.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iresourceconsumer"><strong>IResourceConsumer</strong></a></td>
@@ -781,7 +781,7 @@ Action déconseillée.
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig"><strong>IVPConfig</strong></a></td>
-<td>Permet à un port vidéo de communiquer avec le filtre de mixage de superposition.</td>
+<td>permet à un port vidéo de communiquer avec la superposition Mixer filtre.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-ivpmanager"><strong>IVPManager</strong></a></td>
@@ -789,7 +789,7 @@ Action déconseillée.
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>IVPNotify</strong></a></td>
-<td>Active le mélangeur de superposition pour contrôler les propriétés d’un périphérique matériel qui utilise un port vidéo.</td>
+<td>active le Mixer de superposition pour contrôler les propriétés d’un périphérique matériel qui utilise un port vidéo.</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify2"><strong>IVPNotify2</strong></a></td>
@@ -797,7 +797,7 @@ Action déconseillée.
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/amxmlgraphbuilder/nn-amxmlgraphbuilder-ixmlgraphbuilder"><strong>IXMLGraphBuilder</strong></a></td>
-<td>Rend persistante un graphique de filtre DirectShow à l’aide d’un format de fichier XML.
+<td>rend persistant un graphique de filtre DirectShow à l’aide d’un format de fichier XML.
 <blockquote>
 [!Note]<br />
 Action déconseillée.

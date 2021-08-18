@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 727744445e952fa0135feff944c768aaba1aba36
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 69847ff648d11f13c87066f765fe92de7e92d831fd137a87bf1b61ebeafeed85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990569"
 ---
 # <a name="d3dxvec3unprojectarray-function-d3dx10mathh"></a>D3DXVec3UnprojectArray, fonction (D3DX10Math. h)
 
@@ -128,13 +128,13 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointeur vers une structure D3DXVECTOR3 qui est le tableau projeté de l’espace à l’écran jusqu’à l’espace de l’objet.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction [**D3DXVec3Unproject**](d3d10-d3dxvec3unproject.md) peut être utilisée comme paramètre pour une autre fonction.
 

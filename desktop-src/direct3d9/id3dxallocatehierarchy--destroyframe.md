@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4a394501b9967d3f7cb6d3f6b2f30db168438278
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f9e827a2bc53c5b87478cceadec5f56e5d41c4ecfd76a0dddf1bac0ee964128
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104394243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987969"
 ---
 # <a name="id3dxallocatehierarchydestroyframe-method"></a>ID3DXAllocateHierarchy ::D méthode estroyFrame
 

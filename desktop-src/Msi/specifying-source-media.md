@@ -1,19 +1,19 @@
 ---
-description: La table des médias décrit l’ensemble des disques qui composent le média source pour l’installation. Consultez le groupe tables de fichiers. Dans cette section, vous allez ajouter des informations sur le média source de l’exemple du bloc-notes.
+description: La table des médias décrit l’ensemble des disques qui composent le média source pour l’installation. Consultez le groupe tables de fichiers. dans cette section, vous allez ajouter des informations sur le média source pour l’exemple Bloc-notes.
 ms.assetid: 883b3e8d-0a35-40e7-8bf1-704c5b4f0da1
 title: Spécification du média source
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eee5a043e9300f766ecf637ab767377822ad7efa
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 62d486098e28576ad85cd25e3e53af00e5e7111fdf923154b50c0481d2eaa224
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103953452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627729"
 ---
 # <a name="specifying-source-media"></a>Spécification du média source
 
-La table des médias décrit l’ensemble des disques qui composent le média source pour l’installation. Consultez le [groupe tables de fichiers](file-tables-group.md). Dans cette section, vous allez ajouter des informations sur le média source de l’exemple du bloc-notes.
+La table des médias décrit l’ensemble des disques qui composent le média source pour l’installation. Consultez le [groupe tables de fichiers](file-tables-group.md). dans cette section, vous allez ajouter des informations sur le média source pour l’exemple Bloc-notes.
 
 Utilisez votre éditeur de base de données pour ouvrir MNP2000.msi et entrez les données suivantes dans la table de médias vide.
 

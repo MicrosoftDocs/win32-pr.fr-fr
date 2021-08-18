@@ -9,12 +9,12 @@ keywords:
 - interface ADSI du cache de propriétés, utilisant des interfaces IADsProperty pour accéder au cache de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b48cd8675f4c439e3d3597e2d4fa59dac57e0896
-ms.sourcegitcommit: 460af18ea55f4b12d47d5b8d4b883896e21adf00
+ms.openlocfilehash: 9a68cd77a10d6631b52e48ed19650dd5cd18dff0ee59ba2332db73b7fce1a8bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "103940593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024117"
 ---
 # <a name="accessing-property-cache-with-iadsproperty-interfaces"></a>Accès au cache des propriétés avec des interfaces IADsProperty
 
@@ -29,9 +29,9 @@ Les interfaces [**IADsProperty**](/windows/desktop/api/Iads/nn-iads-iadsproperty
 
 Pour plus d’informations et pour obtenir un exemple de code qui peut être utilisé pour implémenter ces interfaces, consultez l' [exemple de code permettant d’utiliser des interfaces IADsProperty pour accéder au cache de propriétés](example-code-for-using-iadsproperty-interfaces-to-access-the-property-cache.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, attente de réponses asynchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0890b3024a05bb704f7b5a803c4b1e517c65ee21
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ff50357402d96c32444f077d07558c01ed93d0367514e947643a28bf3041f204
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010477"
 ---
 # <a name="waiting-for-the-asynchronous-reply"></a>En attente de la réponse asynchrone
 
@@ -21,16 +21,16 @@ Si le client utilise un événement pour la notification, il appelle généralem
 
 Lorsqu’il utilise l’interrogation pour attendre ses résultats, le programme client entre dans une boucle qui appelle à plusieurs reprises la fonction [**RpcAsyncGetCallStatus**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncgetcallstatus). Il s’agit d’une méthode efficace pour attendre si votre programme client effectue d’autres traitements dans la boucle d’interrogation. Par exemple, il peut préparer des données en petits segments pour un appel de procédure distante asynchrone suivant. Une fois chaque segment terminé, votre client peut interroger l’appel de procédure distante asynchrone en suspens pour déterminer s’il est terminé.
 
-Votre programme client peut fournir un appel de procédure asynchrone (APC), qui est un type de fonction de rappel que la bibliothèque Runtime RPC appellera lorsque l’appel de procédure distante asynchrone se termine. Votre programme client doit être dans un état d’attente averti. Cela signifie généralement que le client appelle une fonction d’API Windows pour se placer dans un État bloqué. Pour plus d’informations, consultez [appels de procédures asynchrones](/windows/desktop/Sync/asynchronous-procedure-calls).
+Votre programme client peut fournir un appel de procédure asynchrone (APC), qui est un type de fonction de rappel que la bibliothèque Runtime RPC appellera lorsque l’appel de procédure distante asynchrone se termine. Votre programme client doit être dans un état d’attente averti. cela signifie généralement que le client appelle une fonction API Windows pour se placer dans un état bloqué. Pour plus d’informations, consultez [appels de procédures asynchrones](/windows/desktop/Sync/asynchronous-procedure-calls).
 
 > [!Note]  
 > La notification d’achèvement ne sera pas retournée à partir d’une routine RPC asynchrone si une exception RPC est levée lors d’un appel asynchrone.
 
- 
+ 
 
 Si votre programme client utilise un port de terminaison d’e/s pour recevoir la notification d’achèvement, il doit appeler la fonction [**GetQueuedCompletionStatus**](/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus) . Dans ce cas, il peut attendre indéfiniment une réponse ou continuer à effectuer d’autres traitements. S’il effectue un autre traitement pendant qu’il attend une réponse, il doit interroger le port de terminaison avec la fonction **GetQueuedCompletionStatus** . Dans ce cas, elle doit généralement définir le *dwMilliseconds* sur zéro. Cela entraîne le retour immédiat de **GetQueuedCompletionStatus** , même si l’appel asynchrone n’est pas terminé.
 
-Les programmes clients peuvent également recevoir des notifications de fin d’exécution par le biais de leurs files d’attente de messages de fenêtre. Dans ce cas, ils traitent simplement le message d’achèvement comme tout message Windows.
+Les programmes clients peuvent également recevoir des notifications de fin d’exécution par le biais de leurs files d’attente de messages de fenêtre. dans ce cas, ils traitent simplement le message d’achèvement comme tout Windows message.
 
 Dans une application multithread, un appel asynchrone peut être annulé par le client uniquement après que le thread à l’origine de l’appel a été retourné avec succès à partir de l’appel. Cela garantit que l’appel n’est pas annulé de manière asynchrone par un autre thread après l’échec d’un appel synchrone. Comme pratique standard, un appel asynchrone qui échoue de façon synchrone ne doit pas être annulé de manière asynchrone. L’application cliente doit observer ce comportement si des appels peuvent être émis et annulés sur des threads différents. De même, après l’annulation de l’appel, le code client doit attendre la notification d’achèvement et terminer l’appel. La fonction [**RpcAsyncCancelCall**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccancelcall) touche simplement la notification d’achèvement. ce n’est pas un substitut pour terminer l’appel.
 
@@ -85,6 +85,6 @@ Dans l’exemple précédent, l’appel à [**GetQueuedCompletionStatus**](/wind
 
 Un piège potentiel se produit lors de l’écriture d’applications multithread. Si un thread appelle un appel de procédure distante et se termine avant de recevoir une notification indiquant que l’envoi est terminé, l’appel de procédure distante peut échouer et le stub client peut fermer la connexion au serveur. Par conséquent, les threads qui appellent une procédure distante ne doivent pas se terminer avant que l’appel soit terminé ou annulé lorsque le comportement n’est pas souhaitable.
 
- 
+ 
 
- 
+ 

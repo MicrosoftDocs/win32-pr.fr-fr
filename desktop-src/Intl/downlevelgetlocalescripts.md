@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - Idndl.dll
-ms.openlocfilehash: f636ab426cd4d50878df93e3e30d69de54d60ac6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02631a605f67f3c27dfcc29c1e660ca24e56b6072d4490ba8ba090ebdd8b9019
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068249"
 ---
 # <a name="downlevelgetlocalescripts-function"></a>DownlevelGetLocaleScripts fonction)
 
 Fournit une liste de scripts pour les paramètres régionaux spécifiés.
 
 > [!Note]  
-> Cette fonction est utilisée uniquement par les applications qui s’exécutent sur des systèmes d’exploitation antérieurs à Windows Vista. Son utilisation requiert le package de téléchargement. Les applications qui s’exécutent uniquement sur Windows Vista et versions ultérieures doivent appeler [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) avec *LCTYPE* défini sur [locale \_ SSCRIPTS](locale-sscripts.md).
+> cette fonction est utilisée uniquement par les applications qui s’exécutent sur des systèmes d’exploitation antérieurs à Windows Vista. Son utilisation requiert le package de téléchargement. les Applications qui s’exécutent uniquement sur Windows Vista et versions ultérieures doivent appeler [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) avec *LCType* défini sur [locale \_ SSCRIPTS](locale-sscripts.md).
 
  
 
@@ -81,7 +81,7 @@ Cette fonction retourne 0 si elle ne fonctionne pas. Pour obtenir des informatio
 -   ERREUR \_ de \_ mémoire tampon insuffisante. La taille de la mémoire tampon fournie n’est pas assez grande ou n’a pas été correctement définie sur **null**.
 -   ERREUR \_ \_ : paramètre non valide. Les valeurs de paramètre ne sont pas valides.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est utile dans le cadre d’une stratégie visant à atténuer les problèmes de sécurité liés aux [noms de domaine internationaux (IDNs)](handling-internationalized-domain-names--idns.md).
 
@@ -109,9 +109,9 @@ Le fichier d’en-tête et la DLL requis font partie du téléchargement des API
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                                                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                                                                        |
-| Composant redistribuable<br/>          | API d’atténuation des IDN (Internationalized Domain Name) Microsoft sur Windows XP (SP2 ou version ultérieure), Windows Server 2003 (SP1 ou version ultérieure) ou Windows Vista<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                                                                                 |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                                                                        |
+| Composant redistribuable<br/>          | api d’atténuation des IDN (internationalized domain Name) Microsoft sur Windows XP (SP2 ou version ultérieure), Windows Server 2003 (SP1 ou version ultérieure) ou Windows Vista<br/> |
 | En-tête<br/>                   | <dl> <dt>Idndl. h</dt> </dl>                                                                          |
 | DLL<br/>                      | <dl> <dt>Idndl.dll</dt> </dl>                                                                        |
 

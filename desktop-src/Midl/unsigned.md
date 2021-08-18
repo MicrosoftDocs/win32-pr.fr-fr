@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 329d638f1b5be97e5b441aa4e84825fe59a4a3f0
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 383a8fc0379ca81abb9ad0a88edab8750661bdfa429e32e7e91d193aa0fd2938
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106545734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146172"
 ---
 # <a name="unsigned-attribute"></a>attribut non signé
 
@@ -45,7 +45,7 @@ Spécifie un identificateur MIDL valide. Les identificateurs MIDL valides se com
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce mot clé est facultatif et peut être utilisé avec l’un des types caractère et entier [**char**](char-idl.md), [**WCHAR \_ t**](wchar-t.md), [**long**](long.md), [**short**](short.md)et [**Small**](small.md). Vous pouvez éventuellement inclure le mot clé [**int**](int.md) après les qualificateurs de type **long**, **short** et **Small**.
 
@@ -85,9 +85,9 @@ Quand vous utilisez le commutateur de compilateur MIDL [**/char**](-char.md), le
 [**WCHAR \_ t**](wchar-t.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

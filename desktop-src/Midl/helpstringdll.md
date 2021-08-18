@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dace4fb9ddc3908ce637cd2d8521a1ab4671d620
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f773ed18e72f184305275ce238ddf0576c81447181a0b7fb420c30341935f5e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067249"
 ---
 # <a name="helpstringdll-attribute"></a>attribut helpstringdll
 
@@ -66,7 +66,7 @@ Une ou plusieurs instructions MIDL qui définissent l’interface de la [**bibli
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez l’attribut **\[ helpstringdll \]** sur une instruction Library pour spécifier, sous la forme d’une chaîne de caractères, le nom de fichier complet d’une bibliothèque de liens dynamiques. Cela permet à un utilisateur d’afficher une description de la DLL avec l’Explorateur d’objets.
 
@@ -88,6 +88,6 @@ Utilisez les fonctions **GetDocumentation2** dans les interfaces **ITypeLib2** e
 [Génération d’une bibliothèque de types avec MIDL](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

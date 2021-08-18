@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 375052e240973f56af32825f74caccf6f9411d75
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aa4e1292f4b5c42515351d89dc7fc039f1f6f29201da72a78e07f447818e0f91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988639"
 ---
 # <a name="d3dxcreatepatchmesh-function"></a>D3DXCreatePatchMesh fonction)
 
@@ -115,7 +115,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode prend une maille de correction d’entrée et la convertit en maillage fractionné. Les maillages de correctifs utilisent des mémoires tampons d’index 16 bits. Par conséquent, les index de [**LockIndexBuffer**](id3dxpatchmesh--lockindexbuffer.md) sont de 16 bits.
 

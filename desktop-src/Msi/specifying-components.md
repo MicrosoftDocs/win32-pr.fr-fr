@@ -1,23 +1,23 @@
 ---
-description: Le Windows Installer installe et supprime les blocs de ressources référencés en tant que composants Windows Installer. Pour plus d’informations, consultez groupe de tables principales et composants et fonctionnalités.
+description: le Windows Installer installe et supprime les blocs de ressources référencés en tant que composants Windows Installer. Pour plus d’informations, consultez groupe de tables principales et composants et fonctionnalités.
 ms.assetid: e51dffed-d1cb-4a12-8615-0c0f612f993b
 title: Spécification des composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c98cb254498236b85ab5c2bc0df3bd32892227b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f2264784d3edaad5b46017e3d337f8abfec66e1b60d18ba54388b03beddb13b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627999"
 ---
 # <a name="specifying-components"></a>Spécification des composants
 
-Le Windows Installer installe et supprime les blocs de ressources référencés en tant que [composants Windows Installer](windows-installer-components.md). Pour plus d’informations, consultez [groupe de tables principales](core-tables-group.md) et [composants et fonctionnalités](components-and-features.md).
+le Windows Installer installe et supprime les blocs de ressources référencés en tant que [composants Windows Installer](windows-installer-components.md). Pour plus d’informations, consultez [groupe de tables principales](core-tables-group.md) et [composants et fonctionnalités](components-and-features.md).
 
-Dans cette section, vous allez ajouter des informations sur les composants utilisés par l’exemple du bloc-notes à la [table des composants](component-table.md) que vous avez créée lors de l' [importation d’une base de données vide](importing-a-blank-database.md). Pour plus d’informations, consultez [Organisation des applications dans des composants](organizing-applications-into-components.md) et définition des composants du programme d' [installation](defining-installer-components.md).
+dans cette section, vous allez ajouter des informations sur les composants utilisés par l’exemple Bloc-notes à la [Table des composants](component-table.md) que vous avez créée lors de l' [importation d’une base de données vide](importing-a-blank-database.md). Pour plus d’informations, consultez [Organisation des applications dans des composants](organizing-applications-into-components.md) et définition des composants du programme d' [installation](defining-installer-components.md).
 
-L’exemple Notepad utilise huit composants pour contrôler les ressources.
+l’exemple Bloc-notes utilise huit composants pour contrôler les ressources.
 
 
 
@@ -30,7 +30,7 @@ L’exemple Notepad utilise huit composants pour contrôler les ressources.
 | Aide      | Help.txt, sHelp                                                                                                       |
 | Janvier   | January.txt, sJanuary                                                                                                 |
 | NewYears  | NewYears.txt, sNewYears                                                                                               |
-| Bloc-notes   | Redpark.exe, Readme.txt, sReadme, sNotepad, **HKEY \_ local \_ machine** \\ **Software** \\ **Microsoft** \\ **Notepad Sample** |
+| Bloc-notes   | Redpark.exe, Readme.txt, sReadme, sNotepad, **HKEY \_ LOCAL \_ MACHINE** \\ **SOFTWARE** \\ **Microsoft** \\ **Bloc-notes Sample** |
 
 
 
@@ -38,7 +38,7 @@ L’exemple Notepad utilise huit composants pour contrôler les ressources.
 
 Chaque composant doit être identifié avec un [GUID](guid.md)d’ID de composant unique. Si vous reproduisez l’exemple, ne réutilisez pas les mêmes GUID d’ID de composant dans le tableau suivant. Utilisez plutôt un utilitaire tel que Guidgen.exe pour générer de nouveaux GUID pour vos composants.
 
-Veillez à utiliser une chaîne GUID cohérente avec le type de données GUID Windows Installer. Pour plus d’informations, consultez [modification du code du composant](changing-the-component-code.md) et [que se passe-t-il si les règles des composants sont rompues ?](what-happens-if-the-component-rules-are-broken.md)
+veillez à utiliser une chaîne guid cohérente avec le type de données guid Windows Installer. Pour plus d’informations, consultez [modification du code du composant](changing-the-component-code.md) et [que se passe-t-il si les règles des composants sont rompues ?](what-happens-if-the-component-rules-are-broken.md)
 
 Utilisez Orca ou un autre éditeur de base de données pour entrer les données suivantes dans la [table des composants](component-table.md) vide de MNP2000.msi. Ne réutilisez pas les GUID indiqués ci-dessous dans la colonne ComponentId de votre exemple.
 

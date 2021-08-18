@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bb72ca9708c3e4edd8f1229d887439ff133d201
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c7e2b1780c095317601ac3ba9cbc8123c46c589871046fda36154e7962b03bea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022957"
 ---
 # <a name="acs-cache-timeout-attribute"></a>Attribut ACS-cache-Timeout
 
@@ -36,7 +36,7 @@ Durée avant l’expiration des objets ACS mis en cache par le service ACS.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.779               |
 | System-ID-GUID    | 1cb355a1-56d0-11d1-a9c6-0000f80367c1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Durée avant l’expiration des objets ACS mis en cache par le service ACS.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

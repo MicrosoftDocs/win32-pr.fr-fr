@@ -10,12 +10,12 @@ keywords:
 - Active Directory, utilisation de, liaison, liaison sans serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 492a1ed115c4b0d9160305eb54b08c24db86abb8
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2d3c88386ae95efdebd031199e135ff4c5d610e402b9cba522256df5eef097e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024927"
 ---
 # <a name="serverless-binding-and-rootdse"></a>Liaison sans serveur et RootDSE
 
@@ -49,6 +49,6 @@ Pour plus d’informations sur les attributs pris en charge par rootDSE, consult
 
 Pour plus d’informations et pour obtenir un exemple de code qui montre comment utiliser une liaison sans serveur et rootDSE, consultez [l’exemple de code permettant d’obtenir le nom unique du domaine](example-code-for-getting-the-distinguished-name-of-the-domain.md).
 
- 
+ 
 
- 
+ 
