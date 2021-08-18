@@ -3,19 +3,19 @@ title: Informations de référence sur les pilotes installables
 description: Informations de référence sur les pilotes installables
 ms.assetid: 869b92f1-2711-4198-9911-3df1ebc58d5f
 keywords:
-- Windows Multimedia, informations de référence sur les pilotes installables
+- Windows multimédia, informations de référence sur les pilotes
 - Multimedia, informations de référence sur les pilotes
 - pilotes installables, référence
 - informations de référence sur les pilotes installables, à propos de
 - référence pour les pilotes installables, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e90475063f9d9211e841902fe73d2f09dc6130d8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d6dd2488f0b07805edbcdc90187309db2a04c9c0ced4f4b5b0af4e50bd983ca4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038639"
 ---
 # <a name="installable-driver-reference"></a>Informations de référence sur les pilotes installables
 
@@ -60,6 +60,6 @@ Les fonctions et les messages associés aux pilotes installables sont regroupés
 [Pilotes installables](installable-drivers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

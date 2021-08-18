@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - MFCaptureEngine.dll
-ms.openlocfilehash: a2ff0dbf46ca464c11570c8fe78e0b3dbebe3248
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18d264b30b8f3ed4d06e80f236908dd7bc81dbe96c4eb9c3231fa330331e34f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940249"
 ---
 # <a name="mfcreatecaptureengine-function"></a>MFCreateCaptureEngine fonction)
 
@@ -52,7 +52,7 @@ Reçoit un pointeur vers l’interface [**IMFCaptureEngine**](/windows/desktop/a
 
 Si la fonction est réussie, elle retourne la valeur \_ OK. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation associée et n’est pas déclarée dans un fichier d’en-tête public. Vous devez utiliser les fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) pour établir une liaison dynamique à MFCaptureEngine.dll.
 
@@ -62,8 +62,8 @@ Cette fonction n’a pas de bibliothèque d’importation associée et n’est p
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                        |
 | DLL<br/>                      | <dl> <dt>MFCaptureEngine.dll</dt> </dl> |
 
 

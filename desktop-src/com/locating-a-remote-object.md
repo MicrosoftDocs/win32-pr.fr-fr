@@ -4,12 +4,12 @@ description: Localisation d’un objet distant
 ms.assetid: b329de53-646b-42a2-afa3-06473c3483d6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d0ce1b2280faaed7be3b5afb25a48438ff1a2b7
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 96577ddd018ab6b00c5af59a9824984c1ffe255dc91849b4391b256b493b765a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992449"
 ---
 # <a name="locating-a-remote-object"></a>Localisation d’un objet distant
 
@@ -22,7 +22,7 @@ Toutefois, dans les cas où il est souhaité, COM a remplacé un paramètre pré
 > [!Note]  
 > Les appels de création d’instance, lorsqu’ils spécifient un emplacement de serveur, peuvent remplacer un paramètre de registre. L’algorithme utilisé par COM pour ce faire est décrit dans la référence de l’énumération [**CLSCTX**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx) .
 
- 
+ 
 
 L’activation à distance dépend de la relation de sécurité entre le client et le serveur. Pour plus d’informations, consultez [sécurité dans com](security-in-com.md).
 
@@ -36,6 +36,6 @@ L’activation à distance dépend de la relation de sécurité entre le client 
 [Création d’un objet à l’aide d’un objet de classe](creating-an-object-through-a-class-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

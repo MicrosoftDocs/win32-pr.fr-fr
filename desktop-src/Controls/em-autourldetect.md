@@ -3,7 +3,7 @@ title: Message EM_AUTOURLDETECT (RichEdit. h)
 description: Active ou désactive la détection automatique des liens hypertexte par un contrôle RichEdit.
 ms.assetid: 6970ff36-ff3f-4413-a471-9389a76c8f38
 keywords:
-- EM_AUTOURLDETECT les contrôles de message Windows
+- EM_AUTOURLDETECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cc8f76b89e5e8aa529084b5c8c0898200e28ed2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0e7c53df29b1d106c537543983f1734aef7facaaca5d0965c3a2588f285a7391
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049429"
 ---
 # <a name="em_autourldetect-message"></a>\_Message AUTOURLDETECT em
 
@@ -38,13 +38,13 @@ Spécifiez 0 pour désactiver la détection de liaison automatique, ou l’une d
 
 | Valeur                                                                                                                                                                                       | Signification                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="AURL_DISABLEMIXEDLGC"></span><span id="aurl_disablemixedlgc"></span><dl> <dt>**AURL \_ DISABLEMIXEDLGC**</dt> </dl>          | **Windows 8**: désactiver la reconnaissance des noms de domaine qui contiennent des étiquettes avec des caractères appartenant à plusieurs des scripts suivants : latin, grec et cyrillique. <br/> |
+| <span id="AURL_DISABLEMIXEDLGC"></span><span id="aurl_disablemixedlgc"></span><dl> <dt>**AURL \_ DISABLEMIXEDLGC**</dt> </dl>          | **Windows 8**: désactiver la reconnaissance des noms de domaine qui contiennent des étiquettes avec des caractères appartenant à plusieurs des scripts suivants : Latin, grec et cyrillique. <br/> |
 | <span id="AURL_ENABLEDRIVELETTERS"></span><span id="aurl_enabledriveletters"></span><dl> <dt>**AURL \_ ENABLEDRIVELETTERS**</dt> </dl> | **Windows 8**: reconnaître les noms de fichiers qui ont une spécification de lecteur de début, par exemple c : \\ temp.<br/>                                                                           |
 | <span id="AURL_ENABLEEA"></span><span id="aurl_enableea"></span><dl> <dt>**AURL \_ ENABLEEA**</dt> </dl>                               | Cette valeur est déconseillée ; Utilisez **AURL \_ ENABLEEAURLS** à la place.<br/>                                                                                                            |
 | <span id="AURL_ENABLEEAURLS"></span><span id="aurl_enableeaurls"></span><dl> <dt>**AURL \_ ENABLEEAURLS**</dt> </dl>                   | Reconnaître les URL qui contiennent des caractères d’Extrême-Orient. <br/>                                                                                                                      |
 | <span id="AURL_ENABLEEMAILADDR"></span><span id="aurl_enableemailaddr"></span><dl> <dt>**AURL \_ ENABLEEMAILADDR**</dt> </dl>          | **Windows 8**: reconnaître les adresses de messagerie.<br/>                                                                                                                                |
 | <span id="AURL_ENABLETELNO"></span><span id="aurl_enabletelno"></span><dl> <dt>**AURL \_ ENABLETELNO**</dt> </dl>                      | **Windows 8**: reconnaître les numéros de téléphone.<br/>                                                                                                                              |
-| <span id="AURL_ENABLEURL"></span><span id="aurl_enableurl"></span><dl> <dt>**AURL \_ ENABLEURL**</dt> </dl>                            | **Windows 8**: reconnaître les URL qui incluent le chemin d’accès.<br/>                                                                                                                     |
+| <span id="AURL_ENABLEURL"></span><span id="aurl_enableurl"></span><dl> <dt>**AURL \_ ENABLEURL**</dt> </dl>                            | **Windows 8**: reconnaît les url qui incluent le chemin d’accès.<br/>                                                                                                                     |
 
 
 
@@ -55,7 +55,7 @@ Spécifiez 0 pour désactiver la détection de liaison automatique, ou l’une d
 *lParam* 
 </dt> <dd>
 
-Ce paramètre détermine les schémas d’URL reconnus si **AURL \_ ENABLEURL** est actif. Si *lParam* a la valeur null, la liste de noms de schémas par défaut est utilisée (consultez la section Notes). *LParam* peut également pointer vers une chaîne se terminant par un caractère null, composée de noms de schéma se terminant par un point-virgule allant jusqu’à 50 qui remplacent la liste de noms de schéma par défaut. Par exemple, la chaîne peut être « News : http : ftp : Telnet : ». La syntaxe du nom du schéma est définie dans le document [URI (Uniform Resource Identifiers) : syntaxe générique]( https://www.ietf.org/rfc/rfc2396.txt) sur le site Web IETF (Internet Engineering Task Force). Plus précisément, un nom de schéma peut contenir jusqu’à 13 caractères (y compris le signe deux-points), doit commencer par un caractère alphabétique ASCII et peut être suivi d’un mélange de alphabetics ASCII, de chiffres et de trois caractères de ponctuation : « . », « + » et « - ». Le type de chaîne peut être **char \** _ ou _*WCHAR \**_; le contrôle Rich Edit détecte automatiquement le type.
+Ce paramètre détermine les schémas d’URL reconnus si **AURL \_ ENABLEURL** est actif. Si *lParam* a la valeur null, la liste de noms de schémas par défaut est utilisée (consultez la section Notes). *LParam* peut également pointer vers une chaîne se terminant par un caractère null, composée de noms de schéma se terminant par un point-virgule allant jusqu’à 50 qui remplacent la liste de noms de schéma par défaut. Par exemple, la chaîne peut être « News : http : ftp : Telnet : ». La syntaxe du nom du schéma est définie dans le document [URI (Uniform Resource Identifiers) : syntaxe générique]( https://www.ietf.org/rfc/rfc2396.txt) sur le site Web IETF (Internet Engineering Task Force). Plus précisément, un nom de schéma peut contenir jusqu’à 13 caractères (y compris le signe deux-points), doit commencer par un caractère alphabétique ASCII et peut être suivi d’un mélange de alphabetics ASCII, de chiffres et de trois caractères de ponctuation : « . », « + » et « - ». Le type de chaîne peut être **char \* *_ ou _* WCHAR \***; le contrôle Rich Edit détecte automatiquement le type.
 
 </dd> </dl>
 
@@ -65,11 +65,11 @@ Si le message est correctement exécuté, la valeur de retour est zéro.
 
 Si le message échoue, la valeur de retour est une valeur différente de zéro. Par exemple, le message peut échouer en raison d’une mémoire insuffisante, d’une option de détection non valide ou d’une chaîne de nom de schéma non valide.
 
-Si _lParam * contient plus de 50 noms de schéma, le message échoue avec la valeur de retour **E \_ INVALIDARG**.
+Si *lParam* contient plus de 50 noms de schéma, le message échoue avec la valeur de retour **E \_ INVALIDARG**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si la détection automatique d’URL est activée (autrement dit, *wParam* comprend **AURL \_ ENABLEURL**), le contrôle Rich Edit analyse tout texte modifié pour déterminer si le texte correspond au format d’une URL (ou plus généralement dans Windows 8 ou version ultérieure, un identificateur de ressource IRI international). Si *lParam* a la valeur null, le contrôle détecte les URL qui commencent par les noms de schémas suivants :
+si la détection automatique d’URL est activée (autrement dit, *wParam* comprend **AURL \_ ENABLEURL**), le contrôle rich edit analyse tout texte modifié pour déterminer si le texte correspond au format d’une URL (ou plus généralement dans Windows 8 ou ultérieur un identificateur de ressource IRI International). Si *lParam* a la valeur null, le contrôle détecte les URL qui commencent par les noms de schémas suivants :
 
 -   callto
 -   fichier
@@ -99,8 +99,8 @@ Un contrôle RichEdit envoie la notification [en \_ lien](en-link.md) lorsqu’i
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

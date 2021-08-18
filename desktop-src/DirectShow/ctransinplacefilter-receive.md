@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5e7a1f87617b59c31139cb3d857c83d4470fd709
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 390d0243631e4ac31da779ca01197500f1d3df18127a3b86f0cf1ea834283f0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053459"
 ---
 # <a name="ctransinplacefilterreceive-method"></a>CTransInPlaceFilter. Receive, méthode
 
@@ -64,7 +64,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La broche d’entrée du filtre appelle cette méthode lorsqu’elle reçoit un exemple. Le filtre appelle la méthode [**Transform**](ctransinplacefilter-transform.md) , que la classe dérivée doit implémenter. La méthode **Transform** traite les données. Si le filtre n’utilise qu’un seul Allocator, il passe directement *pSample* à la méthode **Transform** . Dans le cas contraire, il copie *pSample* et passe la copie.
 
@@ -76,7 +76,7 @@ Si la méthode **Transform** retourne S \_ false, la `Receive` méthode supprime
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transip. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Transip. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

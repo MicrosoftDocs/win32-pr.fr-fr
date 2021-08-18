@@ -3,7 +3,7 @@ title: Message WM_RENDERALLFORMATS (winuser. h)
 description: Envoyé au propriétaire du presse-papiers avant sa destruction, si le propriétaire du presse-papiers a retardé le rendu d’un ou de plusieurs formats de presse-papiers.
 ms.assetid: dff9100f-2dba-467d-be74-a9a9c2b2122b
 keywords:
-- WM_RENDERALLFORMATS l’échange de données de message
+- WM_RENDERALLFORMATS des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cdd3ce1fabdea4cdcae93b5243b89c53def0afa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77dae9b44cb379ed62c99c601d308fdec500440a9ebad0ffeaffad16ec780dfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636059"
 ---
 # <a name="wm_renderallformats-message"></a>\_Message WM RENDERALLFORMATS
 
@@ -56,7 +56,7 @@ Ce paramètre n’est pas utilisé et doit être égal à zéro.
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de la réponse à un message **WM \_ RENDERALLFORMATS** , l’application doit appeler la fonction [**OpenClipboard**](/windows/win32/api/winuser/nf-winuser-openclipboard) , puis vérifier qu’elle est toujours le propriétaire du presse-papiers en appelant la fonction [**GetClipboardOwner**](/windows/win32/api/winuser/nf-winuser-getclipboardowner) avant d’appeler [**SetClipboardData**](/windows/win32/api/winuser/nf-winuser-setclipboarddata).
 

@@ -1,19 +1,19 @@
 ---
-description: Découvrez comment la propriété System. Devices. AepService. Bluetooth. RfcommService. Device définit l’adresse du périphérique Bluetooth à interroger.
+description: Découvrez comment System. Devices. AepService. Bluetooth. la propriété RfcommService. Device définit l’adresse de l’appareil Bluetooth à interroger.
 ms.assetid: 6a2381b6-1bf6-4b6b-adcc-4fb6a641a015
-title: System. Devices. AepService. Bluetooth. RfcommService. Device
+title: System. Devices. AepService. Bluetooth. RfcommService. appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d0f402e1af1bc0e652b88b1b959db49b5c9774c
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: be604e962420efd42d46afdcef256b0f0a13b059523cbb801ca04f72c9567299
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010697"
 ---
-# <a name="systemdevicesaepservicebluetoothrfcommservicedevice"></a>System. Devices. AepService. Bluetooth. RfcommService. Device
+# <a name="systemdevicesaepservicebluetoothrfcommservicedevice"></a>System. Devices. AepService. Bluetooth. RfcommService. appareil
 
-Définit l’adresse de l’appareil Bluetooth à interroger.
+définit l’adresse de l’appareil Bluetooth à interroger.
 
 ## <a name="windows-10-version-1511"></a>Windows 10, version 1511
 

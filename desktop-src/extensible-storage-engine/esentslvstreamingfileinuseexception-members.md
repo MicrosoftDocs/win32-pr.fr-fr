@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102931
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 51f63e42418f83d702825f42381f01f8482fb91d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b52a85534b43f6cef4a9c89d114da88e676fd0d97d363027ab0cc81df6a0a8c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104551007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119969963"
 ---
 # <a name="esentslvstreamingfileinuseexception-members"></a>Membres EsentSLVStreamingFileInUseException
 
@@ -71,7 +71,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

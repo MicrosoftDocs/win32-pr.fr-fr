@@ -4,12 +4,12 @@ description: Les applications clientes Microsoft Active Accessibility récupère
 ms.assetid: b82467f0-0d46-482a-8f6d-ad64f236601e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45d4006bf073075f2aa47a9911565213050e3d11
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 28ea0d7936671a68c140c6d22fdc3afdad0db0899c9c2cbc51637dcf36d9ad55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994199"
 ---
 # <a name="getting-an-accessible-object-interface-pointer"></a>Obtention d’un pointeur d’interface d’objet accessible
 
@@ -22,7 +22,7 @@ De nombreux clients recherchent des informations sur des objets accessibles spé
 > [!Note]  
 > Les clients avec des [fonctions de raccordement dans le contexte](in-context-hook-functions.md) doivent appeler la fonction [IsWindow](/windows/win32/api/winuser/nf-winuser-iswindow) avant d’appeler [**AccessibleObjectFromEvent**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromevent).
 
- 
+ 
 
 La fonction [**AccessibleObjectFromEvent**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromevent) accepte une grande partie des mêmes informations que celles reçues par la [*fonction de raccordement*](/windows/desktop/api/Winuser/nc-winuser-wineventproc) d’un client. Quand une fonction de raccordement client reçoit une notification d’événement, elle passe les paramètres appropriés des événements à **AccessibleObjectFromEvent**.
 
@@ -38,6 +38,6 @@ Pour récupérer l’interface [**IAccessible**](/windows/desktop/api/oleacc/nn-
 
 Il est possible que les serveurs retournent des pointeurs d’interface distincts pour le même élément d’interface utilisateur chaque fois que la fonction [**AccessibleObjectFromEvent**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromevent), [**AccessibleObjectFromPoint**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfrompoint)ou [**AccessibleObjectFromWindow**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromwindow) est appelée. Pour déterminer si deux pointeurs font référence au même élément d’interface utilisateur, les développeurs clients doivent comparer les propriétés [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) de l’objet, et non les pointeurs.
 
- 
+ 
 
- 
+ 

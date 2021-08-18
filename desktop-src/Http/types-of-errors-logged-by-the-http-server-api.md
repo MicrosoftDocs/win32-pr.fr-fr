@@ -6,12 +6,12 @@ keywords:
 - API serveur HTTP, types d’erreurs consignées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 450d298ab5b045fe4b28a683e456de3cfe84224e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 36974edf1748ab70ff8b99ad27881a1b5f772b243eb97c5dc4b26d6df41f16c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042079"
 ---
 # <a name="types-of-errors-logged-by-the-http-server-api"></a>Types d’erreurs consignées par l’API du serveur HTTP
 
@@ -21,7 +21,7 @@ Le tableau suivant répertorie les erreurs consignées par HTTP.
 
 
 
-| Error                                                                                                                                                  | Description                                                                                                                                                                                                                         |
+| Erreur                                                                                                                                                  | Description                                                                                                                                                                                                                         |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="Responses_to_clients"></span><span id="responses_to_clients"></span><span id="RESPONSES_TO_CLIENTS"></span>« Réponses aux clients »<br/> | L’API du serveur HTTP envoie une réponse d’erreur à un client, par exemple, une erreur 400 causée par une erreur d’analyse dans la dernière demande reçue. Après l’envoi de la réponse d’erreur, l’API du serveur HTTP met fin à la connexion.<br/> |
 | <span id="Connection_time-outs"></span><span id="connection_time-outs"></span><span id="CONNECTION_TIME-OUTS"></span>« Délais de connexion »<br/> | L’API du serveur HTTP Expire une connexion. Si une demande est en attente lorsque la connexion expire, elle est utilisée pour fournir plus d’informations sur la connexion dans le journal des erreurs.<br/>                                         |

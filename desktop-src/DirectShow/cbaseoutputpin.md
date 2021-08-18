@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 21949d772c44f02e364013dd98c905b8f59ccdc2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 67a4051f904b27b75273d553e1d0604b068b3910fbfb322b5a2df716c996a1ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872583"
 ---
 # <a name="cbaseoutputpin-class"></a>CBaseOutputPin, classe
 
@@ -57,8 +57,8 @@ Votre classe dérivée doit substituer la méthode [**CBasePin :: CheckMediaTyp
 | [**InitAllocator**](cbaseoutputpin-initallocator.md)           | Crée un allocateur de mémoire. Virtuels.                                       |
 | [**CheckConnect**](cbaseoutputpin-checkconnect.md)             | Détermine si une connexion de code confidentiel est appropriée.                           |
 | [**BreakConnect**](cbaseoutputpin-breakconnect.md)             | Libère le code confidentiel d’une connexion.                                        |
-| [**Proactive**](cbaseoutputpin-active.md)                         | Notifie le code confidentiel que le filtre est maintenant actif.                            |
-| [**Inactif**](cbaseoutputpin-inactive.md)                     | Notifie le code confidentiel que le filtre n’est plus actif.                      |
+| [**Actif**](cbaseoutputpin-active.md)                         | Notifie le code confidentiel que le filtre est maintenant actif.                            |
+| [**Inactive**](cbaseoutputpin-inactive.md)                     | Notifie le code confidentiel que le filtre n’est plus actif.                      |
 | [**DeliverEndOfStream**](cbaseoutputpin-deliverendofstream.md) | Fournit une notification de fin de flux à la broche d’entrée connectée. Virtuels. |
 | [**DeliverBeginFlush**](cbaseoutputpin-deliverbeginflush.md)   | Demande la broche d’entrée connectée pour commencer une opération de vidage. Virtuels.      |
 | [**DeliverEndFlush**](cbaseoutputpin-deliverendflush.md)       | Demande la broche d’entrée connectée pour terminer une opération de vidage. Virtuels.        |
@@ -80,7 +80,7 @@ Votre classe dérivée doit substituer la méthode [**CBasePin :: CheckMediaTyp
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

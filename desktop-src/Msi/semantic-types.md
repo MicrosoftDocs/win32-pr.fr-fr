@@ -4,12 +4,12 @@ ms.assetid: f44e234e-b45a-40be-993d-956b8966c321
 title: Types sémantiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69c2a0798a9ae7be3c2c0b56483707e3a09f67d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01845bd7790f618794816182bb4b11fc0d13baf9216d17bbd15c63a390a52a90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040299"
 ---
 # <a name="semantic-types"></a>Types sémantiques
 
@@ -25,7 +25,7 @@ Les entrées suivantes dans les colonnes format, type et ContextData de la [tabl
 | Texte   | Énumération       | <A>=<a>;<B>=<b>;<C>=<c> | Valeur sélectionnée dans un jeu. Consultez [type enum](enum-type.md).                                                 |
 | Texte   | Mis en forme  |                                                             | Valeur qui répond à la définition du texte mis en forme dans le programme d’installation. Consultez [type mis en forme](formatted-type.md). |
 | Texte   | RTF        |                                                             | Chaîne de texte RTF. Consultez [type RTF](rtf-type.md).                                                          |
-| Texte   | Identificateur |                                                             | Chaîne de texte conforme à un [identificateur](identifier.md)de Windows Installer.                              |
+| Texte   | Identificateur |                                                             | chaîne de texte conforme à un [identificateur](identifier.md)de Windows Installer.                              |
 
 
 
@@ -37,7 +37,7 @@ Les entrées suivantes dans les colonnes format, type et ContextData de la [tabl
 
 | Format  | Type | ContextData | Description                                                                  |
 |---------|------|-------------|------------------------------------------------------------------------------|
-| Integer |      |             | Toute valeur entière. Consultez [type entier arbitraire](arbitrary-integer-type.md). |
+| Entier |      |             | Toute valeur entière. Consultez [type entier arbitraire](arbitrary-integer-type.md). |
 
 
 

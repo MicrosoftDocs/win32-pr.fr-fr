@@ -1,6 +1,6 @@
 ---
-description: 'En savoir plus sur : informations de référence sur le moteur de stockage extensible'
-title: Informations de référence sur le moteur de stockage extensible
+description: 'en savoir plus sur : Extensible Stockage Engine Reference'
+title: informations de référence sur le moteur de Stockage Extensible
 TOCTitle: Extensible Storage Engine Reference
 ms:assetid: 5033f53b-72f1-4a28-926e-242461863071
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269245(v=EXCHG.10)
@@ -15,44 +15,44 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0fa0c26a99b5dcf640173d4720fa59954a25a049
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61efc6587d080e4afd99c54a72963a1a7afea2b77859097fb919920d85a19382
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968849"
 ---
-# <a name="extensible-storage-engine-reference"></a>Informations de référence sur le moteur de stockage extensible
+# <a name="extensible-storage-engine-reference"></a>informations de référence sur le moteur de Stockage Extensible
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
-## <a name="extensible-storage-engine-reference"></a>Informations de référence sur le moteur de stockage extensible
+## <a name="extensible-storage-engine-reference"></a>informations de référence sur le moteur de Stockage Extensible
 
-La référence du moteur de stockage extensible contient les sections suivantes :
+la référence du moteur de Stockage Extensible contient les sections suivantes :
 
-  - [Fonctions de rappel du moteur de stockage extensible](./extensible-storage-engine-callback-functions.md)
-
-<!-- end list -->
-
-  - [Constantes du moteur de stockage extensible](./extensible-storage-engine-constants.md)
+  - [fonctions de rappel du moteur de Stockage Extensible](./extensible-storage-engine-callback-functions.md)
 
 <!-- end list -->
 
-  - [Types de données du moteur de stockage extensible](./extensible-storage-engine-data-types.md)
+  - [constantes de moteur d’Stockage Extensible](./extensible-storage-engine-constants.md)
 
 <!-- end list -->
 
-  - [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md)
+  - [Types de données du moteur de Stockage Extensible](./extensible-storage-engine-data-types.md)
 
 <!-- end list -->
 
-  - [Fichiers ESE (Extensible Storage Engine)](./extensible-storage-engine-files.md)
+  - [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md)
 
 <!-- end list -->
 
-  - [Fonctions du moteur de stockage extensible](./extensible-storage-engine-functions.md)
+  - [fichiers de moteur d’Stockage Extensible](./extensible-storage-engine-files.md)
 
 <!-- end list -->
 
-  - [Structures du moteur de stockage extensible](./extensible-storage-engine-structures.md)
+  - [fonctions du moteur de Stockage Extensible](./extensible-storage-engine-functions.md)
+
+<!-- end list -->
+
+  - [Structures du moteur de Stockage Extensible](./extensible-storage-engine-structures.md)

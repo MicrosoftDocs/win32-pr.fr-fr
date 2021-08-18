@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 823583beed6696d40803ccc098410dac053b8948
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 146c3736f7aaa89fc9a724d9dd7e4bfb58160e21e2de57f40a8e855c8a3c1446
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043602"
 ---
 # <a name="cdrawimagefastrender-method"></a>Méthode CDrawImage. FastRender
 
@@ -53,7 +53,7 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**CDrawImage ::D rawimage**](cdrawimage-drawimage.md) appelle cette méthode, mais uniquement si l’allocateur pour la connexion est un objet [**CImageAllocator**](cimageallocator.md) . Dans ce cas, l’exemple de support est garanti comme un objet [**CImageSample**](cimagesample.md) . L’objet **CImageSample** utilise la fonction **CreateDIBSection** pour allouer de la mémoire partagée pour la bitmap, ce qui permet de dessiner l’image à l’aide de **BitBlt** ou de **StretchBlt**.
 
@@ -67,7 +67,7 @@ Si le filtre n’est pas propriétaire de l’allocateur, la méthode **DrawImag
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

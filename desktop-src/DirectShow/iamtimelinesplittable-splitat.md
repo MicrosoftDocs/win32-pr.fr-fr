@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: a44aabf3386a4e906bd4f3e149c416642ba6c4fc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cdcedc25cf7f0998c6eac11de63f6e0d329e2ca8500576e0ad9e69cfc0bb3067
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052409"
 ---
 # <a name="iamtimelinesplittablesplitat-method"></a>IAMTimelineSplittable :: SplitAt, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -61,7 +61,7 @@ Retourne une valeur **HRESULT** . Il peut prendre les valeurs suivantes :
 | Code de retour                                                                                   | Description                                        |
 |-----------------------------------------------------------------------------------------------|----------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl>       | Rien à fractionner.<br/>                       |
-| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie.<br/>                                |
+| <dl> <dt>**\_OK**</dt> </dl>          | Réussite.<br/>                                |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | L’objet n’existe pas pour l’instant.<br/> |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl> | Mémoire insuffisante.<br/>                    |
 
@@ -69,7 +69,7 @@ Retourne une valeur **HRESULT** . Il peut prendre les valeurs suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous fractionnez une source, un effet ou une transition, cette méthode crée un deuxième objet du même type. L’objet d’origine est tronqué à l’heure de fractionnement spécifiée et le nouvel objet remplace la partie tronquée. Le nouvel objet hérite de toutes les mêmes propriétés. Dans un objet source, la méthode fractionne également tous les effets qui tombent sur l’heure de fractionnement.
 
@@ -83,7 +83,7 @@ Pour une piste, si l’heure de fractionnement est postérieure à tout dans la 
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

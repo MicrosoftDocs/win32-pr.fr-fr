@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 98c1e01c15740616541706ca4d9da3ab5e66538c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cefaa91578f397a5ce967dc9cb6200acbe45f016e81f4552b9d185ad9ffa2609
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044059"
 ---
 # <a name="cbaserendererbreakconnect-method"></a>Méthode CBaseRenderer. BreakConnect
 
@@ -49,14 +49,14 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 | Code de retour                                                                                         | Description                            |
 |-----------------------------------------------------------------------------------------------------|----------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl>             | Le pin n’était pas connecté.<br/>  |
-| <dl> <dt>**\_OK**</dt> </dl>                | Opération réussie.<br/>                    |
+| <dl> <dt>**\_OK**</dt> </dl>                | Réussite.<br/>                    |
 | <dl> <dt>**VFW \_ E \_ non \_ arrêté**</dt> </dl> | Le filtre est toujours actif.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La broche d’entrée du filtre appelle cette méthode à l’intérieur de sa propre `BreakConnect` méthode. (Pour plus d’informations, consultez [**CBasePin :: BreakConnect**](cbasepin-breakconnect.md).) Le filtre effectue une comptabilité interne, telle que la réinitialisation de l’indicateur de fin de flux.
 
@@ -66,7 +66,7 @@ La broche d’entrée du filtre appelle cette méthode à l’intérieur de sa p
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

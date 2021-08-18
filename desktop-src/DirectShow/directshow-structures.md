@@ -1,19 +1,19 @@
 ---
-description: Structures DirectShow
+description: DirectShow Celles
 ms.assetid: 378f6f43-5c05-4ae4-be24-956f9fc0cacf
-title: Structures DirectShow
+title: DirectShow Celles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61bf15858ea602d27b17c8853d0e911ebb37cfad
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fca0c1c877026b1df1b423f66c22cd9c5525927e3c693c5ee5afb93496e970d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966339"
 ---
-# <a name="directshow-structures"></a>Structures DirectShow
+# <a name="directshow-structures"></a>DirectShow Celles
 
-Cette section décrit les structures DirectShow.
+cette section décrit les structures de DirectShow.
 
 
 
@@ -30,7 +30,7 @@ Cette section décrit les structures DirectShow.
 | [**AM \_ MPEGSYSTEMTYPE**](/previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegsystemtype)                             | Définit le bloc de format pour un flux système MPEG-1.                                                                                                                                                                 |
 | [**\_Propriétés am SAMPLE2 \_**](/windows/win32/api/strmif/ns-strmif-am_sample2_properties)                    | Décrit les propriétés d’un exemple de média générique.                                                                                                                                                                   |
 | [**\_informations de flux am \_**](/windows/desktop/api/strmif/ns-strmif-am_stream_info)                                  | Contient les informations de démarrage et d’arrêt fournies à un code confidentiel.                                                                                                                                                                   |
-| [**\_données d' \_ événement \_ WMT AM**](/previous-versions/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data)                           | Contient des informations relatives à un \_ événement d’État WMT et au code d’état associé renvoyé par le kit de développement logiciel (SDK) du format Windows Media.                                                                                       |
+| [**\_données d' \_ événement \_ WMT AM**](/previous-versions/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data)                           | contient des informations relatives à un \_ événement d’état WMT et au code d’état associé renvoyé par le kit de développement logiciel (SDK) de Format multimédia Windows.                                                                                       |
 | [**\_page am WST \_**](/previous-versions/windows/desktop/api/iwstdec/ns-iwstdec-am_wst_page)                                        | Décrit une page de texte WST.                                                                                                                                                                                         |
 | [**\_filtre AMOVIESETUP**](amoviesetup-filter.md)                           | Contient les informations de filtre pour l’inscription d’un filtre.                                                                                                                                                                 |
 | [**\_MediaType AMOVIESETUP**](amoviesetup-mediatype.md)                     | Contient des informations sur le type de média pour l’inscription d’un filtre.                                                                                                                                                             |
@@ -131,7 +131,7 @@ Cette section décrit les structures DirectShow.
 
 <dl> <dt>
 
-[Informations de référence sur DirectShow](directshow-reference.md)
+[DirectShow Faire](directshow-reference.md)
 </dt> </dl>
 
  

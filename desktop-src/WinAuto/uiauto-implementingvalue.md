@@ -15,12 +15,12 @@ keywords:
 - interfaces, IValueProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40633a21fdd6b59a2aa35c34258037582a647f05
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 28b30d8c84bc5f998d55ee17d7699bb37f33b7e19c52a2694578c3d11ef1d888
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997803"
 ---
 # <a name="value-control-pattern"></a>Value (modèle de contrôle)
 
@@ -45,7 +45,7 @@ Lorsque vous implémentez le modèle de contrôle **value** , notez les conventi
 - Les contrôles d’édition à une seule ligne et à plusieurs lignes doivent implémenter [**ITextProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider) pour exposer leur contenu en lecture seule.
 - Les contrôles d’édition sur plusieurs lignes doivent implémenter [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider) si leur contenu peut être modifié.
 - [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider) ne prend pas en charge la récupération des informations de mise en forme ou des valeurs de sous-chaîne. Implémentez [**ITextProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider) dans ces scénarios.
-- [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider) doit être implémenté par des contrôles tels que le contrôle de sélection de sélecteur de couleurs de Microsoft Word (Voir l’image suivante), qui prend en charge le mappage de chaînes entre une valeur de couleur (par exemple, « jaune ») et une valeur [RVB](/windows/win32/api/wingdi/nf-wingdi-rgb) interne équivalente.
+- [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider) doit être implémenté par des contrôles tels que le contrôle de sélection du sélecteur de couleurs de Microsoft Word (voir l’image suivante), qui prend en charge le mappage de chaînes entre une valeur de couleur (par exemple, « jaune ») et une valeur [rvb](/windows/win32/api/wingdi/nf-wingdi-rgb) interne équivalente.
 
     ![Illustration montrant le mappage de la chaîne d’échantillons de couleurs](images/uia-valuepattern-colorpicker.jpg)
 
@@ -57,7 +57,7 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
-| Membres nécessaires                                       | Type de membre | Notes |
+| Membres nécessaires                                       | Type de membre | Remarques |
 |--------------------------------------------------------|-------------|-------|
 | [**IsReadOnly**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_isreadonly) | Propriété    | Aucun  |
 | [**Valeur**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_value)           | Propriété    | Aucun  |
@@ -65,7 +65,7 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé aucun événement.
 
@@ -85,6 +85,6 @@ Ce modèle de contrôle n’est associé aucun événement.
 [Modèles de contrôle Text et TextRange](uiauto-implementingtextandtextrange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

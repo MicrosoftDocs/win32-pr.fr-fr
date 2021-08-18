@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 6e517f509a18efe9c6d413eb1a7fe7dab47b8820
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e8ce5a4da0bbf4c6698e15c6a830982c41822c000789ba9ffe97f2a2df2069f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009229"
 ---
 # <a name="analysisregion-class"></a>AnalysisRegion, classe
 
 Implémente l’interface [**IAnalysisRegion**](ianalysisregion.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette classe implémente l’interface com [**IAnalysisRegion**](ianalysisregion.md) et est équivalente à System. Windows. Ink. AnalysisCore. AnalysisRegionBase dans le .NET Framework.
 
@@ -34,7 +34,7 @@ Cette classe implémente l’interface com [**IAnalysisRegion**](ianalysisregion
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

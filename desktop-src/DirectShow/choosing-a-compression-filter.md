@@ -4,25 +4,25 @@ ms.assetid: 9a2c3c48-771e-44db-a042-3db0fd9a6c76
 title: Choix d’un filtre de compression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a64ebebf41c35ed6aed9ab47d853c03ba720a31
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cf964aa3647086efe569263e5fb36b4e0db60ebfad73c9d2fe9dcb14f3bcf125
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999219"
 ---
 # <a name="choosing-a-compression-filter"></a>Choix d’un filtre de compression
 
 Plusieurs types de composants logiciels peuvent effectuer une compression vidéo ou audio, par exemple :
 
--   Filtres DirectShow natifs
+-   filtres de DirectShow natifs
 -   Codecs du gestionnaire de compression vidéo (VCM)
 -   Codecs de gestionnaire de compression audio (ACM)
 -   Objets DMOs (DirectX Media Objects)
 
-Dans DirectShow, les codecs VCM sont encapsulés par le [filtre de compresseur AVI](avi-compressor-filter.md), et les codecs ACM sont encapsulés par le [filtre de wrappers ACM](acm-wrapper-filter.md). Les DMOs sont encapsulés par le [filtre de wrappers DMO](dmo-wrapper-filter.md). L’énumérateur de périphérique système fournit une méthode cohérente pour énumérer et créer l’un de ces types de compresseur, sans vous soucier du modèle sous-jacent.
+dans DirectShow, les codecs VCM sont encapsulés par le [filtre de compresseur AVI](avi-compressor-filter.md), et les codecs acm sont encapsulés par le [filtre de wrappers acm](acm-wrapper-filter.md). les DMOs sont encapsulés par le [filtre de Wrapper DMO](dmo-wrapper-filter.md). L’énumérateur de périphérique système fournit une méthode cohérente pour énumérer et créer l’un de ces types de compresseur, sans vous soucier du modèle sous-jacent.
 
-Pour plus d’informations sur l’énumérateur de périphérique système, consultez [utilisation de l’énumérateur de périphérique système](using-the-system-device-enumerator.md). Brièvement, tous les filtres DirectShow sont classés par catégorie, et chaque catégorie est identifiée par un GUID. Pour les compresseurs vidéo, le GUID de la catégorie est CLSID \_ VideoCompressorCategory. Pour les compresseurs audio, il s’agit du CLSID \_ AudioCompressorCategory. Pour énumérer une catégorie particulière, l’énumérateur de périphérique système crée un objet *énumérateur* qui prend en charge l’interface [**IEnumMoniker**](/windows/desktop/api/objidl/nn-objidl-ienummoniker) . L’application utilise cette interface pour récupérer des monikers de périphérique, où chaque moniker de périphérique représente une instance d’un filtre DirectShow. Vous pouvez utiliser le moniker pour créer le filtre, ou pour récupérer le nom convivial de l’appareil sans créer le filtre.
+Pour plus d’informations sur l’énumérateur de périphérique système, consultez [utilisation de l’énumérateur de périphérique système](using-the-system-device-enumerator.md). brièvement, tous les filtres de DirectShow sont classés par catégorie, et chaque catégorie est identifiée par un GUID. Pour les compresseurs vidéo, le GUID de la catégorie est CLSID \_ VideoCompressorCategory. Pour les compresseurs audio, il s’agit du CLSID \_ AudioCompressorCategory. Pour énumérer une catégorie particulière, l’énumérateur de périphérique système crée un objet *énumérateur* qui prend en charge l’interface [**IEnumMoniker**](/windows/desktop/api/objidl/nn-objidl-ienummoniker) . l’application utilise cette interface pour récupérer des monikers de périphérique, où chaque moniker de périphérique représente une instance d’un filtre de DirectShow. Vous pouvez utiliser le moniker pour créer le filtre, ou pour récupérer le nom convivial de l’appareil sans créer le filtre.
 
 Pour énumérer les compresseurs vidéo ou audio disponibles sur le système de l’utilisateur, procédez comme suit :
 

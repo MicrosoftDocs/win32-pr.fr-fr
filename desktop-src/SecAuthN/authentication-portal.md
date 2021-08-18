@@ -4,12 +4,12 @@ ms.assetid: 7863dbee-aa48-4024-886c-1056d7141e60
 title: Authentification (authentification)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3989944068ade080b6b819dc34b77c914ed2e73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84b1fc677271518df764fefb3bb53ee6b2761b779c0433df963ec06a2ee09055
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883749"
 ---
 # <a name="authentication-authentication"></a>Authentification (authentification)
 
@@ -21,7 +21,7 @@ Les technologies d’authentification Microsoft incluent l’authentification LS
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-Les technologies d’authentification Microsoft sont destinées à être utilisées par les développeurs d’applications basées sur les systèmes d’exploitation Windows Server, Windows Vista et Windows qui authentifient les clients. Les développeurs doivent être familiarisés avec la programmation basée sur Windows. Bien que cela ne soit pas obligatoire, il est recommandé de bien comprendre l’authentification ou les sujets liés à la sécurité.
+les technologies d’authentification Microsoft sont destinées à être utilisées par les développeurs d’applications basées sur les systèmes d’exploitation Windows Server, Windows Vista et Windows qui authentifient les clients. les développeurs doivent être familiarisés avec la programmation basée sur Windows. Bien que cela ne soit pas obligatoire, il est recommandé de bien comprendre l’authentification ou les sujets liés à la sécurité.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 

@@ -5,8 +5,8 @@ ms.assetid: be005312-1e87-4371-9791-709a9be46f7c
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode SessionFlagUseKerberos
-- Méthode SessionFlagUseKerberos Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode SessionFlagUseKerberos
+- méthode SessionFlagUseKerberos Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode SessionFlagUseKerberos
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62e7436a5b79480b39c093545a0b579da3d13082
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 468d6096343e3c0fe67369abe3927870f2e1eaf89a2d12b9c73e3560d436859e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997201"
 ---
 # <a name="wsmansessionflagusekerberos-method"></a>Méthode WSMan. SessionFlagUseKerberos
 

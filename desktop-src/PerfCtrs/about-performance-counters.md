@@ -4,22 +4,22 @@ ms.assetid: d172a131-61d3-4fc1-8e0c-b07b2bd34f80
 title: À propos des compteurs de performance
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: dec7c71e99ab614ee64e3d1e8c9620f0be78c14a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a80ac907ef842e4564f0e67daa173fee165bc93d8fa568920df8ffc24b8c9a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978912"
 ---
 # <a name="about-performance-counters"></a>À propos des compteurs de performance
 
-Les compteurs de performances Windows fournissent une couche d’abstraction de haut niveau avec une interface cohérente pour la collecte de différents types de données système telles que les statistiques d’utilisation du processeur, de la mémoire et du disque. Les administrateurs système utilisent des compteurs de performances pour surveiller les problèmes de performances ou de comportement. Les développeurs de logiciels utilisent des compteurs de performances pour inspecter l’utilisation des ressources de leurs composants.
+Windows Les compteurs de performances fournissent une couche d’abstraction de haut niveau avec une interface cohérente pour la collecte de différents types de données système telles que les statistiques d’utilisation du processeur, de la mémoire et du disque. Les administrateurs système utilisent des compteurs de performances pour surveiller les problèmes de performances ou de comportement. Les développeurs de logiciels utilisent des compteurs de performances pour inspecter l’utilisation des ressources de leurs composants.
 
 > [!IMPORTANT]
-> Les compteurs de performances Windows sont optimisés pour la découverte et la collecte des données d’administration/de diagnostic. Ils ne sont pas appropriés pour la collecte de données à haute fréquence ou pour le profilage d’application, car ils ne sont pas conçus pour être collectés plusieurs fois par seconde. Pour un accès plus faible aux informations système, vous pouvez préférer des API plus directes, telles que [**Process Status Helper**](../psapi/process-status-helper.md), [**GlobalMemoryStatusEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex), [**GetSystemTimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getsystemtimes)ou [**fonction getprocesstimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes). Pour le profilage, vous pouvez collecter des journaux ETW avec les données de profilage système à l’aide de [**tracelog.exe**](/windows-hardware/drivers/devtest/tracelog) avec des `-critsec` options, `-dpcisr` , `-eflag` ou `-ProfileSource` , ou vous pouvez utiliser le [**profilage des compteurs matériels**](/previous-versions/windows/desktop/hcp/hcp-reference).
+> Windows Les compteurs de performances sont optimisés pour la découverte et la collecte des données d’administration/de diagnostic. Ils ne sont pas appropriés pour la collecte de données à haute fréquence ou pour le profilage d’application, car ils ne sont pas conçus pour être collectés plusieurs fois par seconde. Pour un accès plus faible aux informations système, vous pouvez préférer des API plus directes, telles que [**Process Status Helper**](../psapi/process-status-helper.md), [**GlobalMemoryStatusEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex), [**GetSystemTimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getsystemtimes)ou [**fonction getprocesstimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes). Pour le profilage, vous pouvez collecter des journaux ETW avec les données de profilage système à l’aide de [**tracelog.exe**](/windows-hardware/drivers/devtest/tracelog) avec des `-critsec` options, `-dpcisr` , `-eflag` ou `-ProfileSource` , ou vous pouvez utiliser le [**profilage des compteurs matériels**](/previous-versions/windows/desktop/hcp/hcp-reference).
 
 > [!NOTE]
-> Ne confondez pas les compteurs de performances Windows avec l’API [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) . Les compteurs de performances Windows fournissent une abstraction de haut niveau pour de nombreux types d’informations système. La fonction QueryPerformanceCounter fournit un accès optimisé à un horodatage haute précision.
+> ne confondez pas Windows compteurs de performances avec l’API [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) . Windows Les compteurs de performances fournissent une abstraction de haut niveau pour de nombreux types d’informations système. La fonction QueryPerformanceCounter fournit un accès optimisé à un horodatage haute précision.
 
 ## <a name="getting-started"></a>Mise en route
 
@@ -30,7 +30,7 @@ Les compteurs de performances Windows fournissent une couche d’abstraction de 
 
 ## <a name="concepts"></a>Concepts
 
-Le système de compteurs de performances Windows est organisé en **consommateurs**, **fournisseurs**, **countersets**, **compteurs**, **instances** et **valeurs de compteur**.
+le système de compteurs de performances Windows est organisé en **consommateurs**, **fournisseurs**, **countersets**, **compteurs**, **instances** et **valeurs de compteur**.
 
 Un **consommateur** est un composant logiciel qui utilise des données de performances. Windows comprend plusieurs [outils intégrés](performance-counters-tools.md) qui utilisent des données de performances. Il s’agit notamment du gestionnaire des tâches, du moniteur de ressource, de l’analyseur de performances, d' typeperf.exe, logman.exe et relog.exe. Les développeurs peuvent écrire des scripts et des applications qui accèdent aux compteurs de performances via des [API de compteur de performances](consuming-counter-data.md).
 
@@ -39,7 +39,7 @@ Un **fournisseur** est un composant logiciel qui [génère et publie des donnée
 - Un **fournisseur v1** est un composant logiciel qui publie des données de performances à l’aide d’une [dll de performance](providing-counter-data-using-a-performance-dll.md) qui s’exécute dans le processus du consommateur. Un fournisseur v1 est installé sur un système par le biais d’un `.ini` fichier. L’architecture du fournisseur v1 est déconseillée. Les nouveaux fournisseurs doivent utiliser l’architecture du fournisseur v2.
 - Un **fournisseur v2** est un composant logiciel qui publie les données de performances via les [API du fournisseur de compteurs de performance](providing-counter-data-using-version-2-0.md). Un fournisseur v2 est installé sur un système via un `.man` fichier (manifeste XML).
 
-Un **CounterSet** est un regroupement de données de performances au sein d’un fournisseur. Un CounterSet a un nom et un ou plusieurs *compteurs*. La collecte des données à partir d’un CounterSet retourne un certain nombre d' *instances*. Dans certaines API Windows, les countersets sont appelés **objets de performance**. Par exemple, un fournisseur de données de performances pour un système de base de données peut fournir un CounterSet pour les statistiques par base de données.
+Un **CounterSet** est un regroupement de données de performances au sein d’un fournisseur. Un CounterSet a un nom et un ou plusieurs *compteurs*. La collecte des données à partir d’un CounterSet retourne un certain nombre d' *instances*. dans certaines api Windows, les countersets sont appelés **objets de performance**. Par exemple, un fournisseur de données de performances pour un système de base de données peut fournir un CounterSet pour les statistiques par base de données.
 
 Un **compteur** est la définition d’un élément de données de performances unique. Un compteur a un nom et un type. Par exemple, un CounterSet « statistiques par base de données » peut contenir un compteur nommé « transactions par seconde » avec le type `PERF_COUNTER_COUNTER` .
 
@@ -50,9 +50,9 @@ Une **valeur de compteur** est la valeur d’un seul élément de données de co
 > [!TIP]
 > Il peut être utile de mettre en relation les termes du compteur de performance avec des termes de feuille de calcul plus familiers. Un **CounterSet** est semblable à une table. Un **compteur** est semblable à une colonne. Une **instance** est comme une ligne. Une **valeur de compteur** est semblable à une cellule dans la table.
 
-Les **countersets à instance unique** contiennent toujours des données pour une seule instance. Cela est courant pour les countersets qui signalent des statistiques système-globales. Par exemple, Windows dispose d’un CounterSet intégré à instance unique nommé « Memory » qui rend compte de l’utilisation de la mémoire globale.
+Les **countersets à instance unique** contiennent toujours des données pour une seule instance. Cela est courant pour les countersets qui signalent des statistiques système-globales. par exemple, Windows a un counterset intégré à instance unique nommé « Memory » qui rend compte de l’utilisation de la mémoire globale.
 
-Les **Countersets multi-instances** contiennent des données pour un nombre variable d’instances. Cela est courant pour les countersets qui signalent des entités dans le système. Par exemple, Windows dispose d’un CounterSet intégré à plusieurs instances nommé « informations sur le processeur » qui signale une instance pour chaque UC installée.
+Les **Countersets multi-instances** contiennent des données pour un nombre variable d’instances. Cela est courant pour les countersets qui signalent des entités dans le système. par exemple, Windows dispose d’un counterset intégré à plusieurs instances nommé « informations sur le processeur » qui signale une instance pour chaque uc installée.
 
 Les consommateurs recueillent et enregistrent périodiquement les données du CounterSet d’un fournisseur. Par exemple, le consommateur peut collecter des données une fois par seconde ou une fois par minute. Les données collectées sont appelées **exemples**. Un exemple se compose d’horodatages et de données pour les instances du CounterSet. Les données de chaque instance incluent le nom de l’instance (chaîne) et un ensemble de valeurs de compteur (entiers, une valeur pour chaque compteur dans le CounterSet).
 
@@ -75,7 +75,7 @@ Les fournisseurs doivent se comporter comme s’ils étaient sans État. par exe
 
 ## <a name="performance-api-architecture"></a>Architecture de l’API de performances
 
-![Les applications de compteur de performance appellent des API Windows qui appellent des fournisseurs pour obtenir des données de performances.](images/architecture.png)
+![les applications de compteur de Performance appellent des api Windows qui appellent des fournisseurs pour obtenir des données de performances.](images/architecture.png)
 
 Les consommateurs des compteurs de performances sont les suivants :
 
@@ -90,14 +90,14 @@ Certains anciens consommateurs de compteurs de performances utilisent les [API d
 Certains consommateurs de compteur de performance utilisent les [fonctions de consommateur de Perflib v2](using-the-perflib-functions-to-consume-counter-data.md) pour accéder directement aux données à partir de fournisseurs v2. Cela est plus complexe que l’utilisation de données à l’aide des API PDH, mais cette approche peut être utile si les API PDH ne peuvent pas être utilisées en raison de problèmes de performances ou de dépendance. L’implémentation de PerfLib v2 prend directement en charge la collecte de données à partir de fournisseurs v2. Elle ne prend pas en charge la collecte de données à partir de fournisseurs v1.
 
 > [!NOTE]
-> Windows OneCore n’inclut pas PDH.dll et n’inclut pas la prise en charge de l’utilisation des données des compteurs de performances via les API du Registre. Les consommateurs qui s’exécutent sur OneCore doivent utiliser les fonctions de consommateur de PerfLib v2.
+> Windows OneCore n’inclut pas PDH.dll et n’inclut pas la prise en charge de l’utilisation des données des compteurs de performances via les api du registre. les consommateurs qui s’exécutent sur OneCore doivent utiliser les fonctions de consommateur de PerfLib V2.
 
-Les fournisseurs v1 sont implémentés en tant que DLL de fournisseur chargé dans le processus consommateur. L’implémentation de l’API du Registre gère le chargement de la DLL du fournisseur, l’appel de la DLL pour collecter les données de performances et le déchargement de la DLL, le cas échéant. La DLL du fournisseur est responsable de la [collecte des données de performances selon les besoins](communicating-with-your-application.md), par exemple en utilisant les API Windows normales, RPC, les canaux nommés, la mémoire partagée ou d’autres mécanismes de communication entre processus.
+Les fournisseurs v1 sont implémentés en tant que DLL de fournisseur chargé dans le processus consommateur. L’implémentation de l’API du Registre gère le chargement de la DLL du fournisseur, l’appel de la DLL pour collecter les données de performances et le déchargement de la DLL, le cas échéant. la DLL du fournisseur est responsable de la [collecte des données de performances selon les besoins](communicating-with-your-application.md), par exemple en utilisant les api de Windows normales, RPC, les canaux nommés, la mémoire partagée ou d’autres mécanismes de communication entre processus.
 
-Les fournisseurs v2 sont implémentés comme un programme en mode utilisateur (souvent un service Windows) ou un pilote en mode noyau. En général, le code du fournisseur de données de performances est intégré directement dans un composant existant (par exemple, le pilote ou le service signale des statistiques sur lui-même). L’implémentation de PerfLib v2 gère les demandes et les réponses via l’extension du noyau PCW.sys, de sorte que le fournisseur n’a généralement pas besoin d’implémenter de communication interprocessus pour fournir les données de performances.
+les fournisseurs V2 sont implémentés sous la forme d’un programme en mode utilisateur (souvent un service Windows) ou d’un pilote en mode noyau. En général, le code du fournisseur de données de performances est intégré directement dans un composant existant (par exemple, le pilote ou le service signale des statistiques sur lui-même). L’implémentation de PerfLib v2 gère les demandes et les réponses via l’extension du noyau PCW.sys, de sorte que le fournisseur n’a généralement pas besoin d’implémenter de communication interprocessus pour fournir les données de performances.
 
 > [!NOTE]
-> Les API et les outils du compteur de performances Windows incluent une prise en charge limitée de l’accès aux compteurs de performances à partir d’autres ordinateurs via le Registre distant (pour les fournisseurs v1) et RPC (pour les fournisseurs v2). Cette prise en charge est souvent difficile à utiliser en termes de contrôles d’authentification (les outils et les API peuvent uniquement s’authentifier en tant qu’utilisateur actuel), ainsi qu’en termes de [configuration du système](accessing-remote-counter-data.md) (les points de terminaison et les services nécessaires sont désactivés par défaut). Dans de nombreux cas, il est préférable d’accéder aux compteurs de performance des systèmes distants via [WMI](/windows/desktop/WmiSdk/monitoring-performance-data) plutôt qu’à l’aide de la prise en charge intégrée de l’accès à distance.
+> Windows Les API et les outils du compteur de performances incluent une prise en charge limitée de l’accès aux compteurs de performances à partir d’autres ordinateurs via le Registre distant (pour les fournisseurs v1) et RPC (pour les fournisseurs v2). Cette prise en charge est souvent difficile à utiliser en termes de contrôles d’authentification (les outils et les API peuvent uniquement s’authentifier en tant qu’utilisateur actuel), ainsi qu’en termes de [configuration du système](accessing-remote-counter-data.md) (les points de terminaison et les services nécessaires sont désactivés par défaut). Dans de nombreux cas, il est préférable d’accéder aux compteurs de performance des systèmes distants via [WMI](/windows/desktop/WmiSdk/monitoring-performance-data) plutôt qu’à l’aide de la prise en charge intégrée de l’accès à distance.
 
 ## <a name="developer-audience"></a>Développeurs concernés
 

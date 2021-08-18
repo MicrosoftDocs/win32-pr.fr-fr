@@ -4,12 +4,12 @@ ms.assetid: 19b99228-a1fc-4cd5-8f37-5462bf767f85
 title: Commande IMC_SETCOMPOSITIONWINDOW (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b06c53b1ff2ec343d6382dd48d0d4108cf403c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bb1fe35ecd530e8173b7ea57f7c6ff414105d09507a11bf4eed29ab0595e604
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107259"
 ---
 # <a name="imc_setcompositionwindow-command"></a>\_Commande IMC SETCOMPOSITIONWINDOW
 
@@ -44,7 +44,7 @@ Pointeur vers une structure [**COMPOSITIONFORM**](/windows/win32/api/imm/ns-imm-
 
 Retourne 0 en cas de réussite, ou une valeur différente de zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette commande définit le style dans le contexte d’entrée actuel, et le style est ensuite appliqué à chaque fenêtre IME qui reçoit ce contexte d’entrée.
 
@@ -58,7 +58,7 @@ Par défaut, la fenêtre IME a le \_ style point cfs. Avec ce style, la fenêtre
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

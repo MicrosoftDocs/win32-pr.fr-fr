@@ -1,21 +1,21 @@
 ---
-description: Le contrôle bitmap affiche un fichier image statique JPEG ou bitmap. Le Windows Installer détermine automatiquement le format des données binaires et affiche l’image. Le contrôle ne prend pas en charge l’animation.
+description: Le contrôle bitmap affiche un fichier image statique JPEG ou bitmap. le Windows Installer détermine automatiquement le format des données binaires et affiche l’image. Le contrôle ne prend pas en charge l’animation.
 ms.assetid: 4b511d8a-1819-4a9b-a942-dc32fade75c6
 title: Contrôle bitmap
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 058b67d52266906735719976bf7311b4f562b474
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f677a7745d3920d5fee44cd64489f9f2c69f8cdb1fb697a0020046a92583e569
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045229"
 ---
 # <a name="bitmap-control"></a>Contrôle bitmap
 
-Le contrôle bitmap affiche un fichier image statique JPEG ou bitmap. Le Windows Installer détermine automatiquement le format des données binaires et affiche l’image. Le contrôle ne prend pas en charge l’animation.
+Le contrôle bitmap affiche un fichier image statique JPEG ou bitmap. le Windows Installer détermine automatiquement le format des données binaires et affiche l’image. Le contrôle ne prend pas en charge l’animation.
 
-**Windows 8 et Windows Server 2012 :** Le fichier image peut être dans n’importe quel format standard pris en charge par le composant WIC (Windows Imaging Component), notamment TIFF, JPEG, PNG, GIF, BMP et HDPhoto. Le contrôle ne prend pas en charge l’animation.
+**Windows 8 et Windows Server 2012 :** le fichier image peut être dans n’importe quel format standard pris en charge par le composant WIC (Windows Imaging Component), notamment TIFF, JPEG, PNG, GIF, BMP et HDPhoto. Le contrôle ne prend pas en charge l’animation.
 
 ## <a name="control-attributes"></a>Attributs du contrôle
 
@@ -35,7 +35,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce contrôle peut être créé à partir de la classe statique à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les **styles \_ SS bitmap**, **SS \_ CENTERIMAGE**, **WS \_ Child** et **WS \_ Group** .
 

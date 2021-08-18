@@ -1,29 +1,29 @@
 ---
 title: Compilation du balisage du ruban
-description: Pour que l’infrastructure du ruban Windows utilise le fichier de balisage du ruban, le fichier de balisage doit être compilé dans un fichier de ressources au format binaire.
+description: pour que l’infrastructure du ruban Windows utilise le fichier de balisage du ruban, le fichier de balisage doit être compilé dans un fichier de ressources au format binaire.
 ms.assetid: ef9fea92-8c67-461d-9d74-2e259e407fb0
 keywords:
-- Ruban Windows, compiler le balisage
+- Windows Ruban, compiler le balisage
 - Ruban, compiler le balisage
-- Ruban Windows, flux de travail du compilateur
+- Windows Ruban, flux de travail du compilateur
 - Ruban, flux de travail du compilateur
-- Ruban Windows, compilateur de commandes d’interface utilisateur (UICC.exe)
+- Windows Ruban, compilateur de commandes d’interface utilisateur (UICC.exe)
 - Ruban, compilateur de commandes d’interface utilisateur (UICC.exe)
 - Compilateur de commandes d’interface utilisateur (UICC.exe)
 - UICC.exe (compilateur de commandes d’interface utilisateur)
-- compilation du balisage du ruban Windows
+- compilation Windows balisage du ruban
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f671e03d7d3a941f1c97891d87c170e65e326d70
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 85534a05b3bde59cc2ec0eec482d8c3b47e898d39ad988c595fbac33eb5e9f36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932562"
 ---
 # <a name="compiling-ribbon-markup"></a>Compilation du balisage du ruban
 
-Pour que l’infrastructure du ruban Windows utilise le fichier de [balisage du ruban](windowsribbon-schema.md) , le fichier de balisage doit être compilé dans un fichier de ressources au format binaire. Un compilateur de balisage dédié, le compilateur de commandes d’interface utilisateur (UICC), est inclus dans le kit de développement logiciel (SDK) Windows (7,0 ou version ultérieure) à cet effet. En plus de compiler la version binaire du balisage, UICC génère un fichier d’en-tête de définition d’ID (. h) qui expose tous les éléments de balisage à l’application hôte du ruban et un fichier de ressources (. RC) qui est utilisé pour lier des ressources d’image et de chaîne à l’application hôte au moment de la génération.
+pour que l’infrastructure du ruban Windows utilise le fichier de [balisage du ruban](windowsribbon-schema.md) , le fichier de balisage doit être compilé dans un fichier de ressources au format binaire. un compilateur de balisage dédié, le compilateur de commandes d’interface utilisateur (UICC), est inclus dans le kit de développement logiciel (SDK) Windows (7,0 ou version ultérieure) à cet effet. En plus de compiler la version binaire du balisage, UICC génère un fichier d’en-tête de définition d’ID (. h) qui expose tous les éléments de balisage à l’application hôte du ruban et un fichier de ressources (. RC) qui est utilisé pour lier des ressources d’image et de chaîne à l’application hôte au moment de la génération.
 
 -   [Flux de travail du compilateur](#compiler-workflow)
 -   [Syntaxe de la ligne de commande](#command-line-syntax)

@@ -8,12 +8,12 @@ keywords:
 - extensions ADSI, résolution des conflits de noms de fonctions et de propriétés dans Automation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9a7ac99b99ecdf0ee1b940f066d9e8166a15542
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 53701c95672fe209cb57a15e3292e1269dc37e66e36f041110dd502f8a8a1486
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637539"
 ---
 # <a name="resolution-of-functionproperty-name-conflicts-in-automation-in-extensions"></a>Résolution des conflits de nom de fonction/propriété dans l’automatisation dans les extensions
 
@@ -49,10 +49,10 @@ Pour réduire ce problème, les développeurs d’extensions peuvent préfixer l
 
 En cas de conflit de noms, les clients ADSI peuvent éviter le problème par l’accès direct à la vtable si l’interface est une interface double. Si l’accès direct à vtable n’est pas possible, les clients ADSI doivent appeler [**IDispatch :: GetIDsOfNames**](/windows/win32/api/oaidl/nf-oaidl-idispatch-getidsofnames) avec plusieurs noms, en spécifiant les noms de fonction ainsi que les paramètres du tableau *rgszNames* décrits précédemment.
 
-Visual Basic 5 n’appelle pas la fonction [**IDispatch :: GetIDsOfNames**](/windows/win32/api/oaidl/nf-oaidl-idispatch-getidsofnames) avec plusieurs noms. Autrement dit, il passe uniquement le nom de la fonction à **GetIDsOfNames**, mais pas aux arguments. Toutefois, Visual Basic 5 permet aux utilisateurs d’appeler une fonction par l’accès direct à la vtable, au lieu d’appeler la fonction **IDispatch :: GetIDsOfNames** si l’interface est une interface double. Les développeurs doivent utiliser l’accès direct à la vtable, si possible.
+Visual Basic 5 n’appelle pas la fonction [**IDispatch :: GetIDsOfNames**](/windows/win32/api/oaidl/nf-oaidl-idispatch-getidsofnames) avec plusieurs noms. Autrement dit, il passe uniquement le nom de la fonction à **GetIDsOfNames**, mais pas aux arguments. toutefois, Visual Basic 5 permet aux utilisateurs d’appeler une fonction par l’accès direct à la vtable, au lieu d’appeler la fonction **IDispatch :: GetIDsOfNames** si l’interface est une interface double. Les développeurs doivent utiliser l’accès direct à la vtable, si possible.
 
 Pour plus d’informations sur la résolution des conflits de noms, consultez l' [exemple relatif à la résolution des conflits de noms de fonctions](example-for-resolving-function-name-conflicts.md).
 
- 
+ 
 
- 
+ 

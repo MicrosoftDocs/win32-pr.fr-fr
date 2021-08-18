@@ -4,12 +4,12 @@ description: Cet article se concentre sur la meilleure façon d’optimiser les 
 ms.assetid: 0138a248-e8e0-a392-564e-7a9229b94b56
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ebe2abd9487d95b8fe12aa3c6938e21d72d8e2f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7d7a6efe6916ad8605e3cdc056ffd716ac5113b66c022b0a95fd8a78b1a62e30
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042389"
 ---
 # <a name="taking-advantage-of-high-definition-mouse-movement"></a>Tirer parti du High-Definition mouvement de la souris
 
@@ -43,7 +43,7 @@ case WM_MOUSEMOVE:
 
 Le principal inconvénient des données de WM \_ MOUSEMOVE est qu’elles sont limitées à la résolution d’écran. Cela signifie que si vous déplacez légèrement la souris, mais pas assez pour faire passer le pointeur au pixel suivant, aucun \_ message WM MOUSEMOVE n’est généré. Par conséquent, l’utilisation de cette méthode pour lire le mouvement de la souris nie les avantages de l’entrée haute définition.
 
-L’avantage de WM \_ MOUSEMOVE, cependant, est que Windows applique l’accélération de pointeur (également appelée « balistiques ») aux données de souris brutes, ce qui fait que le pointeur de la souris se comporte comme les attentes des clients. Il fait \_ en sorte que WM MOUSEMOVE l’option préférée pour le contrôle de pointeur (sur l' \_ entrée WM ou DirectInput), car il produit un comportement plus naturel pour les utilisateurs. Alors que WM \_ MOUSEMOVE est idéal pour déplacer des pointeurs de souris, ce n’est pas si bon pour déplacer une caméra de première personne, puisque la précision haute définition sera perdue.
+l’avantage de WM \_ MOUSEMOVE, cependant, est que Windows applique l’accélération de pointeur (également appelée « balistiques ») aux données de souris brutes, ce qui fait que le pointeur de la souris se comporte comme prévu par les clients. Il fait \_ en sorte que WM MOUSEMOVE l’option préférée pour le contrôle de pointeur (sur l' \_ entrée WM ou DirectInput), car il produit un comportement plus naturel pour les utilisateurs. Alors que WM \_ MOUSEMOVE est idéal pour déplacer des pointeurs de souris, ce n’est pas si bon pour déplacer une caméra de première personne, puisque la précision haute définition sera perdue.
 
 Pour plus d’informations sur WM \_ MouseMove, consultez [**WM \_ MouseMove**](/windows/desktop/inputdev/wm-mousemove).
 
@@ -93,13 +93,13 @@ case WM_INPUT:
 
 L’avantage d’utiliser l' \_ entrée WM est que votre jeu reçoit des données brutes de la souris au niveau le plus bas possible.
 
-L’inconvénient est que l' \_ entrée WM n’a pas de balistiques appliquée à ses données. par conséquent, si vous souhaitez diriger un curseur avec ces données, un effort supplémentaire sera nécessaire pour que le curseur se comporte comme dans Windows. Pour plus d’informations sur l’application des balistiques de pointeurs, consultez [pointeurs balistiques pour Windows XP](https://www.microsoft.com/whdc/archive/pointer-bal.mspx).
+L’inconvénient est que l' \_ entrée WM n’a pas de balistiques appliquée à ses données. par conséquent, si vous souhaitez diriger un curseur avec ces données, un effort supplémentaire sera nécessaire pour que le curseur se comporte comme dans Windows. pour plus d’informations sur l’application des balistiques de pointeurs, consultez [pointeurs balistiques pour Windows XP](https://www.microsoft.com/whdc/archive/pointer-bal.mspx).
 
 Pour plus d’informations sur l' \_ entrée WM, consultez [à propos des entrées brutes](/windows/desktop/inputdev/about-raw-input).
 
 ### <a name="directinput"></a>DirectInput
 
-[DirectInput](/windows-hardware/drivers/hid/directinput) est un ensemble d’appels d’API qui soustrait les périphériques d’entrée sur le système. En interne, DirectInput crée un deuxième thread pour lire \_ les données d’entrée WM et l’utilisation des API DirectInput ajoute une charge mémoire supplémentaire par rapport à la simple lecture directe de l' \_ entrée WM. DirectInput est utile uniquement pour lire des données à partir de manettes de manche DirectInput ; Toutefois, si vous devez uniquement prendre en charge le contrôleur Xbox 360 pour Windows, utilisez [XInput](/windows/desktop/xinput/xinput-game-controller-apis-portal) à la place. En général, l’utilisation de DirectInput n’offre aucun avantage lors de la lecture de données à partir de périphériques de souris ou de clavier, et l’utilisation d’DirectInput dans ces scénarios est déconseillée.
+[DirectInput](/windows-hardware/drivers/hid/directinput) est un ensemble d’appels d’API qui soustrait les périphériques d’entrée sur le système. En interne, DirectInput crée un deuxième thread pour lire \_ les données d’entrée WM et l’utilisation des API DirectInput ajoute une charge mémoire supplémentaire par rapport à la simple lecture directe de l' \_ entrée WM. DirectInput est utile uniquement pour lire des données à partir de manettes de manche DirectInput ; toutefois, si vous devez uniquement prendre en charge le contrôleur Xbox 360 pour Windows, utilisez [XInput](/windows/desktop/xinput/xinput-game-controller-apis-portal) à la place. En général, l’utilisation de DirectInput n’offre aucun avantage lors de la lecture de données à partir de périphériques de souris ou de clavier, et l’utilisation d’DirectInput dans ces scénarios est déconseillée.
 
 Comparez la complexité de l’utilisation de [DirectInput](/windows-hardware/drivers/hid/directinput), illustrée dans le code suivant, aux méthodes décrites précédemment. L’ensemble d’appels suivant est nécessaire pour créer une souris DirectInput :
 
@@ -161,4 +161,4 @@ int yPosRelative = dims2.lY;
 
 ## <a name="summary"></a>Résumé
 
-Globalement, la meilleure méthode pour recevoir les données de déplacement de souris haute définition est l' \_ entrée WM. Si vos utilisateurs déplacent simplement un pointeur de souris, envisagez d’utiliser WM \_ MOUSEMOVE pour éviter d’avoir à effectuer des balistiques de pointeur. Ces deux messages de fenêtre fonctionnent bien même si la souris n’est pas une souris de haute définition. En prenant en charge la haute définition, les jeux Windows peuvent offrir un contrôle plus précis aux utilisateurs.
+Globalement, la meilleure méthode pour recevoir les données de déplacement de souris haute définition est l' \_ entrée WM. Si vos utilisateurs déplacent simplement un pointeur de souris, envisagez d’utiliser WM \_ MOUSEMOVE pour éviter d’avoir à effectuer des balistiques de pointeur. Ces deux messages de fenêtre fonctionnent bien même si la souris n’est pas une souris de haute définition. en prenant en charge la haute définition, Windows jeux peuvent offrir un contrôle plus précis aux utilisateurs.

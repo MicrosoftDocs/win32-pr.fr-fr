@@ -4,12 +4,12 @@ ms.assetid: 0bbb4f51-78c3-4455-bd96-9a6d80110220
 title: MFPKEY_DESIRED_VBRQUALITY, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8aa0f2cf86db076fa211f9c850db15de730a3a14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f52ab8cc791a5309b5df6537d133bce68e49d66a15ab79c12beeb7411cece8e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106542925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939942"
 ---
 # <a name="mfpkey_desired_vbrquality-property"></a>MFPKEY \_ \_ propriété VBRQUALITY souhaitée
 
@@ -27,7 +27,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 0
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette valeur peut être comprise entre 0 et 100, où 100 correspond à la qualité maximale. La valeur 0 indique que la méthode d’encodage VBR basé sur la qualité ne doit pas être utilisée.
 
@@ -43,8 +43,8 @@ Pour énumérer les modes VBR qui répondent à un certain besoin de qualité, d
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

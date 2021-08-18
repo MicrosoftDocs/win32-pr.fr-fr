@@ -4,12 +4,12 @@ ms.assetid: 8ee592ff-387e-449e-8e3f-4f6407166fe5
 title: Cycle de vie d’un fournisseur de services de téléphonie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 830bc16ca606bb5bd38c4bce7c1e6e39dadb65a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6282f4e7b946ffb79bd6233688869616cc0b0259a1d491834452290474c552a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104569689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012697"
 ---
 # <a name="life-cycle-of-a-telephony-service-provider"></a>Cycle de vie d’un fournisseur de services de téléphonie
 
@@ -29,7 +29,7 @@ La négociation d’une version d’extension spécifique à l’appareil peut s
 
 Cela permet de valider l’utilisation de l’interface TAPI et du fournisseur de services au niveau de la version de l’extension jusqu’à ce que la sélection soit annulée. Pendant la durée pendant laquelle une extension spécifique à l’appareil est en vigueur, une tentative de négociation d’un niveau de version d’extension doit autoriser uniquement le niveau de version qui est actuellement en vigueur. Une fois l’extension spécifique à l’appareil annulée, une version différente peut être négociée et sélectionnée.
 
-Les opérations de téléphone au sein de la paire **ouverture/fermeture** sont présentées dans l’illustration suivante. Certaines de ces opérations sont synchrones, d’autres sont asynchrones. Si une opération se termine de façon asynchrone, une autre opération peut être demandée avant la fin du premier rapport. Ainsi, les opérations peuvent se chevaucher de quelque manière que ce soit. Le fournisseur de services doit finalement signaler l’achèvement de toute opération asynchrone demandée. La fermeture d’un téléphone force l’exécution des opérations asynchrones en suspens (éventuellement avec une indication « échec »).
+les opérations de Téléphone au sein de la paire **ouverture/fermeture** sont présentées dans l’illustration suivante. Certaines de ces opérations sont synchrones, d’autres sont asynchrones. Si une opération se termine de façon asynchrone, une autre opération peut être demandée avant la fin du premier rapport. Ainsi, les opérations peuvent se chevaucher de quelque manière que ce soit. Le fournisseur de services doit finalement signaler l’achèvement de toute opération asynchrone demandée. La fermeture d’un téléphone force l’exécution des opérations asynchrones en suspens (éventuellement avec une indication « échec »).
 
 Le cycle de vie des appareils en ligne est similaire au cycle de vie des téléphones, à ceci près que les lignes ont leurs propres procédures de négociation, d’initialisation, d’ouverture et de fermeture. Les opérations sur les lignes ouvertes sont placées entre crochets par leur propre paire **ouvrir/fermer** . Cette paire est à son tour comprise entre la même paire **d’initialisation et d’arrêt** que le téléphone **ouvrir/fermer**.
 

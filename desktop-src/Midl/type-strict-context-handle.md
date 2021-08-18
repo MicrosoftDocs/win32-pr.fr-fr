@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e16c9ae74d618b1b0cafef2c5bf618085d79284
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ef7e10c6231ac41287a08df7b9a0fa4e5361eddec9eb72bb6059b9f00dea5106
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104462982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105619"
 ---
 # <a name="type_strict_context_handle-attribute"></a>\_attribut de \_ handle de contexte strict \_
 
@@ -59,7 +59,7 @@ Une ou plusieurs instructions MIDL qui définissent les éléments de l' [**inte
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour pouvoir utiliser cet attribut, l’indicateur-target doit avoir la valeur NT60 (ou une version ultérieure) lors de l’exécution de midl.exe.
 
@@ -103,6 +103,6 @@ Un handle de contexte attribué avec un \[ handle de contexte de type \_ strict 
 [\_handle de contexte strict \_](strict-context-handle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

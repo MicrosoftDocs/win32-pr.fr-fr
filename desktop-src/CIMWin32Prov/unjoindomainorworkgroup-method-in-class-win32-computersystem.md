@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1c6942c5367b6deb02accd9d06927a4d923fa8f5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 992aa6c84f912f705e02252d1ac6d24422934edb991c049de188ab5fb0ccbfa8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105069"
 ---
 # <a name="unjoindomainorworkgroup-method-of-the-win32_computersystem-class"></a>Méthode UnjoinDomainOrWorkgroup de la \_ classe Win32 ComputerSystem
 
@@ -109,7 +109,7 @@ La méthode **UnjoinDomainOrWorkgroup** retourne 0 (zéro) en cas de réussite o
 **Autre** (1 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Après avoir appelé cette méthode, redémarrez l’ordinateur affecté pour appliquer les modifications.
 

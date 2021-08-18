@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: Création d’un fournisseur d’instances dans un fournisseur de High-Performance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10744b110463a3207f76bb55d48a8045ec22783d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2b6326c0af270088c37bb2a1798951ba0a9de7afe65ec593f5f7ab6768b83b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996489"
 ---
 # <a name="making-an-instance-provider-into-a-high-performance-provider"></a>Création d’un fournisseur d’instances dans un fournisseur de High-Performance
 
-L’écriture d’un fournisseur de performances élevées WMI pour créer des compteurs de performance n’est pas recommandée. À compter de Windows Vista, les [classes de compteur de performance](/windows/desktop/CIMWin32Prov/performance-counter-classes) WMI ne sont plus migrées dans les bibliothèques de performances Windows par l’adaptateur inverse AutoDiscovery/AutoPurge (ADAP). Pour créer un fournisseur de compteurs de performance, utilisez les [compteurs de performance Version 2,0](/windows/desktop/PerfCtrs/performance-counters-portal). Une fois les objets de bibliothèque de performances créés, le [fournisseur wmiperfclass](wmiperfclass-provider.md) analyse les objets et crée ou actualise une classe WMI dérivée de la [**\_ performance Win32**](/windows/desktop/CIMWin32Prov/win32-perf) pour chaque objet de performance. Le [fournisseur WMIPerfInst](wmiperfinst-provider.md) fournit ensuite dynamiquement des données de compteur de performances brutes et mises en forme aux classes de performance WMI.
+L’écriture d’un fournisseur de performances élevées WMI pour créer des compteurs de performance n’est pas recommandée. à partir de Windows Vista, les [Classes de compteur de performance](/windows/desktop/CIMWin32Prov/performance-counter-classes) WMI ne sont plus migrées dans les bibliothèques de performances Windows par l’adaptateur inverse autodiscovery/autopurge (ADAP). Pour créer un fournisseur de compteurs de performance, utilisez les [compteurs de performance Version 2,0](/windows/desktop/PerfCtrs/performance-counters-portal). Une fois les objets de bibliothèque de performances créés, le [fournisseur wmiperfclass](wmiperfclass-provider.md) analyse les objets et crée ou actualise une classe WMI dérivée de la [**\_ performance Win32**](/windows/desktop/CIMWin32Prov/win32-perf) pour chaque objet de performance. Le [fournisseur WMIPerfInst](wmiperfinst-provider.md) fournit ensuite dynamiquement des données de compteur de performances brutes et mises en forme aux classes de performance WMI.
 
 La procédure de haut niveau suivante fournit les étapes nécessaires à la création d’un fournisseur à hautes performances.
 

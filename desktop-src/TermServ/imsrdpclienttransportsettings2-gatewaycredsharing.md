@@ -19,16 +19,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 329e425631b674e050f246c4105115bd4326be3d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d6d489678006e842a6da82f5d2f9489f84a9a20fd70bfe8f18018aaa6d412c5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119974649"
 ---
 # <a name="imsrdpclienttransportsettings2gatewaycredsharing-property"></a>IMsRdpClientTransportSettings2 :: GatewayCredSharing, propriété
 
-Spécifie ou récupère le paramètre déterminant si Bureau à distance la fonctionnalité de partage des informations d’identification de la passerelle des services Bureau à distance est activée. Lorsque la fonctionnalité est activée, le contrôle ActiveX Bureau à distance tente d’utiliser les mêmes informations d’identification pour s’authentifier auprès du serveur hôte de session Bureau à distance (hôte de session Bureau à distance) et au serveur de passerelle Bureau à distance.
+Spécifie ou récupère le paramètre déterminant si Bureau à distance la fonctionnalité de partage des informations d’identification de la passerelle des services Bureau à distance est activée. lorsque la fonctionnalité est activée, le contrôle de ActiveX Bureau à distance tente d’utiliser les mêmes informations d’identification pour s’authentifier auprès du serveur hôte de session Bureau à distance (hôte de session bureau à distance) et au serveur de passerelle bureau à distance.
 
 Cette propriété est en lecture/écriture.
 
@@ -55,9 +55,9 @@ Si la valeur est 1, le partage des informations d’identification est activé. 
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée par le contrôle ActiveX pour implémenter une invite unique pour le partage des informations d’identification entre le serveur hôte de session Bureau à distance et le serveur de passerelle Bureau à distance. Le partage des informations d’identification ne prend pas en charge le partage de mot de passe basé sur le Web avec [**GatewayPassword**](imsrdpclienttransportsettings2-gatewaypassword.md) ou [**ClearTextPassword**](imstscnonscriptable-cleartextpassword.md).
+cette propriété est utilisée par le contrôle ActiveX pour implémenter une invite unique pour le partage des informations d’identification entre le serveur hôte de Session bureau à distance et le serveur de passerelle bureau à distance. Le partage des informations d’identification ne prend pas en charge le partage de mot de passe basé sur le Web avec [**GatewayPassword**](imsrdpclienttransportsettings2-gatewaypassword.md) ou [**ClearTextPassword**](imstscnonscriptable-cleartextpassword.md).
 
 ## <a name="requirements"></a>Configuration requise
 

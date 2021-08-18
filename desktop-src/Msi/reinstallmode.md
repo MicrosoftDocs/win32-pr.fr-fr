@@ -4,19 +4,19 @@ ms.assetid: 756d2899-2cfe-473a-bebf-a7f7bbe7d229
 title: REINSTALLMODE, propriété
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab48043ef92770cbc3a1f5ab92e459128c9945ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 227a069fa0974758bf623c83ef23d40902d9feb140f69446c57c2d723468054f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637875"
 ---
 # <a name="reinstallmode-property"></a>REINSTALLMODE, propriété
 
 La propriété **REINSTALLMODE** est une chaîne qui contient des lettres spécifiant le type de réinstallation à effectuer. Les options ne respectent pas la casse et sont indépendantes de la commande. Normalement, cette propriété doit toujours être utilisée conjointement avec la propriété [**REINSTALL**](reinstall.md) . Toutefois, cette propriété peut également être utilisée pendant l’installation, et pas seulement pour la réinstallation.
 
 > [!Note]  
-> Le Windows Installer ignore la propriété **REINSTALLMODE** pendant une [installation d’administration](administrative-installation.md).
+> le Windows Installer ignore la propriété **REINSTALLMODE** pendant une [installation d’administration](administrative-installation.md).
 
  
 
@@ -58,7 +58,7 @@ Les codes d’option de cette propriété correspondent à l' [option de ligne d
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

@@ -3,7 +3,7 @@ title: enregistrer, commande
 description: La commande d’enregistrement démarre l’enregistrement des données. Les périphériques VCR et Waveform-Audio reconnaissent cette commande. Bien que les périphériques vidéo numériques et les séquenceurs MIDI reconnaissent également cette commande, les pilotes MCIAVI et MCISEQ ne les implémentent pas.
 ms.assetid: a0838153-5ac2-437f-ae1e-0c4f950fcac5
 keywords:
-- commande d’enregistrement Windows Multimedia
+- commande enregistrer Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b39d3659d4577517726260f948563cd31ecc07bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f326b13d86f073074ef2c1119d449e297e65e7d3accb22d9858e5c1579493c01
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037559"
 ---
 # <a name="record-command"></a>enregistrer, commande
 
@@ -98,7 +98,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’enregistrement s’arrête lorsqu’une commande [Stop](stop.md) ou [Pause](pause.md) est émise. Pour le pilote MCIWAVE, toutes les données enregistrées après l’ouverture d’un fichier sont ignorées si le fichier est fermé sans l’enregistrer.
 

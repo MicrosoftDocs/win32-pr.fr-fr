@@ -4,16 +4,16 @@ ms.assetid: 1fc74db6-c23a-464f-b9fa-b19d7e8672b7
 title: Utilisation de CUnknown
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c1758065e8d618bf6ca74b37d98b0a8b5425919
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e211ebf8c581502665c5f07b3720759efc7afab75a05a49a68f9945029dd6cce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051379"
 ---
 # <a name="using-cunknown"></a>Utilisation de CUnknown
 
-DirectShow implémente [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) dans une classe de base appelée [**CUnknown**](cunknown.md). Vous pouvez utiliser **CUnknown** pour dériver d’autres classes, en substituant uniquement les méthodes qui changent d’un composant à l’autre. La plupart des autres classes de base de DirectShow dérivant de **CUnknown**, votre composant peut hériter directement de **CUnknown** ou d’une autre classe de base.
+DirectShow implémente [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) dans une classe de base appelée [**CUnknown**](cunknown.md). Vous pouvez utiliser **CUnknown** pour dériver d’autres classes, en substituant uniquement les méthodes qui changent d’un composant à l’autre. la plupart des autres classes de base de DirectShow dérivent de **CUnknown**, de sorte que votre composant peut hériter directement de **CUnknown** ou d’une autre classe de base.
 
 ## <a name="inondelegatingunknown"></a>INonDelegatingUnknown
 
@@ -120,7 +120,7 @@ Cet exemple illustre les points suivants :
 -   Pour prendre en charge une interface autre que [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown), la classe dérivée doit substituer la méthode [**NonDelegatingQueryInterface**](cunknown-nondelegatingqueryinterface.md) et tester l’IID de la nouvelle interface.
 -   Le constructeur de classe appelle la méthode de constructeur pour [**CUnknown**](cunknown.md).
 
-L’étape suivante de l’écriture d’un filtre consiste à permettre à une application de créer de nouvelles instances du composant. Cela nécessite une compréhension des dll et de leur relation avec les fabriques de classes et les méthodes de constructeur de classe. Pour plus d’informations, voir [How to Create a DirectShow Filter dll](how-to-create-a-dll.md).
+L’étape suivante de l’écriture d’un filtre consiste à permettre à une application de créer de nouvelles instances du composant. Cela nécessite une compréhension des dll et de leur relation avec les fabriques de classes et les méthodes de constructeur de classe. pour plus d’informations, voir [How to create a DirectShow Filter DLL](how-to-create-a-dll.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

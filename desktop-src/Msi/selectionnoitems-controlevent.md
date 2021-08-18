@@ -4,12 +4,12 @@ ms.assetid: a79abd77-a6e5-4a1f-8a63-51644151404a
 title: SelectionNoItems ControlEvent,
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6544dfcaad3d22b63d71703ea95d1aa4f09a1efd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17220849c6bf50a28a0a0596bcd347e2f0a4c5af77cb53c9d9fa0041ced59abe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040459"
 ---
 # <a name="selectionnoitems-controlevent"></a>SelectionNoItems ControlEvent,
 
@@ -25,7 +25,7 @@ Cet événement peut affecter uniquement les contrôles qui se trouvent dans la 
 
 ## <a name="argument"></a>Argument
 
-Aucun
+Aucun.
 
 ## <a name="action-on-subscribers"></a>Action sur les abonnés
 

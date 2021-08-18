@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 763b2b4a612596c5f02a9826ad2e9c09ab8e4b0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb3074a7b55ce03e7372491fce11160f1df1bc5fc8a4e45ad0f12d4538d4b2f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009399"
 ---
 # <a name="ienumuseridentitynext-method"></a>IEnumUserIdentity :: Next, méthode
 
@@ -64,7 +64,7 @@ Adresse d’un pointeur qui reçoit les interfaces.
 *pceltFetched* \[ à\]
 </dt> <dd>
 
-Type : **ULong \** _
+Type : **ULong \***
 
 Adresse d’un pointeur qui reçoit le nombre d’interfaces récupérées avec succès.
 
@@ -72,24 +72,24 @@ Adresse d’un pointeur qui reçoit le nombre d’interfaces récupérées avec 
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 [**IEnumUserIdentity**](ienumuseridentity.md) conserve un nombre interne qui spécifie l’interface qui sera ensuite récupérée. Plusieurs appels à cette méthode ne réinitialisent pas ce nombre. Pour réinitialiser le compte, appelez [**IEnumUserIdentity :: Reset**](ienumuseridentity-reset.md). Pour incrémenter le nombre sans récupérer les interfaces, appelez [**IEnumUserIdentity :: Skip**](ienumuseridentity-skip.md).
 
 La valeur de *celt* ne doit pas dépasser la valeur retournée par [**IEnumUserIdentity :: GetCount**](ienumuseridentity-getcount.md).
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                  |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                         |
 | En-tête<br/>                   | <dl> <dt>Msident. h</dt> </dl>   |

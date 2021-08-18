@@ -1,19 +1,19 @@
 ---
-description: L’exemple de script de cette rubrique montre comment utiliser Windows Update Agent (WUA) pour analyser, télécharger et installer des mises à jour.
+description: l’exemple de script de cette rubrique montre comment utiliser Windows Update Agent (WUA) pour analyser, télécharger et installer des mises à jour.
 ms.assetid: 4b2b1898-64f1-4908-98b7-ea87a6fcb71d
 title: Recherche, téléchargement et installation des mises à jour
 ms.topic: article
 ms.date: 01/16/2020
-ms.openlocfilehash: 289e0535bc39ca3fb39ddb33bbc67d009898b556
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: bfb112533dd30ed203ab44104a0ef241ccf93504376637c07f1527ff3cca79f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106535216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994239"
 ---
 # <a name="searching-downloading-and-installing-updates"></a>Recherche, téléchargement et installation des mises à jour
 
-L’exemple de script de cette rubrique montre comment utiliser Windows Update Agent (WUA) pour analyser, télécharger et installer des mises à jour.
+l’exemple de script de cette rubrique montre comment utiliser Windows Update Agent (WUA) pour analyser, télécharger et installer des mises à jour.
 
 L’exemple recherche toutes les mises à jour logicielles applicables, puis répertorie ces mises à jour. Ensuite, il crée une collection de mises à jour à télécharger, puis les télécharge. Enfin, il crée une collection de mises à jour à installer, puis les installe.
 
@@ -23,14 +23,14 @@ Avant de tenter d’exécuter cet exemple, notez les points suivants :
 
 -   WUA doit être installé sur l’ordinateur. Pour plus d’informations sur la façon de déterminer la version de WUA installée, consultez [détermination de la version actuelle de WUA](determining-the-current-version-of-wua.md).
 -   L’exemple peut télécharger des mises à jour uniquement à l’aide de WUA. Il ne peut pas télécharger les mises à jour à partir d’un serveur SUS (Software Update Services) 1,0.
--   L’exécution de cet exemple nécessite Windows Script Host (WSH). Pour plus d’informations sur WSH, consultez la section WSH du kit de développement logiciel (SDK) de la plateforme. Si l’exemple est copié dans un fichier nommé WUA \_SearchDownloadInstall.vbs, vous pouvez exécuter l’exemple en ouvrant une fenêtre d’invite de commandes et en tapant la commande suivante à l’invite de commandes.
+-   l’exécution de cet exemple requiert Windows Script Host (WSH). Pour plus d’informations sur WSH, consultez la section WSH du kit de développement logiciel (SDK) de la plateforme. Si l’exemple est copié dans un fichier nommé WUA \_SearchDownloadInstall.vbs, vous pouvez exécuter l’exemple en ouvrant une fenêtre d’invite de commandes et en tapant la commande suivante à l’invite de commandes.
 
     **cscript WUA \_SearchDownloadInstall.vbs**
 
 ## <a name="example"></a>Exemple
 
 > [!IMPORTANT]
-> Ce script est destiné à illustrer l’utilisation des API d’agent Windows Update et fournit un exemple de la façon dont les développeurs peuvent utiliser ces API pour résoudre les problèmes. Ce script n’est pas conçu comme un code de production, et le script lui-même n’est pas pris en charge par Microsoft (bien que les API de l’agent de Windows Update sous-jacent soient prises en charge).
+> ce script est destiné à illustrer l’utilisation des api d’Agent Windows Update et fournit un exemple de la façon dont les développeurs peuvent utiliser ces api pour résoudre les problèmes. ce script n’est pas conçu comme un code de production, et le script lui-même n’est pas pris en charge par Microsoft (bien que les api de l’Agent de Windows Update sous-jacent soient prises en charge).
 
  
 
