@@ -3,7 +3,7 @@ title: Slider. transparencyColor
 description: L’attribut transparencyColor spécifie ou récupère la couleur transparente des images d’arrière-plan et de premier plan du contrôle Slider.
 ms.assetid: 857e3e48-bff2-4396-9f8c-c3d80b37c1d1
 keywords:
-- Slider. transparencyColor lecteur Windows Media
+- slider. transparencyColor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cda638e03b62ff81e6c9470239c71c441c755c2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 43e853a788c92fbbf3f5b9135918b3be53e21ad76f7b50270e46ba2f92ff6191
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118647"
 ---
 # <a name="slidertransparencycolor"></a>Slider. transparencyColor
 
@@ -31,7 +31,7 @@ L’attribut **transparencyColor** spécifie ou récupère la couleur transparen
 
 Cet attribut est une **chaîne** en lecture/écriture contenant toute valeur de couleur Microsoft Internet Explorer. Il n'a aucune valeur par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Toute partie de l’image contenant la valeur **transparencyColor** permettra l’affichage de l’arrière-plan.
 

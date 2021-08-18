@@ -4,12 +4,12 @@ ms.assetid: 872f1ccc-435a-4881-b283-ba4c8ddd3ac2
 title: System. ApplicationName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3850983d306dcafc9e66583785f647151d3b7b34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b96c6100c2634d51aa7f8e60e37713e27031ab9a4aa86a24090ace46d475908
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717909"
 ---
 # <a name="systemapplicationname"></a>System. ApplicationName
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

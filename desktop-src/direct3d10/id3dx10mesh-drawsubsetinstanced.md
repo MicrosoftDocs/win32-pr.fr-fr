@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 2e28d7a7d2c1d743090832d68793ec3743662308
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 41da932b5f9445df83c0783b7788b8a7079af2acb74643ea37111d8482e8e208
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990429"
 ---
 # <a name="id3dx10meshdrawsubsetinstanced-method"></a>ID3DX10Mesh ::D méthode rawSubsetInstanced
 
@@ -69,7 +69,7 @@ L’instance à partir de laquelle commencer l’extraction dans chaque mémoire
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

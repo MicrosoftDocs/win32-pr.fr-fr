@@ -4,12 +4,12 @@ description: Cette rubrique contient un exemple de code qui montre comment expos
 ms.assetid: 68bf16c7-fbab-478a-97be-47d1195028f3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5af3fa9e663bc737df95015db94cdedc1073ab9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 771e81a058af16320673e46a7981cf49ee22105fa841807bc07e3a528ff223cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133312"
 ---
 # <a name="how-to-expose-a-server-side-ui-automation-provider"></a>Comment exposer un fournisseur UI Automation Server-Side
 
@@ -65,9 +65,9 @@ L’exemple suivant montre comment répondre à [**WM \_ GETOBJECT**](wm-getobje
 [Rubriques de procédures pour les fournisseurs UI Automation](uiauto-howto-topics-for-uiautomation-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

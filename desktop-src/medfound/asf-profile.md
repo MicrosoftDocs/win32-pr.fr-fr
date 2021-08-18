@@ -4,12 +4,12 @@ ms.assetid: 03a0981b-29c3-450d-aa58-bc56a76e6cb6
 title: Profil ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 616670e7de68fd73c168c474544fc6236f1586e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d38d5d2c869bd8af61289fa15361d216f686abac4eaa366b3c036f40338d355
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035520"
 ---
 # <a name="asf-profile"></a>Profil ASF
 
@@ -36,8 +36,8 @@ Le profil ASF est également utilisé pour configurer le [récepteur de média A
 | Rubrique                                                                                           | Description                                                        |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | [Création d’un profil ASF](creating-an-asf-profile.md)<br/>                               | Décrit comment créer un objet de profil ASF.<br/>          |
-| [Création et configuration de flux ASF](creating-and-configuring-asf-streams.md)<br/>     | Décrit comment ajouter des flux à un profil ASF.<br/>         |
-| [Utilisation de l’exclusion mutuelle pour les flux ASF](using-mutual-exclusion-for-asf-streams.md)<br/> | Décrit comment ajouter des exclusions mutuelles à des flux ASF. <br/> |
+| [Création et configuration d’Flux ASF](creating-and-configuring-asf-streams.md)<br/>     | Décrit comment ajouter des flux à un profil ASF.<br/>         |
+| [Utilisation de l’exclusion mutuelle pour les Flux ASF](using-mutual-exclusion-for-asf-streams.md)<br/> | Décrit comment ajouter des exclusions mutuelles à des flux ASF. <br/> |
 
 
 
@@ -50,7 +50,7 @@ Le profil ASF est également utilisé pour configurer le [récepteur de média A
 [Types de médias](media-types.md)
 </dt> <dt>
 
-[Didacticiel : 1-passer l’encodage Windows Media](tutorial--1-pass-windows-media-encoding.md)
+[didacticiel : encodage de média de Windows Pass](tutorial--1-pass-windows-media-encoding.md)
 </dt> <dt>
 
 [Didacticiel : écriture d’un fichier WMA à l’aide de l’encodage CBR](tutorial--writing-a-wma-file-by-using-cbr-encoding.md)

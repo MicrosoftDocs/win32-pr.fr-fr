@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 81a9f272cb0769d4313a4375f98bdc25b9e403e7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 63546fbf7424189c5b9d398b4c6ddce076d7e02db5900031c15b579048da1965
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104394271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753159"
 ---
 # <a name="d3dx10preprocessshaderfromresource-function"></a>D3DX10PreprocessShaderFromResource fonction)
 
@@ -75,7 +75,7 @@ Nom de la ressource côté hModule contenant le nuanceur. Si les paramètres du 
 
 Type : **[ **LPCTSTR**](../winprog/windows-data-types.md)**
 
-Optionnel. Nom du fichier d’effet, qui est utilisé pour les messages d’erreur uniquement. Peut avoir la **valeur null**.
+Facultatif. Nom du fichier d’effet, qui est utilisé pour les messages d’erreur uniquement. Peut avoir la **valeur null**.
 
 </dd> <dt>
 

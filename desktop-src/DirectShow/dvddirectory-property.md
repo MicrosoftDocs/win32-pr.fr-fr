@@ -4,17 +4,17 @@ ms.assetid: 0dbfdf28-cda5-41b2-82ce-114d9b940d91
 title: Propriété DVDDirectory
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36515c931fb8669db814886dfff12a4bf85bde28
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2431d9255aa743698baeb9c4b8427ffa9bf5220a60182ac08c246e11f20bcec8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749099"
 ---
 # <a name="dvddirectory-property"></a>Propriété DVDDirectory
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -28,7 +28,7 @@ La `DVDDirectory` propriété définit ou récupère le répertoire actif du vol
 
 Retourne une valeur de chaîne indiquant le chemin d’accès au répertoire racine du DVD.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété est en lecture/écriture sans valeur par défaut. Utilisez cette méthode pour définir le chemin d’accès racine lorsqu’il y a plus d’un lecteur de DVD sur un système. Lorsqu’il n’y a qu’un seul lecteur sur le système et que sa lettre de lecteur est supérieure à « C », l’objet MSWebDVD le détecte automatiquement. Pour un disque DVD-Video standard, le chemin racine doit inclure le \_ répertoire vidéo TS :
 

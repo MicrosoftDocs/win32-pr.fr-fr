@@ -5,12 +5,12 @@ ms.assetid: 3AB3BF34-433C-400B-921A-55B23CCDA44F
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df27e7997b4f3f56ae8e87688e5cc136dc7eb87d
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 04f79d5463c2f27560049f785b5cc32fe42ae33927cba7d039b90638f3946531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989429"
 ---
 # <a name="using-resource-barriers-to-synchronize-resource-states-in-direct3d-12"></a>Utilisation de barrières de ressources pour synchroniser les états des ressources dans Direct3D 12
 
@@ -70,7 +70,7 @@ Pour les cloisonnements de ressources fractionnées, consultez également les [*
 
 Les ressources peuvent être créées avec n’importe quel état initial spécifié par l’utilisateur (valide pour la description de la ressource), avec les exceptions suivantes :
 
--   Le chargement des segments de mémoire doit commencer dans la lecture générique état de la ressource State D3D12 \_ \_ \_ \_ qui est une combinaison or au niveau du bit :
+-   Télécharger segments de mémoire doivent démarrer dans la lecture générique état de la ressource state D3D12 \_ \_ \_ \_ qui est une combinaison or au niveau du bit de :
     -   \_ \_ Sommet de l’état de la ressource D3D12 \_ \_ et \_ \_ mémoire tampon constante
     -   \_ \_ \_ Mémoire tampon d’index d’état de ressource D3D12 \_
     -   SOURCE de copie de l' \_ \_ État de la ressource D3D12 \_ \_

@@ -16,12 +16,12 @@ keywords:
 - mmioOpen fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c22cd6330874d0b5da74d69193359c025c709c79
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 91a2ee8e70508e2c5dc3b24c084cf0b081b6629a519703ef43a15845ef3ec76a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785729"
 ---
 # <a name="creating-and-deleting-a-file"></a>Création et suppression d’un fichier
 
@@ -44,6 +44,6 @@ Si le fichier que vous créez existe déjà, il sera tronqué à une longueur é
 
 Pour supprimer un fichier, définissez le paramètre *dwOpenFlags* de la fonction **mmioOpen** sur la valeur MMIO \_ Delete. Une fois que vous avez supprimé un fichier, il ne peut pas être récupéré par un moyen standard. Si votre application supprime un fichier à la demande d’un utilisateur, interrogez l’utilisateur avant de supprimer le fichier pour vous assurer que l’utilisateur souhaite le supprimer.
 
- 
+ 
 
- 
+ 

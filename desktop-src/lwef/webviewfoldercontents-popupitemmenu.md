@@ -3,9 +3,9 @@ title: Méthode WebViewFolderContents. PopupItemMenu (shldisp. h)
 description: 'Méthode WebViewFolderContents. PopupItemMenu : crée un menu contextuel pour l’élément spécifié et retourne la chaîne de commande sélectionnée.'
 ms.assetid: 3c07500c-2fe9-4976-a1a8-b128e75f9325
 keywords:
-- Méthode PopupItemMenu fonctionnalités d’environnement Windows héritées
-- Méthode PopupItemMenu fonctionnalités de l’environnement Windows héritées, objet WebViewFolderContents
-- Objet WebViewFolderContents fonctionnalités d’environnement Windows héritées, méthode PopupItemMenu
+- fonctionnalités d’environnement Windows héritées de la méthode PopupItemMenu
+- méthode PopupItemMenu héritage Windows fonctionnalités d’environnement, objet WebViewFolderContents
+- objets WebViewFolderContents hérités Windows (fonctionnalités d’environnement), méthode PopupItemMenu
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c879e10097b334f0c2d4f98b1b76289d20ee4a93
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 274237b2a17aa3e891f0c65f139cc7b251c1ff8a78b1f0ad387fb2931c8e3107
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035967"
 ---
 # <a name="webviewfoldercontentspopupitemmenu-method"></a>Méthode WebViewFolderContents. PopupItemMenu
 
@@ -71,7 +71,7 @@ Position verticale du menu, en coordonnées d’écran.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[BSTR](/previous-versions/windows/desktop/automat/bstr)\***
 
@@ -79,7 +79,7 @@ Lorsque cette méthode est retournée, contient la chaîne de commande.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte de **PopupItemMenu** pour JScript Embedded en html.
+l’exemple suivant illustre l’utilisation correcte de **PopupItemMenu** pour JScript incorporée en HTML.
 
 
 ```HTML
@@ -121,7 +121,7 @@ L’exemple suivant illustre l’utilisation correcte de **PopupItemMenu** pour 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

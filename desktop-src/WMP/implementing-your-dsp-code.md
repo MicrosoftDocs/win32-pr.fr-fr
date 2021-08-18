@@ -3,7 +3,7 @@ title: Implémentation de votre code DSP
 description: Implémentation de votre code DSP
 ms.assetid: e1feaaee-1127-4a3a-9a4c-a30584a7e8ff
 keywords:
-- Plug-ins du lecteur Windows Media, DSP (Digital Signal Processing)
+- plug-ins Lecteur Windows Media, traitement des signaux numériques (DSP)
 - plug-ins, traitement des signaux numériques (DSP)
 - plug-ins de traitement de signal numérique, implémentation du code
 - Plug-ins DSP, implémentation du code
@@ -13,22 +13,22 @@ keywords:
 - plug-ins vidéo DSP, implémentation du code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c9e17dad39a4ba0ebe79e31d9f3eead843d7f81
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8504a44b9f3e980be612569e9b7cbe06081d0bfe704a5932e44eef789127687f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135562"
 ---
 # <a name="implementing-your-dsp-code"></a>Implémentation de votre code DSP
 
-Une fois que vous avez créé l’exemple de plug-in DSP, vous pouvez modifier le code pour créer votre propre plug-in Windows Media Player DSP. Les méthodes que vous modifiez et celles que vous pouvez conserver comme elles dépendent des facteurs suivants :
+une fois que vous avez créé l’exemple de plug-in dsp, vous pouvez modifier le code pour créer votre propre plug-in Lecteur Windows Media dsp. Les méthodes que vous modifiez et celles que vous pouvez conserver comme elles dépendent des facteurs suivants :
 
 -   Nombre de propriétés que vous voulez autoriser l’utilisateur à modifier. Vous souhaiterez certainement modifier l’implémentation de la page de propriétés par défaut en fonction de vos besoins, et vous devrez peut-être ajouter des propriétés supplémentaires.
 -   Si votre plug-in DSP doit allouer des ressources de streaming. Votre plug-in peut nécessiter des mémoires tampons supplémentaires.
--   Si votre plug-in audio DSP doit continuer à sortir les données une fois que le lecteur Windows Media a cessé de fournir des données dans la mémoire tampon d’entrée.
+-   si votre plug-in audio DSP doit continuer à sortir les données une fois que Lecteur Windows Media a cessé de fournir des données dans la mémoire tampon d’entrée.
 
-Les sections suivantes utilisent l’exemple de code du plug-in DSP généré par l’Assistant de plug-in du lecteur Windows Media pour illustrer des concepts importants. Il peut s’avérer utile d’ouvrir Microsoft Visual Studio et de générer l’exemple de code en premier afin de pouvoir vous y référer au fur et à mesure que vous lisez cette section. Pour plus d’informations sur l’utilisation de l’Assistant de plug-in du lecteur Windows Media, consultez [création d’un plug-in DSP](building-a-dsp-plug-in.md).
+les sections suivantes utilisent l’exemple de code du plug-in DSP généré par l’assistant de plug-in Lecteur Windows Media pour illustrer des concepts importants. il peut s’avérer utile d’ouvrir Microsoft Visual Studio et de générer l’exemple de code en premier afin de pouvoir vous y référer au fur et à mesure que vous lisez cette section. pour plus d’informations sur l’utilisation de l’assistant de plug-in Lecteur Windows Media, consultez [génération d’un plug-in DSP](building-a-dsp-plug-in.md).
 
 
 
@@ -39,7 +39,7 @@ Les sections suivantes utilisent l’exemple de code du plug-in DSP généré pa
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -48,9 +48,9 @@ Les sections suivantes utilisent l’exemple de code du plug-in DSP généré pa
 [**À propos des plug-ins DSP**](about-dsp-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

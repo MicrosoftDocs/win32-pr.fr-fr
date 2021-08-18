@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 870a8d4918870930faa536ead01dab2947d5faea
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ad05ef52970e30d2a130279c6109409205acb9615816e3fa0c7e185998f62254
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104211441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854139"
 ---
 # <a name="m3x2---vs"></a>M3X2-vs
 
@@ -37,7 +37,7 @@ where
 -   src0 est un registre source qui représente un vecteur à 3 composants.
 -   src1 est un registre source qui représente une matrice matrice, qui correspond au premier des 2 registres consécutifs.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 

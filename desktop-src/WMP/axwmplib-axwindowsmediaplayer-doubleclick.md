@@ -1,9 +1,9 @@
 ---
 title: Événement DoubleClick de l’objet AxWindowsMediaPlayer
-description: L’événement DoubleClick se produit lorsque l’utilisateur double-clique sur un bouton de la souris sur un contrôle du lecteur Windows Media.
+description: l’événement DoubleClick se produit lorsque l’utilisateur double-clique sur un bouton de la souris sur un contrôle de Lecteur Windows Media.
 ms.assetid: 4f116d8a-1ad5-443a-9c91-66214bbdebcf
 keywords:
-- Événement DoubleClick de l’objet AxWindowsMediaPlayer Windows Media Player
+- événement DoubleClick de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ac809e8ea61b3abbbc964f6dc9ee2976442fc31
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb01a5d0d5b9dd750c1232badb913000218a088d1ba6b41bc22e4e5dd49a6230
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136102"
 ---
 # <a name="doubleclick-event-of-the-axwindowsmediaplayer-object"></a>Événement DoubleClick de l’objet AxWindowsMediaPlayer
 
-L’événement DoubleClick se produit lorsque l’utilisateur double-clique sur un bouton de la souris sur un contrôle du lecteur Windows Media.
+l’événement DoubleClick se produit lorsque l’utilisateur double-clique sur un bouton de la souris sur un contrôle de Lecteur Windows Media.
 
 ``` syntax
 [C#]
@@ -72,7 +72,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

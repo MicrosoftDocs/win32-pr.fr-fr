@@ -5,12 +5,12 @@ ms.assetid: 6AA593F6-FE93-4EB4-AE62-A64220E32149
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 303c9f739cc49813e99d91c045d498d58c523048
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d55a413e8877a10bf9b79a307a64bd74c6b51feff3ce9325a9f0d29cb177d808
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137612"
 ---
 # <a name="win32_tsremotecontrolsetting-methods"></a>\_Méthodes TSRemoteControlSetting Win32
 
@@ -20,9 +20,9 @@ La classe [**Win32 \_ TSRemoteControlSetting**](win32-tsremotecontrolsetting.md)
 
 -   [**Méthode RemoteControl**](win32-tsremotecontrolsetting-remotecontrol.md)
 
- 
+ 
 
- 
+ 
 
 
 

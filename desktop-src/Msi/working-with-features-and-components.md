@@ -4,12 +4,12 @@ ms.assetid: 840656f9-ea85-49e7-8842-f779228c30d6
 title: Utilisation des fonctionnalités et des composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d579b82dfb312c1588b500d8959fad8a09e44753
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18b77fd93a9f2ee8181020f6c436d7e61e09a0f6d7858f0159fb70a7c7d8eeef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145172"
 ---
 # <a name="working-with-features-and-components"></a>Utilisation des fonctionnalités et des composants
 

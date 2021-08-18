@@ -50,7 +50,7 @@ Cet exemple est disponible aux emplacements suivants.
 
 
 
-| Localisation    | Chemin d’accès/URL                                                                                                    |
+| Emplacement    | Chemin d’accès/URL                                                                                                    |
 |-------------|-------------------------------------------------------------------------------------------------------------|
 | Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ \\ Audio Multimedia \\ RenderExclusiveEventDriven \\ ... |
 

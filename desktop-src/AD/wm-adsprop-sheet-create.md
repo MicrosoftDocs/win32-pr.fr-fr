@@ -13,12 +13,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b540ffd87d4350a323577ff5fa317e94f9271f2d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0ec88eaed682fd16fecb717b851b902d5ba52ce08d5360aa78b881a4b8cb4f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024197"
 ---
 # <a name="wm_adsprop_sheet_create-message"></a>Créer un message de la \_ feuille ADSPROP WM \_ \_
 
@@ -69,7 +69,7 @@ Non utilisé. Doit avoir la **valeur null**.
 
 La valeur de retour de ce message est toujours égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’appelant doit allouer la structure des informations de la [**\_ \_ page \_ DSA sec**](dsa-sec-page-info.md) , la chaîne de titre et toutes les chaînes [**DSOBJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) à l’aide d’un appel unique à la fonction [**LocalAlloc**](/windows/desktop/api/winbase/nf-winbase-localalloc) . Le message de création de la **\_ feuille de ADSPROP \_ \_ WM** est un message asynchrone. il retournera donc avant la création de la feuille secondaire. Pour cette raison, la mémoire doit rester intacte après le retour du message. Le récepteur libère cette mémoire avec un appel unique à la fonction [**LocalFree**](/windows/desktop/api/winbase/nf-winbase-localfree) après la création de la feuille secondaire.
 

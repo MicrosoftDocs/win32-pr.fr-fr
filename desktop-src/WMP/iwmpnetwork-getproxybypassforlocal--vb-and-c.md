@@ -3,9 +3,9 @@ title: Méthode IWMPNetwork getProxyBypassForLocal
 description: La méthode getProxyBypassForLocal retourne une valeur qui indique si le serveur proxy est contourné si le serveur d’origine se trouve sur un réseau local.
 ms.assetid: 150a05f3-6979-4a88-a617-472f07d38807
 keywords:
-- méthode getProxyBypassForLocal lecteur Windows Media
-- méthode getProxyBypassForLocal lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, méthode getProxyBypassForLocal
+- Lecteur Windows Media de la méthode getProxyBypassForLocal
+- méthode getProxyBypassForLocal Lecteur Windows Media, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, méthode getProxyBypassForLocal
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b87b1f00432ec91dd4379a9fa5e31664437afe0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 50d23307ab8872fb49b2b4797d54b78a71a04adba350287fa23cb8e5ab90541c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996479"
 ---
 # <a name="iwmpnetworkgetproxybypassforlocal-method"></a>IWMPNetwork :: getProxyBypassForLocal, méthode
 
@@ -64,13 +64,13 @@ Implements IWMPNetwork.getProxyBypassForLocal
 
 Valeur **System. Boolean** qui indique si le serveur proxy est contourné. La valeur est significative uniquement lorsque **IWMPNetwork. getProxySettings** retourne la valeur 2 (utiliser des paramètres manuels).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode échoue sauf si l’application appelante est en cours d’exécution sur l’ordinateur local ou sur l’intranet.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code suivant utilise **getProxyBypassForLocal** pour indiquer si le lecteur Windows Media est configuré pour ignorer le serveur proxy pour les adresses locales. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
+l’exemple de code suivant utilise **getProxyBypassForLocal** pour indiquer si Lecteur Windows Media est défini pour ignorer le serveur proxy pour les adresses locales. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
 
 
 ```VB

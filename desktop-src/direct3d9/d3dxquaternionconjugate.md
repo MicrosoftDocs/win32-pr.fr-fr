@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: bbf288724dbdede9d98ec4ee21afd1bb57dd7a49
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cb4828d6e6dec80e8721b4e5bddd4728da7a72dc0c6ea9a9c315800e0b17fa00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988459"
 ---
 # <a name="d3dxquaternionconjugate-function"></a>D3DXQuaternionConjugate fonction)
 
@@ -65,7 +65,7 @@ Type : **[ **D3DXQUATERNION**](d3dxquaternion.md)\***
 
 Pointeur vers une structure [**D3DXQUATERNION**](d3dxquaternion.md) qui est le conjugué du Quaternion.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 À partir d’un Quaternion (x, y, z, w), la fonction **D3DXQuaternionConjugate** retourne le Quaternion (-x,-y,-z, w).
 

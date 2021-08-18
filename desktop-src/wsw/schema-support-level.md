@@ -3,17 +3,17 @@ title: Niveau de prise en charge du schéma
 description: Cette section décrit en détail le niveau de prise en charge du schéma.
 ms.assetid: ca18306e-6d67-406d-9c42-4be159a0b81f
 keywords:
-- Services Web du niveau de prise en charge des schémas pour Windows
+- Services Web de niveau de prise en charge de schéma pour Windows
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5aa50eef8835f643abb668b439160ea733bf5160
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 4d6cae112e074d50b90425c1d8952f3b6c06463378d73767346742193b406d2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104559460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026280"
 ---
 # <a name="schema-support-level"></a>Niveau de prise en charge du schéma
 
@@ -96,7 +96,7 @@ Le type complexe, représenté par <XS : complexType>, peut être la restrictio
 
 Il s’agit de la définition de type pour la structure. la restriction complexContent n’est pas prise en charge.
 
--   complexContent prend en charge l’extension de contenu complexe. Mappe à l’héritage de la structure.
+-   complexContent prend en charge l’extension de contenu complexe. Cartes de l’héritage de la structure.
 -   Groupe de secours actuellement à la structure avec le \_ champ de tampon WS XML \_ . Peut être pris en charge en fonction de la particule sous-jacente.
 -   choix pris en charge en tant qu’Union. Cela n’est pas pris en charge dans le contrat de données.
 -   Sequence pris en charge : correspond aux champs d’une structure

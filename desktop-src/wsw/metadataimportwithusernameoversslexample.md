@@ -3,17 +3,17 @@ title: MetadataImportWithUsernameOverSslExample
 description: Cet exemple illustre l’importation de métadonnées à partir d’un point de terminaison qui prend en charge la liaison de sécurité de \_ message WS username \_ avec la \_ \_ \_ liaison de sécurité de transport WS SSL \_ \_ \_ .
 ms.assetid: 1bce97e2-a841-4c4b-af5e-f747c3fb6e8d
 keywords:
-- API des services Web Windows MetadataImportWithUsernameOverSslExample
+- API des Services Web Windows MetadataImportWithUsernameOverSslExample
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3aa0310932fa8f7b96190b1007b70fcd88c86e7d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 409178792df0c247e50d97a4d0039876a6dfb96419294f63841ec172ed596d01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106526722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026357"
 ---
 # <a name="metadataimportwithusernameoversslexample"></a>MetadataImportWithUsernameOverSslExample
 
@@ -588,9 +588,9 @@ Exit:
 [**\_liaison de \_ sécurité de transport WS SSL \_ \_**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,22 +1,22 @@
 ---
-title: Glossaire Windows animation
-description: Ce glossaire contient des termes et des acronymes intéressants pour les développeurs qui utilisent le gestionnaire d’animations Windows.
+title: Windows Glossaire d’animation
+description: ce glossaire contient des termes et des acronymes intéressants pour les développeurs qui utilisent le gestionnaire d’animations Windows.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 66e9cfb4-b9ae-4c21-9b1f-532c7d750903
 keywords:
-- Animation Windows Animation Windows, Glossaire
+- Windows animation Windows animation, glossaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36b7f276b0f20efc35057a9ee7c006c3cf170ac3
-ms.sourcegitcommit: fdd00b445ee88366e9cdd1eed0cb3e42e2a73eca
+ms.openlocfilehash: 9bb477edcaa49aa8baff1bc628ca5d94c13dacc0e552137275ff1e92d8e4cfae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104507762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137392"
 ---
-# <a name="windows-animation-glossary"></a>Glossaire Windows animation
+# <a name="windows-animation-glossary"></a>Windows Glossaire d’animation
 
-Ce glossaire contient des termes et des acronymes intéressants pour les développeurs qui utilisent le gestionnaire d’animations Windows.
+ce glossaire contient des termes et des acronymes intéressants pour les développeurs qui utilisent le gestionnaire d’animations Windows.
 
 <dl> <dt>
 
@@ -30,7 +30,7 @@ Séquence de synthèse, images continues consécutives qui produisent une illusi
 <span id="uianimation.term.animation_manager"></span><span id="UIANIMATION.TERM.ANIMATION_MANAGER"></span>**Gestionnaire d’animations** 
 </dt> <dd>
 
-Composant principal de Windows animation et interface de programmation centrale pour la gestion (création, planification et contrôle) d’animations.
+composant principal de Windows Animation et de l’interface de programmation centrale pour la gestion (création, planification et contrôle) d’animations.
 
 </dd> <dt>
 
@@ -160,9 +160,9 @@ Fin prématurée d’une table de montage séquentiel en préemption le contrôl
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

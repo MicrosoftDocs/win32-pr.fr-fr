@@ -4,12 +4,12 @@ description: Les fonctions suivantes sont utilisées dans l’API WebDAV.
 ms.assetid: 489cdc17-aca8-4621-bc61-f0f3b9ac22b0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1917cd6ebb64470eec6fde9188cc39341142fc8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 401f527bcd98f86f8116df5b25ba1ea71e0f432e19dc89eae00582a2a0b4865e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995039"
 ---
 # <a name="webdav-api-functions"></a>Fonctions de l’API WebDAV
 
@@ -35,11 +35,11 @@ Les fonctions suivantes sont utilisées dans l’API WebDAV.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

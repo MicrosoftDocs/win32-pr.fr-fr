@@ -4,12 +4,12 @@ ms.assetid: d1739b37-d89b-400e-a4ac-b417e0fb9918
 title: Action SetODBCFolders
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7477b229d127e976ddb37096c5f3a21605ba8d05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ceaefc2e9722b82ab0753c46b9e1e85a0ab3628a83b9f3abe66cf183c543fbe5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628639"
 ---
 # <a name="setodbcfolders-action"></a>Action SetODBCFolders
 
@@ -33,7 +33,7 @@ L’action SetODBCFolders doit venir après l' [action CostFinalize](costfinaliz
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette action place un nouveau pilote dans le même répertoire que le pilote existant en cours de remplacement. L’action SetODBCFolders utilise la [table Directory](directory-table.md) pour définir les emplacements des pilotes existants à remplacer.
 

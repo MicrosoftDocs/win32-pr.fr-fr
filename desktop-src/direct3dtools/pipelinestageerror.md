@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 0dc92c8a5fa615d5a5cfe8144a6e4312a5f66cff
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 00679bc40001cdb0aaf31d8561b28ec1509148c01ca184bc36405b8a6c4edc90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103950122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985489"
 ---
 # <a name="span-idvspixenginepipelinestageerrorspanpipelinestageerror-structure"></a><span id="vspixengine.pipelinestageerror"></span>PipeLineStageError, structure
 

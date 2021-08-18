@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility et Microsoft UI Automation envoient 
 ms.assetid: 4b8e551f-aba7-4a89-8874-ba690175f525
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 695fad8f050606f0a95a1780551d35499e39d166
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 732ebd21cc6d198040e5502554ce2a8cf1abb718c055bc9af9f88e0c5d123b4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994189"
 ---
 # <a name="handling-the-wm_getobject-message"></a>Gestion du message WM de \_ GETOBJECT
 
@@ -24,8 +24,8 @@ Microsoft Active Accessibility ou UI Automation spécifie le type d’objet pour
 
 Microsoft Active Accessibility et UI Automation peuvent transmettre des identificateurs d’objet personnalisés [**dans \_ un message WM**](wm-getobject.md) pour récupérer des valeurs ou des objets définis par l’application à partir d’un serveur ou d’un fournisseur. L’identificateur d’objet [**objID \_ NATIVEOM**](object-identifiers.md) ou [**objID \_ QUERYCLASSNAMEIDX**](object-identifiers.md) peut être utilisé pour récupérer une interface de modèle objet natif, ou pour demander un objet proxy spécifique qui est pris en charge par Oleacc.dll.
 
-En gérant à la fois les identificateurs d’objet [**\_ client objid**](object-identifiers.md) et **UiaRootObjectId** , une implémentation de serveur Microsoft Active Accessibility peut coexister avec une implémentation de fournisseur UI Automation. Étant donné que la plupart des contrôles Windows standard et des contrôles communs implémentés par la bibliothèque de contrôles communs (ComCtl32.dll) n’implémentent pas Microsoft Active Accessibility ou UI Automation, ces contrôles ne gèrent généralement pas le message [**WM \_ GETOBJECT**](wm-getobject.md) . Au lieu de cela, l’infrastructure Microsoft Active Accessibility ou UI Automation vérifie si un objet proxy est disponible pour un élément d’interface utilisateur particulier. Dans le cas contraire, il fournit l’objet proxy par défaut pour l’objet de fenêtre hôte.
+En gérant à la fois les identificateurs d’objet [**\_ client objid**](object-identifiers.md) et **UiaRootObjectId** , une implémentation de serveur Microsoft Active Accessibility peut coexister avec une implémentation de fournisseur UI Automation. étant donné que la plupart des contrôles de Windows standard et des contrôles communs implémentés par la bibliothèque de contrôles communs (ComCtl32.dll) n’implémentent pas Microsoft Active Accessibility ou UI Automation, ces contrôles ne gèrent généralement pas le message [**WM de \_ GETOBJECT**](wm-getobject.md) . Au lieu de cela, l’infrastructure Microsoft Active Accessibility ou UI Automation vérifie si un objet proxy est disponible pour un élément d’interface utilisateur particulier. Dans le cas contraire, il fournit l’objet proxy par défaut pour l’objet de fenêtre hôte.
 
- 
+ 
 
- 
+ 

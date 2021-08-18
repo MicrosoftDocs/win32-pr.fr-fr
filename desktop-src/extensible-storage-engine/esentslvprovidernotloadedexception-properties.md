@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102896
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0c9e12a67115c5480c983d5757234a7a423e96b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42f2755d696df4e62e2c206dfc2545d9d4922737e6d725fad049e5b7dc2c0b7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039867"
 ---
 # <a name="esentslvprovidernotloadedexception-properties"></a>Propriétés EsentSLVProviderNotLoadedException
 
@@ -49,7 +49,7 @@ Le type [EsentSLVProviderNotLoadedException](./esentslvprovidernotloadedexceptio
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

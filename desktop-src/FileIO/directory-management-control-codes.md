@@ -4,12 +4,12 @@ ms.assetid: e2e671c7-ef65-4401-8016-649e86f84fec
 title: Codes de contrôle de gestion d’annuaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ef0463860e3c899178ec5b8f9d44bd05cf4278e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1354d1a4ce72f2867ece1f15218d9c7cb3f364a12ea3eb0d3b16f66b0954e89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755189"
 ---
 # <a name="directory-management-control-codes"></a>Codes de contrôle de gestion d’annuaire
 

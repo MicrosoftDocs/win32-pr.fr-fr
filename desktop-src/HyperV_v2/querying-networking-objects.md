@@ -4,12 +4,12 @@ ms.assetid: 679168E2-C79F-4A7A-8C04-A309315CA670
 title: Interrogation d’objets de mise en réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df2bbf4fb86269ec07bb4015b00beda491ef3dcb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2eb962ee61532d4c5d5cf25f92dd3b94ddb96986228c2fa479da8cf50113ca8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014447"
 ---
 # <a name="querying-networking-objects"></a>Interrogation d’objets de mise en réseau
 

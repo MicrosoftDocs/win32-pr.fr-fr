@@ -3,7 +3,7 @@ title: Attribut Released
 description: L’attribut Released est la date de la version d’origine de l’élément.
 ms.assetid: 6bfc364e-2aa6-4742-8db5-5d32406c7a10
 keywords:
-- Libérer l’attribut lecteur Windows Media
+- Lecteur Windows Media d’attribut de publication
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e13088e33a7b7f7ec915c1c595b528c446a2f66d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2efb8a873a7690ada0b6da9edaaebabc5c4681a055e099848aee7e96c22f1238
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995609"
 ---
 # <a name="releasedate-attribute"></a>Attribut Released
 
@@ -31,7 +31,7 @@ L' **attribut Released est la date** de la version d’origine de l’élément.
 -   [DVD](dvd-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la base de données de bibliothèque (ou dans le cache).
 

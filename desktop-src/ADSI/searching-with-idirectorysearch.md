@@ -10,12 +10,12 @@ keywords:
 - Interface ADSI IDirectorySearch, utilisation de pour rechercher un répertoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2738e163f672fb0000275e2fb9d885442ae6693
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: c46700c48f82955bd01967808cd30f2fa078e3b6c998fb3beaac4bf7c7fe8707
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023217"
 ---
 # <a name="searching-with-the-idirectorysearch-interface"></a>Recherche avec l’interface IDirectorySearch
 
@@ -29,7 +29,7 @@ L’interface [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirector
 
 Pour plus d’informations sur la syntaxe de filtre de recherche, consultez [syntaxe de filtre de recherche](search-filter-syntax.md).
 
-L’exécution de la requête est spécifique au fournisseur. Avec certains fournisseurs, l’exécution réelle de la requête ne se produit pas tant que [**IDirectorySearch :: GetFirstRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow) ou [**IDirectorySearch :: GetNextRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextrow) n’est pas appelé. L’interface [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) fonctionne avec les filtres de recherche directement. Ni le dialecte SQL ni le dialecte LDAP ne sont requis.
+L’exécution de la requête est spécifique au fournisseur. Avec certains fournisseurs, l’exécution réelle de la requête ne se produit pas tant que [**IDirectorySearch :: GetFirstRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow) ou [**IDirectorySearch :: GetNextRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextrow) n’est pas appelé. L’interface [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) fonctionne avec les filtres de recherche directement. ni le dialecte SQL ni le dialecte LDAP ne sont requis.
 
 L’interface [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) fournit des méthodes pour énumérer le jeu de résultats, ligne par ligne. La méthode [**IDirectorySearch :: GetFirstRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow) récupère la première ligne et [**IDirectorySearch :: GetNextRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextrow) vous ramène à la ligne suivante de la ligne actuelle. Une fois que vous avez atteint la dernière ligne, l’appel de ces méthodes retourne le code d’erreur S de \_ \_ \_ lignes. À l’inverse, [**IDirectorySearch :: GetPreviousRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getpreviousrow) vous ramène une ligne à la fois. \_ \_ \_ La valeur renvoyée par des lignes est trop grande pour indiquer que vous avez atteint la première ligne du jeu de résultats. Ces méthodes opèrent sur le jeu de résultats, résidant en mémoire, sur le client. Ainsi, lorsque des recherches paginées et asynchrones sont effectuées et que l' \_ option des résultats du cache \_ est désactivée, le défilement vers l’arrière peut avoir des conséquences inattendues.
 
@@ -138,7 +138,7 @@ Sachez que si une taille de page n’est pas définie, la valeur de [**GetNextRo
 > [!Note]  
 > Pour modifier cette requête d’une recherche de répertoire à une recherche de catalogue global, l’appel [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject) est modifié.
 
- 
+ 
 
 
 ```C++
@@ -153,6 +153,6 @@ IID_IDirectorySearch,
 
 
 
- 
+ 
 
- 
+ 

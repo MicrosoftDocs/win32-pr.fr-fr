@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 96636c372ee48d516286935f03d80b8e9815ffc8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d2a0b2dc61e2dd2a41f5a2fe864973fca91a5e471c75d6afc353c147f7a00fcd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987419"
 ---
 # <a name="id3dxfontdrawtext-method"></a>ID3DXFont ::D méthode rawText
 
@@ -126,7 +126,7 @@ Type : **[ **int**](../winprog/windows-data-types.md)**
 
 Si la fonction est réussie, la valeur de retour est la hauteur du texte en unités logiques. Si DT \_ VCENTER ou DT \_ Bottom est spécifié, la valeur de retour est le décalage de pRect (de haut en bas) du texte dessiné. Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les paramètres de cette méthode sont très similaires à ceux de la fonction GDI [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext) .
 

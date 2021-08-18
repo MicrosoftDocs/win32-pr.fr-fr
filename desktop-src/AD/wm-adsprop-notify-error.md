@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9cdcb33c5536cfa67ab136daa5aa56d93f1d706
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 52f88cd4c60dcfcceed60ca644f7c59f65bee16e344cc17664e8b4be1ee18fab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024287"
 ---
 # <a name="wm_adsprop_notify_error-message"></a>\_Message d' \_ erreur de notification WM ADSPROP \_
 
@@ -66,7 +66,7 @@ Pointeur vers une structure [**ADSPROPERROR**](/windows/desktop/api/Adsprop/ns-a
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**ADsPropSendErrorMessage**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsenderrormessage) est la méthode recommandée pour envoyer ce message.
 

@@ -1,21 +1,21 @@
 ---
-title: Utilisation des applets de commande WMI Windows PowerShell pour gérer BITS Compact Server
-description: Windows PowerShell fournit un mécanisme simple pour se connecter à Windows Management Instrumentation (WMI) sur un ordinateur distant et gérer le serveur compact Service de transfert intelligent en arrière-plan (BITS).
+title: utilisation des applets de commande WMI Windows PowerShell pour gérer BITS Compact Server
+description: Windows PowerShell fournit un mécanisme simple pour se connecter à Windows Management Instrumentation (WMI) sur un ordinateur distant et gérer le serveur Compact Service de transfert intelligent en arrière-plan (BITS).
 ms.assetid: fe174d2f-4ca0-431e-b1b8-1893ec54147a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c3c942672c147ec5daa0caa2a370e487be80809
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3e82401e80b5e49b7d2b964ec910d15d70aea7ce9c782a0173bef97aa8b3a5c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021077"
 ---
-# <a name="using-wmi-windows-powershell-cmdlets-to-manage-the-bits-compact-server"></a>Utilisation des applets de commande WMI Windows PowerShell pour gérer BITS Compact Server
+# <a name="using-wmi-windows-powershell-cmdlets-to-manage-the-bits-compact-server"></a>utilisation des applets de commande WMI Windows PowerShell pour gérer BITS Compact Server
 
-Windows PowerShell fournit un mécanisme simple pour se connecter à Windows Management Instrumentation (WMI) sur un ordinateur distant et gérer le serveur compact Service de transfert intelligent en arrière-plan (BITS). BITS Compact Server est un composant serveur facultatif qui doit être installé séparément. Pour plus d’informations sur l’installation de Compact Server, consultez la documentation de [bits Compact Server](bits-compact-server.md) .
+Windows PowerShell fournit un mécanisme simple pour se connecter à Windows Management Instrumentation (WMI) sur un ordinateur distant et gérer le serveur Compact Service de transfert intelligent en arrière-plan (BITS). BITS Compact Server est un composant serveur facultatif qui doit être installé séparément. Pour plus d’informations sur l’installation de Compact Server, consultez la documentation de [bits Compact Server](bits-compact-server.md) .
 
-1.  Connectez-vous au fournisseur BITS.
+1.  Connecter au fournisseur BITS.
 
     ```PowerShell
     $cred = Get-Credential
@@ -32,7 +32,7 @@ Windows PowerShell fournit un mécanisme simple pour se connecter à Windows Man
     > [!Note]  
     > Le caractère d’accent grave ( \` ) est utilisé pour indiquer un saut de ligne.
 
-     
+     
 
 2.  Créez un groupe d’URL sur le serveur.
 
@@ -87,6 +87,6 @@ Windows PowerShell fournit un mécanisme simple pour se connecter à Windows Man
 [Get-WmiObject](/previous-versions//dd315295(v=technet.10))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

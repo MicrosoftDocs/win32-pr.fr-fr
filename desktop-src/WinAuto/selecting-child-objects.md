@@ -4,12 +4,12 @@ description: Les clients appellent la méthode IAccessible accSelect pour modifi
 ms.assetid: 5e7ad1e9-b1b2-4e76-93e8-b58251930621
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ba7d6f898f7da7beb047d3e781ad46cf383b3dc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9bc15ab48a42be44c62c8c7bc2b9151158875509a2e43010c5da70830b2f2973
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133682"
 ---
 # <a name="selecting-child-objects"></a>Sélection des objets enfants
 
@@ -47,9 +47,9 @@ Les éléments suivants décrivent les valeurs SELFLAG à spécifier lors de l�
 1.  Spécifiez [**SELFLAG \_ TAKESELECTION**](selflag.md) sur n’importe quel objet. Cet indicateur Désélectionne tous les objets sélectionnés, à l’exception de ceux que vous venez de sélectionner.
 2.  Appelez à nouveau [**IAccessible :: accSelect**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accselect) et spécifiez [**SELFLAG \_ REMOVESELECTION**](selflag.md) sur l’objet restant.
 
- 
+ 
 
- 
+ 
 
 
 

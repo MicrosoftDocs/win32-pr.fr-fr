@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: adf5d866989f3b3518cf53b52e073239e023e3c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09fdc3a1ee7d0f8942e1e02c5d18f20c42f74db2e65ae065132f164b199ee861
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014337"
 ---
 # <a name="msvm_copyfiletoguestjobrequeststatechange-method"></a>MSVM \_ CopyFileToGuestJob :: RequestStateChange, méthode
 
@@ -131,7 +131,7 @@ Cette méthode retourne l’une des valeurs suivantes.
 
 | Code/valeur de retour                                                                                                                                                               | Description                                                                        |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| <dl> <dt>**Terminé sans erreur**</dt> <dt>0</dt> </dl>                   | Opération réussie.<br/>                                                                |
+| <dl> <dt>**Terminé sans erreur**</dt> <dt>0</dt> </dl>                   | Réussite.<br/>                                                                |
 | <dl> <dt>**Utilisation du paramètre timeout non prise en charge**</dt> <dt>4098</dt> </dl> |                                                                                    |
 | <dl> <dt>**Échec**</dt> <dt>32768</dt> </dl>                                |                                                                                    |
 | <dl> <dt>**Accès refusé**</dt> <dt>32769</dt> </dl>                         | Accès refusé.<br/>                                                          |
@@ -156,7 +156,7 @@ Cette méthode retourne l’une des valeurs suivantes.
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | \\\\\\Virtualisation racine \\ v2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

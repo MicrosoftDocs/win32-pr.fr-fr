@@ -4,12 +4,12 @@ ms.assetid: 7183be25-a8e4-47a0-a34a-63eadf6ca10d
 title: Création et sélection de polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37b4a70a1a49fc318ca69998d97e15fca838668d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 555293e78d5ddc60284f8cb36aa3da9cfcc84062e1954059af4ead1ad9e19c5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037937"
 ---
 # <a name="font-creation-and-selection"></a>Création et sélection de polices
 
@@ -33,7 +33,7 @@ Une application peut énumérer les polices disponibles à l’aide des fonction
 
 Une fois qu’une application a énuméré les polices disponibles et localisé une correspondance appropriée, elle doit utiliser les valeurs retournées par la fonction d’énumération font pour initialiser les membres d’une structure [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) . Il peut ensuite appeler la fonction [**CreateFontIndirect**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirecta) , en lui transmettant un pointeur vers la structure [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) initialisée. Si la fonction [**CreateFontIndirect**](/windows/win32/api/wingdi/nf-wingdi-createfontindirecta) est réussie, l’application peut ensuite sélectionner la police logique en appelant la fonction [**SelectObject**](/windows/desktop/api/Wingdi/nf-wingdi-selectobject) . Lors de l’initialisation des membres de la structure **LOGFONT** , veillez à spécifier un jeu de caractères spécifique dans le membre **lfCharSet** . Ce membre est important dans le processus de mappage des polices et les résultats seront incohérents si ce membre n’est pas correctement initialisé. Si vous spécifiez un nom de police dans le membre **lfFaceName** de la structure **LOGFONT** , assurez-vous que la valeur **lfCharSet** correspond au jeu de caractères de la police spécifiée dans **lfFaceName**. Par exemple, si vous souhaitez sélectionner une police telle que MS Mincho, **lfCharSet** doit être défini sur la valeur prédéfinie SHIFTJIS \_ CharSet.
 
-Les polices pour de nombreuses langues d’Extrême-Orient ont deux noms de police : un nom en anglais et un nom localisé. [**CreateFont**](/windows/desktop/api/Wingdi/nf-wingdi-createfonta), [**CreateFontIndirect**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirecta)et [**CreateFontIndirectEx**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirectexa) prennent le nom de la police localisée pour les paramètres régionaux du système qui correspondent à la langue, mais ils prennent le nom de police en anglais pour tous les autres paramètres régionaux système. La meilleure méthode consiste à essayer un nom et, en cas d’échec, à essayer l’autre. Notez que [**EnumFonts**](/windows/win32/api/wingdi/nf-wingdi-enumfontsa), [**EnumFontFamilies**](/windows/win32/api/wingdi/nf-wingdi-enumfontfamiliesa)et [**EnumFontFamiliesEx**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesexa) retournent le nom de police anglais si les paramètres régionaux système ne correspondent pas à la langue de la police. À compter de Windows 2000, ce n’est plus un problème, car le mappeur de polices pour [**CreateFont**](/windows/win32/api/wingdi/nf-wingdi-createfonta), [**CreateFontIndirect**](/windows/win32/api/wingdi/nf-wingdi-createfontindirecta)et [**CreateFontIndirectEx**](/windows/win32/api/wingdi/nf-wingdi-createfontindirectexa) reconnaît le nom de la police, quels que soient les paramètres régionaux.
+Les polices pour de nombreuses langues d’Extrême-Orient ont deux noms de police : un nom en anglais et un nom localisé. [**CreateFont**](/windows/desktop/api/Wingdi/nf-wingdi-createfonta), [**CreateFontIndirect**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirecta)et [**CreateFontIndirectEx**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirectexa) prennent le nom de la police localisée pour les paramètres régionaux du système qui correspondent à la langue, mais ils prennent le nom de police en anglais pour tous les autres paramètres régionaux système. La meilleure méthode consiste à essayer un nom et, en cas d’échec, à essayer l’autre. Notez que [**EnumFonts**](/windows/win32/api/wingdi/nf-wingdi-enumfontsa), [**EnumFontFamilies**](/windows/win32/api/wingdi/nf-wingdi-enumfontfamiliesa)et [**EnumFontFamiliesEx**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesexa) retournent le nom de police anglais si les paramètres régionaux système ne correspondent pas à la langue de la police. à compter de Windows 2000, ce n’est plus un problème, car le mappeur de polices pour [**CreateFont**](/windows/win32/api/wingdi/nf-wingdi-createfonta), [**CreateFontIndirect**](/windows/win32/api/wingdi/nf-wingdi-createfontindirecta)et [**CreateFontIndirectEx**](/windows/win32/api/wingdi/nf-wingdi-createfontindirectexa) reconnaît le nom de la police, quels que soient les paramètres régionaux.
 
  
 

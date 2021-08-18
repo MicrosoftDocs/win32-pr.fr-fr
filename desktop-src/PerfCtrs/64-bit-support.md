@@ -4,12 +4,12 @@ ms.assetid: 2dba2c46-0185-4ce6-a7cc-27cdd9b19b70
 title: Support 64 bits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e465529f35d8a9becb2583e9d5c00ac19a74d3be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9756a6eaf95097c881368bc3f150422f494dac04e503da5060f27355827a653c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106530862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011427"
 ---
 # <a name="64-bit-support"></a>Support 64 bits
 
@@ -19,10 +19,10 @@ Les options suivantes sont disponibles pour prendre en charge les fournisseurs v
 
 - **Recommandé :** Installez et enregistrez le chemin d’accès à la version 32 bits de votre DLL de fournisseur.
   - les consommateurs 32 bits fonctionnent en mode natif : ils chargent votre DLL du fournisseur 32 bits dans le processus consommateur 32 bits.
-  - les consommateurs 64 bits fonctionnent indirectement : ils ne peuvent pas charger votre DLL du fournisseur 32 bits dans le processus consommateur 64 bits, mais Windows revient automatiquement à la création d’un processus de perfhost 32 bits, au chargement de votre DLL du fournisseur 32 bits dans le processus perfhost et à l’envoi des données de performances du processus perfhost 32 bits vers le processus consommateur 64 bits.
+  - les consommateurs 64 bits fonctionnent indirectement : ils ne peuvent pas charger votre dll du fournisseur 32 bits dans le processus consommateur 64 bits, mais Windows repasse automatiquement à la création d’un processus perfhost 32 bits, au chargement de votre dll du fournisseur 32 bits dans le processus perfhost et à l’envoi des données de performances du processus perfhost 32 bits vers le processus consommateur 64 bits.
 - **64-bit uniquement :** Installez et enregistrez le chemin d’accès à la version 64 bits de votre DLL de fournisseur.
   - les consommateurs 32 bits échouent : ils ne peuvent pas charger votre DLL du fournisseur 64 bits dans le processus 32 bits.
   - les consommateurs 64 bits fonctionnent en mode natif : ils chargent votre DLL du fournisseur 32 bits in-process.
 
 > [!NOTE]
-> Plusieurs fournisseurs de données de performances Windows intégrés installent une DLL 32 bits dans `%systemroot%\syswow64` , installent une dll 64 bits dans `%systemroot%\system32` et inscrivent le `Library` chemin d’accès en tant que `%systemroot%\system32\ProviderName.dll` , ce qui permet la redirection du système de fichiers pour résoudre le chemin d’accès à la dll appropriée. Cela est pris en charge uniquement pour les fournisseurs de données de performances qui font partie du système d’exploitation Windows. Les fournisseurs qui ne font pas partie du système d’exploitation Windows ne doivent pas installer les fichiers dans le `Windows` dossier. Les fichiers non reconnus dans le `Windows` dossier peuvent être supprimés pendant la maintenance ou la mise à niveau.
+> plusieurs fournisseurs de données de performance Windows intégrés installent une dll 32 bits dans `%systemroot%\syswow64` , installent une dll 64 bits dans `%systemroot%\system32` et inscrivent le `Library` chemin en tant que `%systemroot%\system32\ProviderName.dll` , ce qui permet à la redirection du système de fichiers de résoudre le chemin d’accès à la DLL appropriée. cela est pris en charge uniquement pour les fournisseurs de données de performances qui font partie du système d’exploitation Windows. les fournisseurs qui ne font pas partie du système d’exploitation Windows ne doivent pas installer les fichiers dans le `Windows` dossier. Les fichiers non reconnus dans le `Windows` dossier peuvent être supprimés pendant la maintenance ou la mise à niveau.

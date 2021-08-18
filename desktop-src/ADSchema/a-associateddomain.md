@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8afa7e4c7457ab0f213b9a05dc33ac9bd372e0a2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 13c624bd590e386267d2e72dc4a070c9d7891c1958b8f058ee11aa04753eb07b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022817"
 ---
 # <a name="associateddomain-attribute"></a>attribut associatedDomain
 
@@ -43,7 +43,7 @@ Le type d’attribut associatedDomain spécifie un domaine DNS associé à un ob
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

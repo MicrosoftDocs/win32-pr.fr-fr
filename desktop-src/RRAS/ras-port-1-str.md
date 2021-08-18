@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d73fe450e5ea5f8ceee48436dbbe05570d0d818a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5c73677b10743434bb9548c8d6add95100c4cf017d25bb44d7436e2f68b9ca4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673109"
 ---
 # <a name="ras_port_1-structure"></a>\_Structure du port RAS \_ 1
 
-\[Cette version de la structure du **\_ port \_ 1 RAS** n’est pas prise en charge à partir de Windows Vista. Utilisez à la place le [**\_ port RAS \_ 1**](/windows/desktop/api/Mprapi/ns-mprapi-ras_port_1) plus récent défini dans mprapi. h.\]
+\[cette version de la structure du **\_ PORT \_ 1 RAS** n’est pas prise en charge à partir de Windows Vista. Utilisez à la place le [**\_ port RAS \_ 1**](/windows/desktop/api/Mprapi/ns-mprapi-ras_port_1) plus récent défini dans mprapi. h.\]
 
 La structure du **\_ port \_ 1 RAS** contient des informations sur un port RAS.
 

@@ -3,7 +3,7 @@ title: Message EM_GETELLIPSISMODE (RichEdit. h)
 description: Récupère le mode de sélection en cours.
 ms.assetid: 01A755F3-6C6E-4974-9866-76BF15E0F3AD
 keywords:
-- EM_GETELLIPSISMODE les contrôles de message Windows
+- EM_GETELLIPSISMODE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09b7273cbfd6e87b4591c00267860c9a164aad5e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6706c2b6ee75852fd0b3ee7a1a9d18b25d20d242d72068ba073d1bb025ff8ed5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019697"
 ---
 # <a name="em_getellipsismode-message"></a>\_Message GETELLIPSISMODE em
 
@@ -72,8 +72,8 @@ Si wParam est 0 et lParam n’est pas NULL, la valeur de retour est égale à TR
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

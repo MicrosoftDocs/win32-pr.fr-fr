@@ -4,12 +4,12 @@ ms.assetid: a3802aa7-deec-4151-b1b1-4cd38f769864
 title: Périphériques d’affichage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6df9e5e1746f309f402b31e736c58092d134d38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd71b943d294bf89e932f965b023ecbce7f4e594044fe96b70bb84d41a27f777
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038117"
 ---
 # <a name="display-devices"></a>Périphériques d’affichage
 
@@ -25,7 +25,7 @@ Le système fournit cinq types de contextes de périphérique d’affichage.
 | [class](class-display-device-contexts.md)     | Autorise le dessin dans la zone cliente d’une fenêtre spécifiée.                                                                                                        |
 | [parent](parent-display-device-contexts.md)   | Autorise le dessin n’importe où dans la fenêtre. Bien que le contexte de périphérique parent autorise également le dessin dans la fenêtre parente, il n’est pas destiné à être utilisé de cette façon. |
 | [priv](private-display-device-contexts.md) | Autorise le dessin dans la zone cliente d’une fenêtre spécifiée.                                                                                                        |
-| [window](window-display-device-contexts.md)   | Autorise le dessin n’importe où dans la fenêtre.                                                                                                                          |
+| [fenetre](window-display-device-contexts.md)   | Autorise le dessin n’importe où dans la fenêtre.                                                                                                                          |
 
 
 

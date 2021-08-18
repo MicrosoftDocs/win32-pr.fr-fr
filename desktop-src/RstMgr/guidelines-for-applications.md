@@ -1,19 +1,19 @@
 ---
 title: Instructions pour les applications
-description: Les applications qui s’exécutent sur Windows Vista et Windows Server 2008 doivent respecter ces instructions pour s’assurer que le gestionnaire de redémarrage peut arrêter et redémarrer les applications si nécessaire pour installer les mises à jour.
+description: les applications qui s’exécutent sur Windows Vista et Windows Server 2008 doivent respecter ces instructions pour s’assurer que le gestionnaire de redémarrage peut arrêter et redémarrer les applications si nécessaire pour installer les mises à jour.
 ms.assetid: 97b1df63-65a9-47b4-891b-e4a754882b89
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ebace21e09956c68d34c90775c5ea646a8b2dd0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9624f578a04267b94bde41bbdf8e3312e7b8ae0f4fb84280212ea51c2db7e2f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010127"
 ---
 # <a name="guidelines-for-applications"></a>Instructions pour les applications
 
-Les applications qui s’exécutent sur Windows Vista et Windows Server 2008 doivent respecter ces instructions pour s’assurer que le gestionnaire de redémarrage peut arrêter et redémarrer les applications si nécessaire pour installer les mises à jour. Les services peuvent utiliser les instructions décrites dans [instructions pour les services](guidelines-for-services.md).
+les applications qui s’exécutent sur Windows Vista et Windows Server 2008 doivent respecter ces instructions pour s’assurer que le gestionnaire de redémarrage peut arrêter et redémarrer les applications si nécessaire pour installer les mises à jour. Les services peuvent utiliser les instructions décrites dans [instructions pour les services](guidelines-for-services.md).
 
 -   Le gestionnaire de redémarrage interroge les applications GUI en envoyant une notification [**WM \_ QUERYENDSESSION**](/windows/desktop/Shutdown/wm-queryendsession) dont le paramètre *lParam* est défini sur **ENDSESSION \_ CLOSEAPP** (0x1). Les applications ne doivent pas s’arrêter lorsqu’elles reçoivent un message **WM \_ QUERYENDSESSION** , car une autre application n’est peut-être pas prête à être arrêtée. Les applications GUI doivent écouter le message **WM \_ QUERYENDSESSION** et retourner la valeur **true** si l’arrêt et le redémarrage de l’application sont prêts. Si aucune application ne retourne la valeur **false**, le gestionnaire de redémarrage envoie un message [**WM \_ ENDSESSION**](/windows/desktop/Shutdown/wm-endsession) avec le paramètre *lParam* défini sur **ENDSESSION \_ CLOSEAPP** (0x1) et le paramètre *wParam* défini sur **true**. Les applications doivent s’arrêter uniquement lorsqu’elles reçoivent le message **WM \_ ENDSESSION** . Le gestionnaire de redémarrage envoie également un message [**WM \_ Close**](../winmsg/wm-close.md) pour les applications GUI qui ne s’arrêtent pas lors de la réception de **WM \_ ENDSESSION**. Si une application GUI répond à un message **WM \_ QUERYENDSESSION** en retournant la valeur **false**, l’arrêt est annulé. Toutefois, si l’arrêt est forcé, l’application est arrêtée, quel que soit le cas.
 -   Quand une application GUI reçoit un message [**WM \_ ENDSESSION**](/windows/desktop/Shutdown/wm-endsession) , l’application doit se préparer à s’arrêter dans le délai imparti. Au minimum, les applications doivent se préparer en enregistrant les données utilisateur et les informations d’État nécessaires après un redémarrage. Il est recommandé que les applications enregistrent régulièrement les données et l’état utilisateur.
@@ -23,15 +23,15 @@ Les applications qui s’exécutent sur Windows Vista et Windows Server 2008 doi
     > [!Note]  
     > Si l’application redémarrée doit s’exécuter dans le même répertoire que celui dans lequel elle a été exécutée avant d’être arrêtée, l’application doit enregistrer les informations de répertoire, puis passer au répertoire après le redémarrage.
 
-     
+     
 
     > [!Note]  
     > La fonction [**RmRestart**](/windows/desktop/api/RestartManager/nf-restartmanager-rmrestart) ne redémarre pas les applications qui ne s’exécutent pas en tant qu’utilisateur actuellement connecté. Par exemple, la fonction **RmRestart** ne redémarre pas les applications démarrées avec la commande **exécuter en tant** que qui ne s’exécutent pas en tant qu’utilisateur actuellement connecté. Ces applications doivent être redémarrées manuellement.
 
-     
+     
 
 -   Lorsque le gestionnaire de redémarrage détermine qu’un redémarrage du système est nécessaire pour installer une mise à jour, il n’arrête pas les applications et les services. Au lieu de cela, il permet au programme d’installation de décider quand planifier un redémarrage du système et installer la mise à jour. Les programmes d’installation peuvent réduire l’interruption aux utilisateurs provoqués par des mises à jour nécessitant un redémarrage du système à l’aide de la fonction [**ExitWindowsEx**](/windows/desktop/api/winuser/nf-winuser-exitwindowsex) avec l’indicateur **EWX \_ RESTARTAPPS** ou la fonction [**InitiateShutdown**](/windows/desktop/api/winreg/nf-winreg-initiateshutdowna) avec l’indicateur **Shutdown \_ RESTARTAPPS** . L’utilisation de ces indicateurs permet de s’assurer que les applications inscrites pour le redémarrage sont redémarrées après un redémarrage du système, ce qui réduit l’impact sur l’utilisateur.
 
- 
+ 
 
- 
+ 

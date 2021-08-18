@@ -6,12 +6,12 @@ keywords:
 - mémoire tampon de vertex, création
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55e0b3d9d8f731b01e7c919105c21c8d150f864a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2f919646dfd4e8f714b925606f342db586ff2b8f09690c58698b7dab2635159e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496899"
 ---
 # <a name="how-to-create-a-vertex-buffer"></a>Comment : créer une mémoire tampon de vertex
 
@@ -71,7 +71,7 @@ hr = g_pd3dDevice->CreateBuffer( &bufferDesc, &InitData, &g_pVertexBuffer );
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Voici quelques méthodes permettant d’initialiser une mémoire tampon de vertex qui change au fil du temps.
 
@@ -93,9 +93,9 @@ Voici quelques méthodes permettant d’initialiser une mémoire tampon de verte
 [Comment utiliser Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

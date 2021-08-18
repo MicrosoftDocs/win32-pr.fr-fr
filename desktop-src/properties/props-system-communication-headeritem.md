@@ -4,12 +4,12 @@ ms.assetid: f7f904a6-99b8-4680-ac16-8ecbccf3239f
 title: System. communication. HeaderItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eae7973d50d1bf6cee6c7f25c097813490fc52af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16af0bea85f3e1f24442da8ab4e1a5162e724131c497daf40cb1e3850492ec26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823219"
 ---
 # <a name="systemcommunicationheaderitem"></a>System. communication. HeaderItem
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9c484d7867745805e29bda88e2f8d49ca8bc21be
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2824fc76bc631802a759dc1d6281406a1c42cf4292e80dc2b80c2a1b33b502a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629879"
 ---
 # <a name="id3dxfontonlostdevice-method"></a>ID3DXFont :: OnLostDevice, méthode
 
@@ -38,13 +38,13 @@ HRESULT OnLostDevice();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode doit être appelée chaque fois que l’appareil est perdu ou avant la [**réinitialisation**](/windows/desktop/api)des appels de l’utilisateur. Même si l’appareil n’a pas été réellement perdu, **OnLostDevice** est responsable de la libération de stateblocks et d’autres ressources qui devront peut-être être libérées avant la réinitialisation de l’appareil. Par conséquent, l’objet font ne peut pas être réutilisé avant l’appel de **Reset** , puis [**OnResetDevice**](id3dxfont--onresetdevice.md).
 

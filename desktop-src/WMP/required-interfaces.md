@@ -1,30 +1,30 @@
 ---
-title: Interfaces requises (Windows Media Player SDK)
-description: En savoir plus sur les interfaces requises que le lecteur Windows Media implémente dans DirectShow ou Media Foundation.
+title: Interfaces requises (kit de développement logiciel (SDK) Lecteur Windows Media)
+description: en savoir plus sur les interfaces requises que Lecteur Windows Media implémente dans DirectShow ou Media Foundation.
 ms.assetid: 202d5769-edff-46df-bc05-bbb630a8f3f4
 keywords:
-- Plug-ins du lecteur Windows Media, interfaces
+- plug-ins Lecteur Windows Media, interfaces
 - plug-ins, interfaces
 - plug-ins de traitement de signal numérique, interfaces
 - Plug-ins DSP, interfaces
 - interfaces, plug-ins DSP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d27a0c0ed56db5f35c8cde8203fcf99a81a9260
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 18a3552cbe741b3b527c899e5bb7d68fe4d7c4e0bdc61203f822c57111e94a46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646829"
 ---
-# <a name="required-interfaces-windows-media-player-sdk"></a>Interfaces requises (Windows Media Player SDK)
+# <a name="required-interfaces-windows-media-player-sdk"></a>Interfaces requises (kit de développement logiciel (SDK) Lecteur Windows Media)
 
-Le lecteur Windows Media effectue le rendu des données audio et vidéo à l’aide de l’un des pipelines suivants.
+Lecteur Windows Media restitue l’audio et la vidéo à l’aide de l’un des pipelines suivants.
 
 -   DirectShow
 -   Media Foundation
 
-Dans Microsoft Windows XP et les versions antérieures, le lecteur utilise DirectShow. Dans Windows Vista, le lecteur utilise parfois DirectShow et utilise parfois Media Foundation.
+dans Microsoft Windows XP et versions antérieures, le lecteur utilise DirectShow. dans Windows Vista, le lecteur utilise parfois DirectShow et parfois utilise Media Foundation.
 
 Un plug-in DSP implémente une partie ou l’ensemble des interfaces suivantes :
 
@@ -34,13 +34,13 @@ Un plug-in DSP implémente une partie ou l’ensemble des interfaces suivantes 
 -   **IMFGetService**
 -   **ISpecifyPropertyPages**
 
-Un plug-in qui implémente **IMediaObject** et **IWMPPluginEnable** peut s’exécuter dans le pipeline DirectShow. Il peut également s’exécuter dans le pipeline Media Foundation à l’intérieur d’un wrapper fourni par Media Foundation. Un plug-in de ce type est appelé Microsoft DirectX Media Object (DMO). Il est courant de considérer qu’un DMO est analogue à un objet filtre dans DirectShow. La documentation DMO se trouve dans la section DirectShow du SDK Windows.
+un plug-in qui implémente **IMediaObject** et **IWMPPluginEnable** peut s’exécuter dans le pipeline DirectShow. Il peut également s’exécuter dans le pipeline Media Foundation à l’intérieur d’un wrapper fourni par Media Foundation. Un plug-in de ce type est appelé objet multimédia Microsoft DirectX (DMO). il est courant de considérer un DMO comme étant analogue à un objet de filtre dans DirectShow. la documentation DMO se trouve dans la section DirectShow de la SDK Windows.
 
-Un plug-in qui implémente **IMFTransform** et **IMFGetService** peut s’exécuter en mode natif (aucun Wrapper requis) dans le pipeline Media Foundation. Un plug-in de ce type est appelé Media Foundation transformation (MFT). La documentation MFT se trouve dans la section Media Foundation de la SDK Windows.
+Un plug-in qui implémente **IMFTransform** et **IMFGetService** peut s’exécuter en mode natif (aucun Wrapper requis) dans le pipeline Media Foundation. Un plug-in de ce type est appelé Media Foundation transformation (MFT). la documentation MFT se trouve dans la section Media Foundation de la SDK Windows.
 
-Un plug-in qui implémente **IMediaObject**, **IWMPPluginEnable**, **IMFTransform** et **IMFGetService** peut s’exécuter dans le pipeline DirectShow et peut également s’exécuter en mode natif dans le pipeline Media Foundation. Ce type de plug-in, qui est appelé un *plug-in DSP à double mode*, peut jouer le rôle d’un module DMO ou d’une table MFT.
+un plug-in qui implémente **IMediaObject**, **IWMPPluginEnable**, **IMFTransform** et **IMFGetService** peut s’exécuter dans le pipeline DirectShow et peut également s’exécuter en mode natif dans le pipeline Media Foundation. ce type de plug-in, qui est appelé un *plug-in DSP à double mode*, peut jouer le rôle d’un DMO ou d’une table MFT.
 
-Lorsque le lecteur Windows Media utilise un plug-in DSP à double mode dans le pipeline Media Foundation, il commence par interroger l’interface **IMFTransform** . Si cette requête échoue, le lecteur Windows Media recherche l’interface **IMediaObject** . Si la requête **IMediaObject** est réussie, le plug-in est encapsulé et ajouté au pipeline Media Foundation.
+lorsque Lecteur Windows Media utilise un plug-in DSP à deux modes dans le pipeline Media Foundation, il commence par interroger l’interface **IMFTransform** . en cas d’échec de cette requête, Lecteur Windows Media des requêtes pour l’interface **IMediaObject** . Si la requête **IMediaObject** est réussie, le plug-in est encapsulé et ajouté au pipeline Media Foundation.
 
 Quel que soit le pipeline, tout plug-in DSP permettant à l’utilisateur de définir des propriétés doit implémenter **ISpecifyPropertyPages**.
 

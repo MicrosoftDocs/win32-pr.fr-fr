@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ef846d3d9dc2d6618f0eca9f097d74222606eb4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 16b0eb14663894eb1aac6911659eb452a1d50af59219b9c978215dc96de8a12f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012587"
 ---
 # <a name="inapservercallbackoncomplete-method"></a>INapServerCallback :: OnComplete, méthode
 
@@ -83,7 +83,7 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les validateurs doivent retourner la \_ valeur OK si la validation [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) peut être effectuée, que le **SoHRequest** ait réussi ou non le contrôle d’intégrité.
 
@@ -94,7 +94,7 @@ Les validateurs doivent retourner la \_ valeur OK si la validation [**SoHRequest
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                    |
 | En-tête<br/>                   | <dl> <dt>NapSystemHealthValidator. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapSystemHealthValidator. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qshvhost.dll</dt> </dl>                 |

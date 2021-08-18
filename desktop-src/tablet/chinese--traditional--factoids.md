@@ -4,12 +4,12 @@ ms.assetid: 3d74adf3-d322-4e74-887b-aa500586242d
 title: Chinois (traditionnel) Factoids
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e628cb17160d022d30d6f44133ed3d2853d847ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89625351ec96a26a4b62ca6f3b425013dcbf79d1a687b4dac34eb0bb23b83429
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119591629"
 ---
 # <a name="chinese-traditional-factoids"></a>Chinois (traditionnel) Factoids
 

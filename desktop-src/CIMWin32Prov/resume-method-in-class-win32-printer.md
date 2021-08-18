@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3eca8849fd1c5c449261dac1a9530f4da42e9482
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2663136708d26e026e0f2166cfc13177ef484e27f9f68edbfe1865a4178f255a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588229"
 ---
 # <a name="resume-method-of-the-win32_printer-class"></a>Méthode Resume de la \_ classe Printer Win32
 

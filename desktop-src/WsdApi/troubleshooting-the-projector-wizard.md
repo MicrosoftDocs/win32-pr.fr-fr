@@ -4,12 +4,12 @@ ms.assetid: 54efc88c-0b8e-4652-8655-817a288863d1
 title: Résolution des problèmes de l’Assistant projecteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3776e86d3a156fa86873900aa9e804df9830ec64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5767e9827174d2d8135ac6dfb96c335d49acb82f0a0162b06f22a89c4dbdebef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856069"
 ---
 # <a name="troubleshooting-the-projector-wizard"></a>Résolution des problèmes de l’Assistant projecteur
 

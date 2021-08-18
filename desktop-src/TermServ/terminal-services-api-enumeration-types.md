@@ -5,12 +5,12 @@ ms.assetid: b5ef61e2-07fa-4963-9b9b-977cc04dab10
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9523a7528fddff4e2dbcf6dde16c29084d4811d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6d5b6dcb4ee772969e374eeda5c12edca09cebddef3c9a6c8378b144b7ba2819
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000259"
 ---
 # <a name="remote-desktop-services-api-enumeration-types"></a>Types d’énumération d’API Services Bureau à distance
 
@@ -20,14 +20,14 @@ Les types d’énumération suivants sont utilisés avec l’API Services Bureau
 
 <dl> <dt>
 
-[**\_classe de configuration WTS \_**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_class)
+[**WTS \_ classe de configuration \_**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_class)
 </dt> <dd>
 
 Contient des valeurs qui indiquent le type d’informations de configuration utilisateur à définir ou à récupérer dans un appel aux fonctions [**WTSQueryUserConfig**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsqueryuserconfiga) et [**WTSSetUserConfig**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtssetuserconfiga) .
 
 </dd> <dt>
 
-[**\_source de configuration WTS \_**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_source)
+[**WTS \_ SOURCE de configuration \_**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_source)
 </dt> <dd>
 
 Spécifie la source des informations de configuration retournées par la fonction [**WTSQueryUserConfig**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsqueryuserconfiga) .
@@ -41,21 +41,21 @@ Spécifie l’état de connexion d’une session de Services Bureau à distance.
 
 </dd> <dt>
 
-[**\_classe WTS info \_**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_info_class)
+[**WTS \_ \_classe info**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_info_class)
 </dt> <dd>
 
 Contient des valeurs qui indiquent le type d’informations de session à récupérer dans un appel à la fonction [**WTSQuerySessionInformation**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsquerysessioninformationa) .
 
 </dd> <dt>
 
-[**\_classe de type WTS \_**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_type_class)
+[**WTS \_ classe de TYPE \_**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_type_class)
 </dt> <dd>
 
 Spécifie le type de structure qu’une fonction de Services Bureau à distance a retourné dans une mémoire tampon.
 
 </dd> <dt>
 
-[**\_classe virtuelle \_ WTS**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_virtual_class)
+[**WTS \_ \_classe virtuelle**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_virtual_class)
 </dt> <dd>
 
 Contient des valeurs qui indiquent le type d’informations de canal virtuel à récupérer.
@@ -104,9 +104,9 @@ Contient des valeurs qui indiquent l’état de connexion d’une session utilis
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

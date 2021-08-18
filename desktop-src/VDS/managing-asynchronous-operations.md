@@ -4,16 +4,16 @@ ms.assetid: e5136e15-3ae1-4e0a-ae97-fcf16203b21d
 title: Gestion des opérations asynchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d220c5633f9ee044dbf9cdb6a63b563747620afd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 537a52a41e73bae7035789176bb65b125c105f691bf654ed3c0ded4e6a73f70d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999448"
 ---
 # <a name="managing-asynchronous-operations"></a>Gestion des opérations asynchrones
 
-\[À compter de Windows 8 et de Windows Server 2012, le [service de disque virtuel](virtual-disk-service-portal.md) est remplacé par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, le [Service de disque virtuel](virtual-disk-service-portal.md) est remplacé par l’API de gestion de l' [Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 L’exemple de code suivant montre comment un appelant travaille avec un objet Async. Ici, la fonction **SynchronousCreateLun** appelle la méthode asynchrone [**IVdsSubSystem :: CreateLun**](/windows/desktop/api/Vds/nf-vds-ivdssubsystem-createlun) à l’aide des paramètres donnés. La fonction attend que l’appel de la méthode **CreateLun** asynchrone se termine sur l’objet Async. Quand la méthode [**IVdsAsync :: wait**](/windows/desktop/api/Vds/nf-vds-ivdsasync-wait) retourne, **SynchronousCreateLun** obtient l’interface [**IVdsLun**](/windows/desktop/api/Vds/nn-vds-ivdslun) pour le LUN nouvellement créé et le retourne comme argument out.
 

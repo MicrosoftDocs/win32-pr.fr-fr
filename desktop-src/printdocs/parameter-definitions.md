@@ -4,12 +4,12 @@ ms.assetid: 82ba4658-f0e1-47a7-bb0c-1b527fabde4a
 title: Définitions de paramètres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dc8ad2bed3a972202bc0a5bb07cbdd4ef9d8f44
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: dad2f596592efddfafe97b32660d92bb67b6097012fe9599f89ce0e63526f72e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034057"
 ---
 # <a name="parameter-definitions"></a>Définitions de paramètres
 

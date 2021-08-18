@@ -3,18 +3,18 @@ title: list.csv
 description: list.csv
 ms.assetid: 020b213c-826c-430c-8ce7-92b819581de8
 keywords:
-- Windows Media Player Online stores, list.csv
+- Lecteur Windows Media des magasins en ligne, list.csv
 - magasins en ligne, list.csv
 - tapez 1 magasins en ligne, list.csv
 - list.csv
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f41ed237c5f4a185f01feace8f09b4615e4922b
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 3e754f7985fbf59c23cccae5fd9780ff4b4579205ceaf3ef3cc8f74c768d4e71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104101237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135342"
 ---
 # <a name="listcsv"></a>list.csv
 
@@ -137,7 +137,7 @@ La colonne format dans le tableau ci-dessous décrit la façon dont chaque champ
 <li>- = Automatique</li>
 <li>P = l’intervenant</li>
 <li>A = album</li>
-<li>C = compositeur</li>
+<li>C = Composer</li>
 <li>R = évaluation</li>
 <li>D = date</li>
 </ul></td>

@@ -1,6 +1,6 @@
 ---
 title: Exemple de déclencheur hebdomadaire (XML)
-description: Le code XML de cet exemple définit une tâche qui démarre le bloc-notes sur une base bihebdomadaire.
+description: le code XML de cet exemple définit une tâche qui démarre Bloc-notes sur une base bihebdomadaire.
 ms.assetid: 1911e8b1-2583-440c-a6ed-d71080b60987
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,22 +9,22 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bf8c2683311aecc427e9570a0452c746375eca01
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: 7c038c21db137ce9180d76cecf4c2885274f7cdd72720b12b919f9a39e98e575
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "104381366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001807"
 ---
 # <a name="weekly-trigger-example-xml"></a>Exemple de déclencheur hebdomadaire (XML)
 
-Le code XML de cet exemple définit une tâche qui démarre le bloc-notes sur une base bihebdomadaire.
+le code XML de cet exemple définit une tâche qui démarre Bloc-notes sur une base bihebdomadaire.
 
-Pour inscrire une tâche définie en XML, vous pouvez utiliser la fonction [**ITaskFolder :: RegisterTask**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) ([**TaskFolder. RegisterTask**](taskfolder-registertask.md) pour l’écriture de scripts) ou l’outil de ligne de commande Schtasks.exe. Si vous utilisez l’outil Schtasks.exe (situé dans le répertoire C : \\ Windows \\ system32), vous pouvez utiliser la commande suivante pour inscrire la tâche : **SCHTASKS/Create/XML** *<path to the XML file containing the task definition>* **/TN** *<task name>* .
+Pour inscrire une tâche définie en XML, vous pouvez utiliser la fonction [**ITaskFolder :: RegisterTask**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) ([**TaskFolder. RegisterTask**](taskfolder-registertask.md) pour l’écriture de scripts) ou l’outil de ligne de commande Schtasks.exe. si vous utilisez l’outil Schtasks.exe (situé dans le répertoire C : \\ Windows \\ System32), vous pouvez utiliser la commande suivante pour inscrire la tâche : **schtasks/create/xml** *<path to the XML file containing the task definition>* **/tn** *<task name>* .
 
-## <a name="to-define-a-task-to-start-notepad-every-other-week-on-monday-at-800-am"></a>Pour définir une tâche de démarrage du bloc-notes toutes les autres semaines le lundi à 8:00 AM
+## <a name="to-define-a-task-to-start-notepad-every-other-week-on-monday-at-800-am"></a>pour définir une tâche de démarrage Bloc-notes chaque semaine lundi à 8:00 AM
 
-L’exemple de code XML suivant montre comment définir une tâche avec une seule action d’exécution (à partir du bloc-notes), un seul déclencheur de calendrier (démarre la tâche toutes les deux semaines le lundi à 8:00 AM) et plusieurs autres paramètres de tâche qui affectent la façon dont la tâche est gérée par Planificateur de tâches.
+l’exemple de code XML suivant montre comment définir une tâche avec une action d’exécution unique (à partir de Bloc-notes), un seul déclencheur de calendrier (démarre la tâche toutes les deux semaines le lundi à 8:00 AM) et plusieurs autres paramètres de tâche qui affectent la façon dont la tâche est gérée par Planificateur de tâches.
 
 
 ```XML
@@ -92,7 +92,7 @@ Voici quelques éléments importants à prendre en compte lors de l’utilisatio
 
     Définit la planification hebdomadaire. Dans ce cas, l’intervalle est défini pour effectuer la tâche toutes les deux semaines le lundi.
 
--   [**Directeur**](taskschedulerschema-principal-principaltype-element.md)
+-   [**Principal**](taskschedulerschema-principal-principaltype-element.md)
 
     Définit le contexte de sécurité sous lequel une tâche s’exécute.
 
@@ -102,7 +102,7 @@ Voici quelques éléments importants à prendre en compte lors de l’utilisatio
 
 -   [**Actions**](taskschedulerschema-actions-tasktype-element.md)
 
-    Définit les actions exécutées par la tâche (dans ce cas, le bloc-notes).
+    définit les actions effectuées par la tâche (dans ce cas, en cours d’exécution Bloc-notes).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -111,9 +111,9 @@ Voici quelques éléments importants à prendre en compte lors de l’utilisatio
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

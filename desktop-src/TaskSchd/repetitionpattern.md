@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84b88588238c9a7e4158fe21bca8904bf6f39b51
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 06583aaef7f41a2752ace9c67599c1d299b72f87cb9984674994ede10d89525b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872392"
 ---
 # <a name="repetitionpattern-object"></a>Objet RepetitionPattern
 
@@ -50,7 +50,7 @@ L’objet **RepetitionPattern** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous spécifiez une durée de répétition pour une tâche, vous devez également spécifier l’intervalle de répétition.
 
@@ -62,7 +62,7 @@ Si vous enregistrez une tâche qui contient un déclencheur avec un intervalle d
 4.  La tâche suivante démarre à la fin de la troisième minute.
 5.  La tâche suivante démarre à la fin de la quatrième minute.
 
-**Windows Server 2003, Windows XP et windows 2000 :** Si vous enregistrez une tâche qui contient un déclencheur avec un intervalle de répétition égal à une minute et une durée de répétition égale à quatre minutes, la tâche est lancée quatre fois.
+**Windows Server 2003, Windows XP et Windows 2000 :** Si vous enregistrez une tâche qui contient un déclencheur avec un intervalle de répétition égal à une minute et une durée de répétition égale à quatre minutes, la tâche est lancée quatre fois.
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, le modèle de répétition est spécifié à l’aide de l’élément de [**répétition**](taskschedulerschema-repetition-triggerbasetype-element.md) du schéma planificateur de tâches.
 
@@ -76,8 +76,8 @@ Pour plus d’informations et pour obtenir un exemple de code pour cette propri�
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

@@ -4,17 +4,17 @@ description: Les commandes sont des actions que les utilisateurs peuvent effectu
 ms.assetid: 64DF83BC-CC6D-4F0F-A1B2-AB3CF6DA33B3
 ms.topic: reference
 ms.date: 10/20/2020
-ms.openlocfilehash: ece3f8f4fe395bb6ccf20a2b8b3db6bb36b00aee
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: fbbe0180011a2930d52230bff2653145f3cea6159f68c4cc3661eca1065b07f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103761138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119818524"
 ---
 # <a name="commands-design-basics"></a>Commandes (concepts de base de la conception)
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Les commandes sont des actions que les utilisateurs peuvent effectuer lors de l’utilisation de votre application. Découvrez les instructions relatives à l’ajout de commandes aux menus, rubans et barres d’outils de votre application.
 

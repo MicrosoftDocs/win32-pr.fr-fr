@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 2a7772b1b65890fedbdbb8dcced1ad851f3845b3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c0d87eb21ea505b13ce3aacfe8be6ff1fa9d266ba2a781d6b8e6fc4d77dac10b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004357"
 ---
 # <a name="protectkeywithpassphrase-method-of-the-win32_encryptablevolume-class"></a>Méthode ProtectKeyWithPassphrase de la \_ classe Win32 EncryptableVolume
 
@@ -70,7 +70,7 @@ Si le lecteur prend en charge le chiffrement matériel et que BitLocker n’a pa
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **UInt32**
 
@@ -81,7 +81,7 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 | Code/valeur de retour                                                                                                                                                                                        | Description                                                                                                              |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ OK**</dt> <dt>0 (0x0)</dt> </dl>                                                        | La méthode a réussi.<br/>                                                                                    |
-| <dl> <dt>**FVE \_ E \_ non \_ autorisé \_ en \_ \_ mode sans échec**</dt> <dt>2150694976 (0x80310040)</dt> </dl>         | Les Chiffrement de lecteur BitLocker peuvent être utilisés uniquement à des fins de récupération lorsqu’ils sont utilisés en mode sans échec.<br/>                     |
+| <dl> <dt>**FVE \_ E \_ non \_ autorisé \_ en \_ \_ mode sans échec**</dt> <dt>2150694976 (0x80310040)</dt> </dl>         | Chiffrement de lecteur BitLocker ne peut être utilisé qu’à des fins de récupération lorsqu’il est utilisé en Mode Coffre.<br/>                     |
 | <dl> <dt>**FVE \_ \_Phrase secrète de la stratégie E \_ \_ non \_ autorisée**</dt> <dt>2150695018 (0x8031006A)</dt> </dl>     | La stratégie de groupe n’autorise pas la création d’une phrase secrète.<br/>                                                    |
 | <dl> <dt>**FVE \_ E \_ FIPS \_ empêche la \_ phrase secrète**</dt> <dt>2150695020 (0x8031006C)</dt> </dl>           | Le paramètre de stratégie de groupe qui requiert la conformité FIPS a empêché la création ou l’utilisation de la phrase secrète.<br/> |
 | <dl> <dt>**FVE \_ \_Longueur de \_ la \_ phrase \_ secrète non valide de la stratégie E**</dt> <dt>2150695040 (0x80310080)</dt> </dl>  | La phrase secrète fournie ne répond pas aux exigences de longueur minimale ou maximale.<br/>                             |
@@ -102,8 +102,8 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 7 entreprise, les applications de bureau Windows 7 édition intégrale \[ uniquement\]<br/>                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows 7 Entreprise, Windows 7 Édition Intégrale des \[ applications de bureau uniquement\]<br/>                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |
 
