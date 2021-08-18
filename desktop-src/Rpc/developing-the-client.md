@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, développement du client
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10ceddedc4ccfd1d068e3452b64ed8c6b54a621d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fccc719d724ecdcc5631c5f72c5190870f864e06affd45bcce3e7f2da79fb709
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021893"
 ---
 # <a name="developing-the-client"></a>Développement du client
 
@@ -29,8 +29,8 @@ Le programme client lui-même est créé dans le fichier MyClnt. c. Dans un proj
 
 Les fichiers MyClnt. c et MyApp \_ c. c sont compilés et liés avec la bibliothèque Runtime RPC et toutes les autres bibliothèques dont le programme client a besoin. Le résultat est un programme client exécutable nommé MyClnt.exe.
 
-Si vous ne compilez pas votre fichier IDL en mode de compatibilité OSF ([**/OSF**](/windows/desktop/Midl/-osf)), votre programme client doit fournir une fonction pour allouer de la mémoire et une fonction pour le libérer. Pour Windows 2000 et versions ultérieures, le mode recommandé est [**/Oicf**](/windows/desktop/Midl/-oi). Pour plus d’informations, consultez [Comment la mémoire est allouée et désallouée](how-memory-is-allocated-and-deallocated.md), ainsi que les [pointeurs et l’allocation de mémoire](pointers-and-memory-allocation.md).
+Si vous ne compilez pas votre fichier IDL en mode de compatibilité OSF ([**/OSF**](/windows/desktop/Midl/-osf)), votre programme client doit fournir une fonction pour allouer de la mémoire et une fonction pour le libérer. pour Windows 2000 et versions ultérieures, le mode recommandé est [**/Oicf**](/windows/desktop/Midl/-oi). Pour plus d’informations, consultez [Comment la mémoire est allouée et désallouée](how-memory-is-allocated-and-deallocated.md), ainsi que les [pointeurs et l’allocation de mémoire](pointers-and-memory-allocation.md).
 
- 
+ 
 
- 
+ 

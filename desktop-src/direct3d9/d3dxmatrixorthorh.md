@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d34a8379851d80ae8734c7f32cc0dc5977af2088
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 060a195dfee7457f671177a756e67d1c3953a16aa7d59394f96eb05e43cfc93c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044847"
 ---
 # <a name="d3dxmatrixorthorh-function-d3dx9mathh"></a>D3DXMatrixOrthoRH, fonction (D3dx9math. h)
 
@@ -89,13 +89,13 @@ Valeur z maximale du volume de la vue.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers le [**D3DXMATRIX**](../direct3d10/d3d10-d3dxmatrix.md)résultant.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Tous les paramètres de la fonction **D3DXMatrixOrthoRH** sont des distances dans l’espace de l’appareil photo. Les paramètres décrivent les dimensions du volume de la vue.
 

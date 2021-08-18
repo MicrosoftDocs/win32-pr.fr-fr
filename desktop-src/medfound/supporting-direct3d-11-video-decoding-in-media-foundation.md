@@ -4,18 +4,18 @@ ms.assetid: 656556AA-0266-4318-9D3C-AED75BD728F6
 title: Prise en charge du décodage vidéo Direct3D 11 dans Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 542f7244922dc7947f22e4d33027fdcac1962fe5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f95a1d1bc1dd9987fe59fe807e56aa9af1ea4ad597b72c077906483d623e11e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106529531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972881"
 ---
 # <a name="supporting-direct3d-11-video-decoding-in-media-foundation"></a>Prise en charge du décodage vidéo Direct3D 11 dans Media Foundation
 
 Cette rubrique décrit comment prendre en charge Microsoft Direct3D 11 dans un décodeur de Microsoft Media Foundation. Plus précisément, il décrit la communication entre le décodeur et le convertisseur vidéo. Cette rubrique ne décrit pas comment implémenter les opérations de décodage.
 
--   [Vue d’ensemble](#overview)
+-   [Vue d'ensemble](#overview)
 -   [Ouvrir un handle d’appareil](#open-a-device-handle)
 -   [Rechercher une configuration de décodeur](#find-a-decoder-configuration)
 -   [Revenir au décodage logiciel](#fallback-to-software-decoding)

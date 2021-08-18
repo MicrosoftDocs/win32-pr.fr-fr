@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1c9a756d8ad1fc88154d3d99d4304de6dd50166b
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: f15c5fc981592bb82f9ad52d590f12ac0b1f4b20af3537a511d01dd0a8cc15e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021749"
 ---
 # <a name="authorid-eapmethodtype-element"></a>Élément d’auteur d’EapMethodType
 
@@ -35,7 +35,7 @@ L’identificateur d’auteur est un numéro unique émis par l’IANA (Internet
 
 L’élément d’un élément d' **auteur** est défini par le type complexe [**EapMethodType**](eapcommonschema-eapmethodtype-complextype.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il n’est pas **nécessaire que les** éléments de réfaut de réfaut et [**ID**](eapcommonschema-vendorid-eapmethodtype-element.md) de données soient identiques pour une méthode particulière.
 
@@ -45,8 +45,8 @@ Il n’est pas **nécessaire que les** éléments de réfaut de réfaut et [**ID
 
 | Role | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

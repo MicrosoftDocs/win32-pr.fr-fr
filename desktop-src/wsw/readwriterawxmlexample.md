@@ -3,17 +3,17 @@ title: ReadWriteRawXmlExample
 description: Cet exemple montre la lecture et l’écriture de données XML à l’aide de l’encodage brut.
 ms.assetid: e13e6add-f58b-468a-a472-f0aa29d030b3
 keywords:
-- API des services Web Windows ReadWriteRawXmlExample
+- API des Services Web Windows ReadWriteRawXmlExample
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e046176c297c9af4bd4999ff057cf9d206e28e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a89c8bafe459e58f59f068804569fd96cfa9daecda76a4df6cdf07e7044ffa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962998"
 ---
 # <a name="readwriterawxmlexample"></a>ReadWriteRawXmlExample
 
@@ -319,9 +319,9 @@ Exit:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

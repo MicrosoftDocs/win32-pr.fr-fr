@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40876018ffeeacc49fe666ab1a9d69363edb73c4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2c7a2485bb49ee9ce79a500ea0f1dc4296466a3fbd6b69e73199ae768353e382
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054259"
 ---
 # <a name="acs-rsvp-account-files-location-attribute"></a>ACS-RSVP-Account-Files-attribut emplacement
 
@@ -45,7 +45,7 @@ Emplacement du répertoire des fichiers de compte RSVP. La valeur par défaut es
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

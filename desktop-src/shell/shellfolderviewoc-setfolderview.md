@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 7d331fadbd8abae62ee896caec772d84d079f88d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 41a37d1b8f9874bdddd5a9593e0eade8bc0b5b92d30f8ada4ee9c6295af1d632
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968398"
 ---
 # <a name="shellfolderviewocsetfolderview-method"></a>Méthode ShellFolderViewOC. SetFolderView
 
@@ -42,20 +42,20 @@ iRetVal = ShellFolderViewOC.SetFolderView(
 *oShellFolderView* \[ dans\]
 </dt> <dd>
 
-Type : **[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) \** _
+Type : **[ **IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)\***
 
-Objet [_ *ShellFolderView* *](shellfolderview.md) . Ses événements [**EnumDone**](shellfolderviewoc-enumdone.md) et [**SelectionChanged**](shellfolderview-selectionchanged.md) seront transmis au gestionnaire d’événements [**ShellFolderViewOC**](shellfolderviewoc-object.md) correspondant.
+Objet [**ShellFolderView**](shellfolderview.md) . Ses événements [**EnumDone**](shellfolderviewoc-enumdone.md) et [**SelectionChanged**](shellfolderview-selectionchanged.md) seront transmis au gestionnaire d’événements [**ShellFolderViewOC**](shellfolderviewoc-object.md) correspondant.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 5,0 ou ultérieure)</dt> </dl> |

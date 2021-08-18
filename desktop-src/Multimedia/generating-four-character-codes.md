@@ -12,12 +12,12 @@ keywords:
 - mmioFOURCC macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c83540b49d83ee325479542e5a2917ac61ce19b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 96dd724876a3c4b6ac37424b49411edac5929c61d1fcf6c8c18275b1d6ae9dd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785309"
 ---
 # <a name="generating-four-character-codes"></a>Génération de codes Four-Character
 
@@ -50,6 +50,6 @@ fourccID = mmioStringToFOURCC("WAVE", 0);
 
 Le deuxième paramètre dans [**mmioStringToFOURCC**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiostringtofourcc) spécifie des indicateurs pour la conversion de la chaîne en code à quatre caractères. Si vous spécifiez l' \_ indicateur MMIO TOUPPER, **mmioStringToFOURCC** convertit tous les caractères alphabétiques de la chaîne en majuscules. Cela est utile lorsque vous devez spécifier un code à quatre caractères pour identifier une procédure d’e/s personnalisée, car les codes à quatre caractères identifiant les noms d’extension de fichier doivent être en majuscules.
 
- 
+ 
 
- 
+ 

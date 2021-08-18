@@ -7,20 +7,20 @@ keywords:
 - MIDL MIDL, utilisation de ACF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 712dde95201bc2c729ac126b35e04919fd196cbb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3bda925a3b3242072f297c8828427ae4f7a488d1f3b002e05ace6bec45a46d2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105519"
 ---
 # <a name="using-acf-attributes-in-an-idl-file"></a>Utilisation d’attributs ACF dans un fichier IDL
 
 Vous pouvez utiliser l’option du compilateur MIDL/[**\_ configuration**](-app-config.md) de l’application pour spécifier des attributs de handle de liaison dans le fichier IDL plutôt que dans un fichier ACF distinct. Plus précisément, vous pouvez appliquer les attributs handle [**automatique \_**](auto-handle.md), descripteur [**implicite \_**](implicit-handle.md)et [**\_ handle explicite**](explicit-handle.md) à l’en-tête d’une interface RPC dans un fichier IDL. Envisagez d’utiliser cette option si votre application RPC ne nécessite pas d’autres attributs ACF et si vous n’avez pas besoin d’une compatibilité OSF-DCE stricte.
 
- 
+ 
 
- 
+ 
 
 
 

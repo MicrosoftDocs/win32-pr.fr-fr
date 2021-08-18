@@ -4,12 +4,12 @@ ms.assetid: 3ef1f52c-13b2-4d9f-99fe-3317846be8a0
 title: Propriété AVDecAudioDualMonoReproMode (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a71ebe7e003b2dc4b6eebc30901525ffb918a9a9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9151ed6b996ec4ab92791221b7fb4c920913c818eac4a079ee6f40d04591a9db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917059"
 ---
 # <a name="avdecaudiodualmonorepromode-property"></a>Propriété AVDecAudioDualMonoReproMode
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVDecAudioDualMonoReproMode**](/windows/desktop/api/codecapi/ne-codecapi-eavdecaudiodualmonorepromode) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété s’applique uniquement lorsque le flux de bits d’entrée du décodeur contient du son double mono. Pour tester cette condition, récupérez la valeur de la propriété [AVDecAudioDualMono](avdecaudiodualmono-property.md) .
 
@@ -39,8 +39,8 @@ Cette propriété s’applique uniquement lorsque le flux de bits d’entrée du
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

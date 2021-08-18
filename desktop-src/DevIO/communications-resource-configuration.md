@@ -4,12 +4,12 @@ ms.assetid: 05094b98-4694-42dd-883c-b3c90735b3bc
 title: Configuration des ressources de communication
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c6d19bb8478590c85c9f0c1d60ce91cbd1b802a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b01cd85a60eabc3cf6adcbdb0e05d2fbdc662442029044a5ac67d9a37bc073d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918319"
 ---
 # <a name="communications-resource-configuration"></a>Configuration des ressources de communication
 

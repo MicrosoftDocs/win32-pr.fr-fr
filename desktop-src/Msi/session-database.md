@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 4f5496b20d07a32041e33ccc2e770f26fa32bcff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c7bf80d90726cc95fa86e07b4e25a7326f484fa32c562cbea24feb61770ab791
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039729"
 ---
 # <a name="sessiondatabase-property"></a>Session. Database, propriété
 

@@ -14,20 +14,20 @@ keywords:
 - sélection du format de recodage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7584d5f56904a6aa5241930041bf89c10373f6b1
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: 4650732e290b626eb26cd2eea321124f16b5572a7660aabf09bbe3740934e52d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "104381622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037679"
 ---
 # <a name="producing-a-dialog-box-for-selecting-a-format-for-recording"></a>Génération d’une boîte de dialogue permettant de sélectionner un format d’enregistrement
 
 Une application peut permettre à l’utilisateur de sélectionner un format pour lequel un périphérique Wave-Audio installé fournit une prise en charge native. Par exemple, vous souhaiterez peut-être qu’un éditeur Wave Audio enregistre de nouvelles données audio Waveform sans utiliser de compresseur ou décompresseur ACM pour fournir une couche de traduction. Pour ce faire, utilisez la fonction [**acmFormatChoose**](/windows/desktop/api/Msacm/nf-msacm-acmformatchoose) , en spécifiant le \_ matériel ACM FORMATENUMF et les \_ \_ \_ indicateurs d’entrée ACM FORMATENUMF dans le membre **fdwEnum** de la structure [**acmFormatChoose**](/windows/win32/api/msacm/ns-msacm-acmformatchoose) .
 
- 
+ 
 
- 
+ 
 
 
 

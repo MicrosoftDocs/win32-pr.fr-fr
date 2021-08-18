@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa97b49bd55e0d509784eee744ee5cd032941df6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5e0bc2207571865a8c0b7683c94de79c93866d1070e480e7c764580af3b5c12f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836559"
 ---
 # <a name="shadowmax-attribute"></a>attribut shadowMax
 
@@ -35,14 +35,14 @@ Contient le nombre maximal de jours pendant lesquels un mot de passe peut être 
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.3.6.1.1.1.1.7                      |
 | System-ID-GUID    | f285c952-50dd-449e-9160-3b880d99988d |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

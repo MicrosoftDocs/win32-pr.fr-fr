@@ -1,27 +1,27 @@
 ---
-description: Composants homologues Windows pour voisinage immédiat
+description: Windows Composants homologues pour les personnes près de moi
 ms.assetid: aa9e7d4d-4131-4578-8bd1-298f04b826f9
-title: Composants homologues Windows pour voisinage immédiat
+title: Windows Composants homologues pour les personnes près de moi
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc6c780ccad1abd5ce04c1672f66561285831e5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 762ea58aa9738bfe01e23844dd146e4de8a6a5f76433ef969b60b30fb5886db3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103952022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011497"
 ---
-# <a name="windows-peer-components-for-people-near-me"></a>Composants homologues Windows pour voisinage immédiat
+# <a name="windows-peer-components-for-people-near-me"></a>Windows Composants homologues pour les personnes près de moi
 
-Dans l’exécutable de mise en réseau d’homologue Windows (P2phost.exe) principal, l' [architecture voisinage immédiat](people-near-me-architecture.md) utilise les composants suivants :
+dans le principal Windows exécutable réseau pair à pair (P2phost.exe), l' [Architecture voisinage immédiat](people-near-me-architecture.md) utilise les composants suivants :
 
 ### <a name="people-near-me"></a>Voisinage immédiat
 
 Le composant voisinage immédiat (PNM) initie la découverte à l’aide de la découverte de services Web sur le sous-réseau local pour les noms d’utilisateur des ordinateurs autorisés à PNM.
 
-### <a name="people-near-me-publisher"></a>Éditeur voisinage immédiat
+### <a name="people-near-me-publisher"></a>Voisinage immédiat Publisher
 
-Le composant du serveur de publication voisinage immédiat publie les pseudos des utilisateurs connectés pour indiquer la disponibilité à d’autres ordinateurs à l’aide de PNM sur le sous-réseau local. L’utilisateur connecté doit choisir de publier son surnom avant qu’il ne soit publié. Le surnom est publié sur le sous-réseau à l’aide de la découverte de services Web. En outre, les objets et les applications peuvent également être publiés. Toutefois, l’utilisateur doit spécifier la publication de l’objet et de l’application pour les portées «**People Near me**» ou «**All**».
+le composant voisinage immédiat Publisher publie les pseudos des utilisateurs connectés pour indiquer la disponibilité à d’autres ordinateurs à l’aide de PNM sur le sous-réseau local. L’utilisateur connecté doit choisir de publier son surnom avant qu’il ne soit publié. Le surnom est publié sur le sous-réseau à l’aide de la découverte de services Web. En outre, les objets et les applications peuvent également être publiés. Toutefois, l’utilisateur doit spécifier la publication de l’objet et de l’application pour les portées «**People Near me**» ou «**All**».
 
 ### <a name="people-near-me-enumerator"></a>Énumérateur voisinage immédiat
 

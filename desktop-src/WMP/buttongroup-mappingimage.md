@@ -3,7 +3,7 @@ title: BUTTONGROUP. mappingImage
 description: L’attribut mappingImage spécifie ou récupère le nom de l’image représentant le mappage de bouton du BUTTONGROUP.
 ms.assetid: bfea52d1-0e7f-4f77-a212-d34e356a4d85
 keywords:
-- Lecteur Windows Media BUTTONGROUP. mappingImage
+- BUTTONGROUP. mappingImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26e4afc44a00d5ce9b15ee01d4a0dc1aff52c555
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9c26a920042aae4ba144f194845f350030f5675c1b9cc3fcfed552346904add1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106522818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119896"
 ---
 # <a name="buttongroupmappingimage"></a>BUTTONGROUP. mappingImage
 
@@ -31,7 +31,7 @@ L’attribut **mappingImage** spécifie ou récupère le nom de l’image repré
 
 Cet attribut est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’un attribut obligatoire qui doit être spécifié.
 

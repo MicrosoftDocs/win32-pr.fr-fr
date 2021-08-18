@@ -1,19 +1,19 @@
 ---
-description: Les propriétés sont des variables globales que Windows Installer utilise pendant une installation.
+description: les propriétés sont des variables globales que Windows Installer utilise pendant une installation.
 ms.assetid: 471526ab-dd98-4a58-bb3f-38990db5dc09
-title: Propriétés (Windows Installer)
+title: propriétés (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 737c3c741183fa51f1db6fea5e03870df1fc6abc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93cc7eb28c1623e521a6069794fbcb8b36a84248d6b0171837512d6ad94a052a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042039"
 ---
-# <a name="properties-windows-installer"></a>Propriétés (Windows Installer)
+# <a name="properties-windows-installer"></a>propriétés (Windows Installer)
 
-Les propriétés sont des variables globales que Windows Installer utilise pendant une installation. Les sections suivantes décrivent les propriétés utilisées par le programme d’installation :
+les propriétés sont des variables globales que Windows Installer utilise pendant une installation. Les sections suivantes décrivent les propriétés utilisées par le programme d’installation :
 
 -   [À propos des propriétés](about-properties.md)
 -   [Utilisation de propriétés](using-properties.md)

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ef5a555b7c1d48fdb337f2c876abf3f15ae8daa
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b60354fc07c5ea8fecada9150aea13308e10a92e1836bd37ea8d398e84f6d0f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049599"
 ---
 # <a name="reports-attribute"></a>Attribut de rapports
 
@@ -45,7 +45,7 @@ Contient la liste des utilisateurs qui sont directement signalés à l’utilisa
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

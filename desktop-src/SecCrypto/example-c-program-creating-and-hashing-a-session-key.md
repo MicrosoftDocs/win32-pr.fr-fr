@@ -4,12 +4,12 @@ ms.assetid: 15d4a05d-5888-4532-91fd-6cd94afe0b99
 title: 'Exemple de programme C : création et hachage d’une clé de session'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbfb1dae0f331a80a2b2c473f0446cf2a1623dda
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3264e8b7d78506f2aed663d14a4bd8278059152ce085f460ddbbc8e75325d91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007850"
 ---
 # <a name="example-c-program-creating-and-hashing-a-session-key"></a>Exemple de programme C : création et hachage d’une clé de session
 

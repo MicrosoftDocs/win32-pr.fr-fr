@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31449133fa795a90d1f11d8c06b960b74909548d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3bf634e9ce91e937ff1e43b9059d12181dc723695139001ec368109d6fdf4a3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067469"
 ---
 # <a name="server-switch"></a>commutateur/Server
 
@@ -58,7 +58,7 @@ Ne génère pas de fichiers côté serveur.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le commutateur **/Server** n’est pas spécifié, le compilateur MIDL génère le fichier stub serveur. Ce commutateur n’affecte pas les interfaces OLE.
 
@@ -85,9 +85,9 @@ Le commutateur **/Server** est prioritaire par rapport au commutateur **/sstub**
 [**/sstub**](-sstub.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

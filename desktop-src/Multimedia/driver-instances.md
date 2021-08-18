@@ -8,16 +8,16 @@ keywords:
 - plusieurs instances de pilote
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37148dcb12fbfa2984d4e55424102b5985165d9d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: deea546ffb7cd848993f8aac569d3624f87988b583ea47cab7bb16451cc6ed1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941196"
 ---
 # <a name="driver-instances"></a>Instances de pilote
 
-Windows autorise l’installation de plusieurs instances d’un pilote. Le système crée une instance du pilote à chaque ouverture du pilote et détruit l’instance lorsque le pilote est fermé. Les instances de pilote sont particulièrement utiles pour les pilotes installables qui prennent en charge plusieurs appareils ou qui sont ouverts par plusieurs applications ou par la même application plusieurs fois.
+Windows permet d’avoir plusieurs instances d’un pilote installable. Le système crée une instance du pilote à chaque ouverture du pilote et détruit l’instance lorsque le pilote est fermé. Les instances de pilote sont particulièrement utiles pour les pilotes installables qui prennent en charge plusieurs appareils ou qui sont ouverts par plusieurs applications ou par la même application plusieurs fois.
 
 Pour aider le pilote à effectuer le suivi des instances, le système envoie un descripteur d’instance de pilote à chaque message de pilote une fois l’instance créée. Étant donné que ce handle identifie l’instance de façon unique, les pilotes installables associent souvent le handle à la mémoire et à d’autres ressources qu’ils ont spécifiquement allouées pour l’instance.
 
@@ -35,9 +35,9 @@ Lors du traitement du \_ message de fermeture du DRV, le pilote libère généra
 
 Les pilotes installables ne sont pas requis pour prendre en charge plusieurs instances. Un pilote peut empêcher la création d’une instance en retournant zéro pour le [**DRV \_ Open**](drv-open.md) message.
 
- 
+ 
 
- 
+ 
 
 
 

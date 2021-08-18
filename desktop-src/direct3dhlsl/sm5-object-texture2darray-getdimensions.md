@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b3a78bd12f6924c85d4d395c3cdf73443ae51478
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: c655313147a568e5eb33ddf30a2acd2be3549ca4d57bc8510ef974199ea3740d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104973907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985869"
 ---
 # <a name="texture2darraygetdimensions-function"></a>Texture2DArray :: GetDimensions,, fonction
 
@@ -45,7 +45,7 @@ void GetDimensions(
 
 Type : **[ **uint**](/windows/desktop/WinProg/windows-data-types)**
 
-facultatif. Le niveau de mipmap (doit être spécifié si *NumberOfLevels* est utilisé).
+Facultatif. Le niveau de mipmap (doit être spécifié si *NumberOfLevels* est utilisé).
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ Nombre de niveaux de mipmap (requiert également *MipLevel* ).
 
 Rien
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une liste des versions surchargées de cette méthode.
 
@@ -122,7 +122,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 44aeb41ab7dcd271f8c84bff4eb8b5525ac66e70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 4ac46fd69d4d91870dcd288190baac275b37a5f093b87646c17d19e479bd710e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968008"
 ---
 # <a name="smc_setsfobject-message"></a>\_Message SMC SETSFOBJECT
 
@@ -56,13 +56,13 @@ Pointeur de l’interface sur l’objet spécifié par *IID*.
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette notification est reçue par la méthode [**IShellMenuCallback :: CallbackSM**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm) .
 
 La notification **SMC \_ SETSFOBJECT** est utilisée avec le \_ flux d’iid. L’objet est enregistré dans un formulaire persistant dans le registre et rien n’est effectué avec le décompte de références sur l’objet passé.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

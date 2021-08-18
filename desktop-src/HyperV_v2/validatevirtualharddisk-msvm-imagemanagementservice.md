@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 50c00dc4336e3e85b7db8ffd334de8868054c997
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1108c0c1624d26855e872b7e6e0087b304b0e63ae39cf2b0b9b14156a9810972
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068299"
 ---
 # <a name="validatevirtualharddisk-method-of-the-msvm_imagemanagementservice-class"></a>Méthode ValidateVirtualHardDisk de la \_ classe ImageManagementService MSVM
 
@@ -111,7 +111,7 @@ Le **système n’est pas disponible** (32777)
 **Cycle de la chaîne de différenciation VHD détecté** (32787)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le disque dur virtuel est un disque de différenciation, la totalité de la chaîne de disques virtuelle est ouverte. Si le lien est rompu dans la chaîne de disques, un objet de traitement est retourné avec l’erreur appropriée initialisée et les propriétés enfants et parentes sont initialisées à l’emplacement où le lien est rompu.
 
@@ -157,8 +157,8 @@ public static void ValidateVirtualHardDisk(string vhdPath)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

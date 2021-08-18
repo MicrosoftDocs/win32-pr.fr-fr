@@ -4,12 +4,12 @@ ms.assetid: 45798dd1-34bb-4e99-8f84-94f28e76711f
 title: Constantes d’informations de paramètres régionaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7802002ff572ec148351a0abea02922205409b08
-ms.sourcegitcommit: 4af3e9ec3142ba499d20ed8b174c2b219c5eacd2
+ms.openlocfilehash: 0cfd5f3436eed055af6956e538276402f617eb0d6a0e8c3f6d914c82e1457aaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "106530369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106589"
 ---
 # <a name="locale-information-constants"></a>Constantes d’informations de paramètres régionaux
 
@@ -163,7 +163,7 @@ Les constantes suivantes définissent les paramètres régionaux pour les foncti
 
 ## <a name="constants-used-in-the-lctype-parameter-of-getlocaleinfo-getlocaleinfoex-and-setlocaleinfo"></a>Constantes utilisées dans le paramètre LCType de GetLocaleInfo, GetLocaleInfoEx et SetLocaleInfo
 
-Cette section répertorie les constantes d’informations de paramètres régionaux que l’application peut utiliser pour le paramètre *LCTYPE* de [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) (Windows Me/98, Windows NT 4,0), [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) (Windows Vista) et [**SetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-setlocaleinfoa). Les informations de paramètres régionaux sont passées en tant que chaînes (valeur par défaut) ou en tant qu’entiers. Une valeur entière est spécifiée à l’aide de l’opérateur binaire OR pour combiner une constante particulière avec une constante de combinaison. Consultez [combinaison de constantes](#combining-constants).
+cette section répertorie les constantes d’informations de paramètres régionaux que l’application peut utiliser pour le paramètre *LCType* de [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) (Windows Me/98, Windows NT 4,0), [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) (Windows Vista) et [**SetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-setlocaleinfoa). Les informations de paramètres régionaux sont passées en tant que chaînes (valeur par défaut) ou en tant qu’entiers. Une valeur entière est spécifiée à l’aide de l’opérateur binaire OR pour combiner une constante particulière avec une constante de combinaison. Consultez [combinaison de constantes](#combining-constants).
 
  
 

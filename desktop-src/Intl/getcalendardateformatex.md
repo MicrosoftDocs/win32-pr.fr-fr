@@ -15,12 +15,12 @@ api_location:
 - Kernel32.dll
 - API-MS-Win-Core-calendar-l1-1-0.dll
 - kernel32legacy.dll
-ms.openlocfilehash: b0130bf62c742d0565b1c98c138ac8c71ddf7a67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db6bf4fc20c24e91a0af29dc8ee81f7a77ef5cb1c0f0e0f6c5a0a792e52eb903
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068219"
 ---
 # <a name="getcalendardateformatex-function"></a>GetCalendarDateFormatEx fonction)
 
@@ -124,7 +124,7 @@ Cette fonction retourne 0 si elle ne fonctionne pas. Pour obtenir des informatio
 -   ERREUR \_ : indicateurs non valides \_ . Les valeurs fournies pour les indicateurs ne sont pas valides.
 -   ERREUR \_ \_ : paramètre non valide. Les valeurs de paramètre ne sont pas valides.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La première Date prise en charge par cette fonction est le 1er janvier 1601.
 
@@ -136,8 +136,8 @@ Cette fonction n’a pas de fichier d’en-tête ou de fichier de bibliothèque 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl> |
 
 

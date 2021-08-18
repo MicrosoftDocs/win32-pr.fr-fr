@@ -3,7 +3,7 @@ title: Message TB_GETITEMDROPDOWNRECT (commctrl. h)
 description: Obtient le rectangle englobant de la fenêtre déroulante pour un élément de barre d’outils avec une \_ liste déroulante BTNS style.
 ms.assetid: 4b59c96b-8d75-44c1-b771-c1d62502a2c2
 keywords:
-- TB_GETITEMDROPDOWNRECT les contrôles de message Windows
+- TB_GETITEMDROPDOWNRECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbcbcef725b0ade0bfc776200fa5b191618d2ccb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ecd2dfc8a48ff735bfb8bcc99bc0baf36555eee9d995c3f453a95ea2910948a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918699"
 ---
 # <a name="tb_getitemdropdownrect-message"></a>TO \_ GETITEMDROPDOWNRECT message
 
@@ -43,7 +43,7 @@ Index de base zéro de l’élément de contrôle de barre d’outils pour leque
 
 Retourne toujours une valeur différente de zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément doit avoir le style de [**\_ liste déroulante BTNS**](toolbar-control-and-button-styles.md) .
 
@@ -53,8 +53,8 @@ L’élément doit avoir le style de [**\_ liste déroulante BTNS**](toolbar-con
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

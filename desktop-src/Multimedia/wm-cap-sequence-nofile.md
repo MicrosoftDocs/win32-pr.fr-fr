@@ -3,7 +3,7 @@ title: Message WM_CAP_SEQUENCE_NOFILE (VFW. h)
 description: Le \_ \_ \_ message d’inversion de séquence de l’embout WM lance la capture vidéo en continu sans écrire de données dans un fichier. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capCaptureSequenceNoFile.
 ms.assetid: 60cbcb62-3bfa-4182-a049-1e3cb2ede423
 keywords:
-- Message WM_CAP_SEQUENCE_NOFILE Windows Multimedia
+- message WM_CAP_SEQUENCE_NOFILE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0a08f470989b8000e9757c1cb81924b875b5303
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3d9344b53a52caa2e536483a339439a6d942ff1fea0313767d0e1be520c09b48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940727"
 ---
 # <a name="wm_cap_sequence_nofile-message"></a>\_ \_ Message nofile de séquence de l’embout WM \_
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est utile conjointement avec les fonctions de rappel de flux vidéo ou Waveform-Audio qui permettent à votre application d’utiliser directement les données vidéo et audio.
 

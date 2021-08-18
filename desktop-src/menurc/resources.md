@@ -6,16 +6,16 @@ keywords:
 - ressources, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b701d2d6aeb039b146ddca78ee3ba27d185574f9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 72e18de6725c25cebf57da9a34364562b9c1ea88f16e9ea89f5eabdae2582d7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776849"
 ---
 # <a name="menus-and-other-resources"></a>Menus et autres ressources
 
-Une *ressource* est une donnée binaire que vous pouvez ajouter au fichier exécutable d’une application Windows. Une ressource peut être standard ou définie. Les données d’une *ressource standard* décrivent une icône, un curseur, un menu, une boîte de dialogue, une image bitmap, un métafichier amélioré, une police, une table d’accélérateurs, une entrée de table de messages, une entrée de table de chaînes ou des informations de version. Une *ressource définie* par l’application, également appelée *ressource personnalisée*, contient toutes les données requises par une application spécifique.
+une *ressource* est une donnée binaire que vous pouvez ajouter au fichier exécutable d’une application Windows. Une ressource peut être standard ou définie. Les données d’une *ressource standard* décrivent une icône, un curseur, un menu, une boîte de dialogue, une image bitmap, un métafichier amélioré, une police, une table d’accélérateurs, une entrée de table de messages, une entrée de table de chaînes ou des informations de version. Une *ressource définie* par l’application, également appelée *ressource personnalisée*, contient toutes les données requises par une application spécifique.
 
 ### <a name="in-this-section"></a>Dans cette section
 

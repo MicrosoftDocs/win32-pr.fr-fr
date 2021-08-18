@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1a270e36f8254ed5dbfcd9776cf013f9d10d4a1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4425707487994904d1bd2a622cd1ab66f286469c93e80a8eb01e71c0319426ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939576"
 ---
 # <a name="inapsohprocessorfindnextattribute-method"></a>INapSoHProcessor :: FindNextAttribute, méthode
 
@@ -92,7 +92,7 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **FindNextAttribute** recherche les attributs de type *SoHAttributeType* à partir de l’index spécifié par *fromLocation* et une valeur supérieure jusqu’à ce qu’une correspondance soit trouvée. Si aucune correspondance n’est trouvée, le **fichier d’erreur \_ \_ \_ introuvable** est retourné.
 
@@ -102,8 +102,8 @@ La méthode **FindNextAttribute** recherche les attributs de type *SoHAttributeT
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>NapProtocol. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapProtocol. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl>       |

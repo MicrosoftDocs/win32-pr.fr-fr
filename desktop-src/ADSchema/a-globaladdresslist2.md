@@ -1,6 +1,6 @@
 ---
 title: Attribut Global-Address-list2
-description: Cet attribut est utilisé sur un conteneur Microsoft Exchange pour stocker le nom unique d’une liste d’adresses globale (GAL) nouvellement créée.
+description: cet attribut est utilisé sur un conteneur de Exchange Microsoft pour stocker le nom unique d’une liste d’adresses globale (GAL) nouvellement créée.
 ms.assetid: edccbdb5-83c4-4832-86ca-056c78f388f6
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4064498ff6f182fe74c355fa345994d8330ef31e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f913e81a10cc392fcf330139023c3a210cc762709e2570189ca26d8a74641e21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106519162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705979"
 ---
 # <a name="global-address-list2-attribute"></a>Attribut Global-Address-list2
 
-Cet attribut est utilisé sur un conteneur Microsoft Exchange pour stocker le nom unique d’une liste d’adresses globale (GAL) nouvellement créée.
+cet attribut est utilisé sur un conteneur de Exchange Microsoft pour stocker le nom unique d’une liste d’adresses globale (GAL) nouvellement créée.
 
 
 
@@ -42,7 +42,7 @@ Cet attribut est utilisé sur un conteneur Microsoft Exchange pour stocker le no
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

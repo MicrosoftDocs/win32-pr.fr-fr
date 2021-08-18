@@ -396,7 +396,7 @@ Définit des propriétés et des méthodes à utiliser avec un RemoteApp.
 
 </dd> </dl>
 
-## <a name="additional-resources"></a>Ressources complémentaires
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

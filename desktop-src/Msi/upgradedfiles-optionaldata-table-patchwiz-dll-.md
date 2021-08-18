@@ -4,12 +4,12 @@ ms.assetid: 8b96a83a-2bfa-47b7-bde0-896bdcc97d29
 title: Table UpgradedFiles_OptionalData (Patchwiz.dll)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2a648623e2a0cde11af34a3b948b4f2ac6fba59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08eb766f8db9d295546670c80627284991da1ff8dccb5a0c2900be74bd785dab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012837"
 ---
 # <a name="upgradedfiles_optionaldata-table-patchwizdll"></a>UpgradedFiles \_ OptionalData, table (Patchwiz.dll)
 
@@ -45,7 +45,7 @@ Clé étrangère vers la colonne mise à niveau de la [table UpgradedImages (Pat
 <span id="FTK"></span><span id="ftk"></span>TCTI
 </dt> <dd>
 
-Clé de table de fichiers. Clé étrangère dans la [table de fichiers](file-table.md) du fichier. msi de l’image mise à niveau. Si au moins deux images mises à niveau dans une famille ont la même valeur TCTI, la valeur doit faire référence au même fichier. Les fichiers partagés par plusieurs images de mise à niveau doivent avoir le même TCTI pour réduire la taille du fichier CAB.
+Clé de table de fichiers. Clé étrangère dans la [table de fichiers](file-table.md) du fichier .msi de l’image mise à niveau. Si au moins deux images mises à niveau dans une famille ont la même valeur TCTI, la valeur doit faire référence au même fichier. Les fichiers partagés par plusieurs images de mise à niveau doivent avoir le même TCTI pour réduire la taille du fichier CAB.
 
 </dd> <dt>
 
@@ -59,7 +59,7 @@ La valeur de ce champ est ajoutée à la liste de dossiers délimités par des p
 <span id="AllowIgnoreOnPatchError"></span><span id="allowignoreonpatcherror"></span><span id="ALLOWIGNOREONPATCHERROR"></span>AllowIgnoreOnPatchError
 </dt> <dd>
 
-Affectez la valeur 1 pour indiquer que le correctif logiciel n’est pas vital. Attribuez la valeur 0 pour indiquer que le correctif est vital. Si Windows Installer rencontre un problème lors de l’application de ce correctif au fichier spécifié dans la colonne TCTI, la valeur de ce champ détermine si la boîte de message d’erreur contient un bouton **Ignorer** pour permettre à l’utilisateur de poursuivre le processus de mise à jour corrective.
+Affectez la valeur 1 pour indiquer que le correctif logiciel n’est pas vital. Attribuez la valeur 0 pour indiquer que le correctif est vital. si Windows Installer rencontre un problème lors de l’application de ce correctif au fichier spécifié dans la colonne tcti, la valeur de ce champ détermine si la boîte de message d’erreur contient un bouton **ignorer** pour permettre à l’utilisateur de poursuivre le processus de mise à jour corrective.
 
 </dd> <dt>
 

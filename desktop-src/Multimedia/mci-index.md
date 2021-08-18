@@ -3,7 +3,7 @@ title: Commande MCI_INDEX (mmsystem. h)
 description: La \_ commande d’index MCI active ou désactive l’affichage à l’écran. Les périphériques VCR reconnaissent cette commande.
 ms.assetid: c0f18f28-3578-4648-9b75-2d3ede68b3df
 keywords:
-- Commande MCI_INDEX Windows multimédia
+- commande MCI_INDEX Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1e93890b8c3db1150bc7224b0fd8b6ee7475ced
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e8e867098438a9df0be03646d85ff33fe857b285d0fda2763a3cecd46075f8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039209"
 ---
 # <a name="mci_index-command"></a>\_Commande d’index MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les informations présentées dans l’affichage à l’écran sont contrôlées par l' \_ indicateur de jeu d’index magnétoscope MCI \_ \_ dans la commande [ \_ Set MCI](mci-set.md) .
 
@@ -98,7 +98,7 @@ Active l’affichage à l’écran.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

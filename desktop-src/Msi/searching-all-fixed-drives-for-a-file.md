@@ -1,15 +1,15 @@
 ---
-description: Pendant une installation Windows Installer, le programme d’installation peut rechercher un fichier sur tous les lecteurs fixes.
+description: pendant une installation Windows Installer, le programme d’installation peut rechercher un fichier sur tous les lecteurs fixes.
 ms.assetid: c8aa84a8-5525-4a12-898f-63dc30113b13
 title: Recherche d’un fichier sur tous les lecteurs fixes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83b79c7f2999d4ee7937790dc68470210f1d4b2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d460cd55fe54a98c6a02e23e49af9ea9838c7651262fa03f868bdb76acc2d506
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041249"
 ---
 # <a name="searching-all-fixed-drives-for-a-file"></a>Recherche d’un fichier sur tous les lecteurs fixes
 
@@ -49,7 +49,7 @@ ms.locfileid: "106536376"
 
     
 
-    | Signature          | Parent | Chemin d’accès | Profondeur        |
+    | Signature          | Parent | Chemin | Profondeur        |
     |--------------------|--------|------|--------------|
     | AppFile<br/> |        |      | 3<br/> |
 

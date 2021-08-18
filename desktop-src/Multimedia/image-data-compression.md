@@ -8,12 +8,12 @@ keywords:
 - ICCompress fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b8f59a163a9b5a74d2d2fe984417069985fa86a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: bf638467e3685b24a65cd47492faed6660e77e5c49864a339a3874eb81e9b5af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038679"
 ---
 # <a name="image-data-compression"></a>Compression Image-Data
 
@@ -31,19 +31,19 @@ Un compresseur reçoit des données dans un format, compresse les données et re
 > [!Note]  
 > Pour réduire la dégradation de l’image et du son lors de la lecture, évitez de compresser un fichier AVI plusieurs fois. Combinez des éléments vidéo non compressés dans votre système de montage, puis compressez le produit final.
 
- 
+ 
 
 ## <a name="compressor-and-compression-format-selection"></a>Sélection du format de compression et du compresseur
 
-Si vous souhaitez compresser des données et que votre application requiert un format de sortie spécifique, envoyez le message de [**\_ \_ requête de compression ICM**](icm-compress-query.md) (ou utilisez la macro [**ICCompressQuery**](/windows/desktop/api/Vfw/nf-vfw-iccompressquery) ) pour interroger le compresseur afin de déterminer s’il prend en charge les formats d’entrée et de sortie.
+si vous souhaitez compresser des données et que votre application requiert un format de sortie spécifique, envoyez le message de [**ICM \_ compresser la \_ requête**](icm-compress-query.md) (ou utilisez la macro [**ICCompressQuery**](/windows/desktop/api/Vfw/nf-vfw-iccompressquery) ) pour interroger le compresseur et déterminer s’il prend en charge les formats d’entrée et de sortie.
 
-Si le format de sortie n’est pas important pour votre application, il vous suffit de trouver un compresseur pouvant gérer le format d’entrée. Pour déterminer si un compresseur peut gérer le format d’entrée, vous pouvez envoyer une **\_ \_ requête de compression ICM**, en spécifiant la **valeur null** pour le paramètre *lParam* . Ce message ne retourne pas le format de sortie de votre application. Votre application peut déterminer la taille de mémoire tampon nécessaire pour les données qui spécifient le format de compression en envoyant le message de format d’extraction de la [**\_ compression \_ \_ ICM**](icm-compress-get-format.md) (ou en utilisant la macro [**ICCompressGetFormatSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformatsize) ). Vous pouvez également récupérer les données de format en envoyant le \_ format d’extraction de compression ICM \_ \_ (ou la macro [**ICCompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformat) ).
+Si le format de sortie n’est pas important pour votre application, il vous suffit de trouver un compresseur pouvant gérer le format d’entrée. pour déterminer si un compresseur peut gérer le format d’entrée, vous pouvez **envoyer \_ ICM \_ requête COMPRESS**, en spécifiant **NULL** pour le paramètre *lParam* . Ce message ne retourne pas le format de sortie de votre application. votre application peut déterminer la taille de mémoire tampon nécessaire pour les données qui spécifient le format de compression en envoyant le message [**ICM \_ compresser \_ obtenir le \_ format**](icm-compress-get-format.md) (ou en utilisant la macro [**ICCompressGetFormatSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformatsize) ). vous pouvez également récupérer les données de format en envoyant ICM \_ format d’extraction de compression \_ \_ (ou la macro [**ICCompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformat) ).
 
-Si vous souhaitez déterminer la plus grande mémoire tampon que le compresseur peut exiger pour la compression, envoyez le message de taille d’extraction de la [**\_ compression \_ \_ ICM**](icm-compress-get-size.md) (ou utilisez la macro [**ICCompressGetSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetsize) ). Vous pouvez utiliser le nombre d’octets retournés par la fonction [**ICSendMessage**](/windows/desktop/api/Vfw/nf-vfw-icsendmessage) pour allouer une mémoire tampon pour les compressions d’image ultérieures.
+si vous souhaitez déterminer la plus grande mémoire tampon que le compresseur peut nécessiter pour la compression, envoyez le message [**ICM \_ compression \_ obtenir la \_ taille**](icm-compress-get-size.md) (ou utilisez la macro [**ICCompressGetSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetsize) ). Vous pouvez utiliser le nombre d’octets retournés par la fonction [**ICSendMessage**](/windows/desktop/api/Vfw/nf-vfw-icsendmessage) pour allouer une mémoire tampon pour les compressions d’image ultérieures.
 
 ## <a name="compressor-initialization"></a>Initialisation du compresseur
 
-Une fois que votre application a sélectionné un compresseur capable de gérer les formats d’entrée et de sortie dont elle a besoin, vous pouvez initialiser le compresseur à l’aide du message de début de la [**\_ compression \_ ICM**](icm-compress-begin.md) (ou en utilisant la macro [**ICCompressBegin**](/windows/desktop/api/Vfw/nf-vfw-iccompressbegin) ). Ce message requiert le descripteur de compresseur et les formats d’entrée et de sortie.
+une fois que votre application a sélectionné un compresseur capable de gérer les formats d’entrée et de sortie dont elle a besoin, vous pouvez initialiser le compresseur à l’aide du message [**ICM \_ compresser \_ BEGIN**](icm-compress-begin.md) (ou utiliser la macro [**ICCompressBegin**](/windows/desktop/api/Vfw/nf-vfw-iccompressbegin) ). Ce message requiert le descripteur de compresseur et les formats d’entrée et de sortie.
 
 ## <a name="data-compression"></a>Data Compression
 
@@ -56,12 +56,12 @@ Lorsque VCM renvoie le contrôle à votre application après la compression d’
 > [!Note]  
 > Votre application doit allouer les structures et les tampons qui stockent les données non compressées et compressées. Si le compresseur prend en charge la compression temporelle, votre application doit également allouer une structure et une mémoire tampon pour stocker le format et les données de la trame d’informations précédente.
 
- 
+ 
 
 ## <a name="ending-compression"></a>Compression de fin
 
-Une fois que votre application a compressé les données, elle peut utiliser la macro [**ICCompressEnd**](/windows/desktop/api/Vfw/nf-vfw-iccompressend) pour informer le compresseur qu’elle est terminée. Si vous souhaitez redémarrer la compression après avoir utilisé cette fonction, votre application doit réinitialiser le compresseur en envoyant le message [**de \_ \_ début de la compression ICM**](icm-compress-begin.md) (ou en utilisant la macro [**ICCompressBegin**](/windows/desktop/api/Vfw/nf-vfw-iccompressbegin) ).
+Une fois que votre application a compressé les données, elle peut utiliser la macro [**ICCompressEnd**](/windows/desktop/api/Vfw/nf-vfw-iccompressend) pour informer le compresseur qu’elle est terminée. si vous souhaitez redémarrer la compression après avoir utilisé cette fonction, votre application doit réinitialiser le compresseur en envoyant le message [**de \_ \_ début de la compression ICM**](icm-compress-begin.md) (ou en utilisant la macro [**ICCompressBegin**](/windows/desktop/api/Vfw/nf-vfw-iccompressbegin) ).
 
- 
+ 
 
- 
+ 

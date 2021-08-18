@@ -24,18 +24,18 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 427361962ee2161e4f4c7448eb9ef21b7369e36c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee601d51acb75e4a6338952837e980d0e09da7d0cb06431a4bd197f04d495693
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017599"
 ---
 # <a name="jet_convert-class"></a>Classe JET_CONVERT
 
 **Remarque : cette API est désormais obsolète.**
 
-Options de conversion pour [JetCompact (JET_SESID, String, String, JET_PFNSTATUS, JET_CONVERT, CompactGrbit)](./api.jetcompact-method.md). Cette fonctionnalité a été supprimée dans Windows Server 2003.
+Options de conversion pour [JetCompact (JET_SESID, String, String, JET_PFNSTATUS, JET_CONVERT, CompactGrbit)](./api.jetcompact-method.md). cette fonctionnalité a été supprimée dans Windows Server 2003.
 
 ## <a name="inheritance-hierarchy"></a>Hiérarchie d’héritage
 

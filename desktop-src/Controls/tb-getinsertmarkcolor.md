@@ -3,7 +3,7 @@ title: Message TB_GETINSERTMARKCOLOR (commctrl. h)
 description: Récupère la couleur utilisée pour dessiner la marque d’insertion pour la barre d’outils.
 ms.assetid: 52915dc6-a45c-4f3b-aa9b-99a23d423e59
 keywords:
-- TB_GETINSERTMARKCOLOR les contrôles de message Windows
+- TB_GETINSERTMARKCOLOR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 104ceebd5f3989ed870cf70ccad819300d85c05d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd87c27252f9838001d10320b3b9783ef598eea654d384deaa383ad5c5f6cddf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918719"
 ---
 # <a name="tb_getinsertmarkcolor-message"></a>TO \_ GETINSERTMARKCOLOR message
 
@@ -45,8 +45,8 @@ Retourne une valeur [**COLORREF**](/windows/desktop/gdi/colorref) qui contient l
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

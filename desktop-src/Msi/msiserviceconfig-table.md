@@ -4,18 +4,18 @@ ms.assetid: 0d9fd005-9326-4a18-8496-35b5d1927f47
 title: Table MsiServiceConfig
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 357b6787e56d52a893dd1a118a3e2fcbc13379e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3b72e21fdfecd59780b862d3bfe7d68ef829b59b847dbceb0e9c13befae9d4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828589"
 ---
 # <a name="msiserviceconfig-table"></a>Table MsiServiceConfig
 
 La table MsiServiceConfig configure un service qui est installé ou en cours d’installation par le package actuel.
 
-**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. Cette table est disponible à partir de Windows Installer 5,0.
+**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. cette table est disponible à partir de Windows Installer 5,0.
 
 La table MsiServiceConfig contient les colonnes suivantes.
 
@@ -28,7 +28,7 @@ La table MsiServiceConfig contient les colonnes suivantes.
 | Événement            | [Integer](integer.md)       | N   | N        |
 | ConfigType       | [Integer](integer.md)       | N   | N        |
 | Argument         | [Correct](formatted.md)   | N   | O        |
-| -\_      | [Identificateur](identifier.md) | N   | N        |
+| Composant\_      | [Identificateur](identifier.md) | N   | N        |
 
 
 

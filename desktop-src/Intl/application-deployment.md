@@ -4,12 +4,12 @@ ms.assetid: 6c10b355-9bdd-4dba-8446-91034d4fe9b8
 title: Déploiement d’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2023e5fc2dbde51a6ef996126e7557c9ffce8d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bcb2d7605a2c6a39629749c00d175be4df8a3c66d8b0dc6c870926ec665d9ce6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106532167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041609"
 ---
 # <a name="application-deployment"></a>Déploiement d’application
 
@@ -17,17 +17,17 @@ Cette section décrit les considérations relatives au déploiement de votre app
 
 ## <a name="packaging"></a>Packaging
 
-L’empaquetage de l’application dépend du type de prise en charge linguistique fourni, car Windows installe les modules linguistiques en fonction des préférences de l’utilisateur. Par exemple, si vous avez décidé de prendre en charge les paramètres de langue du système, vous souhaiterez peut-être fournir la prise en charge linguistique dans un package unique, quel que soit l’utilisateur prévu.
+l’empaquetage de l’application dépend du type de prise en charge linguistique fourni, comme Windows installe les modules linguistiques en fonction des préférences de l’utilisateur. Par exemple, si vous avez décidé de prendre en charge les paramètres de langue du système, vous souhaiterez peut-être fournir la prise en charge linguistique dans un package unique, quel que soit l’utilisateur prévu.
 
 Si l’application et les ressources sont volumineuses, vous devez utiliser un package par langue prise en charge. Par exemple, vous pouvez utiliser ce type de Packaging si votre application présente des langues sélectionnables par l’utilisateur et si l’utilisateur a besoin de l’ajout et de la suppression dynamiques des ressources de langue.
 
-## <a name="file-placement-on-windows-vista-and-later"></a>Emplacement des fichiers sur Windows Vista et versions ultérieures
+## <a name="file-placement-on-windows-vista-and-later"></a>emplacement des fichiers sur Windows Vista et versions ultérieures
 
-Cette section décrit l’emplacement des fichiers pour une application MUI ciblée uniquement sur Windows Vista et versions ultérieures.
+cette section décrit l’emplacement des fichiers pour une application MUI ciblée uniquement sur Windows Vista et versions ultérieures.
 
 ### <a name="place-the-ln-file"></a>Placez le fichier LN
 
-Un fichier LN standard pour une application MUI est un fichier. exe ou. dll, par exemple, BakerDelta.dll. Vous devez placer ce fichier dans le dossier racine dans lequel votre application est installée, par exemple X : \\ \\ <somepath> \\BakerDelta.dll.
+Un fichier LN standard pour une application MUI est un fichier .exe ou un fichier .dll, par exemple BakerDelta.dll. Vous devez placer ce fichier dans le dossier racine dans lequel votre application est installée, par exemple X : \\ \\ <somepath> \\BakerDelta.dll.
 
 ### <a name="place-language-specific-resource-files"></a>Placer Language-Specific fichiers de ressources
 
@@ -43,11 +43,11 @@ Vos fichiers de ressources spécifiques à une langue doivent avoir des noms pr�
 
 Les fichiers de ressources doivent être placés dans leurs emplacements corrects lors de l’installation de l’application MUI ou d’un package de langue. Il est important de placer chaque fichier dans le dossier approprié, car le chargeur de ressources ne peut pas fonctionner correctement dans le cas contraire. À l’aide de l’exemple ci-dessus, le chargeur de ressources examine X : \\ <somepath> \\ en-US \\BakerDelta.dll. mui pour les ressources en anglais (États-Unis). Si le chargeur examine ce fichier et rencontre uniquement des ressources de langue espagnole, il échoue.
 
-## <a name="file-placement-on-a-pre-windows-vista-operating-system"></a>Emplacement des fichiers sur un système d’exploitation antérieur à Windows Vista
+## <a name="file-placement-on-a-pre-windows-vista-operating-system"></a>emplacement des fichiers sur un système d’exploitation antérieur à Windows Vista
 
-Une application à exécuter sur un système d’exploitation antérieur à Windows Vista peut utiliser la Convention Windows Vista de placement de fichiers de ressources spécifiques à une langue dans des dossiers basés sur les noms de langue. L’application peut également se conformer à une Convention plus ancienne qui forme des chemins d’accès à partir d' [identificateurs de langue](language-identifiers.md). Pour les applications qui ne prennent en charge qu’une seule langue, vous pouvez simplement placer le fichier de ressources spécifique au langage dans le répertoire racine avec le fichier binaire.
+une application à exécuter sur un système d’exploitation pré-Windows vista peut utiliser la convention Windows Vista de placement de fichiers de ressources spécifiques à une langue dans des dossiers basés sur les noms de langue. L’application peut également se conformer à une Convention plus ancienne qui forme des chemins d’accès à partir d' [identificateurs de langue](language-identifiers.md). Pour les applications qui ne prennent en charge qu’une seule langue, vous pouvez simplement placer le fichier de ressources spécifique au langage dans le répertoire racine avec le fichier binaire.
 
-Par exemple, considérez un fichier LN appelé BakerDelta.dll, avec des fichiers de ressources spécifiques à la langue pour l’anglais (Royaume-Uni), l’anglais (États-Unis), l’anglais neutre, l’espagnol (Espagne), l’espagnol (Mexique) et l’espagnol neutre. Une installation sur un système d’exploitation antérieur à Windows Vista peut placer ces fichiers comme suit :
+Par exemple, considérez un fichier LN appelé BakerDelta.dll, avec des fichiers de ressources spécifiques à la langue pour l’anglais (Royaume-Uni), l’anglais (États-Unis), l’anglais neutre, l’espagnol (Espagne), l’espagnol (Mexique) et l’espagnol neutre. une installation sur un système d’exploitation pré-Windows Vista peut placer ces fichiers comme suit :
 
 -   X : \\ \\ <somepath> \\BakerDelta.dll
 -   X : \\ \\ <somepath> \\BakerDelta.dll. mui (fichier. mui facultatif contenant les ressources dans la langue du système d’exploitation en tant que solution de secours ultime)
@@ -66,17 +66,17 @@ La logique d’installation pour copier et configurer des fichiers d’applicati
 
 Si votre application installe simplement la langue du système d’exploitation cible, le programme d’installation doit détecter l’interface utilisateur du système d’exploitation pour déterminer les ressources d’application à installer. Pour prendre en charge la meilleure expérience utilisateur, le programme d’installation doit également détecter la langue de l’interface utilisateur pour présenter une interface utilisateur localisée pour l’installation elle-même.
 
-Il est recommandé d’utiliser Windows Installer (MSI) pour créer votre logiciel d’installation. Les ressources associées doivent être incluses dans le fichier de ressources de la langue de base, comme décrit dans [création du fichier de ressources de la langue de base](creating-the-base-language-resource-file.md). Pour obtenir des instructions sur l’utilisation de MSI pour préparer le programme d’installation de l’application, consultez [Windows Installer](../msi/windows-installer-portal.md).
+il est recommandé d’utiliser Windows Installer (MSI) pour créer votre logiciel d’installation. Les ressources associées doivent être incluses dans le fichier de ressources de la langue de base, comme décrit dans [création du fichier de ressources de la langue de base](creating-the-base-language-resource-file.md). pour obtenir des instructions sur l’utilisation de MSI pour préparer le programme d’installation de l’application, consultez [Windows Installer](../msi/windows-installer-portal.md).
 
 ## <a name="uninstall-program"></a>Désinstaller le programme
 
-Vous pouvez également souhaiter fournir un programme de désinstallation avec votre application MUI. MSI est également recommandé pour la création de ce programme. Pour obtenir des instructions sur l’utilisation de MSI pour préparer le logiciel de désinstallation, consultez [Windows Installer](../msi/windows-installer-portal.md).
+Vous pouvez également souhaiter fournir un programme de désinstallation avec votre application MUI. MSI est également recommandé pour la création de ce programme. pour obtenir des instructions sur l’utilisation de MSI pour préparer le logiciel de désinstallation, consultez [Windows Installer](../msi/windows-installer-portal.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Utilisation de l’interface utilisateur multilingue](using-multilingual-user-interface.md)
+[utilisation de interface utilisateur multilingue](using-multilingual-user-interface.md)
 </dt> </dl>
 
  

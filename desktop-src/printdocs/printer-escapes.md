@@ -1,19 +1,19 @@
 ---
-description: Les séquences d’échappement fournies par Windows 16 bits ont permis l’accès aux fonctionnalités spéciales de l’appareil.
+description: les séquences d’échappement fournies par le Windows 16 bits permettaient d’accéder aux fonctionnalités spéciales des appareils.
 ms.assetid: 4bdd1d47-8cf4-4088-aec8-88193e71a828
 title: Échappements de l’imprimante
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59463c4201e97c5ac1ec689a772581fab28314b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5dd8bc842e60ca0019fc523b27a4657e66a623cda4802bfdb489213b694fd432
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119711559"
 ---
 # <a name="printer-escapes"></a>Échappements de l’imprimante
 
-Les séquences d’échappement fournies par Windows 16 bits ont permis l’accès aux fonctionnalités spéciales de l’appareil. La plupart de ces séquences d’échappement sont obsolètes, mais quelques-unes sont fournies pour simplifier le portage des applications Windows 16 bits. GDI prend en charge un ensemble complet de fonctions de chemin d’accès que les applications peuvent utiliser à la place des séquences d’échappement pour dessiner des chemins d’accès sur n’importe quel appareil. Pour obtenir la liste des fonctions qui remplacent certaines séquences d’échappement, consultez la fonction [**Escape**](/windows/desktop/api/Wingdi/nf-wingdi-escape) .
+les séquences d’échappement fournies par le Windows 16 bits permettaient d’accéder aux fonctionnalités spéciales des appareils. la plupart de ces séquences d’échappement sont obsolètes, mais quelques-unes sont fournies pour simplifier le portage des applications Windows 16 bits. GDI prend en charge un ensemble complet de fonctions de chemin d’accès que les applications peuvent utiliser à la place des séquences d’échappement pour dessiner des chemins d’accès sur n’importe quel appareil. Pour obtenir la liste des fonctions qui remplacent certaines séquences d’échappement, consultez la fonction [**Escape**](/windows/desktop/api/Wingdi/nf-wingdi-escape) .
 
 Des séquences d’échappement d’imprimante 64 d’origine, seuls **QUERYESCSUPPORT** et **passthrough** peuvent être utilisés.
 

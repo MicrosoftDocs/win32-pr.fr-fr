@@ -6,12 +6,12 @@ keywords:
 - Restart Manager restart Mgr, référence, fonctions de rappel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44c850dd805aeff664e3e09292825e342a6c5603
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 995554b612a0f0c176f3317b43db29c7c11a030a1a253a8e1a6b7d7268f10bcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010287"
 ---
 # <a name="restart-manager-callback-functions"></a>Fonctions de rappel du gestionnaire de redémarrage
 
@@ -25,8 +25,8 @@ L’API du gestionnaire de redémarrage utilise les fonctions de rappel dans le 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

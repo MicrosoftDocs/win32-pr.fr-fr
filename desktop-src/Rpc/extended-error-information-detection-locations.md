@@ -1,19 +1,19 @@
 ---
 title: Emplacements de détection des informations d’erreur étendues
-description: Emplacements de détection des informations d’erreur étendues de l’appel de procédure distante (RPC) pour Windows XP.
+description: emplacements de détection des informations d’erreur étendues de l’appel de procédure distante (RPC) pour Windows XP.
 ms.assetid: 73c4d044-363f-4bf5-a8ea-37d8a227183a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05effd769a6da711b881c4b475b4ade8d7c1812f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cd5f4ac679428c0ce3e933f7d537867fd96c490caf2880b6b6e2d69cc08f74a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021331"
 ---
 # <a name="extended-error-information-detection-locations"></a>Emplacements de détection des informations d’erreur étendues
 
-Le tableau suivant répertorie les emplacements de détection des informations d’erreur étendues pour Windows XP.
+le tableau suivant répertorie les emplacements de détection des informations d’erreur étendues pour Windows XP.
 
 
 
@@ -94,7 +94,7 @@ Le tableau suivant répertorie les emplacements de détection des informations d
 | 280  | WSSyncSend10                                         | Une erreur s’est produite lors de la vérification par RPC des arrêts à partir du serveur.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | 281  | WSSyncSend20                                         | RPC n’a pas pu envoyer les données. L’erreur est l’erreur reçue du système d’e/s.                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | 282  | WSSyncSend30                                         | RPC n’a pas pu envoyer les données.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| 290  | WSSyncRecv10                                         | RPC n’a pas pu recevoir de données à partir de Windows Sockets (Winsock). L’erreur est l’erreur reçue de Winsock. Si l’erreur est 0, le premier paramètre est le nombre d’octets reçus.                                                                                                                                                                                                                                                                                                                                        |
+| 290  | WSSyncRecv10                                         | RPC n’a pas pu recevoir de données à partir de Windows sockets (Winsock). L’erreur est l’erreur reçue de Winsock. Si l’erreur est 0, le premier paramètre est le nombre d’octets reçus.                                                                                                                                                                                                                                                                                                                                        |
 | 291  | WSSyncRecv20                                         | Le délai d’expiration de la connexion a été dépassé lors de la tentative de réception des données à partir de Winsock.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | 292  | WSSyncRecv30                                         | RPC n’a pas pu recevoir de données de Winsock. L’erreur est l’erreur reçue de Winsock.                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | 300  | WSServerListenCommon10                               | RPC n’a pas pu ouvrir un Socket. Le premier paramètre est un ULONG avec la famille d’adresses pour le Socket. Le deuxième paramètre est un ULONG avec le type de Socket. Le troisième paramètre est un ULONG avec le protocole.                                                                                                                                                                                                                                                                                                                 |
@@ -205,8 +205,8 @@ Le tableau suivant répertorie les emplacements de détection des informations d
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: a0105aa8c0c8bc777ab97f751bdb7b2d819dcdb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62556e58f8574dc196655c8f11ca0f2bb0a670d7210aa100f96875e574a8b1b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967628"
 ---
 # <a name="flagtype-complex-type"></a>Type complexe FlagType
 
@@ -33,7 +33,7 @@ Définit le type qui contient l’image binaire encodée et les informations de 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                     |
 
 

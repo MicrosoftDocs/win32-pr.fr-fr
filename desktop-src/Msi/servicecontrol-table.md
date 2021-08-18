@@ -4,12 +4,12 @@ ms.assetid: c51cd9bd-3c55-4eec-ab67-172765adc51c
 title: Table ServiceControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c2abd123e937673694dffd53773a16fcbd704c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24b8531fb70c1887d77ae9b09bf3fe7e59de0c7878dfac44707df942e838f4f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039979"
 ---
 # <a name="servicecontrol-table"></a>Table ServiceControl
 
@@ -31,7 +31,7 @@ La table ServiceControl contient les colonnes suivantes.
 | Événement          | [Integer](integer.md)       | N   | N        |
 | Arguments      | [Correct](formatted.md)   | N   | O        |
 | Wait           | [Integer](integer.md)       | N   | O        |
-| -\_    | [Identificateur](identifier.md) | N   | N        |
+| Composant\_    | [Identificateur](identifier.md) | N   | N        |
 
 
 
@@ -115,7 +115,7 @@ Clé externe vers la colonne de l’une des [tables de composants](component-tab
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les actions [StartServices](startservices-action.md), [StopServices](stopservices-action.md)et [DeleteServices](deleteservices-action.md) dans les [*tables de séquences*](s-gly.md) traitent les informations contenues dans ce tableau. Pour plus d’informations sur l’utilisation des *tables de séquences*, consultez [utilisation d’une table de séquences](using-a-sequence-table.md).
 

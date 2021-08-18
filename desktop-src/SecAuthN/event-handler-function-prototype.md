@@ -12,16 +12,16 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: 935ddac5660c814b898be17218d879678f2135ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df6670e852ccd12fd2bed1d0c188aa0252c9b3afbcb899cf9480b7011d08625d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008227"
 ---
 # <a name="event-handler-function-prototype-callback-function"></a>Fonction de rappel de prototype de fonction du gestionnaire d’événements
 
-\[Les fonctions de prototype du gestionnaire d’événements ne sont plus disponibles pour une utilisation à partir de Windows Server 2008 et Windows Vista. \]
+\[les fonctions de Prototype du gestionnaire d’événements ne sont plus utilisables à partir de Windows Server 2008 et Windows Vista. \]
 
 Les fonctions de prototype du gestionnaire d’événements sont utilisées pour toutes les fonctions qui gèrent les événements de notification [*Winlogon*](/windows/desktop/SecGloss/w-gly) . Le nom de la fonction, représenté ci-dessous par le nom de la fonction du gestionnaire d’événements de l’espace réservé, reflète généralement le nom de l’événement géré par la fonction. *\_ \_ \_* Par exemple, la fonction qui gère les événements d’ouverture de session peut être nommée : **WLEventLogon**.
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**d' \_ \_ informations de notification wlx**](/win
 
 Cette fonction de rappel ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si votre gestionnaire d’événements doit créer des processus enfants, il doit appeler la fonction [**CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) . Dans le cas contraire, le nouveau processus sera créé sur le bureau Winlogon, et non sur le Bureau de l’utilisateur.
 
@@ -113,8 +113,8 @@ void WLEventLogoff (PWLX_NOTIFICATION_INFO pInfo)
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                       |
 

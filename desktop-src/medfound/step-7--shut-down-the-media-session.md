@@ -4,12 +4,12 @@ ms.assetid: c31444df-8717-4ca8-a9ec-72cbb0ee4125
 title: 'Étape 7 : arrêter la session multimédia'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae9fd11cde51b06d932b212f4effabf315deecb7
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: aa1eec6e798ee260c83fc1532c2012aed8a53625b12195848ac00fcdcf8fae3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104116071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721942"
 ---
 # <a name="step-7-shut-down-the-media-session"></a>Étape 7 : arrêter la session multimédia
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 91331ede15feb756f3ddd08d0d368621b35eda00
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b2811e307b370323c331d3f894116ad0ff01af25ad76e1ea775dae5489dfb15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074563"
 ---
 # <a name="cbasewindowpreparewindow-method"></a>Méthode CBaseWindow. PrepareWindow
 
@@ -48,14 +48,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                            | Description         |
 |----------------------------------------------------------------------------------------|---------------------|
-| <dl> <dt>**\_OK**</dt> </dl>   | Opération réussie.<br/> |
+| <dl> <dt>**\_OK**</dt> </dl>   | Réussite.<br/> |
 | <dl> <dt>**E \_ échec**</dt> </dl> | Échec.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez cette méthode après avoir créé l’objet. Cette méthode effectue une comptabilité initiale, puis appelle la méthode [**CBaseWindow ::D ocreatewindow**](cbasewindow-docreatewindow.md) pour créer la fenêtre.
 
@@ -65,7 +65,7 @@ Appelez cette méthode après avoir créé l’objet. Cette méthode effectue un
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

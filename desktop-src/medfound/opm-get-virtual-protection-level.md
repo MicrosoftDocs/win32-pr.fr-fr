@@ -4,12 +4,12 @@ ms.assetid: 635d54de-2735-4390-8bac-ba63b9503909
 title: OPM_GET_VIRTUAL_PROTECTION_LEVEL (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c7ac36abd0a043a74a18401205bbb5e661ac17d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09fb4130b4ad700de2328114dbf900ff7d122045b277c8a5ae812332c730a5d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972918"
 ---
 # <a name="opm_get_virtual_protection_level"></a>\_niveau de \_ \_ protection \_ de l’offre OPM
 
@@ -29,7 +29,7 @@ Le niveau de protection *virtuel* est le niveau demandé par l’application lor
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le niveau de protection est retourné dans le membre **ulInformation** de la structure d' [**\_ \_ informations standard OPM**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) . La signification de cette valeur dépend du mécanisme de protection qui est interrogé. Pour chaque mécanisme de protection, la valeur de **ulInformation** est un indicateur d’une énumération différente, comme indiqué dans le tableau suivant.
 
@@ -54,8 +54,8 @@ Cette requête est équivalente à la \_ requête DXVA COPPQueryLocalProtectionL
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Opmapi. h</dt> </dl> |
 
 
