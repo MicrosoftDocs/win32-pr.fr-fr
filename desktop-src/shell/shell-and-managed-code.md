@@ -9,20 +9,20 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: e4dc9fd0573f3f98f0ec1110079f95f56a8c42e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15ccbee300cbfe1b08bc0509472ac3afcaa9ea3db54f6f1e38131cc08d2e8381
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858174"
 ---
 # <a name="guidance-for-implementing-in-process-extensions"></a>Conseils pour l’implémentation des extensions de In-Process
 
 Les extensions in-process sont chargées dans tous les processus qui les déclenchent. Par exemple, une extension d’espace de noms de Shell peut être chargée dans n’importe quel processus qui accède directement ou indirectement à l’espace de noms Shell. L’espace de noms Shell est utilisé par de nombreuses opérations de Shell, telles que l’affichage d’une boîte de dialogue de fichier commune, le lancement d’un document via son application associée ou l’obtention de l’icône utilisée pour représenter un fichier. Étant donné que les extensions in-process peuvent être chargées dans des processus arbitraires, vous devez veiller à ce qu’elles n’aient pas d’impact négatif sur l’application hôte ou sur d’autres extensions in-process.
 
-L’un des éléments à prendre en compte est le *Common Language Runtime (CLR)*, également appelé *code managé* ou le *.NET Framework*. **Microsoft recommande d’écrire des extensions gérées dans le processus dans l’Explorateur Windows ou Windows Internet Explorer et ne les considère pas comme un scénario pris en charge.**
+L’un des éléments à prendre en compte est le *Common Language Runtime (CLR)*, également appelé *code managé* ou le *.NET Framework*. **Microsoft recommande d’écrire des extensions gérées dans le processus dans Windows explorer ou Windows Internet explorer et ne les considère pas comme un scénario pris en charge.**
 
-Cette rubrique décrit les facteurs à prendre en compte lorsque vous déterminez si un runtime autre que le CLR peut être utilisé par les extensions in-process. Java, Visual Basic, JavaScript/ECMAScript, Delphi et la bibliothèque Runtime C/C++ sont des exemples d’autres runtimes. Cette rubrique fournit également des raisons pour lesquelles le code managé n’est pas pris en charge dans les extensions in-process.
+Cette rubrique décrit les facteurs à prendre en compte lorsque vous déterminez si un runtime autre que le CLR peut être utilisé par les extensions in-process. Java, Visual Basic, JavaScript/ECMAScript, Delphi et la bibliothèque runtime C/C++ sont des exemples d’autres runtimes. Cette rubrique fournit également des raisons pour lesquelles le code managé n’est pas pris en charge dans les extensions in-process.
 
 ## <a name="version-conflicts"></a>Conflits de versions
 

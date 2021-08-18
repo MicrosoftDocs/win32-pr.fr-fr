@@ -4,16 +4,16 @@ ms.assetid: 9a2add82-53f9-49ed-b20c-019f95e7d260
 title: Informations de référence sur CAPICOM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41b828f3b5b35e3e0ef799529f866c23416c8df8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c94bd7f8c2052f53b4dc1e244251ba76c1b10e349e0f43434a926db6dbeb9190
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117772110"
 ---
 # <a name="capicom-reference"></a>Informations de référence sur CAPICOM
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 Le client COM CAPICOM fournit des services qui permettent aux développeurs d’applications d’ajouter la sécurité basée sur le [*chiffrement*](../secgloss/c-gly.md) aux applications. CryptoAPI intègre des fonctionnalités pour l’authentification à l’aide de [*signatures numériques*](../secgloss/d-gly.md), l’enveloppement des messages et le chiffrement et le déchiffrement des données.
 
@@ -41,7 +41,7 @@ Les objets suivants fonctionnent avec les [*magasins de certificats*](../secglos
 
 | Object                                             | Description                                                                                                             |
 |----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [**Certificat**](certificate.md)                 | Un seul certificat numérique.                                                                                           |
+| [**Certificate**](certificate.md)                 | Un seul certificat numérique.                                                                                           |
 | [**CertificatePolicies**](certificatepolicies.md) | Collection d’objets [**PolicyInformation**](policyinformation.md) .                                                 |
 | [**Certificats**](certificates.md)               | Collection d’objets de [**certificat**](certificate.md) .                                                               |
 | [**CertificateStatus**](certificatestatus.md)     | Fournit des informations d’État sur un certificat.                                                                           |
@@ -113,7 +113,7 @@ Les objets suivants sont exportés pour modifier les comportements par défaut d
 
 | Object                                         | Description                                                                                                                                     |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Algorithme**](algorithm.md)                 | Définit la longueur de l’algorithme et de la [*clé*](../secgloss/k-gly.md) à utiliser dans les opérations de chiffrement. |
+| [**Algorithm**](algorithm.md)                 | Définit la longueur de l’algorithme et de la [*clé*](../secgloss/k-gly.md) à utiliser dans les opérations de chiffrement. |
 | [**Attribut**](attribute.md)                 | Fournit une seule partie des informations ajoutées sur une signature, telles que l’heure de la signature.                                                    |
 | [**Attributs**](attributes.md)               | Collection d’objets [**attribute**](attribute.md) .                                                                                           |
 | [**BasicConstraints**](basicconstraints.md)   | Fournit un accès en lecture seule aux contraintes de base sur les utilisations d’un certificat.                                                                    |
@@ -129,7 +129,7 @@ Les objets suivants sont exportés pour modifier les comportements par défaut d
 | [**Qualificateur**](qualifier.md)                 | Représente un pointeur CPS (certification Practice Statement) ou un qualificateur d’avis utilisateur.                                                           |
 | [**Qualificateurs**](qualifiers.md)               | Représente une collection de qualificateurs.                                                                                                          |
 | [**Paramètres**](settings.md)                   | Active ou désactive les boîtes de dialogue pour demander l’identité de l’expéditeur ou du signataire si cette identité n’est pas spécifiée.                                     |
-| [**Services**](utilities.md)                 | Fournit des fonctionnalités pour les tâches courantes.                                                                                                        |
+| [**Outils**](utilities.md)                 | Fournit des fonctionnalités pour les tâches courantes.                                                                                                        |
 
 
 

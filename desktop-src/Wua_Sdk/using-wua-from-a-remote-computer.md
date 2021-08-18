@@ -1,19 +1,19 @@
 ---
-description: L’API Windows Update Agent (WUA) peut être utilisée par un utilisateur sur un ordinateur distant ou par une application qui s’exécute sur un ordinateur distant. Toutefois, l’utilisateur ou l’application distante doit disposer de privilèges d’administrateur.
+description: l’API Windows Update Agent (WUA) peut être utilisée par un utilisateur sur un ordinateur distant ou par une application qui s’exécute sur un ordinateur distant. Toutefois, l’utilisateur ou l’application distante doit disposer de privilèges d’administrateur.
 ms.assetid: 15f86590-bed8-4506-916d-43b0bac5db2a
 title: Utilisation de WUA à partir d’un ordinateur distant
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bb14c019e48d6c36b210633ab9d57dcd157585a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0a3780099f6ff9707893c9f7b5d5f2f18be1f6a97c33d9133fef4d5d3497087
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106542889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737778"
 ---
 # <a name="using-wua-from-a-remote-computer"></a>Utilisation de WUA à partir d’un ordinateur distant
 
-L’API Windows Update Agent (WUA) peut être utilisée par un utilisateur sur un ordinateur distant ou par une application qui s’exécute sur un ordinateur distant. Toutefois, l’utilisateur ou l’application distante doit disposer de privilèges d’administrateur.
+l’API Windows Update Agent (WUA) peut être utilisée par un utilisateur sur un ordinateur distant ou par une application qui s’exécute sur un ordinateur distant. Toutefois, l’utilisateur ou l’application distante doit disposer de privilèges d’administrateur.
 
 La liste suivante contient les interfaces disponibles pour les utilisateurs et les applications distantes :
 
@@ -62,12 +62,12 @@ La liste suivante contient des interfaces et des propriétés qui ne sont pas di
 -   [**IAutomaticUpdate ::P ause**](/windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-pause)
 -   [**IAutomaticUpdates :: Resume**](/windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-resume)
 -   [**IAutomaticUpdates::ShowSettingsDialog**](/windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-showsettingsdialog)
--   [**Propriété Settings de IAutomaticUpdates**](/windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-get_settings)
+-   [**Paramètres Propriété de IAutomaticUpdates**](/windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-get_settings)
 -   [**Propriété ServiceEnabled de IAutomaticUpdates**](/windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-get_serviceenabled)
 -   [**IAutomaticUpdates::EnableService**](/windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-enableservice)
 -   [**ISystemInformation**](/windows/desktop/api/Wuapi/nn-wuapi-isysteminformation)
 
-Les ports et exceptions suivants doivent être ajoutés aux paramètres du pare-feu Windows pour Windows Vista et Windows Server 2008 pour que l’API WUA soit appelée à distance.
+les ports et exceptions suivants doivent être ajoutés aux paramètres du pare-feu Windows pour Windows Vista et Windows Server 2008 pour que l’API WUA soit appelée à distance.
 
 <dl> <dt>
 
@@ -77,13 +77,13 @@ Les ports et exceptions suivants doivent être ajoutés aux paramètres du pare-
 <span id="Exception_2"></span><span id="exception_2"></span><span id="EXCEPTION_2"></span>Exception 2
 </dt> <dd> <dl> <dd>Port local : RPC dynamique</dd> <dd>Port distant : tous</dd> <dd>Numéro de protocole : 6</dd> <dd>Fichier exécutable :% windir% \\ system32 \\dllhost.exe</dd> <dd>Privilège distant : administrateur</dd> </dl> </dd> </dl>
 
-La liste suivante contient les outils qui peuvent être utilisés pour configurer les paramètres du pare-feu Windows :
+la liste suivante contient des outils qui peuvent être utilisés pour configurer des paramètres de pare-feu Windows :
 
 -   Pare-feu Windows avec le composant logiciel enfichable Sécurité avancée
 -   Stratégie de groupe
 -   Outil en ligne de commande netsh advfirewall
 
-Pour plus d’informations sur l’utilisation des outils pour configurer les paramètres du pare-feu Windows, consultez [prise en main avec le pare-feu Windows avec fonctions avancées de sécurité](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc748991(v=ws.10)).
+pour plus d’informations sur l’utilisation des outils pour configurer des paramètres de pare-feu Windows, consultez [Prise en main avec Windows pare-feu avec fonctions avancées de sécurité](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc748991(v=ws.10)).
 
  
 

@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d58c162ebc6d340b9bd913407bc00aac87e208e4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 102c9af7a8e38ccbbb4a7e67b2734588857ddca93da862be211fd1223133f80d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788861"
 ---
 # <a name="rasadminreleaseipaddress-callback-function"></a>RasAdminReleaseIpAddress fonction de rappel
 
-\[La fonction **RasAdminReleaseIpAddress** est disponible pour une utilisation dans Windows NT 4,0 et n’est pas disponible dans les versions ultérieures. Utilisez plutôt [**MprAdminReleaseIpAddress**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminreleaseipaddress).\]
+\[La fonction **RasAdminReleaseIpAddress** peut être utilisée dans Windows NT 4,0 et n’est pas disponible dans les versions ultérieures. Utilisez plutôt [**MprAdminReleaseIpAddress**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminreleaseipaddress).\]
 
 La fonction **RasAdminReleaseIpAddress** est une fonction définie par l’application qui est exportée par une DLL d’administration de serveur RAS tierce. RAS appelle cette fonction pour notifier à la DLL que le client distant a été déconnecté et que l’adresse IP doit être libérée.
 
@@ -31,9 +31,9 @@ La fonction **RasAdminReleaseIpAddress** est une fonction définie par l’appli
 
 ```C++
 void CALLBACK RasAdminReleaseIpAddress(
-  _In_ WCHAR  *lpszUserName,
-  _In_ WCHAR  *lpszPortName,
-  _In_ IPADDR *pipAddress
+  _In_ WCHAR  *lpszUserName,
+  _In_ WCHAR  *lpszPortName,
+  _In_ IPADDR *pipAddress
 );
 ```
 
@@ -68,7 +68,7 @@ Pointeur vers une variable **ipaddr** qui spécifie l’adresse IP renvoyée pou
 
 Il n’y a pas d’informations d’erreur étendues pour cette fonction. ne pas appeler [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le serveur RAS appelle la fonction **RasAdminReleaseIpAddress** uniquement si l’application a retourné la **valeur true** dans le paramètre *bNotifyRelease* au cours de l’appel précédent à [**RasAdminGetIpAddressForUser**](rasadmingetipaddressforuser.md) pour l’utilisateur spécifié par le paramètre *lpszUserName* .
 
@@ -76,10 +76,10 @@ Le programme d’installation d’une DLL d’administration RAS tierce doit ins
 
 ```
 HKEY_LOCAL_MACHINE
-   SOFTWARE
-      Microsoft
-         RAS
-            AdminDll
+   SOFTWARE
+      Microsoft
+         RAS
+            AdminDll
 ```
 
 Pour inscrire la DLL, définissez les valeurs suivantes sous cette clé.
@@ -93,22 +93,22 @@ Pour inscrire la DLL, définissez les valeurs suivantes sous cette clé.
 
 
 
- 
+ 
 
 Par exemple, l’entrée de Registre pour une DLL d’administration RAS d’une société fictive nommée ProElectron, Inc. peut être :
 
 ```
 HKEY_LOCAL_MACHINE
-   SOFTWARE
-      Microsoft
-         RAS
-            AdminDll
+   SOFTWARE
+      Microsoft
+         RAS
+            AdminDll
 ```
 
 *DisplayName*: **reg \_ SZ** : dll d’administration du service d’accès distant diselectron *DllPath*: **reg \_ SZ** : C : \\ NT \\ system32 \\ntwkadm.dll
 
 Le programme d’installation d’une DLL d’administration RAS doit également fournir des fonctionnalités de suppression/désinstallation. Si un utilisateur supprime la DLL, le programme d’installation doit supprimer les entrées de registre de la DLL.
 
- 
+ 
 
- 
+ 

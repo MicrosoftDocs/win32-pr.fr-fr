@@ -4,12 +4,12 @@ ms.assetid: 6747D082-4B7B-4C7E-A230-2E8C8412FABD
 title: GUID de manipulation directe
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 57dfa5701d7f01a9738206e7a2e3d669f6cf6a4a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3ee67206bf9395c3a338dba27c9365578d30d7304f465d93fdc90322a77a8a0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106544546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118280540"
 ---
 # <a name="direct-manipulation-guids"></a>GUID de manipulation directe
 

@@ -7,12 +7,12 @@ keywords:
 - Administration, serveur RAS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e096610e1cfe986c504a017f4d2b0d1033a6e6d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6760e8cc06e5c7b389d01f690497dc070974cada5e9a922ec5576e48b2a328fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789188"
 ---
 # <a name="ras-server-administration"></a>Administration du serveur RAS
 
@@ -27,9 +27,9 @@ Windows NT Server 4,0 fournit un ensemble de fonctions permettant d’administre
 
 Vous pouvez également installer une DLL d’administration de serveur RAS pour auditer les connexions utilisateur et affecter des adresses IP aux utilisateurs distants. La DLL exporte un ensemble de fonctions que le serveur RAS appelle chaque fois qu’un utilisateur tente de se connecter ou de se déconnecter.
 
- 
+ 
 
- 
+ 
 
 
 

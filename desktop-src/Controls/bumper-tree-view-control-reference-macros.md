@@ -4,12 +4,12 @@ description: Macros d’arborescence
 ms.assetid: ee569a0e-21f3-4d46-ac7d-e152f8b35391
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc69c9ebc400975bba1d9e43c820b6a7314981c7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c63ffb8c7e643daba2cb01d188c3d111179ba6441dde76f9ab0c08b41de703a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104211644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117833079"
 ---
 # <a name="tree-view-macros"></a>Macros d’arborescence
 

@@ -3,8 +3,8 @@ title: IWMPPlaylist (VB et C), interface (Wmp.h)
 description: Fournit des propriétés et des méthodes pour organiser, gérer et manipuler des éléments multimédias dans une sélection. L’interface IWMPPlaylist expose les propriétés suivantes.
 ms.assetid: c3f4f9dd-eb5f-493a-b8d0-22e70c63a2d1
 keywords:
-- IWMPPlaylist (VB et C) interface Windows Media Player
-- Interface IWMPPlaylist (VB et C), le lecteur Windows Media, décrit
+- interface IWMPPlaylist (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPPlaylist (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,14 +15,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d52090588905e2fd79b218abe939f78c1e38fc79
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b3fc1d8be09596d89dd87748811846d6dee1e8af8f28bebec56fa852c42ed6bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119001"
 ---
-# <a name="iwmpplaylist-vb-and-c-interface"></a>Interface IWMPPlaylist (VB et C#)
+# <a name="iwmpplaylist-vb-and-c-interface"></a>interface IWMPPlaylist (VB et C#)
 
 Fournit des propriétés et des méthodes pour organiser, gérer et manipuler des éléments multimédias dans une sélection.
 
@@ -30,14 +30,14 @@ L’interface **IWMPPlaylist** expose les propriétés suivantes.
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPPlaylist (VB et C#)** possède les types de membres suivants :
+l’interface **IWMPPlaylist (VB et C#)** possède les types de membres suivants :
 
 -   [Méthodes](#methods)
 -   [Propriétés](#properties)
 
 ### <a name="methods"></a>Méthodes
 
-L’interface **IWMPPlaylist (VB et C#)** possède ces méthodes.
+l’interface **IWMPPlaylist (VB et C#)** possède ces méthodes.
 
 
 
@@ -57,7 +57,7 @@ L’interface **IWMPPlaylist (VB et C#)** possède ces méthodes.
 
 ### <a name="properties"></a>Propriétés
 
-L’interface **IWMPPlaylist (VB et C#)** a ces propriétés.
+l’interface **IWMPPlaylist (VB et C#)** a ces propriétés.
 
 
 
@@ -80,7 +80,7 @@ Procurez-vous une interface **IWMPPlaylist** en utilisant les propriétés ou m�
 
 | Objet ou interface                                                | Propriété ou méthode                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IWMPCdrom**](iwmpcdrom--vb-and-c.md)                           | [**Playlist**](wmplibiwmpcdrom-iwmpcdrom-playlist--vb-and-c.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [**IWMPCdrom**](iwmpcdrom--vb-and-c.md)                           | [**Sélection**](wmplibiwmpcdrom-iwmpcdrom-playlist--vb-and-c.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | [**IWMPMediaCollection**](iwmpmediacollection--vb-and-c.md)       | [**GetAll**](wmplibiwmpmediacollection-iwmpmediacollection-getall--vb-and-c.md), [**getByAlbum**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getbyalbum), [**getByAttribute**](wmplibiwmpmediacollection-iwmpmediacollection-getbyattribute--vb-and-c.md), [**getByAuthor**](wmplibiwmpmediacollection-iwmpmediacollection-getbyauthor--vb-and-c.md), [**getByGenre**](wmplibiwmpmediacollection-iwmpmediacollection-getbygenre--vb-and-c.md), [**GetByName**](wmplibiwmpmediacollection-iwmpmediacollection-getbyname--vb-and-c.md) |
 | [AxWindowsMediaPlayer](axwindowsmediaplayer-object--vb-and-c.md)  | [**currentPlaylist**](axwmplib-axwindowsmediaplayer-currentplaylist--vb-and-c.md), [ **newPlaylist**](axwmplib-axwindowsmediaplayer-newplaylist.md)                                                                                                                                                                                                                                                                                                                                                                   |
 | [**IWMPPlaylistArray**](iwmpplaylistarray--vb-and-c.md)           | [**Élément**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylistarray-item)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -104,7 +104,7 @@ Procurez-vous une interface **IWMPPlaylist** en utilisant les propriétés ou m�
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  

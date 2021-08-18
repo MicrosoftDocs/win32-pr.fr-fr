@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 893833fd1770fe3d972033a4d10f9047b0f61dfc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e720286c3e7308078d5d5ec91aa27edc95b725830824473e7b5858f2de5bc90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118072477"
 ---
 # <a name="jetgotosecondaryindexbookmark-function"></a>JetGotoSecondaryIndexBookmark fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetgotosecondaryindexbookmark-function"></a>JetGotoSecondaryIndexBookmark fonction)
 
 La fonction **JetGotoSecondaryIndexBookmark** positionne un curseur sur une entrée d’index associée au signet de l’index secondaire spécifié. Le signet de l’index secondaire doit être utilisé avec le même index sur la même table que celle à partir de laquelle il a été récupéré à l’origine. Le signet d’index secondaire d’une entrée d’index peut être récupéré à l’aide de **JetGotoSecondaryIndexBookmark**.
 
-**Windows XP :**  **JetGotoSecondaryIndexBookmark** est introduit dans Windows XP.
+**Windows xp :****JetGotoSecondaryIndexBookmark** est introduit dans Windows xp.  
 
 ```cpp
     JET_ERR JET_API JetGotoSecondaryIndexBookmark(
@@ -100,7 +100,7 @@ Groupe de bits qui spécifie zéro, une ou plusieurs des options suivantes.
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -125,7 +125,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>Impossible d’effectuer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données.</p>
-<p><strong>Windows XP :</strong>  Cette valeur de retour est introduite dans Windows XP.</p></td>
+<p><strong>Windows XP :</strong>  cette valeur de retour est introduite dans Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidBookmark</p></td>
@@ -154,7 +154,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 <tr class="odd">
 <td><p>JET_errSessionSharingViolation</p></td>
 <td><p>La même session ne peut pas être utilisée simultanément pour plusieurs threads.</p>
-<p><strong>Windows XP :</strong>  Cette valeur de retour est introduite dans Windows XP.</p></td>
+<p><strong>Windows XP :</strong>  cette valeur de retour est introduite dans Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errTermInProgress</p></td>
@@ -180,11 +180,11 @@ Si un enregistrement a été préparé pour la mise à jour, cette mise à jour 
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
+<td><p>requiert Windows Vista ou Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
+<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

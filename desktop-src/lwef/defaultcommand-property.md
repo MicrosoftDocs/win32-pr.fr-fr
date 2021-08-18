@@ -4,12 +4,12 @@ description: Propriété DefaultCommand
 ms.assetid: ba4d51fc-7178-4dbb-9ae5-f1991f40aad6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d57d937cec575f0fdd99cc1f14511b9c88f9235
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 94e7aec703ffbabb98ae16609b0dcb01767fda5c38b42ed40f204e3a3bae5766
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117693634"
 ---
 # <a name="defaultcommand-property"></a>Propriété DefaultCommand
 
@@ -27,7 +27,7 @@ Retourne ou définit la commande par défaut de l’objet [**Commands**](/window
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-Caractères agent. ** ** *  * **(«***CharacterID***»). Chaîne Commands. DefaultCommand** \[  =  \]
+Caractères agent. ** ** *  * **(«**_CharacterID_*_»). Chaîne Commands. DefaultCommand_* \[  =  \]
 
 
 
@@ -37,16 +37,16 @@ Caractères agent. ** ** *  * **(«***CharacterID***»). Chaîne Commands. Defau
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété vous permet de définir une [**commande**](/windows/desktop/lwef/the-command-object) dans votre collection de [**commandes**](/windows/desktop/lwef/the-commands-collection-object) comme commande par défaut, en la rendant en gras. Cela ne modifie pas réellement les événements de gestion des commandes ou de double-clic.
 
 Cette propriété s’applique uniquement à l’utilisation du caractère par votre application cliente ; le paramètre n’affecte pas les autres clients du caractère ou d’autres caractères de votre application cliente.
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: Objet CommandsWindow
 ms.assetid: f7f37499-f16b-47fb-85d1-23a68171bf0b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 574f803c12779f5ea9e690ca9c7a586d9d5df50e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 336bdff598a75a9b0b07adabb11c271a45ca84940f528ebe082de17841592d31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106510673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117882463"
 ---
 # <a name="the-commandswindow-object"></a>Objet CommandsWindow
 
@@ -19,6 +19,6 @@ L’objet [**CommandsWindow**](/windows/desktop/lwef/the-commandswindow-object) 
 
 -   [Propriétés CommandsWindow](commandswindow-properties.md)
 
- 
+ 
 
- 
+ 

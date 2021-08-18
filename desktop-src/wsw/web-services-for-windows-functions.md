@@ -1,21 +1,21 @@
 ---
-title: Fonctions des services Web Windows
-description: Les fonctions des services Web Windows prennent en charge le modèle de programmation basé sur une méthode de l’API des services Web Windows.
+title: Windows Fonctions des services Web
+description: les fonctions de services web Windows prennent en charge le modèle de programmation basé sur une méthode de l’API des services web Windows.
 ms.assetid: 7eb62c55-d01e-43aa-aeb7-2940bf505b66
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38a49f6cca4ea6a4ac1bcfdc8ad4a5de4cbb10aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ee4daf5f1442f0badba0a9d6e222c9c986063e4f9cac0a26485f02e08ada1006
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118192409"
 ---
-# <a name="windows-web-services-functions"></a>Fonctions des services Web Windows
+# <a name="windows-web-services-functions"></a>Windows Fonctions des services Web
 
-Les fonctions des services Web Windows prennent en charge le modèle de programmation basé sur une méthode de l’API des services Web Windows. L’environnement d’exécution de l' [hôte de service](service-host.md) de la couche API du [modèle de service](service-model-layer-overview.md) fournit le modèle de programmation côté serveur. Une application côté serveur ouvre, ferme et libère une ressource d’hôte de service en fonction des besoins pour traiter les demandes des clients. Le proxy de service fournit le modèle de programmation d’API côté client. Les applications côté client peuvent envoyer et recevoir des messages sur un canal via le proxy de service en tant qu’appels de méthode.
+les fonctions de services web Windows prennent en charge le modèle de programmation basé sur une méthode de l’API des services web Windows. L’environnement d’exécution de l' [hôte de service](service-host.md) de la couche API du [modèle de service](service-model-layer-overview.md) fournit le modèle de programmation côté serveur. Une application côté serveur ouvre, ferme et libère une ressource d’hôte de service en fonction des besoins pour traiter les demandes des clients. Le proxy de service fournit le modèle de programmation d’API côté client. Les applications côté client peuvent envoyer et recevoir des messages sur un canal via le proxy de service en tant qu’appels de méthode.
 
-L’API des services Web Windows comprend les fonctions suivantes :
+l’API des Services Web Windows comprend les fonctions suivantes :
 
 -   [**WsAbandonCall**](/windows/desktop/api/WebServices/nf-webservices-wsabandoncall)
 -   [**WsAbandonMessage**](/windows/desktop/api/WebServices/nf-webservices-wsabandonmessage)
@@ -213,9 +213,9 @@ L’API des services Web Windows comprend les fonctions suivantes :
 -   [**WsWriteXmlnsAttribute**](/windows/desktop/api/WebServices/nf-webservices-wswritexmlnsattribute)
 -   [**WsXmlStringEquals**](/windows/desktop/api/WebServices/nf-webservices-wsxmlstringequals)
 
- 
+ 
 
- 
+ 
 
 
 

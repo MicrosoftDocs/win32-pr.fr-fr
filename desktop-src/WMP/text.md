@@ -1,22 +1,22 @@
 ---
-title: Texte (kit de développement logiciel (SDK) Windows Media Player)
+title: texte (Lecteur Windows Media SDK)
 description: Texte
 ms.assetid: 8c10cefb-d0d0-4214-8712-d171a76de95d
 keywords:
-- Windows Media Player Mobile Skins, Text
+- Lecteur Windows Media Skins mobiles, texte
 - apparences, texte
 - informations de référence sur les apparences, le texte
 - texte dans les enveloppes, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c801d93698bc7a17eea34df71514dd88b485f0d9
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 55027415222516e72df61afab01a14cceb503528467bf329264014c94bf31ed7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103843013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118097"
 ---
-# <a name="text-windows-media-player-sdk"></a>Texte (kit de développement logiciel (SDK) Windows Media Player)
+# <a name="text-windows-media-player-sdk"></a>texte (Lecteur Windows Media SDK)
 
 Vous souhaiterez peut-être utiliser une ou plusieurs zones d’affichage de texte dans votre apparence. Chaque zone d’affichage de texte que vous utilisez doit être définie dans le fichier de définition d’apparence. Si vous ne définissez pas de zone d’affichage de texte dans cette section, votre apparence ne sera pas en mesure de l’utiliser.
 

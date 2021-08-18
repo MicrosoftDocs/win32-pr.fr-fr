@@ -4,12 +4,12 @@ ms.assetid: 7C0911A6-6D7C-4510-891F-A6F56CE1EC2B
 title: Attribut MF_MT_VIDEO_ROTATION (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f46a67c9861b8094e909e5c6fd7bc82e46166dc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: adf3d909b29757a02d46cc842b30f04bfb0463d6f734eecb74bfb957fa206fb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117876699"
 ---
 # <a name="mf_mt_video_rotation-attribute"></a>Attribut de rotation de la \_ vidéo MF MT \_ \_
 
@@ -19,7 +19,7 @@ Spécifie la rotation d’une image vidéo dans le sens des aiguilles d’une mo
 
 **MFVideoRotationFormat** stocké en tant que **UInt32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La vidéo à partir d’un périphérique de poche, tel qu’un téléphone mobile, est souvent pivotée par 90, 180 ou 270 degrés. Si l’appareil photo stocke l’orientation en tant que métadonnées dans le fichier vidéo, l’image peut être ajustée au moment de la lecture.
 
@@ -35,8 +35,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

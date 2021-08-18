@@ -7,12 +7,12 @@ keywords:
 - Nommer des classes et des attributs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80bfd2614033e12f68ba2727cc7aec689c16071e
-ms.sourcegitcommit: 02e6e0b58720bf6b77797dd7a9ddc11c95f42b33
+ms.openlocfilehash: e042decaf7d3dd15606ea7e138d9e6315d4200f2a641c10381951f2657a5aafe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "106511110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185997"
 ---
 # <a name="naming-attributes-and-classes"></a>Nommer des classes et des attributs
 

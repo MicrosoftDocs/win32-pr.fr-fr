@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8971a96f007460dc1905c35da1cbfb78865dc9ec
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: bb9f4a053ee1e3ee7af88dfec8964348a3835a997201965ecc7c02bd0fda5768
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837319"
 ---
 # <a name="ms-wmi-mof-attribute"></a>MS-WMI-attribut MOF
 
@@ -44,7 +44,7 @@ Contient une définition MOF de certains objets WMI.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

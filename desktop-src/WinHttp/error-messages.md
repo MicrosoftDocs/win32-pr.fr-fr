@@ -1,21 +1,21 @@
 ---
-description: Les valeurs d’erreur identifiées dans cette rubrique sont retournées par GetLastError en cas d’échec de l’une des fonctions des services HTTP Microsoft Windows (WinHTTP).
+description: les valeurs d’erreur identifiées dans cette rubrique sont retournées par GetLastError lorsque l’une des fonctions Microsoft Windows HTTP Services (WinHTTP) échoue.
 ms.assetid: c8a863cd-d36c-4ec8-ac49-0b714a5e4cc2
 title: Messages d’erreur (WinHTTP. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eccdc8be4b1e7c3cc7f9a03403c2f8778ddd19b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d83fa1859f071b0fc0e651235deea51626f55b8a45cdb2a3ea8736a57317741
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744715"
 ---
 # <a name="error-messages-winhttph"></a>Messages d’erreur (WinHTTP. h)
 
-Les valeurs d’erreur répertoriées ci-dessous sont retournées par [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) lorsque l’une des fonctions des services http Microsoft Windows (WinHTTP) échoue, et elles sont également retournées dans les 16 bits d’erreur de [**HRESULT**](../com/structure-of-com-error-codes.md) inférieurs renvoyés par l’objet [**WinHttpRequest**](winhttprequest.md) .
+les valeurs d’erreur répertoriées ci-dessous sont retournées par [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) lorsque l’une des fonctions Microsoft Windows HTTP Services (WinHTTP) échoue, et sont également retournées dans les 16 bits d’erreur de [**HRESULT**](../com/structure-of-com-error-codes.md) inférieurs de l’objet [**WinHttpRequest**](winhttprequest.md) .
 
-Les valeurs d’erreur dont les noms commencent par « erreur \_ WinHTTP \_ » sont spécifiques aux fonctions WinHTTP. Les fonctions WinHTTP retournent également des messages d’erreur Windows, le cas échéant.
+Les valeurs d’erreur dont les noms commencent par « erreur \_ WinHTTP \_ » sont spécifiques aux fonctions WinHTTP. les fonctions WinHTTP retournent également Windows des messages d’erreur, le cas échéant.
 
 <dl> <dt>
 
@@ -615,7 +615,7 @@ La prise en charge de la fonction WinHTTP est en cours d’arrêt ou de décharg
 
 Le délai d'attente de la requête a expiré.
 
-Cette erreur peut être retournée à la suite du comportement du délai d’expiration TCP/IP, quelles que soient les valeurs de délai d’attente définies dans les services HTTP Windows.
+cette erreur peut être retournée à la suite du comportement du délai d’expiration TCP/IP, quelles que soient les valeurs de délai d’attente définies dans Windows Services HTTP.
 
 
 </dt> </dl> </dd> <dt>
@@ -731,9 +731,9 @@ La pile de protocoles requise n’est pas chargée et l’application ne peut pa
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHttp.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -741,8 +741,8 @@ Pour Windows XP et Windows 2000, consultez la section [Configuration requise](wi
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | En-tête<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl>       |
 

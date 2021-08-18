@@ -3,7 +3,7 @@ title: DownloadItem. type
 description: Remarque Cette section décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. La propriété type récupère le type du téléchargement.
 ms.assetid: 58ffb8a3-5410-492b-bb0f-9130ed209b78
 keywords:
-- DownloadItem. type lecteur Windows Media
+- DownloadItem. type Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cdcf21ce7443d7730d4a75518fb4749af0b9e52
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 038f348093a512095ee930c4147024bc789ead5edd3498243eb83a01608bfac9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749710"
 ---
 # <a name="downloaditemtype"></a>DownloadItem. type
 
@@ -49,16 +49,16 @@ Cette propriété est une **chaîne** en lecture seule qui contient l’une des 
 
 | Valeur      | Description                                                                                                                                                                            |
 |------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| background | (Windows XP uniquement.) Le téléchargement se produit en tant que processus en arrière-plan, car le temps processeur devient disponible. Les États de téléchargement persistent même lorsque Windows Media Player ou Windows XP est arrêté. |
+| background | (Windows XP uniquement.) Le téléchargement se produit en tant que processus en arrière-plan, car le temps processeur devient disponible. les états de téléchargement persistent même lorsque Lecteur Windows Media ou Windows XP est arrêté. |
 | temps réel  | (Tous les systèmes d’exploitation pris en charge.) Le téléchargement a lieu en même temps. Aucun État de téléchargement n’est conservé entre les sessions.                                                                       |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Chaque type de téléchargement présente des avantages et des inconvénients. Le téléchargement en arrière-plan permet à l’utilisateur de passer à d’autres tâches et même de redémarrer Windows sans annuler le téléchargement, mais prend plus de temps pour effectuer le téléchargement et n’est pris en charge que pour Windows XP. Le téléchargement en temps réel prend moins de temps, mais exige que l’utilisateur termine tout téléchargement avant de fermer le lecteur Windows Media.
+Chaque type de téléchargement présente des avantages et des inconvénients. le téléchargement en arrière-plan permet à l’utilisateur de passer à d’autres tâches et même de redémarrer Windows sans annuler le téléchargement, mais prend plus de temps pour effectuer le téléchargement et n’est pris en charge que pour Windows XP. le téléchargement en temps réel prend moins de temps, mais exige que l’utilisateur termine tous les téléchargements avant de fermer Lecteur Windows Media.
 
 ## <a name="requirements"></a>Configuration requise
 

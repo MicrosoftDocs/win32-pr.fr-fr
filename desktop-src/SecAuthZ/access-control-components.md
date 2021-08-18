@@ -4,12 +4,12 @@ ms.assetid: cca78195-90f5-45ee-9d16-c445d87e9f5e
 title: Parties du modèle de Access Control
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3aa6d3547d486c33f4b31cdb5d5de24c7d27cec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8bffdbf6542a9e29360437c50f47495d83467334e09c7aa55e8a136a8fc7556d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785669"
 ---
 # <a name="parts-of-the-access-control-model"></a>Parties du modèle de Access Control
 

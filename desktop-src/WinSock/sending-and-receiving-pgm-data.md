@@ -4,12 +4,12 @@ ms.assetid: 51b447ad-b6da-424b-91df-e5be9ce225a5
 title: Envoi et réception de données PGM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab73999c33c97c6ba528552af6d746d54fb605df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 130b38ea52e5d0679b988e55f8292b9752a4bf15d0514a8277a2e0b3b2327001
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740570"
 ---
 # <a name="sending-and-receiving-pgm-data"></a>Envoi et réception de données PGM
 
@@ -17,7 +17,7 @@ L’envoi et la réception de données PGM sont similaires à l’envoi ou à la
 
 ## <a name="sending-pgm-data"></a>Envoi de données PGM
 
-Une fois la session de l’expéditeur PGM créée, les données sont envoyées à l’aide des différentes fonctions Send de Windows Sockets : [**Send**](/windows/desktop/api/Winsock2/nf-winsock2-send), [**sendto**](/windows/desktop/api/winsock/nf-winsock-sendto), [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend)et [**WSASendTo**](/windows/desktop/api/Winsock2/nf-winsock2-wsasendto). Étant donné que les handles Windows Sockets sont des handles de système de fichiers, d’autres fonctions telles que les fonctions [**WriteFile**](/windows/win32/api/fileapi/nf-fileapi-writefile) et CRT peuvent également transmettre des données. L’extrait de code suivant illustre une opération d’expéditeur PGM :
+une fois la session de l’expéditeur PGM créée, les données sont envoyées à l’aide des différentes fonctions d’envoi de Windows sockets : [**send**](/windows/desktop/api/Winsock2/nf-winsock2-send), [**sendto**](/windows/desktop/api/winsock/nf-winsock-sendto), [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend)et [**WSASendTo**](/windows/desktop/api/Winsock2/nf-winsock2-wsasendto). étant donné que les handles de Windows sockets sont des handles de système de fichiers, d’autres fonctions telles que les fonctions [**WriteFile**](/windows/win32/api/fileapi/nf-fileapi-writefile) et CRT peuvent également transmettre des données. L’extrait de code suivant illustre une opération d’expéditeur PGM :
 
 
 ```C++
@@ -39,7 +39,7 @@ Si la fenêtre d’envoi est pleine, un nouvel envoi à partir de l’applicatio
 
 ## <a name="receiving-pgm-data"></a>Réception de données PGM
 
-Une fois qu’une session de récepteur PGM est créée, les données sont reçues à l’aide des différentes fonctions de réception de Windows Sockets : [**recv**](/windows/desktop/api/winsock/nf-winsock-recv), [**recvfrom**](/windows/desktop/api/winsock/nf-winsock-recvfrom), [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv)et [**WSARecvFrom**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom). Étant donné que les handles Windows Sockets sont également des descripteurs de fichiers, les fonctions [**ReadFile**](/windows/win32/api/fileapi/nf-fileapi-readfile) et CRT peuvent également être utilisées pour recevoir les données de session PGM. Le transport transfère les données jusqu’au destinataire lorsqu’elles arrivent tant que les données sont dans l’ordre. Le transport garantit que les données retournées sont contiguës et exemptes de doublons. L’extrait de code suivant illustre une opération de réception PGM :
+une fois qu’une session de récepteur PGM est créée, les données sont reçues à l’aide des différentes fonctions de réception de Windows sockets : [**recv**](/windows/desktop/api/winsock/nf-winsock-recv), [**recvfrom**](/windows/desktop/api/winsock/nf-winsock-recvfrom), [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv)et [**WSARecvFrom**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom). étant donné que les handles de Windows sockets sont également des descripteurs de fichiers, les fonctions [**ReadFile**](/windows/win32/api/fileapi/nf-fileapi-readfile) et CRT peuvent également être utilisées pour recevoir les données de session PGM. Le transport transfère les données jusqu’au destinataire lorsqu’elles arrivent tant que les données sont dans l’ordre. Le transport garantit que les données retournées sont contiguës et exemptes de doublons. L’extrait de code suivant illustre une opération de réception PGM :
 
 
 ```C++
@@ -68,7 +68,7 @@ Lorsque la session est terminée correctement, l’opération de réception éch
 -   Une erreur irrécupérable s’est produite sur l’expéditeur.
 -   Une utilisation excessive des ressources se produit sur l’ordinateur local, par exemple le dépassement du stockage de tampons interne maximal autorisé ou la présence d’une condition de ressources insuffisantes.
 -   Une erreur de vérification de cohérence des données se produit.
--   L’échec d’un composant PGM dépend de, tels que TCP/IP ou Windows Sockets.
+-   l’échec d’un composant PGM dépend de, tels que TCP/IP ou Windows sockets.
 
 Le premier et le deuxième élément de la liste ci-dessus peuvent entraîner une mise en mémoire tampon excessive du récepteur avant de manquer de ressources, ou avant de se déplacer au-delà de la fenêtre de l’expéditeur.
 

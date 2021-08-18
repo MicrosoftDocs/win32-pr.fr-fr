@@ -4,12 +4,12 @@ ms.assetid: eb837fe6-12c9-479c-a0be-63b24093e6fd
 title: Attribut MF_TOPONODE_ERROR_MAJORTYPE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd68ace0cd3bec4f32536e7d0d8d29bcea60d997
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e32752f74708272c367e3f15b208ed66fb0d476baab75b8032ed028e1b9e4162
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875146"
 ---
 # <a name="mf_toponode_error_majortype-attribute"></a>\_Attribut MAJORTYPE de l’erreur TOPONODE MF \_ \_
 
@@ -19,7 +19,7 @@ Contient le type de média principal pour un nœud de topologie. Cet attribut es
 
 **GUID**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique à tous les types de nœuds.
 
@@ -35,8 +35,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

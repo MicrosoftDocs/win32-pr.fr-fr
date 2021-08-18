@@ -4,17 +4,17 @@ description: Cette rubrique traite de la prise en charge de Microsoft DirectComp
 ms.assetid: a0f41cc6-e848-4831-8063-609e17d9b4c6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 991e1205422864efdec82bbd4067b9c7662aaf29
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 6c8cc34975ab8304300a1523269808775107f4ce0554432da8c3c04a01f25881
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504812"
 ---
 # <a name="transforms-directcomposition"></a>Transformations (DirectComposition)
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Cette rubrique traite de la prise en charge de Microsoft DirectComposition pour les transformations affines (linéaire) à deux dimensions (2D) et décrit les types de transformations pris en charge par DirectComposition.
 
@@ -50,7 +50,7 @@ Une transformation 2D est obtenue en mappant les points d’un visuel d’une po
     :::column:::
         0.0<br/>
         0.0<br/>
-        1,0
+        1.0
     :::column-end:::
 :::row-end:::
 

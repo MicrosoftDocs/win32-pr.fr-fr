@@ -4,12 +4,12 @@ ms.assetid: 406145e8-e00e-460d-b282-85face457605
 title: Attribut MF_TOPONODE_MARKIN_HERE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efa355cc070a7371ff2e294b3ca3ad558a4749b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c105dae6792e995e281309d2b693b78a0ec01e67c4412dc6d62056df09ebe9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106545802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117874876"
 ---
 # <a name="mf_toponode_markin_here-attribute"></a>\_ \_ Attribut Mark TOPONODE MF \_ ici
 
@@ -21,7 +21,7 @@ Spécifie si le pipeline applique la marque dans ce nœud. Mark-in est l’endro
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > La plupart des applications n’ont pas besoin d’utiliser cet attribut. La [session multimédia](media-session.md) définit automatiquement cet attribut, si nécessaire.
@@ -40,8 +40,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

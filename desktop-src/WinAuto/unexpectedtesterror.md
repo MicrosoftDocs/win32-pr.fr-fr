@@ -4,12 +4,12 @@ description: UnexpectedTestError
 ms.assetid: 9D94A0CD-B171-4FFF-AB6C-272D5E885F98
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 960aebf994be55aed57c892a230418ab9b22ab04
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f7ccf15d36b4d70f2b895e5e252f115c4446d8ea2a7dbda3d2afbd15b4749881
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744975"
 ---
 # <a name="unexpectedtesterror"></a>UnexpectedTestError
 
@@ -19,15 +19,15 @@ ms.locfileid: "104379965"
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
 Une exception sans rapport avec les vérifications a été déclenchée par AccChecker. Pour signaler le problème, consultez la boîte de dialogue AccChecker **à propos** de pour obtenir des informations de contact.
 
- 
+ 
 
- 
+ 
 
 
 

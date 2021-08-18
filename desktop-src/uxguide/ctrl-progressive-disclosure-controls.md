@@ -4,17 +4,17 @@ description: Avec un contrôle de la divulgation progressive, les utilisateurs p
 ms.assetid: 0ca00c49-f897-49a6-926a-cc65f3155c6c
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: a40f4c2fadd75cbcb6711dec2c1361ce2f970088
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 1d561ea6e4f937c6e162f9eaa1f452e73d7de20c9f94c41785641062c21cd1a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117676074"
 ---
 # <a name="progressive-disclosure-controls"></a>Contrôles de divulgation progressive
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Avec un contrôle de la divulgation progressive, les utilisateurs peuvent afficher ou masquer des informations supplémentaires, notamment des données, des options ou des commandes. La divulgation progressive favorise la simplicité en se concentrant sur l’essentiel, tout en révélant des détails supplémentaires en fonction des besoins.
 
@@ -165,7 +165,7 @@ Les contrôles plus et moins sont utilisés des manières suivantes :
 
 |       Usage                                                                                         |       Exemple                                                                                                                                                                                                                               |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Arborescences réductibles**<br/> hiérarchie à plusieurs niveaux pour afficher le contenu d’un conteneur.<br/> | ![Capture d’écran montrant une arborescence de dossiers de l’Explorateur Windows avec « Behavior » sélectionné.](images/progressive-disclosure-controls-image16.png)<br/> Dans cet exemple, les contrôles plus et moins sont positionnés à gauche du conteneur associé.<br/>       |
+| **Arborescences réductibles**<br/> hiérarchie à plusieurs niveaux pour afficher le contenu d’un conteneur.<br/> | ![capture d’écran montrant une arborescence de dossiers Windows Explorer avec « Behavior » sélectionné.](images/progressive-disclosure-controls-image16.png)<br/> Dans cet exemple, les contrôles plus et moins sont positionnés à gauche du conteneur associé.<br/>       |
 | **Listes réductibles**<br/> hiérarchie à deux niveaux pour afficher le contenu du conteneur.<br/>   | ![capture d’écran de la liste développée pour afficher deux niveaux ](images/progressive-disclosure-controls-image17.png)<br/> Dans cet exemple, les contrôles plus et moins sont positionnés à gauche de l’en-tête de liste associé.<br/> |
 
 
@@ -197,13 +197,13 @@ Les triangles rotatifs sont utilisés des manières suivantes :
 
 ![capture d’écran des glyphes de flèche pointant en diagonale ](images/progressive-disclosure-controls-image20.png)
 
-Dans ces exemples de Microsoft Windows Media Player, les glyphes ont des flèches qui suggèrent l’action qui se produira.
+dans ces exemples de Microsoft Lecteur Windows Media, les glyphes ont des flèches qui suggèrent l’action qui se produira.
 
 Les flèches d’aperçu sont réservées aux situations où un chevron standard ne communique pas correctement le comportement du contrôle, par exemple lorsque la divulgation est complexe ou qu’il existe plusieurs types de divulgation.
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **Sélectionnez le modèle de divulgation progressive en fonction de son utilisation.** Pour obtenir une description de chaque modèle d’utilisation, consultez le tableau précédent.
 -   **N’utilisez pas de liens pour les contrôles de divulgation progressive.** Utilisez uniquement les contrôles de divulgation progressive présentés dans la section modèles d’utilisation. Toutefois, utilisez des liens pour accéder aux [rubriques d’aide](winenv-help.md).
@@ -357,7 +357,7 @@ Lorsque vous faites référence à des contrôles de divulgation progressive :
 -   Pour décrire l’interaction de l’utilisateur, utilisez le clic. Si nécessaire pour plus de clarté, utilisez cliquer sur... pour développer ou réduire.
 -   Dans la mesure du possible, mettez en forme l’étiquette à l’aide de texte en gras. Sinon, placez l’étiquette entre guillemets uniquement si nécessaire pour éviter toute confusion.
 
-Exemples :
+Exemples :
 
 -   (Pour un chevron) Pour déterminer la taille du fichier, cliquez sur **Détails**.
 -   (Pour une flèche) Pour afficher toutes les options, cliquez sur la flèche en regard de la zone de **recherche** .

@@ -3,25 +3,25 @@ title: Gestion des événements
 description: Gestion des événements
 ms.assetid: a3263ef7-bce7-4555-bce3-53e9b4eb0747
 keywords:
-- Apparences du lecteur Windows Media, écriture de code
+- apparences de Lecteur Windows Media, écriture de code
 - apparences, écrire du code
-- Apparences du lecteur Windows Media, événements
+- apparences de Lecteur Windows Media, événements
 - apparences, événements
 - événements, apparences
 - événements, écriture de code
 - écriture de code pour les habillages, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83e6b807e272ac62bcfc5613341ceaa0c35e8cff
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9991197fb9eeecff23966e979e47968e6c39b8a84b87bd7fdbdd2f7d92bdae56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748286"
 ---
 # <a name="handling-events"></a>Gestion des événements
 
-Outre le code XML que vous écrivez pour initialiser des attributs pour votre apparence, le code principal que vous écrivez est du code JScript pour gérer les événements. Les événements sont externes ou internes. autrement dit, ils proviennent de l’utilisateur ou du lecteur Windows Media.
+outre le code XML que vous écrivez pour initialiser des attributs pour votre apparence, le code principal que vous écrivez est JScript code pour gérer les événements. Les événements sont externes ou internes. autrement dit, ils proviennent de l’utilisateur ou de Lecteur Windows Media.
 
 Les sections suivantes fournissent des détails sur la gestion des événements :
 
@@ -37,9 +37,9 @@ Les sections suivantes fournissent des détails sur la gestion des événements�
 [**Écriture de code**](writing-code.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
