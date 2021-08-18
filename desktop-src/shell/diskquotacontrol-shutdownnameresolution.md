@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 0db952a502210e509abeb527b2006eab087434e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da02f79ea8f7b582056e9c3c7c0c3f1db53fa9e08181559c99dd983924861c78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459836"
 ---
 # <a name="diskquotacontrolshutdownnameresolution-method"></a>Méthode DiskQuotaControl. ShutdownNameResolution
 
@@ -41,7 +41,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le programme de résolution de noms de l’identificateur de sécurité (SID) traduit le SID en noms d’utilisateur sur un thread d’arrière-plan. Ce thread s’arrête automatiquement lorsque l’objet de contrôle de quota associé est détruit. Toutefois, dans certains cas, le thread n’est plus nécessaire, mais l’objet n’est pas encore prêt à être détruit. Un exemple typique est quand aucun traitement supplémentaire n’a lieu, mais les clients comportent toujours des références à l’objet. La méthode **ShutdownNameResolution** vous permet de terminer le thread de résolution et de libérer les ressources associées sans détruire l’objet de contrôle de quota.
 
@@ -50,7 +50,7 @@ Le programme de résolution de noms de l’identificateur de sécurité (SID) tr
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

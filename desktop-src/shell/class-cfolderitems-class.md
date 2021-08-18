@@ -12,18 +12,18 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: c342ebb19f4e051d7650e905506a5bb32a9de890
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d76208c74df5f939a7ff06ec3ac4b4da0f91f5c52db6ac2625e8cb6dce94a9ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460832"
 ---
 # <a name="cfolderitems-class"></a>CFolderItems, classe
 
 **CFolderItems** est une collection de [**FolderItems**](folderitems.md). Il implémente les interfaces suivantes : [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder), [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite), [**FolderItems3**](folderitems3-object.md), [**IObjectSafety**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768224(v=vs.85)), [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CFolderItems** énumère uniquement les éléments d’un dossier spécifique.
 

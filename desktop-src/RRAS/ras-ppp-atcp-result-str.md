@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66f3f950af9d5bdde8feef085457a895212ad04b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: faa3122026613ba5012f950a98a615dbb8c9ef34133a2a24249fca545eaa2060
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789633"
 ---
 # <a name="ras_ppp_atcp_result-structure"></a>\_Structure de résultat du protocole ATCP PPP RAS \_ \_
 
-\[La structure du **\_ résultat du protocole \_ ATCP \_ PPP RAS** n’est pas prise en charge à partir de Windows Vista.\]
+\[la structure du **\_ résultat du protocole \_ ATCP \_ PPP RAS** n’est pas prise en charge à partir de Windows Vista.\]
 
 La structure de résultat du protocole **\_ \_ ATCP \_ PPP RAS** est utilisée pour signaler le résultat d’une opération de projection de protocole AppleTalk pour un port.
 

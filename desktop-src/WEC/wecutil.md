@@ -1,6 +1,6 @@
 ---
 title: Wecutil.exe
-description: Wecutil.exe est un utilitaire de collecte d’événements Windows qui permet à un administrateur de créer et de gérer des abonnements à des événements transférés à partir de sources d’événements distantes qui prennent en charge le protocole WS-Management.
+description: Wecutil.exe est un Windows utilitaire de collecte d’événements qui permet à un administrateur de créer et de gérer des abonnements à des événements transférés à partir de sources d’événements distantes qui prennent en charge le protocole WS-Management.
 ms.assetid: 93ce25df-f829-43b9-96f2-7f2f291d100e
 ms.tgt_platform: multiple
 keywords:
@@ -13,18 +13,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aaf6f74007b56cff85c28c4106fd4345c5627d4e
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 6e93e09bc4eed51448b686f0d18f00ecacaacd31d063c4905757d0185128ee64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104322569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117750969"
 ---
 # <a name="wecutilexe"></a>Wecutil.exe
 
-Wecutil.exe est un utilitaire de collecte d’événements Windows qui permet à un administrateur de créer et de gérer des abonnements à des événements transférés à partir de sources d’événements distantes qui prennent en charge le protocole WS-Management. Les commandes, les options et les valeurs d’option ne respectent pas la casse pour cet utilitaire.
+Wecutil.exe est un Windows utilitaire de collecte d’événements qui permet à un administrateur de créer et de gérer des abonnements à des événements transférés à partir de sources d’événements distantes qui prennent en charge le protocole WS-Management. Les commandes, les options et les valeurs d’option ne respectent pas la casse pour cet utilitaire.
 
-Si vous recevez un message indiquant « le serveur RPC n’est pas disponible » ou « l’interface est inconnue » lorsque vous essayez d’exécuter wecutil, vous devez démarrer le service collecteur d’événements Windows (wecsvc). Pour démarrer wecsvc, à partir d’une invite de commandes avec élévation de privilèges, tapez **net start wecsvc**.
+si vous recevez un message indiquant « le serveur RPC n’est pas disponible » ou « l’interface est inconnue » lorsque vous essayez d’exécuter wecutil, vous devez démarrer le Windows le service wecsvc (Event Collector). Pour démarrer wecsvc, à partir d’une invite de commandes avec élévation de privilèges, tapez **net start wecsvc**.
 
 ## <a name="list-existing-subscriptions"></a>Répertorier les abonnements existants
 
@@ -132,7 +132,7 @@ wecutil {ss | set_subscription } /c:CONGIG_FILE [/cun:USERNAME]
 [/cup:PASSWORD]
 ```
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Lorsqu’un nom d’utilisateur ou un mot de passe incorrect est spécifié dans la commande **wecutil SS** , aucune erreur n’est signalée tant que vous n’avez pas affiché l’état d’exécution de l’abonnement à l’aide de la commande **wecutil gr** .
 
@@ -417,7 +417,7 @@ wecutil {cs | create-subscription } CONFIGURATION_FILE [/cun:USERNAME]
 [/cup:PASSWORD] 
 ```
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Lorsqu’un nom d’utilisateur ou un mot de passe incorrect est spécifié dans la commande **wecutil CS** , aucune erreur n’est signalée tant que vous n’avez pas affiché l’état d’exécution de l’abonnement à l’aide de la commande **wecutil gr** .
 
@@ -605,15 +605,15 @@ Valeur qui identifie un ordinateur qui est une source d’événements pour un a
 
 </dd> </dl>
 
-## <a name="configure-the-windows-event-collector-service"></a>Configurer le service collecteur d’événements Windows
+## <a name="configure-the-windows-event-collector-service"></a>configurer le Service collecteur d’événements Windows
 
-La syntaxe suivante est utilisée pour configurer le service collecteur d’événements Windows afin de s’assurer que les abonnements d’événements peuvent être créés et maintenus au redémarrage de l’ordinateur. Cela comprend la procédure suivante :
+la syntaxe suivante permet de configurer le service collecteur d’événements Windows pour s’assurer que les abonnements aux événements peuvent être créés et maintenus par les redémarrages de l’ordinateur. Cela comprend la procédure suivante :
 
-**Pour configurer le service collecteur d’événements Windows**
+**pour configurer le service collecteur d’événements Windows**
 
 1.  Activez le canal ForwardedEvents s’il est désactivé.
-2.  Retardez le démarrage du service collecteur d’événements Windows.
-3.  Démarrez le service collecteur d’événements Windows s’il n’est pas en cours d’exécution.
+2.  retardez le démarrage du service collecteur d’événements Windows.
+3.  démarrez le service collecteur d’événements Windows s’il n’est pas en cours d’exécution.
 
 ``` syntax
 wecutil { qc | quick-config } /q:VALUE

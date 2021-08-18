@@ -3,20 +3,20 @@ title: CSecureChannelClient, classe
 description: CSecureChannelClient, classe
 ms.assetid: f02220b8-0d1c-416c-97ea-e5e7455fcbba
 keywords:
-- Gestionnaire de périphériques Windows Media, classe CSecureChannelClient
+- Windows Gestionnaire de périphériques de média, classe CSecureChannelClient
 - Gestionnaire de périphériques, classe CSecureChannelClient
 - applications de bureau, classe CSecureChannelClient
 - Référence de programmation, classe CSecureChannelClient
-- référence pour Windows Media Gestionnaire de périphériques, classe CSecureChannelClient
+- référence pour Windows Gestionnaire de périphériques de média, classe CSecureChannelClient
 - CSecureChannelClient, classe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59a886ba45648b2ba0356e9d7f246c2de912cedd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4ef469c1e7a73b04124850952ef0690bd18c82ecb3fc624d08df081b7b669637
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106512319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118585612"
 ---
 # <a name="csecurechannelclient-class"></a>CSecureChannelClient, classe
 
@@ -43,7 +43,7 @@ La classe **CSecureChannelClient** expose les méthodes suivantes.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -58,6 +58,6 @@ La classe **CSecureChannelClient** expose les méthodes suivantes.
 [**Interfaces pour les applications**](interfaces-for-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -23,16 +23,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f18917eeb2eb3c60c1a35683b20f7e4604eddde
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c789a9963086128e93546415247cfb3db69afe59c67a445b851ee5cf3687d16c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117756855"
 ---
 # <a name="itsremoteprogramserverstartprogram-method"></a>ITSRemoteProgram :: ServerStartProgram, méthode
 
-Spécifie un programme RemoteApp à démarrer dans la session à distance. Cette fonction doit être appelée dans une session connectée (après la réception de la notification de session connectée au client). Un nombre quelconque de programmes RemoteApp peuvent être démarrés dans une session. Une session RemoteApp expire si aucun programme RemoteApp n’est démarré dans la session dans le délai imparti, soit deux minutes pour Windows Server 2008.
+Spécifie un programme RemoteApp à démarrer dans la session à distance. Cette fonction doit être appelée dans une session connectée (après la réception de la notification de session connectée au client). Un nombre quelconque de programmes RemoteApp peuvent être démarrés dans une session. une session remoteapp expire si aucun programme remoteapp n’est démarré dans la session dans le délai imparti, ce qui correspond à deux minutes pour Windows Server 2008.
 
 ## <a name="syntax"></a>Syntaxe
 

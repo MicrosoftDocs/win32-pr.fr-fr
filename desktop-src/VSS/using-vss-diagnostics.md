@@ -1,26 +1,26 @@
 ---
-description: Vsdiagview et Vssagent sont des outils que vous pouvez utiliser pour dépanner des applications VSS. Notez que ces outils sont inclus dans le kit de développement logiciel (SDK) Microsoft Windows pour Windows Vista et versions ultérieures.
+description: Vsdiagview et Vssagent sont des outils que vous pouvez utiliser pour dépanner des applications VSS. notez que ces outils sont inclus dans le kit de développement logiciel (SDK) de Microsoft Windows pour Windows Vista et versions ultérieures.
 ms.assetid: 2c1270a6-38c7-40d5-a194-0a6795557b9f
 title: Utilisation des diagnostics VSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f3d1733c2780670507b39c1db91cb3b2f7035a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7742bf706da0bb8fdd377960a597a61b6592b772df98982cec500434f66c7579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590802"
 ---
 # <a name="using-vss-diagnostics"></a>Utilisation des diagnostics VSS
 
 Vsdiagview et Vssagent sont des outils que vous pouvez utiliser pour dépanner des applications VSS.
 
 > [!Note]  
-> Ces outils sont inclus dans le kit de développement logiciel (SDK) Microsoft Windows pour Windows Vista et versions ultérieures. Vous pouvez télécharger le SDK Windows à partir de [https://msdn.microsoft.com/windowsvista](https://msdn.microsoft.com/windows/default.aspx) .
+> ces outils sont inclus dans le kit de développement logiciel (SDK) de Microsoft Windows pour Windows Vista et versions ultérieures. vous pouvez télécharger le SDK Windows à partir de [https://msdn.microsoft.com/windowsvista](https://msdn.microsoft.com/windows/default.aspx) .
 
  
 
-Dans l’installation SDK Windows, ces outils se trouvent dans `%Program Files(x86)%\Windows Kits\8.1\bin\x64` (pour windows 64 bits) et `%Program Files(x86)%\Windows Kits\8.1\bin\x86` (pour Windows 32 bits).
+dans l’installation SDK Windows, ces outils se trouvent dans `%Program Files(x86)%\Windows Kits\8.1\bin\x64` (pour 64 bits Windows) et `%Program Files(x86)%\Windows Kits\8.1\bin\x86` (pour le Windows 32 bits).
 
 ## <a name="gathering-data"></a>Collecte de données
 
@@ -30,7 +30,7 @@ Vous pouvez collecter des données à l’aide de la commande Vssagent.
 
 1.  Pour collecter des données à partir de la ligne de commande, utilisez la commande Vssagent comme suit :
 
-    **vssagent-rassembler** *xmlFileName * * *. xml**
+    **vssagent-Gather** *xmlFileName * * * .xml**
 
 2.  Pour afficher le fichier de sortie, consultez la section Affichage des données suivante.
 

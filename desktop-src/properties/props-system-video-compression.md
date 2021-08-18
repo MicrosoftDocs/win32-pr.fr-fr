@@ -4,12 +4,12 @@ ms.assetid: fdd3fce9-f507-4581-bd68-74a854581200
 title: System. Video. compression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2bff7eb807d98f00115edd7956f9cdcfb43fb98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7494bc8d08a8c53081d18e28b2cb2b399ef15bf0cb81d97eded8a491476c478a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464457"
 ---
 # <a name="systemvideocompression"></a>System. Video. compression
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de cette propriété est une représentation sous forme de chaîne d’un GUID sous forme canonique : "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}". Le GUID spécifie le format vidéo. Pour connaître les valeurs possibles, consultez [GUID de sous-type de vidéo](../medfound/video-subtype-guids.md).
 

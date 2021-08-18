@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06a71f04a5837f09575a2f4bccf4b17e34e30d63
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e91ac5049740d360ae0c5f53959b3d952188bfa2a569c58a9e7cf86ae0c22577
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118584548"
 ---
 # <a name="iwmdrmdeviceappgeneratemeterchallenge-method"></a>IWMDRMDeviceApp :: GenerateMeterChallenge, méthode
 
@@ -63,20 +63,20 @@ Le certificat de contrôle de l’application, en tant que **BSTR**. Il s’agit
 *pbstrMeterURL* \[ à\]
 </dt> <dd>
 
-URL à laquelle les données de contrôle doivent être envoyées. Elle est allouée par les Gestionnaire de périphériques Windows Media et doit être libérée par l’appelant à l’aide de **SysFreeString**.
+URL à laquelle les données de contrôle doivent être envoyées. elle est allouée par Windows Gestionnaire de périphériques de média et doit être libérée par l’appelant à l’aide de **SysFreeString**.
 
 </dd> <dt>
 
 *pbstrMeterData* \[ à\]
 </dt> <dd>
 
-Données de contrôle à envoyer au service de contrôle. Elle est allouée par les Gestionnaire de périphériques Windows Media et doit être libérée par l’appelant à l’aide de **SysFreeString**.
+Données de contrôle à envoyer au service de contrôle. elle est allouée par Windows Gestionnaire de périphériques de média et doit être libérée par l’appelant à l’aide de **SysFreeString**.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -90,7 +90,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 | <dl> <dt>**\_XMLNOTFOUND DRM E \_**</dt> </dl>               | Impossible de trouver une balise XML obligatoire.<br/>                                 |
 | <dl> <dt>**Erreurs de l’appareil**</dt> </dl>            | Un certain nombre d’erreurs d’appareil.<br/>                                  |
 | <dl> <dt>**Erreurs du client DRM**</dt> </dl>        | L’une des nombreuses erreurs internes du client DRM.<br/>                     |
-| <dl> <dt>**appareil \_ NS \_ E \_ non \_ WMDRM \_**</dt> </dl> | L’appareil spécifié n’est pas un périphérique compatible DRM Windows Media.<br/> |
+| <dl> <dt>**appareil \_ NS \_ E \_ non \_ WMDRM \_**</dt> </dl> | l’appareil spécifié n’est pas un appareil compatible avec DRM Windows Media.<br/> |
 
 
 
@@ -98,7 +98,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
 ## <a name="remarks"></a>Notes
 
-Avant d’appeler cette méthode, l’application doit appeler [**IWMDRMDeviceApp :: QueryDeviceStatus**](iwmdrmdeviceapp-querydevicestatus.md) ou [**IWMDRMDeviceApp2 :: QueryDeviceStatus2**](iwmdrmdeviceapp2-querydevicestatus2.md) pour vérifier que tous les composants DRM de l’appareil sont à jour. Cette méthode peut uniquement être appelée sur un appareil qui prend en charge Windows Media DRM 10 pour les appareils mobiles.
+Avant d’appeler cette méthode, l’application doit appeler [**IWMDRMDeviceApp :: QueryDeviceStatus**](iwmdrmdeviceapp-querydevicestatus.md) ou [**IWMDRMDeviceApp2 :: QueryDeviceStatus2**](iwmdrmdeviceapp2-querydevicestatus2.md) pour vérifier que tous les composants DRM de l’appareil sont à jour. cette méthode peut uniquement être appelée sur un appareil qui prend en charge Windows Media DRM 10 pour les appareils mobiles.
 
 Le *pbstrMeterData* de données extrait doit être envoyé à l’URL spécifiée par *pbstrMeterURL*. Veillez à encoder les données récupérées par URL afin qu’elles ne soient pas modifiées pendant le transfert.
 
@@ -106,7 +106,7 @@ Pour plus d’informations, consultez [gestion du contenu protégé dans l’app
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code C++ suivant crée un objet **WMDRMDeviceApp** , vérifie que l’appareil est un appareil Windows Media DRM 10, que son horloge est exacte, puis demande les données de contrôle.
+l’exemple de code C++ suivant crée un objet **WMDRMDeviceApp** , vérifie que l’appareil est un appareil Media DRM 10 Windows, que son horloge est précise, puis demande les données de contrôle.
 
 
 ```C++

@@ -4,12 +4,12 @@ description: Cette rubrique explique comment utiliser les interfaces de canevas 
 ms.assetid: 368b8c47-9803-42ee-a3a8-681bf55315ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93a3acc8fbc85298e21d039898d4ae7d38fbb272
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 97f7214a06779d997331f57a22ae29217e5cabdd635d0c3feac85bd8a3070065
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118469268"
 ---
 # <a name="working-with-xps-om-canvas-and-visual-interfaces"></a>Utilisation d’une zone de dessin et d’interfaces visuels XPS OM
 

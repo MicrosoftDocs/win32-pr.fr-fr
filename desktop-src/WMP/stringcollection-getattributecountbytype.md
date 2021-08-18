@@ -3,9 +3,9 @@ title: StringCollection. getAttributeCountByType, méthode
 description: La méthode getAttributeCountByType récupère le nombre d’attributs associés à l’index d’élément StringCollection, le nom d’attribut et la langue spécifiés.
 ms.assetid: 3671b7b7-d6d4-4049-8710-d0f34c740b1e
 keywords:
-- méthode getAttributeCountByType lecteur Windows Media
-- méthode getAttributeCountByType Player Windows Media, StringCollection Class
-- StringCollection, classe Windows Media Player, méthode getAttributeCountByType
+- Lecteur Windows Media de la méthode getAttributeCountByType
+- getAttributeCountByType, méthode Lecteur Windows Media, StringCollection, classe
+- StringCollection, classe Lecteur Windows Media, méthode getAttributeCountByType
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2acf2d7a1f8849f9bd0e83ead3880ca90d2d6149
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e10f88a3b8e4847588ff8f7f924333c6649e59c362b3296b54ef8b83368b7af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118832426"
 ---
 # <a name="stringcollectiongetattributecountbytype-method"></a>StringCollection. getAttributeCountByType, méthode
 
@@ -69,7 +69,7 @@ retVal = StringCollection.getAttributeCountByType(
 
 Cette méthode retourne un **nombre** (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est utilisée pour déterminer le nombre d’attributs correspondant à un nom d’attribut particulier pour un élément **StringCollection** particulier. Les numéros d’index peuvent ensuite être passés au quatrième paramètre de la méthode **StringCollection. getItemInfoByType** .
 

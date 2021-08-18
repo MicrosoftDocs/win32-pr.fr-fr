@@ -4,18 +4,18 @@ ms.assetid: a1dfa254-cade-44c5-8fdd-74bb40849063
 title: InkEdit, contrôle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf6d5441506ee791eefddba05b9b1f3ddb8a8ec4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fa64c4452ba5d7f66cdc03a1148c02a12f3945f876d68ac240ff4473e8d50bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118451320"
 ---
 # <a name="inkedit-control"></a>InkEdit, contrôle
 
 Le contrôle [InkEdit](inkedit-control-reference.md) offre un moyen simple de capturer, reconnaître et afficher de l’encre.
 
-Cette implémentation du contrôle [InkEdit](inkedit-control-reference.md) est basée sur le contrôle [**RichEdit**](/windows/desktop/api/richole/nn-richole-iricheditole) . L’implémentation managée (.NET Framework) de [InkEdit](/previous-versions/ms835842(v=msdn.10)) est basée sur le contrôle [**RichTextBox**](/previous-versions/windows/) .
+Cette implémentation du contrôle [InkEdit](inkedit-control-reference.md) est basée sur le contrôle [**RichEdit**](/windows/desktop/api/richole/nn-richole-iricheditole) . l’implémentation managée (.NET Framework) de [InkEdit](/previous-versions/ms835842(v=msdn.10)) est basée sur le contrôle [**RichTextBox**](/previous-versions/windows/) .
 
 L’objectif principal du contrôle [InkEdit](inkedit-control-reference.md) est de collecter l’encre, de la reconnaître et de l’afficher sous forme de texte. En outre, il prend en charge l’affichage de l’encre comme un objet incorporé avec des fonctionnalités de mise en forme du texte, telles que le gras et le soulignement.
 

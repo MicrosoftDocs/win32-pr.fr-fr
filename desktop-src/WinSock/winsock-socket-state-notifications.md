@@ -3,12 +3,12 @@ title: Notifications de l’état du socket Winsock
 description: Les API de notifications de l’état du socket vous offrent un moyen évolutif et efficace d’obtenir des notifications sur les modifications de l’état du Socket. Cela comprend les notifications relatives à des éléments tels que les lectures non bloquantes, les écritures non bloquantes, les conditions d’erreur et d’autres informations.
 ms.topic: article
 ms.date: 11/18/2020
-ms.openlocfilehash: 9ad7f7afcb3dda223b4d54af293bc9a4dd019758
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: ed0bd6e37117377f91dc01cb56225b8c268cd87a0148d9ad05c2fd1a8f005f68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110559963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558712"
 ---
 # <a name="winsock-socket-state-notifications"></a>Notifications de l’état du socket Winsock
 

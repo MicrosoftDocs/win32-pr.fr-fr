@@ -7,17 +7,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg294091(v=EXCHG.10)
 ms:contentKeyID: 32765706
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 624a916ee2048d9069c7695c79824e3357b511f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57212f49fe97f276677a2ca4396a23d672e175a86eb067f1d276b9c20a46b891
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117890070"
 ---
 # <a name="user-defined-columns"></a>Colonnes définies par l’utilisateur
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="user-defined-columns"></a>Colonnes définies par l’utilisateur
 

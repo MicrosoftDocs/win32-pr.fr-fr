@@ -4,12 +4,12 @@ description: Cette section décrit un exemple de configuration et la façon dont
 ms.assetid: 1fa0b343-0276-402b-8c3d-5ca114ad43cf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dc82178568bac01e89eb0a4d6ea9222d45e7f5a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 94f4ca79b9fdd6b2e2fd9e75dc61d780af4380ed958a491f69231f7d541f0aa0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791314"
 ---
 # <a name="how-the-multicast-architecture-fits-together"></a>Combinaison de l’architecture de multidiffusion
 
@@ -54,9 +54,9 @@ Le scénario suivant décrit les événements qui se produisent lorsqu’un mess
 
 Pour plus d’informations sur l’interaction du protocole de routage multidiffusion, consultez [RFC 2715](routing-protocols-request-for-comments.md), règles d’interopérabilité pour les protocoles de routage de multidiffusion.
 
- 
+ 
 
- 
+ 
 
 
 

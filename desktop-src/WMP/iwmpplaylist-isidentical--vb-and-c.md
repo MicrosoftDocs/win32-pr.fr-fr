@@ -3,7 +3,7 @@ title: IWMPPlaylist. isIdentical (VB et C)
 description: La propriété isIdentical (méthode obtenir \_ isIdentical dans C \) obtient une valeur indiquant si la sélection spécifiée est identique à la sélection actuelle.
 ms.assetid: 0e5520ee-3d41-4e36-98f4-7bc2ec45fcb8
 keywords:
-- IWMPPlaylist. isIdentical (VB et C) lecteur Windows Media
+- IWMPPlaylist. isIdentical (VB et C) Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bee30441e8f0275bba06f71a01095c39da8eae9f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eca62b1667250b049cf47e797d59bdddea0444c6ea8803ca0fc8daf526289eb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119006"
 ---
 # <a name="iwmpplaylistisidentical-vb-and-c"></a>IWMPPlaylist. isIdentical (VB et C#)
 
@@ -55,7 +55,7 @@ Interface **wmplib. IWMPPlaylist** pour la sélection que cette méthode compare
 
 **System. Boolean** qui indique si les sélections comparées sont identiques.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **IWMPPlaylist. isIdentical** est une propriété de Visual Basic qui accepte un paramètre, tandis que en C#, elle est appelée méthode **IWMPPlaylist. obtenir \_ isIdentical** .
 

@@ -3,7 +3,7 @@ title: TEXT. Justification
 description: L’attribut de justification spécifie ou récupère l’alignement du texte dans le contrôle de texte.
 ms.assetid: 72086142-198b-41cf-ad84-733fa23f9efe
 keywords:
-- TEXT. Justification lecteur Windows Media
+- TEXT. justification Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba4c5d3a62aba4b95d7f6e36d4fafd3e044edf74
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b7cc79cc3b4a49154284d497b913a843946551faeea7008f7c2b963fbafcf920
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118259"
 ---
 # <a name="textjustification"></a>TEXT. Justification
 
@@ -43,7 +43,7 @@ Cet attribut est une **chaîne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir un exemple illustrant l’utilisation des attributs de l’élément de **texte** , consultez l’attribut [value](text-value.md) .
 

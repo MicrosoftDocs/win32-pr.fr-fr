@@ -4,12 +4,12 @@ ms.assetid: c4aab4cf-9575-4817-b51f-aed4e3c27d2f
 title: À propos des ellipses
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77c6b2774da9886e25d3e1dcca7c701b034e7b45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e0892bfd2a8aa6fad43d18ead65eb92d260150ab31ca9057177c33af2cb8d4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104560008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117888550"
 ---
 # <a name="about-ellipses"></a>À propos des ellipses
 

@@ -1,21 +1,21 @@
 ---
-title: Formulaire d’informations de démarrage pour un magasin de musique en ligne
-description: Formulaire d’informations de démarrage pour un magasin de musique en ligne
+title: formulaire d’informations de démarrage pour une boutique en ligne Musique
+description: formulaire d’informations de démarrage pour une boutique en ligne Musique
 ms.assetid: 6ee30446-7505-40ae-b664-3727a5be9976
 keywords:
-- Windows Media Player Online stores
+- Lecteur Windows Media Magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3ded923538d6be6c8a22fa0ba96ddcd0814348d
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 83acbe30b3d5232abb6c79cb845f29d46cd741b2ea6b3a84f03ecd082cb13e99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118539"
 ---
-# <a name="startup-information-form-for-an-online-music-store"></a>Formulaire d’informations de démarrage pour un magasin de musique en ligne
+# <a name="startup-information-form-for-an-online-music-store"></a>formulaire d’informations de démarrage pour une boutique en ligne Musique
 
-Veuillez remplir et envoyer un formulaire pour chaque magasin et chaque paramètre régional à l’équipe virtuelle des services de lecteur Windows Media à l’adresse mpsvctm@microsoft.com .
+renseignez et envoyez un formulaire pour chaque magasin et chaque paramètre régional à l’équipe virtuelle des Services de Lecteur Windows Media à l’adresse mpsvctm@microsoft.com .
 
 
 
@@ -40,7 +40,7 @@ Veuillez remplir et envoyer un formulaire pour chaque magasin et chaque paramèt
 | Clé de service (ID unique)                                                                                  |             |
 | Nom convivial (30 caractères maximum)                                                                       |             |
 | URL de l’image de menu (2048-limite de caractères)                                                                    |             |
-| Acheter une URL musicale (2048 caractères maximum)<br/> (Magasins de musique intégrés uniquement)<br/>                |             |
+| acheter Musique URL (2048 caractères maximum)<br/> (Magasins de musique intégrés uniquement)<br/>                |             |
 | URL d’achat 10 ft UI (2048 caractères maximum)<br/> (Magasins de musique intégrés uniquement--facultatif)<br/> |             |
 
 
@@ -70,7 +70,7 @@ Veuillez remplir et envoyer un formulaire pour chaque magasin et chaque paramèt
 | Clé de service (ID unique)                                                                                  |             |
 | Nom convivial (30 caractères maximum)                                                                       |             |
 | URL de l’image de menu (2048-limite de caractères)                                                                    |             |
-| Acheter une URL musicale (2048 caractères maximum)<br/> (Magasins de musique intégrés uniquement)<br/>                |             |
+| acheter Musique URL (2048 caractères maximum)<br/> (Magasins de musique intégrés uniquement)<br/>                |             |
 | URL d’achat 10 ft UI (2048 caractères maximum)<br/> (Magasins de musique intégrés uniquement--facultatif)<br/> |             |
 
 

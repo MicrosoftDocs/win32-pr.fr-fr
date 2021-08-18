@@ -3,7 +3,7 @@ title: Slider. Value
 description: L’attribut value spécifie ou récupère la position actuelle du curseur. | Slider. Value
 ms.assetid: 2cd2f8b2-d3f1-4897-98b0-af551d6693e6
 keywords:
-- Slider. Value lecteur Windows Media
+- slider. value Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e87aeff5c97808efb812f530236227b07f463855
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 30f9ae7c0dc45f3a14cad2aa5b7332b037302b6658043233bbd98b1d99a12e10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118627"
 ---
 # <a name="slidervalue"></a>Slider. Value
 
@@ -31,7 +31,7 @@ L’attribut **value** spécifie ou récupère la position actuelle du curseur.
 
 Cet attribut est un **nombre** en lecture/écriture (**float**) dont la valeur par défaut est **min**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **valeur** doit toujours être supérieure ou égale à **min** et inférieure ou égale à **Max**. Si vous spécifiez une valeur en dehors de cette plage, la **valeur** et la position du curseur ne sont pas modifiées.
 

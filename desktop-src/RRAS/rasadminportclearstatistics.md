@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57943fbefcba1625c7badff25827c62eaca8a8c4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3da7d17516e7dd7708821a7c60c2d93db913f25c38471524367ae96494e41f38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788986"
 ---
 # <a name="rasadminportclearstatistics-function"></a>RasAdminPortClearStatistics fonction)
 
-\[Cette fonction est fournie uniquement pour la compatibilité descendante avec Windows NT Server 4,0. Elle retourne un \_ appel \_ d’erreur non \_ implémenté sur Windows Server 2003. Les applications doivent utiliser la fonction [**MprAdminPortClearStats**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportclearstats) .\]
+\[Cette fonction est fournie uniquement pour la compatibilité descendante avec Windows NT Server 4,0. elle retourne un \_ appel \_ d’erreur non \_ implémenté sur Windows Server 2003. Les applications doivent utiliser la fonction [**MprAdminPortClearStats**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportclearstats) .\]
 
 La fonction **RasAdminPortClearStatistics** réinitialise les compteurs représentant les diverses statistiques signalées par la fonction [**RasAdminPortGetInfo**](rasadminportgetinfo.md) dans la structure [**des \_ \_ statistiques du port RAS**](ras-port-statistics-str.md) . Les compteurs sont remis à zéro et commencent à s’accumuler.
 
@@ -75,7 +75,7 @@ Si la fonction échoue, la valeur de retour peut être le code d’erreur suivan
 
 Il n’y a pas d’informations d’erreur étendues pour cette fonction. ne pas appeler [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **RasAdminPortClearStatistics** efface les statistiques sur le serveur, pas localement au sein de l’application qui effectue l’appel. Cela signifie que les statistiques sont également réinitialisées pour toute autre application qui surveille le port spécifié.
 

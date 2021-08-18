@@ -1,6 +1,6 @@
 ---
 title: Propriété IVMVirtualPC Name (VPCCOMInterfaces. h)
-description: Récupère le nom de l’application Windows Virtual PC.
+description: récupère le nom de l’application Windows Virtual PC.
 ms.assetid: d33af684-ecba-4177-9ef3-cf6dff5bee4d
 keywords:
 - Propriété de nom Virtual PC
@@ -17,18 +17,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0bab8dbb624a63d5278560f8285abeac49166a6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 76b3a0ea30ab6e78e0180a33d3955e5141ec70a5d4f3bac09204aa2a133517c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118591712"
 ---
 # <a name="ivmvirtualpcname-property"></a>IVMVirtualPC :: Name, propriété
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
-Récupère le nom de l’application Windows Virtual PC.
+récupère le nom de l’application Windows Virtual PC.
 
 Cette propriété est en lecture seule.
 
@@ -45,7 +45,7 @@ HRESULT get_Name(
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-Nom de l’application Windows Virtual PC.
+nom de l’application Windows Virtual PC.
 
 ## <a name="error-codes"></a>Codes d’erreur
 
@@ -64,9 +64,9 @@ Nom de l’application Windows Virtual PC.
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

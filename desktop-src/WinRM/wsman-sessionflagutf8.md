@@ -5,8 +5,8 @@ ms.assetid: a79e292a-364b-4bf3-ae66-6a15ad51524f
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode SessionFlagUTF8
-- Méthode SessionFlagUTF8 Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode SessionFlagUTF8
+- méthode SessionFlagUTF8 Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode SessionFlagUTF8
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 985763131c2f3d4227f1a24af612ea3141237832
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 44fe6cc1b5f18fa316656d2b6974bd47c8209277ed24ef2798479227f9876e30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741917"
 ---
 # <a name="wsmansessionflagutf8-method"></a>Méthode WSMan. SessionFlagUTF8
 

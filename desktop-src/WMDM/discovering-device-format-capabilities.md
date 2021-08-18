@@ -3,7 +3,7 @@ title: Découverte des fonctionnalités de format des appareils
 description: Découverte des fonctionnalités de format des appareils
 ms.assetid: dd139816-dc8c-4e73-9a21-67287bfe6405
 keywords:
-- Gestionnaire de périphériques Windows Media, fonctionnalités de l’appareil
+- Windows Gestionnaire de périphériques de média, fonctionnalités de l’appareil
 - Gestionnaire de périphériques, fonctionnalités de l’appareil
 - Guide de programmation, fonctionnalités de l’appareil
 - applications de bureau, fonctionnalités de l’appareil
@@ -11,12 +11,12 @@ keywords:
 - écriture de fichiers sur des appareils, fonctionnalités de l’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0ee05476f6b84bc85bb81cc7cff5815649f5842
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03e4fc32c0980a1022f7affb225918ccf0d49e5d14c5bb7310e70e7aa4f83a62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118585145"
 ---
 # <a name="discovering-device-format-capabilities"></a>Découverte des fonctionnalités de format des appareils
 
@@ -46,9 +46,9 @@ La façon dont une application demande les capacités de format d’un appareil 
 [**Écriture de fichiers sur l’appareil**](writing-files-to-the-device.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

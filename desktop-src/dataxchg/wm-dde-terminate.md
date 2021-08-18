@@ -1,9 +1,9 @@
 ---
 title: Message WM_DDE_TERMINATE (DDE. h)
-description: Une application échange dynamique de données (DDE) (client ou serveur) publie un \_ message WM DDE \_ Terminate pour mettre fin à une conversation. Pour poster ce message, appelez la fonction PostMessage avec les paramètres suivants.
+description: une application échange dynamique de données (dde) (client ou serveur) publie un \_ message WM DDE \_ terminate pour mettre fin à une conversation. Pour poster ce message, appelez la fonction PostMessage avec les paramètres suivants.
 ms.assetid: 4fc162c0-ccc2-44e3-9c07-d49d7426af8b
 keywords:
-- WM_DDE_TERMINATE l’échange de données de message
+- WM_DDE_TERMINATE des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 105b4a7daab87b1311a58a7b5e5805bbd81e73ce
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a98d9b4bf2120cb6daa08b6088a8dd39f8a17b8e28c37a3917936a9c49230487
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736266"
 ---
 # <a name="wm_dde_terminate-message"></a>Message de fin du \_ DDE WM \_
 
-Une application échange dynamique de données (DDE) (client ou serveur) publie un message **WM \_ DDE \_ Terminate** pour mettre fin à une conversation.
+une application échange dynamique de données (dde) (client ou serveur) publie un message **WM \_ DDE \_ terminate** pour mettre fin à une conversation.
 
 Pour poster ce message, appelez la fonction [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) avec les paramètres suivants.
 
@@ -52,7 +52,7 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="posting"></a>Publication
 
@@ -70,7 +70,7 @@ L’application cliente ou serveur doit répondre en publiant un message **WM \_
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>DDE. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Dde. h (inclure Windows. h)</dt> </dl> |
 
 
 

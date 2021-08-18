@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 790779c1c45acbc211fe36e28b2e55d5ae2e60da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f836f868b81daa49e87eb4efc804442bed25690ce126852891327d0eb042aaec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460608"
 ---
 # <a name="cpl_startwparms-message"></a>\_Message STARTWPARMS cpl
 
@@ -46,18 +46,18 @@ Chaîne avec des instructions supplémentaires pour l’exécution.
 
 Retourne la **valeur true** si le message a été géré, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Cpl \_ STARTWPARMS** est similaire à [**Cpl \_ DBLCLK**](cpl-dblclk.md) , mais vous permet de passer une chaîne à [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) au lieu d’un **int**. Vous pouvez utiliser cette chaîne comme une méthode flexible pour fournir des instructions détaillées pour l’exécution.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                             |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                             |
 | En-tête<br/>                   | <dl> <dt>Cpl. h</dt> </dl> |
 
 

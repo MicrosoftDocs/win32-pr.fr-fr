@@ -15,18 +15,18 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d52b9090fa1d3870027bbe360164627472c039e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 95e45c46c39a21aaeb53a2980fa3c082947e92cd5bb4ab3eccbbb225001a6504
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106537240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117733981"
 ---
 # <a name="cd3dx12_pipeline_state_stream-structure"></a>\_Structure du \_ flux d’État du PIPELINe CD3DX12 \_
 
 Structure d’assistance pour la création et l’utilisation des graphiques et des États de pipeline de calcul via une interface combinée. Consultez [**D3D12 \_ Graphics \_ pipeline \_ State \_ desc**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) et [**D3D12 \_ Compute \_ pipeline \_ State \_ desc**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc).
 
-\_ \_ Le flux d’État du pipeline CD3DX12 \_ prend en charge Windows 10 Creators Update et versions ultérieures, mais ne prend pas en charge les nouvelles fonctionnalités de la mise à jour des créateurs de automne, telles que l’instanciation Pour prendre en charge les fonctionnalités de la mise à jour des créateurs de automne, utilisez à la place [**CD3DX12 \_ pipeline \_ State \_ STREAM1**](https://www.bing.com/search?q=**CD3DX12\_PIPELINE\_STATE\_STREAM1**) .
+\_ \_ le flux d’état du pipeline CD3DX12 \_ prend en charge Windows 10 Creators Update et versions ultérieures, mais ne prend pas en charge les nouvelles fonctionnalités de la mise à jour des créateurs de automne, comme l’instanciation Pour prendre en charge les fonctionnalités de la mise à jour des créateurs de automne, utilisez à la place [**CD3DX12 \_ pipeline \_ State \_ STREAM1**](https://www.bing.com/search?q=**CD3DX12\_PIPELINE\_STATE\_STREAM1**) .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -180,7 +180,7 @@ Décrit le nuanceur de domaine.
 
 </dd> <dt>
 
-**PS**
+**ALIMENTATION**
 </dt> <dd>
 
 Décrit le nuanceur de pixels.
@@ -250,9 +250,9 @@ Décrit un PSO mis en cache.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le \_ flux d’État du pipeline CD3DX12 \_ \_ prend en charge Windows 10 Creators Update et versions ultérieures, mais ne prend pas en charge les types de sous-objets ajoutés à la mise à jour de Windows 10 automne, comme pour l’instanciation de vues. Pour prendre en charge les types de sous-objets ajoutés à la mise à jour des créateurs de automne, utilisez à la place [**CD3DX12 \_ pipeline \_ State \_ STREAM1**](https://www.bing.com/search?q=**CD3DX12\_PIPELINE\_STATE\_STREAM1**) .
+le \_ flux d’état du pipeline CD3DX12 \_ \_ prend en charge Windows 10 Creators Update et versions ultérieures, mais ne prend pas en charge les types de sous-objets ajoutés dans Windows 10 mise à jour des créateurs de automne, par exemple pour l’instanciation de vues. Pour prendre en charge les types de sous-objets ajoutés à la mise à jour des créateurs de automne, utilisez à la place [**CD3DX12 \_ pipeline \_ State \_ STREAM1**](https://www.bing.com/search?q=**CD3DX12\_PIPELINE\_STATE\_STREAM1**) .
 
 Les variables membres accessibles de cette structure sont tous les typedefs du \_ modèle de sous-objet de flux d’État du pipeline CD3DX12 \_ \_ \_ , qui combine le marqueur de type de sous-objet et les données de sous-objet dans un objet unique approprié pour une description de flux.
 

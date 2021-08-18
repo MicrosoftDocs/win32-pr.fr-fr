@@ -1,5 +1,5 @@
 ---
-description: 'Pour Windows 7, Windows Mobile Devices prend en charge les attributs suivants pour les méthodes d’un service d’appareil. Ces attributs sont retournés par la méthode IPortableDeviceServiceCapabilities :: GetMethodAttributes.'
+description: 'pour Windows 7, Windows appareils mobiles prend en charge les attributs suivants pour les méthodes d’un service d’appareil. Ces attributs sont retournés par la méthode IPortableDeviceServiceCapabilities :: GetMethodAttributes.'
 ms.assetid: b920e037-7737-4a18-b4f1-5c59e0a857dd
 title: Attributs de méthode (PortableDevice. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: fe638bcd0d87af7b16bfb4f202f21cea97908fcd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac41b4e9c7273c953a9689ce8c3d9f44d32925aded5b36291c45895b872fa9fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118026336"
 ---
 # <a name="method-attributes"></a>Attributs de méthode
 
-Pour Windows 7, Windows Mobile Devices prend en charge les attributs suivants pour les méthodes d’un service d’appareil. Ces attributs sont retournés par la méthode [**IPortableDeviceServiceCapabilities :: GetMethodAttributes**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodattributes) .
+pour Windows 7, Windows appareils mobiles prend en charge les attributs suivants pour les méthodes d’un service d’appareil. Ces attributs sont retournés par la méthode [**IPortableDeviceServiceCapabilities :: GetMethodAttributes**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodattributes) .
 
 
 

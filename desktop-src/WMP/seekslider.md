@@ -3,7 +3,7 @@ title: SEEKSLIDER
 description: Il s’agit d’un curseur prédéfini avec les valeurs par défaut suivantes. | SEEKSLIDER
 ms.assetid: 9fdb0f70-e5ce-4dbc-aeba-44fa0e2c9b3c
 keywords:
-- Lecteur Windows Media SEEKSLIDER
+- SEEKSLIDER Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 59808fa7c41acfcc28b715362b8724c7f113faee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a294eede05ec2b2f0f84e925aa299c9bcb2388ee2151385e48f2c68e6b4c1328
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118833338"
 ---
 # <a name="seekslider"></a>SEEKSLIDER
 
@@ -34,7 +34,7 @@ onDragEnd="jscript:player.controls.currentPosition=value;"
 useForegroundProgress="true"
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cela crée un contrôle **Slider** qui recherche le fichier multimédia à n’importe quelle position. Les info-bulles sont localisées. Toutes les propriétés de ce **curseur** peuvent être remplacées en les spécifiant explicitement.
 

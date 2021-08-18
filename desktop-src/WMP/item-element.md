@@ -3,19 +3,19 @@ title: Élément ITEM
 description: Élément ITEM
 ms.assetid: e9791009-67d0-46f3-a69a-2520eaea21cd
 keywords:
-- Apparences du lecteur Windows Media, élément ITEM
+- habillages Lecteur Windows Media, élément ITEM
 - Skins, élément ITEM
 - Élément ITEM
 - informations de référence sur les habillages, élément ITEM
 - éléments, élément
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91e9e692685dc41d17284611181d49de50bf4e32
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4e9f03d7ae7946e65c7535e504bb27d6de6fe46f9a96220f3285768e76360055
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119318"
 ---
 # <a name="item-element"></a>Élément ITEM
 
@@ -31,12 +31,12 @@ L’élément **Item** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 > [!Note]  
-> Cet élément requiert le lecteur Windows Media pour Windows XP ou version ultérieure.
+> cet élément requiert Lecteur Windows Media pour Windows XP ou version ultérieure.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -45,9 +45,9 @@ L’élément **Item** prend en charge les attributs suivants.
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

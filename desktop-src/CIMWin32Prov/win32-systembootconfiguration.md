@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 863e4103f7e87681e25ccf53679bfe006ed3ff75
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ad5b30d42e94391163a4a54836877f90415225d0ae697e719e6c088f432430cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118416752"
 ---
 # <a name="win32_systembootconfiguration-class"></a>\_Classe SystemBootConfiguration Win32
 
@@ -84,7 +84,7 @@ Référence à l’instance représentant la configuration de démarrage pour le
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ SystemBootConfiguration** est dérivée de [**Win32 \_ SystemSetting**](win32-systemsetting.md).
 

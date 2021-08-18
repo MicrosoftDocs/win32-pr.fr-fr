@@ -14,16 +14,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4a129b7c8368e6af1d259d6c19a9dde963d9deef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ee4eca1bad0859159821d7717ba6c23c352e03b33a1fcab81721e08dba465c83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452930"
 ---
 # <a name="change_log_entry-structure"></a>Structure de l’entrée du journal des modifications \_ \_
 
-\[Ces informations s’appliquent uniquement à Windows XP avec Service Pack 2 (SP2).\]
+\[ces informations s’appliquent uniquement à Windows XP avec Service Pack 2 (SP2).\]
 
 Entrée du journal des modifications.
 
@@ -172,7 +172,7 @@ Nom du processus qui effectue la modification.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est suivie d’un nombre variable d’enregistrements de données de longueur variable, ainsi que d’une valeur **DWORD** qui doit être identique à la valeur du membre **dwRecordSize** de **RecordHeader**.
 

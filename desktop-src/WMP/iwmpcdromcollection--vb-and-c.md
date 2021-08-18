@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPCdromCollection (VB et C) (WMP. h)
+title: interface IWMPCdromCollection (VB et C) (Wmp. h)
 description: Fournit un moyen d’organiser et d’accéder à une collection de lecteurs de CD ou DVD. L’interface IWMPCdromCollection expose la propriété suivante.
 ms.assetid: 60874603-d9c8-4ed1-a92a-bd069bd0c253
 keywords:
-- IWMPCdromCollection (VB et C) interface Windows Media Player
-- Interface IWMPCdromCollection (VB et C), le lecteur Windows Media, décrit
+- interface IWMPCdromCollection (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPCdromCollection (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,14 +15,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d3fbc9c053c186b6d542e201f7bee5d2331b649
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c935d4875307c7712036ed51304996028db6ba2a88fc1d5e54c77b7948c72252
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119298"
 ---
-# <a name="iwmpcdromcollection-vb-and-c-interface"></a>Interface IWMPCdromCollection (VB et C#)
+# <a name="iwmpcdromcollection-vb-and-c-interface"></a>interface IWMPCdromCollection (VB et C#)
 
 Fournit un moyen d’organiser et d’accéder à une collection de lecteurs de CD ou DVD.
 
@@ -30,14 +30,14 @@ L’interface **IWMPCdromCollection** expose la propriété suivante.
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPCdromCollection (VB et C#)** possède les types de membres suivants :
+l’interface **IWMPCdromCollection (VB et C#)** possède les types de membres suivants :
 
 -   [Méthodes](#methods)
 -   [Propriétés](#properties)
 
 ### <a name="methods"></a>Méthodes
 
-L’interface **IWMPCdromCollection (VB et C#)** possède ces méthodes.
+l’interface **IWMPCdromCollection (VB et C#)** possède ces méthodes.
 
 
 
@@ -52,13 +52,13 @@ L’interface **IWMPCdromCollection (VB et C#)** possède ces méthodes.
 
 ### <a name="properties"></a>Propriétés
 
-L’interface **IWMPCdromCollection (VB et C#)** a ces propriétés.
+l’interface **IWMPCdromCollection (VB et C#)** a ces propriétés.
 
 
 
 | Propriété                                                                                  | Type d’accès          | Description                                                              |
 |:------------------------------------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------|
-| [**count**](wmplibiwmpcdromcollection-iwmpcdromcollection-count--vb-and-c.md)<br/> | Lecture seule<br/> | Obtient le nombre de lecteurs de CD et de DVD disponibles sur le système.<br/> |
+| [**saut**](wmplibiwmpcdromcollection-iwmpcdromcollection-count--vb-and-c.md)<br/> | Lecture seule<br/> | Obtient le nombre de lecteurs de CD et de DVD disponibles sur le système.<br/> |
 
 
 
@@ -90,7 +90,7 @@ Procurez-vous une interface **IWMPCdromCollection** à l’aide de la propriét�
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPCdrom (VB et C#)**](iwmpcdrom--vb-and-c.md)

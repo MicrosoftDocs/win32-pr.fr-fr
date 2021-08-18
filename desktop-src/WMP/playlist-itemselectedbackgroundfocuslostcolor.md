@@ -3,7 +3,7 @@ title: PLAYLIST. itemSelectedBackgroundFocusLostColor
 description: L’attribut itemSelectedBackgroundFocusLostColor spécifie ou récupère une valeur indiquant la couleur du texte d’un élément sélectionné dans la sélection.
 ms.assetid: 65be17ab-1e1e-4aea-ad8f-f21dd8bfc14c
 keywords:
-- Lecteur Windows Media PLAYLIST. itemSelectedBackgroundFocusLostColor
+- PLAYLIST. itemSelectedBackgroundFocusLostColor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49c130119d1aad503c0c236ac9c28a61746645ac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1f3a812958b4d2923190390e565a44a05bc18f22731e687bef527605cafbc25b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118834363"
 ---
 # <a name="playlistitemselectedbackgroundfocuslostcolor"></a>PLAYLIST. itemSelectedBackgroundFocusLostColor
 
@@ -29,7 +29,7 @@ L’attribut **itemSelectedBackgroundFocusLostColor** spécifie ou récupère un
 
 ## <a name="possible-values"></a>Valeurs possibles
 
-Cet attribut est une **chaîne** en lecture/écriture représentant une couleur. La valeur par défaut est la couleur de la face du bouton Windows.
+Cet attribut est une **chaîne** en lecture/écriture représentant une couleur. la valeur par défaut est la couleur de la face du bouton Windows.
 
 ## <a name="requirements"></a>Configuration requise
 

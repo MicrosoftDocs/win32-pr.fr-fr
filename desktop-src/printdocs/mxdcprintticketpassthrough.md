@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: 94308527437316dda75fc5a50a6a7829e9315c3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cf778781340323a78495f87b1408e1011641797ed52a3565bafe41ca450d551
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118471640"
 ---
 # <a name="mxdc_printticket_data_t-structure"></a>\_Structure de \_ données MXDC PRINTTICKET \_
 
@@ -54,7 +54,7 @@ Ticket d’impression du document XPS.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est ajoutée à une structure [**\_ T d' \_ en \_ -tête d’échappement MXDC**](mxdcescapeheader.md) dont le membre **opcode** est défini sur la **\_ \_ \_ page fixe MXDCOP PrintTicket**, **MXDCOP \_ PrintTicket \_ fixed \_ doc** ou **MXDCOP \_ PrintTicket \_ fixed \_ doc \_ Seq** pour créer une structure [**MXDC \_ PrintTicket \_ Escape \_ T**](mxdcprintticketescape.md) . La **structure \_ MXDC \_ PRINTTICKET \_ Escape T** est ensuite transmise au paramètre *lpszInData* de la fonction [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) quand elle est appelée avec l’échappement d' [**\_ échappement MXDC**](mxdc-escape.md) . L’effet est d’écrire le ticket d’impression dans le fichier de document XPS.
 
@@ -66,8 +66,8 @@ Si l' **opcode** est défini sur **la \_ \_ \_ page fixe MXDCOP PRINTTICKET**, l
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Mxdc. h</dt> </dl> |
 
 

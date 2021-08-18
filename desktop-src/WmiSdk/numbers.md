@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Nombres (WMI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ad348820e0294e76ba059a06b6daa6f1c916d8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f3441988bb91d4bb2f3742016f01cb69996e3dcb55081a6723d851ed74cc1cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555135"
 ---
 # <a name="numbers-wmi"></a>Nombres (WMI)
 
@@ -55,7 +55,7 @@ MOF prend également en charge d’autres formats numériques. Le tableau suivan
 
 
 
-| Constante               | Caractère spécial     | Exemple                   |
+| Constante               | Caractère spécial     |  Exemple                   |
 |------------------------|-----------------------|---------------------------|
 | Decimal<br/>     | Aucun<br/>       | Val = 65<br/>       |
 | Valeur hexadécimale<br/> | préfixe 0x<br/>  | Val = 0x41 vers<br/>     |

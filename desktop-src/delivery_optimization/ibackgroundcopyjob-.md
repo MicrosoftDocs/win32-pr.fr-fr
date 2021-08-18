@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 04572f11afd51c3354c5adabd9950e2a3942287a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 27febd08519a06f7ad452882cf0725fed209e0306182ba336343049936795acf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118543025"
 ---
 # <a name="ibackgroundcopyjob-interface"></a>Interface méthode ibackgroundcopyjob
 
@@ -57,12 +57,12 @@ L’interface **méthode ibackgroundcopyjob** possède ces méthodes.
 | [**GetState**](ibackgroundcopyjob-getstate.md)                         | Récupère l’état du travail.<br/>                                                                                                                                                                                        |
 | [**GetTimes**](ibackgroundcopyjob-gettimes.md)                         | Récupère les horodatages pour les activités liées au travail, telles que l’heure de création du travail.<br/>                                                                                                                         |
 | [**GetType**](ibackgroundcopyjob-gettype.md)                           | Récupère le type de transfert effectué, tel qu’un téléchargement de fichier.<br/>                                                                                                                                               |
-| [**Sort**](ibackgroundcopyjob-resume.md)                             | Démarre un nouveau travail ou redémarre un travail suspendu.<br/>                                                                                                                                                                          |
+| [**Reprendre**](ibackgroundcopyjob-resume.md)                             | Démarre un nouveau travail ou redémarre un travail suspendu.<br/>                                                                                                                                                                          |
 | [**SetNoProgressTimeout**](ibackgroundcopyjob-setnoprogresstimeout.md) | Spécifie la durée pendant laquelle continue à essayer de transférer le fichier après avoir rencontré une condition d’erreur temporaire.<br/>                                                                                             |
 | [**SetNotifyFlags**](ibackgroundcopyjob-setnotifyflags.md)             | Spécifie le type de notification d’événement à recevoir.<br/>                                                                                                                                                                   |
 | [**SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md)     | Spécifie un pointeur vers votre implémentation de l’interface [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) (rappels). L’interface reçoit une notification basée sur les indicateurs de notification d’événement que vous définissez.<br/> |
 | [**SetPriority**](ibackgroundcopyjob-setpriority.md)                   | Spécifie la priorité du travail par rapport aux autres travaux de la file d’attente de transfert.<br/>                                                                                                                                        |
-| [**Suspendre**](ibackgroundcopyjob-suspend.md)                           | Suspend la tâche.<br/>                                                                                                                                                                                                        |
+| [**Momentané**](ibackgroundcopyjob-suspend.md)                           | Suspend la tâche.<br/>                                                                                                                                                                                                        |
 
 
 
@@ -74,8 +74,8 @@ L’interface **méthode ibackgroundcopyjob** possède ces méthodes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Dosvc. lib</dt> </dl>                |
