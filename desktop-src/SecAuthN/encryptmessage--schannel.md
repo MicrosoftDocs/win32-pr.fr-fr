@@ -4,12 +4,12 @@ ms.assetid: b02b38bd-f3dd-4bf8-a36e-44ff9fbbe550
 title: EncryptMessage (SChannel) (fonction)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 3075b2fe7e5b4167a5a8527a16009282b2fca1b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de792e543a8cb67bd6b608d79832fd31a68267fc297a85e0e178d268bbc069d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008287"
 ---
 # <a name="encryptmessage-schannel-function"></a>EncryptMessage (SChannel) (fonction)
 
@@ -45,7 +45,7 @@ Ce paramètre peut être l’indicateur suivant.
 
 | Valeur                                                                                                                                                                                | Signification                                                                                                                                                                                                                                                                                                                                                              |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="SECQOP_WRAP_OOB_DATA"></span><span id="secqop_wrap_oob_data"></span><dl> <dt>**SECQOP \_ encapsuler les \_ \_ données OOB**</dt> </dl> | Envoyer un message d’alerte Schannel. Dans ce cas, le paramètre *pMessage* doit contenir un code d’événement SSL/TLS à deux octets standard. Cette valeur est prise en charge uniquement par le SSP Schannel.<br/> Par exemple, à partir de Windows Vista, le message « Server Hello » envoyé par le serveur pendant le protocole de ré-authentification doit être chiffré en tant qu’alerte TLS.<br/> |
+| <span id="SECQOP_WRAP_OOB_DATA"></span><span id="secqop_wrap_oob_data"></span><dl> <dt>**SECQOP \_ encapsuler les \_ \_ données OOB**</dt> </dl> | Envoyer un message d’alerte Schannel. Dans ce cas, le paramètre *pMessage* doit contenir un code d’événement SSL/TLS à deux octets standard. Cette valeur est prise en charge uniquement par le SSP Schannel.<br/> par exemple, à partir de Windows Vista, le message « server hello » envoyé par le serveur pendant le protocole de réauthentification doit être chiffré en tant qu’alerte TLS.<br/> |
 
 *pMessage* \[ in, out\]
 
@@ -77,7 +77,7 @@ Si la fonction échoue, elle retourne l’un des codes d’erreur suivants.
 | <dl> <dt>**s \_ E \_ jeton non valide \_**</dt> </dl>          | Aucune \_ mémoire tampon de type de données SECBUFFER n’a été trouvée.<br/>                                                                                                        |
 | <dl> <dt>**SEC \_ E \_ QoP \_ non \_ pris en charge**</dt> </dl>     | La confidentialité et l' [*intégrité*](../secgloss/i-gly.md) ne sont pas prises en charge par le [*contexte de sécurité*](../secgloss/s-gly.md).<br/> |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **EncryptMessage (SChannel)** chiffre un message basé sur le message et la [*clé de session*](../secgloss/s-gly.md) à partir d’un contexte de [*sécurité*](../secgloss/s-gly.md).
 
@@ -105,8 +105,8 @@ Pour des performances optimales, les structures *pMessage* doivent être alloué
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows XP uniquement\]          |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2003 \[ uniquement\] |
+| Client minimal pris en charge | Windows \[Applications de bureau XP uniquement\]          |
+| Serveur minimal pris en charge | Windows Serveur 2003 \[ applications de bureau uniquement\] |
 | En-tête                   | SSPI. h (include Security. h)               |
 | Bibliothèque                  | Secur32. lib                               |
 | DLL                      | Secur32.dll                               |

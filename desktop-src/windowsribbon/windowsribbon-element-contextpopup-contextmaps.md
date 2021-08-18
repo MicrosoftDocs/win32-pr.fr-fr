@@ -3,7 +3,7 @@ title: ContextPopup. ContextMaps, propriété
 description: Représente un conteneur pour les éléments ContextMap.
 ms.assetid: 06dfd4ba-a1d8-48bb-b185-d265e007a820
 keywords:
-- Ruban Windows de la propriété ContextPopup. ContextMaps
+- ContextPopup. ContextMaps, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 034381c4af840219ff1d6dd4d7a73aa34f528915
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 05b6f6e2f1533553c33949b300213c1957cb47b8606d811f1b6f1f8f6cf33b9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106517319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840829"
 ---
 # <a name="contextpopupcontextmaps-property"></a>ContextPopup. ContextMaps, propriété
 
 Représente un conteneur pour les éléments [**ContextMap**](windowsribbon-element-contextmap.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ContextPopup.ContextMaps>
@@ -55,9 +55,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**ContextPopup**](windowsribbon-element-contextpopup.md).
 
@@ -158,8 +158,8 @@ Cette section de code illustre une déclaration de contrôle **ContextPopup. Con
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

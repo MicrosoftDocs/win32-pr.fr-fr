@@ -4,12 +4,12 @@ ms.assetid: fa1b36de-8be3-48ae-a58b-800f30259041
 title: Constantes LINEREMOVEFROMCONF_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51fbb3c6261addf28f1bb9b101b29882d2c00218
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 917cfdd27500a45689df036ff094334f862d889abe9bb8acccaeb5113773c175
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002997"
 ---
 # <a name="lineremovefromconf_-constants"></a>\_Constantes LINEREMOVEFROMCONF
 
@@ -47,7 +47,7 @@ Les tiers ne peuvent pas être supprimés de l’appel de conférence.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 

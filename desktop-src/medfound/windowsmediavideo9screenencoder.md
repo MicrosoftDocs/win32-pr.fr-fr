@@ -1,23 +1,23 @@
 ---
-description: L’encodeur d’écran Windows Media Video 9 est optimisé pour l’encodage des captures d’écran séquentielles à partir des moniteurs d’ordinateur.
+description: l’encodeur d’écran Windows Media Video 9 est optimisé pour l’encodage des captures d’écran séquentielles à partir des moniteurs d’ordinateur.
 ms.assetid: 22faebf8-40c0-47f9-b66b-c0a8b5ba7202
-title: Encodeur d’écran Windows Media Video 9 (Wmcodecdsp. h)
+title: Windows Encodeur d’écran Media Video 9 (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5e0729a7b8ef09ad9b86b07e6668a933a307550
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a6d9fbe59671d978fb7374acbbc8ed1d8e9ea5afded0154242c4d1ccb4df3d4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713139"
 ---
-# <a name="windows-media-video-9-screen-encoder"></a>Encodeur d’écran Windows Media Video 9
+# <a name="windows-media-video-9-screen-encoder"></a>Windows Encodeur d’écran Media Video 9
 
-L’encodeur d’écran Windows Media Video 9 est optimisé pour l’encodage des captures d’écran séquentielles à partir des moniteurs d’ordinateur.
+l’encodeur d’écran Windows Media Video 9 est optimisé pour l’encodage des captures d’écran séquentielles à partir des moniteurs d’ordinateur.
 
 ## <a name="class-identifier"></a>Identificateur de classe
 
-L’identificateur de classe (CLSID) de l’encodeur d’écran Windows Media Video 9 est représenté par la constante **CLSID \_ CMSSCEncMediaObject2**. Vous pouvez créer une instance de l’encodeur en appelant **CoCreateInstance**.
+l’identificateur de classe (CLSID) de l’encodeur d’écran Windows Media Video 9 est représenté par la constante **clsid \_ CMSSCEncMediaObject2**. Vous pouvez créer une instance de l’encodeur en appelant **CoCreateInstance**.
 
 ## <a name="input-types"></a>Types d’entrée
 
@@ -41,7 +41,7 @@ Les types d’entrée suivants sont pris en charge par l’encodeur d’écran d
 
 ## <a name="output-types"></a>Types de sortie
 
-Le code à quatre caractères (FOURCC) pour Windows Media Video contenu encodé à l’écran version 9 est « MSS2 ».
+le code à quatre caractères (FOURCC) pour Windows Media Video contenu encodé à l’écran Version 9 est « MSS2 ».
 
 Les types de sortie suivants sont pris en charge par l’encodeur d’écran de la version 9.
 
@@ -49,7 +49,7 @@ Les types de sortie suivants sont pris en charge par l’encodeur d’écran de 
 
 ## <a name="encoder-properties"></a>Propriétés de l’encodeur
 
-L’encodeur d’écran Windows Media Video 9 prend en charge les propriétés suivantes.
+l’encodeur d’écran Windows Media Video 9 prend en charge les propriétés suivantes.
 
 
 
@@ -208,18 +208,18 @@ Lecture seule.<br />
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Un objet d’encodeur d’écran expose l’interface **IMediaObject** afin que l’objet puisse être utilisé en tant qu’objet de média DirectX (DMO) et expose l’interface **IMFTransform** afin que l’objet puisse être utilisé en tant que transformation de Media Foundation (MFT).
+un objet d’encodeur d’écran expose l’interface **IMediaObject** afin que l’objet puisse être utilisé en tant qu’objet de média DirectX (DMO) et expose l’interface **IMFTransform** afin que l’objet puisse être utilisé en tant que transformation de Media Foundation (MFT).
 
-Un encodeur d’écran se comporte comme un DMO ou une table MFT selon les interfaces que vous obtenez et la version de Windows en cours d’exécution. Le tableau suivant indique les conditions sous lesquelles un encodeur d’écran se comporte comme un DMO ou une table MFT.
+un encodeur d’écran se comporte comme un DMO ou une table MFT selon les interfaces que vous obtenez et la version de Windows en cours d’exécution. le tableau suivant indique les conditions sous lesquelles un encodeur d’écran se comporte comme un DMO ou une table MFT.
 
 
 
 | Système d’exploitation            | Comportement de l’encodeur                                                                                                                                    |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Windows XP                  | Un encodeur d’écran Windows Media se comporte toujours comme un DMO.                                                                                             |
-| Windows Vista et Windows 7 | Par défaut, un encodeur d’écran Windows Media se comporte comme un DMO. Si vous obtenez une interface **IMFTransform** sur un encodeur d’écran, elle se comporte comme une table MFT. |
+| Windows XP                  | un encodeur d’écran de média Windows se comporte toujours comme un DMO.                                                                                             |
+| Windows Vista et Windows 7 | par défaut, un encodeur d’écran de support Windows se comporte comme un DMO. Si vous obtenez une interface **IMFTransform** sur un encodeur d’écran, elle se comporte comme une table MFT. |
 
 
 
@@ -247,10 +247,10 @@ Un encodeur d’écran se comporte comme un DMO ou une table MFT selon les inter
 [Implémentation du codec](codecimplementation.md)
 </dt> <dt>
 
-[Utilisation du codec d’écran Windows Media Video 9](usingthewindowsmediavideo9screencodec.md)
+[utilisation du Codec d’écran Windows Media Video 9](usingthewindowsmediavideo9screencodec.md)
 </dt> <dt>
 
-[Décodeur d’écran Windows Media Video 9](windowsmediavideo9screendecoder.md)
+[Windows Décodeur d’écran Media Video 9](windowsmediavideo9screendecoder.md)
 </dt> </dl>
 
  

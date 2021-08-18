@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 47c834571dd211dd085ed94e9d8c1ff9d5516c9e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3738a33d2c7a855abe6cc60139286b3e9c4d586bc6c2d9d436390fc5e52f4fd1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629229"
 ---
 # <a name="sessionfeaturecurrentstate-property"></a>Session. FeatureCurrentState, propriété
 
@@ -39,7 +39,7 @@ propVal = Session.FeatureCurrentState
 
 Nom de chaîne requis pour la fonctionnalité demandée et une clé primaire dans la [table des fonctionnalités](feature-table.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la propriété échoue, vous pouvez obtenir des informations d’erreur étendues à l’aide de la méthode [**LastErrorRecord**](installer-lasterrorrecord.md) .
 

@@ -4,18 +4,18 @@ ms.assetid: 0eaa4348-968e-4b45-9509-8b15476edaa1
 title: Message ResolveMatches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40ab5c0d66541b93eeee13966d686c94eef9364d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1daffe985f3956e57ad69fd7c4fc4d199f0b24bd5fdab5677b7ef83765e5fcdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756799"
 ---
 # <a name="resolvematches-message"></a>Message ResolveMatches
 
 Un message ResolveMatches est un message WS-Discovery envoyé en réponse au message de [résolution](resolve-message.md) d’un client par un service correspondant. Pour plus d’informations sur les messages ResolveMatches, consultez la section 6,2 de la [spécification WS-Discovery](https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf).
 
-Un message ResolveMatches est envoyé par la monodiffusion UDP au port 3702 (le port à partir duquel le message de [résolution](resolve-message.md) du client a été envoyé). ResolveMatches doit être envoyé dans les 4 secondes du message de résolution ; dans le cas contraire, le pare-feu Windows risque de supprimer le paquet.
+Un message ResolveMatches est envoyé par la monodiffusion UDP au port 3702 (le port à partir duquel le message de [résolution](resolve-message.md) du client a été envoyé). ResolveMatches doit être envoyé dans les 4 secondes du message de résolution ; dans le cas contraire, Windows pare-feu peut supprimer le paquet.
 
 Toute application DPWS qui envoie des messages de [résolution](resolve-message.md) recevra des messages ResolveMatches.
 
@@ -135,7 +135,7 @@ Un message ResolveMatches a les points de focalisation suivants.
 
 <dl> <dt>
 
-[Détection et messages d’échange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
+[détection et Messages de Exchange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Résoudre le message](resolve-message.md)

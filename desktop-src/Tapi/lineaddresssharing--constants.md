@@ -4,12 +4,12 @@ ms.assetid: f37ba549-c8dc-4a7c-bfe6-8e5f733d9750
 title: Constantes LINEADDRESSSHARING_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 785c7e924ffc958d3fe14b739bb2eb28dec322a7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e4fe92c92efd75a4f6e731944c487acff2ffd70e173dd04b03244ec9d55e8aba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003127"
 ---
 # <a name="lineaddresssharing_-constants"></a>\_Constantes LINEADDRESSSHARING
 
@@ -67,7 +67,7 @@ Il s’agit d’une adresse dont l’état inactif/occupé est rendu disponible 
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 

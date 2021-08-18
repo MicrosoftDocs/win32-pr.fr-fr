@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 469802434d54319aa55c1e409ccb8d64e942836f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f92bd2321567bbc565d3198fe5ebf5c98a3d8df440ea967409830c8e73488609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014017"
 ---
 # <a name="zs-switch"></a>Commutateur/ZS
 
@@ -32,7 +32,7 @@ midl /syntax_check
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce commutateur remplace tous les autres commutateurs qui spécifient des informations sur les fichiers de sortie.
 
@@ -54,9 +54,9 @@ Vous pouvez également spécifier le mode de vérification de syntaxe avec le co
 [**vérification de/Syntax \_**](-syntax-check.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

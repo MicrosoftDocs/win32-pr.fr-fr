@@ -3,7 +3,7 @@ title: Message WM_DELETEITEM (winuser. h)
 description: Envoyé au propriétaire d’une zone de liste ou d’une zone de liste déroulante lorsque la zone de liste ou la zone de liste déroulante est détruite ou lorsque des éléments sont supprimés par le \_ message lb DELETESTRING, lb \_ RESETCONTENT, CB \_ DELETESTRING ou CB \_ RESETCONTENT.
 ms.assetid: c3adf8fb-45f2-44f1-8821-6ffa7d76dc78
 keywords:
-- WM_DELETEITEM les contrôles de message Windows
+- WM_DELETEITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbf37f8a367d23353903bd3cda85b573f6884ff2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1f461b63d751822d9a4c602993314bf0677cff754881269ab44458ab17f3a439
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018537"
 ---
 # <a name="wm_deleteitem-message"></a>\_Message WM DELETEITEM
 
@@ -57,9 +57,9 @@ Pointeur vers une structure [**deleteitemstruct,**](/windows/win32/api/winuser/n
 
 Une application doit retourner la **valeur true** si elle traite ce message.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Microsoft Windows NT et versions ultérieures : Windows envoie un message **WM \_ DELETEITEM** uniquement pour les éléments supprimés d’une zone de liste owner-drawn (avec le style [**\_ OWNERDRAWFIXED**](list-box-styles.md) ou [**lbs \_ OWNERDRAWVARIABLE**](list-box-styles.md) ) ou la zone de liste déroulante owner-drawn (avec le style [**CBS \_ OWNERDRAWFIXED**](combo-box-styles.md) ou [**CBS \_ OWNERDRAWVARIABLE**](combo-box-styles.md) ).
+Microsoft Windows NT et versions ultérieures : Windows envoie un message **WM \_ DELETEITEM** uniquement pour les éléments supprimés d’une zone de liste owner-drawn (avec le style [**\_ OWNERDRAWFIXED**](list-box-styles.md) ou [**lbs \_ OWNERDRAWVARIABLE**](list-box-styles.md) ) ou la zone de liste déroulante owner-drawn (avec le style [**cbs \_ OWNERDRAWFIXED**](combo-box-styles.md) ou [**cbs \_ OWNERDRAWVARIABLE**](combo-box-styles.md) ).
 
 Windows 95 : Windows envoie le message **WM \_ DELETEITEM** pour tout élément de liste ou zone de liste déroulante supprimé avec des données d’élément non nulles.
 
@@ -69,8 +69,8 @@ Windows 95 : Windows envoie le message **WM \_ DELETEITEM** pour tout élément
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

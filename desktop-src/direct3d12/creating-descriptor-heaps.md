@@ -5,12 +5,12 @@ ms.assetid: 58677023-692C-4BA4-90B7-D568F3DD3F73
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e472a0749634d5cbaa9cbf1cde5e11202d4c4f9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 218d21d462dd393360e9ebfcb07ab5b35524b9d8d8c01c8ab1ef28ef90166eb2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857989"
 ---
 # <a name="creating-descriptor-heaps"></a>Création de tas de descripteurs
 
@@ -88,7 +88,7 @@ Les applications peuvent déterminer la taille incrémentielle des descripteurs 
 >
 > Il existe une structure d’assistance, \_ \_ handle de descripteur GPU CD3DX12 \_ , définie dans l’en-tête d3dx12. h, qui hérite de la structure de [**\_ \_ \_ handle du descripteur GPU D3D12**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle) et fournit l’initialisation et d’autres opérations utiles. De même, la \_ \_ structure d’assistance du handle du descripteur de processeur CD3DX12 \_ est définie pour la structure de [**\_ \_ \_ handle du descripteur de processeur D3D12**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle) .
 
- 
+ 
 
 Ces deux structures d’assistance sont utilisées lors du remplissage des listes de commandes.
 
@@ -291,6 +291,6 @@ public:
 [Tas de descripteurs](descriptor-heaps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

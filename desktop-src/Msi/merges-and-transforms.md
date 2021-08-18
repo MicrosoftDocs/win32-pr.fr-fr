@@ -1,19 +1,19 @@
 ---
-description: Le Windows Installer conserve toutes les informations relatives à l’installation dans une base de données relationnelle. Vous pouvez modifier cette base de données et, par conséquent, l’installation, à l’aide de transformations et de fusions.
+description: le Windows Installer conserve toutes les informations relatives à l’installation dans une base de données relationnelle. Vous pouvez modifier cette base de données et, par conséquent, l’installation, à l’aide de transformations et de fusions.
 ms.assetid: 32163e06-d03d-4b65-b744-62f306f2100d
 title: Fusions et transformations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aec6314e81afb5afa9d74346b64fe3129ba5ed30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9779cd901df349b80dba84f056104c316810f8a3f67b19cdd4622dd68480ce1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012977"
 ---
 # <a name="merges-and-transforms"></a>Fusions et transformations
 
-Le Windows Installer conserve toutes les informations relatives à l’installation dans une base de données relationnelle. Vous pouvez modifier cette base de données et, par conséquent, l’installation, à l’aide de transformations et de fusions.
+le Windows Installer conserve toutes les informations relatives à l’installation dans une base de données relationnelle. Vous pouvez modifier cette base de données et, par conséquent, l’installation, à l’aide de transformations et de fusions.
 
 ## <a name="transforms"></a>Transformations
 

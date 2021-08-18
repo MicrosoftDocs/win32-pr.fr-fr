@@ -4,12 +4,12 @@ description: Cette rubrique décrit la configuration requise pour les longueurs 
 ms.assetid: 08599966-68a1-420b-bbc7-6daac833d08f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5003f739d235a099adb9f4f403c15c67bd9169e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 858b01de7b0b4cecb9eaea9f93bb541cb95fe9b394e74616427910abe3b33403
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911739"
 ---
 # <a name="network-management-function-buffer-lengths"></a>Longueur de la mémoire tampon des fonctions de gestion de réseau
 
@@ -23,9 +23,9 @@ Si vous spécifiez la valeur MAX \_ préférée \_ Length dans le paramètre *pr
 
 Pour plus d’informations, consultez [mémoires tampons de fonctions de gestion de réseau](network-management-function-buffers.md).
 
- 
+ 
 
- 
+ 
 
 
 

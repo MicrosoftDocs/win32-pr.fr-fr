@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7b5a55cb13eb7197986349c602ec35855a3f6364
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3e5e3d5cbeb4d60f7beffd70c30ba0775863a9782cfb365a4d40bdf5552a186f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104199359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855349"
 ---
 # <a name="def---vs"></a>def-vs
 
@@ -29,14 +29,14 @@ Définit des constantes de nuanceur de sommets.
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 -   float1, float2, float3, float4 sont des nombres à virgule flottante.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 L’instruction def définit une constante de nuanceur dont la valeur est chargée chaque fois qu’un nuanceur est défini sur un appareil. Celles-ci sont appelées constantes immédiates. Les constantes immédiates sont prioritaires sur les constantes définies par les méthodes d’API SetVertexShaderConstantF.
 
@@ -72,6 +72,6 @@ Il existe deux façons de définir une constante dans un nuanceur.
 [defb-vs](defb---vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

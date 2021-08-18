@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e972675804b2857207663b8570464341c002c0f0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6843b599dc0595201606c2e9c8ee4fe0dd84b5ad68c727466d802161641a6a10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849109"
 ---
 # <a name="id3dxanimationcontrollergetmaxnumtracks-method"></a>ID3DXAnimationController :: GetMaxNumTracks, méthode
 
@@ -44,7 +44,7 @@ Type : **[ **uint**](../winprog/windows-data-types.md)**
 
 Nombre de pistes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Nombre maximal de pistes que le contrôleur peut gérer.
 

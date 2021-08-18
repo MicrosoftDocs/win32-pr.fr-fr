@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: 9a14198cb6f1912612a092e003a68fd9ff49f867
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b7ea5a365a9c5bdcb478ce47443a713ed5bc091666b54de880dc478708e4c36c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749689"
 ---
 # <a name="orcreatekey-function"></a>ORCreateKey fonction)
 
@@ -130,7 +130,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur différent de
 
 Si le paramètre *dwOptions* est défini avec **l' \_ option reg \_ Create \_ Link** mais que l' **\_ option reg \_ non \_ volatile** est désactivée, ou si le handle à retourner est un descripteur de la clé racine de Hive, la fonction retourne un paramètre d’erreur \_ non valide \_ .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La clé créée par la fonction **ORCreateKey** n’a pas de valeur. Une application peut utiliser la fonction [**ORSetValue**](orsetvalue.md) pour définir des valeurs de clés.
 
@@ -144,7 +144,7 @@ Le registre hors connexion ne prend pas en charge l’enregistrement de clés in
 
 | Condition requise | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque du Registre hors connexion Windows version 1,0 ou ultérieure<br/>                      |
+| Composant redistribuable<br/> | Windows Bibliothèque de Registre hors connexion version 1,0 ou ultérieure<br/>                      |
 | En-tête<br/>          | <dl> <dt>Offreg. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

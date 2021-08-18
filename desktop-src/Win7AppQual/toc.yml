@@ -1,4 +1,4 @@
-- name: Windows 7 et Windows Server 2008 R2-Guide pratique sur la qualité des applications
+- name: guide de qualité des applications Windows 7 et Windows Server 2008 R2
   href: windows-7-application-quality-cookbook.md
   items:
     - name: Compatibilité
@@ -11,25 +11,25 @@
               href: 512-byte-emulation--512e--disk-compatibility-update.md
             - name: Contrôle de version du système d’exploitation
               href: operating-system-versioning.md
-            - name: Suppression de Windows Mail
+            - name: suppression de la messagerie Windows
               href: removal-of-windows-mail.md
-            - name: Suppression de Windows Movie Maker
+            - name: suppression de Windows Movie Maker
               href: removal-of-windows-movie-maker.md
             - name: Modifications de tri NLS
               href: nls-sorting-changes.md
             - name: Internet Explorer 8-chaîne de l’agent utilisateur
               href: internet-explorer-8---user-agent-string.md
-            - name: Protection des ressources Windows supplémentaires sur les clés de Registre
+            - name: Protection des ressources Windows supplémentaires sur les clés de registre
               href: additional-windows-resource-protection-on-registry-keys.md
             - name: Suppression de Microsoft Agent
               href: removal-of-microsoft-agent.md
-            - name: Utilisation de .NET Framework 4 avec des applications basées sur des versions antérieures
+            - name: utilisation de .NET Framework 4 avec des Applications basées sur des Versions antérieures
               href: using--net-framework-4-with-applications-built-on-earlier-versions.md
             - name: AppInit_DLLs dans Windows 7 et Windows Server 2008 R2
               href: appinit-dlls-in-windows-7-and-windows-server-2008-r2.md
-            - name: Suppression de la réflexion du Registre Windows
+            - name: suppression de la réflexion de registre Windows
               href: removal-of-windows-registry-reflection.md
-            - name: Suppression du pilote de WPDUSB.SYS pour les appareils mobiles Windows
+            - name: suppression du pilote de WPDUSB.SYS pour les appareils mobiles Windows
               href: removal-of-wpdusb-sys-driver-for-windows-portable-devices.md
             - name: Microsoft Message Queuing (MSMQ)-SHA 2 est l’algorithme de hachage par défaut
               href: microsoft-message-queuing--msmq----sha-2-is-the-default-hash-algorithm.md
@@ -65,7 +65,7 @@
                       href: why-do-you-need-compatibility-view-.md
                     - name: Utiliser la balise meta pour garantir la compatibilité future
                       href: use-the-meta-tag-to-ensure-future-compatibility.md
-                - name: Résolution des problèmes de compatibilité de l’installation ActiveX pour les utilisateurs standard
+                - name: résolution des problèmes de compatibilité de l’Installation de ActiveX pour les utilisateurs Standard
                   href: remediating-activex-installation-for-standard-users.md
                 - name: Modifications de rendu et de disposition
                   href: rendering-and-layout-changes.md
@@ -102,12 +102,12 @@
               href: appendix-1--internet-explorer-6-to-internet-explorer-8-browser-changes.md
             - name: "Annexe 2\_: scénarios de script de test"
               href: appendix-2--test-script-scenarios.md
-        - name: Compatibilité Windows Server 2008 R2
+        - name: Windows Compatibilité avec le serveur 2008 R2
           href: windows-server-2008-r2-compatibility.md
           items:
-            - name: Le service de réplication de fichiers (FRS) est déconseillé dans Windows Server 2008 R2
+            - name: le Service de réplication de fichiers (FRS) est déconseillé dans Windows Server 2008 R2
               href: file-replication-service--frs--is-deprecated-in-windows-server-2008-r2.md
-            - name: Microsoft Message Queuing (MSMQ)-suppression du service de support client Windows 2000
+            - name: Microsoft Message Queuing (MSMQ)-suppression du Service de Support Client Windows 2000
               href: microsoft-message-queuing--msmq----removal-of-windows-2000-client-support-ser.md
             - name: Nouveaux binaires de Low-Level
               href: new-low-level-binaries.md
@@ -142,7 +142,7 @@
           href: compatibility---application-manifest.md
         - name: Serveur Hyper-V
           href: server-hyper-v.md
-        - name: Activer la prise en charge de Windows 7 pour Intel AVX
+        - name: activer la prise en charge de Windows 7 pour Intel AVX
           href: enable-windows-7-support-for-intel-avx.md
         - name: Microsoft Message Queuing (MSMQ)-amélioration de la gestion des files d’attente
           href: microsoft-message-queuing--msmq----improved-queue-handling.md
@@ -161,21 +161,21 @@
           href: application-verifier.md
         - name: Meilleures pratiques pour les performances d’activation/de désactivation
           href: best-practices-for-on-off-performance.md
-        - name: Prévention des fuites de mémoire dans les applications Windows
+        - name: prévention des fuites de mémoire dans les Applications Windows
           href: preventing-memory-leaks-in-windows-applications.md
         - name: Prévention des blocages dans les applications Windows
           href: preventing-hangs-in-windows-applications.md
         - name: 'Gestion et maintenance des images de déploiement (DISM, Deployment Image Servicing and Management)'
           href: dism-replaces-pkgmgr-peimg-and-intlconfg-tools.md
-        - name: Résolution des problèmes Windows
+        - name: Windows Dépannage
           href: compatibility---windows-troubleshooting.md
-        - name: Rapport d’erreurs Windows l’enregistreur des étapes du problème
+        - name: Rapport d'erreurs Windows Enregistreur des étapes du problème
           href: windows-error-reporting-problem-steps-recorder.md
         - name: Meilleures pratiques pour l’efficacité énergétique
           href: energy-efficiency-best-practices.md
         - name: Meilleures pratiques pour réduire les services qui ne répondent pas
           href: performance-improvement---minimizing-unresponsive-services.md
-        - name: Programme du logo du logiciel client Windows 7
+        - name: programme de Logo du logiciel Client Windows 7
           href: certification-for-windows-7-and-windows-server-2008-r2-applications.md
-        - name: Programme de logo Windows Server 2008 R2 pour les logiciels
+        - name: Windows Programme de logo du serveur 2008 R2 pour les logiciels
           href: windows-server-2008-r2-logo-program-for-software.md

@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 7d6186df13ee88ca3de4f123381c012548b1cd85
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a803853c8df50da740ea6930f769334704ffd7dfcd771590cfb3e4fccb9cf9fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911952"
 ---
 # <a name="ntgdiddsetcolorkey-function"></a>NtGdiDdSetColorKey fonction)
 

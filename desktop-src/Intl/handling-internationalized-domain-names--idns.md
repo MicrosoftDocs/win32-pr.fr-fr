@@ -4,12 +4,12 @@ ms.assetid: e0ca356e-f8c1-4845-ae1e-ce2ae8987515
 title: Gestion des noms de domaine internationaux (IDNs)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95e853f0ea3f62fc3e5ee848431417cc031eaa5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6310cf74e39758dc6974a1247fe9a5b506276f5c3da55d546d6bc6c2b5a8c992
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898582"
 ---
 # <a name="handling-internationalized-domain-names-idns"></a>Gestion des noms de domaine internationaux (IDNs)
 
@@ -33,13 +33,13 @@ NLS intègre les fonctions de conversion suivantes, que votre application peut u
 -   [**IdnToNameprepUnicode**](/windows/desktop/api/Winnls/nf-winnls-idntonameprepunicode). Exécute la partie NamePrep de la conversion d’IDN en un nom ASCII. Cette fonction crée une représentation Unicode canonique d’une chaîne.
 -   [**IdnToUnicode**](/windows/desktop/api/Winnls/nf-winnls-idntounicode). Convertit une chaîne Punycode en chaîne UTF-16 normale.
 
-NLS définit également plusieurs fonctions API qui peuvent être utilisées pour atténuer certains des risques de sécurité présentés par la technologie IDN. Sur Windows Vista et versions ultérieures, les fonctions suivantes sont utilisées pour vérifier que les caractères d’un IDN donné sont entièrement dessinés à partir des scripts associés à des paramètres régionaux ou des paramètres régionaux spécifiques. Pour obtenir un exemple de l’utilisation de ces fonctions, consultez l' [exemple d’atténuation NLS (Internationalized Domain Name)](nls--internationalized-domain-name--idn--mitigation-sample.md).
+NLS définit également plusieurs fonctions API qui peuvent être utilisées pour atténuer certains des risques de sécurité présentés par la technologie IDN. sur Windows Vista et versions ultérieures, les fonctions suivantes sont utilisées pour vérifier que les caractères d’un IDN donné sont entièrement dessinés à partir des scripts associés à des paramètres régionaux ou des paramètres régionaux spécifiques. Pour obtenir un exemple de l’utilisation de ces fonctions, consultez l' [exemple d’atténuation NLS (Internationalized Domain Name)](nls--internationalized-domain-name--idn--mitigation-sample.md).
 
 -   [**GetStringScripts**](/windows/desktop/api/Winnls/nf-winnls-getstringscripts). Fournit la liste des scripts utilisés dans une chaîne particulière.
 -   [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa), [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex). Récupérer les informations relatives aux paramètres régionaux. L’utilisation des fonctions avec *LCTYPE* défini sur [locale \_ SSCRIPTS](locale-sscripts.md) fournit une liste de scripts normalement utilisés pour des paramètres régionaux particuliers.
 -   [**VerifyScripts**](/windows/desktop/api/Winnls/nf-winnls-verifyscripts). Compare des listes de scripts. Pour effectuer une vérification par rapport à plusieurs paramètres régionaux, l’application peut effectuer plusieurs appels à [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) ou [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) et [**VerifyScripts**](/windows/desktop/api/Winnls/nf-winnls-verifyscripts).
 
-Pour les applications qui s’exécutent sur Windows XP et Windows Server 2003, les fonctions [**DownlevelGetLocaleScripts**](downlevelgetlocalescripts.md), [**DownlevelGetStringScripts**](downlevelgetstringscripts.md)et [**DownlevelVerifyScripts**](downlevelverifyscripts.md) jouent un rôle similaire aux fonctions mentionnées ci-dessus pour réduire les risques de sécurité. Le téléchargement des [API d’atténuation du nom de domaine international Microsoft (IDN)](https://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en) est disponible sur le [Centre de téléchargement MSDN](https://www.microsoft.com/?ref=go).
+pour les applications qui s’exécutent sur Windows XP et Windows Server 2003, les fonctions [**DownlevelGetLocaleScripts**](downlevelgetlocalescripts.md), [**DownlevelGetStringScripts**](downlevelgetstringscripts.md)et [**DownlevelVerifyScripts**](downlevelverifyscripts.md) jouent un rôle similaire aux fonctions mentionnées ci-dessus pour réduire les risques de sécurité. Le téléchargement des [API d’atténuation du nom de domaine international Microsoft (IDN)](https://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en) est disponible sur le [Centre de téléchargement MSDN](https://www.microsoft.com/?ref=go).
 
 ## <a name="handle-unicode-strings"></a>Gérer les chaînes Unicode
 

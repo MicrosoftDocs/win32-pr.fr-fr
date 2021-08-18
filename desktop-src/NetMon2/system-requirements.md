@@ -4,12 +4,12 @@ ms.assetid: acc12d63-2901-42be-8dbb-3d4acb0aa78e
 title: Configuration requise
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 944efd740225b62c69194037cb094513350233d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c14eb9e750f33ac5c31f7b00fc9d65f78a678f3c4b6eeeaf42cda51243456a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778259"
 ---
 # <a name="system-requirements"></a>Configuration requise
 

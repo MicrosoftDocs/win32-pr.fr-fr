@@ -4,12 +4,12 @@ ms.assetid: 3cddccf7-5724-415e-9c1d-cd824535f028
 title: System. FlagColorText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 053d88982012b8ecfeb005983bd7a59dfb2e4c7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d8e74ae6d9e4cbb6221096c00d97b554137125c7842553c82f9f98e4537dbe0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106525071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822449"
 ---
 # <a name="systemflagcolortext"></a>System. FlagColorText
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

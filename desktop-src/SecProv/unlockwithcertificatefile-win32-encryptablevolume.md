@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: d7ce1705c0ec457f64eb825e49334e76a14c184c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 576de5820e5b16b59a0b77659a4833a261ecd9ef8445306ce3d6f320c664f833
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106532154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004227"
 ---
 # <a name="unlockwithcertificatefile-method-of-the-win32_encryptablevolume-class"></a>Méthode UnlockWithCertificateFile de la \_ classe Win32 EncryptableVolume
 
@@ -50,7 +50,7 @@ uint32 UnlockWithCertificateFile(
 
 Type : **chaîne**
 
-Chaîne qui spécifie l’emplacement et le nom du fichier. cer utilisé pour récupérer l’empreinte numérique du certificat. Un certificat de [*chiffrement*](../secgloss/e-gly.md) doit être exporté au format. cer [*Distinguished Encoding Rules*](../secgloss/d-gly.md) (der) binaire encodé [*x. 509*](../secgloss/x-gly.md) ou base-64 encodé x. 509. Le certificat de chiffrement peut être généré à partir de l’infrastructure PKI de Microsoft, d’une infrastructure à clé publique tierce ou auto-signé.
+Chaîne qui spécifie l’emplacement et le nom du fichier. cer utilisé pour récupérer l’empreinte numérique du certificat. un certificat de [*chiffrement*](../secgloss/e-gly.md) doit être exporté au format. cer [*Distinguished Encoding Rules*](../secgloss/d-gly.md) (DER) binaire encodé [*x. 509*](../secgloss/x-gly.md) ou Base-64 encodé x. 509. Le certificat de chiffrement peut être généré à partir de l’infrastructure PKI de Microsoft, d’une infrastructure à clé publique tierce ou auto-signé.
 
 </dd> <dt>
 
@@ -90,8 +90,8 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 7 entreprise, les applications de bureau Windows 7 édition intégrale \[ uniquement\]<br/>                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows 7 Entreprise, Windows 7 Édition Intégrale des \[ applications de bureau uniquement\]<br/>                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |
 

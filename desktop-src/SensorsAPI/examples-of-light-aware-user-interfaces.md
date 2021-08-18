@@ -4,12 +4,12 @@ ms.assetid: 13bcc087-bbe7-4352-b242-5a849cfe423d
 title: Exemples d’interfaces utilisateur Light-Aware
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faac7a83abd5f505cecf44fee17e34bf360a7b62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68f6b5865c79681eea63e78f9ce690ac90678e78a0dfdeac82b55b5193da9bd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003801"
 ---
 # <a name="examples-of-light-aware-user-interfaces"></a>Exemples d’interfaces utilisateur Light-Aware
 

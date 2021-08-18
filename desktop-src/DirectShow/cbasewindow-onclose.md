@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 189b08c116f66ff864ffe308befb990973c6ce43
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 880e82ca527972b5074ac290fda34ad1c7868a33cbbe1cad12885b56720cef99
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635139"
 ---
 # <a name="cbasewindowonclose-method"></a>CBaseWindow. OnClose, méthode
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne la **valeur true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans la classe de base, cette méthode masque simplement la fenêtre. En règle générale, une classe dérivée remplace cette méthode afin qu’elle envoie également un événement [**EC \_ USERABORT**](ec-userabort.md) . Ne substituez pas la méthode pour détruire la fenêtre. Au lieu de cela, appelez la méthode [**CBaseWindow ::D onewithwindow**](cbasewindow-donewithwindow.md) lorsque le filtre propriétaire est détruit.
 
@@ -54,7 +54,7 @@ Dans la classe de base, cette méthode masque simplement la fenêtre. En règle 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

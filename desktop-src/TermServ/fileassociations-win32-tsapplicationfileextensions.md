@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23ee60033344c0c448d82680bdcacfc24cb4f214
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a45548d055d6adc90ac55e26b646abab80470297847d5daa898e63b29769dc4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106536921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119737509"
 ---
 # <a name="fileassociations-method-of-the-win32_tsapplicationfileextensions-class"></a>Méthode FileAssociations de la \_ classe Win32 TSApplicationFileExtensions
 

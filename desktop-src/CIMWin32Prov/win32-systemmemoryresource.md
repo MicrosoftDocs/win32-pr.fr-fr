@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d6064f2d983978998c47518ee50b93c3a7fedfde
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cd438d092ea4b0658c6c39f10d304e425c4f37af871a7e978218b5d658a9a7f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827999"
 ---
 # <a name="win32_systemmemoryresource-class"></a>\_Classe SystemMemoryResource Win32
 
@@ -342,7 +342,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ SystemMemoryResource** est dérivée de [**CIM \_ MemoryMappedIO**](cim-memorymappedio.md).
 

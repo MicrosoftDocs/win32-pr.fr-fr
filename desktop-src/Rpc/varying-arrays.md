@@ -4,12 +4,12 @@ description: Dans MIDL, les tableaux variables ont une taille fixe. Ils permette
 ms.assetid: 31c4bc63-de55-4937-832e-8dde9bcc47b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4b2d79ee37f3e366bbf232b362306f78ca6ada4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3919eed28ef7a9c888d7c23e4ebe12a1db39c97b18fa325c6daf8a4cd62d6554
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010547"
 ---
 # <a name="varying-arrays"></a>Tableaux variables
 
@@ -66,6 +66,6 @@ MyRemoteProc(
 
 Ce fragment appelle à deux reprises la procédure distante MyRemoteProc. Lors du premier appel, il transmet les éléments de tableau numérotés de 20 à 119, comme indiqué par les valeurs des variables firstArrayElementNumber et totalElementsPassed. Lors du deuxième appel, le client passe les éléments de tableau numérotés de 120 à 319.
 
- 
+ 
 
- 
+ 

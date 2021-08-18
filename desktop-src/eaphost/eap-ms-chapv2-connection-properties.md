@@ -4,12 +4,12 @@ description: En savoir plus sur les propriétés de connexion MS-CHAPv2 EAP. Con
 ms.assetid: d6a057e0-56f6-4a31-9391-fde631ac2898
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e353c4685e131c2e7301db35de26d927b5882c06
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 28ec894f8e95aa08e68aae418ed2b194c02a90cd008b9ac8d810d3c497e76f9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104383136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984259"
 ---
 # <a name="eap-ms-chapv2-connection-properties"></a>Propriétés de connexion MS-CHAPv2 EAP
 
@@ -47,9 +47,9 @@ Cet exemple est une instance du schéma hérité [mschapv2connectionpropertiesv1
 [EAPHost et schéma hérité](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

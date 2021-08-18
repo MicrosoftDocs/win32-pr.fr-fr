@@ -4,12 +4,12 @@ ms.assetid: 70b47e29-c755-4c59-a493-d7fcbbc94b83
 title: Personnalisation de Winlogon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b64da4baae9b52dd53e288c631f35d33ea5a3085
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a10b2ae1e029bb741a2402a25d8e51f331fdd1cac1e9918dfef3b35b36c8e6d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008657"
 ---
 # <a name="customizing-winlogon"></a>Personnalisation de Winlogon
 
@@ -17,10 +17,10 @@ Personnaliser le comportement de [*Winlogon*](/windows/desktop/SecGloss/w-gly) e
 
 **Windows Server 2003 et Windows XP :** Les fournisseurs d’informations d’identification ne sont pas pris en charge.
 
-Les sections suivantes décrivent les façons de personnaliser Winlogon dans les versions de Windows antérieures à Windows Vista.
+les sections suivantes décrivent comment personnaliser Winlogon dans Windows versions antérieures à Windows Vista.
 
 > [!Note]  
-> Les DLL GINA et les packages de notification Winlogon sont ignorés dans Windows Vista.
+> les dll GINA et les packages de notification Winlogon sont ignorés dans Windows Vista.
 
  
 

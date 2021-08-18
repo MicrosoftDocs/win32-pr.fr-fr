@@ -4,12 +4,12 @@ ms.assetid: 188341ff-4e67-481e-af30-7f9913b1d24e
 title: DecryptMessage (Negotiate) (fonction)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: b4c8af2c79145950f9f42b52a662aba8ac13064f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7da05842fc5aba4dc9c19cd530b38e0d46b640aac10b4614981c30c8863d7e7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008517"
 ---
 # <a name="decryptmessage-negotiate-function"></a>DecryptMessage (Negotiate) (fonction)
 
@@ -63,7 +63,7 @@ Si la fonction ne parvient pas à déchiffrer le message, elle retourne l’un d
 | **s \_ E \_ message incomplet \_** | Les données de la mémoire tampon d’entrée sont incomplètes. L’application doit lire plus de données à partir du serveur et appeler à nouveau [**DecryptMessage (Negotiate)**](decryptmessage--negotiate.md) . |
 | **SEC \_ E \_ hors \_ \_ séquence**   | Le message n’a pas été reçu dans l’ordre correct.                                                                                                                              |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Parfois, une application lit les données du tiers distant, tente de les déchiffrer à l’aide de **DecryptMessage (Negotiate)** et découvre que **DecryptMessage (Negotiate)** a réussi, mais les mémoires tampons de sortie sont vides. Il s’agit d’un comportement normal, et les applications doivent être en mesure de les gérer.
 
@@ -73,8 +73,8 @@ Parfois, une application lit les données du tiers distant, tente de les déchif
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows XP uniquement\]          |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2003 \[ uniquement\] |
+| Client minimal pris en charge | Windows \[Applications de bureau XP uniquement\]          |
+| Serveur minimal pris en charge | Windows Serveur 2003 \[ applications de bureau uniquement\] |
 | En-tête                   | SSPI. h (include Security. h)               |
 | Bibliothèque                  | Secur32. lib                               |
 | DLL                      | Secur32.dll                               |

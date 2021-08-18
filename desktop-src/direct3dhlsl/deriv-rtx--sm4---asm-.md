@@ -4,12 +4,12 @@ description: Taux de modification du contenu de chaque composant float32 de src0
 ms.assetid: 2438DB36-C348-4854-AE1B-EC3C890B0B42
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21d4543805c02cf70d9c6b7856461c427788f616
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 5c7a9697372964135e5ecb3cb5e916b0509a6a6a860ff8fa01ea0daeb1b8be4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986649"
 ---
 # <a name="deriv_rtx-sm4---asm"></a>Deriv \_ RTX (SM4-ASM)
 
@@ -35,7 +35,7 @@ Taux de modification du contenu de chaque composant float32 de *src0* (Swizzle),
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une seule paire dérivée x, y est calculée pour chaque tampon 2x2 de pixels.
 
@@ -67,11 +67,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

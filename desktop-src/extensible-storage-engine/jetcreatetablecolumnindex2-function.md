@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 51a1789fe050ddd62990f6561ddeb01363d69f6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb6e0583c0efa2dbfc52af14f6d1ba0c4200d4f3a3421d1953084daca467358e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104042833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119728529"
 ---
 # <a name="jetcreatetablecolumnindex2-function"></a>JetCreateTableColumnIndex2 fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetcreatetablecolumnindex2-function"></a>JetCreateTableColumnIndex2 fonction)
 
 La fonction **JetCreateTableColumnIndex2** crée une table dans une base de données ESE avec un ensemble initial d’index et un ensemble initial de colonnes à partir d’un tableau de structures [JET_TABLECREATE2](./jet-tablecreate2-structure.md) . La structure [JET_TABLECREATE2](./jet-tablecreate2-structure.md) permet de spécifier une fonction de rappel.
 
-**Windows XP : JetCreateTableColumnIndex2** est introduit dans Windows XP.
+**Windows xp : JetCreateTableColumnIndex2** est introduit dans Windows xp.
 
 ```cpp
     JET_ERR JET_API JetCreateTableColumnIndex2(
@@ -62,7 +62,7 @@ Pointeur vers une structure [JET_TABLECREATE2](./jet-tablecreate2-structure.md) 
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -125,7 +125,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 <td><p>Une définition d’index non valide a été spécifiée. Voici quelques-unes des raisons possibles de la réception de cette erreur :</p>
 <ul>
 <li><p>Un index principal est conditionnel (autrement dit, le membre <strong>Grbit</strong> de la structure <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> a JET_bitIndexPrimary jeu et le membre <strong>cConditionalColumn</strong> de la structure <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> est supérieur à zéro).</p></li>
-<li><p>Windows Server 2003 et versions ultérieures. La tentative de création d’un index de tuple avec des limites de tuple, mais sans passer le membre <strong>ptuplelimits</strong> dans la structure <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> (autrement dit, le membre <strong>Grbit</strong> de la structure <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> a JET_bitIndexTupleLimits défini, mais le pointeur <strong>ptuplelimits</strong> a la valeur null).</p></li>
+<li><p>Windows Serveur 2003 et versions ultérieures. La tentative de création d’un index de tuple avec des limites de tuple, mais sans passer le membre <strong>ptuplelimits</strong> dans la structure <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> (autrement dit, le membre <strong>Grbit</strong> de la structure <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> a JET_bitIndexTupleLimits défini, mais le pointeur <strong>ptuplelimits</strong> a la valeur null).</p></li>
 <li><p>Passage d’une définition de clé non valide dans le membre <strong>szKey</strong> de la structure <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> . Pour plus d’informations sur les définitions valides, consultez <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> .</p></li>
 <li><p>La définition du membre <strong>cbVarSegMac</strong> dans <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> est supérieure à JET_cbPrimaryKeyMost (pour un index principal) ou supérieure à JET_cbSecondaryKeyMost (pour un index secondaire).</p></li>
 <li><p>Passage d’une combinaison non valide pour un index Unicode défini par l’utilisateur (un qui a le bit JET_bitIndexUnicode défini dans le membre <strong>Grbit</strong> de <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>). Certaines causes courantes incluent le membre <strong>pidxunicode</strong> de la structure <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> a la valeur null, ou le LCID spécifié dans la structure <strong>pidxunicode</strong> n’est pas valide.</p></li>
@@ -222,7 +222,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </table>
 
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Le nom **JetCreateTableColumnIndex2** provient de l’ordre de création des objets : il crée d’abord une table, des colonnes, puis enfin des index. **JetCreateTableColumnIndex2** crée une table avec un ensemble initial de colonnes et d’index. Des colonnes et des index supplémentaires peuvent être ajoutés et supprimés dynamiquement avec [JetAddColumn](./jetaddcolumn-function.md), [JetDeleteColumn](./jetdeletecolumn-function.md), [JetDeleteColumn2](./jetdeletecolumn2-function.md), [JetCreateIndex](./jetcreateindex-function.md), [JetCreateIndex2](./jetcreateindex2-function.md)et [JetDeleteIndex](./jetdeleteindex-function.md).
 
@@ -238,11 +238,11 @@ Comme [JetOpenTable](./jetopentable-function.md), lorsque l’application est ef
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
+<td><p>requiert Windows Vista ou Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
+<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

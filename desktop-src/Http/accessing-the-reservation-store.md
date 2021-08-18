@@ -7,12 +7,12 @@ keywords:
 - Magasin de réservation HTTP, accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a138a0a2385e6338877e5e8623527a64a6eca796
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 14f9244fd4513517793bf85d205308fc49ac2d8ca0a246c17a68c730d1c76168
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015017"
 ---
 # <a name="accessing-the-reservation-store"></a>Accès au magasin de réservations
 
@@ -22,9 +22,9 @@ Pour ajouter une réservation au magasin de réservation persistante, l’applic
 
 L’API du serveur HTTP fournit également des fonctions pour interroger et supprimer les configurations de service pour les espaces de noms d’URL. La fonction [**HttpQueryServiceConfiguration**](/windows/desktop/api/Http/nf-http-httpqueryserviceconfiguration) appelée avec le paramètre ID de configuration défini sur les requêtes de valeur **HttpServiceConfigUrlAclInfo** et la fonction [**HttpDeleteServiceConfiguration**](/windows/desktop/api/Http/nf-http-httpdeleteserviceconfiguration) supprime sur le magasin d’espaces de noms d’URL.
 
- 
+ 
 
- 
+ 
 
 
 

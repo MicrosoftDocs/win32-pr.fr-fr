@@ -10,12 +10,12 @@ keywords:
 - coordonnées oculaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2537424ffa7726e2110d0a6724377f5b53416a13
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: badab97c395859d5561663038088718159f2d29e08522767f2fe8bc7496f345a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104317022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625869"
 ---
 # <a name="e-opengl"></a>E (OpenGL)
 

@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2eb0044029761a93a353a08a955d39d76c267f9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c083f7a2336a374e8009af2ba8094d57d9826197e16b7577aaf3b00a4c035173
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829619"
 ---
 # <a name="msnt_systemtrace-class"></a>MSNT \_ SystemTrace, classe
 
@@ -57,14 +57,14 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : **DefineValues {"processus de l’indicateur de trace d’événements", "thread de l’indicateur de trace d’événements", "chargement de l’image de l’indicateur de trace d’événements", "compteurs de processus de l’indicateur de trace d’événements", "indicateur de trace d’événements \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ CSWITCH", "indicateur de trace d’événements \_ \_ \_ DPC", "indicateur de trace d’événements indicateur de trace d’événements \_ \_ \_ \_ \_ \_ SYSTEMCALL", "indicateur de trace d’événements \_ \_ \_ Disk \_ IO", "Event \_ trace \_ Flag Disk \_ \_ file \_ IO", "Event \_ trace \_ Flag \_ Disk \_ IO \_ init", "EVENT trace Flag répartiteur", "EVENT trace Flag Network tcpips", "Event Trace Flag \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ Memory \_ \_ Faults", "Event \_ trace Flag virtuel Alloc", "Event Trace Flag \_ \_ \_ \_ \_ \_ Network \_ tcpip", "Event \_ trace Flag \_ \_ Registry», « Event Trace Flag \_ \_ \_ ALPC », « Event \_ trace \_ Flag \_ Split \_ IO », « Event \_ trace \_ Flag \_ Driver », « Event Trace Flag \_ \_ \_ Profile », « Event \_ trace \_ Flag \_ file \_ IO », «Event \_ trace \_ Flag \_ file \_ IO \_ init"}**, **ValueMap {"0x00000001", "0x00000002", "0x00000004", "0x00000008", "0x00000010", "0x00000020", "0x00000040", "0x00000080", "0x00000100" , « 0x00000200 », « 0x00000400 », « 0x00000800 », « 0x00001000 », « 0x00002000 », « 0x00004000** », « 0x00010000 », « 0x00020000 », « 0x00100000 », « 0x00200000 », « 0x00800000 », « 0x01000000 », « 0x02000000 », « 0x04000000 »}
+Qualificateurs : **DefineValues {"processus de l’indicateur de trace d’événements", "thread de l’indicateur de trace d’événements", "chargement de l’image de l’indicateur de trace d’événements", "compteurs de processus de l’indicateur de trace d’événements", "indicateur de trace d’événements SYSTEMCALL", "indicateur de trace d’événements \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ de l' \_ \_ \_ \_ \_ \_ \_ \_ \_ e/s du disque", "indicateur de suivi d’événements \_ \_ \_ \_ \_ e/s de fichier disque « », «indicateur de suivi d’événement \_ \_ \_ Disk \_ IO \_ Init », « Event \_ trace \_ Flag \_ répartiteur », « Event Trace Flag Memory Faults », « Event Trace Flag Memory incorrecte », « Event Trace Flag \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ Network Alloc », « Event \_ trace Flag \_ \_ Network \_ tcpip », « Event Trace Flag \_ \_ \_ Registry », \_ \_ \_ \_Indicateur de trace d’événements \_ \_ Split \_ IO ", \_ " \_ pilote de l’indicateur de trace d’événements \_ "," \_ \_ profil de l’indicateur de trace d’événements \_ "," \_ e/s du fichier d’indicateur de trace d’événements \_ \_ \_ "," Event \_ trace \_ Flag \_ file \_ IO \_ init "}**, **ValueMap {" 0x00000001 "," 0x00000002 0x00000010», « 0x00000020 », « 0x00000040 », « 0x00000080 », « 0x00000100 », « 0x00000200 », « 0x00000400** », « 0x00000800 », « 0x00001000 », « 0x00002000 », « 0x00004000 », « 0x00010000 », « 0x00020000 », « 0x00100000 », « 0x00200000 », « 0x00800000 », « 0x01000000 », « 0x02000000 », « 0x04000000 », «»}
 </dt> </dl>
 
 Activez l’indicateur qui indique les fournisseurs de noyau activés.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21f73076ab313da66171bc8265f7f4e7d068f93e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a7742b70afad62a42378e50a06a6e40e503bee72309f5f233f9cf8bf62cf41d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985244"
 ---
 # <a name="wm_dwmsendiconiclivepreviewbitmap-message"></a>\_Message WM DWMSENDICONICLIVEPREVIEWBITMAP
 
@@ -47,7 +47,7 @@ Non utilisé.
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un *aperçu instantané* (également appelé *Aperçu avant impression*) d’une fenêtre s’affiche lorsqu’un utilisateur déplace le pointeur de la souris sur la miniature de la fenêtre dans la barre des tâches ou donne le focus de la miniature dans la fenêtre ALT + TAB. Cette vue est un aperçu complet de la fenêtre et peut être un instantané en direct ou une représentation sous forme.
 
@@ -96,8 +96,8 @@ Pour obtenir le code complet, consultez les exemples de [miniatures Customize a 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                             |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                             |
 | En-tête<br/>                   | <dl> <dt>Dwmapi. h</dt> </dl> |
 
 

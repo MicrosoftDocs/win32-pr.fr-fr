@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1c5ea7386c896f6b989a47c2574dfa4d61eacb5a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4438c6670b0535711c453e64496ffd4b21263acab728e090024f9e1e01427969
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749449"
 ---
 # <a name="cdynamicoutputpinstartusingoutputpin-method"></a>Méthode CDynamicOutputPin. StartUsingOutputPin
 
@@ -48,7 +48,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                           | Description                                                       |
 |-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                  | Opération réussie.<br/>                                               |
+| <dl> <dt>**\_OK**</dt> </dl>                  | Réussite.<br/>                                               |
 | <dl> <dt>**E \_ inattendu**</dt> </dl>          | Erreur inattendue.<br/>                                      |
 | <dl> <dt>**\_État VFW \_ E \_ modifié**</dt> </dl> | Le filtre a été arrêté ou le code pin a commencé à être vidé.<br/> |
 
@@ -56,7 +56,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez cette méthode avant d’appeler des méthodes qui fournissent des données à la broche d’entrée connectée ou qui modifient le type de média de la connexion. Par exemple, cette règle s’applique aux méthodes suivantes :
 
@@ -83,7 +83,7 @@ Ne conservez pas la section critique [**CDynamicOutputPin :: m \_ BlockStateLoc
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

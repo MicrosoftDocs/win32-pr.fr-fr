@@ -1,21 +1,21 @@
 ---
-description: L’API de distribution d’homologue, qui prend en charge la fonctionnalité Branch cache dans Windows 7 et Windows Server 2008 R2, offre un ensemble d’API de plateforme qui peuvent augmenter la réactivité du réseau des applications centralisées quand elles sont accessibles à partir de bureaux distants, offrant ainsi aux utilisateurs de ces bureaux l’expérience de travail sur votre réseau local. Les fonctionnalités offertes par cet ensemble d’API peuvent également aider à réduire l’utilisation globale du réseau étendu (WAN).
+description: l’api de Distribution d’homologue, qui prend en charge la fonctionnalité Branch Cache dans Windows 7 et Windows Server 2008 R2, offre un ensemble d’api de plateforme qui peuvent augmenter la réactivité du réseau des applications centralisées quand elles sont accessibles à partir de bureaux distants, ce qui permet aux utilisateurs de ces bureaux de travailler sur votre réseau local. Les fonctionnalités offertes par cet ensemble d’API peuvent également aider à réduire l’utilisation globale du réseau étendu (WAN).
 ms.assetid: ad959586-7488-49ff-a237-4da409b81dd6
 title: Distribution d’homologue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3382df432e8cedc40bf5679171563eb672a1a6a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f49e675a93891ec4383ed5238238809996c1b7e093201bcbc5cce270b04aa8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061387"
 ---
 # <a name="peer-distribution"></a>Distribution d’homologue
 
-L’API de distribution d’homologue, qui prend en charge la fonctionnalité Branch cache dans Windows 7 et Windows Server 2008 R2, offre un ensemble d’API de plateforme qui peuvent augmenter la réactivité du réseau des applications centralisées quand elles sont accessibles à partir de bureaux distants, offrant ainsi aux utilisateurs de ces bureaux l’expérience de travail sur votre réseau local. Les fonctionnalités offertes par cet ensemble d’API peuvent également aider à réduire l’utilisation globale du réseau étendu (WAN).
+l’api de Distribution d’homologue, qui prend en charge la fonctionnalité Branch Cache dans Windows 7 et Windows Server 2008 R2, offre un ensemble d’api de plateforme qui peuvent augmenter la réactivité du réseau des applications centralisées quand elles sont accessibles à partir de bureaux distants, ce qui permet aux utilisateurs de ces bureaux de travailler sur votre réseau local. Les fonctionnalités offertes par cet ensemble d’API peuvent également aider à réduire l’utilisation globale du réseau étendu (WAN).
 
-L’implémentation de ces fonctionnalités ne nécessite aucune infrastructure préexistante. L’amélioration des performances des réseaux distants s’effectue simplement en déployant Windows 7 sur les ordinateurs clients, en déployant Windows Server 2008 R2 sur les ordinateurs serveurs et en activant la fonctionnalité Branch cache.
+L’implémentation de ces fonctionnalités ne nécessite aucune infrastructure préexistante. l’amélioration des performances des réseaux distants s’effectue simplement en déployant Windows 7 sur des ordinateurs clients, en déployant Windows Server 2008 R2 sur des serveurs et en activant la fonctionnalité Branch Cache.
 
 Les API de distribution pair à pair fonctionnent en toute transparence avec les technologies de sécurité réseau, notamment SSL, la signature SMB et IPsec de bout en bout. Vous pouvez utiliser cette API pour réduire l’utilisation de la bande passante réseau et améliorer les performances de l’application même si le contenu est chiffré.
 

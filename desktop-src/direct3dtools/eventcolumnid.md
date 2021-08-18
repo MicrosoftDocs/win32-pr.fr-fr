@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 7bf01eda2c43df3f0ec9553f61341406c541cac9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 97a300a7d47c0858aee7f93e1ff859ff6344866cb1155018f19b80f06142ecc9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106516744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853344"
 ---
 # <a name="span-idvspixengineeventcolumnidspaneventcolumnid-enumeration"></a><span id="vspixengine.eventcolumnid"></span>Énumération EVENTCOLUMNID
 
