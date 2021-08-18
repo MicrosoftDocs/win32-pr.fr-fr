@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 5cf2610e-fbd2-4e87-a323-f024283db546
-ms.openlocfilehash: 389c07325f4e504424c43b0983eaa643ea608008
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: f26f5bb8bc8413c633bfe5a2757eceb7ccab9e32d411020b0bd113d4c4919f12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969448"
 ---
 # <a name="didiskquotauserid-property"></a>Propriété DIDiskQuotaUser.ID
 
@@ -39,18 +39,18 @@ iID = DIDiskQuotaUser.ID
 
 Valeur **entière** qui identifie de façon unique l’objet [**DIDiskQuotaUser**](didiskquotauser-object.md) de l’utilisateur dans un processus [**DiskQuotaControl**](diskquotacontrol-object.md) particulier.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette propriété est destinée à être utilisée par des langages tels que Microsoft Visual Basic qui ne prennent pas en charge les pointeurs.
+cette propriété est destinée à être utilisée par des langages tels que Microsoft Visual Basic qui ne prennent pas en charge les pointeurs.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 5,0 ou ultérieure)</dt> </dl> |
 
 

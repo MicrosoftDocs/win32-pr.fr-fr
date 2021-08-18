@@ -1,19 +1,19 @@
 ---
 description: Performances
 ms.assetid: a0d5c4ae-e0a3-466b-bf43-6bf7cda7aa21
-title: Performances (composant Windows Imaging)
+title: performances (composant de création d’images Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 997c6c5da78567642a29ecc7ac88f6b66c3fb0b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6a3fedd9ed83e30316dfac260b2dbb9a15e326e576146739b866369f2a5ddb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086872"
 ---
-# <a name="performance-windows-imaging-component"></a>Performances (composant Windows Imaging)
+# <a name="performance-windows-imaging-component"></a>performances (composant de création d’images Windows)
 
-L’objectif de Microsoft est que les performances du traitement brut par le biais de l’interface WIC (Windows Imaging Component) soient équivalentes aux outils et applications de traitement brut de pointe du secteur. Pour fournir des conseils en matière de performances, un ensemble de tests complets comparant les performances des outils de flux de travail bruts populaires a été effectué. Les tests comportaient des versions de système d’exploitation Windows et Apple Macintosh de produits de traitement brut, des exemples de fichiers BRUTs à partir de caméras reflex (simple-Lens reflex) actuelles et une série de fonctions qui représentent des étapes de flux de travail courantes.
+l’objectif de Microsoft est que les performances du traitement brut par le biais de l’interface WIC (Windows Imaging Component) soient équivalentes aux outils et applications de traitement brut à la pointe du secteur. Pour fournir des conseils en matière de performances, un ensemble de tests complets comparant les performances des outils de flux de travail bruts populaires a été effectué. les tests comportaient à la fois des versions Windows et des systèmes d’exploitation Apple Macintosh des produits de traitement brut, des exemples de fichiers bruts des caméras reflex (simple-lens reflex) actuelles et une série de fonctions qui représentent des étapes de flux de travail courantes.
 
 À partir de ces résultats, Microsoft suggère les recommandations suivantes aux partenaires pour les performances de traitement brut :
 
@@ -27,7 +27,7 @@ L’objectif de Microsoft est que les performances du traitement brut par le bia
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Recommandations de WIC pour les formats d’image RAW Camera](-wic-rawguidelines.md)

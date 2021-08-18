@@ -1,19 +1,19 @@
 ---
-description: Nouveauté de Windows 7. Élément conteneur pour les éléments relatedProperty.
+description: nouveauté de Windows 7. Élément conteneur pour les éléments relatedProperty.
 ms.assetid: F8BAAE5C-A7EA-487a-B829-91A27E24B58D
 title: relatedPropertyInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 442de657bed7e97f74064c39cc0934c65a6f520d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 203c6e0e65943e90c6106f5e49e1792e6b47345a930f5368bd22df3a1c03885d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970958"
 ---
 # <a name="relatedpropertyinfo"></a>relatedPropertyInfo
 
-Nouveauté de Windows 7. Élément conteneur pour les éléments [relatedProperty](./propdesc-schema-relatedproperty.md) . Il ne doit y avoir qu’un seul élément [relatedPropertyInfo]() pour chaque élément [PropertyDescription](./propdesc-schema-propertydescription.md) .
+nouveauté de Windows 7. Élément conteneur pour les éléments [relatedProperty](./propdesc-schema-relatedproperty.md) . Il ne doit y avoir qu’un seul élément [relatedPropertyInfo]() pour chaque élément [PropertyDescription](./propdesc-schema-propertydescription.md) .
 
 ## <a name="syntax"></a>Syntaxe
 

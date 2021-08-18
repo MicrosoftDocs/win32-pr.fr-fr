@@ -4,12 +4,12 @@ ms.assetid: 8AF841A8-E121-4C41-BD3F-26760232E857
 title: CODECAPI_AVEncVideoRateControlParams, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63e292ee5b1b8a9dc8a63d0e445ffbf60b9c91b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df0af9d4eb903725b1a4ae326d71ce07072428e0667a7032a86448f1e270f734
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974878"
 ---
 # <a name="codecapi_avencvideoratecontrolparams-property"></a>CODECAPI \_ propriété AVEncVideoRateControlParams
 
@@ -29,8 +29,8 @@ Spécifie les paramètres de contrôle de la fréquence vidéo pour un encodeur 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

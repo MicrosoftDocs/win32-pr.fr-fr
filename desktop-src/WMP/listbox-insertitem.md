@@ -3,7 +3,7 @@ title: LISTBOX. insertItem
 description: La méthode insertItem insère le texte spécifié à l’index spécifié dans le contrôle de zone de liste.
 ms.assetid: c45eb75e-074d-4f3f-bfdd-6c3cbbd71f54
 keywords:
-- LISTBOX. insertItem Windows Media Player
+- LISTBOX. insertItem Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3600b40ca164c71bd62c0a9a368516d6ad0e1edd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0344bbc9fbe4f8f2b680866f70c0fe16398ad08cbf4a916c454223fdff04614e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135302"
 ---
 # <a name="listboxinsertitem"></a>LISTBOX. insertItem
 
@@ -50,7 +50,7 @@ La méthode **InsertItem** insère le texte spécifié à l’index spécifié d
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’une ligne est insérée, les index de ligne des lignes au-dessous de la ligne insérée augmentent d’une unité.
 

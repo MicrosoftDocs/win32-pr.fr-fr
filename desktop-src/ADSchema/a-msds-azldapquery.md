@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd1f6c21d5ed28a9d2419b16c6ce7986f3250488
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 31db041ccc0805f6f952d85475102c0556e1bc94b9606b61820c406c3a74ccd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960898"
 ---
 # <a name="ms-ds-az-ldap-query-attribute"></a>ms-DS-AZ-LDAP-Query (attribut)
 
@@ -44,7 +44,7 @@ Chaîne qui définit la requête LDAP (longueur maximale 4096) qui détermine l�
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

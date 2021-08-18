@@ -1,5 +1,5 @@
 ---
-description: Un objet SWbemPrivilegeSet est une collection d’objets SWbemPrivilege dans un objet SWbemSecurity qui demande des privilèges spécifiques pour un objet Windows Management Instrumentation (WMI).
+description: un objet SWbemPrivilegeSet est une collection d’objets SWbemPrivilege dans un objet SWbemSecurity qui demande des privilèges spécifiques pour un objet Windows Management Instrumentation (WMI).
 ms.assetid: 073cf2d4-f7ee-45a6-8fa6-ca77a4870346
 ms.tgt_platform: multiple
 title: Objet SWbemPrivilegeSet (wbemdisp. h)
@@ -15,16 +15,16 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: b2946f8b1f745c0db123ed33dab312cbbe9d16c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2117aec6fada67bddce9f07a6c985c73a3dcd93ef217ed7fe77dc46cc5659d26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991949"
 ---
 # <a name="swbemprivilegeset-object"></a>Objet SWbemPrivilegeSet
 
-Un objet **SWbemPrivilegeSet** est une collection d’objets [**SWbemPrivilege**](swbemprivilege.md) dans un objet [**SWbemSecurity**](swbemsecurity.md) qui demande des privilèges spécifiques pour un objet Windows Management Instrumentation (WMI). Consultez la liste des privilèges dans [**constantes de privilège**](privilege-constants.md). Les éléments sont ajoutés à la collection à l’aide des méthodes [**Add**](swbemprivilegeset-add.md) et [**AddAsString**](swbemprivilegeset-addasstring.md) . Les éléments sont récupérés à partir de la collection à l’aide de la méthode [**Item**](swbemprivilegeset-item.md) et supprimés à l’aide de la méthode [**Remove**](swbemprivilegeset-remove.md) . Cet objet ne peut pas être créé par l’appel de méthode VBScript [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) . Pour plus d’informations, consultez [accès à une collection](accessing-a-collection.md).
+un objet **SWbemPrivilegeSet** est une collection d’objets [**SWbemPrivilege**](swbemprivilege.md) dans un objet [**SWbemSecurity**](swbemsecurity.md) qui demande des privilèges spécifiques pour un objet Windows Management Instrumentation (WMI). Consultez la liste des privilèges dans [**constantes de privilège**](privilege-constants.md). Les éléments sont ajoutés à la collection à l’aide des méthodes [**Add**](swbemprivilegeset-add.md) et [**AddAsString**](swbemprivilegeset-addasstring.md) . Les éléments sont récupérés à partir de la collection à l’aide de la méthode [**Item**](swbemprivilegeset-item.md) et supprimés à l’aide de la méthode [**Remove**](swbemprivilegeset-remove.md) . Cet objet ne peut pas être créé par l’appel de méthode VBScript [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) . Pour plus d’informations, consultez [accès à une collection](accessing-a-collection.md).
 
 Un objet **SWbemPrivilegeSet** est un ensemble de demandes de remplacement de privilège pour un objet spécifique. Lorsqu’un appel d’API est effectué à l’aide de cet objet, les demandes de remplacement de privilège sont tentées. L’objet **SWbemPrivilegeSet** ne définit pas les privilèges disponibles pour l’utilisateur ou le processus actuel. En d’autres termes, l’obtention des privilèges pour n’importe quel objet WMI n’identifie pas les paramètres de privilège établis sur la connexion à WMI, ou les privilèges en vigueur lorsqu’un objet est remis à un récepteur.
 
@@ -61,7 +61,7 @@ L’objet **SWbemPrivilegeSet** a ces propriétés.
 
 | Propriété                                            | Type d’accès          | Description                                       |
 |:----------------------------------------------------|:---------------------|:--------------------------------------------------|
-| [**Saut**](swbemprivilegeset-count.md)<br/> | Lecture seule<br/> | Nombre d’éléments dans la collection<br/> |
+| [**Count**](swbemprivilegeset-count.md)<br/> | Lecture seule<br/> | Nombre d’éléments dans la collection<br/> |
 
 
 

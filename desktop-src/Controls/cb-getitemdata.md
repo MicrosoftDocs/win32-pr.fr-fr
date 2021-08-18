@@ -3,7 +3,7 @@ title: Message CB_GETITEMDATA (winuser. h)
 description: Une application envoie un \_ message GETITEMDATA CB à une zone de liste déroulante pour récupérer la valeur fournie par l’application associée à l’élément spécifié dans la zone de liste déroulante.
 ms.assetid: 433b7f75-2831-4919-b931-c17ba651d145
 keywords:
-- CB_GETITEMDATA les contrôles de message Windows
+- CB_GETITEMDATA les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 643954cf266c52ccbeae082ffacf317c91bc7b33
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8427e666668303456d16c00ae460a608a51bc31cd59e0ee6fa6851031057695b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019927"
 ---
 # <a name="cb_getitemdata-message"></a>\_Message GETITEMDATA CB
 
@@ -55,8 +55,8 @@ Si l’élément se trouve dans une zone de liste déroulante owner-drawn créé
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

@@ -1,19 +1,19 @@
 ---
 title: Création du Finder d’appareils
-description: Les exemples suivants montrent comment créer une instance de l’objet Device Finder en C++, Visual Basic et VBScript.
+description: les exemples suivants montrent comment créer une instance de l’objet Device Finder en C++, Visual Basic et VBScript.
 ms.assetid: 0084a64d-458e-471c-a6be-aeb6ed0962d0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3a12fc7e269f2c0ce5b577fe2f49b6d13fe3b5a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dc6af75ea5c267e156f89f1ae1e27a08928c097bbfea731f59add575397fbc00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137355"
 ---
 # <a name="creating-the-device-finder"></a>Création du Finder d’appareils
 
-Les exemples suivants montrent comment créer une instance de l’objet Device Finder en C++, Visual Basic et VBScript. Les langages de script utilisent l’ID programmatique (ProgID) [**UPnP. UPnPDeviceFinder**](/windows/desktop/api/Upnp/nn-upnp-iupnpdevicefinder) pour identifier la classe Device Finder. Le code C++ utilise l’identificateur de classe.
+les exemples suivants montrent comment créer une instance de l’objet Device Finder en C++, Visual Basic et VBScript. Les langages de script utilisent l’ID programmatique (ProgID) [**UPnP. UPnPDeviceFinder**](/windows/desktop/api/Upnp/nn-upnp-iupnpdevicefinder) pour identifier la classe Device Finder. Le code C++ utilise l’identificateur de classe.
 
 ## <a name="c-example"></a>Exemple C++
 
@@ -44,9 +44,9 @@ Set deviceFinder = CreateObject( "UPnP.UPnPDeviceFinder" )
 
 
 
- 
+ 
 
- 
+ 
 
 
 

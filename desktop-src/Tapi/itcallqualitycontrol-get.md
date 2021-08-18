@@ -4,16 +4,16 @@ ms.assetid: 0fec408e-2751-4c99-afe1-4337d22eff83
 title: 'ITCallQualityControl :: méthode d’extraction (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ea42768c173c0c073abe356e1ae6816a486a03c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 173ed08a7b8f166e267b32a80416387bd309c0c3a60e4ee06117ae9b8c43e037
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003407"
 ---
 # <a name="itcallqualitycontrolget-method"></a>ITCallQualityControl :: méthode d’extraction
 
-\[ Cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir** obtient la valeur d’une [propriété de contrôle de qualité d’appel](callqualityproperty.md)donnée.
 

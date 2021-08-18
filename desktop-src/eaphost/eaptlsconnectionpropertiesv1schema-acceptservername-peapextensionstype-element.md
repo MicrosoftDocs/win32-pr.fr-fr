@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 886f1ab2a6f00a4a8a9d530fa41865b2fd0cf0b8
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 245fcac23de64c6f392cccfbacf1def48fc6465c0f1fbaf7fc004ac628f5864c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106510709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984199"
 ---
 # <a name="tlsextensions-v1-schema"></a>TLSExtensions (schéma v1)
 
@@ -35,7 +35,7 @@ L’élément **TLSExtensions (EapType)** permet de futures améliorations du sc
 
 L’élément est défini par l’élément [**EapType**](eaptlsconnectionpropertiesv1schema-eaptype-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément **TLSExtensions** est facultatif.
 
@@ -45,8 +45,8 @@ L’élément **TLSExtensions** est facultatif.
 
 | Role | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

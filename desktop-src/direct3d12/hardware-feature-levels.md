@@ -10,12 +10,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d464f6cc52539e31fee5e234af2c045dfff7e413
-ms.sourcegitcommit: 218b1ff779402c3ebe1786679e1aa80a5c0d6c95
+ms.openlocfilehash: bf069baca3d9ff56c0d3d98e79bb553df7e8acf1fadf7b5888c5b5d211f7a874
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "104548493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124147"
 ---
 # <a name="hardware-feature-levels"></a>Niveaux de fonctionnalité matérielle
 
@@ -65,7 +65,7 @@ Les en-têtes sur la ligne supérieure sont des niveaux de fonctionnalité Direc
 | [Niveau de liaison des ressources](hardware-support.md)                                                                            | Niveau2 ³                    | Niveau2 ³                    | 1 to ³                   | 1 to ³                   |
 | [Ressources en mosaïque](/windows/desktop/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier)                                                                        | Niveau2 ³                    | Niveau2 ³                    | Facultatif                 | Facultatif                 |
 | [Pixellisation conservatrice](conservative-rasterization.md)                                                             | 1 to ³                    | Facultatif                  | Facultatif                 | Non                       |
-| [Affichages ordonnés du rastériseur](rasterizer-order-views.md)                                                                   | Oui                       | Facultatif                  | Facultatif                 | Non                       |
+| [Affichage ordonné du rastériseur](rasterizer-order-views.md)                                                                   | Oui                       | Facultatif                  | Facultatif                 | Non                       |
 | [Filtres min/max](/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter)                                                                                      | Oui                       | Oui                       | Facultatif                 | Non                       |
 | Mapper la mémoire tampon par défaut                                                                                                       | Facultatif                  | Facultatif                  | Facultatif                 | Facultatif                 |
 | [Valeur de référence du stencil spécifié par le nuanceur](shader-specified-stencil-reference-value.md)                                 | Facultatif                  | Facultatif                  | Facultatif                 | Non                       |
@@ -100,7 +100,7 @@ Les en-têtes sur la ligne supérieure sont des niveaux de fonctionnalité Direc
 
 
 
- 
+ 
 
 -   ⁰ requiert le runtime Direct3D 11,3 ou Direct3D 12.
 -   ¹ requiert le runtime Direct3D 11,1.
@@ -129,9 +129,9 @@ Pour afficher les tables de formats DXGI et les fonctionnalités matérielles, c
 [Interrogation des fonctionnalités](capability-querying.md)
 </dt> <dt>
 
-[Comprendre Direct3D 12](directx-12-getting-started.md)
+[Comprendre Direct3D 12](directx-12-getting-started.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

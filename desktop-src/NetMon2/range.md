@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: bf465636f315e60e43350bb370e2002b8a96e635
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e0135a6210aebbca38bfdede00231315dd2680461f366930b24925eda830604
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063719"
 ---
 # <a name="range-structure"></a>Structure de plage
 
@@ -54,7 +54,7 @@ Valeur la plus élevée possible dans une plage.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure **Range** est utilisée pour spécifier une plage de nombres valide pour une propriété de protocole. Si le membre **DataQualifier** de la structure **PropertyInfo** a la valeur **prop \_ Qualys \_ Range**, le membre **lpRange** de la structure [PropertyInfo](propertyinfo.md) doit fournir un pointeur vers une structure **Range** .
 

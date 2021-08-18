@@ -1,19 +1,19 @@
 ---
 title: Structures d’accessibilité
-description: Cette section décrit les structures utilisées pour implémenter les fonctionnalités d’accessibilité Windows. Fonctionnalités d’accessibilité de Microsoft Win32.
+description: cette section décrit les structures utilisées pour implémenter Windows fonctionnalités d’accessibilité. Fonctionnalités d’accessibilité de Microsoft Win32.
 ms.assetid: 0ff480ae-18e3-413d-b208-a67fbae28c25
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a01a5596c6c56e92d17b09386f0da3cbd58a5b2a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 576b398769a2cf1dc88d9f7ade8c995988c346e04f1c7becf7aef31cded50e91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994389"
 ---
 # <a name="accessibility-structures"></a>Structures d’accessibilité
 
-Cette section décrit les structures utilisées pour implémenter les fonctionnalités d’accessibilité Windows.
+cette section décrit les structures utilisées pour implémenter Windows fonctionnalités d’accessibilité.
 
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -38,7 +38,7 @@ Cette section décrit les structures utilisées pour implémenter les fonctionna
 
 <dl> <dt>
 
-[Fonctionnalités d’accessibilité de Windows](../accessibility/accessibility.md)
+[Windows Fonctionnalités d’accessibilité](../accessibility/accessibility.md)
 </dt> </dl>
 
  

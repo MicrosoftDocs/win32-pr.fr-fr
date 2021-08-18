@@ -4,12 +4,12 @@ ms.assetid: b80b3d64-9c0a-4602-9378-1e208f6593fc
 title: EncryptMessage (Negotiate) (fonction)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 037866088f58fa1d70939b84062161a6e4f610b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4aac05a4ad030e72953cc997671b7d348cb2a598a0f56f80963f69847cdf357
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008307"
 ---
 # <a name="encryptmessage-negotiate-function"></a>EncryptMessage (Negotiate) (fonction)
 
@@ -70,7 +70,7 @@ Si la fonction échoue, elle retourne l’un des codes d’erreur suivants.
 | **s \_ E \_ jeton non valide \_**          | Aucune \_ mémoire tampon de type de données SECBUFFER n’a été trouvée.                                                                                            |
 | **SEC \_ E \_ QoP \_ non \_ pris en charge**     | La confidentialité et l' [*intégrité*](../secgloss/i-gly.md) ne sont pas prises en charge par le [*contexte de sécurité*](../secgloss/s-gly.md).             |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **EncryptMessage (Negotiate)** chiffre un message basé sur le message et la [*clé de session*](../secgloss/s-gly.md) à partir d’un contexte de [*sécurité*](../secgloss/s-gly.md).
 
@@ -94,8 +94,8 @@ Pour des performances optimales, les structures *pMessage* doivent être alloué
 
 | Condition requise | Valeur |
 |--------------------------|-------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows XP uniquement\]                |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2003 \[ uniquement\]       |
+| Client minimal pris en charge | Windows \[Applications de bureau XP uniquement\]                |
+| Serveur minimal pris en charge | Windows Serveur 2003 \[ applications de bureau uniquement\]       |
 | En-tête                   | SSPI. h (include Security. h)                     |
 | Bibliothèque                  | Secur32. lib                                     |
 | DLL                      | Secur32.dll                                     |

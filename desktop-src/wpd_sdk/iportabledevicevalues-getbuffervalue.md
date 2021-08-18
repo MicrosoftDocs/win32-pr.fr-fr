@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: e5b98bb412ed648cf6ac74ec457b1e6032c009ff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c5d209d7ee13f55ab2236166851e2e24143b9cdeb01e947f0463491eb7446eb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963698"
 ---
 # <a name="iportabledevicevaluesgetbuffervalue-method"></a>IPortableDeviceValues :: GetBufferValue, méthode
 
@@ -65,7 +65,7 @@ Pointeur vers la taille de *ppValue*, en octets.
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -79,7 +79,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La récupération d’une mémoire tampon **null** ou d’une mémoire tampon de taille zéro n’est pas prise en charge.
 

@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI, à propos de, schéma
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23eec9264ae2692952106802cc06cbad937a42a9
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: dfd8c06d10e05c11b2cc7c578814bb4ded2d897d3b7913b9b3d341a8a6c49086
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023747"
 ---
 # <a name="adsi-schema-model"></a>Modèle de schéma ADSI
 
@@ -26,7 +26,7 @@ Il existe trois types d’objets de schéma : les classes, les propriétés et 
 > [!Note]  
 > La classe est un terme surchargé. Il existe des classes C++, des classes Java, des classes COM et des classes ADSI. Dans ce document, la classe Word, sauf indication contraire, fait référence à une catégorie ou un type d’objet de schéma.
 
- 
+ 
 
 ADSI extrait le schéma de chaque service d’annuaire et le place dans chaque nœud racine de niveau supérieur dans l’objet **namespace** . Pour identifier les classes prises en charge par un service d’annuaire sur un nœud racine donné, vous devez énumérer l’objet de schéma et obtenir la liste des objets de classe, des objets de propriété et des objets de syntaxe. Pour plus d’informations, consultez [utilisation du schéma ADSI](using-the-adsi-schema.md).
 
@@ -47,6 +47,6 @@ Si les données de sous-schéma peuvent être traitées, mais qu’aucun attribu
 -   ADSI n’a pas pu traiter le schéma.
 -   ADSI n’a pas pu écrire le fichier dans le système de fichiers.
 
- 
+ 
 
- 
+ 

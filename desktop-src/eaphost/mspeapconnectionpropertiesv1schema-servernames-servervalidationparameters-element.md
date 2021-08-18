@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 40aa7ba317b7ba7c3f7a06cce87ef57c2906fe4b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f3f9de6ee28077b5206a9783ef7722864a479e1e5f26b78e4402ac79c6e4be5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106522527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984009"
 ---
 # <a name="servernames-servervalidationparameters-element-peap"></a>ServerNames (ServerValidationParameters), élément (PEAP)
 
@@ -34,7 +34,7 @@ L’élément **serverNames (ServerValidationParameters)** représente une liste
 
 L’élément **serverNames** est défini par le type complexe [**ServerValidationParameters**](mspeapconnectionpropertiesv1schema-servervalidationparameters-complextype.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque nom de serveur est délimité par des points-virgules et peut être représenté par des expressions régulières. L’élément **serverNames** est facultatif.
 
@@ -44,8 +44,8 @@ Chaque nom de serveur est délimité par des points-virgules et peut être repr�
 
 | Role | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

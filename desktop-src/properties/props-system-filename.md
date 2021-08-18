@@ -4,12 +4,12 @@ ms.assetid: 40940026-6c67-4196-aff6-5f846dc94f27
 title: System. FileName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d8f535eff4625178b3c32a04ea6d325505266a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff8a92febe0a4f2dfe8cc9d5741118fdb76bcb56c7bcd1ef5c3d881e8c0f9abf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119096918"
 ---
 # <a name="systemfilename"></a>System. FileName
 
@@ -67,7 +67,7 @@ propertyDescription
             text = Q-Z
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
@@ -77,7 +77,7 @@ Le tableau suivant répertorie des exemples de valeurs de propriété de chemin 
 
 
 
-| Chemin d’accès                               | Valeur de propriété |
+| Chemin                               | Valeur de propriété |
 |------------------------------------|----------------|
 | c : \\ fichiers \\ \\hello.txt personnels     | hello.txt      |
 | \\\\news.doc du partage de serveur \\ \\ mydir \\ | news.doc       |

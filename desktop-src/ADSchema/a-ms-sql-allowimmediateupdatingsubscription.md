@@ -1,11 +1,11 @@
 ---
-title: Attribut MS-SQL-AllowImmediateUpdatingSubscription
+title: attribut MS-SQL-AllowImmediateUpdatingSubscription
 description: True si la publication autorise les abonnements de mise à jour de la transaction synchronisée.
 ms.assetid: 7efa4b8f-77ad-4f68-9852-7dac9f922d95
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut MS-SQL-AllowImmediateUpdatingSubscription
-- Schéma AD de l’attribut mS-SQL-AllowImmediateUpdatingSubscription
+- schéma AD de l’attribut MS-SQL-AllowImmediateUpdatingSubscription
+- schéma AD de l’attribut mS-SQL-AllowImmediateUpdatingSubscription
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fed7970aa4b4f26a7221ea9a0c3d4e279ddc5db1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1f6442d5a719595c0e99e495f4fa4c969c24995aa29ed70ca7db779d4c9a21e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961158"
 ---
-# <a name="ms-sql-allowimmediateupdatingsubscription-attribute"></a>Attribut MS-SQL-AllowImmediateUpdatingSubscription
+# <a name="ms-sql-allowimmediateupdatingsubscription-attribute"></a>attribut MS-SQL-AllowImmediateUpdatingSubscription
 
 True si la publication autorise les abonnements de mise à jour de la transaction synchronisée.
 
@@ -45,7 +45,7 @@ True si la publication autorise les abonnements de mise à jour de la transactio
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

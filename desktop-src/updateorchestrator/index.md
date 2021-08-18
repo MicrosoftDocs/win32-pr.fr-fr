@@ -3,18 +3,18 @@ title: Mettre à jour l’API Orchestrator
 description: UpdateOrchestrator planifie vos mises à jour logicielles automatiques en tenant compte de l’impact de l’utilisateur.
 ms.date: 01/14/2021
 ms.topic: overview
-ms.openlocfilehash: a172cccdc56d2c645bb4e7d048066ca34aea07ba
-ms.sourcegitcommit: 9c8ddec1e955f181beecad0478c1fb79013b5e9d
+ms.openlocfilehash: 6460446397af168a4098a7203179d5587d4dcd9a3cea813991648a5083d07334
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "103869294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966098"
 ---
 # <a name="updateorchestrator-api"></a>API UpdateOrchestrator
 
 **UpdateOrchestrator** planifie vos mises à jour logicielles automatiques en tenant compte de l’impact de l’utilisateur. Cette API vous permet de planifier le téléchargement et l’installation automatiques, ainsi que leurs besoins afin d’exécuter des mises à jour à un moment optimal qui réduit l’impact sur l’utilisateur. Ces fonctionnalités sont particulièrement utiles pour réduire les systèmes de performances avec des ressources informatiques limitées ou lentes.
 
-Windows 19H1 comprend une solution de première génération pour les cas d’utilisation de mises à jour logicielles automatiques qui ont été adoptées par les mises à jour du système d’exploitation et qui expose une version initiale de l’accès limité de cette API pour un ensemble sélectionné de mises à jour d’applications « en mode utilisateur », comme décrit ci-dessous.
+Windows 19H1 comprend une solution de première génération pour les cas d’utilisation de mises à jour logicielles automatiques qui ont été adoptées par les mises à jour du système d’exploitation et qui exposent une version initiale de « accès limité » de cette API pour un ensemble sélectionné de mises à jour d’applications « en mode utilisateur », comme décrit ci-dessous.
 
 ## <a name="features"></a>Fonctionnalités
 
@@ -31,7 +31,7 @@ Windows 19H1 comprend une solution de première génération pour les cas d’ut
 > [!IMPORTANT]
 > L’API UpdateOrchestrator est actuellement une [fonctionnalité d’accès limité](/uwp/api/windows.applicationmodel.limitedaccessfeatures). Cette API sera rendue publiquement disponible dans une version ultérieure.
 
-Utilisez l’API UpdateOrchestrator si vous avez déjà des mises à jour logicielles en arrière-plan pour les applications en mode utilisateur Win32, telles que le programme de mise à jour d’Adobe pour Acrobat Reader ou la vaporisation de la vanne. Cette interface n’est pas nécessaire pour les applications UWP/Store, car la Microsoft Store tire déjà parti de cette fonctionnalité pour les mises à jour logicielles.
+Utilisez l’API UpdateOrchestrator si vous avez déjà des mises à jour logicielles en arrière-plan pour les applications en mode utilisateur Win32, telles que le programme de mise à jour d’Adobe pour Acrobat Reader ou la vaporisation de la vanne. cette interface n’est pas nécessaire pour les applications UWP/Store, car la Microsoft Store tire déjà parti de cette fonctionnalité pour les mises à jour logicielles.
 
 Pour offrir la meilleure expérience client, cette version d’API initiale est étendue à un ensemble sélectionné de mises à jour inscrites qui répondent aux critères suivants :
 

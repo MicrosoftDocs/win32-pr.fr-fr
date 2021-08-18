@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 30aa2ceefb95edb0f70be3cabbea8b76a4863337
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 30aed84b3a25041cf10525310682b3f04eb84abdf232391f98614f44e085ca77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104033336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022257"
 ---
 # <a name="rpc-ns-object-id-attribute"></a>attribut RPC-NS-Object-ID
 
@@ -45,7 +45,7 @@ ID des objets exportés par un serveur donné.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

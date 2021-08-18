@@ -1,20 +1,20 @@
 ---
-title: Utilisation des exemples de code du kit de développement logiciel (SDK) Windows Media format
-description: Utilisation des exemples de code du kit de développement logiciel (SDK) Windows Media format
+title: utilisation des exemples de Code du kit de développement logiciel (SDK) Windows Media Format
+description: utilisation des exemples de Code du kit de développement logiciel (SDK) Windows Media Format
 ms.assetid: 1459a438-d42c-4d84-baa8-fc672f5d5d27
 keywords:
 - Windows Media Format SDK, exemples de code
 - Windows Media Format SDK, exemple de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8db438a8cb42bbb45768421cc34c129f19948f1c
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ba6a5b6718bf7665d04fedb5d5a0bad473a632cbeeabdfd756a52877ccdc84ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963938"
 ---
-# <a name="using-the-windows-media-format-sdk-code-examples"></a>Utilisation des exemples de code du kit de développement logiciel (SDK) Windows Media format
+# <a name="using-the-windows-media-format-sdk-code-examples"></a>utilisation des exemples de Code du kit de développement logiciel (SDK) Windows Media Format
 
 La plupart des sections explicatives de ce kit de développement logiciel incluent des exemples de code. Les exemples sont écrits pour être aussi clairs et concis que possible. Lors de la lecture des exemples, vous devez être conscient des conventions suivantes.
 

@@ -4,12 +4,12 @@ description: L’application WinSNMP peut spécifier l’interprétation et la t
 ms.assetid: 2550f235-1351-440a-8b4e-f0d30b058229
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a50b5ecfb1a4703795f970f5d7c13ceaa3d64980
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ab459c0b33ffe1cc43c81858b57ec55942f61f2b5b736ca0124f31f52cc960d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009057"
 ---
 # <a name="setting-the-entity-and-context-translation-mode"></a>Définition du mode de traduction entité et contexte
 
@@ -29,15 +29,15 @@ Les modes d’entité et de traduction de contexte valides sont les suivants.
 
 
 
- 
+ 
 
 L’implémentation tente d’associer des ressources dans sa base de données à l’adresse de transport littérale de l’entité de gestion.
 
 Pour modifier le mode de traduction d’entité et de contexte, une application WinSNMP doit appeler la fonction [**SnmpSetTranslateMode**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsettranslatemode) . Si le mode de traduction demandé n’est pas valide, la fonction échoue et [**SnmpGetLastError**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpgetlasterror) retourne le code d’erreur SNMPAPI \_ mode \_ non valide.
 
- 
+ 
 
- 
+ 
 
 
 

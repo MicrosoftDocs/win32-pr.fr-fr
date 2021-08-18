@@ -4,12 +4,12 @@ ms.assetid: 2181723A-C6E8-42BD-979C-5C26FE3986C4
 title: MFPKEY_SBESourceMode, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b82835a4cfc363e3ae2d054cce68f95c655447dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86c6b4fc0b248000f0540fd47fd7bbf8bba907994d1351144521bf162d330340
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973368"
 ---
 # <a name="mfpkey_sbesourcemode-property"></a>MFPKEY \_ propriété SBESourceMode
 
@@ -31,11 +31,11 @@ VT \_ int
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette propriété pour configurer la source du média WTV. Pour définir la propriété, transmettez un pointeur [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) au programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
-La source du média WTV lit les fichiers de l’émission TV enregistrée (. wtv et. ms-DRV) Windows.
+la source du média WTV lit Windows fichiers de l’émission TV (. WTV et. ms-drv) enregistrés.
 
 Cette propriété doit avoir l’une des valeurs suivantes.
 
@@ -48,8 +48,8 @@ Cette propriété doit avoir l’une des valeurs suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

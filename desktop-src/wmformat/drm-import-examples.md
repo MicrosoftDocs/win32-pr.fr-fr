@@ -11,12 +11,12 @@ keywords:
 - API étendues du client, importation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88b966ce1ab3c1b355ebe93897d7f59bc97762b0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0bbe059204a99ee465d1fe6272a897a6cfa7583f91895dd1744e8684b4212b82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119085970"
 ---
 # <a name="drm-import-examples"></a>Exemples d’importation DRM
 
@@ -36,7 +36,7 @@ Cette section contient des rubriques sur les exemples suivants.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -45,9 +45,9 @@ Cette section contient des rubriques sur les exemples suivants.
 [**Importation DRM**](drm-import.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -26,12 +26,12 @@ keywords:
 - certificats, exemples de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e68a8ecbaf3e3c0ba8001a7a2094ab2b4a7e09a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 855479e90095f204a3ba7abafadcb4a31bbcaeaf7c592221ab0d5906cb1d8b18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964008"
 ---
 # <a name="get-machine-certificate-example"></a>Exemple d’extraction de certificat d’ordinateur
 
@@ -78,9 +78,9 @@ EXIT:
 [**Exemples d’importation DRM**](drm-import-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

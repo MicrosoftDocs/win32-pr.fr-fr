@@ -4,16 +4,16 @@ description: Traduire en C++
 ms.assetid: b430c7ea-440a-460b-b06f-9a1a4219ff39
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 708b018049a8c955d85199cd4b6abda750b1f8e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 212c290dd000f7c74a3b764e4498e1e1745df07483e6e8a2aed8b2a338bd8b50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129591"
 ---
 # <a name="translating-to-c"></a>Traduire en C++
 
-Visual C++ fournit plusieurs outils pour vous aider à ajouter des objets COM à votre projet. Vous pouvez ajouter un contrôle ActiveX à votre projet, utiliser l’Assistant classe MFC ou exécuter le compilateur MIDL sur un fichier IDL.
+Visual C++ fournit plusieurs outils pour vous aider à ajouter des objets COM à votre projet. vous pouvez ajouter un contrôle ActiveX à votre projet, utiliser l’assistant classe MFC ou exécuter le compilateur MIDL sur un fichier IDL.
 
 Si vous utilisez un environnement de développement C++ autre que Visual C++, consultez la documentation de ce produit pour plus d’informations sur les outils de conversion COM.
 
@@ -25,7 +25,7 @@ Pour plus d'informations, voir les rubriques suivantes :
 
 -   [Conversion en C++ à partir de Visual Basic](translating-to-c---from-visual-basic.md)
 -   [Conversion en C++ à partir de Java](translating-to-c---from-java.md)
--   [Ajout d’un contrôle ActiveX à un projet Visual C++](adding-an-activex-control-to-a-visual-c---project.md)
+-   [ajout d’un contrôle ActiveX à un Visual C++ Project](adding-an-activex-control-to-a-visual-c---project.md)
 -   [Compilateur MIDL](midl-compiler.md)
 -   [MkTypLib Command-Line outil](mktyplib-command-line-tool.md)
 -   [Explorateur d’objets OLE-COM](ole-com-object-viewer.md)
@@ -40,9 +40,9 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Conversion en Visual Basic](translating-to-visual-basic.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

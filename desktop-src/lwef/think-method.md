@@ -4,12 +4,12 @@ description: Méthode de réflexion
 ms.assetid: a188dd47-6af1-429d-af0a-69451f6b495e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a896c499e11aeaf50bfe9adc82a8330e61fc693
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c535912962a51961ae3f88f5cca412a55ecfa27506442aa78274fe697f2d7a26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975509"
 ---
 # <a name="think-method"></a>Méthode de réflexion
 
@@ -27,21 +27,21 @@ Affiche le texte spécifié pour le caractère spécifié dans une bulle de mot 
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent ***. Caractères («*** CharacterID * * * »).* *  \[ *Texte* de réflexion\]
+*agent ***. Caractères («**_CharacterID_*_»)._ *  \[ *Texte* de réflexion\]
 
 
 
 | Partie   | Description                                                       |
 |--------|-------------------------------------------------------------------|
-| *Text* | Optionnel. Chaîne qui spécifie le résultat de la réflexion du caractère. |
+| *Text* | Facultatif. Chaîne qui spécifie le résultat de la réflexion du caractère. |
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 À l’instar de la méthode [**Speak**](speak-method.md) , la méthode **Song** est une demande en file d’attente qui affiche du texte dans une bulle de mot, sauf que la bulle de **pense** -bulle est différente visuellement. En outre, la bulle prend uniquement en charge la balise de contrôle de voix de signets (**\\ MRK**) et ignore toutes les autres balises de contrôle vocal. Contrairement à **Speak**, la méthode de **réflexion** ne modifie pas l’état d’animation du caractère.
 
@@ -54,8 +54,8 @@ La césure automatique des mots de l’agent dans le mot-bulle arrête les mots 
 > [!Note]  
 > Définissez l’ID de langue du caractère avant d’utiliser la méthode [**Speak**](speak-method.md) pour garantir l’affichage du texte approprié dans la bulle.
 
- 
+ 
 
- 
+ 
 
- 
+ 

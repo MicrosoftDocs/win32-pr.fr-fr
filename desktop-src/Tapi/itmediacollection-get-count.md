@@ -4,16 +4,16 @@ ms.assetid: 9d085a34-9a49-4447-8d11-56d71a2a3592
 title: 'ITMediaCollection :: get_Count, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1f5a4fb6d7f1b942f37aae1356c7b49e0e60f77
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9ef5e1c2c204f31d9e2ba18b6b0ba04a8c8d988455b9e587f86f33655ecc5a13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003277"
 ---
 # <a name="itmediacollectionget_count-method"></a>ITMediaCollection :: obten, \_ méthode Count
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir le \_ nombre** obtient le nombre de médias dans la session.
 

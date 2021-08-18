@@ -3,7 +3,7 @@ title: Élément Body
 description: L’élément Body contient les éléments qui définissent le contenu d’une sélection.
 ms.assetid: 96d09635-c360-4a36-a56e-6cecbbd4ff30
 keywords:
-- Élément de corps Windows Media Player
+- élément body Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: eb30885efe9e018bf8792b38facdc086c5473b3f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4c785b7db7b44177469596450ee75a460e2bc6224b191a2811baf95380bea25a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135952"
 ---
 # <a name="body-element"></a>Élément Body
 
@@ -46,7 +46,7 @@ Cet élément n’a pas d’attributs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le contenu d’une sélection est organisé dans un élément **Seq** qui est contenu dans l’élément **Body** . En général, il existe soit un élément **Seq** qui définit un ensemble statique d’éléments multimédias **et contient des éléments multimédias,** soit un élément qui définit un ensemble dynamique d’éléments multimédias et contient un élément **smartPlaylist** .
 
@@ -97,7 +97,7 @@ Le contenu d’une sélection est organisé dans un élément **Seq** qui est co
 [**Élément smil**](smil-element.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de sélection Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Référence des éléments de sélection de média**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

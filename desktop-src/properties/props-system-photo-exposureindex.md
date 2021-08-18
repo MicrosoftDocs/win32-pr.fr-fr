@@ -4,12 +4,12 @@ ms.assetid: 83ade9b2-78ea-4b26-b034-4ea5ad38a331
 title: System. photo. ExposureIndex
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0134f294e3a31228c6935ba22b907f53a6a31d26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80a153304d32cf127e03ed2cd71b0333f114f92f14d399543c9816da08bd761e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970128"
 ---
 # <a name="systemphotoexposureindex"></a>System. photo. ExposureIndex
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

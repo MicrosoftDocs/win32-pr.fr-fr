@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Définition de la sécurité de l’espace de noms avec le contrôle WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f8e8b6ed7c45b6b0d107f7f4e4b92f31f504900
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f97971e09897f8fa744f72d5ad0da59dc2292ebe7ceb88f6500e3c30e124db0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992349"
 ---
 # <a name="setting-namespace-security-with-the-wmi-control"></a>Définition de la sécurité de l’espace de noms avec le contrôle WMI
 
@@ -35,7 +35,7 @@ La procédure suivante décrit comment utiliser le contrôle WMI pour configurer
 3.  Dans le volet de **contrôle WMI** , cliquez avec le bouton droit sur **contrôle WMI**, choisissez **Propriétés**, puis sélectionnez l’onglet **sécurité** .
 4.  Accédez au nouvel espace de noms, cliquez sur **sécurité**, puis configurez les groupes et les autorisations pour l’espace de noms.
 
-Vous pouvez également utiliser Windows Management Instrumentation Command-Line ([WMIC](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754534(v=ws.11))) pour définir la sécurité de l’espace de noms. Pour plus d’informations, consultez [**WMIC**](wmic.md).
+vous pouvez également utiliser Windows Management Instrumentation Command-Line ([WMIC](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754534(v=ws.11))) pour définir la sécurité de l’espace de noms. Pour plus d’informations, consultez [**WMIC**](wmic.md).
 
 ## <a name="setting-the-default-namespace-for-scripts"></a>Définition de l’espace de noms par défaut pour les scripts
 

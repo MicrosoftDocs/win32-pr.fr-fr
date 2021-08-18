@@ -4,12 +4,12 @@ ms.assetid: 8ec59d52-f79f-40d1-9b02-671b866ccd8d
 title: System. photo. SubjectDistanceDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d834d5f9a53ffe991136f80ce86eed23a564776e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24240efb432d977159dff600eab61260b411f4bb2e341c7f268ec43700191bc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969998"
 ---
 # <a name="systemphotosubjectdistancedenominator"></a>System. photo. SubjectDistanceDenominator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

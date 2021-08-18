@@ -44,12 +44,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d59c185763ddd3685e5e566f88e26a6aa6211b4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d3ef4e7c8471c655d4ecfaf54a1c4b0f35b2362c67c334bd94e57da8e99d390
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138482"
 ---
 # <a name="imstscaxcreatevirtualchannels-method"></a>IMsTscAx :: CreateVirtualChannels, méthode
 
@@ -81,9 +81,9 @@ Liste séparée par des virgules de noms de canaux virtuels valides. La longueur
 
 Retourne **S \_ OK** en cas de réussite. Retourne **E \_ INVALIDARG** si le paramètre passé ne répond pas aux critères spécifiés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Appelez cette méthode avant d’appeler la méthode [**Connect**](imstscax-connect.md) .
+appelez cette méthode avant d’appeler la méthode [**Connecter**](imstscax-connect.md) .
 
 Pour plus d’informations sur les restrictions de nom de canal virtuel, consultez [inscription du client du canal virtuel](virtual-channel-client-registration.md) .
 

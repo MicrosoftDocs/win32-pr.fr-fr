@@ -1,9 +1,9 @@
 ---
 title: Message MM_MIM_LONGDATA (mmsystem. h)
-description: Le \_ message mm MIM \_ LONGDATA est envoyé à une fenêtre lors de la réception d’un message MIDI système exclusif complet ou lorsqu’une mémoire tampon a été remplie avec des données système exclusives.
+description: le \_ message MM MIM \_ LONGDATA est envoyé à une fenêtre lorsqu’un message complet du système MIDI est reçu ou lorsqu’une mémoire tampon a été remplie avec des données système exclusives.
 ms.assetid: 72b9eade-4224-436f-bfef-32204eaf51ae
 keywords:
-- Message MM_MIM_LONGDATA Windows Multimedia
+- message MM_MIM_LONGDATA Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25bf1900ef2e9394b9d8772747eba873f8d607f1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9e4748381500f42a5dc4f2bceae8ad862a64f237c9d5024e4b0b7cc96a694e5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065519"
 ---
-# <a name="mm_mim_longdata-message"></a>MM \_ \_ message LONGDATA MIM
+# <a name="mm_mim_longdata-message"></a>MM \_ MIM \_ message LONGDATA
 
-Le message **mm \_ MIM \_ LONGDATA** est envoyé à une fenêtre lors de la réception d’un message MIDI système exclusif complet ou lorsqu’une mémoire tampon a été remplie avec des données système exclusives.
+le message **MM \_ MIM \_ LONGDATA** est envoyé à une fenêtre lorsqu’un message complet du système MIDI est reçu ou lorsqu’une mémoire tampon a été remplie avec des données système exclusives.
 
 
 ```C++
@@ -56,7 +56,7 @@ Pointeur vers une structure [**MIDIHDR**](/windows/win32/api/mmeapi/ns-mmeapi-mi
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La mémoire tampon retournée n’est peut-être pas pleine. Pour déterminer le nombre d’octets enregistrés dans la mémoire tampon retournée, utilisez le membre **dwBytesRecorded** de la structure [**MIDIHDR**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr) vers laquelle pointe *lpMidiHdr*.
 
@@ -70,7 +70,7 @@ Aucun horodatage n’est disponible avec ce message. Pour les données d’entr�
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

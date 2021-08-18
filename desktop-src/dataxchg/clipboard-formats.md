@@ -15,12 +15,12 @@ keywords:
 - formats d’historique du presse-papiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 193ee4cc10c17846d974e50b17a464207026280b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ac6bd2dc9dda8c8ccecd164123af68865005d9d28d328ce5489abf23926113ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991339"
 ---
 # <a name="clipboard-formats"></a>Formats du presse-papiers
 
@@ -55,7 +55,7 @@ Les descripteurs de données associés aux formats de presse-papiers privés ne 
 
 Pour plus d’informations sur le message [**WM \_ DESTROYCLIPBOARD**](wm-destroyclipboard.md) , consultez [propriété du presse-papiers](clipboard-operations.md).
 
-Une application peut placer des handles de données dans le presse-papiers en définissant un format privé dans la plage **CF \_ GDIOBJFIRST** via **CF \_ GDIOBJLAST**. Lors de l’utilisation de valeurs dans cette plage, le descripteur de données n’est pas un descripteur d’un objet Windows Graphics Device Interface (GDI), mais est un handle alloué par la fonction [**GlobalAlloc**](/windows/desktop/api/winbase/nf-winbase-globalalloc) avec l' \_ indicateur GMEM MoveOn. Lorsque le presse-papiers est vidé, le système supprime automatiquement l’objet à l’aide de la fonction [**GlobalFree**](/windows/desktop/api/winbase/nf-winbase-globalfree) .
+Une application peut placer des handles de données dans le presse-papiers en définissant un format privé dans la plage **CF \_ GDIOBJFIRST** via **CF \_ GDIOBJLAST**. lors de l’utilisation de valeurs dans cette plage, le descripteur de données n’est pas un handle vers un objet Windows Graphics Device Interface (GDI), mais est un handle alloué par la fonction [**GlobalAlloc**](/windows/desktop/api/winbase/nf-winbase-globalalloc) avec l' \_ indicateur GMEM moveon. Lorsque le presse-papiers est vidé, le système supprime automatiquement l’objet à l’aide de la fonction [**GlobalFree**](/windows/desktop/api/winbase/nf-winbase-globalfree) .
 
 ## <a name="multiple-clipboard-formats"></a>Plusieurs formats de presse-papiers
 
@@ -94,7 +94,7 @@ Le système convertit implicitement les données entre certains formats de press
 
 
 
- 
+ 
 
 Si le système fournit une conversion automatique de type pour un format de presse-papiers particulier, il n’y a aucun avantage à placer le ou les formats de conversion dans le presse-papiers.
 
@@ -106,12 +106,12 @@ Si vous placez le format de **\_ bitmap CF** dans le presse-papiers (et non dans
 
 Si le presse-papiers contient des données au format de la **\_ palette CF** , l’application doit utiliser les fonctions [**SelectPalette**](/windows/desktop/api/wingdi/nf-wingdi-selectpalette) et [**RealizePalette**](/windows/desktop/api/wingdi/nf-wingdi-realizepalette) pour réaliser toutes les autres données du presse-papiers par rapport à cette palette logique.
 
-Il existe deux formats de presse-papiers pour les sous-fichiers : **CF \_ ENHMETAFILE** et **CF \_ MetaFilePict**. Spécifiez **CF \_ ENHMETAFILE** pour les sous-fichiers améliorés et **CF \_ MetaFilePict** pour les fichiers Windows.
+Il existe deux formats de presse-papiers pour les sous-fichiers : **CF \_ ENHMETAFILE** et **CF \_ MetaFilePict**. spécifiez **cf \_ ENHMETAFILE** pour les sous-fichiers améliorés et **cf \_ METAFILEPICT** pour Windows les sous-fichiers.
 
 ## <a name="cloud-clipboard-and-clipboard-history-formats"></a>Presse-papiers du Cloud et formats d’historique du presse-papiers
 
-Certaines versions de Windows incluent le [presse-papiers Cloud](/windows/whats-new/whats-new-windows-10-version-1809#cloud-clipboard), qui conserve un historique des éléments de données du presse-papiers récents et peut les synchroniser entre les appareils de l’utilisateur.
-Si vous ne souhaitez pas que les données que votre application place dans le presse-papiers soient incluses dans l’historique du presse-papiers ou synchronisées avec d’autres appareils, votre application peut contrôler ce comportement en plaçant des données dans certains [formats de presse-papiers inscrits](#registered-clipboard-formats) dont les noms sont connus du système Windows :
+certaines versions de Windows incluent le [presse-papiers Cloud](/windows/whats-new/whats-new-windows-10-version-1809#cloud-clipboard), qui conserve un historique des éléments de données du presse-papiers récents et peut les synchroniser entre les appareils de l’utilisateur.
+si vous ne souhaitez pas que les données que votre application place dans le presse-papiers soient incluses dans l’historique du presse-papiers ou synchronisées avec d’autres appareils, votre application peut contrôler ce comportement en plaçant des données dans certains [formats de presse-papiers inscrits](#registered-clipboard-formats) dont les noms sont connus du système Windows :
 
 - **ExcludeClipboardContentFromMonitorProcessing** : Placez toutes les données dans le presse-papiers dans ce format pour empêcher que tous les formats du presse-papiers soient inclus dans l’historique du presse-papiers ou synchronisés avec les autres appareils de l’utilisateur.
 - **CanIncludeInClipboardHistory** : Placez une valeur **[DWORD](../WinProg/windows-data-types.md)** sérialisée de zéro dans le presse-papiers dans ce format pour empêcher l’inclusion de tous les formats du presse-papiers dans l’historique du presse-papiers, ou placez la valeur un à la place pour demander explicitement que l’élément du presse-papiers soit inclus dans l’historique du presse-papiers. Cela n’affecte pas la synchronisation sur les autres appareils de l’utilisateur.

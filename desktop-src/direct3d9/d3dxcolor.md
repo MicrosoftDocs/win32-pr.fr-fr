@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 58b02abc49b695169674a2579b73dc2359801a73
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 28f170814988317cd1cdf3300e4cbb3c2a97fa0fac7a43b2231767914a9b103a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988719"
 ---
 # <a name="d3dxcolor-structure-d3dx9mathh"></a>D3DXCOLOR, structure (D3dx9math. h)
 
@@ -86,7 +86,7 @@ Composant alpha de la couleur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les programmeurs C++ peuvent tirer parti de la surcharge d’opérateur et de la conversion de type avec les [**Extensions D3DXCOLOR**](d3dxcolor-extensions.md), qui implémentent des constructeurs surchargés, ainsi que des opérateurs d’assignation, unaires et binaires (y compris l’égalité).
 

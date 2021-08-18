@@ -4,12 +4,12 @@ ms.assetid: ae12afcf-12cc-4c84-9aba-de56fc39437b
 title: Création de collections de polices privées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 084e8a2d6f79f60e0719f04fbabb778b9483bd80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: df673273611ed329e933c84e6540ed984088202590dc1d1c644ccdedca2c80c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977589"
 ---
 # <a name="creating-a-private-font-collection"></a>Création de collections de polices privées
 
@@ -18,7 +18,7 @@ La classe [**la**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-privatefo
 Une collection de polices privée peut inclure des polices système installées, ainsi que des polices qui n’ont pas été installées sur l’ordinateur. Pour ajouter un fichier de polices à une collection de polices privées, appelez la méthode [**la :: AddFontFile**](/windows/win32/api/Gdiplusheaders/nf-gdiplusheaders-privatefontcollection-addfontfile) d’un objet [**la**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection) .
 
 > [!Note]  
-> Lorsque vous utilisez l’API GDI+, vous ne devez jamais autoriser votre application à télécharger des polices arbitraires à partir de sources non approuvées. Le système d’exploitation requiert des privilèges élevés pour s’assurer que toutes les polices installées sont approuvées.
+> lorsque vous utilisez l’API GDI+, vous ne devez jamais autoriser votre application à télécharger des polices arbitraires à partir de sources non approuvées. Le système d’exploitation requiert des privilèges élevés pour s’assurer que toutes les polices installées sont approuvées.
 
  
 
@@ -179,22 +179,22 @@ L’illustration suivante montre la sortie du code précédent.
 
 ![capture d’écran d’une fenêtre qui répertorie neuf noms de police, chacun d’entre eux montrant la police nommée](images/fontstext7.png)
 
-Arial. tff (qui a été ajouté à la collection de polices privée dans l’exemple de code précédent) est le fichier de police pour le style Arial Regular. Notez, cependant, que la sortie du programme affiche plusieurs styles disponibles autres que normal pour la famille de polices Arial. Cela est dû au fait que Windows GDI+ peut simuler les styles italiques gras, italique et gras à partir du style normal. GDI+ peut également produire des soulignements et des strikeouts à partir du style normal.
+Arial. tff (qui a été ajouté à la collection de polices privée dans l’exemple de code précédent) est le fichier de police pour le style Arial Regular. Notez, cependant, que la sortie du programme affiche plusieurs styles disponibles autres que normal pour la famille de polices Arial. cela est dû au fait que Windows GDI+ peut simuler les styles italiques gras, italique et gras à partir du style normal. GDI+ pouvez également produire des soulignements et des strikeouts à partir du style normal.
 
-De même, GDI+ peut simuler le style italique gras à partir du style gras ou du style italique. La sortie du programme indique que le style italique gras est disponible pour la famille Times, même si TimesBd. tff (Times New Roman, Bold) est le seul fichier dans la collection.
+de même, GDI+ peut simuler le style italique gras à partir du style gras ou du style italique. La sortie du programme indique que le style italique gras est disponible pour la famille Times, même si TimesBd. tff (Times New Roman, Bold) est le seul fichier dans la collection.
 
-Ce tableau spécifie les polices non-système prises en charge par GDI+.
+ce tableau spécifie les polices non-système prises en charge par GDI+.
 
 
 
 |                     | GDI | GDI+ sur Windows 7 | GDI+ sur Windows 8 | DirectWrite |
 |---------------------|-----|-------------------|-------------------|-------------|
-| . FON                | Oui | non                | non                | non          |
-| . FNT                | Oui | non                | non                | non          |
-| . TTF                | Oui | Oui               | Oui               | Oui         |
-| . OTF avec TrueType  | Oui | Oui               | Oui               | Oui         |
-| . OTF avec Adobe CFF | Oui | non                | Oui               | Oui         |
-| Adobe type 1        | Oui | non                | non                | non          |
+| . FON                | oui | non                | non                | non          |
+| . FNT                | oui | non                | non                | non          |
+| . TTF                | oui | oui               | oui               | oui         |
+| . OTF avec TrueType  | oui | oui               | oui               | oui         |
+| . OTF avec Adobe CFF | oui | non                | oui               | oui         |
+| Adobe type 1        | oui | non                | non                | non          |
 
 
 

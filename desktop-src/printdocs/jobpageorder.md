@@ -4,12 +4,12 @@ ms.assetid: 0c255d50-8b0e-4ecd-876d-eaaccdca7b27
 title: JobPageOrder
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa2216330034c458095af7e67ff0904100126451
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: aef9450a8e126648d743e0eb56efc24bebb0ff8af4fa2d21f416ef95124fe386
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119099645"
 ---
 # <a name="jobpageorder"></a>JobPageOrder
 
@@ -58,7 +58,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Nom                               | Type de données         | Unité                  | Valeurs prises en charge                                                                                                                                                                      | Résumé                                                                      |
+| Nom                               | Type de données         | Unité                  | Valeurs prises en charge                                                                                                                                                                      | Récapitulatif                                                                      |
 |------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | \_OptionName\_<br/>          | string<br/> | caractères<br/> | Nom complet valide tel que défini par les [espaces de noms dans XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/). Si aucun espace de noms n’est spécifié, l’espace de noms par défaut est utilisé.<br/> | Nom de l'option.<br/>                                           |
 | \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Définit une option qui, lorsqu’elle est sélectionnée, désactive cette fonctionnalité.<br/> |

@@ -4,12 +4,12 @@ ms.assetid: ddbfb65c-7630-4e9f-8013-c5d65c62c628
 title: Jeu de propriétés de sous-image de DVD (dvdmedia. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a45b83595e8657ee0c60f39cd67f2d0e4c71511
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 7293e38665fc59cf47b44e6466302655afd2ccf2a909034afd803201f6ea5a78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148692"
 ---
 # <a name="dvd-subpicture-property-set"></a>Jeu de propriétés de sous-image de DVD
 
@@ -31,7 +31,7 @@ Les informations suivantes présentent les constantes et types de données néce
 
 | ID de propriété                           | Description                                                                                                                                                                                                                                                                                                                                                              |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| la \_ \_ composition DVDSUBPIC de la propriété am \_ \_ sur | Propriété définie uniquement qui active ou désactive l’affichage de sous-image. DirectShow définit la **\_ \_ composition \_ de propriété AM sur** le type de données booléen pour cette propriété, ainsi que la \_ \_ composition de propriété PAM \_ sur en tant que pointeur vers ce type de données. **True** indique que afficher la sous-image, **false** indique la désactiver. Pour plus d’informations, consultez la partie WDM du DDK Windows. |
+| la \_ \_ composition DVDSUBPIC de la propriété am \_ \_ sur | Propriété définie uniquement qui active ou désactive l’affichage de sous-image. DirectShow définit la **\_ \_ composition \_ de propriété AM sur** le type de données booléen pour cette propriété, ainsi que la \_ \_ composition de propriété PAM \_ sur en tant que pointeur vers ce type de données. **True** indique que afficher la sous-image, **false** indique la désactiver. pour plus d’informations, consultez la partie WDM du Windows DDK. |
 | AM, \_ propriété \_ DVDSUBPIC \_ HLI          | Propriété définie uniquement qui spécifie un rectangle de sous-image ou d’écran dont la couleur ou le contraste seront modifiés. Le type de données est la [**\_ propriété am \_ SPHLI**](/previous-versions/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_property_sphli). Consultez la section Notes.                                                                                                                                                                                |
 | \_DVDSUBPIC, propriété, \_ \_ palette      | Définit la palette pour une sous-image. Le type de données est la [**\_ propriété am \_ SPPAL**](/previous-versions/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_property_sppal).                                                                                                                                                                                                                                                                        |
 

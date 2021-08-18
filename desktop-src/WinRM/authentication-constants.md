@@ -26,12 +26,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce45d1474cf6c925149c05ae348231333c3356e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 885e3b782c4af67304f1a92eca324c0f266e71665a7a876683cbb1dbff472ee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132812"
 ---
 # <a name="authentication-constants"></a>Constantes d’authentification
 
@@ -49,7 +49,7 @@ Une ou plusieurs des constantes répertoriées dans la liste suivante sont requi
 
 
 
-Utilisez le nom d’utilisateur et le mot de passe comme informations d’identification. Définissez cet indicateur lorsque vous créez un objet [**ConnectionOptions**](connectionoptions.md) et fournissez le [**nom d’utilisateur**](connectionoptions-username.md) et le [**mot de passe**](connectionoptions-password.md). Les informations d’identification peuvent être un compte de domaine ou un compte sur l’ordinateur local. Par défaut, le compte doit être membre du groupe Administrateurs local sur l’ordinateur local ou distant. Toutefois, le service WinRM peut être configuré pour autoriser d’autres utilisateurs. Pour plus d’informations, consultez [installation et configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md). Vous pouvez définir cet indicateur lorsque vous spécifiez des informations d’identification pour l’authentification par négociation (également appelée [*authentification intégrée Windows*](windows-remote-management-glossary.md)) ou pour [*l’authentification de base*](windows-remote-management-glossary.md).
+Utilisez le nom d’utilisateur et le mot de passe comme informations d’identification. Définissez cet indicateur lorsque vous créez un objet [**ConnectionOptions**](connectionoptions.md) et fournissez le [**nom d’utilisateur**](connectionoptions-username.md) et le [**mot de passe**](connectionoptions-password.md). Les informations d’identification peuvent être un compte de domaine ou un compte sur l’ordinateur local. Par défaut, le compte doit être membre du groupe Administrateurs local sur l’ordinateur local ou distant. Toutefois, le service WinRM peut être configuré pour autoriser d’autres utilisateurs. pour plus d’informations, consultez [Installation et Configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md). vous pouvez définir cet indicateur lorsque vous spécifiez des informations d’identification pour l’authentification par négociation (également appelée [*authentification intégrée Windows*](windows-remote-management-glossary.md)) ou pour [*l’authentification de base*](windows-remote-management-glossary.md).
 
 La méthode de script associée est [**WSMan. SessionFlagCredUsernamePassword**](wsman-sessionflagcredusernamepassword.md), et la méthode C++ est [**IWSManEx. SessionFlagCredUsernamePassword**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagcredusernamepassword).
 
@@ -124,7 +124,7 @@ La méthode de script associée est [**WSMan. SessionFlagUseDigest**](wsman-sess
 
 Utilisez l’authentification par négociation. Le client envoie une demande au serveur pour s’authentifier. Le serveur détermine s’il faut utiliser Kerberos ou NTLM. Kerberos est sélectionné pour authentifier un compte de domaine et NTLM est sélectionné pour les comptes d’ordinateur local. Le nom d’utilisateur doit être spécifié sous la forme domaine \\ nom d’utilisateur pour un utilisateur de domaine ou un \\ nom d’utilisateur ServerName pour un utilisateur local sur un ordinateur serveur.
 
-Le [contrôle de compte d’utilisateur (UAC)](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista) affecte l’accès au service WinRM. Lorsque l’authentification par négociation est utilisée dans un groupe de travail ou un domaine, seul le compte administrateur intégré peut accéder au service. Pour autoriser tous les comptes du groupe administrateurs à accéder au service, définissez la clé de Registre suivante sur 1 : **HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Policies \\ System \\ LocalAccountTokenFilterPolicy**.
+Le [contrôle de compte d’utilisateur (UAC)](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista) affecte l’accès au service WinRM. Lorsque l’authentification par négociation est utilisée dans un groupe de travail ou un domaine, seul le compte administrateur intégré peut accéder au service. pour autoriser tous les comptes du groupe administrateurs à accéder au service, définissez la clé de registre suivante sur 1 : **HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows \\ CurrentVersion \\ policies \\ system \\ LocalAccountTokenFilterPolicy**.
 
 La méthode de script associée est [**WSMan. SessionFlagUseNegotiate**](wsman-sessionflagusenegotiate.md), et la méthode C++ est [**IWSManEx. SessionFlagUseNegotiate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusenegotiate).
 

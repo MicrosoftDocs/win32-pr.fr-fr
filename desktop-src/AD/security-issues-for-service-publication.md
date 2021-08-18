@@ -8,12 +8,12 @@ keywords:
 - Active Directory, utilisation, sécurité, problèmes de sécurité liés à la publication de services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fee5be89c490fa938cdc9c7cf3d7d72434a3dffa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 86e4cec29d08a029bca52a99b573eb339964dd42274d3ca2e54795bb80b60897
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024907"
 ---
 # <a name="security-issues-for-service-publication"></a>Problèmes de sécurité pour la publication de service
 
@@ -29,9 +29,9 @@ Un service s’exécutant sous le compte LocalSystem peut créer un point de con
 
 L’application qui crée un objet point de connexion, ou tout objet, doit avoir les autorisations créer des enfants pour la classe d’objet à créer dans le conteneur où l’objet sera créé. Pour supprimer un objet, le processus qui effectue l’opération doit avoir les autorisations supprimer les enfants pour la classe d’objet à supprimer sur le conteneur contenant l’objet, ou disposer des autorisations de suppression sur l’objet lui-même. Pour mettre à jour un point de connexion, le processus effectuant l’opération doit disposer d’un accès en écriture aux propriétés à mettre à jour sur l’objet.
 
- 
+ 
 
- 
+ 
 
 
 

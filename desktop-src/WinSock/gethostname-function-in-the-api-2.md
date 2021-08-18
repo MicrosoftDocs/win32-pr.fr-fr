@@ -4,12 +4,12 @@ ms.assetid: 39498c2f-6047-484d-a8ea-253461e5b0f5
 title: GetHostName fonction dans l’API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8629083c49e3915dd0ec4f1cfeb9363caabf8b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ec72c7eab46ccb9988dc166d8121304850ea49e2488901496e5c0377a395a48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132272"
 ---
 # <a name="gethostname-function-in-the-api"></a>GetHostName fonction dans l’API
 
@@ -19,7 +19,7 @@ La fonction [**GetHostName**](/windows/desktop/api/winsock/nf-winsock-gethostnam
 
 <dl> <dt>
 
-[Résolution de noms compatible pour TCP/IP dans l’API Windows Sockets 1,1](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
+[résolution de noms Compatible pour TCP/IP dans l’API Windows sockets 1,1](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
 </dt> <dt>
 
 [Résolution de noms indépendante du protocole](protocol-independent-name-resolution-2.md)

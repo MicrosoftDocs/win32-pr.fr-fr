@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 08914e3fcb93d38ccad25053f7c33480e900ad93
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a9a94b9940f58dc26de1c1ba6133e4d5a66a2f34ef96b8aaf59b1a7815a08122
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148592"
 ---
 # <a name="ec_dvd_angle_change"></a>\_changement d' \_ angle de DVD EC \_
 
@@ -42,7 +42,7 @@ Valeur **DWORD** indiquant le nombre d’angles en cours.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les nombres en angle sont compris entre 1 et 9.
 
@@ -70,7 +70,7 @@ Cet événement est déclenché dans tous les domaines.
 [Codes de notification des événements DVD](dvd-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

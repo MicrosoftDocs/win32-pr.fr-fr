@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Classes de l’infrastructure du fournisseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bf4ef94b25e51b7f012987552babd30a93e7792
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 0ba5f8ec85eca2ea2413e176b104865c84ddc5de39aa9fd137b015d07c3e0592
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130991"
 ---
 # <a name="provider-framework-classes"></a>Classes de l’infrastructure du fournisseur
 

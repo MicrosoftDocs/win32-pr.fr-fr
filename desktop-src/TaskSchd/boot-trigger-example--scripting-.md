@@ -1,6 +1,6 @@
 ---
 title: Exemple de déclencheur de démarrage (script)
-description: Cet exemple de script montre comment créer une tâche qui est planifiée pour exécuter le bloc-notes lors du démarrage du système.
+description: cet exemple de script montre comment créer une tâche qui est planifiée pour s’exécuter Bloc-notes lorsque le système est démarré.
 ms.assetid: 73ae9cc4-ef89-4390-ac05-8a773f45fa46
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,29 +9,29 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 72b7735c607dfc39b848532a70e4d24b1a14d346
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ff02bef70b4003c4e7b6e9aff03e2d615f24d7e15707cddcae3a4637ff2b11f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002517"
 ---
 # <a name="boot-trigger-example-scripting"></a>Exemple de déclencheur de démarrage (script)
 
-Cet exemple de script montre comment créer une tâche qui est planifiée pour exécuter le bloc-notes lors du démarrage du système. La tâche contient un déclencheur de démarrage qui spécifie une limite de début et le délai de démarrage de la tâche après le démarrage du système. La tâche contient également une action qui spécifie la tâche d’exécution du bloc-notes. La tâche est inscrite en utilisant le compte de service local comme contexte de sécurité pour exécuter la tâche.
+cet exemple de script montre comment créer une tâche qui est planifiée pour s’exécuter Bloc-notes lorsque le système est démarré. La tâche contient un déclencheur de démarrage qui spécifie une limite de début et le délai de démarrage de la tâche après le démarrage du système. la tâche contient également une action qui spécifie la tâche à exécuter Bloc-notes. La tâche est inscrite en utilisant le compte de service local comme contexte de sécurité pour exécuter la tâche.
 
-La procédure suivante décrit comment planifier le démarrage d’un exécutable, tel que le bloc-notes, lors du démarrage du système.
+la procédure suivante décrit comment planifier l’exécution d’un fichier exécutable tel que Bloc-notes au démarrage du système.
 
-**Pour planifier le démarrage du bloc-notes lors du démarrage du système**
+**pour planifier le démarrage de Bloc-notes lors du démarrage du système**
 
 1.  Créez un objet [**TaskService**](taskservice.md) . Cet objet vous permet de créer la tâche dans un dossier spécifié.
 2.  Récupérez un dossier de tâches et créez une tâche. Utilisez la méthode [**TaskService. GetFolder**](taskservice-getfolder.md) pour récupérer le dossier dans lequel la tâche est stockée et la méthode [**TaskService. newtask**](taskservice-newtask.md) pour créer l’objet [**TaskDefinition**](taskdefinition.md) qui représente la tâche.
-3.  Définissez des informations sur la tâche à l’aide de l’objet [**TaskDefinition**](taskdefinition.md) . Utilisez la propriété [**TaskDefinition. Settings**](taskdefinition-settings.md) pour définir les paramètres qui déterminent la façon dont le service Planificateur de tâches effectue la tâche et la propriété [**TaskDefinition. RegistrationInfo**](taskdefinition-registrationinfo.md) pour définir les informations qui décrivent la tâche.
+3.  Définissez des informations sur la tâche à l’aide de l’objet [**TaskDefinition**](taskdefinition.md) . utilisez la propriété [**TaskDefinition. Paramètres**](taskdefinition-settings.md) pour définir les paramètres qui déterminent la façon dont le service de Planificateur de tâches effectue la tâche et la propriété [**TaskDefinition. RegistrationInfo**](taskdefinition-registrationinfo.md) pour définir les informations qui décrivent la tâche.
 4.  Créez un déclencheur de connexion à l’aide de la propriété [**TaskDefinition. Triggers**](taskdefinition-triggers.md) . Cette propriété permet d’accéder à l’objet [**TriggerCollection**](triggercollection.md) . Utilisez la méthode [**TriggerCollection. Create**](triggercollection-create.md) (en spécifiant le type de déclencheur que vous souhaitez créer) pour créer un déclencheur de démarrage. Au fur et à mesure que vous créez le déclencheur, définissez les propriétés [**StartBoundary**](trigger-startboundary.md) et [**EndBoundary**](trigger-endboundary.md) du déclencheur pour activer et désactiver le déclencheur. Vous pouvez également spécifier une valeur pour la propriété [**delay**](boottrigger-delay.md) du déclencheur de démarrage.
 5.  Créez une action à exécuter par la tâche à l’aide de la propriété [**TaskDefinition. actions**](taskdefinition-actions.md) . Cette propriété permet d’accéder à l’objet [**ActionCollection**](actioncollection.md) . Utilisez la méthode [**ActionCollection. Create**](actioncollection-create.md) pour spécifier le type d’action que vous souhaitez créer. Cet exemple utilise un objet [**ExecAction**](execaction.md) , qui représente une action qui démarre un exécutable.
 6.  Inscrivez la tâche à l’aide de la méthode [**TaskFolder. RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) . La tâche est inscrite en utilisant le compte de service local comme contexte de sécurité pour exécuter la tâche.
 
-L’exemple VBScript suivant montre comment planifier une tâche pour exécuter le bloc-notes 30 secondes après le démarrage du système.
+l’exemple VBScript suivant montre comment planifier l’exécution d’une tâche Bloc-notes 30 secondes après le démarrage du système.
 
 
 ```VB
@@ -128,9 +128,9 @@ WScript.Echo "Task submitted."
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

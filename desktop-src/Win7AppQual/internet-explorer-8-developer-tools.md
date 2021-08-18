@@ -4,16 +4,16 @@ ms.assetid: D721167E-B04B-4B06-A9EE-56711A7A1942
 title: Outils de développement Internet Explorer 8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1a4314d5d0392b9bc4933b945f7da32040e1570
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5ba91fbd3277fc1aa26ed21617464bad52ae2e40d5a7119a0bf2079008f0fe8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994989"
 ---
 # <a name="internet-explorer-8-developer-tools"></a>Outils de développement Internet Explorer 8
 
-Windows Internet Explorer 8 comprend la fonctionnalité Outils de développement. Cette fonctionnalité vous permet de déboguer rapidement Microsoft JScript, d’examiner un comportement spécifique à Windows Internet Explorer ou d’effectuer des itérations rapides pour créer un prototype ou tester une nouvelle solution de conception.
+Windows Internet Explorer 8 comprend la fonctionnalité Outils de développement. cette fonctionnalité vous permet de déboguer rapidement Microsoft JScript, d’examiner un Windows comportement spécifique à Internet Explorer ou d’effectuer des itérations rapides pour créer un prototype ou tester une nouvelle solution de conception.
 
 Les sections suivantes décrivent les caractéristiques importantes de la Outils de développement dans Internet Explorer 8.
 

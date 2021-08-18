@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2be369b34355b199cd47518065724242b9a422e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 91bb115aad422546746a44824c847bd0ae80c188264e8539e569a26e16eefa93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972518"
 ---
 # <a name="activebasicdeviceisvideosupported-property"></a>ActiveBasicDevice :: IsVideoSupported, propriété
 
@@ -54,7 +54,7 @@ Pointeur vers une **valeur booléenne** qui indique si l’appareil prend en cha
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>PlayToDevice. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>PlayToDevice. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Playtodevice.dll</dt> </dl> |

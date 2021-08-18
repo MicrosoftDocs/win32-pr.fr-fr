@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37847f13f7b0d168907f11307b57e893949cc83b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fad96c4e73808608a6175e42ba81b5115b6a84fe9daf2048b4d3d0fefdf8eb05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961368"
 ---
 # <a name="gecos-attribute"></a>attribut GECOS
 
@@ -42,7 +42,7 @@ Contient les informations stockées dans le champ GECOS.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -130,7 +130,7 @@ Contient les informations stockées dans le champ GECOS.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le champ GECOS est un champ facultatif utilisé pour stocker divers éléments d’information, tels que le nom complet de l’utilisateur.
 

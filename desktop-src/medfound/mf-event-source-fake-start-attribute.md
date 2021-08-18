@@ -4,12 +4,12 @@ ms.assetid: efd497dc-affc-4453-975c-09c5dca06374
 title: Attribut MF_EVENT_SOURCE_FAKE_START (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae47bbfdedb7535ff46763ad5bc36f552ffe4780
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b026811330443a3fb5e7c9671a7f6a3de8580985b6be4c6ba149a2d4dc196325
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973768"
 ---
 # <a name="mf_event_source_fake_start-attribute"></a>\_Attribut de \_ \_ début factice de source d’événement MF \_
 
@@ -21,7 +21,7 @@ Spécifie si la topologie du segment actuel est vide.
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est utilisé avec l’événement [MESourceStarted](mesourcestarted.md) .
 
@@ -35,8 +35,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

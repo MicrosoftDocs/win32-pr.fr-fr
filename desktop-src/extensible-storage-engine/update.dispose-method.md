@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: abfc0f501605bfbc5885952a39727b788840dfb5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cd00394b5801f4f3229a19c2949da0091c6e4897695e19766fecf317c45992c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103754516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978179"
 ---
 # <a name="updatedispose-method"></a>Update. dispose, méthode
 

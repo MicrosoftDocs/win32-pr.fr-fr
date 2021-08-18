@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 63e69d12d47f90ba40f5cc785d8b864c40158774
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9137fdd33f59eb841a54e84a6d12bb0b08968ac29c8737afbf56f66c57176c20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965647"
 ---
 # <a name="iwiadevmgr2registereventcallbackclsid-method"></a>IWiaDevMgr2 :: RegisterEventCallbackCLSID, méthode
 
@@ -78,18 +78,18 @@ Spécifie un identificateur d’appareil. Transmettez la **valeur null** pour l�
 *pEventGUID* \[ dans\]
 </dt> <dd>
 
-Type : * #*const \* GUID* _
+Type : **const GUID \***
 
 Spécifie l’événement pour lequel l’application est inscrite. Pour obtenir la liste des événements standard, consultez la page [identificateurs d’événements WIA](-wia-wia-event-identifiers.md).
 
 </dd> <dt>
 
-_pClsID * \[ dans\]
+*pClsID* \[ dans\]
 </dt> <dd>
 
-Type : * #*const \* GUID* _
+Type : **const GUID \***
 
-Pointeur vers l’ID de classe d’application (_ * CLSID * *). Le système d’exécution WIA 2,0 utilise le **CLSID** de l’application pour démarrer l’application quand un événement s’est produit pour lequel il est enregistré.
+Pointeur vers l’ID de classe d’application (**CLSID**). Le système d’exécution WIA 2,0 utilise le **CLSID** de l’application pour démarrer l’application quand un événement s’est produit pour lequel il est enregistré.
 
 </dd> <dt>
 
@@ -126,7 +126,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications WIA 2,0 utilisent cette méthode pour s’inscrire afin de recevoir des événements de périphérique matériel. Après l’appel de **IWiaDevMgr2 :: RegisterEventCallbackCLSID** , l’application est inscrite pour recevoir des événements d’appareil WIA 2,0, même s’il n’est pas en cours d’exécution.
 
@@ -147,8 +147,8 @@ Si l’application n’est pas un composant COM (Component Object Model) inscrit
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                             |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                             |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl> |
 
 

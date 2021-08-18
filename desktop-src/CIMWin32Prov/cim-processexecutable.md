@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: aedb1e79ad842e4cb04746ff47bfab142a536f43
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2e55d5116c4f3f9d14840b5a5e0b75205156dbbaee3aa21c2d14dbb25c53d4b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080413"
 ---
 # <a name="cim_processexecutable-class"></a>\_Classe CIM ProcessExecutable
 
@@ -163,7 +163,7 @@ Nombre de références du fichier dans le processus associé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ ProcessExecutable** est dérivée de la [**\_ dépendance CIM**](cim-dependency.md).
 

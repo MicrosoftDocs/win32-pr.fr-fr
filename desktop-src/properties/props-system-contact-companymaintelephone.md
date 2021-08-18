@@ -4,12 +4,12 @@ ms.assetid: 13eef5c1-45d5-4bf4-960d-acb9ddc80943
 title: System. contact. CompanyMainTelephone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69651dcfd2ade388a1043f3d446c7cd40f092f0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 106ed75165009482398b28732f7e30c531831e570065a8c7f835406ffcc8ec4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098404"
 ---
 # <a name="systemcontactcompanymaintelephone"></a>System. contact. CompanyMainTelephone
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

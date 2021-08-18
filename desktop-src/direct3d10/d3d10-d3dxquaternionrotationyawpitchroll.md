@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: cefcf9a927cee0d8f7c83ff42ae6ca4fc699bb09
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c3df77d7137b369b44d391ea1d8c607ca38dad83c95920d5a1eaf5e359b2b1be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990999"
 ---
 # <a name="d3dxquaternionrotationyawpitchroll-function-d3dx10mathh"></a>D3DXQuaternionRotationYawPitchRoll, fonction (D3DX10Math. h)
 
@@ -79,13 +79,13 @@ Tourner autour de l’axe z, en radians.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointeur vers une structure D3DXQUATERNION avec le lacet, le tangage et le roulis spécifiés.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXQuaternionRotationYawPitchRoll peut être utilisée comme paramètre pour une autre fonction.
 

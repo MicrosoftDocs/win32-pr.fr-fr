@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 573f2ef618c4cd29092fb38fb4c805bdeeecc219
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: b2bdad90d13fe960c0d7a5cabfbb508d8abba890e8114c6d4ae1e47d1977e7d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104462623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119693"
 ---
 # <a name="instruction-modifiers-hlsl-vs-reference"></a>Modificateurs d’instruction (référence HLSL VS)
 
@@ -49,7 +49,7 @@ En cas de prise en charge, le \_ modificateur d’instruction SAT peut être uti
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -58,9 +58,9 @@ En cas de prise en charge, le \_ modificateur d’instruction SAT peut être uti
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

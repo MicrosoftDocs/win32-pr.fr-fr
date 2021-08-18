@@ -4,19 +4,19 @@ ms.assetid: e5c7c882-cbfc-4343-952c-b13c67326756
 title: Extension de la fonctionnalité CertOpenStore
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cce198578cc482ba0488bd97ae0f1d7f923511b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c770ae56ff597f51248486db2c9eb2d74bea8d63d2e8daad83d5938594b2f1a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104564557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007084"
 ---
 # <a name="extending-certopenstore-functionality"></a>Extension de la fonctionnalité CertOpenStore
 
 Le [*magasin de certificats*](../secgloss/c-gly.md) est central pour toutes les opérations de gestion des certificats. Les fonctionnalités de la fonction [**CertOpenStore**](/windows/win32/api/Wincrypt/nf-wincrypt-certopenstore) peuvent être étendues à l’aide d’une fonction de fournisseur de magasin de certificats installable (ou inscrite). Pour obtenir une vue d’ensemble de l’installation ou de l’inscription des fonctions à utiliser avec CryptoAPI, consultez [vue d’ensemble des OID](oid-overview.md).
 
 > [!Note]  
-> Les magasins de certificats personnalisés ne sont pas automatiquement migrés lors de l’exécution de déploiements automatisés. Pour migrer des magasins de certificats personnalisés, vous devez créer un manifeste pour la migration des magasins personnalisés et utiliser le Outil de migration utilisateur Windows (USMT). L’outil USMT peut être téléchargé à partir du centre de téléchargement Microsoft à l’adresse <https://www.microsoft.com/download/details.aspx?id=10837> .
+> Les magasins de certificats personnalisés ne sont pas automatiquement migrés lors de l’exécution de déploiements automatisés. pour migrer des magasins de certificats personnalisés, vous devez créer un manifeste pour la migration des magasins personnalisés et utiliser le Outil de migration utilisateur Windows (USMT). L’outil USMT peut être téléchargé à partir du centre de téléchargement Microsoft à l’adresse <https://www.microsoft.com/download/details.aspx?id=10837> .
 
  
 

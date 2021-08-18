@@ -4,12 +4,12 @@ ms.assetid: 1ad77adb-5960-4965-bddb-5967b982b034
 title: HCRYPTPROV_OR_NCRYPT_KEY_HANDLE (Wincrypt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bbd442b93cdb9ba7479878aa9fcad095b7903af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 982ab2a37c1a2d6035f76cac5c55dcdae44c4cf38f86138c52590c73724b53e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106532142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006337"
 ---
 # <a name="hcryptprov_or_ncrypt_key_handle"></a>\_handle de clé HCRYPTPROV ou \_ NCRYPT \_ \_
 
@@ -28,8 +28,8 @@ typedef ULONG_PTR HCRYPTPROV_OR_NCRYPT_KEY_HANDLE;
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Wincrypt. h</dt> </dl> |
 
 

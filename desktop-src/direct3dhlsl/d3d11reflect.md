@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e54a1f388ebb122398ad33c3a8d942496fa55393
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 44b980d955dcd37197c8d8ed05a6602025d1e21731ca6d22302b76cc2f2e53da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986879"
 ---
 # <a name="d3d11reflect-function"></a>D3D11Reflect fonction)
 
@@ -72,7 +72,7 @@ Type : **[ **HRESULT**](/windows/desktop/WinProg/windows-data-types)**
 
 Retourne l’un des codes de retour décrits dans la rubrique [codes de retour Direct3D 11](/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction de compilateur inline **D3D11Reflect** est un wrapper pour la fonction de compilateur [**D3DReflect**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dreflect) . **D3D11Reflect** peut récupérer uniquement une interface [**ID3D11ShaderReflection**](/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection) à partir d’un nuanceur. **D3DReflect** peut récupérer une interface **ID3D11ShaderReflection** ou une interface de réflexion direct3d 10 ou Direct3D 10,1, par exemple, [**ID3D10ShaderReflection**](/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflection).
 
@@ -92,7 +92,7 @@ D3D11Reflect( pPixelShaderBuffer->GetBufferPointer(), pPixelShaderBuffer->GetBuf
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

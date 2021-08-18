@@ -3,7 +3,7 @@ title: TEXT. hoverFontStyle
 description: L’attribut hoverFontStyle spécifie ou récupère le style de police utilisé pour le contrôle de texte lorsque le curseur de la souris pointe dessus.
 ms.assetid: 77ca8512-6150-4a75-8220-19de3fe9e719
 keywords:
-- TEXT. hoverFontStyle Windows Media Player
+- TEXT. hoverFontStyle Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebaeed6d9701b6e81ac91bc5292dc5b431aa70d7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d04f2ae8e4231ca89f37a65e591271f2536679da649d1efd22ffc1063c89d17d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134622"
 ---
 # <a name="texthoverfontstyle"></a>TEXT. hoverFontStyle
 
@@ -45,7 +45,7 @@ Cet attribut est une **chaîne** en lecture/écriture contenant une ou plusieurs
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser n’importe quelle combinaison de valeurs, en les séparant par des espaces. Le style normal est prioritaire sur toutes les autres valeurs, et les autres valeurs spécifiées en même temps que normal seront ignorées.
 

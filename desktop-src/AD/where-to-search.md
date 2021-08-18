@@ -8,12 +8,12 @@ keywords:
 - Active Directory AD, recherche, choix de l’emplacement de recherche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f24baccd55e263c4d5b677996589ba57c1301e8
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 6984a79bb761c1926b6735a91209c9f387ac45619ffc752daef253a74f5e587a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104314597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024317"
 ---
 # <a name="deciding-where-to-search"></a>Choix de l’emplacement de recherche
 
@@ -44,6 +44,6 @@ Le conteneur de configuration contient des informations de configuration, telles
 
 Le catalogue global contient un réplica de chaque objet dans Active Directory Domain Services, mais avec seulement un petit nombre de leurs attributs. Les attributs du catalogue global sont ceux qui sont utilisés le plus fréquemment dans les opérations de recherche, comme le prénom et le nom d’un utilisateur, les noms de connexion, etc. Pour plus d’informations sur la recherche dans le catalogue global, consultez [recherche dans le catalogue global](searching-global-catalog-contents.md).
 
- 
+ 
 
- 
+ 

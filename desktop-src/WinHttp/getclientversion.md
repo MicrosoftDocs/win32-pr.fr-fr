@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e0bcf439c8a282e42a28126824ffb70630a341e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33aeb4bd59730c48407220fede0cec0a606614f4a9692cd0e9852d56757a7f9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133212"
 ---
 # <a name="getclientversion-function"></a>getClientVersion fonction)
 
@@ -38,7 +38,7 @@ Chaîne délimitée par des points-virgules contenant des adresses IP.
 
 Liste d’adresses IP séparées par des points-virgules triées ou une chaîne vide si le tri de la liste d’adresses IP est impossible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette fonction retourne la version 1,0.
 

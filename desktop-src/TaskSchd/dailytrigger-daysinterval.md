@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6499f3b900fe10b2a2527c2e2ee675cca3151204
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d4355e6c2a26b197224141018fa5a1d85e7d31e211ac47dc84a9e8c9ef3750fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139492"
 ---
 # <a name="dailytriggerdaysinterval-property"></a>DailyTrigger. DaysInterval, propriété
 
@@ -40,7 +40,7 @@ DailyTrigger.DaysInterval As short
 
 Intervalle entre les jours de la planification.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un intervalle de 1 produit une planification quotidienne. Un intervalle de 2 produit une planification tous les jours.
 
@@ -52,8 +52,8 @@ Lors de la lecture ou de l’écriture de vos propres données XML pour une tâc
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

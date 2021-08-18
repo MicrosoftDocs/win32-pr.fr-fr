@@ -4,12 +4,12 @@ description: Single-Threaded Apartments
 ms.assetid: 2f345ae2-8314-4067-a6d6-5a0275941ed4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f0a8cb1422b6866d9e0d043fdd46c895e6d335b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 41f9b969a48fd83ac82307c42bf4e801168bcf97f83536045fc078b19e3eb77d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129821"
 ---
 # <a name="single-threaded-apartments"></a>Single-Threaded Apartments
 
@@ -74,6 +74,6 @@ L’objet peut être réentré si l’une de ses implémentations de méthode d�
 [Communication monothread et multithread](single-threaded-and-multithreaded-communication.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

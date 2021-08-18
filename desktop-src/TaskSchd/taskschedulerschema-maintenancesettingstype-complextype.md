@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7f261e84fe2af1239cce1bbd377e991ede6e8506
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f0733d16ec929b4e67774fc436c1530b67d70392b2655525b2aaaa642c2ea346
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139202"
 ---
 # <a name="maintenancesettingstype-complex-type"></a>Type complexe maintenanceSettingsType
 
@@ -82,8 +82,8 @@ Définit les éléments enfants et les informations de séquencement pour l’é
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>           |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/> |
 
 
 
