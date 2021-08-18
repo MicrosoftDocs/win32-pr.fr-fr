@@ -1,19 +1,19 @@
 ---
-title: Paramètres du serveur BITS pour les travaux de chargement
+title: Paramètres du serveur BITS pour les travaux Télécharger
 description: 'Cette section contient les rubriques suivantes :'
 ms.assetid: 31be788a-de59-43df-b5cb-e97dfbfd5c05
 keywords:
-- Paramètres du serveur BITS pour les BITS des travaux de chargement
+- Paramètres du serveur bits pour les bits des travaux Télécharger
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a62e2a36743d3f2dac7c70f1b1097187ba44071e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: da8a947c89d0c807064f65a856ed889cde9b672af3ec6518e684fc0efe951413
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021228"
 ---
-# <a name="bits-server-settings-for-upload-jobs"></a>Paramètres du serveur BITS pour les travaux de chargement
+# <a name="bits-server-settings-for-upload-jobs"></a>Paramètres du serveur BITS pour les travaux Télécharger
 
 Cette section contient les rubriques suivantes :
 
@@ -27,13 +27,13 @@ Cette section contient les rubriques suivantes :
 
 
 
- 
+ 
 
 Pour plus d’informations sur la configuration d’IIS pour les chargements, consultez [configuration du serveur pour les téléchargements](setting-up-the-server-for-uploads.md).
 
- 
+ 
 
- 
+ 
 
 
 

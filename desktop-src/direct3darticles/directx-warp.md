@@ -1,19 +1,19 @@
 ---
-title: Guide de la plateforme de rastérisation avancée Windows (WARP)
-description: Cet article décrit la plateforme Windows Advanced rastérisation (WARP) et les aspects suivants de WARP.
+title: Windows Guide de la plateforme de rastérisation avancée (WARP)
+description: cet article décrit Windows plateforme de rastérisation avancée (warp) et les aspects suivants de warp.
 ms.assetid: C40A96EB-64AA-46EB-85A9-7C996ABC8BFE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1c09c29dd7b935542f0238cde0a71cbc97fce23
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bab76fd68985069e6114cd7bbb0901eeba5d911eba574332b1dd2008f0375a5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745989"
 ---
-# <a name="windows-advanced-rasterization-platform-warp-guide"></a>Guide de la plateforme de rastérisation avancée Windows (WARP)
+# <a name="windows-advanced-rasterization-platform-warp-guide"></a>Windows Guide de la plateforme de rastérisation avancée (WARP)
 
-Cet article décrit la plateforme Windows Advanced rastérisation (WARP) et les aspects suivants de WARP.
+cet article décrit Windows plateforme de rastérisation avancée (warp) et les aspects suivants de warp.
 
 -   [Qu’est-ce que la distorsion ?](#what-is-warp)
 -   [Avantages de la déformation](#warp-benefits)
@@ -35,7 +35,7 @@ Cet article décrit la plateforme Windows Advanced rastérisation (WARP) et les 
 
 ## <a name="what-is-warp"></a>Qu’est-ce que la distorsion ?
 
-WARP est un rastériseur logiciel à grande vitesse et entièrement conforme. Il s’agit d’un composant de la technologie graphique DirectX introduit par le runtime Direct3D 11. Le runtime Direct3D 11 est installé sur Windows 7, Windows Server 2008 R2 et Windows Vista avec la \[ \] mise à jour KB971644. Windows 8, Windows 10, Windows Server 2012 & versions ultérieures et Windows RT incluent le runtime Direct3D 11,1, qui dispose d’une version mise à jour de WARP. Windows 10 automne Creators Update (1709) comprend une version de WARP qui prend en charge les runtimes Direct3D 11 et Direct3D 12.
+WARP est un rastériseur logiciel à grande vitesse et entièrement conforme. Il s’agit d’un composant de la technologie graphique DirectX introduit par le runtime Direct3D 11. le runtime Direct3D 11 est installé sur Windows 7, Windows Server 2008 R2 et Windows Vista avec la \[ \] mise à jour KB971644. Windows 8, Windows 10, Windows Server 2012 & ci-dessus et Windows RT incluent le runtime Direct3D 11,1, qui dispose d’une version mise à jour de WARP. Windows 10 Fall Creators Update (1709) comprend une version de WARP qui prend en charge les runtimes direct3d 11 et direct3d 12.
 
 ## <a name="warp-benefits"></a>Avantages de la déformation
 
@@ -90,13 +90,13 @@ WARP prend entièrement en charge toutes les fonctionnalités Direct3D 10 et 10,
 -   Filtrage anisotrope
 -   applications 32 bits et 64 bits et applications 32 bits prenant en charge les adresses volumineuses
 
-Quand vous installez la [mise à jour de la plateforme pour Windows 7](https://support.microsoft.com/kb/2670838) sur Windows 7 SP1 ou windows Server 2008 R2 SP1, ce système d’exploitation comprend le runtime Direct3D 11,1 et une version de Warp qui prend en charge Direct3D 11. x lorsqu’il est utilisé avec les [niveaux de fonctionnalité](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9 \_ 1, 9, 9 \_ \_ 3, 10 \_ \_ 1 et 11 \_ 0.
+quand vous installez la [mise à jour de la plateforme pour Windows 7](https://support.microsoft.com/kb/2670838) sur Windows 7 sp1 ou Windows Server 2008 R2 sp1, ce système d’exploitation comprend le runtime direct3d 11,1 et une version de WARP qui prend en charge direct3d 11. x lorsqu’il est utilisé avec les [niveaux de fonctionnalité](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9 \_ 1, 9, \_ 9 \_ 3, 10 \_ \_ 1 et 11 \_ 0.
 
-Windows 8, Windows 10, Windows Server 2012 & versions ultérieures et Windows RT incluent le runtime Direct3D 11,1 et une nouvelle version de WARP. Cette version prend en charge Direct3D 11. x lorsqu’elle est utilisée avec les [niveaux de fonctionnalité](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9 \_ 1, 9 \_ 2, 9 \_ 3, 10 \_ 0, 10 \_ 1, 11 \_ 0 et 11 \_ 1.
+Windows 8, Windows 10, Windows Server 2012 & ci-dessus et Windows RT incluent le runtime Direct3D 11,1 et une nouvelle version de WARP. Cette version prend en charge Direct3D 11. x lorsqu’elle est utilisée avec les [niveaux de fonctionnalité](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9 \_ 1, 9 \_ 2, 9 \_ 3, 10 \_ 0, 10 \_ 1, 11 \_ 0 et 11 \_ 1.
 
-Windows 10 automne Creators Update (1709) comprend une nouvelle version de WARP qui prend en charge les niveaux de fonctionnalité [Direct3D 12](../direct3d12/direct3d-12-graphics.md) 12 \_ 0 et 12 \_ 1. 
+Windows 10 Fall Creators Update (1709) comprend une nouvelle version de WARP qui prend en charge les niveaux de fonctionnalité [Direct3D 12](../direct3d12/direct3d-12-graphics.md) 12 \_ 0 et 12 \_ 1. 
 
-La configuration minimale requise pour la déformation est la même que pour Windows Vista, en particulier :
+la configuration minimale requise pour la déformation est la même que pour Windows Vista, en particulier :
 
 -   UC minimum 800 MHz
 -   MMX, SSE ou SSE2 ne sont pas requis
@@ -121,7 +121,7 @@ Toutes les applications qui peuvent utiliser Direct3D peuvent utiliser WARP. Cel
 
 ### <a name="casual-games"></a>Jeux informels
 
-Les jeux ont généralement des exigences de rendu simples. Toutefois, ils nécessitent également l’utilisation d’effets visuels impressionnants, qui peuvent nécessiter une accélération matérielle. La majorité des titres de jeux les plus vendus pour Windows sont les simulations ou les jeux informels, qui ne nécessitent pas de graphiques à hautes performances. Toutefois, les deux styles de jeux tirent parti des graphiques basés sur un nuanceur moderne et de la capacité de mise à l’échelle du matériel.
+Les jeux ont généralement des exigences de rendu simples. Toutefois, ils nécessitent également l’utilisation d’effets visuels impressionnants, qui peuvent nécessiter une accélération matérielle. la majorité des titres de jeux les plus vendus pour les Windows sont les simulations ou les jeux occasionnels, qui ne nécessitent pas de graphiques à hautes performances. Toutefois, les deux styles de jeux tirent parti des graphiques basés sur un nuanceur moderne et de la capacité de mise à l’échelle du matériel.
 
 ### <a name="existing-non-gaming-applications"></a>Applications sans jeu existantes
 
@@ -137,7 +137,7 @@ Les applications cibles pour WARP incluent également celles qui peuvent ne pas 
 
 ## <a name="warp-architecture-and-performance"></a>Architecture et performances de la distorsion
 
-WARP est basé sur le code base du rastériseur de référence. Par conséquent, WARP utilise la même interface logicielle pour Direct3D 10 et versions ultérieures et DXGI. WARP est inclus dans Windows 7 dans le D3d10warp.dll, situé dans dossiers systèmes Windows. Deux versions de WARP sont installées sur les ordinateurs 64 bits, une version x86 et x64. La version x64 peut s’exécuter plus rapidement dans certaines circonstances, car le générateur de code contenu dans WARP peut tirer parti des registres supplémentaires disponibles quand les utilisateurs exécutent des applications 64 bits.
+WARP est basé sur le code base du rastériseur de référence. Par conséquent, WARP utilise la même interface logicielle pour Direct3D 10 et versions ultérieures et DXGI. WARP est inclus dans Windows 7 dans le D3d10warp.dll, situé dans Windows dossiers systèmes. Deux versions de WARP sont installées sur les ordinateurs 64 bits, une version x86 et x64. La version x64 peut s’exécuter plus rapidement dans certaines circonstances, car le générateur de code contenu dans WARP peut tirer parti des registres supplémentaires disponibles quand les utilisateurs exécutent des applications 64 bits.
 
 WARP contient les deux compilateurs haute vitesse et en temps réel suivants :
 
@@ -154,7 +154,7 @@ WARP ne nécessite pas l’exécution de matériel graphique. Il peut s’exécu
 
 Les applications et les exemples qui ont été conçus et générés pour s’exécuter sur un matériel Direct3D 10 et ultérieur sans aucune connaissance de la distorsion s’exécuteront probablement correctement à l’aide de WARP. Toutefois, nous vous recommandons de réduire autant que possible les paramètres et la résolution de qualité pour atteindre des fréquences d’images utilisables. Vous pouvez utiliser WARP pour développer et paramétrer des applications qui s’exécutent correctement sur le matériel et les logiciels.
 
-Étant donné que WARP utilise plusieurs cœurs de processeur, il fonctionne mieux sur les processeurs quadruple cœur modernes. WARP s’exécute également beaucoup plus rapidement sur les ordinateurs sur lesquels sont installés des extensions SSE 4.1. Microsoft a effectué des tests et un réglage des performances significatifs sur les ordinateurs dotés de huit cœurs ou plus et de SSE 4.1, car ces ordinateurs de haut niveau sont plus courants pendant la durée de vie des systèmes d’exploitation Windows 7 et versions ultérieures.
+Étant donné que WARP utilise plusieurs cœurs de processeur, il fonctionne mieux sur les processeurs quadruple cœur modernes. WARP s’exécute également beaucoup plus rapidement sur les ordinateurs sur lesquels sont installés des extensions SSE 4.1. Microsoft a effectué des tests et un réglage des performances significatifs sur les ordinateurs dotés de huit cœurs ou plus et de sse 4.1, car ces ordinateurs de haut niveau sont plus courants pendant la durée de vie des systèmes d’exploitation Windows 7 et versions ultérieures.
 
 Lorsque la déformation est exécutée sur l’UC, elle est limitée par rapport à une carte graphique de plusieurs façons. La vitesse du bus frontal d’un processeur est généralement d’environ 10 Go/s. En revanche, une carte graphique a souvent une mémoire dédiée qui utilise 20 à 100 Go/s ou plus de bande passante graphique. Le matériel graphique comporte également des unités à fonction fixe qui peuvent exécuter des tâches complexes et coûteuses, telles que le filtrage de texture, la décompression de format ou les conversions, de manière asynchrone, avec peu de surcharge ou un coût d’électricité. L’exécution de ces opérations sur un processeur standard est coûteuse en termes de consommation d’énergie et de cycles de performances.
 
@@ -180,7 +180,7 @@ Le premier tableau montre des exemples de données de déviation avec Direct3D 1
 
 Le deuxième tableau montre des exemples de données exécutant le même test sur une variété de cartes graphiques :
 
-| Carte graphique         | Temps   | Moy. FPS | FPS min. | Frame min. | Nbre max. d’images | Trame max. |
+| Carte graphique         | Heure   | Moy. FPS | FPS min. | Frame min. | Nbre max. d’images | Trame max. |
 |-----------------------|--------|---------|---------|-----------|---------|-----------|
 | NVIDIA 8800 GTS       | 23,58  | 84,80   | 60,78   | 1957      | 130,83  | 1022      |
 | NVIDIA 8500 GT        | 47,63  | 41,99   | 25,67   | 1986      | 72,57   | 991       |
@@ -193,8 +193,8 @@ Le deuxième tableau montre des exemples de données exécutant le même test su
 
 ## <a name="warp-conformance"></a>Conformité de la distorsion
 
-WARP réussit tous les tests de conformité WHQL (Windows Hardware Quality Labs) standard pour la validation des périphériques matériels Direct3D.
+WARP passe tous les tests de conformité WHQL (standard Windows Hardware Quality Labs) pour la validation des périphériques matériels Direct3D.
 
 WARP a été testé par rapport à une suite d’applications et d’évaluation Direct3D 10 et Direct3D 10,1, ainsi qu’à des exemples du kit de développement logiciel (SDK) de DirectX, NVIDIA et AMD.
 
-WARP a utilisé l’outil de débogage et d’analyse [pix](https://msdn.microsoft.com/library/ee417062(v=VS.85).aspx) pour Windows dans son test. Microsoft dispose d’une grande bibliothèque de captures de frames uniques d’applications qui sont utilisées pour effectuer une comparaison entre le matériel et la distorsion. La majorité des images s’affichent presque identiques entre le matériel et la déformation ; Si de petites différences se produisent parfois, elles se trouvent dans les tolérances définies par la spécification Direct3D 10.
+WARP a utilisé l’outil de débogage et d’analyse [PIX](https://msdn.microsoft.com/library/ee417062(v=VS.85).aspx) pour Windows dans ses tests ; Microsoft dispose d’une grande bibliothèque de captures de frames uniques d’applications qui sont utilisées pour effectuer une comparaison entre le matériel et la distorsion. La majorité des images s’affichent presque identiques entre le matériel et la déformation ; Si de petites différences se produisent parfois, elles se trouvent dans les tolérances définies par la spécification Direct3D 10.

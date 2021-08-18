@@ -1,17 +1,17 @@
 ---
 description: Un appareil téléphonique est un appareil qui prend en charge la classe d’appareil téléphonique et qui comprend des hookswitches, des téléphones, des mains et des casques.
 ms.assetid: c2660d77-0265-49d4-bd04-1cddd674b760
-title: Éléments de l’appareil téléphonique
+title: Téléphone Éléments d’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc5744967dc738a65d7632dc1a1f6126bfbc9887
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71c882e7f9ebe279d0ee6622708f8b735b68f4c37a2f93dffe2a870271d556cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106532121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774169"
 ---
-# <a name="phone-device-elements"></a>Éléments de l’appareil téléphonique
+# <a name="phone-device-elements"></a>Téléphone Éléments d’appareil
 
 Un appareil téléphonique est un appareil qui prend en charge la classe Phone Device et qui comprend certains ou l’ensemble des éléments suivants :
 
@@ -29,7 +29,7 @@ Un appareil téléphonique est un appareil qui prend en charge la classe Phone D
 -   Contrôle de volume/gain de contrôle/muet : chaque appareil hookswitch est l’appariement d’un haut-parleur et d’un composant de microphone. L’API fournit un contrôle du volume et une désactivation des composants du haut-parleur et permet d’obtenir un contrôle ou une désactivation des composants du microphone.
 -   [Sonnerie](ring.md): un moyen d’alerter les utilisateurs, généralement par le biais d’une cloche. Un appareil téléphonique peut être en mesure de sonner dans différents modes ou modèles.
 -   [Display](display.md): mécanisme permettant de présenter visuellement des messages à l’utilisateur. Un affichage sur téléphone est caractérisé par le nombre de lignes et de colonnes.
--   [Boutons de téléphone](phone-buttons.md): tableau de boutons. Chaque fois que l’utilisateur appuie sur un bouton de l’ensemble de téléphones, l’API signale que le bouton correspondant a été enfoncé. Les identificateurs de lampe de bouton identifient une paire bouton/lampe. Bien entendu, il est possible d’avoir des paires bouton-lampe avec aucun bouton ou aucun feu. Les identificateurs de lampe de bouton sont des valeurs entières comprises entre 0 et le nombre maximal de lampes de bouton disponibles sur l’appareil téléphonique, moins un. Chaque bouton appartient à une classe Button. Les classes incluent les boutons d’apparence des appels, les boutons de fonctionnalité, les boutons du pavé numérique et les boutons locaux.
+-   [boutons de Téléphone](phone-buttons.md): tableau de boutons. Chaque fois que l’utilisateur appuie sur un bouton de l’ensemble de téléphones, l’API signale que le bouton correspondant a été enfoncé. Les identificateurs de lampe de bouton identifient une paire bouton/lampe. Bien entendu, il est possible d’avoir des paires bouton-lampe avec aucun bouton ou aucun feu. Les identificateurs de lampe de bouton sont des valeurs entières comprises entre 0 et le nombre maximal de lampes de bouton disponibles sur l’appareil téléphonique, moins un. Chaque bouton appartient à une classe Button. Les classes incluent les boutons d’apparence des appels, les boutons de fonctionnalité, les boutons du pavé numérique et les boutons locaux.
 -   [Lampes](lamps.md): un tableau de lampes (tels que del) contrôlable individuellement à partir de l’API. Les lampes peuvent être allumées dans différents modes en modifiant la fréquence d’activation et de désactivation. L’identificateur de feu-bouton identifie la lampe.
 -   [Zones de données](data-areas.md): zones mémoire du périphérique téléphonique où le code d’instruction ou les données peuvent être téléchargés vers et/ou téléchargés à partir de. Les informations téléchargées affectent le comportement (ou, en d’autres termes, le programme) du périphérique téléphonique.
 

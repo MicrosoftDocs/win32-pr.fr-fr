@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de8f3dca090d44ea545dcc290b04d99131d50dc7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2b2f4529c2f3aeef1098d444501a87ed3e45ec39fb2ca6311f9cf017762f091c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104033332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022017"
 ---
 # <a name="trust-posix-offset-attribute"></a>Trust-POSIX-offset, attribut
 
@@ -36,7 +36,7 @@ Décalage POSIX (Portable Operating System Interface) du domaine approuvé.
 | Fréquence des mises à jour  | Lors de la création d’une approbation.         |
 | Attribute-Id      | 1.2.840.113556.1.4.134               |
 | System-ID-GUID    | bf967a5e-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Décalage POSIX (Portable Operating System Interface) du domaine approuvé.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

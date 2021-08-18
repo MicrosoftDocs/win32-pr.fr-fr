@@ -1,6 +1,6 @@
 ---
 title: Exemple de déclencheur d’inscription (script)
-description: Cet exemple de script montre comment créer une tâche qui est planifiée pour exécuter le bloc-notes lorsqu’une tâche est inscrite.
+description: cet exemple de script montre comment créer une tâche qui est planifiée pour s’exécuter Bloc-notes lorsqu’une tâche est inscrite.
 ms.assetid: 956b3a21-7d36-4d06-be84-690884ba653a
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,34 +9,34 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bce6271927e74e31f25b3ac86783b35899bbd862
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f036d4772c98392881f254e07e192c970a2cb407727294c7f196c9c15cb9e11f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011319"
 ---
 # <a name="registration-trigger-example-scripting"></a>Exemple de déclencheur d’inscription (script)
 
-Cet exemple de script montre comment créer une tâche qui est planifiée pour exécuter le bloc-notes lorsqu’une tâche est inscrite. La tâche contient un déclencheur d’inscription qui spécifie une limite de début et une limite de fin pour la tâche. La limite de début spécifie le moment où le déclencheur est activé. La tâche contient également une action qui spécifie la tâche d’exécution du bloc-notes.
+cet exemple de script montre comment créer une tâche qui est planifiée pour s’exécuter Bloc-notes lorsqu’une tâche est inscrite. La tâche contient un déclencheur d’inscription qui spécifie une limite de début et une limite de fin pour la tâche. La limite de début spécifie le moment où le déclencheur est activé. la tâche contient également une action qui spécifie la tâche à exécuter Bloc-notes.
 
 > [!Note]  
 > Quand une tâche avec un déclencheur d’inscription est mise à jour, la tâche s’exécute une fois la mise à jour effectuée.
 
- 
+ 
 
-La procédure suivante décrit comment planifier le démarrage d’un exécutable, tel que le bloc-notes, lorsqu’une tâche est inscrite.
+la procédure suivante décrit comment planifier l’exécution d’un exécutable, tel que Bloc-notes, quand une tâche est inscrite.
 
-**Pour planifier le démarrage du bloc-notes quand une tâche est inscrite**
+**pour planifier le démarrage de Bloc-notes lorsqu’une tâche est inscrite**
 
 1.  Créez un objet [**TaskService**](taskservice.md) . Cet objet vous permet de créer la tâche dans un dossier spécifié.
 2.  Récupérez un dossier de tâches et créez une tâche. Utilisez la méthode [**TaskService. GetFolder**](taskservice-getfolder.md) pour récupérer le dossier dans lequel la tâche est stockée et la méthode [**TaskService. newtask**](taskservice-newtask.md) pour créer l’objet [**TaskDefinition**](taskdefinition.md) qui représente la tâche.
-3.  Définissez des informations sur la tâche à l’aide de l’objet [**TaskDefinition**](taskdefinition.md) . Utilisez la propriété [**TaskDefinition. Settings**](taskdefinition-settings.md) pour définir les paramètres qui déterminent la façon dont le service Planificateur de tâches effectue la tâche et la propriété [**TaskDefinition. RegistrationInfo**](taskdefinition-registrationinfo.md) pour définir les informations qui décrivent la tâche.
+3.  Définissez des informations sur la tâche à l’aide de l’objet [**TaskDefinition**](taskdefinition.md) . utilisez la propriété [**TaskDefinition. Paramètres**](taskdefinition-settings.md) pour définir les paramètres qui déterminent la façon dont le service de Planificateur de tâches effectue la tâche et la propriété [**TaskDefinition. RegistrationInfo**](taskdefinition-registrationinfo.md) pour définir les informations qui décrivent la tâche.
 4.  Créez un déclencheur d’inscription à l’aide de la propriété [**TaskDefinition. Triggers**](taskdefinition-triggers.md) . Cette propriété permet d’accéder à l’objet [**TriggerCollection**](triggercollection.md) . Utilisez la méthode [**TriggerCollection. Create**](triggercollection-create.md) (en spécifiant le type de déclencheur que vous souhaitez créer) pour créer un déclencheur d’inscription.
 5.  Créez une action à exécuter par la tâche à l’aide de la propriété [**TaskDefinition. actions**](taskdefinition-actions.md) . Cette propriété permet d’accéder à l’objet [**ActionCollection**](actioncollection.md) . Utilisez la méthode [**ActionCollection. Create**](actioncollection-create.md) pour spécifier le type d’action que vous souhaitez créer. Cet exemple utilise un objet [**ExecAction**](execaction.md) , qui représente une action qui démarre un exécutable.
 6.  Inscrivez la tâche à l’aide de la méthode [**TaskFolder. RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) .
 
-L’exemple VBScript suivant montre comment créer une tâche qui planifie l’exécution du bloc-notes quand la tâche est inscrite.
+l’exemple VBScript suivant montre comment créer une tâche qui planifie Bloc-notes à exécuter lorsque la tâche est inscrite.
 
 
 ```VB
@@ -122,9 +122,9 @@ WScript.Echo "Task submitted."
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

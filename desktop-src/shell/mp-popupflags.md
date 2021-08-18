@@ -26,12 +26,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5d49f848df7749a732e9f0b849d44a9be56a5c3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1f6211769eca021f76fcbef34625f705cd3bf3fed02ca548d2965f17de80af7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710009"
 ---
 # <a name="mp_popupflags-constants"></a>\_Constantes POPUPFLAGS MP
 
@@ -48,8 +48,8 @@ Représente les options disponibles lors de l’affichage d’un menu contextuel
 | <span id="MPPF_REPOSITION"></span><span id="mppf_reposition"></span><dl> <dt>**MPPF \_ Repositionner**</dt> <dt>0x00000020</dt> </dl>          | Affichez la barre à une autre position, en fonction des modifications apportées au menu.<br/>                                                                                                                                                                                        |
 | <span id="MPPF_FORCEZORDER"></span><span id="mppf_forcezorder"></span><dl> <dt>**MPPF \_ FORCEZORDER**</dt> <dt>0x00000040</dt> </dl>       | Réservé. Ne pas utiliser.<br/>                                                                                                                                                                                                                                         |
 | <span id="MPPF_FINALSELECT"></span><span id="mppf_finalselect"></span><dl> <dt>**MPPF \_ FINALSELECT**</dt> <dt>0x00000080</dt> </dl>       | Sélectionnez le dernier élément dans le menu.<br/>                                                                                                                                                                                                                             |
-| <span id="MPPF_ALIGN_LEFT"></span><span id="mppf_align_left"></span><dl> <dt>**MPPF \_ Aligner à \_ gauche**</dt> <dt>0x02000000</dt> </dl>         | **Windows Vista ou version ultérieure**: Alignez le menu contextuel à gauche de la zone spécifiée dans le paramètre *prcExclude* de [**ITrackShellMenu ::P opup**](/windows/desktop/api/Shdeprecated/nf-shdeprecated-itrackshellmenu-popup) ou [**IMenuPopup ::P opup**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-popup). Il s’agit de l’alignement par défaut.<br/> |
-| <span id="MPPF_ALIGN_RIGHT"></span><span id="mppf_align_right"></span><dl> <dt>**MPPF \_ Aligner à \_ droite**</dt> <dt>0x04000000</dt> </dl>      | **Windows Vista ou version ultérieure**: Alignez le menu contextuel à droite de la zone spécifiée dans le paramètre *prcExclude* de [**ITrackShellMenu ::P opup**](/windows/desktop/api/Shdeprecated/nf-shdeprecated-itrackshellmenu-popup) ou [**IMenuPopup ::P opup**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-popup).<br/>                               |
+| <span id="MPPF_ALIGN_LEFT"></span><span id="mppf_align_left"></span><dl> <dt>**MPPF \_ Aligner à \_ gauche**</dt> <dt>0x02000000</dt> </dl>         | **Windows Vista ou version ultérieure**: alignez le menu contextuel à gauche de la zone spécifiée dans le paramètre *prcExclude* de [**ITrackShellMenu ::P opup**](/windows/desktop/api/Shdeprecated/nf-shdeprecated-itrackshellmenu-popup) ou [**IMenuPopup ::P opup**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-popup). Il s’agit de l’alignement par défaut.<br/> |
+| <span id="MPPF_ALIGN_RIGHT"></span><span id="mppf_align_right"></span><dl> <dt>**MPPF \_ Aligner à \_ droite**</dt> <dt>0x04000000</dt> </dl>      | **Windows Vista ou version ultérieure**: alignez le menu contextuel à droite de la zone spécifiée dans le paramètre *prcExclude* de [**ITrackShellMenu ::P opup**](/windows/desktop/api/Shdeprecated/nf-shdeprecated-itrackshellmenu-popup) ou [**IMenuPopup ::P opup**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-popup).<br/>                               |
 | <span id="MPPF_TOP"></span><span id="mppf_top"></span><dl> <dt>**MPPF \_ TOP**</dt> <dt>0x20000000</dt> </dl>                               | Placez le menu contextuel au-dessus du point initial spécifié dans le paramètre *PPT* de [**ITrackShellMenu ::P opup**](/windows/desktop/api/Shdeprecated/nf-shdeprecated-itrackshellmenu-popup) ou [**IMenuPopup ::P opup**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-popup).<br/>                                                                |
 | <span id="MPPF_LEFT"></span><span id="mppf_left"></span><dl> <dt>**MPPF \_**</dt> <dt>0x40000000</dt> gauche </dl>                            | Placez le menu contextuel à gauche du point initial.<br/>                                                                                                                                                                                                    |
 | <span id="MPPF_RIGHT"></span><span id="mppf_right"></span><dl> <dt>**MPPF \_**</dt> <dt>0x60000000</dt> droit </dl>                         | Placez le menu contextuel à droite du point initial.<br/>                                                                                                                                                                                                   |
@@ -58,18 +58,18 @@ Représente les options disponibles lors de l’affichage d’un menu contextuel
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Ces constantes sont définies dans le fichier ShObjIdl. h à partir de Windows XP Service Pack 1 (SP1) et Windows Server 2003
+ces constantes sont définies dans le fichier Shobjidl. h à partir de Windows XP Service Pack 1 (SP1) et Windows Server 2003
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP1 uniquement\]<br/>                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>ShObjIdl. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>ShObjIdl. idl</dt> </dl> |
 

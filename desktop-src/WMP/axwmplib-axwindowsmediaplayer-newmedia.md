@@ -3,9 +3,9 @@ title: Méthode AxWindowsMediaPlayer. newMedia
 description: La méthode newMedia retourne une interface IWMPMedia pour un nouvel élément multimédia.
 ms.assetid: d10a517e-b4da-4f0b-9d51-9d387578d7dd
 keywords:
-- méthode newMedia lecteur Windows Media
-- méthode newMedia lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, méthode newMedia
+- Lecteur Windows Media de la méthode newMedia
+- méthode newMedia Lecteur Windows Media, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, méthode newMedia
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 093a4e2b8181aac9148686108ad2c5c318a4d0cf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cdde19a6cb5da5113cb580c1916052c7ae0d38756bbc120368ffdfd464105591
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618739"
 ---
 # <a name="axwindowsmediaplayernewmedia-method"></a>Méthode AxWindowsMediaPlayer. newMedia
 
@@ -63,7 +63,7 @@ Public Function newMedia( _
 
 Interface WMPLib. IWMPMedia qui représente l’élément multimédia nouvellement créé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre *du bstrURL* ne doit pas être une chaîne de longueur nulle ("") ou null.
 
@@ -83,7 +83,7 @@ Le paramètre *du bstrURL* ne doit pas être une chaîne de longueur nulle ("") 
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPMedia (VB et C#)**](iwmpmedia--vb-and-c.md)

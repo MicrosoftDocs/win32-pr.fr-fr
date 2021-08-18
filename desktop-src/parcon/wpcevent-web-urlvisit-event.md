@@ -4,12 +4,12 @@ ms.assetid: 636b0ce8-cf08-4536-9b41-79512b02a066
 title: Événement WPCEVENT_WEB_URLVISIT (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1075ae930cdaa9ee539dbc17a8c13d5c2a41add
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b9524909ee78d14395e2f208fe265b3abc31240d2036788b8b84c4fea05aac9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112699"
 ---
 # <a name="wpcevent_web_urlvisit-event"></a>\_ \_ Événement URLVISIT Web WPCEVENT
 
@@ -81,7 +81,7 @@ Chaîne délimitée d’identificateurs de catégorie qui sont bloqués.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | En-tête<br/>                   | <dl> <dt>Wpcevent. h</dt> </dl> |
 

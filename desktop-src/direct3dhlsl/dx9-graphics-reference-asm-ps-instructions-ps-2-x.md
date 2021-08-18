@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 047067d26f9b85ef981a007059d9f2e87ae28ce3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f3e1fcb16cace82118d153412ba5471876d4ebcc58c342466ff86db016189a28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744669"
 ---
 # <a name="ps_2_x-instructions"></a>\_instructions PS 2 \_ x
 
@@ -26,14 +26,14 @@ Il existe plusieurs types d’instructions de nuanceur de pixels, comme indiqué
 -   Programme d’installation : un nuanceur de pixels doit avoir une instruction de version et doit être la première instruction.
 -   Arithmétique : ces instructions fournissent les opérations mathématiques dans un nuanceur.
 -   Texture : ces instructions permettent de charger et d’échantillonner des données de texture, et de modifier des coordonnées de texture.
--   Contrôle de flow : ces instructions fournissent un contrôle de workflow statique et dynamique à l’exécution des instructions.
+-   contrôle de Flow : ces instructions fournissent un contrôle de workflow statique et dynamique à l’exécution des instructions.
 -   Nouveauté : ces instructions sont nouvelles dans cette version.
 
 ## <a name="instruction-set"></a>Jeu d'instructions
 
 
 
-| Nom                                                             | Description                                                                                      | Emplacements des instructions | Programme d’installation | Arithmétique | Texture | Contrôle de flux | Nouveau |
+| Name                                                             | Description                                                                                      | Emplacements des instructions | Installation | Arithmétique | Texture | Contrôle de flux | Nouveau |
 |------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------|-------|------------|---------|--------------|-----|
 | [ABS-PS](abs---ps.md)                                         | Valeur absolue                                                                                   | 1                 |       | x          |         |              |     |
 | [Add-PS](add---ps.md)                                         | Ajouter deux vecteurs                                                                                  | 1                 |       | x          |         |              |     |
@@ -72,14 +72,14 @@ Il existe plusieurs types d’instructions de nuanceur de pixels, comme indiqué
 | [m4x3-PS](m4x3---ps.md)                                       | 4x3 multiplier                                                                                     | 3                 |       | x          |         |              |     |
 | [M4X4-PS](m4x4---ps.md)                                       | 4 x 4                                                                                     | 4                 |       | x          |         |              |     |
 | [Mad-PS](mad---ps.md)                                         | Multiplier et ajouter                                                                                 | 1                 |       | x          |         |              |     |
-| [Max-PS](max---ps.md)                                         | Maximale                                                                                          | 1                 |       | x          |         |              |     |
+| [Max-PS](max---ps.md)                                         | Maximum                                                                                          | 1                 |       | x          |         |              |     |
 | [min-PS](min---ps.md)                                         | Minimum                                                                                          | 1                 |       | x          |         |              |     |
 | [MOV-PS](mov---ps.md)                                         | Déplacer                                                                                             | 1                 |       | x          |         |              |     |
 | [Mul-PS](mul---ps.md)                                         | Multiplier                                                                                         | 1                 |       | x          |         |              |     |
 | [NOP-PS](nop---ps.md)                                         | Pas d'opération                                                                                     | 1                 |       | x          |         |              |     |
-| [NRM-PS](nrm---ps.md)                                         | Normaliser                                                                                        | 3                 |       | x          |         |              |     |
+| [NRM-PS](nrm---ps.md)                                         | Normalize                                                                                        | 3                 |       | x          |         |              |     |
 | [Pow-PS](pow---ps.md)                                         | x<sup>y</sup>                                                                                    | 3                 |       | x          |         |              |     |
-| [alimentation](ps---ps.md)                                                | Version                                                                                          | 0                 | x     |            |         |              |     |
+| [ps](ps---ps.md)                                                | Version                                                                                          | 0                 | x     |            |         |              |     |
 | [RCP-PS](rcp---ps.md)                                         | Mutuel                                                                                       | 1                 |       | x          |         |              |     |
 | [REP-PS](rep---ps.md)                                         | Répéter                                                                                           | 3                 |       |            |         | x            | x   |
 | [RET-PS](ret---ps.md)                                         | Fin d’une sous-routine                                                                              | 1                 |       |            |         | x            | x   |
@@ -91,11 +91,11 @@ Il existe plusieurs types d’instructions de nuanceur de pixels, comme indiqué
 | [texld-PS \_ 2 \_ 0 et haut](texld---ps-2-0.md)                    | Échantillonner une texture                                                                                 | Voir la remarque 2        |       |            | x       |              |     |
 | [texldb-PS](texldb---ps.md)                                   | Échantillonnage de texture avec décalage de niveau de détail par rapport à w-Component                                      | Voir la remarque 3        |       |            | x       |              |     |
 | [texldd-PS](texldd---ps.md)                                   | Échantillonnage de texture avec des dégradés fournis par l’utilisateur                                                    | 3                 |       |            | x       |              | x   |
-| [texldp-PS](texldp---ps.md)                                   | Échantillonnage de texture avec division projectaire par w-Component                                           | Voir la remarque 4        |       |            | x       |              |     |
+| [texldp-PS](texldp---ps.md)                                   | Échantillonnage de texture avec division projectaire par w-Component                                           | Voir la remarque 4        |       |            | x       |              |     |
 
 
 
- 
+ 
 
 Remarques :
 
@@ -113,6 +113,6 @@ Remarques :
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

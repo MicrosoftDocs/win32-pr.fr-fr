@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 77d83ea8998da7c00fd294f81b94099d23d524e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac7e8859eabfa35d37464340958b52e85315a9237655107d6736af3555915757
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786347"
 ---
 # <a name="database-cache-parameters"></a>Paramètres du cache de base de données
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="database-cache-parameters"></a>Paramètres du cache de base de données
 
@@ -50,7 +50,7 @@ Ce paramètre contrôle la taille d’une partie auxiliaire du cache des pages d
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -113,12 +113,12 @@ Lorsque ce paramètre est lu, la taille réelle du cache dans les pages de la ba
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000 :</strong>  1 – 1048575</p>
-<p><strong>Windows XP :</strong>  1 – 4294967295</p></td>
+<td><p><strong>Windows 2000 :</strong> 1 – 1048575</p>
+<p><strong>Windows XP :</strong> 1 – 4294967295</p></td>
 </tr>
 <tr class="even">
 <td><p>Étendue :</p></td>
@@ -163,7 +163,7 @@ Ce paramètre configure la taille minimale du cache des pages de base de donnée
 
 Par défaut, le cache de base de données ajuste automatiquement sa taille entre les limites définies par **JET_paramCacheSizeMin** et **JET_paramCacheSizeMax**.
 
-**Windows 2000 :**  Sur Windows 2000, ce paramètre doit être défini sur une valeur à peu près égal à quatre fois le nombre de threads qui se trouveront à l’intérieur de l’API ESE en même temps. Cela est nécessaire pour éviter les blocages provoqués par un nombre insuffisant de tampons de cache de pages de base de données pour effectuer des opérations complexes telles que les fractionnements d’arborescences B +.
+**Windows 2000 :**  sur Windows 2000, la valeur de ce paramètre doit être à peu près égale à quatre fois le nombre de threads qui se trouveront à l’intérieur de l’API ESE en même temps. Cela est nécessaire pour éviter les blocages provoqués par un nombre insuffisant de tampons de cache de pages de base de données pour effectuer des opérations complexes telles que les fractionnements d’arborescences B +.
 
 **Windows XP et versions ultérieures :**  Le gestionnaire de cache définit automatiquement sa propre taille de cache minimale pour éviter les interblocages.
 
@@ -175,17 +175,17 @@ Par défaut, le cache de base de données ajuste automatiquement sa taille entre
 <tbody>
 <tr class="odd">
 <td><p>Valeur par défaut :</p></td>
-<td><p><strong>Windows 2000 :</strong>  64</p>
-<p><strong>Windows XP :</strong>  1</p></td>
+<td><p><strong>Windows 2000 :</strong> 64</p>
+<p><strong>Windows XP :</strong> 1</p></td>
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000 :</strong>  1 – 1048575</p>
-<p><strong>Windows XP :</strong>  1 – 4294967295</p></td>
+<td><p><strong>Windows 2000 :</strong> 1 – 1048575</p>
+<p><strong>Windows XP :</strong> 1 – 4294967295</p></td>
 </tr>
 <tr class="even">
 <td><p>Étendue :</p></td>
@@ -234,7 +234,7 @@ Par défaut, le cache de base de données ajuste automatiquement sa taille entre
 
 **Remarque**   Si ce paramètre est laissé à sa valeur par défaut, la taille maximale du cache sera définie sur la taille de la mémoire physique lors de l’appel de [JetInit](./jetinit-function.md) .
 
-**Windows Vista :**  À compter de Windows Vista, la valeur par défaut de ce paramètre a été modifiée pour clarifier ce comportement.
+**Windows Vista :**  à partir de Windows Vista, la valeur par défaut de ce paramètre a été modifiée pour clarifier ce comportement.
 
 <table>
 <colgroup>
@@ -244,17 +244,17 @@ Par défaut, le cache de base de données ajuste automatiquement sa taille entre
 <tbody>
 <tr class="odd">
 <td><p>Valeur par défaut :</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong>  512</p>
-<p><strong>Windows Vista :</strong>  2 milliards</p></td>
+<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 512</p>
+<p><strong>Windows Vista :</strong> 2 milliards</p></td>
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000 :</strong>  1 – 1048575</p>
-<p><strong>Windows XP :</strong>  1 – 4294967295</p></td>
+<td><p><strong>Windows 2000 :</strong> 1 – 1048575</p>
+<p><strong>Windows XP :</strong> 1 – 4294967295</p></td>
 </tr>
 <tr class="even">
 <td><p>Étendue :</p></td>
@@ -267,7 +267,7 @@ Par défaut, le cache de base de données ajuste automatiquement sa taille entre
 </tr>
 <tr class="even">
 <td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p><strong>Windows XP et windows 2000 :</strong>  º</p>
+<td><p><strong>Windows XP et Windows 2000 :</strong>  º</p>
 <p><strong>Windows Vista et Windows Server 2003 :</strong>  Oui</p></td>
 </tr>
 <tr class="odd">
@@ -315,11 +315,11 @@ Il est important que ce paramètre ne soit pas défini trop bas. Étant donné q
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong>  0 – 2147483647</p>
+<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0 – 2147483647</p>
 <p><strong>Windows Vista :</strong>  Toutes les valeurs</p></td>
 </tr>
 <tr class="even">
@@ -376,7 +376,7 @@ Ce paramètre contrôle le nombre maximal d’écritures simultanées que le mot
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -421,11 +421,11 @@ Ce paramètre contrôle le nombre maximal d’écritures simultanées que le mot
 *JET_paramEnableViewCache*  
 127  
 
-Lorsque ce paramètre a la **valeur true**, le moteur de base de données utilise les données de base de données directement à partir du cache de fichiers Windows au lieu de copier les données mises en cache dans sa propre mémoire privée. Toutes les données de base de données modifiées seront toujours mises en cache dans la mémoire privée.
+lorsque ce paramètre a la **valeur True**, le moteur de base de données utilise les données de base de données directement à partir du cache de fichiers Windows au lieu de copier les données mises en cache dans sa propre mémoire privée. Toutes les données de base de données modifiées seront toujours mises en cache dans la mémoire privée.
 
 L’objectif de ce mode est de réduire davantage la quantité de mémoire privée utilisée par le moteur de base de données pour mettre en cache les données de la base de données.
 
-Le cache de vue ne peut être utilisé que si l’utilisation du cache de fichiers Windows est activée en affectant à JET_paramEnableFileCache la **valeur true**.
+le cache de vue ne peut être utilisé que si l’utilisation du cache de fichiers Windows est activée en affectant la **valeur True** à JET_paramEnableFileCache.
 
 <table>
 <colgroup>
@@ -498,11 +498,11 @@ Ce paramètre définit l’intervalle de temps, en microsecondes, pendant lequel
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 : </strong>    0 – 2147483647</p>
+<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0 – 2147483647</p>
 <p><strong>Windows Vista :</strong>  Toutes les valeurs</p></td>
 </tr>
 <tr class="even">
@@ -546,7 +546,7 @@ Ce paramètre définit l’intervalle de temps, en microsecondes, pendant lequel
 
 Ce paramètre définit le nombre maximal de pages de base de données non mises en cache pour lesquelles les heures d’accès à la page de base de données sont conservées. Ces enregistrements d’historique permettent à l’algorithme de remplacement de page (LRU-K) du cache de détecter plus précisément les pages populaires qui ont été supprimées incorrectement dans le cache des pages de base de données.
 
-**Windows XP et Windows Server 2003 :**  Ce paramètre est ignoré sur Windows XP et Windows Server 2003 et n’affecte pas le fonctionnement du moteur de base de données.
+**Windows XP et Windows Server 2003 :**  ce paramètre est ignoré sur Windows XP et Windows Server 2003 et n’affecte pas le fonctionnement du moteur de base de données.
 
 <table>
 <colgroup>
@@ -556,16 +556,16 @@ Ce paramètre définit le nombre maximal de pages de base de données non mises 
 <tbody>
 <tr class="odd">
 <td><p>Valeur par défaut :</p></td>
-<td><p><strong>Windows 2000 :</strong>  1024</p>
-<p><strong>Windows Vista :</strong>  100000</p></td>
+<td><p><strong>Windows 2000 :</strong> 1024</p>
+<p><strong>Windows Vista :</strong> 100000</p></td>
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000 :</strong>  0 – 4194303</p>
+<td><p><strong>Windows 2000 :</strong> 0 – 4194303</p>
 <p><strong>Windows Vista :</strong>  Toutes les valeurs</p></td>
 </tr>
 <tr class="even">
@@ -621,7 +621,7 @@ Ce paramètre configure le nombre d’accès à la page de base de données qui 
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -680,12 +680,12 @@ Ce paramètre indique la durée, en secondes, au terme de laquelle une page du c
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong>  1 – 2147483647</p>
-<p><strong>Windows Vista :</strong>   1 – 4294967295</p></td>
+<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 1 – 2147483647</p>
+<p><strong>Windows Vista :</strong> 1 – 4294967295</p></td>
 </tr>
 <tr class="even">
 <td><p>Étendue :</p></td>
@@ -733,7 +733,7 @@ Ce paramètre est obsolète et n’affecte pas le fonctionnement du moteur de ba
 
 Ce paramètre contrôle le moment où le cache de la page de base de données commence à supprimer des pages du cache pour libérer de l’espace pour les pages qui ne sont pas mises en cache. Lorsque le nombre de tampons de page dans le cache descend sous ce seuil, un processus en arrière-plan est démarré pour réapprovisionner ce pool de mémoires tampons disponibles. Ce seuil est toujours relatif à la taille maximale du cache définie par **JET_paramCacheSizeMax**. Ce seuil doit également toujours être inférieur au seuil d’arrêt défini par **JET_paramStopFlushThreshold**.
 
-La hauteur de distance du seuil de démarrage détermine le temps de réponse que le cache de page de la base de données doit avoir pour produire des tampons disponibles avant que l’application en ait besoin. Un seuil de démarrage élevé donnera plus de temps au processus en arrière-plan. Toutefois, un seuil de démarrage élevé implique un seuil d’arrêt plus élevé et réduit la taille effective du cache des pages de base de données pour les pages modifiées (Windows 2000) ou pour toutes les pages (Windows XP et versions ultérieures).
+La hauteur de distance du seuil de démarrage détermine le temps de réponse que le cache de page de la base de données doit avoir pour produire des tampons disponibles avant que l’application en ait besoin. Un seuil de démarrage élevé donnera plus de temps au processus en arrière-plan. toutefois, un seuil de démarrage élevé implique un seuil d’arrêt plus élevé et réduit la taille effective du cache des pages de base de données pour les pages modifiées (Windows 2000) ou pour toutes les pages (Windows XP et versions ultérieures).
 
 <table>
 <colgroup>
@@ -743,17 +743,17 @@ La hauteur de distance du seuil de démarrage détermine le temps de réponse qu
 <tbody>
 <tr class="odd">
 <td><p>Valeur par défaut :</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong>  5 (1%)</p>
-<p><strong>Windows Vista :</strong>  20 millions (1%)</p></td>
+<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 5 (1%)</p>
+<p><strong>Windows Vista :</strong> 20 millions (1%)</p></td>
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000 :</strong>  1 – 1048575</p>
-<p><strong>Windows XP :</strong>  1 – 4294967295</p>
+<td><p><strong>Windows 2000 :</strong> 1 – 1048575</p>
+<p><strong>Windows XP :</strong> 1 – 4294967295</p>
 <p><strong>Windows Vista :</strong>  Toutes les valeurs</p></td>
 </tr>
 <tr class="even">
@@ -797,7 +797,7 @@ La hauteur de distance du seuil de démarrage détermine le temps de réponse qu
 
 Ce paramètre contrôle le moment où le cache de la page de base de données met fin à la suppression des pages du cache pour libérer de l’espace pour les pages qui ne sont pas mises en cache. Lorsque le nombre de tampons de page dans le cache dépasse ce seuil, le processus en arrière-plan qui a démarré pour réapprovisionner ce pool de mémoires tampons disponibles est arrêté. Ce seuil est toujours relatif à la taille maximale du cache définie par **JET_paramCacheSizeMax**. Ce seuil doit également être toujours supérieur au seuil de démarrage défini par **JET_paramStartFlushThreshold**.
 
-La distance entre le seuil de démarrage et le seuil d’arrêt affecte l’efficacité avec laquelle les pages de base de données sont vidées par le processus en arrière-plan. Un plus grand fossé rendra plus probable l’Association des écritures aux pages voisines. Toutefois, un seuil d’arrêt élevé réduira la taille effective du cache des pages de base de données pour les pages modifiées (Windows 2000) ou pour toutes les pages (Windows XP et versions ultérieures).
+La distance entre le seuil de démarrage et le seuil d’arrêt affecte l’efficacité avec laquelle les pages de base de données sont vidées par le processus en arrière-plan. Un plus grand fossé rendra plus probable l’Association des écritures aux pages voisines. toutefois, un seuil d’arrêt élevé réduit la taille effective du cache des pages de base de données pour les pages modifiées (Windows 2000) ou pour toutes les pages (Windows XP et versions ultérieures).
 
 <table>
 <colgroup>
@@ -807,17 +807,17 @@ La distance entre le seuil de démarrage et le seuil d’arrêt affecte l’effi
 <tbody>
 <tr class="odd">
 <td><p>Valeur par défaut :</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong>  10 (2%)</p>
-<p><strong>Windows Vista :</strong>  40 millions (2%)</p></td>
+<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 10 (2%)</p>
+<p><strong>Windows Vista :</strong> 40 millions (2%)</p></td>
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000 :</strong>  1 – 1048575</p>
-<p><strong>Windows XP :</strong>  1 – 4294967295</p>
+<td><p><strong>Windows 2000 :</strong> 1 – 1048575</p>
+<p><strong>Windows XP :</strong> 1 – 4294967295</p>
 <p><strong>Windows Vista :</strong>  Toutes les valeurs</p></td>
 </tr>
 <tr class="even">
@@ -866,11 +866,11 @@ La distance entre le seuil de démarrage et le seuil d’arrêt affecte l’effi
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

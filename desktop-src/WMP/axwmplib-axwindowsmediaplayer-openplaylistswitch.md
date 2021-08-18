@@ -3,7 +3,7 @@ title: Événement OpenPlaylistSwitch de l’objet AxWindowsMediaPlayer
 description: L’événement OpenPlaylistSwitch se produit lorsqu’un titre sur un DVD commence à être lu. | Événement OpenPlaylistSwitch de l’objet AxWindowsMediaPlayer
 ms.assetid: 0b9c37a3-1349-48bd-8e1a-aba286c82abf
 keywords:
-- Événement OpenPlaylistSwitch de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement OpenPlaylistSwitch de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 338d360944b46555be53d5e212561cf906dd33c9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c57341488c385b159ce294626a79b7e22287bff83864f7273b0f4432c1db95ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764699"
 ---
 # <a name="openplaylistswitch-event-of-the-axwindowsmediaplayer-object"></a>Événement OpenPlaylistSwitch de l’objet AxWindowsMediaPlayer
 
@@ -69,7 +69,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPPlaylist (VB et C#)**](iwmpplaylist--vb-and-c.md)

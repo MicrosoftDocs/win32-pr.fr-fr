@@ -6,12 +6,12 @@ keywords:
 - capCreateCaptureWindow fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 084d035d44b8d0b46df31afa5c3235e59286121c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 665a194759edbf4a690b1966c4cd0c175ba05b9cd099d80412e5c5353183bcab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785779"
 ---
 # <a name="creating-an-avicap-capture-window"></a>Création d’une fenêtre de capture AVICap
 
@@ -19,9 +19,9 @@ Vous pouvez créer une fenêtre de capture de la classe de fenêtre AVICap à l�
 
 Vous pouvez créer une ou plusieurs fenêtres de capture dans une application et connecter chaque fenêtre de capture à un autre appareil de capture.
 
- 
+ 
 
- 
+ 
 
 
 

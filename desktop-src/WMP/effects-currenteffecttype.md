@@ -3,7 +3,7 @@ title: EFFECTs. currentEffectType
 description: L’attribut currentEffectType spécifie ou récupère le nom du registre de la visualisation actuelle. Ce nom est un ID unique défini par l’auteur de la visualisation.
 ms.assetid: 29469272-468d-49b4-a934-e7dc00583efa
 keywords:
-- EFFECTs. currentEffectType Windows Media Player
+- effects. currentEffectType Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be7c7671c4a5dce9df81cf8f9d770d71eba3325e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8df55ae806781fa0924349cfe472f355cdabd2be6723148fc6100dc39efd9062
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996749"
 ---
 # <a name="effectscurrenteffecttype"></a>EFFECTs. currentEffectType
 
@@ -31,9 +31,9 @@ L’attribut **currentEffectType** spécifie ou récupère le nom du registre de
 
 Cet attribut est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser cet attribut au moment de l’exécution pour modifier l’effet actuellement affiché. Pour ce faire, procédez comme suit :
+Vous pouvez utiliser cet attribut au moment de l’exécution pour modifier l’effet actuellement affiché. Pour cela, procédez comme suit :
 
 1.  Utilisez **effectCount** pour récupérer le nombre d’effets enregistrés.
 2.  Dans une boucle, récupérez le nom de chaque effet enregistré à l’aide de **effectType**.

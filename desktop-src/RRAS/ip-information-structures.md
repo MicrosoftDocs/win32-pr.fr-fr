@@ -4,12 +4,12 @@ description: Les structures d’informations suivantes concernent le transport I
 ms.assetid: 432e6c58-ffab-4d38-baca-5756a40cdee3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a56c20fb56b09ee09939a577f6de9c6c81e26d85
-ms.sourcegitcommit: 16942a4871b6716cd6f3eb59c4fc12959a546217
+ms.openlocfilehash: c112760917abde9b580e571090cd973be60abe08ed8bf1c6d00015ad0f84d665
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "104463914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036689"
 ---
 # <a name="ip-information-structures"></a>Structures d’informations IP
 

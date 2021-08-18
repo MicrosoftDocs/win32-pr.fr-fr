@@ -10,12 +10,12 @@ keywords:
 - Message DRV_OPEN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7e23f933567d125dd07f81047ea8868c12f41ac
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5fabb833b0aa3adef444f8242d540eb48dcbe381ebc5c7f62c6dedc0d5e9160e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786199"
 ---
 # <a name="callback-functions"></a>Fonctions de rappel
 
@@ -23,6 +23,6 @@ Les pilotes installables peuvent notifier l’application, la fenêtre ou la tâ
 
 Si un pilote prend en charge les fonctions de rappel, l’application ou la DLL qui ouvre l’instance doit fournir une valeur. il s’agit de l’adresse d’une fonction de rappel, d’un handle de fenêtre ou d’un handle de tâche. Cette valeur et un indicateur identifiant le type de la valeur sont généralement transmis dans une structure vers laquelle pointe le second paramètre du [**DRV \_ Open**](drv-open.md) message.
 
- 
+ 
 
- 
+ 

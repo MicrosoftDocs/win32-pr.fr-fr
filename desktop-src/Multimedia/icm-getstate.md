@@ -1,9 +1,9 @@
 ---
 title: Message ICM_GETSTATE (VFW. h)
-description: Le \_ message GETSTATE ICM interroge un pilote de compression vidéo pour retourner sa configuration actuelle dans un bloc de mémoire ou pour déterminer la quantité de mémoire nécessaire pour récupérer les informations de configuration.
+description: le \_ message ICM GETSTATE interroge un pilote de compression vidéo pour retourner sa configuration actuelle dans un bloc de mémoire ou pour déterminer la quantité de mémoire nécessaire pour récupérer les informations de configuration.
 ms.assetid: 4b77e294-f3aa-45f9-a4f4-f103b83eae8d
 keywords:
-- Message ICM_GETSTATE Windows Multimedia
+- message ICM_GETSTATE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b6a45dcde627a02c1a4a402ea9a2a725f0429a7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c9bf21d808752b8a3ac3ba71a8593cd6dc577b3af4f34f421682d126c73b3578
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784949"
 ---
-# <a name="icm_getstate-message"></a>\_Message GETSTATE ICM
+# <a name="icm_getstate-message"></a>ICM \_ Message GETSTATE
 
-Le **message \_ GETSTATE ICM** interroge un pilote de compression vidéo pour retourner sa configuration actuelle dans un bloc de mémoire ou pour déterminer la quantité de mémoire nécessaire pour récupérer les informations de configuration. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICGetState**](/windows/desktop/api/Vfw/nf-vfw-icgetstate) .
+le message **ICM \_ GETSTATE** interroge un pilote de compression vidéo pour retourner sa configuration actuelle dans un bloc de mémoire ou pour déterminer la quantité de mémoire nécessaire pour récupérer les informations de configuration. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICGetState**](/windows/desktop/api/Vfw/nf-vfw-icgetstate) .
 
 
 ```C++
@@ -58,7 +58,7 @@ Si *PV* est **null**, retourne la quantité de mémoire, en octets, requise pour
 
 Si *PV* n’est pas **null**, retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure utilisée pour représenter les informations de configuration est spécifique au pilote et est définie par le pilote.
 

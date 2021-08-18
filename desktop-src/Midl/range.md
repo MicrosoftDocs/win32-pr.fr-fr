@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e095d420afc433c1f01a63dff51868e57efc50f4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e8be59ef1b212d0f6953063ce7ac3239d8940a5ea54a623990fc3d7af9f36ad3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106512723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764309"
 ---
 # <a name="range-attribute"></a>attribut de plage
 
@@ -59,7 +59,7 @@ Déclarateur C standard, tel qu’un identificateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez l’attribut **\[ Range \]** pour modifier la signification des paramètres ou des champs sensibles, tels que ceux utilisés pour la taille ou la longueur, avec des tableaux conformes ou variables, ou chaque fois que vous souhaitez vérifier un paramètre ou une valeur de champ par rapport à une plage de valeurs valides. L’attribut s’applique aux paramètres de niveau supérieur, ainsi qu’aux paramètres et champs de niveau inférieur. L’ajout de l’attribut de **\[ plage \]** à un type ne change pas son format de câble, donc n’affecte pas la compatibilité descendante.
 
@@ -112,6 +112,6 @@ void InPipe(
 [**le commutateur \_ est**](switch-is.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

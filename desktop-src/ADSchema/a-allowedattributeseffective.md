@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 425383e97d924526d926cd8dd08d35e352ac2531
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 654f42a71621118c326480c977e19b04c5658bff87ce4d3c810872af0dff485f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022827"
 ---
 # <a name="allowed-attributes-effective-attribute"></a>Attribute allowed-Attributes
 
@@ -46,7 +46,7 @@ Liste des attributs qui peuvent être modifiés sur l’objet.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

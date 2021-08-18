@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 6c7823cecd91035cd5e78970af981cfd9d15c092
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a296343b53ebf57be1b25547f1a7ece02793dcabc7e364f2c5f508c23fa454c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991799"
 ---
 # <a name="swbemqualifiersetcount-property"></a>SWbemQualifierSet. Count (propriété)
 

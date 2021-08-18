@@ -1,19 +1,19 @@
 ---
 title: Peindre la fenêtre
-description: Vous avez créé votre fenêtre. À présent, vous voulez afficher un contenu à l’intérieur de celui-ci. Dans la terminologie Windows, c’est ce que l’on appelle peindre la fenêtre. Pour mélanger des métaphores, une fenêtre est une zone de dessin vide, en attendant que vous la complétiez.
+description: Vous avez créé votre fenêtre. À présent, vous voulez afficher un contenu à l’intérieur de celui-ci. dans Windows terminologie, c’est ce que l’on appelle peindre la fenêtre. Pour mélanger des métaphores, une fenêtre est une zone de dessin vide, en attendant que vous la complétiez.
 ms.assetid: db97a4c9-7592-42d1-a5de-9c468169eefc
 ms.topic: article
 ms.date: 08/16/2019
-ms.openlocfilehash: f0f9d5c2759ea1735e370eb258743364980daee8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 93d0cb0234975b61ee7ffc05a680b5e1e6b1e01b9d4de7235fc4239ec5573f29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104552403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897003"
 ---
 # <a name="painting-the-window"></a>Peindre la fenêtre
 
-Vous avez créé votre fenêtre. À présent, vous voulez afficher un contenu à l’intérieur de celui-ci. Dans la terminologie Windows, c’est ce que l’on appelle peindre la fenêtre. Pour mélanger des métaphores, une fenêtre est une zone de dessin vide, en attendant que vous la complétiez.
+Vous avez créé votre fenêtre. À présent, vous voulez afficher un contenu à l’intérieur de celui-ci. dans Windows terminologie, c’est ce que l’on appelle peindre la fenêtre. Pour mélanger des métaphores, une fenêtre est une zone de dessin vide, en attendant que vous la complétiez.
 
 Parfois, votre programme lance la peinture pour mettre à jour l’apparence de la fenêtre. À d’autres moments, le système d’exploitation vous informera que vous devez redessiner une partie de la fenêtre. Dans ce cas, le système d’exploitation envoie un message [**de \_ peinture WM**](/windows/desktop/gdi/wm-paint) à la fenêtre. La partie de la fenêtre qui doit être peinte est appelée *zone de mise à jour*.
 
@@ -57,7 +57,7 @@ Démarrez l’opération de peinture en appelant la fonction [**BeginPaint**](/w
 
 Dans votre code de peinture, vous disposez de deux options de base :
 
-- Peignez toute la zone cliente, quelle que soit la taille de la région de mise à jour. Tout ce qui se trouve en dehors de la région de mise à jour est coupé. Autrement dit, le système d’exploitation l’ignore.
+- Paint la totalité de la zone cliente, quelle que soit la taille de la région de mise à jour. Tout ce qui se trouve en dehors de la région de mise à jour est coupé. Autrement dit, le système d’exploitation l’ignore.
 - Optimisez en peignant uniquement la partie de la fenêtre à l’intérieur de la région de mise à jour.
 
 Si vous peignez toujours la totalité de la zone cliente, le code sera plus simple. Toutefois, si vous avez une logique de peinture compliquée, il peut être plus efficace d’ignorer les zones en dehors de la région de mise à jour.
@@ -70,9 +70,9 @@ FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
 
 Les détails des [**fillRect**](/windows/desktop/api/winuser/nf-winuser-fillrect) ne sont pas importants pour cet exemple, mais le deuxième paramètre donne les coordonnées du rectangle à remplir. Dans ce cas, nous transmettons l’intégralité de la région de mise à jour (le membre **rcPaint** de [**PAINTSTRUCT,**](/windows/win32/api/winuser/ns-winuser-paintstruct)). Sur le premier message [**WM \_ Paint**](/windows/desktop/gdi/wm-paint) , toute la zone cliente doit être peinte, de sorte que **rcPaint** contiendra la totalité de la zone cliente. Pour les messages de **\_ peinture WM** suivants, **rcPaint** peut contenir un rectangle plus petit.
 
-La fonction [**fillRect**](/windows/desktop/api/winuser/nf-winuser-fillrect) fait partie du Graphics Device Interface (GDI), qui dispose de graphiques Windows alimentés pendant beaucoup de temps. Dans Windows 7, Microsoft a introduit un nouveau moteur graphique, nommé Direct2D, qui prend en charge les opérations graphiques hautes performances, telles que l’accélération matérielle. Direct2D est également disponible pour Windows Vista via la [mise à jour de plateforme pour Windows Vista](../win7ip/platform-update-for-windows-vista-overview.md) et pour windows Server 2008 via la mise à jour de plateforme pour windows Server 2008. (GDI est toujours entièrement pris en charge.)
+la fonction [**FillRect**](/windows/desktop/api/winuser/nf-winuser-fillrect) fait partie du Graphics Device Interface (GDI), qui dispose d’une Windows de graphiques alimentés pendant beaucoup de temps. dans Windows 7, Microsoft a introduit un nouveau moteur graphique, nommé Direct2D, qui prend en charge les opérations graphiques hautes performances, telles que l’accélération matérielle. Direct2D est également disponible pour Windows vista via la [mise à jour de plateforme pour Windows vista](../win7ip/platform-update-for-windows-vista-overview.md) et pour Windows server 2008 via la mise à jour de plateforme pour Windows server 2008. (GDI est toujours entièrement pris en charge.)
 
-Une fois que vous avez fini de peindre, appelez la fonction [**EndPaint**](/windows/desktop/api/winuser/nf-winuser-endpaint) . Cette fonction efface la zone de mise à jour, qui signale à Windows que la fenêtre a fini de se peindre.
+Une fois que vous avez fini de peindre, appelez la fonction [**EndPaint**](/windows/desktop/api/winuser/nf-winuser-endpaint) . cette fonction efface la zone de mise à jour, qui signale à Windows que la fenêtre a fini de se peindre.
 
 ## <a name="next"></a>Suivant
 

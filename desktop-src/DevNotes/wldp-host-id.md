@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wldp.h
-ms.openlocfilehash: 8914f93ff5936451b71b855473a09cb1d06584b4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fa52bc6259c75d5bb0929cb25610beb2b143515e2874b09bf04c454397a909e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104522924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758379"
 ---
 # <a name="wldp_host_id-enumeration"></a>\_Énumération de l’ID d’hôte WLDP \_
 
@@ -70,14 +70,14 @@ Le type d’hôte est VBScript.
 <span id="_WLDP_HOST_ID_WSH"></span><span id="_wldp_host_id_wsh"></span>**WLDP \_ ID d’hôte \_ \_ WSH**
 </dt> <dd>
 
-Le type d’hôte est Windows Script Host.
+le type d’hôte est Windows hôte de Script.
 
 </dd> <dt>
 
 <span id="_WLDP_HOST_ID_POWERSHELL"></span><span id="_wldp_host_id_powershell"></span>**WLDP \_ ID d’hôte \_ \_ PowerShell**
 </dt> <dd>
 
-Le type d’hôte est Windows PowerShell.
+le type d’hôte est Windows Powershell.
 
 </dd> <dt>
 
@@ -91,7 +91,7 @@ Le type d’hôte est Internet Explorer.
 <span id="_WLDP_HOST_ID_MSI"></span><span id="_wldp_host_id_msi"></span>**WLDP \_ ID d’hôte \_ \_ MSI**
 </dt> <dd>
 
-Le type d’hôte est le Microsoft Windows Installer.
+le type d’hôte est le Microsoft Windows Installer.
 
 </dd> <dt>
 
@@ -108,8 +108,8 @@ Valeur d’énumération maximale.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Wldp. h</dt> </dl> |
 
 

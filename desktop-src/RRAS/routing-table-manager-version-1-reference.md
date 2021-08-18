@@ -7,25 +7,25 @@ keywords:
 - Gestionnaire de table de routage version 1 RRAS, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03c81e67e6e9f9a8a6ac7477f9c0d2e984af0ede
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d23d0aadd3812afce1a8298518737229bc4e2e945c67b82703c13476d71a8ad8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027149"
 ---
 # <a name="routing-table-manager-version-1-reference"></a>Référence de la version 1 du gestionnaire de tables de routage
 
-**Windows Server 2003 :** Cette API a été remplacée par l’API du [Gestionnaire de table de routage version 2](about-routing-table-manager-version-2.md) et n’est pas disponible au-delà de Windows Server 2003. Les nouvelles applications doivent utiliser l’API du gestionnaire de table de routage version 2.
+**Windows Server 2003 :** cette api a été remplacée par l’api du [gestionnaire de Table de routage Version 2](about-routing-table-manager-version-2.md) et ne sera pas disponible au-delà de Windows Server 2003. Les nouvelles applications doivent utiliser l’API du gestionnaire de table de routage version 2.
 
 Les fonctions, structures et constantes suivantes fournissent une interface que les protocoles de routage peuvent utiliser pour accéder aux tables de routage gérées par le gestionnaire de tables de routage :
 
 -   [Fonctions de la version 1 du gestionnaire de table de routage](routing-table-manager-version-1-functions.md)
 -   [Structures de la version 1 du gestionnaire de tables de routage](routing-table-manager-version-1-structures.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: Le tableau suivant identifie les interfaces utilisées pour accéder à Windows Update Agent (WUA).
+description: le tableau suivant identifie les interfaces utilisées pour accéder à Windows Update Agent (WUA).
 ms.assetid: 1ba2b296-cb27-45fd-8c87-430d30322f1f
-title: Interfaces (agent de Windows Update)
+title: Interfaces (Agent de Windows Update)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9312b214fca45af4d93346e33ea02af090aedb50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be801a16ba171894124280f1831708ea594e0ce8beec75e3702ddb1e52344446
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756619"
 ---
-# <a name="interfaces-windows-update-agent"></a>Interfaces (agent de Windows Update)
+# <a name="interfaces-windows-update-agent"></a>Interfaces (Agent de Windows Update)
 
-Le tableau suivant identifie les interfaces utilisées pour accéder à Windows Update Agent (WUA).
+le tableau suivant identifie les interfaces utilisées pour accéder à Windows Update Agent (WUA).
 
 
 
@@ -89,13 +89,13 @@ Le tableau suivant identifie les interfaces utilisées pour accéder à Windows 
 | [**IUpdateSession2**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatesession2)                                                   | Représente une session dans laquelle l’appelant peut effectuer des opérations qui impliquent des mises à jour.                                                                                                                 |
 | [**IUpdateSession3**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatesession3)                                                   | Représente une session dans laquelle l’appelant peut effectuer des opérations qui impliquent des mises à jour.                                                                                                                 |
 | [**IWebProxy**](/windows/desktop/api/Wuapi/nn-wuapi-iwebproxy)                                                               | Contient les paramètres du proxy HTTP.                                                                                                                                                                         |
-| [**IWindowsDriverUpdate**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate)                                         | Contient les propriétés et les méthodes qui sont uniquement disponibles à partir d’une mise à jour de pilote Windows.                                                                                                             |
-| [**IWindowsDriverUpdate2**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate2)                                       | Contient les propriétés et les méthodes qui sont uniquement disponibles à partir d’une mise à jour de pilote Windows.                                                                                                             |
-| [**IWindowsDriverUpdate3**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate3)                                       | Contient les propriétés et les méthodes qui sont uniquement disponibles à partir d’une mise à jour de pilote Windows.                                                                                                             |
-| [**IWindowsDriverUpdate4**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate4)                                       | Contient les propriétés et les méthodes qui sont uniquement disponibles à partir d’une mise à jour de pilote Windows.                                                                                                             |
-| [**IWindowsDriverUpdate5**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate5)                                       | Contient les propriétés et les méthodes qui sont uniquement disponibles à partir d’une mise à jour de pilote Windows.                                                                                                             |
-| [**IWindowsDriverUpdateEntry**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentry)                               | Contient les propriétés qui sont uniquement disponibles à partir d’une mise à jour de pilote Windows.                                                                                                                         |
-| [**IWindowsDriverUpdateEntryCollection**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentrycollection)           | Contient les propriétés qui sont uniquement disponibles à partir d’une collection de mises à jour de pilotes Windows.                                                                                                          |
+| [**IWindowsDriverUpdate**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate)                                         | contient les propriétés et les méthodes qui sont uniquement disponibles à partir d’une mise à jour de pilote Windows.                                                                                                             |
+| [**IWindowsDriverUpdate2**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate2)                                       | contient les propriétés et les méthodes qui sont uniquement disponibles à partir d’une mise à jour de pilote Windows.                                                                                                             |
+| [**IWindowsDriverUpdate3**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate3)                                       | contient les propriétés et les méthodes qui sont uniquement disponibles à partir d’une mise à jour de pilote Windows.                                                                                                             |
+| [**IWindowsDriverUpdate4**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate4)                                       | contient les propriétés et les méthodes qui sont uniquement disponibles à partir d’une mise à jour de pilote Windows.                                                                                                             |
+| [**IWindowsDriverUpdate5**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate5)                                       | contient les propriétés et les méthodes qui sont uniquement disponibles à partir d’une mise à jour de pilote Windows.                                                                                                             |
+| [**IWindowsDriverUpdateEntry**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentry)                               | contient les propriétés qui sont uniquement disponibles à partir d’une mise à jour de pilote Windows.                                                                                                                         |
+| [**IWindowsDriverUpdateEntryCollection**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentrycollection)           | contient les propriétés qui sont uniquement disponibles à partir d’une collection de mises à jour de pilotes Windows.                                                                                                          |
 | [**IWindowsUpdateAgentInfo**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsupdateagentinfo)                                   | Récupère des informations sur la version de WUA.                                                                                                                                                       |
 
 

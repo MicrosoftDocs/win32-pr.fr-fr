@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 7951b84a2b5d9f06061f4cefb04c797ccfea3ecd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66b5b2492b73d880f356a3d581efb6ff75d9e3d811c25283ef481bc2e592ae93
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732539"
 ---
 # <a name="swbemobjectdeleteasync_-method"></a>SWbemObject. DeleteAsync, \_ méthode
 
@@ -149,7 +149,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet appel est retourné immédiatement. L’État est retourné à l’appelant via un rappel remis au récepteur spécifié dans *objWbemSink*.
 

@@ -4,12 +4,12 @@ ms.assetid: 7f33de55-2482-4558-bd86-ee2ac1e31269
 title: Message LINE_PROXYREQUEST (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d536e85a9c773626bb5aacc4745d9d82817fe3c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 31986420cd21178cca8e6f0a1006e743c3250e726b4a1bf79513f6d57e380a01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003157"
 ---
 # <a name="line_proxyrequest-message"></a>\_Message PROXYREQUEST de ligne
 
@@ -65,7 +65,7 @@ Réservé.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message de **ligne \_ PROXYREQUEST** est envoyé uniquement à la première application inscrite pour gérer les demandes de proxy du type remis.
 

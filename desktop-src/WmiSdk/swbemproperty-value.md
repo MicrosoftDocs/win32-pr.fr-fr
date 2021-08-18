@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: e203929d0ce6ce98deff5ea89f9f226cd4cebfbd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a9ebb8d52cf1e26eed158f358435936b9203c1502f153c8f7ec95b6bbbf351b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898149"
 ---
 # <a name="swbempropertyvalue-property"></a>SWbemProperty. Value (propriété)
 

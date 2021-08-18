@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPSettings (VB et C) (WMP. h)
-description: Fournit des propriétés et des méthodes qui obtiennent ou définissent les valeurs des paramètres du lecteur Windows Media. L’interface IWMPSettings expose les propriétés suivantes.
+title: interface IWMPSettings (VB et C) (Wmp. h)
+description: fournit des propriétés et des méthodes qui obtiennent ou définissent les valeurs des paramètres de Lecteur Windows Media. L’interface IWMPSettings expose les propriétés suivantes.
 ms.assetid: fb37b455-221e-4cee-a219-cacf2938a92a
 keywords:
-- IWMPSettings (VB et C) interface Windows Media Player
-- Interface IWMPSettings (VB et C), le lecteur Windows Media, décrit
+- interface IWMPSettings (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPSettings (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,29 +15,29 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db911cc6d18ba40777e77a803480c7fcab4ff8ad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a537efcd9b39f993705244020e579b9d667164180fd5cd70ab05fc692bed8fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996469"
 ---
-# <a name="iwmpsettings-vb-and-c-interface"></a>Interface IWMPSettings (VB et C#)
+# <a name="iwmpsettings-vb-and-c-interface"></a>interface IWMPSettings (VB et C#)
 
-Fournit des propriétés et des méthodes qui obtiennent ou définissent les valeurs des paramètres du lecteur Windows Media.
+fournit des propriétés et des méthodes qui obtiennent ou définissent les valeurs des paramètres de Lecteur Windows Media.
 
 L’interface **IWMPSettings** expose les propriétés suivantes.
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPSettings (VB et C#)** possède les types de membres suivants :
+l’interface **IWMPSettings (VB et C#)** possède les types de membres suivants :
 
 -   [Méthodes](#methods)
 -   [Propriétés](#properties)
 
 ### <a name="methods"></a>Méthodes
 
-L’interface **IWMPSettings (VB et C#)** possède ces méthodes.
+l’interface **IWMPSettings (VB et C#)** possède ces méthodes.
 
 
 
@@ -52,7 +52,7 @@ L’interface **IWMPSettings (VB et C#)** possède ces méthodes.
 
 ### <a name="properties"></a>Propriétés
 
-L’interface **IWMPSettings (VB et C#)** a ces propriétés.
+l’interface **IWMPSettings (VB et C#)** a ces propriétés.
 
 
 
@@ -100,7 +100,7 @@ Procurez-vous une interface **IWMPSettings** à l’aide de la propriété suiva
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPSettings2 (VB et C#)**](iwmpsettings2--vb-and-c.md)

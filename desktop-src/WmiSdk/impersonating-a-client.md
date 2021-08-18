@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Emprunt de l’identité d’un client
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 162857d90c8bddb70d90eb2e10efbc08537299d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04b6d1fe931a9e0620643d8b3f8a77c63d031a41f1dac9d17301e11c03d21bfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757939"
 ---
 # <a name="impersonating-a-client"></a>Emprunt de l’identité d’un client
 
@@ -29,7 +29,7 @@ Les sections suivantes sont présentées dans cette rubrique :
 
 WMI s’exécute généralement en tant que service administratif à un niveau de sécurité élevé, à l’aide du contexte de sécurité LocalServer. L’utilisation d’un service administratif permet à WMI d’accéder aux informations privilégiées. Lors de l’appel d’un fournisseur pour plus d’informations, WMI transmet son identificateur de sécurité (SID) au fournisseur, ce qui permet au fournisseur d’accéder aux informations au même niveau de sécurité élevé.
 
-Durant le processus de lancement de l’application WMI, le système d’exploitation Windows donne à l’application WMI le contexte de sécurité de l’utilisateur qui a commencé le processus. Le contexte de sécurité de l’utilisateur est généralement un niveau de sécurité inférieur à LocalServer. il est donc possible que l’utilisateur n’ait pas l’autorisation d’accéder à toutes les informations disponibles pour WMI. Lorsque l’application utilisateur demande des informations dynamiques, WMI transmet le SID de l’utilisateur au fournisseur correspondant. En cas d’écriture appropriée, le fournisseur tente d’accéder aux informations avec le SID de l’utilisateur, plutôt que le SID du fournisseur.
+pendant le processus de lancement de l’application wmi, le système d’exploitation Windows donne à l’application wmi le contexte de sécurité de l’utilisateur qui a commencé le processus. Le contexte de sécurité de l’utilisateur est généralement un niveau de sécurité inférieur à LocalServer. il est donc possible que l’utilisateur n’ait pas l’autorisation d’accéder à toutes les informations disponibles pour WMI. Lorsque l’application utilisateur demande des informations dynamiques, WMI transmet le SID de l’utilisateur au fournisseur correspondant. En cas d’écriture appropriée, le fournisseur tente d’accéder aux informations avec le SID de l’utilisateur, plutôt que le SID du fournisseur.
 
 Pour que le fournisseur emprunte correctement l’identité de l’application cliente, l’application cliente et le fournisseur doivent répondre aux critères suivants :
 
@@ -75,7 +75,7 @@ Si vous inscrivez un fournisseur avec la propriété de classe [**\_ \_ Win32Pro
 
 La fonction [**CoImpersonateClient**](/windows/win32/api/combaseapi/nf-combaseapi-coimpersonateclient) permet à un serveur d’emprunter l’identité du client qui a effectué l’appel. En plaçant un appel à **CoImpersonateClient** dans votre implémentation de [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices), vous autorisez votre fournisseur à définir le jeton de thread du fournisseur pour qu’il corresponde au jeton de thread du client, et donc emprunter l’identité du client. Si vous n’appelez pas **CoImpersonateClient**, votre fournisseur exécute le code à un niveau de sécurité administrateur, ce qui crée une faille de sécurité potentielle. Si votre fournisseur doit temporairement agir en tant qu’administrateur ou effectuer la vérification d’accès manuellement, appelez [**CoRevertToSelf**](/windows/win32/api/combaseapi/nf-combaseapi-coreverttoself).
 
-Contrairement à [**CoImpersonateClient**](/windows/win32/api/combaseapi/nf-combaseapi-coimpersonateclient), [**CoRevertToSelf**](/windows/win32/api/combaseapi/nf-combaseapi-coreverttoself) est une fonction com qui gère les niveaux d’emprunt d’identité de thread. Dans ce cas, **CoRevertToSelf** remplace le niveau d’emprunt d’identité par le paramètre d’emprunt d’identité d’origine. En général, le fournisseur est initialement un administrateur et alterne entre **CoImpersonateClient** et **CoRevertToSelf** , selon qu’il s’agit d’un appel qui représente l’appelant ou ses propres appels. Il incombe au fournisseur de placer correctement ces appels afin de ne pas exposer de faille de sécurité à l’utilisateur final. Par exemple, le fournisseur doit uniquement appeler des fonctions Windows natives dans la séquence de code empruntée.
+Contrairement à [**CoImpersonateClient**](/windows/win32/api/combaseapi/nf-combaseapi-coimpersonateclient), [**CoRevertToSelf**](/windows/win32/api/combaseapi/nf-combaseapi-coreverttoself) est une fonction com qui gère les niveaux d’emprunt d’identité de thread. Dans ce cas, **CoRevertToSelf** remplace le niveau d’emprunt d’identité par le paramètre d’emprunt d’identité d’origine. En général, le fournisseur est initialement un administrateur et alterne entre **CoImpersonateClient** et **CoRevertToSelf** , selon qu’il s’agit d’un appel qui représente l’appelant ou ses propres appels. Il incombe au fournisseur de placer correctement ces appels afin de ne pas exposer de faille de sécurité à l’utilisateur final. par exemple, le fournisseur doit uniquement appeler les fonctions Windows natives dans la séquence de code empruntée.
 
 > [!Note]  
 > L’objectif de [**CoImpersonateClient**](/windows/win32/api/combaseapi/nf-combaseapi-coimpersonateclient) et [**CoRevertToSelf**](/windows/win32/api/combaseapi/nf-combaseapi-coreverttoself) est de définir la sécurité d’un fournisseur. Si vous déterminez que l’emprunt d’identité a échoué, vous devez retourner un code d’achèvement approprié à WMI via [**IWbemObjectSink :: SetStatus**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus). Pour plus d’informations, consultez [gestion des messages d’accès refusé dans un fournisseur](#handling-access-denied-messages-in-a-provider).
@@ -126,7 +126,7 @@ Comme avec un fournisseur d’instances, WMI ne requiert pas une seule réponse 
 
 -   Retourne **WBEM \_ S \_ aucune \_ erreur** pour toutes les instances auxquelles le fournisseur peut accéder.
 
-    Si vous utilisez cette option, l’utilisateur n’a pas conscience que certaines instances n’étaient pas disponibles. Un certain nombre de fournisseurs, tels que ceux qui utilisent des langage SQL (SQL) avec la sécurité au niveau des lignes, retournent des résultats partiels réussis en utilisant le niveau de sécurité de l’appelant pour définir le jeu de résultats.
+    Si vous utilisez cette option, l’utilisateur n’a pas conscience que certaines instances n’étaient pas disponibles. un certain nombre de fournisseurs, tels que ceux qui utilisent langage SQL (SQL) avec la sécurité au niveau des lignes, retournent des résultats partiels réussis à l’aide du niveau de sécurité de l’appelant pour définir le jeu de résultats.
 
 -   Échec de la totalité de l’opération avec l' **\_ accès WBEM E \_ \_ refusé** et ne renvoyant aucune instance.
 
@@ -142,7 +142,7 @@ En raison de la structure de COM, vous ne pouvez pas marshaler les informations 
 
 Certaines applications peuvent utiliser des niveaux d’emprunt d’identité inférieurs à l' **\_ emprunt d' \_ \_ \_ identité RPC C IMP**. Dans ce cas, la plupart des appels d’emprunt d’identité effectués par le fournisseur pour l’application cliente échouent. Pour concevoir et implémenter un fournisseur avec succès, vous devez garder cette idée à l’esprit.
 
-Par défaut, le seul autre niveau d’emprunt d’identité qui peut accéder à un fournisseur est **RPC \_ C \_ IMP \_ Level \_ identifier**. Dans les cas où une application cliente utilise l' **\_ \_ \_ \_ identifiant RPC C IMP Level**, [**CoImpersonateClient**](/windows/win32/api/combaseapi/nf-combaseapi-coimpersonateclient) ne retourne pas de code d’erreur. Au lieu de cela, le fournisseur emprunte l’identité du client à des fins d’identification uniquement. Par conséquent, la plupart des méthodes Windows appelées par le fournisseur renverront un message d’accès refusé. Cela n’est pas sans conséquence dans la pratique, car les utilisateurs ne sont pas autorisés à faire quelque chose d’inapproprié. Toutefois, il peut être utile pendant le développement du fournisseur de savoir si le client a fait l’emprunt d’identité ou non.
+Par défaut, le seul autre niveau d’emprunt d’identité qui peut accéder à un fournisseur est **RPC \_ C \_ IMP \_ Level \_ identifier**. Dans les cas où une application cliente utilise l' **\_ \_ \_ \_ identifiant RPC C IMP Level**, [**CoImpersonateClient**](/windows/win32/api/combaseapi/nf-combaseapi-coimpersonateclient) ne retourne pas de code d’erreur. Au lieu de cela, le fournisseur emprunte l’identité du client à des fins d’identification uniquement. par conséquent, la plupart des Windows méthodes appelées par le fournisseur renverront un message d’accès refusé. Cela n’est pas sans conséquence dans la pratique, car les utilisateurs ne sont pas autorisés à faire quelque chose d’inapproprié. Toutefois, il peut être utile pendant le développement du fournisseur de savoir si le client a fait l’emprunt d’identité ou non.
 
 Le code requiert les références suivantes et les \# instructions include pour être compilées correctement.
 

@@ -24,7 +24,7 @@ ms.locfileid: "119756039"
 # <a name="iamtimelinesrcgetmediatimes-method"></a>IAMTimelineSrc :: GetMediaTimes, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

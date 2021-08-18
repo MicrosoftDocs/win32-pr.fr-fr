@@ -4,18 +4,18 @@ ms.assetid: d408986d-7889-4fd9-8202-1d2e59673a2f
 title: Propriété ADDLOCAL
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9618389d6e409829dce1eb7bb3a38c1269a2e06d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 82ca86fabd1f90c55c1c3dbf4704a89480a9b23a19f943aca3fd53c1f9065270
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822009"
 ---
 # <a name="addlocal-property"></a>Propriété ADDLOCAL
 
 La valeur de la propriété **addlocal** est une liste de fonctionnalités qui sont délimitées par des virgules et qui doivent être installées localement. Les fonctionnalités doivent être présentes dans la colonne Feature de la [table Feature](feature-table.md). Pour installer toutes les fonctionnalités localement, utilisez ADDLOCAL = ALL sur la ligne de commande. N’entrez pas ADDLOCAL = ALL dans la [table de propriétés](property-table.md), car cela génère un package installé localement qui ne peut pas être supprimé correctement.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les noms de fonctionnalités respectent la casse. Si l’indicateur de bit SourceOnly est défini dans la colonne attributs de la [table des composants](component-table.md) pour un composant d’une fonctionnalité de la liste, ce composant est installé en tant qu’exécution à partir de la source.
 
@@ -47,7 +47,7 @@ Le programme d’installation définit la propriété [**présélectionnée**](p
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

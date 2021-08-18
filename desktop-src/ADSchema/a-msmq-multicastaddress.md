@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a1b90543c40e22d8dd5fdc2b3e5195bd9382357
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6d85ad4deca3f742dc072f7a83363b608c1c470f50fca1626793c59b13e91fcc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762739"
 ---
 # <a name="msmq-multicast-address-attribute"></a>Attribut MSMQ-Multicast-Address
 
@@ -44,7 +44,7 @@ Dans le cadre d’un objet MSMQ, il est défini en appelant l’API MQCreateQueu
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

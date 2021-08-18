@@ -1,15 +1,15 @@
 ---
-description: Pour éviter les attaques malveillantes, déterminez si votre application requiert des privilèges d’administrateur. Pour les fonctions qui nécessitent des autorisations d’administrateur, créez une application distincte et utilisez la commande de ligne de commande Windows RunAs.
+description: Pour éviter les attaques malveillantes, déterminez si votre application requiert des privilèges d’administrateur. pour les fonctions qui nécessitent des autorisations d’administrateur, créez une application distincte et utilisez la commande de ligne de commande Windows RunAs.
 ms.assetid: afa520fc-c206-49de-8d73-8f6566ec4fb6
 title: Exécution avec des privilèges d’administrateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc28843195e9b5cabadc13aa2317b0bdd8058ef8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87533e71fbce613ff01ec2cf4670f1632d46786eb2a5b77900f950357a9eaa8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622719"
 ---
 # <a name="running-with-administrator-privileges"></a>Exécution avec des privilèges d’administrateur
 

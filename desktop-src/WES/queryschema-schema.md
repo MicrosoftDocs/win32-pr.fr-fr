@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: aa9b6c842ff7acd874e8e467d07c31e298a63564
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14beeaf8c4d739e490de972107fedf279e16e75b5401f63a709d43b03c338c79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005169"
 ---
 # <a name="query-schema"></a>Schéma de requête
 
@@ -27,9 +27,9 @@ La section éléments contient les noms des éléments que vous utilisez dans vo
 
 Une requête peut contenir une ou plusieurs expressions XPath utilisées pour inclure ou exclure un événement dans le jeu de résultats de la requête. Vous pouvez rechercher des événements à partir de plusieurs canaux ou fichiers journaux, mais vous ne pouvez pas mélanger des canaux et des fichiers journaux. Vous pouvez utiliser une requête dans toute fonction qui accepte un XPath (par exemple, les fonctions [**EvtQuery**](/windows/desktop/api/WinEvt/nf-winevt-evtquery) ou [**EvtSubscribe**](/windows/desktop/api/WinEvt/nf-winevt-evtsubscribe) ). Chaque XPath que vous spécifiez est limité à 32 expressions. Pour obtenir un exemple, consultez [consommation d’événements](consuming-events.md).
 
-Le SDK Windows inclut le schéma dans le \\ fichier include \\ query. xsd.
+le SDK Windows inclut le schéma dans le \\ fichier include \\ Query. xsd.
 
-Outre le schéma de requête, le journal des événements Windows définit également les schémas suivants :
+outre le schéma de requête, Windows journal des événements définit également les schémas suivants :
 
 -   [Schéma EventManifest](eventmanifestschema-schema.md): définit les éléments et les types utilisés pour écrire un manifeste d’instrumentation.
 -   [Schéma d’événement](eventschema-schema.md): définit les éléments et les types utilisés pour le rendu d’un événement.

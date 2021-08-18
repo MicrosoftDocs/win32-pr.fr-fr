@@ -21,12 +21,12 @@ api_type:
 - Schema
 api_location:
 - Root\WMI
-ms.openlocfilehash: 658803be4e70849531bf52e7368e4e9cbcc2f0a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97276023325dc4e2a460daefd35ee01104b5c0adf5c855f145e0f11c954eba1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757629"
 ---
 # <a name="win32_privilegesstatus-class-wmi"></a>Classe Win32_PrivilegesStatus (WMI)
 
@@ -77,7 +77,7 @@ Cette propriété est héritée de [**\_ \_ ExtendedStatus**](--extendedstatus.m
 
 </dd> <dt>
 
-**Opération**
+**opération**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -86,7 +86,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Opération qui se produit au moment d’une défaillance ou d’une anomalie. En règle générale, Windows Management Instrumentation (WMI) définit cette propriété sur le nom d’une API COM pour la méthode WMI, telle que la suivante : [**IWbemServices :: CreateInstanceEnum**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum).
+Opération qui se produit au moment d’une défaillance ou d’une anomalie. en règle générale, Windows Management Instrumentation (WMI) définit cette propriété sur le nom d’une API COM pour la méthode WMI, telle que la suivante : [**IWbemServices :: CreateInstanceEnum**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum).
 
 Cette propriété est héritée de [**\_ \_ ExtendedStatus**](--extendedstatus.md).
 
@@ -116,9 +116,9 @@ Type de données : tableau de **chaînes**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Liste des privilèges d’accès requis manquants pour terminer une opération. Les types de privilèges d’accès se trouvent sous les privilèges Windows.
+Liste des privilèges d’accès requis manquants pour terminer une opération. les types de privilèges d’accès se trouvent sous les privilèges Windows.
 
-Exemple : « SE \_ arrêter le \_ nom »
+exemple : « SE \_ SHUTDOWN \_ NAME »
 
 </dd> <dt>
 
@@ -133,7 +133,7 @@ Type d'accès : Lecture seule
 
 Liste de tous les privilèges requis pour effectuer une opération. Cela comprend les valeurs de la propriété **PrivilegesNotHeld** .
 
-Exemple : « SE \_ arrêter le \_ nom »
+exemple : « SE \_ SHUTDOWN \_ NAME »
 
 </dd> <dt>
 
@@ -146,7 +146,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Identifie le fournisseur qui provoque ou signale une modification d’erreur ou d’État. Si aucun fournisseur n’est impliqué, cette chaîne est définie sur « Windows Management ».
+Identifie le fournisseur qui provoque ou signale une modification d’erreur ou d’État. si aucun fournisseur n’est impliqué, cette chaîne est définie sur « gestion de la Windows ».
 
 Cette propriété est héritée de [**\_ \_ ExtendedStatus**](--extendedstatus.md).
 
@@ -165,7 +165,7 @@ Contient une erreur ou un code d’information pour une opération. Il peut s’
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PrivilegesStatus** est dérivée de [**\_ \_ ExtendedStatus**](--extendedstatus.md).
 

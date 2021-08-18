@@ -4,17 +4,17 @@ description: Les éléments graphiques affichent les relations, la hiérarchie e
 ms.assetid: f9e741e9-a72e-4bdb-bd95-8916c7cf344f
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 03db1f7a90554848f71cd43cdfa769597b71cd2f
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: cc4b5ce620660e655eeee81cab869909c14b4f8290b5852da7f480da85951a5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119936118"
 ---
 # <a name="graphic-elements"></a>Éléments graphiques
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Les *éléments graphiques* affichent les relations, la hiérarchie et l’accentuation visuellement. Elles incluent les arrière-plans, les bannières, les verres, les agrégateurs, les séparateurs, les ombres et les poignées.
 
@@ -30,7 +30,7 @@ Les éléments graphiques ne sont généralement pas interactifs. Toutefois, les
 
 Tandis que les éléments graphiques sont un moyen visuel fort d’indiquer des relations, leur utilisation augmente l’encombrement visuel et réduit l’espace disponible sur une surface. Ils doivent être utilisés avec modération.
 
-Une tendance à la conception dans Microsoft Windows est une apparence plus simple et plus claire en éliminant les graphiques et les lignes inutiles.
+une tendance à la conception dans Microsoft Windows est une apparence plus simple et plus claire en éliminant les graphiques et les lignes inutiles.
 
 Pour déterminer si un élément graphique est nécessaire, posez-vous les questions suivantes :
 
@@ -66,7 +66,7 @@ Les éléments graphiques ont plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **Ne transmettent pas d’informations essentielles par le biais d’éléments graphiques uniquement.** Cela présente des problèmes d’accessibilité pour les utilisateurs présentant des handicaps ou des handicaps.
 
@@ -78,7 +78,7 @@ Les éléments graphiques ont plusieurs modèles d’utilisation :
 
     ![capture d’écran de l’avertissement à l’aide d’un graphique complexe ](images/vis-graphic-image14.png)
 
-    Dans cet exemple, un graphique complexe de Windows XP tente d’expliquer de manière inefficacee une décision complexe d’approbation.
+    dans cet exemple, un graphique complexe de Windows XP tente de manière inefficace d’expliquer une décision d’approbation complexe.
 
 -   **N’utilisez pas de flèches, de chevrons, d’images de bouton ou d’autres intuitivité associés à des contrôles interactifs.** Cela invite les utilisateurs à interagir avec vos graphiques.
 -   **Évitez les quantités de couleur rouge, jaune et vert pur dans vos conceptions.** Pour éviter toute confusion, réservez ces couleurs pour communiquer l’État. Si vous devez utiliser ces couleurs pour des éléments autres que l’État, utilisez des tons muets plutôt que des couleurs pures.
@@ -126,8 +126,8 @@ Dans ces exemples, les pointeurs de redimensionnement sont affichés au pointage
 
 ### <a name="high-dpi-support"></a>Prise en charge des résolutions élevées
 
--   **Prend en charge les modes vidéo de 96 et de 120 points par pouce (dpi).** Détectez le mode PPP au démarrage et gérez les événements de changement PPP. Windows est optimisé pour 96 et 120 ppp et utilise 96 dpi par défaut.
--   **Préférez fournir des bitmaps distinctes restituées spécifiquement pour les PPP 96 et 120 sur la mise à l’échelle des graphiques.** Au moins, fournissez des versions 96 et 120 ppp pour les bitmaps les plus importantes et visibles, ainsi que pour centrer ou mettre à l’échelle les autres. De telles applications sont considérées comme « compatibles avec les résolutions élevées » et offrent une meilleure expérience visuelle globale que les programmes mis à l’échelle automatiquement par Windows.
+-   **Prend en charge les modes vidéo de 96 et de 120 points par pouce (dpi).** Détectez le mode PPP au démarrage et gérez les événements de changement PPP. Windows est optimisée pour 96 et 120 ppp et utilise 96 dpi par défaut.
+-   **Préférez fournir des bitmaps distinctes restituées spécifiquement pour les PPP 96 et 120 sur la mise à l’échelle des graphiques.** Au moins, fournissez des versions 96 et 120 ppp pour les bitmaps les plus importantes et visibles, ainsi que pour centrer ou mettre à l’échelle les autres. De telles applications sont considérées comme « compatibles avec les résolutions élevées » et offrent une meilleure expérience visuelle globale que les programmes mis à l’échelle automatiquement en Windows.
     -   Développeurs : vous pouvez déclarer un programme prenant en charge la résolution haute résolution (et empêcher la mise à l’échelle automatique) la définition de l’indicateur de prise en charge DPI dans le manifeste du programme, ou en appelant l’API SetProcessDPIAware () lors de l’initialisation du programme. Vous pouvez utiliser des macros pour simplifier la sélection des graphiques appropriés. Pour les bitmaps Win32, vous pouvez utiliser SS \_ CENTERIMAGE pour centrer ou SS \_ REALSIZECONTROL pour mettre à l’échelle.
 -   Vérifiez votre programme à la fois dans 96 et 120 ppp pour :
     -   Graphiques trop petits ou trop grands.
@@ -135,7 +135,7 @@ Dans ces exemples, les pointeurs de redimensionnement sont affichés au pointage
     -   Graphiques mal étirés (« pixelisée »).
     -   Texte qui est coupé ou non ajusté dans les arrière-plans graphiques.
 
-## <a name="text"></a>Text
+## <a name="text"></a>Texte
 
 -   **Pour l’accessibilité et la localisation, n’utilisez pas de texte dans les graphiques.** N’effectuez d’exceptions que pour représenter le [marquage](exper-branding.md) et le texte comme un concept abstrait.
 

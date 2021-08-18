@@ -50,19 +50,19 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d8f996e70873d5584bb80bbf4f40f71a7deae8f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4700c549fa82f932ed12e3f4eeb02f2d557db3f940b394e0f2f875ac6dd7dffb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000689"
 ---
 # <a name="imstscadvancedsettingsiconfile-property"></a>IMsTscAdvancedSettings :: IconFile, propriété
 
 Spécifie le nom du fichier contenant les données d’icône qui seront accessibles lors de l’affichage du client en mode plein écran.
 
 > [!Note]  
-> Cette propriété n’est pas prise en charge dans le contrôle ActiveX (MsRdp. ocx). Il est pris en charge dans la bibliothèque MsTscAx.dll incluse dans le client standard (MsTsc.exe).
+> cette propriété n’est pas prise en charge dans le contrôle ActiveX (MsRdp. ocx). Il est pris en charge dans la bibliothèque MsTscAx.dll incluse dans le client standard (MsTsc.exe).
 
  
 
@@ -87,7 +87,7 @@ Chemin d’accès qualifié complet du fichier icône ou fichier contenant les d
 
 Retourne **S \_ false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’extension de nom de fichier d’un fichier d’icône est « . ico ».
 

@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9885bea242a9f2b781ccb0dcac479248a9ccc538
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d5d901c771fb71dbda141f6166348d1601317eae7bcda3ea5a059f5836975014
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972269"
 ---
 # <a name="win32_pagefileusage-class"></a>\_Classe PageFileUsage Win32
 
@@ -312,7 +312,7 @@ Si la **valeur est true**, un fichier d’échange temporaire a été créé, g�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PageFileUsage** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

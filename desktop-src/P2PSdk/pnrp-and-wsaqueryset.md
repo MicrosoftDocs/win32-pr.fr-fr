@@ -4,18 +4,18 @@ ms.assetid: 0ccf20c1-4c95-4caf-a8f3-82a9e0a9907b
 title: PNRP et WSAQUERYSET (P2P. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d09d135d57af0922feb5a143c41696d85dac083
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bbc635b0c1ca19cfaeeeb7f8b013aefad1e49e2141dd9715a36c0238e7be6f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061356"
 ---
 # <a name="pnrp-and-wsaqueryset"></a>PNRP et WSAQUERYSET
 
 PNRP utilise la structure [**WSAQUERYSET**](winsock-nsp-reference-links.md) conjointement avec diverses fonctions pour faciliter la résolution des noms et l’énumération des noms et des clouds.
 
-Pour obtenir la définition complète des fonctions [**WSAQUERYSET**](winsock-nsp-reference-links.md) ou Windows Sockets, consultez leurs définitions respectives dans la documentation de l’API Windows Sockets 2 dans le kit de développement Platform SDK.
+pour obtenir la définition complète des fonctions de sockets [**WSAQUERYSET**](winsock-nsp-reference-links.md) ou Windows, consultez leurs définitions respectives dans la documentation de l’API Windows sockets 2 dans le kit de développement platform SDK.
 
 ## <a name="wsaqueryset-and-wsasetservice"></a>WSAQUERYSET et WSASetService
 
@@ -36,8 +36,8 @@ La structure [**WSAQUERYSET**](winsock-nsp-reference-links.md) est largement uti
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                             |
-| Version<br/>                  | Windows XP avec SP1 avec le Pack de mise en réseau avancée pour Windows XP<br/>  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                             |
+| Version<br/>                  | Windows xp avec SP1 avec le Pack de mise en réseau avancée pour Windows XP<br/>  |
 | En-tête<br/>                   | <dl> <dt>P2P. h</dt> </dl> |
 
 

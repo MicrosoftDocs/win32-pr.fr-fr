@@ -1,9 +1,9 @@
 ---
 title: Événement de mise en mémoire tampon de l’objet AxWindowsMediaPlayer
-description: L’événement de mise en mémoire tampon se produit lorsque le contrôle du lecteur Windows Media démarre ou termine la mise en mémoire tampon ou le téléchargement. | Événement de mise en mémoire tampon de l’objet AxWindowsMediaPlayer
+description: l’événement de mise en mémoire tampon se produit lorsque le contrôle Lecteur Windows Media commence ou termine la mise en mémoire tampon ou le téléchargement. | Événement de mise en mémoire tampon de l’objet AxWindowsMediaPlayer
 ms.assetid: ad152c4d-1c91-4da1-bec0-46f89f3b8c79
 keywords:
-- Événement de mise en mémoire tampon de l’objet AxWindowsMediaPlayer lecteur Windows Media
+- événement de mise en mémoire tampon de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af595443d78a311510df6a7e06b2e716da22ecae
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 30cca5d7ebe91859162bd729cc32cc03f36f9e3c59ba4474d41311befcce1d21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765249"
 ---
 # <a name="buffering-event-of-the-axwindowsmediaplayer-object"></a>Événement de mise en mémoire tampon de l’objet AxWindowsMediaPlayer
 
-L’événement de mise en mémoire tampon se produit lorsque le contrôle du lecteur Windows Media démarre ou termine la mise en mémoire tampon ou le téléchargement.
+l’événement de mise en mémoire tampon se produit lorsque le contrôle Lecteur Windows Media commence ou termine la mise en mémoire tampon ou le téléchargement.
 
 ``` syntax
 [C#]
@@ -53,9 +53,9 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Utilisez cet événement pour déterminer quand la mise en mémoire tampon ou le téléchargement démarre ou s’arrête. Vous pouvez utiliser le même bloc d’événements pour les cas et les *IWMPNetwork* de test. **bufferingProgress** et *IWMPNetwork*. **downloadProgress** pour déterminer si le lecteur Windows Media met actuellement en mémoire tampon ou télécharge le contenu.
+Utilisez cet événement pour déterminer quand la mise en mémoire tampon ou le téléchargement démarre ou s’arrête. Vous pouvez utiliser le même bloc d’événements pour les cas et les *IWMPNetwork* de test. **bufferingProgress** et *IWMPNetwork*. **downloadProgress** pour déterminer si Lecteur Windows Media est en train de mettre en mémoire tampon ou de télécharger du contenu.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -73,7 +73,7 @@ Utilisez cet événement pour déterminer quand la mise en mémoire tampon ou le
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPNetwork. bufferingProgress (VB et C#)**](wmplibiwmpnetwork-iwmpnetwork-bufferingprogress--vb-and-c.md)

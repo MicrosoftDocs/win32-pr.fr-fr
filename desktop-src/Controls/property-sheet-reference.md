@@ -4,12 +4,12 @@ description: Cette section contient des informations sur la programmation des é
 ms.assetid: f4fa9815-eab8-4b0b-ae5f-0bce4374223a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c42b7b4c1be7d0dc11613da36f78abbad847d6e
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: d50661ece6985c16f299b514fa59068bf06f115b49c0f0bbea783cf637c2c921
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826029"
 ---
 # <a name="property-sheet"></a>Feuille de propriétés
 
@@ -73,7 +73,7 @@ Cette section contient des informations sur la programmation des éléments util
 | [**\_REBOOTSYSTEM PSM**](psm-rebootsystem.md)                       | Indique que le système doit être redémarré pour que les modifications prennent effet. Vous pouvez envoyer le [**message \_ REBOOTSYSTEM PSM**](psm-rebootsystem.md) de manière explicite ou à l’aide de la macro [**PropSheet \_ REBOOTSYSTEM**](/windows/desktop/api/Prsht/nf-prsht-propsheet_rebootsystem) .<br/>                        |
 | [**\_RECALCPAGESIZES PSM**](psm-recalcpagesizes.md)                 | Recalcule la taille de page d’une feuille de propriétés standard ou d’Assistant après l’ajout ou la suppression de pages. Vous pouvez envoyer ce message de manière explicite ou utiliser la macro [**PropSheet \_ RecalcPageSizes**](/windows/desktop/api/Prsht/nf-prsht-propsheet_recalcpagesizes) .<br/>                                     |
 | [**\_REMOVEPAGE PSM**](psm-removepage.md)                           | Supprime une page d'une feuille de propriétés. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**PropSheet \_ RemovePage**](/windows/desktop/api/Prsht/nf-prsht-propsheet_removepage) .<br/>                                                                                                              |
-| [**\_RESTARTWINDOWS PSM**](psm-restartwindows.md)                   | Indique que Windows doit être redémarré pour que les modifications prennent effet.<br/>                                                                                                                                                                                         |
+| [**\_RESTARTWINDOWS PSM**](psm-restartwindows.md)                   | indique que Windows doit être redémarré pour que les modifications prennent effet.<br/>                                                                                                                                                                                         |
 | [**\_SETBUTTONTEXT PSM**](psm-setbuttontext.md)                     | Définit le texte d’un bouton dans un Assistant Aero. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**PropSheet \_ SetButtonText**](/windows/desktop/api/Prsht/nf-prsht-propsheet_setbuttontext) .<br/>                                                                                                 |
 | [**\_SETCURSEL PSM**](psm-setcursel.md)                             | Active la page spécifiée dans une feuille de propriétés. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**PropSheet \_ SetCurSel**](/windows/desktop/api/Prsht/nf-prsht-propsheet_setcursel) .<br/>                                                                                                    |
 | [**\_SETCURSELID PSM**](psm-setcurselid.md)                         | Active la page donnée dans une feuille de propriétés en fonction de l’identificateur de ressource de la page. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**PropSheet \_ SetCurSelByID**](/windows/desktop/api/Prsht/nf-prsht-propsheet_setcurselbyid) .<br/>                                                   |

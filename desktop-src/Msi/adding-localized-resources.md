@@ -4,12 +4,12 @@ ms.assetid: f5af0ecd-cb57-4858-88b4-4608893004f6
 title: Ajout de ressources localisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7646499e4bb48e3df9fc1527bff1273e6b6784bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de37bfd3c216018f6c4a6f6866206020576153e55383a9d6b36e67533bbb3b6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829239"
 ---
 # <a name="adding-localized-resources"></a>Ajout de ressources localisées
 
@@ -19,7 +19,7 @@ Dans ce cas, la meilleure pratique consiste à localiser le package de sorte que
 
 Le package français installe Help.txt dans un nouveau sous-répertoire du dossier RedPark, français. Étant donné que l’ajout d' Fre.txt ajoute une ressource au composant d’aide d’origine, le code du composant d’aide doit être différent dans les packages français et anglais. Consultez les règles relatives aux codes de composant dans [modification du code du composant](changing-the-component-code.md).
 
-Le package français installe Readme.txt dans le répertoire français, de sorte que ce nom de fichier ne peut pas entrer en conflit avec la version anglaise. Le Readme.txt de fichier est installé avec le composant bloc-notes, mais les règles de composant ne nécessitent pas la modification du code du composant. Dans cet exemple, le code de composant du bloc-notes ne doit pas être modifié, car RedPark.exe, les valeurs de Registre spécifiées dans la [table du Registre](registry-table.md), sont partagées par les deux versions de langue. Consultez [Ajout d’informations de Registre](adding-registry-information.md).
+Le package français installe Readme.txt dans le répertoire français, de sorte que ce nom de fichier ne peut pas entrer en conflit avec la version anglaise. le Readme.txt de fichier est installé avec le composant Bloc-notes, mais les règles de composant ne nécessitent pas la modification du code du composant. dans cet exemple, le code de composant de Bloc-notes ne doit pas être modifié, car RedPark.exe, les valeurs de registre spécifiées dans la [table du registre](registry-table.md), sont partagées par les deux versions de langage. Consultez [Ajout d’informations de Registre](adding-registry-information.md).
 
 Supprimez les versions anglaises de Help.txt et Readme.txt des fichiers sources, puis ajoutez les nouvelles versions françaises de Help.txt, Readme.txt et Fre.txt. Le package localisé doit mapper l’installation des fichiers de la source à la cible comme suit.
 
@@ -27,10 +27,10 @@ Supprimez les versions anglaises de Help.txt et Readme.txt des fichiers sources,
 
 | Fichier        | Description                  | Chemin de la source                   | Chemin d’accès à la cible                                         |
 |-------------|------------------------------|----------------------------------|--------------------------------------------------------|
-| Redpark.exe | Fichier exécutable de l’éditeur de texte. | C : \\ exemple de \\ bloc-notes \\Redpark.exe | \[ProgramFilesFolder \] \\ Red \_ Park \\ \\Redpark.exe français |
-| Lisezmoi.txt  | Fichier d’information.       | C : \\ exemple de \\ bloc-notes \\Readme.txt  | \[ProgramFilesFolder \] \\ Red \_ Park \\ \\Readme.txt français  |
-| Help.txt    | Manuel d’aide                  | C : \\ exemple de \\ bloc-notes \\Help.txt    | \[ProgramFilesFolder \] \\ Red \_ Park \\ \\Help.txt français    |
-| Fre.txt     | Liste téléphonique                   | C : \\ exemple de \\ bloc-notes \\Fre.txt     | \[ProgramFilesFolder \] \\ Red \_ Park \\ \\Fre.txt français     |
+| Redpark.exe | Fichier exécutable de l’éditeur de texte. | C : \\ exemple de \\ Bloc-notes \\Redpark.exe | \[ProgramFilesFolder \] \\ Red \_ Park \\ \\Redpark.exe français |
+| Lisezmoi.txt  | Fichier d’information.       | C : \\ exemple de \\ Bloc-notes \\Readme.txt  | \[ProgramFilesFolder \] \\ Red \_ Park \\ \\Readme.txt français  |
+| Help.txt    | Manuel d’aide                  | C : \\ exemple de \\ Bloc-notes \\Help.txt    | \[ProgramFilesFolder \] \\ Red \_ Park \\ \\Help.txt français    |
+| Fre.txt     | liste de Téléphone                   | C : \\ exemple de \\ Bloc-notes \\Fre.txt     | \[ProgramFilesFolder \] \\ Red \_ Park \\ \\Fre.txt français     |
 
 
 
@@ -49,8 +49,8 @@ Utilisez l’éditeur de base de données Orca fourni avec le kit de développem
 | ARTSDIR                                          | NOTEPADDIR                                       | Arts : événements       |
 | HOLDIR                                           | MONDIR                                           | . : Jours fériés        |
 | MENUDIR                                          | NOTEPADDIR                                       | Menu              |
-| MONDIR                                           | NOTEPADDIR                                       | Transistor              |
-| NOTEPADDIR                                       | [**ProgramFilesFolder**](programfilesfolder.md) | \_Parc rouge : bloc-notes |
+| MONDIR                                           | NOTEPADDIR                                       | Porte              |
+| NOTEPADDIR                                       | [**ProgramFilesFolder**](programfilesfolder.md) | \_parc rouge : Bloc-notes |
 | SPORTDIR                                         | NOTEPADDIR                                       | Sports : événements     |
 | FRENCHDIR                                        | NOTEPADDIR                                       | Français:.          |
 
@@ -85,7 +85,7 @@ Utilisez votre éditeur de table pour ajouter des Fre.txt à la [table de fichie
 
 
 
-| Fichier         | -\_ | FileName     | FileSize | Version | Language | Attributs | Séquence |
+| Fichier         | Composant\_ | FileName     | FileSize | Version | Langage | Attributs | Séquence |
 |--------------|-------------|--------------|----------|---------|----------|------------|----------|
 | Baseball.txt | Chaussures    | Baseball.txt | 1 000     |         |          | 0          | 1        |
 | Concert.txt  | Concert     | Concert.txt  | 1 000     |         |          | 0          | 1        |

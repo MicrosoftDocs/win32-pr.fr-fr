@@ -3,7 +3,7 @@ title: Modification de la ressource de boîte de dialogue Echo
 description: Modification de la ressource de boîte de dialogue Echo
 ms.assetid: 2a371004-82a5-42fb-b19c-ea1928a122a1
 keywords:
-- Plug-ins du lecteur Windows Media, pages de propriétés de l’exemple Echo
+- plug-ins Lecteur Windows Media, pages de propriétés de l’exemple Echo
 - plug-ins, pages de propriétés d’exemple Echo
 - plug-ins de traitement de signal numérique, pages de propriétés d’exemple Echo
 - Plug-ins DSP, pages de propriétés d’exemple Echo
@@ -11,12 +11,12 @@ keywords:
 - Echo DSP, exemple de plug-in, ressource de boîte de dialogue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09caa800376a7962a11912bc582a091f0de52c16
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d37dc88fe2c1b85dfc08727a00e744f1c5c16a2f25a4c5d429b2ab13898b0fcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996139"
 ---
 # <a name="modifying-the-echo-dialog-resource"></a>Modification de la ressource de boîte de dialogue Echo
 
@@ -24,7 +24,7 @@ Vous devez modifier la ressource de boîte de dialogue qui est l’interface uti
 
 Pour modifier la ressource de boîte de dialogue dans Visual C++ :
 
-1.  Cliquez sur l’onglet **ResourceView** dans l’espace de travail projet.
+1.  cliquez sur l’onglet **ResourceView** dans l’espace de travail Project.
 2.  Développez l’arborescence ressources en ouvrant le dossier de niveau supérieur.
 3.  Ouvrez le dossier **boîte de dialogue** .
 4.  Double-cliquez sur le nom de la ressource de boîte de dialogue, IDD \_ ECHOPROPPAGE. L’éditeur de ressources s’affiche dans le volet droit.
@@ -53,14 +53,14 @@ Pour modifier les ressources de la page de propriétés existante pour la propri
 4.  Fermez la boîte de dialogue Modifier les propriétés.
 5.  Enregistrez la ressource.
 6.  Répondez **Oui** si vous êtes invité à recharger le fichier Resource. h.
-7.  Cliquez sur l’onglet **fileview** dans l’espace de travail projet. Ouvrez Resource. h
+7.  cliquez sur l’onglet **FileView** dans l’espace de travail Project. Ouvrez Resource. h
 8.  Recherchez la \# ressource définir pour la zone d’édition du facteur d’échelle (IDC \_ SCALEFACTOR) et supprimez-la. Il doit avoir le même numéro d’ID qu’IDC \_ DELAYTIME.
 
 ## <a name="adding-the-new-resources"></a>Ajout des nouvelles ressources
 
 Pour ajouter les nouvelles ressources de la page de propriétés pour la propriété de combinaison humide :
 
-1.  Cliquez sur l’onglet **ResourceView** dans l’espace de travail du projet pour le sélectionner.
+1.  cliquez sur l’onglet **ResourceView** dans l’espace de travail Project pour le sélectionner.
 2.  Double-cliquez sur le nom de la boîte de dialogue page de propriétés, IDD \_ ECHOPROPPAGE. L’éditeur de ressources s’affiche dans le volet droit.
 3.  Utilisez la boîte à outils pour ajouter un contrôle de texte statique et une zone d’édition à la page de propriétés.
 4.  Cliquez avec le bouton droit sur le contrôle texte statique et choisissez **Propriétés**.
@@ -127,7 +127,7 @@ Ensuite, ajoutez une nouvelle ressource de type chaîne pour le message d’erre
 
 4.  Fermez la boîte de dialogue Propriétés de la chaîne.
 
-Il existe deux autres valeurs que vous pouvez modifier dans la table de chaînes. ID \_ FRIENDLYNAME est le nom qui apparaît dans l’interface utilisateur du lecteur Windows Media pour identifier le plug-in. Description des ID \_ vous permet de donner à l’utilisateur des informations sur votre plug-in. Ces deux chaînes sont passées en tant que paramètres à la fonction **IWMPMediaPluginRegistrar :: WMPRegisterPlayerPlugin** , qui est appelée dans la méthode DllRegisterServer dans Echodll. cpp.
+Il existe deux autres valeurs que vous pouvez modifier dans la table de chaînes. id \_ FRIENDLYNAME est le nom qui apparaît dans l’interface utilisateur Lecteur Windows Media pour identifier le plug-in. Description des ID \_ vous permet de donner à l’utilisateur des informations sur votre plug-in. Ces deux chaînes sont passées en tant que paramètres à la fonction **IWMPMediaPluginRegistrar :: WMPRegisterPlayerPlugin** , qui est appelée dans la méthode DllRegisterServer dans Echodll. cpp.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -136,9 +136,9 @@ Il existe deux autres valeurs que vous pouvez modifier dans la table de chaînes
 [**Modification de la page de propriétés de l’exemple Echo**](modifying-the-echo-sample-property-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

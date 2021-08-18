@@ -4,12 +4,12 @@ ms.assetid: dd4cdd3c-6bb5-4427-827d-f3e909e752e5
 title: OPM_GET_SUPPORTED_PROTECTION_TYPES (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1dc79b33673e34d00914b84165d915baa0d8f56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eddc6f4006f9692ec6152875cda412191b87d247e907d33b615aa6d4fb89748e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012539"
 ---
 # <a name="opm_get_supported_protection_types"></a>\_types de \_ \_ protection compatibles \_ avec OPM
 
@@ -27,7 +27,7 @@ Retourne la liste des mécanismes de protection pris en charge par le connecteur
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les mécanismes de protection sont retournés dans le membre **ulInformation** de la structure d' [**\_ \_ informations standard OPM**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) . La valeur est **une opération or** au niveau du bit des indicateurs de type de [protection OPM](opm-protection-type-flags.md).
 
@@ -39,8 +39,8 @@ Cette requête est équivalente à la \_ requête DXVA COPPQueryProtectionType u
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Opmapi. h</dt> </dl> |
 
 
