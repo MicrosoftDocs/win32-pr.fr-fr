@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 609725c21f0c0811a4222cd9dfd662b3e25673f3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9b09b9c58228c9028a5ac9d26d834bdc21a5c02201338767af84dc713bc3aa60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076143"
 ---
 # <a name="file_name-structure"></a>Structure de nom de fichier \_
 
@@ -85,7 +85,7 @@ Premier caractère du nom de fichier.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Notez qu’il n’y a aucun fichier d’en-tête associé pour cette structure.
 

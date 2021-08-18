@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e32387c41e3cdffa0679041534afe98cc9578491
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7a8547ffaf73aec137eb3b06e778a7e623db74b767b22304cecc6a5ed58de5b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963008"
 ---
 # <a name="readattributeexample"></a>ReadAttributeExample
 
@@ -227,9 +227,9 @@ Exit:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

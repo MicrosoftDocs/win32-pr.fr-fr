@@ -4,18 +4,18 @@ ms.assetid: f076b1ec-6b96-4386-8519-4728e0a2b1ff
 title: Arrêt approprié, options du reste et fermeture des sockets dans le SPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 743cae48977421c08611c79053520799420e9e72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5791732404948fe59d3f5c15c2ac46cdbba8d8327fb3dc5f794be1f070a9eeff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132132"
 ---
 # <a name="graceful-shutdown-linger-options-and-socket-closure-in-the-spi"></a>Arrêt approprié, options du reste et fermeture des sockets dans le SPI
 
 Il est important de faire la distinction entre l’arrêt d’une connexion de socket et la fermeture d’un Socket. L’arrêt d’une connexion de socket implique un échange de messages de protocole entre les deux points de terminaison, qui est ci-après dénommé « séquence d’arrêt ». Deux classes générales de séquences d’arrêt sont définies : normale et abandonnée. Dans une séquence d’arrêt appropriée, toutes les données qui ont été mises en file d’attente mais pas encore transmises peuvent être envoyées avant la fermeture de la connexion. Lors d’un arrêt abandonné, toutes les données non envoyées sont perdues. L’occurrence d’une séquence d’arrêt (normale ou abandonnée) peut également être utilisée pour fournir une \_ indication FD Close aux applications associées, ce qui signifie qu’un arrêt est en cours. En revanche, si vous fermez un socket, le handle de socket devient désalloué afin que l’application ne puisse plus référencer ou utiliser le socket de quelque manière que ce soit.
 
-Dans Windows Sockets, la fonction [**WSPShutdown**](/previous-versions/windows/desktop/legacy/ms742294(v=vs.85)) et la fonction [**WSPSendDisconnect**](/previous-versions/windows/desktop/legacy/ms742290(v=vs.85)) peuvent être utilisées pour initier une séquence d’arrêt, tandis que la fonction [**WSPCloseSocket**](/previous-versions/windows/hardware/network/ff566273(v=vs.85)) est utilisée pour libérer les descripteurs de socket et libérer les ressources associées. Toutefois, une certaine confusion est due au fait que la fonction **WSPCloseSocket** entraînera implicitement une séquence d’arrêt si elle ne s’est pas déjà produite. En fait, il est devenu une pratique de programmation assez courante pour s’appuyer sur cette fonctionnalité et utiliser **WSPCloseSocket** pour initier la séquence d’arrêt et libérer le handle de Socket.
+dans Windows sockets, la fonction [**WSPShutdown**](/previous-versions/windows/desktop/legacy/ms742294(v=vs.85)) et la fonction [**WSPSendDisconnect**](/previous-versions/windows/desktop/legacy/ms742290(v=vs.85)) peuvent être utilisées pour initier une séquence d’arrêt, tandis que la fonction [**WSPCloseSocket**](/previous-versions/windows/hardware/network/ff566273(v=vs.85)) est utilisée pour libérer les descripteurs de socket et libérer les ressources associées. Toutefois, une certaine confusion est due au fait que la fonction **WSPCloseSocket** entraînera implicitement une séquence d’arrêt si elle ne s’est pas déjà produite. En fait, il est devenu une pratique de programmation assez courante pour s’appuyer sur cette fonctionnalité et utiliser **WSPCloseSocket** pour initier la séquence d’arrêt et libérer le handle de Socket.
 
 Pour faciliter cette utilisation, l’interface de Sockets fournit des contrôles par le biais du mécanisme d’option de socket qui permet au programmeur d’indiquer si la séquence d’arrêt implicite doit être normale ou abandonnée, et également si la fonction doit attendre la fin de l’exécution d’une séquence d’arrêt normale.
 

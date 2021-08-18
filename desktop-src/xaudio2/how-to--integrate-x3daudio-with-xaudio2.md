@@ -4,16 +4,16 @@ ms.assetid: a8f41f0d-b284-aefa-923b-471b13b4a3ec
 title: 'Procédure : intégrer X3DAudio avec XAudio2'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dc54fa5f673e319712808ca6d2b587b8ad2d0fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c940acbe78e8d4ca4247f77500adeeca7c9619057a3008dea50fc8b55a9f364e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962688"
 ---
 # <a name="how-to-integrate-x3daudio-with-xaudio2"></a>Procédure : intégrer X3DAudio avec XAudio2
 
-Cette rubrique montre comment intégrer X3DAudio à XAudio2. Vous pouvez utiliser X3DAudio pour fournir les valeurs de volume et de tangage pour XAudio2 Voices et les paramètres de l’effet de réverbération intégré à XAudio2. Cette rubrique suppose que vous avez créé un graphique audio comme décrit dans [Comment : générer un graphique de traitement audio de base](how-to--build-a-basic-audio-processing-graph.md). Si vous n’avez pas encore créé de graphique audio, [**X3DAudioInitialize**](/windows/desktop/api/x3daudio/nf-x3daudio-x3daudioinitialize) échoue.
+Cette rubrique montre comment intégrer X3DAudio à XAudio2. Vous pouvez utiliser X3DAudio pour fournir les valeurs de volume et de tangage pour XAudio2 Voices et les paramètres de l’effet de réverbération intégré à XAudio2. Cette rubrique suppose que vous avez créé un graphique audio comme décrit dans [Comment : créer un Graph de traitement audio de base](how-to--build-a-basic-audio-processing-graph.md). Si vous n’avez pas encore créé de graphique audio, [**X3DAudioInitialize**](/windows/desktop/api/x3daudio/nf-x3daudio-x3daudioinitialize) échoue.
 
 **Pour initialiser X3DAudio**
 
@@ -61,7 +61,7 @@ Cette rubrique montre comment intégrer X3DAudio à XAudio2. Vous pouvez utilise
     
 
     > [!Note]  
-    > Utilisez [**IXAudio2Voice :: GetVoiceDetails**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-getvoicedetails) sur la voix de mastérisation pour obtenir le nombre de InputChannels pour **nChannels**. Pour les versions du kit de développement logiciel (SDK) DirectX de XAUDIO2 antérieures à Windows 8, utilisez IXAudio2 :: GetDeviceDetails.
+    > Utilisez [**IXAudio2Voice :: GetVoiceDetails**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-getvoicedetails) sur la voix de mastérisation pour obtenir le nombre de InputChannels pour **nChannels**. pour les versions du kit de développement logiciel (SDK) DirectX de XAUDIO2 antérieures à Windows 8, utilisez IXAudio2 :: GetDeviceDetails.
 
      
 

@@ -4,17 +4,17 @@ description: La personnalisation est le positionnement émotionnel d’un produi
 ms.assetid: 49c10879-2f3a-4dff-b628-8d70e389fae6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: ea9954c7ce0c082cf6b1b692cdccf5a7d6a3a132
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 91d1446d3d3f499f0b56f857b4e2806e266e32df1bb4120d93416eb1cb225581
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104563213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119090534"
 ---
 # <a name="software-branding"></a>Personnalisation des logiciels
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 La personnalisation est le positionnement émotionnel d’un produit tel qu’il est perçu par ses clients. Une personnalisation réussie requiert la création habile d’une image de produit et n’est pas obtenue à l’aide de logos de produit et de modèles de couleurs.
 
@@ -69,7 +69,7 @@ Les éléments de personnalisation de logiciel peuvent être catégorisés comme
 
 ![capture d’écran du logo Windows ](images/exper-branding-image1.png)![capture d’écran des thèmes Windows ](images/exper-branding-image2.png)
 
-Certains éléments de personnalisation de Windows Vista.
+certains éléments de personnalisation de Windows Vista.
 
 Les éléments de la personnalisation principale ont tendance à attirer beaucoup d’attention. ils doivent donc être utilisés avec des restrictions. **Limitez votre utilisation des éléments de personnalisation principaux à quelques expériences stratégiques.** Les sons spécifiques au produit ne sont pas recommandés pour la plupart des programmes.
 
@@ -88,7 +88,7 @@ Les éléments de la personnalisation principale ont tendance à attirer beaucou
 
 ![figure de conception en couleurs solides, principales ](images/exper-branding-image4.png)![figure de conception de type ruban bleu et vert ](images/exper-branding-image5.png)
 
-Certains éléments de personnalisation de Windows Vista.
+certains éléments de personnalisation de Windows Vista.
 
 Les éléments de personnalisation secondaires ont tendance à être plus subtils et, pour cette raison, ils peuvent être utilisés plus souvent. Même si certains de ces éléments de personnalisation peuvent ne pas avoir un impact important individuellement, ils peuvent fournir le caractère et le style de votre produit. Les transitions peuvent avoir plus d’impact que les graphiques fixes, que les utilisateurs apprennent à ignorer au fil du temps. Préférez le niveau secondaire de personnalisation au niveau principal.
 
@@ -116,9 +116,9 @@ Concentrez-vous sur les expériences spéciales de votre programme. Il s’agit 
 
 ### <a name="where-not-to-brand"></a>Là où vous ne voulez pas la personnalisation
 
-Bien que vous puissiez utiliser tout élément de votre programme comme une opportunité de personnalisation, n’utilisez pas le bureau Windows (y compris la [zone de travail](glossary.md), la [barre de lancement rapide](glossary.md)ou la [zone de notification](winenv-notification.md)) pour la personnalisation.
+bien que vous puissiez utiliser tout élément de votre programme comme opportunité de personnalisation, n’utilisez pas le bureau Windows (y compris la [zone de travail](glossary.md), la barre de [lancement rapide](glossary.md)ou la [zone de notification](winenv-notification.md)) pour la personnalisation.
 
-**Le bureau est le point d’entrée de l’utilisateur sur Windows. Laissez l’utilisateur dans le contrôle.** Utilisez ces points d’entrée de manière appropriée : ne les affichez jamais comme des moyens de sensibiliser votre programme ou sa personnalisation. Pour plus d’informations, consultez la page [Desktop](winenv-desktop.md).
+**Le bureau est le point d’entrée de l’utilisateur pour Windows. Laissez l’utilisateur dans le contrôle.** Utilisez ces points d’entrée de manière appropriée : ne les affichez jamais comme des moyens de sensibiliser votre programme ou sa personnalisation. Pour plus d’informations, consultez la page [Desktop](winenv-desktop.md).
 
 ### <a name="use-branding-professionals"></a>Utiliser des professionnels de la personnalisation
 
@@ -153,10 +153,10 @@ La personnalisation est une compétence spécialisée qui est le mieux effectué
 
     ![capture d’écran du panneau de configuration sans logo](images/exper-branding-image7.png)
 
-    Dans un meilleur exemple, un élément graphique secondaire est utilisé à la place du logo de produit pour les éléments du panneau de configuration Windows.
+    dans un meilleur exemple, un élément graphique secondaire est utilisé à la place du logo de produit pour Windows éléments du panneau de configuration.
 
 -   **N’utilisez pas de personnalisation qui gêne ou nuit à la convivialité ou aux performances.**
--   **N’utilisez pas le bureau Windows pour la personnalisation.** Pour plus d’informations, consultez la page [Desktop](winenv-desktop.md).
+-   **n’utilisez pas le bureau de Windows pour la personnalisation.** Pour plus d’informations, consultez la page [Desktop](winenv-desktop.md).
 
 ### <a name="names-and-logos"></a>Noms et logos
 
@@ -182,7 +182,7 @@ La personnalisation est une compétence spécialisée qui est le mieux effectué
 -   **Utilisez des logos graphiques.** Les logos graphiques sont plus stables que les logos de texte, car ils ne sont pas affectés par la police, la taille du texte, le module linguistique ou les modifications de thème.
 -   **N’utilisez pas de logos animés.**
 
-### <a name="controls"></a>Commandes
+### <a name="controls"></a>Contrôles
 
 -   **N’utilisez pas de contrôles personnalisés pour la personnalisation.** Utilisez plutôt des contrôles personnalisés lorsque cela est nécessaire pour créer une expérience immersive spéciale ou lorsque des fonctionnalités spéciales sont nécessaires.
 

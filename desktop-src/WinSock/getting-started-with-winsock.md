@@ -1,21 +1,21 @@
 ---
-description: Vous trouverez ci-dessous un guide pas à pas pour la prise en main de la programmation Windows Sockets.
+description: voici un guide pas-à-pas pour la mise en route de la programmation de Windows sockets.
 ms.assetid: 905cd5bc-44af-4d3f-841a-9e9a2700a785
 title: Prise en main avec Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43751663a637fafb2eec453a48c329ff8e4499f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bcce956d7dcb142e4a51ac3a461868dfa055acc9a2d1624b6a6dff5132f86ea7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106539059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132152"
 ---
 # <a name="getting-started-with-winsock"></a>Prise en main avec Winsock
 
-Vous trouverez ci-dessous un guide pas à pas pour la prise en main de la programmation Windows Sockets. Il est conçu pour vous permettre de comprendre les fonctions et structures de données de base de Winsock, et comment elles fonctionnent ensemble.
+voici un guide pas-à-pas pour la mise en route de la programmation de Windows sockets. Il est conçu pour vous permettre de comprendre les fonctions et structures de données de base de Winsock, et comment elles fonctionnent ensemble.
 
-L’application cliente et serveur utilisée pour l’illustration est un client et un serveur de base. Des exemples de code plus avancés sont inclus dans les exemples inclus dans le kit de développement logiciel (SDK) Microsoft Windows.
+L’application cliente et serveur utilisée pour l’illustration est un client et un serveur de base. vous trouverez des exemples de code plus avancés dans les exemples inclus dans le kit de développement logiciel (SDK) de Microsoft Windows.
 
 Les premières étapes sont identiques pour les applications client et serveur.
 
@@ -47,13 +47,13 @@ Le code source complet de ces exemples de base.
 
 ## <a name="advanced-winsock-samples"></a>Exemples de Winsock avancés
 
-Plusieurs exemples plus avancés de client et de serveur Winsock sont inclus dans le SDK Windows. Par défaut, le code source de l’exemple Winsock est installé dans le répertoire suivant par le SDK Windows pour Windows 7 :
+plusieurs exemples plus avancés de client et de serveur Winsock sont inclus dans le SDK Windows. par défaut, le code source de l’exemple Winsock est installé dans le répertoire suivant par le SDK Windows pour Windows 7 :
 
-*C : \\ Program Files \\ Microsoft SDK \\ \\ exemples Windows v \\ 7.0 \\ NetDs \\ Winsock*
+*C : \\ Program Files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ exemples \\ NetDs \\ winsock*
 
-Dans les versions antérieures du SDK Windows, le numéro de version dans le chemin d’accès ci-dessus change. Par exemple, le code source de l’exemple Winsock est installé dans le répertoire par défaut suivant par le SDK Windows pour Windows Vista
+dans les versions antérieures du SDK Windows, le numéro de version dans le chemin d’accès ci-dessus change. par exemple, le code source de l’exemple Winsock est installé dans le répertoire par défaut suivant par le SDK Windows pour Windows Vista
 
-*C : \\ Program Files \\ Microsoft SDK \\ \\ exemples Windows v \\ 6.0 \\ NetDs \\ Winsock*
+*C : \\ Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ exemples \\ NetDs \\ winsock*
 
 Les exemples les plus avancés répertoriés ci-dessous dans l’ordre et les performances les plus basses sont disponibles dans les répertoires suivants :
 

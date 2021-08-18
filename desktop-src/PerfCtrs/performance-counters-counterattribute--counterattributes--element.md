@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 88e424aa067e45c1e88caf1fa6079d62802ba16d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86fcd0195dc5f304d7f3bda8e9aa3a1a39f1ff97b684cd3c1a41be22a996d693
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011277"
 ---
 # <a name="counterattribute-counterattributes-element"></a>Élément counterAttribute (counterAttributes)
 
@@ -34,8 +34,8 @@ L’élément **counterAttribute** est défini par le type complexe [**counterAt
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

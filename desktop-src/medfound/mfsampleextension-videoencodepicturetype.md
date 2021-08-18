@@ -4,12 +4,12 @@ ms.assetid: 18A47033-3EAC-46C3-94AB-6ED20732F63C
 title: Attribut MFSampleExtension_VideoEncodePictureType (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bfe0df0e4f3163e7c8c0581c5c7c2a854555eec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3be87284be3b605e3af70d64df98e5d762aa7cc353bb83b5f61a110d1242ae1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973168"
 ---
 # <a name="mfsampleextension_videoencodepicturetype-attribute"></a>\_Attribut MFSampleExtension VideoEncodePictureType
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L' [**encodeur vidéo H. 264**](h-264-video-encoder.md) définit cet attribut sur les exemples de sortie qu’il génère. La valeur de l’attribut est un membre de l’énumération [**eAVEncH264PictureType**](/windows/desktop/api/codecapi/ne-codecapi-eavench264picturetype) .
 
@@ -39,7 +39,7 @@ L' [**encodeur vidéo H. 264**](h-264-video-encoder.md) définit cet attribut su
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 

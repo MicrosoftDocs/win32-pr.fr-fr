@@ -4,12 +4,12 @@ description: Les descripteurs, les handles de ressource et les chaînes de style
 ms.assetid: 7f51f02b-7c9f-4aa0-b0cf-83551a312e83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d70ed4d9d52452b5067a6d1e51392b84f95ccce8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1188af74e150313cb24b01886d06df9e3ad065039cad9fa4a3e0b3b5ee6a9f4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009787"
 ---
 # <a name="allocating-winsnmp-memory-objects"></a>Allocation d’objets de mémoire WinSNMP
 
@@ -30,13 +30,13 @@ Le tableau suivant résume l’allocation et la désallocation des ressources po
 
 
 
- 
+ 
 
 Pour plus d’informations, consultez [libération de descripteurs WinSNMP](freeing-winsnmp-descriptors.md).
 
- 
+ 
 
- 
+ 
 
 
 

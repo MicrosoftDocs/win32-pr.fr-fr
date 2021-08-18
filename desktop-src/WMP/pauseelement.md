@@ -3,7 +3,7 @@ title: PAUSEELEMENT
 description: Il s’agit d’un BUTTONELEMENT prédéfini avec les valeurs par défaut suivantes. | PAUSEELEMENT
 ms.assetid: 9472ea68-daab-4969-b407-287aedb00fbf
 keywords:
-- Lecteur Windows Media PAUSEELEMENT
+- PAUSEELEMENT Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ee55b347db98e14360200257c2dedd314f61ce4e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae9a19c532fcee6c57d6bc318631447eefcdc421b4f57dd2284e0f05b4b86b32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996039"
 ---
 # <a name="pauseelement"></a>PAUSEELEMENT
 
@@ -31,7 +31,7 @@ cursor="system"
 enabled="wmpenabled:player.controls.pause"
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Toutes les propriétés de ce **BUTTONELEMENT** peuvent être remplacées en les spécifiant explicitement.
 

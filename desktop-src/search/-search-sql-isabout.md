@@ -4,18 +4,18 @@ ms.assetid: e2629c4c-4b44-4427-ac1d-17f55fd969e3
 title: Terme ISABOUT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f79fc2fa4a56b3ca6b3b412141f096b282e3aa9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5665e7bf62da4858cf2e7d68e65d0f42771903d55e3189db12f19cdd5414530d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969608"
 ---
 # <a name="isabout-term"></a>Terme ISABOUT
 
 **Déconseillé**
 
-Cette fonctionnalité a été supprimée depuis Windows 8. Si vous écrivez de nouvelles applications, évitez d’utiliser cette fonctionnalité déconseillée. Si vous modifiez des applications existantes, il est vivement recommandé de supprimer toute dépendance sur cette fonctionnalité.
+Cette fonctionnalité a été supprimée à partir de Windows 8. Si vous écrivez de nouvelles applications, évitez d’utiliser cette fonctionnalité déconseillée. Si vous modifiez des applications existantes, il est vivement recommandé de supprimer toute dépendance sur cette fonctionnalité.
 
 Le terme ISABOUT fait correspondre les colonnes à un groupe d’un ou plusieurs termes de recherche. Sa syntaxe est la suivante :
 
@@ -77,7 +77,7 @@ Le tableau suivant décrit les types de termes de correspondance possibles.
 </td>
 </tr>
 <tr class="even">
-<td>Expression</td>
+<td>Phrase</td>
 <td>Plusieurs mots ou espaces inclus.</td>
 <td><div class="code">
 <span data-codelanguage=""></span>

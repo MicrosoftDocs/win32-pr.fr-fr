@@ -35,9 +35,9 @@
           href: high-fidelity-graphics-with-directx.md
         - name: Plateforme multimédia
           href: media-platform.md
-        - name: Périphériques
+        - name: Appareils
           href: devices.md
-    - name: Le meilleur de Windows et du Web
+    - name: le meilleur des Windows et du Web
       href: the-best-of-windows-and-the-web.md
       items:
         - name: Services

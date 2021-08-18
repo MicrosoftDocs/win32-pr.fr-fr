@@ -4,12 +4,12 @@ ms.assetid: 51df3fb9-416d-46b8-b3a7-0281401fb390
 title: Meilleures pratiques pour réduire les services qui ne répondent pas
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90416e8256383e16fd78c436dfaa8d6a2186c540
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 61cf3f37620fc00834b3c25a92292c889785818c2810cac7c12e788de8bf1fb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994849"
 ---
 # <a name="best-practices-for-minimizing-unresponsive-services"></a>Meilleures pratiques pour réduire les services qui ne répondent pas
 
@@ -21,7 +21,7 @@ ms.locfileid: "108087997"
 
 Les services qui ne répondent pas peuvent entraîner des délais d’attente, des sessions terminées et même des données perdues. L’utilisation des meilleures pratiques peut réduire de manière considérable l’occurrence de services qui ne répondent pas.
 
-## <a name="best-practices"></a>Bonnes pratiques
+## <a name="best-practices"></a>Meilleures pratiques
 
 Assurez-vous que vos applications et tous leurs services et pilotes dépendants répondent aux notifications d’arrêt et de puissance système.
 

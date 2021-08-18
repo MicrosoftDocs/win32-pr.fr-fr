@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66cd19dde97e3a9fc6ef58165c8dbcbfbebba729
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2c0b4f45d558e344103835aee4185d4af6bdff8f394a12c39670625ecd58882d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082023"
 ---
 # <a name="acs-non-reserved-tx-size-attribute"></a>ACS-attribut non réservé-TX-Size
 
@@ -45,7 +45,7 @@ Taille de compartiment de jeton qu’une application peut utiliser avant qu’un
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

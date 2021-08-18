@@ -3,7 +3,7 @@ title: Slider. backgroundColor
 description: L’attribut backgroundColor spécifie ou récupère la couleur d’arrière-plan du contrôle Slider.
 ms.assetid: 8f2c48ec-29f5-4fbe-aa62-c7cfb8a8678c
 keywords:
-- Slider. backgroundColor lecteur Windows Media
+- slider. backgroundColor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06cc595af13b28541fcc570e130da4e804fdeafe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fc2de30392c58cfad151e2d3c209f0407880a47522a536bf08dbe42d7f56dc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995229"
 ---
 # <a name="sliderbackgroundcolor"></a>Slider. backgroundColor
 
@@ -31,7 +31,7 @@ L’attribut **backgroundColor** spécifie ou récupère la couleur d’arrière
 
 Cet attribut est une **chaîne** en lecture/écriture contenant toute valeur de couleur Microsoft Internet Explorer. Il n'a aucune valeur par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un contrôle Slider de base peut être construit en spécifiant **backgroundColor** ou **BackgroundImage**, et **foregroundColor** ou **foregroundImage**.
 

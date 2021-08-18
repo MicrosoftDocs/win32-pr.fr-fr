@@ -4,12 +4,12 @@ ms.assetid: e2a16a6e-8cd4-4fd3-adeb-461faed948e4
 title: CounterDetails
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 751073cdc2f2646ad1f2351bff0bdc02c498d428
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef429f7f90c38d53f085ed0243e1c799c1d1cfa808c7aa052d8a37ed3a1faf1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103952018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011357"
 ---
 # <a name="counterdetails"></a>CounterDetails
 
@@ -21,7 +21,7 @@ La table **CounterDetails** définit les champs suivants :
 -   **MachineName :** Nom de l’ordinateur qui a enregistré ce jeu de données.
 -   **ObjectName :** Nom de l’objet de performance.
 -   **CounterName :** Nom du compteur.
--   Au-dessus de **:** Type de compteur. Pour obtenir la liste des types de compteurs et leurs formules, consultez la section types de compteurs du [Kit de déploiement de Windows Server 2003](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)).
+-   Au-dessus de **:** Type de compteur. pour obtenir la liste des types de compteurs et leurs formules, consultez la section types de compteurs du [Kit de déploiement Windows Server 2003](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)).
 -   **DEFAULTSCALE :** Mise à l’échelle par défaut à appliquer aux données de compteur de performances brutes.
 -   **Nom_instance :** Nom de l’instance de compteur.
 -   **InstanceIndex :** Numéro d’index de l’instance de compteur.

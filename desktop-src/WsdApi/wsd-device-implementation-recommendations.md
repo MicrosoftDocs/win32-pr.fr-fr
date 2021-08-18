@@ -1,19 +1,19 @@
 ---
-description: Les rubriques suivantes présentent un intérêt pour les fabricants de périphériques et les autres implémenteurs d’appareils qui créent des appareils qui interagissent avec les clients et hôtes WSDAPI basés sur Windows sans utiliser WSDAPI.
+description: les rubriques suivantes présentent un intérêt pour les fabricants de périphériques et les autres implémenteurs d’appareils qui créent des appareils qui interagissent avec les clients et hôtes wsdapi basés sur Windows sans utiliser wsdapi.
 ms.assetid: 72e3ce48-fd7d-4a47-9055-ebcc034a84bf
-title: Recommandations en matière d’implémentation des appareils WSD
+title: Recommandations de l’implémentation des appareils WSD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f8ddeaa572413b1bda2d36715c1a32d9e7f418e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f9e3070a020e60223c6129f93bb97927d7f96da5e82160ca85f7015271e32c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130591"
 ---
-# <a name="wsd-device-implementation-recommendations"></a>Recommandations en matière d’implémentation des appareils WSD
+# <a name="wsd-device-implementation-recommendations"></a>Recommandations de l’implémentation des appareils WSD
 
-Les rubriques suivantes présentent un intérêt pour les fabricants de périphériques et les autres implémenteurs d’appareils qui créent des appareils qui interagissent avec les clients et hôtes WSDAPI basés sur Windows sans utiliser WSDAPI. Ces rubriques contiennent des recommandations qui permettent de réduire la complexité du code de l’appareil et d’améliorer l’interopérabilité avec WSDAPI.
+les rubriques suivantes présentent un intérêt pour les fabricants de périphériques et les autres implémenteurs d’appareils qui créent des appareils qui interagissent avec les clients et hôtes wsdapi basés sur Windows sans utiliser wsdapi. Ces rubriques contiennent des recommandations qui permettent de réduire la complexité du code de l’appareil et d’améliorer l’interopérabilité avec WSDAPI.
 
 -   [Implémentation d’un périphérique WSD multirésident](implementing-a-multi-homed-wsd-device.md)
 -   [Distribution des messages SOAP](dispatching-soap-messages.md)

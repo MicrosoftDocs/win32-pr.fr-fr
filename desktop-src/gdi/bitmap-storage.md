@@ -1,19 +1,19 @@
 ---
-description: Les bitmaps doivent être enregistrées dans un fichier qui utilise le format de fichier bitmap établi et attribuer un nom avec l’extension. bmp à trois caractères.
+description: Les bitmaps doivent être enregistrées dans un fichier qui utilise le format de fichier bitmap établi et attribuer un nom avec l’extension de .bmp à trois caractères.
 ms.assetid: 44f19d14-4e0e-4512-8c86-6bd34ca4e87b
-title: Stockage bitmap
+title: Stockage Bitmap
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28046f6d78f5137d0dfc5b1396bbf76be318daa5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83688f240899ded49227264b716d8c5d1fb609aa747fc358184a78ad18c8d17f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038207"
 ---
-# <a name="bitmap-storage"></a>Stockage bitmap
+# <a name="bitmap-storage"></a>Stockage Bitmap
 
-Les bitmaps doivent être enregistrées dans un fichier qui utilise le format de fichier bitmap établi et attribuer un nom avec l’extension. bmp à trois caractères. Le format de fichier bitmap établi se compose d’une structure [**BITMAPFILEHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader) suivie d’une structure [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85)), [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)ou [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) . Un tableau de structures [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) (également appelé table de couleurs) suit la structure d’en-tête d’informations bitmap. La table de couleurs est suivie d’un deuxième tableau d’index dans la table des couleurs (les données de la bitmap réelle).
+Les bitmaps doivent être enregistrées dans un fichier qui utilise le format de fichier bitmap établi et attribuer un nom avec l’extension de .bmp à trois caractères. Le format de fichier bitmap établi se compose d’une structure [**BITMAPFILEHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader) suivie d’une structure [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85)), [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)ou [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) . Un tableau de structures [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) (également appelé table de couleurs) suit la structure d’en-tête d’informations bitmap. La table de couleurs est suivie d’un deuxième tableau d’index dans la table des couleurs (les données de la bitmap réelle).
 
 Le format de fichier bitmap est indiqué dans l’illustration suivante.
 

@@ -1,37 +1,37 @@
 ---
 title: Désactivation des touches de raccourci dans les jeux
-description: Cet article explique comment désactiver temporairement les raccourcis clavier dans Microsoft Windows pour éviter toute interruption de jeu pour les jeux en mode plein écran.
+description: cet article explique comment désactiver temporairement les raccourcis clavier dans Microsoft Windows pour éviter toute interruption de jeu pour les jeux en mode plein écran.
 ms.assetid: 732523f9-ecff-c6c2-646d-1bc3443232ab
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aff426e0d728150cf5f6ac3cd8d46a711c9b4f8b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 08eae2ee1b30e78b17440f2c6144c529de4e6d7b6272a5d497de5c5e631ac1c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070519"
 ---
 # <a name="disabling-shortcut-keys-in-games"></a>Désactivation des touches de raccourci dans les jeux
 
-Cet article explique comment désactiver temporairement les raccourcis clavier dans Microsoft Windows pour éviter toute interruption de jeu pour les jeux en mode plein écran. La touche Maj et la touche CTRL sont souvent utilisées comme boutons de déclenchement ou d’exécution dans les jeux. Si les utilisateurs appuient accidentellement sur la touche Windows (situés près de ces touches), ils peuvent se rendre soudains à l’application, ce qui Ruins l’expérience du jeu. En utilisant simplement la touche Maj comme bouton de jeu, vous pouvez exécuter par inadvertance le raccourci touches rémanentes qui peut afficher une boîte de dialogue d’avertissement. Pour éviter ces problèmes, vous devez désactiver ces clés lorsqu’elles s’exécutent en mode plein écran et les réactiver à leurs gestionnaires par défaut en cas d’exécution en mode fenêtre ou quitter l’application.
+cet article explique comment désactiver temporairement les raccourcis clavier dans Microsoft Windows pour éviter toute interruption de jeu pour les jeux en mode plein écran. La touche Maj et la touche CTRL sont souvent utilisées comme boutons de déclenchement ou d’exécution dans les jeux. si les utilisateurs appuient accidentellement sur la touche Windows (situés près de ces touches), ils peuvent se rendre soudains à l’application, ce qui ruins l’expérience du jeu. En utilisant simplement la touche Maj comme bouton de jeu, vous pouvez exécuter par inadvertance le raccourci touches rémanentes qui peut afficher une boîte de dialogue d’avertissement. Pour éviter ces problèmes, vous devez désactiver ces clés lorsqu’elles s’exécutent en mode plein écran et les réactiver à leurs gestionnaires par défaut en cas d’exécution en mode fenêtre ou quitter l’application.
 
 Cet article explique comment effectuer les opérations suivantes :
 
--   [Désactiver la touche Windows à l’aide d’un crochet clavier](#disable-the-windows-key-with-a-keyboard-hook)
+-   [désactiver la touche Windows avec un crochet clavier](#disable-the-windows-key-with-a-keyboard-hook)
 -   [Désactiver les touches de raccourci d’accessibilité](#disable-the-accessibility-shortcut-keys)
 
-## <a name="disable-the-windows-key-with-a-keyboard-hook"></a>Désactiver la touche Windows à l’aide d’un crochet clavier
+## <a name="disable-the-windows-key-with-a-keyboard-hook"></a>désactiver la touche Windows avec un crochet clavier
 
-Utilisez un crochet de clavier de bas niveau pour filtrer la clé Windows du traitement. Le crochet de clavier de bas niveau illustré dans l’exemple 1 reste en vigueur même si un utilisateur réduit la fenêtre ou bascule vers une autre application. Cela signifie que vous devez veiller à ce que la touche Windows ne soit pas désactivée lorsque l’application est désactivée. Pour ce faire, le code de l’exemple 1 gère le \_ message WM ACTIVATEAPP.
+utilisez un crochet de clavier de bas niveau pour filtrer la clé de Windows du traitement. Le crochet de clavier de bas niveau illustré dans l’exemple 1 reste en vigueur même si un utilisateur réduit la fenêtre ou bascule vers une autre application. cela signifie que vous devez veiller à ce que la clé de Windows ne soit pas désactivée lorsque l’application est désactivée. Pour ce faire, le code de l’exemple 1 gère le \_ message WM ACTIVATEAPP.
 
 > [!Note]  
-> Cette méthode fonctionne sur Windows 2000 et les versions ultérieures de Windows. Cette méthode fonctionne également avec les comptes d’utilisateur dotés de privilèges minimum (également appelés comptes d’utilisateur limité).
+> cette méthode fonctionne sur Windows 2000 et les versions ultérieures de Windows. Cette méthode fonctionne également avec les comptes d’utilisateur dotés de privilèges minimum (également appelés comptes d’utilisateur limité).
 
- 
+ 
 
 Cette méthode est utilisée par DXUT et est illustrée dans l’exemple de code suivant.
 
-**Exemple 1 : Utilisation d’un crochet de clavier de bas niveau pour désactiver la touche Windows**
+**Exemple 1 : utilisation d’un crochet de clavier de bas niveau pour désactiver la clé de Windows**
 
 
 ```C++
@@ -95,7 +95,7 @@ LRESULT CALLBACK WndProc( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam )
 
 ## <a name="disable-the-accessibility-shortcut-keys"></a>Désactiver les touches de raccourci d’accessibilité
 
-Windows comprend des fonctionnalités d’accessibilité telles que les touches rémanentes, les touches filtres et les touches [d'](/previous-versions/visualstudio/visual-studio-6.0/aa227589(v=vs.60))accès. Chacun d’eux a un objectif différent ; Par exemple, la touche rémanente est conçue pour les personnes qui éprouvent des difficultés à maintenir simultanément deux clés ou plus. Chacune de ces fonctionnalités d’accessibilité possède également un raccourci clavier qui permet d’activer ou de désactiver la fonctionnalité. Par exemple, le raccourci touches rémanentes est déclenché en appuyant cinq fois sur la touche Maj. Si la touche Maj est également utilisée dans le jeu, l’utilisateur peut déclencher accidentellement ce raccourci pendant la lecture du jeu. Quand le raccourci est déclenché, Windows (par défaut) affiche un avertissement dans une boîte de dialogue, ce qui fait que Windows réduit le jeu s’exécutant en mode plein écran. Cela peut bien sûr avoir un effet considérable sur le jeu.
+Windows comprend des fonctionnalités d’accessibilité, telles que les touches rémanentes, les touches filtres et les touches d’accès en [Windows](/previous-versions/visualstudio/visual-studio-6.0/aa227589(v=vs.60)). Chacun d’eux a un objectif différent ; Par exemple, la touche rémanente est conçue pour les personnes qui éprouvent des difficultés à maintenir simultanément deux clés ou plus. Chacune de ces fonctionnalités d’accessibilité possède également un raccourci clavier qui permet d’activer ou de désactiver la fonctionnalité. Par exemple, le raccourci touches rémanentes est déclenché en appuyant cinq fois sur la touche Maj. Si la touche Maj est également utilisée dans le jeu, l’utilisateur peut déclencher accidentellement ce raccourci pendant la lecture du jeu. lorsque le raccourci est déclenché, Windows (par défaut) affiche un avertissement dans une boîte de dialogue, ce qui amène Windows à réduire le jeu en mode plein écran. Cela peut bien sûr avoir un effet considérable sur le jeu.
 
 Les fonctionnalités d’accessibilité sont requises pour certains clients et n’interfèrent pas eux-mêmes avec les jeux en plein écran. par conséquent, vous ne devez pas modifier les paramètres d’accessibilité. Toutefois, étant donné que les raccourcis des fonctionnalités d’accessibilité peuvent perturber la lecture du jeu en cas de déclenchement accidentel, vous devez désactiver un raccourci d’accessibilité uniquement lorsque cette fonctionnalité n’est pas activée en appelant [**SystemParametersInfo**](/previous-versions/visualstudio/visual-studio-6.0/aa227580(v=vs.60)).
 
@@ -112,7 +112,7 @@ Cette méthode est utilisée dans DXUT et est illustrée dans l’exemple de cod
 > [!Note]  
 > Cette méthode fonctionne lors de l’exécution sur un compte d’utilisateur limité.
 
- 
+ 
 
 **Exemple 2 : Désactivation des touches de raccourci d’accessibilité**
 
@@ -191,6 +191,6 @@ void AllowAccessibilityShortcutKeys( bool bAllowKeys )
 
 
 
- 
+ 
 
- 
+ 

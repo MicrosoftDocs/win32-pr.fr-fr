@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 508565c518b67d31b0299014817b669f9484f743
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b3c110e1aeb54d38805b5ee6ad116ed8fcbbdc7274d0548b582fd88b0e8ac1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978559"
 ---
 # <a name="server2003grbitsenumerateignoreuserdefineddefault-field"></a>Champ Server2003Grbits. EnumerateIgnoreUserDefinedDefault
 
@@ -55,7 +55,7 @@ public const EnumerateColumnsGrbit EnumerateIgnoreUserDefinedDefault
 
 ## <a name="remarks"></a>Notes
 
-Cette option est disponible uniquement pour les systèmes d’exploitation Windows Server 2003 SP1 et versions ultérieures.
+cette option est disponible uniquement pour les systèmes d’exploitation Windows Server 2003 SP1 et versions ultérieures.
 
 ## <a name="see-also"></a>Voir aussi
 

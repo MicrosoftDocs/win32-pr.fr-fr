@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: dc8fe6277208808ad5f5b182f3eee416daf4a5d0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e4202cf2b57798de76784f4117665d92054fcbc74de76f1bd9a3f371dba66056
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968588"
 ---
 # <a name="shellgetsetting-method"></a>Shell. GetSetting, méthode
 
@@ -87,7 +87,7 @@ Non utilisé.
 
 </dt> <dd>
 
-L’état de l’option **autoriser tous les noms en majuscules** . À compter de Windows Vista, cette option de dossier n’est plus disponible.
+L’état de l’option **autoriser tous les noms en majuscules** . à partir de Windows Vista, cette option de dossier n’est plus disponible.
 
 </dd> <dt>
 
@@ -131,7 +131,7 @@ Non utilisé.
 
 </dt> <dd>
 
-État de l’affichage des icônes dans le mode liste de l’Explorateur Windows. Si cette option est active, aucune icône n’est affichée en mode liste.
+état de l’affichage des icônes dans le mode liste de l’explorateur de Windows. Si cette option est active, aucune icône n’est affichée en mode liste.
 
 </dd> <dt>
 
@@ -142,7 +142,7 @@ Non utilisé.
 
 </dt> <dd>
 
-**Windows Vista et versions ultérieures**. L’état du nom d’affichage est affiché dans l’affichage de liste de l’Explorateur Windows. Si cette option est active, les icônes sont affichées en mode liste, mais pas les noms d’affichage.
+**Windows Vista et versions ultérieures**. l’état du nom d’affichage est affiché dans le mode liste de l’explorateur de Windows. Si cette option est active, les icônes sont affichées en mode liste, mais pas les noms d’affichage.
 
 </dd> <dt>
 
@@ -153,7 +153,7 @@ Non utilisé.
 
 </dt> <dd>
 
-État du **bouton afficher le lecteur réseau dans la barre d’outils** . À compter de Windows Vista, cette option n’est plus disponible.
+État du **bouton afficher le lecteur réseau dans la barre d’outils** . à partir de Windows Vista, cette option n’est plus disponible.
 
 </dd> <dt>
 
@@ -175,7 +175,7 @@ Non utilisé.
 
 </dt> <dd>
 
-État de l’option **Rechercher automatiquement les dossiers et imprimantes réseau** . À compter de Windows Vista, cette option n’est plus disponible.
+État de l’option **Rechercher automatiquement les dossiers et imprimantes réseau** . à partir de Windows Vista, cette option n’est plus disponible.
 
 </dd> <dt>
 
@@ -219,7 +219,7 @@ Non utilisé.
 
 </dt> <dd>
 
-État de l’option **afficher les attributs de fichier en mode Détails** . À compter de Windows Vista, cette option n’est plus disponible.
+État de l’option **afficher les attributs de fichier en mode Détails** . à partir de Windows Vista, cette option n’est plus disponible.
 
 </dd> <dt>
 
@@ -285,7 +285,7 @@ Non utilisé.
 
 </dt> <dd>
 
-État de l’option **fichiers et dossiers cachés** . Dans Windows Vista et versions ultérieures, cette valeur est équivalente à SSF \_ SHOWALLOBJECTS. Dans les versions de Windows antérieures à Windows Vista, cette valeur faisait état de l’option **ne pas afficher les fichiers et les dossiers masqués** .
+État de l’option **fichiers et dossiers cachés** . dans Windows Vista et versions ultérieures, cette valeur est équivalente à SSF \_ SHOWALLOBJECTS. dans les versions de Windows antérieures à Windows Vista, cette valeur correspond à l’état de l’option **ne pas afficher les fichiers et les dossiers masqués** .
 
 </dd> <dt>
 
@@ -318,7 +318,7 @@ Non utilisé.
 
 </dt> <dd>
 
-État de l’option d’affichage de Windows XP, qui permet de sélectionner le style Windows XP et le style classique. À compter de Windows Vista, cette option n’est plus disponible.
+état de l’option d’affichage Windows xp, qui permet de sélectionner le style Windows xp et le style classique. à partir de Windows Vista, cette option n’est plus disponible.
 
 </dd> <dt>
 
@@ -329,7 +329,7 @@ Non utilisé.
 
 </dt> <dd>
 
-État de l' **affichage comme une option d’affichage Web**. À compter de Windows Vista, cette option n’est plus disponible.
+État de l' **affichage comme une option d’affichage Web**. à partir de Windows Vista, cette option n’est plus disponible.
 
 </dd> <dt>
 
@@ -340,11 +340,11 @@ Non utilisé.
 
 </dt> <dd>
 
-État de l’option de **style classique** . À compter de Windows Vista, cette option n’est plus disponible.
+État de l’option de **style classique** . à partir de Windows Vista, cette option n’est plus disponible.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -360,9 +360,9 @@ A la valeur **true** si le paramètre existe ; Sinon, **false**.
 
 ## <a name="examples"></a>Exemples
 
-Les exemples suivants illustrent l’utilisation de **GetSetting** pour JScript, VBScript et Visual Basic.
+les exemples suivants illustrent l’utilisation de **GetSetting** pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -432,8 +432,8 @@ End Sub
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 6,0 ou ultérieure)</dt> </dl> |

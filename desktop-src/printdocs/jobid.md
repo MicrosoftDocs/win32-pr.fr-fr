@@ -51,7 +51,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Nom                      | Type de données         | Unité | Valeurs prises en charge | Récapitulatif |
+| Nom                      | Type de données         | Unité | Valeurs prises en charge | Résumé |
 |---------------------------|-------------------|------|------------------|---------|
 | \_JobIDValue\_<br/> | string<br/> |      |                  |         |
 

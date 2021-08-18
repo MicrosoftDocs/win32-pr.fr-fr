@@ -1,17 +1,17 @@
 ---
-title: Qui gère la mémoire
+title: Qui Gère la mémoire
 description: En règle générale, les stubs sont responsables de l’empaquetage et de l’empaquetage des données, de l’allocation et de la libération de la mémoire et du transfert des données vers et depuis la mémoire.
 ms.assetid: 9dea0fc0-d248-45b1-9a90-2155011c7e7c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab3e43b2ff3d1dd8abdacccfb133106bd38ef625
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 74e1e8aa94b8c1c0dea86f7317c55186e373ab12c268bf58ba8baa4c7c0630a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010437"
 ---
-# <a name="who-manages-memory"></a>Qui gère la mémoire ?
+# <a name="who-manages-memory"></a>Qui Gère la mémoire ?
 
 En règle générale, les stubs sont responsables de l’empaquetage et de l’empaquetage des données, de l’allocation et de la libération de la mémoire et du transfert des données vers et depuis la mémoire. Dans certains cas, toutefois, l’application est chargée d’allouer et de libérer de la mémoire. Les rubriques suivantes décrivent les facteurs qui déterminent quel composant est responsable de la gestion de la mémoire :
 
@@ -21,11 +21,11 @@ En règle générale, les stubs sont responsables de l’empaquetage et de l’e
 -   [Attributs de pointeur appliqués au paramètre](pointer-attributes-applied-to-the-parameter.md)
 -   [Combinaison d’attributs pointeur et directionnel](combining-pointer-and-directional-attributes.md)
 -   [Protection de la mémoire tampon MCCP](mccp-buffer-protection.md)
--   [Valeurs de retour de fonction](function-return-values.md)
+-   [Valeurs de retour d’une fonction](function-return-values.md)
 
- 
+ 
 
- 
+ 
 
 
 

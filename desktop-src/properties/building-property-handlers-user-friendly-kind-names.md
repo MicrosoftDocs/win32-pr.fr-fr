@@ -4,12 +4,12 @@ ms.assetid: 1466b4c7-49ea-417a-ac94-7b45515ccb96
 title: Utilisation des noms de genres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dca36d7c1de587efd8d96f0c18aaca9457721714
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: 38d5f1432e7680cfed63c2c210375f3b7a300fae4563ca308a3b25b8751fb139
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971098"
 ---
 # <a name="using-kind-names"></a>Utilisation des noms de genres
 

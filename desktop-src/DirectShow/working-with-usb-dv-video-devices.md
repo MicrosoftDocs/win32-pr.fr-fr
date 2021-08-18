@@ -4,18 +4,18 @@ ms.assetid: 6244f006-db9f-42b2-81cd-26eba583613e
 title: Utilisation des périphériques vidéo USB DV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75647aa7b53bac45c155b4e0a9283418c9af58b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd1f83fb490f4bd1e71714dcb0658d01a41d6e45af6f3e89436f6e32c1cdc985
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071740"
 ---
 # <a name="working-with-usb-dv-video-devices"></a>Utilisation des périphériques vidéo USB DV
 
 Cette rubrique explique comment écrire des applications pour les périphériques vidéo USB (Universal Serial Bus) qui capturent la vidéo DV.
 
-Le format DV standard a une vitesse de données d’environ 25 mégabits par seconde (Mbits/s). Lors de la première introduction de l’USB, la bande passante est insuffisante pour prendre en charge la vidéo DV. Toutefois, USB 2,0 peut prendre en charge jusqu’à 480 Mbits/s, ce qui est plus que suffisant pour la vidéo DV. La spécification UVC (USB Video Device Class), publiée dans 2003, définit le format de charge utile pour les périphériques vidéo USB DV. Un pilote de classe Windows Driver Model (WDM) pour les appareils UVC a été introduit dans Windows XP Service Pack 2.
+Le format DV standard a une vitesse de données d’environ 25 mégabits par seconde (Mbits/s). Lors de la première introduction de l’USB, la bande passante est insuffisante pour prendre en charge la vidéo DV. Toutefois, USB 2,0 peut prendre en charge jusqu’à 480 Mbits/s, ce qui est plus que suffisant pour la vidéo DV. La spécification UVC (USB Video Device Class), publiée dans 2003, définit le format de charge utile pour les périphériques vidéo USB DV. un pilote de classe Windows Driver Model (WDM) pour les appareils UVC a été introduit dans Windows XP Service Pack 2.
 
 Dans la plupart des cas, le pilote UVC prend en charge le même modèle de programmation que le pilote MSDV pour les appareils IEEE 1394. Les applications écrites pour MSDV doivent uniquement nécessiter des modifications mineures pour prendre en charge les appareils UVC.
 
@@ -294,7 +294,7 @@ HRESULT IsPinDownstreamFromNode(
 
 <dl> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> </dl>
 
  

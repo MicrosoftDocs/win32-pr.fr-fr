@@ -1,5 +1,5 @@
 ---
-description: Appareils mobiles Windows prend en charge les propriétés d’association de réseau suivantes.
+description: Windows Périphériques portables prend en charge les propriétés d’association de réseau suivantes.
 ms.assetid: 5e1b3e8d-9620-4b68-b7ef-1642404ed6ed
 title: Propriétés de l’Association réseau (PortableDevice. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 41e40e456d4671d1aa8fb190274afd2f5ace98b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ebad4534976d14e6b620a8e42b70e8ece68022201cec5235295d199e453ef818
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106524035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963528"
 ---
 # <a name="network-association-properties"></a>Propriétés de l’Association réseau
 
-Appareils mobiles Windows prend en charge les propriétés d’association de réseau suivantes.
+Windows Périphériques portables prend en charge les propriétés d’association de réseau suivantes.
 
 
 

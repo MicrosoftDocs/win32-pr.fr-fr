@@ -6,12 +6,12 @@ keywords:
 - Restart Manager restart Mgr, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec1cfd300d554e311ab43cc0a9413514b6b60081
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 98003ff4193ce26eb4ed2a3bdab60db8d58adf86698c6b9369a80b8043458579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010297"
 ---
 # <a name="about-restart-manager"></a>À propos du gestionnaire de redémarrage
 
@@ -22,11 +22,11 @@ Le gestionnaire de redémarrage arrête les applications dans l’ordre suivant,
 1.  Applications GUI
 2.  Applications console
 3.  Services Windows
-4.  Explorateur Windows
+4.  explorateur de Windows
 
 Le gestionnaire de démarrage arrête l’application ou les services uniquement si l’appelant est autorisé à le faire. Notez que l’arrêt entre sessions n’est pas pris en charge.
 
-Les applications qui utilisent la version 4,0 de [Windows Installer](/windows/desktop/Msi/windows-installer-portal) pour l’installation et la maintenance utilisent automatiquement le gestionnaire de redémarrage pour réduire les redémarrages du système. Les programmes d’installation personnalisés peuvent également être conçus pour appeler l’API du gestionnaire de redémarrage pour arrêter et redémarrer les applications et les services. Dans les cas où un redémarrage du système est inévitable, les programmes d’installation peuvent utiliser l’API du gestionnaire de redémarrage pour planifier les redémarrages de manière à réduire au minimum l’interruption du processus de travail de l’utilisateur.
+les Applications qui utilisent la version 4,0 de [Windows Installer](/windows/desktop/Msi/windows-installer-portal) pour l’installation et la maintenance utilisent automatiquement le gestionnaire de redémarrage pour réduire les redémarrages du système. Les programmes d’installation personnalisés peuvent également être conçus pour appeler l’API du gestionnaire de redémarrage pour arrêter et redémarrer les applications et les services. Dans les cas où un redémarrage du système est inévitable, les programmes d’installation peuvent utiliser l’API du gestionnaire de redémarrage pour planifier les redémarrages de manière à réduire au minimum l’interruption du processus de travail de l’utilisateur.
 
 Pour plus d’informations sur l’utilisation de l’API du gestionnaire de redémarrage pendant l’installation et les mises à jour, consultez [utilisation du gestionnaire de redémarrage](using-restart-manager.md).
 
@@ -36,6 +36,6 @@ Vos applications et services doivent être prêts à être arrêtés par le gest
 
 Pour obtenir des informations de référence sur les énumérations, les structures et les fonctions de l’API du gestionnaire de redémarrage, consultez la section [Référence du gestionnaire de redémarrage](restart-manager-reference.md) .
 
- 
+ 
 
- 
+ 

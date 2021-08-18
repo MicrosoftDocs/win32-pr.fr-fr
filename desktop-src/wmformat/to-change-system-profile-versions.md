@@ -8,18 +8,18 @@ keywords:
 - profils système, modification des versions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 824e2b1cf4a43cef0e87daa461c6510a6672472d
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: c963a142c879242b5e2ae734dedb4073a120a57a9121c3f3f95e5838c15110a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084269"
 ---
 # <a name="to-change-system-profile-versions"></a>Pour modifier les versions de profil système
 
 Chaque fois que vous créez un objet de gestionnaire de profils, il analyse les profils système. Vous pouvez itérer au sein des profils système à l’aide des méthodes [**IWMProfileManager :: GetSystemProfileCount**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-getsystemprofilecount) et [**IWMProfileManager :: LoadSystemProfile**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadsystemprofile) , mais le gestionnaire de profils compte et répertorie uniquement les profils d’une seule version à la fois. Si vous souhaitez utiliser cette méthode pour rechercher des profils système, vous devez vous assurer que le gestionnaire de profils gère la version que vous souhaitez. Utilisez les méthodes de l’interface [**IWMProfileManager2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager2) pour définir et récupérer la version du profil système utilisée par le gestionnaire de profils.
 
-Les versions sont spécifiées à l’aide des membres du type d’énumération de [**\_ version WMT**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_version) . Si vous définissez la version du profil système sur WMT \_ ver \_ 9 \_ 0, l’appel échoue, mais le nombre de profils système est égal à zéro. Cela est dû au fait qu’aucun profil système prédéfini n’utilise les codecs de série Windows Media Audio et Video 9. Pour plus d’informations sur la mise à jour des profils afin d’utiliser les codecs les plus récents, consultez [réutilisation des configurations de flux](reusing-stream-configurations.md).
+Les versions sont spécifiées à l’aide des membres du type d’énumération de [**\_ version WMT**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_version) . Si vous définissez la version du profil système sur WMT \_ ver \_ 9 \_ 0, l’appel échoue, mais le nombre de profils système est égal à zéro. cela est dû au fait qu’aucun profil système prédéfini n’utilise les codecs de série Windows Media Audio et Video 9. Pour plus d’informations sur la mise à jour des profils afin d’utiliser les codecs les plus récents, consultez [réutilisation des configurations de flux](reusing-stream-configurations.md).
 
 Si vous chargez un profil système à l’aide de son identificateur GUID, la version du profil système utilisée par le gestionnaire de profils n’a pas d’importance. Pour plus d’informations sur le chargement des profils système, consultez [pour charger un profil système](to-load-a-system-profile.md).
 
@@ -137,9 +137,9 @@ int main(void)
 [**Utilisation des profils système**](using-system-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

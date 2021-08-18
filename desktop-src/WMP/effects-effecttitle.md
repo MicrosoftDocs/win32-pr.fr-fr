@@ -3,7 +3,7 @@ title: EFFECTs. effectTitle
 description: La méthode effectTitle récupère le titre d’affichage de la visualisation avec l’index de Registre spécifié.
 ms.assetid: f3ea33f6-a8fc-4a18-993e-69b549fbea16
 keywords:
-- EFFECTs. effectTitle Windows Media Player
+- effects. effectTitle Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 99d5bcbc25dc12891241cfcd99d770242a581475
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0173f5d1bd4755da1feb024b26fc581e63029f48dcde27f5009fd508db3c9d40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996679"
 ---
 # <a name="effectseffecttitle"></a>EFFECTs. effectTitle
 
@@ -43,7 +43,7 @@ La méthode **effectTitle** récupère le titre d’affichage de la visualisatio
 
 Cette méthode retourne une **chaîne**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est utilisée pour afficher des titres de visualisation dans une interface utilisateur.
 

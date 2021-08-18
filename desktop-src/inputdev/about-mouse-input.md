@@ -20,12 +20,12 @@ keywords:
 - Message WM_MOUSEWHEEL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2294027cb4ca2c97371a7a06c90a7e46188e3b7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b0c4978babd6322102908699dbf88b68e2d3b92f57fa9bfa79b9b8c3eae88931
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103726981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105788"
 ---
 # <a name="about-mouse-input"></a>À propos de l’entrée de souris
 
@@ -80,7 +80,7 @@ La fonctionnalité d’accessibilité du verrouillage de la souris permet à un 
 
 Bien que la souris soit un appareil d’entrée important pour les applications, tous les utilisateurs n’ont pas nécessairement une souris. Une application peut déterminer si le système comprend une souris en passant la valeur de **\_ MOUSEPRESENT SM** à la fonction [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) .
 
-Windows prend en charge une souris comportant jusqu’à trois boutons. Sur une souris à trois boutons, les boutons sont désignés comme des boutons gauche, central et droit. Les messages et les constantes nommées associées aux boutons de la souris utilisent les lettres L, M et R pour identifier les boutons. Le bouton d’une souris à bouton unique est considéré comme le bouton gauche. Bien que Windows prenne en charge une souris avec plusieurs boutons, la plupart des applications utilisent le bouton gauche principalement et les autres au minimum, si ce n’est du tout.
+Windows prend en charge une souris avec trois boutons au maximum. Sur une souris à trois boutons, les boutons sont désignés comme des boutons gauche, central et droit. Les messages et les constantes nommées associées aux boutons de la souris utilisent les lettres L, M et R pour identifier les boutons. Le bouton d’une souris à bouton unique est considéré comme le bouton gauche. bien que Windows prenne en charge une souris avec plusieurs boutons, la plupart des applications utilisent le bouton gauche principalement et les autres au minimum, si ce n’est du tout.
 
 Les applications peuvent également prendre en charge une roulette de souris. La roulette de la souris peut être appuyée ou pivotée. Lorsque la roulette de la souris est enfoncée, elle agit en tant que bouton central (troisième) et envoie les messages normaux du bouton central à votre application. Lorsqu’il est pivoté, un message de roulette est envoyé à votre application. Pour plus d’informations, consultez [la section roulette de la souris](#the-mouse-wheel) .
 
@@ -92,7 +92,7 @@ Une application peut déterminer le nombre de boutons sur la souris en passant l
 
 Windows prend en charge une souris avec cinq boutons. Outre les boutons gauche, central et droit, il y a le bouton XButton1 et XBUTTON2, qui fournissent une navigation vers l’avant et vers l’arrière lors de l’utilisation de votre navigateur.
 
-Le gestionnaire de fenêtres prend en charge le bouton XButton1 et XBUTTON2 par le biais des messages **WM \_ XBUTTON \*** et **WM \_ NCXBUTTON \*** . Le HIWORD du **wParam** dans ces messages contient un indicateur qui spécifie le bouton X sur lequel l’utilisateur a cliqué. Étant donné que ces messages de souris tiennent également entre les constantes **WM \_ MOUSEFIRST** et **WM \_ MOUSELAST**, une application peut filtrer tous les messages de souris avec [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) ou [**PeekMessage**](/windows/desktop/api/winuser/nf-winuser-peekmessagea).
+Le gestionnaire de fenêtres prend en charge le bouton XButton1 et XBUTTON2 par le biais des **\_ messages WM XBUTTON \* *_ et _* WM \_ NCXBUTTON \* *_. Le HIWORD du _* wParam** dans ces messages contient un indicateur qui spécifie le bouton X sur lequel l’utilisateur a cliqué. Étant donné que ces messages de souris tiennent également entre les constantes **WM \_ MOUSEFIRST** et **WM \_ MOUSELAST**, une application peut filtrer tous les messages de souris avec [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) ou [**PeekMessage**](/windows/desktop/api/winuser/nf-winuser-peekmessagea).
 
 La prise en charge suivante le bouton XButton1 et XBUTTON2 :
 
@@ -152,7 +152,7 @@ Une fenêtre reçoit un message de la souris de la zone cliente lorsqu’un év�
 
 
 
- 
+ 
 
 En outre, une application peut appeler la fonction [**TrackMouseEvent**](/windows/win32/api/winuser/nf-winuser-trackmouseevent) pour que le système envoie deux autres messages. Il publie le message [**WM \_ MOUSEHOVER**](wm-mousehover.md) quand le curseur pointe sur la zone cliente pendant une certaine période. Il publie le message [**WM \_ MOUSELEAVE**](wm-mouseleave.md) lorsque le curseur quitte la zone cliente.
 
@@ -176,7 +176,7 @@ Le paramètre *wParam* contient des indicateurs qui indiquent l’état des autr
 
 
 
- 
+ 
 
 ### <a name="double-click-messages"></a>Messages Double-Click
 
@@ -193,7 +193,7 @@ Un message de double-clic est toujours le troisième message dans une série de 
 3.  [**\_LBUTTONDBLCLK WM**](wm-lbuttondblclk.md)
 4.  [**\_LBUTTONUP WM**](wm-lbuttonup.md)
 
-Étant donné qu’une fenêtre reçoit toujours un message de bouton avant de recevoir un message de double-clic, une application utilise généralement un message de double-clic pour étendre une tâche qu’elle a commencée lors d’un message de bouton. Par exemple, quand l’utilisateur clique sur une couleur dans la palette de couleurs de Microsoft Paint, Paint affiche la couleur sélectionnée en regard de la palette. Lorsque l’utilisateur double-clique sur une couleur, Paint affiche la couleur et ouvre la boîte de dialogue **modifier les couleurs** .
+Étant donné qu’une fenêtre reçoit toujours un message de bouton avant de recevoir un message de double-clic, une application utilise généralement un message de double-clic pour étendre une tâche qu’elle a commencée lors d’un message de bouton. par exemple, quand l’utilisateur clique sur une couleur dans la palette de couleurs de Microsoft Paint, Paint affiche la couleur sélectionnée en regard de la palette. lorsque l’utilisateur double-clique sur une couleur, Paint affiche la couleur et ouvre la boîte de dialogue **modifier les couleurs** .
 
 ### <a name="nonclient-area-mouse-messages"></a>Messages de souris de la zone non cliente
 
@@ -246,7 +246,7 @@ Le paramètre *lParam* du message [**WM \_ NCHITTEST**](wm-nchittest.md) contien
 
 
 
- 
+ 
 
 Si le curseur se trouve dans la zone cliente d’une fenêtre, [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) retourne la valeur du test de positionnement **HTCLIENT** à la procédure de fenêtre. Lorsque la procédure de fenêtre retourne ce code au système, le système convertit les coordonnées d’écran de la zone réactive du curseur en coordonnées clientes, puis publie le message approprié de la souris de la zone cliente.
 
@@ -270,7 +270,7 @@ La fonctionnalité d’accessibilité de la souris masque le pointeur lorsque l�
 
 ## <a name="the-mouse-wheel"></a>Roulette de la souris
 
-La roulette de la souris combine les fonctionnalités d’une roue et le bouton de la souris. La roulette a des crans discrets, uniformément espacés. Lorsque vous faites pivoter la roue, un message de roue est envoyé à votre application à mesure que chaque grugeage est rencontré. Le bouton roulette peut également fonctionner comme un bouton central Windows (troisième) normal. Le fait d’appuyer sur la roulette de la souris pour envoyer des messages [**WM \_ MBUTTONUP**](wm-mbuttonup.md) et [**WM \_ MBUTTONDOWN**](wm-mbuttondown.md) standard. Le fait de double-cliquer sur le troisième bouton envoie le message [**\_ MBUTTONDBLCLK WM**](wm-mbuttondblclk.md) standard.
+La roulette de la souris combine les fonctionnalités d’une roue et le bouton de la souris. La roulette a des crans discrets, uniformément espacés. Lorsque vous faites pivoter la roue, un message de roue est envoyé à votre application à mesure que chaque grugeage est rencontré. le bouton roulette peut également fonctionner comme un bouton normal Windows central (troisième). Le fait d’appuyer sur la roulette de la souris pour envoyer des messages [**WM \_ MBUTTONUP**](wm-mbuttonup.md) et [**WM \_ MBUTTONDOWN**](wm-mbuttondown.md) standard. Le fait de double-cliquer sur le troisième bouton envoie le message [**\_ MBUTTONDBLCLK WM**](wm-mbuttondblclk.md) standard.
 
 La roulette de la souris est prise en charge via le message [**WM \_ MOUSEWHEEL**](wm-mousewheel.md) .
 
@@ -316,12 +316,12 @@ Le tableau ci-dessous répertorie les contrôles avec des fonctionnalités de d�
 | Mode Liste               | Vertical et horizontal.                                                                                                                                                |
 | Défilement vers le haut/vers le haut         | Un élément à la fois.                                                                                                                                                     |
 | Défilements TrackBar        | Un élément à la fois.                                                                                                                                                     |
-| Édition enrichie de Microsoft 1,0 | Vertical. Notez que le client Exchange possède ses propres versions des contrôles d’affichage de liste et d’arborescence qui n’offrent pas de prise en charge de roulette.                                        |
+| Édition enrichie de Microsoft 1,0 | Vertical. notez que le client Exchange possède ses propres versions des contrôles d’affichage de liste et d’arborescence qui n’offrent pas de prise en charge de roulette.                                        |
 | Édition enrichie de Microsoft 2,0 | Vertical.                                                                                                                                                               |
 
 
 
- 
+ 
 
 ### <a name="detecting-a-mouse-with-a-wheel"></a>Détection d’une souris avec une roue
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8c96b7453eb6009121fd6782030f7988663f5e8f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e3c0297ccf670de12380c5f02af2c67d6050bac29dd1fa7e7e89a6e6c7c20592
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074684"
 ---
 # <a name="cbasevideorenderershoulddrawsamplenow-method"></a>Méthode CBaseVideoRenderer. ShouldDrawSampleNow
 
@@ -69,7 +69,7 @@ Pointeur vers le temps d’arrêt du rendu.
 
 Retourne une valeur **HRESULT** . Retourne \_ la valeur OK pour signifier un dessin à la fois sans attendre, s \_ false pour signifier dessiner à l' *ptrStart*, ou une erreur pour signifier ne pas dessiner l’exemple ; autrement dit, vous pouvez l’ignorer pour gagner du temps.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre substitue [**CBaseRenderer :: ShouldDrawSampleNow**](cbaserenderer-shoulddrawsamplenow.md).
 
@@ -79,7 +79,7 @@ Cette fonction membre substitue [**CBaseRenderer :: ShouldDrawSampleNow**](cbas
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

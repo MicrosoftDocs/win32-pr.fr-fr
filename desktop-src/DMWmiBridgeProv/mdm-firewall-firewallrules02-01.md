@@ -1,6 +1,6 @@
 ---
 title: Classe MDM_Firewall_FirewallRules02_01
-description: La \_ classe FirewallRules02 01 du pare-feu MDM \_ \_ est utilisée pour configurer les paramètres du pare-feu Windows Defender.
+description: la \_ classe FirewallRules02 01 du pare-feu MDM \_ \_ est utilisée pour configurer les paramètres du pare-feu Windows Defender.
 ms.assetid: b09cbd98-152e-486c-acb5-4e1d83e5f8e2
 keywords:
 - Classe MDM_Firewall_FirewallRules02_01
@@ -20,18 +20,18 @@ api_type:
 - DllExport
 api_location:
 - DMWmiBridgeProv.dll
-ms.openlocfilehash: 494be18ece91e7a1776780542f988b80cb822e42
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d6a0f1c4337f64b93ca043e9f7d4d744516b37f9e5b13a471aec56bae4602feb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077233"
 ---
 # <a name="mdm_firewall_firewallrules02_01-class"></a>\_ \_ Classe FirewallRules02 01 du pare-feu MDM \_
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-La \_ classe FirewallRules02 01 du pare-feu MDM \_ \_ est utilisée pour configurer les paramètres du pare-feu Windows Defender.
+la \_ classe FirewallRules02 01 du pare-feu MDM \_ \_ est utilisée pour configurer les paramètres du pare-feu Windows Defender.
 
 La syntaxe suivante issue du code MOF est simplifiée et inclut toutes les propriétés héritées.
 
@@ -107,7 +107,7 @@ Type d’accès : lecture/écriture
 
 </dd> <dt>
 
-[Enabled](/windows/client-management/mdm/firewall-csp#enabled)
+[Activé](/windows/client-management/mdm/firewall-csp#enabled)
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -288,7 +288,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                     |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                       |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1. mof</dt> </dl> |

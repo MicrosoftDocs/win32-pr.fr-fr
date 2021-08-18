@@ -4,12 +4,12 @@ ms.assetid: 6900faa3-79bb-4ed8-b83e-148eb10425a0
 title: Fonctions de transport de données génériques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f63de41b90148210ea8a99d5271b62c5d8bc0c08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10d13b067713fe6a2600d6667ebe7eac058c5fcae87fc5bfd14311b3a263b862
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132352"
 ---
 # <a name="generic-data-transport-functions"></a>Fonctions de transport de données génériques
 
@@ -22,8 +22,8 @@ Cette section répertorie les fonctions de transport de données exposées par W
 | [**WSPAccept**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpwspaccept)                           | Une connexion entrante est reconnue et associée à un socket créé immédiatement. Le socket d’origine est retourné à l’état d’écoute. Cette fonction permet également l’acceptation conditionnelle. |
 | [**WSPAsyncSelect**](/previous-versions/windows/desktop/legacy/ms742267(v=vs.85))                 | Exécute une version asynchrone de [**WSPSelect**](/previous-versions/windows/desktop/legacy/ms742289(v=vs.85)).                                                                                                                                      |
 | [**WSPBind**](/previous-versions/windows/hardware/network/ff566268(v=vs.85))                               | Assigne un nom local à un socket sans nom.                                                                                                                                                              |
-| [**WSPCancelBlockingCall**](/previous-versions/windows/desktop/legacy/ms742269(v=vs.85))   | Annule un appel Windows Sockets bloquant en attente.                                                                                                                                                   |
-| [**WSPCleanup**](/previous-versions/windows/hardware/network/ff566270(v=vs.85))                         | Se déconnecte du fournisseur de services Windows Sockets sous-jacent.                                                                                                                                         |
+| [**WSPCancelBlockingCall**](/previous-versions/windows/desktop/legacy/ms742269(v=vs.85))   | annule un appel de sockets Windows bloquant en suspens.                                                                                                                                                   |
+| [**WSPCleanup**](/previous-versions/windows/hardware/network/ff566270(v=vs.85))                         | se déconnecte du fournisseur de services Windows sockets sous-jacent.                                                                                                                                         |
 | [**WSPCloseSocket**](/previous-versions/windows/hardware/network/ff566273(v=vs.85))                 | Supprime un socket de la table de référence d’objet par processus. Bloque uniquement si ce \_ reste est défini avec un délai d’expiration différent de zéro sur un socket bloquant.                                                            |
 | [**WSPConnect**](/previous-versions/windows/hardware/network/ff566275(v=vs.85))                         | Initialise une connexion sur le socket spécifié. Cette fonction permet également l’échange de données de connexion et de spécification QoS.                                                                           |
 | [**WSPDuplicateSocket**](/previous-versions/windows/hardware/network/ff566282(v=vs.85))         | Retourne une structure [**WSAPROTOCOL \_ info**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) qui peut être utilisée pour créer un nouveau descripteur de socket pour un socket partagé.                                                             |
@@ -47,7 +47,7 @@ Cette section répertorie les fonctions de transport de données exposées par W
 | [**WSPSetSockOpt**](/previous-versions/windows/hardware/network/ff566318(v=vs.85))                   | Stocke les options associées au socket spécifié.                                                                                                                                                    |
 | [**WSPShutdown**](/previous-versions/windows/desktop/legacy/ms742294(v=vs.85))                       | Ferme une partie d’une connexion duplex intégral.                                                                                                                                                            |
 | [**WSPSocket**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpwspsocket)                           | Fonction de création de socket qui prend une structure d' [**\_ informations WSAPROTOCOL**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) comme entrée et permet la création de sockets superposés.                                                |
-| [**WSPStartup**](/windows/desktop/api/Ws2spi/nf-ws2spi-wspstartup)                         | Initialise le fournisseur de services Windows Sockets sous-jacent.                                                                                                                                            |
+| [**WSPStartup**](/windows/desktop/api/Ws2spi/nf-ws2spi-wspstartup)                         | initialise le fournisseur de services de sockets Windows sous-jacent.                                                                                                                                            |
 
 
 

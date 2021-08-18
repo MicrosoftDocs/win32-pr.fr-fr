@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8a6ae7228be0f3012c49d652d11bf2c1c3bfc181
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: acda4bd9b00434e33c24ac44625b3c1d45350d45b4ec0b242d2638333ad11ed9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074763"
 ---
 # <a name="cbasevideorenderersendquality-method"></a>Méthode CBaseVideoRenderer. SendQuality
 
@@ -61,7 +61,7 @@ Currentstream.
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre envoie un message de contrôle qualité en amont pour contrôler la gestion de la qualité. La nature du message de qualité (c’est-à-dire si vous souhaitez réduire ou augmenter le nombre d’échantillons) est déterminée dans l’implémentation de la gestion de la qualité dans cette classe dérivée (voir [**CBaseVideoRenderer :: ShouldDrawSampleNow**](cbasevideorenderer-shoulddrawsamplenow.md)).
 
@@ -71,7 +71,7 @@ Cette fonction membre envoie un message de contrôle qualité en amont pour cont
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

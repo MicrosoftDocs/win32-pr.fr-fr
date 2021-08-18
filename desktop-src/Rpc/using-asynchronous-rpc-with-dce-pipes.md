@@ -4,12 +4,12 @@ description: Microsoft RPC prend en charge l’utilisation de canaux DCE. Bien q
 ms.assetid: 9de4f6dc-0aa9-446e-b68c-e0d1e247fea7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43e9c98f4d4191a064d78cff2c918077f27d676f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 01168d9018c6848327965ba039754106fdb7c9a444c99ef0b7e8da0ee45b3ee7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010857"
 ---
 # <a name="using-asynchronous-rpc-with-dce-pipes"></a>Utilisation de RPC asynchrone avec les canaux DCE
 
@@ -24,9 +24,9 @@ Cette section présente une discussion de RPC à l’aide de canaux DCE asynchro
 
 Pour obtenir un exemple d’application RPC de canal asynchrone, consultez l’exemple FileRep dans le kit de développement logiciel (SDK) de la plateforme.
 
- 
+ 
 
- 
+ 
 
 
 

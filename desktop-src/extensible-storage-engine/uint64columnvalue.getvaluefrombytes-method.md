@@ -69,7 +69,7 @@ protected override void GetValueFromBytes(
 
 #### <a name="parameters"></a>Paramètres
 
-  - value  
+  - valeur  
     Entrer \[\]  
     
     Tableau d'octets.

@@ -6,12 +6,12 @@ keywords:
 - Gestionnaire de redémarrage du gestionnaire de démarrage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1244cff7bc22fd2e7b6d2540051bd0984596086
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d67910428fb781a5ddf8e2c719d30f2f0488e11d6b07daad1770788e8ad5f5ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010097"
 ---
 # <a name="restart-manager"></a>Gestionnaire de redémarrage
 
@@ -21,17 +21,17 @@ L’API gestionnaire de redémarrage permet d’éliminer ou de réduire le nomb
 
 ## <a name="where-applicable"></a>Le cas échéant
 
-La DLL du gestionnaire de redémarrage exporte une interface C publique qui peut être chargée par des programmes d’installation standard ou personnalisés. Le programme d’installation peut utiliser le gestionnaire de redémarrage pour inscrire les fichiers qui doivent être remplacés lors de l’installation d’une application ou d’une mise à jour. Ensuite, lors d’une mise à jour ou d’une installation ultérieure, le programme d’installation peut utiliser le gestionnaire de redémarrage pour déterminer les fichiers qui ne peuvent pas être mis à jour, car ils sont en cours d’utilisation. Le gestionnaire de redémarrage peut arrêter et redémarrer les services non critiques ou les applications qui utilisent actuellement ces fichiers. Les programmes d’installation peuvent demander au gestionnaire de redémarrage d’arrêter et de redémarrer les applications ou les services en fonction du fichier utilisé, de l’ID de processus (PID) ou du nom abrégé d’un service Windows.
+La DLL du gestionnaire de redémarrage exporte une interface C publique qui peut être chargée par des programmes d’installation standard ou personnalisés. Le programme d’installation peut utiliser le gestionnaire de redémarrage pour inscrire les fichiers qui doivent être remplacés lors de l’installation d’une application ou d’une mise à jour. Ensuite, lors d’une mise à jour ou d’une installation ultérieure, le programme d’installation peut utiliser le gestionnaire de redémarrage pour déterminer les fichiers qui ne peuvent pas être mis à jour, car ils sont en cours d’utilisation. Le gestionnaire de redémarrage peut arrêter et redémarrer les services non critiques ou les applications qui utilisent actuellement ces fichiers. les programmes d’installation peuvent demander au gestionnaire de redémarrage d’arrêter et de redémarrer les applications ou les services en fonction du fichier utilisé, de l’ID de processus (PID) ou du nom abrégé d’un service Windows.
 
 Le gestionnaire de redémarrage est destiné au développement d’applications de style bureau.
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-Cette documentation est destinée aux développeurs d’applications d’installation qui souhaitent tirer parti des fonctionnalités du programme d’installation de Windows Vista ou Windows Server 2008. Les applications qui utilisent la version 4,0 de [Windows Installer](/windows/desktop/Msi/windows-installer-portal) pour l’installation et la maintenance utilisent automatiquement le gestionnaire de redémarrage pour réduire les redémarrages du système. Les programmes d’installation personnalisés peuvent également être conçus pour appeler l’API du gestionnaire de redémarrage pour arrêter et redémarrer les applications et les services. Dans les cas où un redémarrage du système est inévitable, les programmes d’installation peuvent utiliser l’API du gestionnaire de redémarrage pour planifier les redémarrages de manière à réduire au minimum l’interruption du processus de travail de l’utilisateur.
+cette documentation est destinée aux développeurs d’applications d’installation qui souhaitent tirer parti des fonctionnalités du programme d’installation de Windows Vista ou Windows Server 2008. les Applications qui utilisent la version 4,0 de [Windows Installer](/windows/desktop/Msi/windows-installer-portal) pour l’installation et la maintenance utilisent automatiquement le gestionnaire de redémarrage pour réduire les redémarrages du système. Les programmes d’installation personnalisés peuvent également être conçus pour appeler l’API du gestionnaire de redémarrage pour arrêter et redémarrer les applications et les services. Dans les cas où un redémarrage du système est inévitable, les programmes d’installation peuvent utiliser l’API du gestionnaire de redémarrage pour planifier les redémarrages de manière à réduire au minimum l’interruption du processus de travail de l’utilisateur.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-L’API du gestionnaire de redémarrage est disponible à partir de Windows Vista et de Windows Server 2008. Le gestionnaire de redémarrage se compose d’une seule DLL que les applications peuvent charger pour accéder à l’API du gestionnaire de redémarrage.
+l’API du gestionnaire de redémarrage est disponible à partir de Windows Vista et Windows Server 2008. Le gestionnaire de redémarrage se compose d’une seule DLL que les applications peuvent charger pour accéder à l’API du gestionnaire de redémarrage.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

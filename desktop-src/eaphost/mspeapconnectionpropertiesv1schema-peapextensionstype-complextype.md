@@ -1,6 +1,6 @@
 ---
 title: Type complexe PeapExtensionsType
-description: Contient des améliorations de schéma apportées à Windows 7. Les futures améliorations du schéma seront gérées par PeapExtensionsTypeV2.
+description: contient des améliorations de schéma effectuées dans Windows 7. Les futures améliorations du schéma seront gérées par PeapExtensionsTypeV2.
 ms.assetid: a8fb8474-a375-4401-83b0-4fa87d637209
 keywords:
 - PeapExtensionsType type complexe EAPHost
@@ -14,16 +14,16 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7cb8c698122c5a466ae95f728838425a5f10c665
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 212c8bf6b1421cfc461288e8f57258b40e11e9118c9ea2b2f620986e91d226f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984029"
 ---
 # <a name="peapextensionstype-complex-type"></a>Type complexe PeapExtensionsType
 
-Le type complexe **PeapExtensionsType** contient des améliorations de schéma effectuées dans Windows 7. Les futures améliorations du schéma seront gérées par [**PeapExtensionsTypeV2**](mspeapconnectionpropertiesv2-peapextensionstypev2-complextype.md).
+le type complexe **PeapExtensionsType** contient des améliorations de schéma effectuées dans Windows 7. Les futures améliorations du schéma seront gérées par [**PeapExtensionsTypeV2**](mspeapconnectionpropertiesv2-peapextensionstypev2-complextype.md).
 
 ``` syntax
 <xs:complexType name="PeapExtensionsType">
@@ -61,7 +61,7 @@ Le type complexe **PeapExtensionsType** contient des améliorations de schéma e
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément **PeapExtensionsType** est facultatif.
 
@@ -71,8 +71,8 @@ L’élément **PeapExtensionsType** est facultatif.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

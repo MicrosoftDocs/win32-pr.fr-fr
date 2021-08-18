@@ -4,19 +4,19 @@ ms.assetid: 19109f92-b9da-4df7-8628-374e37a3f624
 title: Outil et exemple VShadow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad7a9a697ecdf39f91d43fa0c66faebd37cfbfed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 306d759d10875b03cb0d2e4e2064a85614400ff5240800da3fc4c1ce94add8c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998069"
 ---
 # <a name="vshadow-tool-and-sample"></a>Outil et exemple VShadow
 
 VShadow est un outil de ligne de commande que vous pouvez utiliser pour créer et gérer des clichés instantanés de volume.
 
 > [!Note]  
-> VShadow est inclus dans le kit de développement logiciel (SDK) Microsoft Windows pour Windows Vista et versions ultérieures. Le kit de développement logiciel (SDK) VSS 7,2 comprend une version de VShadow qui s’exécute uniquement sur Windows Server 2003. Pour plus d’informations sur le téléchargement de la SDK Windows et du kit de développement logiciel (SDK) VSS 7,2, consultez [service VSS](volume-shadow-copy-service-portal.md).
+> VShadow est inclus dans le kit de développement logiciel (SDK) de Microsoft Windows pour Windows Vista et versions ultérieures. le kit de développement logiciel (SDK) VSS 7,2 comprend une version de VShadow qui s’exécute uniquement sur Windows Server 2003. pour plus d’informations sur le téléchargement de la SDK Windows et du kit de développement logiciel (SDK) VSS 7,2, consultez [Service VSS](volume-shadow-copy-service-portal.md).
 
  
 
@@ -66,7 +66,7 @@ Cette commande crée un jeu de clichés instantanés.
 <td>Cet indicateur facultatif spécifie les clichés instantanés matériels différentiels. Cet indicateur et l’indicateur <strong>-AP</strong> s’excluent mutuellement.<br/>
 <blockquote>
 [!Note]<br />
-Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows Server.
+cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
 </blockquote>
 <br/></td>
 </tr>
@@ -75,16 +75,16 @@ Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation 
 <td>Cet indicateur facultatif spécifie les clichés instantanés matériels du Plex. Cet indicateur et l’indicateur <strong>-ad</strong> s’excluent mutuellement.<br/>
 <blockquote>
 [!Note]<br />
-Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows Server.
+cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td><span id="_-bc_File.xml"></span><span id="_-bc_file.xml"></span><span id="_-BC_FILE.XML"></span><strong></strong> <strong>-BC =</strong><em>file</em><strong>. xml</strong><br/></td>
+<td><span id="_-bc_File.xml"></span><span id="_-bc_file.xml"></span><span id="_-BC_FILE.XML"></span><strong></strong> <strong>-bc =.xmlde</strong><em>fichiers</em> <strong> </strong><br/></td>
 <td>Cet indicateur facultatif spécifie les clichés instantanés non transportables et stocke le document des composants de sauvegarde dans le fichier spécifié. Ce fichier peut être utilisé dans une opération de restauration ultérieure. Cet indicateur et l’indicateur <strong>-t</strong> s’excluent mutuellement.<br/>
 <blockquote>
 [!Note]<br />
-Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows Server.
+cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
 </blockquote>
 <br/></td>
 </tr>
@@ -102,7 +102,7 @@ Pour des raisons de sécurité et pour simplifier l’implémentation, l’indic
 <td>Cet indicateur facultatif spécifie que l’opération de cliché instantané ne doit être effectuée que si toutes les signatures de disque peuvent être restaurées.<br/>
 <blockquote>
 [!Note]<br />
-Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows Server.
+cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
 </blockquote>
 <br/> <strong>Windows Server 2003 :</strong> Non pris en charge.<br/></td>
 </tr>
@@ -111,7 +111,7 @@ Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation 
 <td>Cet indicateur facultatif spécifie que les numéros d’unités logiques des clichés instantanés doivent être masqués sur l’ordinateur lorsque le jeu de clichés instantanés est rompu.<br/>
 <blockquote>
 [!Note]<br />
-Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows Server.
+cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
 </blockquote>
 <br/> <strong>Windows Server 2003 :</strong> Non pris en charge.<br/></td>
 </tr>
@@ -124,7 +124,7 @@ Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation 
 <td>Cet indicateur facultatif spécifie que les signatures de disque ne doivent pas être restaurées.<br/>
 <blockquote>
 [!Note]<br />
-Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows Server.
+cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
 </blockquote>
 <br/> <strong>Windows Server 2003 :</strong> Non pris en charge.<br/></td>
 </tr>
@@ -137,7 +137,7 @@ Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation 
 <td>Cet indicateur facultatif spécifie les <a href="vssgloss-p.md"><em>clichés instantanés persistants</em></a>.<br/>
 <blockquote>
 [!Note]<br />
-Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows Server.
+cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
 </blockquote>
 <br/></td>
 </tr>
@@ -146,7 +146,7 @@ Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation 
 <td>Cet indicateur facultatif spécifie que les numéros d’unités logiques des clichés instantanés doivent être en lecture/écriture lorsque le jeu de clichés instantanés est rompu.<br/>
 <blockquote>
 [!Note]<br />
-Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows Server.
+cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
 </blockquote>
 <br/> <strong>Windows Server 2003 :</strong> Non pris en charge.<br/></td>
 </tr>
@@ -155,7 +155,7 @@ Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation 
 <td>Cet indicateur facultatif spécifie <a href="vssgloss-c.md"><em>les clichés instantanés accessibles par le client</em></a>.<br/>
 <blockquote>
 [!Note]<br />
-Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows Server.
+cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
 </blockquote>
 <br/></td>
 </tr>
@@ -164,15 +164,15 @@ Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation 
 <td>Cet indicateur facultatif génère un fichier CMD contenant les variables d’environnement associées aux clichés instantanés créés, comme les ID de cliché instantané et les ID de jeu de clichés instantanés.<br/></td>
 </tr>
 <tr class="even">
-<td><span id="-t_File.xml"></span><span id="-t_file.xml"></span><span id="-T_FILE.XML"></span><strong>-t =</strong><em>file</em><strong>. xml</strong><br/></td>
-<td>Cet indicateur facultatif spécifie les clichés instantanés transportables et stocke le document des composants de sauvegarde dans le fichier spécifié par le paramètre <em>File.xml</em> . Ce fichier peut être utilisé dans une opération d’importation et/ou de restauration ultérieure. Cet indicateur et l’indicateur <strong>-BC</strong> s’excluent mutuellement.<br/> <strong>Windows server 2003, Standard Edition et Windows server 2003, Web Edition :</strong> Les clichés instantanés transportables ne sont pas pris en charge. Toutes les éditions de Windows Server 2003 avec Service Pack 1 (SP1) prennent en charge les clichés instantanés transportables.<br/></td>
+<td><span id="-t_File.xml"></span><span id="-t_file.xml"></span><span id="-T_FILE.XML"></span><strong>-t =</strong><em>fichier</em> <strong>.xml</strong><br/></td>
+<td>Cet indicateur facultatif spécifie les clichés instantanés transportables et stocke le document des composants de sauvegarde dans le fichier spécifié par le paramètre <em>File.xml</em> . Ce fichier peut être utilisé dans une opération d’importation et/ou de restauration ultérieure. Cet indicateur et l’indicateur <strong>-BC</strong> s’excluent mutuellement.<br/> <strong>Windows server 2003, Édition Standard et Windows server 2003, Web Edition :</strong> Les clichés instantanés transportables ne sont pas pris en charge. toutes les éditions de Windows Server 2003 avec Service Pack 1 (SP1) prennent en charge les clichés instantanés transportables.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="-tr"></span><span id="-TR"></span><strong>-TR</strong><br/></td>
 <td>Cet indicateur facultatif spécifie que la récupération TxF doit être appliquée lors de la création de clichés instantanés.<br/>
 <blockquote>
 [!Note]<br />
-Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows Server.
+cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
 </blockquote>
 <br/></td>
 </tr>
@@ -201,12 +201,12 @@ Cet indicateur est pris en charge uniquement sur les systèmes d’exploitation 
 
 ## <a name="importing-a-shadow-copy-set"></a>Importation d’un jeu de clichés instantanés
 
-**vshadow** \[ OptionalFlags \] **-i =**_file_*_. xml_*
+**vshadow** \[ OptionalFlags \] **-i =**_fichier_ *_.xml_*
 
 L’option de ligne **de commande-i** importe un jeu de clichés instantanés transportable.
 
 > [!Note]  
-> Cette option de ligne de commande est prise en charge uniquement sur les systèmes d’exploitation Windows Server.
+> cette option de ligne de commande est prise en charge uniquement sur les systèmes d’exploitation Windows server.
 
  
 
@@ -286,7 +286,7 @@ L’option de ligne de commande **-b =**_ShadowCopySetId_ convertit chaque clich
 L’option de ligne de commande **-BW =**_ShadowCopySetId_ convertit chaque cliché instantané dans le jeu de clichés instantanés en un volume inscriptible autonome.
 
 > [!Note]  
-> Les options de ligne de commande **-b** et **-BW** sont uniquement prises en charge sur les systèmes d’exploitation Windows Server.
+> les options de ligne de commande **-b** et **-bw** sont uniquement prises en charge sur les systèmes d’exploitation Windows server.
 
  
 
@@ -307,7 +307,7 @@ L’option de ligne de commande **-Bex** divise un jeu de clichés instantanés 
 Pour plus d’informations sur l’arrêt d’un jeu de clichés instantanés, consultez [interruption des clichés instantanés](breaking-shadow-copies.md).
 
 > [!Note]  
-> L’option de ligne de commande **-Bex** est prise en charge uniquement sur les systèmes d’exploitation Windows Server.
+> l’option de ligne de commande **-bex** est prise en charge uniquement sur les systèmes d’exploitation Windows server.
 
  
 
@@ -406,9 +406,9 @@ Les options de ligne de commande **-WS**, **-WM**, **-wm2** et **-WM3** s’excl
 
 ## <a name="performing-restore-operations"></a>Exécution d’opérations de restauration
 
-**vshadow** \[ OptionalFlags \] **-r =**_file_*_. xml_*
+**vshadow** \[ OptionalFlags \] **-r =**_fichier_ *_.xml_*
 
-**vshadow** \[ OptionalFlags \] **-RS =**_file_*_. xml_*
+**vshadow** \[ OptionalFlags \] **-RS =**_fichier_ *_.xml_*
 
 L’option de ligne **de commande-r** effectue une opération de restauration.
 
@@ -438,7 +438,7 @@ Les options de ligne de commande **-r** et **-RS** s’excluent mutuellement et 
 **vshadow** **-Revert =**_ShadowCopyId_
 
 > [!Note]  
-> Cette option de ligne de commande est prise en charge uniquement sur les systèmes d’exploitation Windows Server.
+> cette option de ligne de commande est prise en charge uniquement sur les systèmes d’exploitation Windows server.
 
  
 
@@ -459,7 +459,7 @@ L’option de ligne de commande **-addresync** spécifie les volumes à inclure 
 L’option de ligne de commande **-Resync** lance une opération de resynchronisation des numéros d’unités logiques. Une fois l’opération terminée, la signature de chaque LUN cible doit être identique à celle du numéro d’unité logique du volume cible. Le paramètre *BCDFileName* spécifie le nom du fichier XML qui contient le document du composant de sauvegarde.
 
 > [!Note]  
-> Les options de ligne de commande **-addresync** et **-Resync** sont uniquement prises en charge sur les systèmes d’exploitation Windows Server.
+> les options de ligne de commande **-addresync** et **-resync** sont uniquement prises en charge sur les systèmes d’exploitation Windows server.
 
  
 
@@ -486,7 +486,7 @@ L’option de ligne de commande **-Resync** lance une opération de resynchronis
 <td>Cet indicateur facultatif spécifie qu’une fois l’opération terminée, la signature de chaque LUN cible doit être identique à celle du numéro d’unité logique d’origine qui a été utilisé pour créer le cliché instantané, et non le numéro d’unité logique du volume cible.<br/>
 <blockquote>
 [!Note]<br />
-L’indicateur <strong>-revertsig</strong> est pris en charge uniquement sur les systèmes d’exploitation Windows Server.
+l’indicateur <strong>-revertsig</strong> est pris en charge uniquement sur les systèmes d’exploitation Windows server.
 </blockquote>
 <br/> <strong>Windows server 2008 et Windows server 2003 :</strong> Non pris en charge.<br/></td>
 </tr>
@@ -495,7 +495,7 @@ L’indicateur <strong>-revertsig</strong> est pris en charge uniquement sur les
 <td>Cet indicateur facultatif spécifie que le service VSS ne doit pas vérifier les volumes non sélectionnés qui seraient remplacés par l’opération de resynchronisation des LUN.<br/>
 <blockquote>
 [!Note]<br />
-L’indicateur <strong>-novolcheck</strong> est pris en charge uniquement sur les systèmes d’exploitation Windows Server.
+l’indicateur <strong>-novolcheck</strong> est pris en charge uniquement sur les systèmes d’exploitation Windows server.
 </blockquote>
 <br/> <strong>Windows server 2008 et Windows server 2003 :</strong> Non pris en charge.<br/></td>
 </tr>

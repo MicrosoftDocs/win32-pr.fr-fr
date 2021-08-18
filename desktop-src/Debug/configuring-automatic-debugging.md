@@ -4,12 +4,12 @@ ms.assetid: c3c7aa98-c298-452c-b8d0-10a08b4d82a3
 title: Configuration du débogage automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2630784d678e08b67a93d00ec52d9bc67c949bc7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 990f2f52e6227e4b1a2cf92656794c90fb5d465915a5d888025d0f3b2c438630
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104109999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076503"
 ---
 # <a name="configuring-automatic-debugging"></a>Configuration du débogage automatique
 
@@ -17,7 +17,7 @@ Les utilisateurs peuvent configurer le débogage automatique pour les aider à d
 
 ## <a name="configuring-automatic-debugging-for-system-crashes"></a>Configuration du débogage automatique pour les pannes système
 
-Pour configurer l’ordinateur cible afin de générer un fichier de vidage sur incident lorsque le système ne répond plus, utilisez l’application **système** dans le panneau de configuration. Cliquez sur **paramètres système avancés**, qui affiche la boîte de dialogue **Propriétés système** . Sous l’onglet **avancé** de cette zone, cliquez sur **paramètres** sous **démarrage et récupération**, puis utilisez les options de récupération appropriées. Vous pouvez également configurer les options de vidage sur incident à l’aide de la clé de Registre suivante :
+Pour configurer l’ordinateur cible afin de générer un fichier de vidage sur incident lorsque le système ne répond plus, utilisez l’application **système** dans le panneau de configuration. Cliquez sur **paramètres système avancés**, qui affiche la boîte de dialogue **Propriétés système** . sous l’onglet **avancé** de cette zone, cliquez sur **Paramètres** sous **démarrage et récupération**, puis utilisez les options de récupération appropriées. Vous pouvez également configurer les options de vidage sur incident à l’aide de la clé de Registre suivante :
 
 **HKEY \_ \_** \\  \\  \\ **Contrôle** CurrentControlSet du système \\  de l’ordinateur local CrashControl
 
@@ -31,7 +31,7 @@ Lorsqu’une application cesse de répondre (par exemple, après une violation d
 
 1.  Accédez à la clé de Registre suivante :
 
-    **HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **AeDebug**
+    **HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **AeDebug**
 
 2.  Ajoutez ou modifiez la valeur du **débogueur** à l’aide d’une chaîne de Registre \_ SZ qui spécifie la ligne de commande pour le débogueur.
 
@@ -53,7 +53,7 @@ La procédure suivante décrit comment exclure une application du débogage auto
 
 1.  Accédez à la clé de Registre suivante :
 
-    **HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **AeDebug**
+    **HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **AeDebug**
 
 2.  Ajoutez une \_ valeur reg DWORD à la sous-clé **AutoExclusionList** , où le nom est le nom du fichier exécutable et la valeur est 1. Par défaut, le Gestionnaire de fenêtrage (Dwm.exe) est exclu du débogage automatique, sinon un blocage du système peut se produire si Dwm.exe cesse de répondre (l’utilisateur ne peut pas voir l’interface affichée par le débogueur, car Dwm.exe ne répond pas, et Dwm.exe ne peut pas se terminer parce qu’il est détenu par le débogueur).
 

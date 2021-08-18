@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, à l’aide de la sécurité au niveau du transport sur le client
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c10360d5b8d11640803e31ee1d1d0490a6edfdf7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 83ee610da50d34711c9ec40f93c29ed08d2bb97ba83c02bc4e8c297b08f859c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010597"
 ---
 # <a name="using-transport-level-security-on-the-client"></a>Utilisation de Transport-Level sécurité sur le client
 
@@ -23,7 +23,7 @@ Le client spécifie comment le serveur emprunte l’identité du client lorsque 
 2.  Le client appelle [**RpcBindingFromStringBinding**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding) pour obtenir un nouveau handle de liaison et appliquer les informations de qualité de service pour le client.
 3.  Le client effectue des appels de procédure distante à l’aide du descripteur.
 
-Microsoft RPC prend en charge les fonctionnalités de sécurité Windows uniquement sur [**ncacn \_ NP**](/windows/desktop/Midl/ncacn-np) et [**Ncalrpc**](/windows/desktop/Midl/ncalrpc). Les options de sécurité pour les autres transports sont ignorées.
+Microsoft RPC prend en charge les fonctionnalités de sécurité Windows uniquement sur [**ncacn \_ np**](/windows/desktop/Midl/ncacn-np) et [**ncalrpc**](/windows/desktop/Midl/ncalrpc). Les options de sécurité pour les autres transports sont ignorées.
 
 Le client peut associer les paramètres de sécurité suivants à la liaison pour le transport de canal nommé [**ncacn \_ NP**](/windows/desktop/Midl/ncacn-np) ou [**Ncalrpc**](/windows/desktop/Midl/ncalrpc):
 
@@ -46,6 +46,6 @@ Les paramètres de sécurité par défaut varient en fonction du protocole de tr
 
 Pour plus d’informations sur la syntaxe des options de point de terminaison, consultez [point de terminaison](/windows/desktop/Midl/endpoint).
 
- 
+ 
 
- 
+ 

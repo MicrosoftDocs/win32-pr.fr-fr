@@ -3,7 +3,7 @@ title: Application. views, propriété
 description: Représente un conteneur pour chaque vue de l’infrastructure du ruban, en particulier le ruban et le ContextPopup.
 ms.assetid: e7549b8b-0f95-477a-9024-1a99ee1412c2
 keywords:
-- Ruban Windows de la propriété application. views
+- propriété Application. Views Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57e7d106d346a790ee3bd8879b2367f38341f0a9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fe063397698a74da0421cf0c9c3b2ef46861f1477e0f4ac99fe5d6e6063c7251
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964308"
 ---
 # <a name="applicationviews-property"></a>Application. views, propriété
 
 Représente un conteneur pour chaque vue de l’infrastructure du ruban, en particulier le [**ruban**](windowsribbon-element-ribbon.md) et le [**ContextPopup**](windowsribbon-element-contextpopup.md).
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Application.Views>
@@ -56,7 +56,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obligatoire.
 
@@ -104,8 +104,8 @@ L’exemple suivant montre un élément **application. views** qui contient un m
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

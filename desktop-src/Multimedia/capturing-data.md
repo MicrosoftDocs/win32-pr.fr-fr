@@ -7,12 +7,12 @@ keywords:
 - capFileSaveAs macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f24b2110da9a85faaa991e67efdd1ef48e3d9c29
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 764ff00dedcc044ed5234f8b647b08eaded35ce191bcb56e05cb35f47450677b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941297"
 ---
 # <a name="capturing-data"></a>Capturer des données
 
@@ -41,9 +41,9 @@ capFileSaveAs(hWndC, szNewName);
 [Utilisation de la capture vidéo](using-video-capture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

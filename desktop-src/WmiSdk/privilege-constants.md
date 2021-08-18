@@ -40,12 +40,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wbemdisp.h
-ms.openlocfilehash: 73fb9167af63f40f3a6e1c00470d871f749d228a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38d104c99885d4328ce8b12413e91607655ab1e260a61b511e3ea4a600b80b4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131021"
 ---
 # <a name="privilege-constants"></a>Constantes de privilège
 
@@ -74,7 +74,7 @@ De nombreuses méthodes WMI requièrent l’activation d’une ou de plusieurs a
 
 
 
-Constante C++ : **se créer une chaîne de \_ \_ \_ nom de jeton** : **SeCreateTokenPrivilege**
+constante C++ : **SE créer une chaîne de \_ \_ \_ nom de jeton** : **SeCreateTokenPrivilege**
 
 Nom abrégé du script : **Okta**
 
@@ -108,7 +108,7 @@ Requis pour remplacer un jeton au niveau du processus.
 
 
 
-Constante C++ : **\_ Delock \_ Memory \_ Name** String : **SeLockMemoryPrivilege**
+constante C++ : chaîne de **nom de mémoire du verrou de SE \_ \_ \_** : **SeLockMemoryPrivilege**
 
 Nom abrégé du script : **LockMemory**
 
@@ -125,7 +125,7 @@ Requis pour verrouiller des pages en mémoire.
 
 
 
-Constante C++ : **se augmente la chaîne de \_ \_ \_ nom de quota** : **SeIncreaseQuotaPrivilege**
+constante C++ : **SE augmenter la chaîne de \_ \_ \_ nom de QUOTA** : **SeIncreaseQuotaPrivilege**
 
 Nom abrégé du script : **IncreaseQuotaPrivilege**
 
@@ -142,7 +142,7 @@ Requis pour ajuster les quotas de mémoire d’un processus.
 
 
 
-Constante C++ : chaîne de **\_ \_ \_ nom de compte de se** -même : **SeMachineAccountPrivilege**
+constante C++ : SE la chaîne de **\_ \_ \_ nom de compte macinéma** : **SeMachineAccountPrivilege**
 
 Nom abrégé du script : **MachineAccount**
 
@@ -159,7 +159,7 @@ Requis pour ajouter des stations de travail à un domaine.
 
 
 
-Constante C++ : chaîne de **\_ \_ nom TCB** de la se : **SeTcbPrivilege**
+constante C++ : **SE chaîne de \_ \_ nom TCB** : **SeTcbPrivilege**
 
 Nom abrégé du script : **TCB**
 
@@ -176,7 +176,7 @@ Requis pour agir en tant que partie du système d’exploitation. Le détenteur 
 
 
 
-Constante C++ : chaîne de **\_ \_ nom de sécurité de se** : **SeSecurityPrivilege**
+constante C++ : **SE chaîne de \_ \_ nom de sécurité** : **SeSecurityPrivilege**
 
 Nom abrégé du script : **sécurité**
 
@@ -193,7 +193,7 @@ Requis pour gérer l’audit et le journal de sécurité NT.
 
 
 
-Constante C++ : **se \_ prendre \_ possession \_** de la chaîne de nom : **SeTakeOwnershipPrivilege**
+constante C++ : **SE prendre la chaîne du \_ \_ \_ nom** de la propriété : **SeTakeOwnershipPrivilege**
 
 Nom abrégé du script : **TakeOwnership**
 
@@ -210,7 +210,7 @@ Obligatoire pour assumer la propriété des fichiers ou d’autres objets sans a
 
 
 
-Constante C++ : **se \_ charger \_** la chaîne du pilote : **SeLoadDriverPrivilege**
+constante C++ : SE de charger la chaîne du **\_ \_ pilote** : **SeLoadDriverPrivilege**
 
 Nom abrégé du script : **LoadDriver**
 
@@ -227,7 +227,7 @@ Requis pour charger ou décharger un pilote de périphérique.
 
 
 
-Constante C++ : chaîne de **\_ \_ \_ nom de profil système se** : **SeSystemProfilePrivilege**
+constante C++ : **SE \_ \_ \_ nom du profil système** chaîne : **SeSystemProfilePrivilege**
 
 Nom abrégé du script : **SystemProfile**
 
@@ -244,7 +244,7 @@ Requis pour collecter des informations de profil sur les performances du systèm
 
 
 
-Constante C++ : chaîne de nom **\_ SystemTime de se** \_ : **SeSystemTimePrivilege**
+constante C++ : **SE \_** \_ chaîne de nom SYSTEMTIME : **SeSystemtimePrivilege**
 
 Nom abrégé du script : **SystemTime**
 
@@ -261,7 +261,7 @@ Requis pour modifier l’heure système.
 
 
 
-Constante C++ : chaîne de **\_ \_ \_ \_ nom de processus unique de se Prof** : **SeProfileSingleProcessPrivilege**
+constante C++ : **SE \_ une chaîne de \_ \_ \_ nom de processus unique PROF** : **SeProfileSingleProcessPrivilege**
 
 Nom abrégé du script : **ProfileSingleProcess**
 
@@ -278,7 +278,7 @@ Requis pour collecter des informations de profil pour un seul processus.
 
 
 
-Constante C++ : chaîne de **nom de priorité de \_ \_ base se \_ \_ Inc** . : **SeIncreaseBasePriorityPrivilege**
+constante C++ : chaîne de **nom de priorité de \_ \_ BASE SE \_ \_ INC** : **SeIncreaseBasePriorityPrivilege**
 
 Nom abrégé du script : **IncreaseBasePriority**
 
@@ -295,7 +295,7 @@ Requis pour augmenter la priorité de planification.
 
 
 
-Constante C++ : **se créer une chaîne de \_ nom de fichier d' \_ échange \_** : **SeCreatePagefilePrivilege**
+constante C++ : **SE créer une chaîne de \_ nom de fichier d' \_ échange \_** : **SeCreatePagefilePrivilege**
 
 Nom abrégé du script : **CreatePagefile**
 
@@ -312,7 +312,7 @@ Requis pour créer un fichier d’échange.
 
 
 
-Constante C++ : **se créer une chaîne de \_ \_ \_ nom permanente** : **SeCreatePermanentPrivilege**
+constante C++ : **SE créer une chaîne de \_ \_ \_ nom permanente** : **SeCreatePermanentPrivilege**
 
 Nom abrégé du script : **CreatePermanent**
 
@@ -329,7 +329,7 @@ Requis pour créer des objets partagés permanents.
 
 
 
-Constante C++ : chaîne de **\_ \_ nom** de la sauvegarde de se : **SeBackupPrivilege**
+constante C++ : **SE chaîne de \_ \_ nom** de la sauvegarde : **SeBackupPrivilege**
 
 Nom abrégé du script : **sauvegarde**
 
@@ -346,7 +346,7 @@ Requis pour sauvegarder des fichiers et des répertoires, quelle que soit la lis
 
 
 
-Constante C++ : **se \_ Restore \_ Name** String : **SeRestorePrivilege**
+constante C++ : **SE \_ restore \_ NAME** string : **SeRestorePrivilege**
 
 Nom abrégé du script : **restauration**
 
@@ -363,7 +363,7 @@ Requis pour restaurer des fichiers et des répertoires, quelle que soit la liste
 
 
 
-Constante C++ : **se \_ arrêter \_** chaîne de nom : **SeShutdownPrivilege**
+constante C++ : **SE chaîne de \_ \_ nom d’arrêt** : **SeShutdownPrivilege**
 
 Nom abrégé du script : **Shutdown**
 
@@ -380,7 +380,7 @@ Requis pour arrêter le système local.
 
 
 
-Constante C++ : chaîne de **\_ \_ nom de débogage de se** : **SeDebugPrivilege**
+constante C++ : **SE chaîne de \_ \_ nom de débogage** : **SeDebugPrivilege**
 
 Nom abrégé du script : **débogage**
 
@@ -397,7 +397,7 @@ Requis pour déboguer et ajuster la mémoire d’un processus appartenant à un 
 
 
 
-Constante C++ : chaîne de **\_ \_ nom d’audit** de la se : **SeAuditPrivilege**
+constante C++ : **SE chaîne de \_ \_ nom d’AUDIT** : **SeAuditPrivilege**
 
 Nom abrégé du script : **audit**
 
@@ -414,7 +414,7 @@ Requis pour générer des entrées d’audit dans le journal de sécurité NT. S
 
 
 
-Constante C++ : chaîne de nom de l' **\_ \_ environnement \_ système se** : **SeSystemEnvironmentPrivilege**
+constante C++ : **SE le nom de l' \_ \_ environnement \_ système** chaîne : **SeSystemEnvironmentPrivilege**
 
 Nom abrégé du script : **SystemEnvironment**
 
@@ -431,7 +431,7 @@ Requis pour modifier la mémoire RAM non volatile des systèmes qui utilisent ce
 
 
 
-Constante C++ : nom de la chaîne de notification de modification de la **se \_ \_ \_** : **SeChangeNotifyPrivilege**
+constante C++ : **SE chaîne de nom de \_ \_ notification \_ de modification** : **SeChangeNotifyPrivilege**
 
 Nom abrégé du script : **ChangeNotify**
 
@@ -448,7 +448,7 @@ Requis pour recevoir des notifications des modifications apportées aux fichiers
 
 
 
-Constante C++ : chaîne de **\_ \_ \_ nom d’arrêt à distance de se** : **SeRemoteShutdownPrivilege**
+constante C++ : **SE chaîne de \_ \_ \_ nom d’arrêt à distance** : **SeRemoteShutdownPrivilege**
 
 Nom abrégé du script : **RemoteShutdown**
 
@@ -465,7 +465,7 @@ Requis pour arrêter un ordinateur distant.
 
 
 
-Constante C++ : **se \_ \_ détacher** la chaîne de nom : **SeUndockPrivilege**
+constante C++ : SE chaîne de nom de la **station d' \_ accueil \_** : **SeUndockPrivilege**
 
 Nom abrégé du script : **détacher**
 
@@ -482,7 +482,7 @@ Requis pour retirer un ordinateur portable d’une station d’accueil.
 
 
 
-Constante C++ : nom de la chaîne de **\_ \_ l’agent \_ de synchronisation se** : **SeSyncAgentPrivilege**
+constante C++ : **SE chaîne de \_ \_ \_ nom de l’AGENT de synchronisation** : **SeSyncAgentPrivilege**
 
 Nom abrégé du script : **SyncAgent**
 
@@ -499,7 +499,7 @@ Requis pour synchroniser les données du service d’annuaire.
 
 
 
-Constante C++ : **se activer la chaîne de \_ \_ \_ nom de délégation** : **SeEnableDelegationPrivilege**
+constante C++ : **SE activer la chaîne de \_ \_ \_ nom de délégation** : **SeEnableDelegationPrivilege**
 
 Nom abrégé du script : **EnableDelegation**
 
@@ -516,7 +516,7 @@ Requis pour permettre aux comptes d’ordinateurs et d’utilisateurs d’être 
 
 
 
-Constante C++ : **se gérer la chaîne de \_ \_ \_ nom de volume** : **SeManageVolumePrivilege**
+constante C++ : **SE gérer la chaîne de \_ \_ \_ nom de VOLUME** : **SeManageVolumePrivilege**
 
 Nom abrégé du script : **ManageVolume**
 

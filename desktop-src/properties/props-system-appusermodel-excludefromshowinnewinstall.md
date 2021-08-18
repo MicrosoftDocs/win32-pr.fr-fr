@@ -1,22 +1,22 @@
 ---
-description: Empêche une entrée de menu Démarrer pour un raccourci d’application récemment installé de recevoir une surbrillance.
+description: empêche une entrée de menu Démarrer pour un raccourci d’application récemment installé de recevoir une surbrillance.
 ms.assetid: ff85da6f-a506-4225-8ac9-4a8a7be8d599
 title: System. AppUserModel. ExcludeFromShowInNewInstall
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 206cbbc6b07b0d3fec5833c046d4cb44c1e5e4e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba75b28b789fd9972eb484797957601dbcb5e93694b469eeb8b81bf9ba198d13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970898"
 ---
 # <a name="systemappusermodelexcludefromshowinnewinstall"></a>System. AppUserModel. ExcludeFromShowInNewInstall
 
 Empêche une entrée de menu **Démarrer** pour un raccourci d’application récemment installé de recevoir une surbrillance. Cela revient à désactiver l’option **mettre en surbrillance les programmes récemment installés** dans la fenêtre **personnaliser le menu Démarrer** sur un élément individuel. Cette propriété doit être définie sur les raccourcis pour les outils et les applications secondaires.
 
 > [!Note]  
-> Cette propriété est utilisée uniquement par le menu Démarrer sur Windows Vista et Windows 7. La propriété n’est pas utilisée par l’écran de démarrage ou le menu Démarrer sur Windows 8 et versions ultérieures
+> cette propriété est utilisée uniquement par le menu Démarrer sur Windows Vista et Windows 7. la propriété n’est pas utilisée par l’écran de démarrage ou menu Démarrer sur Windows 8 et versions ultérieures
 
  
 
@@ -38,7 +38,7 @@ propertyDescription
       IsInnate = false
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -3,7 +3,7 @@ title: ClosedCaption.SAMIFileName
 description: La propriété SAMIFileName spécifie ou récupère le nom du fichier contenant les informations nécessaires pour le sous-titrage.
 ms.assetid: f2090500-6c9f-4d2d-9855-a9c193b00a41
 keywords:
-- Lecteur Windows Media ClosedCaption. SAMIFileName
+- ClosedCaption. SAMIFileName Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bd748076eec80b5b7d97e7c041f454c4f9193f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 22ba314208db3cb5529042011f269f026a4cf2bd4d4b01d1b8d64719b96a5f90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119510"
 ---
 # <a name="closedcaptionsamifilename"></a>ClosedCaption.SAMIFileName
 
@@ -33,7 +33,7 @@ player.closedCaption.SAMIFileName
 
 Cette propriété est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le fichier SAMI (Synchronized Accessible Media Interchange) doit utiliser une extension de nom de fichier. SMI ou. sami.
 
@@ -41,13 +41,13 @@ Si vous ne spécifiez pas de valeur pour **SAMIFileName**, cette propriété ré
 
 Une fois que vous avez spécifié une valeur pour **SAMIFileName**, cette valeur persiste jusqu’à ce que vous spécifiiez une nouvelle valeur (ou jusqu’à ce qu’un nouvel élément multimédia soit ouvert à l’aide du paramètre URL *sami* ). Par conséquent, vous devez spécifier une nouvelle valeur pour cette propriété avant de lire chaque nouvel élément multimédia. De cette façon, la nouvelle valeur de **SAMIFileName** prend effet lors de l’ouverture de l’élément multimédia suivant (ou de *Player*.**** la méthode Close est appelée). La spécification d’une nouvelle valeur pour **SAMIFileName** n’a aucun effet sur le média actuel.
 
-Pour que le lecteur Windows Media retourne à l’aide du fichier SAMI associé à un élément multimédia particulier, spécifiez une valeur pour **SAMIFileName** égale à une chaîne vide ("") avant de lire l’élément multimédia suivant.
+pour que Lecteur Windows Media retourne à l’aide du fichier SAMI associé à un élément multimédia particulier, spécifiez une valeur pour **SAMIFileName** égale à une chaîne vide ("") avant de lire l’élément multimédia suivant.
 
 **Lecteur Windows Media 10 Mobile :** Cette propriété est en lecture seule et retourne toujours une chaîne vide.
 
 ## <a name="examples"></a>Exemples
 
-Les trois exemples JScript suivants utilisent *ClosedCaption*. **SAMIFileName** pour spécifier le nom d’un fichier texte de légende fermé. L’objet **Player** a été créé avec ID = "Player".
+les trois exemples de JScript suivants utilisent *ClosedCaption*. **SAMIFileName** pour spécifier le nom d’un fichier texte de légende fermé. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

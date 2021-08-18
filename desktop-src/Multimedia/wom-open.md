@@ -3,7 +3,7 @@ title: Message WOM_OPEN (mmsystem. h)
 description: Le \_ message WOM Open est envoyé à une fonction de rappel de sortie Waveform Audio lorsqu’un appareil de sortie Waveform-Audio est ouvert.
 ms.assetid: 7fa175d3-7c07-4ca0-a0bd-4526fbc24f8d
 keywords:
-- Message WOM_OPEN Windows Multimedia
+- message WOM_OPEN Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cfca721019b28a5bf039e8c56c75892d85bd5e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77d0e145bf533bf9b48b88a87d449679e7728b679e72ed70a787168b5936f5aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940656"
 ---
 # <a name="wom_open-message"></a>WOM \_ ouvrir le message
 
@@ -64,7 +64,7 @@ Ce message ne retourne pas de valeur.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

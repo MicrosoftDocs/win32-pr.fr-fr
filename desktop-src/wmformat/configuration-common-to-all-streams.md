@@ -1,6 +1,6 @@
 ---
-title: Configuration commune à tous les flux
-description: Configuration commune à tous les flux
+title: Configuration commune à tous les Flux
+description: Configuration commune à tous les Flux
 ms.assetid: 63e655b7-a4ef-4580-a0f3-03cedd2cbf9a
 keywords:
 - profils, configurations communes à tous les flux
@@ -10,14 +10,14 @@ keywords:
 - flux, nombres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f1a398256da99092da45e83ebc91de713f9ab71
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 89e8b58e97ce2add4b6ff139aebacbc6d510af4424b2d3ae2bff3ea4577c429b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104381717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964178"
 ---
-# <a name="configuration-common-to-all-streams"></a>Configuration commune à tous les flux
+# <a name="configuration-common-to-all-streams"></a>Configuration commune à tous les Flux
 
 Tous les flux, quel que soit leur type, doivent recevoir un nom de flux, un nom de connexion et un numéro de flux.
 
@@ -31,15 +31,15 @@ Le numéro de flux identifie le flux au sein du fichier. Contrairement aux nombr
 
 <dl> <dt>
 
-[**Configuration de flux**](configuring-streams.md)
+[**Configuration de Flux**](configuring-streams.md)
 </dt> <dt>
 
-[**Entrées, flux et sorties**](inputs-streams-and-outputs.md)
+[**entrées, Flux et sorties**](inputs-streams-and-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

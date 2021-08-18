@@ -4,12 +4,12 @@ ms.assetid: be977d75-999e-4e57-9672-00a89246a2c1
 title: Modèle de traitement MFT de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ca54df6d9765aaf54456c3d9dc4461a82a93d41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19a1edb0c5144c6e3a3e1825e637cd5d19049699ad60bbf764629c9ade7cd3aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035450"
 ---
 # <a name="basic-mft-processing-model"></a>Modèle de traitement MFT de base
 
@@ -52,7 +52,7 @@ Certains MFTs peuvent fournir d’autres options, telles qu’une fonction de cr
 
 ### <a name="get-stream-identifiers"></a>Obtient les identificateurs de flux
 
-Une table MFT possède un ou plusieurs *flux*. Les flux d’entrée reçoivent des données d’entrée, et les flux de sortie génèrent des données de sortie. Les flux ne sont pas représentés en tant qu’objets distincts. Au lieu de cela, différentes méthodes MFT prennent des identificateurs de flux en tant que paramètres.
+Une table MFT possède un ou plusieurs *flux*. Les flux d’entrée reçoivent des données d’entrée, et les flux de sortie génèrent des données de sortie. les Flux ne sont pas représentés en tant qu’objets distincts. Au lieu de cela, différentes méthodes MFT prennent des identificateurs de flux en tant que paramètres.
 
 Certains MFTs permettent au client d’ajouter ou de supprimer des flux d’entrée. Pendant la diffusion en continu, une table MFT peut ajouter ou supprimer des flux de sortie. (Le client ne peut pas ajouter ou supprimer des flux de sortie.)
 
@@ -120,7 +120,7 @@ Le diagramme suivant montre un organigramme des procédures décrites dans cette
 -   Flux de lecture tardive. Si la méthode [**IMFTransform :: GetOutputStreamInfo**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo) retourne l’indicateur de **\_ \_ \_ \_ lecture tardive du flux de sortie MFT** pour un flux de sortie, le client n’a pas besoin de collecter des données à partir de ce flux de sortie. La table MFT continue d’accepter les entrées et, à un moment donné, la table MFT ignore les données de sortie de ce flux. Si tous les flux de sortie ont cet indicateur, le MFT n’arrivera jamais à accepter l’entrée. Il peut s’agir, par exemple, d’une transformation de visualisation, où le client obtient la sortie uniquement lorsqu’elle a des cycles d’UC de rechange pour dessiner la visualisation.
 -   Flux ignorables. Si la méthode [**GetOutputStreamInfo**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo) retourne l’indicateur de suppression de **\_ \_ flux \_ de sortie MFT** pour un flux de sortie, le client peut demander à la MFT d’ignorer la sortie, mais la table MFT n’ignore aucune sortie, sauf si elle est demandée. Lorsque la table MFT atteint sa mémoire tampon d’entrée maximale, le client doit collecter des données de sortie ou demander à la MFT d’ignorer la sortie.
 -   Flux facultatifs. Si la méthode [**GetOutputStreamInfo**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo) retourne l' **indicateur \_ \_ \_ facultatif du flux de sortie MFT** pour un flux de sortie, ou si la méthode [**IMFTransform :: GetInputStreamInfo**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputstreaminfo) retourne l’indicateur **\_ \_ \_ facultatif de flux d’entrée MFT** pour un flux d’entrée, ce flux est facultatif. Le client n’a pas besoin de définir un type de média sur le flux. Si le client ne définit pas le type, le flux est désélectionné. Un flux de sortie désélectionné ne produit pas d’exemples et le client ne fournit pas de mémoire tampon pour le flux lors de l’appel de [**ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput). Un flux d’entrée désélectionné n’accepte pas les données d’entrée. Une table MFT peut marquer tous ses flux d’entrée et de sortie comme facultatifs. Toutefois, il est prévu qu’au moins une entrée et une sortie doivent être sélectionnées pour que la MFT fonctionne.
--   Traitement asynchrone. Le modèle de traitement asynchrone a été introduit dans Windows 7. Elle est décrite dans la rubrique [MFTS asynchrone](asynchronous-mfts.md).
+-   Traitement asynchrone. le modèle de traitement asynchrone a été introduit dans Windows 7. Elle est décrite dans la rubrique [MFTS asynchrone](asynchronous-mfts.md).
 
 ## <a name="imf2dbuffer"></a>IMF2DBuffer
 

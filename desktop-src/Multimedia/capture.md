@@ -3,7 +3,7 @@ title: commande capture
 description: La commande capture copie le contenu de la mémoire tampon de frame et le stocke dans le fichier spécifié. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: cdf177b9-874e-40d8-af3e-59070c55903d
 keywords:
-- commande de capture multimédia Windows
+- commande de capture Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bdf5edce248fc5402245e36e869cddc97ba3430a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 68bc32fd247cbe3519fbffad778b33679e3b71c652b476f557db5a910e87721c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941517"
 ---
 # <a name="capture-command"></a>commande capture
 
@@ -75,7 +75,7 @@ Peut être « Wait », « Notify », « test » ou une combinaison de ceux
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette commande peut échouer si l’appareil est en train de visionner des vidéos animées ou d’exécuter d’autres opérations gourmandes en ressources. Si la mémoire tampon de trame est mise à jour en temps réel, la mise à jour s’interrompt momentanément afin qu’une image complète soit capturée. Si l’appareil interrompt la mise à jour, il peut y avoir un effet visuel ou audible. Si le format de fichier, l’algorithme de compression et les niveaux de qualité n’ont pas été définis, leurs valeurs par défaut sont utilisées.
 

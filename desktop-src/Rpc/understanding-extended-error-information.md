@@ -4,16 +4,16 @@ description: Les informations d’erreur étendues sont un tableau d’enregistr
 ms.assetid: 1b112e49-bdb2-4014-b86d-3c6d8ebe4fcd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b2918caa446f7cee9c4eaa609a5713c9cb385e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e003214198b06f04479ec4c1a8d23cb1acedafda49eefcf2880741416901323e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011057"
 ---
 # <a name="understanding-extended-error-information"></a>Description des informations d’erreur étendues
 
-Les informations d’erreur étendues sont un tableau d’enregistrements, chacun indiquant le passage du code d’erreur via une couche particulière du système ou de l’application. Si une erreur se produit sur un ordinateur C, car il est appelé à partir de l’ordinateur B, qui à son tour est appelé à partir de l’ordinateur A, le temps d’exécution RPC sur l’ordinateur C génère un ou plusieurs enregistrements décrivant l’erreur et les transmet à l’ordinateur B. l’ordinateur B peut ajouter un ou plusieurs enregistrements au début de la chaîne existante, puis passe la chaîne Un peut ajouter un ou plusieurs enregistrements, et afficher ou enregistrer les informations. La chaîne d’erreur étendue représente essentiellement l’historique de l’erreur.
+Les informations d’erreur étendues sont un tableau d’enregistrements, chacun indiquant le passage du code d’erreur via une couche particulière du système ou de l’application. Si une erreur se produit sur un ordinateur C, tel qu’il est appelé à partir de l’ordinateur B, qui à son tour est appelé à partir de l’ordinateur A, le temps d’exécution RPC sur l’ordinateur C génère un ou plusieurs enregistrements décrivant l’erreur et les transmet à l’ordinateur B. l’ordinateur B peut ajouter un ou plusieurs enregistrements au début de la chaîne existante.  et passe la chaîne complète à un. Un peut ajouter un ou plusieurs enregistrements, et afficher ou enregistrer les informations. La chaîne d’erreur étendue représente essentiellement l’historique de l’erreur.
 
 Les informations d’erreur étendues ne remplacent pas le code d’erreur ( \_ code d’état RPC S \_ \* ). Quelle que soit la quantité d’informations d’erreur étendues générées, le code d’erreur reste inchangé.
 
@@ -32,11 +32,11 @@ Chaque enregistrement d’informations sur les erreurs étendues contient les é
     | Enregistrement \# 1 généré par l’ordinateur A | \-                 |
     | Enregistrement \# 2 généré par l’ordinateur A | \-                 |
     | Enregistrement \# 3 généré par l’ordinateur A | \-                 |
-    | En-tête de la chaîne                 |                    |
+    | En-tête de la chaîne                 |                    |
 
     
 
-     
+     
 
 <!-- -->
 
@@ -59,7 +59,7 @@ Chaque enregistrement d’informations sur les erreurs étendues contient les é
 
     
 
-     
+     
 
 <!-- -->
 
@@ -68,9 +68,9 @@ Chaque enregistrement d’informations sur les erreurs étendues contient les é
 -   Flags : indicateurs spécifiant des informations sur l’enregistrement. Les indicateurs actuellement définis sont EEInfoPreviousRecordsMissing et EEInfoNextRecordsMissing, qui correspondent respectivement aux valeurs numériques 1 et 2. Si EEInfoPreviousRecordsMissing est défini, un ou plusieurs enregistrements avant cet enregistrement sont manquants. Si EEInfoNextRecordsMissing est défini, un ou plusieurs enregistrements sont manquants après cet enregistrement. Pour obtenir une description de la raison pour laquelle des enregistrements sont manquants, consultez [fiabilité des informations d’erreur étendues](reliability-of-extended-error-information.md).
 -   Jusqu’à quatre paramètres d’erreur. Un paramètre d’erreur est une structure de variante légère fournissant des informations supplémentaires sur l’erreur. Les informations supplémentaires dépendent de l’erreur et de l’emplacement de détection. Les paramètres peuvent être de type chaîne ANSI (LPSTR), chaîne Unicode (LPWSTR), valeur long (long), valeur Short (short), pointer (Int64) ou None.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -79,7 +79,7 @@
               href: do-not-use-endpoint-security.md
             - name: Méfiez-vous des autres points de terminaison RPC s’exécutant dans le même processus
               href: be-wary-of-other-rpc-endpoints-running-in-the-same-process.md
-            - name: Vérifier que le serveur est bien celui qu’il prétend être
+            - name: Vérifier que le serveur est Qui il prétend être
               href: verify-the-server-is-who-it-claims-to-be.md
             - name: Utiliser des séquences de protocole courantes
               href: use-mainstream-protocol-sequences.md
@@ -92,9 +92,9 @@
           items:
             - name: Latence et débit du réseau
               href: network-latency-and-throughput.md
-            - name: Extensibilité
+            - name: Scalabilité
               href: scalability.md
-            - name: Conseils sur les performances des appels RPC divers
+            - name: Astuces des performances RPC diverses
               href: miscellaneous-rpc-performance-tips.md
         - name: Obtention d’informations sur les erreurs RPC étendues
           href: obtaining-extended-rpc-error-information.md
@@ -144,7 +144,7 @@
         - name: Installation de l’environnement de programmation RPC
           href: installing-the-rpc-programming-environment.md
           items:
-            - name: Développement d’applications Windows RPC
+            - name: développement d’Applications Windows RPC
               href: developing-32-bit-windows-applications.md
         - name: Génération d’applications RPC
           href: building-rpc-applications.md
@@ -515,7 +515,7 @@
                   href: application-allocated-buffer.md
                 - name: Stockage persistant sur le serveur
                   href: persistent-storage-on-the-server.md
-            - name: "Qui gère la mémoire\_?"
+            - name: "Qui Gère la mémoire\_?"
               href: who-manages-memory-.md
               items:
                 - name: Pointeurs Top-Level et incorporés
@@ -622,12 +622,12 @@
               items:
                 - name: Configuration du service de noms
                   href: configuring-the-name-service-for-windows-xp-windows-2000-or-windows-nt.md
-                - name: Configuration du service de noms pour Windows 95
+                - name: configuration du Service de noms pour Windows 95
                   href: configuring-the-name-service-for-windows-95.md
                   items:
-                    - name: Modification du registre de Windows 95
+                    - name: modification du registre Windows 95
                       href: editing-the-windows-95-registry.md
-                - name: Configuration du service de noms pour Windows 3. x ou MS-DOS
+                - name: configuration du Service de noms pour Windows 3. x ou MS-DOS
                   href: configuring-the-name-service-for-windows-3-x-or-ms-dos.md
                   items:
                     - name: Configuration du fournisseur de services Microsoft Locator Name
@@ -726,7 +726,7 @@
               href: system-requirements-and-interoperability-for-rpc-over-http.md
             - name: Configuration des ordinateurs pour RPC sur HTTP
               href: configuring-computers-for-rpc-over-http.md
-            - name: Recommandations relatives au déploiement de RPC sur HTTP
+            - name: Recommandations de déploiement RPC sur HTTP
               href: rpc-over-http-deployment-recommendations.md
         - name: Équilibrage de charge RPC
           href: rpc-load-balancing.md
@@ -1530,7 +1530,7 @@
     - name: Glossaire
       href: glossary.md
       items:
-        - name: Un
+        - name: A
           href: a-glos.md
         - name: B
           href: b-glos.md
