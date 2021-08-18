@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété Height de l’objet feuille. Micr
 ms.assetid: ad1efe47-3fa5-4885-8855-a9977cf21cef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a42c1633606a0898417b209ad2c42020dc333554
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 43c7742377a65ed3b1a5e151ddc3c4adec73b086c3164ba4932b0848f8fb89e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118478984"
 ---
 # <a name="height-property-propertysheet-object"></a>Height, propriété (objet feuille)
 

@@ -4,12 +4,12 @@ ms.assetid: 07e94448-13a9-4ea5-9ac7-a1e35668e0a0
 title: Attribut MF_PD_ASF_FILEPROPERTIES_MAX_BITRATE (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14b2c4d8b3061a0865bf3b2f3c2a4c1597c2c76f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6145c9648a653549adf2d127cbb54f8300422eec3ec4782601b5c5e6cb76fd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118740977"
 ---
 # <a name="mf_pd_asf_fileproperties_max_bitrate-attribute"></a>\_Attribut de \_ Vitesse \_ de \_ \_ transmission maximale MF PD ASF FichierPropriétés
 
@@ -19,7 +19,7 @@ Spécifie la vitesse de transmission instantanée maximale, en bits par seconde,
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
@@ -31,8 +31,8 @@ La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcontainer. h</dt> </dl> |
 
 

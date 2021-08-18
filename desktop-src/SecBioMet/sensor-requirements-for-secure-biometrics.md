@@ -4,22 +4,22 @@ description: Exigences de capteur pour la biométrie sécurisée
 ms.assetid: 6D5709E9-7B6B-4D6C-BF85-C6FB5DF5A7EE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82f4e41f8300a124115c2b6cd380f904f216f491
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ba76ee3b114f79d3c60adfa252f59cd2b8f98aa135e50faf93cf5ecf7314ad99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911791"
 ---
 # <a name="sensor-requirements-for-secure-biometrics"></a>Exigences de capteur pour la biométrie sécurisée
 
 Microsoft s’appuie sur Module de plateforme sécurisée (TPM) (TPM) 2,0 pour s’assurer que, sur le matériel approprié, les logiciels (et y compris les logiciels malveillants au niveau du noyau) ne peuvent pas générer une authentification biométrique valide si la biométrique de l’utilisateur n’a pas été fournie au moment de l’authentification.
 
-Pour ce faire, nous utilisons des autorisations basées sur une session TPM 2,0 et le capteur effectuant l’extraction et la correspondance des fonctionnalités dans un environnement d’exécution approuvé. La première fois que le Windows Biometric Framework voit un capteur sécurisé (tel qu’il est signalé par la fonctionnalité de capteur sécurisé), il provisionne un secret partagé entre le capteur biométrique sécurisé et le module de plateforme sécurisée. Ce secret n’est jamais exposé au système d’exploitation et il est propre à chaque capteur.
+Pour ce faire, nous utilisons des autorisations basées sur une session TPM 2,0 et le capteur effectuant l’extraction et la correspondance des fonctionnalités dans un environnement d’exécution approuvé. la première fois que le Windows Biometric Framework voit un capteur sécurisé (tel qu’il est signalé par la fonctionnalité de capteur sécurisé), il provisionne un secret partagé entre le capteur biométrique sécurisé et le module de plateforme sécurisée. Ce secret n’est jamais exposé au système d’exploitation et il est propre à chaque capteur.
 
-Pour effectuer une authentification, le Windows Biometric Framework ouvre une session avec le module de plateforme sécurisée et obtient une valeur à usage unique. La valeur à usage unique est transmise au capteur sécurisé dans le cadre d’une opération de correspondance sécurisée. Le capteur effectue la correspondance dans l’environnement d’exécution approuvé et, si elle réussit, calcule un HMAC sur ce nonce et l’identité de l’utilisateur identifié.
+pour effectuer une authentification, le Windows Biometric Framework ouvre une session avec le module de plateforme sécurisée et obtient une valeur à usage unique. La valeur à usage unique est transmise au capteur sécurisé dans le cadre d’une opération de correspondance sécurisée. Le capteur effectue la correspondance dans l’environnement d’exécution approuvé et, si elle réussit, calcule un HMAC sur ce nonce et l’identité de l’utilisateur identifié.
 
-Ce HMAC peut être utilisé par le Windows Biometric Framework pour effectuer des opérations de chiffrement dans le module de plateforme sécurisée pour l’utilisateur identifié. Le HMAC est de courte durée et expire après quelques secondes.
+ce HMAC peut être utilisé par le Windows Biometric Framework pour effectuer des opérations de chiffrement dans le module de plateforme sécurisée pour l’utilisateur identifié. Le HMAC est de courte durée et expire après quelques secondes.
 
 À l’aide de ce protocole, après l’approvisionnement initial, aucune donnée sensible n’est contenue dans le système d’exploitation. Les secrets sont détenus par le TPM et le capteur sécurisé, et la seule chose exposée pendant l’authentification est le HMAC de courte durée.
 
@@ -79,7 +79,7 @@ La \_ valeur du \_ capteur sécurisé de capacité WINBIO \_ est contenue dans l
 
 ## <a name="engine-adapter-interface-v-40"></a>Interface de l’adaptateur de moteur v 4,0
 
-La version de l’interface de l’adaptateur du moteur a été incrémentée à 4,0. Les fonctions supplémentaires de la nouvelle interface permettent au capteur de participer au module TPM 2,0. Les voici :
+La version de l’interface de l’adaptateur du moteur a été incrémentée à 4,0. Les fonctions supplémentaires de la nouvelle interface permettent au capteur de participer au module TPM 2,0. Il s'agit de :
 
 -   [**EngineAdapterCreateKey**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_create_key_fn)
 -   [**EngineAdapterIdentifyFeatureSetSecure**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_secure_fn)
@@ -277,8 +277,8 @@ typedef struct _WINBIO_ENGINE_INTERFACE {
 
 ## <a name="requirements"></a>Configuration requise
 
-Windows 10
+Windows 10
 
- 
+ 
 
- 
+ 

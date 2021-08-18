@@ -57,10 +57,10 @@ Grammaire permettant d’encoder les propriétés de la table d’affichage sous
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8018                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 4096                                                     |
@@ -78,10 +78,10 @@ Grammaire permettant d’encoder les propriétés de la table d’affichage sous
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8018                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 4096                                                     |
@@ -99,10 +99,10 @@ Grammaire permettant d’encoder les propriétés de la table d’affichage sous
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8018                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 4096                                                     |
@@ -120,10 +120,10 @@ Grammaire permettant d’encoder les propriétés de la table d’affichage sous
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8018                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 4096                                                     |
@@ -141,10 +141,10 @@ Grammaire permettant d’encoder les propriétés de la table d’affichage sous
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8018                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 4096                                                     |
@@ -162,10 +162,10 @@ Grammaire permettant d’encoder les propriétés de la table d’affichage sous
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8018                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 4096                                                     |

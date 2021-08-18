@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété Name du contrôle de l’agent. C
 ms.assetid: 83d6682c-ac25-4333-8640-7ef468f2de8b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72d4afe24b443117dbdcbdb408f73a2f34068a2b
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: ed7976611cc5018e8572bc4c398979be1a2d52a80e00c23b78e7c7351fd6d7e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118475879"
 ---
 # <a name="name-property-agent-control"></a>Propriété Name (contrôle Agent)
 
@@ -33,7 +33,7 @@ Retourne le nom utilisé dans le code pour identifier le contrôle. Cette propri
 
 ## <a name="remarks"></a>Remarques
 
-Dans certains environnements de programmation tels que Visual Basic, l’ajout du contrôle génère automatiquement un nom par défaut pour le contrôle qui peut être modifié au moment du Design. Pour les scripts HTML, vous pouvez définir le nom dans la <OBJECT> balise. Si vous définissez le nom, suivez les conventions du langage de programmation pour la définition des noms d’objets.
+dans certains environnements de programmation tels que Visual Basic, l’ajout du contrôle génère automatiquement un nom par défaut pour le contrôle qui peut être modifié au moment du design. Pour les scripts HTML, vous pouvez définir le nom dans la <OBJECT> balise. Si vous définissez le nom, suivez les conventions du langage de programmation pour la définition des noms d’objets.
 
  
 

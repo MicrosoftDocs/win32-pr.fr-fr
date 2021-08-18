@@ -4,12 +4,12 @@ ms.assetid: A782BF8A-822A-407D-A30A-F2045BBB0BC0
 title: Attribut MF_SA_BUFFERS_PER_SAMPLE (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d658ae72c53d986b364b2b6a3f405ae0052ea3fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf6b54cc5b2589649c954d9f2f41923af04fdf4aa7c00714067bee0b11dabbee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118740366"
 ---
 # <a name="mf_sa_buffers_per_sample-attribute"></a>\_Tampons sa de l' \_ exemple MF \_ par \_ attribut
 
@@ -19,7 +19,7 @@ Spécifie le nombre de mémoires tampons créées par l’allocateur d’échant
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous utilisez l’interface [**IMFVideoSampleAllocatorEx**](/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorex) pour allouer des exemples vidéo, vous pouvez utiliser cet attribut pour créer des exemples vidéo qui contiennent plusieurs mémoires tampons. Par exemple, si la valeur de l’attribut est 2, l’allocateur crée deux mémoires tampons vidéo pour chaque échantillon vidéo. Définissez l’attribut dans le paramètre *pAttributes* de la méthode [**IMFVideoSampleAllocatorEx :: InitializeSampleAllocatorEx**](/windows/desktop/api/mfidl/nf-mfidl-imfvideosampleallocatorex-initializesampleallocatorex) .
 
@@ -40,8 +40,8 @@ Si tous ces critères sont vrais, la table MFT doit définir la valeur de l’at
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

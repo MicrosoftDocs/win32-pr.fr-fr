@@ -4,12 +4,12 @@ description: Notifications de menu
 ms.assetid: 8ff5671e-a666-483c-9ac1-f8be6eb58ffa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f593e3007dff82241dc9e917a6cfa140cc443679
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e7370da93f430c62618b5d459e40bfa56cb7a9ff9f960f95eb6ce614cc7273e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118734255"
 ---
 # <a name="menu-notifications"></a>Notifications de menu
 
@@ -28,7 +28,7 @@ ms.locfileid: "108112527"
 -   [**\_UNINITMENUPOPUP WM**](wm-uninitmenupopup.md)
 
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 ```c
 BOOL AboutDlg (
@@ -58,7 +58,7 @@ BOOL AboutDlg (
     return bRet;
 }
 ```
-Exemple tiré des [exemples Windows classiques](https://github.com/microsoft/Windows-classic-samples) sur GitHub.
+exemple tiré d' [Windows exemples classiques](https://github.com/microsoft/Windows-classic-samples) sur GitHub.
 
  
 

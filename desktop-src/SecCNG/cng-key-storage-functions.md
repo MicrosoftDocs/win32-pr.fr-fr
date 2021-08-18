@@ -1,17 +1,17 @@
 ---
 description: 'API de chiffrement : Next Generation (CNG) définit les fonctions suivantes qui sont utilisées pour effectuer des opérations de stockage de clé CNG.'
 ms.assetid: b0fb174b-75d7-4203-88ab-8469fa85f208
-title: Fonctions de stockage de clé CNG
+title: fonctions de Stockage de clé CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c40a56fdff27b78d733421ad33a4c88289156cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a006807dce61ef5bb9e64f74b27c4513c8baa1386a3d8945d72fd809c37ba112
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908260"
 ---
-# <a name="cng-key-storage-functions"></a>Fonctions de stockage de clé CNG
+# <a name="cng-key-storage-functions"></a>fonctions de Stockage de clé CNG
 
 API de chiffrement : Next Generation (CNG) définit les fonctions suivantes qui sont utilisées pour effectuer des opérations de stockage de clé CNG.
 

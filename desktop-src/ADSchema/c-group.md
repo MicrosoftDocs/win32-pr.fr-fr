@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 618adb97220f4cc1b1e4af7f42fd043c7bb1e6c5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: eae33b53eff8305fee4698c5aed2bb072f3fa5b90a5922d0099e40e90f9b3fe4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021907"
 ---
 # <a name="group-class"></a>Group (classe)
 
@@ -29,7 +29,7 @@ Stocke une liste de noms d’utilisateurs. Utilisé pour appliquer des principau
 
 | Entrée | Valeur |
 |-------------------|------------------------------------------------|
-| CN                | Group                                          |
+| CN                | Groupe                                          |
 | LDAP-Display-Name | group                                          |
 | Mettre à jour le privilège  | Cette valeur est définie par l’administrateur de domaine. |
 | Fréquence des mises à jour  | \-                                             |
@@ -43,7 +43,7 @@ Stocke une liste de noms d’utilisateurs. Utilisé pour appliquer des principau
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam-attributes)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -73,9 +73,9 @@ Stocke une liste de noms d’utilisateurs. Utilisé pour appliquer des principau
 
 
 
-## <a name="windows-2000-server-attributes"></a>Attributs du serveur Windows 2000
+## <a name="windows-2000-server-attributes"></a>attributs de serveur Windows 2000
 
-Cette classe contient les attributs suivants pour le serveur Windows 2000 :
+cette classe contient les attributs suivants pour Windows serveur 2000 :
 
 
 
@@ -104,7 +104,7 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                  | Faux     | [**Retour au début**](c-top.md)<br/>                                                              |
 | [**Adresses de messagerie**](a-mail.md)                                           | Faux     | **Groupe**                                                                                    |
 | [**Nom de l’extension**](a-extensionname.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                              |
-| [**Père**](a-flags.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                              |
+| [**Indicateurs**](a-flags.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                              |
 | [**Entrée de**](a-fromentry.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                              |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                | Faux     | [**Retour au début**](c-top.md)<br/>                                                              |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                              |
@@ -191,9 +191,9 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 
 
 
-## <a name="windows-2000-server-extended-rights"></a>Droits étendus du serveur Windows 2000
+## <a name="windows-2000-server-extended-rights"></a>droits étendus du serveur Windows 2000
 
-Cette classe contient les droits étendus suivants pour le serveur Windows 2000 :
+cette classe contient les droits étendus suivants pour Windows serveur 2000 :
 
 
 
@@ -203,9 +203,9 @@ Cette classe contient les droits étendus suivants pour le serveur Windows 2000�
 
 
 
-## <a name="windows-2000-server-validated-writes"></a>Écritures validées par le serveur Windows 2000
+## <a name="windows-2000-server-validated-writes"></a>écritures validées par le serveur Windows 2000
 
-Cette classe contient les écritures validées suivantes pour le serveur Windows 2000 :
+cette classe contient les écritures validées suivantes pour Windows serveur 2000 :
 
 
 
@@ -215,9 +215,9 @@ Cette classe contient les écritures validées suivantes pour le serveur Windows
 
 
 
-## <a name="windows-2000-server-property-sets"></a>Jeux de propriétés de serveur Windows 2000
+## <a name="windows-2000-server-property-sets"></a>jeux de propriétés de serveur Windows 2000
 
-Cette classe contient les jeux de propriétés suivants pour le serveur Windows 2000 :
+cette classe contient les jeux de propriétés suivants pour Windows serveur 2000 :
 
 
 
@@ -253,9 +253,9 @@ Cette classe contient les jeux de propriétés suivants pour le serveur Windows 
 
 
 
-## <a name="windows-server-2003-attributes"></a>Attributs Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Attributs du serveur 2003
 
-Cette classe contient les attributs suivants pour Windows Server 2003 :
+cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
@@ -284,7 +284,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                  | Faux     | [**Retour au début**](c-top.md)<br/>                                                              |
 | [**Adresses de messagerie**](a-mail.md)                                           | Faux     | **Groupe**                                                                                    |
 | [**Nom de l’extension**](a-extensionname.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                              |
-| [**Père**](a-flags.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                              |
+| [**Indicateurs**](a-flags.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                              |
 | [**Entrée de**](a-fromentry.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                              |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                | Faux     | [**Retour au début**](c-top.md)<br/>                                                              |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                              |
@@ -396,9 +396,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
-## <a name="windows-server-2003-extended-rights"></a>Droits étendus Windows Server 2003
+## <a name="windows-server-2003-extended-rights"></a>Windows Droits étendus du serveur 2003
 
-Cette classe contient les droits étendus suivants pour Windows Server 2003 :
+cette classe contient les droits étendus suivants pour Windows Server 2003 :
 
 
 
@@ -408,9 +408,9 @@ Cette classe contient les droits étendus suivants pour Windows Server 2003 :
 
 
 
-## <a name="windows-server-2003-validated-writes"></a>Écritures validées de Windows Server 2003
+## <a name="windows-server-2003-validated-writes"></a>Windows Serveur 2003 écritures validées
 
-Cette classe contient les écritures validées suivantes pour Windows Server 2003 :
+cette classe contient les écritures validées suivantes pour Windows Server 2003 :
 
 
 
@@ -420,9 +420,9 @@ Cette classe contient les écritures validées suivantes pour Windows Server 200
 
 
 
-## <a name="windows-server-2003-property-sets"></a>Jeux de propriétés Windows Server 2003
+## <a name="windows-server-2003-property-sets"></a>Windows Jeux de propriétés du serveur 2003
 
-Cette classe contient les jeux de propriétés suivants pour Windows Server 2003 :
+cette classe contient les jeux de propriétés suivants pour Windows Server 2003 :
 
 
 
@@ -600,9 +600,9 @@ Cette classe contient les jeux de propriétés suivants pour ADAM :
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Attributs Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Attributs du serveur 2003 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
+cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
@@ -631,7 +631,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                  | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**Adresses de messagerie**](a-mail.md)                                           | Faux     | **Groupe**                                                                                                                          |
 | [**Nom de l’extension**](a-extensionname.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
-| [**Père**](a-flags.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
+| [**Indicateurs**](a-flags.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**Entrée de**](a-fromentry.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
@@ -753,9 +753,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
-## <a name="windows-server-2003-r2-extended-rights"></a>Droits étendus Windows Server 2003 R2
+## <a name="windows-server-2003-r2-extended-rights"></a>Windows Droits étendus du serveur 2003 R2
 
-Cette classe contient les droits étendus suivants pour Windows Server 2003 R2 :
+cette classe contient les droits étendus suivants pour Windows Server 2003 R2 :
 
 
 
@@ -765,9 +765,9 @@ Cette classe contient les droits étendus suivants pour Windows Server 2003 R2 
 
 
 
-## <a name="windows-server-2003-r2-validated-writes"></a>Écritures validées de Windows Server 2003 R2
+## <a name="windows-server-2003-r2-validated-writes"></a>Windows Écritures validées du serveur 2003 R2
 
-Cette classe contient les écritures validées suivantes pour Windows Server 2003 R2 :
+cette classe contient les écritures validées suivantes pour Windows Server 2003 R2 :
 
 
 
@@ -777,9 +777,9 @@ Cette classe contient les écritures validées suivantes pour Windows Server 200
 
 
 
-## <a name="windows-server-2003-r2-property-sets"></a>Jeux de propriétés Windows Server 2003 R2
+## <a name="windows-server-2003-r2-property-sets"></a>Windows Jeux de propriétés de Server 2003 R2
 
-Cette classe contient les jeux de propriétés suivants pour Windows Server 2003 R2 :
+cette classe contient les jeux de propriétés suivants pour Windows Server 2003 R2 :
 
 
 
@@ -815,9 +815,9 @@ Cette classe contient les jeux de propriétés suivants pour Windows Server 2003
 
 
 
-## <a name="windows-server-2008-attributes"></a>Attributs Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Attributs du serveur 2008
 
-Cette classe contient les attributs suivants pour Windows Server 2008 :
+cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
@@ -846,7 +846,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**Adresses de messagerie**](a-mail.md)                                               | Faux     | **Groupe**                                                                                                                          |
 | [**Nom de l’extension**](a-extensionname.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
-| [**Père**](a-flags.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
+| [**Indicateurs**](a-flags.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**Entrée de**](a-fromentry.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
@@ -986,9 +986,9 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
-## <a name="windows-server-2008-extended-rights"></a>Droits étendus Windows Server 2008
+## <a name="windows-server-2008-extended-rights"></a>Windows Droits étendus du serveur 2008
 
-Cette classe contient les droits étendus suivants pour Windows Server 2008 :
+cette classe contient les droits étendus suivants pour Windows Server 2008 :
 
 
 
@@ -998,9 +998,9 @@ Cette classe contient les droits étendus suivants pour Windows Server 2008 :
 
 
 
-## <a name="windows-server-2008-validated-writes"></a>Écritures validées de Windows Server 2008
+## <a name="windows-server-2008-validated-writes"></a>Windows Serveur 2008 écritures validées
 
-Cette classe contient les écritures validées suivantes pour Windows Server 2008 :
+cette classe contient les écritures validées suivantes pour Windows Server 2008 :
 
 
 
@@ -1010,9 +1010,9 @@ Cette classe contient les écritures validées suivantes pour Windows Server 200
 
 
 
-## <a name="windows-server-2008-property-sets"></a>Jeux de propriétés Windows Server 2008
+## <a name="windows-server-2008-property-sets"></a>Windows Jeux de propriétés du serveur 2008
 
-Cette classe contient les jeux de propriétés suivants pour Windows Server 2008 :
+cette classe contient les jeux de propriétés suivants pour Windows Server 2008 :
 
 
 
@@ -1048,9 +1048,9 @@ Cette classe contient les jeux de propriétés suivants pour Windows Server 2008
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Attributs Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Attributs du serveur 2008 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
+cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
@@ -1079,7 +1079,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**Adresses de messagerie**](a-mail.md)                                               | Faux     | **Groupe**                                                                                                                          |
 | [**Nom de l’extension**](a-extensionname.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
-| [**Père**](a-flags.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
+| [**Indicateurs**](a-flags.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**Entrée de**](a-fromentry.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
@@ -1226,9 +1226,9 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
-## <a name="windows-server-2008-r2-extended-rights"></a>Droits étendus Windows Server 2008 R2
+## <a name="windows-server-2008-r2-extended-rights"></a>Windows Droits étendus du serveur 2008 R2
 
-Cette classe contient les droits étendus suivants pour Windows Server 2008 R2 :
+cette classe contient les droits étendus suivants pour Windows Server 2008 R2 :
 
 
 
@@ -1238,9 +1238,9 @@ Cette classe contient les droits étendus suivants pour Windows Server 2008 R2 
 
 
 
-## <a name="windows-server-2008-r2-validated-writes"></a>Écritures validées de Windows Server 2008 R2
+## <a name="windows-server-2008-r2-validated-writes"></a>Windows Écritures validées du serveur 2008 R2
 
-Cette classe contient les écritures validées suivantes pour Windows Server 2008 R2 :
+cette classe contient les écritures validées suivantes pour Windows Server 2008 R2 :
 
 
 
@@ -1250,9 +1250,9 @@ Cette classe contient les écritures validées suivantes pour Windows Server 200
 
 
 
-## <a name="windows-server-2008-r2-property-sets"></a>Jeux de propriétés Windows Server 2008 R2
+## <a name="windows-server-2008-r2-property-sets"></a>Windows Jeux de propriétés de Server 2008 R2
 
-Cette classe contient les jeux de propriétés suivants pour Windows Server 2008 R2 :
+cette classe contient les jeux de propriétés suivants pour Windows Server 2008 R2 :
 
 
 
@@ -1288,7 +1288,7 @@ Cette classe contient les jeux de propriétés suivants pour Windows Server 2008
 
 
 
-## <a name="windows-server-2012-attributes"></a>Attributs Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Attributs
 
 Cette classe contient les attributs suivants pour Windows Server 2012 :
 
@@ -1319,7 +1319,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**Adresses de messagerie**](a-mail.md)                                                           | Faux     | **Groupe**                                                                                                                          |
 | [**Nom de l’extension**](a-extensionname.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
-| [**Père**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
+| [**Indicateurs**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**Entrée de**](a-fromentry.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
@@ -1398,7 +1398,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
-| [**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**ms-DS-value-type-référence-BL**](a-msds-valuetypereferencebl.md)                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                    |
 | [**ms-Exch-Assistant-nom**](a-msexchassistantname.md)                                      | Faux     | [**E-mail-destinataire**](c-mailrecipient.md)<br/>                                                                               |
@@ -1476,7 +1476,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 
 
 
-## <a name="windows-server-2012-extended-rights"></a>Droits étendus Windows Server 2012
+## <a name="windows-server-2012-extended-rights"></a>Windows Server 2012 Droits étendus
 
 Cette classe contient les droits étendus suivants pour Windows Server 2012 :
 
@@ -1488,7 +1488,7 @@ Cette classe contient les droits étendus suivants pour Windows Server 2012 :
 
 
 
-## <a name="windows-server-2012-validated-writes"></a>Écritures validées de Windows Server 2012
+## <a name="windows-server-2012-validated-writes"></a>Windows Server 2012 Écritures validées
 
 Cette classe contient les écritures validées suivantes pour Windows Server 2012 :
 
@@ -1500,7 +1500,7 @@ Cette classe contient les écritures validées suivantes pour Windows Server 201
 
 
 
-## <a name="windows-server-2012-property-sets"></a>Jeux de propriétés Windows Server 2012
+## <a name="windows-server-2012-property-sets"></a>Windows Server 2012 Jeux de propriétés
 
 Cette classe contient les jeux de propriétés suivants pour Windows Server 2012 :
 

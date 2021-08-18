@@ -4,12 +4,12 @@ ms.assetid: 8937f625-d649-40fb-bc8a-5d1103095efa
 title: System. NamespaceCLSID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ddaf0dd7f60d439b6757181cd3475d9984093dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a93217544d0a6222e9a4a071d8ecc23fe1c01950215c2db6fe1a4f8c1eb408f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118724393"
 ---
 # <a name="systemnamespaceclsid"></a>System. NamespaceCLSID
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

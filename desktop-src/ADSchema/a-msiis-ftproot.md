@@ -56,10 +56,10 @@ Cet attribut détermine le partage de serveur de fichiers. Il est utilisé conjo
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | False                             |
-| Est de valeur unique       | True                              |
-| Est indexé             | False                             |
-| Dans le catalogue global      | False                             |
+| System-Only            | Faux                             |
+| Est de valeur unique       | Vrai                              |
+| Est indexé             | Faux                             |
+| Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | 1                                 |
 | Range-Upper            | 256                               |
@@ -77,10 +77,10 @@ Cet attribut détermine le partage de serveur de fichiers. Il est utilisé conjo
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | False                             |
-| Est de valeur unique       | True                              |
-| Est indexé             | False                             |
-| Dans le catalogue global      | False                             |
+| System-Only            | Faux                             |
+| Est de valeur unique       | Vrai                              |
+| Est indexé             | Faux                             |
+| Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | 1                                 |
 | Range-Upper            | 256                               |
@@ -98,10 +98,10 @@ Cet attribut détermine le partage de serveur de fichiers. Il est utilisé conjo
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | False                             |
-| Est de valeur unique       | True                              |
-| Est indexé             | False                             |
-| Dans le catalogue global      | False                             |
+| System-Only            | Faux                             |
+| Est de valeur unique       | Vrai                              |
+| Est indexé             | Faux                             |
+| Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | 1                                 |
 | Range-Upper            | 256                               |
@@ -119,10 +119,10 @@ Cet attribut détermine le partage de serveur de fichiers. Il est utilisé conjo
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | False                             |
-| Est de valeur unique       | True                              |
-| Est indexé             | False                             |
-| Dans le catalogue global      | False                             |
+| System-Only            | Faux                             |
+| Est de valeur unique       | Vrai                              |
+| Est indexé             | Faux                             |
+| Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | 1                                 |
 | Range-Upper            | 256                               |
@@ -140,10 +140,10 @@ Cet attribut détermine le partage de serveur de fichiers. Il est utilisé conjo
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | False                             |
-| Est de valeur unique       | True                              |
-| Est indexé             | False                             |
-| Dans le catalogue global      | False                             |
+| System-Only            | Faux                             |
+| Est de valeur unique       | Vrai                              |
+| Est indexé             | Faux                             |
+| Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | 1                                 |
 | Range-Upper            | 256                               |

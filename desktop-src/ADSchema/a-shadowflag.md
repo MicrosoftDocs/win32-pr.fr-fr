@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d24549c5b002378558aa9cc63ca681b816e55b3d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 175ecdfb1181bb83a3b921e579fbeb3e94729b049f904adef79592d30b0065db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022167"
 ---
 # <a name="shadowflag-attribute"></a>attribut shadowFlag
 
@@ -35,14 +35,14 @@ Contient la section du mappage d’ombre qui est utilisée pour stocker la valeu
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.3.6.1.1.1.1.11                     |
 | System-ID-GUID    | 8dfeb70d-c5db-46b6-b15e-a4389e6cee9b |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

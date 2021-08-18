@@ -4,12 +4,12 @@ ms.assetid: 484dfea9-301d-4b2b-b5d1-d785ebaa8c8f
 title: Indicateurs de type de protection OPM (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cc8b30a18f5c7bf68fb01775751aa56e1e619f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ee61b17ee1708f8c2fc7e2f91b33d966b17f8fd2e198e2772c30ccccf837d04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106532095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101888"
 ---
 # <a name="opm-protection-type-flags"></a>Indicateurs de type de protection OPM
 
@@ -29,7 +29,7 @@ Les indicateurs figurant dans le tableau suivant spécifient les mécanismes de 
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces indicateurs sont utilisés dans les commandes et les demandes d’État OPM suivantes.
 
@@ -70,8 +70,8 @@ Lorsque la sémantique COPP est utilisée, l’interface [**IOPMVideoOutput**](/
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Opmapi. h</dt> </dl> |
 
 

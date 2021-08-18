@@ -3,7 +3,7 @@ title: Message MM_WOM_DONE (mmsystem. h)
 description: Le \_ message mm WOM \_ done est envoyé à une fenêtre lorsque la mémoire tampon de sortie donnée est retournée à l’application. Les tampons sont retournés à l’application lorsqu’ils ont été lus, ou à la suite d’un appel à la fonction waveOutReset.
 ms.assetid: bbdebb68-82e5-4963-90bb-f93f8a91a8cf
 keywords:
-- Message MM_WOM_DONE Windows Multimedia
+- message MM_WOM_DONE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7198aa2f60a7f5a0e6d839a3ee5b453a3a4d3f59
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 225ba32f780831ab8b40f487a312a940219abc2e976be75a4e903648344afc89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065459"
 ---
 # <a name="mm_wom_done-message"></a>MM \_ \_ message terminé WOM
 
@@ -64,7 +64,7 @@ Ce message ne retourne pas de valeur.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

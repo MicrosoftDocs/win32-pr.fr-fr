@@ -1,22 +1,22 @@
 ---
 title: Suivi d’événements dans ADSI
-description: Windows Server 2008 et Windows Vista introduisent le suivi d’événements dans les interfaces de service Active Directory (ADSI).
+description: Windows le serveur 2008 et Windows Vista introduisent le suivi d’événements dans les Interfaces ADSI (Active Directory Service Interfaces).
 ms.assetid: 743aeeba-5b48-47c7-aaf5-0e9b48e206db
 ms.tgt_platform: multiple
 keywords:
 - suivi d’événements (ADSI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b26aee00404f5cf97d228698f64fec804c28e62
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: a59b2db3775c8c578ad361667a2d89c36240caf4b3bbb4bcd5cdd2798011514b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023977"
 ---
 # <a name="event-tracing-in-adsi"></a>Suivi d’événements dans ADSI
 
-Windows Server 2008 et Windows Vista introduisent [le suivi d’événements](/windows/desktop/ETW/event-tracing-portal) dans les [Interfaces de service Active Directory](active-directory-service-interfaces-adsi.md) (ADSI). Certaines zones du fournisseur LDAP ADSI ont une implémentation sous-jacente qui est complexe ou qui implique une séquence d’étapes qui complique le diagnostic des problèmes. Pour aider les développeurs d’applications à résoudre les problèmes, le suivi d’événements a été ajouté aux domaines suivants :
+Windows le serveur 2008 et Windows Vista introduisent [le suivi d’événements](/windows/desktop/ETW/event-tracing-portal) dans les Interfaces ADSI ( [Active Directory Service Interfaces](active-directory-service-interfaces-adsi.md) ). Certaines zones du fournisseur LDAP ADSI ont une implémentation sous-jacente qui est complexe ou qui implique une séquence d’étapes qui complique le diagnostic des problèmes. Pour aider les développeurs d’applications à résoudre les problèmes, le suivi d’événements a été ajouté aux domaines suivants :
 
 ## <a name="schema-parsing-and-downloading"></a>Analyse et téléchargement de schéma
 

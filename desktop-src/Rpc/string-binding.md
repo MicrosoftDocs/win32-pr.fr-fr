@@ -4,12 +4,12 @@ description: La liaison de chaîne est une chaîne de caractères non signée co
 ms.assetid: 5e55ddd0-d71c-42ef-90cc-dd1f0b9ed305
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b3f925c03c85be3c47ab174a85f31e72e40d828
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 10b2219aa4bb9ed77d2c59732a87a138f620e1910a4ca9f518c22c39a59a7dfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924987"
 ---
 # <a name="string-binding"></a>Liaison de chaîne
 
@@ -41,7 +41,7 @@ Chaîne de caractères qui représente une combinaison valide d’un protocole R
 Adresse réseau du système pour recevoir des appels de procédure distante.
 
 > [!Note]  
-> Les séquences de protocole suivantes ne sont pas prises en charge à partir de Windows XP :
+> les séquences de protocole suivantes ne sont pas prises en charge à partir de Windows XP :
 
  
 
@@ -72,7 +72,7 @@ Le format et le contenu de l’adresse réseau dépendent de la séquence de pro
 | [ncacn \_ http](/windows/desktop/Midl/ncacn-http)          | Adresse Internet (nom convivial ou nom de serveur local).                                                                       | 128.10.2.30 somesvr@anywhere.com mylocalsvr<br/> |
 | [\_UDP IP \_ ncadg](/windows/desktop/Midl/ncadg-ip-udp)     | Adresse Internet sur quatre octets ou nom d’hôte                                                                                                        | 128.10.2.30 anynode.microsoft.com                      |
 | [\_IPX ncadg](/windows/desktop/Midl/ncadg-ipx)            | Adresse Internet IPX ou nom du serveur                                                                                                             | ~ 0000000108002B30612C MyServer                         |
-| [ncalrpc](/windows/desktop/Midl/ncalrpc)                 | Nom de l'ordinateur                                                                                                                                     | thismachine                                            |
+| [ncalrpc](/windows/desktop/Midl/ncalrpc)                 | Nom de l’ordinateur                                                                                                                                     | thismachine                                            |
 
 
 
@@ -123,7 +123,7 @@ Le nom de l’option **HttpConnectionOption** , pris en charge pour la \_ séque
 
 
 
-| Nom d'option       | Value            |
+| Nom d'option       | Valeur            |
 |-------------------|------------------|
 | HttpConnectOption | **UseHttpProxy** |
 

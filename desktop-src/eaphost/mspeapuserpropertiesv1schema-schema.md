@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3048e87e4345e9dbc29ab5ac11141461825b84d4
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 63606636fdeb6db616f20dffe05d25a80f981aa22f546d57c70c32fe59f30f91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104030646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118784889"
 ---
 # <a name="mspeapuserpropertiesv1-schema"></a>Schéma mspeapuserpropertiesv1
 
@@ -30,9 +30,9 @@ Le schéma mspeapuserpropertiesv1 définit les informations d’identification d
 [EAPHost et schéma hérité](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

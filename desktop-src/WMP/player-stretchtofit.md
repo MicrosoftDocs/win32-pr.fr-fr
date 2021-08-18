@@ -1,6 +1,6 @@
 ---
 title: Player. stretchToFit
-description: La propriété stretchToFit spécifie ou récupère une valeur indiquant si la vidéo affichée par le contrôle du lecteur Windows Media se redimensionne automatiquement pour s’adapter à la fenêtre vidéo, lorsque la fenêtre vidéo est plus grande que les dimensions de l’image vidéo.
+description: la propriété stretchToFit spécifie ou récupère une valeur indiquant si la vidéo affichée par le contrôle Lecteur Windows Media se redimensionne automatiquement pour s’adapter à la fenêtre vidéo, lorsque la fenêtre vidéo est plus grande que les dimensions de l’image vidéo.
 ms.assetid: 9ea02959-602e-4bac-a8aa-dce502d1bb54
 keywords:
 - Lecteur Windows Media Player. stretchToFit
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb7b68042cf2a5bd0e7f718d1e19641edecdf548
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 570d0b9bf7e266af769944b675a85c0ac1518c321d11038ff94cab035dfb316c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995839"
 ---
 # <a name="playerstretchtofit"></a>Player. stretchToFit
 
-La propriété **stretchToFit** spécifie ou récupère une valeur indiquant si la vidéo affichée par le contrôle du lecteur Windows Media se redimensionne automatiquement pour s’adapter à la fenêtre vidéo, lorsque la fenêtre vidéo est plus grande que les dimensions de l’image vidéo.
+la propriété **stretchToFit** spécifie ou récupère une valeur indiquant si la vidéo affichée par le contrôle Lecteur Windows Media se redimensionne automatiquement pour s’adapter à la fenêtre vidéo, lorsque la fenêtre vidéo est plus grande que les dimensions de l’image vidéo.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -44,11 +44,11 @@ Cette propriété est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Quand **stretchToFit** a la valeur true, le contrôle du lecteur Windows Media conserve les proportions d’origine de la vidéo. Si les proportions de la vidéo ne correspondent pas aux proportions de la fenêtre vidéo, les zones de masque noires peuvent apparaître en haut et en bas, ou à gauche et à droite de l’image vidéo.
+quand **stretchToFit** a la valeur true, le contrôle Lecteur Windows Media conserve les proportions d’origine de la vidéo. Si les proportions de la vidéo ne correspondent pas aux proportions de la fenêtre vidéo, les zones de masque noires peuvent apparaître en haut et en bas, ou à gauche et à droite de l’image vidéo.
 
-Cette propriété s’applique au contrôle du lecteur Windows Media uniquement lorsqu’il est incorporé dans une page Web.
+cette propriété s’applique au contrôle Lecteur Windows Media uniquement lorsqu’il est incorporé dans une page web.
 
 **Lecteur Windows Media 10 Mobile :** Cette propriété n’est pas prise en charge.
 

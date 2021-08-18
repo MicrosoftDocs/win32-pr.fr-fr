@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: f84f718701abd5bc76b55427aab9df072f758c3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f514f20ed99f7fc56725f582b815639cb9d8b3179e9e428845d7e066b6e3bf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967288"
 ---
 # <a name="iinkanalyzerdeleteanalysishint-method"></a>IInkAnalyzer ::D méthode eleteAnalysisHint
 
@@ -50,7 +50,7 @@ Indicateur d’analyse de [**IInkAnalyzer**](iinkanalyzer.md).
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La suppression d’un indicateur d’analyse ne marque pas la zone de l’indicateur pour la réanalyse. Pour marquer la zone dans l’indicateur pour la réanalyse, utilisez la [**méthode IInkAnalyzer :: SetDirtyRegion**](iinkanalyzer-setdirtyregion.md) pour définir la région de modification sur l’Union de la région et de la zone de modification actuelles de l’indicateur d’analyse.
 
@@ -64,7 +64,7 @@ Cette méthode retourne un code d’erreur quand *pHintToDelete* est un [**ICont
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

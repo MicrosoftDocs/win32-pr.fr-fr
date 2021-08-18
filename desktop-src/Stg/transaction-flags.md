@@ -4,12 +4,12 @@ description: Un objet peut être ouvert en mode direct ou traité.
 ms.assetid: f3be52b9-957c-4ab9-8fc1-e765faae2489
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 581d21db07921fe6d635aac44ceed256fee4ad85
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 79a3f389def4bdbb9d0cabf92500b316ae354878ec5f790b44e9f01121aeb57a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886781"
 ---
 # <a name="transaction-flags"></a>Indicateurs de transaction
 
@@ -17,9 +17,9 @@ Un objet peut être ouvert en mode direct ou traité. Lorsqu’un objet est ouve
 
 Le mode transactionnel n’est pas requis sur un objet de stockage parent pour pouvoir être utilisé sur un élément imbriqué. Toutefois, une transaction pour un élément imbriqué est imbriquée dans la transaction pour son objet de stockage parent. Par conséquent, les modifications apportées à un objet enfant ne peuvent pas être validées tant que celles-ci n’ont pas été validées, et elles restent non validées jusqu’à ce que l’objet de stockage racine (le parent de niveau supérieur) soit effectivement écrit sur le disque. En d’autres termes, les modifications se déplacent vers l’extérieur : les objets internes publient les modifications apportées aux transactions de leurs conteneurs immédiats.
 
- 
+ 
 
- 
+ 
 
 
 

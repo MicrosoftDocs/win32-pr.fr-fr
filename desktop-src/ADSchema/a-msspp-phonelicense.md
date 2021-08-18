@@ -1,10 +1,10 @@
 ---
-title: attribut ms-SPP-Phone-licence
-description: Licence utilisée lors de l’activation en ligne de la forêt Active Directory | attribut ms-SPP-Phone-licence
+title: attribut ms-SPP-Téléphone-License
+description: Licence utilisée lors de l’activation en ligne de la forêt Active Directory | attribut ms-SPP-Téléphone-License
 ms.assetid: 15ba6bde-8c22-4e87-8428-04c88633e9e6
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut de licence MS-SPP-Phone
+- schéma AD de l’attribut ms-SPP-Téléphone-License
 - Schéma AD de l’attribut msSPP-PhoneLicense
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65d4d2887f88ae33684e7d4a3abb11e33db19d13
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1543557771938e166c070ce6de525c71ce7a3ab15b67012b456b676b5a6e8b05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106532389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960288"
 ---
-# <a name="ms-spp-phone-license-attribute"></a>attribut ms-SPP-Phone-licence
+# <a name="ms-spp-phone-license-attribute"></a>attribut ms-SPP-Téléphone-License
 
 Licence utilisée lors de l’activation en ligne de la forêt Active Directory
 
@@ -29,7 +29,7 @@ Licence utilisée lors de l’activation en ligne de la forêt Active Directory
 
 | Entrée | Valeur |
 |-------------------|-------------------------------------------------------|
-| CN                | MS-SPP-Phone-licence                                  |
+| CN                | ms-SPP-Téléphone-licence                                  |
 | LDAP-Display-Name | msSPP-PhoneLicense                                    |
 | Taille              | \-                                                    |
 | Mettre à jour le privilège  | \-                                                    |

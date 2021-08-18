@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d91d34764075a26b244c08fe27c08cd3369242c9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e0f7485cfb8eb9b033e49673d597ac137a60190fb5885d4a7346e0c9a12f3b2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960508"
 ---
 # <a name="msmq-digests-mig-attribute"></a>MSMQ-Digests-attribut MIG
 
@@ -45,7 +45,7 @@ En mode mixte MSMQ, contient la valeur précédente de mSMQDigests.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -4,12 +4,12 @@ ms.assetid: bf1932bd-496b-46a1-95f4-1581da98299f
 title: Écriture d’une fonction de gestionnaire de contrôle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 724a04aa20143d2c4a506da7ac17119388a8c82e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4bf8ab32edb73fdf11f3f0370a512b17b143b8af219a2bd539e59bdf062a00d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888060"
 ---
 # <a name="writing-a-control-handler-function"></a>Écriture d’une fonction de gestionnaire de contrôle
 

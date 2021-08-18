@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b87c8ba76928fbf0e465a8b6a3a0aaf4730759f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e2f97f7edd1e719eb44ff1d41929d7cb3864d8117eabb383b4318688adfa537f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955088"
 ---
 # <a name="cbasepropertypagehelp-method"></a>CBasePropertyPage. Help, méthode
 
@@ -53,7 +53,7 @@ Pointeur vers la chaîne sous la clé **helpDir** dans les informations de CLSID
 
 Retourne E \_ NOTIMPL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans la classe de base, la méthode retourne toujours E \_ NOTIMPL. Lorsque la méthode échoue, le frame appelle **IPropertyPage :: GetPageInfo** pour obtenir le nom du fichier d’aide et de l’identificateur de contexte. Par défaut, il s’agit de la **valeur null**. Par conséquent, pour fournir de l’aide, la classe dérivée peut substituer la méthode `Help` ou la méthode [**CBasePropertyPage :: GetPageInfo**](cbasepropertypage-getpageinfo.md) .
 
@@ -63,7 +63,7 @@ Dans la classe de base, la méthode retourne toujours E \_ NOTIMPL. Lorsque la m
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Cprop. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Cprop. h (inclure Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

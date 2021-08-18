@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9bd5ef8ea4218890c025fdebc87154ca1224d33c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e5ace74e275ae63a62306d47d50924e9c4e9a9771027e75659ef72345f69906d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118792670"
 ---
 # <a name="defb---vs"></a>defb-vs
 
@@ -29,14 +29,14 @@ Définit une valeur constante booléenne, qui doit être chargée chaque fois qu
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 -   booleanValue est une valeur booléenne, true ou false.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 L’instruction defb-vs définit une constante de nuanceur booléenne dont la valeur est chargée chaque fois qu’un nuanceur est défini sur un appareil. Celles-ci sont appelées constantes immédiates. Les constantes immédiates sont prioritaires sur les constantes définies par la méthode d’API SetVertexShaderConstantB.
 
@@ -69,6 +69,6 @@ Il existe deux façons de définir une constante booléenne dans un nuanceur.
 [signatures-vs](defi---vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

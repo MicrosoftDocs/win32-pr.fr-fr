@@ -4,12 +4,12 @@ description: En savoir plus sur les propriétés PEAP MS-CHAPv2 utilisateur. Con
 ms.assetid: af1ed6b1-712e-4b55-9ab4-b6b38f486fb1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6b2d3d48e35c300be2baf9c563c8168f5914a39
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 0d5f5218510f87def8253e3a3f5bd30978523f95e50d7e5aa1b9ede55b96d655
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104383084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118784879"
 ---
 # <a name="peap-ms-chapv2-user-properties"></a>Propriétés de l’utilisateur MS-CHAPv2 PEAP
 
@@ -57,9 +57,9 @@ Cet exemple est une instance du schéma hérité [mschapv2userpropertiesv1](msch
 [EAPHost et schéma hérité](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

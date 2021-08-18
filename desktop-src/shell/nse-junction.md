@@ -1,5 +1,5 @@
 ---
-description: La racine d’une extension d’espace de noms est normalement affichée par l’Explorateur Windows comme un dossier dans les vues d’arborescence et de dossier.
+description: la racine d’une extension d’espace de noms est normalement affichée par Windows Explorer comme un dossier dans les vues d’arborescence et de dossier.
 title: Spécification de l’emplacement d’une extension d’espace de noms
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 7617c7361c5f2ae76331c5f1b59eb845f6806395
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e20b9a1644b2272ee06ff8a792198f79ffebca8b8a971b690c1be1160830aae8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118719885"
 ---
 # <a name="specifying-a-namespace-extensions-location"></a>Spécification de l’emplacement d’une extension d’espace de noms
 
-La racine d’une extension d’espace de noms est normalement affichée par l’Explorateur Windows comme un dossier dans les vues d’arborescence et de dossier. Pour que l’Explorateur Windows affiche les fichiers et les sous-dossiers de votre extension, vous devez spécifier l’emplacement du dossier racine dans la hiérarchie d’espace de noms de l’interpréteur de commandes. Cet emplacement est désigné sous le terme de *point de jonction*.
+la racine d’une extension d’espace de noms est normalement affichée par Windows Explorer comme un dossier dans les vues d’arborescence et de dossier. pour que Windows explorateur affiche les fichiers et sous-dossiers de votre extension, vous devez spécifier l’emplacement du dossier racine dans la hiérarchie d’espace de noms de l’interpréteur de commandes. Cet emplacement est désigné sous le terme de *point de jonction*.
 
 -   [Utilisation de dossiers virtuels comme points de jonction](#using-virtual-folders-as-junction-points)
 -   [Utilisation des dossiers du système de fichiers en tant que points de jonction](#using-file-system-folders-as-junction-points)
@@ -65,7 +65,7 @@ Les extensions distantes doivent être initialisées avec [**IRemoteComputer**](
 
 ## <a name="using-file-system-folders-as-junction-points"></a>Utilisation des dossiers du système de fichiers en tant que points de jonction
 
-Il existe deux façons de définir des dossiers de système de fichiers en tant que points de jonction. L’approche la plus simple consiste à créer un dossier à l’emplacement approprié et à ajouter un point au nom du dossier, suivi du format de chaîne du CLSID de votre extension. Seul le nom du dossier sera visible dans l’Explorateur Windows. L’exemple suivant crée un point de jonction avec un nom d’affichage de mondossier.
+Il existe deux façons de définir des dossiers de système de fichiers en tant que points de jonction. L’approche la plus simple consiste à créer un dossier à l’emplacement approprié et à ajouter un point au nom du dossier, suivi du format de chaîne du CLSID de votre extension. seul le nom du dossier sera visible dans l’explorateur de Windows. L’exemple suivant crée un point de jonction avec un nom d’affichage de mondossier.
 
 
 ```
@@ -92,7 +92,7 @@ CLSID={Extension CLSID}
 
 ## <a name="opening-a-view-of-a-namespace-extension"></a>Ouverture d’une vue d’une extension d’espace de noms
 
-Quand un utilisateur accède à un point de jonction, l’Explorateur Windows crée automatiquement une vue du dossier racine. Vous pouvez également créer une vue en lançant explicitement Explorer.exe avec le CLSID de l’extension comme argument. Vous pouvez, par exemple, utiliser cette approche pour lancer une vue d’une extension à partir d’un menu contextuel ou d’un raccourci. Par exemple, pour lancer une vue de MyExtension qui comprend une arborescence, vous pouvez utiliser la chaîne de commande suivante.
+lorsqu’un utilisateur parcourt un point de jonction, Windows Explorer crée automatiquement une vue du dossier racine. Vous pouvez également créer une vue en lançant explicitement Explorer.exe avec le CLSID de l’extension comme argument. Vous pouvez, par exemple, utiliser cette approche pour lancer une vue d’une extension à partir d’un menu contextuel ou d’un raccourci. Par exemple, pour lancer une vue de MyExtension qui comprend une arborescence, vous pouvez utiliser la chaîne de commande suivante.
 
 
 ```
@@ -110,10 +110,10 @@ Une autre chaîne de commande peut être utilisée pour lancer une vue d’un ob
 
 
 
-Le paramètre *ObjectName* est le nom de l’objet qui doit être affiché. L’Explorateur Windows convertit le nom en PIDL correspondant et transmet le PIDL à la méthode [**IPersistFolder :: Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize) de l’objet du nouveau dossier.
+Le paramètre *ObjectName* est le nom de l’objet qui doit être affiché. Windows L’Explorateur convertit le nom en son PIDL correspondant et passe le PIDL à la méthode [**IPersistFolder :: Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize) de l’objet du nouveau dossier.
 
 > [!Note]  
-> La chaîne CLSID doit être précédée d’une paire de signes deux-points ( ::) Sinon, la commande échoue. L’indicateur barre oblique e (/e) utilisé dans les deux exemples de lignes de commande indiqué ci-dessus demande à l’Explorateur Windows d’afficher une arborescence. L’indicateur doit être séparé des deux signes deux-points par une virgule. Si vous ne souhaitez pas une arborescence, omettez l’indicateur/e et la virgule.
+> La chaîne CLSID doit être précédée d’une paire de signes deux-points ( ::) Sinon, la commande échoue. l’indicateur barre oblique e (/e) utilisé dans les deux exemples de lignes de commande indiqué ci-dessus demande à Windows Explorer d’afficher une arborescence. L’indicateur doit être séparé des deux signes deux-points par une virgule. Si vous ne souhaitez pas une arborescence, omettez l’indicateur/e et la virgule.
 
  
 

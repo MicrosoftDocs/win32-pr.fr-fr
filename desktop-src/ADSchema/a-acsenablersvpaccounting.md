@@ -36,7 +36,7 @@ True si la gestion des comptes RSVP est activée.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.899               |
 | System-ID-GUID    | f072230e-aef5-11d1-bdcf-0000f80367c1 |
-| Syntaxe            | [**Expression**](s-boolean.md)         |
+| Syntaxe            | [**Boolean**](s-boolean.md)         |
 
 
 
@@ -57,10 +57,10 @@ True si la gestion des comptes RSVP est activée.
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | False                                        |
-| Est de valeur unique       | True                                         |
-| Est indexé             | False                                        |
-| Dans le catalogue global      | False                                        |
+| System-Only            | Faux                                        |
+| Est de valeur unique       | Vrai                                         |
+| Est indexé             | Faux                                        |
+| Dans le catalogue global      | Faux                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -78,10 +78,10 @@ True si la gestion des comptes RSVP est activée.
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | False                                        |
-| Est de valeur unique       | True                                         |
-| Est indexé             | False                                        |
-| Dans le catalogue global      | False                                        |
+| System-Only            | Faux                                        |
+| Est de valeur unique       | Vrai                                         |
+| Est indexé             | Faux                                        |
+| Dans le catalogue global      | Faux                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -99,10 +99,10 @@ True si la gestion des comptes RSVP est activée.
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | False                                        |
-| Est de valeur unique       | True                                         |
-| Est indexé             | False                                        |
-| Dans le catalogue global      | False                                        |
+| System-Only            | Faux                                        |
+| Est de valeur unique       | Vrai                                         |
+| Est indexé             | Faux                                        |
+| Dans le catalogue global      | Faux                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -120,10 +120,10 @@ True si la gestion des comptes RSVP est activée.
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | False                                        |
-| Est de valeur unique       | True                                         |
-| Est indexé             | False                                        |
-| Dans le catalogue global      | False                                        |
+| System-Only            | Faux                                        |
+| Est de valeur unique       | Vrai                                         |
+| Est indexé             | Faux                                        |
+| Dans le catalogue global      | Faux                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -141,10 +141,10 @@ True si la gestion des comptes RSVP est activée.
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | False                                        |
-| Est de valeur unique       | True                                         |
-| Est indexé             | False                                        |
-| Dans le catalogue global      | False                                        |
+| System-Only            | Faux                                        |
+| Est de valeur unique       | Vrai                                         |
+| Est indexé             | Faux                                        |
+| Dans le catalogue global      | Faux                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -162,10 +162,10 @@ True si la gestion des comptes RSVP est activée.
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | False                                        |
-| Est de valeur unique       | True                                         |
-| Est indexé             | False                                        |
-| Dans le catalogue global      | False                                        |
+| System-Only            | Faux                                        |
+| Est de valeur unique       | Vrai                                         |
+| Est indexé             | Faux                                        |
+| Dans le catalogue global      | Faux                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |

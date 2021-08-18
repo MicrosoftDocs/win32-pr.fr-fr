@@ -4,12 +4,12 @@ ms.assetid: 254A1C0D-B24B-4014-8D15-662FC7F2AB81
 title: Utiliser la balise meta pour garantir la compatibilité future
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a69180470c60dffc772f20fe6c515ba3803cbf2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9c0cff3dab146d67303d57c97b2298614c5ae0142b18a3bd2d141fbf90e86ce8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994589"
 ---
 # <a name="use-the-meta-tag-to-ensure-future-compatibility"></a>Utiliser la balise meta pour garantir la compatibilité future
 
@@ -23,9 +23,9 @@ L’élément **meta** comprend un attribut **content** qui vous permet de spéc
 
 | Valeur | Mode de rendu                                                 |
 |-------|----------------------------------------------------------------|
-| IE = 9  | Utiliser le mode de rendu des normes Windows Internet Explorer 9   |
+| IE = 9  | utiliser le mode de rendu des normes d’Internet Explorer 9 Windows   |
 | IE = 8  | Utiliser le mode de rendu des normes d’Internet Explorer 8           |
-| IE = 7  | Utiliser le mode de rendu des normes Windows Internet Explorer 7   |
+| IE = 7  | utiliser le mode de rendu des normes d’Internet Explorer 7 Windows   |
 | IE=5  | Utiliser le mode de rendu des normes de Microsoft Internet Explorer 5 |
 
 

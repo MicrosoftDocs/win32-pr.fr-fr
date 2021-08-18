@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 953b8ffc5f89e5a4cf9901e4cb5fb5afb4c8dfdc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 98f466ca73a826d9a12f97093c90c41cd1c753b01f25853096dd3f3219628654
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937929"
 ---
 # <a name="glrotatef-function"></a>glRotatef fonction)
 
@@ -64,7 +64,7 @@ Coordonnée *y* d’un vecteur.
 
 </dd> <dt>
 
-*z* 
+*Lettre* 
 </dt> <dd>
 
 Coordonnée *z* d’un vecteur.
@@ -87,7 +87,7 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glRotatef** calcule une matrice qui effectue une rotation dans le sens inverse des degrés d' *angle* sur le vecteur à partir de l’origine jusqu’au point (*x*, *y*, *z*).
 

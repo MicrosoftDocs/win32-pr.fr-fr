@@ -4,12 +4,12 @@ ms.assetid: cfac4094-94ee-47db-ba0d-cfb51a6d91a1
 title: System. DeviceInterface. HID. IsReadOnly
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1aa4cc3f49001cd827a88acd0a4761beeb38f30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38c2be1f6b4b152936ae54ef1135909e128059868d55776267fe939e79ef3d63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118728740"
 ---
 # <a name="systemdeviceinterfacehidisreadonly"></a>System. DeviceInterface. HID. IsReadOnly
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -6,12 +6,12 @@ keywords:
 - length_is
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f49ad63b2546d39dcc00d251f39143b7eec354c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 436559961d815adb417d83de5ffa8c06d8497fa0899644411d252c84d6e34ea0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924258"
 ---
 # <a name="the-length_is-attribute"></a>La \[ longueur \_ est \] attribute
 
@@ -34,6 +34,6 @@ interface arraytest
 
 La taille décrit l’allocation lorsque la longueur décrit la transmission. Le nombre d’éléments transmis doit toujours être inférieur ou égal au nombre d’éléments alloués. La valeur associée à **Length \_** est toujours inférieure ou égale à **size \_ is**.
 
- 
+ 
 
- 
+ 

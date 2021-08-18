@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75b6a8301ea5dab7d860e5bd7fb32c69277bad63
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e3baab16ee7c3f825f317d7aa2c585cb4d8ae7d6d030b6f59a1555b95343015
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118910542"
 ---
 # <a name="winbio_event-structure"></a>\_Structure d’événement WINBIO
 
@@ -63,10 +63,10 @@ Valeur qui spécifie le type d’avis d’événement du fournisseur de services
 
 <dl> <dt>
 
-<span id="WINBIO_EVENT_FP_UNCLAIMED"></span><span id="winbio_event_fp_unclaimed"></span>**WINBIO \_ ÉVÉNEMENT \_ FP non \_ réclamé** (le capteur a détecté un glissement Finger qui n’a pas été demandé par l’application ou par la fenêtre qui a actuellement le focus. Le Windows Biometric Framework appelle la fonction de rappel pour indiquer qu’un glissement Finger s’est produit, mais n’essaie pas d’identifier l’empreinte digitale.
+<span id="WINBIO_EVENT_FP_UNCLAIMED"></span><span id="winbio_event_fp_unclaimed"></span>**WINBIO \_ ÉVÉNEMENT \_ FP non \_ réclamé** (le capteur a détecté un glissement Finger qui n’a pas été demandé par l’application ou par la fenêtre qui a actuellement le focus. le Windows Biometric Framework appelle la fonction de rappel pour indiquer qu’un glissement finger s’est produit, mais n’essaie pas d’identifier l’empreinte digitale.
 </dt> <dt>
 
-<span id="WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY"></span><span id="winbio_event_fp_unclaimed_identify"></span>**WINBIO \_ \_ \_ \_ Identification non revendiquée du FP d’événement** (le capteur a détecté un glissement Finger qui n’a pas été demandé par l’application ou par la fenêtre qui a actuellement le focus. Le Windows Biometric Framework tente d’identifier l’empreinte digitale et transmet le résultat de ce processus à votre fonction de rappel.)
+<span id="WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY"></span><span id="winbio_event_fp_unclaimed_identify"></span>**WINBIO \_ \_ \_ \_ Identification non revendiquée du FP d’événement** (le capteur a détecté un glissement Finger qui n’a pas été demandé par l’application ou par la fenêtre qui a actuellement le focus. le Windows Biometric Framework tente d’identifier l’empreinte digitale et transmet le résultat de ce processus à votre fonction de rappel.)
 </dt> </dl> </dd> <dt>
 
 **Paramètres**
@@ -95,7 +95,7 @@ Valeur **ULong** qui contient des informations supplémentaires sur l’échec d
 -   WINBIO \_ FP \_ trop \_ faible
 -   WINBIO \_ FP \_ trop à \_ gauche
 -   WINBIO \_ FP \_ trop à \_ droite
--   WINBIO \_ FP \_ trop \_ rapide
+-   WINBIO \_ FP \_ trop \_ Fast
 -   WINBIO \_ FP \_ trop \_ lent
 -   \_ \_ qualité médiocre de WINBIO FP \_
 -   WINBIO \_ FP \_ trop \_ incliné
@@ -128,7 +128,7 @@ Structure [**d' \_ identité WINBIO**](winbio-identity.md) qui contient le GUID 
 **Sous-fait**
 </dt> <dd>
 
-Valeur de sous- [**\_ \_ type biométrique WINBIO**](winbio-biometric-subtype-constants.md) qui spécifie le sous-facteur associé à un échantillon biométrique. Le Windows Biometric Framework (WBF) prend actuellement en charge uniquement la capture d’empreintes digitales et utilise les constantes suivantes pour représenter les informations de sous-type.
+Valeur de sous- [**\_ \_ type biométrique WINBIO**](winbio-biometric-subtype-constants.md) qui spécifie le sous-facteur associé à un échantillon biométrique. le Windows Biometric Framework (WBF) prend actuellement en charge uniquement la capture d’empreintes digitales et utilise les constantes suivantes pour représenter les informations de sous-type.
 
 -   WINBIO \_ ANSI \_ 381 \_ pos \_ inconnu
 -   WINBIO \_ ANSI \_ 381 \_ pos \_ RH \_
@@ -147,7 +147,7 @@ Valeur de sous- [**\_ \_ type biométrique WINBIO**](winbio-biometric-subtype-co
 
 > [!IMPORTANT]
 >
-> N’essayez pas de valider la valeur fournie pour la valeur de sous- *fait* . Le service de biométrie Windows validera la valeur fournie avant de la passer à votre implémentation. Si la valeur est **WINBIO \_ sous-type \_ aucune \_ information** ou **WINBIO sous- \_ type \_ any**, validez le cas échéant.
+> N’essayez pas de valider la valeur fournie pour la valeur de sous- *fait* . le Service de biométrie Windows validera la valeur fournie avant de la passer à votre implémentation. Si la valeur est **WINBIO \_ sous-type \_ aucune \_ information** ou **WINBIO sous- \_ type \_ any**, validez le cas échéant.
 
  
 
@@ -162,7 +162,7 @@ Valeur **ULong** qui contient des informations supplémentaires sur l’échec d
 -   WINBIO \_ FP \_ trop \_ faible
 -   WINBIO \_ FP \_ trop à \_ gauche
 -   WINBIO \_ FP \_ trop à \_ droite
--   WINBIO \_ FP \_ trop \_ rapide
+-   WINBIO \_ FP \_ trop \_ Fast
 -   WINBIO \_ FP \_ trop \_ lent
 -   \_ \_ qualité médiocre de WINBIO FP \_
 -   WINBIO \_ FP \_ trop \_ incliné
@@ -181,13 +181,13 @@ Structure qui identifie la réussite ou l’échec de l’opération surveillée
 **ErrorCode**
 </dt> <dd>
 
-Valeur **HRESULT** qui contient \_ un ou un code d’erreur qui résulte des calculs effectués par le Windows Biometric Framework.
+valeur **HRESULT** qui contient \_ un ou un code d’erreur qui résulte des calculs effectués par le Windows Biometric Framework.
 
 </dd> </dl> </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Appelez la fonction [**WinBioRegisterEventMonitor**](/windows/desktop/api/Winbio/nf-winbio-winbioregistereventmonitor) pour inscrire une routine de rappel afin de recevoir des notifications d’événements de la Windows Biometric Framework. Le rappel est une fonction personnalisée que vous devez définir pour votre application.
+appelez la fonction [**WinBioRegisterEventMonitor**](/windows/desktop/api/Winbio/nf-winbio-winbioregistereventmonitor) pour inscrire une routine de rappel afin de recevoir des notifications d’événements de la Windows Biometric Framework. Le rappel est une fonction personnalisée que vous devez définir pour votre application.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -195,8 +195,8 @@ Appelez la fonction [**WinBioRegisterEventMonitor**](/windows/desktop/api/Winbio
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                       |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (include WinBio. h)</dt> </dl> |
 
 

@@ -1,17 +1,17 @@
 ---
 description: Cette rubrique vous aide à créer des applications mondialisables, en spécifiant des conditions préalables, en résumant les technologies et en introduisant un didacticiel de prise en main.
 ms.assetid: 80c10bc2-b7e3-4f24-8bac-826149a376c7
-title: Prise en main avec le développement Windows International
+title: Prise en main avec le développement International Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36cc77a86b652f1b713b29517b513cddc26ed801
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c346f03717b5f50c27911891daaea8aa4ed55ce199e7ca807690d2f3185d8114
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949428"
 ---
-# <a name="getting-started-with-international-windows-development"></a>Prise en main avec le développement Windows International
+# <a name="getting-started-with-international-windows-development"></a>Prise en main avec le développement International Windows
 
 Cette rubrique vous aide à créer des applications mondialisables, en spécifiant des conditions préalables, en résumant les technologies et en introduisant un didacticiel de prise en main.
 
@@ -34,21 +34,21 @@ Tenez également compte des articles les plus complets qui se trouvent dans le [
 
 ## <a name="learning-paths"></a>Parcours d’apprentissage
 
-Le chemin d’accès que vous suivez ensuite pour créer des logiciels internationaux dépend des scénarios que vous rencontrez. Les scénarios suivants sont basés sur ceux introduits dans la rubrique principale section, [internationalisation pour les applications Windows](international-support.md).
+Le chemin d’accès que vous suivez ensuite pour créer des logiciels internationaux dépend des scénarios que vous rencontrez. les scénarios suivants sont basés sur ceux introduits dans la rubrique principale section, [internationalisation pour les Applications Windows](international-support.md).
 
 -   **Créer des applications qui peuvent être déployées dans plusieurs régions dans plusieurs langues.**
 
     Le défi consiste à développer une application qui n’a pas besoin d’être réécrite pour chaque langue ou culture.
 
-    -   Lisez l’article [comprendre l’interface utilisateur multilingue (MUI)](./about-multilingual-user-interface.md).
-    -   Explorez la documentation de l' [interface utilisateur multilingue](multilingual-user-interface.md).
+    -   lisez l’article [understanding interface utilisateur multilingue (MUI)](./about-multilingual-user-interface.md).
+    -   explorez la documentation de [interface utilisateur multilingue](multilingual-user-interface.md).
     -   Prise en main de l’application [Hello MUI](#the-hello-mui-application) .
 
 -   **Prend en charge l’entrée et l’affichage de différentes langues, jeux de caractères et polices.**
 
     Votre application peut avoir besoin de prendre en charge plusieurs jeux de caractères, de prendre en charge des scripts complexes (tels que ceux utilisés pour représenter les langues hébreu, arabe, thaï et Indo-aryen), d’autoriser l’utilisateur à sélectionner des polices internationales ou d’autoriser l’utilisateur à entrer des caractères et des symboles, tels que le japonais kanji, pour d’autres langues à l’aide d’un clavier
 
-    -   Lisez les articles :
+    -   Lisez les articles :
 
         -   [Prise en charge des scripts et des polices dans Windows](https://msdn.microsoft.com/globalization/mt791278)
         -   [Langue d’entrée : claviers et IME](https://msdn.microsoft.com/globalization/mt662332)
@@ -70,7 +70,7 @@ Le chemin d’accès que vous suivez ensuite pour créer des logiciels internati
 
     Si votre application peut déterminer la langue dans laquelle le texte et l’entrée utilisateur sont écrits, elle peut afficher du contenu tel que des invites ou de l’aide dans un langage compréhensible.
 
-    -   Lisez l’article [sur l’écriture d’applications mondialisables dans Windows : services linguistiques étendus dans Windows](./using-extended-linguistic-services.md).
+    -   lisez l’article [sur l’écriture d’Applications mondialisables dans Windows : Services linguistiques étendus dans Windows](./using-extended-linguistic-services.md).
     -   Explorez la documentation des [services linguistiques étendus (ELS)](extended-linguistic-services.md).
 
 ## <a name="internationalization-technologies-in-the-sdk"></a>Technologies d’internationalisation dans le kit de développement logiciel (SDK)
@@ -79,7 +79,7 @@ La section prise en charge du développement international du kit de développem
 
 Les [services linguistiques étendus](extended-linguistic-services.md) offrent une technologie brevetée par Microsoft pour l’identification des langues et des scripts dans du texte. Votre application peut déterminer les services disponibles en fonction de la catégorie, ainsi que de la langue d’entrée et de sortie, du script et du type de contenu.
 
-Les [polices et l’affichage de texte internationaux](international-fonts-and-text-display.md) fournissent des informations sur les polices internationales, les scripts complexes et les glyphes, ainsi que le rendu parfait de la typographie sur la plateforme Windows.
+les [polices et l’affichage de texte internationaux](international-fonts-and-text-display.md) fournissent des informations sur les polices internationales, les scripts complexes et les glyphes, ainsi que le rendu parfait de la typographie sur la plateforme Windows.
 
 Le [Gestionnaire de méthode d’entrée](input-method-manager.md) est une technologie qui permet à l’application de recevoir l’entrée d’un logiciel de l’éditeur de méthode d’entrée (IME), qui à son tour autorise l’entrée de caractères et de symboles, tels que le japonais kanji, pour d’autres langues à l’aide d’un clavier standard.
 
@@ -87,11 +87,11 @@ Le [Gestionnaire de méthode d’entrée](input-method-manager.md) est une techn
 
 Une tâche courante dans le développement international commence par une application monolingue que vous devez rendre universelle. Vous devez ajouter la prise en charge de langues supplémentaires, mais d’une manière qui ne nécessite pas de réécrire le code pour chaque nouvelle langue ou culture.
 
-Cette tâche offre la possibilité de présenter un didacticiel qui vous guide tout au long de la création d’une application Hello MUI, en utilisant le modèle de ressource [MUI (Multilingual User Interface)](multilingual-user-interface.md) et le support associé fourni dans Windows.
+cette tâche offre la possibilité de présenter un didacticiel qui vous guide tout au long de la création d’une application Hello mui, en utilisant le modèle de ressource de l' [interface utilisateur multilingue (mui)](multilingual-user-interface.md) et la prise en charge associée fournie dans Windows.
 
 Ce didacticiel adopte le concept de l’application Hello World familière, en expliquant l’utilisation de l’interface MUI pour créer une application multilingue de base.
 
-Vous pouvez commencer le didacticiel sur l’interface MUI Hello [pour ajouter la prise en charge de l’interface utilisateur multilingue à une application](creating-a-multilingual-user-interface-application.md).
+vous pouvez commencer le didacticiel sur l’interface MUI Hello [pour ajouter interface utilisateur multilingue Support à une Application](creating-a-multilingual-user-interface-application.md).
 
  
 

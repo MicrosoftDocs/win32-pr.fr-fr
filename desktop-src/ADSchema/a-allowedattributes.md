@@ -58,10 +58,10 @@ Attributs qui seront autorisés à être assignés à une classe.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | False                           |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Faux                           |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -79,10 +79,10 @@ Attributs qui seront autorisés à être assignés à une classe.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | False                           |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Faux                           |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -100,10 +100,10 @@ Attributs qui seront autorisés à être assignés à une classe.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | False                           |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Faux                           |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -121,10 +121,10 @@ Attributs qui seront autorisés à être assignés à une classe.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | False                           |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Faux                           |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -142,10 +142,10 @@ Attributs qui seront autorisés à être assignés à une classe.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | False                           |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Faux                           |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -163,10 +163,10 @@ Attributs qui seront autorisés à être assignés à une classe.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | False                           |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Faux                           |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -184,10 +184,10 @@ Attributs qui seront autorisés à être assignés à une classe.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | False                           |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Faux                           |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |

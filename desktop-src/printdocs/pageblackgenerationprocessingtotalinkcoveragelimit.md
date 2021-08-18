@@ -4,12 +4,12 @@ ms.assetid: 7ccd02c2-7cec-4d9d-83c1-512f25f4045c
 title: PageBlackGenerationProcessingTotalInkCoverageLimit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68410cabdfafa5ce82450821e4ae45709ee8d4c9
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: e10b97916ec8bad8b0a977e4a92af6083aa554da4f1fd21c123226bc6c9dfb91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098893"
 ---
 # <a name="pageblackgenerationprocessingtotalinkcoveragelimit"></a>PageBlackGenerationProcessingTotalInkCoverageLimit
 
@@ -28,7 +28,7 @@ Spécifie la somme maximale autorisée des quatre couvertures d’encre n’impo
 |----------------------------|------------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                    |
 | Préfixe d’étendue <br/> | Page<br/>                                            |
-| Notes <br/>          | Lié à l’élément PageBlackGenerationProcessing<br/> |
+| Remarques <br/>          | Lié à l’élément PageBlackGenerationProcessing<br/> |
 
 
 
@@ -76,7 +76,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | 400<br/>             |
 | MinValue<br/>     | entier<br/> | 200<br/>             |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
 | Unité<br/>     | string<br/>  | pour cent<br/>         |
 

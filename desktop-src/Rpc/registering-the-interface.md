@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, inscription de l’interface
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d34a12de37b39c719de246ceb79a92d6a51fc361
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3c444a82d30848f4f01643c08f17f484d027bc7b8c8efe3f10e7f3c194aac26a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926875"
 ---
 # <a name="registering-the-interface"></a>Inscription de l’interface
 
@@ -32,11 +32,11 @@ Les programmes serveur peuvent également utiliser [**RpcServerRegisterIfEx**](/
 > [!Note]  
 > MIDL produit deux structures très similaires, une pour le client et une pour le serveur. La structure transmise à la fonction [**RpcServerRegisterIf**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterif) est la version serveur de la structure générée par MIDL.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

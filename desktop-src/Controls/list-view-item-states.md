@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8432760dd4cc7efde30700f837864ddcf04aac31
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9040272afc16f500806a3d7a90a0b062018d2f4dec8510e4abe57b24cbc75e88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958388"
 ---
 # <a name="list-view-item-states"></a>États de l’élément List-View
 
@@ -35,7 +35,7 @@ L’état d’un élément détermine son apparence et ses fonctionnalités. L�
 
 | Constante                                                                                                                                                                        | Description                                                                                                                                                          |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="LVIS_ACTIVATING"></span><span id="lvis_activating"></span><dl> <dt>**activation de LVIS \_**</dt> </dl>             | Actuellement non pris en charge.<br/>                                                                                                                                  |
+| <span id="LVIS_ACTIVATING"></span><span id="lvis_activating"></span><dl> <dt>**activation de LVIS \_**</dt> </dl>             | Non pris en charge actuellement.<br/>                                                                                                                                  |
 | <span id="LVIS_CUT"></span><span id="lvis_cut"></span><dl> <dt>**LVIS \_ couper**</dt> </dl>                                  | L’élément est marqué pour une opération couper-coller.<br/>                                                                                                         |
 | <span id="LVIS_DROPHILITED"></span><span id="lvis_drophilited"></span><dl> <dt>**LVIS \_ DROPHILITED**</dt> </dl>          | L’élément est mis en surbrillance en tant que cible de glisser-déplacer.<br/>                                                                                                        |
 | <span id="LVIS_FOCUSED"></span><span id="lvis_focused"></span><dl> <dt>**LVIS \_ concentré**</dt> </dl>                      | L’élément a le focus, donc il est entouré d’un rectangle de focus standard. Bien qu’un seul élément puisse être sélectionné, un seul élément peut avoir le focus.<br/> |
@@ -45,7 +45,7 @@ L’état d’un élément détermine son apparence et ses fonctionnalités. L�
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser le masque **Lvis \_ OVERLAYMASK** pour isoler l’index de base un de l’image de superposition. Vous pouvez utiliser le masque **Lvis \_ STATEIMAGEMASK** pour isoler l’index de base un de l’image d’État.
 

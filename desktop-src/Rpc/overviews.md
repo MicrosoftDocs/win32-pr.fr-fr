@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, décrit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ea90c08dc075fdd90ae604b0d347ba6ac5baf9a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f97c7735976428ffc4128b0c6a566ac56228921a3bf1070eda69af1579d90b99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927558"
 ---
 # <a name="overviews"></a>Vues d'ensemble
 
@@ -37,9 +37,9 @@ Cette partie du guide et de référence du programmeur d’appel de procédure d
 -   L' [équilibrage de charge RPC](rpc-load-balancing.md) décrit la distribution de grands volumes de RPC sur le trafic http entre plusieurs serveurs RPC au sein d’une batterie de serveurs.
 -   [Exemples](examples.md) contient une description des exemples de programmes RPC fournis avec le kit du développeur de logiciels de plate-forme Microsoft.
 
- 
+ 
 
- 
+ 
 
 
 

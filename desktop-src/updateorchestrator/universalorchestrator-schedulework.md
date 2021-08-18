@@ -3,12 +3,12 @@ title: IUniversalOrchestrator::ScheduleWork
 description: Appelle Universal Orchestrator pour planifier le travail
 ms.topic: reference
 ms.date: 01/14/2021
-ms.openlocfilehash: 4c49d06a28497c33e86cc1e919fdb59f2363d1f5
-ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
+ms.openlocfilehash: bb2ecc67167e0651663856354a07ec86f985c664f1d2bccff98917adf72f054d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/30/2021
-ms.locfileid: "114991816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966081"
 ---
 # <a name="iuniversalorchestratorschedulework-method"></a>IUniversalOrchestrator :: ScheduleWork, méthode
 
@@ -47,7 +47,7 @@ Paramètres à passer au binaire de rappel pour indiquer que Start est demandé.
 
 *(facultatif)* Paramètres à passer au binaire de rappel pour indiquer qu’une pause est demandée.
 
-## <a name="return-value"></a>Valeur de retour
+## <a name="return-value"></a>Valeur retournée
 Si cette méthode est réussie, elle retourne **S_OK**.  Sinon, elle retourne un code d’erreur **HRESULT** .
 
 ## <a name="requirements"></a>Configuration requise

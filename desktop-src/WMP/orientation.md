@@ -3,23 +3,23 @@ title: Orientation
 description: Orientation
 ms.assetid: 88aabf9c-0283-4b23-bd13-d305f2a8be79
 keywords:
-- Apparences mobiles du lecteur Windows Media, orientation des appareils
-- Apparences mobiles du lecteur Windows Media, orientation du périphérique
+- Lecteur Windows Media Skins mobiles, orientation des appareils
+- Lecteur Windows Media Skins mobiles, orientation du périphérique
 - orientation des appareils dans les enveloppes
 - orientation de l’appareil dans les habillages
 - apparences, orientation du périphérique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c73b997c78dc891e3976418360477455f4ef8d9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 975be1dbe44a9f31a7ff4f6e9e536da570d2adcc538c9ee538900a27d35da1c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996049"
 ---
 # <a name="orientation"></a>Orientation
 
-Certains périphériques Windows Mobile peuvent être utilisés dans différentes orientations physiques. Les orientations disponibles sont les suivantes :
+certains périphériques mobiles Windows peuvent être utilisés dans différentes orientations physiques. Les orientations disponibles sont les suivantes :
 
 -   **Portrait**. L’appareil est maintenu en mode vertical pour qu’il soit plus haut que grand.
 -   **Paysage**. L’appareil est maintenu de manière horizontale afin d’être plus grand que sa hauteur.
@@ -31,12 +31,12 @@ Chaque apparence que vous créez doit spécifier une seule orientation. Vous dev
 
 <dl> <dt>
 
-[**Fonctionnalités mobile du lecteur Windows Media**](windows-media-player-mobile-functionality.md)
+[**Lecteur Windows Media Fonctionnalités mobiles**](windows-media-player-mobile-functionality.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

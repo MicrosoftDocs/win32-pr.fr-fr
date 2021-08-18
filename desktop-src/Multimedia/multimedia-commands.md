@@ -3,19 +3,19 @@ title: Commandes multimédias
 description: Commandes multimédias
 ms.assetid: b2f152b5-c730-4bcb-a4bf-5f9d771f4e0f
 keywords:
-- Windows Multimedia, commandes
+- Windows multimédia, commandes
 - multimédia, commandes
 - Référence multimédia, commandes
 - référence pour les éléments multimédias, commandes
 - commandes multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58847bebc879a62c8482c7c79003b06d4497d105
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bbbac63cf52ad84b73c8922518ba83557687dc35bff58bc06d24be76315d57f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065249"
 ---
 # <a name="multimedia-commands"></a>Commandes multimédias
 
@@ -75,9 +75,9 @@ Les commandes suivantes sont utilisées avec le multimédia.
 [Référence multimédia](multimedia-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

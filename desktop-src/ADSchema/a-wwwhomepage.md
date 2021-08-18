@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 360240cebe5c8d02054307718de0bcaee47cec4e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1ea66bf583da5959ac0f8171c68076ed0def7f3af8813ae7a4261927494b9a0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959947"
 ---
 # <a name="www-home-page-attribute"></a>Attribut WWW-page d’hébergement
 
@@ -46,7 +46,7 @@ Page Web qui est la page d’accueil principale d’un site Web.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

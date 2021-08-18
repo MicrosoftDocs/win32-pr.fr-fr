@@ -4,12 +4,12 @@ ms.assetid: db0d899e-dbd4-40d3-98d8-4d9668c01453
 title: Inscription des dll SSP/AP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d279459b91633e0ef45e6e6d57b43489699a657
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6405dc5ddce32ad5e4d87ed44f9344240b491fdc0ea789c30d5475ac6e73aaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118919499"
 ---
 # <a name="registering-sspap-dlls"></a>Inscription des dll SSP/AP
 
@@ -17,7 +17,7 @@ Après avoir développé [](../secgloss/s-gly.md)une / bibliothèque de liens dy
 
 **HKEY \_ \_** Packages de \\  \\  \\  \\  \\ **sécurité** LSA de contrôle de système d’ordinateur local
 
-Les données de cette valeur de Registre sont une liste des noms des dll SSP/AP, sans l’extension « . dll ». Le type de données de cette liste **est \_ reg \_ multisz** , ce qui signifie qu’il doit y avoir un caractère null (« \\ 0 ») entre chaque nom de dll dans la liste.
+Les données de cette valeur de Registre sont une liste des noms des dll SSP/AP, sans l’extension « .dll ». Le type de données de cette liste **est \_ reg \_ multisz** , ce qui signifie qu’il doit y avoir un caractère null (« \\ 0 ») entre chaque nom de dll dans la liste.
 
 En règle générale, les dll SSP/AP sont stockées dans le répertoire% SystemRoot%/system32 S’il s’agit du chemin d’accès à votre DLL SSP/AP personnalisée, n’incluez pas le chemin d’accès en tant que partie du nom de la DLL. Toutefois, si la DLL se trouve dans un chemin d’accès différent, incluez le chemin d’accès complet à la DLL dans le nom.
 

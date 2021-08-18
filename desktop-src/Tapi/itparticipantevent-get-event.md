@@ -4,16 +4,16 @@ ms.assetid: 6b5e6358-2ba6-48b5-8d55-bc896fbb9962
 title: 'ITParticipantEvent :: get_Event, méthode (Confpriv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b6cbfcf709b1f9f3f49047504bf5d9e8c02b159
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2d45e8f6aab556eb1b6f5c6dc1b4b0cbadf9653e06fd77f4fb806b7ef89d7813
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118864700"
 ---
 # <a name="itparticipanteventget_event-method"></a>ITParticipantEvent :: acobtiens, \_ méthode d’événement
 
-\[en **savoir \_ plus L’événement** n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[en **savoir \_ plus l’événement** n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode d' **\_ événement obtenir** obtient un descripteur d' [**\_ événement participant**](participant-event.md) du type d’événement qui s’est produit.
 

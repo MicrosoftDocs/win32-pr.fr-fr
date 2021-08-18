@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 9f94bf4474e208d0b1d29df7a5e2939d7826ca77
-ms.sourcegitcommit: 1f917afc149b5cc449a4a25a87de311e4842734b
+ms.openlocfilehash: fd2c5900cba4a66b4f7cf94f1df362ddc0f29f3d258b972b77ad63f3fd45a5ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113689202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481980"
 ---
 # <a name="wm_pointerdown-message"></a>Message WM_POINTERDOWN
 
@@ -90,13 +90,13 @@ Utilisez les macros suivantes pour récupérer les coordonnées d’écran physi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
 Si l’application ne traite pas ce message, elle doit appeler [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > \[! Précieuse\]  
 > Quand une fenêtre perd la capture d’un pointeur et qu’elle reçoit la notification [**WM_POINTERCAPTURECHANGED**](wm-pointercapturechanged.md) , elle ne reçoit généralement pas de notifications supplémentaires. Pour cette raison, il est important de ne pas faire de suppositions basées sur des notifications égales **WM_POINTERDOWN** / [**WM_POINTERUP**](wm-pointerup.md) ou de [**WM_POINTERENTER**](wm-pointerenter.md) / [**WM_POINTERLEAVE**](wm-pointerleave.md) des notifications.
@@ -262,7 +262,7 @@ default:
 [Messages](messages.md)
 </dt> <dt>
 
-**Informations de référence**
+**Référence**
 </dt> <dt>
 
 [**Indicateurs de pointeur**](pointer-flags-contants.md)

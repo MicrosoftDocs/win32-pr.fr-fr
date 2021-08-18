@@ -4,12 +4,12 @@ ms.assetid: 65bb8822-5eb0-46a3-ab9e-c55ae466e982
 title: Récepteurs de média ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d6bcd3e6b91403185342607e8c4374eb32069c7
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 50af8530b1c2b8d9131243cafa67e841289cbbe0691cfcb499b57df68b60b141
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106531456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118744210"
 ---
 # <a name="asf-media-sinks"></a>Récepteurs de média ASF
 
@@ -20,7 +20,7 @@ Media Foundation fournit deux types de récepteurs de média ASF :
 -   Le *récepteur de fichiers ASF* est utilisé pour archiver des données de support ASF dans un fichier.
 -   Le *récepteur de streaming ASF* est utilisé pour écrire du contenu ASF dans un flux d’octets pouvant être diffusé en continu sur le réseau.
 
-Les récepteurs de média ASF contiennent un ou plusieurs récepteurs de flux, qui représentent les données à écrire pour chaque flux dans le fichier ASF de sortie. Pour l’encodage des applications qui s’exécutent sous Windows Vista, vous devez configurer manuellement la topologie d’encodage en créant et en configurant le récepteur multimédia ASF, puis en l’ajoutant à la topologie. Dans Windows 7, si vous utilisez les objets de transcodage rapide pour créer la topologie, vous n’avez pas à créer directement le récepteur multimédia et l’application n’appelle aucune méthode sur le récepteur multimédia ou sur l’un des récepteurs de flux. Les objets de transcodage rapide instancient les récepteurs multimédia requis et l’ajoutent à la topologie avant de retourner une référence à l’application appelant. Toutefois, pour les objets de transcodage rapides, certaines restrictions s’appliquent selon le type d’encodage.
+Les récepteurs de média ASF contiennent un ou plusieurs récepteurs de flux, qui représentent les données à écrire pour chaque flux dans le fichier ASF de sortie. pour l’encodage des applications qui s’exécutent sur Windows Vista, vous devez configurer manuellement la topologie d’encodage en créant et en configurant le récepteur multimédia ASF, puis en l’ajoutant à la topologie. dans Windows 7, si vous utilisez les objets de transcodage rapide pour créer la topologie, vous n’avez pas à créer directement le récepteur multimédia et l’application n’appelle aucune méthode sur le récepteur multimédia ou sur l’un des récepteurs de flux. Les objets de transcodage rapide instancient les récepteurs multimédia requis et l’ajoutent à la topologie avant de retourner une référence à l’application appelant. Toutefois, pour les objets de transcodage rapides, certaines restrictions s’appliquent selon le type d’encodage.
 
 -   [Modèle objet du récepteur multimédia ASF](#asf-media-sink-object-model)
 -   [Récepteur de fichiers ASF](#asf-file-sink)

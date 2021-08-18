@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 1de392c50f6665d793883582e2679cd502efbe37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79b9db0043e04d3ab6399677a9e103961d5f1a9b5c5214558bcf53359bedc61a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118892538"
 ---
 # <a name="disablekeyprotectors-method-of-the-win32_encryptablevolume-class"></a>Méthode DisableKeyProtectors de la \_ classe Win32 EncryptableVolume
 
@@ -69,11 +69,11 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 
 Cette méthode expose la clé de chiffrement du volume en clair sur le disque dur, ce qui désactive toute protection du volume. Nous vous recommandons de ne pas avoir de mot de passe ou de clé de chiffrement en texte clair.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 De nouveaux protecteurs de clé peuvent être ajoutés même lorsque les protecteurs de clé sont désactivés ou suspendus. Ces protecteurs de clé restent désactivés, sauf si [**EnableKeyProtectors**](enablekeyprotectors-win32-encryptablevolume.md) est appelé.
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -82,7 +82,7 @@ Les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |
 

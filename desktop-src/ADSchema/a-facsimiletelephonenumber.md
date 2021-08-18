@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2686a355aedc12a37a12a218ab623e8b02e055d2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8be5b6cbf85425b44f553fd8c79236c200f418f3079871b1ad10e2c4bd5fded2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961538"
 ---
 # <a name="facsimile-telephone-number-attribute"></a>Attribut télécopie-numéro de téléphone
 
@@ -46,7 +46,7 @@ Contient le numéro de téléphone de l’ordinateur de télécopie professionne
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

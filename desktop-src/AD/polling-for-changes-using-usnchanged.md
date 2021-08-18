@@ -8,18 +8,18 @@ keywords:
 - USNChanged AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8e062c84fae575f837f45d78be7c92e5e284c1e
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 1c665d536eb3dcb0e3265a2e3abb87808ddf630510e5d0600f6185007c72bc28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025527"
 ---
 # <a name="polling-for-changes-using-usnchanged"></a>Interrogation des modifications à l’aide de USNChanged
 
 Le contrôle DirSync est puissant et efficace, mais il présente deux limitations importantes :
 
--   Pour les applications à privilèges élevés : pour utiliser le contrôle DirSync, une application doit s’exécuter sous un compte dont le nom de l' **\_ agent de synchronisation \_ \_ se** porte sur le contrôleur de domaine. Peu de comptes sont tellement privilégiés. par conséquent, une application qui utilise le contrôle DirSync ne peut pas être exécutée par des utilisateurs ordinaires.
+-   pour les applications à privilèges élevés : pour utiliser le contrôle dirsync, une application doit s’exécuter sous un compte qui possède le privilège **SE \_ SYNC \_ AGENT \_ NAME** sur le contrôleur de domaine. Peu de comptes sont tellement privilégiés. par conséquent, une application qui utilise le contrôle DirSync ne peut pas être exécutée par des utilisateurs ordinaires.
 -   Aucune étendue de sous-arborescence : le contrôle DirSync retourne toutes les modifications qui se produisent dans un contexte d’appellation. Une application qui s’intéresse uniquement aux modifications apportées à une petite sous-arborescence d’un contexte d’appellation doit parcourir de nombreuses modifications non pertinentes, ce qui est inefficace à la fois pour l’application et pour le contrôleur de domaine.
 
 Les modifications de Active Directory peuvent également être obtenues en interrogeant l’attribut [**uSNChanged**](/windows/desktop/ADSchema/a-usnchanged) , ce qui évite les limitations du contrôle DirSync. Cette alternative n’est pas mieux que le contrôle DirSync dans tous les cas, car elle implique la transmission de tous les attributs lorsqu’un attribut change et qu’elle nécessite plus de travail du développeur de l’application pour gérer correctement certains scénarios d’échec. Il s’agit actuellement de la meilleure façon d’écrire certaines applications de suivi des modifications.
@@ -52,6 +52,6 @@ Les subtilités de l’implémentation d’une application de synchronisation [*
 
 Pour plus d’informations et pour obtenir un exemple de code qui illustre les principes de base d’une application de synchronisation USNChanged, consultez l' [exemple de code permettant de récupérer des modifications à l’aide de USNChanged](example-code-to-retrieve-changes-using-usnchanged.md).
 
- 
+ 
 
- 
+ 

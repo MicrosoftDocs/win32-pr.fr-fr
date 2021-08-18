@@ -4,12 +4,12 @@ description: MIDL prend en charge trois types de pointeurs pour s’adapter à u
 ms.assetid: 6684c252-6fbe-49ca-9967-6d4baf5dc298
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efdcc9548568c8fca24d8abb40bf0eaa8b6e7da3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9627c71b07c86ab2deb7e28bddcf6d30b1747cf7d44874620f4053383a5a948a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118923458"
 ---
 # <a name="three-pointer-types"></a>Trois types pointeur
 
@@ -35,6 +35,6 @@ En mode extensions Microsoft, les attributs de pointeur peuvent être détermin�
 
 L' **\[** attribut d’interface [**\_ par défaut du pointeur**](/windows/desktop/Midl/pointer-default) **\]** spécifie les attributs de pointeur par défaut à appliquer à un déclarateur de pointeur dans un type, un paramètre ou une déclaration de type de retour lorsque cette déclaration n’a pas d’attribut de pointeur explicite appliqué. L’attribut d’interface **\[ \_ par défaut \] du pointeur** ne s’applique pas à un pointeur de niveau supérieur non attribut d’un paramètre, qui est supposé être **\[ Ref \]**.
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: EFFECTs. currentEffectTitle
 description: L’attribut currentEffectTitle récupère le titre d’affichage de la visualisation actuelle.
 ms.assetid: a6b5417c-e2a5-42fe-b25c-58c9590bbc88
 keywords:
-- EFFECTs. currentEffectTitle Windows Media Player
+- effects. currentEffectTitle Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 348d8ae1eed421d9e5da594f34a9b10f5b439469
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a4cb48d92f7f4ad0eb801c90e46ad20f04a639b20550a1dbf910e93347e2429
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996739"
 ---
 # <a name="effectscurrenteffecttitle"></a>EFFECTs. currentEffectTitle
 

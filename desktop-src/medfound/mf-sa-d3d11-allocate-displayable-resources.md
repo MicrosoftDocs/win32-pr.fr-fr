@@ -3,12 +3,12 @@ description: Spécifie si l’allocateur d’exemple de la MFT (SA) doit allouer
 title: MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES (Mftransform.h)
 ms.topic: reference
 ms.date: 03/31/2018
-ms.openlocfilehash: fedcfbe98344dd9b424c1a8ce90e847e98f1af51
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: b039eff2c46281dcad4754d73f05ecd982f7fe3e75ed1aa9c8b576fe573f921c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110548704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102599"
 ---
 # <a name="mf_sa_d3d_allocate_displayable_resources-attribute"></a>\_Attribut des \_ \_ \_ ressources affichables \_ de l’allocation de la sa D3D MF
 
@@ -20,7 +20,7 @@ Spécifie si l’allocateur d’exemple de la MFT (SA) doit allouer la texture D
 
 ## <a name="remarks"></a>Remarques
 
-Cet attribut est disponible en vedette avec Windows 10 Build 20348. 
+cet attribut est disponible en vedette avec Windows 10 build 20348. 
 
 > [!NOTE]
 > Le champ membre **D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE** de l’énumération [D3D11_RESOURCE_MISC_FLAG](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) sera disponible dans une version ultérieure du kit de développement logiciel (SDK).
@@ -126,13 +126,13 @@ private:
 }; 
 ```
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 10 Build 20348<br/>                                    |
+| Client minimal pris en charge<br/> | Windows 10 build 20348<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

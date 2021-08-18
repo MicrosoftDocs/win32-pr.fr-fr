@@ -5,12 +5,12 @@ title: Protocoles dans TLS/SSL (SSP Schannel)
 ms.topic: article
 ms.date: 01/20/2021
 ms.custom: contperf-fy21q3
-ms.openlocfilehash: 0aa3c3900a422a1460a2163043fb736e590ca2fe
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: a03264a40ab6d632165fe4cf75aa0dfd7ee85ac0474ef391c36a2b1980010422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118920657"
 ---
 # <a name="protocols-in-tlsssl-schannel-ssp"></a>Protocoles dans TLS/SSL (SSP Schannel)
 
@@ -30,7 +30,7 @@ Le tableau suivant indique la prise en charge par le fournisseur Microsoft Schan
 | Windows 7/Windows Server 2008 R2                      | activé        | activé        | Désactivé       | Désactivé       | Désactivé       | Désactivé       | Non pris en charge  | Non pris en charge  |
 | Windows 8/Windows Server 2012                         | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  |
 | Windows 8.1/Windows Server 2012 R2                    | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  |
-| Windows 10, version 1507                              | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  |
+| Windows 10, version 1507                              | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  |
 | Windows 10, version 1511                              | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  |
 | Windows 10, version 1607/Windows Server 2016 Standard | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  |
 | Windows 10 version 1703                              | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  |
@@ -58,7 +58,7 @@ La liste suivante répertorie la prise en charge par le fournisseur Microsoft Sc
 | Windows 7/Windows Server 2008 R2                      | activé         | activé         | Non pris en charge   | Non pris en charge   |
 | Windows 8/Windows Server 2012                         | activé         | activé         | Non pris en charge   | Non pris en charge   |
 | Windows 8.1/Windows Server 2012 R2                    | activé         | activé         | Non pris en charge   | Non pris en charge   |
-| Windows 10, version 1507                              | activé         | activé         | Non pris en charge   | Non pris en charge   |
+| Windows 10, version 1507                              | activé         | activé         | Non pris en charge   | Non pris en charge   |
 | Windows 10, version 1511                              | activé         | activé         | Non pris en charge   | Non pris en charge   |
 | Windows 10, version 1607/Windows Server 2016 Standard | activé         | activé         | activé         | activé         |
 | Windows 10 version 1703                              | activé         | activé         | activé         | activé         |
@@ -83,7 +83,7 @@ La liste suivante répertorie la prise en charge par le fournisseur Microsoft Sc
 | Windows 7/Windows Server 2008 R2                      | Non pris en charge | Désactivé      | activé       | activé     | activé     |
 | Windows 8/Windows Server 2012                         | Non pris en charge | Désactivé      | Désactivé      | activé     | activé     |
 | Windows 8.1/Windows Server 2012 R2                    | Non pris en charge | Désactivé      | Désactivé      | activé     | activé     |
-| Windows 10, version 1507                              | Non pris en charge | Désactivé      | Désactivé      | activé     | activé     |
+| Windows 10, version 1507                              | Non pris en charge | Désactivé      | Désactivé      | activé     | activé     |
 | Windows 10, version 1511                              | Non pris en charge | Désactivé      | Désactivé      | activé     | activé     |
 | Windows 10, version 1607/Windows Server 2016 Standard | Non pris en charge | Non pris en charge | Non pris en charge | Désactivé    | Désactivé    |
 | Windows 10 version 1703                              | Non pris en charge | Non pris en charge | Non pris en charge | Désactivé    | Désactivé    |

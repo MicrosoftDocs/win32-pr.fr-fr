@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8f84d987d57b1d825fac54e6a7de41b0154952e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d650c15a861cdf55af07fba6d47fb416d61a56d399b855efc461cddd2f628edf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027057"
 ---
 # <a name="wmmediaclassprimaryid"></a>WM/MediaClassPrimaryID
 
@@ -31,7 +31,7 @@ L’attribut **WM/MediaClassPrimaryID** contient le GUID de la classe de média 
 
 **\_GUID du type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut doit être défini sur l’une des valeurs du tableau suivant.
 
@@ -46,7 +46,7 @@ Cet attribut doit être défini sur l’une des valeurs du tableau suivant.
 
 
 
- 
+ 
 
 Lorsque vous spécifiez un identificateur de classe primaire, vous devez également définir un identificateur de classe secondaire pour clarifier le type de contenu dans le fichier.
 
@@ -60,9 +60,9 @@ Lorsque vous spécifiez un identificateur de classe primaire, vous devez égalem
 [**WM/MediaClassSecondaryID**](wm-mediasecondaryid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0ac06bfb85e8ebbf10306da43cb44c7e3b3e862a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: edecfc68e243066ca8e0cda4df43d6ca9a654e04b538c9352c2d90624d5682ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106512096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972368"
 ---
 # <a name="getvolumeoperation-class"></a>GetVolumeOperation, classe
 
