@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f749bcd41d299e422399043b43c6ca2d8163dbee
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0cff534019d370f5a090854b5cc02ef0b7d29eb6927c410c5c9220cb113bdf4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704709"
 ---
 # <a name="nismapentry-attribute"></a>attribut nisMapEntry
 
@@ -42,7 +42,7 @@ Contient une entrée de mappage pour une carte non standard.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

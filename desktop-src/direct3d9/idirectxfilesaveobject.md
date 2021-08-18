@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dxof.lib
 - d3dxof.dll
-ms.openlocfilehash: 4be69b10037381d4b06466d52483427b6d40499a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7274ca544d7164400fc528fdec6f9640647126989637aa75929a3a9ae1cb72ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106520317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846899"
 ---
 # <a name="idirectxfilesaveobject-interface"></a>Interface IDirectXFileSaveObject
 
@@ -47,7 +47,7 @@ L’interface **IDirectXFileSaveObject** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’identificateur global unique (GUID) de l’interface IDirectXFileSaveObject est **IID \_ IDirectXFileSaveObject**.
 

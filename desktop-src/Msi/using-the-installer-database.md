@@ -4,12 +4,12 @@ ms.assetid: 058cefcd-83dd-4a13-bd55-11d52f9d41f5
 title: Utilisation de la base de données du programme d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb22b9c66547c849b4c9cbd012e78b22d9301756
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dec91d8982a8ddac47c96303f03a33e4c85cafa70c3ef480c660df42e72f8a84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106545818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996059"
 ---
 # <a name="using-the-installer-database"></a>Utilisation de la base de données du programme d’installation
 
@@ -31,7 +31,7 @@ Les sections suivantes décrivent l’utilisation [de la base de données du pro
 -   [Importation et exportation](importing-and-exporting.md)
 -   [Fusion de bases de données](merging-databases.md)
 -   [Attribution d’un nom aux tables, propriétés et actions personnalisées](naming-custom-tables-properties-and-actions.md)
--   [Limitations OLE sur les flux](ole-limitations-on-streams.md)
+-   [Limitations OLE sur les Flux](ole-limitations-on-streams.md)
 -   [Utilisation des requêtes](working-with-queries.md)
 -   [Ajout de données binaires à une table à l’aide de SQL](adding-binary-data-to-a-table-using-sql.md)
 -   [Utilisation des enregistrements](working-with-records.md)

@@ -4,17 +4,17 @@ ms.assetid: 050f1264-8fbe-4322-970c-184275d5b219
 title: Zoom, méthode
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2625e6c4facf006a0d904e49068853720e20c29e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb0c260e5a5404b65f4e0d0595a87ee78103c5acccedd32abf50fc5706c6b42f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104485640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632698"
 ---
 # <a name="zoom-method"></a>Zoom, méthode
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -53,7 +53,7 @@ Spécifie le facteur d’agrandissement appliqué à la valeur de zoom actuelle 
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nouveau facteur de zoom reste en vigueur jusqu’à ce qu’il soit rétabli à sa taille d’origine ou qu’il soit de nouveau modifié. En d’autres termes, deux appels à cette méthode spécifiant un *iZoomRatio* de deux entraînent un ratio de zoom quatre fois supérieur à la taille vidéo d’origine. Si l’utilisateur tente d’effectuer un zoom au-delà de ce que le matériel peut prendre en charge, cette méthode fonctionnera, mais ne fera rien.
 

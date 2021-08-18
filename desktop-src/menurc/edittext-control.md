@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 511cff6791703b30ec975625e0cd5cb044f4f492
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7b287f01b89aaa3e378309e8f98f777acc475bcca962557305021aaf471926ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847389"
 ---
 # <a name="edittext-control"></a>EDITTEXT, contrôle
 
@@ -55,6 +55,6 @@ EDITTEXT  3, 10, 10, 100, 10
 [Contrôles d’édition](../controls/about-edit-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

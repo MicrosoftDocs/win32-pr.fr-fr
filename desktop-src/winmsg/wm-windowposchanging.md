@@ -4,12 +4,12 @@ ms.assetid: 45ecd966-5222-4738-9e99-8a6edbdd435a
 title: Message WM_WINDOWPOSCHANGING (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 015a31aac31d38506d1798f83c8dd7f9aa646f85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68f10abcb0692374209c2070a465df7c4a5f18672eebf376378d6fb16cbca537
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771939"
 ---
 # <a name="wm_windowposchanging-message"></a>\_Message WM WINDOWPOSCHANGING
 
@@ -48,7 +48,7 @@ Type : **LRESULT**
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour une fenêtre avec le [**style \_ WS Overlapped**](window-styles.md) ou **WS \_ THICKFRAME** , la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) envoie le message [**WM \_ GETMINMAXINFO**](wm-getminmaxinfo.md) à la fenêtre. Cela permet de valider la nouvelle taille et la position de la fenêtre et d’appliquer les styles du client [cs \_ BYTEALIGNCLIENT](about-window-classes.md) et CS \_ BYTEALIGNWINDOW. Si vous ne transmettez pas le message **WM \_ WINDOWPOSCHANGING** à la fonction **DefWindowProc** , une application peut remplacer ces valeurs par défaut.
 

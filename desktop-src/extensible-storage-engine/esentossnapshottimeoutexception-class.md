@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5ee86c466c827211072f8345f05af2c1df5bf721
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b01b85c9b74dcd95bb6317e89011cf07bd3054a5d0192a52e208fbf5fd0d91c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119835999"
 ---
 # <a name="esentossnapshottimeoutexception-class"></a>EsentOSSnapshotTimeOutException, classe
 

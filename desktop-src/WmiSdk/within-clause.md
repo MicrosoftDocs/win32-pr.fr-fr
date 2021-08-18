@@ -5,18 +5,18 @@ ms.tgt_platform: multiple
 title: Clause WITHIN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73d863e2e71d52fe60aeed7697feeb1231164c05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ee35350a52ef6af1aa22aacf775d22b3c7629fb479967a74aed1408aa5e1f39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757599"
 ---
 # <a name="within-clause"></a>Clause WITHIN
 
 Les consommateurs d’événements utilisent la clause WITHIN dans des requêtes d’événements pour spécifier une fréquence d' *interrogation* ou un *intervalle de regroupement*.
 
-L’intervalle d’interrogation est l’intervalle que Windows Management Instrumentation (WMI) utilise pour interroger le fournisseur de données responsable de la classe pour les [événements intrinsèques](determining-the-type-of-event-to-receive.md)dont l’événement interrogé est membre. Cet intervalle est la durée maximale qui peut s'écouler avant que la notification d'un événement soit transmise. Un consommateur utilise un intervalle d’interrogation dans une clause WITHIN lorsque le consommateur requiert la notification des modifications apportées à une classe et qu’un fournisseur d’événements n’est pas disponible. Le consommateur s’inscrit pour un événement intrinsèque et comprend l’intervalle d’interrogation.
+l’intervalle d’interrogation est l’intervalle que Windows Management Instrumentation (WMI) utilise pour interroger le fournisseur de données responsable de la classe pour les [événements intrinsèques](determining-the-type-of-event-to-receive.md)dont l’événement interrogé est membre. Cet intervalle est la durée maximale qui peut s'écouler avant que la notification d'un événement soit transmise. Un consommateur utilise un intervalle d’interrogation dans une clause WITHIN lorsque le consommateur requiert la notification des modifications apportées à une classe et qu’un fournisseur d’événements n’est pas disponible. Le consommateur s’inscrit pour un événement intrinsèque et comprend l’intervalle d’interrogation.
 
 Pour spécifier une fréquence d’interrogation, placez la clause WITHIN immédiatement avant la clause WHERE, comme indiqué ci-dessous :
 

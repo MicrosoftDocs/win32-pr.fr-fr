@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 055957bf2774fc1e5c2e1f0149b00ece7b0a1bea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c750e81a3e41450e8cd32f37ccab6fee2f08439c6bc8fc8ae18bf0e4f106b551
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732659"
 ---
 # <a name="swbemmethod-object"></a>Objet SWbemMethod
 
@@ -49,7 +49,7 @@ L’objet **SWbemMethod** a ces propriétés.
 |:--------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | [**Inparamètres**](swbemmethod-inparameters.md)<br/>   | Lecture seule<br/> | Objet [**SWbemObject**](swbemobject.md) dont les propriétés définissent les paramètres d’entrée pour cette méthode.<br/>              |
 | [**Nom**](swbemmethod-name.md)<br/>                   | Lecture seule<br/> | Nom de la méthode.<br/>                                                                                                     |
-| [**Origine**](swbemmethod-origin.md)<br/>               | Lecture seule<br/> | Classe d’origine de la méthode.<br/>                                                                                        |
+| [**Lancé**](swbemmethod-origin.md)<br/>               | Lecture seule<br/> | Classe d’origine de la méthode.<br/>                                                                                        |
 | [**Paramètres de paramètres**](swbemmethod-outparameters.md)<br/> | Lecture seule<br/> | Objet [**SWbemObject**](swbemobject.md) dont les propriétés définissent les paramètres de sortie et le type de retour de cette méthode.<br/> |
 | [**Qualificateurs\_**](swbemmethod-qualifiers-.md)<br/>    | Lecture seule<br/> | Objet [**SWbemQualifierSet**](swbemqualifierset.md) qui contient les qualificateurs de cette méthode.<br/>                  |
 

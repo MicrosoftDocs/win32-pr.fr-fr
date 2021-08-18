@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 8a4d16e0301a4ffc81d245f8c7202e61bb30ba4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ced7f84429348446d2420d6f65137f322c4b9916843ede03eb1cee7dfd61a924
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977109"
 ---
 # <a name="apiretrievecolumnasuint32-method"></a>API. RetrieveColumnAsUInt32, méthode
 

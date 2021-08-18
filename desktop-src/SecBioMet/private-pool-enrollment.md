@@ -4,12 +4,12 @@ description: Contient le projet de console d’inscription.
 ms.assetid: 666CD6FF-A6A2-4992-81EB-F520C8FE5D95
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 418b601653b16aba60efdd747f7e5f26150e9d56
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9a3c4ae86ac04190f1bf8e6fde8bf57b4fc0d0208ad4a03bafaf0de2a8f4502a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977059"
 ---
 # <a name="private-pool-enrollment"></a>Inscription du pool privé
 
@@ -21,7 +21,7 @@ Les sections suivantes contiennent le code nécessaire à l’inscription du poo
 
 ## <a name="targetverh"></a>Targetver. h
 
-Cet exemple a été créé pour les systèmes d’exploitation Windows 7 et versions ultérieures.
+cet exemple a été créé pour les systèmes d’exploitation Windows 7 et versions ultérieures.
 
 
 ```C++
@@ -472,9 +472,9 @@ static void displayIdentity(
 
 
 
- 
+ 
 
- 
+ 
 
 
 

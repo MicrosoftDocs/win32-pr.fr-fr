@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6090d3044be134035edb5f1f42a9790859d0301d
-ms.sourcegitcommit: 243954e695c6ab5372b2935b095c3cd0b1202e16
+ms.openlocfilehash: 2133a3f590c46c9e27b518d7621c158b86895961acb07670f6603e03513d1cc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "103940735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014977"
 ---
 # <a name="add-iplisten"></a>add iplisten
 
@@ -39,7 +39,7 @@ Spécifie l’adresse IPv4 ou IPv6 à ajouter à la liste d’écoutes IP.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ajoute une nouvelle adresse IP à la liste d’écoutes IP. Le numéro de port n’est pas inclus. La liste d’écoutes IP est utilisée pour définir l’étendue de la liste des adresses auxquelles le service HTTP est lié. « 0.0.0.0 » signifie toute adresse IPv4, tandis que « :: » signifie toute adresse IPv6.
 
@@ -53,9 +53,9 @@ Ajoute une nouvelle adresse IP à la liste d’écoutes IP. Le numéro de port n
 
 **add iplisten ipaddress=::**
 
- 
+ 
 
- 
+ 
 
 
 

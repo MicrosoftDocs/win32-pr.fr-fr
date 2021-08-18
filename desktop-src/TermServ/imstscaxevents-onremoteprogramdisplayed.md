@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 584e54c487ec24a3c165fdd5eb8e22f243e07f23
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df50f9a536b367b203f395d9c856562b8967d8a5830704a2e9bbb4c69152f202
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058817"
 ---
 # <a name="imstscaxeventsonremoteprogramdisplayed-method"></a>IMsTscAxEvents :: OnRemoteProgramDisplayed, méthode
 
@@ -84,7 +84,7 @@ Le nombre de RemoteApp est passé à zéro.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Implémentez cette méthode dans votre récepteur d’événements pour recevoir une notification indiquant qu’un RemoteApp a été affiché.
 

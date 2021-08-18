@@ -1,5 +1,5 @@
 ---
-description: L’interface IDxtCompositor définit les propriétés de la transition du compositeur. Cette interface est utilisée en interne par les services de modification DirectShow (DES) lors du rendu de la transition de compositeur.
+description: L’interface IDxtCompositor définit les propriétés de la transition du compositeur. cette interface est utilisée en interne par DirectShow Services de modification (DES) lors du rendu de la transition de compositeur.
 ms.assetid: 519f1e00-4b67-4014-906b-043f2478baa7
 title: Interface IDxtCompositor (qedit. h)
 ms.topic: reference
@@ -14,23 +14,23 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: c2e19f555fe01cbec3763bc1dc76d11aeb5f5ecb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dd59f62a4382ae6023a18792ce3547f67b49c9e8ae49e9de7c9c8409bccd788d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997692"
 ---
 # <a name="idxtcompositor-interface"></a>Interface IDxtCompositor
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
 L' `IDxtCompositor` interface définit les propriétés de la transition du [compositeur](compositor-transition.md) .
 
-Cette interface est utilisée en interne par les services de modification DirectShow (DES) lors du rendu de la transition de compositeur. Les applications DES n’ont pas besoin d’utiliser cette interface. Pour définir les propriétés d’une transition dans DES, utilisez l’interface [**IPropertySetter**](ipropertysetter.md) .
+cette interface est utilisée en interne par DirectShow Services de modification (DES) lors du rendu de la transition de compositeur. Les applications DES n’ont pas besoin d’utiliser cette interface. Pour définir les propriétés d’une transition dans DES, utilisez l’interface [**IPropertySetter**](ipropertysetter.md) .
 
 La transition de compositeur composite une image de premier plan sur une image d’arrière-plan. Le *rectangle source* définit la section de l’image de premier plan qui est composite. Le *rectangle de destination* définit la section de l’image d’arrière-plan qui reçoit l’image de premier plan. Le diagramme suivant illustre ces rectangles.
 
@@ -71,7 +71,7 @@ L’interface **IDxtCompositor** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -79,7 +79,7 @@ L’interface **IDxtCompositor** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

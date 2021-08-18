@@ -4,12 +4,12 @@ ms.assetid: 4f0710ee-500d-49ff-bc70-923dd7afb1f7
 title: Démarrage rapide TAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0343063e83097ab43b196713db36ece9d5cbfa2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ddb08dfef88bc8f2a5d1d8f93db81a24aa3ffa89b7e9c78a83bdcdc2689b0de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002687"
 ---
 # <a name="tapi-quick-start"></a>Démarrage rapide TAPI
 
@@ -23,7 +23,7 @@ Vous trouverez ci-dessous des informations qui peuvent vous aider à commencer �
 
 ## <a name="code-samples"></a>Exemples de code
 
-La section Exemples de l’SDK Windows contient des programmes TAPI entièrement compilables en C, C++ et Visual Basic. Ces exemples peuvent vous aider à comprendre les différentes fonctions. L’emplacement exact du matériel varie selon que vous disposez d’une installation complète. Si vous avez des difficultés à les localiser, essayez de rechercher le. cpp entrant.
+la section exemples de l’SDK Windows contient des programmes TAPI entièrement compilables en C, C++ et Visual Basic. Ces exemples peuvent vous aider à comprendre les différentes fonctions. L’emplacement exact du matériel varie selon que vous disposez d’une installation complète. Si vous avez des difficultés à les localiser, essayez de rechercher le. cpp entrant.
 
 ## <a name="code-examples"></a>Exemples de code
 
@@ -71,7 +71,7 @@ Microsoft héberge un certain nombre de groupes de discussion, notamment une sp�
 
 [https://msdn.microsoft.com/newsgroups](https://www.microsoft.com/communities/newsgroups/)
 
-Dans le volet gauche, accédez à développement Windows, puis à SDK Windows et choisissez Win32. programmer’s. TAPI.
+dans le volet gauche, accédez à Windows développement, puis à SDK Windows et choisissez win32. programmer’s. tapi.
 
  
 

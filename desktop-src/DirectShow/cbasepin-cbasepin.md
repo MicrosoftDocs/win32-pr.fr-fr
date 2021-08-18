@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f11dea6bd5bc3f766e5f93a04022dab5ba6e51a5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: cbeead09843aa8bf66471caeaabbdb42ee8d97d01cdaa9a54809f35c437b52d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916899"
 ---
 # <a name="cbasepincbasepin-constructor"></a>Constructeur CBasePin. CBasePin
 
@@ -89,9 +89,9 @@ Membre de l’énumération de [**\_ direction du code confidentiel**](/windows/
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
-La section critique spécifiée par *pLock* sérialise l’état du pin, y compris son état de connexion, le choix de l’allocateur, le type de média et l’état des opérations de vidage. N’utilisez pas cette section critique pour sérialiser les opérations de diffusion en continu. Pour plus d’informations, consultez [Data Flow dans le graphique de filtre](data-flow-in-the-filter-graph.md).
+La section critique spécifiée par *pLock* sérialise l’état du pin, y compris son état de connexion, le choix de l’allocateur, le type de média et l’état des opérations de vidage. N’utilisez pas cette section critique pour sérialiser les opérations de diffusion en continu. pour plus d’informations, consultez [Flow de données dans le Graph de filtre](data-flow-in-the-filter-graph.md).
 
 Un filtre peut créer des codes confidentiels dans sa méthode de constructeur, donc à ce stade, le pointeur *pFilter* peut ne pas faire référence à un objet valide. Stockez le pointeur, mais ne le déréférencez pas dans le constructeur du pin.
 
@@ -101,7 +101,7 @@ Un filtre peut créer des codes confidentiels dans sa méthode de constructeur, 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -1,15 +1,15 @@
 ---
 description: Le contrôle Icon affiche une image statique d’une icône. L’arrière-plan de l’image est transparent.
 ms.assetid: a2d19093-73d0-4e1f-bf82-21e7334a3f34
-title: Contrôle Icon (Windows Installer)
+title: contrôle Icon (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a9bf90697ff3a839c1953918179fb8cf41f2809
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ce6d1dca9e6664018a0c7a36c9b44f3b5a0b6310bc8c6d18309b73649fa9240
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996709"
 ---
 # <a name="icon-control"></a>Contrôle Icon
 
@@ -34,7 +34,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce contrôle peut être créé à partir de la classe statique à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les styles d' **\_ icône SS**, **SS \_ CENTERIMAGE**, **WS \_ Child** et **WS \_ Group** .
 

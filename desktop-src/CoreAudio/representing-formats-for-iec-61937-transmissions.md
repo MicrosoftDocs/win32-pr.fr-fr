@@ -4,12 +4,12 @@ ms.assetid: 86f3396c-b32a-4d70-9f21-e38a745f78bf
 title: Représentation des formats des transmissions IEC 61937
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0a607770a388a11978d0e4666b5046506b6698c
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: f0de8fb8910ee3534d8878cdab2c35a01f17115de477ba30ea821e89ae11b8b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018287"
 ---
 # <a name="representing-formats-for-iec-61937-transmissions"></a>Représentation des formats des transmissions IEC 61937
 
@@ -21,13 +21,13 @@ Pour représenter un flux audio encodé à transmettre sur une interface compati
 
 -   Caractéristiques d’un flux audio décodé sur l’appareil cible.
 
-Dans Windows Vista et les systèmes d’exploitation Windows antérieurs, une application peut déduire le niveau de qualité d’un format audio à partir du nombre de canaux, de la taille de l’échantillon et du débit de données d’un flux audio qui utilise le format. Pour un format PCM, ces informations sont disponibles à partir des membres **nChannels**, **nSamplesPerSec** et **nAvgBytesPerSec** de la structure **WAVEFORMATEX** qui spécifie le format. Pour un format non-PCM, ces trois membres ont été commandeered pour stocker des informations sur les données compressées dans le flux audio. Par conséquent, la structure **WAVEFORMATEX** ne dispose pas d’informations sur le nombre effectif de canaux, la taille de l’échantillon et le débit de données du flux audio non-PCM après la décompression et la lecture du flux. En fonction des informations contenues dans cette structure, un utilisateur ou une application peut avoir des difficultés à déduire le niveau de qualité du flux non-PCM.
+dans Windows Vista et les systèmes d’exploitation Windows antérieurs, une application peut déduire le niveau de qualité d’un format audio à partir du nombre de canaux, de la taille de l’échantillon et du débit de données d’un flux audio qui utilise le format. Pour un format PCM, ces informations sont disponibles à partir des membres **nChannels**, **nSamplesPerSec** et **nAvgBytesPerSec** de la structure **WAVEFORMATEX** qui spécifie le format. Pour un format non-PCM, ces trois membres ont été commandeered pour stocker des informations sur les données compressées dans le flux audio. Par conséquent, la structure **WAVEFORMATEX** ne dispose pas d’informations sur le nombre effectif de canaux, la taille de l’échantillon et le débit de données du flux audio non-PCM après la décompression et la lecture du flux. En fonction des informations contenues dans cette structure, un utilisateur ou une application peut avoir des difficultés à déduire le niveau de qualité du flux non-PCM.
 
 **WAVEFORMATEX** a été étendu à la structure **WAVEFORMATEXTENSIBLE** pour fournir les caractéristiques de flux supplémentaires. Toutefois, cette structure ne convient pas non plus à la description du flux des transmissions IEC 61937, car elle a été conçue pour représenter un ensemble unique de caractéristiques et utilisée pour les données PCM multicanaux non compressées.
 
-Dans Windows 7, le système d’exploitation résout ce problème en fournissant la prise en charge d’une nouvelle structure, **WAVEFORMATEXTENSIBLE \_ IEC61937** qui étend **WAVEFORMATEXTENSIBLE** structure pour stocker deux jeux de caractéristiques de flux audio : le format audio encodé avant la transmission et les caractéristiques du flux audio après qu’il a été décodé. La nouvelle structure spécifie explicitement le nombre effectif de canaux, la taille de l’échantillon et le débit de données d’un format non-PCM. Avec ces informations, une application peut déduire le niveau de qualité du flux non-PCM après sa décompression et sa lecture.
+dans Windows 7, le système d’exploitation résout ce problème en fournissant la prise en charge d’une nouvelle structure, **WAVEFORMATEXTENSIBLE \_ IEC61937** qui étend **WAVEFORMATEXTENSIBLE** structure pour stocker deux jeux de caractéristiques de flux audio : le format audio encodé avant la transmission et les caractéristiques du flux audio après qu’il a été décodé. La nouvelle structure spécifie explicitement le nombre effectif de canaux, la taille de l’échantillon et le débit de données d’un format non-PCM. Avec ces informations, une application peut déduire le niveau de qualité du flux non-PCM après sa décompression et sa lecture.
 
-La structure **WAVEFORMATEXTENSIBLE \_ IEC61937** est déclarée dans l’en-tête KsMedia. h inclus dans le kit de développement logiciel (SDK) Windows 7. Le membre **FormatExt** est la structure **WAVEFORMATEXTENSIBLE** qui stocke les caractéristiques du flux à transmettre. Le membre de **format** de la structure **WAVEFORMATEXTENSIBLE** est la structure **WAVEFORMATEX** . Le contenu de ce **WAVEFORMATEX** et **WAVEFORMATEXTENSIBLE** indique à une application si la structure peut être interprétée comme une structure **\_ IEC61937 WAVEFORMATEXTENSIBLE** . Pour une structure **WAVEFORMATEXTENSIBLE \_ IEC61937** :
+la structure **WAVEFORMATEXTENSIBLE \_ IEC61937** est déclarée dans l’en-tête KsMedia. h inclus dans le kit de développement logiciel (SDK) Windows 7. Le membre **FormatExt** est la structure **WAVEFORMATEXTENSIBLE** qui stocke les caractéristiques du flux à transmettre. Le membre de **format** de la structure **WAVEFORMATEXTENSIBLE** est la structure **WAVEFORMATEX** . Le contenu de ce **WAVEFORMATEX** et **WAVEFORMATEXTENSIBLE** indique à une application si la structure peut être interprétée comme une structure **\_ IEC61937 WAVEFORMATEXTENSIBLE** . Pour une structure **WAVEFORMATEXTENSIBLE \_ IEC61937** :
 
 -   Le membre **wFormatTag** de **WAVEFORMATEX** doit contenir le \_ format Wave \_ extensible ( `FormatExt.Format.wFormatTag = WAVE_FORMAT_EXTENSIBLE` ).
 
@@ -39,7 +39,7 @@ Les membres **dwEncodedSamplesPerSec**, **dwEncodedChannelCount** et **dwAverage
 
 ## <a name="subformat-guids"></a>GUID de sous-format
 
-Dans Windows 7, l’en-tête KsMedia. h contient les définitions des GUID de sous-format pour les formats audio compressés définis par CEA-861-D. Les GUID sont spécifiés dans le membre de sous-format du **WAVEFORMATEXTENSIBLE**, spécifié dans le membre **FormatExt** de la structure **\_ IEC61937 WAVEFORMATEXTENSIBLE** ( `WAVEFORMATEXTENSIBLE_IEC61937.FormatExt.Subformat` ).
+dans Windows 7, l’en-tête KsMedia. h contient les définitions des guid de sous-format pour les formats audio compressés définis par CEA-861-D. Les GUID sont spécifiés dans le membre de sous-format du **WAVEFORMATEXTENSIBLE**, spécifié dans le membre **FormatExt** de la structure **\_ IEC61937 WAVEFORMATEXTENSIBLE** ( `WAVEFORMATEXTENSIBLE_IEC61937.FormatExt.Subformat` ).
 
 Les GUID pour les formats audio compressés disponibles en tant que formats audio conformes aux normes IEC 61937 standard sont répertoriés dans le tableau suivant. Ces formats sont similaires aux représentations existantes du codage actif 3 (AC-3) et des formats de sons Digital Theater (DTS) dans Windows.
 
@@ -76,13 +76,13 @@ Les GUID pour les formats audio compressés transmis dans des exemples de paquet
 | 0x0c         | 0000000c-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ Dolby \_ MLP<br/>   | Dolby MAT 1,0 :<br/> Dolby TrueHD (MLP – méridien Lossless compression) – 24 bits 192KHz/jusqu’à 18 Mbits/s, 8 canaux) <br/> |
 | 0x0c         | 0000010c-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ Dolby \_ MAT20<br/> | Dolby MAT 2,0 : <br/> Dolby TrueHD – 24 bits 192KHz/jusqu’à 18 Mbits/s, 8 canaux ou LPCM jusqu’à 24 Mbits/s. <br/>           |
 | 0x0c         | 0000030c-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ Dolby \_ MAT21<br/> | Dolby MAT 2,1 : <br/> Dolby TrueHD – 24 bits 192KHz/jusqu’à 18 Mbits/s, 8 canaux ou LPCM jusqu’à 24 Mbits/s. <br/>           |
-| 0x0E         | 00000164-0000-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ WMA \_ Pro<br/>     | Windows Media Audio (WMA) Pro                                                                                                   |
+| 0x0E         | 00000164-0000-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ WMA \_ Pro<br/>     | Windows Pro Media audio (WMA)                                                                                                   |
 
 
 
  
 
-Le pilote de classe audio HD fourni par Microsoft prend en charge les formats PCM, AC3, DTS, AAC, Dolby Digital plus, WMA Pro, MAT (MLP). Les GUID pour les formats audio compressés qui ne sont pas pris en charge par le pilote de classe HD Audio et peuvent être implémentés par des solutions tierces sont répertoriés dans le tableau suivant.
+le pilote de classe Audio HD fourni par Microsoft prend en charge les formats PCM, AC3, DTS, AAC, Dolby Digital Plus, WMA Pro, MAT (MLP). Les GUID pour les formats audio compressés qui ne sont pas pris en charge par le pilote de classe HD Audio et peuvent être implémentés par des solutions tierces sont répertoriés dans le tableau suivant.
 
 
 
@@ -205,7 +205,7 @@ wfext.dwAverageBytesPerSec = 0;                             // Ignored for this 
 
 ## <a name="wma-pro"></a>WMA Pro
 
-Le contenu audio WMA Pro peut être encodé dans l’un des quatre profils listés dans le tableau suivant.
+WMA Pro le contenu audio peut être encodé dans l’un des quatre profils listés dans le tableau suivant.
 
 
 
@@ -222,7 +222,7 @@ Le contenu audio WMA Pro peut être encodé dans l’un des quatre profils list�
 
 Les profils M0 et M1 s’intègrent à un flux IEC 60958 48 KHz/16 bits/stéréo (1536000 BPS). Les profils m2 et M3 s’intègrent à un flux IEC 60958 96 KHz/16 bits/stéréo (3072000 BPS).
 
-Les valeurs définies par une application dans la \_ structure IEC61937 WAVEFORMATEXTENSIBLE pour représenter WMA Pro en tant que profil m2 sont indiquées dans l’exemple suivant.
+les valeurs définies par une application dans la \_ structure IEC61937 WAVEFORMATEXTENSIBLE pour représenter les Pro WMA en tant que profil M2 sont indiquées dans l’exemple suivant.
 
 
 ```C++

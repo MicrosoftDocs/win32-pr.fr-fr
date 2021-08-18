@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 26ca7559488182f2d687d5c678639e108792f413
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a13415d8174a48e7e9f33d1459ca9a0a07271421101e65236f8f03263ea2a898
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849659"
 ---
 # <a name="jetregistercallback-function"></a>Fonction JetRegisterCallback
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetregistercallback-function"></a>Fonction JetRegisterCallback
 
 La fonction **JetRegisterCallback** permet à l’application de configurer le moteur de base de données pour émettre des notifications à l’application pour des événements spécifiques. Ces notifications sont associées à une table spécifique et restent effectives uniquement jusqu’à ce que l’instance contenant la table soit arrêtée à l’aide de [JetTerm](./jetterm-function.md).
 
-**Windows XP : JetRegisterCallback** est introduit dans Windows XP.
+**Windows xp : JetRegisterCallback** est introduit dans Windows xp.
 
 ```cpp
     JET_ERR JET_API JetRegisterCallback(
@@ -77,7 +77,7 @@ Retourne un handle qui peut être utilisé ultérieurement pour annuler l’insc
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -101,7 +101,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </tr>
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données. Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
+<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données. cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidParameter</p></td>
@@ -122,7 +122,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </tr>
 <tr class="odd">
 <td><p>JET_errSessionSharingViolation</p></td>
-<td><p>La même session ne peut pas être utilisée simultanément pour plusieurs threads. Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
+<td><p>La même session ne peut pas être utilisée simultanément pour plusieurs threads. cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errTermInProgress</p></td>
@@ -136,7 +136,7 @@ En cas de réussite, le rappel spécifié sera inscrit pour les raisons de rappe
 
 En cas d’échec, le rappel n’est pas inscrit. Aucune modification de l’état de la base de données ne se produit.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Cette méthode permet à l’application d’associer des rappels volatiles à une table dans une base de données. Si l’application souhaite associer les rappels rendus persistants à une table dans la base de données, elle doit passer le rappel à [JET_TABLECREATE](./jet-tablecreate-structure.md) à l’aide de [JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md).
 
@@ -150,11 +150,11 @@ Cette méthode permet à l’application d’associer des rappels volatiles à u
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
+<td><p>requiert Windows Vista ou Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
+<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

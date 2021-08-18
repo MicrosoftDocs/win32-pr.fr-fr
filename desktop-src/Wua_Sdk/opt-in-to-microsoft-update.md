@@ -4,27 +4,27 @@ ms.assetid: d6f3d8ca-3b7e-409c-87b6-db247b7b68e4
 title: Opt-In à Microsoft Update
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b149eb28024d77f66a08371827187adf05d4b78
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82d034f0b224d8170a52ce359589693c601cb9598d716e9663493e8ac99edf2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994276"
 ---
 # <a name="opt-in-to-microsoft-update"></a>Opt-In à Microsoft Update
 
 Vous pouvez choisir un ordinateur dans le service Microsoft Update, puis inscrire ce service auprès de Mises à jour automatiques.
 
-L’exemple de script de cette rubrique montre comment utiliser Windows Update Agent (WUA) pour inscrire le service Microsoft Update avec Mises à jour automatiques. Sinon, pour inscrire le service, l’utilisateur peut visiter Microsoft Update.
+l’exemple de script de cette rubrique montre comment utiliser Windows Update Agent (WUA) pour inscrire le service Microsoft Update avec Mises à jour automatiques. Sinon, pour inscrire le service, l’utilisateur peut visiter Microsoft Update.
 
 Avant de tenter d’exécuter cet exemple, vérifiez que la version de WUA installée sur l’ordinateur est la version 7.0.6000 ou une version ultérieure. Pour plus d’informations sur la façon de déterminer la version de WUA installée, consultez [détermination de la version actuelle de WUA](determining-the-current-version-of-wua.md).
 
 ## <a name="example"></a>Exemple
 
-L’exemple de script suivant montre comment utiliser l’agent de Windows Update (WUA) pour inscrire le service Microsoft Update avec Mises à jour automatiques. L’exemple autorise le traitement différé ou hors connexion si nécessaire.
+l’exemple de script suivant montre comment utiliser l’Agent de Windows Update (WUA) pour inscrire le service Microsoft Update avec Mises à jour automatiques. L’exemple autorise le traitement différé ou hors connexion si nécessaire.
 
 > [!IMPORTANT]
-> Ce script est destiné à illustrer l’utilisation des API d’agent Windows Update et fournit un exemple de la façon dont les développeurs peuvent utiliser ces API pour résoudre les problèmes. Ce script n’est pas conçu comme un code de production, et le script lui-même n’est pas pris en charge par Microsoft (bien que les API de l’agent de Windows Update sous-jacent soient prises en charge).
+> ce script est destiné à illustrer l’utilisation des api d’Agent Windows Update et fournit un exemple de la façon dont les développeurs peuvent utiliser ces api pour résoudre les problèmes. ce script n’est pas conçu comme un code de production, et le script lui-même n’est pas pris en charge par Microsoft (bien que les api de l’Agent de Windows Update sous-jacent soient prises en charge).
 
  
 
@@ -54,7 +54,7 @@ Par exemple, le chemin d’accès complet de la clé de Registre et les valeurs 
 >
 > La clé de Registre est respectée une seule fois lorsque WUA est mis à jour à partir d’une version antérieure à la version 7.0.6000 vers la version 7.0.6000 ou vers une version ultérieure. Nous vous recommandons d’utiliser le remplacement des valeurs de Registre existantes, car le remplacement des valeurs peut modifier le résultat d’une demande d’inscription de service antérieure.
 >
-> La création de cette clé de Registre nécessite des informations d’identification d’administration. Pour Windows Vista, l’appelant doit créer la clé de Registre dans un processus avec élévation de privilèges.
+> La création de cette clé de Registre nécessite des informations d’identification d’administration. pour Windows Vista, l’appelant doit créer la clé de registre dans un processus avec élévation de privilèges.
 
  
 

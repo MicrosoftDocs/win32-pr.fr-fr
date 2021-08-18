@@ -4,12 +4,12 @@ ms.assetid: F4242C05-181B-44FC-BE6C-8ABB76079981
 title: System. EdgeGesture. DisableTouchWhenFullscreen
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 208962f11b96420a8e0ef771ada846a3f802e815
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13132ba30fd3f1e594ec54966dfe2268ce66d570b66ca6d34b1c63b03bfc0c75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845119"
 ---
 # <a name="systemedgegesturedisabletouchwhenfullscreen"></a>System. EdgeGesture. DisableTouchWhenFullscreen
 
@@ -35,15 +35,15 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Dans Windows 8, les interactions de l’utilisateur avec les bords de l’écran affichent l’interface utilisateur du système, comme les barres de l’application, les icônes et les applications en cours d’exécution.
+dans Windows 8, les interactions de l’utilisateur avec les bords de l’écran affichent l’interface utilisateur du système comme les barres de l’application, les icônes et les applications en cours d’exécution.
 
 Pour les applications distantes plein écran, ce comportement de l’interface utilisateur sur l’ordinateur local peut remplacer et interférer avec l’interface utilisateur de la session à distance. Cette propriété permet à une application de désactiver l’interface utilisateur Edge sur l’ordinateur local.
 
 Pour désactiver l’interface utilisateur Edge, affectez à cette propriété la \_ valeur variant true. La valeur par défaut est \_ false.
 
-Cette propriété n’a aucun effet sur les applications du Windows Store.
+cette propriété n’a aucun effet sur les applications du windows Store Windows.
 
 L’exemple suivant montre comment définir les comportements de l’interface utilisateur Edge.
 

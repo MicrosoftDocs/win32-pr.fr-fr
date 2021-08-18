@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4751a5633462afe1ca8e8cd9abee1afeb16ac242
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4a0af11370fd3968a2f5a6cf296ea04507f18d517665071674cfa8a4573e1a4f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106516499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688329"
 ---
 # <a name="sysinfo-command"></a>commande sysinfo
 

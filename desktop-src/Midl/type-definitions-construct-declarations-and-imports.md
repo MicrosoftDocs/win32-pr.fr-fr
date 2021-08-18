@@ -11,12 +11,12 @@ keywords:
 - importations MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 645781f033566ba43dc6e355935ed112d0e8f5f6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aca1f80bca0a5d03ea0e935b05f973a6370c4180c9ce5c0fe7dea5d8f5c9c7de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829219"
 ---
 # <a name="type-definitions-construct-declarations-and-imports"></a>Définitions de types, déclarations de construction et importations
 
@@ -41,7 +41,7 @@ Le mot clé [**Import**](import.md) spécifie les noms d’un ou de plusieurs fi
 
 ## <a name="constant-declaration"></a>Déclaration de constante
 
-La déclaration de constante spécifie des constantes [**booléennes**](boolean.md), des entiers, des caractères, des caractères larges, des chaînes et des **void \*** . Pour plus d’informations, consultez [**const**](const.md).
+La déclaration de constante spécifie des constantes [**booléennes**](boolean.md), des entiers, des caractères, des caractères larges, des chaînes et des **void \** _. Pour plus d’informations, consultez [_ *const* *](const.md).
 
 ## <a name="general-declaration"></a>Déclaration générale
 
@@ -72,9 +72,9 @@ interface IdlGrammarExample
 }
 ```
 
- 
+ 
 
- 
+ 
 
 
 

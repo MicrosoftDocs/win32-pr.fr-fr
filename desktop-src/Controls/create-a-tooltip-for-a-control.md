@@ -4,27 +4,27 @@ description: L’exemple de fonction suivant crée une info-bulle et l’associe
 ms.assetid: FDA3B2A0-1256-4DAC-86CF-8F123894E760
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f341c1be1e749c4e0d6f18caf97a3f897cf429e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9883dc90e8a150c7cc863b59e8388df676ed0f1663aaea7b356cb45292a6c8c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826569"
 ---
 # <a name="how-to-create-a-tooltip-for-a-control"></a>Comment créer une info-bulle pour un contrôle
 
 L’exemple de fonction suivant crée une info-bulle et l’associe au contrôle dont l’ID de ressource est passé.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -87,9 +87,9 @@ HWND CreateToolTip(int toolID, HWND hDlg, PTSTR pszText)
 [Utilisation des contrôles ToolTip](using-tooltip-contro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

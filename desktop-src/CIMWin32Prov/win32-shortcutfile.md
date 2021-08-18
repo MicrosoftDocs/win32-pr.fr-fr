@@ -48,12 +48,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b714b4c8119f92931235734664726123744064d8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8f1951d4c52087330ac28e23e59e9403c67aff44bf7f9e94c63d3bfa7fc1bded
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917499"
 ---
 # <a name="win32_shortcutfile-class"></a>\_Classe ShortcutFile Win32
 
@@ -743,7 +743,7 @@ Qualificateurs : [ **clé**](../wmisdk/key-qualifier.md)
 
 La propriété Name est une chaîne représentant le nom hérité qui sert de clé à une instance de fichier logique dans un système de fichiers. Les noms de chemin d’accès complets doivent être fournis.
 
-Exemple : C : \\ \\ système Windows \\win.ini
+exemple : C : \\ Windows \\ système \\win.ini
 
 Cette propriété est héritée de la [**\_ LogicalFile CIM**](cim-logicalfile.md).
 
@@ -965,7 +965,7 @@ Cette propriété est héritée de la [**\_ LogicalFile CIM**](cim-logicalfile.m
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ ShortcutFile** est dérivée du [**fichier de \_ fichier CIM**](cim-datafile.md).
 

@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac3f7a883f50b06c8d142cb83bedf0bfa2920191
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ec8a446164bb7ae51d36d1a89219f6c3b84eff74b9af3a40c2121b3bd205a581
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741739"
 ---
 # <a name="helpmsgstring-message"></a>Message HELPMSGSTRING
 
@@ -56,7 +56,7 @@ Pointeur vers la structure d’initialisation de la boîte de dialogue commune. 
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez spécifier la constante **HELPMSGSTRING** dans un appel à la fonction [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) pour obtenir l’identificateur du message envoyé par la boîte de dialogue.
 
@@ -82,7 +82,7 @@ Lorsque vous créez la boîte de dialogue, utilisez le membre **hwndOwner** de l
 **Référence**
 </dt> <dt>
 
-[**\_aide CDN**](cdn-help.md)
+[**CDN \_ AIDE**](cdn-help.md)
 </dt> <dt>
 
 [**LES ChooseColor.**](/windows/win32/api/commdlg/ns-commdlg-choosecolora-r1)

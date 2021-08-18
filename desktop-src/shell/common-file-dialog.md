@@ -1,5 +1,5 @@
 ---
-description: À compter de Windows Vista, la boîte de dialogue élément commun remplace l’ancienne boîte de dialogue de fichier courant lorsqu’elle est utilisée pour ouvrir ou enregistrer un fichier.
+description: à partir de Windows Vista, la boîte de dialogue élément commun remplace l’ancienne boîte de dialogue de fichier courant lorsqu’elle est utilisée pour ouvrir ou enregistrer un fichier.
 title: Boîte de dialogue élément commun
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,18 +9,18 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 896514779b2ba3d11d3db0551f82e21f1d4120b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 2956bf7329ff9c92b777199d040d1275aa827cfa9ea9c8bfbec175d234b204f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943519"
 ---
 # <a name="common-item-dialog"></a>Boîte de dialogue élément commun
 
-À compter de Windows Vista, la boîte de dialogue élément commun remplace l’ancienne boîte de dialogue de fichier courant lorsqu’elle est utilisée pour ouvrir ou enregistrer un fichier. La boîte de dialogue élément commun est utilisée dans deux variantes : la boîte de dialogue **ouvrir** et la boîte de dialogue **Enregistrer** . Ces deux boîtes de dialogue partagent la plupart de leurs fonctionnalités, mais chacune possède ses propres méthodes uniques.
+à partir de Windows Vista, la boîte de dialogue élément commun remplace l’ancienne boîte de dialogue de fichier courant lorsqu’elle est utilisée pour ouvrir ou enregistrer un fichier. La boîte de dialogue élément commun est utilisée dans deux variantes : la boîte de dialogue **ouvrir** et la boîte de dialogue **Enregistrer** . Ces deux boîtes de dialogue partagent la plupart de leurs fonctionnalités, mais chacune possède ses propres méthodes uniques.
 
-Bien que cette version plus récente s’intitule la boîte de dialogue élément commun, elle continue d’être appelée boîte de dialogue de fichier commune dans la plupart des documents. À moins que vous ne traitiez spécifiquement avec une version antérieure de Windows, vous devez supposer que toute mention de la boîte de dialogue de fichier commune fait référence à cette boîte de dialogue d’élément commune.
+Bien que cette version plus récente s’intitule la boîte de dialogue élément commun, elle continue d’être appelée boîte de dialogue de fichier commune dans la plupart des documents. à moins que vous ne traitiez spécifiquement avec une version antérieure de Windows, vous devez supposer que toute mention de la boîte de dialogue de fichier commune fait référence à cette boîte de dialogue d’élément commune.
 
 Les rubriques suivantes sont présentées ici :
 
@@ -45,14 +45,14 @@ Windows Vista fournit des implémentations des boîtes de dialogue **ouvrir** et
 
 [**IFileOpenDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifileopendialog) et [**IFileSaveDialog**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ifilesavedialog) héritent de [**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog) et partagent une grande partie de leur fonctionnalité. En outre, la boîte de dialogue **ouvrir** prend en charge **IFileOpenDialog** et la boîte de dialogue **Enregistrer** prend en charge **IFileSaveDialog**.
 
-L’implémentation de la boîte de dialogue d’élément commune trouvée dans Windows Vista offre plusieurs avantages par rapport à l’implémentation fournie dans les versions antérieures :
+l’implémentation de la boîte de dialogue d’élément commune trouvée dans Windows Vista offre plusieurs avantages par rapport à l’implémentation fournie dans les versions antérieures :
 
 -   Prend en charge l’utilisation directe de l’espace de noms Shell via [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) au lieu d’utiliser des chemins d’accès de système de fichiers.
 -   Active la personnalisation simple de la boîte de dialogue, telle que la définition de l’étiquette sur le bouton **OK** , sans nécessiter de procédure de raccordement.
 -   Prend en charge une personnalisation plus complète de la boîte de dialogue en ajoutant un ensemble de contrôles pilotés par les données qui fonctionnent sans modèle de boîte de dialogue Win32. Ce schéma de personnalisation libère le processus appelant de la disposition de l’interface utilisateur. Étant donné que les modifications apportées à la conception de la boîte de dialogue continuent à utiliser ce modèle de données, l’implémentation de la boîte de dialogue n’est pas liée à la version actuelle spécifique de la boîte de dialogue.
 -   Prend en charge la notification de l’appelant des événements dans la boîte de dialogue, tels que la modification de la sélection ou la modification du type de fichier. Permet également au processus appelant de raccorder certains événements dans la boîte de dialogue, tels que l’analyse.
 -   Introduit de nouvelles fonctionnalités de boîte de dialogue telles que l’ajout d’emplacements spécifiés par l’appelant à la barre des **emplacements** .
--   Dans la boîte de dialogue **Enregistrer** , les développeurs peuvent tirer parti des nouvelles fonctionnalités de métadonnées de l’interpréteur de commandes Windows Vista.
+-   dans la boîte de dialogue **enregistrer** , les développeurs peuvent tirer parti des nouvelles fonctionnalités de métadonnées du Shell Windows Vista.
 
 En outre, les développeurs peuvent choisir d’implémenter les interfaces suivantes :
 
@@ -78,11 +78,11 @@ Les sections suivantes présentent un exemple de code pour diverses tâches de d
 -   [Persistance de l’État](#state-persistence)
 -   [Fonctionnalités de MultiSelect](#multiselect-capabilities)
 
-La plupart des exemples de code se trouvent dans l' [exemple de boîte de dialogue de fichier commun](samples-commonfiledialog.md)SDK Windows.
+la plupart des exemples de code se trouvent dans l' [exemple de boîte de dialogue de fichier commun](samples-commonfiledialog.md)SDK Windows.
 
 ### <a name="basic-usage"></a>Utilisation de base
 
-L’exemple suivant montre comment lancer une boîte de dialogue **ouverte** . Dans cet exemple, il est limité aux documents Microsoft Word.
+L’exemple suivant montre comment lancer une boîte de dialogue **ouverte** . dans cet exemple, il est limité à Microsoft Word documents.
 
 > [!Note]  
 > Plusieurs exemples de cette rubrique utilisent la `CDialogEventHandler_CreateInstance` fonction d’assistance pour créer une instance de l’implémentation de [**IFileDialogEvents**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents) . Pour utiliser cette fonction dans votre propre code, copiez le code source de la `CDialogEventHandler_CreateInstance` fonction à partir de l' [exemple de boîte de dialogue de fichier commune](samples-commonfiledialog.md), à partir duquel tous les exemples de cette rubrique sont pris.
@@ -304,7 +304,7 @@ HRESULT AddItemsToCommonPlaces()
 
 ### <a name="state-persistence"></a>Persistance de l’État
 
-Avant Windows Vista, un État, tel que le dernier dossier visité, a été enregistré par processus. Toutefois, ces informations ont été utilisées indépendamment de l’action en question. Par exemple, une application de modification vidéo présente le même dossier dans la boîte de dialogue **Afficher** en tant que dans la boîte de dialogue **Importer un média** . Dans Windows Vista, vous pouvez être plus précis grâce à l’utilisation de GUID. Pour assigner un **GUID** à la boîte de dialogue, appelez [**IFileDialog :: SetClientGuid**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setclientguid).
+avant Windows Vista, un état, tel que le dernier dossier visité, a été enregistré par processus. Toutefois, ces informations ont été utilisées indépendamment de l’action en question. Par exemple, une application de modification vidéo présente le même dossier dans la boîte de dialogue **Afficher** en tant que dans la boîte de dialogue **Importer un média** . dans Windows Vista, vous pouvez être plus précis grâce à l’utilisation de guid. Pour assigner un **GUID** à la boîte de dialogue, appelez [**IFileDialog :: SetClientGuid**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setclientguid).
 
 ### <a name="multiselect-capabilities"></a>Fonctionnalités de MultiSelect
 
@@ -660,7 +660,7 @@ Le gestionnaire d’événements fourni par le processus appelant peut implémen
 
 ## <a name="full-samples"></a>Exemples complets
 
-Voici des exemples C++ complets et téléchargeables du kit de développement logiciel (SDK) Windows, qui illustrent l’utilisation de et de l’interaction avec la boîte de dialogue d’élément commune.
+voici des exemples C++ complets et téléchargeables du kit de développement logiciel (SDK) Windows qui illustrent l’utilisation de et de l’interaction avec la boîte de dialogue d’élément commune.
 
 -   [Boîte de dialogue de fichier courante, exemple](samples-commonfiledialog.md)
 -   [Modes de boîte de dialogue de fichier courante, exemple](samples-commonfiledialogmodes.md)

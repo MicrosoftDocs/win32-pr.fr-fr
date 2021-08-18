@@ -1,5 +1,5 @@
 ---
-description: La \_ classe Win32 NetworkAdapter est déconseillée. Utilisez la \_ classe NetAdapter msft à la place. La \_ classe NetworkAdapterWMI Win32 représente une carte réseau d’un ordinateur exécutant un système d’exploitation Windows.
+description: La \_ classe Win32 NetworkAdapter est déconseillée. Utilisez la \_ classe NetAdapter msft à la place. la \_ classe NetworkAdapterWMI Win32 représente une carte réseau d’un ordinateur exécutant un système d’exploitation Windows.
 ms.assetid: f79cb2a1-a249-479d-a495-37a44fdea995
 ms.tgt_platform: multiple
 title: Classe Win32_NetworkAdapter
@@ -56,16 +56,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 22718802370995cc0515e3f63e731cc86d37eb0f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 55ee65b151778dbfbb4bb8e09fabfb3ae59392966344b951586cd9e08dd1f984
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973036"
 ---
 # <a name="win32_networkadapter-class"></a>\_Classe NetworkAdapter Win32
 
-La classe **Win32 \_ NetworkAdapter** est déconseillée. Utilisez la [**classe \_ NetAdapter msft**](/previous-versions/windows/desktop/legacy/hh968170(v=vs.85)) à la place. La [classe WMI](../wmisdk/retrieving-a-class.md) **\_ NetworkAdapter Win32** représente une carte réseau d’un ordinateur exécutant un système d’exploitation Windows.
+La classe **Win32 \_ NetworkAdapter** est déconseillée. Utilisez la [**classe \_ NetAdapter msft**](/previous-versions/windows/desktop/legacy/hh968170(v=vs.85)) à la place. la [classe WMI](../wmisdk/retrieving-a-class.md) **\_ NetworkAdapter Win32** représente une carte réseau d’un ordinateur exécutant un système d’exploitation Windows.
 
 **Win32 \_ NetworkAdapter** fournit uniquement des données IPv4. Pour plus d’informations, consultez [prise en charge d’IPv6 et IPv6 dans WMI](../wmisdk/ipv6-and-ipv4-support-in-wmi.md).
 
@@ -632,7 +632,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Schema**](../wmisdk/standard-qualifiers.md) ("Win32")
 </dt> </dl>
 
-Code d’erreur Windows Configuration Manager.
+Windows Code d’erreur Configuration Manager.
 
 Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 
@@ -691,12 +691,12 @@ L’appareil ne fonctionne pas correctement. L’un de ses pilotes ou le Registr
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Le pilote de cet appareil a besoin d’une ressource que Windows ne peut pas gérer.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**le pilote de cet appareil a besoin d’une ressource qui ne peut pas être gérée par Windows.** (5)
 
 
 </dt> <dd>
 
-Le pilote de l’appareil requiert une ressource que Windows ne peut pas gérer.
+le pilote de l’appareil requiert une ressource qui ne peut pas être gérée par Windows.
 
 </dd> <dt>
 
@@ -775,12 +775,12 @@ L’appareil ne peut pas trouver suffisamment de ressources libres à utiliser.
 
 <span id="Windows_cannot_verify_this_device_s_resources."></span><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>
 
-<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne peut pas vérifier les ressources de cet appareil.** (13)
+<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne pouvez pas vérifier les ressources de ce périphérique.** (13)
 
 
 </dt> <dd>
 
-Windows ne peut pas vérifier les ressources de l’appareil.
+Windows ne pouvez pas vérifier les ressources de l’appareil.
 
 </dd> <dt>
 
@@ -903,7 +903,7 @@ L’appareil n’est pas présent, ne fonctionne pas correctement ou n’a pas t
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (25)
 
 
 </dt> <dd>
@@ -914,7 +914,7 @@ Windows est toujours en cours de configuration de l’appareil.
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (26)
 
 
 </dt> <dd>
@@ -969,7 +969,7 @@ L’appareil utilise une ressource IRQ qu’un autre appareil utilise.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Ce périphérique ne fonctionne pas correctement, car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
 
 
 </dt> <dd>
@@ -1142,7 +1142,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**Deprecated**](../wmisdk/standard-wmi-qualifiers.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WIN32REGISTRY \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ NetworkCards \| DriverDate")
+qualificateurs : [**deprecated**](../wmisdk/standard-wmi-qualifiers.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ NetworkCards \| DriverDate")
 </dt> </dl>
 
 Si la **valeur est true**, la carte réseau est installée dans le système.
@@ -1202,7 +1202,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ NetworkCards \| Manufacturer")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ NetworkCards \| manufacturer")
 </dt> </dl>
 
 Nom du fabricant de la carte réseau.
@@ -1471,7 +1471,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Schema**](../wmisdk/standard-qualifiers.md) ("Win32")
 </dt> </dl>
 
-Identificateur d’appareil Windows Plug-and-Play de l’unité logique.
+Windows Identificateur d’appareil Plug-and-Play de l’unité logique.
 
 Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 
@@ -1598,7 +1598,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ NetworkCards \| ServiceName")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ NetworkCards \| ServiceName")
 </dt> </dl>
 
 Nom de produit de la carte réseau.
@@ -1616,7 +1616,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ NetworkCards \| ProductName")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ NetworkCards \| ProductName")
 </dt> </dl>
 
 Nom de service de la carte réseau. Ce nom est généralement plus petit que le nom complet du produit.
@@ -1849,14 +1849,14 @@ Type de données : **DateTime**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("logiciel \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Perflib 009 temps d’attente du \\ \\ \| système")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("SOFTWARE \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Perflib \\ \\ 009 \| System Up Time")
 </dt> </dl>
 
 Date et heure de la dernière réinitialisation de la carte réseau.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **classe \_ NetworkAdapter Win32** est dérivée de la carte réseau [**CIM \_**](cim-networkadapter.md).
 
@@ -1910,7 +1910,7 @@ Vous pouvez également utiliser la procédure suivante pour Rechercher l’adapt
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code PowerShell [Functions WMI](https://Gallery.TechNet.Microsoft.Com/Two-WMI-Functions-94c31b5f) de la Galerie TechNet utilise la carte **Win32 \_ NetworkAdapter** pour recréer l’applet de commande Windows [Get-NetAdapter](/powershell/module/netadapter/get-netadapter?view=win10-ps) .
+l’exemple de code PowerShell [functions WMI](https://Gallery.TechNet.Microsoft.Com/Two-WMI-Functions-94c31b5f) de la galerie TechNet utilise la carte **Win32 \_ NetworkAdapter** pour recréer l’applet de commande Windows [Get-netadapter](/powershell/module/netadapter/get-netadapter?view=win10-ps) .
 
 L’exemple PowerShell [Get-ComputerInfo-Query Computer Info from local/Remote Computers-(WMI)](https://Gallery.TechNet.Microsoft.Com/Get-ComputerInfo-Query-23dd6042) PowerShell de la Galerie TechNet utilise un certain nombre d’appels au matériel et aux logiciels, notamment **Win32 \_ NetworkAdapter**, pour afficher des informations sur un système local ou distant.
 

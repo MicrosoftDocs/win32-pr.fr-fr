@@ -1,25 +1,25 @@
 ---
 title: Utilisation de WinSAT
-description: Vous pouvez utiliser l’API Windows System Assessment Tool (WinSAT) pour initier des évaluations formelles et ad hoc de la configuration matérielle de l’ordinateur, récupérer le score de base pour l’ordinateur et les scores pour chaque sous-composant de l’évaluation, et récupérer les détails de l’évaluation, tels que les détails du processeur qui a été évalué.
+description: vous pouvez utiliser l’API Windows System Assessment Tool (winsat) pour initier des évaluations formelles et ad hoc de la configuration matérielle de l’ordinateur, récupérer le score de base pour l’ordinateur et les scores pour chaque sous-composant de l’évaluation, et récupérer les détails de l’évaluation, tels que les détails du processeur qui a été évalué.
 ms.assetid: b0860c4a-cec3-440c-b31a-7e7ad1b393d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0a23ab35d989a736fa61833e678c0a4c79954e2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 23cf26d31ccbd3eb6e51fb1717c055fb6538c57612d374b0a3b7a2a5b2382681
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733779"
 ---
 # <a name="using-winsat"></a>Utilisation de WinSAT
 
 \[WinSAT peut être modifié ou non disponible pour les mises en production après Windows 8.1.\]
 
-Vous pouvez utiliser l’API Windows System Assessment Tool (WinSAT) pour [initier des évaluations formelles et ad hoc](#initiating-an-assessment) de la configuration matérielle de l’ordinateur, [récupérer le score de base pour l’ordinateur](#retrieving-the-scores-of-the-assessment) et les scores pour chaque sous-composant de l’évaluation, et [récupérer les détails de l’évaluation](#retrieving-details-of-the-assessment), tels que les détails du processeur qui a été évalué.
+vous pouvez utiliser l’API Windows System Assessment Tool (winsat) pour [initier des évaluations formelles et ad hoc](#initiating-an-assessment) de la configuration matérielle de l’ordinateur, [récupérer le score de base pour l’ordinateur](#retrieving-the-scores-of-the-assessment) et les scores pour chaque sous-composant de l’évaluation, et [récupérer les détails de l’évaluation](#retrieving-details-of-the-assessment), tels que les détails du processeur qui a été évalué.
 
 ## <a name="initiating-an-assessment"></a>Lancement d’une évaluation
 
-Après Windows 8.1 vous pouvez lancer des évaluations formelles et ad hoc de l’ordinateur. Une évaluation formelle évalue les sous-composants suivants de l’ordinateur :
+après Windows 8.1 vous pouvez lancer des évaluations formelles et ad hoc de l’ordinateur. Une évaluation formelle évalue les sous-composants suivants de l’ordinateur :
 
 -   UC
 -   Mémoire
@@ -42,7 +42,7 @@ Le score de base est une mesure générale de la configuration matérielle de l�
 
 Chaque composant matériel reçoit un sous-score individuel. Le score de base de votre ordinateur est déterminé par le sous-score le plus bas. Par exemple, si le sous-score le plus bas d’un composant matériel individuel est 2,6, le score de base est 2,6. Le score de base n’est pas une moyenne des sous-scores combinés.
 
-Un utilisateur peut utiliser le score de base pour acheter en toute confiance des programmes et autres logiciels qui sont mis en correspondance avec le score de base de leur ordinateur. Par exemple, si l’ordinateur a un score de base de 3,3, l’utilisateur peut acheter en toute confiance tous les logiciels conçus pour cette version de Windows qui nécessitent un ordinateur dont le score de base est inférieur ou supérieur à 3.
+Un utilisateur peut utiliser le score de base pour acheter en toute confiance des programmes et autres logiciels qui sont mis en correspondance avec le score de base de leur ordinateur. par exemple, si l’ordinateur a un score de base de 3,3, l’utilisateur peut acheter en toute confiance tout logiciel conçu pour cette version de Windows qui nécessite un ordinateur dont le score de base est de 3 ou moins.
 
 Pour récupérer le score de base, appelez d’abord la méthode [**IQueryRecentWinSATAssessment :: obtenir des \_ informations**](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_info) pour obtenir l’interface [**IProvideWinSATResultsInfo**](/windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatresultsinfo) . Ensuite, appelez la méthode [**IProvideWinSATResultsInfo :: obten \_ SystemRating**](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_systemrating) pour récupérer le score de base.
 
@@ -56,9 +56,9 @@ L’API WinSAT fournit le score de base global et les scores pour chaque sous-co
 
 Pour plus d’informations sur le schéma XML et les détails que vous pouvez récupérer, consultez [schéma WinSAT](winsat-schema.md).
 
- 
+ 
 
- 
+ 
 
 
 

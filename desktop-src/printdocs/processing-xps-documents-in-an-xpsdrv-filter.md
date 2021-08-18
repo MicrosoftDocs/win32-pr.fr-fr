@@ -4,18 +4,18 @@ ms.assetid: c8b232ba-e986-4459-8d66-190225fdffbc
 title: Traitement de documents XPS dans un filtre XPSDrv
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 530b266e5b9d9723059afb3d005ece4c0073debe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a82467b9ba886fca4f3a7b5c38a64d4abfd09788b0606e94d1d9020c9c8f1358
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824329"
 ---
 # <a name="processing-xps-documents-in-an-xpsdrv-filter"></a>Traitement de documents XPS dans un filtre XPSDrv
 
 Le modèle d’objet XPS peut être utilisé pour accéder aux composants d’un document XPS à partir d’un filtre de pilote d’imprimante XPSDrv.
 
-Pour plus d’informations sur les filtres XPS et les pilotes d’imprimante XPSDrv, consultez [filtres XPS](/windows-hardware/drivers/print/xps-filters) dans le kit de pilotes Windows.
+pour plus d’informations sur les filtres xps et les pilotes d’imprimante XPSDrv, consultez la page [filtres xps](/windows-hardware/drivers/print/xps-filters) dans le Kit de pilotes Windows.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

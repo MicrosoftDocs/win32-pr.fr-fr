@@ -4,12 +4,12 @@ ms.assetid: 5d7c8598-2d6b-4839-ae98-dff964bc962c
 title: DecryptMessage (SChannel) (fonction)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 6bfbb354be9f3553e5369b8ce1f8b4260eab8ee9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: feec97f9e989270d812458cd61ff34132d118d192108c3f2372b192f2e383464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008477"
 ---
 # <a name="decryptmessage-schannel-function"></a>DecryptMessage (SChannel) (fonction)
 
@@ -79,7 +79,7 @@ Si la fonction ne parvient pas à déchiffrer le message, elle retourne l’un d
 | **s \_ je \_ renégocie**         | Le tiers distant requiert une nouvelle séquence de négociation ou l’application vient d’initier un arrêt. Revenez à la boucle de négociation et appelez [**AcceptSecurityContext (SChannel)**](acceptsecuritycontext--schannel.md) ou [**InitializeSecurityContext (schannel)**](initializesecuritycontext--schannel.md), SECBUFFER_EXTRA retournée à partir de DecryptMessage (). La renégociation n’est pas prise en charge pour le mode noyau Schannel. L’appelant doit soit ignorer cette valeur de retour, soit arrêter la connexion. Si la valeur est ignorée, le client ou le serveur peut arrêter la connexion en conséquence. |
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Parfois, une application lit les données du tiers distant, tente de les déchiffrer à l’aide de **DecryptMessage (SChannel)** et découvre que **DecryptMessage (SChannel)** a réussi, mais les mémoires tampons de sortie sont vides. Il s’agit d’un comportement normal, et les applications doivent être en mesure de les gérer.
 
@@ -95,8 +95,8 @@ La fonction **DecryptMessage (SChannel)** renvoie sec \_ I \_ renégociée lorsq
 
 | Condition requise | Valeur |
 |--------------------------|-------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows XP uniquement\]          |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2003 \[ uniquement\] |
+| Client minimal pris en charge | Windows \[Applications de bureau XP uniquement\]          |
+| Serveur minimal pris en charge | Windows Serveur 2003 \[ applications de bureau uniquement\] |
 | En-tête                   | SSPI. h (include Security. h)               |
 | Bibliothèque                  | Secur32. lib                               |
 | DLL                      | Secur32.dll                               |

@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cea2448111266696398d1581aaecdbec2fb5859e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 059ea8162241c61d88fc93f565fa0aa4ba8aee223212e6fab254ed9d5dec4eea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739169"
 ---
 # <a name="eapmethodtype-complex-type"></a>Type complexe EapMethodType
 
@@ -57,13 +57,13 @@ Le [**type**](eapcommonschema-type-eapmethodtype-element.md) et l’ID d' [**aut
 | Élément                                                                | Type         | Description                                                                                                                                                                                                                                              |
 |------------------------------------------------------------------------|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Faut**](eapcommonschema-authorid-eapmethodtype-element.md)     | unsignedInt  | Fait référence à l’auteur de la méthode. <br/>                                                                                                                                                                                                                 |
-| [**Entrer**](eapcommonschema-type-eapmethodtype-element.md)             | unsignedByte | Fait référence au type de méthode EAP. <br/>                                                                                                                                                                                                               |
+| [**Type**](eapcommonschema-type-eapmethodtype-element.md)             | unsignedByte | Fait référence au type de méthode EAP. <br/>                                                                                                                                                                                                               |
 | [**VendorId**](eapcommonschema-vendorid-eapmethodtype-element.md)     | unsignedInt  | Fait référence au fournisseur qui a défini la méthode-si l’élément [**type**](eapcommonschema-type-eapmethodtype-element.md) est 254 (méthode EAP développée). Le [**ID**](eapcommonschema-vendorid-eapmethodtype-element.md) de l’argument est facultatif. <br/> |
 | [**#D3**](eapcommonschema-vendortype-eapmethodtype-element.md) | unsignedInt  | Est le type défini par le fournisseur pour la méthode. Le [**module**](eapcommonschema-vendortype-eapmethodtype-element.md) de la est facultatif. <br/>                                                                                                           |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il n’est pas [**nécessaire que les**](eapcommonschema-authorid-eapmethodtype-element.md) éléments de réfaut de réfaut et [**ID**](eapcommonschema-vendorid-eapmethodtype-element.md) de données soient identiques pour une méthode particulière.
 
@@ -75,8 +75,8 @@ Les [**éléments de**](eapcommonschema-authorid-eapmethodtype-element.md)réfau
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

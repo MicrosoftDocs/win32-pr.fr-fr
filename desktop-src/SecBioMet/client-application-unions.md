@@ -1,19 +1,19 @@
 ---
 title: Unions d’application cliente
-description: Unions prises en charge par l’API Windows Biometric Framework.
+description: unions prises en charge par l’API Windows Biometric Framework.
 ms.assetid: 41B7ABBB-41AC-48AB-B714-8F49EFAEC0E3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fe1bf112eceb7ffd7cc3ac7f9ac25fd8ac52c4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 219a61f8ec63cc2209fd456fc2f81431695f92d5c655067fbb1c0ec95297471f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993879"
 ---
 # <a name="client-application-unions"></a>Unions d’application cliente
 
-Les types d’Union suivants sont pris en charge par l’API Windows Biometric Framework.
+les types d’union suivants sont pris en charge par l’API Windows Biometric Framework.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -21,7 +21,7 @@ Les types d’Union suivants sont pris en charge par l’API Windows Biometric F
 
 | Rubrique                                                                         | Description                                                                                                                 |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| [**\_Propriétés de présence WINBIO \_**](winbio-presence-properties.md)<br/> | Contient des valeurs biométriques que le Windows Biometric Framework utilisé pour déterminer qu’un individu était présent.<br/> |
+| [**\_Propriétés de présence WINBIO \_**](winbio-presence-properties.md)<br/> | contient des valeurs biométriques que le Windows Biometric Framework utilisé pour déterminer qu’un individu était présent.<br/> |
 
 
 

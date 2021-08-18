@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 99c3be3926191c27ad038034373e411b5c22d9fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2d4ead22b3e7308aee3c44b3ff6dff407591cbe675b09a3300f3e7a8720726c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742639"
 ---
 # <a name="istatsquerystations-method"></a>IStats :: QueryStations, méthode
 
@@ -65,7 +65,7 @@ Si la méthode échoue, la valeur de retour est le code d’erreur suivant :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode peut être appelée à tout moment après l’appel de [CreateNPPInterface](createnppinterface.md) . Un appel à cette méthode est un appel synchrone, qui peut prendre plusieurs secondes pour s’exécuter Moniteur réseau attend que les ordinateurs distants répondent à la requête. Seuls les ordinateurs sur le sous-réseau local peuvent être interrogés.
 

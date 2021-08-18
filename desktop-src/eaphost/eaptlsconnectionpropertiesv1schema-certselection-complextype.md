@@ -50,7 +50,7 @@ Le type complexe **CertSelection** détermine la façon dont l’utilisateur sé
 
 
 
-| Fonction | Version minimale du système d’exploitation prise en charge |
+| Role | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
 | Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
 | Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |

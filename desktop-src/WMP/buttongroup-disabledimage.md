@@ -3,7 +3,7 @@ title: BUTTONGROUP. disabledImage
 description: L’attribut disabledImage spécifie ou récupère le nom de l’image représentant l’état désactivé des boutons dans le BUTTONGROUP.
 ms.assetid: 34d4e6a9-de73-4dfa-9c23-4f17b55298f6
 keywords:
-- Lecteur Windows Media BUTTONGROUP. disabledImage
+- BUTTONGROUP. disabledImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9659c4d726313c0fb202a840e12891f00ad3fcf0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7eeef37bbc25185a64e767f00f9ce17934e8b445327606b552ad69d282e42e4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764349"
 ---
 # <a name="buttongroupdisabledimage"></a>BUTTONGROUP. disabledImage
 
@@ -31,7 +31,7 @@ L’attribut **disabledImage** spécifie ou récupère le nom de l’image repr�
 
 Cet attribut est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les formats d’image pris en charge sont BMP, JPG, PNG et GIF. Si l’image est un fichier BMP 8 bits, ses valeurs de teinte et de saturation peuvent être modifiées de manière dynamique à l’aide des attributs **hueShift** et **saturation** .
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9core.h
-ms.openlocfilehash: d7c142787e4e4fac5be53763a3c19fd86a27efd9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b458d9c3575993dd3d478f886d0b71b3cd5c1af0a53330b0813deafa188ac4c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106527105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119728539"
 ---
 # <a name="d3dxfont_desc-structure"></a>D3DXFONT \_ desc, structure
 
@@ -103,7 +103,7 @@ Affectez la valeur **true** à une police en italique.
 
 </dd> <dt>
 
-**CharSet**
+**Caractères**
 </dt> <dd>
 
 Type : **[ **Byte**](../winprog/windows-data-types.md)**
@@ -158,7 +158,7 @@ Chaîne ou caractères se terminant par un caractère null qui spécifie le nom 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre du compilateur détermine également le type de structure. Si Unicode est défini, le \_ type de structure D3DXFONT DESC correspond à un DESCW D3DXFONT \_ ; sinon, le type de structure est résolu en D3DXFONT \_ DESCA.
 

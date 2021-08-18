@@ -7,12 +7,12 @@ keywords:
 - recherche d’objets ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb3c26f05b63524e3a657c0c460efb921978bd19
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: bd41e87ad3396694b2f87158b15278c1dfbe28b044ad03ebbb09ddded705910a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103841926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973501"
 ---
 # <a name="searching-for-objects"></a>Recherche d’objets
 
@@ -52,9 +52,9 @@ Wend
 
 
 
-Pour effectuer une recherche ADSI dans Visual Basic ou dans un environnement de script, trois composants ADO sont requis : **connexion**, **commande** et **Recordset**. L’objet de **connexion** vous permet de spécifier le nom du fournisseur, les autres informations d’identification, le cas échéant, ainsi que d’autres indicateurs. L’objet **Command** vous permet de spécifier des préférences de recherche et la chaîne de requête. Vous devez associer l’objet de **connexion** à un objet de **commande** avant l’exécution de la requête. Enfin, l’objet **Recordset** est utilisé pour itérer le jeu de résultats.
+pour effectuer une recherche ADSI dans Visual Basic ou dans un environnement de script, trois composants ADO sont requis : **connexion**, **commande** et **recordset**. L’objet de **connexion** vous permet de spécifier le nom du fournisseur, les autres informations d’identification, le cas échéant, ainsi que d’autres indicateurs. L’objet **Command** vous permet de spécifier des préférences de recherche et la chaîne de requête. Vous devez associer l’objet de **connexion** à un objet de **commande** avant l’exécution de la requête. Enfin, l’objet **Recordset** est utilisé pour itérer le jeu de résultats.
 
-ADSI prend en charge deux types de chaînes de requête ou de dialectes. L’exemple de code précédent utilise le dialecte SQL. Vous pouvez également utiliser le dialecte LDAP. La chaîne de requête de dialecte LDAP est basée sur la [norme rfc 2254](https://www.ietf.org/rfc/rfc2254.txt) (une RFC est un document de demande de commentaires, qui est la base du développement de normes LDAP). L’exemple précédent peut être traduit dans l’exemple de code suivant.
+ADSI prend en charge deux types de chaînes de requête ou de dialectes. l’exemple de code précédent utilise le dialecte SQL. Vous pouvez également utiliser le dialecte LDAP. La chaîne de requête de dialecte LDAP est basée sur la [norme rfc 2254](https://www.ietf.org/rfc/rfc2254.txt) (une RFC est un document de demande de commentaires, qui est la base du développement de normes LDAP). L’exemple précédent peut être traduit dans l’exemple de code suivant.
 
 
 ```VB
@@ -70,7 +70,7 @@ oCommand1.CommandText = "<LDAP://DC=fabrikam,DC=COM>;" & _
 
 Pourquoi le mot « sous-arbre » se trouve-t-il à la fin de la chaîne ? Dans le monde de l’annuaire, vous pouvez spécifier l’étendue de la recherche. Les choix sont les suivants : « base », « onelevel » et « sous-arborescence ». « base » est utilisé pour lire l’objet lui-même ; « onelevel » fait référence aux enfants immédiats, similaires à la commande **dir** . « sous-arborescence » permet d’effectuer des recherches sur plusieurs niveaux (comme **dir/s**).
 
-Avec le dialecte SQL, vous pouvez spécifier la portée dans la propriété Command, comme dans l’exemple de code suivant.
+avec le dialecte SQL, vous pouvez spécifier la portée dans la propriété command, comme dans l’exemple de code suivant.
 
 
 ```VB
@@ -84,7 +84,7 @@ Si l’étendue n’est pas spécifiée, par défaut, elle utilise une recherche
 > [!Note]  
 > Si vous utilisez C++, vous pouvez utiliser l’interface [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) à partir d’ADSI.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -93,9 +93,9 @@ Si l’étendue n’est pas spécifiée, par défaut, elle utilise une recherche
 [Réorganisation](reorganization.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

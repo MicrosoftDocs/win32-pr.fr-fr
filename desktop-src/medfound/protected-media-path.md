@@ -4,22 +4,22 @@ ms.assetid: e88806ae-0041-4b4a-a8df-69718a651e82
 title: Chemin du média protégé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7304edadf1623d41bc2f1f5c6b2b4cda2dd5f598
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 52ebb2b22e6ad887134f91e93b43a698afdef0ebc36e1521d70e5e17fefedd8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104560003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035023"
 ---
 # <a name="protected-media-path"></a>Chemin du média protégé
 
 Cette rubrique présente trois rubriques connexes : environnement protégé, passerelle d’interopérabilité des médias, révocation et renouvellement.
 
--   Un environnement protégé (PE) est un ensemble de technologies qui permet au contenu protégé de circuler à partir de Windows Vista de manière protégée. Tous les composants à l’intérieur d’un environnement protégé sont approuvés et le processus est protégé contre la falsification.
+-   un environnement protégé (PE) est un ensemble de technologies qui permet de transmettre du contenu protégé depuis et vers Windows Vista de manière protégée. Tous les composants à l’intérieur d’un environnement protégé sont approuvés et le processus est protégé contre la falsification.
 -   Le chemin d’accès au média protégé (PMP) est un fichier exécutable qui s’exécute dans un environnement protégé.
 -   Si un composant approuvé dans le PE devient compromis, une fois le processus en cours, il est révoqué. Toutefois, Microsoft fournit un mécanisme de renouvellement pour installer une version fiable plus récente du composant lorsqu’il est disponible.
 
-Pour plus d’informations sur la signature de code des composants multimédias protégés, consultez le livre blanc [Signing Code Signing for protected Media Components in Windows Vista (en](/windows-hardware/test/hlk/)anglais).
+pour plus d’informations sur les composants multimédias protégés par la signature de code, consultez le livre blanc [signing for protected media components in Windows Vista](/windows-hardware/test/hlk/).
 
 Cette rubrique contient les sections suivantes :
 
@@ -39,7 +39,7 @@ Cette rubrique contient les sections suivantes :
 
 La protection du contenu englobe plusieurs technologies, chacune essayant de s’assurer que le contenu ne peut pas être utilisé d’une manière qui n’est pas cohérente avec l’intention du propriétaire ou du fournisseur du contenu. Ces technologies incluent la protection contre la copie, la protection des liens, l’accès conditionnel et la gestion des droits numériques (DRM). La Fondation de chaque est approuvée : l’accès au contenu est accordé uniquement aux composants logiciels qui adhèrent aux conditions d’utilisation affectées à ce contenu.
 
-Pour réduire les menaces contre le contenu protégé, Windows Vista et les logiciels Media Foundation permettent l’exécution de code de confiance dans un environnement protégé. Un PE est un ensemble de composants, de recommandations et d’outils conçus pour améliorer la protection contre le piratage de contenu.
+pour réduire les menaces contre le contenu protégé, Windows Vista et Media Foundation logiciel autorisent l’exécution de code de confiance dans un environnement protégé. Un PE est un ensemble de composants, de recommandations et d’outils conçus pour améliorer la protection contre le piratage de contenu.
 
 Avant d’examiner le PE plus en détail, il est important de comprendre les menaces qu’il est prévu de réduire. Supposons que vous exécutez une application multimédia dans un processus en mode utilisateur. L’application est liée aux différentes bibliothèques de liens dynamiques (dll) qui contiennent des plug-ins multimédias, tels que des décodeurs. D’autres processus sont également exécutés en mode utilisateur et différents pilotes sont chargés dans le noyau. Si aucun mécanisme d’approbation n’est en place, les menaces suivantes existent :
 
@@ -51,7 +51,7 @@ Avant d’examiner le PE plus en détail, il est important de comprendre les men
 
 ## <a name="design-of-the-protected-environment"></a>Conception de l’environnement protégé
 
-Un environnement protégé s’exécute dans un processus protégé distinct de l’application multimédia. La fonctionnalité de processus protégé de Windows Vista empêche d’autres processus d’accéder au processus protégé.
+Un environnement protégé s’exécute dans un processus protégé distinct de l’application multimédia. la fonctionnalité de processus protégé de Windows Vista empêche d’autres processus d’accéder au processus protégé.
 
 Lorsqu’un processus protégé est créé, les principaux composants du noyau identifient les composants non fiables et les plug-ins afin que l’environnement protégé puisse refuser de les charger. Un composant approuvé est un composant qui a été correctement signé par Microsoft. Le noyau effectue également le suivi des modules qui s’y chargent, ce qui permet à l’environnement protégé d’arrêter la lecture du contenu protégé si un module non approuvé est chargé. Avant le chargement d’un composant de noyau, le noyau vérifie s’il est approuvé. Si ce n’est pas le cas, les composants de confiance déjà présents dans le PE refusent de traiter le contenu protégé. Pour ce faire, les composants PE effectuent périodiquement une liaison sécurisée par chiffrement avec le noyau. Si un composant en mode noyau non fiable est présent, le protocole de transfert échoue et indique au PE qu’il existe un composant non approuvé.
 
@@ -113,7 +113,7 @@ Format: (All DWORD values are serialized in little-endian order)
 
 Trois exigences fondamentales doivent être respectées pour que le contenu protégé puisse être traité dans le PMP. Tout d’abord, le contenu protégé doit être envoyé uniquement aux sorties approuvées. Deuxièmement, seules les actions autorisées doivent être appliquées à un flux. Troisièmement, seuls les systèmes de protection de sortie approuvés doivent être utilisés pour lire un flux. Le moteur de stratégie coordonne entre ITAs et OTAs pour s’assurer que ces exigences sont satisfaites.
 
-Le moyen le plus simple de comprendre le processus consiste à parcourir un exemple simplifié qui identifie les étapes nécessaires pour lire le contenu ASF (Advanced System format) protégé par Windows Media Digital Rights Management (WMDRM).
+le moyen le plus simple de comprendre le processus consiste à parcourir un exemple simplifié qui identifie les étapes nécessaires pour lire le contenu ASF protégé par Windows Media Digital Rights Management (WMDRM).
 
 Quand un utilisateur lance une application de lecteur et ouvre un fichier ASF avec un flux audio protégé et un flux vidéo protégé, les étapes suivantes doivent être effectuées :
 

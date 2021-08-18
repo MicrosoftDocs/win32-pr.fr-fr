@@ -3,7 +3,7 @@ title: Message TTM_GETCURRENTTOOL (commctrl. h)
 description: Récupère les informations de l’outil en cours dans un contrôle ToolTip.
 ms.assetid: acb254cf-064c-4ed8-b488-a3138b648405
 keywords:
-- TTM_GETCURRENTTOOL les contrôles de message Windows
+- TTM_GETCURRENTTOOL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fa6218bcb4ad9aa43c7ffba0d332786956d9a62
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4558e582e4619cd7d96380a1e38e2efe68808b9241e4c627e12a74946965d8de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769339"
 ---
 # <a name="ttm_getcurrenttool-message"></a>\_Message atténuation GETCURRENTTOOL
 
@@ -51,8 +51,8 @@ Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le c
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **Atténuation \_ GETCURRENTTOOLW** (Unicode) et **atténuation \_ GETCURRENTTOOLA** (ANSI)<br/>     |
 

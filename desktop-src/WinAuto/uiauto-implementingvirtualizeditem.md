@@ -15,12 +15,12 @@ keywords:
 - interfaces, IVirtualizedItemProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8dac9e34dd9bff5d0ba2d245aa2fb8de621f40a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7d883eec2e0f5fa4c4ede4c3fa2ef73770cc706114b6536ad002d11ff73f8ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997759"
 ---
 # <a name="virtualizeditem-control-pattern"></a>Modèle de contrôle VirtualizedItem
 
@@ -48,13 +48,13 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
-| Membres nécessaires                                           | Type de membre | Notes |
+| Membres nécessaires                                           | Type de membre | Remarques |
 |------------------------------------------------------------|-------------|-------|
 | [**Optimiser**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ivirtualizeditemprovider-realize) | Méthode      | Aucun  |
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé aucun événement.
 
@@ -74,9 +74,9 @@ Ce modèle de contrôle n’est associé aucun événement.
 [Utilisation d’éléments virtualisés](uiauto-workingwithvirtualizeditems.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

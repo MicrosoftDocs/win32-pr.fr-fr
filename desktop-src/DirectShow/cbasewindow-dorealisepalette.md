@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: be1e02d355ab5991c9d0e95dbff30d4c8e0162ea
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ce593939ec9f8aa3f2675c95e7a70363465aabb6f501fde79de839c533a1d249
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757479"
 ---
 # <a name="cbasewindowdorealisepalette-method"></a>Méthode CBaseWindow. DoRealisePalette
 
@@ -58,13 +58,13 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 | Code de retour                                                                             | Description                                                    |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | Un appel interne à **GdiFlush** a retourné une erreur.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                                            |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                                            |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**CBaseWindow :: OnPaletteChange**](cbasewindow-onpalettechange.md) appelle cette méthode. Pour définir une nouvelle palette, appelez la méthode [**CBaseWindow :: SetPalette**](cbasewindow-setpalette.md) .
 
@@ -74,7 +74,7 @@ La méthode [**CBaseWindow :: OnPaletteChange**](cbasewindow-onpalettechange.md
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

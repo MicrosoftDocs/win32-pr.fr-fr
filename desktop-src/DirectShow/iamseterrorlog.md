@@ -1,5 +1,5 @@
 ---
-description: L’interface IAMSetErrorLog définit ou récupère un journal des erreurs dans les services de modification DirectShow (DES).
+description: l’interface IAMSetErrorLog définit ou récupère un journal des erreurs dans DirectShow Services d’édition (DES).
 ms.assetid: ce658533-eacf-4b5d-9910-dca918de09e7
 title: Interface IAMSetErrorLog (qedit. h)
 ms.topic: reference
@@ -14,21 +14,21 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: c0a24d29625bf08bc2f4c728a61f5188e8bec211
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8a16e56de7f350b30c1b92c0c94ff3e3e06afc31b363c0b3a6e98017ce483aec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756399"
 ---
 # <a name="iamseterrorlog-interface"></a>Interface IAMSetErrorLog
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IAMSetErrorLog` interface définit ou récupère un journal des erreurs dans les [services de modification DirectShow](directshow-editing-services.md) (des). L’objet Timeline implémente cette interface. Les applications peuvent utiliser cette interface pour consigner les erreurs de rendu au moment de l’exécution. Implémentez l’interface [**IAMErrorLog**](iamerrorlog.md) dans votre application, puis appelez la méthode [**IAMSetErrorLog ::p ut \_ ErrorLog**](iamseterrorlog-put-errorlog.md) sur la chronologie.
+l' `IAMSetErrorLog` interface définit ou récupère un journal des erreurs dans [DirectShow Services d’édition](directshow-editing-services.md) (DES). L’objet Timeline implémente cette interface. Les applications peuvent utiliser cette interface pour consigner les erreurs de rendu au moment de l’exécution. Implémentez l’interface [**IAMErrorLog**](iamerrorlog.md) dans votre application, puis appelez la méthode [**IAMSetErrorLog ::p ut \_ ErrorLog**](iamseterrorlog-put-errorlog.md) sur la chronologie.
 
 Pour plus d’informations sur l’utilisation de cette interface, consultez [journalisation des erreurs](logging-errors.md).
 
@@ -53,7 +53,7 @@ L’interface **IAMSetErrorLog** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -61,7 +61,7 @@ L’interface **IAMSetErrorLog** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

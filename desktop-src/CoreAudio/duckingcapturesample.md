@@ -4,12 +4,12 @@ ms.assetid: 9a2131b2-ec4a-492a-a277-bd26ec8d67e5
 title: DuckingCaptureSample
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 636fe39e8fa27beee14ab17548f5929d1d937b20
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 76515f9d20e31bf4583b715e09da38c29bfdac34f6c975087f64bf2617696542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018457"
 ---
 # <a name="duckingcapturesample"></a>DuckingCaptureSample
 
@@ -18,7 +18,7 @@ Cet exemple d’application montre l’ouverture et la fermeture de flux de comm
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -53,7 +53,7 @@ Cet exemple est disponible aux emplacements suivants.
 
 | Emplacement    | Chemin d’accès/URL                                                                                              |
 |-------------|-------------------------------------------------------------------------------------------------------|
-| Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft SDK \\ Windows \\ v 7.0 \\ exemples \\ multimédia \\ audio \\ DuckingCaptureSample \\ ... |
+| Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ \\ Audio Multimedia \\ DuckingCaptureSample \\ ... |
 
 
 
@@ -63,8 +63,8 @@ Cet exemple est disponible aux emplacements suivants.
 
 Pour générer l’exemple DuckingCaptureSample, procédez comme suit :
 
-1.  Ouvrez DuckingCaptureSample. sln dans Visual Studio 2008.
-2.  À partir de la fenêtre, sélectionnez la configuration de la solution **Debug** ou **Release** , sélectionnez le menu **générer** dans la barre de menus, puis sélectionnez l’option **générer** . Si vous n’ouvrez pas Visual Studio à partir du shell CMD pour le kit de développement logiciel (SDK), Visual Studio n’aura pas accès à l’environnement de génération du kit de développement logiciel (SDK). Dans ce cas, l’exemple n’est pas généré, sauf si vous définissez explicitement la variable d’environnement MSSdk, qui est utilisée dans le fichier projet, DuckingCaptureSample. vcproj.
+1.  ouvrez DuckingCaptureSample. sln dans Visual Studio 2008.
+2.  À partir de la fenêtre, sélectionnez la configuration de la solution **Debug** ou **Release** , sélectionnez le menu **générer** dans la barre de menus, puis sélectionnez l’option **générer** . si vous n’ouvrez pas Visual Studio à partir du shell CMD pour le kit de développement logiciel (sdk), Visual Studio n’aura pas accès à l’environnement de génération du kit de développement logiciel (sdk). Dans ce cas, l’exemple n’est pas généré, sauf si vous définissez explicitement la variable d’environnement MSSdk, qui est utilisée dans le fichier projet, DuckingCaptureSample. vcproj.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 

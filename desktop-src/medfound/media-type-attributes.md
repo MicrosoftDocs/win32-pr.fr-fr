@@ -4,12 +4,12 @@ ms.assetid: e84ba3f6-4857-4340-baca-5847650ea7b8
 title: Attributs du type de média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fd3bc77197a3a897cd5280338451c33f1ea2637
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b52e906baa7bbac14d33dbc263e3a1edfa43b65851d96d0573032784c0149425
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827459"
 ---
 # <a name="media-type-attributes"></a>Attributs du type de média
 
@@ -58,10 +58,10 @@ Ces attributs peuvent être appliqués aux types de médias dont le type majeur 
 | [**\_ \_ échantillons audio MF \_ MT \_ par \_ bloc**](mf-mt-audio-samples-per-block-attribute.md)                | Nombre d’échantillons audio contenus dans un bloc compressé de données audio.                    |
 | [**\_ \_ échantillons audio MF \_ MT \_ par \_ seconde**](mf-mt-audio-samples-per-second-attribute.md)              | Nombre d’échantillons audio par seconde (valeur entière).                                         |
 | [**\_bits de \_ sortie audio MF- \_ octets valides \_ \_ par \_ exemple**](mf-mt-audio-valid-bits-per-sample-attribute.md)       | Nombre de bits de données audio valides dans chaque exemple audio.                                    |
-| [**\_ \_ sortie audio MF \_ WMADRC \_ AVGREF**](mf-mt-audio-wmadrc-avgref-attribute.md)                         | Niveau de volume moyen de référence d’un fichier Windows Media Audio.                               |
-| [**\_ \_ sortie audio MF \_ WMADRC \_ AVGTARGET**](mf-mt-audio-wmadrc-avgtarget-attribute.md)                   | Niveau de volume moyen cible d’un fichier Windows Media Audio.                                  |
-| [**\_ \_ sortie audio MF \_ WMADRC \_ PEAKREF**](mf-mt-audio-wmadrc-peakref-attribute.md)                       | Niveau de volume maximal de référence d’un fichier Windows Media Audio.                                  |
-| [**\_ \_ sortie audio MF \_ WMADRC \_ PEAKTARGET**](mf-mt-audio-wmadrc-peaktarget-attribute.md)                 | Niveau de volume maximal cible d’un fichier Windows Media Audio.                                     |
+| [**\_ \_ sortie audio MF \_ WMADRC \_ AVGREF**](mf-mt-audio-wmadrc-avgref-attribute.md)                         | niveau de volume moyen de référence d’un fichier Windows Media Audio.                               |
+| [**\_ \_ sortie audio MF \_ WMADRC \_ AVGTARGET**](mf-mt-audio-wmadrc-avgtarget-attribute.md)                   | niveau de volume moyen cible d’un fichier Windows Media Audio.                                  |
+| [**\_ \_ sortie audio MF \_ WMADRC \_ PEAKREF**](mf-mt-audio-wmadrc-peakref-attribute.md)                       | niveau de volume maximal de référence d’un fichier Windows Media Audio.                                  |
+| [**\_ \_ sortie audio MF \_ WMADRC \_ PEAKTARGET**](mf-mt-audio-wmadrc-peaktarget-attribute.md)                 | niveau de volume maximal cible d’un fichier Windows Media Audio.                                     |
 | [\_ \_ \_ \_ balise de format Wave MF d’origine \_](mf-mt-original-wave-format-tag.md)                            | Contient la balise WAVE format d’origine pour un flux audio.                                  |
 
 

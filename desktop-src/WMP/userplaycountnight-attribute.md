@@ -3,7 +3,7 @@ title: Attribut UserPlaycountNight
 description: L’attribut UserPlaycountNight est le nombre de fois que l’élément a été lu entre 22 00 et 06 00 heure locale.
 ms.assetid: d255ff33-b152-434e-a62d-12b613e6cb08
 keywords:
-- Attribut UserPlaycountNight lecteur Windows Media
+- Lecteur Windows Media de l’attribut UserPlaycountNight
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed39e4630388fdb31d902671bc9b55f2f52c9c2f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 53c9b13a5db983c528471915a191bde5b49736e5ad1a2e21a544d445656acbb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762109"
 ---
 # <a name="userplaycountnight-attribute"></a>Attribut UserPlaycountNight
 
@@ -30,7 +30,7 @@ L’attribut **UserPlaycountNight** est le nombre de fois que l’élément a é
 -   [Sélections](playlist-attributes-ref.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 

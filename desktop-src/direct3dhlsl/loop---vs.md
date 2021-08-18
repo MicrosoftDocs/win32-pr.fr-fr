@@ -57,7 +57,7 @@ Où :
 -   Lorsqu’elle est imbriquée, la valeur du [Registre de compteur de boucle](dx9-graphics-reference-asm-vs-registers-loop-counter.md) (Al) fait référence au bloc de boucle englobant immédiatement.
 -   Les blocs de boucle sont autorisés à se trouver complètement à l’intérieur d’un bloc if ou à l' \* entourer complètement. Aucun chevauchement n’est autorisé.
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 
 ```

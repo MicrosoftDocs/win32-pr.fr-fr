@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c54ed89e112482df4a54f35e24a04694e88fa490
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 02f0df4d31ca978b8b58b50cd0c91710056aa9ac0f3cac1ae370a4edba6a9edf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119626589"
 ---
 # <a name="asuint-function"></a>asuint fonction)
 
@@ -28,9 +28,9 @@ Réinterprète le modèle binaire d’une valeur 64 bits comme deux entiers 32 b
 
 ``` syntax
 void asuint(
-  in  double value,
-  out uint lowbits,
-  out uint highbits
+  in  double value,
+  out uint lowbits,
+  out uint highbits
 );
 ```
 
@@ -69,7 +69,7 @@ Modèle de *valeur* élevée 32 bits.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est une autre version de l’intrinsèque [**asuint**](dx-graphics-hlsl-asuint.md) qui est disponible dans les modèles de nuanceur précédents et qui a été introduite pour le Shader Model 5. La fonction d’origine (reconnue dans le compilateur HLSL par sa signature différente) reste disponible pour le Shader Model 5.
 
@@ -79,25 +79,25 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Prise en charge |
+| Modèle de nuanceur                                                                | Pris en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
 
 
 
- 
+ 
 
 Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -112,9 +112,9 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

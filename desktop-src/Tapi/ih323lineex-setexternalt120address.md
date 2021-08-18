@@ -4,16 +4,16 @@ ms.assetid: 094b43b9-eb15-468a-9986-86313490e1c3
 title: 'IH323LineEx :: SetExternalT120Address, méthode (H323priv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09756aaf77ba36497b3059f7e93829d7d6a57b42
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8889887c396c427c28ac2906206b3e3cbbcb102daa937720b6b879472b47bbdc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992089"
 ---
 # <a name="ih323lineexsetexternalt120address-method"></a>IH323LineEx :: SetExternalT120Address, méthode
 
-\[**SetExternalT120Address** n’est pas disponible pour une utilisation dans Windows Vista, windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[**SetExternalT120Address** n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **SetExternalT120Address** est appelée par une application pour configurer une adresse T. 120 externe pour l’échange de données. La fonctionnalité T. 120 sera publiée au cours de la négociation H. 245, et l’adresse sera utilisée dans l’accusé de réception du canal logique ouvert afin que l’autre point de terminaison puisse configurer T. 120 sessions avec le service à l’écoute sur cette adresse. Si cette fonction n’est pas appelée, le fournisseur de services H. 323 ne publiera pas la fonctionnalité T. 120.
 

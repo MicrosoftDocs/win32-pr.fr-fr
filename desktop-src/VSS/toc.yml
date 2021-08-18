@@ -7,11 +7,11 @@
         - name: Nouveautés de VSS
           href: what-s-new-in-vss.md
           items:
-            - name: Nouveautés de VSS dans Windows Server 2008 R2 et Windows 7
+            - name: nouveautés de VSS dans Windows Server 2008 R2 et Windows 7
               href: what-s-new-in-vss-in-windows-server-2008-r2-and-windows-7.md
-            - name: Nouveautés de VSS dans Windows Server 2008 et Windows Vista SP1
+            - name: nouveautés de VSS dans Windows Server 2008 et Windows Vista SP1
               href: what-s-new-in-vss-in-windows-server-2008-and-windows-vista-sp1.md
-            - name: Nouveautés de VSS dans Windows Vista
+            - name: nouveautés de VSS dans Windows Vista
               href: what-s-new-in-vss-in-windows-vista.md
               items:
                 - name: Compatibilité des applications pour la sauvegarde et la restauration
@@ -25,18 +25,18 @@
                       href: working-with-file-system-and-security-features.md
                     - name: Points de jonction
                       href: junction-points.md
-            - name: Nouveautés de VSS dans Windows Server 2003 SP1
+            - name: nouveautés de VSS dans Windows Server 2003 SP1
               href: what-s-new-in-vss-in-windows-server-2003-sp1.md
-            - name: Nouveautés de VSS dans Windows Server 2003
+            - name: nouveautés de VSS dans Windows Server 2003
               href: what-s-new-in-vss-in-windows-server-2003.md
               items:
-                - name: Résumé des modifications de l’API VSS dans Windows Server 2003
+                - name: résumé des modifications de l’API VSS dans Windows Server 2003
                   href: summary-of-vss-api-changes-in-the-current-release.md
-                - name: Nouvelles fonctionnalités disponibles dans Windows Server 2003
+                - name: nouvelles fonctionnalités disponibles dans Windows Server 2003
                   href: new-functionality-available-in-the-current-release.md
-                - name: Fonctionnalités supprimées de Windows Server 2003
+                - name: fonctionnalités supprimées du serveur Windows 2003
                   href: functionality-removed-from-the-current-release.md
-                - name: Modifications sémantiques apportées à Windows Server 2003
+                - name: modifications sémantiques apportées au serveur Windows 2003
                   href: semantic-changes-to-the-current-release.md
                 - name: Restrictions dans Windows Server 2003
                   href: restrictions-in-the-current-release-of-vss.md
@@ -271,7 +271,7 @@
               items:
                 - name: Arrêt des services pour la restauration par les demandeurs
                   href: stopping-services-for-restore-by-requestors.md
-                - name: Sauvegarde et restauration de l’état du système dans Windows Server 2003 R2 et Windows Server 2003 SP1
+                - name: sauvegarde et restauration de l’état du système dans Windows server 2003 R2 et Windows server 2003 SP1
                   href: backing-up-and-restoring-system-state-under-vss.md
                 - name: Utilisation de la récupération automatique du système VSS pour la récupération d’urgence
                   href: using-vss-automated-system-recovery-for-disaster-recovery.md
@@ -1097,7 +1097,7 @@
     - name: Glossaire des clichés instantanés de volume
       href: volume-shadow-copy-glossary.md
       items:
-        - name: Un
+        - name: A
           href: vssgloss-a.md
         - name: B
           href: vssgloss-b.md

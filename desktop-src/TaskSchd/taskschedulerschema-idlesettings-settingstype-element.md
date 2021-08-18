@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5ae8b7953f31d7e9c6f01387d3136f01d8ab697a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc0a4c3fc978c93d13be8faa62012d3928d47da5b5a214ce50f5506992f1fc8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991218"
 ---
 # <a name="idlesettings-settingstype-element"></a>Élément IdleSettings (settingsType)
 
@@ -51,7 +51,7 @@ L’élément **IdleSettings** est défini par le type complexe [**settingsType*
 | **Déconseillé**: [ **durée**](taskschedulerschema-duration-idlesettingstype-element.md)                | duration | Spécifie la durée pendant laquelle l’ordinateur doit être dans un état inactif avant que la tâche ne soit exécutée.<br/>                              |
 | **Déconseillé**: [ **WaitTimeout**](taskschedulerschema-waittimeout-idlesettingstype-element.md)          | duration | Spécifie la durée pendant laquelle le Planificateur de tâches attendra qu’une condition d’inactivité se produise.<br/>                |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de scripts, les paramètres inactifs sont spécifiés à l’aide de la propriété [**TaskSettings. IdleSettings**](tasksettings-idlesettings.md) .
 
@@ -77,8 +77,8 @@ Le code XML suivant définit un élément Settings qui permet à Planificateur d
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 ## <a name="see-also"></a>Voir aussi
 

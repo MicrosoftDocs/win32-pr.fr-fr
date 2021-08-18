@@ -16,12 +16,12 @@ keywords:
 - partage de bande passante, obtention des informations de profil lors de la lecture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4a5c7083f7bf9e986e8a23ba2c78dfe4404942a
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 4c0f9386301b426adb3c4c425ac9329309c7e45146e312cc41df0bd1c453d485
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104101277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839919"
 ---
 # <a name="getting-profile-information-at-playback"></a>Obtention d’informations de profil lors de la lecture
 
@@ -50,7 +50,7 @@ Les objets de partage de bande passante inclus dans un profil sont inclus unique
 > [!Note]  
 > Les informations du profil utilisé pour créer un fichier ne sont pas toutes présentes dans l’en-tête de fichier. En règle générale, les données qui sont utilisées uniquement au moment de l’encodage ne sont pas conservées dans le fichier. Cela comprend les paramètres d’entrée qui ont été définis à l’aide de la méthode [**IWMWriterAdvanced2 :: SetInputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting) , ainsi que les propriétés définies à l’aide de la méthode [**IWMPropertyVault :: SetProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty) .
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -62,9 +62,9 @@ Les objets de partage de bande passante inclus dans un profil sont inclus unique
 [**Lecture des fichiers ASF**](reading-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

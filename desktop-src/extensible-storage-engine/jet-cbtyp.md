@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0b01bafad091ed17e018793ea701596aef6d0d72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa797fac58b0a2663c918e7fef739c6c5ab536dcfa9dc91be13b8196aed5ef43
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945909"
 ---
 # <a name="jet_cbtyp"></a>JET_CBTYP
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_cbtyp"></a>JET_CBTYP
 
 Le **JET_CBTYP** groupe de constantes décrit tous les points possibles d’une opération que le moteur de base de données notifiera à une application en appelant la fonction de rappel [JET_CALLBACK](./jet-callback-callback-function.md) . Le moteur de base de données passe une de ces constantes dans le paramètre *cbtyp* de la fonction de rappel. La signification des autres paramètres passés par le moteur de base de données dans cet appel dépend de la **JET_CBTYP** spécifique passée.
 
-**Windows XP :**  Le **JET_CBTYP** groupe de constantes est introduit dans Windows XP.
+**Windows XP :**  le **JET_CBTYP** groupe de constantes est introduit dans Windows XP.
 
 <table>
 <colgroup>
@@ -191,7 +191,7 @@ Le **JET_CBTYP** groupe de constantes décrit tous les points possibles d’une 
 <tr class="odd">
 <td><p>JET_cbtypFreeCursorLS<br />
 0x00000200</p></td>
-<td><p>Ce rappel se produit lorsque l’application doit nettoyer le descripteur de contexte pour le stockage local associé à un curseur libéré par le moteur de base de données. Pour plus d’informations, consultez <a href="gg269243(v=exchg.10).md">JetSetLS</a>.</p>
+<td><p>ce rappel se produit lorsque l’application doit nettoyer le handle de contexte pour l’Stockage Local associée à un curseur libéré par le moteur de base de données. Pour plus d’informations, consultez <a href="gg269243(v=exchg.10).md">JetSetLS</a>.</p>
 <p>Le pointeur de fonction pour cette raison de rappel est configuré au moyen de <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> avec <a href="gg269310(v=exchg.10).md">JET_paramRuntimeCallback</a>.</p>
 <p>Les paramètres de rappel auront les valeurs suivantes :</p>
 <ul>
@@ -208,7 +208,7 @@ Le **JET_CBTYP** groupe de constantes décrit tous les points possibles d’une 
 <tr class="even">
 <td><p>JET_cbtypFreeTableLS<br />
 0x00000400</p></td>
-<td><p>Ce rappel se produit en raison de la nécessité pour l’application de nettoyer le descripteur de contexte pour le stockage local associé à une table qui est publiée par le moteur de base de données. Pour plus d’informations, consultez <a href="gg269243(v=exchg.10).md">JetSetLS</a>.</p>
+<td><p>ce rappel se produit en raison de la nécessité pour l’application de nettoyer le descripteur de contexte pour le Stockage Local associé à une table qui est libérée par le moteur de base de données. Pour plus d’informations, consultez <a href="gg269243(v=exchg.10).md">JetSetLS</a>.</p>
 <p>Le pointeur de fonction pour cette raison de rappel est configuré au moyen de <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> avec <a href="gg269310(v=exchg.10).md">JET_paramRuntimeCallback</a>.</p>
 <p>Les paramètres de rappel auront les valeurs suivantes :</p>
 <ul>
@@ -236,11 +236,11 @@ Le **JET_CBTYP** groupe de constantes décrit tous les points possibles d’une 
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
+<td><p>requiert Windows Vista ou Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
+<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

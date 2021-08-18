@@ -4,18 +4,18 @@ ms.assetid: 3656684a-de95-45e1-9c78-5c1cc8ca879a
 title: Type de dialogue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39ed04dece5702d232f252caa7c0ee02e7576246
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47f945b499cfab5ca8b3bf85180c16d9be88f4093b258513a11b5059874cb403
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764019"
 ---
 # <a name="dialog-type"></a>Type de dialogue
 
 Le type de dialogue de [type sémantique](semantic-types.md) est l’un des [types de format de clé](key-format-types.md). Ce type se compose d’une clé étrangère dans la [table de boîtes de dialogue](dialog-table.md) fournie par l’utilisateur.
 
-L’outil de fusion doit substituer un [identificateur](identifier.md) de Windows Installer valide pour les éléments de ce type. Mergemod.dll n’applique pas cette restriction et c’est à l’outil de fusion de s’assurer que l’utilisateur fournit une clé valide dans la table de dialogue.
+l’outil de fusion doit substituer un [identificateur](identifier.md) de Windows Installer valide pour les éléments de ce type. Mergemod.dll n’applique pas cette restriction et c’est à l’outil de fusion de s’assurer que l’utilisateur fournit une clé valide dans la table de dialogue.
 
 NULL est une valeur valide pour ce type, sauf si msmConfigItemNonNullable a été inclus dans le champ Attributes de la [table ModuleConfiguration](moduleconfiguration-table.md).
 

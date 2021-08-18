@@ -4,16 +4,16 @@ ms.assetid: e84a05a0-ea12-4bc1-83e1-1eb0dd291dc9
 title: Objet Pack
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02b01978747df5ccc273a31ae2f516b35c01df96
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: eaa8c565c45b802258b9d8b9955a2d28adc13c73c989805ce6b2663bc3006d7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104570194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058021"
 ---
 # <a name="pack-object"></a>Objet Pack
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Un objet Pack modélise un groupe de disques, un ensemble de disques et de volumes gérés par le fournisseur de logiciels de base ou dynamique. Un fournisseur peut contenir plusieurs objets Pack.
 
@@ -26,7 +26,7 @@ Un objet Pack modélise un groupe de disques, un ensemble de disques et de volum
 
 Les objets disque ne sont pas alloués et gérés par VDS, ou ils sont membres d’un seul Pack. Le fournisseur de logiciels de base peut comporter zéro, un ou plusieurs packs, chacun contenant un seul disque de base. Le fournisseur n’impose aucune limite au nombre de volumes sur un disque de base. Le fournisseur dynamique peut avoir zéro, un ou plusieurs packs avec plusieurs disques dynamiques dans chaque Pack. Ce fournisseur limite le nombre de volumes sur un disque, en fonction de la taille d’un mégaoctet de la base de données du gestionnaire de disque logique (LDM). Étant donné qu’un volume a au moins un plex et une extension de disque, le nombre maximal de volumes pour un Pack est d’environ 1000. Le nombre maximal de disques tombe en panne.
 
-En plus des objets disque, un pack peut contenir un ou plusieurs objets LUN implémentés par un ou plusieurs fournisseurs de matériel. Pour le noyau Windows, un numéro d’unité logique est simplement un autre disque. (Les objets LUN doivent être démasqués sur l’ordinateur qui exécute le programme fournisseur.) Lorsque le disque est un numéro d’unité logique (LUN), l’objet LUN expose les interfaces [**IVdsLun**](/windows/desktop/api/Vds/nn-vds-ivdslun) et [**IVdsDisk**](/windows/desktop/api/Vds/nn-vds-ivdsdisk) . Un objet Pack utilise **IVdsDisk**, au lieu de **IVdsLun**, pour énumérer les numéros d’unités logiques dans un Pack. Pour obtenir une description plus détaillée d’un numéro d’unité logique, consultez l' [objet lun](lun-object.md).
+En plus des objets disque, un pack peut contenir un ou plusieurs objets LUN implémentés par un ou plusieurs fournisseurs de matériel. pour le noyau Windows, un numéro d’unité logique est simplement un autre disque. (Les objets LUN doivent être démasqués sur l’ordinateur qui exécute le programme fournisseur.) Lorsque le disque est un numéro d’unité logique (LUN), l’objet LUN expose les interfaces [**IVdsLun**](/windows/desktop/api/Vds/nn-vds-ivdslun) et [**IVdsDisk**](/windows/desktop/api/Vds/nn-vds-ivdsdisk) . Un objet Pack utilise **IVdsDisk**, au lieu de **IVdsLun**, pour énumérer les numéros d’unités logiques dans un Pack. Pour obtenir une description plus détaillée d’un numéro d’unité logique, consultez l' [objet lun](lun-object.md).
 
 L’illustration suivante montre un pack avec deux membres : un disque et un numéro d’unité logique (LUN). Une application peut ajouter ces objets à un Pack en ligne et créer un volume à partir du disque sous-jacent et des étendues de lecteur représentées par des piles de disques.
 
@@ -54,7 +54,7 @@ Le tableau suivant répertorie les interfaces, énumérations et structures asso
 
  
 
-**\* Windows Server 2003 :** cette interface n’est pas prise en charge jusqu’à Windows Vista.
+**\* Windows Server 2003 :** cette interface n’est pas prise en charge tant que Windows Vista.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

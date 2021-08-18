@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b606a834b394197960777fa485d112a94212ec45
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fb78ad08dd5ba5494181d3fb2adecb7a8441e4716c42ba6cd4f1c119b3ccb046
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103726965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067229"
 ---
 # <a name="in-attribute"></a>in (attribut)
 
@@ -54,7 +54,7 @@ Spécifie zéro ou plusieurs déclarateurs de pointeur. Un déclarateur de point
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la procédure distante.
@@ -75,7 +75,7 @@ Spécifie les déclarateurs C standard, tels que les identificateurs, les décla
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **\[ in \]** a un attribut réciproque, **\[** [**out**](out-idl.md) **\]** , qui indique qu’un paramètre doit être retourné à partir de la procédure appelée à la procédure appelante. Les attributs in et **\[ out \]** sont appelés attributs **\[ de \]** paramètres directionnels, car ils spécifient la direction dans laquelle les paramètres sont passés. Un paramètre peut être défini comme **\[ in \]**, **\[ out \]** ou **\[ in**, **out \]**.
 
@@ -102,6 +102,6 @@ HRESULT MyFunction([in] short count);
 [**à**](out-idl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
