@@ -1,5 +1,5 @@
 ---
-description: Représente un service d’appareil virtuel de la plateforme Microsoft Windows Hyper-V.
+description: représente un service d’appareil virtuel de la plateforme Microsoft Windows Hyper-V.
 ms.assetid: 865D83E1-0FC6-4F96-94BB-AA5116890127
 title: Classe Msvm_VirtualSystemResourceComponent
 ms.topic: reference
@@ -21,16 +21,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 81c2d31a6497325ac77003ded266333518de890a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0758858e9e45066cdfaddf36616c7861bbae914b12e3698665f8650c6c57d67c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119340169"
 ---
 # <a name="msvm_virtualsystemresourcecomponent-class"></a>MSVM \_ VirtualSystemResourceComponent, classe
 
-Représente un service d’appareil virtuel de la plateforme Microsoft Windows Hyper-V.
+représente un service d’appareil virtuel de la plateforme Microsoft Windows Hyper-V.
 
 La syntaxe suivante est simplifiée format MOF (MOF) et comprend toutes les propriétés héritées.
 
@@ -101,7 +101,7 @@ Contexte dans lequel l’objet nouvellement créé s’exécutera. Cette valeur 
 
 </dd> <dt>
 
-**Enabled**
+**Activé**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -172,7 +172,7 @@ Relation de l’objet WMI décrit ici avec l’appareil virtuel.
 | Valeur                                                                                                                                                                                                                                                           | Signification                                                                                                                                                                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="_Not_Changeable_"></span><span id="_not_changeable_"></span><span id="_NOT_CHANGEABLE_"></span><dl> <dt>**« Non modifiable »**</dt> <dt>0</dt> </dl> |                                                                                                                                                                                                                |
-| <span id="_Singleton_"></span><span id="_singleton_"></span><span id="_SINGLETON_"></span><dl> <dt>**"Singleton"**</dt> <dt>1</dt> </dl>                     | Singleton est un objet WMI de niveau supérieur qui est lié 1:1 avec un appareil virtuel et qui ne peut exister qu’une seule fois par ordinateur virtuel. Il s’agit de la valeur par défaut.<br/>                                                  |
+| <span id="_Singleton_"></span><span id="_singleton_"></span><span id="_SINGLETON_"></span><dl> <dt>**"Singleton"**</dt> <dt>1</dt> </dl>                     | Singleton est un objet WMI de niveau supérieur qui est lié 1:1 avec un appareil virtuel et qui ne peut exister qu’une seule fois par ordinateur virtuel. Il s'agit de la valeur par défaut.<br/>                                                  |
 | <span id="_MultiInstance_"></span><span id="_multiinstance_"></span><span id="_MULTIINSTANCE_"></span><dl> <dt>**« MultiInstance »**</dt> <dt>2</dt> </dl>     | Multi-instance est un objet WMI de niveau supérieur qui peut exister plusieurs fois par machine virtuelle et est lié 1:1 avec un appareil virtuel.<br/>                                                                    |
 | <span id="_Subdevice_"></span><span id="_subdevice_"></span><span id="_SUBDEVICE_"></span><dl> <dt>**« Sous-appareil »**</dt> <dt>3</dt> </dl>                     | Le sous-appareil est un objet WMI qui n’a pas de référence parent, mais qui est contrôlé par un seul appareil virtuel qui ne peut exister qu’une seule fois par ordinateur virtuel. L’objet WMI peut cependant exister plusieurs fois.<br/> |
 
@@ -182,7 +182,7 @@ Relation de l’objet WMI décrit ici avec l’appareil virtuel.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ VirtualSystemResourceComponent** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -192,8 +192,8 @@ L’accès à la classe **MSVM \_ VirtualSystemResourceComponent** peut être li
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Fin de la prise en charge des clients<br/>    | Windows 8.1<br/>                                                                                  |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |

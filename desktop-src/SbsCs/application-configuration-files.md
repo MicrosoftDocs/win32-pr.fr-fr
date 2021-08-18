@@ -4,12 +4,12 @@ ms.assetid: b7453f2b-52a4-4af9-8410-ebbb430ada67
 title: Fichiers de configuration des applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b1a2e0f6b493c217aded9e11507f660d517b400
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cf4b22d3710c0dd38e83f827a175ad591309f22ab8ac2d81e93438f27d07dc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142522"
 ---
 # <a name="application-configuration-files"></a>Fichiers de configuration des applications
 
@@ -56,7 +56,7 @@ Les fichiers de configuration de l’application doivent être installés au mê
 
 ## <a name="file-name-syntax"></a>Syntaxe du nom de fichier
 
-Le nom d’un fichier de configuration d’application est le nom de l’exécutable d’application suivi de. config.
+Le nom d’un fichier de configuration d’application est le nom de l’exécutable d’application suivi de .config.
 
 Par exemple, un fichier de configuration d’application qui fait référence à Example.exe ou Example.dll utiliserait la syntaxe de nom de fichier indiquée dans l’exemple suivant. Vous pouvez omettre le champ pour <*ID de ressource*> si vous installez le fichier de configuration en tant que fichier distinct ou si l’ID de ressource est 1.
 
@@ -81,7 +81,7 @@ Les noms des éléments et des attributs respectent la casse. Les valeurs des é
 Comprend les parties du fichier de configuration de l’application qui s’appliquent à la redirection des assemblys Win32.
 
 > [!Note]  
-> L’auteur d’une application ne doit pas inclure un fichier de configuration avec un sous-élément **Windows** dans le cadre de son application. Cela peut être autorisé si le seul objectif du fichier de configuration est d’activer la fonctionnalité **privatePath** d’un élément de **détection** . L’élément de **détection** n’est pas disponible sur les systèmes antérieurs à windows Server 2008 R2 et Windows 7.
+> L’auteur d’une application ne doit pas inclure un fichier de configuration avec un sous-élément **Windows** dans le cadre de son application. Cela peut être autorisé si le seul objectif du fichier de configuration est d’activer la fonctionnalité **privatePath** d’un élément de **détection** . l’élément de **détection** n’est pas disponible sur les systèmes antérieurs à Windows Server 2008 R2 et Windows 7.
 
 <span id="publisherPolicy"></span><span id="publisherpolicy"></span><span id="PUBLISHERPOLICY"></span>
 
@@ -109,7 +109,7 @@ Comprend les parties du fichier de configuration de l’application qui s’appl
 
 Comprend les informations de redirection pour l’application et l’assembly affecté par ce fichier de configuration de l’application. Le premier sous-élément de **assemblyBinding** doit être un **assemblyIdentity** qui identifie l’application.
 
-À compter de Windows Server 2008 R2 et Windows 7, un élément **assemblyBinding** peut inclure un sous-élément de **détection** .
+à compter de Windows Server 2008 R2 et Windows 7, un élément **assemblyBinding** peut inclure un sous-élément de **détection** .
 
 <span id="probing"></span><span id="PROBING"></span>
 
@@ -118,7 +118,7 @@ Comprend les informations de redirection pour l’application et l’assembly af
 Sous-élément facultatif d’un élément **assemblyBinding** qui étend la recherche d’assemblys dans des répertoires supplémentaires. Les répertoires supplémentaires ne sont pas requis pour être des sous-répertoires du répertoire de l’assembly.
 
 > [!Note]  
-> Cet élément n’est pas disponible sur les systèmes antérieurs à Windows Server 2008 R2 et Windows 7 et peut uniquement être utilisé dans un élément **Windows** .
+> cet élément n’est pas disponible sur les systèmes antérieurs à Windows Server 2008 R2 et Windows 7 et ne peut être utilisé que dans un élément **Windows** .
 
 Cet élément a les attributs répertoriés dans le tableau suivant.
 
@@ -135,7 +135,7 @@ Vous pouvez utiliser le spécificateur spécial à deux points dans un chemin d�
 <span id="dependency"></span><span id="DEPENDENCY"></span>
 
 ### <a name="dependency"></a>dependency
-Élément conteneur pour au moins un élément **dependentAssembly**. Chaque **dependentAssembly** peut se trouver dans une seule **dépendance**. Cet élément n’a pas d’attributs. Optionnel.
+Élément conteneur pour au moins un élément **dependentAssembly**. Chaque **dependentAssembly** peut se trouver dans une seule **dépendance**. Cet élément n’a pas d’attributs. Facultatif.
 
 <span id="dependentAssembly"></span><span id="dependentassembly"></span><span id="DEPENDENTASSEMBLY"></span>
 
@@ -153,7 +153,7 @@ En tant que premier sous-élément d’un élément **assemblyBinding** , **asse
 <assemblyIdentity processorArchitecture="X86" name="Microsoft.Windows.mysampleApp" type="win32" version="1.0.0.0"/>
 ```
 
-En tant que premier sous-élément d’un élément **dependentAssembly** , **assemblyIdentity** décrit un assembly côte à côte dont dépend l’application. Le fichier de configuration de l’application reconfigure l’identité de cet assembly requis. Par exemple, les conditions **assemblyIdentity** et **bindingRedirect** suivantes reconfigurent une dépendance sur Microsoft. Windows. SampleAssembly, de la version 2.0.0.0 à la version 2.1.0.0.
+En tant que premier sous-élément d’un élément **dependentAssembly** , **assemblyIdentity** décrit un assembly côte à côte dont dépend l’application. Le fichier de configuration de l’application reconfigure l’identité de cet assembly requis. Par exemple, les conditions **assemblyIdentity** et **bindingRedirect** suivantes reconfigurent une dépendance sur Microsoft. Windows. SampleAssembly de la version 2.0.0.0 à la version 2.1.0.0.
 
 ``` XML
 <dependency>
@@ -175,7 +175,7 @@ L’élément **assemblyIdentity** a les attributs suivants. Il n’a pas de sou
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **type**                  | La valeur doit être Win32 (en minuscules). Obligatoire.                                                                                                                                                                                                                                                                      |
 | **name**                  | L’attribut Name identifie l’application affectée par le fichier de configuration de l’application ou l’assembly en cours de redirection. Utilisez le format suivant pour le nom : Organization.Division.Name. Obligatoire. Par exemple : Microsoft. Windows. MysampleApp ou Microsoft. Windows. MysampleAsm.<br/>            |
-| **language**              | Identifie la langue. Optionnel. Pour un **assemblyIdentity** faisant référence à un assembly, si l’assembly est spécifique à une langue, spécifiez le code de langue DHTML. Si l’assembly est destiné à une utilisation mondiale (langue neutre), définissez la valeur sur « \* ».<br/>                                                            |
+| **language**              | Identifie la langue. Facultatif. Pour un **assemblyIdentity** faisant référence à un assembly, si l’assembly est spécifique à une langue, spécifiez le code de langue DHTML. Si l’assembly est destiné à une utilisation mondiale (langue neutre), définissez la valeur sur « \* ».<br/>                                                            |
 | **processorArchitecture** | Spécifie le processeur qui exécute l’application.                                                                                                                                                                                                                                                                     |
 | **version**               | Spécifie la version de l’application ou de l’assembly. Utilisez la syntaxe de version en quatre parties : MMMM. nnnn. oooo. pppp. Obligatoire.                                                                                                                                                                                                   |
 | **publicKeyToken**        | Pour un **assemblyIdentity** faisant référence à un assembly, une chaîne hexadécimale de 16 caractères représentant les 8 derniers octets du hachage SHA-1 de la clé publique sous laquelle l’assembly est signé. La clé publique utilisée pour signer le catalogue doit être supérieure ou égale à 2048 bits. Obligatoire pour tous les assemblys côte à côte partagés. |
@@ -193,7 +193,7 @@ Cet élément a les attributs répertoriés dans le tableau suivant.
 | **oldVersion** | Spécifie la version de l’assembly qui est substituée et redirigée. Utilisez la syntaxe de version en quatre parties nnnnn. nnnnn. nnnnn. nnnnn. Spécifiez une plage de versions par un tiret sans espaces. Par exemple, 2.14.3.0 ou 2.14.3.0 2.16.0.0. Obligatoire. |
 | **newVersion** | Spécifie la version de l’assembly de remplacement. Utilisez la syntaxe de version en quatre parties nnnnn. nnnnn. nnnnn. nnnnn.                                                                                                                                     |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fichiers de configuration de l’application ne spécifient pas de fichiers.
 

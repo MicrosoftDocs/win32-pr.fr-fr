@@ -3,7 +3,7 @@ title: Événement KeyUp de l’objet AxWindowsMediaPlayer
 description: L’événement KeyUp se produit lorsqu’une touche est relâchée. | Événement KeyUp de l’objet AxWindowsMediaPlayer
 ms.assetid: db814481-6099-4dbd-8ab1-808e1875ae35
 keywords:
-- Événement KeyUp de l’objet AxWindowsMediaPlayer lecteur Windows Media
+- événement KeyUp de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 509f520ff7624b0b29302d7bf5cd825cd45b4254
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c3a2666268e2c12e74c6498446ff49bde69dd30cf9819a7899e88a8b8ee4466
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136012"
 ---
 # <a name="keyup-event-of-the-axwindowsmediaplayer-object"></a>Événement KeyUp de l’objet AxWindowsMediaPlayer
 
@@ -70,7 +70,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

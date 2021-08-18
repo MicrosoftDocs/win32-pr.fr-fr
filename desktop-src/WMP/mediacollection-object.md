@@ -3,7 +3,7 @@ title: Objet MediaCollection
 description: L’objet MediaCollection offre un moyen d’organiser une grande collection d’éléments multimédias. Elle peut être interrogée pour générer automatiquement des sélections.
 ms.assetid: afcb2c51-3ecb-4529-8f3e-56aa6d0ec2b4
 keywords:
-- Objet MediaCollection lecteur Windows Media
+- objet MediaCollection Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2232e3590acd371039494b31c5d592c2e00f0199
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 8e529bec203b836f1f1022793a18320a7612cb242de58407ddb998c7410a47cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106513503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996249"
 ---
 # <a name="mediacollection-object"></a>Objet MediaCollection
 
@@ -49,7 +49,7 @@ L’objet **MediaCollection** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’objet **MediaCollection** est accessible par le biais de la propriété suivante.
 
@@ -61,7 +61,7 @@ L’objet **MediaCollection** est accessible par le biais de la propriété suiv
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,9 +70,9 @@ L’objet **MediaCollection** est accessible par le biais de la propriété suiv
 [**Référence du modèle objet pour l’écriture de scripts**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

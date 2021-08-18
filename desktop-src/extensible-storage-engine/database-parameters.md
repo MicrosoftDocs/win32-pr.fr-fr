@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8849096412fa77db107e3e866a20662bb2634665
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13de02c7d322933f64361cfdabcb8f95ead837ad915ad69c3961a8b8874d5b9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117559"
 ---
 # <a name="database-parameters"></a>Paramètres de base de données
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="database-parameters"></a>Paramètres de base de données
 
@@ -43,7 +43,7 @@ Quand ce paramètre est défini, [JetInit](./jetinit-function.md) renvoie une er
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Error</p></th>
+<th><p>Erreur</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -64,7 +64,7 @@ Quand ce paramètre est défini, [JetInit](./jetinit-function.md) renvoie une er
 </table>
 
 
-**Windows Vista :**  Pour Windows Vista et versions ultérieures, ce paramètre est obsolète et n’affecte pas le fonctionnement du moteur de base de données.
+**Windows Vista :**  pour Windows Vista et versions ultérieures, ce paramètre est obsolète et n’affecte pas le fonctionnement du moteur de base de données.
 
 <table>
 <colgroup>
@@ -139,7 +139,7 @@ Ce paramètre configure la taille de page pour la base de données. La taille de
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -198,7 +198,7 @@ Ce paramètre contrôle la quantité d’espace qui est ajoutée à un fichier d
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -215,7 +215,7 @@ Ce paramètre contrôle la quantité d’espace qui est ajoutée à un fichier d
 <tr class="even">
 <td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
 <td><p>Non</p>
-<p><strong>Windows Vista :</strong>  Pour Windows Vista et versions ultérieures : Oui</p></td>
+<p><strong>Windows Vista :</strong>  pour Windows Vista et versions ultérieures : oui</p></td>
 </tr>
 <tr class="odd">
 <td><p>Affecte la disposition physique :</p></td>
@@ -275,7 +275,7 @@ Si des index secondaires sont détectés comme étant dans cet État, il existe 
 <tr class="even">
 <td><p>Étendue :</p></td>
 <td><p>Global</p>
-<p><strong>Windows Vista :</strong>  Pour Windows Vista et versions ultérieures : instance</p></td>
+<p><strong>Windows Vista :</strong>  pour Windows Vista et versions ultérieures : Instance</p></td>
 </tr>
 <tr class="odd">
 <td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
@@ -312,7 +312,7 @@ Si des index secondaires sont détectés comme étant dans cet État, il existe 
 *JET_paramEnableIndexCleanup*  
 54  
 
-Lorsque ce paramètre est défini sur true, le moteur de base de données peut nettoyer automatiquement les index sur les colonnes de clés Unicode au moment [JetInit](./jetinit-function.md) pour éviter les modifications de format de base de données dues à des modifications apportées à la bibliothèque NLS dans Windows. Ces modifications sont régulièrement apportées à la bibliothèque NLS pour ajouter la prise en charge de nouvelles langues, pour ajouter des caractères manquants à une langue, pour ajouter un ordre de classement à une langue ou pour corriger les bogues dans l’ordre de classement d’une langue. Ces modifications affectent les clés de tri produites par [LCMapStringW](/windows/win32/api/winnls/nf-winnls-lcmapstringa) qui sont rendues persistantes par le moteur de base de données en tant que composants des clés d’index.
+Lorsque ce paramètre est défini sur true, le moteur de base de données peut nettoyer automatiquement les index sur les colonnes de clés Unicode au moment [JetInit](./jetinit-function.md) pour éviter les modifications de format de base de données provoquées par les modifications apportées à la bibliothèque NLS dans Windows. Ces modifications sont régulièrement apportées à la bibliothèque NLS pour ajouter la prise en charge de nouvelles langues, pour ajouter des caractères manquants à une langue, pour ajouter un ordre de classement à une langue ou pour corriger les bogues dans l’ordre de classement d’une langue. Ces modifications affectent les clés de tri produites par [LCMapStringW](/windows/win32/api/winnls/nf-winnls-lcmapstringa) qui sont rendues persistantes par le moteur de base de données en tant que composants des clés d’index.
 
 Il est important de comprendre qu’il est possible que les modifications apportées à l’index soient tellement importantes qu’un nettoyage incrémentiel n’est pas possible. Dans ce cas, l’index sera géré conformément aux indications de **JET_paramEnableIndexChecking**.
 
@@ -347,7 +347,7 @@ Il est important de comprendre qu’il est possible que les modifications apport
 <tr class="even">
 <td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
 <td><p>Non</p>
-<p><strong>Windows Vista :</strong>  Pour Windows Vista et versions ultérieures : Oui</p></td>
+<p><strong>Windows Vista :</strong>  pour Windows Vista et versions ultérieures : oui</p></td>
 </tr>
 <tr class="odd">
 <td><p>Affecte la disposition physique :</p></td>
@@ -367,7 +367,7 @@ Il est important de comprendre qu’il est possible que les modifications apport
 </tr>
 <tr class="odd">
 <td><p>Disponibilité :</p></td>
-<td><p>Windows Server 2003 et versions ultérieures</p></td>
+<td><p>Windows Versions 2003 et ultérieures du serveur</p></td>
 </tr>
 </tbody>
 </table>
@@ -378,9 +378,9 @@ Il est important de comprendre qu’il est possible que les modifications apport
 
 Lorsque ce paramètre a la valeur true, une seule base de données peut être ouverte à l’aide de [JetOpenDatabase](./jetopendatabase-function.md) par une session donnée à un moment donné. La base de données temporaire est exclue de cette restriction.
 
-**Windows XP et Windows Server 2003 :**  Ce paramètre est écrit uniquement sur Windows XP et Windows Server 2003.
+**Windows XP et Windows Server 2003 :**  ce paramètre est écrit uniquement sur Windows XP et Windows Server 2003.
 
-**Windows Vista :**  Ce paramètre se comporte normalement à partir de Windows Vista.
+**Windows Vista :**  ce paramètre se comporte normalement à partir de Windows Vista.
 
 **Remarque**  Ce paramètre est en écriture seule.
 
@@ -409,7 +409,7 @@ Lorsque ce paramètre a la valeur true, une seule base de données peut être ou
 <tr class="odd">
 <td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
 <td><p>Non</p>
-<p><strong>Windows Vista :</strong>  Pour Windows Vista et versions ultérieures : Oui</p></td>
+<p><strong>Windows Vista :</strong>  pour Windows Vista et versions ultérieures : oui</p></td>
 </tr>
 <tr class="even">
 <td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
@@ -444,9 +444,9 @@ Lorsque ce paramètre a la valeur true, une seule base de données peut être ou
 
 Ce paramètre contrôle le comportement de la défragmentation en ligne lorsqu’elle est lancée à l’aide de [JetDefragment](./jetdefragment-function.md). Pour plus d’informations, consultez [JetDefragment](./jetdefragment-function.md) .
 
-Windows 2000 : sur Windows 2000, ce paramètre était une valeur booléenne simple qui porterait sur la défragmentation en ligne lorsqu’elle était initiée par [JetDefragment](./jetdefragment-function.md). Lorsque la valeur est **true**, la défragmentation en ligne est effectuée sur les enregistrements de chaque table de la base de données.
+Windows 2000 : sur Windows 2000, ce paramètre était un booléen simple qui porterait sur la défragmentation en ligne lors de son lancement par [JetDefragment](./jetdefragment-function.md). Lorsque la valeur est **true**, la défragmentation en ligne est effectuée sur les enregistrements de chaque table de la base de données.
 
-**Windows XP :**  Sur Windows XP et versions ultérieures, ce paramètre peut être défini sur une ou plusieurs des options suivantes :
+**Windows XP :**  sur Windows XP et les versions ultérieures, ce paramètre peut être défini sur une ou plusieurs des options suivantes :
 
 <table>
 <colgroup>
@@ -462,11 +462,11 @@ Windows 2000 : sur Windows 2000, ce paramètre était une valeur booléenne sim
 <tbody>
 <tr class="odd">
 <td><p>JET_OnlineDefragDisable</p></td>
-<td><p>N’effectuez pas de défragmentation en ligne. Il s’agit du binaire équivalent au paramètre Windows 2000 de la valeur false pour ce paramètre.</p></td>
+<td><p>N’effectuez pas de défragmentation en ligne. il s’agit du binaire équivalent au paramètre Windows 2000 de la valeur false pour ce paramètre.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_OnlineDefragAllOBSOLETE</p></td>
-<td><p>Effectuez une défragmentation en ligne complète. Il s’agit du binaire équivalent au paramètre Windows 2000 de true pour ce paramètre.</p></td>
+<td><p>Effectuez une défragmentation en ligne complète. il s’agit du binaire équivalent au paramètre Windows 2000 de True pour ce paramètre.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_OnlineDefragDatabases</p></td>
@@ -478,11 +478,11 @@ Windows 2000 : sur Windows 2000, ce paramètre était une valeur booléenne sim
 </tr>
 <tr class="odd">
 <td><p>JET_OnlineDefragStreamingFiles</p></td>
-<td><p>Ce paramètre est utilisé pour prendre en charge l’infrastructure Microsoft Exchange et n’est pas destiné à être utilisé dans votre application.</p></td>
+<td><p>ce paramètre est utilisé pour prendre en charge l’infrastructure Microsoft Exchange et n’est pas destiné à être utilisé dans votre application.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_OnlineDefragAll</p></td>
-<td><p>Effectuez une défragmentation en ligne complète. Il s’agit du concept conceptuel équivalent au paramètre Windows 2000 de true pour ce paramètre.</p></td>
+<td><p>Effectuez une défragmentation en ligne complète. il s’agit du concept conceptuel équivalent au paramètre Windows 2000 de True pour ce paramètre.</p></td>
 </tr>
 </tbody>
 </table>
@@ -497,7 +497,7 @@ Windows 2000 : sur Windows 2000, ce paramètre était une valeur booléenne sim
 <tr class="odd">
 <td><p>Valeur par défaut :</p></td>
 <td><p><strong>Windows 2000 :</strong>  :</p>
-<p><strong>Windows XP : pour Windows XP et versions ultérieures :</strong> JET_OnlineDefragAll</p></td>
+<p><strong>Windows xp : pour Windows xp et versions ultérieures :</strong> JET_OnlineDefragAll</p></td>
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
@@ -507,7 +507,7 @@ Windows 2000 : sur Windows 2000, ce paramètre était une valeur booléenne sim
 <tr class="odd">
 <td><p>Plage valide :</p></td>
 <td><p><strong>Windows 2000 :</strong>  False, true</p>
-<p><strong>Windows XP et versions ultérieures :</strong>  0 – JET_OnlineDefragAll</p></td>
+<p><strong>Windows XP et versions ultérieures :</strong> 0 – JET_OnlineDefragAll</p></td>
 </tr>
 <tr class="even">
 <td><p>Étendue :</p></td>
@@ -562,7 +562,7 @@ Ce paramètre correspond au seuil utilisé par le moteur de base de données pou
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -607,7 +607,7 @@ Ce paramètre correspond au seuil utilisé par le moteur de base de données pou
 *JET_paramRecordUpgradeDirtyLevel*  
 78
 
-Ce paramètre contrôle la manière dont le gestionnaire de cache de la page de base de données écrira une page de base de données qui a subi une conversion de format en place. Ces conversions de format se produisent à la volée Lorsque les pages sont chargées à partir d’une base de données créée avec le moteur de base de données Windows 2000, mais utilisées par Windows XP ou une version ultérieure du moteur de base de données.
+Ce paramètre contrôle la manière dont le gestionnaire de cache de la page de base de données écrira une page de base de données qui a subi une conversion de format en place. ces conversions de format se produisent à la volée lorsque les pages sont chargées à partir d’une base de données qui a été créée avec le moteur de base de données Windows 2000, mais utilisée par une version Windows XP ou ultérieure du moteur de base de données.
 
 <table>
 <colgroup>
@@ -621,7 +621,7 @@ Ce paramètre contrôle la manière dont le gestionnaire de cache de la page de 
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -680,7 +680,7 @@ Latence (dans les journaux) en arrière-plan des vidages de pages de la page de 
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -798,7 +798,7 @@ Détermine la fréquence de vérification de la densité de l’arbre B.
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -857,7 +857,7 @@ Durée maximale, en millisecondes, pendant laquelle le mécanisme de limitation 
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -909,11 +909,11 @@ Durée maximale, en millisecondes, pendant laquelle le mécanisme de limitation 
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

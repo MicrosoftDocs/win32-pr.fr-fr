@@ -4,12 +4,12 @@ ms.assetid: 4b182c16-9d58-4244-bc5a-05c393800948
 title: Constantes LINEPARKMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ef27aaf35f86b02834c93992e8f427c54ffb903
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3070ad3f9e56de5e4e1a026b5f779c59469e947ff55b530e9d5b414a1b3b53b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140002"
 ---
 # <a name="lineparkmode_-constants"></a>\_Constantes LINEPARKMODE
 
@@ -37,7 +37,7 @@ Spécifie un parc d’appels indirect. L’adresse où l’appel est parqué est
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 

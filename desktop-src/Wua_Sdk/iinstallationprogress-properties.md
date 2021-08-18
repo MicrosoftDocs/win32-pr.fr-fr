@@ -4,12 +4,12 @@ ms.assetid: f16c682f-3e9f-4767-8f26-d7af0a14d720
 title: Propriétés IInstallationProgress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcbcdb162c544c81b96326ec7b2b7657d81538a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c688694be4a791c8d3ec861cc66367ebf89922817076032527f5458e0645918
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130511"
 ---
 # <a name="iinstallationprogress-properties"></a>Propriétés IInstallationProgress
 

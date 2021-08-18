@@ -1,5 +1,5 @@
 ---
-description: Cette rubrique fournit un exemple d’écriture d’un script qui obtient des données via les services HTTP Microsoft Windows (WinHTTP) de façon synchrone ou asynchrone.
+description: cette rubrique fournit un exemple d’écriture d’un script qui obtient des données via Microsoft Windows HTTP Services (WinHTTP) de façon synchrone ou asynchrone.
 ms.assetid: 84b847f8-4d9e-4fea-9e87-df4c65b54a02
 title: Récupération de données à l’aide d’un script
 ms.topic: article
@@ -9,16 +9,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 734516cf75f92cc43ab4cb15f22bd97aa803ec33
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e018aa680808feddc021c7c03937d085b0d0f787c3213720cbb5e94a46a85c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133062"
 ---
 # <a name="retrieving-data-using-script"></a>Récupération de données à l’aide d’un script
 
-Cette rubrique fournit un exemple d’écriture d’un script qui obtient des données via les services HTTP Microsoft Windows (WinHTTP) de façon synchrone ou asynchrone. Les concepts présentés dans cet exemple fournissent la base de l’écriture d’applications clientes ou de serveur de couche intermédiaire qui requièrent l’accès aux données à l’aide du protocole HTTP.
+cette rubrique fournit un exemple d’écriture d’un script qui obtient des données via Microsoft Windows HTTP Services (WinHTTP) de façon synchrone ou asynchrone. Les concepts présentés dans cet exemple fournissent la base de l’écriture d’applications clientes ou de serveur de couche intermédiaire qui requièrent l’accès aux données à l’aide du protocole HTTP.
 
 -   [Conditions préalables et configuration requise](#prerequisites-and-requirements)
 -   [Récupération de données de façon synchrone](#retrieving-data-synchronously)
@@ -27,10 +27,10 @@ Cette rubrique fournit un exemple d’écriture d’un script qui obtient des do
 
 ## <a name="prerequisites-and-requirements"></a>Conditions préalables et configuration requise
 
-Outre les connaissances pratiques de Microsoft JScript, cet exemple nécessite les éléments suivants :
+outre les connaissances pratiques de Microsoft JScript, cet exemple nécessite les éléments suivants :
 
--   Version actuelle du kit de développement logiciel (SDK) Microsoft Windows.
--   L’outil de configuration de proxy pour établir les paramètres de proxy pour les services HTTP Microsoft Windows (WinHTTP), si votre connexion à Internet s’effectue via un serveur proxy. Pour plus d’informations, consultez [ProxyCfg.exe, un outil de configuration de proxy](proxycfg-exe--a-proxy-configuration-tool.md).
+-   version actuelle du kit de développement logiciel (SDK) Microsoft Windows.
+-   l’outil de configuration de proxy pour établir les paramètres de proxy pour les Services HTTP Microsoft Windows (WinHTTP), si votre connexion à Internet s’effectue via un serveur proxy. Pour plus d’informations, consultez [ProxyCfg.exe, un outil de configuration de proxy](proxycfg-exe--a-proxy-configuration-tool.md).
 -   Une bonne connaissance de la terminologie et des concepts relatifs au [réseau](network-terminology.md) .
 
 ## <a name="retrieving-data-synchronously"></a>Récupération de données de façon synchrone
@@ -92,7 +92,7 @@ L’application contient une seule fonction, « getText ». La première ligne
 
 
 
-Lorsque le moteur JScript rencontre cette ligne, il crée une instance de cet objet. Si vous recevez le message d’erreur « le composant ActiveX ne peut pas créer d’objet », sur cette ligne, il est probable que le WinHttp.dll n’a pas été correctement inscrit ou qu’il n’est pas présent sur le système.
+lorsque le moteur de JScript rencontre cette ligne, il crée une instance de cet objet. si vous recevez le message d’erreur « ActiveX composant ne peut pas créer d’objet », sur cette ligne, le WinHttp.dll n’a probablement pas été correctement inscrit ou n’est pas présent sur le système.
 
 La ligne suivante du script appelle la méthode [**Open**](iwinhttprequest-open.md) .
 

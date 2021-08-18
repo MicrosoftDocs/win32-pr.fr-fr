@@ -1,11 +1,11 @@
 ---
 title: AxWindowsMediaPlayer. lecture, propriété
-description: La propriété lecture obtient une valeur d’énumération indiquant l’état de l’opération du lecteur Windows Media.
+description: la propriété lecture obtient une valeur d’énumération indiquant l’état de l’opération de Lecteur Windows Media.
 ms.assetid: ab9f1547-5c28-4289-beaf-9262f7f59b07
 keywords:
-- propriété lecture lecteur Windows Media
-- propriété lecture lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, propriété lecture
+- Lecteur Windows Media de la propriété lecture
+- Lecteur Windows Media de la propriété lecture, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, propriété lecture
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d397c65c1cfd7f4adb040cc94e208a66c6c42d1b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cbd6d5ecbd4914864d812125143b1c5b6c0ae0d470b2c3951c060aacd3627ff2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119378179"
 ---
 # <a name="axwindowsmediaplayerplaystate-property"></a>AxWindowsMediaPlayer. lecture, propriété
 
-La propriété lecture obtient une valeur d’énumération indiquant l’état de l’opération du lecteur Windows Media.
+la propriété lecture obtient une valeur d’énumération indiquant l’état de l’opération de Lecteur Windows Media.
 
 Cette propriété est en lecture seule.
 
@@ -50,9 +50,9 @@ Public ReadOnly Property playState As WMPPlayState
 
 Valeur d’énumération WMPLib. WMPPlayState.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Il n’est pas garanti que les États du lecteur Windows Media se produisent dans un ordre particulier. En outre, tous les États ne se produisent pas nécessairement au cours d’une séquence d’événements. Vous ne devez pas écrire du code qui s’appuie sur l’ordre de l’État.
+il n’est pas garanti que les états de Lecteur Windows Media se produisent dans un ordre particulier. En outre, tous les États ne se produisent pas nécessairement au cours d’une séquence d’événements. Vous ne devez pas écrire du code qui s’appuie sur l’ordre de l’État.
 
 ## <a name="examples"></a>Exemples
 
@@ -106,10 +106,10 @@ End If
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
-[**Événement AxWindowsMediaPlayer. PlayStateChange (VB et C#)**](axwmplib-axwindowsmediaplayer-playstatechange.md)
+[**événement AxWindowsMediaPlayer. PlayStateChange (VB et C#)**](axwmplib-axwindowsmediaplayer-playstatechange.md)
 </dt> <dt>
 
 [**WMPPlayState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpplaystate)

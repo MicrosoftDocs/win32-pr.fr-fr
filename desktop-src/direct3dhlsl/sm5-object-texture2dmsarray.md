@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: effe4819c674a7909cc445b9e9f7b5322fae7676
-ms.sourcegitcommit: 5724b38883e518ac565e1b266defa85ad0941bb2
-ms.translationtype: HT
+ms.openlocfilehash: a23c45ea5f21667bde6817469bce43e8f7e9a0a41d8b62b016e739abb744b53c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "104211206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985779"
 ---
 # <a name="texture2dmsarray"></a>Texture2DMSArray
 
@@ -43,9 +43,9 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Prise en charge |
+| Modèle de nuanceur                                                                | Pris en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
 
 
 
@@ -55,7 +55,7 @@ Cet objet est pris en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

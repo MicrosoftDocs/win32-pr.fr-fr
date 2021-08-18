@@ -4,12 +4,12 @@ ms.assetid: 77b04001-f524-49c0-b2cf-be32ad16564b
 title: Propriété AVEncVideoHeaderFrames (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c49d31a4b399f9f3af7ecb85cba65aa8fe536ba
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d20f90c50baed4278bf7c91a5838235e764ccf196dfb2575eac202d33fd88955
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119275691"
 ---
 # <a name="avencvideoheaderframes-property"></a>Propriété AVEncVideoHeaderFrames
 
@@ -35,8 +35,8 @@ La plage valide de cette propriété dépend de la fréquence d’images.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91a3868f76368b19e6a316b222b8ddaf4cbbff96
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e2c9ff851eab7b5e9cfb124bf03c83986d24b391d5ea109865ff2d59e2e33536
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002157"
 ---
 # <a name="triggerid-property"></a>Propriété Trigger.Id
 
@@ -40,7 +40,7 @@ Trigger.Id As String
 
 Identificateur du déclencheur. Cet identificateur est utilisé par le Planificateur de tâches à des fins de journalisation.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, l’identificateur du déclencheur est spécifié dans l’attribut ID des éléments Trigger individuels (par exemple, l’attribut ID de l’élément [**BootTrigger**](taskschedulerschema-boottrigger-triggergroup-element.md) ) du schéma planificateur de tâches.
 
@@ -50,8 +50,8 @@ Lors de la lecture ou de l’écriture de données XML pour une tâche, l’iden
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

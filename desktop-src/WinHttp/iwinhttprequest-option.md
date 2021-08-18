@@ -1,5 +1,5 @@
 ---
-description: Définit ou récupère une valeur d’option des services HTTP Microsoft Windows (WinHTTP).
+description: définit ou récupère une valeur d’option Microsoft Windows HTTP Services (WinHTTP).
 ms.assetid: 913573e6-fad3-42a5-bb5d-25a3d2ac9616
 title: 'IWinHttpRequest :: option, propriété'
 ms.topic: reference
@@ -16,16 +16,16 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: c76df3f09871984da9f4bc093e9ac96d7484558f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05368f1a5179dcaa94bc07a32035e308e9848e867d89f42f4dffb94c765ee448
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133092"
 ---
 # <a name="iwinhttprequestoption-property"></a>IWinHttpRequest :: option, propriété
 
-La propriété **option** définit ou récupère une valeur d’option Microsoft Windows http services (WinHTTP).
+la propriété **option** définit ou récupère une valeur d’option Microsoft Windows HTTP Services (WinHTTP).
 
 Cette propriété est en lecture/écriture.
 
@@ -65,10 +65,10 @@ Le paramètre *option* spécifie le [**WinHttpRequestOption**](winhttprequestopt
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
-> Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+> pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la Page de démarrage de WinHTTP.
 
  
 
@@ -246,8 +246,8 @@ WScript.Echo( 'Escape percents: '+
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | MIDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

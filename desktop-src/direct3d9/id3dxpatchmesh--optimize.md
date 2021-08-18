@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6fa66aadd0ef1f9f9f65747694fc311f80172449
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 245f3ddb2c85f5de6ae2acc040f929387d522c12d65eeb4d4307f162b8532af8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103954014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120723"
 ---
 # <a name="id3dxpatchmeshoptimize-method"></a>ID3DXPatchMesh :: Optimize, méthode
 
@@ -40,7 +40,7 @@ HRESULT Optimize(
 
 <dl> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -55,7 +55,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ CANNOTATTRSORT.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fois qu’une application a généré des informations d’adjacence pour une maille, les données de maillage peuvent être optimisées (réorganisées) pour améliorer les performances de dessin. Cette méthode détermine les correctifs adjacents (dans la tolérance fournie).
 

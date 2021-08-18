@@ -14,12 +14,12 @@ keywords:
 - modèles de contrôle, DropTarget
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4194613d15aadac4a925303ef2322d4cf53c341c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1eab48f4319c51a5ccbbaadae22f1ae337740df5b6d0fdf325a01ba1323f8630
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106543618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133562"
 ---
 # <a name="ui-automation-support-for-drag-and-drop"></a>Prise en charge d’UI Automation pour le glisser-déplacer
 
@@ -126,6 +126,6 @@ Pour ce point, l’élément source maître remplit le même rôle que celui de 
 
 Les applications clientes UI Automation utilisent les interfaces [**IUIAutomationDragPattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationdragpattern) et [**IUIAutomationDropTargetPattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationdroptargetpattern) pour accéder aux informations de glisser-déplacer à partir d’éléments d’interface utilisateur.
 
- 
+ 
 
- 
+ 

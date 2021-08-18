@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77ab911fd66c7cf6b4f657d8f9e060eccee80675
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 759a674e2b283d18caf1cc4d1b2f3e3ecae786dc76f9acc222f47dd8daf385de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000509"
 ---
 # <a name="setmaxxresolution-method-of-the-win32_tsclientsetting-class"></a>Méthode SetMaxXResolution de la \_ classe Win32 TSClientSetting
 

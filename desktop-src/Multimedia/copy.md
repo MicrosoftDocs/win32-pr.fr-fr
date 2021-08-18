@@ -3,7 +3,7 @@ title: copier (commande)
 description: La commande de copie copie les données dans le presse-papiers. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: 4f7b5be6-12c3-43a0-bac9-19eb49384330
 keywords:
-- commande copier Windows Multimedia
+- commande de copie Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6f08c764cb12b1cdca4c1876e6a22220a5c7522
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5d3d103aae14b9dc13bb0d7d210d0412db993210bc788fa7fedd1a48a7216d59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144782"
 ---
 # <a name="copy-command"></a>copier (commande)
 

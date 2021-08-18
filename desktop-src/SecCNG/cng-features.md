@@ -4,12 +4,12 @@ ms.assetid: 400a2b6e-6bbe-4ba4-abde-a2f625007517
 title: Fonctionnalités CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df40606a255adc90bd36540571979c1c34579611
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 434c72075c04b0c280c85831ca78d930c0fcc047de19609d11764bcf63ddad56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908446"
 ---
 # <a name="cng-features"></a>Fonctionnalités CNG
 
@@ -43,7 +43,7 @@ En outre, CNG prend en charge tous les algorithmes Suite B requis, y compris le 
 
 ## <a name="certification-and-compliance"></a>Certification et conformité
 
-CNG est validé en normes FIPS 140-2 et fait partie de la cible de l’évaluation pour la certification des critères communs Windows. CNG a été conçu pour être utilisable en tant que composant dans un système validé FIPS niveau 2.
+CNG est validé sur les normes FIPS 140-2 et fait partie de la cible de l’évaluation pour le Windows certification critères communs. CNG a été conçu pour être utilisable en tant que composant dans un système validé FIPS niveau 2.
 
 CNG est conforme aux exigences de critères communs en stockant et en utilisant des clés à long terme dans un processus sécurisé.
 
@@ -53,9 +53,9 @@ La prise en charge des algorithmes Suite B est une fonctionnalité importante de
 
 Tous les algorithmes Suite B sont publiquement connus. Ils ont été développés en dehors de l’étendue du secret gouvernemental historiquement associé au développement de l’algorithme de chiffrement. Dans ce laps de temps, certains pays et régions européens ont également proposé les mêmes exigences de Suite B pour la protection de leurs informations.
 
-Le chiffrement Suite B recommande l’utilisation de l’algorithme ECDH (Elliptic Curve Diffie-Hellman) dans de nombreux protocoles existants tels que le protocole IKE (Internet Key Exchange) (IKE, principalement utilisé dans IPsec), le protocole TLS ( [*Transport Layer Security*](/windows/desktop/SecGloss/t-gly) ) et le protocole MIME (S/MIME).
+le chiffrement Suite B recommande l’utilisation de l’algorithme ECDH (elliptic curve Diffie-Hellman) dans de nombreux protocoles existants tels que le protocole IKE (Internet Key Exchange) (IKE, principalement utilisé dans IPsec), le protocole TLS ( [*transport layer security*](/windows/desktop/SecGloss/t-gly) ) et le protocole mime (S/mime).
 
-CNG prend en charge Suite B qui s’étend à tous les algorithmes requis : AES (toutes les tailles de clé), la famille SHA-2 (SHA-256, SHA-384 et SHA-512) des algorithmes de hachage, ECDH et ECDSA (Elliptic Curve DSA) sur les courbes prime NIST-standard P-256, P-384 et P-521. Les courbes binaires, les courbes Koblitz, les courbes prime personnalisées et la courbe elliptique Menezes-qu-Vanstone (ECMQV) ne sont pas prises en charge par les fournisseurs d’algorithmes Microsoft inclus avec Windows Vista.
+CNG prend en charge Suite B qui s’étend à tous les algorithmes requis : AES (toutes les tailles de clé), la famille SHA-2 (SHA-256, SHA-384 et SHA-512) des algorithmes de hachage, ECDH et ECDSA (Elliptic Curve DSA) sur les courbes prime NIST-standard P-256, P-384 et P-521. les courbes binaires, les courbes Koblitz, les courbes prime personnalisées et la courbe elliptique Menezes-Qu-Vanstone (ECMQV) ne sont pas prises en charge par les fournisseurs d’algorithmes Microsoft inclus avec Windows Vista.
 
 ## <a name="legacy-support"></a>Prise en charge héritée
 
@@ -65,7 +65,7 @@ CNG prend en charge l’ensemble actuel d’algorithmes dans [*CryptoAPI*](/wind
 
 CNG prend en charge le chiffrement en mode noyau. Les mêmes API sont utilisées en mode noyau et utilisateur pour prendre entièrement en charge les fonctionnalités de chiffrement. SSL/TLS et IPsec fonctionnent en mode noyau en plus des processus de démarrage qui utiliseront CNG. Toutes les fonctions CNG ne peuvent pas être appelées à partir du mode noyau. La rubrique de référence pour les fonctions qui ne peuvent pas être appelées à partir du mode noyau indique explicitement que la fonction ne peut pas être appelée à partir du mode noyau. Dans le cas contraire, toutes les fonctions CNG peuvent être appelées à partir du mode noyau si l’appelant est en cours d’exécution au **\_ niveau passif** [*IRQL*](/windows/desktop/SecGloss/i-gly). En outre, certaines fonctions CNG en mode noyau peuvent être appelées **au \_ niveau** de l’IRQL de niveau de dispatch, en fonction des capacités du fournisseur.
 
-L’interface du fournisseur de support de sécurité du noyau Microsoft (Ksecdd.sys) est un module de chiffrement à usage général, basé sur logiciel, résidant au niveau du mode noyau de Windows. Ksecdd.sys s’exécute en tant que pilote d’exportation en mode noyau et fournit des services de chiffrement via les interfaces documentées aux composants du noyau. Le seul algorithme de fournisseur Microsoft intégré qui n’est pas pris en charge par Ksecdd.sys est DSA.
+L’interface du fournisseur de support de Microsoft Kernel Security (Ksecdd.sys) est un module de chiffrement à usage général, basé sur logiciel et résidant au niveau du mode noyau de Windows. Ksecdd.sys s’exécute en tant que pilote d’exportation en mode noyau et fournit des services de chiffrement via les interfaces documentées aux composants du noyau. Le seul algorithme de fournisseur Microsoft intégré qui n’est pas pris en charge par Ksecdd.sys est DSA.
 
 **Windows Server 2008 et Windows Vista :** CNG ne prend pas en charge les algorithmes et les fournisseurs enfichables en mode noyau. Les seuls algorithmes de chiffrement pris en charge disponibles en mode noyau sont les implémentations fournies par Microsoft par le biais des API CNG en mode noyau.
 
@@ -100,7 +100,7 @@ CNG prend en charge cinq modes d’opérations qui peuvent être utilisés avec 
 
 
 
-| Mode de fonctionnement           | Valeur du mode de \_ chaînage BCRYPT \_ | Algorithmes              | standard  |
+| Mode de fonctionnement           | Valeur du mode de \_ chaînage BCRYPT \_ | Algorithmes              | Standard  |
 |-----------------------------|------------------------------|-------------------------|-----------|
 | BCE (livre de livre électronique)   | **\_ \_ BCE en mode de chaîne BCRYPT \_** | Chiffrements par blocs symétriques | SP800-38A |
 | CBC (chaînage de blocs de chiffrement) | **\_mode chaîne \_ BCRYPT \_ CBC** | Chiffrements par blocs symétriques | SP800-38A |
@@ -113,7 +113,7 @@ CNG prend en charge cinq modes d’opérations qui peuvent être utilisés avec 
  
 
 > [!Note]  
-> Seuls les modes d’opération ECB, CBC et CFB sont définis dans Windows Vista. GCM et CCM requièrent Windows Vista avec Service Pack 1 (SP1) ou Windows Server 2008.
+> seuls les modes d’opération ECB, CBC et CFB sont définis dans Windows Vista. GCM et CCM requièrent Windows Vista avec Service Pack 1 (SP1) ou Windows Server 2008.
 
  
 

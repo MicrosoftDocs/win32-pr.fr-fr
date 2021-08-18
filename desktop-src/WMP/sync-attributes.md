@@ -1,9 +1,9 @@
 ---
 title: Attributs de synchronisation
-description: Les attributs Sync01 via Sync16 sont des représentations sous forme de chaîne de valeurs 32 bits que le lecteur Windows Media utilise lorsqu’il synchronise des sélections avec un maximum de 16 périphériques portables.
+description: les attributs Sync01 via Sync16 sont des représentations sous forme de chaîne de valeurs 32 bits que Lecteur Windows Media utilise lorsqu’il synchronise des listes de lecture avec un maximum de 16 périphériques portables.
 ms.assetid: b9ae3420-aa09-4969-8637-f16d438942f3
 keywords:
-- Attributs de synchronisation lecteur Windows Media
+- attributs de synchronisation Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,26 +12,26 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5af26ae563a38efcc40b0bcd319c5fc62b4776dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e720598b17db6b073524d80afc8f39dd6e6f87e777246b5bdb60294b161fa1d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134752"
 ---
 # <a name="sync-attributes"></a>Attributs de synchronisation
 
-Les attributs **Sync01** via **Sync16** sont des représentations sous forme de chaîne de valeurs 32 bits que le lecteur Windows Media utilise lorsqu’il synchronise des sélections avec un maximum de 16 périphériques portables.
+les attributs **Sync01** via **Sync16** sont des représentations sous forme de chaîne de valeurs 32 bits que Lecteur Windows Media utilise lorsqu’il synchronise des listes de lecture avec un maximum de 16 périphériques portables.
 
 ## <a name="applies-to"></a>S'applique à
 
 -   [Sélections](playlist-attributes-ref.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Il s’agit d’attributs en lecture/écriture. La valeur zéro indique que le lecteur Windows Media ne doit pas synchroniser la playlist avec l’appareil associé. Une valeur supérieure à zéro indique une priorité de synchronisation pour la sélection donnée.
+Il s’agit d’attributs en lecture/écriture. la valeur zéro indique que Lecteur Windows Media ne doit pas synchroniser la playlist avec l’appareil associé. Une valeur supérieure à zéro indique une priorité de synchronisation pour la sélection donnée.
 
-En fonction de l’entrée de l’utilisateur, le lecteur Windows Media définit cet attribut pour chacune des sélections dans la bibliothèque. Lorsque le lecteur Windows Media tente de synchroniser une sélection avec un appareil mobile, il examine chaque playlist pour comparer les valeurs des attributs **Sync**_XX_ qui représentent le partenariat de l’appareil. Les sélections qui ont des valeurs de **synchronisation**_XX_ inférieures reçoivent une priorité de synchronisation supérieure.
+en fonction de l’entrée de l’utilisateur, Lecteur Windows Media définit cet attribut pour chacune des sélections dans la bibliothèque. lorsque Lecteur Windows Media tente de synchroniser une playlist avec un appareil mobile, il examine chaque playlist pour comparer les valeurs des attributs **Sync**_XX_ qui représentent le partenariat de l’appareil. Les sélections qui ont des valeurs de **synchronisation**_XX_ inférieures reçoivent une priorité de synchronisation supérieure.
 
 Par exemple, la bibliothèque peut contenir les quatre sélections suivantes et les valeurs de **synchronisation**_XX_ respectives :
 
@@ -48,7 +48,7 @@ Par exemple, la bibliothèque peut contenir les quatre sélections suivantes et 
 
  
 
-Lorsque le lecteur Windows Media synchronise l’appareil associé à l’attribut, il synchronise les sélections dans l’ordre suivant :
+lorsque Lecteur Windows Media synchronise l’appareil associé à l’attribut, il synchronise les playlists dans l’ordre suivant :
 
 1.  DriveHome. WPL
 2.  GymMusic. WPL

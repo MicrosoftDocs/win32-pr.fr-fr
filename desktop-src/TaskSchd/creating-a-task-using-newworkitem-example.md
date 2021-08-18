@@ -7,12 +7,12 @@ keywords:
 - éléments de travail Planificateur de tâches, création de tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b4e0f05e76ea54b57a101e31515fe089c5f445c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fc6d0e0d216c5aaccee6a51cbac939b2b3bfa421338e12d66ffdd3b8cf055862
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139582"
 ---
 # <a name="creating-a-task-using-newworkitem-example"></a>Exemple de création d’une tâche à l’aide de NewWorkItem
 
@@ -21,12 +21,12 @@ Lorsque vous créez une tâche, vous allez utiliser deux interfaces de Planifica
 > [!Note]  
 > Vous pouvez également créer une tâche en appelant [**ITaskScheduler :: AddWorkItem**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-addworkitem). Lorsque vous prenez cet itinéraire, il vous incombe de créer une instance de l’objet de **tâche** (qui prend en charge l’interface [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) ), puis d’ajouter la tâche avec le nom que vous fournissez.
 
- 
+ 
 
 > [!Note]  
-> Par défaut, seul un membre du groupe administrateurs, opérateurs de sauvegarde ou opérateurs de serveur peut créer des tâches sur Windows Server 2003. Un membre du groupe administrateurs peut modifier le descripteur de sécurité du \\ dossier de tâches Windows pour permettre aux autres utilisateurs de créer des tâches.
+> par défaut, seul un membre du groupe administrateurs, opérateurs de sauvegarde ou opérateurs de serveur peut créer des tâches sur Windows Server 2003. un membre du groupe administrateurs peut modifier le descripteur de sécurité du \\ dossier de tâches Windows pour permettre à d’autres utilisateurs de créer des tâches.
 
- 
+ 
 
 Le nom que vous fournissez pour la tâche doit être unique dans le dossier tâches planifiées. Si une tâche portant le même nom existe déjà, [**ITaskScheduler :: NewWorkItem**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-newworkitem) retourne le \_ fichier d’erreurs \_ existe. Si vous recevez cette valeur de retour, vous devez spécifier un autre nom et tenter à nouveau de créer la tâche.
 
@@ -47,7 +47,7 @@ La procédure suivante décrit comment créer une tâche d’élément de travai
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -56,6 +56,6 @@ La procédure suivante décrit comment créer une tâche d’élément de travai
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

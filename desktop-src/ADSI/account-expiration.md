@@ -8,12 +8,12 @@ keywords:
 - ADSI Provider ADSI, exemples de gestion des utilisateurs, expiration du compte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c03ea33d8d5abb219c2b562aa05058b5dec45919
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 645ce5e2e1ae72ace0a8a642642eb5c15e7eabd63d51dba3f03596869bfb9efc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106510707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024067"
 ---
 # <a name="account-expiration-ldap-provider"></a>Expiration du compte (fournisseur LDAP)
 
@@ -86,8 +86,8 @@ HRESULT SetUserAccountExpirationDate(IADsUser *pUser, DATE date)
 > [!Note]  
 > L’attribut [**AccountExpires dans**](/windows/desktop/ADSchema/a-accountexpires) contient la date d’expiration du compte. Le composant logiciel enfichable MMC utilisateurs et ordinateurs Active Directory affiche la date à laquelle le compte expirera à la fin de. Autrement dit, le composant logiciel enfichable MMC Active Directory utilisateurs et ordinateurs affiche la date d’expiration du compte à un jour antérieur à la date contenue dans l’attribut **AccountExpires dans** .
 
- 
+ 
 
- 
+ 
 
- 
+ 

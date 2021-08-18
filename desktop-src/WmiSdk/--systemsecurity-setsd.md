@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - All
-ms.openlocfilehash: 21f09a412a662cec8629fa9237d8dbb5902426c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04da59b6370e2e9a381f2e3889b75ac37cb926e54c46cc0e616ec5353ed6f665
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132032"
 ---
 # <a name="setsd-method-of-the-__systemsecurity-class"></a>Méthode configured de la \_ \_ classe SystemSecurity
 
@@ -58,7 +58,7 @@ Tableau d’octets qui compose le descripteur de sécurité.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Retourne un **HRESULT** qui indique l’état d’un appel de méthode. Pour les applications de script et de Visual Basic, le résultat peut être obtenu à partir de out- [Parameters. returnValue](parsing-outparameters-objects.md). Pour plus d’informations, consultez [construction d’objets inparamètres et analyse d’objets de paramètres de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
+Retourne un **HRESULT** qui indique l’état d’un appel de méthode. pour les applications de script et de Visual Basic, le résultat peut être obtenu à partir de out- [parameters. ReturnValue](parsing-outparameters-objects.md). Pour plus d’informations, consultez [construction d’objets inparamètres et analyse d’objets de paramètres de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
 
 La liste suivante répertorie les valeurs de retour qui sont significatives pour les **paramètres**.
 
@@ -110,7 +110,7 @@ Pour plus d’informations sur les indicateurs d’entrée de contrôle d’acc�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la modification de la sécurité des espaces de noms par programmation ou manuelle, consultez [sécurisation des espaces de noms WMI](securing-wmi-namespaces.md).
 

@@ -1,24 +1,24 @@
 ---
-title: Exemple de bloc-notes Windows Touch (C++)
-description: L’exemple Windows Touch du bloc-notes montre comment utiliser des messages tactiles Windows pour dessiner les traces des points tactiles dans une fenêtre.
+title: Windows Touch bloc-notes, exemple (C++)
+description: l’exemple Windows touch du bloc-notes montre comment utiliser des messages tactiles Windows pour dessiner des traces des points tactiles dans une fenêtre.
 ms.assetid: 6c4b4595-1e95-499c-b045-b5ae01aa5a6e
 keywords:
 - Windows Touch, exemples de code
-- Tactile Windows, exemple de code
-- Exemples tactiles Windows, bloc-notes
+- Windows Toucher, exemple de code
+- Windows Exemples tactiles, de bloc-notes
 - Exemples de bloc-notes
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: afdd39e886d97671942b4ff67a74c0da75924fbb
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 7f3be8c120a935bc1a8d65dfdd8c7ab9894e0360d3415e8c645e5b3afae87012
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104032058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086248"
 ---
-# <a name="windows-touch-scratchpad-sample-c"></a>Exemple de bloc-notes Windows Touch (C++)
+# <a name="windows-touch-scratchpad-sample-c"></a>Windows Touch bloc-notes, exemple (C++)
 
-L' [exemple Windows Touch du bloc-notes](https://github.com/MicrosoftDocs/win32-pr/blob/master/desktop-src/wintouch/windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md) montre comment utiliser des messages tactiles Windows pour dessiner les traces des points tactiles dans une fenêtre. Le suivi du doigt principal, celui qui a été placé en premier dans le digitaliseur, est dessiné en noir. Les doigts secondaires sont dessinés dans six autres couleurs : rouge, vert, bleu, cyan, magenta et jaune. L’illustration suivante montre comment l’application peut se présenter lors de son exécution.
+l' [exemple Windows touch du bloc-notes](https://github.com/MicrosoftDocs/win32-pr/blob/master/desktop-src/wintouch/windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md) montre comment utiliser des messages tactiles Windows pour dessiner des traces des points tactiles dans une fenêtre. Le suivi du doigt principal, celui qui a été placé en premier dans le digitaliseur, est dessiné en noir. Les doigts secondaires sont dessinés dans six autres couleurs : rouge, vert, bleu, cyan, magenta et jaune. L’illustration suivante montre comment l’application peut se présenter lors de son exécution.
 
 ![capture d’écran montrant le bloc-notes tactile Windows, avec des tildes rouges et noirs à l’écran](images/mtscratchpadwmtouch.png)
 
@@ -111,4 +111,4 @@ void CStroke::Draw(HDC hDC) const
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Exemple de bloc-notes Windows Touch (C#)](windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md), [application de bloc-notes multipoint (WM_TOUCH/c #)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS), [application de bloc-notes multipoint (WM_TOUCH/C + +)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/cpp), [exemples de fonctions tactiles Windows](windows-touch-samples.md)
+exemple de code de [bloc-notes Windows touch (C#)](windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md), [application multipoint de bloc-notes (WM_TOUCH/c #)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS), [application de bloc-notes multipoint (WM_TOUCH/c + +)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/cpp), [exemples tactiles Windows](windows-touch-samples.md)

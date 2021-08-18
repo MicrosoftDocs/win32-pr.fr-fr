@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c122eb1336136c00bf7b5e950e25c26c6384ab6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 361ec9ba41e93f9aaad19a493ec10b8657baa85db706b6d034302189ef457a7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119418589"
 ---
 # <a name="ui_animation_seconds_infinite"></a>ANIMATION de l’interface utilisateur- \_ \_ secondes \_ infinies
 
@@ -31,7 +31,7 @@ Indique qu’il n’y a aucun événement planifié.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette valeur peut être retournée dans un appel à la méthode [**IUIAnimationManager2 :: EstimateNextEventTime**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-estimatenexteventtime) .
 

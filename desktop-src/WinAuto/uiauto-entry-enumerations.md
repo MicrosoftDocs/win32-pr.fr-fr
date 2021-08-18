@@ -4,12 +4,12 @@ description: Cette section décrit les types énumérés utilisés par les appli
 ms.assetid: 99ceb405-f8ad-4e85-8789-dc35fd0ec735
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ef815f9a0b45c7b25b411368582de7c944aff7d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d9c2e2fccd37b1fb5120b6ea2c8cd76cff24c16c92fd542060469852870a3a50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133452"
 ---
 # <a name="ui-automation-enumerations"></a>Énumérations UI Automation
 

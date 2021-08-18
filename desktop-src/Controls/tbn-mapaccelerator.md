@@ -3,7 +3,7 @@ title: TBN_MAPACCELERATOR le code de notification (commctrl. h)
 description: Demande l’index du bouton dans la barre d’outils correspondant au caractère d’accélérateur spécifié. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 16d16560-62ef-4457-bf8c-bc6dddb520d7
 keywords:
-- Contrôles Windows de code de notification TBN_MAPACCELERATOR
+- TBN_MAPACCELERATOR les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4b20f1908f441c38e23aa7428f8c8edb8a192c7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 488c78ff00b75c42f6646e314c75d63445c7400eb9130464b126e75bcf2df942
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434189"
 ---
 # <a name="tbn_mapaccelerator-notification-code"></a>\_Code de notification TBN MAPACCELERATOR
 
@@ -55,8 +55,8 @@ TRUE si **NMCHAR. dwItemNext** est défini sur une valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

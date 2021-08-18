@@ -6,12 +6,12 @@ keywords:
 - effet de luminosité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88dd9797aa125e7099ba4a706bac730a30715f6c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f88b67615948cbea74333605e900de194c0eeeb3d747d83af5eae8a750e6f135
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104558921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119215400"
 ---
 # <a name="brightness-effect"></a>Effet de luminosité
 
@@ -22,7 +22,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Brightness.
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
 -   [Bitmap de sortie](#output-bitmap)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -32,7 +32,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Brightness.
 | Avant                                                      |
 |-------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)  |
-| After                                                       |
+| Après                                                       |
 | ![image après la transformation.](images/34-brightness.png) |
 
 
@@ -97,8 +97,8 @@ La taille de la bitmap de sortie est la même que la taille de la bitmap d’ent
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

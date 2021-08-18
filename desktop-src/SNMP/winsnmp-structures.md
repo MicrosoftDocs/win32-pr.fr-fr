@@ -6,16 +6,16 @@ keywords:
 - SNMP structures WinSNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b263f6078171c096eb7208ae4c7ef29847aead9c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b409b6d12063ebd3feb9c663f2d607bc5ceead0462b2945334f1e7e691c9be63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142752"
 ---
 # <a name="winsnmp-structures"></a>Structures WinSNMP
 
-\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
+\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
 
 Les fonctions de l’API WinSNMP utilisent les structures suivantes.
 
@@ -31,8 +31,8 @@ Les fonctions de l’API WinSNMP utilisent les structures suivantes.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

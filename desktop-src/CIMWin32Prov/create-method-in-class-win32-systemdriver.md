@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a4ae14243582ea1239e8cc68c1e1d5464339a45b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a85b18a04672f63c4f1fd8fe4fa386ffb4e3094e817b53a20af9887a84748a3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080153"
 ---
 # <a name="create-method-of-the-win32_systemdriver-class"></a>Créer une méthode de la \_ classe SystemDriver Win32
 
@@ -182,7 +182,7 @@ Le système tente de démarrer avec une bonne configuration.
 *StartMode* \[ dans\]
 </dt> <dd>
 
-Mode de démarrage du service de base Windows.
+mode de démarrage du service de base Windows.
 
 <dt>
 
@@ -276,14 +276,14 @@ Nom du groupe associé au nouveau service. Les groupes d’ordre de chargement s
 *LoadOrderGroupDependencies* \[ dans\]
 </dt> <dd>
 
-Tableau des groupes d’ordre de chargement qui doivent démarrer avant ce service. Chaque élément du tableau est délimité par **null** et la liste se termine par deux valeurs **null** . Dans Visual Basic ou un script, vous pouvez transmettre un vbArray. Si le pointeur est **null** ou s’il pointe vers une chaîne vide, le service n’a pas de dépendances. Les noms de groupes doivent être préfixés par l' **\_ \_ identificateur de groupe SC** (défini dans le fichier winsvc. h) pour le différencier d’un nom de service, car les services et les groupes de services partagent le même espace de noms. La dépendance sur un groupe signifie que ce service peut s’exécuter si au moins un membre du groupe est en cours d’exécution après une tentative de démarrage de tous les membres du groupe.
+Tableau des groupes d’ordre de chargement qui doivent démarrer avant ce service. Chaque élément du tableau est délimité par **null** et la liste se termine par deux valeurs **null** . dans Visual Basic ou un script, vous pouvez transmettre un vbArray. Si le pointeur est **null** ou s’il pointe vers une chaîne vide, le service n’a pas de dépendances. Les noms de groupes doivent être préfixés par l' **\_ \_ identificateur de groupe SC** (défini dans le fichier winsvc. h) pour le différencier d’un nom de service, car les services et les groupes de services partagent le même espace de noms. La dépendance sur un groupe signifie que ce service peut s’exécuter si au moins un membre du groupe est en cours d’exécution après une tentative de démarrage de tous les membres du groupe.
 
 </dd> <dt>
 
 *ServiceDependencies* \[ dans\]
 </dt> <dd>
 
-Tableau qui contient les noms des services qui doivent démarrer avant le démarrage de ce service. Chaque élément du tableau est délimité par **null** et la liste se termine par deux valeurs **null** . Dans Visual Basic ou un script, vous pouvez transmettre un vbArray. Si le pointeur a la **valeur null**, ou s’il pointe vers une chaîne vide, le service n’a pas de dépendances. La dépendance sur un service signifie que ce service ne peut s’exécuter que si le service dont il dépend est en cours d’exécution.
+Tableau qui contient les noms des services qui doivent démarrer avant le démarrage de ce service. Chaque élément du tableau est délimité par **null** et la liste se termine par deux valeurs **null** . dans Visual Basic ou un script, vous pouvez transmettre un vbArray. Si le pointeur a la **valeur null**, ou s’il pointe vers une chaîne vide, le service n’a pas de dépendances. La dépendance sur un service signifie que ce service ne peut s’exécuter que si le service dont il dépend est en cours d’exécution.
 
 </dd> </dl>
 

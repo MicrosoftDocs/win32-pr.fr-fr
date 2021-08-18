@@ -13,12 +13,12 @@ keywords:
 - API étendues clientes, individualisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1252fe951e306f837f2df95245b3cfc81dac03c2
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: 4eeb13f44eaa5fe3a3d67560d6fa7bb1e39250842ba0707ef62969b91fb50d47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "104381628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119085998"
 ---
 # <a name="drm-individualization-example"></a>Exemple d’individualisation DRM
 
@@ -181,9 +181,9 @@ HRESULT Individualize(IWMDRMSecurity* pSecurity)
 [**Utilisation du modèle d’événement Media Foundation**](using-the-media-foundation-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

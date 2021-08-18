@@ -4,12 +4,12 @@ ms.assetid: 3a4acc03-e47a-ff33-dee8-a374051f85f6
 title: Voix XAudio2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b11300cea770f59485e8a78b0d30110b5469befe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b756033be5b64dbf03e3b3756902014774a53c9aebc8f41a1df1f982685cca16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025937"
 ---
 # <a name="xaudio2-voices"></a>Voix XAudio2
 
@@ -26,7 +26,7 @@ Toutes les voix effectuent les actions suivantes dans l’ordre audio qui les tr
 
 ## <a name="source-voices"></a>Voix source
 
-Utilisez les voix source pour envoyer des données audio dans le pipeline de traitement XAudio2. Il s’agit des points d’entrée dans le [graphique audio XAudio2](xaudio2-audio-graph.md). Vous devez envoyer des données vocales à une voix de mastérisation pour être entendues, soit directement, soit par le biais de voix de mixage secondaire intermédiaires.
+Utilisez les voix source pour envoyer des données audio dans le pipeline de traitement XAudio2. Il s’agit des points d’entrée dans le [Graph audio XAudio2](xaudio2-audio-graph.md). Vous devez envoyer des données vocales à une voix de mastérisation pour être entendues, soit directement, soit par le biais de voix de mixage secondaire intermédiaires.
 
 En plus des actions effectuées par toutes les voix, les voix source effectuent les actions suivantes.
 

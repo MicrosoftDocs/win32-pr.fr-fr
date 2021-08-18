@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 25f00c73a4bb922a8152335babe222b539c70ade
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abf3ca2996e75d2abfe6fc766ec6f5bbd30054eeb9dd8406fe2747307a00c4a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119109256"
 ---
 # <a name="jet_lgpos-structure"></a>Structure JET_LGPOS
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_lgpos-structure"></a>Structure JET_LGPOS
 
@@ -63,11 +63,11 @@ Prend en charge l’infrastructure ESE et ne peut pas être utilisé à partir d
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

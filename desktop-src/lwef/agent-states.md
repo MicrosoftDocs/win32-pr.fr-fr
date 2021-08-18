@@ -4,12 +4,12 @@ description: États de l’agent
 ms.assetid: 8c3c5b12-81af-4ba5-b834-9f0a7ff5d075
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c371b1a2126129c03f16ce7fc7c2f95cca955a2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fbfb927cbe9ad703e733caa827df7c5a63bac67b93d49edbb8f59884c89b6ee7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976799"
 ---
 # <a name="agent-states"></a>États de l’agent
 
@@ -25,7 +25,7 @@ Il est important de définir et d’assigner au moins une animation pour chaque 
 
 
 
-| State              | Exemple d’utilisation                                                                         |
+| État              | Exemple d’utilisation                                                                         |
 |--------------------|----------------------------------------------------------------------------------------|
 | **GesturingDown**  | Lors du traitement de la méthode d’animation [**GestureAt**](gestureat-method.md) .          |
 | **GesturingLeft**  | Lors du traitement de la méthode d’animation [**GestureAt**](gestureat-method.md) .          |
@@ -131,13 +131,13 @@ Le tableau suivant répertorie les animations incluses dans le jeu d’animation
 | **Heureux**<sup>1, 2</sup>        | Lorsque le caractère est heureux avec la demande ou le choix de l’utilisateur.                                         | Sourires de caractères.                                                                                                                                                                                                      |
 | **Processus**                      | Lorsque le caractère effectue un certain type de tâche générique.                                                   | Le caractère appuie sur les boutons ou utilise un type d’outil.                                                                                                                                                                   |
 | **Traitement**                   | Lorsque le caractère est occupé à travailler sur une tâche générique.                                                    | Griffonnages de caractères sur le bloc de papier ou utilise un type d’outil. Remarque : cette animation effectue une boucle sur un cadre intermédiaire qui se produit après le déplacement du caractère vers une position appropriée.<br/>                      |
-| **Lire**                         | Lorsque le caractère lit un résultat pour l’utilisateur.                                                          | Le caractère affiche le livre ou le papier, lit et regarde à l’utilisateur.                                                                                                                                                       |
+| **Lecture**                         | Lorsque le caractère lit un résultat pour l’utilisateur.                                                          | Le caractère affiche le livre ou le papier, lit et regarde à l’utilisateur.                                                                                                                                                       |
 | **ReadContinued**                | Lorsque le caractère est lu à l’utilisateur.                                                            | Les lectures de caractères s’affichent à nouveau, puis reviennent à l’utilisateur.                                                                                                                                                                        |
 | **ReadReturn**                   | Lorsque le caractère termine l’animation **Read** ou **ReadContinued** .                                | Le caractère revient à sa position neutre.                                                                                                                                                                             |
 | **Lecture**                      | Lorsque le caractère lit une valeur, mais ne peut pas accepter d’entrée.                                              | Lectures de caractères à partir d’une feuille de papier. Remarque : cette animation effectue une boucle sur un ou plusieurs frames intermédiaires qui se produisent après le déplacement du caractère vers une position appropriée.<br/>                                           |
 | **RestPose**                     | Lorsque le caractère parle de sa position neutre.                                                     | Le caractère correspond à la position souple mais précis.                                                                                                                                                                   |
 | **Sad**<sup>1, 2</sup>            | Lorsque le caractère est déçu par le choix de l’utilisateur.                                               | Les caractères mécontents ou semblent déçus.                                                                                                                                                                                |
-| **Recherche**                       | Quand caractère recherche un caractère.                                                                   | Le caractère est aléatoire dans un tiroir de fichier ou un autre conteneur à la recherche d’éléments.                                                                                                                                       |
+| **action**                       | Quand caractère recherche un caractère.                                                                   | Le caractère est aléatoire dans un tiroir de fichier ou un autre conteneur à la recherche d’éléments.                                                                                                                                       |
 | **Dans**                    | Quand caractère recherche des informations spécifiées par l’utilisateur.                                              | Le caractère est aléatoire dans un tiroir de fichier ou un autre conteneur à la recherche d’éléments. Remarque : cette animation effectue une boucle sur un ou plusieurs frames intermédiaires qui se produisent après le déplacement du caractère vers une position appropriée.<br/> |
 | **Afficher**                         | Lorsque le caractère démarre ou est retourné après avoir été convoqué.                                            | Les caractères s’affichent à l’écran dans le souffle d’une fumée, des poutres ou des parcours à l’écran.                                                                                                                                                    |
 | **StartListening**<sup>1, 2</sup> | Lorsque le caractère est à l’écoute.                                                                         | Le caractère place à l’oreille.                                                                                                                                                                                            |
@@ -147,7 +147,7 @@ Le tableau suivant répertorie les animations incluses dans le jeu d’animation
 | <sup>1, 2</sup>          | Lorsque le caractère envisage un caractère.                                                          | Le caractère s’affiche et reste en tête.                                                                                                                                                                             |
 | **Incertaine**<sup>1, 2</sup>      | Lorsque le caractère a besoin que l’utilisateur confirme une demande.                                                  | Le caractère ressemble à un quiz, porte (« êtes-vous sûr ? »)                                                                                                                                                                   |
 | **Vague**<sup>1, 2</sup>           | Lorsque l’utilisateur choisit d’arrêter le serveur ou le système.                                                 | Vagues de caractères bonne-Bye ou Hello.                                                                                                                                                                                     |
-| **Écrire**                        | Lorsque le caractère est à l’écoute des instructions de l’utilisateur.                                          | Le caractère affiche le papier, écrit et regarde l’utilisateur.                                                                                                                                                              |
+| **Écriture**                        | Lorsque le caractère est à l’écoute des instructions de l’utilisateur.                                          | Le caractère affiche le papier, écrit et regarde l’utilisateur.                                                                                                                                                              |
 | **WriteContinued**               | Lorsque le caractère continue à écouter les instructions de l’utilisateur.                                   | Les caractères écrits sur une feuille de papier et remontent à l’utilisateur.                                                                                                                                                           |
 | **WriteReturn**                  | Lorsque le caractère termine l’animation **Write** ou **WriteContinued** .                              | Le caractère revient à sa position neutre.                                                                                                                                                                             |
 | **Écriture**                      | Lorsque le caractère écrit des informations pour l’utilisateur.                                                  | Écriture de caractères sur la feuille de papier. Remarque : cette animation effectue une boucle.<br/>                                                                                                                                             |
@@ -164,7 +164,7 @@ En outre, un caractère doit avoir les assignations d’État suivantes.
 
 
 
-| State          | Animations requises                           |
+| État          | Animations requises                           |
 |----------------|-----------------------------------------------|
 | GesturingDown  | GestureDown                                   |
 | GesturingLeft  | GestureLeft                                   |

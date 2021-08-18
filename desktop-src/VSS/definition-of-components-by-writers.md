@@ -4,12 +4,12 @@ ms.assetid: 5e1c3f9b-ca83-4e70-963b-0a237c6f4b0d
 title: Définition des composants par les rédacteurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa5383e9bc87620f23bb2a3ab067c1913a323782
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82fa08acba3c49cd99e83a5dcc901d4a12108a9dc6dde9891add93bcc54e3566
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136379"
 ---
 # <a name="definition-of-components-by-writers"></a>Définition des composants par les rédacteurs
 

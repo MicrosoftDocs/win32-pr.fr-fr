@@ -18,12 +18,12 @@ api_location:
 - Ext-MS-Win-printer-Winspool-l1-1-1.dll
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 9f384c9c9d6f0d956264b45ec8b52043ad20e897
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d2904c853510efeb379c9d590852c8f082a4644315560c4dfa5a7f51daca6ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460349"
 ---
 # <a name="setprinterdataex-function"></a>SetPrinterDataEx fonction)
 
@@ -127,7 +127,7 @@ Si la fonction est réussie, la valeur de retour est **ERROR_SUCCESS**.
 
 Si la fonction échoue, la valeur de retour est une valeur d’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -144,11 +144,11 @@ Si *hPrinter* est un handle vers un serveur d’impression, *pValueName* peut sp
 
 | Valeur                                                               | Commentaires                                                                                                                                                                                                                        |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SPLREG_ALLOW_USER_MANAGEFORMS**                                | Windows XP avec Service Pack 2 (SP2) et versions ultérieures<br/> Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures<br/>                                                                                                    |
+| **SPLREG_ALLOW_USER_MANAGEFORMS**                                | Windows XP avec Service Pack 2 (SP2) et versions ultérieures<br/> Windows Serveur 2003 avec Service Pack 1 (SP1) et versions ultérieures<br/>                                                                                                    |
 | **SPLREG_BEEP_ENABLED**                                           |                                                                                                                                                                                                                                 |
 | **SPLREG_DEFAULT_SPOOL_DIRECTORY**                               |                                                                                                                                                                                                                                 |
 | **SPLREG_EVENT_LOG**                                              |                                                                                                                                                                                                                                 |
-| **SPLREG_NET_POPUP**                                              | Non pris en charge dans Windows Server 2003 et versions ultérieures<br/>                                                                                                                                                                       |
+| **SPLREG_NET_POPUP**                                              | non pris en charge dans Windows Server 2003 et versions ultérieures<br/>                                                                                                                                                                       |
 | **SPLREG_PORT_THREAD_PRIORITY_DEFAULT**                         |                                                                                                                                                                                                                                 |
 | **SPLREG_PORT_THREAD_PRIORITY**                                  |                                                                                                                                                                                                                                 |
 | **SPLREG_PRINT_DRIVER_ISOLATION_GROUPS**                        | Windows 7 et ultérieur<br/>                                                                                                                                                                                                  |
@@ -157,10 +157,10 @@ Si *hPrinter* est un handle vers un serveur d’impression, *pValueName* peut sp
 | **SPLREG_PRINT_DRIVER_ISOLATION_IDLE_TIMEOUT**                 | Windows 7 et ultérieur<br/>                                                                                                                                                                                                  |
 | **SPLREG_PRINT_DRIVER_ISOLATION_EXECUTION_POLICY**             | Windows 7 et ultérieur<br/>                                                                                                                                                                                                  |
 | **SPLREG_PRINT_DRIVER_ISOLATION_OVERRIDE_POLICY**              | Windows 7 et ultérieur<br/>                                                                                                                                                                                                  |
-| **SPLREG_RETRY_POPUP**                                            | En cas de retour réussi, *pData* contient 1 si le serveur est configuré pour réessayer les fenêtres contextuelles pour tous les travaux, ou 0 si le serveur ne réessaye pas les fenêtres publicitaires pour tous les travaux.<br/> Non pris en charge dans Windows Server 2003 et versions ultérieures<br/> |
+| **SPLREG_RETRY_POPUP**                                            | En cas de retour réussi, *pData* contient 1 si le serveur est configuré pour réessayer les fenêtres contextuelles pour tous les travaux, ou 0 si le serveur ne réessaye pas les fenêtres publicitaires pour tous les travaux.<br/> non pris en charge dans Windows Server 2003 et versions ultérieures<br/> |
 | **SPLREG_SCHEDULER_THREAD_PRIORITY**                             |                                                                                                                                                                                                                                 |
 | **SPLREG_SCHEDULER_THREAD_PRIORITY_DEFAULT**                    |                                                                                                                                                                                                                                 |
-| **SPLREG_WEBSHAREMGMT**                                            | Windows Server 2003 et versions ultérieures<br/>                                                                                                                                                                                        |
+| **SPLREG_WEBSHAREMGMT**                                            | Windows Serveur 2003 et versions ultérieures<br/>                                                                                                                                                                                        |
 
 
 
@@ -198,7 +198,7 @@ Appelez la fonction [**RegSetValueEx**](/windows/win32/api/winreg/nf-winreg-regs
 
 Pour vous assurer que le spouleur redirige les travaux vers la prochaine imprimante disponible dans le pool (lorsque le travail d’impression n’est pas imprimé dans le délai défini), le moniteur de port doit prendre en charge SNMP et les ports réseau du pool doivent être configurés comme « État SNMP activé ». Le moniteur de port qui prend en charge SNMP est le moniteur de port TCP/IP standard.
 
-Dans Windows 7 et les versions ultérieures de Windows, les travaux d’impression qui sont envoyés à un serveur d’impression sont rendus sur le client par défaut. Le rendu côté client des travaux d’impression peut être configuré en définissant *pKeyName* sur « PrinterDriverData » et *pValueName* sur la valeur de paramètre dans le tableau suivant.
+dans Windows 7 et les versions ultérieures de Windows, les travaux d’impression qui sont envoyés à un serveur d’impression sont rendus sur le client par défaut. Le rendu côté client des travaux d’impression peut être configuré en définissant *pKeyName* sur « PrinterDriverData » et *pValueName* sur la valeur de paramètre dans le tableau suivant.
 
 
 

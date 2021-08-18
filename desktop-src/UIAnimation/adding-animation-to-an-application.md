@@ -1,23 +1,23 @@
 ---
 title: Créer les objets d’animation principaux
-description: Pour utiliser l’animation Windows dans votre application, la première étape consiste à créer un petit ensemble d’objets d’animation principaux.
+description: pour utiliser Windows Animation dans votre application, la première étape consiste à créer un petit ensemble d’objets d’Animation principaux.
 ms.assetid: 4005819e-482c-4052-89f8-b8e457c0c3dc
 keywords:
 - objets du gestionnaire d’animations Windows animation, création
 - objets de minuteur d’animation Windows animation, création
-- objets de bibliothèque de transition Windows animation, création
+- objets de bibliothèque de transition Windows Animation, création
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ccd1cab32e72bf1382469ada52abeecee47b6a1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b3023e5934581850bb6aa21e7d41d92642bb01fadfcf7531fcacabca74b411f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137402"
 ---
 # <a name="create-the-main-animation-objects"></a>Créer les objets d’animation principaux
 
-Pour utiliser l’animation Windows dans votre application, la première étape consiste à créer un petit ensemble d’objets d’animation principaux.
+pour utiliser Windows Animation dans votre application, la première étape consiste à créer un petit ensemble d’objets d’Animation principaux.
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -27,7 +27,7 @@ Ces objets seront nécessaires pour créer et afficher les animations. ils ne do
 
 ## <a name="example-code"></a>Exemple de code
 
-L’exemple de code suivant est extrait de MainWindow. cpp dans les exemples d’animation Windows. consultez la méthode CMainWindow :: InitializeAnimation.
+l’exemple de code suivant est extrait de MainWindow. cpp dans le Windows exemples d’Animation. consultez la méthode CMainWindow :: InitializeAnimation.
 
 
 ```C++
@@ -117,9 +117,9 @@ private:
 [**IUIAnimationTransitionLibrary**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionlibrary)
 </dt> <dt>
 
-[Vue d’ensemble des animations Windows](scenic-animation-api-overview.md)
+[Windows Vue d’ensemble de l’animation](scenic-animation-api-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,26 +1,26 @@
 ---
-description: À compter de Windows 10, CNG prend en charge les courbes elliptiques nommées suivantes (ANSI X 9.62, X 9.63, FIPS 186-2).
+description: à compter de Windows 10, CNG prend en charge les courbes elliptiques nommées suivantes (ANSI x 9.62, x 9.63, FIPS 186-2).
 ms.assetid: 0607E8C3-6372-47E1-B16F-EF156D5EBA7D
 title: Courbes elliptiques nommées CNG (Bcrypt.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35092d463e6f83917d231a87659e690ffeb59fe3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 691f1211b56abc41d622d20857653723be37681014a9bf72b91c1384c8f4b8cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908250"
 ---
 # <a name="cng-named-elliptic-curves"></a>CNG nommé courbes elliptique
 
-À compter de Windows 10, CNG prend en charge les courbes elliptiques nommées suivantes (ANSI X 9.62, X 9.63, FIPS 186-2).
+à compter de Windows 10, CNG prend en charge les courbes elliptiques nommées suivantes (ANSI x 9.62, x 9.63, FIPS 186-2).
 
 <dl> <dt><span id="BCRYPT_ECC_CURVE_25519"></span><span id="bcrypt_ecc_curve_25519"></span>**BCRYPT \_ ECC \_ Curve \_ 25519**</dt> <dd> <dl> <dt> 
 
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------|
 | Nom              | curve25519                                                  |
-| standard          | [Courbe 25519](https://cr.yp.to/ecdh/curve25519-20060209.pdf) |
+| Standard          | [Courbe 25519](https://cr.yp.to/ecdh/curve25519-20060209.pdf) |
 | Taille de la clé (bits)   | 255                                                         |
 | Compatibilité TLS       |                                                             |
 | Identificateur d'objet | Aucun                                                        |
@@ -34,7 +34,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Nom              | brainpoolP160r1                                                                                                   |
-| standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
+| Standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Taille de la clé (bits)   | 160                                                                                                               |
 | Compatibilité TLS       | Non                                                                                                                |
 | Identificateur d'objet | 1.3.36.3.3.2.8.1.1.1                                                                                              |
@@ -48,7 +48,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Nom              | brainpoolP160t1                                                                                                   |
-| standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
+| Standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Taille de la clé (bits)   | 160                                                                                                               |
 | Compatibilité TLS       | Non                                                                                                                |
 | Identificateur d'objet | 1.3.36.3.3.2.8.1.1.2                                                                                              |
@@ -62,7 +62,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Nom              | brainpoolP192r1                                                                                                   |
-| standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
+| Standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Taille de la clé (bits)   | 192                                                                                                               |
 | Compatibilité TLS       | Non                                                                                                                |
 | Identificateur d'objet | 1.3.36.3.3.2.8.1.1.3                                                                                              |
@@ -76,7 +76,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Nom              | brainpoolP192t1                                                                                                   |
-| standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
+| Standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Taille de la clé (bits)   | 192                                                                                                               |
 | Compatibilité TLS       | Non                                                                                                                |
 | Identificateur d'objet | 1.3.36.3.3.2.8.1.1.4                                                                                              |
@@ -90,7 +90,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Nom              | brainpoolP224r1                                                                                                   |
-| standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
+| Standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Taille de la clé (bits)   | 224                                                                                                               |
 | Compatibilité TLS       | Non                                                                                                                |
 | Identificateur d'objet | 1.3.36.3.3.2.8.1.1.5                                                                                              |
@@ -104,7 +104,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Nom              | brainpoolP224t1                                                                                                   |
-| standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
+| Standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Taille de la clé (bits)   | 224                                                                                                               |
 | Compatibilité TLS       | Non                                                                                                                |
 | Identificateur d'objet | 1.3.36.3.3.2.8.1.1.6                                                                                              |
@@ -118,7 +118,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Nom              | brainpoolP256r1                                                                                                   |
-| standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
+| Standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Taille de la clé (bits)   | 256                                                                                                               |
 | Compatibilité TLS       | Oui                                                                                                               |
 | Identificateur d'objet | 1.3.36.3.3.2.8.1.1.7                                                                                              |
@@ -132,7 +132,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Nom              | brainpoolP256t1                                                                                                   |
-| standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
+| Standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Taille de la clé (bits)   | 256                                                                                                               |
 | Compatibilité TLS       | Non                                                                                                                |
 | Identificateur d'objet | 1.3.36.3.3.2.8.1.1.8                                                                                              |
@@ -146,7 +146,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Nom              | brainpoolP320r1                                                                                                   |
-| standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
+| Standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Taille de la clé (bits)   | 320                                                                                                               |
 | Compatibilité TLS       | Non                                                                                                                |
 | Identificateur d'objet | 1.3.36.3.3.2.8.1.1.9                                                                                              |
@@ -160,7 +160,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Nom              | brainpoolP320t1                                                                                                   |
-| standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
+| Standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Taille de la clé (bits)   | 320                                                                                                               |
 | Compatibilité TLS       | Non                                                                                                                |
 | Identificateur d'objet | 1.3.36.3.3.2.8.1.1.10                                                                                             |
@@ -174,7 +174,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Nom              | brainpoolP384r1                                                                                                   |
-| standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
+| Standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Taille de la clé (bits)   | 384                                                                                                               |
 | Compatibilité TLS       | Oui                                                                                                               |
 | Identificateur d'objet | 1.3.36.3.3.2.8.1.1.11                                                                                             |
@@ -188,7 +188,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Nom              | brainpoolP384t1                                                                                                   |
-| standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
+| Standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Taille de la clé (bits)   | 384                                                                                                               |
 | Compatibilité TLS       | Non                                                                                                                |
 | Identificateur d'objet | 1.3.36.3.3.2.8.1.1.12                                                                                             |
@@ -202,7 +202,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Nom              | brainpoolP512r1                                                                                                   |
-| standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
+| Standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Taille de la clé (bits)   | 512                                                                                                               |
 | Compatibilité TLS       | Oui                                                                                                               |
 | Identificateur d'objet | 1.3.36.3.3.2.8.1.1.13                                                                                             |
@@ -216,7 +216,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Nom              | brainpoolP512t1                                                                                                   |
-| standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
+| Standard          | [Les courbes et la génération de courbe ECC Brainpool standard](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Taille de la clé (bits)   | 512                                                                                                               |
 | Compatibilité TLS       | Non                                                                                                                |
 | Identificateur d'objet | 1.3.36.3.3.2.8.1.1.14                                                                                             |
@@ -230,7 +230,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|----------------------------------------------------------------|
 | Nom              | ec192wapi                                                      |
-| standard          | Chinois national standard pour les réseaux locaux sans fil (Go 15629.11-2003) |
+| Standard          | Chinois national standard pour les réseaux locaux sans fil (Go 15629.11-2003) |
 | Taille de la clé (bits)   | 192                                                            |
 | Compatibilité TLS       | Non                                                             |
 | Identificateur d'objet | 1.2.156.11235.1.1.2.1                                          |
@@ -244,7 +244,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Nom              | nistP192                                                                                                                     |
-| standard          | [Courbes elliptiques recommandées pour l’utilisation du gouvernement fédéral](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Courbes elliptiques recommandées pour l’utilisation du gouvernement fédéral](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
 | Taille de la clé (bits)   | 192                                                                                                                          |
 | Compatibilité TLS       | Oui                                                                                                                          |
 | Identificateur d'objet | 1.2.840.10045.3.1.1                                                                                                          |
@@ -258,7 +258,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Nom              | nistP224                                                                                                                     |
-| standard          | [Courbes elliptiques recommandées pour l’utilisation du gouvernement fédéral](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Courbes elliptiques recommandées pour l’utilisation du gouvernement fédéral](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
 | Taille de la clé (bits)   | 224                                                                                                                          |
 | Compatibilité TLS       | Oui                                                                                                                          |
 | Identificateur d'objet | 1.3.132.0.33                                                                                                                 |
@@ -272,7 +272,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Nom              | nistP256                                                                                                                     |
-| standard          | [Courbes elliptiques recommandées pour l’utilisation du gouvernement fédéral](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Courbes elliptiques recommandées pour l’utilisation du gouvernement fédéral](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
 | Taille de la clé (bits)   | 256                                                                                                                          |
 | Compatibilité TLS       | Oui                                                                                                                          |
 | Identificateur d'objet | 1.2.840.10045.3.1.7                                                                                                          |
@@ -286,7 +286,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Nom              | nistP384                                                                                                                     |
-| standard          | [Courbes elliptiques recommandées pour l’utilisation du gouvernement fédéral](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Courbes elliptiques recommandées pour l’utilisation du gouvernement fédéral](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
 | Taille de la clé (bits)   | 384                                                                                                                          |
 | Compatibilité TLS       | Oui                                                                                                                          |
 | Identificateur d'objet | 1.3.132.0.34                                                                                                                 |
@@ -300,7 +300,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Nom              | nistP521                                                                                                                     |
-| standard          | [Courbes elliptiques recommandées pour l’utilisation du gouvernement fédéral](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Courbes elliptiques recommandées pour l’utilisation du gouvernement fédéral](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
 | Taille de la clé (bits)   | 521                                                                                                                          |
 | Compatibilité TLS       | Oui                                                                                                                          |
 | Identificateur d'objet | 1.3.132.0.35                                                                                                                 |
@@ -314,7 +314,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Nom              | numsP256t1                                                                                                                              |
-| standard          | [Spécification de la sélection des courbes et des paramètres de courbe pris en charge dans MSR ECCLib](https://research.microsoft.com/pubs/219966/curvegen.pdf) |
+| Standard          | [Spécification de la sélection des courbes et des paramètres de courbe pris en charge dans MSR ECCLib](https://research.microsoft.com/pubs/219966/curvegen.pdf) |
 | Taille de la clé (bits)   | 256                                                                                                                                     |
 | Compatibilité TLS       | Non                                                                                                                                      |
 | Identificateur d'objet | Aucun                                                                                                                                    |
@@ -328,7 +328,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Nom              | numsP384t1                                                                                                                              |
-| standard          | [Spécification de la sélection des courbes et des paramètres de courbe pris en charge dans MSR ECCLib](https://research.microsoft.com/pubs/219966/curvegen.pdf) |
+| Standard          | [Spécification de la sélection des courbes et des paramètres de courbe pris en charge dans MSR ECCLib](https://research.microsoft.com/pubs/219966/curvegen.pdf) |
 | Taille de la clé (bits)   | 384                                                                                                                                     |
 | Compatibilité TLS       | Non                                                                                                                                      |
 | Identificateur d'objet | Aucun                                                                                                                                    |
@@ -342,7 +342,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Nom              | numsP512t1                                                                                                                              |
-| standard          | [Spécification de la sélection des courbes et des paramètres de courbe pris en charge dans MSR ECCLib](https://research.microsoft.com/pubs/219966/curvegen.pdf) |
+| Standard          | [Spécification de la sélection des courbes et des paramètres de courbe pris en charge dans MSR ECCLib](https://research.microsoft.com/pubs/219966/curvegen.pdf) |
 | Taille de la clé (bits)   | 512                                                                                                                                     |
 | Compatibilité TLS       | Non                                                                                                                                      |
 | Identificateur d'objet | Aucun                                                                                                                                    |
@@ -356,7 +356,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------------------------------------------------------------------|
 | Nom              | secP160k1                                                                       |
-| standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
 | Taille de la clé (bits)   | 160                                                                             |
 | Compatibilité TLS       | Oui                                                                             |
 | Identificateur d'objet | 1.3.132.0.9                                                                     |
@@ -370,7 +370,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------------------------------------------------------------------|
 | Nom              | secP160r1                                                                       |
-| standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
 | Taille de la clé (bits)   | 160                                                                             |
 | Compatibilité TLS       | Oui                                                                             |
 | Identificateur d'objet | 1.3.132.0.8                                                                     |
@@ -384,7 +384,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------------------------------------------------------------------|
 | Nom              | secP160r2                                                                       |
-| standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
 | Taille de la clé (bits)   | 160                                                                             |
 | Compatibilité TLS       | Oui                                                                             |
 | Identificateur d'objet | 1.3.132.0.30                                                                    |
@@ -398,7 +398,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------------------------------------------------------------------|
 | Nom              | secP192k1                                                                       |
-| standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
 | Taille de la clé (bits)   | 192                                                                             |
 | Compatibilité TLS       | Oui                                                                             |
 | Identificateur d'objet | 1.3.132.0.31                                                                    |
@@ -412,7 +412,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------------------------------------------------------------------|
 | Nom              | secP192r1                                                                       |
-| standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
 | Taille de la clé (bits)   | 192                                                                             |
 | Compatibilité TLS       | Oui                                                                             |
 | Identificateur d'objet | 1.2.840.10045.3.1.1                                                             |
@@ -426,7 +426,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------------------------------------------------------------------|
 | Nom              | secP224k1                                                                       |
-| standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
 | Taille de la clé (bits)   | 224                                                                             |
 | Compatibilité TLS       | Oui                                                                             |
 | Identificateur d'objet | 1.3.132.0.32                                                                    |
@@ -440,7 +440,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------------------------------------------------------------------|
 | Nom              | secP224r1                                                                       |
-| standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
 | Taille de la clé (bits)   | 224                                                                             |
 | Compatibilité TLS       | Oui                                                                             |
 | Identificateur d'objet | 1.3.132.0.33                                                                    |
@@ -454,7 +454,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------------------------------------------------------------------|
 | Nom              | secP256k1                                                                       |
-| standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
 | Taille de la clé (bits)   | 256                                                                             |
 | Compatibilité TLS       | Oui                                                                             |
 | Identificateur d'objet | 1.3.132.0.10                                                                    |
@@ -468,7 +468,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------------------------------------------------------------------|
 | Nom              | secP256r1                                                                       |
-| standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
 | Taille de la clé (bits)   | 256                                                                             |
 | Compatibilité TLS       | Oui                                                                             |
 | Identificateur d'objet | 1.2.840.10045.3.1.7                                                             |
@@ -482,7 +482,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------------------------------------------------------------------|
 | Nom              | secP384r1                                                                       |
-| standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
 | Taille de la clé (bits)   | 384                                                                             |
 | Compatibilité TLS       | Oui                                                                             |
 | Identificateur d'objet | 1.3.132.0.34                                                                    |
@@ -496,7 +496,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------------------------------------------------------------------|
 | Nom              | secP521r1                                                                       |
-| standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Paramètres de domaine de courbe elliptique recommandés](https://www.secg.org/sec2-v2.pdf) |
 | Taille de la clé (bits)   | 521                                                                             |
 | Compatibilité TLS       | Oui                                                                             |
 | Identificateur d'objet | 1.3.132.0.35                                                                    |
@@ -510,7 +510,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|--------------|
 | Nom              | wtls12       |
-| standard          | WTLS         |
+| Standard          | WTLS         |
 | Taille de la clé (bits)   | 224          |
 | Compatibilité TLS       | Non           |
 | Identificateur d'objet | 1.3.132.0.33 |
@@ -524,7 +524,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|--------------|
 | Nom              | wtls7        |
-| standard          | WTLS         |
+| Standard          | WTLS         |
 | Taille de la clé (bits)   | 160          |
 | Compatibilité TLS       | Non           |
 | Identificateur d'objet | 1.3.132.0.30 |
@@ -538,7 +538,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------|
 | Nom              | wtls9         |
-| standard          | WTLS          |
+| Standard          | WTLS          |
 | Taille de la clé (bits)   | 160           |
 | Compatibilité TLS       | Non            |
 | Identificateur d'objet | 2.23.43.1.4.9 |
@@ -552,7 +552,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------|
 | Nom              | x962P192v1          |
-| standard          | ANSI X 9.62          |
+| Standard          | ANSI X 9.62          |
 | Taille de la clé (bits)   | 192                 |
 | Compatibilité TLS       | Non                  |
 | Identificateur d'objet | 1.2.840.10045.3.1.1 |
@@ -566,7 +566,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------|
 | Nom              | x962P192v2          |
-| standard          | ANSI X 9.62          |
+| Standard          | ANSI X 9.62          |
 | Taille de la clé (bits)   | 192                 |
 | Compatibilité TLS       | Non                  |
 | Identificateur d'objet | 1.2.840.10045.3.1.2 |
@@ -580,7 +580,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------|
 | Nom              | x962P192v3          |
-| standard          | ANSI X 9.62          |
+| Standard          | ANSI X 9.62          |
 | Taille de la clé (bits)   | 192                 |
 | Compatibilité TLS       | Non                  |
 | Identificateur d'objet | 1.2.840.10045.3.1.3 |
@@ -594,7 +594,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------|
 | Nom              | x962P239v1          |
-| standard          | ANSI X 9.62          |
+| Standard          | ANSI X 9.62          |
 | Taille de la clé (bits)   | 239                 |
 | Compatibilité TLS       | Non                  |
 | Identificateur d'objet | 1.2.840.10045.3.1.4 |
@@ -608,7 +608,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------|
 | Nom              | x962P239v2          |
-| standard          | ANSI X 9.62          |
+| Standard          | ANSI X 9.62          |
 | Taille de la clé (bits)   | 239                 |
 | Compatibilité TLS       | Non                  |
 | Identificateur d'objet | 1.2.840.10045.3.1.5 |
@@ -622,7 +622,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------|
 | Nom              | x962P239v3          |
-| standard          | ANSI X 9.62          |
+| Standard          | ANSI X 9.62          |
 | Taille de la clé (bits)   | 239                 |
 | Compatibilité TLS       | Non                  |
 | Identificateur d'objet | 1.2.840.10045.3.1.6 |
@@ -636,7 +636,7 @@ ms.locfileid: "103861973"
 | Condition requise | Valeur |
 |-------------------|---------------------|
 | Nom              | x962P256v1          |
-| standard          | ANSI X 9.62          |
+| Standard          | ANSI X 9.62          |
 | Taille de la clé (bits)   | 256                 |
 | Compatibilité TLS       | Non                  |
 | Identificateur d'objet | 1.2.840.10045.3.1.7 |
@@ -648,7 +648,7 @@ ms.locfileid: "103861973"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser une courbe nommée, appelez [**BCryptOpenAlgorithmProvider**](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) à l’aide de l' **\_ \_ algorithme ECDSA bcrypt** ou de l' **\_ \_ algorithme ECDH bcrypt** comme ID d’algorithme. Ensuite, appelez [**BCryptSetProperty**](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptsetproperty) et définissez la propriété de nom de la **\_ \_ courbe \_ de BCRYPT** à l’aide de l’une des courbes ci-dessus ou de toute courbe nommée inscrite sur l’ordinateur comme indiqué par la `certutil -displayEccCurve` commande.
 
@@ -658,8 +658,8 @@ Pour utiliser une courbe nommée, appelez [**BCryptOpenAlgorithmProvider**](/win
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Bcrypt. h</dt> </dl> |
 
 

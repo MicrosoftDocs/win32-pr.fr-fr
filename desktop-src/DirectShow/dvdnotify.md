@@ -4,17 +4,17 @@ ms.assetid: 8e7d85fb-95c0-472d-ab17-a82da303b68f
 title: DVDNotify (segment. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b31a2974bec428cb8ffe290edc9a384445e42070
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 988deaf53fb2b50555b4cf19a38684610aa0822a270dfba079defab92ce8aec0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148702"
 ---
 # <a name="dvdnotify"></a>DVDNotify
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -49,7 +49,7 @@ Peut contenir des informations supplémentaires relatives à l’événement.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les [codes de notification d’événement DVD](dvd-notification-codes.md) donnent une explication complète de tous les codes de notification d’événements DVD et de leurs paramètres.
 

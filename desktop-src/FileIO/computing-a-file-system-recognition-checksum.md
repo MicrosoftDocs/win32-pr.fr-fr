@@ -1,19 +1,19 @@
 ---
-description: La structure de la structure de reconnaissance du système de fichiers \_ \_ \_ , définie en interne par Windows et utilisée par la reconnaissance du système de fichiers (FRS), contient une valeur de somme de contrôle qui doit être correctement calculée pour que le service de réplication de fichiers fonctionne correctement avec un système de fichiers non reconnu spécifié.
+description: la structure de la structure de reconnaissance du système de fichiers \_ \_ \_ , définie en interne par Windows et utilisée par la reconnaissance du système de fichiers (frs), contient une valeur de somme de contrôle qui doit être correctement calculée pour que le service de réplication de fichiers fonctionne correctement avec un système de fichiers non reconnu spécifié.
 ms.assetid: 8f76784f-7d03-4874-ae7f-e8bdc42638c3
 title: Calcul d’une somme de contrôle de reconnaissance du système de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74cac3975d4e1845dd1ff4aa218526e942fda152
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce146fda589668d39f1f7ff4158384986fb719f2bbbee6ce0584ad9f1e540b08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329179"
 ---
 # <a name="computing-a-file-system-recognition-checksum"></a>Calcul d’une somme de contrôle de reconnaissance du système de fichiers
 
-La structure de la structure de reconnaissance du système de fichiers, définie en interne par Windows et utilisée par la [reconnaissance du système de fichiers](file-system-recognition.md) (FRS), contient une valeur de somme de contrôle qui doit être correctement calculée pour que le service de réplication de fichiers fonctionne correctement avec un système de fichiers non reconnu spécifié. [**\_ \_ \_**](file-system-recognition-structure.md) L’exemple suivant effectue ce calcul.
+la structure de la structure de reconnaissance du système de fichiers, définie en interne par Windows et utilisée par la [reconnaissance du système de fichiers](file-system-recognition.md) (frs), contient une valeur de somme de contrôle qui doit être correctement calculée pour que le service de réplication de fichiers fonctionne correctement avec un système de fichiers non reconnu spécifié. [**\_ \_ \_**](file-system-recognition-structure.md) L’exemple suivant effectue ce calcul.
 
 
 ```C++

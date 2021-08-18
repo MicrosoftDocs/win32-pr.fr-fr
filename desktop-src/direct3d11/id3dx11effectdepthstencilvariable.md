@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d7aa520df0c13c81435421d5f605f901a61da6e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9d743bfebfa9722261d220800a633bdc8b268a520b883c9fea11f9f7948f7bca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989769"
 ---
 # <a name="id3dx11effectdepthstencilvariable-interface"></a>Interface ID3DX11EffectDepthStencilVariable
 
@@ -50,7 +50,7 @@ L’interface **ID3DX11EffectDepthStencilVariable** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une interface [**ID3DX11EffectVariable**](id3dx11effectvariable.md) est créée lorsqu’un effet est lu dans la mémoire.
 
@@ -61,7 +61,7 @@ Les variables d’effet sont enregistrées en mémoire dans le magasin de stocka
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

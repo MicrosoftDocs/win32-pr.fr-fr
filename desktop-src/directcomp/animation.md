@@ -4,17 +4,17 @@ description: Cette rubrique décrit les principes fondamentaux de l’animation 
 ms.assetid: 65DA3971-97C0-4B59-BC67-287AAEAAE340
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f7462a10fd83b45c1b90450fdde806ef306a2f6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 75b1f021d5a11fac70f47d5fe87f9389d2ad3e3108d224835fb295a8c3216354
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106511726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119130"
 ---
 # <a name="animation-directcomposition"></a>Animation (DirectComposition)
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Cette rubrique décrit les principes fondamentaux de l’animation Microsoft DirectComposition. Elle contient les rubriques suivantes :
 
@@ -26,7 +26,7 @@ Cette rubrique décrit les principes fondamentaux de l’animation Microsoft Dir
     -   [Segment sinusoïdal](#sinusoidal-segment)
     -   [Répéter le segment](#repeat-segment)
     -   [Segment de fin](#end-segment)
--   [Compatibilité avec le gestionnaire d’animations Windows](#compatibility-with-windows-animation-manager)
+-   [compatibilité avec Windows gestionnaire d’animations](#compatibility-with-windows-animation-manager)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="what-is-an-animation"></a>Qu’est-ce qu’une animation ?
@@ -113,11 +113,11 @@ Lorsque vous appelez [**end**](/windows/desktop/api/DcompAnimation/nf-dcompanima
 
 Après avoir ajouté un segment de fin, vous ne pouvez pas ajouter d’autres segments à la fonction d’animation. Autrement dit, tous les appels de méthode sur l’objet d’animation échouent sauf [**IDCompositionAnimation :: Reset**](/windows/desktop/api/DcompAnimation/nf-dcompanimation-idcompositionanimation-reset). L’appel de **Reset** retourne l’objet d’animation à l’État Clean dans lequel la fonction d’animation ne contient aucun segment. à partir de là, vous pouvez ajouter de nouveau des segments.
 
-## <a name="compatibility-with-windows-animation-manager"></a>Compatibilité avec le gestionnaire d’animations Windows
+## <a name="compatibility-with-windows-animation-manager"></a>compatibilité avec Windows gestionnaire d’animations
 
-Windows animation Manager (animation Windows) génère des primitives d’animation dans un format compatible avec l’API DirectComposition. Cela signifie que DirectComposition peut créer des animations basées sur les primitives d’animation créées par l’animation Windows.
+Windows le gestionnaire d’animations (animation Windows) génère des primitives d’animation dans un format compatible avec l’API DirectComposition. cela signifie que DirectComposition peut créer des animations basées sur des primitives d’animation créées par Windows animation.
 
-Pour plus d’informations, consultez [Windows animation Manager](/windows/desktop/UIAnimation/-main-portal), la méthode [**IUIAnimationVariable2 :: GetCurve**](/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getcurve) et [Managing DirectComposition animation with Windows animation Manager v2](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionWindowsAnimationManager).
+pour plus d’informations, consultez [Windows le gestionnaire d’animations](/windows/desktop/UIAnimation/-main-portal), la méthode [**IUIAnimationVariable2 :: GetCurve**](/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getcurve) et [Managing DirectComposition animation with Windows animation manager v2](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionWindowsAnimationManager).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

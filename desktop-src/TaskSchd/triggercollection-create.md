@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad0f1c5dd8bef3d81a8e9b5859bc2bbd8c969bf3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a7cfc32ebff941af374d2c4bb64db8ffe064961c13840e50244f416bad477a8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001967"
 ---
 # <a name="triggercollectioncreate-method"></a>TriggerCollection. Create, méthode
 
@@ -74,7 +74,7 @@ Ce paramètre est défini sur l’une des constantes d’énumération [**\_ \_ 
 
 Objet de [**déclencheur**](trigger.md) qui représente le nouveau déclencheur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur chaque type de déclencheur, consultez [types de déclencheurs](trigger-types.md).
 
@@ -84,8 +84,8 @@ Pour plus d’informations sur chaque type de déclencheur, consultez [types de 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -98,7 +98,7 @@ Pour plus d’informations sur chaque type de déclencheur, consultez [types de 
 [Planificateur de tâches](task-scheduler-start-page.md)
 </dt> <dt>
 
-[**Stead**](trigger.md)
+[**Déclencheur**](trigger.md)
 </dt> </dl>
 
  

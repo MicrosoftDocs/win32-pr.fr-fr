@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8987e643253791e5315dd07b7b20a40dee66cf9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 505a67fe5e6cdc4caad1cf8407e4f3d69b196b092d8121efc3934c2260aac5da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117890552"
 ---
 # <a name="table-constructor"></a>Constructeur de table
 

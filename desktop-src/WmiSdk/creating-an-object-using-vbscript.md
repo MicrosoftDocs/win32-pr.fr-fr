@@ -1,5 +1,5 @@
 ---
-description: Vous pouvez créer un objet pour WMI dans Visual Basic Scripting Edition (VBScript) en vous connectant à WMI, puis en appelant CreateObject. Le tableau suivant répertorie les méthodes de l’API de script pour WMI qui prennent en charge la création d’objets.
+description: vous pouvez créer un objet pour WMI dans Visual Basic scripting Edition (VBScript) en vous connectant à wmi, puis en appelant CreateObject. Le tableau suivant répertorie les méthodes de l’API de script pour WMI qui prennent en charge la création d’objets.
 ms.assetid: 3acbce31-6d56-4a7a-af03-fa37b2b868be
 ms.tgt_platform: multiple
 title: Création d’un objet à l’aide de VBScript
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6bfbb4753f19f8ed6f7a61d94ab1d9f03b57e091
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e86dbc649d5feab471485dbdf536cde911c139aeab3b6eb3323b24199438d1d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244569"
 ---
 # <a name="creating-an-object-using-vbscript"></a>Création d’un objet à l’aide de VBScript
 
-Vous pouvez créer un objet pour WMI dans Visual Basic Scripting Edition (VBScript) en vous connectant à WMI, puis en appelant [CreateObject](/previous-versions//xzysf6hc(v=vs.85)). Le tableau suivant répertorie les méthodes de l’API de script pour WMI qui prennent en charge la création d’objets.
+vous pouvez créer un objet pour WMI dans Visual Basic scripting Edition (VBScript) en vous connectant à wmi, puis en appelant [CreateObject](/previous-versions//xzysf6hc(v=vs.85)). Le tableau suivant répertorie les méthodes de l’API de script pour WMI qui prennent en charge la création d’objets.
 
 
 
@@ -41,7 +41,7 @@ La procédure suivante décrit comment créer un objet WMI à l’aide de VBScri
 
 **Pour créer un objet WMI à l’aide de VBScript**
 
-1.  Connectez-vous à WMI à l’aide d’un moniker ou d’un objet [**SWbemLocator**](swbemlocator.md) .
+1.  Connecter à WMI à l’aide d’un moniker ou d’un objet [**SWbemLocator**](swbemlocator.md) .
 
     Pour plus d’informations, consultez [création d’un script WMI](creating-a-wmi-script.md).
 

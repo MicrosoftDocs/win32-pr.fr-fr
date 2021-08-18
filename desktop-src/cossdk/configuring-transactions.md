@@ -4,12 +4,12 @@ ms.assetid: ea0e4d7e-2598-4a42-993c-58815f2fa138
 title: Configuration des transactions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b57f27d47836193dc5d23c44e3344cb2a81d5984
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: a9d613eb49a5f053b869e3efc90e04b9455644ea52acbaf651f33b00909e6e35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104566356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128885"
 ---
 # <a name="configuring-transactions"></a>Configuration des transactions
 
@@ -72,7 +72,7 @@ Le tableau suivant présente les caractéristiques de chaque valeur d’attribut
 
 
 
-| Valeur d'attribut          | Nouvelle transaction   | Transaction du client                 | Racine de la transaction                        | Activation juste-à-temps      | Synchronization     |
+| Valeur d'attribut          | Nouvelle transaction   | Transaction du client                 | Racine de la transaction                        | Activation juste-à-temps      | Synchronisation     |
 |--------------------------|-------------------|--------------------------------------|-----------------------------------------|---------------------|---------------------|
 | Désactivé<br/>      | Jamais<br/>  | Peut-être<br/>                     | Jamais<br/>                        | Facultatif<br/> | Facultatif<br/> |
 | Non pris en charge<br/> | Jamais<br/>  | Jamais<br/>                     | Jamais<br/>                        | Facultatif<br/> | Facultatif<br/> |

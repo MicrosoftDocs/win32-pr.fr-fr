@@ -22,7 +22,7 @@
           href: creating-an-engine-adapter.md
         - name: Création d’un adaptateur de capteur
           href: creating-a-sensor-adapter.md
-        - name: Création d’un adaptateur de stockage
+        - name: création d’un adaptateur Stockage
           href: creating-a-storage-adapter.md
     - name: Création d’un pool de capteurs privé
       href: creating-a-private-sensor-pool.md
@@ -46,7 +46,7 @@
           href: private-pool-helper-functions.md
         - name: Créer des applications clientes
           href: creating-client-applications.md
-    - name: Informations de référence sur l’API Windows Biometric Framework
+    - name: Windows Informations de référence sur l’API de Framework biométrique
       href: biometric-service-api-reference.md
       items:
         - name: Référence de l’application cliente
@@ -458,7 +458,7 @@
                       href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_start_capture_fn
                     - name: WbioQuerySensorInterface
                       href: /windows/desktop/api/Winbio_adapter/nf-winbio_adapter-wbioquerysensorinterface
-                - name: Fonctions des adaptateurs de stockage
+                - name: Stockage Fonctions de l’adaptateur
                   href: storage-adapter-functions.md
                   items:
                     - name: StorageAdapterActivate
@@ -539,5 +539,5 @@
                   href: engine-adapter-wrappers.md
                 - name: Wrappers d’adaptateur de capteur
                   href: sensor-adapter-wrappers.md
-                - name: Wrappers d’adaptateur de stockage
+                - name: Stockage Wrappers d’adaptateur
                   href: storage-adapter-wrappers.md

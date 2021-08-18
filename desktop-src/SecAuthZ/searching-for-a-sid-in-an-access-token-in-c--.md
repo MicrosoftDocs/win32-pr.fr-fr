@@ -4,12 +4,12 @@ ms.assetid: f895dfef-75ad-419c-95d0-6480bdf9c769
 title: Recherche d’un SID dans un jeton d’accès en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 713f69511f780898641e65f22503e595706307ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 942b3609064b51a299d4bd679b5cafe0e1f2b592298fe3a83cfb183ede959823
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911919"
 ---
 # <a name="searching-for-a-sid-in-an-access-token-in-c"></a>Recherche d’un SID dans un jeton d’accès en C++
 

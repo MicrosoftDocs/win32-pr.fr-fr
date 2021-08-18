@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9af120c76e4ab8c53c945bd13aa62a2295385ac2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1e52a1d974afdc123e79f85252a68c52aa99e7e78a2b997b6eca1f1bced60997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020507"
 ---
 # <a name="deleteex-method-of-the-cim_datafile-class"></a>Méthode DeleteEx de la \_ classe de fichier de fichier CIM
 
@@ -185,7 +185,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **DeleteEx** dans le [**fichier de \_ fichier CIM**](cim-datafile.md) est implémentée par WMI.
 

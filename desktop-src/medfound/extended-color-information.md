@@ -4,12 +4,12 @@ ms.assetid: 05ca73c6-d105-47bc-96bc-b784f669febe
 title: Informations sur les couleurs étendues
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29ba43180a0f1e5253540088c1638f59d52380c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07ffce83acccd2004156d55c0711836271d9ad5cfe7a6ac395e0d9fcbb418142
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119466369"
 ---
 # <a name="extended-color-information"></a>Informations sur les couleurs étendues
 
@@ -17,7 +17,7 @@ Si vous avez des informations sur la couleur RVB, vous savez que (255, 255, 255)
 
 La réponse peut être surprenant : sans informations supplémentaires, cet triplet ne définit pas de couleur particulière. La signification de toute valeur RVB dépend de l' *espace colorimétrique*. Si vous ne connaissez pas l’espace colorimétrique, vous ne connaissez pas la couleur.
 
-Un espace colorimétrique définit la manière dont la représentation numérique d’une valeur de couleur donnée doit être reproduite comme lumière physique. Lorsque la vidéo est encodée dans un espace de couleurs, mais qu’elle est affichée dans une autre, les couleurs sont déformées, sauf si la vidéo est corrigée en couleurs. Pour obtenir une fidélité des couleurs précise, il est donc essentiel de connaître l’espace colorimétrique de la vidéo source. Auparavant, le pipeline vidéo de Windows ne contenait pas d’informations sur l’espace de couleurs prévu. À partir de Windows Vista, DirectShow et Media Foundation prennent en charge des informations de couleur étendues dans le type de média. Ces informations sont également disponibles pour DirectX Video Acceleration (DXVA).
+Un espace colorimétrique définit la manière dont la représentation numérique d’une valeur de couleur donnée doit être reproduite comme lumière physique. Lorsque la vidéo est encodée dans un espace de couleurs, mais qu’elle est affichée dans une autre, les couleurs sont déformées, sauf si la vidéo est corrigée en couleurs. Pour obtenir une fidélité des couleurs précise, il est donc essentiel de connaître l’espace colorimétrique de la vidéo source. auparavant, le pipeline vidéo de Windows n’avait pas d’informations sur l’espace de couleurs prévu. à partir de Windows Vista, les DirectShow et les Media Foundation prennent en charge des informations de couleur étendues dans le type de média. Ces informations sont également disponibles pour DirectX Video Acceleration (DXVA).
 
 La méthode standard pour décrire un espace colorimétrique mathématique consiste à utiliser l’espace de couleurs CIE XYZ, défini par la Commission internationale sur l’éclairage (CIE). Il n’est pas pratique d’utiliser les valeurs CIE XYZ directement dans la vidéo, mais l’espace de couleurs CIE XYZ peut être utilisé comme représentation intermédiaire lors de la conversion d’espaces de couleurs.
 
@@ -36,7 +36,7 @@ DirectShow, Media Foundation et DirectX Video Acceleration (DXVA) ont tous des m
 
 -   DXVA 1,0 : les informations sur l’espace colorimétrique sont fournies dans la structure [**DXVA \_ ExtendedFormat**](/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat) .
 -   DXVA 2,0 : les informations sur l’espace colorimétrique sont fournies dans la structure de la structure [**DXVA2 \_ ExtendedFormat**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat) . Cette structure est identique à la structure DXVA 1,0, et la signification des champs est la même.
--   DirectShow : les informations sur l’espace colorimétrique sont fournies dans la structure [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) . Les informations sont stockées dans les 24 bits supérieurs du champ **dwControlFlags** . Si des informations sur l’espace colorimétrique sont présentes, définissez l’indicateur **AMCONTROL \_ COLORINFO \_ present** dans **dwControlFlags**. Lorsque cet indicateur est défini, le champ **dwControlFlags** doit être interprété comme une [**structure \_ ExtendedFormat DXVA**](/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat) , sauf que les 8 bits inférieurs de la structure sont réservés pour les indicateurs **AMCONTROL \_ xxx** .
+-   DirectShow : les informations d’espace colorimétrique sont fournies dans la structure [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) . Les informations sont stockées dans les 24 bits supérieurs du champ **dwControlFlags** . Si des informations sur l’espace colorimétrique sont présentes, définissez l’indicateur **AMCONTROL \_ COLORINFO \_ present** dans **dwControlFlags**. Lorsque cet indicateur est défini, le champ **dwControlFlags** doit être interprété comme une [**structure \_ ExtendedFormat DXVA**](/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat) , sauf que les 8 bits inférieurs de la structure sont réservés pour les indicateurs **AMCONTROL \_ xxx** .
 -   Pilotes de capture vidéo : les informations sur l’espace colorimétrique sont fournies dans la structure [**\_ VIDEOINFOHEADER2 KS**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader2) . Cette structure est identique à la structure [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) , et la signification des champs est la même.
 -   Media Foundation : les informations d’espace colorimétrique sont stockées en tant qu’attributs dans le type de média :
 
@@ -95,7 +95,7 @@ La plupart des périphériques de capture analogiques utilisent un espace de cou
 
 ### <a name="file-based-sources"></a>Sources basées sur des fichiers
 
-Lors de l’analyse d’un fichier vidéo, la source du média (ou le filtre de l’analyseur, dans DirectShow) peut être en mesure de fournir certaines informations de couleur. Par exemple, le navigateur DVD peut déterminer l’espace colorimétrique en fonction du contenu du DVD. D’autres informations de couleur peuvent être disponibles pour le décodeur. Par exemple, un flux vidéo élémentaire MPEG-2 fournit les informations de couleur dans le champ extension de l’affichage de la séquence \_ \_ . Si les informations de couleur ne sont pas explicitement décrites dans la source, elles peuvent être définies implicitement par le type de contenu. Par exemple, les variétés NTSC et PAL de vidéo DV utilisent chacune des espaces de couleurs différents. Enfin, le décodeur peut utiliser toutes les informations de couleur qu’il obtient du type de média de la source.
+lors de l’analyse d’un fichier vidéo, la source du média (ou le filtre de l’analyseur, dans DirectShow) peut être en mesure de fournir certaines informations de couleur. Par exemple, le navigateur DVD peut déterminer l’espace colorimétrique en fonction du contenu du DVD. D’autres informations de couleur peuvent être disponibles pour le décodeur. Par exemple, un flux vidéo élémentaire MPEG-2 fournit les informations de couleur dans le champ extension de l’affichage de la séquence \_ \_ . Si les informations de couleur ne sont pas explicitement décrites dans la source, elles peuvent être définies implicitement par le type de contenu. Par exemple, les variétés NTSC et PAL de vidéo DV utilisent chacune des espaces de couleurs différents. Enfin, le décodeur peut utiliser toutes les informations de couleur qu’il obtient du type de média de la source.
 
 ### <a name="other-components"></a>Autres composants
 

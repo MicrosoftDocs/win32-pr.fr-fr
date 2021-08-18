@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c1a579ba5899cf4d3ac3f25ef5a40337f6291977
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5735d0e2f13a150b730855bc1308cba6e9f2dac795f6c5fc09000e42a607bec9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986669"
 ---
 # <a name="ddx_fine-function"></a>DDX ( \_ fonction fine)
 
@@ -51,7 +51,7 @@ Type : **float**
 
 Dérivée partiel de haute précision de la *valeur*.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les versions surchargées suivantes sont également disponibles :
 
@@ -67,9 +67,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Prise en charge |
+| Modèle de nuanceur                                                                | Pris en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
 
 
 
@@ -79,7 +79,7 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     |         |
 

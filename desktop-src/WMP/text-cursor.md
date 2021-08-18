@@ -3,7 +3,7 @@ title: TEXT. Cursor
 description: L’attribut Cursor spécifie ou récupère une valeur indiquant le curseur qui apparaît lorsque la souris se trouve sur le contrôle Text.
 ms.assetid: 360d4ed1-9c4f-4210-8e77-2dfbe7573869
 keywords:
-- TEXT. Cursor lecteur Windows Media
+- TEXT. cursor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8cf7b135ed0a99b5c65f760a08e4e7083234674
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 72dc904371333dcdf3b9c80e441fb1d8254285bcd6193150ecd3df4032afd22d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134652"
 ---
 # <a name="textcursor"></a>TEXT. Cursor
 

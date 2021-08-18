@@ -19,21 +19,21 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ad589fecb190ad0f0676325b78adc7c96028a3fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76e92f768fd99cdd755e435caf4ba24dbbba0e3b0ee6338ffe7f49c2f506f2f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978799"
 ---
 # <a name="jetsetcursorfilter-function"></a>JetSetCursorFilter fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 La fonction **JetSetCursorFilter** définit un tableau de filtres simples pour la fonction [JetMove](./jetmove-function.md) .
 
-La fonction **JetSetCursorFilter** a été introduite dans le système d’exploitation Windows 8.
+la fonction **JetSetCursorFilter** a été introduite dans le système d’exploitation Windows 8.
 
 ``` c++
 JET_ERR JET_API JetSetCursorFilter(
@@ -89,7 +89,7 @@ Groupe de bits qui spécifie zéro, une ou plusieurs des options de déplacement
 
 ### <a name="return-value"></a>Valeur retournée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour énumérés dans le tableau suivant. Pour plus d’informations sur les erreurs ESE (Extensible Storage Engine) possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour énumérés dans le tableau suivant. pour plus d’informations sur les erreurs ESE (extensible Stockage engine) possibles, consultez [erreurs du moteur de Stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>

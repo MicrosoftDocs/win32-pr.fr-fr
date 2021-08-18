@@ -4,12 +4,12 @@ ms.assetid: f3300cfb-39e4-4ce8-8310-1531208bcd34
 title: Tâches de prise en charge pour l’autorisation en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e3dab3535b8f80b0118f9c020148aaab83f3361
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a90e8202f7355e5d41d493196a76ba683857bb8ee4fbd25474678429f205091a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413389"
 ---
 # <a name="supporting-tasks-for-authorization-in-c"></a>Tâches de prise en charge pour l’autorisation en C++
 

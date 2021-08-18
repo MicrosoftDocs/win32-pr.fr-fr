@@ -4,12 +4,12 @@ ms.assetid: 79c4d2c9-953e-4e68-98b7-6a0dd9a04e0b
 title: Interface de programmation d’applications de téléphonie version 3,1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31d302f6ffe67094d436caf94cc8cf109e1e3c9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b529c8d566d2c99dc851f99886eb6a132d434a2c56027ba7abcd2e07b5f144b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139882"
 ---
 # <a name="telephony-application-programming-interface-version-31"></a>Interface de programmation d’applications de téléphonie version 3,1
 
@@ -31,7 +31,7 @@ Les applications TAPI possibles sont les suivantes :
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-Vous pouvez écrire des applications compatibles TAPI dans de nombreux langages, notamment Java, Visual Basic et C/C++. Vous devez vous familiariser avec COM. L’expérience de développement avec les télécommunications ou d’autres applications de téléphonie est utile, mais pas nécessaire.
+vous pouvez écrire des applications compatibles TAPI dans de nombreux langages, notamment Java, Visual Basic et C/C++. Vous devez vous familiariser avec COM. L’expérience de développement avec les télécommunications ou d’autres applications de téléphonie est utile, mais pas nécessaire.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 

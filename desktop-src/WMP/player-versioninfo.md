@@ -1,6 +1,6 @@
 ---
 title: Player. versionInfo
-description: La propriété versionInfo récupère une valeur de chaîne spécifiant la version du lecteur Windows Media.
+description: la propriété versionInfo récupère une valeur de chaîne qui spécifie la version de la Lecteur Windows Media.
 ms.assetid: 4b644de2-fcb9-407b-9eea-3eb683a17150
 keywords:
 - Lecteur Windows Media Player. versionInfo
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b44a94fa2df6d5e7d46108ec971fd84481688eb6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2251d610ad8a522155e37c8d416123c9d09faef5da2b4af4da75aeb745940f0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995829"
 ---
 # <a name="playerversioninfo"></a>Player. versionInfo
 
-La propriété **VERSIONINFO** récupère une valeur de chaîne spécifiant la version du lecteur Windows Media.
+la propriété **versionInfo** récupère une valeur de chaîne qui spécifie la version de la Lecteur Windows Media.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -35,7 +35,7 @@ Cette propriété est une **chaîne** en lecture seule au format suivant : «*X
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant crée un élément bouton HTML qui, lorsque vous cliquez dessus, affiche une boîte de message contenant les informations de version pour le lecteur Windows Media. L’objet **Player** a été créé avec ID = "Player".
+l’exemple suivant crée un élément bouton HTML qui, lorsque vous cliquez dessus, affiche une boîte de message contenant les informations de version de Lecteur Windows Media. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```

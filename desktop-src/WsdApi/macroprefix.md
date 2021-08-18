@@ -4,12 +4,12 @@ ms.assetid: ead82070-5546-4036-bff2-8da2714d4264
 title: élément macroPrefix
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c9590092d78ea4700715a868bb7e50f15833011
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 970232b86aa226f16fa06cf2d3c9de40c156702c802c6f6254e45157e1df58ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130711"
 ---
 # <a name="macroprefix-element"></a>élément macroPrefix
 
@@ -49,7 +49,7 @@ Par défaut, le code généré crée un préfixe de macro préféré à partir d
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |
