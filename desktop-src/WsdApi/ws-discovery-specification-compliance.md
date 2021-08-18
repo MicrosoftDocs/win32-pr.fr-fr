@@ -4,12 +4,12 @@ ms.assetid: b795a385-b48d-4a16-9d91-e48bca120572
 title: Conformité de la spécification WS-Discovery
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcae062448b1913f0cc62dff3b6c86b98280a902
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07794140f05a065fb770ae2d5782f24180fb7e7ef66757278d5c5c93a3fd7e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991409"
 ---
 # <a name="ws-discovery-specification-compliance"></a>Conformité de la spécification WS-Discovery
 
@@ -39,7 +39,7 @@ Dans WS-Discovery, WSDAPI utilise les adresses spécifiées dans la section 2,4.
 
 WS-Discovery décrit la `uuid:` recommandation de format d’URI dans la section 2,6, mais wsdapi remplace cette recommandation. Au lieu de cela, WSDAPI utilise le `urn:uuid:` format d’URI décrit dans DPWS.
 
-La section 3 de WS-Discovery décrit comment un client interagit avec un proxy de découverte. WSDAPI ne reconnaît pas cette interaction et ignore les annonces des proxys de découverte. Dans Windows 7, WSDAPI implémente une extension privée pour le protocole WS-Discovery, WS-Discovery les extensions distantes, pour permettre aux clients de découverte de rechercher des services répartis sur différents réseaux en envoyant des demandes à des proxys centralisés. Pour plus d’informations, consultez [fonctionnalités de WS-Discovery supplémentaires](additional-ws-discovery-functionality.md).
+La section 3 de WS-Discovery décrit comment un client interagit avec un proxy de découverte. WSDAPI ne reconnaît pas cette interaction et ignore les annonces des proxys de découverte. dans Windows 7, WSDAPI implémente une extension privée dans le protocole WS-Discovery, WS-Discovery les Extensions distantes, pour permettre aux clients de découverte de rechercher des services répartis sur différents réseaux en envoyant des demandes à des proxys centralisés. Pour plus d’informations, consultez [fonctionnalités de WS-Discovery supplémentaires](additional-ws-discovery-functionality.md).
 
 La section 4,1, paragraphe 3 de WS-Discovery requiert qu’un minuteur doive s’écouler avant l’envoi d’un message de [salutation](hello-message.md) . L’API d’hébergement n’attend pas avant l’envoi d’un message de salutation. Si un scénario nécessite un délai avant l’envoi d’un message de salutation, le développeur de l’application doit implémenter une attente.
 

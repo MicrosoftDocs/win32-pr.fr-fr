@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 321b27239114fc86861c0360d507db6c8c520a9c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ca513a31eded5202639da13b8e9f2e817c9df336b227ba93d903e44068b98898
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440189"
 ---
 # <a name="change-method-of-the-win32_service-class-mbnapih"></a>Modifier la méthode de la classe Win32_Service (Mbnapi. h)
 
@@ -180,7 +180,7 @@ Le système tente de redémarrer avec une bonne configuration.
 *StartMode* \[ dans\]
 </dt> <dd>
 
-Mode de démarrage du service de base Windows. Pour plus d'informations, consultez la section Notes.
+mode de démarrage du service de base Windows. Pour plus d'informations, consultez la section Notes.
 
 <dt>
 
@@ -205,7 +205,7 @@ Service qui doit être démarré automatiquement par le gestionnaire de contrôl
 
 </dd> <dt>
 
-Manuel
+Manuelle
 </dt> <dd>
 
 Service qui doit être démarré par le gestionnaire de contrôle des services lorsqu’un processus appelle la méthode [**StartService**](startservice-method-in-class-win32-service.md) .
@@ -510,7 +510,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’un ordinateur démarre, tous les services de démarrage automatique démarrent également. Il peut arriver que l’un de ces services ne puisse pas démarrer avec l’ordinateur. Lorsqu’un service échoue pendant le démarrage du système, l’ordinateur effectue une action en fonction de la valeur du code de contrôle d’erreur du service.
 

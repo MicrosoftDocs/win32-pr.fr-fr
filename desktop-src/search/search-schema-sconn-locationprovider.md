@@ -4,12 +4,12 @@ ms.assetid: 5481b1ae-e166-4f09-bf0d-d6b7f7c8a331
 title: Élément locationProvider (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26c68732300c190b44b984bbe64ca031a81ced84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21101fd0e7c57b73af7bc9de525baaca9583d11e425b168d806f750063ac7203
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119711039"
 ---
 # <a name="locationprovider-element-search-connector-schema"></a>Élément locationProvider (schéma du connecteur de recherche)
 
@@ -59,15 +59,15 @@ L' <locationProvider> élément facultatif spécifie le moteur de recherche que 
 | Attribut | Description                                                    |
 |-----------|----------------------------------------------------------------|
 | @clsid    | Obligatoire. Identificateur de classe (CLSID) du moteur de recherche. |
-| CodeBase  | Optionnel.                                                      |
+| CodeBase  | Facultatif.                                                      |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La @clsid valeur de l’attribut pour le fournisseur OpenSearch est {48E277F6-4E74-4CD6-BA6F-FA4F42898223}.
+la @clsid valeur de l’attribut pour le fournisseur de OpenSearch est {48E277F6-4E74-4cd6-BA6F-FA4F42898223}.
 
 Les connecteurs de recherche basés sur le système de fichiers et le gestionnaire de protocole peuvent utiliser l’élément à la [<simpleLocation>](search-schema-sconn-simplelocation.md) place. Si <locationProvider> est présent, il ne doit pas y avoir <simpleLocation> d’élément dans la description de la recherche de connecteur.
 

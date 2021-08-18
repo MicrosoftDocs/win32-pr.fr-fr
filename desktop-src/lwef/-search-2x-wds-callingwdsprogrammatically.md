@@ -4,19 +4,19 @@ description: Microsoft Windows Desktop Search (WDS) 2. x peut être interrogé p
 ms.assetid: 38426f63-2039-410e-8c70-ebd9fc269d74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dc76264b7939311273fbda334292dfb255cde8f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b8879001bcf284affd03ff472ac9327445b799acd44465b5bae9a8cb2d819b7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103727052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976899"
 ---
 # <a name="calling-wds-programmatically"></a>Appeler WDS par programmation
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
 
-Microsoft Windows Desktop Search (WDS) 2. x peut être interrogé par programme à l’aide des méthodes **ExecuteQuery** et **ExecuteSQLQuery** dans l’interface [**ISearchDesktop**](/previous-versions//aa965729(v=vs.85)) . La méthode **ExecuteQuery** retourne un jeu d’enregistrements à partir de l’index en fonction du texte de la requête, des colonnes et des restrictions passées en tant que paramètres. La méthode **ExecuteSQLQuery** retourne également un jeu d’enregistrements de résultats, mais requiert la transmission de la commande exacte langage SQL (SQL). **ExecuteQuery** doit être utilisé dans la plupart des scénarios.
+Microsoft Windows Desktop Search (WDS) 2. x peut être interrogé par programme à l’aide des méthodes **ExecuteQuery** et **ExecuteSQLQuery** dans l’interface [**ISearchDesktop**](/previous-versions//aa965729(v=vs.85)) . La méthode **ExecuteQuery** retourne un jeu d’enregistrements à partir de l’index en fonction du texte de la requête, des colonnes et des restrictions passées en tant que paramètres. la méthode **ExecuteSQLQuery** retourne également un jeu d’enregistrements de résultats, mais requiert la transmission de la commande exacte langage SQL (SQL). **ExecuteQuery** doit être utilisé dans la plupart des scénarios.
 
 ## <a name="regular-queries"></a>Requêtes régulières
 
@@ -30,10 +30,10 @@ La méthode se présente sous la forme :
 
 | Sens | Variable           | Description                                                                                                                                                                                   |
 |-----------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dans        | lpcwstrQuery       | Texte de la requête. Cette requête est identique à une requête tapée dans la zone de texte Rechercher de l’interface utilisateur de Windows Desktop Search. <br/> Par exemple : `"from:Zara dinner plans"`<br/> |
-| Dans        | lpcwstrColumn      | Colonnes à inclure, séparées par des virgules. <br/> Par exemple : `"DocTitle, Url"`<br/>                                                                                            |
-| Dans        | lpcwstrSort        | Colonne de remplacement dans laquelle effectuer le tri, suivi de ASC pour l’ordre croissant ou DESC pour l’ordre décroissant. <br/> Par exemple : `"LastAuthor DESC"`<br/>                                                  |
-| Dans        | lpcwstrRestriction | Restrictions relatives à l’ajout de clauses WHERE dans la recherche Windows Desktop Select. <br/> Par exemple : `"Contains(LastAuthor, 'Bill')"`<br/>                                       |
+| Dans        | lpcwstrQuery       | Texte de la requête. cette requête est identique à une requête tapée dans la zone de texte rechercher de l’interface utilisateur Windows Desktop search. <br/> Par exemple : `"from:Zara dinner plans"`<br/> |
+| Dans        | lpcwstrColumn      | Colonnes à inclure, séparées par des virgules. <br/> Par exemple : `"DocTitle, Url"`<br/>                                                                                            |
+| Dans        | lpcwstrSort        | Colonne de remplacement dans laquelle effectuer le tri, suivi de ASC pour l’ordre croissant ou DESC pour l’ordre décroissant. <br/> Par exemple : `"LastAuthor DESC"`<br/>                                                  |
+| Dans        | lpcwstrRestriction | Restrictions relatives à l’ajout de clauses where dans le Windows Desktop Search select. <br/> Par exemple : `"Contains(LastAuthor, 'Bill')"`<br/>                                       |
 | Sortie       | ppiRs              | Jeu d’enregistrements résultant<br/>                                                                                                                                                           |
 
 
@@ -42,7 +42,7 @@ La méthode se présente sous la forme :
 
 ## <a name="sql-queries"></a>Requêtes SQL
 
-La méthode **ISearchDesktop.ExecuteSQLQuery** est utilisée pour envoyer des requêtes de base de données WDS directes. La syntaxe des requêtes est similaire à celle utilisée pour SharePoint Server, ainsi que la possibilité d’utiliser des clauses GROUP BY de style Monarch. La requête est exécutée sur l’index exactement telle qu’elle est transmise sans traitement supplémentaire de la syntaxe de requête avancée comme le fait l’API ExecuteQuery.
+La méthode **ISearchDesktop.ExecuteSQLQuery** est utilisée pour envoyer des requêtes de base de données WDS directes. la syntaxe des requêtes est similaire à celle utilisée pour SharePoint Server, ainsi que la possibilité d’utiliser des clauses de groupe de SQL de style Monarch. La requête est exécutée sur l’index exactement telle qu’elle est transmise sans traitement supplémentaire de la syntaxe de requête avancée comme le fait l’API ExecuteQuery.
 
 https://msdn.microsoft.com/library/default.asp?url=/library/spssdk/html/\_tahoe\_search\_sql\_syntax.asp
 
@@ -54,7 +54,7 @@ La méthode se présente sous la forme :
 
 | Sens | Variable   | Description                                    |
 |-----------|------------|------------------------------------------------|
-| Dans        | lpcwstrSQL | Requête SQL à exécuter sur l’index WDS |
+| Dans        | lpcwstrSQL | SQL requête à exécuter sur l’index WDS |
 | Sortie       | ppiRs      | Jeu d’enregistrements résultant                       |
 
 
@@ -72,7 +72,7 @@ Ressources :
 >
 > CE CODE ET CES INFORMATIONS SONT FOURNIS « EN L’ÉTAT », SANS GARANTIE D’AUCUNE SORTE, EXPRESSE OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ MARCHANDE ET/OU D’ADÉQUATION À UN USAGE PARTICULIER.
 >
-> Copyright (C) Microsoft. Tous droits réservés.
+> Copyright (C) Microsoft. All rights reserved.
 
  
 

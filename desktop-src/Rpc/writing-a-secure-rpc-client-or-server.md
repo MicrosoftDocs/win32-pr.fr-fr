@@ -6,18 +6,18 @@ keywords:
 - Appel de procédure distante RPC, meilleures pratiques, écriture d’un client ou d’un serveur sécurisé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac006f82a0db8abcd7184b2453a970521004145b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b752d8dab216691105e428833c83bce28b974f121ddcc77861fbb6671d72dd22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010387"
 ---
 # <a name="writing-a-secure-rpc-client-or-server"></a>Écriture d’un client ou d’un serveur RPC sécurisé
 
 Cette section présente les meilleures pratiques recommandées pour l’écriture d’un client ou d’un serveur RPC sécurisé.
 
-Les informations contenues dans cette section s’appliquent à Windows 2000 et Windows XP. Cette section s’applique à toutes les séquences de protocole, y compris [**Ncalrpc**](/windows/desktop/Midl/ncalrpc). Les développeurs ont tendance à penser que **Ncalrpc** n’est pas une cible probable pour une attaque, ce qui n’est pas le cas sur un serveur Terminal Server où des centaines d’utilisateurs peuvent accéder à un service, et compromettre ou même arrêter un service peut aboutir à l’obtention d’un accès supplémentaire.
+les informations contenues dans cette section s’appliquent à Windows 2000 et Windows XP. Cette section s’applique à toutes les séquences de protocole, y compris [**Ncalrpc**](/windows/desktop/Midl/ncalrpc). Les développeurs ont tendance à penser que **Ncalrpc** n’est pas une cible probable pour une attaque, ce qui n’est pas le cas sur un serveur Terminal Server où des centaines d’utilisateurs peuvent accéder à un service, et compromettre ou même arrêter un service peut aboutir à l’obtention d’un accès supplémentaire.
 
 Cette section est composée des rubriques suivantes :
 
@@ -34,10 +34,10 @@ Cette section est composée des rubriques suivantes :
 -   [Ne pas faire confiance à votre homologue](do-not-trust-your-peer.md)
 -   [Ne pas utiliser la sécurité du point de terminaison](do-not-use-endpoint-security.md)
 -   [Méfiez-vous des autres points de terminaison RPC s’exécutant dans le même processus](be-wary-of-other-rpc-endpoints-running-in-the-same-process.md)
--   [Vérifier que le serveur est bien celui qu’il prétend être](verify-the-server-is-who-it-claims-to-be.md)
+-   [Vérifier que le serveur est Qui il prétend être](verify-the-server-is-who-it-claims-to-be.md)
 -   [Utiliser des séquences de protocole courantes](use-mainstream-protocol-sequences.md)
 -   [Quelle est la sécurité de mon serveur RPC maintenant ?](how-secure-is-my-rpc-server-now.md)
 
- 
+ 
 
- 
+ 

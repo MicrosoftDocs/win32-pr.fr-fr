@@ -3,9 +3,9 @@ title: Ajout de la prise en charge de manipulation dans du code non managé
 description: Cette section explique comment ajouter la prise en charge de manipulation au code non managé en implémentant un récepteur d’événements pour l' \_ interface IManipulationEvents.
 ms.assetid: 7d8c6230-eaca-43c7-ad2f-651851b69d7f
 keywords:
-- Tactile Windows, manipulations
-- Interface tactile Windows, _IManipulationEvents interface
-- Tactile Windows, interface IManipulationProcessor
+- Windows Toucher, manipulations
+- Windows Interface tactile, _IManipulationEvents
+- Windows Interface tactile, IManipulationProcessor
 - manipulations, ajout de la prise en charge dans du code non managé
 - manipulations, prise en charge du code non managé
 - manipulations, prise en charge dans du code non managé
@@ -15,12 +15,12 @@ keywords:
 - Interface IManipulationProcessor, prise en charge de la manipulation dans du code non managé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a2e000b6d3518c4e90eb5ae03b581e81037edf9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7ff526c128b6da83fae3a74b88cd3bb21bc3a81c507c0a76a7c70dbddc5f76d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709999"
 ---
 # <a name="adding-manipulation-support-in-unmanaged-code"></a>Ajout de la prise en charge de manipulation dans du code non managé
 
@@ -358,7 +358,7 @@ Une fois que vous avez la variable et que vous avez inclus votre définition pou
 Maintenant que votre processeur de manipulation et votre récepteur d’événements sont configurés, vous devez alimenter les données tactiles vers le processeur de manipulation pour déclencher des événements de manipulation.
 
 > [!Note]  
-> Il s’agit de la même procédure que celle décrite dans [prise en main avec les messages tactiles Windows](getting-started-with-multi-touch-messages.md).
+> il s’agit de la même procédure que celle décrite dans [Prise en main avec des Messages tactiles Windows](getting-started-with-multi-touch-messages.md).
 
 Tout d’abord, vous allez créer du code pour décoder les messages [**WM \_ Touch**](wm-touchdown.md) et les envoyer à l’interface [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) pour déclencher des événements. Le code suivant montre un exemple d’implémentation qui est appelé à partir de la méthode **WndProc** et retourne une **LRESULT** pour la messagerie.
 
@@ -462,4 +462,4 @@ Les méthodes personnalisées que vous avez implémentées dans votre récepteur
 </dt> </dl>
 
 
- 
+ 

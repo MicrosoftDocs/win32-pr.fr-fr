@@ -6,12 +6,12 @@ keywords:
 - RPC appel de procédure distante, didacticiel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7c19b0d8ec3b3eb55cf29ccfd87eca43775c2ea
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5cd7259e5f5f0b9d0d273ff99a7cd5b42d15d57beaa60300fadecb7045a96876
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011177"
 ---
 # <a name="tutorial"></a>Didacticiel
 
@@ -39,11 +39,11 @@ Cette section présente la discussion dans les rubriques suivantes :
 -   [Application serveur](the-server-application.md)
 -   [Arrêt de l’application serveur](stopping-the-server-application.md)
 -   [Compilation et liaison](compiling-and-linking.md)
--   [Exécution de l’application](running-the-application.md)
+-   [Exécution de l'application](running-the-application.md)
 
- 
+ 
 
- 
+ 
 
 
 

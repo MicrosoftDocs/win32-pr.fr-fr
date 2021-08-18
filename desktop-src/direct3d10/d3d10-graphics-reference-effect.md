@@ -4,12 +4,12 @@ ms.assetid: d3b0b7a2-0820-4bb1-8b9e-c6b55a039963
 title: Référence des effets (graphiques Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c903959096e1192555fd813a256d03fb1969fa9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: eb77063fb06691e55097e38f4b124efd0735b814324fe103f7ea89ef8b42c27b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990519"
 ---
 # <a name="effect-reference-direct3d-10-graphics"></a>Référence des effets (graphiques Direct3D 10)
 

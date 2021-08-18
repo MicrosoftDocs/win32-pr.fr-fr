@@ -4,12 +4,12 @@ description: La base de données de routage contient la liste des réservations.
 ms.assetid: c36e731c-6a0b-42a8-bc92-106a8e017b0d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 358181cbe57a046f5af54f7adf17bdadb24c3ddc
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: ac683c48748fa0e644f2f7569590b3783c521f1d10a1a5852a638a29731daf38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104508190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014947"
 ---
 # <a name="adding-a-reservation"></a>Ajout d’une réservation
 
@@ -27,14 +27,14 @@ En plus de vérifier l’ID des utilisateurs, l’API du serveur HTTP vérifie �
     > [!Note]  
     > La mise à jour d’une entrée existante doit être effectuée en deux étapes : supprimer l’entrée et en ajouter une nouvelle.
 
-     
+     
 
 Si les étapes ci-dessus ont réussie, une nouvelle entrée de réservation est entrée dans la base de données de réservation.
 
 > [!Note]  
 > La nouvelle entrée est créée avec la liste de contrôle d’accès spécifiée et n’hérite pas des ACL de l’entrée *parente* .
 
- 
+ 
 
 Les exemples suivants illustrent le processus de réservation.
 
@@ -55,9 +55,9 @@ Les réservations peuvent affecter le jeu d’URL dans les demandes remises à u
 -   Inscription : `https://adatum.com:80/vroot/subdir/` par application 2 pour l’utilisateur B.
 -   Une demande pour `https://adatum.com:80/vroot/subdir/file.htm` est remise à l’application 2.
 
- 
+ 
 
- 
+ 
 
 
 

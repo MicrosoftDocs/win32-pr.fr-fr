@@ -1,17 +1,17 @@
 ---
 description: Lorsqu’elles sont éclairées par une source de lumière, les surfaces de cache affichent une réflexion lumineuse diffuse.
 ms.assetid: a6ed351a-7889-4993-96bf-b03352a815da
-title: Cartes de lumière diffuse (Direct3D 9)
+title: Cartes clair diffus (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ab6a85fb93bc1ebcc15735431c1d54be4482a1f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 758fc2b5054a30bf8df703941b3cedf0810c378a5fb459d8c5783bb295ff9abe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104481544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044447"
 ---
-# <a name="diffuse-light-maps-direct3d-9"></a>Cartes de lumière diffuse (Direct3D 9)
+# <a name="diffuse-light-maps-direct3d-9"></a>Cartes clair diffus (Direct3D 9)
 
 Lorsqu’elles sont éclairées par une source de lumière, les surfaces de cache affichent une réflexion lumineuse diffuse. La luminosité de la lumière diffuse dépend de la distance à partir de la source de lumière et de l’angle entre la normale de la surface et le vecteur de direction de la source de lumière. Les effets d’éclairage diffus simulés par les calculs d’éclairage produisent uniquement des effets généraux.
 

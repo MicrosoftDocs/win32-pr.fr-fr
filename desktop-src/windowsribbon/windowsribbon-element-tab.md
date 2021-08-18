@@ -3,7 +3,7 @@ title: Tab (élément)
 description: Représente un onglet principal ou contextuel.
 ms.assetid: 2e73a89c-4d31-4075-93c8-e43213a20791
 keywords:
-- Ruban fenêtres d’élément d’onglet
+- élément Tab Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 410326961df84f6ae62d3c43bee3e651c9533066
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 64f5bffb6a81a1efd112c3f52f5d1276f893e9cfb059a5f240a6c8c73b990c3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441639"
 ---
 # <a name="tab-element"></a>Tab (élément)
 
 Représente un onglet [principal](windowsribbon-controls-tab.md) ou [contextuel](windowsribbon-controls-tabgroup.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Tab
@@ -195,7 +195,7 @@ Cette section de code montre les déclarations de contrôle d' **onglet** .
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-- **Système minimal pris en charge**: Windows 7 
+- **système minimal pris en charge**: Windows 7 
 - **Peut être vide**: non
 
 

@@ -1,11 +1,11 @@
 ---
-title: Settings. setMode, méthode
+title: méthode Paramètres. setMode
 description: La méthode setMode définit différents modes comme active ou inactive.
 ms.assetid: 9ab88aeb-53f6-4798-9299-14961e373ca6
 keywords:
-- méthode setMode lecteur Windows Media
-- méthode setMode lecteur Windows Media, classe de paramètres
-- Classe de paramètres lecteur Windows Media, méthode setMode
+- Lecteur Windows Media de la méthode setMode
+- Lecteur Windows Media de la méthode setMode, classe Paramètres
+- Paramètres de la classe Lecteur Windows Media, méthode setMode
 topic_type:
 - apiref
 api_name:
@@ -16,14 +16,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5740bf5638ce34e161414ac96eaa0fc80fcdb7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f504fe429dddf1b3db191545e2f34a3605a8fc390346c8f00afe8c3d005f0277
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995319"
 ---
-# <a name="settingssetmode-method"></a>Settings. setMode, méthode
+# <a name="settingssetmode-method"></a>méthode Paramètres. setMode
 
 La méthode **setMode** définit différents modes comme active ou inactive.
 
@@ -74,7 +74,7 @@ Settings.setMode(
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le mode showFrame est actif, le joueur doit accéder au contenu Track pour récupérer l’image vidéo. En raison des considérations relatives à la bande passante, utilisez ce mode avec précaution lors de la diffusion de contenu non local.
 
@@ -84,7 +84,7 @@ Lorsque le mode showFrame est actif, le joueur doit accéder au contenu Track po
 
 | Condition requise | Valeur |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Pour les modes boucle et lecture aléatoire, le lecteur Windows Media version 7,0 ou ultérieure. Pour les modes autoRewind et showFrame, le lecteur Windows Media 9 ou version ultérieure.<br/> |
+| Version<br/> | pour les modes boucle et lecture aléatoire, Lecteur Windows Media version 7,0 ou ultérieure. pour les modes autoRewind et showFrame, Lecteur Windows Media série 9 ou ultérieure.<br/> |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl>                                                                            |
 
 
@@ -93,7 +93,7 @@ Lorsque le mode showFrame est actif, le joueur doit accéder au contenu Track po
 
 <dl> <dt>
 
-[**Settings (objet)**](settings-object.md)
+[**Paramètres Dessin**](settings-object.md)
 </dt> <dt>
 
 [**Paramètres. getMode**](settings-getmode.md)

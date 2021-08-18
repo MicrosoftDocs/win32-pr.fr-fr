@@ -3,7 +3,7 @@ title: Message EM_GETTABLEPARMS (RichEdit. h)
 description: Récupère les paramètres de table pour une ligne de table et les paramètres de cellule pour le nombre spécifié de cellules.
 ms.assetid: 36ADA41B-735B-4D6E-92B1-33260C71DF73
 keywords:
-- EM_GETTABLEPARMS les contrôles de message Windows
+- EM_GETTABLEPARMS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7eb244b64258b1cf83559e21affea51b1d0c5d6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c2ddca96ce29a0f7b7076580b48cfeceecf1f638830b7c77bc9406a39e97de57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545029"
 ---
 # <a name="em_gettableparms-message"></a>\_Message GETTABLEPARMS em
 
@@ -66,7 +66,7 @@ Retourne S \_ OK en cas de réussite, ou l’un des codes d’erreur suivants.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message obtient les paramètres de table pour la ligne à la position de caractère spécifiée par le membre **cpStartRow** de la structure [**TABLEROWPARMS**](/windows/desktop/api/Richedit/ns-richedit-tablerowparms) , ainsi que le nombre de cellules spécifié par le membre **cCells** de la structure [**TABLECELLPARMS**](/windows/desktop/api/Richedit/ns-richedit-tablecellparms) .
 
@@ -78,8 +78,8 @@ La position du caractère spécifiée par le membre **cpStartRow** de la structu
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

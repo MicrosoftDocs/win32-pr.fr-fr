@@ -102,12 +102,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c84524aad68d3d7a95201e61a2753e86ead91bd2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ee244bd68171abb296baf1941c79199122b121793d5107ee8866eac87be0776
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119473919"
 ---
 # <a name="jet_param-enumeration"></a>Énumération JET_param
 
@@ -239,12 +239,12 @@ public enum JET_param
 <tr class="odd">
 <td></td>
 <td>StartFlushThreshold</td>
-<td>Ce paramètre contrôle le moment où le cache de la page de base de données commence à supprimer des pages du cache pour libérer de l’espace pour les pages qui ne sont pas mises en cache. Lorsque le nombre de tampons de page dans le cache descend sous ce seuil, un processus en arrière-plan est démarré pour réapprovisionner ce pool de mémoires tampons disponibles. Ce seuil est toujours relatif à la taille maximale du cache définie par JET_paramCacheSizeMax. Ce seuil doit également toujours être inférieur au seuil d’arrêt défini par JET_paramStopFlushThreshold. La hauteur de distance du seuil de démarrage détermine le temps de réponse que le cache de page de la base de données doit avoir pour produire des tampons disponibles avant que l’application en ait besoin. Un seuil de démarrage élevé donnera plus de temps au processus en arrière-plan. Toutefois, un seuil de démarrage élevé implique un seuil d’arrêt plus élevé et réduit la taille effective du cache des pages de base de données pour les pages modifiées (Windows 2000) ou pour toutes les pages (Windows XP et versions ultérieures).</td>
+<td>Ce paramètre contrôle le moment où le cache de la page de base de données commence à supprimer des pages du cache pour libérer de l’espace pour les pages qui ne sont pas mises en cache. Lorsque le nombre de tampons de page dans le cache descend sous ce seuil, un processus en arrière-plan est démarré pour réapprovisionner ce pool de mémoires tampons disponibles. Ce seuil est toujours relatif à la taille maximale du cache définie par JET_paramCacheSizeMax. Ce seuil doit également toujours être inférieur au seuil d’arrêt défini par JET_paramStopFlushThreshold. La hauteur de distance du seuil de démarrage détermine le temps de réponse que le cache de page de la base de données doit avoir pour produire des tampons disponibles avant que l’application en ait besoin. Un seuil de démarrage élevé donnera plus de temps au processus en arrière-plan. toutefois, un seuil de démarrage élevé implique un seuil d’arrêt plus élevé et réduit la taille effective du cache des pages de base de données pour les pages modifiées (Windows 2000) ou pour toutes les pages (Windows XP et versions ultérieures).</td>
 </tr>
 <tr class="even">
 <td></td>
 <td>StopFlushThreshold</td>
-<td>Ce paramètre contrôle le moment où le cache de la page de base de données met fin à la suppression des pages du cache pour libérer de l’espace pour les pages qui ne sont pas mises en cache. Lorsque le nombre de tampons de page dans le cache dépasse ce seuil, le processus en arrière-plan qui a démarré pour réapprovisionner ce pool de mémoires tampons disponibles est arrêté. Ce seuil est toujours relatif à la taille maximale du cache définie par JET_paramCacheSizeMax. Ce seuil doit également être toujours supérieur au seuil de démarrage défini par JET_paramStartFlushThreshold. La distance entre le seuil de démarrage et le seuil d’arrêt affecte l’efficacité avec laquelle les pages de base de données sont vidées par le processus en arrière-plan. Un plus grand fossé rendra plus probable l’Association des écritures aux pages voisines. Toutefois, un seuil d’arrêt élevé réduira la taille effective du cache des pages de base de données pour les pages modifiées (Windows 2000) ou pour toutes les pages (Windows XP et versions ultérieures).</td>
+<td>Ce paramètre contrôle le moment où le cache de la page de base de données met fin à la suppression des pages du cache pour libérer de l’espace pour les pages qui ne sont pas mises en cache. Lorsque le nombre de tampons de page dans le cache dépasse ce seuil, le processus en arrière-plan qui a démarré pour réapprovisionner ce pool de mémoires tampons disponibles est arrêté. Ce seuil est toujours relatif à la taille maximale du cache définie par JET_paramCacheSizeMax. Ce seuil doit également être toujours supérieur au seuil de démarrage défini par JET_paramStartFlushThreshold. La distance entre le seuil de démarrage et le seuil d’arrêt affecte l’efficacité avec laquelle les pages de base de données sont vidées par le processus en arrière-plan. Un plus grand fossé rendra plus probable l’Association des écritures aux pages voisines. toutefois, un seuil d’arrêt élevé réduit la taille effective du cache des pages de base de données pour les pages modifiées (Windows 2000) ou pour toutes les pages (Windows XP et versions ultérieures).</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -320,7 +320,7 @@ public enum JET_param
 <tr class="odd">
 <td></td>
 <td>ExceptionAction</td>
-<td>Ce paramètre contrôle ce qui se produit lorsqu’une exception est levée par le moteur de base de données ou le code qui est appelé par le moteur de base de données. Quand la valeur JET_ExceptionMsgBox, toute exception est levée dans le filtre d’exception non géré Windows. L’exception est alors gérée en tant qu’échec de l’application. L’objectif est d’empêcher le code d’application d’essayer à tort d’intercepter et d’ignorer une exception générée par le moteur de base de données. Cela ne peut pas être autorisé, car une base de données endommagée peut se produire. Si l’application souhaite gérer correctement ces exceptions, la protection peut être désactivée en définissant ce paramètre sur JET_ExceptionNone.</td>
+<td>Ce paramètre contrôle ce qui se produit lorsqu’une exception est levée par le moteur de base de données ou le code qui est appelé par le moteur de base de données. quand la valeur JET_ExceptionMsgBox, toute exception est levée dans le Windows filtre d’exception non géré. L’exception est alors gérée en tant qu’échec de l’application. L’objectif est d’empêcher le code d’application d’essayer à tort d’intercepter et d’ignorer une exception générée par le moteur de base de données. Cela ne peut pas être autorisé, car une base de données endommagée peut se produire. Si l’application souhaite gérer correctement ces exceptions, la protection peut être désactivée en définissant ce paramètre sur JET_ExceptionNone.</td>
 </tr>
 <tr class="even">
 <td></td>

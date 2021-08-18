@@ -4,24 +4,24 @@ ms.assetid: f310c6ed-52e7-4828-9d4c-2f7ced9080c5
 title: 'Didacticiel : écriture d’un fichier WMA à l’aide d’objets WMContainer'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d156b75ced6cde2953ec90362ed13b0cc53bb83c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4aed89eb9ef656fe9240a1ed56e712f92209ba5c7e6d5bea2cca3d909d4315ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972768"
 ---
 # <a name="tutorial-writing-a-wma-file-by-using-wmcontainer-objects"></a>Didacticiel : écriture d’un fichier WMA à l’aide d’objets WMContainer
 
 Ce didacticiel illustre l’écriture d’un nouveau fichier audio (. WMA) en extrayant du contenu multimédia à partir d’un fichier audio non compressé (. wav), puis en le compressant au format ASF. Le mode d’encodage utilisé pour la conversion est le CBR ( [constant bit rate encodage](constant-bit-rate-encoding.md) ). Dans ce mode, avant la session d’encodage, l’application spécifie une vitesse de transmission cible que l’encodeur doit atteindre.
 
-Dans ce didacticiel, vous allez créer une application console qui accepte les noms de fichiers d’entrée et de sortie comme arguments. L’application obtient les exemples de supports non compressés à partir d’une application d’analyse de fichiers wave, qui est fournie dans ce didacticiel. Ces exemples sont envoyés à l’encodeur pour la conversion au format Windows Media Audio 9. L’encodeur est configuré pour l’encodage CBR et utilise le premier taux de bits disponible pendant la négociation de type de média comme vitesse de transmission cible. Les exemples encodés sont envoyés au multiplexeur pour la transmission de paquets au format de données ASF. Ces paquets sont écrits dans un flux d’octets qui représente l’objet de données ASF. Une fois la section des données prête, vous allez créer un fichier audio ASF et écrire le nouvel objet d’en-tête ASF qui consolide toutes les informations d’en-tête, puis ajouter le flux d’octets de l’objet de données ASF.
+Dans ce didacticiel, vous allez créer une application console qui accepte les noms de fichiers d’entrée et de sortie comme arguments. L’application obtient les exemples de supports non compressés à partir d’une application d’analyse de fichiers wave, qui est fournie dans ce didacticiel. ces exemples sont envoyés à l’encodeur pour la conversion au format Windows Media Audio 9. L’encodeur est configuré pour l’encodage CBR et utilise le premier taux de bits disponible pendant la négociation de type de média comme vitesse de transmission cible. Les exemples encodés sont envoyés au multiplexeur pour la transmission de paquets au format de données ASF. Ces paquets sont écrits dans un flux d’octets qui représente l’objet de données ASF. Une fois la section des données prête, vous allez créer un fichier audio ASF et écrire le nouvel objet d’en-tête ASF qui consolide toutes les informations d’en-tête, puis ajouter le flux d’octets de l’objet de données ASF.
 
 Ce didacticiel contient les sections suivantes :
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Terminologie](#terminology)
--   [1. configurer le projet](#1-set-up-the-project)
+-   [1. Configurez le Project](#1-set-up-the-project)
 -   [2. déclarer des fonctions d’assistance](#2-declare-helper-functions)
 -   [3. ouvrir un fichier audio](#3-open-an-audio-file)
 -   [4. configurer l’encodeur](#4-configure-the-encoder)
@@ -37,7 +37,7 @@ Ce didacticiel contient les sections suivantes :
 Ce didacticiel part des principes suivants :
 
 -   Vous êtes familiarisé avec la structure d’un fichier ASF et les composants fournis par Media Foundation pour travailler avec des objets ASF. Ces composants incluent les objets ContentInfo, Splitter, multiplexer et Profile. Pour plus d’informations, consultez [WMCONTAINER ASF Components](wmcontainer-asf-components.md).
--   Vous êtes familiarisé avec les encodeurs Windows Media et les différents types d’encodage, particulièrement CBR. Pour plus d’informations, consultez [encodeurs Windows Media](windows-media-encoders.md) .
+-   vous êtes familiarisé avec les encodeurs Windows Media et les différents types d’encodage, particulièrement CBR. pour plus d’informations, consultez [Windows des encodeurs multimédias](windows-media-encoders.md) .
 -   Vous êtes familiarisé avec les [mémoires tampons de média](media-buffers.md) et les flux d’octets : en particulier, les opérations de fichier utilisant un flux d’octets et l’écriture du contenu d’une mémoire tampon de média dans un flux d’octets.
 
 ## <a name="terminology"></a>Terminologie
@@ -52,7 +52,7 @@ Ce didacticiel utilise les termes suivants :
 -   Paquet de données : exemple de support, expose l’interface [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) , générée par le [multiplexeur ASF](asf-multiplexer.md); représente un paquet de données ASF qui sera écrit dans le flux d’octets de données.
 -   Sortie d’octet de sortie : objet de flux d’octets, expose l’interface [**IMFByteStream**](/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream) , qui contient le contenu du fichier de sortie.
 
-## <a name="1-set-up-the-project"></a>1. configurer le projet
+## <a name="1-set-up-the-project"></a>1. Configurez le Project
 
 1.  Incluez les en-têtes suivants dans votre fichier source :
 
@@ -245,7 +245,7 @@ L' [objet ASF ContentInfo](asf-contentinfo-object.md) contient des informations 
 
 Tout d’abord, créez un profil ASF pour le flux audio :
 
-1.  Appelez [**MFCreateASFProfile**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofile) pour créer un objet de profil ASF vide. Le profil ASF expose l’interface [**IMFASFProfile**](/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile) . Pour plus d’informations, consultez [création et configuration de flux ASF](creating-and-configuring-asf-streams.md).
+1.  Appelez [**MFCreateASFProfile**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofile) pour créer un objet de profil ASF vide. Le profil ASF expose l’interface [**IMFASFProfile**](/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile) . Pour plus d’informations, consultez [création et configuration d’flux ASF](creating-and-configuring-asf-streams.md).
 2.  Obtient le format audio encodé à partir de l' `CWmaEncoder` objet.
 3.  Appelez [**IMFASFProfile :: CreateStream,**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createstream) pour créer un flux pour le profil ASF. Transmettez un pointeur vers l’interface [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype) , qui représente le format de flux.
 4.  Appelez [**IMFASFStreamConfig :: SetStreamNumber**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-setstreamnumber) pour assigner un identificateur de flux.

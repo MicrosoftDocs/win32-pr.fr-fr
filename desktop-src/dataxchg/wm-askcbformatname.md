@@ -3,7 +3,7 @@ title: Message WM_ASKCBFORMATNAME (winuser. h)
 description: Envoyé au propriétaire du presse-papiers par une fenêtre de la visionneuse du presse-papiers pour demander le nom d’un \_ format de presse-papiers CF OWNERDISPLAY.
 ms.assetid: eee026ec-58db-41b3-9705-30a17eebbd70
 keywords:
-- WM_ASKCBFORMATNAME l’échange de données de message
+- WM_ASKCBFORMATNAME des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b14a7f2fc2ff57076d6b694061466fd60e09dce0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bfe96a2ddf4e6767c083ec2e3f4e3fc61bdde902ff93ce9a162ec7e93eb5bef7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991239"
 ---
 # <a name="wm_askcbformatname-message"></a>\_Message WM ASKCBFORMATNAME
 
@@ -56,7 +56,7 @@ Pointeur vers la mémoire tampon qui doit recevoir le nom du format du presse-pa
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En réponse à ce message, le propriétaire du presse-papiers doit copier le nom du format d’affichage du propriétaire dans la mémoire tampon spécifiée, sans dépasser la taille de la mémoire tampon spécifiée par le paramètre *wParam* .
 

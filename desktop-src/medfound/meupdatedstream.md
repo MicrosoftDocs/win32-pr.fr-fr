@@ -4,12 +4,12 @@ ms.assetid: 2d91a267-e109-45f5-886b-11b883cc5509
 title: Événement MEUpdatedStream (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e3b2e6fdc5928a08306b344c02b5eaafc37e957
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5746b619f885ab7648110cbe58b66b7897c839031202d811becd33e1c84991a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974018"
 ---
 # <a name="meupdatedstream-event"></a>Événement MEUpdatedStream
 
@@ -35,7 +35,7 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors du premier appel à [**Démarrer**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-start) dans lequel un flux devient actif, la source du média envoie un événement [MENewStream](menewstream.md) pour le flux. Lors des appels suivants à **Start**, la source du média envoie un événement MEUpdatedStream, jusqu’à ce que le flux soit désélectionné.
 
@@ -45,8 +45,8 @@ Lors du premier appel à [**Démarrer**](/windows/desktop/api/mfidl/nf-mfidl-imf
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

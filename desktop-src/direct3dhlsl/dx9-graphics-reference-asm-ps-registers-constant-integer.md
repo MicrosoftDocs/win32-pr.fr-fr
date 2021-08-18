@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9b03a27a95f84ae30a70147caaf5662e1949cf18
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ce2d9ba19f97439da098563639bc8940cdae2f202a6f24cdd1940e25cfc14e9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489380"
 ---
 # <a name="constant-integer-register-hlsl-ps-reference"></a>Registre d’entiers constant (référence PS HLSL)
 
@@ -36,7 +36,7 @@ En cas d’utilisation comme argument de l’instruction [Loop-PS](loop---ps.md)
 
 
 
- 
+ 
 
 Le comportement des constantes de nuanceur a changé entre Direct3D 8 et Direct3D 9.
 
@@ -50,6 +50,6 @@ Le comportement des constantes de nuanceur a changé entre Direct3D 8 et Direct3
 [Inscrit](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

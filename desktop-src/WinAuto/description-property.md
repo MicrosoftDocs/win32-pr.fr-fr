@@ -1,17 +1,17 @@
 ---
-title: Description, propriété (fonctionnalités d’accessibilité Windows)
+title: Description, propriété (Windows fonctionnalités d’accessibilité)
 description: La propriété Description d’un objet fournit une description textuelle de l’apparence visuelle d’un objet.
 ms.assetid: 1fe3221f-e1dd-44b2-b749-d00bee1b6b89
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34320b2959899d049d959037c0f24299780b54b0
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c695ae4ed8968620776aa0786358c98372940749be4a1c4335cb89f84b373ba2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994229"
 ---
-# <a name="description-property-windows-accessibility-features"></a>Description, propriété (fonctionnalités d’accessibilité Windows)
+# <a name="description-property-windows-accessibility-features"></a>Description, propriété (Windows fonctionnalités d’accessibilité)
 
 > [!Note]  
 > La propriété **Description** est souvent utilisée de manière incorrecte et n’est pas prise en charge par Microsoft UI Automation. Les développeurs Microsoft Active Accessibility Server ne doivent pas utiliser cette propriété. Si des informations supplémentaires sont nécessaires pour l’accessibilité et les scénarios d’automatisation, utilisez les propriétés prises en charge par les éléments UI Automation et les modèles de contrôle.

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7035223082a9e446caebd6e07d3d55c84536d09f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a6db2c10e981ae059a46e84e7abfc4d6dfc372fc3c75c76cfc20fd8a8f42735d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776729"
 ---
 # <a name="string-structure"></a>Structure de chaîne
 
@@ -117,7 +117,7 @@ Le membre de **valeur** identifie la société qui a produit le fichier. Par exe
 
 </dt> <dd>
 
-Le membre de **valeur** décrit le fichier de façon à ce qu’il puisse être présenté aux utilisateurs. Cette chaîne peut être présentée dans une zone de liste lorsque l’utilisateur choisit les fichiers à installer. Par exemple, « pilote de clavier pour les claviers de style AT » ou « Microsoft Word pour Windows ».
+Le membre de **valeur** décrit le fichier de façon à ce qu’il puisse être présenté aux utilisateurs. Cette chaîne peut être présentée dans une zone de liste lorsque l’utilisateur choisit les fichiers à installer. par exemple, « pilote de clavier pour les claviers de style AT » ou « Microsoft Word pour Windows ».
 
 </dd> <dt>
 
@@ -139,7 +139,7 @@ Le membre de **valeur** identifie la version de ce fichier. Par exemple, la **va
 
 </dt> <dd>
 
-Le membre de **valeur** identifie le nom interne du fichier, s’il en existe un. Par exemple, cette chaîne peut contenir le nom du module pour une DLL, un nom de périphérique virtuel pour un appareil virtuel Windows ou un nom de périphérique pour un pilote de périphérique MS-DOS.
+Le membre de **valeur** identifie le nom interne du fichier, s’il en existe un. par exemple, cette chaîne peut contenir le nom de module pour une DLL, un nom de périphérique virtuel pour un Windows appareil virtuel ou un nom de périphérique pour un pilote de périphérique MS-DOS.
 
 </dd> <dt>
 
@@ -242,9 +242,9 @@ Chaîne se terminant par zéro. Pour plus d’informations, consultez la descrip
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette structure n’est pas une véritable structure de langage C, car elle contient des membres de longueur variable. Cette structure a été créée uniquement pour représenter l’Organisation des données dans une ressource de version et n’apparaît pas dans les fichiers d’en-tête fournis avec le kit de développement logiciel (SDK) Windows.
+Cette structure n’est pas une véritable structure de langage C, car elle contient des membres de longueur variable. cette structure a été créée uniquement pour représenter l’organisation des données dans une ressource de version et n’apparaît pas dans les fichiers d’en-tête fournis avec le kit de développement logiciel (SDK) Windows.
 
 Une structure de **chaîne** peut avoir la valeur **szKey** , par exemple, « CompanyName » et la **valeur** « Microsoft Corporation ». Une autre structure de **chaîne** avec la même valeur **szKey** peut contenir la **valeur** « Microsoft GmbH ». Cela peut se produire si la deuxième structure de **chaîne** était associée à une structure [**STRINGTABLE**](stringtable.md) dont la valeur **SzKey** est 040704b0 c’est-à-dire, allemande/Unicode.
 

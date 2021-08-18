@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 31778da9b26ddd79b5f05c69c822ed62a5b5281e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 33d2b4e18fc93dff3054a98442c86a4c05467898afe09fc3bc82ccbd2f0ba456
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119279039"
 ---
 # <a name="id3dxanimationcontrollerkeypriorityblend-method"></a>ID3DXAnimationController :: KeyPriorityBlend, méthode
 
@@ -85,7 +85,7 @@ Type : **[ **D3DXEVENTHANDLE**](id3dxanimationcontroller.md)**
 
 Descripteur d’événement pour l’événement Priority Blend. La **valeur null** est retournée si un ou plusieurs des paramètres d’entrée ne sont pas valides ou si aucun événement libre n’est disponible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le contrôleur d’animation se mélange en trois phases : les pistes de faible priorité sont fusionnées en premier, les pistes haute priorité sont fusionnées en second, puis les résultats des deux sont fusionnés.
 

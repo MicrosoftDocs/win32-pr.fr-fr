@@ -1,6 +1,6 @@
 ---
 description: Fournit au système des informations sur un document avant le lancement d’une opération Enregistrer sous.
-title: DlpNotifyPreSaveAsDocument, fonction (endpointdlp. h)
+title: DlpNotifyPreSaveAsDocument, fonction (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type:
@@ -12,12 +12,12 @@ api_type:
 - DllExport
 api_location:
 - EndpointDlp.dll
-ms.openlocfilehash: 5226ed63227e2d9dd01155066e2e6e19f77e063f
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: 1dbd565ac7a86e381e1e70facf79a2883182260f82c31a2e8a9a3de4f6da8f2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778219"
 ---
 # <a name="dlpnotifypresaveasdocument-function"></a>DlpNotifyPreSaveAsDocument fonction)
 
@@ -53,7 +53,7 @@ Pointeur vers une structure [PDLP_DOCUMENT_INFO](endpointdlp-dlp_document_info.m
 </dd> </dl>
 
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne void.
 

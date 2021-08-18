@@ -4,12 +4,12 @@ ms.assetid: fb38ad3e-c2a8-4329-87a4-9e2437a7c4ca
 title: EC_UNBUILT (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79e2a0e3fe47100c52da607afcfcdc2cdd520232
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f2bba711e2709c93aad7cbef773b972c1b7ceb963b0721681bebab0bd1568e78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015867"
 ---
 # <a name="ec_unbuilt"></a>EC n’a pas été \_ généré
 
@@ -35,7 +35,7 @@ Zéro.
 
 ## <a name="default-action"></a>Action par défaut
 
-Aucun
+Aucun.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -54,7 +54,7 @@ Aucun
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

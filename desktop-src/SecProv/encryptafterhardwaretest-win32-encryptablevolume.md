@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: f356b9adda5e1b25fdd3d9fc39ace5cf8028da32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5365bd9aca023d42d9f2ab1d9de5d242497b8b21842004b2bb508f362752bd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004497"
 ---
 # <a name="encryptafterhardwaretest-method-of-the-win32_encryptablevolume-class"></a>Méthode EncryptAfterHardwareTest de la \_ classe Win32 EncryptableVolume
 
@@ -77,7 +77,7 @@ Type : **UInt32**
 
 Indicateurs qui décrivent le comportement de chiffrement.
 
-**Windows 7, Windows server 2008 R2, Windows Vista entreprise et Windows server 2008 :** Ce paramètre n’est pas disponible.
+**Windows 7, Windows server 2008 R2, Windows Vista Enterprise et Windows Server 2008 :** Ce paramètre n’est pas disponible.
 
 Combinaison de 32 bits avec les bits suivants actuellement définis.
 
@@ -182,9 +182,9 @@ Cette méthode est retournée immédiatement. Si le volume est déjà entièreme
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Lorsque vous utilisez cette méthode sans le second paramètre facultatif (selon la définition de Windows 7 et de Windows Vista Enterprise), la méthode lance toujours la conversion en mode complet afin de conserver un comportement à compatibilité descendante. De cette façon, l’attente de sécurité des applications et des scripts existants ne sera pas interrompue par l’ajout du deuxième paramètre facultatif dans Windows 8 et Windows Server 2012.
+lorsque vous utilisez cette méthode sans le second paramètre facultatif (selon la définition de la Windows 7 et Windows Vista Enterprise), la méthode lance toujours la conversion en mode complet afin de conserver un comportement à compatibilité descendante. de cette façon, l’attente de sécurité des applications et des scripts existants ne sera pas interrompue par l’ajout du deuxième paramètre facultatif dans Windows 8 et Windows Server 2012.
 
 Contrairement à la méthode [**Encrypt**](encrypt-win32-encryptablevolume.md) , cette méthode effectue les opérations suivantes :
 
@@ -211,7 +211,7 @@ Lors du redémarrage de l’ordinateur, le test matériel s’exécute automatiq
 
 Le chiffrement commence si le test matériel est correctement effectué. Sinon, essayez de résoudre les défaillances matérielles. Exécutez [**GetHardwareTestStatus**](gethardwareteststatus-win32-encryptablevolume.md) après avoir redémarré l’ordinateur pour obtenir les résultats des tests.
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -219,8 +219,8 @@ Les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista entreprise, les applications de bureau Windows Vista Édition intégrale \[ uniquement\]<br/>                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows vista Enterprise, Windows les applications de bureau vista Ultimate \[ uniquement\]<br/>                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |
 

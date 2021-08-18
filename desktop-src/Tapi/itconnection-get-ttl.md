@@ -4,16 +4,16 @@ ms.assetid: ea3c22d8-476e-4b4b-98c6-f1075e704f3d
 title: 'ITConnection :: get_Ttl, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88f4810eeefc19647e6ed5601b3a6b88870f1e9c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0522098f9959f3595d3deae83161fece53ad95353b9e41a60e653980353b22ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003377"
 ---
 # <a name="itconnectionget_ttl-method"></a>ITConnection :: obtient la \_ méthode TTL
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir \_ TTL** obtient l’étendue de la [*durée de*](t-tapgloss.md) vie (TTL) pour les transmissions sur les adresses.
 

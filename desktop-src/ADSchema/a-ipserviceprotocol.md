@@ -1,6 +1,6 @@
 ---
 title: attribut ipServiceProtocol
-description: Contient la section de la carte des services qui stocke le numéro de protocole d’un service UNIX.
+description: contient la section de la carte des services qui stocke le numéro de protocole d’un service de UNIX.
 ms.assetid: 44ab7637-c9c0-4d7c-898c-a9de45f75ccb
 ms.tgt_platform: multiple
 keywords:
@@ -13,16 +13,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 874b08d687ac621e15ae9b2268dcabef21e4c2aa
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4951a8927671edd569f91b51449e4f0d4ff6f326da35a138681626f96852abf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106544524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322379"
 ---
 # <a name="ipserviceprotocol-attribute"></a>attribut ipServiceProtocol
 
-Contient la section de la carte des services qui stocke le numéro de protocole d’un service UNIX.
+contient la section de la carte des services qui stocke le numéro de protocole d’un service de UNIX.
 
 
 
@@ -42,7 +42,7 @@ Contient la section de la carte des services qui stocke le numéro de protocole 
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

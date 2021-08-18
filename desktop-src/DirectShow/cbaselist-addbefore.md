@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6a3c25b2dd545b3e6698404bf00f82d1086bfb81
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2b4f85536b6a9372f164f596f96758a503096dbb0a5e5ed55adab42bc406b053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016967"
 ---
 # <a name="cbaselistaddbefore-method"></a>Méthode CBaseList. AddBefore
 
@@ -61,7 +61,7 @@ Pointeur vers la liste à insérer.
 
 Retourne la **valeur true** en cas de réussite. Sinon, retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs de position existants, y compris celui spécifié dans le paramètre *pos* , restent valides. Si la méthode échoue, certains éléments ont peut-être été ajoutés.
 
@@ -71,7 +71,7 @@ Les indicateurs de position existants, y compris celui spécifié dans le param�
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxlist. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxlist. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

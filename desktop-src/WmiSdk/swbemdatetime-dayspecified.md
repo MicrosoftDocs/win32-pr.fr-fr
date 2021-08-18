@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: f295d33940f36212fde4fe821af8d5df24d4f75f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: effa3bcb68351aa754006c143e738443efdb7238129f30847876ad17527ca279
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992249"
 ---
 # <a name="swbemdatetimedayspecified-property"></a>SWbemDateTime. DaySpecified, propriété
 

@@ -4,12 +4,12 @@ ms.assetid: 36d711c7-a1ff-4ef2-b633-5f9f1662801e
 title: MFNETSOURCE_LOGPARAMS, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec30f3f4d85f44905288601ba73ee6c246d8a9db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba557c4fb0bf77693669e8cb46af269ec3a4f2ed72c536e4bdab53a0778dc038
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113519"
 ---
 # <a name="mfnetsource_logparams-property"></a>MFNETSOURCE \_ propriété LOGPARAMS
 
@@ -23,15 +23,15 @@ Type de PROPVARIANT (VT)
 
 Membre PROPVARIANT
 
-**WCHAR \** _
+**WCHAR\***
 
 \_LPWStr VT
 
-_ *pwszVal**
+**pwszVal**
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La constante **MFNETSOURCE \_ LOGPARAMS** définit le GUID de la clé de propriété. L’identificateur de propriété (PID) est égal à zéro. Pour définir cette propriété sur la source réseau, transmettez un pointeur **IPropertyStore** au programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
@@ -41,8 +41,8 @@ La constante **MFNETSOURCE \_ LOGPARAMS** définit le GUID de la clé de propri�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

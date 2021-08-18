@@ -1,6 +1,6 @@
 ---
 title: Structure D3DX11_TEXTURE_LOAD_INFO (D3DX11tex. h)
-description: 'Remarque : la bibliothèque de l’utilitaire D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Décrit les paramètres utilisés pour charger une texture à partir d’une autre texture.'
+description: 'remarque : la bibliothèque de l’utilitaire d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Décrit les paramètres utilisés pour charger une texture à partir d’une autre texture.'
 ms.assetid: 2fe24752-d1bc-4666-bf0f-cc397394da56
 keywords:
 - Structure D3DX11_TEXTURE_LOAD_INFO Direct3D 11
@@ -14,17 +14,17 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ca893908f854b6b127d783af25cc2fb9bc5df6a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b441ed81e7054cb84731f204ddbf2a863b7a98a75e5e01ed54cf49b28dba7957
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989899"
 ---
 # <a name="d3dx11_texture_load_info-structure"></a>\_Structure d' \_ \_ informations sur le chargement de la texture D3DX11
 
 > [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+> la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 
  
 
@@ -164,7 +164,7 @@ Options de filtrage lors de la génération de niveaux MIP (voir [**\_ \_ indica
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est utilisée dans un appel à [**D3DX11LoadTextureFromTexture**](d3dx11loadtexturefromtexture.md).
 
@@ -186,7 +186,7 @@ Les valeurs par défaut sont :
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

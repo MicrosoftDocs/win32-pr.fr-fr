@@ -43,12 +43,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 319445e5a5961023062e09a04481f0376ff3493c
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: a7b582d0477600acb69447c0d82c93092f486618e93b27b3f166c1324938d4ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "103953288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119387716"
 ---
 # <a name="toolbar-standard-button-image-index-values"></a>Valeurs d’index d’image du bouton standard de la barre d’outils
 
@@ -103,7 +103,7 @@ Valeurs d’index pour les \_ affichages de la grande couleur de la vue IDB et l
 | <span id="VIEW_DETAILS"></span><span id="view_details"></span><dl> <dt>**AFFICHER les \_ Détails**</dt> </dl>                   | Mode Détails.<br/>                  |
 | <span id="VIEW_LARGEICONS"></span><span id="view_largeicons"></span><dl> <dt>**AFFICHER \_ LARGEICONS**</dt> </dl>          | Vue grandes icônes.<br/>              |
 | <span id="VIEW_LIST"></span><span id="view_list"></span><dl> <dt>**AFFICHER la \_ liste**</dt> </dl>                            | Mode Liste.<br/>                     |
-| <span id="VIEW_NETCONNECT"></span><span id="view_netconnect"></span><dl> <dt>**AFFICHER \_ NETconnect**</dt> </dl>          | Connectez-vous à un lecteur réseau.<br/>      |
+| <span id="VIEW_NETCONNECT"></span><span id="view_netconnect"></span><dl> <dt>**AFFICHER \_ NETconnect**</dt> </dl>          | Connecter sur le lecteur réseau.<br/>      |
 | <span id="VIEW_NETDISCONNECT"></span><span id="view_netdisconnect"></span><dl> <dt>**AFFICHER \_ NETconnect**</dt> </dl> | Se déconnecter du lecteur réseau.<br/> |
 | <span id="VIEW_NEWFOLDER"></span><span id="view_newfolder"></span><dl> <dt>**AFFICHER le \_ NEWFOLDER**</dt> </dl>             | Nouveau dossier.<br/>                    |
 | <span id="VIEW_PARENTFOLDER"></span><span id="view_parentfolder"></span><dl> <dt>**AFFICHER \_ PARENTFOLDER**</dt> </dl>    | Accédez au dossier parent.<br/>           |
@@ -115,7 +115,7 @@ Valeurs d’index pour les \_ affichages de la grande couleur de la vue IDB et l
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous utilisez ces valeurs pour spécifier un index d’image dans une liste d’images standard qui a été chargée avec le message [**to \_ LOADIMAGES**](tb-loadimages.md) . Les valeurs d’index correspondent aux images dans les bitmaps standard utilisées par les contrôles communs.
 

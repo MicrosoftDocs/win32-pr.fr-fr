@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101612
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 17efedf1eae561ef53ff3ee53cd8ecc3d3cd70de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d7fe8facd8d50e235ca8e4439ffd1cfd3bc0e43c78ab9ebdff3e2866050c08c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119481369"
 ---
 # <a name="esentdiskexception-properties"></a>Propriétés EsentDiskException
 
@@ -49,7 +49,7 @@ Le type [EsentDiskException](./esentdiskexception-class.md) expose les membres s
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

@@ -4,12 +4,12 @@ description: Une application WinSNMP peut effectuer des demandes d’opération 
 ms.assetid: 71150a66-74a3-4957-bc70-3dd25c3b9c71
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83a26ba632cec096300927911c2277cbcf5911e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ade0b2d58f371de87be5da855f26686a18518454c787c6a09e9701afbb731757
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009957"
 ---
 # <a name="about-retransmission"></a>À propos de la retransmission
 
@@ -23,9 +23,9 @@ L’implémentation stocke les valeurs de délai d’attente et les nombres de t
 
 Les applications doivent établir leurs propres fréquences d’interrogation et doivent gérer les variables de minuterie. Pour plus d’informations, consultez [gestion de la stratégie de retransmission](managing-the-retransmission-policy.md).
 
- 
+ 
 
- 
+ 
 
 
 

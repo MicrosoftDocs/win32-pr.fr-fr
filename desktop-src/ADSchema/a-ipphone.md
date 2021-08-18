@@ -1,10 +1,10 @@
 ---
-title: Téléphone-IP-attribut principal
+title: Téléphone-Ip-attribut principal
 description: Adresse TCP/IP du téléphone. Utilisé par la téléphonie.
 ms.assetid: b51f28e4-4677-4798-87f1-2bd952a528ea
 ms.tgt_platform: multiple
 keywords:
-- Schéma Active Directory-IP-Primary Attribute
+- Téléphone-Ip-schéma AD d’attribut principal
 - Schéma AD de l’attribut ipPhone
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f4f16d29f6b3f45c5a229d76ec30c0dd7efdea2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d45b04fb4d9f86e07173076aab949581c15fe98e883992153190f5bb7cf0f2fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322879"
 ---
-# <a name="phone-ip-primary-attribute"></a>Téléphone-IP-attribut principal
+# <a name="phone-ip-primary-attribute"></a>Téléphone-Ip-attribut principal
 
 Adresse TCP/IP du téléphone. Utilisé par la téléphonie.
 
@@ -29,7 +29,7 @@ Adresse TCP/IP du téléphone. Utilisé par la téléphonie.
 
 | Entrée | Valeur |
 |-------------------|----------------------------------------------------------------------------------|
-| CN                | Téléphone-IP-principal                                                                 |
+| CN                | Téléphone-Ip-principal                                                                 |
 | LDAP-Display-Name | ipPhone                                                                          |
 | Taille              | \-                                                                               |
 | Mettre à jour le privilège  | Administrateur de domaine ou propriétaire du compte.                                           |
@@ -45,7 +45,7 @@ Adresse TCP/IP du téléphone. Utilisé par la téléphonie.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

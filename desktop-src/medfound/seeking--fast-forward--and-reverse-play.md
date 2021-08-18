@@ -1,17 +1,17 @@
 ---
 description: Cette rubrique montre un exemple de code pour gérer la recherche et les modifications de taux, lors de l’utilisation de la session multimédia pour la lecture.
 ms.assetid: 50bf4c05-99c0-4cf0-aaca-8ee717cafd12
-title: Recherche, avance rapide et lecture inversée
+title: recherche, Avance rapide et la lecture inversée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68c42e4ab2bbf5bd3ac1057ce4bb0e09fceddc44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e49fb8731b005da12adf51880f4375c6610348ac73bd0bdc592e8478383df676
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034777"
 ---
-# <a name="seeking-fast-forward-and-reverse-play"></a>Recherche, avance rapide et lecture inversée
+# <a name="seeking-fast-forward-and-reverse-play"></a>recherche, Avance rapide et la lecture inversée
 
 Cette rubrique montre un exemple de code pour gérer la recherche et les modifications de taux, lors de l’utilisation de la [session multimédia](media-session.md) pour la lecture.
 

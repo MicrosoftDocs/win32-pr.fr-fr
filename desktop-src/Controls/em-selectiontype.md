@@ -3,7 +3,7 @@ title: Message EM_SELECTIONTYPE (RichEdit. h)
 description: Détermine le type de sélection d’un contrôle RichEdit.
 ms.assetid: a4200e32-1056-47bd-be47-5fabaf99c058
 keywords:
-- EM_SELECTIONTYPE les contrôles de message Windows
+- EM_SELECTIONTYPE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0deb62ac3bf774c72bb076f6fce9aa8c77b423f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1b79cb36759c857cea280b1c4beb5a476fa27a794f1f9985e1d259c345a9dc4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437839"
 ---
 # <a name="em_selectiontype-message"></a>\_Message SELECTIONTYPE em
 
@@ -62,7 +62,7 @@ Si la sélection n’est pas vide, la valeur de retour est un jeu d’indicateur
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est utile lors du traitement de la [**\_ taille WM**](/windows/desktop/winmsg/wm-size) pour le parent d’un contrôle Rich Edit sans fin.
 
@@ -72,8 +72,8 @@ Ce message est utile lors du traitement de la [**\_ taille WM**](/windows/deskto
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 549c55a5066bdaba4699ec76ed3b7be23eb28b96
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3a025bd9be527237b16022d6544f024e6aa10d294637b16de1df31e43cfa830b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119323079"
 ---
 # <a name="changesecuritypermissionsex-method-of-the-win32_codecfile-class"></a>Méthode ChangeSecurityPermissionsEx de la \_ classe Win32 CodecFile
 
@@ -191,12 +191,12 @@ Le système de fichiers n’est pas un système de fichiers NTFS.
 
 </dd> <dt>
 
-**Plateforme non NT/Windows 2000**
+**plateforme non NT/Windows 2000**
 </dt> <dd>
 
 12
 
-La plateforme n’est pas Windows NT ou Windows 2000.
+la plateforme n’est pas Windows NT ou Windows 2000.
 
 </dd> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: ace31e17-a638-414f-8518-9b944118047b
 title: Rapports d'événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 644163c5838b703d28db628c643c5cd12c73c22e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a52c5fe2abba47adb3b1b7bdf7d5562da8e57eb26aa21fe8448871c940cf2c34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015427"
 ---
 # <a name="reporting-events"></a>Rapports d'événements
 
@@ -130,7 +130,7 @@ Pour compiler les ressources générées par le compilateur de message, utilisez
 
 **RC Provider. RC**
 
-Pour créer la DLL de ressources uniquement qui contient les ressources de chaîne de table de messages, utilisez la commande suivante (vous pouvez exécuter la commande à partir d’une invite de commandes Visual Studio) :
+pour créer la DLL de ressources uniquement qui contient les ressources de chaîne de table de messages, utilisez la commande suivante (vous pouvez exécuter la commande à partir d’une invite de commandes Visual Studio) :
 
 **Link-dll-NOENTRY Provider. res**
 
@@ -362,7 +362,7 @@ Avant d’exécuter cet exemple, enregistrez le fournisseur dans le registre. Po
 
 L’exemple suivant montre les valeurs de Registre à définir pour la clé de Registre « MyEventProvider ».
 
-| Nom de la valeur           | Type       | Données de la valeur           |
+| Nom de valeur           | Type       | Données de la valeur           |
 |----------------------|------------|----------------------|
 | CategoryCount        | \_valeur DWORD reg | 0x00000003           |
 | CategoryMessageFile  | SZ de REG \_    | *chemin d’accès* \\provider.dll |

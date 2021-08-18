@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec9c7fdad2518ee5c55a2e0f5a0ffc3c011d30e1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 30e09f85f5e9f057a3f74826f32fd9783466a72e4d5a76201fec80db866fb113
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106509765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119323489"
 ---
 # <a name="frs-service-command-status-attribute"></a>Attribut FRS-Service-Command-Status
 
@@ -45,7 +45,7 @@ Réponse de la dernière commande exécutée pour un membre.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

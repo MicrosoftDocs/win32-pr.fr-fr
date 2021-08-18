@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed801856d0c966df14c6ceb04f7b6cc9a511ca91
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a9060998ba6d01fcd3cf3cc1e7ffa50acdbc9a8aba33c8ba324fed1de6d9d5fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583639"
 ---
 # <a name="class-display-name-attribute"></a>Attribut Class-Display-Name
 
@@ -46,7 +46,7 @@ Nom de l’objet à afficher dans les boîtes de dialogue.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

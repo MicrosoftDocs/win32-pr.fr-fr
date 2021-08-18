@@ -9,20 +9,20 @@ keywords:
 - IWMStatusCallback
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56e96b8d7fd75fd8a1d97a56c8b09304c51d0238
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 8eb1f2ae8ef64204435d7837b75258b77ec12f516103caeb936e82f979049ab4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103940662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027117"
 ---
 # <a name="using-the-onstatus-callback"></a>Utilisation du rappel OnStatus
 
-La méthode de rappel [**IWMStatusCallback :: OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) est appelée par plusieurs objets dans le kit de développement logiciel (SDK) du format Windows Media. **OnStatus** reçoit des messages qui représentent des modifications de l’état des opérations du kit de développement logiciel (SDK).
+la méthode de rappel [**IWMStatusCallback :: OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) est appelée par plusieurs objets dans le kit de développement logiciel (SDK) de Format multimédia Windows. **OnStatus** reçoit des messages qui représentent des modifications de l’état des opérations du kit de développement logiciel (SDK).
 
 Pour utiliser la méthode de rappel **OnStatus** , vous devez implémenter dans votre application une classe qui hérite de l’interface [**IWMStatusCallback**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback) . Incluez le code de votre version de **OnStatus** dans la classe. Vous trouverez plusieurs exemples d’implémentations de **OnStatus** dans les exemples inclus dans ce kit de développement logiciel (SDK). Pour plus d’informations sur les exemples, consultez [exemples d’applications](sample-applications.md).
 
-Vous devez associer votre implémentation du rappel d’État à différents objets du kit de développement logiciel (SDK) du format Windows Media. Chaque objet a une façon différente de créer cette association. Pour obtenir la liste des méthodes qui associent des objets spécifiques, consultez la page de référence **IWMStatusCallback** .
+vous devez associer votre implémentation du rappel d’état à différents objets du kit de développement logiciel (SDK) de Format de média Windows. Chaque objet a une façon différente de créer cette association. Pour obtenir la liste des méthodes qui associent des objets spécifiques, consultez la page de référence **IWMStatusCallback** .
 
 Les messages d’État qui peuvent être reçus par **OnStatus** sont définis dans le type d’énumération d' [**\_ État WMT**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status) .
 
@@ -35,9 +35,9 @@ Vous pouvez choisir les messages à intercepter et ceux à ignorer. Toutefois, i
 [**Utilisation des méthodes de rappel**](using-the-callback-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

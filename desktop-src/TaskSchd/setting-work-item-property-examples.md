@@ -6,12 +6,12 @@ keywords:
 - définition des propriétés de l’élément de travail Planificateur de tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e026ea3d2b3f6677a3d229e9289ab9b201e02b94
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e6a29ff08c4f9129b8dc9ab749cd6db5807fd0c52449e48b64d5f3b36631fef6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119402539"
 ---
 # <a name="setting-work-item-property-examples"></a>Définition d’exemples de propriétés d’élément de travail
 
@@ -22,7 +22,7 @@ Les exemples de code figurant en bas de la page montrent comment définir les pr
 > [!Note]  
 > Dans l’exemple de code suivant, toutes les interfaces sont libérées après qu’elles ne sont plus nécessaires.
 
- 
+ 
 
 Dans les exemples suivants, l’objet modifié est toujours enregistré sur le disque par un appel à [**IPersistFile :: Save**](/windows/win32/api/objidl/nf-objidl-ipersistfile-save). (L’interface [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) est une interface COM standard héritée par l’objet Task.)
 
@@ -44,7 +44,7 @@ La procédure suivante décrit comment définir une propriété de tâche.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -53,6 +53,6 @@ La procédure suivante décrit comment définir une propriété de tâche.
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

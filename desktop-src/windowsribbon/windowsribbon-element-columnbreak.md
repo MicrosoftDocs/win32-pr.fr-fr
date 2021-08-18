@@ -3,7 +3,7 @@ title: Élément ColumnBreak
 description: Représente un séparateur vertical (visible ou masqué) dans les modèles de disposition SizeDefinition personnalisés.
 ms.assetid: 5979d3e6-366b-4c47-810f-90fb8039af8d
 keywords:
-- Ruban des fenêtres d’élément ColumnBreak
+- élément ColumnBreak Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b5bff1682cdf55b44092a176abd6dc7e935220a7
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: beaf97a34a062b3461cf2101cb436fb1ba131d00e8656186fd434045bdef30bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119393079"
 ---
 # <a name="columnbreak-element"></a>Élément ColumnBreak
 
 Représente un séparateur vertical (visible ou masqué) dans les modèles de disposition [**SizeDefinition**](windowsribbon-element-sizedefinition.md) personnalisés.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ColumnBreak
@@ -79,7 +79,7 @@ Il n’y a pas d’éléments enfants.
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**GroupSizeDefinition**](windowsribbon-element-groupsizedefinition.md) .
 
@@ -177,7 +177,7 @@ L’exemple suivant illustre le balisage de base pour un élément **ColumnBreak
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: Oui
 
 

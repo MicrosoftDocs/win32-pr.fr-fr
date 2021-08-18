@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f26ae112cd33988e838fbb48a64ebfcbd7cb4607
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26196aa5f640a91424179df32e2aaed16423f3c312281652c6f8870fe21b2553
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038667"
 ---
 # <a name="jet_rstinfo-constructor"></a>Constructeur JET_RSTINFO
 

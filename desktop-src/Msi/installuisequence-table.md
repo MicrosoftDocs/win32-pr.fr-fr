@@ -4,12 +4,12 @@ ms.assetid: 076d7c14-e302-4465-aed5-27a4b1f70ac8
 title: Table InstallUISequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19a4d8d3033645ac1f414e3aff67be2a26d7a6ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2234ddcad587a495eceb79cc4511100f483bcfd96b388164f6e3c2d6a39eca3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013247"
 ---
 # <a name="installuisequence-table"></a>Table InstallUISequence
 
@@ -75,7 +75,7 @@ Zéro, tous les autres nombres négatifs ou une valeur null indique que l’acti
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le texte localisé associé à l’affichage de progression ou à la journalisation est spécifié dans la [table ActionText](actiontext-table.md).
 

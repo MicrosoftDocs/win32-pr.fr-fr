@@ -1,23 +1,23 @@
 ---
 title: Personnalisation des couleurs du ruban
-description: L’infrastructure de ruban Windows expose un jeu de propriétés de couleur qui permettent à une application de personnaliser l’apparence de divers éléments d’interface utilisateur du ruban au moment de l’exécution.
+description: l’infrastructure du ruban Windows expose un jeu de propriétés de couleur qui permettent à une application de personnaliser l’apparence de différents éléments de l’interface utilisateur du ruban au moment de l’exécution.
 ms.assetid: e070aaca-d350-4336-8e5d-d5d9c8167287
 keywords:
-- Ruban Windows, personnalisation des couleurs
+- Windows Ruban, personnalisation des couleurs
 - Ruban, personnalisation des couleurs
 - personnalisation des couleurs du ruban Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55ff6527dc67ee18df4723fc33e4b764e20127e8
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: e7ef83c40d49656c82aabfbf41c4ec5375f7f3f54f063ccf30d917e740f87408
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103723819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710889"
 ---
 # <a name="customizing-ribbon-colors"></a>Personnalisation des couleurs du ruban
 
-L’infrastructure de ruban Windows expose un jeu de propriétés de couleur qui permettent à une application de personnaliser l’apparence de divers éléments d’interface utilisateur du ruban au moment de l’exécution.
+l’infrastructure du ruban Windows expose un jeu de propriétés de couleur qui permettent à une application de personnaliser l’apparence de différents éléments de l’interface utilisateur du ruban au moment de l’exécution.
 
 -   [Introduction](#introduction)
 -   [Spécifier les couleurs du ruban](#specify-ribbon-colors)
@@ -31,8 +31,8 @@ Les [clés de propriété de Framework](windowsribbon-reference-properties-frame
 | Couleur du ruban                     | Clé de propriété du Framework                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Couleur d’arrière-plan                 | [IU \_ \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md)                                                                                                                                                                                                                                                                                                                                                                 |
-| Couleur de surbrillance (Windows 7 uniquement) | [Interface utilisateur \_ Le \_ ](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md)jeu de GlobalHighlightColor * * * * introduit dans Windows 8 * * : * * [UI \_ \_ GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) ne peut pas être défini indépendamment de [l’interface utilisateur \_ \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).<br/> <br/>                                                              |
-| Couleur du texte                       | [Interface utilisateur \_ \_GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md)de l’interface utilisateur * * * * introduit dans Windows 8 **:** les modifications apportées à la valeur par défaut de l' [UI « \_ \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md) » dans Windows 8 peuvent nécessiter un ajustement de l' [interface utilisateur de l’IU \_ \_ GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md) dans les applications de ruban conçues pour Windows 7.<br/> <br/> |
+| couleur de surbrillance (Windows 7 uniquement) | [Interface utilisateur \_ le \_ ](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md)groupe de GlobalHighlightColor * * * * introduit dans Windows 8 * * : * * [ui \_ \_ GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) ne peut pas être défini indépendamment de [l’interface utilisateur \_ \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).<br/> <br/>                                                              |
+| Couleur du texte                       | [Interface utilisateur \_ le \_ GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md)de la pièce * * * * a été introduit dans Windows 8 **:** les modifications apportées à la valeur par défaut de l' [ui « \_ \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md) » dans Windows 8 peuvent nécessiter un ajustement de l' [interface utilisateur de l’iu \_ \_ GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md) dans les applications du ruban conçues pour Windows 7.<br/> <br/> |
 
 
 
@@ -44,7 +44,7 @@ L’infrastructure du ruban utilise un modèle de couleurs teinte, saturation, l
 
 Pour spécifier la couleur des éléments d’interface utilisateur dans l’infrastructure du ruban, une application assigne des valeurs TSL à chacune des propriétés de couleur globale. Ces valeurs sont ensuite appliquées universellement à tous les éléments de ruban comme requis par l’application ruban (l’infrastructure ne prend pas en charge l’affectation de valeurs TSL à des éléments et des contrôles individuels).
 
-Introduite dans Windows 8 * * : * *[l’UI \_ \_ GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) a la même valeur que [l' \_ UI \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).
+introduite dans Windows 8 * * : * *[l’ui \_ \_ GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) a la même valeur que [l' \_ ui \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).
 
 Le tableau suivant décrit les paramètres TSL de l’infrastructure du ruban.
 
@@ -85,7 +85,7 @@ Les valeurs TSL n’identifient pas les couleurs spécifiques. Au lieu de cela, 
 Quand vous assignez des valeurs TSL personnalisées à [l’interface utilisateur \_ \_ GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md) et à [l’interface utilisateur \_ \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md), il est recommandé que ces valeurs soient suffisamment grandes pour garantir la lisibilité. Plus précisément, la couleur de texte doit être plus sombre que la nuance la plus légère de l’interface ruban. Le cas échéant, l’infrastructure ajuste automatiquement la \_ valeur TSL de l’interface utilisateur GlobalTextColor de l’interface utilisateur \_ pour fournir un contraste suffisant par rapport à n’importe quel dégradé ou nuance d’arrière-plan dérivé de l’interface utilisateur \_ \_ GlobalBackgroundColor.
 
 > [!Note]  
-> Dans Windows 7, [l’interface utilisateur \_ \_ GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) peut être définie indépendamment de [l’interface utilisateur \_ \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).
+> dans Windows 7, [l’interface de groupe de \_ \_ GlobalHighlightColor de l’interface utilisateur](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) peut être définie indépendamment de [l’interface utilisateur \_ \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).
 
  
 

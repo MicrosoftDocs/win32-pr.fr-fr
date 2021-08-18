@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9ed587be50ba41d4544152985285b20ab63bd745
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d01bafe9a20e56741f7e8b7ec9828386883fbdc150632335a342240c0a64a858
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987809"
 ---
 # <a name="id3dxanimationcontroller-interface"></a>Interface ID3DXAnimationController
 
@@ -83,7 +83,7 @@ L’interface **ID3DXAnimationController** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Créez un objet de contrôleur d’animation avec [**D3DXCreateAnimationController**](d3dxcreateanimationcontroller.md).
 

@@ -66,12 +66,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1c5be44637c91ebd57867c5062eba6f9e57ee543
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98cad51066f95bf75829cffe4235c243aabb0c3d58a46f8eb3d4ce4db96c10fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148132"
 ---
 # <a name="msvm_syntheticmouse-class"></a>MSVM \_ SyntheticMouse, classe
 
@@ -158,7 +158,7 @@ La classe **MSVM \_ SyntheticMouse** possède ces méthodes.
 | **OnlineDevice**                                                       | Cette méthode n'est pas prise en charge.<br/>                                      |
 | **QuiesceDevice**                                                      | Cette méthode n'est pas prise en charge.<br/>                                      |
 | [**RequestStateChange**](msvm-syntheticmouse-requeststatechange.md)   | Demande un changement d’État<br/>                                            |
-| [**Réinitialiser**](msvm-syntheticmouse-reset.md)                             | Réinitialise l’appareil.<br/>                                                 |
+| [**Initialisation**](msvm-syntheticmouse-reset.md)                             | Réinitialise l’appareil.<br/>                                                 |
 | **RestoreProperties**                                                  | Cette méthode n'est pas prise en charge.<br/>                                      |
 | **SaveProperties**                                                     | Cette méthode n'est pas prise en charge.<br/>                                      |
 | [**SetAbsolutePosition**](setabsoluteposition-msvm-syntheticmouse.md) | Définit la position horizontale et verticale du curseur de la souris.<br/>     |
@@ -191,7 +191,7 @@ Indique si l’appareil fonctionne sur des coordonnées absolues ou relatives.
 
 | Valeur                                                                                | Signification                                           |
 |--------------------------------------------------------------------------------------|---------------------------------------------------|
-| <dl> <dt>**Vrai**</dt> </dl>  | Les coordonnées de l’appareil sont absolues.<br/> |
+| <dl> <dt>**:**</dt> </dl>  | Les coordonnées de l’appareil sont absolues.<br/> |
 | <dl> <dt>**Faux**</dt> </dl> | Les coordonnées de l’appareil sont relatives.<br/> |
 
 
@@ -1011,7 +1011,7 @@ Coordonnée y absolue du dispositif de pointage.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ SyntheticMouse** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -1021,8 +1021,8 @@ L’accès à la classe **MSVM \_ SyntheticMouse** peut être limité par le fil
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
