@@ -4,12 +4,12 @@ ms.assetid: 56b39a3d-48a4-4620-9652-ec41ea4d6423
 title: Device-Independent des bitmaps
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aa35201a9a27c2d16a5a18b0125d25a3938890c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a6672857aadda714e7016616ca78654d7da102b48c1229c5b322953fc716f5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761388"
 ---
 # <a name="device-independent-bitmaps"></a>Device-Independent des bitmaps
 
@@ -42,7 +42,7 @@ L’application peut récupérer la résolution verticale en utilisant le même 
 
 La palette est représentée par un tableau de structures [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) qui spécifient les composants d’intensité rouge, vert et bleu pour chaque couleur dans la palette de couleurs d’un périphérique d’affichage. Chaque index de couleurs du tableau de palette est mappé à un pixel spécifique dans la zone rectangulaire associée à l’image bitmap. La taille de ce tableau, en bits, est équivalente à la largeur du rectangle, en pixels, multipliée par la hauteur du rectangle, en pixels, multipliée par le nombre de bits de couleur de l’appareil. Une application peut récupérer la taille de la palette de l’appareil en appelant la fonction [**GetDeviceCaps**](/windows/desktop/api/Wingdi/nf-wingdi-getdevicecaps) , en spécifiant NUMCOLORS comme deuxième argument.
 
-Windows prend en charge la compression du tableau palette pour les DIB 8-bpp et 4-BPP de bas en haut. Ces tableaux peuvent être compressés à l’aide du schéma d’encodage de longueur d’exécution (RLE). Le schéma RLE utilise des valeurs de 2 octets, le premier octet spécifiant le nombre de pixels consécutifs qui utilisent un index de couleurs et le deuxième octet spécifiant l’index. Pour plus d’informations sur la compression des bitmaps, consultez la description des structures [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85)), [**BITMAPFILEHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader), [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)et [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) .
+Windows prend en charge la compression du tableau de palettes pour les dib 8-bpp et 4-bpp de bas en haut. Ces tableaux peuvent être compressés à l’aide du schéma d’encodage de longueur d’exécution (RLE). Le schéma RLE utilise des valeurs de 2 octets, le premier octet spécifiant le nombre de pixels consécutifs qui utilisent un index de couleurs et le deuxième octet spécifiant l’index. Pour plus d’informations sur la compression des bitmaps, consultez la description des structures [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85)), [**BITMAPFILEHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader), [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)et [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) .
 
 Une application peut créer un DIB à partir d’un DDB en initialisant les structures requises et en appelant la fonction [**GetDIBits**](/windows/desktop/api/Wingdi/nf-wingdi-getdibits) . Pour déterminer si un appareil prend en charge cette fonction, appelez la fonction [**GetDeviceCaps**](/windows/desktop/api/Wingdi/nf-wingdi-getdevicecaps) , en spécifiant RC \_ di \_ bitmap comme indicateur RasterCaps.
 

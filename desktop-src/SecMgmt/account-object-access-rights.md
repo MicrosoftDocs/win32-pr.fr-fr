@@ -4,12 +4,12 @@ ms.assetid: 42fb22bb-8135-4a8f-bce6-e767d6c5aaea
 title: Droits d’accès à l’objet de compte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d69ba0939286564517c7293da136e88aa0367a60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6bb1251eecfd32bc574307cbc4f0f1327e4f96eb7fa7051d1dd638beb59e7ccd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895106"
 ---
 # <a name="account-object-access-rights"></a>Droits d’accès à l’objet de compte
 

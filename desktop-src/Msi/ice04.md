@@ -17,7 +17,7 @@ ICE04 vérifie que le numéro de séquence de chaque fichier de la [table de fic
 
 Chaque enregistrement de la table des médias représente un disque sur le support source contenant tous les fichiers dont le numéro de séquence est inférieur ou égal à la valeur de la colonne LastSequence et supérieur à la valeur LastSequence dans l’enregistrement du disque précédent.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE04 publie un message d’erreur s’il existe un fichier avec un numéro de séquence supérieur au plus grand numéro de LastSequence du support source.
 

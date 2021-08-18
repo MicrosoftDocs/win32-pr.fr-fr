@@ -4,12 +4,12 @@ ms.assetid: bb5e0d48-b7ea-487d-8063-daa9196fee7a
 title: System. audio. StreamNumber
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59fdf7fec6efda3d80aec2273fb864560b54a34e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23aece144000586b54cd3d8030c8a3862bc9808211924d00d638e1cbf4f9d9f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118730999"
 ---
 # <a name="systemaudiostreamnumber"></a>System. audio. StreamNumber
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

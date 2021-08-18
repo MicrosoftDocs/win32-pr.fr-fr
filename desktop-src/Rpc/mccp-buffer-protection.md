@@ -1,19 +1,19 @@
 ---
 title: Protection de la mémoire tampon MCCP
-description: À compter de Windows Vista, le moteur de marshaling RPC prend d’autres mesures pour empêcher les dépassements de mémoire tampon côté client en raison des données renvoyées. Cette fonctionnalité est appelée « protection de la conformité de la mini-calcul » (MCCP).
+description: à partir de Windows Vista, le moteur de marshaling RPC prend d’autres mesures pour empêcher les dépassements de mémoire tampon côté client en raison des données renvoyées. Cette fonctionnalité est appelée « protection de la conformité de la mini-calcul » (MCCP).
 ms.assetid: 37fe743b-c64e-469d-b8f4-abab9f05c813
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a70d04de57974bd9665d659129590d72513eb83e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c6b95234eed76c3d8f0fdc34b0b53e9cf02bcae2fd6db62694e1a3aadd602076
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928405"
 ---
 # <a name="mccp-buffer-protection"></a>Protection de la mémoire tampon MCCP
 
-À compter de Windows Vista, le moteur de marshaling RPC prend d’autres mesures pour empêcher les dépassements de mémoire tampon côté client en raison des données renvoyées. Cette fonctionnalité est appelée « protection de la conformité de la mini-calcul » (MCCP).
+à partir de Windows Vista, le moteur de marshaling RPC prend d’autres mesures pour empêcher les dépassements de mémoire tampon côté client en raison des données renvoyées. Cette fonctionnalité est appelée « protection de la conformité de la mini-calcul » (MCCP).
 
 Lorsque le client passe un pointeur vers une mémoire tampon existante à un \[ paramètre [**out**](/windows/desktop/Midl/out-idl) \] ou \[ [**in**](/windows/desktop/Midl/in),**out** , les \] données retournées pour ce paramètre sont copiées dans la mémoire tampon existante. Si les données retournées sont plus volumineuses que la mémoire tampon passée, un dépassement de mémoire tampon peut se produire lorsque RPC copie les données renvoyées dans la mémoire tampon trop petite. Consultez [les pointeurs de niveau supérieur et incorporé](top-level-and-embedded-pointers.md).
 
@@ -29,6 +29,6 @@ HRESULT PassString( [in] DWORD Length, [in, unique, string, size_is( Length )]LP
 
 Si *myString* a la **valeur null**, RPC rejette l’appel, sauf si *Length* a la valeur 0. Notez que RPC autorise la *longueur* à être égale à 0 alors que *myString* est non **null** et que RPC traite *myString* comme une allocation de mémoire tampon de longueur 0.
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: c1570669-6e9c-4614-af4d-2a148f12e36f
 title: Attributs ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ccf09542c8b96cc262cbe029111d3cb74e5b53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: babbb8697126ae6882c11526ed9e6cb31e2233b81685c820d200fbd21bab08c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975028"
 ---
 # <a name="asf-attributes"></a>Attributs ASF
 
@@ -36,8 +36,8 @@ Les attributs suivants s’appliquent à l’objet de configuration de flux ASF.
 
 | Attribut                                                                              | Description                                                                   |
 |----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| [**\_LEAKYBUCKET1 ASFSTREAMCONFIG \_ MF**](mf-asfstreamconfig-leakybucket1-attribute.md) | Définit les paramètres de « compartiment perdu » moyens pour l’encodage d’un fichier Windows Media. |
-| [**\_LEAKYBUCKET2 ASFSTREAMCONFIG \_ MF**](mf-asfstreamconfig-leakybucket2-attribute.md) | Définit le pic des paramètres « compartiment perdu » pour l’encodage d’un fichier Windows Media.    |
+| [**\_LEAKYBUCKET1 ASFSTREAMCONFIG \_ MF**](mf-asfstreamconfig-leakybucket1-attribute.md) | définit les paramètres de la « plage de fuite » moyenne pour l’encodage d’un fichier multimédia Windows. |
+| [**\_LEAKYBUCKET2 ASFSTREAMCONFIG \_ MF**](mf-asfstreamconfig-leakybucket2-attribute.md) | définit le pic des paramètres de « compartiment perdu » pour l’encodage d’un fichier multimédia Windows.    |
 
 
 

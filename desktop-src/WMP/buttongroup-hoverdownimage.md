@@ -3,7 +3,7 @@ title: BUTTONGROUP. hoverDownImage
 description: L’attribut hoverDownImage spécifie ou récupère le nom de l’image représentant l’état de survol d’un bouton dans le BUTTONGROUP. L’état Survol se produit lorsque le bouton est à l’état inactif et que l’utilisateur pointe dessus avec la souris.
 ms.assetid: dc048303-21d1-40ba-99bb-8d1c2f46628b
 keywords:
-- Lecteur Windows Media BUTTONGROUP. hoverDownImage
+- BUTTONGROUP. hoverDownImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a40788fafffd6eb4626bc834a941f7330c988fa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c84d907a9b3fd1fc1a2eaf2dcf30337d016ae0732b147f435f49343d791b65c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119878"
 ---
 # <a name="buttongrouphoverdownimage"></a>BUTTONGROUP. hoverDownImage
 
@@ -31,7 +31,7 @@ L’attribut **hoverDownImage** spécifie ou récupère le nom de l’image repr
 
 Cet attribut est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les formats d’image pris en charge sont BMP, JPG, PNG et GIF. Si l’image est un fichier BMP 8 bits, ses valeurs de teinte et de saturation peuvent être modifiées de manière dynamique à l’aide des attributs **hueShift** et **saturation** .
 

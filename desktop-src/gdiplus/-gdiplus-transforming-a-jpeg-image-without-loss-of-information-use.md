@@ -4,18 +4,18 @@ description: Lorsque vous compressez une image JPEG, certaines des informations 
 ms.assetid: d7342195-9634-4968-87c1-a94bc6a7e112
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25ea7011f25a97a228c44bdb87ba09ca8b284ddd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67152084f95220db3fe7afecfa4be07b366a92b31eb713ec192a2805ecb42ea9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977289"
 ---
 # <a name="lossless-transform-of-a-jpeg-image"></a>Transformation sans perte d’une image JPEG
 
 Lorsque vous compressez une image JPEG, certaines des informations contenues dans l’image sont perdues. Si vous ouvrez un fichier JPEG, que vous modifiez l’image et que vous l’enregistrez dans un autre fichier JPEG, la qualité diminue. Si vous répétez ce processus plusieurs fois, vous verrez une dégradation importante de la qualité de l’image.
 
-Étant donné que le format JPEG est l’un des formats d’image les plus populaires sur le Web et que les gens aiment souvent modifier des images JPEG, GDI+ fournit les transformations suivantes qui peuvent être effectuées sur des images JPEG sans perte d’informations :
+étant donné que le format JPEG est l’un des formats d’image les plus populaires sur le Web et que les gens aiment souvent modifier des images jpeg, GDI+ fournit les transformations suivantes qui peuvent être effectuées sur des images jpeg sans perte d’informations :
 
 -   Faire pivoter de 90 degrés
 -   Faire pivoter de 180 degrés
@@ -28,7 +28,7 @@ Vous pouvez appliquer l’une des transformations indiquées dans la liste préc
 -   Le fichier utilisé pour construire l’objet [**image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) est un fichier JPEG.
 -   La largeur et la hauteur de l’image sont des multiples de 16.
 
-Si la largeur et la hauteur de l’image ne sont pas des multiples de 16, GDI+ fera de son mieux pour préserver la qualité de l’image lorsque vous appliquez l’une des transformations de rotation ou de retournement présentées dans la liste précédente.
+si la largeur et la hauteur de l’image ne sont pas des multiples de 16, GDI+ fait de son mieux pour préserver la qualité de l’image lorsque vous appliquez l’une des transformations de rotation ou de retournement présentées dans la liste précédente.
 
 Pour transformer une image JPEG, initialisez un objet [**EncoderParameters**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-encoderparameters) et transmettez l’adresse de cet objet à la méthode [Save](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-save(inistream_inconstclsid_inconstencoderparameters)) de la classe [**image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) . Initialisez l’objet **EncoderParameters** afin qu’il dispose d’un tableau qui se compose d’un objet [**EncoderParameter**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-encoderparameter) . Initialisez un objet **EncoderParameter** de sorte que son membre de **valeur** pointe vers une variable **ULong** qui contient l’un des éléments suivants de l’énumération [**EncoderValue**](/windows/win32/api/Gdiplusenums/ne-gdiplusenums-encodervalue) :
 

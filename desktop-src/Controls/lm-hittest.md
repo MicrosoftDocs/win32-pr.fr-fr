@@ -3,7 +3,7 @@ title: Message LM_HITTEST (commctrl. h)
 description: Détermine si l’utilisateur a cliqué sur le lien spécifié.
 ms.assetid: a84c0388-26e7-4eda-9c6c-c5f64142d67a
 keywords:
-- LM_HITTEST les contrôles de message Windows
+- LM_HITTEST les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c497800369203ac8ea7484371e1038ba15d6cc68
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 559ea1500c7270ece1785391777133bdaaeb1e95e5b01fa5ca7d4bb76e40f1d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958372"
 ---
 # <a name="lm_hittest-message"></a>\_Message LM HITTEST
 
@@ -39,7 +39,7 @@ Détermine si l’utilisateur a cliqué sur le lien spécifié.
 
 Retourne la **valeur true** si l’utilisateur a cliqué sur un lien ; sinon, retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le message **LM \_ HITTEST** est correctement exécuté, le système se remplit en [**litem. iLink**](/windows/win32/api/commctrl/ns-commctrl-litem) et en **litem. szID**. Si le message **LM \_ HITTEST** échoue, ne supposez pas que toutes les informations contenues dans **litem** sont valides.
 
@@ -54,8 +54,8 @@ Si le message **LM \_ HITTEST** est correctement exécuté, le système se rempl
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

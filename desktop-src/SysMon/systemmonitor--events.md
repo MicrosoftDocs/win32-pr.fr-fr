@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 94247cf81fcaf57f373c731cd4eaf06a3ca897ba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3584eed86abcaef019f0fc8f8bd794a80abca1143286317189889231bbc2cc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882945"
 ---
 # <a name="systemmonitor-events"></a>Événements SystemMonitor
 
@@ -29,11 +29,11 @@ La classe [**systemmonitor**](systemmonitor.md) a les événements suivants :
 > [!Note]  
 > Vous devez retourner à partir du gestionnaire d’événements avant l’expiration de l' [**intervalle de mise à jour**](systemmonitor-updateinterval.md) ; dans le cas contraire, SYSMON affiche une boîte de message indiquant à l’utilisateur qu’il n’a pas pu échantillonner les valeurs de compteur pour l’intervalle de mise à jour précédent.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

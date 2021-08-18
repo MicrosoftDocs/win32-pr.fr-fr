@@ -1,9 +1,9 @@
 ---
 title: PlayerApplication.playerDocked
-description: La propriété playerDocked récupère une valeur indiquant si le lecteur Windows Media est dans un état d’ancrage.
+description: la propriété playerDocked récupère une valeur indiquant si Lecteur Windows Media est dans un état ancré.
 ms.assetid: c6f82188-0826-4854-992c-85ad84701fb7
 keywords:
-- Lecteur Windows Media PlayerApplication. playerDocked
+- PlayerApplication. playerDocked Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c53ac92aac82c19dd9e58d389dee340a5951457b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b2c3ad74dcc21eec386f70f00ed0fa1a6e205c5d702dcfa63949d35f4fdd6adf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995819"
 ---
 # <a name="playerapplicationplayerdocked"></a>PlayerApplication.playerDocked
 
-La propriété **playerDocked** récupère une valeur indiquant si le lecteur Windows Media est dans un état d’ancrage.
+la propriété **playerDocked** récupère une valeur indiquant si Lecteur Windows Media est dans un état ancré.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -33,9 +33,9 @@ La propriété **playerDocked** récupère une valeur indiquant si le lecteur Wi
 
 Cette propriété est une **valeur booléenne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée uniquement lors de la communication à distance du contrôle du lecteur Windows Media.
+cette propriété est utilisée uniquement lors de la communication à distance du contrôle Lecteur Windows Media.
 
 **Lecteur Windows Media 10 Mobile :** Cette propriété retourne toujours **false**.
 

@@ -4,12 +4,12 @@ ms.assetid: dbe8d5a3-8927-4b95-a1a0-82c8e12ba8c1
 title: Inscription d’un package de notifications Winlogon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25b353220727c828a0fa0b1d6f9b479bfa54832e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2aa41948062458581d607b64432166b99ba4701865a3c7b593365c87342359ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118919668"
 ---
 # <a name="registering-a-winlogon-notification-package"></a>Inscription d’un package de notifications Winlogon
 
@@ -19,7 +19,7 @@ Lorsque Winlogon démarre, il vérifie le registre et charge tous les packages d
 
 Pour inscrire votre package de notification, créez une clé de Registre nommée **Notify** en tant que sous-clé de la clé de Registre suivante et ajoutez les valeurs détaillées dans les [entrées de registre](registry-entries.md).
 
-**HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Winlogon**
+**HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Winlogon**
 
  
 

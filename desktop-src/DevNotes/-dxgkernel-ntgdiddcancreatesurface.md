@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: c45f3e93bff409f68e5ba7fbe441a398e80b0e7a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6ed65be4f212ff656a282cc1c83f67968bdf12c9c031e5651a0b82c076593625
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104482880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956718"
 ---
 # <a name="ntgdiddcancreatesurface-function"></a>NtGdiDdCanCreateSurface fonction)
 

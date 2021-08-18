@@ -4,26 +4,26 @@ description: Récupération des attributs de l’appareil
 ms.assetid: c553d495-d8fc-4483-a3dc-6679c6b9d1f1
 keywords:
 - Lecteur Windows Media, appareils mobiles
-- Modèle objet du lecteur Windows Media, appareils mobiles
+- modèle objet Lecteur Windows Media, appareils mobiles
 - modèle objet, appareils mobiles
-- Contrôle ActiveX du lecteur Windows Media, appareils mobiles
-- Contrôle ActiveX, appareils mobiles
-- Windows Media Player Mobile contrôle ActiveX, appareils mobiles
-- Windows Media Player Mobile, appareils mobiles
+- contrôle de ActiveX Lecteur Windows Media, appareils mobiles
+- contrôle de ActiveX, appareils mobiles
+- Lecteur Windows Media contrôle Mobile ActiveX, appareils mobiles
+- Lecteur Windows Media Mobile, appareils mobiles
 - périphériques portables, récupération d’attributs
 - attributs, appareils mobiles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f486b94fe6a9a5c78f238d78a7f79dec9df3376
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: d5e6ac2794782c728de16f23f88e26d1f458258959e1c3e9e7e490cdf7bf6971
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995529"
 ---
 # <a name="retrieving-device-attributes"></a>Récupération des attributs de l’appareil
 
-Le lecteur Windows Media stocke les informations sur les appareils qui se sont connectés au lecteur. Certains attributs sont disponibles en appelant des méthodes individuelles de **IWMPSyncDevice**, certaines peuvent être récupérées à l’aide de **IWMPSyncDevice :: getItemInfo**, et certaines peuvent être récupérées à l’aide de l’une ou l’autre technique.
+Lecteur Windows Media stocke des informations sur les appareils qui se sont connectés au lecteur. Certains attributs sont disponibles en appelant des méthodes individuelles de **IWMPSyncDevice**, certaines peuvent être récupérées à l’aide de **IWMPSyncDevice :: getItemInfo**, et certaines peuvent être récupérées à l’aide de l’une ou l’autre technique.
 
 L’exemple de code suivant remplit un contrôle de zone de liste avec les attributs disponibles pour l’appareil spécifié. La première partie de la fonction récupère les propriétés disponibles à l’aide de méthodes spécifiques. La deuxième partie de la fonction récupère les valeurs d’attribut à l’aide de **IWMPSyncDevice :: getItemInfo**. Le paramètre de fonction, *Lindex*, est l’index de l’appareil dans votre tableau d’appareils personnalisé pointé par m \_ ppWMPDevices.
 
@@ -169,9 +169,9 @@ STDMETHODIMP CMainDlg::ShowDeviceAttributes(long lIndex)
 [**Utilisation d’appareils mobiles**](working-with-portable-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

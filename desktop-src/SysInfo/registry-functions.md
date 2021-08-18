@@ -4,12 +4,12 @@ ms.assetid: a490b748-42e8-462b-9a7f-a8b21438ea79
 title: Fonctions du Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc2cfadd3753b7a269667fee22955f8465495458
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a81f5aff4dad00691f606911c1cf092933aa121eaf7a2d25aacbcc8a83948b89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885212"
 ---
 # <a name="registry-functions"></a>Fonctions du Registre
 
@@ -47,7 +47,7 @@ Les fonctions de Registre sont les suivantes.
 | [**RegOpenKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regopenkeyexa)                               | Ouvre la clé de Registre spécifiée.                                                                                                              |
 | [**RegOpenKeyTransacted**](/windows/desktop/api/Winreg/nf-winreg-regopenkeytransacteda)               | Ouvre la clé de Registre spécifiée et l’associe à une transaction.                                                                         |
 | [**RegOpenUserClassesRoot**](/windows/desktop/api/Winreg/nf-winreg-regopenuserclassesroot)           | Récupère un handle vers la clé **\_ \_ racine HKEY classes** pour l’utilisateur spécifié.                                                                  |
-| [**RegOverridePredefKey**](/windows/desktop/api/Winreg/nf-winreg-regoverridepredefkey)               | Mappe une clé de Registre prédéfinie à une clé de Registre spécifiée.                                                                                    |
+| [**RegOverridePredefKey**](/windows/desktop/api/Winreg/nf-winreg-regoverridepredefkey)               | Cartes une clé de registre prédéfinie à une clé de registre spécifiée.                                                                                    |
 | [**RegQueryInfoKey**](/windows/desktop/api/Winreg/nf-winreg-regqueryinfokeya)                         | Récupère des informations sur la clé de Registre spécifiée.                                                                                        |
 | [**RegQueryMultipleValues**](/windows/desktop/api/Winreg/nf-winreg-regquerymultiplevaluesa)           | Récupère le type et les données pour une liste de noms de valeurs associés à une clé de Registre ouverte.                                                    |
 | [**RegQueryReflectionKey**](/windows/desktop/api/WinReg/nf-winreg-regqueryreflectionkey)             | Détermine si la réflexion a été désactivée ou activée pour la clé spécifiée.                                                              |

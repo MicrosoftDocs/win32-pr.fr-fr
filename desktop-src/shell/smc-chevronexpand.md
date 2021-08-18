@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 6ecf8f86e111326b3f37f3111c382d2d04ef2fa7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 036c45c6bd0e156a17cbcf2f89d3f64b2f619d4b4a6eb7e0a19b70eb3295292c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968248"
 ---
 # <a name="smc_chevronexpand-message"></a>\_Message SMC CHEVRONEXPAND
 
@@ -40,11 +40,11 @@ Ce message n’a pas de paramètres.
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette notification est reçue par la méthode [**IShellMenuCallback :: CallbackSM**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

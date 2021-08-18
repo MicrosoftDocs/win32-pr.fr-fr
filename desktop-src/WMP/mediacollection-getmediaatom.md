@@ -3,9 +3,9 @@ title: Méthode MediaCollection. getMediaAtom
 description: La méthode getMediaAtom récupère l’index auquel un attribut spécifié réside dans le jeu d’attributs disponibles.
 ms.assetid: 17501a95-1196-43ff-9a4e-a78cf28e7a2d
 keywords:
-- méthode getMediaAtom lecteur Windows Media
-- méthode getMediaAtom lecteur Windows Media, classe MediaCollection
-- Classe MediaCollection lecteur Windows Media, méthode getMediaAtom
+- Lecteur Windows Media de la méthode getMediaAtom
+- méthode getMediaAtom Lecteur Windows Media, classe MediaCollection
+- Lecteur Windows Media de la classe MediaCollection, méthode getMediaAtom
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16728b20c26b90c10f144f278f7dec24195b536a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8f537b759516d5fa0f382d0c72aabbc0edb836ad8e4ae6d7f210d012fa19ea60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118837202"
 ---
 # <a name="mediacollectiongetmediaatom-method"></a>Méthode MediaCollection. getMediaAtom
 
@@ -45,7 +45,7 @@ retVal = MediaCollection.getMediaAtom(
 *attribut* \[ dans\]
 </dt> <dd>
 
-**Chaîne** contenant le nom de l’attribut. Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la page [référence des attributs](attribute-reference.md)du lecteur Windows Media.
+**Chaîne** contenant le nom de l’attribut. pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md)Lecteur Windows Media.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ retVal = MediaCollection.getMediaAtom(
 
 Cette méthode retourne un **nombre** (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le numéro d’index récupéré avec cette méthode peut être passé au *média*. méthode **getItemInfoByAtom** pour accéder aux valeurs d’attribut. Cette technique est généralement plus efficace lorsque vous utilisez des sélections volumineuses que l’accès à une valeur d’attribut par son nom par le biais d’un *média*. **getItemInfo** ou *Media*. **getItemInfoByType**.
 

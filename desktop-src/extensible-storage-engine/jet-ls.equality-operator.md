@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1ea1845d8146248e85df4b9a9aff79d845024b29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fae9e7d2fc311c272fcda4a2222d1eeb6adb1da75fbfd64bd338f3a65f15581
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118765015"
 ---
 # <a name="jet_lsequality-operator"></a>JET_LS. Opérateur d’égalité
 

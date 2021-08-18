@@ -3,17 +3,17 @@ title: Divers
 description: Divers
 ms.assetid: 39e5187d-1f71-4ca8-814c-0ea1d5367a2e
 keywords:
-- Apparences du lecteur Windows Media, attributs spécialisés
+- apparences de Lecteur Windows Media, attributs spécialisés
 - apparences, attributs spécialisés
 - informations de référence sur les apparences, attributs spécialisés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cafb901aceab1ada6af93ce03dafda6dac04fbfa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 53a2dfd7f6a54b10b3997288b0b207713a4231caf96a0e7a9aaa7a6ab02f0959
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996189"
 ---
 # <a name="miscellaneous"></a>Divers
 
@@ -31,7 +31,7 @@ Les rubriques suivantes sont traitées.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -40,9 +40,9 @@ Les rubriques suivantes sont traitées.
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

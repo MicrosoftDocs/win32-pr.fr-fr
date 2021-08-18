@@ -53,10 +53,10 @@ Lien vers l’arrière pour [**ms-DS-OIDToGroup-Link**](a-msds-oidtogrouplink.md
 |------------------------|---------------------------------|
 | ID de lien                | 2165                            |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | False                           |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Faux                           |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -74,10 +74,10 @@ Lien vers l’arrière pour [**ms-DS-OIDToGroup-Link**](a-msds-oidtogrouplink.md
 |------------------------|---------------------------------|
 | ID de lien                | 2165                            |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | False                           |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Faux                           |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |

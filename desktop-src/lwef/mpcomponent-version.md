@@ -3,8 +3,8 @@ title: Structure MPCOMPONENT_VERSION (MpClient. h)
 description: Version et heure de mise à jour pour un composant individuel.
 ms.assetid: 43468230-EE13-4630-8C09-F8DF983EF748
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPCOMPONENT_VERSION
-- PMPCOMPONENT_VERSION des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPCOMPONENT_VERSION
+- PMPCOMPONENT_VERSION des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a1d4b5011bb185dc8ca0892e0a0e65bc4a7d8b2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6092fe2f3ec7ba921b1ef3adfc9355feeeae67f2381836056f2af65b276921cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976069"
 ---
 # <a name="mpcomponent_version-structure"></a>Structure de la version de MPCOMPONENT \_
 
@@ -70,8 +70,8 @@ Heure de la dernière mise à jour du composant, au format **fileTime** .
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

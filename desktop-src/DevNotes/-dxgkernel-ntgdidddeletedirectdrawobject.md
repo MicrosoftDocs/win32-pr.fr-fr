@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 9ac10798f83fe7e1a07a0803dd29cfa9cd8b1c98
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 866624e35c5c05afa14692a2e83d1c15293af9435aa68deddf9c602b80820708
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956548"
 ---
 # <a name="ntgdidddeletedirectdrawobject-function"></a>NtGdiDdDeleteDirectDrawObject fonction)
 
@@ -55,7 +55,7 @@ Handle vers l’objet appareil DirectDraw en mode noyau.
 
 En cas de réussite, cette fonction retourne la **valeur true**; Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il est recommandé aux applications d’utiliser les API DirectDraw et [Direct3D](../direct3d10/d3d10-graphics-reference.md) pour créer et gérer des objets d’appareils graphiques. Ces constructions résument le processus de création d’appareils de façon simplifiée et indépendante du système d’exploitation.
 

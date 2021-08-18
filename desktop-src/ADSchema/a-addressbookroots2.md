@@ -54,10 +54,10 @@ Utilisé par Exchange. Exchange configure les arborescences des conteneurs de ca
 |------------------------|--------------------------------------------------------------------------------------|
 | ID de lien                | 2122                                                                                 |
 | MAPI-Id                | \-                                                                                   |
-| System-Only            | False                                                                                |
-| Est de valeur unique       | False                                                                                |
-| Est indexé             | False                                                                                |
-| Dans le catalogue global      | False                                                                                |
+| System-Only            | Faux                                                                                |
+| Est de valeur unique       | Faux                                                                                |
+| Est indexé             | Faux                                                                                |
+| Dans le catalogue global      | Faux                                                                                |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                         |
 | Range-Lower            | \-                                                                                   |
 | Range-Upper            | \-                                                                                   |
@@ -75,10 +75,10 @@ Utilisé par Exchange. Exchange configure les arborescences des conteneurs de ca
 |------------------------|--------------------------------------------------------------------------------------|
 | ID de lien                | 2122                                                                                 |
 | MAPI-Id                | \-                                                                                   |
-| System-Only            | False                                                                                |
-| Est de valeur unique       | False                                                                                |
-| Est indexé             | False                                                                                |
-| Dans le catalogue global      | False                                                                                |
+| System-Only            | Faux                                                                                |
+| Est de valeur unique       | Faux                                                                                |
+| Est indexé             | Faux                                                                                |
+| Dans le catalogue global      | Faux                                                                                |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                         |
 | Range-Lower            | \-                                                                                   |
 | Range-Upper            | \-                                                                                   |
@@ -96,10 +96,10 @@ Utilisé par Exchange. Exchange configure les arborescences des conteneurs de ca
 |------------------------|--------------------------------------------------------------------------------------|
 | ID de lien                | 2122                                                                                 |
 | MAPI-Id                | \-                                                                                   |
-| System-Only            | False                                                                                |
-| Est de valeur unique       | False                                                                                |
-| Est indexé             | False                                                                                |
-| Dans le catalogue global      | False                                                                                |
+| System-Only            | Faux                                                                                |
+| Est de valeur unique       | Faux                                                                                |
+| Est indexé             | Faux                                                                                |
+| Dans le catalogue global      | Faux                                                                                |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                         |
 | Range-Lower            | \-                                                                                   |
 | Range-Upper            | \-                                                                                   |

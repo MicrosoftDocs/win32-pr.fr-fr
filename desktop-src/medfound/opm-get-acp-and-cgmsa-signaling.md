@@ -4,12 +4,12 @@ ms.assetid: d477fe3e-4498-450b-93b7-ce74ae9ed005
 title: OPM_GET_ACP_AND_CGMSA_SIGNALING (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bf6294c3f1d90ac8a2292c65b3c1b8558e69220
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6c06da78ea9ae1a4f0ea58f0fb8770dffadff6a34d577fd2328816ffc100e4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102063"
 ---
 # <a name="opm_get_acp_and_cgmsa_signaling"></a>\_prise en \_ main \_ des signaux ACP et \_ CGMSA \_ pour OPM
 
@@ -31,7 +31,7 @@ Retourne les informations suivantes sur une sortie vidéo :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette requête est équivalente à la \_ requête DXVA COPPQuerySignaling utilisée dans le protocole Copp (Certified Output Protection Protocol).
 
@@ -41,8 +41,8 @@ Cette requête est équivalente à la \_ requête DXVA COPPQuerySignaling utilis
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Opmapi. h</dt> </dl> |
 
 

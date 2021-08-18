@@ -13,18 +13,18 @@ api_type:
 - DllExport
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: ce61a0d320b34ad09f4801d4ee5b53625e61501b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e32319e9585f5d1a80d0473c6ce27167f0ec181b81b974c526371b29c018b03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955688"
 ---
 # <a name="pstorecreateinstance-function"></a>PStoreCreateInstance fonction)
 
-\[Le stockage protégé (PStore) peut être utilisé dans Windows Server 2003 et Windows XP. Elle est uniquement disponible pour les opérations en lecture seule dans Windows Server 2008 et Windows Vista, mais elle peut ne pas être disponible dans les versions ultérieures. Pstore utilise une implémentation plus ancienne de la protection des données. Les développeurs sont vivement encouragés à tirer parti de la protection renforcée des données fournie par les fonctions [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) et [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) .\]
+\[le Stockage protégé (Pstore) peut être utilisé dans Windows Server 2003 et Windows XP. elle est uniquement disponible pour les opérations en lecture seule dans Windows Server 2008 et Windows Vista, mais elle peut ne pas être disponible dans les versions ultérieures. Pstore utilise une implémentation plus ancienne de la protection des données. Les développeurs sont vivement encouragés à tirer parti de la protection renforcée des données fournie par les fonctions [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) et [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) .\]
 
-\[Cette fonction peut être modifiée ou non disponible dans les futures versions de Windows. Utilisez les fonctions **CryptProtectData** et **CryptUnprotectData** au lieu de cette fonction.\]
+\[Cette fonction peut être modifiée ou indisponible dans les futures versions de Windows. Utilisez les fonctions **CryptProtectData** et **CryptUnprotectData** au lieu de cette fonction.\]
 
 Récupère un pointeur d’interface vers un fournisseur de stockage.
 
@@ -78,7 +78,7 @@ Réservé doit être égal à zéro.
 
 La valeur de retour est un **HRESULT**. La valeur **S \_ OK** indique que la fonction a réussi.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation associée ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

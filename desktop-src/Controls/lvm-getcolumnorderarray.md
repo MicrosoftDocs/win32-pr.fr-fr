@@ -3,7 +3,7 @@ title: Message LVM_GETCOLUMNORDERARRAY (commctrl. h)
 description: Obtient l’ordre de gauche à droite actuel des colonnes dans un contrôle de vue de liste. Vous pouvez envoyer ce message explicitement ou utiliser la \_ macro ListView GetColumnOrderArray.
 ms.assetid: d4636aa8-c61e-4467-abc7-eea897bf370e
 keywords:
-- LVM_GETCOLUMNORDERARRAY les contrôles de message Windows
+- LVM_GETCOLUMNORDERARRAY les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aee387f65abd3f30826e361778d5acac02dfab7c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea54c633c7ffc9bc580609678e8ba5f62e29429aaea6f866bb7d72b6ea326eb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118411495"
 ---
 # <a name="lvm_getcolumnorderarray-message"></a>\_Message GETCOLUMNORDERARRAY LVM
 
@@ -53,8 +53,8 @@ En cas de réussite, retourne une valeur différente de zéro et la mémoire tam
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

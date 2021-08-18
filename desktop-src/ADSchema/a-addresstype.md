@@ -57,10 +57,10 @@ Chaîne de caractères qui décrit le format de l’adresse de l’utilisateur. 
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32                                                       |
@@ -78,10 +78,10 @@ Chaîne de caractères qui décrit le format de l’adresse de l’utilisateur. 
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32                                                       |
@@ -99,10 +99,10 @@ Chaîne de caractères qui décrit le format de l’adresse de l’utilisateur. 
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32                                                       |
@@ -120,10 +120,10 @@ Chaîne de caractères qui décrit le format de l’adresse de l’utilisateur. 
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32                                                       |
@@ -141,10 +141,10 @@ Chaîne de caractères qui décrit le format de l’adresse de l’utilisateur. 
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32                                                       |
@@ -162,10 +162,10 @@ Chaîne de caractères qui décrit le format de l’adresse de l’utilisateur. 
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
-| System-Only            | False                                                    |
-| Est de valeur unique       | True                                                     |
-| Est indexé             | False                                                    |
-| Dans le catalogue global      | False                                                    |
+| System-Only            | Faux                                                    |
+| Est de valeur unique       | Vrai                                                     |
+| Est indexé             | Faux                                                    |
+| Dans le catalogue global      | Faux                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32                                                       |

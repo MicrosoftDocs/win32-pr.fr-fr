@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 389ed5b7b0a43981c5eeb3d66a73bd19cbd99d88
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 469af646e4e2700737afc8f81d4b41bb548499bef5985892aebf8564317c563f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959118"
 ---
 # <a name="changesecuritypermissions-method-of-the-cim_directory-class"></a>Méthode ChangeSecurityPermissions de la \_ classe de répertoire CIM
 
@@ -117,7 +117,7 @@ Modifiez la liste de contrôle d’accès système du fichier logique.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -240,7 +240,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

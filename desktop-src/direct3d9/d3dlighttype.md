@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 83c94db3126443f757f01a69d7d773417f70683a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 66aefec5d614e5fc51f82741fbb30ace71222997273b7647c0bf51f2d5038878
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106542168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118804774"
 ---
 # <a name="d3dlighttype-enumeration"></a>Énumération D3DLIGHTTYPE
 
@@ -70,7 +70,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les lumières directionnelles sont légèrement plus rapides que les sources de point-lumière, mais les lumières de point sont un peu mieux adaptées. Les actualités offrent des effets visuels intéressants, mais prennent du temps sur le calcul.
 

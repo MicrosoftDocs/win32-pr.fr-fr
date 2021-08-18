@@ -3,8 +3,8 @@ title: Structure MPCLEAN_PRECHECK_DATA (MpClient. h)
 description: Données de notification transmises à la fonction de rappel de prévérification propre.
 ms.assetid: 65B3B116-6E83-46F5-AE2B-92A41AE39480
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPCLEAN_PRECHECK_DATA
-- PMPCLEAN_PRECHECK_DATA des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPCLEAN_PRECHECK_DATA
+- PMPCLEAN_PRECHECK_DATA des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc3d67e0c71c95db49b633feeb3048cc9f104b2f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bc272ed230a67811497f0eebb99624d74369c8c55419fba970f326fba502e8b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747925"
 ---
 # <a name="mpclean_precheck_data-structure"></a>\_Structure de données de PRÉVÉRIFICATION MPCLEAN \_
 
@@ -70,8 +70,8 @@ Informations de ressource sur la ressource qui bloque. Par exemple, lorsque la p
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

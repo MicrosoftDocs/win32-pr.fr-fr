@@ -29,7 +29,7 @@ Entier qui représente la nouvelle valeur du niveau d’installation.
 
 ## <a name="action-on-subscribers"></a>Action sur les abonnés
 
-Aucune.
+Aucun.
 
 ## <a name="typical-use"></a>Utilisation courante
 

@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété HelpContextID de l’objet Charac
 ms.assetid: 7ef190ba-c194-4386-a8d6-d32d902a1c03
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e751cb2d8834a6af2c3b816066d6051e3a28c767
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: c790f4e3b0e69f4c8dc5e032b0021067e908f4af6200432dae668d08b47e1f85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118478716"
 ---
 # <a name="helpcontextid-property-characters-object"></a>HelpContextID, propriété (objet Characters)
 
@@ -45,10 +45,10 @@ Retourne ou définit un numéro de contexte associé pour le caractère. Utilis�
 
 Pour prendre en charge l’aide contextuelle pour le caractère, assignez le numéro de contexte au caractère que vous utilisez pour la rubrique d’aide associée quand vous compilez votre fichier d’aide. Cette propriété s’applique uniquement au client du caractère ; le paramètre n’affecte pas les autres clients du caractère ou d’autres caractères du client.
 
-Si vous avez créé un fichier d’aide Windows pour votre application et défini la propriété [**HelpFile**](helpfile-property.md) du caractère, agent appelle automatiquement l’aide lorsque [**HelpModeOn**](helpmodeon-property.md) a la valeur **true** et que l’utilisateur clique sur le caractère. S’il existe un numéro de contexte dans le [**HelpContextID**](helpcontextid-property.md), l’agent appelle l’aide et recherche la rubrique identifiée par le numéro de contexte actuel. Le nombre de contextes actuels est la valeur de **HelpContextID** pour le caractère.
+si vous avez créé un fichier d’aide Windows pour votre application et défini la propriété [**HelpFile**](helpfile-property.md) du caractère, Agent appelle automatiquement l’aide lorsque [**HelpModeOn**](helpmodeon-property.md) a la valeur **True** et que l’utilisateur clique sur le caractère. S’il existe un numéro de contexte dans le [**HelpContextID**](helpcontextid-property.md), l’agent appelle l’aide et recherche la rubrique identifiée par le numéro de contexte actuel. Le nombre de contextes actuels est la valeur de **HelpContextID** pour le caractère.
 
 > [!Note]  
-> La génération d’un fichier d’aide requiert le compilateur d’aide Microsoft Windows.
+> la génération d’un fichier d’aide requiert le compilateur d’aide Microsoft Windows.
 
  
 

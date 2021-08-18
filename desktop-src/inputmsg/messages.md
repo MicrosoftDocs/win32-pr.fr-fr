@@ -4,12 +4,12 @@ description: Les rubriques de cette section fournissent les spécifications de r
 ms.assetid: 65F4DCD0-DAE1-4AC2-AB36-23D114803138
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 3e143990c65daad306ef6f743d25ef4e0cca8001
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 076ba9d8b33bf2848d6088c4bac42b60ce9e19646abe5163358f25b063250b9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118756951"
 ---
 # <a name="messages"></a>Messages
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: cb2a50a7f16062f271a89b6061e3f2fa2dd16685
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b020f41822185dfc9e4e2513fc9e299bc35d9bbb258aaeddf6f1e1e8ea7b8cf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118905658"
 ---
 # <a name="sslverifysignature-function"></a>SslVerifySignature fonction)
 
@@ -112,7 +112,7 @@ Les codes de retour possibles incluent, mais ne sont pas limités à, les élém
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **SslVerifySignature** n’est pas appelée actuellement par Windows. Cette fonction est une partie obligatoire de l’interface du fournisseur SSL et doit être entièrement implémentée pour garantir la compatibilité ascendante.
 
@@ -124,8 +124,8 @@ Les implémentations actuelles du côté serveur de la connexion TLS ( [*Transpo
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Sslprovider. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

@@ -4,19 +4,19 @@ ms.assetid: 3d6e090a-00b1-47d8-a4fb-620f3db8ba9c
 title: Services interactifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57dda3018b4b37e8c5ee56d67cd1db2c56da9b67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee6b99eb41d26d6740a30a314654d92fdd4522f5597ea6e4cbb2a3d443de8120
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889467"
 ---
 # <a name="interactive-services"></a>Services interactifs
 
 En règle générale, les services sont des applications console conçues pour s’exécuter sans assistance sans interface utilisateur graphique (GUI). Toutefois, certains services peuvent nécessiter une interaction occasionnelle avec un utilisateur. Cette page présente les meilleures façons d’interagir avec l’utilisateur à partir d’un service.
 
 > [!IMPORTANT]
-> Les services ne peuvent pas interagir directement avec un utilisateur à partir de Windows Vista. Par conséquent, les techniques mentionnées dans la section intitulée utilisation d’un service interactif ne doivent pas être utilisées dans le nouveau code.
+> les Services ne peuvent pas interagir directement avec un utilisateur à partir de Windows Vista. Par conséquent, les techniques mentionnées dans la section intitulée utilisation d’un service interactif ne doivent pas être utilisées dans le nouveau code.
 
  
 
@@ -27,9 +27,9 @@ Vous pouvez utiliser les techniques suivantes pour interagir avec l’utilisateu
 -   Affiche une boîte de dialogue dans la session de l’utilisateur à l’aide de la fonction [**WTSSendMessage**](/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssendmessagea) .
 -   Créez une application GUI cachée distincte et utilisez la fonction [**CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) pour exécuter l’application dans le contexte de l’utilisateur interactif. Concevez l’application GUI pour communiquer avec le service par le biais d’une méthode de communication interprocessus (IPC), par exemple, canaux nommés. Le service communique avec l’application GUI pour lui indiquer quand afficher l’interface utilisateur graphique. L’application communique les résultats de l’interaction de l’utilisateur au service afin que le service puisse prendre les mesures appropriées. Notez que IPC peut exposer vos interfaces de service sur le réseau, sauf si vous utilisez une liste de contrôle d’accès (ACL) appropriée.
 
-    Si ce service s’exécute sur un système multi-utilisateur, ajoutez l’application à la clé suivante pour qu’elle soit exécutée dans chaque session : **HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Run**. Si l’application utilise des canaux nommés pour IPC, le serveur peut faire la distinction entre plusieurs processus utilisateur en attribuant à chaque canal un nom unique basé sur l’ID de session.
+    si ce service s’exécute sur un système multi-utilisateur, ajoutez l’application à la clé suivante pour qu’elle soit exécutée dans chaque session : **HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows \\ CurrentVersion \\ run**. Si l’application utilise des canaux nommés pour IPC, le serveur peut faire la distinction entre plusieurs processus utilisateur en attribuant à chaque canal un nom unique basé sur l’ID de session.
 
-La technique suivante est également disponible pour Windows Server 2003 et Windows XP :
+la technique suivante est également disponible pour Windows Server 2003 et Windows XP :
 
 -   Affichez une boîte de message en appelant la fonction [**MessageBox**](/windows/win32/api/winuser/nf-winuser-messagebox) avec la **\_ \_ notification de service MB**. Cela est recommandé pour afficher des messages d’État simples. N’appelez pas **MessageBox** pendant l’initialisation du service ou à partir de la routine [**HandlerEx**](/windows/desktop/api/WinSvc/nc-winsvc-lphandler_function_ex) , sauf si vous l’appelez à partir d’un thread distinct, afin de revenir en temps voulu au SCM.
 
@@ -51,7 +51,7 @@ Pour déterminer si un service s’exécute en tant que service interactif, appe
 
 Toutefois, Notez que la clé de Registre suivante contient une valeur, **NoInteractiveServices**, qui contrôle l’effet du \_ processus interactif de service \_ :
 
-**HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ Control \\ Windows**
+**HKEY \_ local \_ machine \\ SYSTEM \\ CurrentControlSet \\ contrôle \\ Windows**
 
 La valeur de **NoInteractiveServices** par défaut est 1, ce qui signifie qu’aucun service n’est autorisé à s’exécuter de manière interactive, qu’il dispose ou non d’un **\_ \_ processus interactif de service**. Quand **NoInteractiveServices** a la valeur 0, les services avec **le \_ \_ processus interactif service** sont autorisés à s’exécuter de manière interactive.
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3a7f7fcdc6e24cac5c04068fda7f781d0bdd376a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f6e350ed14482646562121d910a8bd35f30403acf8dbde7df249ee1bc6ca800a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104393911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118789602"
 ---
 # <a name="texture2dgathercmpalphasfloatfloatint-function"></a>Texture2D :: GatherCmpAlpha (S, float, float, int) (fonction)
 
@@ -81,7 +81,7 @@ Type : **float4**
 
 Une valeur à quatre composants, chaque composant est le résultat d’une comparaison par composant.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les échantillons de texture peuvent être utilisés pour l’interpolation bilinéaire.
 
@@ -89,7 +89,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

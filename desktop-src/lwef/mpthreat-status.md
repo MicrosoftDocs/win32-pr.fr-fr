@@ -4,7 +4,7 @@ description: État possible de la menace.
 ms.assetid: 64B57C8B-231B-4A2C-BF2E-45DB62B8350E
 keywords:
 - MPTHREAT_STATUS énumération des fonctionnalités d’environnement Windows héritées
-- PMPTHREAT_STATUS des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMPTHREAT_STATUS de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 978a152d6f14d7b3577ece0a2e8bd5a8ba741a3b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92d800cbfb0adbeb994586a69e38ac4a1ad2a8957091508b147bd582fef5233e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118476261"
 ---
 # <a name="mpthreat_status-enumeration"></a>\_Énumération de l’État MPTHREAT
 
@@ -98,8 +98,8 @@ typedef enum tagMPTHREAT_STATUS {
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

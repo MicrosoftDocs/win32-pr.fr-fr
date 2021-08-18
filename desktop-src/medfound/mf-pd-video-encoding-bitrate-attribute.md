@@ -4,12 +4,12 @@ ms.assetid: 0fe8cf64-2256-4e48-9853-2c734f97f3c7
 title: Attribut MF_PD_VIDEO_ENCODING_BITRATE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 477d0954b4db8fa11c1540153c096e42f6d255b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8de8c7e250ab446714a3d9afb2c7d07e0d3ac76a671bb50dcd46785368a77cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102905"
 ---
 # <a name="mf_pd_video_encoding_bitrate-attribute"></a>\_Attribut de \_ \_ \_ débit binaire d’encodage vidéo MF PD
 
@@ -19,7 +19,7 @@ Spécifie la vitesse de transmission de l’encodage vidéo pour la présentatio
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est facultatif. Certains formats ont des schémas d’encodage plus complexes qui ne peuvent pas être résumés à l’aide de cet attribut. Pour les fichiers ASF (Advanced Systems Format), les attributs suivants décrivent collectivement la vitesse de transmission du codage :
 
@@ -38,8 +38,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

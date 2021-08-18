@@ -4,12 +4,12 @@ ms.assetid: 08320d1c-1400-4746-b526-74b0789c5fc0
 title: Interfaces d’objet terminal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed3286d9a2bf3c247f813d3a1f942b0490de0154
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98f8a80e088e6182416364798a4a8cfa5d3ebeafaa8d9ccb23c53bc56655d39a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103760791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118860527"
 ---
 # <a name="terminal-object-interfaces"></a>Interfaces d’objet terminal
 
@@ -24,7 +24,7 @@ Les interfaces [**IEnumTerminal**](/windows/desktop/api/tapi3if/nn-tapi3if-ienum
 | Interface                                                                  | Description                                                                                                                       |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | [**ITTerminal**](/windows/win32/api/tapi3if/nn-tapi3if-itterminal)                                           | Interface de base pour l’objet terminal. Il fournit des méthodes pour obtenir des informations telles que la classe de terminal et le support pris en charge. |
-| [**ITAMMediaFormat**](/windows/win32/api/tapi3/nn-tapi3-itammediaformat)                                 | Définit et obtient le format multimédia DirectShow.                                                                                            |
+| [**ITAMMediaFormat**](/windows/win32/api/tapi3/nn-tapi3-itammediaformat)                                 | définit et obtient DirectShow format multimédia.                                                                                            |
 | [**ITBasicAudioTerminal**](/windows/desktop/api/tapi3if/nn-tapi3if-itbasicaudioterminal)                       | Fournit des méthodes pour définir et récupérer des caractéristiques de terminal audio standard, telles que le volume.                                          |
 | [**IEnumTerminal**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminal)                                     | Énumère [**ITTerminal**](/windows/win32/api/tapi3if/nn-tapi3if-itterminal).                                                                                      |
 | [**IEnumTerminalClass**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass)                           | Énumère la [**classe terminal**](terminal-class.md).                                                                              |

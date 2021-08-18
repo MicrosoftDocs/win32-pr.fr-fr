@@ -4,12 +4,12 @@ ms.assetid: 7ea391cb-f72b-4ac1-99be-c957d4ccc8af
 title: Notions de base des interfaces utilisateur Light-Aware
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0ce71ab67e11684d14b188fef7ae73500edb7d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8955180dfc57219d3b640c6463f2ee2025f22500d3d29b688bc4b0c154895f66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890191"
 ---
 # <a name="fundamentals-of-light-aware-user-interfaces"></a>Notions de base des interfaces utilisateur Light-Aware
 
