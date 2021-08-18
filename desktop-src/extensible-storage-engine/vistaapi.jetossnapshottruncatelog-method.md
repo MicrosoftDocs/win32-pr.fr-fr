@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0af8054bc414ea5dbd6c7225fa9e2cd7117c74c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d216a79934485ed2ea447bd31e93de575e068aa2f548315c2665759aec7a7708
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119106807"
 ---
 # <a name="vistaapijetossnapshottruncatelog-method"></a>Méthode VistaApi. JetOSSnapshotTruncateLog
 
@@ -73,7 +73,7 @@ public static void JetOSSnapshotTruncateLog(
     
     Options pour cet appel.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction doit être appelée uniquement si l’instantané a été créé avec l’option [ContinueAfterThaw](./vistagrbits.continueafterthaw-field.md) . Dans le cas contraire, la session d’instantané se termine après l’appel à [JetOSSnapshotThaw (JET_OSSNAPID, SnapshotThawGrbit)](./api.jetossnapshotthaw-method.md).
 

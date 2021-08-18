@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b420b2f93e33e9781d898323c18be59953d06ee
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: db67ba6b2a9f8e01da299c98109c23247b826c6cb9c3c54a2d13a39274fcd6c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960548"
 ---
 # <a name="ms-imaging-hash-algorithm-attribute"></a>MS-Imaging-Hash-Algorithm (attribut)
 

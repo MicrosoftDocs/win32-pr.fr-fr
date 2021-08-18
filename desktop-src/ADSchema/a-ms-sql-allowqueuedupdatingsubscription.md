@@ -1,11 +1,11 @@
 ---
-title: Attribut MS-SQL-AllowQueuedUpdatingSubscription
+title: attribut MS-SQL-AllowQueuedUpdatingSubscription
 description: True pour autoriser les transactions en file d’attente lors de la mise à jour des abonnements.
 ms.assetid: 132c107f-8586-48db-b70c-027c619aadf7
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut MS-SQL-AllowQueuedUpdatingSubscription
-- Schéma AD de l’attribut mS-SQL-AllowQueuedUpdatingSubscription
+- schéma AD de l’attribut MS-SQL-AllowQueuedUpdatingSubscription
+- schéma AD de l’attribut mS-SQL-AllowQueuedUpdatingSubscription
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2056a04b6e0f155c156cde06975e96eb13f61eb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a473537954beac60d9fa87d72c23d69193d12bb862ccab1d5414d65a4f25fa01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961148"
 ---
-# <a name="ms-sql-allowqueuedupdatingsubscription-attribute"></a>Attribut MS-SQL-AllowQueuedUpdatingSubscription
+# <a name="ms-sql-allowqueuedupdatingsubscription-attribute"></a>attribut MS-SQL-AllowQueuedUpdatingSubscription
 
 True pour autoriser les transactions en file d’attente lors de la mise à jour des abonnements.
 
@@ -45,7 +45,7 @@ True pour autoriser les transactions en file d’attente lors de la mise à jour
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -11,12 +11,12 @@ keywords:
 - points
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 322413cd6a11a589884bce2628e229984c7936ed
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 18ef24ad81942681b3d70a303a22e89e9573aa609d3f08f52a92583ae88e0e9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012067"
 ---
 # <a name="porting-points"></a>Points de Portage
 
@@ -33,15 +33,15 @@ OpenGL n’a aucune commande pour dessiner un point unique. Sinon, les fonctions
 
 
 
- 
+ 
 
 Pour plus d’informations sur les fonctions d’extraction associées, consultez [**glPointSize**](glpointsize.md).
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

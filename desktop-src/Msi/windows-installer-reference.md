@@ -1,19 +1,19 @@
 ---
-description: Les sections suivantes contiennent des informations de référence sur le service Windows Installer et l’API Windows Installer.
+description: les sections suivantes contiennent des informations de référence sur le service Windows Installer et l’API Windows Installer.
 ms.assetid: dd50d51a-a95e-437e-a3a9-5005e0da3395
-title: Référence Windows Installer
+title: Windows Référence du programme d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b19ad6dce61653eb2a1cd8611d389d7b22828a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbef036a6b8922f684dff811a67e9ee12d1c4d774238e4d6d4e53c5b61c77785
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012647"
 ---
-# <a name="windows-installer-reference"></a>Référence Windows Installer
+# <a name="windows-installer-reference"></a>Windows Référence du programme d’installation
 
-Les sections suivantes contiennent des informations de référence sur le service Windows Installer et l’API Windows Installer.
+les sections suivantes contiennent des informations de référence sur le service Windows Installer et l’API Windows Installer.
 
 -   [Interface d’automatisation](automation-interface.md)
 -   [Fonctions du programme d’installation](installer-functions.md)

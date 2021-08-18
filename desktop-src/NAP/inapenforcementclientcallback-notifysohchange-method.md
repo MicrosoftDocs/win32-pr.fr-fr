@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b405bca5ae27a68eea780dfcb922d1f986f475c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9011db09b698f886bd10ad19298a104668d038cc2bb11136b6e4ac58035e3425
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940133"
 ---
 # <a name="inapenforcementclientcallbacknotifysohchange-method"></a>INapEnforcementClientCallback :: NotifySoHChange, méthode
 
@@ -60,7 +60,7 @@ Cette méthode de rappel doit retourner l’un des codes d’erreur suivants.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’achèvement de la correction du système est un événement de modification de l’intégrité du système. Cela signifie que vous devez appeler **NotifySoHChange** quand une notification [**INapSystemHealthAgentCallback :: GetFixupInfo**](inapsystemhealthagentcallback-getfixupinfo-method.md) indique que le client est corrigé. Lorsqu’un client est résolu, le membre d' **État** de la structure [**FixupInfo**](/windows/win32/api/naptypes/ns-naptypes-fixupinfo) retournée par **GetFixupInfo** a la valeur **fixupStateSuccess**.
 
@@ -72,8 +72,8 @@ Après avoir été appelé par le NapAgent via ce rappel, l’agent d’applicat
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                |
 | En-tête<br/>                   | <dl> <dt>NapEnforcementClient. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapEnforcementClient. idl</dt> </dl> |
 

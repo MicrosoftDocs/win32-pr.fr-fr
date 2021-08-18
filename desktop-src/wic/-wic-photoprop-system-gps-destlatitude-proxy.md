@@ -4,12 +4,12 @@ ms.assetid: 640b9b30-d633-4a5b-a1c8-593d48461c7b
 title: Proxy System. GPS. DestLatitude
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10f8ced7e85a3c2d2af267e3dae99f6d0d6db027
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd57de1ff3b6be0d9a7844cb8a787aa3e50633f65e7401327849a60eb900d2bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087866"
 ---
 # <a name="systemgpsdestlatitude-proxy"></a>Proxy System. GPS. DestLatitude
 
@@ -19,7 +19,7 @@ Proxy de propriété pour la stratégie de métadonnées de photo System. GPS. D
 
 Le proxy de propriété retourne une paire rationnelle a par le biais du membre [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal.
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 

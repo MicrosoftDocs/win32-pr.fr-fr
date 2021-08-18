@@ -4,12 +4,12 @@ ms.assetid: 703A7BF0-A89F-40E9-9440-B8C8E03FDE1A
 title: Attribut MF_MSE_ACTIVELIST_CALLBACK (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d449e6c4237f51950e82d75165022313b09d04cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b321eb494454c303ba6a7c88781415b9b302972ef82f41116d5801b96d73017
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104605"
 ---
 # <a name="mf_mse_activelist_callback-attribute"></a>\_Attribut de rappel MF MSE \_ ACTIVELIST \_
 
@@ -26,7 +26,7 @@ Contient un pointeur vers l’interface de rappel de l’application pour l’in
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

@@ -1,6 +1,6 @@
 ---
 title: HttpPurchaseOrderServiceExample
-description: Consultez un exemple C++ de l’API des services Web Windows (WWSAPI) sur l’utilisation de l’hôte de service pour l’hébergement d’un service de bon de commande sur HTTP.
+description: passez en revue un Windows exemple C++ de l’API des Services Web (WWSAPI) sur l’utilisation de l’hôte de service pour l’hébergement d’un service de bon de commande sur HTTP.
 ms.assetid: 03da84b6-082f-41cd-810d-b593a55fa563
 keywords:
 - HttpPurchaseOrderServiceExample-services Web natifs
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb30e875129c1f1ddde09ccce4afd4cfe009e7d9
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 419764136fe48687db342dede2ae0ba35d0f70f660e9ecf92c5e9b3e0d2dde39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963208"
 ---
 # <a name="httppurchaseorderserviceexample"></a>HttpPurchaseOrderServiceExample
 

@@ -4,12 +4,12 @@ ms.assetid: 11a65123-a8bd-46d8-a416-4fc2f2f1e121
 title: Téléchargement et installation d’un correctif à partir d’Internet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31b5fe4ca51b08759bc178b89bfe71c89418e26d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f85f662279ac929d831bb69acc597358c8eddc509738fc71a43df44ec186120c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947353"
 ---
 # <a name="downloading-and-installing-a-patch-from-the-internet"></a>Téléchargement et installation d’un correctif à partir d’Internet
 
@@ -36,7 +36,7 @@ set Installer=Nothing
 
 Notez que, étant donné que l’objet [**installer**](installer-object.md) n’est pas marqué comme [SafeForScripting](safeforscripting.md) sur l’ordinateur de l’utilisateur, les utilisateurs doivent ajuster les paramètres de sécurité de leur navigateur pour que l’exemple fonctionne correctement.
 
-Pour plus d’informations, consultez [instructions pour la création d’installations sécurisées](guidelines-for-authoring-secure-installations.md) et de [Signatures numériques et Windows Installer](digital-signatures-and-windows-installer.md).
+pour plus d’informations, consultez [instructions pour la création d’Installations sécurisées](guidelines-for-authoring-secure-installations.md) et de [Signatures numériques et Windows Installer](digital-signatures-and-windows-installer.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

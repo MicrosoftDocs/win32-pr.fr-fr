@@ -1,23 +1,23 @@
 ---
-description: Cette rubrique fournit une vue d’ensemble de la façon dont vous pouvez utiliser les API WIC (Windows Imaging Component) pour lire et écrire des métadonnées incorporées dans des fichiers image.
+description: cette rubrique fournit une vue d’ensemble de la façon dont vous pouvez utiliser les api du composant de création d’images Windows (WIC) pour lire et écrire des métadonnées incorporées dans des fichiers image.
 ms.assetid: b1e0b936-a13a-42dd-8470-957ba1d90423
 title: Vue d’ensemble de la lecture et de l’écriture des métadonnées d’image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 484d562b71184c20adf054f1de2a4203878da9b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 191ffbe919e09acb153505fd3b43b50453b67708259206bffe66a0322d485a1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088137"
 ---
 # <a name="overview-of-reading-and-writing-image-metadata"></a>Vue d’ensemble de la lecture et de l’écriture des métadonnées d’image
 
-Cette rubrique fournit une vue d’ensemble de la façon dont vous pouvez utiliser les API WIC (Windows Imaging Component) pour lire et écrire des métadonnées incorporées dans des fichiers image.
+cette rubrique fournit une vue d’ensemble de la façon dont vous pouvez utiliser les api du composant de création d’images Windows (WIC) pour lire et écrire des métadonnées incorporées dans des fichiers image.
 
 Cette rubrique contient les sections suivantes.
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Introduction](#introduction)
 -   [Lecture de Metadadata à l’aide d’un lecteur de requêtes](#reading-metadadata-using-a-query-reader)
     -   [Obtention d’un lecteur de requêtes](#obtaining-a-query-reader)
@@ -49,7 +49,7 @@ La plus simple consiste à utiliser un lecteur/enregistreur de requêtes et une 
 
 La méthode la plus avancée consiste à accéder directement aux gestionnaires de métadonnées. Un gestionnaire de métadonnées est obtenu à partir des frames individuels à l’aide d’un lecteur de bloc ([**IWICMetadataBlockReader**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader)) ou d’un enregistreur de bloc ([**IWICMetadataBlockWriter**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter)). Les deux types de gestionnaires de métadonnées disponibles sont le lecteur de métadonnées ([**IWICMetadataReader**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader)) et le writer de métadonnées ([**IWICMetadataWriter**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter)).
 
-Le diagramme suivant du contenu d’un fichier image JPEG est utilisé dans les exemples de cette rubrique. L’image représentée par ce diagramme a été créée à l’aide de Microsoft Paint ; les métadonnées d’évaluation ont été ajoutées à l’aide de la fonctionnalité Galerie de photos de Windows Vista.
+Le diagramme suivant du contenu d’un fichier image JPEG est utilisé dans les exemples de cette rubrique. L’image représentée par ce diagramme a été créée à l’aide de Microsoft Paint ; les métadonnées d’évaluation ont été ajoutées à l’aide de la fonctionnalité galerie de photos de Windows Vista.
 
 ![illustration de l’image JPEG avec les métadonnées d’évaluation](graphics/jpeg.png)
 
@@ -593,7 +593,7 @@ Si la **validation** échoue pour une raison quelconque, vous devrez recoder l�
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Vue d’ensemble des métadonnées WIC](-wic-about-metadata.md)

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cffe000bc50b1185dc09da44d823edd999954194
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6146282421cb786ae7e460fa77069ba826f422f862fc44fb90be69c2b7403583
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978149"
 ---
 # <a name="vistacoltyp-class"></a>VistaColtyp, classe
 

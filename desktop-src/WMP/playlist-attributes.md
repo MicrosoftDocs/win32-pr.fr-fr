@@ -4,24 +4,24 @@ description: Attributs de sélection
 ms.assetid: 2f2224ad-a1de-4f88-9166-8c00137a3695
 keywords:
 - Lecteur Windows Media, sélections
-- Modèle objet du lecteur Windows Media, sélections
+- Lecteur Windows Media modèle objet, playlists
 - modèle objet, sélections
-- Windows Media Player Mobile, sélections
-- Contrôle ActiveX du lecteur Windows Media, sélections
-- Contrôle ActiveX mobile du lecteur Windows Media, sélections
-- Contrôle ActiveX, sélections
+- Lecteur Windows Media Mobile, sélections
+- contrôle de ActiveX Lecteur Windows Media, sélections
+- Lecteur Windows Media contrôle de ActiveX Mobile, sélections
+- contrôle de ActiveX, sélections
 - sélections, attributs
 - sélections de métafichiers, attributs
-- Sélections de métafichiers Windows Media, attributs
+- Windows Sélections de métafichiers multimédia, attributs
 - attributs, sélections
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 669d3203fdb703099a7089e2165f31fd5bb326bb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d00416f641fac89c707405c03dc70af0497b34d4cf646aa44fad5124f97f09a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995709"
 ---
 # <a name="playlist-attributes"></a>Attributs de sélection
 
@@ -29,7 +29,7 @@ Les sélections comportent des informations de métadonnées appelées attributs
 
 Les sélections sont définies dans des fichiers organisés dans un format XML, et des éléments particuliers du fichier définissent des attributs de sélection. Certains éléments d’attribut sont connus ; l’auteur du métafichier peut également définir des attributs arbitraires. Pour plus d’informations sur les éléments d’attribut dans les fichiers de sélection, consultez [récupération des métadonnées](retrieving-metadata.md).
 
-La bibliothèque peut fournir des attributs de sélection supplémentaires, tels que **SourceURL** ou **UserLastPlayedTime**. Pour plus d’informations sur les attributs de sélection de bibliothèque, consultez la [référence](attribute-reference.md)des attributs du lecteur Windows Media.
+La bibliothèque peut fournir des attributs de sélection supplémentaires, tels que **SourceURL** ou **UserLastPlayedTime**. pour plus d’informations sur les attributs de sélection de bibliothèque, consultez la [référence d’attribut](attribute-reference.md)Lecteur Windows Media.
 
 *Sélection*. la propriété **attributeCount** récupère le nombre d’attributs associés à la sélection. *Sélection*. la propriété **AttributeName** récupère le nom d’un attribut en fonction de son index et de la *sélection*. la méthode **getItemInfo** récupère la valeur d’un attribut en fonction de son nom.
 
@@ -127,9 +127,9 @@ private void lstPlaylist_SelectedIndexChanged(object sender, System.EventArgs e)
 [**Objet playlist**](playlist-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

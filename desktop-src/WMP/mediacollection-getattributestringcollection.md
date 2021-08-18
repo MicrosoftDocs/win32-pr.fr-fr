@@ -3,9 +3,9 @@ title: Méthode MediaCollection. getAttributeStringCollection
 description: La méthode getAttributeStringCollection récupère un objet StringCollection représentant l’ensemble de toutes les valeurs d’un attribut spécifié dans un type de média spécifié.
 ms.assetid: 75563a75-88f5-419e-983b-d105bce02511
 keywords:
-- méthode getAttributeStringCollection lecteur Windows Media
-- méthode getAttributeStringCollection lecteur Windows Media, classe MediaCollection
-- Classe MediaCollection lecteur Windows Media, méthode getAttributeStringCollection
+- Lecteur Windows Media de la méthode getAttributeStringCollection
+- méthode getAttributeStringCollection Lecteur Windows Media, classe MediaCollection
+- Lecteur Windows Media de la classe MediaCollection, méthode getAttributeStringCollection
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d50d25488a05e6076c99802ce738edf02298ade
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c27b7c6dbef585763ecfda1abdc7beadfa3d883476033424ff868a3d56c4bb96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996299"
 ---
 # <a name="mediacollectiongetattributestringcollection-method"></a>Méthode MediaCollection. getAttributeStringCollection
 
@@ -61,15 +61,15 @@ retVal = MediaCollection.getAttributeStringCollection(
 
 Cette méthode retourne un objet **StringCollection** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la section [référence des attributs](attribute-reference.md) .
+pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la section [référence des attributs](attribute-reference.md) .
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise *MediaCollection*. **getAttributeStringCollection** pour afficher une liste de valeurs qui correspondent à un attribut particulier pour les éléments audio de la collection de supports. Un élément SELECT HTML, créé avec ID = "attribute", permet à l’utilisateur de sélectionner un attribut, tel qu’un artiste, un genre ou un album. Un élément TEXTAREA HTML, créé avec ID = "AttributeVals", affiche le résultat. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise *MediaCollection*. **getAttributeStringCollection** pour afficher une liste de valeurs qui correspondent à un attribut particulier pour les éléments audio de la collection de supports. Un élément SELECT HTML, créé avec ID = "attribute", permet à l’utilisateur de sélectionner un attribut, tel qu’un artiste, un genre ou un album. Un élément TEXTAREA HTML, créé avec ID = "AttributeVals", affiche le résultat. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

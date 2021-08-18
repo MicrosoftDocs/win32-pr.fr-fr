@@ -1,19 +1,19 @@
 ---
-description: À propos du gestionnaire de graphique de filtre
+description: à propos du gestionnaire de Graph de filtre
 ms.assetid: a227539a-7f9a-4f8d-99fe-f9ab67df9ef4
-title: À propos du gestionnaire de graphique de filtre
+title: à propos du gestionnaire de Graph de filtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dedf716b84ee62818e323bfaa082b6252e5faad0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 38ce7c9c9af137853efba501cace7680b533c13994a559102fd08dc48efa2076
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074863"
 ---
-# <a name="about-the-filter-graph-manager"></a>À propos du gestionnaire de graphique de filtre
+# <a name="about-the-filter-graph-manager"></a>à propos du gestionnaire de Graph de filtre
 
-Le [Gestionnaire de graphes de filtres](filter-graph-manager.md) est un objet com qui contrôle les filtres dans un graphique de filtre. Il effectue de nombreuses fonctions, y compris les suivantes :
+le [gestionnaire de Graph de filtre](filter-graph-manager.md) est un objet COM qui contrôle les filtres dans un graphique de filtre. Il effectue de nombreuses fonctions, y compris les suivantes :
 
 -   Coordination des changements d’état parmi les filtres.
 -   Établissement d’une horloge de référence.
@@ -22,18 +22,18 @@ Le [Gestionnaire de graphes de filtres](filter-graph-manager.md) est un objet co
 
 Chacune de ces fonctions est décrite brièvement ici. Vous trouverez des détails ailleurs dans la documentation.
 
-**Modifications d’État**. Les changements d’État dans les filtres doivent se produire dans un ordre particulier. Par conséquent, l’application n’émet pas de commandes de modification d’État directement aux filtres. Au lieu de cela, il fournit une seule commande au gestionnaire de graphique de filtre, qui distribue la commande à chacun des filtres. La recherche fonctionne de la même manière : l’application fournit une commande Seek au gestionnaire de graphique de filtre, qui le distribue aux filtres.
+**Modifications d’État**. Les changements d’État dans les filtres doivent se produire dans un ordre particulier. Par conséquent, l’application n’émet pas de commandes de modification d’État directement aux filtres. au lieu de cela, il fournit une commande unique au gestionnaire de Graph de filtre, qui distribue la commande à chacun des filtres. la recherche fonctionne de la même manière : l’application fournit une commande seek au gestionnaire de Graph de filtre, qui le distribue aux filtres.
 
-**Horloge de référence**. Tous les filtres du graphique utilisent la même horloge, appelée *horloge de référence*. L’horloge de référence garantit que tous les flux sont synchronisés. L’heure à laquelle un échantillon vidéo ou audio doit être rendu est l’heure de la *Présentation*. L’heure de la présentation est mesurée par rapport à l’horloge de référence. Le gestionnaire de graphe de filtre choisit une horloge de référence, généralement l’horloge de la carte son ou l’horloge système.
+**Horloge de référence**. Tous les filtres du graphique utilisent la même horloge, appelée *horloge de référence*. L’horloge de référence garantit que tous les flux sont synchronisés. L’heure à laquelle un échantillon vidéo ou audio doit être rendu est l’heure de la *Présentation*. L’heure de la présentation est mesurée par rapport à l’horloge de référence. le gestionnaire de Graph de filtre choisit une horloge de référence, généralement l’horloge de la carte son ou l’horloge système.
 
-**Événements de graphique**. Le gestionnaire de graphique de filtre utilise une file d’attente d’événements pour informer l’application des événements qui se produisent dans le graphique de filtre. Ce mécanisme est similaire à une boucle de messages Windows.
+**événements de Graph**. le gestionnaire de Graph de filtre utilise une file d’attente d’événements pour informer l’application des événements qui se produisent dans le graphique de filtre. ce mécanisme est similaire à une boucle de messages Windows.
 
-**Méthodes de création de graphiques**. Le gestionnaire de graphes de filtre fournit des méthodes pour que l’application ajoute des filtres au graphique, connecte des filtres à d’autres filtres et déconnecte des filtres.
+**méthodes de création de Graph**. le gestionnaire de Graph de filtre fournit des méthodes pour que l’application ajoute des filtres au graphique, connecte des filtres à d’autres filtres et déconnecte les filtres.
 
-Une fonction que le gestionnaire de graphes de filtre ne gère pas consiste à déplacer les données d’un filtre à l’autre. Cela est effectué par les filtres eux-mêmes, par le biais de leurs connexions de code confidentiel. Le traitement se produit toujours sur un thread séparé.
+une fonction que le gestionnaire de Graph de filtre ne gère pas consiste à déplacer les données d’un filtre à l’autre. Cela est effectué par les filtres eux-mêmes, par le biais de leurs connexions de code confidentiel. Le traitement se produit toujours sur un thread séparé.
 
 > [!Note]  
-> Les filtres sont toujours libres de thread, résident dans le même processus que le gestionnaire de graphes de filtre et sont chargés à partir de serveurs in-process. Par conséquent, les appels de méthode ne sont pas marshalés entre les filtres, ni entre les filtres et le gestionnaire de graphique de filtre.
+> les filtres sont toujours à thread libre, résident dans le même processus que le gestionnaire de Graph de filtre et sont chargés à partir des serveurs in-process. par conséquent, les appels de méthode ne sont pas marshalés entre les filtres, ni entre les filtres et le gestionnaire de Graph de filtre.
 
  
 
@@ -41,13 +41,13 @@ Une fonction que le gestionnaire de graphes de filtre ne gère pas consiste à d
 
 <dl> <dt>
 
-[Data Flow dans le graphique de filtre](data-flow-in-the-filter-graph.md)
+[données Flow dans le filtre Graph](data-flow-in-the-filter-graph.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> <dt>
 
-[Définition de l’horloge du graphique](setting-the-graph-clock.md)
+[définition de l’horloge de Graph](setting-the-graph-clock.md)
 </dt> <dt>
 
 [Temps et horloges dans DirectShow](time-and-clocks-in-directshow.md)

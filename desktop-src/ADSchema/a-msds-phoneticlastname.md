@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e99efd849cb61dd31c3f0ea09f052133950188eb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: aa71a7cdfe4ca08f5a43f40f45ca2d29fddcea527610d3903aa096af053a1982
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960638"
 ---
 # <a name="ms-ds-phonetic-last-name-attribute"></a>attribut ms-DS-Phonetic-Last-Name
 
@@ -42,7 +42,7 @@ Contient le nom phonétique de la personne.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, meilleures pratiques, RPC et le réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87c0373bb81d9da0bf20eed1fb9f80863604b040
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 212e1f3b6f281709a3344367a59d858b7f96b77a6adbdc44fc8556769f2edcaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926651"
 ---
 # <a name="rpc-and-the-network"></a>RPC et le réseau
 
@@ -26,6 +26,6 @@ Cette section est composée des rubriques suivantes :
 -   [Gestion de la perte de connectivité](dealing-with-loss-of-connectivity.md)
 -   [Nettoyage côté serveur](server-side-cleanup.md)
 
- 
+ 
 
- 
+ 

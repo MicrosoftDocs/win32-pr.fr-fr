@@ -4,12 +4,12 @@ ms.assetid: 1869d845-6264-425a-ab3e-e0a9f942961a
 title: Stratégie de métadonnées de photo System. photo. TranscodedForSync
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5884ad469fcf7b5dffc8c4ad14f0ee5ff90cd07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34e78086284e1ca13b01c5e7cd188b761afe7eeba8acb5f2bca103234f80955b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964758"
 ---
 # <a name="systemphototranscodedforsync-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. TranscodedForSync
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Tran
 
 \_Photo \_ TranscodedForSync
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                  | Format de disque  |
+| Commande | Chemin                                  | Format de disque  |
 |-------|---------------------------------------|--------------|
 | 1     | /App1/IFD/{UShort = 18248}              | bool \_ UShort |
 | 2     | /xmp/MicrosoftPhoto:TranscodedForSync |              |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                  | Format de disque  |
+| Commande | Chemin                                  | Format de disque  |
 |-------|---------------------------------------|--------------|
 | 1     | /App1/IFD/{UShort = 18248}              | bool \_ UShort |
 | 2     | /xmp/MicrosoftPhoto:TranscodedForSync |              |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                  |
+| Commande | Chemin                                  |
 |-------|---------------------------------------|
 | 1     | /App1/IFD/{UShort = 18248}              |
 | 2     | /xmp/microsoftphoto:transcodedforsync |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                      | Format de disque  |
+| Commande | Chemin                                      | Format de disque  |
 |-------|-------------------------------------------|--------------|
 | 1     | /IFD/{UShort = 18248}                       | bool \_ UShort |
 | 2     | /ifd/xmp/MicrosoftPhoto:TranscodedForSync |              |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                      | Format de disque  |
+| Commande | Chemin                                      | Format de disque  |
 |-------|-------------------------------------------|--------------|
 | 1     | /IFD/{UShort = 18248}                       | bool \_ UShort |
 | 2     | /ifd/xmp/MicrosoftPhoto:TranscodedForSync |              |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                      |
+| Commande | Chemin                                      |
 |-------|-------------------------------------------|
 | 1     | /IFD/{UShort = 18248}                       |
 | 2     | /ifd/xmp/microsoftphoto:transcodedforsync |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

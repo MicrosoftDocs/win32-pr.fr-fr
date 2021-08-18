@@ -3,7 +3,7 @@ title: NEXTELEMENT
 description: Il s’agit d’un BUTTONELEMENT prédéfini avec les valeurs par défaut suivantes. | NEXTELEMENT
 ms.assetid: 8dcf9031-febc-459f-b781-8ee2f93580c8
 keywords:
-- Lecteur Windows Media NEXTELEMENT
+- NEXTELEMENT Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f8583e868fa1e4ddbf3d5b347b0a45926b4eb60e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3dc89b62e21702bda6348b050eb40b79c3c70117b1a56e71a7de03d1cd844c33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996069"
 ---
 # <a name="nextelement"></a>NEXTELEMENT
 
@@ -31,7 +31,7 @@ cursor="system"
 enabled="wmpenabled:player.controls.next"
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Toutes les propriétés de ce **BUTTONELEMENT** peuvent être remplacées en les spécifiant explicitement.
 

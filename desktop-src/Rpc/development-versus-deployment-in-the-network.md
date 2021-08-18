@@ -4,12 +4,12 @@ description: La plupart des développeurs écrivent et testent leurs logiciels s
 ms.assetid: 9458162c-1046-4554-bafa-b455f2957d58
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a83210db66133329d6c6b38b67ec7ecb29c0595
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 70ff9da31ecd80b9e0a699d9ec0eb450e885a423b9380b85e2015e9ef7c1af7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930619"
 ---
 # <a name="development-vs-deployment-in-the-network"></a>Développement et déploiement sur le réseau
 
@@ -17,9 +17,9 @@ La plupart des développeurs écrivent et testent leurs logiciels sur un réseau
 
 Cet article explique comment créer des architectures client/serveur robustes face à l’incertitude introduite par un réseau intrinsèquement fiable et des serveurs potentiellement indisponibles.
 
- 
+ 
 
- 
+ 
 
 
 

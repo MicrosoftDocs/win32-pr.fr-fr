@@ -4,12 +4,12 @@ ms.assetid: a0ede1d9-2e13-4d5e-8ccd-9e0c0217cac7
 title: Message de sondage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 913c163be8d82297a642b1a97a7d28e0c403ca08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abaf4b397abec699dd0a116fe5cddd97578543f917a7994287f5000e17079def
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130631"
 ---
 # <a name="probe-message"></a>Message de sondage
 
@@ -104,7 +104,7 @@ Un message de sondage a les points de focalisation suivants.
 
 <dl> <dt>
 
-[Détection et messages d’échange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
+[détection et Messages de Exchange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Message messages ProbeMatches](probematches-message.md)

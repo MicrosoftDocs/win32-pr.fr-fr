@@ -4,12 +4,12 @@ ms.assetid: 61db2804-1b67-473f-8dd7-6be6c6a7184e
 title: À propos de la bibliothèque de Registre hors connexion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7e08b401a4a77f55a54c48ad147bf38c8796472
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e5c2aecf71e8e42ad96c018bb613d7aac9a4a867bb301671e9553f1768a4ce44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104482856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956178"
 ---
 # <a name="about-the-offline-registry-library"></a>À propos de la bibliothèque de Registre hors connexion
 
@@ -17,7 +17,7 @@ La bibliothèque de Registre hors connexion est utilisée pour modifier une ruch
 
 La bibliothèque de Registre hors connexion est conçue pour les scénarios de mise à jour du Registre, tels que la maintenance d’une image de système d’exploitation. Les fonctions de Registre hors connexion offrent les fonctionnalités suivantes qui ne sont pas disponibles avec les fonctions de Registre standard :
 
--   Les fonctions de Registre hors connexion peuvent être utilisées pour modifier une ruche de Registre dans n’importe quel format de Registre pris en charge. Les fonctions de Registre standard peuvent apporter des modifications uniquement à une ruche de Registre active et les modifications doivent être compatibles avec la version de Windows exécutée sur le système.
+-   Les fonctions de Registre hors connexion peuvent être utilisées pour modifier une ruche de Registre dans n’importe quel format de Registre pris en charge. les fonctions de registre standard peuvent apporter des modifications uniquement à une ruche de registre active et les modifications doivent être compatibles avec la version de Windows s’exécutant sur le système.
 -   La bibliothèque de Registre hors connexion requiert uniquement un accès en lecture pour ouvrir un fichier ruche du Registre et un accès en écriture pour enregistrer le fichier. Aucune autre vérification d’accès n’est effectuée sur les objets dans Hive, ce qui permet de modifier la ruche avec des privilèges d’utilisateur standard. Avec les fonctions de Registre standard, le chargement d’une ruche dans le Registre actif est une opération privilégiée qui nécessite un accès administratif.
 
 Les fonctions de Registre hors connexion ne doivent pas être utilisées comme substituts pour les fonctions de Registre système pour les raisons suivantes :

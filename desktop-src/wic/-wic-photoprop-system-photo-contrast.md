@@ -4,12 +4,12 @@ ms.assetid: c5e2589d-507c-4b92-9ada-7d64e7c45dd8
 title: Stratégie de métadonnées de photo System. photo. Contrast
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1d6ed34854b525e9eaac2ff5ac7339a75ad10e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4a9309ecab96a2244e08ebf05ff8896c792f7366c9db21d41072d2d94aacf47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087095"
 ---
 # <a name="systemphotocontrast-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. Contrast
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Cont
 
 \_Contraste de photo de la \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41992} | ushort      |
 | 2     | /XMP/EXIF : contraste            | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41992} | ushort      |
 | 2     | /XMP/EXIF : contraste            | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41992} |
 | 2     | /XMP/EXIF : contraste            |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                     | Format de disque |
+| Commande | Chemin                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 41992} | ushort      |
 | 2     | /IFD/XMP/EXIF : contraste   | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                     | Format de disque |
+| Commande | Chemin                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 41992} | ushort      |
 | 2     | /IFD/XMP/EXIF : contraste   | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                     |
+| Commande | Chemin                     |
 |-------|--------------------------|
 | 1     | /IFD/EXIF/{UShort = 41992} |
 | 2     | /IFD/XMP/EXIF : contraste   |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

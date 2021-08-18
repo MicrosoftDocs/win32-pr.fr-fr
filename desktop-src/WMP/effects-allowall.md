@@ -3,7 +3,7 @@ title: EFFECTs. AutoriserTout
 description: L’attribut AutoriserTout spécifie ou récupère une valeur indiquant s’il faut inclure toutes les visualisations qui se trouvent dans le registre.
 ms.assetid: 8552cc06-05b2-4049-ba7d-f6bd770449e0
 keywords:
-- EFFECTs. AutoriserTout Windows Media Player
+- effects. autorisertout Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56760021fe34522072677e9524fe6636e519e20f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c7a87aa8336e3961b31716c8d6bbfaa6aee71374a0f3c6e17b644a47136df550
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996842"
 ---
 # <a name="effectsallowall"></a>EFFECTs. AutoriserTout
 
@@ -42,7 +42,7 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cet attribut est défini sur false, seules les visualisations apparaissant dans les balises d' **effets** peuvent être recycles à l’aide du précédent/suivant. Si la valeur est true, toutes les visualisations inscrites sur le système de l’utilisateur peuvent être recyclees. Si la valeur est true et que vous spécifiez des visualisations dans les balises d' **effets** , les attributs spécifiés dans ces balises sont appliqués à toutes les visualisations sur le système de l’utilisateur.
 

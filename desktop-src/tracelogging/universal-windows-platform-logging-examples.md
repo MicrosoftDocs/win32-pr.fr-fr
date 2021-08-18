@@ -1,27 +1,27 @@
 ---
-title: Exemple de journalisation plateforme Windows universelle
-description: Cet exemple montre comment utiliser les API de journalisation dans l’espace de noms Windows. Foundation. Diagnostics, notamment LoggingChannel, LoggingActivity, LoggingSession et FileLoggingSession.
+title: exemple de journalisation plateforme Windows universelle
+description: Cet exemple montre comment utiliser les API de journalisation dans le Windows. L’espace de noms Foundation. Diagnostics, notamment LoggingChannel, LoggingActivity, LoggingSession et FileLoggingSession.
 ms.assetid: 23B4752F-43B5-41DE-B01D-9625CFEE2E1D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d3815478a15fcc7fd4e80596b90c51689cfd39c
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 65004734db73b10f4b8b209c1f2125382ddfbe5564125b00ee2110ad76d4356d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "106510057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966103"
 ---
-# <a name="universal-windows-platform-logging-example"></a>Exemple de journalisation plateforme Windows universelle
+# <a name="universal-windows-platform-logging-example"></a>exemple de journalisation plateforme Windows universelle
 
-Cet exemple montre comment utiliser les API de journalisation dans l’espace de noms Windows. Foundation. Diagnostics, notamment LoggingChannel, LoggingActivity, LoggingSession et FileLoggingSession. Ces classes sont conçues pour la journalisation des diagnostics dans une application Windows. Ces API ont été ajoutées dans Windows 8.1.
+Cet exemple montre comment utiliser les API de journalisation dans le Windows. L’espace de noms Foundation. Diagnostics, notamment LoggingChannel, LoggingActivity, LoggingSession et FileLoggingSession. ces classes sont conçues pour la journalisation des diagnostics au sein d’une application Windows. Ces API ont été ajoutées dans Windows 8.1.
 
-Les API LoggingChannel et LoggingActivity ont été étendues dans Windows 10 pour prendre en charge l’écriture d’événements complexes à l’aide de l’encodage d’événements TraceLogging.
+les api LoggingChannel et LoggingActivity ont été étendues dans Windows 10 pour prendre en charge l’écriture d’événements complexes à l’aide de l’encodage d’événements TraceLogging.
 
-L’exemple de journalisation plateforme Windows universelle peut être téléchargé à partir de [GitHub](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Logging).
+l’exemple de journalisation plateforme Windows universelle peut être téléchargé à partir de [GitHub](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Logging).
 
- 
+ 
 
- 
+ 
 
 
 

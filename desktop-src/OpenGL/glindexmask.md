@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d426cb1f4bb2e794bef53853d0336db1d64b263
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f8e022bb3cbb5be5ac15049b5e8bc128d2ac7e100d5bcec6a87988dd2d14c5d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012197"
 ---
 # <a name="glindexmask-function"></a>glIndexMask fonction)
 
@@ -63,7 +63,7 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glIndexMask** contrôle l’écriture de bits individuels dans les mémoires tampons d’index de couleurs. Les *n* bits les moins significatifs du *masque*, où *1* est le nombre de bits dans une mémoire tampon d’index de couleurs, spécifiez un masque. Chaque fois qu’un point apparaît dans le masque, le bit correspondant dans la mémoire tampon d’index de couleurs (ou mémoires tampons) est rendu accessible en écriture. Lorsqu’un zéro s’affiche, le bit est protégé en écriture.
 

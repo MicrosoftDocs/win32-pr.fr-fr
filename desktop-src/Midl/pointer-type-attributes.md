@@ -6,12 +6,12 @@ keywords:
 - IDL MIDL, attributs, pointer-type
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71371fff80d541242fcdc41d6c8adcc93dcdb754
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6cb8355a71428c957804596531ea428fb99a779478b677eaa2094cc4db323c45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013727"
 ---
 # <a name="pointer-type-attributes"></a>Attributs de type pointeur
 
@@ -19,7 +19,7 @@ Les attributs suivants spécifient les caractéristiques des pointeurs.
 
 
 
-| Attribut                                   | Utilisation                                                                                                                                                                                                |
+| Attribut                                   | Usage                                                                                                                                                                                                |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ptr**](ptr.md)                          | Désigne un pointeur comme pointeur complet, avec toutes les fonctionnalités d’un pointeur en langage C, y compris les alias.                                                                                       |
 | [**ref**](ref.md)                          | Désigne le type de pointeur le plus simple dans MIDL, un qui fournit simplement l’adresse de certaines données. Les pointeurs de référence ne peuvent jamais avoir la valeur null.                                                             |
@@ -30,11 +30,11 @@ Les attributs suivants spécifient les caractéristiques des pointeurs.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

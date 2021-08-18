@@ -4,12 +4,12 @@ description: Endpoint Security est un modèle de sécurité dans lequel un descr
 ms.assetid: 5b8841c4-5b65-417f-b790-e8c2dabb44a1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 289513810ba7e67e0da625151c3c2975e0eaaf99
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 241d302ec0d331eaadb3291e36b30084264b4a6331745110fc642dd2ede02c20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930696"
 ---
 # <a name="do-not-use-endpoint-security"></a>Ne pas utiliser la sécurité du point de terminaison
 
@@ -17,9 +17,9 @@ Endpoint Security est un modèle de sécurité dans lequel un descripteur de sé
 
 La sécurité des points de terminaison existe uniquement pour la compatibilité descendante.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - RPC appel de procédure distante, meilleures pratiques, informations d’erreur étendues
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7856dd76a86763fc3f537577f9c547508fbf34ee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 70816130a85d384e814d0653ce0502a8b3ed4e8b758768002f1ebdd98710c09a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927612"
 ---
 # <a name="obtaining-extended-rpc-error-information"></a>Obtention d’informations sur les erreurs RPC étendues
 
@@ -31,9 +31,9 @@ Cette section se compose des rubriques suivantes :
 
 Cette section est étroitement liée au débogage des applications RPC. Pour plus d’informations sur le débogage RPC, consultez \[ package du débogueur \] .
 
- 
+ 
 
- 
+ 
 
 
 

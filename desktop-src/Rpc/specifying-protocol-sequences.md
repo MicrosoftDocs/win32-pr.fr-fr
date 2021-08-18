@@ -4,12 +4,12 @@ description: Les applications serveur doivent sélectionner une ou plusieurs sé
 ms.assetid: bde26a86-dc4f-4d18-ba51-c6536c62bb75
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a700299e3d2bd98fa5fb0aaebea25e907d85afb0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 61f43b8dc7b21fc2a6bebe98010b80dbf369ac96bb185cc75afa3b0a4f1acbba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925149"
 ---
 # <a name="specifying-protocol-sequences"></a>Spécification de séquences de protocole
 
@@ -34,6 +34,6 @@ En plus des protocoles orientés connexion, Microsoft RPC prend également en ch
 -   Le datagramme RPC prend en charge l’attribut IDL de [diffusion](/windows/desktop/Midl/broadcast) . La diffusion permet à un client d’envoyer des messages à plusieurs serveurs en même temps. Cela permet au client de localiser l’un des serveurs disponibles sur le réseau ou de contrôler plusieurs serveurs simultanément. Notez que la diffusion du datagramme est valide uniquement dans le lien local, et ne franchit généralement pas de routeurs. Les appels de diffusion sont implicitement idempotent. Si l’appel contient \[ **des** \] paramètres out, seule la première réponse du serveur est retournée. Une fois qu’un serveur répond, tous les RPC ultérieurs sur ce handle de liaison sont envoyés à ce serveur uniquement, y compris les appels avec l’attribut Broadcast. Pour envoyer une autre diffusion, créez un nouveau handle de liaison ou appelez [**RpcBindingReset**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingreset) sur le handle existant.
 -   Le datagramme RPC prend en charge l’attribut IDL [peut-être](/windows/desktop/Midl/maybe) . Cela permet au client d’envoyer un appel au serveur sans attendre une réponse ou une confirmation. L’appel ne peut pas contenir de paramètres de \[ **sortie** \] . Les appels à l’aide des appels peuvent être implicitement idempotent. **\[ \]**
 
- 
+ 
 
- 
+ 

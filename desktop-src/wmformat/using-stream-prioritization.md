@@ -8,12 +8,12 @@ keywords:
 - flux, hiérarchisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99a6b0bd3d49db9523ef9ea5585803b4c703c279
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 3db00466eb27685a33851f7bffa5133e1d94a203985b1a0a56b110a09ad88ab6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103940663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963948"
 ---
 # <a name="using-stream-prioritization"></a>Utilisation de la hiérarchisation des flux
 
@@ -131,9 +131,9 @@ pProfileMgr = NULL;
 [**Utilisation des profils**](working-with-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

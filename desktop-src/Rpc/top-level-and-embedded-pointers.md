@@ -4,12 +4,12 @@ description: Pour comprendre comment les pointeurs et leurs éléments de donné
 ms.assetid: 217b9200-827c-4d36-9412-5e65858b8a97
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee84fcecdb70c67d7c99b4bbd3753c244a87cd07
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f28fab18cfb345587f4c152f6890d94c5177e5bd9344e542592c33e462915beb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011267"
 ---
 # <a name="top-level-and-embedded-pointers"></a>Pointeurs Top-Level et incorporés
 
@@ -24,15 +24,15 @@ Si le pointeur incorporé n’est pas null sur le client avant l’appel, les st
 > [!Note]  
 > Pour les données lues ou écrites dans une mémoire tampon, et qui ne spécifie pas la taille de la mémoire tampon, la longueur de sortie doit être inférieure ou égale à la longueur d’entrée. Une exception RPC est levée quand un dépassement de capacité est détecté. Pour les données de type chaîne, la longueur de sortie est déterminée en vérifiant la longueur de la chaîne d’entrée. Par conséquent, les chaînes de sortie ne peuvent pas dépasser la longueur des chaînes d’entrée. La meilleure pratique consiste à éviter cela en incluant toujours un paramètre de taille spécifié pour indiquer la taille de la mémoire tampon.
 
- 
+ 
 
 Les pointeurs incorporés en écriture seule sont décrits dans la [combinaison d’attributs pointeur et directionnel](combining-pointer-and-directional-attributes.md).
 
 Le terme *pointeurs de niveau nontop* fait référence à tous les pointeurs qui ne sont pas spécifiés en tant que noms de paramètres dans le prototype de fonction, y compris les pointeurs incorporés et les différents niveaux de pointeurs imbriqués.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: La procédure suivante décrit l’utilisation du gestionnaire de r
 ms.assetid: aa55ab09-206b-49ed-8cb4-e311c1ed2d9d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bb44105d9f3d391bb2ed793aca8a6da2c330b30
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8aefb1f9658752677e7850e939fcb6a3c4c6047c5efc2dc0ceb06ec0f51900ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009987"
 ---
 # <a name="using-restart-manager-with-a-secondary-installer"></a>Utilisation du gestionnaire de redémarrage avec un programme d’installation secondaire
 
@@ -31,7 +31,7 @@ Lorsque vous utilisez des programmes d’installation principaux et secondaires,
 
 6.  Le programme d’installation principal et secondaire appelle la fonction [**RmEndSession**](/windows/desktop/api/RestartManager/nf-restartmanager-rmendsession) pour fermer la session du gestionnaire de redémarrage.
 
-L’extrait de code suivant montre un exemple d’un programme d’installation principal qui démarre et utilise une session du gestionnaire de redémarrage. L’exemple requiert Windows 7 ou Windows Server 2008 R2. Sur Windows Vista ou Windows Server 2008, l’application calculatrice s’arrête, mais ne redémarre pas. Cet exemple montre comment un programme d’installation principal peut utiliser le gestionnaire de redémarrage pour arrêter et redémarrer un processus. L’exemple suppose que la calculatrice est déjà en cours d’exécution avant le démarrage de la session du gestionnaire de redémarrage.
+L’extrait de code suivant montre un exemple d’un programme d’installation principal qui démarre et utilise une session du gestionnaire de redémarrage. l’exemple requiert Windows 7 ou Windows Server 2008 R2. sur Windows Vista ou Windows Server 2008, l’application calculatrice s’arrête, mais ne redémarre pas. Cet exemple montre comment un programme d’installation principal peut utiliser le gestionnaire de redémarrage pour arrêter et redémarrer un processus. L’exemple suppose que la calculatrice est déjà en cours d’exécution avant le démarrage de la session du gestionnaire de redémarrage.
 
 
 ```C++
@@ -238,7 +238,7 @@ int _cdecl wmain()
 
 
 
-L’extrait de code suivant montre un exemple de jointure d’un programme d’installation secondaire à la session du gestionnaire de redémarrage existante. L’exemple requiert Windows Vista ou Windows Server 2008. Le programme d’installation secondaire obtient la clé de session à partir du programme d’installation principal et l’utilise pour rejoindre la session.
+L’extrait de code suivant montre un exemple de jointure d’un programme d’installation secondaire à la session du gestionnaire de redémarrage existante. l’exemple requiert Windows Vista ou Windows Server 2008. Le programme d’installation secondaire obtient la clé de session à partir du programme d’installation principal et l’utilise pour rejoindre la session.
 
 
 ```C++
@@ -321,9 +321,9 @@ int _cdecl wmain()
 
 
 
- 
+ 
 
- 
+ 
 
 
 

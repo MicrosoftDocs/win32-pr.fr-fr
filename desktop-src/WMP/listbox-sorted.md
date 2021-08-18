@@ -3,7 +3,7 @@ title: LISTBOX. trié
 description: L’attribut trié spécifie ou récupère une valeur indiquant si le contrôle de zone de liste est trié par ordre alphabétique. Ne peut être défini qu’au moment de la conception.
 ms.assetid: f07bf9bf-fe01-4d7c-a630-075ea809fd32
 keywords:
-- LISTBOX. tri du lecteur Windows Media
+- LISTBOX. trier Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc0f6ca663d3bd5b934208061b0d7cd7b19a267d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa099c6164478a30ae87fc5415327a2c8643935ef70cd8a1d236b9a2217082b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996429"
 ---
 # <a name="listboxsorted"></a>LISTBOX. trié
 

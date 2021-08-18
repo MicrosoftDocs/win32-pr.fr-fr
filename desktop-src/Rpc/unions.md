@@ -4,12 +4,12 @@ description: Les unions requièrent des mots clés MIDL spéciaux pour prendre e
 ms.assetid: e7c8296c-893d-4df7-913a-f969733e1917
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c562815d78ab931bd4d6590b5465647e72f4bf6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5fde18cca09f4db81af8eada2ae102a1bea373ed7859b3a7fc2bb9637f28d584
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011007"
 ---
 # <a name="union-keyword-rpc"></a>mot clé Union (RPC)
 
@@ -61,6 +61,6 @@ short UnionStructProc(
 
 Le compilateur Microsoft RPC MIDL autorise les déclarations d’Union en dehors des constructions [**typedef**](/windows/desktop/Midl/typedef) . Cette fonctionnalité est une extension de l’IDL DCE. Pour plus d’informations, consultez [**Union**](/windows/desktop/Midl/union).
 
- 
+ 
 
- 
+ 

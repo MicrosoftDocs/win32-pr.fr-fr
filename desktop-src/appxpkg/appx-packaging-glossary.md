@@ -1,16 +1,16 @@
 ---
 title: Glossaire de l’empaquetage, du déploiement et de la requête
-description: Fournit des définitions pour les termes liés à l’empaquetage, au déploiement et à la requête pour les applications Windows.
+description: fournit des définitions pour les termes liés à l’empaquetage, au déploiement et à la requête pour les applications Windows.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 15E35DCF-C6C1-446A-B09B-6428F9C8A677
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83a2112b593e2d2a5aaf4f06525160e2d799bad1
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 678a273b82806a724e50c7f29c512d19e1723283582abb3aa8b97f49f6293182
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104381774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130271"
 ---
 # <a name="packaging-deployment-and-query-glossary"></a>Glossaire de l’empaquetage, du déploiement et de la requête
 
@@ -47,7 +47,7 @@ Package qui prend une dépendance sur un autre package. La dépendance est décl
 <span id="appxpkg_packaging_glossary_footpint_files"></span><span id="APPXPKG_PACKAGING_GLOSSARY_FOOTPINT_FILES"></span>**fichiers d’encombrement**
 </dt> <dd>
 
-Fichiers dans un package d’application qui ne font pas partie de l’application à déployer. Ces fichiers fournissent des métadonnées relatives au package. Les fichiers d’encombrement standard incluent le manifeste, le mappage de bloc, le mappage de flux et la signature numérique. Les fichiers d’encombrement sont créés dans le cadre du processus de génération du package. En outre, conformément à la spécification OPC, \[ Content \_ types \] . xml et les fichiers dont les noms correspondent au \* \\ \_ modèle « rels \\ \* . rels » sont des fichiers d’encombrement.
+Fichiers dans un package d’application qui ne font pas partie de l’application à déployer. Ces fichiers fournissent des métadonnées relatives au package. Les fichiers d’encombrement standard incluent le manifeste, le mappage de bloc, le mappage de flux et la signature numérique. Les fichiers d’encombrement sont créés dans le cadre du processus de génération du package. En outre, conformément à la spécification OPC, les \[ \_ types \] de contenu.xml et les fichiers dont les noms correspondent au \* \\ \_ modèle « rels \\ \* . rels » sont des fichiers d’encombrement.
 
 </dd> <dt>
 
@@ -121,6 +121,6 @@ Séquences d’octets dans un fichier ZIP qui stockent les métadonnées relativ
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

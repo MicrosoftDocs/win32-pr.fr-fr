@@ -1,19 +1,19 @@
 ---
-description: La table MsiPatchMetadata contient des informations sur un correctif Windows Installer requis pour supprimer le correctif et utilisé par ajout/suppression de programmes.
+description: la Table MsiPatchMetadata contient des informations sur un correctif Windows Installer requis pour supprimer le correctif et utilisé par ajout/suppression de programmes.
 ms.assetid: b1c30e16-6c91-451a-8b75-7ddbcefcc092
 title: Table MsiPatchMetadata
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2642661a8f9dc067086926f8e993fc32c95a4a85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7094e644ff02caa1cbf4b3e53e5761740ff9a5492c92ca746404b1d243e09285
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012897"
 ---
 # <a name="msipatchmetadata-table"></a>Table MsiPatchMetadata
 
-La table MsiPatchMetadata contient des informations sur un correctif Windows Installer requis pour supprimer le correctif et utilisé par **Ajout/suppression de programmes**.
+la Table MsiPatchMetadata contient des informations sur un correctif Windows Installer requis pour supprimer le correctif et utilisé par **ajout/suppression de programmes**.
 
 Les correctifs installés sans ce tableau dans la base de données des correctifs (fichier. msp) ne peuvent pas être supprimés et des informations sont manquantes dans **Ajout/suppression de programmes**. La table doit se trouver dans la base de données du fichier correctif et non dans une transformation dans le correctif.
 
@@ -38,7 +38,7 @@ La table MsiPatchMetadata contient les colonnes suivantes.
 <span id="Company"></span><span id="company"></span><span id="COMPANY"></span>Entreprise
 </dt> <dd>
 
-Nom de la société. Un champ vide (valeur null) indique que la ligne contient une des propriétés de métadonnées standard de l’Windows Installer. Pour plus d’informations, consultez la section Notes de cette rubrique.
+Nom de la société. un champ vide (valeur Null) indique que la ligne contient une des propriétés de métadonnées standard de l’Windows Installer. Pour plus d’informations, consultez la section Notes de cette rubrique.
 
 En ajoutant une ligne à la table et en entrant un nom de société dans ce champ, vous pouvez ajouter n’importe quelle société pour étendre le jeu de propriétés.
 
@@ -58,11 +58,11 @@ Valeur de la propriété de métadonnées. La valeur ne peut jamais être null o
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Disponible dans Windows Installer 3,0 et versions ultérieures.
+disponible dans Windows Installer 3,0 et versions ultérieures.
 
-Les lignes de la table MsiPatchMetadata qui contiennent une valeur null dans le champ CompanyName font référence à l’une des propriétés de métadonnées de Windows Installer standard suivantes.
+les lignes de la Table MsiPatchMetadata qui contiennent une valeur Null dans le champ CompanyName font référence à l’une des propriétés de métadonnées de Windows Installer standard suivantes.
 
 
 
@@ -88,7 +88,7 @@ Les lignes de la table MsiPatchMetadata qui contiennent une valeur null dans le 
 </tr>
 <tr class="odd">
 <td>MinorUpdateTargetRTM</td>
-<td>Indique que le correctif cible la version RTM du produit ou le correctif de mise à niveau majeur le plus récent. Créez cette propriété facultative dans les correctifs de mise à niveau mineurs qui contiennent des informations de séquencement pour indiquer que le correctif supprime tous les correctifs jusqu’à la version RTM du produit, ou jusqu’au correctif de mise à niveau majeur le plus récent. Cette propriété est disponible dans Windows Installer 3,1 et versions ultérieures. <br/></td>
+<td>Indique que le correctif cible la version RTM du produit ou le correctif de mise à niveau majeur le plus récent. Créez cette propriété facultative dans les correctifs de mise à niveau mineurs qui contiennent des informations de séquencement pour indiquer que le correctif supprime tous les correctifs jusqu’à la version RTM du produit, ou jusqu’au correctif de mise à niveau majeur le plus récent. cette propriété est disponible dans Windows Installer 3,1 et versions ultérieures. <br/></td>
 </tr>
 <tr class="even">
 <td>TargetProductName</td>
@@ -96,7 +96,7 @@ Les lignes de la table MsiPatchMetadata qui contiennent une valeur null dans le 
 </tr>
 <tr class="odd">
 <td>MoreInfoURL</td>
-<td>URL qui fournit des informations spécifiques à ce correctif. Cette propriété est enregistrée et sa valeur peut être obtenue à l’aide de la fonction <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> . À partir de Windows XP avec Service Pack 2 (SP2), cette valeur peut être le lien de support pour le correctif affiché dans <strong>Ajout/suppression de programmes</strong>.<br/></td>
+<td>URL qui fournit des informations spécifiques à ce correctif. Cette propriété est enregistrée et sa valeur peut être obtenue à l’aide de la fonction <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> . à partir de Windows XP avec Service Pack 2 (SP2), cette valeur peut être le lien de support pour le correctif affiché dans <strong>ajout/suppression de programmes</strong>.<br/></td>
 </tr>
 <tr class="even">
 <td>CreationTimeUTC</td>
@@ -104,19 +104,19 @@ Les lignes de la table MsiPatchMetadata qui contiennent une valeur null dans le 
 </tr>
 <tr class="odd">
 <td>DisplayName</td>
-<td>Titre du correctif logiciel qui est OK pour un affichage public. Cette propriété est enregistrée et sa valeur peut être obtenue à l’aide de la fonction <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> . À partir de Windows XP avec SP2, cette valeur est le nom du correctif qui est affiché dans <strong>Ajout/suppression de programmes</strong>.<br/></td>
+<td>Titre du correctif logiciel qui est OK pour un affichage public. Cette propriété est enregistrée et sa valeur peut être obtenue à l’aide de la fonction <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> . à partir de Windows XP avec SP2, cette valeur est le nom du correctif qui est affiché dans <strong>ajout/suppression de programmes</strong>.<br/></td>
 </tr>
 <tr class="even">
 <td>Description</td>
 <td>Brève description du correctif.</td>
 </tr>
 <tr class="odd">
-<td>classification ;</td>
-<td>Valeur de chaîne qui contient la catégorie arbitraire des mises à jour telles que définies par l’auteur du correctif. Par exemple, les auteurs de correctifs peuvent spécifier que chaque correctif soit classé comme un correctif, un correctif cumulatif de sécurité, une mise à jour critique, une mise à jour, un service pack ou un correctif cumulatif. Cette propriété est requise.</td>
+<td>Classification</td>
+<td>Valeur de chaîne qui contient la catégorie arbitraire des mises à jour telles que définies par l’auteur du correctif. Par exemple, les auteurs de correctifs peuvent spécifier que chaque correctif soit classé comme un correctif, un correctif cumulatif de sécurité, une mise à jour critique, une mise à jour, un service pack ou un correctif cumulatif. Cette propriété est obligatoire.</td>
 </tr>
 <tr class="even">
 <td>OptimizeCA</td>
-<td>Indique si le Windows Installer doit ignorer les actions personnalisées lors de l’application du correctif. Cela peut réduire le temps nécessaire pour appliquer le correctif. La propriété OptimizeCA peut avoir l’une des valeurs suivantes :<br/>
+<td>indique si le Windows Installer doit ignorer les actions personnalisées lors de l’application du correctif. Cela peut réduire le temps nécessaire pour appliquer le correctif. La propriété OptimizeCA peut avoir l’une des valeurs suivantes :<br/>
 <ul>
 <li>0-ne pas ignorer les actions personnalisées.</li>
 <li>1-ignorer les actions personnalisées d’affectation de répertoire et de propriété. Le <a href="custom-action-type-35.md">type d’action personnalisé 35</a> et le type d' <a href="custom-action-type-51.md">action personnalisé 51</a> peuvent être des actions personnalisées de propriété et d’assignation de répertoire.</li>
@@ -127,7 +127,7 @@ La valeur de OptimizeCA doit être la même pour tous les correctifs en cours d�
 </tr>
 <tr class="odd">
 <td>OptimizedInstallMode</td>
-<td>Si cette propriété a la valeur 1 (un) dans tous les correctifs à appliquer dans une transaction, une application du correctif est optimisée si possible. Pour plus d’informations, consultez <a href="patch-optimization.md">optimisation des correctifs</a>. Disponible à partir de Windows Installer 3,1.</td>
+<td>Si cette propriété a la valeur 1 (un) dans tous les correctifs à appliquer dans une transaction, une application du correctif est optimisée si possible. Pour plus d’informations, consultez <a href="patch-optimization.md">optimisation des correctifs</a>. disponible à partir de Windows Installer 3,1.</td>
 </tr>
 </tbody>
 </table>
@@ -148,7 +148,7 @@ La valeur de OptimizeCA doit être la même pour tous les correctifs en cours d�
 
 <dl> <dt>
 
-[Non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
+[non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

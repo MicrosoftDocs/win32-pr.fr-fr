@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: f49c1df6d145c32b8fcbdf70462b30f14f51b3d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8cfa57faea9423af31e494c37d97af2b61d690095fb669a6a9b47109f6e97e70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094214"
 ---
 # <a name="best-practices-for-file-associations"></a>Meilleures pratiques pour les associations de fichiers
 
@@ -28,7 +28,7 @@ La liste suivante répertorie les meilleures pratiques recommandées pour l’ut
 -   [Utiliser des ProgID correctement formés et avec version](#use-properly-formed-and-versioned-progids)
 -   [Ne pas utiliser les extensions de nom de fichier courtes](#do-not-use-short-file-name-extensions)
 -   [Inscrire de nouveaux types de fichiers dans la base de données MIME IANA](#register-new-file-types-in-the-iana-mime-database)
--   [S’inscrire auprès du service Web Windows pour les associations de fichiers](#sign-up-with-the-windows-web-service-for-file-associations)
+-   [s’inscrire auprès du Service Web Windows pour les Associations de fichiers](#sign-up-with-the-windows-web-service-for-file-associations)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="do-not-copy-file-associations-from-the-registry"></a>Ne pas copier les associations de fichiers à partir du Registre
@@ -75,7 +75,7 @@ Les associations de fichiers sont similaires à la lecture automatique/exécutio
 
 ## <a name="do-not-confuse-the-internet-explorer-mime-database-with-file-associations"></a>Ne confondez pas la base de données MIME d’Internet Explorer avec les associations de fichiers
 
-Les associations de fichiers sont similaires à la base de données MIME de Windows Internet Explorer, dans la mesure où les types de fichiers peuvent (et doivent) inclure une définition de type MIME. Toutefois, la base de données MIME d’Internet Explorer est séparée et distincte des associations de fichiers.
+les Associations de fichiers sont similaires à la Windows base de données MIME d’Internet Explorer, dans la mesure où les types de fichiers peuvent (et doivent) inclure une définition de type mime. Toutefois, la base de données MIME d’Internet Explorer est séparée et distincte des associations de fichiers.
 
 ## <a name="use-properly-formed-and-versioned-progids"></a>Utiliser des ProgID correctement formés et avec version
 
@@ -94,9 +94,9 @@ Pour plus d’informations, consultez [extensions de noms de fichiers](fa-file-e
 
 L’IANA (Internet Assigned Numbers Authority) conserve une base de données publique de types MIME inscrits. Lors de la définition d’un nouveau type de fichier public, nous vous recommandons de définir également un type MIME pour le type de fichier et d’inscrire ce type auprès de l’IANA. L’inscription n’est pas coûteuse.
 
-## <a name="sign-up-with-the-windows-web-service-for-file-associations"></a>S’inscrire auprès du service Web Windows pour les associations de fichiers
+## <a name="sign-up-with-the-windows-web-service-for-file-associations"></a>s’inscrire auprès du Service Web Windows pour les Associations de fichiers
 
-Les développeurs d’applications peuvent s’inscrire auprès du service Web Windows que les utilisateurs utilisent pour trouver des applications qui peuvent fonctionner sur des types de fichiers spécifiques. Le processus d’inscription au service Web est détaillé dans le [processus d’intégration du système d’association de fichiers Windows](https://support.microsoft.com/kb/929149).
+les développeurs d’applications peuvent s’inscrire auprès du Service Web Windows que les utilisateurs utilisent pour rechercher des applications pouvant fonctionner sur des types de fichiers spécifiques. le processus d’inscription au service web est détaillé dans [Windows processus d’intégration du système d’Association de fichiers](https://support.microsoft.com/kb/929149).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -105,7 +105,7 @@ Les développeurs d’applications peuvent s’inscrire auprès du service Web W
 [Exemple de scénario d’association de fichiers](fa-sample-scenarios.md)
 </dt> <dt>
 
-[Instructions pour la gestion des applications par défaut dans Windows Vista et versions ultérieures](vista-managing-defaults.md)
+[instructions pour la gestion des Applications par défaut dans Windows Vista et versions ultérieures](vista-managing-defaults.md)
 </dt> <dt>
 
 [Programmes par défaut](default-programs.md)

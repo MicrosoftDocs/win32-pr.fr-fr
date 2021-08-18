@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: a58a3341bacf9b323cc5753f8e9e51c4b703b966
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 528ab441da6cd4370de4ecad5d8490e6e74b5977672d0c7d4126cea1b7bab8fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044397"
 ---
 # <a name="id3dxfilecreateenumobject-method"></a>ID3DXFile :: CreateEnumObject, méthode
 
@@ -81,7 +81,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DXFERR \_ BADVALUE, D3DXFERR \_ PARSEERROR.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Après l’utilisation de cette méthode, utilisez l’une des méthodes [**ID3DXFileEnumObject**](id3dxfileenumobject.md) pour récupérer un objet de données.
 

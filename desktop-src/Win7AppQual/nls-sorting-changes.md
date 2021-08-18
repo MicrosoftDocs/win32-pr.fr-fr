@@ -4,19 +4,19 @@ ms.assetid: 24617b5f-14f1-4f1b-a288-7d20a8166da0
 title: Modifications de tri NLS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e57cfaf2a9891c2d952637429786729670fc103c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a08f0cde98d115c129fdb7932ff3bb05063cb5c6fb8d903d55bff2a69753d774
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994879"
 ---
 # <a name="nls-sorting-changes"></a>Modifications de tri NLS
 
 ## <a name="affected-platforms"></a>Plateformes affectées
 
  **Clients** -Windows XP, Windows Vista, Windows 7  
-**Serveurs** -windows Server 2003, windows Server 2008, windows Server 2008 R2  
+**serveurs** -Windows server 2003, Windows server 2008, Windows server 2008 R2  
 
 
 
@@ -35,7 +35,7 @@ ms.locfileid: "108088057"
 
 ## <a name="description"></a>Description
 
-Les fonctions NLS (National Language Support) aident les applications à prendre en charge les différents besoins propres aux langues et aux paramètres régionaux des utilisateurs dans le monde entier. Les nouvelles versions de Windows incluent presque invariablement les modifications NLS. Cette modification affecte le classement et le tri, et donc les applications qui ont des index persistants.
+Les fonctions NLS (National Language Support) aident les applications à prendre en charge les différents besoins propres aux langues et aux paramètres régionaux des utilisateurs dans le monde entier. les nouvelles versions de Windows incluent presque invariablement des modifications NLS. Cette modification affecte le classement et le tri, et donc les applications qui ont des index persistants.
 
 Une table de classement comporte deux nombres identifiant sa version (révision) : la version définie et la version NLS. Les deux versions sont des valeurs DWORD, composées d’une version majeure et d’une version mineure. Le premier octet d’une valeur est réservé, les deux octets suivants représentent la version principale et le dernier octet représente la version mineure. En termes hexadécimaux, le modèle est 0xRRMMMMmm, où R est égal à réservé, M est égal à principal et m est égal à mineur. Par exemple, une version majeure de 3 avec une version mineure de 4 est représentée sous la forme 0x304.
 
@@ -71,7 +71,7 @@ Dans le cas d’interfaces utilisateur, les listes (par exemple, alphabétique, 
 
 ## <a name="solution"></a>Solution
 
-Votre application peut appeler **GetNLSVersionEx** (Windows Vista ou version ultérieure) ou **GetNLSVersion** (avant Windows Vista) pour récupérer la version définie et la version nls pour une table de classement.
+votre application peut appeler **GetNLSVersionEx** (Windows Vista ou version ultérieure) ou **GetNLSVersion** (avant Windows vista) pour récupérer la version définie et la version NLS pour une table de classement.
 
 -   GetNLSVersionEx:
 
@@ -79,15 +79,15 @@ Votre application peut appeler **GetNLSVersionEx** (Windows Vista ou version ult
 Cette fonction permet à une application telle que Active Directory de déterminer si une modification NLS affecte les paramètres régionaux utilisés pour une table d’index particulière. Si ce n’est pas le cas, il n’est pas nécessaire de réindexer la table. Pour plus d’informations, consultez Gestion des paramètres régionaux et des informations de langue.  
 Cette fonction prend en charge les paramètres régionaux personnalisés. Si *lpLocaleName* spécifie des paramètres régionaux supplémentaires, les données récupérées sont les données appropriées pour l’ordre de classement associé à ces paramètres régionaux supplémentaires.  
 
-**Remarque :** Les versions de Windows antérieures à Windows Vista ne prennent pas en charge **GetNLSVersionEx**.  
+**Remarque :** les Versions de Windows antérieures à Windows Vista ne prennent pas en charge **GetNLSVersionEx**.  
 
 
 -   GetNLSVersion (à utiliser pour les applications qui s’exécutent sur des versions de Windows antérieures à Windows Vista) :
 
 *Récupère des informations sur la version actuelle d’une fonctionnalité NLS spécifiée pour les paramètres régionaux spécifiés par l’identificateur*  
 Cette fonction permet à une application telle que Active Directory de déterminer si une modification NLS affecte l’identificateur de paramètres régionaux utilisé pour une table d’index particulière. Si ce n’est pas le cas, il n’est pas nécessaire de réindexer la table. Pour plus d’informations, consultez Gestion des paramètres régionaux et des informations de langue.  
-**Remarque :** Cette fonction récupère des informations uniquement sur les paramètres régionaux spécifiés par l’identificateur. La fonction **GetNLSVersionEx** prend en charge les paramètres régionaux, les fonctionnalités et les noms RFC 4646 supplémentaires. Toutefois, les versions de Windows antérieures à Windows Vista ne prennent pas en charge **GetNLSVersionEx**.  
-Les applications destinées à être exécutées uniquement sur Windows Vista et versions ultérieures doivent utiliser **GetNLSVersionEx** en préférence à cette fonction. **GetNLSVersionEx** fournit une prise en charge appropriée pour les paramètres régionaux supplémentaires.  
+**Remarque :** Cette fonction récupère des informations uniquement sur les paramètres régionaux spécifiés par l’identificateur. La fonction **GetNLSVersionEx** prend en charge les paramètres régionaux, les fonctionnalités et les noms RFC 4646 supplémentaires. toutefois, les versions de Windows antérieures à Windows Vista ne prennent pas en charge **GetNLSVersionEx**.  
+les Applications destinées à être exécutées uniquement sur Windows Vista et versions ultérieures doivent utiliser **GetNLSVersionEx** en priorité à cette fonction. **GetNLSVersionEx** fournit une prise en charge appropriée pour les paramètres régionaux supplémentaires.  
 
 
 ## <a name="compatibility-test"></a>Test de compatibilité

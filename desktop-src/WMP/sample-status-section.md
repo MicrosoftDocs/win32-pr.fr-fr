@@ -3,19 +3,19 @@ title: Section exemple d’État
 description: Section exemple d’État
 ms.assetid: b19c8b74-f474-47ee-a8be-68b855bc7486
 keywords:
-- Apparences mobiles du lecteur Windows Media, affichage de l’État
+- Lecteur Windows Media Apparences mobiles, affichage de l’État
 - apparences, affichage de l’État
 - référence pour les apparences, affichage de l’État
 - affichage de l’État dans les apparences, section État
 - fichiers de définition d’apparence, section État
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7868b44f0c3014d82ef4fa9ae1f80e30bdf2d6be
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bac02a4784f2198dd51372a8afc405684ae16b2882c6176c4fe2d77e7af42732
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995479"
 ---
 # <a name="sample-status-section"></a>Section exemple d’État
 
@@ -37,12 +37,12 @@ Les lignes suivantes affichent une section d’état standard d’un fichier de 
 
 <dl> <dt>
 
-[**Statu**](status.md)
+[**Statut**](status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

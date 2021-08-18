@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1b8c3eac113daeae43ec4a8e62b7fcda9ddbf9f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c1c70ab6510d2e63cc1b59e94ae058565937e854968b7ba05e2710ba22aa6af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979049"
 ---
 # <a name="jetaddcolumn-function"></a>Fonction JetAddColumn
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetaddcolumn-function"></a>Fonction JetAddColumn
 
@@ -90,7 +90,7 @@ Pointeur vers une structure [JET_COLUMNID](./jet-columnid.md) , qui, en cas de r
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -180,9 +180,9 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 <li><p>JET_bitColumnFinalize a été utilisé sur une colonne qui n’est pas une colonne de mise à jour de dépôt (JET_bitColumnEscrowUpdate n’a pas été définie).</p></li>
 <li><p>JET_bitColumnDeleteOnZero a été utilisé sur une colonne qui n’est pas une colonne de mise à jour de dépôt (JET_bitColumnEscrowUpdate n’a pas été définie).</p></li>
 <li><p>JET_bitColumnAutoincrement a été utilisé sur une colonne qui n’a pas été <a href="gg269213(v=exchg.10).md">JET_coltypLonge</a>.</p>
-<p><strong>Windows 2000 :  </strong> Cette raison du code d’erreur est utilisée uniquement dans Windows 2000.</p>
+<p><strong>Windows 2000 :</strong> cette raison du code d’erreur est utilisée uniquement dans Windows 2000.</p>
 <p>JET_bitColumnAutoincrement a été utilisé sur une colonne qui n’était ni <a href="gg269213(v=exchg.10).md">JET_coltypLong</a> ni <a href="gg269213(v=exchg.10).md">JET_coltypCurrency</a>.</p>
-<p><strong>Windows XP :  </strong> Cette raison du code d’erreur est utilisée dans Windows XP et les systèmes d’exploitation ultérieurs.</p></li>
+<p><strong>Windows XP :</strong> cette raison du code d’erreur est utilisée dans les systèmes d’exploitation Windows XP et versions ultérieures.</p></li>
 <li><p>JET_bitColumnVersion a été utilisé sur une colonne qui n’a pas été <a href="gg269213(v=exchg.10).md">JET_coltypLonge</a>.</p></li>
 <li><p>JET_bitColumnVersion a été utilisé sur une colonne AutoIncrement.</p></li>
 <li><p>JET_bitColumnUserDefinedDefault a été utilisé conjointement avec JET_bitColumnFixed.</p></li>
@@ -232,11 +232,11 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: eb768d3152aad5401c30b18a3f1ff13d1ef2397d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe06923849a12609b6662505df94c927c3d9dfd4aeb8bc6a42bd6a225e042ef0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011367"
 ---
 # <a name="countercleanup-function"></a>CounterCleanup fonction)
 
@@ -40,7 +40,7 @@ Cette fonction n’a pas de paramètres.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Votre fournisseur appelle cette fonction. La fonction appelle la fonction [**PerfStopProvider**](/windows/desktop/api/Perflib/nf-perflib-perfstopprovider) pour supprimer l’inscription du fournisseur.
 
@@ -52,8 +52,8 @@ L’outil [**CTRPP**](ctrpp.md) génère cette fonction inline lorsque vous spé
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

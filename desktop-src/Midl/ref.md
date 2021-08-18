@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82bc5762eea78b3ce73ab3db58e9bb567b051675
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 916556bdee83817f512c2d86eef2d768c3f6dbddf06b39408da5c25a2ba10ed2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013667"
 ---
 # <a name="ref-attribute"></a>ref (attribut)
 
@@ -91,7 +91,7 @@ Spécifie au moins un déclarateur de pointeur auquel s’applique l’attribut 
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la procédure distante.
@@ -105,7 +105,7 @@ Se compose de zéro, un ou plusieurs attributs appropriés pour le type de param
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un attribut de pointeur peut être appliqué comme un attribut de type, comme un attribut de champ qui s’applique à un membre de structure, un membre d’Union ou un paramètre ; ou en tant qu’attribut de fonction qui s’applique au type de retour de la fonction. L’attribut de pointeur peut également apparaître avec le **\[** mot clé [**\_ default du pointeur**](pointer-default.md) **\]** .
 
@@ -114,7 +114,7 @@ Un pointeur de référence présente les caractéristiques suivantes :
 -   Pointe toujours vers un stockage valide ; n’a jamais la valeur **null**. Un pointeur de référence peut toujours être déréférencé.
 -   Jamais modifié pendant un appel. Un pointeur de référence pointe toujours vers le même stockage sur le client avant et après l’appel.
 -   N’alloue pas de nouvelle mémoire sur le client. Les données retournées à partir du serveur sont écrites dans le stockage existant spécifié par la valeur du pointeur de référence avant l’appel.
--   Ne provoque pas d’alias. Le stockage vers lequel pointe un pointeur de référence ne peut pas être atteint à partir d’un autre nom dans la fonction.
+-   Ne provoque pas d’alias. Stockage pointée par un pointeur de référence ne peut pas être atteint à partir d’un autre nom dans la fonction.
 
 Un pointeur de référence ne peut pas être utilisé en tant que type d’un pointeur retourné par une fonction.
 
@@ -170,7 +170,7 @@ Si aucun attribut n’est spécifié pour un paramètre de pointeur de niveau su
 [**la longueur \_ est**](length-is.md)
 </dt> <dt>
 
-[**localisé**](local.md)
+[**local**](local.md)
 </dt> <dt>
 
 [**le nombre maximal \_ est**](max-is.md)
@@ -197,12 +197,12 @@ Si aucun attribut n’est spécifié pour un paramètre de pointeur de niveau su
 [**transmettre \_ en tant que**](transmit-as.md)
 </dt> <dt>
 
-[**UE**](union.md)
+[**union**](union.md)
 </dt> <dt>
 
 [**unique**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

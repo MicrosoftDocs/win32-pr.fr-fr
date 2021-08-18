@@ -1,6 +1,6 @@
 ---
 title: attribut ms-DS-AZ-biz-Rule-Language
-description: Langage dans lequel se trouve le script de règle d’entreprise (JScript, VBScript).
+description: langue dans laquelle se trouve le script de règle d’entreprise (JScript, VBScript).
 ms.assetid: 980f4715-b905-41aa-8274-de320be4a5a7
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 980fb7e08e972bef367c06187a88f0a3ef0a4979
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d1c29767322d8d211b051d13e58db9a9e4f8b1e30dfacc3423f95bdd3993299c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960918"
 ---
 # <a name="ms-ds-az-biz-rule-language-attribute"></a>attribut ms-DS-AZ-biz-Rule-Language
 
-Langage dans lequel se trouve le script de règle d’entreprise (JScript, VBScript).
+langue dans laquelle se trouve le script de règle d’entreprise (JScript, VBScript).
 
 
 
@@ -44,7 +44,7 @@ Langage dans lequel se trouve le script de règle d’entreprise (JScript, VBScr
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 08648c8b941874a6d1e1ed97d49f510694b998b8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e119a639af7cb6459e8e6ec8ae6416f9d067c56e8f81560fedc385abd518b840
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118899338"
 ---
 # <a name="signedcode-object"></a>Objet SignedCode
 
@@ -55,7 +55,7 @@ L’objet **SignedCode** a ces méthodes.
 |:------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Expéditeur**](signedcode-sign.md)           | Crée une signature numérique Authenticode et signe le fichier exécutable spécifié dans la propriété [**SignedCode. FileName**](signedcode-filename.md) .<br/>    |
 | [**Timestamp**](signedcode-timestamp.md) | Crée une signature d’horodatage Authenticode sur le fichier exécutable signé spécifié dans la propriété [**SignedCode. FileName**](signedcode-filename.md) .<br/> |
-| [**Vérifier**](signedcode-verify.md)       | Vérifie la signature Authenticode sur le fichier exécutable signé spécifié dans la propriété [**SignedCode. FileName**](signedcode-filename.md) .<br/>          |
+| [**Vérification**](signedcode-verify.md)       | Vérifie la signature Authenticode sur le fichier exécutable signé spécifié dans la propriété [**SignedCode. FileName**](signedcode-filename.md) .<br/>          |
 
 
 
@@ -72,7 +72,7 @@ L’objet **SignedCode** a ces propriétés.
 | [**Certificats**](signedcode-certificates.md)<br/>     | Lecture seule<br/>  | Collection de [**certificats**](certificates.md) qui contient tous les certificats dans le fichier exécutable signé.<br/>             |
 | [**Description**](signedcode-description.md)<br/>       | Lecture/écriture<br/> | Chaîne qui contient une description du fichier exécutable signé.<br/>                                                             |
 | [**DescriptionURL**](signedcode-descriptionurl.md)<br/> | Lecture/écriture<br/> | Chaîne qui contient l’adresse HTTP à une description du fichier exécutable signé.<br/>                                         |
-| [**FileName**](signedcode-filename.md)<br/>             | Lecture/écriture<br/> | Chaîne qui contient le chemin d’accès au fichier de contenu qui contient le fichier exécutable.<br/> Il s’agit de la propriété par défaut.<br/> |
+| [**Extension**](signedcode-filename.md)<br/>             | Lecture/écriture<br/> | Chaîne qui contient le chemin d’accès au fichier de contenu qui contient le fichier exécutable.<br/> Il s’agit de la propriété par défaut.<br/> |
 | [**Signataire**](signedcode-signer.md)<br/>                 | Lecture seule<br/>  | Objet [**signataire**](signer.md) qui fournit l’accès au signataire du fichier exécutable.<br/>                                    |
 | [**Timestamper**](signedcode-timestamper.md)<br/>       | Lecture seule<br/>  | Objet [**signataire**](signer.md) qui fournit l’accès à l’horodatage du fichier exécutable.<br/>                              |
 
@@ -80,11 +80,11 @@ L’objet **SignedCode** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’objet **SignedCode** peut être créé et n’est pas sûr pour l’écriture de scripts. Le ProgID de l’objet **SignedCode** est CAPICOM. SignedCode. 1.
 
-Le fichier exécutable doit être d’un type qui peut être signé avec la technologie Authenticode, par exemple, des fichiers qui ont une extension de nom de fichier. cab,. cat,. exe,. dll,. vbs ou. ocx.
+Le fichier exécutable doit être d’un type qui peut être signé avec la technologie Authenticode, par exemple, les fichiers ayant l’extension de nom de fichier .cab,. cat, .exe, .dll,. vbs ou. ocx.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -92,7 +92,7 @@ Le fichier exécutable doit être d’un type qui peut être signé avec la tech
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3fe94393dcbd00daaa860264754fe391f1c1fb25
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 52339f35bd903dbfbf84f4cdb027085bab7a971ac04bd0cf388b0b2baeb03b95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106520360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954368"
 ---
 # <a name="coareftimecoareftime-constructor-ctlutilh---crt-parameter"></a>COARefTime. COARefTime, constructeur (Ctlutil. h)-paramètre CRT
 
@@ -53,7 +53,7 @@ Objet [**CRefTime**](creftime.md) qui spécifie la durée de référence.
 
 | Condition requise                   | Valeur                                                                                                                                                                                           |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête  | Ctlutil. h (include streams. h)                                                                                   |
+| En-tête  | Ctlutil. h (inclure Flux. h)                                                                                   |
 | Bibliothèque | Strmbase. lib (versions commerciales); Strmbasd. lib (versions Debug) |
 
 ## <a name="see-also"></a>Voir aussi

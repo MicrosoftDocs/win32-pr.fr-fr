@@ -3,7 +3,7 @@ title: Élément ENTRYREF
 description: L’élément ENTRYREF pointe vers les éléments d’entrée dans un métafichier externe.
 ms.assetid: ba39db39-fa90-455b-b278-ca866ce0b69c
 keywords:
-- Élément ENTRYREF lecteur Windows Media
+- élément ENTRYREF Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 520a4262baf17badb136b55e7b2e216bf89d7edf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 61fa3403fc56c6a02f97330b3c2f62d1c3e3c723f50672520ea42fb4a2018705
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996668"
 ---
 # <a name="entryref-element"></a>Élément ENTRYREF
 
@@ -47,17 +47,17 @@ Cet attribut n'est plus pris en charge.
 | Hierarchy       | Éléments                       |
 |-----------------|--------------------------------|
 | Éléments parents | **ASX**, **événement**, **répéter** |
-| Éléments enfants  | Aucune                           |
+| Éléments enfants  | None                           |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet élément pointe vers le contenu d’un métafichier externe. Le lecteur Windows Media traite les éléments d' **entrée** du métafichier référencé comme s’ils étaient inclus dans le métafichier principal à la position de l’élément **ENTRYREF** . Toutefois, elle ignore tous les éléments d' **entrée** dans le métafichier référencé dont l’attribut **SKIPIFREF** a la valeur Yes.
+Cet élément pointe vers le contenu d’un métafichier externe. Lecteur Windows Media traite les éléments d' **entrée** du métafichier référencé comme s’ils étaient inclus dans le métafichier principal à la position de l’élément **ENTRYREF** . Toutefois, elle ignore tous les éléments d' **entrée** dans le métafichier référencé dont l’attribut **SKIPIFREF** a la valeur Yes.
 
-Le lecteur Windows Media 7,0, 7,1 et le lecteur Windows Media pour Windows XP ignorent tous les éléments **ENTRYREF** dans le métafichier référencé. Par conséquent, les fichiers de conversions peuvent être imbriqués un niveau de profondeur uniquement lors de l’utilisation de ces versions du lecteur. Le lecteur Windows Media ignore également l’élément **ASX** dans le fichier référencé avec ses attributs. Le lecteur Windows Media série 9 ou version ultérieure prend en charge l’imbrication de fichiers de permétrage jusqu’à cinq niveaux.
+Lecteur Windows Media 7,0, 7,1 et Lecteur Windows Media pour Windows XP ignorent tous les éléments **ENTRYREF** dans le métafichier référencé. Par conséquent, les fichiers de conversions peuvent être imbriqués un niveau de profondeur uniquement lors de l’utilisation de ces versions du lecteur. Lecteur Windows Media ignore également l’élément **ASX** dans le fichier référencé avec ses attributs. Lecteur Windows Media série 9 ou version ultérieure prend en charge l’imbrication de fichiers de conversions jusqu’à cinq niveaux.
 
 L’URL spécifiée dans l’attribut **href** devient l’URL de base pour toutes les URL relatives dans le métafichier externe. Cette URL est utilisée lorsqu’une entrée du métafichier externe est lue et que l’utilisateur l’ajoute à la bibliothèque.
 
@@ -88,10 +88,10 @@ L’URL spécifiée dans l’attribut **href** devient l’URL de base pour tout
 
 <dl> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Informations de référence sur les métafichiers Windows Media**](windows-media-metafile-reference.md)
+[**Windows Référence du métafichier multimédia**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

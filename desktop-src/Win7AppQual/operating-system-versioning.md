@@ -4,19 +4,19 @@ ms.assetid: 974650d9-504a-4f19-bc71-90fbc92672d9
 title: Contrôle de version du système d’exploitation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43b2b8c60994eaee7a3becfa9acc03fe2c61fb12
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 707594f7e17b1518f56c0dc889911740f1bbddf50038c1908b7a47d7a0629b43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994869"
 ---
 # <a name="operating-system-versioning"></a>Contrôle de version du système d’exploitation
 
 ## <a name="affected-platforms"></a>Plateformes affectées
 
 **Clients** -Windows 7  
-**Serveurs** -Windows Server 2008 R2  
+**serveurs** -Windows Server 2008 R2  
 
 
 
@@ -41,7 +41,7 @@ ms.locfileid: "108088037"
 
 ## <a name="description"></a>Description
 
-Le numéro de version interne de Windows 7 et de Windows Server 2008 R2 est 6,1. La fonction GetVersion retourne maintenant ce numéro de version aux applications lorsqu’elles sont interrogées. Ceci est particulièrement important pour les AntiVirus, les sauvegardes, les applications utilitaires et la protection contre la copie.
+le numéro de version interne pour Windows 7 et Windows Server 2008 R2 est 6,1. La fonction GetVersion retourne maintenant ce numéro de version aux applications lorsqu’elles sont interrogées. Ceci est particulièrement important pour les AntiVirus, les sauvegardes, les applications utilitaires et la protection contre la copie.
 
 ## <a name="manifestation-of-impact"></a>Manifeste de l’impact
 
@@ -53,11 +53,11 @@ La description de cette modification est spécifique à l’application. Cela si
 
 ## <a name="mitigation"></a>Limitation des risques
 
-La plupart des applications fonctionneront correctement sur Windows 7 et Windows Server 2008 R2, car la compatibilité des applications dans Windows 7 et Windows Server 2008 R2 est très élevée. Toutefois, Windows 7 et Windows Server 2008 R2 incluent une vue de compatibilité pour les programmes d’installation et les applications qui vérifient la version du système d’exploitation.
+la plupart des applications fonctionneront correctement sur Windows 7 et Windows server 2008 r2, car la compatibilité des applications dans Windows 7 et Windows server 2008 r2 est très élevée. toutefois, Windows 7 et Windows Server 2008 R2 incluent une vue de compatibilité pour les programmes d’installation et les applications qui vérifient la version du système d’exploitation.
 
-Pour activer l’affichage de compatibilité, les utilisateurs peuvent cliquer avec le bouton droit sur le raccourci ou le fichier exécutable, puis appliquer l’affichage de compatibilité Windows XP SP2 ou Windows Vista à partir de l’onglet compatibilité. Dans la plupart des cas, cela doit permettre à l’application de fonctionner correctement sans avoir à modifier l’application.
+pour activer l’affichage de compatibilité, les utilisateurs peuvent cliquer avec le bouton droit sur le raccourci ou le fichier exécutable, puis appliquer l’affichage de compatibilité Windows XP SP2 ou Windows Vista à partir de l’onglet compatibilité. Dans la plupart des cas, cela doit permettre à l’application de fonctionner correctement sans avoir à modifier l’application.
 
-Les professionnels de l’informatique peuvent également appliquer l’un des correctifs de compatibilité VersionLie applicables, à l’aide de l’outil d’administration de la compatibilité, qui est installé avec Application Compatibility Toolkit (ACT). Par exemple, si une application ne fonctionne pas parce qu’elle recherche, mais ne trouve pas, les informations de version de Windows XP® avec Service Pack 2 (SP2), le WinXPSP2VersionLie peut être appliqué pour retourner les informations de numéro de version appropriées à l’application, quelle que soit la version du système d’exploitation en cours d’exécution sur l’ordinateur. Les correctifs de compatibilité VersionLie disponibles sont les suivants :
+les professionnels de l’informatique peuvent également appliquer l’un des correctifs de compatibilité VersionLie applicables, à l’aide de l’outil d’administration de la compatibilité, qui est installé avec le Shared Computer Toolkit de compatibilité des applications (ACT). par exemple, si une application ne fonctionne pas, car elle recherche, mais ne trouve pas, les informations de version de Windows XP® avec Service Pack 2 (SP2), le WinXPSP2VersionLie peut être appliqué pour retourner les informations de numéro de version appropriées à l’application, quelle que soit la version du système d’exploitation en cours d’exécution sur l’ordinateur. Les correctifs de compatibilité VersionLie disponibles sont les suivants :
 
 -   Win95VersionLie
 -   Win98VersionLie
@@ -81,7 +81,7 @@ En règle générale, les applications ne doivent pas effectuer de vérification
 
 ## <a name="links-to-other-resources"></a>Liens vers d’autres ressources
 
--   [Téléchargement de l’outil Application Compatibility Toolkit](/windows-hardware/get-started/adk-install)
+-   [compatibilité des applications Shared Computer Toolkit téléchargement](/windows-hardware/get-started/adk-install)
 -   [Correctifs de compatibilité connus, modes de compatibilité et messages AppHelp](/previous-versions/windows/it-pro/windows-7/cc765984(v=ws.10))
 
  

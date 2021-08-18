@@ -3,9 +3,9 @@ title: Événement Player. Click
 description: L’événement Click se produit lorsque l’utilisateur clique sur un bouton de la souris.
 ms.assetid: c2d5fab9-9b53-4d0c-a001-8cbf4430e713
 keywords:
-- Événement de clic sur le lecteur Windows Media
-- Événement Click lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement Click
+- Lecteur Windows Media d’événements de clic
+- Lecteur Windows Media d’événements click, classe Player
+- Lecteur Windows Media de classe Player, événement click
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8389460d59018b221749719d32edbaa89943808
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b60e6368c6ccb70d0bc87c9fc2d1d99770b4fa36dfe957365d48a2e26c00a163
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995929"
 ---
 # <a name="playerclick-event"></a>Événement Player. Click
 
@@ -77,9 +77,9 @@ Player.Click(
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La valeur des paramètres d’événement est spécifiée par le lecteur Windows Media et est accessible ou transmise à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
+la valeur des paramètres d’événement est spécifiée par Lecteur Windows Media, et est accessible ou passée à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 

@@ -4,12 +4,12 @@ ms.assetid: 94015595-99a0-4b9b-b6b7-7bf81d88a4e8
 title: Haut débit mobile
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92b6851a337227b762ac4bdfc931574bdaa515a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2db975658538f4cc6f332e9e06d43ac36861444141dbdc591497855484cecc14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035867"
 ---
 # <a name="mobile-broadband"></a>Haut débit mobile
 
@@ -27,7 +27,7 @@ L’API haut débit mobile peut être utilisée par des applications tierces qui
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-La prise en charge de la bande passante mobile commence par Windows 7.
+la prise en charge de la bande passante Mobile commence par Windows 7.
 
 ## <a name="in-this-section"></a>Dans cette section
 

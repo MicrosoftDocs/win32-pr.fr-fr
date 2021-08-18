@@ -4,12 +4,12 @@ description: Si vous utilisez le composant logiciel enfichable MMC (Microsoft Ma
 ms.assetid: de21d2f5-3337-47ba-afcf-347e289873d3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 817797dbc0e67f6006e12751beca533cbbec3656
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1e17bc3b1bac886a19791f57903920a11062072a81577a0a78ab01d461709ee3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009657"
 ---
 # <a name="configuring-snmp-group-policy"></a>Configuration de stratégie de groupe SNMP
 
@@ -29,6 +29,6 @@ En règle générale, seuls les membres du groupe local administrateurs peuvent 
 
 Pour plus d’informations sur les paramètres de stratégie basés sur le registre, consultez [à propos de stratégie de groupe](/previous-versions/windows/desktop/Policy/about-group-policy).
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 29E67C0A-36EB-47B2-8708-36EC733D0D37
 title: XAUDIO2_PROCESSOR (Xaudio2. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c3e9d73da37f6d330832234b63674e363d3b6d2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ceb8fd7f904e60728f60ae2a2880422e7a12ed2ee49c314e4932471caecf7871
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962568"
 ---
 # <a name="xaudio2_processor"></a>\_Processeur XAUDIO2
 
@@ -57,7 +57,7 @@ Définit les valeurs à utiliser avec [**XAudio2Create**](/windows/desktop/api/x
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **XAUDIO2 \_** Le type de processeur est défini en tant que valeur 32 bits.
 
@@ -73,7 +73,7 @@ typedef UINT32 XAUDIO2_PROCESSOR;
 
 ### <a name="platform-requirements"></a>Conditions requises par la plateforme
 
-Windows 10 (XAudio 2.9); Windows 8, Windows Phone 8 (XAudio 2,8); SDK DirectX (XAudio 2,7)
+Windows 10 (xaudio 2.9); Windows 8, Windows Phone 8 (XAudio 2,8); SDK DirectX (XAudio 2,7)
 
 ## <a name="requirements"></a>Configuration requise
 

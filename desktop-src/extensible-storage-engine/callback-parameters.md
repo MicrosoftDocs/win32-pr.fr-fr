@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4e06ed65bbeae195060e4de10424a76a4228f20f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9c14940ee98d4f664914794cd4ff6185b78dd04f438b982179a7ab3c5eb6504
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982809"
 ---
 # <a name="callback-parameters"></a>Paramètres de rappel
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="callback-parameters"></a>Paramètres de rappel
 
@@ -93,7 +93,7 @@ Ce paramètre désactive tous les rappels du moteur de base de données pour les
 *JET_paramEnablePersistedCallbacks*  
 156  
 
-Ce paramètre permet l’utilisation de rappels persistants dans la base de données. Dans les versions antérieures à Windows Vista, l’utilisation de rappels persistants était activée par défaut. Les applications doivent maintenant activer explicitement l’utilisation de rappels persistants au moment de l’exécution à l’aide de ce paramètre. Si ce paramètre n’est pas défini, toute opération de base de données qui requiert l’appel d’un rappel échouera avec JET_errCallbackFailed. Ce paramètre n’affecte pas les rappels spécifiés au moment de l’exécution avec les mécanismes suivants : JET_paramRuntimeCallback, [JetRegisterCallback](./jetregistercallback-function.md)ou un paramètre de rappel explicite à une API jet. Il est toujours possible de créer des éléments de schéma qui contiennent des rappels persistants, même si l’utilisation de ces rappels persistants est interdite. Quand ce paramètre est défini sur false, il remplace JET_paramDisableCallbacks.
+Ce paramètre permet l’utilisation de rappels persistants dans la base de données. dans les versions antérieures à Windows Vista, l’utilisation de rappels persistants était activée par défaut. Les applications doivent maintenant activer explicitement l’utilisation de rappels persistants au moment de l’exécution à l’aide de ce paramètre. Si ce paramètre n’est pas défini, toute opération de base de données qui requiert l’appel d’un rappel échouera avec JET_errCallbackFailed. Ce paramètre n’affecte pas les rappels spécifiés au moment de l’exécution avec les mécanismes suivants : JET_paramRuntimeCallback, [JetRegisterCallback](./jetregistercallback-function.md)ou un paramètre de rappel explicite à une API jet. Il est toujours possible de créer des éléments de schéma qui contiennent des rappels persistants, même si l’utilisation de ces rappels persistants est interdite. Quand ce paramètre est défini sur false, il remplace JET_paramDisableCallbacks.
 
 <table>
 <colgroup>
@@ -143,7 +143,7 @@ Ce paramètre permet l’utilisation de rappels persistants dans la base de donn
 </tr>
 <tr class="odd">
 <td><p>Disponibilité :</p></td>
-<td><p>Windows Vista et versions ultérieures</p></td>
+<td><p>Windows Versions Vista et ultérieures</p></td>
 </tr>
 </tbody>
 </table>
@@ -218,11 +218,11 @@ Ce paramètre configure le moteur à l’aide d’une fonction de rappel d’ex�
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
+<td><p>requiert Windows Vista ou Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
+<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

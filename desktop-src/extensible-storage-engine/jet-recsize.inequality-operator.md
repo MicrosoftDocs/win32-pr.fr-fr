@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 724009d5f4e816a5613b2fb6344b0a5388dea819
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a0e6cbaa23a98da9652f3e260c57d919927c1575263dc9eb398beee02323be6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107465"
 ---
 # <a name="jet_recsizeinequality-operator"></a>JET_RECSIZE. Opérateur d’inégalité
 

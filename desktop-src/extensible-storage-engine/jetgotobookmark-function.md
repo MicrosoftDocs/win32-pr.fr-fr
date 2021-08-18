@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 89dde261648b396bcfc9532911c0d4acd3c88828
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56e94339a49cc80e8b7b416e89efc5c85079981e0430f325e29f1dd711eef63a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978998"
 ---
 # <a name="jetgotobookmark-function"></a>JetGotoBookmark fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetgotobookmark-function"></a>JetGotoBookmark fonction)
 
@@ -63,7 +63,7 @@ Taille du signet dans la mémoire tampon.
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -88,7 +88,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>Impossible d’effectuer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données.</p>
-<p><strong>Windows XP :</strong>   Cette valeur de retour a été introduite dans Windows XP.</p></td>
+<p><strong>Windows XP :</strong>   cette valeur de retour a été introduite dans Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidBookmark</p></td>
@@ -113,7 +113,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 <tr class="odd">
 <td><p>JET_errSessionSharingViolation</p></td>
 <td><p>La même session ne peut pas être utilisée simultanément pour plusieurs threads.</p>
-<p><strong>Windows XP :</strong>   Cette valeur de retour a été introduite dans Windows XP.</p></td>
+<p><strong>Windows XP :</strong>   cette valeur de retour a été introduite dans Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errTermInProgress</p></td>
@@ -127,7 +127,7 @@ Si cette fonction est réussie, le curseur est positionné sur une entrée d’i
 
 Si cette fonction échoue, la position du curseur reste inchangée. Si un enregistrement a été préparé pour la mise à jour, cette mise à jour sera annulée. Si une plage d’index est en vigueur, cette plage d’index sera annulée. Si une clé de recherche a été construite pour le curseur, cette clé de recherche sera supprimée. Aucune modification de l’état de la base de données ne se produit.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Il existe deux façons d’utiliser un signet pour positionner un curseur sur un index. La première consiste à utiliser le signet pour positionner directement sur l’enregistrement. Cela se produit lorsque l’index actuel du curseur est l’index primaire. Cette technique fonctionne, car un signet ESENT est le même que la clé primaire de l’enregistrement associé.
 
@@ -143,11 +143,11 @@ La deuxième façon d’utiliser un signet est de le positionner sur une entrée
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

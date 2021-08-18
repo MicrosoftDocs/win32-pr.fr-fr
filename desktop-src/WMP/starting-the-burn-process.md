@@ -3,23 +3,23 @@ title: Démarrage du processus de gravure
 description: Démarrage du processus de gravure
 ms.assetid: 91442bd2-1a68-465c-b865-63d309f33d55
 keywords:
-- Lecteur Windows Media, gravure de CD
-- Windows Media Player Object Model, gravage de CD
+- Lecteur Windows Media, gravage de CD
+- modèle d’objet Lecteur Windows Media, gravage de CD
 - modèle d’objet, gravage de CD
-- Contrôle ActiveX du lecteur Windows Media, gravure de CD
-- Contrôle ActiveX, gravage de CD
-- Windows Media Player Mobile contrôle ActiveX, gravure de CD
-- Lecteur Windows Media Mobile, gravure de CD
+- contrôle de ActiveX Lecteur Windows Media, gravure de CD
+- contrôle de ActiveX, gravure de CD
+- Lecteur Windows Media contrôle de ActiveX Mobile, gravage de CD
+- Lecteur Windows Media Mobile, gravage de CD
 - Gravage de CD, démarrage du processus de gravure
 - gravure de CD, démarrage du processus de gravure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4a35f473eebe35bffd48ac802dcfe79082689de
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 50f5620ba8fa6ab911cf0fd594fd27f139b5061d1383575f861dadfec45dabbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103940696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995079"
 ---
 # <a name="starting-the-burn-process"></a>Démarrage du processus de gravure
 
@@ -88,9 +88,9 @@ hr = m_spCdromBurn->stopBurn();
 [**Récupération de l’état d’avancement**](retrieving-the-burn-status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

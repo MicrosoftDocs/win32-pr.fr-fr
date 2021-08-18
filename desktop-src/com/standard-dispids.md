@@ -4,12 +4,12 @@ description: Un certain nombre de DISPID standard ont été définis pour la sp�
 ms.assetid: f938b64f-5d45-40e7-ad02-665ce9c86a70
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 657a7cd12ac92504bb5d63dcd486b6a45da47310
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: af35ce4e4cad884b54bb0982037721608364a0249d3be6dd566f3aac766bb1f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129781"
 ---
 # <a name="standard-dispids"></a>DISPID standard
 
@@ -79,7 +79,7 @@ Propriété de type BOOL.
 
 ## <a name="dispid_-ambient_palette"></a>\_palette ambiante \_ DISPID
 
-Utilisé pour permettre au contrôle d’accéder au HPAL du conteneur. Si le conteneur fournit une palette ambiante, il s’agit de la seule palette qui peut être réalisée au premier plan. Les contrôles qui veulent réaliser leurs propres palettes doivent le faire en arrière-plan. Si aucune palette ambiante n’est fournie par le conteneur, le contrôle actif peut réaliser sa palette au premier plan. La gestion de palette est décrite plus en détail dans comportement de la palette pour les contrôles OLE qui se trouvent dans le SDK ActiveX.
+Utilisé pour permettre au contrôle d’accéder au HPAL du conteneur. Si le conteneur fournit une palette ambiante, il s’agit de la seule palette qui peut être réalisée au premier plan. Les contrôles qui veulent réaliser leurs propres palettes doivent le faire en arrière-plan. Si aucune palette ambiante n’est fournie par le conteneur, le contrôle actif peut réaliser sa palette au premier plan. la gestion de palette est également décrite dans comportement de la palette pour les contrôles OLE qui se trouvent dans le kit de développement logiciel (SDK) ActiveX.
 
 ``` syntax
 #define DISPID_AMBIENT_PALETTE         -726

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 151665777aa6b68078361eb6e063e374a52f30bf
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: a2b273cf95d2bbb271b055eeff3da80a788a38c88bb2e87db37f5a73e6e918e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103940680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086149"
 ---
 # <a name="drm_drmheader_subscriptioncontentid"></a>\_DRMHEADER DRM \_ SubscriptionContentID
 
@@ -31,7 +31,7 @@ g \_ wszWMDRM \_ DRMHeader \_ SubscriptionContentID
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est présent uniquement avec le contenu DRM version 7. L’ID de contenu de l’abonnement est facultatif et est déterminé uniquement par le créateur du contenu. L’objet enregistreur n’a aucun effet avec cet attribut. Il peut être défini à l’aide de [**IWMDRMWriter :: SetDRMAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) et il peut être récupéré avec [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 
@@ -42,9 +42,9 @@ Cet attribut est présent uniquement avec le contenu DRM version 7. L’ID de co
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

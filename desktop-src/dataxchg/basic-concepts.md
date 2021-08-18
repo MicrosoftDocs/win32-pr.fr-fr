@@ -3,52 +3,52 @@ title: Concepts de base
 description: Cette rubrique décrit les concepts clés relatifs à l’échange dynamique de données.
 ms.assetid: 37826d83-4dcd-484f-b1aa-87bf309c5c09
 keywords:
-- Interface utilisateur Windows, échange dynamique de données (DDE)
-- Interface utilisateur Windows, bibliothèque de gestion des échange dynamique de données (DDEML)
-- Échange dynamique de données (DDE), interaction du serveur client
+- Windows Interface utilisateur, échange dynamique de données (DDE)
+- Windows Interface utilisateur, échange dynamique de données Management Library (DDEML)
+- échange dynamique de données (DDE), interaction du serveur client
 - DDE (échange dynamique de données), interaction du serveur client
 - échange de données, échange dynamique de données (DDE)
 - échange de données, bibliothèque de gestion des échange dynamique de données (DDEML)
-- Échange dynamique de données (DDE), applications clientes
+- échange dynamique de données (DDE), applications clientes
 - DDE (échange dynamique de données), applications clientes
-- Échange dynamique de données (DDE), applications serveur
+- échange dynamique de données (DDE), applications serveur
 - DDE (échange dynamique de données), applications serveur
-- Échange dynamique de données (DDE), fonctions de rappel
+- échange dynamique de données (DDE), fonctions de rappel
 - DDE (échange dynamique de données), fonctions de rappel
-- Échange dynamique de données (DDE), transactions
+- échange dynamique de données (DDE), transactions
 - DDE (échange dynamique de données), transactions
-- Échange dynamique de données (DDE), noms de service
+- échange dynamique de données (DDE), noms de service
 - DDE (échange dynamique de données), noms de service
-- Échange dynamique de données (DDE), noms d’éléments
+- échange dynamique de données (DDE), noms d’éléments
 - DDE (échange dynamique de données), noms d’éléments
-- Échange dynamique de données (DDE), noms de rubriques
+- échange dynamique de données (DDE), noms de rubriques
 - DDE (échange dynamique de données), noms de rubriques
-- Échange dynamique de données (DDE), rubrique système
+- échange dynamique de données (DDE), rubrique système
 - DDE (échange dynamique de données), rubrique système
-- Bibliothèque de gestion des échange dynamique de données (DDEML), initialisation
+- bibliothèque de gestion des échange dynamique de données (DDEML), initialisation
 - DDEML (bibliothèque de gestion échange dynamique de données), initialisation
-- Bibliothèque de gestion des échange dynamique de données (DDEML), fonctions de rappel
+- bibliothèque de gestion des échange dynamique de données (DDEML), fonctions de rappel
 - DDEML (bibliothèque de gestion échange dynamique de données), fonctions de rappel
-- Bibliothèque de gestion des échange dynamique de données (DDEML), gestion des chaînes
+- bibliothèque de gestion des échange dynamique de données (DDEML), gestion des chaînes
 - DDEML (bibliothèque de gestion échange dynamique de données), gestion des chaînes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c564bffbcbb06ddc3a0e0fa4e0a9ed398d3ca55
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fae271c359afd571cf6c51fb3387a15f1496416e5eb54b055ef518fd213f30fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128621"
 ---
 # <a name="basic-concepts-dde"></a>Concepts de base (DDE)
 
-Ces concepts sont essentiels pour comprendre échange dynamique de données (DDE) et la bibliothèque de gestion des échange dynamique de données (DDEML).
+ces concepts sont essentiels pour comprendre échange dynamique de données (DDE) et la bibliothèque de gestion des échange dynamique de données (DDEML).
 
 -   [Interaction entre le client et le serveur](#client-and-server-interaction)
 -   [Transactions et fonction de rappel DDE](#transactions-and-the-dde-callback-function)
 -   [Noms de service, noms de rubriques et noms d’éléments](#service-names-topic-names-and-item-names)
 -   [Rubrique système](#system-topic)
--   [D’initialisation](#initialization)
+-   [Initialisation](#initialization)
 -   [Fonction de rappel](#callback-function)
 -   [Gestion des chaînes](#string-management)
 -   [DDEML et threads](#ddeml-and-threads)

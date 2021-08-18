@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.upda
 ms:contentKeyID: 55104188
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 9c97398ca903445c2d883b471e0dd7978fe95656
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33cabfe735b84985ad517d5f397fbafbed2e5355f2d76cc9762a36b7269c773a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978269"
 ---
 # <a name="update-members"></a>Membres de mise à jour
 
@@ -36,7 +36,7 @@ Le type de [mise à jour](./update-class.md) expose les membres suivants.
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Méthode publique" alt="Public method" /></td>
-<td><a href="dn351261(v=exchg.10).md">Mettre à jour</a></td>
+<td><a href="dn351261(v=exchg.10).md">Mise à jour</a></td>
 <td>Initialise une nouvelle instance de la classe de mise à jour. Une mise à jour est automatiquement lancée. La mise à jour sera annulée si elle n’est pas explicitement enregistrée.</td>
 </tr>
 </tbody>

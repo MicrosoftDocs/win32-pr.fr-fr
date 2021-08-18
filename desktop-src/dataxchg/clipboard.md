@@ -6,12 +6,12 @@ keywords:
 - presse-papiers, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2196bfa0cc2d0ce7d4eb3aa994461e30e2df752
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: e62be59ad369b85b6c9f8b4fb46f793ee68b7081d4c190b85a35a8bacea7b4b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104101376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128601"
 ---
 # <a name="clipboard"></a>Presse-papiers
 
