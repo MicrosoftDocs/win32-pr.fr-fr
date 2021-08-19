@@ -24,11 +24,11 @@ Spécifie l’origine d’un filigrane par rapport à l’origine du PageImageab
 
 
 
-| Nom | Valeur |
+| Name | Valeur |
 |----------------------------|--------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                    |
 | Préfixe d’étendue <br/> | Page<br/>                            |
-| Remarques <br/>          | Lié à l’élément PageWatermark<br/> |
+| Notes <br/>          | Lié à l’élément PageWatermark<br/> |
 
 
 
@@ -71,7 +71,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Property                | xsi:type           | Valeur                                                                  |
+| Propriété                | xsi:type           | Valeur                                                                  |
 |-------------------------|--------------------|------------------------------------------------------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>                                                  |
 | DefaultValue<br/> | entier<br/> | non défini<br/>                                                   |

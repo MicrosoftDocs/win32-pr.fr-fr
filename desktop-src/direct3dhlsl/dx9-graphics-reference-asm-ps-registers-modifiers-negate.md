@@ -43,7 +43,7 @@ Ce modificateur s’exclut mutuellement avec le [Registre source inversé](dx9-g
 
 Ce modificateur est destiné à être utilisé uniquement avec des instructions arithmétiques.
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemples
 
 L’exemple suivant montre comment utiliser ce modificateur.
 

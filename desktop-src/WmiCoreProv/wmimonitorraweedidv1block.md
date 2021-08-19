@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: 79566dccceb36281c9b3a94b19fed2ed5679dc8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72b82f2c6eb967f39823d5b56174bb82e7503ee56f676ffb49b65822ec435936
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118821144"
 ---
 # <a name="wmimonitorraweedidv1block-class"></a>WmiMonitorRawEEdidV1Block, classe
 
@@ -127,7 +127,7 @@ Type de bloc de données. Le tableau suivant répertorie les valeurs possibles q
 | <dl> <dt>0 (0x0)</dt> </dl>    | Non initialisé(e)<br/>   |
 | <dl> <dt>1 (0x1)</dt> </dl>    | Bloc de base EDID<br/> |
 | <dl> <dt>2 (0X2)</dt> </dl>    | Carte de blocs EDID<br/>  |
-| <dl> <dt>255 (0xFF)</dt> </dl> | Autres<br/>           |
+| <dl> <dt>255 (0xFF)</dt> </dl> | Autre<br/>           |
 
 
 
@@ -135,7 +135,7 @@ Type de bloc de données. Le tableau suivant répertorie les valeurs possibles q
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

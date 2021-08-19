@@ -1,5 +1,5 @@
 ---
-description: Spécifie les journaux MCA (machine Check architecture) bruts. Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+description: Spécifie les journaux MCA (machine Check architecture) bruts. cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 ms.assetid: d465ba8d-14b2-4911-ae19-19ebeb32126e
 title: Classe MSMCAInfo_RawMCAData
 ms.topic: reference
@@ -17,16 +17,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: 6cafc16ddbc91181cc2114def07a193941988228
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b7ac9f8c474a1aee55d0dd70a5a838102aec66bc8b3ba3d867070430c38a3ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118821863"
 ---
 # <a name="msmcainfo_rawmcadata-class"></a>MSMCAInfo \_ RawMCAData, classe
 
-**MSMCAInfo \_ RawMCAData** spécifie les journaux MCA (machine Check architecture) bruts. Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+**MSMCAInfo \_ RawMCAData** spécifie les journaux MCA (machine Check architecture) bruts. cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 
 La syntaxe suivante est simplifiée du code format MOF (MOF) et comprend toutes ses propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -109,7 +109,7 @@ Tableau d’enregistrements d’erreurs MCA. Le nombre d’enregistrements d’e
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **MSMCAInfo \_ RawMCAData** est dérivée de [**MSMCAInfo**](msmcainfo.md).
 

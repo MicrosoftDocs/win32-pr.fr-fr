@@ -4,12 +4,12 @@ ms.assetid: 8272ded7-9d27-4652-877b-40fc76426ffc
 title: Attribut MF_TOPOLOGY_DYNAMIC_CHANGE_NOT_ALLOWED (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ade7308c4fadef315fae0828a5c2cb29575b03a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb2e984b45abc55246c9b1ae291c535c7fbb00f01f9405d827b7fe833b57a368
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875728"
 ---
 # <a name="mf_topology_dynamic_change_not_allowed-attribute"></a>\_Attribut modification dynamique de la topologie MF \_ \_ \_ non \_ autorisé
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFTopology**](/windows/desktop/api/mfidl/nn-mfidl-imftopology)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut contrôle la manière dont la session multimédia répond si le format d’un flux est modifié pendant la diffusion en continu.
 
@@ -45,8 +45,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

@@ -30,12 +30,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 471b10f8d3c8640cfcc4277d0151bdd46d59db86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0831bff996721a170da105c800e670cf10cb4b422869062014ab4df9e2441416
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117812114"
 ---
 # <a name="cim_logicaldevice-class-hyper-v-management"></a>Classe CIM_LogicalDevice (gestion Hyper-V)
 
@@ -85,7 +85,7 @@ La classe **CIM \_ LogicalDevice** possède ces méthodes.
 | [**EnableDevice**](cim-logicaldevice-enabledevice.md)           | Cette méthode est déconseillée. Utilisez à la place la méthode **RequestStateChange** .<br/> **Description déconseillée :** Active ou désactive l’unité logique.<br/>                                                                     |
 | [**OnlineDevice**](cim-logicaldevice-onlinedevice.md)           | Cette méthode est déconseillée. Utilisez à la place la méthode **RequestStateChange** .<br/> **Description déconseillée :** Met l’appareil logique en ligne afin qu’il puisse accepter les requêtes ou hors connexion afin qu’il ne puisse plus accepter de demandes.<br/> |
 | [**QuiesceDevice**](cim-logicaldevice-quiescedevice.md)         | Cette méthode est déconseillée. Utilisez à la place la méthode **RequestStateChange** .<br/> **Description déconseillée :** Interrompt temporairement l’activité sur l’unité logique ou réactive l’activité.<br/>                            |
-| [**Réinitialiser**](cim-logicaldevice-reset.md)                         | Réinitialise l’unité logique.<br/>                                                                                                                                                                                                    |
+| [**Initialisation**](cim-logicaldevice-reset.md)                         | Réinitialise l’unité logique.<br/>                                                                                                                                                                                                    |
 | [**RestoreProperties**](cim-logicaldevice-restoreproperties.md) | Restaure une configuration et un État antérieurs de l’unité logique.<br/>                                                                                                                                                            |
 | [**SaveProperties**](cim-logicaldevice-saveproperties.md)       | Enregistre la configuration et l’état de l’unité logique.<br/>                                                                                                                                                                      |
 | [**SetPowerState**](cim-logicaldevice-setpowerstate.md)         | Cette méthode est déconseillée. Utilisez plutôt la propriété **SetPowerState** de la classe **CIM \_ PowerManagementService** .<br/> **Description déconseillée :** Définit l’état d’alimentation de l’unité logique.<br/>                       |

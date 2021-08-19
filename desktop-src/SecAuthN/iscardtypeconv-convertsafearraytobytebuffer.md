@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: aa6503f474d96e3c25da3f2780ac43976b6507a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc7132cbc37a4716adb0dcb192571f9e83597b5aa8b58933962c9366a0c9de2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118922435"
 ---
 # <a name="iscardtypeconvconvertsafearraytobytebuffer-method"></a>ISCardTypeConv :: ConvertSafeArrayToByteBuffer, méthode
 
-\[La méthode **ConvertSafeArrayToByteBuffer** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section relative à la configuration requise. Il n’est pas disponible pour une utilisation dans Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
+\[La méthode **ConvertSafeArrayToByteBuffer** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section relative à la configuration requise. elle n’est pas disponible pour une utilisation dans Windows server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
 
 La méthode **ConvertSafeArrayToByteBuffer** convertit un tableau d’octets défini en tant que SAFEARRAY en une mémoire tampon universelle d’octets (objet **IStream** ).
 
@@ -75,7 +75,7 @@ La méthode retourne l’une des valeurs possibles suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La mémoire allouée est déplaçable. Utilisez la méthode **IStream :: Release** pour libérer de la mémoire.
 
@@ -85,8 +85,8 @@ La mémoire allouée est déplaçable. Utilisez la méthode **IStream :: Releas
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                   |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Scarddat. h</dt> </dl>   |
