@@ -4,12 +4,12 @@ ms.assetid: 61bb6b0d-25b5-481b-a241-74c6e421f109
 title: Fourniture d’un Allocator-Presenter personnalisé pour VMR-9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f004e119fc1cbfc167c2130852a4f59700706fcc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21e5f87aaecf0b2e8576b60a2d0f6a8c74e60fcf0759a123015ded9136c079bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951718"
 ---
 # <a name="supplying-a-custom-allocator-presenter-for-vmr-9"></a>Fourniture d’un Allocator-Presenter personnalisé pour VMR-9
 

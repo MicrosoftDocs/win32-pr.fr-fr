@@ -8,12 +8,12 @@ keywords:
 - liaison Active Directory, liaison tardive
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5299b715325e4eda88a0eeaca2b22b4bdaa15a96
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: c479472a2974f31e8ecdd4308b01cf7c7251eada3f907d5d90ecf152028399b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637889"
 ---
 # <a name="late-binding-whats-happening-under-the-hood"></a>Liaison tardive : que se passe-t-il en coulisse ?
 
@@ -27,6 +27,6 @@ La liste suivante décrit le processus général pour effectuer une liaison tard
 -   À présent, le writer client appelle la méthode **YourNewMethod** à l’aide de l’interface [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) pour l’extension actuelle. L’implémentation **IDispatch** de l’extension délègue à **IDispatch** pour ADSI.
 -   [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) pour ADSI recherche à nouveau l’extension appropriée, ou elle-même, puis appelle l’extension appropriée à l’aide de l’interface [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension) pour cette extension.
 
- 
+ 
 
- 
+ 

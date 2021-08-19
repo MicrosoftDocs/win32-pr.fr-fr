@@ -3,7 +3,7 @@ title: Message CB_GETHORIZONTALEXTENT (winuser. h)
 description: Obtient la largeur, en pixels, que peut faire défiler la zone de liste horizontalement (largeur avec défilement). Cela s’applique uniquement si la zone de liste comporte une barre de défilement horizontale.
 ms.assetid: 7c9fff88-2750-4c94-b7f6-6bdd81c224e9
 keywords:
-- CB_GETHORIZONTALEXTENT les contrôles de message Windows
+- CB_GETHORIZONTALEXTENT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a2b1fb7c8fe7549360801516364528c9a2ef1f1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 928561b812dd3a09909d8d89c7dda1dc67b63f9177769d80db2d16ac78cbbf72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089209"
 ---
 # <a name="cb_gethorizontalextent-message"></a>\_Message GETHORIZONTALEXTENT CB
 
@@ -53,8 +53,8 @@ La valeur de retour est la largeur de défilement, en pixels.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

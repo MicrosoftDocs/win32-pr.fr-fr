@@ -4,21 +4,21 @@ description: RadiusRange VML (attribut)
 ms.assetid: bff2b185-7683-4994-9104-09a7579f963d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 085ccfbcfe39c9ac3ea47350deebc6c5c59e0fa0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b28e086ef45f60445f63d094934258832fa7e63b58f95f09b1391318d8283fea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007669"
 ---
 # <a name="vml-radiusrange-attribute"></a>RadiusRange VML (attribut)
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit la plage d’une poignée polaire. En lecture/écriture. **VgVector2D**.
 
@@ -36,6 +36,6 @@ Une valeur minimale et maximale est définie pour un handle radial. Chaque valeu
 
 *Attribut standard VML*
 
- 
+ 
 
- 
+ 

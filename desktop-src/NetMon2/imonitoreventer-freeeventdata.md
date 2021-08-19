@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Netmon.h
-ms.openlocfilehash: c71b7563e00bfceb220ce1c2bf109339267fbabf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2bf462ef63045c8c4e5822e3d28fc21b44dfeed5848da3ac89c8232dfacc062
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037439"
 ---
 # <a name="imonitoreventerfreeeventdata-method"></a>IMonitorEventer :: FreeEventData, méthode
 
@@ -50,7 +50,7 @@ Adresse de la structure [**NMEVENTDATA**](nmeventdata.md) , dont la mémoire est
 
 Cette méthode retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les analyses appellent cette méthode pour libérer la mémoire qu’elles allouent pour la structure des données d’événement. Sachez que bien que le moniteur ait toujours un pointeur vers des chaînes dans une structure [**NMEVENTDATA**](nmeventdata.md) allouée, la mémoire de ces chaînes doit être libérée avant l’appel de la méthode **FreeEventData** .
 

@@ -1,12 +1,12 @@
 ---
-title: Lecture de flux avec des pixels non carrés
-description: Lecture de flux avec des pixels non carrés
+title: lecture Flux avec des Pixels Non carrés
+description: lecture Flux avec des Pixels Non carrés
 ms.assetid: 32114c81-cb78-43de-9ea7-f210056f5aab
 keywords:
-- Windows Media Format SDK, lire des flux vidéo
-- Kit de développement logiciel (SDK) Windows Media format, flux vidéo
+- Windows Media Format SDK, lire les flux vidéo
+- Windows Media Format SDK, flux vidéo
 - Windows Media Format SDK, pixels non carrés
-- Windows Media Format SDK, pixels (non carrés)
+- Windows Media Format SDK, pixels (non carré)
 - ASF (Advanced Systems Format), lecture des flux vidéo
 - ASF (format des systèmes avancés), lire les flux vidéo
 - ASF (Advanced Systems Format), flux vidéo
@@ -22,14 +22,14 @@ keywords:
 - pixels (non carrés)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecfc14019e9822aefedb7600adc4209317293b2f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9173c7b5dca81f11a6e35afafe30efa33d86c604adcadb59a51b17ab8130422c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846026"
 ---
-# <a name="reading-streams-with-non-square-pixels"></a>Lecture de flux avec des pixels non carrés
+# <a name="reading-streams-with-non-square-pixels"></a>lecture Flux avec des Pixels Non carrés
 
 Les applications de lecteur qui doivent gérer correctement les pixels non carrés doivent examiner à la fois les attributs au niveau du flux dans l’en-tête ASF et les extensions d’unité de données sur chaque exemple. Il existe deux cas où le rectangle de sortie doit être ajusté pour compenser les pixels non carrés.
 
@@ -41,12 +41,12 @@ Lorsque votre application de lecteur produit une vidéo qui est lue sur une tél
 
 <dl> <dt>
 
-[**Pour lire et écrire des flux vidéo avec des pixels non carrés**](to-read-and-write-video-streams-with-non-square-pixels.md)
+[**pour lire et écrire des Flux vidéo avec des Pixels Non carrés**](to-read-and-write-video-streams-with-non-square-pixels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

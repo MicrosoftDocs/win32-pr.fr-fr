@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 3497d71475198d035a496909e65c47df6c5f8b8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dabc24d17fdac881537d45e47a8cc6808a1cf805ac14025d7fdfcfa50eea8500
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056629"
 ---
 # <a name="iwicimagingfactory_createdecoderfromfilename_proxy-function"></a>IWICImagingFactory \_ \_ fonction proxy CreateDecoderFromFilename
 
@@ -48,11 +48,11 @@ HRESULT IWICImagingFactory_CreateDecoderFromFilename_Proxy(
 *pFactory* \[ dans\]
 </dt> <dd>
 
-Tapez : **IWICImagingFactory \** _
+Type : **IWICImagingFactory \***
 
 </dd> <dt>
 
-_wzFilename * \[ dans\]
+*wzFilename* \[ dans\]
 </dt> <dd>
 
 Type : **LPCWSTR**
@@ -64,13 +64,13 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie le n
 *pGuidVendor* \[ dans\]
 </dt> <dd>
 
-Type : * #*const \* GUID* _
+Type : **const GUID \***
 
 GUID du fournisseur pour le décodeur.
 
 </dd> <dt>
 
-_dwDesiredAccess * \[ dans\]
+*dwDesiredAccess* \[ dans\]
 </dt> <dd>
 
 Type : **DWORD**
@@ -113,8 +113,8 @@ Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP avec SP2, applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                                                             |
+| Client minimal pris en charge<br/> | Windows XP avec SP2, Windows les \[ applications de bureau Vista uniquement\]<br/>                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll ; </dt> <dt>Wincodec. lib</dt> </dl> |
 
 

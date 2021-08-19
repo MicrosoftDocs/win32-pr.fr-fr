@@ -4,12 +4,12 @@ ms.assetid: de21968e-4590-4798-9152-43204d55521f
 title: Vérification de l’accès client avec les ACL en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cda629338d731d6e93f316fc15a6338c99bc1609
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d2160b48a3b88a617eaaea1e8fae63168db5a85e82cad62be5aef248ff51581
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906689"
 ---
 # <a name="verifying-client-access-with-acls-in-c"></a>Vérification de l’accès client avec les ACL en C++
 

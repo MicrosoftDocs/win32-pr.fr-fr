@@ -4,17 +4,17 @@ description: La couleur est un élément visuel important de la plupart des inte
 ms.assetid: 30a60e9e-ebb4-40f2-8535-a9b58dc668a8
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 598654c7e96f025bbcc1ff2a97c96df1a328c046
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 9ade1c87606aa14831220e501a5f39f5d2ce2d1ebb4016ad04822634b7735c10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119936753"
 ---
 # <a name="color"></a>Couleur
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 La couleur est un élément visuel important de la plupart des interfaces utilisateur. Au-delà de l’esthétique pure, la couleur a des significations associées et entraîne des réponses émotionnelles. Pour éviter toute confusion en ce sens, la couleur doit être utilisée de manière cohérente. Pour obtenir les réponses émotionnels souhaitées, la couleur doit être utilisée de manière appropriée.
 
@@ -57,7 +57,7 @@ L’espace colorimétrique HSV est similaire, à ceci près que son espace forme
 
     L’espace colorimétrique HSV peut être visualisé sous la forme d’un cône unique.
 
-Dans les espaces TSL et HSV, si la saturation est égale à 0, la luminosité spécifie une nuance de gris. Dans Windows, les espaces TSL et HSV sont généralement remappés à une échelle comprise entre 0 et 240 afin que les couleurs puissent être représentées par une valeur de 32 bits.
+Dans les espaces TSL et HSV, si la saturation est égale à 0, la luminosité spécifie une nuance de gris. dans Windows, les espaces tsl et HSV sont généralement remappés à une échelle comprise entre 0 et 240 afin que les couleurs puissent être représentées par une valeur de 32 bits.
 
 **Remarque :** Les instructions relatives aux [polices](vis-fonts.md) et à l' [accessibilité](inter-accessibility.md) sont présentées dans des articles distincts.
 
@@ -74,9 +74,9 @@ Cette section explique ce que vous devez savoir pour utiliser efficacement la co
 La couleur est généralement utilisée dans l’interface utilisateur pour communiquer :
 
 -   **C.-à-d.** La signification d’un message peut être résumée par couleur. Par exemple, la couleur est souvent utilisée pour communiquer l’État lorsque le rouge est un problème ou une erreur, que le jaune est prudent ou averti et que le vert est correct.
--   **Département.** L’état d’un objet peut être indiqué par la couleur. Par exemple, Windows utilise la couleur pour indiquer les États de sélection et de survol. Les liens dans les pages Web utilisent Blue pour les points de vue invisités et violet pour les visiteurs.
--   **Différenti.** Les utilisateurs partent du principe qu’il existe une relation entre les éléments de la même couleur, de sorte que le codage en couleurs est un moyen efficace de faire la différence entre les objets. Par exemple, dans un élément du panneau de configuration, les volets des tâches utilisent un arrière-plan vert pour les séparer visuellement du contenu principal. En outre, Microsoft Outlook permet aux utilisateurs d’attribuer des indicateurs de couleur différents aux messages.
--   **Privilégié.** La couleur peut être utilisée pour attirer l’attention des utilisateurs. Par exemple, Windows utilise [des instructions principales](text-ui.md) bleues pour les aider à sortir de l’autre texte.
+-   **Département.** L’état d’un objet peut être indiqué par la couleur. par exemple, Windows utilise la couleur pour indiquer les états de sélection et de survol. Les liens dans les pages Web utilisent Blue pour les points de vue invisités et violet pour les visiteurs.
+-   **Différenti.** Les utilisateurs partent du principe qu’il existe une relation entre les éléments de la même couleur, de sorte que le codage en couleurs est un moyen efficace de faire la différence entre les objets. Par exemple, dans un élément du panneau de configuration, les volets des tâches utilisent un arrière-plan vert pour les séparer visuellement du contenu principal. en outre, Microsoft Outlook permet aux utilisateurs d’attribuer différents indicateurs de couleur aux messages.
+-   **Privilégié.** La couleur peut être utilisée pour attirer l’attention des utilisateurs. par exemple, Windows utilise [des instructions principales](text-ui.md) bleues pour les aider à sortir de l’autre texte.
 
 Bien entendu, la couleur est souvent utilisée dans les graphiques pour des raisons purement esthétiques. Bien que les esthétiques soient importantes, vous devez choisir les couleurs des éléments de l’interface utilisateur principalement en fonction de ce qu’ils signifient, et non de leur aspect.
 
@@ -86,7 +86,7 @@ Bien entendu, la couleur est souvent utilisée dans les graphiques pour des rais
 
 Cela dit, **l’interprétation du rouge, du jaune et du vert pour l’État est cohérente dans le monde entier.** Cela est dû à la [Convention d’UNESCO Vienne sur les signes et les signaux routiers](https://www.unece.org/trans/conventn/signalse.pdf), qui définit la convention mondiale pour les feux de circulation (où rouge signifie arrêter, vert signifie continuer et jaune signifie procéder à la prudence). Vous pouvez utiliser ces couleurs d’État sans vous préoccuper des interprétations dépendantes de la culture.
 
-Au-delà des couleurs d’État, Windows attribue des significations aux couleurs en fonction de la Convention, comme indiqué dans la section Instructions de cet article. Assurez-vous que l’utilisation des couleurs de votre programme est compatible avec ces conventions de couleur.
+au-delà des couleurs d’état, Windows affecte des significations aux couleurs en fonction de la convention, comme indiqué dans la section instructions de cet article. Assurez-vous que l’utilisation des couleurs de votre programme est compatible avec ces conventions de couleur.
 
 ### <a name="color-accessibility"></a>Accessibilité des couleurs
 
@@ -136,7 +136,7 @@ Ironiquement, la meilleure façon de concevoir des couleurs consiste à commence
 
 ### <a name="use-theme-or-system-colors"></a>Utiliser le thème ou les couleurs système
 
-Bien qu’il existe de nombreux facteurs complexes dans l’utilisation efficace de la couleur, dans l’interface utilisateur Windows, choisir la couleur fait souvent bouillir pour choisir simplement la couleur de [thème](glossary.md) ou la [couleur système](glossary.md) appropriée en fonction de quelques règles simples. Les utilisateurs peuvent ensuite sélectionner et personnaliser ces modèles de couleurs en fonction de leur choix.
+bien qu’il existe de nombreux facteurs complexes dans l’utilisation efficace de la couleur, dans Windows interface utilisateur choisir la couleur fait souvent bouillir pour choisir simplement la couleur de [thème](glossary.md) ou la [couleur système](glossary.md) appropriée en fonction de quelques règles simples. Les utilisateurs peuvent ensuite sélectionner et personnaliser ces modèles de couleurs en fonction de leur choix.
 
 En procédant ainsi, vous pouvez non seulement prendre en charge les préférences de couleur de tous vos utilisateurs, mais vous éliminez le choix du jeu de couleurs parfait qui fonctionne pour tous les goûts, styles et cultures (ce qui, bien sûr, n’est pas impossible).
 
@@ -150,7 +150,7 @@ Supposons que les utilisateurs choisissent des couleurs de thème ou de système
 
 Plus précisément, toujours :
 
--   **Choisissez des couleurs en fonction de leur objectif.** Ne choisissez pas de couleurs en fonction de leur apparence actuelle, car l’apparence peut être modifiée par l’utilisateur ou les versions futures de Windows.
+-   **Choisissez des couleurs en fonction de leur objectif.** Ne choisissez pas de couleurs en fonction de leur apparence actuelle, car l’apparence peut être modifiée par l’utilisateur ou les versions ultérieures de Windows.
 -   **Faire correspondre les couleurs de premier plan avec les couleurs d’arrière-plan associées.** Il est garanti que les couleurs de premier plan sont lisibles uniquement par rapport aux couleurs d’arrière-plan qui leur sont associées. N’associez pas les couleurs de premier plan à d’autres couleurs d’arrière-plan, ou pire encore, à d’autres couleurs de premier plan.
 -   **Ne mélangez pas les types de couleurs.** Autrement dit, les couleurs de thème sont toujours identiques avec les couleurs de thème associées, les couleurs système avec les couleurs système associées et les couleurs câblées avec d’autres couleurs câblées. Par exemple, il n’est pas garanti que la couleur du texte d’un thème soit lisible sur un arrière-plan câblé.
 -   **Si vous devez vous conformer à des broches, gérez le mode de contraste élevé comme un cas spécial.**
@@ -161,7 +161,7 @@ Choisissez toujours le thème ou les couleurs système en fonction de leur rôle
 
 ### <a name="using-other-colors"></a>Utilisation d’autres couleurs
 
-Tandis que le thème Windows définit un ensemble complet de parties de thèmes, vous constaterez peut-être que votre programme a besoin de couleurs qui ne sont pas définies dans le fichier de thème. Bien que vous puissiez universer ces couleurs, une meilleure approche consiste à dériver les couleurs du thème ou des couleurs système. À l’aide de cette approche, vous bénéficiez de tous les avantages de l’utilisation des couleurs de thème et système, mais avec une plus grande flexibilité.
+tandis que le thème Windows définit un ensemble complet de parties de thèmes, vous constaterez peut-être que votre programme a besoin de couleurs qui ne sont pas définies dans le fichier de thème. Bien que vous puissiez universer ces couleurs, une meilleure approche consiste à dériver les couleurs du thème ou des couleurs système. À l’aide de cette approche, vous bénéficiez de tous les avantages de l’utilisation des couleurs de thème et système, mais avec une plus grande flexibilité.
 
 Par exemple, supposons que vous ayez besoin d’un arrière-plan de fenêtre plus sombre que la couleur d’arrière-plan de la fenêtre de thème. Dans l’espace de couleurs TSL, une couleur plus sombre correspond à une couleur avec une luminosité inférieure. Par conséquent, vous pouvez dériver une couleur d’arrière-plan de fenêtre plus sombre en procédant comme suit :
 
@@ -185,9 +185,9 @@ Pour déterminer si l’utilisation de la couleur de votre programme est accessi
 
 Pour déterminer si l’utilisation de la couleur de votre programme est programmée correctement, testez votre programme dans les modes suivants :
 
--   Thèmes activés à l’aide du thème Windows par défaut.
+-   thèmes activés à l’aide du thème Windows par défaut.
 -   Thèmes activés à l’aide d’un thème autre que celui par défaut.
--   Thèmes désactivés (« style classique Windows » dans les paramètres de thème de l’élément du panneau de configuration de personnalisation).
+-   thèmes désactivés (« Windows style classique » dans le thème Paramètres dans l’élément du panneau de configuration de personnalisation).
 -   Contraste élevé noir (texte blanc sur un arrière-plan noir).
 -   Contraste élevé blanc (texte noir sur un arrière-plan blanc).
 
@@ -195,37 +195,37 @@ Tous les éléments de l’écran doivent être lisibles et s’afficher comme p
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **N’utilisez jamais la couleur comme méthode principale de communication,** mais comme méthode secondaire pour renforcer visuellement la signification.
 
 ### <a name="using-theme-and-system-colors"></a>Utilisation des couleurs de thème et système
 
 -   **Dans la mesure du possible, choisissez couleurs en sélectionnant la couleur de thème ou la couleur système appropriée.** En procédant ainsi, vous pouvez toujours respecter les préférences en matière de couleurs des utilisateurs.
--   **Choisissez des couleurs de thème et système en fonction de leur rôle.** Ne choisissez pas de couleurs en fonction de leur apparence actuelle, car l’apparence peut être modifiée par l’utilisateur ou les versions futures de Windows.
+-   **Choisissez des couleurs de thème et système en fonction de leur rôle.** Ne choisissez pas de couleurs en fonction de leur apparence actuelle, car l’apparence peut être modifiée par l’utilisateur ou les versions ultérieures de Windows.
 -   **Faire correspondre les couleurs de premier plan avec les couleurs d’arrière-plan associées.** Il est garanti que les couleurs de premier plan sont lisibles uniquement par rapport aux couleurs d’arrière-plan qui leur sont associées. N’associez pas les couleurs de premier plan à d’autres couleurs d’arrière-plan, ou pire encore, à d’autres couleurs de premier plan.
 -   **Ne mélangez pas les types de couleurs.** Autrement dit, les couleurs de thème sont toujours identiques avec les couleurs de thème associées, les couleurs système avec les couleurs système associées et les couleurs câblées avec d’autres couleurs câblées. Par exemple, il n’est pas garanti que la couleur du texte d’un thème soit lisible sur un arrière-plan câblé.
 -   **Si vous devez utiliser une couleur qui n’est pas un thème ou une couleur système :**
     -   **Préférez dériver la couleur à partir d’un thème ou d’une couleur système sur hardwiring sa valeur.** Utilisez le processus décrit plus haut dans cet article, dans à l’aide d’autres couleurs.
     -   **Gérez le mode de contraste élevé comme un cas spécial.**
--   **Gérer les modifications de thème.** Les modifications de thème sont gérées automatiquement par Windows avec des frames de fenêtre standard et des contrôles communs. Windows avec des frames de fenêtre personnalisés, des contrôles personnalisés ou owner-draw, et d’autres utilisation de la couleur doivent gérer les modifications de thème de manière explicite.
+-   **Gérer les modifications de thème.** Les modifications de thème sont gérées automatiquement par Windows avec des frames de fenêtre standard et des contrôles communs. Windows avec des frames de fenêtre personnalisés, des contrôles personnalisés ou owner-draw, et d’autres utilisation de la couleur doivent gérer les modifications de thème explicitement.
     -   **Développeurs :** Vous pouvez répondre aux événements de changement de thème en gérant le \_ message WM THEMECHANGED.
 
 ### <a name="color-meaning"></a>Signification de la couleur
 
--   Si vous devez utiliser des couleurs de thème et système (ou des couleurs dérivées) chaque fois que vous le pouvez, assurez-vous que toute autre utilisation de la couleur est compatible avec l’utilisation des couleurs suivantes dans les fenêtres.
+-   Si vous devez utiliser des couleurs de thème et système (ou des couleurs dérivées) chaque fois que vous le pouvez, assurez-vous que toute autre utilisation de la couleur est compatible avec l’utilisation de couleur dans Windows.
 
 
 
 | Teinte | Signification | Utiliser dans Windows  |
 |--------------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| bleu/vert<br/>                | Windows<br/>                                                      | Arrière-plan : personnalisation de Windows.<br/>                                                                                                                        |
-| verre, noir, gris, blanc<br/> | neutre<br/>                                                            | Arrière-plan : frames de fenêtre standard, menu Démarrer, barre des tâches, encadré.<br/> Foreground : texte normal.<br/>                                                |
+| bleu/vert<br/>                | Windows de la personnalisation<br/>                                                      | arrière-plan : personnalisation de la Windows.<br/>                                                                                                                        |
+| verre, noir, gris, blanc<br/> | neutre<br/>                                                            | arrière-plan : frames de fenêtre standard, menu Démarrer, barre des tâches, encadré.<br/> Foreground : texte normal.<br/>                                                |
 | blue<br/>                      | Démarrer, valider<br/>                                                      | Background : boutons de commande par défaut, Rechercher, ouvrir une session.<br/> Icônes : informations, aide.<br/> Premier plan : instructions principales, liens.<br/>           |
 | rouge<br/>                       | erreur, arrêt, vulnérable, critique, attention immédiate, limité<br/> | Background : Status, Stopped Progress (barres de progression).<br/> Icônes : erreur, arrêter, fermer la fenêtre, supprimer, entrée requise, manquant, non disponible.<br/>     |
 | yellow<br/>                    | avertissement, attention, douteux<br/>                                     | Background : Status, progressed Progress (barres de progression).<br/> Icônes : AVERTISSEMENT<br/>                                                                       |
 | green<br/>                     | aller, continuer, progression, sécurisé<br/>                                        | Background : Status, normal Progress (barres de progression).<br/> Icônes : aller, terminer, actualiser.<br/> Foreground : chemins d’accès et URL (dans les résultats de la recherche).<br/> |
-| purple<br/>                    | fréquent<br/>                                                            | Premier plan : liens visités (pour les liens dans Windows Internet Explorer et les documents).<br/>                                                                |
+| purple<br/>                    | fréquent<br/>                                                            | premier plan : liens visités (pour les liens dans Windows Internet Explorer et les documents).<br/>                                                                |
 
 
 
@@ -275,5 +275,5 @@ Dans cet exemple, il y a trois nuances de couleur jaune, mais seule la nuance tr
 
 ![capture d’écran du message contenant’or bar' ](images/vis-color-image18.png)
 
-Dans l’exemple incorrect, le message fait référence à la barre d’informations de Windows Internet Explorer par sa couleur plutôt que par son nom.
+dans l’exemple incorrect, le message fait référence au Windows barre d’informations d’Internet Explorer par sa couleur plutôt que par son nom.
 

@@ -1,32 +1,32 @@
 ---
-description: Rôles d’appareil pour les applications DirectShow
+description: rôles d’appareil pour les Applications DirectShow
 ms.assetid: 54f42bda-b4a0-465c-9ce6-9102d2908776
-title: Rôles d’appareil pour les applications DirectShow
+title: rôles d’appareil pour les Applications DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df8b43ddd56870b65fc9ec1e3bb600e8e6b79528
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 56e22a86e5537f11b6b4153753841a2682b5ac77a043a3fa74538714a2540377
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104482760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957358"
 ---
-# <a name="device-roles-for-directshow-applications"></a>Rôles d’appareil pour les applications DirectShow
+# <a name="device-roles-for-directshow-applications"></a>rôles d’appareil pour les Applications DirectShow
 
 > [!Note]  
-> L' [API MMDevice](mmdevice-api.md) prend en charge les rôles d’appareil. Toutefois, l’interface utilisateur de Windows Vista n’implémente pas la prise en charge de cette fonctionnalité. La prise en charge de l’interface utilisateur pour les rôles d’appareil peut être implémentée dans une future version de Windows. Pour plus d’informations, consultez [rôles de périphérique dans Windows Vista](device-roles-in-windows-vista.md).
+> L' [API MMDevice](mmdevice-api.md) prend en charge les rôles d’appareil. toutefois, l’interface utilisateur de Windows Vista n’implémente pas la prise en charge de cette fonctionnalité. La prise en charge de l’interface utilisateur pour les rôles d’appareil peut être implémentée dans une future version de Windows. pour plus d’informations, consultez [rôles d’appareil dans Windows Vista](device-roles-in-windows-vista.md).
 
  
 
-L’API DirectShow ne permet pas à une application de sélectionner l’appareil de [point de terminaison audio](audio-endpoint-devices.md) affecté à un rôle d' [appareil](device-roles.md)particulier. Toutefois, dans Windows Vista, les API audio de base peuvent être utilisées conjointement avec une application DirectShow pour activer la sélection d’appareils en fonction du rôle d’appareil. Avec l’aide des API audio de base, l’application peut :
+l’API DirectShow ne permet pas à une application de sélectionner l’appareil de [point de terminaison audio](audio-endpoint-devices.md) affecté à un rôle d' [appareil](device-roles.md)particulier. toutefois, dans Windows Vista, les api audio de base peuvent être utilisées conjointement avec une application DirectShow pour activer la sélection des appareils en fonction du rôle de l’appareil. Avec l’aide des API audio de base, l’application peut :
 
 -   Identifiez l’appareil de point de terminaison audio que l’utilisateur a affecté à un rôle d’appareil particulier.
--   Créez un filtre de rendu audio DirectShow avec une interface [**IBaseFilter**](/windows/desktop/api/strmif/nn-strmif-ibasefilter) qui encapsule l’appareil de point de terminaison audio.
--   Créez un graphique DirectShow qui incorpore le filtre.
+-   créez un filtre de rendu audio DirectShow avec une interface [**IBaseFilter**](/windows/desktop/api/strmif/nn-strmif-ibasefilter) qui encapsule l’appareil de point de terminaison audio.
+-   créez un DirectShow graphique qui incorpore le filtre.
 
-Pour plus d’informations sur DirectShow et [**IBaseFilter**](/windows/desktop/api/strmif/nn-strmif-ibasefilter), consultez la documentation SDK Windows.
+pour plus d’informations sur DirectShow et [**IBaseFilter**](/windows/desktop/api/strmif/nn-strmif-ibasefilter), consultez la documentation SDK Windows.
 
-L’exemple de code suivant montre comment créer un filtre de rendu audio DirectShow qui encapsule l’appareil de point de terminaison de rendu affecté à un rôle d’appareil particulier :
+l’exemple de code suivant montre comment créer un DirectShow filtre de rendu audio qui encapsule l’appareil de point de terminaison de rendu affecté à un rôle d’appareil particulier :
 
 
 ```C++

@@ -3,7 +3,7 @@ title: Message LVM_GETNEXTITEM (commctrl. h)
 description: Recherche un élément de liste avec les propriétés spécifiées et porte la relation spécifiée à un élément spécifié. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView GetNextItem.
 ms.assetid: 2d458f12-b9d3-4b9e-bcb4-927c14c16537
 keywords:
-- LVM_GETNEXTITEM les contrôles de message Windows
+- LVM_GETNEXTITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7c4282ebf3572587dd5c8b8b3df1906a51a920e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 40e8e6fdf068f06176d6965a2fb885b349a74ea5cde73c5952d16d7c76512ae8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002559"
 ---
 # <a name="lvm_getnextitem-message"></a>\_Message GETNEXTITEM LVM
 
@@ -76,9 +76,9 @@ Spécifie la relation à l’élément spécifié dans *wParam*. Il peut s’agi
 
 Retourne l’index de l’élément suivant en cas de réussite, ou-1 dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Notez que les indicateurs suivants, à utiliser uniquement avec Windows Vista, s’excluent mutuellement de tous les autres indicateurs en cours d’utilisation : LVNI \_ VISIBLEONLY, LVNI \_ SAMEGROUPONLY, LVNI \_ VISIBLEORDER, LVNI \_ DIRECTIONMASK et LVNI STATEMASK \_ .
+notez que les indicateurs suivants, à utiliser uniquement avec Windows Vista, s’excluent mutuellement de tous les autres indicateurs en cours d’utilisation : LVNI \_ VISIBLEONLY, LVNI \_ SAMEGROUPONLY, LVNI \_ VISIBLEORDER, LVNI \_ DIRECTIONMASK et LVNI STATEMASK \_ .
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -86,8 +86,8 @@ Notez que les indicateurs suivants, à utiliser uniquement avec Windows Vista, s
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

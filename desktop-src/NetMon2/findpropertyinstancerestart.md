@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: d1e731bb00b28bb62862dd18fbd6031fa973fe38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0699cb37165e9181bf78bc3a86ad68c07dbbd589469e3e0bca6a1cd0228573f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890809"
 ---
 # <a name="findpropertyinstancerestart-function"></a>FindPropertyInstanceRestart fonction)
 
@@ -78,7 +78,7 @@ Si la fonction réussit, la valeur de retour est le prochain **LPPROPERTYINST** 
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **FindPropertyInstanceRestart** .
 

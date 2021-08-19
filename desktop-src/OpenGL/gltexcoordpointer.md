@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: febc9c79bdbc4a1ed1c14380af47f36309f12662
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0892f06b3fd5027939710be9ac74a2ae18c0dc0d712572d094b9a54fd6bb5b3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888249"
 ---
 # <a name="gltexcoordpointer-function"></a>glTexCoordPointer fonction)
 
@@ -89,7 +89,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glTexCoordPointer** spécifie l’emplacement et les données d’un tableau de coordonnées de texture à utiliser lors du rendu. Le paramètre *Size* spécifie le nombre de coordonnées utilisées pour chaque élément du tableau. Le paramètre de *type* spécifie le type de données de chaque coordonnée de texture. Le paramètre *Stride* détermine le décalage d’octets d’un élément de tableau à l’autre, ce qui permet d’empaqueter des vertex et des attributs dans un tableau unique ou un stockage dans des tableaux séparés. Dans certaines implémentations, le stockage des vertex et des attributs dans un tableau unique peut être plus efficace que l’utilisation de tableaux séparés. Pour plus d’informations, consultez [**glInterleavedArrays**](glinterleavedarrays.md). Lorsqu’un tableau de coordonnées de texture est spécifié, la taille, le type, la Stride et le pointeur sont enregistrés à l’État côté client.
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102075
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 03f8cbd983ee155e35f9e18407f4502436eaa0ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0aedf07826b8b918de6ee9a01b85d09ab97b9894d18da47b6c04106b96ff382
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104560174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064519"
 ---
 # <a name="esentinvalidpathexception-properties"></a>Propriétés EsentInvalidPathException
 
@@ -49,7 +49,7 @@ Le type [EsentInvalidPathException](./esentinvalidpathexception-class.md) expose
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

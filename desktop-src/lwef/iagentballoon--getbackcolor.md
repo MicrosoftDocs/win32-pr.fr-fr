@@ -4,12 +4,12 @@ description: IAgentBalloon GetBackColor
 ms.assetid: 278ed645-0e6c-4a5d-bd85-3e3b7a1e3333
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cce886c9929892c89b56f162f784dc27a472209
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b7c58a913332d01f2982c28003c146420d34a86e96f3c833f667c968bd22ef19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888419"
 ---
 # <a name="iagentballoongetbackcolor"></a>IAgentBalloon::GetBackColor
 
@@ -41,9 +41,9 @@ La couleur d’arrière-plan utilisée dans une bulle de mot de caractères est 
 [**IAgentBalloon::GetForeColor**](iagentballoon--getforecolor.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

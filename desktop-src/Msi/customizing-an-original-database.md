@@ -63,7 +63,7 @@ Utilisez votre éditeur de base de données pour modifier les données dans la [
 
 
 
-| Fonctionnalité     | Parent de la fonctionnalité \_ | Titre         | Description                | Affichage | Niveau | Répertoire\_ | Attributs |
+| Caractéristique     | Parent de la fonctionnalité \_ | Titre         | Description                | Affichage | Niveau | Répertoire\_ | Attributs |
 |-------------|-----------------|---------------|----------------------------|---------|-------|-------------|------------|
 | Spectacle        |                 | Spectacle          | Événements Arts au niveau du parc rouge.   | 20      | 3     | NOTEPADDIR  | 0          |
 | Chaussures    | Sport           | Chaussures      | Jeux de baseball             | 17      | 3     | SPORTDIR    | 32         |
@@ -89,7 +89,7 @@ Ajoutez l’enregistrement suivant à la [table FeatureComponents](featurecompon
 
 
 
-| Fonctionnalité\_   | Composant\_ |
+| Caractéristique\_   | Composant\_ |
 |-------------|-------------|
 | Téléphone \_ Tarifs | Téléphone       |
 
@@ -103,7 +103,7 @@ ajoutez un nouvel enregistrement dans la [table de raccourcis](shortcut-table.md
 
 
 
-| Raccourci | Répertoire\_ | Nom      | Composant\_ | Cible          | Arguments | Description | Touche d’accès rapide | Située\_ | IndexIcône | ShowCmd | WkDir |
+| Raccourci | Répertoire\_ | Name      | Composant\_ | Cible          | Arguments | Description | Touche d’accès rapide | Située\_ | IndexIcône | ShowCmd | WkDir |
 |----------|-------------|-----------|-------------|-----------------|-----------|-------------|--------|--------|-----------|---------|-------|
 | À la une   | MENUDIR     | Phone.txt | Téléphone       | \[\#Phone.txt\] |           |             |        |        |           |         |       |
 

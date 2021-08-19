@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 94bafcdcb6e44a07afdccea382d783c20a9ad2ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c0594eed7f253f7e540f843dfc3c3de6481d7dbede3f25d1534e52181ef0585b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057519"
 ---
 # <a name="cautousingoutputpincautousingoutputpin-constructor"></a>Constructeur CAutoUsingOutputPin. CAutoUsingOutputPin
 
@@ -57,7 +57,7 @@ Pointeur vers une variable qui contient une valeur **HRESULT** . La valeur doit 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque la méthode retourne, la valeur de *\* PHR* indique la réussite ou l’échec de la méthode.
 
@@ -67,7 +67,7 @@ Lorsque la méthode retourne, la valeur de *\* PHR* indique la réussite ou l’
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

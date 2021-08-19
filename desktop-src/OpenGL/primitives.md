@@ -8,12 +8,12 @@ keywords:
 - primitives OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7f68662515604e555629f7463b239baaf0ef444
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 24b9d20ea7c8de3fc4557fed217e9976c2a98a4dd4129a25f923c90d479c07a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106509691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888049"
 ---
 # <a name="primitives-opengl"></a>Primitives (OpenGL)
 
@@ -25,7 +25,7 @@ Au cours de l’étape suivante du traitement, les primitives sont converties en
 
 Pour plus d'informations, voir les rubriques suivantes :
 
--   [Portion](clipping.md)
+-   [Découpage](clipping.md)
 -   [Transformer en coordonnées de fenêtre](transforming-to-window-coordinates.md)
 -   [Rastérisation](rasterizing.md)
 -   [Référence des primitives](primitives-reference.md)

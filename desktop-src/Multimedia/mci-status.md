@@ -3,7 +3,7 @@ title: Commande MCI_STATUS (mmsystem. h)
 description: La \_ commande d’État MCI récupère des informations sur un périphérique MCI. Tous les appareils reconnaissent cette commande. Les informations sont retournées dans le membre dwReturn de la structure identifiée par le paramètre lpStatus.
 ms.assetid: d1c3dff9-c66f-4525-aac1-4a15b43083e7
 keywords:
-- Commande MCI_STATUS Windows multimédia
+- commande MCI_STATUS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86553ac759a362c1ea4abb53a47d0e9376cbc526
-ms.sourcegitcommit: 8276af9231bdbf5a7334299f0d13fc8ff069a065
+ms.openlocfilehash: 9905000c718ff70435ec91bf86bf7a77d14379ed7ca557eaa85fb0df594196c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "104321253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784279"
 ---
 # <a name="mci_status-command"></a>\_Commande d’État MCI
 
@@ -71,7 +71,7 @@ Pointeur vers une structure d' [**\_ \_ État MCI**](mci-status-parms.md) . (Les
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs standard et spécifiques à la commande suivants s’appliquent à tous les appareils prenant en charge l' \_ État MCI :
 
@@ -1192,7 +1192,7 @@ Le membre **dwReturn** est défini sur les échantillons actuels par seconde uti
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

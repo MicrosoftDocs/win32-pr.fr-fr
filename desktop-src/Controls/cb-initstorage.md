@@ -3,7 +3,7 @@ title: Message CB_INITSTORAGE (winuser. h)
 description: Une application envoie le \_ message CB INITSTORAGE avant l’ajout d’un grand nombre d’éléments à la partie zone de liste d’une zone de liste déroulante. Ce message alloue de la mémoire pour le stockage des éléments de zone de liste.
 ms.assetid: fb289968-a95b-4ca0-977d-b8651166f357
 keywords:
-- CB_INITSTORAGE les contrôles de message Windows
+- CB_INITSTORAGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e78c2ae2592d89ba7a0f6392666dac0404d52e39
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1be1aeccdde2c81c87956a42e72440732ff9eb2732cbd066f51308816c01f64a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089089"
 ---
 # <a name="cb_initstorage-message"></a>Message de la CB- \_ INITSTORAGE
 
@@ -51,7 +51,7 @@ Si le message échoue, la valeur de retour est CB \_ ERRSPACE.
 
 Le message alloue de la mémoire et retourne les valeurs de réussite et d’erreur décrites ci-dessus.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message **CB \_ INITSTORAGE** permet d’accélérer l’initialisation des zones de liste déroulante qui ont un grand nombre d’éléments (plus de 100). Il réserve la quantité de mémoire spécifiée afin que les messages [**CB \_ ADDSTRING**](cb-addstring.md), [**CB \_ INSERTSTRING**](cb-insertstring.md)et [**CB \_ dir**](cb-dir.md) suivants prennent le plus de temps possible. Vous pouvez utiliser des estimations pour les paramètres *wParam* et *lParam* . Si vous surestime, la mémoire supplémentaire est allouée, si vous sous-estimez que l’allocation normale est utilisée pour les éléments qui dépassent la quantité demandée.
 
@@ -61,8 +61,8 @@ Le message **CB \_ INITSTORAGE** permet d’accélérer l’initialisation des z
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

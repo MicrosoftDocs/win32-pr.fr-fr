@@ -3,7 +3,7 @@ title: signal, commande
 description: La commande signal identifie une position spécifiée dans l’espace de travail en envoyant à l’application un \_ message MCISIGNAL mm. Les périphériques vidéo numériques reconnaissent cette commande. MCIAVI ne prend en charge qu’un seul signal actif à la fois.
 ms.assetid: 3d10eac0-fd1a-41ee-98fa-2518642c7339
 keywords:
-- commande de signal Windows Multimedia
+- commande signal Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fd96b8970ebbb6502306c6d2d5fd8c49f172cad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0db007a03738f13bb9acc0733b67bcd38de4b97f2b194bb16cdfcd85f798cfdc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037179"
 ---
 # <a name="signal-command"></a>signal, commande
 
@@ -78,7 +78,7 @@ Peut être « Wait », « Notify », « test » ou une combinaison de ceux
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le handle de fenêtre utilisé pour la notification des messages de saisie semi-automatique de commande est également utilisé pour la signalisation.
 

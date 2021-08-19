@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1567605fb160fc69ac933bb94a0b0282e35616d5
-ms.sourcegitcommit: 89f99926f946dc6c5ea600fb7c41f6b19ceac516
+ms.openlocfilehash: 25a60a3f722faac473b6f779de2d609cbdfc4ecb257d671136a8ef80535fdf34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "104383244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060359"
 ---
 # <a name="ibasicdevice-interface"></a>Interface IBasicDevice
 
@@ -57,7 +57,7 @@ L’interface **IBasicDevice** possède ces méthodes.
 | [**RemoteStreamingUrls**](ibasicdevice-remotestreamingurls.md)                        | Retourne un vecteur d’URL de diffusion en continu à distance.<br/>                                                                          |
 | [**supprimer \_ ConnectionStatusChanged**](ibasicdevice-remove-connectionstatuschanged.md) | Annule l’inscription d’un gestionnaire d’événements pour l’événement [**ConnectionStatusChanged**](connectionstatuschanged.md) .<br/>              |
 | [**SerialNumber**](ibasicdevice-serialnumber.md)                                      | Récupère le numéro de série de l’appareil.<br/>                                                                               |
-| [**Entrer**](ibasicdevice-type.md)                                                      | Récupère une valeur d’énumération indiquant le type d’appareil de l’appareil DLNA.<br/>                                       |
+| [**Type**](ibasicdevice-type.md)                                                      | Récupère une valeur d’énumération indiquant le type d’appareil de l’appareil DLNA.<br/>                                       |
 | [**UniqueDeviceName**](ibasicdevice-uniquedevicename.md)                              | Récupère le nom d’appareil unique de l’appareil (UDN).<br/>                                                                    |
 
 

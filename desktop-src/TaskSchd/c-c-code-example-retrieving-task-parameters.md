@@ -7,12 +7,12 @@ keywords:
 - récupération des propriétés de la tâche Planificateur de tâches, paramètres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6adff7baeb4d4151c06ab192e336712716fb9d80
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e18df24eee8f2de6d7a796aeb11febad8d9e79e95be6dd47bcd9be0a5392078d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738749"
 ---
 # <a name="cc-code-example-retrieving-task-parameters"></a>Exemple de code C/C++ : récupération des paramètres de tâche
 
@@ -123,9 +123,9 @@ int main(int argc, char **argv)
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

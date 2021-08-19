@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Apphelp.dll
-ms.openlocfilehash: 651b9af34afdd2ffd767eba7ca4467ecfee081cf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a75dd64bfbeaf027839c63227c594ada7602101d059cbbd9d10deb085152918d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104109918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103649"
 ---
 # <a name="sdbgetfileattributes-function"></a>SdbGetFileAttributes fonction)
 
@@ -66,7 +66,7 @@ Nombre d'attributs.
 
 La fonction retourne **true** en cas de réussite ou **false** en cas d’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fois les données terminées, libérez-les à l’aide de la fonction [**SdbFreeFileAttributes**](sdbfreefileattributes.md) .
 
@@ -76,8 +76,8 @@ Une fois les données terminées, libérez-les à l’aide de la fonction [**Sdb
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Apphelp.dll</dt> </dl> |
 
 

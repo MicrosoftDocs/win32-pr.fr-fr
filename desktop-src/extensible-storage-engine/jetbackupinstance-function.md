@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fab20676267333ae8f60e4fe4f07d98a8b45e88d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5cf601593d970f56be80b75ef5744295e7b4cf0941a6c401d8bae78c15542f21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889719"
 ---
 # <a name="jetbackupinstance-function"></a>Fonction JetBackupInstance
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetbackupinstance-function"></a>Fonction JetBackupInstance
 
 La fonction **JetBackupInstance** effectue une sauvegarde en continu d’une instance, y compris toutes les bases de données attachées, vers un répertoire. Avec plusieurs méthodes de sauvegarde prises en charge par le moteur, il s’agit de la fonction la plus simple et la plus encapsulée.
 
-**Windows XP : JetBackupInstance** est introduit dans Windows XP.
+**Windows xp : JetBackupInstance** est introduit dans Windows xp.
 
 ```cpp
     JET_ERR JET_API JetBackupInstance(
@@ -95,7 +95,7 @@ Pointeur vers la fonction de rappel [JET_PFNSTATUS](./jet-pfnstatus-callback-fun
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -128,7 +128,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>Impossible d’effectuer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données.</p>
-<p><strong>Windows XP :  </strong> Cette valeur de retour est introduite dans Windows XP.</p></td>
+<p><strong>Windows XP :</strong> cette valeur de retour est introduite dans Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidBackup</p></td>
@@ -173,7 +173,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 <tr class="even">
 <td><p>JET_errSessionSharingViolation</p></td>
 <td><p>La même session ne peut pas être utilisée simultanément pour plusieurs threads.</p>
-<p><strong>Windows XP :  </strong> Cette valeur de retour est introduite dans Windows XP.</p></td>
+<p><strong>Windows XP :</strong> cette valeur de retour est introduite dans Windows XP.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errTermInProgress</p></td>
@@ -191,7 +191,7 @@ En même temps, les en-têtes de base de données sont mis à jour avec les info
 
 En cas d’échec, aucun fichier n’est présent dans la destination du répertoire de sauvegarde, ce qui signifie qu’aucune restauration n’est possible. En même temps, les fichiers journaux actuels ne seront pas tronqués.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Les différentes étapes de la sauvegarde auront des entrées de journal des événements générées, y compris les noms de fichiers, la troncation du journal et le résultat final de la sauvegarde.
 
@@ -199,7 +199,7 @@ La sauvegarde incrémentielle n’est possible qu’après avoir effectué une s
 
 Le répertoire de sauvegarde doit exister, sauf si le paramètre *JET_paramCreatePathIfNotExist* est défini pour l’instance. Pour plus d’informations, consultez [paramètres système](./extensible-storage-engine-system-parameters.md).
 
-La sauvegarde effectue une vérification de la somme de contrôle sur toutes les pages de base de données utilisées et à partir de Windows Server 2003, également sur les fichiers journaux. Cela donne la possibilité d’estimer l’intégrité de la base de données même pour les pages qui ne sont pas lues pendant des opérations normales. Si une telle altération est détectée, la sauvegarde échoue.
+la sauvegarde effectue une vérification de la somme de contrôle sur toutes les pages de base de données utilisées et à partir de Windows Server 2003, également sur les fichiers journaux. Cela donne la possibilité d’estimer l’intégrité de la base de données même pour les pages qui ne sont pas lues pendant des opérations normales. Si une telle altération est détectée, la sauvegarde échoue.
 
 Au cours de la sauvegarde, le fichier journal actuel est terminé et une nouvelle génération de journal est lancée. Cela permet de copier les fichiers journaux nécessaires, car le dernier fichier nécessaire n’est plus utilisé.
 
@@ -215,11 +215,11 @@ Il est vivement recommandé de ne pas utiliser la sauvegarde pour d’autres fon
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
+<td><p>requiert Windows Vista ou Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
+<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

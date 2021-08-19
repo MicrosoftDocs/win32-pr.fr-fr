@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6c389c2ea55ddb15c59fe30e03f392d68aa3b5ac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2d759cbcf2a9638b54e6194bcac7e7b24254c0d37987995d511fb4ffce85f1ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954958"
 ---
 # <a name="cbaserenderergetsampletimes-method"></a>Méthode CBaseRenderer. GetSampleTimes
 
@@ -82,7 +82,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le filtre appelle cette méthode pour déterminer comment il doit gérer un exemple. Si la valeur de retour est \_ OK, le filtre restitue l’exemple immédiatement. Si la valeur de retour est \_ false, le filtre planifie l’exemple de rendu en fonction des horodatages. Si la valeur de retour est un code d’erreur, le filtre rejette l’exemple.
 
@@ -94,7 +94,7 @@ Cette méthode retourne S \_ OK si l’exemple n’a pas de datage ou si le filt
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 22ffdb77-9266-42e5-be41-fc7457141bba
 title: MFPKEY_DELTAMVRANGEINDEX, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c72d923659e64c9a0dcab40811e31d7752924700
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7a21ac1a0bdaf859c93bca800d72f5e9ed155919bb07a24f5287b2436e57f94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113339"
 ---
 # <a name="mfpkey_deltamvrangeindex-property"></a>MFPKEY \_ propriété DELTAMVRANGEINDEX
 
@@ -27,7 +27,7 @@ VT \_
 
 0
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cette propriété est définie, l’encodeur augmente la plage du vecteur de mouvement Delta dans les champs. Les informations de vecteur de mouvement ne sont valides que pour les champs entrelacés.
 
@@ -52,8 +52,8 @@ Cette propriété peut être définie sur l’une des valeurs suivantes :
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

@@ -5,34 +5,34 @@ ms.assetid: 2672372c-0b42-437e-8b96-83b6e5200fd3
 keywords:
 - Lecteur Windows Media, protocoles
 - Lecteur Windows Media, types de fichiers
-- Modèle d’objet du lecteur Windows Media, protocoles
-- Modèle d’objet du lecteur Windows Media, types de fichiers
+- Lecteur Windows Media modèle objet, protocoles
+- Lecteur Windows Media modèle objet, types de fichiers
 - modèle objet, protocoles
 - modèle objet, types de fichiers
-- Contrôle ActiveX du lecteur Windows Media, protocoles pour le modèle objet
-- Contrôle ActiveX, protocoles pour le modèle objet
-- Windows Media Player Mobile contrôle ActiveX, protocoles pour le modèle objet
-- Windows Media Player Mobile, protocoles pour le modèle objet
-- Contrôle ActiveX du lecteur Windows Media, types de fichiers pour le modèle objet
-- Contrôle ActiveX, types de fichiers pour le modèle objet
-- Contrôle ActiveX Windows Media Player Mobile, types de fichiers pour le modèle objet
-- Windows Media Player Mobile, types de fichiers pour le modèle objet
-- protocoles, modèle objet du lecteur Windows Media
-- types de fichiers pour le modèle objet du lecteur Windows Media
+- Lecteur Windows Media ActiveX contrôle, protocoles pour le modèle objet
+- contrôle ActiveX, protocoles pour le modèle objet
+- Lecteur Windows Media contrôle Mobile ActiveX, protocoles pour le modèle objet
+- Lecteur Windows Media Mobile, protocoles pour le modèle objet
+- Lecteur Windows Media ActiveX contrôle, types de fichiers pour le modèle objet
+- contrôle de ActiveX, types de fichiers pour le modèle objet
+- Lecteur Windows Media contrôle Mobile ActiveX, types de fichiers pour le modèle objet
+- Lecteur Windows Media Mobile, types de fichiers pour le modèle objet
+- protocoles, Lecteur Windows Media modèle objet
+- types de fichiers pour Lecteur Windows Media modèle objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24a263bc362f39d6b8b93d29d38e7989a8e90b32
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 32568603794e264ce0ed0cba54e798353c8f8e77b7dbd8e89bc67f13bcae3837
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122839"
 ---
 # <a name="supported-protocols-and-file-types"></a>Protocoles et types de fichiers pris en charge
 
-Le lecteur Windows Media prend en charge plusieurs protocoles et de nombreux types de fichiers, qui peuvent tous être utilisés lors de la spécification de valeurs d’URL dans le modèle objet de lecteur pour les propriétés telles que *Player*. **URL** ou dans les sélections de métafichiers Windows Media. En outre, les protocoles pris en charge peuvent être utilisés lors de la spécification de valeurs de protocole avec les méthodes liées au proxy de l’objet **réseau** .
+Lecteur Windows Media prend en charge plusieurs protocoles et de nombreux types de fichiers, qui peuvent tous être utilisés lors de la spécification de valeurs d’URL dans le modèle objet de lecteur pour les propriétés telles que *Player*. **URL** ou dans Windows les sélections de métafichiers Media. En outre, les protocoles pris en charge peuvent être utilisés lors de la spécification de valeurs de protocole avec les méthodes liées au proxy de l’objet **réseau** .
 
-Les formats de fichiers multimédias numériques suivants sont actuellement pris en charge pour la lecture par le lecteur Windows Media :
+les formats de fichiers multimédias numériques suivants sont actuellement pris en charge pour la lecture par Lecteur Windows Media :
 
 -   ASF (Advanced Systems Format)
 -   EIA
@@ -50,15 +50,15 @@ Les formats de fichiers multimédias numériques suivants sont actuellement pris
 -   M1V
 -   SND
 -   WAV
--   Fichiers Windows Media avec l’extension de nom de fichier. WM
+-   Windows Fichiers multimédias avec l’extension de nom de fichier. WM
 -   Audio Windows Media (WMA)
 -   Vidéo Windows Media (WMV)
 
-Les protocoles suivants sont actuellement pris en charge par le lecteur Windows Media.
+les protocoles suivants sont actuellement pris en charge par Lecteur Windows Media.
 
 
 
-| Protocol | Description                                                                        |
+| Protocole | Description                                                                        |
 |----------|------------------------------------------------------------------------------------|
 | HTTP     | Protocole Hypertext Transfer. Comprend HTTP avec Fast cache et la multidiffusion.          |
 | RTSP     | Protocole de diffusion en continu en temps réel. Intègre RTSP avec Fast cache.                       |
@@ -67,12 +67,12 @@ Les protocoles suivants sont actuellement pris en charge par le lecteur Windows 
 | mms      | Protocole Microsoft Media Server.                                                   |
 | MMSU     | MMS utilisé avec UDP.                                                                 |
 | MMST     | MMS utilisé avec TCP.                                                                 |
-| WMPCD    | Protocole utilisé par le lecteur Windows Media pour fournir l’accès aux CDs.                  |
-| WMPDVD   | Protocole utilisé par le lecteur Windows Media pour fournir l’accès aux DVD.                 |
+| WMPCD    | protocole utilisé par Lecteur Windows Media pour fournir l’accès aux CDs.                  |
+| WMPDVD   | protocole utilisé par Lecteur Windows Media pour fournir l’accès aux dvd.                 |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -87,9 +87,9 @@ Les protocoles suivants sont actuellement pris en charge par le lecteur Windows 
 [**Protocole WMPDVD**](wmpdvd-protocol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b664267ce2ff0dbbeeba8bc74708c9c67e185ae4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 141c65507a0d983a2b4531b93617ed741e7403b8b2a5ead9c196f78dcf61acdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955378"
 ---
 # <a name="cautousingoutputpin-class"></a>CAutoUsingOutputPin, classe
 
@@ -40,7 +40,7 @@ La classe **CAutoUsingOutputPin** obtient et libère l’accès à un objet [**C
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque certaines méthodes sont appelées sur [**CDynamicOutputPin**](cdynamicoutputpin.md), l’appelant doit obtenir l’accès au code confidentiel, puis libérer cet accès. Pour obtenir l’accès, l’appelant utilise la méthode [**CDynamicOutputPin :: StartUsingOutputPin**](cdynamicoutputpin-startusingoutputpin.md) . Pour libérer l’accès, elle appelle la méthode [**CDynamicOutputPin :: StopUsingOutputPin**](cdynamicoutputpin-stopusingoutputpin.md) . La classe **CAutoUsingOutputPin** est une classe d’assistance qui gère ces tâches dans ses méthodes de constructeur et de destructeur. L’exemple de code suivant montre comment utiliser cette classe :
 
@@ -77,7 +77,7 @@ HRESULT hr = S_OK;  // Important! Initialize to S_OK.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: a21d0100-e020-4e74-b8e3-bb7071194828
 title: MFPKEY_VIDEOSCALING, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 555cec22533b7817c509d5419391039b10c92576
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da2dc069d70b167dd8da6cb308d70149aec1028f3aaf4e50b5c1cc8ab11104c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887650"
 ---
 # <a name="mfpkey_videoscaling-property"></a>MFPKEY \_ propriété VIDEOSCALING
 
@@ -27,7 +27,7 @@ VT \_
 
 0
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La mise à l’échelle vidéo est un type d’optimisation de perception qui peut améliorer la qualité visuelle de la vidéo encodée à des vitesses de transmission faibles. L’optimisation de la mise à l’échelle vidéo réduit les artefacts prononcés, mais peut sacrifier les détails de l’image. Cette optimisation affecte la plage de luminance de la vidéo encodée comme décrit ci-dessous, mais n’affecte pas la résolution physique de la vidéo de sortie.
 
@@ -51,8 +51,8 @@ Cette propriété peut être définie sur l’une des valeurs suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

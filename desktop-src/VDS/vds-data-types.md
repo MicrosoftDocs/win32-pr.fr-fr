@@ -4,16 +4,16 @@ ms.assetid: f17e8c7e-e3cb-49ca-9060-2299dda55770
 title: Types de données VDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a868606110d9cf1c3cad5c3036789d041a5d86c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d83a0f3586cb73b823feb6b41990d1f305056a23f9ac0e47ef8fbfc1e4853267
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007929"
 ---
 # <a name="vds-data-types"></a>Types de données VDS
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Les types de données pris en charge par VDS définissent les valeurs de retour de fonction, les paramètres de fonction et les membres de structure. Les types de données définissent la taille et la signification de ces éléments.
 

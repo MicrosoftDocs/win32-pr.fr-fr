@@ -4,12 +4,12 @@ ms.assetid: A2E548F1-A5FA-4110-AD07-46BE9D7DC4A5
 title: Attribut MF_MT_H264_SUPPORTED_SYNC_FRAME_TYPES (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c328cbdef60750f2df7e9af403d8748c37d53b28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f6b6d00b3914ebcf55952baf372c139d43a02689605f800628df58b2d71395b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113739"
 ---
 # <a name="mf_mt_h264_supported_sync_frame_types-attribute"></a>\_Attribut des \_ \_ types de \_ trames de synchronisation pris en charge par MF \_ H264 – \_
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux types de média pour les flux H. 264 transmis sur USB. La valeur correspond au champ **bmSupportedSyncFrameTypes** dans le descripteur de format vidéo 1,5 UVC H. 264.
 
@@ -41,8 +41,8 @@ Cet attribut est également utilisé avec les [encodeurs de caméra H. 264 UVC 1
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

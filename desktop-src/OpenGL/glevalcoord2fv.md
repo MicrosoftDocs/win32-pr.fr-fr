@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e277b0b71361588f8a9835ec3b8891b49f9482a
-ms.sourcegitcommit: 7ef31bf778e76ce4196205d4c4c632fbdc649805
+ms.openlocfilehash: 3de18441f1b62bbd4084476dabec1cf14bd096c62ba1b26f35985208f19200b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104566363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888359"
 ---
 # <a name="glevalcoord2fv-function"></a>glEvalCoord2fv fonction)
 
@@ -51,7 +51,7 @@ Pointeur vers un tableau contenant la coordonnée de domaine *u*.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glEvalCoord2fv** évalue les mappages à deux dimensions activés à l’aide de deux valeurs de domaine, *u* et *v*. Définissez Maps avec [**glMap1**](glmap1.md). Activez ou désactivez-les avec [**glEnable**](glenable.md) et [**glDisable**](gldisable.md).
 

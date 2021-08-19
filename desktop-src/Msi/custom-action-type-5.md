@@ -1,19 +1,19 @@
 ---
-description: Les développeurs de packages de Windows Installer peuvent choisir d’utiliser un type d’action personnalisé 5 quand les actions standard sont insuffisantes pour exécuter l’installation.
+description: les développeurs de packages de Windows Installer peuvent choisir d’utiliser un type d’action personnalisé 5 quand les actions standard sont insuffisantes pour exécuter l’installation.
 ms.assetid: 32b10271-44b1-4c5d-9c8b-eed1b4cd31e2
 title: Type d’action personnalisé 5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85460c9a41dca060ca2634c013999c2c340ddfa1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7e5d6ea37d8efcc5a5d9517b36fb3ae5620830ae1a84173cb9a5488c57cc24e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086219"
 ---
 # <a name="custom-action-type-5"></a>Type d’action personnalisé 5
 
-Cette action personnalisée est écrite en JScript, telle que l’ECMA 262. Windows Installer ne prend pas en charge JScript 1,0. Pour plus d’informations, consultez [scripts](scripts.md).
+cette action personnalisée est écrite en JScript, par exemple ECMA 262. Windows le programme d’installation ne prend pas en charge JScript 1,0. Pour plus d’informations, consultez [scripts](scripts.md).
 
 ## <a name="source"></a>Source
 
@@ -35,7 +35,7 @@ Incluez la valeur suivante dans la colonne type de la [table CustomAction](custo
 
  
 
-Windows Installer pouvez utiliser des actions personnalisées 64 bits sur les systèmes d’exploitation 64 bits. Une action personnalisée 64 bits basée sur des scripts doit inclure le bit **msidbCustomActionType64BitScript** dans son type numérique. Pour plus d’informations [, consultez actions personnalisées 64 bits](64-bit-custom-actions.md). Incluez la valeur suivante dans la colonne type de la [table CustomAction](customaction-table.md) pour spécifier le type numérique de base d’une action personnalisée 64 bits.
+Windows Le programme d’installation peut utiliser des actions personnalisées 64 bits sur les systèmes d’exploitation 64 bits. Une action personnalisée 64 bits basée sur des scripts doit inclure le bit **msidbCustomActionType64BitScript** dans son type numérique. Pour plus d’informations [, consultez actions personnalisées 64 bits](64-bit-custom-actions.md). Incluez la valeur suivante dans la colonne type de la [table CustomAction](customaction-table.md) pour spécifier le type numérique de base d’une action personnalisée 64 bits.
 
 
 
@@ -65,11 +65,11 @@ Incluez des bits d’indicateur facultatifs dans la colonne type de la [table Cu
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Les fonctions facultatives écrites dans le script doivent retourner l’une des valeurs décrites dans les [valeurs de retour des actions personnalisées JScript et VBScript](return-values-of-jscript-and-vbscript-custom-actions.md).
+les fonctions facultatives écrites dans le script doivent retourner l’une des valeurs décrites dans [valeurs de retour des Actions personnalisées JScript et VBScript](return-values-of-jscript-and-vbscript-custom-actions.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Une action personnalisée écrite en JScript ou VBScript nécessite l’installation de l' [**objet session**](session-object.md). Le programme d’installation joint l’objet de **session** au script avec la *session* de nom. Étant donné que l’objet **session** n’existe peut-être pas lors d’une restauration de l’installation, une action personnalisée différée écrite dans le script doit utiliser l’une des méthodes ou propriétés de l’objet **session** décrit dans la section [obtention d’informations de contexte pour les actions personnalisées d’exécution différée](obtaining-context-information-for-deferred-execution-custom-actions.md) afin d’extraire son contexte.
+une action personnalisée écrite en JScript ou VBScript nécessite l’installation de l' [**objet Session**](session-object.md). Le programme d’installation joint l’objet de **session** au script avec la *session* de nom. Étant donné que l’objet **session** n’existe peut-être pas lors d’une restauration de l’installation, une action personnalisée différée écrite dans le script doit utiliser l’une des méthodes ou propriétés de l’objet **session** décrit dans la section [obtention d’informations de contexte pour les actions personnalisées d’exécution différée](obtaining-context-information-for-deferred-execution-custom-actions.md) afin d’extraire son contexte.
 
 Lorsqu’une table de base de données est exportée, chaque flux est écrit sous la forme d’un fichier distinct dans le sous-dossier nommé d’après la table, à l’aide de la clé primaire en tant que nom de fichier (colonne de nom pour la table binaire), avec l’extension par défaut « . IBD ». Le nom doit utiliser le format de nom de fichier 8,3 Si le système de fichiers ou le système de gestion de version ne prend pas en charge les noms de fichiers longs. Le fichier d’archive persistant remplace les données de flux par le nom de fichier utilisé, afin que les données puissent être localisées lors de l’importation de la table.
 

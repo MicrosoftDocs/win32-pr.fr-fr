@@ -3,7 +3,7 @@ title: BUTTON. downImage
 description: L’attribut downImage spécifie ou récupère l’image représentant l’état inactif du bouton.
 ms.assetid: 18149668-5be6-4b64-8adf-8904585ff0be
 keywords:
-- BUTTON. downImage Windows Media Player
+- BUTTON. downImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca7a405a5df20a04ae9d093f2b28ee4c68cab67d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bff24c568ae607b5b67d766f28eb7c221844f1434a959952628cc2ad5a5d6d5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123739"
 ---
 # <a name="buttondownimage"></a>BUTTON. downImage
 
@@ -31,7 +31,7 @@ L’attribut **downImage** spécifie ou récupère l’image représentant l’�
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom du fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les formats d’image pris en charge sont BMP, JPG, PNG et GIF.
 

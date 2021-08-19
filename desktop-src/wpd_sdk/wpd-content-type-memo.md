@@ -4,12 +4,12 @@ ms.assetid: 6d89681c-1183-44d3-a39e-5fb343f1abbe
 title: WPD_CONTENT_TYPE_MEMO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07bc36b11d88135aadeab6d58192c97a06dfbd87
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 563148d28a03558843060bedfb76a6f91ca6805c0498e8a8d66e3dd53a68ed82
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006039"
 ---
 # <a name="wpd_content_type_memo"></a>\_mémo de \_ type de contenu wpd \_
 
@@ -33,23 +33,23 @@ Ce type d’objet prend en charge les propriétés suivantes.
 | [\_nom du \_ fichier d’origine de l’objet wpd \_ \_](object-properties.md)                              | Obligatoire si l’objet représente un fichier.                                      |
 | [\_objet wpd \_ non \_ utilisable](object-properties.md)                                       | Recommandé si l’objet n’est pas destiné à être consommé par l’appareil.          |
 | [\_références d’objets wpd \_](object-properties.md)                                                | Obligatoire si l’objet a des références à d’autres objets.                        |
-| [\_Mots clés d’objet wpd \_](object-properties.md)                                                    | facultatif.                                                                      |
-| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                     | facultatif.                                                                      |
+| [\_Mots clés d’objet wpd \_](object-properties.md)                                                    | Facultatif.                                                                      |
+| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                     | Facultatif.                                                                      |
 | [l' \_ objet \_ wpd \_ est \_ protégé par DRM](object-properties.md)                                  | Obligatoire si l’objet est protégé par la technologie DRM.                         |
-| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                           | facultatif.                                                                      |
+| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                           | Facultatif.                                                                      |
 | [Date de modification de l' \_ objet wpd \_ \_](object-properties.md)                                         | Recommandé.                                                                   |
-| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                         | facultatif.                                                                      |
+| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                         | Facultatif.                                                                      |
 | [\_ \_ références arrière des objets wpd \_](object-properties.md)                                                                | Recommandé si l’objet est référencé par un autre objet.                     |
-| [\_ID d' \_ \_ objet fonctionnel \_ du conteneur d’objets wpd \_](object-properties.md)     | facultatif.                                                                      |
-| [\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource](object-properties.md) | facultatif.                                                                      |
+| [\_ID d' \_ \_ objet fonctionnel \_ du conteneur d’objets wpd \_](object-properties.md)     | Facultatif.                                                                      |
+| [\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource](object-properties.md) | Facultatif.                                                                      |
 | [l' \_ objet wpd \_ peut \_ Supprimer](object-properties.md)                                                                     | Obligatoire si l’objet ne peut pas être supprimé.                                      |
-| [\_paramètres régionaux de la langue de l’objet wpd \_ \_](object-properties.md)                                                                | facultatif.                                                                      |
+| [\_paramètres régionaux de la langue de l’objet wpd \_ \_](object-properties.md)                                                                | Facultatif.                                                                      |
 | [\_objet d' \_ informations \_ communes wpd](object-properties.md)                                                            | Obligatoire.                                                                      |
 | [\_ \_ \_ texte du corps d’informations communes wpd \_](object-properties.md)                                                         | Recommandé.                                                                   |
 | [\_priorité des \_ informations \_ communes wpd](object-properties.md)                                                           | Recommandé.                                                                   |
 | [\_date et \_ \_ heure de début des informations communes wpd \_](object-properties.md)                                                    | Recommandé.                                                                   |
 | [\_date et \_ \_ heure de fin des informations communes wpd \_](object-properties.md)                                                      | Recommandé.                                                                   |
-| [\_Notes d' \_ informations \_ communes wpd](object-properties.md)                                                              | facultatif.                                                                      |
+| [\_Notes d' \_ informations \_ communes wpd](object-properties.md)                                                              | Facultatif.                                                                      |
 
 
 

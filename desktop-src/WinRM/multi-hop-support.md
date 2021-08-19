@@ -1,20 +1,20 @@
 ---
 title: Prise en charge de plusieurs tronçons dans WinRM
-description: Windows Remote Management (WinRM) prend en charge la délégation des informations d’identification de l’utilisateur sur plusieurs ordinateurs distants.
+description: Windows La gestion à distance (WinRM) prend en charge la délégation des informations d’identification de l’utilisateur sur plusieurs ordinateurs distants.
 ms.assetid: 0e6c8966-bb05-4dfb-b154-300fa76e8d9c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f22c3d66e8605e932fe15b812f92d51350da2d69
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 76be3054fc9c0d624c206cf5a26d7788e763dfc81f1b2069f6abff8736be2388
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104482808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121759"
 ---
 # <a name="multi-hop-support-in-winrm"></a>Prise en charge de plusieurs tronçons dans WinRM
 
-Windows Remote Management (WinRM) prend en charge la délégation des informations d’identification de l’utilisateur sur plusieurs ordinateurs distants. La fonctionnalité de prise en charge de plusieurs tronçons peut désormais utiliser le fournisseur de services de sécurité des informations d’identification (CredSSP) pour l’authentification. CredSSP permet à une application de déléguer les informations d’identification de l’utilisateur de l’ordinateur client au serveur cible.
+Windows La gestion à distance (WinRM) prend en charge la délégation des informations d’identification de l’utilisateur sur plusieurs ordinateurs distants. La fonctionnalité de prise en charge de plusieurs tronçons peut désormais utiliser le fournisseur de services de sécurité des informations d’identification (CredSSP) pour l’authentification. CredSSP permet à une application de déléguer les informations d’identification de l’utilisateur de l’ordinateur client au serveur cible.
 
 L’authentification CredSSP est destinée aux environnements où la délégation Kerberos ne peut pas être utilisée. La prise en charge de CredSSP a été ajoutée pour permettre à un utilisateur de se connecter à un serveur distant et d’avoir la possibilité d’accéder à un ordinateur de second saut, tel qu’un partage de fichiers.
 
@@ -27,19 +27,19 @@ Pour plus d’informations sur CredSSP, consultez [KB 951608](https://support.mi
 
 ## <a name="multi-hop-support-configuration-setup-and-details"></a>Configuration et détails de la configuration de la prise en charge de plusieurs tronçons
 
-Il existe plusieurs mécanismes pour configurer les paramètres WinRM. Dans la procédure suivante, l’utilitaire **WinRM** et l’éditeur de stratégie de groupe (**gpedit. msc**) sont utilisés. CredSSP peut également être activé pour WinRM à l’aide de Windows PowerShell. Pour obtenir des informations de configuration détaillées et des exemples d’utilisation, consultez les applets de commande Windows PowerShell [Enable-WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Enable-WSManCredSSP?view=powershell-5.1&preserve-view=true), [obten-WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Get-WSManCredSSP?view=powershell-5.1&preserve-view=true)et [Disable-WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Disable-WSManCredSSP?view=powershell-5.1&preserve-view=true) .
+Il existe plusieurs mécanismes pour configurer les paramètres WinRM. Dans la procédure suivante, l’utilitaire **WinRM** et l’éditeur de stratégie de groupe (**gpedit. msc**) sont utilisés. CredSSP peut également être activé pour WinRM à l’aide de Windows PowerShell. pour obtenir des informations de configuration détaillées et des exemples d’utilisation, consultez les applets de commande [Enable-WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Enable-WSManCredSSP?view=powershell-5.1&preserve-view=true), [obten-WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Get-WSManCredSSP?view=powershell-5.1&preserve-view=true)et [Disable-Windows PowerShell WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Disable-WSManCredSSP?view=powershell-5.1&preserve-view=true) .
 
 La délégation CredSSP doit être activée dans les paramètres client et dans les paramètres de service sur l’ordinateur distant. En outre, l’utilisation de CredSSP requiert la configuration d’un [*écouteur*](windows-remote-management-glossary.md) HTTP ou https sur le serveur.
 
 **Pour configurer la prise en charge de plusieurs tronçons à l’aide de l’authentification CredSSP pour WinRM**
 
-1.  CredSSP doit être activé dans les paramètres de configuration du client. Cet indicateur peut être activé manuellement ou par le biais d’un paramètre de stratégie de groupe. La valeur par défaut est **False**. La stratégie **autoriser l’authentification CredSSP** se trouve à l’emplacement suivant : Configuration ordinateur \\ modèle d’administration \\ composants Windows \\ Windows Remote Management (WinRM) \\ WinRM client.
+1.  CredSSP doit être activé dans les paramètres de configuration du client. Cet indicateur peut être activé manuellement ou par le biais d’un paramètre de stratégie de groupe. La valeur par défaut est **False**. la stratégie **autoriser l’authentification CredSSP** se trouve à l’emplacement suivant : Configuration ordinateur \\ modèle d’administration \\ Windows composants \\ Windows Remote Management (winrm) \\ winrm Client.
 
     La commande suivante montre comment utiliser l’utilitaire WinRM pour activer CredSSP sur le client WinRM :
 
     **winrm set winrm/config/client/auth @ {CredSSP = "true"}**
 
-2.  CredSSP doit être activé dans les paramètres de configuration du service WinRM. Cet indicateur peut être activé manuellement ou par le biais d’un paramètre de stratégie de groupe. La valeur par défaut est **False**. La stratégie **autoriser l’authentification CredSSP** se trouve à l’emplacement suivant : Configuration ordinateur \\ modèle d’administration \\ composants Windows \\ Windows Remote Management (WinRM) \\ WinRM service.
+2.  CredSSP doit être activé dans les paramètres de configuration du service WinRM. Cet indicateur peut être activé manuellement ou par le biais d’un paramètre de stratégie de groupe. La valeur par défaut est **False**. la stratégie **autoriser l’authentification CredSSP** se trouve à l’emplacement suivant : Configuration ordinateur \\ modèle d’administration \\ Windows components \\ Windows Remote Management (winrm) \\ winrm Service.
 
     La commande suivante montre comment utiliser l’utilitaire WinRM pour activer CredSSP sur le service WinRM :
 
@@ -59,7 +59,7 @@ La délégation CredSSP doit être activée dans les paramètres client et dans 
 
      
 
-    Pour plus d’informations sur la définition des stratégies de groupe, consultez [installation et configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
+    pour plus d’informations sur la définition des stratégies de groupe, consultez [Installation et Configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
 
     Pour plus d’informations sur la stratégie **AllowFreshCredentials** , consultez la description de la stratégie fournie par l’éditeur de stratégie de groupe et [KB 951608](https://support.microsoft.com/kb/951608). La stratégie **AllowFreshCredentials** se trouve à l’emplacement suivant : Configuration ordinateur \\ modèles d’administration \\ délégation des \\ informations d’identification système.
 

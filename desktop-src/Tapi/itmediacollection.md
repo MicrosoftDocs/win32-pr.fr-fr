@@ -4,16 +4,16 @@ ms.assetid: a7e7a07d-239e-432e-9984-7763f11c59ce
 title: Interface ITMediaCollection (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21305e1d1729437b53c380b7712feee3827b3ba8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2425ae89f376d5cb2d7cc23e70abd33f87750d3d1b5343a17c8ecb05d7de760d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034609"
 ---
 # <a name="itmediacollection-interface"></a>Interface ITMediaCollection
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 L’interface **ITMediaCollection** fournit l’accès à l’ensemble d’informations de média dans une description de conférence SDP (RFC 2327). Chaque description de support dans le SDP est décrite par une interface [**ITMedia**](itmedia.md) . **ITMediaCollection** permet de manipuler le jeu d’informations de **ITMEDIA** pour le SDP, y compris :
 
@@ -36,7 +36,7 @@ L’interface **ITMediaCollection** possède ces méthodes.
 
 | Méthode                                                            | Description                                                            |
 |:------------------------------------------------------------------|:-----------------------------------------------------------------------|
-| [**Créés**](itmediacollection-create.md)                        | Crée un nouveau média avec les propriétés par défaut et le retourne.<br/> |
+| [**Créer**](itmediacollection-create.md)                        | Crée un nouveau média avec les propriétés par défaut et le retourne.<br/> |
 | [**Supprimer**](itmediacollection-delete.md)                        | Supprime le support correspondant à l’index spécifié.<br/>     |
 | [**Obtient la \_ \_ NewEnum**](itmediacollection-get--newenum.md)          | Retourne un énumérateur pour cette collection.<br/>                   |
 | [**nombre d’extractions \_**](itmediacollection-get-count.md)                 | Obtient le nombre de médias dans la session.<br/>                    |

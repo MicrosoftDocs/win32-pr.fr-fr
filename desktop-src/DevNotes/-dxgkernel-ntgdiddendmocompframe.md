@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 50f56faa724f88e16ef10b46342d8dd53afaf497
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a59da1ced104befcf2d89f682481e35b422fffd5eb0becad8fabfbdc127f2e11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956498"
 ---
 # <a name="ntgdiddendmocompframe-function"></a>NtGdiDdEndMoCompFrame fonction)
 
@@ -74,7 +74,7 @@ Pointeur vers une [structure \_ ENDMOCOMPFRAMEDATA DD](https://msdn.microsoft.co
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations, consultez Microsoft DirectX Video Acceleration Driver Development Kit (DDK).
 

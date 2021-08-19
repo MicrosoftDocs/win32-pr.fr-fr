@@ -1,5 +1,5 @@
 ---
-description: Indique une erreur MCA (machine Check architecture) spécifique à la plateforme. Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+description: Indique une erreur MCA (machine Check architecture) spécifique à la plateforme. cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 ms.assetid: 409641d5-3451-4d26-88d1-bfd0e55db257
 title: Classe MSMCAEvent_PlatformSpecificError
 ms.topic: reference
@@ -30,16 +30,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: 51993c8c41206dac8f4c944d24fa59ae7b689f92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f85a0828b46826566c406d90b851cec3bbe39ee07a1456065e93542edcda35c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120969"
 ---
 # <a name="msmcaevent_platformspecificerror-class"></a>MSMCAEvent \_ PlatformSpecificError, classe
 
-La classe **MSMCAEvent \_ PlatformSpecificError** indique une erreur MCA (machine Check architecture) spécifique à la plateforme. Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+La classe **MSMCAEvent \_ PlatformSpecificError** indique une erreur MCA (machine Check architecture) spécifique à la plateforme. cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 
 La syntaxe suivante est simplifiée du code format MOF (MOF) et comprend toutes ses propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -134,7 +134,7 @@ Niveau de gravité de l’erreur signalée.
 
 | Valeur                                                                                                | Signification                |
 |------------------------------------------------------------------------------------------------------|------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Récupérable<br/> |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Récupérable<br/> |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Erreur irrécupérable<br/>       |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Corrigible<br/> |
 
@@ -270,7 +270,7 @@ Type de données : tableau **UInt8**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Tableau d’octets qui contient l’enregistrement d’erreur brut, tel qu’il est présenté à Windows par la couche d’abstraction système (SAL). Le nombre d’éléments dans le tableau est spécifié par la propriété **Size** .
+tableau d’octets qui contient l’enregistrement d’erreur brut, tel qu’il est présenté à Windows par la couche d’abstraction système (SAL). Le nombre d’éléments dans le tableau est spécifié par la propriété **Size** .
 
 </dd> <dt>
 
@@ -311,7 +311,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Type de message du journal des événements. Ces messages correspondent aux codes de message du journal des événements utilisés pour insérer des messages du journal des événements par le fournisseur de consommateur du journal des événements Windows lorsqu’il reçoit l’un des événements.
+Type de message du journal des événements. ces messages correspondent aux codes de message du journal des événements utilisés pour insérer des messages du journal des événements par le fournisseur de consommateur du journal des événements Windows lorsqu’il reçoit l’un des événements.
 
 </dd> <dt>
 
@@ -347,7 +347,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **MSMCAEvent \_ PlatformSpecificError** est dérivée de [**WmiEvent**](wmievent.md).
 

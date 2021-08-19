@@ -4,12 +4,12 @@ ms.assetid: 3b29e150-26ac-46c6-8aa5-984aeb03392a
 title: Méthodes Graphics. DrawCurve (Gdiplusgraphics. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 9d9d9c044955700d7c442c1e9081419c8a47aa21
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 95365a11cc28aace7e16046e3b39ef8517e625f52ff0fb29f07f8736fe81c4ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104983111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888839"
 ---
 # <a name="graphicsdrawcurve-methods"></a>Graphics. DrawCurve, méthodes
 
@@ -30,7 +30,7 @@ Cette rubrique répertorie les méthodes DrawCurve de la classe [**Graphics**](/
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

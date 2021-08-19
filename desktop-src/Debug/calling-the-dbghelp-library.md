@@ -1,21 +1,21 @@
 ---
-description: Bien que DbgHelp.dll soit fourni avec toutes les versions de Windows, les appelants doivent envisager d’utiliser l’une des versions les plus récentes de cette DLL, comme indiqué dans le package outils de débogage pour Windows. Pour plus d’informations sur la distribution de DbgHelp, consultez versions de DbgHelp.
+description: bien que DbgHelp.dll soit fourni avec toutes les versions de Windows, les appelants doivent envisager d’utiliser l’une des versions les plus récentes de cette DLL, comme indiqué dans le package outils de débogage pour Windows. Pour plus d’informations sur la distribution de DbgHelp, consultez versions de DbgHelp.
 ms.assetid: 4e615e75-5ab8-4155-a3d3-b96313b37e9b
 title: Appel de la bibliothèque DbgHelp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70cc06f6a0e28f163d80490647ee8f33754c249b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c4d6a111da8b0874a0c66fa08840e1ea4edeabf539afab2e9decf0eb19372db3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104482752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957158"
 ---
 # <a name="calling-the-dbghelp-library"></a>Appel de la bibliothèque DbgHelp
 
-Bien que DbgHelp.dll soit fourni avec toutes les versions de Windows, les appelants doivent envisager d’utiliser l’une des versions les plus récentes de cette DLL, comme indiqué dans le package [outils de débogage pour Windows](https://www.microsoft.com/?ref=go) . Pour plus d’informations sur la distribution de DbgHelp, consultez [versions de dbghelp](dbghelp-versions.md).
+bien que DbgHelp.dll soit fourni avec toutes les versions de Windows, les appelants doivent envisager d’utiliser l’une des versions les plus récentes de cette DLL, comme indiqué dans le package [outils de débogage pour Windows](https://www.microsoft.com/?ref=go) . Pour plus d’informations sur la distribution de DbgHelp, consultez [versions de dbghelp](dbghelp-versions.md).
 
-Lors de l’utilisation de DbgHelp, la meilleure stratégie consiste à installer une copie de la bibliothèque à partir du package [outils de débogage pour Windows](https://www.microsoft.com/?ref=go) dans le répertoire de l’application, qui est logiquement adjacent au logiciel qui l’appelle. Si le serveur de symboles et le serveur source sont également nécessaires, les SymSrv.dll et SrcSrv.dll doivent être installés dans le même répertoire que DbgHelp.dll, car DbgHelp appellera uniquement ces dll s’ils partagent le même répertoire avec lui. (Notez que DbgHelp n’appellera pas ces deux dll à partir du chemin de recherche standard.) Cela permet d’éviter l’utilisation de dll incompatibles ; de même, il améliore également la sécurité globale.
+quand vous utilisez DbgHelp, la meilleure stratégie consiste à installer une copie de la bibliothèque à partir du package [outils de débogage pour Windows](https://www.microsoft.com/?ref=go) dans le répertoire de l’application adjacent au logiciel qui l’appelle. Si le serveur de symboles et le serveur source sont également nécessaires, les SymSrv.dll et SrcSrv.dll doivent être installés dans le même répertoire que DbgHelp.dll, car DbgHelp appellera uniquement ces dll s’ils partagent le même répertoire avec lui. (Notez que DbgHelp n’appellera pas ces deux dll à partir du chemin de recherche standard.) Cela permet d’éviter l’utilisation de dll incompatibles ; de même, il améliore également la sécurité globale.
 
 Le code suivant est extrait de la source de DbgHelp. Elle montre comment les versions de SymSrv.dll et de SrcSrv.dll du même répertoire que celui dans lequel DbgHelp.dll réside uniquement.
 

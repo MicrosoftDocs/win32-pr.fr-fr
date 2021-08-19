@@ -1,6 +1,6 @@
 ---
 title: Interface IVMVirtualPC (VPCCOMInterfaces. h)
-description: Définit l’objet d’application de PC virtuel Windows de niveau supérieur. Tous les autres objets de l’interface Windows Virtual PC sont récupérés via cet objet.
+description: définit l’objet d’application Windows Virtual PC de niveau supérieur. tous les autres Windows objets d’interface Virtual PC sont récupérés via cet objet.
 ms.assetid: 519d3f1b-0a72-4c67-a2d9-124fda6c8b7a
 keywords:
 - Virtual PC de l’interface IVMVirtualPC
@@ -15,18 +15,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d674fd1cbbe6c51881d15f91f0ebfb20f4f6749
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 69dd5eec832e95b2b93ff0fb0bee026428a937fa277f86ff14ef672bc66e0dd6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124649"
 ---
 # <a name="ivmvirtualpc-interface"></a>Interface IVMVirtualPC
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
-Définit l’objet d’application de PC virtuel Windows de niveau supérieur. Tous les autres objets de l’interface Windows Virtual PC sont récupérés via cet objet.
+définit l’objet d’application Windows Virtual PC de niveau supérieur. tous les autres Windows objets d’interface Virtual PC sont récupérés via cet objet.
 
 **IVMVirtualPC** peut informer les clients sur les événements à l’aide de l’interface sortante [**IVMVirtualPCEvents**](ivmvirtualpcevents.md) .
 
@@ -86,14 +86,14 @@ L’interface **IVMVirtualPC** possède les propriétés suivantes.
 | [**MaximumParallelPortsPerVM**](ivmvirtualpc-maximumparallelportspervm.md)<br/>     | Lecture seule<br/>  | Nombre maximal de ports parallèles par ordinateur virtuel.<br/>                                                                                  |
 | [**MaximumSerialPortsPerVM**](ivmvirtualpc-maximumserialportspervm.md)<br/>         | Lecture seule<br/>  | Nombre maximal de ports série par ordinateur virtuel.<br/>                                                                                    |
 | [**MinimumMemoryPerVM**](ivmvirtualpc-minimummemorypervm.md)<br/>                   | Lecture seule<br/>  | Quantité minimale autorisée de mémoire physique par ordinateur virtuel, en mégaoctets.<br/>                                                       |
-| [**Nom**](ivmvirtualpc-name.md)<br/>                                               | Lecture seule<br/>  | Nom de l’application Windows Virtual PC.<br/>                                                                                            |
-| [**SearchPaths**](ivmvirtualpc-searchpaths.md)<br/>                                 | Lecture/écriture<br/> | Chemins d’accès du système de fichiers utilisés pour rechercher des fichiers associés à Windows Virtual PC.<br/>                                                      |
+| [**Nom**](ivmvirtualpc-name.md)<br/>                                               | Lecture seule<br/>  | nom de l’application Windows Virtual PC.<br/>                                                                                            |
+| [**SearchPaths**](ivmvirtualpc-searchpaths.md)<br/>                                 | Lecture/écriture<br/> | chemins d’accès du système de fichiers utilisés pour rechercher des fichiers associés à Windows Virtual PC.<br/>                                                      |
 | [**SuggestedMaximumMemoryPerVM**](ivmvirtualpc-suggestedmaximummemorypervm.md)<br/> | Lecture seule<br/>  | Quantité maximale autorisée de mémoire physique par ordinateur virtuel, en mégaoctets, pour éviter des conditions de mémoire insuffisante sur l’ordinateur hôte.<br/> |
 | [**Tâches**](ivmvirtualpc-tasks.md)<br/>                                             | Lecture seule<br/>  | Collection de tâches.<br/>                                                                                                                     |
 | [**UnconnectedNetworkAdapters**](ivmvirtualpc-unconnectednetworkadapters.md)<br/>   | Lecture seule<br/>  | Collection énumérable d’interfaces réseau non connectées.<br/>                                                                                |
-| [**Activité**](ivmvirtualpc-uptime.md)<br/>                                           | Lecture seule<br/>  | Nombre de secondes d’exécution de l’application Windows Virtual PC.<br/>                                                                 |
+| [**Activité**](ivmvirtualpc-uptime.md)<br/>                                           | Lecture seule<br/>  | nombre de secondes d’exécution de l’application Windows Virtual PC.<br/>                                                                 |
 | [**USBDeviceCollection**](ivmvirtualpc-usbdevicecollection.md)<br/>                 | Lecture seule<br/>  | Collection énumérable de tous les périphériques USB connectés à l’hôte.<br/>                                                                         |
-| [**Version**](ivmvirtualpc-version.md)<br/>                                         | Lecture seule<br/>  | Version de cette instance de Windows Virtual PC.<br/>                                                                                        |
+| [**Version**](ivmvirtualpc-version.md)<br/>                                         | Lecture seule<br/>  | version de cette instance de Windows Virtual PC.<br/>                                                                                        |
 | [**VirtualMachines**](ivmvirtualpc-virtualmachines.md)<br/>                         | Lecture seule<br/>  | Collection énumérable de machines virtuelles.<br/>                                                                                              |
 | [**VirtualNetworks**](ivmvirtualpc-virtualnetworks.md)<br/>                         | Lecture seule<br/>  | Collection énumérable de réseaux virtuels.<br/>                                                                                              |
 
@@ -107,7 +107,7 @@ L’interface **IVMVirtualPC** possède les propriétés suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

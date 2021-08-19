@@ -1,17 +1,17 @@
 ---
 description: L’exemple de code suivant illustre un gestionnaire d’événements pour les événements d’adresse et d’appareil téléphonique. Le code pour chaque événement montre comment créer l’interface d’événement et comment récupérer les données d’événement.
 ms.assetid: 236d4e7f-865f-4b26-8da6-c86476588c47
-title: Événements spécifiques au téléphone et à l’appareil
+title: Téléphone et résoudre les événements spécifiques aux appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40cf4c45eb7c7b933a36814f8eba8cd5cc39d8cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c69a8dd5bd941946d6d4b904e8bc367b9949d6782f350a1e065eb672b2db57ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034539"
 ---
-# <a name="phone-and-address-device-specific-events"></a>Événements spécifiques au téléphone et à l’appareil
+# <a name="phone-and-address-device-specific-events"></a>Téléphone et résoudre les événements spécifiques aux appareils
 
 L’exemple de code suivant illustre un gestionnaire d’événements pour les événements d’adresse et d’appareil téléphonique. Le code pour chaque événement montre comment créer l’interface d’événement et comment récupérer les données d’événement.
 

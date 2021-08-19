@@ -207,12 +207,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bf140f012adbf80b1ce38c9d5017a528b7368a6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d03cc44142e85c174bbb5a19318eea7626b170f59044811f841e7009ba35ba8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071058"
 ---
 # <a name="com-error-codes-generic"></a>Codes d’erreur COM (Générique)
 
@@ -362,10 +362,10 @@ Si vous rencontrez des difficultés avec une application que vous installez ou e
 | <span id="CONVERT10_E_OLESTREAM_GET"></span><span id="convert10_e_olestream_get"></span><dl> <dt>**CONVERT10 \_ E \_ OLESTREAM \_**</dt> <dt>0x800401C0</dt> </dl>                                                                             | Échec de la méthode d’extraction OLESTREAM<br/>                                                                                             |
 | <span id="CONVERT10_E_OLESTREAM_PUT"></span><span id="convert10_e_olestream_put"></span><dl> <dt>**CONVERT10 \_ E \_ OLESTREAM \_ put**</dt> <dt>0x800401C1</dt> </dl>                                                                             | Échec de la méthode put OLESTREAM<br/>                                                                                             |
 | <span id="CONVERT10_E_OLESTREAM_FMT"></span><span id="convert10_e_olestream_fmt"></span><dl> <dt>**CONVERT10 \_ E \_ OLESTREAM \_ fmt**</dt> <dt>0x800401C2</dt> </dl>                                                                             | Le contenu de OLESTREAM n’est pas au format correct<br/>                                                                         |
-| <span id="CONVERT10_E_OLESTREAM_BITMAP_TO_DIB"></span><span id="convert10_e_olestream_bitmap_to_dib"></span><dl> <dt>**CONVERT10 \_ E \_ \_ bitmap OLESTREAM \_ en \_ DIB**</dt> <dt>0x800401C3</dt> </dl>                                             | Une erreur s’est produite dans un appel Windows GDI lors de la conversion de l’image bitmap en DIB<br/>                                           |
+| <span id="CONVERT10_E_OLESTREAM_BITMAP_TO_DIB"></span><span id="convert10_e_olestream_bitmap_to_dib"></span><dl> <dt>**CONVERT10 \_ E \_ \_ bitmap OLESTREAM \_ en \_ DIB**</dt> <dt>0x800401C3</dt> </dl>                                             | une erreur s’est produite dans un appel Windows GDI lors de la conversion de l’image bitmap en DIB<br/>                                           |
 | <span id="CONVERT10_E_STG_FMT"></span><span id="convert10_e_stg_fmt"></span><dl> <dt>**CONVERT10 \_ E \_ STG \_ fmt**</dt> <dt>0x800401C4</dt> </dl>                                                                                               | Le contenu de l’IStorage n’est pas au format correct<br/>                                                                          |
 | <span id="CONVERT10_E_STG_NO_STD_STREAM"></span><span id="convert10_e_stg_no_std_stream"></span><dl> <dt>**CONVERT10 \_ E \_ STG \_ aucun 0x800401C5 de \_ \_ flux STD**</dt> <dt></dt> </dl>                                                               | Il manque l’un des flux standard dans le contenu de IStorage<br/>                                                             |
-| <span id="CONVERT10_E_STG_DIB_TO_BITMAP"></span><span id="convert10_e_stg_dib_to_bitmap"></span><dl> <dt>**CONVERT10 \_ \_STG \_ DIB \_ à \_ bitmap**</dt> <dt>0x800401C6</dt> </dl>                                                               | Une erreur s’est produite dans un appel Windows GDI lors de la conversion du fichier DIB en bitmap.<br/>                                          |
+| <span id="CONVERT10_E_STG_DIB_TO_BITMAP"></span><span id="convert10_e_stg_dib_to_bitmap"></span><dl> <dt>**CONVERT10 \_ \_STG \_ DIB \_ à \_ bitmap**</dt> <dt>0x800401C6</dt> </dl>                                                               | une erreur s’est produite dans un Windows appel GDI lors de la conversion du fichier DIB en bitmap.<br/>                                          |
 | <span id="CLIPBRD_E_CANT_OPEN"></span><span id="clipbrd_e_cant_open"></span><dl> <dt>**Clipbrd \_ E \_ Impossible d' \_ ouvrir**</dt> <dt>0x800401D0</dt> </dl>                                                                                               | Échec de OpenClipboard<br/>                                                                                                    |
 | <span id="CLIPBRD_E_CANT_EMPTY"></span><span id="clipbrd_e_cant_empty"></span><dl> <dt>**Clipbrd \_ E \_ \_**</dt> <dt>in0x800401D1</dt> vide </dl>                                                                                            | Échec de EmptyClipboard<br/>                                                                                                   |
 | <span id="CLIPBRD_E_CANT_SET"></span><span id="clipbrd_e_cant_set"></span><dl> <dt>**Clipbrd \_ E \_ Impossible de \_ définir**</dt> <dt>0x800401D2</dt> </dl>                                                                                                  | Échec de SetClipboard<br/>                                                                                                     |

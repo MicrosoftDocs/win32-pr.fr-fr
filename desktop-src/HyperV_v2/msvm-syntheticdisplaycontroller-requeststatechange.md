@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: a8ac33705dbb57a28b6b6a02c45f27e7cd986fa3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 34745192f6219152dfd45c2244bcaf86c130e5bef40e6b2221b8e06d5b81f014
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949908"
 ---
 # <a name="requeststatechange-method-of-the-msvm_syntheticdisplaycontroller-class"></a>Méthode RequestStateChange de la \_ classe MSVM SyntheticDisplayController
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

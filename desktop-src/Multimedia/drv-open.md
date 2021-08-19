@@ -3,7 +3,7 @@ title: Message DRV_OPEN (mmsystem. h)
 description: Indique au pilote d’ouvrir une nouvelle instance.
 ms.assetid: 6b5e21e3-dc29-4f0f-84cb-bd2d2e3c54e9
 keywords:
-- Message DRV_OPEN Windows Multimedia
+- message DRV_OPEN Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53c56e62cb85f09a3846c6d95d723b9fa05d95a7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 537d3067c85cf3f92eaf2fae81cd392490ff9fa728ed8377d8241c7204cf64e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691579"
 ---
 # <a name="drv_open-message"></a>DRV \_ message ouvert
 
@@ -61,7 +61,7 @@ données spécifiques au pilote 32 bits.
 
 Retourne une valeur différente de zéro en cas de réussite ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le pilote retourne une valeur différente de zéro, le système utilise cette valeur comme identificateur de pilote (le paramètre *dwDriverId* ) dans les messages qu’il envoie par la suite à l’instance du pilote. Le pilote peut retourner n’importe quel type de valeur comme identificateur. Par exemple, certains pilotes retournent des adresses mémoire qui pointent vers des informations spécifiques à l’instance. L’utilisation de cette méthode de spécification des identificateurs pour une instance de pilote permet aux pilotes d’accéder aux informations pendant qu’ils traitent des messages.
 
@@ -73,7 +73,7 @@ Si le pilote retourne une valeur différente de zéro, le système utilise cette
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 
