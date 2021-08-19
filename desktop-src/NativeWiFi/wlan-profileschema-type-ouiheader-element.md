@@ -12,18 +12,18 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 12637e5a70409166e5a31aa0fc98f4df1b9f6945
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 234b30883df463d7c336ce7d270e574d41a5cabe9924c327a35ff1a31ee65632
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117797500"
 ---
 # <a name="type-ouiheader-element"></a>Élément type (OUIHeader)
 
 L’élément type (OUIHeader) contient une valeur hexBinary de 1 octet qui est utilisée pour différencier les cartes réseau effectuées par le même IHV.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.
 
 ``` syntax
 <xs:element name="type">
@@ -47,8 +47,8 @@ L’élément est défini par l’élément [**OUIHeader**](wlan-profileschema-o
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

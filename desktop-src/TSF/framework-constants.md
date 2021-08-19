@@ -11,12 +11,12 @@ keywords:
 - référence pour TSF, constantes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d3769809658ed313490514ff9d2b3dd39eadbdd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a2be63f547ffc81175916afbc6945222bab51515144a9faf286900258fe1438
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117953404"
 ---
 # <a name="framework-constants"></a>Constantes d’infrastructure
 
@@ -33,9 +33,9 @@ Les constantes TSF se composent des catégories suivantes.
 -   [\_ \_ \* Constantes TF SS](tf-ss--constants.md)
 -   [TF \_ ( \_ \* constantes TF)](tf-tf--constants.md)
 
- 
+ 
 
- 
+ 
 
 
 

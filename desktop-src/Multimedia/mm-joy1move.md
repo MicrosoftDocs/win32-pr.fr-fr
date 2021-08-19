@@ -3,7 +3,7 @@ title: Message MM_JOY1MOVE (mmsystem. h)
 description: Le \_ message JOY1MOVE mm notifie la fenêtre qui a capturé la manette de jeu JOYSTICKID1 que la position de la manette de jeu a changé.
 ms.assetid: 317ac0b2-f873-413d-b071-47d840229643
 keywords:
-- Message MM_JOY1MOVE Windows Multimedia
+- message MM_JOY1MOVE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a78753bd55f6682b3ac3f1514356d93cb455d162
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d8c8a71bc91b541bc17017fc2673bb6c0ed7e84a2de44ff312954b8f9915dc57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802444"
 ---
 # <a name="mm_joy1move-message"></a>MM \_ message JOY1MOVE
 
@@ -81,7 +81,7 @@ Coordonnée y de la manette de jeu par rapport au coin supérieur gauche de la z
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

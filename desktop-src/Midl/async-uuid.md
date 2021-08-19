@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39fd7b4d9d9bf7a595415e55de778a419d91051c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 83a784cadf470fa312a82e473f3934dbda1a2b6dce20d2ae34c7074c309398cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104101533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808233"
 ---
 # <a name="async_uuid-attribute"></a>\_attribut UUID Async
 
@@ -81,9 +81,9 @@ Spécifie les instructions IDL qui forment la définition de l’interface.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’utilisation de cet attribut requiert Windows 2000 ou des versions ultérieures de Windows.
+l’utilisation de cet attribut requiert Windows versions 2000 ou ultérieures de Windows.
 
 Lorsque vous appliquez l’attribut **\[ \_ UUID \] Async** à une interface com (autrement dit, une interface qui a l’attribut [**\[ objet \]**](object.md) ), le compilateur MIDL génère une définition asynchrone de l’interface, en plus de la version synchrone traditionnelle. L’interface asynchrone aura les mêmes noms que l’interface synchrone, mais avec un préfixe « Async ». L’identificateur d’interface (IID) est l’UUID spécifié en tant que paramètre de l’attribut **\[ \_ UUID \] Async** .
 
@@ -124,13 +124,13 @@ interface IMyInterface : IUnknown
 [**IID \_ est**](iid-is.md)
 </dt> <dt>
 
-[**in**](in.md)
+[**dans**](in.md)
 </dt> <dt>
 
-[**localisé**](local.md)
+[**local**](local.md)
 </dt> <dt>
 
-[**object**](object.md)
+[**dessin**](object.md)
 </dt> <dt>
 
 [**à**](out-idl.md)
@@ -139,6 +139,6 @@ interface IMyInterface : IUnknown
 [**Version**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

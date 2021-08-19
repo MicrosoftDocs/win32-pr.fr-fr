@@ -3,7 +3,7 @@ title: Commande MCI_GETDEVCAPS (mmsystem. h)
 description: La \_ commande MCI GETDEVCAPS récupère des informations statiques sur un appareil.
 ms.assetid: a839006f-ea57-4595-9208-cfc465c95298
 keywords:
-- Commande MCI_GETDEVCAPS Windows multimédia
+- commande MCI_GETDEVCAPS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85abb0354d36979741d0b292dd9def469cec0049
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7798f72405209f9834c3b67f84e57508c58ffc6153bce860b91f089005648905
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803951"
 ---
 # <a name="mci_getdevcaps-command"></a>\_Commande MCI GETDEVCAPS
 
@@ -68,7 +68,7 @@ Pointeur vers une structure [**MCI \_ GETDEVCAPS \_ PARMS**](mci-getdevcaps-parm
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs standard et spécifiques à la commande suivants s’appliquent à tous les appareils prenant en charge MCI \_ GETDEVCAPS :
 
@@ -363,7 +363,7 @@ En cas de combinaison avec d’autres éléments, spécifie que les informations
 
 </dd> <dt>
 
-<span id="MCI_VD_GETDEVCAPS_FAST_RATE"></span><span id="mci_vd_getdevcaps_fast_rate"></span>\_ \_ taux rapide de GETDEVCAPS MCI VD \_ \_
+<span id="MCI_VD_GETDEVCAPS_FAST_RATE"></span><span id="mci_vd_getdevcaps_fast_rate"></span>\_taux de FAST MCI VD \_ GETDEVCAPS \_ \_
 </dt> <dd>
 
 Le membre **dwReturn** est défini sur le taux de lecture rapide standard en images par seconde.
@@ -410,7 +410,7 @@ Le membre **dwReturn** est défini sur le nombre total d’appareils de sortie d
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

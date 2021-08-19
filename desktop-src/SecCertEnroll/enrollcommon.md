@@ -4,16 +4,16 @@ ms.assetid: a9b3532d-9640-4373-a6c6-7828cb6f55c7
 title: enrollCommon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 384a1f3741fd8bd7762c60da524e2e639c442e41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d087ce1aeced0ef68f5b33a06546897d09687ae5ccbd096f1bb34552d0a4a10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780068"
 ---
 # <a name="enrollcommon"></a>enrollCommon
 
-Le dossier enrollCommon contient les fonctions d’assistance et les macros suivantes utilisées par les exemples fournis avec le kit de développement logiciel (SDK) d’inscription de certificats. Il est installé par défaut dans le dossier *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security \\ x509 Certificate \\ enrollCommon VC \\ .
+Le dossier enrollCommon contient les fonctions d’assistance et les macros suivantes utilisées par les exemples fournis avec le kit de développement logiciel (SDK) d’inscription de certificats. il est installé par défaut dans le dossier *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security \\ X509 certificate \\ \\ enrollCommon.
 
 
 

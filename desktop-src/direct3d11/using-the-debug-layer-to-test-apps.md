@@ -4,12 +4,12 @@ description: Ici, nous parlerons de la façon d’activer la couche de débogage
 ms.assetid: 3C2B0A12-FB57-4400-BE39-05ED23F552C7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aaa3f4748da6893470e3bb6631c4228ec1ae3d48
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9c6ac5492b96c40b4395b2c501b764c646a8edbb06d3a6386a15cbb2534778d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117912733"
 ---
 # <a name="using-the-debug-layer-to-debug-apps"></a>Utilisation de la couche de débogage pour déboguer des applications
 
@@ -30,7 +30,7 @@ Ici, nous parlerons de la façon d’activer la [couche de débogage](overviews-
 
 ## <a name="enabling-the-debug-layer"></a>Activation de la couche de débogage
 
-Pour activer la [couche de débogage](overviews-direct3d-11-devices-layers.md), spécifiez l’indicateur de [**\_ \_ \_ débogage d3d11 créer un appareil**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_create_device_flag) dans le paramètre *Flags* lorsque vous appelez la fonction [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice) pour créer le périphérique de rendu. Cet exemple de code montre comment activer la couche de débogage lorsque votre projet Microsoft Visual Studio se trouve dans une version Debug :
+Pour activer la [couche de débogage](overviews-direct3d-11-devices-layers.md), spécifiez l’indicateur de [**\_ \_ \_ débogage d3d11 créer un appareil**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_create_device_flag) dans le paramètre *Flags* lorsque vous appelez la fonction [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice) pour créer le périphérique de rendu. cet exemple de code montre comment activer la couche de débogage lorsque votre projet Microsoft Visual Studio se trouve dans une version debug :
 
 
 ```C++
@@ -100,9 +100,9 @@ Si vous avez créé un appareil qui prend en charge la [couche de débogage](ove
 [Couches logicielles](overviews-direct3d-11-devices-layers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

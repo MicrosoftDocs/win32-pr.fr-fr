@@ -4,16 +4,16 @@ ms.assetid: e4d9c95d-1b68-4af6-beb2-2014074e5089
 title: 'IEnumTime :: Skip, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 190a98c14cb8f551276a173e2d73872d876f2ceb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c36f92ead711c25b385c2a7109dbb113b8c5ca082fda9c3012204384350a3c13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762948"
 ---
 # <a name="ienumtimeskip-method"></a>IEnumTime :: Skip, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **Skip** ignore le nombre spécifié d’éléments dans la séquence d’énumération.
 
@@ -39,7 +39,7 @@ Nombre d'éléments à ignorer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Cette méthode peut retourner l’une de ces valeurs.
 

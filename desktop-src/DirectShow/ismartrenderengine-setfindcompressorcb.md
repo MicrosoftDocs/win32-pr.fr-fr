@@ -22,7 +22,7 @@ ms.locfileid: "117817393"
 # <a name="ismartrenderenginesetfindcompressorcb-method"></a>ISmartRenderEngine :: SetFindCompressorCB, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

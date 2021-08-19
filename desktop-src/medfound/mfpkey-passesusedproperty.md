@@ -4,12 +4,12 @@ ms.assetid: 71a21976-ed92-4cd6-946c-fa6268895531
 title: MFPKEY_PASSESUSED, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6cb09949049db1910a419becec3423b0bb7c365
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94ab020c4b683dc87ced3ffda8665b6b0e62b65cf81001c23c00b39f64ba146b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873046"
 ---
 # <a name="mfpkey_passesused-property"></a>MFPKEY \_ propriété PASSESUSED
 
@@ -27,7 +27,7 @@ VT \_
 
 1
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette valeur ne peut pas dépasser la valeur de [MFPKEY \_ PASSESRECOMMENDED](mfpkey-passesrecommendedproperty.md).
 
@@ -37,8 +37,8 @@ Cette valeur ne peut pas dépasser la valeur de [MFPKEY \_ PASSESRECOMMENDED](mf
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 14B833BC-2188-48D6-AA27-B15F491D90CF
 title: CODECAPI_AVEncAdaptiveMode, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b2405558fff76fa065324249583d4abcd445a91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a1014e1f1cc526ee80295a183f33a840807cac27768afbb32326d5cd93d3f2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118064760"
 ---
 # <a name="codecapi_avencadaptivemode-property"></a>CODECAPI \_ propriété AVEncAdaptiveMode
 
@@ -33,8 +33,8 @@ La valeur de cette propriété est **une opération or au niveau du bit** de l�
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

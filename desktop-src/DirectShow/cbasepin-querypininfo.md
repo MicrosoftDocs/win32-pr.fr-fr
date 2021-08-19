@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f69977a15deb7d84b3370bb6e08c02a4e5129212
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 544039b1076848cb796f290ea98aa8aac359b26ebfb64f90a27d316a9d0cc34f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106524017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823229"
 ---
 # <a name="cbasepinquerypininfo-method"></a>Méthode CBasePin. QueryPinInfo
 
@@ -53,7 +53,7 @@ Pointeur vers une structure d' [**\_ informations de code confidentiel**](/windo
 
 Retourne le \_ pointeur S ou OK \_ .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode utilise la variable membre [**CBasePin :: m \_ pname**](cbasepin-m-pname.md) pour le membre **achName** de la structure d’informations sur le code confidentiel \_ .
 
@@ -65,7 +65,7 @@ Lorsque la méthode est retournée, si le membre **pFilter** de la structure inf
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

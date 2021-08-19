@@ -4,12 +4,12 @@ ms.assetid: 9dd3ff5b-4c7c-41a8-b1b9-7ea380175193
 title: Utilisation de l’encodage VBR (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdd1f317308d79c696e26a8671cc9d84ca8effa4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50a9e1a61baf0539c0597e68f24dfad1496918012e52f778a1b7a64de27e5faa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117871228"
 ---
 # <a name="using-vbr-encoding-microsoft-media-foundation"></a>Utilisation de l’encodage VBR (Microsoft Media Foundation)
 
@@ -19,7 +19,7 @@ Comme indiqué dans la rubrique [méthodes d’encodage](encodingmethods.md) , l
 
 L’encodage à l’aide de la méthode VBR basée sur la qualité ne requiert pas de paramètres de mémoire tampon prédéfinis. Au lieu de cela, vous spécifiez un niveau de qualité (compris entre 0 et 100) que l’encodeur utilise pour déterminer dynamiquement les paramètres de mémoire tampon appropriés. Ce mode d’encodage n’utilise qu’un seul passe d’encodage.
 
-Vous pouvez énumérer les types de sortie VBR basés sur la qualité pris en charge pour les codecs audio. Vous devez utiliser l’un des types retournés par DMO lors de la définition du type de sortie. Pour plus d’informations, consultez [énumération des types audio pour des modes d’encodage spécifiques](enumeratingaudiotypesforspecificencodingmodes.md).
+Vous pouvez énumérer les types de sortie VBR basés sur la qualité pris en charge pour les codecs audio. vous devez utiliser l’un des types retournés par la DMO lors de la définition du type de sortie. Pour plus d’informations, consultez [énumération des types audio pour des modes d’encodage spécifiques](enumeratingaudiotypesforspecificencodingmodes.md).
 
 Pour configurer un flux vidéo VBR basé sur la qualité, vous devez définir les propriétés qui sont répertoriées dans le tableau suivant.
 
@@ -38,7 +38,7 @@ Pour configurer un flux vidéo VBR basé sur la qualité, vous devez définir le
 
 L’encodage VBR non restreint permet à l’encodeur de modifier la taille des échantillons individuels sans aucune limite de mémoire tampon explicite. Toutefois, la vitesse de transmission moyenne sur la durée du contenu résultant doit être inférieure ou égale à la valeur spécifiée. Le VBR sans contrainte requiert deux passes d’encodage.
 
-Vous pouvez énumérer les types de sortie VBR en deux passes pris en charge pour les codecs audio. Vous devez utiliser l’un des types retournés par DMO lors de la définition du type de sortie. Pour plus d’informations, consultez [énumération des types audio pour des modes d’encodage spécifiques](enumeratingaudiotypesforspecificencodingmodes.md).
+Vous pouvez énumérer les types de sortie VBR en deux passes pris en charge pour les codecs audio. vous devez utiliser l’un des types retournés par la DMO lors de la définition du type de sortie. Pour plus d’informations, consultez [énumération des types audio pour des modes d’encodage spécifiques](enumeratingaudiotypesforspecificencodingmodes.md).
 
 Pour configurer un flux vidéo VBR non restreint, vous devez définir les propriétés répertoriées dans le tableau suivant.
 
@@ -58,7 +58,7 @@ Pour configurer un flux vidéo VBR non restreint, vous devez définir les propri
 
 Le VBR limité au maximum est comme un VBR non restreint en ce qu’il est limité à un débit binaire moyen sur la durée du flux. En outre, le VBR maximal restreint est conforme à une mémoire tampon de pointe. Cette mémoire tampon est décrite à l’aide d’un taux binaire de pointe et d’une fenêtre de mémoire tampon de pointe, tout comme une mémoire tampon CBR est décrite par une vitesse de transmission moyenne et une fenêtre de mémoire tampon. Ce mode offre à la flexibilité de l’encodeur la manière dont il encode des exemples individuels tout en adhérant aux limitations de pointe. Cela s’avère particulièrement utile lorsque le décodage est effectué par une puce dans un appareil, comme un lecteur de DVD, où des limitations matérielles doivent être prises en compte.
 
-Les types de sortie de l’encodeur audio VBR les plus pertenus pris en charge sont les mêmes que ceux énumérés pour le VBR sans contrainte. Définissez les valeurs de pic sur DMO et utilisez le type remis. Pour plus d’informations, consultez [énumération des types audio pour des modes d’encodage spécifiques](enumeratingaudiotypesforspecificencodingmodes.md).
+Les types de sortie de l’encodeur audio VBR les plus pertenus pris en charge sont les mêmes que ceux énumérés pour le VBR sans contrainte. définissez les valeurs de pic sur la DMO et utilisez le type remis. Pour plus d’informations, consultez [énumération des types audio pour des modes d’encodage spécifiques](enumeratingaudiotypesforspecificencodingmodes.md).
 
 Pour configurer un flux vidéo VBR avec des pics de charge, vous devez définir les propriétés répertoriées dans le tableau suivant à l’aide de la méthode **IPropertyBag :: Write** .
 

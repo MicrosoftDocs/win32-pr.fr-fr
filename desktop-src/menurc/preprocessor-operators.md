@@ -6,12 +6,12 @@ keywords:
 - compilateur de ressources, opérateurs de préprocesseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f51aa806c625dcb7686ccd5032895c860688e2e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 643e8b56c302878b39defa4da9adb71dd0062d5a148531eb06978c6c0ecd651e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117870111"
 ---
 # <a name="preprocessor-operators"></a>Opérateurs de préprocesseur
 
@@ -27,11 +27,11 @@ RC prend en charge l’utilisation des opérateurs de prétraitement standard C 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

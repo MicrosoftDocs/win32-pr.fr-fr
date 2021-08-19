@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Imeshare.dll
-ms.openlocfilehash: c7de1bf4ef84d159d673e1039ad6ea328153b216
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8923da89872b5abbd7849b530bca2e13022247f3633444d0c000cffce017ecd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117827480"
 ---
 # <a name="ffundamentalimecolorstyle-function"></a>FFundamentalIMEColorStyle fonction)
 
@@ -50,7 +50,7 @@ Une structure **IMECOLORSTY** retournée par la fonction [**PColorStyleBackFromI
 
 Retourne la **valeur true** lorsque la couleur est une couleur fondamentale.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

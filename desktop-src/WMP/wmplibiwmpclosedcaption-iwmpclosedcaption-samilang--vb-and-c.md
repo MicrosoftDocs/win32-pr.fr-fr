@@ -3,9 +3,9 @@ title: IWMPClosedCaption propriété SAMILang
 description: La propriété SAMILang obtient ou définit la langue affichée pour le sous-titrage.
 ms.assetid: dcdd6bcd-b869-439f-b500-df26d3873b04
 keywords:
-- Propriété SAMILang lecteur Windows Media
-- Propriété SAMILang lecteur Windows Media, interface IWMPClosedCaption
-- Interface IWMPClosedCaption lecteur Windows Media, propriété SAMILang
+- Lecteur Windows Media de la propriété SAMILang
+- Lecteur Windows Media de la propriété SAMILang, interface IWMPClosedCaption
+- Lecteur Windows Media de l’interface IWMPClosedCaption, propriété SAMILang
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe29defa3736795c88613ee7ab2ef11a914a3f80
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 98354d5e1e4f796442dd0347a4ed2796cafdf7297d3829af9b8839d48df00c3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930312"
 ---
 # <a name="iwmpclosedcaptionsamilang-property"></a>IWMPClosedCaption :: SAMILang, propriété
 
@@ -48,7 +48,7 @@ Public Property SAMILang As System.String
 
 **System. String** qui est le nom spécifié dans l’identificateur de langue d’un fichier sami.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un fichier SAMI peut contenir du texte pour une ou plusieurs langues. Les langues disponibles pour le sous-titrage sont définies entre les balises <STYLE> et </STYLE> dans le fichier sami. Un identificateur de langue est spécifié avec une chaîne alphanumérique unique précédée d’un point (.). Le nom spécifié pour une langue peut être n’importe quelle chaîne. Par exemple, les éléments suivants peuvent être utilisés pour définir l’anglais des États-Unis :
 

@@ -24,7 +24,7 @@ ms.locfileid: "117817437"
 # <a name="ismartrenderenginegetgroupcompressor-method"></a>ISmartRenderEngine :: GetGroupCompressor, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: a9e5ad4d-61c6-43ed-a162-460683bcdb16
 title: Héritage ACE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d6462ed9523c94090924981db252b938f2056cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bd239801ea15dddb142c42d86e1aa44d0d644e5d217c50fc7c9cf9388747e45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785380"
 ---
 # <a name="ace-inheritance"></a>Héritage ACE
 
@@ -22,7 +22,7 @@ Ces règles ont été améliorées avec les fonctionnalités suivantes :
 -   Prise en charge de la [propagation automatique des ACE pouvant être héritées](automatic-propagation-of-inheritable-aces.md).
 -   Indicateur qui fait la distinction entre les ACE héritées et les ACE qui ont été directement appliquées à un objet.
 -   Entrées de contrôle d’accès spécifiques aux objets qui vous permettent de spécifier le type d’objet enfant qui peut hériter de l’entrée du contrôle d’accès.
--   La possibilité d’empêcher une liste DACL ou SACL d’hériter des entrées du contrôle d’accès en définissant les \_ \_ bits de \_ contrôle du descripteur DACL protected ou se \_ dans les bits de contrôle [*du descripteur de sécurité*](/windows/desktop/SecGloss/s-gly) , à l’exception de l’attribut de ressource système ACE et de l' \_ ID de \_ \_ \_ stratégie limitée au système \_ \_ \_ .
+-   la possibilité d’empêcher une liste dacl ou SACL d’hériter des entrées du contrôle d’accès en définissant la SE \_ liste de \_ contrôle d’accès discrétionnaire protégée ou SE \_ \_ bits protégés par la liste de contrôle d’accès dans les bits de contrôle [*du descripteur de sécurité*](/windows/desktop/SecGloss/s-gly) , à l’exception de l’ace et de l' \_ \_ \_ \_ \_ ID de stratégie système \_ \_
 
  
 

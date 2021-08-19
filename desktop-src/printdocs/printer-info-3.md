@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: aad24e56d43f6fadd3da3f627b2399249a7ff8a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6b9bc249921b3247f5df898c2810d735dc1a75c8e643e965b3fd249d9496f78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867924"
 ---
 # <a name="printer_info_3-structure"></a>Structure de l’imprimante \_ info \_ 3
 
@@ -46,7 +46,7 @@ Pointeur vers une structure de [**\_ descripteur de sécurité**](/windows/deskt
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure **Printer \_ info \_ 3** permet à une application d’obtenir et de définir le descripteur de sécurité d’une imprimante. L’appelant peut le faire même s’il ne dispose pas d’autorisations d’imprimante spécifiques, à condition qu’il dispose des droits standard décrits dans [**SetPrinter**](setprinter.md) et [**GetPrinter**](getprinter.md). Par conséquent, une application peut refuser temporairement tout accès à une imprimante, tout en autorisant le propriétaire de l’imprimante à accéder à la liste de contrôle d’accès discrétionnaire de l’imprimante.
 

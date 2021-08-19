@@ -4,19 +4,19 @@ ms.assetid: 863d30cc-24dd-4215-a4d5-25d51a725dcd
 title: Suppression de Microsoft Agent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 758b0508deb7ad54d84b3ee6290b7021fe93d47b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 983c6fd0d4084cf6b766c6d69f22db83222581c48e37879fe9e2f022604a17a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118329462"
 ---
 # <a name="removal-of-microsoft-agent"></a>Suppression de Microsoft Agent
 
 ## <a name="platform"></a>Plateforme
 
 **Clients** -Windows 7  
-**Serveurs** -Windows Server 2008 R2  
+**serveurs** -Windows Server 2008 R2  
 
 
 
@@ -34,7 +34,7 @@ ms.locfileid: "108116347"
 
 ## <a name="description"></a>Description
 
-Microsoft a décidé de cesser le développement des technologies Microsoft Agent. À compter de Windows 7, Microsoft Agent ne sera pas inclus ou pris en charge dans les versions ultérieures du système d’exploitation Microsoft Windows. Nous encourageons les développeurs d’applications Microsoft Agent et les redistributeurs à évaluer leurs activités à la lumière de cette décision.
+Microsoft a décidé de cesser le développement des technologies Microsoft Agent. à partir de Windows 7, microsoft Agent ne sera pas inclus ou pris en charge dans les versions ultérieures du système d’exploitation microsoft Windows. Nous encourageons les développeurs d’applications Microsoft Agent et les redistributeurs à évaluer leurs activités à la lumière de cette décision.
 
 ## <a name="manifestation"></a>Manifestation
 
@@ -50,7 +50,7 @@ Microsoft a décidé de cesser le développement des technologies Microsoft Agen
 
 Les développeurs peuvent toujours utiliser les ressources suivantes pour les versions précédentes de Windows :
 
--   [Composants principaux de Microsoft Agent (à utiliser uniquement sur Microsoft Windows 95, Windows 98 et Windows NT 4,0)](https://www.microsoft.com/downloads/details.aspx?familyid=E11BF712-7862-45BA-826D-44AE3A11836F)
+-   [composants principaux de microsoft Agent (à utiliser uniquement sur microsoft Windows 95, Windows 98 et Windows NT 4,0)](https://www.microsoft.com/downloads/details.aspx?familyid=E11BF712-7862-45BA-826D-44AE3A11836F)
 -   [Fichier de caractères Merlin](https://www.microsoft.com/downloads/details.aspx?FamilyID=fee1dadd-2f23-41d0-8a81-2affd74c0aa5)
 -   [Fichier de caractères Peedy](https://www.microsoft.com/downloads/details.aspx?FamilyID=bd3c4655-79e4-4791-ab9d-abc7bbd133ef)
 -   [Fichier de caractères génie](https://www.microsoft.com/downloads/details.aspx?FamilyID=da86ba4e-bc2d-4c1d-b5a0-3183fe206414)

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 674f95355453ea15cf0a64fa6dc6c1423208f3e8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2641b7a3f673e5546d7b9f258db8fee6e163bec642ce24fe62e4681a883a56ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106517121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118424949"
 ---
 # <a name="ms-tpm-owner-information-temp-attribute"></a>ms-TPM-owner-information-attribut Temp
 

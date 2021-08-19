@@ -3,7 +3,7 @@ title: MpUpdateControl, fonction (MpClient. h)
 description: Autorise le contrôle d’une opération de mise à jour de signature qui a été lancée de manière asynchrone via MpUpdateStart.
 ms.assetid: 2780E472-6E8D-4839-88EE-46E3448C6BF5
 keywords:
-- Fonctionnalités d’environnement Windows hérités de la fonction MpUpdateControl
+- fonctionnalités d’environnement Windows hérités de la fonction MpUpdateControl
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ea28c6ace349fd04fb9241d7eddbe7c1e5fbbe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 69926f26b470ba41226883bdb32fab13c5d776858595c256fe70e7f95e898c04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118476271"
 ---
 # <a name="mpupdatecontrol-function"></a>MpUpdateControl fonction)
 
@@ -83,8 +83,8 @@ Si la fonction échoue, la valeur de retour est un code **HRESULT** en échec. L
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

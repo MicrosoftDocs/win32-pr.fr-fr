@@ -4,12 +4,12 @@ ms.assetid: be00b019-6922-44e5-a837-7068956cd155
 title: System. Calendar. OrganizerAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdc6f5fd497ccf8d751b0b6f87d2248848c670f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 956e0a38c357fa2c11413554591bf017aa23e6bada4aa60ee42ca8006db180ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867374"
 ---
 # <a name="systemcalendarorganizeraddress"></a>System. Calendar. OrganizerAddress
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

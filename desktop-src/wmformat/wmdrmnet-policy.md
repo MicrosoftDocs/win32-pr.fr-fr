@@ -1,6 +1,6 @@
 ---
 title: Structure WMDRMNET_POLICY (wmdrmsdk. h)
-description: La structure de la \_ stratégie WMDRMNET contient la stratégie à utiliser pour les opérations DRM Windows Media pour les périphériques réseau.
+description: la structure de la \_ stratégie WMDRMNET contient la stratégie à utiliser pour le Windows Media DRM pour les opérations sur les périphériques réseau.
 ms.assetid: 11eaaeb2-3470-4f58-ae1c-53ee0f60bdce
 keywords:
 - Structure WMDRMNET_POLICY format Windows Media
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 574e37a8c5ee7f68291012b86cda3a89e25949ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf648ef5e300fa9fef1cf12fd4698f4ec196f62130bf75a02f263cd96931f0bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117653422"
 ---
 # <a name="wmdrmnet_policy-structure"></a>Structure de la \_ stratégie WMDRMNET
 
-La structure de la **\_ stratégie WMDRMNET** contient la stratégie à utiliser pour les opérations DRM Windows Media pour les périphériques réseau.
+la structure de la **\_ stratégie WMDRMNET** contient la stratégie à utiliser pour le Windows Media DRM pour les opérations sur les périphériques réseau.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -56,7 +56,7 @@ Mémoire tampon contenant la stratégie. Le seul type de stratégie actuellement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est utilisée en tant que paramètre pour la méthode [**IWMDRMNetTransmitter :: GetLeafLicenseResponse**](iwmdrmnettransmitter-getleaflicenseresponse.md) .
 

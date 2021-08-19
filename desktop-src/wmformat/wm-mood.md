@@ -31,7 +31,7 @@ L’attribut **WM/humeur** contient un nom de catégorie pour l’ambiance du co
 
 **\_chaîne de type WMT \_**
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemples
 
 
 

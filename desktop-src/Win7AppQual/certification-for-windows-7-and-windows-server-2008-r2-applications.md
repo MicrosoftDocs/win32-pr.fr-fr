@@ -1,17 +1,17 @@
 ---
-description: Programme du logo du logiciel client Windows 7
+description: programme de Logo du logiciel Client Windows 7
 ms.assetid: 05d63224-7974-4c8a-b966-41d3be646854
-title: Programme du logo du logiciel client Windows 7
+title: programme de Logo du logiciel Client Windows 7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ae28ea4dc6dccd64d4ce879235761dab6ab7014
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 69501abac7e52cdba8a4c7909cdf780e012cc45fabe46dd44a1f3fce0f58b89d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118329967"
 ---
-# <a name="windows-7-client-software-logo-program"></a>Programme du logo du logiciel client Windows 7
+# <a name="windows-7-client-software-logo-program"></a>programme de Logo du logiciel Client Windows 7
 
 ## <a name="affected-platforms"></a>Plateformes affectées
 
@@ -20,13 +20,13 @@ ms.locfileid: "108088597"
 
 ## <a name="description-client-application-certification"></a>Description : certification des applications clientes
 
-Dans le cadre de l’heure de Windows 7, nous souhaitons continuer à créer le succès de Windows et à développer le programme de logo pour qu’il soit plus adapté aux clients. En fonction des commentaires des partenaires et des clients, le programme de logo Windows 7 se concentrera sur la garantie que les appareils, les systèmes et les applications sont compatibles, fiables et capables de répondre aux normes Windows. Le programme proposé pour Windows 7 n’aura qu’un seul logo pour les systèmes, les périphériques et les applications. Cette rubrique se concentre spécifiquement sur la compatibilité des logiciels clients.
+dans le délai d’Windows 7, nous souhaitons continuer à créer le succès de Windows et à développer le programme de Logo pour qu’il soit plus adapté aux clients. en se basant sur les commentaires des partenaires et des clients, le programme de Logo Windows 7 se concentrera sur la garantie que les appareils, les systèmes et les applications sont compatibles, fiables et capables de répondre aux normes Windows. le programme proposé pour Windows 7 ne comportera qu’un seul logo pour les systèmes, les périphériques et les applications. Cette rubrique se concentre spécifiquement sur la compatibilité des logiciels clients.
 
-Nous avons amélioré le processus de qualification des applications logicielles pour le logo « compatible avec Windows 7 ». Microsoft n’exigera plus les développeurs que leurs applications soient testées pour la certification par des autorités de test agréées. Au lieu de cela, Microsoft développe une boîte à outils logo que vous pouvez utiliser pour vous assurer que votre application est compatible avec Windows 7 et répond aux exigences du programme du logo du logiciel client Windows 7. Nous avons considérablement réduit le nombre de spécifications. À l’instar du programme matériel, nous avons créé des stratégies. Bien qu’elles ne soient pas liées à des cas de test spécifiques, nous appliquons ces stratégies. Les partenaires doivent satisfaire à toutes les exigences et respecter toutes les stratégies de leurs applications logicielles pour bénéficier du logo « compatible avec Windows 7 ».
+nous avons amélioré le processus de qualification des applications logicielles pour le logo « Compatible avec Windows 7 ». Microsoft n’exigera plus les développeurs que leurs applications soient testées pour la certification par des autorités de test agréées. au lieu de cela, Microsoft développe une boîte à outils de logos que vous pouvez utiliser pour vous assurer que votre application est compatible avec Windows 7 et répond aux exigences du programme du logo du logiciel Client Windows 7. Nous avons considérablement réduit le nombre de spécifications. À l’instar du programme matériel, nous avons créé des stratégies. Bien qu’elles ne soient pas liées à des cas de test spécifiques, nous appliquons ces stratégies. les partenaires doivent satisfaire à toutes les exigences et observer toutes les stratégies pour leurs applications logicielles afin de bénéficier du logo « Compatible avec Windows 7 ».
 
 ## <a name="process"></a>Processus
 
-Lorsque les applications logicielles sont prêtes à être testées, accédez à la page du programme logo Microsoft Windows Connect Windows 7 et suivez les instructions :
+lorsque les applications logicielles sont prêtes à être testées, accédez à la page du programme du Logo de logiciel Microsoft Connecter Windows 7 et suivez les instructions :
 
 1.  Commencez par passer en revue les exigences et identifiez les modifications de code nécessaires pour les satisfaire.
 2.  Utilisez l’outil de test automatique alpha pour la vérification télécharger et installer la dernière version de la boîte à outils. Notez l’architecture 64 bits et la configuration requise du système d’exploitation dans le fichier readme.txt. Exécutez votre application via le kit de outils comme expliqué dans la vue d’ensemble pour vérifier la conformité de l’application par rapport aux exigences.
@@ -40,11 +40,11 @@ Lorsque les applications logicielles sont prêtes à être testées, accédez à
 
 ## <a name="links-to-other-resources"></a>Liens vers d’autres ressources
 
--   [Présentation du programme de logo Windows 7](https://msdn.microsoft.com/windows/dd203105.aspx)
--   [Ressources de compatibilité des applications Windows](/windows/apps/desktop/)
--   [Page programme du logo du logiciel Microsoft Connect Windows 7](/collaborate/connect-redirect?SiteID=831)
--   [Configuration requise pour le logo du logiciel Windows 7](/previous-versions/windows/hardware/hck/dn641155(v=vs.85))
--   [Boîte à outils logo du logiciel Windows 7-bêta 2](https://www.microsoft.com/windowsserver2008/en/us/isv.aspx)
+-   [présentation du programme de Logo Windows 7](https://msdn.microsoft.com/windows/dd203105.aspx)
+-   [Windows Ressources de compatibilité des applications](/windows/apps/desktop/)
+-   [page programme du Logo de logiciel Microsoft Connecter Windows 7](/collaborate/connect-redirect?SiteID=831)
+-   [Windows 7 configuration requise pour le Logo du logiciel](/previous-versions/windows/hardware/hck/dn641155(v=vs.85))
+-   [Windows 7 Logo logiciel Shared Computer Toolkit bêta 2](https://www.microsoft.com/windowsserver2008/en/us/isv.aspx)
 -   **Boîte aux lettres du client :**<SWLogo@Microsoft.com>
 
  

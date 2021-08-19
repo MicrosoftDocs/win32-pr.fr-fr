@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: de58363119dc08c21d2cab0070b438ad6b4331e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac9eba5337fa43e43e3b7a45a7a92263fd4e6d69388185a2096c1a270590e482
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403438"
 ---
 # <a name="cbasereferenceclocksettimedelta-method"></a>Méthode CBaseReferenceClock. SetTimeDelta
 
@@ -53,7 +53,7 @@ Montant pour ajuster l’heure de l’horloge, en unités de 100 nanosecondes. U
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe dérivée peut utiliser cette méthode pour ajuster l’horloge interne, si elle dérive du périphérique qui fournit des informations de minutage.
 
@@ -65,7 +65,7 @@ La méthode [**CBaseReferenceClock :: getTime**](cbasereferenceclock-gettime.md
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Refclock. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Refclock. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 
