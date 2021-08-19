@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 45b6da3bcdb027a00edeb4f009773533424efeb8
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 86e0e04558c9ca1c10f89e924605c8999a7f7346d2278850d7cd6449968fd13c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104383060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118515538"
 ---
 # <a name="dcl_sampler-sm4---asm"></a>\_exemple de DCL (SM4-ASM)
 
@@ -112,7 +112,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 Cette instruction est incluse pour faciliter le débogage d’un nuanceur dans l’assembly. vous ne pouvez pas créer de nuanceur dans un langage assembleur à l’aide du nuanceur modèle 4.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 Voici un exemple.
 
@@ -129,11 +129,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

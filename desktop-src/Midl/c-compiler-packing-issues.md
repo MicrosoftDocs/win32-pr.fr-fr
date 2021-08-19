@@ -8,16 +8,16 @@ keywords:
 - configuration de la mémoire (MIDL)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63c441439499d1a9b22e36c697ab6615f3292744
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5d355214c7f3222d67fd7673de4f9d32d19b4c885e8f97143c80df7b98bc0e38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807892"
 ---
 # <a name="c-compiler-packing-issues"></a>C-problèmes de compression du compilateur
 
-Les niveaux de compression affectent la disposition de la mémoire des types pour MIDL et le compilateur Microsoft C/C++ de la même façon. Dans les environnements de génération Microsoft, tels que l’environnement de génération défini par VC + + ou le kit de développement logiciel (SDK) de plateforme, le niveau de compression par défaut pour les compilateurs MIDL et C/C++ est le même ; le niveau de compression par défaut pour les environnements de génération Windows 32 bits et 64 bits est 8.
+Les niveaux de compression affectent la disposition de la mémoire des types pour MIDL et le compilateur Microsoft C/C++ de la même façon. dans les environnements de génération Microsoft, tels que l’environnement de génération défini par VC++ ou le kit de développement logiciel (SDK) de la plateforme, le niveau de compression par défaut pour les compilateurs MIDL et C/C++ est le même ; le niveau de compression par défaut pour les environnements de génération de Windows 32 bits et 64 bits est 8.
 
 ## <a name="natural-alignment"></a>Alignement naturel
 
@@ -35,7 +35,7 @@ L’alignement naturel est important car l’accès aux données mal alignées p
 > [!Note]  
 > En mémoire, les objets de types avec un alignement naturel de *n* sont garantis correctement alignés lorsqu’ils sont placés à des adresses qui sont un multiple de *n*.
 
- 
+ 
 
 ## <a name="packing-versus-alignment"></a>Compression et alignement
 
@@ -79,6 +79,6 @@ Pour le niveau de compression 1, la structure est alignée sur 1 et sa taille es
 [/Pack](./-pack.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

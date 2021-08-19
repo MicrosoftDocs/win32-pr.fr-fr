@@ -1,22 +1,22 @@
 ---
-description: Suppression de Windows Mail
+description: suppression de la messagerie Windows
 ms.assetid: 356f0d79-12dd-49f0-b756-a46f20177efa
-title: Suppression de Windows Mail
+title: suppression de la messagerie Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d50ad1008d9e252e1705a159f19d362677934023
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2456fa5bdf9d981385f2b4832250358f7bfdab1b223aeb3658d8df4cc212237b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118328933"
 ---
-# <a name="removal-of-windows-mail"></a>Suppression de Windows Mail
+# <a name="removal-of-windows-mail"></a>suppression de la messagerie Windows
 
 ## <a name="affected-platforms"></a>Plateformes affectées
 
 **Clients** -Windows 7  
-**Serveurs** -Windows Server 2008 R2  
+**serveurs** -Windows Server 2008 R2  
 
 
 
@@ -41,17 +41,17 @@ ms.locfileid: "108116277"
 
 ## <a name="description"></a>Description
 
-Microsoft déprécie l’utilitaire de messagerie Windows et désactive l’API CoStartOutlookExpress. Les autres API de messagerie ont été marquées comme dépréciées et sont susceptibles d’être supprimées dans une version ultérieure de Windows. Toutefois, les API documentées publiquement qui ne sont pas marquées comme dépréciées ou obsolètes continuent de fonctionner dans Windows 7. Les binaires restent sur les systèmes des utilisateurs et continuent à être accessibles via les API, en particulier dans les cas mentionnés ci-dessus. En outre, les fichiers de courrier électronique (. eml) et les fichiers de News (. NWS) des utilisateurs resteront sur le système.
+Microsoft déprécie l’utilitaire de messagerie Windows et désactive l’API CoStartOutlookExpress. les autres api de messagerie ont été marquées comme dépréciées et sont susceptibles d’être supprimées dans une version ultérieure de Windows. toutefois, les api documentées publiquement qui ne sont pas marquées comme dépréciées ou obsolètes continuent de fonctionner dans Windows 7. Les binaires restent sur les systèmes des utilisateurs et continuent à être accessibles via les API, en particulier dans les cas mentionnés ci-dessus. En outre, les fichiers de courrier électronique (. eml) et les fichiers de News (. NWS) des utilisateurs resteront sur le système.
 
 ## <a name="manifestation-of-impact"></a>Manifeste de l’impact
 
-La suppression des résultats Windows Mail est due à ce qui suit :
+la suppression de Windows message est due à ce qui suit :
 
--   Tous les points d’entrée vers Windows Mail et contacts (par exemple, le menu Démarrer, les raccourcis créés par l’utilisateur, l’exécution de démarrage >, etc.) sont supprimés ou désactivés. Certaines d’entre elles sont complètement supprimées, d’autres échouent lors de la tentative de lancement.
+-   tous les points d’entrée pour Windows le courrier électronique et les Contacts (par exemple, le Menu démarrer, les raccourcis créés par l’utilisateur, l’exécution de démarrage >, etc.) sont supprimés ou désactivés. Certaines d’entre elles sont complètement supprimées, d’autres échouent lors de la tentative de lancement.
 -   Toutes les dll sont expédiées dans la zone
--   Les API documentées publiquement continuent de fonctionner comme dans Windows Vista
+-   les api documentées publiquement continuent de fonctionner comme dans Windows Vista
 -   Toutes les API qui tentent de lancer l’interface utilisateur principale du navigateur ont été modifiées pour créer une défaillance silencieuse. La fonction retourne Success, mais n’affiche pas l’interface utilisateur pour l’utilisateur. Les API qui appellent d’autres boîtes de dialogue (par exemple, le spouleur ou la boîte de dialogue comptes) continuent à afficher cette interface utilisateur.
--   Les gestionnaires de protocole (mailto, LDAP, News, SNEWS, NNTP) ne sont pas associés à Windows Mail ou aux contacts. Lorsque vous tentez de les lancer, les clients voient une boîte de dialogue d’erreur qui les pointe vers l’emplacement où ils peuvent définir ces associations sur un autre programme.
+-   les gestionnaires de protocole (mailto, ldap, news, snews, nntp) ne sont pas associés à des messages ou à des Contacts Windows. Lorsque vous tentez de les lancer, les clients voient une boîte de dialogue d’erreur qui les pointe vers l’emplacement où ils peuvent définir ces associations sur un autre programme.
 -   Les associations de fichiers (. eml,. NWS,. contact,. Group,. wab,. P7C,. VFC) sont interrompues ou désactivées. Lorsque vous tentez d’ouvrir un fichier avec ces extensions, les clients obtiennent une boîte de dialogue leur proposant d’autres applications installées qu’ils peuvent utiliser et les pointant vers une page Web proposant des solutions
 -   Tout fichier utilisateur (par exemple, les fichiers ou les messages de contact) reste sur le système dans le scénario de mise à niveau
 -   Le dossier contacts est masqué par défaut afin que les clients ne le voient pas
@@ -62,24 +62,24 @@ La suppression des résultats Windows Mail est due à ce qui suit :
 
 ## <a name="mitigation"></a>Limitation des risques
 
-Les utilisateurs doivent installer Windows Live Mail ou tout autre produit de messagerie capable de lire les fichiers. eml et. NWS.
+les utilisateurs doivent installer Windows Live Mail ou tout autre produit de messagerie capable de lire les fichiers. eml et. nws.
 
 ## <a name="solution"></a>Solution
 
-Détecte si un gestionnaire de messagerie par défaut est installé. Si ce n’est pas le cas, conseillez à l’utilisateur d’installer Windows Live Mail ou tout autre produit capable de lire les fichiers. eml et. NWS.
+Détecte si un gestionnaire de messagerie par défaut est installé. si ce n’est pas le cas, conseillez à l’utilisateur d’installer Windows Live Mail ou tout autre produit capable de lire les fichiers. eml et. nws.
 
-Ne concevez pas le code qui appelle l’API d’interface utilisateur de Windows Mail, car il ne fonctionnera pas. Vous devez trouver d’autres façons d’accéder aux fichiers. eml et. NWS. En outre, dès que possible, interrompez votre confiance sur toutes les autres API Windows Mail.
+ne concevez pas le code qui appelle l’API d’interface utilisateur Windows Mail, car il ne fonctionnera pas. Vous devez trouver d’autres façons d’accéder aux fichiers. eml et. NWS. en outre, dès que possible, interrompez votre confiance sur toutes les autres api de messagerie Windows.
 
 ## <a name="compatibility-performance-reliability-and-usability-testing"></a>Compatibilité, performances, fiabilité et test d’utilisabilité
 
--   Exercez votre application dans un environnement Windows 7 pour vous assurer que l’application n’essaie pas d’appeler l’API d’interface utilisateur.
--   Vous pouvez également exécuter Application Compatibility Toolkit (ACT) à l’aide de l’évaluateur de compatibilité Windows (WCE) pour localiser les problèmes potentiels en raison de l’obsolescence de cette fonctionnalité.
+-   exercez votre application dans un environnement Windows 7 pour vous assurer que l’application n’essaie pas d’appeler l’API d’interface utilisateur.
+-   vous pouvez également exécuter le Shared Computer Toolkit de compatibilité des applications (ACT) à l’aide du Windows Compatibility Evaluator (WCE) pour localiser les problèmes potentiels en raison de l’obsolescence de cette fonctionnalité.
 
 ## <a name="links-to-other-resources"></a>Liens vers d’autres ressources
 
 <dl>
 
-[Téléchargement de l’outil Application Compatibility Toolkit](/windows-hardware/get-started/adk-install)  
+[compatibilité des applications Shared Computer Toolkit téléchargement](/windows-hardware/get-started/adk-install)  
 </dl>
 
  

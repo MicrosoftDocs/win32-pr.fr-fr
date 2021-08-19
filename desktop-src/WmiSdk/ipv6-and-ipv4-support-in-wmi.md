@@ -1,20 +1,20 @@
 ---
-description: Le fournisseur d’itinéraires IP WMI et les classes de réseau fournissent des données pour les adresses IPv4. À compter de Windows Vista, WMI fournit également une prise en charge limitée des fonctionnalités de réseau IPv6.
+description: Le fournisseur d’itinéraires IP WMI et les classes de réseau fournissent des données pour les adresses IPv4. depuis Windows Vista, WMI fournit également une prise en charge limitée des fonctionnalités de réseau IPv6.
 ms.assetid: 8ab6287d-be3f-4fa2-a9f5-fa5e1aba66c8
 ms.tgt_platform: multiple
 title: Prise en charge D’ipv6 et IPv6 dans WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 107872b2a65ffe02f34245a39e0a803d2ac53a2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cea400d6c896220dcde5c15d40481444a77ffb309eac8bfdc50cb06ab634c384
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118819297"
 ---
 # <a name="ipv6-and-ipv4-support-in-wmi"></a>Prise en charge D’ipv6 et IPv6 dans WMI
 
-Le [fournisseur d’itinéraires IP](/previous-versions/windows/desktop/wmiiprouteprov/ip-route-provider) WMI et les classes de réseau fournissent des données pour les adresses IPv4. À compter de Windows Vista, WMI fournit également une prise en charge limitée des fonctionnalités de réseau IPv6.
+Le [fournisseur d’itinéraires IP](/previous-versions/windows/desktop/wmiiprouteprov/ip-route-provider) WMI et les classes de réseau fournissent des données pour les adresses IPv4. depuis Windows Vista, WMI fournit également une prise en charge limitée des fonctionnalités de réseau IPv6.
 
 ## <a name="wmi-ip-data"></a>Données IP WMI
 

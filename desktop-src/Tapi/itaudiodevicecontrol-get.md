@@ -4,16 +4,16 @@ ms.assetid: 34cb3f3e-be4a-49e0-bf7d-6915906e2368
 title: 'ITAudioDeviceControl :: méthode d’extraction (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4311dc18291fcfbbe533dbe17042e6ba19c1122
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d2877b48eab2ecab6259a034c9d74f4c32b9fae9233f5ceb0a0a409f43add014
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118865783"
 ---
 # <a name="itaudiodevicecontrolget-method"></a>ITAudioDeviceControl :: méthode d’extraction
 
-\[ Cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir** récupère la valeur d’une propriété de [**périphérique audio**](audiodeviceproperty.md)donnée.
 

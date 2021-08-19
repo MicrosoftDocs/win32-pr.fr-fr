@@ -1,6 +1,6 @@
 ---
 title: Obtention de données à partir d’un ordinateur distant
-description: Vous pouvez obtenir des données ou gérer des ressources sur des ordinateurs distants, ainsi que sur l’ordinateur local. La connexion à un ordinateur distant dans un script Windows Remote Management est très similaire à l’établissement d’une connexion locale.
+description: Vous pouvez obtenir des données ou gérer des ressources sur des ordinateurs distants, ainsi que sur l’ordinateur local. la connexion à un ordinateur distant dans un script Windows Remote Management est très similaire à l’établissement d’une connexion locale.
 ms.assetid: 578eee80-a6c1-4456-9683-14e0a3386248
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,20 +10,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8cfc95a73dab4c9a0f19481b7ba41f3c40a3862d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cf3531e19c0848691ededa0c3b6b2fad642de33c2a5f2d465ac899716970a512
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118823406"
 ---
 # <a name="obtaining-data-from-a-remote-computer"></a>Obtention de données à partir d’un ordinateur distant
 
-Vous pouvez obtenir des données ou gérer des ressources sur des ordinateurs distants, ainsi que sur l’ordinateur local. La connexion à un ordinateur distant dans un script Windows Remote Management est très similaire à l’établissement d’une connexion locale. Les données d’instance WMI sont disponibles et, si l’ordinateur distant dispose d’un matériel BMC capable de communiquer à l’aide du protocole WS-Management, les données [IPMI (Intelligent Platform Management Interface)](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) sont également disponibles. Pour plus d’informations, consultez [Windows Remote Management et WMI](windows-remote-management-and-wmi.md) et [gestion du matériel à distance](remote-hardware-management.md).
+Vous pouvez obtenir des données ou gérer des ressources sur des ordinateurs distants, ainsi que sur l’ordinateur local. la connexion à un ordinateur distant dans un script Windows Remote Management est très similaire à l’établissement d’une connexion locale. Les données d’instance WMI sont disponibles et, si l’ordinateur distant dispose d’un matériel BMC capable de communiquer à l’aide du protocole WS-Management, les données [IPMI (Intelligent Platform Management Interface)](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) sont également disponibles. pour plus d’informations, consultez [Windows Remote Management et WMI](windows-remote-management-and-wmi.md) et [gestion du matériel à distance](remote-hardware-management.md).
 
 Vous devrez peut-être créer un objet [**ConnectionOptions**](connectionoptions.md) pour spécifier des informations sur le type d’authentification demandé pour l’ouverture de session.
 
-Si le compte sur l’ordinateur distant possède les mêmes nom d’utilisateur et mot de passe d’ouverture de session, les seules informations supplémentaires dont vous avez besoin sont le transport, le nom de domaine et le nom de l’ordinateur. En raison du [contrôle de compte d’utilisateur (UAC)](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista), le compte distant doit être un compte de domaine et un membre du groupe administrateurs d’ordinateurs distants. Si le compte est un membre de l’ordinateur local du groupe administrateurs, le contrôle de compte d’utilisateur n’autorise pas l’accès au service WinRM. Pour accéder à un service WinRM distant dans un groupe de travail, le filtrage UAC pour les comptes locaux doit être désactivé en créant l’entrée de Registre DWORD suivante et en définissant sa valeur sur 1 : **\[ HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Policies \\ System \] LocalAccountTokenFilterPolicy**.
+Si le compte sur l’ordinateur distant possède les mêmes nom d’utilisateur et mot de passe d’ouverture de session, les seules informations supplémentaires dont vous avez besoin sont le transport, le nom de domaine et le nom de l’ordinateur. En raison du [contrôle de compte d’utilisateur (UAC)](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista), le compte distant doit être un compte de domaine et un membre du groupe administrateurs d’ordinateurs distants. Si le compte est un membre de l’ordinateur local du groupe administrateurs, le contrôle de compte d’utilisateur n’autorise pas l’accès au service WinRM. pour accéder à un service WinRM distant dans un groupe de travail, vous devez désactiver le filtrage UAC pour les comptes locaux en créant l’entrée de registre DWORD suivante et en définissant sa valeur sur 1 : **\[ HKEY \_ local \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows \\ CurrentVersion \\ policies \\ System \] LocalAccountTokenFilterPolicy**.
 
 **Pour vous connecter à un ordinateur distant en utilisant votre nom d’utilisateur et votre mot de passe d’ouverture de session**
 
@@ -168,15 +168,15 @@ End Sub
 
 <dl> <dt>
 
-[À propos de Windows Remote Management](about-windows-remote-management.md)
+[à propos de Windows Remote Management](about-windows-remote-management.md)
 </dt> <dt>
 
-[Utilisation de Windows Remote Management](using-windows-remote-management.md)
+[utilisation de Windows Remote Management](using-windows-remote-management.md)
 </dt> <dt>
 
-[Référence Windows Remote Management](windows-remote-management-reference.md)
+[Windows Informations de référence sur la gestion à distance](windows-remote-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

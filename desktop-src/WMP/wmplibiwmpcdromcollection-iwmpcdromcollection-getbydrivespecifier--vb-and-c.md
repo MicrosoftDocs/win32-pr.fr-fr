@@ -3,9 +3,9 @@ title: Méthode IWMPCdromCollection getByDriveSpecifier
 description: La méthode getByDriveSpecifier retourne une interface IWMPCdrom associée à une lettre de lecteur particulière.
 ms.assetid: 4a550eb1-a37e-43fd-9e08-801c4fd64e68
 keywords:
-- méthode getByDriveSpecifier lecteur Windows Media
-- méthode getByDriveSpecifier lecteur Windows Media, interface IWMPCdromCollection
-- Interface IWMPCdromCollection lecteur Windows Media, méthode getByDriveSpecifier
+- Lecteur Windows Media de la méthode getByDriveSpecifier
+- méthode getByDriveSpecifier Lecteur Windows Media, interface IWMPCdromCollection
+- Lecteur Windows Media de l’interface IWMPCdromCollection, méthode getByDriveSpecifier
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe771fc893d4bf43b82dc825a2d33724926e8151
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9937694234fe7e46fe9b98d83357da19abf18f8d14e83794587f6f2050b0019b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116217"
 ---
 # <a name="iwmpcdromcollectiongetbydrivespecifier-method"></a>IWMPCdromCollection :: getByDriveSpecifier, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPCdromCollection.getByDriveSpecifier
 
 Interface **wmplib. IWMPCdrom** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les lettres de lecteur doivent être indiquées sous la forme *x*:, où *x* représente la lettre de lecteur.
 
@@ -128,7 +128,7 @@ drive.eject()
 [**Interface IWMPCdrom (VB et C#)**](iwmpcdrom--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPCdrom. EJECT (VB et C#)**](wmplibiwmpcdrom-iwmpcdrom-eject--vb-and-c.md)
+[**IWMPCdrom. eject (VB et C#)**](wmplibiwmpcdrom-iwmpcdrom-eject--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPCdromCollection (VB et C#)**](iwmpcdromcollection--vb-and-c.md)

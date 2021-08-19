@@ -4,12 +4,12 @@ ms.assetid: df06df16-711d-4262-b049-fb29f25934de
 title: Événement MEStreamSeeked (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7b66e2176b08c04b01fc487aac4b8218536b615
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b03e58b11785a7b807f6793ff2ba6b2a4afa5f912d21e626938d7b3c725242f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118061334"
 ---
 # <a name="mestreamseeked-event"></a>Événement MEStreamSeeked
 
@@ -33,8 +33,8 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

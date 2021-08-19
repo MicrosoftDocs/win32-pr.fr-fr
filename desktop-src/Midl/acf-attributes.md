@@ -6,12 +6,12 @@ keywords:
 - ACF (MIDL), attributs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5df2f9c6f95f17980f6710af47f2675b74955f07
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 19527906c6656e676447eed1eb19d302068e2ae5e12618d5e9cecd178ee299bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808438"
 ---
 # <a name="acf-attributes"></a>Attributs ACF
 
@@ -24,9 +24,9 @@ Cette section classe les attributs ACF et décrit leur utilisation dans les rubr
 -   [Attributs ACF de gestion des erreurs et des exceptions](error-and-exception-handling-acf-attributes.md)
 -   [Utilisation d’attributs ACF dans un fichier IDL](using-acf-attributes-in-an-idl-file.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -24,7 +24,7 @@ ms.locfileid: "117819105"
 # <a name="imediadetget_currentstream-method"></a>IMediaDet :: \_ CurrentStream, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

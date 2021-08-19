@@ -4,12 +4,12 @@ ms.assetid: c28c9200-dd51-48b2-905c-fbe37c83b00f
 title: Constantes LINECALLTREATMENT_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e25a19b5db4525550047c468b496cce2363f6ee2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 88c627a89fdf5ab0592c862f09753e0b913eb4b7197a04d4db8cd06478ef10b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118863837"
 ---
 # <a name="linecalltreatment_-constants"></a>\_Constantes LINECALLTREATMENT
 
@@ -57,7 +57,7 @@ Lorsque l’appel n’est pas activement connecté à un appareil (offre ou onHo
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur 0x00000000 est réservée pour indiquer que le fournisseur de services ne prend pas en charge les traitements des appels. Les valeurs de la plage 0x00000005 à 0x000000FF sont réservées pour une définition ultérieure. Les valeurs de la plage 0x00000100 à 0xFFFFFFFF sont réservées à l’attribution par les fournisseurs de services et peuvent inclure l’identification de sélections musicales spécifiques ou d’annonces enregistrées.
 

@@ -24,7 +24,7 @@ Cette section contient des informations de référence pour les registres d’en
 
 
 
-| S’inscrire                 | Nom | Count              | R/W (Lecture/écriture) | Dimension        | Indexable par r\# | Valeurs par défaut | DCL obligatoire |
+| S’inscrire                 | Name | Count              | R/W (Lecture/écriture) | Dimension        | Indexable par r\# | Valeurs par défaut | DCL obligatoire |
 |--------------------------|------|--------------------|-----|------------------|------------------|----------|--------------|
 | r\#                      |      | 4096 (r \# + x \# \[ n \] ) | R/W (Lecture/écriture) | 4                | Non               | None     | Oui          |
 | x \# \[ n\]                 |      | 4096 (r \# + x \# \[ n \] ) | R/W (Lecture/écriture) | 4                | Oui              | None     | Oui          |
@@ -43,7 +43,7 @@ Cette section contient des informations de référence pour les registres d’en
 
 
 
-| S’inscrire | Nom            | Count | R/W (Lecture/écriture) | Dimension | Indexable par r\# | Valeurs par défaut | DCL obligatoire |
+| S’inscrire | Name            | Count | R/W (Lecture/écriture) | Dimension | Indexable par r\# | Valeurs par défaut | DCL obligatoire |
 |----------|-----------------|-------|-----|-----------|------------------|----------|--------------|
 | NULL     | Ignorer le résultat  | N/A   | W   | N/A       | N/A              | N/A      | Non           |
 | sorties\#      | Registre de sortie | 32    | W   | N/A       | N/A              | 4        | Oui          |

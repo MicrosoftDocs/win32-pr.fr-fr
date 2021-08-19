@@ -31,7 +31,7 @@ L’attribut **WM/PartOfSet** contient le numéro de référence et le nombre to
 
 **\_chaîne de type WMT \_**
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 
 

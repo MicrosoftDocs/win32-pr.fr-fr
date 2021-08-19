@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc93ec89e4207037269733677a083bc2e965668f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 250485411ab3a963ff2403e264e1cff4ed331b57f8aff4966581e171a9b9bfd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118011741"
 ---
 # <a name="print-rate-unit-attribute"></a>Attribut d’unité de taux d’impression
 
@@ -45,7 +45,7 @@ Unité de vitesse d’impression fournie par le pilote.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

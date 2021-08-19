@@ -4,12 +4,12 @@ ms.assetid: 8cc14683-3dbb-404f-87af-09a5f5b90b19
 title: MaskedEdit (contrôle)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee7568df9969ebabab6311e519d0a5a625feb8dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30a6490cf2eb05d001d00a1cd8b5b3d33520ea735ebe0d05f064d4053847b691
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117805104"
 ---
 # <a name="maskededit-control"></a>MaskedEdit (contrôle)
 
@@ -61,7 +61,7 @@ Pour modifier la valeur d’un attribut qui utilise un événement, abonnez le c
 | [PropertyValue](propertyvalue-control-attribute.md)               |                                  | Valeur actuelle de la propriété qui est affichée ou modifiée par ce contrôle. Si le bit d’attribut indirect n’est pas défini, il s’agit de la valeur de PropertyName. Si le bit d’attribut indirect est défini, il s’agit de la valeur de IndirectPropertyName. Si l’attribut change, le contrôle reflète la nouvelle valeur.                                                                                                                                                                                                |
 | [Text](text-control-attribute.md)                                 |                                  | Pour définir la police et le style de police d’une chaîne de texte, ajoutez le préfixe { \\ style} ou {&style} à la chaîne de caractères affichés. Où style est un identificateur figurant dans la colonne style de la [table TextStyle](textstyle-table.md). Si aucun de ces deux n’est présent, mais que la propriété [**DefaultUIFont**](defaultuifont.md) est définie en tant que style de texte valide, cette police est utilisée. La chaîne qui spécifie le modèle de masquage suit ce préfixe et utilise la syntaxe décrite précédemment dans cette rubrique. |
 | [Visible](visible-control-attribute.md)                           | 0x00000000 0x00000001<br/> | Contrôle masqué. Contrôle visible.<br/> Incluez ce bit dans le mot de bits de la colonne attributs dans la [table de contrôle](control-table.md) pour rendre le contrôle visible ou masqué lors de sa création.<br/> Vous pouvez également masquer ou afficher un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                                                                                                                                 |
-| [Enabled](enabled-control-attribute.md)                           | 0x00000000 0x00000002<br/> | Contrôle dans un état désactivé. Contrôle dans un état activé.<br/> Incluez ce bit dans le mot de bits dans la colonne attributs du [tableau de contrôle](control-table.md) pour activer le contrôle lors de la création.<br/> Vous pouvez également activer ou désactiver un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                                                                                                                          |
+| [Activé](enabled-control-attribute.md)                           | 0x00000000 0x00000002<br/> | Contrôle dans un état désactivé. Contrôle dans un état activé.<br/> Incluez ce bit dans le mot de bits dans la colonne attributs du [tableau de contrôle](control-table.md) pour activer le contrôle lors de la création.<br/> Vous pouvez également activer ou désactiver un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                                                                                                                          |
 | [Sunken](sunken-control-attribute.md)                             | 0x00000000 0x00000004<br/> | Affiche le style visuel par défaut. Affiche le contrôle avec une apparence 3D enfoncée.<br/> Incluez ces bits dans le mot de bits dans la colonne attributs de la [table de contrôle](control-table.md).<br/>                                                                                                                                                                                                                                                                                          |
 | [Indirect](indirect-control-attribute.md)                         | 0x00000000 0x00000008<br/> | Le contrôle affiche ou modifie la valeur de la propriété dans la colonne propriété de la [table de contrôle](control-table.md). Le contrôle affiche ou modifie la valeur de la propriété qui a l’identificateur figurant dans la colonne propriété de la [table de contrôle](control-table.md).<br/> Détermine si la propriété associée à ce contrôle est référencée indirectement.<br/>                                                                                                 |
 
@@ -69,7 +69,7 @@ Pour modifier la valeur d’un attribut qui utilise un événement, abonnez le c
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le contrôle MaskedEdit crée une fenêtre parente de la classe **Button** avec les styles **BS \_ OwnerDraw** et **WS \_ ex \_ CONTROLPARENT** . Elle crée plusieurs fenêtres enfants dans cette fenêtre.
 

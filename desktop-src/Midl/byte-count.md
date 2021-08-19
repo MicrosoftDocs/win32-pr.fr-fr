@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d82d34a60ea736d10c8ec5ee8a001370c6b64c6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: ffd42e27be4768fc0817aa76bb366429e236b3a82c45d081a05485b8520a23a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807822"
 ---
 # <a name="byte_count-attribute"></a>attribut de nombre d’octets \_
 
@@ -40,7 +40,7 @@ Spécifie zéro, un ou plusieurs attributs de fonction ACF.
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la fonction définie dans le fichier IDL. Le nom de la fonction est obligatoire.
@@ -61,14 +61,14 @@ Spécifie le nom du paramètre de pointeur en [**\[ sortie \]**](out-idl.md)seul
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le **\[ \_ nombre \] d’octets** de l’attribut ACF représente une extension Microsoft de l’IDL DCE. Par conséquent, cet attribut n’est pas disponible lorsque vous utilisez le commutateur du compilateur MIDL [**/OSF**](-osf.md).
 
 > [!Note]  
 > L’attribut **\[ nombre \] d’octets** n’est plus pris en charge dans la syntaxe NDR64 en raison de la difficulté à estimer la taille requise pour tous les paramètres de [**\[ sortie \]**](out-idl.md) .
 
- 
+ 
 
 La mémoire référencée par le paramètre de pointeur est contiguë et n’est pas allouée ou libérée par les stubs client. Cette fonctionnalité de l’attribut **\[ \_ nombre \] d’octets** vous permet de créer une zone de mémoire tampon persistante dans la mémoire du client qui peut être réutilisée lors de plusieurs appels à la procédure distante.
 
@@ -98,7 +98,7 @@ proc1([byte_count(length)] pMyStruct);
 [Fichier de configuration de l’application (ACF)](application-configuration-file-acf-.md)
 </dt> <dt>
 
-[**in**](in.md)
+[**dans**](in.md)
 </dt> <dt>
 
 [**la longueur \_ est**](length-is.md)
@@ -113,9 +113,9 @@ proc1([byte_count(length)] pMyStruct);
 [**la taille \_ est**](size-is.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

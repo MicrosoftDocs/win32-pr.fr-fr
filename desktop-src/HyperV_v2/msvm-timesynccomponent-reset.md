@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: d93f548030c2248b30eab7a3585a3c270311aa42
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ff61059be4172d96af4ee154b305e7d03d3acb44d23f801225841774fd5067c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810632"
 ---
 # <a name="reset-method-of-the-msvm_timesynccomponent-class"></a>Méthode Reset de la \_ classe MSVM TimeSyncComponent
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

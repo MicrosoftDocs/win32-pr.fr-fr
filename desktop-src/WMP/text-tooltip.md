@@ -3,7 +3,7 @@ title: TEXT. toolTip
 description: L’attribut toolTip spécifie ou récupère le texte d’info-bulle pour le contrôle Text.
 ms.assetid: 3e275607-e7ff-4424-8310-c628ede22629
 keywords:
-- TEXT. toolTip lecteur Windows Media
+- TEXT. toolTip Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b064f2abefd07ec65a82069196b1012561699b62
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 726337ffb31b86d4eaa3a20a1d922fc622110b647fe9be747e8ae239c4548276
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118831818"
 ---
 # <a name="texttooltip"></a>TEXT. toolTip
 
@@ -31,7 +31,7 @@ L’attribut **ToolTip** spécifie ou récupère le texte d’info-bulle pour le
 
 Cet attribut est une **chaîne** en lecture/écriture d’une longueur maximale de 1024 caractères. Il n'a aucune valeur par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cet attribut n’est pas spécifié et que le texte de l’attribut de **valeur** est tronqué dans le contrôle de texte, ou si **wordWrap** a la valeur true, l’info-bulle affiche le texte complet de l’attribut **value** .
 

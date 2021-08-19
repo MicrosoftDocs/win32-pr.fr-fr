@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cd450a0afed0256b0b80d97a278dccf99418a900
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6759508e42b380f0c1987c2f69b422baf4025d58b0de3c503fdae6d55c15df09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118071954"
 ---
 # <a name="jetsetdatabasesize-function"></a>JetSetDatabaseSize fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetsetdatabasesize-function"></a>JetSetDatabaseSize fonction)
 
@@ -65,7 +65,7 @@ Pointeur vers un nombre qui reçoit la taille de la base de données, en pages, 
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -115,7 +115,7 @@ JET_errDatabaseDirtyShutdown</p></td>
 </table>
 
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Si **JetSetDatabaseSize** est appelé avant d’insérer de grandes quantités de données, le fichier de base de données sera augmenté en une seule opération. Cela permet de réduire la probabilité que le fichier de base de données soit fragmenté au niveau du système de fichiers et de réduire également le nombre de fois où le fichier de base de données doit être augmenté. La croissance du fichier de base de données peut être plus rapide que la croissance à plusieurs reprises.
 
@@ -137,11 +137,11 @@ La taille du fichier peut ne pas correspondre au nombre de pages retournées dan
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

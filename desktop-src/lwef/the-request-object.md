@@ -4,18 +4,18 @@ description: Objet de la requête
 ms.assetid: d8b37164-6855-48c0-bcf8-a86c0f8b3a59
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a50d554a5799af9a434b456113d7c826d2a0aa2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1d2bc9ecf65403ca6dbb471c81a65b105bcc5b69701760a73f8fbc8a5684a9b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106509436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117882392"
 ---
 # <a name="the-request-object"></a>Objet de la requête
 
 \[Microsoft Agent est déconseillé à partir de Windows 7 et peut ne pas être disponible dans les versions ultérieures de Windows.\]
 
-Le serveur traite certaines méthodes de manière asynchrone. Cela permet à votre code d’application de continuer pendant que la méthode se termine. Quand une application cliente appelle l’une de ces méthodes, le contrôle crée et retourne un objet de [**demande**](/windows/desktop/lwef/the-request-object) pour la demande. Vous pouvez utiliser l’objet de **requête** pour suivre l’état de la méthode en affectant une variable objet à la méthode. Dans Visual Basic, commencez par déclarer une variable objet :
+Le serveur traite certaines méthodes de manière asynchrone. Cela permet à votre code d’application de continuer pendant que la méthode se termine. Quand une application cliente appelle l’une de ces méthodes, le contrôle crée et retourne un objet de [**demande**](/windows/desktop/lwef/the-request-object) pour la demande. Vous pouvez utiliser l’objet de **requête** pour suivre l’état de la méthode en affectant une variable objet à la méthode. dans Visual Basic, commencez par déclarer une variable objet :
 
 
 ```
@@ -33,7 +33,7 @@ Dans VBScript, vous n’incluez pas le type de variable dans votre déclaration�
 
 
 
-Et utilisent l’instruction Set de Visual Basic pour assigner la variable à l’appel de méthode :
+et utilisent l’instruction Set de Visual Basic pour assigner la variable à l’appel de méthode :
 
 
 ```
@@ -77,7 +77,7 @@ La propriété [**Status**](status-property.md) retourne l’état d’un objet 
 
 
 
- 
+ 
 
 L’objet de [**requête**](/windows/desktop/lwef/the-request-object) comprend également une valeur d’entier long dans la propriété [**Number**](https://www.bing.com/search?q=**Number**) qui retourne l’erreur ou la cause du code d' [**État**](status-property.md) . Si aucune valeur n’est, cette valeur est égale à zéro (0). La propriété [**Description**](description-property.md) contient une valeur de chaîne qui correspond au numéro d’erreur. Si la chaîne n’existe pas, la **Description** contient « erreur définie par l’application ou définie par l’objet ».
 
@@ -87,6 +87,6 @@ Le serveur place les demandes d’animation dans la file d’attente du caractè
 
 Les méthodes suivantes peuvent être utilisées pour retourner un objet de [**requête**](/windows/desktop/lwef/the-request-object) : [**GestureAt**](gestureat-method.md), [**obtenir**](get-method.md), [**Masquer**](hide-method.md), [**interrompre**](interrupt-method.md), [**charger**](load-method.md), [**MoveTo**](moveto-method.md), [**lire**](play-method.md), [**Afficher**](show-method.md), [**parler**](speak-method.md)et [**attendre**](https://www.bing.com/search?q=**Wait**).
 
- 
+ 
 
- 
+ 

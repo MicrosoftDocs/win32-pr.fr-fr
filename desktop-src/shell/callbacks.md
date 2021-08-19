@@ -1,5 +1,5 @@
 ---
-description: Cette section décrit les fonctions de rappel de l’interpréteur de commandes Windows.
+description: cette section décrit les fonctions de rappel de l’interpréteur de commandes Windows.
 title: Fonctions de rappel de l’interpréteur de commandes
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 4f6ae93437caa740c8c1349690b7e1452a032491
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3fd334dd49d2b9cec3322630866fde4a99ccad0b5f253dd7253e551264737a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460842"
 ---
 # <a name="shell-callback-functions"></a>Fonctions de rappel de l’interpréteur de commandes
 
-Cette section décrit les fonctions de rappel de l’interpréteur de commandes Windows.
+cette section décrit les fonctions de rappel de l’interpréteur de commandes Windows.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

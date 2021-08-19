@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 33879fcb5e9435e2245bc3d00a9fab75bf1cbdc5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0017930bd3cf4c8cba356206cfa2207df04ea9c203018703a5f3064d0abb11b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117861581"
 ---
 # <a name="abn_statechange-message"></a>\_Message ABN STATECHANGE
 
@@ -39,17 +39,17 @@ Ce message n’a pas de paramètres.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un appbar peut utiliser ce message de notification pour définir son état sur conforme à celui de la barre des tâches, si vous le souhaitez.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Shellapi. h</dt> </dl> |
 
