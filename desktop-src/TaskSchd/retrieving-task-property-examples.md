@@ -6,12 +6,12 @@ keywords:
 - récupération des propriétés de la tâche Planificateur de tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e2b42bc8044171834b6d99e97c41e3f5c7048ff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f0e46554c32d9d30941fd837b91e80e8e20d915b0f1c68a665fd72c8f1624c8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002387"
 ---
 # <a name="retrieving-task-property-examples"></a>Récupération d’exemples de propriétés de tâche
 
@@ -22,7 +22,7 @@ Les exemples de code répertoriés en bas de la page montrent comment récupére
 > [!Note]  
 > Dans l’exemple de code suivant, toutes les interfaces sont libérées après qu’elles ne sont plus nécessaires.
 
- 
+ 
 
 Notez que si vous récupérez une propriété de type chaîne (par exemple, le nom de l’application, les paramètres ou le répertoire de travail), vous devez appeler [CoTaskMemFree](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) pour libérer la mémoire allouée pour la chaîne retournée.
 
@@ -48,7 +48,7 @@ La procédure suivante décrit comment récupérer une propriété de tâche.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -57,6 +57,6 @@ La procédure suivante décrit comment récupérer une propriété de tâche.
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

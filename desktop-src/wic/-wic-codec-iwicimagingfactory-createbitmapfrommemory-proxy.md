@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 79893952bb6dcdbab6c4a1cea4f57355831d31c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7f5567f2ead2b68440e448a9a03f36fdedceb5d31ecfc579f7df956988dfc01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118033912"
 ---
 # <a name="iwicimagingfactory_createbitmapfrommemory_proxy-function"></a>IWICImagingFactory \_ \_ fonction proxy CreateBitmapFromMemory
 
@@ -50,11 +50,11 @@ HRESULT IWICImagingFactory_CreateBitmapFromMemory_Proxy(
 *pFactory* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) \** _
+Type : **[ **IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory)\***
 
 </dd> <dt>
 
-_uiWidth * \[ dans\]
+*uiWidth* \[ dans\]
 </dt> <dd>
 
 Type : **uint**
@@ -102,13 +102,13 @@ Taille de *pbBuffer*.
 *pbBuffer* \[ dans\]
 </dt> <dd>
 
-Type : **Byte \** _
+Type : **Byte \***
 
 Mémoire tampon utilisée pour créer l’image bitmap.
 
 </dd> <dt>
 
-_ppIBitmap * \[ out\]
+*ppIBitmap* \[ à\]
 </dt> <dd>
 
 Type : **[ **IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap)\*\***
@@ -131,8 +131,8 @@ Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP avec SP2, applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                                                             |
+| Client minimal pris en charge<br/> | Windows XP avec SP2, Windows les \[ applications de bureau Vista uniquement\]<br/>                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll ; </dt> <dt>Wincodec. lib</dt> </dl> |
 
 

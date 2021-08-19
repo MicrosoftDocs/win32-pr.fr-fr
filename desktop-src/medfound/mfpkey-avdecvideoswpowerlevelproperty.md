@@ -4,12 +4,12 @@ ms.assetid: c4ede790-e7ef-4ed0-bdbe-a635350d92f3
 title: MFPKEY_AVDecVideoSWPowerLevel, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2180e26d3e14263c14f2f3603c8c92cf8c11daec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce376a370ea6488c87c0266319de7e9bde0a94edab7137a81f015f416ea9fc08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117874063"
 ---
 # <a name="mfpkey_avdecvideoswpowerlevel-property"></a>MFPKEY \_ propriété AVDecVideoSWPowerLevel
 
@@ -27,7 +27,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 **100**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété doit être définie sur l’une des valeurs suivantes.
 
@@ -49,8 +49,8 @@ Cette propriété doit être définie sur l’une des valeurs suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

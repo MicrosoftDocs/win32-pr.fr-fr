@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f99b3150a0dbc1a81b78498c8e295fbf2397c22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0fb7d40ae84659d1cfad12357956c4a955ae4f879cddcc13b51069a6a62cd08c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985279"
 ---
 # <a name="wm_enteridle-message"></a>\_Message WM ENTERIDLE
 
@@ -65,7 +65,7 @@ Handle de la boîte de dialogue (si *wParam* est **MSGF \_ DialogBox**) ou fenê
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez supprimer le message **WM \_ ENTERIDLE** pour une boîte de dialogue en créant la boîte de dialogue avec le style **DS \_ NOIDLEMSG** .
 

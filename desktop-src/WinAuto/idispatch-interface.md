@@ -4,12 +4,12 @@ description: L’interface IDispatch a été initialement conçue pour prendre e
 ms.assetid: 5a95f002-4fd5-43d3-9b50-7b3f7790300a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4641ca3e4cc18b96441aefbbc46231e3f7753a94
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 710fb0bc8142dfa863967114d3841506c220b3c058db042b867607ffe56cd5e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106530790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052707"
 ---
 # <a name="idispatch-interface-and-accessibility"></a>Interface IDispatch et accessibilité
 
@@ -22,6 +22,6 @@ En plus des méthodes héritées de [**IUnknown**](/windows/desktop/api/unknwn/n
 -   [**GetIDsOfNames**](/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames) mappe le nom d’une méthode ou d’une propriété à un **DISPID**, qui est ensuite utilisé pour appeler la méthode ou la propriété.
 -   [**Invoke**](/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) appelle l’une des méthodes de l’objet, ou obtient ou définit l’une de ses propriétés.
 
- 
+ 
 
- 
+ 

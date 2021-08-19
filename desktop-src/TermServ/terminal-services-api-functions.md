@@ -5,12 +5,12 @@ ms.assetid: e99a86ee-af0e-46db-8dad-69703ca84fa0
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e94a2168f5ad4501b9725b72923c98ea97cc707c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5434f009d15bccc1db8279e576b71f079c8d73119a2d82bb8fd313dcc1837c47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000249"
 ---
 # <a name="remote-desktop-services-api-functions"></a>Services Bureau à distance les fonctions de l’API
 
@@ -226,7 +226,7 @@ Libère la mémoire allouée par une fonction Services Bureau à distance.
 [**WTSFreeMemoryEx**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsfreememoryexa)
 </dt> <dd>
 
-Libère de la mémoire qui contient les structures d’informations de [**\_ processus WTS \_ \_ ex**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_process_info_exa) ou WTS, qui sont allouées par une fonction services Bureau à distance. [**\_ \_ \_**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_info_1a)
+libère de la mémoire qui contient [**WTS les \_ informations de processus \_ \_ EX**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_process_info_exa) ou [**WTS structures informations de \_ SESSION \_ \_ 1**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_info_1a) allouées par une fonction Services Bureau à distance.
 
 </dd> <dt>
 
@@ -447,6 +447,6 @@ Attend un événement Services Bureau à distance avant de retourner à l’appe
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

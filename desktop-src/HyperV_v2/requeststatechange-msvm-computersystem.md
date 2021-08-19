@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 291d72797b1ee765507a3d23921cd518cf605354
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3851d32b43bc7ebd170a1179ecda1e25f86e43ddaf819453a4af6998e2f7efc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104211103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014347"
 ---
 # <a name="requeststatechange-method-of-the-msvm_computersystem-class"></a>Méthode RequestStateChange de la \_ classe MSVM ComputerSystem
 
@@ -327,7 +327,7 @@ Cette méthode retourne l’une des valeurs suivantes.
 
 | Code/valeur de retour                                                                                                                                                                       | Description                                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| <dl> <dt>**Terminé sans erreur**</dt> <dt>0</dt> </dl>                           | Opération réussie.<br/>                                                                |
+| <dl> <dt>**Terminé sans erreur**</dt> <dt>0</dt> </dl>                           | Réussite.<br/>                                                                |
 | <dl> <dt>**Paramètres de méthode vérifiés-transition démarrée**</dt> <dt>4096</dt> </dl> | La transition est asynchrone.<br/>                                         |
 | <dl> <dt>**Accès refusé**</dt> <dt>32769</dt> </dl>                                 | Accès refusé.<br/>                                                          |
 | <dl> <dt></dt><dt>32768</dt> </dl>                                                  |                                                                                    |
@@ -345,7 +345,7 @@ Cette méthode retourne l’une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe [**MSVM \_ ComputerSystem**](msvm-computersystem.md) peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -449,7 +449,7 @@ namespace HyperVSamples
 
 
 
-L’exemple de Visual Basic Scripting Edition (VBScript) suivant démarre ou désactive un ordinateur virtuel.
+l’exemple VBScript (Visual Basic scripting Edition) suivant démarre ou désactive un ordinateur virtuel.
 
 > [!IMPORTANT]
 > Pour fonctionner correctement, le code suivant doit être exécuté sur le serveur hôte de l’ordinateur virtuel et doit être exécuté avec des privilèges d’administrateur.
@@ -630,8 +630,8 @@ End Function
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

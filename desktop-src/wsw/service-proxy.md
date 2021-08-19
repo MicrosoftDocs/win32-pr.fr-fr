@@ -3,17 +3,17 @@ title: Proxy de service
 description: Un proxy de service est le proxy côté client pour un service.
 ms.assetid: e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc
 keywords:
-- Services Web proxy de service pour Windows
+- Services Web du proxy de service pour Windows
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ac82509fa155084cbb4ca3e6b9437728c6f853a
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 6ff23349545c47dde2a54ea0b0911d3f792f21778f5053628929d3a98c69b0f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "106527032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026181"
 ---
 # <a name="service-proxy"></a>Proxy de service
 

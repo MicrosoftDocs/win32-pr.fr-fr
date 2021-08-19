@@ -1,23 +1,23 @@
 ---
-description: La fonction MsiGetPatchFileList et la propriété PatchFiles de l’objet installer prennent la liste des correctifs Windows Installer (fichiers. msp) et retournent une liste des fichiers qui peuvent être mis à jour par les correctifs.
+description: la fonction MsiGetPatchFileList et la propriété PatchFiles de l’objet Installer prennent la liste des correctifs Windows Installer (fichiers. msp) et retournent une liste des fichiers qui peuvent être mis à jour par les correctifs.
 ms.assetid: cc2eb506-c1fc-4125-b98c-12221b918e23
 title: Liste des fichiers qui peuvent être mis à jour
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c15872cce902f5a9059d4256e9e5c30ecff213f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ad76355c97d62d9c3f1282b5ebd66f54c5fef0f6f7359a41a35f2ebaee9a2fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945904"
 ---
 # <a name="listing-the-files-that-can-be-updated"></a>Liste des fichiers qui peuvent être mis à jour
 
-La fonction [**MsiGetPatchFileList**](/windows/desktop/api/Msi/nf-msi-msigetpatchfilelista) et la propriété [**PatchFiles**](installer-patchfiles.md) de l' [**objet installer**](installer-object.md) prennent la liste des correctifs Windows Installer (fichiers. msp) et retournent une liste des fichiers qui peuvent être mis à jour par les correctifs. La fonction [**MsiGetPatchFileList**](/windows/desktop/api/Msi/nf-msi-msigetpatchfilelista) et la propriété [**PatchFiles**](installer-patchfiles.md) sont disponibles à partir de Windows Installer 4,0.
+la fonction [**MsiGetPatchFileList**](/windows/desktop/api/Msi/nf-msi-msigetpatchfilelista) et la propriété [**PatchFiles**](installer-patchfiles.md) de l' [**objet Installer**](installer-object.md) prennent la liste des correctifs Windows Installer (fichiers. msp) et retournent une liste des fichiers qui peuvent être mis à jour par les correctifs. la fonction [**MsiGetPatchFileList**](/windows/desktop/api/Msi/nf-msi-msigetpatchfilelista) et la propriété [**PatchFiles**](installer-patchfiles.md) sont disponibles à partir de Windows Installer 4,0.
 
 ## <a name="listing-files-that-can-be-updated"></a>Liste des fichiers qui peuvent être mis à jour
 
-L’exemple suivant montre comment extraire les informations d’applicabilité d’une liste de correctifs de Windows Installer (fichiers. msp) à l’aide de [**MsiGetPatchFileList**](/windows/desktop/api/Msi/nf-msi-msigetpatchfilelista). La fonction **MsiGetPatchFileList** est fournie pour la cible des correctifs et une liste de fichiers. msp délimités par des points-virgules. Cet exemple nécessite Windows Installer 4,0 s’exécutant sur Windows Vista.
+l’exemple suivant montre comment extraire les informations d’applicabilité d’une liste de correctifs de Windows Installer (fichiers. msp) à l’aide de [**MsiGetPatchFileList**](/windows/desktop/api/Msi/nf-msi-msigetpatchfilelista). La fonction **MsiGetPatchFileList** est fournie pour la cible des correctifs et une liste de fichiers. msp délimités par des points-virgules. cet exemple nécessite Windows Installer 4,0 s’exécutant sur Windows Vista.
 
 
 ```C++
@@ -111,7 +111,7 @@ void CloseMsiHandles(MSIHANDLE* phFileListRec, DWORD dwcFiles)
 
 
 
-L’exemple suivant montre comment extraire les informations d’applicabilité d’une liste de Windows Installer correctifs (fichiers. msp) à l’aide de la propriété [**PatchFiles**](installer-patchfiles.md) de l' [**objet installer**](installer-object.md). La propriété **PatchFiles** est fournie dans le code de produit de la cible des correctifs et une liste de fichiers. msp délimités par des points-virgules. Cet exemple nécessite Windows Installer 4,0 s’exécutant sur Windows Vista.
+l’exemple suivant montre comment extraire les informations d’applicabilité d’une liste de Windows Installer correctifs (fichiers. msp) à l’aide de la propriété [**PatchFiles**](installer-patchfiles.md) de l' [**objet Installer**](installer-object.md). La propriété **PatchFiles** est fournie dans le code de produit de la cible des correctifs et une liste de fichiers. msp délimités par des points-virgules. cet exemple nécessite Windows Installer 4,0 s’exécutant sur Windows Vista.
 
 
 ```VB

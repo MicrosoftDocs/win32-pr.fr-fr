@@ -3,7 +3,7 @@ title: LVN_LINKCLICK le code de notification (commctrl. h)
 description: Avertit une fenêtre parente d’un contrôle List-View qu’un lien a été activé sur un lien. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: de8f40d6-b79e-4324-af67-9a3c0915609d
 keywords:
-- Contrôles Windows de code de notification LVN_LINKCLICK
+- LVN_LINKCLICK les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd69fb463e71523fcbd4eeb65a6a718d27847c09
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e89db641bc17e8c3d9d548bdf502e077c88dfc6c7452f8059b085c3432d23bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019067"
 ---
 # <a name="lvn_linkclick-notification-code"></a>\_Code de notification LVN LINKCLICK
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**NMLVLINK**](/windows/win32/api/commctrl/ns-commct
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’exemple suivant montre comment une application peut répondre à ce code de notification dans son gestionnaire de messages [**WM \_ Notify**](wm-notify.md) . L’exemple bascule l’État réduit du groupe et définit le texte de lien approprié.
 
@@ -83,8 +83,8 @@ case LVN_LINKCLICK:
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

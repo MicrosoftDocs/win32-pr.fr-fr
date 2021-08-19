@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2936401d59bb8c2c2bcfdcffce27ba9ed978d506
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: eb887997642b0d0ff81314d6cf81dc148e57547727a09b1fe646f04d0391f967
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014117"
 ---
 # <a name="osf-switch"></a>commutateur/OSF
 
@@ -31,7 +31,7 @@ midl /osf
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez ce commutateur si votre application requiert une compatibilité stricte avec l’ETCD OSF pour des raisons de portabilité.
 
@@ -66,7 +66,7 @@ Les extensions de langage C/C++ suivantes ne sont pas disponibles quand vous com
 -   Déclarations externes.
 -   Procédures avec des ellipses dans la liste de paramètres.
 -   Tapez [**int**](int.md).
--   Tapez **void \*** (sauf avec l' [**attribut \_ handle de contexte**](context-handle.md) ).
+-   Tapez **void \** _ (sauf avec l’attribut [_ *Context \_ handle* *](context-handle.md) ).
 -   Les qualificateurs de type, y compris le formulaire avec le préfixe conforme à la norme ANSI, contiennent deux caractères de soulignement : **\_ \_ cdecl**, **cdecl**, [**const**](const.md), **const**, **\_ \_ Exporter**, **Exporter**, **\_ \_ Far**, **Far**, **\_ \_ loadds**, **loadds**, **\_ \_ near**, **pres**, **\_ \_ Pascal**, **Pascal**, **\_ \_ StdCall**, **StdCall**, **\_ \_ volatile** et **volatile**.
 -   Un \# Avertissement [**pragma**](pragma.md) ou un commentaire **\# pragma** .
 -   Sérialisation de type.
@@ -95,6 +95,6 @@ Les extensions de langage C/C++ suivantes ne sont pas disponibles quand vous com
 [Package de gestion de mémoire RPCSS](/windows/desktop/Rpc/rpcss-memory-management-package)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

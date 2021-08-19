@@ -4,12 +4,12 @@ ms.assetid: 82ef20b5-bdfa-4bde-abb4-3d14ae35c116
 title: IMR_RECONVERTSTRING le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cbb1caeedb729b176f116a15e64879d79d519fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0dfc2b188a2873af3ec7004ffaac65a3cce0b4257c1428dfe4abfcba9d2b2aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948756"
 ---
 # <a name="imr_reconvertstring-notification-code"></a>\_Code de notification IMR RECONVERTSTRING
 
@@ -52,7 +52,7 @@ Retourne la structure actuelle de la chaîne de reconversion. Si *lParam* a la v
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

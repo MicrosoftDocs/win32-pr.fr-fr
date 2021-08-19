@@ -4,18 +4,18 @@ description: Un code source qui se compile correctement peut générer des messa
 ms.assetid: 88368fec-b375-4ad0-aa13-ffadf0338a44
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02d04c3a849dc62647758e3515728e3dd3f65dcb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 29baee071bd8d7c236ec5f2f99d1dff11aeac37deb44b0d8a6254325c9a75df0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117928144"
 ---
 # <a name="strict-compliance"></a>Conformité STRICTe
 
 Un code source qui se compile correctement peut générer des messages d’erreur lorsque vous activez la vérification de type **stricte** . Les sections suivantes décrivent la configuration minimale requise pour la compilation de votre code lorsque **strict** est activé. Des étapes supplémentaires sont recommandées, en particulier pour produire du code portable.
 
-## <a name="general-requirements"></a>Conditions générales requises
+## <a name="general-requirements"></a>Exigences générales
 
 La principale exigence est que vous devez déclarer des types de handle et des pointeurs de fonction corrects au lieu de vous appuyer sur des types plus généraux. Vous ne pouvez pas utiliser un type de handle dans lequel un autre est attendu. Cela signifie également que vous devrez peut-être modifier les déclarations de fonction et utiliser d’autres casts de type.
 
@@ -27,7 +27,7 @@ Assurez-vous que toutes les fonctions d’application sont déclarées. Il est r
 
 Si vous utilisez l’option de compilateur **/ZG** pour créer des fichiers d’en-tête pour vos fonctions, n’oubliez pas que vous obtiendrez des résultats différents selon que vous avez activé la vérification de type **stricte** . Si la fonction **strict** est désactivée, tous les types de handles génèrent le même type de base. Si l’option **strict** est activée, elles génèrent des types de base différents. Pour éviter les conflits, vous devez recréer le fichier d’en-tête chaque fois que vous activez ou désactivez **strict**, ou modifiez le fichier d’en-tête pour utiliser les types **HWND**, **HDC**, **handle**, etc., au lieu des types de base.
 
-Toutes les déclarations de fonction que vous avez copiées à partir de Windows. h dans votre code source ont peut-être changé et votre déclaration locale peut être obsolète. Supprimez votre déclaration locale.
+toutes les déclarations de fonction que vous avez copiées à partir de Windows. h dans votre code source ont peut-être changé et votre déclaration locale peut être obsolète. Supprimez votre déclaration locale.
 
 ## <a name="types-that-require-casts"></a>Types qui requièrent des casts
 
@@ -71,7 +71,7 @@ hwnd = CreateWindow(
 
 ## <a name="additional-considerations"></a>Considérations supplémentaires
 
-Pour tirer le meilleur parti de la vérification de type **stricte** , vous devez suivre des instructions supplémentaires. Votre code sera plus portable dans les futures versions de Windows si vous apportez les modifications suivantes.
+Pour tirer le meilleur parti de la vérification de type **stricte** , vous devez suivre des instructions supplémentaires. votre code sera plus portable dans les futures versions de Windows si vous apportez les modifications suivantes.
 
 Les types **wParam**, **lParam**, **LRESULT** et **LPVOID** sont des *types de données polymorphes*. Ils contiennent différents genres de données à des moments différents, même si la vérification de type **stricte** est activée. Pour tirer parti de la vérification de type, vous devez effectuer un cast des valeurs de ces types dès que possible. (Notez que les craqueurs de messages refont automatiquement *wParam* et *lParam* pour vous de manière portable.)
 
@@ -87,6 +87,6 @@ Faites particulièrement attention pour distinguer les types **HMODULE** et **HI
 [Activation du STRICT](enabling-strict.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

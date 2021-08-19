@@ -24,7 +24,7 @@ ms.locfileid: "118952808"
 # <a name="iamtimelinesrcmodifystoptime2-method"></a>IAMTimelineSrc :: ModifyStopTime2, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

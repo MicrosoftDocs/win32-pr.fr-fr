@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: Exécution d’opérations privilégiées à l’aide de C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fbc0468fef7531586020f55032bff94c977c4ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e83667cd4a4cd81439392f1f58d77fb56109f79c2dd6d826c9390d62008553b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050887"
 ---
 # <a name="executing-privileged-operations-using-c"></a>Exécution d’opérations privilégiées à l’aide de C++
 
-Les applications clientes spéciales peuvent appeler des opérations privilégiées. Par exemple, une application peut permettre à un gestionnaire de redémarrer un ordinateur Office qui ne répond pas. À l’aide de Windows Management Instrumentation (WMI), vous pouvez exécuter une opération privilégiée en appelant le fournisseur WMI pour l’opération privilégiée.
+Les applications clientes spéciales peuvent appeler des opérations privilégiées. Par exemple, une application peut permettre à un gestionnaire de redémarrer un ordinateur Office qui ne répond pas. à l’aide de Windows Management Instrumentation (WMI), vous pouvez exécuter une opération privilégiée en appelant le fournisseur WMI pour l’opération privilégiée.
 
 La procédure suivante décrit comment appeler un fournisseur pour une opération privilégiée.
 

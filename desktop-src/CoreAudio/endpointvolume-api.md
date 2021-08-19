@@ -4,12 +4,12 @@ ms.assetid: 1fe1cd57-a0a4-4e08-ab52-3b6e66d14e79
 title: API EndpointVolume
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 081b827045250336aa499e386a8dafedb6ae068b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 22965e882a2f7d413ae58690fc9bc5f8134aba0e7b26838ca38c74d7f0093c98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018447"
 ---
 # <a name="endpointvolume-api"></a>API EndpointVolume
 
@@ -19,10 +19,10 @@ Le fichier d’en-tête Endpointvolume. h définit les interfaces dans l’API E
 
 Les applications audio qui utilisent l' [API MMDevice](mmdevice-api.md) et [WASAPI](wasapi.md) utilisent généralement l’interface [**ISimpleAudioVolume**](/windows/desktop/api/Audioclient/nn-audioclient-isimpleaudiovolume) pour contrôler les niveaux de volume pour chaque session. Seuls deux types d’applications audio requièrent l’utilisation de l’API EndpointVolume. Ces types d’applications sont les suivants :
 
--   Les applications qui gèrent les niveaux de volume principal des appareils de point de terminaison audio, comme le programme de contrôle de volume de Windows, Sndvol.exe.
--   Applications audio professionnelles (« Pro Audio ») qui requièrent un accès en mode exclusif aux appareils de point de terminaison audio.
+-   les Applications qui gèrent les niveaux de volume principal des appareils de point de terminaison audio, similaires à celles du Windows programme de contrôle de volume, Sndvol.exe.
+-   Professional les applications audio (« pro audio ») qui requièrent un accès en mode exclusif aux appareils de point de terminaison audio.
 
-L’utilisation inappropriée de l’API EndpointVolume peut interférer avec la stratégie audio Windows et perturber les paramètres de volume système de l’utilisateur.
+l’utilisation inappropriée de l’API EndpointVolume peut interférer avec Windows stratégie audio et perturber les paramètres de volume système de l’utilisateur.
 
 Si un périphérique de point de terminaison audio implémente des contrôles de volume matériel et de sourdine, l’API EndpointVolume utilise ces contrôles pour gérer le volume de l’appareil. Dans le cas contraire, l’API EndpointVolume implémente les contrôles dans le logiciel, de manière transparente pour le client.
 
@@ -41,7 +41,7 @@ Pour obtenir des exemples de code qui utilisent les interfaces dans l’API Endp
 -   [Contrôles du volume du point de terminaison](endpoint-volume-controls.md)
 -   [Compteurs de pic](peak-meters.md)
 
-Pour voir un exemple qui utilise l’API EndpointVolume, consultez [EndpointVolume](endpointvolume.md) dans la SDK Windows.
+pour voir un exemple qui utilise l’API EndpointVolume, consultez [EndpointVolume](endpointvolume.md) dans la SDK Windows.
 
 L’API EndpointVolume implémente les interfaces suivantes.
 

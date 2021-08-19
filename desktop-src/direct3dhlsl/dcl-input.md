@@ -91,7 +91,7 @@ Pour identifier l’entrée en tant que valeur système, utilisez l' [ \_ entré
 
 Cette instruction est incluse pour faciliter le débogage d’un nuanceur dans l’assembly. vous ne pouvez pas créer de nuanceur dans un langage assembleur à l’aide du nuanceur modèle 4.
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 Voici quelques exemples.
 

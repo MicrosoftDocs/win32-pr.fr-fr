@@ -4,12 +4,12 @@ description: Les développeurs de serveurs doivent se préoccuper de la créatio
 ms.assetid: 2b4ec5ae-bda1-41e6-9387-6ee3cb6c3163
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11d7a4c30c6bc228785a886d9a41717f8cdb8dda
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a6c93205430f3063b993c49a7145658d7748aac0e697257789c31ac0653d6189
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052547"
 ---
 # <a name="providing-the-name-property"></a>Fourniture de la propriété Name
 
@@ -24,6 +24,6 @@ Pour Rechercher l’étiquette du contrôle, Microsoft Active Accessibility rech
 
 Pour plus d’informations sur les techniques utilisées par Microsoft Active Accessibility pour exposer la [propriété Name](name-property.md), consultez Référence des éléments de l' [interface utilisateur](user-interface-element-reference.md).
 
- 
+ 
 
- 
+ 

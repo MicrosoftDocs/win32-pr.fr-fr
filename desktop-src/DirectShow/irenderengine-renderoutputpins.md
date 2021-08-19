@@ -24,7 +24,7 @@ ms.locfileid: "117818561"
 # <a name="irenderenginerenderoutputpins-method"></a>IRenderEngine :: RenderOutputPins, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

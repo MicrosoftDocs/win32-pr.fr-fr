@@ -1,6 +1,6 @@
 ---
 title: Identificateurs de module de génération de clé intégrés (Fwpmu. h)
-description: Les identificateurs des modules de génération de clé intégrés à la plateforme de filtrage Windows (WFP) sont chacun représentés par un GUID.
+description: les identificateurs des modules de génération de clé intégrés à la plateforme de filtrage Windows (WFP) sont chacun représentés par un GUID.
 ms.assetid: ba3aaf0f-5524-4d61-bb74-e4714b11b2a9
 topic_type:
 - apiref
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc9e6feb726a62de02130d64cef27cd9078395b3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0b978832d65ab930f172c205144ba352f028c486d4d04c6f680ee963c6cf2ae2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951338"
 ---
 # <a name="built-in-keying-module-identifiers"></a>Identificateurs de module de génération de clé intégrés
 
-Les identificateurs des modules de génération de clé intégrés à la plateforme de filtrage Windows (WFP) sont chacun représentés par un GUID.
+les identificateurs des modules de génération de clé intégrés à la plateforme de filtrage Windows (WFP) sont chacun représentés par un GUID.
 
 Ces identificateurs sont définis comme suit.
 
@@ -34,7 +34,7 @@ Ces identificateurs sont définis comme suit.
 
 
 
-Module de génération de clés protocole IKE (Internet Key Exchange) (IKE).
+module de génération de clés protocole IKE (Internet Key Exchange) (IKE).
 
 
 </dt> </dl> </dd> <dt>
@@ -44,10 +44,10 @@ Module de génération de clés protocole IKE (Internet Key Exchange) (IKE).
 
 
 
-Module de génération de clés IKEv2 (protocole IKE (Internet Key Exchange) version 2).
+module de génération de clés IKEv2 (protocole IKE (Internet Key Exchange) version 2).
 
 > [!Note]  
-> Disponible uniquement sur Windows Server 2008 R2 et Windows 7.
+> disponible uniquement sur Windows Server 2008 R2 et Windows 7.
 
  
 
@@ -70,8 +70,8 @@ Module de génération de clés AuthIP.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Fwpmu. h</dt> </dl> |
 
 

@@ -24,7 +24,7 @@ ms.locfileid: "117818004"
 # <a name="isamplegrabbergetcurrentsample-method"></a>ISampleGrabber :: GetCurrentSample, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

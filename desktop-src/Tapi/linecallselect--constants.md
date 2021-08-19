@@ -4,12 +4,12 @@ ms.assetid: f19a41bc-403a-4d4b-ab85-240a73514ebb
 title: Constantes LINECALLSELECT_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8330b4c4e4e14ac399595d10d4a208a3c67f5b2a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: feaa76ea5b421b8090f9289431bfee65be61a6b47abd170569beff73a9846533
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003147"
 ---
 # <a name="linecallselect_-constants"></a>\_Constantes LINECALLSELECT
 
@@ -67,7 +67,7 @@ Sélectionne des appels sur le périphérique de ligne spécifié.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 

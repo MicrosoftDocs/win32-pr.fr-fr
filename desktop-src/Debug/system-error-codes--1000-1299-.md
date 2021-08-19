@@ -4,17 +4,17 @@ ms.assetid: 0061feb6-e1a0-4fcd-8f80-954087c799d7
 title: Codes d’erreur système (1000-1299) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 592bd5c6653526d87fed05d6ec76f739355ae359
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dfda2e29a6b75acd683842509229f3bc52d7e8d3599855b01d8376f5a7daf2ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076333"
 ---
 # <a name="system-error-codes-1000-1299"></a>Codes d’erreur système (1000-1299)
 
 > [!NOTE]
-> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. Pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
+> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
 
 La liste suivante décrit les [codes d’erreur système](system-error-codes.md) pour les erreurs 1000 à 1299. Elles sont retournées par la fonction [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) lorsque de nombreuses fonctions échouent. Pour récupérer le texte de description de l’erreur dans votre application, utilisez la fonction [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) avec le **format \_ message \_ de \_** l’indicateur système.
 
@@ -743,7 +743,7 @@ Le programme exécutable dans lequel ce service est configuré pour s’exécute
 
 
 
-Ce service ne peut pas être démarré en mode sans échec.
+ce service ne peut pas être démarré en Mode Coffre.
 
 
 </dt> </dl> </dd> <dt>
@@ -2056,7 +2056,7 @@ Une opération non valide a été tentée sur une connexion réseau active.
 
 
 
-L’emplacement réseau ne peut pas être atteint. Pour plus d’informations sur la résolution des problèmes réseau, consultez l’aide de Windows.
+L’emplacement réseau ne peut pas être atteint. pour plus d’informations sur la résolution des problèmes réseau, consultez l’aide de Windows.
 
 
 </dt> </dl> </dd> <dt>
@@ -2069,7 +2069,7 @@ L’emplacement réseau ne peut pas être atteint. Pour plus d’informations su
 
 
 
-L’emplacement réseau ne peut pas être atteint. Pour plus d’informations sur la résolution des problèmes réseau, consultez l’aide de Windows.
+L’emplacement réseau ne peut pas être atteint. pour plus d’informations sur la résolution des problèmes réseau, consultez l’aide de Windows.
 
 
 </dt> </dl> </dd> <dt>
@@ -2082,7 +2082,7 @@ L’emplacement réseau ne peut pas être atteint. Pour plus d’informations su
 
 
 
-L’emplacement réseau ne peut pas être atteint. Pour plus d’informations sur la résolution des problèmes réseau, consultez l’aide de Windows.
+L’emplacement réseau ne peut pas être atteint. pour plus d’informations sur la résolution des problèmes réseau, consultez l’aide de Windows.
 
 
 </dt> </dl> </dd> <dt>
@@ -2355,7 +2355,7 @@ L’utilisateur spécifié n’a pas de profil valide.
 
 
 
-Cette opération n’est pas prise en charge sur un ordinateur exécutant Windows Server 2003 pour Small Business Server.
+cette opération n’est pas prise en charge sur un ordinateur exécutant Windows server 2003 pour Small Business server.
 
 
 </dt> </dl> </dd> <dt>
@@ -2381,7 +2381,7 @@ L’ordinateur serveur est en cours d’arrêt.
 
 
 
-Le système distant n’est pas disponible. Pour plus d’informations sur la résolution des problèmes réseau, consultez l’aide de Windows.
+Le système distant n’est pas disponible. pour plus d’informations sur la résolution des problèmes réseau, consultez l’aide de Windows.
 
 
 </dt> </dl> </dd> <dt>
@@ -2576,7 +2576,7 @@ Une bibliothèque de liens dynamiques (DLL) a référencé un module qui n’ét
 
 
 
-Windows ne peut pas ouvrir ce programme, car il a été désactivé.
+Windows ne pouvez pas ouvrir ce programme, car il a été désactivé.
 
 
 </dt> </dl> </dd> <dt>
@@ -2589,7 +2589,7 @@ Windows ne peut pas ouvrir ce programme, car il a été désactivé.
 
 
 
-Windows ne peut pas ouvrir ce programme, car le système d’application de la licence a été falsifié ou endommagé.
+Windows ne peut pas ouvrir ce programme, car le système d’application de licences a été falsifié ou endommagé.
 
 
 </dt> </dl> </dd> <dt>
@@ -2680,7 +2680,7 @@ Une tentative d’exécution d’une opération sur un objet de débogage a éch
 
 
 
-Une tentative de retarder le chargement d’un fichier. dll ou l’extraction d’une adresse de fonction dans un fichier. dll à chargement différé a échoué.
+Une tentative de retarder le chargement d’un .dll ou l’extraction d’une adresse de fonction dans un .dll à chargement différé a échoué.
 
 
 </dt> </dl> </dd> <dt>
@@ -2747,7 +2747,7 @@ L’opération s’est produite au-delà de la longueur de données valide du fi
 
 Le démarrage du service a échoué car un ou plusieurs services du même processus ont un paramètre de type de SID de service incompatible. Un service avec un type de SID de service restreint ne peut coexister que dans le même processus avec d’autres services avec un type de SID restreint. Si le type de SID de service de ce service vient d’être configuré, le processus d’hébergement doit être redémarré pour pouvoir démarrer ce service.
 
-Sur Windows Server 2003 et Windows XP, un service non restreint ne peut pas coexister dans le même processus avec d’autres services. Le service avec le type de SID de service non restreint doit être déplacé vers un processus détenu pour pouvoir démarrer ce service.
+sur Windows Server 2003 et Windows XP, un service non restreint ne peut pas coexister dans le même processus avec d’autres services. Le service avec le type de SID de service non restreint doit être déplacé vers un processus détenu pour pouvoir démarrer ce service.
 
 
 </dt> </dl> </dd> <dt>
@@ -2838,7 +2838,7 @@ L’opération de fichier demandée a échoué, car la stratégie de stockage bl
 
 
 
-Un privilège requis par le service pour fonctionner correctement n’existe pas dans la configuration du compte de service. Vous pouvez utiliser le composant logiciel enfichable MMC (Microsoft Management Console) des services (services. msc) et le composant logiciel enfichable MMC paramètres de sécurité locale (secpol. msc) pour afficher la configuration du service et la configuration du compte.
+Un privilège requis par le service pour fonctionner correctement n’existe pas dans la configuration du compte de service. vous pouvez utiliser le composant logiciel enfichable mmc (Microsoft Management Console) des services (services. msc) et le composant logiciel enfichable mmc Paramètres sécurité locale (secpol. msc) pour afficher la configuration du service et la configuration du compte.
 
 
 </dt> </dl> </dd> <dt>
@@ -2876,8 +2876,8 @@ Indique qu’un ID de sécurité particulier ne peut pas être assigné en tant 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
 
 

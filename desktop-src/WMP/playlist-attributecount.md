@@ -3,7 +3,7 @@ title: Playlist. attributeCount
 description: La propriété attributeCount récupère le nombre d’attributs associés à la sélection.
 ms.assetid: 92063131-0118-4458-9122-0539628a9821
 keywords:
-- Lecteur Windows Media playlist. attributeCount
+- Playlist. attributeCount Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e42d72e029f232bb6dabc074b412406a1bb64c7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 63616096dbfc3989a93d3dc8010dd0ed1f256ccd9e9bf2cc7b3c825c88a63d0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054297"
 ---
 # <a name="playlistattributecount"></a>Playlist. attributeCount
 
@@ -33,17 +33,17 @@ La propriété **attributeCount** récupère le nombre d’attributs associés �
 
 Cette propriété est un **nombre** en lecture seule (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Étant donné que les sélections peuvent provenir de nombreuses sources différentes, elles peuvent avoir plusieurs jeux de propriétés différents. Cette méthode récupère le nombre total de propriétés disponibles afin que les autres méthodes de l’objet **playlist** puissent y accéder.
 
 Pour récupérer la valeur de cette propriété, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la page [référence des attributs](attribute-reference.md)du lecteur Windows Media.
+pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md)Lecteur Windows Media.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant illustre l’utilisation de différentes propriétés et méthodes de la **sélection** et des objets **multimédias** .
+l’exemple de JScript suivant illustre le mode d’utilisation de différentes propriétés et méthodes de la **sélection** et des objets **multimédias** .
 
 
 ```JScript

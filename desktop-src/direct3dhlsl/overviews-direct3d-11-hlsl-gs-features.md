@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7fff209092e54ad2efa135a86b2a892c5011e983
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ccecb8d527f91da632921ed3b108856e2990559292bb1d70d93562e9e3630845
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117906626"
 ---
 # <a name="geometry-shader-features"></a>Fonctionnalités du nuanceur Geometry
 
@@ -26,7 +26,7 @@ Cette section contient des informations générales sur les nouvelles fonctionna
 
 | Élément                                                                                                                                                                                                                                                                | Description                                                                               |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| <span id="How_To__Index_Multiple_Output_Streams"></span><span id="how_to__index_multiple_output_streams"></span><span id="HOW_TO__INDEX_MULTIPLE_OUTPUT_STREAMS"></span>[Comment : indexer plusieurs flux de sortie](overviews-direct3d-11-hlsl-gs-index.md)<br/> | Utilisez l’indexation pour déclarer jusqu’à quatre flux de sortie dans un seul nuanceur Geometry.<br/> |
+| <span id="How_To__Index_Multiple_Output_Streams"></span><span id="how_to__index_multiple_output_streams"></span><span id="HOW_TO__INDEX_MULTIPLE_OUTPUT_STREAMS"></span>[Comment : indexer plusieurs Flux de sortie](overviews-direct3d-11-hlsl-gs-index.md)<br/> | Utilisez l’indexation pour déclarer jusqu’à quatre flux de sortie dans un seul nuanceur Geometry.<br/> |
 | <span id="How_To__Instance_a_Geometry_Shader"></span><span id="how_to__instance_a_geometry_shader"></span><span id="HOW_TO__INSTANCE_A_GEOMETRY_SHADER"></span>[Comment : instancier un nuanceur Geometry](overviews-direct3d-11-hlsl-gs-instance.md)<br/>          | Exécute une ou plusieurs instances d’un nuanceur Geometry par primitive.<br/>              |
 
 

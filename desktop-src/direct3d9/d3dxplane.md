@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 3df0c94dbd49cf38d9230a2c5392df8497c64761
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5fa7e7155cdcf5c5dc1996dee1dcf02d0190e4bb91b4c319231e2f03168722c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118095457"
 ---
 # <a name="d3dxplane-structure-d3dx9mathh"></a>D3DXPLANE, structure (D3dx9math. h)
 
@@ -86,7 +86,7 @@ Coefficient d du plan de découpage dans l’équation du plan général. Consul
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les membres de la structure **D3DXPLANE** prennent la forme de l’équation plan générale. Elles s’intègrent à l’équation plan générale, **de** sorte que x + **b** y + **c** z + **d** w = 0.
 

@@ -1,19 +1,19 @@
 ---
-description: Le code suivant est le fichier simple. c, qui est un serveur Windows Sockets IPv4 uniquement (une version IPv6 du fichier simple. c se trouve dans l’annexe B).
+description: le code suivant est le fichier simple. c, qui est un serveur IPv4 uniquement Windows sockets (une version IPv6 du fichier simple. c se trouve dans l’annexe B).
 ms.assetid: 02e599e9-8652-4ca1-9355-b989dadedcdf
 title: Code serveur IPv4 uniquement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 822ad0775c512e5a00ec0695b2967d8c09fd9253
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7748b6513747f30f2b7cc93a120f47648269196dd1f19efdfcdd1112c777ee9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051457"
 ---
 # <a name="ipv4-only-server-code"></a>Code serveur IPv4 uniquement
 
-Le code suivant est le fichier simple. c, qui est un serveur Windows Sockets IPv4 uniquement (une version IPv6 du fichier simple. c se trouve dans l’annexe B). Ce code est fourni à des fins de comparaison uniquement : utilisez l’annexe B pour obtenir un exemple d’écriture d’un serveur compatible IPv6.
+le code suivant est le fichier simple. c, qui est un serveur IPv4 uniquement Windows sockets (une version IPv6 du fichier simple. c se trouve dans l’annexe B). Ce code est fourni à des fins de comparaison uniquement : utilisez l’annexe B pour obtenir un exemple d’écriture d’un serveur compatible IPv6.
 
 
 ```C++
