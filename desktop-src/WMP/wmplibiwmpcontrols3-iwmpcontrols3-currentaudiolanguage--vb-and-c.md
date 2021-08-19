@@ -3,9 +3,9 @@ title: IWMPControls3 propriété currentAudioLanguage
 description: La propriété currentAudioLanguage obtient ou définit l’identificateur de paramètres régionaux (LCID) de la langue audio pour la lecture.
 ms.assetid: 4adf26c7-077a-483e-8a76-accf871eca4c
 keywords:
-- propriété currentAudioLanguage lecteur Windows Media
-- propriété currentAudioLanguage lecteur Windows Media, interface IWMPControls3
-- Interface IWMPControls3 lecteur Windows Media, propriété currentAudioLanguage
+- Lecteur Windows Media de la propriété currentAudioLanguage
+- Lecteur Windows Media de la propriété currentAudioLanguage, interface IWMPControls3
+- Lecteur Windows Media de l’interface IWMPControls3, propriété currentAudioLanguage
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c4621b5eace56cb883a6c8b14c3b1f082b12d3a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1e1a4f668cec560528270d52a2abe4777ce32d3ceb38ce21345342ef87866c38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115876"
 ---
 # <a name="iwmpcontrols3currentaudiolanguage-property"></a>IWMPControls3 :: currentAudioLanguage, propriété
 
@@ -48,11 +48,11 @@ Public Property currentAudioLanguage As System.Int32
 
 **System. Int32** qui est le LCID de la langue audio.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un LCID identifie de façon unique un dialecte de langage particulier, appelé paramètres régionaux.
 
-Pour le contenu Windows Media, les propriétés et les méthodes liées à la sélection de la langue ne prennent en charge qu’une seule sortie.
+pour Windows le contenu multimédia, les propriétés et les méthodes liées à la sélection de la langue prennent en charge une seule sortie.
 
 Lors de l’utilisation d’un contenu DVD, la spécification d’un LCID entraîne la sélection de la première piste audio disponible avec l’ID de langue spécifié.
 

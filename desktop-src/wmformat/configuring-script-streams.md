@@ -1,6 +1,6 @@
 ---
-title: Configuration de flux de script
-description: Configuration de flux de script
+title: Configuration des Flux de script
+description: Configuration des Flux de script
 ms.assetid: f8f1656e-69c6-47f7-a8eb-c1039a84ebf3
 keywords:
 - flux, configuration de flux de script
@@ -8,14 +8,14 @@ keywords:
 - flux de script, configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e063865b301c8c7c2a4171aa530a89464306c0ad
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f95c4c43fcb29ec2f77dacbf5a66b1c8c36c666d80fd5f5c09779a4ecaf22f05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117655987"
 ---
-# <a name="configuring-script-streams"></a>Configuration de flux de script
+# <a name="configuring-script-streams"></a>Configuration des Flux de script
 
 Comme tous les types de flux arbitraires, les flux de script doivent avoir une fenêtre de mémoire tampon et une vitesse de transmission définies pour eux. Le type de média majeur dans la structure du [**\_ \_ type de média WM**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type) doit être défini sur WMMEDIATYPE \_ script.
 
@@ -27,7 +27,7 @@ Il n’existe qu’un seul type de script pris en charge, WMSCRIPTTYPE \_ TwoStr
 
 <dl> <dt>
 
-[**Configuration commune à tous les flux**](configuration-common-to-all-streams.md)
+[**Configuration commune à tous les Flux**](configuration-common-to-all-streams.md)
 </dt> <dt>
 
 [**Configuration de types de flux arbitraires**](configuring-arbitrary-stream-types.md)
@@ -36,9 +36,9 @@ Il n’existe qu’un seul type de script pris en charge, WMSCRIPTTYPE \_ TwoStr
 [**Commandes de script**](script-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

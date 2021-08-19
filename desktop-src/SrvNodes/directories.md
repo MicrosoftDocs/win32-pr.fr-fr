@@ -4,18 +4,18 @@ ms.assetid: 012e8f51-755c-4f5a-a3a9-45c6d77e0a09
 title: Répertoires
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5945923fb168d0517d601fe3a22e8ad247d83fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10b226bc01dd43923b9c5f7d9e37593d1f973a72aa1dfb67761e4f4bfa84326f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117963340"
 ---
 # <a name="directories"></a>Répertoires
 
 ## <a name="in-this-section"></a>Dans cette section
 
--   [Active Directory Domain Services](/windows/desktop/AD/active-directory-domain-services)
+-   [Services de domaine Active Directory](/windows/desktop/AD/active-directory-domain-services)
 -   [Services AD LDS (Active Directory Lightweight Directory Services)](/previous-versions/windows/desktop/adam/active-directory-lightweight-directory-services)
 -   [Schéma Active Directory](/windows/desktop/ADSchema/active-directory-schema)
 -   [Fournisseur WMI Active Directory](/previous-versions/windows/desktop/dsprov/active-directory-provider)

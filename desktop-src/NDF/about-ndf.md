@@ -4,16 +4,16 @@ description: Network Diagnostics Framework (NDF) réduit l’implication des adm
 ms.assetid: ac4ef38e-2818-4df4-b9f9-28326b974698
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b638298fe321d314815c74fced49d3dfb623022
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d15a2ce4890645e83c27e9c1cf594d7fbf4d81ce3d662a2b470ce652c71e7d7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117798901"
 ---
 # <a name="about-ndf"></a>À propos de NDF
 
-Network Diagnostics Framework (NDF) réduit l’implication des administrateurs réseau et des utilisateurs d’ordinateurs en gérant les problèmes réseau courants au fur et à mesure de leur apparition. En utilisant les fonctionnalités de diagnostic et de réparation d’NDF, les utilisateurs et les administrateurs n’ont pas besoin d’outils supplémentaires pour gérer certains problèmes relativement courants. NDF est fourni avec Windows Vista, Windows Server 2008 et versions ultérieures. Elle est disponible chaque fois qu’un système est démarré (mais ne peut pas être exécuté en mode sans échec).
+Network Diagnostics Framework (NDF) réduit l’implication des administrateurs réseau et des utilisateurs d’ordinateurs en gérant les problèmes réseau courants au fur et à mesure de leur apparition. En utilisant les fonctionnalités de diagnostic et de réparation d’NDF, les utilisateurs et les administrateurs n’ont pas besoin d’outils supplémentaires pour gérer certains problèmes relativement courants. NDF est fourni avec Windows Vista, Windows Server 2008 et versions ultérieures. elle est disponible chaque fois qu’un système est démarré (mais ne peut pas s’exécuter en Mode Coffre).
 
 ## <a name="ndf-helper-classes"></a>Classes d’assistance NDF
 
@@ -44,9 +44,9 @@ NDF offre plusieurs avantages distincts pour encourager son utilisation par les 
 -   Élimine la nécessité d’écrire et de prendre en charge des outils uniques pour diagnostiquer les problèmes. Une classe d’assistance peut être le référentiel central pour les fonctionnalités de diagnostic d’un composant et les techniques de collecte d’informations.
 -   Rend les diagnostics spécifiques à un composant accessibles aux applications, sans qu’ils aient besoin d’avoir une connaissance directe du composant.
 
- 
+ 
 
- 
+ 
 
 
 

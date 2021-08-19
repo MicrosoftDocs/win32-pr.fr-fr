@@ -161,12 +161,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80ee2b9c009291bbc39f187d4b723b75e4cd8b97
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 184d687d637bf258036e4c905b7c57af371057d57ab0e70ec7808b0081230cb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737123"
 ---
 # <a name="com-error-codes-volmgr-bcd-vhd-sdiag"></a>Codes d’erreur COM (VOLMGR, BCD, VHD, SDIAG)
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 93418e7e9e87178cd64c2d7238b5227de0990378
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ee9516c43f5e8d774ef496a0e66ae1a8ee839ff3df6f2f5436caaf887f95da54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118284000"
 ---
 # <a name="texreg2ar---ps"></a>texreg2ar-PS
 
@@ -29,7 +29,7 @@ Interprète les composants de couleur alpha et rouges du Registre source en tant
 
 
 
- 
+ 
 
 where
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 Cette instruction est utile pour les opérations de remappage de l’espace colorimétrique.
 
@@ -72,6 +72,6 @@ Pour cette instruction, le registre source doit utiliser des données non signé
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

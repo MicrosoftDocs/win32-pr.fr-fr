@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre LocalService COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31f630c7c0a6f5e3bbf4b9c26ad82e5a104be238
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 5e454566ac505907f66fad585062bc67f41c865df45b30405b83e5faadef7f9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736465"
 ---
 # <a name="localservice"></a>LocalService
 
@@ -21,11 +21,11 @@ Installe un objet en tant qu’application de service.
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      LocalService = name
+   {AppID_GUID}
+      LocalService = name
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En plus de s’exécuter en tant qu’exécutable de serveur local (EXE), un objet COM peut également choisir de s’empaqueter pour s’exécuter en tant qu’application de service lorsqu’il est activé par un client local ou distant. Les services prennent en charge de nombreuses fonctionnalités d’administration utiles et intégrées à l’interface utilisateur, notamment le démarrage, l’arrêt, l’interruption et le redémarrage locaux et distants, ainsi que la possibilité d’établir le serveur pour qu’il s’exécute sous un compte d’utilisateur et une station Windows spécifiques.
 
@@ -56,6 +56,6 @@ Si vous implémentez des classes en tant que services, vous devez être conscien
 [Services](/windows/desktop/Services/services)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

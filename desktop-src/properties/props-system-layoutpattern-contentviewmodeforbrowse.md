@@ -4,12 +4,12 @@ ms.assetid: 6c2b6f1f-274f-44ad-864e-4513aaaec4de
 title: System. LayoutPattern. ContentViewModeForBrowse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad89c3a11a090c787887910c459ef2cad66c4c4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73d69d0eaf53e9a1c0545528460835a5d4d6557b3e3c43cb7c96f82cbe7208d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117865856"
 ---
 # <a name="systemlayoutpatterncontentviewmodeforbrowse"></a>System. LayoutPattern. ContentViewModeForBrowse
 
@@ -52,7 +52,7 @@ propertyDescription
             defineToken = LAYOUTPATTERN_CVMFB_DELTA
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,16 +4,16 @@ ms.assetid: 018fc41a-19fd-4e4c-bfed-e0215afb5150
 title: Utilisation des magasins de certificats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 682068ba8f2f88d0fedabeef7ccee676f092e52e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f687286d40e64e590079d872a0134742d552b66a9926a1febeb5c42ae2ad7566
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971611"
 ---
 # <a name="using-certificate-stores"></a>Utilisation des magasins de certificats
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 CAPICOM utilise des [*certificats numériques*](../secgloss/d-gly.md) pour créer des signatures, chiffrer des clés de chiffrement de session lors de la création de messages enveloppés et déchiffrer les clés de session chiffrées lors de la réception d’un message enveloppé. Par défaut, CAPICOM utilise des certificats du magasin My qui ont une clé privée associée pour la création de [*signatures numériques*](../secgloss/d-gly.md) et le déchiffrement de la clé de session. Dans la plupart des cas, une application n’a jamais besoin d’ouvrir ou de traiter directement un magasin de certificats.
 

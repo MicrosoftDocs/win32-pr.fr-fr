@@ -8,12 +8,12 @@ keywords:
 - Partitions de l’annuaire d’applications Active Directory, création
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a17471696825179b6e49230b5168abbaf88b8e2
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: c340bac215be62867dcddcda97326c33fc70c458ee242965258cc1ee24cf25f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118020538"
 ---
 # <a name="creating-an-application-directory-partition"></a>Création d’une partition d’annuaire d’applications
 
@@ -21,19 +21,19 @@ Une partition de l’annuaire d’applications est représentée par un objet [*
 
 Il est possible d’imbriquer des partitions d’annuaire d’applications, autrement dit, une partition d’annuaire d’applications peut avoir des partitions d’annuaire d’applications enfants. Les recherches avec une étendue de sous-arborescence associée à une racine de la partition de l’annuaire d’applications génèrent des références de continuation aux partitions de l’annuaire d’applications enfant.
 
-Un réplica de partition d’annuaire d’applications ne peut être créé que sur un contrôleur de domaine qui s’exécute sur Windows Server 2003 et versions ultérieures, et uniquement si le rôle FSMO Domain-Naming est détenu par un contrôleur de domaine Windows Server 2003 et ultérieur. Dans une forêt mixte qui dispose à la fois de contrôleurs de domaine Windows Server 2003 et de contrôleurs de domaine de niveau supérieur (contrôleurs de domaine Windows 2000 ou contrôleurs de domaine principaux Windows NT 4,0), une tentative de création d’un réplica de partition d’annuaire d’application sur un contrôleur de domaine de niveau supérieur échouera.
+un réplica de partition d’annuaire d’applications ne peut être créé que sur un contrôleur de domaine qui s’exécute sur Windows server 2003 et versions ultérieures, et uniquement si le rôle FSMO Domain-Naming est détenu par un contrôleur de domaine Windows Server 2003 et ultérieur. dans une forêt mixte qui a à la fois des contrôleurs de domaine Windows Server 2003 et des contrôleurs de domaine de niveau supérieur (Windows des contrôleurs de domaine 2000 ou des contrôleurs de domaine principaux Windows NT 4,0), une tentative de création d’un réplica de partition d’annuaire d’application sur un contrôleur de domaine de niveau supérieur échouera.
 
 Une partition d’annuaire d’applications a également un objet [**crossRef**](/windows/desktop/ADSchema/c-crossref) correspondant dans le conteneur partitions de la partition de configuration. Le **crossRef** peut être créé au préalable manuellement avant la création de l’objet [**domainDNS**](/windows/desktop/ADSchema/c-domaindns) . L’objet **crossRef** créé au préalable doit avoir les valeurs d’attribut indiquées dans le tableau suivant, sinon la création de la partition échouera. Si l’objet **crossRef** n’existe pas, le serveur Active Directory en crée un lors de la création de la partition d’annuaire d’applications.
 
 | Attribut                          | Description                                                                                                                               |
 |------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | [**dnsRoot**](/windows/desktop/ADSchema/a-dnsroot) | Contient le chemin d’accès DNS du contrôleur de domaine sur lequel la partition d’annuaire d’applications sera créée.                               |
-| [**Enabled**](/windows/desktop/ADSchema/a-enabled) | Contient la **valeur false**.                                                                                                                       |
+| [**Activé**](/windows/desktop/ADSchema/a-enabled) | Contient la **valeur false**.                                                                                                                       |
 | [**nCName**](/windows/desktop/ADSchema/a-ncname)   | Contient le nom unique de la partition. Dans l’exemple ci-dessus, cet attribut contiendra « DC = DynamicData, DC = MyDomain, DC = com ». |
 
 
 
- 
+ 
 
 **Pour créer une nouvelle partition d’annuaire d’applications avec son premier réplica, procédez comme suit :**
 
@@ -41,7 +41,7 @@ Une partition d’annuaire d’applications a également un objet [**crossRef**]
 
     L’opération de liaison doit spécifier les options Fast et delegation. L’option fast permet à la liaison de se dérouler même si l’espace de noms n’existe pas. L’option de délégation est requise pour permettre au contrôleur de domaine de contacter le détenteur du rôle Domain-Naming FSMO en utilisant les mêmes informations d’identification.
 
-    La version système du contrôleur de domaine doit être le système d’exploitation Windows Server 2003 et versions ultérieures.
+    la version système du contrôleur de domaine doit être Windows système d’exploitation Server 2003 et versions ultérieures.
 
 2.  Créez un objet [**domainDNS**](/windows/desktop/ADSchema/c-domaindns) avec un nom approprié pour la partition, par exemple, « DC = DynamicData » pour représenter l’en-tête de contexte d’appellation pour la nouvelle partition. L’objet **domainDNS** doit avoir un attribut [**instanceType**](/windows/desktop/ADSchema/a-instancetype) avec une valeur de 5 (le **DS \_ instanceType est le NC \_ \_ \_** \| **\_ instanceType \_ NC instanceType NC \_ est accessible en \_ écriture**). L’attribut **instanceType** ne peut être défini qu’au moment de la création, car il s’agit d’un attribut système uniquement.
 
@@ -59,7 +59,7 @@ Lorsque l’objet [**domainDNS**](/windows/desktop/ADSchema/c-domaindns) est cr�
 
     
 
-     
+     
 
 2.  Lancez une synchronisation de la partition de configuration et attendez la fin de l’opération. Cela permet à l’application cliente de modifier les paramètres de configuration de la nouvelle partition d’annuaire d’applications, tout en étant lié au même contrôleur de domaine utilisé pour la création de la partition d’annuaire d’applications.
 3.  La création de l’objet [**domainDNS**](/windows/desktop/ADSchema/c-domaindns) avec le **DS \_ instanceType \_ est l' \_ \_ en-tête NC** et le contrôleur de **service Active Directory \_ instanceType est un indicateur accessible en \_ \_ \_ écriture** défini sur la propriété [**INSTANCETYPE**](/windows/desktop/ADSchema/a-instancetype) . La propriété **instanceType** peut également contenir d’autres indicateurs privés.
@@ -87,6 +87,6 @@ La deuxième méthode est plus facile à implémenter, mais elle s’appuie sur 
 
 Pour plus d’informations et pour obtenir un exemple de code illustrant cette méthode pour localiser le conteneur partitions, consultez la fonction **GetPartitionsDNManual** dans l' [exemple de code pour localiser le conteneur partitions](example-code-for-locating-the-partitions-container.md).
 
- 
+ 
 
- 
+ 

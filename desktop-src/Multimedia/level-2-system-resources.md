@@ -10,12 +10,12 @@ keywords:
 - MPC niveau 2, configuration minimale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a543514aa89f6f9a6e1756de800ed8e387114538
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65a39f4c72bb79669187645e82fe11effd420ad70f86cc32abb2e6065dc47ffd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139695"
 ---
 # <a name="level-2-system-resources"></a>Ressources système de niveau 2
 
@@ -29,13 +29,13 @@ La configuration minimale d’un PC pour répondre à la spécification de nivea
 -   Un port MIDI (Musical Instrument Digital Interface) incluant MIDI Out, MIDI in et MIDI, et qui prend en charge l’interruption pour le transfert d’entrée et FIFO
 -   Port de manette de jeu analogique ou numérique IBM
 -   Une analyse de couleur avec une résolution d’écran de 640 x 480 pixels avec des couleurs de 65 536
--   Logiciel système qui offre une compatibilité binaire avec Windows 3,0 ou Windows 3,1
+-   logiciel système qui offre une compatibilité binaire avec Windows 3,0 ou Windows 3,1
 
 En outre, l’objectif de performance recommandé pour la carte vidéo (VGA +) est de 1,2 million pixels par seconde, avec 40% ou moins de la bande passante de l’UC. Les bitmaps indépendantes du périphérique (DIB) utilisés pour mesurer cet objectif de performance ont des profondeurs de couleurs de 1, 4 et 8 bits, et peuvent utiliser l’encodage de la longueur d’exécution ou être décodés. Une deuxième méthode pour mesurer les performances vidéo consiste à fournir des images vidéo numériques 256 couleurs, 320 par 240 pixels à 15 images par seconde.
 
- 
+ 
 
- 
+ 
 
 
 

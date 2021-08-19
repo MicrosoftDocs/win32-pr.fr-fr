@@ -1,19 +1,19 @@
 ---
-description: "Les fonctions et méthodes d’acquisition d’images Windows (WIA) peuvent retourner des codes d’erreur de la liste suivante : erreur CodeMeaningCodeWIA l' \\_ \\_ appareil BUSYThe est occupé."
+description: "Windows Les fonctions et les méthodes d’acquisition d’images (WIA) peuvent retourner des codes d’erreur de la liste suivante : erreur CodeMeaningCodeWIA l' \\_ \\_ appareil BUSYThe est occupé."
 ms.assetid: 3abbe92b-32b7-4820-b208-45c847243078
 title: Codes d’erreur (WIA)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd6025616d46a5973692bb3cafbcf88e18836ad0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5c782ae449a52ae0ff2b64f124609a3142f1dd457d74bdb82333502ef1868ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117670272"
 ---
 # <a name="error-codes-wia"></a>Codes d’erreur (WIA)
 
-Les fonctions et méthodes d’acquisition d’images Windows (WIA) peuvent retourner des codes d’erreur de la liste suivante : 
+Windows Les fonctions et les méthodes d’acquisition d’images (WIA) peuvent retourner des codes d’erreur de la liste suivante : 
 
 | Code d'erreur                                      | Signification                                                                                                                                                                                                                             | Code       |
 |-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
@@ -28,8 +28,8 @@ Les fonctions et méthodes d’acquisition d’images Windows (WIA) peuvent reto
 | \_réponse du pilote d’erreur WIA \_ non valide \_ \_           | La réponse du pilote n’est pas valide.                                                                                                                                                                                            | 0x8021000F |
 | \_élément d’erreur WIA \_ \_ supprimé                       | L’appareil WIA a été supprimé. Elle n’est plus disponible.                                                                                                                                                                               | 0x80210009 |
 | \_lampe d’erreur WIA \_ \_ désactivée                           | La lampe du scanneur est désactivée.                                                                                                                                                                                                          | 0x80210017 |
-| \_ \_ nombre maximal d' \_ \_ approuveurs d’erreurs d’imprimante WIA \_ | Un travail d’analyse a été interrompu, car un élément d’imscanneur/d’endosseur a atteint le nombre maximal de valeurs valides pour l’option d' \_ \_ endosseur d’imprimante IPS WIA \_ \_ et a été réinitialisé à 0. Cette fonctionnalité est disponible avec Windows 8 et les versions ultérieures de Windows. | 0x80210021 |
-| \_multi- \_ \_ flux d’erreur WIA                         | Une erreur d’analyse s’est produite en raison d’une condition de flux de page multiple. Cette fonctionnalité est disponible avec Windows 8 et les versions ultérieures de Windows.                                                                                            | 0x80210020 |
+| \_ \_ nombre maximal d' \_ \_ approuveurs d’erreurs d’imprimante WIA \_ | Un travail d’analyse a été interrompu, car un élément d’imscanneur/d’endosseur a atteint le nombre maximal de valeurs valides pour l’option d' \_ \_ endosseur d’imprimante IPS WIA \_ \_ et a été réinitialisé à 0. cette fonctionnalité est disponible avec Windows 8 et les versions ultérieures de Windows. | 0x80210021 |
+| \_multi- \_ \_ flux d’erreur WIA                         | Une erreur d’analyse s’est produite en raison d’une condition de flux de page multiple. cette fonctionnalité est disponible avec Windows 8 et les versions ultérieures de Windows.                                                                                            | 0x80210020 |
 | \_erreur WIA \_ en mode hors connexion                             | L’appareil est hors connexion. Assurez-vous que l’appareil est sous tension et connecté au PC.                                                                                                                                                  | 0x80210005 |
 | \_papier d’erreur WIA \_ \_ vide                        | Il n’y a aucun document dans le chargeur de documents.                                                                                                                                                                                      | 0x80210003 |
 | \_ \_ bourrage papier sur les erreurs WIA \_                          | Le papier est coincé dans le chargeur de documents du scanneur.                                                                                                                                                                                   | 0x80210002 |

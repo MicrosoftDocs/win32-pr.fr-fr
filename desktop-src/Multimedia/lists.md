@@ -17,12 +17,12 @@ keywords:
 - MUX (multiplexeur)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d475816d7090ee241a1508cc054b12742c4ab27
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 76f15e1c89e564ddd3b6c263b91242a3e4dc0382fd36f86554ec6bd0556191ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139394"
 ---
 # <a name="lists"></a>Listes
 
@@ -39,8 +39,8 @@ Les contrôles de liste fournissent des États à sélection unique ou à sélec
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

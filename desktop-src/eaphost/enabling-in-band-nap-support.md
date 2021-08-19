@@ -4,12 +4,12 @@ description: Peut être activé pour les méthodes EAP EAPHost qui prennent en c
 ms.assetid: 298c89d9-7a6a-4280-9af9-77c7c00cab92
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9eae9fc17e99b27f620fbab1ed42cbd4b73800
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 477ad8f2ee033b3f98f9cac0e7ee34d18dc62f00dd5bd7c0e09509ad32bcfa7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103734613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117904275"
 ---
 # <a name="implementing-in-band-nap-support-for-eap-methods"></a>Implémentation de la prise en charge de In-Band NAP pour les méthodes EAP
 
@@ -44,7 +44,7 @@ L’implémentation de la méthode d’homologue EAP transmet la TLV contenant l
 > [!Note]  
 > Le membre **eapType** de la structure d' [**\_ attribut EAP**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute) aura toujours la valeur **eatEAPTLV** et le membre **pValue** pointera vers le premier octet de la TLV qui contient le TLV réponse SOH.
 
- 
+ 
 
 ### <a name="implementing-nap-support-on-eap-server-methods"></a>Implémentation de la prise en charge NAP sur les méthodes de serveur EAP
 
@@ -65,7 +65,7 @@ L’implémentation de la méthode de serveur EAP reçoit un TLV contenant un TL
 > [!Note]  
 > Le membre **eapType** de la structure d' [**\_ attribut EAP**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute) aura toujours la valeur **eatEAPTLV** et le membre **pValue** pointera vers le premier octet de la TLV qui contient le TLV réponse SOH.
 
- 
+ 
 
 ### <a name="messages"></a>Messages
 
@@ -92,6 +92,6 @@ Pour plus d’informations, consultez [messages de déclaration d’intégrité 
 [Demandeurs EAPHost](eaphost-supplicants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

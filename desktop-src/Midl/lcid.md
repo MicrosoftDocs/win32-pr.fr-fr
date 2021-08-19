@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fa22b231c63583c6d16e6a50f3e9987c5b61128
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e87d1b6105d7e6ae561d7409cbf256b67f965c61e235ffc5782594cb5623497c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117806795"
 ---
 # <a name="lcid-attribute"></a>LCID (attribut)
 
@@ -51,7 +51,7 @@ Spécifie un numéro d’identification unique universel pour la [**bibliothèqu
 *localeID* 
 </dt> <dd>
 
-Spécifie l’identificateur de paramètres régionaux 32 bits utilisé dans la prise en charge des langues nationales Windows. En général, l’identificateur de paramètres régionaux est fourni au format hexadécimal.
+spécifie l’identificateur de paramètres régionaux 32 bits utilisé dans Windows prise en charge des langues nationales. En général, l’identificateur de paramètres régionaux est fourni au format hexadécimal.
 
 </dd> <dt>
 
@@ -76,7 +76,7 @@ Une ou plusieurs instructions MIDL qui définissent le contenu de la [**biblioth
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la fonction dans le fichier IDL.
@@ -97,7 +97,7 @@ Spécifie le nom du paramètre dans le fichier IDL.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La syntaxe **\[ \] LCID** a deux formes différentes ; l’effet de l’attribut dépend de la syntaxe que vous utilisez, à savoir la syntaxe de l’instruction de la [**bibliothèque**](library.md) ou la syntaxe du paramètre.
 
@@ -164,6 +164,6 @@ interface IMyFace : IDispatch
 [**retval**](retval.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

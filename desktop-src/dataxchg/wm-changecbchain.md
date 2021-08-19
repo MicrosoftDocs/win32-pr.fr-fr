@@ -3,7 +3,7 @@ title: Message WM_CHANGECBCHAIN (winuser. h)
 description: Envoyé à la première fenêtre de la chaîne du presse-papiers lorsqu’une fenêtre est supprimée de la chaîne. Une fenêtre reçoit ce message par le biais de sa fonction WindowProc.
 ms.assetid: 7be87342-87fa-4cd2-b066-0b36b7ef52f5
 keywords:
-- WM_CHANGECBCHAIN l’échange de données de message
+- WM_CHANGECBCHAIN des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ab91640320e3659d0e9fb130f5c773ccbb7c4e8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 25dac74784a214f77f8b2912e2fd643624ae767027121e2262d81989d54d3831
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736313"
 ---
 # <a name="wm_changecbchain-message"></a>\_Message WM CHANGECBCHAIN
 
@@ -56,7 +56,7 @@ Handle vers la fenêtre suivante dans la chaîne après la suppression de la fen
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque fenêtre de la visionneuse du presse-papiers enregistre le descripteur dans la fenêtre suivante dans la chaîne du presse-papiers. Initialement, ce descripteur est la valeur de retour de la fonction [**SetClipboardViewer**](/windows/desktop/api/Winuser/nf-winuser-setclipboardviewer) .
 

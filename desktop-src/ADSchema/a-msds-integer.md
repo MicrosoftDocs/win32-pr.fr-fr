@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad7fc7bb443302932b5d08e57be6a36bec19f729
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e23ddffb2405f882a5aa9c7d2ef18056ee4c75697b49a42c4c1036cc42fc444b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118014470"
 ---
 # <a name="ms-ds-integer-attribute"></a>ms-DS-attribut entier
 
@@ -36,7 +36,7 @@ Attribut permettant de stocker un entier.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1835              |
 | System-ID-GUID    | 7bc64cea-c04e-4318-B102-3e0729371a65 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -44,7 +44,7 @@ Attribut permettant de stocker un entier.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: df858445797a45e21a0d54e9aedc2387851ae54f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2f39cb7b88977c8f61e562badaa6cbda7a5004fc2d0edf70eb59c6276070efd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110564"
 ---
 # <a name="__parameters-class"></a>\_\_Parameters, classe
 
@@ -40,7 +40,7 @@ class __PARAMETERS
 
 La classe **\_ \_ Parameters** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour définir une méthode dans une classe d’utilisateur, un client WMI crée une copie de la classe de **\_ \_ paramètres** et ajoute une propriété pour chaque paramètre d’entrée dans une méthode. Si la méthode contient une valeur de retour ou des paramètres de sortie, une autre copie des **\_ \_ paramètres** doit être créée. Si la méthode retourne une valeur de retour, le client doit ajouter une propriété nommée **returnValue**. Le fournisseur de méthode stocke ensuite les paramètres de méthode avec un appel à [**IWbemClassObject ::P utmethod**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-putmethod).
 

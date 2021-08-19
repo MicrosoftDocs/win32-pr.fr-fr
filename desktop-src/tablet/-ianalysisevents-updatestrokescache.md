@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 5d16011d8c5fe571d228b632fecb7a973bafcbf5
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 9a5854c8061a12dc558a2ca20ebd893880f899b2113065abd9b8122c53812aa0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106520247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118047371"
 ---
 # <a name="_ianalysiseventsupdatestrokescache-event"></a>\_Événement IAnalysisEvents :: UpdateStrokesCache
 
@@ -58,7 +58,7 @@ Identificateurs des traits dont les données de paquet ont été effacées.
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le [**IInkAnalyzer**](iinkanalyzer.md) déclenche cet événement lors de l’analyse de l’encre lorsqu’il accède à un ou plusieurs traits pour lesquels les données du paquet ont été effacées. Pour mettre à jour les données de paquets de trait, utilisez la méthode de [**méthode IInkAnalyzer :: UpdateStrokesData**](iinkanalyzer-updatestrokesdata.md) .
 
@@ -72,7 +72,7 @@ Pour plus d’informations sur la synchronisation des données de votre applicat
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

@@ -6,12 +6,12 @@ keywords:
 - TS_ATTRID
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18ea3823a95c123fe9942f69a2a133fd94a8567a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2e1c40d56f1f8ff3deb59d0dd7664a197a672ade7b2d53beebd8e35ba5de7c0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117950335"
 ---
 # <a name="ts_attrid"></a>\_ATTRID TS
 
@@ -24,7 +24,7 @@ typedef GUID TS_ATTRID;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La liste des GUID prédéfinis pour TS \_ ATTRID se trouve dans tsattrs. h.
 
@@ -36,9 +36,9 @@ Les GUID TSATTRID \_ Text \_ VERTICALWRITING et TSATTRID \_ Text \_ orientation 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                             |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                         |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                       |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                             |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                         |
 | En-tête<br/>                   | <dl> <dt>Textstor. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Textstor. idl</dt> </dl> |
 

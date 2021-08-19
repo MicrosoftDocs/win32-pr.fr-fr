@@ -24,11 +24,11 @@ spécifie l’orientation par rapport à la direction de l’orientation du flux
 
 
 
-| Nom | Valeur |
+| Name | Valeur |
 |----------------------------|-------------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                     |
 | Préfixe d’étendue <br/> | Page<br/>                                             |
-| Remarques <br/>          | Lié à l’élément PageMediaSize, option CustomPS<br/> |
+| Notes <br/>          | Lié à l’élément PageMediaSize, option CustomPS<br/> |
 
 
 

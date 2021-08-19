@@ -6,12 +6,12 @@ keywords:
 - IDL MIDL, attributs MIDL, asynchrone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00aca2276bf1fa5178f1dca3ae4803544066d983
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a14ad045be5c3f5980c99fac0e924181c31ae7859f801608c7bb53fe3d81a2b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106512307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807852"
 ---
 # <a name="asynchronous-attributes"></a>Attributs asynchrones
 
@@ -21,17 +21,17 @@ Vous pouvez utiliser les attributs suivants pour assurer la prise en charge des 
 
 
 
-| Attribut                         | Utilisation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attribut                         | Usage                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**async**](async.md)            | En cas d’application à un paramètre de fonction, définit un handle qui permet à l’appelant de passer un appel asynchrone et de retourner immédiatement sans attendre les résultats, puis de se resynchroniser ultérieurement avec la fonction appelée pour recevoir des données une fois l’appel terminé. L’attribut [**Async**](async.md) est également utilisé dans les fichiers ACF pour définir un handle asynchrone pour une procédure ou une interface entière. Pour les interfaces COM, cette interface est obsolète et ne peut pas être utilisée pour les nouvelles interfaces. |
+| [**Suppr**](async.md)            | En cas d’application à un paramètre de fonction, définit un handle qui permet à l’appelant de passer un appel asynchrone et de retourner immédiatement sans attendre les résultats, puis de se resynchroniser ultérieurement avec la fonction appelée pour recevoir des données une fois l’appel terminé. L’attribut [**Async**](async.md) est également utilisé dans les fichiers ACF pour définir un handle asynchrone pour une procédure ou une interface entière. Pour les interfaces COM, cette interface est obsolète et ne peut pas être utilisée pour les nouvelles interfaces. |
 | [**\_UUID asynchrone**](async-uuid.md) | Indique au compilateur MIDL de définir à la fois les versions synchrones et asynchrones d’une interface COM.                                                                                                                                                                                                                                                                                                                                                                                      |
 | [**environ**](maybe.md)            | Le client qui effectue cet appel de procédure distante n’attend aucune réponse indiquant la remise ou la fin de l’appel, et la remise n’est pas garantie. Cela diffère des opérations de **message** quand aucune réponse n’est attendue, mais que la remise est garantie.                                                                                                                                                                                                                    |
 | [**Message**](message.md)        | L’appel de procédure distante doit être traité comme un message asynchrone du client au serveur. Le client effectue l’appel et le retourne immédiatement, tandis que l’appel réel est géré par le transport de mise en file d’attente de messages ([**ncadg \_ MQ**](ncadg-mq.md)).                                                                                                                                                                                                                              |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

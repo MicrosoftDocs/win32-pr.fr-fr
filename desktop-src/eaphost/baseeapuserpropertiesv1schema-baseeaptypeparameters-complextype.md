@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 076e409a75202f0dd727ced0481dd3d66212eaa5
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 1425e25ac0d426903239ff39e2a36b6dd59bd9753ff95ad533cfd38cf9468bc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104116314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118086747"
 ---
 # <a name="baseeaptypeparameters-complex-type---user-properties"></a>Type complexe BaseEapTypeParameters-propriétés de l’utilisateur
 
@@ -31,7 +31,7 @@ Le type complexe **BaseEapTypeParameters** est un élément de base de l’élé
  />
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **BaseEapTypeParameters** est un élément abstrait. Un élément dérivé de **BaseEapTypeParameters** doit être utilisé dans les documents d’instance.
 
@@ -41,8 +41,8 @@ Le type complexe **BaseEapTypeParameters** est un élément de base de l’élé
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

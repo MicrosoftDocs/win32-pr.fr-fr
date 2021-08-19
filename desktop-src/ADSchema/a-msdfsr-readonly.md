@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54167c14bf58ac61d3e7f60227032da106d85687
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2697d8529bd02e3d47288f7aa385c9f643e386c711caafa05dd9403cc8741cc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118015439"
 ---
 # <a name="ms-dfsr-readonly-attribute"></a>MS-DFSR-ReadOnly (attribut)
 
@@ -42,7 +42,7 @@ Spécifie si le contenu est en lecture seule ou en lecture/écriture.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -55,7 +55,7 @@ Spécifie si le contenu est en lecture seule ou en lecture/écriture.
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
 | System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
+| Est de valeur unique       | True                                                             |
 | Est indexé             | Faux                                                            |
 | Dans le catalogue global      | Faux                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
@@ -76,7 +76,7 @@ Spécifie si le contenu est en lecture seule ou en lecture/écriture.
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
 | System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
+| Est de valeur unique       | True                                                             |
 | Est indexé             | Faux                                                            |
 | Dans le catalogue global      | Faux                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
@@ -97,7 +97,7 @@ Spécifie si le contenu est en lecture seule ou en lecture/écriture.
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
 | System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
+| Est de valeur unique       | True                                                             |
 | Est indexé             | Faux                                                            |
 | Dans le catalogue global      | Faux                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |

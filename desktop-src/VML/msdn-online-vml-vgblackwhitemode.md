@@ -31,7 +31,7 @@ Mode de rendu pour le noir et le blanc. Les valeurs possibles sont les suivantes
 -   **BlackTextAndLines**
 -   **HighContrast**
 -   **Noir**
--   **Blancs**
+-   **White**
 -   **Dédessiné**
 
  

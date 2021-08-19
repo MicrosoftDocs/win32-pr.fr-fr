@@ -4,12 +4,12 @@ ms.assetid: 859310ed-6000-44c8-92f7-974326ce0fc9
 title: Stockage des clés de session à l’aide d’une autorité de sauvegarde
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d59906874f384d4eed9e20d6a781b14e3feba313
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bbd8d8fd4bebeb4b5f3c3711f4e64b9c023f57404e8d9f93200e00967dfbed0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117977453"
 ---
 # <a name="storing-session-keys-using-a-backup-authority"></a>Stockage des clés de session à l’aide d’une autorité de sauvegarde
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: f8f21891ae0cc5fa8e64fafd4acb9e61334a7279
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba4c7aff5139f1230179299d80065f1b933a6cf2d01d4ca03c045ccbe142c3cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118441425"
 ---
 # <a name="iscanprofilesetproperty-method"></a>IScanProfile :: SetProperty, méthode
 
@@ -53,16 +53,16 @@ Nombre d’entrées dans les tableaux qui sont pointés par *PID* et *pvar*.
 *PID* \[ dans\]
 </dt> <dd>
 
-Type : **propid \** _
+Type : **propid \***
 
 Pointeur vers un tableau de numéros d’identification des propriétés à définir. Chaque valeur du tableau est une [constante de propriété WIA](-wia-wia-property-constants.md).
 
 </dd> <dt>
 
-_pvar * \[ dans\]
+*pvar* \[ dans\]
 </dt> <dd>
 
-Tapez : **[PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) \** _
+Type : **[PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant)\***
 
 Pointeur vers un tableau de valeurs à assigner aux propriétés.
 
@@ -70,11 +70,11 @@ Pointeur vers un tableau de valeurs à assigner aux propriétés.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque valeur du tableau que *PID* pointe vers est l’une des [constantes de propriété WIA](-wia-wia-property-constants.md). Vous pouvez étendre ce système d’identification. Consultez [définition des propriétés personnalisées](-wia-defining-custom-properties.md).
 
@@ -88,8 +88,8 @@ Si deux applications créent des objets de profil d’analyse à partir du même
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Scanprofile. h</dt> </dl>    |
 | MIDL<br/>                      | <dl> <dt>Scanprofiles. idl</dt> </dl> |
 

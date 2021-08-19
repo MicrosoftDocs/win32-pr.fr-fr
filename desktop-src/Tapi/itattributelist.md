@@ -32,7 +32,7 @@ L’interface **ITAttributeList** possède ces méthodes.
 | Méthode                                                          | Description                                             |
 |:----------------------------------------------------------------|:--------------------------------------------------------|
 | [**Complémentaires**](itattributelist-add.md)                              | Ajoute l’attribut à l’index spécifié.<br/>   |
-| [**Supprimer**](itattributelist-delete.md)                        | Supprime l’attribut à l’index spécifié.<br/> |
+| [**DELETE**](itattributelist-delete.md)                        | Supprime l’attribut à l’index spécifié.<br/> |
 | [**Obtient \_ AttributeList**](itattributelist-get-attributelist.md) | Obtient la liste des attributs.<br/>                 |
 | [**nombre d’extractions \_**](itattributelist-get-count.md)                 | Obtient le nombre d'attributs.<br/>               |
 | [**recevoir un \_ élément**](itattributelist-get-item.md)                   | Obtient l’attribut spécifié par l’index.<br/>   |

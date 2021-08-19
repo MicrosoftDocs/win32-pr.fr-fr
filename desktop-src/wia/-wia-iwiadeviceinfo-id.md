@@ -1,5 +1,5 @@
 ---
-description: Récupère l’ID du périphérique matériel WIA (Windows Image Acquisition). Lecture seule.
+description: récupère l’ID du périphérique matériel WIA (Windows Image Acquisition). Lecture seule.
 ms.assetid: b3719c04-42d0-44d2-834b-ac11989c56da
 title: Propriété DeviceInfo.Id
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 42505feaab673f8d48e71b96caac5c81b756e614
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95c124e623e0c832b7e2e8a737f56b97582ae2b7fcc7df842a154acf7be975eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118441317"
 ---
 # <a name="deviceinfoid-property"></a>Propriété DeviceInfo.Id
 
-Récupère l’ID du périphérique matériel WIA (Windows Image Acquisition). Lecture seule.
+récupère l’ID du périphérique matériel WIA (Windows Image Acquisition). Lecture seule.
 
 Cette propriété est en lecture seule.
 
@@ -45,8 +45,8 @@ Chaîne qui reçoit l’ID.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (version 4,90 ou ultérieure)</dt> </dl> |
 
 

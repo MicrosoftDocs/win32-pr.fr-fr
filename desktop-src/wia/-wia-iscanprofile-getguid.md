@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: e3c39815e1bc88830f64f632689028c4c527a710
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37d383d5975957c45b2aa5a0c90350f794e6f20deb9a7bfbe73c9f2d42b2bca8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118441577"
 ---
 # <a name="iscanprofilegetguid-method"></a>IScanProfile :: GetGUID, méthode
 
@@ -42,7 +42,7 @@ HRESULT GetGUID(
 *retVal* \[ à\]
 </dt> <dd>
 
-Type : **GUID \** _
+Type : **GUID \***
 
 Pointeur vers le GUID du profil.
 
@@ -50,11 +50,11 @@ Pointeur vers le GUID du profil.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le GUID d’un profil est généré automatiquement lors de la création du profil avec [**CreateProfile**](-wia-iscanprofilemgr-createprofile.md).
 
@@ -64,8 +64,8 @@ Le GUID d’un profil est généré automatiquement lors de la création du prof
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Scanprofile. h</dt> </dl>    |
 | MIDL<br/>                      | <dl> <dt>Scanprofiles. idl</dt> </dl> |
 
