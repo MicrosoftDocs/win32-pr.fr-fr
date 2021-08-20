@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Macro de TYPE NOTIFICATION
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab2ff7695d7ca36eeaf01115d47df496d52d68ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3e50146d6a6fc71cc78baccd97a7dffc9e4ed4e7091373dd52ae42b2fbc6b66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992739"
 ---
 # <a name="notification-type-macro"></a>Macro de TYPE NOTIFICATION
 
@@ -73,7 +73,7 @@ Pour SNMPv1, la valeur par défaut de l' **État** est **obligatoire** ou **facu
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le fournisseur SNMP mappe la macro de **type notification** à une définition de classe encapsulée ou référent.
 

@@ -1,19 +1,19 @@
 ---
-description: Les identificateurs globaux uniques (GUID) suivants sont utilisés par le journal Windows pour identifier les propriétés personnalisées sur les traits ou les attributs de dessin.
+description: les identificateurs globaux uniques (guid) suivants sont utilisés par Windows Journal pour identifier les propriétés personnalisées des traits ou des attributs de dessin.
 ms.assetid: a7488c26-b61f-47d8-a19b-d630a8c00875
 title: GUID de propriété personnalisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eb1d9069f2c655f658752a6ae3891910ff68103
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d9bb95a6858a2d19313fcb9c10d8fc5631d8c644bcbc773d64c5cc90badad3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118045714"
 ---
 # <a name="custom-property-guids"></a>GUID de propriété personnalisée
 
-Les identificateurs globaux uniques (GUID) suivants sont utilisés par le journal Windows pour identifier les propriétés personnalisées sur les traits ou les attributs de dessin.
+les identificateurs globaux uniques (guid) suivants sont utilisés par Windows Journal pour identifier les propriétés personnalisées des traits ou des attributs de dessin.
 
 ## <a name="guid_stroke_timestamp"></a>\_horodateur du trait GUID \_
 

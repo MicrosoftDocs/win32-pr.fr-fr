@@ -30,7 +30,7 @@ Indique si le gestionnaire de compte de sécurité appliquera des tailles de don
 | Valeur                          | Longueur                         |
 |--------------------------------|--------------------------------|
 | Mot de passe<br/>            | 0 à 14 caractères<br/>  |
-| Account Name<br/>        | de 0 à 20 caractères<br/>  |
+| Nom du compte<br/>        | de 0 à 20 caractères<br/>  |
 | Nom de domaine<br/>         | de 0 à 15 caractères<br/>  |
 | Nom d’ordinateur<br/>       | de 0 à 15 caractères<br/>  |
 | Commentaires<br/>            | 0 à 48 caractères<br/>  |
@@ -74,10 +74,10 @@ Indique si le gestionnaire de compte de sécurité appliquera des tailles de don
 |------------------------|-------------------------------------------------------|
 | ID de lien                | \-                                                    |
 | MAPI-Id                | \-                                                    |
-| System-Only            | False                                                 |
+| System-Only            | Faux                                                 |
 | Est de valeur unique       | True                                                  |
-| Est indexé             | False                                                 |
-| Dans le catalogue global      | False                                                 |
+| Est indexé             | Faux                                                 |
+| Dans le catalogue global      | Faux                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                          |
 | Range-Lower            | \-                                                    |
 | Range-Upper            | \-                                                    |
@@ -95,10 +95,10 @@ Indique si le gestionnaire de compte de sécurité appliquera des tailles de don
 |------------------------|-------------------------------------------------------|
 | ID de lien                | \-                                                    |
 | MAPI-Id                | \-                                                    |
-| System-Only            | False                                                 |
+| System-Only            | Faux                                                 |
 | Est de valeur unique       | True                                                  |
-| Est indexé             | False                                                 |
-| Dans le catalogue global      | False                                                 |
+| Est indexé             | Faux                                                 |
+| Dans le catalogue global      | Faux                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                          |
 | Range-Lower            | \-                                                    |
 | Range-Upper            | \-                                                    |
@@ -116,10 +116,10 @@ Indique si le gestionnaire de compte de sécurité appliquera des tailles de don
 |------------------------|-------------------------------------------------------|
 | ID de lien                | \-                                                    |
 | MAPI-Id                | \-                                                    |
-| System-Only            | False                                                 |
+| System-Only            | Faux                                                 |
 | Est de valeur unique       | True                                                  |
-| Est indexé             | False                                                 |
-| Dans le catalogue global      | False                                                 |
+| Est indexé             | Faux                                                 |
+| Dans le catalogue global      | Faux                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                          |
 | Range-Lower            | \-                                                    |
 | Range-Upper            | \-                                                    |
@@ -137,10 +137,10 @@ Indique si le gestionnaire de compte de sécurité appliquera des tailles de don
 |------------------------|-------------------------------------------------------|
 | ID de lien                | \-                                                    |
 | MAPI-Id                | \-                                                    |
-| System-Only            | False                                                 |
+| System-Only            | Faux                                                 |
 | Est de valeur unique       | True                                                  |
-| Est indexé             | False                                                 |
-| Dans le catalogue global      | False                                                 |
+| Est indexé             | Faux                                                 |
+| Dans le catalogue global      | Faux                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                          |
 | Range-Lower            | \-                                                    |
 | Range-Upper            | \-                                                    |
@@ -158,10 +158,10 @@ Indique si le gestionnaire de compte de sécurité appliquera des tailles de don
 |------------------------|-------------------------------------------------------|
 | ID de lien                | \-                                                    |
 | MAPI-Id                | \-                                                    |
-| System-Only            | False                                                 |
+| System-Only            | Faux                                                 |
 | Est de valeur unique       | True                                                  |
-| Est indexé             | False                                                 |
-| Dans le catalogue global      | False                                                 |
+| Est indexé             | Faux                                                 |
+| Dans le catalogue global      | Faux                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                          |
 | Range-Lower            | \-                                                    |
 | Range-Upper            | \-                                                    |
@@ -179,10 +179,10 @@ Indique si le gestionnaire de compte de sécurité appliquera des tailles de don
 |------------------------|-------------------------------------------------------|
 | ID de lien                | \-                                                    |
 | MAPI-Id                | \-                                                    |
-| System-Only            | False                                                 |
-| Est de valeur unique       | True                                                  |
-| Est indexé             | False                                                 |
-| Dans le catalogue global      | False                                                 |
+| System-Only            | Faux                                                 |
+| Est de valeur unique       | Vrai                                                  |
+| Est indexé             | Faux                                                 |
+| Dans le catalogue global      | Faux                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                          |
 | Range-Lower            | \-                                                    |
 | Range-Upper            | \-                                                    |

@@ -10,12 +10,12 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.custom: contperf-fy21q3
-ms.openlocfilehash: c0876cda302d4c6215b640c210e880795273cd6c
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 9f518102b7b3305103ed85231a791c542418a04c
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104973894"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812895"
 ---
 # <a name="high-level-shader-language-hlsl"></a>HLSL (High-Level Shader Language)
 
@@ -23,7 +23,7 @@ Le langage HLSL est le langage de nuanceur de haut niveau de type C que vous uti
 
 Par exemple, vous pouvez utiliser le langage HLSL pour écrire un [nuanceur de sommets](../direct3d11/vertex-shader-stage.md)ou un [nuanceur de pixels](../direct3d11/pixel-shader-stage.md), et utiliser ces nuanceurs dans l’implémentation du convertisseur dans votre application [Direct3D](../direct3d12/directx-12-programming-guide.md) .
 
-Vous pouvez aussi utiliser le langage HLSL pour écrire un nuanceur de calcul, par exemple pour implémenter une simulation physique. Toutefois, si, par exemple, vous allez écrire votre propre opérateur de convolution (pour le traitement d’image) en langage HLSL dans un nuanceur de calcul, vous obtiendrez de meilleures performances dans ce scénario si vous utilisez [Direct machine learning (DirectML)](../direct3d12/dml.md) .
+Vous pouvez aussi utiliser le langage HLSL pour écrire un nuanceur de calcul, par exemple pour implémenter une simulation physique. toutefois, si, par exemple, vous allez écrire votre propre opérateur de convolution (pour le traitement d’image) en langage HLSL dans un nuanceur de calcul, vous obtiendrez de meilleures performances dans ce scénario si vous utilisez [Direct Machine Learning (DirectML)](/windows/ai/directml/dml) .
 
 Le langage HLSL a été créé (à partir de DirectX 9) pour configurer le [pipeline](../direct3d11/overviews-direct3d-11-graphics-pipeline.md)3D programmable. Vous pouvez programmer l’intégralité du pipeline avec des instructions HLSL.
 

@@ -4,16 +4,16 @@ ms.assetid: 92013015-b0f5-4b92-937b-c2637f65810c
 title: Objet volume
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e47092a237e7b0e9441b08c410d95d0836dbdb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87887dae233a47ef168546bb4d0bab93389ab72e0e0617b64ea0c80fbfab0e83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125389"
 ---
 # <a name="volume-object"></a>Objet volume
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Un objet volume modélise une unité de stockage logique créée par un fournisseur de logiciels et présentée au système de fichiers en tant que disque. Chaque volume comprend au moins un plex de volume, qui est à son tour composé d’étendues provenant d’un ou de plusieurs disques.
 
@@ -29,7 +29,7 @@ VDS prend en charge cinq types de volumes : simple, fractionné, agrégé par b
 
 ### <a name="volume-creation"></a>Création du volume
 
-Les fournisseurs de logiciels de base et dynamiques prennent en charge la création de volumes partiellement dirigés. un appelant spécifie uniquement les attributs qui présentent un intérêt particulier et permet au fournisseur de choisir le reste. VDS monte automatiquement un volume nouvellement créé, sauf sur les plateformes Windows Server 2003, Enterprise Edition et Windows Server 2003, Datacenter Edition.
+Les fournisseurs de logiciels de base et dynamiques prennent en charge la création de volumes partiellement dirigés. un appelant spécifie uniquement les attributs qui présentent un intérêt particulier et permet au fournisseur de choisir le reste. VDS monte automatiquement un volume nouvellement créé, sauf sur les plateformes Windows server 2003, Êdition Entreprise et Windows server 2003, Datacenter Edition.
 
 ### <a name="working-with-volumes"></a>Utilisation des volumes
 
@@ -51,7 +51,7 @@ Le tableau suivant répertorie les interfaces, énumérations et structures asso
 
  
 
-**\* Windows Server 2003 :** ces interfaces ne sont pas prises en charge jusqu’à Windows Vista.
+**\* Windows Server 2003 :** ces interfaces ne sont pas prises en charge tant que Windows Vista.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

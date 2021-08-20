@@ -11,12 +11,12 @@ keywords:
 - audio auxiliaire, Erreurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfcc803ae741635b3b29fb9909f530fe041e477a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1dbb332ed0be06a829c169bdf333f3f4ce73a6e9dff81b22949174216dd4017d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118141082"
 ---
 # <a name="handling-errors-with-audio-functions"></a>Gestion des erreurs avec les fonctions audio
 
@@ -33,10 +33,10 @@ Vous pouvez utiliser les fonctions suivantes pour récupérer les descriptions t
 
 
 
- 
+ 
 
 Les seules fonctions audio qui ne retournent pas de valeurs d’erreur sont [**auxGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-auxgetnumdevs), [**waveInGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetnumdevs)et [**waveOutGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetnumdevs). Ces fonctions retournent zéro si aucun appareil n’est présent dans un système ou si elles rencontrent des erreurs.
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: e84c52ca-a1c4-4c81-9c24-31ea435054db
 title: Sources compressées et non compressées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43dc706a73d52f1dac35c917bd6c178a543ab300
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca7d35a5723261ab1c62866d185a8402a9607600cad906c2fb66ddc5dc85ac08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118144450"
 ---
 # <a name="compressed-and-uncompressed-sources"></a>Sources compressées et non compressées
 
@@ -20,7 +20,7 @@ Les auteurs de package peuvent réduire la taille des packages d’installation 
 <span id="_____Compressed_Sources"></span><span id="_____compressed_sources"></span><span id="_____COMPRESSED_SOURCES"></span> Sources compressées
 </dt> <dd>
 
-Une source composée uniquement de fichiers compressés doit inclure le bit d’indicateur compressé dans la propriété [**Résumé du nombre de mots**](word-count-summary.md) . Les fichiers sources compressés doivent être stockés dans des fichiers CAB situés dans un flux de données à l’intérieur du fichier. msi ou dans un fichier CAB séparé situé à la racine de l’arborescence source. Toutes les armoires de la source doivent figurer dans la [table des médias](media-table.md).
+Une source composée uniquement de fichiers compressés doit inclure le bit d’indicateur compressé dans la propriété [**Résumé du nombre de mots**](word-count-summary.md) . Les fichiers sources compressés doivent être stockés dans des fichiers CAB situés dans un flux de données à l’intérieur du fichier .msi ou dans un fichier CAB séparé situé à la racine de l’arborescence source. Toutes les armoires de la source doivent figurer dans la [table des médias](media-table.md).
 
 </dd> <dt>
 
@@ -38,7 +38,7 @@ Pour mélanger des fichiers sources compressés et non compressés dans le même
 
 Par exemple, si l’indicateur de bit compressé est défini pour la propriété [**Résumé du nombre de mots**](word-count-summary.md) , tous les fichiers sont traités comme étant compressés dans un fichier CAB. Tous les fichiers non compressés dans la source doivent inclure msidbFileAttributesNoncompressed dans la colonne attributs de la [table file](file-table.md). Les fichiers non compressés doivent se trouver à la racine de l’arborescence source.
 
-Si l’indicateur non compressé est défini pour la propriété [**Résumé du nombre de mots**](word-count-summary.md) , les fichiers sont considérés comme non compressés par défaut et tous les fichiers compressés doivent inclure des msidbFileAttributesCompressed dans la colonne attributs de la table de fichiers. Tous les fichiers compressés doivent être stockés dans des fichiers CAB situés dans un flux de données à l’intérieur du fichier. msi ou dans un fichier CAB séparé situé à la racine de l’arborescence source.
+Si l’indicateur non compressé est défini pour la propriété [**Résumé du nombre de mots**](word-count-summary.md) , les fichiers sont considérés comme non compressés par défaut et tous les fichiers compressés doivent inclure des msidbFileAttributesCompressed dans la colonne attributs de la table de fichiers. Tous les fichiers compressés doivent être stockés dans des fichiers CAB situés dans un flux de données à l’intérieur du fichier .msi ou dans un fichier CAB séparé situé à la racine de l’arborescence source.
 
 Pour plus d’informations, consultez [utilisation d’armoires et de sources compressées](using-cabinets-and-compressed-sources.md).
 

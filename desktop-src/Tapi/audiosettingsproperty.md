@@ -4,16 +4,16 @@ ms.assetid: b91c8213-f102-4ebb-ad8a-e43709b3daad
 title: Énumération AudioSettingsProperty (Ipmsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 759e3ca9d9559c35c64c117b9b84b1cee4a1fad1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b15cfb5a0211f02ac333ba75e47b5e4cbd5c44865b4a18c2f19ea3a8769dde3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106536018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118871529"
 ---
 # <a name="audiosettingsproperty-enumeration"></a>Énumération AudioSettingsProperty
 
-\[ Cette énumération n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette énumération n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 L’énumération **AudioSettingsProperty** est utilisée par les méthodes [**ITAudioSettings :: GetRange**](itaudiosettings-getrange.md), [**ITAudioSettings :: obten**](itaudiosettings-get.md)et [**ITAudioSettings :: Set**](itaudiosettings-set.md) pour indiquer que la propriété de paramètre audio est traitée.
 
@@ -86,7 +86,7 @@ Propriété mono.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

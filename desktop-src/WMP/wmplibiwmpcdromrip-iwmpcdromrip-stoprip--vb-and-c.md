@@ -3,9 +3,9 @@ title: Méthode IWMPCdromRip stopRip
 description: La méthode stopRip arrête le processus d’extraction de CD.
 ms.assetid: c2565d0d-1203-4bd3-9d43-58e971e6ec88
 keywords:
-- méthode stopRip lecteur Windows Media
-- méthode stopRip lecteur Windows Media, interface IWMPCdromRip
-- Interface IWMPCdromRip lecteur Windows Media, méthode stopRip
+- Lecteur Windows Media de la méthode stopRip
+- méthode stopRip Lecteur Windows Media, interface IWMPCdromRip
+- Lecteur Windows Media de l’interface IWMPCdromRip, méthode stopRip
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff8c45eacf497faac4f89fc37334a17d881db085
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de46c684c102442fca8e9e8b70de86aae524f92a754818e1b83d05068c1a01f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116082"
 ---
 # <a name="iwmpcdromripstoprip-method"></a>IWMPCdromRip :: stopRip, méthode
 

@@ -6,12 +6,12 @@ keywords:
 - IEnumSTATPROPSTG Strctd STG, implémentation de fichier composé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bbffce14016efdb4e2a77d60096b6776e6c2189
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6a8c00cd8111e7669030af7d201c567397c951b31d4981784704da903821368b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961818"
 ---
 # <a name="ienumstatpropstg-compound-file-implementation"></a>Implémentation de fichiers IEnumSTATPROPSTG-Compound
 
@@ -23,7 +23,7 @@ Le constructeur de l’implémentation COM de [**IEnumSTATPROPSTG**](/windows/wi
 
 Appelez l’implémentation de fichier composé de [**IEnumSTATPROPSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropstg) pour énumérer les structures [**STATPROPSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropstg) qui contiennent des données sur les propriétés dans le jeu de propriétés actuel. Quand vous utilisez l’implémentation de fichier composé des interfaces de stockage des propriétés, appelez [**IPropertyStorage :: enum**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-enum) pour retourner un pointeur vers **IEnumSTATPROPSTG** pour gérer l’objet de stockage de propriétés et les éléments qu’il contient.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 <dl> <dt>
 
@@ -65,6 +65,6 @@ Utilise le constructeur pour le [**IEnumSTATPROPSTG**](/windows/win32/api/propid
 [**IPropertyStorage :: enum**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-enum)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

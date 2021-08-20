@@ -4,12 +4,12 @@ ms.assetid: d88a8c32-c71f-4ddb-af8c-e2fb54c2322c
 title: Encodeur AAC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec9730ffc17d7ac3d5e16d86ef5aa20a46b329cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fb6867ad42645ffc2bbf2b853e215d3794053157a776e02eddf015b320e3215
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943369"
 ---
 # <a name="aac-encoder"></a>Encodeur AAC
 
@@ -75,7 +75,7 @@ Définissez les attributs suivants sur le type de média d’entrée.
 <td>Doit être 1 (mono) ou 2 (stéréo), ou 6 (5,1).
 <blockquote>
 [!Note]<br />
-La prise en charge de 6 canaux audio a été introduite avec Windows 10 et n’est pas disponible pour les versions antérieures de Windows.
+la prise en charge de 6 canaux audio a été introduite avec Windows 10 et n’est pas disponible pour les versions antérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -152,12 +152,12 @@ La valeur par défaut pour mono et stéréo est 12000 (96 Kbits/s).<br/></td>
 <tr class="odd">
 <td><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a></td>
 <td>Type de charge utile AAC.</td>
-<td>Optionnel. Si cette valeur est définie, la valeur doit être égale à zéro, ce qui indique que le flux contient uniquement des éléments raw_data_block.<br/> Optionnel. Si l’attribut n’est pas défini, la valeur par défaut est zéro, ce qui indique que le flux contient uniquement des éléments de raw_data_block (AAC brut). <br/> Dans Windows 7, si cet attribut est défini, la valeur doit être égale à zéro.<br/> À compter de Windows 8, la valeur peut être 0 (AAC brut) ou 1 (ADTS AAC). <br/></td>
+<td>Facultatif. Si cette valeur est définie, la valeur doit être égale à zéro, ce qui indique que le flux contient uniquement des éléments raw_data_block.<br/> Facultatif. Si l’attribut n’est pas défini, la valeur par défaut est zéro, ce qui indique que le flux contient uniquement des éléments de raw_data_block (AAC brut). <br/> dans Windows 7, si cet attribut est défini, la valeur doit être égale à zéro.<br/> à partir de Windows 8, la valeur peut être 0 (aac brut) ou 1 (ADTS aac). <br/></td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a></td>
 <td>Le niveau et le profil audio AAC.</td>
-<td>Optionnel. Les valeurs suivantes sont admises :
+<td>Facultatif. Les valeurs suivantes sont admises :
 <ul>
 <li>0x29 (par défaut)</li>
 <li>0x2A</li>
@@ -247,7 +247,7 @@ Type de média de sortie :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans l’implémentation actuelle, chaque exemple d’entrée doit avoir une durée et une durée valides. Pour définir l’heure de l’exemple, appelez [**IMFSample :: SetSampleTime**](/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-setsampletime). Pour définir la durée de l’exemple, appelez [**IMFSample :: SetSampleDuration**](/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-setsampleduration).
 
@@ -276,8 +276,8 @@ où *nAudioSamplesPerChannel* est le nombre d’échantillons audio PCM par cana
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Mfaacenc.dll</dt> </dl> |
 
 

@@ -9,12 +9,12 @@ keywords:
 - WAVEHDR, structure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7e5580ff64425eae1bc6650268b065e60b90f43
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 17c84e75eccaf34ef16ccadefb4dae42931854a0c6c4278003fb5c01b0c551f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139164"
 ---
 # <a name="managing-data-blocks-by-polling"></a>Gestion des blocs de données par interrogation
 
@@ -22,6 +22,6 @@ Outre l’utilisation d’une fonction de rappel, vous pouvez interroger le memb
 
 Vous pouvez utiliser l' \_ indicateur WHDR Done pour tester le membre **dwFlags** . Dès que l’indicateur WHDR \_ done est défini dans le membre **dwFlags** de la structure **WAVEHDR** , le pilote est terminé avec le bloc de données.
 
- 
+ 
 
- 
+ 

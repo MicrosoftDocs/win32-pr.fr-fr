@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 10840ad60c858f69164b19f2460a0039cd332700
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf90c32af8371d9f2dd61369e21dfeb0726c7fa044758a3d8fb9beee7fd5743e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118000841"
 ---
 # <a name="cbasepinsetreconnectwhenactive-method"></a>Méthode CBasePin. SetReconnectWhenActive
 
@@ -53,17 +53,17 @@ Valeur booléenne qui spécifie si le code confidentiel peut se reconnecter dyna
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Par défaut, vous devez arrêter un filtre avant de reconnecter l’un de ses pin. Si le code pin peut se reconnecter alors que le filtre est actif, appelez cette méthode avec la valeur **true**. Pour plus d’informations, consultez [génération de graphiques dynamiques](dynamic-graph-building.md).
+Par défaut, vous devez arrêter un filtre avant de reconnecter l’un de ses pin. Si le code pin peut se reconnecter alors que le filtre est actif, appelez cette méthode avec la valeur **true**. pour plus d’informations, consultez [génération de Graph dynamique](dynamic-graph-building.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

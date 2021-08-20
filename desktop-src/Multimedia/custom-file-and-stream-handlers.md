@@ -13,12 +13,12 @@ keywords:
 - VFW (vidéo pour Windows), gestionnaires de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f991ac3197eb6d2f23fcd20d0d14e5f7c65e48de
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a332fa3c964e94b347873e0210fd34345b629748691e4b5b758b10d5f80adf48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785449"
 ---
 # <a name="custom-file-and-stream-handlers"></a>Gestionnaires de fichiers et de flux personnalisés
 
@@ -30,9 +30,9 @@ Vous pouvez écrire des gestionnaires pour permettre à votre application d’é
 -   [Utilisation de gestionnaires de fichiers et de flux personnalisés](using-custom-file-and-stream-handlers.md)
 -   [Informations de référence sur les fichiers et les gestionnaires de flux personnalisés](custom-file-and-stream-handler-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

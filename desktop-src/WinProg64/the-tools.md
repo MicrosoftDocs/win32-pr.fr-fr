@@ -3,16 +3,16 @@ title: Les outils
 description: Cette rubrique décrit les outils que vous pouvez utiliser pour rendre votre application 64 bits prête. Windows 10 est disponible pour les processeurs x64 et ARM64.
 ms.assetid: 457b7cc1-8517-4a36-9a0c-cf191ff3b374
 keywords:
-- Guide de programmation Windows 64 bits, programmation Windows 64 bits, outils
-- outils de programmation Windows de 64 bits
+- guide de programmation Windows 64 bits 64-bits Windows programmation, outils
+- outils de programmation Windows bits 64
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d87fb315200ae32eb1e1441ed330be49aa02d669
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f28084c445d664e130a9bb6dc5c087f8421cdaa5746845308258662739ee9084
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569889"
 ---
 # <a name="the-tools"></a>Les outils
 
@@ -20,11 +20,11 @@ Cette rubrique décrit les outils que vous pouvez utiliser pour rendre votre app
 
 ## <a name="include-files"></a>Fichiers include
 
-Les éléments d’API sont pratiquement identiques entre les fenêtres 32 et 64 bits. Les fichiers d’en-tête Windows ont été modifiés afin de pouvoir être utilisés pour le code 32 et 64 bits. Les nouveaux types et macros 64 bits sont définis dans un nouveau fichier d’en-tête, Basetsd. h, qui se trouve dans le jeu de fichiers d’en-tête inclus dans Windows. h. Basetsd. h comprend les nouvelles définitions de type de données pour faciliter la création d’une taille de mot de code source indépendante.
+Les éléments d’API sont pratiquement identiques entre les Windows 32 et 64 bits. les fichiers d’en-tête Windows ont été modifiés afin de pouvoir être utilisés pour le code 32 et 64 bits. les nouveaux types et macros 64 bits sont définis dans un nouveau fichier d’en-tête, Basetsd. h, qui se trouve dans le jeu de fichiers d’en-tête inclus par Windows. h. Basetsd. h comprend les nouvelles définitions de type de données pour faciliter la création d’une taille de mot de code source indépendante.
 
 ## <a name="new-data-types"></a>Nouveaux types de données
 
-Les fichiers d’en-tête Windows contiennent de nouveaux types de données. Ces types sont principalement destinés à la compatibilité de type avec les types de données 32 bits. Les nouveaux types fournissent exactement le même type que les types existants, tout en assurant la prise en charge des fenêtres 64 bits. Pour plus d’informations, consultez [les nouveaux types de données](the-new-data-types.md) ou le fichier d’en-tête Basetsd. h.
+les fichiers d’en-tête Windows contiennent de nouveaux types de données. Ces types sont principalement destinés à la compatibilité de type avec les types de données 32 bits. Les nouveaux types fournissent exactement le même type que les types existants, tout en assurant la prise en charge de l’Windows 64 bits. Pour plus d’informations, consultez [les nouveaux types de données](the-new-data-types.md) ou le fichier d’en-tête Basetsd. h.
 
 ## <a name="predefined-macros"></a>Macros prédéfinies
 
@@ -114,7 +114,7 @@ Il existe une option d’avertissement pour faciliter le portage vers LLP64. Le 
 
 ## <a name="64-bit-linker-and-libraries"></a>Bibliothèques et éditeur de liens 64 bits
 
-Pour générer des applications, utilisez l’éditeur de liens et les bibliothèques fournis par le SDK Windows. La plupart des bibliothèques 32 bits ont une version 64 bits correspondante, mais certaines bibliothèques héritées sont disponibles uniquement dans les versions 32 bits. Le code qui appelle ces bibliothèques n’est pas lié lorsque l’application est générée pour Windows 64 bits.
+pour générer des applications, utilisez l’éditeur de liens et les bibliothèques fournis par le SDK Windows. La plupart des bibliothèques 32 bits ont une version 64 bits correspondante, mais certaines bibliothèques héritées sont disponibles uniquement dans les versions 32 bits. Le code qui appelle ces bibliothèques n’est pas lié lorsque l’application est générée pour une Windows de 64 bits.
 
  
 

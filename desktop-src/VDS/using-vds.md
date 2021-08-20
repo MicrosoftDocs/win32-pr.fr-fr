@@ -4,18 +4,18 @@ ms.assetid: aa4be499-625d-4dbd-828c-4a55ff2dba2c
 title: Utilisation de VDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c648c5cc2507c4819f98367c367099248a0e723f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6406e938a8fb49314511047bb038ec94a5af9151f5c077ad1fb14984e74474f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125865"
 ---
 # <a name="using-vds"></a>Utilisation de VDS
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
-VDS fournit une interface pour les scripts et le développement d’interface graphique utilisateur qui permet de simplifier les activités effectuées par un administrateur Windows Server qui gère un ensemble hétérogène de systèmes de stockage, en migrant les données entre différentes configurations matérielles dans le temps. Si vous n’êtes pas familiarisé avec les objets utilisés dans le développement VDS, consultez le [modèle d’objet VDS](vds-object-model.md).
+VDS fournit une interface pour les scripts et le développement d’interface graphique utilisateur qui permet de simplifier les activités effectuées par un administrateur de serveur Windows qui gère un ensemble hétérogène de systèmes de stockage, en migrant des données entre différentes configurations matérielles dans le temps. Si vous n’êtes pas familiarisé avec les objets utilisés dans le développement VDS, consultez le [modèle d’objet VDS](vds-object-model.md).
 
 Quelques points avant de commencer :
 
@@ -28,9 +28,9 @@ Utilisez n’importe quel langage de programmation adapté au développement ave
 
 ## <a name="security"></a>Sécurité
 
-Le pare-feu Windows est activé par défaut. Cela peut entraîner l’échec de l’authentification pour les interfaces de rappel, telles que [**IVdsAdviseSink**](/windows/desktop/api/Vds/nn-vds-ivdsadvisesink), qui peuvent être exécutées à distance. Si le pare-feu Windows est activé sur le client ou sur le serveur, vous devez ajouter gestion des volumes à distance sous l’onglet **exceptions** du pare-feu Windows.
+Windows Le pare-feu est activé par défaut. Cela peut entraîner l’échec de l’authentification pour les interfaces de rappel, telles que [**IVdsAdviseSink**](/windows/desktop/api/Vds/nn-vds-ivdsadvisesink), qui peuvent être exécutées à distance. si Windows pare-feu est activé sur le client ou sur le serveur, vous devez ajouter la gestion des volumes à distance à l’onglet **Exceptions** dans Windows pare-feu.
 
-**Windows Server 2003 :** Dans Windows Server 2003 avec Service Pack 2 (SP2) et Windows Server 2003 avec Service Pack 1 (SP1), si le pare-feu Windows est activé sur le client ou sur le serveur et si le serveur est configuré pour utiliser l’authentification NTLM, vous devez ajouter les paramètres suivants à l’onglet **exceptions** du pare-feu Windows pour l’ordinateur approprié.
+**Windows Server 2003 :** dans Windows server 2003 avec service pack 2 (SP2) et Windows Server 2003 avec service pack 1 (SP1), si Windows pare-feu est activé sur le client ou sur le serveur et si le serveur est configuré pour utiliser l’authentification NTLM, vous devez ajouter les paramètres suivants à l’onglet **Exceptions** dans Windows pare-feu pour l’ordinateur approprié.
 
 | Computer                 | Paramètres d’exceptions                                                                 |
 |--------------------------|-------------------------------------------------------------------------------------|
@@ -41,11 +41,11 @@ Le pare-feu Windows est activé par défaut. Cela peut entraîner l’échec de 
 
  
 
-Notez que le pare-feu Windows n’est pas activé par défaut tant que Windows Server 2003 avec SP1 n’est pas installé.
+notez que Windows pare-feu n’est pas activé par défaut tant que Windows Server 2003 avec SP1 n’est pas activé.
 
 Une application qui utilise VDS doit s’exécuter sous le compte d’opérateur de sauvegarde ou de groupe administrateurs. Sans le privilège approprié, une application peut créer un objet de chargeur de service, mais l’objet ne chargera pas VDS. Au lieu de cela, il retourne une erreur indiquant que l’accès à VDS est refusé.
 
-Si le réseau utilise l’authentification NTLM, l’ordinateur client doit autoriser l’accès anonyme. Dans ce cas, si l’ordinateur client exécute un système d’exploitation Windows Server, l’accès anonyme est activé par défaut. S’il exécute un système d’exploitation client Windows, l’accès anonyme doit être activé à l’aide de Dcomcnfg.exe.
+Si le réseau utilise l’authentification NTLM, l’ordinateur client doit autoriser l’accès anonyme. dans ce cas, si l’ordinateur client exécute un système d’exploitation Windows Server, l’accès anonyme est activé par défaut. s’il exécute un système d’exploitation Client Windows, l’accès anonyme doit être activé à l’aide de Dcomcnfg.exe.
 
 ## <a name="configuration-and-query-operations"></a>Opérations de configuration et de requête
 

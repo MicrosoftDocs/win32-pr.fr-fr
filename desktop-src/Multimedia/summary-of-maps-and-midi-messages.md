@@ -1,6 +1,6 @@
 ---
-title: Résumé des cartes et des messages MIDI
-description: Résumé des cartes et des messages MIDI
+title: résumé des Messages Cartes et MIDI
+description: résumé des Messages Cartes et MIDI
 ms.assetid: cd0ec7b0-2ba1-4e75-b85c-f5b95ac9dfeb
 keywords:
 - L’interface MIDI (Musical Instrument Digital Interface), le Mappeur MIDI
@@ -13,14 +13,14 @@ keywords:
 - cartes clés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddd962f848343ea493204d494943a99eedcc56a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a89c23d6326e19cb5680906155d5ee2e8dbcc32735fabd8625658410ef4ddfa0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781849"
 ---
-# <a name="summary-of-maps-and-midi-messages"></a>Résumé des cartes et des messages MIDI
+# <a name="summary-of-maps-and-midi-messages"></a>résumé des Messages Cartes et MIDI
 
 Voici les octets d’État pour les messages MIDI et les types de cartes qui affectent chaque message.
 
@@ -39,15 +39,15 @@ Voici les octets d’État pour les messages MIDI et les types de cartes qui aff
 
 
 
- 
+ 
 
 -   Les quatre bits de poids fort représentent la valeur d’État. Les quatre bits de poids faible représentent les informations de canal.
 -   Les mappages de correctifs affectent uniquement le contrôleur 7 (volume principal).
 -   Les messages système sont envoyés à tous les appareils répertoriés dans une carte de canal.
 
- 
+ 
 
- 
+ 
 
 
 

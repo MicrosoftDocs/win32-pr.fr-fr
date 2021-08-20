@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'CObjectPathParser :: Free, méthodes (ObjPath. h)'
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 86494e569f68d8eff8b691c648ec5e221b28b39d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e7e5e366d96d4c8b5c6d82f177a480114c5d6356759c8db46389c809aea7137
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118819805"
 ---
 # <a name="cobjectpathparserfree-methods"></a>CObjectPathParser :: Free, méthodes
 
@@ -30,14 +30,14 @@ Méthode surchargée qui libère la mémoire qui contient le chemin d’accès.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                                                                                                      |
-| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008<br/>                                                                                                                                |
 | En-tête<br/>                   | <dl> <dt>ObjPath. h (inclure ObjPath. h)</dt> </dl>                                                      |
 | Bibliothèque<br/>                  | <dl> <dt>FrameDyn. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll ; </dt> <dt>FrameDyn.dll</dt> </dl> |

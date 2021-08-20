@@ -1,27 +1,27 @@
 ---
 title: Exemples d’applications (infrastructure d’homologue)
-description: Les exemples d’applications suivants sont inclus dans le kit de développement logiciel (SDK) homologue Windows XP.
+description: les exemples d’applications suivants sont inclus dans le kit de développement logiciel (SDK) homologue Windows XP.
 ms.assetid: 26c45360-f232-4e29-90b5-44ccacb5a9c3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c15e2bf3162151a4cbf18547fdfe482c7ea77fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3999012d8c5abd04e2e3e5b1c90aade37dc0ce514893a3bf9fb04b0141509eab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103952028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119287809"
 ---
 # <a name="sample-applications-peer-infrastructure"></a>Exemples d’applications (infrastructure d’homologue)
 
-Les exemples d’applications suivants sont inclus dans le kit de développement logiciel (SDK) homologue Windows XP. Les exemples peuvent vous aider quand vous développez vos propres applications homologues à l’aide de l’infrastructure homologue.
+les exemples d’applications suivants sont inclus dans le kit de développement logiciel (SDK) homologue Windows XP. Les exemples peuvent vous aider quand vous développez vos propres applications homologues à l’aide de l’infrastructure homologue.
 
--   [Conversation Graph](#graph-chat)
+-   [Graph Mode](#graph-chat)
 -   [Conversation de groupe](#group-chat)
 -   [Explorateur de groupes](#group-browser)
 
-## <a name="graph-chat"></a>Conversation Graph
+## <a name="graph-chat"></a>Graph Mode
 
-L’exemple d’application Graph chat est une simple application de conversation qui montre comment utiliser les API Graph Peer et le fournisseur d’espace de noms PNRP (Peer Name Resolution Protocol) avec l’API Winsock 2. L’application illustre les tâches suivantes :
+l’exemple d’application Graph chat est une application de conversation simple qui montre comment utiliser les api Graph peer et le fournisseur d’espace de noms PNRP (peer Name resolution Protocol) avec l’API Winsock 2. L’application illustre les tâches suivantes :
 
 -   Création d’un graphique
 -   Connexion à un graphique existant

@@ -4,17 +4,17 @@ ms.assetid: bf44bd7e-cfeb-456e-a2e9-3068859d0055
 title: PlayPrevChapter
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14b4625ea7f7ad11a682403d7a4c34f1135b0b5e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3e99d6565a2c22ecf56302e9ce8c75f830419e3e961e18fda98b390b51ddfb43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564019"
 ---
 # <a name="playprevchapter"></a>PlayPrevChapter
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 

@@ -4,17 +4,17 @@ ms.assetid: 8dbae3e2-31bb-4ab0-bba8-b79061338ea4
 title: Attribut Height
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2875a7b14dfa887f200baf07463a96ce27238e27
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b5036cd5e38ad4f90827c3ee8c79ebb677992b5ad4fdc038dca5eaccab7c3085
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564609"
 ---
 # <a name="height-attribute"></a>Attribut Height
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -26,9 +26,9 @@ Valeur à virgule flottante. La valeur doit inclure le zéro non significatif av
 
 ## <a name="applies-to"></a>S'applique à
 
-[**Communauté**](group-element.md)
+[**group**](group-element.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Définissez cet attribut uniquement si l’attribut de **type** est `video` .
 

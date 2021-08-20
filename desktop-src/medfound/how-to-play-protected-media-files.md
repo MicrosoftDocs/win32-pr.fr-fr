@@ -4,12 +4,12 @@ ms.assetid: 85d98f49-8af2-42ce-9b36-a025aee93f73
 title: Comment lire des fichiers multimédias protégés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0f8f7af78881e43f2f7f85e8f333ab31b1bc2de
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: c20a2b525f8acc3a602bcaae2630726d01269881beec07ac214f4d0bd02ee1cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106537170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942339"
 ---
 # <a name="how-to-play-protected-media-files"></a>Comment lire des fichiers multimédias protégés
 
@@ -117,7 +117,7 @@ Si la méthode [**IsAutomaticSupported**](/windows/desktop/api/mfidl/nf-mfidl-im
 2.  Appelez [**IMFContentEnabler :: GetEnableData**](/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenabledata) pour accéder aux données http de publication.
 3.  Appelez [**IMFContentEnabler :: MonitorEnable**](/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-monitorenable). Cette méthode permet à l’activateur du contenu de surveiller la progression de l’action d’acquisition des droits.
 
-4.  Envoyer les données à l’URL d’acquisition des droits à l’aide d’une action HTTP POSTALe. Vous pouvez utiliser le contrôle Internet Explorer ou les API Windows Internet (WinINet).
+4.  Envoyer les données à l’URL d’acquisition des droits à l’aide d’une action HTTP POSTALe. vous pouvez utiliser le contrôle internet Explorer ou les api Windows internet (WinINet).
 
 Le code suivant illustre les étapes 1 à 3. L’étape 4 dépend des exigences spécifiques de votre application.
 

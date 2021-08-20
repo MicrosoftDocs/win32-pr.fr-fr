@@ -4,12 +4,12 @@ ms.assetid: 3821478d-87bb-4e47-8263-d977cf665503
 title: Création de liens symboliques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 252b999b05004fd7735b16582783ef0c3afb0013
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 0340dc362ff550ab2d74e533ac66e74622c965266440103d6f6ec155bfa80f21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150855"
 ---
 # <a name="creating-symbolic-links"></a>Création de liens symboliques
 
@@ -19,8 +19,8 @@ Les liens symboliques peuvent être des liens absolus ou relatifs. Les liens abs
 
 -   Point (. et..) les conventions, par exemple, « .. \\ » résout le chemin d’accès relatif au répertoire parent.
 -   Les noms sans barres obliques ( \\ ), par exemple, « tmp » résout le chemin d’accès relatif au répertoire actif.
--   La racine relative, par exemple « \\ Windows \\ system32 », est résolue en «*lecteur actuel*: \\ Windows \\ system32 ». Répertoire
--   Répertoire de travail actuel-relatif : par exemple, si le répertoire de travail actuel est « C : \\ Windows \\ system32 », « C:File.txt » est résolu en « c : \\ Windows \\ system32 \\File.txt ».
+-   la racine relative, par exemple « \\ Windows \\ system32 », est résolue en «*lecteur actuel*: \\ Windows \\ System32 ». Répertoire
+-   répertoire de travail actuel-relatif : par exemple, si le répertoire de travail actuel est « c : \\ Windows \\ system32 », « C:File.txt » est résolu en « c : \\ Windows \\ System32 \\File.txt ».
 
     **Remarque**  Si vous spécifiez un lien relatif au répertoire de travail actif, il est créé en tant que lien absolu, en raison de la façon dont le répertoire de travail actuel est traité en fonction de l’utilisateur et du thread.
 

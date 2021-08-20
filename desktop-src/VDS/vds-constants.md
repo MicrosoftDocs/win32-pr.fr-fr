@@ -4,16 +4,16 @@ ms.assetid: a3a8b549-51bc-48eb-9215-04c7311e03a3
 title: Constantes VDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9979cd4416b5305c61f6275612422b1f4cfe43a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e9fa0c6196e1085de3a5433750b890e2ad3bc42f4a86022587f02157521eacf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125692"
 ---
 # <a name="vds-constants"></a>Constantes VDS
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Les constantes VDS sont classées comme suit :
 
@@ -70,7 +70,7 @@ Les constantes VDS sont classées comme suit :
 | longueur maximale de \_ VERSIONSTRING \_   | 16         |
 | lettre de lecteur \_ \_ prop          | N/A        |
 | \_taille de \_ nom \_ FS max.          | 8          |
-| \_idx de membre non valide \_         | Égale |
+| \_idx de membre non valide \_         | 0xFFFFFFFF |
 | longueur du nom de la \_ partition GPT \_ \_ | 36         |
 | \_chemin d’accès maximal                    | 260        |
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: ada860043e2339b7c24ad250b00fd0b87a289c0b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ac2846664d265573d387d073277be80f5edc84d5a3aff7c44e962c1111110d57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789819"
 ---
 # <a name="requeststatechange-method-of-the-msvm_kvpexchangecomponent-class"></a>Méthode RequestStateChange de la \_ classe MSVM KvpExchangeComponent
 
@@ -141,7 +141,7 @@ Si cette propriété ne contient pas 0 ou null et que l’implémentation ne pre
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

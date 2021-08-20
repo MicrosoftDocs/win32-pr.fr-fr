@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c18be0a544ebcea2d2cecb40dcea3a08e4bd35b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f80a2ab7068ec754a89e384028f2d43989345e9801c4ededb800117d211b0f8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118128456"
 ---
 # <a name="itssbresourcepluginstoreexacquiretargetlock-method"></a>ITsSbResourcePluginStoreEx :: AcquireTargetLock, méthode
 
@@ -70,7 +70,7 @@ Retourne un pointeur vers le contexte du verrou. Pour libérer le verrou, fourni
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fois le verrou acquis, le thread appelant est supposé avoir un accès exclusif à l’objet cible et, par conséquent, aucun autre thread (au sein du même ordinateur) ne peut le mettre à jour. Par conséquent, le thread appelant doit appeler la méthode [**ReleaseTargetLock**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-releasetargetlock) dès qu’il a effectué les mises à jour nécessaires de l’objet cible.
 
@@ -79,7 +79,7 @@ Une fois le verrou acquis, le thread appelant est supposé avoir un accès exclu
 
  
 
-Cette méthode est disponible sur Windows Server 2012 R2 avec [KB3091411](https://support.microsoft.com/kb/3091411) installé dans l’interface [**ITsSbResourcePluginStoreEx**](itssbresourcepluginstoreex.md) .
+cette méthode est disponible sur Windows Server 2012 R2 avec [KB3091411](https://support.microsoft.com/kb/3091411) installé dans l’interface [**ITsSbResourcePluginStoreEx**](itssbresourcepluginstoreex.md) .
 
 ## <a name="requirements"></a>Configuration requise
 

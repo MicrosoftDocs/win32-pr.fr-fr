@@ -4,12 +4,12 @@ ms.assetid: 57ffd3b1-27a0-4d48-aa2c-482fb00cb44e
 title: System. volume. FileSystem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc344c7521ea8905d0aa1d4de75bff04d71466e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 918277dc7364558a600dcebb6e917b43dcbcf249f89f9a4229547e5c871f77b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118052401"
 ---
 # <a name="systemvolumefilesystem"></a>System. volume. FileSystem
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

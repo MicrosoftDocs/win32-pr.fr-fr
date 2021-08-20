@@ -3,7 +3,7 @@ title: Message TTM_GETTOOLINFO (commctrl. h)
 description: Récupère les informations qu’un contrôle ToolTip gère à propos d’un outil.
 ms.assetid: b94d3b78-2437-4c60-ba46-b3f57cf9c876
 keywords:
-- TTM_GETTOOLINFO les contrôles de message Windows
+- TTM_GETTOOLINFO les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc0de37b97be3bec495c8777b2ddd1cc6fc1bd42
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77f19243603ab5d2ba62d498a5595528e39b33658c7a8e4aa0638888806684ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166372"
 ---
 # <a name="ttm_gettoolinfo-message"></a>\_Message atténuation GETTOOLINFO
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**TOOLINFO**](/windows/win32/api/commctrl/ns-commct
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le contrôle ToolTip comprend l’outil, la structure [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) reçoit des informations sur l’outil.
 
@@ -95,8 +95,8 @@ HRESULT MyToolTipClass::OffsetTooltip(int xOffset, int yOffset)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **Atténuation \_ GETTOOLINFOW** (Unicode) et **atténuation \_ GETTOOLINFOA** (ANSI)<br/>           |
 

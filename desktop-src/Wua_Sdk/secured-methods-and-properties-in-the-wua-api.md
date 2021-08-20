@@ -4,16 +4,16 @@ ms.assetid: 4535ce8d-c329-4335-8b0a-8f63c22f111d
 title: Sécurisation des interfaces, des méthodes et des propriétés dans l’API WUA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6680f616e1ca0596aba04edf4f7ddf7615e0c7f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d53ad374734e596cf6e419e7ed426a90719328fc012d0750a6f3b1d27b8e8f99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118106190"
 ---
 # <a name="securing-interfaces-methods-and-properties-in-the-wua-api"></a>Sécurisation des interfaces, des méthodes et des propriétés dans l’API WUA
 
-Certaines interfaces, méthodes et propriétés de Windows Update Agent (WUA) sont accessibles uniquement aux appelants qui appartiennent aux groupes de sécurité Windows suivants :
+certaines interfaces, méthodes et propriétés de Windows Update Agent (WUA) sont accessibles uniquement aux appelants qui appartiennent aux groupes de sécurité Windows suivants :
 
 -   Administrateur
 -   Utilisateur

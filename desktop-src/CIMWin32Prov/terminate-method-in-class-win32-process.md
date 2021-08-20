@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 00300ca9656c3b732b9c294aeba9a6c626ac6e2e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8f0b9671891b9f9c90e8a36e3fc0b58e92a513935d2923e3a2eed5134dcef777
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118009355"
 ---
 # <a name="terminate-method-of-the-win32_process-class"></a>Méthode Terminate de la \_ classe Process Win32
 
@@ -76,9 +76,9 @@ Retourne la valeur 0 (zéro) si le processus a été terminé avec succès, et t
 **Autre** (22 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-**Vue d’ensemble**
+**Vue d'ensemble**
 
 Les problèmes informatiques sont souvent dus à un processus qui ne fonctionne plus comme prévu. Par exemple, le processus peut présenter une fuite de mémoire, ou il peut avoir cessé de répondre aux entrées de l’utilisateur. Lorsque des problèmes tels que ceux-ci se produisent, le processus doit être arrêté. Bien que cela puisse sembler une tâche assez simple, l’arrêt d’un processus peut être compliqué par plusieurs facteurs :
 
@@ -97,7 +97,7 @@ Vous pouvez mettre fin à un processus de la façon suivante :
 -   Empêcher l’exécution d’un processus en premier lieu. En surveillant en continu la création de processus sur un ordinateur, vous pouvez identifier et arrêter instantanément tout processus dès son démarrage. Cela permet de s’assurer que certaines applications (telles que les programmes qui téléchargent des fichiers multimédias volumineux sur Internet) ne sont jamais exécutées sur certains ordinateurs.
 
 > [!Note]  
-> Stratégie de groupe peut également être utilisé pour restreindre les programmes qui s’exécutent sur un ordinateur. Toutefois, stratégie de groupe pouvez restreindre l’exécution des programmes à l’aide du menu Démarrer ou de l’Explorateur Windows ; elle n’a aucun effet sur les programmes démarrés à l’aide d’autres moyens, tels que la ligne de commande. En revanche, WMI peut empêcher l’exécution d’un processus, quelle que soit la façon dont le processus a été démarré.
+> Stratégie de groupe peut également être utilisé pour restreindre les programmes qui s’exécutent sur un ordinateur. toutefois, stratégie de groupe pouvez restreindre l’exécution des programmes à l’aide de l’explorateur de menu Démarrer ou Windows ; elle n’a aucun effet sur les programmes démarrés à l’aide d’autres moyens, tels que la ligne de commande. En revanche, WMI peut empêcher l’exécution d’un processus, quelle que soit la façon dont le processus a été démarré.
 
  
 
@@ -384,7 +384,7 @@ int main(int iArgCnt, char ** argv)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

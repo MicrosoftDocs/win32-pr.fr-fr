@@ -10,18 +10,18 @@ keywords:
 - UI Automation, affichage du contenu de l’arborescence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c76bc9aa6568a3f4d63194d35ff0c7d8f59510c3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a9e1b8776f86931882acc85e2fb974ff5d1db0be266be94e391ce242ff2a497e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570396"
 ---
 # <a name="ui-automation-tree-overview"></a>Vue d’ensemble de l’arborescence UI Automation
 
 Les produits de technologie d’assistance et les scripts de test parcourent l’arborescence Microsoft UI Automation pour recueillir des informations sur l’interface utilisateur et ses éléments.
 
-L’arborescence UI Automation est un élément racine qui représente la fenêtre du bureau Windows (« le bureau ») et dont les éléments enfants représentent des fenêtres d’application. Chacun de ces éléments enfants peut contenir des éléments qui représentent des éléments de l’interface utilisateur, tels que des menus, des boutons, des barres d’outils et des zones de liste. Ces éléments peuvent contenir des éléments, tels que des éléments de liste.
+dans l’arborescence UI Automation se trouve un élément racine qui représente la fenêtre du bureau Windows (« le bureau ») et dont les éléments enfants représentent des fenêtres d’application. Chacun de ces éléments enfants peut contenir des éléments qui représentent des éléments de l’interface utilisateur, tels que des menus, des boutons, des barres d’outils et des zones de liste. Ces éléments peuvent contenir des éléments, tels que des éléments de liste.
 
 L’arborescence UI Automation n’est pas une structure fixe. Elle est rarement perçue dans son total, car elle peut contenir des milliers d’éléments. Les parties de l’arborescence UI Automation sont générées lorsqu’un client en a besoin, et la structure de l’arborescence change à mesure que des éléments sont ajoutés, déplacés ou supprimés.
 
@@ -49,7 +49,7 @@ UI Automation fournit trois vues par défaut : affichage brut, vue de contrôle
 
 ### <a name="raw-view"></a>Affichage brut
 
-L’affichage brut de l’arborescence UI Automation est l’arborescence complète des éléments Automation pour lesquels le bureau est la racine. L’affichage brut suit étroitement la structure de programmation native d’une application et est la vue la plus détaillée disponible. C’est aussi la base sur laquelle reposent les autres affichages de l’arborescence. Étant donné que cette vue dépend de l’infrastructure d’interface utilisateur sous-jacente, l’affichage brut d’un bouton Windows Presentation Foundation (WPF) a une vue brute différente de celle d’un bouton Microsoft Win32.
+L’affichage brut de l’arborescence UI Automation est l’arborescence complète des éléments Automation pour lesquels le bureau est la racine. L’affichage brut suit étroitement la structure de programmation native d’une application et est la vue la plus détaillée disponible. C’est aussi la base sur laquelle reposent les autres affichages de l’arborescence. étant donné que cette vue dépend de l’infrastructure d’interface utilisateur sous-jacente, l’affichage brut d’un bouton Windows Presentation Foundation (WPF) a une vue brute différente de celle d’un bouton Microsoft Win32.
 
 La vue brute est obtenue en recherchant des éléments sans spécifier de propriétés ou à l’aide de [**IUIAutomation :: RawViewWalker**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomation-get_rawviewwalker) pour obtenir une interface [**IUIAutomationTreeWalker**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtreewalker) pour naviguer dans l’arborescence.
 
@@ -99,9 +99,9 @@ Les images suivantes montrent les différences entre l’affichage de contrôle 
 [Notions de base d’UI Automation](entry-uiautocore-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

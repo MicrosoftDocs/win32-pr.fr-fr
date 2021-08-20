@@ -13,12 +13,12 @@ keywords:
 - capDlgVideoCompression macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 046fbb6cedbf86fd4ad7262c7685b10a5ff7b003
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 93674b8ed4e6f6ff594013cc27825aea601cc005fc082ca8a8954b661c1f4317
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106530075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135557"
 ---
 # <a name="video-dialog-boxes"></a>Boîtes de dialogue vidéo
 
@@ -32,9 +32,9 @@ La boîte de dialogue affichage vidéo contrôle l’apparence de la vidéo sur 
 
 La boîte de dialogue compression vidéo contrôle les attributs de compression vidéo postérieurs à la capture. Si la boîte de dialogue est prise en charge par un pilote de capture vidéo, vous pouvez l’afficher et la mettre à jour à l’aide du message [**WM \_ Cap \_ DLG \_ VIDEOCOMPRESSION**](wm-cap-dlg-videocompression.md) (ou de la macro [**capDlgVideoCompression**](/windows/desktop/api/Vfw/nf-vfw-capdlgvideocompression) ).
 
- 
+ 
 
- 
+ 
 
 
 

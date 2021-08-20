@@ -4,12 +4,12 @@ ms.assetid: 6b5139b5-aa31-42bc-a281-8784006edfbe
 title: Règles de validation XAddr
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc91ce8a0e1bba267ea92fa79a6680b481297f24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e3b167101b6012bcf20779381993cfff4ea7ea22d35eef5397ac1349baa2cdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049507"
 ---
 # <a name="xaddr-validation-rules"></a>Règles de validation XAddr
 
@@ -43,7 +43,7 @@ Toutes les conditions suivantes doivent être satisfaites pour que le message HT
 [ResolveMatches](resolvematches-message.md)
 </dt> <dt>
 
-[Modèles de message d’échange de métadonnées et de découverte](discovery-and-metadata-exchange-message-patterns.md)
+[détection et schémas de Message Exchange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
 </dt> </dl>
 
  

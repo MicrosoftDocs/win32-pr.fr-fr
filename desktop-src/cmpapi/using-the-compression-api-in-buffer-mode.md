@@ -4,12 +4,12 @@ ms.assetid: 0A062E5D-E5FA-4098-B76E-E136FC74D853
 title: Utilisation de l’API de compression en mode mémoire tampon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 676a5bea1ea4fa673bbf9a8fc2caf9fe84d9bc1e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 79a63b8a7dabc7b61c85abb192f855f094a6e271a99997b9e98b849614d53527
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048937"
 ---
 # <a name="using-the-compression-api-in-buffer-mode"></a>Utilisation de l’API de compression en mode mémoire tampon
 
@@ -19,7 +19,7 @@ Le mode mémoire tampon est recommandé dans la plupart des cas. Pour plus d’i
 
 Les applications qui utilisent le mode mémoire tampon ou bloc ont la possibilité de spécifier une routine d’allocation de mémoire personnalisée lors de l’appel de [**CreateCompressor**](/windows/desktop/api/compressapi/nf-compressapi-createcompressor) ou [**CreateDecompressor**](/windows/desktop/api/compressapi/nf-compressapi-createdecompressor). Consultez la section [utilisation de l’API de compression en mode bloc](using-the-compression-api-in-block-mode.md) pour obtenir un exemple de routine d’allocation personnalisée simple.
 
-**Windows 8 et Windows Server 2012 :** Pour utiliser l’exemple de code suivant, vous devez exécuter Windows 8 ou Windows Server 2012 et disposer de « compressapi. h » et de « cabinet.dll » et d’un lien vers le fichier « cabinet. lib ».
+**Windows 8 et Windows Server 2012 :** pour utiliser l’exemple de code suivant, vous devez exécuter Windows 8 ou Windows Server 2012 et disposer de « compressapi. h » et de « cabinet.dll » et d’un lien vers le fichier « Cabinet. lib ».
 
 L’extrait de code suivant illustre la compression de fichiers avec l’algorithme de compression XPRESS et l’encodage Huffman à l’aide de l’API de compression en mode mémoire tampon. L’application accepte un fichier, compresse son contenu et génère un fichier compressé. Tout d’abord, l’application appelle [**CreateCompressor**](/windows/desktop/api/compressapi/nf-compressapi-createcompressor) avec l' **\_ algorithme de compression \_ Xpress \_ Huff** pour générer un compresseur. Elle appelle ensuite [**Compress**](/windows/desktop/api/compressapi/nf-compressapi-compress), avec *CompressedBufferSize* défini sur 0, pour interroger la taille requise de la mémoire tampon compressée. Elle alloue une mémoire tampon de sortie à la valeur *CompressedBufferSize* . L’application appelle **compresser** une deuxième fois pour effectuer la compression réelle. Enfin, l’application écrit les données compressées dans le fichier de sortie.
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: e6da79ff08eebe62ad177119a35bfc29b21c9350
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eea77074a19ada084493bf5e24edaf49e25b659b0accdad16dab6c5781078f4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074919"
 ---
 # <a name="installerregistryvalue-method"></a>Installer. RegistryValue, méthode
 
@@ -44,7 +44,7 @@ Installer.RegistryValue(
 *root* 
 </dt> <dd>
 
-Dans Windows NT 4,0, la racine du Registre est soit une clé racine numérique, soit un nom d’ordinateur en tant que chaîne. Les noms d’ordinateur sont toujours des chaînes. Dans Windows 95, Windows 98 ou Windows Me, la racine du Registre est une clé racine numérique uniquement. Vous pouvez uniquement accéder à HKLM sur une machine distante.
+Dans Windows NT 4,0, la racine du Registre est soit une clé racine numérique, soit un nom d’ordinateur en tant que chaîne. Les noms d’ordinateur sont toujours des chaînes. dans Windows 95, Windows 98 ou Windows moi, la racine du registre est une clé racine numérique uniquement. Vous pouvez uniquement accéder à HKLM sur une machine distante.
 
 
 

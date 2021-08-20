@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d26b6067352d4ca898cc1fc970524040d407bda1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 62822789746cc9eb120d5102de12f8bc8174fa010db1bbdfff62119685390cd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118808122"
 ---
 # <a name="id3dx11effectgettechniquebyname-method"></a>ID3DX11Effect :: GetTechniqueByName, méthode
 
@@ -58,7 +58,7 @@ Type : **[ **ID3DX11EffectTechnique**](id3dx11effecttechnique.md)\***
 
 Pointeur vers un [**ID3DX11EffectTechnique**](id3dx11effecttechnique.md). Si une technique portant le nom approprié est introuvable, une technique non valide est retournée. [**ID3DX11EffectTechnique :: IsValid**](id3dx11effecttechnique-isvalid.md) doit être appelé sur la technique retournée pour déterminer s’il est valide.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un effet contient une ou plusieurs techniques ; chaque technique contient une ou plusieurs passes. Vous pouvez accéder à une technique à l’aide de son nom ou d’un index.
 
@@ -67,7 +67,7 @@ Un effet contient une ou plusieurs techniques ; chaque technique contient une o
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Conditions requises
 
 
 

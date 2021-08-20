@@ -1,23 +1,23 @@
 ---
-description: Les fonctions Windows Installer, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer&\# 160 ; 2.0 et les versions antérieures.
+description: les fonctions Windows Installer, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer&\# 160 ; 2.0 et les versions antérieures.
 ms.assetid: 850b598a-338e-4f84-8336-01e962256a08
-title: Non pris en charge dans Windows Installer 2,0
+title: non pris en charge dans Windows Installer 2,0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35ee09133af9ef611a93c2511d7b130b2175561b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d244dc962e65bb017dbd5fb56c7fda644b46524df7890ede7b71bf0bdf8ad66
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074859"
 ---
-# <a name="not-supported-in-windows-installer-20"></a>Non pris en charge dans Windows Installer 2,0
+# <a name="not-supported-in-windows-installer-20"></a>non pris en charge dans Windows Installer 2,0
 
-Les fonctions Windows Installer, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer 2,0 et versions antérieures. L’absence d’une fonctionnalité dans cette liste ne garantit pas que la fonctionnalité est prise en charge. Consultez la documentation principale pour déterminer quelle version de Windows Installer est requise pour une fonctionnalité particulière. Pour plus d’informations sur les autres versions [de Windows Installer, consultez Nouveautés de Windows Installer](what-s-new-in-windows-installer.md).
+les fonctions Windows Installer, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer 2,0 et versions antérieures. L’absence d’une fonctionnalité dans cette liste ne garantit pas que la fonctionnalité est prise en charge. consultez la documentation principale pour déterminer quelle version de Windows Installer est requise pour une fonctionnalité particulière. pour plus d’informations sur les autres versions [de Windows Installer, consultez nouveautés de Windows Installer](what-s-new-in-windows-installer.md).
 
-Windows Installer 2,0 peut s’exécuter sur Microsoft Windows 2000, Microsoft Windows XP ou Windows Server 2003. Pour obtenir la liste de toutes les versions de Windows Installer, consultez [versions publiées de Windows Installer](released-versions-of-windows-installer.md).
+Windows le programme d’installation 2,0 peut s’exécuter sur microsoft Windows 2000, microsoft Windows XP ou Windows Server 2003. pour obtenir la liste de toutes les versions de Windows Installer, consultez [versions publiées de Windows Installer](released-versions-of-windows-installer.md).
 
-Les fonctionnalités suivantes ne sont pas prises en charge dans Windows Installer 2,0 et versions antérieures.
+les fonctionnalités suivantes ne sont pas prises en charge dans Windows Installer 2,0 et versions antérieures.
 
 [Fonctions du programme d’installation](installer-functions.md)
 
@@ -43,7 +43,7 @@ Les fonctionnalités suivantes ne sont pas prises en charge dans Windows Install
 -   [**MsiSourceListAddMediaDisk**](/windows/desktop/api/Msi/nf-msi-msisourcelistaddmediadiska)
 -   [**MsiSourceListClearMediaDisk**](/windows/desktop/api/Msi/nf-msi-msisourcelistclearmediadiska)
 
-[Structures de Windows Installer](installer-structures.md)
+[Windows Structures du programme d’installation](installer-structures.md)
 
 -   [**MSIPATCHSEQUENCEINFO**](/windows/win32/api/msi/ns-msi-msipatchsequenceinfoa)
 
@@ -142,7 +142,7 @@ Modes de journalisation
     -   [**Programme d’installation. RemovePatches**](installer-removepatches.md)
     -   [**Programme d’installation. ExtractPatchXMLData**](installer-extractpatchxmldata.md)
 
-Les fonctionnalités suivantes ne sont pas non plus prises en charge dans Windows Installer version 2.0.2600. La version de Windows Installer 2.0.2600 a été publiée avec Windows XP et Windows Server 2000. Les fonctionnalités sont disponibles à partir de Windows Installer version 2.0.3790 publiée avec Windows Server 2003. Pour obtenir la liste de toutes les versions de Windows Installer, consultez [versions publiées de Windows Installer](released-versions-of-windows-installer.md).
+les fonctionnalités suivantes ne sont pas non plus prises en charge dans Windows Installer version 2.0.2600. Windows la version du programme d’installation 2.0.2600 a été publiée avec Windows XP et Windows serveur 2000. les fonctionnalités sont disponibles à partir de Windows Installer version 2.0.3790 publiée avec Windows Server 2003. pour obtenir la liste de toutes les versions de Windows Installer, consultez [versions publiées de Windows Installer](released-versions-of-windows-installer.md).
 
 [Fonctions du programme d’installation](installer-functions.md)
 
@@ -179,7 +179,7 @@ Les fonctionnalités suivantes ne sont pas non plus prises en charge dans Window
 
 [Options de ligne de commande](command-line-options.md)
 
--   [commutateur](command-line-options.md)
+-   [/c](command-line-options.md)
 -   [/n](command-line-options.md)
 -   [/Lx](command-line-options.md)
 
@@ -189,25 +189,25 @@ Les fonctionnalités suivantes ne sont pas non plus prises en charge dans Window
 
 ## <a name="notes"></a>Notes
 
-Les [Options du programme d’installation Standard Command-Line](standard-installer-command-line-options.md) ne sont pas prises en charge par Windows Installer 2,0. Au lieu de cela [, utilisez les options de ligne de commande](command-line-options.md)Windows Installer.
+les [Options du programme d’installation Standard Command-Line](standard-installer-command-line-options.md) ne sont pas prises en charge par Windows Installer 2,0. au lieu de cela [, utilisez les Options de ligne de commande](command-line-options.md)Windows Installer.
 
-Lorsque Windows Installer 2,0 installe un package de correctifs, il ignore les informations contenues dans les tables [MsiPatchSequence](msipatchsequence-table.md) ou [MsiPatchMetadata](msipatchmetadata-table.md) . Les versions ultérieures de la Windows Installer peuvent utiliser les informations de ces tableaux pour améliorer le séquencement, la suppression et l’optimisation des correctifs. Pour plus d’informations sur la fonctionnalité de mise à jour corrective améliorée dans Windows Installer, consultez Mise à [jour corrective](patching.md).
+lorsque Windows Installer 2,0 installe un package de correctifs, il ignore les informations contenues dans les tables [MsiPatchSequence](msipatchsequence-table.md) ou [MsiPatchMetadata](msipatchmetadata-table.md) . les versions ultérieures de la Windows Installer peuvent utiliser les informations de ces tableaux pour améliorer le séquencement, la suppression et l’optimisation des correctifs. pour plus d’informations sur la fonctionnalité de mise à jour corrective améliorée dans Windows Installer, consultez mise à [jour corrective](patching.md).
 
-Windows Installer 2,0 ne prend pas en charge les [correctifs non installables](uninstallable-patches.md) et la seule méthode permettant de supprimer des correctifs particuliers d’une application consiste à désinstaller l’ensemble de l’application corrigée, puis à réinstaller sans réappliquer les correctifs en cours de suppression.
+Windows Le programme d’installation 2,0 ne prend pas en charge les [correctifs non installables](uninstallable-patches.md) et la seule méthode permettant de supprimer des correctifs particuliers d’une application consiste à désinstaller l’ensemble de l’application corrigée, puis à réinstaller sans réappliquer les correctifs en cours de suppression.
 
-Windows Installer 2,0 ne prend pas en charge le séquencement des correctifs et installe les correctifs dans l’ordre dans lequel ils sont fournis au système lors de [l’installation de plusieurs correctifs](installing-multiple-patches.md).
+Windows Le programme d’installation 2,0 ne prend pas en charge le séquencement des correctifs et installe les correctifs dans l’ordre dans lequel ils sont fournis au système lors de [l’installation de plusieurs correctifs](installing-multiple-patches.md).
 
-Windows Installer 2,0 ne prend pas en charge l’utilisation de la mise à [jour corrective du contrôle de compte d’utilisateur (UAC)](user-account-control--uac--patching.md) pour activer les correctifs signés numériquement qui peuvent être appliqués par les utilisateurs non-administrateurs.
+Windows Le programme d’installation 2,0 ne prend pas en charge l’utilisation de la mise à [jour corrective du contrôle de compte d’utilisateur (UAC)](user-account-control--uac--patching.md) pour activer les correctifs signés numériquement qui peuvent être appliqués par les utilisateurs non-administrateurs.
 
-Windows Installer 2,0 ne prend pas en charge l' [optimisation des correctifs](patch-optimization.md). L’application de correctifs peut prendre beaucoup plus de temps que dans les versions ultérieures Windows Installer qui met à jour uniquement les fichiers affectés par le correctif.
+Windows Le programme d’installation 2,0 ne prend pas en charge l' [optimisation des correctifs](patch-optimization.md). l’application de correctifs peut prendre beaucoup plus de temps que dans les versions ultérieures Windows Installer qui met à jour uniquement les fichiers affectés par le correctif.
 
-Windows Installer 2,0 ne prend pas en charge [l’utilisation de Windows Installer pour inventorier des produits et des correctifs](inventory-products-and-patches-.md).
+Windows le programme d’installation 2,0 ne prend pas en charge [l’utilisation de Windows Installer pour inventorier des produits et des correctifs](inventory-products-and-patches-.md).
 
-Windows Installer 2,0 ne prend pas en charge la récupération et la modification des informations de liste source pour les applications Windows Installer et les correctifs installés sur le système pour tous les utilisateurs. Les versions ultérieures de Windows Installer permettent aux administrateurs de gérer des listes sources et des propriétés de liste source pour les sources de réseau, d’URL et de média. Les versions ultérieures permettent aux administrateurs de gérer des listes de sources à partir d’un processus externe. Pour plus d’informations, consultez [gestion des sources d’installation](managing-installation-sources.md).
+Windows le programme d’installation 2,0 ne prend pas en charge la récupération et la modification des informations de liste source pour les applications Windows Installer et les correctifs installés sur le système pour tous les utilisateurs. les versions ultérieures de Windows Installer permettent aux administrateurs de gérer des listes sources et des propriétés de liste source pour les sources de réseau, d’URL et de média. Les versions ultérieures permettent aux administrateurs de gérer des listes de sources à partir d’un processus externe. Pour plus d’informations, consultez [gestion des sources d’installation](managing-installation-sources.md).
 
-Windows Installer 2,0 ne prend pas en charge l’installation de plusieurs instances de produits ou de correctifs sans un package d’installation distinct pour chaque instance. Les versions ultérieures de Windows Installer peuvent installer plusieurs instances d’un produit à l’aide de transformations de code de produit et d’un package. msi ou d’un correctif. Pour plus d’informations [, consultez Installation de plusieurs instances de produits et de correctifs](installing-multiple-instances-of-products-and-patches.md).
+Windows Le programme d’installation 2,0 ne prend pas en charge l’installation de plusieurs instances de produits ou de correctifs sans un package d’installation distinct pour chaque instance. les versions ultérieures de Windows Installer peuvent installer plusieurs instances d’un produit à l’aide de transformations de code de produit et d’un package .msi ou d’un correctif. Pour plus d’informations [, consultez Installation de plusieurs instances de produits et de correctifs](installing-multiple-instances-of-products-and-patches.md).
 
-À compter de Windows XP avec Service Pack 2 (SP2), Windows Installer pouvez utiliser les protocoles HTTP, HTTPs et de fichiers. Le programme d’installation ne prend pas en charge les protocoles FTP et GOPHER.
+à compter de Windows XP avec Service Pack 2 (SP2), Windows Installer pouvez utiliser les protocoles http, https et de fichiers. Le programme d’installation ne prend pas en charge les protocoles FTP et GOPHER.
 
  
 

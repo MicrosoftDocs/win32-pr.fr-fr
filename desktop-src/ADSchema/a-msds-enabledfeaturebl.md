@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6656f61ed2f3e2e1623287130d36c789bb8145f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 17d14abc18e8e0ea85f6fabbc6757c0280dd47711570a62e9dc1ddfbab6c2177
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119296099"
 ---
 # <a name="ms-ds-enabled-feature-bl-attribute"></a>ms-DS-Enabled-Feature-BL (attribut)
 

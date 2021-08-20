@@ -1,5 +1,5 @@
 ---
-description: 'L’interface IAMTimelineGroup définit et récupère les propriétés des groupes dans les services d’édition DirectShow (DES). Un groupe contient une ou plusieurs pistes et, éventuellement, une ou plusieurs compositions, qui à leur tour contiennent des éléments sources d’un type uniforme, tels que des vidéos ou des données audio. Les groupes sont les compositions les plus principales dans une chronologie et exposent également l’interface IAMTimelineComp. Une chronologie peut contenir plusieurs groupes. Chaque groupe a les attributs suivants. Type de média associé. Fréquence d’images à laquelle le groupe effectue le rendu, en images par seconde (FPS). Toutes les modifications se produisent à un moment arrondi à la limite d’image la plus proche, comme défini par le paramètre FPS du groupe. Niveau de priorité, pour l’écriture de fichiers avec plusieurs flux du même type de média (par exemple, un fichier AVI en deux vidéos). Pour créer un objet de groupe, appelez IAMTimeline :: CreateEmptyNode avec le \_ groupe de types major de la valeur Timeline \_ \_ . Vous pouvez interroger le pointeur IAMTimelineObj retourné pour l’interface IAMTimelineGroup.'
+description: 'l’interface IAMTimelineGroup définit et récupère des propriétés sur des groupes dans DirectShow Services d’édition (DES). Un groupe contient une ou plusieurs pistes et, éventuellement, une ou plusieurs compositions, qui à leur tour contiennent des éléments sources d’un type uniforme, tels que des vidéos ou des données audio. Les groupes sont les compositions les plus principales dans une chronologie et exposent également l’interface IAMTimelineComp. Une chronologie peut contenir plusieurs groupes. Chaque groupe a les attributs suivants. Type de média associé. Fréquence d’images à laquelle le groupe effectue le rendu, en images par seconde (FPS). Toutes les modifications se produisent à un moment arrondi à la limite d’image la plus proche, comme défini par le paramètre FPS du groupe. Niveau de priorité, pour l’écriture de fichiers avec plusieurs flux du même type de média (par exemple, un fichier AVI en deux vidéos). Pour créer un objet de groupe, appelez IAMTimeline :: CreateEmptyNode avec le \_ groupe de types major de la valeur Timeline \_ \_ . Vous pouvez interroger le pointeur IAMTimelineObj retourné pour l’interface IAMTimelineGroup.'
 ms.assetid: c24e5e0a-43a5-4ba7-ac28-6e2ebb341a38
 title: Interface IAMTimelineGroup (qedit. h)
 ms.topic: reference
@@ -14,21 +14,21 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e82a11db65183e343048f594a7457c0a8febf8bc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9356e3edef0b61c119ec4cca774e9ec5976ac3732e0f0a508d103bc22bb0fef0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118155505"
 ---
 # <a name="iamtimelinegroup-interface"></a>Interface IAMTimelineGroup
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IAMTimelineGroup` interface définit et récupère des propriétés sur des groupes dans les [services d’édition DirectShow](directshow-editing-services.md) (des).
+l' `IAMTimelineGroup` interface définit et récupère des propriétés sur des groupes dans [DirectShow Services d’édition](directshow-editing-services.md) (DES).
 
 Un groupe contient une ou plusieurs pistes et, éventuellement, une ou plusieurs compositions, qui à leur tour contiennent des éléments sources d’un type uniforme, tels que des vidéos ou des données audio. Les groupes sont les compositions les plus principales dans une chronologie et exposent également l’interface [**IAMTimelineComp**](iamtimelinecomp.md) . Une chronologie peut contenir plusieurs groupes.
 
@@ -79,7 +79,7 @@ L’interface **IAMTimelineGroup** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -87,7 +87,7 @@ L’interface **IAMTimelineGroup** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

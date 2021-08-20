@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 81eda2f2c868b4ccd637ec117850c2beea14eef9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9c3424dab82b6981af033b40b33481937fd7c36d3c00dcf3ddfcba5f13f56ec7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119289619"
 ---
 # <a name="databaseapplytransform-method"></a>Database. ApplyTransform, méthode
 
@@ -74,7 +74,7 @@ Spécifie les conditions d’erreur qui doivent être supprimées. Spécifiez en
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **ApplyTransform** retarde la transformation des tables jusqu’au dernier moment possible. Les étapes effectuées dans **ApplyTransform** sont de transformer immédiatement les catalogues de tables et de colonnes pour la base de données. Les catalogues de tables et de colonnes sont mis à jour en fonction de la table qui est ajoutée ou supprimée et de la colonne ajoutée (aucune suppression de colonnes n’est autorisée). Si une table est actuellement chargée en mémoire et doit être transformée, elle est transformée. Dans le cas contraire, l’état de la table a la valeur, ce qui nécessite une transformation, de sorte que lorsque la table est chargée, ou lorsque la base de données est validée, la transformation est appliquée. La transformation dans cette instance signifie que les données (ligne) réelles de la table sont ajoutées, supprimées ou mises à jour.
 

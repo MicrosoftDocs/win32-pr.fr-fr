@@ -1,15 +1,15 @@
 ---
-description: Le groupe de fichiers des tables contient toutes les tables de Windows Installer liées aux fichiers.
+description: le groupe de fichiers des tables contient toutes les tables de Windows Installer liées aux fichiers.
 ms.assetid: 8f56328e-ed58-41a1-94b6-266e9c117246
 title: Groupe de tables de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2667a1b9fe2bd9d2f8260523e2386bf7751dce8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3f8a73aa46b202d184356c14ff12da9ce9ce9880b009418e922b252cc35bc54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142902"
 ---
 # <a name="file-tables-group"></a>Groupe de tables de fichiers
 
@@ -29,8 +29,8 @@ Le groupe de fichiers des tables contient toutes les tables liées aux fichiers.
 -   La [table BindImage](bindimage-table.md) répertorie les fichiers qui sont liés aux dll importées par les exécutables.
 -   La [table MoveFile](movefile-table.md) spécifie les fichiers qui sont déplacés au cours de l’installation.
 -   La [table DuplicateFile](duplicatefile-table.md) spécifie les fichiers qui sont dupliqués pendant l’installation.
--   La [table inifile](inifile-table.md) répertorie les fichiers. ini et les informations que l’application doit définir dans le fichier.
--   La [table RemoveIniFile](removeinifile-table.md) contient les informations qu’une application doit supprimer d’un fichier. ini.
+-   La [table inifile](inifile-table.md) répertorie les fichiers de .ini et les informations que l’application doit définir dans le fichier.
+-   La [table RemoveIniFile](removeinifile-table.md) contient les informations qu’une application doit supprimer d’un fichier .ini.
 -   La [table d’environnement](environment-table.md) est utilisée pour définir les valeurs des variables d’environnement.
 -   Le [tableau icône](icon-table.md) contient des informations sur les icônes qui sont copiées dans un fichier dans le cadre de l’annonce du produit.
 -   La [table FileSFPCatalog](filesfpcatalog-table.md) associe les fichiers spécifiés aux fichiers de catalogue de protection des fichiers système.
@@ -41,7 +41,7 @@ Le groupe de fichiers des tables contient toutes les tables liées aux fichiers.
 
     **Windows Vista, Windows Server 2003 et Windows XP :** Non pris en charge.
 
--   La [table MsiFileHash](msifilehash-table.md) est utilisée pour stocker un hachage 128 bits d’un fichier source fourni par le package Windows Installer.
+-   la [table MsiFileHash](msifilehash-table.md) est utilisée pour stocker un hachage 128 bits d’un fichier source fourni par le package Windows Installer.
 
  
 

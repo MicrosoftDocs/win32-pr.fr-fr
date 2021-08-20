@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 75d42a8758e5c6380414c7b93979b4f93cafd013
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3d2143c4febd683aef1d175d61f97b300db5382e97fe8f466b58b069665fa1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118050409"
 ---
 # <a name="association-arrays"></a>Tableaux d’association
 
@@ -31,7 +31,7 @@ Cette rubrique est organisée comme suit :
 
 ## <a name="about-association-arrays"></a>À propos des tableaux d’association
 
-Un tableau d’associations est une liste ordonnée d’emplacements de Registre qui contiennent des informations sur un type d’élément, y compris les gestionnaires, les verbes et d’autres attributs tels que l’icône et le nom d’affichage du type. Ces informations sur le type d’élément peuvent être enregistrées à différents niveaux de spécificité. Par exemple, vous pouvez inscrire un verbe qui s’affichera uniquement pour un type de fichier spécifique (tel que. jpg) ou pour tous les éléments ayant le même System. Kind (par exemple, System. Kind = image) ou pour tous les éléments.
+Un tableau d’associations est une liste ordonnée d’emplacements de Registre qui contiennent des informations sur un type d’élément, y compris les gestionnaires, les verbes et d’autres attributs tels que l’icône et le nom d’affichage du type. Ces informations sur le type d’élément peuvent être enregistrées à différents niveaux de spécificité. Par exemple, vous pouvez inscrire un verbe qui s’affichera uniquement pour un type de fichier spécifique (tel que .jpg) ou pour tous les éléments ayant le même System. Kind (par exemple, System. Kind = image) ou pour tous les éléments.
 
 L’interpréteur de commandes utilise des tableaux d’association pour interroger un ensemble prédéfini d’emplacements du Registre susceptibles de contenir des informations sur l’élément. Les API de tableau d’association peuvent être utilisées pour extraire de la sous-clé de Registre une valeur unique qui contient les informations demandées, avec cette valeur provenant de la première entrée du tableau qui le fournit. Par exemple, la valeur de l’icône par défaut est Récupérée de cette façon. Le tableau d’association peut également être utilisé pour récupérer un ensemble de valeurs stockées dans les sous-clés du Registre. Par exemple, la liste de verbes est créée à partir de ces verbes inscrits sous toutes les sous-clés.
 
@@ -39,13 +39,13 @@ Une fois que l’interpréteur de commandes a retenu un ensemble prédéfini d�
 
 Étant donné que les tableaux d’association sont des listes triées, ils fournissent aux développeurs d’applications un mécanisme permettant d’ajouter des informations au registre qui seront retournées pour un type d’élément spécifique. De même, les tableaux d’association permettent aux développeurs d’applications d’ajouter des informations au registre pour un groupe spécifique d’éléments lorsque ces éléments sont inscrits à un emplacement plus général. Cette logique informe votre décision sur l’emplacement le plus approprié dans le registre pour stocker des informations sur les éléments de l’interpréteur de commandes.
 
-Sur un système Windows par défaut, un fichier. jpg contient le tableau d’association suivant :
+sur un système Windows par défaut, un fichier .jpg contient le tableau d’association suivant :
 
 -   **HKEY \_ Jpgfile \_ racine des classes** \\ 
--   **HKEY \_ CLASSES \_ racine** \\ **SystemFileAssociations** \\ **. jpg**
+-   **HKEY \_ CLASSES \_ racine** \\ **SystemFileAssociations** \\ **.jpg**
 -   **HKEY \_ Image \_ racine des classes** \\ 
--   **HKEY \_ CLASSES \_ racine** \\ * *\** _
--   _ *\_ \_ **\\** AllFilesystemObjects racine des classes HKEY**
+-   **\_racine des classes HKEY \_**\\**\***
+-   **HKEY \_ AllFilesystemObjects \_ racine des classes** \\ 
 
 Pour plus d’informations sur l’inscription des tableaux [d'](app-registration.md)Association, consultez inscription des applications.
 
@@ -96,8 +96,8 @@ La source de données du système de fichiers crée un tableau d’association p
 
     | ProgID spécial                                    | Description                   |
     |---------------------------------------------------|-------------------------------|
-    | **HKEY \_ CLASSES \_ racine** \\ * *\** _                   | Tous les fichiers (sans dossiers)       |
-    | _ *\_ \_ **\\** AllFilesystemObjects racine des classes HKEY** | Fichiers et dossiers du système de fichiers |
+    | **\_racine des classes HKEY \_**\\**\***                   | Tous les fichiers (sans dossiers)       |
+    | **HKEY \_ AllFilesystemObjects \_ racine des classes** \\  | Fichiers et dossiers du système de fichiers |
     | **HKEY \_ Répertoire \_ racine des classes** \\             | Dossiers du système de fichiers           |
     | **HKEY \_ Dossier \_ racine des classes** \\                | Conteneurs de Shell              |
 
@@ -109,11 +109,11 @@ La source de données du système de fichiers crée un tableau d’association p
 
 La liste suivante représente certains des tableaux d’association du magasin de données Shell qui peuvent être utilisés pour les opérations décrites dans cette rubrique :
 
--   **HKEY \_ CLASSES \_ racine** \\ * *\** _
--   _ *\_ \_ **\\** AllFilesystemObjects racine des classes HKEY**
+-   **\_racine des classes HKEY \_**\\**\***
+-   **HKEY \_ AllFilesystemObjects \_ racine des classes** \\ 
 -   **HKEY \_ CLASSES \_ racine** \\ **Kind.Document**
 -   **HKEY \_ Résultats des classes \_ racine** \\ 
--   **HKEY \_ CLASSES \_ racine** \\ **SystemFileAssociations** \\ **. docx**
+-   **HKEY \_ CLASSES \_ racine** \\ **SystemFileAssociations** \\ **.docx**
 -   **HKEY \_ CLASSES \_ racine** \\ **Word.Document. 12**
 
 Les tableaux d’association de la source de données Shell qui peuvent être utilisés pour DBFolder (un magasin de données Shell qui représente des éléments dans les résultats de recherche et les vues basées sur des requêtes) sont les suivants :
@@ -121,9 +121,9 @@ Les tableaux d’association de la source de données Shell qui peuvent être ut
 -   Lecteurs
 -   Réseau
 -   RegItems
--   Exemples :
+-   Exemples :
     -   ContentView
-    -   Verbes et adverbes
+    -   Verbes
 
 D’autres groupes d’associations communs incluent le dossier et les imprimantes.
 

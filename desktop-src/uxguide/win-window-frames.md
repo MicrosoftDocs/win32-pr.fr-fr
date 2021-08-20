@@ -4,17 +4,17 @@ description: La plupart des programmes doivent utiliser des frames de fenêtre s
 ms.assetid: 6613e07a-2466-4283-88a9-02f2a3fea079
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 40aa58ab48c032519f55afa7c269be6452956912
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: dee701f7aad12e348a89034010de1f44134e9d3e
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104557318"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812253"
 ---
 # <a name="window-frames"></a>Frames de fenêtre
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 La plupart des programmes doivent utiliser des frames de fenêtre standard. Les applications immersives peuvent avoir un mode plein écran qui masque le cadre de la fenêtre. Envisagez d’utiliser la transparence de manière stratégique pour obtenir une apparence plus simple, plus claire et plus cohérente.
 
@@ -30,7 +30,7 @@ Frame de fenêtre classique.
 
 ### <a name="glass-window-frames"></a>Frames de fenêtres en verre
 
-Les cadres de fenêtres en verre sont un nouvel aspect de Microsoft Windows esthétique, qui vise à être à la fois attrayant et léger. Ces frames translucides offrent aux fenêtres une apparence ouverte, moins intrusive, permettant aux utilisateurs de se concentrer sur le contenu et les fonctionnalités plutôt que sur l’interface qui les entoure.
+les cadres de fenêtres en verre sont un tout nouvel aspect de Microsoft Windows esthétiques, qui visent à être à la fois attrayante et légère. Ces frames translucides offrent aux fenêtres une apparence ouverte, moins intrusive, permettant aux utilisateurs de se concentrer sur le contenu et les fonctionnalités plutôt que sur l’interface qui les entoure.
 
 ![capture d’écran d’un cadre de transparence autour de la calculatrice ](images/win-window-frames-image2.png)
 
@@ -46,15 +46,15 @@ Dans cet exemple, la transparence est utilisée dans la zone cliente pour qu’e
 
 Parfois, le meilleur frame de fenêtre n’est pas du tout. C’est souvent le cas pour la [fenêtre principale](glossary.md) d’applications [plein écran](glossary.md) immersives qui ne sont pas utilisées conjointement avec d’autres programmes, tels que des lecteurs multimédias, des jeux et des applications kiosque.
 
-Les visionneuses de contenu bénéficient souvent d’une option permettant d’afficher le contenu en mode plein écran. Voici quelques exemples : Windows Internet Explorer, Galerie de photos Windows Live, Windows Movie Maker HD, Microsoft PowerPoint et Microsoft Word.
+Les visionneuses de contenu bénéficient souvent d’une option permettant d’afficher le contenu en mode plein écran. exemples : Windows Internet Explorer, Galerie de photos Windows Live, Windows Movie Maker HD, Microsoft PowerPoint et Microsoft Word.
 
 ![capture d’écran du lecteur multimédia en mode plein écran ](images/win-window-frames-image4.png)
 
-Dans cet exemple, le lecteur Windows Media peut afficher son contenu en mode plein écran.
+dans cet exemple, Lecteur Windows Media pouvez afficher son contenu en mode plein écran.
 
 ### <a name="custom-frames"></a>Frames personnalisés
 
-La plupart des applications Windows doivent utiliser les frames de fenêtre standard. Toutefois, pour les applications isolées, plein écran et autonomes comme les jeux et les applications kiosque, il peut être approprié d’utiliser des frames personnalisés pour toutes les fenêtres qui ne sont pas affichées en mode plein écran. La motivation d’utiliser des frames personnalisés doit être d’offrir une expérience globale unique, pas seulement pour la [personnalisation](exper-branding.md).
+la plupart des applications Windows doivent utiliser les frames de fenêtre standard. Toutefois, pour les applications isolées, plein écran et autonomes comme les jeux et les applications kiosque, il peut être approprié d’utiliser des frames personnalisés pour toutes les fenêtres qui ne sont pas affichées en mode plein écran. La motivation d’utiliser des frames personnalisés doit être d’offrir une expérience globale unique, pas seulement pour la [personnalisation](exper-branding.md).
 
 ![illustration du puzzle image brouillé et du cadre ](images/win-window-frames-image5.png)
 
@@ -109,7 +109,7 @@ Les trames personnalisées sont appropriées pour les applications immersives, p
 
 ### <a name="glass"></a>Glass
 
-Les frames de fenêtre standard utilisent le verre automatiquement dans Windows, mais vous pouvez également utiliser le verre dans les régions qui touchent le cadre de la fenêtre.
+les frames de fenêtre Standard utilisent le verre automatiquement dans Windows, mais vous pouvez également utiliser la transparence dans les régions qui touchent le cadre de la fenêtre.
 
 -   **Envisagez d’utiliser la transparence de manière stratégique dans les petites régions qui touchent le cadre de la fenêtre sans texte.** Cela peut donner à un programme un aspect plus simple, plus clair et plus cohérent en faisant en sorte que la région apparaisse comme faisant partie du cadre.
 -   ![capture d’écran de la fenêtre avec bord translucide ](images/win-window-frames-image3.png)

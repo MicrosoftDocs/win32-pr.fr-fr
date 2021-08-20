@@ -92,7 +92,7 @@
                   href: using-the-com--crm-in-a-cluster-environment.md
                 - name: Gestion des erreurs dans le CRM COM+
                   href: error-handling-in-the-com--crm.md
-                - name: Paramètres du Registre CRM CRM
+                - name: Paramètres du registre CRM COM+
                   href: com--crm-registry-settings.md
                 - name: Résolution des problèmes liés à COM+ CRM
                   href: troubleshooting-the-com--crm.md
@@ -136,7 +136,7 @@
                   href: registering-a-transient-subscription.md
                 - name: Publication d'un événement
                   href: publishing-an-event.md
-                - name: Création d’un filtre d’éditeur
+                - name: création d’un filtre de Publisher
                   href: creating-a-publisher-filter.md
         - name: Concepts d’instrumentation COM+
           href: com--instrumentation-concepts.md
@@ -590,11 +590,11 @@
             - name: Débogage de composants écrits en Visual Basic
               href: debugging-components-written-in-visual-basic.md
               items:
-                - name: Débogage dans l’IDE Visual Basic
+                - name: débogage dans l’IDE Visual Basic
                   href: debugging-in-the-visual-basic-ide.md
-                - name: Débogage de composants Visual Basic compilés
+                - name: débogage de composants Visual Basic compilés
                   href: debugging-compiled-visual-basic-components.md
-                - name: Prise en charge du débogage des Visual Basic COM+ avec MTS
+                - name: prise en charge du débogage des Visual Basic COM+ avec MTS
                   href: com--visual-basic-debugging-support-contrasted-with-mts.md
         - name: Gestion des erreurs dans COM+
           href: handling-errors-in-com-.md
@@ -671,7 +671,7 @@
                       href: using-a-three-tier-architecture-model.md
                 - name: "Modèle physique\_: architecture de l’application"
                   href: the-physical-model--application-architecture.md
-            - name: Conseils de conception générale pour l’utilisation de COM+
+            - name: Astuces de conception générale pour l’utilisation de COM+
               href: general-design-tips-for-using-com-.md
               items:
                 - name: Conception pour l’évolutivité
@@ -849,7 +849,7 @@
                   items:
                     - name: Méthode BackupREGDB
                       href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-backupregdb
-                    - name: Méthode Connect
+                    - name: Connecter Méthode
                       href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-connect
                     - name: Méthode ExportApplication
                       href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-exportapplication

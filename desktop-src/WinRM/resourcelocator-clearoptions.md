@@ -5,7 +5,7 @@ ms.assetid: 1b4d7f15-c56f-4b0d-9614-8376012abca7
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode ClearOptions
-- Méthode ClearOptions Windows Remote Management, objet ResourceLocator
+- méthode ClearOptions Windows Remote Management, objet ResourceLocator
 - Windows Remote Management objet ResourceLocator, méthode ClearOptions
 topic_type:
 - apiref
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fda4be766b65756a9bcf8de02a4417fd15a3e7f2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ef695b949c62c0d56de45914e1a54996d4d7599f029d136ad78b03ac687365aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118112910"
 ---
 # <a name="resourcelocatorclearoptions-method"></a>Méthode ResourceLocator. ClearOptions
 
@@ -41,7 +41,7 @@ ResourceLocator.ClearOptions()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **IWSManResourceLocator :: ClearOptions** est la méthode C++ correspondante.
 

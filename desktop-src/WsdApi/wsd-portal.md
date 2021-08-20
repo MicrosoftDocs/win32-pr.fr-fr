@@ -4,12 +4,12 @@ ms.assetid: 590e0b0b-763c-44fb-a49f-606415f57b26
 title: Services Web sur les appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 267f8dba0fd56c383dd3cecabb3c00959aa0d90c
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 9c2046a2bdcded3eb4e6a156cb8c2908744d0a8b4366eae99fa1656cca25fb68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049657"
 ---
 # <a name="web-services-on-devices"></a>Services Web sur les appareils
 
@@ -29,7 +29,7 @@ La documentation sur les appareils Web services sur les appareils est destinée 
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-Les applications clientes qui utilisent WSDAPI sont prises en charge à partir de Windows Vista et de Windows Server 2008.
+les applications clientes qui utilisent WSDAPI sont prises en charge à partir de Windows Vista et Windows Server 2008.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
