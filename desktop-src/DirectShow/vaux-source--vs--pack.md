@@ -4,18 +4,18 @@ ms.assetid: 5ffd2883-0e56-459f-b229-cc014b894237
 title: Pack source VAUX (VS)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28f7ad2a91f1be1291b564013041e6dfa23bb014
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 477e7a3257c11d6d8b42e16d2f066251452bc42a489abe9e666e374a565fa77c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072096"
 ---
 # <a name="vaux-source-vs-pack"></a>Pack source VAUX (VS)
 
-Les tableaux suivants répertorient les valeurs utilisées par le pilote MSDV pour remplir le membre **dwDVVAuxSrc** de la structure [**DVINFO**](/windows/desktop/api/strmif/ns-strmif-dvinfo) . Pour plus d’informations, consultez [paramètres de champ DVINFO dans le pilote MSDV](dvinfo-field-settings-in-the-msdv-driver.md).
+Les tableaux suivants répertorient les valeurs utilisées par le pilote MSDV pour remplir le membre **dwDVVAuxSrc** de la structure [**DVINFO**](/windows/desktop/api/strmif/ns-strmif-dvinfo) . pour plus d’informations, consultez [DVINFO Field Paramètres dans le pilote MSDV](dvinfo-field-settings-in-the-msdv-driver.md).
 
-**Paramètres de magnétoscope numérique**
+**magnétoscope numérique Paramètres**
 
 
 
@@ -143,7 +143,7 @@ Pack VS
 
  
 
-**Paramètres DVCPRO 25 et DVCPRO 50 (planifié)**
+**dvcpro 25 et dvcpro 50 Paramètres (planifié)**
 
 
 
@@ -271,7 +271,7 @@ Pack VS
 
  
 
-**Paramètres magnétoscope 100 (planifié)**
+**magnétoscope 100 Paramètres (planifié)**
 
 
 
@@ -375,7 +375,7 @@ Pack VS
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les codes de champ suivants présentent un intérêt :
 
@@ -404,10 +404,10 @@ Les codes de champ suivants présentent un intérêt :
 
 <dl> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> <dt>
 
-[Paramètres de champ DVINFO dans le pilote MSDV](dvinfo-field-settings-in-the-msdv-driver.md)
+[Paramètres du champ DVINFO dans le pilote MSDV](dvinfo-field-settings-in-the-msdv-driver.md)
 </dt> </dl>
 
  

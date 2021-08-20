@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 14daf1d34c8a6a923ec7e181ac69f9ecbae0160a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26e6519d1a94091c0afc0bafffe40fdaac47364d25f54e068ae503f32abccbd3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652449"
 ---
 # <a name="cbasereferenceclockunadvise-method"></a>CBaseReferenceClock. Unadvise, méthode
 
@@ -58,7 +58,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 | Code de retour                                                                             | Description           |
 |-----------------------------------------------------------------------------------------|-----------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | Introuvable.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>   |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>   |
 
 
 
@@ -70,7 +70,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Refclock. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Refclock. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

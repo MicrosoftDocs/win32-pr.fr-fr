@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - checkbmi.h
-ms.openlocfilehash: 7c3a3c9603f974458ed3012dc651815abd432645
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4463a1edb2002f64e983a38eb4a0ace5b5289b4d47ac43c8ea27bf165138ff95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539539"
 ---
 # <a name="checkvideoinfotype-function"></a>CheckVideoInfoType fonction)
 
@@ -59,7 +59,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
 | Code de retour                                                                                                | Description                        |
 |------------------------------------------------------------------------------------------------------------|------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                       | Opération réussie.<br/>                |
+| <dl> <dt>**\_OK**</dt> </dl>                       | Réussite.<br/>                |
 | <dl> <dt>**\_pointeur E**</dt> </dl>                  | Valeur de pointeur **null** .<br/> |
 | <dl> <dt>**TYPE de VFW \_ E \_ \_ non \_ accepté**</dt> </dl> | Type de média non valide.<br/>     |
 
@@ -67,7 +67,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction appelle [**ValidateBitmapInfoHeader**](validatebitmapinfoheader.md) pour valider la structure [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) dans le type de média. Si le type de format n’est pas le FORMAT \_ videoinfo, la fonction retourne un \_ type VFW E \_ \_ non \_ accepté.
 

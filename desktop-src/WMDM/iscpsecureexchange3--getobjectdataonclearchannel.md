@@ -1,6 +1,6 @@
 ---
 title: Méthode GetObjectDataOnClearChannel
-description: La méthode GetObjectDataOnClearChannel transfère à Windows Media Gestionnaire de périphériques un bloc de données d’objet sur un canal clair.
+description: la méthode GetObjectDataOnClearChannel transfère un bloc de données d’objet sur un canal clair vers Windows Gestionnaire de périphériques de média.
 ms.assetid: 62122415-b45b-436e-8c5f-28be759ba8c0
 keywords:
 - Méthode GetObjectDataOnClearChannel Gestionnaire de périphériques Windows Media
@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25b72df0dd27289153a97221fefbcb58f3a5ad13
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c10e09697653c2ef1235ae9a3ea3a93a45437d1cf45a1f4de72ec99b0812b9b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619869"
 ---
 # <a name="getobjectdataonclearchannel-method"></a>Méthode GetObjectDataOnClearChannel
 
-La méthode **GetObjectDataOnClearChannel** transfère à Windows Media gestionnaire de périphériques un bloc de données d’objet sur un canal clair.
+la méthode **GetObjectDataOnClearChannel** transfère un bloc de données d’objet sur un canal clair vers Windows Gestionnaire de périphériques de média.
 
 Cette méthode est identique à [**ISCPSecureExchange :: objectdata**](/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata) , sauf que les données retournées par cette méthode ne sont pas chiffrées. Par conséquent, cette méthode est plus efficace.
 
@@ -84,9 +84,9 @@ Si la méthode est réussie, elle retourne la valeur \_ OK. Si la méthode écho
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour transférer des données, Windows Media Gestionnaire de périphériques appelle la méthode [TransferContainerDataOnClearChannel](/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercontainerdataonclearchannel) pour obtenir les données du conteneur. **GetObjectDataOnClearChannel** est ensuite appelé pour transférer des blocs de données d’objet du fournisseur de contenu vers Windows Media gestionnaire de périphériques. Si l' \_ opération S OK est retournée avec *pdwSize* défini à zéro, Windows Media gestionnaire de périphériques demandera aucune autre donnée.
+pour transférer des données, Windows Media Gestionnaire de périphériques appelle la méthode [TransferContainerDataOnClearChannel](/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercontainerdataonclearchannel) pour obtenir les données de conteneur. **GetObjectDataOnClearChannel** est ensuite appelé pour transférer des blocs de données d’objet du fournisseur de contenu vers Windows Gestionnaire de périphériques de média. si l' \_ opération S OK est retournée avec *pdwSize* défini à zéro, Windows Gestionnaire de périphériques de média ne demandera aucune autre donnée.
 
 Cette méthode est identique à [**ISCPSecureExchange :: objectdata**](/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata) , sauf que les données retournées par cette méthode ne sont pas chiffrées. Par conséquent, cette méthode est plus efficace.
 

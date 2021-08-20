@@ -3,7 +3,7 @@ title: Message WM_CTLCOLORSTATIC (winuser. h)
 description: Un contrôle statique, ou un contrôle d’édition qui est en lecture seule ou qui est désactivé, envoie le \_ message WM CTLCOLORSTATIC à sa fenêtre parente lorsque le contrôle va être dessiné.
 ms.assetid: a171a1e8-6845-4a8e-8394-44cea99d2b0d
 keywords:
-- WM_CTLCOLORSTATIC les contrôles de message Windows
+- WM_CTLCOLORSTATIC les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 851879eeb65a00f95f8cb81cef1b6c23ece8028d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2df23b86539d07c9e1551d64f59e60e54df24ae2d48b316996542fb80c92ae8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539929"
 ---
 # <a name="wm_ctlcolorstatic-message"></a>\_Message WM CTLCOLORSTATIC
 
@@ -59,7 +59,7 @@ Handle vers le contrôle statique.
 
 Si une application traite ce message, la valeur de retour est un handle vers un pinceau que le système utilise pour peindre l’arrière-plan du contrôle statique.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’application retourne un pinceau qu’elle a créée (par exemple, à l’aide de la fonction [**CreateSolidBrush**](/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush) ou [**CreateBrushIndirect**](/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect) ), l’application doit libérer le pinceau. Si l’application retourne un pinceau système (par exemple, un pinceau qui a été récupéré par la fonction [**GetStockObject**](/windows/desktop/api/wingdi/nf-wingdi-getstockobject) ou [**GetSysColorBrush**](/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush) ), l’application n’a pas besoin de libérer le pinceau.
 
@@ -101,8 +101,8 @@ L’exemple C++ suivant montre comment définir les couleurs de premier plan et 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

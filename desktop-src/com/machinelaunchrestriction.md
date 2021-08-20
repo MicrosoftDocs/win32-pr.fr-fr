@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre MachineLaunchRestriction COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14dfcfe5535871c6b5b0fe310c94b920c522f05a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4d5cd235e2dd81e596448f25adfd72ad0b16c13d2da3860eb56fb95f93ef53cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048057"
 ---
 # <a name="machinelaunchrestriction"></a>MachineLaunchRestriction
 
@@ -20,16 +20,16 @@ Définit la stratégie de restriction à l’ensemble de l’ordinateur pour le 
 > [!Caution]  
 > La modification de cette valeur affecte toutes les applications serveur COM et peut les empêcher de fonctionner correctement. Si des applications serveur COM présentent des restrictions moins strictes que les restrictions à l’niveau de l’ordinateur, la réduction des restrictions de l’ordinateur peut exposer ces applications à un accès indésirable. À l’inverse, si vous augmentez les restrictions au niveau de l’ordinateur, certaines applications serveur COM peuvent ne plus être accessibles en appelant des applications.
 
- 
+ 
 
 ## <a name="registry-entry"></a>Entrée de Registre
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   MachineLaunchRestriction = SECURITY_DESCRIPTOR
+   MachineLaunchRestriction = SECURITY_DESCRIPTOR
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur **\_ binaire de Reg** .
 
@@ -44,9 +44,9 @@ Par défaut, les administrateurs peuvent obtenir des autorisations d’exécutio
 [Définition de la sécurité pour les applications COM](setting-security-for-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

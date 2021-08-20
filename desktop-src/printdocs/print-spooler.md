@@ -4,12 +4,12 @@ ms.assetid: 36ffb001-78e2-4fa0-8241-3891493ac02d
 title: Spouleur d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dfcc6ea2e46c06b5e51032a4c43f46df7f07c04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52bac19b44ebed5762abdb00b9ea044cf775a7a7ca8193c641709ad2c39436dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033927"
 ---
 # <a name="print-spooler"></a>Spouleur d’impression
 
@@ -21,7 +21,7 @@ Le spouleur d’impression prend en charge les types de données suivants :
 
 -   Métafichier amélioré (EMF).
 -   Texte ASCII.
--   Données brutes, qui incluent des types de données d’imprimante tels que PostScript, PCL et des types de données personnalisés.
+-   données brutes, qui incluent des types de données d’imprimante tels que PostScript, PCL et des types de données personnalisés.
 
 Les types de données personnalisés peuvent être ajoutés au spouleur en installant des pilotes d’imprimante et des processeurs d’impression supplémentaires. Un travail d’impression est un document stocké en interne et encodé à l’aide de l’un des types de données pris en charge, et un travail d’impression peut contenir une ou plusieurs pages de sortie. Le travail d’impression peut être constitué de plusieurs formulaires. par exemple, un travail peut se composer d’une enveloppe et de trois pages de papier A4. Un travail d’impression est défini (ou placé entre crochets) par les fonctions [**StartDoc**](/windows/desktop/api/Wingdi/nf-wingdi-startdoca) et [**EndDoc**](/windows/desktop/api/Wingdi/nf-wingdi-enddoc) .
 

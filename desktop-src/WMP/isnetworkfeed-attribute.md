@@ -3,7 +3,7 @@ title: Attribut IsNetworkFeed
 description: L’attribut IsNetworkFeed indique que la sélection est mise à jour dynamiquement.
 ms.assetid: 4d5e4516-d49e-48f2-994b-e32a8e4ea42c
 keywords:
-- Attribut IsNetworkFeed lecteur Windows Media
+- Lecteur Windows Media de l’attribut IsNetworkFeed
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b49128f7fec428da97a00693eba859d23d9d81c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fee59a007640563b3fe52f81c91ded129b898b720bd5f2ceaab9e38dcb2703ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508799"
 ---
 # <a name="isnetworkfeed-attribute"></a>Attribut IsNetworkFeed
 
@@ -27,7 +27,7 @@ L’attribut **IsNetworkFeed** indique que la sélection est mise à jour dynami
 
 -   [Sélections](playlist-attributes-ref.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 

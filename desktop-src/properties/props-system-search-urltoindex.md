@@ -4,12 +4,12 @@ ms.assetid: e864b3fa-6d43-40fe-9556-474953098947
 title: System. Search. UrlToIndex
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d4832279237cb7a3659b37d6502bd853caff113
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb964f146831561174f3713d5b827a2c736c59f93e034ac8494f86a0fc6584bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864765"
 ---
 # <a name="systemsearchurltoindex"></a>System. Search. UrlToIndex
 
@@ -30,9 +30,9 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette propriété contient une URL et est émise par un gestionnaire de protocole pour chaque URL enfant ou sous l’URL actuelle. L’indexeur rappelle le gestionnaire de protocole et demande ce document à indexer. [System. Search. UrlToIndex](/previous-versions/windows/desktop/legacy/bb760177(v=vs.85)) s’appelait PID \_ GTHR \_ DIRLINK dans les versions antérieures du système d’exploitation Windows.
+Cette propriété contient une URL et est émise par un gestionnaire de protocole pour chaque URL enfant ou sous l’URL actuelle. L’indexeur rappelle le gestionnaire de protocole et demande ce document à indexer. [system. Search. UrlToIndex](/previous-versions/windows/desktop/legacy/bb760177(v=vs.85)) s’appelait PID \_ GTHR \_ DIRLINK dans les versions antérieures du système d’exploitation Windows.
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

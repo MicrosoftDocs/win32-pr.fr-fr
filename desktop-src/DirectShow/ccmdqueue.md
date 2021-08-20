@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 78af7a975d54ba832bbdf1fb7f8027f87b747660
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5aac6f7315df58a39d119c72fc481816bdc40aab3c449852041b7a490f22f44c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074403"
 ---
 # <a name="ccmdqueue-class"></a>CCmdQueue, classe
 
@@ -61,7 +61,7 @@ Dans tous les cas, les commandes restent mises en file d’attente jusqu’à ce
 | [**Insérer**](ccmdqueue-insert.md)                     | Ajoute l’objet [**CDeferredCommand**](cdeferredcommand.md) à la file d’attente.                             |
 | [**Nouveau**](ccmdqueue-new.md)                           | Initialise une commande à exécuter et retourne un nouvel objet [**CDeferredCommand**](cdeferredcommand.md) . |
 | [**Installez**](ccmdqueue-remove.md)                     | Supprime l’objet [**CDeferredCommand**](cdeferredcommand.md) de la file d’attente.                        |
-| [**Utilisez**](ccmdqueue-run.md)                           | Bascule en mode exécution.                                                                              |
+| [**Exécuter**](ccmdqueue-run.md)                           | Bascule en mode exécution.                                                                              |
 | [**SetSyncSource**](ccmdqueue-setsyncsource.md)       | Définit l’horloge utilisée pour le minutage.                                                                        |
 | [**SetTimeAdvise**](ccmdqueue-settimeadvise.md)       | Configure un événement de minuterie avec l’horloge de référence.                                                        |
 

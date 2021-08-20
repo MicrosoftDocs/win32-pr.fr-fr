@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: cb0b85abb3ca6830610a35502f55c0867a5ffbf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 724f971f52b57a008ec17ac316b78839a6890e3e2efee5d5a037ab4fdcd7ebf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592739"
 ---
 # <a name="sfvm_backgroundenum-message"></a>\_Message SFVM BACKGROUNDENUM
 
@@ -38,11 +38,11 @@ Permet à l’objet de rappel de demander l’énumération sur un thread d’ar
 
 Ce message n’a pas de paramètres.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En réponse à cette notification, retournez \_ OK pour activer l’énumération d’arrière-plan. Par défaut, l’objet dossier système affiche l’animation « torche » pendant que l’énumération a lieu. Pour spécifier une animation personnalisée, gérez [**SFVM \_ GETANIMATION**](sfvm-getanimation.md).
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

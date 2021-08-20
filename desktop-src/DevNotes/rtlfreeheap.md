@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: e51994c4bcd941bc96575eb3fdbb45d4111c1aeb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3dd46808c898cd934bbb4ee8804027bcb926e4a5cd07eb1521e2814a2c4b0e1f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538071"
 ---
 # <a name="rtlfreeheap-function"></a>RtlFreeHeap fonction)
 
@@ -77,7 +77,7 @@ Pointeur vers le bloc de mémoire à libérer. Ce pointeur est retourné par [**
 Retourne la **valeur true** si le bloc a été correctement libéré ; **False** dans le cas contraire.
 
 > [!Note]  
-> À compter de Windows 8, la valeur de retour est de type **logique**, avec une taille différente de celle de la valeur **booléenne**.
+> à partir de Windows 8 la valeur de retour est de type **logique**, dont la taille est différente de la valeur **booléenne**.
 
  
 

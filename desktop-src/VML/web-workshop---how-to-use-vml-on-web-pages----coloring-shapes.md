@@ -1,6 +1,6 @@
 ---
 title: Colorer les formes
-description: Cet article décrit les formes de coloration dans VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
+description: cet article décrit les formes de coloration dans VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
 ms.assetid: f528f0c7-1351-4bca-b309-67511431b711
 keywords:
 - Atelier Web, formes de coloration
@@ -20,19 +20,19 @@ keywords:
 - Triplets RGB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c203debd01d4234ae58900a023944511f9fc73c1
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: f8edd8b067f1e3648d2b69f473c02c59392a10b5716afea74b8f7b0c9d093989
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057043"
 ---
 # <a name="coloring-shapes"></a>Colorer les formes
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
  
 

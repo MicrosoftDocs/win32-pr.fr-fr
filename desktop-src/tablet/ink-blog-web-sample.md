@@ -4,30 +4,30 @@ ms.assetid: b6c3ad92-3ab1-4311-b318-13939e1a1a5a
 title: Exemple de blog manuscrit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c24f132d355a95c9cb8debebe074df3f976e3b5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8796a05861d278015205b5ba0d3775e2e47af6a57ce1fee426c5c0c5011dacd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032357"
 ---
 # <a name="ink-blog-web-sample"></a>Exemple de blog manuscrit
 
 L’exemple d’application de blog Ink montre comment créer une classe [UserControl](/dotnet/api/system.windows.forms.usercontrol?view=netcore-3.1) managée qui dispose de la fonctionnalité d’encrage et héberger ce contrôle dans Microsoft Internet Explorer. L’exemple illustre également une technique permettant d’envoyer des données d’encre sur un réseau à l’aide du protocole HTTP et de conserver l’encre sur un serveur.
 
 > [!Note]  
-> Pour exécuter cet exemple, vous devez disposer de Microsoft Internet Information Services (IIS) avec ASP.NET installé. Assurez-vous que votre ordinateur répond à la configuration requise pour que les applications ASP.NET s’exécutent sur votre ordinateur.
+> vous devez disposer d’Microsoft Internet Information Services (IIS) avec ASP.NET installé pour exécuter cet exemple. assurez-vous que votre ordinateur répond à la configuration requise pour que les applications ASP.NET s’exécutent sur votre ordinateur.
 
  
 
 > [!Note]  
-> Si vous exécutez cet exemple sur un ordinateur qui n’est pas un Tablet PC avec Microsoft Windows XP Tablet PC Edition Kit de développement 1,7 installé, la fonctionnalité de reconnaissance de texte pour le titre de l’encre ne fonctionnera pas. Cela est dû au fait qu’un ordinateur non Tablet PC avec le kit de développement logiciel (SDK) Tablet PC 1,7 installé ne contient pas de module de reconnaissance. Le reste de l’application fonctionne comme décrit.
+> si vous exécutez cet exemple sur un ordinateur qui n’est pas un Tablet pc avec Microsoft Windows XP Tablet pc Edition Kit de développement 1,7 installé, la fonctionnalité de reconnaissance de texte pour le titre de l’encre ne fonctionnera pas. Cela est dû au fait qu’un ordinateur non Tablet PC avec le kit de développement logiciel (SDK) Tablet PC 1,7 installé ne contient pas de module de reconnaissance. Le reste de l’application fonctionne comme décrit.
 
  
 
 ## <a name="overview"></a>Vue d’ensemble
 
-L’exemple de blog Ink crée un weblog avec écriture manuscrite. InkBlogWeb est une application ASP.NET. L’entrée manuscrite est effectuée au moyen d’un contrôle utilisateur référencé à partir d’une page ASP.NET.
+L’exemple de blog Ink crée un weblog avec écriture manuscrite. InkBlogWeb est une application ASP.NET. l’entrée manuscrite est effectuée au moyen d’un contrôle utilisateur référencé à partir d’une page de ASP.NET.
 
 Le contrôle utilisateur détecte si les composants de la plateforme Tablet PC sont installés sur l’ordinateur client. Si c’est le cas, le contrôle utilisateur présente à l’utilisateur deux zones compatibles avec l’écriture manuscrite sur la page Web : une pour l’entrée manuscrite d’un titre pour l’entrée de blog et une pour le corps de l’entrée. Si les composants de plateforme Tablet PC ne sont pas installés, l’utilisateur reçoit un contrôle de zone de texte standard pour le titre et le corps de l’entrée.
 
@@ -35,7 +35,7 @@ Lorsque l’utilisateur a terminé de créer l’entrée, il clique sur un bouto
 
 Il existe deux projets dans la solution InkBlog : le projet **InkBlogControls** et le projet **InkBlogWeb** .
 
-## <a name="inkblogcontrols-project"></a>Projet InkBlogControls
+## <a name="inkblogcontrols-project"></a>InkBlogControls Project
 
 Le projet **InkBlogControls** est un projet [UserControl](/dotnet/api/system.windows.forms.usercontrol?view=netcore-3.1) qui contient le code pour le contrôle utilisateur qui active l’écriture manuscrite sur la page Web. Le code pour ce contrôle, le contrôle InkArea, se trouve dans le fichier InkArea. cs.
 
@@ -185,9 +185,9 @@ La `InkEnabled` propriété est une valeur booléenne en lecture seule qui indiq
 
 Un autre membre public important de la `InkArea` classe de contrôle est la `DisposeResources` méthode. Cette méthode appelle en interne la `Dispose` méthode pour s’assurer que toutes les ressources exploitées par le contrôle utilisateur sont nettoyées. Toute application qui utilise le `InkArea` contrôle doit appeler la `DisposeResources` méthode lorsqu’elle a fini d’utiliser le contrôle.
 
-## <a name="inkblogweb-project"></a>Projet InkBlogWeb
+## <a name="inkblogweb-project"></a>InkBlogWeb Project
 
-Le projet InkBlogWeb est un projet de déploiement d’installation Web qui référence le `InkArea` contrôle pour fournir la fonctionnalité de blog. Pour plus d’informations sur les projets de déploiement de l’installation Web, consultez [déploiement d’un projet d’installation Web](https://msdn.microsoft.com/library/k8kzx145(v=VS.71).aspx).
+Le projet InkBlogWeb est un projet de déploiement d’installation Web qui référence le `InkArea` contrôle pour fournir la fonctionnalité de blog. Pour plus d’informations sur les projets de déploiement de l’installation Web, consultez [déploiement d’un Project d’installation Web](https://msdn.microsoft.com/library/k8kzx145(v=VS.71).aspx).
 
 Il existe deux fichiers. aspx qui implémentent l’exemple de blog : default. aspx et AddBlog. aspx. Default. aspx est la page par défaut de l’application InkBlogWeb. Le fichier code-behind de cette page est default. aspx. cs. Cette page fournit un lien vers la page contenant le nouveau formulaire de saisie de blog et affiche les entrées de blog existantes. Ce processus est décrit ultérieurement, après l’examen suivant de la page du nouveau formulaire de saisie de blog, AddBlog. aspx.
 
@@ -195,7 +195,7 @@ AddBlog. aspx et son fichier code-behind, AddBlog. aspx. cs, contiennent la logi
 
 `<OBJECT id="inkBlogTitle" classid="InkBlogControls.dll#InkBlog.InkArea" width="400" height="48" VIEWASTEXT>``</OBJECT>``<br/>``<OBJECT id="inkBlogBody" classid="InkBlogControls.dll#InkBlog.InkArea" width="400" height="296" VIEWASTEXT>``</OBJECT>`
 
-L’assembly de InkBlogControls.dll doit être présent dans le même répertoire que la page. aspx qui y fait référence. Le projet de déploiement de l’installation Web garantit que c’est le cas, tel qu’il est prouvé par la présence de l’élément « sortie principale de InkBlogControls » dans le projet de déploiement.
+L’assembly de InkBlogControls.dll doit être présent dans le même répertoire que la page. aspx qui y fait référence. Le projet de déploiement de l’installation Web garantit que c’est le cas, tel qu’il est prouvé par la présence de l’élément « sortie principale de InkBlogControls » dans le Project de déploiement.
 
 Le contrôle titre est uniquement de 48 pixels de haut pour faciliter l’entrée d’une seule ligne d’encre pour le titre. Le contrôle du corps est de 296 pixels de haut pour faire de la place pour les entrées de blog plus grandes de plusieurs lignes ou des dessins.
 
@@ -205,7 +205,7 @@ Les contrôles InkArea sont connectés à une fonction de script côté client, 
 
 Il existe également un formulaire HTML sur la page qui contient trois éléments d’entrée masqués : BlogTitleText, BlogBodyText et BlogBodyInkData. Ce formulaire est utilisé pour replacer les données de l’entrée de blog sur le serveur. AddBlog. aspx est le gestionnaire de publication défini pour le formulaire.
 
-La fonction AddBlog-écrite dans Microsoft JScript <entity type="reg"/> : extrait les données de blog à partir des contrôles InkArea et publie les résultats sur le serveur.
+la fonction AddBlog, écrite dans Microsoft JScript <entity type="reg"/> , extrait les données de blog à partir des contrôles InkArea et publie les résultats sur le serveur.
 
 
 ```C++
@@ -253,14 +253,14 @@ Pour plus d’informations sur les méthodes d’assistance, reportez-vous à l�
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 
-Le kit de développement logiciel (SDK) Tablet PC 1,7 installe l’exemple Web de blog Ink par défaut. Pour exécuter l’exemple, dans Internet Explorer, accédez à https://localhost/TabletPCSDK\_WebSamples/InkBlogWeb/Default.aspx . Si vous exécutez Windows Server 2003, remplacez « localhost » par le nom de votre ordinateur.
+Le kit de développement logiciel (SDK) Tablet PC 1,7 installe l’exemple Web de blog Ink par défaut. Pour exécuter l’exemple, dans Internet Explorer, accédez à https://localhost/TabletPCSDK\_WebSamples/InkBlogWeb/Default.aspx . si vous exécutez Windows Server 2003, remplacez « localhost » par le nom de votre ordinateur.
 
 > [!Note]  
 > Les exemples Web compilés ne sont pas installés par l’option d’installation par défaut pour le kit de développement logiciel (SDK). Vous devez effectuer une installation personnalisée et sélectionner la sous-option « exemples Web précompilés » pour les installer.
 
  
 
-Vous pouvez également exécuter l’exemple en ouvrant et en générant le projet dans Microsoft Visual Studio <entity type="reg"/> .net, puis en le déployant sur un ordinateur distinct qui exécute IIS.
+vous pouvez également exécuter l’exemple en ouvrant et en générant le projet dans Microsoft Visual Studio <entity type="reg"/> .net, puis en le déployant sur un ordinateur distinct qui exécute IIS.
 
 ## <a name="troubleshooting-the-sample"></a>Résolution des problèmes liés à l'exemple
 
@@ -270,15 +270,15 @@ Trois zones qui peuvent engendrer des difficultés lors de l’exécution ou de 
 
 L’exemple requiert des autorisations d’écriture dans le dossier racine virtuel pour le compte qui tente de créer une entrée de blog. Par défaut, la version compilée de l’exemple fourni dans le kit de développement logiciel (SDK) Tablet PC 1,7 dispose des autorisations appropriées pour répondre à cette exigence.
 
-Si vous générez et déployez l’exemple à l’aide du projet de déploiement de l’installation Web fourni, vous devez accorder au groupe% MACHINENAME% \\ Users l’accès en écriture au dossier du système de fichiers désigné par la racine virtuelle InkBlogWeb (par exemple, C : \\ Inetpub \\ wwwroot \\ InkBlogWeb). Le groupe utilisateurs comprend le compte anonyme utilisé par IIS, ce qui permet à l’application ASP.NET d’écrire les nouvelles entrées de blog dans le système de fichiers. Une alternative consiste à supprimer l’accès anonyme à la racine virtuelle et à forcer l’authentification.
+Si vous générez et déployez l’exemple à l’aide du projet de déploiement de l’installation Web fourni, vous devez accorder au groupe% MACHINENAME% \\ Users l’accès en écriture au dossier du système de fichiers désigné par la racine virtuelle InkBlogWeb (par exemple, C : \\ Inetpub \\ wwwroot \\ InkBlogWeb). le groupe utilisateurs comprend le compte anonyme utilisé par IIS, ce qui permet à l’application ASP.NET d’écrire les nouvelles entrées de blog dans le système de fichiers. Une alternative consiste à supprimer l’accès anonyme à la racine virtuelle et à forcer l’authentification.
 
 ### <a name="recognition"></a>Reconnaissance
 
-Les détecteurs d’écriture manuscrite doivent être installés afin de reconnaître l’encre dans le titre du blog. Si vous accédez à l’application InkBlog à partir d’un ordinateur équipé d’un système d’exploitation autre que Windows XP Édition Tablet PC, mais avec le kit de développement logiciel (SDK) Tablet PC 1,7 installé, vous pouvez écrire dans les contrôles InkArea, mais les moteurs de reconnaissance ne sont pas présents et aucun titre ne s’affiche pour vos entrées de blog. Toutefois, le contenu de l’encre dans le corps apparaît toujours.
+Les détecteurs d’écriture manuscrite doivent être installés afin de reconnaître l’encre dans le titre du blog. si vous accédez à l’application InkBlog à partir d’un ordinateur équipé d’un système d’exploitation autre que Windows XP édition Tablet pc, mais avec le kit de développement logiciel (SDK) tablet pc 1,7 installé, vous pouvez écrire dans les contrôles InkArea, mais les moteurs de reconnaissance ne sont pas présents et aucun titre ne s’affiche pour vos entrées de blog. Toutefois, le contenu de l’encre dans le corps apparaît toujours.
 
 ### <a name="machine-configuration"></a>Configuration de l’ordinateur
 
-Si vous avez installé ASP.NET et le .NET Framework sur un ordinateur et que vous désinstallez puis réinstallez IIS, les mappages de script échouent et ASP.NET ne fonctionnera pas. Dans ce cas, vous pouvez réparer les mappages de script ASP.NET à l’aide de l’outil d’inscription ASP.NET IIS (ASPNET \_regiis.exe-i).
+si vous avez installé ASP.NET et le .NET Framework sur un ordinateur et que vous désinstallez puis réinstallez IIS, les mappages de script s’interrompent et ASP.NET ne fonctionneront pas. dans ce cas, vous pouvez réparer le ASP.NET les mappages de scripts avec l’outil d’inscription ASP.NET IIS (Aspnet \_regiis.exe-i).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -293,7 +293,7 @@ Si vous avez installé ASP.NET et le .NET Framework sur un ordinateur et que vou
 [Formats de données manuscrites](ink-data-formats.md)
 </dt> <dt>
 
-[System. Windows. Forms. UserControl (classe)](/dotnet/api/system.windows.forms.usercontrol?view=netcore-3.1)
+[Requise. Windows. Forms. UserControl, classe](/dotnet/api/system.windows.forms.usercontrol?view=netcore-3.1)
 </dt> </dl>
 
  

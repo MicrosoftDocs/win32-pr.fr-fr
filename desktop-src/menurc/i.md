@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: caa86fd4-ee66-48dc-9d3f-c525690a9cad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c453ac6c618425dc501e0994dcfbbeff582f763a
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ec9019b6a68e1c52f2fab7e85276c4f8bc62b82d641fa3e127ec13274862d0c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103739605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034327"
 ---
 # <a name="i-menus-and-other-resources"></a>I (menus et autres ressources)
 
@@ -53,10 +53,10 @@ Le nom de fichier spécifié contient un caractère de saut de ligne incorporé.
 
 </dd> <dt>
 
-<span id="tools.i_6_gly"></span><span id="TOOLS.I_6_GLY"></span>**Non valide. Fichier EXE**
+<span id="tools.i_6_gly"></span><span id="TOOLS.I_6_GLY"></span>**Fichier de .EXE non valide**
 </dt> <dd>
 
-Le fichier exécutable (. exe) n’est pas valide. Assurez-vous que l’éditeur de liens l’a créé correctement et que le fichier existe.
+Le fichier exécutable (.exe) n’est pas valide. Assurez-vous que l’éditeur de liens l’a créé correctement et que le fichier existe.
 
 </dd> <dt>
 

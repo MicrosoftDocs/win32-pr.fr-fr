@@ -3,7 +3,7 @@ title: Attribut ModifiedBy
 description: Chaîne qui indique si les attributs de l’élément ont été modifiés par l’utilisateur.
 ms.assetid: 6967e82e-a2db-4c2a-8572-35a4f52bc451
 keywords:
-- Attribut ModifiedBy du lecteur Windows Media
+- attribut ModifiedBy Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf44c318628283627d4bf2f730c143081cee0990
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8afaddd2ed99af6d8b853da60c544694937600b480d6e620bfa2ab4637427fd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647639"
 ---
 # <a name="modifiedby-attribute"></a>Attribut ModifiedBy
 
@@ -29,7 +29,7 @@ L’attribut **ModifiedBy** est une chaîne qui indique si les attributs de l’
 
 -   [DVD](dvd-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans le fichier multimédia numérique.
 

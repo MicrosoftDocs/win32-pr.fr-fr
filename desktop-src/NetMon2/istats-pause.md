@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d9e9f04ce3d25399866c711dad7a853f2c43c2ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d1bab0d66a081c175d997e093d7dd1ff2b0d1c9622ecff73e0b3b1473edc885
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495209"
 ---
 # <a name="istatspause-method"></a>IStats ::P méthode ause
 
@@ -50,14 +50,14 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_capture NMERR \_ suspendue**</dt> </dl>  | La capture est déjà suspendue.<br/>                                                                                                    |
 | <dl> <dt>**NMERR \_ pas de \_ capture**</dt> </dl>   | Le NPP ne capture pas de données. Appelez la méthode [IStats :: Start](istats-start.md) pour démarrer la capture.<br/>                            |
-| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>   | Le NPP n’est pas connecté au réseau. Appelez la méthode [IStats :: Connect](istats-connect.md) pour connecter le NPP au réseau.<br/> |
-| <dl> <dt>**NMERR \_ non \_ stats \_ uniquement**</dt> </dl> | Le NPP est connecté au réseau, mais pas avec la méthode [IStats :: Connect](istats-connect.md) .<br/>                                |
+| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>   | Le NPP n’est pas connecté au réseau. appelez la méthode [IStats :: Connecter](istats-connect.md) pour connecter le NPP au réseau.<br/> |
+| <dl> <dt>**NMERR \_ non \_ stats \_ uniquement**</dt> </dl> | le NPP est connecté au réseau, mais pas avec la méthode [IStats :: Connecter](istats-connect.md) .<br/>                                |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque la capture est suspendue, les nouveaux frames ne sont pas capturés tant qu’un appel à la méthode [IStats :: Resume](istats-resume.md) n’a pas redémarré la capture.
 
@@ -85,7 +85,7 @@ Pour redémarrer l’appel de capture [IStats :: Resume](istats-resume.md). Pou
 [IStats](istats.md)
 </dt> <dt>
 
-[IStats :: Connect](istats-connect.md)
+[IStats :: Connecter](istats-connect.md)
 </dt> <dt>
 
 [IStats :: Resume](istats-resume.md)

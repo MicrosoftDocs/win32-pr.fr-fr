@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 151103366e85537368cacb7063f199f1f91bf023
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 48537009b56d2b37f4508871049463a65a12965c31658e932716832955503f42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599579"
 ---
 # <a name="var-structure"></a>Var, structure
 
@@ -110,9 +110,9 @@ Tableau d’une ou de plusieurs valeurs qui sont des paires d’identificateurs 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette structure n’est pas une véritable structure de langage C, car elle contient des membres de longueur variable. Cette structure a été créée uniquement pour représenter l’Organisation des données dans une ressource de version et n’apparaît pas dans les fichiers d’en-tête fournis avec le kit de développement logiciel (SDK) Windows.
+Cette structure n’est pas une véritable structure de langage C, car elle contient des membres de longueur variable. cette structure a été créée uniquement pour représenter l’organisation des données dans une ressource de version et n’apparaît pas dans les fichiers d’en-tête fournis avec le kit de développement logiciel (SDK) Windows.
 
 Si vous utilisez la structure **var** pour répertorier les langues prises en charge par votre application ou dll au lieu d’utiliser plusieurs ressources de version, utilisez le membre **value** pour contenir un tableau de valeurs **DWORD** indiquant les combinaisons de langue et de page de codes prises en charge par ce fichier. Le mot de poids faible de chaque **DWORD** doit contenir un identificateur de langue Microsoft, et le mot de poids fort doit contenir le numéro de page de codes IBM. Le mot de poids fort ou de poids faible peut être égal à zéro, ce qui indique que le fichier est indépendant de la langue ou de la page de codes. Si la structure **var** est omise, le fichier est interprété comme une langue et une page de codes indépendantes.
 

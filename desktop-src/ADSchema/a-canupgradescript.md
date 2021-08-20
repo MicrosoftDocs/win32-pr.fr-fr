@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 305e5b90c45d124a8647dd5d3a0af9c4a2ca6c4f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c258e33a7b70b543bf98991291ed60b7d2ec274ac98a26ceeb2cda9fa7b27a6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022637"
 ---
 # <a name="can-upgrade-script-attribute"></a>Attribute CAN-Upgrade-script
 
@@ -45,7 +45,7 @@ Cet attribut stocke la liste des packages d’applications qui peuvent être mis
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

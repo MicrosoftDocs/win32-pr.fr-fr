@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b4bb2189e824f82cc9247abc68844068d083b2f0
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 56b610025d3012446daa7938e2f37c2efcf6c2ddb7edd2ee545db0a179953fad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104102481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067451"
 ---
 # <a name="compiler-errors"></a>Erreurs du compilateur
 
@@ -718,7 +718,7 @@ Les messages d’erreur suivants sont générés au cours de la compilation MIDL
 </tr>
 <tr class="even">
 <td><span id="MIDL2167"></span><span id="midl2167"></span><dl> <dt><strong>MIDL2167</strong></dt> </dl></td>
-<td><dl> <dt><span id="this_attribute_only_allowed_with_new_format_type_libraries"></span><span id="THIS_ATTRIBUTE_ONLY_ALLOWED_WITH_NEW_FORMAT_TYPE_LIBRARIES"></span>Cet attribut est uniquement autorisé avec les nouvelles bibliothèques de types de format</dt> <dd> Pour utiliser cet attribut, vous avez besoin de la version de Oleaut32.dll fournie avec Windows 2000 ou version ultérieure.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="this_attribute_only_allowed_with_new_format_type_libraries"></span><span id="THIS_ATTRIBUTE_ONLY_ALLOWED_WITH_NEW_FORMAT_TYPE_LIBRARIES"></span>Cet attribut est uniquement autorisé avec les nouvelles bibliothèques de types de format</dt> <dd> pour utiliser cet attribut, vous avez besoin de la version de Oleaut32.dll fournie avec Windows 2000 ou version ultérieure.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2168"></span><span id="midl2168"></span><dl> <dt><strong>MIDL2168</strong></dt> </dl></td>
@@ -1288,7 +1288,7 @@ Les messages d’erreur suivants sont générés au cours de la compilation MIDL
 </tr>
 <tr class="even">
 <td><span id="MIDL2309"></span><span id="midl2309"></span><dl> <dt><strong>MIDL2309</strong></dt> </dl></td>
-<td><dl> <dt><span id="Too_many_delegation_methods_in_the_interface__require_Windows_2000_or_greater"></span><span id="too_many_delegation_methods_in_the_interface__require_windows_2000_or_greater"></span><span id="TOO_MANY_DELEGATION_METHODS_IN_THE_INTERFACE__REQUIRE_WINDOWS_2000_OR_GREATER"></span>Un trop grand nombre de méthodes de délégation dans l’interface nécessitent Windows 2000 ou une version ultérieure</dt> <dd> Une interface peut hériter d’une autre. Dans ce cas, les méthodes de l’interface de base sont considérées comme déléguées. Aucune interface dérivée ne peut contenir plus de 256 méthodes déléguées.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Too_many_delegation_methods_in_the_interface__require_Windows_2000_or_greater"></span><span id="too_many_delegation_methods_in_the_interface__require_windows_2000_or_greater"></span><span id="TOO_MANY_DELEGATION_METHODS_IN_THE_INTERFACE__REQUIRE_WINDOWS_2000_OR_GREATER"></span>un trop grand nombre de méthodes de délégation dans l’interface nécessitent Windows 2000 ou une version ultérieure</dt> <dd> Une interface peut hériter d’une autre. Dans ce cas, les méthodes de l’interface de base sont considérées comme déléguées. Aucune interface dérivée ne peut contenir plus de 256 méthodes déléguées.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2310"></span><span id="midl2310"></span><dl> <dt><strong>MIDL2310</strong></dt> </dl></td>
@@ -1463,7 +1463,7 @@ L’outil Mktyplib.exe est obsolète. Utilisez plutôt le compilateur MIDL.
 </tr>
 <tr class="odd">
 <td><span id="MIDL2352"></span><span id="midl2352"></span><dl> <dt><strong>MIDL2352</strong></dt> </dl></td>
-<td><dl> <dt><span id="string__varying_array__conformant_array_and_full_pointer_parameters_may_be_incompatible_with_pipe_parameters_during_run_time"></span><span id="STRING__VARYING_ARRAY__CONFORMANT_ARRAY_AND_FULL_POINTER_PARAMETERS_MAY_BE_INCOMPATIBLE_WITH_PIPE_PARAMETERS_DURING_RUN_TIME"></span>les paramètres de chaîne, de tableau variable, de tableau conforme et de pointeur complet peuvent être incompatibles avec les paramètres de canal au moment de l’exécution</dt> <dd> Une méthode associant une ou plusieurs chaînes [in], des tableaux variables, des tableaux conformes et des paramètres de pointeur complet et n’importe quel paramètre de canal [in] entraîne la génération d’un stub qui s’exécute uniquement sur les séquences de protocole <strong>ncacn_ *</strong> et <a href="ncalrpc.md"><strong>Ncalrpc</strong></a> sur les ordinateurs Windows. L’utilisation du stub pour effectuer des appels sur des séquences de protocole <strong>ncadg_ *</strong> ou accepter des appels d’autres fournisseurs RPC DCE ETCD peut générer des erreurs sur le serveur au moment de l’exécution. Cette erreur se produit à partir de Windows Server 2003.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="string__varying_array__conformant_array_and_full_pointer_parameters_may_be_incompatible_with_pipe_parameters_during_run_time"></span><span id="STRING__VARYING_ARRAY__CONFORMANT_ARRAY_AND_FULL_POINTER_PARAMETERS_MAY_BE_INCOMPATIBLE_WITH_PIPE_PARAMETERS_DURING_RUN_TIME"></span>les paramètres de chaîne, de tableau variable, de tableau conforme et de pointeur complet peuvent être incompatibles avec les paramètres de canal au moment de l’exécution</dt> <dd> une méthode associant une ou plusieurs chaînes [in], des tableaux variables, des tableaux conformes et des paramètres de pointeur complet et n’importe quel paramètre de canal [in] entraîne la génération d’un stub qui s’exécute uniquement sur les séquences de protocole <strong>ncacn_ *</strong> et <a href="ncalrpc.md"><strong>ncalrpc</strong></a> sur les ordinateurs Windows. L’utilisation du stub pour effectuer des appels sur des séquences de protocole <strong>ncadg_ *</strong> ou accepter des appels d’autres fournisseurs RPC DCE ETCD peut générer des erreurs sur le serveur au moment de l’exécution. cette erreur se produit à partir de Windows Server 2003.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2353"></span><span id="midl2353"></span><dl> <dt><strong>MIDL2353</strong></dt> </dl></td>
@@ -1521,7 +1521,7 @@ L’outil Mktyplib.exe est obsolète. Utilisez plutôt le compilateur MIDL.
 </tr>
 <tr class="even">
 <td><span id="MIDL2366"></span><span id="midl2366"></span><dl> <dt><strong>MIDL2366</strong></dt> </dl></td>
-<td><dl> <dt><span id="cannot_assign_a_default_value"></span><span id="CANNOT_ASSIGN_A_DEFAULT_VALUE"></span>Impossible d’attribuer une valeur par défaut</dt> <dd> L’assignation d’une valeur par défaut à un paramètre est autorisée dans Visual Basic, mais pas en C++. Si vous utilisez C++, la valeur par défaut est ignorée.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="cannot_assign_a_default_value"></span><span id="CANNOT_ASSIGN_A_DEFAULT_VALUE"></span>Impossible d’attribuer une valeur par défaut</dt> <dd> l’assignation d’une valeur par défaut à un paramètre est autorisée dans Visual Basic, mais pas en C++. Si vous utilisez C++, la valeur par défaut est ignorée.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2367"></span><span id="midl2367"></span><dl> <dt><strong>MIDL2367</strong></dt> </dl></td>
@@ -1561,7 +1561,7 @@ void bar (large *s, int a);</code></pre>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2373"></span><span id="midl2373"></span><dl> <dt><strong>MIDL2373</strong></dt> </dl></td>
-<td><dl> <dt><span id="DOS__Win16_and_MAC_platforms_are_not_supported_with__robust"></span><span id="dos__win16_and_mac_platforms_are_not_supported_with__robust"></span><span id="DOS__WIN16_AND_MAC_PLATFORMS_ARE_NOT_SUPPORTED_WITH__ROBUST"></span>Les plateformes DOS, Win16 et MAC ne sont pas prises en charge avec/Robust</dt> <dd> MIDL prend en charge le commutateur <a href="-robust.md"><strong>/Robust</strong></a> sur Microsoft Windows 2000 ou version ultérieure.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="DOS__Win16_and_MAC_platforms_are_not_supported_with__robust"></span><span id="dos__win16_and_mac_platforms_are_not_supported_with__robust"></span><span id="DOS__WIN16_AND_MAC_PLATFORMS_ARE_NOT_SUPPORTED_WITH__ROBUST"></span>Les plateformes DOS, Win16 et MAC ne sont pas prises en charge avec/Robust</dt> <dd> MIDL prend en charge le commutateur <a href="-robust.md"><strong>/robust</strong></a> sur Microsoft Windows 2000 ou version ultérieure.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2374"></span><span id="midl2374"></span><dl> <dt><strong>MIDL2374</strong></dt> </dl></td>
@@ -1651,7 +1651,7 @@ void bar(long s1, long s2, [size_is(s1,s2) long **a);//MIDL2393</code></pre>
 <td><dl> <dt><span id="type_or_construct_not_supported_in_a_library_block_because_Oleaut32.dll_support_for_64-KB_polymorphic_types_is_missing"></span><span id="type_or_construct_not_supported_in_a_library_block_because_oleaut32.dll_support_for_64-kb_polymorphic_types_is_missing"></span><span id="TYPE_OR_CONSTRUCT_NOT_SUPPORTED_IN_A_LIBRARY_BLOCK_BECAUSE_OLEAUT32.DLL_SUPPORT_FOR_64-KB_POLYMORPHIC_TYPES_IS_MISSING"></span>type ou construction non pris en charge dans un bloc de bibliothèque, car Oleaut32.dll la prise en charge des types polymorphes 64 Ko est manquante</dt> <dd> OLE Automation ne prend pas en charge les types polymorphes (comme _int3264, INT_PTR, etc.). Ces types ont des représentations de données incompatibles entre les plateformes 32 bits et 64 bits. L’appel distant échouera au moment de l’exécution sur les plateformes 64 bits.<br/>
 <blockquote>
 [!Note]<br />
-Notez que depuis la version 2000 de Windows, les fichiers TLB 64 bits sont pris en charge par OLE Automation en convertissant les informations TLB 32 bits au moment de l’exécution. Par conséquent, seule la génération TLB 32 bits est prise en charge par MIDL.
+notez que à partir de Windows version 2000, les fichiers tlb 64 bits sont pris en charge par OLE Automation en convertissant les informations tlb 32 bits au moment de l’exécution. Par conséquent, seule la génération TLB 32 bits est prise en charge par MIDL.
 </blockquote>
 <br/> Si MIDL est utilisé uniquement pour générer un fichier d’en-tête, le commutateur <a href="-notlb.md"><strong>/notlb</strong></a> supprimera la génération du fichier TLB.<br/> </dd> </dl></td>
 </tr>
@@ -1665,11 +1665,11 @@ Notez que depuis la version 2000 de Windows, les fichiers TLB 64 bits sont pris 
 </tr>
 <tr class="even">
 <td><span id="MIDL2398"></span><span id="midl2398"></span><dl> <dt><strong>MIDL2398</strong></dt> </dl></td>
-<td><dl> <dt><span id="cannot_execute_MIDL_engine"></span><span id="cannot_execute_midl_engine"></span><span id="CANNOT_EXECUTE_MIDL_ENGINE"></span>Impossible d’exécuter le moteur MIDL</dt> <dd> À compter de la version 2000 de Windows (MIDL version 5.03.279), le compilateur MIDL est implémenté à l’aide de deux fichiers exécutables : Midl.exe (le pilote) et Midlc.exe (moteur de compilateur). Cette erreur indique que le Midl.exe ne peut pas lancer Midlc.exe. Assurez-vous que Midlc.exe se trouve dans le même répertoire que Midl.exe, et qu’il s’agit de la même version.<br/> L’erreur peut être due à la copie Midl.exe mais pas Midlx.exe de la distribution la plus récente. Exécutez <strong>MIDL</strong> et/ou <strong>Midlc</strong> sur la ligne de commande sans aucun paramètre pour voir le numéro de version de l’exécutable.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="cannot_execute_MIDL_engine"></span><span id="cannot_execute_midl_engine"></span><span id="CANNOT_EXECUTE_MIDL_ENGINE"></span>Impossible d’exécuter le moteur MIDL</dt> <dd> à partir de la version Windows 2000 (MIDL version 5.03.279), le compilateur midl est implémenté à l’aide de deux fichiers exécutables : Midl.exe (le pilote) et Midlc.exe (moteur de compilateur). Cette erreur indique que le Midl.exe ne peut pas lancer Midlc.exe. Assurez-vous que Midlc.exe se trouve dans le même répertoire que Midl.exe, et qu’il s’agit de la même version.<br/> L’erreur peut être due à la copie Midl.exe mais pas Midlx.exe de la distribution la plus récente. Exécutez <strong>MIDL</strong> et/ou <strong>Midlc</strong> sur la ligne de commande sans aucun paramètre pour voir le numéro de version de l’exécutable.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2399"></span><span id="midl2399"></span><dl> <dt><strong>MIDL2399</strong></dt> </dl></td>
-<td><dl> <dt><span id="bad_commands_from_driver"></span><span id="BAD_COMMANDS_FROM_DRIVER"></span>commandes incorrectes du pilote</dt> <dd> À compter de la version 2000 de Windows (MIDL version 5.03.279), le compilateur MIDL est implémenté à l’aide de deux fichiers exécutables : Midl.exe (le pilote) et Midlc.exe (moteur de compilateur). Cette erreur indique que le fichier temporaire utilisé pour passer des commandes de Midl.exe à Midlc.exe est manquant ou endommagé. Assurez-vous que Midlc.exe se trouve dans le même répertoire que Midl.exe, et qu’il s’agit de la même version.<br/> L’erreur peut être due à une tentative d’exécution de Midlc.exe directement ou à la copie Midl.exe mais pas Midlc.exe de la distribution la plus récente. Exécutez <strong>MIDL</strong> et/ou <strong>Midlc</strong> sur la ligne de commande sans aucun paramètre pour voir le numéro de version de l’exécutable.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="bad_commands_from_driver"></span><span id="BAD_COMMANDS_FROM_DRIVER"></span>commandes incorrectes du pilote</dt> <dd> à partir de la version Windows 2000 (MIDL version 5.03.279), le compilateur midl est implémenté à l’aide de deux fichiers exécutables : Midl.exe (le pilote) et Midlc.exe (moteur de compilateur). Cette erreur indique que le fichier temporaire utilisé pour passer des commandes de Midl.exe à Midlc.exe est manquant ou endommagé. Assurez-vous que Midlc.exe se trouve dans le même répertoire que Midl.exe, et qu’il s’agit de la même version.<br/> L’erreur peut être due à une tentative d’exécution de Midlc.exe directement ou à la copie Midl.exe mais pas Midlc.exe de la distribution la plus récente. Exécutez <strong>MIDL</strong> et/ou <strong>Midlc</strong> sur la ligne de commande sans aucun paramètre pour voir le numéro de version de l’exécutable.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2400"></span><span id="midl2400"></span><dl> <dt><strong>MIDL2400</strong></dt> </dl></td>
@@ -1697,11 +1697,11 @@ Notez que depuis la version 2000 de Windows, les fichiers TLB 64 bits sont pris 
 </tr>
 <tr class="even">
 <td><span id="MIDL2406"></span><span id="midl2406"></span><dl> <dt><strong>MIDL2406</strong></dt> </dl></td>
-<td><dl> <dt><span id="midl_driver_and_compiler_version_mismatch"></span><span id="MIDL_DRIVER_AND_COMPILER_VERSION_MISMATCH"></span>incompatibilité des versions du compilateur et du pilote MIDL</dt> <dd> Depuis la version 2000 de Windows (MIDL version 5.03.279), le compilateur MIDL est implémenté à l’aide de deux fichiers exécutables : Midl.exe (le pilote) et Midlc.exe (moteur du compilateur). Cette erreur indique que la version de Midl.exe ne correspond pas à la version de Midlc.exe.<br/> L’erreur peut être due à la copie Midl.exe mais pas Midlc.exe de la distribution la plus récente. Exécutez <strong>MIDL</strong> et/ou <strong>Midlc</strong> sur la ligne de commande sans aucun paramètre pour voir le numéro de version de l’exécutable.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="midl_driver_and_compiler_version_mismatch"></span><span id="MIDL_DRIVER_AND_COMPILER_VERSION_MISMATCH"></span>incompatibilité des versions du compilateur et du pilote MIDL</dt> <dd> à partir de la version Windows 2000 (MIDL version 5.03.279), le compilateur midl est implémenté à l’aide de deux fichiers exécutables : Midl.exe (le pilote) et Midlc.exe (moteur de compilateur). Cette erreur indique que la version de Midl.exe ne correspond pas à la version de Midlc.exe.<br/> L’erreur peut être due à la copie Midl.exe mais pas Midlc.exe de la distribution la plus récente. Exécutez <strong>MIDL</strong> et/ou <strong>Midlc</strong> sur la ligne de commande sans aucun paramètre pour voir le numéro de version de l’exécutable.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2407"></span><span id="midl2407"></span><dl> <dt><strong>MIDL2407</strong></dt> </dl></td>
-<td><dl> <dt><span id="no_intermediate_file_specified__use_Midl.exe"></span><span id="no_intermediate_file_specified__use_midl.exe"></span><span id="NO_INTERMEDIATE_FILE_SPECIFIED__USE_MIDL.EXE"></span>aucun fichier intermédiaire spécifié : utilisez Midl.exe</dt> <dd> À compter de la version 2000 de Windows (MIDL version 5.03.279), le compilateur MIDL est implémenté à l’aide de deux fichiers exécutables : Midl.exe (le pilote) et Midlc.exe (moteur de compilateur). Cette erreur indique que Midlc.exe a été exécutée directement au lieu d’utiliser Midl.exe.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="no_intermediate_file_specified__use_Midl.exe"></span><span id="no_intermediate_file_specified__use_midl.exe"></span><span id="NO_INTERMEDIATE_FILE_SPECIFIED__USE_MIDL.EXE"></span>aucun fichier intermédiaire spécifié : utilisez Midl.exe</dt> <dd> à partir de la version Windows 2000 (MIDL version 5.03.279), le compilateur midl est implémenté à l’aide de deux fichiers exécutables : Midl.exe (le pilote) et Midlc.exe (moteur de compilateur). Cette erreur indique que Midlc.exe a été exécutée directement au lieu d’utiliser Midl.exe.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2408"></span><span id="midl2408"></span><dl> <dt><strong>MIDL2408</strong></dt> </dl></td>
@@ -1732,7 +1732,7 @@ void roo(LPSAFEAEEAY a);         //OK</code></pre>
 </tr>
 <tr class="even">
 <td><span id="MIDL2414"></span><span id="midl2414"></span><dl> <dt><strong>MIDL2414</strong></dt> </dl></td>
-<td><dl> <dt><span id="floating_point_or_complex_return_types_with__decode__are_not_supported_in_-Oicf__using_-OI"></span><span id="floating_point_or_complex_return_types_with__decode__are_not_supported_in_-oicf__using_-oi"></span><span id="FLOATING_POINT_OR_COMPLEX_RETURN_TYPES_WITH__DECODE__ARE_NOT_SUPPORTED_IN_-OICF__USING_-OI"></span>les types de retour à virgule flottante ou complexe avec [Decode] ne sont pas pris en charge dans-Oicf, à l’aide de-OI</dt> <dd> Les procédures avec des types de retour à virgule flottante ou structure/Union ne sont pas prises en charge dans la sélection de style-Oicf. Une solution de contournement pour 32 bits consiste à utiliser le mode d’optimisation-OI lors de la sérialisation des données (à l’aide de [Encode] et/ou [Decode]). Toutefois, comme l’interpréteur de style ancien et le support de prise en charge sont prêts à être déplacés après la sortie de Windows 2000, l’utilisation de pointeurs est fortement suggérée comme solution de contournement pour ce problème. Notez également que, en règle générale, la modification d’une méthode d’interface pour utiliser un pointeur [out, ref] au lieu de la valeur de retour provoquant le problème est entièrement compatible avec le câble et peut être facilement masquée à partir de la couche d’application. <br/> Cet avertissement peut être supprimé globalement en spécifiant-OI sur la ligne de commande MIDL ou pour une fonction individuelle en ajoutant l’attribut [optimize ( &quot; i &quot; )] à la fonction dans le fichier ACF.<br/> L’exemple suivant illustre le problème :<br/> Roo. idl : <br/>
+<td><dl> <dt><span id="floating_point_or_complex_return_types_with__decode__are_not_supported_in_-Oicf__using_-OI"></span><span id="floating_point_or_complex_return_types_with__decode__are_not_supported_in_-oicf__using_-oi"></span><span id="FLOATING_POINT_OR_COMPLEX_RETURN_TYPES_WITH__DECODE__ARE_NOT_SUPPORTED_IN_-OICF__USING_-OI"></span>les types de retour à virgule flottante ou complexe avec [Decode] ne sont pas pris en charge dans-Oicf, à l’aide de-OI</dt> <dd> Les procédures avec des types de retour à virgule flottante ou structure/Union ne sont pas prises en charge dans la sélection de style-Oicf. Une solution de contournement pour 32 bits consiste à utiliser le mode d’optimisation-OI lors de la sérialisation des données (à l’aide de [Encode] et/ou [Decode]). toutefois, comme l’interpréteur de style ancien et le support de prise en charge sont prêts à être mis en œuvre après la version Windows 2000, l’utilisation de pointeurs est fortement suggérée pour résoudre ce problème. Notez également que, en règle générale, la modification d’une méthode d’interface pour utiliser un pointeur [out, ref] au lieu de la valeur de retour provoquant le problème est entièrement compatible avec le câble et peut être facilement masquée à partir de la couche d’application. <br/> Cet avertissement peut être supprimé globalement en spécifiant-OI sur la ligne de commande MIDL ou pour une fonction individuelle en ajoutant l’attribut [optimize ( &quot; i &quot; )] à la fonction dans le fichier ACF.<br/> L’exemple suivant illustre le problème :<br/> Roo. idl : <br/>
 <pre class="syntax" data-space="preserve"><code>double GetDouble();</code></pre>
 Roo. ACF : <br/>
 <pre class="syntax" data-space="preserve"><code>[decode] GetDouble();</code></pre>

@@ -1,6 +1,6 @@
 ---
 title: commutateur/WinRT
-description: Le commutateur/WinRT active la sémantique Windows Runtime.
+description: le commutateur/winrt active la sémantique Windows Runtime.
 ms.assetid: 910F4106-1CA2-4486-BBD4-57DAC9B4A78F
 keywords:
 - MIDL du commutateur/WinRT
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25746064b18316edab9c497502b802c7d19adaf9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: add020d1228aaeae6e4a319875dd2118c5c0f185c4032ffcf11781768a4e289d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067429"
 ---
 # <a name="winrt-switch"></a>commutateur/WinRT
 
-Le commutateur [**/WinRT**](-winmd.md) active la sémantique Windows Runtime.
+le commutateur [**/winrt**](-winmd.md) active la sémantique Windows Runtime.
 
 ``` syntax
 midlrt /winrt 

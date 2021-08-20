@@ -4,12 +4,12 @@ ms.assetid: fdb6b0fa-0741-4edc-8902-763a461313b9
 title: System.ItemNameDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf735935ee7971acad7d11ee91636e18a6542252
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f34e21c0ded147789cadccc99aaf9b2a1910398430419edacc498214c6489d77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598469"
 ---
 # <a name="systemitemnamedisplay"></a>System.ItemNameDisplay
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
@@ -39,16 +39,16 @@ Cette valeur est le concatentation de [System. ItemNamePrefix](./props-system-it
 
 Si l’élément est un fichier, cette propriété comprend le nom complet comme indiqué dans l’Explorateur de fichiers. Il existe des cas acceptables lorsque [System. FileName](./props-system-filename.md) est donné, mais la valeur de cette propriété est totalement différente. Les messages électroniques sont un bon exemple. Si l’élément est un message électronique, le nom de l’élément est normalement l’objet. Dans ce cas, la valeur doit être la concaténation de [System. ItemNamePrefix](./props-system-itemnameprefix.md) et [System. ItemName](./props-system-itemname.md). Étant donné que la valeur de System. ItemNamePrefix exclut les espaces de fin, la concaténation doit inclure un espace lors de la génération de [System. ItemNameDisplay](). Notez que cette propriété n’est pas nécessairement unique, mais qu’elle est conçue pour promouvoir le candidat le plus probable qui peut être unique et qui paraîtra logique pour les utilisateurs finaux.
 
-Par exemple, pour les documents, [System. title](./props-system-title.md) peut être utilisé en tant que [System. ItemNameDisplay](), mais dans la pratique, le titre des documents peut ne pas être utile ou être suffisamment unique pour fonctionner en tant que System. ItemNameDisplay unique. Au lieu de cela, il est préférable de fournir [System. FileName](./props-system-filename.md) comme valeur de System. ItemNameDisplay. Dans Windows Mail, le courrier électronique est stocké dans le système de fichiers en tant que fichiers. eml. Les valeurs System. FileName de ces fichiers ne sont pas conviviales, car il s’agit de GUID. Dans cet exemple, la promotion de [System. Subject](./props-system-subject.md) en tant que System. ItemNameDisplay est plus appropriée.
+Par exemple, pour les documents, [System. title](./props-system-title.md) peut être utilisé en tant que [System. ItemNameDisplay](), mais dans la pratique, le titre des documents peut ne pas être utile ou être suffisamment unique pour fonctionner en tant que System. ItemNameDisplay unique. Au lieu de cela, il est préférable de fournir [System. FileName](./props-system-filename.md) comme valeur de System. ItemNameDisplay. dans Windows courrier électronique, le courrier électronique est stocké dans le système de fichiers en tant que fichiers. eml. Les valeurs System. FileName de ces fichiers ne sont pas conviviales, car il s’agit de GUID. Dans cet exemple, la promotion de [System. Subject](./props-system-subject.md) en tant que System. ItemNameDisplay est plus appropriée.
 
 **Remarques sur la compatibilité :**
 
--   Implémentations de dossiers Shell sur Windows Vista : utilisez \_ le nom de colonne ItemNameDisplay pour la colonne nom lorsque vous souhaitez que l’Explorateur Windows appelle [**IShellFolder :: GetDisplayNameOf**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof)(SHGDN \_ normal) pour obtenir la valeur du nom. Utilisez un autre nom de fichier, tel que \_ le nom du fichier de la base de au format, lorsque vous souhaitez que l’Explorateur Windows appelle la Banque de propriétés du dossier ou [**IShellFolder2 :: GetDetailsEx**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex) pour obtenir la valeur du nom.
--   Implémentations de dossiers Shell sur Windows XP : la première colonne doit être la colonne Name, et l’Explorateur Windows appelle [**IShellFolder :: GetDisplayNameOf**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) pour récupérer la valeur du nom. Le SCID/le n’a pas d’importance.
+-   implémentations de dossiers Shell sur Windows Vista : utilisez \_ le nom de colonne ItemNameDisplay pour la colonne nom lorsque vous souhaitez que Windows Explorer appelle [**IShellFolder :: GetDisplayNameOf**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof)(SHGDN \_ NORMAL) pour obtenir la valeur du nom. utilisez un autre nom de la base de IShellFolder2, tel que le \_ nom de la propriété _ type. si vous souhaitez que Windows Explorer appelle la banque de propriétés du dossier ou [**:: GetDetailsEx**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex) pour obtenir la valeur du nom.
+-   implémentations de dossiers Shell sur Windows XP : la première colonne doit être la colonne name et Windows Explorer appelle [**IShellFolder :: GetDisplayNameOf**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) pour récupérer la valeur du nom. Le SCID/le n’a pas d’importance.
 
 
 
-| Type d’élément     | Exemple                   |
+| Type d’élément     | Exemples                   |
 |---------------|---------------------------|
 | Fichier          | hello.txt                 |
 | Message       | Re : où est la réunion ? |

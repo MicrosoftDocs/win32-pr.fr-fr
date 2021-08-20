@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 506c1519d65913844125f42a1db5b898d8f06f17
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8e8944d577c4c2f1b0fca1bd386c61c03b0bc421a98914813ae9af57a121496f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583489"
 ---
 # <a name="ms-net-ieee-80211-gp-policyguid-attribute"></a>attribut ms-net-IEEE-80211-GP-PolicyGUID
 
@@ -41,7 +41,7 @@ Contient un GUID qui identifie un objet stratégie de groupe 802,11 spécifique 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

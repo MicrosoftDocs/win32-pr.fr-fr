@@ -1,17 +1,17 @@
 ---
-description: Cette section de référence décrit la configuration de Windows et des messages. En savoir plus sur les éléments d’affichage et les mesures système.
+description: cette section de référence décrit la configuration des Windows et des Messages. En savoir plus sur les éléments d’affichage et les mesures système.
 ms.assetid: aba21473-07cc-4de9-a310-ad9b43c133eb
-title: Configuration (Windows et messages)
+title: Configuration (Windows et Messages)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffa516e87aa7d338d4e2fd46a160fcbd6dadb305
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 72a5c910fd9614d4d0e8fe9f6ba38d9dd59a0fd5649e836c3629427cde5d8617
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028467"
 ---
-# <a name="configuration-windows-and-messages"></a>Configuration (Windows et messages)
+# <a name="configuration-windows-and-messages"></a>Configuration (Windows et Messages)
 
 Les *éléments d’affichage* sont les parties d’une fenêtre et l’affichage qui s’affichent sur l’écran d’affichage du système. Les *métriques du système* sont les dimensions de différents éléments d’affichage. Les métriques système typiques incluent la largeur de la bordure de la fenêtre, la hauteur de l’icône, et ainsi de suite. Les métriques système décrivent également d’autres aspects du système, par exemple si une souris est installée, si des caractères codés sur deux octets sont pris en charge ou si une version de débogage du système d’exploitation est installée. La fonction [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) récupère la métrique système spécifiée.
 

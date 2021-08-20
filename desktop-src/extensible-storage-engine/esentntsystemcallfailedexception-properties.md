@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102334
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4f76b4c2b18efce50d28ec3dacaeaaa32ec6a511
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9301410905e7e48641ed694f7612aed4f28600b22bf1949fc3ca0503100293b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104554422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119040330"
 ---
 # <a name="esentntsystemcallfailedexception-properties"></a>Propriétés EsentNTSystemCallFailedException
 
@@ -49,7 +49,7 @@ Le type [EsentNTSystemCallFailedException](./esentntsystemcallfailedexception-cl
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

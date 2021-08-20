@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102313
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c197b10effd074cde9237e7cb85693c9da0adc90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 804c70e70976588d00ab8327a76e5ee6d0300752fd3e22807628c1e767b2b1a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104562533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119040217"
 ---
 # <a name="esentnullinvalidexception-properties"></a>Propriétés EsentNullInvalidException
 
@@ -49,7 +49,7 @@ Le type [EsentNullInvalidException](./esentnullinvalidexception-class.md) expose
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

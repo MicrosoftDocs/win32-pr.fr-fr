@@ -1,6 +1,6 @@
 ---
 title: Interface IRMGetLicense
-description: L’interface IRMGetLicense est implémentée dans une bibliothèque Runtime installée dans le cadre du kit de développement logiciel (SDK) du format Windows Media.
+description: l’interface IRMGetLicense est implémentée dans une bibliothèque runtime qui est installée dans le cadre du kit de développement logiciel (SDK) de Format multimédia Windows.
 ms.assetid: 95a8cf57-72a4-496d-8d25-d094b47c3a57
 keywords:
 - Format Windows Media de l’interface IRMGetLicense
@@ -14,18 +14,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3aa63bc7b351aab0a02c36dc16cb3600e405b26f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ad5f74400fd35356967942403ae4f3c3024b6259a4ab7e62ffa544267a308b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585629"
 ---
 # <a name="irmgetlicense-interface"></a>Interface IRMGetLicense
 
 \[**IRMGetLicense** peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Utilisez plutôt [Microsoft PlayReady](https://www.microsoft.com/PlayReady/). \]
 
-L’interface **IRMGetLicense** est implémentée dans une bibliothèque Runtime installée dans le cadre du kit de développement logiciel (SDK) du format Windows Media. Il permet d’acquérir une licence côté client. Étant donné que cette méthode est utilisée par les émetteurs de licence via des applications Web, elle est documentée dans la documentation du kit de développement logiciel (SDK) Windows Media Rights Manager.
+l’interface **IRMGetLicense** est implémentée dans une bibliothèque runtime qui est installée dans le cadre du kit de développement logiciel (SDK) de Format multimédia Windows. Il permet d’acquérir une licence côté client. étant donné que cette méthode est utilisée par les émetteurs de licence via des applications Web, elle est documentée dans la documentation Windows du kit de développement logiciel (SDK) Media Rights Manager.
 
 ## <a name="members"></a>Membres
 

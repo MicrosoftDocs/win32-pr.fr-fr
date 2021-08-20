@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102267
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a788cb582bb711dbb7ed8f3710fed662d8aef3b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a646fc1a36c317c2799f4043c2b0ca1ce0d8d11842074eefe75a08854f5ab9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119040559"
 ---
 # <a name="esentmultivaluedindexviolationexception-properties"></a>Propriétés EsentMultiValuedIndexViolationException
 
@@ -49,7 +49,7 @@ Le type [EsentMultiValuedIndexViolationException](./esentmultivaluedindexviolati
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

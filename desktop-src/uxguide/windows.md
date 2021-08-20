@@ -1,22 +1,22 @@
 ---
 title: Windows (concepts de base de la conception)
-description: Windows sont les principaux \ 0034 ; Canvas \ 0034 ; ou les surfaces d’interface utilisateur de votre application de bureau, y compris les fenêtres principales et les fenêtres contextuelles, les boîtes de dialogue et les assistants. Suivez ces instructions pour déterminer la surface à utiliser et la meilleure façon de les utiliser.
+description: les Windows sont les 0034 de travail principaux \ 0034 ; ou les surfaces d’interface utilisateur de votre application de bureau, y compris les fenêtres principales et les fenêtres contextuelles, les boîtes de dialogue et les assistants. Suivez ces instructions pour déterminer la surface à utiliser et la meilleure façon de les utiliser.
 ms.assetid: E1FA78DA-D580-4B0E-AB59-29F013278766
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 5b7bb58750635af25d49208992d5583c44520a04
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 0664a6671e477f2b12f25b928fb39be69ac698ceba876aae5d8b65774e006edb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103953323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028957"
 ---
 # <a name="windows-design-basics"></a>Windows (concepts de base de la conception)
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
-Les fenêtres sont les « canevas » principaux ou les surfaces d’interface utilisateur de votre application de bureau, y compris les fenêtres principales et les fenêtres contextuelles, les boîtes de dialogue et les assistants. Suivez ces instructions pour déterminer la surface à utiliser et la meilleure façon de les utiliser.
+Windows sont les surfaces principales des « canevas » ou de l’interface utilisateur de votre application de bureau, y compris les fenêtres principales et les fenêtres contextuelles, les boîtes de dialogue et les assistants. Suivez ces instructions pour déterminer la surface à utiliser et la meilleure façon de les utiliser.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -48,14 +48,14 @@ Les fenêtres sont les « canevas » principaux ou les surfaces d’interface 
 </tr>
 <tr class="even">
 <td><a href="win-common-dlg.md">Boîtes de dialogue courantes</a><br/></td>
-<td>Les boîtes de dialogue communes à Microsoft Windows se composent des boîtes de dialogue Ouvrir un fichier, enregistrer un fichier, ouvrir le dossier, Rechercher et remplacer, imprimer, mise en page, police et couleur.<br/></td>
+<td>les boîtes de dialogue courantes de Microsoft Windows consistent en des boîtes de dialogue ouvrir le fichier, enregistrer le fichier, ouvrir le dossier, rechercher et remplacer, imprimer, mise en Page, police et couleur.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="win-wizards.md">Assistants</a><br/></td>
 <td>Malgré ce merveilleux, le nom de saugrenu, les assistants ne sont pas véritablement une forme spéciale de l’interface utilisateur, et ils n’ont qu’une gamme particulière d’utilitaires. <br/></td>
 </tr>
 <tr class="even">
-<td><a href="win-property-win.md">Fenêtres de propriétés</a><br/></td>
+<td><a href="win-property-win.md">Windows de propriété</a><br/></td>
 <td>La fenêtre Propriétés est le nom collectif pour les types d’interfaces utilisateur (IU) suivants :<br/>
 <ul>
 <li>Feuille de propriétés : permet d' <strong>afficher et de modifier les propriétés d’un objet ou d’une collection d’objets dans une boîte de dialogue</strong>.</li>

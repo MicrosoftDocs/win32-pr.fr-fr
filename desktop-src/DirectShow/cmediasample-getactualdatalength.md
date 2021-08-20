@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2e65b72c1e0b6db85a271c10f76e5630b0799b78
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 67d41c23e45ba65416a0f57336e51d2784b194ee556a778b7036e8dc5fd829ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016387"
 ---
 # <a name="cmediasamplegetactualdatalength-method"></a>Méthode CMediaSample. GetActualDataLength
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne la longueur des données valides, en octets.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La variable membre [**CMediaSample :: m \_ lActual**](cmediasample-m-lactual.md) spécifie cette propriété.
 
@@ -54,7 +54,7 @@ La variable membre [**CMediaSample :: m \_ lActual**](cmediasample-m-lactual.md
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

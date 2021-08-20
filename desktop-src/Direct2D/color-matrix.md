@@ -6,12 +6,12 @@ keywords:
 - effet matrice de couleurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1078b1858bc68396546e1036c717e01acb1069c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ec8bb461698e4f8b39eef3bed57fc21947f3cc1175c1bdf4f990629db87e1c5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119653302"
 ---
 # <a name="color-matrix-effect"></a>Effet matrice de couleurs
 
@@ -31,7 +31,7 @@ Le CLSID de cet effet est CLSID \_ D2D1ColorMatrix.
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
 -   [Modes alpha](#alpha-modes)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -43,7 +43,7 @@ L’exemple ci-dessous montre les images d’entrée et de sortie de l’effet d
 | Avant                                                       |
 |--------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)   |
-| After                                                        |
+| Après                                                        |
 | ![image après la transformation.](images/15-colormatrix.png) |
 
 
@@ -90,7 +90,7 @@ Cet effet fonctionne sur les images alpha directes et prémultipliées.
 
 
 
-| Nom                                          | Description                                                                                               |
+| Name                                          | Description                                                                                               |
 |-----------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | D2D1 \_ COLORMATRIX \_ \_ en mode Alpha \_ prémultiplié | L’effet annule la prémultiplication de l’entrée, applique la matrice de couleurs et prémultiplie la sortie.<br/> |
 | \_Mode d2d1 \_ COLORMATRIX \_ alpha \_ simple      | L’effet applique la matrice de couleurs directement à l’entrée et ne prémultiplie pas la sortie.<br/> |
@@ -105,8 +105,8 @@ Cet effet fonctionne sur les images alpha directes et prémultipliées.
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

@@ -4,12 +4,12 @@ ms.assetid: f9503c3b-6c43-442c-af43-3415ad17626f
 title: Événements de collection de traits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04388179c53a4b85c5333ae6061cdd7612967174
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24be819f63fa29cd0d650ce27f760984ca6d917886fe5f45e1ec72cf4c9fe2ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589779"
 ---
 # <a name="strokes-collection-events"></a>Événements de collection de traits
 

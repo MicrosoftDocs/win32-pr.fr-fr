@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 160d84c2a466bff34070a6dec4a34804d5a3a7fc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: de612b2ece1f186fef218d8642d8ce2e28154c159df1bb5203f0fe4692f6baab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020457"
 ---
 # <a name="settcpmaxconnectretransmissions-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetTcpMaxConnectRetransmissions de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le délai de retransmission initial est de trois secondes, et double pour chaque tentative successive.
 
@@ -418,8 +418,8 @@ L’exemple VBScript de [modification de la connexion TCP maximale autorisée](h
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista, Windows Vista<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Windows Server 2008, Windows Server 2008<br/>                                     |
+| Client minimal pris en charge<br/> | Windows vista, Windows vista<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows serveur 2008, Windows server 2008<br/>                                     |
 | Espace de noms<br/>                | \\Cimv2 racine<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |

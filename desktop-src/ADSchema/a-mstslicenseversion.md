@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc5efe318157f55cad5a7cae23e6e9b189608acb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 156efd0ea3f58cdab34afec5a848f98219cdd6afebb146801d0a3c874614e9d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103949855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022567"
 ---
 # <a name="ms-ts-licenseversion-attribute"></a>Attribut MS-TS-LicenseVersion
 
@@ -42,7 +42,7 @@ Version de la licence Terminal Server.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 54611c83c30ad65a806a077dc51c933a9f881636
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3f1865652edf01a612ba7d1a46520f92a8461c9ba53a80395e27e6252e0018ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073763"
 ---
 # <a name="convertvideoinfotovideoinfo2-function"></a>ConvertVideoInfoToVideoInfo2 fonction)
 
@@ -53,7 +53,7 @@ Pointeur vers la structure de [**\_ \_ type de média am**](/windows/win32/api/s
 
 Retourne S \_ OK ou E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction alloue une nouvelle structure **VIDEOINFOHEADER2** , y copie les membres de la structure **VIDEOINFOHEADER** , puis remplace l’ancienne structure par la nouvelle structure dans le bloc de format du type de média.
 
@@ -63,7 +63,7 @@ Cette fonction alloue une nouvelle structure **VIDEOINFOHEADER2** , y copie les 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

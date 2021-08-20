@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a99717e41424a99b3c1e79674426fb14c5b57b9d
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: b1ebf3cec41c4180a4dcad4a5a7c273996f70bfdb6d052127ff71dd1b929238c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106540954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073993"
 ---
 # <a name="cmediatypecmediatype-constructor-mtypeh---majortype-parameter"></a>CMediaType. CMediaType, constructeur (mtype. h)-paramètre MajorType
 
@@ -49,7 +49,7 @@ Pointeur vers un **GUID** de type principal. Le constructeur initialise le GUID 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le constructeur appelle la méthode [**CMediaType :: InitMediaType**](cmediatype-initmediatype.md) pour initialiser le type de média.
 
@@ -57,7 +57,7 @@ Le constructeur appelle la méthode [**CMediaType :: InitMediaType**](cmediatyp
 
 | Condition requise                   | Valeur                                                                                                                                                                                           |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête  | Mtype. h (include streams. h)                                                                                     |
+| En-tête  | Mtype. h (include Flux. h)                                                                                     |
 | Bibliothèque | Strmbase. lib (versions commerciales); Strmbasd. lib (versions Debug) |
 
 ## <a name="see-also"></a>Voir aussi

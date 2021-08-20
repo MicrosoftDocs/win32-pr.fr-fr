@@ -4,12 +4,12 @@ description: Les développeurs peuvent créer une DLL de script personnalisé qu
 ms.assetid: c27b8b02-6018-4441-a355-1fb890b9001c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c625f020d9dafcb352c5f1b382014f9dba189330
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 66ac0bd83b8d7c48ee8b0468d89a70d19a5e5e6555b9a8bc8ac86d66c8cd666e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673279"
 ---
 # <a name="ras-custom-scripting"></a>Scripts personnalisés RAS
 
@@ -23,11 +23,11 @@ Pour configurer la DLL, créez une valeur portant le nom **CustomScriptDllPath**
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            Rasman
-               Parameters
+   System
+      CurrentControlSet
+         Services
+            Rasman
+               Parameters
 ```
 
 Cette valeur doit être de type **reg \_ expand \_ SZ**. La valeur doit contenir le chemin d’accès à la DLL de script personnalisé. Une seule DLL de script personnalisé est prise en charge pour chaque ordinateur client RAS.
@@ -49,7 +49,7 @@ RAS passe un pointeur vers une structure [**RASCUSTOMSCRIPTEXTENSIONS**](/previo
 
 RAS sert d’intermédiaire pour l’interaction entre le serveur et la DLL de script personnalisé. En règle générale, le serveur lance la boîte de dialogue. Par exemple, le serveur peut demander le nom d’utilisateur et le mot de passe de l’utilisateur.
 
-Lorsque vous utilisez des scripts personnalisés pour établir une connexion, le serveur n’a pas besoin d’exécuter Windows NT 4,0 ou Windows 2000.
+lorsque vous utilisez des scripts personnalisés pour établir une connexion, le serveur n’a pas besoin d’être en cours d’exécution Windows NT 4,0 ou Windows 2000.
 
 ## <a name="custom-scripting-user-interface-must-support-idcancel"></a>L’interface utilisateur de script personnalisé doit prendre en charge IDCANCEL
 
@@ -57,7 +57,7 @@ Si le numéroteur personnalisé affiche une interface utilisateur, l’interface
 
 ## <a name="configuring-the-connection"></a>Configuration de la connexion
 
-Le point d’entrée [**RasCustomScriptExecute**](/windows/desktop/api/Ras/nc-ras-rascustomscriptexecutefn) peut être appelé à partir de [**RasDialDlg**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga) ou, sur Windows XP, à partir de [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala).
+le point d’entrée [**RasCustomScriptExecute**](/windows/desktop/api/Ras/nc-ras-rascustomscriptexecutefn) peut être appelé à partir de [**RasDialDlg**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga) ou, sur Windows XP, à partir de [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala).
 
 Pour appeler [**RasCustomScriptExecute**](/windows/desktop/api/Ras/nc-ras-rascustomscriptexecutefn) à partir de [**RasDialDlg**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga), définissez l' \_ option RASEO CustomScript dans l’entrée de l’annuaire téléphonique pour la connexion. Consultez le membre **dwfOptions** de [**RASENTRY**](/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)) pour obtenir une description des options d’entrée de l’annuaire téléphonique. Utilisez les fonctions [**RasGetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rasgetentrypropertiesa) et [**RasSetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rassetentrypropertiesa) pour définir cette option par programmation.
 
@@ -67,8 +67,8 @@ Pour appeler [**RasCustomScriptExecute**](/windows/desktop/api/Ras/nc-ras-rascus
 
 Si l’utilisateur active une connexion pour une entrée de l’annuaire téléphonique pour laquelle RASEO \_ CustomScript est défini, Ras appelle la dll de script personnalisé. Dans ce scénario, RAS appelle la DLL de script personnalisé à partir de [**RasDialDlg**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga).
 
-Pour appeler la DLL de script personnalisé par programmation, établissez la connexion à l’aide de la fonction [**RasDialDlg**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga) . Sur Windows XP, la fonction [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) appelle également la dll de script personnalisé.
+Pour appeler la DLL de script personnalisé par programmation, établissez la connexion à l’aide de la fonction [**RasDialDlg**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga) . sur Windows XP, la fonction [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) appelle également la DLL de script personnalisé.
 
- 
+ 
 
- 
+ 

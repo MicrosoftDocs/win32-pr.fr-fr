@@ -4,12 +4,12 @@ ms.assetid: ab346da5-4b13-489e-be6d-27cece52cd09
 title: System. contact. OtherAddressStreet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42748d6b2776335f08b222b8a383462d947bd719
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae89e5c09bf27e7de28499d7025efb5de924a6379f370dc48e20043dcfab9e4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599259"
 ---
 # <a name="systemcontactotheraddressstreet"></a>System. contact. OtherAddressStreet
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

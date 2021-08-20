@@ -1,11 +1,11 @@
 ---
 title: External. playMedia, méthode
-description: Cette page décrit une fonctionnalité du kit de développement logiciel (SDK) Windows Media Player 9 Series et le kit de développement logiciel (SDK) Windows Media Player 10. Elle n’est peut-être pas disponible dans les versions ultérieures.
+description: cette page documente une fonctionnalité du kit de développement logiciel (sdk) série Lecteur Windows Media 9 et le kit de développement logiciel (sdk) Lecteur Windows Media 10. Elle n’est peut-être pas disponible dans les versions ultérieures.
 ms.assetid: 48071318-e853-4139-8fe4-17d1cdbef8f5
 keywords:
-- méthode playMedia lecteur Windows Media
-- méthode playMedia lecteur Windows Media, classe externe
-- Classe externe lecteur Windows Media, méthode playMedia
+- Lecteur Windows Media de la méthode playMedia
+- méthode playMedia Lecteur Windows Media, classe externe
+- Lecteur Windows Media de classe externe, méthode playMedia
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cf0330e7e68d8b4e3747c019e0841f872d279c9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65c2a5d49da302a1cdf2b702408d02e8f5f2fc5f0da5eb7f392af75d0581b1fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648609"
 ---
 # <a name="externalplaymedia-method"></a>External. playMedia, méthode
 
-Cette page décrit une fonctionnalité du kit de développement logiciel (SDK) Windows Media Player 9 Series et le kit de développement logiciel (SDK) Windows Media Player 10. Elle n’est peut-être pas disponible dans les versions ultérieures.
+cette page documente une fonctionnalité du kit de développement logiciel (sdk) série Lecteur Windows Media 9 et le kit de développement logiciel (sdk) Lecteur Windows Media 10. Elle n’est peut-être pas disponible dans les versions ultérieures.
 
 > [!Note]  
 > Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge.
@@ -60,7 +60,7 @@ External.playMedia(
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est uniquement disponible pour les pages Web hébergées dans la fonctionnalité de **Guide** .
 

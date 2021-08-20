@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 923584e765f1964a5bbbee01650844d358fda258
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 70588d52b62a10151eaa04acdea017e98ea20219ca2966da13f9f9eadc6a76de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022437"
 ---
 # <a name="per-recip-dialog-display-table-attribute"></a>Attribut par Recip-Dialog-Display-table
 
@@ -45,7 +45,7 @@ Table d’affichage MAPI pour les options par destinataire.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

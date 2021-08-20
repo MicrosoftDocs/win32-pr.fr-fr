@@ -3,9 +3,9 @@ title: External. Download, méthode
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. La méthode Download lance le téléchargement d’un ensemble d’éléments multimédias.
 ms.assetid: 10bae41c-0658-4712-8a7e-375a1ec6dc25
 keywords:
-- Télécharger la méthode lecteur Windows Media
-- méthode de téléchargement lecteur Windows Media, classe externe
-- Classe externe lecteur Windows Media, méthode de téléchargement
+- télécharger la méthode Lecteur Windows Media
+- télécharger la méthode Lecteur Windows Media, classe externe
+- Lecteur Windows Media de classe externe, méthode de téléchargement
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35ef0c6e6c32e8959e402080796f29a3860fe728
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 766f96a6db5f2114724e7545eaac7a269bf52e2e657872a8078b490621c794df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649219"
 ---
 # <a name="externaldownload-method"></a>External. Download, méthode
 

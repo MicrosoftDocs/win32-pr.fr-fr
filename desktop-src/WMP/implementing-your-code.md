@@ -3,7 +3,7 @@ title: Implémentation de votre code
 description: Implémentation de votre code
 ms.assetid: 875b27b3-10ee-498a-bbd1-f9ce69fda17e
 keywords:
-- Plug-ins du lecteur Windows Media, visualisations
+- plug-ins Lecteur Windows Media, visualisations
 - plug-ins, visualisations
 - visualisations, implémenter du code
 - visualisations personnalisées, implémentation du code
@@ -11,12 +11,12 @@ keywords:
 - visualisations personnalisées, modification de l’exemple de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 716173d9f2c3d44bb3faabddaa8fe886b6582fba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d1952ac3d7f38c423c82fb185be4ed7750b02d24155d7ff5ac38e70e238c8d38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106544135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508889"
 ---
 # <a name="implementing-your-code"></a>Implémentation de votre code
 
@@ -35,9 +35,9 @@ Les sections suivantes fournissent des détails sur la modification de l’exemp
 [**À propos des visualisations personnalisées**](about-custom-visualizations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

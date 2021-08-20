@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Setupapi.dll
-ms.openlocfilehash: 6fcb56f26d5aea233156e0fe3dfab13099d29df7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d28bb948d351b2b9ad54c7e2bdc8c8cbfde83f6f4ade42a0f90440eca28bfc05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955698"
 ---
 # <a name="psetupsetglobalflags-function"></a>pSetupSetGlobalFlags fonction)
 
-\[Cette fonction n’est pas disponible dans Windows Vista ou Windows Server 2008.\]
+\[cette fonction n’est pas disponible dans Windows Vista ou Windows Server 2008.\]
 
 Désactive les fonctionnalités.
 
@@ -63,7 +63,7 @@ Indicateurs utilisés pour désactiver l’interface utilisateur ou la sauvegard
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

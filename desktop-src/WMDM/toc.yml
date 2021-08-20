@@ -1,4 +1,4 @@
-- name: Kit de développement logiciel (SDK) Windows Media Gestionnaire de périphériques 11
+- name: Windows Kit de développement logiciel (SDK) Media Gestionnaire de périphériques 11
   href: windows-media-device-manager-11-sdk.md
   items:
     - name: Mise en route
@@ -6,7 +6,7 @@
       items:
         - name: Éléments inclus dans le kit de développement logiciel (SDK)
           href: whats-included-with-the-sdk.md
-        - name: Architecture Windows Media Gestionnaire de périphériques
+        - name: Windows Architecture du Gestionnaire de périphériques multimédia
           href: windows-media-device-manager-architecture.md
         - name: Outils de développement
           href: tools-for-development.md
@@ -54,7 +54,7 @@
               href: handling-protected-content.md
             - name: Obtention et définition des métadonnées et des attributs
               href: getting-and-setting-metadata-and-attributes.md
-        - name: Création d’une application Windows Media Gestionnaire de périphériques
+        - name: création d’une Application de Gestionnaire de périphériques multimédia Windows
           href: creating-a-windows-media-device-manager-application.md
           items:
             - name: Déclaration de confidentialité
@@ -96,7 +96,7 @@
               href: enabling-notifications.md
             - name: Contrôle de l’utilisation du contenu
               href: metering-content-usage.md
-            - name: Mappage des flux RSS sur les propriétés de Gestionnaire de périphériques Windows Media
+            - name: mappage des flux RSS aux propriétés du Gestionnaire de périphériques de médias Windows
               href: mapping-rss-feeds-to-windows-media-device-manager-properties.md
         - name: Création d’un fournisseur de services
           href: creating-a-service-provider.md
@@ -119,9 +119,9 @@
               href: mandatory-and-optional-interfaces.md
             - name: Gestion du contenu protégé dans le fournisseur de services
               href: handling-protected-content-in-the-service-provider.md
-            - name: Activation de la synchronisation avec le lecteur Windows Media
+            - name: activation de la synchronisation avec Lecteur Windows Media
               href: enabling-synchronization-with-windows-media-player.md
-            - name: Configuration requise pour que les lecteurs audio portables s’affichent dans l’Explorateur Windows
+            - name: configuration requise pour que les lecteurs Audio portables s’affichent dans l’explorateur de Windows
               href: requirements-for-portable-audio-players-to-appear-in-windows-explorer.md
     - name: Guide de référence de programmation
       href: programming-reference.md
@@ -753,7 +753,7 @@
                   href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-gettotalsize
                 - name: "IMDSPStorageGlobals\_:: Initialize"
                   href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-initialize
-        - name: Interfaces Windows Media DRM-Implemented
+        - name: Windows Interfaces de DRM-Implemented de média
           href: windows-media-drm-implemented-interfaces.md
           items:
             - name: Interface IWMDRMDevice

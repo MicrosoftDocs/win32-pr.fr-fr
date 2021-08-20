@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09bec6abf296d807f80ab77cdc7ad8b4062fea9b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 673ef12d1e02d87e068784408824bb78dbbbad5dfd5c907ece58c3eb7673e957
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119534929"
 ---
 # <a name="getnumberofphysicalmonitors-function"></a>GetNumberOfPhysicalMonitors fonction)
 
@@ -64,7 +64,7 @@ Reçoit le nombre de moniteurs physiques.
 
 Si la méthode réussit, elle retourne l' **état \_ Success**. Sinon, elle retourne un code d’erreur **NTSTATUS** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Au lieu d’utiliser cette fonction, les applications doivent appeler l’une des fonctions suivantes :
 
@@ -79,8 +79,8 @@ Cette fonction n’a pas de bibliothèque d’importation associée. Pour appele
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Gdi32.dll</dt> </dl> |
 
 

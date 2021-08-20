@@ -4,12 +4,12 @@ ms.assetid: 007a6da5-47cf-476a-b0f7-566a68ad19ce
 title: Multiplexeur ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 362a1e0be72e8bc516e37ec83c36446177816f53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86e1577f005004dbbe6bbb27e1ce7af346e56e134aff2b3201f5670175b015c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035560"
 ---
 # <a name="asf-multiplexer"></a>Multiplexeur ASF
 
@@ -41,7 +41,7 @@ Cette section contient les rubriques suivantes :
 [Composants WMContainer ASF](wmcontainer-asf-components.md)
 </dt> <dt>
 
-[Didacticiel : copie de flux de fichiers ASF d’un fichier à un autre](tutorial--copying-asf-streams-from-one-file-to-another.md)
+[didacticiel : copie de Flux ASF d’un fichier à un autre](tutorial--copying-asf-streams-from-one-file-to-another.md)
 </dt> <dt>
 
 [Didacticiel : écriture d’un fichier WMA à l’aide de l’encodage CBR](tutorial--writing-a-wma-file-by-using-cbr-encoding.md)

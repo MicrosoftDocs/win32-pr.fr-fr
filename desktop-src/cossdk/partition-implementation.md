@@ -4,12 +4,12 @@ ms.assetid: fbe894ae-5356-4522-884a-dc579a3a8dd3
 title: Implémentation de la partition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0130b1d2daeddee28b01271aa6b767ebc5a7eac5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3014aac80e853ca387538faf034eeadae91dd70cf36931de34638cbcbec7b02f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047347"
 ---
 # <a name="partition-implementation"></a>Implémentation de la partition
 

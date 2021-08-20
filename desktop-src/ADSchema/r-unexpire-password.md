@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 852b7fe71e972818227fdeedb9471054f7dd936e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3df758f0e1786d8b5fee2d722087f6da9df0483384eff844ff433ae04f5b4c5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580539"
 ---
 # <a name="unexpire-password-extended-right"></a>Unexpire-Password le droit étendu
 
@@ -38,7 +38,7 @@ Droit d’accès du contrôle étendu qui permet à un utilisateur de restaurer 
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

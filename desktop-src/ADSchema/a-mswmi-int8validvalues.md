@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f90a58aa78636712ee6fa295787917569dfac35
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 758db289046c9a749abc015c279e0591dae461e0d442ebc35ef5af0162dafb9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106513254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507619"
 ---
 # <a name="ms-wmi-int8validvalues-attribute"></a>attribut ms-WMI-int8ValidValues
 
@@ -36,7 +36,7 @@ Valeurs valides pour un objet de paramètre entier WMI 64 bits.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1635              |
 | System-ID-GUID    | 103519a9-c002-441b-981a-b0b3e012c803 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -44,7 +44,7 @@ Valeurs valides pour un objet de paramètre entier WMI 64 bits.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

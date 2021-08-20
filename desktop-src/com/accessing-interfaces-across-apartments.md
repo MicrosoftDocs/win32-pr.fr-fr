@@ -4,12 +4,12 @@ description: Accès aux interfaces à travers les Apartments
 ms.assetid: 4e0467b9-bbf1-410c-8aab-40450a7f963a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 626707daf721aee3b440bb79ba2d1e084d154a98
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e89e82fa29e768328e6c110349627d32e92ab010ce61fdf64141ad3ca7fe9a54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048917"
 ---
 # <a name="accessing-interfaces-across-apartments"></a>Accès aux interfaces à travers les Apartments
 
@@ -26,7 +26,7 @@ Un objet agile ne tient pas compte de l’infrastructure COM sous-jacente dans l
 > [!Note]  
 > La table d’interface globale n’étant pas portable au-delà des limites des processus ou des ordinateurs, elle ne peut pas être utilisée à la place du mécanisme de passage de paramètres normal.
 
- 
+ 
 
 Pour plus d’informations sur la création et l’utilisation d’une table d’interface globale, consultez les rubriques suivantes :
 
@@ -55,9 +55,9 @@ Pour plus d’informations sur la création et l’utilisation d’une table d�
 [Apartments (cloisonnés) à thread unique](single-threaded-apartments.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

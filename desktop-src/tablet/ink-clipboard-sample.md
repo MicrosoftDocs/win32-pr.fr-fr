@@ -4,12 +4,12 @@ ms.assetid: a0c42f1c-543d-44f8-83d9-fe810de410ff
 title: Exemple de presse-papiers Ink
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95c5da0bc0ba9a7e3a1b4e1a5c52784f10fb2023
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73aa8acdf785321dc01706d4a4de50e0a2673a31250edbfa4316a27aecd0ce3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032327"
 ---
 # <a name="ink-clipboard-sample"></a>Exemple de presse-papiers Ink
 
@@ -38,7 +38,7 @@ Cet exemple illustre le rendu de l’encre, la copie de cette encre, puis le col
 
 ## <a name="collecting-ink-and-setting-up-the-form"></a>Collecte de l’encre et configuration du formulaire
 
-Tout d’abord, référencez les interfaces d’automatisation Tablet PC, qui sont installées avec le <entity type="reg"/> Kit de développement logiciel (SDK) de Microsoft Windows XP Tablet PC Edition.
+tout d’abord, référencez les interfaces d’automatisation tablet pc, qui sont installées avec le <entity type="reg"/> kit de développement logiciel (SDK) de Microsoft Windows XP tablet pc Edition.
 
 
 ```C++

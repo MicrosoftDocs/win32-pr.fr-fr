@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 366bebf398c5c776e43d5cdee4b99e28e8c580fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df214f23c09b7439843f0d7e8947d40cc32b2bf30eece887c921aac34306fbdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059187"
 ---
 # <a name="iconnectionbrokerclientgettargetinfo-method"></a>IConnectionBrokerClient :: GetTargetInfo, méthode
 
@@ -180,7 +180,7 @@ Adresse d’un pointeur d’interface [**IConnectionBrokerRequest**](iconnection
 
 Retourne **E \_ en attente** si la requête asynchrone est créée. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est asynchrone. Les paramètres *pTargetInfo* et *pResult* doivent rester valides jusqu’à ce que la méthode [**IConnectionBrokerRequest :: CheckStatus**](iconnectionbrokerrequest-checkstatus.md) obtienne la **demande d’État CB \_ \_ \_ terminée**.
 

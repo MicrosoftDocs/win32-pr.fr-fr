@@ -4,17 +4,17 @@ ms.assetid: 37d9d1c6-c67d-493f-9660-bac5a47ac081
 title: UserID (attribut)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eb27a616670cd323efee4c1424f7968d00ba617
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd01022f149eef73cbed164c15e2ab1c66fa378b9b4d440919941a374cfed068
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072213"
 ---
 # <a name="userid-attribute"></a>UserID (attribut)
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: abcd805b417451adf2122e7baf3310be101a35ff
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0782db83d5c92a0e39578bc4e0d46e2c1d41432feb418a08bceb2e3548a45b5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069519"
 ---
 # <a name="tcpip-class"></a>TcpIp (classe)
 
@@ -38,7 +38,7 @@ class TcpIp : MSNT_SystemTrace
 
 La classe **TcpIp** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Pour activer les événements TCP/IP dans une session de journalisation du noyau NT, spécifiez l’indicateur de **trace d’événement indicateur \_ \_ \_ réseau \_ tcpip** dans le membre **EnableFlags** d’une structure de propriétés de [**\_ trace \_ d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) lors de l’appel de la fonction [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) .
 
@@ -49,7 +49,7 @@ Les consommateurs de suivi d’événements peuvent implémenter un traitement s
 | Type d'événement                                                            | Description                                                                                                                                                                                   |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Événement \_ Type de suivi \_ \_ Accept**(la valeur de type d’événement est 15)<br/>     | Accepter un événement pour le protocole IPv4. La classe MOF [**\_ TypeGroup2**](tcpip-typegroup2.md) MOF définit les données d’événement pour cet événement.                                                            |
-| **Événement \_ Type de suivi \_ \_ Connect**(la valeur de type d’événement est 12)<br/>    | Événement Connect pour le protocole IPv4. La classe MOF [**\_ TypeGroup2**](tcpip-typegroup2.md) MOF définit les données d’événement pour cet événement.                                                           |
+| **Événement \_ Type de suivi \_ \_ Connect**(la valeur de type d’événement est 12)<br/>    | Connecter événement pour le protocole IPv4. La classe MOF [**\_ TypeGroup2**](tcpip-typegroup2.md) MOF définit les données d’événement pour cet événement.                                                           |
 | **Événement \_ Type de TRACE \_ \_ Disconnect**(la valeur du type d’événement est 13)<br/> | Événement de déconnexion pour le protocole IPv4. La classe MOF [**\_ TypeGroup1**](tcpip-typegroup1.md) MOF définit les données d’événement pour cet événement.                                                        |
 | **Événement \_ \_ \_ Réception du type de suivi**(la valeur du type d’événement est 11)<br/>    | Événement de réception pour le protocole IPv4. La classe MOF [**\_ TypeGroup1**](tcpip-typegroup1.md) MOF définit les données d’événement pour cet événement.                                                           |
 | **Événement \_ \_REconnexion \_ du type de suivi**(la valeur du type d’événement est 16)<br/>  | Événement de reconnexion pour le protocole IPv4. (Une tentative de connexion a échoué et une autre tentative est effectuée.) La classe MOF [**\_ TypeGroup1**](tcpip-typegroup1.md) MOF définit les données d’événement pour cet événement. |
@@ -59,7 +59,7 @@ Les consommateurs de suivi d’événements peuvent implémenter un traitement s
 | Valeur de type d’événement, 18                                                  | Événement TCP Copy pour le protocole IPv4. La classe MOF [**\_ TypeGroup1**](tcpip-typegroup1.md) MOF définit les données d’événement pour cet événement.                                                          |
 | Valeur de type d’événement, 26                                                  | Envoi d’un événement pour le protocole IPv6. La classe MOF [**\_ SendIPV6**](tcpip-sendipv6.md) MOF définit les données d’événement pour cet événement.                                                                  |
 | Valeur de type d’événement, 27                                                  | Événement Receive pour le protocole IPv6. La classe MOF [**\_ TypeGroup3**](tcpip-typegroup3.md) MOF définit les données d’événement pour cet événement.                                                           |
-| Valeur du type d’événement, 28                                                  | Événement Connect pour le protocole IPv6. La classe MOF [**\_ TypeGroup4**](tcpip-typegroup4.md) MOF définit les données d’événement pour cet événement.                                                           |
+| Valeur du type d’événement, 28                                                  | Connecter événement pour le protocole IPv6. La classe MOF [**\_ TypeGroup4**](tcpip-typegroup4.md) MOF définit les données d’événement pour cet événement.                                                           |
 | Valeur de type d’événement, 29                                                  | Événement de déconnexion pour le protocole IPv6. La classe MOF [**\_ TypeGroup3**](tcpip-typegroup3.md) MOF définit les données d’événement pour cet événement.                                                        |
 | Valeur de type d’événement, 30                                                  | Événement de retransmission pour le protocole IPv6. La classe MOF [**\_ TypeGroup3**](tcpip-typegroup3.md) MOF définit les données d’événement pour cet événement.                                                        |
 | Valeur de type d’événement 31                                                  | Accepter un événement pour le protocole IPv6. La classe MOF [**\_ TypeGroup4**](tcpip-typegroup4.md) MOF définit les données d’événement pour cet événement.                                                            |
@@ -78,8 +78,8 @@ Vous pouvez suivre les événements réseau dans un processus source et de desti
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

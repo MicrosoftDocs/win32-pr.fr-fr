@@ -3,7 +3,7 @@ title: External. appColorButtonShadow
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. appColorButtonShadow
 ms.assetid: 82ee5b9d-33e5-4622-be68-3922f2469606
 keywords:
-- External. appColorButtonShadow Windows Media Player
+- External. appColorButtonShadow Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cb849501404c9dea9883f239223cac0c2389ecd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f7950812fcd61b9493f95392f414109735a62824dc88f7b1762fe3ad1ee0571d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649909"
 ---
 # <a name="externalappcolorbuttonshadow"></a>External. appColorButtonShadow
 
@@ -28,7 +28,7 @@ ms.locfileid: "106532945"
 
  
 
-La propriété **appColorButtonShadow** récupère la couleur d’ombre du bouton actuelle pour l’interface utilisateur du lecteur Windows Media.
+la propriété **appColorButtonShadow** récupère la couleur d’ombre du bouton actuelle pour l’interface utilisateur Lecteur Windows Media.
 
 ``` syntax
 window.external.appColorButtonShadow
@@ -39,9 +39,9 @@ window.external.appColorButtonShadow
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les utilisateurs peuvent modifier la couleur de l’interface utilisateur du lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
+les utilisateurs peuvent modifier la couleur de l’interface utilisateur Lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
 
 ## <a name="requirements"></a>Configuration requise
 

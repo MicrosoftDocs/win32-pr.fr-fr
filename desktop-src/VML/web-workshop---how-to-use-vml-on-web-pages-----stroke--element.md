@@ -1,6 +1,6 @@
 ---
 title: Utilisation de l’élément Stroke
-description: Cet article décrit l’utilisation de l’élément Stroke de VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
+description: cet article décrit l’utilisation de l’élément Stroke de VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
 ms.assetid: e3d9dbe5-e087-4b6f-8318-c7d4485cd502
 keywords:
 - Atelier Web, élément Stroke
@@ -33,19 +33,19 @@ keywords:
 - attribut de propriété fillType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dff7a4b3bc654063fe8156476cc9c52453247a0b
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: e0cb69452abe5b3d743036f6a4db094da196281b575a6db65aa48535126fd917
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057446"
 ---
 # <a name="using-the-stroke-element"></a>Utilisation de l’élément Stroke
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
  
 

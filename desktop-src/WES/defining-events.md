@@ -4,18 +4,18 @@ description: Les fournisseurs doivent définir tous les événements qu’ils é
 ms.assetid: f282612c-cfa5-42fe-af8a-5b35c033abe2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a4c1da0e54d1e9fc328978ebe447c8e843b540c
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: c8b28dd6f9453a0b3272e6c9e7efcc40613319591174444d14abf55d6d9f385f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104381730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056037"
 ---
 # <a name="defining-events"></a>Définition des événements
 
 Les fournisseurs doivent définir tous les événements qu’ils écrivent. Pour définir un événement, utilisez l’élément **Event** .
 
-L’attribut **value** est l’identificateur d’événement et doit être unique pour les événements que vous définissez. La définition des autres attributs dépend de la personne qui utilisera les événements et à partir de où. Si les administrateurs consomment vos événements à l’aide d’un outil tel que Windows observateur d’événements, vous devez définir l’attribut de **canal** . Si le type de canal est admin, vous devez également spécifier l’attribut **Level** et le définir sur l’un des niveaux définis dans Winmeta.xml (Win : Critical à Win : verbose).
+L’attribut **value** est l’identificateur d’événement et doit être unique pour les événements que vous définissez. La définition des autres attributs dépend de la personne qui utilisera les événements et à partir de où. si les administrateurs consomment vos événements à l’aide d’un outil tel que Windows observateur d’événements, vous devez définir l’attribut de **canal** . Si le type de canal est admin, vous devez également spécifier l’attribut **Level** et le définir sur l’un des niveaux définis dans Winmeta.xml (Win : Critical à Win : verbose).
 
 Si l’événement contient des données spécifiques à un événement, vous devez définir l’attribut de **modèle** sur l’identificateur du modèle qui définit les données spécifiques à l’événement. Les attributs **Level**, **Keywords**, **Task** et **opcode** sont utilisés pour regrouper ou compartir des événements. Bien que ces attributs soient facultatifs, vous devez envisager de spécifier le niveau, la tâche, l’opcode et les mots clés, afin que les consommateurs puissent accéder facilement aux événements intéressants. Les attributs de **niveau** et de **Mots clés** peuvent également être utilisés par une session de suivi ETW pour limiter les événements écrits dans le fichier journal de suivi d’événements. L’attribut **Keywords** contient une liste délimitée par des espaces de noms de mots clés définis dans le manifeste. Si plusieurs mots clés sont spécifiés, leurs valeurs de masque sont OR’ed pour créer la valeur de mot clé que l’événement utilisera.
 

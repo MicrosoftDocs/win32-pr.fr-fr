@@ -3,9 +3,9 @@ title: External. NavigateTaskPaneURL, méthode
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. NavigateTaskPaneURL, méthode
 ms.assetid: c3a888c0-6589-4d21-9d47-37372d9069f4
 keywords:
-- Méthode NavigateTaskPaneURL lecteur Windows Media
-- Méthode NavigateTaskPaneURL lecteur Windows Media, classe externe
-- Classe externe lecteur Windows Media, méthode NavigateTaskPaneURL
+- Lecteur Windows Media de la méthode NavigateTaskPaneURL
+- méthode NavigateTaskPaneURL Lecteur Windows Media, classe externe
+- Lecteur Windows Media de classe externe, méthode NavigateTaskPaneURL
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e70558c7616738f67d9dc1d6d29eca15e5c30d4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eebcf8d799452a9966355f644f00ac5c4aecc4c066374254e8e580431b756b92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649029"
 ---
 # <a name="externalnavigatetaskpaneurl-method"></a>External. NavigateTaskPaneURL, méthode
 
@@ -74,7 +74,7 @@ External.NavigateTaskPaneURL(
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La navigation vers un volet que votre magasin en ligne ne prend pas en charge peut entraîner la modification du magasin en ligne actuel.
 

@@ -3,7 +3,7 @@ title: External. appColorDark (type 1)
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. appColorDark (type 1)
 ms.assetid: 08acf92b-7e80-463b-a5e9-9110c3a3fadb
 keywords:
-- External. appColorDark (type 1) lecteur Windows Media
+- External. appColorDark (Type 1) Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c5e44e3ae0c07dc491f9b0d72825f05d7aa1604
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 142d6138d603c11fa29dc4597c4db3b192a82bb190e798112c77415790355bfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649789"
 ---
 # <a name="externalappcolordark-type-1"></a>External. appColorDark (type 1)
 
@@ -28,7 +28,7 @@ ms.locfileid: "106525373"
 
  
 
-La propriété **appColorDark** récupère la couleur ombrée foncée actuelle de l’interface utilisateur du lecteur Windows Media.
+la propriété **appColorDark** récupère la couleur ombrée foncée actuelle de l’interface utilisateur Lecteur Windows Media.
 
 ``` syntax
 window.external.appColorDark
@@ -39,9 +39,9 @@ window.external.appColorDark
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les utilisateurs peuvent modifier la couleur de l’interface utilisateur du lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
+les utilisateurs peuvent modifier la couleur de l’interface utilisateur Lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
 
 ## <a name="requirements"></a>Configuration requise
 

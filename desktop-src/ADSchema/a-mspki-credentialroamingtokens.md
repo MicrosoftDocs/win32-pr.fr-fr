@@ -1,6 +1,6 @@
 ---
 title: MS-PKI-informations d’identification-attribut des jetons d’itinérance
-description: Stockage des objets BLOB de jeton d’informations d’identification utilisateur chiffrés pour l’itinérance. | MS-PKI-informations d’identification-attribut des jetons d’itinérance
+description: Stockage d’objets blob de jeton d’informations d’identification utilisateur chiffrés pour l’itinérance. | MS-PKI-informations d’identification-attribut des jetons d’itinérance
 ms.assetid: 35500e2b-7922-47c9-a9dd-e76ea6fd4313
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c35a0f949fd69aaad18db3b1cf965d808581c86
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 10c13392807c2c23b13d046a49e4b859964f1dc894b1024e8fa42f800892b303
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106535767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081643"
 ---
 # <a name="ms-pki-credential-roaming-tokens-attribute"></a>MS-PKI-informations d’identification-attribut des jetons d’itinérance
 
-Stockage des objets BLOB de jeton d’informations d’identification utilisateur chiffrés pour l’itinérance.
+Stockage d’objets blob de jeton d’informations d’identification utilisateur chiffrés pour l’itinérance.
 
 
 

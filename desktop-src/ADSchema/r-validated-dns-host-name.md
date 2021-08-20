@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8955da2b52e06e176a64d3cc3eafc6e299b8a725
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f926a44736fe9b5032fb89e1df3ede7663a93bc9e9ea124e9afe4c335900e42e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580379"
 ---
 # <a name="validated-dns-host-name-validated-writes"></a>Écritures validées validées DNS-Host-Name
 
@@ -39,7 +39,7 @@ Autorisation d’écriture validée pour activer le paramètre d’un attribut d
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

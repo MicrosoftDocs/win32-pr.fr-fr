@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Exstrace.dll
-ms.openlocfilehash: 5a9dc0eee2f4ea3f65fa45914c3340a99ac2d45b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6c41369e8a0d73a56dc5d9d831d0028e87a7ecec300f2e43a625f17bd25bede1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538863"
 ---
 # <a name="setasynctraceparamsex-function"></a>SetAsyncTraceParamsEx fonction)
 
@@ -99,11 +99,11 @@ Constante d’indicateur de trace qui représente l’un des types de suivi disp
 <span id="ALL_TRACE_MASK"></span><span id="all_trace_mask"></span>**Tout \_ \_Masque de trace** (0xFFFFFFFF)
 </dt> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Cette fonction retourne 1 si la fonction est réussie ; Sinon, elle retourne 0.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Exstrace.dll est un composant facultatif qui est installé avec le protocole SMTP (Simple Mail Transfer Protocol) et le protocole NNTP (Network News Transfer Protocol).
 
