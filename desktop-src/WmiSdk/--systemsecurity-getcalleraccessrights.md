@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - All
-ms.openlocfilehash: c86ea3044411e33026ed6328fcfc227e615648b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 770a4a51a6a0ea9e38e8c5bd6fed944b473a41373933cee497e98fd8f9952422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110024"
 ---
 # <a name="getcalleraccessrights-method-of-the-__systemsecurity-class"></a>Méthode GetCallerAccessRights de la \_ \_ classe SystemSecurity
 
@@ -149,7 +149,7 @@ Autorise l’accès en écriture à des listes de contrôle d’accès discréti
 
 ## <a name="return-value"></a>Valeur retournée
 
-Cette méthode retourne un **HRESULT** qui indique l’état de l’appel de la méthode. La liste suivante répertorie les valeurs de retour dont l’importance est de [**Set9XUserList**](--systemsecurity-set9xuserlist.md). Pour les applications de script et de Visual Basic, le résultat peut être obtenu à partir de out- [Parameters. returnValue](parsing-outparameters-objects.md). Pour plus d’informations, consultez [construction d’objets inparamètres et analyse d’objets de paramètres de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
+Cette méthode retourne un **HRESULT** qui indique l’état de l’appel de la méthode. La liste suivante répertorie les valeurs de retour dont l’importance est de [**Set9XUserList**](--systemsecurity-set9xuserlist.md). pour les applications de script et de Visual Basic, le résultat peut être obtenu à partir de out- [parameters. ReturnValue](parsing-outparameters-objects.md). Pour plus d’informations, consultez [construction d’objets inparamètres et analyse d’objets de paramètres de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
 
 <dl> <dt>
 
@@ -160,7 +160,7 @@ Cette méthode n’est pas prise en charge sur les versions prises en charge de 
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

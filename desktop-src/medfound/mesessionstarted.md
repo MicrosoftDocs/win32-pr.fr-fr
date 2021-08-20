@@ -4,12 +4,12 @@ ms.assetid: 28ed32f0-9b23-4da1-9587-15f490da7bf9
 title: Événement MESessionStarted (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9510fb5f5dda3d14b916ed40dcba4ca05800b52b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24cf1b461017ce9cdcbaeb57e7c327a7b12b80a63c181dbe1f50f223977c5095
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118061719"
 ---
 # <a name="mesessionstarted-event"></a>Événement MESessionStarted
 
@@ -39,14 +39,14 @@ Les attributs suivants sont définis pour cet événement.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

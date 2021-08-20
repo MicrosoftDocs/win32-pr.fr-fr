@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 440e42477a8939a62eeb84b800c0fd8feead5aab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ae2c47487ab1b1cd946c05133ef96520dffc72e9e7c3176478917f969f7f374
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118111536"
 ---
 # <a name="sio_ideal_send_backlog_query-control-code"></a>Code de contrôle SIO_IDEAL_SEND_BACKLOG_QUERY
 
@@ -148,18 +148,18 @@ Pour afficher les informations d’erreur étendues, appelez [**WSAGetLastError*
 | **WSAENOTSOCK** | Le descripteur *s* n’est pas un Socket. |
 | **WSAEOPNOTSUPP** | La commande IOCTL spécifiée n’est pas prise en charge. Cette erreur est retournée si l’IOCTL d’une **\_ requête de BACKLOG d' \_ envoi \_ \_ SIO idéale** n’est pas prise en charge par le fournisseur de transport. Cette erreur est également retournée lorsqu’une tentative d’utilisation de l’IOCTL d' **\_ envoi de journal des travaux en \_ \_ \_ souffrance SIO idéal** est effectuée sur un socket datagramme. |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’IOCTL de **\_ requête d’envoi de \_ \_ BACKLOG \_ SIO idéale** est prise en charge sur Windows Server 2008, Windows Vista avec Service Pack 1 (SP1) et les versions ultérieures du système d’exploitation.
+l’IOCTL de **\_ requête d’envoi de \_ \_ BACKLOG \_ SIO idéale** est prise en charge sur Windows Server 2008, Windows Vista avec Service Pack 1 (SP1) et les versions ultérieures du système d’exploitation.
 
-Lors de l’envoi de données via une connexion TCP à l’aide de Windows Sockets, il est important de conserver une quantité suffisante de données en attente (envoyées mais non acceptées) dans TCP afin d’obtenir le débit le plus élevé.
+lors de l’envoi de données via une connexion TCP à l’aide de Windows sockets, il est important de conserver une quantité suffisante de données en attente (envoyées mais non acceptées) dans TCP afin d’obtenir le débit le plus élevé.
 La valeur idéale pour la quantité de données en suspens pour obtenir le meilleur débit pour la connexion TCP est appelée taille du backlog d’envoi (ISB) idéal.
 La valeur ISB est une fonction du produit Bandwidth-Delay de la connexion TCP et de la fenêtre de réception publiée du récepteur (et en partie la quantité de congestion dans le réseau).
 
-La valeur ISB par connexion est disponible à partir de l’implémentation du protocole TCP dans Windows Server 2008, Windows Vista avec SP1 et les versions ultérieures du système d’exploitation.
+la valeur ISB par connexion est disponible à partir de l’implémentation du protocole TCP dans Windows Server 2008, Windows Vista avec SP1 et les versions ultérieures du système d’exploitation.
 L’IOCTL d’une **\_ requête de BACKLOG d' \_ envoi \_ \_ SIO idéale** peut être utilisée par une application pour recevoir une notification lorsque la valeur ISB change de manière dynamique pour une connexion.
 
-Sur Windows Server 2008, Windows Vista avec SP1 et les versions ultérieures du système d’exploitation, les [**SIO de \_ \_ \_ journalisation des travaux en souffrance \_ d’envoi idéales**](sio-ideal-send-backlog-change.md) et SIO sont pris en charge sur les sockets orientés flux qui sont dans un état connecté. **\_ \_ \_ \_**
+sur Windows Server 2008, Windows Vista avec SP1 et les versions ultérieures du système d’exploitation, les [**SIO de \_ \_ \_ journalisation des travaux en souffrance \_ d’envoi idéales**](sio-ideal-send-backlog-change.md) et SIO sont pris en charge sur les sockets orientés flux qui sont dans un état connecté. **\_ \_ \_ \_**
 
 La plage de la valeur ISB pour une connexion TCP peut théoriquement varier de 0 à 16 mégaoctets au maximum.
 
@@ -179,7 +179,7 @@ Dans l’idéal, l’application doit tenter de garder l’équation suivante sa
 `ISB value == send buffer limit + (number of simultaneous overlapped send requests * data length per send request)`
 
 Notez que l’utilisation des IOCTL d’ISB sur des sockets TCP de la manière ci-dessus peut entraîner une augmentation de l’utilisation de la mémoire dans Exchange pour une augmentation du débit sur les connexions avec un produit avec un délai de bande passante élevé.
-L’implémentation TCP dans Windows limite les valeurs ISB en fonction de l’utilisation globale de la mémoire système.
+l’implémentation TCP dans Windows permet de limiter les valeurs ISB en fonction de l’utilisation de la mémoire système globale.
 
 L’IOCTL d’une **\_ requête de BACKLOG d' \_ envoi \_ \_ SIO idéale** est autorisée uniquement sur un socket de flux qui est dans l’état connecté.
 Dans le cas contraire, la fonction [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) ou **WSPIoctl** échouera avec **WSAENOTCONN**.
@@ -203,7 +203,7 @@ La fonction de wrapper Inline pour le [**SIO \_ idéal \_ Send \_ BACKLOG \_ cha
 
 La fonction de wrapper Inline pour l’IOCTL de **requête d' \_ envoi de \_ \_ BACKLOG \_ SIO idéale** est la fonction **idealsendbacklogquery** .
 
-La mise en mémoire tampon d’envoi dynamique pour TCP a été ajoutée sur Windows 7 et Windows Server 2008 R2.
+la mise en mémoire tampon d’envoi dynamique pour TCP a été ajoutée sur Windows 7 et Windows Server 2008 R2.
 Par défaut, la mise en mémoire tampon d’envoi dynamique pour TCP est activée, sauf si une application définit l’option de socket **\_ SNDBUF** sur le socket de flux.
 
 L’utilisation de netsh est la méthode recommandée pour interroger ou définir la mise en mémoire tampon d’envoi dynamique pour TCP.
@@ -226,7 +226,7 @@ Bien qu’elle soit déconseillée, la mise en mémoire tampon d’envoi dynamiq
 
 Lors de la modification de la valeur de la mise en mémoire tampon d’envoi dynamique à l’aide de NetSh.exe ou de la modification de la valeur de Registre, l’ordinateur doit être redémarré pour que la modification prenne effet.
 
-Avec la mise en mémoire tampon d’envoi dynamique sur Windows 7 et Windows Server 2008 R2, l’utilisation de la [**SIO de \_ \_ \_ journalisation des travaux en souffrance \_**](sio-ideal-send-backlog-change.md) des envois idéale et SIO des IOCTL de requête d' **\_ envoi du \_ \_ backlog \_** sont nécessaires uniquement dans des circonstances particulières.
+avec la mise en mémoire tampon d’envoi dynamique sur Windows 7 et Windows Server 2008 R2, l’utilisation de la [**SIO de \_ \_ \_ journalisation des travaux en souffrance \_**](sio-ideal-send-backlog-change.md) des envois idéale SIO et des ioctl de requête d' **envoi de journal des travaux en \_ \_ \_ souffrance \_** sont nécessaires uniquement dans des circonstances particulières.
 
 ## <a name="see-also"></a>Voir aussi
 

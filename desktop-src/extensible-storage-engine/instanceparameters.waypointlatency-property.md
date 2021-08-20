@@ -26,16 +26,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5d7d837d7fff804926529ec67780e319d85031f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0e52100247a438d442d134bc3f31313b7da72df04591c44b1e6d70e159d0b7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118076642"
 ---
 # <a name="instanceparameterswaypointlatency-property"></a>InstanceParameters. WaypointLatency, propriété
 
-Obtient ou définit le nombre de journaux pour lesquels esent diffère le vidage de base de données. Cela peut être utilisé pour augmenter la capacité de récupération de base de données en cas de perte de fichiers journaux. Pris en charge sur Windows 7 et les autres. Ignoré sur Windows XP, Windows Server 2003, Windows Vista et Windows Server 2008.
+Obtient ou définit le nombre de journaux pour lesquels esent diffère le vidage de base de données. Cela peut être utilisé pour augmenter la capacité de récupération de base de données en cas de perte de fichiers journaux. pris en charge sur Windows 7 et les autres. ignoré sur Windows XP, Windows server 2003, Windows Vista et Windows server 2008.
 
 **Espace de noms :**  [Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly :**  Microsoft. ISAM. esent. Interop (en Microsoft.Isam.Esent.Interop.dll)

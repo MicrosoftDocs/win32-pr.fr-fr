@@ -4,12 +4,12 @@ ms.assetid: a8fa05c6-74b4-408e-8390-9dcbafa012f1
 title: Prise en charge MPEG-4 dans Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 054565a4d139fe70ad7736044c3a7ff708db5023
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 7d4c095ee845eb137a4ce410a3ea38bc28fac26e1737bcf30000aa254efe7fc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103869553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118058955"
 ---
 # <a name="mpeg-4-support-in-media-foundation"></a>Prise en charge MPEG-4 dans Media Foundation
 

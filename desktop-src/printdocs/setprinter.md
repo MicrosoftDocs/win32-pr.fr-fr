@@ -19,12 +19,12 @@ api_location:
 - Ext-MS-Win-printer-WinSpool-l1-1-1.dll
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 5f2c58d97315ff108c8f12bd029849993a307025
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de26915b09cd49e4742b762105d4b9ad4868110e79debfa537c63077d24d1f63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118056151"
 ---
 # <a name="setprinter-function"></a>SetPrinter fonction)
 
@@ -71,9 +71,9 @@ Pointeur vers une mémoire tampon qui contient les données à définir pour l�
 
 
 
-| Level                                                                                                | Structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Niveau                                                                                                | Structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Si le paramètre de *commande* est défini sur l' **\_ \_ \_ État du contrôle d’imprimante**, *pPrinter* doit contenir une valeur **DWORD** qui spécifie le nouvel état de l’imprimante à définir. Pour obtenir la liste des valeurs d’État possibles, consultez le membre **Status** de la structure [**Printer \_ info \_ 2**](printer-info-2.md) . Notez que l’état de l' **imprimante est \_ \_ suspendu** et que la **\_ \_ \_ suppression** de l’état de l’imprimante n’est pas une valeur d’état valide à définir.<br/> Si le *niveau* est 0, mais que le paramètre de *commande* n’est pas l'  État du jeu de contrôle d’imprimante, pPrinter doit avoir la **valeur null**. **\_ \_ \_**<br/> |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Si le paramètre de *commande* est défini sur l' **\_ \_ \_ État du contrôle d’imprimante**, *pPrinter* doit contenir une valeur **DWORD** qui spécifie le nouvel état de l’imprimante à définir. Pour obtenir la liste des valeurs d’État possibles, consultez le membre **Status** de la structure [**Printer \_ info \_ 2**](printer-info-2.md) . Notez que l’état de l' **imprimante est \_ \_ suspendu** et que la **\_ \_ \_ suppression** de l’état de l’imprimante n’est pas une valeur d’état valide à définir.<br/> Si le *niveau* est 0, mais que le paramètre de *commande* n’est pas l'  État du jeu de contrôle d’imprimante, pPrinter doit avoir la **valeur null**. **\_ \_ \_**<br/> |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Structure de l' [**imprimante \_ info \_ 2**](printer-info-2.md) contenant des informations détaillées sur l’imprimante.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | <span id="3"></span><dl> <dt>**3**</dt> </dl> | Une structure [**Printer \_ info \_ 3**](printer-info-3.md) contenant les informations de sécurité de l’imprimante.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | <span id="4"></span><dl> <dt>**4**</dt> </dl> | Une structure [**Printer \_ info \_ 4**](printer-info-4.md) contenant des informations d’imprimante minimales, y compris le nom de l’imprimante, le nom du serveur et si l’imprimante est distante ou locale.<br/>                                                                                                                                                                                                                                                                                                                                         |
@@ -121,7 +121,7 @@ Si la fonction échoue, la valeur de retour est égale à zéro.
 
 Si *Level* a la valeur 7 et que l’action de publication a échoué, **SetPrinter** retourne des **\_ e/s d’erreur \_ en attente** et tente de terminer l’action en arrière-plan. Si le *niveau* est 7 et que l’action de mise à jour a échoué, **SetPrinter** retourne le **fichier d’erreur \_ \_ \_ introuvable**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -173,7 +173,7 @@ Vous pouvez utiliser le niveau 7 avec la structure de l' [**imprimante \_ info \
 
 **DSPRINT \_ L’instance en attente** n’est pas une valeur *dwAction* valide pour **SetPrinter**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

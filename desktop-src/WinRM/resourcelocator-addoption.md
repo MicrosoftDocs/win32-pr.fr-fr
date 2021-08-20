@@ -5,7 +5,7 @@ ms.assetid: c85949fc-41e7-47eb-8aab-9b456490bc81
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode AddOption
-- Méthode AddOption Windows Remote Management, objet ResourceLocator
+- méthode AddOption Windows Remote Management, objet ResourceLocator
 - Windows Remote Management objet ResourceLocator, méthode AddOption
 topic_type:
 - apiref
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 882f400dd2c59d2395dd2755846245f4e4ad385e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2c03e587c4884e6d9efc3b98bdd7b41b4204a783e153d9e59a400a4e4bc02a65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118112964"
 ---
 # <a name="resourcelocatoraddoption-method"></a>Méthode ResourceLocator. AddOption
 
@@ -70,7 +70,7 @@ Indicateur qui indique que l’option doit être traitée. La valeur par défaut
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **IWSManResourceLocator :: AddOption** est la méthode C++ correspondante.
 

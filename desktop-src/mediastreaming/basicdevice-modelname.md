@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 344b298bb6a1c55833d798981f4b2b0e467d642b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0b4ce769238adc248251041c16c0f408fc4ff11df630916adfd955d4660b8dca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103726772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118056941"
 ---
 # <a name="basicdevicemodelname-property"></a>BasicDevice. ModelName, propriété
 
@@ -33,7 +33,7 @@ Cette propriété est en lecture seule.
 
 ```C++
 HRESULT get_ModelName(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -50,6 +50,6 @@ Pointeur vers le nom du modèle de l’appareil.
 [**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1c38ec84b9df38687a32211f3294258fd58efb96
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0d18b3f02489c17c5fd794be51fa89d1b28e31b75c441f41d48d269113591281
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118007681"
 ---
 # <a name="win32_startupcommand-class"></a>\_Classe StartupCommand Win32
 
@@ -91,16 +91,16 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows \\ \\ CurrentVersion \\ \\ Run »)
+qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| SOFTWARE \\ \\ Microsoft \\ \\ Windows \\ \\ CurrentVersion \\ \\ Run")
 </dt> </dl>
 
 Commande exécutée par la commande de démarrage.
 
 WMI obtient ces données à partir de la clé de Registre
 
-**HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Run**
+**HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Run**
 
-Exemple : « C : \\ Windows \\notepad.exe myfile.txt »
+exemple : « C : \\ Windows \\notepad.exe myfile.txt »
 
 </dd> <dt>
 
@@ -128,12 +128,12 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32Registry \| \\ \\ Software \\ \\ Microsoft \\ \\ Windows \\ \\ CurrentVersion \\ \\ Windows »)
+qualificateurs : [**key**](../wmisdk/key-qualifier.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| \\ \\ SOFTWARE \\ \\ MICROSOFT \\ \\ WINDOWS \\ \\ CURRENTVERSION \\ \\ Windows")
 </dt> </dl>
 
 Chemin d’accès où la commande de démarrage réside sur le système de fichiers du disque.
 
-Par exemple : HKLM \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Run
+par exemple : HKLM \\ SOFTWARE \\ Microsoft \\ Windows \\ CurrentVersion \\ Run
 
 <dt>
 
@@ -153,14 +153,14 @@ Par exemple : HKLM \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Run
 
 <span id="HKLM__SOFTWARE__Microsoft__Windows__CurrentVersion__Run"></span><span id="hklm__software__microsoft__windows__currentversion__run"></span><span id="HKLM__SOFTWARE__MICROSOFT__WINDOWS__CURRENTVERSION__RUN"></span>
 
-**\\ HKLM \\ LOGICIEL \\ \\ Microsoft \\ \\ Windows \\ \\ CurrentVersion \\ \\ Run** (« HKLM \\ \\ Software \\ \\ Microsoft \\ \\ Windows \\ \\ CurrentVersion \\ \\ Run »)
+**\\ HKLM \\ logiciel \\ \\ microsoft \\ \\ Windows \\ \\ currentversion \\ \\ run** (« HKLM \\ \\ SOFTWARE \\ \\ Microsoft \\ \\ Windows \\ \\ CurrentVersion \\ \\ run »)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="HKLM__SOFTWARE__Microsoft__Windows__CurrentVersion__RunServices"></span><span id="hklm__software__microsoft__windows__currentversion__runservices"></span><span id="HKLM__SOFTWARE__MICROSOFT__WINDOWS__CURRENTVERSION__RUNSERVICES"></span>
 
-**\\ HKLM \\ SOFTWARE \\ \\ Microsoft \\ \\ Windows \\ \\ CurrentVersion \\ \\ RunServices** ("HKLM \\ \\ Software \\ \\ Microsoft \\ \\ Windows \\ \\ CurrentVersion \\ \\ RunServices")
+**\\ HKLM \\ logiciel \\ \\ microsoft \\ \\ Windows \\ \\ currentversion \\ \\ RunServices** ("HKLM \\ \\ software \\ \\ Microsoft \\ \\ Windows \\ \\ CurrentVersion \\ \\ RunServices")
 
 
 </dt> <dd></dd> </dl>
@@ -239,15 +239,15 @@ Exemple : S-1-5-21-1579938362-1064596589-3161144252-1006
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ StartupCommand** est dérivée [**du \_ paramètre CIM**](cim-setting.md).
 
-Le démarrage de l’ordinateur ne se termine pas après le chargement du système d’exploitation. Au lieu de cela, le système d’exploitation Windows peut être configuré de sorte que les commandes de démarrage soient exécutées à chaque démarrage de Windows. Les commandes de démarrage sont stockées dans le registre ou dans le cadre du profil utilisateur et sont utilisées pour démarrer automatiquement des scripts ou des applications spécifiés à chaque fois que Windows est chargé.
+Le démarrage de l’ordinateur ne se termine pas après le chargement du système d’exploitation. au lieu de cela, le système d’exploitation Windows peut être configuré de sorte que les commandes de démarrage s’exécutent chaque fois que Windows démarre. les commandes de démarrage sont stockées dans le registre ou dans le cadre du profil utilisateur et sont utilisées pour démarrer automatiquement des scripts ou des applications spécifiés chaque fois que Windows est chargé.
 
-Dans la plupart des cas, les programmes AutoStart sont utiles. ils garantissent que certaines applications, telles que les outils antivirus, sont automatiquement démarrées et exécutées chaque fois que Windows est chargé. Toutefois, les programmes de démarrage automatique peuvent également être responsables des problèmes tels que :
+Dans la plupart des cas, les programmes AutoStart sont utiles. ils garantissent que certaines applications, telles que les outils antivirus, sont démarrées et exécutées automatiquement chaque fois que Windows est chargé. Toutefois, les programmes de démarrage automatique peuvent également être responsables des problèmes tels que :
 
--   Les ordinateurs qui prennent beaucoup de temps à démarrer. Cela peut être dû à un grand nombre d’applications qui doivent être démarrées à chaque démarrage de Windows.
+-   Les ordinateurs qui prennent beaucoup de temps à démarrer. cela peut être le résultat d’un grand nombre d’applications qui doivent être démarrées à chaque démarrage de Windows.
 -   Applications qui sont représentées dans la barre des tâches ou dans le gestionnaire des tâches, même si l’utilisateur ne les a pas démarrées. Bien que ces applications ne causent pas nécessairement des problèmes, elles peuvent entraîner des appels au support technique émis par des utilisateurs qui se sont déconcertés en ce qui concerne l’origine de ces programmes et pourquoi ils sont en cours d’exécution.
 -   Ordinateurs rencontrant des problèmes même lorsqu’ils semblent inactifs. Ces problèmes sont souvent suivis dans des commandes de démarrage qui s’exécutent lorsque personne n’est conscient qu’elles sont en cours d’exécution.
 
@@ -255,15 +255,15 @@ L’identification des applications et des scripts qui s’exécutent automatiqu
 
 -   HKLM \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Run
 -   HKLM \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ RunOnce
--   \\Logiciel HKCU \\ Microsoft \\ Windows \\ CurrentVersion \\ Run
--   \\Logiciel HKCU \\ Microsoft \\ Windows \\ CurrentVersion \\ RunOnce
+-   \\logiciel HKCU \\ Microsoft \\ Windows \\ CurrentVersion \\ Run
+-   \\logiciel HKCU \\ Microsoft \\ Windows \\ CurrentVersion \\ RunOnce
 -   HKU \\ ProgID \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Run
--   \\fichiers du lecteur_système et paramètres \\ tous les utilisateurs \\ démarrage des \\ programmes du menu démarrer \\
--   lecteur_système \\ Documents and Settings \\ NomUtilisateur \\ menu démarrer \\ programmes \\ démarrage
+-   \\fichiers systemdrive et Paramètres \\ les \\ \\ programmes du Menu démarrer de tous les utilisateurs \\
+-   \\fichiers lecteur_système et Paramètres \\ \\ Menu démarrer \\ programmes \\ démarrage
 
 Vous pouvez utiliser la classe WMI Win32 \_ StartupCommand pour énumérer les programmes de démarrage automatique, quel que soit l’emplacement de stockage des informations.
 
-Le processus appelant qui utilise cette classe doit avoir le privilège **se \_ Restore \_ Name** sur l’ordinateur où se trouve le registre. Par exemple, si vous énumérez cette classe sur l’ordinateur local, le compte sous lequel votre application s’exécute doit disposer de ce privilège. Pour plus d’informations, consultez [exécution d’opérations privilégiées](../wmisdk/executing-privileged-operations.md).
+le processus appelant qui utilise cette classe doit avoir le privilège **SE \_ restore \_ NAME** sur l’ordinateur où se trouve le registre. Par exemple, si vous énumérez cette classe sur l’ordinateur local, le compte sous lequel votre application s’exécute doit disposer de ce privilège. Pour plus d’informations, consultez [exécution d’opérations privilégiées](../wmisdk/executing-privileged-operations.md).
 
 Vous pouvez modifier les valeurs de Registre dans lesquelles **Win32 \_ StartupCommand** obtient des données en appelant les méthodes de [fournisseur du Registre système](/previous-versions/windows/desktop/regprov/system-registry-provider) WMI dans un script ou en C++. Pour plus d’informations, consultez [modification du Registre système](../wmisdk/modifying-the-system-registry.md).
 
@@ -290,7 +290,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

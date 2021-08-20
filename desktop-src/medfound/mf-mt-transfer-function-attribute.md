@@ -4,12 +4,12 @@ ms.assetid: c64c2135-f588-4d7a-9ca8-ae4f7b290572
 title: Attribut MF_MT_TRANSFER_FUNCTION (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d175a0e40d0aba45b4ec664d71e236e077e09a9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 009bba6f420a265241b4a01d54e3d73b023ded6070bf0a1dbd88f9a5f0f868a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118060001"
 ---
 # <a name="mf_mt_transfer_function-attribute"></a>MF \_ - \_ attribut de fonction de transfert MT \_
 
@@ -19,20 +19,20 @@ Spécifie la fonction de conversion de RGB en R’G’B’pour un type de média
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de cet attribut est un membre de l’énumération [**MFVideoTransferFunction**](/windows/desktop/api/mfobjects/ne-mfobjects-mfvideotransferfunction) .
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

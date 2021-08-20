@@ -4,12 +4,12 @@ ms.assetid: f76d5c82-33b2-4579-9420-8f97eca53ede
 title: Filtre de capture audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2a630452565fafad3c4a4420154efd8fe6b282f
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 1b02ee093e5c0e35a496773a7b39941fbaecc87646129d749e334a8bc779d51c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118001324"
 ---
 # <a name="audio-capture-filter"></a>Filtre de capture audio
 
@@ -44,7 +44,7 @@ Les broches d’entrée représentent des connexions matérielles physiques et n
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
 [Capture audio](audio-capture.md)

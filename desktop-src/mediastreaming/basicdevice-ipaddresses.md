@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7f9b12abfc87420471f8049cbb97cf629a09d17e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a86ab022aa2fd298a665d5275dde989828b555ab8258829ba3eef7271f3b4779
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118056988"
 ---
 # <a name="basicdeviceipaddresses-property"></a>BasicDevice. adressesIP, propriété
 
@@ -33,7 +33,7 @@ Cette propriété est en lecture seule.
 
 ```C++
 HRESULT get_IpAddresses(
-  [out] IVector< HSTRING > **value
+  [out] IVector< HSTRING > **value
 );
 ```
 
@@ -50,6 +50,6 @@ Collection énumérable de pointeurs vers des adresses IP.
 [**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 
