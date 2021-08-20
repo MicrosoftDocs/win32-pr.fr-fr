@@ -1,22 +1,22 @@
 ---
-description: Suppression de la réflexion du Registre Windows
+description: suppression de la réflexion de registre Windows
 ms.assetid: 4b42d44d-cde8-4d96-96c5-24b7ab7e4cec
-title: Suppression de la réflexion du Registre Windows
+title: suppression de la réflexion de registre Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eeab0109cbbac988c89d6add91fa899cea9169ad
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4a9fcd31686754f9bf2d92994bec4a53b39edaf5d94b34f464e1dfdbf1179c0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118328978"
 ---
-# <a name="removal-of-windows-registry-reflection"></a>Suppression de la réflexion du Registre Windows
+# <a name="removal-of-windows-registry-reflection"></a>suppression de la réflexion de registre Windows
 
 ## <a name="platform"></a>Plateforme
 
 **Clients** -Windows 7  
-**Serveurs** -Windows Server 2008 R2  
+**serveurs** -Windows Server 2008 R2  
 
 
 
@@ -37,9 +37,9 @@ ms.locfileid: "108116257"
 
 ## <a name="description"></a>Description
 
-Le processus de réflexion du Registre copie les clés de Registre et les valeurs entre deux vues du Registre pour les maintenir synchronisées. Dans les précédentes installations 64 bits de Windows, le processus reflétait un sous-ensemble des clés de Registre redirigées entre les vues 32 bits et 64 bits. Toutefois, l’implémentation de cela provoquait des incohérences dans l’état du Registre. (Pour plus d’informations sur la réflexion du Registre, consultez l’article MSDN correspondant dans la section *liens vers d’autres ressources* ci-dessous.)
+Le processus de réflexion du Registre copie les clés de Registre et les valeurs entre deux vues du Registre pour les maintenir synchronisées. dans les précédentes installations 64 bits de Windows, le processus reflétait un sous-ensemble des clés de registre redirigées entre les vues 32 bits et 64 bits. Toutefois, l’implémentation de cela provoquait des incohérences dans l’état du Registre. (Pour plus d’informations sur la réflexion du Registre, consultez l’article MSDN correspondant dans la section *liens vers d’autres ressources* ci-dessous.)
 
-À compter de Windows 7, nous avons supprimé complètement la réflexion du Registre et fusionné les clés qui ont utilisé pour être reflétées :
+à partir de Windows 7, nous avons supprimé complètement la réflexion du registre et fusionné les clés qui ont utilisé pour être reflétées :
 
 -   HKEY \_ local \_ machine \\ classes de logiciels \\
 -   HKEY \_ local \_ machine \\ Software \\ Microsoft \\ COM3
@@ -66,7 +66,7 @@ Ils sont utilisés pour conserver les données qui ne doivent pas être partagé
 
 Les clés CLSID et interface de la liste ci-dessus ne sont plus reflétées alors qu’elles sont toujours redirigées. Bien qu’il s’agit du comportement souhaité dans la plupart des cas, il est possible que les applications prennent une dépendance sur leur comportement réfléchi dans Vista.
 
-Les fonctions permettant aux applications de contrôler la réflexion (RegDisableReflectionKey et RegEnableReflectionKey) ne sont pas des opérations dans Windows 7.
+les fonctions permettant aux applications de contrôler la réflexion (RegDisableReflectionKey et RegEnableReflectionKey) ne sont pas des opérations dans Windows 7.
 
 ## <a name="mitigation-of-impact"></a>Atténuation de l’impact
 

@@ -3,7 +3,7 @@ title: spin, commande
 description: La commande toupie commence à tourner un disque ou arrête le disque. Les appareils Videodisc reconnaissent cette commande.
 ms.assetid: 1fdf4d09-fafd-4245-ad92-397114d0f473
 keywords:
-- commande toupie Windows multimédia
+- spin, commande Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c25e25f5a44ad6e6c9562d05653ab25cb2950b8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c4b643d1f641f7f7faf2711bc2fa8ec43efe7ca1e60a2fb178191870c5ce2354
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106536912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136451"
 ---
 # <a name="spin-command"></a>spin, commande
 

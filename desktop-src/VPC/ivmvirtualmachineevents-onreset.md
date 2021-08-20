@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6345d0e925777fbecf42247b3e3064b9f993c7c9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4101885469de59a7cd2740dc07db44101ce130df037540306f4afdab78c80fd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118122902"
 ---
 # <a name="ivmvirtualmachineeventsonreset-method"></a>IVMVirtualMachineEvents :: OnReset, méthode
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Reçoit une notification indiquant qu’un ordinateur virtuel a été réinitialisé.
 
@@ -46,7 +46,7 @@ Cette méthode n’a aucun paramètre.
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est appelée lorsque l’ordinateur virtuel a été réinitialisé. Le programme client doit implémenter cette méthode d’interface pour recevoir la notification de l' \_ événement de réinitialisation vmVirtualMachineEvent provenant de [**IVMVirtualMachine**](ivmvirtualmachine.md).
 
@@ -56,7 +56,7 @@ Cette méthode est appelée lorsque l’ordinateur virtuel a été réinitialis�
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

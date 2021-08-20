@@ -3,16 +3,16 @@ title: Utilisation de la capture vidéo
 description: Utilisation de la capture vidéo
 ms.assetid: fe8adb8f-b8e5-4af9-9faf-96a9cd375521
 keywords:
-- Video for Windows (VFW), capture vidéo
+- vidéo pour Windows (VFW), capture vidéo
 - VFW (vidéo pour Windows), capture vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 076395b7d5393540bcd9ba82ef9b9cdeb200da50
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3e857108a6a781385081b8166c4a794f9e5121133d36ffd663f812504cc0da1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136043"
 ---
 # <a name="using-video-capture"></a>Utilisation de la capture vidéo
 
@@ -37,9 +37,9 @@ Cette section contient des exemples montrant comment effectuer les tâches suiva
 -   [Création d’une fonction de rappel d’erreur](creating-an-error-callback-function.md)
 -   [Création d’une fonction de rappel de frame](creating-a-frame-callback-function.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9ad42c37-1d6b-4f1b-8173-629e2d3678f2
 title: À propos des files d’attente de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af441a1195bad5116306ca93cfbe658be5b3efc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1a7317b0bc1906aa2633f2d9f8bf0fa80401ad85684dd8f8cbbf50aa03c7f6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117966529"
 ---
 # <a name="about-file-queues"></a>À propos des files d’attente de fichiers
 

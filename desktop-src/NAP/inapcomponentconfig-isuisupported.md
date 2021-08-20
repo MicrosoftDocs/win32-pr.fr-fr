@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab7d3f6b87ba5e483b466e6746f0f63d039cb205
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5e343b037e4f77b4c1e342ffa78278854b11d714e09e9e57188d83fc9f93a180
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118134487"
 ---
 # <a name="inapcomponentconfigisuisupported-method"></a>INapComponentConfig :: IsUISupported, méthode
 
@@ -70,7 +70,7 @@ Retourne l’un des codes d’erreur suivants en fonction du résultat de cette 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface utilisateur personnalisée d’un composant doit être lancée à l’aide de [**INapComponentConfig :: InvokeUI**](inapcomponentconfig-invokeui.md).
 
@@ -81,7 +81,7 @@ L’interface utilisateur personnalisée d’un composant doit être lancée à 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>NapCommon. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapCommon. idl</dt> </dl> |
 

@@ -4,12 +4,12 @@ description: Cette rubrique définit les instructions relatives à l’interface
 ms.assetid: a9c750f1-4a72-493e-a7c8-6f6be0f1f34b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37f5f656b1be8ee6b02dae57c212205439d59d70
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e3381b14cd86f2632e1b679b4099c801f4d756862391ea530d07e9f6b34271d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118174501"
 ---
 # <a name="following-user-interface-guidelines"></a>Instructions d’interface utilisateur suivantes
 
@@ -28,7 +28,7 @@ Les instructions d’interface utilisateur sont des collections de recommandatio
 
 -   Normes.
 
-    La plupart, si elles ne sont pas toutes, les principales plateformes logicielles ont des instructions publiées pour la conception de l’interface utilisateur. C’est par exemple le cas de l’expérience utilisateur de Microsoft Windows, qui est sous-titre des recommandations officielles pour les développeurs et les concepteurs de l’interface utilisateur.
+    La plupart, si elles ne sont pas toutes, les principales plateformes logicielles ont des instructions publiées pour la conception de l’interface utilisateur. par exemple, l’expérience utilisateur de Microsoft Windows, qui est sous-titre des recommandations officielles pour les développeurs et les concepteurs de l’Interface utilisateur.
 
 -   Règles locales ou Guide de style.
 
@@ -40,13 +40,13 @@ En tant que concepteur d’applications, les instructions d’interface utilisat
 
 En revanche, les directives peuvent être trop spécifiques. Par exemple, une règle peut spécifier qu’il n’y ait pas plus de sept éléments dans un menu. Toutefois, l’ajout de menus supplémentaires peut être plus confus pour les utilisateurs que plus de sept choix dans un menu. En outre, les recommandations peuvent entrer en conflit les unes avec les autres. Par exemple, une règle peut spécifier qu’il n’y ait pas plus de sept éléments dans un menu, et un autre peut spécifier que les éléments similaires sont regroupés dans les menus. Quelle recommandation est prioritaire ?
 
-Néanmoins, lors de la conception d’une application, la cohérence visuelle encouragée par les instructions d’interface utilisateur peut être utile. Tenez compte de la cohérence que vous trouvez dans Microsoft Word et Microsoft Excel. Les interfaces utilisateur de ces produits logiciels sont très similaires dans les éléments de base, tels que les menus, les barres d’outils et le positionnement des boutons dans les boîtes de dialogue (autrement dit, l’interface de niveau surface). En outre, ils sont cohérents dans la façon dont ils gèrent de nombreuses tâches courantes : mise en forme du texte, enregistrement des fichiers, etc. La cohérence dans ces éléments et d’autres peut faciliter le transfert de compétences par les utilisateurs lors de l’apprentissage d’applications différentes. Des règles d’interface utilisateur spécifiques peuvent aider à maintenir la cohérence entre les différents produits.
+Néanmoins, lors de la conception d’une application, la cohérence visuelle encouragée par les instructions d’interface utilisateur peut être utile. considérez la cohérence trouvée dans Microsoft Word et Microsoft Excel. Les interfaces utilisateur de ces produits logiciels sont très similaires dans les éléments de base, tels que les menus, les barres d’outils et le positionnement des boutons dans les boîtes de dialogue (autrement dit, l’interface de niveau surface). En outre, ils sont cohérents dans la façon dont ils gèrent de nombreuses tâches courantes : mise en forme du texte, enregistrement des fichiers, etc. La cohérence dans ces éléments et d’autres peut faciliter le transfert de compétences par les utilisateurs lors de l’apprentissage d’applications différentes. Des règles d’interface utilisateur spécifiques peuvent aider à maintenir la cohérence entre les différents produits.
 
 Tout cela se résume au contexte : une interface utilisateur doit être conçue pour des utilisateurs, des objectifs et des tâches spécifiques. Les indications peuvent être un point de départ raisonnable, mais elles ne constituent qu’un point de départ. La valeur de la cohérence de l’interface utilisateur réside dans une formation efficace, en facilitant le transfert des connaissances d’un autre produit sans interférer avec la simplicité d’utilisation.
 
- 
+ 
 
- 
+ 
 
 
 

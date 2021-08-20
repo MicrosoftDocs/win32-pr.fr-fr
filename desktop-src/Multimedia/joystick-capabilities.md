@@ -11,12 +11,12 @@ keywords:
 - joysticks, fréquences d’interrogation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b317d5a0c8deb48b49224fd051ecb7ce5a0bbced
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 311109468485a8174d9567516e747ef786019cc105c378ee91b55fa2f123c5cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103726717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140447"
 ---
 # <a name="joystick-capabilities"></a>Fonctionnalités de la manette de jeu
 
@@ -28,6 +28,6 @@ Vous pouvez déterminer si une manette de jeu est attachée au système à l’a
 
 Chaque manette de jeu offre plusieurs fonctionnalités qui sont disponibles pour votre application. Vous pouvez récupérer les fonctionnalités d’une manette de jeu à l’aide de la fonction [**joyGetDevCaps**](/windows/win32/api/joystickapi/nf-joystickapi-joygetdevcaps) . Cette fonction remplit une structure [**JoyCaps**](/windows/win32/api/joystickapi/ns-joystickapi-joycaps) avec des fonctionnalités de manette de jeu telles que les valeurs minimale et maximale de son système de coordonnées, le nombre de boutons sur la manette de jeu et les fréquences d’interrogation minimale et maximale.
 
- 
+ 
 
- 
+ 

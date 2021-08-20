@@ -3,7 +3,7 @@ title: Message MM_JOY1BUTTONDOWN (mmsystem. h)
 description: Le \_ message JOY1BUTTONDOWN mm notifie la fenêtre qui a capturé la manette de jeu JOYSTICKID1 qu’un bouton a été enfoncé.
 ms.assetid: 764f4bb4-134d-46b8-badb-3fb06af31e13
 keywords:
-- Message MM_JOY1BUTTONDOWN Windows Multimedia
+- message MM_JOY1BUTTONDOWN Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cefb70e5dd47fc14b39dcdeb59043b6827e7b89b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2d2399eca0de21014b97c9156e6a16349fc5b0b5407b64b022eb077fd59d0609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137190"
 ---
 # <a name="mm_joy1buttondown-message"></a>MM \_ message JOY1BUTTONDOWN
 
@@ -96,7 +96,7 @@ Coordonnée y de la manette de jeu par rapport au coin supérieur gauche de la z
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

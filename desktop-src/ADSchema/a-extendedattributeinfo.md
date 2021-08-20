@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac2c5e1498716dfbac2a1c539f7c9a5bfb48fb41
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: bef680f92c2a9dba0efa02458648c6ec623ff0835e177c2926b678c6a743d510
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118177309"
 ---
 # <a name="extended-attribute-info-attribute"></a>Attribut étendu-attribute-info
 
@@ -46,7 +46,7 @@ Propriété à valeurs multiples qui contient des chaînes qui représentent des
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

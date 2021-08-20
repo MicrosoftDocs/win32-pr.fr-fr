@@ -4,12 +4,12 @@ ms.assetid: B68F8F6D-B245-48F0-A6F8-061B36EF3854
 title: Énumérations d’analyse de l’intégrité des applications Hyper-V
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d90c1ed64a84ca9c14c5ee8b063f67be6fb67836
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8cb34be28225a4972b47e5e9d4c79c9a27f4349e186fa95af75f094799248c5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118392793"
 ---
 # <a name="hyper-v-application-health-monitoring-enumerations"></a>Énumérations d’analyse de l’intégrité des applications Hyper-V
 

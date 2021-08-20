@@ -1,9 +1,9 @@
 ---
 title: Message MIM_DATA (mmsystem. h)
-description: Le \_ message de données MIM est envoyé à une fonction de rappel d’entrée MIDI lorsqu’un message MIDI est reçu par un périphérique d’entrée MIDI.
+description: le \_ message de données MIM est envoyé à une fonction de rappel d’entrée midi lorsqu’un message midi est reçu par un périphérique d’entrée midi.
 ms.assetid: 966aab84-420a-42ce-9989-da5910ced9c0
 keywords:
-- Message MIM_DATA Windows Multimedia
+- message MIM_DATA Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a11d2701d488fe29ae6d0bc0742c32c803b28076
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: bebbb9ca6016706605de8fed29e5fa5ebaf6055f4a730fb563323f306606b866
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137288"
 ---
-# <a name="mim_data-message"></a>\_Message de données MIM
+# <a name="mim_data-message"></a>MIM \_ Message de données
 
-Le message de **\_ données MIM** est envoyé à une fonction de rappel d’entrée MIDI lorsqu’un message MIDI est reçu par un périphérique d’entrée MIDI.
+le message de **\_ données MIM** est envoyé à une fonction de rappel d’entrée midi lorsqu’un message midi est reçu par un périphérique d’entrée midi.
 
 
 ```C++
@@ -45,7 +45,7 @@ Message MIDI qui a été reçu. Le message est empaqueté dans une valeur de mot
 
 
 
-| Condition requise | Value | Description |
+| Condition requise | Valeur | Description |
 |-----------|-----------------|-----------------------------------------------------|
 | Mot haut | Octet de poids fort | Non utilisé.                                           |
 |           | Octet de poids faible  | Contient un deuxième octet de données MIDI (si nécessaire).  |
@@ -77,15 +77,15 @@ L’état d’exécution des messages MIDI reçus d’un port d’entrée MIDI e
 
 Ce message n’est pas envoyé lorsqu’un message MIDI système exclusif est reçu.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

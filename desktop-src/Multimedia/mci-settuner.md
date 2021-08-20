@@ -3,7 +3,7 @@ title: Commande MCI_SETTUNER (mmsystem. h)
 description: La \_ commande MCI SETTUNER définit le canal actuel sur le tuner. Les périphériques VCR reconnaissent cette commande.
 ms.assetid: d9f4d6b8-ba73-40ec-a2f9-76adab0fd6f4
 keywords:
-- Commande MCI_SETTUNER Windows multimédia
+- commande MCI_SETTUNER Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5774a927e1f41cf5d3bf42d6e93e532e0c2961a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dc0e4d812a89c8b7ca5a8e65b322e19dcb4f7d4e7e2ef8c49745ebb16e22af65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138105"
 ---
 # <a name="mci_settuner-command"></a>\_Commande MCI SETTUNER
 
@@ -68,7 +68,7 @@ Pointeur vers une [**structure \_ \_ SETTUNER \_ PARMS de magnétoscope MCI**](m
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs supplémentaires suivants s’appliquent aux périphériques VCR :
 
@@ -124,7 +124,7 @@ Le membre **dwNumber** de la structure identifiée par *lpSetTuner* spécifie le
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

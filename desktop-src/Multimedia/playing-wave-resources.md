@@ -11,12 +11,12 @@ keywords:
 - Fonction PlaySound, comparée à la fonction sndPlaySound
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9678c18e09b12ee1e8d8215d0841cbdaba0ac9c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fd256d3c4cf07d6d2f57ba9c4d85c54b9d0e599f9382a5b8d9d1f3a0ef4705ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136758"
 ---
 # <a name="playing-wave-resources"></a>Jeux de ressources WAVE
 
@@ -42,7 +42,7 @@ soundName WAVE c:\sounds\bells.wav
 
 
 
-Le nom *soundName* est un espace réservé pour un nom que vous fournissez pour faire référence à cette ressource Wave. Les ressources WAVE sont chargées et accessibles comme les autres ressources Windows définies par l’application. La fonction PlayResource de l’exemple suivant lit une ressource WAVE spécifiée.
+Le nom *soundName* est un espace réservé pour un nom que vous fournissez pour faire référence à cette ressource Wave. les ressources WAVE sont chargées et accessibles comme d’autres ressources de Windows définies par l’application. La fonction PlayResource de l’exemple suivant lit une ressource WAVE spécifiée.
 
 
 ```C++
@@ -93,6 +93,6 @@ PlayResource("soundName");
 
 
 
- 
+ 
 
- 
+ 

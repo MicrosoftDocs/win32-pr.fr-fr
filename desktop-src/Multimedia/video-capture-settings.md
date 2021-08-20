@@ -1,6 +1,6 @@
 ---
-title: Paramètres de capture vidéo
-description: Paramètres de capture vidéo
+title: Paramètres de Capture vidéo
+description: Paramètres de Capture vidéo
 ms.assetid: f5c887ca-9430-4221-8748-5b389247b7a4
 keywords:
 - CAPTUREPARMS, structure
@@ -10,14 +10,14 @@ keywords:
 - capCaptureSetSetup macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 990868502226a5c76867261d06e0dd538e165f93
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b50eb26170c8b1594d288cec903ef0c05867a24db2d5a89a6ad60f66eef4fd0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135587"
 ---
-# <a name="video-capture-settings"></a>Paramètres de capture vidéo
+# <a name="video-capture-settings"></a>Paramètres de Capture vidéo
 
 La structure [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms) contient les paramètres de contrôle pour la capture vidéo en continu. Cette structure contrôle plusieurs aspects du processus de capture et vous permet d’effectuer les tâches suivantes :
 
@@ -31,9 +31,9 @@ La structure [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms) cont
 
 Vous pouvez récupérer les paramètres de capture actuels dans la structure [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms) en envoyant le message [**\_ \_ \_ \_ d’installation de la séquence WM**](wm-cap-get-sequence-setup.md) (ou la macro [**capCaptureGetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) ) à une fenêtre de capture. Vous pouvez définir un ou plusieurs paramètres de capture actuels en mettant à jour les membres appropriés de la structure **CAPTUREPARMS** , puis en envoyant le message [**\_ \_ \_ \_ d’installation de la séquence de l’ensemble WM Cap**](wm-cap-set-sequence-setup.md) (ou la macro [**capCaptureSetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup) ) et **CAPTUREPARMS** à une fenêtre de capture.
 
- 
+ 
 
- 
+ 
 
 
 

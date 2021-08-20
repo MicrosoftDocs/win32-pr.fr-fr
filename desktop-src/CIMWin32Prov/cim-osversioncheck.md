@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c341b9038b5b40b559b4a121adb88fbb2d7b5205
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f2ab63d04d23abddad04d4abad812754fbfc6eed2d3352fbc26fc41e172af81a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118422136"
 ---
 # <a name="cim_osversioncheck-class"></a>\_Classe CIM OSVersionCheck
 
@@ -352,7 +352,7 @@ Mac OS
 
 </dt> <dd>
 
-ATT UNIX
+UNIX ATT
 
 </dd> <dt>
 
@@ -452,7 +452,7 @@ Machine virtuelle Microsoft pour Java
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -534,7 +534,7 @@ NCR 3000
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Dépendant d’UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**UNIX dépendant** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -851,7 +851,7 @@ Cette propriété est héritée de la [**\_ vérification CIM**](cim-check.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

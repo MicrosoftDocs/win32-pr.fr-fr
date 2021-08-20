@@ -1,19 +1,19 @@
 ---
 title: Utilisation de netsh pour gérer les traces
-description: Dans Windows 7, netsh.exe peut être utilisé à partir d’une invite de commandes pour activer et configurer des suivis réseau. Cette section décrit quelques-unes des commandes netsh.exe qui peuvent vous aider à résoudre les problèmes de suivi, y compris la nouvelle fonctionnalité de suivi de netsh.
+description: dans Windows 7, netsh.exe peut être utilisé à partir d’une invite de commandes pour activer et configurer des suivis réseau. Cette section décrit quelques-unes des commandes netsh.exe qui peuvent vous aider à résoudre les problèmes de suivi, y compris la nouvelle fonctionnalité de suivi de netsh.
 ms.assetid: f0f0fc7b-7cfa-43c7-89a3-3b80050875f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c1cf869f60b69e227e78e19e8e05d3765ddb67d
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 07c4be1c89c496245cb67bec4aef8614f5efef5db003e6c79cef2e54314c3071
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133252"
 ---
 # <a name="using-netsh-to-manage-traces"></a>Utilisation de netsh pour gérer les traces
 
-Dans Windows 7, netsh.exe peut être utilisé à partir d’une invite de commandes pour activer et configurer des suivis réseau. Cette section décrit quelques-unes des commandes netsh.exe qui peuvent vous aider à résoudre les problèmes de suivi, y compris la nouvelle fonctionnalité de **suivi de netsh** . Notez que les commandes netsh doivent être exécutées à partir d’une invite de commandes avec élévation de privilèges.
+dans Windows 7, netsh.exe peut être utilisé à partir d’une invite de commandes pour activer et configurer des suivis réseau. Cette section décrit quelques-unes des commandes netsh.exe qui peuvent vous aider à résoudre les problèmes de suivi, y compris la nouvelle fonctionnalité de **suivi de netsh** . Notez que les commandes netsh doivent être exécutées à partir d’une invite de commandes avec élévation de privilèges.
 
 ## <a name="collecting-traces"></a>Collecte des traces
 
@@ -23,7 +23,7 @@ Une fois que vous avez identifié un scénario adapté à vos problèmes, vous p
 
 Vous pouvez démarrer une trace pour tous les fournisseurs dans un scénario ou un ensemble de scénarios donné. Par exemple, pour démarrer une trace pour tous les fournisseurs activés dans le cadre du scénario InternetClient, tapez **netsh trace Start Scenario = internetclient**. Pour capturer des fournisseurs pour plusieurs scénarios, vous pouvez spécifier tous les scénarios appropriés, tels que **netsh trace Start scénario = filesharing Scenario = DirectAccess**. Notez qu’une seule session de suivi peut être activée à la fois ; Il n’est pas possible de capturer simultanément des informations de trace à partir de différents ensembles de fournisseurs dans des fichiers distincts.
 
-Vous pouvez également démarrer une trace pour des fournisseurs supplémentaires non inclus dans ce scénario particulier. Par exemple, vous souhaiterez peut-être démarrer les traces pour tous les fournisseurs activés dans le cadre du scénario de réseau local sans fil et également le fournisseur DHCP. Pour ce faire, tapez **netsh trace Start scénario = WLAN Provider = Microsoft-Windows-DHCP-client**.
+Vous pouvez également démarrer une trace pour des fournisseurs supplémentaires non inclus dans ce scénario particulier. Par exemple, vous souhaiterez peut-être démarrer les traces pour tous les fournisseurs activés dans le cadre du scénario de réseau local sans fil et également le fournisseur DHCP. pour ce faire, tapez **netsh trace start scénario = wlan provider = Microsoft-Windows-Dhcp-Client**.
 
 Vous pouvez également afficher plus de détails sur un fournisseur spécifique en tapant **netsh trace Show Provider** suivi du nom du fournisseur.
 
@@ -49,16 +49,16 @@ Les filtres de trace netsh peuvent être utilisés pour réduire la taille du fi
 
 Pour afficher la liste des filtres qui peuvent être appliqués, tapez **netsh trace Start/ ?**
 
-Voici un exemple de filtre : **netsh trace Start internetclient fournisseur = Microsoft-Windows-tcpip Level = 5 Keywords = UT : ReceivePath, UT : SendPath**.
+voici un exemple de filtre : **netsh trace start InternetClient provider = Microsoft-Windows-TCPIP niveau = 5 keywords = ut : ReceivePath, ut : SendPath**.
 
 Dans cet exemple, le niveau est défini sur 5, ce qui signifie que le nombre maximal d’événements est affiché. Le tableau suivant présente les paramètres disponibles :
 
 
 
-| Level      | Paramètre              | Description                                                                           |
+| Niveau      | Paramètre              | Description                                                                           |
 |-------|---------------|----------------------------------------------------------------------------|
 | 1     | Critique      | Seuls les événements critiques seront affichés.                                        |
-| 2     | Erreurs        | Les événements critiques et les erreurs s’affichent.                                  |
+| 2     | Errors        | Les événements critiques et les erreurs s’affichent.                                  |
 | 3     | Avertissements      | Les événements critiques, les erreurs et les avertissements s’affichent.                       |
 | 4     | Informationnel | Les événements critiques, les erreurs, les avertissements et les événements d’information s’affichent. |
 | 5     | Commentaires       | Tous les événements s’affichent.                                                  |
@@ -67,7 +67,7 @@ Dans cet exemple, le niveau est défini sur 5, ce qui signifie que le nombre max
 
  
 
-Les mots clés **UT : ReceivePath** et **UT : SentPath** filtrent les événements pour afficher uniquement les événements suivis dans le chemin d’envoi ou de réception. Vous trouverez une liste complète des mots clés pour un fournisseur spécifique en tapant **netsh trace Show Provider** suivi du nom du fournisseur. Par exemple, si vous tapez **netsh trace Show Provider Microsoft-Windows-tcpip** , vous affichez des informations sur le fournisseur Microsoft-Windows-tcpip, y compris une liste de mots clés.
+Les mots clés **UT : ReceivePath** et **UT : SentPath** filtrent les événements pour afficher uniquement les événements suivis dans le chemin d’envoi ou de réception. Vous trouverez une liste complète des mots clés pour un fournisseur spécifique en tapant **netsh trace Show Provider** suivi du nom du fournisseur. par exemple, la saisie de la commande **netsh trace show provider Microsoft-Windows-tcpip** affiche des informations sur le fournisseur microsoft-Windows-tcpip, y compris une liste de mots clés.
 
 Netsh prend également en charge la fonctionnalité de filtrage de paquets (semblable à Moniteur réseau) lorsque la capture de paquets est activée (en définissant **capture = Oui**). Le filtrage de paquets peut être utilisé pour capturer un nombre limité de paquets dans un fichier de trace. Par exemple, **netsh trace Start capture = Oui IPv4. Address = = x.x.x.** x, où x.x. x est l’adresse IP, ne capture que les paquets avec le trafic IPv4 avec cette adresse source ou de destination spécifique...
 

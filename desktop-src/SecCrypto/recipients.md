@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e0f0f6474c6ed8883eb591591eff387fe387f7d6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: adbcec006add6f06651869ae9c03c17f476ea4b3679f8ddba724a1890f73f1d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117975249"
 ---
 # <a name="recipients-object"></a>Objet Recipients
 
@@ -52,7 +52,7 @@ L’objet **Recipients** possède ces méthodes.
 |:------------------------------------|:---------------------------------------------------------------------------------------|
 | [**Complémentaires**](recipients-add.md)       | Ajoute un objet [**certificat**](certificate.md) à la collection.<br/>         |
 | [**Effacer**](recipients-clear.md)   | Supprime tous les objets de [**certificat**](certificate.md) de la collection.<br/> |
-| [**Supprimer**](recipients-remove.md) | Supprime un objet [**certificat**](certificate.md) de la collection.<br/>    |
+| [**Installez**](recipients-remove.md) | Supprime un objet [**certificat**](certificate.md) de la collection.<br/>    |
 
 
 
@@ -66,25 +66,25 @@ L’objet **Recipients** possède ces propriétés.
 
 | Propriété                                           | Type d’accès          | Description                                                                                                                                                                                                                     |
 |:---------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](recipients-newenum.md)<br/> | Lecture seule<br/> | Récupère une interface [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) sur un objet qui peut être utilisé pour énumérer la collection. Cette propriété est masquée dans Visual Basic Scripting Edition (VBScript).<br/> |
-| [**Saut**](recipients-count.md)<br/>       |                      | Nombre d’objets dans la collection **Recipients** .<br/>                                                                                                                                                              |
+| [**\_NewEnum**](recipients-newenum.md)<br/> | Lecture seule<br/> | Récupère une interface [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) sur un objet qui peut être utilisé pour énumérer la collection. cette propriété est masquée dans Visual Basic scripting Edition (VBScript).<br/> |
+| [**Count**](recipients-count.md)<br/>       |                      | Nombre d’objets dans la collection **Recipients** .<br/>                                                                                                                                                              |
 | [**Élément**](recipients-item.md)<br/>         |                      | Objet indexé dans la collection. Il s’agit de la propriété par défaut.<br/>                                                                                                                                                   |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Impossible de créer l’objet **Recipients** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

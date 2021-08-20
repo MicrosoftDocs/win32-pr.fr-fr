@@ -3,7 +3,7 @@ title: Message WM_CAP_SET_VIDEOFORMAT (VFW. h)
 description: Le \_ message WM Cap \_ Set \_ VIDEOFORMAT définit le format des données de la vidéo capturée. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capSetVideoFormat.
 ms.assetid: 4f9cf90d-7ccb-4fc7-aad5-3d7e082526be
 keywords:
-- Message WM_CAP_SET_VIDEOFORMAT Windows Multimedia
+- message WM_CAP_SET_VIDEOFORMAT Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ba6154ec1532bd83f482eb81a0e286795aa3341
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c543f613fedf54518579829d6825bd20dc4738ae03cb77f0996f8a58a123cb76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135013"
 ---
 # <a name="wm_cap_set_videoformat-message"></a>\_Message VIDEOFORMAT de l’ensemble de connexions WM \_ \_
 
@@ -56,7 +56,7 @@ Pointeur vers une structure [**BITMAPINFO,**](/windows/win32/api/wingdi/ns-wingd
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Étant donné que les formats vidéo sont spécifiques à l’appareil, les applications doivent vérifier la valeur de retour de cette fonction pour déterminer si le format est accepté par le pilote.
 

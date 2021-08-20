@@ -3,7 +3,7 @@ title: Message MCIWNDM_GETERROR (VFW. h)
 description: Le \_ message MCIWNDM GETERROR récupère la dernière erreur MCI rencontrée. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndGetError.
 ms.assetid: f110a9b3-5b05-4bf0-85d1-b49ce7396222
 keywords:
-- Message MCIWNDM_GETERROR Windows Multimedia
+- message MCIWNDM_GETERROR Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c2977bb079351824b48da21f4ba3cc2dc5afe7e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b748aec6cf686ecf47baf8deae621514e620971f5e1da667f8e4f0aae708ab80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137720"
 ---
 # <a name="mciwndm_geterror-message"></a>\_Message MCIWNDM GETERROR
 
@@ -56,7 +56,7 @@ Pointeur vers une mémoire tampon définie par l’application utilisée pour re
 
 Retourne la valeur d’erreur entière en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si *LP* est un pointeur valide, une chaîne se terminant par un caractère null qui correspond à l’erreur est retournée dans sa mémoire tampon. Si la chaîne d’erreur est plus longue que la mémoire tampon, MCIWnd la tronque.
 

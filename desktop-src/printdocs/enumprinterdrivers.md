@@ -119,7 +119,7 @@ Pointeur vers une variable qui reçoit le nombre de structures retournées dans 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la valeur de retour est une valeur différente de zéro.
 

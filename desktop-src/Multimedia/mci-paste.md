@@ -3,7 +3,7 @@ title: Commande MCI_PASTE (mmsystem. h)
 description: La \_ commande de collage MCI colle les données du presse-papiers dans un fichier. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: cad5799a-08ef-4e34-803a-415b937d8fbd
 keywords:
-- Commande MCI_PASTE Windows multimédia
+- commande MCI_PASTE Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b15ff0ae3d14c1df63fbd9ab0c93a85446bdf066
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3bdc7b27838236b09952a009f1cb8c7d60091afb6634bbd74fad213f013f6e2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138230"
 ---
 # <a name="mci_paste-command"></a>\_Commande de collage MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure [**MCI \_ DGV \_ coller \_ PARMS**](/windows/desktop
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs supplémentaires suivants s’appliquent aux périphériques vidéo numériques :
 
@@ -124,7 +124,7 @@ Une valeur position est incluse dans le membre **dwTo** de la structure identifi
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 
